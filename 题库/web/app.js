@@ -4,20 +4,36 @@
   const data = window.BankData;
   const main = document.getElementById('main');
   const offline = window.BANK_OFFLINE;
-  const facets = [['school','学校'], ['grade','年级'], ['semester','学期']];
+  const facetLabels = {school:'学校', term:'年级学期', knowledge:'知识点', exam:'考点'};
   let catalog, papers, tags, generation = 0;
+  let filterBar;
 
   function route() {
     const hash = location.hash.slice(1);
     if (!hash && offline) return offline.start.mode === 'paper'
       ? {mode:'papers',paper:offline.start.key} : {mode:'practice'};
     if (hash && !hash.includes('=')) return {mode:'papers',item:decodeURIComponent(hash)};
-    return {mode:'papers', ...Object.fromEntries(new URLSearchParams(hash))};
+    const params = new URLSearchParams(hash);
+    const state = {mode:'papers', ...Object.fromEntries(params)};
+    for (const key of Object.keys(facetLabels)) {
+      if (params.has(key)) state[key] = [...new Set(params.getAll(key).filter(Boolean))];
+    }
+    // Older bookmarks addressed grade and semester separately, sometimes specifying just one.
+    if (!params.has('term') && (state.grade || state.semester)) {
+      state.term = [...new Set(catalog.papers.filter(p =>
+        (!state.grade || state.grade===p.grade) && (!state.semester || state.semester===p.semester)
+      ).map(paperTerm))];
+    }
+    delete state.grade;
+    delete state.semester;
+    return state;
   }
   function url(base, changes = {}) {
     const params = new URLSearchParams();
     for (const [key,value] of Object.entries({...base,...changes})) {
-      if (value) params.set(key,value);
+      if (Array.isArray(value)) {
+        for (const option of value.length ? value : ['']) params.append(key,option);
+      } else if (value) params.set(key,value);
     }
     return '#' + params;
   }
@@ -31,38 +47,112 @@
     if (count) row.append(element('small','',count));
     return row;
   }
-  function selectField(label, key, options, current, change, long) {
-    const wrap = element('label',long?'long':'');
-    wrap.append(document.createTextNode(label));
-    const field = element('select');
-    field.name = key;
-    field.setAttribute('aria-label',label);
-    for (const [value,text] of [['','全部'+label],...options]) field.add(new Option(text,value));
-    field.value = current || '';
-    field.addEventListener('change',() => change(field.value));
-    wrap.append(field);
-    return wrap;
-  }
-  function filters(s, withTags) {
-    const box = element('div','filters');
-    const onChange = (key,value) => follow(url(s,{[key]:value,item:null,paper:null}));
-    for (const [key,label] of facets) {
-      const values = [...new Set(catalog.papers.map(p=>p[key]).filter(Boolean))];
-      box.append(selectField(label,key,values.map(v=>[v,v]),s[key],v=>onChange(key,v)));
+  function paperTerm(p) { return [p.grade,p.semester].filter(Boolean).join(''); }
+
+  function facet(key) {
+    const label = facetLabels[key];
+    const isTag = key==='knowledge' || key==='exam';
+    const options = isTag ? catalog.tags.filter(t=>t.kind===key).map(t=>[t.id,t.name])
+      : [...new Set(catalog.papers.map(p=>key==='school'?p.school:paperTerm(p)).filter(Boolean))].map(v=>[v,v]);
+    const details = element('details','facet');
+    details.dataset.facet = key;
+    details.setAttribute('name','bank-filters');
+    const toggle = element('summary','facet-toggle');
+    const value = element('span','facet-value');
+    toggle.append(element('span','facet-title',label),value);
+    const panel = element('div','facet-panel');
+    const actions = element('div','facet-actions');
+    const list = element('div','facet-options');
+    list.setAttribute('role','group');
+    list.setAttribute('aria-label',label);
+    const boxes = [];
+    function update() {
+      const selected = boxes.filter(b=>b.checked).map(b=>b.value);
+      const noConstraint = isTag ? !selected.length : selected.length===boxes.length;
+      follow(url(route(),{[key]:noConstraint ? null : selected, item:null,paper:null}));
     }
-    if (withTags) {
-      for (const [key,label] of [['knowledge','知识点'],['exam','考点']]) {
-        const values = catalog.tags.filter(t=>t.kind===key).map(t=>[t.id,t.name]);
-        box.append(selectField(label,key,values,s[key],v=>onChange(key,v),true));
-      }
+    function checkAll(checked) {
+      for (const box of boxes) box.checked = checked;
+      update();
     }
-    return box;
+    const all = button('全选',()=>checkAll(true));
+    const none = button('取消全选',()=>checkAll(false));
+    all.title = '勾选本组所有'+label;
+    none.title = '清除本组所有'+label+'的勾选';
+    actions.append(all,none);
+    for (const [id,name] of options) {
+      const row = element('label','facet-option');
+      const box = element('input');
+      box.type = 'checkbox';
+      box.name = key; box.value = id;
+      box.addEventListener('change',update);
+      boxes.push(box);
+      row.append(box,element('span','',name)); list.append(row);
+    }
+    if (isTag) {
+      const search = element('input','facet-search');
+      search.type = 'search';
+      search.placeholder = '搜索'+label+'名称或编号';
+      search.setAttribute('aria-label',search.placeholder);
+      const empty = element('p','muted','没有匹配的'+label);
+      empty.hidden = true;
+      search.addEventListener('input',()=>{
+        const query=search.value.trim().toLowerCase();
+        for (const [i,[id,name]] of options.entries()) {
+          boxes[i].parentElement.hidden = !(id+' '+name).toLowerCase().includes(query);
+        }
+        empty.hidden = boxes.some(box=>!box.parentElement.hidden);
+      });
+      panel.append(search,actions,list,empty);
+    } else panel.append(actions,list);
+    details.append(toggle,panel);
+    function sync(state) {
+      const selected = new Set(state[key] || (isTag ? [] : options.map(([id])=>id)));
+      for (const box of boxes) box.checked = selected.has(box.value);
+      const names = options.filter(([id])=>selected.has(id)).map(([,name])=>name);
+      value.textContent = names.length===1 ? names[0]
+        : !names.length ? (isTag?'选择'+label:'未选择')
+        : names.length===options.length ? '全部（'+names.length+'）' : '已选 '+names.length+' 项';
+    }
+    return {details,sync};
   }
+  function filters(s,withTags) {
+    if (!filterBar || filterBar.withTags!==withTags || !filterBar.box.isConnected) {
+      const box = element('div','filters');
+      const fields = (withTags?Object.keys(facetLabels):['school','term']).map(facet);
+      box.append(...fields.map(f=>f.details));
+      filterBar = {box,fields,withTags};
+    }
+    for (const f of filterBar.fields) f.sync(s);
+    return filterBar.box;
+  }
+  // Keep open checklists mounted while results change so keyboard focus, the search
+  // query and the scroll position survive a sequence of selections.
+  function showWithFilters(bar,...content) {
+    if (main.firstElementChild!==bar) {main.replaceChildren(bar,...content); return;}
+    while (main.lastChild!==bar) main.lastChild.remove();
+    main.append(...content);
+  }
+  function closeOutside(event) {
+    for (const open of main.querySelectorAll('.facet[open]')) {
+      if (!open.contains(event.target)) open.open=false;
+    }
+  }
+  document.addEventListener('pointerdown',closeOutside);
+  document.addEventListener('focusin',closeOutside);
+  document.addEventListener('keydown',event=>{
+    const open=event.target.closest('.facet[open]');
+    if (event.key==='Escape' && open) {
+      event.preventDefault();
+      open.open=false;
+      open.querySelector('summary').focus();
+    }
+  });
   function matchesPaper(p,s) {
-    return p && facets.every(([key])=>!s[key] || s[key]===p[key]);
+    return p && (!s.school || s.school.includes(p.school)) && (!s.term || s.term.includes(paperTerm(p)));
   }
   function paperMeta(p) {
-    return [p.academic_year ? p.academic_year+' 学年' : '',p.grade,p.semester,p.exam_type].filter(Boolean).join(' · ');
+    return [p.academic_year ? p.academic_year+' 学年' : '',paperTerm(p),p.exam_type].filter(Boolean).join(' · ');
   }
   function label(item) {
     return '第 '+item.number+' 题'+(item.label?' · 小问 '+item.label:'');
@@ -79,7 +169,7 @@
       card.append(foot);
       grid.append(card);
     }
-    main.replaceChildren(filters(s,false),heading('试卷目录',visible.length+' 份试卷'),grid);
+    showWithFilters(filters(s,false),heading('试卷目录',visible.length+' 份试卷'),grid);
     if (!visible.length) grid.append(element('p','empty','当前筛选范围没有试卷。'));
   }
   function resultRows(results,s,compact=false,current=s.item) {
@@ -106,7 +196,10 @@
     return row;
   }
   function tagResultsText(s) {
-    return [s.knowledge,s.exam].map(id=>tags.get(id)?.name).filter(Boolean).join(' ∩ ') || '匹配题目';
+    return ['knowledge','exam'].filter(key=>s[key]?.length).map(key=>{
+      const ids=s[key];
+      return ids.length===1 ? tags.get(ids[0])?.name || ids[0] : ids.length+' 个'+facetLabels[key];
+    }).join(' ∩ ') || '匹配题目';
   }
   function tagSearch(s) {
     const box = element('section','sheet');
@@ -160,7 +253,8 @@
     step:delta=>{ const q=results[index+delta]; if(q) follow(itemURL(q.id)); }};
     const layout=element('div','workspace');
     layout.append(sideList(s,results,title,current),render(item,ctx));
-    main.replaceChildren(...extra,crumb(title,back),layout);
+    if (extra.length) showWithFilters(extra[0],crumb(title,back),layout);
+    else main.replaceChildren(crumb(title,back),layout);
     document.title=item.title+' · 深圳初中数学题库';
     window.scrollTo(0,0);
   }
@@ -183,32 +277,40 @@
   }
   async function tagView(s,turn) {
     const banner = filters(s,true);
-    const ids = [s.knowledge,s.exam].filter(Boolean);
+    const groups = ['knowledge','exam'].filter(key=>s[key]?.length);
     let results=[];
-    if (ids.length) {
+    if (groups.length && catalog.papers.some(p=>matchesPaper(p,s))) {
+      // A summary contains both sets of tags. Load the cheaper union, then apply the
+      // other group to those summaries without fetching more indexes or question bodies.
+      const cost = key => s[key].reduce((sum,id)=>sum+(tags.get(id)?.count || 0),0);
+      const [seed] = [...groups].sort((a,b)=>cost(a)-cost(b));
+      const ids = s[seed].filter(id=>tags.get(id)?.kind===seed);
       const indexes = await Promise.all(ids.map(id=>data.get('tags/'+id)));
       if (turn!==generation) return;
-      results = indexes[0].results;
-      if (indexes.length>1) {
-        const overlap = new Set(indexes[1].results.map(q=>q.id));
-        results = results.filter(q=>overlap.has(q.id));
-      }
-      results = results.filter(q=>matchesPaper(papers.get(q.paper_id),s));
+      const byId = new Map();
+      for (const index of indexes) for (const row of index.results) byId.set(row.id,row);
+      results = [...byId.values()].filter(row=>matchesPaper(papers.get(row.paper_id),s) &&
+        groups.every(key=>s[key].some(id=>row[key+'_ids'].includes(id))));
+      if (indexes.length>1) results.sort((a,b)=>a.paper_id.localeCompare(b.paper_id) ||
+        String(a.number).localeCompare(String(b.number),'zh',{numeric:true}) ||
+        a.id.localeCompare(b.id,'zh',{numeric:true}));
     }
     if (s.item) return read(s,results,'筛选结果',url(s,{item:null}),[banner],turn);
-    if (!ids.length) { main.replaceChildren(banner,tagSearch(s)); return; }
+    if (!groups.length) { showWithFilters(banner,tagSearch(s)); return; }
     const panel=element('section','sheet');
     panel.append(heading(tagResultsText(s),results.length+' 个结果'));
     panel.append(results.length?resultRows(results,s):element('p','empty','当前范围没有匹配的题目或小问。'));
-    main.replaceChildren(banner,panel);
+    showWithFilters(banner,panel);
   }
   async function practice(s,turn) {
-    const results = offline?.results || catalog.practice_results || [];
+    const results = (offline?.results || catalog.practice_results || [])
+      .filter(row=>matchesPaper(papers.get(row.paper_id),s));
     const chosen = tags.get(offline?.start.key)?.name || '专项练习';
     if (s.item) return read(s,results,'专项练习目录',url(s,{item:null}),[],turn);
     const box=element('section','sheet');
-    box.append(heading(chosen,results.length+' 项'),resultRows(results,s));
-    main.replaceChildren(box);
+    box.append(heading(chosen,results.length+' 项'),results.length?resultRows(results,s):
+      element('p','empty','当前筛选范围没有练习。'));
+    showWithFilters(filters(s,false),box);
   }
   async function draw() {
     const turn=++generation;
@@ -223,7 +325,10 @@
       const inPractice=offline?.start.mode==='practice';
       const paperTab=document.getElementById('paper-tab');
       const tagTab=document.getElementById('tag-tab');
-      if (inPractice) { paperTab.href='#mode=practice'; paperTab.textContent='专项练习目录'; }
+      const tabFilters = {school:s.school,term:s.term,knowledge:s.knowledge,exam:s.exam};
+      paperTab.href=url({mode:inPractice?'practice':'papers',...tabFilters});
+      tagTab.href=url({mode:'tags',...tabFilters});
+      if (inPractice) paperTab.textContent='专项练习目录';
       document.getElementById('home').href=offline?'#':'#mode=papers';
       tagTab.hidden=!!offline && !Object.keys(offline.data).some(k=>k.startsWith('tags/'));
       for (const [tab,current] of [[paperTab,s.mode!=='tags'],[tagTab,s.mode==='tags']]) {

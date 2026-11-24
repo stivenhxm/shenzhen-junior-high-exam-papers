@@ -175,7 +175,7 @@
     next.disabled = !ctx.next;
     pager.append(prev,next); top.append(pager); r.append(top);
     r.append(element('h2','',item.title));
-    if (paper) r.append(element('p','metadata',paper.academic_year+' 学年 · '+paper.grade+' · '+paper.semester+' · '+paper.exam_type));
+    if (paper) r.append(element('p','metadata',paper.academic_year+' 学年 · '+paper.grade+paper.semester+' · '+paper.exam_type));
     const returns = element('div','meta-links');
     if (item.label && data.hasItem(item.question_id)) returns.append(link('查看所属整题',ctx.itemURL(item.question_id)));
     if (ctx.paperURL) returns.append(link('查看本卷目录',ctx.paperURL));
