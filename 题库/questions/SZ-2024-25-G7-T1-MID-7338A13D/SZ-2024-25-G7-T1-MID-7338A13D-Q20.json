@@ -1,0 +1,280 @@
+{
+  "id": "SZ-2024-25-G7-T1-MID-7338A13D-Q20",
+  "paper_id": "SZ-2024-25-G7-T1-MID-7338A13D",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由数轴距离分析动点位置",
+  "stem": "当代印度诗人泰戈尔写道：“世界上最遥远的距离，不是瞬间便无处寻觅；而是尚未相遇，便注定无法相聚”；距离是数学、天文学、物理学中的热门话题，唯有对宇宙距离进行测量，人类才能掌握世界尺度．已知点P，Q在数轴上分别表示有理数p，q，则P，Q两点之间的距离表示为\\(PQ=\\left | { p-q } \\right |\\)．例如，在数轴上，有理数3与1对应的两点之间的距离为\\(\\left | { 3-1 } \\right |=2\\)；有理数5与\\(-2\\)对应的两点之间的距离为\\(\\left | { 5-\\left ( { -2 } \\right ) } \\right |=7\\)；…；解决问题：\n〔图1〕\n已知有理数a，b，c在数轴上对应的点分别为A，B，C，其中\\(a=2\\)，\\(b=-4\\)且满足\\(c=a+2b\\)．\n（1）c的值为______；\n（2）若点D在数轴上对应的数为x，当A、D间距离是B、C间距离的2倍时，则x的值为______；\n（3）若点A和点B分别以每秒2个单位长度和每秒1个单位长度的速度在数轴上同时向右运动，设运动时间为t秒，是否存在一个常数k，使得\\(3AC-kAB\\)的值在一定时间范围内不随运动时间t的改变而改变？若存在，求出k的值；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/19/19ddf575917b69675e414e68aa71913bb61f475596c44dd96cb8c728d6890d82.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(-6\\)\n（2）\\(6\\)或\\(-2\\)\n（3）存在；\\(k=6\\)",
+  "answer": "（1）\\(-6\\)\n（2）\\(6\\)或\\(-2\\)\n（3）存在；\\(k=6\\)",
+  "given_solution": "【分析】（1）根据\\(a=2\\)，\\(b=-4\\)，\\(c=a+2b\\)，求出c的值即可；\n（2）在数轴上应用两点间距离公式，即可求解；\n（3）表示出\\(AC、AB\\)的长度，即可求解．\n【小问1详解】\n解：∵\\(a=2\\)，\\(b=-4\\)，\n∴\\(c=a+2b=2+2\\times \\left ( { -4 } \\right )=-6\\)；\n【小问2详解】\n解：∵\\(AD=\\left | { x-2 } \\right |，BC=\\left | { -4-(-6) } \\right |=2\\)，\\(AD=2BC\\)，\n∴\\(\\left | { x-2 } \\right |=2\\times 2\\)，\n∴\\(x=6\\)或\\(x=-2\\)；\n【小问3详解】\n解：假设存在符合条件的k值，\n∵经过t秒点A表示的数是\\(2+2t\\)，点B表示的数是\\(-4+t\\)，\n∴\\(AC=\\left | { 2+2t-\\left ( { -6 } \\right ) } \\right |=2t+8\\)，\\(AB=\\left | { 2+2t-\\left ( { -4+t } \\right ) } \\right |=t+6\\)，\n∴\\(3AC-kAB=3\\left ( { 2t+8 } \\right )-k\\left ( { t+6 } \\right )=24-6k+\\left ( { 6-k } \\right )t\\)，\n由题意，\\(6-k=0\\)，\n∴\\(k=6\\)，\n即存在符合条件的k值．\n【点睛】本题考查了数轴上两点间距离，绝对值的意义，代数式求值，整式加减的应用，解题的关键是掌握在数轴上两点距离的表示方法．",
+  "given_solution_figures": [
+    "assets/figures/19/19ddf575917b69675e414e68aa71913bb61f475596c44dd96cb8c728d6890d82.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(a=2\\)，\\(b=-4\\)，\n∴\\(c=a+2b=2+2\\times \\left ( { -4 } \\right )=-6\\)；\n【小问2详解】\n解：∵\\(AD=\\left | { x-2 } \\right |，BC=\\left | { -4-(-6) } \\right |=2\\)，\\(AD=2BC\\)，\n∴\\(\\left | { x-2 } \\right |=2\\times 2\\)，\n∴\\(x=6\\)或\\(x=-2\\)；\n【小问3详解】\n解：假设存在符合条件的k值，\n∵经过t秒点A表示的数是\\(2+2t\\)，点B表示的数是\\(-4+t\\)，\n∴\\(AC=\\left | { 2+2t-\\left ( { -6 } \\right ) } \\right |=2t+8\\)，\\(AB=\\left | { 2+2t-\\left ( { -4+t } \\right ) } \\right |=t+6\\)，\n∴\\(3AC-kAB=3\\left ( { 2t+8 } \\right )-k\\left ( { t+6 } \\right )=24-6k+\\left ( { 6-k } \\right )t\\)，\n由题意，\\(6-k=0\\)，\n∴\\(k=6\\)，\n即存在符合条件的k值．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(a=2\\)，\\(b=-4\\)，",
+    "∴\\(c=a+2b=2+2\\times \\left ( { -4 } \\right )=-6\\)；",
+    "【小问2详解】",
+    "解：∵\\(AD=\\left | { x-2 } \\right |，BC=\\left | { -4-(-6) } \\right |=2\\)，\\(AD=2BC\\)，",
+    "∴\\(\\left | { x-2 } \\right |=2\\times 2\\)，",
+    "∴\\(x=6\\)或\\(x=-2\\)；",
+    "【小问3详解】",
+    "解：假设存在符合条件的k值，",
+    "∵经过t秒点A表示的数是\\(2+2t\\)，点B表示的数是\\(-4+t\\)，",
+    "∴\\(AC=\\left | { 2+2t-\\left ( { -6 } \\right ) } \\right |=2t+8\\)，\\(AB=\\left | { 2+2t-\\left ( { -4+t } \\right ) } \\right |=t+6\\)，",
+    "∴\\(3AC-kAB=3\\left ( { 2t+8 } \\right )-k\\left ( { t+6 } \\right )=24-6k+\\left ( { 6-k } \\right )t\\)，",
+    "由题意，\\(6-k=0\\)，",
+    "∴\\(k=6\\)，",
+    "即存在符合条件的k值．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "当代印度诗人泰戈尔写道：“世界上最遥远的距离，不是瞬间便无处寻觅；而是尚未相遇，便注定无法相聚”；距离是数学、天文学、物理学中的热门话题，唯有对宇宙距离进行测量，人类才能掌握世界尺度．已知点P，Q在数轴上分别表示有理数p，q，则P，Q两点之间的距离表示为\\(PQ=\\left | { p-q } \\right |\\)．例如，在数轴上，有理数3与1对应的两点之间的距离为\\(\\left | { 3-1 } \\right |=2\\)；有理数5与\\(-2\\)对应的两点之间的距离为\\(\\left | { 5-\\left ( { -2 } \\right ) } \\right |=7\\)；…；解决问题：\n〔图1〕\n已知有理数a，b，c在数轴上对应的点分别为A，B，C，其中\\(a=2\\)，\\(b=-4\\)且满足\\(c=a+2b\\)．",
+      "paper_blocks": [
+        69,
+        70,
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MID-7338A13D-Q20-P01",
+      "label": "（1）",
+      "prompt": "c的值为______；",
+      "stem_text": "c的值为______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(-6\\)",
+      "answer": "\\(-6\\)",
+      "given_solution": "解：∵\\(a=2\\)，\\(b=-4\\)，\n∴\\(c=a+2b=2+2\\times \\left ( { -4 } \\right )=-6\\)；",
+      "solution_steps": [
+        "解：∵\\(a=2\\)，\\(b=-4\\)，",
+        "∴\\(c=a+2b=2+2\\times \\left ( { -4 } \\right )=-6\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          319,
+          320
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N02.01"
+      ],
+      "exam_ids": [
+        "E.N02.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由非负量之和为零确定字母的值。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-7338A13D-Q20-P02",
+      "label": "（2）",
+      "prompt": "若点D在数轴上对应的数为x，当A、D间距离是B、C间距离的2倍时，则x的值为______；",
+      "stem_text": "若点D在数轴上对应的数为x，当A、D间距离是B、C间距离的2倍时，则x的值为______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(6\\)或\\(-2\\)",
+      "answer": "\\(6\\)或\\(-2\\)",
+      "given_solution": "解：∵\\(AD=\\left | { x-2 } \\right |，BC=\\left | { -4-(-6) } \\right |=2\\)，\\(AD=2BC\\)，\n∴\\(\\left | { x-2 } \\right |=2\\times 2\\)，\n∴\\(x=6\\)或\\(x=-2\\)；",
+      "solution_steps": [
+        "解：∵\\(AD=\\left | { x-2 } \\right |，BC=\\left | { -4-(-6) } \\right |=2\\)，\\(AD=2BC\\)，",
+        "∴\\(\\left | { x-2 } \\right |=2\\times 2\\)，",
+        "∴\\(x=6\\)或\\(x=-2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          322,
+          323,
+          324
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03"
+      ],
+      "exam_ids": [
+        "E.N01.03.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+      "tag_reason": "用数轴上两点的距离建立数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-7338A13D-Q20-P03",
+      "label": "（3）",
+      "prompt": "若点A和点B分别以每秒2个单位长度和每秒1个单位长度的速度在数轴上同时向右运动，设运动时间为t秒，是否存在一个常数k，使得\\(3AC-kAB\\)的值在一定时间范围内不随运动时间t的改变而改变？若存在，求出k的值；若不存在，请说明理由．",
+      "stem_text": "若点A和点B分别以每秒2个单位长度和每秒1个单位长度的速度在数轴上同时向右运动，设运动时间为t秒，是否存在一个常数k，使得\\(3AC-kAB\\)的值在一定时间范围内不随运动时间t的改变而改变？若存在，求出k的值；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在；\\(k=6\\)",
+      "answer": "存在；\\(k=6\\)",
+      "given_solution": "解：假设存在符合条件的k值，\n∵经过t秒点A表示的数是\\(2+2t\\)，点B表示的数是\\(-4+t\\)，\n∴\\(AC=\\left | { 2+2t-\\left ( { -6 } \\right ) } \\right |=2t+8\\)，\\(AB=\\left | { 2+2t-\\left ( { -4+t } \\right ) } \\right |=t+6\\)，\n∴\\(3AC-kAB=3\\left ( { 2t+8 } \\right )-k\\left ( { t+6 } \\right )=24-6k+\\left ( { 6-k } \\right )t\\)，\n由题意，\\(6-k=0\\)，\n∴\\(k=6\\)，\n即存在符合条件的k值．",
+      "solution_steps": [
+        "解：假设存在符合条件的k值，",
+        "∵经过t秒点A表示的数是\\(2+2t\\)，点B表示的数是\\(-4+t\\)，",
+        "∴\\(AC=\\left | { 2+2t-\\left ( { -6 } \\right ) } \\right |=2t+8\\)，\\(AB=\\left | { 2+2t-\\left ( { -4+t } \\right ) } \\right |=t+6\\)，",
+        "∴\\(3AC-kAB=3\\left ( { 2t+8 } \\right )-k\\left ( { t+6 } \\right )=24-6k+\\left ( { 6-k } \\right )t\\)，",
+        "由题意，\\(6-k=0\\)，",
+        "∴\\(k=6\\)，",
+        "即存在符合条件的k值．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          74
+        ],
+        "solution_block_ids": [
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03",
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N01.03.01",
+        "E.N06.04.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "需把运动方向、相对位置和时间一起纳入数轴距离模型。",
+      "tag_reason": "用数轴坐标和路程关系分析动点。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      74
+    ],
+    "solution_body_blocks": [
+      305,
+      333
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MID-7338A13D/paper-q20-p04.webp",
+      "assets/SZ-2024-25-G7-T1-MID-7338A13D/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          275.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MID-7338A13D/solution-q20-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          665.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N02.01",
+    "M.N01.03",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.N02.01.02",
+    "E.N01.03.01",
+    "E.N06.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。 需把运动方向、相对位置和时间一起纳入数轴距离模型。",
+  "tag_reason": "由非负量之和为零确定字母的值；用数轴上两点的距离建立数量关系；用数轴坐标和路程关系分析动点。"
+}

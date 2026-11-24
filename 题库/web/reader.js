@@ -104,19 +104,31 @@
     wrap.append(template.content);
     return wrap;
   }
-  function texText(str,cls) {
+  function texText(str,cls,figures) {
     const wrap = element('div','math-text '+(cls||''));
-    const pattern = /\\\(([\s\S]*?)\\\)|\\\[([\s\S]*?)\\\]/g;
+    const pattern = /\\\(([\s\S]*?)\\\)|\\\[([\s\S]*?)\\\]|〔图(\d+)〕/g;
     let from = 0;
     const text = String(str || '');
     for (const match of text.matchAll(pattern)) {
       wrap.append(document.createTextNode(text.slice(from,match.index)));
+      from = match.index+match[0].length;
+      if (match[3]) {
+        const path = figures?.[match[3]];
+        if (path) {
+          const label = '解析图 '+match[3];
+          const img = element('img');
+          img.alt = label; img.src = data.asset(path);
+          const view = button('',()=>openImage(path,label),'diagram-button solution-figure');
+          view.setAttribute('aria-label','放大'+label);
+          view.append(img); wrap.append(view);
+        } else wrap.append(document.createTextNode(match[0]));
+        continue;
+      }
       const tex = match[1] ?? match[2];
       const span = element('span','bank-tex',tex);
       span.dataset.tex = tex;
       if (match[2] != null) span.dataset.display = 'block';
       wrap.append(span);
-      from = match.index+match[0].length;
     }
     wrap.append(document.createTextNode(text.slice(from)));
     return wrap;
@@ -129,10 +141,14 @@
   function answerSections(item) {
     return section('答案与参考解答', async body => {
       const a = await data.get('answers/'+item.id);
-      body.replaceChildren(element('p','muted', a.solution_origin === 'source_checked_with_correction' ? '依据资料复核、校正' : '依据配套解析整理'));
-      body.append(texText(a.answer,'ref-answer'));
-      for (const step of a.solution_steps || []) body.append(texText(step,'step'));
+      const origins = {source_checked_with_correction:'依据资料复核、校正', source_transcribed:'据配套解析转录'};
+      body.replaceChildren(element('p','muted', origins[a.solution_origin] || '依据配套解析整理'));
+      body.append(texText(a.answer,'ref-answer',a.figure_refs));
+      for (const step of a.solution_steps || []) body.append(texText(step,'step',a.figure_refs));
+      const inlineFigures = new Set([a.answer,...(a.solution_steps || [])].flatMap(s=>
+        [...s.matchAll(/〔图(\d+)〕/g)].map(m=>a.figure_refs?.[m[1]])));
       for (const [index,path] of (a.solution_figures || []).entries()) {
+        if (inlineFigures.has(path)) continue;
         const label = '参考解答图 '+(index+1);
         const img = element('img');
         img.alt = label; img.src = data.asset(path); img.loading = 'lazy';
@@ -143,7 +159,7 @@
       if (a.review_note) body.append(note(a.review_note));
       body.append(section('资料原答案与原解析', async source => {
         source.replaceChildren();
-        if (a.given_answer) source.append(element('h3','','资料原答案'),texText(a.given_answer));
+        if (a.given_answer) source.append(element('h3','','资料原答案'),texText(a.given_answer,'',a.figure_refs));
         source.append(pdfLinks(a.source.solution_pdf,a.source.solution_pages,'解析版'));
         if (a.source.solution_images?.length) source.append(cuts(a.source.solution_images,a.source.solution_pages,'解析版'));
         else if (a.given_solution) source.append(texText(a.given_solution));

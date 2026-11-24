@@ -66,6 +66,7 @@ class Regeneration(unittest.TestCase):
         class Dataset:
             def __init__(self,shards):
                 self.shards=shards
+                self.registry_json=build.registry.as_json([])
         first = Dataset({"catalog":{"tags":["M.1"]},"tags/M.1":{"id":"M.1"}})
         second = Dataset({"catalog":{"tags":["M.2"]},"tags/M.2":{"id":"M.2"}})
         with tempfile.TemporaryDirectory() as temp:

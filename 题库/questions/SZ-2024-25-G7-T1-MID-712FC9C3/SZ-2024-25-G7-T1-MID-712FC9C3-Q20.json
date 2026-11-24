@@ -1,0 +1,418 @@
+{
+  "id": "SZ-2024-25-G7-T1-MID-712FC9C3-Q20",
+  "paper_id": "SZ-2024-25-G7-T1-MID-712FC9C3",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "用数轴折叠关系和运动速度求位置",
+  "stem": "已知数轴上点A、B分别表示a、b，且\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，O为原点．\n〔图1〕\n（1）\\(a=\\)______，\\(b=\\)______；\n（2）将数轴沿某个点折叠，使得点A与表示2的点重合，则此时与点B重合的点C所表示的数为______；\n（3）点A以每秒4个单位长度的速度向左运动，点B以每秒2个单位长度的速度向左运动，点C以每秒n个单位长度的速度向右运动，点A，B，C同时运动，设运动时间为t秒，回答下列问题：\n①t秒时，点A表示的数为______．（用含t的代数式表示）\n②当\\(t>5\\)时，点A与点B之间的距离是______．（用含t的代数式表示）\n③若点B与点C之间的距离记为\\(d_{ 1 }\\)，点A与点C之间的距离记为\\(d_{ 2 }\\)，是否存在有理数n，使得式子\\(3d_{ 1 } -2d_{ 2 }\\)的值为定值？若存在，求出n的值及该定值；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/b5/b59a60686aaac0b5672ac250e185219dc6c661a143ac7133eb4530f79ed2cd5b.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）8；\\(-2\\)\n（2）12    （3）①\\(8-4t\\)；②\\(2t-10\\)；③存在，当\\(n=2\\)时，为定值，定值为34．",
+  "answer": "（1）8；\\(-2\\)\n（2）12    （3）①\\(8-4t\\)；②\\(2t-10\\)；③存在，当\\(n=2\\)时，为定值，定值为34．",
+  "given_solution": "【分析】（1）根据相反数的性质得到\\(\\left | { b+2 } \\right |+\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，再根据绝对值和平方的非负性即可求解；\n（2）先求出折叠点表示的数，再根据数轴上两点间的距离即可求解；\n（3）①根据数轴上点的运动规律即可解答；\n②根据数轴上两点间的距离可得\\(AB=\\left | { \\left ( { 8-4t } \\right )-\\left ( { -2-2t } \\right ) } \\right |=\\left | { 10-2t } \\right |\\)，再结合\\(t>5\\)即可化简；\n③根据两点间的距离得到\\(d_{ 1 } =14+\\left ( { 2+n } \\right )t\\)，\\(d_{ 2 } =4+\\left ( { 4+n } \\right )t\\)，从而\\(3d_{ 1 } -2d_{ 2 } =34+\\left ( { n-2 } \\right )t\\)，因此当即\\(n=2\\)时，\\(3d_{ 1 } -2d_{ 2 } =34\\)，为定值．\n【小问1详解】\n解：∵\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，\n∴\\(\\left | { b+2 } \\right |+\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，\n∵\\(\\left | { b+2 } \\right |\\ge 0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } \\ge 0\\)\n∴\\(\\left | { b+2 } \\right |=0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，\n∴\\(a=8\\)，\\(b=-2\\)．\n故答案为：8，\\(-2\\)\n【小问2详解】\n解：∵点A表示的数是8，\n∴当数轴沿某个点折叠后点A与表示2的点重合时，折叠点表示的数为\\(\\frac { 8+2 } { 2 }=5\\)，\n∴此时与点B重合的点C所表示的数为\\(5+\\left[ 5-\\left ( { -2 } \\right ) \\right]=5+7=12\\)．\n故答案为：12\n【小问3详解】\n解：①当运动t秒时，点A表示的数是\\(8-4t\\)；\n故答案为：\\(8-4t\\)\n②当运动t秒时，点B表示的数是\\(-2-2t\\)，\n∴\\(AB=\\left | { \\left ( { 8-4t } \\right )-\\left ( { -2-2t } \\right ) } \\right |=\\left | { 10-2t } \\right |\\)，\n∵\\(t>5\\)，\n∴\\(AB=\\left | { 10-2t } \\right |=2t-10\\)；\n故答案为：\\(2t-10\\)\n③∵当运动t秒时，点A表示的数是\\(8-4t\\)，点B表示的数是\\(-2-2t\\)，点C表示的数是\\(12+nt\\)，\n∴\\(d_{ 1 } =BC=\\left ( { 12+nt } \\right )-\\left ( { -2-2t } \\right )=14+\\left ( { 2+n } \\right )t\\)，\n\\(d_{ 2 } =AC=\\left ( { 12+nt } \\right )-\\left ( { 8-4t } \\right )=4+\\left ( { 4+n } \\right )t\\)，\n∴\\(3d_{ 1 } -2d_{ 2 } =3\\left[ 14+\\left ( { 2+n } \\right )t \\right]-2\\left[ 4+\\left ( { 4+n } \\right )t \\right]\\)\n\\(=42+3\\left ( { 2+n } \\right )t-8-2\\left ( { 4+n } \\right )t\\)\n\\(=34+\\left ( { n-2 } \\right )t\\)，\n∴当\\(n-2=0\\)，即\\(n=2\\)时，\\(3d_{ 1 } -2d_{ 2 } =34\\)，为定值．\n【点睛】本题考查一元一次方程的应用，绝对值、平分的非负性，两点之间的距离，整数的加减等，熟练掌握相关知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/b5/b59a60686aaac0b5672ac250e185219dc6c661a143ac7133eb4530f79ed2cd5b.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，\n∴\\(\\left | { b+2 } \\right |+\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，\n∵\\(\\left | { b+2 } \\right |\\ge 0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } \\ge 0\\)\n∴\\(\\left | { b+2 } \\right |=0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，\n∴\\(a=8\\)，\\(b=-2\\)．\n故答案为：8，\\(-2\\)\n【小问2详解】\n解：∵点A表示的数是8，\n∴当数轴沿某个点折叠后点A与表示2的点重合时，折叠点表示的数为\\(\\frac { 8+2 } { 2 }=5\\)，\n∴此时与点B重合的点C所表示的数为\\(5+\\left[ 5-\\left ( { -2 } \\right ) \\right]=5+7=12\\)．\n故答案为：12\n【小问3详解】\n解：①当运动t秒时，点A表示的数是\\(8-4t\\)；\n故答案为：\\(8-4t\\)\n②当运动t秒时，点B表示的数是\\(-2-2t\\)，\n∴\\(AB=\\left | { \\left ( { 8-4t } \\right )-\\left ( { -2-2t } \\right ) } \\right |=\\left | { 10-2t } \\right |\\)，\n∵\\(t>5\\)，\n∴\\(AB=\\left | { 10-2t } \\right |=2t-10\\)；\n故答案为：\\(2t-10\\)\n③∵当运动t秒时，点A表示的数是\\(8-4t\\)，点B表示的数是\\(-2-2t\\)，点C表示的数是\\(12+nt\\)，\n∴\\(d_{ 1 } =BC=\\left ( { 12+nt } \\right )-\\left ( { -2-2t } \\right )=14+\\left ( { 2+n } \\right )t\\)，\n\\(d_{ 2 } =AC=\\left ( { 12+nt } \\right )-\\left ( { 8-4t } \\right )=4+\\left ( { 4+n } \\right )t\\)，\n∴\\(3d_{ 1 } -2d_{ 2 } =3\\left[ 14+\\left ( { 2+n } \\right )t \\right]-2\\left[ 4+\\left ( { 4+n } \\right )t \\right]\\)\n\\(=42+3\\left ( { 2+n } \\right )t-8-2\\left ( { 4+n } \\right )t\\)\n\\(=34+\\left ( { n-2 } \\right )t\\)，\n∴当\\(n-2=0\\)，即\\(n=2\\)时，\\(3d_{ 1 } -2d_{ 2 } =34\\)，为定值．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，",
+    "∴\\(\\left | { b+2 } \\right |+\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，",
+    "∵\\(\\left | { b+2 } \\right |\\ge 0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } \\ge 0\\)",
+    "∴\\(\\left | { b+2 } \\right |=0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，",
+    "∴\\(a=8\\)，\\(b=-2\\)．",
+    "故答案为：8，\\(-2\\)",
+    "【小问2详解】",
+    "解：∵点A表示的数是8，",
+    "∴当数轴沿某个点折叠后点A与表示2的点重合时，折叠点表示的数为\\(\\frac { 8+2 } { 2 }=5\\)，",
+    "∴此时与点B重合的点C所表示的数为\\(5+\\left[ 5-\\left ( { -2 } \\right ) \\right]=5+7=12\\)．",
+    "故答案为：12",
+    "【小问3详解】",
+    "解：①当运动t秒时，点A表示的数是\\(8-4t\\)；",
+    "故答案为：\\(8-4t\\)",
+    "②当运动t秒时，点B表示的数是\\(-2-2t\\)，",
+    "∴\\(AB=\\left | { \\left ( { 8-4t } \\right )-\\left ( { -2-2t } \\right ) } \\right |=\\left | { 10-2t } \\right |\\)，",
+    "∵\\(t>5\\)，",
+    "∴\\(AB=\\left | { 10-2t } \\right |=2t-10\\)；",
+    "故答案为：\\(2t-10\\)",
+    "③∵当运动t秒时，点A表示的数是\\(8-4t\\)，点B表示的数是\\(-2-2t\\)，点C表示的数是\\(12+nt\\)，",
+    "∴\\(d_{ 1 } =BC=\\left ( { 12+nt } \\right )-\\left ( { -2-2t } \\right )=14+\\left ( { 2+n } \\right )t\\)，",
+    "\\(d_{ 2 } =AC=\\left ( { 12+nt } \\right )-\\left ( { 8-4t } \\right )=4+\\left ( { 4+n } \\right )t\\)，",
+    "∴\\(3d_{ 1 } -2d_{ 2 } =3\\left[ 14+\\left ( { 2+n } \\right )t \\right]-2\\left[ 4+\\left ( { 4+n } \\right )t \\right]\\)",
+    "\\(=42+3\\left ( { 2+n } \\right )t-8-2\\left ( { 4+n } \\right )t\\)",
+    "\\(=34+\\left ( { n-2 } \\right )t\\)，",
+    "∴当\\(n-2=0\\)，即\\(n=2\\)时，\\(3d_{ 1 } -2d_{ 2 } =34\\)，为定值．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知数轴上点A、B分别表示a、b，且\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，O为原点．\n〔图1〕",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "点A以每秒4个单位长度的速度向左运动，点B以每秒2个单位长度的速度向左运动，点C以每秒n个单位长度的速度向右运动，点A，B，C同时运动，设运动时间为t秒，回答下列问题：",
+      "paper_blocks": [
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MID-712FC9C3-Q20-P01",
+      "label": "（1）",
+      "prompt": "\\(a=\\)______，\\(b=\\)______；",
+      "stem_text": "\\(a=\\)______，\\(b=\\)______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "8；\\(-2\\)",
+      "answer": "8；\\(-2\\)",
+      "given_solution": "解：∵\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，\n∴\\(\\left | { b+2 } \\right |+\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，\n∵\\(\\left | { b+2 } \\right |\\ge 0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } \\ge 0\\)\n∴\\(\\left | { b+2 } \\right |=0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，\n∴\\(a=8\\)，\\(b=-2\\)．\n故答案为：8，\\(-2\\)",
+      "solution_steps": [
+        "解：∵\\(\\left | { b+2 } \\right |\\)与\\(\\left ( { a-8 } \\right ) ^ { 2 }\\)互为相反数，",
+        "∴\\(\\left | { b+2 } \\right |+\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，",
+        "∵\\(\\left | { b+2 } \\right |\\ge 0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } \\ge 0\\)",
+        "∴\\(\\left | { b+2 } \\right |=0\\)，\\(\\left ( { a-8 } \\right ) ^ { 2 } =0\\)，",
+        "∴\\(a=8\\)，\\(b=-2\\)．",
+        "故答案为：8，\\(-2\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          310,
+          311,
+          312,
+          313,
+          314,
+          315
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N02.01"
+      ],
+      "exam_ids": [
+        "E.N02.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由非负量之和为零确定字母的值。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-712FC9C3-Q20-P02",
+      "label": "（2）",
+      "prompt": "将数轴沿某个点折叠，使得点A与表示2的点重合，则此时与点B重合的点C所表示的数为______；",
+      "stem_text": "将数轴沿某个点折叠，使得点A与表示2的点重合，则此时与点B重合的点C所表示的数为______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "12",
+      "answer": "12",
+      "given_solution": "解：∵点A表示的数是8，\n∴当数轴沿某个点折叠后点A与表示2的点重合时，折叠点表示的数为\\(\\frac { 8+2 } { 2 }=5\\)，\n∴此时与点B重合的点C所表示的数为\\(5+\\left[ 5-\\left ( { -2 } \\right ) \\right]=5+7=12\\)．\n故答案为：12",
+      "solution_steps": [
+        "解：∵点A表示的数是8，",
+        "∴当数轴沿某个点折叠后点A与表示2的点重合时，折叠点表示的数为\\(\\frac { 8+2 } { 2 }=5\\)，",
+        "∴此时与点B重合的点C所表示的数为\\(5+\\left[ 5-\\left ( { -2 } \\right ) \\right]=5+7=12\\)．",
+        "故答案为：12"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          317,
+          318,
+          319,
+          320
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "利用折叠前后的对应关系计算。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-712FC9C3-Q20-P03",
+      "label": "（3）①",
+      "prompt": "t秒时，点A表示的数为______．（用含t的代数式表示）",
+      "stem_text": "t秒时，点A表示的数为______．（用含t的代数式表示）",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(8-4t\\)；",
+      "answer": "\\(8-4t\\)；",
+      "given_solution": "当运动t秒时，点A表示的数是\\(8-4t\\)；\n故答案为：\\(8-4t\\)",
+      "solution_steps": [
+        "当运动t秒时，点A表示的数是\\(8-4t\\)；",
+        "故答案为：\\(8-4t\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          322,
+          323
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用代数式表示数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-712FC9C3-Q20-P04",
+      "label": "（3）②",
+      "prompt": "当\\(t>5\\)时，点A与点B之间的距离是______．（用含t的代数式表示）",
+      "stem_text": "当\\(t>5\\)时，点A与点B之间的距离是______．（用含t的代数式表示）",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(2t-10\\)；",
+      "answer": "\\(2t-10\\)；",
+      "given_solution": "当运动t秒时，点B表示的数是\\(-2-2t\\)，\n∴\\(AB=\\left | { \\left ( { 8-4t } \\right )-\\left ( { -2-2t } \\right ) } \\right |=\\left | { 10-2t } \\right |\\)，\n∵\\(t>5\\)，\n∴\\(AB=\\left | { 10-2t } \\right |=2t-10\\)；\n故答案为：\\(2t-10\\)",
+      "solution_steps": [
+        "当运动t秒时，点B表示的数是\\(-2-2t\\)，",
+        "∴\\(AB=\\left | { \\left ( { 8-4t } \\right )-\\left ( { -2-2t } \\right ) } \\right |=\\left | { 10-2t } \\right |\\)，",
+        "∵\\(t>5\\)，",
+        "∴\\(AB=\\left | { 10-2t } \\right |=2t-10\\)；",
+        "故答案为：\\(2t-10\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          324,
+          325,
+          326,
+          327,
+          328
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03"
+      ],
+      "exam_ids": [
+        "E.N01.03.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+      "tag_reason": "用数轴上两点的距离建立数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-712FC9C3-Q20-P05",
+      "label": "（3）③",
+      "prompt": "若点B与点C之间的距离记为\\(d_{ 1 }\\)，点A与点C之间的距离记为\\(d_{ 2 }\\)，是否存在有理数n，使得式子\\(3d_{ 1 } -2d_{ 2 }\\)的值为定值？若存在，求出n的值及该定值；若不存在，请说明理由．",
+      "stem_text": "若点B与点C之间的距离记为\\(d_{ 1 }\\)，点A与点C之间的距离记为\\(d_{ 2 }\\)，是否存在有理数n，使得式子\\(3d_{ 1 } -2d_{ 2 }\\)的值为定值？若存在，求出n的值及该定值；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "存在，当\\(n=2\\)时，为定值，定值为34．",
+      "answer": "存在，当\\(n=2\\)时，为定值，定值为34．",
+      "given_solution": "∵当运动t秒时，点A表示的数是\\(8-4t\\)，点B表示的数是\\(-2-2t\\)，点C表示的数是\\(12+nt\\)，\n∴\\(d_{ 1 } =BC=\\left ( { 12+nt } \\right )-\\left ( { -2-2t } \\right )=14+\\left ( { 2+n } \\right )t\\)，\n\\(d_{ 2 } =AC=\\left ( { 12+nt } \\right )-\\left ( { 8-4t } \\right )=4+\\left ( { 4+n } \\right )t\\)，\n∴\\(3d_{ 1 } -2d_{ 2 } =3\\left[ 14+\\left ( { 2+n } \\right )t \\right]-2\\left[ 4+\\left ( { 4+n } \\right )t \\right]\\)\n\\(=42+3\\left ( { 2+n } \\right )t-8-2\\left ( { 4+n } \\right )t\\)\n\\(=34+\\left ( { n-2 } \\right )t\\)，\n∴当\\(n-2=0\\)，即\\(n=2\\)时，\\(3d_{ 1 } -2d_{ 2 } =34\\)，为定值．",
+      "solution_steps": [
+        "∵当运动t秒时，点A表示的数是\\(8-4t\\)，点B表示的数是\\(-2-2t\\)，点C表示的数是\\(12+nt\\)，",
+        "∴\\(d_{ 1 } =BC=\\left ( { 12+nt } \\right )-\\left ( { -2-2t } \\right )=14+\\left ( { 2+n } \\right )t\\)，",
+        "\\(d_{ 2 } =AC=\\left ( { 12+nt } \\right )-\\left ( { 8-4t } \\right )=4+\\left ( { 4+n } \\right )t\\)，",
+        "∴\\(3d_{ 1 } -2d_{ 2 } =3\\left[ 14+\\left ( { 2+n } \\right )t \\right]-2\\left[ 4+\\left ( { 4+n } \\right )t \\right]\\)",
+        "\\(=42+3\\left ( { 2+n } \\right )t-8-2\\left ( { 4+n } \\right )t\\)",
+        "\\(=34+\\left ( { n-2 } \\right )t\\)，",
+        "∴当\\(n-2=0\\)，即\\(n=2\\)时，\\(3d_{ 1 } -2d_{ 2 } =34\\)，为定值．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09"
+      ],
+      "exam_ids": [
+        "E.N03.09.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用代数运算解释数量规律。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      71
+    ],
+    "solution_body_blocks": [
+      293,
+      336
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MID-712FC9C3/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          322.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MID-712FC9C3/solution-q20-p14.webp",
+      "assets/SZ-2024-25-G7-T1-MID-712FC9C3/solution-q20-p15.webp",
+      "assets/SZ-2024-25-G7-T1-MID-712FC9C3/solution-q20-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          510.45,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          755.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N02.01",
+    "M.G07.01",
+    "M.N03.01",
+    "M.N01.03",
+    "M.N03.09"
+  ],
+  "exam_ids": [
+    "E.N02.01.02",
+    "E.G07.01.02",
+    "E.N03.01.01",
+    "E.N01.03.01",
+    "E.N03.09.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+  "tag_reason": "由非负量之和为零确定字母的值；利用折叠前后的对应关系计算；用代数式表示数量关系；用数轴上两点的距离建立数量关系；用代数运算解释数量规律。"
+}

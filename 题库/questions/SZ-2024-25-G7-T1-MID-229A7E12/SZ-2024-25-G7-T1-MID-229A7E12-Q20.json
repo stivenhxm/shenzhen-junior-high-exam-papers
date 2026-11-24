@@ -1,0 +1,450 @@
+{
+  "id": "SZ-2024-25-G7-T1-MID-229A7E12-Q20",
+  "paper_id": "SZ-2024-25-G7-T1-MID-229A7E12",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由非负量条件确定起点并分析运动",
+  "stem": "【阅读与思考】\n素材一：如图20-1，在数轴上点M表示数m，点N表示数n，点M到点N的距离记为\\(MN\\)，我们规定：数轴上两个点之间的距离等于这两个点表示的数的差的绝对值，即：\\(MN=\\left | { m-n } \\right |\\)或\\(\\left | { n-m } \\right |\\)\n素材二：如图20-2：在数轴上点A表示数a，B表示数b，点C表示数c，数b是最大的负整数．且a，c满足：\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)．\n素材三：\n〔图1〕\n请根据上面的素材进行思考并解答下面的问题：\n（1）\\(a=\\)________，\\(b=\\)________，\\(c=\\)________；\n（2）若x为数轴上任意一点，则\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为________；\n（3）点A，B，C开始在数轴上运动，若点A以每秒2个单位长度的速度向左运动，同时，点B和点C分别以每秒1个单位长度和3个单位长度的速度向右运动，运动时间为t秒钟，\n①请问：\\(3BC-2AB\\)的值是否随着时间t的变化而改变？若变化，请说明理由；若不变，请求其值；\n②探究：若点A，C向右运动，点B向左运动，速度保持不变，\\(3BC+4AB\\)的值是否随着时间的变化而改变？若不变，请求其值；若变化，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/a7/a7778e980f52c018ae5a3639405f5aa6b2eebbf3f2f1cf571d409cf6d926170e.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(-3\\)，\\(-1\\)，5\n（2）2    （3）①14， ②当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化",
+  "answer": "（1）\\(-3\\)，\\(-1\\)，5\n（2）2    （3）①14， ②当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化",
+  "given_solution": "【分析】（1）根据最大的负整数是\\(-1\\)，绝对值和平方的非负性可求解；\n（2）由（1）得\\(\\left | { x-\\left ( { -1 } \\right ) } \\right |+\\left | { x-\\left ( { -3 } \\right ) } \\right |\\)，再结合绝对值的性质分类讨论求解即可；\n（3）①先表示出t秒后A、B、C表示的数，然后分别求出\\(AB\\)，\\(BC\\)，再代入\\(3BC-2AB\\)计算即可得出结论；\n②先表示出t秒后A、B、C表示的数，然后分别求出\\(AB\\)，\\(BC\\)，然后分A在B的左侧；A在B的右侧讨论，再代入\\(3BC+4AB\\)计算即可得出结论．\n【小问1详解】\n解：∵\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)，\n∴\\(a+3=0\\)，\\(c-5=0\\)，\n∴\\(a=-3\\)，\\(c=5\\)，\n∵b是最大的负整数，\n∴\\(b=-1\\)；\n故答案为：\\(-3\\)，\\(-1\\)，5；\n【小问2详解】\n解：由（1）得\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)\n\\(=\\left | { x-\\left ( { -1 } \\right ) } \\right |+\\left | { x-\\left ( { -3 } \\right ) } \\right |\\)\n\\(=\\left | { x+1 } \\right |+\\left | { x+3 } \\right |\\)\n当\\(x\\le -3\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )-\\left ( { x+3 } \\right )=-2x-4\\ge 2\\)；\n当\\(-3 < x < -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2\\)；\n当\\(x\\ge -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2x+4\\ge 2\\)；\n∴\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为2，\n故答案为：2；\n【小问3详解】\n解：①t秒后，A表示的数为\\(-3-2t\\)，B表示的数为\\(-1+t\\)，C表示的数\\(5+3t\\)，\n∴\\(BC=5+3t-\\left ( { -1+t } \\right )=6+2t\\)，\n\\(AB=-1+t-\\left ( { -3-2t } \\right )=2+3t\\)，\n∴\\(3BC-2AB\\)\n\\(=3\\left ( { 6+2t } \\right )-2\\left ( { 2+3t } \\right )\\)\n\\(=18+6t-4-6t\\)\n\\(=14\\)；\n②t秒后，A表示的数为\\(-3+2t\\)，B表示的数为\\(-1-t\\)，C表示的数\\(5+3t\\)，\n∴\\(BC=5+3t-\\left ( { -1-t } \\right )=6+4t\\)，\n\\(AB=\\left | { -1-t-\\left ( { -3+2t } \\right ) } \\right |=\\left | { 2-3t } \\right |\\)，\n当A、B重合时，\\(-3+2t=-1-t\\)，解得\\(t=\\frac { 2 } { 3 }\\)，\n当A在B的左侧，即\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(AB=2-3t\\)，\n∴\\(3BC+4AB\\)\n\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 2-3t } \\right )\\)\n\\(=18+12t+8-12t\\)\n\\(=26\\)，\n∴\\(3BC+4AB\\)的值不随时间t的变化而变化，值为26；\n当A在B的右侧，即\\(t>\\frac { 2 } { 3 }\\)时，\\(AB=3t-2\\)，\n∴\\(3BC+4AB\\)\n\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 3t-2 } \\right )\\)\n\\(=18+12t+12t-8\\)\n\\(=24t+10\\)；\n综上，当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化．\n【点睛】本题主要考查绝对值的非负性、最大负数、平方的非负性、两点之间的距离和绝对值的计算，代数式表示数，整式的加减运算，解题的关键是熟悉绝对值的应用和分类讨论思想的应用．",
+  "given_solution_figures": [
+    "assets/figures/a7/a7778e980f52c018ae5a3639405f5aa6b2eebbf3f2f1cf571d409cf6d926170e.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)，\n∴\\(a+3=0\\)，\\(c-5=0\\)，\n∴\\(a=-3\\)，\\(c=5\\)，\n∵b是最大的负整数，\n∴\\(b=-1\\)；\n故答案为：\\(-3\\)，\\(-1\\)，5；\n【小问2详解】\n解：由（1）得\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)\n\\(=\\left | { x-\\left ( { -1 } \\right ) } \\right |+\\left | { x-\\left ( { -3 } \\right ) } \\right |\\)\n\\(=\\left | { x+1 } \\right |+\\left | { x+3 } \\right |\\)\n当\\(x\\le -3\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )-\\left ( { x+3 } \\right )=-2x-4\\ge 2\\)；\n当\\(-3 < x < -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2\\)；\n当\\(x\\ge -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2x+4\\ge 2\\)；\n∴\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为2，\n故答案为：2；\n【小问3详解】\n解：①t秒后，A表示的数为\\(-3-2t\\)，B表示的数为\\(-1+t\\)，C表示的数\\(5+3t\\)，\n∴\\(BC=5+3t-\\left ( { -1+t } \\right )=6+2t\\)，\n\\(AB=-1+t-\\left ( { -3-2t } \\right )=2+3t\\)，\n∴\\(3BC-2AB\\)\n\\(=3\\left ( { 6+2t } \\right )-2\\left ( { 2+3t } \\right )\\)\n\\(=18+6t-4-6t\\)\n\\(=14\\)；\n②t秒后，A表示的数为\\(-3+2t\\)，B表示的数为\\(-1-t\\)，C表示的数\\(5+3t\\)，\n∴\\(BC=5+3t-\\left ( { -1-t } \\right )=6+4t\\)，\n\\(AB=\\left | { -1-t-\\left ( { -3+2t } \\right ) } \\right |=\\left | { 2-3t } \\right |\\)，\n当A、B重合时，\\(-3+2t=-1-t\\)，解得\\(t=\\frac { 2 } { 3 }\\)，\n当A在B的左侧，即\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(AB=2-3t\\)，\n∴\\(3BC+4AB\\)\n\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 2-3t } \\right )\\)\n\\(=18+12t+8-12t\\)\n\\(=26\\)，\n∴\\(3BC+4AB\\)的值不随时间t的变化而变化，值为26；\n当A在B的右侧，即\\(t>\\frac { 2 } { 3 }\\)时，\\(AB=3t-2\\)，\n∴\\(3BC+4AB\\)\n\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 3t-2 } \\right )\\)\n\\(=18+12t+12t-8\\)\n\\(=24t+10\\)；\n综上，当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)，",
+    "∴\\(a+3=0\\)，\\(c-5=0\\)，",
+    "∴\\(a=-3\\)，\\(c=5\\)，",
+    "∵b是最大的负整数，",
+    "∴\\(b=-1\\)；",
+    "故答案为：\\(-3\\)，\\(-1\\)，5；",
+    "【小问2详解】",
+    "解：由（1）得\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)",
+    "\\(=\\left | { x-\\left ( { -1 } \\right ) } \\right |+\\left | { x-\\left ( { -3 } \\right ) } \\right |\\)",
+    "\\(=\\left | { x+1 } \\right |+\\left | { x+3 } \\right |\\)",
+    "当\\(x\\le -3\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )-\\left ( { x+3 } \\right )=-2x-4\\ge 2\\)；",
+    "当\\(-3 < x < -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2\\)；",
+    "当\\(x\\ge -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2x+4\\ge 2\\)；",
+    "∴\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为2，",
+    "故答案为：2；",
+    "【小问3详解】",
+    "解：①t秒后，A表示的数为\\(-3-2t\\)，B表示的数为\\(-1+t\\)，C表示的数\\(5+3t\\)，",
+    "∴\\(BC=5+3t-\\left ( { -1+t } \\right )=6+2t\\)，",
+    "\\(AB=-1+t-\\left ( { -3-2t } \\right )=2+3t\\)，",
+    "∴\\(3BC-2AB\\)",
+    "\\(=3\\left ( { 6+2t } \\right )-2\\left ( { 2+3t } \\right )\\)",
+    "\\(=18+6t-4-6t\\)",
+    "\\(=14\\)；",
+    "②t秒后，A表示的数为\\(-3+2t\\)，B表示的数为\\(-1-t\\)，C表示的数\\(5+3t\\)，",
+    "∴\\(BC=5+3t-\\left ( { -1-t } \\right )=6+4t\\)，",
+    "\\(AB=\\left | { -1-t-\\left ( { -3+2t } \\right ) } \\right |=\\left | { 2-3t } \\right |\\)，",
+    "当A、B重合时，\\(-3+2t=-1-t\\)，解得\\(t=\\frac { 2 } { 3 }\\)，",
+    "当A在B的左侧，即\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(AB=2-3t\\)，",
+    "∴\\(3BC+4AB\\)",
+    "\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 2-3t } \\right )\\)",
+    "\\(=18+12t+8-12t\\)",
+    "\\(=26\\)，",
+    "∴\\(3BC+4AB\\)的值不随时间t的变化而变化，值为26；",
+    "当A在B的右侧，即\\(t>\\frac { 2 } { 3 }\\)时，\\(AB=3t-2\\)，",
+    "∴\\(3BC+4AB\\)",
+    "\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 3t-2 } \\right )\\)",
+    "\\(=18+12t+12t-8\\)",
+    "\\(=24t+10\\)；",
+    "综上，当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【阅读与思考】\n素材一：如图20-1，在数轴上点M表示数m，点N表示数n，点M到点N的距离记为\\(MN\\)，我们规定：数轴上两个点之间的距离等于这两个点表示的数的差的绝对值，即：\\(MN=\\left | { m-n } \\right |\\)或\\(\\left | { n-m } \\right |\\)\n素材二：如图20-2：在数轴上点A表示数a，B表示数b，点C表示数c，数b是最大的负整数．且a，c满足：\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)．\n素材三：\n〔图1〕\n请根据上面的素材进行思考并解答下面的问题：",
+      "paper_blocks": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "点A，B，C开始在数轴上运动，若点A以每秒2个单位长度的速度向左运动，同时，点B和点C分别以每秒1个单位长度和3个单位长度的速度向右运动，运动时间为t秒钟，",
+      "paper_blocks": [
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MID-229A7E12-Q20-P01",
+      "label": "（1）",
+      "prompt": "\\(a=\\)________，\\(b=\\)________，\\(c=\\)________；",
+      "stem_text": "\\(a=\\)________，\\(b=\\)________，\\(c=\\)________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(-3\\)，\\(-1\\)，5",
+      "answer": "\\(-3\\)，\\(-1\\)，5",
+      "given_solution": "解：∵\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)，\n∴\\(a+3=0\\)，\\(c-5=0\\)，\n∴\\(a=-3\\)，\\(c=5\\)，\n∵b是最大的负整数，\n∴\\(b=-1\\)；\n故答案为：\\(-3\\)，\\(-1\\)，5；",
+      "solution_steps": [
+        "解：∵\\(\\left ( { a+3 } \\right ) ^ { 2 } +\\left | { c-5 } \\right |=0\\)，",
+        "∴\\(a+3=0\\)，\\(c-5=0\\)，",
+        "∴\\(a=-3\\)，\\(c=5\\)，",
+        "∵b是最大的负整数，",
+        "∴\\(b=-1\\)；",
+        "故答案为：\\(-3\\)，\\(-1\\)，5；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          332,
+          333,
+          334,
+          335,
+          336,
+          337
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N02.01"
+      ],
+      "exam_ids": [
+        "E.N02.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由非负量之和为零确定字母的值。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-229A7E12-Q20-P02",
+      "label": "（2）",
+      "prompt": "若x为数轴上任意一点，则\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为________；",
+      "stem_text": "若x为数轴上任意一点，则\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "2",
+      "answer": "2",
+      "given_solution": "解：由（1）得\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)\n\\(=\\left | { x-\\left ( { -1 } \\right ) } \\right |+\\left | { x-\\left ( { -3 } \\right ) } \\right |\\)\n\\(=\\left | { x+1 } \\right |+\\left | { x+3 } \\right |\\)\n当\\(x\\le -3\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )-\\left ( { x+3 } \\right )=-2x-4\\ge 2\\)；\n当\\(-3 < x < -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2\\)；\n当\\(x\\ge -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2x+4\\ge 2\\)；\n∴\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为2，\n故答案为：2；",
+      "solution_steps": [
+        "解：由（1）得\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)",
+        "\\(=\\left | { x-\\left ( { -1 } \\right ) } \\right |+\\left | { x-\\left ( { -3 } \\right ) } \\right |\\)",
+        "\\(=\\left | { x+1 } \\right |+\\left | { x+3 } \\right |\\)",
+        "当\\(x\\le -3\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )-\\left ( { x+3 } \\right )=-2x-4\\ge 2\\)；",
+        "当\\(-3 < x < -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=-\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2\\)；",
+        "当\\(x\\ge -1\\)时，\\(\\left | { x+1 } \\right |+\\left | { x+3 } \\right |=\\left ( { x+1 } \\right )+\\left ( { x+3 } \\right )=2x+4\\ge 2\\)；",
+        "∴\\(\\left | { x-b } \\right |+\\left | { x-a } \\right |\\)的最小值为2，",
+        "故答案为：2；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          76
+        ],
+        "solution_block_ids": [
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03"
+      ],
+      "exam_ids": [
+        "E.N01.03.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+      "tag_reason": "用数轴上两点的距离建立数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-229A7E12-Q20-P03",
+      "label": "（3）①",
+      "prompt": "请问：\\(3BC-2AB\\)的值是否随着时间t的变化而改变？若变化，请说明理由；若不变，请求其值；",
+      "stem_text": "请问：\\(3BC-2AB\\)的值是否随着时间t的变化而改变？若变化，请说明理由；若不变，请求其值；",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "14，",
+      "answer": "14，",
+      "given_solution": "t秒后，A表示的数为\\(-3-2t\\)，B表示的数为\\(-1+t\\)，C表示的数\\(5+3t\\)，\n∴\\(BC=5+3t-\\left ( { -1+t } \\right )=6+2t\\)，\n\\(AB=-1+t-\\left ( { -3-2t } \\right )=2+3t\\)，\n∴\\(3BC-2AB\\)\n\\(=3\\left ( { 6+2t } \\right )-2\\left ( { 2+3t } \\right )\\)\n\\(=18+6t-4-6t\\)\n\\(=14\\)；",
+      "solution_steps": [
+        "t秒后，A表示的数为\\(-3-2t\\)，B表示的数为\\(-1+t\\)，C表示的数\\(5+3t\\)，",
+        "∴\\(BC=5+3t-\\left ( { -1+t } \\right )=6+2t\\)，",
+        "\\(AB=-1+t-\\left ( { -3-2t } \\right )=2+3t\\)，",
+        "∴\\(3BC-2AB\\)",
+        "\\(=3\\left ( { 6+2t } \\right )-2\\left ( { 2+3t } \\right )\\)",
+        "\\(=18+6t-4-6t\\)",
+        "\\(=14\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03",
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N01.03.01",
+        "E.N06.04.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "需把运动方向、相对位置和时间一起纳入数轴距离模型。",
+      "tag_reason": "用数轴坐标和路程关系分析动点。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-229A7E12-Q20-P04",
+      "label": "（3）②",
+      "prompt": "探究：若点A，C向右运动，点B向左运动，速度保持不变，\\(3BC+4AB\\)的值是否随着时间的变化而改变？若不变，请求其值；若变化，请说明理由．",
+      "stem_text": "探究：若点A，C向右运动，点B向左运动，速度保持不变，\\(3BC+4AB\\)的值是否随着时间的变化而改变？若不变，请求其值；若变化，请说明理由．",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化",
+      "answer": "当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化",
+      "given_solution": "t秒后，A表示的数为\\(-3+2t\\)，B表示的数为\\(-1-t\\)，C表示的数\\(5+3t\\)，\n∴\\(BC=5+3t-\\left ( { -1-t } \\right )=6+4t\\)，\n\\(AB=\\left | { -1-t-\\left ( { -3+2t } \\right ) } \\right |=\\left | { 2-3t } \\right |\\)，\n当A、B重合时，\\(-3+2t=-1-t\\)，解得\\(t=\\frac { 2 } { 3 }\\)，\n当A在B的左侧，即\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(AB=2-3t\\)，\n∴\\(3BC+4AB\\)\n\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 2-3t } \\right )\\)\n\\(=18+12t+8-12t\\)\n\\(=26\\)，\n∴\\(3BC+4AB\\)的值不随时间t的变化而变化，值为26；\n当A在B的右侧，即\\(t>\\frac { 2 } { 3 }\\)时，\\(AB=3t-2\\)，\n∴\\(3BC+4AB\\)\n\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 3t-2 } \\right )\\)\n\\(=18+12t+12t-8\\)\n\\(=24t+10\\)；\n综上，当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化．",
+      "solution_steps": [
+        "t秒后，A表示的数为\\(-3+2t\\)，B表示的数为\\(-1-t\\)，C表示的数\\(5+3t\\)，",
+        "∴\\(BC=5+3t-\\left ( { -1-t } \\right )=6+4t\\)，",
+        "\\(AB=\\left | { -1-t-\\left ( { -3+2t } \\right ) } \\right |=\\left | { 2-3t } \\right |\\)，",
+        "当A、B重合时，\\(-3+2t=-1-t\\)，解得\\(t=\\frac { 2 } { 3 }\\)，",
+        "当A在B的左侧，即\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(AB=2-3t\\)，",
+        "∴\\(3BC+4AB\\)",
+        "\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 2-3t } \\right )\\)",
+        "\\(=18+12t+8-12t\\)",
+        "\\(=26\\)，",
+        "∴\\(3BC+4AB\\)的值不随时间t的变化而变化，值为26；",
+        "当A在B的右侧，即\\(t>\\frac { 2 } { 3 }\\)时，\\(AB=3t-2\\)，",
+        "∴\\(3BC+4AB\\)",
+        "\\(=3\\left ( { 6+4t } \\right )+4\\left ( { 3t-2 } \\right )\\)",
+        "\\(=18+12t+12t-8\\)",
+        "\\(=24t+10\\)；",
+        "综上，当\\(0 < t < \\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值为26；当\\(t>\\frac { 2 } { 3 }\\)时，\\(3BC+4AB\\)的值随时间t的变化而变化．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          77,
+          79
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03",
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N01.03.01",
+        "E.N06.04.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "需把运动方向、相对位置和时间一起纳入数轴距离模型。",
+      "tag_reason": "用数轴坐标和路程关系分析动点。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      79
+    ],
+    "solution_body_blocks": [
+      313,
+      371
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MID-229A7E12/paper-q20-p04.webp",
+      "assets/SZ-2024-25-G7-T1-MID-229A7E12/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          615.0,
+          583.64,
+          762.27
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          283.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MID-229A7E12/solution-q20-p15.webp",
+      "assets/SZ-2024-25-G7-T1-MID-229A7E12/solution-q20-p16.webp",
+      "assets/SZ-2024-25-G7-T1-MID-229A7E12/solution-q20-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          557.27,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N02.01",
+    "M.N01.03",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.N02.01.02",
+    "E.N01.03.01",
+    "E.N06.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。 需把运动方向、相对位置和时间一起纳入数轴距离模型。",
+  "tag_reason": "由非负量之和为零确定字母的值；用数轴上两点的距离建立数量关系；用数轴坐标和路程关系分析动点。"
+}

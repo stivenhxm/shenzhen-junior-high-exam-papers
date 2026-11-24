@@ -1,0 +1,101 @@
+{
+  "id": "SZ-2024-25-G7-T1-MONTH-6D7B5C5E-Q15",
+  "paper_id": "SZ-2024-25-G7-T1-MONTH-6D7B5C5E",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "依照已发现的规律推算指定项",
+  "stem": "规定：符号[x]叫做取整符号，它表示不超过x的最大整数．\n例如：\\(\\left[ 5 \\right]=5\\)，\\(\\left[ 2.6 \\right]=2\\)，\\(\\left[ 0.2 \\right]=0\\)．\n现在有一列非负数\\(a_{ 1 } ,a_{ 2 } ,a_{ 3 } ,\\ldots\\)，已知\\(a_{ 1 } =10\\)，当\\(n\\ge 2\\)时，\\(a_{ n } =a_{n-1} +1-5\\left ( { \\left[ \\frac { n-1 } { 5 } \\right]-\\left[ \\frac { n-2 } { 5 } \\right] } \\right )\\)，则\\(a_{ 2024 }\\)的值为 ______________．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "13",
+  "answer": "13",
+  "given_solution": "【分析】此题考查了规律型—数字的变化类，解题的关键是理解取整符号的定义，找到规律．根据题意依次求出\\(a_{ 1 }\\)，\\(a_{ 2 }\\)，\\(a_{ 3 }\\)，\\(a_{ 4 }\\)，\\(a_{ 5 }\\)，\\(a_{ 6 }\\)，得出\\(a_{ 1 }\\)，\\(a_{ 2 }\\)，\\(a_{ 3 }\\)…\\(a_{ n }\\)的变化规律，再利用规律求出\\(a_{ 2024 }\\)的值．\n【详解】解：∵\\(a_{ 1 } =10\\)，\n∴\\(a_{ 2 } =10+1-5\\left ( { \\left[ \\frac { 2-1 } { 5 } \\right]-\\left[ \\frac { 2-2 } { 5 } \\right] } \\right )=11\\)，\n\\(a_{ 3 } =11+1-5\\left ( { \\left[ \\frac { 3-1 } { 5 } \\right]-\\left[ \\frac { 3-2 } { 5 } \\right] } \\right )=12\\)，\n\\(a_{ 4 } =12+1-5\\left ( { \\left[ \\frac { 4-1 } { 5 } \\right]-\\left[ \\frac { 4-2 } { 5 } \\right] } \\right )=13\\)，\n\\(a_{ 5 } =13+1-5\\left ( { \\left[ \\frac { 5-1 } { 5 } \\right]-\\left[ \\frac { 5-2 } { 5 } \\right] } \\right )=14\\)，\n\\(a_{ 6 } =14+1-5\\left ( { \\left[ \\frac { 6-1 } { 5 } \\right]-\\left[ \\frac { 6-2 } { 5 } \\right] } \\right )=10\\)，\n．．．．．，\n∴\\(a_{ 1 }\\)，\\(a_{ 2 }\\)，\\(a_{ 3 }\\)…\\(a_{ n }\\)的变化规律是以10，11，12，13，14这五个数依次循环，\n∵\\(2024\\div 5=404\\ldots 4\\)，\n∴\\(a_{ 2024 } =a_{ 4 } =13\\)，\n故答案为：13．",
+  "given_solution_figures": [],
+  "solution": "解：∵\\(a_{ 1 } =10\\)，\n∴\\(a_{ 2 } =10+1-5\\left ( { \\left[ \\frac { 2-1 } { 5 } \\right]-\\left[ \\frac { 2-2 } { 5 } \\right] } \\right )=11\\)，\n\\(a_{ 3 } =11+1-5\\left ( { \\left[ \\frac { 3-1 } { 5 } \\right]-\\left[ \\frac { 3-2 } { 5 } \\right] } \\right )=12\\)，\n\\(a_{ 4 } =12+1-5\\left ( { \\left[ \\frac { 4-1 } { 5 } \\right]-\\left[ \\frac { 4-2 } { 5 } \\right] } \\right )=13\\)，\n\\(a_{ 5 } =13+1-5\\left ( { \\left[ \\frac { 5-1 } { 5 } \\right]-\\left[ \\frac { 5-2 } { 5 } \\right] } \\right )=14\\)，\n\\(a_{ 6 } =14+1-5\\left ( { \\left[ \\frac { 6-1 } { 5 } \\right]-\\left[ \\frac { 6-2 } { 5 } \\right] } \\right )=10\\)，\n．．．．．，\n∴\\(a_{ 1 }\\)，\\(a_{ 2 }\\)，\\(a_{ 3 }\\)…\\(a_{ n }\\)的变化规律是以10，11，12，13，14这五个数依次循环，\n∵\\(2024\\div 5=404\\ldots 4\\)，\n∴\\(a_{ 2024 } =a_{ 4 } =13\\)，\n故答案为：13．",
+  "solution_steps": [
+    "解：∵\\(a_{ 1 } =10\\)，",
+    "∴\\(a_{ 2 } =10+1-5\\left ( { \\left[ \\frac { 2-1 } { 5 } \\right]-\\left[ \\frac { 2-2 } { 5 } \\right] } \\right )=11\\)，",
+    "\\(a_{ 3 } =11+1-5\\left ( { \\left[ \\frac { 3-1 } { 5 } \\right]-\\left[ \\frac { 3-2 } { 5 } \\right] } \\right )=12\\)，",
+    "\\(a_{ 4 } =12+1-5\\left ( { \\left[ \\frac { 4-1 } { 5 } \\right]-\\left[ \\frac { 4-2 } { 5 } \\right] } \\right )=13\\)，",
+    "\\(a_{ 5 } =13+1-5\\left ( { \\left[ \\frac { 5-1 } { 5 } \\right]-\\left[ \\frac { 5-2 } { 5 } \\right] } \\right )=14\\)，",
+    "\\(a_{ 6 } =14+1-5\\left ( { \\left[ \\frac { 6-1 } { 5 } \\right]-\\left[ \\frac { 6-2 } { 5 } \\right] } \\right )=10\\)，",
+    "．．．．．，",
+    "∴\\(a_{ 1 }\\)，\\(a_{ 2 }\\)，\\(a_{ 3 }\\)…\\(a_{ n }\\)的变化规律是以10，11，12，13，14这五个数依次循环，",
+    "∵\\(2024\\div 5=404\\ldots 4\\)，",
+    "∴\\(a_{ 2024 } =a_{ 4 } =13\\)，",
+    "故答案为：13．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      45,
+      47
+    ],
+    "solution_body_blocks": [
+      151,
+      167
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MONTH-6D7B5C5E/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          451.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MONTH-6D7B5C5E/solution-q15-p07.webp",
+      "assets/SZ-2024-25-G7-T1-MONTH-6D7B5C5E/solution-q15-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          580.91,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          53.18,
+          583.64,
+          360.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.09"
+  ],
+  "exam_ids": [
+    "E.N03.09.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "主要要求求出下一项或某个数值，未要求写出一般式。",
+  "tag_reason": "依照已发现的规律推算指定项。"
+}

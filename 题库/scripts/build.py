@@ -12,6 +12,7 @@ import re
 import shutil
 import sys
 import tempfile
+import registry
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -141,7 +142,7 @@ def prompt_html(q, task):
             out += '<div class="prerequisites"><h3>可用的前问结论</h3>'
             for key in task["requires"]:
                 prior = by_id[key]
-                out += paragraphs(prior["label"] + " " + prior["answer"], q)
+                out += "<p>" + tokens(prior["label"] + " " + prior["answer"], q["given_solution_figures"]) + "</p>"
             out += "</div>"
         out += '<div class="task-prompt"><h3>本小问</h3>'+paragraphs(task["prompt"], q)+'</div>'
     return '<div class="readable-stem">'+out+"</div>"
@@ -163,11 +164,12 @@ def source_for(q, task, role, paper):
 
 
 class Bank:
-    def __init__(self, root):
+    def __init__(self, root, *, unpublished=()):
         self.root = root
         self.shards = {}
         self.assets = set()
         self.papers = {}
+        self.registered = []
         self.leaves = []
         self.rows = {}
         tax_files = sorted((root/"taxonomy").glob("taxonomy.v*.json"))
@@ -209,6 +211,7 @@ class Bank:
             self.papers[pid] = cover
             results = []
             numbers = set()
+            total_parts = 0
             for qid in ids:
                 qpath = root/"questions"/pid/(stable_id(qid)+".json")
                 q = read(qpath)
@@ -218,9 +221,11 @@ class Bank:
                 require(q["number"] not in numbers, f"{pid} 卷内题号重复 {q['number']}")
                 numbers.add(q["number"])
                 self.add_question(p,q,knowledge,exams,by_tag)
+                total_parts += len(q['parts'])
                 results.append(self.rows[qid])
             self.shards["papers/"+pid] = dict(cover,results=results)
-        actual = set((root/"questions").glob("*/*.json"))
+            self.registered.append(registry.make_entry(root.parent, p, total_parts))
+        actual = {path for path in (root/"questions").glob("*/*.json") if path.parent.name not in unpublished}
         require(actual==used,"有题目未被试卷目录引用："+", ".join(str(p) for p in actual-used))
         tags = []
         for code,rows in sorted(by_tag.items()):
@@ -228,6 +233,7 @@ class Bank:
             self.shards["tags/"+code] = {"id":code,"results":rows}
             tags.append({"id":code,"name":title,"kind":k,"count":len(rows)})
         self.shards["catalog"] = {"papers":list(self.papers.values()),"tags":tags}
+        self.registry_json = registry.as_json(self.registered)
 
     def asset(self, rel):
         require(rel.startswith("assets/"),f"题库资源应位于 assets/：{rel}")
@@ -297,6 +303,11 @@ class Bank:
                 "review_note":task.get("review_note",""),"source":source_for(q,task,"solution",paper),
                 "solution_figures":[q["given_solution_figures"][n-1] for n in solution_figure_ids]
             }
+            displayed = [task["answer"], *task["solution_steps"], task.get("given_answer", "")]
+            cited = sorted({int(n) for line in displayed for n in re.findall(r"〔图(\d+)〕", line)})
+            if cited:
+                require(all(1 <= n <= len(q["given_solution_figures"]) for n in cited), f"{key} 答案中有未定位的图")
+                self.shards["answers/"+key]["figure_refs"] = {str(n):q["given_solution_figures"][n-1] for n in cited}
 
 
 @contextlib.contextmanager
@@ -332,6 +343,7 @@ def expression(key,value):
 
 def check_generated(bank):
     directory=bank.root/"generated"
+    require((directory/registry.NAME).read_text(encoding='utf8') == bank.registry_json, '已解析试卷登记表需要重建')
     expected={key+".js" for key in bank.shards}
     found={p.relative_to(directory).as_posix() for p in directory.rglob("*.js")}
     require(expected==found, "生成分片缺失或多余，请重建：" + ", ".join(sorted(expected^found)[:4]))
@@ -355,6 +367,7 @@ def publish(root):
         bank=Bank(root)
         stage=Path(tempfile.mkdtemp(prefix=".generated-stage-",dir=root))
         try:
+            (stage/registry.NAME).write_text(bank.registry_json, encoding='utf8', newline='\n')
             for key,val in bank.shards.items():
                 dest=stage/(key+".js")
                 dest.parent.mkdir(parents=True,exist_ok=True)
@@ -427,6 +440,7 @@ def subset(bank,args):
                     paths.add(shard["source"][field])
             paths.update(shard.get("figures",[]))
             paths.update(shard.get("solution_figures",[]))
+            paths.update(shard.get("figure_refs",{}).values())
     assets={}
     for rel in sorted(paths):
         content=local(bank.root,rel).read_bytes()

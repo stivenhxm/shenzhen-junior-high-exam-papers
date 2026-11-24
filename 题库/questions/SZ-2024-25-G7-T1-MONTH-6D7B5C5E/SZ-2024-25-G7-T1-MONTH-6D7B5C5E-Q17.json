@@ -1,0 +1,206 @@
+{
+  "id": "SZ-2024-25-G7-T1-MONTH-6D7B5C5E-Q17",
+  "paper_id": "SZ-2024-25-G7-T1-MONTH-6D7B5C5E",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "根据爬行记录求小虫的位置与路程",
+  "stem": "小虫从点A出发，在一水平直线上来回爬行，假定向右爬行为正，向左爬行为负，爬行的各段路程（单位：cm）依次记录为：+5，－2，+10，－8，－6，+12，－10．\n（1）小虫最后回到了出发点A吗？\n（2）在爬行的过程中，若每爬行1cm，奖励一粒芝麻，则小虫可得到多少粒芝麻？",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）小虫最后没有回到出发点A；（2）小虫一共得到53粒芝麻．",
+  "answer": "（1）小虫最后没有回到出发点A；（2）小虫一共得到53粒芝麻．",
+  "given_solution": "【分析】（1）直接把各数相加，结果为正、负还是0，说明小虫最后离出发点A的距离；\n（2）由爬完1厘米只能奖励1粒芝麻，求出小虫爬行的总路程即可解答.\n【详解】解：（1）+5－2+10－8－6+12－10＝27－26＝1，\n答：小虫最后没有回到出发点A；\n（2）小虫爬行的总路程为：|+5|+|－2|+|+10|+|－8|+|－6|+|+12|+|－10|\n＝5+2+10+8+6+12+10\n＝53（cm）．\n答：小虫一共得到53粒芝麻．\n【点睛】此题考查正数和负数，解题关键在于根据题意列出式子进行计算.",
+  "given_solution_figures": [],
+  "solution": "解：（1）+5－2+10－8－6+12－10＝27－26＝1，\n答：小虫最后没有回到出发点A；\n（2）小虫爬行的总路程为：|+5|+|－2|+|+10|+|－8|+|－6|+|+12|+|－10|\n＝5+2+10+8+6+12+10\n＝53（cm）．\n答：小虫一共得到53粒芝麻．",
+  "solution_steps": [
+    "解：（1）+5－2+10－8－6+12－10＝27－26＝1，",
+    "答：小虫最后没有回到出发点A；",
+    "（2）小虫爬行的总路程为：|+5|+|－2|+|+10|+|－8|+|－6|+|+12|+|－10|",
+    "＝5+2+10+8+6+12+10",
+    "＝53（cm）．",
+    "答：小虫一共得到53粒芝麻．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "小虫从点A出发，在一水平直线上来回爬行，假定向右爬行为正，向左爬行为负，爬行的各段路程（单位：cm）依次记录为：+5，－2，+10，－8，－6，+12，－10．",
+      "paper_blocks": [
+        54
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MONTH-6D7B5C5E-Q17-P01",
+      "label": "（1）",
+      "prompt": "小虫最后回到了出发点A吗？",
+      "stem_text": "小虫最后回到了出发点A吗？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "小虫最后没有回到出发点A；",
+      "answer": "小虫最后没有回到出发点A；",
+      "given_solution": "+5－2+10－8－6+12－10＝27－26＝1，\n答：小虫最后没有回到出发点A；",
+      "solution_steps": [
+        "+5－2+10－8－6+12－10＝27－26＝1，",
+        "答：小虫最后没有回到出发点A；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55
+        ],
+        "solution_block_ids": [
+          209,
+          210
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.01",
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.01.01",
+        "E.N01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用正负数表示相对基准的变化；按运算顺序计算有理数。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MONTH-6D7B5C5E-Q17-P02",
+      "label": "（2）",
+      "prompt": "在爬行的过程中，若每爬行1cm，奖励一粒芝麻，则小虫可得到多少粒芝麻？",
+      "stem_text": "在爬行的过程中，若每爬行1cm，奖励一粒芝麻，则小虫可得到多少粒芝麻？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "小虫一共得到53粒芝麻．",
+      "answer": "小虫一共得到53粒芝麻．",
+      "given_solution": "小虫爬行的总路程为：|+5|+|－2|+|+10|+|－8|+|－6|+|+12|+|－10|\n＝5+2+10+8+6+12+10\n＝53（cm）．\n答：小虫一共得到53粒芝麻．",
+      "solution_steps": [
+        "小虫爬行的总路程为：|+5|+|－2|+|+10|+|－8|+|－6|+|+12|+|－10|",
+        "＝5+2+10+8+6+12+10",
+        "＝53（cm）．",
+        "答：小虫一共得到53粒芝麻．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          54,
+          56
+        ],
+        "solution_block_ids": [
+          211,
+          212,
+          213,
+          214
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03",
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.03.01",
+        "E.N01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由绝对值确定距离或数值；按运算顺序计算有理数。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      54,
+      56
+    ],
+    "solution_body_blocks": [
+      202,
+      215
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MONTH-6D7B5C5E/paper-q17-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          650.91,
+          583.64,
+          735.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MONTH-6D7B5C5E/solution-q17-p09.webp",
+      "assets/SZ-2024-25-G7-T1-MONTH-6D7B5C5E/solution-q17-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          682.27,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          205.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N01.01",
+    "M.N01.05",
+    "M.N01.03"
+  ],
+  "exam_ids": [
+    "E.N01.01.01",
+    "E.N01.05.01",
+    "E.N01.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "用正负数表示相对基准的变化；按运算顺序计算有理数；由绝对值确定距离或数值。"
+}

@@ -1,0 +1,289 @@
+{
+  "id": "SZ-2024-25-G7-T1-FINAL-B0D2DCB6-Q18",
+  "paper_id": "SZ-2024-25-G7-T1-FINAL-B0D2DCB6",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "用代数解释手指乘法",
+  "stem": "有一种可计算6~10之间整数相乘的手指算法．\n例：计算\\(7\\times 8\\)时，按图1标记数字并摆放手掌．将“7”和“8”对齐摆放，并在它们的上方画一条虚线．在虚线的下方，双手共有5个手指，则以5作为十位数字；在虚线的上方，左手有3个手指，右手有2个手指，取两数乘积作为个位数字（如果乘积满10，则往十位数字进位），即算法为\\(10\\times \\left ( { 2+3 } \\right )+3\\times 2=56\\)（注：为体现“算法”思想，本题填写“算法”时无需化简或计算）．\n〔图1〕\n【学习算法】\n（1）计算\\(6\\times 9\\)时，按上述方法，算法为：__________\\(=54\\)；\n【总结算法】\n（2）设a，b分别为6~10中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有__________个手指，右手有__________个手指；虚线下方双手共有__________个手指．则算法为：__________\\(=a\\cdot b\\)（用含a，b的代数式表示）．\n【探究提升】\n〔图2〕\n（3）若a，b变为16~20之间整数也有类似的算法，请你探究：如图2标记数字，并按相同方法画出虚线．若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+\\)_____\\(+mn=a\\cdot b\\)（用含m，n的代数式表示）．",
+  "choices": [],
+  "figures": [
+    "assets/figures/c0/c0c19d37d8d765aa1538075516fcad5b84785407cbadcff6bf77af2ed383c8c0.png",
+    "assets/figures/45/459f36e6bf138f07485f05c34efbacc9f719d7e9895b6e4c33d268109943cf99.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)；（2）\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；（3）\\(20\\left ( { 10-m-n } \\right )\\)",
+  "answer": "（1）\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)；（2）\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；（3）\\(20\\left ( { 10-m-n } \\right )\\)",
+  "given_solution": "【分析】此题考查了整式的加减法以及多项式乘多项式的应用、列代数式等知识．\n（1）根据题中的算法即可得到答案；\n（2）根据题中的算法得到规律即可；\n（3）根据计算6~10之间整数相乘的手指算法即可得到答案．\n【详解】解：（1）计算\\(6\\times 9\\)时，按上述方法，算法为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1=54\\)；\n故答案为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)\n（2）设a，b分别为\\(6\\tilde{\\ }10\\)中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有\\(\\left ( { 10-a } \\right )\\)个手指，右手有\\(\\left ( { 10-b } \\right )\\)个手指；虚线下方双手共有\\(\\left ( { a+b-10 } \\right )\\)个手指．则算法为：\\(10(a+b-10)+(10-a)(10-b)=a\\cdot b\\)（用含a，b的代数式表示）．\n故答案为：\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；\n（3）由题意可得，若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+20\\left ( { 10-m-n } \\right )+mn=a\\cdot b\\)，\n故答案为：\\(20\\left ( { 10-m-n } \\right )\\)",
+  "given_solution_figures": [
+    "assets/figures/c0/c0c19d37d8d765aa1538075516fcad5b84785407cbadcff6bf77af2ed383c8c0.png",
+    "assets/figures/45/459f36e6bf138f07485f05c34efbacc9f719d7e9895b6e4c33d268109943cf99.png"
+  ],
+  "solution": "解：（1）计算\\(6\\times 9\\)时，按上述方法，算法为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1=54\\)；\n故答案为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)\n（2）设a，b分别为\\(6\\tilde{\\ }10\\)中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有\\(\\left ( { 10-a } \\right )\\)个手指，右手有\\(\\left ( { 10-b } \\right )\\)个手指；虚线下方双手共有\\(\\left ( { a+b-10 } \\right )\\)个手指．则算法为：\\(10(a+b-10)+(10-a)(10-b)=a\\cdot b\\)（用含a，b的代数式表示）．\n故答案为：\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；\n（3）由题意可得，若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+20\\left ( { 10-m-n } \\right )+mn=a\\cdot b\\)，\n故答案为：\\(20\\left ( { 10-m-n } \\right )\\)",
+  "solution_steps": [
+    "解：（1）计算\\(6\\times 9\\)时，按上述方法，算法为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1=54\\)；",
+    "故答案为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)",
+    "（2）设a，b分别为\\(6\\tilde{\\ }10\\)中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有\\(\\left ( { 10-a } \\right )\\)个手指，右手有\\(\\left ( { 10-b } \\right )\\)个手指；虚线下方双手共有\\(\\left ( { a+b-10 } \\right )\\)个手指．则算法为：\\(10(a+b-10)+(10-a)(10-b)=a\\cdot b\\)（用含a，b的代数式表示）．",
+    "故答案为：\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；",
+    "（3）由题意可得，若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+20\\left ( { 10-m-n } \\right )+mn=a\\cdot b\\)，",
+    "故答案为：\\(20\\left ( { 10-m-n } \\right )\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "有一种可计算6~10之间整数相乘的手指算法．\n例：计算\\(7\\times 8\\)时，按图1标记数字并摆放手掌．将“7”和“8”对齐摆放，并在它们的上方画一条虚线．在虚线的下方，双手共有5个手指，则以5作为十位数字；在虚线的上方，左手有3个手指，右手有2个手指，取两数乘积作为个位数字（如果乘积满10，则往十位数字进位），即算法为\\(10\\times \\left ( { 2+3 } \\right )+3\\times 2=56\\)（注：为体现“算法”思想，本题填写“算法”时无需化简或计算）．\n〔图1〕\n【学习算法】",
+      "paper_blocks": [
+        62,
+        63,
+        64,
+        65
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-FINAL-B0D2DCB6-Q18-P01",
+      "label": "（1）",
+      "prompt": "计算\\(6\\times 9\\)时，按上述方法，算法为：__________\\(=54\\)；\n【总结算法】",
+      "stem_text": "计算\\(6\\times 9\\)时，按上述方法，算法为：__________\\(=54\\)；\n【总结算法】",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)；",
+      "answer": "\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)；",
+      "given_solution": "计算\\(6\\times 9\\)时，按上述方法，算法为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1=54\\)；\n故答案为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)",
+      "solution_steps": [
+        "计算\\(6\\times 9\\)时，按上述方法，算法为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1=54\\)；",
+        "故答案为：\\(10\\times \\left ( { 1+4 } \\right )+4\\times 1\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          233,
+          234
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.05.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "先将题设的新符号或新运算翻译为通常运算，再按运算顺序计算。",
+      "tag_reason": "按题设的新运算规则计算。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-FINAL-B0D2DCB6-Q18-P02",
+      "label": "（2）",
+      "prompt": "设a，b分别为6~10中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有__________个手指，右手有__________个手指；虚线下方双手共有__________个手指．则算法为：__________\\(=a\\cdot b\\)（用含a，b的代数式表示）．\n【探究提升】",
+      "stem_text": "设a，b分别为6~10中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有__________个手指，右手有__________个手指；虚线下方双手共有__________个手指．则算法为：__________\\(=a\\cdot b\\)（用含a，b的代数式表示）．\n【探究提升】",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；",
+      "answer": "\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；",
+      "given_solution": "设a，b分别为\\(6\\tilde{\\ }10\\)中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有\\(\\left ( { 10-a } \\right )\\)个手指，右手有\\(\\left ( { 10-b } \\right )\\)个手指；虚线下方双手共有\\(\\left ( { a+b-10 } \\right )\\)个手指．则算法为：\\(10(a+b-10)+(10-a)(10-b)=a\\cdot b\\)（用含a，b的代数式表示）．\n故答案为：\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；",
+      "solution_steps": [
+        "设a，b分别为\\(6\\tilde{\\ }10\\)中的任一整数．在计算\\(a\\cdot b\\)时，\\(a\\)在左手，\\(b\\)在右手，则虚线上方左手有\\(\\left ( { 10-a } \\right )\\)个手指，右手有\\(\\left ( { 10-b } \\right )\\)个手指；虚线下方双手共有\\(\\left ( { a+b-10 } \\right )\\)个手指．则算法为：\\(10(a+b-10)+(10-a)(10-b)=a\\cdot b\\)（用含a，b的代数式表示）．",
+        "故答案为：\\(\\left ( { 10-a } \\right )\\)，\\(\\left ( { 10-b } \\right )\\)，\\(\\left ( { a+b-10 } \\right )\\)，\\(10(a+b-10)+(10-a)(10-b)\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          65,
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          235,
+          236
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用代数式表示数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-FINAL-B0D2DCB6-Q18-P03",
+      "label": "（3）",
+      "prompt": "若a，b变为16~20之间整数也有类似的算法，请你探究：如图2标记数字，并按相同方法画出虚线．若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+\\)_____\\(+mn=a\\cdot b\\)（用含m，n的代数式表示）．",
+      "stem_text": "若a，b变为16~20之间整数也有类似的算法，请你探究：如图2标记数字，并按相同方法画出虚线．若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+\\)_____\\(+mn=a\\cdot b\\)（用含m，n的代数式表示）．",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(20\\left ( { 10-m-n } \\right )\\)",
+      "answer": "\\(20\\left ( { 10-m-n } \\right )\\)",
+      "given_solution": "由题意可得，若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+20\\left ( { 10-m-n } \\right )+mn=a\\cdot b\\)，\n故答案为：\\(20\\left ( { 10-m-n } \\right )\\)",
+      "solution_steps": [
+        "由题意可得，若在虚线的上方，左、右手分别有\\(m\\)和\\(n\\)个手指．则算法为：\\(200+20\\left ( { 10-m-n } \\right )+mn=a\\cdot b\\)，",
+        "故答案为：\\(20\\left ( { 10-m-n } \\right )\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          65,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          237,
+          238
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09"
+      ],
+      "exam_ids": [
+        "E.N03.09.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用代数运算解释数量规律。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      71
+    ],
+    "solution_body_blocks": [
+      217,
+      238
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-FINAL-B0D2DCB6/paper-q18-p05.webp",
+      "assets/SZ-2024-25-G7-T1-FINAL-B0D2DCB6/paper-q18-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          268.64,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          111.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-FINAL-B0D2DCB6/solution-q18-p12.webp",
+      "assets/SZ-2024-25-G7-T1-FINAL-B0D2DCB6/solution-q18-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          395.0,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          102.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N01.05",
+    "M.N03.01",
+    "M.N03.09"
+  ],
+  "exam_ids": [
+    "E.N01.05.01",
+    "E.N03.01.01",
+    "E.N03.09.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "先将题设的新符号或新运算翻译为通常运算，再按运算顺序计算。",
+  "tag_reason": "按题设的新运算规则计算；用代数式表示数量关系；用代数运算解释数量规律。"
+}

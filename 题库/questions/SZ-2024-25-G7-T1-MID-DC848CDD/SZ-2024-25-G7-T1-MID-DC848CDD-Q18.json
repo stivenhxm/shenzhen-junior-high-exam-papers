@@ -1,0 +1,250 @@
+{
+  "id": "SZ-2024-25-G7-T1-MID-DC848CDD-Q18",
+  "paper_id": "SZ-2024-25-G7-T1-MID-DC848CDD",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "计算出租车的终点位置与油耗",
+  "stem": "某出租车驾驶员从公司出发，在南北向的人民路上连续接送5批客人，行驶路程记录如下（规定向南为正，向北为负，单位：km）：\n第1批 | 第2批 | 第3批 | 第4批 | 第5批\n\\(5{ \\rm{ k } }{ \\rm{ m } }\\) | \\(2{ \\rm{ k } }{ \\rm{ m } }\\) | \\(-4{ \\rm{ k } }{ \\rm{ m } }\\) | \\(-3{ \\rm{ k } }{ \\rm{ m } }\\) | \\(10{ \\rm{ k } }{ \\rm{ m } }\\)\n（1）接送完第5批客人后，该驾驶员在公司______方向，距离公司______千米？\n（2）若该出租车每千米耗油0.2升，接送5批客人后，最后回到公司，那么在这过程中共耗油多少升？",
+  "choices": [],
+  "figures": [],
+  "tables": [
+    {
+      "text": "第1批 | 第2批 | 第3批 | 第4批 | 第5批\n\\(5{ \\rm{ k } }{ \\rm{ m } }\\) | \\(2{ \\rm{ k } }{ \\rm{ m } }\\) | \\(-4{ \\rm{ k } }{ \\rm{ m } }\\) | \\(-3{ \\rm{ k } }{ \\rm{ m } }\\) | \\(10{ \\rm{ k } }{ \\rm{ m } }\\)",
+      "rows": [
+        [
+          [
+            "第1批"
+          ],
+          [
+            "第2批"
+          ],
+          [
+            "第3批"
+          ],
+          [
+            "第4批"
+          ],
+          [
+            "第5批"
+          ]
+        ],
+        [
+          [
+            "\\(5{ \\rm{ k } }{ \\rm{ m } }\\)"
+          ],
+          [
+            "\\(2{ \\rm{ k } }{ \\rm{ m } }\\)"
+          ],
+          [
+            "\\(-4{ \\rm{ k } }{ \\rm{ m } }\\)"
+          ],
+          [
+            "\\(-3{ \\rm{ k } }{ \\rm{ m } }\\)"
+          ],
+          [
+            "\\(10{ \\rm{ k } }{ \\rm{ m } }\\)"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）接送完第5批客人后．该驾驶员在公司南边10千米处\n（2）在这过程中共耗油\\(6.8\\)升",
+  "answer": "（1）接送完第5批客人后．该驾驶员在公司南边10千米处\n（2）在这过程中共耗油\\(6.8\\)升",
+  "given_solution": "【分析】本题考查了正负数的应用，有理数的加减的应用，\n（1）将运送5批次客人的路程直接相加，即可作答；\n（2）将运送5批次客人的路程的绝对值相加再加\\(10km\\)，即可作答．\n【小问1详解】\n\\(5+2+\\left ( { -4 } \\right )+\\left ( { -3 } \\right )+10=10\\left ( { { \\rm{ k } }{ \\rm{ m } } } \\right )\\)，\n答：接送完第5批客人后．该驾驶员在公司南边10千米处．\n故答案为：南边，10，\n【小问2详解】\n\\(\\left ( { 5+2+\\left | { -4 } \\right |+\\left | { -3 } \\right |+10+10 } \\right )\\times 0.2=6.8\\)（升）．\n答：在这过程中共耗油\\(6.8\\)升．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n\\(5+2+\\left ( { -4 } \\right )+\\left ( { -3 } \\right )+10=10\\left ( { { \\rm{ k } }{ \\rm{ m } } } \\right )\\)，\n答：接送完第5批客人后．该驾驶员在公司南边10千米处．\n故答案为：南边，10，\n【小问2详解】\n\\(\\left ( { 5+2+\\left | { -4 } \\right |+\\left | { -3 } \\right |+10+10 } \\right )\\times 0.2=6.8\\)（升）．\n答：在这过程中共耗油\\(6.8\\)升．",
+  "solution_steps": [
+    "【小问1详解】",
+    "\\(5+2+\\left ( { -4 } \\right )+\\left ( { -3 } \\right )+10=10\\left ( { { \\rm{ k } }{ \\rm{ m } } } \\right )\\)，",
+    "答：接送完第5批客人后．该驾驶员在公司南边10千米处．",
+    "故答案为：南边，10，",
+    "【小问2详解】",
+    "\\(\\left ( { 5+2+\\left | { -4 } \\right |+\\left | { -3 } \\right |+10+10 } \\right )\\times 0.2=6.8\\)（升）．",
+    "答：在这过程中共耗油\\(6.8\\)升．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "某出租车驾驶员从公司出发，在南北向的人民路上连续接送5批客人，行驶路程记录如下（规定向南为正，向北为负，单位：km）：\n第1批 | 第2批 | 第3批 | 第4批 | 第5批\n\\(5{ \\rm{ k } }{ \\rm{ m } }\\) | \\(2{ \\rm{ k } }{ \\rm{ m } }\\) | \\(-4{ \\rm{ k } }{ \\rm{ m } }\\) | \\(-3{ \\rm{ k } }{ \\rm{ m } }\\) | \\(10{ \\rm{ k } }{ \\rm{ m } }\\)",
+      "paper_blocks": [
+        49,
+        50
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MID-DC848CDD-Q18-P01",
+      "label": "（1）",
+      "prompt": "接送完第5批客人后，该驾驶员在公司______方向，距离公司______千米？",
+      "stem_text": "接送完第5批客人后，该驾驶员在公司______方向，距离公司______千米？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "接送完第5批客人后．该驾驶员在公司南边10千米处",
+      "answer": "接送完第5批客人后．该驾驶员在公司南边10千米处",
+      "given_solution": "\\(5+2+\\left ( { -4 } \\right )+\\left ( { -3 } \\right )+10=10\\left ( { { \\rm{ k } }{ \\rm{ m } } } \\right )\\)，\n答：接送完第5批客人后．该驾驶员在公司南边10千米处．\n故答案为：南边，10，",
+      "solution_steps": [
+        "\\(5+2+\\left ( { -4 } \\right )+\\left ( { -3 } \\right )+10=10\\left ( { { \\rm{ k } }{ \\rm{ m } } } \\right )\\)，",
+        "答：接送完第5批客人后．该驾驶员在公司南边10千米处．",
+        "故答案为：南边，10，"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          52
+        ],
+        "solution_block_ids": [
+          248,
+          249,
+          250
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.01",
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.01.01",
+        "E.N01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用正负数表示相对基准的变化；按运算顺序计算有理数。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-DC848CDD-Q18-P02",
+      "label": "（2）",
+      "prompt": "若该出租车每千米耗油0.2升，接送5批客人后，最后回到公司，那么在这过程中共耗油多少升？",
+      "stem_text": "若该出租车每千米耗油0.2升，接送5批客人后，最后回到公司，那么在这过程中共耗油多少升？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "在这过程中共耗油\\(6.8\\)升",
+      "answer": "在这过程中共耗油\\(6.8\\)升",
+      "given_solution": "\\(\\left ( { 5+2+\\left | { -4 } \\right |+\\left | { -3 } \\right |+10+10 } \\right )\\times 0.2=6.8\\)（升）．\n答：在这过程中共耗油\\(6.8\\)升．",
+      "solution_steps": [
+        "\\(\\left ( { 5+2+\\left | { -4 } \\right |+\\left | { -3 } \\right |+10+10 } \\right )\\times 0.2=6.8\\)（升）．",
+        "答：在这过程中共耗油\\(6.8\\)升．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          53
+        ],
+        "solution_block_ids": [
+          252,
+          253
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03",
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.03.01",
+        "E.N01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由绝对值确定距离或数值；按运算顺序计算有理数。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      53
+    ],
+    "solution_body_blocks": [
+      236,
+      253
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MID-DC848CDD/paper-q18-p03.webp",
+      "assets/SZ-2024-25-G7-T1-MID-DC848CDD/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          674.55,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          43.18,
+          583.64,
+          144.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MID-DC848CDD/solution-q18-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          184.55,
+          583.64,
+          495.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N01.01",
+    "M.N01.05",
+    "M.N01.03"
+  ],
+  "exam_ids": [
+    "E.N01.01.01",
+    "E.N01.05.01",
+    "E.N01.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "用正负数表示相对基准的变化；按运算顺序计算有理数；由绝对值确定距离或数值。"
+}

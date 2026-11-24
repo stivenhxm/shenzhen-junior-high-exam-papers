@@ -1,0 +1,393 @@
+{
+  "id": "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21",
+  "paper_id": "SZ-2024-25-G7-T1-MONTH-A1EDA0DC",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "从算式结构探究简便运算",
+  "stem": "如何计算\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { 19\\times 20 }\\)呢？数学兴趣小组通过探索完成了这道题的计算．他们的探究思路如下：\n解：小红发现：\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\n于是有：原式\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { 19 }-\\frac { 1 } { 20 }\\)\n\\(=1-\\frac { 1 } { 20 }\\)\n\\(=\\frac { 19 } { 20 }\\)．\n（1）①兴趣小组的同学发现此类算式有一个规律，请你帮忙写出来：\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；\n②兴趣小组的同学根据这一规律，发现：\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；\n（2）兴趣小组的同学继续探索算式\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+\\ldots +\\frac { 1 } { 21\\times 23 }\\)，发现：\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 3 }\\)，\\(1-\\frac { 1 } { 3 }=\\frac { 2 } { 3 }\\)，则\\(\\frac { 1 } { 1\\times 3 }\\)和\\(1-\\frac { 1 } { 3 }\\)之间的数量关系为：\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)，请你利用同学们的发现，结合（1）中的计算方法，帮助兴趣小组计算出\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+\\ldots +\\frac { 1 } { 21\\times 23 }\\)的结果；\n（3）请利用前面的思想方法计算：\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）①\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；②\\(\\frac { n } { n+1 }\\)．\n（2）\\(\\frac { 11 } { 23 }\\)\n（3）\\(\\frac { 1011 } { 4046 }\\)",
+  "answer": "（1）①\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；②\\(\\frac { n } { n+1 }\\)．\n（2）\\(\\frac { 11 } { 23 }\\)\n（3）\\(\\frac { 1011 } { 4046 }\\)",
+  "given_solution": "【分析】本题主要考查了数字规律、有理数的混合运算等知识点，根据题意归纳出裂项规律成为解题的关键．\n（1）①根据小红的发现归纳规律即可解答；②先运用①得到的规律裂项，然后再计算即可；\n（2）先类比（1）归纳出裂项规律，然后再运用裂项规律进行裂项，最后计算即可；\n（3）先类比（1）（2）得到裂项规律，然后根据裂项规律裂项进行计算即可．\n【小问1详解】\n解：①\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\\(\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }=\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n故答案为：\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；\n②\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=\\frac { n } { n+1 }\\)．\n故答案为：\\(\\frac { n } { n+1 }\\)．\n【小问2详解】\n解：类比（1）结合\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)可得：\\(\\frac { 1 } { n\\left ( { n+2 } \\right ) }=\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+2 } } \\right )\\)，\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 3 }-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 7 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\times \\frac { 22 } { 23 }\\)\n\\(=\\frac { 11 } { 23 }\\)．\n【小问3详解】\n解：由（1）（2）可类比出：\\(\\frac { 1 } { n\\left ( { n+4 } \\right ) }=\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+4 } } \\right )\\)\n\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 9 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 9 }-\\frac { 1 } { 13 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 9 }+\\frac { 1 } { 9 }-\\frac { 1 } { 13 }+\\cdots +\\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\times \\frac { 2022 } { 2023 }\\)\n\\(=\\frac { 1011 } { 4046 }\\)．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n解：①\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\\(\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }=\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n故答案为：\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；\n②\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=\\frac { n } { n+1 }\\)．\n故答案为：\\(\\frac { n } { n+1 }\\)．\n【小问2详解】\n解：类比（1）结合\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)可得：\\(\\frac { 1 } { n\\left ( { n+2 } \\right ) }=\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+2 } } \\right )\\)，\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 3 }-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 7 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\times \\frac { 22 } { 23 }\\)\n\\(=\\frac { 11 } { 23 }\\)．\n【小问3详解】\n解：由（1）（2）可类比出：\\(\\frac { 1 } { n\\left ( { n+4 } \\right ) }=\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+4 } } \\right )\\)\n\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 9 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 9 }-\\frac { 1 } { 13 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 9 }+\\frac { 1 } { 9 }-\\frac { 1 } { 13 }+\\cdots +\\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\times \\frac { 2022 } { 2023 }\\)\n\\(=\\frac { 1011 } { 4046 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\\(\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }=\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+    "故答案为：\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；",
+    "②\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }\\)",
+    "\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+    "\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+    "\\(=\\frac { n } { n+1 }\\)．",
+    "故答案为：\\(\\frac { n } { n+1 }\\)．",
+    "【小问2详解】",
+    "解：类比（1）结合\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)可得：\\(\\frac { 1 } { n\\left ( { n+2 } \\right ) }=\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+2 } } \\right )\\)，",
+    "\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 3 }-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 7 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)",
+    "\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)",
+    "\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 23 } } \\right )\\)",
+    "\\(=\\frac { 1 } { 2 }\\times \\frac { 22 } { 23 }\\)",
+    "\\(=\\frac { 11 } { 23 }\\)．",
+    "【小问3详解】",
+    "解：由（1）（2）可类比出：\\(\\frac { 1 } { n\\left ( { n+4 } \\right ) }=\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+4 } } \\right )\\)",
+    "\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)",
+    "\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 9 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 9 }-\\frac { 1 } { 13 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)",
+    "\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 9 }+\\frac { 1 } { 9 }-\\frac { 1 } { 13 }+\\cdots +\\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)",
+    "\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 2023 } } \\right )\\)",
+    "\\(=\\frac { 1 } { 4 }\\times \\frac { 2022 } { 2023 }\\)",
+    "\\(=\\frac { 1011 } { 4046 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如何计算\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { 19\\times 20 }\\)呢？数学兴趣小组通过探索完成了这道题的计算．他们的探究思路如下：\n解：小红发现：\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\n于是有：原式\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { 19 }-\\frac { 1 } { 20 }\\)\n\\(=1-\\frac { 1 } { 20 }\\)\n\\(=\\frac { 19 } { 20 }\\)．",
+      "paper_blocks": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）①的题面：兴趣小组的同学发现此类算式有一个规律，请你帮忙写出来：\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；",
+      "paper_blocks": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（1）②的题面：兴趣小组的同学根据这一规律，发现：\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；",
+      "paper_blocks": [
+        57,
+        58,
+        59,
+        60,
+        61,
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21-P01",
+      "label": "（1）①",
+      "prompt": "兴趣小组的同学发现此类算式有一个规律，请你帮忙写出来：\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；",
+      "stem_text": "兴趣小组的同学发现此类算式有一个规律，请你帮忙写出来：\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；",
+      "answer": "\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；",
+      "given_solution": "\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\\(\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }=\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n故答案为：\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；",
+      "solution_steps": [
+        "\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 }\\)，\\(\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\)，……\\(\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }=\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+        "故答案为：\\(\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          275,
+          276
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09"
+      ],
+      "exam_ids": [
+        "E.N03.09.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "归纳图形或数表规律并表示一般项。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21-P02",
+      "label": "（1）②",
+      "prompt": "兴趣小组的同学根据这一规律，发现：\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；",
+      "stem_text": "兴趣小组的同学根据这一规律，发现：\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\)        ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { n } { n+1 }\\)．",
+      "answer": "\\(\\frac { n } { n+1 }\\)．",
+      "given_solution": "\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=\\frac { n } { n+1 }\\)．\n故答案为：\\(\\frac { n } { n+1 }\\)．",
+      "solution_steps": [
+        "\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } }\\left ( { { \\rm{ n } }+1 } \\right ) }\\)",
+        "\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { { \\rm{ n } } }-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+        "\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+        "\\(=\\frac { n } { n+1 }\\)．",
+        "故答案为：\\(\\frac { n } { n+1 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          277,
+          278,
+          279,
+          280,
+          281
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09"
+      ],
+      "exam_ids": [
+        "E.N03.09.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "归纳图形或数表规律并表示一般项。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21-P03",
+      "label": "（2）",
+      "prompt": "兴趣小组的同学继续探索算式\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+\\ldots +\\frac { 1 } { 21\\times 23 }\\)，发现：\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 3 }\\)，\\(1-\\frac { 1 } { 3 }=\\frac { 2 } { 3 }\\)，则\\(\\frac { 1 } { 1\\times 3 }\\)和\\(1-\\frac { 1 } { 3 }\\)之间的数量关系为：\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)，请你利用同学们的发现，结合（1）中的计算方法，帮助兴趣小组计算出\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+\\ldots +\\frac { 1 } { 21\\times 23 }\\)的结果；",
+      "stem_text": "兴趣小组的同学继续探索算式\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+\\ldots +\\frac { 1 } { 21\\times 23 }\\)，发现：\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 3 }\\)，\\(1-\\frac { 1 } { 3 }=\\frac { 2 } { 3 }\\)，则\\(\\frac { 1 } { 1\\times 3 }\\)和\\(1-\\frac { 1 } { 3 }\\)之间的数量关系为：\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)，请你利用同学们的发现，结合（1）中的计算方法，帮助兴趣小组计算出\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+\\ldots +\\frac { 1 } { 21\\times 23 }\\)的结果；",
+      "material_ids": [
+        "context",
+        "prior-P01",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21-P01",
+        "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21-P02"
+      ],
+      "given_answer": "\\(\\frac { 11 } { 23 }\\)",
+      "answer": "\\(\\frac { 11 } { 23 }\\)",
+      "given_solution": "解：类比（1）结合\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)可得：\\(\\frac { 1 } { n\\left ( { n+2 } \\right ) }=\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+2 } } \\right )\\)，\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 3 }-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 7 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 23 } } \\right )\\)\n\\(=\\frac { 1 } { 2 }\\times \\frac { 22 } { 23 }\\)\n\\(=\\frac { 11 } { 23 }\\)．",
+      "solution_steps": [
+        "解：类比（1）结合\\(\\frac { 1 } { 1\\times 3 }=\\frac { 1 } { 2 }\\times \\left ( { 1-\\frac { 1 } { 3 } } \\right )\\)可得：\\(\\frac { 1 } { n\\left ( { n+2 } \\right ) }=\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+2 } } \\right )\\)，",
+        "\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 3 }-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 7 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)",
+        "\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 21 }-\\frac { 1 } { 23 } } \\right )\\)",
+        "\\(=\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 23 } } \\right )\\)",
+        "\\(=\\frac { 1 } { 2 }\\times \\frac { 22 } { 23 }\\)",
+        "\\(=\\frac { 11 } { 23 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          283,
+          284,
+          285,
+          286,
+          287,
+          288
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09"
+      ],
+      "exam_ids": [
+        "E.N03.09.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "归纳图形或数表规律并表示一般项。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MONTH-A1EDA0DC-Q21-P04",
+      "label": "（3）",
+      "prompt": "请利用前面的思想方法计算：\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)．",
+      "stem_text": "请利用前面的思想方法计算：\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1011 } { 4046 }\\)",
+      "answer": "\\(\\frac { 1011 } { 4046 }\\)",
+      "given_solution": "解：由（1）（2）可类比出：\\(\\frac { 1 } { n\\left ( { n+4 } \\right ) }=\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+4 } } \\right )\\)\n\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 9 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 9 }-\\frac { 1 } { 13 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 9 }+\\frac { 1 } { 9 }-\\frac { 1 } { 13 }+\\cdots +\\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 2023 } } \\right )\\)\n\\(=\\frac { 1 } { 4 }\\times \\frac { 2022 } { 2023 }\\)\n\\(=\\frac { 1011 } { 4046 }\\)．",
+      "solution_steps": [
+        "解：由（1）（2）可类比出：\\(\\frac { 1 } { n\\left ( { n+4 } \\right ) }=\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { n }-\\frac { 1 } { n+4 } } \\right )\\)",
+        "\\(\\frac { 1 } { 1\\times 5 }+\\frac { 1 } { 5\\times 9 }+\\frac { 1 } { 9\\times 13 }+\\ldots +\\frac { 1 } { 2019\\times 2023 }\\)",
+        "\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 } } \\right )+\\frac { 1 } { 4 }\\left ( { \\frac { 1 } { 5 }-\\frac { 1 } { 9 } } \\right )+\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 9 }-\\frac { 1 } { 13 } } \\right )+\\ldots +\\frac { 1 } { 2 }\\left ( { \\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)",
+        "\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 9 }+\\frac { 1 } { 9 }-\\frac { 1 } { 13 }+\\cdots +\\frac { 1 } { 2019 }-\\frac { 1 } { 2023 } } \\right )\\)",
+        "\\(=\\frac { 1 } { 4 }\\left ( { 1-\\frac { 1 } { 2023 } } \\right )\\)",
+        "\\(=\\frac { 1 } { 4 }\\times \\frac { 2022 } { 2023 }\\)",
+        "\\(=\\frac { 1011 } { 4046 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          65
+        ],
+        "solution_block_ids": [
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按运算顺序计算有理数。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      57,
+      65
+    ],
+    "solution_body_blocks": [
+      257,
+      296
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MONTH-A1EDA0DC/paper-q21-p03.webp",
+      "assets/SZ-2024-25-G7-T1-MONTH-A1EDA0DC/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          530.45,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          231.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MONTH-A1EDA0DC/solution-q21-p13.webp",
+      "assets/SZ-2024-25-G7-T1-MONTH-A1EDA0DC/solution-q21-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          77.73,
+          583.64,
+          725.0
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          53.18,
+          583.64,
+          458.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.09",
+    "M.N01.05"
+  ],
+  "exam_ids": [
+    "E.N03.09.01",
+    "E.N01.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "归纳图形或数表规律并表示一般项；按运算顺序计算有理数。"
+}

@@ -1,0 +1,275 @@
+{
+  "id": "SZ-2024-25-G7-T1-MID-F0BF804E-Q20",
+  "paper_id": "SZ-2024-25-G7-T1-MID-F0BF804E",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "用数轴上的距离求绝对值之和的最小值",
+  "stem": "回顾：已知点\\(A\\)、\\(B\\)在数轴上分别表示有理数\\(a\\)、\\(b\\)，则\\(A\\)、\\(B\\)两点之间的距离可表示为\\(\\left | { a-b } \\right |\\)，譬如：数轴上\\(-3\\)和1两点之间距离是\\(\\left | { -3-1 } \\right |=\\left | { -4 } \\right |=4\\)．\n（1）数轴上表示\\(x\\)的数与2的两点之间距离表示为_____________，若这两点距离等于5，则\\(x=\\)_____________；\n探究：\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)表示数轴上表示\\(x\\)的点到1和到\\(-3\\)的距离之和，如图，表示\\(x\\)的点的位置有三种情况，当\\(x < -3\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |>4\\)，当\\(-3 < x < 1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |=4\\)，当\\(x>1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |>4\\)；综上，当\\(-3 < x < 1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)有最小值是4.\n〔图1〕\n（2）\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值是_____________，此时整数\\(x\\)的所有取值为_____________；\n（3）拓展：\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)的最小值是_____________．",
+  "choices": [],
+  "figures": [
+    "assets/figures/b6/b65ec0f80f644dbd9a01f1b79129c24c8f7822fac4f23cee2583a0368dad291d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；（2）4，\\(-2\\)、\\(-1\\)、0、1、2；（3）2550",
+  "answer": "（1）\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；（2）4，\\(-2\\)、\\(-1\\)、0、1、2；（3）2550",
+  "given_solution": "【分析】此题考查数轴上点与点间的距离与绝对值的联系，以及整体思想的运用．\n（1）由题意可知将绝对值与数轴中点与点间的距离联系起来；\n（2）由探究可知，当表示x的点在两点间时，表示点x的点到这两点距离和为最小值，最小值为这两点之间的距离；\n（3）该式表示x到数1、2、3、\\(\\cdots\\)、100、101的距离之和，当\\(x=51\\)时，原式取得最小值，据此进行求解．\n【详解】解：（1）由题意可知：表示x对数与2之间的距离可表示为：\\(\\left | { x-2 } \\right |\\)，\n若\\(\\left | { x-2 } \\right |=5\\)，则可以表示为：\\(x-2=5\\)或\\(x-2=-5\\)．\n解得\\(x=7\\)或\\(x=-3\\)．\n故答案为：\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；\n（2）∵由探究可知，当表示x的点在1与\\(-3\\)之间时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)取得最小值为4，即1与\\(-3\\)间的距离，\n∴\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值为2与\\(-2\\)之间的距离，为4，此时\\(-2\\le x\\le 2\\)，即x到所有取值为：\\(-2\\)、\\(-1\\)、0、1、2．\n故答案为：4，\\(-2\\)、\\(-1\\)、0、1、2；\n（3）\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)表示x到数1、2、3、\\(\\cdots\\)、100、101的距离之和，\n∴当\\(x=51\\)时，原式取得最小值，\n最小值\\(=50+49+\\cdots +2+1+0+1+2+\\cdots +49+50=25\\times 51\\times 2=2550\\)．\n故答案为：2550．",
+  "given_solution_figures": [
+    "assets/figures/b6/b65ec0f80f644dbd9a01f1b79129c24c8f7822fac4f23cee2583a0368dad291d.png"
+  ],
+  "solution": "解：（1）由题意可知：表示x对数与2之间的距离可表示为：\\(\\left | { x-2 } \\right |\\)，\n若\\(\\left | { x-2 } \\right |=5\\)，则可以表示为：\\(x-2=5\\)或\\(x-2=-5\\)．\n解得\\(x=7\\)或\\(x=-3\\)．\n故答案为：\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；\n（2）∵由探究可知，当表示x的点在1与\\(-3\\)之间时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)取得最小值为4，即1与\\(-3\\)间的距离，\n∴\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值为2与\\(-2\\)之间的距离，为4，此时\\(-2\\le x\\le 2\\)，即x到所有取值为：\\(-2\\)、\\(-1\\)、0、1、2．\n故答案为：4，\\(-2\\)、\\(-1\\)、0、1、2；\n（3）\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)表示x到数1、2、3、\\(\\cdots\\)、100、101的距离之和，\n∴当\\(x=51\\)时，原式取得最小值，\n最小值\\(=50+49+\\cdots +2+1+0+1+2+\\cdots +49+50=25\\times 51\\times 2=2550\\)．\n故答案为：2550．",
+  "solution_steps": [
+    "解：（1）由题意可知：表示x对数与2之间的距离可表示为：\\(\\left | { x-2 } \\right |\\)，",
+    "若\\(\\left | { x-2 } \\right |=5\\)，则可以表示为：\\(x-2=5\\)或\\(x-2=-5\\)．",
+    "解得\\(x=7\\)或\\(x=-3\\)．",
+    "故答案为：\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；",
+    "（2）∵由探究可知，当表示x的点在1与\\(-3\\)之间时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)取得最小值为4，即1与\\(-3\\)间的距离，",
+    "∴\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值为2与\\(-2\\)之间的距离，为4，此时\\(-2\\le x\\le 2\\)，即x到所有取值为：\\(-2\\)、\\(-1\\)、0、1、2．",
+    "故答案为：4，\\(-2\\)、\\(-1\\)、0、1、2；",
+    "（3）\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)表示x到数1、2、3、\\(\\cdots\\)、100、101的距离之和，",
+    "∴当\\(x=51\\)时，原式取得最小值，",
+    "最小值\\(=50+49+\\cdots +2+1+0+1+2+\\cdots +49+50=25\\times 51\\times 2=2550\\)．",
+    "故答案为：2550．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "回顾：已知点\\(A\\)、\\(B\\)在数轴上分别表示有理数\\(a\\)、\\(b\\)，则\\(A\\)、\\(B\\)两点之间的距离可表示为\\(\\left | { a-b } \\right |\\)，譬如：数轴上\\(-3\\)和1两点之间距离是\\(\\left | { -3-1 } \\right |=\\left | { -4 } \\right |=4\\)．",
+      "paper_blocks": [
+        53
+      ]
+    },
+    {
+      "id": "fig-56",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-2024-25-G7-T1-MID-F0BF804E-Q20-P01",
+      "label": "（1）",
+      "prompt": "数轴上表示\\(x\\)的数与2的两点之间距离表示为_____________，若这两点距离等于5，则\\(x=\\)_____________；\n探究：\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)表示数轴上表示\\(x\\)的点到1和到\\(-3\\)的距离之和，如图，表示\\(x\\)的点的位置有三种情况，当\\(x < -3\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |>4\\)，当\\(-3 < x < 1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |=4\\)，当\\(x>1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |>4\\)；综上，当\\(-3 < x < 1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)有最小值是4.",
+      "stem_text": "数轴上表示\\(x\\)的数与2的两点之间距离表示为_____________，若这两点距离等于5，则\\(x=\\)_____________；\n探究：\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)表示数轴上表示\\(x\\)的点到1和到\\(-3\\)的距离之和，如图，表示\\(x\\)的点的位置有三种情况，当\\(x < -3\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |>4\\)，当\\(-3 < x < 1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |=4\\)，当\\(x>1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |>4\\)；综上，当\\(-3 < x < 1\\)时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)有最小值是4.",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；",
+      "answer": "\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；",
+      "given_solution": "由题意可知：表示x对数与2之间的距离可表示为：\\(\\left | { x-2 } \\right |\\)，\n若\\(\\left | { x-2 } \\right |=5\\)，则可以表示为：\\(x-2=5\\)或\\(x-2=-5\\)．\n解得\\(x=7\\)或\\(x=-3\\)．\n故答案为：\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；",
+      "solution_steps": [
+        "由题意可知：表示x对数与2之间的距离可表示为：\\(\\left | { x-2 } \\right |\\)，",
+        "若\\(\\left | { x-2 } \\right |=5\\)，则可以表示为：\\(x-2=5\\)或\\(x-2=-5\\)．",
+        "解得\\(x=7\\)或\\(x=-3\\)．",
+        "故答案为：\\(\\left | { x-2 } \\right |\\)，7或\\(-3\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          54,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          234,
+          235,
+          236,
+          237
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03"
+      ],
+      "exam_ids": [
+        "E.N01.03.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+      "tag_reason": "用数轴上两点的距离建立数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-F0BF804E-Q20-P02",
+      "label": "（2）",
+      "prompt": "\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值是_____________，此时整数\\(x\\)的所有取值为_____________；",
+      "stem_text": "\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值是_____________，此时整数\\(x\\)的所有取值为_____________；",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "4，\\(-2\\)、\\(-1\\)、0、1、2；",
+      "answer": "4，\\(-2\\)、\\(-1\\)、0、1、2；",
+      "given_solution": "∵由探究可知，当表示x的点在1与\\(-3\\)之间时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)取得最小值为4，即1与\\(-3\\)间的距离，\n∴\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值为2与\\(-2\\)之间的距离，为4，此时\\(-2\\le x\\le 2\\)，即x到所有取值为：\\(-2\\)、\\(-1\\)、0、1、2．\n故答案为：4，\\(-2\\)、\\(-1\\)、0、1、2；",
+      "solution_steps": [
+        "∵由探究可知，当表示x的点在1与\\(-3\\)之间时，\\(\\left | { x-1 } \\right |+\\left | { x+3 } \\right |\\)取得最小值为4，即1与\\(-3\\)间的距离，",
+        "∴\\(\\left | { x+2 } \\right |+\\left | { x-2 } \\right |\\)的最小值为2与\\(-2\\)之间的距离，为4，此时\\(-2\\le x\\le 2\\)，即x到所有取值为：\\(-2\\)、\\(-1\\)、0、1、2．",
+        "故答案为：4，\\(-2\\)、\\(-1\\)、0、1、2；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          238,
+          239,
+          240
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03"
+      ],
+      "exam_ids": [
+        "E.N01.03.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+      "tag_reason": "用数轴上两点的距离建立数量关系。"
+    },
+    {
+      "id": "SZ-2024-25-G7-T1-MID-F0BF804E-Q20-P03",
+      "label": "（3）",
+      "prompt": "拓展：\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)的最小值是_____________．",
+      "stem_text": "拓展：\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)的最小值是_____________．",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "2550",
+      "answer": "2550",
+      "given_solution": "\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)表示x到数1、2、3、\\(\\cdots\\)、100、101的距离之和，\n∴当\\(x=51\\)时，原式取得最小值，\n最小值\\(=50+49+\\cdots +2+1+0+1+2+\\cdots +49+50=25\\times 51\\times 2=2550\\)．\n故答案为：2550．",
+      "solution_steps": [
+        "\\(\\left | { x-1 } \\right |+\\left | { x-2 } \\right |+\\left | { x-3 } \\right |+\\cdots +\\left | { x-99 } \\right |+\\left | { x-100 } \\right |+\\left | { x-101 } \\right |\\)表示x到数1、2、3、\\(\\cdots\\)、100、101的距离之和，",
+        "∴当\\(x=51\\)时，原式取得最小值，",
+        "最小值\\(=50+49+\\cdots +2+1+0+1+2+\\cdots +49+50=25\\times 51\\times 2=2550\\)．",
+        "故答案为：2550．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          56,
+          58
+        ],
+        "solution_block_ids": [
+          241,
+          242,
+          243,
+          244
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N01.03"
+      ],
+      "exam_ids": [
+        "E.N01.03.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+      "tag_reason": "用数轴上两点的距离建立数量关系。"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      53,
+      58
+    ],
+    "solution_body_blocks": [
+      222,
+      244
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-2024-25-G7-T1-MID-F0BF804E/paper-q20-p03.webp",
+      "assets/SZ-2024-25-G7-T1-MID-F0BF804E/paper-q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          739.09,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          305.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-2024-25-G7-T1-MID-F0BF804E/solution-q20-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          82.73,
+          583.64,
+          595.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N01.03"
+  ],
+  "exam_ids": [
+    "E.N01.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "考点直接针对到原点的距离，本题还涉及任意两点间的距离。",
+  "tag_reason": "用数轴上两点的距离建立数量关系。"
+}
