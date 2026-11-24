@@ -1,0 +1,113 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q07",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 7,
+  "type": "选择题",
+  "points": 3,
+  "title": "在日历上找日期和为 69 的正方体展开图",
+  "stem": "小实同学设想将一个正方体纸盒展成平面图形，并把平面图形放在12月的日历上，使其覆盖的日期和为69，满足她设想的图形为（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "〔图2〕"
+    },
+    {
+      "label": "B",
+      "text": "〔图3〕"
+    },
+    {
+      "label": "C",
+      "text": "〔图4〕"
+    },
+    {
+      "label": "D",
+      "text": "〔图5〕"
+    }
+  ],
+  "figures": [
+    "assets/figures/7b/7bf9b88a5b51bdfb84eb928acc1964a7bcadabb31a44e84da62bc6885b5c7be1.png",
+    "assets/figures/a0/a0777bc8c74742feb1e76d5fb794f38ba3a9657ae2fb9a5661d758678669cfe3.png",
+    "assets/figures/0a/0a6fab52cfd94149595eaf711245e7908e3ec143eb15fe8d6cac03ef2c8eb139.png",
+    "assets/figures/45/45e49735e4e9aff2876e821700306c45ced05d89717cf4320cfe472b20dee7b2.png",
+    "assets/figures/98/98fe345280efcd6b4cd5410df473c720d7376e375e6357f77f5090430be9bafa.png"
+  ],
+  "tables": [],
+  "answer": "B。图中的 a=11，覆盖 3、10、11、12、13、20 日。",
+  "solution": "设图中标注的日期为 a，横向相邻差 1，纵向相邻差 7。A 的和为 6a−5，令其等于 69 得 a=37/3；C 的和为 6a+1，得 a=34/3，均不是日期。B 的和为 6a+3，得 a=11，恰可折成正方体。D 虽然也有整数解，但六个方格排成一条直线，不能折成正方体。",
+  "solution_origin": "source_checked_with_correction",
+  "given_answer": "B",
+  "given_solution": "【分析】此题主要考查了正方体的展开图及一元一次方程在日历上的应用，正确判断正方体的展开图、掌握日历规律是关键．\n根据题意用a表示出其他五个数，并列出一元一次方程，求解并结合日历的日期为整数及正方体的展开图即可得出答案．\n【详解】解：A．\\(a-8+\\left ( { a-7 } \\right )+a+\\left ( { a+1 } \\right )+\\left ( { a+2 } \\right )+\\left ( { a+7 } \\right )=6a-5\\)，则\\(6a-5=69\\)，解得：\\(a=\\frac { 32 } { 3 }\\)，不合题意；\nB．\\(a-8+\\left ( { a-1 } \\right )+a+\\left ( { a+1 } \\right )+\\left ( { a+2 } \\right )+\\left ( { a+9 } \\right )=6a+3\\)，则\\(6a+3=69\\)，解得：\\(a=11\\)符合题意；\nC．\\(a-8+\\left ( { a-1 } \\right )+a+\\left ( { a+1 } \\right )+\\left ( { a+2 } \\right )+\\left ( { a+7 } \\right )=6a+1\\)，则\\(6a+1=69\\)，解得：\\(a=\\frac { 34 } { 3 }\\)，不合题意；\nD．\\(a-2+\\left ( { a-1 } \\right )+a+\\left ( { a+1 } \\right )+\\left ( { a+2 } \\right )+\\left ( { a+3 } \\right )=6a+3\\)，则\\(6a+3=69\\)，解得：\\(a=11\\)，但不是正方体的展开图，不合题意；\n故选：B．",
+  "given_solution_figures": [
+    "assets/figures/3e/3ed66e96485152ac8c75e1af10a9f6aeebd912d54982a577ab01961e225b8754.png",
+    "assets/figures/a0/a0777bc8c74742feb1e76d5fb794f38ba3a9657ae2fb9a5661d758678669cfe3.png",
+    "assets/figures/0a/0a6fab52cfd94149595eaf711245e7908e3ec143eb15fe8d6cac03ef2c8eb139.png",
+    "assets/figures/45/45e49735e4e9aff2876e821700306c45ced05d89717cf4320cfe472b20dee7b2.png",
+    "assets/figures/b8/b885a92237da6db92f520070629a3a079138861e978d38ebdfa8df015d0a30af.png"
+  ],
+  "knowledge_ids": [
+    "M.G11.01",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.G11.01.01",
+    "E.N06.04.01",
+    "E.N06.04.02"
+  ],
+  "tag_reason": "同时检查方格能否折成立方体、日期的整数解与位置。",
+  "parts": [],
+  "review_note": "解析版第4页把 A 项的方程 6a−5=69 的解误算为 32/3，正确值为 37/3；不影响选 B。",
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q07-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          35.91,
+          48.64,
+          563.18,
+          342.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      4
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q07-p04.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          35.91,
+          173.18,
+          563.18,
+          510.91
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      24,
+      27
+    ],
+    "solution_body_blocks": [
+      67,
+      79
+    ]
+  },
+  "coverage": "完整匹配",
+  "solution_steps": [
+    "设图中标记的日期为 \\(a\\)。日历上左右相邻日期差 1，上下相邻日期差 7。",
+    "A 的六数和为 \\(6a-5=69\\)，解得 \\(a=\\frac{37}{3}\\)。C 的六数和为 \\(6a+1=69\\)，解得 \\(a=\\frac{34}{3}\\)。两者都不是整数日期。",
+    "B 的六数和为 \\(6a+3=69\\)，解得 \\(a=11\\)。覆盖 3、10、11、12、13、20 日，可折成正方体。",
+    "D 的六个方格在一条直线上，不能折成正方体。选 B。"
+  ],
+  "materials": []
+}

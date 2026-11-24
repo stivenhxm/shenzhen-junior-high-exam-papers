@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q11",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 11,
+  "type": "填空题",
+  "points": 3,
+  "title": "探究正六边形内部加点后的三角形个数",
+  "stem": "班级板报有一正六边形区域，为展现数学之美，现要将其规划为“低多边形风格”，构造过程如下：在正六边形内取一定数量的点，连同正六边形的6个顶点，逐步连接这些点，保证所有连线不再相交产生新的点，直到正六边形内所有区域都变成三角形．如图，当正六边形内有100个点时，可分为___________个三角形．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/20/20f03baf065010bd93d0208216ae531f980a1de5c953cc316c708ffd4e624fda.png"
+  ],
+  "tables": [],
+  "answer": "204 个。",
+  "solution": "六边形没有内部点时，可划分成 6−2=4 个三角形。每增加一个内部点，将其所在的三角形分为三个，三角形数净增 2；若点在已有内边上，则它把两个三角形分为四个，同样净增 2。因此有 n 个内部点时共有 4+2n 个三角形，代入 n=100 得 204。",
+  "solution_origin": "source_summary",
+  "given_answer": "204",
+  "given_solution": "【分析】本题考查了规律探究，解题关键得到规律是“每多一个点，增加两个三角形”，运用归纳的方法，推出公式，据此即可求得答案．观察图形，分别找出\\(n\\)为1，2，3时，有多少个三角形，找出规律，推出公式，即可求出答案．\n【详解】解：当\\(n=1\\)时，有6个三角形\n当\\(n=2\\)时，有\\(6+3-1=6+2=8\\)个三角形\n当\\(n=3\\)时，有\\(6+\\left ( { 3-1 } \\right )+\\left ( { 3-1 } \\right )=10\\)个\n规律为\\(6+2\\left ( { n-1 } \\right )=\\left ( { 2n+4 } \\right )\\)个\n当\\(n=100\\)时，有\\(6+2\\times \\left ( { 100-1 } \\right )=204\\)个\n故答案为：204",
+  "given_solution_figures": [
+    "assets/figures/20/20f03baf065010bd93d0208216ae531f980a1de5c953cc316c708ffd4e624fda.png"
+  ],
+  "knowledge_ids": [
+    "M.N03.09"
+  ],
+  "exam_ids": [
+    "E.N03.09.01"
+  ],
+  "tag_reason": "根据增加内部点造成三角形净增加两个的规律建立一般式。",
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q11-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          35.91,
+          579.09,
+          563.18,
+          716.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      6
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q11-p06.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          35.91,
+          118.64,
+          563.18,
+          394.09
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      33,
+      34
+    ],
+    "solution_body_blocks": [
+      109,
+      119
+    ]
+  },
+  "coverage": "完整匹配",
+  "solution_steps": [
+    "六边形尚无内部点时，从一个顶点连接所有可作的对角线，可分成 \\(6-2=4\\) 个三角形。",
+    "在某个三角形里面加一点，连接该点与三个顶点，一个三角形变为三个，净增两个。若点在已有的内部边上，相邻的两个三角形分为四个，也净增两个。",
+    "故有 \\(n\\) 个内部点时共有 \\(4+2n\\) 个三角形。代入 \\(n=100\\)，得 204 个。"
+  ],
+  "materials": []
+}

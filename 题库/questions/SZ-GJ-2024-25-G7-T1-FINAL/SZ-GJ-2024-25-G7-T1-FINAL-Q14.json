@@ -1,0 +1,172 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q14",
+  "paper_id": "SZ-GJ-2024-25-G7-T1-FINAL",
+  "number": 14,
+  "type": "解答题",
+  "points": null,
+  "title": "在给定点图中作线并截取等长线段",
+  "stem": "如图，已知平面上的\\(A\\)，\\(B\\)，\\(C\\)，\\(D\\)四点，请按照要求进行尺规作图，或通过尺规作图解决问题（保留作图痕迹，不写作法）．\n〔图1〕\n（1）画出直线\\(AD\\)、射线\\(AB\\)、线段\\(CD\\)；\n（2）在线段\\(CD\\)上找到一点\\(E\\)，使得\\(DE=DA\\)",
+  "choices": [],
+  "figures": [
+    "assets/figures/39/396d19d1ed50d7b04b1d51a0e57d81e1e32fa6329b09f84b1939cddc62fca464.png"
+  ],
+  "tables": [],
+  "answer": "（1）直线 AD、射线 AB、线段 CD；（2）以 D 为圆心、DA 为半径的弧与线段 CD 的交点 E。各作图痕迹见解析图。",
+  "solution": "（1）用直尺过 A、D 并向两端延长；从 A 出发经过 B 延长；连接 C、D，仅保留两端点之间的线段。\n（2）取圆规开口为 DA，以 D 为圆心画弧，令弧与 CD 交于 E。因为 DA、DE 是同一圆的半径，所以 DE＝DA。",
+  "solution_origin": "source_summary",
+  "given_answer": "（1）见解析    （2）见解析",
+  "given_solution": "【分析】本题考查的是直线，射线与线段的画法，能够读懂题意是解题的关键．\n（1）根据要求画出射线与线段即可；\n（2）根据要求作出符合要求的线段即可．\n【小问1详解】\n解：如图所示，直线\\(AD\\)、射线\\(AB\\)、线段\\(CD\\)即为所求；\n〔图2〕【小问2详解】\n解：如图所示，点\\(E\\)即为所求．\n〔图3〕",
+  "given_solution_figures": [
+    "assets/figures/39/396d19d1ed50d7b04b1d51a0e57d81e1e32fa6329b09f84b1939cddc62fca464.png",
+    "assets/figures/2a/2ab97537a04d73c28926e4e2d14ceea0a1858049f11285021d872aa4c8be88aa.png",
+    "assets/figures/a7/a718bf138974a1df6e95fa4ed4732e13988ea0ad939bad80b7c7b0bcac11e5ae.png"
+  ],
+  "knowledge_ids": [
+    "M.G12.01",
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G12.01.01"
+  ],
+  "tag_reason": "先区分三种基本线，再用圆规在给定线段上截取已知长度。",
+  "parts": [
+    {
+      "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q14-P01",
+      "label": "(1)",
+      "stem_text": "画出直线 AD、射线 AB 和线段 CD。",
+      "answer": "过 A、D 作直线；以 A 为端点经过 B 作射线；连接 C、D。",
+      "knowledge_ids": [
+        "M.G01.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "按已给点画直线、射线和线段，考查三者的端点与延伸约定；该小问不涉及截取等长、作等角等专门尺规构造。",
+      "prompt": "画出直线\\(AD\\)、射线\\(AB\\)、线段\\(CD\\)；",
+      "material_ids": [
+        "construction",
+        "points"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "solution_steps": [
+        "用直尺过 A、D 作直线，两端均延长；以 A 为端点，经 B 向外作射线。",
+        "连接 C、D，得到以 C、D 为端点的线段。作图结果见图。"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          8
+        ]
+      }
+    },
+    {
+      "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q14-P02",
+      "label": "(2)",
+      "stem_text": "在线段 CD 上找一点 E，使 DE＝DA。",
+      "answer": "以 D 为圆心、DA 为半径作弧，与线段 CD 的交点即 E。",
+      "knowledge_ids": [
+        "M.G12.01"
+      ],
+      "exam_ids": [
+        "E.G12.01.01"
+      ],
+      "coverage": "完整匹配",
+      "prompt": "在线段\\(CD\\)上找到一点\\(E\\)，使得\\(DE=DA\\)",
+      "material_ids": [
+        "construction",
+        "points"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "solution_steps": [
+        "连接 C、D，以 D 为圆心、DA 为半径画弧。",
+        "取弧与线段 CD 的交点为 E。由同圆半径相等得 DE＝DA，保留弧线。"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          8
+        ]
+      }
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/gaoji/paper-q14-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          35.91,
+          461.82,
+          563.18,
+          659.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      8
+    ],
+    "solution_images": [
+      "assets/gaoji/solution-q14-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          35.91,
+          95.45,
+          563.18,
+          560.0
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      47,
+      50
+    ],
+    "solution_body_blocks": [
+      148,
+      161
+    ]
+  },
+  "tag_note": "(1) 按已给点画直线、射线和线段，考查三者的端点与延伸约定；该小问不涉及截取等长、作等角等专门尺规构造。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "(1) 用直尺过 A、D 作直线，两端均延长；以 A 为端点，经 B 向外作射线。",
+    "连接 C、D，得到以 C、D 为端点的线段。作图结果见图。",
+    "(2) 连接 C、D，以 D 为圆心、DA 为半径画弧。",
+    "取弧与线段 CD 的交点为 E。由同圆半径相等得 DE＝DA，保留弧线。"
+  ],
+  "materials": [
+    {
+      "id": "construction",
+      "kind": "text",
+      "text": "如图，已知平面上的\\(A\\)，\\(B\\)，\\(C\\)，\\(D\\)四点，请按照要求进行尺规作图，或通过尺规作图解决问题（保留作图痕迹，不写作法）．"
+    },
+    {
+      "id": "points",
+      "kind": "figure",
+      "text": "〔图1〕"
+    }
+  ]
+}

@@ -6,6 +6,10 @@
 
 Exam papers for junior high schools in Shenzhen, China. Currently includes mathematics; more subjects will be added over time.
 
+## 按题目和考点浏览
+
+首批题库收录深圳实验学校初中部、深圳市高级中学的 2024–2025 学年七年级上学期数学期末卷。下载仓库后，用浏览器打开 [题库首页](题库/index.html)，可以按卷阅读，也可以跨卷检索到具体小问。[题库目录和入库指南](题库/README.md)
+
 ## 当前收录
 
 首次收录共 **1,944 个文件**，包括 Word（`.docx`、`.doc`）和 PDF 格式。资料包含月考、期中、期末及中考模拟等试卷，部分附有答案、解析或答题卡。

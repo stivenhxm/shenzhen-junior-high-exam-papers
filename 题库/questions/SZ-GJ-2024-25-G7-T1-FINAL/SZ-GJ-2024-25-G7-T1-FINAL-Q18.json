@@ -1,0 +1,195 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q18",
+  "paper_id": "SZ-GJ-2024-25-G7-T1-FINAL",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "利用角平分线证明两角的倍数关系",
+  "stem": "如图，O是直线\\(CE\\)上一点，以O为顶点作\\(\\angle AOB=90{}^\\circ\\)，且\\(OA，OB\\)位于直线\\(CE\\)两侧，\\(OB\\)平分\\(\\angle COD\\)．\n〔图1〕\n（1）当\\(\\angle AOC=60{}^\\circ\\)时，求\\(\\angle DOE\\)的度数；\n（2）请你猜想\\(\\angle AOC\\)和\\(\\angle DOE\\)的数量关系，并说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/3e/3e9c38a7429e8cc5ec1e79c736d727ae4e6de6bb5c7c25d96af2b898a1fe7f26.png"
+  ],
+  "tables": [],
+  "answer": "（1）∠DOE＝120°；（2）∠DOE＝2∠AOC。",
+  "solution": "（1）∠BOC＝90°−60°＝30°。由 OB 平分 ∠COD，得 ∠BOD＝30°。由 C、O、E 共线，得 ∠DOE＝180°−2×30°＝120°。\n（2）设 ∠AOC＝α。∠BOD＝∠BOC＝90°−α，所以 ∠DOE＝180°−2(90°−α)＝2α＝2∠AOC。",
+  "solution_origin": "source_summary",
+  "given_answer": "（1）\\(\\angle DOE=120{}^\\circ\\)\n（2）\\(\\angle DOE=2\\angle AOC\\)，理由见解析",
+  "given_solution": "【分析】本题考查了与角平分线有关的计算．明确角度之间的数量关系是解题的关键．\n（1）由题意知，\\(\\angle BOC=\\angle AOB-\\angle AOC\\)，由\\(OB\\)平分\\(\\angle COD\\)，可得\\(\\angle BOD=\\angle BOC\\)，根据\\(\\angle DOE=180{}^\\circ -\\angle BOD-\\angle BOC\\)，计算求解即可；\n（2）同理（1）．\n【小问1详解】\n解：∵\\(\\angle AOB=90{}^\\circ ，\\angle AOC=60{}^\\circ\\)，\n∴\\(\\angle BOC=90{}^\\circ -60{}^\\circ =30{}^\\circ\\)，\n∵\\(OB\\)平分\\(\\angle COD\\)，\n∴\\(\\angle BOD=\\angle BOC=30{}^\\circ\\)，\n∴\\(\\angle DOE=180{}^\\circ -30{}^\\circ -30{}^\\circ =120{}^\\circ\\)；\n【小问2详解】\n解：\\(\\angle DOE=2\\angle AOC\\)，理由如下；\n∵\\(\\angle AOB=90{}^\\circ\\)，\n∴\\(\\angle BOC=90{}^\\circ -\\angle AOC\\)，\n∵\\(OB\\)平分\\(\\angle COD\\)，\n∴\\(\\angle BOD=\\angle BOC=90{}^\\circ -\\angle AOC\\)，\n∴\\(\\angle DOE=180{}^\\circ -2\\angle BOC=180{}^\\circ -2\\left ( { 90{}^\\circ -\\angle AOC } \\right )=2\\angle AOC\\)．",
+  "given_solution_figures": [
+    "assets/figures/3e/3e9c38a7429e8cc5ec1e79c736d727ae4e6de6bb5c7c25d96af2b898a1fe7f26.png"
+  ],
+  "knowledge_ids": [
+    "M.G01.02"
+  ],
+  "exam_ids": [
+    "E.G01.02.02",
+    "E.G01.02.01"
+  ],
+  "tag_reason": "把角平分、直角和平角的数量关系用于数值计算与符号论证。",
+  "parts": [
+    {
+      "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q18-P01",
+      "label": "(1)",
+      "stem_text": "当 ∠AOC＝60° 时，求 ∠DOE 的度数。",
+      "answer": "∠DOE＝120°。",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [
+        "E.G01.02.02",
+        "E.G01.02.01"
+      ],
+      "coverage": "完整匹配",
+      "prompt": "当\\(\\angle AOC=60{}^\\circ\\)时，求\\(\\angle DOE\\)的度数；",
+      "material_ids": [
+        "angles",
+        "diagram"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle DOE=120{}^\\circ\\)",
+      "solution_steps": [
+        "由 \\(\\angle AOB=90^\\circ,\\ \\angle AOC=60^\\circ\\) 及射线的位置得 \\(\\angle COB=90^\\circ-60^\\circ=30^\\circ\\)。",
+        "OB 平分 \\(\\angle COD\\)，故 \\(\\angle COD=2\\times30^\\circ=60^\\circ\\)。",
+        "OC、OE 是反向射线，所以 \\(\\angle DOE=180^\\circ-60^\\circ=120^\\circ\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          12
+        ]
+      }
+    },
+    {
+      "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q18-P02",
+      "label": "(2)",
+      "stem_text": "猜想 ∠AOC 与 ∠DOE 的数量关系，并说明理由。",
+      "answer": "∠DOE＝2∠AOC。",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [
+        "E.G01.02.02",
+        "E.G01.02.01"
+      ],
+      "coverage": "完整匹配",
+      "prompt": "请你猜想\\(\\angle AOC\\)和\\(\\angle DOE\\)的数量关系，并说明理由．",
+      "material_ids": [
+        "angles",
+        "diagram"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle DOE=2\\angle AOC\\)，理由见解析",
+      "solution_steps": [
+        "设 \\(\\angle AOC=\\alpha\\)，根据图中位置，\\(\\angle COB=90^\\circ-\\alpha\\)。",
+        "OB 平分 \\(\\angle COD\\)，所以 \\(\\angle COD=2(90^\\circ-\\alpha)\\)。",
+        "由邻补角关系，\\(\\angle DOE=180^\\circ-2(90^\\circ-\\alpha)=2\\alpha\\)，即 \\(\\angle DOE=2\\angle AOC\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      }
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/gaoji/paper-q18-p04.webp",
+      "assets/gaoji/paper-q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          35.91,
+          697.73,
+          563.18,
+          737.73
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          35.91,
+          49.55,
+          563.18,
+          215.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/gaoji/solution-q18-p12.webp",
+      "assets/gaoji/solution-q18-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          35.91,
+          321.36,
+          563.18,
+          760.0
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          35.91,
+          50.0,
+          563.18,
+          72.73
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      65,
+      68
+    ],
+    "solution_body_blocks": [
+      235,
+      257
+    ]
+  },
+  "coverage": "完整匹配",
+  "solution_steps": [
+    "(1) 由 \\(\\angle AOB=90^\\circ,\\ \\angle AOC=60^\\circ\\) 及射线的位置得 \\(\\angle COB=90^\\circ-60^\\circ=30^\\circ\\)。",
+    "OB 平分 \\(\\angle COD\\)，故 \\(\\angle COD=2\\times30^\\circ=60^\\circ\\)。",
+    "OC、OE 是反向射线，所以 \\(\\angle DOE=180^\\circ-60^\\circ=120^\\circ\\)。",
+    "(2) 设 \\(\\angle AOC=\\alpha\\)，根据图中位置，\\(\\angle COB=90^\\circ-\\alpha\\)。",
+    "OB 平分 \\(\\angle COD\\)，所以 \\(\\angle COD=2(90^\\circ-\\alpha)\\)。",
+    "由邻补角关系，\\(\\angle DOE=180^\\circ-2(90^\\circ-\\alpha)=2\\alpha\\)，即 \\(\\angle DOE=2\\angle AOC\\)。"
+  ],
+  "materials": [
+    {
+      "id": "angles",
+      "kind": "text",
+      "text": "如图，O是直线\\(CE\\)上一点，以O为顶点作\\(\\angle AOB=90{}^\\circ\\)，且\\(OA，OB\\)位于直线\\(CE\\)两侧，\\(OB\\)平分\\(\\angle COD\\)．"
+    },
+    {
+      "id": "diagram",
+      "kind": "figure",
+      "text": "〔图1〕"
+    }
+  ]
+}

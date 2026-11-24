@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q19",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "求团体操动作中的夹角与角平分时刻",
+  "stem": "“少年中国说”团体操展示出整体之美，如图1，小深想从数学角度分析动作的美观性．为方便研究，定义两手手心位置分别为A、B两点，两脚脚跟位置分别为C、D两点，A、B、C、D在同一平面内，点O为此平面内的定点，将手脚运动看作绕点O进行旋转．\n〔图1〕\n（1）如图2，A、O、B三点共线，点C、D重合，\\(\\angle AOC=\\angle BOC\\)，求\\(\\angle AOC\\)的度数；\n〔图2〕\n（2）如图3，踢腿运动时，小深发现手臂伸直使得A、O、B三点共线，\\(\\angle AOC:\\angle BOC=2:3\\)，且射线\\(OD\\)平分\\(\\angle BOC\\)时，动作最优美，求\\(\\angle AOD\\)的度数；\n〔图3〕\n（3）如图4，彩旗挥舞这一节中，小深发现，两腿左右等距张开，使竖直方向的射线\\(OE\\)平分\\(\\angle COD\\)，且\\(\\angle COD=30{}^\\circ\\)．开始运动前A、O、B三点在同一水平线上（即\\(\\angle AOE=90{}^\\circ\\)），射线\\(OA\\)绕点O逆时针旋转速度为每秒\\(50{}^\\circ\\)，同时射线\\(OB\\)绕点O顺时针旋转速度为每秒\\(25{}^\\circ\\)．当射线\\(OB\\)旋转到与射线\\(OD\\)第一次重合时，两条射线\\(OA、OB\\)均停止运动．当脚跟C或D的位置在\\(\\angle AOB\\)的角平分线上时，请直接写出射线\\(OA\\)的运动时间．\n〔图4〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/25/25301e495f2568aea6c421f83e15352072fc065b6f460226aa5006b0bdf94d00.png",
+    "assets/figures/51/51876ab8f8b761b87c83b3b0422f73831678a492dbe551a260e998c24df4ceff.png",
+    "assets/figures/84/8479cdedcc5f8c58f37712b003273dc093e33a36a50116bd33d33096f7f870c1.png",
+    "assets/figures/84/84d76527f6f9cefd10b8219600947415747f1c57d2a18a7a9b1cec01631027da.png"
+  ],
+  "tables": [],
+  "answer": "（1）90°；（2）126°；（3）只有 6/5 秒，此时 OD 平分 ∠AOB。",
+  "solution": "（1）∠AOC 与 ∠BOC 相等，且二者之和为 180°，故 ∠AOC=90°。\n（2）按题干中 2∶3 的比例分配 180°，得 ∠AOC=72°、∠BOC=108°。OD 平分 ∠BOC，故 ∠AOD=72°+54°=126°。\n（3）初始时 ∠BOD=75°，所以两射线在 75÷25=3 秒时停止。以向下的 OE 为 0°、向图的右侧取正，则 OC、OD 方向分别为 −15°、+15°；t 秒时 OA、OB 的方向分别为 −90+50t 和 90−25t（单位：度）。在 0≤t≤3 内，这两方向的差的绝对值至多 180°，夹在两边之间的角平分方向为二者的平均值 12.5t。在初始平角处任一平分方向也均不通过 C 或 D。由于 t≥0，不能等于 −15；令 12.5t=15 得 t=6/5 秒，且此时 OD 在角内。",
+  "solution_origin": "source_checked_with_correction",
+  "given_answer": "（1）\\(90{}^\\circ\\)\n（2）\\(126{}^\\circ\\)\n（3）\\(t=\\frac { 66 } { 35 }\\)或\\(t=\\frac { 6 } { 5 }\\)或\\(t=\\frac { 66 } { 25 }\\).",
+  "given_solution": "【分析】本题考查了角的和差运算，一元一次方程的应用；\n（1）由A，O，B三点共线，可得出\\(\\angle AOC+\\angle BOD=180{}^\\circ\\)，再由\\(\\angle AOC=\\angle BOD\\)，即可求出\\(\\angle AOC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)；\n（2）由\\(\\angle AOC:\\angle BOC=3:2\\)，设\\(\\angle AOC=3x{}^\\circ\\)，\\(\\angle BOC=2x{}^\\circ\\)，根据A、O、B三点共线，则\\(\\angle AOC+\\angle BOC=180{}^\\circ\\)，得出\\(x=36\\)，再根据\\(\\angle AOD=\\angle AOC+\\angle COD\\)，即可求解；\n（3）算出运动停止时间，明确讨论范围；设运动时间为t，表示出\\(\\angle AOB,\\angle AOC,\\angle DOB,\\)；\\(OD\\)分别平分\\(\\angle AOB\\)时，列出角的关系\\(\\angle AOB=2\\angle AOC\\)与\\(\\angle AOB=2\\angle BOD\\)，求出运动时间；\n【小问1详解】\n∵A，O，B三点共线，\n∴\\(\\angle AOC+\\angle BOD=180{}^\\circ\\)，\n∵\\(\\angle AOC=\\angle BOD\\)，\n∴\\(\\angle AOC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n故答案为：90；\n【小问2详解】\n解：∵\\(\\angle AOC:\\angle BOC=3:2\\)，\n设\\(\\angle AOC=2x{}^\\circ\\)，\\(\\angle BOC=3x{}^\\circ\\)，\n∵\\(DO\\)平分\\(\\angle BOC\\)，\n∴\\(\\angle COD=\\frac { 1 } { 2 }\\angle COB=\\frac { 3 } { 2 }x{}^\\circ\\)，\n∵A、O、B三点共线，则\\(\\angle AOC+\\angle BOC=180{}^\\circ\\)，\n∴\\(3x+2x=180\\)，\n解得：\\(x=36\\)，\n∴\\(\\angle AOD=\\angle AOC+\\angle COD=\\frac { 7 } { 2 }x{}^\\circ =126{}^\\circ\\)\n【小问3详解】\n运动前∵\\(\\angle COD=30{}^\\circ\\)，\n∴\\(\\angle COE=\\angle EOD=15{}^\\circ\\)，\\(\\angle BOD=\\angle AOC=75{}^\\circ\\)，\n设运动时间为\\(t{ \\rm{ s } }\\)，则\\(t=75{}^\\circ \\div 25{}^\\circ =3\\)，则\\(0\\le t\\le 3\\)，\n由题意可知，\\(OA\\)转动度数为\\(50{}^\\circ t\\)，\\(OB\\)转动度数为\\(25{}^\\circ t\\)\n①当\\(0\\le t\\le 1.5\\)时，\\(\\angle BOD=75{}^\\circ -25{}^\\circ t\\)，\\(\\angle AOC=75{}^\\circ -50{}^\\circ t\\)\n\\(\\angle AOB=180{}^\\circ -50{}^\\circ t-25{}^\\circ t=180{}^\\circ -75{}^\\circ t\\)\n当脚跟C在\\(\\angle AOB\\)的角平分线上时，\n即\\(OC\\)平分\\(\\angle AOB\\)时，有\\(2\\angle AOC=\\angle AOB\\)，\n\\(2\\left ( { 75{}^\\circ -50{}^\\circ t } \\right )=180{}^\\circ -75{}^\\circ t\\)，解得\\(t=-\\frac { 6 } { 5 }\\)，\\(t < 0\\)（舍）\n当脚跟D在\\(\\angle AOB\\)的角平分线上时，\n即\\(OD\\)平分\\(\\angle AOB\\)时，有\\(2\\angle BOD=\\angle AOB\\)，\n\\(2\\left ( { 75{}^\\circ -25{}^\\circ t } \\right )=180{}^\\circ -75{}^\\circ t\\)，解得\\(t=\\frac { 6 } { 5 }\\)，\n②当\\(1.5 < t\\le 2.4\\)时，\\(\\angle BOD=75{}^\\circ -25{}^\\circ t\\)，\\(\\angle AOC=50{}^\\circ t-75{}^\\circ\\)\n\\(\\angle AOB=180{}^\\circ -50{}^\\circ t-25{}^\\circ t=180{}^\\circ -75{}^\\circ t\\)\n当脚跟C在\\(\\angle AOB\\)的角平分线上时，\n即\\(OC\\)平分\\(\\angle AOB\\)时，有\\(2\\angle AOC=\\angle AOB\\)，\n\\(2\\left ( { 50{}^\\circ t-75{}^\\circ } \\right )=180{}^\\circ -75{}^\\circ t\\)，解得解得\\(t=\\frac { 66 } { 35 }\\)，\n当脚跟D在\\(\\angle AOB\\)的角平分线上时，\n即\\(OD\\)平分\\(\\angle AOB\\)时，有\\(2\\angle BOD=\\angle AOB\\)，\n\\(2\\left ( { 75{}^\\circ -25{}^\\circ t } \\right )=180{}^\\circ -75{}^\\circ t\\)，解得\\(t=\\frac { 6 } { 5 }\\)（舍），\n③当\\(2.4 < t\\le 3\\)时，\\(\\angle BOD=75{}^\\circ -25{}^\\circ t\\)，\\(\\angle AOC=50{}^\\circ t-75{}^\\circ\\)\n\\(\\angle AOB=50{}^\\circ t+25{}^\\circ t-180{}^\\circ =75{}^\\circ t-180{}^\\circ\\)\n当脚跟C在\\(\\angle AOB\\)的角平分线上时，\n即\\(OC\\)平分\\(\\angle AOB\\)时，有\\(2\\angle AOC=\\angle AOB\\)，\n\\(2\\left ( { 50{}^\\circ t-75{}^\\circ } \\right )=75{}^\\circ t-180{}^\\circ\\)，解得\\(t=-\\frac { 6 } { 5 }\\)（舍），\n当脚跟D在\\(\\angle AOB\\)的角平分线上时，\n即\\(OD\\)平分\\(\\angle AOB\\)时，有\\(2\\angle BOD=\\angle AOB\\)，\n\\(2\\left ( { 75{}^\\circ -25{}^\\circ t } \\right )=75{}^\\circ t-180{}^\\circ\\)，解得\\(t=\\frac { 66 } { 25 }\\)，\n综上可知，\\(t=\\frac { 66 } { 35 }\\)或\\(t=\\frac { 6 } { 5 }\\)或\\(t=\\frac { 66 } { 25 }\\).",
+  "given_solution_figures": [
+    "assets/figures/25/25301e495f2568aea6c421f83e15352072fc065b6f460226aa5006b0bdf94d00.png",
+    "assets/figures/51/51876ab8f8b761b87c83b3b0422f73831678a492dbe551a260e998c24df4ceff.png",
+    "assets/figures/7e/7e176aff70985119891ac5f1c65887ee8d02250e8a7bb6cadec71aabc2490248.png",
+    "assets/figures/84/84d76527f6f9cefd10b8219600947415747f1c57d2a18a7a9b1cec01631027da.png"
+  ],
+  "knowledge_ids": [
+    "M.G01.02",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.G01.02.01",
+    "E.G01.02.02",
+    "E.N06.04.01"
+  ],
+  "tag_reason": "先用平角与角平分求静态角，再用角速度建立两射线运动时的平分条件。",
+  "parts": [
+    {
+      "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q19-P01",
+      "label": "(1)",
+      "stem_text": "A、O、B 共线，C、D 重合且 ∠AOC=∠BOC，求 ∠AOC。",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [
+        "E.G01.02.01"
+      ],
+      "answer": "90°。",
+      "coverage": "完整匹配",
+      "prompt": "如图2，A、O、B三点共线，点C、D重合，\\(\\angle AOC=\\angle BOC\\)，求\\(\\angle AOC\\)的度数；",
+      "material_ids": [
+        "scene",
+        "pose1"
+      ],
+      "requires": [],
+      "given_answer": "\\(90{}^\\circ\\)",
+      "solution_steps": [
+        "A、O、B 在一条直线上，图中 OC 位于平角 AOB 内。",
+        "\\(\\angle AOC+\\angle BOC=180^\\circ\\)，又 \\(\\angle AOC=\\angle BOC\\)，故 \\(\\angle AOC=90^\\circ\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      }
+    },
+    {
+      "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q19-P02",
+      "label": "(2)",
+      "stem_text": "A、O、B 共线，∠AOC∶∠BOC=2∶3，OD 平分 ∠BOC，求 ∠AOD。",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [
+        "E.G01.02.02",
+        "E.G01.02.01"
+      ],
+      "answer": "126°。",
+      "coverage": "完整匹配",
+      "prompt": "如图3，踢腿运动时，小深发现手臂伸直使得A、O、B三点共线，\\(\\angle AOC:\\angle BOC=2:3\\)，且射线\\(OD\\)平分\\(\\angle BOC\\)时，动作最优美，求\\(\\angle AOD\\)的度数；",
+      "material_ids": [
+        "scene",
+        "pose2"
+      ],
+      "requires": [],
+      "given_answer": "\\(126{}^\\circ\\)",
+      "solution_steps": [
+        "因为 \\(\\angle AOC+\\angle BOC=180^\\circ\\)，且两角之比为 \\(2:3\\)，两角分别为 \\(72^\\circ\\)、\\(108^\\circ\\)。",
+        "OD 平分 \\(\\angle BOC\\)，故 \\(\\angle COD=54^\\circ\\)，\\(\\angle AOD=72^\\circ+54^\\circ=126^\\circ\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "解析版的一处推导把角度比例倒写；按题设 2∶3 计算。",
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q19-P03",
+      "label": "(3)",
+      "stem_text": "按图4的起始位置和题给角速度运动；C 或 D 落在 ∠AOB 的角平分线上时，求运动时间。",
+      "knowledge_ids": [
+        "M.G01.02",
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.G01.02.02",
+        "E.N06.04.01"
+      ],
+      "answer": "只有 6/5 秒，D 在角平分线上。",
+      "coverage": "部分匹配",
+      "tag_note": "按转速、停止区间和内角平分的几何条件列等式；现有码覆盖角平分与一次建模，未单列两条射线同时转动的情形。",
+      "prompt": "如图4，彩旗挥舞这一节中，小深发现，两腿左右等距张开，使竖直方向的射线\\(OE\\)平分\\(\\angle COD\\)，且\\(\\angle COD=30{}^\\circ\\)．开始运动前A、O、B三点在同一水平线上（即\\(\\angle AOE=90{}^\\circ\\)），射线\\(OA\\)绕点O逆时针旋转速度为每秒\\(50{}^\\circ\\)，同时射线\\(OB\\)绕点O顺时针旋转速度为每秒\\(25{}^\\circ\\)．当射线\\(OB\\)旋转到与射线\\(OD\\)第一次重合时，两条射线\\(OA、OB\\)均停止运动．当脚跟C或D的位置在\\(\\angle AOB\\)的角平分线上时，请直接写出射线\\(OA\\)的运动时间．",
+      "material_ids": [
+        "scene",
+        "pose3"
+      ],
+      "requires": [],
+      "given_answer": "\\(t=\\frac { 66 } { 35 }\\)或\\(t=\\frac { 6 } { 5 }\\)或\\(t=\\frac { 66 } { 25 }\\).",
+      "solution_steps": [
+        "初始 \\(\\angle BOD=90^\\circ-15^\\circ=75^\\circ\\)，运动持续 \\(75\\div25=3\\) 秒。",
+        "以向下的 OE 为零方向，向图右取正。在 \\(t\\) 秒时，OA、OB 的有向角分别为 \\(-90+50t\\)、\\(90-25t\\)（度）。OC、OD 分别位于 \\(-15^\\circ\\)、\\(+15^\\circ\\)。",
+        "在 \\(0\\le t\\le3\\) 内两方向差的绝对值不超过 \\(180^\\circ\\)，夹在两射线之间的平分方向是其平均数 \\(12.5t\\) 度。初始平角的两条平分方向也均不经过脚跟。",
+        "\\(12.5t=-15\\) 无非负解；由 \\(12.5t=15\\) 得 \\(t=\\frac65\\) 秒，此时 OD 在角内。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "原解析列出的 66/35 秒和 66/25 秒分别使 OC、OD 落在角外。按内角平分线定义，仅 6/5 秒成立。",
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      }
+    }
+  ],
+  "review_note": "（2）解析部分一处将 2∶3 倒写为 3∶2，结果 126° 与题干相符。（3）解析版第14、16页给 66/35、6/5、66/25 三个时刻；第一项的 OC 在角外，第三项的 OD 在角外，均不满足内角平分线定义。仅 6/5 秒成立。",
+  "source": {
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q19-p04.webp",
+      "assets/shiyan/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          35.91,
+          705.91,
+          563.18,
+          770.91
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          35.91,
+          48.18,
+          563.18,
+          620.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q19-p14.webp",
+      "assets/shiyan/solution-q19-p15.webp",
+      "assets/shiyan/solution-q19-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          35.91,
+          251.36,
+          563.18,
+          752.73
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          35.91,
+          45.0,
+          563.18,
+          769.09
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          35.91,
+          48.64,
+          563.18,
+          210.91
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      64,
+      71
+    ],
+    "solution_body_blocks": [
+      271,
+      331
+    ]
+  },
+  "tag_note": "(3) 按转速、停止区间和内角平分的几何条件列等式；现有码覆盖角平分与一次建模，未单列两条射线同时转动的情形。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "(1) A、O、B 在一条直线上，图中 OC 位于平角 AOB 内。",
+    "\\(\\angle AOC+\\angle BOC=180^\\circ\\)，又 \\(\\angle AOC=\\angle BOC\\)，故 \\(\\angle AOC=90^\\circ\\)。",
+    "(2) 因为 \\(\\angle AOC+\\angle BOC=180^\\circ\\)，且两角之比为 \\(2:3\\)，两角分别为 \\(72^\\circ\\)、\\(108^\\circ\\)。",
+    "OD 平分 \\(\\angle BOC\\)，故 \\(\\angle COD=54^\\circ\\)，\\(\\angle AOD=72^\\circ+54^\\circ=126^\\circ\\)。",
+    "(3) 初始 \\(\\angle BOD=90^\\circ-15^\\circ=75^\\circ\\)，运动持续 \\(75\\div25=3\\) 秒。",
+    "以向下的 OE 为零方向，向图右取正。在 \\(t\\) 秒时，OA、OB 的有向角分别为 \\(-90+50t\\)、\\(90-25t\\)（度）。OC、OD 分别位于 \\(-15^\\circ\\)、\\(+15^\\circ\\)。",
+    "在 \\(0\\le t\\le3\\) 内两方向差的绝对值不超过 \\(180^\\circ\\)，夹在两射线之间的平分方向是其平均数 \\(12.5t\\) 度。初始平角的两条平分方向也均不经过脚跟。",
+    "\\(12.5t=-15\\) 无非负解；由 \\(12.5t=15\\) 得 \\(t=\\frac65\\) 秒，此时 OD 在角内。"
+  ],
+  "materials": [
+    {
+      "id": "scene",
+      "kind": "text",
+      "text": "“少年中国说”团体操展示出整体之美，小深想从数学角度分析动作的美观性．为方便研究，定义两手手心位置分别为A、B两点，两脚脚跟位置分别为C、D两点，A、B、C、D在同一平面内，点O为此平面内的定点，将手脚运动看作绕点O进行旋转．"
+    },
+    {
+      "id": "pose1",
+      "kind": "figure",
+      "text": "〔图2〕"
+    },
+    {
+      "id": "pose2",
+      "kind": "figure",
+      "text": "〔图3〕"
+    },
+    {
+      "id": "pose3",
+      "kind": "figure",
+      "text": "〔图4〕"
+    }
+  ]
+}

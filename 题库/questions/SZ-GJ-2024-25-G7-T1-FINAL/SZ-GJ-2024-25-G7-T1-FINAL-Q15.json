@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q15",
+  "paper_id": "SZ-GJ-2024-25-G7-T1-FINAL",
+  "number": 15,
+  "type": "解答题",
+  "points": null,
+  "title": "有理数混合运算与整式化简求值",
+  "stem": "（1）计算\\(-1 ^ { 2024 } \\times \\left | { 1-3 } \\right |+2\\div \\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 3 }\\)；\n（2）先化简，再求值：\\(3a ^ { 2 } +6ab-2\\left ( { a ^ { 2 } +3ab-3b } \\right )\\)，其中\\(\\left | { a+2 } \\right |+\\left ( { b-3 } \\right ) ^ { 2 } =0\\)",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "answer": "（1）14；（2）a²＋6b，代入后等于 22。",
+  "solution": "（1）−1²⁰²⁴＝−1，|1−3|＝2，(1/2)³＝1/8。原式＝−2＋2÷(1/8)＝−2＋16＝14。\n（2）原式＝3a²＋6ab−2a²−6ab＋6b＝a²＋6b。因两个非负数的和为零，a＋2＝0、b−3＝0，即 a＝−2、b＝3。原式＝(−2)²＋6×3＝22。",
+  "solution_origin": "source_summary",
+  "given_answer": "（1）14；（2）\\(a ^ { 2 } +6b\\)，22",
+  "given_solution": "【分析】本题考查了有理数的混合运算，整式的化简求值，非负数的性质．\n（1）先算乘方和绝对值，再算乘除，最后算加减；\n（2）先把所给代数式去括号合并同类项，然后根据非负数的性质求出a，b的值，再把a，b的值代入计算．\n【详解】解：（1）原式\\(=-1\\times 2+2\\div \\frac { 1 } { 8 }\\)\n\\(=-2+16\\)\n\\(=14\\)；\n（2）原式\\(=3a ^ { 2 } +6ab-2a ^ { 2 } -6ab+6b\\)\n\\(=a ^ { 2 } +6b\\)，\n\\(\\because \\left | { a+2 } \\right |+\\left ( { b-3 } \\right ) ^ { 2 } =0\\)，\n\\(\\therefore a+2=b-3=0\\)，即\\(a=-2\\)，\\(b=3\\)，\n∴原式\\(=\\left ( { -2 } \\right ) ^ { 2 } +6\\times 3=22\\)．",
+  "given_solution_figures": [],
+  "knowledge_ids": [
+    "M.N01.05",
+    "M.N03.03",
+    "M.N03.01",
+    "M.N01.03"
+  ],
+  "exam_ids": [
+    "E.N01.05.01",
+    "E.N03.03.01",
+    "E.N03.01.02"
+  ],
+  "tag_reason": "小问分别考查混合运算顺序，以及去括号、非负条件确定字母值和代入。",
+  "parts": [
+    {
+      "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q15-P01",
+      "label": "(1)",
+      "stem_text": "计算 −1²⁰²⁴×|1−3|＋2÷(1/2)³。",
+      "answer": "14。",
+      "knowledge_ids": [
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "prompt": "计算\\(-1 ^ { 2024 } \\times \\left | { 1-3 } \\right |+2\\div \\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 3 }\\)；",
+      "material_ids": [],
+      "requires": [],
+      "given_answer": "14",
+      "solution_steps": [
+        "按运算顺序，\\(-1^{2024}=-(1^{2024})=-1\\)，\\(|1-3|=2\\)，\\((\\frac12)^3=\\frac18\\)。",
+        "原式 \\(=(-1)\\times2+2\\div\\frac18=-2+16=14\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          9
+        ]
+      }
+    },
+    {
+      "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q15-P02",
+      "label": "(2)",
+      "stem_text": "先化简，再求值：3a²＋6ab−2(a²＋3ab−3b)，其中 |a＋2|＋(b−3)²＝0。",
+      "answer": "a²＋6b，其值为 22。",
+      "knowledge_ids": [
+        "M.N03.03",
+        "M.N03.01",
+        "M.N01.03",
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N03.03.01",
+        "E.N03.01.02"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "整式化简、代入求值有对应考点；原条件用绝对值与平方的非负性求 a、b，不含算术平方根，非负条件只记实际知识点。",
+      "prompt": "先化简，再求值：\\(3a ^ { 2 } +6ab-2\\left ( { a ^ { 2 } +3ab-3b } \\right )\\)，其中\\(\\left | { a+2 } \\right |+\\left ( { b-3 } \\right ) ^ { 2 } =0\\)",
+      "material_ids": [],
+      "requires": [],
+      "given_answer": "\\(a ^ { 2 } +6b\\)，22",
+      "solution_steps": [
+        "去括号并合并同类项：\\(3a^2+6ab-2a^2-6ab+6b=a^2+6b\\)。",
+        "\\(|a+2|\\) 与 \\((b-3)^2\\) 都非负，其和为零，故 \\(a=-2,\\ b=3\\)。",
+        "代入得 \\((-2)^2+6\\times3=22\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          9
+        ]
+      }
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/gaoji/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          35.91,
+          665.91,
+          563.18,
+          737.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/gaoji/solution-q15-p08.webp",
+      "assets/gaoji/solution-q15-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          35.91,
+          645.0,
+          563.18,
+          760.91
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          35.91,
+          45.0,
+          563.18,
+          268.64
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      51,
+      52
+    ],
+    "solution_body_blocks": [
+      162,
+      176
+    ]
+  },
+  "tag_note": "(2) 整式化简、代入求值有对应考点；原条件用绝对值与平方的非负性求 a、b，不含算术平方根，非负条件只记实际知识点。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "(1) 按运算顺序，\\(-1^{2024}=-(1^{2024})=-1\\)，\\(|1-3|=2\\)，\\((\\frac12)^3=\\frac18\\)。",
+    "原式 \\(=(-1)\\times2+2\\div\\frac18=-2+16=14\\)。",
+    "(2) 去括号并合并同类项：\\(3a^2+6ab-2a^2-6ab+6b=a^2+6b\\)。",
+    "\\(|a+2|\\) 与 \\((b-3)^2\\) 都非负，其和为零，故 \\(a=-2,\\ b=3\\)。",
+    "代入得 \\((-2)^2+6\\times3=22\\)。"
+  ],
+  "materials": []
+}

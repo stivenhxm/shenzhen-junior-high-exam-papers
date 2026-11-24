@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "单道大题及其可检索小问",
+  "type": "object",
+  "allOf": [{"$ref": "#/$defs/tagged"}],
+  "required": ["schema_version", "taxonomy_version", "id", "paper_id", "number", "title", "type", "stem", "choices", "figures", "tables", "materials", "parts", "given_answer", "given_solution", "given_solution_figures", "answer", "solution_origin", "solution_steps", "tag_reason", "source"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "taxonomy_version": {"type": "string"},
+    "id": {"type": "string", "minLength": 1},
+    "paper_id": {"type": "string"},
+    "number": {"type": ["integer", "string"]},
+    "title": {"type": "string", "minLength": 1},
+    "type": {"type": "string"},
+    "points": {"type": ["number", "null"]},
+    "stem": {"type": "string", "minLength": 1},
+    "choices": {"type": "array", "items": {"type": "object", "required": ["label", "text"]}},
+    "figures": {"$ref": "#/$defs/list"},
+    "tables": {"type": "array", "items": {"type": "object", "required": ["text", "rows"]}},
+    "given_answer": {"type": "string"},
+    "given_solution": {"type": "string"},
+    "given_solution_figures": {"$ref": "#/$defs/list"},
+    "solution_origin": {"type": "string", "minLength": 1},
+    "tag_reason": {"type": "string"},
+    "answer": {"type": "string", "minLength": 1},
+    "solution_steps": {"$ref": "#/$defs/steps"},
+    "materials": {"type": "array", "items": {"type": "object", "required": ["id", "kind", "text"], "properties": {"id": {"type": "string", "minLength": 1}, "kind": {"enum": ["text", "table", "figure"]}, "text": {"type": "string", "minLength": 1}}}},
+    "parts": {"type": "array", "items": {"$ref": "#/$defs/part"}},
+    "source": {"type": "object", "required": ["question_pages", "solution_pages", "question_images", "solution_images"], "properties": {"question_pages": {"$ref": "#/$defs/pages"}, "solution_pages": {"$ref": "#/$defs/pages"}}}
+  },
+  "$defs": {
+    "list": {"type": "array", "items": {"type": "string"}},
+    "steps": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
+    "tagged": {
+      "type": "object", "required": ["knowledge_ids", "exam_ids", "coverage"],
+      "properties": {"knowledge_ids": {"$ref": "#/$defs/list"}, "exam_ids": {"$ref": "#/$defs/list"}, "coverage": {"enum": ["完整匹配", "部分匹配", "仅知识点"]}, "tag_note": {"type": "string"}},
+      "if": {"properties": {"coverage": {"enum": ["部分匹配", "仅知识点"]}}},
+      "then": {"required": ["tag_note"], "properties": {"tag_note": {"type": "string", "minLength": 1}}}
+    },
+    "part": {
+      "type": "object", "allOf": [{"$ref": "#/$defs/tagged"}],
+      "required": ["id", "label", "prompt", "material_ids", "requires", "given_answer", "answer", "solution_steps", "source"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1}, "label": {"type": "string"},
+        "prompt": {"type": "string", "minLength": 1}, "material_ids": {"$ref": "#/$defs/list"},
+        "requires": {"$ref": "#/$defs/list"}, "given_answer": {"type": "string"},
+        "answer": {"type": "string", "minLength": 1}, "solution_steps": {"$ref": "#/$defs/steps"},
+        "solution_figure_ids": {"type": "array", "items": {"type": "integer", "minimum": 1}},
+        "source": {"type": "object", "required": ["question_pages", "solution_pages"], "properties": {"question_pages": {"$ref": "#/$defs/pages"}, "solution_pages": {"$ref": "#/$defs/pages"}}}
+      }
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q05",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 5,
+  "type": "选择题",
+  "points": 3,
+  "title": "由非负数之和求幂的值",
+  "stem": "\\(\\left | { a-3 } \\right |\\)与\\(\\left ( { b+2 } \\right ) ^ { 2 }\\)的和为0，则\\(b ^ { a } =\\)（　　）",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(-8\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(-6\\)"
+    },
+    {
+      "label": "C",
+      "text": "6"
+    },
+    {
+      "label": "D",
+      "text": "8"
+    }
+  ],
+  "figures": [],
+  "tables": [],
+  "answer": "A，−8。",
+  "solution": "因为 |a−3|≥0，(b+2)²≥0，且二者的和为 0，所以 a−3=0，b+2=0。由 a=3、b=−2 得 bᵃ=(−2)³=−8。",
+  "solution_origin": "source_summary",
+  "given_answer": "A",
+  "given_solution": "【分析】本题考查的是相反数的应用，绝对值和平方的非负性．熟练掌握互为相反数的两数之和为0，以及非负数的和为0得每一个非负数均为0，是解题的关键．\n根据互为相反数的两数之和为0，以及绝对值和平方的非负性，求出a、b的值，进而求出结果．\n【详解】解：∵\\(\\left | { a-3 } \\right |\\)与\\(\\left ( { b+2 } \\right ) ^ { 2 }\\)的和为0，\n∴\\(\\left | { a-3 } \\right |\\)与\\(\\left ( { b+2 } \\right ) ^ { 2 }\\)互为相反数，\n\\(\\therefore \\left | { a-3 } \\right |+\\left ( { b+2 } \\right ) ^ { 2 } =0\\)，\n\\(\\therefore a-3=0，b+2=0\\)，\n\\(\\therefore a=3，b=-2\\)，\n\\(\\therefore b ^ { a } =\\left ( { -2 } \\right ) ^ { 3 } =-8\\)，\n故选：A．",
+  "given_solution_figures": [],
+  "knowledge_ids": [
+    "M.N01.03",
+    "M.N01.05",
+    "M.N03.01"
+  ],
+  "exam_ids": [
+    "E.N03.01.02"
+  ],
+  "tag_reason": "令绝对值和完全平方分别为零，再将 a、b 代入幂。",
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      1
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q05-p01.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          35.91,
+          470.45,
+          563.18,
+          518.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      2,
+      3
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q05-p02.webp",
+      "assets/shiyan/solution-q05-p03.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          35.91,
+          524.55,
+          563.18,
+          752.27
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          35.91,
+          49.09,
+          563.18,
+          120.91
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      15,
+      16
+    ],
+    "solution_body_blocks": [
+      39,
+      51
+    ]
+  },
+  "tag_note": "条件仅含绝对值和平方的非负性，分类表的“非负量和为零”考点明确要求算术平方根参与；这里保留绝对值、乘方知识，另标实际考查的代入求值。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "\\(|a-3|\\ge0,\\ (b+2)^2\\ge0\\)，两者的和是 0，所以 \\(a-3=0,\\ b+2=0\\)。",
+    "解得 \\(a=3,\\ b=-2\\)，代入得 \\(b^a=(-2)^3=-8\\)。选 A。"
+  ],
+  "materials": []
+}

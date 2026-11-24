@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q08",
+  "paper_id": "SZ-GJ-2024-25-G7-T1-FINAL",
+  "number": 8,
+  "type": "选择题",
+  "points": 3,
+  "title": "用角速度差求两条射线的夹角时刻",
+  "stem": "如图，\\(O\\)是直线\\(AB\\)上一点，射线\\(OP\\)、\\(OQ\\)分别从\\(OA\\)、\\(OB\\)同时出发，以每秒\\(45{}^\\circ\\)和每秒\\(5{}^\\circ\\)的速度绕点\\(O\\)顺时针旋转，设旋转时间为\\(t\\)秒．当\\(\\angle POQ=100{}^\\circ\\)时，\\(t\\)的值可能为（   ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "3"
+    },
+    {
+      "label": "B",
+      "text": "5"
+    },
+    {
+      "label": "C",
+      "text": "7"
+    },
+    {
+      "label": "D",
+      "text": "9"
+    }
+  ],
+  "figures": [
+    "assets/figures/c8/c89b2982ec9d3673b0734a483448903d94aeee455d25e56bc0ebf537cd92fb8b.png"
+  ],
+  "tables": [],
+  "answer": "C，7 秒。",
+  "solution": "初始夹角为 180°，OP 每秒比 OQ 多转 40°。在第一个相对运动周期内，追上之前有 180°−40°t＝100°，得 t＝2；追上之后有 40°t−180°＝100°，得 t＝7。四个备选值中只有 7。",
+  "solution_origin": "source_summary",
+  "given_answer": "C",
+  "given_solution": "【分析】本题考查了一元一次方程的应用，：当\\(OP\\)“追上”\\(OQ\\)前：\\(\\angle POQ=180{}^\\circ +5t-45t\\)；当\\(OP\\)“追上”\\(OQ\\)后：\\(\\angle POQ=45t-5t-180{}^\\circ\\)；据此即可求解；\n【详解】解：当\\(OP\\)“追上”\\(OQ\\)前：\\(\\angle POQ=180{}^\\circ +5{}^\\circ t-45{}^\\circ t\\)；\n则\\(180{}^\\circ +5{}^\\circ t-45{}^\\circ t=100{}^\\circ\\)，\n解得：\\(t=2\\)；\n当\\(OP\\)“追上”\\(OQ\\)后：\\(\\angle POQ=45{}^\\circ t-5{}^\\circ t-180{}^\\circ\\)；\n则\\(45{}^\\circ t-5{}^\\circ t-180{}^\\circ =100{}^\\circ\\)，\n解得：\\(t=7\\)；\n故选：C",
+  "given_solution_figures": [
+    "assets/figures/c8/c89b2982ec9d3673b0734a483448903d94aeee455d25e56bc0ebf537cd92fb8b.png"
+  ],
+  "knowledge_ids": [
+    "M.N06.04",
+    "M.G01.02"
+  ],
+  "exam_ids": [
+    "E.N06.04.01",
+    "E.G01.02.01"
+  ],
+  "tag_reason": "用相对角速度写出追上前后的两种角度等式，再对照选项。",
+  "parts": [],
+  "review_note": "题目问“可能”的选项。若连续旋转且不限制时长，所有正时间为 t＝2＋9k 或 7＋9k 秒，k＝0,1,2,…；这是对原解析首周期的补充。",
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/gaoji/paper-q08-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          35.91,
+          493.18,
+          563.18,
+          643.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      4,
+      5
+    ],
+    "solution_images": [
+      "assets/gaoji/solution-q08-p04.webp",
+      "assets/gaoji/solution-q08-p05.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          35.91,
+          672.73,
+          563.18,
+          741.82
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          35.91,
+          51.82,
+          563.18,
+          253.64
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      33,
+      35
+    ],
+    "solution_body_blocks": [
+      85,
+      97
+    ]
+  },
+  "tag_note": "动角以两射线的相对速度列一次关系并核对夹角；现有编号覆盖角度运算和一次建模，未单列周期动角。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "最初两射线相反，夹角为 \\(180^\\circ\\)。两者同向旋转，相对角速度为 \\(45^\\circ-5^\\circ=40^\\circ\\) 每秒。",
+    "第一个相对运动周期中，相遇前令 \\(180^\\circ-40^\\circ t=100^\\circ\\)，得 \\(t=2\\)；相遇后令 \\(40^\\circ t-180^\\circ=100^\\circ\\)，得 \\(t=7\\)。",
+    "每过 \\(360\\div40=9\\) 秒重复一次，全部正时间为 \\(2+9k\\) 或 \\(7+9k\\) 秒（\\(k=0,1,2,\\ldots\\)）。四个备选值中只有 7，选 C。"
+  ],
+  "materials": []
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q12",
+  "paper_id": "SZ-GJ-2024-25-G7-T1-FINAL",
+  "number": 12,
+  "type": "填空题",
+  "points": 3,
+  "title": "由内角和求多边形的对角线数",
+  "stem": "已知一个多边形的内角和为\\(900{}^\\circ\\)，则这个多边形共有_____条对角线．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "answer": "14 条。",
+  "solution": "设多边形有 n 条边，则 (n−2)×180°＝900°，得 n＝7。从每个顶点能引 n−3 条对角线，每条重复计数两次，故共 7×4÷2＝14 条。",
+  "solution_origin": "source_summary",
+  "given_answer": "\\(14\\)",
+  "given_solution": "【分析】本题考查了多边形内角和问题和多边形对角线的条数问题，设这个多边形的边数为\\(n\\)，则\\(\\left ( { n-2 } \\right )\\times 180{}^\\circ =900{}^\\circ\\)，求出边数即可求解；\n【详解】解：设这个多边形的边数为\\(n\\)，\n则\\(\\left ( { n-2 } \\right )\\times 180{}^\\circ =900{}^\\circ\\)，解得\\(n=7\\)；\n∴这个多边形共有\\(\\frac { 7\\times \\left ( { 7-3 } \\right ) } { 2 }=14\\)条对角线．\n故答案为：\\(14\\)",
+  "given_solution_figures": [],
+  "knowledge_ids": [
+    "M.G02.03"
+  ],
+  "exam_ids": [
+    "E.G02.03.01"
+  ],
+  "tag_reason": "用多边形内角和反求边数，再按顶点统计对角线。",
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/gaoji/paper-q12-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          35.91,
+          150.0,
+          563.18,
+          168.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/gaoji/solution-q12-p06.webp",
+      "assets/gaoji/solution-q12-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          35.91,
+          555.45,
+          563.18,
+          750.45
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          35.91,
+          48.64,
+          563.18,
+          66.36
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      43,
+      43
+    ],
+    "solution_body_blocks": [
+      128,
+      135
+    ]
+  },
+  "tag_note": "内角和反求边数有对应考点；从边数求对角线数还需从每个顶点计数并除以 2，分类表没有独立的对角线计数考点。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "设多边形有 \\(n\\) 条边。由内角和公式，\\((n-2)\\times180^\\circ=900^\\circ\\)，解得 \\(n=7\\)。",
+    "每个顶点可向 \\(n-3=4\\) 个非相邻顶点连对角线。每条被重复计数两次，共有 \\(\\frac{7\\times4}{2}=14\\) 条。"
+  ],
+  "materials": []
+}

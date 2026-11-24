@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q12",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 12,
+  "type": "填空题",
+  "points": 3,
+  "title": "求阶梯形旋转体的外表面积",
+  "stem": "如图，大长方形长\\(AB=10{ \\rm{ c } }{ \\rm{ m } }\\)，宽\\(BC=6{ \\rm{ c } }{ \\rm{ m } }\\)，小长方形长\\(PQ=6{ \\rm{ c } }{ \\rm{ m } }\\)，宽\\(PM=2{ \\rm{ c } }{ \\rm{ m } }\\)，以两长方形长边中点连线（图中的虚线l）为轴，将八边形旋转一周得到的几何体的表面积为___________\\({ \\rm{ c } }{ \\rm{ m } } ^ { 2 }\\)．（结果保留\\({ \\rm{ \\pi } }\\)）\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/77/77ff9f3ee797303724725efbda1c5b406e04868483a5bbe98f78d6125d23d4a7.png"
+  ],
+  "tables": [],
+  "answer": "122π cm²。",
+  "solution": "大圆柱半径 5 cm、高 6 cm，小圆柱半径 3 cm、高 2 cm。两个侧面积依次为 2π×5×6=60π、2π×3×2=12π。大圆柱底、外露圆环及小圆柱顶三个水平面的面积和为 25π+(25π−9π)+9π=50π。因此总表面积为 122π cm²。",
+  "solution_origin": "source_summary",
+  "given_answer": "\\(122\\pi\\)",
+  "given_solution": "【分析】本题考查圆柱的表面积计算，解题关键是根据线动成面的知识得出旋转后的图形．\n长方形旋转后形成圆柱，根据题意求出大圆柱的侧面积和小圆柱的侧面积，再加上大圆柱的上下两圆的面积，即可得出答案．\n【详解】解：由题意可得：大圆柱的侧面积\\(={ \\rm{ \\pi } }\\times 10\\times 6=60{ \\rm{ \\pi } }\\ { \\rm{ c } }{ \\rm{ m } } ^ { 2 }\\)；\n小圆柱的侧面积\\(={ \\rm{ \\pi } }\\times 6\\times 2=12{ \\rm{ \\pi } }\\ { \\rm{ c } }{ \\rm{ m } } ^ { 2 }\\)；\n大圆柱上下圆的面积为：\\(2{ \\rm{ \\pi } }\\times 5 ^ { 2 } =50{ \\rm{ \\pi } }\\)，\n∴几何体的表面积\\(=60{ \\rm{ \\pi } }+12{ \\rm{ \\pi } }+50{ \\rm{ \\pi } }=122\\pi \\ { \\rm{ c } }{ \\rm{ m } } ^ { 2 }\\)．\n故答案为：\\(122\\pi\\)．",
+  "given_solution_figures": [
+    "assets/figures/77/77ff9f3ee797303724725efbda1c5b406e04868483a5bbe98f78d6125d23d4a7.png"
+  ],
+  "knowledge_ids": [
+    "M.G11.01"
+  ],
+  "exam_ids": [
+    "E.G11.01.02"
+  ],
+  "tag_reason": "把旋转体分为两个同轴圆柱，区分外露面和接合面。",
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q12-p02.webp",
+      "assets/shiyan/paper-q12-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          35.91,
+          722.73,
+          563.18,
+          769.55
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          35.91,
+          48.64,
+          563.18,
+          178.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q12-p06.webp",
+      "assets/shiyan/solution-q12-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          35.91,
+          590.0,
+          563.18,
+          765.0
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          35.91,
+          51.82,
+          563.18,
+          128.64
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      35,
+      36
+    ],
+    "solution_body_blocks": [
+      120,
+      130
+    ]
+  },
+  "tag_note": "编号覆盖从展开及外露面计算表面积的组成关系。由旋转截面识别组合圆柱、扣除遮住的接合面属于本题加深部分，目录未单列该类旋转体。",
+  "coverage": "部分匹配",
+  "solution_steps": [
+    "旋转后大圆柱半径为 5 cm、高为 6 cm，小圆柱半径为 3 cm、高为 2 cm。",
+    "两个圆柱的侧面积和为 \\(2\\pi\\times5\\times6+2\\pi\\times3\\times2=72\\pi\\)。",
+    "外露水平面包括大圆柱底面、上下圆柱之间的圆环、小圆柱顶面，其面积和为 \\(25\\pi+(25\\pi-9\\pi)+9\\pi=50\\pi\\)。",
+    "总表面积为 \\(72\\pi+50\\pi=122\\pi\\) 平方厘米。"
+  ],
+  "materials": []
+}

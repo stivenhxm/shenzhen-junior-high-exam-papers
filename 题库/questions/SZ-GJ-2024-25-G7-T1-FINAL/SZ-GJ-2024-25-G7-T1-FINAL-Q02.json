@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-GJ-2024-25-G7-T1-FINAL-Q02",
+  "paper_id": "SZ-GJ-2024-25-G7-T1-FINAL",
+  "number": 2,
+  "type": "选择题",
+  "points": 3,
+  "title": "用科学记数法表示考生人数",
+  "stem": "据统计，2024年广东省有\\(76.8\\)万名考生参加高考，我们有时会用科学记数法来表示较大的数，下列（   ）选项正确地用科学记数法表示了考生人数（   ）",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(76.8\\times 10 ^ { 4 }\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(76.8\\times 10 ^ { 3 }\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(7.68\\times 10 ^ { 5 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(7.68\\times 10 ^ { 4 }\\)"
+    }
+  ],
+  "figures": [],
+  "tables": [],
+  "answer": "C，7.68×10⁵ 人。",
+  "solution": "76.8 万＝768000。把小数点向左移动五位得到 7.68，因此 768000＝7.68×10⁵，且 1≤7.68<10。",
+  "solution_origin": "source_summary",
+  "given_answer": "C",
+  "given_solution": "【分析】本题考查用科学记数法表示绝对值大于1的数．科学记数法的表示形式为\\(a\\times 10 ^ { n }\\)的形式，其中\\(1\\le \\left | { a } \\right | < 10，n\\)为整数．确定n的值时，要看把原数变成a时，小数点移动了多少位，n的绝对值与小数点移动的位数相同．当原数绝对值\\(>1\\)时，n是正数；当原数的绝对值\\(< 1\\)时，n是负数．熟记相关结论即可．\n【详解】解：\\(76.8\\)万\\(=768000=7.68\\times 10 ^ { 5 }\\)，\n故选：C",
+  "given_solution_figures": [],
+  "knowledge_ids": [
+    "M.N01.06"
+  ],
+  "exam_ids": [
+    "E.N01.06.01"
+  ],
+  "tag_reason": "把以“万”为单位的人数换算后写成规范的科学记数形式。",
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      1
+    ],
+    "question_images": [
+      "assets/gaoji/paper-q02-p01.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          35.91,
+          415.0,
+          563.18,
+          484.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      1,
+      2
+    ],
+    "solution_images": [
+      "assets/gaoji/solution-q02-p01.webp",
+      "assets/gaoji/solution-q02-p02.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          35.91,
+          680.45,
+          563.18,
+          749.09
+        ]
+      },
+      {
+        "page": 2,
+        "bbox_pt": [
+          35.91,
+          49.55,
+          563.18,
+          175.45
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      11,
+      12
+    ],
+    "solution_body_blocks": [
+      19,
+      25
+    ]
+  },
+  "coverage": "完整匹配",
+  "solution_steps": [
+    "先将“万”换算为基本单位，\\(76.8\\text{ 万}=768000\\)。",
+    "小数点向左移五位，首因数 7.68 满足 \\(1\\le7.68<10\\)，故 \\(768000=7.68\\times10^5\\)。选 C。"
+  ],
+  "materials": []
+}

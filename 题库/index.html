@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>深圳初中数学题库</title>
+  <link rel="stylesheet" href="web/styles.css">
+</head>
+<body>
+  <header class="mast">
+    <div class="wrap mast-inner">
+      <h1><a href="#" id="home">深圳初中数学题库</a></h1>
+      <span class="collection-count" id="collection-count"></span>
+    </div>
+  </header>
+  <nav class="tabs" aria-label="浏览方式"><div class="wrap tab-inner">
+    <a href="#" class="tab" id="paper-tab">按试卷浏览</a>
+    <a href="#mode=tags" class="tab" id="tag-tab">按知识点与考点找题</a>
+  </div></nav>
+  <main id="main" class="wrap main"><p class="status" role="status">正在读取试卷目录…</p></main>
+  <noscript>请使用支持 JavaScript 的浏览器打开题库。</noscript>
+  <dialog id="lightbox" aria-labelledby="image-title">
+    <div class="dialog-bar">
+      <strong id="image-title"></strong>
+      <div><button type="button" id="zoom">放大</button><button type="button" id="close-image">关闭</button></div>
+    </div>
+    <div class="image-scroll" id="image-scroll"><img id="large-image" alt=""></div>
+  </dialog>
+  <script src="web/data.js"></script>
+  <script id="bank-offline"></script>
+  <script id="bank-math-offline"></script>
+  <script src="web/reader.js"></script>
+  <script src="web/app.js"></script>
+</body>
+</html>

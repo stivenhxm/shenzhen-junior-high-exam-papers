@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q17",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "利用线段中点与点的位置分类求长度",
+  "stem": "如图，点\\(C\\)为线段\\(AB\\)上一点，\\(AC=8{ \\rm{ c } }{ \\rm{ m } }\\)，\\(BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(D\\)、\\(E\\)分别是\\(AC\\)、\\(BC\\)的中点．\n〔图1〕\n（1）求线段\\(DE\\)的长；\n（2）如果点\\(M\\)在直线\\(AB\\)上，\\(AM=3{ \\rm{ c } }{ \\rm{ m } }\\)，求线段\\(EM\\)的长度．",
+  "choices": [],
+  "figures": [
+    "assets/figures/e5/e50a8321cf9ee648a530a6d9589846dd40400bba51d12a1806616a5fec278d24.png"
+  ],
+  "tables": [],
+  "answer": "（1）6 cm；（2）7 cm 或 13 cm。",
+  "solution": "（1）CD=AC/2=4 cm，CE=BC/2=2 cm，故 DE=CD+CE=6 cm。\n（2）AE=AC+CE=10 cm。M 在射线 AB 上时，EM=10−3=7 cm；M 在 A 的另一侧时，EM=10+3=13 cm。",
+  "solution_origin": "source_summary",
+  "given_answer": "（1）\\(DE=6{ \\rm{ c } }{ \\rm{ m } }\\)\n（2）\\(13cm\\)或\\(7cm\\)",
+  "given_solution": "【分析】（1）根据中点，求出\\(DC\\)和\\(CE\\)的长度，从而求出\\(DE\\)的长度．\n（2）根据题意，分情况讨论，①\\(M\\)在线段\\(AD\\)间，且靠近\\(D\\)点，利用中点先求出\\(CE\\)的长度，进而求出\\(AE\\)的长度，结合已知条件即可求出\\(EM\\)的长度；②当点\\(M\\)在线段\\(AB\\)的反向延长线上，则\\(M\\)靠近\\(A\\)点，观察线段，根据线段端点所在位置，即可直接算出\\(EM\\)的长度．\n【小问1详解】\n解：\\(\\because\\)点\\(D\\)、\\(E\\)分别是\\(AC\\)、\\(BC\\)的中点，\\(BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，\\(AC=8{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore\\)\\(CD=\\frac { 1 } { 2 }AC=\\frac { 1 } { 2 }\\times 8=4\\)，\\(CE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\because\\)\\(DE=DC+CE\\)，\n\\(\\therefore\\)\\(DE=4+2=6{ \\rm{ c } }{ \\rm{ m } }\\)．\n故答案为：\\(DE=6{ \\rm{ c } }{ \\rm{ m } }\\)．\n【小问2详解】\n解：①当点\\(M\\)在线段\\(AB\\)上，\\(AM=3{ \\rm{ c } }{ \\rm{ m } }\\)，则\\(M\\)在线段\\(AD\\)间，且靠近\\(D\\)点，\n\\(\\therefore\\)有\\(EM=AE-AM\\)．\n\\(\\because\\)点\\(E\\)分别是\\(BC\\)的中点，\\(BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore\\)\\(CE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 4=2\\)．\n\\(\\because\\)\\(AE=AC+CE\\)，\\(AC=8\\)，\n\\(\\therefore\\)\\(AE=10{ \\rm{ c } }{ \\rm{ m } }\\)．\n\\(\\because\\)\\(AM=3{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore\\)\\(EM=7{ \\rm{ c } }{ \\rm{ m } }\\)．\n②当点\\(M\\)在线段\\(AB\\)的反向延长线上，则\\(M\\)靠近\\(A\\)点，有\\(EM=AE+AM\\)，\n\\(\\because\\)\\(AM=3{ \\rm{ c } }{ \\rm{ m } }\\)，\\(AE=10{ \\rm{ c } }{ \\rm{ m } }\\)\n\\(\\therefore\\)\\(EM=13{ \\rm{ c } }{ \\rm{ m } }\\)．\n综上所述：如果点\\(M\\)在直线\\(AB\\)上，线段\\(EM\\)的长度为13cm或7cm．\n故答案为：13cm或7cm\n【点睛】本题考查了两点间的距离以及线段中点的定义，利用线段的和差以及分情况讨论是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/33/33876c0bbfff213263f87fe7cab9358568e94323ed2b8eb4a14badbabd784f5f.png"
+  ],
+  "knowledge_ids": [
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G01.01.01"
+  ],
+  "tag_reason": "用中点求相邻线段，再区分点 M 在 A 两侧的情形。",
+  "parts": [
+    {
+      "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q17-P01",
+      "label": "(1)",
+      "stem_text": "求线段 DE 的长。",
+      "knowledge_ids": [
+        "M.G01.01"
+      ],
+      "exam_ids": [
+        "E.G01.01.01"
+      ],
+      "answer": "6 cm。",
+      "coverage": "完整匹配",
+      "prompt": "求线段\\(DE\\)的长；",
+      "material_ids": [
+        "line",
+        "diagram"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE=6{ \\rm{ c } }{ \\rm{ m } }\\)",
+      "solution_steps": [
+        "D、E 分别是 AC、BC 的中点，所以 \\(CD=8\\div2=4\\) cm，\\(CE=4\\div2=2\\) cm。",
+        "C 在 D、E 之间，\\(DE=CD+CE=6\\) cm。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          11
+        ]
+      }
+    },
+    {
+      "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q17-P02",
+      "label": "(2)",
+      "stem_text": "若点 M 在直线 AB 上，AM=3 cm，求 EM。",
+      "knowledge_ids": [
+        "M.G01.01"
+      ],
+      "exam_ids": [
+        "E.G01.01.01"
+      ],
+      "answer": "7 cm 或 13 cm。",
+      "coverage": "完整匹配",
+      "prompt": "如果点\\(M\\)在直线\\(AB\\)上，\\(AM=3{ \\rm{ c } }{ \\rm{ m } }\\)，求线段\\(EM\\)的长度．",
+      "material_ids": [
+        "line",
+        "diagram"
+      ],
+      "requires": [],
+      "given_answer": "\\(13cm\\)或\\(7cm\\)",
+      "solution_steps": [
+        "E 是 BC 的中点，\\(CE=2\\) cm，\\(AE=AC+CE=10\\) cm。",
+        "M 在射线 AB 上时，M 在 A、E 之间，\\(EM=10-3=7\\) cm。",
+        "M 在 A 的另一侧时，A 在 M、E 之间，\\(EM=10+3=13\\) cm。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          11,
+          12
+        ]
+      }
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          35.91,
+          298.18,
+          563.18,
+          394.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q17-p11.webp",
+      "assets/shiyan/solution-q17-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          35.91,
+          126.36,
+          563.18,
+          760.91
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          35.91,
+          48.64,
+          563.18,
+          90.0
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      51,
+      54
+    ],
+    "solution_body_blocks": [
+      208,
+      237
+    ]
+  },
+  "coverage": "完整匹配",
+  "solution_steps": [
+    "(1) D、E 分别是 AC、BC 的中点，所以 \\(CD=8\\div2=4\\) cm，\\(CE=4\\div2=2\\) cm。",
+    "C 在 D、E 之间，\\(DE=CD+CE=6\\) cm。",
+    "(2) E 是 BC 的中点，\\(CE=2\\) cm，\\(AE=AC+CE=10\\) cm。",
+    "M 在射线 AB 上时，M 在 A、E 之间，\\(EM=10-3=7\\) cm。",
+    "M 在 A 的另一侧时，A 在 M、E 之间，\\(EM=10+3=13\\) cm。"
+  ],
+  "materials": [
+    {
+      "id": "line",
+      "kind": "text",
+      "text": "如图，点\\(C\\)为线段\\(AB\\)上一点，\\(AC=8{ \\rm{ c } }{ \\rm{ m } }\\)，\\(BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(D\\)、\\(E\\)分别是\\(AC\\)、\\(BC\\)的中点．"
+    },
+    {
+      "id": "diagram",
+      "kind": "figure",
+      "text": "〔图1〕"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q13",
+  "paper_id": "SZ-SY-CZB-2024-25-G7-T1-FINAL",
+  "number": 13,
+  "type": "填空题",
+  "points": 3,
+  "title": "根据数轴上的对称点化简绝对值",
+  "stem": "如图，数轴上点O，P，A表示的数分别为0，1，a．先以点O为圆心，a为半径，用圆规画出数轴上的一个点B，再以点P为圆心，点P到点A的距离为半径，用圆规画出数轴上的另一个点C．点B、点C分别表示数b、c，则\\(\\left | { c+b } \\right |-\\left | { 2a-c } \\right |=\\)___________（用含有a的代数式表示）．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/8b/8b3fca3c1fc818a93c32fd55f16c8da3859b14814e79b967236dc540b2d81386.png"
+  ],
+  "tables": [],
+  "answer": "−a。",
+  "solution": "由图可知 1<a<2。B 关于 O 与 A 对称，故 b=−a；C 关于 P 与 A 对称，故 c=2−a。因 2−2a<0 且 3a−2>0，原式=|2−2a|−|3a−2|=(2a−2)−(3a−2)=−a。",
+  "solution_origin": "source_summary",
+  "given_answer": "\\(-a\\)",
+  "given_solution": "【分析】本题考查了数轴上两点之间的距离、列代数式，掌握数轴上数的特点并列代数式是解题的关键．\n根据\\(OB=OA=a\\)即可得到\\(b=-a\\)，用a表示出\\(CA\\)，从而用a表示出\\(OC\\)，进而求得c；将b、c分别代入合并同类项并化简绝对值计算即可．\n【详解】解：∵\\(OB=OA=a\\)，\n∴\\(b=-a\\)，\n∵\\(CA=2\\left ( { a-1 } \\right )\\)，\n∴\\(OC=c=OA-CA=a-2\\left ( { a-1 } \\right )=2-a\\)．\n∵\\(b=-a,a>1\\)，\n∴\\(\\left | { c+b } \\right |-\\left | { 2a-c } \\right |\\)\n\\(=\\left | { 2-a+\\left ( { -a } \\right ) } \\right |-\\left | { 2a-2+a } \\right |\\)\n\\(=\\left | { 2-2a } \\right |-\\left | { 3a-2 } \\right |\\)\n\\(=2a-2-3a+2\\)\n\\(=-a\\)．\n故答案为：\\(-a\\)．",
+  "given_solution_figures": [
+    "assets/figures/d0/d0fb2e2eda22a881cc8d6abd0a2fa5e108051fdbf848e72853e1547e6df90ffa.png"
+  ],
+  "knowledge_ids": [
+    "M.N01.03",
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.N01.03.02",
+    "E.G01.01.01"
+  ],
+  "tag_reason": "用圆规产生的等长和点的位置求 OB、OC 所对应的坐标，再据 1<a<2 判断绝对值内部符号。",
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/shiyan/paper-q13-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          35.91,
+          180.91,
+          563.18,
+          319.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      7
+    ],
+    "solution_images": [
+      "assets/shiyan/solution-q13-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          35.91,
+          274.55,
+          563.18,
+          690.45
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      37,
+      38
+    ],
+    "solution_body_blocks": [
+      131,
+      147
+    ]
+  },
+  "coverage": "完整匹配",
+  "solution_steps": [
+    "由图 \\(1<a<2\\)。关于 O 对称得 \\(b=-a\\)，关于点 P（坐标为 1）对称得 \\(c=2-a\\)。",
+    "于是 \\(c+b=2-2a<0\\)，\\(2a-c=3a-2>0\\)。",
+    "去绝对值，原式 \\(=(2a-2)-(3a-2)=-a\\)。"
+  ],
+  "materials": []
+}
