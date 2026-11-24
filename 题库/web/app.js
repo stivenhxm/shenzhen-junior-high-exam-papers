@@ -4,7 +4,7 @@
   const data = window.BankData;
   const main = document.getElementById('main');
   const offline = window.BANK_OFFLINE;
-  const facetLabels = {school:'学校', term:'年级学期', knowledge:'知识点', exam:'考点'};
+  const facetLabels = {school:'学校', term:'年级学期', year:'学年', knowledge:'知识点', exam:'考点'};
   let catalog, papers, tags, generation = 0;
   let filterBar;
 
@@ -16,7 +16,10 @@
     const params = new URLSearchParams(hash);
     const state = {mode:'papers', ...Object.fromEntries(params)};
     for (const key of Object.keys(facetLabels)) {
-      if (params.has(key)) state[key] = [...new Set(params.getAll(key).filter(Boolean))];
+      if (params.has(key)) {
+        const values = params.getAll(key);
+        state[key] = [...new Set((key==='year' ? values.map(yearKey) : values).filter(Boolean))];
+      }
     }
     // Older bookmarks addressed grade and semester separately, sometimes specifying just one.
     if (!params.has('term') && (state.grade || state.semester)) {
@@ -48,12 +51,24 @@
     return row;
   }
   function paperTerm(p) { return [p.grade,p.semester].filter(Boolean).join(''); }
+  function yearKey(value) { return value.trim().replace(/\s*[-–—－]\s*/g,'-'); }
+
+  function facetOptions(key) {
+    if (key==='knowledge' || key==='exam') {
+      return catalog.tags.filter(t=>t.kind===key).map(t=>[t.id,t.name]);
+    }
+    if (key==='year') {
+      const years = [...new Set(catalog.papers.map(p=>yearKey(p.academic_year)).filter(Boolean))];
+      return years.sort().reverse().map(year=>[year,year+' 学年']);
+    }
+    const values = catalog.papers.map(p=>key==='school' ? p.school : paperTerm(p));
+    return [...new Set(values.filter(Boolean))].map(v=>[v,v]);
+  }
 
   function facet(key) {
     const label = facetLabels[key];
     const isTag = key==='knowledge' || key==='exam';
-    const options = isTag ? catalog.tags.filter(t=>t.kind===key).map(t=>[t.id,t.name])
-      : [...new Set(catalog.papers.map(p=>key==='school'?p.school:paperTerm(p)).filter(Boolean))].map(v=>[v,v]);
+    const options = facetOptions(key);
     const details = element('details','facet');
     details.dataset.facet = key;
     details.setAttribute('name','bank-filters');
@@ -116,12 +131,15 @@
     }
     return {details,sync};
   }
-  function filters(s,withTags) {
-    if (!filterBar || filterBar.withTags!==withTags || !filterBar.box.isConnected) {
+  function filters(s) {
+    if (!filterBar || filterBar.mode!==s.mode || !filterBar.box.isConnected) {
       const box = element('div','filters');
-      const fields = (withTags?Object.keys(facetLabels):['school','term']).map(facet);
+      const keys = ['school','term'];
+      if (s.mode==='papers') keys.push('year');
+      if (s.mode==='tags') keys.push('knowledge','exam');
+      const fields = keys.map(facet);
       box.append(...fields.map(f=>f.details));
-      filterBar = {box,fields,withTags};
+      filterBar = {box,fields,mode:s.mode};
     }
     for (const f of filterBar.fields) f.sync(s);
     return filterBar.box;
@@ -158,7 +176,7 @@
     return '第 '+item.number+' 题'+(item.label?' · 小问 '+item.label:'');
   }
   function cardList(s) {
-    const visible = catalog.papers.filter(p=>matchesPaper(p,s));
+    const visible = catalog.papers.filter(p=>matchesPaper(p,s) && (!s.year || s.year.includes(yearKey(p.academic_year))));
     const grid = element('div','papers');
     for (const p of visible) {
       const card = link('',url(s,{paper:p.id}),'paper-card');
@@ -169,7 +187,7 @@
       card.append(foot);
       grid.append(card);
     }
-    showWithFilters(filters(s,false),heading('试卷目录',visible.length+' 份试卷'),grid);
+    showWithFilters(filters(s),heading('试卷目录',visible.length+' 份试卷'),grid);
     if (!visible.length) grid.append(element('p','empty','当前筛选范围没有试卷。'));
   }
   function resultRows(results,s,compact=false,current=s.item) {
@@ -280,7 +298,7 @@
     document.title=p.school+' · 深圳初中数学题库';
   }
   async function tagView(s,turn) {
-    const banner = filters(s,true);
+    const banner = filters(s);
     const groups = ['knowledge','exam'].filter(key=>s[key]?.length);
     let results=[];
     if (groups.length && catalog.papers.some(p=>matchesPaper(p,s))) {
@@ -314,7 +332,7 @@
     const box=element('section','sheet');
     box.append(heading(chosen,results.length+' 项'),results.length?resultRows(results,s):
       element('p','empty','当前筛选范围没有练习。'));
-    showWithFilters(filters(s,false),box);
+    showWithFilters(filters(s),box);
   }
   async function draw() {
     const turn=++generation;
@@ -330,7 +348,7 @@
       const paperTab=document.getElementById('paper-tab');
       const tagTab=document.getElementById('tag-tab');
       const tabFilters = {school:s.school,term:s.term,knowledge:s.knowledge,exam:s.exam};
-      paperTab.href=url({mode:inPractice?'practice':'papers',...tabFilters});
+      paperTab.href=url({mode:inPractice?'practice':'papers',...tabFilters,year:s.year});
       tagTab.href=url({mode:'tags',...tabFilters});
       if (inPractice) paperTab.textContent='专项练习目录';
       document.getElementById('home').href=offline?'#':'#mode=papers';
