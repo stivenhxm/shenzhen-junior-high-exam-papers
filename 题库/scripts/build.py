@@ -18,7 +18,7 @@ import registry
 ROOT = Path(__file__).resolve().parents[1]
 ID = re.compile(r"[A-Za-z0-9][A-Za-z0-9_.-]{0,159}\Z")
 TOKEN = re.compile(r"\\\((?P<inline>[\s\S]*?)\\\)|\\\[(?P<display>[\s\S]*?)\\\]|〔图(?P<figure>\d+)〕")
-COVER = {"完整匹配", "部分匹配", "仅知识点"}
+COVER = {"完整匹配", "部分匹配", "仅知识点", "待标注"}
 
 
 def require(ok, msg):
@@ -158,7 +158,7 @@ def source_for(q, task, role, paper):
     require(pages and len(images)==len(pages) and len(set(pages))==len(pages)
             and all(isinstance(n,int) and n>0 and (not limits or n<=limits) for n in pages),
             f"{q['id']} {role} 页码与裁图不匹配")
-    target = task.get("source", {}).get(pk, pages)
+    target = pages if task["id"] == q["id"] else task.get("source", {}).get(pk)
     require(target and set(target)<=set(pages), f"{task['id']} {role} 无法定位页码")
     return {pk:target,ik:[images[pages.index(n)] for n in target],role+"_pdf":paper["sources"][role]["rendered_pdf"]}
 
@@ -224,6 +224,9 @@ class Bank:
                 total_parts += len(q['parts'])
                 results.append(self.rows[qid])
             self.shards["papers/"+pid] = dict(cover,results=results)
+            for field in ("metadata_note","edition_note"):
+                if p.get(field):
+                    self.shards["papers/"+pid][field]=p[field]
             self.registered.append(registry.make_entry(root.parent, p, total_parts))
         actual = {path for path in (root/"questions").glob("*/*.json") if path.parent.name not in unpublished}
         require(actual==used,"有题目未被试卷目录引用："+", ".join(str(p) for p in actual-used))
@@ -233,6 +236,7 @@ class Bank:
             self.shards["tags/"+code] = {"id":code,"results":rows}
             tags.append({"id":code,"name":title,"kind":k,"count":len(rows)})
         self.shards["catalog"] = {"papers":list(self.papers.values()),"tags":tags}
+        registry.attach_inventory(root,self.registered)
         self.registry_json = registry.as_json(self.registered)
 
     def asset(self, rel):
@@ -245,25 +249,39 @@ class Bank:
 
     def add_question(self, paper, q, knowledge, exams, by_tag):
         qid = q["id"]
-        for key in ("stem","title","given_answer","given_solution"):
+        origin = q["solution_origin"]
+        for key in ("stem","title"):
             text(q[key],qid+" "+key)
+        if origin not in {"source_solution_summary","source_checked_with_correction","source_facsimile"}:
+            text(q["given_answer"],qid+" given_answer")
+        if origin not in {"editorial_solution","source_answer_only","source_facsimile"}:
+            text(q["given_solution"],qid+" given_solution")
+        if origin == "source_checked_with_correction" or origin == "editorial_solution":
+            text(q.get("review_note"),qid+" 校勘说明")
         for ref in q["figures"]+q["given_solution_figures"]+q["source"]["question_images"]+q["source"]["solution_images"]:
             self.asset(ref)
         for content,figures in [(q["stem"],q["figures"]), (q["given_answer"]+"\n"+q["given_solution"],q["given_solution_figures"])]:
             require(content.count(r"\(")==content.count(r"\)"),f"{qid} 有未闭合的行内公式")
             require(all(1<=int(n)<=len(figures) for n in re.findall(r"〔图(\d+)〕",content)),f"{qid} 原始图引用不存在")
-        require(q["type"]!="选择题" or len(q["choices"])>=2, f"{qid} 缺选项")
+        if q["type"] == "选择题" and len(q["choices"]) < 2:
+            require(q.get("choices_in_facsimile") is True and q["figures"] and
+                    re.search(r"〔图\d+〕",q["stem"]) and q["source"]["question_images"],f"{qid} 缺选项或选项影像")
         materials = unique_map(q["materials"],qid+" 材料")
         for mat in materials.values():text(mat["text"],qid+" 材料内容")
         for task in [q]+q["parts"]:
             key=stable_id(task["id"])
             require(key not in self.rows,f"题或小问 ID 重复 {key}")
             text(task["answer"],key+" 答案")
-            strings(task["solution_steps"],key+" 解法")
+            task_origin = task.get("solution_origin",origin)
+            if task_origin in {"source_answer_only","source_facsimile"} and not task["solution_steps"]:
+                require(bool(q["source"]["solution_images"]),key+" 缺原答案页影像")
+            else:
+                strings(task["solution_steps"],key+" 解法")
             require(task["coverage"] in COVER and (task["coverage"]=="完整匹配" or task.get("tag_note")),f"{key} 缺标签范围说明")
-            require(task["knowledge_ids"] and set(task["knowledge_ids"])<=knowledge.keys() and set(task["exam_ids"])<=exams.keys(),
+            pending = task["coverage"] == "待标注"
+            require(bool(task["knowledge_ids"]) != pending and set(task["knowledge_ids"])<=knowledge.keys() and set(task["exam_ids"])<=exams.keys(),
                     f"{key} 缺知识点或包含未知标签")
-            require(bool(task["exam_ids"]) == (task["coverage"]!="仅知识点"),f"{key} 考点与覆盖情况矛盾")
+            require(bool(task["exam_ids"]) == (task["coverage"] in {"完整匹配","部分匹配"}),f"{key} 考点与覆盖情况矛盾")
             require(all(exams[e]["primary_knowledge_id"] in task["knowledge_ids"] for e in task["exam_ids"]),f"{key} 主知识点不符")
             if key != qid:
                 text(task["prompt"],key+" 独立问法")

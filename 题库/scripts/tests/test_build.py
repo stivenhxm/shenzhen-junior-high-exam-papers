@@ -14,6 +14,18 @@ class SeedPapers(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = build.Bank(build.ROOT)
 
+    def test_g7_review_and_editorial_solution_preserve_the_original_source(self):
+        qid = 'SZ-G7-T1-63B44AB70E-Q18-P03'
+        corrected = self.bank.shards['answers/'+qid]
+        self.assertEqual(corrected['solution_origin'],'source_checked_with_correction')
+        self.assertIn('12.5',corrected['answer'])
+        self.assertIn('11',corrected['given_solution'])
+        self.assertTrue(corrected['source']['solution_pages'])
+        supplied = self.bank.shards['answers/SZ-G7-T1-D74446848E-Q09']
+        self.assertEqual(supplied['solution_origin'],'editorial_solution')
+        self.assertEqual(supplied['given_solution'],'')
+        self.assertTrue(supplied['given_answer'] and supplied['solution_steps'])
+
     def test_lowest_matching_tasks_and_school_filter(self):
         bank = self.bank
         experiment = "SZ-SY-CZB-2024-25-G7-T1-FINAL-Q16-P04"

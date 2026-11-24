@@ -1,6 +1,6 @@
 """Import the Chinese OOXML original/solution pairs used by the question bank.
 
-Requires Python 3.11, lxml, Pillow and mtef-py 1.0.1. All source paths in the
+Requires Python 3.11, lxml, Pillow, olefile and mtef-py 1.0.1. All source paths in the
 selection manifest are relative to the Git repository. Run --help for the CLI.
 """
 from __future__ import annotations
@@ -44,6 +44,9 @@ def normalized(s):
     # The two adjacent MathType subscript objects in the recurrence on the
     # October paper represent a single n−1 index (checked against printed p.3).
     s=s.replace('a_{ n } _{ -1 }','a_{n-1}')
+    # This bank's reused Equation object retains a stale expression in its OLE
+    # payload. The Word preview and the printed source both show only C.
+    s=s.replace(r'\(C-y+1-m=0\)',r'\(C\)')
     return TEX.sub(replace,s)
 
 
@@ -160,6 +163,11 @@ def answer_chunks(answer, marks_func, count):
         alternate=circle_marks(answer)
         if len(alternate)==count:
             return [v[0].lstrip('.．、 ') for v in split_at(answer,alternate)]
+    numbered=list(re.finditer(r'(?<!\S)(\d{2})[.．]\s+', masked(answer)))
+    if (len(numbered)==count and numbered[0].start()==0 and
+            all(int(m[1])==int(numbered[0][1])+i for i,m in enumerate(numbered))):
+        return [answer[m.end():numbered[i+1].start() if i+1<count else len(answer)].strip()
+                for i,m in enumerate(numbered)]
     # Some answer keys omit printed numbers and use one semicolon between tasks.
     filtered=masked(answer)
     sep=list(re.finditer(r'[；;]\s*',filtered))
@@ -355,7 +363,7 @@ def make_parts(q,pdoc,sdoc,answer,worked,worked_offset):
         prior_parts[pid]=q['parts'][-1]
 
 
-def assemble(paper_rows,solution_rows,paper_id):
+def assemble(paper_rows,solution_rows,paper_id,worked_answers=None):
     if len(paper_rows)!=len(solution_rows):
         raise ValueError(f'{paper_id} 原卷{len(paper_rows)}题，解析版{len(solution_rows)}题')
     questions=[]
@@ -368,12 +376,15 @@ def assemble(paper_rows,solution_rows,paper_id):
         sd=DocumentText.from_blocks(source['blocks'])
         am=re.search(r'【答案】',sd.content)
         sm=re.search(r'【解析】',sd.content)
-        if not am or not sm or sm.start()<am.end() or sd.content.count('【答案】')!=1:
+        if not sm:
+            sm=re.compile(r'【(?:详解|解答)】').search(sd.content,am.end() if am else 0)
+        if not sm or (am and sm.start()<am.end()) or sd.content.count('【答案】')>1:
             raise ValueError(qid+' 未能唯一配对答案与解析')
-        supplied=sd.content[am.end():sm.start()].strip()
+        supplied=sd.content[am.end():sm.start()].strip() if am else ''
+        answer=supplied or (worked_answers or {}).get(n, '')
         worked=sd.content[sm.end():].strip()
         start=sd.content.index(worked,sm.end())
-        if not supplied or not worked:
+        if not answer or not worked:
             raise ValueError(qid+' 缺少资料答案或解析')
         typ=section_type(paper['section'])
         stem,choices=choices_of(pd.content) if typ=='选择题' else (pd.content,[])
@@ -384,19 +395,25 @@ def assemble(paper_rows,solution_rows,paper_id):
         q={'id':qid,'paper_id':paper_id,'number':n,'type':typ,'points':int(pts[1]) if pts else None,
            'title':title_from(stem),'stem':stem,'choices':choices,'figures':paper['figures'],
            'tables':[{'text':normalized(t['text']),'rows':[[[normalized(v) for v in cell] for cell in row] for row in t['rows']]} for t in paper['tables']],
-           'given_answer':supplied,'answer':supplied,'given_solution':worked,'given_solution_figures':source['figures'],
-           'solution':'\n'.join(steps),'solution_steps':steps,'solution_origin':'source_transcribed',
-           'solution_figure_ids':refs(supplied+'\n'+worked),'materials':[],'parts':[],'review_note':'',
+           'given_answer':supplied,'answer':answer,'given_solution':worked,'given_solution_figures':source['figures'],
+           'solution':'\n'.join(steps),'solution_steps':steps,'solution_origin':'source_transcribed' if supplied else 'source_solution_summary',
+           'solution_figure_ids':refs(answer+'\n'+worked),'materials':[],'parts':[],'review_note':'',
            'source':{'paper_body_blocks':[paper['blocks'][0][0],paper['blocks'][-1][0]],
                      'solution_body_blocks':[source['blocks'][0][0],source['blocks'][-1][0]]}}
         if not choices:
-            make_parts(q,pd,sd,supplied,worked,start)
+            make_parts(q,pd,sd,answer,worked,start)
+            if not supplied:
+                for part in q['parts']:
+                    part['given_answer']=''
         questions.append(q)
     return questions
 
 
 def parse_pair(paper_docx, solution_docx, paper_id, bank_root):
-    return assemble(sections(Path(paper_docx),Path(bank_root)),sections(Path(solution_docx),Path(bank_root)),paper_id)
+    import g7_mock_reviews
+    questions = assemble(sections(Path(paper_docx),Path(bank_root)),
+                         sections(Path(solution_docx),Path(bank_root)),paper_id,g7_mock_reviews.answer_key(paper_id))
+    return g7_mock_reviews.apply(paper_id,questions)
 
 
 def main():

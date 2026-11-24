@@ -1,0 +1,103 @@
+{
+  "id": "SZ-G7-T1-3F41C00E24-Q15",
+  "paper_id": "SZ-G7-T1-3F41C00E24",
+  "number": 15,
+  "type": "填空题",
+  "points": null,
+  "title": "利用点的位置关系求线段长度",
+  "stem": "如图，将一个平行四边形（如图①）作如下操作：第一次，连接对边的中点（如图②），此时共有9个平行四边形；第二次，将图②中左上角的平行四边形连接对边的中点（如图③），此时共有17个平行四边形；第三次，将图③中左上角的平行四边形连接对边的中点（如图④），此时共有25个平行四边形……此后每一次都将左上角的平行四边形进行如上操作，第n次操作后，共有5641个平行四边形．那么，n的值是______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/95/950ea2533cc6e11fb1ba8bad01b78854e7e94c2af741e0455e0ef280ed285bbe.png"
+  ],
+  "tables": [],
+  "given_answer": "705",
+  "answer": "705",
+  "given_solution": "【分析】本题考查图形类规律探究，理解题意，找到变化规律是解答的关键．\n【详解】解：第一次操作后，共有\\(9=1+8\\)个平行四边形，\n第二次操作后，共有\\(17=1+8\\times 2\\)个平行四边形，\n第三次操作后，共有\\(25=1+8\\times 3\\)个平行四边形，\n……\n则第n次操作后，共有\\(\\left ( { 1+8n } \\right )\\)个平行四边形，\n令\\(1+8n=5641\\)，\n\\(n=705\\)，\n故答案为705．",
+  "given_solution_figures": [
+    "assets/figures/95/950ea2533cc6e11fb1ba8bad01b78854e7e94c2af741e0455e0ef280ed285bbe.png"
+  ],
+  "solution": "解：第一次操作后，共有\\(9=1+8\\)个平行四边形，\n第二次操作后，共有\\(17=1+8\\times 2\\)个平行四边形，\n第三次操作后，共有\\(25=1+8\\times 3\\)个平行四边形，\n……\n则第n次操作后，共有\\(\\left ( { 1+8n } \\right )\\)个平行四边形，\n令\\(1+8n=5641\\)，\n\\(n=705\\)，\n故答案为705．",
+  "solution_steps": [
+    "解：第一次操作后，共有\\(9=1+8\\)个平行四边形，",
+    "第二次操作后，共有\\(17=1+8\\times 2\\)个平行四边形，",
+    "第三次操作后，共有\\(25=1+8\\times 3\\)个平行四边形，",
+    "……",
+    "则第n次操作后，共有\\(\\left ( { 1+8n } \\right )\\)个平行四边形，",
+    "令\\(1+8n=5641\\)，",
+    "\\(n=705\\)，",
+    "故答案为705．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      44,
+      45
+    ],
+    "solution_body_blocks": [
+      172,
+      184
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-3F41C00E24/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          245.0,
+          583.64,
+          429.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-3F41C00E24/solution-q15-p08.webp",
+      "assets/SZ-G7-T1-3F41C00E24/solution-q15-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          736.82,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          282.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G01.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面含“中点”。利用点的位置关系求线段长度。",
+  "tag_source": "题文匹配"
+}

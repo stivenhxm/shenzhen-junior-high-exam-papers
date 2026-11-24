@@ -1,0 +1,91 @@
+{
+  "id": "SZ-G7-T1-F669AFE76D-Q14",
+  "paper_id": "SZ-G7-T1-F669AFE76D",
+  "number": 14,
+  "type": "填空题",
+  "points": 3,
+  "title": "根据视图约束还原小立方块的排布",
+  "stem": "如图1是一个水平摆放的小正方体木块，图2、图3是用相同的小正方体木块叠放而成，按照这样的规律继续叠放下去，在第n个图形中，最下面一层的小正方体木块的个数是______个．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/78/78f1745478f19e244f49667c2ec2420e6b9f19aa269bd7e59a7827a71f0adc9f.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\left ( { 4n-3 } \\right )\\)",
+  "answer": "\\(\\left ( { 4n-3 } \\right )\\)",
+  "given_solution": "【分析】根据前三个图形中最底层的小正方体的个数得到通项公式即可．\n【详解】解：观察图形知：\n第1个图形中最下面一层的小正方体的个数为1＝1＋4（1−1）个；\n第2个图形中最下面一层的小正方体的个数为5＝1＋4（2−1）个；\n第3个图形中最下面一层的小正方体的个数为9＝1＋4（3−1）个；\n…\n第n个图形中最下面一层的小正方体的个数为1＋4（n−1）＝（4n−3）个；\n故答案为：\\(\\left ( { 4n-3 } \\right )\\)．\n【点睛】本题考查了图形的变化类问题，解题关键是根据图形的变换总结规律，规律为：最下面一层的小正方体的个数为：4（n−1）＋1个．",
+  "given_solution_figures": [
+    "assets/figures/78/78f1745478f19e244f49667c2ec2420e6b9f19aa269bd7e59a7827a71f0adc9f.png"
+  ],
+  "solution": "解：观察图形知：\n第1个图形中最下面一层的小正方体的个数为1＝1＋4（1−1）个；\n第2个图形中最下面一层的小正方体的个数为5＝1＋4（2−1）个；\n第3个图形中最下面一层的小正方体的个数为9＝1＋4（3−1）个；\n…\n第n个图形中最下面一层的小正方体的个数为1＋4（n−1）＝（4n−3）个；\n故答案为：\\(\\left ( { 4n-3 } \\right )\\)．",
+  "solution_steps": [
+    "解：观察图形知：",
+    "第1个图形中最下面一层的小正方体的个数为1＝1＋4（1−1）个；",
+    "第2个图形中最下面一层的小正方体的个数为5＝1＋4（2−1）个；",
+    "第3个图形中最下面一层的小正方体的个数为9＝1＋4（3−1）个；",
+    "…",
+    "第n个图形中最下面一层的小正方体的个数为1＋4（n−1）＝（4n−3）个；",
+    "故答案为：\\(\\left ( { 4n-3 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      43,
+      44
+    ],
+    "solution_body_blocks": [
+      139,
+      151
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-F669AFE76D/paper-q14-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          284.55,
+          583.64,
+          419.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-F669AFE76D/solution-q14-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          192.27,
+          583.64,
+          478.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G11.02"
+  ],
+  "exam_ids": [
+    "E.G11.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "辨认视图后还需计数或求堆叠数量的范围。",
+  "tag_reason": "题面含“正方体木块的个数”。根据视图约束还原小立方块的排布。",
+  "tag_source": "题文匹配"
+}

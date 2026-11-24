@@ -1,0 +1,107 @@
+{
+  "id": "SZ-G7-T1-8F2DC4E28F-Q15",
+  "paper_id": "SZ-G7-T1-8F2DC4E28F",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "利用点的位置关系求线段长度",
+  "stem": "如图，点M在线段AN的延长线上，且线段MN＝20，第一次操作：分别取线段AM和AN的中点M\\({}_{1}\\)，N\\({}_{1}\\)；第二次操作：分别取线段AM\\({}_{1}\\)和AN\\({}_{1}\\)的中点M\\({}_{2}\\)，N\\({}_{2}\\)；第三次操作：分别取线段AM\\({}_{2}\\)和AN\\({}_{2}\\)的中点M\\({}_{3}\\)，N\\({}_{3}\\)；…连续这样操作10次，则M\\({}_{10}\\)N\\({}_{10}\\)＝___．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/07/07431cf24c0db6e56def35a0814fb2e780526f9595204f06b6785fcf985ae5b5.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\frac { 1 } { 2 ^ { 10 } }\\)×20",
+  "answer": "\\(\\frac { 1 } { 2 ^ { 10 } }\\)×20",
+  "given_solution": "【分析】根据线段中点定义先求出M\\({}_{1}\\)N\\({}_{1}\\)的长度，再由M\\({}_{1}\\)N\\({}_{1}\\)的长度求出M\\({}_{2}\\)N\\({}_{2}\\)的长度，从而找到M\\({}_{n}\\)N\\({}_{n}\\)的规律，即可求出结果．\n【详解】解：∵线段MN=20，线段AM和AN的中点M\\({}_{1}\\)，N\\({}_{1}\\)，\n∴\\(M_{ 1 } N_{ 1 } =AM_{ 1 } -AN_{ 1 } =\\frac { 1 } { 2 }AM-\\frac { 1 } { 2 }AN=\\frac { 1 } { 2 }（AM-AN）=\\frac { 1 } { 2 }MN=\\frac { 1 } { 2 }\\times 20=10．\\)\n〔图1〕\n∵线段AM\\({}_{1}\\)和AN\\({}_{1}\\)的中点M\\({}_{2}\\)，N\\({}_{2}\\)；\n∴〔图2〕 \\(M_{ 2 } N_{ 2 } =AM_{ 2 } -AN_{ 2 } =\\frac { 1 } { 2 }AM_{ 1 } -\\frac { 1 } { 2 }AN_{ 1 } =\\frac { 1 } { 2 }（AM_{ 1 } -AN_{ 1 } ）=\\frac { 1 } { 2 }M_{ 1 } N_{ 1 } =\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 20=\\frac { 1 } { 2 ^ { 2 } }\\times 20=5．\\) \n发现规律：\\(M_{ n } N_{ n } =\\frac { 1 } { 2 ^ { n } }\\times 20\\)，\n\\(\\therefore M_{ 10 } N_{ 10 } =\\frac { 1 } { 2 ^ { 10 } }\\times 20\\)．\n故答案为：\\(\\frac { 1 } { 2 ^ { 10 } }\\times 20\\)．\n【点睛】本题考查两点间的距离，根据线段中点的定义得出\\(M_{ n } N_{ n } =\\frac { 1 } { 2 ^ { n } }\\times 20\\)是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/07/07431cf24c0db6e56def35a0814fb2e780526f9595204f06b6785fcf985ae5b5.png",
+    "assets/figures/2d/2dd8b8b4a5ce6f8f8bcebe2eefa1a78198b1276c6517ef01bc8ff8ad54307dd9.png"
+  ],
+  "solution": "解：∵线段MN=20，线段AM和AN的中点M\\({}_{1}\\)，N\\({}_{1}\\)，\n∴\\(M_{ 1 } N_{ 1 } =AM_{ 1 } -AN_{ 1 } =\\frac { 1 } { 2 }AM-\\frac { 1 } { 2 }AN=\\frac { 1 } { 2 }（AM-AN）=\\frac { 1 } { 2 }MN=\\frac { 1 } { 2 }\\times 20=10．\\)\n〔图1〕\n∵线段AM\\({}_{1}\\)和AN\\({}_{1}\\)的中点M\\({}_{2}\\)，N\\({}_{2}\\)；\n∴〔图2〕 \\(M_{ 2 } N_{ 2 } =AM_{ 2 } -AN_{ 2 } =\\frac { 1 } { 2 }AM_{ 1 } -\\frac { 1 } { 2 }AN_{ 1 } =\\frac { 1 } { 2 }（AM_{ 1 } -AN_{ 1 } ）=\\frac { 1 } { 2 }M_{ 1 } N_{ 1 } =\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 20=\\frac { 1 } { 2 ^ { 2 } }\\times 20=5．\\)\n发现规律：\\(M_{ n } N_{ n } =\\frac { 1 } { 2 ^ { n } }\\times 20\\)，\n\\(\\therefore M_{ 10 } N_{ 10 } =\\frac { 1 } { 2 ^ { 10 } }\\times 20\\)．\n故答案为：\\(\\frac { 1 } { 2 ^ { 10 } }\\times 20\\)．",
+  "solution_steps": [
+    "解：∵线段MN=20，线段AM和AN的中点M\\({}_{1}\\)，N\\({}_{1}\\)，",
+    "∴\\(M_{ 1 } N_{ 1 } =AM_{ 1 } -AN_{ 1 } =\\frac { 1 } { 2 }AM-\\frac { 1 } { 2 }AN=\\frac { 1 } { 2 }（AM-AN）=\\frac { 1 } { 2 }MN=\\frac { 1 } { 2 }\\times 20=10．\\)",
+    "〔图1〕",
+    "∵线段AM\\({}_{1}\\)和AN\\({}_{1}\\)的中点M\\({}_{2}\\)，N\\({}_{2}\\)；",
+    "∴〔图2〕 \\(M_{ 2 } N_{ 2 } =AM_{ 2 } -AN_{ 2 } =\\frac { 1 } { 2 }AM_{ 1 } -\\frac { 1 } { 2 }AN_{ 1 } =\\frac { 1 } { 2 }（AM_{ 1 } -AN_{ 1 } ）=\\frac { 1 } { 2 }M_{ 1 } N_{ 1 } =\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 20=\\frac { 1 } { 2 ^ { 2 } }\\times 20=5．\\)",
+    "发现规律：\\(M_{ n } N_{ n } =\\frac { 1 } { 2 ^ { n } }\\times 20\\)，",
+    "\\(\\therefore M_{ 10 } N_{ 10 } =\\frac { 1 } { 2 ^ { 10 } }\\times 20\\)．",
+    "故答案为：\\(\\frac { 1 } { 2 ^ { 10 } }\\times 20\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      45,
+      46
+    ],
+    "solution_body_blocks": [
+      139,
+      148
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-8F2DC4E28F/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          618.18,
+          583.64,
+          708.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-8F2DC4E28F/solution-q15-p07.webp",
+      "assets/SZ-G7-T1-8F2DC4E28F/solution-q15-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          608.18,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          326.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G01.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面含“线段AN的延长线上,且线段MN=20,第一次操作:分别取线段AM和AN的中点”。利用点的位置关系求线段长度。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "SZ-G7-T1-6799FC0407-Q15",
+  "paper_id": "SZ-G7-T1-6799FC0407",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "根据视图约束还原小立方块的排布",
+  "stem": "如图是由一些相同的小正方体搭成的几何体从正面看和从上面看到的形状图，若在所搭几何体的基础上（不改变原几何体中小正方体的位置），继续添加相同的小正方体，搭成一个大正方体，至少还需要_________个小正方体.\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/52/524aa796af649f19e64e90d582eb12130129698bc79921b03f2ed28243341974.png"
+  ],
+  "tables": [],
+  "given_answer": "49",
+  "answer": "49",
+  "given_solution": "【分析】此题考查了三视图，根据三视图判断小正方体的数量，再求出搭成一个大正方体需要的最少数量，即可得到答案，熟练掌握三视图是解题的关键．\n【详解】解：由三视图易得最底层有7个小正方体，第二层最多有5个小正方体，第三层最多有3个小正方体，那么最多共有\\(7+5+3=15\\)个几何体组成．\n若搭成一个大正方体，共需\\(4\\times 4\\times 4=64\\)个小立方体，\n所以至少还需\\(64-15=49\\)个小正方体，\n故答案为：49．",
+  "given_solution_figures": [
+    "assets/figures/52/524aa796af649f19e64e90d582eb12130129698bc79921b03f2ed28243341974.png"
+  ],
+  "solution": "解：由三视图易得最底层有7个小正方体，第二层最多有5个小正方体，第三层最多有3个小正方体，那么最多共有\\(7+5+3=15\\)个几何体组成．\n若搭成一个大正方体，共需\\(4\\times 4\\times 4=64\\)个小立方体，\n所以至少还需\\(64-15=49\\)个小正方体，\n故答案为：49．",
+  "solution_steps": [
+    "解：由三视图易得最底层有7个小正方体，第二层最多有5个小正方体，第三层最多有3个小正方体，那么最多共有\\(7+5+3=15\\)个几何体组成．",
+    "若搭成一个大正方体，共需\\(4\\times 4\\times 4=64\\)个小立方体，",
+    "所以至少还需\\(64-15=49\\)个小正方体，",
+    "故答案为：49．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      42,
+      43
+    ],
+    "solution_body_blocks": [
+      142,
+      150
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-6799FC0407/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          189.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-6799FC0407/solution-q15-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          128.18,
+          583.64,
+          329.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G11.02"
+  ],
+  "exam_ids": [
+    "E.G11.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "辨认视图后还需计数或求堆叠数量的范围。",
+  "tag_reason": "题面含“搭成一个大正方体,至少”。根据视图约束还原小立方块的排布。",
+  "tag_source": "题文匹配"
+}

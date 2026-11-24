@@ -30,12 +30,12 @@
   },
   "$defs": {
     "list": {"type": "array", "items": {"type": "string"}},
-    "steps": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+    "steps": {"type": "array", "items": {"type": "string", "minLength": 1}},
     "pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
     "tagged": {
       "type": "object", "required": ["knowledge_ids", "exam_ids", "coverage"],
-      "properties": {"knowledge_ids": {"$ref": "#/$defs/list"}, "exam_ids": {"$ref": "#/$defs/list"}, "coverage": {"enum": ["完整匹配", "部分匹配", "仅知识点"]}, "tag_note": {"type": "string"}},
-      "if": {"properties": {"coverage": {"enum": ["部分匹配", "仅知识点"]}}},
+      "properties": {"knowledge_ids": {"$ref": "#/$defs/list"}, "exam_ids": {"$ref": "#/$defs/list"}, "coverage": {"enum": ["完整匹配", "部分匹配", "仅知识点", "待标注"]}, "tag_note": {"type": "string"}},
+      "if": {"properties": {"coverage": {"enum": ["部分匹配", "仅知识点", "待标注"]}}},
       "then": {"required": ["tag_note"], "properties": {"tag_note": {"type": "string", "minLength": 1}}}
     },
     "part": {

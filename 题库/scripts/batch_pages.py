@@ -21,7 +21,7 @@ NS = {'w': W, 'm': M}
 BK = 'BankBlock'
 BANK = Path(__file__).resolve().parents[1]
 QNUM = re.compile(r'^\s*(\d{1,2})(?:[.．、]|\s+(?=\S))')
-SECTION = re.compile(r'^\s*(?:第[一二三四五六]部分|[一二三四五六七八][、.．]\s*(?:单项|单选|选择|填空|计算|解答|综合|作图|非选择|判断|实践))')
+SECTION = re.compile(r'^\s*(?:第[一二三四五六]部分|[一二三四五六七八]\s*[、.．]\s*(?:单项|单选|选择|填空|计算|解答|综合|作图|非选择|判断|实践))')
 ANCHOR_VERSION = 1
 CROP_VERSION = 1
 
@@ -235,14 +235,11 @@ class PrintedPages:
         return result
 
 
-def locate_role(meta,role,count):
+def locate_role(meta,role,count,starts=None):
     blocks=meta['blocks']
-    starts=question_marks(blocks,count)
+    starts=starts or question_marks(blocks,count)
     positions={b['index']:b['position'] for b in blocks if b['position']}
-    headings=[b['index'] for b in blocks if SECTION.match(b['text'])]
-    answers=[b['index'] for b in blocks if b['text'].startswith('【答案】')]
-    if role=='solution' and len(answers)!=count:
-        raise ValueError(f'Expected {count} source answers; found {len(answers)}')
+    headings=[b['index'] for b in blocks if SECTION.match(b['text']) or re.match(r'^(?:第[ⅠⅡ]卷$|(?:选择|填空|解答)题\s*[:：（(])',b['text'])]
     with fitz.open(BANK/meta['rendered_pdf']) as pdf:
         raster=PrintedPages(pdf,meta['margins'])
         end=[len(pdf),pdf[-1].rect.height-max(5,meta['margins'].get('bottom',42)-12)]
@@ -263,9 +260,11 @@ def locate_role(meta,role,count):
             next_q=starts.get(n+1,len(blocks)+1)
             finish=min((h for h in headings if idx<h<next_q),default=next_q)
             if role=='solution':
-                if not idx<=answers[n-1]<finish:
-                    raise ValueError(f'Question {n}: printed answer block is outside the question')
-                idx=answers[n-1]
+                answer_block=next((b for b in blocks if idx<=b['index']<finish and
+                                    b['text'].startswith(('【答案】','【详解】','【解答】','【解析】'))),None)
+                if answer_block is None:
+                    raise ValueError(f'Question {n}: no printed answer or worked solution')
+                idx=answer_block['index']
             part=raster.crop(positions[idx],positions.get(finish,end),
                              (BANK/meta['rendered_pdf']).parent, f'{role}-q{n:02}')
             group='question' if role=='paper' else 'solution'
@@ -283,7 +282,10 @@ def crop_paper(paper,work):
         for role in ('paper','solution'):
             meta=read_json(work/'anchors'/f'{pid}-{role}.json')
             sources[role]={k:meta[k] for k in ('rendered_pdf','rendered_sha256','print_page_count')}
-            rows,block_pages[role]=locate_role(meta,role,paper['answer_markers'])
+            boundaries = work/'boundaries'/(pid+'.json')
+            starts = ({int(q):idx for q,idx in read_json(boundaries)[role].items()}
+                      if boundaries.is_file() else None)
+            rows,block_pages[role]=locate_role(meta,role,paper['answer_markers'],starts)
             for n,row in rows.items():
                 output.setdefault(n,{}).update(row)
         write_json(manifest,{'version':CROP_VERSION,'sources':sources,'questions':output,'block_pages':block_pages})

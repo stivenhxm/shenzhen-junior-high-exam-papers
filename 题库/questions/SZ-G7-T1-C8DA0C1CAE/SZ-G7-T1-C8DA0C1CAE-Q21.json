@@ -1,0 +1,408 @@
+{
+  "id": "SZ-G7-T1-C8DA0C1CAE-Q21",
+  "paper_id": "SZ-G7-T1-C8DA0C1CAE",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "通过分割或补形求面积、用代数式表示数量关系",
+  "stem": "综合与实践：某数学学习小组在探索网格中多边形的面积．如图1用水平线和竖直线将平面分成若干个边长为1的小正方形格子，小正方形的顶点叫做格点，以格点为顶点的三角形叫做格点三角形，以格点为顶点的四边形称为格点四边形，同理，以格点为顶点的多边形称为格点多边形．\n〔图1〕\n〔图2〕\n图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S\n图2 | 4 | 6 | （1）已求\n图3 | 7 | 4 | （2）已求\n图6 | 22 | 20 | （3）已求\n（1）如图2，格点三角形\\(ABC\\)的面积为______；\n（2）如图3，求格点\\(\\vartriangle DEF\\)的面积小组发现，\\(\\vartriangle DEF\\)面积无法直接求得，尝试转化为已知可直接求的图形面积．小组发现两种方法：方法一：如图4，将三角形补成如图长方形，用长方形面积减去三个阴影部分的直角三角形面积可得\\(\\vartriangle DEF\\)的面积；方法二：将\\(\\vartriangle DEF\\)分成如图5三个三角形，\\(\\vartriangle DOE\\)，\\(\\vartriangle EOF\\)，\\(\\vartriangle DOF\\)，三个三角形的面积可以求出，则\\(\\vartriangle DEF\\)的面积可以求出．选用上述方法，可求得\\(\\vartriangle DEF\\)的面积为______；\n（3）如图6，阴影部分图形的面积为______；\n（4）小组发现，用（2）方法，可以求得网格中所有格点多边形的面积．小组通过一些面积的计算，发现：格点多边形的面积与格点多边形的边上的格点个数、多边形内部格点的个数之间有一定数量关系，为了探求这种关系，小组列出表格：你也可以尝试多个不同的格点多边形，直接用含有x，y的代数式表示S．\\(S=\\)______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/e3/e31b27af760a5fd9c4f62b150da051b19cb45f4af48b8c720ecec82ec52b0a6b.png",
+    "assets/figures/dd/dd0a00d08493db72c9fc1bc82cbc75dcb45333b99c82be4d55ea67d21eb967ed.png"
+  ],
+  "tables": [
+    {
+      "text": "图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S\n图2 | 4 | 6 | （1）已求\n图3 | 7 | 4 | （2）已求\n图6 | 22 | 20 | （3）已求",
+      "rows": [
+        [
+          [
+            "图形序号"
+          ],
+          [
+            "格点多边形的内部格点数x"
+          ],
+          [
+            "格点多边形的边上的格点个数y"
+          ],
+          [
+            "格点多边形的面积S"
+          ]
+        ],
+        [
+          [
+            "图2"
+          ],
+          [
+            "4"
+          ],
+          [
+            "6"
+          ],
+          [
+            "（1）已求"
+          ]
+        ],
+        [
+          [
+            "图3"
+          ],
+          [
+            "7"
+          ],
+          [
+            "4"
+          ],
+          [
+            "（2）已求"
+          ]
+        ],
+        [
+          [
+            "图6"
+          ],
+          [
+            "22"
+          ],
+          [
+            "20"
+          ],
+          [
+            "（3）已求"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）6    （2）8\n（3）31    （4）\\(\\frac { y } { 2 }+x-1\\)",
+  "answer": "（1）6    （2）8\n（3）31    （4）\\(\\frac { y } { 2 }+x-1\\)",
+  "given_solution": "【分析】本题考查利用网格求图形面积以及图形的规律探索；\n（1）根据三角形面积等于底乘高即可求解；\n（2）利用题目提供的方法即可求解；\n（3）利用大正方形的面积减去周围空白部分的面积即可求解；\n（4）根据表格发现规律，即可解答．\n【小问1详解】\n解：由图可得：\\(\\vartriangle ABC\\)面积为\\(\\frac { 1 } { 2 }\\times 4\\times 3=6\\)，\n故答案为：6；\n【小问2详解】\n解：方法一：\\(\\vartriangle DEF\\)的面积为：\\(4\\times 5-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 2\\times 4=8\\)；\n方法二：\\(\\vartriangle DEF\\)的面积为：\\(\\frac { 1 } { 2 }\\times 2\\times 3+\\frac { 1 } { 2 }\\times 3\\times 2+\\frac { 1 } { 2 }\\times 2\\times 2=8\\)，\n故答案为：8；\n【小问3详解】\n解：阴影部分图形的面积为：\\(7\\times 7-\\left ( { 7+3 } \\right )\\times 1\\times \\frac { 1 } { 2 }-2\\times \\left ( { 4\\times 2\\times \\frac { 1 } { 2 } } \\right )-\\left ( { 3+5 } \\right )\\times 1\\times \\frac { 1 } { 2 }-\\left ( { 1\\times 1\\times \\frac { 1 } { 2 } } \\right )\\times 2=31\\)，\n故答案为：31；\n【小问4详解】\n解：根据以上可完成表格\n图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S\n图2 | 4 | 6 | 6\n图3 | 7 | 4 | 8\n图6 | 22 | 20 | 31\n由表格可得：\\(S=\\frac { y } { 2 }+x-1\\)，\n故答案为：\\(\\frac { y } { 2 }+x-1\\)．",
+  "given_solution_figures": [
+    "assets/figures/e3/e31b27af760a5fd9c4f62b150da051b19cb45f4af48b8c720ecec82ec52b0a6b.png",
+    "assets/figures/dd/dd0a00d08493db72c9fc1bc82cbc75dcb45333b99c82be4d55ea67d21eb967ed.png"
+  ],
+  "solution": "【小问1详解】\n解：由图可得：\\(\\vartriangle ABC\\)面积为\\(\\frac { 1 } { 2 }\\times 4\\times 3=6\\)，\n故答案为：6；\n【小问2详解】\n解：方法一：\\(\\vartriangle DEF\\)的面积为：\\(4\\times 5-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 2\\times 4=8\\)；\n方法二：\\(\\vartriangle DEF\\)的面积为：\\(\\frac { 1 } { 2 }\\times 2\\times 3+\\frac { 1 } { 2 }\\times 3\\times 2+\\frac { 1 } { 2 }\\times 2\\times 2=8\\)，\n故答案为：8；\n【小问3详解】\n解：阴影部分图形的面积为：\\(7\\times 7-\\left ( { 7+3 } \\right )\\times 1\\times \\frac { 1 } { 2 }-2\\times \\left ( { 4\\times 2\\times \\frac { 1 } { 2 } } \\right )-\\left ( { 3+5 } \\right )\\times 1\\times \\frac { 1 } { 2 }-\\left ( { 1\\times 1\\times \\frac { 1 } { 2 } } \\right )\\times 2=31\\)，\n故答案为：31；\n【小问4详解】\n解：根据以上可完成表格\n图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S\n图2 | 4 | 6 | 6\n图3 | 7 | 4 | 8\n图6 | 22 | 20 | 31\n由表格可得：\\(S=\\frac { y } { 2 }+x-1\\)，\n故答案为：\\(\\frac { y } { 2 }+x-1\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由图可得：\\(\\vartriangle ABC\\)面积为\\(\\frac { 1 } { 2 }\\times 4\\times 3=6\\)，",
+    "故答案为：6；",
+    "【小问2详解】",
+    "解：方法一：\\(\\vartriangle DEF\\)的面积为：\\(4\\times 5-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 2\\times 4=8\\)；",
+    "方法二：\\(\\vartriangle DEF\\)的面积为：\\(\\frac { 1 } { 2 }\\times 2\\times 3+\\frac { 1 } { 2 }\\times 3\\times 2+\\frac { 1 } { 2 }\\times 2\\times 2=8\\)，",
+    "故答案为：8；",
+    "【小问3详解】",
+    "解：阴影部分图形的面积为：\\(7\\times 7-\\left ( { 7+3 } \\right )\\times 1\\times \\frac { 1 } { 2 }-2\\times \\left ( { 4\\times 2\\times \\frac { 1 } { 2 } } \\right )-\\left ( { 3+5 } \\right )\\times 1\\times \\frac { 1 } { 2 }-\\left ( { 1\\times 1\\times \\frac { 1 } { 2 } } \\right )\\times 2=31\\)，",
+    "故答案为：31；",
+    "【小问4详解】",
+    "解：根据以上可完成表格",
+    "图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S",
+    "图2 | 4 | 6 | 6",
+    "图3 | 7 | 4 | 8",
+    "图6 | 22 | 20 | 31",
+    "由表格可得：\\(S=\\frac { y } { 2 }+x-1\\)，",
+    "故答案为：\\(\\frac { y } { 2 }+x-1\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与实践：某数学学习小组在探索网格中多边形的面积．如图1用水平线和竖直线将平面分成若干个边长为1的小正方形格子，小正方形的顶点叫做格点，以格点为顶点的三角形叫做格点三角形，以格点为顶点的四边形称为格点四边形，同理，以格点为顶点的多边形称为格点多边形．\n〔图1〕\n〔图2〕\n图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S\n图2 | 4 | 6 |",
+      "paper_blocks": [
+        64,
+        65,
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T1-C8DA0C1CAE-Q21-P01",
+      "label": "（1）",
+      "prompt": "已求\n图3 | 7 | 4 |",
+      "stem_text": "已求\n图3 | 7 | 4 |",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "6",
+      "answer": "6",
+      "given_solution": "解：由图可得：\\(\\vartriangle ABC\\)面积为\\(\\frac { 1 } { 2 }\\times 4\\times 3=6\\)，\n故答案为：6；",
+      "solution_steps": [
+        "解：由图可得：\\(\\vartriangle ABC\\)面积为\\(\\frac { 1 } { 2 }\\times 4\\times 3=6\\)，",
+        "故答案为：6；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          278,
+          279
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "通过分割或补形求面积。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T1-C8DA0C1CAE-Q21-P02",
+      "label": "（2）",
+      "prompt": "已求\n图6 | 22 | 20 |",
+      "stem_text": "已求\n图6 | 22 | 20 |",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "8",
+      "answer": "8",
+      "given_solution": "解：方法一：\\(\\vartriangle DEF\\)的面积为：\\(4\\times 5-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 2\\times 4=8\\)；\n方法二：\\(\\vartriangle DEF\\)的面积为：\\(\\frac { 1 } { 2 }\\times 2\\times 3+\\frac { 1 } { 2 }\\times 3\\times 2+\\frac { 1 } { 2 }\\times 2\\times 2=8\\)，\n故答案为：8；",
+      "solution_steps": [
+        "解：方法一：\\(\\vartriangle DEF\\)的面积为：\\(4\\times 5-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 2\\times 4=8\\)；",
+        "方法二：\\(\\vartriangle DEF\\)的面积为：\\(\\frac { 1 } { 2 }\\times 2\\times 3+\\frac { 1 } { 2 }\\times 3\\times 2+\\frac { 1 } { 2 }\\times 2\\times 2=8\\)，",
+        "故答案为：8；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          281,
+          282,
+          283
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "通过分割或补形求面积。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T1-C8DA0C1CAE-Q21-P03",
+      "label": "（3）",
+      "prompt": "已求\n（1）如图2，格点三角形\\(ABC\\)的面积为______；\n（2）如图3，求格点\\(\\vartriangle DEF\\)的面积小组发现，\\(\\vartriangle DEF\\)面积无法直接求得，尝试转化为已知可直接求的图形面积．小组发现两种方法：方法一：如图4，将三角形补成如图长方形，用长方形面积减去三个阴影部分的直角三角形面积可得\\(\\vartriangle DEF\\)的面积；方法二：将\\(\\vartriangle DEF\\)分成如图5三个三角形，\\(\\vartriangle DOE\\)，\\(\\vartriangle EOF\\)，\\(\\vartriangle DOF\\)，三个三角形的面积可以求出，则\\(\\vartriangle DEF\\)的面积可以求出．选用上述方法，可求得\\(\\vartriangle DEF\\)的面积为______；\n（3）如图6，阴影部分图形的面积为______；",
+      "stem_text": "已求\n（1）如图2，格点三角形\\(ABC\\)的面积为______；\n（2）如图3，求格点\\(\\vartriangle DEF\\)的面积小组发现，\\(\\vartriangle DEF\\)面积无法直接求得，尝试转化为已知可直接求的图形面积．小组发现两种方法：方法一：如图4，将三角形补成如图长方形，用长方形面积减去三个阴影部分的直角三角形面积可得\\(\\vartriangle DEF\\)的面积；方法二：将\\(\\vartriangle DEF\\)分成如图5三个三角形，\\(\\vartriangle DOE\\)，\\(\\vartriangle EOF\\)，\\(\\vartriangle DOF\\)，三个三角形的面积可以求出，则\\(\\vartriangle DEF\\)的面积可以求出．选用上述方法，可求得\\(\\vartriangle DEF\\)的面积为______；\n（3）如图6，阴影部分图形的面积为______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "31",
+      "answer": "31",
+      "given_solution": "解：阴影部分图形的面积为：\\(7\\times 7-\\left ( { 7+3 } \\right )\\times 1\\times \\frac { 1 } { 2 }-2\\times \\left ( { 4\\times 2\\times \\frac { 1 } { 2 } } \\right )-\\left ( { 3+5 } \\right )\\times 1\\times \\frac { 1 } { 2 }-\\left ( { 1\\times 1\\times \\frac { 1 } { 2 } } \\right )\\times 2=31\\)，\n故答案为：31；",
+      "solution_steps": [
+        "解：阴影部分图形的面积为：\\(7\\times 7-\\left ( { 7+3 } \\right )\\times 1\\times \\frac { 1 } { 2 }-2\\times \\left ( { 4\\times 2\\times \\frac { 1 } { 2 } } \\right )-\\left ( { 3+5 } \\right )\\times 1\\times \\frac { 1 } { 2 }-\\left ( { 1\\times 1\\times \\frac { 1 } { 2 } } \\right )\\times 2=31\\)，",
+        "故答案为：31；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67,
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          285,
+          286
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“面积减去三个阴影”。通过分割或补形求面积。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T1-C8DA0C1CAE-Q21-P04",
+      "label": "（4）",
+      "prompt": "小组发现，用（2）方法，可以求得网格中所有格点多边形的面积．小组通过一些面积的计算，发现：格点多边形的面积与格点多边形的边上的格点个数、多边形内部格点的个数之间有一定数量关系，为了探求这种关系，小组列出表格：你也可以尝试多个不同的格点多边形，直接用含有x，y的代数式表示S．\\(S=\\)______．",
+      "stem_text": "小组发现，用（2）方法，可以求得网格中所有格点多边形的面积．小组通过一些面积的计算，发现：格点多边形的面积与格点多边形的边上的格点个数、多边形内部格点的个数之间有一定数量关系，为了探求这种关系，小组列出表格：你也可以尝试多个不同的格点多边形，直接用含有x，y的代数式表示S．\\(S=\\)______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { y } { 2 }+x-1\\)",
+      "answer": "\\(\\frac { y } { 2 }+x-1\\)",
+      "given_solution": "解：根据以上可完成表格\n图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S\n图2 | 4 | 6 | 6\n图3 | 7 | 4 | 8\n图6 | 22 | 20 | 31\n由表格可得：\\(S=\\frac { y } { 2 }+x-1\\)，\n故答案为：\\(\\frac { y } { 2 }+x-1\\)．",
+      "solution_steps": [
+        "解：根据以上可完成表格",
+        "图形序号 | 格点多边形的内部格点数x | 格点多边形的边上的格点个数y | 格点多边形的面积S",
+        "图2 | 4 | 6 | 6",
+        "图3 | 7 | 4 | 8",
+        "图6 | 22 | 20 | 31",
+        "由表格可得：\\(S=\\frac { y } { 2 }+x-1\\)，",
+        "故答案为：\\(\\frac { y } { 2 }+x-1\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67,
+          72
+        ],
+        "solution_block_ids": [
+          288,
+          289,
+          290,
+          291
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“用含有x,y的代数式表示”。用代数式表示数量关系。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      72
+    ],
+    "solution_body_blocks": [
+      260,
+      291
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-C8DA0C1CAE/paper-q21-p04.webp",
+      "assets/SZ-G7-T1-C8DA0C1CAE/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          448.18,
+          583.64,
+          653.64
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          614.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-C8DA0C1CAE/solution-q21-p13.webp",
+      "assets/SZ-G7-T1-C8DA0C1CAE/solution-q21-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          458.64,
+          583.64,
+          745.91
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          484.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G02.04",
+    "M.N03.01"
+  ],
+  "exam_ids": [
+    "E.G02.04.01",
+    "E.N03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "通过分割或补形求面积。 题面含“面积减去三个阴影”。通过分割或补形求面积。 题面含“用含有x,y的代数式表示”。用代数式表示数量关系。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "SZ-G7-T1-323869CCCD-Q15",
+  "paper_id": "SZ-G7-T1-323869CCCD",
+  "number": 15,
+  "type": "填空题",
+  "points": null,
+  "title": "按运算顺序计算有理数",
+  "stem": "如图，商品条形码是商品的“身份证”，共有13位数字，它是由前12位数字和校验码构成，其结构分别代表“国家代码、厂商代码、产品代码、校验码”，其中，校验码是用来校验商品条形码中前12位数字代码的正确性，它的编制是按照特定的算法得来的．其算法为：\n〔图1〕\n步骤1：计算前12位数字中偶数位数字的和a，即\\(a=9+1+3+5+7+9=34\\)；\n步骤2：计算前12位数字中奇数位数字的和b，即\\(b=6+0+2+4+6+8=26\\)；\n步骤3：计算\\(3a\\)与b的和c，即\\(c=3\\times 34+26=128\\)；\n步骤4：取大于或等于c且为10的整数倍的最小数d，即\\(d=130\\)；\n步骤5：计算d与c的差就是校验码\\(X\\)，即\\(X=130-128=2\\)．\n如图，若右边条形码中被污染的两个数字的和是5，则被污染的两个数字中右边的数字是______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/5b/5b89cb407825fee6219ce5ad5bbea5ecd6b9b6f8dc7316da1ecab719587a099f.png"
+  ],
+  "tables": [],
+  "given_answer": "4",
+  "answer": "4",
+  "given_solution": "【分析】设这两个数字从左到右分别是\\(p\\)，\\(q\\)，根据定义及运用方程的思想解决此题．\n【详解】解：设这两个数字从左到右分别是\\(p\\)，\\(q\\)．\n由题意得：\\(a=9+9+2+q+3+5=28+q\\)，\n\\(b=6+1+p+1+2+4=14+p\\)，\\(c=3a+b=98+(3q+p)\\)．\n\\(\\because d\\)为10的整数倍，\n\\(\\therefore d=120\\)．\n\\(\\therefore 3q+p=13\\)．\n又\\(\\because p+q=5\\)，\n\\(\\therefore p=1\\)，\\(q=4\\)．\n故答案为：4．\n【点睛】本题主要考查有理数的加法，熟练掌握有理数的加法法则、方程的思想是解决本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/5b/5b89cb407825fee6219ce5ad5bbea5ecd6b9b6f8dc7316da1ecab719587a099f.png"
+  ],
+  "solution": "解：设这两个数字从左到右分别是\\(p\\)，\\(q\\)．\n由题意得：\\(a=9+9+2+q+3+5=28+q\\)，\n\\(b=6+1+p+1+2+4=14+p\\)，\\(c=3a+b=98+(3q+p)\\)．\n\\(\\because d\\)为10的整数倍，\n\\(\\therefore d=120\\)．\n\\(\\therefore 3q+p=13\\)．\n又\\(\\because p+q=5\\)，\n\\(\\therefore p=1\\)，\\(q=4\\)．\n故答案为：4．",
+  "solution_steps": [
+    "解：设这两个数字从左到右分别是\\(p\\)，\\(q\\)．",
+    "由题意得：\\(a=9+9+2+q+3+5=28+q\\)，",
+    "\\(b=6+1+p+1+2+4=14+p\\)，\\(c=3a+b=98+(3q+p)\\)．",
+    "\\(\\because d\\)为10的整数倍，",
+    "\\(\\therefore d=120\\)．",
+    "\\(\\therefore 3q+p=13\\)．",
+    "又\\(\\because p+q=5\\)，",
+    "\\(\\therefore p=1\\)，\\(q=4\\)．",
+    "故答案为：4．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      38,
+      45
+    ],
+    "solution_body_blocks": [
+      146,
+      166
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-323869CCCD/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          159.55,
+          583.64,
+          455.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-323869CCCD/solution-q15-p07.webp",
+      "assets/SZ-G7-T1-323869CCCD/solution-q15-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          604.09,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          189.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N01.05"
+  ],
+  "exam_ids": [
+    "E.N01.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "解析指明含“有理数的加法”。按运算顺序计算有理数。",
+  "tag_source": "题文匹配"
+}

@@ -11,6 +11,7 @@ import re
 from zipfile import ZipFile
 
 from lxml import etree as ET
+from olefile import OleFileIO
 from PIL import Image
 from mtef_py.mtef import MTEF
 
@@ -19,7 +20,7 @@ RID = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
 M = '{http://schemas.openxmlformats.org/officeDocument/2006/math}'
 W = '{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 NUMBER = re.compile(r'^\s*(\d{1,2})(?:[.．、]\s*|\s+(?=\S))')
-SECTION = re.compile(r'^\s*(?:[一二三四五六七八][、．.]\s*|第[一二三四五六]部分\s*)')
+SECTION = re.compile(r'^\s*(?:[一二三四五六七八]\s*[、．.]\s*|第[一二三四五六]部分\s*)')
 GLYPHS = dict.fromkeys(['46f198427d5e83c7','0588df34b385b507','27f5e6424121d961','242c7b955f15e46e'],'的')
 GLYPHS.update({'d21221f5a6ab94c8':'.','605fa2c1788bd59f':'【','3e6444b39c5a8180':'【',
                'db201656909c85e3':'为','970c86f897d97f22':'为','c3a1b03e2e2825a4':'是','ecbb2cee6dceed1c':'是'})
@@ -36,22 +37,41 @@ class SilentOutput:
         pass
 
 
+class EquationStream(BytesIO):
+    """Allow the parser's end-of-record check but stop repeated EOF reads."""
+    def read(self, size=-1):
+        data = super().read(size)
+        if size > 0 and not data and getattr(self, 'at_end', False):
+            raise ValueError('Truncated Equation Native stream')
+        self.at_end = bool(size > 0 and not data)
+        return data
+
+
 @lru_cache(maxsize=6144)
 def latex(blob):
     # mtef-py emits verbose diagnostics on stdout. A rejected expression falls
     # back to the exact preview image stored alongside the Equation object.
     try:
         with contextlib.redirect_stdout(SilentOutput()):
-            m, error = MTEF.OpenBytes(blob)
-            if not m or error:
+            with OleFileIO(BytesIO(blob)) as ole:
+                if not ole.exists('Equation Native'):
+                    return ''
+                data = ole.openstream('Equation Native').read()
+            header = int.from_bytes(data[:2], 'little')
+            size = int.from_bytes(data[8:12], 'little')
+            if header != 28 or size < 1 or len(data) < header + size:
                 return ''
+            m = MTEF()
+            m.reader = EquationStream(data[header:header+size])
+            m.readRecord()
+            m.makeAST()
             tex = m.Translate().strip().strip('$').strip()
     except (ValueError, IndexError, TypeError, KeyError, AttributeError, ArithmeticError, OSError):
         return ''
     tex = re.sub(r'\{\\text\{\[U\+([0-9A-Fa-f]+)\]\}\}',lambda h:chr(int(h[1],16)),tex)
     tex = re.sub(r'(?<!\\)%',r'\\%',tex)
     tex = re.sub(r'\s+\\$','',tex)
-    if (not tex or '[U+' in tex or '\x00' in tex or
+    if (not tex or '[U+' in tex or '\x00' in tex or '\u0802' in tex or
             re.search(r'\\begin\{(?:array|matrix)\}',tex) or
             any(0xe000<=ord(c)<=0xf8ff for c in tex)):
         return ''
@@ -102,7 +122,7 @@ def omml(n):
     return ''.join(omml(c) for c in n)
 
 
-def sections(path, bank):
+def sections(path, bank, question_starts=None):
     with ZipFile(path) as archive:
         root = ET.fromstring(archive.read('word/document.xml'))
         rel_root = ET.fromstring(archive.read('word/_rels/document.xml.rels'))
@@ -184,15 +204,23 @@ def sections(path, bank):
             if local(block)=='sectPr':
                 continue
             plain=''.join(block.xpath('.//*[local-name()="t"]/text()')).strip()
-            if SECTION.match(plain) and re.search('题|部分',plain[:18]):
+            if re.fullmatch(r'第[ⅠⅡ一二12]卷',plain):
+                active=None
+                category=''
+                continue
+            if (SECTION.match(plain) and re.search('题|部分',plain[:18])) or re.match(r'^(?:选择|单项选择|填空|解答)题\s*[:：（(]',plain):
                 category=plain
                 active=None
                 continue
             match=NUMBER.match(plain)
             # Ignore numbered instructions in the exam cover.
-            if match and int(match[1])==number+1 and category:
+            if question_starts is not None:
+                begins = question_starts.get(bidx) == number + 1
+            else:
+                begins = match and int(match[1]) == number+1 and category
+            if begins:
                 number+=1
-                active={'number':number,'section':category,'blocks':[],'figures':[],'tables':[]}
+                active={'number':number,'section':category or '选择题','blocks':[],'figures':[],'tables':[]}
                 rows.append(active)
             if active is None:
                 continue

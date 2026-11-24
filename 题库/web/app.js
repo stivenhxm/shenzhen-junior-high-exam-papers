@@ -271,7 +271,11 @@
     if (s.item) return read(s,p.results,'本卷目录',url(s,{item:null}),[],turn,direct);
     const box = element('section','sheet');
     box.append(heading(p.school,p.count+' 道大题'),element('p','paper-name',p.title),
-      element('p','metadata',paperMeta(p)),resultRows(p.results,s));
+      element('p','metadata',paperMeta(p)));
+    for (const detail of [p.metadata_note,p.edition_note]) {
+      if (detail) box.append(element('p','metadata',detail));
+    }
+    box.append(resultRows(p.results,s));
     main.replaceChildren(crumb('全部试卷',url(s,{paper:null})),box);
     document.title=p.school+' · 深圳初中数学题库';
   }

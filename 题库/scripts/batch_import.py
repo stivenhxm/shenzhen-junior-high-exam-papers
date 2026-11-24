@@ -17,6 +17,7 @@ def pending(root, candidates):
     # The manifests remain authoritative even if a run was interrupted before rebuilding indexes.
     entries = [registry.make_entry(root.parent, p, 0) for p in
                (build.read(f) for f in sorted((root/'papers').glob('*.json')))]
+    registry.attach_inventory(root,entries)
     ready, skipped = [], []
     for row in candidates:
         pid = build.stable_id(row['id'])
@@ -29,7 +30,9 @@ def pending(root, candidates):
         original = root.parent/row['paper']
         status, match, _ = registry.lookup(entries, original, root.parent)
         if status == '已解析':
-            build.require(match['solution']['sha256'] == sources['solution']['sha256'],
+            known_answers = [match['solution']['sha256'], *[s['sha256'] for s in match.get('alternate_sources',[])
+                             if '解析' in s['role'] or ('答案' in s['role'] and '卡' not in s['role'])]]
+            build.require(sources['solution']['sha256'] in known_answers,
                           f"{pid} 原卷已登记为 {match['id']}，但解析版有更新，请先校对版本")
             skipped.append((pid, match['id']))
             continue
@@ -70,14 +73,21 @@ def attach_pages(q, printed):
 
 
 def assemble(row, work, batch, revision):
-    from batch_tags import apply_tags
     pid = row['id']
+    from batch_tags import review_book
+    if pid in review_book():
+        from batch_tags import apply_tags
+    else:
+        from g7_tags import apply_tags
     printed = build.read(work/'pages'/(pid+'.json'))
     questions = build.read(work/'content'/(pid+'.json'))
     numbers = [q['number'] for q in questions]
     build.require(numbers == list(range(1,len(questions)+1)) and
                   len(numbers) == len(printed['questions']) == row['answer_markers'],
                   f'{pid} 题号、打印版或资料答案计数不一致')
+    if pid.startswith('SZ-G7-T1-'):
+        from g7_text_review import review
+        questions = [review(q) for q in questions]
     for q in questions:
         build.require(q['paper_id'] == pid and q['id'] == f"{pid}-Q{q['number']:02d}", f'{pid} 题 ID 与原卷不符')
         q.update(schema_version='1.0', taxonomy_version='0.2')
@@ -87,11 +97,16 @@ def assemble(row, work, batch, revision):
     sources = {role: dict(printed['sources'][role], git_path=row[role], sha256=row[role+'_sha256'])
                for role in ('paper','solution')}
     p = {key:row[key] for key in ('id','school','title','academic_year','exam_type')}
+    for field in ('metadata_note','edition_note'):
+        if row.get(field):
+            p[field]=row[field]
     p.update(schema_version='1.0', taxonomy_version='0.2', subject='数学', municipality='深圳市',
              grade='七年级', semester='上学期', question_ids=ids, sources=sources,
              ingestion={'batch':batch, 'answer_origin':'source_transcribed'})
     if revision:
         p['source_revision'] = revision
+    if row.get('metadata_note'):
+        p['metadata_note'] = row['metadata_note']
     return p, questions
 
 

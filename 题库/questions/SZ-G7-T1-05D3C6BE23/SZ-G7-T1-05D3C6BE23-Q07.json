@@ -1,0 +1,115 @@
+{
+  "id": "SZ-G7-T1-05D3C6BE23-Q07",
+  "paper_id": "SZ-G7-T1-05D3C6BE23",
+  "number": 7,
+  "type": "选择题",
+  "points": 3,
+  "title": "根据视图约束还原小立方块的排布",
+  "stem": "一个几何体是由若干个相同的立方体组成，其主视图和左视图如图所示，则组成这个几何体的立方体个数不可能的是（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "15个"
+    },
+    {
+      "label": "B",
+      "text": "13个"
+    },
+    {
+      "label": "C",
+      "text": "11个"
+    },
+    {
+      "label": "D",
+      "text": "5个"
+    }
+  ],
+  "figures": [
+    "assets/figures/78/78e8db57147a216e3f48d51ce33a8875ddd93b27d8ddfb916affbbc8960d20fd.png"
+  ],
+  "tables": [],
+  "given_answer": "A",
+  "answer": "A",
+  "given_solution": "【分析】根据主视图和左视图，分别找出每行每列立方体最多的个数，相加即可判断出答案．\n【详解】综合主视图与左视图，第一行第1列最多有2个，第一行第2列最多有1个，第一行第3列最多有2个；第二行第1列最多有1个，第二行第2列最多有1个，第二行第3列最多有1个；第三行第1列最多有2个，第三行第2列最多有1个，第三行第3列最多有2个，\n所以最多有\\(2+1+2+1+1+1+2+1+2=13\\)（个），不可能有15个．\n故选：A．\n【点睛】本题考查三视图，根据题目给出的视图，出每行每列的立方体个数是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/a0/a0ac4ebdb1edd634654bbc1b3751ce668770f8a0c9a9ba02b7cb8df85130bd02.png"
+  ],
+  "solution": "综合主视图与左视图，第一行第1列最多有2个，第一行第2列最多有1个，第一行第3列最多有2个；第二行第1列最多有1个，第二行第2列最多有1个，第二行第3列最多有1个；第三行第1列最多有2个，第三行第2列最多有1个，第三行第3列最多有2个，\n所以最多有\\(2+1+2+1+1+1+2+1+2=13\\)（个），不可能有15个．\n故选：A．",
+  "solution_steps": [
+    "综合主视图与左视图，第一行第1列最多有2个，第一行第2列最多有1个，第一行第3列最多有2个；第二行第1列最多有1个，第二行第2列最多有1个，第二行第3列最多有1个；第三行第1列最多有2个，第三行第2列最多有1个，第三行第3列最多有2个，",
+    "所以最多有\\(2+1+2+1+1+1+2+1+2=13\\)（个），不可能有15个．",
+    "故选：A．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      21,
+      23
+    ],
+    "solution_body_blocks": [
+      61,
+      70
+    ],
+    "question_pages": [
+      1,
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-05D3C6BE23/paper-q07-p01.webp",
+      "assets/SZ-G7-T1-05D3C6BE23/paper-q07-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          11.82,
+          627.73,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      3
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-05D3C6BE23/solution-q07-p03.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          393.64,
+          583.64,
+          595.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G11.02"
+  ],
+  "exam_ids": [
+    "E.G11.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "辨认视图后还需计数或求堆叠数量的范围。",
+  "tag_reason": "题面含“立方体个数”。根据视图约束还原小立方块的排布。",
+  "tag_source": "题文匹配"
+}

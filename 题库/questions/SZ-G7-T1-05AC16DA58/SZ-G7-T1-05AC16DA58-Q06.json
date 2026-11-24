@@ -1,0 +1,98 @@
+{
+  "knowledge_ids": [
+    "M.N03.01"
+  ],
+  "exam_ids": [
+    "E.N03.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "利用已知数值或整体关系求式值。",
+  "id": "SZ-G7-T1-05AC16DA58-Q06",
+  "paper_id": "SZ-G7-T1-05AC16DA58",
+  "number": 6,
+  "type": "选择题",
+  "points": null,
+  "title": "利用已知数值或整体关系求式值",
+  "stem": "（3分）按如图所示的运算程序，当输入x的值为1时，输出y的值为（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "﹣1"
+    },
+    {
+      "label": "B",
+      "text": "﹣4"
+    },
+    {
+      "label": "C",
+      "text": "9"
+    },
+    {
+      "label": "D",
+      "text": "11"
+    }
+  ],
+  "figures": [
+    "assets/figures/f6/f61a62afa7290c77e938eb0e197bd7f7984230d45d2e2bd18ec6d72dfa451415.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "先把x＝1代入y＝x\\({}^{2}\\)﹣5中求出y的值，若y的值大于等于0，则输出y的值，否则把y的值重新赋值给x再代入y＝x\\({}^{2}\\)﹣5中计算，如此反复，直到计算出的y值大于等于0后输出即可．\n【解答】解：当输入x＝1时，\ny＝1\\({}^{2}\\)﹣5＝﹣4＜0，此时y＜0，\n还需输入x＝﹣4时，\ny＝（﹣4）\\({}^{2}\\)﹣5＝16﹣5＝11＞0，\n∴输出y的值为11．\n故选：D．",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "解：当输入x＝1时，",
+    "y＝1\\({}^{2}\\)﹣5＝﹣4＜0，此时y＜0，",
+    "还需输入x＝﹣4时，",
+    "y＝（﹣4）\\({}^{2}\\)﹣5＝16﹣5＝11＞0，",
+    "∴输出y的值为11．",
+    "故选：D．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "extracted_text": "（3分）按如图所示的运算程序，当输入x的值为1时，输出y的值为（　　）\n〔图1〕\nA．﹣1\tB．﹣4\tC．9\tD．11",
+    "question_pages": [
+      1
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-05AC16DA58/single/q06-p01.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          13,
+          629.75,
+          582.2,
+          728.88
+        ]
+      }
+    ],
+    "solution_pages": [
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-05AC16DA58/single/s06-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          13,
+          208.31,
+          582.2,
+          432.66
+        ]
+      }
+    ]
+  },
+  "solution": "解：当输入x＝1时，\ny＝1\\({}^{2}\\)﹣5＝﹣4＜0，此时y＜0，\n还需输入x＝﹣4时，\ny＝（﹣4）\\({}^{2}\\)﹣5＝16﹣5＝11＞0，\n∴输出y的值为11．\n故选：D．",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "逐题核对"
+}

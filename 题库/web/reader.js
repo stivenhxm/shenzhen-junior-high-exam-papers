@@ -141,7 +141,9 @@
   function answerSections(item) {
     return section('答案与参考解答', async body => {
       const a = await data.get('answers/'+item.id);
-      const origins = {source_checked_with_correction:'依据资料复核、校正', source_transcribed:'据配套解析转录'};
+      const origins = {source_checked_with_correction:'依据题干校正，可展开下方原解析对照', source_transcribed:'据配套解析转录',
+        source_solution_summary:'答案从配套解题过程归纳', editorial_solution:'资料提供答案，解法由题库补写',
+        source_answer_only:'资料只提供答案',source_facsimile:'参考原件影像'};
       body.replaceChildren(element('p','muted', origins[a.solution_origin] || '依据配套解析整理'));
       body.append(texText(a.answer,'ref-answer',a.figure_refs));
       for (const step of a.solution_steps || []) body.append(texText(step,'step',a.figure_refs));

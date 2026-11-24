@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G7-T1-DD916F1810-Q09",{"answer":"3","solution_steps":["3"],"given_answer":"","given_solution":"3","solution_origin":"source_solution_summary","review_note":"","source":{"solution_pages":[3],"solution_images":["assets/SZ-G7-T1-DD916F1810/single/s09-p03.webp"],"solution_pdf":"assets/SZ-G7-T1-DD916F1810/solution.pdf"},"solution_figures":[]});

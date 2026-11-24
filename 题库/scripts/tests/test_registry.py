@@ -9,6 +9,21 @@ import registry
 
 
 class RegisteredSources(unittest.TestCase):
+    def test_known_alternate_moved_renamed_and_revised(self):
+        with tempfile.TemporaryDirectory() as prefix:
+            repo = Path(prefix)
+            card = repo/'答题卡.pdf'
+            card.write_bytes(b'answer sheet')
+            entry = {'id':'P', 'paper':{'git_path':'paper.pdf','sha256':'p'},
+                     'solution':{'git_path':'solution.pdf','sha256':'s'},
+                     'alternate_sources':[{'git_path':card.name,'sha256':registry.file_digest(card),'role':'答题卡'}]}
+            renamed = repo/'copy.pdf'
+            renamed.write_bytes(card.read_bytes())
+            for path in (card,renamed):
+                self.assertEqual(registry.lookup([entry],path,repo),('已解析',entry,'答题卡'))
+            card.write_bytes(b'revised answer sheet')
+            self.assertEqual(registry.lookup([entry],card,repo)[0],'来源有更新，需复核')
+
     def test_lookup_repacked_or_revised_word_document(self):
         with tempfile.TemporaryDirectory() as prefix:
             root = Path(prefix)

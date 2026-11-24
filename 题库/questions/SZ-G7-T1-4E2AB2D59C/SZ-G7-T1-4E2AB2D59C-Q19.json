@@ -1,0 +1,222 @@
+{
+  "id": "SZ-G7-T1-4E2AB2D59C-Q19",
+  "paper_id": "SZ-G7-T1-4E2AB2D59C",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "根据视图约束还原小立方块的排布、从指定方向观察并判断几何体视图",
+  "stem": "用若干个大小相同的小正方体搭一个几何体，使得从正面和从上面看到的这个几何体的形状如图所示，其中从上面看到的小正方形中的数字表示在该位置的小正方体的个数．完成下列问题：\n〔图1〕\n（1）图中共有______个小正方体，并在从上面看到的形状图中补充填写对应位置小正方体的个数；\n（2）请在网格中画出从左面看到的形状图．",
+  "choices": [],
+  "figures": [
+    "assets/figures/97/97f95e8f4c4f2041b8e9052cbe575a5f7972e159b697818ad1bfbb5bbe452ef1.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）9    （2）见解析",
+  "answer": "（1）9    （2）见解析",
+  "given_solution": "【分析】（1）根据从正面看的图形，得出空余部分的正方体的个数，继而得解；\n（2）根据（1）中结论画图即可．\n【小问1详解】\n解：从正面看，第2列最多有1个正方体，第3列最多有3个正方体，\n∴共有\\(1+1+2+2+3=9\\)个正方体，\n∴从上面看如图所示：\n〔图2〕  【小问2详解】\n由（1）可得：\n从左面看的形状为：\n〔图3〕  【点睛】本题考查了从不同方向看几何体，解题的关键是通过空间想象能力，得出相应位置的正方体的个数．",
+  "given_solution_figures": [
+    "assets/figures/97/97f95e8f4c4f2041b8e9052cbe575a5f7972e159b697818ad1bfbb5bbe452ef1.png",
+    "assets/figures/d6/d64f7f6541871d502f335d4c62036f9d391febd615eb5c3296fb223ae8b8b1f5.png",
+    "assets/figures/9f/9fc4912c61a652da55b2804f0089493f195e93af12249063d81264ce5c3fafc4.png"
+  ],
+  "solution": "【小问1详解】\n解：从正面看，第2列最多有1个正方体，第3列最多有3个正方体，\n∴共有\\(1+1+2+2+3=9\\)个正方体，\n∴从上面看如图所示：\n〔图2〕  【小问2详解】\n由（1）可得：\n从左面看的形状为：\n〔图3〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：从正面看，第2列最多有1个正方体，第3列最多有3个正方体，",
+    "∴共有\\(1+1+2+2+3=9\\)个正方体，",
+    "∴从上面看如图所示：",
+    "〔图2〕  【小问2详解】",
+    "由（1）可得：",
+    "从左面看的形状为：",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "用若干个大小相同的小正方体搭一个几何体，使得从正面和从上面看到的这个几何体的形状如图所示，其中从上面看到的小正方形中的数字表示在该位置的小正方体的个数．完成下列问题：\n〔图1〕",
+      "paper_blocks": [
+        50,
+        51
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T1-4E2AB2D59C-Q19-P01",
+      "label": "（1）",
+      "prompt": "图中共有______个小正方体，并在从上面看到的形状图中补充填写对应位置小正方体的个数；",
+      "stem_text": "图中共有______个小正方体，并在从上面看到的形状图中补充填写对应位置小正方体的个数；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "9",
+      "answer": "9",
+      "given_solution": "解：从正面看，第2列最多有1个正方体，第3列最多有3个正方体，\n∴共有\\(1+1+2+2+3=9\\)个正方体，\n∴从上面看如图所示：\n〔图2〕",
+      "solution_steps": [
+        "解：从正面看，第2列最多有1个正方体，第3列最多有3个正方体，",
+        "∴共有\\(1+1+2+2+3=9\\)个正方体，",
+        "∴从上面看如图所示：",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52
+        ],
+        "solution_block_ids": [
+          236,
+          237,
+          238,
+          239
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          11,
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G11.02"
+      ],
+      "exam_ids": [
+        "E.G11.02.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "辨认视图后还需计数或求堆叠数量的范围。",
+      "tag_reason": "题面含“正方体的个数”。根据视图约束还原小立方块的排布。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T1-4E2AB2D59C-Q19-P02",
+      "label": "（2）",
+      "prompt": "请在网格中画出从左面看到的形状图．",
+      "stem_text": "请在网格中画出从左面看到的形状图．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "由（1）可得：\n从左面看的形状为：\n〔图3〕",
+      "solution_steps": [
+        "由（1）可得：",
+        "从左面看的形状为：",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          53
+        ],
+        "solution_block_ids": [
+          240,
+          241,
+          242
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G11.02"
+      ],
+      "exam_ids": [
+        "E.G11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“画出从左面看到的形状”。从指定方向观察并判断几何体视图。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      50,
+      53
+    ],
+    "solution_body_blocks": [
+      227,
+      242
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-4E2AB2D59C/paper-q19-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          112.73,
+          583.64,
+          275.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-4E2AB2D59C/solution-q19-p11.webp",
+      "assets/SZ-G7-T1-4E2AB2D59C/solution-q19-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          619.55,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          299.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G11.02"
+  ],
+  "exam_ids": [
+    "E.G11.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "辨认视图后还需计数或求堆叠数量的范围。",
+  "tag_reason": "题面含“正方体的个数”。根据视图约束还原小立方块的排布。 题面含“画出从左面看到的形状”。从指定方向观察并判断几何体视图。",
+  "tag_source": "小问标签汇总"
+}

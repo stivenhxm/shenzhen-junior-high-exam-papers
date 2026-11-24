@@ -1,0 +1,228 @@
+{
+  "id": "SZ-G7-T1-F669AFE76D-Q21",
+  "paper_id": "SZ-G7-T1-F669AFE76D",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "通过分割或补形求面积、由非负量之和为零确定字母的值",
+  "stem": "如图所示，在一块长为\\(a\\)，宽为\\(2b\\)的长方形铁皮中剪掉两个扇形，\n〔图1〕\n（1）求剪掉两个扇形\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的面积（结果保留\\(\\pi\\)）；\n（2）如果\\(a\\)，\\(b\\)满足关系式\\(\\left | { a-8\\left | { + } \\right |b-2 } \\right |=0\\)，求剩下铁皮的面积是多少？（\\(\\pi\\)取\\(3.14\\)）",
+  "choices": [],
+  "figures": [
+    "assets/figures/b2/b2e22d2c0fb940dd61e9d323a32e3729f85c83581d638cc2cbedc05bc560aa4d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(S_{ 1 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)\n（2）13.16",
+  "answer": "（1）\\(S_{ 1 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)\n（2）13.16",
+  "given_solution": "【分析】（1）根据\\(S_{ 1 }\\)是\\(\\frac { 1 } { 4 }\\)的半径为\\(2b\\)的圆的面积，\\(S_{ 2 }\\)是直径为\\(2b\\)的半圆的面积，进行计算即可；\n（2）利用非负性，求出\\(a,b\\)的值，用矩形的面积减去两个扇形的面积，求出剩下铁皮的面积即可．\n【小问1详解】\n解：由题意，得：\\(S_{ 1 } =\\frac { 1 } { 4 }\\pi \\left ( { 2b } \\right ) ^ { 2 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)；\n【小问2详解】\n解：\\(\\because\\)\\(\\left | { a-8 } \\right |+\\left | { b-2 } \\right |=0\\)，\n\\(\\therefore\\)\\(a-8=0,b-2=0\\)，\n\\(\\therefore\\)\\(a=8,b=2\\)，\n\\(\\therefore\\)\\(S_{ 阴 } =2ab-\\pi b ^ { 2 } -\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)，\n\\(=2ab-\\frac { 3 } { 2 }\\pi b ^ { 2 }\\)，\n\\(=2\\times 8\\times 2-\\frac { 3 } { 2 }\\times 3.14\\times 2 ^ { 2 }\\)\n\\(=32-18.84\\)\n\\(=13.16\\)．\n【点睛】本题考查列代数式解决实际问题．正确的识图，用代数式表示出图形的面积，是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/b2/b2e22d2c0fb940dd61e9d323a32e3729f85c83581d638cc2cbedc05bc560aa4d.png"
+  ],
+  "solution": "【小问1详解】\n解：由题意，得：\\(S_{ 1 } =\\frac { 1 } { 4 }\\pi \\left ( { 2b } \\right ) ^ { 2 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)；\n【小问2详解】\n解：\\(\\because\\)\\(\\left | { a-8 } \\right |+\\left | { b-2 } \\right |=0\\)，\n\\(\\therefore\\)\\(a-8=0,b-2=0\\)，\n\\(\\therefore\\)\\(a=8,b=2\\)，\n\\(\\therefore\\)\\(S_{ 阴 } =2ab-\\pi b ^ { 2 } -\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)，\n\\(=2ab-\\frac { 3 } { 2 }\\pi b ^ { 2 }\\)，\n\\(=2\\times 8\\times 2-\\frac { 3 } { 2 }\\times 3.14\\times 2 ^ { 2 }\\)\n\\(=32-18.84\\)\n\\(=13.16\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由题意，得：\\(S_{ 1 } =\\frac { 1 } { 4 }\\pi \\left ( { 2b } \\right ) ^ { 2 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)；",
+    "【小问2详解】",
+    "解：\\(\\because\\)\\(\\left | { a-8 } \\right |+\\left | { b-2 } \\right |=0\\)，",
+    "\\(\\therefore\\)\\(a-8=0,b-2=0\\)，",
+    "\\(\\therefore\\)\\(a=8,b=2\\)，",
+    "\\(\\therefore\\)\\(S_{ 阴 } =2ab-\\pi b ^ { 2 } -\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)，",
+    "\\(=2ab-\\frac { 3 } { 2 }\\pi b ^ { 2 }\\)，",
+    "\\(=2\\times 8\\times 2-\\frac { 3 } { 2 }\\times 3.14\\times 2 ^ { 2 }\\)",
+    "\\(=32-18.84\\)",
+    "\\(=13.16\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图所示，在一块长为\\(a\\)，宽为\\(2b\\)的长方形铁皮中剪掉两个扇形，\n〔图1〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T1-F669AFE76D-Q21-P01",
+      "label": "（1）",
+      "prompt": "求剪掉两个扇形\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的面积（结果保留\\(\\pi\\)）；",
+      "stem_text": "求剪掉两个扇形\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的面积（结果保留\\(\\pi\\)）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ 1 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)",
+      "answer": "\\(S_{ 1 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)",
+      "given_solution": "解：由题意，得：\\(S_{ 1 } =\\frac { 1 } { 4 }\\pi \\left ( { 2b } \\right ) ^ { 2 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)；",
+      "solution_steps": [
+        "解：由题意，得：\\(S_{ 1 } =\\frac { 1 } { 4 }\\pi \\left ( { 2b } \\right ) ^ { 2 } =\\pi b ^ { 2 }\\)，\\(S_{ 2 } =\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          302
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04",
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.G02.04.01",
+        "E.N03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "通过分割或补形求面积。 用代数式表示数量关系。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T1-F669AFE76D-Q21-P02",
+      "label": "（2）",
+      "prompt": "如果\\(a\\)，\\(b\\)满足关系式\\(\\left | { a-8\\left | { + } \\right |b-2 } \\right |=0\\)，求剩下铁皮的面积是多少？（\\(\\pi\\)取\\(3.14\\)）",
+      "stem_text": "如果\\(a\\)，\\(b\\)满足关系式\\(\\left | { a-8\\left | { + } \\right |b-2 } \\right |=0\\)，求剩下铁皮的面积是多少？（\\(\\pi\\)取\\(3.14\\)）",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "13.16",
+      "answer": "13.16",
+      "given_solution": "解：\\(\\because\\)\\(\\left | { a-8 } \\right |+\\left | { b-2 } \\right |=0\\)，\n\\(\\therefore\\)\\(a-8=0,b-2=0\\)，\n\\(\\therefore\\)\\(a=8,b=2\\)，\n\\(\\therefore\\)\\(S_{ 阴 } =2ab-\\pi b ^ { 2 } -\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)，\n\\(=2ab-\\frac { 3 } { 2 }\\pi b ^ { 2 }\\)，\n\\(=2\\times 8\\times 2-\\frac { 3 } { 2 }\\times 3.14\\times 2 ^ { 2 }\\)\n\\(=32-18.84\\)\n\\(=13.16\\)．",
+      "solution_steps": [
+        "解：\\(\\because\\)\\(\\left | { a-8 } \\right |+\\left | { b-2 } \\right |=0\\)，",
+        "\\(\\therefore\\)\\(a-8=0,b-2=0\\)，",
+        "\\(\\therefore\\)\\(a=8,b=2\\)，",
+        "\\(\\therefore\\)\\(S_{ 阴 } =2ab-\\pi b ^ { 2 } -\\frac { 1 } { 2 }\\pi b ^ { 2 }\\)，",
+        "\\(=2ab-\\frac { 3 } { 2 }\\pi b ^ { 2 }\\)，",
+        "\\(=2\\times 8\\times 2-\\frac { 3 } { 2 }\\times 3.14\\times 2 ^ { 2 }\\)",
+        "\\(=32-18.84\\)",
+        "\\(=13.16\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N02.01",
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.N02.01.02",
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由非负量之和为零确定字母的值。 通过分割或补形求面积。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      72
+    ],
+    "solution_body_blocks": [
+      292,
+      312
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G7-T1-F669AFE76D/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          590.0,
+          583.64,
+          744.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T1-F669AFE76D/solution-q21-p13.webp",
+      "assets/SZ-G7-T1-F669AFE76D/solution-q21-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          483.64,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          267.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G02.04",
+    "M.N03.01",
+    "M.N02.01"
+  ],
+  "exam_ids": [
+    "E.G02.04.01",
+    "E.N03.01.01",
+    "E.N02.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "通过分割或补形求面积。 用代数式表示数量关系。 由非负量之和为零确定字母的值。 通过分割或补形求面积。",
+  "tag_source": "小问标签汇总"
+}

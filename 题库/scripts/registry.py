@@ -7,6 +7,7 @@ from zipfile import ZipFile
 
 ROOT = Path(__file__).resolve().parents[1]
 NAME = '已解析试卷.json'
+G7_INVENTORY = '七年级上学期来源清单.json'
 
 
 def file_digest(path):
@@ -55,30 +56,79 @@ def as_json(entries):
             seen[value] = row['id']
     return json.dumps({'version': 1, 'papers': entries}, ensure_ascii=False, indent=2) + '\n'
 
+def attach_inventory(root, entries, *, audit=False):
+    """Attach alternate editions and answer sheets to their reviewed paper IDs."""
+    path = root/'batches'/G7_INVENTORY
+    if not path.exists():
+        if audit:
+            raise ValueError(f'缺少来源清单：{path}')
+        return
+    data = json.loads(path.read_text(encoding='utf8'))
+    repo = root.parent.resolve()
+    folder = (repo/data['directory']).resolve()
+    if not folder.is_relative_to(repo) or not folder.is_dir():
+        raise ValueError('来源清单须指向仓内原卷目录')
+    by_id = {row['id']:row for row in entries}
+    known = {}
+    for src in data['files']:
+        rel = src['git_path']
+        disk = (repo/rel).resolve()
+        if Path(rel).is_absolute() or rel in known or not disk.is_relative_to(folder) or src['paper_id'] not in by_id:
+            raise ValueError(f'来源清单有重复路径、未知试卷或目录越界：{rel}')
+        known[rel] = src
+        entry = by_id[src['paper_id']]
+        if not disk.is_file() or file_digest(disk) != src['sha256']:
+            raise ValueError(f'来源文件有变化，请复核：{rel}')
+        if rel not in (entry['paper']['git_path'],entry['solution']['git_path']):
+            entry.setdefault('alternate_sources',[]).append({k:src[k] for k in ('git_path','sha256','role')})
+    if audit:
+        actual = {p.relative_to(repo).as_posix() for p in folder.rglob('*') if p.is_file()}
+        if actual != known.keys():
+            raise ValueError('来源目录与清单不同：'+'、'.join(sorted(actual.symmetric_difference(known))))
+        for row in entries:
+            for field in ('paper','solution'):
+                source=row[field]
+                if (repo/source['git_path']).is_relative_to(folder) and known[source['git_path']]['paper_id'] != row['id']:
+                    raise ValueError(f"{row['id']} 的 {field} 与来源清单指向不同试卷")
+    return data
+
+def source_records(row):
+    for role in ('paper','solution'):
+        yield role,row[role]
+    for src in row.get('alternate_sources',[]):
+        yield src['role'],src
+
 
 def lookup(entries, source, repo=ROOT.parent):
     sha = file_digest(source)
-    body = None
     for row in entries:
-        for role in ('paper', 'solution'):
-            if row[role]['sha256'] == sha:
+        for role, record in source_records(row):
+            if (repo/record['git_path']).resolve() == source.resolve():
+                return ('已解析' if record['sha256']==sha else '来源有更新，需复核'), row, role
+    for row in entries:
+        for role, record in source_records(row):
+            if record['sha256'] == sha:
                 return '已解析', row, role
     if source.suffix.lower() == '.docx':
         body = word_content_digest(source)
         for row in entries:
             if row['paper'].get('docx_content_sha256') == body:
                 return '已解析', row, '原卷正文及嵌入资源相同'
-    for row in entries:
-        for role in ('paper', 'solution'):
-            if (repo/row[role]['git_path']).resolve() == source.resolve():
-                return '来源有更新，需复核', row, role
     return '未登记', None, None
 
 
 if __name__ == '__main__':
     cli = argparse.ArgumentParser(description='查询原卷或解析版是否已经入库')
-    cli.add_argument('source', type=Path, help='原始文件路径')
+    cli.add_argument('source', nargs='?', type=Path, help='原始文件路径')
+    cli.add_argument('--audit-g7', action='store_true', help='逐文件核对七上来源清单及其内容指纹')
     args = cli.parse_args()
     records = json.loads((ROOT/'generated'/NAME).read_text(encoding='utf8'))['papers']
-    status, row, role = lookup(records, args.source)
-    print(status, row['id'] if row else '', role or '')
+    if args.audit_g7:
+        manifests = [json.loads(f.read_text(encoding='utf8')) for f in (ROOT/'papers').glob('*.json')]
+        data = attach_inventory(ROOT,[make_entry(ROOT.parent,p,0) for p in manifests],audit=True)
+        print(f"七上来源覆盖 {len(data['files'])} 个文件，关联 {len({r['paper_id'] for r in data['files']})} 份试卷。")
+    elif args.source:
+        status, row, role = lookup(records, args.source)
+        print(status, row['id'] if row else '', role or '')
+    else:
+        cli.error('请给出原始文件路径，或使用 --audit-g7')
