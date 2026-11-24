@@ -1,0 +1,357 @@
+{
+  "id": "SZ-G7-T2-82411066B9-Q22",
+  "paper_id": "SZ-G7-T2-82411066B9",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "用分割或补形求面积、确定轴对称或折叠后的对应关系",
+  "stem": "“等面积法”是解决三角形内部线段长度的常用方法．如图1，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，作\\(AH\\bot BC\\)，若\\(AB=4\\)，\\(AC=3\\)，\\(BC=5\\)，可列式：\\(\\frac { 1 } { 2 }AB\\cdot AC=\\frac { 1 } { 2 }BC\\cdot AH\\)，解得\\(AH=\\frac { 12 } { 5 }\\)．\n〔图1〕\n（1）在题干的基础上，\n①如图2，点\\(P\\)为\\(BC\\)上一点，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，设\\(PM=d_{ 1 }\\)，\\(PN=d_{ 2 }\\)，求证：\\(4d_{ 1 } +3d_{ 2 } =12\\)；\n②如图3，当点\\(P\\)在\\(CB\\)延长线上时，猜想\\(d_{ 1 }\\)、\\(d_{ 2 }\\)之间又有什么样的数量关系，请证明你的猜想；\n（2）如图4，在\\(\\vartriangle ABC\\)中，\\(AB=AC=10\\)，\\(BC=12\\)，\\(S_{ \\vartriangle ABC } =48\\)，若点\\(D\\)是\\(BC\\)延长线上一点，且\\(CD=2\\)，过点\\(B\\)作\\(BE\\bot BC\\)，点\\(P\\)是直线\\(BE\\)上一动点，点\\(Q\\)是直线\\(AC\\)上一动点，连接\\(PD\\)、\\(PQ\\)，求\\(DP+PQ\\)的最小值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/8c/8cc6cb6eede2d755bc6f7ae76af91f2286ed311f77eeadcb3ba27e4c7f31768e.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①见解析；②猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)，证明见解析\n（2）\\(20.8\\)",
+  "answer": "（1）①见解析；②猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)，证明见解析\n（2）\\(20.8\\)",
+  "given_solution": "【分析】（1）①根据\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle ACP }\\)，代入数据即可求解；\n②作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，根据\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ACP } -S_{ \\vartriangle ABP }\\)，代入数据即可求解；\n（2）作点\\(D\\)关于直线\\(BE\\)的对称点\\(D'\\)，则\\(PD=PD'\\)，\\(PD+PQ=PD'+PQ\\)，过\\(A\\)作\\(AH\\bot BC\\)于\\(H\\)，过\\(D'\\)作\\(D'G\\bot AC\\)于\\(G\\)，根据\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AH=48\\)求得\\(AH=8\\)，进而根据\\(S_{ \\vartriangle ACD' } =\\frac { 1 } { 2 }D'C\\times AH=\\frac { 1 } { 2 }AC\\times D'G\\)求得\\(D'G=20.8\\)，由\\(DP+PQ=PD'+PQ\\)，可得当\\(D'\\)，\\(P\\)，\\(Q\\)共线，且\\(D'Q\\bot AC\\)时，和最小，最小值为\\(D ^ { \\prime } Q\\)的长，即可求解．\n【小问1详解】\n①∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle ACP }\\)\n∴\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AB\\times PM+\\frac { 1 } { 2 }AC\\times PN\\)\n即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 4\\times d_{ 1 } +\\frac { 1 } { 2 }\\times 3\\times d_{ 2 }\\)\n〔图2〕\n∴\\(4d_{ 1 } +3d_{ 2 } =12\\)\n②猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)\n理由如下：，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ACP } -S_{ \\vartriangle ABP }\\)\n即\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AC\\times PN+\\frac { 1 } { 2 }AB\\times PM\\)\n即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 3\\times d_{ 2 } -\\frac { 1 } { 2 }\\times 4\\times d_{ 1 }\\)\n∴\\(3d_{ 2 } -4d_{ 1 } =12\\)\n〔图3〕  【小问2详解】\n作点\\(D\\)关于直线\\(BE\\)的对称点\\(D'\\)，\n∴\\(PD=PD'\\)，\\(PD+PQ=PD'+PQ\\)\n∵点\\(D\\)在\\(BC\\)延长线上，则\\(D'\\)、\\(B\\)、\\(C\\)、\\(D\\)共线，\n∴\\(BD=BD'=BC+CD=12+2=14\\)，\\(CD'=14+12=26\\)\n过\\(A\\)作\\(AH\\bot BC\\)于\\(H\\)，过\\(D'\\)作\\(D'G\\bot AC\\)于\\(G\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AH=48\\)\n∴\\(\\frac { 1 } { 2 }\\times 12\\times AH=48\\)\n∴\\(AH=8\\)\n∵\\(S_{ \\vartriangle ACD' } =\\frac { 1 } { 2 }D'C\\times AH=\\frac { 1 } { 2 }AC\\times D'G\\)\n即\\(\\frac { 1 } { 2 }\\times 26\\times 8=\\frac { 1 } { 2 }\\times 10\\times D'G\\)\n∴\\(D'G=20.8\\)\n∵\\(DP+PQ=PD'+PQ\\)\n当\\(D'\\)，\\(P\\)，\\(Q\\)共线，且\\(D'Q\\bot AC\\)时，和最小，最小值为\\(D ^ { \\prime } Q\\)的长，\n此时\\(D'Q=D'G=20.8\\)\n〔图4〕  【点睛】本题考查了三角形高的定义，垂线段最短，熟练掌握等面积法求线段的长是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/79/79c040d1199a1c161776919204d364476ab7228fcab7dd8dc2e4122ece0df3ee.png",
+    "assets/figures/c5/c559e3f445b2c91a40a8845c5755ed43b135eed8d4d05f9f94b9d25eb6952af8.png",
+    "assets/figures/13/13d018f79b53682de3aa0c52e6e891834441b3fa593e40a54853d1c4c1343ab5.png",
+    "assets/figures/4e/4e6b29c354cbe2a1e22f81c5b9cc182197c03ea6f1b9e4f1e527ae92856072ab.png"
+  ],
+  "solution": "【小问1详解】\n①∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle ACP }\\)\n∴\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AB\\times PM+\\frac { 1 } { 2 }AC\\times PN\\)\n即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 4\\times d_{ 1 } +\\frac { 1 } { 2 }\\times 3\\times d_{ 2 }\\)\n〔图2〕\n∴\\(4d_{ 1 } +3d_{ 2 } =12\\)\n②猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)\n理由如下：，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ACP } -S_{ \\vartriangle ABP }\\)\n即\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AC\\times PN+\\frac { 1 } { 2 }AB\\times PM\\)\n即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 3\\times d_{ 2 } -\\frac { 1 } { 2 }\\times 4\\times d_{ 1 }\\)\n∴\\(3d_{ 2 } -4d_{ 1 } =12\\)\n〔图3〕  【小问2详解】\n作点\\(D\\)关于直线\\(BE\\)的对称点\\(D'\\)，\n∴\\(PD=PD'\\)，\\(PD+PQ=PD'+PQ\\)\n∵点\\(D\\)在\\(BC\\)延长线上，则\\(D'\\)、\\(B\\)、\\(C\\)、\\(D\\)共线，\n∴\\(BD=BD'=BC+CD=12+2=14\\)，\\(CD'=14+12=26\\)\n过\\(A\\)作\\(AH\\bot BC\\)于\\(H\\)，过\\(D'\\)作\\(D'G\\bot AC\\)于\\(G\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AH=48\\)\n∴\\(\\frac { 1 } { 2 }\\times 12\\times AH=48\\)\n∴\\(AH=8\\)\n∵\\(S_{ \\vartriangle ACD' } =\\frac { 1 } { 2 }D'C\\times AH=\\frac { 1 } { 2 }AC\\times D'G\\)\n即\\(\\frac { 1 } { 2 }\\times 26\\times 8=\\frac { 1 } { 2 }\\times 10\\times D'G\\)\n∴\\(D'G=20.8\\)\n∵\\(DP+PQ=PD'+PQ\\)\n当\\(D'\\)，\\(P\\)，\\(Q\\)共线，且\\(D'Q\\bot AC\\)时，和最小，最小值为\\(D ^ { \\prime } Q\\)的长，\n此时\\(D'Q=D'G=20.8\\)\n〔图4〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "①∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle ACP }\\)",
+    "∴\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AB\\times PM+\\frac { 1 } { 2 }AC\\times PN\\)",
+    "即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 4\\times d_{ 1 } +\\frac { 1 } { 2 }\\times 3\\times d_{ 2 }\\)",
+    "〔图2〕",
+    "∴\\(4d_{ 1 } +3d_{ 2 } =12\\)",
+    "②猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)",
+    "理由如下：，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ACP } -S_{ \\vartriangle ABP }\\)",
+    "即\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AC\\times PN+\\frac { 1 } { 2 }AB\\times PM\\)",
+    "即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 3\\times d_{ 2 } -\\frac { 1 } { 2 }\\times 4\\times d_{ 1 }\\)",
+    "∴\\(3d_{ 2 } -4d_{ 1 } =12\\)",
+    "〔图3〕  【小问2详解】",
+    "作点\\(D\\)关于直线\\(BE\\)的对称点\\(D'\\)，",
+    "∴\\(PD=PD'\\)，\\(PD+PQ=PD'+PQ\\)",
+    "∵点\\(D\\)在\\(BC\\)延长线上，则\\(D'\\)、\\(B\\)、\\(C\\)、\\(D\\)共线，",
+    "∴\\(BD=BD'=BC+CD=12+2=14\\)，\\(CD'=14+12=26\\)",
+    "过\\(A\\)作\\(AH\\bot BC\\)于\\(H\\)，过\\(D'\\)作\\(D'G\\bot AC\\)于\\(G\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AH=48\\)",
+    "∴\\(\\frac { 1 } { 2 }\\times 12\\times AH=48\\)",
+    "∴\\(AH=8\\)",
+    "∵\\(S_{ \\vartriangle ACD' } =\\frac { 1 } { 2 }D'C\\times AH=\\frac { 1 } { 2 }AC\\times D'G\\)",
+    "即\\(\\frac { 1 } { 2 }\\times 26\\times 8=\\frac { 1 } { 2 }\\times 10\\times D'G\\)",
+    "∴\\(D'G=20.8\\)",
+    "∵\\(DP+PQ=PD'+PQ\\)",
+    "当\\(D'\\)，\\(P\\)，\\(Q\\)共线，且\\(D'Q\\bot AC\\)时，和最小，最小值为\\(D ^ { \\prime } Q\\)的长，",
+    "此时\\(D'Q=D'G=20.8\\)",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "“等面积法”是解决三角形内部线段长度的常用方法．如图1，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，作\\(AH\\bot BC\\)，若\\(AB=4\\)，\\(AC=3\\)，\\(BC=5\\)，可列式：\\(\\frac { 1 } { 2 }AB\\cdot AC=\\frac { 1 } { 2 }BC\\cdot AH\\)，解得\\(AH=\\frac { 12 } { 5 }\\)．\n〔图1〕",
+      "paper_blocks": [
+        76,
+        77
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "在题干的基础上，",
+      "paper_blocks": [
+        78
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-82411066B9-Q22-P01",
+      "label": "（1）①",
+      "prompt": "如图2，点\\(P\\)为\\(BC\\)上一点，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，设\\(PM=d_{ 1 }\\)，\\(PN=d_{ 2 }\\)，求证：\\(4d_{ 1 } +3d_{ 2 } =12\\)；",
+      "stem_text": "如图2，点\\(P\\)为\\(BC\\)上一点，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，设\\(PM=d_{ 1 }\\)，\\(PN=d_{ 2 }\\)，求证：\\(4d_{ 1 } +3d_{ 2 } =12\\)；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle ACP }\\)\n∴\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AB\\times PM+\\frac { 1 } { 2 }AC\\times PN\\)\n即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 4\\times d_{ 1 } +\\frac { 1 } { 2 }\\times 3\\times d_{ 2 }\\)\n〔图2〕\n∴\\(4d_{ 1 } +3d_{ 2 } =12\\)",
+      "solution_steps": [
+        "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle ACP }\\)",
+        "∴\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AB\\times PM+\\frac { 1 } { 2 }AC\\times PN\\)",
+        "即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 4\\times d_{ 1 } +\\frac { 1 } { 2 }\\times 3\\times d_{ 2 }\\)",
+        "〔图2〕",
+        "∴\\(4d_{ 1 } +3d_{ 2 } =12\\)"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          79
+        ],
+        "solution_block_ids": [
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-82411066B9-Q22-P02",
+      "label": "（1）②",
+      "prompt": "如图3，当点\\(P\\)在\\(CB\\)延长线上时，猜想\\(d_{ 1 }\\)、\\(d_{ 2 }\\)之间又有什么样的数量关系，请证明你的猜想；",
+      "stem_text": "如图3，当点\\(P\\)在\\(CB\\)延长线上时，猜想\\(d_{ 1 }\\)、\\(d_{ 2 }\\)之间又有什么样的数量关系，请证明你的猜想；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)，证明见解析",
+      "answer": "猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)，证明见解析",
+      "given_solution": "猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)\n理由如下：，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ACP } -S_{ \\vartriangle ABP }\\)\n即\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AC\\times PN+\\frac { 1 } { 2 }AB\\times PM\\)\n即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 3\\times d_{ 2 } -\\frac { 1 } { 2 }\\times 4\\times d_{ 1 }\\)\n∴\\(3d_{ 2 } -4d_{ 1 } =12\\)\n〔图3〕",
+      "solution_steps": [
+        "猜想：\\(3d_{ 2 } -4d_{ 1 } =12\\)",
+        "理由如下：，作\\(PM\\bot AB\\)，\\(PN\\bot AC\\)，",
+        "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ACP } -S_{ \\vartriangle ABP }\\)",
+        "即\\(\\frac { 1 } { 2 }AB\\times AC=\\frac { 1 } { 2 }AC\\times PN+\\frac { 1 } { 2 }AB\\times PM\\)",
+        "即\\(\\frac { 1 } { 2 }\\times 4\\times 3=\\frac { 1 } { 2 }\\times 3\\times d_{ 2 } -\\frac { 1 } { 2 }\\times 4\\times d_{ 1 }\\)",
+        "∴\\(3d_{ 2 } -4d_{ 1 } =12\\)",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          80
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-82411066B9-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图4，在\\(\\vartriangle ABC\\)中，\\(AB=AC=10\\)，\\(BC=12\\)，\\(S_{ \\vartriangle ABC } =48\\)，若点\\(D\\)是\\(BC\\)延长线上一点，且\\(CD=2\\)，过点\\(B\\)作\\(BE\\bot BC\\)，点\\(P\\)是直线\\(BE\\)上一动点，点\\(Q\\)是直线\\(AC\\)上一动点，连接\\(PD\\)、\\(PQ\\)，求\\(DP+PQ\\)的最小值．",
+      "stem_text": "如图4，在\\(\\vartriangle ABC\\)中，\\(AB=AC=10\\)，\\(BC=12\\)，\\(S_{ \\vartriangle ABC } =48\\)，若点\\(D\\)是\\(BC\\)延长线上一点，且\\(CD=2\\)，过点\\(B\\)作\\(BE\\bot BC\\)，点\\(P\\)是直线\\(BE\\)上一动点，点\\(Q\\)是直线\\(AC\\)上一动点，连接\\(PD\\)、\\(PQ\\)，求\\(DP+PQ\\)的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(20.8\\)",
+      "answer": "\\(20.8\\)",
+      "given_solution": "作点\\(D\\)关于直线\\(BE\\)的对称点\\(D'\\)，\n∴\\(PD=PD'\\)，\\(PD+PQ=PD'+PQ\\)\n∵点\\(D\\)在\\(BC\\)延长线上，则\\(D'\\)、\\(B\\)、\\(C\\)、\\(D\\)共线，\n∴\\(BD=BD'=BC+CD=12+2=14\\)，\\(CD'=14+12=26\\)\n过\\(A\\)作\\(AH\\bot BC\\)于\\(H\\)，过\\(D'\\)作\\(D'G\\bot AC\\)于\\(G\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AH=48\\)\n∴\\(\\frac { 1 } { 2 }\\times 12\\times AH=48\\)\n∴\\(AH=8\\)\n∵\\(S_{ \\vartriangle ACD' } =\\frac { 1 } { 2 }D'C\\times AH=\\frac { 1 } { 2 }AC\\times D'G\\)\n即\\(\\frac { 1 } { 2 }\\times 26\\times 8=\\frac { 1 } { 2 }\\times 10\\times D'G\\)\n∴\\(D'G=20.8\\)\n∵\\(DP+PQ=PD'+PQ\\)\n当\\(D'\\)，\\(P\\)，\\(Q\\)共线，且\\(D'Q\\bot AC\\)时，和最小，最小值为\\(D ^ { \\prime } Q\\)的长，\n此时\\(D'Q=D'G=20.8\\)\n〔图4〕",
+      "solution_steps": [
+        "作点\\(D\\)关于直线\\(BE\\)的对称点\\(D'\\)，",
+        "∴\\(PD=PD'\\)，\\(PD+PQ=PD'+PQ\\)",
+        "∵点\\(D\\)在\\(BC\\)延长线上，则\\(D'\\)、\\(B\\)、\\(C\\)、\\(D\\)共线，",
+        "∴\\(BD=BD'=BC+CD=12+2=14\\)，\\(CD'=14+12=26\\)",
+        "过\\(A\\)作\\(AH\\bot BC\\)于\\(H\\)，过\\(D'\\)作\\(D'G\\bot AC\\)于\\(G\\)，",
+        "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AH=48\\)",
+        "∴\\(\\frac { 1 } { 2 }\\times 12\\times AH=48\\)",
+        "∴\\(AH=8\\)",
+        "∵\\(S_{ \\vartriangle ACD' } =\\frac { 1 } { 2 }D'C\\times AH=\\frac { 1 } { 2 }AC\\times D'G\\)",
+        "即\\(\\frac { 1 } { 2 }\\times 26\\times 8=\\frac { 1 } { 2 }\\times 10\\times D'G\\)",
+        "∴\\(D'G=20.8\\)",
+        "∵\\(DP+PQ=PD'+PQ\\)",
+        "当\\(D'\\)，\\(P\\)，\\(Q\\)共线，且\\(D'Q\\bot AC\\)时，和最小，最小值为\\(D ^ { \\prime } Q\\)的长，",
+        "此时\\(D'Q=D'G=20.8\\)",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          81
+        ],
+        "solution_block_ids": [
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01",
+        "M.G01.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.01",
+        "E.G01.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      76,
+      81
+    ],
+    "solution_body_blocks": [
+      331,
+      370
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-82411066B9/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          197.73,
+          583.64,
+          665.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-82411066B9/solution-q22-p17.webp",
+      "assets/SZ-G7-T2-82411066B9/solution-q22-p18.webp",
+      "assets/SZ-G7-T2-82411066B9/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          475.0,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          742.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          369.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G02.04",
+    "M.G07.01",
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G02.04.01",
+    "E.G07.01.01",
+    "E.G01.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

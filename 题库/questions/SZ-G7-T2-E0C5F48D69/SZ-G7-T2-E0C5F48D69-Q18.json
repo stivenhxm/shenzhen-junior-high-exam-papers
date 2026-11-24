@@ -1,0 +1,200 @@
+{
+  "id": "SZ-G7-T2-E0C5F48D69-Q18",
+  "paper_id": "SZ-G7-T2-E0C5F48D69",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "列全等可能结果计算概率",
+  "stem": "一个不透明的口袋中装有6个红球，9个黄球，3个白球，这些球除颜色外其他均相同．从中任意摸出一个球，\n（1）求摸到的球是白球的概率，\n（2）如果要使摸到白球的概率为\\(\\frac { 1 } { 4 }\\)，需要在这个口袋中再放入多少个白球？",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 1 } { 6 }\\)\n（2）2",
+  "answer": "（1）\\(\\frac { 1 } { 6 }\\)\n（2）2",
+  "given_solution": "【分析】（1）直接利用概率公式求解即可；\n（2）根据绿球的概率公式得到相应的方程，求解即可．\n【小问1详解】\n解：根据题意分析可得：口袋中装有红球6个，黄球9个，白球3个，共18个球，\n故P（摸到白球）\\(=\\frac { 3 } { 18 }=\\frac { 1 } { 6 }\\)\n【小问2详解】\n设需要在这个口袋中再放入x个白球，得：\\(\\frac { 3+x } { 18+x }=\\frac { 1 } { 4 }\\)，\n解得：x=2．经检验x=2符合题意，\n所以需要在这个口袋中再放入2个白球．\n【点睛】本题考查概率的求法与运用，一般方法为：如果一个事件有n种可能，而且这些事件的可能性相同，其中事件A出现m种结果，那么事件A的概率\\(P(A)=\\frac { m } { n }\\)．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n解：根据题意分析可得：口袋中装有红球6个，黄球9个，白球3个，共18个球，\n故P（摸到白球）\\(=\\frac { 3 } { 18 }=\\frac { 1 } { 6 }\\)\n【小问2详解】\n设需要在这个口袋中再放入x个白球，得：\\(\\frac { 3+x } { 18+x }=\\frac { 1 } { 4 }\\)，\n解得：x=2．经检验x=2符合题意，\n所以需要在这个口袋中再放入2个白球．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：根据题意分析可得：口袋中装有红球6个，黄球9个，白球3个，共18个球，",
+    "故P（摸到白球）\\(=\\frac { 3 } { 18 }=\\frac { 1 } { 6 }\\)",
+    "【小问2详解】",
+    "设需要在这个口袋中再放入x个白球，得：\\(\\frac { 3+x } { 18+x }=\\frac { 1 } { 4 }\\)，",
+    "解得：x=2．经检验x=2符合题意，",
+    "所以需要在这个口袋中再放入2个白球．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "一个不透明的口袋中装有6个红球，9个黄球，3个白球，这些球除颜色外其他均相同．从中任意摸出一个球，",
+      "paper_blocks": [
+        49
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-E0C5F48D69-Q18-P01",
+      "label": "（1）",
+      "prompt": "求摸到的球是白球的概率，",
+      "stem_text": "求摸到的球是白球的概率，",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 6 }\\)",
+      "answer": "\\(\\frac { 1 } { 6 }\\)",
+      "given_solution": "解：根据题意分析可得：口袋中装有红球6个，黄球9个，白球3个，共18个球，\n故P（摸到白球）\\(=\\frac { 3 } { 18 }=\\frac { 1 } { 6 }\\)",
+      "solution_steps": [
+        "解：根据题意分析可得：口袋中装有红球6个，黄球9个，白球3个，共18个球，",
+        "故P（摸到白球）\\(=\\frac { 3 } { 18 }=\\frac { 1 } { 6 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50
+        ],
+        "solution_block_ids": [
+          239,
+          240
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向在等可能情形下求概率。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-E0C5F48D69-Q18-P02",
+      "label": "（2）",
+      "prompt": "如果要使摸到白球的概率为\\(\\frac { 1 } { 4 }\\)，需要在这个口袋中再放入多少个白球？",
+      "stem_text": "如果要使摸到白球的概率为\\(\\frac { 1 } { 4 }\\)，需要在这个口袋中再放入多少个白球？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "2",
+      "answer": "2",
+      "given_solution": "设需要在这个口袋中再放入x个白球，得：\\(\\frac { 3+x } { 18+x }=\\frac { 1 } { 4 }\\)，\n解得：x=2．经检验x=2符合题意，\n所以需要在这个口袋中再放入2个白球．",
+      "solution_steps": [
+        "设需要在这个口袋中再放入x个白球，得：\\(\\frac { 3+x } { 18+x }=\\frac { 1 } { 4 }\\)，",
+        "解得：x=2．经检验x=2符合题意，",
+        "所以需要在这个口袋中再放入2个白球．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          51
+        ],
+        "solution_block_ids": [
+          242,
+          243,
+          244
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向在等可能情形下求概率。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      51
+    ],
+    "solution_body_blocks": [
+      230,
+      245
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-E0C5F48D69/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          206.36,
+          583.64,
+          310.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-E0C5F48D69/solution-q18-p11.webp",
+      "assets/SZ-G7-T2-E0C5F48D69/solution-q18-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          545.91,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          216.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.S03.02"
+  ],
+  "exam_ids": [
+    "E.S03.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面指向在等可能情形下求概率。",
+  "tag_source": "小问标签汇总"
+}

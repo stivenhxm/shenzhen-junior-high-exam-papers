@@ -1,0 +1,231 @@
+{
+  "id": "SZ-G7-T2-8D3F58D003-Q21",
+  "paper_id": "SZ-G7-T2-8D3F58D003",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "列全等可能结果计算概率",
+  "stem": "在一个不透明的盒子里装有颜色不同的黑、白两种球共60个，它们除颜色不同外，其余都相同，王颖做摸球实验，她将盒子里面的球搅匀后从中随机摸出一个球记下颜色，再把它放回盒子中搅匀，经过大量重复上述摸球的过程，发现摸到白球的频率定于0.25．\n（1）请估计摸到白球的概率将会接近________；\n（2）计算盒子里白、黑两种颜色的球各有多少个？\n（3）如果要使摸到白球的概率为\\(\\frac { 2 } { 5 }\\)，需要往盒子里再放入多少个白球？",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）0.25；（2）盒子里白、黑两种颜色的球各有15个、45个；（3）15",
+  "answer": "（1）0.25；（2）盒子里白、黑两种颜色的球各有15个、45个；（3）15",
+  "given_solution": "【分析】（1）根据摸到白球的频率，可得“摸到白色球”的概率；\n（2）用总数乘以摸到白球的概率，得出白球的数量，进而得到黑球的数量；\n（2）设需要往盒子里再放入x个白球，根据题意得出方程，解方程即可．\n【详解】（1）∵摸到白球的频率为0.25，∴“摸到白色球”的概率=0.25．\n（2）∵60×0.25＝15，60﹣15＝45，∴盒子里白球为15个，黑球45个；\n（3）设需要往盒子里再放入x个白球，根据题意得：\n\\(\\frac { 15+x } { 60+x }=\\frac { 2 } { 5 }\\)\n解得：x＝15．\n答：需要往盒子里再放入15个白球．\n【点睛】本题考查了利用频率估计概率、概率公式的运用．解题时注意：大量重复实验时，事件发生的频率在某个固定位置左右摆动，并且摆动的幅度越来越小，根据这个频率稳定性定理，可以用频率的集中趋势来估计概率，这个固定的近似值就是这个事件的概率．",
+  "given_solution_figures": [],
+  "solution": "（1）∵摸到白球的频率为0.25，∴“摸到白色球”的概率=0.25．\n（2）∵60×0.25＝15，60﹣15＝45，∴盒子里白球为15个，黑球45个；\n（3）设需要往盒子里再放入x个白球，根据题意得：\n\\(\\frac { 15+x } { 60+x }=\\frac { 2 } { 5 }\\)\n解得：x＝15．\n答：需要往盒子里再放入15个白球．",
+  "solution_steps": [
+    "（1）∵摸到白球的频率为0.25，∴“摸到白色球”的概率=0.25．",
+    "（2）∵60×0.25＝15，60﹣15＝45，∴盒子里白球为15个，黑球45个；",
+    "（3）设需要往盒子里再放入x个白球，根据题意得：",
+    "\\(\\frac { 15+x } { 60+x }=\\frac { 2 } { 5 }\\)",
+    "解得：x＝15．",
+    "答：需要往盒子里再放入15个白球．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在一个不透明的盒子里装有颜色不同的黑、白两种球共60个，它们除颜色不同外，其余都相同，王颖做摸球实验，她将盒子里面的球搅匀后从中随机摸出一个球记下颜色，再把它放回盒子中搅匀，经过大量重复上述摸球的过程，发现摸到白球的频率定于0.25．",
+      "paper_blocks": [
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-8D3F58D003-Q21-P01",
+      "label": "（1）",
+      "prompt": "请估计摸到白球的概率将会接近________；",
+      "stem_text": "请估计摸到白球的概率将会接近________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "0.25；",
+      "answer": "0.25；",
+      "given_solution": "∵摸到白球的频率为0.25，∴“摸到白色球”的概率=0.25．",
+      "solution_steps": [
+        "∵摸到白球的频率为0.25，∴“摸到白色球”的概率=0.25．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          303
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向在等可能情形下求概率。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-8D3F58D003-Q21-P02",
+      "label": "（2）",
+      "prompt": "计算盒子里白、黑两种颜色的球各有多少个？",
+      "stem_text": "计算盒子里白、黑两种颜色的球各有多少个？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "盒子里白、黑两种颜色的球各有15个、45个；",
+      "answer": "盒子里白、黑两种颜色的球各有15个、45个；",
+      "given_solution": "∵60×0.25＝15，60﹣15＝45，∴盒子里白球为15个，黑球45个；",
+      "solution_steps": [
+        "∵60×0.25＝15，60﹣15＝45，∴盒子里白球为15个，黑球45个；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          304
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-8D3F58D003-Q21-P03",
+      "label": "（3）",
+      "prompt": "如果要使摸到白球的概率为\\(\\frac { 2 } { 5 }\\)，需要往盒子里再放入多少个白球？",
+      "stem_text": "如果要使摸到白球的概率为\\(\\frac { 2 } { 5 }\\)，需要往盒子里再放入多少个白球？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "15",
+      "answer": "15",
+      "given_solution": "设需要往盒子里再放入x个白球，根据题意得：\n\\(\\frac { 15+x } { 60+x }=\\frac { 2 } { 5 }\\)\n解得：x＝15．\n答：需要往盒子里再放入15个白球．",
+      "solution_steps": [
+        "设需要往盒子里再放入x个白球，根据题意得：",
+        "\\(\\frac { 15+x } { 60+x }=\\frac { 2 } { 5 }\\)",
+        "解得：x＝15．",
+        "答：需要往盒子里再放入15个白球．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          75
+        ],
+        "solution_block_ids": [
+          305,
+          306,
+          307,
+          308
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向在等可能情形下求概率。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      72,
+      75
+    ],
+    "solution_body_blocks": [
+      294,
+      309
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-8D3F58D003/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          206.36,
+          583.64,
+          349.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-8D3F58D003/solution-q21-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          315.45,
+          583.64,
+          642.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.S03.02"
+  ],
+  "exam_ids": [
+    "E.S03.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面指向在等可能情形下求概率。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

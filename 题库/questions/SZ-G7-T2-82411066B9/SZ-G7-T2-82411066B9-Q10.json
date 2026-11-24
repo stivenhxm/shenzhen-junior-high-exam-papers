@@ -1,0 +1,141 @@
+{
+  "id": "SZ-G7-T2-82411066B9-Q10",
+  "paper_id": "SZ-G7-T2-82411066B9",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，长方形\\(ABCD\\)中，点E为\\(AD\\)上一点，连接\\(CE\\)，将长方形\\(ABCD\\)沿着直线\\(CE\\)折叠，点D恰好落在\\(AB\\)的中点F上，点G为\\(CF\\)的中点，点P为线段\\(CE\\)上的动点，连接\\(PF\\)、\\(PG\\)，若\\(AE=a,ED=b,AF=c\\)，则\\(PF+PG\\)的最小值是（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(a+c-b\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(b+2c\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(a+b+2c\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(a+b\\)"
+    }
+  ],
+  "figures": [
+    "assets/figures/ad/ada6bce11ed5d35b0ad11186bb84de0a706a5c85811b4c7fb44fc94c45f7a754.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "【分析】利用三角形不等式法，取\\(CD\\)的中点H，连接\\(PH\\)、\\(FH\\)，计算即可．\n【详解】解：取\\(CD\\)的中点H，连接\\(PH\\)、\\(FH\\)，\n∵四边形\\(ABCD\\)是长方形，F是\\(AB\\)的中点，\n∴四边形\\(ADHF\\)是长方形，\n∴\\(AD=HF=AE+ED=a+b\\)；\n由折叠可知：\\(CD=CF\\)，\n∵G是\\(CF\\)的中点，H是\\(CD\\)的中点，\n∴\\(CG=CH\\)，\n在\\(\\vartriangle GCP\\)和\\(\\vartriangle HCP\\)中，\n∵\\(\\begin{cases} CG=CH \\\\ \\angle GCP=\\angle HCP \\\\ CP=CP \\end{cases}\\)，\n∴\\(\\vartriangle GCP≌\\vartriangle HCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n〔图2〕\n∴\\(PG=PH\\)，\n∴\\(PF+PG=PF+PH\\ge FH=a+b\\)，\n∴当F、P、H三点共线时，\\(PF+PG\\)的值最小，最小值为：\\(a+b\\)．\n故选：D．\n【点睛】本题考查了矩形的判定和性质，三角形全等的判定和性质，三角形不等式，熟练掌握三角形不等式是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/ad/ada6bce11ed5d35b0ad11186bb84de0a706a5c85811b4c7fb44fc94c45f7a754.png",
+    "assets/figures/16/1650741a0b277188d699f827612238db63bc410a1224c9f0e25f92274c3d98d6.png"
+  ],
+  "solution": "解：取\\(CD\\)的中点H，连接\\(PH\\)、\\(FH\\)，\n∵四边形\\(ABCD\\)是长方形，F是\\(AB\\)的中点，\n∴四边形\\(ADHF\\)是长方形，\n∴\\(AD=HF=AE+ED=a+b\\)；\n由折叠可知：\\(CD=CF\\)，\n∵G是\\(CF\\)的中点，H是\\(CD\\)的中点，\n∴\\(CG=CH\\)，\n在\\(\\vartriangle GCP\\)和\\(\\vartriangle HCP\\)中，\n∵\\(\\begin{cases} CG=CH \\\\ \\angle GCP=\\angle HCP \\\\ CP=CP \\end{cases}\\)，\n∴\\(\\vartriangle GCP≌\\vartriangle HCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n〔图2〕\n∴\\(PG=PH\\)，\n∴\\(PF+PG=PF+PH\\ge FH=a+b\\)，\n∴当F、P、H三点共线时，\\(PF+PG\\)的值最小，最小值为：\\(a+b\\)．\n故选：D．",
+  "solution_steps": [
+    "解：取\\(CD\\)的中点H，连接\\(PH\\)、\\(FH\\)，",
+    "∵四边形\\(ABCD\\)是长方形，F是\\(AB\\)的中点，",
+    "∴四边形\\(ADHF\\)是长方形，",
+    "∴\\(AD=HF=AE+ED=a+b\\)；",
+    "由折叠可知：\\(CD=CF\\)，",
+    "∵G是\\(CF\\)的中点，H是\\(CD\\)的中点，",
+    "∴\\(CG=CH\\)，",
+    "在\\(\\vartriangle GCP\\)和\\(\\vartriangle HCP\\)中，",
+    "∵\\(\\begin{cases} CG=CH \\\\ \\angle GCP=\\angle HCP \\\\ CP=CP \\end{cases}\\)，",
+    "∴\\(\\vartriangle GCP≌\\vartriangle HCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "〔图2〕",
+    "∴\\(PG=PH\\)，",
+    "∴\\(PF+PG=PF+PH\\ge FH=a+b\\)，",
+    "∴当F、P、H三点共线时，\\(PF+PG\\)的值最小，最小值为：\\(a+b\\)．",
+    "故选：D．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      35,
+      37
+    ],
+    "solution_body_blocks": [
+      108,
+      129
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-82411066B9/paper-q10-p02.webp",
+      "assets/SZ-G7-T2-82411066B9/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          588.64,
+          583.64,
+          653.64
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          188.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-82411066B9/solution-q10-p05.webp",
+      "assets/SZ-G7-T2-82411066B9/solution-q10-p06.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          721.36,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          610.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面指向把折叠转成角度与长度的关系。",
+  "tag_source": "题文匹配"
+}

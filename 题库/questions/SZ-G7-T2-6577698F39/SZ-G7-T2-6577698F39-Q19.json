@@ -1,0 +1,295 @@
+{
+  "id": "SZ-G7-T2-6577698F39-Q19",
+  "paper_id": "SZ-G7-T2-6577698F39",
+  "number": 19,
+  "type": "解答题",
+  "points": 9,
+  "title": "确定轴对称或折叠后的对应关系、列全等可能结果计算概率",
+  "stem": "在网格图中，每个方格除颜色外都相同，其中4个方格为黑色，余下方格为白色．\n〔图1〕\n（1）涂黑3个白色方格，使整个网格图为轴对称图形（考虑颜色）；\n（2）在（1）的轴对称网格图中任取1个方格，恰好是黑色方格的概率是多少？\n（3）在（1）的轴对称网格图中，再涂黑若干个白色方格，能否使任取1个方格恰好是白色方格的概率为0.5？",
+  "choices": [],
+  "figures": [
+    "assets/figures/ad/ad2579ba12b665f96b1690a3293f81464a02dcc179d306d6ac73db4af556dbc5.png",
+    "assets/figures/c9/c9dea6eb1a7566818d67c35d6e8fe9988d442d3ae61802ec4dc3e8c10b37ce70.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见详解    （2）\\(\\frac { 7 } { 25 }\\)\n（3）0.5",
+  "answer": "（1）见详解    （2）\\(\\frac { 7 } { 25 }\\)\n（3）0.5",
+  "given_solution": "【分析】（1）根据轴对称图形的性质涂黑即可，答案不唯一；\n（2）根据概率公式计算即可；\n（3）根据概率公式计算出白色的数量不为整数，即可判断出答案．\n【小问1详解】\n如图所示：\n〔图2〕  （答案不唯一）；\n【小问2详解】\n\\(\\because\\)图中共有25个方格，黑色的有7个，\n\\(\\therefore\\)任取1个方格，恰好是黑色方格的概率是\\(\\frac { 7 } { 25 }\\)；\n【小问3详解】\n若能使任取1个方格恰好是白色方格的概率为0.5，\n则白色的方格为\\(25\\times 0.5=12.5\\)个，\n故不能再涂黑若干个白色方格，使任取1个方格恰好是白色方格的概率为0.5．\n【点睛】此题考查了概率公式和轴对称图形，利用概率\\(=\\)相应的面积与总面积之比求出是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/ad/ad2579ba12b665f96b1690a3293f81464a02dcc179d306d6ac73db4af556dbc5.png",
+    "assets/figures/c9/c9dea6eb1a7566818d67c35d6e8fe9988d442d3ae61802ec4dc3e8c10b37ce70.png"
+  ],
+  "solution": "【小问1详解】\n如图所示：\n〔图2〕  （答案不唯一）；\n【小问2详解】\n\\(\\because\\)图中共有25个方格，黑色的有7个，\n\\(\\therefore\\)任取1个方格，恰好是黑色方格的概率是\\(\\frac { 7 } { 25 }\\)；\n【小问3详解】\n若能使任取1个方格恰好是白色方格的概率为0.5，\n则白色的方格为\\(25\\times 0.5=12.5\\)个，\n故不能再涂黑若干个白色方格，使任取1个方格恰好是白色方格的概率为0.5．",
+  "solution_steps": [
+    "【小问1详解】",
+    "如图所示：",
+    "〔图2〕  （答案不唯一）；",
+    "【小问2详解】",
+    "\\(\\because\\)图中共有25个方格，黑色的有7个，",
+    "\\(\\therefore\\)任取1个方格，恰好是黑色方格的概率是\\(\\frac { 7 } { 25 }\\)；",
+    "【小问3详解】",
+    "若能使任取1个方格恰好是白色方格的概率为0.5，",
+    "则白色的方格为\\(25\\times 0.5=12.5\\)个，",
+    "故不能再涂黑若干个白色方格，使任取1个方格恰好是白色方格的概率为0.5．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在网格图中，每个方格除颜色外都相同，其中4个方格为黑色，余下方格为白色．\n〔图1〕",
+      "paper_blocks": [
+        50,
+        51
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：涂黑3个白色方格，使整个网格图为轴对称图形（考虑颜色）；\n前问作答依据：如图所示：\n〔图2〕  （答案不唯一）；",
+      "paper_blocks": [
+        50,
+        51,
+        52
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-6577698F39-Q19-P01",
+      "label": "（1）",
+      "prompt": "涂黑3个白色方格，使整个网格图为轴对称图形（考虑颜色）；",
+      "stem_text": "涂黑3个白色方格，使整个网格图为轴对称图形（考虑颜色）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见详解",
+      "answer": "见详解",
+      "given_solution": "如图所示：\n〔图2〕  （答案不唯一）；",
+      "solution_steps": [
+        "如图所示：",
+        "〔图2〕  （答案不唯一）；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52
+        ],
+        "solution_block_ids": [
+          261,
+          262
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q19-P02",
+      "label": "（2）",
+      "prompt": "在（1）的轴对称网格图中任取1个方格，恰好是黑色方格的概率是多少？",
+      "stem_text": "在（1）的轴对称网格图中任取1个方格，恰好是黑色方格的概率是多少？",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G7-T2-6577698F39-Q19-P01"
+      ],
+      "given_answer": "\\(\\frac { 7 } { 25 }\\)",
+      "answer": "\\(\\frac { 7 } { 25 }\\)",
+      "given_solution": "\\(\\because\\)图中共有25个方格，黑色的有7个，\n\\(\\therefore\\)任取1个方格，恰好是黑色方格的概率是\\(\\frac { 7 } { 25 }\\)；",
+      "solution_steps": [
+        "\\(\\because\\)图中共有25个方格，黑色的有7个，",
+        "\\(\\therefore\\)任取1个方格，恰好是黑色方格的概率是\\(\\frac { 7 } { 25 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52,
+          53
+        ],
+        "solution_block_ids": [
+          264,
+          265
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“概率”。列出等可能结果并计算概率。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q19-P03",
+      "label": "（3）",
+      "prompt": "在（1）的轴对称网格图中，再涂黑若干个白色方格，能否使任取1个方格恰好是白色方格的概率为0.5？",
+      "stem_text": "在（1）的轴对称网格图中，再涂黑若干个白色方格，能否使任取1个方格恰好是白色方格的概率为0.5？",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G7-T2-6577698F39-Q19-P01"
+      ],
+      "given_answer": "0.5",
+      "answer": "0.5",
+      "given_solution": "若能使任取1个方格恰好是白色方格的概率为0.5，\n则白色的方格为\\(25\\times 0.5=12.5\\)个，\n故不能再涂黑若干个白色方格，使任取1个方格恰好是白色方格的概率为0.5．",
+      "solution_steps": [
+        "若能使任取1个方格恰好是白色方格的概率为0.5，",
+        "则白色的方格为\\(25\\times 0.5=12.5\\)个，",
+        "故不能再涂黑若干个白色方格，使任取1个方格恰好是白色方格的概率为0.5．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52,
+          54
+        ],
+        "solution_block_ids": [
+          267,
+          268,
+          269
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“概率”。列出等可能结果并计算概率。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      50,
+      54
+    ],
+    "solution_body_blocks": [
+      249,
+      270
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-6577698F39/paper-q19-p04.webp",
+      "assets/SZ-G7-T2-6577698F39/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          619.55,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          86.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-6577698F39/solution-q19-p12.webp",
+      "assets/SZ-G7-T2-6577698F39/solution-q19-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          570.45,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          330.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.S03.02"
+  ],
+  "exam_ids": [
+    "E.G07.01.01",
+    "E.S03.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按题面要求和原解所用方法核定。 题面含“概率”。列出等可能结果并计算概率。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,417 @@
+{
+  "id": "SZ-G7-T2-6AEA890D22-Q21",
+  "paper_id": "SZ-G7-T2-6AEA890D22",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "识别结构并使用乘法公式、代入或整体替换求代数式的值",
+  "stem": "【阅读理解】材料一：数形结合是解决数学问题的一种重要的思想方法，借助形的几何直观性，可以帮助理解数之间的某种关系．\n问题1：请写出图1，图2阴影部分的面积分别能解释的乘法公式．\n〔图1〕\n图1：___________，图2：___________；\n材料二：对于代数式，不同的表达形式能表现出它的不同性质．\n（1）例如代数式\\(A=x ^ { 2 } -4x+5\\)，若将其写成\\(A=\\left ( { x-2 } \\right ) ^ { 2 } +1\\)的形式，因为不论x取何值，\\(\\left ( { x-2 } \\right ) ^ { 2 }\\)总是非负数，即\\(\\left ( { x-2 } \\right ) ^ { 2 } \\ge 0\\)．\n所以\\(\\left ( { x-2 } \\right ) ^ { 2 } +1\\ge 1\\)．\n所以当\\(x=2\\)时，A有最小值，最小值是1．\n问题2：根据上述例题材料，请求代数式\\(B=x ^ { 2 } -2x+2\\)的最小值．\n（2）若将代数式A写成\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\)的形式，就能与代数式\\(B=x ^ { 2 } -2x+2\\)建立联系，下面我们改变x的值，研究一下A，B两个代数式取值的规律：\nx | \\(-2\\) | \\(-1\\) | 0 | 1 | 2 | 3\n\\(B=x ^ { 2 } -2x+2\\) | 10 | 5 | 2 | 1 | 2 | 5\n\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\) | 17 | 10 | P | 2 | 1 | 2\n问题3：①上表中p的值是___________；\n②观察表格可以发现；若\\(x=m\\)时，\\(B=x ^ { 2 } -2x+2=n\\)，则\\(x=m+1\\)时，\\(A=x ^ { 2 } -4x+5=n\\)．我们把这种现象称为代数式A参照代数式B取值延后，此时延后值为1．若代数式D参照代数式B取值延后，相应的延后值为2，则代数式D为___________．",
+  "choices": [],
+  "figures": [
+    "assets/figures/1f/1fe443481734ba9e8da5e00f911a2830a6bfb28886617ae111ef2c2118ccf84f.png"
+  ],
+  "tables": [
+    {
+      "text": "x | \\(-2\\) | \\(-1\\) | 0 | 1 | 2 | 3\n\\(B=x ^ { 2 } -2x+2\\) | 10 | 5 | 2 | 1 | 2 | 5\n\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\) | 17 | 10 | P | 2 | 1 | 2",
+      "rows": [
+        [
+          [
+            "x"
+          ],
+          [
+            "\\(-2\\)"
+          ],
+          [
+            "\\(-1\\)"
+          ],
+          [
+            "0"
+          ],
+          [
+            "1"
+          ],
+          [
+            "2"
+          ],
+          [
+            "3"
+          ]
+        ],
+        [
+          [
+            "\\(B=x ^ { 2 } -2x+2\\)"
+          ],
+          [
+            "10"
+          ],
+          [
+            "5"
+          ],
+          [
+            "2"
+          ],
+          [
+            "1"
+          ],
+          [
+            "2"
+          ],
+          [
+            "5"
+          ]
+        ],
+        [
+          [
+            "\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\)"
+          ],
+          [
+            "17"
+          ],
+          [
+            "10"
+          ],
+          [
+            "P"
+          ],
+          [
+            "2"
+          ],
+          [
+            "1"
+          ],
+          [
+            "2"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "问题1：\\(（a+b） ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；\n问题2：1；\n问题3：①5；②\\(x ^ { 2 } -6x+10\\)",
+  "answer": "问题1：\\(（a+b） ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；\n问题2：1；\n问题3：①5；②\\(x ^ { 2 } -6x+10\\)",
+  "given_solution": "【分析】问题1：根据阴影部分面积不变即可得出结论；\n问题2：先将代数式利用完全平方公式配方，根据题意，即可求出最小值；\n问题3：①直接\\(x\\)的值代入代数式即可；②根据题意，计算即可．\n【详解】问题1：图1：\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +2ab\\)，图2：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；\n问题2：\\(B=x ^ { 2 } -2x+2=\\left ( { x ^ { 2 } -2x+1 } \\right )+1=\\left ( { x-1 } \\right ) ^ { 2 } +1\\)，\n\\(\\because\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } \\ge 0\\)，\n\\(\\therefore\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } +1\\ge 1\\)，\n当\\(x=1\\)时，\\(B\\)有最小值，最小值是1；\n问题3：①\\(P=\\left ( { 0-1 } \\right ) ^ { 2 } -2\\times \\left ( { 0-1 } \\right )+2=5\\)；\n②\\(D=\\left ( { x-2 } \\right ) ^ { 2 } -2\\left ( { x-2 } \\right )+2\\)，\n\\(=x ^ { 2 } -4x+4-2x+4+2\\)，\n\\(=x ^ { 2 } -6x+10\\)．\n【点睛】本题考查完全平方，掌握完全平方公式及变形，看懂和理解题意是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/1f/1fe443481734ba9e8da5e00f911a2830a6bfb28886617ae111ef2c2118ccf84f.png"
+  ],
+  "solution": "问题1：图1：\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +2ab\\)，图2：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；\n问题2：\\(B=x ^ { 2 } -2x+2=\\left ( { x ^ { 2 } -2x+1 } \\right )+1=\\left ( { x-1 } \\right ) ^ { 2 } +1\\)，\n\\(\\because\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } \\ge 0\\)，\n\\(\\therefore\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } +1\\ge 1\\)，\n当\\(x=1\\)时，\\(B\\)有最小值，最小值是1；\n问题3：①\\(P=\\left ( { 0-1 } \\right ) ^ { 2 } -2\\times \\left ( { 0-1 } \\right )+2=5\\)；\n②\\(D=\\left ( { x-2 } \\right ) ^ { 2 } -2\\left ( { x-2 } \\right )+2\\)，\n\\(=x ^ { 2 } -4x+4-2x+4+2\\)，\n\\(=x ^ { 2 } -6x+10\\)．",
+  "solution_steps": [
+    "问题1：图1：\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +2ab\\)，图2：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；",
+    "问题2：\\(B=x ^ { 2 } -2x+2=\\left ( { x ^ { 2 } -2x+1 } \\right )+1=\\left ( { x-1 } \\right ) ^ { 2 } +1\\)，",
+    "\\(\\because\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } \\ge 0\\)，",
+    "\\(\\therefore\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } +1\\ge 1\\)，",
+    "当\\(x=1\\)时，\\(B\\)有最小值，最小值是1；",
+    "问题3：①\\(P=\\left ( { 0-1 } \\right ) ^ { 2 } -2\\times \\left ( { 0-1 } \\right )+2=5\\)；",
+    "②\\(D=\\left ( { x-2 } \\right ) ^ { 2 } -2\\left ( { x-2 } \\right )+2\\)，",
+    "\\(=x ^ { 2 } -4x+4-2x+4+2\\)，",
+    "\\(=x ^ { 2 } -6x+10\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【阅读理解】材料一：数形结合是解决数学问题的一种重要的思想方法，借助形的几何直观性，可以帮助理解数之间的某种关系．",
+      "paper_blocks": [
+        76
+      ]
+    },
+    {
+      "id": "fig-78",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        78
+      ]
+    },
+    {
+      "id": "table-86",
+      "kind": "table",
+      "text": "x | \\(-2\\) | \\(-1\\) | 0 | 1 | 2 | 3\n\\(B=x ^ { 2 } -2x+2\\) | 10 | 5 | 2 | 1 | 2 | 5\n\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\) | 17 | 10 | P | 2 | 1 | 2",
+      "paper_blocks": [
+        86
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-6AEA890D22-Q21-P01",
+      "label": "问题1",
+      "prompt": "请写出图1，图2阴影部分的面积分别能解释的乘法公式．\n\n图1：___________，图2：___________；\n材料二：对于代数式，不同的表达形式能表现出它的不同性质．\n（1）例如代数式\\(A=x ^ { 2 } -4x+5\\)，若将其写成\\(A=\\left ( { x-2 } \\right ) ^ { 2 } +1\\)的形式，因为不论x取何值，\\(\\left ( { x-2 } \\right ) ^ { 2 }\\)总是非负数，即\\(\\left ( { x-2 } \\right ) ^ { 2 } \\ge 0\\)．\n所以\\(\\left ( { x-2 } \\right ) ^ { 2 } +1\\ge 1\\)．\n所以当\\(x=2\\)时，A有最小值，最小值是1．",
+      "stem_text": "请写出图1，图2阴影部分的面积分别能解释的乘法公式．\n\n图1：___________，图2：___________；\n材料二：对于代数式，不同的表达形式能表现出它的不同性质．\n（1）例如代数式\\(A=x ^ { 2 } -4x+5\\)，若将其写成\\(A=\\left ( { x-2 } \\right ) ^ { 2 } +1\\)的形式，因为不论x取何值，\\(\\left ( { x-2 } \\right ) ^ { 2 }\\)总是非负数，即\\(\\left ( { x-2 } \\right ) ^ { 2 } \\ge 0\\)．\n所以\\(\\left ( { x-2 } \\right ) ^ { 2 } +1\\ge 1\\)．\n所以当\\(x=2\\)时，A有最小值，最小值是1．",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "table-86"
+      ],
+      "requires": [],
+      "given_answer": "\\(（a+b） ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；",
+      "answer": "\\(（a+b） ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；",
+      "given_solution": "图1：\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +2ab\\)，图2：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；",
+      "solution_steps": [
+        "图1：\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +2ab\\)，图2：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          86
+        ],
+        "solution_block_ids": [
+          315
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向识别并应用乘法公式。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6AEA890D22-Q21-P02",
+      "label": "问题2",
+      "prompt": "根据上述例题材料，请求代数式\\(B=x ^ { 2 } -2x+2\\)的最小值．\n（2）若将代数式A写成\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\)的形式，就能与代数式\\(B=x ^ { 2 } -2x+2\\)建立联系，下面我们改变x的值，研究一下A，B两个代数式取值的规律：",
+      "stem_text": "根据上述例题材料，请求代数式\\(B=x ^ { 2 } -2x+2\\)的最小值．\n（2）若将代数式A写成\\(A=\\left ( { x-1 } \\right ) ^ { 2 } -2\\left ( { x-1 } \\right )+2\\)的形式，就能与代数式\\(B=x ^ { 2 } -2x+2\\)建立联系，下面我们改变x的值，研究一下A，B两个代数式取值的规律：",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "table-86"
+      ],
+      "requires": [],
+      "given_answer": "1；",
+      "answer": "1；",
+      "given_solution": "\\(B=x ^ { 2 } -2x+2=\\left ( { x ^ { 2 } -2x+1 } \\right )+1=\\left ( { x-1 } \\right ) ^ { 2 } +1\\)，\n\\(\\because\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } \\ge 0\\)，\n\\(\\therefore\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } +1\\ge 1\\)，\n当\\(x=1\\)时，\\(B\\)有最小值，最小值是1；",
+      "solution_steps": [
+        "\\(B=x ^ { 2 } -2x+2=\\left ( { x ^ { 2 } -2x+1 } \\right )+1=\\left ( { x-1 } \\right ) ^ { 2 } +1\\)，",
+        "\\(\\because\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } \\ge 0\\)，",
+        "\\(\\therefore\\)\\(\\left ( { x-1 } \\right ) ^ { 2 } +1\\ge 1\\)，",
+        "当\\(x=1\\)时，\\(B\\)有最小值，最小值是1；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          78,
+          84,
+          85,
+          86
+        ],
+        "solution_block_ids": [
+          316,
+          317,
+          318,
+          319
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“代数式 B=x^ 2 -2x+2 建立联系,下面我们改变x的值”。利用已知数值或整体关系求式值。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6AEA890D22-Q21-P03",
+      "label": "问题3①",
+      "prompt": "上表中p的值是___________；",
+      "stem_text": "上表中p的值是___________；",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "table-86"
+      ],
+      "requires": [],
+      "given_answer": "5；",
+      "answer": "5；",
+      "given_solution": "\\(P=\\left ( { 0-1 } \\right ) ^ { 2 } -2\\times \\left ( { 0-1 } \\right )+2=5\\)；",
+      "solution_steps": [
+        "\\(P=\\left ( { 0-1 } \\right ) ^ { 2 } -2\\times \\left ( { 0-1 } \\right )+2=5\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          78,
+          86,
+          87
+        ],
+        "solution_block_ids": [
+          320
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-6AEA890D22-Q21-P04",
+      "label": "问题3②",
+      "prompt": "观察表格可以发现；若\\(x=m\\)时，\\(B=x ^ { 2 } -2x+2=n\\)，则\\(x=m+1\\)时，\\(A=x ^ { 2 } -4x+5=n\\)．我们把这种现象称为代数式A参照代数式B取值延后，此时延后值为1．若代数式D参照代数式B取值延后，相应的延后值为2，则代数式D为___________．",
+      "stem_text": "观察表格可以发现；若\\(x=m\\)时，\\(B=x ^ { 2 } -2x+2=n\\)，则\\(x=m+1\\)时，\\(A=x ^ { 2 } -4x+5=n\\)．我们把这种现象称为代数式A参照代数式B取值延后，此时延后值为1．若代数式D参照代数式B取值延后，相应的延后值为2，则代数式D为___________．",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "table-86"
+      ],
+      "requires": [],
+      "given_answer": "\\(x ^ { 2 } -6x+10\\)",
+      "answer": "\\(x ^ { 2 } -6x+10\\)",
+      "given_solution": "\\(D=\\left ( { x-2 } \\right ) ^ { 2 } -2\\left ( { x-2 } \\right )+2\\)，\n\\(=x ^ { 2 } -4x+4-2x+4+2\\)，\n\\(=x ^ { 2 } -6x+10\\)．",
+      "solution_steps": [
+        "\\(D=\\left ( { x-2 } \\right ) ^ { 2 } -2\\left ( { x-2 } \\right )+2\\)，",
+        "\\(=x ^ { 2 } -4x+4-2x+4+2\\)，",
+        "\\(=x ^ { 2 } -6x+10\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          78,
+          86,
+          88
+        ],
+        "solution_block_ids": [
+          321,
+          322,
+          323
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09"
+      ],
+      "exam_ids": [
+        "E.N03.09.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      76,
+      88
+    ],
+    "solution_body_blocks": [
+      295,
+      324
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-6AEA890D22/paper-q21-p05.webp",
+      "assets/SZ-G7-T2-6AEA890D22/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          340.45,
+          583.64,
+          737.27
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          43.18,
+          583.64,
+          270.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-6AEA890D22/solution-q21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          279.09,
+          583.64,
+          745.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.06",
+    "M.N03.01",
+    "M.N03.09"
+  ],
+  "exam_ids": [
+    "E.N03.06.01",
+    "E.N03.01.02",
+    "E.N03.09.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面指向识别并应用乘法公式。 题面含“代数式 B=x^ 2 -2x+2 建立联系,下面我们改变x的值”。利用已知数值或整体关系求式值。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

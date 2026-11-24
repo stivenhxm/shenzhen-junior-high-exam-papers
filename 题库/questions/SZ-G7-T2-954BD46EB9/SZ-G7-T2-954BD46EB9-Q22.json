@@ -1,0 +1,452 @@
+{
+  "id": "SZ-G7-T2-954BD46EB9-Q22",
+  "paper_id": "SZ-G7-T2-954BD46EB9",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "定义：三角形中，连接一个顶点和它所对的边上一点，如果所得线段把三角形的周长分成相等的两部分，则称这条线段为三角形的“周长平分线”．\n〔图1〕\n（1）如图1，在四边形\\(ABCD\\)中，\\(\\angle B=\\angle C=45{}^\\circ\\)，P为\\(BC\\)的中点，\\(\\angle APD=90{}^\\circ\\)．取\\(AD\\)中点Q，连接\\(PQ\\)．\n①如图2，已知点G在\\(CD\\)边上，\\(CG=AB\\)，连接\\(PG\\)，求证\\(AP=PG\\)；\n②求证：\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”．\n（2）在（1）的基础上，且已知\\(AQ=PQ\\)，分别取\\(AP，DP\\)的中点M，N，如图3．请在线段\\(BC\\)上找点E，F，使\\(EM\\)为\\(\\vartriangle APE\\)的“周长平分线”，\\(FN\\)为\\(\\vartriangle DPF\\)的“周长平分线”．\n①用无刻度直尺确定点E，F的位置（保留画图痕迹）；\n②若\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，直接写出\\(EF\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/c7/c732f548f56f78ebd50e5547e74b0d00dc9ed96d487a55023a8cbf5b0747f5a8.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①见解析；②见解析\n（2）①见解析；②\\(\\frac { 15 } { 2 }\\)",
+  "answer": "（1）①见解析；②见解析\n（2）①见解析；②\\(\\frac { 15 } { 2 }\\)",
+  "given_solution": "【分析】本题主要考查等腰三角形的判定和性质，全等三角形的判定和性质，勾股定理，添加合适的辅助线，是解题的关键．\n（1）①直接证明\\(\\vartriangle ABP≌\\vartriangle GCP\\)即可证明结论；②证明\\(PD=PG\\)，进而得出\\(AP=PD\\)，即可证明结论；\n（2）①连接\\(QM\\)并延长交\\(BC\\)于点E，连接\\(QN\\)并延长交\\(BC\\)于点F即可；②过点A作\\(AH\\bot BC\\)于H，过点D作\\(DG\\bot BC\\)于G，连接\\(AE，DF\\)，先证明\\(\\vartriangle APH≌\\vartriangle PDG\\)，得出\\(AH=PG=2，PH=DG=4\\)，设\\(\\angle QAP=\\angle QPA=\\beta\\)，利用\\(AE ^ { 2 } =AH ^ { 2 } +HE ^ { 2 }\\)求出\\(PE\\)，同理求出\\(PF\\)，即可求出结论．\n【小问1详解】\n①证明：\\(\\because BP=CP,\\angle B=\\angle C=45{}^\\circ ,CG=AB\\)，\n\\(\\therefore \\vartriangle ABP≌\\vartriangle GCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AP=PG\\)．\n②由①得\\(\\vartriangle ABP≌\\vartriangle GCP\\)，\n∴\\(\\angle APB=\\angle GPC\\)．\n设\\(\\angle APB=\\angle GPC=\\alpha\\)，\n则\\(\\angle DGP=\\angle GPC+\\angle C=45{}^\\circ +\\alpha\\)，\n\\(\\angle DPG=180{}^\\circ -\\angle APB-\\angle GPC-\\angle APD=90{}^\\circ -2\\alpha\\)．\n∴\\(\\angle PDG=180{}^\\circ -\\angle DPG-\\angle DGP=45{}^\\circ +\\alpha =\\angle DGP\\)．\n∴\\(PD=PG\\)．\n由①得：\\(AP=PG\\)，\n∴\\(AP=PD\\)，\n∵点Q是\\(AD\\)的中点，\n∴\\(AQ=DQ\\)，\n∴\\(AQ+AP=PD+DQ\\)，\n∴\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”；\n【小问2详解】\n解：①如下图，连接\\(QM\\)并延长交\\(BC\\)于点E，连接\\(QN\\)并延长交\\(BC\\)于点F，则点E，点F为所求；\n〔图2〕\n②如下图，过点A作\\(AH\\bot BC\\)于H，过点D作\\(DG\\bot BC\\)于G，连接\\(AE，DF\\)，\n〔图3〕\n∵\\(\\angle B=\\angle C=45{}^\\circ\\)，\n∴\\(\\angle BAH=\\angle B=45{}^\\circ ，\\angle C=\\angle CDG=45{}^\\circ\\)，\n∴\\(AH=BH，DG=CG\\)，\n∵\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，\n∴\\(AH=BH=2，DG=CG=4\\)，\n∵\\(\\angle APD=90{}^\\circ\\)，\n∴\\(\\angle APH+\\angle DPG=90{}^\\circ =\\angle APH+\\angle PAH\\)，\n∴\\(\\angle PAH=\\angle DPG\\)，\n又∵\\(AP=DP，\\angle AHP=\\angle DGP=90{}^\\circ\\)，\n∴\\(\\vartriangle APH≌\\vartriangle PDG\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AH=PG=2，PH=DG=4\\)，\n∵\\(AQ=PQ，\\angle APD=90{}^\\circ\\)，\n设\\(\\angle QAP=\\angle QPA=\\beta\\)，则\\(\\angle QDP=\\angle QPD=90{}^\\circ －\\beta\\)，\n∴\\(DQ=PQ=AQ\\)．\n∵点M，点N分别是\\(AP，DP\\)的中点，\n∴\\(QE\\)是\\(AP\\)的中垂线，\\(QF\\)是\\(DP\\)的中垂线，\n∴\\(AE=PE，DF=PF\\)，\n∵\\(AE ^ { 2 } =AH ^ { 2 } +HE ^ { 2 }\\)，\n∴\\(PE ^ { 2 } =2+\\left ( { 4-PE } \\right ) ^ { 2 }\\)，\n∴\\(PE=\\frac { 5 } { 2 }\\)，\n同理可求\\(PF=5\\)，\n∴\\(EF=PE+PF=5+\\frac { 5 } { 2 }=\\frac { 15 } { 2 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/c7/c732f548f56f78ebd50e5547e74b0d00dc9ed96d487a55023a8cbf5b0747f5a8.png",
+    "assets/figures/96/96b73d7af45a75f2a42989caabca39b0cb398fad2862fb790e04e5dfb00edb72.png",
+    "assets/figures/77/77622b670274dfc7d2ba5f51d8437acfaa42df10449d60fd18b0ad3482f19e02.png"
+  ],
+  "solution": "【小问1详解】\n①证明：\\(\\because BP=CP,\\angle B=\\angle C=45{}^\\circ ,CG=AB\\)，\n\\(\\therefore \\vartriangle ABP≌\\vartriangle GCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AP=PG\\)．\n②由①得\\(\\vartriangle ABP≌\\vartriangle GCP\\)，\n∴\\(\\angle APB=\\angle GPC\\)．\n设\\(\\angle APB=\\angle GPC=\\alpha\\)，\n则\\(\\angle DGP=\\angle GPC+\\angle C=45{}^\\circ +\\alpha\\)，\n\\(\\angle DPG=180{}^\\circ -\\angle APB-\\angle GPC-\\angle APD=90{}^\\circ -2\\alpha\\)．\n∴\\(\\angle PDG=180{}^\\circ -\\angle DPG-\\angle DGP=45{}^\\circ +\\alpha =\\angle DGP\\)．\n∴\\(PD=PG\\)．\n由①得：\\(AP=PG\\)，\n∴\\(AP=PD\\)，\n∵点Q是\\(AD\\)的中点，\n∴\\(AQ=DQ\\)，\n∴\\(AQ+AP=PD+DQ\\)，\n∴\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”；\n【小问2详解】\n解：①如下图，连接\\(QM\\)并延长交\\(BC\\)于点E，连接\\(QN\\)并延长交\\(BC\\)于点F，则点E，点F为所求；\n〔图2〕\n②如下图，过点A作\\(AH\\bot BC\\)于H，过点D作\\(DG\\bot BC\\)于G，连接\\(AE，DF\\)，\n〔图3〕\n∵\\(\\angle B=\\angle C=45{}^\\circ\\)，\n∴\\(\\angle BAH=\\angle B=45{}^\\circ ，\\angle C=\\angle CDG=45{}^\\circ\\)，\n∴\\(AH=BH，DG=CG\\)，\n∵\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，\n∴\\(AH=BH=2，DG=CG=4\\)，\n∵\\(\\angle APD=90{}^\\circ\\)，\n∴\\(\\angle APH+\\angle DPG=90{}^\\circ =\\angle APH+\\angle PAH\\)，\n∴\\(\\angle PAH=\\angle DPG\\)，\n又∵\\(AP=DP，\\angle AHP=\\angle DGP=90{}^\\circ\\)，\n∴\\(\\vartriangle APH≌\\vartriangle PDG\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AH=PG=2，PH=DG=4\\)，\n∵\\(AQ=PQ，\\angle APD=90{}^\\circ\\)，\n设\\(\\angle QAP=\\angle QPA=\\beta\\)，则\\(\\angle QDP=\\angle QPD=90{}^\\circ －\\beta\\)，\n∴\\(DQ=PQ=AQ\\)．\n∵点M，点N分别是\\(AP，DP\\)的中点，\n∴\\(QE\\)是\\(AP\\)的中垂线，\\(QF\\)是\\(DP\\)的中垂线，\n∴\\(AE=PE，DF=PF\\)，\n∵\\(AE ^ { 2 } =AH ^ { 2 } +HE ^ { 2 }\\)，\n∴\\(PE ^ { 2 } =2+\\left ( { 4-PE } \\right ) ^ { 2 }\\)，\n∴\\(PE=\\frac { 5 } { 2 }\\)，\n同理可求\\(PF=5\\)，\n∴\\(EF=PE+PF=5+\\frac { 5 } { 2 }=\\frac { 15 } { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①证明：\\(\\because BP=CP,\\angle B=\\angle C=45{}^\\circ ,CG=AB\\)，",
+    "\\(\\therefore \\vartriangle ABP≌\\vartriangle GCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AP=PG\\)．",
+    "②由①得\\(\\vartriangle ABP≌\\vartriangle GCP\\)，",
+    "∴\\(\\angle APB=\\angle GPC\\)．",
+    "设\\(\\angle APB=\\angle GPC=\\alpha\\)，",
+    "则\\(\\angle DGP=\\angle GPC+\\angle C=45{}^\\circ +\\alpha\\)，",
+    "\\(\\angle DPG=180{}^\\circ -\\angle APB-\\angle GPC-\\angle APD=90{}^\\circ -2\\alpha\\)．",
+    "∴\\(\\angle PDG=180{}^\\circ -\\angle DPG-\\angle DGP=45{}^\\circ +\\alpha =\\angle DGP\\)．",
+    "∴\\(PD=PG\\)．",
+    "由①得：\\(AP=PG\\)，",
+    "∴\\(AP=PD\\)，",
+    "∵点Q是\\(AD\\)的中点，",
+    "∴\\(AQ=DQ\\)，",
+    "∴\\(AQ+AP=PD+DQ\\)，",
+    "∴\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”；",
+    "【小问2详解】",
+    "解：①如下图，连接\\(QM\\)并延长交\\(BC\\)于点E，连接\\(QN\\)并延长交\\(BC\\)于点F，则点E，点F为所求；",
+    "〔图2〕",
+    "②如下图，过点A作\\(AH\\bot BC\\)于H，过点D作\\(DG\\bot BC\\)于G，连接\\(AE，DF\\)，",
+    "〔图3〕",
+    "∵\\(\\angle B=\\angle C=45{}^\\circ\\)，",
+    "∴\\(\\angle BAH=\\angle B=45{}^\\circ ，\\angle C=\\angle CDG=45{}^\\circ\\)，",
+    "∴\\(AH=BH，DG=CG\\)，",
+    "∵\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，",
+    "∴\\(AH=BH=2，DG=CG=4\\)，",
+    "∵\\(\\angle APD=90{}^\\circ\\)，",
+    "∴\\(\\angle APH+\\angle DPG=90{}^\\circ =\\angle APH+\\angle PAH\\)，",
+    "∴\\(\\angle PAH=\\angle DPG\\)，",
+    "又∵\\(AP=DP，\\angle AHP=\\angle DGP=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle APH≌\\vartriangle PDG\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AH=PG=2，PH=DG=4\\)，",
+    "∵\\(AQ=PQ，\\angle APD=90{}^\\circ\\)，",
+    "设\\(\\angle QAP=\\angle QPA=\\beta\\)，则\\(\\angle QDP=\\angle QPD=90{}^\\circ －\\beta\\)，",
+    "∴\\(DQ=PQ=AQ\\)．",
+    "∵点M，点N分别是\\(AP，DP\\)的中点，",
+    "∴\\(QE\\)是\\(AP\\)的中垂线，\\(QF\\)是\\(DP\\)的中垂线，",
+    "∴\\(AE=PE，DF=PF\\)，",
+    "∵\\(AE ^ { 2 } =AH ^ { 2 } +HE ^ { 2 }\\)，",
+    "∴\\(PE ^ { 2 } =2+\\left ( { 4-PE } \\right ) ^ { 2 }\\)，",
+    "∴\\(PE=\\frac { 5 } { 2 }\\)，",
+    "同理可求\\(PF=5\\)，",
+    "∴\\(EF=PE+PF=5+\\frac { 5 } { 2 }=\\frac { 15 } { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "定义：三角形中，连接一个顶点和它所对的边上一点，如果所得线段把三角形的周长分成相等的两部分，则称这条线段为三角形的“周长平分线”．\n〔图1〕",
+      "paper_blocks": [
+        76,
+        77
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图1，在四边形\\(ABCD\\)中，\\(\\angle B=\\angle C=45{}^\\circ\\)，P为\\(BC\\)的中点，\\(\\angle APD=90{}^\\circ\\)．取\\(AD\\)中点Q，连接\\(PQ\\)．",
+      "paper_blocks": [
+        78
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "在（1）的基础上，且已知\\(AQ=PQ\\)，分别取\\(AP，DP\\)的中点M，N，如图3．请在线段\\(BC\\)上找点E，F，使\\(EM\\)为\\(\\vartriangle APE\\)的“周长平分线”，\\(FN\\)为\\(\\vartriangle DPF\\)的“周长平分线”．",
+      "paper_blocks": [
+        81
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q22-P01",
+      "label": "（1）①",
+      "prompt": "如图2，已知点G在\\(CD\\)边上，\\(CG=AB\\)，连接\\(PG\\)，求证\\(AP=PG\\)；",
+      "stem_text": "如图2，已知点G在\\(CD\\)边上，\\(CG=AB\\)，连接\\(PG\\)，求证\\(AP=PG\\)；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：\\(\\because BP=CP,\\angle B=\\angle C=45{}^\\circ ,CG=AB\\)，\n\\(\\therefore \\vartriangle ABP≌\\vartriangle GCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AP=PG\\)．",
+      "solution_steps": [
+        "证明：\\(\\because BP=CP,\\angle B=\\angle C=45{}^\\circ ,CG=AB\\)，",
+        "\\(\\therefore \\vartriangle ABP≌\\vartriangle GCP\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AP=PG\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          79
+        ],
+        "solution_block_ids": [
+          365,
+          366,
+          367
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q22-P02",
+      "label": "（1）②",
+      "prompt": "求证：\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”．",
+      "stem_text": "求证：\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”．",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "由①得\\(\\vartriangle ABP≌\\vartriangle GCP\\)，\n∴\\(\\angle APB=\\angle GPC\\)．\n设\\(\\angle APB=\\angle GPC=\\alpha\\)，\n则\\(\\angle DGP=\\angle GPC+\\angle C=45{}^\\circ +\\alpha\\)，\n\\(\\angle DPG=180{}^\\circ -\\angle APB-\\angle GPC-\\angle APD=90{}^\\circ -2\\alpha\\)．\n∴\\(\\angle PDG=180{}^\\circ -\\angle DPG-\\angle DGP=45{}^\\circ +\\alpha =\\angle DGP\\)．\n∴\\(PD=PG\\)．\n由①得：\\(AP=PG\\)，\n∴\\(AP=PD\\)，\n∵点Q是\\(AD\\)的中点，\n∴\\(AQ=DQ\\)，\n∴\\(AQ+AP=PD+DQ\\)，\n∴\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”；",
+      "solution_steps": [
+        "由①得\\(\\vartriangle ABP≌\\vartriangle GCP\\)，",
+        "∴\\(\\angle APB=\\angle GPC\\)．",
+        "设\\(\\angle APB=\\angle GPC=\\alpha\\)，",
+        "则\\(\\angle DGP=\\angle GPC+\\angle C=45{}^\\circ +\\alpha\\)，",
+        "\\(\\angle DPG=180{}^\\circ -\\angle APB-\\angle GPC-\\angle APD=90{}^\\circ -2\\alpha\\)．",
+        "∴\\(\\angle PDG=180{}^\\circ -\\angle DPG-\\angle DGP=45{}^\\circ +\\alpha =\\angle DGP\\)．",
+        "∴\\(PD=PG\\)．",
+        "由①得：\\(AP=PG\\)，",
+        "∴\\(AP=PD\\)，",
+        "∵点Q是\\(AD\\)的中点，",
+        "∴\\(AQ=DQ\\)，",
+        "∴\\(AQ+AP=PD+DQ\\)，",
+        "∴\\(PQ\\)是\\(\\vartriangle APD\\)的“周长平分线”；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          80
+        ],
+        "solution_block_ids": [
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q22-P03",
+      "label": "（2）①",
+      "prompt": "用无刻度直尺确定点E，F的位置（保留画图痕迹）；",
+      "stem_text": "用无刻度直尺确定点E，F的位置（保留画图痕迹）；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "如下图，连接\\(QM\\)并延长交\\(BC\\)于点E，连接\\(QN\\)并延长交\\(BC\\)于点F，则点E，点F为所求；\n〔图2〕",
+      "solution_steps": [
+        "如下图，连接\\(QM\\)并延长交\\(BC\\)于点E，连接\\(QN\\)并延长交\\(BC\\)于点F，则点E，点F为所求；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          81,
+          82
+        ],
+        "solution_block_ids": [
+          382,
+          383
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G12.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "题目考查该知识主题，任务与现有细分考点不完全一致。",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q22-P04",
+      "label": "（2）②",
+      "prompt": "若\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，直接写出\\(EF\\)的长．",
+      "stem_text": "若\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，直接写出\\(EF\\)的长．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 15 } { 2 }\\)",
+      "answer": "\\(\\frac { 15 } { 2 }\\)",
+      "given_solution": "如下图，过点A作\\(AH\\bot BC\\)于H，过点D作\\(DG\\bot BC\\)于G，连接\\(AE，DF\\)，\n〔图3〕\n∵\\(\\angle B=\\angle C=45{}^\\circ\\)，\n∴\\(\\angle BAH=\\angle B=45{}^\\circ ，\\angle C=\\angle CDG=45{}^\\circ\\)，\n∴\\(AH=BH，DG=CG\\)，\n∵\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，\n∴\\(AH=BH=2，DG=CG=4\\)，\n∵\\(\\angle APD=90{}^\\circ\\)，\n∴\\(\\angle APH+\\angle DPG=90{}^\\circ =\\angle APH+\\angle PAH\\)，\n∴\\(\\angle PAH=\\angle DPG\\)，\n又∵\\(AP=DP，\\angle AHP=\\angle DGP=90{}^\\circ\\)，\n∴\\(\\vartriangle APH≌\\vartriangle PDG\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AH=PG=2，PH=DG=4\\)，\n∵\\(AQ=PQ，\\angle APD=90{}^\\circ\\)，\n设\\(\\angle QAP=\\angle QPA=\\beta\\)，则\\(\\angle QDP=\\angle QPD=90{}^\\circ －\\beta\\)，\n∴\\(DQ=PQ=AQ\\)．\n∵点M，点N分别是\\(AP，DP\\)的中点，\n∴\\(QE\\)是\\(AP\\)的中垂线，\\(QF\\)是\\(DP\\)的中垂线，\n∴\\(AE=PE，DF=PF\\)，\n∵\\(AE ^ { 2 } =AH ^ { 2 } +HE ^ { 2 }\\)，\n∴\\(PE ^ { 2 } =2+\\left ( { 4-PE } \\right ) ^ { 2 }\\)，\n∴\\(PE=\\frac { 5 } { 2 }\\)，\n同理可求\\(PF=5\\)，\n∴\\(EF=PE+PF=5+\\frac { 5 } { 2 }=\\frac { 15 } { 2 }\\)．",
+      "solution_steps": [
+        "如下图，过点A作\\(AH\\bot BC\\)于H，过点D作\\(DG\\bot BC\\)于G，连接\\(AE，DF\\)，",
+        "〔图3〕",
+        "∵\\(\\angle B=\\angle C=45{}^\\circ\\)，",
+        "∴\\(\\angle BAH=\\angle B=45{}^\\circ ，\\angle C=\\angle CDG=45{}^\\circ\\)，",
+        "∴\\(AH=BH，DG=CG\\)，",
+        "∵\\(AB=2\\sqrt[] { 2 }\\)，\\(CD=4\\sqrt[] { 2 }\\)，",
+        "∴\\(AH=BH=2，DG=CG=4\\)，",
+        "∵\\(\\angle APD=90{}^\\circ\\)，",
+        "∴\\(\\angle APH+\\angle DPG=90{}^\\circ =\\angle APH+\\angle PAH\\)，",
+        "∴\\(\\angle PAH=\\angle DPG\\)，",
+        "又∵\\(AP=DP，\\angle AHP=\\angle DGP=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle APH≌\\vartriangle PDG\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AH=PG=2，PH=DG=4\\)，",
+        "∵\\(AQ=PQ，\\angle APD=90{}^\\circ\\)，",
+        "设\\(\\angle QAP=\\angle QPA=\\beta\\)，则\\(\\angle QDP=\\angle QPD=90{}^\\circ －\\beta\\)，",
+        "∴\\(DQ=PQ=AQ\\)．",
+        "∵点M，点N分别是\\(AP，DP\\)的中点，",
+        "∴\\(QE\\)是\\(AP\\)的中垂线，\\(QF\\)是\\(DP\\)的中垂线，",
+        "∴\\(AE=PE，DF=PF\\)，",
+        "∵\\(AE ^ { 2 } =AH ^ { 2 } +HE ^ { 2 }\\)，",
+        "∴\\(PE ^ { 2 } =2+\\left ( { 4-PE } \\right ) ^ { 2 }\\)，",
+        "∴\\(PE=\\frac { 5 } { 2 }\\)，",
+        "同理可求\\(PF=5\\)，",
+        "∴\\(EF=PE+PF=5+\\frac { 5 } { 2 }=\\frac { 15 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          81,
+          83
+        ],
+        "solution_block_ids": [
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      76,
+      83
+    ],
+    "solution_body_blocks": [
+      350,
+      407
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-954BD46EB9/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          354.55,
+          583.64,
+          670.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-954BD46EB9/solution-q22-p19.webp",
+      "assets/SZ-G7-T2-954BD46EB9/solution-q22-p20.webp",
+      "assets/SZ-G7-T2-954BD46EB9/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          159.09,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          271.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G12.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "题目考查该知识主题，任务与现有细分考点不完全一致。",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

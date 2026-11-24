@@ -8,6 +8,7 @@ from zipfile import ZipFile
 ROOT = Path(__file__).resolve().parents[1]
 NAME = '已解析试卷.json'
 G7_INVENTORY = '七年级上学期来源清单.json'
+G7_T2_INVENTORY = '七年级下学期来源清单.json'
 
 
 def file_digest(path):
@@ -56,9 +57,13 @@ def as_json(entries):
             seen[value] = row['id']
     return json.dumps({'version': 1, 'papers': entries}, ensure_ascii=False, indent=2) + '\n'
 
-def attach_inventory(root, entries, *, audit=False):
+def attach_inventory(root, entries, *, audit=False, inventory=None):
     """Attach alternate editions and answer sheets to their reviewed paper IDs."""
-    path = root/'batches'/G7_INVENTORY
+    if inventory is None:
+        for path in sorted((root/'batches').glob('*来源清单.json')):
+            attach_inventory(root,entries,audit=audit,inventory=path.name)
+        return
+    path = root/'batches'/inventory
     if not path.exists():
         if audit:
             raise ValueError(f'缺少来源清单：{path}')
@@ -77,19 +82,25 @@ def attach_inventory(root, entries, *, audit=False):
             raise ValueError(f'来源清单有重复路径、未知试卷或目录越界：{rel}')
         known[rel] = src
         entry = by_id[src['paper_id']]
+        if any(pid not in by_id for pid in src.get('also_used_by',[])):
+            raise ValueError(f'来源清单包含未知的共用来源试卷：{rel}')
         if not disk.is_file() or file_digest(disk) != src['sha256']:
             raise ValueError(f'来源文件有变化，请复核：{rel}')
         if rel not in (entry['paper']['git_path'],entry['solution']['git_path']):
             entry.setdefault('alternate_sources',[]).append({k:src[k] for k in ('git_path','sha256','role')})
     if audit:
-        actual = {p.relative_to(repo).as_posix() for p in folder.rglob('*') if p.is_file()}
+        # Word creates a temporary owner file next to a document while it is open.
+        actual = {p.relative_to(repo).as_posix() for p in folder.rglob('*')
+                  if p.is_file() and not (p.name.startswith('~$') and p.suffix.lower() in ('.doc', '.docx'))}
         if actual != known.keys():
             raise ValueError('来源目录与清单不同：'+'、'.join(sorted(actual.symmetric_difference(known))))
         for row in entries:
             for field in ('paper','solution'):
                 source=row[field]
-                if (repo/source['git_path']).is_relative_to(folder) and known[source['git_path']]['paper_id'] != row['id']:
-                    raise ValueError(f"{row['id']} 的 {field} 与来源清单指向不同试卷")
+                if (repo/source['git_path']).is_relative_to(folder):
+                    match = known[source['git_path']]
+                    if row['id'] not in [match['paper_id'],*match.get('also_used_by',[])]:
+                        raise ValueError(f"{row['id']} 的 {field} 与来源清单指向不同试卷")
     return data
 
 def source_records(row):
@@ -121,12 +132,15 @@ if __name__ == '__main__':
     cli = argparse.ArgumentParser(description='查询原卷或解析版是否已经入库')
     cli.add_argument('source', nargs='?', type=Path, help='原始文件路径')
     cli.add_argument('--audit-g7', action='store_true', help='逐文件核对七上来源清单及其内容指纹')
+    cli.add_argument('--audit-g7-t2', action='store_true', help='逐文件核对七下来源清单及其内容指纹')
     args = cli.parse_args()
     records = json.loads((ROOT/'generated'/NAME).read_text(encoding='utf8'))['papers']
-    if args.audit_g7:
+    if args.audit_g7 or args.audit_g7_t2:
         manifests = [json.loads(f.read_text(encoding='utf8')) for f in (ROOT/'papers').glob('*.json')]
-        data = attach_inventory(ROOT,[make_entry(ROOT.parent,p,0) for p in manifests],audit=True)
-        print(f"七上来源覆盖 {len(data['files'])} 个文件，关联 {len({r['paper_id'] for r in data['files']})} 份试卷。")
+        for selected, name in ((args.audit_g7,G7_INVENTORY),(args.audit_g7_t2,G7_T2_INVENTORY)):
+            if selected:
+                data = attach_inventory(ROOT,[make_entry(ROOT.parent,p,0) for p in manifests],audit=True,inventory=name)
+                print(f"{name}覆盖 {len(data['files'])} 个文件，关联 {len({r['paper_id'] for r in data['files']})} 份试卷。")
     elif args.source:
         status, row, role = lookup(records, args.source)
         print(status, row['id'] if row else '', role or '')

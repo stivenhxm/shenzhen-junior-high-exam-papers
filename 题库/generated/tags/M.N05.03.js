@@ -1,0 +1,1 @@
+globalThis.BankData.put("tags/M.N05.03",{"id":"M.N05.03","results":[{"id":"SZ-G7-T2-954BD46EB9-Q05","question_id":"SZ-G7-T2-954BD46EB9-Q05","paper_id":"SZ-G7-T2-954BD46EB9","number":5,"label":"","type":"选择题","title":"二次根式加减","preview":"下列各组二次根式中，化简后是同类二次根式的是（    ）","knowledge_ids":["M.N05.03"],"exam_ids":[],"coverage":"仅知识点","has_review_note":false}]});

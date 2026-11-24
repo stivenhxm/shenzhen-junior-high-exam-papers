@@ -1,0 +1,445 @@
+{
+  "knowledge_ids": [
+    "M.G01.03",
+    "M.G03.02",
+    "M.G03.01",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G01.03.02",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G01.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面含“垂足”。辨认垂足和点到直线的距离。 按本问解答中出现的几何关系及所求结论归类。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-D3C08F2FC9-Q20",
+  "paper_id": "SZ-G7-T2-D3C08F2FC9",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "辨认垂足并确定点到直线距离、选择充分条件证明三角形全等",
+  "stem": "如图，我们把对角线互相垂直的四边形叫做“垂美四边形”．\n（1）性质探究：如图1．已知四边形ABCD中，AC⊥BD．垂足为O，求证：AB\\({}^{2}\\)+CD\\({}^{2}\\)＝AD\\({}^{2}\\)+BC\\({}^{2}\\)；\n（2）解决问题：已知AB＝5\\(\\sqrt[] { 2 }\\)．BC＝4\\(\\sqrt[] { 2 }\\)，分别以△ABC的边BC和AB向外作等腰Rt△BCE和等腰Rt△ABD；\n①如图2，当∠ACB＝90°，连接DE，求DE的长；\n②如图3．当∠ACB≠90°，点G、H分别是AD、AC中点，连接GH．若GH＝2\\(\\sqrt[] { 6 }\\)，则S\\({}_{△}\\)ABC＝　　．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/e7/e700359471016feb94dbc65d30ed8a0cafe5b28f62449bbe9420349606dd4fff.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，我们把对角线互相垂直的四边形叫做“垂美四边形”．",
+      "paper_blocks": [
+        65
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "解决问题：已知AB＝5\\(\\sqrt[] { 2 }\\)．BC＝4\\(\\sqrt[] { 2 }\\)，分别以△ABC的边BC和AB向外作等腰Rt△BCE和等腰Rt△ABD；",
+      "paper_blocks": [
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-D3C08F2FC9-Q20-P01",
+      "label": "（1）",
+      "prompt": "性质探究：如图1．已知四边形ABCD中，AC⊥BD．垂足为O，求证：AB\\({}^{2}\\)+CD\\({}^{2}\\)＝AD\\({}^{2}\\)+BC\\({}^{2}\\)；",
+      "stem_text": "性质探究：如图1．已知四边形ABCD中，AC⊥BD．垂足为O，求证：AB\\({}^{2}\\)+CD\\({}^{2}\\)＝AD\\({}^{2}\\)+BC\\({}^{2}\\)；",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：∵AC⊥BD\n∴∠AOB=90°\n在Rt△AOB中AB²=AO²+OB²\n∴∠COD=90°\n在Rt△COD中CD² =DO²+OC²\n∴AB²+CD²=AO²+OB²+DO²+OC²\n同理AD²+BC²=AO²+OB²+DO²+OC²\n∴AB\\({}^{2}\\)＋CD\\({}^{2}\\)＝AD\\({}^{2}\\)＋BC²\n〔图1〕",
+      "solution_steps": [
+        "证明：∵AC⊥BD",
+        "∴∠AOB=90°",
+        "在Rt△AOB中AB²=AO²+OB²",
+        "∴∠COD=90°",
+        "在Rt△COD中CD² =DO²+OC²",
+        "∴AB²+CD²=AO²+OB²+DO²+OC²",
+        "同理AD²+BC²=AO²+OB²+DO²+OC²",
+        "∴AB\\({}^{2}\\)＋CD\\({}^{2}\\)＝AD\\({}^{2}\\)＋BC²",
+        "〔图1〕"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          70
+        ],
+        "solution_block_ids": [
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.03"
+      ],
+      "exam_ids": [
+        "E.G01.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“垂足”。辨认垂足和点到直线的距离。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-D3C08F2FC9-Q20-P02",
+      "label": "（2）①",
+      "prompt": "如图2，当∠ACB＝90°，连接DE，求DE的长；",
+      "stem_text": "如图2，当∠ACB＝90°，连接DE，求DE的长；",
+      "material_ids": [
+        "context",
+        "fig-70",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 146 }\\)；",
+      "answer": "\\(\\sqrt[] { 146 }\\)；",
+      "given_solution": "解：连DC、AE相交于点F\n∵Rt△BCE和Rt△ABD是等腰三角形\n∴BE=BCAB=BD\n∠CBE=∠ABD=90°\n∴∠ABE=∠DBC=90°+∠ABC\n∴△ABE≌△DBC\n∴∠CDB=∠BAE\n∵∠ABD=90°\n∴∠CDB+∠CDA+∠DAB=90°\n∴∠BAE+∠CDA+∠DAB=90°\n∴∠AFD=90°\n∴AE⊥CD\n∵AB=5\\(\\sqrt[] { 2 }\\)，BC=4\\(\\sqrt[] { 2 }\\)∠ACB=90°\n∴AC=\\(\\sqrt[] { AB ^ { 2 } -BC ^ { 2 } }=3\\sqrt[] { 2 }\\)\n∵AB=5\\(\\sqrt[] { 2 }\\)，BD=5\\(\\sqrt[] { 2 }\\)∠ABD=90°\n∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }=10\\)\n∵BC=4\\(\\sqrt[] { 2 }\\)，BE=4\\(\\sqrt[] { 2 }\\)∠CBE=90°\n∴CE=\\(\\sqrt[] { BC ^ { 2 } +BE ^ { 2 } }=8\\)\n由（1）中结论AD²+EC²=AC²+DE²\n∴(10)²+（8）²=（3\\(\\sqrt[] { 2 }\\)）²+DE²\n∴DE=\\(\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 4 } }{ \\rm{ 6 } } }\\)\n〔图2〕",
+      "solution_steps": [
+        "解：连DC、AE相交于点F",
+        "∵Rt△BCE和Rt△ABD是等腰三角形",
+        "∴BE=BCAB=BD",
+        "∠CBE=∠ABD=90°",
+        "∴∠ABE=∠DBC=90°+∠ABC",
+        "∴△ABE≌△DBC",
+        "∴∠CDB=∠BAE",
+        "∵∠ABD=90°",
+        "∴∠CDB+∠CDA+∠DAB=90°",
+        "∴∠BAE+∠CDA+∠DAB=90°",
+        "∴∠AFD=90°",
+        "∴AE⊥CD",
+        "∵AB=5\\(\\sqrt[] { 2 }\\)，BC=4\\(\\sqrt[] { 2 }\\)∠ACB=90°",
+        "∴AC=\\(\\sqrt[] { AB ^ { 2 } -BC ^ { 2 } }=3\\sqrt[] { 2 }\\)",
+        "∵AB=5\\(\\sqrt[] { 2 }\\)，BD=5\\(\\sqrt[] { 2 }\\)∠ABD=90°",
+        "∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }=10\\)",
+        "∵BC=4\\(\\sqrt[] { 2 }\\)，BE=4\\(\\sqrt[] { 2 }\\)∠CBE=90°",
+        "∴CE=\\(\\sqrt[] { BC ^ { 2 } +BE ^ { 2 } }=8\\)",
+        "由（1）中结论AD²+EC²=AC²+DE²",
+        "∴(10)²+（8）²=（3\\(\\sqrt[] { 2 }\\)）²+DE²",
+        "∴DE=\\(\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 4 } }{ \\rm{ 6 } } }\\)",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-D3C08F2FC9-Q20-P03",
+      "label": "（2）②",
+      "prompt": "如图3．当∠ACB≠90°，点G、H分别是AD、AC中点，连接GH．若GH＝2\\(\\sqrt[] { 6 }\\)，则S\\({}_{△}\\)ABC＝　　．",
+      "stem_text": "如图3．当∠ACB≠90°，点G、H分别是AD、AC中点，连接GH．若GH＝2\\(\\sqrt[] { 6 }\\)，则S\\({}_{△}\\)ABC＝　　．",
+      "material_ids": [
+        "context",
+        "fig-70",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 7 } { 2 }\\)",
+      "answer": "\\(\\frac { 7 } { 2 }\\)",
+      "given_solution": "连DC、AE相交于点F\n∵点G、H分别是AD、AC中点，GH＝\\(2\\sqrt[] { 6 }\\)\n∴DC=2GH=\\(4\\sqrt[] { { \\rm{ 6 } } }\\)\n作CP⊥BD交DB延长线于点P\nBP²+CP²=BC²=（4\\(\\sqrt[] { 2 }\\)）²=32\nDP²+PC²=DC²=（\\(4\\sqrt[] { { \\rm{ 6 } } }\\)）²=96\n∴(DP²+PC²)-(BP²+CP²)=96-32=64\n∴DP²-BP²=64\n∴（BD+BP)²-BP²=64\n∴（5\\(\\sqrt[] { 2 }\\)+BP)²-BP²=64\n∴BP=\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }\\)\n∵∠PBA=90°，∠P=90°，\n∴∠PBA+∠P=90°+90°=180°\n∴AB∥PC\n则S\\({}_{△}\\)ABC＝\\(\\frac { 1 } { 2 }\\)AB×BP=\\(\\frac { 1 } { 2 }\\)×5\\(\\sqrt[] { 2 }\\)×\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }{ \\rm{ = } }\\frac { { \\rm{ 7 } } } { { \\rm{ 2 } } }\\)\n〔图3〕",
+      "solution_steps": [
+        "连DC、AE相交于点F",
+        "∵点G、H分别是AD、AC中点，GH＝\\(2\\sqrt[] { 6 }\\)",
+        "∴DC=2GH=\\(4\\sqrt[] { { \\rm{ 6 } } }\\)",
+        "作CP⊥BD交DB延长线于点P",
+        "BP²+CP²=BC²=（4\\(\\sqrt[] { 2 }\\)）²=32",
+        "DP²+PC²=DC²=（\\(4\\sqrt[] { { \\rm{ 6 } } }\\)）²=96",
+        "∴(DP²+PC²)-(BP²+CP²)=96-32=64",
+        "∴DP²-BP²=64",
+        "∴（BD+BP)²-BP²=64",
+        "∴（5\\(\\sqrt[] { 2 }\\)+BP)²-BP²=64",
+        "∴BP=\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }\\)",
+        "∵∠PBA=90°，∠P=90°，",
+        "∴∠PBA+∠P=90°+90°=180°",
+        "∴AB∥PC",
+        "则S\\({}_{△}\\)ABC＝\\(\\frac { 1 } { 2 }\\)AB×BP=\\(\\frac { 1 } { 2 }\\)×5\\(\\sqrt[] { 2 }\\)×\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }{ \\rm{ = } }\\frac { { \\rm{ 7 } } } { { \\rm{ 2 } } }\\)",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          67,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "（1）见解析；（2）①\\(\\sqrt[] { 146 }\\)；②\\(\\frac { 7 } { 2 }\\)",
+  "answer": "（1）见解析；（2）①\\(\\sqrt[] { 146 }\\)；②\\(\\frac { 7 } { 2 }\\)",
+  "given_solution": "【知识点】同旁内角互补两直线平行、全等的性质和SAS综合（SAS）、等腰三角形的性质和判定、用勾股定理解三角形\n【分析】（1）根据AC⊥BD可以得到∠AOB =∠COD=90°即可得到AB²=AO²+OB²，CD² =DO²+OC²即AB²+CD²=AO²+OB²+DO²+OC²同理可以得到AD²+BC²=AO²+OB²+DO²+OC²即可得到答案;\n（2）连DC、AE相交于点F，先证明△ABE≌△DBC得到∠CDB=∠BAE从而证得AE⊥CD再利用勾股定理和（1）中的结论求解即可得到答案；\n（3）连DC、AE相交于点F，作CP⊥BD交DB延长线于点P，BP²+CP²=BC²=（4\\(\\sqrt[] { 2 }\\)）²=32，DP²+PC²=DC²=（\\(4\\sqrt[] { { \\rm{ 6 } } }\\)）²=96，(DP²+PC²)-(BP²+CP²)=96-32=64，DP²-BP²=64从而求出BP=\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }\\)，再证明AB∥PC则S\\({}_{△}\\)ABC＝\\(\\frac { 1 } { 2 }\\)AB×BP.\n【详解】解：（1）证明：∵AC⊥BD\n∴∠AOB=90°\n在Rt△AOB中AB²=AO²+OB²\n∴∠COD=90°\n在Rt△COD中CD² =DO²+OC²\n∴AB²+CD²=AO²+OB²+DO²+OC²\n同理AD²+BC²=AO²+OB²+DO²+OC²\n∴AB\\({}^{2}\\)＋CD\\({}^{2}\\)＝AD\\({}^{2}\\)＋BC²\n〔图1〕\n(2) ①解：连DC、AE相交于点F\n∵Rt△BCE和Rt△ABD是等腰三角形\n∴BE=BCAB=BD\n∠CBE=∠ABD=90°\n∴∠ABE=∠DBC=90°+∠ABC\n∴△ABE≌△DBC\n∴∠CDB=∠BAE\n∵∠ABD=90°\n∴∠CDB+∠CDA+∠DAB=90°\n∴∠BAE+∠CDA+∠DAB=90°\n∴∠AFD=90°\n∴AE⊥CD\n∵AB=5\\(\\sqrt[] { 2 }\\)，BC=4\\(\\sqrt[] { 2 }\\)∠ACB=90°\n∴AC=\\(\\sqrt[] { AB ^ { 2 } -BC ^ { 2 } }=3\\sqrt[] { 2 }\\)\n∵AB=5\\(\\sqrt[] { 2 }\\)，BD=5\\(\\sqrt[] { 2 }\\)∠ABD=90°\n∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }=10\\)\n∵BC=4\\(\\sqrt[] { 2 }\\)，BE=4\\(\\sqrt[] { 2 }\\)∠CBE=90°\n∴CE=\\(\\sqrt[] { BC ^ { 2 } +BE ^ { 2 } }=8\\)\n由（1）中结论AD²+EC²=AC²+DE²\n∴(10)²+（8）²=（3\\(\\sqrt[] { 2 }\\)）²+DE²\n∴DE=\\(\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 4 } }{ \\rm{ 6 } } }\\)\n〔图2〕\n②连DC、AE相交于点F\n∵点G、H分别是AD、AC中点，GH＝\\(2\\sqrt[] { 6 }\\)\n∴DC=2GH=\\(4\\sqrt[] { { \\rm{ 6 } } }\\)\n作CP⊥BD交DB延长线于点P\nBP²+CP²=BC²=（4\\(\\sqrt[] { 2 }\\)）²=32\nDP²+PC²=DC²=（\\(4\\sqrt[] { { \\rm{ 6 } } }\\)）²=96\n∴(DP²+PC²)-(BP²+CP²)=96-32=64\n∴DP²-BP²=64\n∴（BD+BP)²-BP²=64\n∴（5\\(\\sqrt[] { 2 }\\)+BP)²-BP²=64\n∴BP=\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }\\)\n∵∠PBA=90°，∠P=90°，\n∴∠PBA+∠P=90°+90°=180°\n∴AB∥PC\n则S\\({}_{△}\\)ABC＝\\(\\frac { 1 } { 2 }\\)AB×BP=\\(\\frac { 1 } { 2 }\\)×5\\(\\sqrt[] { 2 }\\)×\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }{ \\rm{ = } }\\frac { { \\rm{ 7 } } } { { \\rm{ 2 } } }\\)\n〔图3〕\n【点睛】本题主要考查了四边形的综合问题，等腰直角三角形的性质，全等三角形的性质与判定，勾股定理，垂直的定义，解题的关键在于能够熟练掌握相关知识进行求解.",
+  "given_solution_figures": [
+    "assets/figures/4d/4d387a0b665aa24c6a561bcdf3c1cc99506634de88414d875a66f64ee6a514b9.png",
+    "assets/figures/04/0439be3334f100cef33dcae199d59fef2880ba2708326c8b134d47bfcc6a4331.png",
+    "assets/figures/25/25bb51414490aed3e9a1f3cbb76148a4a2254295d0ccd8aeb122869023f20ff6.png"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_steps": [
+    "解：（1）证明：∵AC⊥BD",
+    "∴∠AOB=90°",
+    "在Rt△AOB中AB²=AO²+OB²",
+    "∴∠COD=90°",
+    "在Rt△COD中CD² =DO²+OC²",
+    "∴AB²+CD²=AO²+OB²+DO²+OC²",
+    "同理AD²+BC²=AO²+OB²+DO²+OC²",
+    "∴AB\\({}^{2}\\)＋CD\\({}^{2}\\)＝AD\\({}^{2}\\)＋BC²",
+    "〔图1〕",
+    "(2) ①解：连DC、AE相交于点F",
+    "∵Rt△BCE和Rt△ABD是等腰三角形",
+    "∴BE=BCAB=BD",
+    "∠CBE=∠ABD=90°",
+    "∴∠ABE=∠DBC=90°+∠ABC",
+    "∴△ABE≌△DBC",
+    "∴∠CDB=∠BAE",
+    "∵∠ABD=90°",
+    "∴∠CDB+∠CDA+∠DAB=90°",
+    "∴∠BAE+∠CDA+∠DAB=90°",
+    "∴∠AFD=90°",
+    "∴AE⊥CD",
+    "∵AB=5\\(\\sqrt[] { 2 }\\)，BC=4\\(\\sqrt[] { 2 }\\)∠ACB=90°",
+    "∴AC=\\(\\sqrt[] { AB ^ { 2 } -BC ^ { 2 } }=3\\sqrt[] { 2 }\\)",
+    "∵AB=5\\(\\sqrt[] { 2 }\\)，BD=5\\(\\sqrt[] { 2 }\\)∠ABD=90°",
+    "∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }=10\\)",
+    "∵BC=4\\(\\sqrt[] { 2 }\\)，BE=4\\(\\sqrt[] { 2 }\\)∠CBE=90°",
+    "∴CE=\\(\\sqrt[] { BC ^ { 2 } +BE ^ { 2 } }=8\\)",
+    "由（1）中结论AD²+EC²=AC²+DE²",
+    "∴(10)²+（8）²=（3\\(\\sqrt[] { 2 }\\)）²+DE²",
+    "∴DE=\\(\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 4 } }{ \\rm{ 6 } } }\\)",
+    "〔图2〕",
+    "②连DC、AE相交于点F",
+    "∵点G、H分别是AD、AC中点，GH＝\\(2\\sqrt[] { 6 }\\)",
+    "∴DC=2GH=\\(4\\sqrt[] { { \\rm{ 6 } } }\\)",
+    "作CP⊥BD交DB延长线于点P",
+    "BP²+CP²=BC²=（4\\(\\sqrt[] { 2 }\\)）²=32",
+    "DP²+PC²=DC²=（\\(4\\sqrt[] { { \\rm{ 6 } } }\\)）²=96",
+    "∴(DP²+PC²)-(BP²+CP²)=96-32=64",
+    "∴DP²-BP²=64",
+    "∴（BD+BP)²-BP²=64",
+    "∴（5\\(\\sqrt[] { 2 }\\)+BP)²-BP²=64",
+    "∴BP=\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }\\)",
+    "∵∠PBA=90°，∠P=90°，",
+    "∴∠PBA+∠P=90°+90°=180°",
+    "∴AB∥PC",
+    "则S\\({}_{△}\\)ABC＝\\(\\frac { 1 } { 2 }\\)AB×BP=\\(\\frac { 1 } { 2 }\\)×5\\(\\sqrt[] { 2 }\\)×\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }{ \\rm{ = } }\\frac { { \\rm{ 7 } } } { { \\rm{ 2 } } }\\)",
+    "〔图3〕"
+  ],
+  "solution": "解：（1）证明：∵AC⊥BD\n∴∠AOB=90°\n在Rt△AOB中AB²=AO²+OB²\n∴∠COD=90°\n在Rt△COD中CD² =DO²+OC²\n∴AB²+CD²=AO²+OB²+DO²+OC²\n同理AD²+BC²=AO²+OB²+DO²+OC²\n∴AB\\({}^{2}\\)＋CD\\({}^{2}\\)＝AD\\({}^{2}\\)＋BC²\n〔图1〕\n(2) ①解：连DC、AE相交于点F\n∵Rt△BCE和Rt△ABD是等腰三角形\n∴BE=BCAB=BD\n∠CBE=∠ABD=90°\n∴∠ABE=∠DBC=90°+∠ABC\n∴△ABE≌△DBC\n∴∠CDB=∠BAE\n∵∠ABD=90°\n∴∠CDB+∠CDA+∠DAB=90°\n∴∠BAE+∠CDA+∠DAB=90°\n∴∠AFD=90°\n∴AE⊥CD\n∵AB=5\\(\\sqrt[] { 2 }\\)，BC=4\\(\\sqrt[] { 2 }\\)∠ACB=90°\n∴AC=\\(\\sqrt[] { AB ^ { 2 } -BC ^ { 2 } }=3\\sqrt[] { 2 }\\)\n∵AB=5\\(\\sqrt[] { 2 }\\)，BD=5\\(\\sqrt[] { 2 }\\)∠ABD=90°\n∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }=10\\)\n∵BC=4\\(\\sqrt[] { 2 }\\)，BE=4\\(\\sqrt[] { 2 }\\)∠CBE=90°\n∴CE=\\(\\sqrt[] { BC ^ { 2 } +BE ^ { 2 } }=8\\)\n由（1）中结论AD²+EC²=AC²+DE²\n∴(10)²+（8）²=（3\\(\\sqrt[] { 2 }\\)）²+DE²\n∴DE=\\(\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 4 } }{ \\rm{ 6 } } }\\)\n〔图2〕\n②连DC、AE相交于点F\n∵点G、H分别是AD、AC中点，GH＝\\(2\\sqrt[] { 6 }\\)\n∴DC=2GH=\\(4\\sqrt[] { { \\rm{ 6 } } }\\)\n作CP⊥BD交DB延长线于点P\nBP²+CP²=BC²=（4\\(\\sqrt[] { 2 }\\)）²=32\nDP²+PC²=DC²=（\\(4\\sqrt[] { { \\rm{ 6 } } }\\)）²=96\n∴(DP²+PC²)-(BP²+CP²)=96-32=64\n∴DP²-BP²=64\n∴（BD+BP)²-BP²=64\n∴（5\\(\\sqrt[] { 2 }\\)+BP)²-BP²=64\n∴BP=\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }\\)\n∵∠PBA=90°，∠P=90°，\n∴∠PBA+∠P=90°+90°=180°\n∴AB∥PC\n则S\\({}_{△}\\)ABC＝\\(\\frac { 1 } { 2 }\\)AB×BP=\\(\\frac { 1 } { 2 }\\)×5\\(\\sqrt[] { 2 }\\)×\\(\\frac { 7 } { 10 }\\sqrt[] { 2 }{ \\rm{ = } }\\frac { { \\rm{ 7 } } } { { \\rm{ 2 } } }\\)\n〔图3〕",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-D3C08F2FC9/single/q20-p04.webp",
+      "assets/SZ-G7-T2-D3C08F2FC9/single/q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          584.31,
+          582.44,
+          755.18
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          85.3,
+          582.44,
+          214.87
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-D3C08F2FC9/single/s20-p17.webp",
+      "assets/SZ-G7-T2-D3C08F2FC9/single/s20-p18.webp",
+      "assets/SZ-G7-T2-D3C08F2FC9/single/s20-p19.webp",
+      "assets/SZ-G7-T2-D3C08F2FC9/single/s20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          562.14,
+          582.44,
+          750.4
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          79.65,
+          582.44,
+          753.13
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          13,
+          79.65,
+          582.44,
+          758.78
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          13,
+          76.17,
+          582.44,
+          387.48
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

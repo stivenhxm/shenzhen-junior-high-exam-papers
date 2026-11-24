@@ -1,0 +1,265 @@
+{
+  "id": "SZ-G7-T2-54DA85E9EB-Q21",
+  "paper_id": "SZ-G7-T2-54DA85E9EB",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "识别结构并使用乘法公式",
+  "stem": "数形结合是数学学习中一种重要的方法，我们可以利用几何图形验证乘法公式．如图1，用一张边长为a的正方形纸片减去一个边长为b的正方形，剩下部分通过剪拼可以得到一个新的长方形（图2），请你完成下面的探究：\n〔图1〕\n（1）比较两图的阴影部分面积，可以得到乘法公式      （用\\(a、b\\)表示）；\n（2）若\\(abc\\ne 0\\)，请你画一个几何图形，证明\\((a+b+c) ^ { 2 } \\ne a ^ { 2 } +b ^ { 2 } +c ^ { 2 }\\)，并根据你画的图形，直接写出\\((a+b+c) ^ { 2 }\\)正确的展开结果．\n（3）计算\\((2m+n-1) ^ { 2 }\\)．",
+  "choices": [],
+  "figures": [
+    "assets/figures/99/997c7d4fa65e6e28622580141e8dac4853bfa9bd40501bd47f32e75b6a82ecd0.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)\n（2）画图见解析，\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)\n（3）\\(\\left ( { 2m+n-1 } \\right ) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+  "answer": "（1）\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)\n（2）画图见解析，\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)\n（3）\\(\\left ( { 2m+n-1 } \\right ) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+  "given_solution": "【分析】本题考查平方差公式，完全平方公式及其应用\n（1）图①阴影部分的面积为两个正方形的面积差，即\\(a ^ { 2 } -b ^ { 2 }\\)，而图②的阴影部分为长为\\((a+b)\\)，宽为\\((a-b)\\)的矩形，可表示出面积为\\((a+b)(a-b)\\)．\n（2）根据题意先画出图形，然后再根据图形得出\\((a+b+c) ^ { 2 }\\)的展开结果．\n（3）运用（2）中的结论，即可解得．\n【小问1详解】\n解：图①阴影部分的面积为两个正方形的面积差，即\\(a ^ { 2 } -b ^ { 2 }\\)；图②的阴影部分为长为\\((a+b)\\)，宽为\\((a-b)\\)的矩形，其面积为\\((a+b)(a-b)\\)．\n故答案为：\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)；\n【小问2详解】\n如图\n〔图2〕\n由图可得：\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)．\n【小问3详解】\n解：根据（2）中的结论可知\n在\\((2m+n-1) ^ { 2 }\\)中，把\\(2m=a,n=b,-1=c\\)，\n根据公式\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)\n可求得\\((2m+n-1) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+  "given_solution_figures": [
+    "assets/figures/99/997c7d4fa65e6e28622580141e8dac4853bfa9bd40501bd47f32e75b6a82ecd0.png",
+    "assets/figures/83/83b35bd91085330168077e075179bea075c75c61ba4ab1a1d51493e5deb58b9b.png"
+  ],
+  "solution": "【小问1详解】\n解：图①阴影部分的面积为两个正方形的面积差，即\\(a ^ { 2 } -b ^ { 2 }\\)；图②的阴影部分为长为\\((a+b)\\)，宽为\\((a-b)\\)的矩形，其面积为\\((a+b)(a-b)\\)．\n故答案为：\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)；\n【小问2详解】\n如图\n〔图2〕\n由图可得：\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)．\n【小问3详解】\n解：根据（2）中的结论可知\n在\\((2m+n-1) ^ { 2 }\\)中，把\\(2m=a,n=b,-1=c\\)，\n根据公式\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)\n可求得\\((2m+n-1) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：图①阴影部分的面积为两个正方形的面积差，即\\(a ^ { 2 } -b ^ { 2 }\\)；图②的阴影部分为长为\\((a+b)\\)，宽为\\((a-b)\\)的矩形，其面积为\\((a+b)(a-b)\\)．",
+    "故答案为：\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)；",
+    "【小问2详解】",
+    "如图",
+    "〔图2〕",
+    "由图可得：\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)．",
+    "【小问3详解】",
+    "解：根据（2）中的结论可知",
+    "在\\((2m+n-1) ^ { 2 }\\)中，把\\(2m=a,n=b,-1=c\\)，",
+    "根据公式\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)",
+    "可求得\\((2m+n-1) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "数形结合是数学学习中一种重要的方法，我们可以利用几何图形验证乘法公式．如图1，用一张边长为a的正方形纸片减去一个边长为b的正方形，剩下部分通过剪拼可以得到一个新的长方形（图2），请你完成下面的探究：\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-54DA85E9EB-Q21-P01",
+      "label": "（1）",
+      "prompt": "比较两图的阴影部分面积，可以得到乘法公式      （用\\(a、b\\)表示）；",
+      "stem_text": "比较两图的阴影部分面积，可以得到乘法公式      （用\\(a、b\\)表示）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)",
+      "answer": "\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)",
+      "given_solution": "解：图①阴影部分的面积为两个正方形的面积差，即\\(a ^ { 2 } -b ^ { 2 }\\)；图②的阴影部分为长为\\((a+b)\\)，宽为\\((a-b)\\)的矩形，其面积为\\((a+b)(a-b)\\)．\n故答案为：\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)；",
+      "solution_steps": [
+        "解：图①阴影部分的面积为两个正方形的面积差，即\\(a ^ { 2 } -b ^ { 2 }\\)；图②的阴影部分为长为\\((a+b)\\)，宽为\\((a-b)\\)的矩形，其面积为\\((a+b)(a-b)\\)．",
+        "故答案为：\\(a ^ { 2 } -b ^ { 2 } =\\left ( { a+b } \\right )\\left ( { a-b } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          281,
+          282
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向识别并应用乘法公式。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-54DA85E9EB-Q21-P02",
+      "label": "（2）",
+      "prompt": "若\\(abc\\ne 0\\)，请你画一个几何图形，证明\\((a+b+c) ^ { 2 } \\ne a ^ { 2 } +b ^ { 2 } +c ^ { 2 }\\)，并根据你画的图形，直接写出\\((a+b+c) ^ { 2 }\\)正确的展开结果．",
+      "stem_text": "若\\(abc\\ne 0\\)，请你画一个几何图形，证明\\((a+b+c) ^ { 2 } \\ne a ^ { 2 } +b ^ { 2 } +c ^ { 2 }\\)，并根据你画的图形，直接写出\\((a+b+c) ^ { 2 }\\)正确的展开结果．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "画图见解析，\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)",
+      "answer": "画图见解析，\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)",
+      "given_solution": "如图\n〔图2〕\n由图可得：\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)．",
+      "solution_steps": [
+        "如图",
+        "〔图2〕",
+        "由图可得：\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          284,
+          285,
+          286
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "以面积割补解释乘法恒等式，细目侧重识别与使用。",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-54DA85E9EB-Q21-P03",
+      "label": "（3）",
+      "prompt": "计算\\((2m+n-1) ^ { 2 }\\)．",
+      "stem_text": "计算\\((2m+n-1) ^ { 2 }\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 2m+n-1 } \\right ) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+      "answer": "\\(\\left ( { 2m+n-1 } \\right ) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+      "given_solution": "解：根据（2）中的结论可知\n在\\((2m+n-1) ^ { 2 }\\)中，把\\(2m=a,n=b,-1=c\\)，\n根据公式\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)\n可求得\\((2m+n-1) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)",
+      "solution_steps": [
+        "解：根据（2）中的结论可知",
+        "在\\((2m+n-1) ^ { 2 }\\)中，把\\(2m=a,n=b,-1=c\\)，",
+        "根据公式\\((a+b+c) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ca\\)",
+        "可求得\\((2m+n-1) ^ { 2 } =4m ^ { 2 } +n ^ { 2 } +1+4mn-2n-4m\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          75
+        ],
+        "solution_block_ids": [
+          288,
+          289,
+          290,
+          291
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      75
+    ],
+    "solution_body_blocks": [
+      267,
+      291
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-54DA85E9EB/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          393.64,
+          583.64,
+          709.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-54DA85E9EB/solution-q21-p13.webp",
+      "assets/SZ-G7-T2-54DA85E9EB/solution-q21-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          550.91,
+          583.64,
+          739.55
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          553.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.06"
+  ],
+  "exam_ids": [
+    "E.N03.06.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "以面积割补解释乘法恒等式，细目侧重识别与使用。",
+  "tag_reason": "题面指向识别并应用乘法公式。 按题面要求和原解所用方法核定。 根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+  "tag_source": "小问标签汇总"
+}

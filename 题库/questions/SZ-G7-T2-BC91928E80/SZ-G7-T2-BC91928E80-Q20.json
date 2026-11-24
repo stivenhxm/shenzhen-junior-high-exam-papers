@@ -1,0 +1,424 @@
+{
+  "knowledge_ids": [
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G01.05.01",
+    "E.G01.05.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-BC91928E80-Q20",
+  "paper_id": "SZ-G7-T2-BC91928E80",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "利用平行线性质求角、在折线或辅助线图形中传递角关系",
+  "stem": "已知直线\\(MN//PQ\\)，点A在直线MN上，点B、C为平面内两点，\\(AC\\bot BC\\)于点C．\n〔图1〕〔图2〕〔图3〕〔图4〕\n（1）如图1，当点B在直线MN上，点C在直线MN上方时，则\\(\\angle CAB\\)和\\(\\angle CDP\\)之间的数量关系是________；\n（2）如图2，当点C在直线MN上且在点A左侧，点B在直线MN与PQ之间时，过点B作\\(BD\\bot AB\\) 交直线PQ于点D，为探究\\(\\angle ABC\\)与\\(\\angle BDP\\)的数量关系，小明过点B作\\(BF//MN\\)，请根据他的思路，写出\\(\\angle ABC\\)与\\(\\angle BDP\\)的关系，并说明理由；\n（3）请从下面A，B两题中任选一题作答．\nA．如图3，在（2）的条件下，作∠ABD的平分线交直线MN于点E，当\\(\\angle AEB=2\\angle ABC\\)时直接写出\\(\\angle ABC\\)的度数；\nB．如图4，当点C在直线MN上且在点A左侧，点B在直线PQ下方时，过点B作\\(BD\\bot AB\\)交直线PQ于点D，作∠ABD的平分线交直线MN于点E，当\\(\\angle BDP=2\\angle BEN\\)时，直接写出\\(\\angle ABC\\)的度数．",
+  "choices": [],
+  "figures": [
+    "assets/figures/73/73c51896fc858e9deb9774119083f279bedca5c1a537cf9cfad9572dd1b7d73e.png",
+    "assets/figures/50/5031a08431fae25ece526b97266e23088d5e4dd0823f8790117efb08804ca7f2.png",
+    "assets/figures/89/89c68f5819797c4fa785e6c44f396fbc64375982a28d65612e8727fbe601ad32.png",
+    "assets/figures/c5/c5434a58976609b041c0cb9c5b5e9e100fa46dd87982dfb36b00ec1d865d8616.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知直线\\(MN//PQ\\)，点A在直线MN上，点B、C为平面内两点，\\(AC\\bot BC\\)于点C．\n〔图1〕〔图2〕〔图3〕〔图4〕",
+      "paper_blocks": [
+        93,
+        94
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，当点C在直线MN上且在点A左侧，点B在直线MN与PQ之间时，过点B作\\(BD\\bot AB\\) 交直线PQ于点D，为探究\\(\\angle ABC\\)与\\(\\angle BDP\\)的数量关系，小明过点B作\\(BF//MN\\)，请根据他的思路，写出\\(\\angle ABC\\)与\\(\\angle BDP\\)的关系，并说明理由；\n前问作答依据：\\(\\angle ABC=\\angle BDP\\)，理由如下：\n∵\\(BF//MN\\)，\n∴\\(\\angle ACB+\\angle CBF=180{}^\\circ\\)．\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle CBF=180{}^\\circ -\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle ABC+\\angle ABF=90{}^\\circ\\)．\n∵\\(AB\\bot BD\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)．\n∴\\(\\angle ABF+\\angle DBF=90{}^\\circ\\)．\n∴\\(\\angle ABC=\\angle DBF\\)．\n又∵\\(MN//PQ\\)，\n∴\\(BF//PQ\\)，\n∴\\(\\angle DBF=\\angle BDP\\)，\n∴\\(\\angle ABC=\\angle BDP\\)；",
+      "paper_blocks": [
+        93,
+        94,
+        96
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点B在直线MN上，点C在直线MN上方时，则\\(\\angle CAB\\)和\\(\\angle CDP\\)之间的数量关系是________；",
+      "stem_text": "如图1，当点B在直线MN上，点C在直线MN上方时，则\\(\\angle CAB\\)和\\(\\angle CDP\\)之间的数量关系是________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；",
+      "answer": "\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；",
+      "given_solution": "∵\\(MN//PQ\\)，\n∴\\(\\angle ABC=\\angle CDP\\) ，\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle C=90 ^ { {}^\\circ }\\) ，\n∴\\(\\angle CAB+\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；",
+      "solution_steps": [
+        "∵\\(MN//PQ\\)，",
+        "∴\\(\\angle ABC=\\angle CDP\\) ，",
+        "∵\\(AC\\bot BC\\)，",
+        "∴\\(\\angle C=90 ^ { {}^\\circ }\\) ，",
+        "∴\\(\\angle CAB+\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          93,
+          94,
+          95
+        ],
+        "solution_block_ids": [
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，当点C在直线MN上且在点A左侧，点B在直线MN与PQ之间时，过点B作\\(BD\\bot AB\\) 交直线PQ于点D，为探究\\(\\angle ABC\\)与\\(\\angle BDP\\)的数量关系，小明过点B作\\(BF//MN\\)，请根据他的思路，写出\\(\\angle ABC\\)与\\(\\angle BDP\\)的关系，并说明理由；",
+      "stem_text": "如图2，当点C在直线MN上且在点A左侧，点B在直线MN与PQ之间时，过点B作\\(BD\\bot AB\\) 交直线PQ于点D，为探究\\(\\angle ABC\\)与\\(\\angle BDP\\)的数量关系，小明过点B作\\(BF//MN\\)，请根据他的思路，写出\\(\\angle ABC\\)与\\(\\angle BDP\\)的关系，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle ABC=\\angle BDP\\)，见解析；",
+      "answer": "\\(\\angle ABC=\\angle BDP\\)，见解析；",
+      "given_solution": "\\(\\angle ABC=\\angle BDP\\)，理由如下：\n∵\\(BF//MN\\)，\n∴\\(\\angle ACB+\\angle CBF=180{}^\\circ\\)．\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle CBF=180{}^\\circ -\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle ABC+\\angle ABF=90{}^\\circ\\)．\n∵\\(AB\\bot BD\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)．\n∴\\(\\angle ABF+\\angle DBF=90{}^\\circ\\)．\n∴\\(\\angle ABC=\\angle DBF\\)．\n又∵\\(MN//PQ\\)，\n∴\\(BF//PQ\\)，\n∴\\(\\angle DBF=\\angle BDP\\)，\n∴\\(\\angle ABC=\\angle BDP\\)；",
+      "solution_steps": [
+        "\\(\\angle ABC=\\angle BDP\\)，理由如下：",
+        "∵\\(BF//MN\\)，",
+        "∴\\(\\angle ACB+\\angle CBF=180{}^\\circ\\)．",
+        "∵\\(AC\\bot BC\\)，",
+        "∴\\(\\angle BCA=90{}^\\circ\\)．",
+        "∴\\(\\angle CBF=180{}^\\circ -\\angle BCA=90{}^\\circ\\)．",
+        "∴\\(\\angle ABC+\\angle ABF=90{}^\\circ\\)．",
+        "∵\\(AB\\bot BD\\)，",
+        "∴\\(\\angle ABD=90{}^\\circ\\)．",
+        "∴\\(\\angle ABF+\\angle DBF=90{}^\\circ\\)．",
+        "∴\\(\\angle ABC=\\angle DBF\\)．",
+        "又∵\\(MN//PQ\\)，",
+        "∴\\(BF//PQ\\)，",
+        "∴\\(\\angle DBF=\\angle BDP\\)，",
+        "∴\\(\\angle ABC=\\angle BDP\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          93,
+          94,
+          96
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q20-P03",
+      "label": "（3）",
+      "prompt": "请从下面A，B两题中任选一题作答．\nA．如图3，在（2）的条件下，作∠ABD的平分线交直线MN于点E，当\\(\\angle AEB=2\\angle ABC\\)时直接写出\\(\\angle ABC\\)的度数；\nB．如图4，当点C在直线MN上且在点A左侧，点B在直线PQ下方时，过点B作\\(BD\\bot AB\\)交直线PQ于点D，作∠ABD的平分线交直线MN于点E，当\\(\\angle BDP=2\\angle BEN\\)时，直接写出\\(\\angle ABC\\)的度数．",
+      "stem_text": "请从下面A，B两题中任选一题作答．\nA．如图3，在（2）的条件下，作∠ABD的平分线交直线MN于点E，当\\(\\angle AEB=2\\angle ABC\\)时直接写出\\(\\angle ABC\\)的度数；\nB．如图4，当点C在直线MN上且在点A左侧，点B在直线PQ下方时，过点B作\\(BD\\bot AB\\)交直线PQ于点D，作∠ABD的平分线交直线MN于点E，当\\(\\angle BDP=2\\angle BEN\\)时，直接写出\\(\\angle ABC\\)的度数．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G7-T2-BC91928E80-Q20-P02"
+      ],
+      "given_answer": "A：\\(\\angle ABC=15{}^\\circ\\)；B：\\(\\angle ABC=30{}^\\circ\\)",
+      "answer": "A：\\(\\angle ABC=15{}^\\circ\\)；B：\\(\\angle ABC=30{}^\\circ\\)",
+      "given_solution": "选择A\n过点B作\\(BG//MN\\)，设\\(\\angle ABC=x\\)，则\\(\\angle AEB=\\angle EBG=2x\\)，\n〔图1〕\n由（2）得：\\(\\angle BDP=\\angle ABC=x\\)，\n∴\\(\\angle DBG=x\\)，\\(\\angle EBD=\\angle EBG+\\angle DBG=3x\\)，\n∵BE平分\\(\\angle ABD\\)\n∴\\(\\angle ABD=6x\\)，\n∵\\(AB\\bot BD\\)，\n∴\\(6x=90 ^ { {}^\\circ }\\)，\n解得\\(x=15 ^ { {}^\\circ }\\)\n或选择B\n设\\(\\angle ABC=x\\)，\n∵\\(AC\\bot BC\\) ，\\(MN//PQ\\) ，\n∴\\(BC\\bot PQ\\) ，\n∴\\(\\angle QDB+\\angle DBC=90 ^ { {}^\\circ }\\) ，\n∵\\(AB\\bot BD\\) ，\n∴\\(\\angle ABC+\\angle DBC=90 ^ { {}^\\circ }\\) ，\n∴\\(\\angle ABC=\\angle QDB=x\\) ，\n∴\\(\\angle BDP=180 ^ { {}^\\circ } -x\\) ，\n∵BE平分\\(\\angle ABD\\) ，\n∴\\(\\angle ABE=\\angle DBE=45 ^ { {}^\\circ }\\) ，\n在\\(\\vartriangle ABC\\) 中，\\(\\angle CAB=90 ^ { {}^\\circ } -x\\) ，\n在\\(\\vartriangle ABE\\) 中，\n\\(\\angle AEB=180 ^ { {}^\\circ } -\\angle ABE-\\angle CAB\\)\n\\(=180 ^ { {}^\\circ } -45 ^ { {}^\\circ } -\\left ( { 90 ^ { {}^\\circ } -x } \\right )=45 ^ { {}^\\circ } +x\\) ，\n∴\\(\\angle BEN=45 ^ { {}^\\circ } +x\\) ，\n∵\\(\\angle BDP=2\\angle BEN\\)，\n∴\\(180 ^ { {}^\\circ } -x=2\\left ( { 45 ^ { {}^\\circ } +x } \\right )\\) ，解得：\\(x=30 ^ { {}^\\circ }\\) ，\n∴\\(\\angle ABC=30 ^ { {}^\\circ }\\) ．",
+      "solution_steps": [
+        "选择A",
+        "过点B作\\(BG//MN\\)，设\\(\\angle ABC=x\\)，则\\(\\angle AEB=\\angle EBG=2x\\)，",
+        "〔图1〕",
+        "由（2）得：\\(\\angle BDP=\\angle ABC=x\\)，",
+        "∴\\(\\angle DBG=x\\)，\\(\\angle EBD=\\angle EBG+\\angle DBG=3x\\)，",
+        "∵BE平分\\(\\angle ABD\\)",
+        "∴\\(\\angle ABD=6x\\)，",
+        "∵\\(AB\\bot BD\\)，",
+        "∴\\(6x=90 ^ { {}^\\circ }\\)，",
+        "解得\\(x=15 ^ { {}^\\circ }\\)",
+        "或选择B",
+        "设\\(\\angle ABC=x\\)，",
+        "∵\\(AC\\bot BC\\) ，\\(MN//PQ\\) ，",
+        "∴\\(BC\\bot PQ\\) ，",
+        "∴\\(\\angle QDB+\\angle DBC=90 ^ { {}^\\circ }\\) ，",
+        "∵\\(AB\\bot BD\\) ，",
+        "∴\\(\\angle ABC+\\angle DBC=90 ^ { {}^\\circ }\\) ，",
+        "∴\\(\\angle ABC=\\angle QDB=x\\) ，",
+        "∴\\(\\angle BDP=180 ^ { {}^\\circ } -x\\) ，",
+        "∵BE平分\\(\\angle ABD\\) ，",
+        "∴\\(\\angle ABE=\\angle DBE=45 ^ { {}^\\circ }\\) ，",
+        "在\\(\\vartriangle ABC\\) 中，\\(\\angle CAB=90 ^ { {}^\\circ } -x\\) ，",
+        "在\\(\\vartriangle ABE\\) 中，",
+        "\\(\\angle AEB=180 ^ { {}^\\circ } -\\angle ABE-\\angle CAB\\)",
+        "\\(=180 ^ { {}^\\circ } -45 ^ { {}^\\circ } -\\left ( { 90 ^ { {}^\\circ } -x } \\right )=45 ^ { {}^\\circ } +x\\) ，",
+        "∴\\(\\angle BEN=45 ^ { {}^\\circ } +x\\) ，",
+        "∵\\(\\angle BDP=2\\angle BEN\\)，",
+        "∴\\(180 ^ { {}^\\circ } -x=2\\left ( { 45 ^ { {}^\\circ } +x } \\right )\\) ，解得：\\(x=30 ^ { {}^\\circ }\\) ，",
+        "∴\\(\\angle ABC=30 ^ { {}^\\circ }\\) ．"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          93,
+          94,
+          96,
+          97,
+          98,
+          99
+        ],
+        "solution_block_ids": [
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "（1）\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；（2）\\(\\angle ABC=\\angle BDP\\)，见解析；（3）A：\\(\\angle ABC=15{}^\\circ\\)；B：\\(\\angle ABC=30{}^\\circ\\)",
+  "answer": "（1）\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；（2）\\(\\angle ABC=\\angle BDP\\)，见解析；（3）A：\\(\\angle ABC=15{}^\\circ\\)；B：\\(\\angle ABC=30{}^\\circ\\)",
+  "given_solution": "【分析】（1）根据平行线的性质和直角的性质即可解答；\n（2）根据\\(BF//MN\\)，可得\\(\\angle CBF=90{}^\\circ\\)，再由\\(AB\\bot BD\\)，可得\\(\\angle ABC=\\angle DBF\\)，然后根据\\(BF//PQ\\)，即可求解；\n（3）A、过点B作\\(BG//MN\\)，设\\(\\angle ABC=x\\)，则\\(\\angle AEB=\\angle EBG=2x\\)，由（2）得\\(\\angle BDP=\\angle ABC=x\\)，从而\\(\\angle EBD=3x\\)，又由BE平分\\(\\angle ABD\\)，得\\(\\angle ABD=6x\\)，即可求解；\nB、设\\(\\angle ABC=x\\)，根据题意得\\(\\angle QDB+\\angle DBC=90 ^ { {}^\\circ }\\) ，由\\(AB\\bot BD\\) ，可得\\(\\angle BDP=180 ^ { {}^\\circ } -x\\)，然后据BE平分\\(\\angle ABD\\) ，可得\\(\\angle BEN=45 ^ { {}^\\circ } +x\\)，最后由\\(\\angle BDP=2\\angle BEN\\)，即可求解．\n【详解】解：（1）∵\\(MN//PQ\\)，\n∴\\(\\angle ABC=\\angle CDP\\) ，\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle C=90 ^ { {}^\\circ }\\) ，\n∴\\(\\angle CAB+\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；\n（2）\\(\\angle ABC=\\angle BDP\\)，理由如下：\n∵\\(BF//MN\\)，\n∴\\(\\angle ACB+\\angle CBF=180{}^\\circ\\)．\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle CBF=180{}^\\circ -\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle ABC+\\angle ABF=90{}^\\circ\\)．\n∵\\(AB\\bot BD\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)．\n∴\\(\\angle ABF+\\angle DBF=90{}^\\circ\\)．\n∴\\(\\angle ABC=\\angle DBF\\)．\n又∵\\(MN//PQ\\)，\n∴\\(BF//PQ\\)，\n∴\\(\\angle DBF=\\angle BDP\\)，\n∴\\(\\angle ABC=\\angle BDP\\)；\n（3）选择A\n过点B作\\(BG//MN\\)，设\\(\\angle ABC=x\\)，则\\(\\angle AEB=\\angle EBG=2x\\)，\n〔图1〕\n由（2）得：\\(\\angle BDP=\\angle ABC=x\\)，\n∴\\(\\angle DBG=x\\)，\\(\\angle EBD=\\angle EBG+\\angle DBG=3x\\)，\n∵BE平分\\(\\angle ABD\\)\n∴\\(\\angle ABD=6x\\)，\n∵\\(AB\\bot BD\\)，\n∴\\(6x=90 ^ { {}^\\circ }\\)，\n解得\\(x=15 ^ { {}^\\circ }\\)\n或选择B\n设\\(\\angle ABC=x\\)，\n∵\\(AC\\bot BC\\) ，\\(MN//PQ\\) ，\n∴\\(BC\\bot PQ\\) ，\n∴\\(\\angle QDB+\\angle DBC=90 ^ { {}^\\circ }\\) ，\n∵\\(AB\\bot BD\\) ，\n∴\\(\\angle ABC+\\angle DBC=90 ^ { {}^\\circ }\\) ，\n∴\\(\\angle ABC=\\angle QDB=x\\) ，\n∴\\(\\angle BDP=180 ^ { {}^\\circ } -x\\) ，\n∵BE平分\\(\\angle ABD\\) ，\n∴\\(\\angle ABE=\\angle DBE=45 ^ { {}^\\circ }\\) ，\n在\\(\\vartriangle ABC\\) 中，\\(\\angle CAB=90 ^ { {}^\\circ } -x\\) ，\n在\\(\\vartriangle ABE\\) 中，\n\\(\\angle AEB=180 ^ { {}^\\circ } -\\angle ABE-\\angle CAB\\)\n\\(=180 ^ { {}^\\circ } -45 ^ { {}^\\circ } -\\left ( { 90 ^ { {}^\\circ } -x } \\right )=45 ^ { {}^\\circ } +x\\) ，\n∴\\(\\angle BEN=45 ^ { {}^\\circ } +x\\) ，\n∵\\(\\angle BDP=2\\angle BEN\\)，\n∴\\(180 ^ { {}^\\circ } -x=2\\left ( { 45 ^ { {}^\\circ } +x } \\right )\\) ，解得：\\(x=30 ^ { {}^\\circ }\\) ，\n∴\\(\\angle ABC=30 ^ { {}^\\circ }\\) ．\n【点睛】本题主要考查了平行线的性质和角平分线的定义，能作出合适辅助线构成平行线是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/4f/4f22b67af5d5060f572f727c7344f5bdba0bf599b96aa4bb2757eb17d55a28f3.png"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_steps": [
+    "解：（1）∵\\(MN//PQ\\)，",
+    "∴\\(\\angle ABC=\\angle CDP\\) ，",
+    "∵\\(AC\\bot BC\\)，",
+    "∴\\(\\angle C=90 ^ { {}^\\circ }\\) ，",
+    "∴\\(\\angle CAB+\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；",
+    "（2）\\(\\angle ABC=\\angle BDP\\)，理由如下：",
+    "∵\\(BF//MN\\)，",
+    "∴\\(\\angle ACB+\\angle CBF=180{}^\\circ\\)．",
+    "∵\\(AC\\bot BC\\)，",
+    "∴\\(\\angle BCA=90{}^\\circ\\)．",
+    "∴\\(\\angle CBF=180{}^\\circ -\\angle BCA=90{}^\\circ\\)．",
+    "∴\\(\\angle ABC+\\angle ABF=90{}^\\circ\\)．",
+    "∵\\(AB\\bot BD\\)，",
+    "∴\\(\\angle ABD=90{}^\\circ\\)．",
+    "∴\\(\\angle ABF+\\angle DBF=90{}^\\circ\\)．",
+    "∴\\(\\angle ABC=\\angle DBF\\)．",
+    "又∵\\(MN//PQ\\)，",
+    "∴\\(BF//PQ\\)，",
+    "∴\\(\\angle DBF=\\angle BDP\\)，",
+    "∴\\(\\angle ABC=\\angle BDP\\)；",
+    "（3）选择A",
+    "过点B作\\(BG//MN\\)，设\\(\\angle ABC=x\\)，则\\(\\angle AEB=\\angle EBG=2x\\)，",
+    "〔图1〕",
+    "由（2）得：\\(\\angle BDP=\\angle ABC=x\\)，",
+    "∴\\(\\angle DBG=x\\)，\\(\\angle EBD=\\angle EBG+\\angle DBG=3x\\)，",
+    "∵BE平分\\(\\angle ABD\\)",
+    "∴\\(\\angle ABD=6x\\)，",
+    "∵\\(AB\\bot BD\\)，",
+    "∴\\(6x=90 ^ { {}^\\circ }\\)，",
+    "解得\\(x=15 ^ { {}^\\circ }\\)",
+    "或选择B",
+    "设\\(\\angle ABC=x\\)，",
+    "∵\\(AC\\bot BC\\) ，\\(MN//PQ\\) ，",
+    "∴\\(BC\\bot PQ\\) ，",
+    "∴\\(\\angle QDB+\\angle DBC=90 ^ { {}^\\circ }\\) ，",
+    "∵\\(AB\\bot BD\\) ，",
+    "∴\\(\\angle ABC+\\angle DBC=90 ^ { {}^\\circ }\\) ，",
+    "∴\\(\\angle ABC=\\angle QDB=x\\) ，",
+    "∴\\(\\angle BDP=180 ^ { {}^\\circ } -x\\) ，",
+    "∵BE平分\\(\\angle ABD\\) ，",
+    "∴\\(\\angle ABE=\\angle DBE=45 ^ { {}^\\circ }\\) ，",
+    "在\\(\\vartriangle ABC\\) 中，\\(\\angle CAB=90 ^ { {}^\\circ } -x\\) ，",
+    "在\\(\\vartriangle ABE\\) 中，",
+    "\\(\\angle AEB=180 ^ { {}^\\circ } -\\angle ABE-\\angle CAB\\)",
+    "\\(=180 ^ { {}^\\circ } -45 ^ { {}^\\circ } -\\left ( { 90 ^ { {}^\\circ } -x } \\right )=45 ^ { {}^\\circ } +x\\) ，",
+    "∴\\(\\angle BEN=45 ^ { {}^\\circ } +x\\) ，",
+    "∵\\(\\angle BDP=2\\angle BEN\\)，",
+    "∴\\(180 ^ { {}^\\circ } -x=2\\left ( { 45 ^ { {}^\\circ } +x } \\right )\\) ，解得：\\(x=30 ^ { {}^\\circ }\\) ，",
+    "∴\\(\\angle ABC=30 ^ { {}^\\circ }\\) ．"
+  ],
+  "solution": "解：（1）∵\\(MN//PQ\\)，\n∴\\(\\angle ABC=\\angle CDP\\) ，\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle C=90 ^ { {}^\\circ }\\) ，\n∴\\(\\angle CAB+\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle CAB+\\angle CDP=90{}^\\circ\\)；\n（2）\\(\\angle ABC=\\angle BDP\\)，理由如下：\n∵\\(BF//MN\\)，\n∴\\(\\angle ACB+\\angle CBF=180{}^\\circ\\)．\n∵\\(AC\\bot BC\\)，\n∴\\(\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle CBF=180{}^\\circ -\\angle BCA=90{}^\\circ\\)．\n∴\\(\\angle ABC+\\angle ABF=90{}^\\circ\\)．\n∵\\(AB\\bot BD\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)．\n∴\\(\\angle ABF+\\angle DBF=90{}^\\circ\\)．\n∴\\(\\angle ABC=\\angle DBF\\)．\n又∵\\(MN//PQ\\)，\n∴\\(BF//PQ\\)，\n∴\\(\\angle DBF=\\angle BDP\\)，\n∴\\(\\angle ABC=\\angle BDP\\)；\n（3）选择A\n过点B作\\(BG//MN\\)，设\\(\\angle ABC=x\\)，则\\(\\angle AEB=\\angle EBG=2x\\)，\n〔图1〕\n由（2）得：\\(\\angle BDP=\\angle ABC=x\\)，\n∴\\(\\angle DBG=x\\)，\\(\\angle EBD=\\angle EBG+\\angle DBG=3x\\)，\n∵BE平分\\(\\angle ABD\\)\n∴\\(\\angle ABD=6x\\)，\n∵\\(AB\\bot BD\\)，\n∴\\(6x=90 ^ { {}^\\circ }\\)，\n解得\\(x=15 ^ { {}^\\circ }\\)\n或选择B\n设\\(\\angle ABC=x\\)，\n∵\\(AC\\bot BC\\) ，\\(MN//PQ\\) ，\n∴\\(BC\\bot PQ\\) ，\n∴\\(\\angle QDB+\\angle DBC=90 ^ { {}^\\circ }\\) ，\n∵\\(AB\\bot BD\\) ，\n∴\\(\\angle ABC+\\angle DBC=90 ^ { {}^\\circ }\\) ，\n∴\\(\\angle ABC=\\angle QDB=x\\) ，\n∴\\(\\angle BDP=180 ^ { {}^\\circ } -x\\) ，\n∵BE平分\\(\\angle ABD\\) ，\n∴\\(\\angle ABE=\\angle DBE=45 ^ { {}^\\circ }\\) ，\n在\\(\\vartriangle ABC\\) 中，\\(\\angle CAB=90 ^ { {}^\\circ } -x\\) ，\n在\\(\\vartriangle ABE\\) 中，\n\\(\\angle AEB=180 ^ { {}^\\circ } -\\angle ABE-\\angle CAB\\)\n\\(=180 ^ { {}^\\circ } -45 ^ { {}^\\circ } -\\left ( { 90 ^ { {}^\\circ } -x } \\right )=45 ^ { {}^\\circ } +x\\) ，\n∴\\(\\angle BEN=45 ^ { {}^\\circ } +x\\) ，\n∵\\(\\angle BDP=2\\angle BEN\\)，\n∴\\(180 ^ { {}^\\circ } -x=2\\left ( { 45 ^ { {}^\\circ } +x } \\right )\\) ，解得：\\(x=30 ^ { {}^\\circ }\\) ，\n∴\\(\\angle ABC=30 ^ { {}^\\circ }\\) ．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-BC91928E80/single/q20-p06.webp",
+      "assets/SZ-G7-T2-BC91928E80/single/q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          427.88,
+          582.44,
+          770.92
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.44,
+          278.35
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-BC91928E80/single/s20-p18.webp",
+      "assets/SZ-G7-T2-BC91928E80/single/s20-p19.webp",
+      "assets/SZ-G7-T2-BC91928E80/single/s20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          310.88,
+          582.44,
+          753.49
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.44,
+          754.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          13,
+          80.96,
+          582.44,
+          488.78
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

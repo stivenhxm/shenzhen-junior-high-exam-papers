@@ -321,6 +321,15 @@ class Bank:
                 "review_note":task.get("review_note",""),"source":source_for(q,task,"solution",paper),
                 "solution_figures":[q["given_solution_figures"][n-1] for n in solution_figure_ids]
             }
+            more = task.get("source",{}).get("supplemental_solutions",[])
+            if more:
+                for ref in more:
+                    target = self.asset(ref["pdf"])
+                    require(file_hash(target)==ref["sha256"]==file_hash(local(self.root.parent,ref["git_path"])),
+                            f"{key} 补充解析来源指纹不符")
+                    require(ref["pages"] and all(type(n) is int and 1 <= n <= ref["print_page_count"] for n in ref["pages"]),
+                            f"{key} 补充解析页码越界")
+                self.shards["answers/"+key]["supplemental_solutions"]=more
             displayed = [task["answer"], *task["solution_steps"], task.get("given_answer", "")]
             cited = sorted({int(n) for line in displayed for n in re.findall(r"〔图(\d+)〕", line)})
             if cited:
@@ -458,6 +467,7 @@ def subset(bank,args):
                     paths.add(shard["source"][field])
             paths.update(shard.get("figures",[]))
             paths.update(shard.get("solution_figures",[]))
+            paths.update(ref["pdf"] for ref in shard.get("supplemental_solutions",[]))
             paths.update(shard.get("figure_refs",{}).values())
     assets={}
     for rel in sorted(paths):

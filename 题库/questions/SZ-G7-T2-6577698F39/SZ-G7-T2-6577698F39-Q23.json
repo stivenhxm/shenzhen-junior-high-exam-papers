@@ -1,0 +1,315 @@
+{
+  "id": "SZ-G7-T2-6577698F39-Q23",
+  "paper_id": "SZ-G7-T2-6577698F39",
+  "number": 23,
+  "type": "解答题",
+  "points": 12,
+  "title": "由三边关系确定边长范围、构造全等关系证明线段或角关系",
+  "stem": "定理：三角形任意两边之和大于第三边．\n〔图1〕\n（1）如图1，线段\\(AD\\)，\\(BC\\)交于点\\(E\\)，连接\\(AB\\)，\\(CD\\)，判断\\(AD+BC\\)与\\(AB+CD\\)的大小关系，并说明理由；\n（2）如图2，\\(OC\\)平分\\(\\angle AOB\\)，\\(P\\)为\\(OC\\)上任意一点，在\\(OA\\)，\\(OB\\)上截取\\(OE=OF\\)，连接\\(PE\\)，\\(PF\\)．求证：\\(PE=PF\\)；\n（3）如图3，在\\(\\vartriangle ABC\\)中，\\(AB>AC\\)，\\(P\\)为角平分线\\(AD\\)上异于端点的一动点，求证：\\(PB-PC>BD-CD\\)．",
+  "choices": [],
+  "figures": [
+    "assets/figures/a4/a449b4620e62a5e3ce99d6cd78c9f17d3bde293cc94e8ea866166e2fbf675f24.jpeg"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AD+BC>AB+CD\\)；理由见详解\n（2）证明见详解    （3）证明见详解",
+  "answer": "（1）\\(AD+BC>AB+CD\\)；理由见详解\n（2）证明见详解    （3）证明见详解",
+  "given_solution": "【分析】（1）根据三角形任意两边之和大于第三边知，\\(AE+BE>AB\\)，\\(CE+ED>CD\\)，两式相加即可得出结论；\n（2）根据\\(SAS\\)证\\(\\vartriangle OEP≌\\vartriangle OFP\\)即可得出结论；\n（3）在\\(AB\\)上取一点\\(E\\)，使\\(AE=AC\\)，连接\\(DE\\)交\\(BP\\)于点\\(F\\)，证\\(\\vartriangle APE≌\\vartriangle APC\\)，即\\(PC=PE\\)，同理证\\(CD=DE\\)，然后同理（1）得\\(PB+CD>PC+BD\\)，变形不等式即可得出结论．\n【小问1详解】\n解：\\(AD+BC>AB+CD\\)，理由如下：\n\\(\\because AE+BE>AB\\)，\\(CE+ED>CD\\)，\n\\(\\therefore AE+BE+CE+ED>AB+CD\\)，\n即\\(AD+BC>AB+CD\\)；\n【小问2详解】\n证明：\\(\\because OC\\)平分\\(\\angle AOB\\)，\n\\(\\therefore \\angle EOP=\\angle FOP\\)，\n在\\(\\vartriangle OEP\\)和\\(\\vartriangle OFP\\)中，\n\\(\\begin{cases} OE=OF \\\\ \\angle EOP=\\angle FOP \\\\ OP=OP \\end{cases}\\)，\n\\(\\therefore \\vartriangle OEP≌\\vartriangle OFP\\left ( { SAS } \\right )\\)，\n\\(\\therefore PE=PF\\)；\n【小问3详解】\n证明：在\\(AB\\)上取一点\\(E\\)，使\\(AE=AC\\)，连接\\(DE\\)交\\(BP\\)于点\\(F\\)，\n〔图2〕\n\\(\\because AD\\)是\\(\\angle BAC\\)的角平分线，\n\\(\\therefore \\angle EAP=\\angle CAP\\)，\n在\\(\\vartriangle APE\\)和\\(\\vartriangle APC\\)中，\n\\(\\begin{cases} AE=AC \\\\ \\angle EAP=\\angle CAP \\\\ AP=AP \\end{cases}\\)，\n\\(\\therefore \\vartriangle APE≌\\vartriangle APC\\left ( { SAS } \\right )\\)，\n\\(\\therefore PE=PC\\)，\n同理可证\\(DE=DC\\)，\n\\(\\because EF+PF>EP\\)，\\(BF+FD>BD\\)，\n\\(\\therefore EF+PF+BF+FD>EP+BD\\)，\n即\\(PB+DE>EP+BD\\)，\n\\(\\therefore PB+CD>PC+BD\\)，\n\\(\\therefore PB-PC>BD-CD\\)．\n【点睛】本题主要考查三角形的综合题，熟练掌握三角形的三边关系和全等三角形的判定和性质等知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/a4/a449b4620e62a5e3ce99d6cd78c9f17d3bde293cc94e8ea866166e2fbf675f24.jpeg",
+    "assets/figures/e7/e7ac6b5e0a5d37b4498b0e2d4a2ee0846a55c1d88e14a9aa66f2fea22972d27d.jpeg"
+  ],
+  "solution": "【小问1详解】\n解：\\(AD+BC>AB+CD\\)，理由如下：\n\\(\\because AE+BE>AB\\)，\\(CE+ED>CD\\)，\n\\(\\therefore AE+BE+CE+ED>AB+CD\\)，\n即\\(AD+BC>AB+CD\\)；\n【小问2详解】\n证明：\\(\\because OC\\)平分\\(\\angle AOB\\)，\n\\(\\therefore \\angle EOP=\\angle FOP\\)，\n在\\(\\vartriangle OEP\\)和\\(\\vartriangle OFP\\)中，\n\\(\\begin{cases} OE=OF \\\\ \\angle EOP=\\angle FOP \\\\ OP=OP \\end{cases}\\)，\n\\(\\therefore \\vartriangle OEP≌\\vartriangle OFP\\left ( { SAS } \\right )\\)，\n\\(\\therefore PE=PF\\)；\n【小问3详解】\n证明：在\\(AB\\)上取一点\\(E\\)，使\\(AE=AC\\)，连接\\(DE\\)交\\(BP\\)于点\\(F\\)，\n〔图2〕\n\\(\\because AD\\)是\\(\\angle BAC\\)的角平分线，\n\\(\\therefore \\angle EAP=\\angle CAP\\)，\n在\\(\\vartriangle APE\\)和\\(\\vartriangle APC\\)中，\n\\(\\begin{cases} AE=AC \\\\ \\angle EAP=\\angle CAP \\\\ AP=AP \\end{cases}\\)，\n\\(\\therefore \\vartriangle APE≌\\vartriangle APC\\left ( { SAS } \\right )\\)，\n\\(\\therefore PE=PC\\)，\n同理可证\\(DE=DC\\)，\n\\(\\because EF+PF>EP\\)，\\(BF+FD>BD\\)，\n\\(\\therefore EF+PF+BF+FD>EP+BD\\)，\n即\\(PB+DE>EP+BD\\)，\n\\(\\therefore PB+CD>PC+BD\\)，\n\\(\\therefore PB-PC>BD-CD\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(AD+BC>AB+CD\\)，理由如下：",
+    "\\(\\because AE+BE>AB\\)，\\(CE+ED>CD\\)，",
+    "\\(\\therefore AE+BE+CE+ED>AB+CD\\)，",
+    "即\\(AD+BC>AB+CD\\)；",
+    "【小问2详解】",
+    "证明：\\(\\because OC\\)平分\\(\\angle AOB\\)，",
+    "\\(\\therefore \\angle EOP=\\angle FOP\\)，",
+    "在\\(\\vartriangle OEP\\)和\\(\\vartriangle OFP\\)中，",
+    "\\(\\begin{cases} OE=OF \\\\ \\angle EOP=\\angle FOP \\\\ OP=OP \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle OEP≌\\vartriangle OFP\\left ( { SAS } \\right )\\)，",
+    "\\(\\therefore PE=PF\\)；",
+    "【小问3详解】",
+    "证明：在\\(AB\\)上取一点\\(E\\)，使\\(AE=AC\\)，连接\\(DE\\)交\\(BP\\)于点\\(F\\)，",
+    "〔图2〕",
+    "\\(\\because AD\\)是\\(\\angle BAC\\)的角平分线，",
+    "\\(\\therefore \\angle EAP=\\angle CAP\\)，",
+    "在\\(\\vartriangle APE\\)和\\(\\vartriangle APC\\)中，",
+    "\\(\\begin{cases} AE=AC \\\\ \\angle EAP=\\angle CAP \\\\ AP=AP \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle APE≌\\vartriangle APC\\left ( { SAS } \\right )\\)，",
+    "\\(\\therefore PE=PC\\)，",
+    "同理可证\\(DE=DC\\)，",
+    "\\(\\because EF+PF>EP\\)，\\(BF+FD>BD\\)，",
+    "\\(\\therefore EF+PF+BF+FD>EP+BD\\)，",
+    "即\\(PB+DE>EP+BD\\)，",
+    "\\(\\therefore PB+CD>PC+BD\\)，",
+    "\\(\\therefore PB-PC>BD-CD\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "定理：三角形任意两边之和大于第三边．\n〔图1〕",
+      "paper_blocks": [
+        80,
+        81
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-6577698F39-Q23-P01",
+      "label": "（1）",
+      "prompt": "如图1，线段\\(AD\\)，\\(BC\\)交于点\\(E\\)，连接\\(AB\\)，\\(CD\\)，判断\\(AD+BC\\)与\\(AB+CD\\)的大小关系，并说明理由；",
+      "stem_text": "如图1，线段\\(AD\\)，\\(BC\\)交于点\\(E\\)，连接\\(AB\\)，\\(CD\\)，判断\\(AD+BC\\)与\\(AB+CD\\)的大小关系，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD+BC>AB+CD\\)；理由见详解",
+      "answer": "\\(AD+BC>AB+CD\\)；理由见详解",
+      "given_solution": "解：\\(AD+BC>AB+CD\\)，理由如下：\n\\(\\because AE+BE>AB\\)，\\(CE+ED>CD\\)，\n\\(\\therefore AE+BE+CE+ED>AB+CD\\)，\n即\\(AD+BC>AB+CD\\)；",
+      "solution_steps": [
+        "解：\\(AD+BC>AB+CD\\)，理由如下：",
+        "\\(\\because AE+BE>AB\\)，\\(CE+ED>CD\\)，",
+        "\\(\\therefore AE+BE+CE+ED>AB+CD\\)，",
+        "即\\(AD+BC>AB+CD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          80,
+          81,
+          82
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [
+        "E.G02.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q23-P02",
+      "label": "（2）",
+      "prompt": "如图2，\\(OC\\)平分\\(\\angle AOB\\)，\\(P\\)为\\(OC\\)上任意一点，在\\(OA\\)，\\(OB\\)上截取\\(OE=OF\\)，连接\\(PE\\)，\\(PF\\)．求证：\\(PE=PF\\)；",
+      "stem_text": "如图2，\\(OC\\)平分\\(\\angle AOB\\)，\\(P\\)为\\(OC\\)上任意一点，在\\(OA\\)，\\(OB\\)上截取\\(OE=OF\\)，连接\\(PE\\)，\\(PF\\)．求证：\\(PE=PF\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见详解",
+      "answer": "证明见详解",
+      "given_solution": "证明：\\(\\because OC\\)平分\\(\\angle AOB\\)，\n\\(\\therefore \\angle EOP=\\angle FOP\\)，\n在\\(\\vartriangle OEP\\)和\\(\\vartriangle OFP\\)中，\n\\(\\begin{cases} OE=OF \\\\ \\angle EOP=\\angle FOP \\\\ OP=OP \\end{cases}\\)，\n\\(\\therefore \\vartriangle OEP≌\\vartriangle OFP\\left ( { SAS } \\right )\\)，\n\\(\\therefore PE=PF\\)；",
+      "solution_steps": [
+        "证明：\\(\\because OC\\)平分\\(\\angle AOB\\)，",
+        "\\(\\therefore \\angle EOP=\\angle FOP\\)，",
+        "在\\(\\vartriangle OEP\\)和\\(\\vartriangle OFP\\)中，",
+        "\\(\\begin{cases} OE=OF \\\\ \\angle EOP=\\angle FOP \\\\ OP=OP \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle OEP≌\\vartriangle OFP\\left ( { SAS } \\right )\\)，",
+        "\\(\\therefore PE=PF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          80,
+          81,
+          83
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q23-P03",
+      "label": "（3）",
+      "prompt": "如图3，在\\(\\vartriangle ABC\\)中，\\(AB>AC\\)，\\(P\\)为角平分线\\(AD\\)上异于端点的一动点，求证：\\(PB-PC>BD-CD\\)．",
+      "stem_text": "如图3，在\\(\\vartriangle ABC\\)中，\\(AB>AC\\)，\\(P\\)为角平分线\\(AD\\)上异于端点的一动点，求证：\\(PB-PC>BD-CD\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见详解",
+      "answer": "证明见详解",
+      "given_solution": "证明：在\\(AB\\)上取一点\\(E\\)，使\\(AE=AC\\)，连接\\(DE\\)交\\(BP\\)于点\\(F\\)，\n〔图2〕\n\\(\\because AD\\)是\\(\\angle BAC\\)的角平分线，\n\\(\\therefore \\angle EAP=\\angle CAP\\)，\n在\\(\\vartriangle APE\\)和\\(\\vartriangle APC\\)中，\n\\(\\begin{cases} AE=AC \\\\ \\angle EAP=\\angle CAP \\\\ AP=AP \\end{cases}\\)，\n\\(\\therefore \\vartriangle APE≌\\vartriangle APC\\left ( { SAS } \\right )\\)，\n\\(\\therefore PE=PC\\)，\n同理可证\\(DE=DC\\)，\n\\(\\because EF+PF>EP\\)，\\(BF+FD>BD\\)，\n\\(\\therefore EF+PF+BF+FD>EP+BD\\)，\n即\\(PB+DE>EP+BD\\)，\n\\(\\therefore PB+CD>PC+BD\\)，\n\\(\\therefore PB-PC>BD-CD\\)．",
+      "solution_steps": [
+        "证明：在\\(AB\\)上取一点\\(E\\)，使\\(AE=AC\\)，连接\\(DE\\)交\\(BP\\)于点\\(F\\)，",
+        "〔图2〕",
+        "\\(\\because AD\\)是\\(\\angle BAC\\)的角平分线，",
+        "\\(\\therefore \\angle EAP=\\angle CAP\\)，",
+        "在\\(\\vartriangle APE\\)和\\(\\vartriangle APC\\)中，",
+        "\\(\\begin{cases} AE=AC \\\\ \\angle EAP=\\angle CAP \\\\ AP=AP \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle APE≌\\vartriangle APC\\left ( { SAS } \\right )\\)，",
+        "\\(\\therefore PE=PC\\)，",
+        "同理可证\\(DE=DC\\)，",
+        "\\(\\because EF+PF>EP\\)，\\(BF+FD>BD\\)，",
+        "\\(\\therefore EF+PF+BF+FD>EP+BD\\)，",
+        "即\\(PB+DE>EP+BD\\)，",
+        "\\(\\therefore PB+CD>PC+BD\\)，",
+        "\\(\\therefore PB-PC>BD-CD\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          80,
+          81,
+          84
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      80,
+      84
+    ],
+    "solution_body_blocks": [
+      354,
+      392
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-6577698F39/paper-q23-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          315.45,
+          583.64,
+          578.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-6577698F39/solution-q23-p17.webp",
+      "assets/SZ-G7-T2-6577698F39/solution-q23-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          167.27,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          509.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G02.01.01",
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按题面要求和原解所用方法核定。 按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

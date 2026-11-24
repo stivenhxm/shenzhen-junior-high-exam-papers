@@ -1,0 +1,335 @@
+{
+  "id": "SZ-G7-T2-6577698F39-Q22",
+  "paper_id": "SZ-G7-T2-6577698F39",
+  "number": 22,
+  "type": "解答题",
+  "points": 12,
+  "title": "展开简单整式乘积并合并",
+  "stem": "（1）计算：\n①\\((x+9)(x+4)\\)；\n②\\((x-2)(x-18)\\)．\n（2）分别求\\(n\\)的值：\n①\\((x-3)(x+m)=x ^ { 2 } +nx+36\\)；\n②\\((x-6)(x+m)=x ^ { 2 } +nx+36\\)．\n（3）已知\\((x+p)(x+q)=x ^ { 2 } +nx+6\\)，\\(p\\)、\\(q\\)为正整数，求\\(n\\)的值．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）①\\(x ^ { 2 } +13x+36\\)，②\\(x ^ { 2 } -20x+36\\)；（2）①\\(m=-12\\)，\\(n=-15\\)．\n②\\(m=-6\\)，\\(n=-12\\)；（3）满足题意的\\(n\\)为：37，20，15，13，12．",
+  "answer": "（1）①\\(x ^ { 2 } +13x+36\\)，\n（1）②\\(x ^ { 2 } -20x+36\\)；\n（2）①\\(m=-12\\)，\\(n=-15\\)．\n（2）②\\(m=-6\\)，\\(n=-12\\)；\n（3）\\(n=7\\) 或 \\(n=5\\)。",
+  "given_solution": "【分析】（1）依据题意，根据多项式与多项式相乘即可得解；\n（2）依据题意，先根据常数项相等求出\\(m\\)，再根据一次项系数相同进而求出\\(n\\)；\n（3）依据题意，列出关于\\(p\\)，\\(q\\)的方程，再结合\\(p\\)，\\(q\\)为正整数，进而可以得解．\n【详解】解：（1）①原式\\(=x ^ { 2 } +4x+9x+36=x ^ { 2 } +13x+36\\)；\n②原式\\(=x ^ { 2 } -18x-2x+36=x ^ { 2 } -20x+36\\)．\n（2）①\\(\\because x ^ { 2 } +\\left ( { m-3 } \\right )x-3m=x ^ { 2 } +nx+36\\)，\n\\(\\therefore m-3=n\\)，\\(-3m=36\\)．\n\\(\\therefore m=-12\\)，\\(n=-15\\)．\n②\\(\\because x ^ { 2 } +\\left ( { m-6 } \\right )x-6m=x ^ { 2 } +nx+36\\)，\n\\(\\therefore m-6=n\\)，\\(-6m=36\\)．\n\\(\\therefore m=-6\\)，\\(n=-12\\)．\n（3）由题意得，\\(x ^ { 2 } +\\left ( { p+q } \\right )x+pq=x ^ { 2 } +nx+36\\)，\n\\(\\therefore p+q=n\\)，\\(pq=36\\)．\n\\(\\because p\\)，\\(q\\)为正整数，\n\\(\\therefore p=1\\)，\\(q=36\\)；\\(p=2\\)，\\(q=18\\)；\\(p=3\\)，\\(q=12\\)；\\(p=4\\)，\\(q=9\\)；\\(p=6\\)，\\(q=6\\)；\\(p=9\\)，\\(q=4\\)；\n\\(p=12\\)，\\(q=3\\)；\\(p=18\\)，\\(q=2\\)；\\(p=36\\)，\\(q=1\\)．\n\\(\\therefore\\)满足题意的\\(n\\)为：37，20，15，13，12．\n【点睛】本题主要考查了多项式的乘法，解题时要熟练掌握相关变形是关键．",
+  "given_solution_figures": [],
+  "solution": "（1）① 原式\\(=x ^ { 2 } +4x+9x+36=x ^ { 2 } +13x+36\\)；\n（1）② 原式\\(=x ^ { 2 } -18x-2x+36=x ^ { 2 } -20x+36\\)．\n（2）① \\(\\because x ^ { 2 } +\\left ( { m-3 } \\right )x-3m=x ^ { 2 } +nx+36\\)，\n\\(\\therefore m-3=n\\)，\\(-3m=36\\)．\n\\(\\therefore m=-12\\)，\\(n=-15\\)．\n（2）② \\(\\because x ^ { 2 } +\\left ( { m-6 } \\right )x-6m=x ^ { 2 } +nx+36\\)，\n\\(\\therefore m-6=n\\)，\\(-6m=36\\)．\n\\(\\therefore m=-6\\)，\\(n=-12\\)．\n（3） 把左边展开，得到 \\(x^2+(p+q)x+pq\\)。比较系数，得 \\(pq=6,\\ n=p+q\\)。\n因 \\(p,q\\) 为正整数，不计顺序只可能为 \\(1,6\\) 或 \\(2,3\\)，对应的和是 7 或 5。",
+  "solution_steps": [
+    "（1）① 原式\\(=x ^ { 2 } +4x+9x+36=x ^ { 2 } +13x+36\\)；",
+    "（1）② 原式\\(=x ^ { 2 } -18x-2x+36=x ^ { 2 } -20x+36\\)．",
+    "（2）① \\(\\because x ^ { 2 } +\\left ( { m-3 } \\right )x-3m=x ^ { 2 } +nx+36\\)，",
+    "\\(\\therefore m-3=n\\)，\\(-3m=36\\)．",
+    "\\(\\therefore m=-12\\)，\\(n=-15\\)．",
+    "（2）② \\(\\because x ^ { 2 } +\\left ( { m-6 } \\right )x-6m=x ^ { 2 } +nx+36\\)，",
+    "\\(\\therefore m-6=n\\)，\\(-6m=36\\)．",
+    "\\(\\therefore m=-6\\)，\\(n=-12\\)．",
+    "（3） 把左边展开，得到 \\(x^2+(p+q)x+pq\\)。比较系数，得 \\(pq=6,\\ n=p+q\\)。",
+    "因 \\(p,q\\) 为正整数，不计顺序只可能为 \\(1,6\\) 或 \\(2,3\\)，对应的和是 7 或 5。"
+  ],
+  "solution_origin": "source_checked_with_correction",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "计算：",
+      "paper_blocks": [
+        73
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "分别求\\(n\\)的值：",
+      "paper_blocks": [
+        76
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-6577698F39-Q22-P01",
+      "label": "（1）①",
+      "prompt": "\\((x+9)(x+4)\\)；",
+      "stem_text": "\\((x+9)(x+4)\\)；",
+      "material_ids": [
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(x ^ { 2 } +13x+36\\)，",
+      "answer": "\\(x ^ { 2 } +13x+36\\)，",
+      "given_solution": "原式\\(=x ^ { 2 } +4x+9x+36=x ^ { 2 } +13x+36\\)；",
+      "solution_steps": [
+        "原式\\(=x ^ { 2 } +4x+9x+36=x ^ { 2 } +13x+36\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          339
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.05"
+      ],
+      "exam_ids": [
+        "E.N03.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q22-P02",
+      "label": "（1）②",
+      "prompt": "\\((x-2)(x-18)\\)．",
+      "stem_text": "\\((x-2)(x-18)\\)．",
+      "material_ids": [
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(x ^ { 2 } -20x+36\\)；",
+      "answer": "\\(x ^ { 2 } -20x+36\\)；",
+      "given_solution": "原式\\(=x ^ { 2 } -18x-2x+36=x ^ { 2 } -20x+36\\)．",
+      "solution_steps": [
+        "原式\\(=x ^ { 2 } -18x-2x+36=x ^ { 2 } -20x+36\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          340
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.05"
+      ],
+      "exam_ids": [
+        "E.N03.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q22-P03",
+      "label": "（2）①",
+      "prompt": "\\((x-3)(x+m)=x ^ { 2 } +nx+36\\)；",
+      "stem_text": "\\((x-3)(x+m)=x ^ { 2 } +nx+36\\)；",
+      "material_ids": [
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(m=-12\\)，\\(n=-15\\)．",
+      "answer": "\\(m=-12\\)，\\(n=-15\\)．",
+      "given_solution": "\\(\\because x ^ { 2 } +\\left ( { m-3 } \\right )x-3m=x ^ { 2 } +nx+36\\)，\n\\(\\therefore m-3=n\\)，\\(-3m=36\\)．\n\\(\\therefore m=-12\\)，\\(n=-15\\)．",
+      "solution_steps": [
+        "\\(\\because x ^ { 2 } +\\left ( { m-3 } \\right )x-3m=x ^ { 2 } +nx+36\\)，",
+        "\\(\\therefore m-3=n\\)，\\(-3m=36\\)．",
+        "\\(\\therefore m=-12\\)，\\(n=-15\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          341,
+          342,
+          343
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.05"
+      ],
+      "exam_ids": [
+        "E.N03.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q22-P04",
+      "label": "（2）②",
+      "prompt": "\\((x-6)(x+m)=x ^ { 2 } +nx+36\\)．",
+      "stem_text": "\\((x-6)(x+m)=x ^ { 2 } +nx+36\\)．",
+      "material_ids": [
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(m=-6\\)，\\(n=-12\\)；",
+      "answer": "\\(m=-6\\)，\\(n=-12\\)；",
+      "given_solution": "\\(\\because x ^ { 2 } +\\left ( { m-6 } \\right )x-6m=x ^ { 2 } +nx+36\\)，\n\\(\\therefore m-6=n\\)，\\(-6m=36\\)．\n\\(\\therefore m=-6\\)，\\(n=-12\\)．",
+      "solution_steps": [
+        "\\(\\because x ^ { 2 } +\\left ( { m-6 } \\right )x-6m=x ^ { 2 } +nx+36\\)，",
+        "\\(\\therefore m-6=n\\)，\\(-6m=36\\)．",
+        "\\(\\therefore m=-6\\)，\\(n=-12\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          78
+        ],
+        "solution_block_ids": [
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.05"
+      ],
+      "exam_ids": [
+        "E.N03.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6577698F39-Q22-P05",
+      "label": "（3）",
+      "prompt": "已知\\((x+p)(x+q)=x ^ { 2 } +nx+6\\)，\\(p\\)、\\(q\\)为正整数，求\\(n\\)的值．",
+      "stem_text": "已知\\((x+p)(x+q)=x ^ { 2 } +nx+6\\)，\\(p\\)、\\(q\\)为正整数，求\\(n\\)的值．",
+      "material_ids": [],
+      "requires": [],
+      "given_answer": "满足题意的\\(n\\)为：37，20，15，13，12．",
+      "answer": "\\(n=7\\) 或 \\(n=5\\)。",
+      "given_solution": "由题意得，\\(x ^ { 2 } +\\left ( { p+q } \\right )x+pq=x ^ { 2 } +nx+36\\)，\n\\(\\therefore p+q=n\\)，\\(pq=36\\)．\n\\(\\because p\\)，\\(q\\)为正整数，\n\\(\\therefore p=1\\)，\\(q=36\\)；\\(p=2\\)，\\(q=18\\)；\\(p=3\\)，\\(q=12\\)；\\(p=4\\)，\\(q=9\\)；\\(p=6\\)，\\(q=6\\)；\\(p=9\\)，\\(q=4\\)；\n\\(p=12\\)，\\(q=3\\)；\\(p=18\\)，\\(q=2\\)；\\(p=36\\)，\\(q=1\\)．\n\\(\\therefore\\)满足题意的\\(n\\)为：37，20，15，13，12．",
+      "solution_steps": [
+        "把左边展开，得到 \\(x^2+(p+q)x+pq\\)。比较系数，得 \\(pq=6,\\ n=p+q\\)。",
+        "因 \\(p,q\\) 为正整数，不计顺序只可能为 \\(1,6\\) 或 \\(2,3\\)，对应的和是 7 或 5。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79
+        ],
+        "solution_block_ids": [
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "原卷第（3）问的常数项为 6，资料详解沿用了前问的 36。",
+      "solution_origin": "source_checked_with_correction",
+      "knowledge_ids": [
+        "M.N03.05"
+      ],
+      "exam_ids": [
+        "E.N03.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "review_note": "原卷第（3）问的常数项为 6，资料详解沿用了前问的 36。",
+  "source": {
+    "paper_body_blocks": [
+      73,
+      79
+    ],
+    "solution_body_blocks": [
+      326,
+      353
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-6577698F39/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          120.45,
+          583.64,
+          303.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-6577698F39/solution-q22-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          85.0,
+          583.64,
+          610.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.05"
+  ],
+  "exam_ids": [
+    "E.N03.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

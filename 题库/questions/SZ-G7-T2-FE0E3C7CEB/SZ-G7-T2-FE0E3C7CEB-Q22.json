@@ -1,0 +1,456 @@
+{
+  "id": "SZ-G7-T2-FE0E3C7CEB-Q22",
+  "paper_id": "SZ-G7-T2-FE0E3C7CEB",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、确定轴对称或折叠后的对应关系",
+  "stem": "已知\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)．点\\(D\\)边\\(BC\\)上的一个动点（不与点\\(B，C\\)重合），点\\(E\\)在直线\\(BC\\)上，连接\\(AD，AE\\)，且\\(\\angle DAE=45{}^\\circ\\)．\n〔图1〕〔图2〕\n（1）若点\\(E\\)线段\\(BC\\)上一点，如图1，作点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，连接\\(AF，CF，EF\\)，则\\(BD\\)与\\(CF\\)的数量关系为        ；位置关系为        ．\n（2）若点\\(E\\)是线段\\(CB\\)延长线上一点，如图2，作点\\(D\\)于直线\\(AE\\)对称点\\(F\\)，连接\\(AF，BF，EF\\)．求证：\\(BE ^ { 2 } +CD ^ { 2 } =DE ^ { 2 }\\)．\n（3）如图3，若\\(BD=\\frac { 8 } { 5 }\\)， \\(AB=\\sqrt[] { 2 }\\)，求\\(CE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/ae/ae4809b2f223f0a022d956548c3075e10f291ce370df69aabe09ff33692eddff.png",
+    "assets/figures/42/42ddaa1ec1ac629afc7d882025bd9be1c23fcd28d47da4aacdaf1d145b5848af.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BD=CF，BD\\bot CF\\)\n（2）证明见解析    （3）\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)",
+  "answer": "（1）\\(BD=CF，BD\\bot CF\\)\n（2）证明见解析    （3）\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)",
+  "given_solution": "【分析】（1）根据证明\\(\\vartriangle ABD≌\\vartriangle ACF\\)即可求证；\n（2）根据点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，等腰直角三角形的性质可证\\(\\vartriangle FAB≌\\vartriangle DAC({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，可得\\(BF=CD\\)，\\(FB\\bot EB\\)，再证明\\(\\vartriangle AFE≌\\vartriangle ADE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)可得\\(EF=ED\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)中，根据勾股定理即可求证；\n（3）根据题意，结合图形，分类讨论：①如图所示，\\(E\\)在\\(BC\\)延长线上时；②如图所示，\\(E\\)在\\(BC\\)上，在点\\(D\\)的左边时；根据（1），（2）的结论即可求证．\n【小问1详解】\n解：\\(BD=CF，BD\\bot CF\\)，理由如下，\n∵\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n∴\\(\\angle B=\\angle ACB=45{}^\\circ\\)，\n∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，则\\(\\angle EAC+\\angle CAF=45{}^\\circ\\)\n∵\\(\\angle BAC=90{}^\\circ\\)，\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(\\angle BAD+\\angle EAC=45{}^\\circ\\)，\n∴\\(\\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle ABD,\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAF \\\\ AD=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle ACF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(BD=CF\\)，\\(\\angle B=\\angle ACF=45{}^\\circ\\)，\n∵\\(\\angle ACB+\\angle ACF=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，\n∴\\(FC\\bot BC\\)，即\\(BD\\bot CF\\)，\n故答案为：\\(BD=CF，BD\\bot CF\\)．\n【小问2详解】\n证明：如图所示，\n〔图3〕\n∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，\n∴\\(\\angle FAD=90{}^\\circ =\\angle BAC\\)，\n∵\\(\\angle DAB+\\angle BAF=90{}^\\circ\\)，\\(\\angle DAB+\\angle DAC=90{}^\\circ\\)，\n∴\\(\\angle DAC=\\angle FAB\\)，\n在\\(\\vartriangle FAB,\\vartriangle DAC\\)中，\n\\(\\begin{cases} AF=AD \\\\ \\angle FAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，\n∴\\(\\vartriangle FAB≌\\vartriangle DAC({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(\\angle 2=\\angle C=45{}^\\circ =\\angle 3，BF=CD\\)，\n∴\\(\\angle 2+\\angle 3=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，则\\(FB\\bot EB\\)，\\(\\angle FBE=90{}^\\circ\\)，\n在\\(\\vartriangle AFE,\\vartriangle ADE\\)中，\n\\(\\begin{cases} AF=AD \\\\ \\angle FAE=\\angle DAE=45{}^\\circ \\\\ AE=AE \\end{cases}\\)，\n∴\\(\\vartriangle AFE≌\\vartriangle ADE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EF=ED\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BF ^ { 2 } +BE ^ { 2 }\\)，且\\(EF=ED\\)，\\(BF=CD\\)，\n∴\\(ED ^ { 2 } =CD ^ { 2 } +BE ^ { 2 }\\)．\n【小问3详解】\n解：①如图所示，\\(E\\)在\\(BC\\)延长线上时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，\n〔图4〕\n∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=\\sqrt[] { 2 }\\)，\\(BD=\\frac { 8 } { 5 }\\)，\n∴\\(BC=\\sqrt[] { 2 }AB=\\sqrt[] { 2 }\\times \\sqrt[] { 2 }=2\\)，\n∴\\(CD=BC-BD=2-\\frac { 8 } { 5 }=\\frac { 2 } { 5 }\\)，\n由（2）知， \\(CF=BD=\\frac { 8 } { 5 }\\)，\\(EF=ED\\)，\n设\\(CE=x(x>0)\\)，则\\(DE=ED+CD=\\frac { 2 } { 5 }+x\\)，\n∴\\(EF=ED=\\frac { 2 } { 5 }+x\\)，\n∴由（2）的结论可知，\\(CF ^ { 2 } +CE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 8 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 2 } { 5 }+x } \\right ) ^ { 2 }\\)，解得，\\(x=3\\)，\n∴\\(CE=3\\)；\n②如图所示，\\(E\\)在\\(BC\\)上，在点\\(D\\)的左边时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，\n〔图5〕\n同理，\n∵\\(AB=\\sqrt[] { 2 }\\)，BD＝\\(BD=\\frac { 8 } { 5 }\\)，\n∴\\(BC=2\\)，\\(CD=\\frac { 2 } { 5 }\\)\n由（1）知， \\(CD=BF=\\frac { 2 } { 5 }\\)，设\\(BE=x(x>0)\\)，则\\(ED=EF=\\frac { 8 } { 5 }-x\\)，\\(\\angle FBE=90{}^\\circ\\)，\n∴\\(BF ^ { 2 } +BE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 2 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 8 } { 5 }-x } \\right ) ^ { 2 }\\)，解得，\\(x=\\frac { 3 } { 4 }\\)，\n∴\\(BE=\\frac { 3 } { 4 }\\)，\n∴\\(CE=BC-BE=2-\\frac { 3 } { 4 }=\\frac { 5 } { 4 }\\)，\n∴\\(CE=\\frac { 5 } { 4 }\\)；\n综上所示，\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)．\n【点睛】本题主要考查等腰直角三角形的性质，折叠的性质，全等三角形的判定和性质，勾股定理的综合，掌握以上知识的综合运用是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/ae/ae4809b2f223f0a022d956548c3075e10f291ce370df69aabe09ff33692eddff.png",
+    "assets/figures/42/42ddaa1ec1ac629afc7d882025bd9be1c23fcd28d47da4aacdaf1d145b5848af.png",
+    "assets/figures/f3/f3ea112c95eb006c2a65b9e0aee0861b171074a4d923d5a0ad3cb8e0f6649eb7.png",
+    "assets/figures/14/140de1fda089b76385430b2ca8e3261f856a314304c06aeca0e5da11be03ad0c.png",
+    "assets/figures/71/71a78dc97e85009a61a8012aac1e82bd57b0138b8483f4b2e97a57a93a902c84.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(BD=CF，BD\\bot CF\\)，理由如下，\n∵\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n∴\\(\\angle B=\\angle ACB=45{}^\\circ\\)，\n∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，则\\(\\angle EAC+\\angle CAF=45{}^\\circ\\)\n∵\\(\\angle BAC=90{}^\\circ\\)，\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(\\angle BAD+\\angle EAC=45{}^\\circ\\)，\n∴\\(\\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle ABD,\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAF \\\\ AD=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle ACF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(BD=CF\\)，\\(\\angle B=\\angle ACF=45{}^\\circ\\)，\n∵\\(\\angle ACB+\\angle ACF=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，\n∴\\(FC\\bot BC\\)，即\\(BD\\bot CF\\)，\n故答案为：\\(BD=CF，BD\\bot CF\\)．\n【小问2详解】\n证明：如图所示，\n〔图3〕\n∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，\n∴\\(\\angle FAD=90{}^\\circ =\\angle BAC\\)，\n∵\\(\\angle DAB+\\angle BAF=90{}^\\circ\\)，\\(\\angle DAB+\\angle DAC=90{}^\\circ\\)，\n∴\\(\\angle DAC=\\angle FAB\\)，\n在\\(\\vartriangle FAB,\\vartriangle DAC\\)中，\n\\(\\begin{cases} AF=AD \\\\ \\angle FAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，\n∴\\(\\vartriangle FAB≌\\vartriangle DAC({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(\\angle 2=\\angle C=45{}^\\circ =\\angle 3，BF=CD\\)，\n∴\\(\\angle 2+\\angle 3=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，则\\(FB\\bot EB\\)，\\(\\angle FBE=90{}^\\circ\\)，\n在\\(\\vartriangle AFE,\\vartriangle ADE\\)中，\n\\(\\begin{cases} AF=AD \\\\ \\angle FAE=\\angle DAE=45{}^\\circ \\\\ AE=AE \\end{cases}\\)，\n∴\\(\\vartriangle AFE≌\\vartriangle ADE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EF=ED\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BF ^ { 2 } +BE ^ { 2 }\\)，且\\(EF=ED\\)，\\(BF=CD\\)，\n∴\\(ED ^ { 2 } =CD ^ { 2 } +BE ^ { 2 }\\)．\n【小问3详解】\n解：①如图所示，\\(E\\)在\\(BC\\)延长线上时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，\n〔图4〕\n∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=\\sqrt[] { 2 }\\)，\\(BD=\\frac { 8 } { 5 }\\)，\n∴\\(BC=\\sqrt[] { 2 }AB=\\sqrt[] { 2 }\\times \\sqrt[] { 2 }=2\\)，\n∴\\(CD=BC-BD=2-\\frac { 8 } { 5 }=\\frac { 2 } { 5 }\\)，\n由（2）知， \\(CF=BD=\\frac { 8 } { 5 }\\)，\\(EF=ED\\)，\n设\\(CE=x(x>0)\\)，则\\(DE=ED+CD=\\frac { 2 } { 5 }+x\\)，\n∴\\(EF=ED=\\frac { 2 } { 5 }+x\\)，\n∴由（2）的结论可知，\\(CF ^ { 2 } +CE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 8 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 2 } { 5 }+x } \\right ) ^ { 2 }\\)，解得，\\(x=3\\)，\n∴\\(CE=3\\)；\n②如图所示，\\(E\\)在\\(BC\\)上，在点\\(D\\)的左边时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，\n〔图5〕\n同理，\n∵\\(AB=\\sqrt[] { 2 }\\)，BD＝\\(BD=\\frac { 8 } { 5 }\\)，\n∴\\(BC=2\\)，\\(CD=\\frac { 2 } { 5 }\\)\n由（1）知， \\(CD=BF=\\frac { 2 } { 5 }\\)，设\\(BE=x(x>0)\\)，则\\(ED=EF=\\frac { 8 } { 5 }-x\\)，\\(\\angle FBE=90{}^\\circ\\)，\n∴\\(BF ^ { 2 } +BE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 2 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 8 } { 5 }-x } \\right ) ^ { 2 }\\)，解得，\\(x=\\frac { 3 } { 4 }\\)，\n∴\\(BE=\\frac { 3 } { 4 }\\)，\n∴\\(CE=BC-BE=2-\\frac { 3 } { 4 }=\\frac { 5 } { 4 }\\)，\n∴\\(CE=\\frac { 5 } { 4 }\\)；\n综上所示，\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(BD=CF，BD\\bot CF\\)，理由如下，",
+    "∵\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，",
+    "∴\\(\\angle B=\\angle ACB=45{}^\\circ\\)，",
+    "∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，",
+    "∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，则\\(\\angle EAC+\\angle CAF=45{}^\\circ\\)",
+    "∵\\(\\angle BAC=90{}^\\circ\\)，\\(\\angle DAE=45{}^\\circ\\)，",
+    "∴\\(\\angle BAD+\\angle EAC=45{}^\\circ\\)，",
+    "∴\\(\\angle BAD=\\angle CAF\\)，",
+    "在\\(\\vartriangle ABD,\\vartriangle ACF\\)中，",
+    "\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAF \\\\ AD=AF \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABD≌\\vartriangle ACF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(BD=CF\\)，\\(\\angle B=\\angle ACF=45{}^\\circ\\)，",
+    "∵\\(\\angle ACB+\\angle ACF=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，",
+    "∴\\(FC\\bot BC\\)，即\\(BD\\bot CF\\)，",
+    "故答案为：\\(BD=CF，BD\\bot CF\\)．",
+    "【小问2详解】",
+    "证明：如图所示，",
+    "〔图3〕",
+    "∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，",
+    "∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，",
+    "∴\\(\\angle FAD=90{}^\\circ =\\angle BAC\\)，",
+    "∵\\(\\angle DAB+\\angle BAF=90{}^\\circ\\)，\\(\\angle DAB+\\angle DAC=90{}^\\circ\\)，",
+    "∴\\(\\angle DAC=\\angle FAB\\)，",
+    "在\\(\\vartriangle FAB,\\vartriangle DAC\\)中，",
+    "\\(\\begin{cases} AF=AD \\\\ \\angle FAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，",
+    "∴\\(\\vartriangle FAB≌\\vartriangle DAC({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(\\angle 2=\\angle C=45{}^\\circ =\\angle 3，BF=CD\\)，",
+    "∴\\(\\angle 2+\\angle 3=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，则\\(FB\\bot EB\\)，\\(\\angle FBE=90{}^\\circ\\)，",
+    "在\\(\\vartriangle AFE,\\vartriangle ADE\\)中，",
+    "\\(\\begin{cases} AF=AD \\\\ \\angle FAE=\\angle DAE=45{}^\\circ \\\\ AE=AE \\end{cases}\\)，",
+    "∴\\(\\vartriangle AFE≌\\vartriangle ADE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(EF=ED\\)，",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BF ^ { 2 } +BE ^ { 2 }\\)，且\\(EF=ED\\)，\\(BF=CD\\)，",
+    "∴\\(ED ^ { 2 } =CD ^ { 2 } +BE ^ { 2 }\\)．",
+    "【小问3详解】",
+    "解：①如图所示，\\(E\\)在\\(BC\\)延长线上时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，",
+    "〔图4〕",
+    "∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=\\sqrt[] { 2 }\\)，\\(BD=\\frac { 8 } { 5 }\\)，",
+    "∴\\(BC=\\sqrt[] { 2 }AB=\\sqrt[] { 2 }\\times \\sqrt[] { 2 }=2\\)，",
+    "∴\\(CD=BC-BD=2-\\frac { 8 } { 5 }=\\frac { 2 } { 5 }\\)，",
+    "由（2）知， \\(CF=BD=\\frac { 8 } { 5 }\\)，\\(EF=ED\\)，",
+    "设\\(CE=x(x>0)\\)，则\\(DE=ED+CD=\\frac { 2 } { 5 }+x\\)，",
+    "∴\\(EF=ED=\\frac { 2 } { 5 }+x\\)，",
+    "∴由（2）的结论可知，\\(CF ^ { 2 } +CE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 8 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 2 } { 5 }+x } \\right ) ^ { 2 }\\)，解得，\\(x=3\\)，",
+    "∴\\(CE=3\\)；",
+    "②如图所示，\\(E\\)在\\(BC\\)上，在点\\(D\\)的左边时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，",
+    "〔图5〕",
+    "同理，",
+    "∵\\(AB=\\sqrt[] { 2 }\\)，BD＝\\(BD=\\frac { 8 } { 5 }\\)，",
+    "∴\\(BC=2\\)，\\(CD=\\frac { 2 } { 5 }\\)",
+    "由（1）知， \\(CD=BF=\\frac { 2 } { 5 }\\)，设\\(BE=x(x>0)\\)，则\\(ED=EF=\\frac { 8 } { 5 }-x\\)，\\(\\angle FBE=90{}^\\circ\\)，",
+    "∴\\(BF ^ { 2 } +BE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 2 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 8 } { 5 }-x } \\right ) ^ { 2 }\\)，解得，\\(x=\\frac { 3 } { 4 }\\)，",
+    "∴\\(BE=\\frac { 3 } { 4 }\\)，",
+    "∴\\(CE=BC-BE=2-\\frac { 3 } { 4 }=\\frac { 5 } { 4 }\\)，",
+    "∴\\(CE=\\frac { 5 } { 4 }\\)；",
+    "综上所示，\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)．点\\(D\\)边\\(BC\\)上的一个动点（不与点\\(B，C\\)重合），点\\(E\\)在直线\\(BC\\)上，连接\\(AD，AE\\)，且\\(\\angle DAE=45{}^\\circ\\)．\n〔图1〕〔图2〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-FE0E3C7CEB-Q22-P01",
+      "label": "（1）",
+      "prompt": "若点\\(E\\)线段\\(BC\\)上一点，如图1，作点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，连接\\(AF，CF，EF\\)，则\\(BD\\)与\\(CF\\)的数量关系为        ；位置关系为        ．",
+      "stem_text": "若点\\(E\\)线段\\(BC\\)上一点，如图1，作点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，连接\\(AF，CF，EF\\)，则\\(BD\\)与\\(CF\\)的数量关系为        ；位置关系为        ．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BD=CF，BD\\bot CF\\)",
+      "answer": "\\(BD=CF，BD\\bot CF\\)",
+      "given_solution": "解：\\(BD=CF，BD\\bot CF\\)，理由如下，\n∵\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n∴\\(\\angle B=\\angle ACB=45{}^\\circ\\)，\n∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，则\\(\\angle EAC+\\angle CAF=45{}^\\circ\\)\n∵\\(\\angle BAC=90{}^\\circ\\)，\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(\\angle BAD+\\angle EAC=45{}^\\circ\\)，\n∴\\(\\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle ABD,\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAF \\\\ AD=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle ACF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(BD=CF\\)，\\(\\angle B=\\angle ACF=45{}^\\circ\\)，\n∵\\(\\angle ACB+\\angle ACF=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，\n∴\\(FC\\bot BC\\)，即\\(BD\\bot CF\\)，\n故答案为：\\(BD=CF，BD\\bot CF\\)．",
+      "solution_steps": [
+        "解：\\(BD=CF，BD\\bot CF\\)，理由如下，",
+        "∵\\(\\vartriangle ABC\\)等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，",
+        "∴\\(\\angle B=\\angle ACB=45{}^\\circ\\)，",
+        "∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，",
+        "∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，则\\(\\angle EAC+\\angle CAF=45{}^\\circ\\)",
+        "∵\\(\\angle BAC=90{}^\\circ\\)，\\(\\angle DAE=45{}^\\circ\\)，",
+        "∴\\(\\angle BAD+\\angle EAC=45{}^\\circ\\)，",
+        "∴\\(\\angle BAD=\\angle CAF\\)，",
+        "在\\(\\vartriangle ABD,\\vartriangle ACF\\)中，",
+        "\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAF \\\\ AD=AF \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABD≌\\vartriangle ACF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(BD=CF\\)，\\(\\angle B=\\angle ACF=45{}^\\circ\\)，",
+        "∵\\(\\angle ACB+\\angle ACF=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，",
+        "∴\\(FC\\bot BC\\)，即\\(BD\\bot CF\\)，",
+        "故答案为：\\(BD=CF，BD\\bot CF\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-FE0E3C7CEB-Q22-P02",
+      "label": "（2）",
+      "prompt": "若点\\(E\\)是线段\\(CB\\)延长线上一点，如图2，作点\\(D\\)于直线\\(AE\\)对称点\\(F\\)，连接\\(AF，BF，EF\\)．求证：\\(BE ^ { 2 } +CD ^ { 2 } =DE ^ { 2 }\\)．",
+      "stem_text": "若点\\(E\\)是线段\\(CB\\)延长线上一点，如图2，作点\\(D\\)于直线\\(AE\\)对称点\\(F\\)，连接\\(AF，BF，EF\\)．求证：\\(BE ^ { 2 } +CD ^ { 2 } =DE ^ { 2 }\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "证明：如图所示，\n〔图3〕\n∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，\n∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，\n∴\\(\\angle FAD=90{}^\\circ =\\angle BAC\\)，\n∵\\(\\angle DAB+\\angle BAF=90{}^\\circ\\)，\\(\\angle DAB+\\angle DAC=90{}^\\circ\\)，\n∴\\(\\angle DAC=\\angle FAB\\)，\n在\\(\\vartriangle FAB,\\vartriangle DAC\\)中，\n\\(\\begin{cases} AF=AD \\\\ \\angle FAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，\n∴\\(\\vartriangle FAB≌\\vartriangle DAC({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(\\angle 2=\\angle C=45{}^\\circ =\\angle 3，BF=CD\\)，\n∴\\(\\angle 2+\\angle 3=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，则\\(FB\\bot EB\\)，\\(\\angle FBE=90{}^\\circ\\)，\n在\\(\\vartriangle AFE,\\vartriangle ADE\\)中，\n\\(\\begin{cases} AF=AD \\\\ \\angle FAE=\\angle DAE=45{}^\\circ \\\\ AE=AE \\end{cases}\\)，\n∴\\(\\vartriangle AFE≌\\vartriangle ADE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EF=ED\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BF ^ { 2 } +BE ^ { 2 }\\)，且\\(EF=ED\\)，\\(BF=CD\\)，\n∴\\(ED ^ { 2 } =CD ^ { 2 } +BE ^ { 2 }\\)．",
+      "solution_steps": [
+        "证明：如图所示，",
+        "〔图3〕",
+        "∵点\\(D\\)关于直线\\(AE\\)的对称点\\(F\\)，且\\(\\angle DAE=45{}^\\circ\\)，",
+        "∴\\(AD=AF\\)，\\(\\angle DAE=\\angle FAE=45{}^\\circ\\)，",
+        "∴\\(\\angle FAD=90{}^\\circ =\\angle BAC\\)，",
+        "∵\\(\\angle DAB+\\angle BAF=90{}^\\circ\\)，\\(\\angle DAB+\\angle DAC=90{}^\\circ\\)，",
+        "∴\\(\\angle DAC=\\angle FAB\\)，",
+        "在\\(\\vartriangle FAB,\\vartriangle DAC\\)中，",
+        "\\(\\begin{cases} AF=AD \\\\ \\angle FAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，",
+        "∴\\(\\vartriangle FAB≌\\vartriangle DAC({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(\\angle 2=\\angle C=45{}^\\circ =\\angle 3，BF=CD\\)，",
+        "∴\\(\\angle 2+\\angle 3=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，则\\(FB\\bot EB\\)，\\(\\angle FBE=90{}^\\circ\\)，",
+        "在\\(\\vartriangle AFE,\\vartriangle ADE\\)中，",
+        "\\(\\begin{cases} AF=AD \\\\ \\angle FAE=\\angle DAE=45{}^\\circ \\\\ AE=AE \\end{cases}\\)，",
+        "∴\\(\\vartriangle AFE≌\\vartriangle ADE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(EF=ED\\)，",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BF ^ { 2 } +BE ^ { 2 }\\)，且\\(EF=ED\\)，\\(BF=CD\\)，",
+        "∴\\(ED ^ { 2 } =CD ^ { 2 } +BE ^ { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-FE0E3C7CEB-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，若\\(BD=\\frac { 8 } { 5 }\\)， \\(AB=\\sqrt[] { 2 }\\)，求\\(CE\\)的长．",
+      "stem_text": "如图3，若\\(BD=\\frac { 8 } { 5 }\\)， \\(AB=\\sqrt[] { 2 }\\)，求\\(CE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)",
+      "answer": "\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)",
+      "given_solution": "解：①如图所示，\\(E\\)在\\(BC\\)延长线上时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，\n〔图4〕\n∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=\\sqrt[] { 2 }\\)，\\(BD=\\frac { 8 } { 5 }\\)，\n∴\\(BC=\\sqrt[] { 2 }AB=\\sqrt[] { 2 }\\times \\sqrt[] { 2 }=2\\)，\n∴\\(CD=BC-BD=2-\\frac { 8 } { 5 }=\\frac { 2 } { 5 }\\)，\n由（2）知， \\(CF=BD=\\frac { 8 } { 5 }\\)，\\(EF=ED\\)，\n设\\(CE=x(x>0)\\)，则\\(DE=ED+CD=\\frac { 2 } { 5 }+x\\)，\n∴\\(EF=ED=\\frac { 2 } { 5 }+x\\)，\n∴由（2）的结论可知，\\(CF ^ { 2 } +CE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 8 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 2 } { 5 }+x } \\right ) ^ { 2 }\\)，解得，\\(x=3\\)，\n∴\\(CE=3\\)；\n②如图所示，\\(E\\)在\\(BC\\)上，在点\\(D\\)的左边时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，\n〔图5〕\n同理，\n∵\\(AB=\\sqrt[] { 2 }\\)，BD＝\\(BD=\\frac { 8 } { 5 }\\)，\n∴\\(BC=2\\)，\\(CD=\\frac { 2 } { 5 }\\)\n由（1）知， \\(CD=BF=\\frac { 2 } { 5 }\\)，设\\(BE=x(x>0)\\)，则\\(ED=EF=\\frac { 8 } { 5 }-x\\)，\\(\\angle FBE=90{}^\\circ\\)，\n∴\\(BF ^ { 2 } +BE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 2 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 8 } { 5 }-x } \\right ) ^ { 2 }\\)，解得，\\(x=\\frac { 3 } { 4 }\\)，\n∴\\(BE=\\frac { 3 } { 4 }\\)，\n∴\\(CE=BC-BE=2-\\frac { 3 } { 4 }=\\frac { 5 } { 4 }\\)，\n∴\\(CE=\\frac { 5 } { 4 }\\)；\n综上所示，\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)．",
+      "solution_steps": [
+        "解：①如图所示，\\(E\\)在\\(BC\\)延长线上时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，",
+        "〔图4〕",
+        "∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=\\sqrt[] { 2 }\\)，\\(BD=\\frac { 8 } { 5 }\\)，",
+        "∴\\(BC=\\sqrt[] { 2 }AB=\\sqrt[] { 2 }\\times \\sqrt[] { 2 }=2\\)，",
+        "∴\\(CD=BC-BD=2-\\frac { 8 } { 5 }=\\frac { 2 } { 5 }\\)，",
+        "由（2）知， \\(CF=BD=\\frac { 8 } { 5 }\\)，\\(EF=ED\\)，",
+        "设\\(CE=x(x>0)\\)，则\\(DE=ED+CD=\\frac { 2 } { 5 }+x\\)，",
+        "∴\\(EF=ED=\\frac { 2 } { 5 }+x\\)，",
+        "∴由（2）的结论可知，\\(CF ^ { 2 } +CE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 8 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 2 } { 5 }+x } \\right ) ^ { 2 }\\)，解得，\\(x=3\\)，",
+        "∴\\(CE=3\\)；",
+        "②如图所示，\\(E\\)在\\(BC\\)上，在点\\(D\\)的左边时，作\\(D\\)关于\\(AE\\)对称点\\(F\\)，连接\\(AF，CF，EF\\)，",
+        "〔图5〕",
+        "同理，",
+        "∵\\(AB=\\sqrt[] { 2 }\\)，BD＝\\(BD=\\frac { 8 } { 5 }\\)，",
+        "∴\\(BC=2\\)，\\(CD=\\frac { 2 } { 5 }\\)",
+        "由（1）知， \\(CD=BF=\\frac { 2 } { 5 }\\)，设\\(BE=x(x>0)\\)，则\\(ED=EF=\\frac { 8 } { 5 }-x\\)，\\(\\angle FBE=90{}^\\circ\\)，",
+        "∴\\(BF ^ { 2 } +BE ^ { 2 } =EF ^ { 2 }\\)，即\\(\\left ( { \\frac { 2 } { 5 } } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 8 } { 5 }-x } \\right ) ^ { 2 }\\)，解得，\\(x=\\frac { 3 } { 4 }\\)，",
+        "∴\\(BE=\\frac { 3 } { 4 }\\)，",
+        "∴\\(CE=BC-BE=2-\\frac { 3 } { 4 }=\\frac { 5 } { 4 }\\)，",
+        "∴\\(CE=\\frac { 5 } { 4 }\\)；",
+        "综上所示，\\(CE=3\\)或\\(CE=\\frac { 5 } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          75
+        ],
+        "solution_block_ids": [
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01",
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G07.01.01",
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      75
+    ],
+    "solution_body_blocks": [
+      362,
+      430
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-FE0E3C7CEB/paper-q22-p05.webp",
+      "assets/SZ-G7-T2-FE0E3C7CEB/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          643.18,
+          583.64,
+          680.91
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          396.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-FE0E3C7CEB/solution-q22-p19.webp",
+      "assets/SZ-G7-T2-FE0E3C7CEB/solution-q22-p20.webp",
+      "assets/SZ-G7-T2-FE0E3C7CEB/solution-q22-p21.webp",
+      "assets/SZ-G7-T2-FE0E3C7CEB/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          448.18,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          759.55
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          509.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G07.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G07.01.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

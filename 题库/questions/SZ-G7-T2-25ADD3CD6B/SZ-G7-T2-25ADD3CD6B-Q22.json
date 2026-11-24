@@ -1,0 +1,374 @@
+{
+  "id": "SZ-G7-T2-25ADD3CD6B-Q22",
+  "paper_id": "SZ-G7-T2-25ADD3CD6B",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用直角三角形角与中线关系求值、利用对顶角与邻补角求角",
+  "stem": "两个三角形中，存在一组对顶角，另外一组角也分别相等，那么两个三角形的第三组角也相等，这样的模型俗称八字模型，八字模型对于寻找全等带来极大便利，如图所示，图1中，\\(AD，BE\\)是\\(\\vartriangle ABC\\)的高，\\(AD\\)与\\(BE\\)相交于点F，\n〔图1〕\n（1）根据模型可以得到第三组角\\(\\angle\\)______\\(=\\angle\\)______；\n（2）如图1所示，若\\(\\vartriangle ACD\\)的面积是12，\\(AD=BD=6\\)．则\\(CD=\\)______，\\(AF=\\)______；\\(\\vartriangle ABF\\)的面积是______．\n（3）在非直角三角形中八字模型依然成立，同时，添加辅助线是解决一些几何问题的关键，如图2所示，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，E是\\(\\vartriangle ABC\\)外一点，\\(BE=BA\\)，\\(\\angle E=\\angle C\\)，若\\(DE=\\frac { 2 } { 5 }BD\\)，\\(AD=16\\)，\\(BD=20\\)，求\\(\\vartriangle BDE\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/figures/cd/cda7bf86520217e9dd66a844fbb6cd62245e592641cb1212ba74628f33cdc618.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(DAC,DBF\\)\n（2）4；2；6    （3）64",
+  "answer": "（1）\\(DAC,DBF\\)\n（2）4；2；6    （3）64",
+  "given_solution": "【分析】本题考查了三角形全等的判定与性质，直角三角形的性质，等角的余角相等．\n（1）根据等角的余角相等即可得出结果；\n（2）根据三角形面积公式即可求出\\(CD=4\\)，再证明\\(\\vartriangle ADC≌\\vartriangle BDF(ASA)\\)，推出\\(CD=FD=4\\)，求出\\(AF\\)，由\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AF\\cdot BD\\)即可解答；\n（3）在\\(BD\\)上截取\\(BF=DE\\)，连接\\(AF\\)，先证明\\(\\angle ABF=\\angle E\\)，证明\\(\\vartriangle ABF≌\\vartriangle BED({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，推出\\(S_{ \\vartriangle ABF } =S_{ \\vartriangle BED }\\)，根据已知求出\\(BF=DE=8\\)，求出\\(S_{ \\vartriangle ABF } =64\\)，即可解答．\n【小问1详解】\n解：根据模型可以得到第三组角\\(\\angle DAC=\\angle DBF\\)，理由如下：\n\\(\\because AD\\)，\\(BE\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore \\angle ADB=\\angle AEB=90{}^\\circ\\)，\n\\(\\therefore \\angle DAC+\\angle AFE=90{}^\\circ\\)，\\(\\angle DBF+\\angle BFD=90{}^\\circ\\)，\n\\(\\because \\angle AFE=\\angle BFD\\)，\n\\(\\therefore \\angle DAC=\\angle DBF\\)；\n故答案为：\\(DAC，DBF\\)；\n【小问2详解】\n解：\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }CD\\cdot AD\\)，\n又\\(\\because \\vartriangle ACD\\)的面积是12，\\(AD=6\\)，\n\\(\\therefore \\frac { 1 } { 2 }CD\\times 6=12\\)，\n\\(\\therefore CD=4\\)，\n\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore \\angle ADC=\\angle BDF=90{}^\\circ\\)，\n在\\(\\vartriangle ADC\\)和\\(\\vartriangle BDF\\)中，\n\\(\\begin{cases} \\angle ADC=\\angle BDF=90{}^\\circ \\\\ AD=BD \\\\ \\angle DAC=\\angle DBF \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADC≌\\vartriangle BDF({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } })\\)，\n\\(\\therefore CD=FD=4\\)，\n\\(\\therefore AF=AD-FD=6-4=2\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AF\\cdot BD=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；\n故答案为：4，2，6；\n【小问3详解】\n解：在\\(BD\\)上截取\\(BF=DE\\)，连接\\(AF\\)，如图所示：\n〔图2〕\n\\(\\because \\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，\n\\(\\therefore \\angle ABC=\\angle BDA=90{}^\\circ\\)，\n\\(\\therefore \\angle ABF+\\angle BAD=90{}^\\circ\\)，\\(\\angle C+\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore \\angle ABF=\\angle C\\)，\n\\(\\because \\angle E=\\angle C\\)，\n\\(\\therefore \\angle ABF=\\angle E\\)，\n在\\(\\vartriangle ABF\\)和\\(\\vartriangle BED\\)中，\\(\\begin{cases} BF=DE \\\\ \\angle ABF=\\angle E \\\\ BE=BA \\end{cases}\\)，\n\\(\\therefore \\vartriangle ABF≌\\vartriangle BED({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =S_{ \\vartriangle BED }\\)，\n\\(\\because DE=\\frac { 2 } { 5 }BD\\)，\\(BD=20\\)，\n\\(\\therefore DE=\\frac { 2 } { 5 }\\times 20=8\\)，\n\\(\\therefore BF=DE=8\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }BF\\cdot AD=\\frac { 1 } { 2 }\\times 8\\times 16=64\\)，\n\\(\\therefore S_{ \\vartriangle BED } =S_{ \\vartriangle ABF } =64\\)．",
+  "given_solution_figures": [
+    "assets/figures/cd/cda7bf86520217e9dd66a844fbb6cd62245e592641cb1212ba74628f33cdc618.png",
+    "assets/figures/b8/b8aaad2e4dd55962f11a91e6a585e6a8cfee93c8064b1bfbbe8eee7646e239c4.png"
+  ],
+  "solution": "【小问1详解】\n解：根据模型可以得到第三组角\\(\\angle DAC=\\angle DBF\\)，理由如下：\n\\(\\because AD\\)，\\(BE\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore \\angle ADB=\\angle AEB=90{}^\\circ\\)，\n\\(\\therefore \\angle DAC+\\angle AFE=90{}^\\circ\\)，\\(\\angle DBF+\\angle BFD=90{}^\\circ\\)，\n\\(\\because \\angle AFE=\\angle BFD\\)，\n\\(\\therefore \\angle DAC=\\angle DBF\\)；\n故答案为：\\(DAC，DBF\\)；\n【小问2详解】\n解：\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }CD\\cdot AD\\)，\n又\\(\\because \\vartriangle ACD\\)的面积是12，\\(AD=6\\)，\n\\(\\therefore \\frac { 1 } { 2 }CD\\times 6=12\\)，\n\\(\\therefore CD=4\\)，\n\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore \\angle ADC=\\angle BDF=90{}^\\circ\\)，\n在\\(\\vartriangle ADC\\)和\\(\\vartriangle BDF\\)中，\n\\(\\begin{cases} \\angle ADC=\\angle BDF=90{}^\\circ \\\\ AD=BD \\\\ \\angle DAC=\\angle DBF \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADC≌\\vartriangle BDF({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } })\\)，\n\\(\\therefore CD=FD=4\\)，\n\\(\\therefore AF=AD-FD=6-4=2\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AF\\cdot BD=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；\n故答案为：4，2，6；\n【小问3详解】\n解：在\\(BD\\)上截取\\(BF=DE\\)，连接\\(AF\\)，如图所示：\n〔图2〕\n\\(\\because \\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，\n\\(\\therefore \\angle ABC=\\angle BDA=90{}^\\circ\\)，\n\\(\\therefore \\angle ABF+\\angle BAD=90{}^\\circ\\)，\\(\\angle C+\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore \\angle ABF=\\angle C\\)，\n\\(\\because \\angle E=\\angle C\\)，\n\\(\\therefore \\angle ABF=\\angle E\\)，\n在\\(\\vartriangle ABF\\)和\\(\\vartriangle BED\\)中，\\(\\begin{cases} BF=DE \\\\ \\angle ABF=\\angle E \\\\ BE=BA \\end{cases}\\)，\n\\(\\therefore \\vartriangle ABF≌\\vartriangle BED({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =S_{ \\vartriangle BED }\\)，\n\\(\\because DE=\\frac { 2 } { 5 }BD\\)，\\(BD=20\\)，\n\\(\\therefore DE=\\frac { 2 } { 5 }\\times 20=8\\)，\n\\(\\therefore BF=DE=8\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }BF\\cdot AD=\\frac { 1 } { 2 }\\times 8\\times 16=64\\)，\n\\(\\therefore S_{ \\vartriangle BED } =S_{ \\vartriangle ABF } =64\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：根据模型可以得到第三组角\\(\\angle DAC=\\angle DBF\\)，理由如下：",
+    "\\(\\because AD\\)，\\(BE\\)是\\(\\vartriangle ABC\\)的高，",
+    "\\(\\therefore \\angle ADB=\\angle AEB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DAC+\\angle AFE=90{}^\\circ\\)，\\(\\angle DBF+\\angle BFD=90{}^\\circ\\)，",
+    "\\(\\because \\angle AFE=\\angle BFD\\)，",
+    "\\(\\therefore \\angle DAC=\\angle DBF\\)；",
+    "故答案为：\\(DAC，DBF\\)；",
+    "【小问2详解】",
+    "解：\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，",
+    "\\(\\therefore S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }CD\\cdot AD\\)，",
+    "又\\(\\because \\vartriangle ACD\\)的面积是12，\\(AD=6\\)，",
+    "\\(\\therefore \\frac { 1 } { 2 }CD\\times 6=12\\)，",
+    "\\(\\therefore CD=4\\)，",
+    "\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，",
+    "\\(\\therefore \\angle ADC=\\angle BDF=90{}^\\circ\\)，",
+    "在\\(\\vartriangle ADC\\)和\\(\\vartriangle BDF\\)中，",
+    "\\(\\begin{cases} \\angle ADC=\\angle BDF=90{}^\\circ \\\\ AD=BD \\\\ \\angle DAC=\\angle DBF \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle ADC≌\\vartriangle BDF({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } })\\)，",
+    "\\(\\therefore CD=FD=4\\)，",
+    "\\(\\therefore AF=AD-FD=6-4=2\\)，",
+    "\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AF\\cdot BD=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；",
+    "故答案为：4，2，6；",
+    "【小问3详解】",
+    "解：在\\(BD\\)上截取\\(BF=DE\\)，连接\\(AF\\)，如图所示：",
+    "〔图2〕",
+    "\\(\\because \\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，",
+    "\\(\\therefore \\angle ABC=\\angle BDA=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABF+\\angle BAD=90{}^\\circ\\)，\\(\\angle C+\\angle BAD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABF=\\angle C\\)，",
+    "\\(\\because \\angle E=\\angle C\\)，",
+    "\\(\\therefore \\angle ABF=\\angle E\\)，",
+    "在\\(\\vartriangle ABF\\)和\\(\\vartriangle BED\\)中，\\(\\begin{cases} BF=DE \\\\ \\angle ABF=\\angle E \\\\ BE=BA \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle ABF≌\\vartriangle BED({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore S_{ \\vartriangle ABF } =S_{ \\vartriangle BED }\\)，",
+    "\\(\\because DE=\\frac { 2 } { 5 }BD\\)，\\(BD=20\\)，",
+    "\\(\\therefore DE=\\frac { 2 } { 5 }\\times 20=8\\)，",
+    "\\(\\therefore BF=DE=8\\)，",
+    "\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }BF\\cdot AD=\\frac { 1 } { 2 }\\times 8\\times 16=64\\)，",
+    "\\(\\therefore S_{ \\vartriangle BED } =S_{ \\vartriangle ABF } =64\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "两个三角形中，存在一组对顶角，另外一组角也分别相等，那么两个三角形的第三组角也相等，这样的模型俗称八字模型，八字模型对于寻找全等带来极大便利，如图所示，图1中，\\(AD，BE\\)是\\(\\vartriangle ABC\\)的高，\\(AD\\)与\\(BE\\)相交于点F，\n〔图1〕",
+      "paper_blocks": [
+        72,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-25ADD3CD6B-Q22-P01",
+      "label": "（1）",
+      "prompt": "根据模型可以得到第三组角\\(\\angle\\)______\\(=\\angle\\)______；",
+      "stem_text": "根据模型可以得到第三组角\\(\\angle\\)______\\(=\\angle\\)______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(DAC,DBF\\)",
+      "answer": "\\(DAC,DBF\\)",
+      "given_solution": "解：根据模型可以得到第三组角\\(\\angle DAC=\\angle DBF\\)，理由如下：\n\\(\\because AD\\)，\\(BE\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore \\angle ADB=\\angle AEB=90{}^\\circ\\)，\n\\(\\therefore \\angle DAC+\\angle AFE=90{}^\\circ\\)，\\(\\angle DBF+\\angle BFD=90{}^\\circ\\)，\n\\(\\because \\angle AFE=\\angle BFD\\)，\n\\(\\therefore \\angle DAC=\\angle DBF\\)；\n故答案为：\\(DAC，DBF\\)；",
+      "solution_steps": [
+        "解：根据模型可以得到第三组角\\(\\angle DAC=\\angle DBF\\)，理由如下：",
+        "\\(\\because AD\\)，\\(BE\\)是\\(\\vartriangle ABC\\)的高，",
+        "\\(\\therefore \\angle ADB=\\angle AEB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DAC+\\angle AFE=90{}^\\circ\\)，\\(\\angle DBF+\\angle BFD=90{}^\\circ\\)，",
+        "\\(\\because \\angle AFE=\\angle BFD\\)，",
+        "\\(\\therefore \\angle DAC=\\angle DBF\\)；",
+        "故答案为：\\(DAC，DBF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.03",
+        "M.G01.03"
+      ],
+      "exam_ids": [
+        "E.G04.03.01",
+        "E.G01.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-25ADD3CD6B-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图1所示，若\\(\\vartriangle ACD\\)的面积是12，\\(AD=BD=6\\)．则\\(CD=\\)______，\\(AF=\\)______；\\(\\vartriangle ABF\\)的面积是______．",
+      "stem_text": "如图1所示，若\\(\\vartriangle ACD\\)的面积是12，\\(AD=BD=6\\)．则\\(CD=\\)______，\\(AF=\\)______；\\(\\vartriangle ABF\\)的面积是______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "4；2；6",
+      "answer": "4；2；6",
+      "given_solution": "解：\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }CD\\cdot AD\\)，\n又\\(\\because \\vartriangle ACD\\)的面积是12，\\(AD=6\\)，\n\\(\\therefore \\frac { 1 } { 2 }CD\\times 6=12\\)，\n\\(\\therefore CD=4\\)，\n\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，\n\\(\\therefore \\angle ADC=\\angle BDF=90{}^\\circ\\)，\n在\\(\\vartriangle ADC\\)和\\(\\vartriangle BDF\\)中，\n\\(\\begin{cases} \\angle ADC=\\angle BDF=90{}^\\circ \\\\ AD=BD \\\\ \\angle DAC=\\angle DBF \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADC≌\\vartriangle BDF({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } })\\)，\n\\(\\therefore CD=FD=4\\)，\n\\(\\therefore AF=AD-FD=6-4=2\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AF\\cdot BD=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；\n故答案为：4，2，6；",
+      "solution_steps": [
+        "解：\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，",
+        "\\(\\therefore S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }CD\\cdot AD\\)，",
+        "又\\(\\because \\vartriangle ACD\\)的面积是12，\\(AD=6\\)，",
+        "\\(\\therefore \\frac { 1 } { 2 }CD\\times 6=12\\)，",
+        "\\(\\therefore CD=4\\)，",
+        "\\(\\because AD\\)是\\(\\vartriangle ABC\\)的高，",
+        "\\(\\therefore \\angle ADC=\\angle BDF=90{}^\\circ\\)，",
+        "在\\(\\vartriangle ADC\\)和\\(\\vartriangle BDF\\)中，",
+        "\\(\\begin{cases} \\angle ADC=\\angle BDF=90{}^\\circ \\\\ AD=BD \\\\ \\angle DAC=\\angle DBF \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle ADC≌\\vartriangle BDF({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } })\\)，",
+        "\\(\\therefore CD=FD=4\\)，",
+        "\\(\\therefore AF=AD-FD=6-4=2\\)，",
+        "\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AF\\cdot BD=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；",
+        "故答案为：4，2，6；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-25ADD3CD6B-Q22-P03",
+      "label": "（3）",
+      "prompt": "在非直角三角形中八字模型依然成立，同时，添加辅助线是解决一些几何问题的关键，如图2所示，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，E是\\(\\vartriangle ABC\\)外一点，\\(BE=BA\\)，\\(\\angle E=\\angle C\\)，若\\(DE=\\frac { 2 } { 5 }BD\\)，\\(AD=16\\)，\\(BD=20\\)，求\\(\\vartriangle BDE\\)的面积．",
+      "stem_text": "在非直角三角形中八字模型依然成立，同时，添加辅助线是解决一些几何问题的关键，如图2所示，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，E是\\(\\vartriangle ABC\\)外一点，\\(BE=BA\\)，\\(\\angle E=\\angle C\\)，若\\(DE=\\frac { 2 } { 5 }BD\\)，\\(AD=16\\)，\\(BD=20\\)，求\\(\\vartriangle BDE\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "64",
+      "answer": "64",
+      "given_solution": "解：在\\(BD\\)上截取\\(BF=DE\\)，连接\\(AF\\)，如图所示：\n〔图2〕\n\\(\\because \\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，\n\\(\\therefore \\angle ABC=\\angle BDA=90{}^\\circ\\)，\n\\(\\therefore \\angle ABF+\\angle BAD=90{}^\\circ\\)，\\(\\angle C+\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore \\angle ABF=\\angle C\\)，\n\\(\\because \\angle E=\\angle C\\)，\n\\(\\therefore \\angle ABF=\\angle E\\)，\n在\\(\\vartriangle ABF\\)和\\(\\vartriangle BED\\)中，\\(\\begin{cases} BF=DE \\\\ \\angle ABF=\\angle E \\\\ BE=BA \\end{cases}\\)，\n\\(\\therefore \\vartriangle ABF≌\\vartriangle BED({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =S_{ \\vartriangle BED }\\)，\n\\(\\because DE=\\frac { 2 } { 5 }BD\\)，\\(BD=20\\)，\n\\(\\therefore DE=\\frac { 2 } { 5 }\\times 20=8\\)，\n\\(\\therefore BF=DE=8\\)，\n\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }BF\\cdot AD=\\frac { 1 } { 2 }\\times 8\\times 16=64\\)，\n\\(\\therefore S_{ \\vartriangle BED } =S_{ \\vartriangle ABF } =64\\)．",
+      "solution_steps": [
+        "解：在\\(BD\\)上截取\\(BF=DE\\)，连接\\(AF\\)，如图所示：",
+        "〔图2〕",
+        "\\(\\because \\angle ABC=90{}^\\circ\\)，\\(BD\\)是高，",
+        "\\(\\therefore \\angle ABC=\\angle BDA=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABF+\\angle BAD=90{}^\\circ\\)，\\(\\angle C+\\angle BAD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABF=\\angle C\\)，",
+        "\\(\\because \\angle E=\\angle C\\)，",
+        "\\(\\therefore \\angle ABF=\\angle E\\)，",
+        "在\\(\\vartriangle ABF\\)和\\(\\vartriangle BED\\)中，\\(\\begin{cases} BF=DE \\\\ \\angle ABF=\\angle E \\\\ BE=BA \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle ABF≌\\vartriangle BED({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore S_{ \\vartriangle ABF } =S_{ \\vartriangle BED }\\)，",
+        "\\(\\because DE=\\frac { 2 } { 5 }BD\\)，\\(BD=20\\)，",
+        "\\(\\therefore DE=\\frac { 2 } { 5 }\\times 20=8\\)，",
+        "\\(\\therefore BF=DE=8\\)，",
+        "\\(\\therefore S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }BF\\cdot AD=\\frac { 1 } { 2 }\\times 8\\times 16=64\\)，",
+        "\\(\\therefore S_{ \\vartriangle BED } =S_{ \\vartriangle ABF } =64\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          76
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      72,
+      76
+    ],
+    "solution_body_blocks": [
+      301,
+      352
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-25ADD3CD6B/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          214.09,
+          583.64,
+          575.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-25ADD3CD6B/solution-q22-p15.webp",
+      "assets/SZ-G7-T2-25ADD3CD6B/solution-q22-p16.webp",
+      "assets/SZ-G7-T2-25ADD3CD6B/solution-q22-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          490.91,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          673.64
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          45.0,
+          583.64,
+          576.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G04.03",
+    "M.G01.03",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G04.03.01",
+    "E.G01.03.01",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按题面要求和原解所用方法核定。 按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

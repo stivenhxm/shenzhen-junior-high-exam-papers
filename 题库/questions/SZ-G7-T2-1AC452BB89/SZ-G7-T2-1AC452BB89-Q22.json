@@ -1,0 +1,427 @@
+{
+  "id": "SZ-G7-T2-1AC452BB89-Q22",
+  "paper_id": "SZ-G7-T2-1AC452BB89",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "在学习全等三角形知识时，数学兴趣小组发现这样一个模型：模型是由两个顶角相等且有公共顶角顶点的等腰三角形组成的图形，如果把它们的底角顶点连接起来，则在相对位置变化的过程中，始终存在一对全等三角形，我们把这种模型称为“手拉手模型”．这个数学兴趣小组进行了如下操作：\n〔图1〕\n（1）如图1，在\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)中，\\(AB=AC\\)，\\(AD=AE\\)，\\(\\angle BAC=\\angle DAE=40{}^\\circ \\left ( { AB>AD } \\right )\\)，连接\\(BD\\)，\\(CE\\)，当点\\(E\\)落在\\(AB\\)边上，且\\(D\\)，\\(E\\)，\\(C\\)三点共线时，则在这个“手拉手模型”中，和\\(\\vartriangle ABD\\)全等的三角形是____________，\\(\\angle BDC\\)的度数为____________．\n（2）如图2，已知\\(\\vartriangle ABC\\)，分别以\\(AB\\)、\\(AC\\)为直角边向\\(\\vartriangle ABC\\)两侧作等腰直角\\(\\vartriangle ABE\\)和等腰直角\\(\\vartriangle ACD\\)，其中\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，连接\\(CE\\)、\\(BD\\)，线段\\(CE\\)和\\(BD\\)交于点\\(O\\)．\n①证明：\\(CE=BD\\)且\\(CE\\bot BD\\)；\n②若\\(DC\\)与\\(BC\\)在同一直线上，如图3，延长\\(DA\\)与\\(CE\\)交于点\\(F\\)，连接\\(BF\\)并延长，\\(BF\\)的延长线与边\\(AE\\)交于点\\(G\\)，且\\(AF=AG\\)，若\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABG\\)的面积为6，求线段\\(EG\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/fe/feafac4002e832ad3edc7c11f221ffe1b505c464ff667ff5a6001395b7acc475.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；\n（2）①证明见解析；②4",
+  "answer": "（1）\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；\n（2）①证明见解析；②4",
+  "given_solution": "【分析】（1）利用\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle DAB≌\\vartriangle EAC\\)，得出\\(\\angle ABD=\\angle ACE\\)，结合三角形外角的性质即可得出\\(\\angle BDC=\\angle BAC\\)，即可求解；\n（2）①利用\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle CAE≌\\vartriangle DAB\\)，得出\\(CE=BD\\)，\\(\\angle ACE=\\angle ADB\\)，然后利用三角形外角的性质即可得出\\(CE\\bot BD\\)；\n②利用①中\\(\\vartriangle CAE≌\\vartriangle DAB\\)，得出\\(\\angle ACE=\\angle D=45{}^\\circ\\)，则可求\\(\\angle CFD=\\angle ACE\\)，利用等角对等边得出\\(AF=AC\\)，可得出\\(AG=AC\\)，由\\(\\vartriangle ABG\\)的面积可求\\(AB\\cdot AG=12\\)，由\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，可求\\(AB ^ { 2 } +AC ^ { 2 } =40\\)，利用完全平方公式变形求出\\(AB+AC=8\\)，\\(\\left | { AB-AC } \\right |=4\\)，求出\\(AB\\)、\\(AC\\)，进而求出\\(AG\\)，即可求解．\n【小问1详解】\n解：如图1中，\n〔图2〕\n在\\(\\vartriangle DAB\\)和\\(\\vartriangle EAC\\)中，\n\\(\\begin{cases} AD=AE \\\\ \\angle DAB=\\angle EAC \\\\ AB=AC \\end{cases}\\)\n\\(\\therefore \\vartriangle DAB≌\\vartriangle EAC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)，\n\\(\\because \\angle DEB=AEC\\)，\n\\(\\therefore \\angle BDC=\\angle BAC=40{}^\\circ\\)，\n故答案为：\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；\n【小问2详解】\n解：①\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore AB=AE\\)，\\(AC=AD\\)，\n\\(\\because \\angle BAE+\\angle BAC=\\angle CAD+\\angle BAC\\)，\n\\(\\therefore \\angle CAE=\\angle BAD\\)，\n在\\(\\vartriangle CAE\\)和\\(\\vartriangle DAB\\)中，\n\\(\\begin{cases} AC=AD \\\\ \\angle CAE=\\angle DAB \\\\ AB=AE \\end{cases}\\)\n\\(\\therefore \\vartriangle CAE≌\\vartriangle DAB\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore CE=BD\\)，\\(\\angle ACE=\\angle ADB\\)，\n\\(\\therefore \\angle DOE=\\angle DCE+\\angle BDC\\)\n\\(=\\angle CDB+\\angle ACE+\\angle ACD\\)\n\\(=\\angle CDB+\\angle ADB+\\angle ACD\\)\n\\(=\\angle ADC+\\angle ACD=90{}^\\circ\\)，\n\\(\\therefore CE\\bot BD\\)；\n②\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\n\\(\\therefore AB ^ { 2 } +AC ^ { 2 } =40\\)，\\(\\angle ACD=\\angle D=45{}^\\circ\\)，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\\(AB=AE\\)，\\(AC=AD\\)，\n\\(\\therefore \\angle CAF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n\\(\\because \\vartriangle CAE≌\\vartriangle DAB\\)，\n\\(\\therefore \\angle ACE=\\angle D=45{}^\\circ\\)，\n\\(\\therefore \\angle DCE=\\angle ACD+\\angle ACE=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore \\angle CFD=90{}^\\circ -\\angle D=45{}^\\circ\\)，\n\\(\\therefore \\angle CFD=\\angle ACE\\)，\n\\(\\therefore AF=AC\\)，\n\\(\\because AF=AG\\)，\n\\(\\therefore AG=AC\\)，\n\\(\\because \\vartriangle ABG\\)的面积为6，\\(\\angle BAG=90{}^\\circ\\)，\n\\(\\therefore \\frac { 1 } { 2 }AB\\cdot AG=6\\)，即\\(AB\\cdot AG=12\\)，\n\\(\\therefore AB\\cdot AC=12\\)，\n\\(\\therefore \\left ( { AB+AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } +2AB\\cdot AC=40+24=64\\)，\n\\(\\because AB+AC>0\\)，\n\\(\\therefore AB+AC=8\\)，\n\\(\\because \\left ( { AB-AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } -2AB\\cdot AC=40-24=16\\)，\n\\(\\therefore \\left | { AB-AC } \\right |=4\\)，\n\\(\\because \\angle ACB=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore \\angle ACB>\\angle ABC\\)，\n\\(\\therefore AB>AC\\)，\n\\(\\therefore AB-AC=4\\)，\n\\(\\therefore AB=6\\)，\\(AC=2\\)，\n\\(\\therefore AE=6\\)，\\(AG=2\\)，\n\\(\\therefore EG=AE-AG=6-2=4\\)．\n【点睛】本题考查了全等三角形的判定与性质，三角形外角的性质，等腰直角三角形的性质等知识，明确题意，寻找出全等三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/fe/feafac4002e832ad3edc7c11f221ffe1b505c464ff667ff5a6001395b7acc475.png",
+    "assets/figures/b9/b93de64eebea2eb37a182482817cb64f84d88988b248f651e4f104a9bf0f0ef3.png"
+  ],
+  "solution": "【小问1详解】\n解：如图1中，\n〔图2〕\n在\\(\\vartriangle DAB\\)和\\(\\vartriangle EAC\\)中，\n\\(\\begin{cases} AD=AE \\\\ \\angle DAB=\\angle EAC \\\\ AB=AC \\end{cases}\\)\n\\(\\therefore \\vartriangle DAB≌\\vartriangle EAC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)，\n\\(\\because \\angle DEB=AEC\\)，\n\\(\\therefore \\angle BDC=\\angle BAC=40{}^\\circ\\)，\n故答案为：\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；\n【小问2详解】\n解：①\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore AB=AE\\)，\\(AC=AD\\)，\n\\(\\because \\angle BAE+\\angle BAC=\\angle CAD+\\angle BAC\\)，\n\\(\\therefore \\angle CAE=\\angle BAD\\)，\n在\\(\\vartriangle CAE\\)和\\(\\vartriangle DAB\\)中，\n\\(\\begin{cases} AC=AD \\\\ \\angle CAE=\\angle DAB \\\\ AB=AE \\end{cases}\\)\n\\(\\therefore \\vartriangle CAE≌\\vartriangle DAB\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore CE=BD\\)，\\(\\angle ACE=\\angle ADB\\)，\n\\(\\therefore \\angle DOE=\\angle DCE+\\angle BDC\\)\n\\(=\\angle CDB+\\angle ACE+\\angle ACD\\)\n\\(=\\angle CDB+\\angle ADB+\\angle ACD\\)\n\\(=\\angle ADC+\\angle ACD=90{}^\\circ\\)，\n\\(\\therefore CE\\bot BD\\)；\n②\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\n\\(\\therefore AB ^ { 2 } +AC ^ { 2 } =40\\)，\\(\\angle ACD=\\angle D=45{}^\\circ\\)，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\\(AB=AE\\)，\\(AC=AD\\)，\n\\(\\therefore \\angle CAF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n\\(\\because \\vartriangle CAE≌\\vartriangle DAB\\)，\n\\(\\therefore \\angle ACE=\\angle D=45{}^\\circ\\)，\n\\(\\therefore \\angle DCE=\\angle ACD+\\angle ACE=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore \\angle CFD=90{}^\\circ -\\angle D=45{}^\\circ\\)，\n\\(\\therefore \\angle CFD=\\angle ACE\\)，\n\\(\\therefore AF=AC\\)，\n\\(\\because AF=AG\\)，\n\\(\\therefore AG=AC\\)，\n\\(\\because \\vartriangle ABG\\)的面积为6，\\(\\angle BAG=90{}^\\circ\\)，\n\\(\\therefore \\frac { 1 } { 2 }AB\\cdot AG=6\\)，即\\(AB\\cdot AG=12\\)，\n\\(\\therefore AB\\cdot AC=12\\)，\n\\(\\therefore \\left ( { AB+AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } +2AB\\cdot AC=40+24=64\\)，\n\\(\\because AB+AC>0\\)，\n\\(\\therefore AB+AC=8\\)，\n\\(\\because \\left ( { AB-AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } -2AB\\cdot AC=40-24=16\\)，\n\\(\\therefore \\left | { AB-AC } \\right |=4\\)，\n\\(\\because \\angle ACB=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore \\angle ACB>\\angle ABC\\)，\n\\(\\therefore AB>AC\\)，\n\\(\\therefore AB-AC=4\\)，\n\\(\\therefore AB=6\\)，\\(AC=2\\)，\n\\(\\therefore AE=6\\)，\\(AG=2\\)，\n\\(\\therefore EG=AE-AG=6-2=4\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：如图1中，",
+    "〔图2〕",
+    "在\\(\\vartriangle DAB\\)和\\(\\vartriangle EAC\\)中，",
+    "\\(\\begin{cases} AD=AE \\\\ \\angle DAB=\\angle EAC \\\\ AB=AC \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle DAB≌\\vartriangle EAC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore \\angle ABD=\\angle ACE\\)，",
+    "\\(\\because \\angle DEB=AEC\\)，",
+    "\\(\\therefore \\angle BDC=\\angle BAC=40{}^\\circ\\)，",
+    "故答案为：\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；",
+    "【小问2详解】",
+    "解：①\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，",
+    "\\(\\therefore AB=AE\\)，\\(AC=AD\\)，",
+    "\\(\\because \\angle BAE+\\angle BAC=\\angle CAD+\\angle BAC\\)，",
+    "\\(\\therefore \\angle CAE=\\angle BAD\\)，",
+    "在\\(\\vartriangle CAE\\)和\\(\\vartriangle DAB\\)中，",
+    "\\(\\begin{cases} AC=AD \\\\ \\angle CAE=\\angle DAB \\\\ AB=AE \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle CAE≌\\vartriangle DAB\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore CE=BD\\)，\\(\\angle ACE=\\angle ADB\\)，",
+    "\\(\\therefore \\angle DOE=\\angle DCE+\\angle BDC\\)",
+    "\\(=\\angle CDB+\\angle ACE+\\angle ACD\\)",
+    "\\(=\\angle CDB+\\angle ADB+\\angle ACD\\)",
+    "\\(=\\angle ADC+\\angle ACD=90{}^\\circ\\)，",
+    "\\(\\therefore CE\\bot BD\\)；",
+    "②\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，",
+    "\\(\\therefore AB ^ { 2 } +AC ^ { 2 } =40\\)，\\(\\angle ACD=\\angle D=45{}^\\circ\\)，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\\(AB=AE\\)，\\(AC=AD\\)，",
+    "\\(\\therefore \\angle CAF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+    "\\(\\because \\vartriangle CAE≌\\vartriangle DAB\\)，",
+    "\\(\\therefore \\angle ACE=\\angle D=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle DCE=\\angle ACD+\\angle ACE=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CFD=90{}^\\circ -\\angle D=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle CFD=\\angle ACE\\)，",
+    "\\(\\therefore AF=AC\\)，",
+    "\\(\\because AF=AG\\)，",
+    "\\(\\therefore AG=AC\\)，",
+    "\\(\\because \\vartriangle ABG\\)的面积为6，\\(\\angle BAG=90{}^\\circ\\)，",
+    "\\(\\therefore \\frac { 1 } { 2 }AB\\cdot AG=6\\)，即\\(AB\\cdot AG=12\\)，",
+    "\\(\\therefore AB\\cdot AC=12\\)，",
+    "\\(\\therefore \\left ( { AB+AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } +2AB\\cdot AC=40+24=64\\)，",
+    "\\(\\because AB+AC>0\\)，",
+    "\\(\\therefore AB+AC=8\\)，",
+    "\\(\\because \\left ( { AB-AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } -2AB\\cdot AC=40-24=16\\)，",
+    "\\(\\therefore \\left | { AB-AC } \\right |=4\\)，",
+    "\\(\\because \\angle ACB=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+    "\\(\\therefore \\angle ACB>\\angle ABC\\)，",
+    "\\(\\therefore AB>AC\\)，",
+    "\\(\\therefore AB-AC=4\\)，",
+    "\\(\\therefore AB=6\\)，\\(AC=2\\)，",
+    "\\(\\therefore AE=6\\)，\\(AG=2\\)，",
+    "\\(\\therefore EG=AE-AG=6-2=4\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在学习全等三角形知识时，数学兴趣小组发现这样一个模型：模型是由两个顶角相等且有公共顶角顶点的等腰三角形组成的图形，如果把它们的底角顶点连接起来，则在相对位置变化的过程中，始终存在一对全等三角形，我们把这种模型称为“手拉手模型”．这个数学兴趣小组进行了如下操作：\n〔图1〕",
+      "paper_blocks": [
+        114,
+        115
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图2，已知\\(\\vartriangle ABC\\)，分别以\\(AB\\)、\\(AC\\)为直角边向\\(\\vartriangle ABC\\)两侧作等腰直角\\(\\vartriangle ABE\\)和等腰直角\\(\\vartriangle ACD\\)，其中\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，连接\\(CE\\)、\\(BD\\)，线段\\(CE\\)和\\(BD\\)交于点\\(O\\)．",
+      "paper_blocks": [
+        117
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-1AC452BB89-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，在\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)中，\\(AB=AC\\)，\\(AD=AE\\)，\\(\\angle BAC=\\angle DAE=40{}^\\circ \\left ( { AB>AD } \\right )\\)，连接\\(BD\\)，\\(CE\\)，当点\\(E\\)落在\\(AB\\)边上，且\\(D\\)，\\(E\\)，\\(C\\)三点共线时，则在这个“手拉手模型”中，和\\(\\vartriangle ABD\\)全等的三角形是____________，\\(\\angle BDC\\)的度数为____________．",
+      "stem_text": "如图1，在\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)中，\\(AB=AC\\)，\\(AD=AE\\)，\\(\\angle BAC=\\angle DAE=40{}^\\circ \\left ( { AB>AD } \\right )\\)，连接\\(BD\\)，\\(CE\\)，当点\\(E\\)落在\\(AB\\)边上，且\\(D\\)，\\(E\\)，\\(C\\)三点共线时，则在这个“手拉手模型”中，和\\(\\vartriangle ABD\\)全等的三角形是____________，\\(\\angle BDC\\)的度数为____________．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；",
+      "answer": "\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；",
+      "given_solution": "解：如图1中，\n〔图2〕\n在\\(\\vartriangle DAB\\)和\\(\\vartriangle EAC\\)中，\n\\(\\begin{cases} AD=AE \\\\ \\angle DAB=\\angle EAC \\\\ AB=AC \\end{cases}\\)\n\\(\\therefore \\vartriangle DAB≌\\vartriangle EAC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)，\n\\(\\because \\angle DEB=AEC\\)，\n\\(\\therefore \\angle BDC=\\angle BAC=40{}^\\circ\\)，\n故答案为：\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；",
+      "solution_steps": [
+        "解：如图1中，",
+        "〔图2〕",
+        "在\\(\\vartriangle DAB\\)和\\(\\vartriangle EAC\\)中，",
+        "\\(\\begin{cases} AD=AE \\\\ \\angle DAB=\\angle EAC \\\\ AB=AC \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle DAB≌\\vartriangle EAC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore \\angle ABD=\\angle ACE\\)，",
+        "\\(\\because \\angle DEB=AEC\\)，",
+        "\\(\\therefore \\angle BDC=\\angle BAC=40{}^\\circ\\)，",
+        "故答案为：\\(\\vartriangle ACE\\)，\\(40{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          114,
+          115,
+          116
+        ],
+        "solution_block_ids": [
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-1AC452BB89-Q22-P02",
+      "label": "（2）①",
+      "prompt": "证明：\\(CE=BD\\)且\\(CE\\bot BD\\)；",
+      "stem_text": "证明：\\(CE=BD\\)且\\(CE\\bot BD\\)；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore AB=AE\\)，\\(AC=AD\\)，\n\\(\\because \\angle BAE+\\angle BAC=\\angle CAD+\\angle BAC\\)，\n\\(\\therefore \\angle CAE=\\angle BAD\\)，\n在\\(\\vartriangle CAE\\)和\\(\\vartriangle DAB\\)中，\n\\(\\begin{cases} AC=AD \\\\ \\angle CAE=\\angle DAB \\\\ AB=AE \\end{cases}\\)\n\\(\\therefore \\vartriangle CAE≌\\vartriangle DAB\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore CE=BD\\)，\\(\\angle ACE=\\angle ADB\\)，\n\\(\\therefore \\angle DOE=\\angle DCE+\\angle BDC\\)\n\\(=\\angle CDB+\\angle ACE+\\angle ACD\\)\n\\(=\\angle CDB+\\angle ADB+\\angle ACD\\)\n\\(=\\angle ADC+\\angle ACD=90{}^\\circ\\)，\n\\(\\therefore CE\\bot BD\\)；",
+      "solution_steps": [
+        "\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，",
+        "\\(\\therefore AB=AE\\)，\\(AC=AD\\)，",
+        "\\(\\because \\angle BAE+\\angle BAC=\\angle CAD+\\angle BAC\\)，",
+        "\\(\\therefore \\angle CAE=\\angle BAD\\)，",
+        "在\\(\\vartriangle CAE\\)和\\(\\vartriangle DAB\\)中，",
+        "\\(\\begin{cases} AC=AD \\\\ \\angle CAE=\\angle DAB \\\\ AB=AE \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle CAE≌\\vartriangle DAB\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore CE=BD\\)，\\(\\angle ACE=\\angle ADB\\)，",
+        "\\(\\therefore \\angle DOE=\\angle DCE+\\angle BDC\\)",
+        "\\(=\\angle CDB+\\angle ACE+\\angle ACD\\)",
+        "\\(=\\angle CDB+\\angle ADB+\\angle ACD\\)",
+        "\\(=\\angle ADC+\\angle ACD=90{}^\\circ\\)，",
+        "\\(\\therefore CE\\bot BD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          114,
+          115,
+          117,
+          118
+        ],
+        "solution_block_ids": [
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-1AC452BB89-Q22-P03",
+      "label": "（2）②",
+      "prompt": "若\\(DC\\)与\\(BC\\)在同一直线上，如图3，延长\\(DA\\)与\\(CE\\)交于点\\(F\\)，连接\\(BF\\)并延长，\\(BF\\)的延长线与边\\(AE\\)交于点\\(G\\)，且\\(AF=AG\\)，若\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABG\\)的面积为6，求线段\\(EG\\)的长．",
+      "stem_text": "若\\(DC\\)与\\(BC\\)在同一直线上，如图3，延长\\(DA\\)与\\(CE\\)交于点\\(F\\)，连接\\(BF\\)并延长，\\(BF\\)的延长线与边\\(AE\\)交于点\\(G\\)，且\\(AF=AG\\)，若\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABG\\)的面积为6，求线段\\(EG\\)的长．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "4",
+      "answer": "4",
+      "given_solution": "\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，\n\\(\\therefore AB ^ { 2 } +AC ^ { 2 } =40\\)，\\(\\angle ACD=\\angle D=45{}^\\circ\\)，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\\(AB=AE\\)，\\(AC=AD\\)，\n\\(\\therefore \\angle CAF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n\\(\\because \\vartriangle CAE≌\\vartriangle DAB\\)，\n\\(\\therefore \\angle ACE=\\angle D=45{}^\\circ\\)，\n\\(\\therefore \\angle DCE=\\angle ACD+\\angle ACE=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore \\angle CFD=90{}^\\circ -\\angle D=45{}^\\circ\\)，\n\\(\\therefore \\angle CFD=\\angle ACE\\)，\n\\(\\therefore AF=AC\\)，\n\\(\\because AF=AG\\)，\n\\(\\therefore AG=AC\\)，\n\\(\\because \\vartriangle ABG\\)的面积为6，\\(\\angle BAG=90{}^\\circ\\)，\n\\(\\therefore \\frac { 1 } { 2 }AB\\cdot AG=6\\)，即\\(AB\\cdot AG=12\\)，\n\\(\\therefore AB\\cdot AC=12\\)，\n\\(\\therefore \\left ( { AB+AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } +2AB\\cdot AC=40+24=64\\)，\n\\(\\because AB+AC>0\\)，\n\\(\\therefore AB+AC=8\\)，\n\\(\\because \\left ( { AB-AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } -2AB\\cdot AC=40-24=16\\)，\n\\(\\therefore \\left | { AB-AC } \\right |=4\\)，\n\\(\\because \\angle ACB=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore \\angle ACB>\\angle ABC\\)，\n\\(\\therefore AB>AC\\)，\n\\(\\therefore AB-AC=4\\)，\n\\(\\therefore AB=6\\)，\\(AC=2\\)，\n\\(\\therefore AE=6\\)，\\(AG=2\\)，\n\\(\\therefore EG=AE-AG=6-2=4\\)．",
+      "solution_steps": [
+        "\\(\\because \\vartriangle ABE\\)和\\(\\vartriangle ACD\\)的面积之和为20，\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)均为等腰直角三角形，",
+        "\\(\\therefore AB ^ { 2 } +AC ^ { 2 } =40\\)，\\(\\angle ACD=\\angle D=45{}^\\circ\\)，\\(\\angle BAE=\\angle CAD=90{}^\\circ\\)，\\(AB=AE\\)，\\(AC=AD\\)，",
+        "\\(\\therefore \\angle CAF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+        "\\(\\because \\vartriangle CAE≌\\vartriangle DAB\\)，",
+        "\\(\\therefore \\angle ACE=\\angle D=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle DCE=\\angle ACD+\\angle ACE=45{}^\\circ +45{}^\\circ =90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CFD=90{}^\\circ -\\angle D=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle CFD=\\angle ACE\\)，",
+        "\\(\\therefore AF=AC\\)，",
+        "\\(\\because AF=AG\\)，",
+        "\\(\\therefore AG=AC\\)，",
+        "\\(\\because \\vartriangle ABG\\)的面积为6，\\(\\angle BAG=90{}^\\circ\\)，",
+        "\\(\\therefore \\frac { 1 } { 2 }AB\\cdot AG=6\\)，即\\(AB\\cdot AG=12\\)，",
+        "\\(\\therefore AB\\cdot AC=12\\)，",
+        "\\(\\therefore \\left ( { AB+AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } +2AB\\cdot AC=40+24=64\\)，",
+        "\\(\\because AB+AC>0\\)，",
+        "\\(\\therefore AB+AC=8\\)，",
+        "\\(\\because \\left ( { AB-AC } \\right ) ^ { 2 } =AB ^ { 2 } +AC ^ { 2 } -2AB\\cdot AC=40-24=16\\)，",
+        "\\(\\therefore \\left | { AB-AC } \\right |=4\\)，",
+        "\\(\\because \\angle ACB=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+        "\\(\\therefore \\angle ACB>\\angle ABC\\)，",
+        "\\(\\therefore AB>AC\\)，",
+        "\\(\\therefore AB-AC=4\\)，",
+        "\\(\\therefore AB=6\\)，\\(AC=2\\)，",
+        "\\(\\therefore AE=6\\)，\\(AG=2\\)，",
+        "\\(\\therefore EG=AE-AG=6-2=4\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          114,
+          115,
+          117,
+          119
+        ],
+        "solution_block_ids": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      114,
+      119
+    ],
+    "solution_body_blocks": [
+      364,
+      426
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-1AC452BB89/paper-q22-p07.webp",
+      "assets/SZ-G7-T2-1AC452BB89/paper-q22-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          465.0,
+          583.64,
+          760.91
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          181.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-1AC452BB89/solution-q22-p19.webp",
+      "assets/SZ-G7-T2-1AC452BB89/solution-q22-p20.webp",
+      "assets/SZ-G7-T2-1AC452BB89/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          424.09,
+          583.64,
+          727.27
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          727.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

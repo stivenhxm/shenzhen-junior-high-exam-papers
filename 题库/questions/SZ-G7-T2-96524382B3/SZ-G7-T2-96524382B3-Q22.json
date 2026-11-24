@@ -1,0 +1,386 @@
+{
+  "id": "SZ-G7-T2-96524382B3-Q22",
+  "paper_id": "SZ-G7-T2-96524382B3",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，点\\(D\\)是射线\\(CB\\)上一动点（不与点\\(B\\)，\\(C\\)重合），以\\(AD\\)为一边在\\(AD\\)的右侧作\\(\\vartriangle ADE\\)，使\\(AD=AE\\)，\\(\\angle DAE=\\angle BAC\\)，连接\\(CE\\)．\n〔图1〕\n（1）如图1，当点\\(D\\)在线段\\(CB\\)上时，\\(BD\\)与\\(CE\\)有何数量关系，请说明理由；\n（2）在（1）的条件下，当\\(\\angle BAC=90{}^\\circ\\)时，那么\\(\\angle DCE=\\)___________度；\n（3）设\\(\\angle BAC=\\alpha\\)，\\(\\angle DCE=\\beta\\)．\n①如图2，当点\\(D\\)在线段\\(CB\\)上，\\(\\angle BAC\\ne 90{}^\\circ\\)时，请探究\\(\\alpha\\)与\\(\\beta\\)之间的数量关系，并证明你的结论；\n②如图3，当点\\(D\\)在线段\\(CB\\)的延长线上，\\(\\angle BAC\\ne 90{}^\\circ\\)时，请将图3补充完整并直接写出此时\\(\\alpha\\)与\\(\\beta\\)之间的数量关系．",
+  "choices": [],
+  "figures": [
+    "assets/figures/de/de52ed71c1ff3419a58f62b812408d8c25e39949ed68281534ad3115bfbb7f56.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BD=CE\\)，理由见解析\n（2）90    （3）①\\(\\alpha +\\beta =180{}^\\circ\\)，理由见解析；②图见解析，\\(\\alpha =\\beta\\)",
+  "answer": "（1）\\(BD=CE\\)，理由见解析\n（2）90    （3）①\\(\\alpha +\\beta =180{}^\\circ\\)，理由见解析；②图见解析，\\(\\alpha =\\beta\\)",
+  "given_solution": "【分析】（1）由题意易证\\(\\angle DAE=\\angle BAC\\)，即可利用“\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)”证明\\(\\vartriangle BAD≌\\vartriangle CAE\\)，即得出\\(BD=CE\\)；\n（2）由全等三角形的性质得出\\(\\angle B=\\angle ACE\\)．再根据\\(\\angle B+\\angle ACB=90{}^\\circ\\)，即得出\\(\\angle ACE+\\angle ACB=90{}^\\circ\\)，即\\(\\angle DCE=90{}^\\circ\\)；\n（3）①根据（1）同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，即得出\\(\\angle B=\\angle ACE\\)．再根据\\(\\angle B+\\angle ACB=180{}^\\circ -\\angle BAC=180{}^\\circ -\\alpha\\)，即得出\\(\\angle DCE=\\angle B+\\angle ACB=180{}^\\circ -\\alpha =\\beta\\)，即\\(\\alpha +\\beta =180{}^\\circ\\)；②根据题意补全图形，再同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，即得出\\(\\angle ABD=\\angle ACE\\)．最后结合三角形外角的性质，即可求证出\\(\\angle BAC=\\angle DCE\\)，即\\(\\alpha =\\beta\\)．\n【小问1详解】\n解：\\(BD=CE\\)，理由如下：\n\\(\\because \\angle DAE=\\angle BAC\\)，\n\\(\\therefore \\angle DAE-\\angle DAC=\\angle BAC-\\angle DAC\\)，即\\(\\angle BAD=\\angle CAE\\)．\n在\\(\\vartriangle BAD\\)和\\(\\vartriangle CAE\\)中，\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BD=CE\\)；\n【小问2详解】\n解：∵\\(\\vartriangle BAD≌\\vartriangle CAE\\)，\n∴\\(\\angle B=\\angle ACE\\)．\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle B+\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle ACE+\\angle ACB=90{}^\\circ\\)，即\\(\\angle DCE=90{}^\\circ\\)．\n故答案为：90；\n【小问3详解】\n①\\(\\alpha +\\beta =180{}^\\circ\\)，理由如下：\n由（1）同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle B=\\angle ACE\\)．\n\\(\\because \\angle B+\\angle ACB=180{}^\\circ -\\angle BAC=180{}^\\circ -\\alpha\\)，\n\\(\\therefore \\angle DCE=\\angle ACE+\\angle ACB=\\angle B+\\angle ACB=180{}^\\circ -\\alpha =\\beta\\)，\n\\(\\therefore \\alpha +\\beta =180{}^\\circ\\)；\n②补全图形，如图所示，\n〔图2〕\n同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)．\n∵\\(\\angle ABD=\\angle BAC+\\angle ACB\\)，\\(\\angle ACE=\\angle DCE+\\angle ACB\\)，\n∴\\(\\angle BAC=\\angle DCE\\)，即\\(\\alpha =\\beta\\)．\n【点睛】本题主要考查三角形全等的判定和性质，三角形内角和定理，三角形外角的性质等知识．熟练掌握三角形全等的判定定理和性质定理是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/de/de52ed71c1ff3419a58f62b812408d8c25e39949ed68281534ad3115bfbb7f56.png",
+    "assets/figures/94/948a0787dbc16f2bd983a7fdbfa27946f812c346930f3ff871c09606abd9cd91.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(BD=CE\\)，理由如下：\n\\(\\because \\angle DAE=\\angle BAC\\)，\n\\(\\therefore \\angle DAE-\\angle DAC=\\angle BAC-\\angle DAC\\)，即\\(\\angle BAD=\\angle CAE\\)．\n在\\(\\vartriangle BAD\\)和\\(\\vartriangle CAE\\)中，\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BD=CE\\)；\n【小问2详解】\n解：∵\\(\\vartriangle BAD≌\\vartriangle CAE\\)，\n∴\\(\\angle B=\\angle ACE\\)．\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle B+\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle ACE+\\angle ACB=90{}^\\circ\\)，即\\(\\angle DCE=90{}^\\circ\\)．\n故答案为：90；\n【小问3详解】\n①\\(\\alpha +\\beta =180{}^\\circ\\)，理由如下：\n由（1）同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle B=\\angle ACE\\)．\n\\(\\because \\angle B+\\angle ACB=180{}^\\circ -\\angle BAC=180{}^\\circ -\\alpha\\)，\n\\(\\therefore \\angle DCE=\\angle ACE+\\angle ACB=\\angle B+\\angle ACB=180{}^\\circ -\\alpha =\\beta\\)，\n\\(\\therefore \\alpha +\\beta =180{}^\\circ\\)；\n②补全图形，如图所示，\n〔图2〕\n同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)．\n∵\\(\\angle ABD=\\angle BAC+\\angle ACB\\)，\\(\\angle ACE=\\angle DCE+\\angle ACB\\)，\n∴\\(\\angle BAC=\\angle DCE\\)，即\\(\\alpha =\\beta\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(BD=CE\\)，理由如下：",
+    "\\(\\because \\angle DAE=\\angle BAC\\)，",
+    "\\(\\therefore \\angle DAE-\\angle DAC=\\angle BAC-\\angle DAC\\)，即\\(\\angle BAD=\\angle CAE\\)．",
+    "在\\(\\vartriangle BAD\\)和\\(\\vartriangle CAE\\)中，\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore BD=CE\\)；",
+    "【小问2详解】",
+    "解：∵\\(\\vartriangle BAD≌\\vartriangle CAE\\)，",
+    "∴\\(\\angle B=\\angle ACE\\)．",
+    "∵\\(\\angle BAC=90{}^\\circ\\)，",
+    "∴\\(\\angle B+\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle ACE+\\angle ACB=90{}^\\circ\\)，即\\(\\angle DCE=90{}^\\circ\\)．",
+    "故答案为：90；",
+    "【小问3详解】",
+    "①\\(\\alpha +\\beta =180{}^\\circ\\)，理由如下：",
+    "由（1）同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore \\angle B=\\angle ACE\\)．",
+    "\\(\\because \\angle B+\\angle ACB=180{}^\\circ -\\angle BAC=180{}^\\circ -\\alpha\\)，",
+    "\\(\\therefore \\angle DCE=\\angle ACE+\\angle ACB=\\angle B+\\angle ACB=180{}^\\circ -\\alpha =\\beta\\)，",
+    "\\(\\therefore \\alpha +\\beta =180{}^\\circ\\)；",
+    "②补全图形，如图所示，",
+    "〔图2〕",
+    "同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore \\angle ABD=\\angle ACE\\)．",
+    "∵\\(\\angle ABD=\\angle BAC+\\angle ACB\\)，\\(\\angle ACE=\\angle DCE+\\angle ACB\\)，",
+    "∴\\(\\angle BAC=\\angle DCE\\)，即\\(\\alpha =\\beta\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，点\\(D\\)是射线\\(CB\\)上一动点（不与点\\(B\\)，\\(C\\)重合），以\\(AD\\)为一边在\\(AD\\)的右侧作\\(\\vartriangle ADE\\)，使\\(AD=AE\\)，\\(\\angle DAE=\\angle BAC\\)，连接\\(CE\\)．\n〔图1〕",
+      "paper_blocks": [
+        75,
+        76
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "设\\(\\angle BAC=\\alpha\\)，\\(\\angle DCE=\\beta\\)．",
+      "paper_blocks": [
+        79
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：如图1，当点\\(D\\)在线段\\(CB\\)上时，\\(BD\\)与\\(CE\\)有何数量关系，请说明理由；\n前问作答依据：解：\\(BD=CE\\)，理由如下：\n\\(\\because \\angle DAE=\\angle BAC\\)，\n\\(\\therefore \\angle DAE-\\angle DAC=\\angle BAC-\\angle DAC\\)，即\\(\\angle BAD=\\angle CAE\\)．\n在\\(\\vartriangle BAD\\)和\\(\\vartriangle CAE\\)中，\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BD=CE\\)；",
+      "paper_blocks": [
+        75,
+        76,
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-96524382B3-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点\\(D\\)在线段\\(CB\\)上时，\\(BD\\)与\\(CE\\)有何数量关系，请说明理由；",
+      "stem_text": "如图1，当点\\(D\\)在线段\\(CB\\)上时，\\(BD\\)与\\(CE\\)有何数量关系，请说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BD=CE\\)，理由见解析",
+      "answer": "\\(BD=CE\\)，理由见解析",
+      "given_solution": "解：\\(BD=CE\\)，理由如下：\n\\(\\because \\angle DAE=\\angle BAC\\)，\n\\(\\therefore \\angle DAE-\\angle DAC=\\angle BAC-\\angle DAC\\)，即\\(\\angle BAD=\\angle CAE\\)．\n在\\(\\vartriangle BAD\\)和\\(\\vartriangle CAE\\)中，\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BD=CE\\)；",
+      "solution_steps": [
+        "解：\\(BD=CE\\)，理由如下：",
+        "\\(\\because \\angle DAE=\\angle BAC\\)，",
+        "\\(\\therefore \\angle DAE-\\angle DAC=\\angle BAC-\\angle DAC\\)，即\\(\\angle BAD=\\angle CAE\\)．",
+        "在\\(\\vartriangle BAD\\)和\\(\\vartriangle CAE\\)中，\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore BD=CE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-96524382B3-Q22-P02",
+      "label": "（2）",
+      "prompt": "在（1）的条件下，当\\(\\angle BAC=90{}^\\circ\\)时，那么\\(\\angle DCE=\\)___________度；",
+      "stem_text": "在（1）的条件下，当\\(\\angle BAC=90{}^\\circ\\)时，那么\\(\\angle DCE=\\)___________度；",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G7-T2-96524382B3-Q22-P01"
+      ],
+      "given_answer": "90",
+      "answer": "90",
+      "given_solution": "解：∵\\(\\vartriangle BAD≌\\vartriangle CAE\\)，\n∴\\(\\angle B=\\angle ACE\\)．\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle B+\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle ACE+\\angle ACB=90{}^\\circ\\)，即\\(\\angle DCE=90{}^\\circ\\)．\n故答案为：90；",
+      "solution_steps": [
+        "解：∵\\(\\vartriangle BAD≌\\vartriangle CAE\\)，",
+        "∴\\(\\angle B=\\angle ACE\\)．",
+        "∵\\(\\angle BAC=90{}^\\circ\\)，",
+        "∴\\(\\angle B+\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle ACE+\\angle ACB=90{}^\\circ\\)，即\\(\\angle DCE=90{}^\\circ\\)．",
+        "故答案为：90；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          362,
+          363,
+          364,
+          365,
+          366,
+          367
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-96524382B3-Q22-P03",
+      "label": "（3）①",
+      "prompt": "如图2，当点\\(D\\)在线段\\(CB\\)上，\\(\\angle BAC\\ne 90{}^\\circ\\)时，请探究\\(\\alpha\\)与\\(\\beta\\)之间的数量关系，并证明你的结论；",
+      "stem_text": "如图2，当点\\(D\\)在线段\\(CB\\)上，\\(\\angle BAC\\ne 90{}^\\circ\\)时，请探究\\(\\alpha\\)与\\(\\beta\\)之间的数量关系，并证明你的结论；",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\alpha +\\beta =180{}^\\circ\\)，理由见解析；",
+      "answer": "\\(\\alpha +\\beta =180{}^\\circ\\)，理由见解析；",
+      "given_solution": "\\(\\alpha +\\beta =180{}^\\circ\\)，理由如下：\n由（1）同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle B=\\angle ACE\\)．\n\\(\\because \\angle B+\\angle ACB=180{}^\\circ -\\angle BAC=180{}^\\circ -\\alpha\\)，\n\\(\\therefore \\angle DCE=\\angle ACE+\\angle ACB=\\angle B+\\angle ACB=180{}^\\circ -\\alpha =\\beta\\)，\n\\(\\therefore \\alpha +\\beta =180{}^\\circ\\)；",
+      "solution_steps": [
+        "\\(\\alpha +\\beta =180{}^\\circ\\)，理由如下：",
+        "由（1）同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore \\angle B=\\angle ACE\\)．",
+        "\\(\\because \\angle B+\\angle ACB=180{}^\\circ -\\angle BAC=180{}^\\circ -\\alpha\\)，",
+        "\\(\\therefore \\angle DCE=\\angle ACE+\\angle ACB=\\angle B+\\angle ACB=180{}^\\circ -\\alpha =\\beta\\)，",
+        "\\(\\therefore \\alpha +\\beta =180{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          79,
+          80
+        ],
+        "solution_block_ids": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-96524382B3-Q22-P04",
+      "label": "（3）②",
+      "prompt": "如图3，当点\\(D\\)在线段\\(CB\\)的延长线上，\\(\\angle BAC\\ne 90{}^\\circ\\)时，请将图3补充完整并直接写出此时\\(\\alpha\\)与\\(\\beta\\)之间的数量关系．",
+      "stem_text": "如图3，当点\\(D\\)在线段\\(CB\\)的延长线上，\\(\\angle BAC\\ne 90{}^\\circ\\)时，请将图3补充完整并直接写出此时\\(\\alpha\\)与\\(\\beta\\)之间的数量关系．",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "图见解析，\\(\\alpha =\\beta\\)",
+      "answer": "图见解析，\\(\\alpha =\\beta\\)",
+      "given_solution": "补全图形，如图所示，\n〔图2〕\n同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)．\n∵\\(\\angle ABD=\\angle BAC+\\angle ACB\\)，\\(\\angle ACE=\\angle DCE+\\angle ACB\\)，\n∴\\(\\angle BAC=\\angle DCE\\)，即\\(\\alpha =\\beta\\)．",
+      "solution_steps": [
+        "补全图形，如图所示，",
+        "〔图2〕",
+        "同理可证\\(\\vartriangle BAD≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore \\angle ABD=\\angle ACE\\)．",
+        "∵\\(\\angle ABD=\\angle BAC+\\angle ACB\\)，\\(\\angle ACE=\\angle DCE+\\angle ACB\\)，",
+        "∴\\(\\angle BAC=\\angle DCE\\)，即\\(\\alpha =\\beta\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          79,
+          81
+        ],
+        "solution_block_ids": [
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      75,
+      81
+    ],
+    "solution_body_blocks": [
+      341,
+      381
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-96524382B3/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          440.45,
+          583.64,
+          743.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-96524382B3/solution-q22-p17.webp",
+      "assets/SZ-G7-T2-96524382B3/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          470.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

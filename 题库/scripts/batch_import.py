@@ -31,7 +31,7 @@ def pending(root, candidates):
         status, match, _ = registry.lookup(entries, original, root.parent)
         if status == '已解析':
             known_answers = [match['solution']['sha256'], *[s['sha256'] for s in match.get('alternate_sources',[])
-                             if '解析' in s['role'] or ('答案' in s['role'] and '卡' not in s['role'])]]
+                             if '解析' in s['role'] or '评分' in s['role'] or ('答案' in s['role'] and '卡' not in s['role'])]]
             build.require(sources['solution']['sha256'] in known_answers,
                           f"{pid} 原卷已登记为 {match['id']}，但解析版有更新，请先校对版本")
             skipped.append((pid, match['id']))
@@ -77,6 +77,8 @@ def assemble(row, work, batch, revision):
     from batch_tags import review_book
     if pid in review_book():
         from batch_tags import apply_tags
+    elif pid.startswith('SZ-G7-T2-'):
+        from g7t2_tags import apply_tags
     else:
         from g7_tags import apply_tags
     printed = build.read(work/'pages'/(pid+'.json'))
@@ -87,6 +89,9 @@ def assemble(row, work, batch, revision):
                   f'{pid} 题号、打印版或资料答案计数不一致')
     if pid.startswith('SZ-G7-T1-'):
         from g7_text_review import review
+        questions = [review(q) for q in questions]
+    elif pid.startswith('SZ-G7-T2-'):
+        from g7t2_review import review
         questions = [review(q) for q in questions]
     for q in questions:
         build.require(q['paper_id'] == pid and q['id'] == f"{pid}-Q{q['number']:02d}", f'{pid} 题 ID 与原卷不符')
@@ -101,12 +106,11 @@ def assemble(row, work, batch, revision):
         if row.get(field):
             p[field]=row[field]
     p.update(schema_version='1.0', taxonomy_version='0.2', subject='数学', municipality='深圳市',
-             grade='七年级', semester='上学期', question_ids=ids, sources=sources,
+             grade=row.get('grade','七年级'), semester=row.get('semester','下学期' if pid.startswith('SZ-G7-T2-') else '上学期'),
+             question_ids=ids, sources=sources,
              ingestion={'batch':batch, 'answer_origin':'source_transcribed'})
     if revision:
         p['source_revision'] = revision
-    if row.get('metadata_note'):
-        p['metadata_note'] = row['metadata_note']
     return p, questions
 
 

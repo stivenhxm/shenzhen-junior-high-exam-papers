@@ -1,0 +1,380 @@
+{
+  "knowledge_ids": [
+    "M.N10.01",
+    "M.N10.02"
+  ],
+  "exam_ids": [
+    "E.N10.02.02",
+    "E.N10.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问要求区分自变量、因变量或常量。",
+  "tag_reason": "题面指向辨认变量与数量关系。 按题面要求和原解所用方法核定。 题面指向用表格、图象或式子表示变量关系。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-38AAAA130D-Q19",
+  "paper_id": "SZ-G7-T2-38AAAA130D",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "从图象读取阶段变化和数量关系、在表格表达式与图象之间转换",
+  "stem": "周末，小华坐公交车到深圳湾公园游玩，他从家出发0.8小时后到达南山书城．看了一会书后继续坐公交车到深圳湾公园，小华离家一段时间后，爸爸驾车沿相同的路线前往深圳湾公园．如图是他们离家路程s（km）与小华离家时间t（h）的关系图，请根据图回答下列问题：\n（1）图中自变量是 　   　，因变量是 　   　；\n（2）小华家到深圳湾公园的路程为 　     　km，小华在南山书城停留的时间为 　      　h；\n（3）小华出发 　      　小时后爸爸驾车出发；\n（4）小华爸爸驾车的平均速度为 　     　km/h；小华爸爸驾车经过 　                　小时追上小华；\n（5）小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为 　                 　．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/12/126a108c02caf78ddd88fc01912e4740bf44e74c809a8c71a1f886fe3e93e61c.jpeg"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "周末，小华坐公交车到深圳湾公园游玩，他从家出发0.8小时后到达南山书城．看了一会书后继续坐公交车到深圳湾公园，小华离家一段时间后，爸爸驾车沿相同的路线前往深圳湾公园．如图是他们离家路程s（km）与小华离家时间t（h）的关系图，请根据图回答下列问题：",
+      "paper_blocks": [
+        63
+      ]
+    },
+    {
+      "id": "fig-69",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-38AAAA130D-Q19-P01",
+      "label": "（1）",
+      "prompt": "图中自变量是 　   　，因变量是 　   　；",
+      "stem_text": "图中自变量是 　   　，因变量是 　   　；",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "自变量为时间 t，因变量为路程 s。",
+      "given_solution": "由图可得，自变量是t，因变量是s，\n故答案为：t，s；",
+      "solution_steps": [
+        "由图可得，自变量是t，因变量是s，",
+        "故答案为：t，s；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          69
+        ],
+        "solution_block_ids": [
+          339,
+          340
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N10.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问要求区分自变量、因变量或常量。",
+      "tag_reason": "题面指向辨认变量与数量关系。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-38AAAA130D-Q19-P02",
+      "label": "（2）",
+      "prompt": "小华家到深圳湾公园的路程为 　     　km，小华在南山书城停留的时间为 　      　h；",
+      "stem_text": "小华家到深圳湾公园的路程为 　     　km，小华在南山书城停留的时间为 　      　h；",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "30 千米，1.7 小时。",
+      "given_solution": "由图可得，小华家到深圳湾公园的路程为30km，小华在南山书城停留的时间为2.5﹣0.8＝1.7（h）；\n故答案为：30，1.7；",
+      "solution_steps": [
+        "由图可得，小华家到深圳湾公园的路程为30km，小华在南山书城停留的时间为2.5﹣0.8＝1.7（h）；",
+        "故答案为：30，1.7；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          65,
+          69
+        ],
+        "solution_block_ids": [
+          341,
+          342
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N10.02"
+      ],
+      "exam_ids": [
+        "E.N10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-38AAAA130D-Q19-P03",
+      "label": "（3）",
+      "prompt": "小华出发 　      　小时后爸爸驾车出发；",
+      "stem_text": "小华出发 　      　小时后爸爸驾车出发；",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "2.5 小时。",
+      "given_solution": "由图可得，小华出发2.5小时后爸爸驾车出发；\n故答案为：2.5；",
+      "solution_steps": [
+        "由图可得，小华出发2.5小时后爸爸驾车出发；",
+        "故答案为：2.5；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          66,
+          69
+        ],
+        "solution_block_ids": [
+          343,
+          344
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N10.02"
+      ],
+      "exam_ids": [
+        "E.N10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-38AAAA130D-Q19-P04",
+      "label": "（4）",
+      "prompt": "小华爸爸驾车的平均速度为 　     　km/h；小华爸爸驾车经过 　                　小时追上小华；",
+      "stem_text": "小华爸爸驾车的平均速度为 　     　km/h；小华爸爸驾车经过 　                　小时追上小华；",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "30 千米/时；驾车 \\(\\frac23\\) 小时后追上。",
+      "given_solution": "小华爸爸驾车的平均速度为〔图1〕＝30（km/h）；\n小华从南山书城到深圳湾公园的平均速度为〔图2〕＝12（km/h）；\n爸爸驾车经过〔图3〕（h）追上小华；\n故答案为：30；〔图4〕；",
+      "solution_steps": [
+        "小华爸爸驾车的平均速度为〔图1〕＝30（km/h）；",
+        "小华从南山书城到深圳湾公园的平均速度为〔图2〕＝12（km/h）；",
+        "爸爸驾车经过〔图3〕（h）追上小华；",
+        "故答案为：30；〔图4〕；"
+      ],
+      "solution_figure_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          63,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N10.02"
+      ],
+      "exam_ids": [
+        "E.N10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-38AAAA130D-Q19-P05",
+      "label": "（5）",
+      "prompt": "小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为 　                 　．",
+      "stem_text": "小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为 　                 　．",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(s=15t\\)，其中 \\(0\\le t\\le0.8\\)。",
+      "given_solution": "小华从家到南山书城时的速度为：12÷0.8＝15（km/h），\n所以小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为s＝15t（0≤t≤0.8）．\n故答案为：s＝15t（0≤t≤0.8）．\n故答案为：s＝15t（0≤t≤0.8）．",
+      "solution_steps": [
+        "小华从家到南山书城时的速度为：12÷0.8＝15（km/h），",
+        "所以小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为s＝15t（0≤t≤0.8）．",
+        "故答案为：s＝15t（0≤t≤0.8）．",
+        "故答案为：s＝15t（0≤t≤0.8）．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N10.02"
+      ],
+      "exam_ids": [
+        "E.N10.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向用表格、图象或式子表示变量关系。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）自变量为时间 t，因变量为路程 s。\n（2）30 千米，1.7 小时。\n（3）2.5 小时。\n（4）30 千米/时；驾车 \\(\\frac23\\) 小时后追上。\n（5）\\(s=15t\\)，其中 \\(0\\le t\\le0.8\\)。",
+  "given_solution": "【分析】（1）根据图象进行判断，即可得出自变量与因变量；\n（2）根据图象中数据进行计算，即可得到路程与时间；\n（3）根据梯形即可得到爸爸驾车出发的时间；\n（4）根据相应的路程除以时间，即可得出两人速度，再根据追击问题关系式即可解答；\n（5）利用小华从家到南山书城时的速度可得答案．\n解：（1）由图可得，自变量是t，因变量是s，\n故答案为：t，s；\n（2）由图可得，小华家到深圳湾公园的路程为30km，小华在南山书城停留的时间为2.5﹣0.8＝1.7（h）；\n故答案为：30，1.7；\n（3）由图可得，小华出发2.5小时后爸爸驾车出发；\n故答案为：2.5；\n（4）小华爸爸驾车的平均速度为〔图1〕＝30（km/h）；\n小华从南山书城到深圳湾公园的平均速度为〔图2〕＝12（km/h）；\n爸爸驾车经过〔图3〕（h）追上小华；\n故答案为：30；〔图4〕；\n（5）小华从家到南山书城时的速度为：12÷0.8＝15（km/h），\n所以小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为s＝15t（0≤t≤0.8）．\n故答案为：s＝15t（0≤t≤0.8）．\n故答案为：s＝15t（0≤t≤0.8）．\n【点评】本题考查了函数的图象，以及行程问题的数量关系的运用，解题关键是正确理解清楚函数图象的意义，利用数形结合的方法解答．",
+  "given_solution_figures": [
+    "assets/figures/c3/c33e900d0c28101ac1b35ee2b04626cf7e8ba90c0c8250233d923285548dda6c.jpeg",
+    "assets/figures/2a/2ae3d9d80a6fedbee32ba2af997103354e6980e105926952f24dcc1eb9a9541e.jpeg",
+    "assets/figures/74/74121668946868f4dbf084d59b2b7f3f7e8d18b3694136e81c8db8067bc4fe41.jpeg",
+    "assets/figures/9c/9c32fcf3330a27a7215a6ea408716b5cd79a4a0cb0f564ebfb9cf9ccb2e213e8.jpeg"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution_steps": [
+    "解：（1）由图可得，自变量是t，因变量是s，",
+    "故答案为：t，s；",
+    "（2）由图可得，小华家到深圳湾公园的路程为30km，小华在南山书城停留的时间为2.5﹣0.8＝1.7（h）；",
+    "故答案为：30，1.7；",
+    "（3）由图可得，小华出发2.5小时后爸爸驾车出发；",
+    "故答案为：2.5；",
+    "（4）小华爸爸驾车的平均速度为〔图1〕＝30（km/h）；",
+    "小华从南山书城到深圳湾公园的平均速度为〔图2〕＝12（km/h）；",
+    "爸爸驾车经过〔图3〕（h）追上小华；",
+    "故答案为：30；〔图4〕；",
+    "（5）小华从家到南山书城时的速度为：12÷0.8＝15（km/h），",
+    "所以小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为s＝15t（0≤t≤0.8）．",
+    "故答案为：s＝15t（0≤t≤0.8）．",
+    "故答案为：s＝15t（0≤t≤0.8）．"
+  ],
+  "solution": "解：（1）由图可得，自变量是t，因变量是s，\n故答案为：t，s；\n（2）由图可得，小华家到深圳湾公园的路程为30km，小华在南山书城停留的时间为2.5﹣0.8＝1.7（h）；\n故答案为：30，1.7；\n（3）由图可得，小华出发2.5小时后爸爸驾车出发；\n故答案为：2.5；\n（4）小华爸爸驾车的平均速度为〔图1〕＝30（km/h）；\n小华从南山书城到深圳湾公园的平均速度为〔图2〕＝12（km/h）；\n爸爸驾车经过〔图3〕（h）追上小华；\n故答案为：30；〔图4〕；\n（5）小华从家到南山书城时的速度为：12÷0.8＝15（km/h），\n所以小华从家到南山书城时，他离家路程s与坐车时间t之间的关系式为s＝15t（0≤t≤0.8）．\n故答案为：s＝15t（0≤t≤0.8）．\n故答案为：s＝15t（0≤t≤0.8）．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source": {
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-38AAAA130D/single/q19-p04.webp",
+      "assets/SZ-G7-T2-38AAAA130D/single/q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          438.53,
+          582.2,
+          678.53
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          70.52,
+          582.2,
+          160.96
+        ]
+      }
+    ],
+    "solution_pages": [
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-38AAAA130D/single/s19-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          166.09,
+          582.2,
+          680.88
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

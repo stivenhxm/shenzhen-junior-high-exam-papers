@@ -1,0 +1,371 @@
+{
+  "id": "SZ-G7-T2-CB32E0E68B-Q22",
+  "paper_id": "SZ-G7-T2-CB32E0E68B",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "材料阅读：如图1所示，已知直角梯形BCDE中，A是CD上一点，\\(CB=a\\)，\\(AC=b\\)，\\(AB=c\\)，且\\(AB\\bot AE\\)，\\(AB=AE\\)，现需探究直角三角形ABC的三边a、b、c之间的数量关系：\n〔图1〕\n（1）【初步探究】猜想\\(\\vartriangle ABC\\)是否与\\(\\vartriangle ADE\\)全等，若是，请说明理由；\n（2）【问题解决】请用两种含有a，b，c的代数式的方法表示直角梯形BCDE的面积：S\\({}_{梯形}\\)\\({}_{BCDE}\\)=           ；S\\({}_{梯形}\\)\\({}_{BCDE}\\)=        ，由此，你能得到的a、b、c的数量关系是：\n（3）【拓展应用】如图2，等腰三角形ABC中，D是底边BC上的中点，\\(BC=12\\)，\\(AB=10\\)，E、F分别是线段AD和AC上的两个动点，求\\(CE+EF\\)的最小值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/ed/ed378f1b8976408af57866f10d8cde0d16a8f97a6fa522acc81d8536f65bbaa1.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由见解析\n（2）\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)\n（3）\\(\\frac { 48 } { 5 }\\)",
+  "answer": "（1）\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由见解析\n（2）\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)\n（3）\\(\\frac { 48 } { 5 }\\)",
+  "given_solution": "【分析】（1）由∠ABC+∠BAC=∠EAD+∠BAC=90°可得∠ABC=∠EAD，利用AAS即可证明\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)；\n（2）根据梯形的面积公式以及\\(S_{ 梯形BCDE } =S_{ \\Delta ABC } +S_{ \\Delta ABE } +S_{ \\Delta AED }\\)，可得两种含有a，b，的代数式的\\(S_{ 梯形BCDE }\\)的表示方法，进而得出a、b、c的数量关系；\n（3）连接BE，根据等腰三角形的性质可得BE=CE，从而得到CE+EF=BE+EF，然后过点B作\\(BF'\\bot AC\\)于点F'，交AD于E'，此时CE'+E'F'=BF'，即当点E与E'重合时，CE+EF有最小值，最小值为BF'的长，利用勾股定理求出AD=8，利用面积法可求出BF'的值，即CE+EF的最小值．\n【小问1详解】\n解：\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由如下：\n∵四边形BCDE是直角梯形，\n∴∠C=∠D=90°，\n∴∠ABC+∠BAC=90°，\n∵\\(AB\\bot AE\\)，\n∴∠BAE=90°，\n∴∠EAD+∠BAC=90°，\n∴∠ABC=∠EAD，\n在△ABC和△EAD中，\n\\(\\begin{cases} \\angle C=\\angle D \\\\ \\angle ABC=\\angle EAD \\\\ AB=EA \\end{cases}\\)，\n∴\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)；\n【小问2详解】\n解：∵\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)\n∴AC=ED，BC=AD，\n∵BC=a，AC=b，AB=c，\n∴AD=BC=a，DE=AC=b，AE=AB=c，\n∴CD=AC+AD=a+b，\n\\(S_{ 梯形BCDE } =\\frac { 1 } { 2 }(BC+DE)\\cdot CD=\\frac { 1 } { 2 }(a+b)(a+b)=\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)\n\\(S_{ 梯形BCDE } =S_{ \\Delta ABC } +S_{ \\Delta ABE } +S_{ \\Delta AED } =\\frac { 1 } { 2 }ab+\\frac { 1 } { 2 }c ^ { 2 } +\\frac { 1 } { 2 }ab=ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\n∴\\(\\frac { 1 } { 2 }(a+b) ^ { 2 } =ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\n∴\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)\n∴\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n故答案为：\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)\n【小问3详解】\n解：如图，连接BE，\n∵AC=AB，点D为底边BC的中点，\n∴AD⊥BC，\n即AD垂直平分BC，\n∴BE=CE，\n∴CE+EF=BE+EF，\n过点B作\\(BF'\\bot AC\\)于点F'，交AD于E'，此时CE'+E'F'=BF'，即当点E与E'重合时，CE+EF有最小值，最小值为BF'的长，\n〔图2〕\n∵AC=AB=10，点D为底边BC的中点，BC=12，\n∴\\(BD=CD=\\frac { 1 } { 2 }BC=6\\)，\\(AD\\bot BC\\)，\n∴∠ADB=90°，\n∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }{ \\rm{ = } }8\\)，\n∵\\(BF'\\bot AC\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AD=\\frac { 1 } { 2 }AC\\cdot BF'\\)，\n∴\\(BF'=\\frac { 12\\times 8 } { 10 }=\\frac { 48 } { 5 }\\)，\n∴CE+EF的最小值为\\(\\frac { 48 } { 5 }\\)．\n【点睛】本题主要考查了全等三角形的判定与性质、等腰三角形的性质，直角三角形的性质以及面积的计算，勾股定理等知识；熟练掌握直角三角形的性质，证明三角形全等是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/ed/ed2914d75f49fde421067c5b092263756f80c09bea94b870a7626665885eb38f.png",
+    "assets/figures/46/4651a4a9d0c72a45e6666952522a4437e2b924a78496d18f67184577f2e87cd9.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由如下：\n∵四边形BCDE是直角梯形，\n∴∠C=∠D=90°，\n∴∠ABC+∠BAC=90°，\n∵\\(AB\\bot AE\\)，\n∴∠BAE=90°，\n∴∠EAD+∠BAC=90°，\n∴∠ABC=∠EAD，\n在△ABC和△EAD中，\n\\(\\begin{cases} \\angle C=\\angle D \\\\ \\angle ABC=\\angle EAD \\\\ AB=EA \\end{cases}\\)，\n∴\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)；\n【小问2详解】\n解：∵\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)\n∴AC=ED，BC=AD，\n∵BC=a，AC=b，AB=c，\n∴AD=BC=a，DE=AC=b，AE=AB=c，\n∴CD=AC+AD=a+b，\n\\(S_{ 梯形BCDE } =\\frac { 1 } { 2 }(BC+DE)\\cdot CD=\\frac { 1 } { 2 }(a+b)(a+b)=\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)\n\\(S_{ 梯形BCDE } =S_{ \\Delta ABC } +S_{ \\Delta ABE } +S_{ \\Delta AED } =\\frac { 1 } { 2 }ab+\\frac { 1 } { 2 }c ^ { 2 } +\\frac { 1 } { 2 }ab=ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\n∴\\(\\frac { 1 } { 2 }(a+b) ^ { 2 } =ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\n∴\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)\n∴\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n故答案为：\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)\n【小问3详解】\n解：如图，连接BE，\n∵AC=AB，点D为底边BC的中点，\n∴AD⊥BC，\n即AD垂直平分BC，\n∴BE=CE，\n∴CE+EF=BE+EF，\n过点B作\\(BF'\\bot AC\\)于点F'，交AD于E'，此时CE'+E'F'=BF'，即当点E与E'重合时，CE+EF有最小值，最小值为BF'的长，\n〔图2〕\n∵AC=AB=10，点D为底边BC的中点，BC=12，\n∴\\(BD=CD=\\frac { 1 } { 2 }BC=6\\)，\\(AD\\bot BC\\)，\n∴∠ADB=90°，\n∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }{ \\rm{ = } }8\\)，\n∵\\(BF'\\bot AC\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AD=\\frac { 1 } { 2 }AC\\cdot BF'\\)，\n∴\\(BF'=\\frac { 12\\times 8 } { 10 }=\\frac { 48 } { 5 }\\)，\n∴CE+EF的最小值为\\(\\frac { 48 } { 5 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由如下：",
+    "∵四边形BCDE是直角梯形，",
+    "∴∠C=∠D=90°，",
+    "∴∠ABC+∠BAC=90°，",
+    "∵\\(AB\\bot AE\\)，",
+    "∴∠BAE=90°，",
+    "∴∠EAD+∠BAC=90°，",
+    "∴∠ABC=∠EAD，",
+    "在△ABC和△EAD中，",
+    "\\(\\begin{cases} \\angle C=\\angle D \\\\ \\angle ABC=\\angle EAD \\\\ AB=EA \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)；",
+    "【小问2详解】",
+    "解：∵\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)",
+    "∴AC=ED，BC=AD，",
+    "∵BC=a，AC=b，AB=c，",
+    "∴AD=BC=a，DE=AC=b，AE=AB=c，",
+    "∴CD=AC+AD=a+b，",
+    "\\(S_{ 梯形BCDE } =\\frac { 1 } { 2 }(BC+DE)\\cdot CD=\\frac { 1 } { 2 }(a+b)(a+b)=\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)",
+    "\\(S_{ 梯形BCDE } =S_{ \\Delta ABC } +S_{ \\Delta ABE } +S_{ \\Delta AED } =\\frac { 1 } { 2 }ab+\\frac { 1 } { 2 }c ^ { 2 } +\\frac { 1 } { 2 }ab=ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，",
+    "∴\\(\\frac { 1 } { 2 }(a+b) ^ { 2 } =ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，",
+    "∴\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)",
+    "∴\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+    "故答案为：\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)",
+    "【小问3详解】",
+    "解：如图，连接BE，",
+    "∵AC=AB，点D为底边BC的中点，",
+    "∴AD⊥BC，",
+    "即AD垂直平分BC，",
+    "∴BE=CE，",
+    "∴CE+EF=BE+EF，",
+    "过点B作\\(BF'\\bot AC\\)于点F'，交AD于E'，此时CE'+E'F'=BF'，即当点E与E'重合时，CE+EF有最小值，最小值为BF'的长，",
+    "〔图2〕",
+    "∵AC=AB=10，点D为底边BC的中点，BC=12，",
+    "∴\\(BD=CD=\\frac { 1 } { 2 }BC=6\\)，\\(AD\\bot BC\\)，",
+    "∴∠ADB=90°，",
+    "∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }{ \\rm{ = } }8\\)，",
+    "∵\\(BF'\\bot AC\\)，",
+    "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AD=\\frac { 1 } { 2 }AC\\cdot BF'\\)，",
+    "∴\\(BF'=\\frac { 12\\times 8 } { 10 }=\\frac { 48 } { 5 }\\)，",
+    "∴CE+EF的最小值为\\(\\frac { 48 } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "材料阅读：如图1所示，已知直角梯形BCDE中，A是CD上一点，\\(CB=a\\)，\\(AC=b\\)，\\(AB=c\\)，且\\(AB\\bot AE\\)，\\(AB=AE\\)，现需探究直角三角形ABC的三边a、b、c之间的数量关系：\n〔图1〕",
+      "paper_blocks": [
+        77,
+        78
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-CB32E0E68B-Q22-P01",
+      "label": "（1）",
+      "prompt": "【初步探究】猜想\\(\\vartriangle ABC\\)是否与\\(\\vartriangle ADE\\)全等，若是，请说明理由；",
+      "stem_text": "【初步探究】猜想\\(\\vartriangle ABC\\)是否与\\(\\vartriangle ADE\\)全等，若是，请说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由见解析",
+      "answer": "\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由见解析",
+      "given_solution": "解：\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由如下：\n∵四边形BCDE是直角梯形，\n∴∠C=∠D=90°，\n∴∠ABC+∠BAC=90°，\n∵\\(AB\\bot AE\\)，\n∴∠BAE=90°，\n∴∠EAD+∠BAC=90°，\n∴∠ABC=∠EAD，\n在△ABC和△EAD中，\n\\(\\begin{cases} \\angle C=\\angle D \\\\ \\angle ABC=\\angle EAD \\\\ AB=EA \\end{cases}\\)，\n∴\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)；",
+      "solution_steps": [
+        "解：\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)，理由如下：",
+        "∵四边形BCDE是直角梯形，",
+        "∴∠C=∠D=90°，",
+        "∴∠ABC+∠BAC=90°，",
+        "∵\\(AB\\bot AE\\)，",
+        "∴∠BAE=90°，",
+        "∴∠EAD+∠BAC=90°，",
+        "∴∠ABC=∠EAD，",
+        "在△ABC和△EAD中，",
+        "\\(\\begin{cases} \\angle C=\\angle D \\\\ \\angle ABC=\\angle EAD \\\\ AB=EA \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          79
+        ],
+        "solution_block_ids": [
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-CB32E0E68B-Q22-P02",
+      "label": "（2）",
+      "prompt": "【问题解决】请用两种含有a，b，c的代数式的方法表示直角梯形BCDE的面积：S\\({}_{梯形}\\)\\({}_{BCDE}\\)=           ；S\\({}_{梯形}\\)\\({}_{BCDE}\\)=        ，由此，你能得到的a、b、c的数量关系是：",
+      "stem_text": "【问题解决】请用两种含有a，b，c的代数式的方法表示直角梯形BCDE的面积：S\\({}_{梯形}\\)\\({}_{BCDE}\\)=           ；S\\({}_{梯形}\\)\\({}_{BCDE}\\)=        ，由此，你能得到的a、b、c的数量关系是：",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)",
+      "answer": "\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)",
+      "given_solution": "解：∵\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)\n∴AC=ED，BC=AD，\n∵BC=a，AC=b，AB=c，\n∴AD=BC=a，DE=AC=b，AE=AB=c，\n∴CD=AC+AD=a+b，\n\\(S_{ 梯形BCDE } =\\frac { 1 } { 2 }(BC+DE)\\cdot CD=\\frac { 1 } { 2 }(a+b)(a+b)=\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)\n\\(S_{ 梯形BCDE } =S_{ \\Delta ABC } +S_{ \\Delta ABE } +S_{ \\Delta AED } =\\frac { 1 } { 2 }ab+\\frac { 1 } { 2 }c ^ { 2 } +\\frac { 1 } { 2 }ab=ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\n∴\\(\\frac { 1 } { 2 }(a+b) ^ { 2 } =ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\n∴\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)\n∴\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n故答案为：\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)",
+      "solution_steps": [
+        "解：∵\\(\\vartriangle ABC\\cong \\vartriangle EAD\\)",
+        "∴AC=ED，BC=AD，",
+        "∵BC=a，AC=b，AB=c，",
+        "∴AD=BC=a，DE=AC=b，AE=AB=c，",
+        "∴CD=AC+AD=a+b，",
+        "\\(S_{ 梯形BCDE } =\\frac { 1 } { 2 }(BC+DE)\\cdot CD=\\frac { 1 } { 2 }(a+b)(a+b)=\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)",
+        "\\(S_{ 梯形BCDE } =S_{ \\Delta ABC } +S_{ \\Delta ABE } +S_{ \\Delta AED } =\\frac { 1 } { 2 }ab+\\frac { 1 } { 2 }c ^ { 2 } +\\frac { 1 } { 2 }ab=ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，",
+        "∴\\(\\frac { 1 } { 2 }(a+b) ^ { 2 } =ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，",
+        "∴\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)",
+        "∴\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+        "故答案为：\\(\\frac { 1 } { 2 }(a+b) ^ { 2 }\\)，\\(ab+\\frac { 1 } { 2 }c ^ { 2 }\\)，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          80
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "以面积割补解释乘法恒等式，细目侧重识别与使用。",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-CB32E0E68B-Q22-P03",
+      "label": "（3）",
+      "prompt": "【拓展应用】如图2，等腰三角形ABC中，D是底边BC上的中点，\\(BC=12\\)，\\(AB=10\\)，E、F分别是线段AD和AC上的两个动点，求\\(CE+EF\\)的最小值．",
+      "stem_text": "【拓展应用】如图2，等腰三角形ABC中，D是底边BC上的中点，\\(BC=12\\)，\\(AB=10\\)，E、F分别是线段AD和AC上的两个动点，求\\(CE+EF\\)的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 48 } { 5 }\\)",
+      "answer": "\\(\\frac { 48 } { 5 }\\)",
+      "given_solution": "解：如图，连接BE，\n∵AC=AB，点D为底边BC的中点，\n∴AD⊥BC，\n即AD垂直平分BC，\n∴BE=CE，\n∴CE+EF=BE+EF，\n过点B作\\(BF'\\bot AC\\)于点F'，交AD于E'，此时CE'+E'F'=BF'，即当点E与E'重合时，CE+EF有最小值，最小值为BF'的长，\n〔图2〕\n∵AC=AB=10，点D为底边BC的中点，BC=12，\n∴\\(BD=CD=\\frac { 1 } { 2 }BC=6\\)，\\(AD\\bot BC\\)，\n∴∠ADB=90°，\n∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }{ \\rm{ = } }8\\)，\n∵\\(BF'\\bot AC\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AD=\\frac { 1 } { 2 }AC\\cdot BF'\\)，\n∴\\(BF'=\\frac { 12\\times 8 } { 10 }=\\frac { 48 } { 5 }\\)，\n∴CE+EF的最小值为\\(\\frac { 48 } { 5 }\\)．",
+      "solution_steps": [
+        "解：如图，连接BE，",
+        "∵AC=AB，点D为底边BC的中点，",
+        "∴AD⊥BC，",
+        "即AD垂直平分BC，",
+        "∴BE=CE，",
+        "∴CE+EF=BE+EF，",
+        "过点B作\\(BF'\\bot AC\\)于点F'，交AD于E'，此时CE'+E'F'=BF'，即当点E与E'重合时，CE+EF有最小值，最小值为BF'的长，",
+        "〔图2〕",
+        "∵AC=AB=10，点D为底边BC的中点，BC=12，",
+        "∴\\(BD=CD=\\frac { 1 } { 2 }BC=6\\)，\\(AD\\bot BC\\)，",
+        "∴∠ADB=90°，",
+        "∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }{ \\rm{ = } }8\\)，",
+        "∵\\(BF'\\bot AC\\)，",
+        "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AD=\\frac { 1 } { 2 }AC\\cdot BF'\\)，",
+        "∴\\(BF'=\\frac { 12\\times 8 } { 10 }=\\frac { 48 } { 5 }\\)，",
+        "∴CE+EF的最小值为\\(\\frac { 48 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          81
+        ],
+        "solution_block_ids": [
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.01"
+      ],
+      "exam_ids": [
+        "E.G01.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“中点”。利用点的位置关系求线段长度。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      77,
+      81
+    ],
+    "solution_body_blocks": [
+      355,
+      408
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-CB32E0E68B/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          385.91,
+          583.64,
+          665.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-CB32E0E68B/solution-q22-p17.webp",
+      "assets/SZ-G7-T2-CB32E0E68B/solution-q22-p18.webp",
+      "assets/SZ-G7-T2-CB32E0E68B/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          144.09,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          290.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.N03.06",
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G01.01.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "以面积割补解释乘法恒等式，细目侧重识别与使用。",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。 根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 题面含“中点”。利用点的位置关系求线段长度。",
+  "tag_source": "小问标签汇总"
+}

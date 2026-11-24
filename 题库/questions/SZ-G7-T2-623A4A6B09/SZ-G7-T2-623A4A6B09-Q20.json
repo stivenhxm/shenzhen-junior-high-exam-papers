@@ -1,0 +1,370 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-623A4A6B09-Q20",
+  "paper_id": "SZ-G7-T2-623A4A6B09",
+  "number": 20,
+  "type": "解答题",
+  "points": 11.0,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "（11分）数学模型可以用来解决一类问题，是数学应用基本途径．通过探究图形的变化规律，再结合其他数学知识的内在联系，最终可以获得宝贵的数学经验，并将其运用到更广阔的数学天地．\n〔图1〕\n(1)发现问题：如图1，在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，延长\\(BE\\)交\\(CF\\)于点D．则\\(BE\\)与\\(CF\\)的数量关系：__________，\\(\\angle BDC=\\) ；\n(2)类比探究：如图2，在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，延长BE，\\(FC\\)交于点D．请猜想\\(BE\\)与\\(CF\\)的数量关系及\\(\\angle BDC\\)的度数，并说明理由；\n(3)拓展应用：在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=90{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，将\\(\\vartriangle AEF\\)绕它们共同的顶点A旋转一定的角度后，若B，E，F三点刚好在同一直线上，求此时\\(\\angle AFC\\)的度数．",
+  "choices": [],
+  "figures": [
+    "assets/figures/56/561d42f251e5a3d5dc18e334715acfe2617828fd7688d3545db9b497b45b367a.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（11分）数学模型可以用来解决一类问题，是数学应用基本途径．通过探究图形的变化规律，再结合其他数学知识的内在联系，最终可以获得宝贵的数学经验，并将其运用到更广阔的数学天地．\n〔图1〕",
+      "paper_blocks": [
+        97,
+        98
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-623A4A6B09-Q20-P01",
+      "label": "(1)",
+      "prompt": "发现问题：如图1，在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，延长\\(BE\\)交\\(CF\\)于点D．则\\(BE\\)与\\(CF\\)的数量关系：__________，\\(\\angle BDC=\\) ；",
+      "stem_text": "发现问题：如图1，在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，延长\\(BE\\)交\\(CF\\)于点D．则\\(BE\\)与\\(CF\\)的数量关系：__________，\\(\\angle BDC=\\) ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(BE=CF\\)，30°。",
+      "given_solution": "解：如图1，设\\(AC\\)交\\(BD\\)于点G，\n〔图1〕\n∵\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle CAF=30{}^\\circ +\\angle CAE\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle ABE=\\angle ACF\\)，\\(BE=CF\\)，\n∴\\(\\angle BDC=\\angle AGD-\\angle ACF=\\angle ACD-\\angle ABE=\\angle BAC=30{}^\\circ\\)．\n故答案为：\\(BE=CF\\)，30（2分）\n．",
+      "solution_steps": [
+        "解：如图1，设\\(AC\\)交\\(BD\\)于点G，",
+        "〔图1〕",
+        "∵\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，",
+        "∴\\(\\angle BAE=\\angle CAF=30{}^\\circ +\\angle CAE\\)，",
+        "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，",
+        "\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle ABE=\\angle ACF\\)，\\(BE=CF\\)，",
+        "∴\\(\\angle BDC=\\angle AGD-\\angle ACF=\\angle ACD-\\angle ABE=\\angle BAC=30{}^\\circ\\)．",
+        "故答案为：\\(BE=CF\\)，30（2分）",
+        "．"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          99
+        ],
+        "solution_block_ids": [
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-623A4A6B09-Q20-P02",
+      "label": "(2)",
+      "prompt": "类比探究：如图2，在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，延长BE，\\(FC\\)交于点D．请猜想\\(BE\\)与\\(CF\\)的数量关系及\\(\\angle BDC\\)的度数，并说明理由；",
+      "stem_text": "类比探究：如图2，在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，延长BE，\\(FC\\)交于点D．请猜想\\(BE\\)与\\(CF\\)的数量关系及\\(\\angle BDC\\)的度数，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(BE=CF\\)，\\(\\angle BDC=60^\\circ\\)。",
+      "given_solution": "解：\\(BE=CF，\\angle BDC=60{}^\\circ\\)，理由如下：\n∵\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，\n∴\\(\\angle BAC-\\angle EAC=\\angle EAF-\\angle EAC\\)，即\\(\\angle BAE=\\angle CAF\\)，（3分）\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（4分）\n∴\\(BE=CF{ \\rm{ , } }\\angle AEB=\\angle AFC\\)，（5分）\n∵\\(\\angle EAF=120{}^\\circ { \\rm{ , } }AE=AF\\)，\n∴\\(\\angle AEF=\\angle AFE=30{}^\\circ\\)，\n∴\\(\\angle BDC=\\angle BEF-\\angle EFD=\\angle AEB+30{}^\\circ -\\left ( { \\angle AFC-30{}^\\circ } \\right )=60{}^\\circ\\)．（6分）",
+      "solution_steps": [
+        "解：\\(BE=CF，\\angle BDC=60{}^\\circ\\)，理由如下：",
+        "∵\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，",
+        "∴\\(\\angle BAC-\\angle EAC=\\angle EAF-\\angle EAC\\)，即\\(\\angle BAE=\\angle CAF\\)，（3分）",
+        "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，",
+        "\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（4分）",
+        "∴\\(BE=CF{ \\rm{ , } }\\angle AEB=\\angle AFC\\)，（5分）",
+        "∵\\(\\angle EAF=120{}^\\circ { \\rm{ , } }AE=AF\\)，",
+        "∴\\(\\angle AEF=\\angle AFE=30{}^\\circ\\)，",
+        "∴\\(\\angle BDC=\\angle BEF-\\angle EFD=\\angle AEB+30{}^\\circ -\\left ( { \\angle AFC-30{}^\\circ } \\right )=60{}^\\circ\\)．（6分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          100
+        ],
+        "solution_block_ids": [
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-623A4A6B09-Q20-P03",
+      "label": "(3)",
+      "prompt": "拓展应用：在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=90{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，将\\(\\vartriangle AEF\\)绕它们共同的顶点A旋转一定的角度后，若B，E，F三点刚好在同一直线上，求此时\\(\\angle AFC\\)的度数．",
+      "stem_text": "拓展应用：在\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)中，\\(AB=AC\\)，\\(AE=AF\\)，\\(\\angle BAC=\\angle EAF=90{}^\\circ\\)，连接\\(BE\\)，\\(CF\\)，将\\(\\vartriangle AEF\\)绕它们共同的顶点A旋转一定的角度后，若B，E，F三点刚好在同一直线上，求此时\\(\\angle AFC\\)的度数．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\angle AFC=135^\\circ\\) 或 \\(45^\\circ\\)。",
+      "given_solution": "解：如图3所示：\n〔图2〕\n∵\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)都是等腰三角形，\n∴\\(\\angle CAB=\\angle EAF=90{}^\\circ ，AB=AC，AE=AF\\)，（7分）\n∴\\(\\angle CAB-\\angle CAE=\\angle FAE-\\angle CAE\\)，即：\\(\\angle BAE=\\angle CAF\\)，\n∴\\(\\vartriangle BAE≌\\vartriangle CAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，（8分）\n∴\\(\\angle AFC=AEB,AE=AF\\)，\n∵\\(\\angle EAF=90{}^\\circ\\)，\n∴\\(\\angle AEF=45{}^\\circ\\),\n∴\\(\\angle AEB=180{}^\\circ -\\angle AEF=135{}^\\circ\\),\n∴\\(\\angle AFC=\\angle AEB=135{}^\\circ\\)；（9分）\n当F点在线段\\(BE\\)上时，\n同法可证得：\\(\\vartriangle BAE≌\\vartriangle CAF\\)，（10分）\n\\(\\therefore \\angle AFC=\\angle AEB\\)，\n\\(\\because \\angle EAF=90{}^\\circ ，AE=AF\\)，\n\\(\\therefore \\angle AEF=45{}^\\circ\\)，\n\\(\\therefore \\angle AFC=45{}^\\circ\\)；\n综上，\\(\\angle AFC=135{}^\\circ\\)或\\(45{}^\\circ\\)（11分）\n．",
+      "solution_steps": [
+        "解：如图3所示：",
+        "〔图2〕",
+        "∵\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)都是等腰三角形，",
+        "∴\\(\\angle CAB=\\angle EAF=90{}^\\circ ，AB=AC，AE=AF\\)，（7分）",
+        "∴\\(\\angle CAB-\\angle CAE=\\angle FAE-\\angle CAE\\)，即：\\(\\angle BAE=\\angle CAF\\)，",
+        "∴\\(\\vartriangle BAE≌\\vartriangle CAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，（8分）",
+        "∴\\(\\angle AFC=AEB,AE=AF\\)，",
+        "∵\\(\\angle EAF=90{}^\\circ\\)，",
+        "∴\\(\\angle AEF=45{}^\\circ\\),",
+        "∴\\(\\angle AEB=180{}^\\circ -\\angle AEF=135{}^\\circ\\),",
+        "∴\\(\\angle AFC=\\angle AEB=135{}^\\circ\\)；（9分）",
+        "当F点在线段\\(BE\\)上时，",
+        "同法可证得：\\(\\vartriangle BAE≌\\vartriangle CAF\\)，（10分）",
+        "\\(\\therefore \\angle AFC=\\angle AEB\\)，",
+        "\\(\\because \\angle EAF=90{}^\\circ ，AE=AF\\)，",
+        "\\(\\therefore \\angle AEF=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle AFC=45{}^\\circ\\)；",
+        "综上，\\(\\angle AFC=135{}^\\circ\\)或\\(45{}^\\circ\\)（11分）",
+        "．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          101
+        ],
+        "solution_block_ids": [
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）\\(BE=CF\\)，30°。\n（2）\\(BE=CF\\)，\\(\\angle BDC=60^\\circ\\)。\n（3）\\(\\angle AFC=135^\\circ\\) 或 \\(45^\\circ\\)。",
+  "given_solution": "【详解】（1）解：如图1，设\\(AC\\)交\\(BD\\)于点G，\n〔图1〕\n∵\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle CAF=30{}^\\circ +\\angle CAE\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle ABE=\\angle ACF\\)，\\(BE=CF\\)，\n∴\\(\\angle BDC=\\angle AGD-\\angle ACF=\\angle ACD-\\angle ABE=\\angle BAC=30{}^\\circ\\)．\n故答案为：\\(BE=CF\\)，30（2分）\n．\n（2）解：\\(BE=CF，\\angle BDC=60{}^\\circ\\)，理由如下：\n∵\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，\n∴\\(\\angle BAC-\\angle EAC=\\angle EAF-\\angle EAC\\)，即\\(\\angle BAE=\\angle CAF\\)，（3分）\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（4分）\n∴\\(BE=CF{ \\rm{ , } }\\angle AEB=\\angle AFC\\)，（5分）\n∵\\(\\angle EAF=120{}^\\circ { \\rm{ , } }AE=AF\\)，\n∴\\(\\angle AEF=\\angle AFE=30{}^\\circ\\)，\n∴\\(\\angle BDC=\\angle BEF-\\angle EFD=\\angle AEB+30{}^\\circ -\\left ( { \\angle AFC-30{}^\\circ } \\right )=60{}^\\circ\\)．（6分）\n（3）解：如图3所示：\n〔图2〕\n∵\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)都是等腰三角形，\n∴\\(\\angle CAB=\\angle EAF=90{}^\\circ ，AB=AC，AE=AF\\)，（7分）\n∴\\(\\angle CAB-\\angle CAE=\\angle FAE-\\angle CAE\\)，即：\\(\\angle BAE=\\angle CAF\\)，\n∴\\(\\vartriangle BAE≌\\vartriangle CAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，（8分）\n∴\\(\\angle AFC=AEB,AE=AF\\)，\n∵\\(\\angle EAF=90{}^\\circ\\)，\n∴\\(\\angle AEF=45{}^\\circ\\),\n∴\\(\\angle AEB=180{}^\\circ -\\angle AEF=135{}^\\circ\\),\n∴\\(\\angle AFC=\\angle AEB=135{}^\\circ\\)；（9分）\n当F点在线段\\(BE\\)上时，\n同法可证得：\\(\\vartriangle BAE≌\\vartriangle CAF\\)，（10分）\n\\(\\therefore \\angle AFC=\\angle AEB\\)，\n\\(\\because \\angle EAF=90{}^\\circ ，AE=AF\\)，\n\\(\\therefore \\angle AEF=45{}^\\circ\\)，\n\\(\\therefore \\angle AFC=45{}^\\circ\\)；\n综上，\\(\\angle AFC=135{}^\\circ\\)或\\(45{}^\\circ\\)（11分）\n．",
+  "given_solution_figures": [
+    "assets/figures/c0/c014e2bfa98afdbcb4727dbc1e5d59b96baa8a88ebede99363e7187a84c42460.png",
+    "assets/figures/1c/1c0c77652324757b2e6e01a6aa774c84b09536bd886734b00c9c95a6b9d1208c.png"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution_steps": [
+    "（1）解：如图1，设\\(AC\\)交\\(BD\\)于点G，",
+    "〔图1〕",
+    "∵\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，",
+    "∴\\(\\angle BAE=\\angle CAF=30{}^\\circ +\\angle CAE\\)，",
+    "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，",
+    "\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle ABE=\\angle ACF\\)，\\(BE=CF\\)，",
+    "∴\\(\\angle BDC=\\angle AGD-\\angle ACF=\\angle ACD-\\angle ABE=\\angle BAC=30{}^\\circ\\)．",
+    "故答案为：\\(BE=CF\\)，30（2分）",
+    "．",
+    "（2）解：\\(BE=CF，\\angle BDC=60{}^\\circ\\)，理由如下：",
+    "∵\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，",
+    "∴\\(\\angle BAC-\\angle EAC=\\angle EAF-\\angle EAC\\)，即\\(\\angle BAE=\\angle CAF\\)，（3分）",
+    "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，",
+    "\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（4分）",
+    "∴\\(BE=CF{ \\rm{ , } }\\angle AEB=\\angle AFC\\)，（5分）",
+    "∵\\(\\angle EAF=120{}^\\circ { \\rm{ , } }AE=AF\\)，",
+    "∴\\(\\angle AEF=\\angle AFE=30{}^\\circ\\)，",
+    "∴\\(\\angle BDC=\\angle BEF-\\angle EFD=\\angle AEB+30{}^\\circ -\\left ( { \\angle AFC-30{}^\\circ } \\right )=60{}^\\circ\\)．（6分）",
+    "（3）解：如图3所示：",
+    "〔图2〕",
+    "∵\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)都是等腰三角形，",
+    "∴\\(\\angle CAB=\\angle EAF=90{}^\\circ ，AB=AC，AE=AF\\)，（7分）",
+    "∴\\(\\angle CAB-\\angle CAE=\\angle FAE-\\angle CAE\\)，即：\\(\\angle BAE=\\angle CAF\\)，",
+    "∴\\(\\vartriangle BAE≌\\vartriangle CAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，（8分）",
+    "∴\\(\\angle AFC=AEB,AE=AF\\)，",
+    "∵\\(\\angle EAF=90{}^\\circ\\)，",
+    "∴\\(\\angle AEF=45{}^\\circ\\),",
+    "∴\\(\\angle AEB=180{}^\\circ -\\angle AEF=135{}^\\circ\\),",
+    "∴\\(\\angle AFC=\\angle AEB=135{}^\\circ\\)；（9分）",
+    "当F点在线段\\(BE\\)上时，",
+    "同法可证得：\\(\\vartriangle BAE≌\\vartriangle CAF\\)，（10分）",
+    "\\(\\therefore \\angle AFC=\\angle AEB\\)，",
+    "\\(\\because \\angle EAF=90{}^\\circ ，AE=AF\\)，",
+    "\\(\\therefore \\angle AEF=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle AFC=45{}^\\circ\\)；",
+    "综上，\\(\\angle AFC=135{}^\\circ\\)或\\(45{}^\\circ\\)（11分）",
+    "．"
+  ],
+  "solution": "（1）解：如图1，设\\(AC\\)交\\(BD\\)于点G，\n〔图1〕\n∵\\(\\angle BAC=\\angle EAF=30{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle CAF=30{}^\\circ +\\angle CAE\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle ABE=\\angle ACF\\)，\\(BE=CF\\)，\n∴\\(\\angle BDC=\\angle AGD-\\angle ACF=\\angle ACD-\\angle ABE=\\angle BAC=30{}^\\circ\\)．\n故答案为：\\(BE=CF\\)，30（2分）\n．\n（2）解：\\(BE=CF，\\angle BDC=60{}^\\circ\\)，理由如下：\n∵\\(\\angle BAC=\\angle EAF=120{}^\\circ\\)，\n∴\\(\\angle BAC-\\angle EAC=\\angle EAF-\\angle EAC\\)，即\\(\\angle BAE=\\angle CAF\\)，（3分）\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACF\\)中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAE=\\angle CAF \\\\ AE=AF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（4分）\n∴\\(BE=CF{ \\rm{ , } }\\angle AEB=\\angle AFC\\)，（5分）\n∵\\(\\angle EAF=120{}^\\circ { \\rm{ , } }AE=AF\\)，\n∴\\(\\angle AEF=\\angle AFE=30{}^\\circ\\)，\n∴\\(\\angle BDC=\\angle BEF-\\angle EFD=\\angle AEB+30{}^\\circ -\\left ( { \\angle AFC-30{}^\\circ } \\right )=60{}^\\circ\\)．（6分）\n（3）解：如图3所示：\n〔图2〕\n∵\\(\\vartriangle ABC\\)和\\(\\vartriangle AEF\\)都是等腰三角形，\n∴\\(\\angle CAB=\\angle EAF=90{}^\\circ ，AB=AC，AE=AF\\)，（7分）\n∴\\(\\angle CAB-\\angle CAE=\\angle FAE-\\angle CAE\\)，即：\\(\\angle BAE=\\angle CAF\\)，\n∴\\(\\vartriangle BAE≌\\vartriangle CAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，（8分）\n∴\\(\\angle AFC=AEB,AE=AF\\)，\n∵\\(\\angle EAF=90{}^\\circ\\)，\n∴\\(\\angle AEF=45{}^\\circ\\),\n∴\\(\\angle AEB=180{}^\\circ -\\angle AEF=135{}^\\circ\\),\n∴\\(\\angle AFC=\\angle AEB=135{}^\\circ\\)；（9分）\n当F点在线段\\(BE\\)上时，\n同法可证得：\\(\\vartriangle BAE≌\\vartriangle CAF\\)，（10分）\n\\(\\therefore \\angle AFC=\\angle AEB\\)，\n\\(\\because \\angle EAF=90{}^\\circ ，AE=AF\\)，\n\\(\\therefore \\angle AEF=45{}^\\circ\\)，\n\\(\\therefore \\angle AFC=45{}^\\circ\\)；\n综上，\\(\\angle AFC=135{}^\\circ\\)或\\(45{}^\\circ\\)（11分）\n．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-623A4A6B09/single/q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          255.31,
+          582.2,
+          542.7
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-623A4A6B09/single/s20-p14.webp",
+      "assets/SZ-G7-T2-623A4A6B09/single/s20-p15.webp",
+      "assets/SZ-G7-T2-623A4A6B09/single/s20-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          395.75,
+          582.2,
+          753.14
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          82.7,
+          582.2,
+          753.13
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          205.74
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

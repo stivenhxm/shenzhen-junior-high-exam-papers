@@ -1,0 +1,472 @@
+{
+  "id": "SZ-G7-T2-954BD46EB9-Q21",
+  "paper_id": "SZ-G7-T2-954BD46EB9",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "从全等对应关系求边与角、在折线或辅助线图形中传递角关系",
+  "stem": "【问题背景】如图1，深圳市洪湖公园内有一大湖，湖心有一人造小岛，那是鸟儿们的乐园，湖四周各有一条步道．为了提升公园内人与自然的和谐品质，尽量避免人类活动影响鸟类生活，现对步道进行升级改造，要求步道离小岛至少40米．为了测得步道离岛的距离，施工人员计划实施如下方案：如图2，记小岛为点P，首先在笔直的步道\\(l_{ 1 }\\)上找一处A（\\(AP\\bot l_{ 1 }\\)），一工人沿步道\\(l_{ 1 }\\)从点A出发直走80米到达B处，又继续前行80米到达点C处，接着从C处沿与步道\\(l_{ 1 }\\)垂直的方向行走，当到达D处时，P、B、D刚好在同一直线上，最后工人测得\\(CD\\)的长为75米．\n〔图1〕\n请根据以上信息，回答下面的问题：\n【问题探究】\n（1）求小岛离步道\\(l_{ 1 }\\)的垂直距离\\(PA\\)．\n【问题拓展】\n（2）在第（1）问的条件下，如图3，有相邻的另一条笔直步道\\(l_{ 2 }\\)，小岛P到\\(l_{ 2 }\\)的距离\\(PM=a\\)米，点A到\\(L₂\\)的距离\\(AN=\\left ( { 80-a } \\right )\\)米，在\\(MN\\)之间有一任意点E，当\\(PE+AE\\)的最小值为100米时，\n〔图2〕\n①\\(MN=\\)               米（直接写出结果）．②为了避免人类活动影响鸟类生活，请问步道\\(l_{ 2 }\\)是否符合要求？请用学过的数学知识说明原因．\n【方法迁移】\n（3）若将x，\\(3-x\\)，2，2分别看作四条线段的长，结合图2，构造适当的几何图形求代数式\\(\\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为               （直接写出）．",
+  "choices": [],
+  "figures": [
+    "assets/figures/fa/fa22fa5ef69706b25fada808ed244862c13337b9c058a9c7875998de7b2ba88a.png",
+    "assets/figures/b5/b5678b193ec518790fc622c2aec25d75a2357498c2e9c2f0232d03590876d475.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）75米；（2）①60米；②不符合，理由见解析；（3）5",
+  "answer": "（1）75米；（2）①60米；②不符合，理由见解析；（3）5",
+  "given_solution": "【分析】本题考查三角形全等的应用，求最小距离，灵活构造几何图形，借助三角形全等、勾股定理是正确解决本题的关键．\n（1）根据题意，证明\\(\\vartriangle PBA≌\\vartriangle CBD\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，即可得出结论；\n（2）①延长\\(PM\\)至Q，使\\(PM=MQ=a\\)米，连接\\(AQ\\)．过Q作\\(QH\\parallel l_{ 2 }\\)交AN的延长线于H，过P作\\(PG\\bot AN\\)于G，当A、Q、E三点共线时\\(PE+AE\\)有最小值\\(AQ\\)，利用勾股定理即可求出；\n②由①可知，\\(HQ=MN=PG=60\\)米，用勾股定理计算出\\(MP=\\frac { 1 } { 2 }PQ=\\frac { 35 } { 2 }\\)米，\\(\\frac { 35 } { 2 } < 40\\)，即可判断步道\\(l_{ 2 }\\)不符合要求；\n（3）将x，\\(3-x\\)，2，2分别看作四条线段的长，结合图2，构造对应的几何图形即可求出代数式的最小值．\n【详解】解：（1）由题可知，\\(PA\\bot l_{ 1 }\\)，\\(DC\\bot l_{ 1 }\\)，\n\\(\\therefore \\angle PAB=\\angle DCB=90{}^\\circ\\)，\n又∵P、B、D三点在同一条直线上，\n\\(\\therefore \\angle PBA=\\angle DBC\\)，\n又\\(\\because AB=BC=80\\)米，\n\\(\\therefore \\vartriangle PBA≌\\vartriangle CBD\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore PA=CD=75\\)米\n（2）①\\(MN=60\\)米\n如图3，延长\\(PM\\)至Q，使\\(PM=MQ=a\\)米，连接\\(AQ\\)．\n〔图3〕\n过Q作\\(QH\\parallel l_{ 2 }\\)交AN的延长线于H，过P作\\(PG\\bot AN\\)于G，\n∵\\(PM\\bot l_{ 2 }\\)，\\(PM=MQ\\)即\\(l_{ 2 }\\)垂直平分\\(PQ\\)，\n\\(\\therefore PE=EQ\\)，\n\\(\\therefore PE+AE=QE+AE\\ge AQ\\)，\n当A、Q、E三点共线时\\(PE+AE\\)有最小值\\(AQ\\)，\n即\\(AQ=100\\)米\n∵\\(AN\\bot l_{ 2 }\\)，\\(QH\\parallel l_{ 2 }\\)\n\\(\\therefore AN\\bot QH\\)即\\(\\angle AHQ=90{}^\\circ\\)，\n∴四边形\\(MNHQ\\)和四边形\\(MNGP\\)均为长方形，\n\\(\\therefore HN=QM=MP=NG=a\\)米，\\(HQ=MN=PG\\)，\n∴\\(HA=HN+NA=a+\\left ( { 80-a } \\right )=80\\)米\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AHQ\\)中，\\(HQ ^ { 2 } =AQ ^ { 2 } -AH ^ { 2 } =100 ^ { 2 } -80 ^ { 2 } =60 ^ { 2 }\\)即\\(HQ=60\\)米，\n\\(\\therefore MN=60\\)米，\n②\\(\\because PG\\bot AN\\)，\n\\(\\therefore \\angle PGA=90{}^\\circ\\)，\n由①可知，\\(HQ=MN=PG=60\\)米，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PGA\\)中，\\(GA ^ { 2 } =PA ^ { 2 } -PG ^ { 2 } =75 ^ { 2 } -60 ^ { 2 } =135\\times 15\\)，\n\\(\\therefore GA=45\\)米，\n\\(\\therefore GH=AH-AG=80-45=35\\)米，\n\\(\\therefore PQ=35\\)米，\n∴\\(MP=\\frac { 1 } { 2 }PQ=\\frac { 35 } { 2 }\\)米，\n显然，\\(\\frac { 35 } { 2 } < 40\\)，\n∴步道\\(l_{ 2 }\\)不符合要求．\n（3）由（2）同理可得，\\(\\because \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }=\\sqrt[] { \\left ( { x-2 } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }=5\\)，\n\\(\\therefore \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为5．\n〔图4〕",
+  "given_solution_figures": [
+    "assets/figures/fa/fa22fa5ef69706b25fada808ed244862c13337b9c058a9c7875998de7b2ba88a.png",
+    "assets/figures/b5/b5678b193ec518790fc622c2aec25d75a2357498c2e9c2f0232d03590876d475.png",
+    "assets/figures/a6/a650171d3e6bf6e0f9e7efe652929b9b4665e20468e773aeac005be348efca71.png",
+    "assets/figures/33/3352e66f6a1feeb0b38f189535d14e407f2f4825646691bf09678c562b7268b1.png"
+  ],
+  "solution": "解：（1）由题可知，\\(PA\\bot l_{ 1 }\\)，\\(DC\\bot l_{ 1 }\\)，\n\\(\\therefore \\angle PAB=\\angle DCB=90{}^\\circ\\)，\n又∵P、B、D三点在同一条直线上，\n\\(\\therefore \\angle PBA=\\angle DBC\\)，\n又\\(\\because AB=BC=80\\)米，\n\\(\\therefore \\vartriangle PBA≌\\vartriangle CBD\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore PA=CD=75\\)米\n（2）①\\(MN=60\\)米\n如图3，延长\\(PM\\)至Q，使\\(PM=MQ=a\\)米，连接\\(AQ\\)．\n〔图3〕\n过Q作\\(QH\\parallel l_{ 2 }\\)交AN的延长线于H，过P作\\(PG\\bot AN\\)于G，\n∵\\(PM\\bot l_{ 2 }\\)，\\(PM=MQ\\)即\\(l_{ 2 }\\)垂直平分\\(PQ\\)，\n\\(\\therefore PE=EQ\\)，\n\\(\\therefore PE+AE=QE+AE\\ge AQ\\)，\n当A、Q、E三点共线时\\(PE+AE\\)有最小值\\(AQ\\)，\n即\\(AQ=100\\)米\n∵\\(AN\\bot l_{ 2 }\\)，\\(QH\\parallel l_{ 2 }\\)\n\\(\\therefore AN\\bot QH\\)即\\(\\angle AHQ=90{}^\\circ\\)，\n∴四边形\\(MNHQ\\)和四边形\\(MNGP\\)均为长方形，\n\\(\\therefore HN=QM=MP=NG=a\\)米，\\(HQ=MN=PG\\)，\n∴\\(HA=HN+NA=a+\\left ( { 80-a } \\right )=80\\)米\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AHQ\\)中，\\(HQ ^ { 2 } =AQ ^ { 2 } -AH ^ { 2 } =100 ^ { 2 } -80 ^ { 2 } =60 ^ { 2 }\\)即\\(HQ=60\\)米，\n\\(\\therefore MN=60\\)米，\n②\\(\\because PG\\bot AN\\)，\n\\(\\therefore \\angle PGA=90{}^\\circ\\)，\n由①可知，\\(HQ=MN=PG=60\\)米，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PGA\\)中，\\(GA ^ { 2 } =PA ^ { 2 } -PG ^ { 2 } =75 ^ { 2 } -60 ^ { 2 } =135\\times 15\\)，\n\\(\\therefore GA=45\\)米，\n\\(\\therefore GH=AH-AG=80-45=35\\)米，\n\\(\\therefore PQ=35\\)米，\n∴\\(MP=\\frac { 1 } { 2 }PQ=\\frac { 35 } { 2 }\\)米，\n显然，\\(\\frac { 35 } { 2 } < 40\\)，\n∴步道\\(l_{ 2 }\\)不符合要求．\n（3）由（2）同理可得，\\(\\because \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }=\\sqrt[] { \\left ( { x-2 } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }=5\\)，\n\\(\\therefore \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为5．\n〔图4〕",
+  "solution_steps": [
+    "解：（1）由题可知，\\(PA\\bot l_{ 1 }\\)，\\(DC\\bot l_{ 1 }\\)，",
+    "\\(\\therefore \\angle PAB=\\angle DCB=90{}^\\circ\\)，",
+    "又∵P、B、D三点在同一条直线上，",
+    "\\(\\therefore \\angle PBA=\\angle DBC\\)，",
+    "又\\(\\because AB=BC=80\\)米，",
+    "\\(\\therefore \\vartriangle PBA≌\\vartriangle CBD\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore PA=CD=75\\)米",
+    "（2）①\\(MN=60\\)米",
+    "如图3，延长\\(PM\\)至Q，使\\(PM=MQ=a\\)米，连接\\(AQ\\)．",
+    "〔图3〕",
+    "过Q作\\(QH\\parallel l_{ 2 }\\)交AN的延长线于H，过P作\\(PG\\bot AN\\)于G，",
+    "∵\\(PM\\bot l_{ 2 }\\)，\\(PM=MQ\\)即\\(l_{ 2 }\\)垂直平分\\(PQ\\)，",
+    "\\(\\therefore PE=EQ\\)，",
+    "\\(\\therefore PE+AE=QE+AE\\ge AQ\\)，",
+    "当A、Q、E三点共线时\\(PE+AE\\)有最小值\\(AQ\\)，",
+    "即\\(AQ=100\\)米",
+    "∵\\(AN\\bot l_{ 2 }\\)，\\(QH\\parallel l_{ 2 }\\)",
+    "\\(\\therefore AN\\bot QH\\)即\\(\\angle AHQ=90{}^\\circ\\)，",
+    "∴四边形\\(MNHQ\\)和四边形\\(MNGP\\)均为长方形，",
+    "\\(\\therefore HN=QM=MP=NG=a\\)米，\\(HQ=MN=PG\\)，",
+    "∴\\(HA=HN+NA=a+\\left ( { 80-a } \\right )=80\\)米",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AHQ\\)中，\\(HQ ^ { 2 } =AQ ^ { 2 } -AH ^ { 2 } =100 ^ { 2 } -80 ^ { 2 } =60 ^ { 2 }\\)即\\(HQ=60\\)米，",
+    "\\(\\therefore MN=60\\)米，",
+    "②\\(\\because PG\\bot AN\\)，",
+    "\\(\\therefore \\angle PGA=90{}^\\circ\\)，",
+    "由①可知，\\(HQ=MN=PG=60\\)米，",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PGA\\)中，\\(GA ^ { 2 } =PA ^ { 2 } -PG ^ { 2 } =75 ^ { 2 } -60 ^ { 2 } =135\\times 15\\)，",
+    "\\(\\therefore GA=45\\)米，",
+    "\\(\\therefore GH=AH-AG=80-45=35\\)米，",
+    "\\(\\therefore PQ=35\\)米，",
+    "∴\\(MP=\\frac { 1 } { 2 }PQ=\\frac { 35 } { 2 }\\)米，",
+    "显然，\\(\\frac { 35 } { 2 } < 40\\)，",
+    "∴步道\\(l_{ 2 }\\)不符合要求．",
+    "（3）由（2）同理可得，\\(\\because \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }=\\sqrt[] { \\left ( { x-2 } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }=5\\)，",
+    "\\(\\therefore \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为5．",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题背景】如图1，深圳市洪湖公园内有一大湖，湖心有一人造小岛，那是鸟儿们的乐园，湖四周各有一条步道．为了提升公园内人与自然的和谐品质，尽量避免人类活动影响鸟类生活，现对步道进行升级改造，要求步道离小岛至少40米．为了测得步道离岛的距离，施工人员计划实施如下方案：如图2，记小岛为点P，首先在笔直的步道\\(l_{ 1 }\\)上找一处A（\\(AP\\bot l_{ 1 }\\)），一工人沿步道\\(l_{ 1 }\\)从点A出发直走80米到达B处，又继续前行80米到达点C处，接着从C处沿与步道\\(l_{ 1 }\\)垂直的方向行走，当到达D处时，P、B、D刚好在同一直线上，最后工人测得\\(CD\\)的长为75米．\n〔图1〕\n请根据以上信息，回答下面的问题：\n【问题探究】",
+      "paper_blocks": [
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "id": "fig-72",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        72
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "在第（1）问的条件下，如图3，有相邻的另一条笔直步道\\(l_{ 2 }\\)，小岛P到\\(l_{ 2 }\\)的距离\\(PM=a\\)米，点A到\\(L₂\\)的距离\\(AN=\\left ( { 80-a } \\right )\\)米，在\\(MN\\)之间有一任意点E，当\\(PE+AE\\)的最小值为100米时，\n〔图2〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q21-P01",
+      "label": "（1）",
+      "prompt": "求小岛离步道\\(l_{ 1 }\\)的垂直距离\\(PA\\)．\n【问题拓展】",
+      "stem_text": "求小岛离步道\\(l_{ 1 }\\)的垂直距离\\(PA\\)．\n【问题拓展】",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "75米；",
+      "answer": "75米；",
+      "given_solution": "由题可知，\\(PA\\bot l_{ 1 }\\)，\\(DC\\bot l_{ 1 }\\)，\n\\(\\therefore \\angle PAB=\\angle DCB=90{}^\\circ\\)，\n又∵P、B、D三点在同一条直线上，\n\\(\\therefore \\angle PBA=\\angle DBC\\)，\n又\\(\\because AB=BC=80\\)米，\n\\(\\therefore \\vartriangle PBA≌\\vartriangle CBD\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore PA=CD=75\\)米",
+      "solution_steps": [
+        "由题可知，\\(PA\\bot l_{ 1 }\\)，\\(DC\\bot l_{ 1 }\\)，",
+        "\\(\\therefore \\angle PAB=\\angle DCB=90{}^\\circ\\)，",
+        "又∵P、B、D三点在同一条直线上，",
+        "\\(\\therefore \\angle PBA=\\angle DBC\\)，",
+        "又\\(\\because AB=BC=80\\)米，",
+        "\\(\\therefore \\vartriangle PBA≌\\vartriangle CBD\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore PA=CD=75\\)米"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q21-P02",
+      "label": "（2）①",
+      "prompt": "\\(MN=\\)               米（直接写出结果）．",
+      "stem_text": "\\(MN=\\)               米（直接写出结果）．",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "60米；",
+      "answer": "60米；",
+      "given_solution": "\\(MN=60\\)米\n如图3，延长\\(PM\\)至Q，使\\(PM=MQ=a\\)米，连接\\(AQ\\)．\n〔图3〕\n过Q作\\(QH\\parallel l_{ 2 }\\)交AN的延长线于H，过P作\\(PG\\bot AN\\)于G，\n∵\\(PM\\bot l_{ 2 }\\)，\\(PM=MQ\\)即\\(l_{ 2 }\\)垂直平分\\(PQ\\)，\n\\(\\therefore PE=EQ\\)，\n\\(\\therefore PE+AE=QE+AE\\ge AQ\\)，\n当A、Q、E三点共线时\\(PE+AE\\)有最小值\\(AQ\\)，\n即\\(AQ=100\\)米\n∵\\(AN\\bot l_{ 2 }\\)，\\(QH\\parallel l_{ 2 }\\)\n\\(\\therefore AN\\bot QH\\)即\\(\\angle AHQ=90{}^\\circ\\)，\n∴四边形\\(MNHQ\\)和四边形\\(MNGP\\)均为长方形，\n\\(\\therefore HN=QM=MP=NG=a\\)米，\\(HQ=MN=PG\\)，\n∴\\(HA=HN+NA=a+\\left ( { 80-a } \\right )=80\\)米\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AHQ\\)中，\\(HQ ^ { 2 } =AQ ^ { 2 } -AH ^ { 2 } =100 ^ { 2 } -80 ^ { 2 } =60 ^ { 2 }\\)即\\(HQ=60\\)米，\n\\(\\therefore MN=60\\)米，",
+      "solution_steps": [
+        "\\(MN=60\\)米",
+        "如图3，延长\\(PM\\)至Q，使\\(PM=MQ=a\\)米，连接\\(AQ\\)．",
+        "〔图3〕",
+        "过Q作\\(QH\\parallel l_{ 2 }\\)交AN的延长线于H，过P作\\(PG\\bot AN\\)于G，",
+        "∵\\(PM\\bot l_{ 2 }\\)，\\(PM=MQ\\)即\\(l_{ 2 }\\)垂直平分\\(PQ\\)，",
+        "\\(\\therefore PE=EQ\\)，",
+        "\\(\\therefore PE+AE=QE+AE\\ge AQ\\)，",
+        "当A、Q、E三点共线时\\(PE+AE\\)有最小值\\(AQ\\)，",
+        "即\\(AQ=100\\)米",
+        "∵\\(AN\\bot l_{ 2 }\\)，\\(QH\\parallel l_{ 2 }\\)",
+        "\\(\\therefore AN\\bot QH\\)即\\(\\angle AHQ=90{}^\\circ\\)，",
+        "∴四边形\\(MNHQ\\)和四边形\\(MNGP\\)均为长方形，",
+        "\\(\\therefore HN=QM=MP=NG=a\\)米，\\(HQ=MN=PG\\)，",
+        "∴\\(HA=HN+NA=a+\\left ( { 80-a } \\right )=80\\)米",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AHQ\\)中，\\(HQ ^ { 2 } =AQ ^ { 2 } -AH ^ { 2 } =100 ^ { 2 } -80 ^ { 2 } =60 ^ { 2 }\\)即\\(HQ=60\\)米，",
+        "\\(\\therefore MN=60\\)米，"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67,
+          68,
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q21-P03",
+      "label": "（2）②",
+      "prompt": "为了避免人类活动影响鸟类生活，请问步道\\(l_{ 2 }\\)是否符合要求？请用学过的数学知识说明原因．\n【方法迁移】",
+      "stem_text": "为了避免人类活动影响鸟类生活，请问步道\\(l_{ 2 }\\)是否符合要求？请用学过的数学知识说明原因．\n【方法迁移】",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "不符合，理由见解析；",
+      "answer": "不符合，理由见解析；",
+      "given_solution": "\\(\\because PG\\bot AN\\)，\n\\(\\therefore \\angle PGA=90{}^\\circ\\)，\n由①可知，\\(HQ=MN=PG=60\\)米，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PGA\\)中，\\(GA ^ { 2 } =PA ^ { 2 } -PG ^ { 2 } =75 ^ { 2 } -60 ^ { 2 } =135\\times 15\\)，\n\\(\\therefore GA=45\\)米，\n\\(\\therefore GH=AH-AG=80-45=35\\)米，\n\\(\\therefore PQ=35\\)米，\n∴\\(MP=\\frac { 1 } { 2 }PQ=\\frac { 35 } { 2 }\\)米，\n显然，\\(\\frac { 35 } { 2 } < 40\\)，\n∴步道\\(l_{ 2 }\\)不符合要求．",
+      "solution_steps": [
+        "\\(\\because PG\\bot AN\\)，",
+        "\\(\\therefore \\angle PGA=90{}^\\circ\\)，",
+        "由①可知，\\(HQ=MN=PG=60\\)米，",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PGA\\)中，\\(GA ^ { 2 } =PA ^ { 2 } -PG ^ { 2 } =75 ^ { 2 } -60 ^ { 2 } =135\\times 15\\)，",
+        "\\(\\therefore GA=45\\)米，",
+        "\\(\\therefore GH=AH-AG=80-45=35\\)米，",
+        "\\(\\therefore PQ=35\\)米，",
+        "∴\\(MP=\\frac { 1 } { 2 }PQ=\\frac { 35 } { 2 }\\)米，",
+        "显然，\\(\\frac { 35 } { 2 } < 40\\)，",
+        "∴步道\\(l_{ 2 }\\)不符合要求．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67,
+          68,
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04",
+        "M.G01.03"
+      ],
+      "exam_ids": [
+        "E.G04.04.01",
+        "E.G01.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-954BD46EB9-Q21-P04",
+      "label": "（3）",
+      "prompt": "若将x，\\(3-x\\)，2，2分别看作四条线段的长，结合图2，构造适当的几何图形求代数式\\(\\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为               （直接写出）．",
+      "stem_text": "若将x，\\(3-x\\)，2，2分别看作四条线段的长，结合图2，构造适当的几何图形求代数式\\(\\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为               （直接写出）．",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "5",
+      "answer": "5",
+      "given_solution": "由（2）同理可得，\\(\\because \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }=\\sqrt[] { \\left ( { x-2 } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }=5\\)，\n\\(\\therefore \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为5．\n〔图4〕",
+      "solution_steps": [
+        "由（2）同理可得，\\(\\because \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }=\\sqrt[] { \\left ( { x-2 } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } }=5\\)，",
+        "\\(\\therefore \\sqrt[] { x ^ { 2 } +4 }+\\sqrt[] { \\left ( { 3-x } \\right ) ^ { 2 } +4 }\\)的最小值为5．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67,
+          68,
+          72,
+          75
+        ],
+        "solution_block_ids": [
+          347,
+          348,
+          349
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.01"
+      ],
+      "exam_ids": [
+        "E.G01.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“线段的长”。利用点的位置关系求线段长度。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      65,
+      75
+    ],
+    "solution_body_blocks": [
+      296,
+      349
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-954BD46EB9/paper-q21-p05.webp",
+      "assets/SZ-G7-T2-954BD46EB9/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          300.0,
+          583.64,
+          718.18
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          346.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-954BD46EB9/solution-q21-p16.webp",
+      "assets/SZ-G7-T2-954BD46EB9/solution-q21-p17.webp",
+      "assets/SZ-G7-T2-954BD46EB9/solution-q21-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          416.36,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          764.09
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          535.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.01",
+    "M.G01.05",
+    "M.G04.04",
+    "M.G01.03",
+    "M.G01.01"
+  ],
+  "exam_ids": [
+    "E.G03.01.01",
+    "E.G01.05.02",
+    "E.G04.04.01",
+    "E.G01.03.02",
+    "E.G01.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。 按题面要求和原解所用方法核定。 题面含“线段的长”。利用点的位置关系求线段长度。",
+  "tag_source": "小问标签汇总"
+}

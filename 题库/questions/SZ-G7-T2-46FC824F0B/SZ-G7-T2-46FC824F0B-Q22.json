@@ -1,0 +1,545 @@
+{
+  "id": "SZ-G7-T2-46FC824F0B-Q22",
+  "paper_id": "SZ-G7-T2-46FC824F0B",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "用分割或补形求面积、由实验观察形成猜想并选择验证方式",
+  "stem": "在学习《三角形》时，某数学学习小组发现：在一个面积为100的长方形\\(ABCD\\)中，点 E，F分别在边\\(AD，CD\\)上，连接 \\(BE，EF，BF\\)． 当点F与点C重合时，如图所示，在不求出长方形\\(ABCD\\)边长的情况下，可以根据面积公式或三角形全等的性质求出 \\(\\vartriangle BEF\\)的面积为定值．\n〔图1〕\n【提出问题】如图，点E，F都不与端点重合，若\\(AE=6，CF=3，\\vartriangle BEF\\)的面积是否为定值?\n〔图2〕\n【特例分析】（1）给\\(BC\\)和\\(AB\\)分别赋予不同的数值，通过特殊数值的计算判断\\(\\vartriangle BEF\\)的面积是否发生变化．请你根据上述思路，完成下面的表格．\n\\(AB\\) | 10 | 5 | \n\\(BC\\) | 10 | 20 | \n\\(S_{ \\vartriangle BEF }\\) |  | 41 |\n【得出猜想】（2）通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积           定值． （填“是”或“不是”）\n【验证猜想】\n（3）①方法1： 假设． \\(BC=m,AB=n\\)，通过计算验证你的猜想．\n②方法2： 如图，过点E作，\\(EG\\bot BC\\)交\\(BC\\)于点G，\\(EG\\)将长方形\\(ABCD\\) 分成了长方形\\(ABGE\\)和长方形 \\(EGCD\\)，连接 \\(GF\\)．通过图形割补的方式也可以验证猜想，请将下列部分验证过程补充完整(填数值)．\n〔图3〕\n解：∵等底等高，\n\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)\n\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)\n\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)\n\\(=\\)                 ．\n\\(\\because BG=AE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=\\)                      ．\n\\(\\therefore S_{ \\vartriangle BEF } =41\\)．\n【拓展应用】（4）在学校游园活动中，数学小组成员计划用三个雪糕简和彩绳在一个长12米，宽 10米的长方形场地中，围出一块三角形区域作为游戏场地．如图，在长方形场地\\(ABCD\\)中，三个雪糕筒分别摆放在点B、E、F处，且\\(AE、CF\\)的长为整数．若围出的游戏场地面积为52平方米，即 \\(S_{ \\vartriangle BEF } =52．\\)请直接写出所有满足条件的\\(AE\\)长．\n〔图4〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/b1/b1ae862189a6f970c32e08883a628b999c88427ecf8edda674a380b0d393c5eb.png",
+    "assets/figures/75/75ecbf62fd9e6246e0e200171b0d3cc9d37840e26ae736e6e603ecb16eff9169.png",
+    "assets/figures/50/501bba5700049c88cd57525cbd85fd08deb92731ef29de70517794146edd28a7.png",
+    "assets/figures/65/656a4c046fe137a56e12fe4af36b321de23b24b255cffa87acb70c8c6fac5b2f.png"
+  ],
+  "tables": [
+    {
+      "text": "\\(AB\\) | 10 | 5 | \n\\(BC\\) | 10 | 20 | \n\\(S_{ \\vartriangle BEF }\\) |  | 41 | ",
+      "rows": [
+        [
+          [
+            "\\(AB\\)"
+          ],
+          [
+            "10"
+          ],
+          [
+            "5"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "\\(BC\\)"
+          ],
+          [
+            "10"
+          ],
+          [
+            "20"
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "\\(S_{ \\vartriangle BEF }\\)"
+          ],
+          [
+            ""
+          ],
+          [
+            "41"
+          ],
+          [
+            ""
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）41；（2）是；（3）①见解析；②见解析；（4）\\(AE\\)长为2或4或8",
+  "answer": "（1）41；（2）是；（3）①见解析；②见解析；（4）\\(AE\\)长为2或4或8",
+  "given_solution": "【分析】题目主要考查三角形面积的计算及二元一次方程的应用，理解题意，结合图形求解是解题已关机\n（1）根据题意利用长方形的面积减去三角形的面积即可求解；\n（2）结合表格即可得出结果；\n（3）①根据长方形的面积减去三个三角形的面积即可证明；②根据题意结合图形即可求解；\n（4）根据题意及（3）①证明方法得出\\(AE\\left ( { 5-\\frac { 1 } { 2 }DF } \\right )=8\\)，然后结合题意求解即可\n【详解】解：（1）当\\(AB=10，BC=10\\)时，\\(AE=6，CF=3\\)，\n∴\\(DE=10-6=4，DF=10-3=7\\)，\n∴\\(S_{ \\vartriangle BEF } =10\\times 10-\\frac { 1 } { 2 }\\times 4\\times 7-\\frac { 1 } { 2 }\\times 6\\times 10-\\frac { 1 } { 2 }\\times 10\\times 3=41\\)，\n故答案为：41；\n（2）通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积是定值；\n故答案为：是；\n（3）①\\(BC=m，AB=n\\)，\\(AE=6，CF=3\\)，\n∴\\(DE=m-6，DF=n-3\\)，\\(mn=100\\)，\n∴\\(S_{ \\vartriangle BEF } =mn-\\frac { 1 } { 2 }\\times \\left ( { m-6 } \\right )\\times \\left ( { n-3 } \\right )-\\frac { 1 } { 2 }\\times 6n-\\frac { 1 } { 2 }\\times 3m=\\frac { 1 } { 2 }mn-9=41\\)；\n②解：∵等底等高，\n\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)，\n\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)\n\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)\n\\(=50\\)．\n∵\\(BG=AE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=9\\)．\n\\(\\therefore S_{ \\vartriangle BEF } =41\\)；\n故答案为：50；9；\n（4）由（3）①得：\\(S_{ \\vartriangle BEF } =12\\times 10-\\frac { 1 } { 2 }\\times AE\\times 10-\\frac { 1 } { 2 }\\times \\left ( { 12-AE } \\right )\\times DF-\\frac { 1 } { 2 }\\times 12\\times FC=52\\)，\n整理得：\\(AE\\left ( { 5-\\frac { 1 } { 2 }DF } \\right )=8\\)，\n∵\\(AE、CF\\)的长为整数．\n∴当\\(DF=2\\)时，\\(AE=2\\)；当\\(DF=4\\)时，\\(AE=\\frac { 8 } { 3 }\\)（舍去）；当\\(DF=6\\)时，\\(AE=4\\)；当\\(DF=8\\)时，\\(AE=8\\)；\n∴\\(AE\\)长为2或4或8．",
+  "given_solution_figures": [
+    "assets/figures/b1/b1ae862189a6f970c32e08883a628b999c88427ecf8edda674a380b0d393c5eb.png",
+    "assets/figures/75/75ecbf62fd9e6246e0e200171b0d3cc9d37840e26ae736e6e603ecb16eff9169.png",
+    "assets/figures/50/501bba5700049c88cd57525cbd85fd08deb92731ef29de70517794146edd28a7.png",
+    "assets/figures/65/656a4c046fe137a56e12fe4af36b321de23b24b255cffa87acb70c8c6fac5b2f.png"
+  ],
+  "solution": "解：（1）当\\(AB=10，BC=10\\)时，\\(AE=6，CF=3\\)，\n∴\\(DE=10-6=4，DF=10-3=7\\)，\n∴\\(S_{ \\vartriangle BEF } =10\\times 10-\\frac { 1 } { 2 }\\times 4\\times 7-\\frac { 1 } { 2 }\\times 6\\times 10-\\frac { 1 } { 2 }\\times 10\\times 3=41\\)，\n故答案为：41；\n（2）通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积是定值；\n故答案为：是；\n（3）①\\(BC=m，AB=n\\)，\\(AE=6，CF=3\\)，\n∴\\(DE=m-6，DF=n-3\\)，\\(mn=100\\)，\n∴\\(S_{ \\vartriangle BEF } =mn-\\frac { 1 } { 2 }\\times \\left ( { m-6 } \\right )\\times \\left ( { n-3 } \\right )-\\frac { 1 } { 2 }\\times 6n-\\frac { 1 } { 2 }\\times 3m=\\frac { 1 } { 2 }mn-9=41\\)；\n②解：∵等底等高，\n\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)，\n\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)\n\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)\n\\(=50\\)．\n∵\\(BG=AE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=9\\)．\n\\(\\therefore S_{ \\vartriangle BEF } =41\\)；\n故答案为：50；9；\n（4）由（3）①得：\\(S_{ \\vartriangle BEF } =12\\times 10-\\frac { 1 } { 2 }\\times AE\\times 10-\\frac { 1 } { 2 }\\times \\left ( { 12-AE } \\right )\\times DF-\\frac { 1 } { 2 }\\times 12\\times FC=52\\)，\n整理得：\\(AE\\left ( { 5-\\frac { 1 } { 2 }DF } \\right )=8\\)，\n∵\\(AE、CF\\)的长为整数．\n∴当\\(DF=2\\)时，\\(AE=2\\)；当\\(DF=4\\)时，\\(AE=\\frac { 8 } { 3 }\\)（舍去）；当\\(DF=6\\)时，\\(AE=4\\)；当\\(DF=8\\)时，\\(AE=8\\)；\n∴\\(AE\\)长为2或4或8．",
+  "solution_steps": [
+    "解：（1）当\\(AB=10，BC=10\\)时，\\(AE=6，CF=3\\)，",
+    "∴\\(DE=10-6=4，DF=10-3=7\\)，",
+    "∴\\(S_{ \\vartriangle BEF } =10\\times 10-\\frac { 1 } { 2 }\\times 4\\times 7-\\frac { 1 } { 2 }\\times 6\\times 10-\\frac { 1 } { 2 }\\times 10\\times 3=41\\)，",
+    "故答案为：41；",
+    "（2）通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积是定值；",
+    "故答案为：是；",
+    "（3）①\\(BC=m，AB=n\\)，\\(AE=6，CF=3\\)，",
+    "∴\\(DE=m-6，DF=n-3\\)，\\(mn=100\\)，",
+    "∴\\(S_{ \\vartriangle BEF } =mn-\\frac { 1 } { 2 }\\times \\left ( { m-6 } \\right )\\times \\left ( { n-3 } \\right )-\\frac { 1 } { 2 }\\times 6n-\\frac { 1 } { 2 }\\times 3m=\\frac { 1 } { 2 }mn-9=41\\)；",
+    "②解：∵等底等高，",
+    "\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)，",
+    "\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)",
+    "\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)",
+    "\\(=50\\)．",
+    "∵\\(BG=AE\\)，",
+    "\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=9\\)．",
+    "\\(\\therefore S_{ \\vartriangle BEF } =41\\)；",
+    "故答案为：50；9；",
+    "（4）由（3）①得：\\(S_{ \\vartriangle BEF } =12\\times 10-\\frac { 1 } { 2 }\\times AE\\times 10-\\frac { 1 } { 2 }\\times \\left ( { 12-AE } \\right )\\times DF-\\frac { 1 } { 2 }\\times 12\\times FC=52\\)，",
+    "整理得：\\(AE\\left ( { 5-\\frac { 1 } { 2 }DF } \\right )=8\\)，",
+    "∵\\(AE、CF\\)的长为整数．",
+    "∴当\\(DF=2\\)时，\\(AE=2\\)；当\\(DF=4\\)时，\\(AE=\\frac { 8 } { 3 }\\)（舍去）；当\\(DF=6\\)时，\\(AE=4\\)；当\\(DF=8\\)时，\\(AE=8\\)；",
+    "∴\\(AE\\)长为2或4或8．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在学习《三角形》时，某数学学习小组发现：在一个面积为100的长方形\\(ABCD\\)中，点 E，F分别在边\\(AD，CD\\)上，连接 \\(BE，EF，BF\\)． 当点F与点C重合时，如图所示，在不求出长方形\\(ABCD\\)边长的情况下，可以根据面积公式或三角形全等的性质求出 \\(\\vartriangle BEF\\)的面积为定值．\n〔图1〕\n【提出问题】如图，点E，F都不与端点重合，若\\(AE=6，CF=3，\\vartriangle BEF\\)的面积是否为定值?\n〔图2〕\n【特例分析】",
+      "paper_blocks": [
+        81,
+        82,
+        83,
+        84,
+        85
+      ]
+    },
+    {
+      "id": "fig-91",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        91
+      ]
+    },
+    {
+      "id": "fig-101",
+      "kind": "figure",
+      "text": "〔图4〕",
+      "paper_blocks": [
+        101
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-46FC824F0B-Q22-P01",
+      "label": "（1）",
+      "prompt": "给\\(BC\\)和\\(AB\\)分别赋予不同的数值，通过特殊数值的计算判断\\(\\vartriangle BEF\\)的面积是否发生变化．请你根据上述思路，完成下面的表格．\n\\(AB\\) | 10 | 5 | \n\\(BC\\) | 10 | 20 | \n\\(S_{ \\vartriangle BEF }\\) |  | 41 |\n【得出猜想】",
+      "stem_text": "给\\(BC\\)和\\(AB\\)分别赋予不同的数值，通过特殊数值的计算判断\\(\\vartriangle BEF\\)的面积是否发生变化．请你根据上述思路，完成下面的表格．\n\\(AB\\) | 10 | 5 | \n\\(BC\\) | 10 | 20 | \n\\(S_{ \\vartriangle BEF }\\) |  | 41 |\n【得出猜想】",
+      "material_ids": [
+        "context",
+        "fig-91",
+        "fig-101"
+      ],
+      "requires": [],
+      "given_answer": "41；",
+      "answer": "41；",
+      "given_solution": "当\\(AB=10，BC=10\\)时，\\(AE=6，CF=3\\)，\n∴\\(DE=10-6=4，DF=10-3=7\\)，\n∴\\(S_{ \\vartriangle BEF } =10\\times 10-\\frac { 1 } { 2 }\\times 4\\times 7-\\frac { 1 } { 2 }\\times 6\\times 10-\\frac { 1 } { 2 }\\times 10\\times 3=41\\)，\n故答案为：41；",
+      "solution_steps": [
+        "当\\(AB=10，BC=10\\)时，\\(AE=6，CF=3\\)，",
+        "∴\\(DE=10-6=4，DF=10-3=7\\)，",
+        "∴\\(S_{ \\vartriangle BEF } =10\\times 10-\\frac { 1 } { 2 }\\times 4\\times 7-\\frac { 1 } { 2 }\\times 6\\times 10-\\frac { 1 } { 2 }\\times 10\\times 3=41\\)，",
+        "故答案为：41；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          91,
+          101
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374
+        ],
+        "question_pages": [
+          6,
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-46FC824F0B-Q22-P02",
+      "label": "（2）",
+      "prompt": "通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积           定值． （填“是”或“不是”）\n【验证猜想】",
+      "stem_text": "通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积           定值． （填“是”或“不是”）\n【验证猜想】",
+      "material_ids": [
+        "context",
+        "fig-91",
+        "fig-101"
+      ],
+      "requires": [],
+      "given_answer": "是；",
+      "answer": "是；",
+      "given_solution": "通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积是定值；\n故答案为：是；",
+      "solution_steps": [
+        "通过特例分析，猜想：\\(\\vartriangle BEF\\)的面积是定值；",
+        "故答案为：是；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          87,
+          88,
+          91,
+          101
+        ],
+        "solution_block_ids": [
+          375,
+          376
+        ],
+        "question_pages": [
+          6,
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.P01.02"
+      ],
+      "exam_ids": [
+        "E.P01.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-46FC824F0B-Q22-P03",
+      "label": "（3）①",
+      "prompt": "方法1： 假设． \\(BC=m,AB=n\\)，通过计算验证你的猜想．",
+      "stem_text": "方法1： 假设． \\(BC=m,AB=n\\)，通过计算验证你的猜想．",
+      "material_ids": [
+        "context",
+        "fig-91",
+        "fig-101"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "\\(BC=m，AB=n\\)，\\(AE=6，CF=3\\)，\n∴\\(DE=m-6，DF=n-3\\)，\\(mn=100\\)，\n∴\\(S_{ \\vartriangle BEF } =mn-\\frac { 1 } { 2 }\\times \\left ( { m-6 } \\right )\\times \\left ( { n-3 } \\right )-\\frac { 1 } { 2 }\\times 6n-\\frac { 1 } { 2 }\\times 3m=\\frac { 1 } { 2 }mn-9=41\\)；",
+      "solution_steps": [
+        "\\(BC=m，AB=n\\)，\\(AE=6，CF=3\\)，",
+        "∴\\(DE=m-6，DF=n-3\\)，\\(mn=100\\)，",
+        "∴\\(S_{ \\vartriangle BEF } =mn-\\frac { 1 } { 2 }\\times \\left ( { m-6 } \\right )\\times \\left ( { n-3 } \\right )-\\frac { 1 } { 2 }\\times 6n-\\frac { 1 } { 2 }\\times 3m=\\frac { 1 } { 2 }mn-9=41\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          89,
+          91,
+          101
+        ],
+        "solution_block_ids": [
+          377,
+          378,
+          379
+        ],
+        "question_pages": [
+          6,
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09",
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.N03.09.02",
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-46FC824F0B-Q22-P04",
+      "label": "（3）②",
+      "prompt": "方法2： 如图，过点E作，\\(EG\\bot BC\\)交\\(BC\\)于点G，\\(EG\\)将长方形\\(ABCD\\) 分成了长方形\\(ABGE\\)和长方形 \\(EGCD\\)，连接 \\(GF\\)．通过图形割补的方式也可以验证猜想，请将下列部分验证过程补充完整(填数值)．\n\n解：∵等底等高，\n\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)\n\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)\n\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)\n\\(=\\)                 ．\n\\(\\because BG=AE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=\\)                      ．\n\\(\\therefore S_{ \\vartriangle BEF } =41\\)．\n【拓展应用】",
+      "stem_text": "方法2： 如图，过点E作，\\(EG\\bot BC\\)交\\(BC\\)于点G，\\(EG\\)将长方形\\(ABCD\\) 分成了长方形\\(ABGE\\)和长方形 \\(EGCD\\)，连接 \\(GF\\)．通过图形割补的方式也可以验证猜想，请将下列部分验证过程补充完整(填数值)．\n\n解：∵等底等高，\n\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)\n\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)\n\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)\n\\(=\\)                 ．\n\\(\\because BG=AE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=\\)                      ．\n\\(\\therefore S_{ \\vartriangle BEF } =41\\)．\n【拓展应用】",
+      "material_ids": [
+        "context",
+        "fig-91",
+        "fig-101"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "解：∵等底等高，\n\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)，\n\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)\n\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)\n\\(=50\\)．\n∵\\(BG=AE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=9\\)．\n\\(\\therefore S_{ \\vartriangle BEF } =41\\)；\n故答案为：50；9；",
+      "solution_steps": [
+        "解：∵等底等高，",
+        "\\(\\therefore S_{ \\vartriangle EBG } =\\frac { 1 } { 2 }S_{ 长方形ABGE } ,S_{ \\vartriangle EGF } =\\frac { 1 } { 2 }S_{ 长方形EGCD }\\)，",
+        "\\(\\therefore S_{ 四边形EBGF } =S_{ \\vartriangle EBG } +S_{ \\vartriangle EGF }\\)",
+        "\\(=\\frac { 1 } { 2 }\\left ( { S_{ 长方形ABGE } +S_{ 长方形EGCD } } \\right )\\)",
+        "\\(=50\\)．",
+        "∵\\(BG=AE\\)，",
+        "\\(\\therefore S_{ \\vartriangle BGF } =\\frac { 1 } { 2 }BG\\cdot FC=9\\)．",
+        "\\(\\therefore S_{ \\vartriangle BEF } =41\\)；",
+        "故答案为：50；9；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "question_pages": [
+          6,
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向用底高关系处理面积。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-46FC824F0B-Q22-P05",
+      "label": "（4）",
+      "prompt": "在学校游园活动中，数学小组成员计划用三个雪糕简和彩绳在一个长12米，宽 10米的长方形场地中，围出一块三角形区域作为游戏场地．如图，在长方形场地\\(ABCD\\)中，三个雪糕筒分别摆放在点B、E、F处，且\\(AE、CF\\)的长为整数．若围出的游戏场地面积为52平方米，即 \\(S_{ \\vartriangle BEF } =52．\\)请直接写出所有满足条件的\\(AE\\)长．",
+      "stem_text": "在学校游园活动中，数学小组成员计划用三个雪糕简和彩绳在一个长12米，宽 10米的长方形场地中，围出一块三角形区域作为游戏场地．如图，在长方形场地\\(ABCD\\)中，三个雪糕筒分别摆放在点B、E、F处，且\\(AE、CF\\)的长为整数．若围出的游戏场地面积为52平方米，即 \\(S_{ \\vartriangle BEF } =52．\\)请直接写出所有满足条件的\\(AE\\)长．",
+      "material_ids": [
+        "context",
+        "fig-91",
+        "fig-101"
+      ],
+      "requires": [],
+      "given_answer": "\\(AE\\)长为2或4或8",
+      "answer": "\\(AE\\)长为2或4或8",
+      "given_solution": "由（3）①得：\\(S_{ \\vartriangle BEF } =12\\times 10-\\frac { 1 } { 2 }\\times AE\\times 10-\\frac { 1 } { 2 }\\times \\left ( { 12-AE } \\right )\\times DF-\\frac { 1 } { 2 }\\times 12\\times FC=52\\)，\n整理得：\\(AE\\left ( { 5-\\frac { 1 } { 2 }DF } \\right )=8\\)，\n∵\\(AE、CF\\)的长为整数．\n∴当\\(DF=2\\)时，\\(AE=2\\)；当\\(DF=4\\)时，\\(AE=\\frac { 8 } { 3 }\\)（舍去）；当\\(DF=6\\)时，\\(AE=4\\)；当\\(DF=8\\)时，\\(AE=8\\)；\n∴\\(AE\\)长为2或4或8．",
+      "solution_steps": [
+        "由（3）①得：\\(S_{ \\vartriangle BEF } =12\\times 10-\\frac { 1 } { 2 }\\times AE\\times 10-\\frac { 1 } { 2 }\\times \\left ( { 12-AE } \\right )\\times DF-\\frac { 1 } { 2 }\\times 12\\times FC=52\\)，",
+        "整理得：\\(AE\\left ( { 5-\\frac { 1 } { 2 }DF } \\right )=8\\)，",
+        "∵\\(AE、CF\\)的长为整数．",
+        "∴当\\(DF=2\\)时，\\(AE=2\\)；当\\(DF=4\\)时，\\(AE=\\frac { 8 } { 3 }\\)（舍去）；当\\(DF=6\\)时，\\(AE=4\\)；当\\(DF=8\\)时，\\(AE=8\\)；",
+        "∴\\(AE\\)长为2或4或8．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83,
+          84,
+          85,
+          91,
+          100,
+          101
+        ],
+        "solution_block_ids": [
+          389,
+          390,
+          391,
+          392,
+          393
+        ],
+        "question_pages": [
+          6,
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问将指定数值代入已知表达式求值。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      81,
+      101
+    ],
+    "solution_body_blocks": [
+      343,
+      393
+    ],
+    "question_pages": [
+      6,
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-46FC824F0B/paper-q22-p06.webp",
+      "assets/SZ-G7-T2-46FC824F0B/paper-q22-p07.webp",
+      "assets/SZ-G7-T2-46FC824F0B/paper-q22-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          769.09
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          242.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-46FC824F0B/solution-q22-p19.webp",
+      "assets/SZ-G7-T2-46FC824F0B/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          611.82,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          720.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G02.04",
+    "M.P01.02",
+    "M.N03.09",
+    "M.N03.01"
+  ],
+  "exam_ids": [
+    "E.G02.04.01",
+    "E.P01.02.02",
+    "E.N03.09.02",
+    "E.G02.04.02",
+    "E.N03.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按题面要求和原解所用方法核定。 题面指向用底高关系处理面积。 本问将指定数值代入已知表达式求值。",
+  "tag_source": "小问标签汇总"
+}

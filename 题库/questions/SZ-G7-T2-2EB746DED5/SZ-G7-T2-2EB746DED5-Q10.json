@@ -1,0 +1,134 @@
+{
+  "id": "SZ-G7-T2-2EB746DED5-Q10",
+  "paper_id": "SZ-G7-T2-2EB746DED5",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "从全等对应关系求边与角",
+  "stem": "已知，点\\(D\\)是\\(\\vartriangle ABC\\)的重心，过顶点\\(A\\)作一条直线\\(l\\)平行于\\(BC\\)，连接\\(CD\\)并延长，交\\(AB\\)于点\\(E\\)，交直线\\(l\\)于点\\(F\\)，连接\\(BD\\)并延长交\\(AC\\)于点\\(G\\)，则\\(\\vartriangle AEF\\)的面积与四边形\\(AGDE\\)的面积之比为（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(1:2\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(3:2\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(2:1\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(4:3\\)"
+    }
+  ],
+  "figures": [
+    "assets/figures/55/55d5001ed6d941c1e6093190cffccb52ef18a3a4a44be7843c5d858252f380f3.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】根据重心的定义得点E是\\(AB\\)的中点，点G是\\(AC\\)的中点，可知\\(EG\\)是\\(\\vartriangle ABC\\)的中位线，再结合平行线的性质得\\(\\vartriangle AEF\\)≌\\(\\vartriangle BEC\\)，可得\\(EF=EC\\)，进而得出\\(S_{ \\vartriangle AEF } { \\rm{ = } }S_{ \\vartriangle AEC }\\)，连接\\(EG\\)，可知\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG }\\)，根据中位线的性质及相似三角形的性质得\\(\\frac { DE } { CD }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，可知\\(S_{ \\vartriangle CDG } { \\rm{ = } }2S_{ \\vartriangle EDG }\\)，则\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG } { \\rm{ = } }3S_{ \\vartriangle EDG }\\)，所以\\(S_{ \\vartriangle AEF } { \\rm{ = } }6S_{ \\vartriangle EDG }\\)，\\(S_{ 四边形AGDE } { \\rm{ = } }4S_{ \\vartriangle EDG }\\)，即可得出答案.\n【详解】根据题意可知点E是\\(AB\\)的中点，点G是\\(AC\\)的中点，连接\\(EG\\)，\n〔图2〕\n∴\\(AE=BE\\)，\\(EG\\)是\\(\\vartriangle ABC\\)的中位线．\n∵直线\\(l\\parallel BC\\)，\n∴\\(\\angle AFE=\\angle ECB\\)，\\(\\angle FAE{ \\rm{ = } }\\angle EBC\\)，\n∴\\(\\vartriangle AEF\\)≌\\(\\vartriangle BEC\\)，\n∴\\(EF=EC\\)，\n∴\\(S_{ \\vartriangle AEF } { \\rm{ = } }S_{ \\vartriangle AEC }\\).\n∵点G是\\(AC\\)的中点，\n∴\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG }\\).\n∵\\(EG\\)是\\(\\vartriangle ABC\\)的中位线，\n∴\\(EG\\parallel BC\\)，\\(\\frac { EG } { BC }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n∴\\(\\vartriangle EDG\\sim \\vartriangle CDB\\)，\n∴ \\(\\frac { DE } { CD }{ \\rm{ = } }\\frac { EG } { BC }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n∴\\(S_{ \\vartriangle CDG } { \\rm{ = } }2S_{ \\vartriangle EDG }\\)，\n∴\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG } { \\rm{ = } }3S_{ \\vartriangle EDG }\\)，\n∴\\(S_{ \\vartriangle AEF } { \\rm{ = } }6S_{ \\vartriangle EDG }\\)，\\(S_{ 四边形AGDE } { \\rm{ = } }4S_{ \\vartriangle EDG }\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 四边形AGDE } }{ \\rm{ = } }\\frac { 6S_{ \\vartriangle EDG } } { 4S_{ \\vartriangle EDG } }{ \\rm{ = } }\\frac { 3 } { 2 }\\).\n故选：B．\n【点睛】本题主要考查了重心，全等三角形的性质和判定，中位线的定义和性质，相似三角形的判定和性质，弄清各三角形面积之间的关系是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/55/55d5001ed6d941c1e6093190cffccb52ef18a3a4a44be7843c5d858252f380f3.png",
+    "assets/figures/a7/a76743e042e7af7a2a489c9d44293d3c03a5e5f9101ff8316c319f8a8555e88c.png"
+  ],
+  "solution": "根据题意可知点E是\\(AB\\)的中点，点G是\\(AC\\)的中点，连接\\(EG\\)，\n〔图2〕\n∴\\(AE=BE\\)，\\(EG\\)是\\(\\vartriangle ABC\\)的中位线．\n∵直线\\(l\\parallel BC\\)，\n∴\\(\\angle AFE=\\angle ECB\\)，\\(\\angle FAE{ \\rm{ = } }\\angle EBC\\)，\n∴\\(\\vartriangle AEF\\)≌\\(\\vartriangle BEC\\)，\n∴\\(EF=EC\\)，\n∴\\(S_{ \\vartriangle AEF } { \\rm{ = } }S_{ \\vartriangle AEC }\\).\n∵点G是\\(AC\\)的中点，\n∴\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG }\\).\n∵\\(EG\\)是\\(\\vartriangle ABC\\)的中位线，\n∴\\(EG\\parallel BC\\)，\\(\\frac { EG } { BC }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n∴\\(\\vartriangle EDG\\sim \\vartriangle CDB\\)，\n∴ \\(\\frac { DE } { CD }{ \\rm{ = } }\\frac { EG } { BC }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n∴\\(S_{ \\vartriangle CDG } { \\rm{ = } }2S_{ \\vartriangle EDG }\\)，\n∴\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG } { \\rm{ = } }3S_{ \\vartriangle EDG }\\)，\n∴\\(S_{ \\vartriangle AEF } { \\rm{ = } }6S_{ \\vartriangle EDG }\\)，\\(S_{ 四边形AGDE } { \\rm{ = } }4S_{ \\vartriangle EDG }\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 四边形AGDE } }{ \\rm{ = } }\\frac { 6S_{ \\vartriangle EDG } } { 4S_{ \\vartriangle EDG } }{ \\rm{ = } }\\frac { 3 } { 2 }\\).\n故选：B．",
+  "solution_steps": [
+    "根据题意可知点E是\\(AB\\)的中点，点G是\\(AC\\)的中点，连接\\(EG\\)，",
+    "〔图2〕",
+    "∴\\(AE=BE\\)，\\(EG\\)是\\(\\vartriangle ABC\\)的中位线．",
+    "∵直线\\(l\\parallel BC\\)，",
+    "∴\\(\\angle AFE=\\angle ECB\\)，\\(\\angle FAE{ \\rm{ = } }\\angle EBC\\)，",
+    "∴\\(\\vartriangle AEF\\)≌\\(\\vartriangle BEC\\)，",
+    "∴\\(EF=EC\\)，",
+    "∴\\(S_{ \\vartriangle AEF } { \\rm{ = } }S_{ \\vartriangle AEC }\\).",
+    "∵点G是\\(AC\\)的中点，",
+    "∴\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG }\\).",
+    "∵\\(EG\\)是\\(\\vartriangle ABC\\)的中位线，",
+    "∴\\(EG\\parallel BC\\)，\\(\\frac { EG } { BC }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，",
+    "∴\\(\\vartriangle EDG\\sim \\vartriangle CDB\\)，",
+    "∴ \\(\\frac { DE } { CD }{ \\rm{ = } }\\frac { EG } { BC }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，",
+    "∴\\(S_{ \\vartriangle CDG } { \\rm{ = } }2S_{ \\vartriangle EDG }\\)，",
+    "∴\\(S_{ \\vartriangle AEG } { \\rm{ = } }S_{ \\vartriangle ECG } { \\rm{ = } }3S_{ \\vartriangle EDG }\\)，",
+    "∴\\(S_{ \\vartriangle AEF } { \\rm{ = } }6S_{ \\vartriangle EDG }\\)，\\(S_{ 四边形AGDE } { \\rm{ = } }4S_{ \\vartriangle EDG }\\)，",
+    "∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 四边形AGDE } }{ \\rm{ = } }\\frac { 6S_{ \\vartriangle EDG } } { 4S_{ \\vartriangle EDG } }{ \\rm{ = } }\\frac { 3 } { 2 }\\).",
+    "故选：B．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      36,
+      38
+    ],
+    "solution_body_blocks": [
+      112,
+      137
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-2EB746DED5/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          227.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-2EB746DED5/solution-q10-p06.webp",
+      "assets/SZ-G7-T2-2EB746DED5/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          167.27,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          55.0,
+          583.64,
+          299.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "资料考点说明指向用全等对应关系求边角。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,431 @@
+{
+  "id": "SZ-G7-T2-6DA6AC61E0-Q22",
+  "paper_id": "SZ-G7-T2-6DA6AC61E0",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "已知：如图所示，直线\\(MA\\parallel NB\\)，\\(\\angle MAB\\)与\\(\\angle NBA\\)的平分线交于点\\(C\\)，过点\\(C\\)作一条直线\\(l\\)与两条直线\\(MA\\)、\\(NB\\)分别相交于点\\(D、E\\)．\n〔图1〕\n（1）如图1，当直线l与直线\\(MA\\)垂直时，猜想线段\\(AD、BE、AB\\)之间的数量关系，请直接写出结论，不用证明；\n（2）当直线l与直线\\(MA\\)不垂直，且交点\\(D、E\\)在\\(AB\\)的异侧时，（1）中的结论是否仍然成立？如果成立，请说明理由；如果不成立，那么线段\\(AD、BE、AB\\)之间还存在某种数量关系吗？如果存在，请直接写出它们之间的数量关系；\n（3）如图2，当直线\\(MA\\)与直线\\(NB\\)相交于点F时，延长\\(AC\\)，\\(BC\\)，分别交\\(BN\\)，\\(AM\\)于点E，D，直线\\(MA\\)与直线\\(NB\\)所夹的锐角为多少度时，线段\\(AD、BE、AB\\)之间仍满足（1）间中的数量关系？请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/9d/9d97d114160f0ac603e942dfa36930f7c4bbc8f46d030766f88869b84e1d3a63.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AD+BE=AB\\)\n（2）不成立，\\(BE-AD=AB\\)或\\(AD-BE=AB\\)\n（3）\\(60{}^\\circ\\)，理由见解析",
+  "answer": "（1）\\(AD+BE=AB\\)\n（2）不成立，\\(BE-AD=AB\\)或\\(AD-BE=AB\\)\n（3）\\(60{}^\\circ\\)，理由见解析",
+  "given_solution": "【分析】（1）作\\(CH\\bot AB\\)于点\\(H\\)，然后证明\\(\\vartriangle ACD≌\\vartriangle ACH\\)，\\(\\vartriangle BCH≌\\vartriangle BCE\\)即可得出结论；\n（2）分别画出两种情形，结合全等三角形的判定与性质进行解答即可；\n（3）当\\(MA\\)与\\(NB\\)夹角为\\(60{}^\\circ\\)时．\\(AD+BE=AB\\)，在\\(AB\\)上截取点G．使\\(AG=AD\\)．连接\\(CG\\)，分别证明\\(\\vartriangle CDA≌\\vartriangle CGA\\)，\\(\\vartriangle GCB≌\\vartriangle ECB\\)，进而得出结论．\n【小问1详解】\n解：结论：\\(AD+BE=AB\\)，\n理由如下：作\\(CH\\bot AB\\)于点\\(H\\)，\n〔图2〕\n∵\\(CD\\bot AM,CH\\bot AB\\)，\n∴\\(\\angle ADC=\\angle CHA=90{}^\\circ\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle ACH\\)中，\n〔图3〕，\n∴\\(\\vartriangle ACD≌\\vartriangle ACH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(AD=AH\\)，\n同理可证\\(\\vartriangle BCH≌\\vartriangle BCE\\)，\n∴\\(BH=BE\\)，\n∴\\(AD+BE=AH+BH=AB\\)；\n【小问2详解】\n不成立，\n如下图，结论：\\(AD-BE=AB\\)，\n〔图4〕\n理由：延长\\(BC\\)角\\(AM\\)于\\(B'\\)，\n∵\\(AD\\parallel BN\\)，\n∴\\(\\angle B'BN=\\angle AB'B=\\angle ABB'\\)，\\(\\angle B'DC=\\angle CEB\\)，\n∴\\(AB'=AB\\)，\n∵\\(\\angle B'AC=\\angle BAC\\)，\n∴\\(AC\\bot BB ^ { \\prime }\\)，\\(CB'=CB\\)，\n在\\(\\vartriangle CDB'\\)和\\(\\vartriangle CEB\\)中，\n〔图5〕，\n∴\\(\\vartriangle CDB'≌\\vartriangle CEB({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(DB'=EB\\)，\n∴\\(AD-BE=AD-B'D=AB'=AB\\)，\n即\\(AD-BE=AB\\)；\n如下图：\n〔图6〕\n同理可证：\\(BE-AD=AB\\)；\n【小问3详解】\n当\\(MA\\)与\\(NB\\)夹角为\\(60{}^\\circ\\)时．\\(AD+BE=AB\\)，\n证明：\n∵\\(\\angle AFB=60{}^\\circ\\)，\\(AE、BD\\)分别平分\\(\\angle FAB\\)、\\(\\angle FBA\\)，\n∴\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle ACD=\\angle BCE=60{}^\\circ\\)，\n在\\(AB\\)上截取点G．使\\(AG=AD\\)．连接\\(CG\\)，\n〔图7〕\n在\\(\\vartriangle CDA\\)和\\(\\vartriangle CGA\\)中，\n∵\\(\\begin{cases} DA=GA \\\\ \\angle DAC=\\angle GAC \\\\ AC=AC \\end{cases}\\)，\n∴\\(\\vartriangle CDA≌\\vartriangle CGA\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），\n∴\\(\\angle GCA=\\angle DCA=60{}^\\circ\\)，\n∵\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle GCB=60{}^\\circ\\)，\n∵\\(\\angle ECB=60{}^\\circ\\)，\n∴\\(\\angle GCB=\\angle ECB\\)，\n在\\(\\vartriangle GCB\\)和\\(\\vartriangle ECB\\)中，\n∵\\(\\begin{cases} \\angle GBC=\\angle EBC \\\\ CB=CB \\\\ \\angle GCB=\\angle ECB \\end{cases}\\)，\n∴\\(\\vartriangle GCB≌\\vartriangle ECB\\)（\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)），\n∴\\(GB=EB\\)，\n∴\\(AB=AD+BE\\)．\n【点睛】本题考查了全等三角形的判定与性质，熟练掌握全等三角形的判定定理以及性质定理结合“截长补短法”构造全等三角形是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/9d/9d97d114160f0ac603e942dfa36930f7c4bbc8f46d030766f88869b84e1d3a63.png",
+    "assets/figures/5d/5d590f072fa98ddeeebe7c16a8fe112551e4db7bd3e9e2f0ee61b2029a7c467f.png",
+    "assets/figures/eb/ebd85f45b92e2dc0bb104a4a7e3ae2fcc922b494fc886680ed226e7a8a21be8d.png",
+    "assets/figures/62/62c865892ac43788774d75a7f17f253c35c843b4a3d6a4165439eebf10fd8124.png",
+    "assets/figures/11/11d30f9a8c33ab5c137fc92ddd10b424bc17dd0a71e909a0d9009f2210fc0a17.png",
+    "assets/figures/13/13e95f88bb1b8d7f1f097c2d6d12bf55490e285ad6541d0b122af3364daae22e.png",
+    "assets/figures/8a/8a81da26ad6909e285a03d9e7c7b4803c1c79ac994ec202bf1d1fd6661e157c8.png"
+  ],
+  "solution": "【小问1详解】\n解：结论：\\(AD+BE=AB\\)，\n理由如下：作\\(CH\\bot AB\\)于点\\(H\\)，\n〔图2〕\n∵\\(CD\\bot AM,CH\\bot AB\\)，\n∴\\(\\angle ADC=\\angle CHA=90{}^\\circ\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle ACH\\)中，\n〔图3〕，\n∴\\(\\vartriangle ACD≌\\vartriangle ACH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(AD=AH\\)，\n同理可证\\(\\vartriangle BCH≌\\vartriangle BCE\\)，\n∴\\(BH=BE\\)，\n∴\\(AD+BE=AH+BH=AB\\)；\n【小问2详解】\n不成立，\n如下图，结论：\\(AD-BE=AB\\)，\n〔图4〕\n理由：延长\\(BC\\)角\\(AM\\)于\\(B'\\)，\n∵\\(AD\\parallel BN\\)，\n∴\\(\\angle B'BN=\\angle AB'B=\\angle ABB'\\)，\\(\\angle B'DC=\\angle CEB\\)，\n∴\\(AB'=AB\\)，\n∵\\(\\angle B'AC=\\angle BAC\\)，\n∴\\(AC\\bot BB ^ { \\prime }\\)，\\(CB'=CB\\)，\n在\\(\\vartriangle CDB'\\)和\\(\\vartriangle CEB\\)中，\n〔图5〕，\n∴\\(\\vartriangle CDB'≌\\vartriangle CEB({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(DB'=EB\\)，\n∴\\(AD-BE=AD-B'D=AB'=AB\\)，\n即\\(AD-BE=AB\\)；\n如下图：\n〔图6〕\n同理可证：\\(BE-AD=AB\\)；\n【小问3详解】\n当\\(MA\\)与\\(NB\\)夹角为\\(60{}^\\circ\\)时．\\(AD+BE=AB\\)，\n证明：\n∵\\(\\angle AFB=60{}^\\circ\\)，\\(AE、BD\\)分别平分\\(\\angle FAB\\)、\\(\\angle FBA\\)，\n∴\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle ACD=\\angle BCE=60{}^\\circ\\)，\n在\\(AB\\)上截取点G．使\\(AG=AD\\)．连接\\(CG\\)，\n〔图7〕\n在\\(\\vartriangle CDA\\)和\\(\\vartriangle CGA\\)中，\n∵\\(\\begin{cases} DA=GA \\\\ \\angle DAC=\\angle GAC \\\\ AC=AC \\end{cases}\\)，\n∴\\(\\vartriangle CDA≌\\vartriangle CGA\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），\n∴\\(\\angle GCA=\\angle DCA=60{}^\\circ\\)，\n∵\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle GCB=60{}^\\circ\\)，\n∵\\(\\angle ECB=60{}^\\circ\\)，\n∴\\(\\angle GCB=\\angle ECB\\)，\n在\\(\\vartriangle GCB\\)和\\(\\vartriangle ECB\\)中，\n∵\\(\\begin{cases} \\angle GBC=\\angle EBC \\\\ CB=CB \\\\ \\angle GCB=\\angle ECB \\end{cases}\\)，\n∴\\(\\vartriangle GCB≌\\vartriangle ECB\\)（\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)），\n∴\\(GB=EB\\)，\n∴\\(AB=AD+BE\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：结论：\\(AD+BE=AB\\)，",
+    "理由如下：作\\(CH\\bot AB\\)于点\\(H\\)，",
+    "〔图2〕",
+    "∵\\(CD\\bot AM,CH\\bot AB\\)，",
+    "∴\\(\\angle ADC=\\angle CHA=90{}^\\circ\\)，",
+    "在\\(\\vartriangle ACD\\)和\\(\\vartriangle ACH\\)中，",
+    "〔图3〕，",
+    "∴\\(\\vartriangle ACD≌\\vartriangle ACH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(AD=AH\\)，",
+    "同理可证\\(\\vartriangle BCH≌\\vartriangle BCE\\)，",
+    "∴\\(BH=BE\\)，",
+    "∴\\(AD+BE=AH+BH=AB\\)；",
+    "【小问2详解】",
+    "不成立，",
+    "如下图，结论：\\(AD-BE=AB\\)，",
+    "〔图4〕",
+    "理由：延长\\(BC\\)角\\(AM\\)于\\(B'\\)，",
+    "∵\\(AD\\parallel BN\\)，",
+    "∴\\(\\angle B'BN=\\angle AB'B=\\angle ABB'\\)，\\(\\angle B'DC=\\angle CEB\\)，",
+    "∴\\(AB'=AB\\)，",
+    "∵\\(\\angle B'AC=\\angle BAC\\)，",
+    "∴\\(AC\\bot BB ^ { \\prime }\\)，\\(CB'=CB\\)，",
+    "在\\(\\vartriangle CDB'\\)和\\(\\vartriangle CEB\\)中，",
+    "〔图5〕，",
+    "∴\\(\\vartriangle CDB'≌\\vartriangle CEB({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(DB'=EB\\)，",
+    "∴\\(AD-BE=AD-B'D=AB'=AB\\)，",
+    "即\\(AD-BE=AB\\)；",
+    "如下图：",
+    "〔图6〕",
+    "同理可证：\\(BE-AD=AB\\)；",
+    "【小问3详解】",
+    "当\\(MA\\)与\\(NB\\)夹角为\\(60{}^\\circ\\)时．\\(AD+BE=AB\\)，",
+    "证明：",
+    "∵\\(\\angle AFB=60{}^\\circ\\)，\\(AE、BD\\)分别平分\\(\\angle FAB\\)、\\(\\angle FBA\\)，",
+    "∴\\(\\angle ACB=120{}^\\circ\\)，",
+    "∴\\(\\angle ACD=\\angle BCE=60{}^\\circ\\)，",
+    "在\\(AB\\)上截取点G．使\\(AG=AD\\)．连接\\(CG\\)，",
+    "〔图7〕",
+    "在\\(\\vartriangle CDA\\)和\\(\\vartriangle CGA\\)中，",
+    "∵\\(\\begin{cases} DA=GA \\\\ \\angle DAC=\\angle GAC \\\\ AC=AC \\end{cases}\\)，",
+    "∴\\(\\vartriangle CDA≌\\vartriangle CGA\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），",
+    "∴\\(\\angle GCA=\\angle DCA=60{}^\\circ\\)，",
+    "∵\\(\\angle ACB=120{}^\\circ\\)，",
+    "∴\\(\\angle GCB=60{}^\\circ\\)，",
+    "∵\\(\\angle ECB=60{}^\\circ\\)，",
+    "∴\\(\\angle GCB=\\angle ECB\\)，",
+    "在\\(\\vartriangle GCB\\)和\\(\\vartriangle ECB\\)中，",
+    "∵\\(\\begin{cases} \\angle GBC=\\angle EBC \\\\ CB=CB \\\\ \\angle GCB=\\angle ECB \\end{cases}\\)，",
+    "∴\\(\\vartriangle GCB≌\\vartriangle ECB\\)（\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)），",
+    "∴\\(GB=EB\\)，",
+    "∴\\(AB=AD+BE\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知：如图所示，直线\\(MA\\parallel NB\\)，\\(\\angle MAB\\)与\\(\\angle NBA\\)的平分线交于点\\(C\\)，过点\\(C\\)作一条直线\\(l\\)与两条直线\\(MA\\)、\\(NB\\)分别相交于点\\(D、E\\)．\n〔图1〕",
+      "paper_blocks": [
+        72,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-6DA6AC61E0-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，当直线l与直线\\(MA\\)垂直时，猜想线段\\(AD、BE、AB\\)之间的数量关系，请直接写出结论，不用证明；",
+      "stem_text": "如图1，当直线l与直线\\(MA\\)垂直时，猜想线段\\(AD、BE、AB\\)之间的数量关系，请直接写出结论，不用证明；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD+BE=AB\\)",
+      "answer": "\\(AD+BE=AB\\)",
+      "given_solution": "解：结论：\\(AD+BE=AB\\)，\n理由如下：作\\(CH\\bot AB\\)于点\\(H\\)，\n〔图2〕\n∵\\(CD\\bot AM,CH\\bot AB\\)，\n∴\\(\\angle ADC=\\angle CHA=90{}^\\circ\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle ACH\\)中，\n〔图3〕，\n∴\\(\\vartriangle ACD≌\\vartriangle ACH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(AD=AH\\)，\n同理可证\\(\\vartriangle BCH≌\\vartriangle BCE\\)，\n∴\\(BH=BE\\)，\n∴\\(AD+BE=AH+BH=AB\\)；",
+      "solution_steps": [
+        "解：结论：\\(AD+BE=AB\\)，",
+        "理由如下：作\\(CH\\bot AB\\)于点\\(H\\)，",
+        "〔图2〕",
+        "∵\\(CD\\bot AM,CH\\bot AB\\)，",
+        "∴\\(\\angle ADC=\\angle CHA=90{}^\\circ\\)，",
+        "在\\(\\vartriangle ACD\\)和\\(\\vartriangle ACH\\)中，",
+        "〔图3〕，",
+        "∴\\(\\vartriangle ACD≌\\vartriangle ACH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(AD=AH\\)，",
+        "同理可证\\(\\vartriangle BCH≌\\vartriangle BCE\\)，",
+        "∴\\(BH=BE\\)，",
+        "∴\\(AD+BE=AH+BH=AB\\)；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6DA6AC61E0-Q22-P02",
+      "label": "（2）",
+      "prompt": "当直线l与直线\\(MA\\)不垂直，且交点\\(D、E\\)在\\(AB\\)的异侧时，（1）中的结论是否仍然成立？如果成立，请说明理由；如果不成立，那么线段\\(AD、BE、AB\\)之间还存在某种数量关系吗？如果存在，请直接写出它们之间的数量关系；",
+      "stem_text": "当直线l与直线\\(MA\\)不垂直，且交点\\(D、E\\)在\\(AB\\)的异侧时，（1）中的结论是否仍然成立？如果成立，请说明理由；如果不成立，那么线段\\(AD、BE、AB\\)之间还存在某种数量关系吗？如果存在，请直接写出它们之间的数量关系；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "不成立，\\(BE-AD=AB\\)或\\(AD-BE=AB\\)",
+      "answer": "不成立，\\(BE-AD=AB\\)或\\(AD-BE=AB\\)",
+      "given_solution": "不成立，\n如下图，结论：\\(AD-BE=AB\\)，\n〔图4〕\n理由：延长\\(BC\\)角\\(AM\\)于\\(B'\\)，\n∵\\(AD\\parallel BN\\)，\n∴\\(\\angle B'BN=\\angle AB'B=\\angle ABB'\\)，\\(\\angle B'DC=\\angle CEB\\)，\n∴\\(AB'=AB\\)，\n∵\\(\\angle B'AC=\\angle BAC\\)，\n∴\\(AC\\bot BB ^ { \\prime }\\)，\\(CB'=CB\\)，\n在\\(\\vartriangle CDB'\\)和\\(\\vartriangle CEB\\)中，\n〔图5〕，\n∴\\(\\vartriangle CDB'≌\\vartriangle CEB({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(DB'=EB\\)，\n∴\\(AD-BE=AD-B'D=AB'=AB\\)，\n即\\(AD-BE=AB\\)；\n如下图：\n〔图6〕\n同理可证：\\(BE-AD=AB\\)；",
+      "solution_steps": [
+        "不成立，",
+        "如下图，结论：\\(AD-BE=AB\\)，",
+        "〔图4〕",
+        "理由：延长\\(BC\\)角\\(AM\\)于\\(B'\\)，",
+        "∵\\(AD\\parallel BN\\)，",
+        "∴\\(\\angle B'BN=\\angle AB'B=\\angle ABB'\\)，\\(\\angle B'DC=\\angle CEB\\)，",
+        "∴\\(AB'=AB\\)，",
+        "∵\\(\\angle B'AC=\\angle BAC\\)，",
+        "∴\\(AC\\bot BB ^ { \\prime }\\)，\\(CB'=CB\\)，",
+        "在\\(\\vartriangle CDB'\\)和\\(\\vartriangle CEB\\)中，",
+        "〔图5〕，",
+        "∴\\(\\vartriangle CDB'≌\\vartriangle CEB({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(DB'=EB\\)，",
+        "∴\\(AD-BE=AD-B'D=AB'=AB\\)，",
+        "即\\(AD-BE=AB\\)；",
+        "如下图：",
+        "〔图6〕",
+        "同理可证：\\(BE-AD=AB\\)；"
+      ],
+      "solution_figure_ids": [
+        4,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-6DA6AC61E0-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图2，当直线\\(MA\\)与直线\\(NB\\)相交于点F时，延长\\(AC\\)，\\(BC\\)，分别交\\(BN\\)，\\(AM\\)于点E，D，直线\\(MA\\)与直线\\(NB\\)所夹的锐角为多少度时，线段\\(AD、BE、AB\\)之间仍满足（1）间中的数量关系？请说明理由．",
+      "stem_text": "如图2，当直线\\(MA\\)与直线\\(NB\\)相交于点F时，延长\\(AC\\)，\\(BC\\)，分别交\\(BN\\)，\\(AM\\)于点E，D，直线\\(MA\\)与直线\\(NB\\)所夹的锐角为多少度时，线段\\(AD、BE、AB\\)之间仍满足（1）间中的数量关系？请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(60{}^\\circ\\)，理由见解析",
+      "answer": "\\(60{}^\\circ\\)，理由见解析",
+      "given_solution": "当\\(MA\\)与\\(NB\\)夹角为\\(60{}^\\circ\\)时．\\(AD+BE=AB\\)，\n证明：\n∵\\(\\angle AFB=60{}^\\circ\\)，\\(AE、BD\\)分别平分\\(\\angle FAB\\)、\\(\\angle FBA\\)，\n∴\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle ACD=\\angle BCE=60{}^\\circ\\)，\n在\\(AB\\)上截取点G．使\\(AG=AD\\)．连接\\(CG\\)，\n〔图7〕\n在\\(\\vartriangle CDA\\)和\\(\\vartriangle CGA\\)中，\n∵\\(\\begin{cases} DA=GA \\\\ \\angle DAC=\\angle GAC \\\\ AC=AC \\end{cases}\\)，\n∴\\(\\vartriangle CDA≌\\vartriangle CGA\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），\n∴\\(\\angle GCA=\\angle DCA=60{}^\\circ\\)，\n∵\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle GCB=60{}^\\circ\\)，\n∵\\(\\angle ECB=60{}^\\circ\\)，\n∴\\(\\angle GCB=\\angle ECB\\)，\n在\\(\\vartriangle GCB\\)和\\(\\vartriangle ECB\\)中，\n∵\\(\\begin{cases} \\angle GBC=\\angle EBC \\\\ CB=CB \\\\ \\angle GCB=\\angle ECB \\end{cases}\\)，\n∴\\(\\vartriangle GCB≌\\vartriangle ECB\\)（\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)），\n∴\\(GB=EB\\)，\n∴\\(AB=AD+BE\\)．",
+      "solution_steps": [
+        "当\\(MA\\)与\\(NB\\)夹角为\\(60{}^\\circ\\)时．\\(AD+BE=AB\\)，",
+        "证明：",
+        "∵\\(\\angle AFB=60{}^\\circ\\)，\\(AE、BD\\)分别平分\\(\\angle FAB\\)、\\(\\angle FBA\\)，",
+        "∴\\(\\angle ACB=120{}^\\circ\\)，",
+        "∴\\(\\angle ACD=\\angle BCE=60{}^\\circ\\)，",
+        "在\\(AB\\)上截取点G．使\\(AG=AD\\)．连接\\(CG\\)，",
+        "〔图7〕",
+        "在\\(\\vartriangle CDA\\)和\\(\\vartriangle CGA\\)中，",
+        "∵\\(\\begin{cases} DA=GA \\\\ \\angle DAC=\\angle GAC \\\\ AC=AC \\end{cases}\\)，",
+        "∴\\(\\vartriangle CDA≌\\vartriangle CGA\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），",
+        "∴\\(\\angle GCA=\\angle DCA=60{}^\\circ\\)，",
+        "∵\\(\\angle ACB=120{}^\\circ\\)，",
+        "∴\\(\\angle GCB=60{}^\\circ\\)，",
+        "∵\\(\\angle ECB=60{}^\\circ\\)，",
+        "∴\\(\\angle GCB=\\angle ECB\\)，",
+        "在\\(\\vartriangle GCB\\)和\\(\\vartriangle ECB\\)中，",
+        "∵\\(\\begin{cases} \\angle GBC=\\angle EBC \\\\ CB=CB \\\\ \\angle GCB=\\angle ECB \\end{cases}\\)，",
+        "∴\\(\\vartriangle GCB≌\\vartriangle ECB\\)（\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)），",
+        "∴\\(GB=EB\\)，",
+        "∴\\(AB=AD+BE\\)．"
+      ],
+      "solution_figure_ids": [
+        7
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          76
+        ],
+        "solution_block_ids": [
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      72,
+      76
+    ],
+    "solution_body_blocks": [
+      356,
+      421
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-6DA6AC61E0/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          407.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-6DA6AC61E0/solution-q22-p18.webp",
+      "assets/SZ-G7-T2-6DA6AC61E0/solution-q22-p19.webp",
+      "assets/SZ-G7-T2-6DA6AC61E0/solution-q22-p20.webp",
+      "assets/SZ-G7-T2-6DA6AC61E0/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          659.09,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          689.09
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          580.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

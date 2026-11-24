@@ -1,0 +1,291 @@
+{
+  "id": "SZ-G7-T2-B58E217588-Q21",
+  "paper_id": "SZ-G7-T2-B58E217588",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由和差或积的关系求简单对称式",
+  "stem": "用几个小的长方形、正方形拼成一个大的正方形，然后利用两种不同的方法计算这个大的正方形的面积，可以得到一个等式，例如：计算图1的面积．把图1看作一个大正方形． 它的面积是\\(\\left ( { a+b } \\right ) ^ { 2 }\\)；如果把图1 看作是由2个长方形和2个小正方形组成的，它的面积为\\(a ^ { 2 } +2ab+b ^ { 2 }\\)，由此得到\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)．\n〔图1〕\n（1）如图2，由几个面积不等的小正方形和几个小长方形拼成一个边长为\\(\\left ( { a+b+c } \\right )\\)的正方形，从中你能发现什么结论？该结论用等式表示为                   ．\n（2）利用（1）中的结论解决以下问题：\n已知\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，求\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 }\\)的值；\n（3）如图3，正方形\\(ABCD\\)边长为a，正方形\\(CEFG\\)边长为b，点D，G，C在同一直线上，连接\\(BD\\)、\\(DF\\)，若\\(a-b=5\\)，\\(ab=6\\)，求图3中阴影部分的面积．",
+  "choices": [],
+  "figures": [
+    "assets/figures/28/280462bab08d5adfd2a4067473b79eff9ec0bd28d68641ff38b33c4b09f61046.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)\n（2）\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =26\\)\n（3）\\(14.5\\)",
+  "answer": "（1）\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)\n（2）\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =26\\)\n（3）\\(14.5\\)",
+  "given_solution": "【分析】（1）由正方形的面积的两种不同的计算方法，从而可得结论；\n（2）把\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)代入（1）中公式可得答案；\n（3）先求解\\(a+b=7\\)，阴影部分的面积为：\\(\\frac { 1 } { 2 }a ^ { 2 } -b ^ { 2 } -\\frac { 1 } { 2 }b\\left ( { a-b } \\right )=\\frac { 1 } { 2 }a ^ { 2 } -\\frac { 1 } { 2 }b ^ { 2 } -\\frac { 1 } { 2 }ab\\)，再利用因式分解后整体代入求值即可．\n【小问1详解】\n解：正方形的面积可表示为：\\(\\left ( { a+b+c } \\right ) ^ { 2 }\\)，\n还可以表示为：\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\n∴\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)．\n【小问2详解】\n∵\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，\n∴\\(10 ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2\\times 37\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =100-74=26\\)．\n【小问3详解】\n∵\\(a-b=5\\)，\\(ab=6\\)，\n∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab=25+24=49\\)，\n∴\\(a+b=7\\)（负根舍去），\n∵阴影部分的面积为：\n\\(\\frac { 1 } { 2 }a ^ { 2 } -b ^ { 2 } -\\frac { 1 } { 2 }b\\left ( { a-b } \\right )=\\frac { 1 } { 2 }a ^ { 2 } -\\frac { 1 } { 2 }b ^ { 2 } -\\frac { 1 } { 2 }ab\\)\n\\(=\\frac { 1 } { 2 }\\left ( { a+b } \\right )\\left ( { a-b } \\right )-\\frac { 1 } { 2 }ab\\)\n\\(=\\frac { 1 } { 2 }\\times 5\\times 7-\\frac { 1 } { 2 }\\times 6\\)\n\\(=14.5\\)．\n【点睛】本题考查的是多项式的乘法运算与图形面积的关系，完全平方公式的应用，完全平方公式的变形的灵活应用，因式分解的应用，熟练的利用图形面积建立代数公式是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/28/280462bab08d5adfd2a4067473b79eff9ec0bd28d68641ff38b33c4b09f61046.png"
+  ],
+  "solution": "【小问1详解】\n解：正方形的面积可表示为：\\(\\left ( { a+b+c } \\right ) ^ { 2 }\\)，\n还可以表示为：\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\n∴\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)．\n【小问2详解】\n∵\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，\n∴\\(10 ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2\\times 37\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =100-74=26\\)．\n【小问3详解】\n∵\\(a-b=5\\)，\\(ab=6\\)，\n∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab=25+24=49\\)，\n∴\\(a+b=7\\)（负根舍去），\n∵阴影部分的面积为：\n\\(\\frac { 1 } { 2 }a ^ { 2 } -b ^ { 2 } -\\frac { 1 } { 2 }b\\left ( { a-b } \\right )=\\frac { 1 } { 2 }a ^ { 2 } -\\frac { 1 } { 2 }b ^ { 2 } -\\frac { 1 } { 2 }ab\\)\n\\(=\\frac { 1 } { 2 }\\left ( { a+b } \\right )\\left ( { a-b } \\right )-\\frac { 1 } { 2 }ab\\)\n\\(=\\frac { 1 } { 2 }\\times 5\\times 7-\\frac { 1 } { 2 }\\times 6\\)\n\\(=14.5\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：正方形的面积可表示为：\\(\\left ( { a+b+c } \\right ) ^ { 2 }\\)，",
+    "还可以表示为：\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，",
+    "∴\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)．",
+    "【小问2详解】",
+    "∵\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，",
+    "∴\\(10 ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2\\times 37\\)，",
+    "∴\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =100-74=26\\)．",
+    "【小问3详解】",
+    "∵\\(a-b=5\\)，\\(ab=6\\)，",
+    "∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab=25+24=49\\)，",
+    "∴\\(a+b=7\\)（负根舍去），",
+    "∵阴影部分的面积为：",
+    "\\(\\frac { 1 } { 2 }a ^ { 2 } -b ^ { 2 } -\\frac { 1 } { 2 }b\\left ( { a-b } \\right )=\\frac { 1 } { 2 }a ^ { 2 } -\\frac { 1 } { 2 }b ^ { 2 } -\\frac { 1 } { 2 }ab\\)",
+    "\\(=\\frac { 1 } { 2 }\\left ( { a+b } \\right )\\left ( { a-b } \\right )-\\frac { 1 } { 2 }ab\\)",
+    "\\(=\\frac { 1 } { 2 }\\times 5\\times 7-\\frac { 1 } { 2 }\\times 6\\)",
+    "\\(=14.5\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "用几个小的长方形、正方形拼成一个大的正方形，然后利用两种不同的方法计算这个大的正方形的面积，可以得到一个等式，例如：计算图1的面积．把图1看作一个大正方形． 它的面积是\\(\\left ( { a+b } \\right ) ^ { 2 }\\)；如果把图1 看作是由2个长方形和2个小正方形组成的，它的面积为\\(a ^ { 2 } +2ab+b ^ { 2 }\\)，由此得到\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)．\n〔图1〕",
+      "paper_blocks": [
+        74,
+        75
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：如图2，由几个面积不等的小正方形和几个小长方形拼成一个边长为\\(\\left ( { a+b+c } \\right )\\)的正方形，从中你能发现什么结论？该结论用等式表示为                   ．",
+      "paper_blocks": [
+        74,
+        75,
+        76
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-B58E217588-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图2，由几个面积不等的小正方形和几个小长方形拼成一个边长为\\(\\left ( { a+b+c } \\right )\\)的正方形，从中你能发现什么结论？该结论用等式表示为                   ．",
+      "stem_text": "如图2，由几个面积不等的小正方形和几个小长方形拼成一个边长为\\(\\left ( { a+b+c } \\right )\\)的正方形，从中你能发现什么结论？该结论用等式表示为                   ．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)",
+      "answer": "\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)",
+      "given_solution": "解：正方形的面积可表示为：\\(\\left ( { a+b+c } \\right ) ^ { 2 }\\)，\n还可以表示为：\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\n∴\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)．",
+      "solution_steps": [
+        "解：正方形的面积可表示为：\\(\\left ( { a+b+c } \\right ) ^ { 2 }\\)，",
+        "还可以表示为：\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，",
+        "∴\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "以面积割补解释乘法恒等式，细目侧重识别与使用。",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-B58E217588-Q21-P02",
+      "label": "（2）",
+      "prompt": "利用（1）中的结论解决以下问题：\n已知\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，求\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 }\\)的值；",
+      "stem_text": "利用（1）中的结论解决以下问题：\n已知\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，求\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 }\\)的值；",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G7-T2-B58E217588-Q21-P01"
+      ],
+      "given_answer": "\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =26\\)",
+      "answer": "\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =26\\)",
+      "given_solution": "∵\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，\n∴\\(10 ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2\\times 37\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =100-74=26\\)．",
+      "solution_steps": [
+        "∵\\(\\left ( { a+b+c } \\right ) ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2ab+2bc+2ac\\)，\\(a+b+c=10\\)，\\(ab+ac+bc=37\\)，",
+        "∴\\(10 ^ { 2 } =a ^ { 2 } +b ^ { 2 } +c ^ { 2 } +2\\times 37\\)，",
+        "∴\\(a ^ { 2 } +b ^ { 2 } +c ^ { 2 } =100-74=26\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          76,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          354,
+          355,
+          356
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-B58E217588-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图3，正方形\\(ABCD\\)边长为a，正方形\\(CEFG\\)边长为b，点D，G，C在同一直线上，连接\\(BD\\)、\\(DF\\)，若\\(a-b=5\\)，\\(ab=6\\)，求图3中阴影部分的面积．",
+      "stem_text": "如图3，正方形\\(ABCD\\)边长为a，正方形\\(CEFG\\)边长为b，点D，G，C在同一直线上，连接\\(BD\\)、\\(DF\\)，若\\(a-b=5\\)，\\(ab=6\\)，求图3中阴影部分的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(14.5\\)",
+      "answer": "\\(14.5\\)",
+      "given_solution": "∵\\(a-b=5\\)，\\(ab=6\\)，\n∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab=25+24=49\\)，\n∴\\(a+b=7\\)（负根舍去），\n∵阴影部分的面积为：\n\\(\\frac { 1 } { 2 }a ^ { 2 } -b ^ { 2 } -\\frac { 1 } { 2 }b\\left ( { a-b } \\right )=\\frac { 1 } { 2 }a ^ { 2 } -\\frac { 1 } { 2 }b ^ { 2 } -\\frac { 1 } { 2 }ab\\)\n\\(=\\frac { 1 } { 2 }\\left ( { a+b } \\right )\\left ( { a-b } \\right )-\\frac { 1 } { 2 }ab\\)\n\\(=\\frac { 1 } { 2 }\\times 5\\times 7-\\frac { 1 } { 2 }\\times 6\\)\n\\(=14.5\\)．",
+      "solution_steps": [
+        "∵\\(a-b=5\\)，\\(ab=6\\)，",
+        "∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab=25+24=49\\)，",
+        "∴\\(a+b=7\\)（负根舍去），",
+        "∵阴影部分的面积为：",
+        "\\(\\frac { 1 } { 2 }a ^ { 2 } -b ^ { 2 } -\\frac { 1 } { 2 }b\\left ( { a-b } \\right )=\\frac { 1 } { 2 }a ^ { 2 } -\\frac { 1 } { 2 }b ^ { 2 } -\\frac { 1 } { 2 }ab\\)",
+        "\\(=\\frac { 1 } { 2 }\\left ( { a+b } \\right )\\left ( { a-b } \\right )-\\frac { 1 } { 2 }ab\\)",
+        "\\(=\\frac { 1 } { 2 }\\times 5\\times 7-\\frac { 1 } { 2 }\\times 6\\)",
+        "\\(=14.5\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          79
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      74,
+      79
+    ],
+    "solution_body_blocks": [
+      336,
+      366
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-B58E217588/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          339.09,
+          583.64,
+          712.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-B58E217588/solution-q21-p19.webp",
+      "assets/SZ-G7-T2-B58E217588/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          378.64,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          392.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.06"
+  ],
+  "exam_ids": [
+    "E.N03.06.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "以面积割补解释乘法恒等式，细目侧重识别与使用。",
+  "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

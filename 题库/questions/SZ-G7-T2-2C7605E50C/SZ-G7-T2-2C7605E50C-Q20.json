@@ -1,0 +1,346 @@
+{
+  "knowledge_ids": [
+    "M.N03.01",
+    "M.N03.06",
+    "M.G02.04"
+  ],
+  "exam_ids": [
+    "E.N03.01.01",
+    "E.N03.06.02",
+    "E.G02.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面含“用含 a 、 b 的代数式表示”。用代数式表示数量关系。 根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 按题面要求和原解所用方法核定。 题面含“阴影部分面积”。通过分割或补形求面积。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-2C7605E50C-Q20",
+  "paper_id": "SZ-G7-T2-2C7605E50C",
+  "number": 20,
+  "type": "解答题",
+  "points": 12.0,
+  "title": "由文字或图形数量关系列代数式、由和差或积的关系求简单对称式",
+  "stem": "（12分）通过第\\(1\\)章的学习，我们已经知道，对于一个图形\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)；如图\\(2\\)可以得到：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；现有长与宽分别为\\(a\\)、\\(b\\)的小长方形若干个，用四个相同的小长方形拼成图\\(3\\)的图形，请认真观察图形，\n〔图1〕\n(1)【探索发现】根据图中条件，猜想并验证\\(\\left ( { a+b } \\right ) ^ { 2 }\\)与\\(\\left ( { a-b } \\right ) ^ { 2 }\\)之间的关系（用含\\(a\\)、\\(b\\)的代数式表示出来）；图\\(3\\)表示：　 　；\n(2)【解决问题】①若\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，则\\(xy=\\)　 　；\n②当\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)时，求\\(\\left ( { 2x-500 } \\right ) ^ { 2 }\\)的值；\n(3)【拓展提升】如图\\(4\\)，点\\(C\\)是线段\\(AB\\)上的一点，以\\(AC\\)，\\(BC\\)为边向两边作正方形\\(ACDE\\)和\\(BCFG\\)，延长\\(GB\\)和\\(ED\\)交于点\\(H\\)，那么四边形\\(DCBH\\)为长方形，设\\(AB=10\\)，图中阴影部分面积为\\(42\\)，求两个正方形的面积和\\(S_{ 1 } +S_{ 2 }\\)．",
+  "choices": [],
+  "figures": [
+    "assets/figures/96/96bd7349f77a7e90b9d75a9d949f9192f76116e2757eb72dd1947856f7708d38.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（12分）通过第\\(1\\)章的学习，我们已经知道，对于一个图形\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)；如图\\(2\\)可以得到：\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)；现有长与宽分别为\\(a\\)、\\(b\\)的小长方形若干个，用四个相同的小长方形拼成图\\(3\\)的图形，请认真观察图形，\n〔图1〕",
+      "paper_blocks": [
+        100,
+        101
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "【解决问题】",
+      "paper_blocks": [
+        103
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-2C7605E50C-Q20-P01",
+      "label": "(1)",
+      "prompt": "【探索发现】根据图中条件，猜想并验证\\(\\left ( { a+b } \\right ) ^ { 2 }\\)与\\(\\left ( { a-b } \\right ) ^ { 2 }\\)之间的关系（用含\\(a\\)、\\(b\\)的代数式表示出来）；图\\(3\\)表示：　 　；",
+      "stem_text": "【探索发现】根据图中条件，猜想并验证\\(\\left ( { a+b } \\right ) ^ { 2 }\\)与\\(\\left ( { a-b } \\right ) ^ { 2 }\\)之间的关系（用含\\(a\\)、\\(b\\)的代数式表示出来）；图\\(3\\)表示：　 　；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\((a+b)^2=(a-b)^2+4ab\\)。",
+      "given_solution": "如图\\(3\\)所示：大正方形的边长为\\(\\left ( { a+b } \\right )\\)，小正方形的边长为\\(\\left ( { a-b } \\right )\\)，\n∴大正方形的面积为\\(\\left ( { a+b } \\right ) ^ { 2 }\\)，小正方形的面积为\\(\\left ( { a-b } \\right ) ^ { 2 }\\)，\n另一方面：大正方形是由\\(4\\)个长为\\(a\\)，宽为\\(b\\)的长方形和一个边长为\\(\\left ( { a-b } \\right )\\)的小正方形构成，\n∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，\n故答案为：\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)；（2分）",
+      "solution_steps": [
+        "如图\\(3\\)所示：大正方形的边长为\\(\\left ( { a+b } \\right )\\)，小正方形的边长为\\(\\left ( { a-b } \\right )\\)，",
+        "∴大正方形的面积为\\(\\left ( { a+b } \\right ) ^ { 2 }\\)，小正方形的面积为\\(\\left ( { a-b } \\right ) ^ { 2 }\\)，",
+        "另一方面：大正方形是由\\(4\\)个长为\\(a\\)，宽为\\(b\\)的长方形和一个边长为\\(\\left ( { a-b } \\right )\\)的小正方形构成，",
+        "∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，",
+        "故答案为：\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)；（2分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          100,
+          101,
+          102
+        ],
+        "solution_block_ids": [
+          225,
+          226,
+          227,
+          228,
+          229
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“用含 a 、 b 的代数式表示”。用代数式表示数量关系。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-2C7605E50C-Q20-P02",
+      "label": "(2)①",
+      "prompt": "若\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，则\\(xy=\\)　 　；",
+      "stem_text": "若\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，则\\(xy=\\)　 　；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "12；",
+      "given_solution": "\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，\n∴\\(2xy=\\left ( { x+y } \\right ) ^ { 2 } -\\left ( { x ^ { 2 } +y ^ { 2 } } \\right )\\)，\n∵\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，\n∴\\(2xy=8 ^ { 2 } -40=24\\)，\n∵\\(xy=12\\)；（4分）",
+      "solution_steps": [
+        "\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，",
+        "∴\\(2xy=\\left ( { x+y } \\right ) ^ { 2 } -\\left ( { x ^ { 2 } +y ^ { 2 } } \\right )\\)，",
+        "∵\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，",
+        "∴\\(2xy=8 ^ { 2 } -40=24\\)，",
+        "∵\\(xy=12\\)；（4分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          100,
+          101,
+          103
+        ],
+        "solution_block_ids": [
+          230,
+          231,
+          232,
+          233,
+          234
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          11,
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-2C7605E50C-Q20-P03",
+      "label": "(2)②",
+      "prompt": "当\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)时，求\\(\\left ( { 2x-500 } \\right ) ^ { 2 }\\)的值；",
+      "stem_text": "当\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)时，求\\(\\left ( { 2x-500 } \\right ) ^ { 2 }\\)的值；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "2016。",
+      "given_solution": "设\\(x-300=a\\)，\\(200-x=b\\)，（5分）\n∴\\(a+b=x-300+200-x=-100\\)，\\(a-b=x-300-\\left ( { 200-x } \\right )=2x-500\\)， （6分）\n∴\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)，\n∴\\(ab=1996\\)，（7分）\n由（1）可知\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，\n∴ \\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab=\\left ( { -100 } \\right ) ^ { 2 } -4\\times 1996=2016\\)，\n∴\\(\\left ( { 2x-500 } \\right ) ^ { 2 } =2016\\)；（8分）",
+      "solution_steps": [
+        "设\\(x-300=a\\)，\\(200-x=b\\)，（5分）",
+        "∴\\(a+b=x-300+200-x=-100\\)，\\(a-b=x-300-\\left ( { 200-x } \\right )=2x-500\\)， （6分）",
+        "∴\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)，",
+        "∴\\(ab=1996\\)，（7分）",
+        "由（1）可知\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，",
+        "∴ \\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab=\\left ( { -100 } \\right ) ^ { 2 } -4\\times 1996=2016\\)，",
+        "∴\\(\\left ( { 2x-500 } \\right ) ^ { 2 } =2016\\)；（8分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          100,
+          101,
+          103,
+          104
+        ],
+        "solution_block_ids": [
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-2C7605E50C-Q20-P04",
+      "label": "(3)",
+      "prompt": "【拓展提升】如图\\(4\\)，点\\(C\\)是线段\\(AB\\)上的一点，以\\(AC\\)，\\(BC\\)为边向两边作正方形\\(ACDE\\)和\\(BCFG\\)，延长\\(GB\\)和\\(ED\\)交于点\\(H\\)，那么四边形\\(DCBH\\)为长方形，设\\(AB=10\\)，图中阴影部分面积为\\(42\\)，求两个正方形的面积和\\(S_{ 1 } +S_{ 2 }\\)．",
+      "stem_text": "【拓展提升】如图\\(4\\)，点\\(C\\)是线段\\(AB\\)上的一点，以\\(AC\\)，\\(BC\\)为边向两边作正方形\\(ACDE\\)和\\(BCFG\\)，延长\\(GB\\)和\\(ED\\)交于点\\(H\\)，那么四边形\\(DCBH\\)为长方形，设\\(AB=10\\)，图中阴影部分面积为\\(42\\)，求两个正方形的面积和\\(S_{ 1 } +S_{ 2 }\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "题设不相容，无符合条件的图形。",
+      "given_solution": "设\\(AC=a\\)，\\(BC=b\\)，\n∵\\(AB=10\\)，\n∴\\(a+b=10\\)，（9分）\n∵图中阴影部分面积为\\(42\\)，\n∴\\(ab=42\\)，（10分）\n∵四边形\\(ACDE\\)和\\(BCFG\\)均为正方形，\n∴\\(S_{ 1 } +S_{ 2 } =a ^ { 2 } +b ^ { 2 }\\)，（11分）\n∵\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -2ab=10 ^ { 2 } -2\\times 42=16\\)，\n∴\\(S_{ 1 } +S_{ 2 } =16\\)．（12分）",
+      "solution_steps": [
+        "设 AC 为 a，BC 为 b。图中矩形的面积为 ab，且 a+b=10。",
+        "由 \\((a-b)^2\\ge0\\) 可知 \\(4ab\\le(a+b)^2=100\\)。阴影面积最多为 25，达不到 42。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          100,
+          101,
+          105
+        ],
+        "solution_block_ids": [
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          251
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "第（3）问的阴影矩形边长之和是 10，面积至多为 25。题面写 42，资料直接代数计算得到的 16 无法对应图中实物。",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“阴影部分面积”。通过分割或补形求面积。",
+      "solution_origin": "source_checked_with_correction",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）\\((a+b)^2=(a-b)^2+4ab\\)。\n（2）① 12；② 2016。\n（3）所给长度与面积互相矛盾，不存在这样的图形。",
+  "given_solution": "【详解】（1）如图\\(3\\)所示：大正方形的边长为\\(\\left ( { a+b } \\right )\\)，小正方形的边长为\\(\\left ( { a-b } \\right )\\)，\n∴大正方形的面积为\\(\\left ( { a+b } \\right ) ^ { 2 }\\)，小正方形的面积为\\(\\left ( { a-b } \\right ) ^ { 2 }\\)，\n另一方面：大正方形是由\\(4\\)个长为\\(a\\)，宽为\\(b\\)的长方形和一个边长为\\(\\left ( { a-b } \\right )\\)的小正方形构成，\n∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，\n故答案为：\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)；（2分）\n（2）①\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，\n∴\\(2xy=\\left ( { x+y } \\right ) ^ { 2 } -\\left ( { x ^ { 2 } +y ^ { 2 } } \\right )\\)，\n∵\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，\n∴\\(2xy=8 ^ { 2 } -40=24\\)，\n∵\\(xy=12\\)；（4分）\n②设\\(x-300=a\\)，\\(200-x=b\\)，（5分）\n∴\\(a+b=x-300+200-x=-100\\)，\\(a-b=x-300-\\left ( { 200-x } \\right )=2x-500\\)， （6分）\n∴\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)，\n∴\\(ab=1996\\)，（7分）\n由（1）可知\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，\n∴ \\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab=\\left ( { -100 } \\right ) ^ { 2 } -4\\times 1996=2016\\)，\n∴\\(\\left ( { 2x-500 } \\right ) ^ { 2 } =2016\\)；（8分）\n（3）设\\(AC=a\\)，\\(BC=b\\)，\n∵\\(AB=10\\)，\n∴\\(a+b=10\\)，（9分）\n∵图中阴影部分面积为\\(42\\)，\n∴\\(ab=42\\)，（10分）\n∵四边形\\(ACDE\\)和\\(BCFG\\)均为正方形，\n∴\\(S_{ 1 } +S_{ 2 } =a ^ { 2 } +b ^ { 2 }\\)，（11分）\n∵\\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -2ab=10 ^ { 2 } -2\\times 42=16\\)，\n∴\\(S_{ 1 } +S_{ 2 } =16\\)．（12分）",
+  "given_solution_figures": [],
+  "solution_origin": "source_checked_with_correction",
+  "solution_steps": [
+    "(1) 如图\\(3\\)所示：大正方形的边长为\\(\\left ( { a+b } \\right )\\)，小正方形的边长为\\(\\left ( { a-b } \\right )\\)，",
+    "∴大正方形的面积为\\(\\left ( { a+b } \\right ) ^ { 2 }\\)，小正方形的面积为\\(\\left ( { a-b } \\right ) ^ { 2 }\\)，",
+    "另一方面：大正方形是由\\(4\\)个长为\\(a\\)，宽为\\(b\\)的长方形和一个边长为\\(\\left ( { a-b } \\right )\\)的小正方形构成，",
+    "∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，",
+    "故答案为：\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)；（2分）",
+    "(2)① \\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，",
+    "∴\\(2xy=\\left ( { x+y } \\right ) ^ { 2 } -\\left ( { x ^ { 2 } +y ^ { 2 } } \\right )\\)，",
+    "∵\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，",
+    "∴\\(2xy=8 ^ { 2 } -40=24\\)，",
+    "∵\\(xy=12\\)；（4分）",
+    "(2)② 设\\(x-300=a\\)，\\(200-x=b\\)，（5分）",
+    "∴\\(a+b=x-300+200-x=-100\\)，\\(a-b=x-300-\\left ( { 200-x } \\right )=2x-500\\)， （6分）",
+    "∴\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)，",
+    "∴\\(ab=1996\\)，（7分）",
+    "由（1）可知\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，",
+    "∴ \\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab=\\left ( { -100 } \\right ) ^ { 2 } -4\\times 1996=2016\\)，",
+    "∴\\(\\left ( { 2x-500 } \\right ) ^ { 2 } =2016\\)；（8分）",
+    "(3) 设 AC 为 a，BC 为 b。图中矩形的面积为 ab，且 a+b=10。",
+    "由 \\((a-b)^2\\ge0\\) 可知 \\(4ab\\le(a+b)^2=100\\)。阴影面积最多为 25，达不到 42。"
+  ],
+  "solution": "(1) 如图\\(3\\)所示：大正方形的边长为\\(\\left ( { a+b } \\right )\\)，小正方形的边长为\\(\\left ( { a-b } \\right )\\)，\n∴大正方形的面积为\\(\\left ( { a+b } \\right ) ^ { 2 }\\)，小正方形的面积为\\(\\left ( { a-b } \\right ) ^ { 2 }\\)，\n另一方面：大正方形是由\\(4\\)个长为\\(a\\)，宽为\\(b\\)的长方形和一个边长为\\(\\left ( { a-b } \\right )\\)的小正方形构成，\n∴\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，\n故答案为：\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)；（2分）\n(2)① \\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，\n∴\\(2xy=\\left ( { x+y } \\right ) ^ { 2 } -\\left ( { x ^ { 2 } +y ^ { 2 } } \\right )\\)，\n∵\\(x+y=8\\)，\\(x ^ { 2 } +y ^ { 2 } =40\\)，\n∴\\(2xy=8 ^ { 2 } -40=24\\)，\n∵\\(xy=12\\)；（4分）\n(2)② 设\\(x-300=a\\)，\\(200-x=b\\)，（5分）\n∴\\(a+b=x-300+200-x=-100\\)，\\(a-b=x-300-\\left ( { 200-x } \\right )=2x-500\\)， （6分）\n∴\\(\\left ( { x-300 } \\right )\\left ( { 200-x } \\right )=1996\\)，\n∴\\(ab=1996\\)，（7分）\n由（1）可知\\(\\left ( { a+b } \\right ) ^ { 2 } =\\left ( { a-b } \\right ) ^ { 2 } +4ab\\)，\n∴ \\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab=\\left ( { -100 } \\right ) ^ { 2 } -4\\times 1996=2016\\)，\n∴\\(\\left ( { 2x-500 } \\right ) ^ { 2 } =2016\\)；（8分）\n(3) 设 AC 为 a，BC 为 b。图中矩形的面积为 ab，且 a+b=10。\n由 \\((a-b)^2\\ge0\\) 可知 \\(4ab\\le(a+b)^2=100\\)。阴影面积最多为 25，达不到 42。",
+  "review_note": "第（3）问的阴影矩形边长之和是 10，面积至多为 25。题面写 42，资料直接代数计算得到的 16 无法对应图中实物。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-2C7605E50C/single/q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          334.4,
+          582.2,
+          695.7
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-2C7605E50C/single/s20-p11.webp",
+      "assets/SZ-G7-T2-2C7605E50C/single/s20-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          13,
+          577.05,
+          582.2,
+          750.96
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          13,
+          76.61,
+          582.2,
+          648.35
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

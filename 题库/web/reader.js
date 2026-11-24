@@ -163,6 +163,7 @@
         source.replaceChildren();
         if (a.given_answer) source.append(element('h3','','资料原答案'),texText(a.given_answer,'',a.figure_refs));
         source.append(pdfLinks(a.source.solution_pdf,a.source.solution_pages,'解析版'));
+        for (const ref of a.supplemental_solutions || []) source.append(pdfLinks(ref.pdf,ref.pages,ref.label));
         if (a.source.solution_images?.length) source.append(cuts(a.source.solution_images,a.source.solution_pages,'解析版'));
         else if (a.given_solution) source.append(texText(a.given_solution));
         await data.math(source);

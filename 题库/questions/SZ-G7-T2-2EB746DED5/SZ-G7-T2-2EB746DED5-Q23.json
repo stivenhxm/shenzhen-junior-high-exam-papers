@@ -1,0 +1,353 @@
+{
+  "id": "SZ-G7-T2-2EB746DED5-Q23",
+  "paper_id": "SZ-G7-T2-2EB746DED5",
+  "number": 23,
+  "type": "解答题",
+  "points": 12,
+  "title": "选择充分条件证明三角形全等、构造全等关系证明线段或角关系",
+  "stem": "【数学概念】平移，翻折，旋转是初中数学几何的三大全等变换，无论哪种变换都不会改变图形的形状和大小．\n【概念探索】在生活中，我们常用实物体验图形变换的过程．小明同学利用一块四边形纸片完成了如下的操作：\n如图1，已知四边形\\(ABCD\\)，\\(AB=AD\\)，\\(BC=CD\\)．\n〔图1〕\n（1）操作一：沿AC所在的直线对折．（如图2）\n你认为左右两侧对折后能完全重合吗？如果能，请证明．如果不能，请说明理由．\n（2）操作二：对折后，将纸片撕成两个三角形（\\(\\vartriangle ACB\\)和\\(\\vartriangle ACD\\)），先固定\\(\\vartriangle ACB\\)，再将\\(\\vartriangle ACD\\)绕点\\(A\\)顺时针旋转一定的角度（如图3所示）得到\\(\\vartriangle AC'D\\)，连接\\(CD\\)、\\(C'B\\)．求证：\\(CD=C'B\\)．\n【应用拓展】（3）如图4，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(AB>BC\\)，点\\(D\\)在边\\(BC\\)上，\\(BD=mCD\\)，点E，F在线段AD上，\\(\\angle AEB=\\angle AFC=130{}^\\circ\\)，\\(\\angle BAC=50{}^\\circ\\)，若\\(\\vartriangle ABC\\)的面积为\\(n\\)，求\\(\\vartriangle ABE\\)与\\(\\vartriangle CDF\\)的面积之和．\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/de/de01651d2a1fba55bded5ea612f7bf25c137f33f0ad7ed97ebdb022b47b58335.png",
+    "assets/figures/6a/6a05ea083b5f703fcba9ea3e886168a6df5135e8542dbf4036715ad2018201b0.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）能够完全重合，证明见解析；（2）见解析；（3）\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)",
+  "answer": "（1）能够完全重合，证明见解析；（2）见解析；（3）\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)",
+  "given_solution": "【分析】（1）证明\\(\\vartriangle ABC≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)即可得到答案；\n（2）先证明\\(\\angle C'AB=\\angle CAD\\)，结合\\(C'A=CA\\)，\\(AB=AD\\)， 证明\\(\\vartriangle C'AB≌\\vartriangle CAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，从而可得结论；\n（3）先证明\\(\\vartriangle ABE≌\\vartriangle CAF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，可得\\(S_{ \\vartriangle ABE } =S_{ \\vartriangle CAF }\\) ，可得\\(S_{ \\vartriangle ABE+ } S_{ \\vartriangle CDF } =S_{ \\vartriangle CAF } +S_{ \\vartriangle CDF } =S_{ \\vartriangle CAD }\\)，结合\\(BD=mCD\\)，可得\\(S_{ \\vartriangle CAD } :S_{ \\vartriangle ABC } =CD:BC=1:(m+1)\\) ，结合\\(S_{ \\vartriangle ABC } =n\\)，从而可得答案．\n【详解】证明：（1）能够完全重合，理由如下：\n在\\(\\vartriangle ABC\\)与\\(\\vartriangle ADC\\)中\n∵\\(AB=AD\\)，\\(BC=CD\\)，\\(AC=AC\\)\n∴\\(\\vartriangle ABC≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)；\n所以对折后可以完全重合\n（2）∵\\(\\angle C'AD=\\angle CAB\\)\n∴\\(\\angle C'AD+\\angle BAD=\\angle CAB+\\angle BAD\\)\n∴\\(\\angle C'AB=\\angle CAD\\)\n∵\\(C'A=CA\\)，\\(AB=AD\\)，\n∴\\(\\vartriangle C'AB≌\\vartriangle CAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CD=C'B\\)\n（3）∵\\(\\angle AFC=130{}^\\circ\\)，\n∴\\(\\angle CFD=180-\\angle AFC=50{}^\\circ\\)，\n∴\\(\\angle CAD+\\angle ACF=50{}^\\circ\\)，\n∵\\(\\angle BAC=\\angle BAD+\\angle CAD=50{}^\\circ\\) ，\n∴\\(\\angle BAD=\\angle ACF\\)，\n又∵\\(\\angle AEB=\\angle AFC\\)，\\(AB=AC\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle CAF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(S_{ \\vartriangle ABE } =S_{ \\vartriangle CAF }\\) ，\n∴\\(S_{ \\vartriangle ABE+ } S_{ \\vartriangle CDF } =S_{ \\vartriangle CAF } +S_{ \\vartriangle CDF } =S_{ \\vartriangle CAD }\\)，\n∵\\(BD=mCD\\)，\n∴\\(CD:BC=1:(m+1)\\)，\n\\(S_{ \\vartriangle CAD } :S_{ \\vartriangle ABC } =CD:BC=1:(m+1)\\) ，\n∵\\(S_{ \\vartriangle ABC } =n\\)，\n∴\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)．\n【点睛】本题考查的是轴对称的性质，全等三角形的判定与性质，三角形的面积问题，熟练的证明三角形全等是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/de/de01651d2a1fba55bded5ea612f7bf25c137f33f0ad7ed97ebdb022b47b58335.png",
+    "assets/figures/6a/6a05ea083b5f703fcba9ea3e886168a6df5135e8542dbf4036715ad2018201b0.png"
+  ],
+  "solution": "证明：（1）能够完全重合，理由如下：\n在\\(\\vartriangle ABC\\)与\\(\\vartriangle ADC\\)中\n∵\\(AB=AD\\)，\\(BC=CD\\)，\\(AC=AC\\)\n∴\\(\\vartriangle ABC≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)；\n所以对折后可以完全重合\n（2）∵\\(\\angle C'AD=\\angle CAB\\)\n∴\\(\\angle C'AD+\\angle BAD=\\angle CAB+\\angle BAD\\)\n∴\\(\\angle C'AB=\\angle CAD\\)\n∵\\(C'A=CA\\)，\\(AB=AD\\)，\n∴\\(\\vartriangle C'AB≌\\vartriangle CAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CD=C'B\\)\n（3）∵\\(\\angle AFC=130{}^\\circ\\)，\n∴\\(\\angle CFD=180-\\angle AFC=50{}^\\circ\\)，\n∴\\(\\angle CAD+\\angle ACF=50{}^\\circ\\)，\n∵\\(\\angle BAC=\\angle BAD+\\angle CAD=50{}^\\circ\\) ，\n∴\\(\\angle BAD=\\angle ACF\\)，\n又∵\\(\\angle AEB=\\angle AFC\\)，\\(AB=AC\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle CAF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(S_{ \\vartriangle ABE } =S_{ \\vartriangle CAF }\\) ，\n∴\\(S_{ \\vartriangle ABE+ } S_{ \\vartriangle CDF } =S_{ \\vartriangle CAF } +S_{ \\vartriangle CDF } =S_{ \\vartriangle CAD }\\)，\n∵\\(BD=mCD\\)，\n∴\\(CD:BC=1:(m+1)\\)，\n\\(S_{ \\vartriangle CAD } :S_{ \\vartriangle ABC } =CD:BC=1:(m+1)\\) ，\n∵\\(S_{ \\vartriangle ABC } =n\\)，\n∴\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)．",
+  "solution_steps": [
+    "证明：（1）能够完全重合，理由如下：",
+    "在\\(\\vartriangle ABC\\)与\\(\\vartriangle ADC\\)中",
+    "∵\\(AB=AD\\)，\\(BC=CD\\)，\\(AC=AC\\)",
+    "∴\\(\\vartriangle ABC≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)；",
+    "所以对折后可以完全重合",
+    "（2）∵\\(\\angle C'AD=\\angle CAB\\)",
+    "∴\\(\\angle C'AD+\\angle BAD=\\angle CAB+\\angle BAD\\)",
+    "∴\\(\\angle C'AB=\\angle CAD\\)",
+    "∵\\(C'A=CA\\)，\\(AB=AD\\)，",
+    "∴\\(\\vartriangle C'AB≌\\vartriangle CAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(CD=C'B\\)",
+    "（3）∵\\(\\angle AFC=130{}^\\circ\\)，",
+    "∴\\(\\angle CFD=180-\\angle AFC=50{}^\\circ\\)，",
+    "∴\\(\\angle CAD+\\angle ACF=50{}^\\circ\\)，",
+    "∵\\(\\angle BAC=\\angle BAD+\\angle CAD=50{}^\\circ\\) ，",
+    "∴\\(\\angle BAD=\\angle ACF\\)，",
+    "又∵\\(\\angle AEB=\\angle AFC\\)，\\(AB=AC\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle CAF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(S_{ \\vartriangle ABE } =S_{ \\vartriangle CAF }\\) ，",
+    "∴\\(S_{ \\vartriangle ABE+ } S_{ \\vartriangle CDF } =S_{ \\vartriangle CAF } +S_{ \\vartriangle CDF } =S_{ \\vartriangle CAD }\\)，",
+    "∵\\(BD=mCD\\)，",
+    "∴\\(CD:BC=1:(m+1)\\)，",
+    "\\(S_{ \\vartriangle CAD } :S_{ \\vartriangle ABC } =CD:BC=1:(m+1)\\) ，",
+    "∵\\(S_{ \\vartriangle ABC } =n\\)，",
+    "∴\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【数学概念】平移，翻折，旋转是初中数学几何的三大全等变换，无论哪种变换都不会改变图形的形状和大小．\n【概念探索】在生活中，我们常用实物体验图形变换的过程．小明同学利用一块四边形纸片完成了如下的操作：\n如图1，已知四边形\\(ABCD\\)，\\(AB=AD\\)，\\(BC=CD\\)．\n〔图1〕",
+      "paper_blocks": [
+        86,
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "id": "fig-94",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        94
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-2EB746DED5-Q23-P01",
+      "label": "（1）",
+      "prompt": "操作一：沿AC所在的直线对折．（如图2）\n你认为左右两侧对折后能完全重合吗？如果能，请证明．如果不能，请说明理由．",
+      "stem_text": "操作一：沿AC所在的直线对折．（如图2）\n你认为左右两侧对折后能完全重合吗？如果能，请证明．如果不能，请说明理由．",
+      "material_ids": [
+        "context",
+        "fig-94"
+      ],
+      "requires": [],
+      "given_answer": "能够完全重合，证明见解析；",
+      "answer": "能够完全重合，证明见解析；",
+      "given_solution": "能够完全重合，理由如下：\n在\\(\\vartriangle ABC\\)与\\(\\vartriangle ADC\\)中\n∵\\(AB=AD\\)，\\(BC=CD\\)，\\(AC=AC\\)\n∴\\(\\vartriangle ABC≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)；\n所以对折后可以完全重合",
+      "solution_steps": [
+        "能够完全重合，理由如下：",
+        "在\\(\\vartriangle ABC\\)与\\(\\vartriangle ADC\\)中",
+        "∵\\(AB=AD\\)，\\(BC=CD\\)，\\(AC=AC\\)",
+        "∴\\(\\vartriangle ABC≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)；",
+        "所以对折后可以完全重合"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          94
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-2EB746DED5-Q23-P02",
+      "label": "（2）",
+      "prompt": "操作二：对折后，将纸片撕成两个三角形（\\(\\vartriangle ACB\\)和\\(\\vartriangle ACD\\)），先固定\\(\\vartriangle ACB\\)，再将\\(\\vartriangle ACD\\)绕点\\(A\\)顺时针旋转一定的角度（如图3所示）得到\\(\\vartriangle AC'D\\)，连接\\(CD\\)、\\(C'B\\)．求证：\\(CD=C'B\\)．\n【应用拓展】",
+      "stem_text": "操作二：对折后，将纸片撕成两个三角形（\\(\\vartriangle ACB\\)和\\(\\vartriangle ACD\\)），先固定\\(\\vartriangle ACB\\)，再将\\(\\vartriangle ACD\\)绕点\\(A\\)顺时针旋转一定的角度（如图3所示）得到\\(\\vartriangle AC'D\\)，连接\\(CD\\)、\\(C'B\\)．求证：\\(CD=C'B\\)．\n【应用拓展】",
+      "material_ids": [
+        "context",
+        "fig-94"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵\\(\\angle C'AD=\\angle CAB\\)\n∴\\(\\angle C'AD+\\angle BAD=\\angle CAB+\\angle BAD\\)\n∴\\(\\angle C'AB=\\angle CAD\\)\n∵\\(C'A=CA\\)，\\(AB=AD\\)，\n∴\\(\\vartriangle C'AB≌\\vartriangle CAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CD=C'B\\)",
+      "solution_steps": [
+        "∵\\(\\angle C'AD=\\angle CAB\\)",
+        "∴\\(\\angle C'AD+\\angle BAD=\\angle CAB+\\angle BAD\\)",
+        "∴\\(\\angle C'AB=\\angle CAD\\)",
+        "∵\\(C'A=CA\\)，\\(AB=AD\\)，",
+        "∴\\(\\vartriangle C'AB≌\\vartriangle CAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(CD=C'B\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          86,
+          87,
+          88,
+          89,
+          92,
+          93,
+          94
+        ],
+        "solution_block_ids": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-2EB746DED5-Q23-P03",
+      "label": "（3）",
+      "prompt": "如图4，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(AB>BC\\)，点\\(D\\)在边\\(BC\\)上，\\(BD=mCD\\)，点E，F在线段AD上，\\(\\angle AEB=\\angle AFC=130{}^\\circ\\)，\\(\\angle BAC=50{}^\\circ\\)，若\\(\\vartriangle ABC\\)的面积为\\(n\\)，求\\(\\vartriangle ABE\\)与\\(\\vartriangle CDF\\)的面积之和．",
+      "stem_text": "如图4，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(AB>BC\\)，点\\(D\\)在边\\(BC\\)上，\\(BD=mCD\\)，点E，F在线段AD上，\\(\\angle AEB=\\angle AFC=130{}^\\circ\\)，\\(\\angle BAC=50{}^\\circ\\)，若\\(\\vartriangle ABC\\)的面积为\\(n\\)，求\\(\\vartriangle ABE\\)与\\(\\vartriangle CDF\\)的面积之和．",
+      "material_ids": [
+        "context",
+        "fig-94"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)",
+      "answer": "\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)",
+      "given_solution": "∵\\(\\angle AFC=130{}^\\circ\\)，\n∴\\(\\angle CFD=180-\\angle AFC=50{}^\\circ\\)，\n∴\\(\\angle CAD+\\angle ACF=50{}^\\circ\\)，\n∵\\(\\angle BAC=\\angle BAD+\\angle CAD=50{}^\\circ\\) ，\n∴\\(\\angle BAD=\\angle ACF\\)，\n又∵\\(\\angle AEB=\\angle AFC\\)，\\(AB=AC\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle CAF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(S_{ \\vartriangle ABE } =S_{ \\vartriangle CAF }\\) ，\n∴\\(S_{ \\vartriangle ABE+ } S_{ \\vartriangle CDF } =S_{ \\vartriangle CAF } +S_{ \\vartriangle CDF } =S_{ \\vartriangle CAD }\\)，\n∵\\(BD=mCD\\)，\n∴\\(CD:BC=1:(m+1)\\)，\n\\(S_{ \\vartriangle CAD } :S_{ \\vartriangle ABC } =CD:BC=1:(m+1)\\) ，\n∵\\(S_{ \\vartriangle ABC } =n\\)，\n∴\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)．",
+      "solution_steps": [
+        "∵\\(\\angle AFC=130{}^\\circ\\)，",
+        "∴\\(\\angle CFD=180-\\angle AFC=50{}^\\circ\\)，",
+        "∴\\(\\angle CAD+\\angle ACF=50{}^\\circ\\)，",
+        "∵\\(\\angle BAC=\\angle BAD+\\angle CAD=50{}^\\circ\\) ，",
+        "∴\\(\\angle BAD=\\angle ACF\\)，",
+        "又∵\\(\\angle AEB=\\angle AFC\\)，\\(AB=AC\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle CAF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(S_{ \\vartriangle ABE } =S_{ \\vartriangle CAF }\\) ，",
+        "∴\\(S_{ \\vartriangle ABE+ } S_{ \\vartriangle CDF } =S_{ \\vartriangle CAF } +S_{ \\vartriangle CDF } =S_{ \\vartriangle CAD }\\)，",
+        "∵\\(BD=mCD\\)，",
+        "∴\\(CD:BC=1:(m+1)\\)，",
+        "\\(S_{ \\vartriangle CAD } :S_{ \\vartriangle ABC } =CD:BC=1:(m+1)\\) ，",
+        "∵\\(S_{ \\vartriangle ABC } =n\\)，",
+        "∴\\(S_{ \\vartriangle ABE } +S_{ \\vartriangle CDF } =\\frac { n } { m+1 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          86,
+          87,
+          88,
+          89,
+          93,
+          94
+        ],
+        "solution_block_ids": [
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      86,
+      94
+    ],
+    "solution_body_blocks": [
+      366,
+      405
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-2EB746DED5/paper-q23-p05.webp",
+      "assets/SZ-G7-T2-2EB746DED5/paper-q23-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          724.09,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          562.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-2EB746DED5/solution-q23-p18.webp",
+      "assets/SZ-G7-T2-2EB746DED5/solution-q23-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          369.09,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          570.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.02.02",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按题面要求和原解所用方法核定。 按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

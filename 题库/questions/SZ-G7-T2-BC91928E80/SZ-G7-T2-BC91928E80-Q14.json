@@ -1,0 +1,309 @@
+{
+  "knowledge_ids": [
+    "M.N03.04",
+    "M.N03.06",
+    "M.N03.05"
+  ],
+  "exam_ids": [
+    "E.N03.04.01",
+    "E.N03.06.01",
+    "E.N03.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 题面指向识别并应用乘法公式。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-BC91928E80-Q14",
+  "paper_id": "SZ-G7-T2-BC91928E80",
+  "number": 14,
+  "type": "解答题",
+  "points": null,
+  "title": "应用整数指数幂法则计算与化简、识别结构并使用乘法公式",
+  "stem": "计算下列各题．\n(1)\\(x\\cdot \\left ( { x ^ { 2 } } \\right ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)．\n(2)\\(\\left ( { 2+x } \\right ) ^ { 2 } -\\left ( { 2+x } \\right )\\left ( { x-2 } \\right )\\)．\n(3)用乘法公式计算：\\(2021 ^ { 2 } -2019\\times 2023\\)．\n(4)\\(\\left ( { x-y+z } \\right )\\left ( { x+y-z } \\right )\\)．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "计算下列各题．",
+      "paper_blocks": [
+        40
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q14-P01",
+      "label": "(1)",
+      "prompt": "\\(x\\cdot \\left ( { x ^ { 2 } } \\right ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)．",
+      "stem_text": "\\(x\\cdot \\left ( { x ^ { 2 } } \\right ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(-2x ^ { 7 }\\)",
+      "answer": "\\(-2x ^ { 7 }\\)",
+      "given_solution": "解：\\(x\\cdot (x ^ { 2 } ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)\n\\(=x\\cdot x ^ { 6 } -3x ^ { 7 }\\)\n\\(=x ^ { 7 } -3x ^ { 7 }\\)\n\\(=-2x ^ { 7 }\\)；",
+      "solution_steps": [
+        "解：\\(x\\cdot (x ^ { 2 } ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)",
+        "\\(=x\\cdot x ^ { 6 } -3x ^ { 7 }\\)",
+        "\\(=x ^ { 7 } -3x ^ { 7 }\\)",
+        "\\(=-2x ^ { 7 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41
+        ],
+        "solution_block_ids": [
+          223,
+          224,
+          225,
+          226
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.04"
+      ],
+      "exam_ids": [
+        "E.N03.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q14-P02",
+      "label": "(2)",
+      "prompt": "\\(\\left ( { 2+x } \\right ) ^ { 2 } -\\left ( { 2+x } \\right )\\left ( { x-2 } \\right )\\)．",
+      "stem_text": "\\(\\left ( { 2+x } \\right ) ^ { 2 } -\\left ( { 2+x } \\right )\\left ( { x-2 } \\right )\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4x+8\\)",
+      "answer": "\\(4x+8\\)",
+      "given_solution": "\\((2+x) ^ { 2 } -(2+x)(x-2)\\)\n\\(=4+4x+x ^ { 2 } -(x ^ { 2 } -4)\\)\n\\(=4+4x+x ^ { 2 } -x ^ { 2 } +4\\)\n\\(=4x+8\\)；",
+      "solution_steps": [
+        "\\((2+x) ^ { 2 } -(2+x)(x-2)\\)",
+        "\\(=4+4x+x ^ { 2 } -(x ^ { 2 } -4)\\)",
+        "\\(=4+4x+x ^ { 2 } -x ^ { 2 } +4\\)",
+        "\\(=4x+8\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          42
+        ],
+        "solution_block_ids": [
+          227,
+          228,
+          229,
+          230
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q14-P03",
+      "label": "(3)",
+      "prompt": "用乘法公式计算：\\(2021 ^ { 2 } -2019\\times 2023\\)．",
+      "stem_text": "用乘法公式计算：\\(2021 ^ { 2 } -2019\\times 2023\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "4",
+      "answer": "4",
+      "given_solution": "\\(2021 ^ { 2 } -2019\\times 2023\\)\n\\(=2021 ^ { 2 } -(2021-2)\\times (2021+2)\\)\n\\(=2021 ^ { 2 } -2021 ^ { 2 } +4\\)\n\\(=4\\)；",
+      "solution_steps": [
+        "\\(2021 ^ { 2 } -2019\\times 2023\\)",
+        "\\(=2021 ^ { 2 } -(2021-2)\\times (2021+2)\\)",
+        "\\(=2021 ^ { 2 } -2021 ^ { 2 } +4\\)",
+        "\\(=4\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          43
+        ],
+        "solution_block_ids": [
+          231,
+          232,
+          233,
+          234
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向识别并应用乘法公式。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-BC91928E80-Q14-P04",
+      "label": "(4)",
+      "prompt": "\\(\\left ( { x-y+z } \\right )\\left ( { x+y-z } \\right )\\)．",
+      "stem_text": "\\(\\left ( { x-y+z } \\right )\\left ( { x+y-z } \\right )\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)",
+      "answer": "\\(x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)",
+      "given_solution": "\\((x-y+z)(x+y-z)\\)\n\\(=[x-(y-z)][x+(y-z)]\\)\n\\(=x ^ { 2 } -(y-z) ^ { 2 }\\)\n\\(=x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)．",
+      "solution_steps": [
+        "\\((x-y+z)(x+y-z)\\)",
+        "\\(=[x-(y-z)][x+(y-z)]\\)",
+        "\\(=x ^ { 2 } -(y-z) ^ { 2 }\\)",
+        "\\(=x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          44
+        ],
+        "solution_block_ids": [
+          235,
+          236,
+          237,
+          238
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.05"
+      ],
+      "exam_ids": [
+        "E.N03.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "(1)\\(-2x ^ { 7 }\\)\n(2)\\(4x+8\\)\n(3)4\n(4)\\(x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)",
+  "answer": "(1)\\(-2x ^ { 7 }\\)\n(2)\\(4x+8\\)\n(3)4\n(4)\\(x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)",
+  "given_solution": "【分析】（1）先算幂的乘方，单项式乘单项式，再算同底数幂的乘法，最后合并同类项即可；\n（2）先算完全平方，平方差，再合并同类项即可；\n（3）利用平方差公式进行运算较简便；\n（4）利用完全平方公式及平方差公式进行运算即可．\n【详解】（1）解：\\(x\\cdot (x ^ { 2 } ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)\n\\(=x\\cdot x ^ { 6 } -3x ^ { 7 }\\)\n\\(=x ^ { 7 } -3x ^ { 7 }\\)\n\\(=-2x ^ { 7 }\\)；\n（2）\\((2+x) ^ { 2 } -(2+x)(x-2)\\)\n\\(=4+4x+x ^ { 2 } -(x ^ { 2 } -4)\\)\n\\(=4+4x+x ^ { 2 } -x ^ { 2 } +4\\)\n\\(=4x+8\\)；\n（3）\\(2021 ^ { 2 } -2019\\times 2023\\)\n\\(=2021 ^ { 2 } -(2021-2)\\times (2021+2)\\)\n\\(=2021 ^ { 2 } -2021 ^ { 2 } +4\\)\n\\(=4\\)；\n（4）\\((x-y+z)(x+y-z)\\)\n\\(=[x-(y-z)][x+(y-z)]\\)\n\\(=x ^ { 2 } -(y-z) ^ { 2 }\\)\n\\(=x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)．\n【点睛】本题主要考查整式的混合运算，解答的关键是对相应的运算法则的掌握．",
+  "given_solution_figures": [],
+  "solution_origin": "source_transcribed",
+  "solution_steps": [
+    "（1）解：\\(x\\cdot (x ^ { 2 } ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)",
+    "\\(=x\\cdot x ^ { 6 } -3x ^ { 7 }\\)",
+    "\\(=x ^ { 7 } -3x ^ { 7 }\\)",
+    "\\(=-2x ^ { 7 }\\)；",
+    "（2）\\((2+x) ^ { 2 } -(2+x)(x-2)\\)",
+    "\\(=4+4x+x ^ { 2 } -(x ^ { 2 } -4)\\)",
+    "\\(=4+4x+x ^ { 2 } -x ^ { 2 } +4\\)",
+    "\\(=4x+8\\)；",
+    "（3）\\(2021 ^ { 2 } -2019\\times 2023\\)",
+    "\\(=2021 ^ { 2 } -(2021-2)\\times (2021+2)\\)",
+    "\\(=2021 ^ { 2 } -2021 ^ { 2 } +4\\)",
+    "\\(=4\\)；",
+    "（4）\\((x-y+z)(x+y-z)\\)",
+    "\\(=[x-(y-z)][x+(y-z)]\\)",
+    "\\(=x ^ { 2 } -(y-z) ^ { 2 }\\)",
+    "\\(=x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)．"
+  ],
+  "solution": "（1）解：\\(x\\cdot (x ^ { 2 } ) ^ { 3 } -3x ^ { 4 } \\cdot x ^ { 3 }\\)\n\\(=x\\cdot x ^ { 6 } -3x ^ { 7 }\\)\n\\(=x ^ { 7 } -3x ^ { 7 }\\)\n\\(=-2x ^ { 7 }\\)；\n（2）\\((2+x) ^ { 2 } -(2+x)(x-2)\\)\n\\(=4+4x+x ^ { 2 } -(x ^ { 2 } -4)\\)\n\\(=4+4x+x ^ { 2 } -x ^ { 2 } +4\\)\n\\(=4x+8\\)；\n（3）\\(2021 ^ { 2 } -2019\\times 2023\\)\n\\(=2021 ^ { 2 } -(2021-2)\\times (2021+2)\\)\n\\(=2021 ^ { 2 } -2021 ^ { 2 } +4\\)\n\\(=4\\)；\n（4）\\((x-y+z)(x+y-z)\\)\n\\(=[x-(y-z)][x+(y-z)]\\)\n\\(=x ^ { 2 } -(y-z) ^ { 2 }\\)\n\\(=x ^ { 2 } -y ^ { 2 } +2yz-z ^ { 2 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-BC91928E80/single/q14-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          435.92,
+          582.44,
+          572.88
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-BC91928E80/single/s14-p13.webp",
+      "assets/SZ-G7-T2-BC91928E80/single/s14-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          599.75,
+          582.44,
+          754.53
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.44,
+          488.78
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,289 @@
+{
+  "id": "SZ-G7-T2-B6FD963E86-Q21",
+  "paper_id": "SZ-G7-T2-B6FD963E86",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由和差或积的关系求简单对称式",
+  "stem": "【阅读理解】我们已经知道，通过计算几何图形的面积可以表示一些代数恒等式． 例如图1可以得到 \\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，基于此，请解答下列问题：\n【类比应用】（1）①若\\(xy=8\\)，\\(x+y=6\\)，则\\(x ^ { 2 } +y ^ { 2 }\\)的值为            ；\n②若\\(x\\left ( { 5-x } \\right )=6\\)，则\\(x ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =\\)            ；\n【迁移应用】（2）两块完全相同的特制直角三角板\\((\\angle AOB=\\angle COD=90{}^\\circ )\\)如图2所示放置，其中\\(A\\)，\\(O\\)，\\(D\\)在一直线上，连接\\(AC\\)，\\(BD\\)，若\\(AD=14\\)，\\(S_{ \\Delta AOC } +S_{ \\Delta BOD } =54\\)，求一块三角板的面积．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/36/36fea2134c22be6a220fff34981c227040424efc82a90b2137d18aa1b135d7a7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①20；②13；（2）一块三角板的面积是22．",
+  "answer": "（1）①20；②13；（2）一块三角板的面积是22．",
+  "given_solution": "【分析】本题考查完全平方公式的几何背景，掌握并灵活运用完全平方公式是本题的关键．\n（1）①利用\\((a+b) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)计算即可；\n②令\\(a=x\\)，\\(b=5-x\\)，从而得到\\(a\\)、\\(b\\)的和与积，再利用\\((a+b) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)计算即可；\n（2）将三角板的两直角边分别用字母表示出来，从而写出这两个字母的和、平方和，利用题目中给出的等式计算这两个字母的积，进而求出一块三角板的面积．\n【详解】解：（1）①由题意可知，\\(x ^ { 2 } +y ^ { 2 } =(x+y) ^ { 2 } -2xy\\)，\n\\(\\because xy=8\\)，\\(x+y=6\\)，\n\\(\\therefore x ^ { 2 } +y ^ { 2 } =6 ^ { 2 } -2\\times 8=20\\)，\n故答案为：20；\n②令\\(a=x\\)，\\(b=5-x\\)，\n\\(\\therefore a+b=5\\)，\\(ab=6\\)，\n\\(\\therefore x ^ { 2 } +(5-x) ^ { 2 } =a ^ { 2 } +b ^ { 2 } =(a+b) ^ { 2 } -2ab=5 ^ { 2 } -2\\times 6=13\\)，\n故答案为：13；\n（2）设三角板的两条直角边\\(AO=m\\)，\\(BO=n\\)，则一块三角板的面积为\\(\\frac { 1 } { 2 }mn\\)，\n\\(\\therefore m+n=14\\)，\\(\\frac { 1 } { 2 }(m ^ { 2 } +n ^ { 2 } )=54\\)，即\\(m ^ { 2 } +n ^ { 2 } =108\\)，\n\\(\\because 2mn=(m+n) ^ { 2 } -(m ^ { 2 } +n ^ { 2 } )=14 ^ { 2 } -108=88\\)，\n\\(\\therefore mn=44\\)，\n\\(\\therefore\\)\\(\\frac { 1 } { 2 }mn=\\frac { 1 } { 2 }\\times 44=22\\)，\n\\(\\therefore\\)一块三角板的面积是22．",
+  "given_solution_figures": [
+    "assets/figures/36/36fea2134c22be6a220fff34981c227040424efc82a90b2137d18aa1b135d7a7.png"
+  ],
+  "solution": "解：（1）①由题意可知，\\(x ^ { 2 } +y ^ { 2 } =(x+y) ^ { 2 } -2xy\\)，\n\\(\\because xy=8\\)，\\(x+y=6\\)，\n\\(\\therefore x ^ { 2 } +y ^ { 2 } =6 ^ { 2 } -2\\times 8=20\\)，\n故答案为：20；\n②令\\(a=x\\)，\\(b=5-x\\)，\n\\(\\therefore a+b=5\\)，\\(ab=6\\)，\n\\(\\therefore x ^ { 2 } +(5-x) ^ { 2 } =a ^ { 2 } +b ^ { 2 } =(a+b) ^ { 2 } -2ab=5 ^ { 2 } -2\\times 6=13\\)，\n故答案为：13；\n（2）设三角板的两条直角边\\(AO=m\\)，\\(BO=n\\)，则一块三角板的面积为\\(\\frac { 1 } { 2 }mn\\)，\n\\(\\therefore m+n=14\\)，\\(\\frac { 1 } { 2 }(m ^ { 2 } +n ^ { 2 } )=54\\)，即\\(m ^ { 2 } +n ^ { 2 } =108\\)，\n\\(\\because 2mn=(m+n) ^ { 2 } -(m ^ { 2 } +n ^ { 2 } )=14 ^ { 2 } -108=88\\)，\n\\(\\therefore mn=44\\)，\n\\(\\therefore\\)\\(\\frac { 1 } { 2 }mn=\\frac { 1 } { 2 }\\times 44=22\\)，\n\\(\\therefore\\)一块三角板的面积是22．",
+  "solution_steps": [
+    "解：（1）①由题意可知，\\(x ^ { 2 } +y ^ { 2 } =(x+y) ^ { 2 } -2xy\\)，",
+    "\\(\\because xy=8\\)，\\(x+y=6\\)，",
+    "\\(\\therefore x ^ { 2 } +y ^ { 2 } =6 ^ { 2 } -2\\times 8=20\\)，",
+    "故答案为：20；",
+    "②令\\(a=x\\)，\\(b=5-x\\)，",
+    "\\(\\therefore a+b=5\\)，\\(ab=6\\)，",
+    "\\(\\therefore x ^ { 2 } +(5-x) ^ { 2 } =a ^ { 2 } +b ^ { 2 } =(a+b) ^ { 2 } -2ab=5 ^ { 2 } -2\\times 6=13\\)，",
+    "故答案为：13；",
+    "（2）设三角板的两条直角边\\(AO=m\\)，\\(BO=n\\)，则一块三角板的面积为\\(\\frac { 1 } { 2 }mn\\)，",
+    "\\(\\therefore m+n=14\\)，\\(\\frac { 1 } { 2 }(m ^ { 2 } +n ^ { 2 } )=54\\)，即\\(m ^ { 2 } +n ^ { 2 } =108\\)，",
+    "\\(\\because 2mn=(m+n) ^ { 2 } -(m ^ { 2 } +n ^ { 2 } )=14 ^ { 2 } -108=88\\)，",
+    "\\(\\therefore mn=44\\)，",
+    "\\(\\therefore\\)\\(\\frac { 1 } { 2 }mn=\\frac { 1 } { 2 }\\times 44=22\\)，",
+    "\\(\\therefore\\)一块三角板的面积是22．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【阅读理解】我们已经知道，通过计算几何图形的面积可以表示一些代数恒等式． 例如图1可以得到 \\(\\left ( { a+b } \\right ) ^ { 2 } =a ^ { 2 } +2ab+b ^ { 2 }\\)，基于此，请解答下列问题：\n【类比应用】",
+      "paper_blocks": [
+        77,
+        78
+      ]
+    },
+    {
+      "id": "fig-81",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        81
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-B6FD963E86-Q21-P01",
+      "label": "（1）①",
+      "prompt": "若\\(xy=8\\)，\\(x+y=6\\)，则\\(x ^ { 2 } +y ^ { 2 }\\)的值为            ；",
+      "stem_text": "若\\(xy=8\\)，\\(x+y=6\\)，则\\(x ^ { 2 } +y ^ { 2 }\\)的值为            ；",
+      "material_ids": [
+        "context",
+        "fig-81"
+      ],
+      "requires": [],
+      "given_answer": "20；",
+      "answer": "20；",
+      "given_solution": "由题意可知，\\(x ^ { 2 } +y ^ { 2 } =(x+y) ^ { 2 } -2xy\\)，\n\\(\\because xy=8\\)，\\(x+y=6\\)，\n\\(\\therefore x ^ { 2 } +y ^ { 2 } =6 ^ { 2 } -2\\times 8=20\\)，\n故答案为：20；",
+      "solution_steps": [
+        "由题意可知，\\(x ^ { 2 } +y ^ { 2 } =(x+y) ^ { 2 } -2xy\\)，",
+        "\\(\\because xy=8\\)，\\(x+y=6\\)，",
+        "\\(\\therefore x ^ { 2 } +y ^ { 2 } =6 ^ { 2 } -2\\times 8=20\\)，",
+        "故答案为：20；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          81
+        ],
+        "solution_block_ids": [
+          312,
+          313,
+          314,
+          315
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-B6FD963E86-Q21-P02",
+      "label": "（1）②",
+      "prompt": "若\\(x\\left ( { 5-x } \\right )=6\\)，则\\(x ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =\\)            ；\n【迁移应用】",
+      "stem_text": "若\\(x\\left ( { 5-x } \\right )=6\\)，则\\(x ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =\\)            ；\n【迁移应用】",
+      "material_ids": [
+        "context",
+        "fig-81"
+      ],
+      "requires": [],
+      "given_answer": "13；",
+      "answer": "13；",
+      "given_solution": "令\\(a=x\\)，\\(b=5-x\\)，\n\\(\\therefore a+b=5\\)，\\(ab=6\\)，\n\\(\\therefore x ^ { 2 } +(5-x) ^ { 2 } =a ^ { 2 } +b ^ { 2 } =(a+b) ^ { 2 } -2ab=5 ^ { 2 } -2\\times 6=13\\)，\n故答案为：13；",
+      "solution_steps": [
+        "令\\(a=x\\)，\\(b=5-x\\)，",
+        "\\(\\therefore a+b=5\\)，\\(ab=6\\)，",
+        "\\(\\therefore x ^ { 2 } +(5-x) ^ { 2 } =a ^ { 2 } +b ^ { 2 } =(a+b) ^ { 2 } -2ab=5 ^ { 2 } -2\\times 6=13\\)，",
+        "故答案为：13；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "solution_block_ids": [
+          316,
+          317,
+          318,
+          319
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G7-T2-B6FD963E86-Q21-P03",
+      "label": "（2）",
+      "prompt": "两块完全相同的特制直角三角板\\((\\angle AOB=\\angle COD=90{}^\\circ )\\)如图2所示放置，其中\\(A\\)，\\(O\\)，\\(D\\)在一直线上，连接\\(AC\\)，\\(BD\\)，若\\(AD=14\\)，\\(S_{ \\Delta AOC } +S_{ \\Delta BOD } =54\\)，求一块三角板的面积．",
+      "stem_text": "两块完全相同的特制直角三角板\\((\\angle AOB=\\angle COD=90{}^\\circ )\\)如图2所示放置，其中\\(A\\)，\\(O\\)，\\(D\\)在一直线上，连接\\(AC\\)，\\(BD\\)，若\\(AD=14\\)，\\(S_{ \\Delta AOC } +S_{ \\Delta BOD } =54\\)，求一块三角板的面积．",
+      "material_ids": [
+        "context",
+        "fig-81"
+      ],
+      "requires": [],
+      "given_answer": "一块三角板的面积是22．",
+      "answer": "一块三角板的面积是22．",
+      "given_solution": "设三角板的两条直角边\\(AO=m\\)，\\(BO=n\\)，则一块三角板的面积为\\(\\frac { 1 } { 2 }mn\\)，\n\\(\\therefore m+n=14\\)，\\(\\frac { 1 } { 2 }(m ^ { 2 } +n ^ { 2 } )=54\\)，即\\(m ^ { 2 } +n ^ { 2 } =108\\)，\n\\(\\because 2mn=(m+n) ^ { 2 } -(m ^ { 2 } +n ^ { 2 } )=14 ^ { 2 } -108=88\\)，\n\\(\\therefore mn=44\\)，\n\\(\\therefore\\)\\(\\frac { 1 } { 2 }mn=\\frac { 1 } { 2 }\\times 44=22\\)，\n\\(\\therefore\\)一块三角板的面积是22．",
+      "solution_steps": [
+        "设三角板的两条直角边\\(AO=m\\)，\\(BO=n\\)，则一块三角板的面积为\\(\\frac { 1 } { 2 }mn\\)，",
+        "\\(\\therefore m+n=14\\)，\\(\\frac { 1 } { 2 }(m ^ { 2 } +n ^ { 2 } )=54\\)，即\\(m ^ { 2 } +n ^ { 2 } =108\\)，",
+        "\\(\\because 2mn=(m+n) ^ { 2 } -(m ^ { 2 } +n ^ { 2 } )=14 ^ { 2 } -108=88\\)，",
+        "\\(\\therefore mn=44\\)，",
+        "\\(\\therefore\\)\\(\\frac { 1 } { 2 }mn=\\frac { 1 } { 2 }\\times 44=22\\)，",
+        "\\(\\therefore\\)一块三角板的面积是22．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          80,
+          81
+        ],
+        "solution_block_ids": [
+          320,
+          321,
+          322,
+          323,
+          324,
+          325
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按题面要求和原解所用方法核定。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      77,
+      81
+    ],
+    "solution_body_blocks": [
+      301,
+      325
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-B6FD963E86/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          276.36,
+          583.64,
+          564.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-B6FD963E86/solution-q21-p15.webp",
+      "assets/SZ-G7-T2-B6FD963E86/solution-q21-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          322.73,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          181.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.N03.06"
+  ],
+  "exam_ids": [
+    "E.N03.06.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 按题面要求和原解所用方法核定。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,345 @@
+{
+  "id": "SZ-G7-T2-E0C5F48D69-Q22",
+  "paper_id": "SZ-G7-T2-E0C5F48D69",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为直线\\(BC\\)上一动点\\((\\)点\\(D\\)不与\\(B\\)、\\(C\\)重合\\()\\)，以\\(AD\\)为边在\\(AD\\)的右侧作正方形\\(ADEF\\)，连接\\(CF\\)．\n〔图1〕\n（1）观察猜想：如图1，当点\\(D\\)在线段\\(BC\\)上时，\n①\\(BC\\)与\\(CF\\)的位置关系是：___________；\n②\\(BC\\)、\\(CD\\)、\\(CF\\)之间的数量关系为：___________(将结论直接写在横线上)\n（2）数学思考：如图\\(2\\)，当点\\(D\\)在线段\\(CB\\)的延长线上时，上述①、②中的结论是否仍然成立？若成立，请给予证明，若不成立，请你写出正确结论再给予证明．",
+  "choices": [],
+  "figures": [
+    "assets/figures/36/3690edf2323455df18927a3da20908debd393ad6e64fac4d5eef3a23eddfde3a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(BC\\bot CF\\)，②\\(BC=CF+CD\\)\n（2）\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，见解析",
+  "answer": "（1）①\\(BC\\bot CF\\)，②\\(BC=CF+CD\\)\n（2）\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，见解析",
+  "given_solution": "【分析】（1）①证明\\(\\vartriangle DAB≌\\vartriangle FAC\\)，得出\\(\\angle B=\\angle ACF\\)，即可得证；②由①可得\\(CF=BD\\)，则\\(BC=CF+CD\\)；\n（2）证明\\(\\vartriangle DAB≌\\vartriangle FAC\\)，进而证明\\(\\angle BCF=\\angle ACF-\\angle ACB=90{}^\\circ\\)，则\\(CF\\bot BC\\)，由\\(D=DB+BC\\)，\\(DB=CF\\)，得出\\(CD=CF+BC\\)．\n【小问1详解】\n①正方形\\(ADEF\\)中，\\(AD=AF\\)，\n\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，\n\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore \\angle ABD=\\angle ACF\\)，\n\\(\\therefore \\angle ACB+\\angle ACF=90{}^\\circ\\)，即\\(BC\\bot CF\\)；\n故答案为：\\(BC\\bot CF\\)；\n②\\(\\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore CF=BD\\)，\n\\(\\because BC=BD+CD\\)，\n\\(\\therefore BC=CF+CD\\)；\n故答案为：\\(BC=CF+CD\\)；\n【小问2详解】\n\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，\\(CD=CF+BC\\)．\n\\(\\because\\)正方形\\(ADEF\\)中，\\(AD=AF\\)，\n\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，\n\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore \\angle ABD=\\angle ACF\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n\\(\\therefore \\angle ACB=\\angle ABC=45{}^\\circ\\)．\n\\(\\therefore \\angle ABD=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore \\angle BCF=\\angle ACF-\\angle ACB=135{}^\\circ -45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore CF\\bot BC\\)．\n\\(\\because CD=DB+BC\\)，\\(DB=CF\\)，\n\\(\\therefore CD=CF+BC\\)．\n【点睛】本题考查了全等三角形的性质与判定，掌握全等三角形的性质与判定是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/d5/d594702fe7adf70cd7f58269e67c248407c5fb218a00915af0096ddc29a71ec6.png"
+  ],
+  "solution": "【小问1详解】\n①正方形\\(ADEF\\)中，\\(AD=AF\\)，\n\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，\n\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore \\angle ABD=\\angle ACF\\)，\n\\(\\therefore \\angle ACB+\\angle ACF=90{}^\\circ\\)，即\\(BC\\bot CF\\)；\n故答案为：\\(BC\\bot CF\\)；\n②\\(\\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore CF=BD\\)，\n\\(\\because BC=BD+CD\\)，\n\\(\\therefore BC=CF+CD\\)；\n故答案为：\\(BC=CF+CD\\)；\n【小问2详解】\n\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，\\(CD=CF+BC\\)．\n\\(\\because\\)正方形\\(ADEF\\)中，\\(AD=AF\\)，\n\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，\n\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore \\angle ABD=\\angle ACF\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n\\(\\therefore \\angle ACB=\\angle ABC=45{}^\\circ\\)．\n\\(\\therefore \\angle ABD=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore \\angle BCF=\\angle ACF-\\angle ACB=135{}^\\circ -45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore CF\\bot BC\\)．\n\\(\\because CD=DB+BC\\)，\\(DB=CF\\)，\n\\(\\therefore CD=CF+BC\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①正方形\\(ADEF\\)中，\\(AD=AF\\)，",
+    "\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAD=\\angle CAF\\)，",
+    "在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，",
+    "\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，",
+    "\\(\\therefore \\angle ABD=\\angle ACF\\)，",
+    "\\(\\therefore \\angle ACB+\\angle ACF=90{}^\\circ\\)，即\\(BC\\bot CF\\)；",
+    "故答案为：\\(BC\\bot CF\\)；",
+    "②\\(\\vartriangle DAB≌\\vartriangle FAC\\)，",
+    "\\(\\therefore CF=BD\\)，",
+    "\\(\\because BC=BD+CD\\)，",
+    "\\(\\therefore BC=CF+CD\\)；",
+    "故答案为：\\(BC=CF+CD\\)；",
+    "【小问2详解】",
+    "\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，\\(CD=CF+BC\\)．",
+    "\\(\\because\\)正方形\\(ADEF\\)中，\\(AD=AF\\)，",
+    "\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAD=\\angle CAF\\)，",
+    "在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，",
+    "\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，",
+    "\\(\\therefore \\angle ABD=\\angle ACF\\)，",
+    "\\(\\because \\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，",
+    "\\(\\therefore \\angle ACB=\\angle ABC=45{}^\\circ\\)．",
+    "\\(\\therefore \\angle ABD=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+    "\\(\\therefore \\angle BCF=\\angle ACF-\\angle ACB=135{}^\\circ -45{}^\\circ =90{}^\\circ\\)，",
+    "\\(\\therefore CF\\bot BC\\)．",
+    "\\(\\because CD=DB+BC\\)，\\(DB=CF\\)，",
+    "\\(\\therefore CD=CF+BC\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为直线\\(BC\\)上一动点\\((\\)点\\(D\\)不与\\(B\\)、\\(C\\)重合\\()\\)，以\\(AD\\)为边在\\(AD\\)的右侧作正方形\\(ADEF\\)，连接\\(CF\\)．\n〔图1〕",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "观察猜想：如图1，当点\\(D\\)在线段\\(BC\\)上时，",
+      "paper_blocks": [
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-E0C5F48D69-Q22-P01",
+      "label": "（1）①",
+      "prompt": "\\(BC\\)与\\(CF\\)的位置关系是：___________；",
+      "stem_text": "\\(BC\\)与\\(CF\\)的位置关系是：___________；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(BC\\bot CF\\)，",
+      "answer": "\\(BC\\bot CF\\)，",
+      "given_solution": "正方形\\(ADEF\\)中，\\(AD=AF\\)，\n\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，\n\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore \\angle ABD=\\angle ACF\\)，\n\\(\\therefore \\angle ACB+\\angle ACF=90{}^\\circ\\)，即\\(BC\\bot CF\\)；\n故答案为：\\(BC\\bot CF\\)；",
+      "solution_steps": [
+        "正方形\\(ADEF\\)中，\\(AD=AF\\)，",
+        "\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAD=\\angle CAF\\)，",
+        "在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，",
+        "\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，",
+        "\\(\\therefore \\angle ABD=\\angle ACF\\)，",
+        "\\(\\therefore \\angle ACB+\\angle ACF=90{}^\\circ\\)，即\\(BC\\bot CF\\)；",
+        "故答案为：\\(BC\\bot CF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-E0C5F48D69-Q22-P02",
+      "label": "（1）②",
+      "prompt": "\\(BC\\)、\\(CD\\)、\\(CF\\)之间的数量关系为：___________(将结论直接写在横线上)",
+      "stem_text": "\\(BC\\)、\\(CD\\)、\\(CF\\)之间的数量关系为：___________(将结论直接写在横线上)",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(BC=CF+CD\\)",
+      "answer": "\\(BC=CF+CD\\)",
+      "given_solution": "\\(\\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore CF=BD\\)，\n\\(\\because BC=BD+CD\\)，\n\\(\\therefore BC=CF+CD\\)；\n故答案为：\\(BC=CF+CD\\)；",
+      "solution_steps": [
+        "\\(\\vartriangle DAB≌\\vartriangle FAC\\)，",
+        "\\(\\therefore CF=BD\\)，",
+        "\\(\\because BC=BD+CD\\)，",
+        "\\(\\therefore BC=CF+CD\\)；",
+        "故答案为：\\(BC=CF+CD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          68
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-E0C5F48D69-Q22-P03",
+      "label": "（2）",
+      "prompt": "数学思考：如图\\(2\\)，当点\\(D\\)在线段\\(CB\\)的延长线上时，上述①、②中的结论是否仍然成立？若成立，请给予证明，若不成立，请你写出正确结论再给予证明．",
+      "stem_text": "数学思考：如图\\(2\\)，当点\\(D\\)在线段\\(CB\\)的延长线上时，上述①、②中的结论是否仍然成立？若成立，请给予证明，若不成立，请你写出正确结论再给予证明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，见解析",
+      "answer": "\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，见解析",
+      "given_solution": "\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，\\(CD=CF+BC\\)．\n\\(\\because\\)正方形\\(ADEF\\)中，\\(AD=AF\\)，\n\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle CAF\\)，\n在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，\n\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，\n\\(\\therefore \\angle ABD=\\angle ACF\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n\\(\\therefore \\angle ACB=\\angle ABC=45{}^\\circ\\)．\n\\(\\therefore \\angle ABD=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore \\angle BCF=\\angle ACF-\\angle ACB=135{}^\\circ -45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore CF\\bot BC\\)．\n\\(\\because CD=DB+BC\\)，\\(DB=CF\\)，\n\\(\\therefore CD=CF+BC\\)．",
+      "solution_steps": [
+        "\\(CF\\bot BC\\)成立；\\(BC=CD+CF\\)不成立，\\(CD=CF+BC\\)．",
+        "\\(\\because\\)正方形\\(ADEF\\)中，\\(AD=AF\\)，",
+        "\\(\\because \\angle BAC=\\angle DAF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAD=\\angle CAF\\)，",
+        "在\\(\\vartriangle DAB\\)与\\(\\vartriangle FAC\\)中，",
+        "\\(\\because\\)\\(\\begin{cases} AD=AF \\\\ \\angle BAD=\\angle CAF \\\\ AB=AC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle DAB≌\\vartriangle FAC\\)，",
+        "\\(\\therefore \\angle ABD=\\angle ACF\\)，",
+        "\\(\\because \\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，",
+        "\\(\\therefore \\angle ACB=\\angle ABC=45{}^\\circ\\)．",
+        "\\(\\therefore \\angle ABD=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+        "\\(\\therefore \\angle BCF=\\angle ACF-\\angle ACB=135{}^\\circ -45{}^\\circ =90{}^\\circ\\)，",
+        "\\(\\therefore CF\\bot BC\\)．",
+        "\\(\\because CD=DB+BC\\)，\\(DB=CF\\)，",
+        "\\(\\therefore CD=CF+BC\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          69
+        ],
+        "solution_block_ids": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      69
+    ],
+    "solution_body_blocks": [
+      316,
+      358
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-E0C5F48D69/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          210.0,
+          583.64,
+          509.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-E0C5F48D69/solution-q22-p15.webp",
+      "assets/SZ-G7-T2-E0C5F48D69/solution-q22-p16.webp",
+      "assets/SZ-G7-T2-E0C5F48D69/solution-q22-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          712.73,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          751.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          275.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

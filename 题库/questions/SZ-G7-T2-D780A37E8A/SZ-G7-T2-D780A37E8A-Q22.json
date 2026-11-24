@@ -1,0 +1,376 @@
+{
+  "id": "SZ-G7-T2-D780A37E8A-Q22",
+  "paper_id": "SZ-G7-T2-D780A37E8A",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、由角平分关系确定角度",
+  "stem": "等边三角形和等腰直角三角形是我们熟悉的特殊三角形．数学课上，同学们探究得到了以下判定和性质：①三个角都相等的三角形是等边三角形；②有一个角等于\\(60{}^\\circ\\)的等腰三角形是等边三角形；③等腰直角三角形的两腰相等，两锐角都是\\(45{}^\\circ\\)．请应用以上知识解决下列问题：\n已知线段\\(AB\\)，点C是平面内一动点，且\\(AB=AC\\)，连接\\(BC\\)，点D在\\(BC\\)右侧，且\\(BC=BD,\\angle CBD=90{}^\\circ\\)，连接\\(CD、AD,AD\\)交\\(BC\\)于点E．\n〔图1〕\n【初步应用】（1）如图1，若\\(\\angle BAC=60{}^\\circ\\)，则\\(\\angle BDA=\\)_______°；\n【深化应用】（2）如图2，在（1）的基础上，作\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，试探究线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系，并说明理由；\n【拓展应用】（3）若\\(AB=2\\)，当\\(AD\\)最长时，请直接写出\\(DE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/63/63b5b96191cd77db944de5f76d19f493c7622f3844ef203602c0a4fe388f45ee.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）15；（2）\\(AD=BF+2DF\\)，理由见解析；（3）\\(DE\\)的长为4",
+  "answer": "（1）15；（2）\\(AD=BF+2DF\\)，理由见解析；（3）\\(DE\\)的长为4",
+  "given_solution": "【分析】（1）根据\\(\\angle BAC=60{}^\\circ\\)，结合\\(AB=AC\\)，得到等边三角形\\(ABC\\)，继而得到\\(AB=AC=BC=BD\\)，\\(\\angle ABC=60{}^\\circ\\)，结合\\(\\angle CBD=90{}^\\circ\\)，得到\\(\\angle ABD=150{}^\\circ\\)，继而得到\\(\\angle BDA=\\frac { 180{}^\\circ -150{}^\\circ } { 2 }=15{}^\\circ\\)，解答即可；\n（2）过点B作\\(BG\\bot AD\\)于点G，根据（1）证明\\(\\angle GBF=30{}^\\circ\\)，利用等腰三角形三线合一性质，直角三角形的性质证明即可．\n（3）过点B作\\(BH\\bot AB\\)于点B，且\\(BH=AB=2\\)，再证明\\(\\vartriangle ABC≌\\vartriangle HBD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得到\\(HD=AC=AB=2\\)，根据\\(AH+HD\\ge AD\\)，得到当\\(A、H、D\\)三点共线时，\\(AD\\)取得最大值，根据题意，得\\(\\angle HBD=\\angle HDB\\)，证明\\(\\angle EBH=\\angle HEB\\)，继而得到\\(HE=HB=HD=2\\)，解答即可．\n【详解】（1）∵\\(\\angle BAC=60{}^\\circ\\)，\\(AB=AC\\)，\n∴等边三角形\\(ABC\\)，\n∴\\(AB=AC=BC=BD\\)，\\(\\angle ABC=60{}^\\circ\\)，\n∵\\(\\angle CBD=90{}^\\circ\\)，\n∴\\(\\angle ABD=150{}^\\circ\\)，\n∴\\(\\angle BDA=\\frac { 180{}^\\circ -150{}^\\circ } { 2 }=15{}^\\circ\\)，\n故答案为：15．\n（2）线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系为：\\(AD=BF+2DF\\)．理由如下：\n过点B作\\(BG\\bot AD\\)于点G，根据（1）得\\(\\angle BDA=15{}^\\circ\\)，\\(\\angle ABC=60{}^\\circ\\)，\n∴\\(\\angle ABG=75{}^\\circ\\)，\\(\\angle EBG=15{}^\\circ\\)\n∵\\(\\angle CBD=90{}^\\circ\\)，\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，\n∴\\(\\angle EBF=45{}^\\circ\\)，\n∴\\(\\angle GBF=30{}^\\circ\\)，\n∴\\(BF=2GF\\)，\n∵\\(BG\\bot AD\\)，\\(AB=BD\\)，\n〔图2〕\n∴\\(AD=2AG=2DG=2DF+2GF\\)，\n∴\\(AD=2DF+BF\\)．\n（3）过点B作\\(BH\\bot AB\\)于点B，且\\(BH=AB=2\\)，\n∵\\(\\angle CBD=90{}^\\circ\\)，\\(BH\\bot AB\\)，\n∴\\(\\angle ABH=90{}^\\circ -\\angle CBH=\\angle HBD\\)，\n∵\\(\\begin{cases} AB=HB \\\\ \\angle ABC=\\angle HBD \\\\ BC=BD \\end{cases}\\)，\n∴\\(\\vartriangle ABC≌\\vartriangle HBD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(HD=AC=AB=2\\)，\n∵\\(AH+HD\\ge AD\\)，\n故当\\(A、H、D\\)三点共线时，\\(AD\\)取得最大值，\n〔图3〕\n根据题意，得\\(\\angle HBD=\\angle HDB\\)，\n〔图4〕\n∴\\(\\angle EBH=\\angle HEB\\)，\n∴\\(HE=HB\\)，\n∴\\(HE=HB=HD=2\\)，\n∴当\\(AD\\)最长时，\\(DE=HE+HD=4\\)．\n【点睛】本题考查了等边三角形的判定和性质，等腰直角三角形的性质，三角形全等的判定和性质，直角三角形的性质，等腰三角形的三线合一性质，三角形不等式求最值，熟练掌握等边三角形的性质，三角形不等式是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/63/63b5b96191cd77db944de5f76d19f493c7622f3844ef203602c0a4fe388f45ee.png",
+    "assets/figures/42/4284e3890d4a34ace61d7d7a3a11a40c8b0a234ff2f76817ae764002c9279a1e.png",
+    "assets/figures/a4/a4bddbe87ca259f170976f0dba6daf904996775b0551692a8af40bcd8c7cc6a0.png",
+    "assets/figures/23/236b3ddaaf16b343e7c47f59049c8a95b4ed29cab605bc8dc1f3a76fc7e02362.png"
+  ],
+  "solution": "（1）∵\\(\\angle BAC=60{}^\\circ\\)，\\(AB=AC\\)，\n∴等边三角形\\(ABC\\)，\n∴\\(AB=AC=BC=BD\\)，\\(\\angle ABC=60{}^\\circ\\)，\n∵\\(\\angle CBD=90{}^\\circ\\)，\n∴\\(\\angle ABD=150{}^\\circ\\)，\n∴\\(\\angle BDA=\\frac { 180{}^\\circ -150{}^\\circ } { 2 }=15{}^\\circ\\)，\n故答案为：15．\n（2）线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系为：\\(AD=BF+2DF\\)．理由如下：\n过点B作\\(BG\\bot AD\\)于点G，根据（1）得\\(\\angle BDA=15{}^\\circ\\)，\\(\\angle ABC=60{}^\\circ\\)，\n∴\\(\\angle ABG=75{}^\\circ\\)，\\(\\angle EBG=15{}^\\circ\\)\n∵\\(\\angle CBD=90{}^\\circ\\)，\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，\n∴\\(\\angle EBF=45{}^\\circ\\)，\n∴\\(\\angle GBF=30{}^\\circ\\)，\n∴\\(BF=2GF\\)，\n∵\\(BG\\bot AD\\)，\\(AB=BD\\)，\n〔图2〕\n∴\\(AD=2AG=2DG=2DF+2GF\\)，\n∴\\(AD=2DF+BF\\)．\n（3）过点B作\\(BH\\bot AB\\)于点B，且\\(BH=AB=2\\)，\n∵\\(\\angle CBD=90{}^\\circ\\)，\\(BH\\bot AB\\)，\n∴\\(\\angle ABH=90{}^\\circ -\\angle CBH=\\angle HBD\\)，\n∵\\(\\begin{cases} AB=HB \\\\ \\angle ABC=\\angle HBD \\\\ BC=BD \\end{cases}\\)，\n∴\\(\\vartriangle ABC≌\\vartriangle HBD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(HD=AC=AB=2\\)，\n∵\\(AH+HD\\ge AD\\)，\n故当\\(A、H、D\\)三点共线时，\\(AD\\)取得最大值，\n〔图3〕\n根据题意，得\\(\\angle HBD=\\angle HDB\\)，\n〔图4〕\n∴\\(\\angle EBH=\\angle HEB\\)，\n∴\\(HE=HB\\)，\n∴\\(HE=HB=HD=2\\)，\n∴当\\(AD\\)最长时，\\(DE=HE+HD=4\\)．",
+  "solution_steps": [
+    "（1）∵\\(\\angle BAC=60{}^\\circ\\)，\\(AB=AC\\)，",
+    "∴等边三角形\\(ABC\\)，",
+    "∴\\(AB=AC=BC=BD\\)，\\(\\angle ABC=60{}^\\circ\\)，",
+    "∵\\(\\angle CBD=90{}^\\circ\\)，",
+    "∴\\(\\angle ABD=150{}^\\circ\\)，",
+    "∴\\(\\angle BDA=\\frac { 180{}^\\circ -150{}^\\circ } { 2 }=15{}^\\circ\\)，",
+    "故答案为：15．",
+    "（2）线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系为：\\(AD=BF+2DF\\)．理由如下：",
+    "过点B作\\(BG\\bot AD\\)于点G，根据（1）得\\(\\angle BDA=15{}^\\circ\\)，\\(\\angle ABC=60{}^\\circ\\)，",
+    "∴\\(\\angle ABG=75{}^\\circ\\)，\\(\\angle EBG=15{}^\\circ\\)",
+    "∵\\(\\angle CBD=90{}^\\circ\\)，\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，",
+    "∴\\(\\angle EBF=45{}^\\circ\\)，",
+    "∴\\(\\angle GBF=30{}^\\circ\\)，",
+    "∴\\(BF=2GF\\)，",
+    "∵\\(BG\\bot AD\\)，\\(AB=BD\\)，",
+    "〔图2〕",
+    "∴\\(AD=2AG=2DG=2DF+2GF\\)，",
+    "∴\\(AD=2DF+BF\\)．",
+    "（3）过点B作\\(BH\\bot AB\\)于点B，且\\(BH=AB=2\\)，",
+    "∵\\(\\angle CBD=90{}^\\circ\\)，\\(BH\\bot AB\\)，",
+    "∴\\(\\angle ABH=90{}^\\circ -\\angle CBH=\\angle HBD\\)，",
+    "∵\\(\\begin{cases} AB=HB \\\\ \\angle ABC=\\angle HBD \\\\ BC=BD \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABC≌\\vartriangle HBD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(HD=AC=AB=2\\)，",
+    "∵\\(AH+HD\\ge AD\\)，",
+    "故当\\(A、H、D\\)三点共线时，\\(AD\\)取得最大值，",
+    "〔图3〕",
+    "根据题意，得\\(\\angle HBD=\\angle HDB\\)，",
+    "〔图4〕",
+    "∴\\(\\angle EBH=\\angle HEB\\)，",
+    "∴\\(HE=HB\\)，",
+    "∴\\(HE=HB=HD=2\\)，",
+    "∴当\\(AD\\)最长时，\\(DE=HE+HD=4\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "等边三角形和等腰直角三角形是我们熟悉的特殊三角形．数学课上，同学们探究得到了以下判定和性质：①三个角都相等的三角形是等边三角形；②有一个角等于\\(60{}^\\circ\\)的等腰三角形是等边三角形；③等腰直角三角形的两腰相等，两锐角都是\\(45{}^\\circ\\)．请应用以上知识解决下列问题：\n已知线段\\(AB\\)，点C是平面内一动点，且\\(AB=AC\\)，连接\\(BC\\)，点D在\\(BC\\)右侧，且\\(BC=BD,\\angle CBD=90{}^\\circ\\)，连接\\(CD、AD,AD\\)交\\(BC\\)于点E．\n〔图1〕\n【初步应用】",
+      "paper_blocks": [
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：如图1，若\\(\\angle BAC=60{}^\\circ\\)，则\\(\\angle BDA=\\)_______°；\n【深化应用】",
+      "paper_blocks": [
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-D780A37E8A-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(\\angle BAC=60{}^\\circ\\)，则\\(\\angle BDA=\\)_______°；\n【深化应用】",
+      "stem_text": "如图1，若\\(\\angle BAC=60{}^\\circ\\)，则\\(\\angle BDA=\\)_______°；\n【深化应用】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "15；",
+      "answer": "15；",
+      "given_solution": "∵\\(\\angle BAC=60{}^\\circ\\)，\\(AB=AC\\)，\n∴等边三角形\\(ABC\\)，\n∴\\(AB=AC=BC=BD\\)，\\(\\angle ABC=60{}^\\circ\\)，\n∵\\(\\angle CBD=90{}^\\circ\\)，\n∴\\(\\angle ABD=150{}^\\circ\\)，\n∴\\(\\angle BDA=\\frac { 180{}^\\circ -150{}^\\circ } { 2 }=15{}^\\circ\\)，\n故答案为：15．",
+      "solution_steps": [
+        "∵\\(\\angle BAC=60{}^\\circ\\)，\\(AB=AC\\)，",
+        "∴等边三角形\\(ABC\\)，",
+        "∴\\(AB=AC=BC=BD\\)，\\(\\angle ABC=60{}^\\circ\\)，",
+        "∵\\(\\angle CBD=90{}^\\circ\\)，",
+        "∴\\(\\angle ABD=150{}^\\circ\\)，",
+        "∴\\(\\angle BDA=\\frac { 180{}^\\circ -150{}^\\circ } { 2 }=15{}^\\circ\\)，",
+        "故答案为：15．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-D780A37E8A-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，在（1）的基础上，作\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，试探究线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系，并说明理由；\n【拓展应用】",
+      "stem_text": "如图2，在（1）的基础上，作\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，试探究线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系，并说明理由；\n【拓展应用】",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G7-T2-D780A37E8A-Q22-P01"
+      ],
+      "given_answer": "\\(AD=BF+2DF\\)，理由见解析；",
+      "answer": "\\(AD=BF+2DF\\)，理由见解析；",
+      "given_solution": "线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系为：\\(AD=BF+2DF\\)．理由如下：\n过点B作\\(BG\\bot AD\\)于点G，根据（1）得\\(\\angle BDA=15{}^\\circ\\)，\\(\\angle ABC=60{}^\\circ\\)，\n∴\\(\\angle ABG=75{}^\\circ\\)，\\(\\angle EBG=15{}^\\circ\\)\n∵\\(\\angle CBD=90{}^\\circ\\)，\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，\n∴\\(\\angle EBF=45{}^\\circ\\)，\n∴\\(\\angle GBF=30{}^\\circ\\)，\n∴\\(BF=2GF\\)，\n∵\\(BG\\bot AD\\)，\\(AB=BD\\)，\n〔图2〕\n∴\\(AD=2AG=2DG=2DF+2GF\\)，\n∴\\(AD=2DF+BF\\)．",
+      "solution_steps": [
+        "线段\\(AD\\)与\\(2DF+BF\\)之间的数量关系为：\\(AD=BF+2DF\\)．理由如下：",
+        "过点B作\\(BG\\bot AD\\)于点G，根据（1）得\\(\\angle BDA=15{}^\\circ\\)，\\(\\angle ABC=60{}^\\circ\\)，",
+        "∴\\(\\angle ABG=75{}^\\circ\\)，\\(\\angle EBG=15{}^\\circ\\)",
+        "∵\\(\\angle CBD=90{}^\\circ\\)，\\(\\angle CBD\\)的角平分线\\(BF\\)交\\(AD\\)于F，",
+        "∴\\(\\angle EBF=45{}^\\circ\\)，",
+        "∴\\(\\angle GBF=30{}^\\circ\\)，",
+        "∴\\(BF=2GF\\)，",
+        "∵\\(BG\\bot AD\\)，\\(AB=BD\\)，",
+        "〔图2〕",
+        "∴\\(AD=2AG=2DG=2DF+2GF\\)，",
+        "∴\\(AD=2DF+BF\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [
+        "E.G01.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“角平分线”。利用角平分关系求角。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-D780A37E8A-Q22-P03",
+      "label": "（3）",
+      "prompt": "若\\(AB=2\\)，当\\(AD\\)最长时，请直接写出\\(DE\\)的长．",
+      "stem_text": "若\\(AB=2\\)，当\\(AD\\)最长时，请直接写出\\(DE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE\\)的长为4",
+      "answer": "\\(DE\\)的长为4",
+      "given_solution": "过点B作\\(BH\\bot AB\\)于点B，且\\(BH=AB=2\\)，\n∵\\(\\angle CBD=90{}^\\circ\\)，\\(BH\\bot AB\\)，\n∴\\(\\angle ABH=90{}^\\circ -\\angle CBH=\\angle HBD\\)，\n∵\\(\\begin{cases} AB=HB \\\\ \\angle ABC=\\angle HBD \\\\ BC=BD \\end{cases}\\)，\n∴\\(\\vartriangle ABC≌\\vartriangle HBD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(HD=AC=AB=2\\)，\n∵\\(AH+HD\\ge AD\\)，\n故当\\(A、H、D\\)三点共线时，\\(AD\\)取得最大值，\n〔图3〕\n根据题意，得\\(\\angle HBD=\\angle HDB\\)，\n〔图4〕\n∴\\(\\angle EBH=\\angle HEB\\)，\n∴\\(HE=HB\\)，\n∴\\(HE=HB=HD=2\\)，\n∴当\\(AD\\)最长时，\\(DE=HE+HD=4\\)．",
+      "solution_steps": [
+        "过点B作\\(BH\\bot AB\\)于点B，且\\(BH=AB=2\\)，",
+        "∵\\(\\angle CBD=90{}^\\circ\\)，\\(BH\\bot AB\\)，",
+        "∴\\(\\angle ABH=90{}^\\circ -\\angle CBH=\\angle HBD\\)，",
+        "∵\\(\\begin{cases} AB=HB \\\\ \\angle ABC=\\angle HBD \\\\ BC=BD \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABC≌\\vartriangle HBD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(HD=AC=AB=2\\)，",
+        "∵\\(AH+HD\\ge AD\\)，",
+        "故当\\(A、H、D\\)三点共线时，\\(AD\\)取得最大值，",
+        "〔图3〕",
+        "根据题意，得\\(\\angle HBD=\\angle HDB\\)，",
+        "〔图4〕",
+        "∴\\(\\angle EBH=\\angle HEB\\)，",
+        "∴\\(HE=HB\\)，",
+        "∴\\(HE=HB=HD=2\\)，",
+        "∴当\\(AD\\)最长时，\\(DE=HE+HD=4\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      72
+    ],
+    "solution_body_blocks": [
+      311,
+      355
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-D780A37E8A/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          307.73,
+          583.64,
+          610.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-D780A37E8A/solution-q22-p16.webp",
+      "assets/SZ-G7-T2-D780A37E8A/solution-q22-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          120.45,
+          583.64,
+          719.55
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          727.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G01.02",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G01.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。 题面含“角平分线”。利用角平分关系求角。",
+  "tag_source": "小问标签汇总"
+}

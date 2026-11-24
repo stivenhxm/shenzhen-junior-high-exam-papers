@@ -1,0 +1,333 @@
+{
+  "id": "SZ-G7-T2-7B5DDF46FB-Q25",
+  "paper_id": "SZ-G7-T2-7B5DDF46FB",
+  "number": 25,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "小明同学发现这样一个规律：两个顶角相等的等腰三角形，如果具有公共的顶角的顶点，并把它们的底角顶点连接起来则形成一组全等的三角形，小明把具有这个规律的图形称为“手拉手”图形．\n（1）问题发现：如图1，若△ABC和△ADE均是顶角为40°的等腰三角形，BC、DE分别是底边，求证：BD＝CE；\n（2）拓展探究：如图2，若△ACB和△DCE均为等边三角形，点A、D、E在同一条直线上，连接BE，则∠AEB的度数为　   　；线段BE与AD之间的数量关系是　   　；\n（3）解决问题：如图3，若△ACB和△DCE均为等腰直角三角形，∠ACB＝∠DCE＝90°，点A、D、E在同一条直线上，CM为△DCE中DE边上的高，连接BE，请判断∠AEB的度数及线段CM、AE、BE之间的数量关系并说明理由．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/71/714225d67166573bbc9b633ccb19a9a32627154e37a9e0df1b1a70371ec8e91d.jpeg"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）60°，BE＝AD；（3）∠AEB＝90°，AE＝BE+2CM，理由见解析",
+  "answer": "（1）见解析；（2）60°，BE＝AD；（3）∠AEB＝90°，AE＝BE+2CM，理由见解析",
+  "given_solution": "【分析】（1）先判断出∠BAD＝∠CAE，进而利用SAS判断出△BAD≌△CAE，即可得出结论；\n（2）同（1）的方法判断出△BAD≌△CAE，得出AD＝BE，∠ADC＝∠BEC，最后用角的差，即可得出结论；\n（3）同（2）的方法，即可得出结论．\n【详解】解：（1）∵△ABC和△ADE均是顶角为40°的等腰三角形，\n∴AB＝AC，AD＝AE，∠BAC＝∠DAE，\n∴∠BAC﹣∠CAD＝∠DAE﹣∠CAD，\n∴∠BAD＝∠CAE，\n∴△BAD≌△CAE（SAS），\n∴BD＝CE；\n（2）∵△ABC和△ADE均是等边三角形，\n∴CA＝CB，CD＝CE，∠ACB＝∠DCE＝∠CDE＝∠CED＝60°，\n∴∠ACB﹣∠BCD＝∠DCE﹣∠BCD，\n∴∠ACD＝∠BCE，\n∴△ACD≌△BCE（SAS），\n∴AD＝BE，∠ADC＝∠BEC，\n∵∠CDE＝60°，\n∴∠BEC＝∠ADC＝180°﹣∠CDE＝120°，\n∵∠CED＝60°，\n∴∠AEB＝∠BEC﹣∠CED＝60°，\n故答案为：60°，BE＝AD；\n（3）AE＝BE+2CM，理由：\n同（1）（2）的方法得，△ACD≌△BCE（SAS），\n∴AD＝BE，∠ADC＝∠BEC，\n∵△CDE是等腰直角三角形，\n∴∠CDE＝∠CED＝45°，\n∴∠ADC＝180°﹣∠CDE＝45°，\n∴∠BEC＝∠ADC＝135°，\n∴∠AEB＝∠BEC﹣∠CED＝135°﹣45°＝90°，\n∵CD＝CE，CM⊥DE，\n∴DM＝ME，\n∵∠DCE＝90°，\n∴DM＝ME＝CM．\n∴AE＝AD+DE＝BE+2CM．\n【点睛】此题是三角形综合题，主要考查了全等三角形的判定和性质，等腰三角形，等边三角形，等腰直角三角形的性质，判断出△ACD≌△BCE是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/71/714225d67166573bbc9b633ccb19a9a32627154e37a9e0df1b1a70371ec8e91d.jpeg"
+  ],
+  "solution": "解：（1）∵△ABC和△ADE均是顶角为40°的等腰三角形，\n∴AB＝AC，AD＝AE，∠BAC＝∠DAE，\n∴∠BAC﹣∠CAD＝∠DAE﹣∠CAD，\n∴∠BAD＝∠CAE，\n∴△BAD≌△CAE（SAS），\n∴BD＝CE；\n（2）∵△ABC和△ADE均是等边三角形，\n∴CA＝CB，CD＝CE，∠ACB＝∠DCE＝∠CDE＝∠CED＝60°，\n∴∠ACB﹣∠BCD＝∠DCE﹣∠BCD，\n∴∠ACD＝∠BCE，\n∴△ACD≌△BCE（SAS），\n∴AD＝BE，∠ADC＝∠BEC，\n∵∠CDE＝60°，\n∴∠BEC＝∠ADC＝180°﹣∠CDE＝120°，\n∵∠CED＝60°，\n∴∠AEB＝∠BEC﹣∠CED＝60°，\n故答案为：60°，BE＝AD；\n（3）AE＝BE+2CM，理由：\n同（1）（2）的方法得，△ACD≌△BCE（SAS），\n∴AD＝BE，∠ADC＝∠BEC，\n∵△CDE是等腰直角三角形，\n∴∠CDE＝∠CED＝45°，\n∴∠ADC＝180°﹣∠CDE＝45°，\n∴∠BEC＝∠ADC＝135°，\n∴∠AEB＝∠BEC﹣∠CED＝135°﹣45°＝90°，\n∵CD＝CE，CM⊥DE，\n∴DM＝ME，\n∵∠DCE＝90°，\n∴DM＝ME＝CM．\n∴AE＝AD+DE＝BE+2CM．",
+  "solution_steps": [
+    "解：（1）∵△ABC和△ADE均是顶角为40°的等腰三角形，",
+    "∴AB＝AC，AD＝AE，∠BAC＝∠DAE，",
+    "∴∠BAC﹣∠CAD＝∠DAE﹣∠CAD，",
+    "∴∠BAD＝∠CAE，",
+    "∴△BAD≌△CAE（SAS），",
+    "∴BD＝CE；",
+    "（2）∵△ABC和△ADE均是等边三角形，",
+    "∴CA＝CB，CD＝CE，∠ACB＝∠DCE＝∠CDE＝∠CED＝60°，",
+    "∴∠ACB﹣∠BCD＝∠DCE﹣∠BCD，",
+    "∴∠ACD＝∠BCE，",
+    "∴△ACD≌△BCE（SAS），",
+    "∴AD＝BE，∠ADC＝∠BEC，",
+    "∵∠CDE＝60°，",
+    "∴∠BEC＝∠ADC＝180°﹣∠CDE＝120°，",
+    "∵∠CED＝60°，",
+    "∴∠AEB＝∠BEC﹣∠CED＝60°，",
+    "故答案为：60°，BE＝AD；",
+    "（3）AE＝BE+2CM，理由：",
+    "同（1）（2）的方法得，△ACD≌△BCE（SAS），",
+    "∴AD＝BE，∠ADC＝∠BEC，",
+    "∵△CDE是等腰直角三角形，",
+    "∴∠CDE＝∠CED＝45°，",
+    "∴∠ADC＝180°﹣∠CDE＝45°，",
+    "∴∠BEC＝∠ADC＝135°，",
+    "∴∠AEB＝∠BEC﹣∠CED＝135°﹣45°＝90°，",
+    "∵CD＝CE，CM⊥DE，",
+    "∴DM＝ME，",
+    "∵∠DCE＝90°，",
+    "∴DM＝ME＝CM．",
+    "∴AE＝AD+DE＝BE+2CM．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "小明同学发现这样一个规律：两个顶角相等的等腰三角形，如果具有公共的顶角的顶点，并把它们的底角顶点连接起来则形成一组全等的三角形，小明把具有这个规律的图形称为“手拉手”图形．",
+      "paper_blocks": [
+        92
+      ]
+    },
+    {
+      "id": "fig-96",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        96
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-7B5DDF46FB-Q25-P01",
+      "label": "（1）",
+      "prompt": "问题发现：如图1，若△ABC和△ADE均是顶角为40°的等腰三角形，BC、DE分别是底边，求证：BD＝CE；",
+      "stem_text": "问题发现：如图1，若△ABC和△ADE均是顶角为40°的等腰三角形，BC、DE分别是底边，求证：BD＝CE；",
+      "material_ids": [
+        "context",
+        "fig-96"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵△ABC和△ADE均是顶角为40°的等腰三角形，\n∴AB＝AC，AD＝AE，∠BAC＝∠DAE，\n∴∠BAC﹣∠CAD＝∠DAE﹣∠CAD，\n∴∠BAD＝∠CAE，\n∴△BAD≌△CAE（SAS），\n∴BD＝CE；",
+      "solution_steps": [
+        "∵△ABC和△ADE均是顶角为40°的等腰三角形，",
+        "∴AB＝AC，AD＝AE，∠BAC＝∠DAE，",
+        "∴∠BAC﹣∠CAD＝∠DAE﹣∠CAD，",
+        "∴∠BAD＝∠CAE，",
+        "∴△BAD≌△CAE（SAS），",
+        "∴BD＝CE；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          92,
+          93,
+          96
+        ],
+        "solution_block_ids": [
+          408,
+          409,
+          410,
+          411,
+          412,
+          413
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-7B5DDF46FB-Q25-P02",
+      "label": "（2）",
+      "prompt": "拓展探究：如图2，若△ACB和△DCE均为等边三角形，点A、D、E在同一条直线上，连接BE，则∠AEB的度数为　   　；线段BE与AD之间的数量关系是　   　；",
+      "stem_text": "拓展探究：如图2，若△ACB和△DCE均为等边三角形，点A、D、E在同一条直线上，连接BE，则∠AEB的度数为　   　；线段BE与AD之间的数量关系是　   　；",
+      "material_ids": [
+        "context",
+        "fig-96"
+      ],
+      "requires": [],
+      "given_answer": "60°，BE＝AD；",
+      "answer": "60°，BE＝AD；",
+      "given_solution": "∵△ABC和△ADE均是等边三角形，\n∴CA＝CB，CD＝CE，∠ACB＝∠DCE＝∠CDE＝∠CED＝60°，\n∴∠ACB﹣∠BCD＝∠DCE﹣∠BCD，\n∴∠ACD＝∠BCE，\n∴△ACD≌△BCE（SAS），\n∴AD＝BE，∠ADC＝∠BEC，\n∵∠CDE＝60°，\n∴∠BEC＝∠ADC＝180°﹣∠CDE＝120°，\n∵∠CED＝60°，\n∴∠AEB＝∠BEC﹣∠CED＝60°，\n故答案为：60°，BE＝AD；",
+      "solution_steps": [
+        "∵△ABC和△ADE均是等边三角形，",
+        "∴CA＝CB，CD＝CE，∠ACB＝∠DCE＝∠CDE＝∠CED＝60°，",
+        "∴∠ACB﹣∠BCD＝∠DCE﹣∠BCD，",
+        "∴∠ACD＝∠BCE，",
+        "∴△ACD≌△BCE（SAS），",
+        "∴AD＝BE，∠ADC＝∠BEC，",
+        "∵∠CDE＝60°，",
+        "∴∠BEC＝∠ADC＝180°﹣∠CDE＝120°，",
+        "∵∠CED＝60°，",
+        "∴∠AEB＝∠BEC﹣∠CED＝60°，",
+        "故答案为：60°，BE＝AD；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          92,
+          94,
+          96
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-7B5DDF46FB-Q25-P03",
+      "label": "（3）",
+      "prompt": "解决问题：如图3，若△ACB和△DCE均为等腰直角三角形，∠ACB＝∠DCE＝90°，点A、D、E在同一条直线上，CM为△DCE中DE边上的高，连接BE，请判断∠AEB的度数及线段CM、AE、BE之间的数量关系并说明理由．",
+      "stem_text": "解决问题：如图3，若△ACB和△DCE均为等腰直角三角形，∠ACB＝∠DCE＝90°，点A、D、E在同一条直线上，CM为△DCE中DE边上的高，连接BE，请判断∠AEB的度数及线段CM、AE、BE之间的数量关系并说明理由．",
+      "material_ids": [
+        "context",
+        "fig-96"
+      ],
+      "requires": [],
+      "given_answer": "∠AEB＝90°，AE＝BE+2CM，理由见解析",
+      "answer": "∠AEB＝90°，AE＝BE+2CM，理由见解析",
+      "given_solution": "AE＝BE+2CM，理由：\n同（1）（2）的方法得，△ACD≌△BCE（SAS），\n∴AD＝BE，∠ADC＝∠BEC，\n∵△CDE是等腰直角三角形，\n∴∠CDE＝∠CED＝45°，\n∴∠ADC＝180°﹣∠CDE＝45°，\n∴∠BEC＝∠ADC＝135°，\n∴∠AEB＝∠BEC﹣∠CED＝135°﹣45°＝90°，\n∵CD＝CE，CM⊥DE，\n∴DM＝ME，\n∵∠DCE＝90°，\n∴DM＝ME＝CM．\n∴AE＝AD+DE＝BE+2CM．",
+      "solution_steps": [
+        "AE＝BE+2CM，理由：",
+        "同（1）（2）的方法得，△ACD≌△BCE（SAS），",
+        "∴AD＝BE，∠ADC＝∠BEC，",
+        "∵△CDE是等腰直角三角形，",
+        "∴∠CDE＝∠CED＝45°，",
+        "∴∠ADC＝180°﹣∠CDE＝45°，",
+        "∴∠BEC＝∠ADC＝135°，",
+        "∴∠AEB＝∠BEC﹣∠CED＝135°﹣45°＝90°，",
+        "∵CD＝CE，CM⊥DE，",
+        "∴DM＝ME，",
+        "∵∠DCE＝90°，",
+        "∴DM＝ME＝CM．",
+        "∴AE＝AD+DE＝BE+2CM．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          92,
+          95,
+          96
+        ],
+        "solution_block_ids": [
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      92,
+      96
+    ],
+    "solution_body_blocks": [
+      398,
+      438
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-7B5DDF46FB/paper-q25-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          393.64,
+          583.64,
+          725.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-7B5DDF46FB/solution-q25-p20.webp",
+      "assets/SZ-G7-T2-7B5DDF46FB/solution-q25-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          205.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

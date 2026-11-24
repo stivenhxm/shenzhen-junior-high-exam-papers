@@ -1,0 +1,434 @@
+{
+  "id": "SZ-G7-T2-A060CDE51A-Q22",
+  "paper_id": "SZ-G7-T2-A060CDE51A",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "从全等对应关系求边与角、选择充分条件证明三角形全等",
+  "stem": "【初识图形】\n数学爱好者小明观察图形\\(1\\)，并选取图形的一部分如图\\(2\\)进行研究，发现\\(AC=BC\\)，\\(\\angle ACB=90{}^\\circ\\)，他在\\(\\angle BCA\\)的内部作一条射线\\(CF\\)，过\\(B\\)点作\\(BD\\bot CF\\)于点\\(D\\)，过\\(A\\)点作\\(AE\\bot CF\\)于点\\(E\\)，小明猜想\\(\\vartriangle BDC≌\\vartriangle CEA\\)．请问猜想是否正确，并说明理由；\n【迁移应用】\n如图\\(3\\)，\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AD\\bot CD\\)，\\(AD=3\\)，求\\(\\vartriangle ADB\\)的面积；\n【拓展延伸】\n如图\\(4\\)，在四边形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\\(AD\\parallel BC\\)，\\(AB=BC=CD=AD=10\\)，过\\(C\\)点作\\(CP\\bot AB\\)于点\\(P\\)，\\(CP=8\\)，\\(BP=6\\)，以线段\\(PD\\)为直角边构造等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PDQ\\)，请直接写出三角形\\(\\vartriangle APQ\\)的面积．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/34/349fbc50aedf65e222302f745069f7f6deacda73484fdb1f8492004ca532c807.png"
+  ],
+  "tables": [],
+  "given_answer": "【初识图形】正确，理由见解析；【迁移应用】\\(S_{ \\vartriangle ADB } =\\frac { 9 } { 2 }\\)；【拓展延伸】\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+  "answer": "【初识图形】正确，理由见解析；【迁移应用】\\(S_{ \\vartriangle ADB } =\\frac { 9 } { 2 }\\)；【拓展延伸】\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+  "given_solution": "【分析】【初识图形】由\\(\\angle ACB=90{}^\\circ\\)，则\\(\\angle BCD+\\angle ECA=90{}^\\circ\\)，通过\\(BD\\bot CF\\)，\\(AE\\bot CF\\)，得\\(\\angle DBC=\\angle ECA\\)，然后证明即可；\n【迁移应用】过\\(B\\)点作\\(BE\\bot AD\\) 于点\\(E\\)，同理可证\\(\\vartriangle BEA≌\\vartriangle ADC\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，然后用面积公式即可求解；\n【拓展延伸】分三种情况讨论即可；\n本题考查了全等三角形的判定与性质，同角的余角相等，垂直的定义，勾股定理的应用，熟练掌握知识点的应用是解题的关键．\n【详解】【初识图形】如图，\n〔图2〕\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle BCD+\\angle ECA=90{}^\\circ\\)，\n∵\\(BD\\bot CF\\)，\\(AE\\bot CF\\)，\n∴\\(\\angle BDC=\\angle CEA=90{}^\\circ\\)\\(\\angle BCD+\\angle DBC=90{}^\\circ\\)，\n∴\\(\\angle DBC=\\angle ECA\\)，\n在\\(\\vartriangle BDC\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle BDC=\\angle CEA \\\\ \\angle DBC=\\angle ECA \\\\ BC=AC \\end{cases}\\)，\n∴\\(\\vartriangle BDC≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；\n【迁移应用】\n如图，过\\(B\\)点作\\(BE\\bot AD\\) 于点\\(E\\)，\n〔图3〕\n∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(AB=AC\\)，\\(\\angle BAE+\\angle DAC=90{}^\\circ\\)，\n∵\\(AD\\bot CD\\)，\\(BE\\bot AD\\)，\n∴\\(\\angle BEA=\\angle ADC=90{}^\\circ\\)，\\(\\angle BAE+\\angle EBA=90{}^\\circ\\)，\n∴\\(\\angle EBA=\\angle DAC\\)，\n在\\(\\vartriangle BEA\\)和\\(\\vartriangle ADC\\)中，\n\\(\\begin{cases} \\angle BEA=\\angle ADC \\\\ \\angle EBA=\\angle DAC \\\\ AB=AC \\end{cases}\\)\n∴\\(\\vartriangle BEA≌\\vartriangle ADC\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BE=AD=3\\)，\n∴\\(S_{ \\vartriangle ADB } =\\frac { 1 } { 2 }AD\\times BE=\\frac { 1 } { 2 }\\times 3\\times 3=\\frac { 9 } { 2 }\\)；\n【拓展延伸】\n①如图，当\\(\\angle PDQ=90{}^\\circ\\)时，\n〔图4〕\n过\\(D\\)作\\(DH\\bot CD\\)，使得\\(DH=CD\\)，连接\\(QH\\)，过\\(Q\\)作\\(QG\\bot BA\\)交\\(BA\\)延长线于点\\(G\\)，\\(BA\\)交\\(DH\\)于点\\(I\\)，\n∴\\(PI\\bot DH\\)，\n同上理：\\(\\vartriangle DPC≌\\vartriangle DQH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DH=CD=10\\)，\n∵\\(CP\\bot AB\\)，\n∴\\(CP=DI=8\\)，\\(\\angle BPC=90{}^\\circ\\)，\n∴\\(HI=QG=2\\)，\\(BP=\\sqrt[] { BC ^ { 2 } -CP ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∴\\(AP=AB-BP=10-6=4\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QG=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)；\n②如图，过\\(Q\\)作\\(QM\\bot AB\\)于点\\(M\\)交\\(CD\\)于点\\(N\\)，\n〔图5〕\n同（\\(1\\)）理\\(\\vartriangle QDN≌\\vartriangle DPC\\)，\n∴\\(QN=CD=10\\)，\n又\\(MN=CP=8\\)，\n∴\\(QM=QN+MN=10+8=18\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 18=36\\)，\n③如图，过\\(Q\\)作\\(QM\\bot AB\\)交\\(BA\\)延长线于点\\(M\\)，过\\(D\\)作\\(DN\\bot AB\\)交BA延长线于点\\(N\\)，则\\(\\angle DNP=\\angle QMP=90{}^\\circ\\)\n〔图6〕\n同（\\(1\\)）理\\(\\vartriangle QPM≌\\vartriangle PDN\\)，\n∴\\(QM=PN\\)，\\(ND=PM=8\\)，\n∵\\(AD=10\\)，\n∴由勾股定理得：\\(AN=\\sqrt[] { AD ^ { 2 } -ND ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∴\\(PN=AP+PN=4+6=10\\)，\n∴\\(QM=PN=10\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 10=20\\)，\n综上可知：\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+  "given_solution_figures": [
+    "assets/figures/34/349fbc50aedf65e222302f745069f7f6deacda73484fdb1f8492004ca532c807.png",
+    "assets/figures/8d/8d2fc96cf6e3cf5501312899920e08d0b3023c02882ac11cf704912acca26238.png",
+    "assets/figures/de/de1271ff3450ca434a0f3e672bfac6418c169148cc736a555cbc0e540af0441a.png",
+    "assets/figures/e8/e8b5b732938af17fb5c3a3765f799461b4d2e9f39d9a7cf4609da47d3c4fd3b7.png",
+    "assets/figures/9e/9ed60070e59620c1a91ea9dc389f6b0e635d5a24c1ba423bbbf994dee165f43b.png",
+    "assets/figures/0b/0b95a40e704da910eeb4d06e039c0a64600eb8ae1bf855f42de9f4de38a75074.png"
+  ],
+  "solution": "【初识图形】如图，\n〔图2〕\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle BCD+\\angle ECA=90{}^\\circ\\)，\n∵\\(BD\\bot CF\\)，\\(AE\\bot CF\\)，\n∴\\(\\angle BDC=\\angle CEA=90{}^\\circ\\)\\(\\angle BCD+\\angle DBC=90{}^\\circ\\)，\n∴\\(\\angle DBC=\\angle ECA\\)，\n在\\(\\vartriangle BDC\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle BDC=\\angle CEA \\\\ \\angle DBC=\\angle ECA \\\\ BC=AC \\end{cases}\\)，\n∴\\(\\vartriangle BDC≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；\n【迁移应用】\n如图，过\\(B\\)点作\\(BE\\bot AD\\) 于点\\(E\\)，\n〔图3〕\n∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(AB=AC\\)，\\(\\angle BAE+\\angle DAC=90{}^\\circ\\)，\n∵\\(AD\\bot CD\\)，\\(BE\\bot AD\\)，\n∴\\(\\angle BEA=\\angle ADC=90{}^\\circ\\)，\\(\\angle BAE+\\angle EBA=90{}^\\circ\\)，\n∴\\(\\angle EBA=\\angle DAC\\)，\n在\\(\\vartriangle BEA\\)和\\(\\vartriangle ADC\\)中，\n\\(\\begin{cases} \\angle BEA=\\angle ADC \\\\ \\angle EBA=\\angle DAC \\\\ AB=AC \\end{cases}\\)\n∴\\(\\vartriangle BEA≌\\vartriangle ADC\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BE=AD=3\\)，\n∴\\(S_{ \\vartriangle ADB } =\\frac { 1 } { 2 }AD\\times BE=\\frac { 1 } { 2 }\\times 3\\times 3=\\frac { 9 } { 2 }\\)；\n【拓展延伸】\n①如图，当\\(\\angle PDQ=90{}^\\circ\\)时，\n〔图4〕\n过\\(D\\)作\\(DH\\bot CD\\)，使得\\(DH=CD\\)，连接\\(QH\\)，过\\(Q\\)作\\(QG\\bot BA\\)交\\(BA\\)延长线于点\\(G\\)，\\(BA\\)交\\(DH\\)于点\\(I\\)，\n∴\\(PI\\bot DH\\)，\n同上理：\\(\\vartriangle DPC≌\\vartriangle DQH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DH=CD=10\\)，\n∵\\(CP\\bot AB\\)，\n∴\\(CP=DI=8\\)，\\(\\angle BPC=90{}^\\circ\\)，\n∴\\(HI=QG=2\\)，\\(BP=\\sqrt[] { BC ^ { 2 } -CP ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∴\\(AP=AB-BP=10-6=4\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QG=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)；\n②如图，过\\(Q\\)作\\(QM\\bot AB\\)于点\\(M\\)交\\(CD\\)于点\\(N\\)，\n〔图5〕\n同（\\(1\\)）理\\(\\vartriangle QDN≌\\vartriangle DPC\\)，\n∴\\(QN=CD=10\\)，\n又\\(MN=CP=8\\)，\n∴\\(QM=QN+MN=10+8=18\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 18=36\\)，\n③如图，过\\(Q\\)作\\(QM\\bot AB\\)交\\(BA\\)延长线于点\\(M\\)，过\\(D\\)作\\(DN\\bot AB\\)交BA延长线于点\\(N\\)，则\\(\\angle DNP=\\angle QMP=90{}^\\circ\\)\n〔图6〕\n同（\\(1\\)）理\\(\\vartriangle QPM≌\\vartriangle PDN\\)，\n∴\\(QM=PN\\)，\\(ND=PM=8\\)，\n∵\\(AD=10\\)，\n∴由勾股定理得：\\(AN=\\sqrt[] { AD ^ { 2 } -ND ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∴\\(PN=AP+PN=4+6=10\\)，\n∴\\(QM=PN=10\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 10=20\\)，\n综上可知：\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+  "solution_steps": [
+    "【初识图形】如图，",
+    "〔图2〕",
+    "∵\\(\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle BCD+\\angle ECA=90{}^\\circ\\)，",
+    "∵\\(BD\\bot CF\\)，\\(AE\\bot CF\\)，",
+    "∴\\(\\angle BDC=\\angle CEA=90{}^\\circ\\)\\(\\angle BCD+\\angle DBC=90{}^\\circ\\)，",
+    "∴\\(\\angle DBC=\\angle ECA\\)，",
+    "在\\(\\vartriangle BDC\\)和\\(\\vartriangle CEA\\)中，",
+    "\\(\\begin{cases} \\angle BDC=\\angle CEA \\\\ \\angle DBC=\\angle ECA \\\\ BC=AC \\end{cases}\\)，",
+    "∴\\(\\vartriangle BDC≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；",
+    "【迁移应用】",
+    "如图，过\\(B\\)点作\\(BE\\bot AD\\) 于点\\(E\\)，",
+    "〔图3〕",
+    "∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，",
+    "∴\\(AB=AC\\)，\\(\\angle BAE+\\angle DAC=90{}^\\circ\\)，",
+    "∵\\(AD\\bot CD\\)，\\(BE\\bot AD\\)，",
+    "∴\\(\\angle BEA=\\angle ADC=90{}^\\circ\\)，\\(\\angle BAE+\\angle EBA=90{}^\\circ\\)，",
+    "∴\\(\\angle EBA=\\angle DAC\\)，",
+    "在\\(\\vartriangle BEA\\)和\\(\\vartriangle ADC\\)中，",
+    "\\(\\begin{cases} \\angle BEA=\\angle ADC \\\\ \\angle EBA=\\angle DAC \\\\ AB=AC \\end{cases}\\)",
+    "∴\\(\\vartriangle BEA≌\\vartriangle ADC\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(BE=AD=3\\)，",
+    "∴\\(S_{ \\vartriangle ADB } =\\frac { 1 } { 2 }AD\\times BE=\\frac { 1 } { 2 }\\times 3\\times 3=\\frac { 9 } { 2 }\\)；",
+    "【拓展延伸】",
+    "①如图，当\\(\\angle PDQ=90{}^\\circ\\)时，",
+    "〔图4〕",
+    "过\\(D\\)作\\(DH\\bot CD\\)，使得\\(DH=CD\\)，连接\\(QH\\)，过\\(Q\\)作\\(QG\\bot BA\\)交\\(BA\\)延长线于点\\(G\\)，\\(BA\\)交\\(DH\\)于点\\(I\\)，",
+    "∴\\(PI\\bot DH\\)，",
+    "同上理：\\(\\vartriangle DPC≌\\vartriangle DQH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(DH=CD=10\\)，",
+    "∵\\(CP\\bot AB\\)，",
+    "∴\\(CP=DI=8\\)，\\(\\angle BPC=90{}^\\circ\\)，",
+    "∴\\(HI=QG=2\\)，\\(BP=\\sqrt[] { BC ^ { 2 } -CP ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，",
+    "∴\\(AP=AB-BP=10-6=4\\)，",
+    "∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QG=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)；",
+    "②如图，过\\(Q\\)作\\(QM\\bot AB\\)于点\\(M\\)交\\(CD\\)于点\\(N\\)，",
+    "〔图5〕",
+    "同（\\(1\\)）理\\(\\vartriangle QDN≌\\vartriangle DPC\\)，",
+    "∴\\(QN=CD=10\\)，",
+    "又\\(MN=CP=8\\)，",
+    "∴\\(QM=QN+MN=10+8=18\\)，",
+    "∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 18=36\\)，",
+    "③如图，过\\(Q\\)作\\(QM\\bot AB\\)交\\(BA\\)延长线于点\\(M\\)，过\\(D\\)作\\(DN\\bot AB\\)交BA延长线于点\\(N\\)，则\\(\\angle DNP=\\angle QMP=90{}^\\circ\\)",
+    "〔图6〕",
+    "同（\\(1\\)）理\\(\\vartriangle QPM≌\\vartriangle PDN\\)，",
+    "∴\\(QM=PN\\)，\\(ND=PM=8\\)，",
+    "∵\\(AD=10\\)，",
+    "∴由勾股定理得：\\(AN=\\sqrt[] { AD ^ { 2 } -ND ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，",
+    "∴\\(PN=AP+PN=4+6=10\\)，",
+    "∴\\(QM=PN=10\\)，",
+    "∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 10=20\\)，",
+    "综上可知：\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "fig",
+      "kind": "text",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        79
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-A060CDE51A-Q22-P01",
+      "label": "初识图形",
+      "prompt": "【初识图形】\n数学爱好者小明观察图形\\(1\\)，并选取图形的一部分如图\\(2\\)进行研究，发现\\(AC=BC\\)，\\(\\angle ACB=90{}^\\circ\\)，他在\\(\\angle BCA\\)的内部作一条射线\\(CF\\)，过\\(B\\)点作\\(BD\\bot CF\\)于点\\(D\\)，过\\(A\\)点作\\(AE\\bot CF\\)于点\\(E\\)，小明猜想\\(\\vartriangle BDC≌\\vartriangle CEA\\)．请问猜想是否正确，并说明理由；",
+      "stem_text": "【初识图形】\n数学爱好者小明观察图形\\(1\\)，并选取图形的一部分如图\\(2\\)进行研究，发现\\(AC=BC\\)，\\(\\angle ACB=90{}^\\circ\\)，他在\\(\\angle BCA\\)的内部作一条射线\\(CF\\)，过\\(B\\)点作\\(BD\\bot CF\\)于点\\(D\\)，过\\(A\\)点作\\(AE\\bot CF\\)于点\\(E\\)，小明猜想\\(\\vartriangle BDC≌\\vartriangle CEA\\)．请问猜想是否正确，并说明理由；",
+      "material_ids": [
+        "fig"
+      ],
+      "requires": [],
+      "given_answer": "正确，理由见解析",
+      "answer": "正确，理由见解析",
+      "source": {
+        "paper_block_ids": [
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "given_solution": "【详解】【初识图形】如图，\n〔图2〕\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle BCD+\\angle ECA=90{}^\\circ\\)，\n∵\\(BD\\bot CF\\)，\\(AE\\bot CF\\)，\n∴\\(\\angle BDC=\\angle CEA=90{}^\\circ\\)\\(\\angle BCD+\\angle DBC=90{}^\\circ\\)，\n∴\\(\\angle DBC=\\angle ECA\\)，\n在\\(\\vartriangle BDC\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle BDC=\\angle CEA \\\\ \\angle DBC=\\angle ECA \\\\ BC=AC \\end{cases}\\)，\n∴\\(\\vartriangle BDC≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；",
+      "solution_steps": [
+        "【初识图形】如图，",
+        "〔图2〕",
+        "∵\\(\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle BCD+\\angle ECA=90{}^\\circ\\)，",
+        "∵\\(BD\\bot CF\\)，\\(AE\\bot CF\\)，",
+        "∴\\(\\angle BDC=\\angle CEA=90{}^\\circ\\)\\(\\angle BCD+\\angle DBC=90{}^\\circ\\)，",
+        "∴\\(\\angle DBC=\\angle ECA\\)，",
+        "在\\(\\vartriangle BDC\\)和\\(\\vartriangle CEA\\)中，",
+        "\\(\\begin{cases} \\angle BDC=\\angle CEA \\\\ \\angle DBC=\\angle ECA \\\\ BC=AC \\end{cases}\\)，",
+        "∴\\(\\vartriangle BDC≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；"
+      ],
+      "review_note": "",
+      "solution_figure_ids": [
+        2
+      ],
+      "knowledge_ids": [
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-A060CDE51A-Q22-P02",
+      "label": "迁移应用",
+      "prompt": "【迁移应用】\n如图\\(3\\)，\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AD\\bot CD\\)，\\(AD=3\\)，求\\(\\vartriangle ADB\\)的面积；",
+      "stem_text": "【迁移应用】\n如图\\(3\\)，\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\\(AD\\bot CD\\)，\\(AD=3\\)，求\\(\\vartriangle ADB\\)的面积；",
+      "material_ids": [
+        "fig"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ \\vartriangle ADB } =\\frac { 9 } { 2 }\\)",
+      "answer": "\\(S_{ \\vartriangle ADB } =\\frac { 9 } { 2 }\\)",
+      "source": {
+        "paper_block_ids": [
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "given_solution": "【迁移应用】\n如图，过\\(B\\)点作\\(BE\\bot AD\\) 于点\\(E\\)，\n〔图3〕\n∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(AB=AC\\)，\\(\\angle BAE+\\angle DAC=90{}^\\circ\\)，\n∵\\(AD\\bot CD\\)，\\(BE\\bot AD\\)，\n∴\\(\\angle BEA=\\angle ADC=90{}^\\circ\\)，\\(\\angle BAE+\\angle EBA=90{}^\\circ\\)，\n∴\\(\\angle EBA=\\angle DAC\\)，\n在\\(\\vartriangle BEA\\)和\\(\\vartriangle ADC\\)中，\n\\(\\begin{cases} \\angle BEA=\\angle ADC \\\\ \\angle EBA=\\angle DAC \\\\ AB=AC \\end{cases}\\)\n∴\\(\\vartriangle BEA≌\\vartriangle ADC\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BE=AD=3\\)，\n∴\\(S_{ \\vartriangle ADB } =\\frac { 1 } { 2 }AD\\times BE=\\frac { 1 } { 2 }\\times 3\\times 3=\\frac { 9 } { 2 }\\)；",
+      "solution_steps": [
+        "【迁移应用】",
+        "如图，过\\(B\\)点作\\(BE\\bot AD\\) 于点\\(E\\)，",
+        "〔图3〕",
+        "∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle BAC=90{}^\\circ\\)，",
+        "∴\\(AB=AC\\)，\\(\\angle BAE+\\angle DAC=90{}^\\circ\\)，",
+        "∵\\(AD\\bot CD\\)，\\(BE\\bot AD\\)，",
+        "∴\\(\\angle BEA=\\angle ADC=90{}^\\circ\\)，\\(\\angle BAE+\\angle EBA=90{}^\\circ\\)，",
+        "∴\\(\\angle EBA=\\angle DAC\\)，",
+        "在\\(\\vartriangle BEA\\)和\\(\\vartriangle ADC\\)中，",
+        "\\(\\begin{cases} \\angle BEA=\\angle ADC \\\\ \\angle EBA=\\angle DAC \\\\ AB=AC \\end{cases}\\)",
+        "∴\\(\\vartriangle BEA≌\\vartriangle ADC\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(BE=AD=3\\)，",
+        "∴\\(S_{ \\vartriangle ADB } =\\frac { 1 } { 2 }AD\\times BE=\\frac { 1 } { 2 }\\times 3\\times 3=\\frac { 9 } { 2 }\\)；"
+      ],
+      "review_note": "",
+      "solution_figure_ids": [
+        3
+      ],
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-A060CDE51A-Q22-P03",
+      "label": "拓展延伸",
+      "prompt": "【拓展延伸】\n如图\\(4\\)，在四边形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\\(AD\\parallel BC\\)，\\(AB=BC=CD=AD=10\\)，过\\(C\\)点作\\(CP\\bot AB\\)于点\\(P\\)，\\(CP=8\\)，\\(BP=6\\)，以线段\\(PD\\)为直角边构造等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PDQ\\)，请直接写出三角形\\(\\vartriangle APQ\\)的面积．",
+      "stem_text": "【拓展延伸】\n如图\\(4\\)，在四边形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\\(AD\\parallel BC\\)，\\(AB=BC=CD=AD=10\\)，过\\(C\\)点作\\(CP\\bot AB\\)于点\\(P\\)，\\(CP=8\\)，\\(BP=6\\)，以线段\\(PD\\)为直角边构造等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PDQ\\)，请直接写出三角形\\(\\vartriangle APQ\\)的面积．",
+      "material_ids": [
+        "fig"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+      "answer": "\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+      "source": {
+        "paper_block_ids": [
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20,
+          21
+        ]
+      },
+      "given_solution": "【拓展延伸】\n①如图，当\\(\\angle PDQ=90{}^\\circ\\)时，\n〔图4〕\n过\\(D\\)作\\(DH\\bot CD\\)，使得\\(DH=CD\\)，连接\\(QH\\)，过\\(Q\\)作\\(QG\\bot BA\\)交\\(BA\\)延长线于点\\(G\\)，\\(BA\\)交\\(DH\\)于点\\(I\\)，\n∴\\(PI\\bot DH\\)，\n同上理：\\(\\vartriangle DPC≌\\vartriangle DQH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DH=CD=10\\)，\n∵\\(CP\\bot AB\\)，\n∴\\(CP=DI=8\\)，\\(\\angle BPC=90{}^\\circ\\)，\n∴\\(HI=QG=2\\)，\\(BP=\\sqrt[] { BC ^ { 2 } -CP ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∴\\(AP=AB-BP=10-6=4\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QG=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)；\n②如图，过\\(Q\\)作\\(QM\\bot AB\\)于点\\(M\\)交\\(CD\\)于点\\(N\\)，\n〔图5〕\n同（\\(1\\)）理\\(\\vartriangle QDN≌\\vartriangle DPC\\)，\n∴\\(QN=CD=10\\)，\n又\\(MN=CP=8\\)，\n∴\\(QM=QN+MN=10+8=18\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 18=36\\)，\n③如图，过\\(Q\\)作\\(QM\\bot AB\\)交\\(BA\\)延长线于点\\(M\\)，过\\(D\\)作\\(DN\\bot AB\\)交BA延长线于点\\(N\\)，则\\(\\angle DNP=\\angle QMP=90{}^\\circ\\)\n〔图6〕\n同（\\(1\\)）理\\(\\vartriangle QPM≌\\vartriangle PDN\\)，\n∴\\(QM=PN\\)，\\(ND=PM=8\\)，\n∵\\(AD=10\\)，\n∴由勾股定理得：\\(AN=\\sqrt[] { AD ^ { 2 } -ND ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∴\\(PN=AP+PN=4+6=10\\)，\n∴\\(QM=PN=10\\)，\n∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 10=20\\)，\n综上可知：\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．",
+      "solution_steps": [
+        "【拓展延伸】",
+        "①如图，当\\(\\angle PDQ=90{}^\\circ\\)时，",
+        "〔图4〕",
+        "过\\(D\\)作\\(DH\\bot CD\\)，使得\\(DH=CD\\)，连接\\(QH\\)，过\\(Q\\)作\\(QG\\bot BA\\)交\\(BA\\)延长线于点\\(G\\)，\\(BA\\)交\\(DH\\)于点\\(I\\)，",
+        "∴\\(PI\\bot DH\\)，",
+        "同上理：\\(\\vartriangle DPC≌\\vartriangle DQH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(DH=CD=10\\)，",
+        "∵\\(CP\\bot AB\\)，",
+        "∴\\(CP=DI=8\\)，\\(\\angle BPC=90{}^\\circ\\)，",
+        "∴\\(HI=QG=2\\)，\\(BP=\\sqrt[] { BC ^ { 2 } -CP ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，",
+        "∴\\(AP=AB-BP=10-6=4\\)，",
+        "∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QG=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)；",
+        "②如图，过\\(Q\\)作\\(QM\\bot AB\\)于点\\(M\\)交\\(CD\\)于点\\(N\\)，",
+        "〔图5〕",
+        "同（\\(1\\)）理\\(\\vartriangle QDN≌\\vartriangle DPC\\)，",
+        "∴\\(QN=CD=10\\)，",
+        "又\\(MN=CP=8\\)，",
+        "∴\\(QM=QN+MN=10+8=18\\)，",
+        "∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 18=36\\)，",
+        "③如图，过\\(Q\\)作\\(QM\\bot AB\\)交\\(BA\\)延长线于点\\(M\\)，过\\(D\\)作\\(DN\\bot AB\\)交BA延长线于点\\(N\\)，则\\(\\angle DNP=\\angle QMP=90{}^\\circ\\)",
+        "〔图6〕",
+        "同（\\(1\\)）理\\(\\vartriangle QPM≌\\vartriangle PDN\\)，",
+        "∴\\(QM=PN\\)，\\(ND=PM=8\\)，",
+        "∵\\(AD=10\\)，",
+        "∴由勾股定理得：\\(AN=\\sqrt[] { AD ^ { 2 } -ND ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，",
+        "∴\\(PN=AP+PN=4+6=10\\)，",
+        "∴\\(QM=PN=10\\)，",
+        "∴\\(S_{ \\vartriangle APQ } =\\frac { 1 } { 2 }AP\\times QM=\\frac { 1 } { 2 }\\times 4\\times 10=20\\)，",
+        "综上可知：\\(\\vartriangle APQ\\)的面积为\\(4\\)或\\(20\\)或\\(36\\)．"
+      ],
+      "review_note": "",
+      "solution_figure_ids": [
+        4,
+        5,
+        6
+      ],
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "解答指向利用勾股关系计算边长。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      73,
+      79
+    ],
+    "solution_body_blocks": [
+      340,
+      404
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-A060CDE51A/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          435.0,
+          583.64,
+          760.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-A060CDE51A/solution-q22-p18.webp",
+      "assets/SZ-G7-T2-A060CDE51A/solution-q22-p19.webp",
+      "assets/SZ-G7-T2-A060CDE51A/solution-q22-p20.webp",
+      "assets/SZ-G7-T2-A060CDE51A/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          257.27,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          638.18
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          731.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          506.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.01",
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.01.01",
+    "E.G03.02.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。 解答指向利用勾股关系计算边长。",
+  "tag_source": "小问标签汇总"
+}

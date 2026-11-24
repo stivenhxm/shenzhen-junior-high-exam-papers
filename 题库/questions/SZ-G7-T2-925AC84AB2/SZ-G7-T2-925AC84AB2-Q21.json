@@ -1,0 +1,480 @@
+{
+  "id": "SZ-G7-T2-925AC84AB2-Q21",
+  "paper_id": "SZ-G7-T2-925AC84AB2",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "已知：\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=CB\\)，D为直线BC上一动点，连接AD，在直线AC右侧作\\(AE\\bot AD\\)，且\\(AE=AD\\)．\n〔图1〕\n（1）如图1，当点D在线段BC上时，过点E作\\(EH\\bot AC\\)于H，连接DE，求证：\\(EH=AC\\)；\n（2）如图2，当点D在线段BC的延长线上时，连接BE交CA的延长线于点M．\n求证：\\(BM=EM\\)；\n（3）当点D在射线CB上时，连接BE交直线AC于M，若\\(2AC=5CM\\)，则\\(\\frac { S_{ \\vartriangle ADB } } { S_{ \\vartriangle AEM } }\\)的值为______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/d7/d7f9501b2aaa4db0417651694b3310a2c44608c1f759d7e0b01a27109c0043cc.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）见解析\n（3）\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)",
+  "answer": "（1）见解析    （2）见解析\n（3）\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)",
+  "given_solution": "【分析】（1）由\\(AE\\bot AD,EH\\bot AC,\\angle ACB=90 ^ { {}^\\circ }\\)，得\\(\\angle AHE=\\angle C=\\angle DAE=90 ^ { {}^\\circ }\\)，根据余角的性质可证\\(\\angle AEH=\\angle DAC\\)，根据\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle AEH≌\\vartriangle DAC\\)即可；\n（2）作\\(EF\\bot CM\\)交\\(CM\\)的延长线于点F，先证明\\(\\vartriangle AEH≌\\vartriangle DAC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，得\\(EF=AC=BC\\)，再证明\\(\\vartriangle BMC≌\\vartriangle EMF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)可证结论成立；\n（3）分当点D在\\(CB\\)的延长线上时和当点D在线段\\(BC\\)上时两种情况求解即可．\n【小问1详解】\n∵\\(AE\\bot AD,EH\\bot AC,\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle AHE=\\angle C=\\angle DAE=90{}^\\circ\\)，\n∵\\(\\angle AEH+\\angle EAH=90{}^\\circ\\)，\\(\\angle DAC+\\angle EAH=90{}^\\circ\\)，\n∴\\(\\angle AEH=\\angle DAC\\)，\n在\\(\\vartriangle AEH\\)和\\(\\vartriangle DAC\\)中，\n\\(\\begin{cases} \\angle AHE=\\angle C \\\\ \\angle AEH=\\angle DAC \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle AEH≌\\vartriangle DAC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EH=AC\\)．\n【小问2详解】\n如图，作\\(EF\\bot CM\\)交\\(CM\\)的延长线于点F，\n〔图2〕\n∵\\(\\angle F=90{}^\\circ ,\\angle ACD=180{}^\\circ -\\angle ACB=90{}^\\circ ,\\angle DAE=90{}^\\circ\\)，\n∴\\(\\angle F=\\angle ACD=\\angle MCB\\)，\n∵\\(\\angle FAE+\\angle CAD=90{}^\\circ\\)，\\(\\angle CDA+\\angle CAD=90{}^\\circ\\)，\n∴\\(\\angle FAE=\\angle CDA\\)，\n在\\(\\vartriangle FAE\\)和\\(\\vartriangle CDA\\)中，\n\\(\\begin{cases} \\angle F=\\angle ACD \\\\ \\angle FAE=\\angle CDA \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle FAE≌\\vartriangle CDA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EF=AC\\)，\n∵\\(AC=CB\\)，\n∴\\(EF=AC=BC\\)，\n在\\(\\vartriangle BMC\\)和\\(\\vartriangle EMF\\)中，\n\\(\\begin{cases} \\angle MCB=\\angle F \\\\ \\angle BMC=\\angle EMF \\\\ BC=EF \\end{cases}\\)，\n∴\\(\\vartriangle BMC≌\\vartriangle EMF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∵\\(BM=EM\\)．\n【小问3详解】\n当点D在\\(CB\\)的延长线上时，作\\(EG\\bot AM\\)交\\(AM\\)的延长线于点G，则\\(\\angle G=\\angle ACD=90{}^\\circ\\)，\n〔图3〕\n∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∵\\(\\angle D+\\angle DAC=90{}^\\circ\\)，\\(\\angle DAC+\\angle GAE=90{}^\\circ\\)，\n∴\\(\\angle GAE=\\angle D\\)，\n在\\(\\vartriangle AGE\\)和\\(\\vartriangle DCA\\)中，\n\\(\\begin{cases} \\angle G=\\angle ACD \\\\ \\angle GAE=\\angle D \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle AGE≌\\vartriangle DCA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(AG=DC,EG=AC\\)，\n∵\\(AC=CB\\)，\n∴\\(EG=AC=BC\\)\n∴\\(AG-AC=DC-BC\\)，\n∴\\(CG=DB\\)，\n∵\\(\\angle BCM=180{}^\\circ -\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle G=\\angle BCM\\)，\n在\\(\\vartriangle EGM\\)和\\(\\vartriangle BCM\\)中，\n\\(\\begin{cases} \\angle G=\\angle BCM \\\\ \\angle EMG=\\angle BMC \\\\ EG=BC \\end{cases}\\)，\n∴\\(\\vartriangle EGM≌\\vartriangle BCM({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(GM=CM\\)，\n设\\(GM=CM=m\\)，则\\(DB=CG=2m\\)，\n∵\\(2AC=5CM\\)，\n∴\\(AC=\\frac { 5 } { 2 }CM=\\frac { 5 } { 2 }m\\)，\n∴\\(AM=\\frac { 5 } { 2 }CM+CM=\\frac { 7 } { 2 }CM=\\frac { 7 } { 2 }m\\)，\n∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2m\\cdot AC=m\\cdot AC\\)，\n\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 7 } { 2 }m\\cdot AC=\\frac { 7 } { 4 }m\\cdot AC\\)，\n∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { m\\cdot AC } { \\frac { m } { 4 }m\\cdot AC }=\\frac { 4 } { 7 }\\)，\n∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)；\n当点D在线段\\(BC\\)上时，作\\(EG\\bot AM\\)于点G，\n〔图4〕\n同理可证：\\(EG=AC=BC\\)，\\(GM=CM\\)，\n设\\(CM=GM=n\\)，则\\(BD=CG=2n\\)，\n∵\\(2AC=5CM\\)，\n∴\\(AC=\\frac { 5 } { 2 }CM,\\)，\n∴\\(AM=\\frac { 5 } { 2 }CM-CM=\\frac { 3 } { 2 }CM=\\frac { 3 } { 2 }n\\)，\n∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2n\\cdot AC=n\\cdot AC\\)，\n\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 3 } { 2 }n\\cdot AC=\\frac { 3 } { 4 }n\\cdot AC\\)，\n∴\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { n\\cdot AC } { \\frac { 3 } { 4 }n\\cdot AC }=\\frac { 4 } { 3 }\\)，\n综上所述，\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)，\n故答案为：\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)．\n【点睛】此题考查了同角的余角相等、全等三角形的判定与性质等知识，难度较大，正确地作出辅助线是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/d7/d7f9501b2aaa4db0417651694b3310a2c44608c1f759d7e0b01a27109c0043cc.png",
+    "assets/figures/11/11ffb51cae77a787bcc1521f2f0150dd0b31d8a1bf90a00c6dbabb1bfbc647b0.png",
+    "assets/figures/06/06ff85adc01bafe4e6fc7256e25272ba38b961bbb701a71efe63e0c074ac71db.png",
+    "assets/figures/a2/a24cbc10199da5ac4eefeda7550d702bb437721a0a350e2f37a8e33d31c5eeef.png"
+  ],
+  "solution": "【小问1详解】\n∵\\(AE\\bot AD,EH\\bot AC,\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle AHE=\\angle C=\\angle DAE=90{}^\\circ\\)，\n∵\\(\\angle AEH+\\angle EAH=90{}^\\circ\\)，\\(\\angle DAC+\\angle EAH=90{}^\\circ\\)，\n∴\\(\\angle AEH=\\angle DAC\\)，\n在\\(\\vartriangle AEH\\)和\\(\\vartriangle DAC\\)中，\n\\(\\begin{cases} \\angle AHE=\\angle C \\\\ \\angle AEH=\\angle DAC \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle AEH≌\\vartriangle DAC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EH=AC\\)．\n【小问2详解】\n如图，作\\(EF\\bot CM\\)交\\(CM\\)的延长线于点F，\n〔图2〕\n∵\\(\\angle F=90{}^\\circ ,\\angle ACD=180{}^\\circ -\\angle ACB=90{}^\\circ ,\\angle DAE=90{}^\\circ\\)，\n∴\\(\\angle F=\\angle ACD=\\angle MCB\\)，\n∵\\(\\angle FAE+\\angle CAD=90{}^\\circ\\)，\\(\\angle CDA+\\angle CAD=90{}^\\circ\\)，\n∴\\(\\angle FAE=\\angle CDA\\)，\n在\\(\\vartriangle FAE\\)和\\(\\vartriangle CDA\\)中，\n\\(\\begin{cases} \\angle F=\\angle ACD \\\\ \\angle FAE=\\angle CDA \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle FAE≌\\vartriangle CDA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EF=AC\\)，\n∵\\(AC=CB\\)，\n∴\\(EF=AC=BC\\)，\n在\\(\\vartriangle BMC\\)和\\(\\vartriangle EMF\\)中，\n\\(\\begin{cases} \\angle MCB=\\angle F \\\\ \\angle BMC=\\angle EMF \\\\ BC=EF \\end{cases}\\)，\n∴\\(\\vartriangle BMC≌\\vartriangle EMF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∵\\(BM=EM\\)．\n【小问3详解】\n当点D在\\(CB\\)的延长线上时，作\\(EG\\bot AM\\)交\\(AM\\)的延长线于点G，则\\(\\angle G=\\angle ACD=90{}^\\circ\\)，\n〔图3〕\n∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∵\\(\\angle D+\\angle DAC=90{}^\\circ\\)，\\(\\angle DAC+\\angle GAE=90{}^\\circ\\)，\n∴\\(\\angle GAE=\\angle D\\)，\n在\\(\\vartriangle AGE\\)和\\(\\vartriangle DCA\\)中，\n\\(\\begin{cases} \\angle G=\\angle ACD \\\\ \\angle GAE=\\angle D \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle AGE≌\\vartriangle DCA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(AG=DC,EG=AC\\)，\n∵\\(AC=CB\\)，\n∴\\(EG=AC=BC\\)\n∴\\(AG-AC=DC-BC\\)，\n∴\\(CG=DB\\)，\n∵\\(\\angle BCM=180{}^\\circ -\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle G=\\angle BCM\\)，\n在\\(\\vartriangle EGM\\)和\\(\\vartriangle BCM\\)中，\n\\(\\begin{cases} \\angle G=\\angle BCM \\\\ \\angle EMG=\\angle BMC \\\\ EG=BC \\end{cases}\\)，\n∴\\(\\vartriangle EGM≌\\vartriangle BCM({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(GM=CM\\)，\n设\\(GM=CM=m\\)，则\\(DB=CG=2m\\)，\n∵\\(2AC=5CM\\)，\n∴\\(AC=\\frac { 5 } { 2 }CM=\\frac { 5 } { 2 }m\\)，\n∴\\(AM=\\frac { 5 } { 2 }CM+CM=\\frac { 7 } { 2 }CM=\\frac { 7 } { 2 }m\\)，\n∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2m\\cdot AC=m\\cdot AC\\)，\n\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 7 } { 2 }m\\cdot AC=\\frac { 7 } { 4 }m\\cdot AC\\)，\n∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { m\\cdot AC } { \\frac { m } { 4 }m\\cdot AC }=\\frac { 4 } { 7 }\\)，\n∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)；\n当点D在线段\\(BC\\)上时，作\\(EG\\bot AM\\)于点G，\n〔图4〕\n同理可证：\\(EG=AC=BC\\)，\\(GM=CM\\)，\n设\\(CM=GM=n\\)，则\\(BD=CG=2n\\)，\n∵\\(2AC=5CM\\)，\n∴\\(AC=\\frac { 5 } { 2 }CM,\\)，\n∴\\(AM=\\frac { 5 } { 2 }CM-CM=\\frac { 3 } { 2 }CM=\\frac { 3 } { 2 }n\\)，\n∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2n\\cdot AC=n\\cdot AC\\)，\n\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 3 } { 2 }n\\cdot AC=\\frac { 3 } { 4 }n\\cdot AC\\)，\n∴\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { n\\cdot AC } { \\frac { 3 } { 4 }n\\cdot AC }=\\frac { 4 } { 3 }\\)，\n综上所述，\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)，\n故答案为：\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "∵\\(AE\\bot AD,EH\\bot AC,\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle AHE=\\angle C=\\angle DAE=90{}^\\circ\\)，",
+    "∵\\(\\angle AEH+\\angle EAH=90{}^\\circ\\)，\\(\\angle DAC+\\angle EAH=90{}^\\circ\\)，",
+    "∴\\(\\angle AEH=\\angle DAC\\)，",
+    "在\\(\\vartriangle AEH\\)和\\(\\vartriangle DAC\\)中，",
+    "\\(\\begin{cases} \\angle AHE=\\angle C \\\\ \\angle AEH=\\angle DAC \\\\ AE=DA \\end{cases}\\)，",
+    "∴\\(\\vartriangle AEH≌\\vartriangle DAC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(EH=AC\\)．",
+    "【小问2详解】",
+    "如图，作\\(EF\\bot CM\\)交\\(CM\\)的延长线于点F，",
+    "〔图2〕",
+    "∵\\(\\angle F=90{}^\\circ ,\\angle ACD=180{}^\\circ -\\angle ACB=90{}^\\circ ,\\angle DAE=90{}^\\circ\\)，",
+    "∴\\(\\angle F=\\angle ACD=\\angle MCB\\)，",
+    "∵\\(\\angle FAE+\\angle CAD=90{}^\\circ\\)，\\(\\angle CDA+\\angle CAD=90{}^\\circ\\)，",
+    "∴\\(\\angle FAE=\\angle CDA\\)，",
+    "在\\(\\vartriangle FAE\\)和\\(\\vartriangle CDA\\)中，",
+    "\\(\\begin{cases} \\angle F=\\angle ACD \\\\ \\angle FAE=\\angle CDA \\\\ AE=DA \\end{cases}\\)，",
+    "∴\\(\\vartriangle FAE≌\\vartriangle CDA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(EF=AC\\)，",
+    "∵\\(AC=CB\\)，",
+    "∴\\(EF=AC=BC\\)，",
+    "在\\(\\vartriangle BMC\\)和\\(\\vartriangle EMF\\)中，",
+    "\\(\\begin{cases} \\angle MCB=\\angle F \\\\ \\angle BMC=\\angle EMF \\\\ BC=EF \\end{cases}\\)，",
+    "∴\\(\\vartriangle BMC≌\\vartriangle EMF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∵\\(BM=EM\\)．",
+    "【小问3详解】",
+    "当点D在\\(CB\\)的延长线上时，作\\(EG\\bot AM\\)交\\(AM\\)的延长线于点G，则\\(\\angle G=\\angle ACD=90{}^\\circ\\)，",
+    "〔图3〕",
+    "∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∵\\(\\angle D+\\angle DAC=90{}^\\circ\\)，\\(\\angle DAC+\\angle GAE=90{}^\\circ\\)，",
+    "∴\\(\\angle GAE=\\angle D\\)，",
+    "在\\(\\vartriangle AGE\\)和\\(\\vartriangle DCA\\)中，",
+    "\\(\\begin{cases} \\angle G=\\angle ACD \\\\ \\angle GAE=\\angle D \\\\ AE=DA \\end{cases}\\)，",
+    "∴\\(\\vartriangle AGE≌\\vartriangle DCA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(AG=DC,EG=AC\\)，",
+    "∵\\(AC=CB\\)，",
+    "∴\\(EG=AC=BC\\)",
+    "∴\\(AG-AC=DC-BC\\)，",
+    "∴\\(CG=DB\\)，",
+    "∵\\(\\angle BCM=180{}^\\circ -\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle G=\\angle BCM\\)，",
+    "在\\(\\vartriangle EGM\\)和\\(\\vartriangle BCM\\)中，",
+    "\\(\\begin{cases} \\angle G=\\angle BCM \\\\ \\angle EMG=\\angle BMC \\\\ EG=BC \\end{cases}\\)，",
+    "∴\\(\\vartriangle EGM≌\\vartriangle BCM({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(GM=CM\\)，",
+    "设\\(GM=CM=m\\)，则\\(DB=CG=2m\\)，",
+    "∵\\(2AC=5CM\\)，",
+    "∴\\(AC=\\frac { 5 } { 2 }CM=\\frac { 5 } { 2 }m\\)，",
+    "∴\\(AM=\\frac { 5 } { 2 }CM+CM=\\frac { 7 } { 2 }CM=\\frac { 7 } { 2 }m\\)，",
+    "∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2m\\cdot AC=m\\cdot AC\\)，",
+    "\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 7 } { 2 }m\\cdot AC=\\frac { 7 } { 4 }m\\cdot AC\\)，",
+    "∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { m\\cdot AC } { \\frac { m } { 4 }m\\cdot AC }=\\frac { 4 } { 7 }\\)，",
+    "∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)；",
+    "当点D在线段\\(BC\\)上时，作\\(EG\\bot AM\\)于点G，",
+    "〔图4〕",
+    "同理可证：\\(EG=AC=BC\\)，\\(GM=CM\\)，",
+    "设\\(CM=GM=n\\)，则\\(BD=CG=2n\\)，",
+    "∵\\(2AC=5CM\\)，",
+    "∴\\(AC=\\frac { 5 } { 2 }CM,\\)，",
+    "∴\\(AM=\\frac { 5 } { 2 }CM-CM=\\frac { 3 } { 2 }CM=\\frac { 3 } { 2 }n\\)，",
+    "∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2n\\cdot AC=n\\cdot AC\\)，",
+    "\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 3 } { 2 }n\\cdot AC=\\frac { 3 } { 4 }n\\cdot AC\\)，",
+    "∴\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { n\\cdot AC } { \\frac { 3 } { 4 }n\\cdot AC }=\\frac { 4 } { 3 }\\)，",
+    "综上所述，\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)，",
+    "故答案为：\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知：\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=CB\\)，D为直线BC上一动点，连接AD，在直线AC右侧作\\(AE\\bot AD\\)，且\\(AE=AD\\)．\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-925AC84AB2-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点D在线段BC上时，过点E作\\(EH\\bot AC\\)于H，连接DE，求证：\\(EH=AC\\)；",
+      "stem_text": "如图1，当点D在线段BC上时，过点E作\\(EH\\bot AC\\)于H，连接DE，求证：\\(EH=AC\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "∵\\(AE\\bot AD,EH\\bot AC,\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle AHE=\\angle C=\\angle DAE=90{}^\\circ\\)，\n∵\\(\\angle AEH+\\angle EAH=90{}^\\circ\\)，\\(\\angle DAC+\\angle EAH=90{}^\\circ\\)，\n∴\\(\\angle AEH=\\angle DAC\\)，\n在\\(\\vartriangle AEH\\)和\\(\\vartriangle DAC\\)中，\n\\(\\begin{cases} \\angle AHE=\\angle C \\\\ \\angle AEH=\\angle DAC \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle AEH≌\\vartriangle DAC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EH=AC\\)．",
+      "solution_steps": [
+        "∵\\(AE\\bot AD,EH\\bot AC,\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle AHE=\\angle C=\\angle DAE=90{}^\\circ\\)，",
+        "∵\\(\\angle AEH+\\angle EAH=90{}^\\circ\\)，\\(\\angle DAC+\\angle EAH=90{}^\\circ\\)，",
+        "∴\\(\\angle AEH=\\angle DAC\\)，",
+        "在\\(\\vartriangle AEH\\)和\\(\\vartriangle DAC\\)中，",
+        "\\(\\begin{cases} \\angle AHE=\\angle C \\\\ \\angle AEH=\\angle DAC \\\\ AE=DA \\end{cases}\\)，",
+        "∴\\(\\vartriangle AEH≌\\vartriangle DAC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(EH=AC\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-925AC84AB2-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图2，当点D在线段BC的延长线上时，连接BE交CA的延长线于点M．\n求证：\\(BM=EM\\)；",
+      "stem_text": "如图2，当点D在线段BC的延长线上时，连接BE交CA的延长线于点M．\n求证：\\(BM=EM\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "如图，作\\(EF\\bot CM\\)交\\(CM\\)的延长线于点F，\n〔图2〕\n∵\\(\\angle F=90{}^\\circ ,\\angle ACD=180{}^\\circ -\\angle ACB=90{}^\\circ ,\\angle DAE=90{}^\\circ\\)，\n∴\\(\\angle F=\\angle ACD=\\angle MCB\\)，\n∵\\(\\angle FAE+\\angle CAD=90{}^\\circ\\)，\\(\\angle CDA+\\angle CAD=90{}^\\circ\\)，\n∴\\(\\angle FAE=\\angle CDA\\)，\n在\\(\\vartriangle FAE\\)和\\(\\vartriangle CDA\\)中，\n\\(\\begin{cases} \\angle F=\\angle ACD \\\\ \\angle FAE=\\angle CDA \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle FAE≌\\vartriangle CDA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(EF=AC\\)，\n∵\\(AC=CB\\)，\n∴\\(EF=AC=BC\\)，\n在\\(\\vartriangle BMC\\)和\\(\\vartriangle EMF\\)中，\n\\(\\begin{cases} \\angle MCB=\\angle F \\\\ \\angle BMC=\\angle EMF \\\\ BC=EF \\end{cases}\\)，\n∴\\(\\vartriangle BMC≌\\vartriangle EMF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∵\\(BM=EM\\)．",
+      "solution_steps": [
+        "如图，作\\(EF\\bot CM\\)交\\(CM\\)的延长线于点F，",
+        "〔图2〕",
+        "∵\\(\\angle F=90{}^\\circ ,\\angle ACD=180{}^\\circ -\\angle ACB=90{}^\\circ ,\\angle DAE=90{}^\\circ\\)，",
+        "∴\\(\\angle F=\\angle ACD=\\angle MCB\\)，",
+        "∵\\(\\angle FAE+\\angle CAD=90{}^\\circ\\)，\\(\\angle CDA+\\angle CAD=90{}^\\circ\\)，",
+        "∴\\(\\angle FAE=\\angle CDA\\)，",
+        "在\\(\\vartriangle FAE\\)和\\(\\vartriangle CDA\\)中，",
+        "\\(\\begin{cases} \\angle F=\\angle ACD \\\\ \\angle FAE=\\angle CDA \\\\ AE=DA \\end{cases}\\)，",
+        "∴\\(\\vartriangle FAE≌\\vartriangle CDA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(EF=AC\\)，",
+        "∵\\(AC=CB\\)，",
+        "∴\\(EF=AC=BC\\)，",
+        "在\\(\\vartriangle BMC\\)和\\(\\vartriangle EMF\\)中，",
+        "\\(\\begin{cases} \\angle MCB=\\angle F \\\\ \\angle BMC=\\angle EMF \\\\ BC=EF \\end{cases}\\)，",
+        "∴\\(\\vartriangle BMC≌\\vartriangle EMF({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∵\\(BM=EM\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-925AC84AB2-Q21-P03",
+      "label": "（3）",
+      "prompt": "当点D在射线CB上时，连接BE交直线AC于M，若\\(2AC=5CM\\)，则\\(\\frac { S_{ \\vartriangle ADB } } { S_{ \\vartriangle AEM } }\\)的值为______．",
+      "stem_text": "当点D在射线CB上时，连接BE交直线AC于M，若\\(2AC=5CM\\)，则\\(\\frac { S_{ \\vartriangle ADB } } { S_{ \\vartriangle AEM } }\\)的值为______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)",
+      "answer": "\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)",
+      "given_solution": "当点D在\\(CB\\)的延长线上时，作\\(EG\\bot AM\\)交\\(AM\\)的延长线于点G，则\\(\\angle G=\\angle ACD=90{}^\\circ\\)，\n〔图3〕\n∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∵\\(\\angle D+\\angle DAC=90{}^\\circ\\)，\\(\\angle DAC+\\angle GAE=90{}^\\circ\\)，\n∴\\(\\angle GAE=\\angle D\\)，\n在\\(\\vartriangle AGE\\)和\\(\\vartriangle DCA\\)中，\n\\(\\begin{cases} \\angle G=\\angle ACD \\\\ \\angle GAE=\\angle D \\\\ AE=DA \\end{cases}\\)，\n∴\\(\\vartriangle AGE≌\\vartriangle DCA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(AG=DC,EG=AC\\)，\n∵\\(AC=CB\\)，\n∴\\(EG=AC=BC\\)\n∴\\(AG-AC=DC-BC\\)，\n∴\\(CG=DB\\)，\n∵\\(\\angle BCM=180{}^\\circ -\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle G=\\angle BCM\\)，\n在\\(\\vartriangle EGM\\)和\\(\\vartriangle BCM\\)中，\n\\(\\begin{cases} \\angle G=\\angle BCM \\\\ \\angle EMG=\\angle BMC \\\\ EG=BC \\end{cases}\\)，\n∴\\(\\vartriangle EGM≌\\vartriangle BCM({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(GM=CM\\)，\n设\\(GM=CM=m\\)，则\\(DB=CG=2m\\)，\n∵\\(2AC=5CM\\)，\n∴\\(AC=\\frac { 5 } { 2 }CM=\\frac { 5 } { 2 }m\\)，\n∴\\(AM=\\frac { 5 } { 2 }CM+CM=\\frac { 7 } { 2 }CM=\\frac { 7 } { 2 }m\\)，\n∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2m\\cdot AC=m\\cdot AC\\)，\n\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 7 } { 2 }m\\cdot AC=\\frac { 7 } { 4 }m\\cdot AC\\)，\n∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { m\\cdot AC } { \\frac { m } { 4 }m\\cdot AC }=\\frac { 4 } { 7 }\\)，\n∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)；\n当点D在线段\\(BC\\)上时，作\\(EG\\bot AM\\)于点G，\n〔图4〕\n同理可证：\\(EG=AC=BC\\)，\\(GM=CM\\)，\n设\\(CM=GM=n\\)，则\\(BD=CG=2n\\)，\n∵\\(2AC=5CM\\)，\n∴\\(AC=\\frac { 5 } { 2 }CM,\\)，\n∴\\(AM=\\frac { 5 } { 2 }CM-CM=\\frac { 3 } { 2 }CM=\\frac { 3 } { 2 }n\\)，\n∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2n\\cdot AC=n\\cdot AC\\)，\n\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 3 } { 2 }n\\cdot AC=\\frac { 3 } { 4 }n\\cdot AC\\)，\n∴\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { n\\cdot AC } { \\frac { 3 } { 4 }n\\cdot AC }=\\frac { 4 } { 3 }\\)，\n综上所述，\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)，\n故答案为：\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)．",
+      "solution_steps": [
+        "当点D在\\(CB\\)的延长线上时，作\\(EG\\bot AM\\)交\\(AM\\)的延长线于点G，则\\(\\angle G=\\angle ACD=90{}^\\circ\\)，",
+        "〔图3〕",
+        "∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∵\\(\\angle D+\\angle DAC=90{}^\\circ\\)，\\(\\angle DAC+\\angle GAE=90{}^\\circ\\)，",
+        "∴\\(\\angle GAE=\\angle D\\)，",
+        "在\\(\\vartriangle AGE\\)和\\(\\vartriangle DCA\\)中，",
+        "\\(\\begin{cases} \\angle G=\\angle ACD \\\\ \\angle GAE=\\angle D \\\\ AE=DA \\end{cases}\\)，",
+        "∴\\(\\vartriangle AGE≌\\vartriangle DCA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(AG=DC,EG=AC\\)，",
+        "∵\\(AC=CB\\)，",
+        "∴\\(EG=AC=BC\\)",
+        "∴\\(AG-AC=DC-BC\\)，",
+        "∴\\(CG=DB\\)，",
+        "∵\\(\\angle BCM=180{}^\\circ -\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle G=\\angle BCM\\)，",
+        "在\\(\\vartriangle EGM\\)和\\(\\vartriangle BCM\\)中，",
+        "\\(\\begin{cases} \\angle G=\\angle BCM \\\\ \\angle EMG=\\angle BMC \\\\ EG=BC \\end{cases}\\)，",
+        "∴\\(\\vartriangle EGM≌\\vartriangle BCM({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(GM=CM\\)，",
+        "设\\(GM=CM=m\\)，则\\(DB=CG=2m\\)，",
+        "∵\\(2AC=5CM\\)，",
+        "∴\\(AC=\\frac { 5 } { 2 }CM=\\frac { 5 } { 2 }m\\)，",
+        "∴\\(AM=\\frac { 5 } { 2 }CM+CM=\\frac { 7 } { 2 }CM=\\frac { 7 } { 2 }m\\)，",
+        "∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2m\\cdot AC=m\\cdot AC\\)，",
+        "\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 7 } { 2 }m\\cdot AC=\\frac { 7 } { 4 }m\\cdot AC\\)，",
+        "∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { m\\cdot AC } { \\frac { m } { 4 }m\\cdot AC }=\\frac { 4 } { 7 }\\)，",
+        "∴\\(\\cdot \\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)；",
+        "当点D在线段\\(BC\\)上时，作\\(EG\\bot AM\\)于点G，",
+        "〔图4〕",
+        "同理可证：\\(EG=AC=BC\\)，\\(GM=CM\\)，",
+        "设\\(CM=GM=n\\)，则\\(BD=CG=2n\\)，",
+        "∵\\(2AC=5CM\\)，",
+        "∴\\(AC=\\frac { 5 } { 2 }CM,\\)，",
+        "∴\\(AM=\\frac { 5 } { 2 }CM-CM=\\frac { 3 } { 2 }CM=\\frac { 3 } { 2 }n\\)，",
+        "∴\\(S_{ \\Delta ADB } =\\frac { 1 } { 2 }DB\\cdot AC=\\frac { 1 } { 2 }\\times 2n\\cdot AC=n\\cdot AC\\)，",
+        "\\(S_{ \\Delta AEM } =\\frac { 1 } { 2 }AM\\cdot EG=\\frac { 1 } { 2 }\\times \\frac { 3 } { 2 }n\\cdot AC=\\frac { 3 } { 4 }n\\cdot AC\\)，",
+        "∴\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }=\\frac { n\\cdot AC } { \\frac { 3 } { 4 }n\\cdot AC }=\\frac { 4 } { 3 }\\)，",
+        "综上所述，\\(\\frac { S_{ \\Delta ADB } } { S_{ \\Delta AEM } }\\)的值为\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)，",
+        "故答案为：\\(\\frac { 4 } { 7 }\\)或\\(\\frac { 4 } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          76
+        ],
+        "solution_block_ids": [
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      76
+    ],
+    "solution_body_blocks": [
+      356,
+      434
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-925AC84AB2/paper-q21-p05.webp",
+      "assets/SZ-G7-T2-925AC84AB2/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          559.09,
+          583.64,
+          760.91
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          126.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-925AC84AB2/solution-q21-p18.webp",
+      "assets/SZ-G7-T2-925AC84AB2/solution-q21-p19.webp",
+      "assets/SZ-G7-T2-925AC84AB2/solution-q21-p20.webp",
+      "assets/SZ-G7-T2-925AC84AB2/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          307.73,
+          583.64,
+          744.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          55.91,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          743.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

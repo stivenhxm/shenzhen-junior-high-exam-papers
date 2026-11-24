@@ -1,0 +1,316 @@
+{
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G01.05.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "解答指向把折叠转成角度与长度的关系。 题面指向把折叠转成角度与长度的关系。 按本问解答中出现的几何关系及所求结论归类。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G7-T2-623A4A6B09-Q19",
+  "paper_id": "SZ-G7-T2-623A4A6B09",
+  "number": 19,
+  "type": "解答题",
+  "points": 10.0,
+  "title": "将折叠条件转为可计算的几何关系、在折线或辅助线图形中传递角关系",
+  "stem": "（10分）综合与实践：折纸中的数学\n【问题提出】在前面的学习中我们通过折纸可以找出一个角的平分线，还可以折出过一个点且与已知直线垂直的直线．那我们能否通过折纸的方式找到过直线外一点且与已知直线平行的直线呢？\n【知识初探】（1）王玲同学在探究“过直线外一点作已知直线的平行线”的活动中，通过如下的折纸方式找到了符合要求的直线．\n①如图1，在纸上画出一条直线\\(BC\\)，在\\(BC\\)外取一点\\(P\\)．过点\\(P\\)折叠纸片，使得点\\(C\\)的对应点\\(C'\\)落在直线\\(BC\\)上（如图2），记折痕\\(DE\\)与\\(BC\\)的交点为\\(A\\)，将纸片展开铺平．则\\(\\angle PAB=\\)______\\({}^\\circ\\)；\n②再过点\\(P\\)将纸片进行折叠，使得点\\(E\\)的对应点\\(E'\\)落在直线\\(DP\\)上（如图3），再将纸片展开铺平（如图4）．此时王玲说，\\(PF\\)就是\\(BC\\)的平行线．王玲的说法正确吗？请写出过程予以证明；\n【拓展延伸】（2）李强同学在王玲同学折纸的基础上，补充了条件：如图5，在线段\\(AP\\)上任取一点\\(M\\)，连接\\(FM、BM\\)，请你猜想\\(\\angle ABM、\\angle PFM\\)与\\(\\angle BMF\\)这三个角之间的数量关系，并说明理由．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/ce/ceef7e7910091a39dfbbbf71843f6d671e5d7fe46fce034407769506398a605a.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（10分）综合与实践：折纸中的数学\n【问题提出】在前面的学习中我们通过折纸可以找出一个角的平分线，还可以折出过一个点且与已知直线垂直的直线．那我们能否通过折纸的方式找到过直线外一点且与已知直线平行的直线呢？\n【知识初探】",
+      "paper_blocks": [
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "id": "fig-96",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        96
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "王玲同学在探究“过直线外一点作已知直线的平行线”的活动中，通过如下的折纸方式找到了符合要求的直线．",
+      "paper_blocks": [
+        92
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-623A4A6B09-Q19-P01",
+      "label": "（1）①",
+      "prompt": "如图1，在纸上画出一条直线\\(BC\\)，在\\(BC\\)外取一点\\(P\\)．过点\\(P\\)折叠纸片，使得点\\(C\\)的对应点\\(C'\\)落在直线\\(BC\\)上（如图2），记折痕\\(DE\\)与\\(BC\\)的交点为\\(A\\)，将纸片展开铺平．则\\(\\angle PAB=\\)______\\({}^\\circ\\)；",
+      "stem_text": "如图1，在纸上画出一条直线\\(BC\\)，在\\(BC\\)外取一点\\(P\\)．过点\\(P\\)折叠纸片，使得点\\(C\\)的对应点\\(C'\\)落在直线\\(BC\\)上（如图2），记折痕\\(DE\\)与\\(BC\\)的交点为\\(A\\)，将纸片展开铺平．则\\(\\angle PAB=\\)______\\({}^\\circ\\)；",
+      "material_ids": [
+        "context",
+        "fig-96",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "90°；",
+      "given_solution": "由题意可知，点\\(C\\)、\\(A\\)、\\(C'\\)、\\(B\\)共线，\n\\(\\therefore \\angle PAC+\\angle PAC'=180{}^\\circ\\)，\n由折叠的性质可知，\\(\\angle PAC=\\angle PAC'\\)，\n\\(\\therefore \\angle PAC'=90{}^\\circ\\)，即\\(\\angle PAB=90{}^\\circ\\)，\n故答案为：90；（2分）",
+      "solution_steps": [
+        "由题意可知，点\\(C\\)、\\(A\\)、\\(C'\\)、\\(B\\)共线，",
+        "\\(\\therefore \\angle PAC+\\angle PAC'=180{}^\\circ\\)，",
+        "由折叠的性质可知，\\(\\angle PAC=\\angle PAC'\\)，",
+        "\\(\\therefore \\angle PAC'=90{}^\\circ\\)，即\\(\\angle PAB=90{}^\\circ\\)，",
+        "故答案为：90；（2分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          90,
+          91,
+          92,
+          93,
+          96
+        ],
+        "solution_block_ids": [
+          254,
+          255,
+          256,
+          257,
+          258
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "解答指向把折叠转成角度与长度的关系。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-623A4A6B09-Q19-P02",
+      "label": "（1）②",
+      "prompt": "再过点\\(P\\)将纸片进行折叠，使得点\\(E\\)的对应点\\(E'\\)落在直线\\(DP\\)上（如图3），再将纸片展开铺平（如图4）．此时王玲说，\\(PF\\)就是\\(BC\\)的平行线．王玲的说法正确吗？请写出过程予以证明；\n【拓展延伸】",
+      "stem_text": "再过点\\(P\\)将纸片进行折叠，使得点\\(E\\)的对应点\\(E'\\)落在直线\\(DP\\)上（如图3），再将纸片展开铺平（如图4）．此时王玲说，\\(PF\\)就是\\(BC\\)的平行线．王玲的说法正确吗？请写出过程予以证明；\n【拓展延伸】",
+      "material_ids": [
+        "context",
+        "fig-96",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "王玲的说法正确，\\(PF\\parallel BC\\)。",
+      "given_solution": "王玲的说法正确，（3分）\n证明如下：\n由①得：\\(\\angle PAB=90{}^\\circ\\)，\n同①理可得，\\(\\angle FPA=90{}^\\circ\\)，\n\\(\\therefore \\angle PAB+\\angle FPA=180{}^\\circ\\)，（5分）\n\\(\\therefore PF\\parallel BC\\)；（6分）",
+      "solution_steps": [
+        "王玲的说法正确，（3分）",
+        "证明如下：",
+        "由①得：\\(\\angle PAB=90{}^\\circ\\)，",
+        "同①理可得，\\(\\angle FPA=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle PAB+\\angle FPA=180{}^\\circ\\)，（5分）",
+        "\\(\\therefore PF\\parallel BC\\)；（6分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          90,
+          91,
+          92,
+          94,
+          95,
+          96
+        ],
+        "solution_block_ids": [
+          259,
+          260,
+          261,
+          262,
+          263,
+          264
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向把折叠转成角度与长度的关系。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-623A4A6B09-Q19-P03",
+      "label": "（2）",
+      "prompt": "李强同学在王玲同学折纸的基础上，补充了条件：如图5，在线段\\(AP\\)上任取一点\\(M\\)，连接\\(FM、BM\\)，请你猜想\\(\\angle ABM、\\angle PFM\\)与\\(\\angle BMF\\)这三个角之间的数量关系，并说明理由．",
+      "stem_text": "李强同学在王玲同学折纸的基础上，补充了条件：如图5，在线段\\(AP\\)上任取一点\\(M\\)，连接\\(FM、BM\\)，请你猜想\\(\\angle ABM、\\angle PFM\\)与\\(\\angle BMF\\)这三个角之间的数量关系，并说明理由．",
+      "material_ids": [
+        "context",
+        "fig-96"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\angle BMF=\\angle ABM+\\angle PFM\\)。",
+      "given_solution": "如图，过点\\(M\\)作\\(MN\\parallel BC\\)，\n\\(\\therefore \\angle ABM=\\angle BMN\\)，（7分）\n\\(\\because PF\\parallel BC\\)，\n\\(\\therefore PF\\parallel MN\\)，（8分）\n\\(\\therefore \\angle PFM=\\angle FMN\\)，（9分）\n\\(\\therefore \\angle BMF=\\angle BMN+\\angle FMN=\\angle ABM+\\angle PFM\\)（10分）\n〔图1〕",
+      "solution_steps": [
+        "如图，过点\\(M\\)作\\(MN\\parallel BC\\)，",
+        "\\(\\therefore \\angle ABM=\\angle BMN\\)，（7分）",
+        "\\(\\because PF\\parallel BC\\)，",
+        "\\(\\therefore PF\\parallel MN\\)，（8分）",
+        "\\(\\therefore \\angle PFM=\\angle FMN\\)，（9分）",
+        "\\(\\therefore \\angle BMF=\\angle BMN+\\angle FMN=\\angle ABM+\\angle PFM\\)（10分）",
+        "〔图1〕"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          90,
+          91,
+          92,
+          95,
+          96
+        ],
+        "solution_block_ids": [
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）① 90°；② 王玲的说法正确，\\(PF\\parallel BC\\)。\n（2）\\(\\angle BMF=\\angle ABM+\\angle PFM\\)。",
+  "given_solution": "【详解】解：（1）①由题意可知，点\\(C\\)、\\(A\\)、\\(C'\\)、\\(B\\)共线，\n\\(\\therefore \\angle PAC+\\angle PAC'=180{}^\\circ\\)，\n由折叠的性质可知，\\(\\angle PAC=\\angle PAC'\\)，\n\\(\\therefore \\angle PAC'=90{}^\\circ\\)，即\\(\\angle PAB=90{}^\\circ\\)，\n故答案为：90；（2分）\n②王玲的说法正确，（3分）\n证明如下：\n由①得：\\(\\angle PAB=90{}^\\circ\\)，\n同①理可得，\\(\\angle FPA=90{}^\\circ\\)，\n\\(\\therefore \\angle PAB+\\angle FPA=180{}^\\circ\\)，（5分）\n\\(\\therefore PF\\parallel BC\\)；（6分）\n（2）如图，过点\\(M\\)作\\(MN\\parallel BC\\)，\n\\(\\therefore \\angle ABM=\\angle BMN\\)，（7分）\n\\(\\because PF\\parallel BC\\)，\n\\(\\therefore PF\\parallel MN\\)，（8分）\n\\(\\therefore \\angle PFM=\\angle FMN\\)，（9分）\n\\(\\therefore \\angle BMF=\\angle BMN+\\angle FMN=\\angle ABM+\\angle PFM\\)（10分）\n〔图1〕",
+  "given_solution_figures": [
+    "assets/figures/99/99a648219a6143c5bfa006c5f26df2662318d7941498d17c371e413392617b75.png"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution_steps": [
+    "解：（1）①由题意可知，点\\(C\\)、\\(A\\)、\\(C'\\)、\\(B\\)共线，",
+    "\\(\\therefore \\angle PAC+\\angle PAC'=180{}^\\circ\\)，",
+    "由折叠的性质可知，\\(\\angle PAC=\\angle PAC'\\)，",
+    "\\(\\therefore \\angle PAC'=90{}^\\circ\\)，即\\(\\angle PAB=90{}^\\circ\\)，",
+    "故答案为：90；（2分）",
+    "②王玲的说法正确，（3分）",
+    "证明如下：",
+    "由①得：\\(\\angle PAB=90{}^\\circ\\)，",
+    "同①理可得，\\(\\angle FPA=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle PAB+\\angle FPA=180{}^\\circ\\)，（5分）",
+    "\\(\\therefore PF\\parallel BC\\)；（6分）",
+    "（2）如图，过点\\(M\\)作\\(MN\\parallel BC\\)，",
+    "\\(\\therefore \\angle ABM=\\angle BMN\\)，（7分）",
+    "\\(\\because PF\\parallel BC\\)，",
+    "\\(\\therefore PF\\parallel MN\\)，（8分）",
+    "\\(\\therefore \\angle PFM=\\angle FMN\\)，（9分）",
+    "\\(\\therefore \\angle BMF=\\angle BMN+\\angle FMN=\\angle ABM+\\angle PFM\\)（10分）",
+    "〔图1〕"
+  ],
+  "solution": "解：（1）①由题意可知，点\\(C\\)、\\(A\\)、\\(C'\\)、\\(B\\)共线，\n\\(\\therefore \\angle PAC+\\angle PAC'=180{}^\\circ\\)，\n由折叠的性质可知，\\(\\angle PAC=\\angle PAC'\\)，\n\\(\\therefore \\angle PAC'=90{}^\\circ\\)，即\\(\\angle PAB=90{}^\\circ\\)，\n故答案为：90；（2分）\n②王玲的说法正确，（3分）\n证明如下：\n由①得：\\(\\angle PAB=90{}^\\circ\\)，\n同①理可得，\\(\\angle FPA=90{}^\\circ\\)，\n\\(\\therefore \\angle PAB+\\angle FPA=180{}^\\circ\\)，（5分）\n\\(\\therefore PF\\parallel BC\\)；（6分）\n（2）如图，过点\\(M\\)作\\(MN\\parallel BC\\)，\n\\(\\therefore \\angle ABM=\\angle BMN\\)，（7分）\n\\(\\because PF\\parallel BC\\)，\n\\(\\therefore PF\\parallel MN\\)，（8分）\n\\(\\therefore \\angle PFM=\\angle FMN\\)，（9分）\n\\(\\therefore \\angle BMF=\\angle BMN+\\angle FMN=\\angle ABM+\\angle PFM\\)（10分）\n〔图1〕",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-623A4A6B09/single/q19-p05.webp",
+      "assets/SZ-G7-T2-623A4A6B09/single/q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          574.88,
+          582.2,
+          754.44
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          75.74,
+          582.2,
+          246.17
+        ]
+      }
+    ],
+    "solution_pages": [
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-623A4A6B09/single/s19-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          253.57,
+          582.2,
+          749.66
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

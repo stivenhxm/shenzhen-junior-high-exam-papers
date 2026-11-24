@@ -1,0 +1,302 @@
+{
+  "id": "SZ-G7-T2-46E3798AFA-Q21",
+  "paper_id": "SZ-G7-T2-46E3798AFA",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "用分割或补形求面积、由和差或积的关系求简单对称式",
+  "stem": "【操作发现】（1）如图1是一个长为\\(4b\\)、宽为\\(a\\)的长方形，沿图1中虚线用剪刀平均分成四块小长方形，然后用四块小长方形拼成的一个“回形”正方形（如图2）．那么图2中的阴影部分的面积为：_______（用a，b的代数式表示）；观察图2，请你写出\\((a+b) ^ { 2 }\\)，\\((a-b) ^ { 2 }\\)，\\(ab\\)之间的等量失系是________；\n【灵活应用】（2）运用所得到的公式计算：若x，y为实数，且\\(x-y=7\\)，\\(xy=\\frac { 15 } { 4 }\\)，求\\(x+y\\)的值；\n【拓展迁移】（3）将两块全等的特制直角三角板\\(\\vartriangle AOB\\)，\\(\\vartriangle COD\\left ( { \\angle AOB=\\angle COD=90{}^\\circ } \\right )\\)按如图3所示的方式放置，A，O，D在同一直线上，连接AC，BD．若\\(AD=14\\)，\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，求阴影部分的面积．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/79/794447b97216268d595062e68c5d2108d87bc730e6197912b483fd0f0479a9c0.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；（2）\\(x+y=\\pm 8\\)；（3）48",
+  "answer": "（1）\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；（2）\\(x+y=\\pm 8\\)；（3）48",
+  "given_solution": "【分析】（1）图2中阴影部分的面积可以用两种方法得到，先表示阴影部分的边长，再表示面积，二是图2大正方形面积减去图1的面积，然后再化简即可得出三个代数式之间的关系；\n（2）利用（1）中关系，整体代入求值即可；\n（3）根据两块全等的特制直角三角板可得\\(OA=OC,OB=OD,\\angle AOB=\\angle COD=90{}^\\circ\\)，进而得到\\(\\angle AOC=180{}^\\circ -\\angle COD=90{}^\\circ ,\\angle BOD=\\angle AOC=90{}^\\circ\\)，设\\(AO=CO=x,BO=DO=y\\)，根据已知条件\\(AD=14\\)、\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)列方程求得y，进而求得影音部分的面积即可．\n【详解】解：（1）图2中，阴影部分的边长为的正方形\\(a-b\\)，因此面积为\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)，\n也可以从边长为\\(\\left ( { a+b } \\right )\\)的正方形面积减去图1的面积，即\\(\\left ( { a+b } \\right ) ^ { 2 } -4ab=a ^ { 2 } +b ^ { 2 } -2ab\\),则\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)\n故答案为：\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；\n（2）由（1）可得\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)\n∴\\(\\left ( { x-y } \\right ) ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4xy\\)，\n∴\\(7 ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4\\times \\frac { 15 } { 4 }\\)，解得：\\(x+y=\\pm 8\\)；\n（3）∵两块直角三角板全等，\n∴\\(AO=CO，BO=DO，\\angle AOB=\\angle COD=90{}^\\circ\\)，\n∵点A，O、D在同一直线上，点B，O，C也在同一直线上，\n∴\\(\\angle AOC=180{}^\\circ -\\angle COD=90{}^\\circ ，BOD=AOC=90{}^\\circ\\)，\n设\\(AO=CO=x，BO=DO=y\\)，\n∴\\(AD=AO+OD=x+y=14\\)，\n∵\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，即\\(\\frac { 1 } { 2 }x ^ { 2 } +\\frac { 1 } { 2 }y ^ { 2 } =50\\)\n∴\\(x ^ { 2 } +y ^ { 2 } =100\\)\n∵\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，\n∴\\(14 ^ { 2 } =100+2xy\\)，解得：\\(xy=48\\)，\n∴\\(S_{ \\vartriangle OAB } =S_{ \\vartriangle OCD } =\\frac { 1 } { 2 }AO\\cdot OB=24\\),\n∴阴影部分的面积为\\(S_{ \\vartriangle OAB } +S_{ \\vartriangle OCD } =48\\)．\n【点睛】本题主要考查的是完全平方公式及其变形的应用、全等三角形的性质等知识点，熟练地运用完全平方公式的几何变形是解答本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/79/794447b97216268d595062e68c5d2108d87bc730e6197912b483fd0f0479a9c0.png"
+  ],
+  "solution": "解：（1）图2中，阴影部分的边长为的正方形\\(a-b\\)，因此面积为\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)，\n也可以从边长为\\(\\left ( { a+b } \\right )\\)的正方形面积减去图1的面积，即\\(\\left ( { a+b } \\right ) ^ { 2 } -4ab=a ^ { 2 } +b ^ { 2 } -2ab\\),则\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)\n故答案为：\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；\n（2）由（1）可得\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)\n∴\\(\\left ( { x-y } \\right ) ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4xy\\)，\n∴\\(7 ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4\\times \\frac { 15 } { 4 }\\)，解得：\\(x+y=\\pm 8\\)；\n（3）∵两块直角三角板全等，\n∴\\(AO=CO，BO=DO，\\angle AOB=\\angle COD=90{}^\\circ\\)，\n∵点A，O、D在同一直线上，点B，O，C也在同一直线上，\n∴\\(\\angle AOC=180{}^\\circ -\\angle COD=90{}^\\circ ，BOD=AOC=90{}^\\circ\\)，\n设\\(AO=CO=x，BO=DO=y\\)，\n∴\\(AD=AO+OD=x+y=14\\)，\n∵\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，即\\(\\frac { 1 } { 2 }x ^ { 2 } +\\frac { 1 } { 2 }y ^ { 2 } =50\\)\n∴\\(x ^ { 2 } +y ^ { 2 } =100\\)\n∵\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，\n∴\\(14 ^ { 2 } =100+2xy\\)，解得：\\(xy=48\\)，\n∴\\(S_{ \\vartriangle OAB } =S_{ \\vartriangle OCD } =\\frac { 1 } { 2 }AO\\cdot OB=24\\),\n∴阴影部分的面积为\\(S_{ \\vartriangle OAB } +S_{ \\vartriangle OCD } =48\\)．",
+  "solution_steps": [
+    "解：（1）图2中，阴影部分的边长为的正方形\\(a-b\\)，因此面积为\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)，",
+    "也可以从边长为\\(\\left ( { a+b } \\right )\\)的正方形面积减去图1的面积，即\\(\\left ( { a+b } \\right ) ^ { 2 } -4ab=a ^ { 2 } +b ^ { 2 } -2ab\\),则\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)",
+    "故答案为：\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；",
+    "（2）由（1）可得\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)",
+    "∴\\(\\left ( { x-y } \\right ) ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4xy\\)，",
+    "∴\\(7 ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4\\times \\frac { 15 } { 4 }\\)，解得：\\(x+y=\\pm 8\\)；",
+    "（3）∵两块直角三角板全等，",
+    "∴\\(AO=CO，BO=DO，\\angle AOB=\\angle COD=90{}^\\circ\\)，",
+    "∵点A，O、D在同一直线上，点B，O，C也在同一直线上，",
+    "∴\\(\\angle AOC=180{}^\\circ -\\angle COD=90{}^\\circ ，BOD=AOC=90{}^\\circ\\)，",
+    "设\\(AO=CO=x，BO=DO=y\\)，",
+    "∴\\(AD=AO+OD=x+y=14\\)，",
+    "∵\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，即\\(\\frac { 1 } { 2 }x ^ { 2 } +\\frac { 1 } { 2 }y ^ { 2 } =50\\)",
+    "∴\\(x ^ { 2 } +y ^ { 2 } =100\\)",
+    "∵\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，",
+    "∴\\(14 ^ { 2 } =100+2xy\\)，解得：\\(xy=48\\)，",
+    "∴\\(S_{ \\vartriangle OAB } =S_{ \\vartriangle OCD } =\\frac { 1 } { 2 }AO\\cdot OB=24\\),",
+    "∴阴影部分的面积为\\(S_{ \\vartriangle OAB } +S_{ \\vartriangle OCD } =48\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【操作发现】",
+      "paper_blocks": [
+        69
+      ]
+    },
+    {
+      "id": "fig-72",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-46E3798AFA-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图1是一个长为\\(4b\\)、宽为\\(a\\)的长方形，沿图1中虚线用剪刀平均分成四块小长方形，然后用四块小长方形拼成的一个“回形”正方形（如图2）．那么图2中的阴影部分的面积为：_______（用a，b的代数式表示）；观察图2，请你写出\\((a+b) ^ { 2 }\\)，\\((a-b) ^ { 2 }\\)，\\(ab\\)之间的等量失系是________；\n【灵活应用】",
+      "stem_text": "如图1是一个长为\\(4b\\)、宽为\\(a\\)的长方形，沿图1中虚线用剪刀平均分成四块小长方形，然后用四块小长方形拼成的一个“回形”正方形（如图2）．那么图2中的阴影部分的面积为：_______（用a，b的代数式表示）；观察图2，请你写出\\((a+b) ^ { 2 }\\)，\\((a-b) ^ { 2 }\\)，\\(ab\\)之间的等量失系是________；\n【灵活应用】",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；",
+      "answer": "\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；",
+      "given_solution": "图2中，阴影部分的边长为的正方形\\(a-b\\)，因此面积为\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)，\n也可以从边长为\\(\\left ( { a+b } \\right )\\)的正方形面积减去图1的面积，即\\(\\left ( { a+b } \\right ) ^ { 2 } -4ab=a ^ { 2 } +b ^ { 2 } -2ab\\),则\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)\n故答案为：\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；",
+      "solution_steps": [
+        "图2中，阴影部分的边长为的正方形\\(a-b\\)，因此面积为\\(\\left ( { a-b } \\right ) ^ { 2 } =a ^ { 2 } -2ab+b ^ { 2 }\\)，",
+        "也可以从边长为\\(\\left ( { a+b } \\right )\\)的正方形面积减去图1的面积，即\\(\\left ( { a+b } \\right ) ^ { 2 } -4ab=a ^ { 2 } +b ^ { 2 } -2ab\\),则\\(\\left ( { a-b } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)",
+        "故答案为：\\(a ^ { 2 } -2ab+b ^ { 2 }\\)，\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          292,
+          293,
+          294
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“阴影部分的面积”。通过分割或补形求面积。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-46E3798AFA-Q21-P02",
+      "label": "（2）",
+      "prompt": "运用所得到的公式计算：若x，y为实数，且\\(x-y=7\\)，\\(xy=\\frac { 15 } { 4 }\\)，求\\(x+y\\)的值；\n【拓展迁移】",
+      "stem_text": "运用所得到的公式计算：若x，y为实数，且\\(x-y=7\\)，\\(xy=\\frac { 15 } { 4 }\\)，求\\(x+y\\)的值；\n【拓展迁移】",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [
+        "SZ-G7-T2-46E3798AFA-Q21-P01"
+      ],
+      "given_answer": "\\(x+y=\\pm 8\\)；",
+      "answer": "\\(x+y=\\pm 8\\)；",
+      "given_solution": "由（1）可得\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)\n∴\\(\\left ( { x-y } \\right ) ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4xy\\)，\n∴\\(7 ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4\\times \\frac { 15 } { 4 }\\)，解得：\\(x+y=\\pm 8\\)；",
+      "solution_steps": [
+        "由（1）可得\\(\\left ( { b-a } \\right ) ^ { 2 } =\\left ( { a+b } \\right ) ^ { 2 } -4ab\\)",
+        "∴\\(\\left ( { x-y } \\right ) ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4xy\\)，",
+        "∴\\(7 ^ { 2 } =\\left ( { x+y } \\right ) ^ { 2 } -4\\times \\frac { 15 } { 4 }\\)，解得：\\(x+y=\\pm 8\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          295,
+          296,
+          297
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06"
+      ],
+      "exam_ids": [
+        "E.N03.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-46E3798AFA-Q21-P03",
+      "label": "（3）",
+      "prompt": "将两块全等的特制直角三角板\\(\\vartriangle AOB\\)，\\(\\vartriangle COD\\left ( { \\angle AOB=\\angle COD=90{}^\\circ } \\right )\\)按如图3所示的方式放置，A，O，D在同一直线上，连接AC，BD．若\\(AD=14\\)，\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，求阴影部分的面积．",
+      "stem_text": "将两块全等的特制直角三角板\\(\\vartriangle AOB\\)，\\(\\vartriangle COD\\left ( { \\angle AOB=\\angle COD=90{}^\\circ } \\right )\\)按如图3所示的方式放置，A，O，D在同一直线上，连接AC，BD．若\\(AD=14\\)，\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，求阴影部分的面积．",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "48",
+      "answer": "48",
+      "given_solution": "∵两块直角三角板全等，\n∴\\(AO=CO，BO=DO，\\angle AOB=\\angle COD=90{}^\\circ\\)，\n∵点A，O、D在同一直线上，点B，O，C也在同一直线上，\n∴\\(\\angle AOC=180{}^\\circ -\\angle COD=90{}^\\circ ，BOD=AOC=90{}^\\circ\\)，\n设\\(AO=CO=x，BO=DO=y\\)，\n∴\\(AD=AO+OD=x+y=14\\)，\n∵\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，即\\(\\frac { 1 } { 2 }x ^ { 2 } +\\frac { 1 } { 2 }y ^ { 2 } =50\\)\n∴\\(x ^ { 2 } +y ^ { 2 } =100\\)\n∵\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，\n∴\\(14 ^ { 2 } =100+2xy\\)，解得：\\(xy=48\\)，\n∴\\(S_{ \\vartriangle OAB } =S_{ \\vartriangle OCD } =\\frac { 1 } { 2 }AO\\cdot OB=24\\),\n∴阴影部分的面积为\\(S_{ \\vartriangle OAB } +S_{ \\vartriangle OCD } =48\\)．",
+      "solution_steps": [
+        "∵两块直角三角板全等，",
+        "∴\\(AO=CO，BO=DO，\\angle AOB=\\angle COD=90{}^\\circ\\)，",
+        "∵点A，O、D在同一直线上，点B，O，C也在同一直线上，",
+        "∴\\(\\angle AOC=180{}^\\circ -\\angle COD=90{}^\\circ ，BOD=AOC=90{}^\\circ\\)，",
+        "设\\(AO=CO=x，BO=DO=y\\)，",
+        "∴\\(AD=AO+OD=x+y=14\\)，",
+        "∵\\(S_{ \\vartriangle AOC } +S_{ \\vartriangle BOD } =50\\)，即\\(\\frac { 1 } { 2 }x ^ { 2 } +\\frac { 1 } { 2 }y ^ { 2 } =50\\)",
+        "∴\\(x ^ { 2 } +y ^ { 2 } =100\\)",
+        "∵\\(\\left ( { x+y } \\right ) ^ { 2 } =x ^ { 2 } +2xy+y ^ { 2 }\\)，",
+        "∴\\(14 ^ { 2 } =100+2xy\\)，解得：\\(xy=48\\)，",
+        "∴\\(S_{ \\vartriangle OAB } =S_{ \\vartriangle OCD } =\\frac { 1 } { 2 }AO\\cdot OB=24\\),",
+        "∴阴影部分的面积为\\(S_{ \\vartriangle OAB } +S_{ \\vartriangle OCD } =48\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面指向分割与补形求面积。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      72
+    ],
+    "solution_body_blocks": [
+      283,
+      310
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-46E3798AFA/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          284.55,
+          583.64,
+          595.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-46E3798AFA/solution-q21-p14.webp",
+      "assets/SZ-G7-T2-46E3798AFA/solution-q21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          247.27,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          337.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G02.04",
+    "M.N03.06"
+  ],
+  "exam_ids": [
+    "E.G02.04.01",
+    "E.N03.06.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面含“阴影部分的面积”。通过分割或补形求面积。 根据题中算式的幂、乘积或平方结构，以及解答的变形方式归类。 题面指向分割与补形求面积。",
+  "tag_source": "小问标签汇总"
+}

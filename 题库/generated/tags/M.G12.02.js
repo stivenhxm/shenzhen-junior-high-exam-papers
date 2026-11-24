@@ -1,0 +1,1 @@
+globalThis.BankData.put("tags/M.G12.02",{"id":"M.G12.02","results":[{"id":"SZ-G7-T2-954BD46EB9-Q22-P03","question_id":"SZ-G7-T2-954BD46EB9-Q22","paper_id":"SZ-G7-T2-954BD46EB9","number":22,"label":"（2）①","type":"解答题","title":"构造全等关系证明线段或角关系、选择充分条件证明三角形全等","preview":"用无刻度直尺确定点E，F的位置（保留画图痕迹）；","knowledge_ids":["M.G12.02"],"exam_ids":[],"coverage":"仅知识点","has_review_note":false}]});

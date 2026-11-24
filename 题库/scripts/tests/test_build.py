@@ -14,6 +14,24 @@ class SeedPapers(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = build.Bank(build.ROOT)
 
+    def test_longhua_spring_scan_and_final_scoring_are_linked_to_their_own_exams(self):
+        scan='SZ-G7-T2-9568EFD345'
+        mid='SZ-G7-T2-AA58AC3E62'
+        final='SZ-G7-T2-ECE61A19B5'
+        for pid in (scan,mid,final):
+            self.assertEqual(self.bank.papers[pid]['semester'],'下学期')
+        answers=self.bank.shards
+        scan_result=answers['answers/'+scan+'-Q21-P02']
+        self.assertIn('6',scan_result['answer'])
+        self.assertIn('10',answers['answers/'+mid+'-Q21-P02']['answer'])
+        for pid in (scan, mid):
+            self.assertEqual(set(self.bank.rows[pid+'-Q20-P02']['exam_ids']),
+                             {'E.G01.04.01','E.G12.01.01'})
+        corrected=answers['answers/'+final+'-Q17']
+        self.assertEqual(corrected['given_answer'],'4')
+        self.assertEqual(corrected['supplemental_solutions'][0]['pages'],[1])
+        self.assertNotEqual(corrected['answer'],corrected['given_answer'])
+
     def test_g7_review_and_editorial_solution_preserve_the_original_source(self):
         qid = 'SZ-G7-T1-63B44AB70E-Q18-P03'
         corrected = self.bank.shards['answers/'+qid]

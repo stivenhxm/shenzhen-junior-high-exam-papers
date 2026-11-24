@@ -1,0 +1,461 @@
+{
+  "id": "SZ-G7-T2-1966ACAAA6-Q22",
+  "paper_id": "SZ-G7-T2-1966ACAAA6",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "【特例感知】\n（1）如图1，点C为直线l上一点，将一块等腰直角三角板的直角顶点与C重合，两条直角边\\(AC、BC\\)在直线l的两侧，过A作\\(AD\\bot l\\)于点D，过B作\\(BE\\bot l\\)于点E，求证：\\(AD=CE\\)．\n【应用拓展】\n（2）当等腰直角\\(\\vartriangle ACB\\)的边\\(AC\\)落在直线l上，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC，D\\)为直线l上的一个动点（点D不与A、C重合），连接\\(BD\\)，将线段\\(BD\\)绕点B逆时针旋转\\(90{}^\\circ\\)的得到线段\\(BE\\)，连接\\(AE，AE\\)与射线\\(BC\\)交于点F．\n①如图2，求证：\\(AF=EF\\)；\n②当\\(BC=3CF\\)时，请直接写出\\(AD:AC\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/dc/dc15b680bf68db6b9084125b7e51110ad18ee94325d26db4f1c821ee335f2a32.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）①见解析；②\\(AD:AC=2:3\\)",
+  "answer": "（1）见解析；（2）①见解析；②\\(AD:AC=2:3\\)",
+  "given_solution": "【分析】本题考查了三角形全等的判定与性质，直角三角形两锐角互余，等腰直角三角形性质，正确作出辅助线直角三角形是解答本题的关键\n（1）根据垂线性质得到\\(\\angle BEC=\\angle ADC=90{}^\\circ =\\angle ACB\\)，进而得到\\(\\angle 1=\\angle 3\\)，利用\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle BCE≌\\vartriangle CAD\\)，即可得出结论；\n（2）①过点E作\\(EN\\bot BC\\)交\\(BC\\)的延长线于点N，利用\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle BCD≌\\vartriangle ENB\\)得到\\(BC=NE\\)，进一步证明\\(\\vartriangle ACF≌\\vartriangle ENF\\)即可得出结论；②分两种情况利用\\(\\vartriangle BDC≌\\vartriangle EBN\\)，以及\\(\\vartriangle AFC≌\\vartriangle EFN\\)即可求出结果．\n【详解】（1）证明：如图，\n〔图2〕\n\\(\\because AD\\bot l\\)于点D，\\(BE\\bot l\\)于点E，\n\\(\\therefore \\angle BEC=\\angle ADC=90{}^\\circ =\\angle ACB\\)，\n\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，\n\\(\\therefore \\angle 1=\\angle 3\\)，\n在\\(\\vartriangle BCE\\)与\\(\\vartriangle CAD\\)中，\n\\(\\because \\begin{cases} \\angle BEC=\\angle ADC \\\\ \\angle 1=\\angle 3 \\\\ BC=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE≌\\vartriangle CAD\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore AD=CE\\)；\n（2）①如图，过点E作\\(EN\\bot BC\\)交\\(BC\\)的延长线于点N，\n〔图3〕\n则\\(\\angle BNE=\\angle ACB=\\angle DEB=90{}^\\circ\\)，\n\\(\\therefore \\angle DBN+\\angle EBN=\\angle EBN+\\angle BEN=90{}^\\circ\\)，\n\\(\\therefore \\angle DBN=\\angle BEN\\)，\n\\(\\because BD=BE，\\angle BCD=\\angle BNE\\)，\n\\(\\therefore \\vartriangle BCD≌\\vartriangle ENB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BC=NE\\)，\n\\(\\because AC=BC\\)，\n\\(\\therefore AC=NE\\)，\n\\(\\because \\angle ACF=\\angle ENF=90{}^\\circ\\)，\\(\\angle AFC=\\angle NFE\\)，\n\\(\\therefore \\vartriangle ACF≌\\vartriangle ENF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore AF=EF\\)；\n②如图2所示，\\(BC=3CF\\)，\n由①可知\\(\\vartriangle ACF≌\\vartriangle ENF\\)，\n\\(\\therefore CF=FN\\)，\n设\\(CF=a\\)，则\\(FN=a\\)，\n\\(\\therefore CN=2a\\)，\n\\(\\therefore BN=5a\\)，\\(BC=3a\\)，\n\\(\\therefore AC=BC=3a\\)，\n\\(\\because \\vartriangle BDC≌\\vartriangle EBN\\)，\n\\(\\therefore BN=CD=5a\\)，\n\\(\\therefore AD=2a\\)，\n\\(\\therefore AD:AC=2:3\\)；\n如下图，作\\(EN\\bot BC\\)与点N，\n〔图4〕\n\\(\\therefore \\angle CNE=\\angle ACB=\\angle DBE=90{}^\\circ\\)，\n\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，\n\\(\\therefore \\angle 1=\\angle 3\\)，\n\\(\\because BD=BE\\)，\\(\\angle BCD=\\angle BNE\\)，\n\\(\\therefore \\vartriangle NBE≌\\vartriangle CDB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore NE=BC=AC\\)，\\(BN=CD\\)，\n\\(\\because \\angle ENF=\\angle ACF=\\angle NFE=\\angle AFC\\)，\n\\(\\therefore \\vartriangle AFC≌\\vartriangle EFN\\)，\n\\(\\therefore CF=FN\\)，\n设\\(CF=b\\)，则\\(BC=AC=3b\\)，\\(FN=b\\)，\n\\(\\therefore CN=2b\\)，\\(BN=CD=b\\)，\n\\(\\therefore AD=2b\\)，\n\\(\\therefore AD:AC=2:3\\)，\n综上所述：\\(AD:AC=2:3\\)．",
+  "given_solution_figures": [
+    "assets/figures/dc/dc15b680bf68db6b9084125b7e51110ad18ee94325d26db4f1c821ee335f2a32.png",
+    "assets/figures/17/17b9360e952e079bb3ceab7b184933c740c55588ea165cedcef163377dec73f7.png",
+    "assets/figures/05/05ecf22c5552894c3825a6c80336aa6155143345317f1366879afe4a75b8b6c2.png",
+    "assets/figures/c9/c9de41a56c80d395d2e723e1f6486593c8bf31644a04ad8f95d218b26576bc91.png"
+  ],
+  "solution": "（1）证明：如图，\n〔图2〕\n\\(\\because AD\\bot l\\)于点D，\\(BE\\bot l\\)于点E，\n\\(\\therefore \\angle BEC=\\angle ADC=90{}^\\circ =\\angle ACB\\)，\n\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，\n\\(\\therefore \\angle 1=\\angle 3\\)，\n在\\(\\vartriangle BCE\\)与\\(\\vartriangle CAD\\)中，\n\\(\\because \\begin{cases} \\angle BEC=\\angle ADC \\\\ \\angle 1=\\angle 3 \\\\ BC=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE≌\\vartriangle CAD\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore AD=CE\\)；\n（2）①如图，过点E作\\(EN\\bot BC\\)交\\(BC\\)的延长线于点N，\n〔图3〕\n则\\(\\angle BNE=\\angle ACB=\\angle DEB=90{}^\\circ\\)，\n\\(\\therefore \\angle DBN+\\angle EBN=\\angle EBN+\\angle BEN=90{}^\\circ\\)，\n\\(\\therefore \\angle DBN=\\angle BEN\\)，\n\\(\\because BD=BE，\\angle BCD=\\angle BNE\\)，\n\\(\\therefore \\vartriangle BCD≌\\vartriangle ENB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BC=NE\\)，\n\\(\\because AC=BC\\)，\n\\(\\therefore AC=NE\\)，\n\\(\\because \\angle ACF=\\angle ENF=90{}^\\circ\\)，\\(\\angle AFC=\\angle NFE\\)，\n\\(\\therefore \\vartriangle ACF≌\\vartriangle ENF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore AF=EF\\)；\n②如图2所示，\\(BC=3CF\\)，\n由①可知\\(\\vartriangle ACF≌\\vartriangle ENF\\)，\n\\(\\therefore CF=FN\\)，\n设\\(CF=a\\)，则\\(FN=a\\)，\n\\(\\therefore CN=2a\\)，\n\\(\\therefore BN=5a\\)，\\(BC=3a\\)，\n\\(\\therefore AC=BC=3a\\)，\n\\(\\because \\vartriangle BDC≌\\vartriangle EBN\\)，\n\\(\\therefore BN=CD=5a\\)，\n\\(\\therefore AD=2a\\)，\n\\(\\therefore AD:AC=2:3\\)；\n如下图，作\\(EN\\bot BC\\)与点N，\n〔图4〕\n\\(\\therefore \\angle CNE=\\angle ACB=\\angle DBE=90{}^\\circ\\)，\n\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，\n\\(\\therefore \\angle 1=\\angle 3\\)，\n\\(\\because BD=BE\\)，\\(\\angle BCD=\\angle BNE\\)，\n\\(\\therefore \\vartriangle NBE≌\\vartriangle CDB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore NE=BC=AC\\)，\\(BN=CD\\)，\n\\(\\because \\angle ENF=\\angle ACF=\\angle NFE=\\angle AFC\\)，\n\\(\\therefore \\vartriangle AFC≌\\vartriangle EFN\\)，\n\\(\\therefore CF=FN\\)，\n设\\(CF=b\\)，则\\(BC=AC=3b\\)，\\(FN=b\\)，\n\\(\\therefore CN=2b\\)，\\(BN=CD=b\\)，\n\\(\\therefore AD=2b\\)，\n\\(\\therefore AD:AC=2:3\\)，\n综上所述：\\(AD:AC=2:3\\)．",
+  "solution_steps": [
+    "（1）证明：如图，",
+    "〔图2〕",
+    "\\(\\because AD\\bot l\\)于点D，\\(BE\\bot l\\)于点E，",
+    "\\(\\therefore \\angle BEC=\\angle ADC=90{}^\\circ =\\angle ACB\\)，",
+    "\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle 1=\\angle 3\\)，",
+    "在\\(\\vartriangle BCE\\)与\\(\\vartriangle CAD\\)中，",
+    "\\(\\because \\begin{cases} \\angle BEC=\\angle ADC \\\\ \\angle 1=\\angle 3 \\\\ BC=AC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BCE≌\\vartriangle CAD\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore AD=CE\\)；",
+    "（2）①如图，过点E作\\(EN\\bot BC\\)交\\(BC\\)的延长线于点N，",
+    "〔图3〕",
+    "则\\(\\angle BNE=\\angle ACB=\\angle DEB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DBN+\\angle EBN=\\angle EBN+\\angle BEN=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DBN=\\angle BEN\\)，",
+    "\\(\\because BD=BE，\\angle BCD=\\angle BNE\\)，",
+    "\\(\\therefore \\vartriangle BCD≌\\vartriangle ENB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore BC=NE\\)，",
+    "\\(\\because AC=BC\\)，",
+    "\\(\\therefore AC=NE\\)，",
+    "\\(\\because \\angle ACF=\\angle ENF=90{}^\\circ\\)，\\(\\angle AFC=\\angle NFE\\)，",
+    "\\(\\therefore \\vartriangle ACF≌\\vartriangle ENF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore AF=EF\\)；",
+    "②如图2所示，\\(BC=3CF\\)，",
+    "由①可知\\(\\vartriangle ACF≌\\vartriangle ENF\\)，",
+    "\\(\\therefore CF=FN\\)，",
+    "设\\(CF=a\\)，则\\(FN=a\\)，",
+    "\\(\\therefore CN=2a\\)，",
+    "\\(\\therefore BN=5a\\)，\\(BC=3a\\)，",
+    "\\(\\therefore AC=BC=3a\\)，",
+    "\\(\\because \\vartriangle BDC≌\\vartriangle EBN\\)，",
+    "\\(\\therefore BN=CD=5a\\)，",
+    "\\(\\therefore AD=2a\\)，",
+    "\\(\\therefore AD:AC=2:3\\)；",
+    "如下图，作\\(EN\\bot BC\\)与点N，",
+    "〔图4〕",
+    "\\(\\therefore \\angle CNE=\\angle ACB=\\angle DBE=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle 1=\\angle 3\\)，",
+    "\\(\\because BD=BE\\)，\\(\\angle BCD=\\angle BNE\\)，",
+    "\\(\\therefore \\vartriangle NBE≌\\vartriangle CDB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore NE=BC=AC\\)，\\(BN=CD\\)，",
+    "\\(\\because \\angle ENF=\\angle ACF=\\angle NFE=\\angle AFC\\)，",
+    "\\(\\therefore \\vartriangle AFC≌\\vartriangle EFN\\)，",
+    "\\(\\therefore CF=FN\\)，",
+    "设\\(CF=b\\)，则\\(BC=AC=3b\\)，\\(FN=b\\)，",
+    "\\(\\therefore CN=2b\\)，\\(BN=CD=b\\)，",
+    "\\(\\therefore AD=2b\\)，",
+    "\\(\\therefore AD:AC=2:3\\)，",
+    "综上所述：\\(AD:AC=2:3\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【特例感知】",
+      "paper_blocks": [
+        75
+      ]
+    },
+    {
+      "id": "fig-81",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        81
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "当等腰直角\\(\\vartriangle ACB\\)的边\\(AC\\)落在直线l上，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC，D\\)为直线l上的一个动点（点D不与A、C重合），连接\\(BD\\)，将线段\\(BD\\)绕点B逆时针旋转\\(90{}^\\circ\\)的得到线段\\(BE\\)，连接\\(AE，AE\\)与射线\\(BC\\)交于点F．",
+      "paper_blocks": [
+        78
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-1966ACAAA6-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，点C为直线l上一点，将一块等腰直角三角板的直角顶点与C重合，两条直角边\\(AC、BC\\)在直线l的两侧，过A作\\(AD\\bot l\\)于点D，过B作\\(BE\\bot l\\)于点E，求证：\\(AD=CE\\)．\n【应用拓展】",
+      "stem_text": "如图1，点C为直线l上一点，将一块等腰直角三角板的直角顶点与C重合，两条直角边\\(AC、BC\\)在直线l的两侧，过A作\\(AD\\bot l\\)于点D，过B作\\(BE\\bot l\\)于点E，求证：\\(AD=CE\\)．\n【应用拓展】",
+      "material_ids": [
+        "context",
+        "fig-81"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：如图，\n〔图2〕\n\\(\\because AD\\bot l\\)于点D，\\(BE\\bot l\\)于点E，\n\\(\\therefore \\angle BEC=\\angle ADC=90{}^\\circ =\\angle ACB\\)，\n\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，\n\\(\\therefore \\angle 1=\\angle 3\\)，\n在\\(\\vartriangle BCE\\)与\\(\\vartriangle CAD\\)中，\n\\(\\because \\begin{cases} \\angle BEC=\\angle ADC \\\\ \\angle 1=\\angle 3 \\\\ BC=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE≌\\vartriangle CAD\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore AD=CE\\)；",
+      "solution_steps": [
+        "证明：如图，",
+        "〔图2〕",
+        "\\(\\because AD\\bot l\\)于点D，\\(BE\\bot l\\)于点E，",
+        "\\(\\therefore \\angle BEC=\\angle ADC=90{}^\\circ =\\angle ACB\\)，",
+        "\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle 1=\\angle 3\\)，",
+        "在\\(\\vartriangle BCE\\)与\\(\\vartriangle CAD\\)中，",
+        "\\(\\because \\begin{cases} \\angle BEC=\\angle ADC \\\\ \\angle 1=\\angle 3 \\\\ BC=AC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle BCE≌\\vartriangle CAD\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore AD=CE\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          77,
+          81
+        ],
+        "solution_block_ids": [
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-1966ACAAA6-Q22-P02",
+      "label": "（2）①",
+      "prompt": "如图2，求证：\\(AF=EF\\)；",
+      "stem_text": "如图2，求证：\\(AF=EF\\)；",
+      "material_ids": [
+        "context",
+        "fig-81",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "如图，过点E作\\(EN\\bot BC\\)交\\(BC\\)的延长线于点N，\n〔图3〕\n则\\(\\angle BNE=\\angle ACB=\\angle DEB=90{}^\\circ\\)，\n\\(\\therefore \\angle DBN+\\angle EBN=\\angle EBN+\\angle BEN=90{}^\\circ\\)，\n\\(\\therefore \\angle DBN=\\angle BEN\\)，\n\\(\\because BD=BE，\\angle BCD=\\angle BNE\\)，\n\\(\\therefore \\vartriangle BCD≌\\vartriangle ENB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BC=NE\\)，\n\\(\\because AC=BC\\)，\n\\(\\therefore AC=NE\\)，\n\\(\\because \\angle ACF=\\angle ENF=90{}^\\circ\\)，\\(\\angle AFC=\\angle NFE\\)，\n\\(\\therefore \\vartriangle ACF≌\\vartriangle ENF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore AF=EF\\)；",
+      "solution_steps": [
+        "如图，过点E作\\(EN\\bot BC\\)交\\(BC\\)的延长线于点N，",
+        "〔图3〕",
+        "则\\(\\angle BNE=\\angle ACB=\\angle DEB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DBN+\\angle EBN=\\angle EBN+\\angle BEN=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DBN=\\angle BEN\\)，",
+        "\\(\\because BD=BE，\\angle BCD=\\angle BNE\\)，",
+        "\\(\\therefore \\vartriangle BCD≌\\vartriangle ENB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore BC=NE\\)，",
+        "\\(\\because AC=BC\\)，",
+        "\\(\\therefore AC=NE\\)，",
+        "\\(\\because \\angle ACF=\\angle ENF=90{}^\\circ\\)，\\(\\angle AFC=\\angle NFE\\)，",
+        "\\(\\therefore \\vartriangle ACF≌\\vartriangle ENF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore AF=EF\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          78,
+          79,
+          81
+        ],
+        "solution_block_ids": [
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-1966ACAAA6-Q22-P03",
+      "label": "（2）②",
+      "prompt": "当\\(BC=3CF\\)时，请直接写出\\(AD:AC\\)的值．",
+      "stem_text": "当\\(BC=3CF\\)时，请直接写出\\(AD:AC\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-81",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD:AC=2:3\\)",
+      "answer": "\\(AD:AC=2:3\\)",
+      "given_solution": "如图2所示，\\(BC=3CF\\)，\n由①可知\\(\\vartriangle ACF≌\\vartriangle ENF\\)，\n\\(\\therefore CF=FN\\)，\n设\\(CF=a\\)，则\\(FN=a\\)，\n\\(\\therefore CN=2a\\)，\n\\(\\therefore BN=5a\\)，\\(BC=3a\\)，\n\\(\\therefore AC=BC=3a\\)，\n\\(\\because \\vartriangle BDC≌\\vartriangle EBN\\)，\n\\(\\therefore BN=CD=5a\\)，\n\\(\\therefore AD=2a\\)，\n\\(\\therefore AD:AC=2:3\\)；\n如下图，作\\(EN\\bot BC\\)与点N，\n〔图4〕\n\\(\\therefore \\angle CNE=\\angle ACB=\\angle DBE=90{}^\\circ\\)，\n\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，\n\\(\\therefore \\angle 1=\\angle 3\\)，\n\\(\\because BD=BE\\)，\\(\\angle BCD=\\angle BNE\\)，\n\\(\\therefore \\vartriangle NBE≌\\vartriangle CDB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore NE=BC=AC\\)，\\(BN=CD\\)，\n\\(\\because \\angle ENF=\\angle ACF=\\angle NFE=\\angle AFC\\)，\n\\(\\therefore \\vartriangle AFC≌\\vartriangle EFN\\)，\n\\(\\therefore CF=FN\\)，\n设\\(CF=b\\)，则\\(BC=AC=3b\\)，\\(FN=b\\)，\n\\(\\therefore CN=2b\\)，\\(BN=CD=b\\)，\n\\(\\therefore AD=2b\\)，\n\\(\\therefore AD:AC=2:3\\)，\n综上所述：\\(AD:AC=2:3\\)．",
+      "solution_steps": [
+        "如图2所示，\\(BC=3CF\\)，",
+        "由①可知\\(\\vartriangle ACF≌\\vartriangle ENF\\)，",
+        "\\(\\therefore CF=FN\\)，",
+        "设\\(CF=a\\)，则\\(FN=a\\)，",
+        "\\(\\therefore CN=2a\\)，",
+        "\\(\\therefore BN=5a\\)，\\(BC=3a\\)，",
+        "\\(\\therefore AC=BC=3a\\)，",
+        "\\(\\because \\vartriangle BDC≌\\vartriangle EBN\\)，",
+        "\\(\\therefore BN=CD=5a\\)，",
+        "\\(\\therefore AD=2a\\)，",
+        "\\(\\therefore AD:AC=2:3\\)；",
+        "如下图，作\\(EN\\bot BC\\)与点N，",
+        "〔图4〕",
+        "\\(\\therefore \\angle CNE=\\angle ACB=\\angle DBE=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle 1+\\angle 2=\\angle 2+\\angle 3=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle 1=\\angle 3\\)，",
+        "\\(\\because BD=BE\\)，\\(\\angle BCD=\\angle BNE\\)，",
+        "\\(\\therefore \\vartriangle NBE≌\\vartriangle CDB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore NE=BC=AC\\)，\\(BN=CD\\)，",
+        "\\(\\because \\angle ENF=\\angle ACF=\\angle NFE=\\angle AFC\\)，",
+        "\\(\\therefore \\vartriangle AFC≌\\vartriangle EFN\\)，",
+        "\\(\\therefore CF=FN\\)，",
+        "设\\(CF=b\\)，则\\(BC=AC=3b\\)，\\(FN=b\\)，",
+        "\\(\\therefore CN=2b\\)，\\(BN=CD=b\\)，",
+        "\\(\\therefore AD=2b\\)，",
+        "\\(\\therefore AD:AC=2:3\\)，",
+        "综上所述：\\(AD:AC=2:3\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          78,
+          80,
+          81
+        ],
+        "solution_block_ids": [
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      75,
+      81
+    ],
+    "solution_body_blocks": [
+      323,
+      385
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-1966ACAAA6/paper-q22-p05.webp",
+      "assets/SZ-G7-T2-1966ACAAA6/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          620.91,
+          583.64,
+          752.73
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          236.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-1966ACAAA6/solution-q22-p16.webp",
+      "assets/SZ-G7-T2-1966ACAAA6/solution-q22-p17.webp",
+      "assets/SZ-G7-T2-1966ACAAA6/solution-q22-p18.webp",
+      "assets/SZ-G7-T2-1966ACAAA6/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          603.64,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          111.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}

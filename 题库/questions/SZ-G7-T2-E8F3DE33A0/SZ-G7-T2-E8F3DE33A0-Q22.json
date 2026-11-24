@@ -1,0 +1,388 @@
+{
+  "id": "SZ-G7-T2-E8F3DE33A0-Q22",
+  "paper_id": "SZ-G7-T2-E8F3DE33A0",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "综合与实践课上，李老师以“发现−探究−拓展”的形式，培养学生数学思想，训练学生数学思维．以下是李老师的课堂主题展示：\n〔图1〕\n（1）如图，在等腰\\(\\vartriangle ABC\\)中，\\(AC=BC\\)，点D为线段\\(AB\\)上的一动点（点D不与A，B重合），以\\(CD\\)为边作等腰\\(\\vartriangle CDE\\)，\\(CD=CE\\)，\\(\\angle ACB=\\angle DCE=\\alpha\\)，连接\\(BE\\)．解答下列问题：\n【观察发现】\n①如图11−1，当\\(\\alpha =90{}^\\circ\\)时，线段\\(AD\\)，\\(BE\\)的数量关系为        ，\\(\\angle ABE=\\)        °；\n【类比探究】\n②如图11−2，当\\(\\alpha =60{}^\\circ\\)时，试探究线段\\(AC\\)与\\(BE\\)的位置关系，并说明理由；\n【拓展延伸】\n（2）如图11−3，四边形\\(ABCD\\)中，\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\\(AB=AD\\)，连接\\(AC\\)，若\\(AC=8\\)，则四边形\\(ABCD\\)的面积为多少？（直接写出结果）．",
+  "choices": [],
+  "figures": [
+    "assets/figures/d0/d0341fc1ea87cc4c0ac8c365ff207e0d01387873f07e5641dc9143992957edff.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(AD=BE\\)，90； ②\\(AC\\parallel BE\\)，理由见解析；（2）32",
+  "answer": "（1）①\\(AD=BE\\)，90； ②\\(AC\\parallel BE\\)，理由见解析；（2）32",
+  "given_solution": "【分析】（1）①先证明\\(\\angle ACD=\\angle BCE\\)，再利用\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle ACD≌\\vartriangle BCE\\)，由全等三角的性质可得出\\(AD=BE\\)，\\(\\angle CAD=\\angle CBE\\)，由等腰三角形的性质以及三角形内角和定理可得出\\(\\angle DBC=\\angle CBE=45{}^\\circ\\)，再根据角的和差关系即可得出\\(\\angle ABE=90{}^\\circ\\)．②同①，由等腰三角形的性质以及三角形内角和定理可得出\\(\\angle A=\\angle CBA=60{}^\\circ\\)，用\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle ACD≌\\vartriangle BCE\\)，用全等三角形的性质可得出\\(\\angle A=\\angle CBE=60{}^\\circ\\)，即可得出\\(\\angle ACB=\\angle CBE\\)，根据内错角相等，两直线平行得出\\(AC\\parallel BE\\)．\n（2）过A作\\(AG\\bot AC\\)交\\(CB\\)延长线于G，先证明\\(\\angle ADC=\\angle ABG\\)，再根据角的和差关系得出\\(\\angle DAC=\\angle BAG\\)，利用\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)证明\\(\\vartriangle ACD≌\\vartriangle AGB\\)，由全等的性质得出\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle AGB }\\)，\\(AG=AC\\)，根据\\(S_{ \\vartriangle ACD } +S_{ \\vartriangle ABC } =S_{ \\vartriangle AGB } +S_{ \\vartriangle ABC }\\)得出\\(S_{ 四边形ABCD } =S_{ \\vartriangle ACG }\\)，计算即可．\n【详解】解：（1）①∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\n∴\\(\\angle ACB-CDB=\\angle DCE-\\angle CDB\\)，\n即\\(\\angle ACD=\\angle BCE\\)，\n又∵\\(AC=BC\\)，\\(CD=CE\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE\\)，\\(\\angle CAD=\\angle CBE\\)，\n∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\\(AC=BC\\)，\\(CD=CE\\)，\n∴\\(\\angle DBC=\\angle CBE=45{}^\\circ\\)\n∴\\(\\angle ABE=\\angle DBC+\\angle CBE=90{}^\\circ\\)，\n故答案为：\\(AD=BE\\)，90．\n②\\(AC\\parallel BE\\)，理由如下：\n∵\\(\\angle ACB=\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle ACB-\\angle DCB=\\angle DCE-\\angle DCB\\)\n即\\(\\angle ACD=\\angle BCE\\)，\n∵\\(CA=CB\\)\n∴\\(\\angle A=\\angle CBA=\\frac { 1 } { 2 }\\left ( { 180{}^\\circ -60{}^\\circ } \\right )=60{}^\\circ\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} AC=BC， \\\\ \\angle ACD=\\angle BCE， \\\\ CD=CE， \\end{cases}\\)\n∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle A=\\angle CBE=60{}^\\circ\\)\n∴\\(\\angle ACB=\\angle CBE\\)\n∴\\(AC\\parallel BE\\)，\n（2）如图，过A作\\(AG\\bot AC\\)交\\(CB\\)延长线于G，\n〔图2〕\n∵\\(\\angle ABC+\\angle ACB+\\angle BAC=180{}^\\circ\\)，\\(\\angle ACD+\\angle CDA+\\angle CAD=180{}^\\circ\\)\n∴\\(\\angle ABC+\\angle BCD+\\angle CDA+\\angle DAB=360{}^\\circ\\)\n∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)\n∴\\(\\angle ABC+\\angle ADC=180{}^\\circ\\)\n又∵\\(\\angle ABC+\\angle ABG=180{}^\\circ\\)\n∴\\(\\angle ADC=\\angle ABG\\)\n∵\\(\\angle DAB=\\angle CAG=90{}^\\circ\\)\n∴\\(\\angle DAB-\\angle BAC=\\angle CAG-\\angle BAC\\)\n即\\(\\angle DAC=\\angle BAG\\)\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle AGB\\)中，\n\\(\\begin{cases} \\angle DAC=\\angle BAG， \\\\ AD=AB， \\\\ \\angle ADC=\\angle ABG， \\end{cases}\\)\n∴\\(\\vartriangle ACD≌\\vartriangle AGB（{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }）\\)\n∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle AGB }\\)，\\(AG=AC\\)\n∴\\(S_{ \\vartriangle ACD } +S_{ \\vartriangle ABC } =S_{ \\vartriangle AGB } +S_{ \\vartriangle ABC }\\)\n∴\\(S_{ 四边形ABCD } =S_{ \\vartriangle ACG } =\\frac { 1 } { 2 }\\times AC\\times AG=\\frac { 1 } { 2 }AC ^ { 2 } =32\\)．\n【点睛】本题主要考查了全等三角形的判定以及性质，等腰三角形的性质，三角形内角和定理，以及平行线的判定，掌握全等三角形的判定以及性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/d0/d0341fc1ea87cc4c0ac8c365ff207e0d01387873f07e5641dc9143992957edff.png",
+    "assets/figures/e2/e289268721f349e69586c141893db3da52d0027e41bd7ac7ae75194a5657b5be.png"
+  ],
+  "solution": "解：（1）①∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\n∴\\(\\angle ACB-CDB=\\angle DCE-\\angle CDB\\)，\n即\\(\\angle ACD=\\angle BCE\\)，\n又∵\\(AC=BC\\)，\\(CD=CE\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE\\)，\\(\\angle CAD=\\angle CBE\\)，\n∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\\(AC=BC\\)，\\(CD=CE\\)，\n∴\\(\\angle DBC=\\angle CBE=45{}^\\circ\\)\n∴\\(\\angle ABE=\\angle DBC+\\angle CBE=90{}^\\circ\\)，\n故答案为：\\(AD=BE\\)，90．\n②\\(AC\\parallel BE\\)，理由如下：\n∵\\(\\angle ACB=\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle ACB-\\angle DCB=\\angle DCE-\\angle DCB\\)\n即\\(\\angle ACD=\\angle BCE\\)，\n∵\\(CA=CB\\)\n∴\\(\\angle A=\\angle CBA=\\frac { 1 } { 2 }\\left ( { 180{}^\\circ -60{}^\\circ } \\right )=60{}^\\circ\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} AC=BC， \\\\ \\angle ACD=\\angle BCE， \\\\ CD=CE， \\end{cases}\\)\n∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle A=\\angle CBE=60{}^\\circ\\)\n∴\\(\\angle ACB=\\angle CBE\\)\n∴\\(AC\\parallel BE\\)，\n（2）如图，过A作\\(AG\\bot AC\\)交\\(CB\\)延长线于G，\n〔图2〕\n∵\\(\\angle ABC+\\angle ACB+\\angle BAC=180{}^\\circ\\)，\\(\\angle ACD+\\angle CDA+\\angle CAD=180{}^\\circ\\)\n∴\\(\\angle ABC+\\angle BCD+\\angle CDA+\\angle DAB=360{}^\\circ\\)\n∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)\n∴\\(\\angle ABC+\\angle ADC=180{}^\\circ\\)\n又∵\\(\\angle ABC+\\angle ABG=180{}^\\circ\\)\n∴\\(\\angle ADC=\\angle ABG\\)\n∵\\(\\angle DAB=\\angle CAG=90{}^\\circ\\)\n∴\\(\\angle DAB-\\angle BAC=\\angle CAG-\\angle BAC\\)\n即\\(\\angle DAC=\\angle BAG\\)\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle AGB\\)中，\n\\(\\begin{cases} \\angle DAC=\\angle BAG， \\\\ AD=AB， \\\\ \\angle ADC=\\angle ABG， \\end{cases}\\)\n∴\\(\\vartriangle ACD≌\\vartriangle AGB（{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }）\\)\n∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle AGB }\\)，\\(AG=AC\\)\n∴\\(S_{ \\vartriangle ACD } +S_{ \\vartriangle ABC } =S_{ \\vartriangle AGB } +S_{ \\vartriangle ABC }\\)\n∴\\(S_{ 四边形ABCD } =S_{ \\vartriangle ACG } =\\frac { 1 } { 2 }\\times AC\\times AG=\\frac { 1 } { 2 }AC ^ { 2 } =32\\)．",
+  "solution_steps": [
+    "解：（1）①∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，",
+    "∴\\(\\angle ACB-CDB=\\angle DCE-\\angle CDB\\)，",
+    "即\\(\\angle ACD=\\angle BCE\\)，",
+    "又∵\\(AC=BC\\)，\\(CD=CE\\)，",
+    "∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AD=BE\\)，\\(\\angle CAD=\\angle CBE\\)，",
+    "∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\\(AC=BC\\)，\\(CD=CE\\)，",
+    "∴\\(\\angle DBC=\\angle CBE=45{}^\\circ\\)",
+    "∴\\(\\angle ABE=\\angle DBC+\\angle CBE=90{}^\\circ\\)，",
+    "故答案为：\\(AD=BE\\)，90．",
+    "②\\(AC\\parallel BE\\)，理由如下：",
+    "∵\\(\\angle ACB=\\angle DCE=60{}^\\circ\\)，",
+    "∴\\(\\angle ACB-\\angle DCB=\\angle DCE-\\angle DCB\\)",
+    "即\\(\\angle ACD=\\angle BCE\\)，",
+    "∵\\(CA=CB\\)",
+    "∴\\(\\angle A=\\angle CBA=\\frac { 1 } { 2 }\\left ( { 180{}^\\circ -60{}^\\circ } \\right )=60{}^\\circ\\)，",
+    "在\\(\\vartriangle ACD\\)和\\(\\vartriangle BCE\\)中，",
+    "\\(\\begin{cases} AC=BC， \\\\ \\angle ACD=\\angle BCE， \\\\ CD=CE， \\end{cases}\\)",
+    "∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle A=\\angle CBE=60{}^\\circ\\)",
+    "∴\\(\\angle ACB=\\angle CBE\\)",
+    "∴\\(AC\\parallel BE\\)，",
+    "（2）如图，过A作\\(AG\\bot AC\\)交\\(CB\\)延长线于G，",
+    "〔图2〕",
+    "∵\\(\\angle ABC+\\angle ACB+\\angle BAC=180{}^\\circ\\)，\\(\\angle ACD+\\angle CDA+\\angle CAD=180{}^\\circ\\)",
+    "∴\\(\\angle ABC+\\angle BCD+\\angle CDA+\\angle DAB=360{}^\\circ\\)",
+    "∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)",
+    "∴\\(\\angle ABC+\\angle ADC=180{}^\\circ\\)",
+    "又∵\\(\\angle ABC+\\angle ABG=180{}^\\circ\\)",
+    "∴\\(\\angle ADC=\\angle ABG\\)",
+    "∵\\(\\angle DAB=\\angle CAG=90{}^\\circ\\)",
+    "∴\\(\\angle DAB-\\angle BAC=\\angle CAG-\\angle BAC\\)",
+    "即\\(\\angle DAC=\\angle BAG\\)",
+    "在\\(\\vartriangle ACD\\)和\\(\\vartriangle AGB\\)中，",
+    "\\(\\begin{cases} \\angle DAC=\\angle BAG， \\\\ AD=AB， \\\\ \\angle ADC=\\angle ABG， \\end{cases}\\)",
+    "∴\\(\\vartriangle ACD≌\\vartriangle AGB（{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }）\\)",
+    "∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle AGB }\\)，\\(AG=AC\\)",
+    "∴\\(S_{ \\vartriangle ACD } +S_{ \\vartriangle ABC } =S_{ \\vartriangle AGB } +S_{ \\vartriangle ABC }\\)",
+    "∴\\(S_{ 四边形ABCD } =S_{ \\vartriangle ACG } =\\frac { 1 } { 2 }\\times AC\\times AG=\\frac { 1 } { 2 }AC ^ { 2 } =32\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与实践课上，李老师以“发现−探究−拓展”的形式，培养学生数学思想，训练学生数学思维．以下是李老师的课堂主题展示：\n〔图1〕",
+      "paper_blocks": [
+        89,
+        90
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图，在等腰\\(\\vartriangle ABC\\)中，\\(AC=BC\\)，点D为线段\\(AB\\)上的一动点（点D不与A，B重合），以\\(CD\\)为边作等腰\\(\\vartriangle CDE\\)，\\(CD=CE\\)，\\(\\angle ACB=\\angle DCE=\\alpha\\)，连接\\(BE\\)．解答下列问题：\n【观察发现】",
+      "paper_blocks": [
+        91,
+        92
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G7-T2-E8F3DE33A0-Q22-P01",
+      "label": "（1）①",
+      "prompt": "如图11−1，当\\(\\alpha =90{}^\\circ\\)时，线段\\(AD\\)，\\(BE\\)的数量关系为        ，\\(\\angle ABE=\\)        °；\n【类比探究】",
+      "stem_text": "如图11−1，当\\(\\alpha =90{}^\\circ\\)时，线段\\(AD\\)，\\(BE\\)的数量关系为        ，\\(\\angle ABE=\\)        °；\n【类比探究】",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD=BE\\)，90；",
+      "answer": "\\(AD=BE\\)，90；",
+      "given_solution": "∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\n∴\\(\\angle ACB-CDB=\\angle DCE-\\angle CDB\\)，\n即\\(\\angle ACD=\\angle BCE\\)，\n又∵\\(AC=BC\\)，\\(CD=CE\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE\\)，\\(\\angle CAD=\\angle CBE\\)，\n∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\\(AC=BC\\)，\\(CD=CE\\)，\n∴\\(\\angle DBC=\\angle CBE=45{}^\\circ\\)\n∴\\(\\angle ABE=\\angle DBC+\\angle CBE=90{}^\\circ\\)，\n故答案为：\\(AD=BE\\)，90．",
+      "solution_steps": [
+        "∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，",
+        "∴\\(\\angle ACB-CDB=\\angle DCE-\\angle CDB\\)，",
+        "即\\(\\angle ACD=\\angle BCE\\)，",
+        "又∵\\(AC=BC\\)，\\(CD=CE\\)，",
+        "∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AD=BE\\)，\\(\\angle CAD=\\angle CBE\\)，",
+        "∵\\(\\angle ACB=\\angle DCE=90{}^\\circ\\)，\\(AC=BC\\)，\\(CD=CE\\)，",
+        "∴\\(\\angle DBC=\\angle CBE=45{}^\\circ\\)",
+        "∴\\(\\angle ABE=\\angle DBC+\\angle CBE=90{}^\\circ\\)，",
+        "故答案为：\\(AD=BE\\)，90．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          89,
+          90,
+          91,
+          92,
+          93,
+          94
+        ],
+        "solution_block_ids": [
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-E8F3DE33A0-Q22-P02",
+      "label": "（1）②",
+      "prompt": "如图11−2，当\\(\\alpha =60{}^\\circ\\)时，试探究线段\\(AC\\)与\\(BE\\)的位置关系，并说明理由；\n【拓展延伸】",
+      "stem_text": "如图11−2，当\\(\\alpha =60{}^\\circ\\)时，试探究线段\\(AC\\)与\\(BE\\)的位置关系，并说明理由；\n【拓展延伸】",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(AC\\parallel BE\\)，理由见解析；",
+      "answer": "\\(AC\\parallel BE\\)，理由见解析；",
+      "given_solution": "\\(AC\\parallel BE\\)，理由如下：\n∵\\(\\angle ACB=\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle ACB-\\angle DCB=\\angle DCE-\\angle DCB\\)\n即\\(\\angle ACD=\\angle BCE\\)，\n∵\\(CA=CB\\)\n∴\\(\\angle A=\\angle CBA=\\frac { 1 } { 2 }\\left ( { 180{}^\\circ -60{}^\\circ } \\right )=60{}^\\circ\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} AC=BC， \\\\ \\angle ACD=\\angle BCE， \\\\ CD=CE， \\end{cases}\\)\n∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle A=\\angle CBE=60{}^\\circ\\)\n∴\\(\\angle ACB=\\angle CBE\\)\n∴\\(AC\\parallel BE\\)，",
+      "solution_steps": [
+        "\\(AC\\parallel BE\\)，理由如下：",
+        "∵\\(\\angle ACB=\\angle DCE=60{}^\\circ\\)，",
+        "∴\\(\\angle ACB-\\angle DCB=\\angle DCE-\\angle DCB\\)",
+        "即\\(\\angle ACD=\\angle BCE\\)，",
+        "∵\\(CA=CB\\)",
+        "∴\\(\\angle A=\\angle CBA=\\frac { 1 } { 2 }\\left ( { 180{}^\\circ -60{}^\\circ } \\right )=60{}^\\circ\\)，",
+        "在\\(\\vartriangle ACD\\)和\\(\\vartriangle BCE\\)中，",
+        "\\(\\begin{cases} AC=BC， \\\\ \\angle ACD=\\angle BCE， \\\\ CD=CE， \\end{cases}\\)",
+        "∴\\(\\vartriangle ACD≌\\vartriangle BCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle A=\\angle CBE=60{}^\\circ\\)",
+        "∴\\(\\angle ACB=\\angle CBE\\)",
+        "∴\\(AC\\parallel BE\\)，"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          89,
+          90,
+          91,
+          92,
+          95,
+          96
+        ],
+        "solution_block_ids": [
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G7-T2-E8F3DE33A0-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图11−3，四边形\\(ABCD\\)中，\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\\(AB=AD\\)，连接\\(AC\\)，若\\(AC=8\\)，则四边形\\(ABCD\\)的面积为多少？（直接写出结果）．",
+      "stem_text": "如图11−3，四边形\\(ABCD\\)中，\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\\(AB=AD\\)，连接\\(AC\\)，若\\(AC=8\\)，则四边形\\(ABCD\\)的面积为多少？（直接写出结果）．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "32",
+      "answer": "32",
+      "given_solution": "如图，过A作\\(AG\\bot AC\\)交\\(CB\\)延长线于G，\n〔图2〕\n∵\\(\\angle ABC+\\angle ACB+\\angle BAC=180{}^\\circ\\)，\\(\\angle ACD+\\angle CDA+\\angle CAD=180{}^\\circ\\)\n∴\\(\\angle ABC+\\angle BCD+\\angle CDA+\\angle DAB=360{}^\\circ\\)\n∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)\n∴\\(\\angle ABC+\\angle ADC=180{}^\\circ\\)\n又∵\\(\\angle ABC+\\angle ABG=180{}^\\circ\\)\n∴\\(\\angle ADC=\\angle ABG\\)\n∵\\(\\angle DAB=\\angle CAG=90{}^\\circ\\)\n∴\\(\\angle DAB-\\angle BAC=\\angle CAG-\\angle BAC\\)\n即\\(\\angle DAC=\\angle BAG\\)\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle AGB\\)中，\n\\(\\begin{cases} \\angle DAC=\\angle BAG， \\\\ AD=AB， \\\\ \\angle ADC=\\angle ABG， \\end{cases}\\)\n∴\\(\\vartriangle ACD≌\\vartriangle AGB（{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }）\\)\n∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle AGB }\\)，\\(AG=AC\\)\n∴\\(S_{ \\vartriangle ACD } +S_{ \\vartriangle ABC } =S_{ \\vartriangle AGB } +S_{ \\vartriangle ABC }\\)\n∴\\(S_{ 四边形ABCD } =S_{ \\vartriangle ACG } =\\frac { 1 } { 2 }\\times AC\\times AG=\\frac { 1 } { 2 }AC ^ { 2 } =32\\)．",
+      "solution_steps": [
+        "如图，过A作\\(AG\\bot AC\\)交\\(CB\\)延长线于G，",
+        "〔图2〕",
+        "∵\\(\\angle ABC+\\angle ACB+\\angle BAC=180{}^\\circ\\)，\\(\\angle ACD+\\angle CDA+\\angle CAD=180{}^\\circ\\)",
+        "∴\\(\\angle ABC+\\angle BCD+\\angle CDA+\\angle DAB=360{}^\\circ\\)",
+        "∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)",
+        "∴\\(\\angle ABC+\\angle ADC=180{}^\\circ\\)",
+        "又∵\\(\\angle ABC+\\angle ABG=180{}^\\circ\\)",
+        "∴\\(\\angle ADC=\\angle ABG\\)",
+        "∵\\(\\angle DAB=\\angle CAG=90{}^\\circ\\)",
+        "∴\\(\\angle DAB-\\angle BAC=\\angle CAG-\\angle BAC\\)",
+        "即\\(\\angle DAC=\\angle BAG\\)",
+        "在\\(\\vartriangle ACD\\)和\\(\\vartriangle AGB\\)中，",
+        "\\(\\begin{cases} \\angle DAC=\\angle BAG， \\\\ AD=AB， \\\\ \\angle ADC=\\angle ABG， \\end{cases}\\)",
+        "∴\\(\\vartriangle ACD≌\\vartriangle AGB（{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }）\\)",
+        "∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle AGB }\\)，\\(AG=AC\\)",
+        "∴\\(S_{ \\vartriangle ACD } +S_{ \\vartriangle ABC } =S_{ \\vartriangle AGB } +S_{ \\vartriangle ABC }\\)",
+        "∴\\(S_{ 四边形ABCD } =S_{ \\vartriangle ACG } =\\frac { 1 } { 2 }\\times AC\\times AG=\\frac { 1 } { 2 }AC ^ { 2 } =32\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          89,
+          90,
+          97
+        ],
+        "solution_block_ids": [
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      89,
+      97
+    ],
+    "solution_body_blocks": [
+      301,
+      353
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G7-T2-E8F3DE33A0/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          129.55,
+          583.64,
+          487.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G7-T2-E8F3DE33A0/solution-q22-p16.webp",
+      "assets/SZ-G7-T2-E8F3DE33A0/solution-q22-p17.webp",
+      "assets/SZ-G7-T2-E8F3DE33A0/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          670.0,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          650.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "按本问解答中出现的几何关系及所求结论归类。",
+  "tag_source": "小问标签汇总"
+}
