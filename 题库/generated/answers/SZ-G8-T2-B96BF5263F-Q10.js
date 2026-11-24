@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q10",{"answer":"D","solution_steps":["先提取公因式 \\(a\\)，再应用平方差公式，得 \\(a-ab^2=a(1-b^2)=a(1-b)(1+b)\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

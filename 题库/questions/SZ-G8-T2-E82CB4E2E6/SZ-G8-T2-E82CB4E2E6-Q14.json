@@ -1,0 +1,90 @@
+{
+  "id": "SZ-G8-T2-E82CB4E2E6-Q14",
+  "paper_id": "SZ-G8-T2-E82CB4E2E6",
+  "number": 14,
+  "type": "填空题",
+  "points": 3,
+  "title": "求不等式组公共解集及指定整数解",
+  "stem": "对x，y定义一种新的运算F，规定：\\(F(x,y)=\\begin{cases} x-y(x\\ge y) \\\\ y-x(x < y) \\end{cases}\\)时，若关于正数x的不等式组\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)恰好有2个整数解，则m的取值范围是 _____．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "\\(11\\le m < 12\\)",
+  "answer": "\\(11\\le m < 12\\)",
+  "given_solution": "【分析】分\\(0 < x < 2\\)和\\(x\\ge 2\\)两种情况求解即可．\n【详解】解：①若\\(0 < x < 2\\)，\n由\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)，得\\(\\begin{cases} 2-x>5 \\\\ x+2\\le m \\end{cases}\\)，\n由\\(2-x>5\\)，得：\\(x < -3\\)，与\\(0 < x < 2\\)不符，舍去；\n②若\\(x\\ge 2\\)，\n由\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)得\\(\\begin{cases} x-2>5 \\\\ x+2\\le m \\end{cases}\\)，\n解得\\(\\begin{cases} x>7 \\\\ x\\le m-2 \\end{cases}\\)，\n∵不等式组恰好有2个整数解，\n∴\\(9\\le m-2 < 10\\)，\n解得\\(11\\le m < 12\\)，\n故答案为：\\(11\\le m < 12\\)．\n【点睛】本题考查了一元一次不等式组的解法，熟练掌握一元一次不等式组的解法是解答本题的关键．",
+  "given_solution_figures": [],
+  "solution": "解：①若\\(0 < x < 2\\)，\n由\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)，得\\(\\begin{cases} 2-x>5 \\\\ x+2\\le m \\end{cases}\\)，\n由\\(2-x>5\\)，得：\\(x < -3\\)，与\\(0 < x < 2\\)不符，舍去；\n②若\\(x\\ge 2\\)，\n由\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)得\\(\\begin{cases} x-2>5 \\\\ x+2\\le m \\end{cases}\\)，\n解得\\(\\begin{cases} x>7 \\\\ x\\le m-2 \\end{cases}\\)，\n∵不等式组恰好有2个整数解，\n∴\\(9\\le m-2 < 10\\)，\n解得\\(11\\le m < 12\\)，\n故答案为：\\(11\\le m < 12\\)．",
+  "solution_steps": [
+    "解：①若\\(0 < x < 2\\)，",
+    "由\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)，得\\(\\begin{cases} 2-x>5 \\\\ x+2\\le m \\end{cases}\\)，",
+    "由\\(2-x>5\\)，得：\\(x < -3\\)，与\\(0 < x < 2\\)不符，舍去；",
+    "②若\\(x\\ge 2\\)，",
+    "由\\(\\begin{cases} F(x,2)>5 \\\\ F(-2,x)\\le m \\end{cases}\\)得\\(\\begin{cases} x-2>5 \\\\ x+2\\le m \\end{cases}\\)，",
+    "解得\\(\\begin{cases} x>7 \\\\ x\\le m-2 \\end{cases}\\)，",
+    "∵不等式组恰好有2个整数解，",
+    "∴\\(9\\le m-2 < 10\\)，",
+    "解得\\(11\\le m < 12\\)，",
+    "故答案为：\\(11\\le m < 12\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      34,
+      34
+    ],
+    "solution_body_blocks": [
+      183,
+      197
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-E82CB4E2E6/paper-q14-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          300.45,
+          583.64,
+          361.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-E82CB4E2E6/solution-q14-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          292.27,
+          583.64,
+          680.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N09.02"
+  ],
+  "exam_ids": [
+    "E.N09.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“求不等式组公共解集及指定整数解”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,296 @@
+{
+  "id": "SZ-G8-T2-862BDD6F8A-Q21",
+  "paper_id": "SZ-G8-T2-862BDD6F8A",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "解可化为一次方程的分式方程并验根",
+  "stem": "阅读下面的材料：把一个分式写成两个分式的和叫作把这个分式表示成“部分分式”．例：将分式\\(\\frac { 1-3x } { x ^ { 2 } -1 }\\)表示成部分分式．解：设\\(\\frac { 1-3x } { x ^ { 2 } -1 }=\\frac { M } { x+1 }+\\frac { N } { x-1 }\\)，将等式右边通分，得\\(\\frac { M\\left ( { x-1 } \\right )+N\\left ( { x+1 } \\right ) } { \\left ( { x+1 } \\right )\\left ( { x-1 } \\right ) }=\\frac { \\left ( { M+N } \\right )x+\\left ( { N-M } \\right ) } { x ^ { 2 } -1 }\\)，依据题意，得\\(\\begin{cases} M+N=-3 \\\\ N-M=1 \\end{cases}\\)，解得\\(\\begin{cases} M=-2 \\\\ N=-1 \\end{cases}\\)，所以\\(\\frac { 1-3x } { x ^ { 2 } -1 }=\\frac { -2 } { x+1 }+\\frac { -1 } { x-1 }\\)请你运用上面所学到的方法，解决下面的问题：\n（1）\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)（\\(A\\)，\\(B\\)为常数），则\\(A=\\)         ，\\(B=\\)         ；\n（2）一个容器装有\\(1{ \\rm{ L } }\\)水，按照如下要求把水倒出：第\\(1\\)次倒出\\(\\frac { 1 } { 2 }{ \\rm{ L } }\\)，第\\(2\\)次倒出的水量是\\(\\frac { 1 } { 2 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 3 }\\)，第\\(3\\)次倒出的水量是\\(\\frac { 1 } { 3 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 4 }\\)，第\\(4\\)次倒出的水量是\\(\\frac { 1 } { 4 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 5 }\\)……第\\(n\\)次倒出的水量是\\(\\frac { 1 } { n }{ \\rm{ L } }\\)的\\(\\frac { 1 } { n+1 }\\)……按照这种倒水的方法，请说明这\\(1{ \\rm{ L } }\\)的水是否能倒完？如果能，多少次才能倒完？如果不能，请说明理由；\n（3）按照（2）的条件，现在重新开始实验，按照如下要求把水倒出：第\\(1\\)次倒出\\(\\frac { 1 } { 3 }{ \\rm{ L } }\\)，第\\(2\\)次倒出的水量是\\(\\frac { 1 } { 15 }{ \\rm{ L } }\\)，第\\(3\\)次倒出的水量是\\(\\frac { 1 } { 35 }{ \\rm{ L } }\\)，第\\(4\\)次倒出的水量是\\(\\frac { 1 } { 63 }{ \\rm{ L } }\\)，请问经过多少次操作后，杯内剩余水量能否变成原来水量的\\(\\frac { 100 } { 199 }\\)？试说明理由．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）\\(1\\)，\\(-1\\)；\n（2）这\\(1{ \\rm{ L } }\\)的水不能倒完，理由见解析；\n（3）经过\\(99\\)次操作之后能达到．",
+  "answer": "（1）\\(1\\)，\\(-1\\)；\n（2）这\\(1{ \\rm{ L } }\\)的水不能倒完，理由见解析；\n（3）经过\\(99\\)次操作之后能达到．",
+  "given_solution": "【分析】（1）模仿阅读材料可得答案；\n（2）根据题意先列式表示倒出的水，再求和，根据结果即可判断；\n（3）先列式表示剩余水量，再建立方程求解即可．\n【小问1详解】\n解：∵\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)\n∴\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A\\left ( { n+1 } \\right ) } { n\\left ( { n+1 } \\right ) }+\\frac { Bn } { n\\left ( { n+1 } \\right ) }=\\frac { \\left ( { A+B } \\right )n+A } { n ^ { 2 } +n }\\)，\n∴\\(\\begin{cases} A+B=0 \\\\ A=1 \\end{cases}\\)，\n∴\\(\\begin{cases} B=-1 \\\\ A=1 \\end{cases}\\)\n故答案为：\\(1\\)，\\(-1\\)．\n【小问2详解】\n解：∵\\(\\frac { 1 } { 2 }+\\frac { 1 } { 2 }\\times \\frac { 1 } { 3 }+\\frac { 1 } { 3 }\\times \\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }\\times \\frac { 1 } { n+1 }\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)\n\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=\\frac { n } { n+1 }\\ne 1\\)，\n∴这\\(1{ \\rm{ L } }\\)的水不能倒完；\n【小问3详解】\n解：由题意可得，倒了\\(n\\)次后剩余的水量为\n\\(1-\\frac { 1 } { 1\\times 3 }-\\frac { 1 } { 3\\times 5 }-\\frac { 1 } { 5\\times 7 }-\\cdots \\cdots \\frac { 1 } { \\left ( { 2n-1 } \\right )\\left ( { 2n+1 } \\right ) }\\)\n\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 2n-1 }-\\frac { 1 } { 2n+1 } } \\right )\\)\n\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 2n+1 } } \\right )\\)\n\\(=1-\\frac { n } { 2n+1 }\\)\n\\(=\\frac { n+1 } { 2n+1 }\\)，\n∴\\(\\frac { n+1 } { 2n+1 }=\\frac { 100 } { 199 }\\)，\n解得\\({ \\rm{ n } }=99\\)，\n经检验\\({ \\rm{ n } }=99\\)是原方程的解，\n∴经过\\(99\\)次操作之后能达到．\n【点睛】本题考查分式的混合运算，分式方程的应用，异分母分式的加减法以及代数式的规律，解题的关键是读懂题意，能把一个分式化为部分分式．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n解：∵\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)\n∴\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A\\left ( { n+1 } \\right ) } { n\\left ( { n+1 } \\right ) }+\\frac { Bn } { n\\left ( { n+1 } \\right ) }=\\frac { \\left ( { A+B } \\right )n+A } { n ^ { 2 } +n }\\)，\n∴\\(\\begin{cases} A+B=0 \\\\ A=1 \\end{cases}\\)，\n∴\\(\\begin{cases} B=-1 \\\\ A=1 \\end{cases}\\)\n故答案为：\\(1\\)，\\(-1\\)．\n【小问2详解】\n解：∵\\(\\frac { 1 } { 2 }+\\frac { 1 } { 2 }\\times \\frac { 1 } { 3 }+\\frac { 1 } { 3 }\\times \\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }\\times \\frac { 1 } { n+1 }\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)\n\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=\\frac { n } { n+1 }\\ne 1\\)，\n∴这\\(1{ \\rm{ L } }\\)的水不能倒完；\n【小问3详解】\n解：由题意可得，倒了\\(n\\)次后剩余的水量为\n\\(1-\\frac { 1 } { 1\\times 3 }-\\frac { 1 } { 3\\times 5 }-\\frac { 1 } { 5\\times 7 }-\\cdots \\cdots \\frac { 1 } { \\left ( { 2n-1 } \\right )\\left ( { 2n+1 } \\right ) }\\)\n\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 2n-1 }-\\frac { 1 } { 2n+1 } } \\right )\\)\n\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 2n+1 } } \\right )\\)\n\\(=1-\\frac { n } { 2n+1 }\\)\n\\(=\\frac { n+1 } { 2n+1 }\\)，\n∴\\(\\frac { n+1 } { 2n+1 }=\\frac { 100 } { 199 }\\)，\n解得\\({ \\rm{ n } }=99\\)，\n经检验\\({ \\rm{ n } }=99\\)是原方程的解，\n∴经过\\(99\\)次操作之后能达到．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)",
+    "∴\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A\\left ( { n+1 } \\right ) } { n\\left ( { n+1 } \\right ) }+\\frac { Bn } { n\\left ( { n+1 } \\right ) }=\\frac { \\left ( { A+B } \\right )n+A } { n ^ { 2 } +n }\\)，",
+    "∴\\(\\begin{cases} A+B=0 \\\\ A=1 \\end{cases}\\)，",
+    "∴\\(\\begin{cases} B=-1 \\\\ A=1 \\end{cases}\\)",
+    "故答案为：\\(1\\)，\\(-1\\)．",
+    "【小问2详解】",
+    "解：∵\\(\\frac { 1 } { 2 }+\\frac { 1 } { 2 }\\times \\frac { 1 } { 3 }+\\frac { 1 } { 3 }\\times \\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }\\times \\frac { 1 } { n+1 }\\)",
+    "\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)",
+    "\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+    "\\(=\\frac { n } { n+1 }\\ne 1\\)，",
+    "∴这\\(1{ \\rm{ L } }\\)的水不能倒完；",
+    "【小问3详解】",
+    "解：由题意可得，倒了\\(n\\)次后剩余的水量为",
+    "\\(1-\\frac { 1 } { 1\\times 3 }-\\frac { 1 } { 3\\times 5 }-\\frac { 1 } { 5\\times 7 }-\\cdots \\cdots \\frac { 1 } { \\left ( { 2n-1 } \\right )\\left ( { 2n+1 } \\right ) }\\)",
+    "\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 2n-1 }-\\frac { 1 } { 2n+1 } } \\right )\\)",
+    "\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 2n+1 } } \\right )\\)",
+    "\\(=1-\\frac { n } { 2n+1 }\\)",
+    "\\(=\\frac { n+1 } { 2n+1 }\\)，",
+    "∴\\(\\frac { n+1 } { 2n+1 }=\\frac { 100 } { 199 }\\)，",
+    "解得\\({ \\rm{ n } }=99\\)，",
+    "经检验\\({ \\rm{ n } }=99\\)是原方程的解，",
+    "∴经过\\(99\\)次操作之后能达到．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "阅读下面的材料：把一个分式写成两个分式的和叫作把这个分式表示成“部分分式”．例：将分式\\(\\frac { 1-3x } { x ^ { 2 } -1 }\\)表示成部分分式．解：设\\(\\frac { 1-3x } { x ^ { 2 } -1 }=\\frac { M } { x+1 }+\\frac { N } { x-1 }\\)，将等式右边通分，得\\(\\frac { M\\left ( { x-1 } \\right )+N\\left ( { x+1 } \\right ) } { \\left ( { x+1 } \\right )\\left ( { x-1 } \\right ) }=\\frac { \\left ( { M+N } \\right )x+\\left ( { N-M } \\right ) } { x ^ { 2 } -1 }\\)，依据题意，得\\(\\begin{cases} M+N=-3 \\\\ N-M=1 \\end{cases}\\)，解得\\(\\begin{cases} M=-2 \\\\ N=-1 \\end{cases}\\)，所以\\(\\frac { 1-3x } { x ^ { 2 } -1 }=\\frac { -2 } { x+1 }+\\frac { -1 } { x-1 }\\)请你运用上面所学到的方法，解决下面的问题：",
+      "paper_blocks": [
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-862BDD6F8A-Q21-P01",
+      "label": "（1）",
+      "prompt": "\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)（\\(A\\)，\\(B\\)为常数），则\\(A=\\)         ，\\(B=\\)         ；",
+      "stem_text": "\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)（\\(A\\)，\\(B\\)为常数），则\\(A=\\)         ，\\(B=\\)         ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(1\\)，\\(-1\\)；",
+      "answer": "\\(1\\)，\\(-1\\)；",
+      "given_solution": "解：∵\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)\n∴\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A\\left ( { n+1 } \\right ) } { n\\left ( { n+1 } \\right ) }+\\frac { Bn } { n\\left ( { n+1 } \\right ) }=\\frac { \\left ( { A+B } \\right )n+A } { n ^ { 2 } +n }\\)，\n∴\\(\\begin{cases} A+B=0 \\\\ A=1 \\end{cases}\\)，\n∴\\(\\begin{cases} B=-1 \\\\ A=1 \\end{cases}\\)\n故答案为：\\(1\\)，\\(-1\\)．",
+      "solution_steps": [
+        "解：∵\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A } { n }+\\frac { B } { n+1 }\\)",
+        "∴\\(\\frac { 1 } { n\\left ( { n+1 } \\right ) }=\\frac { A\\left ( { n+1 } \\right ) } { n\\left ( { n+1 } \\right ) }+\\frac { Bn } { n\\left ( { n+1 } \\right ) }=\\frac { \\left ( { A+B } \\right )n+A } { n ^ { 2 } +n }\\)，",
+        "∴\\(\\begin{cases} A+B=0 \\\\ A=1 \\end{cases}\\)，",
+        "∴\\(\\begin{cases} B=-1 \\\\ A=1 \\end{cases}\\)",
+        "故答案为：\\(1\\)，\\(-1\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N04.04"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“分式加减与综合化简”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“分式”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-862BDD6F8A-Q21-P02",
+      "label": "（2）",
+      "prompt": "一个容器装有\\(1{ \\rm{ L } }\\)水，按照如下要求把水倒出：第\\(1\\)次倒出\\(\\frac { 1 } { 2 }{ \\rm{ L } }\\)，第\\(2\\)次倒出的水量是\\(\\frac { 1 } { 2 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 3 }\\)，第\\(3\\)次倒出的水量是\\(\\frac { 1 } { 3 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 4 }\\)，第\\(4\\)次倒出的水量是\\(\\frac { 1 } { 4 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 5 }\\)……第\\(n\\)次倒出的水量是\\(\\frac { 1 } { n }{ \\rm{ L } }\\)的\\(\\frac { 1 } { n+1 }\\)……按照这种倒水的方法，请说明这\\(1{ \\rm{ L } }\\)的水是否能倒完？如果能，多少次才能倒完？如果不能，请说明理由；",
+      "stem_text": "一个容器装有\\(1{ \\rm{ L } }\\)水，按照如下要求把水倒出：第\\(1\\)次倒出\\(\\frac { 1 } { 2 }{ \\rm{ L } }\\)，第\\(2\\)次倒出的水量是\\(\\frac { 1 } { 2 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 3 }\\)，第\\(3\\)次倒出的水量是\\(\\frac { 1 } { 3 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 4 }\\)，第\\(4\\)次倒出的水量是\\(\\frac { 1 } { 4 }{ \\rm{ L } }\\)的\\(\\frac { 1 } { 5 }\\)……第\\(n\\)次倒出的水量是\\(\\frac { 1 } { n }{ \\rm{ L } }\\)的\\(\\frac { 1 } { n+1 }\\)……按照这种倒水的方法，请说明这\\(1{ \\rm{ L } }\\)的水是否能倒完？如果能，多少次才能倒完？如果不能，请说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "这\\(1{ \\rm{ L } }\\)的水不能倒完，理由见解析；",
+      "answer": "这\\(1{ \\rm{ L } }\\)的水不能倒完，理由见解析；",
+      "given_solution": "解：∵\\(\\frac { 1 } { 2 }+\\frac { 1 } { 2 }\\times \\frac { 1 } { 3 }+\\frac { 1 } { 3 }\\times \\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }\\times \\frac { 1 } { n+1 }\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)\n\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)\n\\(=\\frac { n } { n+1 }\\ne 1\\)，\n∴这\\(1{ \\rm{ L } }\\)的水不能倒完；",
+      "solution_steps": [
+        "解：∵\\(\\frac { 1 } { 2 }+\\frac { 1 } { 2 }\\times \\frac { 1 } { 3 }+\\frac { 1 } { 3 }\\times \\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }\\times \\frac { 1 } { n+1 }\\)",
+        "\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\cdots +\\frac { 1 } { n }-\\frac { 1 } { n+1 }\\)",
+        "\\(=1-\\frac { 1 } { { \\rm{ n } }+1 }\\)",
+        "\\(=\\frac { n } { n+1 }\\ne 1\\)，",
+        "∴这\\(1{ \\rm{ L } }\\)的水不能倒完；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          68
+        ],
+        "solution_block_ids": [
+          364,
+          365,
+          366,
+          367,
+          368
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N04.04"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“分式加减与综合化简”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“分式”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-862BDD6F8A-Q21-P03",
+      "label": "（3）",
+      "prompt": "按照（2）的条件，现在重新开始实验，按照如下要求把水倒出：第\\(1\\)次倒出\\(\\frac { 1 } { 3 }{ \\rm{ L } }\\)，第\\(2\\)次倒出的水量是\\(\\frac { 1 } { 15 }{ \\rm{ L } }\\)，第\\(3\\)次倒出的水量是\\(\\frac { 1 } { 35 }{ \\rm{ L } }\\)，第\\(4\\)次倒出的水量是\\(\\frac { 1 } { 63 }{ \\rm{ L } }\\)，请问经过多少次操作后，杯内剩余水量能否变成原来水量的\\(\\frac { 100 } { 199 }\\)？试说明理由．",
+      "stem_text": "按照（2）的条件，现在重新开始实验，按照如下要求把水倒出：第\\(1\\)次倒出\\(\\frac { 1 } { 3 }{ \\rm{ L } }\\)，第\\(2\\)次倒出的水量是\\(\\frac { 1 } { 15 }{ \\rm{ L } }\\)，第\\(3\\)次倒出的水量是\\(\\frac { 1 } { 35 }{ \\rm{ L } }\\)，第\\(4\\)次倒出的水量是\\(\\frac { 1 } { 63 }{ \\rm{ L } }\\)，请问经过多少次操作后，杯内剩余水量能否变成原来水量的\\(\\frac { 100 } { 199 }\\)？试说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "经过\\(99\\)次操作之后能达到．",
+      "answer": "经过\\(99\\)次操作之后能达到．",
+      "given_solution": "解：由题意可得，倒了\\(n\\)次后剩余的水量为\n\\(1-\\frac { 1 } { 1\\times 3 }-\\frac { 1 } { 3\\times 5 }-\\frac { 1 } { 5\\times 7 }-\\cdots \\cdots \\frac { 1 } { \\left ( { 2n-1 } \\right )\\left ( { 2n+1 } \\right ) }\\)\n\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 2n-1 }-\\frac { 1 } { 2n+1 } } \\right )\\)\n\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 2n+1 } } \\right )\\)\n\\(=1-\\frac { n } { 2n+1 }\\)\n\\(=\\frac { n+1 } { 2n+1 }\\)，\n∴\\(\\frac { n+1 } { 2n+1 }=\\frac { 100 } { 199 }\\)，\n解得\\({ \\rm{ n } }=99\\)，\n经检验\\({ \\rm{ n } }=99\\)是原方程的解，\n∴经过\\(99\\)次操作之后能达到．",
+      "solution_steps": [
+        "解：由题意可得，倒了\\(n\\)次后剩余的水量为",
+        "\\(1-\\frac { 1 } { 1\\times 3 }-\\frac { 1 } { 3\\times 5 }-\\frac { 1 } { 5\\times 7 }-\\cdots \\cdots \\frac { 1 } { \\left ( { 2n-1 } \\right )\\left ( { 2n+1 } \\right ) }\\)",
+        "\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 5 }+\\frac { 1 } { 5 }-\\frac { 1 } { 7 }+\\cdots +\\frac { 1 } { 2n-1 }-\\frac { 1 } { 2n+1 } } \\right )\\)",
+        "\\(=1-\\frac { 1 } { 2 }\\left ( { 1-\\frac { 1 } { 2n+1 } } \\right )\\)",
+        "\\(=1-\\frac { n } { 2n+1 }\\)",
+        "\\(=\\frac { n+1 } { 2n+1 }\\)，",
+        "∴\\(\\frac { n+1 } { 2n+1 }=\\frac { 100 } { 199 }\\)，",
+        "解得\\({ \\rm{ n } }=99\\)，",
+        "经检验\\({ \\rm{ n } }=99\\)是原方程的解，",
+        "∴经过\\(99\\)次操作之后能达到．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          69
+        ],
+        "solution_block_ids": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N08.01"
+      ],
+      "exam_ids": [
+        "E.N08.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“解可化为一次方程的分式方程并验根”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      69
+    ],
+    "solution_body_blocks": [
+      346,
+      380
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-862BDD6F8A/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          237.73,
+          583.64,
+          652.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-862BDD6F8A/solution-q21-p18.webp",
+      "assets/SZ-G8-T2-862BDD6F8A/solution-q21-p19.webp",
+      "assets/SZ-G8-T2-862BDD6F8A/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          220.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.N04.04",
+    "M.N08.01"
+  ],
+  "exam_ids": [
+    "E.N08.01.01"
+  ],
+  "tag_note": "该问涉及“分式加减与综合化简”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“分式”，按题面与解答定位知识主题。 本问解答对应“解可化为一次方程的分式方程并验根”。",
+  "tag_source": "小问标签汇总"
+}

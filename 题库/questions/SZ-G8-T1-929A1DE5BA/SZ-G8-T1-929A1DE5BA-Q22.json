@@ -1,0 +1,297 @@
+{
+  "id": "SZ-G8-T1-929A1DE5BA-Q22",
+  "paper_id": "SZ-G8-T1-929A1DE5BA",
+  "number": 22,
+  "type": "解答题",
+  "points": 6,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "我们把对角线互相垂直的四边形称为“垂美四边形”，如图，已知四边形\\(ABCD\\)，\\(AC\\bot BD\\)，像这样的四边形称为“垂美四边形”．\n探索证明（1）如图，设\\(AB=a，BC=b，CD=c，AD=d\\)，猜想\\(a ^ { 2 } ，b ^ { 2 } ，c ^ { 2 } ，d ^ { 2 }\\)之间的关系，用等式表示出来，并说明理由．（提示：运用勾股定理说理）\n〔图1〕\n变式思考（2）如图，\\(BD，CE\\)是\\(\\vartriangle ABC\\)的中线，\\(BD\\bot CE\\)，垂足为O，设\\(BC=m，AC=n，AB=k\\)，请用一个等式把\\(m ^ { 2 } ，n ^ { 2 } ，k ^ { 2 }\\)三者之间的数量关系表示出来：\n〔图2〕\n拓展应用（3）如图，在矩形\\(ABCD\\)中，E为\\(AD\\)的中点，若四边形\\(ABCE\\)为“垂美四边形”，且\\(BC=2，\\)求\\(AB\\)的长．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-929A1DE5BA/figures/b9602f9af6519f38ee86e0bfacfa7151bd927d21fdc4b7dc8bfccbd6a378b5a9.png",
+    "assets/SZ-G8-T1-929A1DE5BA/figures/ebc9edd45e2c087d2314c84cec225de74b3f7349bc2e5a7ae76589c2036f0ac9.png",
+    "assets/SZ-G8-T1-929A1DE5BA/figures/f2f6aabc0ea38f82253085e20435b439adc379dd8240c6add8fc04de1637b6dd.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)；（2）\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)；（3）\\(\\sqrt[] { 2 }\\)",
+  "answer": "（1）\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)；（2）\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)；（3）\\(\\sqrt[] { 2 }\\)",
+  "given_solution": "【分析】本题考查了勾股定理的应用，掌握定理形式是解题关键；\n（1）在\\(Rt\\vartriangle AOB\\)、\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)、\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COB\\)、\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中分别利用勾股定理列出方程即可得\\(AB ^ { 2 } +CD ^ { 2 } =AD ^ { 2 } +BC ^ { 2 }\\)，即可求解；\n（2）由（1）可得：\\(BC ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } +CD ^ { 2 }\\)，结合\\(AB=2BE,AC=2CD\\)即可求解；\n（3）由题意可得\\(CD ^ { 2 } +DE ^ { 2 } =CE ^ { 2 } =AB ^ { 2 } +1\\)，结合\\(AB ^ { 2 } +CE ^ { 2 } =AE ^ { 2 } +BC ^ { 2 }\\)即可求解；\n【详解】解：（1）在\\(Rt\\vartriangle AOB\\)中：\\(OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中：\\(OA ^ { 2 } +OD ^ { 2 } =AD ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COB\\)中：\\(OC ^ { 2 } +OB ^ { 2 } =BC ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中：\\(OC ^ { 2 } +OD ^ { 2 } =CD ^ { 2 }\\)；\n∴\\(AB ^ { 2 } +CD ^ { 2 } =AD ^ { 2 } +BC ^ { 2 }\\)，\n即：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)，\n（2）由题意得：\\(AB=2BE,AC=2CD\\)，\n∵\\(BD\\bot CE\\)，\n∴四边形\\(BCDE\\)为“垂美四边形”，\n由（1）可得：\\(BC ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } +CD ^ { 2 }\\)，\n即：\\(m ^ { 2 } +\\frac { 1 } { 4 }m ^ { 2 } =\\frac { 1 } { 4 }n ^ { 2 } +\\frac { 1 } { 4 }k ^ { 2 }\\)，\n整理得：\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)，\n（3）由题意得：\\(AB=CD,AD=BC=2\\)，\n∵E为\\(AD\\)的中点，\n∴\\(AE=DE=1\\)，\n∴\\(CD ^ { 2 } +DE ^ { 2 } =CE ^ { 2 } =AB ^ { 2 } +1\\)，\n∵四边形\\(ABCE\\)为“垂美四边形”，\n∴\\(AB ^ { 2 } +CE ^ { 2 } =AE ^ { 2 } +BC ^ { 2 }\\)，\n∴\\(AB ^ { 2 } +AB ^ { 2 } +1=1+4\\)，\n解得：\\(AB=\\sqrt[] { 2 }\\)或\\(AB=-\\sqrt[] { 2 }\\)（舍去）",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-929A1DE5BA/figures/b9602f9af6519f38ee86e0bfacfa7151bd927d21fdc4b7dc8bfccbd6a378b5a9.png",
+    "assets/SZ-G8-T1-929A1DE5BA/figures/ebc9edd45e2c087d2314c84cec225de74b3f7349bc2e5a7ae76589c2036f0ac9.png",
+    "assets/SZ-G8-T1-929A1DE5BA/figures/f2f6aabc0ea38f82253085e20435b439adc379dd8240c6add8fc04de1637b6dd.png"
+  ],
+  "solution": "解：（1）在\\(Rt\\vartriangle AOB\\)中：\\(OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中：\\(OA ^ { 2 } +OD ^ { 2 } =AD ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COB\\)中：\\(OC ^ { 2 } +OB ^ { 2 } =BC ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中：\\(OC ^ { 2 } +OD ^ { 2 } =CD ^ { 2 }\\)；\n∴\\(AB ^ { 2 } +CD ^ { 2 } =AD ^ { 2 } +BC ^ { 2 }\\)，\n即：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)，\n（2）由题意得：\\(AB=2BE,AC=2CD\\)，\n∵\\(BD\\bot CE\\)，\n∴四边形\\(BCDE\\)为“垂美四边形”，\n由（1）可得：\\(BC ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } +CD ^ { 2 }\\)，\n即：\\(m ^ { 2 } +\\frac { 1 } { 4 }m ^ { 2 } =\\frac { 1 } { 4 }n ^ { 2 } +\\frac { 1 } { 4 }k ^ { 2 }\\)，\n整理得：\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)，\n（3）由题意得：\\(AB=CD,AD=BC=2\\)，\n∵E为\\(AD\\)的中点，\n∴\\(AE=DE=1\\)，\n∴\\(CD ^ { 2 } +DE ^ { 2 } =CE ^ { 2 } =AB ^ { 2 } +1\\)，\n∵四边形\\(ABCE\\)为“垂美四边形”，\n∴\\(AB ^ { 2 } +CE ^ { 2 } =AE ^ { 2 } +BC ^ { 2 }\\)，\n∴\\(AB ^ { 2 } +AB ^ { 2 } +1=1+4\\)，\n解得：\\(AB=\\sqrt[] { 2 }\\)或\\(AB=-\\sqrt[] { 2 }\\)（舍去）",
+  "solution_steps": [
+    "解：（1）在\\(Rt\\vartriangle AOB\\)中：\\(OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)；",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中：\\(OA ^ { 2 } +OD ^ { 2 } =AD ^ { 2 }\\)；",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COB\\)中：\\(OC ^ { 2 } +OB ^ { 2 } =BC ^ { 2 }\\)；",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中：\\(OC ^ { 2 } +OD ^ { 2 } =CD ^ { 2 }\\)；",
+    "∴\\(AB ^ { 2 } +CD ^ { 2 } =AD ^ { 2 } +BC ^ { 2 }\\)，",
+    "即：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)，",
+    "（2）由题意得：\\(AB=2BE,AC=2CD\\)，",
+    "∵\\(BD\\bot CE\\)，",
+    "∴四边形\\(BCDE\\)为“垂美四边形”，",
+    "由（1）可得：\\(BC ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } +CD ^ { 2 }\\)，",
+    "即：\\(m ^ { 2 } +\\frac { 1 } { 4 }m ^ { 2 } =\\frac { 1 } { 4 }n ^ { 2 } +\\frac { 1 } { 4 }k ^ { 2 }\\)，",
+    "整理得：\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)，",
+    "（3）由题意得：\\(AB=CD,AD=BC=2\\)，",
+    "∵E为\\(AD\\)的中点，",
+    "∴\\(AE=DE=1\\)，",
+    "∴\\(CD ^ { 2 } +DE ^ { 2 } =CE ^ { 2 } =AB ^ { 2 } +1\\)，",
+    "∵四边形\\(ABCE\\)为“垂美四边形”，",
+    "∴\\(AB ^ { 2 } +CE ^ { 2 } =AE ^ { 2 } +BC ^ { 2 }\\)，",
+    "∴\\(AB ^ { 2 } +AB ^ { 2 } +1=1+4\\)，",
+    "解得：\\(AB=\\sqrt[] { 2 }\\)或\\(AB=-\\sqrt[] { 2 }\\)（舍去）"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "kind": "text",
+      "id": "m1",
+      "text": "我们把对角线互相垂直的四边形称为“垂美四边形”，如图，已知四边形\\(ABCD\\)，\\(AC\\bot BD\\)，像这样的四边形称为“垂美四边形”．",
+      "paper_blocks": [
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-929A1DE5BA-Q22-P01",
+      "label": "探索证明",
+      "prompt": "探索证明（1）如图，设\\(AB=a，BC=b，CD=c，AD=d\\)，猜想\\(a ^ { 2 } ，b ^ { 2 } ，c ^ { 2 } ，d ^ { 2 }\\)之间的关系，用等式表示出来，并说明理由．（提示：运用勾股定理说理）\n〔图1〕",
+      "stem_text": "探索证明（1）如图，设\\(AB=a，BC=b，CD=c，AD=d\\)，猜想\\(a ^ { 2 } ，b ^ { 2 } ，c ^ { 2 } ，d ^ { 2 }\\)之间的关系，用等式表示出来，并说明理由．（提示：运用勾股定理说理）\n〔图1〕",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [],
+      "given_answer": "\\(a^2+b^2=c^2+d^2\\)。",
+      "answer": "\\(a^2+b^2=c^2+d^2\\)。",
+      "given_solution": "【详解】解：（1）在\\(Rt\\vartriangle AOB\\)中：\\(OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中：\\(OA ^ { 2 } +OD ^ { 2 } =AD ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COB\\)中：\\(OC ^ { 2 } +OB ^ { 2 } =BC ^ { 2 }\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中：\\(OC ^ { 2 } +OD ^ { 2 } =CD ^ { 2 }\\)；\n∴\\(AB ^ { 2 } +CD ^ { 2 } =AD ^ { 2 } +BC ^ { 2 }\\)，\n即：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)，",
+      "solution_steps": [
+        "解：（1）在\\(Rt\\vartriangle AOB\\)中：\\(OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)；",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中：\\(OA ^ { 2 } +OD ^ { 2 } =AD ^ { 2 }\\)；",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COB\\)中：\\(OC ^ { 2 } +OB ^ { 2 } =BC ^ { 2 }\\)；",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中：\\(OC ^ { 2 } +OD ^ { 2 } =CD ^ { 2 }\\)；",
+        "∴\\(AB ^ { 2 } +CD ^ { 2 } =AD ^ { 2 } +BC ^ { 2 }\\)，",
+        "即：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 } +d ^ { 2 }\\)，"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          351,
+          352,
+          353,
+          354,
+          355,
+          356
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-929A1DE5BA-Q22-P02",
+      "label": "变式思考",
+      "prompt": "变式思考（2）如图，\\(BD，CE\\)是\\(\\vartriangle ABC\\)的中线，\\(BD\\bot CE\\)，垂足为O，设\\(BC=m，AC=n，AB=k\\)，请用一个等式把\\(m ^ { 2 } ，n ^ { 2 } ，k ^ { 2 }\\)三者之间的数量关系表示出来：\n〔图2〕",
+      "stem_text": "变式思考（2）如图，\\(BD，CE\\)是\\(\\vartriangle ABC\\)的中线，\\(BD\\bot CE\\)，垂足为O，设\\(BC=m，AC=n，AB=k\\)，请用一个等式把\\(m ^ { 2 } ，n ^ { 2 } ，k ^ { 2 }\\)三者之间的数量关系表示出来：\n〔图2〕",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [
+        "SZ-G8-T1-929A1DE5BA-Q22-P01"
+      ],
+      "given_answer": "\\(n^2+k^2=5m^2\\)。",
+      "answer": "\\(n^2+k^2=5m^2\\)。",
+      "given_solution": "（2）由题意得：\\(AB=2BE,AC=2CD\\)，\n∵\\(BD\\bot CE\\)，\n∴四边形\\(BCDE\\)为“垂美四边形”，\n由（1）可得：\\(BC ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } +CD ^ { 2 }\\)，\n即：\\(m ^ { 2 } +\\frac { 1 } { 4 }m ^ { 2 } =\\frac { 1 } { 4 }n ^ { 2 } +\\frac { 1 } { 4 }k ^ { 2 }\\)，\n整理得：\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)，",
+      "solution_steps": [
+        "（2）由题意得：\\(AB=2BE,AC=2CD\\)，",
+        "∵\\(BD\\bot CE\\)，",
+        "∴四边形\\(BCDE\\)为“垂美四边形”，",
+        "由（1）可得：\\(BC ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } +CD ^ { 2 }\\)，",
+        "即：\\(m ^ { 2 } +\\frac { 1 } { 4 }m ^ { 2 } =\\frac { 1 } { 4 }n ^ { 2 } +\\frac { 1 } { 4 }k ^ { 2 }\\)，",
+        "整理得：\\(n ^ { 2 } +k ^ { 2 } =5m ^ { 2 }\\)，"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          357,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-929A1DE5BA-Q22-P03",
+      "label": "拓展应用",
+      "prompt": "拓展应用（3）如图，在矩形\\(ABCD\\)中，E为\\(AD\\)的中点，若四边形\\(ABCE\\)为“垂美四边形”，且\\(BC=2，\\)求\\(AB\\)的长．\n〔图3〕",
+      "stem_text": "拓展应用（3）如图，在矩形\\(ABCD\\)中，E为\\(AD\\)的中点，若四边形\\(ABCE\\)为“垂美四边形”，且\\(BC=2，\\)求\\(AB\\)的长．\n〔图3〕",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [
+        "SZ-G8-T1-929A1DE5BA-Q22-P01"
+      ],
+      "given_answer": "\\(\\sqrt2\\)。",
+      "answer": "\\(\\sqrt2\\)。",
+      "given_solution": "（3）由题意得：\\(AB=CD,AD=BC=2\\)，\n∵E为\\(AD\\)的中点，\n∴\\(AE=DE=1\\)，\n∴\\(CD ^ { 2 } +DE ^ { 2 } =CE ^ { 2 } =AB ^ { 2 } +1\\)，\n∵四边形\\(ABCE\\)为“垂美四边形”，\n∴\\(AB ^ { 2 } +CE ^ { 2 } =AE ^ { 2 } +BC ^ { 2 }\\)，\n∴\\(AB ^ { 2 } +AB ^ { 2 } +1=1+4\\)，\n解得：\\(AB=\\sqrt[] { 2 }\\)或\\(AB=-\\sqrt[] { 2 }\\)（舍去）",
+      "solution_steps": [
+        "（3）由题意得：\\(AB=CD,AD=BC=2\\)，",
+        "∵E为\\(AD\\)的中点，",
+        "∴\\(AE=DE=1\\)，",
+        "∴\\(CD ^ { 2 } +DE ^ { 2 } =CE ^ { 2 } =AB ^ { 2 } +1\\)，",
+        "∵四边形\\(ABCE\\)为“垂美四边形”，",
+        "∴\\(AB ^ { 2 } +CE ^ { 2 } =AE ^ { 2 } +BC ^ { 2 }\\)，",
+        "∴\\(AB ^ { 2 } +AB ^ { 2 } +1=1+4\\)，",
+        "解得：\\(AB=\\sqrt[] { 2 }\\)或\\(AB=-\\sqrt[] { 2 }\\)（舍去）"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      74
+    ],
+    "solution_body_blocks": [
+      338,
+      370
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-929A1DE5BA/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          144.09,
+          583.64,
+          683.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-929A1DE5BA/solution-q22-p17.webp",
+      "assets/SZ-G8-T1-929A1DE5BA/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          333.18,
+          583.64,
+          762.27
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          257.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

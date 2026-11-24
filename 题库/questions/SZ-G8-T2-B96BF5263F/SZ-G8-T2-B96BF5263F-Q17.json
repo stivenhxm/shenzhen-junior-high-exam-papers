@@ -1,0 +1,60 @@
+{
+  "knowledge_ids": [
+    "M.N04.04"
+  ],
+  "exam_ids": [
+    "E.N04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“完成分式加减与混合化简”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-B96BF5263F-Q17",
+  "number": 17,
+  "paper_id": "SZ-G8-T2-B96BF5263F",
+  "title": "完成分式加减与混合化简",
+  "stem": "先化简，再求值：\\((\\frac{x−1}{x+1}+1)÷\\frac{{x}^{3}−2{x}^{2}+x}{{x}^{2}−1}\\)，其中\\(x=\\sqrt{3}+1\\)．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [],
+  "parts": [],
+  "figures": [],
+  "tables": [],
+  "answer": "化简得 \\(\\frac{2}{x-1}\\)，代入得 \\(\\frac{2\\sqrt3}{3}\\)。",
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "原式中 \\(x\\ne-1,0,1\\)。括号内通分为 \\(\\frac{2x}{x+1}\\)，除式的分子为 \\(x(x-1)^2\\)，分母为 \\((x-1)(x+1)\\)。",
+    "将除法改为乘以倒数并约分，得 \\(\\frac{2}{x-1}\\)。代入 \\(x=1+\\sqrt3\\)，得 \\(\\frac{2}{\\sqrt3}=\\frac{2\\sqrt3}{3}\\)。"
+  ],
+  "solution_origin": "editorial_answer_and_solution",
+  "solution": "原式中 \\(x\\ne-1,0,1\\)。括号内通分为 \\(\\frac{2x}{x+1}\\)，除式的分子为 \\(x(x-1)^2\\)，分母为 \\((x-1)(x+1)\\)。\n将除法改为乘以倒数并约分，得 \\(\\frac{2}{x-1}\\)。代入 \\(x=1+\\sqrt3\\)，得 \\(\\frac{2}{\\sqrt3}=\\frac{2\\sqrt3}{3}\\)。",
+  "review_note": "原卷未附答案，以下解答按卷面条件推导。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-B96BF5263F/single/q17-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          505.22,
+          582.2,
+          527.83
+        ]
+      }
+    ],
+    "solution_images": [],
+    "solution_pages": [],
+    "solution_regions": []
+  },
+  "tag_source": "题文匹配"
+}

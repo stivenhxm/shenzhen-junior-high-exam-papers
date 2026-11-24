@@ -1,0 +1,429 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-71C207CA2F-Q20",
+  "number": 20,
+  "paper_id": "SZ-G8-T2-71C207CA2F",
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "（11分）在\\(\\vartriangle ABC\\)中，点\\(D\\)是线段\\(AB\\)上一动点，连接\\(CD\\)．将线段 \\(CD\\)绕点\\(C\\)逆时针旋转至\\(CE\\)， 记旋转角为\\(\\alpha\\)， 连接\\(AE\\)．取\\(AE\\)的中点为点 \\(G\\)， 连接\\(CG\\)．\n〔图1〕\n【特例感知】\n(1)如图\\(1\\)， 已知\\(\\vartriangle ABC\\)是等腰直角三角形， \\(AC=BC\\)， \\(\\angle ACB=90{}^\\circ\\)，\\(\\alpha =90{}^\\circ\\)．延长\\(AC\\)至点\\(F\\)，使\\(AC=CF\\)，连接\\(EF\\)．请直接写出\\(EF\\)与\\(BD\\)的数量关系 ，\\(CG\\)与\\(BD\\)的数量关系 ．\n【类比迁移】\n(2)如图\\(2\\)， 已知\\(\\vartriangle ABC\\)是等腰三角形，\\(AC=BC\\)， \\(\\angle ACB=120{}^\\circ\\)，\\(\\alpha =60{}^\\circ\\)．探究线段\\(CG\\)与\\(BD\\)的数量关系，并证明你的结论．\n【拓展应用】\n(3)如图\\(3\\)， 已知在\\(\\vartriangle ABC\\)中，\\(BC=13\\)，\\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)， \\(\\angle ACB=180{}^\\circ -\\alpha\\)．在点\\(D\\)的运动过程中，求线段 \\(CG\\)长度的最小值．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（11分）在\\(\\vartriangle ABC\\)中，点\\(D\\)是线段\\(AB\\)上一动点，连接\\(CD\\)．将线段 \\(CD\\)绕点\\(C\\)逆时针旋转至\\(CE\\)， 记旋转角为\\(\\alpha\\)， 连接\\(AE\\)．取\\(AE\\)的中点为点 \\(G\\)， 连接\\(CG\\)．\n〔图1〕\n【特例感知】",
+      "paper_blocks": [
+        79,
+        81,
+        82
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-71C207CA2F-Q20-P01",
+      "label": "(1)",
+      "prompt": "如图\\(1\\)， 已知\\(\\vartriangle ABC\\)是等腰直角三角形， \\(AC=BC\\)， \\(\\angle ACB=90{}^\\circ\\)，\\(\\alpha =90{}^\\circ\\)．延长\\(AC\\)至点\\(F\\)，使\\(AC=CF\\)，连接\\(EF\\)．请直接写出\\(EF\\)与\\(BD\\)的数量关系 ，\\(CG\\)与\\(BD\\)的数量关系 ．\n【类比迁移】",
+      "stem_text": "如图\\(1\\)， 已知\\(\\vartriangle ABC\\)是等腰直角三角形， \\(AC=BC\\)， \\(\\angle ACB=90{}^\\circ\\)，\\(\\alpha =90{}^\\circ\\)．延长\\(AC\\)至点\\(F\\)，使\\(AC=CF\\)，连接\\(EF\\)．请直接写出\\(EF\\)与\\(BD\\)的数量关系 ，\\(CG\\)与\\(BD\\)的数量关系 ．\n【类比迁移】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）",
+      "given_solution": "解： ∵\\(\\alpha =90{}^\\circ\\)，\n∴\\(\\angle DCE=90{}^\\circ\\)，\n∴\\(\\angle BCD+\\angle BCE=90{}^\\circ\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle FCE+\\angle BCE=90{}^\\circ\\)，\n∴\\(\\angle BCD=\\angle FCE\\)，\n∵\\(AC=BC\\)，\\(AC=CF\\)，\n∴\\(BC=FC\\)，\n又由旋转可知，\\(CD=CE\\)，\n∴\\(\\vartriangle BCD≌\\vartriangle FCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BD=EF\\)，\n即\\(EF=BD\\)，\n∵\\(G\\)是\\(AE\\)的中点，\\(AC=CF\\)，\n∴\\(CG\\)为\\(\\vartriangle AEF\\)的中位线，\n∴\\(CG=\\frac { 1 } { 2 }EF\\)，\n∴\\(CG=\\frac { 1 } { 2 }BD\\)，\n故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）",
+      "solution_steps": [
+        "解： ∵\\(\\alpha =90{}^\\circ\\)，",
+        "∴\\(\\angle DCE=90{}^\\circ\\)，",
+        "∴\\(\\angle BCD+\\angle BCE=90{}^\\circ\\)，",
+        "∵\\(\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle FCE+\\angle BCE=90{}^\\circ\\)，",
+        "∴\\(\\angle BCD=\\angle FCE\\)，",
+        "∵\\(AC=BC\\)，\\(AC=CF\\)，",
+        "∴\\(BC=FC\\)，",
+        "又由旋转可知，\\(CD=CE\\)，",
+        "∴\\(\\vartriangle BCD≌\\vartriangle FCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(BD=EF\\)，",
+        "即\\(EF=BD\\)，",
+        "∵\\(G\\)是\\(AE\\)的中点，\\(AC=CF\\)，",
+        "∴\\(CG\\)为\\(\\vartriangle AEF\\)的中位线，",
+        "∴\\(CG=\\frac { 1 } { 2 }EF\\)，",
+        "∴\\(CG=\\frac { 1 } { 2 }BD\\)，",
+        "故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79,
+          81,
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-71C207CA2F-Q20-P02",
+      "label": "(2)",
+      "prompt": "如图\\(2\\)， 已知\\(\\vartriangle ABC\\)是等腰三角形，\\(AC=BC\\)， \\(\\angle ACB=120{}^\\circ\\)，\\(\\alpha =60{}^\\circ\\)．探究线段\\(CG\\)与\\(BD\\)的数量关系，并证明你的结论．\n【拓展应用】",
+      "stem_text": "如图\\(2\\)， 已知\\(\\vartriangle ABC\\)是等腰三角形，\\(AC=BC\\)， \\(\\angle ACB=120{}^\\circ\\)，\\(\\alpha =60{}^\\circ\\)．探究线段\\(CG\\)与\\(BD\\)的数量关系，并证明你的结论．\n【拓展应用】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）",
+      "given_solution": "\\(CG=\\frac { 1 } { 2 }BD\\)．\n证明： 如图\\(2\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，\n〔图1〕\n∵\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle BCF=60{}^\\circ\\)，(3分）\n∵\\(AC=BC\\)，\\(CF=AC\\)，\n∴\\(BC=CF\\)，(4分）\n由旋转得 \\(CD=CE\\)，\\(\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle BCF=\\angle DCE\\)，\n∴\\(\\angle BCF-\\angle BCE=\\angle DCE-\\angle BCE\\)，\n∴\\(\\angle DCB=\\angle ECF\\)，\n∴\\(\\vartriangle DCB≌\\vartriangle ECF\\left ( { \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right ) } \\right )\\)，(5分）\n∴\\(BD=EF\\)，\n∵\\(AG=GE\\)， \\(AC=CF\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }EF\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）",
+      "solution_steps": [
+        "\\(CG=\\frac { 1 } { 2 }BD\\)．",
+        "证明： 如图\\(2\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，",
+        "〔图1〕",
+        "∵\\(\\angle ACB=120{}^\\circ\\)，",
+        "∴\\(\\angle BCF=60{}^\\circ\\)，(3分）",
+        "∵\\(AC=BC\\)，\\(CF=AC\\)，",
+        "∴\\(BC=CF\\)，(4分）",
+        "由旋转得 \\(CD=CE\\)，\\(\\angle DCE=60{}^\\circ\\)，",
+        "∴\\(\\angle BCF=\\angle DCE\\)，",
+        "∴\\(\\angle BCF-\\angle BCE=\\angle DCE-\\angle BCE\\)，",
+        "∴\\(\\angle DCB=\\angle ECF\\)，",
+        "∴\\(\\vartriangle DCB≌\\vartriangle ECF\\left ( { \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right ) } \\right )\\)，(5分）",
+        "∴\\(BD=EF\\)，",
+        "∵\\(AG=GE\\)， \\(AC=CF\\)，",
+        "\\(\\therefore GC=\\frac { 1 } { 2 }EF\\)，",
+        "\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          79,
+          81,
+          82,
+          85,
+          86
+        ],
+        "solution_block_ids": [
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-71C207CA2F-Q20-P03",
+      "label": "(3)",
+      "prompt": "如图\\(3\\)， 已知在\\(\\vartriangle ABC\\)中，\\(BC=13\\)，\\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)， \\(\\angle ACB=180{}^\\circ -\\alpha\\)．在点\\(D\\)的运动过程中，求线段 \\(CG\\)长度的最小值．",
+      "stem_text": "如图\\(3\\)， 已知在\\(\\vartriangle ABC\\)中，\\(BC=13\\)，\\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)， \\(\\angle ACB=180{}^\\circ -\\alpha\\)．在点\\(D\\)的运动过程中，求线段 \\(CG\\)长度的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）",
+      "given_solution": "解： 如图\\(3\\)， 在线段\\(CB\\)上作\\(CA'=CA\\)， 连接\\(DA'\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，\n〔图2〕\n∴\\(CA'=CF\\)， \\(\\angle A'CF=180{}^\\circ -\\angle ACB=\\alpha\\)，\n由旋转得\\(DC=CE\\)，\\(\\angle DCE=\\alpha\\)，\n∴\\(\\angle A'CF=\\angle DCE\\)，\n∴\\(\\angle A'CF-\\angle A'CE=\\angle DCE-\\angle A'CE\\)，(7分）\n∴\\(\\angle DCA'=\\angle ECF\\)，\n∵\\(CA'=CF\\)，\n∴\\(\\vartriangle DCA'≌\\vartriangle ECF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，  (8分）\n∴\\(DA'=EF\\)\n∵\\(AG=GE\\)，\\(AC=CF\\)，\n\\(\\therefore CG=\\frac { 1 } { 2 }EF=\\frac { 1 } { 2 }A'D\\)，(9分）\n∵点\\(D\\)在线段\\(AB\\)上运动，\n∴当\\(A'D\\bot AB\\)时，\\(A'D\\)最短， 此时\\(GC\\)取得最小值，(10分）\n如图\\(4\\)， ∵\\(BC=13\\)， \\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)，\n〔图3〕\n∴\\(A'B=6\\)，\n\\(\\therefore A'D=\\frac { 1 } { 2 }A'B=3\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }A'D=\\frac { 3 } { 2 }\\)，\n∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）",
+      "solution_steps": [
+        "解： 如图\\(3\\)， 在线段\\(CB\\)上作\\(CA'=CA\\)， 连接\\(DA'\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，",
+        "〔图2〕",
+        "∴\\(CA'=CF\\)， \\(\\angle A'CF=180{}^\\circ -\\angle ACB=\\alpha\\)，",
+        "由旋转得\\(DC=CE\\)，\\(\\angle DCE=\\alpha\\)，",
+        "∴\\(\\angle A'CF=\\angle DCE\\)，",
+        "∴\\(\\angle A'CF-\\angle A'CE=\\angle DCE-\\angle A'CE\\)，(7分）",
+        "∴\\(\\angle DCA'=\\angle ECF\\)，",
+        "∵\\(CA'=CF\\)，",
+        "∴\\(\\vartriangle DCA'≌\\vartriangle ECF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，  (8分）",
+        "∴\\(DA'=EF\\)",
+        "∵\\(AG=GE\\)，\\(AC=CF\\)，",
+        "\\(\\therefore CG=\\frac { 1 } { 2 }EF=\\frac { 1 } { 2 }A'D\\)，(9分）",
+        "∵点\\(D\\)在线段\\(AB\\)上运动，",
+        "∴当\\(A'D\\bot AB\\)时，\\(A'D\\)最短， 此时\\(GC\\)取得最小值，(10分）",
+        "如图\\(4\\)， ∵\\(BC=13\\)， \\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)，",
+        "〔图3〕",
+        "∴\\(A'B=6\\)，",
+        "\\(\\therefore A'D=\\frac { 1 } { 2 }A'B=3\\)，",
+        "\\(\\therefore GC=\\frac { 1 } { 2 }A'D=\\frac { 3 } { 2 }\\)，",
+        "∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          79,
+          81,
+          82,
+          87
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/60/60d0dd57eb23bd4c494e59e6435f04ab455caf89288fa92807de3c2c227c788b.png"
+  ],
+  "tables": [],
+  "answer": "（1）故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）\n（2）\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）\n（3）∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）",
+  "given_answer": "",
+  "given_solution": "【详解】（1）解： ∵\\(\\alpha =90{}^\\circ\\)，\n∴\\(\\angle DCE=90{}^\\circ\\)，\n∴\\(\\angle BCD+\\angle BCE=90{}^\\circ\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle FCE+\\angle BCE=90{}^\\circ\\)，\n∴\\(\\angle BCD=\\angle FCE\\)，\n∵\\(AC=BC\\)，\\(AC=CF\\)，\n∴\\(BC=FC\\)，\n又由旋转可知，\\(CD=CE\\)，\n∴\\(\\vartriangle BCD≌\\vartriangle FCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BD=EF\\)，\n即\\(EF=BD\\)，\n∵\\(G\\)是\\(AE\\)的中点，\\(AC=CF\\)，\n∴\\(CG\\)为\\(\\vartriangle AEF\\)的中位线，\n∴\\(CG=\\frac { 1 } { 2 }EF\\)，\n∴\\(CG=\\frac { 1 } { 2 }BD\\)，\n故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）\n（2）\\(CG=\\frac { 1 } { 2 }BD\\)．\n证明： 如图\\(2\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，\n〔图1〕\n∵\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle BCF=60{}^\\circ\\)，(3分）\n∵\\(AC=BC\\)，\\(CF=AC\\)，\n∴\\(BC=CF\\)，(4分）\n由旋转得 \\(CD=CE\\)，\\(\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle BCF=\\angle DCE\\)，\n∴\\(\\angle BCF-\\angle BCE=\\angle DCE-\\angle BCE\\)，\n∴\\(\\angle DCB=\\angle ECF\\)，\n∴\\(\\vartriangle DCB≌\\vartriangle ECF\\left ( { \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right ) } \\right )\\)，(5分）\n∴\\(BD=EF\\)，\n∵\\(AG=GE\\)， \\(AC=CF\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }EF\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）\n（3）解： 如图\\(3\\)， 在线段\\(CB\\)上作\\(CA'=CA\\)， 连接\\(DA'\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，\n〔图2〕\n∴\\(CA'=CF\\)， \\(\\angle A'CF=180{}^\\circ -\\angle ACB=\\alpha\\)，\n由旋转得\\(DC=CE\\)，\\(\\angle DCE=\\alpha\\)，\n∴\\(\\angle A'CF=\\angle DCE\\)，\n∴\\(\\angle A'CF-\\angle A'CE=\\angle DCE-\\angle A'CE\\)，(7分）\n∴\\(\\angle DCA'=\\angle ECF\\)，\n∵\\(CA'=CF\\)，\n∴\\(\\vartriangle DCA'≌\\vartriangle ECF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，  (8分）\n∴\\(DA'=EF\\)\n∵\\(AG=GE\\)，\\(AC=CF\\)，\n\\(\\therefore CG=\\frac { 1 } { 2 }EF=\\frac { 1 } { 2 }A'D\\)，(9分）\n∵点\\(D\\)在线段\\(AB\\)上运动，\n∴当\\(A'D\\bot AB\\)时，\\(A'D\\)最短， 此时\\(GC\\)取得最小值，(10分）\n如图\\(4\\)， ∵\\(BC=13\\)， \\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)，\n〔图3〕\n∴\\(A'B=6\\)，\n\\(\\therefore A'D=\\frac { 1 } { 2 }A'B=3\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }A'D=\\frac { 3 } { 2 }\\)，\n∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）",
+  "given_solution_figures": [
+    "assets/figures/cf/cf143c89eccd551a1f93813c0abb7e9c3eb2b3a2d70567532a69767d6f00b1e1.png",
+    "assets/figures/d6/d67676fafc88e10e7caba0c46e9aef2eb2d59b6abc314028dfd344b3a5994417.png",
+    "assets/figures/20/20ecf7f4a75aa36bbd3d76f6132e7d03857896c6342ae6da4e7e1cc02e4db517.png"
+  ],
+  "solution_steps": [
+    "（1）解： ∵\\(\\alpha =90{}^\\circ\\)，",
+    "∴\\(\\angle DCE=90{}^\\circ\\)，",
+    "∴\\(\\angle BCD+\\angle BCE=90{}^\\circ\\)，",
+    "∵\\(\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle FCE+\\angle BCE=90{}^\\circ\\)，",
+    "∴\\(\\angle BCD=\\angle FCE\\)，",
+    "∵\\(AC=BC\\)，\\(AC=CF\\)，",
+    "∴\\(BC=FC\\)，",
+    "又由旋转可知，\\(CD=CE\\)，",
+    "∴\\(\\vartriangle BCD≌\\vartriangle FCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(BD=EF\\)，",
+    "即\\(EF=BD\\)，",
+    "∵\\(G\\)是\\(AE\\)的中点，\\(AC=CF\\)，",
+    "∴\\(CG\\)为\\(\\vartriangle AEF\\)的中位线，",
+    "∴\\(CG=\\frac { 1 } { 2 }EF\\)，",
+    "∴\\(CG=\\frac { 1 } { 2 }BD\\)，",
+    "故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）",
+    "（2）\\(CG=\\frac { 1 } { 2 }BD\\)．",
+    "证明： 如图\\(2\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，",
+    "〔图1〕",
+    "∵\\(\\angle ACB=120{}^\\circ\\)，",
+    "∴\\(\\angle BCF=60{}^\\circ\\)，(3分）",
+    "∵\\(AC=BC\\)，\\(CF=AC\\)，",
+    "∴\\(BC=CF\\)，(4分）",
+    "由旋转得 \\(CD=CE\\)，\\(\\angle DCE=60{}^\\circ\\)，",
+    "∴\\(\\angle BCF=\\angle DCE\\)，",
+    "∴\\(\\angle BCF-\\angle BCE=\\angle DCE-\\angle BCE\\)，",
+    "∴\\(\\angle DCB=\\angle ECF\\)，",
+    "∴\\(\\vartriangle DCB≌\\vartriangle ECF\\left ( { \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right ) } \\right )\\)，(5分）",
+    "∴\\(BD=EF\\)，",
+    "∵\\(AG=GE\\)， \\(AC=CF\\)，",
+    "\\(\\therefore GC=\\frac { 1 } { 2 }EF\\)，",
+    "\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）",
+    "（3）解： 如图\\(3\\)， 在线段\\(CB\\)上作\\(CA'=CA\\)， 连接\\(DA'\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，",
+    "〔图2〕",
+    "∴\\(CA'=CF\\)， \\(\\angle A'CF=180{}^\\circ -\\angle ACB=\\alpha\\)，",
+    "由旋转得\\(DC=CE\\)，\\(\\angle DCE=\\alpha\\)，",
+    "∴\\(\\angle A'CF=\\angle DCE\\)，",
+    "∴\\(\\angle A'CF-\\angle A'CE=\\angle DCE-\\angle A'CE\\)，(7分）",
+    "∴\\(\\angle DCA'=\\angle ECF\\)，",
+    "∵\\(CA'=CF\\)，",
+    "∴\\(\\vartriangle DCA'≌\\vartriangle ECF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，  (8分）",
+    "∴\\(DA'=EF\\)",
+    "∵\\(AG=GE\\)，\\(AC=CF\\)，",
+    "\\(\\therefore CG=\\frac { 1 } { 2 }EF=\\frac { 1 } { 2 }A'D\\)，(9分）",
+    "∵点\\(D\\)在线段\\(AB\\)上运动，",
+    "∴当\\(A'D\\bot AB\\)时，\\(A'D\\)最短， 此时\\(GC\\)取得最小值，(10分）",
+    "如图\\(4\\)， ∵\\(BC=13\\)， \\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)，",
+    "〔图3〕",
+    "∴\\(A'B=6\\)，",
+    "\\(\\therefore A'D=\\frac { 1 } { 2 }A'B=3\\)，",
+    "\\(\\therefore GC=\\frac { 1 } { 2 }A'D=\\frac { 3 } { 2 }\\)，",
+    "∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）解： ∵\\(\\alpha =90{}^\\circ\\)，\n∴\\(\\angle DCE=90{}^\\circ\\)，\n∴\\(\\angle BCD+\\angle BCE=90{}^\\circ\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle FCE+\\angle BCE=90{}^\\circ\\)，\n∴\\(\\angle BCD=\\angle FCE\\)，\n∵\\(AC=BC\\)，\\(AC=CF\\)，\n∴\\(BC=FC\\)，\n又由旋转可知，\\(CD=CE\\)，\n∴\\(\\vartriangle BCD≌\\vartriangle FCE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BD=EF\\)，\n即\\(EF=BD\\)，\n∵\\(G\\)是\\(AE\\)的中点，\\(AC=CF\\)，\n∴\\(CG\\)为\\(\\vartriangle AEF\\)的中位线，\n∴\\(CG=\\frac { 1 } { 2 }EF\\)，\n∴\\(CG=\\frac { 1 } { 2 }BD\\)，\n故答案为：\\(EF=BD\\)，\\(CG=\\frac { 1 } { 2 }BD\\)；(2分）\n（2）\\(CG=\\frac { 1 } { 2 }BD\\)．\n证明： 如图\\(2\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，\n〔图1〕\n∵\\(\\angle ACB=120{}^\\circ\\)，\n∴\\(\\angle BCF=60{}^\\circ\\)，(3分）\n∵\\(AC=BC\\)，\\(CF=AC\\)，\n∴\\(BC=CF\\)，(4分）\n由旋转得 \\(CD=CE\\)，\\(\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle BCF=\\angle DCE\\)，\n∴\\(\\angle BCF-\\angle BCE=\\angle DCE-\\angle BCE\\)，\n∴\\(\\angle DCB=\\angle ECF\\)，\n∴\\(\\vartriangle DCB≌\\vartriangle ECF\\left ( { \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right ) } \\right )\\)，(5分）\n∴\\(BD=EF\\)，\n∵\\(AG=GE\\)， \\(AC=CF\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }EF\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }BD\\)；(6分）\n（3）解： 如图\\(3\\)， 在线段\\(CB\\)上作\\(CA'=CA\\)， 连接\\(DA'\\)， 延长\\(AC\\)至点\\(F\\)， 使得\\(CF=AC\\)， 连接\\(EF\\)，\n〔图2〕\n∴\\(CA'=CF\\)， \\(\\angle A'CF=180{}^\\circ -\\angle ACB=\\alpha\\)，\n由旋转得\\(DC=CE\\)，\\(\\angle DCE=\\alpha\\)，\n∴\\(\\angle A'CF=\\angle DCE\\)，\n∴\\(\\angle A'CF-\\angle A'CE=\\angle DCE-\\angle A'CE\\)，(7分）\n∴\\(\\angle DCA'=\\angle ECF\\)，\n∵\\(CA'=CF\\)，\n∴\\(\\vartriangle DCA'≌\\vartriangle ECF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，  (8分）\n∴\\(DA'=EF\\)\n∵\\(AG=GE\\)，\\(AC=CF\\)，\n\\(\\therefore CG=\\frac { 1 } { 2 }EF=\\frac { 1 } { 2 }A'D\\)，(9分）\n∵点\\(D\\)在线段\\(AB\\)上运动，\n∴当\\(A'D\\bot AB\\)时，\\(A'D\\)最短， 此时\\(GC\\)取得最小值，(10分）\n如图\\(4\\)， ∵\\(BC=13\\)， \\(AC=7\\)， \\(\\angle ABC=30{}^\\circ\\)，\n〔图3〕\n∴\\(A'B=6\\)，\n\\(\\therefore A'D=\\frac { 1 } { 2 }A'B=3\\)，\n\\(\\therefore GC=\\frac { 1 } { 2 }A'D=\\frac { 3 } { 2 }\\)，\n∴线段 \\(CG\\)长度的最小值为\\(\\frac { 3 } { 2 }\\)．(11分）",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-71C207CA2F/single/q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          99.31,
+          582.2,
+          542.79
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-71C207CA2F/single/s20-p15.webp",
+      "assets/SZ-G8-T2-71C207CA2F/single/s20-p16.webp",
+      "assets/SZ-G8-T2-71C207CA2F/single/s20-p17.webp",
+      "assets/SZ-G8-T2-71C207CA2F/single/s20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          457.88,
+          582.2,
+          753.09
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          75.74,
+          582.2,
+          755.74
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          75.74,
+          582.2,
+          612.7
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          72.7,
+          582.2,
+          374.0
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

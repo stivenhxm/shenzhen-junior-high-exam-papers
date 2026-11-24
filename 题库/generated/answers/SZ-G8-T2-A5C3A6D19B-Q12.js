@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q12",{"answer":"5","solution_steps":["\\(x^2-3x+2=(x-1)(x-2)=0\\)，故 \\(x=1\\) 或 \\(x=2\\)。代入待求式分别得 \\(1+4=5\\) 和 \\(4+1=5\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

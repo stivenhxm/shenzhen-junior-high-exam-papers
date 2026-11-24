@@ -1,0 +1,251 @@
+{
+  "id": "SZ-G8-T2-15A157E988-Q23",
+  "paper_id": "SZ-G8-T2-15A157E988",
+  "number": 23,
+  "type": "解答题",
+  "points": null,
+  "title": "由充分条件判定平行四边形",
+  "stem": "如图，在△ABC中，D是BC边的中点，分别过点B、C作射线AD的垂线，垂足分别为E、F，连接BF、CE．\n（1）求证：四边形BECF是平行四边形；\n（2）若AF＝FD，在不添加辅助线的条件下，直接写出与△ABD面积相等的所有三角形．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/1f/1fc0cf17fa25caf9d08305393becd14e955404c3478ba876d2c27d5ab3d93960.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）△ACD、△CEF、△BEF、△BEC、△BFC",
+  "answer": "（1）见解析；（2）△ACD、△CEF、△BEF、△BEC、△BFC",
+  "given_solution": "【分析】（1）根据全等三角形的判定和性质得出ED=FD，进而利用平行四边形的判定证明即可；\n（2）利用三角形的面积解答即可．\n【详解】解：（1）证明：在△ABF与△DEC中，\n∵D是BC中点，\n∴BD=CD，\n∵BE⊥AE，CF⊥AE，\n∴∠BED=∠CFD=90°，\n在△ABF与△DEC中，\n\\(\\begin{cases} \\angle BED=\\angle CFD \\\\ \\angle BDE=\\angle CDF \\\\ BD=CD \\end{cases}\\)，\n∴△BED≌△CFD（AAS），\n∴ED=FD，\n∵BD=CD，\n∴四边形BECF是平行四边形；\n（2）∵四边形BECF是平行四边形，\n∴DE=DF，S\\({}_{△}\\)\\({}_{BDE}\\)=S\\({}_{△}\\)\\({}_{CDF}\\)，S\\({}_{△}\\)\\({}_{BDF}\\)=S\\({}_{△}\\)\\({}_{CDE}\\)，\n∵AF=FD，\n∴AF=DF=DE，\n∴AD=EF，\n∴与△ABD面积相等的三角形有△ACD、△CEF、△BEF、△BEC、△BFC．\n【点睛】本题考查了全等三角形的判定与性质以及平行四边形的判定，关键是根据全等三角形的判定和性质得出ED=FD．",
+  "given_solution_figures": [
+    "assets/figures/1f/1fc0cf17fa25caf9d08305393becd14e955404c3478ba876d2c27d5ab3d93960.png"
+  ],
+  "solution": "解：（1）证明：在△ABF与△DEC中，\n∵D是BC中点，\n∴BD=CD，\n∵BE⊥AE，CF⊥AE，\n∴∠BED=∠CFD=90°，\n在△ABF与△DEC中，\n\\(\\begin{cases} \\angle BED=\\angle CFD \\\\ \\angle BDE=\\angle CDF \\\\ BD=CD \\end{cases}\\)，\n∴△BED≌△CFD（AAS），\n∴ED=FD，\n∵BD=CD，\n∴四边形BECF是平行四边形；\n（2）∵四边形BECF是平行四边形，\n∴DE=DF，S\\({}_{△}\\)\\({}_{BDE}\\)=S\\({}_{△}\\)\\({}_{CDF}\\)，S\\({}_{△}\\)\\({}_{BDF}\\)=S\\({}_{△}\\)\\({}_{CDE}\\)，\n∵AF=FD，\n∴AF=DF=DE，\n∴AD=EF，\n∴与△ABD面积相等的三角形有△ACD、△CEF、△BEF、△BEC、△BFC．",
+  "solution_steps": [
+    "解：（1）证明：在△ABF与△DEC中，",
+    "∵D是BC中点，",
+    "∴BD=CD，",
+    "∵BE⊥AE，CF⊥AE，",
+    "∴∠BED=∠CFD=90°，",
+    "在△ABF与△DEC中，",
+    "\\(\\begin{cases} \\angle BED=\\angle CFD \\\\ \\angle BDE=\\angle CDF \\\\ BD=CD \\end{cases}\\)，",
+    "∴△BED≌△CFD（AAS），",
+    "∴ED=FD，",
+    "∵BD=CD，",
+    "∴四边形BECF是平行四边形；",
+    "（2）∵四边形BECF是平行四边形，",
+    "∴DE=DF，S\\({}_{△}\\)\\({}_{BDE}\\)=S\\({}_{△}\\)\\({}_{CDF}\\)，S\\({}_{△}\\)\\({}_{BDF}\\)=S\\({}_{△}\\)\\({}_{CDE}\\)，",
+    "∵AF=FD，",
+    "∴AF=DF=DE，",
+    "∴AD=EF，",
+    "∴与△ABD面积相等的三角形有△ACD、△CEF、△BEF、△BEC、△BFC．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在△ABC中，D是BC边的中点，分别过点B、C作射线AD的垂线，垂足分别为E、F，连接BF、CE．",
+      "paper_blocks": [
+        61
+      ]
+    },
+    {
+      "id": "fig-64",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-15A157E988-Q23-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形BECF是平行四边形；",
+      "stem_text": "求证：四边形BECF是平行四边形；",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：在△ABF与△DEC中，\n∵D是BC中点，\n∴BD=CD，\n∵BE⊥AE，CF⊥AE，\n∴∠BED=∠CFD=90°，\n在△ABF与△DEC中，\n\\(\\begin{cases} \\angle BED=\\angle CFD \\\\ \\angle BDE=\\angle CDF \\\\ BD=CD \\end{cases}\\)，\n∴△BED≌△CFD（AAS），\n∴ED=FD，\n∵BD=CD，\n∴四边形BECF是平行四边形；",
+      "solution_steps": [
+        "证明：在△ABF与△DEC中，",
+        "∵D是BC中点，",
+        "∴BD=CD，",
+        "∵BE⊥AE，CF⊥AE，",
+        "∴∠BED=∠CFD=90°，",
+        "在△ABF与△DEC中，",
+        "\\(\\begin{cases} \\angle BED=\\angle CFD \\\\ \\angle BDE=\\angle CDF \\\\ BD=CD \\end{cases}\\)，",
+        "∴△BED≌△CFD（AAS），",
+        "∴ED=FD，",
+        "∵BD=CD，",
+        "∴四边形BECF是平行四边形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.01"
+      ],
+      "exam_ids": [
+        "E.G05.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-15A157E988-Q23-P02",
+      "label": "（2）",
+      "prompt": "若AF＝FD，在不添加辅助线的条件下，直接写出与△ABD面积相等的所有三角形．",
+      "stem_text": "若AF＝FD，在不添加辅助线的条件下，直接写出与△ABD面积相等的所有三角形．",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "△ACD、△CEF、△BEF、△BEC、△BFC",
+      "answer": "△ACD、△CEF、△BEF、△BEC、△BFC",
+      "given_solution": "∵四边形BECF是平行四边形，\n∴DE=DF，S\\({}_{△}\\)\\({}_{BDE}\\)=S\\({}_{△}\\)\\({}_{CDF}\\)，S\\({}_{△}\\)\\({}_{BDF}\\)=S\\({}_{△}\\)\\({}_{CDE}\\)，\n∵AF=FD，\n∴AF=DF=DE，\n∴AD=EF，\n∴与△ABD面积相等的三角形有△ACD、△CEF、△BEF、△BEC、△BFC．",
+      "solution_steps": [
+        "∵四边形BECF是平行四边形，",
+        "∴DE=DF，S\\({}_{△}\\)\\({}_{BDE}\\)=S\\({}_{△}\\)\\({}_{CDF}\\)，S\\({}_{△}\\)\\({}_{BDF}\\)=S\\({}_{△}\\)\\({}_{CDE}\\)，",
+        "∵AF=FD，",
+        "∴AF=DF=DE，",
+        "∴AD=EF，",
+        "∴与△ABD面积相等的三角形有△ACD、△CEF、△BEF、△BEC、△BFC．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          310,
+          311,
+          312,
+          313,
+          314,
+          315
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G01.03"
+      ],
+      "exam_ids": [],
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“垂足”。辨认垂足和点到直线的距离。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      65
+    ],
+    "solution_body_blocks": [
+      291,
+      317
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-15A157E988/paper-q23-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          323.18,
+          583.64,
+          521.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-15A157E988/solution-q23-p14.webp",
+      "assets/SZ-G8-T2-15A157E988/solution-q23-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          229.55,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G05.01",
+    "M.G01.03"
+  ],
+  "exam_ids": [
+    "E.G05.01.02"
+  ],
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。 公共材料含“垂足”。辨认垂足和点到直线的距离。",
+  "tag_source": "小问标签汇总"
+}

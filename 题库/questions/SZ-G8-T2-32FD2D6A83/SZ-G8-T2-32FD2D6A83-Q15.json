@@ -1,0 +1,167 @@
+{
+  "id": "SZ-G8-T2-32FD2D6A83-Q15",
+  "paper_id": "SZ-G8-T2-32FD2D6A83",
+  "number": 15,
+  "type": "填空题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，将两个全等的等腰直角三角形摆成如图所示的样子，其中AB= AC=AG=FG，AF、AG分别与BC交于D、E两点，将△ACE绕着点A顺时针旋转90°得到△ABH；①BH⊥BC， ②DA平分∠HDE ；③若BD=3，CE=4，则 AB=6\\(\\sqrt[] { 2 }\\)；④若AB= BE，S\\({}_{△}\\)\\({}_{ABD}\\)=\\(\\frac { 1 } { 2 }S_{ \\Delta ADE }\\)，其中正确的序号有__________ ．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/b2/b214e00fa0af776fca51970cee12a7fad823a16542d49e21a08fbb3d0eddd60e.png"
+  ],
+  "tables": [],
+  "given_answer": "①②③",
+  "answer": "①②③",
+  "given_solution": "【分析】根据旋转变换只改变图形的位置不改变图形的形状与大小可得△ABH和△ACE全等，根据全等三角形对应角相等可得∠BAH=∠CAE，然后求出∠EAF=45°，判断出①正确；通过证明△ADH≌△ADE，根据全等三角形的性质可得DH=DE，∠ADH=∠ADE，判断出②正确；利用勾股定理得到③正确；根据角的度数得到∠ADE=∠BEA，然后利用“角角边”证明△ABD和△ACE全等，根据三角形面积公式即可求得，判断出④错误．\n【详解】解：∵AB=AC=AG=FG，\n∠BAC=∠AGF=90°，\n∴∠ABC=∠C=∠FAG=45°，\nBC=\\(\\sqrt[] { 2 }\\)AB，\n由旋转性质可知△ABH≌△ACE，\n∴∠ABH=∠ACE=45°，BH=CE，\n，AH=AE，∠BAH=∠CAE，\n∠HBD=∠ABH+∠ABC=45°+45°=90°，\n∴BH⊥BC，故①正确；\n∵∠BAH=∠CAE，\n∴∠BAH+∠BAD=∠CAE+∠BAD=∠BAC-∠FAG=45°，\n即∠DAH=45°，\n∴∠DAH=∠DAE，\n在△ADH和△ADE中，\n\\(\\begin{cases} AD=AD \\\\ \\angle DAH=\\angle DAE \\\\ AH=AE \\end{cases}\\)，\n∴△ADH≌△ADE（SAS），\nDH=DE，∠ADH=∠ADE，\n∴AD平分∠HDE，\n故②正确；\n在Rt△BDH中，\\(BD ^ { 2 } +BH ^ { 2 } =DH ^ { 2 }\\)，\n∵BH=CE，DH=DE，\n∴\\(BD ^ { 2 } +BH ^ { 2 } =DH ^ { 2 }\\)，\n当BD=3，CE=4时，\\(3 ^ { 2 } +4 ^ { 2 } =DE ^ { 2 }\\)，\nDE=5，\n∴BC=BD+DE+CE=12，\nBC=\\(\\sqrt[] { 2 }\\)AB=12，\n∴AB=6\\(\\sqrt[] { 2 }\\)，\n故③正确；\n∵BA=BE，∠ABC=45°，\n∴\\(\\angle BAE=\\angle BEA=\\frac { 180{}^\\circ -\\angle ABC } { 2 }=67.5{}^\\circ\\)\n∵∠DAE=45°，\n∴∠ADE=180°-∠DAE-∠BEA=67.5°，\n∴∠ADE=∠BEA，\n∠ADB=180°-∠ADE，\n∠AEC=180°-∠BEA，\n∴∠ADB=∠AEC，\n在△ABD和△ACE中，\n\\(\\begin{cases} \\angle ADB=\\angle AEC \\\\ \\angle ABD=\\angle ACE \\\\ AB=AC \\end{cases}\\)，\n∴△ABD≌△ACE（AAS），\n∴BD=CE，\n\\(BD ^ { 2 } +CE ^ { 2 } =DE ^ { 2 }\\)，\n∴DE=\\(\\sqrt[] { 2 }\\)BD，\n设A到BC边距离为h,\n\\(S_{ \\vartriangle ABD }\\)＝\\(\\frac { 1 } { 2 }\\)×BD×h，\n\\(S_{ \\vartriangle ADE }\\)＝\\(\\frac { 1 } { 2 }\\)×DE×h，\n∴\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle ADE } }=\\frac { BD } { DE }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n∴S\\({}_{△}\\)\\({}_{ABD}\\)＝\\(\\frac { \\sqrt[] { 2 } } { 2 }\\)\\(S_{ \\vartriangle ADE }\\)，\n故④错误；\n综上①②③正确，\n故答案为：①②③．\n【点睛】本题考查了旋转的性质，全等三角形的判定与性质，等腰直角三角形的性质，以及勾股定理，熟记各性质并准确识图是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/13/132860211695738bda018fc1618c2497ab98906d9c66cd8acdcdea3e2edcba4a.png"
+  ],
+  "solution": "解：∵AB=AC=AG=FG，\n∠BAC=∠AGF=90°，\n∴∠ABC=∠C=∠FAG=45°，\nBC=\\(\\sqrt[] { 2 }\\)AB，\n由旋转性质可知△ABH≌△ACE，\n∴∠ABH=∠ACE=45°，BH=CE，\n，AH=AE，∠BAH=∠CAE，\n∠HBD=∠ABH+∠ABC=45°+45°=90°，\n∴BH⊥BC，故①正确；\n∵∠BAH=∠CAE，\n∴∠BAH+∠BAD=∠CAE+∠BAD=∠BAC-∠FAG=45°，\n即∠DAH=45°，\n∴∠DAH=∠DAE，\n在△ADH和△ADE中，\n\\(\\begin{cases} AD=AD \\\\ \\angle DAH=\\angle DAE \\\\ AH=AE \\end{cases}\\)，\n∴△ADH≌△ADE（SAS），\nDH=DE，∠ADH=∠ADE，\n∴AD平分∠HDE，\n故②正确；\n在Rt△BDH中，\\(BD ^ { 2 } +BH ^ { 2 } =DH ^ { 2 }\\)，\n∵BH=CE，DH=DE，\n∴\\(BD ^ { 2 } +BH ^ { 2 } =DH ^ { 2 }\\)，\n当BD=3，CE=4时，\\(3 ^ { 2 } +4 ^ { 2 } =DE ^ { 2 }\\)，\nDE=5，\n∴BC=BD+DE+CE=12，\nBC=\\(\\sqrt[] { 2 }\\)AB=12，\n∴AB=6\\(\\sqrt[] { 2 }\\)，\n故③正确；\n∵BA=BE，∠ABC=45°，\n∴\\(\\angle BAE=\\angle BEA=\\frac { 180{}^\\circ -\\angle ABC } { 2 }=67.5{}^\\circ\\)\n∵∠DAE=45°，\n∴∠ADE=180°-∠DAE-∠BEA=67.5°，\n∴∠ADE=∠BEA，\n∠ADB=180°-∠ADE，\n∠AEC=180°-∠BEA，\n∴∠ADB=∠AEC，\n在△ABD和△ACE中，\n\\(\\begin{cases} \\angle ADB=\\angle AEC \\\\ \\angle ABD=\\angle ACE \\\\ AB=AC \\end{cases}\\)，\n∴△ABD≌△ACE（AAS），\n∴BD=CE，\n\\(BD ^ { 2 } +CE ^ { 2 } =DE ^ { 2 }\\)，\n∴DE=\\(\\sqrt[] { 2 }\\)BD，\n设A到BC边距离为h,\n\\(S_{ \\vartriangle ABD }\\)＝\\(\\frac { 1 } { 2 }\\)×BD×h，\n\\(S_{ \\vartriangle ADE }\\)＝\\(\\frac { 1 } { 2 }\\)×DE×h，\n∴\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle ADE } }=\\frac { BD } { DE }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n∴S\\({}_{△}\\)\\({}_{ABD}\\)＝\\(\\frac { \\sqrt[] { 2 } } { 2 }\\)\\(S_{ \\vartriangle ADE }\\)，\n故④错误；\n综上①②③正确，\n故答案为：①②③．",
+  "solution_steps": [
+    "解：∵AB=AC=AG=FG，",
+    "∠BAC=∠AGF=90°，",
+    "∴∠ABC=∠C=∠FAG=45°，",
+    "BC=\\(\\sqrt[] { 2 }\\)AB，",
+    "由旋转性质可知△ABH≌△ACE，",
+    "∴∠ABH=∠ACE=45°，BH=CE，",
+    "，AH=AE，∠BAH=∠CAE，",
+    "∠HBD=∠ABH+∠ABC=45°+45°=90°，",
+    "∴BH⊥BC，故①正确；",
+    "∵∠BAH=∠CAE，",
+    "∴∠BAH+∠BAD=∠CAE+∠BAD=∠BAC-∠FAG=45°，",
+    "即∠DAH=45°，",
+    "∴∠DAH=∠DAE，",
+    "在△ADH和△ADE中，",
+    "\\(\\begin{cases} AD=AD \\\\ \\angle DAH=\\angle DAE \\\\ AH=AE \\end{cases}\\)，",
+    "∴△ADH≌△ADE（SAS），",
+    "DH=DE，∠ADH=∠ADE，",
+    "∴AD平分∠HDE，",
+    "故②正确；",
+    "在Rt△BDH中，\\(BD ^ { 2 } +BH ^ { 2 } =DH ^ { 2 }\\)，",
+    "∵BH=CE，DH=DE，",
+    "∴\\(BD ^ { 2 } +BH ^ { 2 } =DH ^ { 2 }\\)，",
+    "当BD=3，CE=4时，\\(3 ^ { 2 } +4 ^ { 2 } =DE ^ { 2 }\\)，",
+    "DE=5，",
+    "∴BC=BD+DE+CE=12，",
+    "BC=\\(\\sqrt[] { 2 }\\)AB=12，",
+    "∴AB=6\\(\\sqrt[] { 2 }\\)，",
+    "故③正确；",
+    "∵BA=BE，∠ABC=45°，",
+    "∴\\(\\angle BAE=\\angle BEA=\\frac { 180{}^\\circ -\\angle ABC } { 2 }=67.5{}^\\circ\\)",
+    "∵∠DAE=45°，",
+    "∴∠ADE=180°-∠DAE-∠BEA=67.5°，",
+    "∴∠ADE=∠BEA，",
+    "∠ADB=180°-∠ADE，",
+    "∠AEC=180°-∠BEA，",
+    "∴∠ADB=∠AEC，",
+    "在△ABD和△ACE中，",
+    "\\(\\begin{cases} \\angle ADB=\\angle AEC \\\\ \\angle ABD=\\angle ACE \\\\ AB=AC \\end{cases}\\)，",
+    "∴△ABD≌△ACE（AAS），",
+    "∴BD=CE，",
+    "\\(BD ^ { 2 } +CE ^ { 2 } =DE ^ { 2 }\\)，",
+    "∴DE=\\(\\sqrt[] { 2 }\\)BD，",
+    "设A到BC边距离为h,",
+    "\\(S_{ \\vartriangle ABD }\\)＝\\(\\frac { 1 } { 2 }\\)×BD×h，",
+    "\\(S_{ \\vartriangle ADE }\\)＝\\(\\frac { 1 } { 2 }\\)×DE×h，",
+    "∴\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle ADE } }=\\frac { BD } { DE }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "∴S\\({}_{△}\\)\\({}_{ABD}\\)＝\\(\\frac { \\sqrt[] { 2 } } { 2 }\\)\\(S_{ \\vartriangle ADE }\\)，",
+    "故④错误；",
+    "综上①②③正确，",
+    "故答案为：①②③．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      40,
+      41
+    ],
+    "solution_body_blocks": [
+      218,
+      273
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-32FD2D6A83/paper-q15-p03.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/paper-q15-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          552.73,
+          583.64,
+          625.0
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          55.0,
+          583.64,
+          210.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q15-p11.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q15-p12.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q15-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          525.91,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          673.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "题文匹配"
+}

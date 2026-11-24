@@ -1,0 +1,349 @@
+{
+  "id": "SZ-G8-T1-ABE25D515F-Q22",
+  "paper_id": "SZ-G8-T1-ABE25D515F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、用分割或补形求面积",
+  "stem": "如图1，已知直线\\(AB:y=kx+\\frac { 3 } { 2 }\\)与直线\\(AC:y=-2x+b\\)交于点\\(A\\left ( { 1,2 } \\right )\\)，两直线与\\(x\\)轴分别交于点\\(B\\)和点\\(C\\)．\n〔图1〕\n（1）求直线\\(AB\\)和\\(AC\\)的函数表达式；\n（2）求四边形\\(AFOC\\)的面积；\n（3）如图2，点\\(P\\)为线段\\(BC\\)上一动点，将\\(\\vartriangle ABP\\)沿直线\\(AP\\)翻折得到\\(\\vartriangle APD\\)，线段\\(AD\\)交\\(x\\)轴于点\\(E\\)．当\\(\\vartriangle DPE\\)为直角三角形时，请直接写出点\\(P\\)的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-ABE25D515F/figures/9aadf3e7b2efcfacdef15d855f1a1a8f30ebc305936ac01e946f1d97f15290c4.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，直线\\(CA\\)的表达式为：\\(y=-2x+4\\)；\n（2）\\(\\frac { 11 } { 4 }\\)\n（3）\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)",
+  "answer": "（1）直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，直线\\(CA\\)的表达式为：\\(y=-2x+4\\)；\n（2）\\(\\frac { 11 } { 4 }\\)\n（3）\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)",
+  "given_solution": "【分析】（1）由待定系数法即可求解；\n（2）由四边形\\(AFOC\\)的面积\\(=S_{ \\vartriangle ABC } -S_{ \\vartriangle OBF }\\)，即可求解；\n（3）①当\\(\\angle EPD=90{}^\\circ\\)时，证明\\(\\angle APO=135{}^\\circ -90{}^\\circ =45{}^\\circ\\)，得到\\(AG=PG=2\\)，即可求解；②当\\(\\angle PED=90{}^\\circ\\)时，得到\\(DE=AD-AE=2\\sqrt[] { 5 }-2\\)，由勾股定理可求解．\n【小问1详解】\n将点\\(A\\)的坐标分别代入两个函数表达式得：\n\\(\\begin{cases} 2=k+\\frac { 3 } { 2 } \\\\ 2=-2+b \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=4 \\end{cases}\\)，\n则直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，则点\\(B\\left ( { -3,0 } \\right )\\)，\n直线\\(CA\\)的表达式为：\\(y=-2x+4\\)，则点\\(C\\left ( { 2,0 } \\right )\\)；\n【小问2详解】\n四边形\\(AFOC\\)的面积\\(=S_{ \\vartriangle ABC } -S_{ \\vartriangle OBF } =\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 3\\times \\frac { 3 } { 2 }=\\frac { 11 } { 4 }\\)；\n【小问3详解】\n\\(\\vartriangle DEP\\)为直角三角形，分两种情况讨论：\n①当\\(\\angle EPD=90{}^\\circ\\)时，\n如图，由对折可得，\\(\\angle APB=\\angle APD=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -90{}^\\circ } \\right )=135{}^\\circ\\)，\n\\(\\therefore \\angle APO=135{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\n〔图2〕\n过点\\(A\\)作\\(AG\\bot BC\\)于\\(G\\)，\n\\(\\therefore AG=PG=2\\)，\n\\(\\because OG=1\\)，\n\\(\\therefore OP=1\\)，\n\\(\\therefore P\\left ( { -1,0 } \\right )\\)；\n②当\\(\\angle PED=90{}^\\circ\\)时，如图所示：\n〔图3〕\n由图可知：\\(EB=OB+EO=4\\)，\\(AE=2\\)，\n\\(\\therefore AB=\\sqrt[] { AE ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16+4 }=2\\sqrt[] { 5 }\\)\n由对折得，\\(AD=AB=2\\sqrt[] { 5 }\\)，\n\\(\\therefore DE=AD-AE=2\\sqrt[] { 5 }-2\\)，\n设\\(PE=a\\)，\\(BP=4-a\\)，则\\(PD=4-a\\)，\n由勾股定理可知：\\(DE ^ { 2 } +PE ^ { 2 } =DP ^ { 2 }\\)，\n则\\(a ^ { 2 } +\\left ( { 2\\sqrt[] { 5 }-2 } \\right ) ^ { 2 } =\\left ( { 4-a } \\right ) ^ { 2 }\\)，\n解得：\\(a=\\sqrt[] { 5 }-1\\)，\n\\(\\therefore PE=\\sqrt[] { 5 }-1\\)，\n\\(\\therefore PO=\\sqrt[] { 5 }-2\\)，\n\\(\\because P\\)在\\(x\\)轴负半轴，\n\\(\\therefore P\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)．\n综上所述：\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)\n【点睛】本题是一次函数综合题，考查了待定系数法，角平分线的性质，直角三角形的性质和判定，翻折的性质等，构造出图形是解本题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-ABE25D515F/figures/9aadf3e7b2efcfacdef15d855f1a1a8f30ebc305936ac01e946f1d97f15290c4.png",
+    "assets/SZ-G8-T1-ABE25D515F/figures/2b80f94c87cdae028db4b700d5dec852451a7a871446571493d811691136e905.png",
+    "assets/SZ-G8-T1-ABE25D515F/figures/e0a960ff2971704cf59ca63ed9982696c31952238dea4b8f9964b1a44cb56fb9.png"
+  ],
+  "solution": "【小问1详解】\n将点\\(A\\)的坐标分别代入两个函数表达式得：\n\\(\\begin{cases} 2=k+\\frac { 3 } { 2 } \\\\ 2=-2+b \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=4 \\end{cases}\\)，\n则直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，则点\\(B\\left ( { -3,0 } \\right )\\)，\n直线\\(CA\\)的表达式为：\\(y=-2x+4\\)，则点\\(C\\left ( { 2,0 } \\right )\\)；\n【小问2详解】\n四边形\\(AFOC\\)的面积\\(=S_{ \\vartriangle ABC } -S_{ \\vartriangle OBF } =\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 3\\times \\frac { 3 } { 2 }=\\frac { 11 } { 4 }\\)；\n【小问3详解】\n\\(\\vartriangle DEP\\)为直角三角形，分两种情况讨论：\n①当\\(\\angle EPD=90{}^\\circ\\)时，\n如图，由对折可得，\\(\\angle APB=\\angle APD=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -90{}^\\circ } \\right )=135{}^\\circ\\)，\n\\(\\therefore \\angle APO=135{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\n〔图2〕\n过点\\(A\\)作\\(AG\\bot BC\\)于\\(G\\)，\n\\(\\therefore AG=PG=2\\)，\n\\(\\because OG=1\\)，\n\\(\\therefore OP=1\\)，\n\\(\\therefore P\\left ( { -1,0 } \\right )\\)；\n②当\\(\\angle PED=90{}^\\circ\\)时，如图所示：\n〔图3〕\n由图可知：\\(EB=OB+EO=4\\)，\\(AE=2\\)，\n\\(\\therefore AB=\\sqrt[] { AE ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16+4 }=2\\sqrt[] { 5 }\\)\n由对折得，\\(AD=AB=2\\sqrt[] { 5 }\\)，\n\\(\\therefore DE=AD-AE=2\\sqrt[] { 5 }-2\\)，\n设\\(PE=a\\)，\\(BP=4-a\\)，则\\(PD=4-a\\)，\n由勾股定理可知：\\(DE ^ { 2 } +PE ^ { 2 } =DP ^ { 2 }\\)，\n则\\(a ^ { 2 } +\\left ( { 2\\sqrt[] { 5 }-2 } \\right ) ^ { 2 } =\\left ( { 4-a } \\right ) ^ { 2 }\\)，\n解得：\\(a=\\sqrt[] { 5 }-1\\)，\n\\(\\therefore PE=\\sqrt[] { 5 }-1\\)，\n\\(\\therefore PO=\\sqrt[] { 5 }-2\\)，\n\\(\\because P\\)在\\(x\\)轴负半轴，\n\\(\\therefore P\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)．\n综上所述：\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "将点\\(A\\)的坐标分别代入两个函数表达式得：",
+    "\\(\\begin{cases} 2=k+\\frac { 3 } { 2 } \\\\ 2=-2+b \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=4 \\end{cases}\\)，",
+    "则直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，则点\\(B\\left ( { -3,0 } \\right )\\)，",
+    "直线\\(CA\\)的表达式为：\\(y=-2x+4\\)，则点\\(C\\left ( { 2,0 } \\right )\\)；",
+    "【小问2详解】",
+    "四边形\\(AFOC\\)的面积\\(=S_{ \\vartriangle ABC } -S_{ \\vartriangle OBF } =\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 3\\times \\frac { 3 } { 2 }=\\frac { 11 } { 4 }\\)；",
+    "【小问3详解】",
+    "\\(\\vartriangle DEP\\)为直角三角形，分两种情况讨论：",
+    "①当\\(\\angle EPD=90{}^\\circ\\)时，",
+    "如图，由对折可得，\\(\\angle APB=\\angle APD=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -90{}^\\circ } \\right )=135{}^\\circ\\)，",
+    "\\(\\therefore \\angle APO=135{}^\\circ -90{}^\\circ =45{}^\\circ\\)，",
+    "〔图2〕",
+    "过点\\(A\\)作\\(AG\\bot BC\\)于\\(G\\)，",
+    "\\(\\therefore AG=PG=2\\)，",
+    "\\(\\because OG=1\\)，",
+    "\\(\\therefore OP=1\\)，",
+    "\\(\\therefore P\\left ( { -1,0 } \\right )\\)；",
+    "②当\\(\\angle PED=90{}^\\circ\\)时，如图所示：",
+    "〔图3〕",
+    "由图可知：\\(EB=OB+EO=4\\)，\\(AE=2\\)，",
+    "\\(\\therefore AB=\\sqrt[] { AE ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16+4 }=2\\sqrt[] { 5 }\\)",
+    "由对折得，\\(AD=AB=2\\sqrt[] { 5 }\\)，",
+    "\\(\\therefore DE=AD-AE=2\\sqrt[] { 5 }-2\\)，",
+    "设\\(PE=a\\)，\\(BP=4-a\\)，则\\(PD=4-a\\)，",
+    "由勾股定理可知：\\(DE ^ { 2 } +PE ^ { 2 } =DP ^ { 2 }\\)，",
+    "则\\(a ^ { 2 } +\\left ( { 2\\sqrt[] { 5 }-2 } \\right ) ^ { 2 } =\\left ( { 4-a } \\right ) ^ { 2 }\\)，",
+    "解得：\\(a=\\sqrt[] { 5 }-1\\)，",
+    "\\(\\therefore PE=\\sqrt[] { 5 }-1\\)，",
+    "\\(\\therefore PO=\\sqrt[] { 5 }-2\\)，",
+    "\\(\\because P\\)在\\(x\\)轴负半轴，",
+    "\\(\\therefore P\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)．",
+    "综上所述：\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，已知直线\\(AB:y=kx+\\frac { 3 } { 2 }\\)与直线\\(AC:y=-2x+b\\)交于点\\(A\\left ( { 1,2 } \\right )\\)，两直线与\\(x\\)轴分别交于点\\(B\\)和点\\(C\\)．\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-ABE25D515F-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(AB\\)和\\(AC\\)的函数表达式；",
+      "stem_text": "求直线\\(AB\\)和\\(AC\\)的函数表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，直线\\(CA\\)的表达式为：\\(y=-2x+4\\)；",
+      "answer": "直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，直线\\(CA\\)的表达式为：\\(y=-2x+4\\)；",
+      "given_solution": "将点\\(A\\)的坐标分别代入两个函数表达式得：\n\\(\\begin{cases} 2=k+\\frac { 3 } { 2 } \\\\ 2=-2+b \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=4 \\end{cases}\\)，\n则直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，则点\\(B\\left ( { -3,0 } \\right )\\)，\n直线\\(CA\\)的表达式为：\\(y=-2x+4\\)，则点\\(C\\left ( { 2,0 } \\right )\\)；",
+      "solution_steps": [
+        "将点\\(A\\)的坐标分别代入两个函数表达式得：",
+        "\\(\\begin{cases} 2=k+\\frac { 3 } { 2 } \\\\ 2=-2+b \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=4 \\end{cases}\\)，",
+        "则直线\\(AB\\)的表达式为：\\(y=\\frac { 1 } { 2 }x+\\frac { 3 } { 2 }\\)，则点\\(B\\left ( { -3,0 } \\right )\\)，",
+        "直线\\(CA\\)的表达式为：\\(y=-2x+4\\)，则点\\(C\\left ( { 2,0 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          328,
+          329,
+          330,
+          331
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-ABE25D515F-Q22-P02",
+      "label": "（2）",
+      "prompt": "求四边形\\(AFOC\\)的面积；",
+      "stem_text": "求四边形\\(AFOC\\)的面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 11 } { 4 }\\)",
+      "answer": "\\(\\frac { 11 } { 4 }\\)",
+      "given_solution": "四边形\\(AFOC\\)的面积\\(=S_{ \\vartriangle ABC } -S_{ \\vartriangle OBF } =\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 3\\times \\frac { 3 } { 2 }=\\frac { 11 } { 4 }\\)；",
+      "solution_steps": [
+        "四边形\\(AFOC\\)的面积\\(=S_{ \\vartriangle ABC } -S_{ \\vartriangle OBF } =\\frac { 1 } { 2 }\\times 2\\times 5-\\frac { 1 } { 2 }\\times 3\\times \\frac { 3 } { 2 }=\\frac { 11 } { 4 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          333
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [
+        "E.G02.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“用分割或补形求面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-ABE25D515F-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图2，点\\(P\\)为线段\\(BC\\)上一动点，将\\(\\vartriangle ABP\\)沿直线\\(AP\\)翻折得到\\(\\vartriangle APD\\)，线段\\(AD\\)交\\(x\\)轴于点\\(E\\)．当\\(\\vartriangle DPE\\)为直角三角形时，请直接写出点\\(P\\)的坐标．",
+      "stem_text": "如图2，点\\(P\\)为线段\\(BC\\)上一动点，将\\(\\vartriangle ABP\\)沿直线\\(AP\\)翻折得到\\(\\vartriangle APD\\)，线段\\(AD\\)交\\(x\\)轴于点\\(E\\)．当\\(\\vartriangle DPE\\)为直角三角形时，请直接写出点\\(P\\)的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)",
+      "answer": "\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)",
+      "given_solution": "\\(\\vartriangle DEP\\)为直角三角形，分两种情况讨论：\n①当\\(\\angle EPD=90{}^\\circ\\)时，\n如图，由对折可得，\\(\\angle APB=\\angle APD=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -90{}^\\circ } \\right )=135{}^\\circ\\)，\n\\(\\therefore \\angle APO=135{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\n〔图2〕\n过点\\(A\\)作\\(AG\\bot BC\\)于\\(G\\)，\n\\(\\therefore AG=PG=2\\)，\n\\(\\because OG=1\\)，\n\\(\\therefore OP=1\\)，\n\\(\\therefore P\\left ( { -1,0 } \\right )\\)；\n②当\\(\\angle PED=90{}^\\circ\\)时，如图所示：\n〔图3〕\n由图可知：\\(EB=OB+EO=4\\)，\\(AE=2\\)，\n\\(\\therefore AB=\\sqrt[] { AE ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16+4 }=2\\sqrt[] { 5 }\\)\n由对折得，\\(AD=AB=2\\sqrt[] { 5 }\\)，\n\\(\\therefore DE=AD-AE=2\\sqrt[] { 5 }-2\\)，\n设\\(PE=a\\)，\\(BP=4-a\\)，则\\(PD=4-a\\)，\n由勾股定理可知：\\(DE ^ { 2 } +PE ^ { 2 } =DP ^ { 2 }\\)，\n则\\(a ^ { 2 } +\\left ( { 2\\sqrt[] { 5 }-2 } \\right ) ^ { 2 } =\\left ( { 4-a } \\right ) ^ { 2 }\\)，\n解得：\\(a=\\sqrt[] { 5 }-1\\)，\n\\(\\therefore PE=\\sqrt[] { 5 }-1\\)，\n\\(\\therefore PO=\\sqrt[] { 5 }-2\\)，\n\\(\\because P\\)在\\(x\\)轴负半轴，\n\\(\\therefore P\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)．\n综上所述：\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)",
+      "solution_steps": [
+        "\\(\\vartriangle DEP\\)为直角三角形，分两种情况讨论：",
+        "①当\\(\\angle EPD=90{}^\\circ\\)时，",
+        "如图，由对折可得，\\(\\angle APB=\\angle APD=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -90{}^\\circ } \\right )=135{}^\\circ\\)，",
+        "\\(\\therefore \\angle APO=135{}^\\circ -90{}^\\circ =45{}^\\circ\\)，",
+        "〔图2〕",
+        "过点\\(A\\)作\\(AG\\bot BC\\)于\\(G\\)，",
+        "\\(\\therefore AG=PG=2\\)，",
+        "\\(\\because OG=1\\)，",
+        "\\(\\therefore OP=1\\)，",
+        "\\(\\therefore P\\left ( { -1,0 } \\right )\\)；",
+        "②当\\(\\angle PED=90{}^\\circ\\)时，如图所示：",
+        "〔图3〕",
+        "由图可知：\\(EB=OB+EO=4\\)，\\(AE=2\\)，",
+        "\\(\\therefore AB=\\sqrt[] { AE ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16+4 }=2\\sqrt[] { 5 }\\)",
+        "由对折得，\\(AD=AB=2\\sqrt[] { 5 }\\)，",
+        "\\(\\therefore DE=AD-AE=2\\sqrt[] { 5 }-2\\)，",
+        "设\\(PE=a\\)，\\(BP=4-a\\)，则\\(PD=4-a\\)，",
+        "由勾股定理可知：\\(DE ^ { 2 } +PE ^ { 2 } =DP ^ { 2 }\\)，",
+        "则\\(a ^ { 2 } +\\left ( { 2\\sqrt[] { 5 }-2 } \\right ) ^ { 2 } =\\left ( { 4-a } \\right ) ^ { 2 }\\)，",
+        "解得：\\(a=\\sqrt[] { 5 }-1\\)，",
+        "\\(\\therefore PE=\\sqrt[] { 5 }-1\\)，",
+        "\\(\\therefore PO=\\sqrt[] { 5 }-2\\)，",
+        "\\(\\because P\\)在\\(x\\)轴负半轴，",
+        "\\(\\therefore P\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)．",
+        "综上所述：\\(P\\)点坐标为：\\(\\left ( { -1,0 } \\right )\\)或\\(\\left ( { 2-\\sqrt[] { 5 },0 } \\right )\\)"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      70
+    ],
+    "solution_body_blocks": [
+      315,
+      360
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-ABE25D515F/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          343.18,
+          583.64,
+          642.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-ABE25D515F/solution-q22-p16.webp",
+      "assets/SZ-G8-T1-ABE25D515F/solution-q22-p17.webp",
+      "assets/SZ-G8-T1-ABE25D515F/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          530.0,
+          583.64,
+          748.64
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          696.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          634.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G02.04",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G02.04.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的要求和解答步骤对应“用分割或补形求面积”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

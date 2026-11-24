@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q19-P03",{"answer":"\\(A'=(2,4),\\quad B'=(0,2),\\quad C'=(3,2)\\)。","solution_steps":["读图得 \\(A=(-1,2),B=(-3,0),C=(0,0)\\)。每点的横、纵坐标分别增加3、2。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

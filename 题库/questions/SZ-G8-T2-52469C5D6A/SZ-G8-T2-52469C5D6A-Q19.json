@@ -1,0 +1,224 @@
+{
+  "id": "SZ-G8-T2-52469C5D6A-Q19",
+  "paper_id": "SZ-G8-T2-52469C5D6A",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "用公式将整式分解到要求形式、应用等腰三角形性质求边角",
+  "stem": "常用的分解因式的方法有提取公因式法、公式法及十字相乘法，但有更多的多项式只用上述方法就无法分解，如\\(x ^ { 2 } -4y ^ { 2 } -2x+4y\\)，我们细心观察这个式子就会发现，前两项符合平方差公式，后两项可提取公因式，前后两部分分别分解因式后会产生公因式，然后提取公因式就可以完成整个式子的分解因式了。\n过程为：\\(x ^ { 2 } -4y ^ { 2 } -2x+4y=(x+2y)(x-2y)-2(x-2y)=(x-2y)(x+2y-2)\\)；\n这种分解因式的方法叫做分组分解法，利用这种方法解决下列问题：\n（1）分解因式：\\(9x ^ { 2 } -6xy+y ^ { 2 } -16\\)；\n（2）\\(\\Delta ABC\\)三边a，b，c满足\\(a ^ { 2 } -ab-ac+bc=0\\)，判断\\(\\Delta ABC\\)的形状.",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）（3x-y+4）（3x-y-4）；（2）等腰三角形或等边三角形",
+  "answer": "（1）（3x-y+4）（3x-y-4）；（2）等腰三角形或等边三角形",
+  "given_solution": "【分析】（1）首先将前三项组合，利用完全平方公式分解因式，进而利用平方差公式分解因式得出即可；\n（2）首先将前两项以及后两项组合，进而提取公因式法分解因式，即可得出a，b，c的关系，判断三角形形状即可．\n【详解】解：（1）9x\\({}^{2}\\)-6xy+y\\({}^{2}\\)-16\n=（3x-y）\\({}^{2}\\)-4\\({}^{2}\\)\n=（3x-y+4）（3x-y-4）；\n（2）∵a\\({}^{2}\\)-ab-ac+bc=0\n∴a（a-b）-c（a-b）=0，\n∴（a-b）（a-c）=0，\n∴a=b或a=c或a=b=c，\n∴△ABC的形状是等腰三角形或等边三角形．\n【点睛】此题主要考查了分组分解法分解因式以及等腰三角形的判定，正确分组分解得出是解题关键．",
+  "given_solution_figures": [],
+  "solution": "解：（1）9x\\({}^{2}\\)-6xy+y\\({}^{2}\\)-16\n=（3x-y）\\({}^{2}\\)-4\\({}^{2}\\)\n=（3x-y+4）（3x-y-4）；\n（2）∵a\\({}^{2}\\)-ab-ac+bc=0\n∴a（a-b）-c（a-b）=0，\n∴（a-b）（a-c）=0，\n∴a=b或a=c或a=b=c，\n∴△ABC的形状是等腰三角形或等边三角形．",
+  "solution_steps": [
+    "解：（1）9x\\({}^{2}\\)-6xy+y\\({}^{2}\\)-16",
+    "=（3x-y）\\({}^{2}\\)-4\\({}^{2}\\)",
+    "=（3x-y+4）（3x-y-4）；",
+    "（2）∵a\\({}^{2}\\)-ab-ac+bc=0",
+    "∴a（a-b）-c（a-b）=0，",
+    "∴（a-b）（a-c）=0，",
+    "∴a=b或a=c或a=b=c，",
+    "∴△ABC的形状是等腰三角形或等边三角形．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "常用的分解因式的方法有提取公因式法、公式法及十字相乘法，但有更多的多项式只用上述方法就无法分解，如\\(x ^ { 2 } -4y ^ { 2 } -2x+4y\\)，我们细心观察这个式子就会发现，前两项符合平方差公式，后两项可提取公因式，前后两部分分别分解因式后会产生公因式，然后提取公因式就可以完成整个式子的分解因式了。\n过程为：\\(x ^ { 2 } -4y ^ { 2 } -2x+4y=(x+2y)(x-2y)-2(x-2y)=(x-2y)(x+2y-2)\\)；\n这种分解因式的方法叫做分组分解法，利用这种方法解决下列问题：",
+      "paper_blocks": [
+        50,
+        51,
+        52
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-52469C5D6A-Q19-P01",
+      "label": "（1）",
+      "prompt": "分解因式：\\(9x ^ { 2 } -6xy+y ^ { 2 } -16\\)；",
+      "stem_text": "分解因式：\\(9x ^ { 2 } -6xy+y ^ { 2 } -16\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "（3x-y+4）（3x-y-4）；",
+      "answer": "（3x-y+4）（3x-y-4）；",
+      "given_solution": "9x\\({}^{2}\\)-6xy+y\\({}^{2}\\)-16\n=（3x-y）\\({}^{2}\\)-4\\({}^{2}\\)\n=（3x-y+4）（3x-y-4）；",
+      "solution_steps": [
+        "9x\\({}^{2}\\)-6xy+y\\({}^{2}\\)-16",
+        "=（3x-y）\\({}^{2}\\)-4\\({}^{2}\\)",
+        "=（3x-y+4）（3x-y-4）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52,
+          53
+        ],
+        "solution_block_ids": [
+          284
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N03.08"
+      ],
+      "exam_ids": [
+        "E.N03.08.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“用公式将整式分解到要求形式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-52469C5D6A-Q19-P02",
+      "label": "（2）",
+      "prompt": "\\(\\Delta ABC\\)三边a，b，c满足\\(a ^ { 2 } -ab-ac+bc=0\\)，判断\\(\\Delta ABC\\)的形状.",
+      "stem_text": "\\(\\Delta ABC\\)三边a，b，c满足\\(a ^ { 2 } -ab-ac+bc=0\\)，判断\\(\\Delta ABC\\)的形状.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "等腰三角形或等边三角形",
+      "answer": "等腰三角形或等边三角形",
+      "given_solution": "∵a\\({}^{2}\\)-ab-ac+bc=0\n∴a（a-b）-c（a-b）=0，\n∴（a-b）（a-c）=0，\n∴a=b或a=c或a=b=c，\n∴△ABC的形状是等腰三角形或等边三角形．",
+      "solution_steps": [
+        "∵a\\({}^{2}\\)-ab-ac+bc=0",
+        "∴a（a-b）-c（a-b）=0，",
+        "∴（a-b）（a-c）=0，",
+        "∴a=b或a=c或a=b=c，",
+        "∴△ABC的形状是等腰三角形或等边三角形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52,
+          54
+        ],
+        "solution_block_ids": [
+          284
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      50,
+      54
+    ],
+    "solution_body_blocks": [
+      276,
+      285
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-52469C5D6A/paper-q19-p04.webp",
+      "assets/SZ-G8-T2-52469C5D6A/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          630.45,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          123.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-52469C5D6A/solution-q19-p15.webp",
+      "assets/SZ-G8-T2-52469C5D6A/solution-q19-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          518.64,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          111.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N03.08",
+    "M.G04.01"
+  ],
+  "exam_ids": [
+    "E.N03.08.01",
+    "E.G04.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“用公式将整式分解到要求形式”。 本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+  "tag_source": "小问标签汇总"
+}

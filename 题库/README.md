@@ -12,6 +12,19 @@
 
 ## 已入库的资料
 
+### 八年级上下学期
+
+在「按试卷浏览」的年级学期中勾选「八年级上学期」（125 份）或「八年级下学期」（189 份），也可以在「知识点与考点找题」中叠加年级学期和学校，直接打开命中的小问。卷面、题图、配套评分和题库补写的解法均可在本地阅读。
+
+| 试卷学期 | 大题 | 显式小问 | 可独立练习的整题或小问 |
+| --- | ---: | ---: | ---: |
+| 八年级上学期 | 2,689 | 2,137 | 4,057 |
+| 八年级下学期 | 4,163 | 2,700 | 5,809 |
+
+两个学期共登记 699 个来源文件。同场变式保留各自的选项、答案和页码。例如宝安七校八上期中第 6 题在学校原卷选 B，在整理版选 A。宝安区、罗湖区的两份 2021–2022 学年八下期末复习卷未附答案，页面会标出题库补写的答案和解法。
+
+新增资料前可运行 `python scripts/registry.py "原文件路径"` 查重。完成入库后更新对应学期清单，再运行 `python scripts/build.py` 和 `python scripts/registry.py --audit-g8` 重建索引并核对两学期的文件指纹。[八上来源清单](batches/八年级上学期来源清单.json) · [八下来源清单](batches/八年级下学期来源清单.json)
+
 ### 七年级下学期
 
 七下目录的 **380 个文件对应 90 份试卷、1,988 道大题**。其中 1,505 道大题可以整题抽取，其余按 1,396 个小问抽取，共 2,901 个练习单元。在首页的「年级学期」勾选「七年级下学期」即可浏览。资料覆盖 2020–2021 至 2024–2025 学年，包含开学考、月考、期中和期末试卷。逐文件的用途、试卷 ID、指纹和版本比对说明见[七下来源清单](batches/七年级下学期来源清单.json)。
@@ -61,6 +74,7 @@
 python scripts/registry.py "../初中数学试卷/…/原卷版.docx"
 python scripts/registry.py --audit-g7
 python scripts/registry.py --audit-g7-t2
+python scripts/registry.py --audit-g8
 python scripts/batch_import.py plan batches/2026-11-24-g7-t1-01.json --output ../../outputs/next-batch/selection.json
 ```
 
@@ -74,11 +88,11 @@ python scripts/batch_content.py ../../outputs/next-batch/selection.json ../../ou
 python scripts/batch_import.py apply ../../outputs/next-batch/selection.json --batch 新批次名
 ```
 
-当前批处理支持带对应原卷与「【答案】」「【解析】」段落的 DOCX 资料。Word 排版打印需要 Windows、Microsoft Word、pywin32、PyMuPDF、numpy 与 Pillow。OOXML 和 MathType 抽取使用 lxml、Pillow 和固定版本的 [mtef-py 1.0.1](https://github.com/zhengdongjunjun/MTEF-py-FIX/tree/08818cf79ee10df67cc804d486c1fd9d772e189d)。每批在正式入库前校核小问、公式和图表，并根据真实题目补充 [七上标签标注](scripts/batch_tag_reviews.json)或[七下逐题标签](scripts/g7t2_tag_reviews.json)。两学期均使用 v0.2 编号。`apply` 核对来源、题号、页码、素材及标签，写入正式数据并重建索引与登记表。已登记的卷会跳过。
+当前批处理支持带对应原卷与「【答案】」「【解析】」段落的 DOCX 资料。Word 排版打印需要 Windows、Microsoft Word、pywin32、PyMuPDF、numpy 与 Pillow。OOXML 和 MathType 抽取使用 lxml、Pillow 和固定版本的 [mtef-py 1.0.1](https://github.com/zhengdongjunjun/MTEF-py-FIX/tree/08818cf79ee10df67cc804d486c1fd9d772e189d)。每批在正式入库前校核小问、公式和图表，并根据真实题目补充 [七上标签标注](scripts/batch_tag_reviews.json)、[七下逐题标签](scripts/g7t2_tag_reviews.json)或[八年级逐题标签](scripts/g8_tag_reviews.json)。各学期共用 v0.2 编号。`apply` 核对来源、题号、页码、素材及标签，写入正式数据并重建索引与登记表。已登记的卷会跳过。
 
 ## 新增一份试卷
 
-增加七年级来源时，把新增文件的仓内路径、SHA-256、用途（原卷、解析或答案、答题卡等）及所关联的试卷 ID 加入相应学期的来源清单。先登记新试卷封面与题目，再更新清单并重建索引。使用 `python scripts/registry.py --audit-g7 --audit-g7-t2` 可同时核对两个学期的来源。若新增的是已收录试卷的另一打印版，只需确认题意、选项和参考答案一致，再补登记该来源。
+增加七、八年级来源时，把新增文件的仓内路径、SHA-256、用途（原卷、解析或答案、答题卡等）及所关联的试卷 ID 加入相应学期的来源清单。原卷未附答案且由题库完整补解时，封面只登记实际提供的原卷，题目使用 `editorial_answer_and_solution`，资料原答案和原解留空。先登记新试卷封面与题目，再更新清单并重建索引。使用 `python scripts/registry.py --audit-g7 --audit-g7-t2 --audit-g8` 可同时核对四个学期。若新增的是已收录试卷的另一打印版，核对题意、选项和参考答案后补登记该来源。
 
 1. 将原卷和解析版放在仓库的 `初中数学试卷/` 中。两份来源各登记路径和 SHA-256；准备核对用的 PDF 与裁图，文件放在 `题库/assets/`。PDF 的页码对应当前登记的文件指纹。
 2. 在 `papers/<paper_id>.json` 建封面。给这一卷分配唯一 ID；同校同学期的不同场次、A/B 卷须能区分。填写来源和 `question_ids`。按卷面顺序排列 ID，后续改题名、标签或目录顺序时沿用既有 ID。

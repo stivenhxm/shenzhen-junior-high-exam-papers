@@ -1,0 +1,261 @@
+{
+  "id": "SZ-G8-T1-BB19C49D57-Q18",
+  "paper_id": "SZ-G8-T1-BB19C49D57",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、用坐标求线段长度与面积",
+  "stem": "在平面直角坐标系中，\\(\\vartriangle ABC\\)的位置如图所示，已知点\\(A\\)的坐标是\\(\\left ( { -4,3 } \\right )\\)\n〔图1〕\n（1）点\\(B\\)的坐标为（______，______），点\\(C\\)的坐标为（______，______）\n（2）求\\(\\vartriangle ABC\\)的面积．\n（3）作点\\(C\\)关于\\(y\\)轴的对称点\\(C'\\)，那么\\(A、C'\\)两点之间的距离是______．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/f14108fb25271343c587164dc6833fe3c3bdc6020d0b7709ee03ddaeb97fcd1c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { 3,0 } \\right )\\)；\\(\\left ( { -2,5 } \\right )\\)\n（2）10    （3）\\(2\\sqrt[] { 10 }\\)",
+  "answer": "（1）\\(\\left ( { 3,0 } \\right )\\)；\\(\\left ( { -2,5 } \\right )\\)\n（2）10    （3）\\(2\\sqrt[] { 10 }\\)",
+  "given_solution": "【分析】（1）根据坐标系写出答案即可；\n（2）利用矩形面积减去周围多余三角形的面积可得的面积；\n（3）首先确定位置，然后再利用勾股定理计算即可．本题考查了直角坐标系中点的坐标，关于轴对称的点坐标、三角形面积，以及勾股定理的应用，解题的关键是掌握直角坐标系中坐标的表示，线段长度的计算及面积的计算．\n【小问1详解】\n根据题意，得到\\(B\\left ( { 3,0 } \\right )\\)，\\(C\\left ( { -2,5 } \\right )\\)，\n故答案为：3,0；\\(-2\\)，5．\n【小问2详解】\n\\(\\vartriangle ABC\\)的面积为\\(7\\times 5-\\frac { 1 } { 2 }\\times 7\\times 3-\\frac { 1 } { 2 }\\times 2\\times 2-\\frac { 1 } { 2 }\\times 5\\times 5=10\\)．\n【小问3详解】\n∵\\(C\\left ( { -2,5 } \\right )\\)，\n∴\\(C'\\left ( { 2,5 } \\right )\\)，\n∴\\(AC'=\\sqrt[] { \\left ( { -4-2 } \\right ) ^ { 2 } +\\left ( { 3-5 } \\right ) ^ { 2 } }=2\\sqrt[] { 10 }\\)，\n故答案为：\\(2\\sqrt[] { 10 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/f14108fb25271343c587164dc6833fe3c3bdc6020d0b7709ee03ddaeb97fcd1c.png"
+  ],
+  "solution": "【小问1详解】\n根据题意，得到\\(B\\left ( { 3,0 } \\right )\\)，\\(C\\left ( { -2,5 } \\right )\\)，\n故答案为：3,0；\\(-2\\)，5．\n【小问2详解】\n\\(\\vartriangle ABC\\)的面积为\\(7\\times 5-\\frac { 1 } { 2 }\\times 7\\times 3-\\frac { 1 } { 2 }\\times 2\\times 2-\\frac { 1 } { 2 }\\times 5\\times 5=10\\)．\n【小问3详解】\n∵\\(C\\left ( { -2,5 } \\right )\\)，\n∴\\(C'\\left ( { 2,5 } \\right )\\)，\n∴\\(AC'=\\sqrt[] { \\left ( { -4-2 } \\right ) ^ { 2 } +\\left ( { 3-5 } \\right ) ^ { 2 } }=2\\sqrt[] { 10 }\\)，\n故答案为：\\(2\\sqrt[] { 10 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "根据题意，得到\\(B\\left ( { 3,0 } \\right )\\)，\\(C\\left ( { -2,5 } \\right )\\)，",
+    "故答案为：3,0；\\(-2\\)，5．",
+    "【小问2详解】",
+    "\\(\\vartriangle ABC\\)的面积为\\(7\\times 5-\\frac { 1 } { 2 }\\times 7\\times 3-\\frac { 1 } { 2 }\\times 2\\times 2-\\frac { 1 } { 2 }\\times 5\\times 5=10\\)．",
+    "【小问3详解】",
+    "∵\\(C\\left ( { -2,5 } \\right )\\)，",
+    "∴\\(C'\\left ( { 2,5 } \\right )\\)，",
+    "∴\\(AC'=\\sqrt[] { \\left ( { -4-2 } \\right ) ^ { 2 } +\\left ( { 3-5 } \\right ) ^ { 2 } }=2\\sqrt[] { 10 }\\)，",
+    "故答案为：\\(2\\sqrt[] { 10 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系中，\\(\\vartriangle ABC\\)的位置如图所示，已知点\\(A\\)的坐标是\\(\\left ( { -4,3 } \\right )\\)\n〔图1〕",
+      "paper_blocks": [
+        53,
+        54
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-BB19C49D57-Q18-P01",
+      "label": "（1）",
+      "prompt": "点\\(B\\)的坐标为（______，______），点\\(C\\)的坐标为（______，______）",
+      "stem_text": "点\\(B\\)的坐标为（______，______），点\\(C\\)的坐标为（______，______）",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 3,0 } \\right )\\)；\\(\\left ( { -2,5 } \\right )\\)",
+      "answer": "\\(\\left ( { 3,0 } \\right )\\)；\\(\\left ( { -2,5 } \\right )\\)",
+      "given_solution": "根据题意，得到\\(B\\left ( { 3,0 } \\right )\\)，\\(C\\left ( { -2,5 } \\right )\\)，\n故答案为：3,0；\\(-2\\)，5．",
+      "solution_steps": [
+        "根据题意，得到\\(B\\left ( { 3,0 } \\right )\\)，\\(C\\left ( { -2,5 } \\right )\\)，",
+        "故答案为：3,0；\\(-2\\)，5．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          54,
+          55
+        ],
+        "solution_block_ids": [
+          246,
+          247
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-BB19C49D57-Q18-P02",
+      "label": "（2）",
+      "prompt": "求\\(\\vartriangle ABC\\)的面积．",
+      "stem_text": "求\\(\\vartriangle ABC\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "10",
+      "answer": "10",
+      "given_solution": "\\(\\vartriangle ABC\\)的面积为\\(7\\times 5-\\frac { 1 } { 2 }\\times 7\\times 3-\\frac { 1 } { 2 }\\times 2\\times 2-\\frac { 1 } { 2 }\\times 5\\times 5=10\\)．",
+      "solution_steps": [
+        "\\(\\vartriangle ABC\\)的面积为\\(7\\times 5-\\frac { 1 } { 2 }\\times 7\\times 3-\\frac { 1 } { 2 }\\times 2\\times 2-\\frac { 1 } { 2 }\\times 5\\times 5=10\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          54,
+          56
+        ],
+        "solution_block_ids": [
+          249
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-BB19C49D57-Q18-P03",
+      "label": "（3）",
+      "prompt": "作点\\(C\\)关于\\(y\\)轴的对称点\\(C'\\)，那么\\(A、C'\\)两点之间的距离是______．",
+      "stem_text": "作点\\(C\\)关于\\(y\\)轴的对称点\\(C'\\)，那么\\(A、C'\\)两点之间的距离是______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 10 }\\)",
+      "answer": "\\(2\\sqrt[] { 10 }\\)",
+      "given_solution": "∵\\(C\\left ( { -2,5 } \\right )\\)，\n∴\\(C'\\left ( { 2,5 } \\right )\\)，\n∴\\(AC'=\\sqrt[] { \\left ( { -4-2 } \\right ) ^ { 2 } +\\left ( { 3-5 } \\right ) ^ { 2 } }=2\\sqrt[] { 10 }\\)，\n故答案为：\\(2\\sqrt[] { 10 }\\)．",
+      "solution_steps": [
+        "∵\\(C\\left ( { -2,5 } \\right )\\)，",
+        "∴\\(C'\\left ( { 2,5 } \\right )\\)，",
+        "∴\\(AC'=\\sqrt[] { \\left ( { -4-2 } \\right ) ^ { 2 } +\\left ( { 3-5 } \\right ) ^ { 2 } }=2\\sqrt[] { 10 }\\)，",
+        "故答案为：\\(2\\sqrt[] { 10 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          54,
+          57
+        ],
+        "solution_block_ids": [
+          251,
+          252,
+          253,
+          254
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      53,
+      57
+    ],
+    "solution_body_blocks": [
+      234,
+      254
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-BB19C49D57/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          381.36,
+          583.64,
+          597.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-BB19C49D57/solution-q18-p12.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q18-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          511.82,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          280.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G09.03",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.G09.03.01",
+    "E.G09.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 题面对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

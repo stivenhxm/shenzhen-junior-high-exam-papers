@@ -1,0 +1,385 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-C2607A0298-Q25",
+  "number": 25,
+  "paper_id": "SZ-G8-T2-C2607A0298",
+  "title": "构造全等关系证明线段或角关系、应用等腰三角形性质求边角",
+  "stem": "（8分）已知两个共一个顶点的等腰直角△ABC和等腰直角△CEF，∠ABC＝∠CEF＝90°，连接AF，M是AF的中点，连接MB、ME\n（1）如图1，当CB与CE在同一直线上时，求证：MB∥CF；\n（2）如图1，若CB＝a，CE＝2a，求BM，ME的长；\n（3）如图2，当∠BCE＝45°时，求证：BM＝ME．\n〔图1〕\n2021-2022学年广东省深圳市龙华区万安学校八年级（下）期末数学试卷",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）已知两个共一个顶点的等腰直角△ABC和等腰直角△CEF，∠ABC＝∠CEF＝90°，连接AF，M是AF的中点，连接MB、ME",
+      "paper_blocks": [
+        66
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-C2607A0298-Q25-P01",
+      "label": "（1）",
+      "prompt": "如图1，当CB与CE在同一直线上时，求证：MB∥CF；",
+      "stem_text": "如图1，当CB与CE在同一直线上时，求证：MB∥CF；",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴BM∥CF",
+      "given_solution": "如图1，延长BM交EF于点D，\n〔图3〕\n∵∠ABE＝∠ABC＝∠CEF＝90°，\n∴AB∥EF\n∴∠DFM＝∠BAM，且AM＝MF，∠AMB＝∠DMF\n∴△ABM≌△FDM（ASA）\n∴AB＝DF，BM＝DM\n∵在等腰直角△ABC和等腰直角△CEF中，AB＝BC，EC＝EF，∠FCE＝45°\n∴DF＝AB＝BC\n∴EC﹣BC＝EF﹣DF\n∴BE＝DE，且∠BED＝90°\n∴∠EBD＝45°＝∠FCE\n∴BM∥CF",
+      "solution_steps": [
+        "如图1，延长BM交EF于点D，",
+        "〔图3〕",
+        "∵∠ABE＝∠ABC＝∠CEF＝90°，",
+        "∴AB∥EF",
+        "∴∠DFM＝∠BAM，且AM＝MF，∠AMB＝∠DMF",
+        "∴△ABM≌△FDM（ASA）",
+        "∴AB＝DF，BM＝DM",
+        "∵在等腰直角△ABC和等腰直角△CEF中，AB＝BC，EC＝EF，∠FCE＝45°",
+        "∴DF＝AB＝BC",
+        "∴EC﹣BC＝EF﹣DF",
+        "∴BE＝DE，且∠BED＝90°",
+        "∴∠EBD＝45°＝∠FCE",
+        "∴BM∥CF"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C2607A0298-Q25-P02",
+      "label": "（2）",
+      "prompt": "如图1，若CB＝a，CE＝2a，求BM，ME的长；",
+      "stem_text": "如图1，若CB＝a，CE＝2a，求BM，ME的长；",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴BM＝EM＝〔图2〕BD＝〔图4〕a",
+      "given_solution": "由（1）可知：AB＝BC＝DF，BM＝DM\n∵CB＝a，CE＝2a，\n∴BE＝DE＝a，且∠CEF＝90°\n∴△BDE是等腰直角三角形，BD＝〔图1〕a，且BM＝DM\n∴BM＝EM＝〔图2〕BD＝〔图4〕a，",
+      "solution_steps": [
+        "由（1）可知：AB＝BC＝DF，BM＝DM",
+        "∵CB＝a，CE＝2a，",
+        "∴BE＝DE＝a，且∠CEF＝90°",
+        "∴△BDE是等腰直角三角形，BD＝〔图1〕a，且BM＝DM",
+        "∴BM＝EM＝〔图2〕BD＝〔图4〕a，"
+      ],
+      "solution_figure_ids": [
+        2,
+        4,
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          444,
+          445,
+          446,
+          447,
+          448
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C2607A0298-Q25-P03",
+      "label": "（3）",
+      "prompt": "如图2，当∠BCE＝45°时，求证：BM＝ME．\n\n2021-2022学年广东省深圳市龙华区万安学校八年级（下）期末数学试卷",
+      "stem_text": "如图2，当∠BCE＝45°时，求证：BM＝ME．\n\n2021-2022学年广东省深圳市龙华区万安学校八年级（下）期末数学试卷",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴BM＝ME",
+      "given_solution": "如图2，延长AB交CE于点D，连接DF，延长FE与CB交于点G，连接AG，\n〔图5〕\n∵△ABC是等腰直角三角形\n∴AB＝BC，∠BAC＝∠BCA＝45°，∠ABC＝90°\n∵∠ECB＝45°\n∴∠BDC＝45°＝∠ECB＝∠CAB\n∴BD＝BC，AC＝CD\n∵AB＝BD，点M为AF中点，\n∴BM＝〔图6〕DF．\n同理可得：CF＝CG，ME＝〔图6〕AG．\n在△ACG与△DCF中，\n〔图7〕\n∴△ACG≌△DCF（SAS），\n∴DF＝AG，\n∴BM＝ME．",
+      "solution_steps": [
+        "如图2，延长AB交CE于点D，连接DF，延长FE与CB交于点G，连接AG，",
+        "〔图5〕",
+        "∵△ABC是等腰直角三角形",
+        "∴AB＝BC，∠BAC＝∠BCA＝45°，∠ABC＝90°",
+        "∵∠ECB＝45°",
+        "∴∠BDC＝45°＝∠ECB＝∠CAB",
+        "∴BD＝BC，AC＝CD",
+        "∵AB＝BD，点M为AF中点，",
+        "∴BM＝〔图6〕DF．",
+        "同理可得：CF＝CG，ME＝〔图6〕AG．",
+        "在△ACG与△DCF中，",
+        "〔图7〕",
+        "∴△ACG≌△DCF（SAS），",
+        "∴DF＝AG，",
+        "∴BM＝ME．"
+      ],
+      "solution_figure_ids": [
+        5,
+        6,
+        7
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/b1/b106b772b9c47496058e53bb3bedc983442ccbd58152729ab184d5e86bf25762.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴BM∥CF\n（2）∴BM＝EM＝〔图2〕BD＝〔图4〕a\n（3）∴BM＝ME",
+  "given_answer": "",
+  "given_solution": "【分析】（1）由“ASA”可证△ABM≌△FDM，可得AB＝DF，可得BE＝DE，可得∠EBD＝45°＝∠FCE，可得结论；\n（2）由题意可得BE＝DE＝a，可得△BDE是等腰直角三角形，BD＝〔图1〕a，由等腰直角三角形的性质可求BM，ME的长；\n（3）延长AB交CE于点D，连接DF，延长FE与CB交于点G，连接AG，推出BM、ME是两条中位线：BM＝〔图2〕DF，ME＝〔图2〕AG；然后证明△ACG≌△DCF，得到DF＝AG，从而证明BM＝ME；\n【解答】证明：（1）如图1，延长BM交EF于点D，\n〔图3〕\n∵∠ABE＝∠ABC＝∠CEF＝90°，\n∴AB∥EF\n∴∠DFM＝∠BAM，且AM＝MF，∠AMB＝∠DMF\n∴△ABM≌△FDM（ASA）\n∴AB＝DF，BM＝DM\n∵在等腰直角△ABC和等腰直角△CEF中，AB＝BC，EC＝EF，∠FCE＝45°\n∴DF＝AB＝BC\n∴EC﹣BC＝EF﹣DF\n∴BE＝DE，且∠BED＝90°\n∴∠EBD＝45°＝∠FCE\n∴BM∥CF\n（2）由（1）可知：AB＝BC＝DF，BM＝DM\n∵CB＝a，CE＝2a，\n∴BE＝DE＝a，且∠CEF＝90°\n∴△BDE是等腰直角三角形，BD＝〔图1〕a，且BM＝DM\n∴BM＝EM＝〔图2〕BD＝〔图4〕a，\n（3）如图2，延长AB交CE于点D，连接DF，延长FE与CB交于点G，连接AG，\n〔图5〕\n∵△ABC是等腰直角三角形\n∴AB＝BC，∠BAC＝∠BCA＝45°，∠ABC＝90°\n∵∠ECB＝45°\n∴∠BDC＝45°＝∠ECB＝∠CAB\n∴BD＝BC，AC＝CD\n∵AB＝BD，点M为AF中点，\n∴BM＝〔图6〕DF．\n同理可得：CF＝CG，ME＝〔图6〕AG．\n在△ACG与△DCF中，\n〔图7〕\n∴△ACG≌△DCF（SAS），\n∴DF＝AG，\n∴BM＝ME．\n【点评】本题是三角形综合题，考查了三角形中位线定理、全等三角形的判定与性质，等腰直角三角形的性质，作辅助线构造出中位线、全等三角形和等腰直角三角形是解题的关键，也是本题的难点．",
+  "given_solution_figures": [
+    "assets/figures/73/73ea61fa3660020d6f780abdf310259b7a29be53f1e3fe099e35045a179b34a8.png",
+    "assets/figures/72/722ba6cf85ca95480e0b8d55820c5a3a6f57880f175df98f33558d6dc89d656b.png",
+    "assets/figures/af/afe4c085b7d157c41597b5ca8ddb408f62b99e12eb3bac82a074a89e2aa30113.png",
+    "assets/figures/12/12a8e3216038d7060fa07840938ebb1907b50d40616afa61081f470e08594d44.png",
+    "assets/figures/13/13643f60d6a15e7b8f97b1497d464157e119a3f068899a58b5ad3b66296e5291.png",
+    "assets/figures/07/07799f174b6d7a178cb51b0843a6d71484550308bb8743eb33249ba507a73801.png",
+    "assets/figures/71/714f1abb3a54dd9896799cf7ef104771550b1e461c46e792ff72161524bad7b2.png"
+  ],
+  "solution_steps": [
+    "证明：（1）如图1，延长BM交EF于点D，",
+    "〔图3〕",
+    "∵∠ABE＝∠ABC＝∠CEF＝90°，",
+    "∴AB∥EF",
+    "∴∠DFM＝∠BAM，且AM＝MF，∠AMB＝∠DMF",
+    "∴△ABM≌△FDM（ASA）",
+    "∴AB＝DF，BM＝DM",
+    "∵在等腰直角△ABC和等腰直角△CEF中，AB＝BC，EC＝EF，∠FCE＝45°",
+    "∴DF＝AB＝BC",
+    "∴EC﹣BC＝EF﹣DF",
+    "∴BE＝DE，且∠BED＝90°",
+    "∴∠EBD＝45°＝∠FCE",
+    "∴BM∥CF",
+    "（2）由（1）可知：AB＝BC＝DF，BM＝DM",
+    "∵CB＝a，CE＝2a，",
+    "∴BE＝DE＝a，且∠CEF＝90°",
+    "∴△BDE是等腰直角三角形，BD＝〔图1〕a，且BM＝DM",
+    "∴BM＝EM＝〔图2〕BD＝〔图4〕a，",
+    "（3）如图2，延长AB交CE于点D，连接DF，延长FE与CB交于点G，连接AG，",
+    "〔图5〕",
+    "∵△ABC是等腰直角三角形",
+    "∴AB＝BC，∠BAC＝∠BCA＝45°，∠ABC＝90°",
+    "∵∠ECB＝45°",
+    "∴∠BDC＝45°＝∠ECB＝∠CAB",
+    "∴BD＝BC，AC＝CD",
+    "∵AB＝BD，点M为AF中点，",
+    "∴BM＝〔图6〕DF．",
+    "同理可得：CF＝CG，ME＝〔图6〕AG．",
+    "在△ACG与△DCF中，",
+    "〔图7〕",
+    "∴△ACG≌△DCF（SAS），",
+    "∴DF＝AG，",
+    "∴BM＝ME．"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "证明：（1）如图1，延长BM交EF于点D，\n〔图3〕\n∵∠ABE＝∠ABC＝∠CEF＝90°，\n∴AB∥EF\n∴∠DFM＝∠BAM，且AM＝MF，∠AMB＝∠DMF\n∴△ABM≌△FDM（ASA）\n∴AB＝DF，BM＝DM\n∵在等腰直角△ABC和等腰直角△CEF中，AB＝BC，EC＝EF，∠FCE＝45°\n∴DF＝AB＝BC\n∴EC﹣BC＝EF﹣DF\n∴BE＝DE，且∠BED＝90°\n∴∠EBD＝45°＝∠FCE\n∴BM∥CF\n（2）由（1）可知：AB＝BC＝DF，BM＝DM\n∵CB＝a，CE＝2a，\n∴BE＝DE＝a，且∠CEF＝90°\n∴△BDE是等腰直角三角形，BD＝〔图1〕a，且BM＝DM\n∴BM＝EM＝〔图2〕BD＝〔图4〕a，\n（3）如图2，延长AB交CE于点D，连接DF，延长FE与CB交于点G，连接AG，\n〔图5〕\n∵△ABC是等腰直角三角形\n∴AB＝BC，∠BAC＝∠BCA＝45°，∠ABC＝90°\n∵∠ECB＝45°\n∴∠BDC＝45°＝∠ECB＝∠CAB\n∴BD＝BC，AC＝CD\n∵AB＝BD，点M为AF中点，\n∴BM＝〔图6〕DF．\n同理可得：CF＝CG，ME＝〔图6〕AG．\n在△ACG与△DCF中，\n〔图7〕\n∴△ACG≌△DCF（SAS），\n∴DF＝AG，\n∴BM＝ME．",
+  "review_note": "",
+  "solution_figure_ids": [
+    2,
+    4,
+    3,
+    1,
+    5,
+    6,
+    7
+  ],
+  "source": {
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-C2607A0298/single/q25-p05.webp",
+      "assets/SZ-G8-T2-C2607A0298/single/q25-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          302.88,
+          582.2,
+          542.44
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          101.39,
+          582.2,
+          151.83
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-C2607A0298/single/s25-p24.webp",
+      "assets/SZ-G8-T2-C2607A0298/single/s25-p25.webp",
+      "assets/SZ-G8-T2-C2607A0298/single/s25-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          13,
+          224.88,
+          582.2,
+          760.96
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          13,
+          77.48,
+          582.2,
+          768.78
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.2,
+          160.96
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

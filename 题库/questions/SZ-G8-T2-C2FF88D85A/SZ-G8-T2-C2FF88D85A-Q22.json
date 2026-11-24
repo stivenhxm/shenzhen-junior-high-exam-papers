@@ -1,0 +1,442 @@
+{
+  "id": "SZ-G8-T2-C2FF88D85A-Q22",
+  "paper_id": "SZ-G8-T2-C2FF88D85A",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将面积条件转为点的位置约束",
+  "stem": "把正方形纸片放在直角坐标系中，如图所示，正方形纸片ABCD的边长为3，点E、F分别在BC、CD上，将AB、AD分别沿AE、AF折叠，点B、D恰好都落在点G处，已知3BE＝BC．\n〔图1〕\n（1）请直接写出D、E两点的坐标，并求出直线EF的解析式；\n（2）在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，若存在，请求出点M的坐标，若不存在，请说明理由．\n（3）若点P、Q分别是线段AG、AF上的动点，则EP＋PQ的最小值是多少？并求出此时点Q的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/figures/59/591dfd4f790ad9d53a71fb82238b1fb26004f77f01adab7625aa4f09ed9e60fd.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）D点坐标为（3，3），E点坐标为（1，0），直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；（2）当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；（3）（2，2）",
+  "answer": "（1）D点坐标为（3，3），E点坐标为（1，0），直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；（2）当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；（3）（2，2）",
+  "given_solution": "【分析】（1）根据正方形的性质即可得到BC=CD=3，∠BCD=90°，则D点坐标为（3，3），再由3BE=BC，得到BE=1，则E点坐标为（1，0），CE=BC-BE=2，由折叠的性质可知，EF=BE=1，FG=DF，设CF=x，则GF=DF=3-x，EF=EG+FG=4-x，由\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，得到\\(\\left ( { 4-x } \\right ) ^ { 2 } =2 ^ { 2 } +x ^ { 2 }\\)，即可求出F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），设直线EF的解析式为\\(y=kx+b\\)，把E、F的坐标代入求解即可；\n（2）由△AEF和△AFM等高，则\\(\\frac { S_{ \\vartriangle AFM } } { S_{ \\vartriangle AEF } }{ \\rm{ = } }\\frac { FM } { EF }=\\frac { 1 } { 2 }\\)，从而得到\\(FM=\\frac { 1 } { 2 }EF\\)，然后分当M在线段EF上时，即M为EF的中点时，此时记作M\\({}_{1}\\)，当M在EF延长线上时，此时记作M\\({}_{2}\\)，则\\(FM_{ 1 } =FM_{ 2 }\\)，即此时F为\\(M_{ 1 } M_{ 2 }\\)的中点，根据中点坐标公式求解即可；\n（3）由\\(EP+PQ\\ge EQ\\)，得到当Q、P、E三点共线的时候\\(EP+PQ\\)有最小值EQ，再由点到直线的距离垂线段最短可知，当EQ⊥AF时，EQ有最小值，即\\(EP+PQ\\)有最小值，先用面积法求出\\(QE=\\frac { AG\\cdot EF } { AF }{ \\rm{ = } }\\sqrt[] { 5 }\\)，然后求出直线AF的解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)；设Q点坐标为（t，\\(-\\frac { 1 } { 2 }t+3\\)），则\\(QE ^ { 2 } =\\left ( { t-1 } \\right ) ^ { 2 } +\\left ( { -\\frac { 1 } { 2 }t+3 } \\right ) ^ { 2 } =5\\)，由此求解即可．\n【详解】解：（1）∵四边形ABCD是边长为3的正方形，\n∴BC=CD=3，∠BCD=90°，\n∴D点坐标为（3，3），\n∵3BE=BC，\n∴BE=1，\n∴E点坐标为（1，0），CE=BC-BE=2，\n由折叠的性质可知，EG=BE=1，FG=DF，\n设CF=x，则GF=DF=3-x，EF=EG+FG=4-x，\n∵\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，\n∴\\(\\left ( { 4-x } \\right ) ^ { 2 } =2 ^ { 2 } +x ^ { 2 }\\)，\n解得\\(x=\\frac { 3 } { 2 }\\)，\n∴F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），\n设直线EF的解析式为\\(y=kx+b\\)，\n∴\\(\\begin{cases} k+b=0 \\\\ 3k+b=\\frac { 3 } { 2 } \\end{cases}\\)，\n∴\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 4 } \\end{cases}\\)，\n∴直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；\n〔图2〕\n（2）假设在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，\n∵△AEF和△AFM等高，\n∴\\(\\frac { S_{ \\vartriangle AFM } } { S_{ \\vartriangle AEF } }{ \\rm{ = } }\\frac { FM } { EF }=\\frac { 1 } { 2 }\\)，\n∴\\(FM=\\frac { 1 } { 2 }EF\\)，\n当M在线段EF上时，即M为EF的中点时，此时记作M\\({}_{1}\\)，\n∵E点坐标为（1，0），F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），\n∴\\(\\begin{cases} x_{ M_{ 1 } } =\\frac { 1+3 } { 2 }=2 \\\\ y_{ M_{ 1 } } =\\frac { 0+\\frac { 3 } { 2 } } { 2 }=\\frac { 3 } { 4 } \\end{cases}\\) ，\n∴M\\({}_{1}\\)的坐标为（2，\\(\\frac { 3 } { 4 }\\)）；\n当M在EF延长线上时，此时记作M\\({}_{2}\\)，则\\(FM_{ 1 } =FM_{ 2 }\\)，即此时F为\\(M_{ 1 } M_{ 2 }\\)的中点，\n∴\\(\\begin{cases} 3=\\frac { 2+x_{ M_{ 2 } } } { 2 } \\\\ \\frac { 3 } { 2 }=\\frac { y_{ M_{ 2 } } +\\frac { 3 } { 4 } } { 2 } \\end{cases}\\)，\n∴\\(\\begin{cases} x_{ M_{ 2 } } =4 \\\\ y_{ M_{ 2 } } =\\frac { 9 } { 4 } \\end{cases}\\)，\n∴M\\({}_{2}\\)的坐标为（4，\\(\\frac { 9 } { 4 }\\)）；\n∴综上所述，当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；\n〔图3〕\n（3）如图所示，连接EQ，\n∵\\(EP+PQ\\ge EQ\\)，\n∴当Q、P、E三点共线的时候\\(EP+PQ\\)有最小值EQ，\n再由点到直线的距离垂线段最短可知，当EQ⊥AF时，EQ有最小值，即\\(EP+PQ\\)有最小值，\n由（1）得\\(EF=EG+GF=\\frac { 3 } { 2 }+1=\\frac { 5 } { 2 }\\)，有折叠的性质可得AG=AB=3，∠AGE=∠AGF=∠ABC=90°，\n∴\\(AF=\\sqrt[] { AG ^ { 2 } +GF ^ { 2 } }=\\frac { 3\\sqrt[] { 5 } } { 2 }\\)，\n∵\\(S_{ \\vartriangle AEF } { \\rm{ = } }\\frac { 1 } { 2 }AG\\cdot EF=\\frac { 1 } { 2 }AF\\cdot QE\\)，\n∴\\(QE=\\frac { AG\\cdot EF } { AF }{ \\rm{ = } }\\sqrt[] { 5 }\\)，\n设直线AF的解析式为\\(y=mx+n\\)\n∴\\(\\begin{cases} 3k+b=\\frac { 3 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴直线AF的解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)；\n设Q点坐标为（t，\\(-\\frac { 1 } { 2 }t+3\\)），\n∴\\(QE ^ { 2 } =\\left ( { t-1 } \\right ) ^ { 2 } +\\left ( { -\\frac { 1 } { 2 }t+3 } \\right ) ^ { 2 } =5\\)，\n解得\\(t=2\\)，\n∴Q点坐标为（2，2）\n〔图4〕\n【点睛】本题主要考查了一次函数与几何综合，正方形的性质，两点距离公式，解题的关键在于能够熟练掌握一次函数的相关知识．",
+  "given_solution_figures": [
+    "assets/figures/59/591dfd4f790ad9d53a71fb82238b1fb26004f77f01adab7625aa4f09ed9e60fd.png",
+    "assets/figures/57/5759f8e80da6d5e7d8976aec9edd935a460fea9169755cc5fcbb5048834b1a60.png",
+    "assets/figures/f4/f47cb2d35cd80f0414bce3cbd7c9dbbf1b41112532ee06f26bdf35bea52978de.png",
+    "assets/figures/5e/5e023ce18bd28b869194207c5b61a0b5b2e8027fd0bf1320ba4cc3a3f8a6ec39.png"
+  ],
+  "solution": "解：（1）∵四边形ABCD是边长为3的正方形，\n∴BC=CD=3，∠BCD=90°，\n∴D点坐标为（3，3），\n∵3BE=BC，\n∴BE=1，\n∴E点坐标为（1，0），CE=BC-BE=2，\n由折叠的性质可知，EG=BE=1，FG=DF，\n设CF=x，则GF=DF=3-x，EF=EG+FG=4-x，\n∵\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，\n∴\\(\\left ( { 4-x } \\right ) ^ { 2 } =2 ^ { 2 } +x ^ { 2 }\\)，\n解得\\(x=\\frac { 3 } { 2 }\\)，\n∴F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），\n设直线EF的解析式为\\(y=kx+b\\)，\n∴\\(\\begin{cases} k+b=0 \\\\ 3k+b=\\frac { 3 } { 2 } \\end{cases}\\)，\n∴\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 4 } \\end{cases}\\)，\n∴直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；\n〔图2〕\n（2）假设在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，\n∵△AEF和△AFM等高，\n∴\\(\\frac { S_{ \\vartriangle AFM } } { S_{ \\vartriangle AEF } }{ \\rm{ = } }\\frac { FM } { EF }=\\frac { 1 } { 2 }\\)，\n∴\\(FM=\\frac { 1 } { 2 }EF\\)，\n当M在线段EF上时，即M为EF的中点时，此时记作M\\({}_{1}\\)，\n∵E点坐标为（1，0），F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），\n∴\\(\\begin{cases} x_{ M_{ 1 } } =\\frac { 1+3 } { 2 }=2 \\\\ y_{ M_{ 1 } } =\\frac { 0+\\frac { 3 } { 2 } } { 2 }=\\frac { 3 } { 4 } \\end{cases}\\) ，\n∴M\\({}_{1}\\)的坐标为（2，\\(\\frac { 3 } { 4 }\\)）；\n当M在EF延长线上时，此时记作M\\({}_{2}\\)，则\\(FM_{ 1 } =FM_{ 2 }\\)，即此时F为\\(M_{ 1 } M_{ 2 }\\)的中点，\n∴\\(\\begin{cases} 3=\\frac { 2+x_{ M_{ 2 } } } { 2 } \\\\ \\frac { 3 } { 2 }=\\frac { y_{ M_{ 2 } } +\\frac { 3 } { 4 } } { 2 } \\end{cases}\\)，\n∴\\(\\begin{cases} x_{ M_{ 2 } } =4 \\\\ y_{ M_{ 2 } } =\\frac { 9 } { 4 } \\end{cases}\\)，\n∴M\\({}_{2}\\)的坐标为（4，\\(\\frac { 9 } { 4 }\\)）；\n∴综上所述，当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；\n〔图3〕\n（3）如图所示，连接EQ，\n∵\\(EP+PQ\\ge EQ\\)，\n∴当Q、P、E三点共线的时候\\(EP+PQ\\)有最小值EQ，\n再由点到直线的距离垂线段最短可知，当EQ⊥AF时，EQ有最小值，即\\(EP+PQ\\)有最小值，\n由（1）得\\(EF=EG+GF=\\frac { 3 } { 2 }+1=\\frac { 5 } { 2 }\\)，有折叠的性质可得AG=AB=3，∠AGE=∠AGF=∠ABC=90°，\n∴\\(AF=\\sqrt[] { AG ^ { 2 } +GF ^ { 2 } }=\\frac { 3\\sqrt[] { 5 } } { 2 }\\)，\n∵\\(S_{ \\vartriangle AEF } { \\rm{ = } }\\frac { 1 } { 2 }AG\\cdot EF=\\frac { 1 } { 2 }AF\\cdot QE\\)，\n∴\\(QE=\\frac { AG\\cdot EF } { AF }{ \\rm{ = } }\\sqrt[] { 5 }\\)，\n设直线AF的解析式为\\(y=mx+n\\)\n∴\\(\\begin{cases} 3k+b=\\frac { 3 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴直线AF的解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)；\n设Q点坐标为（t，\\(-\\frac { 1 } { 2 }t+3\\)），\n∴\\(QE ^ { 2 } =\\left ( { t-1 } \\right ) ^ { 2 } +\\left ( { -\\frac { 1 } { 2 }t+3 } \\right ) ^ { 2 } =5\\)，\n解得\\(t=2\\)，\n∴Q点坐标为（2，2）\n〔图4〕",
+  "solution_steps": [
+    "解：（1）∵四边形ABCD是边长为3的正方形，",
+    "∴BC=CD=3，∠BCD=90°，",
+    "∴D点坐标为（3，3），",
+    "∵3BE=BC，",
+    "∴BE=1，",
+    "∴E点坐标为（1，0），CE=BC-BE=2，",
+    "由折叠的性质可知，EG=BE=1，FG=DF，",
+    "设CF=x，则GF=DF=3-x，EF=EG+FG=4-x，",
+    "∵\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，",
+    "∴\\(\\left ( { 4-x } \\right ) ^ { 2 } =2 ^ { 2 } +x ^ { 2 }\\)，",
+    "解得\\(x=\\frac { 3 } { 2 }\\)，",
+    "∴F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），",
+    "设直线EF的解析式为\\(y=kx+b\\)，",
+    "∴\\(\\begin{cases} k+b=0 \\\\ 3k+b=\\frac { 3 } { 2 } \\end{cases}\\)，",
+    "∴\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 4 } \\end{cases}\\)，",
+    "∴直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；",
+    "〔图2〕",
+    "（2）假设在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，",
+    "∵△AEF和△AFM等高，",
+    "∴\\(\\frac { S_{ \\vartriangle AFM } } { S_{ \\vartriangle AEF } }{ \\rm{ = } }\\frac { FM } { EF }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(FM=\\frac { 1 } { 2 }EF\\)，",
+    "当M在线段EF上时，即M为EF的中点时，此时记作M\\({}_{1}\\)，",
+    "∵E点坐标为（1，0），F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），",
+    "∴\\(\\begin{cases} x_{ M_{ 1 } } =\\frac { 1+3 } { 2 }=2 \\\\ y_{ M_{ 1 } } =\\frac { 0+\\frac { 3 } { 2 } } { 2 }=\\frac { 3 } { 4 } \\end{cases}\\) ，",
+    "∴M\\({}_{1}\\)的坐标为（2，\\(\\frac { 3 } { 4 }\\)）；",
+    "当M在EF延长线上时，此时记作M\\({}_{2}\\)，则\\(FM_{ 1 } =FM_{ 2 }\\)，即此时F为\\(M_{ 1 } M_{ 2 }\\)的中点，",
+    "∴\\(\\begin{cases} 3=\\frac { 2+x_{ M_{ 2 } } } { 2 } \\\\ \\frac { 3 } { 2 }=\\frac { y_{ M_{ 2 } } +\\frac { 3 } { 4 } } { 2 } \\end{cases}\\)，",
+    "∴\\(\\begin{cases} x_{ M_{ 2 } } =4 \\\\ y_{ M_{ 2 } } =\\frac { 9 } { 4 } \\end{cases}\\)，",
+    "∴M\\({}_{2}\\)的坐标为（4，\\(\\frac { 9 } { 4 }\\)）；",
+    "∴综上所述，当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；",
+    "〔图3〕",
+    "（3）如图所示，连接EQ，",
+    "∵\\(EP+PQ\\ge EQ\\)，",
+    "∴当Q、P、E三点共线的时候\\(EP+PQ\\)有最小值EQ，",
+    "再由点到直线的距离垂线段最短可知，当EQ⊥AF时，EQ有最小值，即\\(EP+PQ\\)有最小值，",
+    "由（1）得\\(EF=EG+GF=\\frac { 3 } { 2 }+1=\\frac { 5 } { 2 }\\)，有折叠的性质可得AG=AB=3，∠AGE=∠AGF=∠ABC=90°，",
+    "∴\\(AF=\\sqrt[] { AG ^ { 2 } +GF ^ { 2 } }=\\frac { 3\\sqrt[] { 5 } } { 2 }\\)，",
+    "∵\\(S_{ \\vartriangle AEF } { \\rm{ = } }\\frac { 1 } { 2 }AG\\cdot EF=\\frac { 1 } { 2 }AF\\cdot QE\\)，",
+    "∴\\(QE=\\frac { AG\\cdot EF } { AF }{ \\rm{ = } }\\sqrt[] { 5 }\\)，",
+    "设直线AF的解析式为\\(y=mx+n\\)",
+    "∴\\(\\begin{cases} 3k+b=\\frac { 3 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+    "∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+    "∴直线AF的解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)；",
+    "设Q点坐标为（t，\\(-\\frac { 1 } { 2 }t+3\\)），",
+    "∴\\(QE ^ { 2 } =\\left ( { t-1 } \\right ) ^ { 2 } +\\left ( { -\\frac { 1 } { 2 }t+3 } \\right ) ^ { 2 } =5\\)，",
+    "解得\\(t=2\\)，",
+    "∴Q点坐标为（2，2）",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "把正方形纸片放在直角坐标系中，如图所示，正方形纸片ABCD的边长为3，点E、F分别在BC、CD上，将AB、AD分别沿AE、AF折叠，点B、D恰好都落在点G处，已知3BE＝BC．\n〔图1〕",
+      "paper_blocks": [
+        63,
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-C2FF88D85A-Q22-P01",
+      "label": "（1）",
+      "prompt": "请直接写出D、E两点的坐标，并求出直线EF的解析式；",
+      "stem_text": "请直接写出D、E两点的坐标，并求出直线EF的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "D点坐标为（3，3），E点坐标为（1，0），直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；",
+      "answer": "D点坐标为（3，3），E点坐标为（1，0），直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；",
+      "given_solution": "∵四边形ABCD是边长为3的正方形，\n∴BC=CD=3，∠BCD=90°，\n∴D点坐标为（3，3），\n∵3BE=BC，\n∴BE=1，\n∴E点坐标为（1，0），CE=BC-BE=2，\n由折叠的性质可知，EG=BE=1，FG=DF，\n设CF=x，则GF=DF=3-x，EF=EG+FG=4-x，\n∵\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，\n∴\\(\\left ( { 4-x } \\right ) ^ { 2 } =2 ^ { 2 } +x ^ { 2 }\\)，\n解得\\(x=\\frac { 3 } { 2 }\\)，\n∴F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），\n设直线EF的解析式为\\(y=kx+b\\)，\n∴\\(\\begin{cases} k+b=0 \\\\ 3k+b=\\frac { 3 } { 2 } \\end{cases}\\)，\n∴\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 4 } \\end{cases}\\)，\n∴直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；\n〔图2〕",
+      "solution_steps": [
+        "∵四边形ABCD是边长为3的正方形，",
+        "∴BC=CD=3，∠BCD=90°，",
+        "∴D点坐标为（3，3），",
+        "∵3BE=BC，",
+        "∴BE=1，",
+        "∴E点坐标为（1，0），CE=BC-BE=2，",
+        "由折叠的性质可知，EG=BE=1，FG=DF，",
+        "设CF=x，则GF=DF=3-x，EF=EG+FG=4-x，",
+        "∵\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，",
+        "∴\\(\\left ( { 4-x } \\right ) ^ { 2 } =2 ^ { 2 } +x ^ { 2 }\\)，",
+        "解得\\(x=\\frac { 3 } { 2 }\\)，",
+        "∴F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），",
+        "设直线EF的解析式为\\(y=kx+b\\)，",
+        "∴\\(\\begin{cases} k+b=0 \\\\ 3k+b=\\frac { 3 } { 2 } \\end{cases}\\)，",
+        "∴\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 4 } \\end{cases}\\)，",
+        "∴直线EF的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 4 }\\)；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C2FF88D85A-Q22-P02",
+      "label": "（2）",
+      "prompt": "在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，若存在，请求出点M的坐标，若不存在，请说明理由．",
+      "stem_text": "在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，若存在，请求出点M的坐标，若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；",
+      "answer": "当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；",
+      "given_solution": "假设在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，\n∵△AEF和△AFM等高，\n∴\\(\\frac { S_{ \\vartriangle AFM } } { S_{ \\vartriangle AEF } }{ \\rm{ = } }\\frac { FM } { EF }=\\frac { 1 } { 2 }\\)，\n∴\\(FM=\\frac { 1 } { 2 }EF\\)，\n当M在线段EF上时，即M为EF的中点时，此时记作M\\({}_{1}\\)，\n∵E点坐标为（1，0），F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），\n∴\\(\\begin{cases} x_{ M_{ 1 } } =\\frac { 1+3 } { 2 }=2 \\\\ y_{ M_{ 1 } } =\\frac { 0+\\frac { 3 } { 2 } } { 2 }=\\frac { 3 } { 4 } \\end{cases}\\) ，\n∴M\\({}_{1}\\)的坐标为（2，\\(\\frac { 3 } { 4 }\\)）；\n当M在EF延长线上时，此时记作M\\({}_{2}\\)，则\\(FM_{ 1 } =FM_{ 2 }\\)，即此时F为\\(M_{ 1 } M_{ 2 }\\)的中点，\n∴\\(\\begin{cases} 3=\\frac { 2+x_{ M_{ 2 } } } { 2 } \\\\ \\frac { 3 } { 2 }=\\frac { y_{ M_{ 2 } } +\\frac { 3 } { 4 } } { 2 } \\end{cases}\\)，\n∴\\(\\begin{cases} x_{ M_{ 2 } } =4 \\\\ y_{ M_{ 2 } } =\\frac { 9 } { 4 } \\end{cases}\\)，\n∴M\\({}_{2}\\)的坐标为（4，\\(\\frac { 9 } { 4 }\\)）；\n∴综上所述，当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；\n〔图3〕",
+      "solution_steps": [
+        "假设在直线EF上是否存在点M，使得△AFM的面积是△AEF的面积的一半，",
+        "∵△AEF和△AFM等高，",
+        "∴\\(\\frac { S_{ \\vartriangle AFM } } { S_{ \\vartriangle AEF } }{ \\rm{ = } }\\frac { FM } { EF }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(FM=\\frac { 1 } { 2 }EF\\)，",
+        "当M在线段EF上时，即M为EF的中点时，此时记作M\\({}_{1}\\)，",
+        "∵E点坐标为（1，0），F的坐标为（3，\\(\\frac { 3 } { 2 }\\)），",
+        "∴\\(\\begin{cases} x_{ M_{ 1 } } =\\frac { 1+3 } { 2 }=2 \\\\ y_{ M_{ 1 } } =\\frac { 0+\\frac { 3 } { 2 } } { 2 }=\\frac { 3 } { 4 } \\end{cases}\\) ，",
+        "∴M\\({}_{1}\\)的坐标为（2，\\(\\frac { 3 } { 4 }\\)）；",
+        "当M在EF延长线上时，此时记作M\\({}_{2}\\)，则\\(FM_{ 1 } =FM_{ 2 }\\)，即此时F为\\(M_{ 1 } M_{ 2 }\\)的中点，",
+        "∴\\(\\begin{cases} 3=\\frac { 2+x_{ M_{ 2 } } } { 2 } \\\\ \\frac { 3 } { 2 }=\\frac { y_{ M_{ 2 } } +\\frac { 3 } { 4 } } { 2 } \\end{cases}\\)，",
+        "∴\\(\\begin{cases} x_{ M_{ 2 } } =4 \\\\ y_{ M_{ 2 } } =\\frac { 9 } { 4 } \\end{cases}\\)，",
+        "∴M\\({}_{2}\\)的坐标为（4，\\(\\frac { 9 } { 4 }\\)）；",
+        "∴综上所述，当M的坐标为（2，\\(\\frac { 3 } { 4 }\\)）或（4，\\(\\frac { 9 } { 4 }\\)）时，使得△AFM的面积是△AEF的面积的一半；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C2FF88D85A-Q22-P03",
+      "label": "（3）",
+      "prompt": "若点P、Q分别是线段AG、AF上的动点，则EP＋PQ的最小值是多少？并求出此时点Q的坐标．",
+      "stem_text": "若点P、Q分别是线段AG、AF上的动点，则EP＋PQ的最小值是多少？并求出此时点Q的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "（2，2）",
+      "answer": "（2，2）",
+      "given_solution": "如图所示，连接EQ，\n∵\\(EP+PQ\\ge EQ\\)，\n∴当Q、P、E三点共线的时候\\(EP+PQ\\)有最小值EQ，\n再由点到直线的距离垂线段最短可知，当EQ⊥AF时，EQ有最小值，即\\(EP+PQ\\)有最小值，\n由（1）得\\(EF=EG+GF=\\frac { 3 } { 2 }+1=\\frac { 5 } { 2 }\\)，有折叠的性质可得AG=AB=3，∠AGE=∠AGF=∠ABC=90°，\n∴\\(AF=\\sqrt[] { AG ^ { 2 } +GF ^ { 2 } }=\\frac { 3\\sqrt[] { 5 } } { 2 }\\)，\n∵\\(S_{ \\vartriangle AEF } { \\rm{ = } }\\frac { 1 } { 2 }AG\\cdot EF=\\frac { 1 } { 2 }AF\\cdot QE\\)，\n∴\\(QE=\\frac { AG\\cdot EF } { AF }{ \\rm{ = } }\\sqrt[] { 5 }\\)，\n设直线AF的解析式为\\(y=mx+n\\)\n∴\\(\\begin{cases} 3k+b=\\frac { 3 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴直线AF的解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)；\n设Q点坐标为（t，\\(-\\frac { 1 } { 2 }t+3\\)），\n∴\\(QE ^ { 2 } =\\left ( { t-1 } \\right ) ^ { 2 } +\\left ( { -\\frac { 1 } { 2 }t+3 } \\right ) ^ { 2 } =5\\)，\n解得\\(t=2\\)，\n∴Q点坐标为（2，2）\n〔图4〕",
+      "solution_steps": [
+        "如图所示，连接EQ，",
+        "∵\\(EP+PQ\\ge EQ\\)，",
+        "∴当Q、P、E三点共线的时候\\(EP+PQ\\)有最小值EQ，",
+        "再由点到直线的距离垂线段最短可知，当EQ⊥AF时，EQ有最小值，即\\(EP+PQ\\)有最小值，",
+        "由（1）得\\(EF=EG+GF=\\frac { 3 } { 2 }+1=\\frac { 5 } { 2 }\\)，有折叠的性质可得AG=AB=3，∠AGE=∠AGF=∠ABC=90°，",
+        "∴\\(AF=\\sqrt[] { AG ^ { 2 } +GF ^ { 2 } }=\\frac { 3\\sqrt[] { 5 } } { 2 }\\)，",
+        "∵\\(S_{ \\vartriangle AEF } { \\rm{ = } }\\frac { 1 } { 2 }AG\\cdot EF=\\frac { 1 } { 2 }AF\\cdot QE\\)，",
+        "∴\\(QE=\\frac { AG\\cdot EF } { AF }{ \\rm{ = } }\\sqrt[] { 5 }\\)，",
+        "设直线AF的解析式为\\(y=mx+n\\)",
+        "∴\\(\\begin{cases} 3k+b=\\frac { 3 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+        "∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+        "∴直线AF的解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)；",
+        "设Q点坐标为（t，\\(-\\frac { 1 } { 2 }t+3\\)），",
+        "∴\\(QE ^ { 2 } =\\left ( { t-1 } \\right ) ^ { 2 } +\\left ( { -\\frac { 1 } { 2 }t+3 } \\right ) ^ { 2 } =5\\)，",
+        "解得\\(t=2\\)，",
+        "∴Q点坐标为（2，2）",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          67
+        ],
+        "solution_block_ids": [
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      63,
+      67
+    ],
+    "solution_body_blocks": [
+      353,
+      411
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-C2FF88D85A/paper-q22-p05.webp",
+      "assets/SZ-G8-T2-C2FF88D85A/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          580.91,
+          583.64,
+          618.64
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          55.91,
+          583.64,
+          291.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-C2FF88D85A/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-C2FF88D85A/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-C2FF88D85A/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-C2FF88D85A/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-C2FF88D85A/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          319.55,
+          583.64,
+          724.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

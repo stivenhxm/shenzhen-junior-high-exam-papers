@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q03",{"answer":"D","solution_steps":["把多项式看作关于 \\(x\\) 的多项式，含因式 \\(x-1\\) 等价于代入 \\(x=1\\) 后恒为零。前三式的值分别为 \\(0,0,4^2-4^2=0\\)。D 式的值为 \\(-y^2\\)，不能恒为零。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

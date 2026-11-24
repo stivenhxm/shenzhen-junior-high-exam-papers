@@ -1,0 +1,403 @@
+{
+  "id": "SZ-G8-T1-9A0C7D2F62-Q22",
+  "paper_id": "SZ-G8-T1-9A0C7D2F62",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "【问题背景】学校数学兴趣小组在专题学习中遇到一个几何问题：如图1，已知等边△ABC，D是△ABC外一点，连接AD、CD、BD，若∠ADC＝30°，AD＝3，BD＝5，求CD的长．该小组在研究如图2中△OMN≌△OPQ中得到启示，于是作出图3，从而获得了以下的解题思路，请你帮忙完善解题过程．\n解：如图3所示，以DC为边作等边△CDE，连接AE．\n∵△ABC、△DCE是等边三角形，\n∴BC＝AC，DC＝EC，∠BCA＝∠DCE＝60°．\n∴∠BCA+∠ACD＝       +∠ACD，\n∴∠BCD＝∠ACE，\n∴      ，\n∴AE＝BD＝5．\n∵∠ADC＝30°，∠CDE＝60°，\n∴∠ADE＝∠ADC+∠CDE＝90°．\n∵AD＝3，\n∴CD＝DE＝      ．\n【尝试应用】如图4，在△ABC中，∠ABC＝45°，AB＝\\(\\sqrt[] { 2 }\\)，BC＝4，以AC为直角边，A为直角顶点作等腰直角△ACD，求BD的长．\n【拓展创新】如图5，在△ABC中，AB＝4，AC＝8，以BC为边向外作等腰△BCD，BD＝CD，∠BDC＝120°，连接AD，求AD的最大值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/46315f459ea895885347a6f2262ea526a31a285ff18e2321249eeb54e5b181d1.png"
+  ],
+  "tables": [],
+  "given_answer": "【问题背景】\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；【尝试应用】\\(BD=2\\sqrt[] { 5 }\\)；【拓展创新】AD的最大值为\\(4\\sqrt[] { 3 }\\)．",
+  "answer": "【问题背景】\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；【尝试应用】\\(BD=2\\sqrt[] { 5 }\\)；【拓展创新】AD的最大值为\\(4\\sqrt[] { 3 }\\)．",
+  "given_solution": "【分析】问题背景：根据所给思路，结合图形进行求证即可得；\n尝试应用：以点A为旋转中心，将\\(\\vartriangle ABD\\)绕点A顺时针旋转\\(90{}^\\circ\\)，得\\(\\vartriangle AEC\\)，连接BE，根据各角之间的数量关系可得\\(\\angle EBC=90{}^\\circ\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)与\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEC\\)中，利用两次勾股定理求解即可得\n拓展创新：以点D为旋转中心，将\\(\\vartriangle ACD\\)绕点D顺时针旋转\\(120{}^\\circ\\)，得\\(\\vartriangle BDF\\)，连接AF，由旋转的性质可得\\(AD=DF\\)，\\(\\angle ADF=120{}^\\circ\\)，\\(AC=BF\\)，利用等边对等角得出，\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，结合图形当A、B、F三点共线时，AF最大，此时 \\(AF=12\\)，过点D作\\(DE\\bot AF\\)，得出\\(DE=\\frac { 1 } { 2 }AD\\)， \\(AE=\\frac { 1 } { 2 }AF\\)，利用勾股定理可得\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }AF\\)，当AF取得最大值时，AD取得最大值，代入求解即可得．\n【详解】问题背景：解：如图3所示，以DC为边作等边三角形\\(\\vartriangle CDE\\)，连接AE，\n∵\\(\\vartriangle ABC\\)，\\(\\vartriangle CDE\\)是等边三角形，\n∴\\(CB=AC\\)，\\(CD=EC\\)，\\(\\angle BCA=\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle BCA+\\angle ACD=\\angle DCE+\\angle ACD\\)，\n∴\\(\\angle BCD=\\angle ACE\\)，\n在\\(\\vartriangle BCD\\)与\\(\\vartriangle ACE\\)中，\n\\(\\begin{cases} BC=AC \\\\ \\angle BCD=\\angle ACE \\\\ CD=CE \\end{cases}\\)，\n∴\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)，\n∴\\(AE=BD=5\\)，\n∵\\(\\angle ADC=30{}^\\circ\\)，\\(\\angle CDE=60{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle ADC+\\angle CDE=90{}^\\circ\\)，\n∵\\(AD=3\\)，\\(AE=5\\)，\n在\\(Rt\\vartriangle ADE\\)中，\n\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=4\\)，\n∴\\(DE=CD=4\\)，\n故答案为：\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；\n尝试应用：解：以点A为旋转中心，将\\(\\vartriangle ABD\\)绕点A顺时针旋转\\(90{}^\\circ\\)，得\\(\\vartriangle AEC\\)，连接BE，\n〔图2〕\n∴\\(AB=AE\\)，\\(\\angle BAE=90{}^\\circ\\)，\n∴\\(\\angle EBA=45{}^\\circ\\)，\n∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle EBC=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)中，\n∵\\(AB=AE=\\sqrt[] { 2 }\\)，\n∴\\(BE=\\sqrt[] { AB ^ { 2 } +AE ^ { 2 } }=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEC\\)中，\n∵\\(BC=4\\)，\n∴\\(EC=\\sqrt[] { EB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n∴\\(BD=EC=2\\sqrt[] { 5 }\\)；\n拓展创新：以点D为旋转中心，将\\(\\vartriangle ACD\\)绕点D顺时针旋转\\(120{}^\\circ\\)，得\\(\\vartriangle BDF\\)，连接AF，\n〔图3〕\n∴\\(AD=DF\\)，\\(\\angle ADF=120{}^\\circ\\)，\\(AC=BF\\)，\n∴\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，\n当A、B、F三点共线时，AF最大，\n∵\\(AB=4\\)，\\(AC=8\\)，\n∴\\(AF=AB+BF=AB+AC=12\\)，\n如图\\(\\vartriangle ADF\\)中，过点D作\\(DE\\bot AF\\)，且\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，\n〔图4〕\n∴\\(DE=\\frac { 1 } { 2 }AD\\)， \\(AE=\\frac { 1 } { 2 }AF\\)，\n∵\\(AD=\\sqrt[] { \\left ( { DE } \\right ) ^ { 2 } +\\left ( { AE } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 1 } { 2 }AD } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 }AF } \\right ) ^ { 2 } }\\)\n化简得：\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }AF\\)，当AF取得最大值时，AD取得最大值，\n∴\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }\\times 12=4\\sqrt[] { 3 }\\)，\n∴AD的最大值为\\(4\\sqrt[] { 3 }\\)．\n【点睛】题目主要考查全等三角形的判定和性质，三角形旋转的性质，勾股定理解三角形等，理解题意，作出相应图形，综合运用这些知识点是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/46315f459ea895885347a6f2262ea526a31a285ff18e2321249eeb54e5b181d1.png",
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/695630f34a8ac53017cf745e54e8731e6a503caf74b7c433b013c759afb1c61a.png",
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/95564d97996d07745aec7904c5e12ca5863acca619c4e316338f64de250c9138.png",
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/5ce7d47b4c02bcb56eaa882d07490a32596b821a3b0db8df27d390683740a53d.png"
+  ],
+  "solution": "问题背景：解：如图3所示，以DC为边作等边三角形\\(\\vartriangle CDE\\)，连接AE，\n∵\\(\\vartriangle ABC\\)，\\(\\vartriangle CDE\\)是等边三角形，\n∴\\(CB=AC\\)，\\(CD=EC\\)，\\(\\angle BCA=\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle BCA+\\angle ACD=\\angle DCE+\\angle ACD\\)，\n∴\\(\\angle BCD=\\angle ACE\\)，\n在\\(\\vartriangle BCD\\)与\\(\\vartriangle ACE\\)中，\n\\(\\begin{cases} BC=AC \\\\ \\angle BCD=\\angle ACE \\\\ CD=CE \\end{cases}\\)，\n∴\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)，\n∴\\(AE=BD=5\\)，\n∵\\(\\angle ADC=30{}^\\circ\\)，\\(\\angle CDE=60{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle ADC+\\angle CDE=90{}^\\circ\\)，\n∵\\(AD=3\\)，\\(AE=5\\)，\n在\\(Rt\\vartriangle ADE\\)中，\n\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=4\\)，\n∴\\(DE=CD=4\\)，\n故答案为：\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；\n尝试应用：解：以点A为旋转中心，将\\(\\vartriangle ABD\\)绕点A顺时针旋转\\(90{}^\\circ\\)，得\\(\\vartriangle AEC\\)，连接BE，\n〔图2〕\n∴\\(AB=AE\\)，\\(\\angle BAE=90{}^\\circ\\)，\n∴\\(\\angle EBA=45{}^\\circ\\)，\n∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle EBC=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)中，\n∵\\(AB=AE=\\sqrt[] { 2 }\\)，\n∴\\(BE=\\sqrt[] { AB ^ { 2 } +AE ^ { 2 } }=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEC\\)中，\n∵\\(BC=4\\)，\n∴\\(EC=\\sqrt[] { EB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n∴\\(BD=EC=2\\sqrt[] { 5 }\\)；\n拓展创新：以点D为旋转中心，将\\(\\vartriangle ACD\\)绕点D顺时针旋转\\(120{}^\\circ\\)，得\\(\\vartriangle BDF\\)，连接AF，\n〔图3〕\n∴\\(AD=DF\\)，\\(\\angle ADF=120{}^\\circ\\)，\\(AC=BF\\)，\n∴\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，\n当A、B、F三点共线时，AF最大，\n∵\\(AB=4\\)，\\(AC=8\\)，\n∴\\(AF=AB+BF=AB+AC=12\\)，\n如图\\(\\vartriangle ADF\\)中，过点D作\\(DE\\bot AF\\)，且\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，\n〔图4〕\n∴\\(DE=\\frac { 1 } { 2 }AD\\)， \\(AE=\\frac { 1 } { 2 }AF\\)，\n∵\\(AD=\\sqrt[] { \\left ( { DE } \\right ) ^ { 2 } +\\left ( { AE } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 1 } { 2 }AD } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 }AF } \\right ) ^ { 2 } }\\)\n化简得：\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }AF\\)，当AF取得最大值时，AD取得最大值，\n∴\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }\\times 12=4\\sqrt[] { 3 }\\)，\n∴AD的最大值为\\(4\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "问题背景：解：如图3所示，以DC为边作等边三角形\\(\\vartriangle CDE\\)，连接AE，",
+    "∵\\(\\vartriangle ABC\\)，\\(\\vartriangle CDE\\)是等边三角形，",
+    "∴\\(CB=AC\\)，\\(CD=EC\\)，\\(\\angle BCA=\\angle DCE=60{}^\\circ\\)，",
+    "∴\\(\\angle BCA+\\angle ACD=\\angle DCE+\\angle ACD\\)，",
+    "∴\\(\\angle BCD=\\angle ACE\\)，",
+    "在\\(\\vartriangle BCD\\)与\\(\\vartriangle ACE\\)中，",
+    "\\(\\begin{cases} BC=AC \\\\ \\angle BCD=\\angle ACE \\\\ CD=CE \\end{cases}\\)，",
+    "∴\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)，",
+    "∴\\(AE=BD=5\\)，",
+    "∵\\(\\angle ADC=30{}^\\circ\\)，\\(\\angle CDE=60{}^\\circ\\)，",
+    "∴\\(\\angle ADE=\\angle ADC+\\angle CDE=90{}^\\circ\\)，",
+    "∵\\(AD=3\\)，\\(AE=5\\)，",
+    "在\\(Rt\\vartriangle ADE\\)中，",
+    "\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=4\\)，",
+    "∴\\(DE=CD=4\\)，",
+    "故答案为：\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；",
+    "尝试应用：解：以点A为旋转中心，将\\(\\vartriangle ABD\\)绕点A顺时针旋转\\(90{}^\\circ\\)，得\\(\\vartriangle AEC\\)，连接BE，",
+    "〔图2〕",
+    "∴\\(AB=AE\\)，\\(\\angle BAE=90{}^\\circ\\)，",
+    "∴\\(\\angle EBA=45{}^\\circ\\)，",
+    "∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle EBC=90{}^\\circ\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)中，",
+    "∵\\(AB=AE=\\sqrt[] { 2 }\\)，",
+    "∴\\(BE=\\sqrt[] { AB ^ { 2 } +AE ^ { 2 } }=2\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEC\\)中，",
+    "∵\\(BC=4\\)，",
+    "∴\\(EC=\\sqrt[] { EB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+    "∴\\(BD=EC=2\\sqrt[] { 5 }\\)；",
+    "拓展创新：以点D为旋转中心，将\\(\\vartriangle ACD\\)绕点D顺时针旋转\\(120{}^\\circ\\)，得\\(\\vartriangle BDF\\)，连接AF，",
+    "〔图3〕",
+    "∴\\(AD=DF\\)，\\(\\angle ADF=120{}^\\circ\\)，\\(AC=BF\\)，",
+    "∴\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，",
+    "当A、B、F三点共线时，AF最大，",
+    "∵\\(AB=4\\)，\\(AC=8\\)，",
+    "∴\\(AF=AB+BF=AB+AC=12\\)，",
+    "如图\\(\\vartriangle ADF\\)中，过点D作\\(DE\\bot AF\\)，且\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，",
+    "〔图4〕",
+    "∴\\(DE=\\frac { 1 } { 2 }AD\\)， \\(AE=\\frac { 1 } { 2 }AF\\)，",
+    "∵\\(AD=\\sqrt[] { \\left ( { DE } \\right ) ^ { 2 } +\\left ( { AE } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 1 } { 2 }AD } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 }AF } \\right ) ^ { 2 } }\\)",
+    "化简得：\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }AF\\)，当AF取得最大值时，AD取得最大值，",
+    "∴\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }\\times 12=4\\sqrt[] { 3 }\\)，",
+    "∴AD的最大值为\\(4\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "kind": "text",
+      "id": "m1",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-9A0C7D2F62-Q22-P01",
+      "label": "问题背景",
+      "prompt": "【问题背景】学校数学兴趣小组在专题学习中遇到一个几何问题：如图1，已知等边△ABC，D是△ABC外一点，连接AD、CD、BD，若∠ADC＝30°，AD＝3，BD＝5，求CD的长．该小组在研究如图2中△OMN≌△OPQ中得到启示，于是作出图3，从而获得了以下的解题思路，请你帮忙完善解题过程．\n解：如图3所示，以DC为边作等边△CDE，连接AE．\n∵△ABC、△DCE是等边三角形，\n∴BC＝AC，DC＝EC，∠BCA＝∠DCE＝60°．\n∴∠BCA+∠ACD＝       +∠ACD，\n∴∠BCD＝∠ACE，\n∴      ，\n∴AE＝BD＝5．\n∵∠ADC＝30°，∠CDE＝60°，\n∴∠ADE＝∠ADC+∠CDE＝90°．\n∵AD＝3，\n∴CD＝DE＝      ．",
+      "stem_text": "【问题背景】学校数学兴趣小组在专题学习中遇到一个几何问题：如图1，已知等边△ABC，D是△ABC外一点，连接AD、CD、BD，若∠ADC＝30°，AD＝3，BD＝5，求CD的长．该小组在研究如图2中△OMN≌△OPQ中得到启示，于是作出图3，从而获得了以下的解题思路，请你帮忙完善解题过程．\n解：如图3所示，以DC为边作等边△CDE，连接AE．\n∵△ABC、△DCE是等边三角形，\n∴BC＝AC，DC＝EC，∠BCA＝∠DCE＝60°．\n∴∠BCA+∠ACD＝       +∠ACD，\n∴∠BCD＝∠ACE，\n∴      ，\n∴AE＝BD＝5．\n∵∠ADC＝30°，∠CDE＝60°，\n∴∠ADE＝∠ADC+∠CDE＝90°．\n∵AD＝3，\n∴CD＝DE＝      ．",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle DCE\\)；\\(\\triangle BCD\\cong\\triangle ACE\\)；4。",
+      "answer": "\\(\\angle DCE\\)；\\(\\triangle BCD\\cong\\triangle ACE\\)；4。",
+      "given_solution": "【详解】问题背景：解：如图3所示，以DC为边作等边三角形\\(\\vartriangle CDE\\)，连接AE，\n∵\\(\\vartriangle ABC\\)，\\(\\vartriangle CDE\\)是等边三角形，\n∴\\(CB=AC\\)，\\(CD=EC\\)，\\(\\angle BCA=\\angle DCE=60{}^\\circ\\)，\n∴\\(\\angle BCA+\\angle ACD=\\angle DCE+\\angle ACD\\)，\n∴\\(\\angle BCD=\\angle ACE\\)，\n在\\(\\vartriangle BCD\\)与\\(\\vartriangle ACE\\)中，\n\\(\\begin{cases} BC=AC \\\\ \\angle BCD=\\angle ACE \\\\ CD=CE \\end{cases}\\)，\n∴\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)，\n∴\\(AE=BD=5\\)，\n∵\\(\\angle ADC=30{}^\\circ\\)，\\(\\angle CDE=60{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle ADC+\\angle CDE=90{}^\\circ\\)，\n∵\\(AD=3\\)，\\(AE=5\\)，\n在\\(Rt\\vartriangle ADE\\)中，\n\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=4\\)，\n∴\\(DE=CD=4\\)，\n故答案为：\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；",
+      "solution_steps": [
+        "问题背景：解：如图3所示，以DC为边作等边三角形\\(\\vartriangle CDE\\)，连接AE，",
+        "∵\\(\\vartriangle ABC\\)，\\(\\vartriangle CDE\\)是等边三角形，",
+        "∴\\(CB=AC\\)，\\(CD=EC\\)，\\(\\angle BCA=\\angle DCE=60{}^\\circ\\)，",
+        "∴\\(\\angle BCA+\\angle ACD=\\angle DCE+\\angle ACD\\)，",
+        "∴\\(\\angle BCD=\\angle ACE\\)，",
+        "在\\(\\vartriangle BCD\\)与\\(\\vartriangle ACE\\)中，",
+        "\\(\\begin{cases} BC=AC \\\\ \\angle BCD=\\angle ACE \\\\ CD=CE \\end{cases}\\)，",
+        "∴\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)，",
+        "∴\\(AE=BD=5\\)，",
+        "∵\\(\\angle ADC=30{}^\\circ\\)，\\(\\angle CDE=60{}^\\circ\\)，",
+        "∴\\(\\angle ADE=\\angle ADC+\\angle CDE=90{}^\\circ\\)，",
+        "∵\\(AD=3\\)，\\(AE=5\\)，",
+        "在\\(Rt\\vartriangle ADE\\)中，",
+        "\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=4\\)，",
+        "∴\\(DE=CD=4\\)，",
+        "故答案为：\\(\\angle DCE\\)；\\(\\vartriangle BCD\\cong \\vartriangle ACE\\)；4；"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-9A0C7D2F62-Q22-P02",
+      "label": "尝试应用",
+      "prompt": "【尝试应用】如图4，在△ABC中，∠ABC＝45°，AB＝\\(\\sqrt[] { 2 }\\)，BC＝4，以AC为直角边，A为直角顶点作等腰直角△ACD，求BD的长．",
+      "stem_text": "【尝试应用】如图4，在△ABC中，∠ABC＝45°，AB＝\\(\\sqrt[] { 2 }\\)，BC＝4，以AC为直角边，A为直角顶点作等腰直角△ACD，求BD的长．",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [],
+      "given_answer": "\\(BD=2\\sqrt5\\)。",
+      "answer": "\\(BD=2\\sqrt5\\)。",
+      "given_solution": "尝试应用：解：以点A为旋转中心，将\\(\\vartriangle ABD\\)绕点A顺时针旋转\\(90{}^\\circ\\)，得\\(\\vartriangle AEC\\)，连接BE，\n〔图2〕\n∴\\(AB=AE\\)，\\(\\angle BAE=90{}^\\circ\\)，\n∴\\(\\angle EBA=45{}^\\circ\\)，\n∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle EBC=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)中，\n∵\\(AB=AE=\\sqrt[] { 2 }\\)，\n∴\\(BE=\\sqrt[] { AB ^ { 2 } +AE ^ { 2 } }=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEC\\)中，\n∵\\(BC=4\\)，\n∴\\(EC=\\sqrt[] { EB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n∴\\(BD=EC=2\\sqrt[] { 5 }\\)；",
+      "solution_steps": [
+        "尝试应用：解：以点A为旋转中心，将\\(\\vartriangle ABD\\)绕点A顺时针旋转\\(90{}^\\circ\\)，得\\(\\vartriangle AEC\\)，连接BE，",
+        "〔图2〕",
+        "∴\\(AB=AE\\)，\\(\\angle BAE=90{}^\\circ\\)，",
+        "∴\\(\\angle EBA=45{}^\\circ\\)，",
+        "∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle EBC=90{}^\\circ\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)中，",
+        "∵\\(AB=AE=\\sqrt[] { 2 }\\)，",
+        "∴\\(BE=\\sqrt[] { AB ^ { 2 } +AE ^ { 2 } }=2\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEC\\)中，",
+        "∵\\(BC=4\\)，",
+        "∴\\(EC=\\sqrt[] { EB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+        "∴\\(BD=EC=2\\sqrt[] { 5 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          66
+        ],
+        "solution_block_ids": [
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-9A0C7D2F62-Q22-P03",
+      "label": "拓展创新",
+      "prompt": "【拓展创新】如图5，在△ABC中，AB＝4，AC＝8，以BC为边向外作等腰△BCD，BD＝CD，∠BDC＝120°，连接AD，求AD的最大值．",
+      "stem_text": "【拓展创新】如图5，在△ABC中，AB＝4，AC＝8，以BC为边向外作等腰△BCD，BD＝CD，∠BDC＝120°，连接AD，求AD的最大值．",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD\\) 的最大值为 \\(4\\sqrt3\\)。",
+      "answer": "\\(AD\\) 的最大值为 \\(4\\sqrt3\\)。",
+      "given_solution": "拓展创新：以点D为旋转中心，将\\(\\vartriangle ACD\\)绕点D顺时针旋转\\(120{}^\\circ\\)，得\\(\\vartriangle BDF\\)，连接AF，\n〔图3〕\n∴\\(AD=DF\\)，\\(\\angle ADF=120{}^\\circ\\)，\\(AC=BF\\)，\n∴\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，\n当A、B、F三点共线时，AF最大，\n∵\\(AB=4\\)，\\(AC=8\\)，\n∴\\(AF=AB+BF=AB+AC=12\\)，\n如图\\(\\vartriangle ADF\\)中，过点D作\\(DE\\bot AF\\)，且\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，\n〔图4〕\n∴\\(DE=\\frac { 1 } { 2 }AD\\)， \\(AE=\\frac { 1 } { 2 }AF\\)，\n∵\\(AD=\\sqrt[] { \\left ( { DE } \\right ) ^ { 2 } +\\left ( { AE } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 1 } { 2 }AD } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 }AF } \\right ) ^ { 2 } }\\)\n化简得：\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }AF\\)，当AF取得最大值时，AD取得最大值，\n∴\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }\\times 12=4\\sqrt[] { 3 }\\)，\n∴AD的最大值为\\(4\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "拓展创新：以点D为旋转中心，将\\(\\vartriangle ACD\\)绕点D顺时针旋转\\(120{}^\\circ\\)，得\\(\\vartriangle BDF\\)，连接AF，",
+        "〔图3〕",
+        "∴\\(AD=DF\\)，\\(\\angle ADF=120{}^\\circ\\)，\\(AC=BF\\)，",
+        "∴\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，",
+        "当A、B、F三点共线时，AF最大，",
+        "∵\\(AB=4\\)，\\(AC=8\\)，",
+        "∴\\(AF=AB+BF=AB+AC=12\\)，",
+        "如图\\(\\vartriangle ADF\\)中，过点D作\\(DE\\bot AF\\)，且\\(\\angle DAF=\\angle DFA=30{}^\\circ\\)，",
+        "〔图4〕",
+        "∴\\(DE=\\frac { 1 } { 2 }AD\\)， \\(AE=\\frac { 1 } { 2 }AF\\)，",
+        "∵\\(AD=\\sqrt[] { \\left ( { DE } \\right ) ^ { 2 } +\\left ( { AE } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 1 } { 2 }AD } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 }AF } \\right ) ^ { 2 } }\\)",
+        "化简得：\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }AF\\)，当AF取得最大值时，AD取得最大值，",
+        "∴\\(AD=\\frac { \\sqrt[] { 3 } } { 3 }\\times 12=4\\sqrt[] { 3 }\\)，",
+        "∴AD的最大值为\\(4\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          67
+        ],
+        "solution_block_ids": [
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      54,
+      68
+    ],
+    "solution_body_blocks": [
+      302,
+      365
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-9A0C7D2F62/paper-q22-p04.webp",
+      "assets/SZ-G8-T1-9A0C7D2F62/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          401.36,
+          583.64,
+          749.09
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          205.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-9A0C7D2F62/solution-q22-p16.webp",
+      "assets/SZ-G8-T1-9A0C7D2F62/solution-q22-p17.webp",
+      "assets/SZ-G8-T1-9A0C7D2F62/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          317.27,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          634.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

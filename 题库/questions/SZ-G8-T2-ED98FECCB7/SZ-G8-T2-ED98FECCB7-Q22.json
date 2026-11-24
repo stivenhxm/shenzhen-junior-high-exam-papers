@@ -1,0 +1,456 @@
+{
+  "id": "SZ-G8-T2-ED98FECCB7-Q22",
+  "paper_id": "SZ-G8-T2-ED98FECCB7",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "如图1．△ABC中，AG⊥BC于点G，以A为直角顶点，分别以AB、AC为直角边，向△ABC作等腰Rt△ABE和等腰Rt△ACF，过点E，F作射线GA的垂线，垂足分别为P，Q．\n〔图1〕\n（1）求证：△EPA≌△AGB：\n（2）试探究EP与FQ之间的数量关系，并证明你的结论；\n（3）如图2．若连接EF交GA的延长线于H，由（2）中的结论你能判断EH与FH的大小关系吗？并说明理由：\n（4）在（3）的条件下，若BC＝10，AG＝12．请直接写出S\\({}_{△}\\)\\({}_{AEF}\\)＝　   　．",
+  "choices": [],
+  "figures": [
+    "assets/figures/c9/c91688658490d488cd1e92fbd3b76f3545b347e3c2b9514543bf1b5660f909ce.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见解析；（2）结论：EP＝FQ，证明见解析；（3）结论：EH＝FH，理由见解析；（4）60．",
+  "answer": "（1）证明见解析；（2）结论：EP＝FQ，证明见解析；（3）结论：EH＝FH，理由见解析；（4）60．",
+  "given_solution": "【分析】（1）根据等腰Rt△ABE的性质，求出∠EPA＝∠EAB＝∠AGB＝90°，∠PEA＝∠BAG，根据AAS推出△EPA≌△AGB．\n（2）根据全等三角形的性质推出EP＝AG，同理可得△FQA≌△AGC，即可得出AG＝FQ，最后等量代换即可得出答案．\n（3）求出∠EPH＝∠FQH＝90°，根据AAS推出△EPH≌△FQH，即可得出EH与FH的大小关系．\n（4）根据全等三角形△EPH≌△FQH，△EPA≌△AGB，△FQA≌△AGC，推出S\\({}_{△}\\)\\({}_{FQA}\\)＝S\\({}_{△}\\)\\({}_{AGC}\\)，S\\({}_{△}\\)\\({}_{FQH}\\)＝S\\({}_{△}\\)\\({}_{EPH}\\)，S\\({}_{△}\\)\\({}_{EPA}\\)＝S\\({}_{△}\\)\\({}_{AGB}\\)，即可求出S\\({}_{△}\\)\\({}_{AEF}\\)＝S\\({}_{△}\\)\\({}_{ABC}\\)，根据三角形面积公式求出即可．\n【详解】解：（1）如图1，∵∠EAB＝90°，EP⊥AG，AG⊥BC，\n∴∠EPA＝∠EAB＝∠AGB＝90°，\n∴∠PEA+∠EAP＝90°，∠EAP+∠BAG＝90°，\n∴∠PEA＝∠BAG，\n在△EPA和△AGB中，\n\\(\\begin{cases} \\angle EPA=\\angle BGA \\\\ \\angle PEA=\\angle BAG \\\\ AE=AB \\end{cases}\\)\n∴△EPA≌△AGB（AAS），\n（2）结论：EP＝FQ，\n证明：由（1）可得，△EPA≌△AGB，\n∴EP＝AG，\n如图1，∵∠FAC＝90°，FQ⊥AG，AG⊥BC，\n∴∠FQA＝∠FAC＝∠CGA＝90°，\n∴∠FAQ+∠AFQ＝90°，∠FAQ+∠GAC＝90°，\n∴∠AFQ＝∠GAC，\n在△QFA和△GAC中，\n\\(\\begin{cases} \\angle FQA=\\angle CGA \\\\ \\angle FAQ=\\angle CAG \\\\ AF=AC \\end{cases}\\)\n∴△QFA≌△GAC（AAS），\n∴AG＝FQ，\n∴EP＝FQ；\n（3）结论：EH＝FH，\n理由：如图，∵EP⊥AG，FQ⊥AG，\n∴∠EPH＝∠FQH＝90°，\n在△EPH和△FQH中，\n\\(\\begin{cases} \\angle EHP=\\angle FHQ \\\\ \\angle EPH=\\angle FQH \\\\ EP=FQ \\end{cases}\\)\n∴△EPH≌△FQH（AAS），\n∴EH＝FH．\n（4））∵△EPH≌△FQH，△EPA≌△AGB，△FQA≌△AGC，\n∴S\\({}_{△}\\)\\({}_{FQA}\\)＝S\\({}_{△}\\)\\({}_{AGC}\\)，S\\({}_{△}\\)\\({}_{FQH}\\)＝S\\({}_{△}\\)\\({}_{EPH}\\)，S\\({}_{△}\\)\\({}_{EPA}\\)＝S\\({}_{△}\\)\\({}_{AGB}\\)，\n∴S\\({}_{△}\\)\\({}_{AEF}\\)＝S\\({}_{△}\\)\\({}_{EPA}\\)+S\\({}_{△}\\)\\({}_{FQA}\\)\n＝S\\({}_{△}\\)\\({}_{AGB}\\)+S\\({}_{△}\\)\\({}_{AGC}\\)\n＝S\\({}_{△}\\)\\({}_{ABC}\\)\n＝\\(\\frac { 1 } { 2 }\\)×BC×AG\n＝\\(\\frac { 1 } { 2 }\\)×10×12\n＝60\n故答案为：60．\n〔图2〕\n【点睛】本题属于三角形综合题，主要考查了全等三角形的性质和判定以及等腰直角三角形的性质的综合应用，解题时注意：全等三角形的对应边相等，对应角相等．等腰直角三角形是一种特殊的三角形，具有所有三角形的性质，还具备等腰三角形和直角三角形的所有性质．",
+  "given_solution_figures": [
+    "assets/figures/c9/c91688658490d488cd1e92fbd3b76f3545b347e3c2b9514543bf1b5660f909ce.png",
+    "assets/figures/45/456e6ae1bcbfd7f52af3ef50e793f2b72c80dfdc67eb94636e2bc46de55e2980.png"
+  ],
+  "solution": "解：（1）如图1，∵∠EAB＝90°，EP⊥AG，AG⊥BC，\n∴∠EPA＝∠EAB＝∠AGB＝90°，\n∴∠PEA+∠EAP＝90°，∠EAP+∠BAG＝90°，\n∴∠PEA＝∠BAG，\n在△EPA和△AGB中，\n\\(\\begin{cases} \\angle EPA=\\angle BGA \\\\ \\angle PEA=\\angle BAG \\\\ AE=AB \\end{cases}\\)\n∴△EPA≌△AGB（AAS），\n（2）结论：EP＝FQ，\n证明：由（1）可得，△EPA≌△AGB，\n∴EP＝AG，\n如图1，∵∠FAC＝90°，FQ⊥AG，AG⊥BC，\n∴∠FQA＝∠FAC＝∠CGA＝90°，\n∴∠FAQ+∠AFQ＝90°，∠FAQ+∠GAC＝90°，\n∴∠AFQ＝∠GAC，\n在△QFA和△GAC中，\n\\(\\begin{cases} \\angle FQA=\\angle CGA \\\\ \\angle FAQ=\\angle CAG \\\\ AF=AC \\end{cases}\\)\n∴△QFA≌△GAC（AAS），\n∴AG＝FQ，\n∴EP＝FQ；\n（3）结论：EH＝FH，\n理由：如图，∵EP⊥AG，FQ⊥AG，\n∴∠EPH＝∠FQH＝90°，\n在△EPH和△FQH中，\n\\(\\begin{cases} \\angle EHP=\\angle FHQ \\\\ \\angle EPH=\\angle FQH \\\\ EP=FQ \\end{cases}\\)\n∴△EPH≌△FQH（AAS），\n∴EH＝FH．\n（4））∵△EPH≌△FQH，△EPA≌△AGB，△FQA≌△AGC，\n∴S\\({}_{△}\\)\\({}_{FQA}\\)＝S\\({}_{△}\\)\\({}_{AGC}\\)，S\\({}_{△}\\)\\({}_{FQH}\\)＝S\\({}_{△}\\)\\({}_{EPH}\\)，S\\({}_{△}\\)\\({}_{EPA}\\)＝S\\({}_{△}\\)\\({}_{AGB}\\)，\n∴S\\({}_{△}\\)\\({}_{AEF}\\)＝S\\({}_{△}\\)\\({}_{EPA}\\)+S\\({}_{△}\\)\\({}_{FQA}\\)\n＝S\\({}_{△}\\)\\({}_{AGB}\\)+S\\({}_{△}\\)\\({}_{AGC}\\)\n＝S\\({}_{△}\\)\\({}_{ABC}\\)\n＝\\(\\frac { 1 } { 2 }\\)×BC×AG\n＝\\(\\frac { 1 } { 2 }\\)×10×12\n＝60\n故答案为：60．\n〔图2〕",
+  "solution_steps": [
+    "解：（1）如图1，∵∠EAB＝90°，EP⊥AG，AG⊥BC，",
+    "∴∠EPA＝∠EAB＝∠AGB＝90°，",
+    "∴∠PEA+∠EAP＝90°，∠EAP+∠BAG＝90°，",
+    "∴∠PEA＝∠BAG，",
+    "在△EPA和△AGB中，",
+    "\\(\\begin{cases} \\angle EPA=\\angle BGA \\\\ \\angle PEA=\\angle BAG \\\\ AE=AB \\end{cases}\\)",
+    "∴△EPA≌△AGB（AAS），",
+    "（2）结论：EP＝FQ，",
+    "证明：由（1）可得，△EPA≌△AGB，",
+    "∴EP＝AG，",
+    "如图1，∵∠FAC＝90°，FQ⊥AG，AG⊥BC，",
+    "∴∠FQA＝∠FAC＝∠CGA＝90°，",
+    "∴∠FAQ+∠AFQ＝90°，∠FAQ+∠GAC＝90°，",
+    "∴∠AFQ＝∠GAC，",
+    "在△QFA和△GAC中，",
+    "\\(\\begin{cases} \\angle FQA=\\angle CGA \\\\ \\angle FAQ=\\angle CAG \\\\ AF=AC \\end{cases}\\)",
+    "∴△QFA≌△GAC（AAS），",
+    "∴AG＝FQ，",
+    "∴EP＝FQ；",
+    "（3）结论：EH＝FH，",
+    "理由：如图，∵EP⊥AG，FQ⊥AG，",
+    "∴∠EPH＝∠FQH＝90°，",
+    "在△EPH和△FQH中，",
+    "\\(\\begin{cases} \\angle EHP=\\angle FHQ \\\\ \\angle EPH=\\angle FQH \\\\ EP=FQ \\end{cases}\\)",
+    "∴△EPH≌△FQH（AAS），",
+    "∴EH＝FH．",
+    "（4））∵△EPH≌△FQH，△EPA≌△AGB，△FQA≌△AGC，",
+    "∴S\\({}_{△}\\)\\({}_{FQA}\\)＝S\\({}_{△}\\)\\({}_{AGC}\\)，S\\({}_{△}\\)\\({}_{FQH}\\)＝S\\({}_{△}\\)\\({}_{EPH}\\)，S\\({}_{△}\\)\\({}_{EPA}\\)＝S\\({}_{△}\\)\\({}_{AGB}\\)，",
+    "∴S\\({}_{△}\\)\\({}_{AEF}\\)＝S\\({}_{△}\\)\\({}_{EPA}\\)+S\\({}_{△}\\)\\({}_{FQA}\\)",
+    "＝S\\({}_{△}\\)\\({}_{AGB}\\)+S\\({}_{△}\\)\\({}_{AGC}\\)",
+    "＝S\\({}_{△}\\)\\({}_{ABC}\\)",
+    "＝\\(\\frac { 1 } { 2 }\\)×BC×AG",
+    "＝\\(\\frac { 1 } { 2 }\\)×10×12",
+    "＝60",
+    "故答案为：60．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1．△ABC中，AG⊥BC于点G，以A为直角顶点，分别以AB、AC为直角边，向△ABC作等腰Rt△ABE和等腰Rt△ACF，过点E，F作射线GA的垂线，垂足分别为P，Q．\n〔图1〕",
+      "paper_blocks": [
+        67,
+        68
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：试探究EP与FQ之间的数量关系，并证明你的结论；\n前问作答依据：结论：EP＝FQ，\n证明：由（1）可得，△EPA≌△AGB，\n∴EP＝AG，\n如图1，∵∠FAC＝90°，FQ⊥AG，AG⊥BC，\n∴∠FQA＝∠FAC＝∠CGA＝90°，\n∴∠FAQ+∠AFQ＝90°，∠FAQ+∠GAC＝90°，\n∴∠AFQ＝∠GAC，\n在△QFA和△GAC中，\n\\(\\begin{cases} \\angle FQA=\\angle CGA \\\\ \\angle FAQ=\\angle CAG \\\\ AF=AC \\end{cases}\\)\n∴△QFA≌△GAC（AAS），\n∴AG＝FQ，\n∴EP＝FQ；",
+      "paper_blocks": [
+        67,
+        68,
+        70,
+        73
+      ]
+    },
+    {
+      "id": "prior-P03",
+      "kind": "text",
+      "text": "前问（3）的题面：如图2．若连接EF交GA的延长线于H，由（2）中的结论你能判断EH与FH的大小关系吗？并说明理由：\n前问作答依据：结论：EH＝FH，\n理由：如图，∵EP⊥AG，FQ⊥AG，\n∴∠EPH＝∠FQH＝90°，\n在△EPH和△FQH中，\n\\(\\begin{cases} \\angle EHP=\\angle FHQ \\\\ \\angle EPH=\\angle FQH \\\\ EP=FQ \\end{cases}\\)\n∴△EPH≌△FQH（AAS），\n∴EH＝FH．",
+      "paper_blocks": [
+        67,
+        68,
+        70,
+        71,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-ED98FECCB7-Q22-P01",
+      "label": "（1）",
+      "prompt": "求证：△EPA≌△AGB：",
+      "stem_text": "求证：△EPA≌△AGB：",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "如图1，∵∠EAB＝90°，EP⊥AG，AG⊥BC，\n∴∠EPA＝∠EAB＝∠AGB＝90°，\n∴∠PEA+∠EAP＝90°，∠EAP+∠BAG＝90°，\n∴∠PEA＝∠BAG，\n在△EPA和△AGB中，\n\\(\\begin{cases} \\angle EPA=\\angle BGA \\\\ \\angle PEA=\\angle BAG \\\\ AE=AB \\end{cases}\\)\n∴△EPA≌△AGB（AAS），",
+      "solution_steps": [
+        "如图1，∵∠EAB＝90°，EP⊥AG，AG⊥BC，",
+        "∴∠EPA＝∠EAB＝∠AGB＝90°，",
+        "∴∠PEA+∠EAP＝90°，∠EAP+∠BAG＝90°，",
+        "∴∠PEA＝∠BAG，",
+        "在△EPA和△AGB中，",
+        "\\(\\begin{cases} \\angle EPA=\\angle BGA \\\\ \\angle PEA=\\angle BAG \\\\ AE=AB \\end{cases}\\)",
+        "∴△EPA≌△AGB（AAS），"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          73
+        ],
+        "solution_block_ids": [
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-ED98FECCB7-Q22-P02",
+      "label": "（2）",
+      "prompt": "试探究EP与FQ之间的数量关系，并证明你的结论；",
+      "stem_text": "试探究EP与FQ之间的数量关系，并证明你的结论；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "结论：EP＝FQ，证明见解析；",
+      "answer": "结论：EP＝FQ，证明见解析；",
+      "given_solution": "结论：EP＝FQ，\n证明：由（1）可得，△EPA≌△AGB，\n∴EP＝AG，\n如图1，∵∠FAC＝90°，FQ⊥AG，AG⊥BC，\n∴∠FQA＝∠FAC＝∠CGA＝90°，\n∴∠FAQ+∠AFQ＝90°，∠FAQ+∠GAC＝90°，\n∴∠AFQ＝∠GAC，\n在△QFA和△GAC中，\n\\(\\begin{cases} \\angle FQA=\\angle CGA \\\\ \\angle FAQ=\\angle CAG \\\\ AF=AC \\end{cases}\\)\n∴△QFA≌△GAC（AAS），\n∴AG＝FQ，\n∴EP＝FQ；",
+      "solution_steps": [
+        "结论：EP＝FQ，",
+        "证明：由（1）可得，△EPA≌△AGB，",
+        "∴EP＝AG，",
+        "如图1，∵∠FAC＝90°，FQ⊥AG，AG⊥BC，",
+        "∴∠FQA＝∠FAC＝∠CGA＝90°，",
+        "∴∠FAQ+∠AFQ＝90°，∠FAQ+∠GAC＝90°，",
+        "∴∠AFQ＝∠GAC，",
+        "在△QFA和△GAC中，",
+        "\\(\\begin{cases} \\angle FQA=\\angle CGA \\\\ \\angle FAQ=\\angle CAG \\\\ AF=AC \\end{cases}\\)",
+        "∴△QFA≌△GAC（AAS），",
+        "∴AG＝FQ，",
+        "∴EP＝FQ；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-ED98FECCB7-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图2．若连接EF交GA的延长线于H，由（2）中的结论你能判断EH与FH的大小关系吗？并说明理由：",
+      "stem_text": "如图2．若连接EF交GA的延长线于H，由（2）中的结论你能判断EH与FH的大小关系吗？并说明理由：",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T2-ED98FECCB7-Q22-P02"
+      ],
+      "given_answer": "结论：EH＝FH，理由见解析；",
+      "answer": "结论：EH＝FH，理由见解析；",
+      "given_solution": "结论：EH＝FH，\n理由：如图，∵EP⊥AG，FQ⊥AG，\n∴∠EPH＝∠FQH＝90°，\n在△EPH和△FQH中，\n\\(\\begin{cases} \\angle EHP=\\angle FHQ \\\\ \\angle EPH=\\angle FQH \\\\ EP=FQ \\end{cases}\\)\n∴△EPH≌△FQH（AAS），\n∴EH＝FH．",
+      "solution_steps": [
+        "结论：EH＝FH，",
+        "理由：如图，∵EP⊥AG，FQ⊥AG，",
+        "∴∠EPH＝∠FQH＝90°，",
+        "在△EPH和△FQH中，",
+        "\\(\\begin{cases} \\angle EHP=\\angle FHQ \\\\ \\angle EPH=\\angle FQH \\\\ EP=FQ \\end{cases}\\)",
+        "∴△EPH≌△FQH（AAS），",
+        "∴EH＝FH．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-ED98FECCB7-Q22-P04",
+      "label": "（4）",
+      "prompt": "在（3）的条件下，若BC＝10，AG＝12．请直接写出S\\({}_{△}\\)\\({}_{AEF}\\)＝　   　．",
+      "stem_text": "在（3）的条件下，若BC＝10，AG＝12．请直接写出S\\({}_{△}\\)\\({}_{AEF}\\)＝　   　．",
+      "material_ids": [
+        "context",
+        "prior-P03"
+      ],
+      "requires": [
+        "SZ-G8-T2-ED98FECCB7-Q22-P03"
+      ],
+      "given_answer": "60．",
+      "answer": "60．",
+      "given_solution": "）∵△EPH≌△FQH，△EPA≌△AGB，△FQA≌△AGC，\n∴S\\({}_{△}\\)\\({}_{FQA}\\)＝S\\({}_{△}\\)\\({}_{AGC}\\)，S\\({}_{△}\\)\\({}_{FQH}\\)＝S\\({}_{△}\\)\\({}_{EPH}\\)，S\\({}_{△}\\)\\({}_{EPA}\\)＝S\\({}_{△}\\)\\({}_{AGB}\\)，\n∴S\\({}_{△}\\)\\({}_{AEF}\\)＝S\\({}_{△}\\)\\({}_{EPA}\\)+S\\({}_{△}\\)\\({}_{FQA}\\)\n＝S\\({}_{△}\\)\\({}_{AGB}\\)+S\\({}_{△}\\)\\({}_{AGC}\\)\n＝S\\({}_{△}\\)\\({}_{ABC}\\)\n＝\\(\\frac { 1 } { 2 }\\)×BC×AG\n＝\\(\\frac { 1 } { 2 }\\)×10×12\n＝60\n故答案为：60．\n〔图2〕",
+      "solution_steps": [
+        "）∵△EPH≌△FQH，△EPA≌△AGB，△FQA≌△AGC，",
+        "∴S\\({}_{△}\\)\\({}_{FQA}\\)＝S\\({}_{△}\\)\\({}_{AGC}\\)，S\\({}_{△}\\)\\({}_{FQH}\\)＝S\\({}_{△}\\)\\({}_{EPH}\\)，S\\({}_{△}\\)\\({}_{EPA}\\)＝S\\({}_{△}\\)\\({}_{AGB}\\)，",
+        "∴S\\({}_{△}\\)\\({}_{AEF}\\)＝S\\({}_{△}\\)\\({}_{EPA}\\)+S\\({}_{△}\\)\\({}_{FQA}\\)",
+        "＝S\\({}_{△}\\)\\({}_{AGB}\\)+S\\({}_{△}\\)\\({}_{AGC}\\)",
+        "＝S\\({}_{△}\\)\\({}_{ABC}\\)",
+        "＝\\(\\frac { 1 } { 2 }\\)×BC×AG",
+        "＝\\(\\frac { 1 } { 2 }\\)×10×12",
+        "＝60",
+        "故答案为：60．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70,
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      73
+    ],
+    "solution_body_blocks": [
+      270,
+      319
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-ED98FECCB7/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-ED98FECCB7/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          713.18,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          44.55,
+          583.64,
+          268.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-ED98FECCB7/solution-q22-p14.webp",
+      "assets/SZ-G8-T2-ED98FECCB7/solution-q22-p15.webp",
+      "assets/SZ-G8-T2-ED98FECCB7/solution-q22-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          370.0,
+          583.64,
+          751.82
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          283.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

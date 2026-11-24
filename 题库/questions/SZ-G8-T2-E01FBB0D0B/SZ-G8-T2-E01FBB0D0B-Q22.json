@@ -1,0 +1,556 @@
+{
+  "id": "SZ-G8-T2-E01FBB0D0B-Q22",
+  "paper_id": "SZ-G8-T2-E01FBB0D0B",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由三边关系确定边长范围、利用旋转对应建立全等或角度关系",
+  "stem": "1643年，法国数学家费马曾提出一个著名的几何问题：给定不在同一条直线上的三个点A，B，C，求平面上到这三个点的距离之和最小的点的位置，意大利数学家和物理学家托里拆利给出了分析和证明，该点也被称为“费马点”或“托里拆利点”，该问题也被称为“将军巡营”问题．\n（1）下面是该问题的一种常见的解决方法，请补充以下推理过程：（其中①处从“直角”和“等边”中选择填空，②处从“两点之间线段最短”和“三角形两边之和大于第三边”中选择填空，③处填写角度数，④处填写该三角形的某个顶点）\n当\\(\\vartriangle ABC\\)的三个内角均小于\\(120{}^\\circ\\)时，\n如图1，将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\n〔图1〕\n由\\(PC=P'C，\\angle PCP'=60{}^\\circ\\)，可知\\(\\vartriangle PCP'\\)为   ①   三角形，故\\(PP'=PC\\)，又\\(P'A'=PA\\)，故\\(PA+PB+PC=PA'+PB+PP'\\ge A'B\\)，\n由   ②   可知，当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，如图2，最小值为\\(A'B\\)，此时的P点为该三角形的“费马点”，且有\\(\\angle APC=\\angle BPC=\\angle APB=\\)   ③   ；\n已知当\\(\\vartriangle ABC\\)有一个内角大于或等于\\(120{}^\\circ\\)时，“费马点”为该三角形的某个顶点．如图3，若\\(\\angle BAC\\ge 120{}^\\circ\\)，则该三角形的“费马点”为   ④   点．\n（2）如图4，在\\(\\vartriangle ABC\\)中，三个内角均小于\\(120{}^\\circ\\)，且\\(AC=3，BC=4，\\angle ACB=30{}^\\circ\\)，已知点P为\\(\\vartriangle ABC\\)的“费马点”，求\\(PA+PB+PC\\)的值；\n〔图2〕\n（3）如图5，设村庄A，B，C的连线构成一个三角形，且已知\\(AC=4{ \\rm{ k } }{ \\rm{ m } }，BC=2\\sqrt[] { 3 }{ \\rm{ k } }{ \\rm{ m } }，\\angle ACB=60{}^\\circ\\)．现欲建一中转站P沿直线向A，B，C三个村庄铺设电缆，已知由中转站P到村庄A，B，C的铺设成本分别为a元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，a元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，\\(\\sqrt[] { 2 }a\\)元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，选取合适的P的位置，可以使总的铺设成本最低为___________元．（结果用含a的式子表示）",
+  "choices": [],
+  "figures": [
+    "assets/figures/73/73582062445850797f40e02fa1c07cf8b8bf636e11973720393c4e9b4b15986f.png",
+    "assets/figures/bb/bbd124b29061b3b0a628c719776d75388c47f3961516bd730e39458809e90a15.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①等边；②两点之间线段最短；③\\(120{}^\\circ\\)；④A．\n（2）\\(5\\)\n（3）\\(2\\sqrt[] { 13 }a\\)",
+  "answer": "（1）①等边；②两点之间线段最短；③\\(120{}^\\circ\\)；④A．\n（2）\\(5\\)\n（3）\\(2\\sqrt[] { 13 }a\\)",
+  "given_solution": "【分析】（1）根据旋转的性质和两点之间线段最短进行推理分析即可得出结论；\n（2）根据（1）的方法将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，即可得出可知当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，最小值为\\(A'B\\)，在根据\\(\\angle ACB=30{}^\\circ\\)可证明\\(\\angle ACA'=\\angle A'CP'+\\angle BCP+\\angle PCP'=90{}^\\circ\\)，由勾股定理求\\(A'B\\)即可，\n（3）由总的铺设成本\\(=a(PA+PB+\\sqrt[] { 2 }PC)\\)，通过将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(90{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，得到等腰直角\\(\\vartriangle PP'C\\)，得到\\(\\sqrt[] { 2 }PC=PP'\\)，即可得出当B，P，\\(P'\\)，A在同一条直线上时，\\(P'A'+PB+PP'\\)取最小值，即\\(PA+PB+\\sqrt[] { 2 }PC\\)取最小值为\\(A'B\\)，然后根据已知和旋转性质求出\\(A'B\\)即可．\n【小问1详解】\n解：∵\\(PC=P'C，\\angle PCP'=60{}^\\circ\\)，\n∴\\(\\vartriangle PCP'\\)为等边三角形；\n∴\\(PP'=PC\\)，\\(\\angle P'PC=\\angle PP'C=60{}^\\circ\\)，\n又\\(P'A'=PA\\)，故\\(PA+PB+PC=PA'+PB+PP'\\ge A'B\\)，\n由两点之间线段最短可知，当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，\n最小值为\\(A'B\\)，此时的P点为该三角形的“费马点”，\n∴\\(\\angle BPC+\\angle P'PC=180{}^\\circ\\)，\\(\\angle A'P'C+\\angle PP'C=180{}^\\circ\\)，\n∴\\(\\angle BPC=120{}^\\circ\\)，\\(\\angle A'P'C=120{}^\\circ\\)，\n又∵\\(\\vartriangle APC\\cong \\vartriangle A'P'C\\)，\n∴\\(\\angle APC=\\angle AP'C=120{}^\\circ\\)，\n∴\\(\\angle APB=360{}^\\circ -\\angle APC-\\angle BPC=120{}^\\circ\\)，\n∴\\(\\angle APC=\\angle BPC=\\angle APB=120{}^\\circ\\)；\n∵\\(\\angle BAC\\ge 120{}^\\circ\\)，\n∴\\(BC>AC\\)，\\(BC>AB\\)，\n∴\\(BC+AB>AC+AB\\)，\\(BC+AC>AB+AC\\)，\n∴三个顶点中，顶点A到另外两个顶点的距离和最小．\n又∵已知当\\(\\vartriangle ABC\\)有一个内角大于或等于\\(120{}^\\circ\\)时，“费马点”为该三角形的某个顶点．\n∴该三角形的“费马点”为点A，\n故答案为：①等边；②两点之间线段最短；③\\(120{}^\\circ\\)；④\\(A\\)．\n【小问2详解】\n将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\n由（1）可知当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，最小值为\\(A'B\\)，\n〔图3〕\n∵\\(\\angle ACP=\\angle A'CP'\\)，\n∴\\(\\angle ACP+\\angle BCP=\\angle A'CP'+\\angle BCP=\\angle ACB=30{}^\\circ\\)，\n又∵\\(\\angle PCP'=60{}^\\circ\\)\n∴\\(\\angle BCA'=\\angle A'CP'+\\angle BCP+\\angle PCP'=90{}^\\circ\\)，\n由旋转性质可知：\\(AC=A'C=3\\)，\n∴\\(A'B=\\sqrt[] { BC ^ { 2 } +A'C ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，\n∴\\(PA+PB+PC\\)最小值为\\(5\\)，\n【小问3详解】\n∵总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC)\\)\n∴当\\(PA+PB+\\sqrt[] { 2 }PC\\)最小时，总的铺设成本最低，\n将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(90{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\\(A'B\\)\n由旋转性质可知：\\(P'C=PC\\)，\\(\\angle PCP'=\\angle ACA'=90{}^\\circ\\)，\\(P'A'=PA\\)，\\(A'C=AC=4{ \\rm{ k } }{ \\rm{ m } }\\)，\n∴\\(PP'=\\sqrt[] { 2 }PC\\)，\n∴\\(PA+PB+\\sqrt[] { 2 }PC=P'A'+PB+PP'\\)，\n当B，P，\\(P'\\)，A在同一条直线上时，\\(P'A'+PB+PP'\\)取最小值，即\\(PA+PB+\\sqrt[] { 2 }PC\\)取最小值为\\(A'B\\)，\n〔图4〕\n过点\\(A'\\)作\\(A'H\\bot BC\\)，垂足为\\(H\\)，\n∵\\(\\angle ACB=60{}^\\circ\\)，\\(\\angle ACA'=90{}^\\circ\\)，\n∴\\(\\angle A'CH=30{}^\\circ\\)，\n∴\\(A'H=\\frac { 1 } { 2 }A'C=2{ \\rm{ k } }{ \\rm{ m } }\\)，\n∴\\(HC=\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }{ \\rm{ ( } }{ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，\n∴\\(BH=BC+CH=2\\sqrt[] { 3 }+2\\sqrt[] { 3 }{ \\rm{ = } }4\\sqrt[] { 3 }({ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，\n∴\\(A'B=\\sqrt[] { AH ^ { 2 } +BH ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 3 }) ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 13 }({ \\rm{ k } }{ \\rm{ m } })\\)\n\\(PA+PB+\\sqrt[] { 2 }PC\\)的最小值为\\(2\\sqrt[] { 13 }{ \\rm{ k } }{ \\rm{ m } }\\)\n总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC){ \\rm{ = } }2\\sqrt[] { 13 }a\\)（元）\n故答案为：\\(2\\sqrt[] { 13 }a\\)\n【点睛】本题考查了费马点求最值问题，涉及到的知识点有旋转的性质，等边三角形的判定与性质，勾股定理，以及两点之间线段最短等知识点，读懂题意，利用旋转作出正确的辅助线是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/73/73582062445850797f40e02fa1c07cf8b8bf636e11973720393c4e9b4b15986f.png",
+    "assets/figures/bb/bbd124b29061b3b0a628c719776d75388c47f3961516bd730e39458809e90a15.png",
+    "assets/figures/13/13161ba98e0a9673c4066e36df97d14f43812e0591638f41729b76cfa0309a04.png",
+    "assets/figures/b9/b987c045ca341282c156ebb320f0c3a4fab850928d76601ebf1eb2c00fc03157.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(PC=P'C，\\angle PCP'=60{}^\\circ\\)，\n∴\\(\\vartriangle PCP'\\)为等边三角形；\n∴\\(PP'=PC\\)，\\(\\angle P'PC=\\angle PP'C=60{}^\\circ\\)，\n又\\(P'A'=PA\\)，故\\(PA+PB+PC=PA'+PB+PP'\\ge A'B\\)，\n由两点之间线段最短可知，当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，\n最小值为\\(A'B\\)，此时的P点为该三角形的“费马点”，\n∴\\(\\angle BPC+\\angle P'PC=180{}^\\circ\\)，\\(\\angle A'P'C+\\angle PP'C=180{}^\\circ\\)，\n∴\\(\\angle BPC=120{}^\\circ\\)，\\(\\angle A'P'C=120{}^\\circ\\)，\n又∵\\(\\vartriangle APC\\cong \\vartriangle A'P'C\\)，\n∴\\(\\angle APC=\\angle AP'C=120{}^\\circ\\)，\n∴\\(\\angle APB=360{}^\\circ -\\angle APC-\\angle BPC=120{}^\\circ\\)，\n∴\\(\\angle APC=\\angle BPC=\\angle APB=120{}^\\circ\\)；\n∵\\(\\angle BAC\\ge 120{}^\\circ\\)，\n∴\\(BC>AC\\)，\\(BC>AB\\)，\n∴\\(BC+AB>AC+AB\\)，\\(BC+AC>AB+AC\\)，\n∴三个顶点中，顶点A到另外两个顶点的距离和最小．\n又∵已知当\\(\\vartriangle ABC\\)有一个内角大于或等于\\(120{}^\\circ\\)时，“费马点”为该三角形的某个顶点．\n∴该三角形的“费马点”为点A，\n故答案为：①等边；②两点之间线段最短；③\\(120{}^\\circ\\)；④\\(A\\)．\n【小问2详解】\n将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\n由（1）可知当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，最小值为\\(A'B\\)，\n〔图3〕\n∵\\(\\angle ACP=\\angle A'CP'\\)，\n∴\\(\\angle ACP+\\angle BCP=\\angle A'CP'+\\angle BCP=\\angle ACB=30{}^\\circ\\)，\n又∵\\(\\angle PCP'=60{}^\\circ\\)\n∴\\(\\angle BCA'=\\angle A'CP'+\\angle BCP+\\angle PCP'=90{}^\\circ\\)，\n由旋转性质可知：\\(AC=A'C=3\\)，\n∴\\(A'B=\\sqrt[] { BC ^ { 2 } +A'C ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，\n∴\\(PA+PB+PC\\)最小值为\\(5\\)，\n【小问3详解】\n∵总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC)\\)\n∴当\\(PA+PB+\\sqrt[] { 2 }PC\\)最小时，总的铺设成本最低，\n将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(90{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\\(A'B\\)\n由旋转性质可知：\\(P'C=PC\\)，\\(\\angle PCP'=\\angle ACA'=90{}^\\circ\\)，\\(P'A'=PA\\)，\\(A'C=AC=4{ \\rm{ k } }{ \\rm{ m } }\\)，\n∴\\(PP'=\\sqrt[] { 2 }PC\\)，\n∴\\(PA+PB+\\sqrt[] { 2 }PC=P'A'+PB+PP'\\)，\n当B，P，\\(P'\\)，A在同一条直线上时，\\(P'A'+PB+PP'\\)取最小值，即\\(PA+PB+\\sqrt[] { 2 }PC\\)取最小值为\\(A'B\\)，\n〔图4〕\n过点\\(A'\\)作\\(A'H\\bot BC\\)，垂足为\\(H\\)，\n∵\\(\\angle ACB=60{}^\\circ\\)，\\(\\angle ACA'=90{}^\\circ\\)，\n∴\\(\\angle A'CH=30{}^\\circ\\)，\n∴\\(A'H=\\frac { 1 } { 2 }A'C=2{ \\rm{ k } }{ \\rm{ m } }\\)，\n∴\\(HC=\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }{ \\rm{ ( } }{ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，\n∴\\(BH=BC+CH=2\\sqrt[] { 3 }+2\\sqrt[] { 3 }{ \\rm{ = } }4\\sqrt[] { 3 }({ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，\n∴\\(A'B=\\sqrt[] { AH ^ { 2 } +BH ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 3 }) ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 13 }({ \\rm{ k } }{ \\rm{ m } })\\)\n\\(PA+PB+\\sqrt[] { 2 }PC\\)的最小值为\\(2\\sqrt[] { 13 }{ \\rm{ k } }{ \\rm{ m } }\\)\n总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC){ \\rm{ = } }2\\sqrt[] { 13 }a\\)（元）\n故答案为：\\(2\\sqrt[] { 13 }a\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(PC=P'C，\\angle PCP'=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle PCP'\\)为等边三角形；",
+    "∴\\(PP'=PC\\)，\\(\\angle P'PC=\\angle PP'C=60{}^\\circ\\)，",
+    "又\\(P'A'=PA\\)，故\\(PA+PB+PC=PA'+PB+PP'\\ge A'B\\)，",
+    "由两点之间线段最短可知，当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，",
+    "最小值为\\(A'B\\)，此时的P点为该三角形的“费马点”，",
+    "∴\\(\\angle BPC+\\angle P'PC=180{}^\\circ\\)，\\(\\angle A'P'C+\\angle PP'C=180{}^\\circ\\)，",
+    "∴\\(\\angle BPC=120{}^\\circ\\)，\\(\\angle A'P'C=120{}^\\circ\\)，",
+    "又∵\\(\\vartriangle APC\\cong \\vartriangle A'P'C\\)，",
+    "∴\\(\\angle APC=\\angle AP'C=120{}^\\circ\\)，",
+    "∴\\(\\angle APB=360{}^\\circ -\\angle APC-\\angle BPC=120{}^\\circ\\)，",
+    "∴\\(\\angle APC=\\angle BPC=\\angle APB=120{}^\\circ\\)；",
+    "∵\\(\\angle BAC\\ge 120{}^\\circ\\)，",
+    "∴\\(BC>AC\\)，\\(BC>AB\\)，",
+    "∴\\(BC+AB>AC+AB\\)，\\(BC+AC>AB+AC\\)，",
+    "∴三个顶点中，顶点A到另外两个顶点的距离和最小．",
+    "又∵已知当\\(\\vartriangle ABC\\)有一个内角大于或等于\\(120{}^\\circ\\)时，“费马点”为该三角形的某个顶点．",
+    "∴该三角形的“费马点”为点A，",
+    "故答案为：①等边；②两点之间线段最短；③\\(120{}^\\circ\\)；④\\(A\\)．",
+    "【小问2详解】",
+    "将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，",
+    "由（1）可知当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，最小值为\\(A'B\\)，",
+    "〔图3〕",
+    "∵\\(\\angle ACP=\\angle A'CP'\\)，",
+    "∴\\(\\angle ACP+\\angle BCP=\\angle A'CP'+\\angle BCP=\\angle ACB=30{}^\\circ\\)，",
+    "又∵\\(\\angle PCP'=60{}^\\circ\\)",
+    "∴\\(\\angle BCA'=\\angle A'CP'+\\angle BCP+\\angle PCP'=90{}^\\circ\\)，",
+    "由旋转性质可知：\\(AC=A'C=3\\)，",
+    "∴\\(A'B=\\sqrt[] { BC ^ { 2 } +A'C ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，",
+    "∴\\(PA+PB+PC\\)最小值为\\(5\\)，",
+    "【小问3详解】",
+    "∵总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC)\\)",
+    "∴当\\(PA+PB+\\sqrt[] { 2 }PC\\)最小时，总的铺设成本最低，",
+    "将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(90{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\\(A'B\\)",
+    "由旋转性质可知：\\(P'C=PC\\)，\\(\\angle PCP'=\\angle ACA'=90{}^\\circ\\)，\\(P'A'=PA\\)，\\(A'C=AC=4{ \\rm{ k } }{ \\rm{ m } }\\)，",
+    "∴\\(PP'=\\sqrt[] { 2 }PC\\)，",
+    "∴\\(PA+PB+\\sqrt[] { 2 }PC=P'A'+PB+PP'\\)，",
+    "当B，P，\\(P'\\)，A在同一条直线上时，\\(P'A'+PB+PP'\\)取最小值，即\\(PA+PB+\\sqrt[] { 2 }PC\\)取最小值为\\(A'B\\)，",
+    "〔图4〕",
+    "过点\\(A'\\)作\\(A'H\\bot BC\\)，垂足为\\(H\\)，",
+    "∵\\(\\angle ACB=60{}^\\circ\\)，\\(\\angle ACA'=90{}^\\circ\\)，",
+    "∴\\(\\angle A'CH=30{}^\\circ\\)，",
+    "∴\\(A'H=\\frac { 1 } { 2 }A'C=2{ \\rm{ k } }{ \\rm{ m } }\\)，",
+    "∴\\(HC=\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }{ \\rm{ ( } }{ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，",
+    "∴\\(BH=BC+CH=2\\sqrt[] { 3 }+2\\sqrt[] { 3 }{ \\rm{ = } }4\\sqrt[] { 3 }({ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，",
+    "∴\\(A'B=\\sqrt[] { AH ^ { 2 } +BH ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 3 }) ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 13 }({ \\rm{ k } }{ \\rm{ m } })\\)",
+    "\\(PA+PB+\\sqrt[] { 2 }PC\\)的最小值为\\(2\\sqrt[] { 13 }{ \\rm{ k } }{ \\rm{ m } }\\)",
+    "总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC){ \\rm{ = } }2\\sqrt[] { 13 }a\\)（元）",
+    "故答案为：\\(2\\sqrt[] { 13 }a\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "1643年，法国数学家费马曾提出一个著名的几何问题：给定不在同一条直线上的三个点A，B，C，求平面上到这三个点的距离之和最小的点的位置，意大利数学家和物理学家托里拆利给出了分析和证明，该点也被称为“费马点”或“托里拆利点”，该问题也被称为“将军巡营”问题．",
+      "paper_blocks": [
+        68
+      ]
+    },
+    {
+      "id": "fig-72",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        72
+      ]
+    },
+    {
+      "id": "fig-77",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        77
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "下面是该问题的一种常见的解决方法，请补充以下推理过程：（其中",
+      "paper_blocks": [
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-E01FBB0D0B-Q22-P01",
+      "label": "（1）①",
+      "prompt": "处从“直角”和“等边”中选择填空，",
+      "stem_text": "处从“直角”和“等边”中选择填空，",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "fig-77",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "等边；",
+      "answer": "等边；",
+      "given_solution": "等边；",
+      "solution_steps": [
+        "等边；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          72,
+          77
+        ],
+        "solution_block_ids": [
+          431
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“等边三角形”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "依据本问原题和解法，核定为“等边三角形”。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T2-E01FBB0D0B-Q22-P02",
+      "label": "（1）②",
+      "prompt": "处从“两点之间线段最短”和“三角形两边之和大于第三边”中选择填空，",
+      "stem_text": "处从“两点之间线段最短”和“三角形两边之和大于第三边”中选择填空，",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "fig-77",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "两点之间线段最短；",
+      "answer": "两点之间线段最短；",
+      "given_solution": "两点之间线段最短；",
+      "solution_steps": [
+        "两点之间线段最短；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          72,
+          77
+        ],
+        "solution_block_ids": [
+          431
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [
+        "E.G02.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“由三边关系确定边长范围”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E01FBB0D0B-Q22-P03",
+      "label": "（1）③",
+      "prompt": "处填写角度数，",
+      "stem_text": "处填写角度数，",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "fig-77",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(120{}^\\circ\\)；",
+      "answer": "\\(120{}^\\circ\\)；",
+      "given_solution": "\\(120{}^\\circ\\)；",
+      "solution_steps": [
+        "\\(120{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          72,
+          77
+        ],
+        "solution_block_ids": [
+          431
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“角度”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E01FBB0D0B-Q22-P04",
+      "label": "（1）④",
+      "prompt": "处填写该三角形的某个顶点）\n当\\(\\vartriangle ABC\\)的三个内角均小于\\(120{}^\\circ\\)时，\n如图1，将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\n\n由\\(PC=P'C，\\angle PCP'=60{}^\\circ\\)，可知\\(\\vartriangle PCP'\\)为   ①   三角形，故\\(PP'=PC\\)，又\\(P'A'=PA\\)，故\\(PA+PB+PC=PA'+PB+PP'\\ge A'B\\)，\n由   ②   可知，当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，如图2，最小值为\\(A'B\\)，此时的P点为该三角形的“费马点”，且有\\(\\angle APC=\\angle BPC=\\angle APB=\\)   ③   ；\n已知当\\(\\vartriangle ABC\\)有一个内角大于或等于\\(120{}^\\circ\\)时，“费马点”为该三角形的某个顶点．如图3，若\\(\\angle BAC\\ge 120{}^\\circ\\)，则该三角形的“费马点”为   ④   点．",
+      "stem_text": "处填写该三角形的某个顶点）\n当\\(\\vartriangle ABC\\)的三个内角均小于\\(120{}^\\circ\\)时，\n如图1，将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\n\n由\\(PC=P'C，\\angle PCP'=60{}^\\circ\\)，可知\\(\\vartriangle PCP'\\)为   ①   三角形，故\\(PP'=PC\\)，又\\(P'A'=PA\\)，故\\(PA+PB+PC=PA'+PB+PP'\\ge A'B\\)，\n由   ②   可知，当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，如图2，最小值为\\(A'B\\)，此时的P点为该三角形的“费马点”，且有\\(\\angle APC=\\angle BPC=\\angle APB=\\)   ③   ；\n已知当\\(\\vartriangle ABC\\)有一个内角大于或等于\\(120{}^\\circ\\)时，“费马点”为该三角形的某个顶点．如图3，若\\(\\angle BAC\\ge 120{}^\\circ\\)，则该三角形的“费马点”为   ④   点．",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "fig-77",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "A．",
+      "answer": "A．",
+      "given_solution": "\\(A\\)．",
+      "solution_steps": [
+        "\\(A\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          431
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“三角形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E01FBB0D0B-Q22-P05",
+      "label": "（2）",
+      "prompt": "如图4，在\\(\\vartriangle ABC\\)中，三个内角均小于\\(120{}^\\circ\\)，且\\(AC=3，BC=4，\\angle ACB=30{}^\\circ\\)，已知点P为\\(\\vartriangle ABC\\)的“费马点”，求\\(PA+PB+PC\\)的值；",
+      "stem_text": "如图4，在\\(\\vartriangle ABC\\)中，三个内角均小于\\(120{}^\\circ\\)，且\\(AC=3，BC=4，\\angle ACB=30{}^\\circ\\)，已知点P为\\(\\vartriangle ABC\\)的“费马点”，求\\(PA+PB+PC\\)的值；",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(5\\)",
+      "answer": "\\(5\\)",
+      "given_solution": "将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\n由（1）可知当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，最小值为\\(A'B\\)，\n〔图3〕\n∵\\(\\angle ACP=\\angle A'CP'\\)，\n∴\\(\\angle ACP+\\angle BCP=\\angle A'CP'+\\angle BCP=\\angle ACB=30{}^\\circ\\)，\n又∵\\(\\angle PCP'=60{}^\\circ\\)\n∴\\(\\angle BCA'=\\angle A'CP'+\\angle BCP+\\angle PCP'=90{}^\\circ\\)，\n由旋转性质可知：\\(AC=A'C=3\\)，\n∴\\(A'B=\\sqrt[] { BC ^ { 2 } +A'C ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，\n∴\\(PA+PB+PC\\)最小值为\\(5\\)，",
+      "solution_steps": [
+        "将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，",
+        "由（1）可知当B，P，\\(P'\\)，A在同一条直线上时，\\(PA+PB+PC\\)取最小值，最小值为\\(A'B\\)，",
+        "〔图3〕",
+        "∵\\(\\angle ACP=\\angle A'CP'\\)，",
+        "∴\\(\\angle ACP+\\angle BCP=\\angle A'CP'+\\angle BCP=\\angle ACB=30{}^\\circ\\)，",
+        "又∵\\(\\angle PCP'=60{}^\\circ\\)",
+        "∴\\(\\angle BCA'=\\angle A'CP'+\\angle BCP+\\angle PCP'=90{}^\\circ\\)，",
+        "由旋转性质可知：\\(AC=A'C=3\\)，",
+        "∴\\(A'B=\\sqrt[] { BC ^ { 2 } +A'C ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，",
+        "∴\\(PA+PB+PC\\)最小值为\\(5\\)，"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          72,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E01FBB0D0B-Q22-P06",
+      "label": "（3）",
+      "prompt": "如图5，设村庄A，B，C的连线构成一个三角形，且已知\\(AC=4{ \\rm{ k } }{ \\rm{ m } }，BC=2\\sqrt[] { 3 }{ \\rm{ k } }{ \\rm{ m } }，\\angle ACB=60{}^\\circ\\)．现欲建一中转站P沿直线向A，B，C三个村庄铺设电缆，已知由中转站P到村庄A，B，C的铺设成本分别为a元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，a元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，\\(\\sqrt[] { 2 }a\\)元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，选取合适的P的位置，可以使总的铺设成本最低为___________元．（结果用含a的式子表示）",
+      "stem_text": "如图5，设村庄A，B，C的连线构成一个三角形，且已知\\(AC=4{ \\rm{ k } }{ \\rm{ m } }，BC=2\\sqrt[] { 3 }{ \\rm{ k } }{ \\rm{ m } }，\\angle ACB=60{}^\\circ\\)．现欲建一中转站P沿直线向A，B，C三个村庄铺设电缆，已知由中转站P到村庄A，B，C的铺设成本分别为a元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，a元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，\\(\\sqrt[] { 2 }a\\)元/\\({ \\rm{ k } }{ \\rm{ m } }\\)，选取合适的P的位置，可以使总的铺设成本最低为___________元．（结果用含a的式子表示）",
+      "material_ids": [
+        "context",
+        "fig-72",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 13 }a\\)",
+      "answer": "\\(2\\sqrt[] { 13 }a\\)",
+      "given_solution": "∵总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC)\\)\n∴当\\(PA+PB+\\sqrt[] { 2 }PC\\)最小时，总的铺设成本最低，\n将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(90{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\\(A'B\\)\n由旋转性质可知：\\(P'C=PC\\)，\\(\\angle PCP'=\\angle ACA'=90{}^\\circ\\)，\\(P'A'=PA\\)，\\(A'C=AC=4{ \\rm{ k } }{ \\rm{ m } }\\)，\n∴\\(PP'=\\sqrt[] { 2 }PC\\)，\n∴\\(PA+PB+\\sqrt[] { 2 }PC=P'A'+PB+PP'\\)，\n当B，P，\\(P'\\)，A在同一条直线上时，\\(P'A'+PB+PP'\\)取最小值，即\\(PA+PB+\\sqrt[] { 2 }PC\\)取最小值为\\(A'B\\)，\n〔图4〕\n过点\\(A'\\)作\\(A'H\\bot BC\\)，垂足为\\(H\\)，\n∵\\(\\angle ACB=60{}^\\circ\\)，\\(\\angle ACA'=90{}^\\circ\\)，\n∴\\(\\angle A'CH=30{}^\\circ\\)，\n∴\\(A'H=\\frac { 1 } { 2 }A'C=2{ \\rm{ k } }{ \\rm{ m } }\\)，\n∴\\(HC=\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }{ \\rm{ ( } }{ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，\n∴\\(BH=BC+CH=2\\sqrt[] { 3 }+2\\sqrt[] { 3 }{ \\rm{ = } }4\\sqrt[] { 3 }({ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，\n∴\\(A'B=\\sqrt[] { AH ^ { 2 } +BH ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 3 }) ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 13 }({ \\rm{ k } }{ \\rm{ m } })\\)\n\\(PA+PB+\\sqrt[] { 2 }PC\\)的最小值为\\(2\\sqrt[] { 13 }{ \\rm{ k } }{ \\rm{ m } }\\)\n总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC){ \\rm{ = } }2\\sqrt[] { 13 }a\\)（元）\n故答案为：\\(2\\sqrt[] { 13 }a\\)",
+      "solution_steps": [
+        "∵总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC)\\)",
+        "∴当\\(PA+PB+\\sqrt[] { 2 }PC\\)最小时，总的铺设成本最低，",
+        "将\\(\\vartriangle APC\\)绕，点C顺时针旋转\\(90{}^\\circ\\)得到\\(\\vartriangle A'P'C\\)，连接\\(PP'\\)，\\(A'B\\)",
+        "由旋转性质可知：\\(P'C=PC\\)，\\(\\angle PCP'=\\angle ACA'=90{}^\\circ\\)，\\(P'A'=PA\\)，\\(A'C=AC=4{ \\rm{ k } }{ \\rm{ m } }\\)，",
+        "∴\\(PP'=\\sqrt[] { 2 }PC\\)，",
+        "∴\\(PA+PB+\\sqrt[] { 2 }PC=P'A'+PB+PP'\\)，",
+        "当B，P，\\(P'\\)，A在同一条直线上时，\\(P'A'+PB+PP'\\)取最小值，即\\(PA+PB+\\sqrt[] { 2 }PC\\)取最小值为\\(A'B\\)，",
+        "〔图4〕",
+        "过点\\(A'\\)作\\(A'H\\bot BC\\)，垂足为\\(H\\)，",
+        "∵\\(\\angle ACB=60{}^\\circ\\)，\\(\\angle ACA'=90{}^\\circ\\)，",
+        "∴\\(\\angle A'CH=30{}^\\circ\\)，",
+        "∴\\(A'H=\\frac { 1 } { 2 }A'C=2{ \\rm{ k } }{ \\rm{ m } }\\)，",
+        "∴\\(HC=\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }{ \\rm{ ( } }{ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，",
+        "∴\\(BH=BC+CH=2\\sqrt[] { 3 }+2\\sqrt[] { 3 }{ \\rm{ = } }4\\sqrt[] { 3 }({ \\rm{ k } }{ \\rm{ m } }{ \\rm{ ) } }\\)，",
+        "∴\\(A'B=\\sqrt[] { AH ^ { 2 } +BH ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 3 }) ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 13 }({ \\rm{ k } }{ \\rm{ m } })\\)",
+        "\\(PA+PB+\\sqrt[] { 2 }PC\\)的最小值为\\(2\\sqrt[] { 13 }{ \\rm{ k } }{ \\rm{ m } }\\)",
+        "总的铺设成本\\(=PA\\centerdot a+PB\\centerdot a+PC\\centerdot \\sqrt[] { 2 }a=a(PA+PB+\\sqrt[] { 2 }PC){ \\rm{ = } }2\\sqrt[] { 13 }a\\)（元）",
+        "故答案为：\\(2\\sqrt[] { 13 }a\\)"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          72,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      78
+    ],
+    "solution_body_blocks": [
+      394,
+      462
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-E01FBB0D0B/paper-q22-p06.webp",
+      "assets/SZ-G8-T2-E01FBB0D0B/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          120.45,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          128.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-E01FBB0D0B/solution-q22-p22.webp",
+      "assets/SZ-G8-T2-E01FBB0D0B/solution-q22-p23.webp",
+      "assets/SZ-G8-T2-E01FBB0D0B/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          307.27,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          727.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G02.01",
+    "M.G01.02",
+    "M.G07.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G02.01.01",
+    "E.G07.03.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "该问涉及“等边三角形”，现有细分考点仅能覆盖部分要求。 该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。 该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "依据本问原题和解法，核定为“等边三角形”。 题面对应“由三边关系确定边长范围”。 题目涉及“角度”，按题面与解答定位知识主题。 题目涉及“三角形”，按题面与解答定位知识主题。 本问解答对应“利用旋转对应建立全等或角度关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

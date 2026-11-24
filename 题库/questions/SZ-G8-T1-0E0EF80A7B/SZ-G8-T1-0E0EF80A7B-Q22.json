@@ -1,0 +1,568 @@
+{
+  "id": "SZ-G8-T1-0E0EF80A7B-Q22",
+  "paper_id": "SZ-G8-T1-0E0EF80A7B",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "【尝试应用】\n小明将两副大小不同的三角板如图所示放置，\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，连接\\(AD\\)，\\(CE\\)，直线\\(MN\\)经过点B交\\(AD\\)于M，交\\(CE\\)于N．\n（1）如图1，若\\(MN\\bot CE\\)，请直接写出\\(AM\\)与\\(DM\\)的数量关系；\n〔图1〕\n【类比迁移】\n（2）如图2，若点M是\\(AD\\)的中点，请判断\\(BM\\)与\\(CE\\)的位置关系和数量关系，并证明；（小明发现：延长线段\\(BM\\)至点F，使得\\(BM=MF\\)，连接\\(AF\\)，证明了\\(\\vartriangle ABF\\)与\\(\\vartriangle BCE\\)的关系，便可解决问题）请你按照他的思路，完成证明．\n〔图2〕\n【拓展应用】\n（3）如图3，小明又找了两副大小相同的直角三角板，且\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，连接\\(AD\\)，\\(CE\\)，直线\\(MN\\)经过点B交\\(AD\\)于M，交\\(CE\\)于N，若点M是\\(AD\\)的中点．求：\n①\\(\\frac { BM } { CE }=\\)            ；\n② \\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=\\)            ．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/031150976b256dd49efd77950d27a1824c222d173c38deeda037eb641ef60dac.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/c6aad3b4356bdced974d441ba295d6a4c9f9972b4da21940bf60bbe5065831aa.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/daf2f9d9f142c3f7385b74cd3355b736250f9cda1d5ac8d859b6b36f08d2cd3f.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AM=DM\\)\n（2）\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)\n（3）①\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)② \\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)",
+  "answer": "（1）\\(AM=DM\\)\n（2）\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)\n（3）①\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)② \\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)",
+  "given_solution": "【分析】(1)延长\\(BM\\)到F，使得\\(BF=CE\\)，证明\\(\\vartriangle CBE≌\\vartriangle BAF\\)，得到\\(BE=AF\\)，结合\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，得到\\(BD{ \\rm{ = } }AF\\)，证明\\(\\vartriangle AMF≌\\vartriangle DMB\\)即可得证．\n（2）延长\\(BM\\)到F，使得\\(BM=MF\\)，结合\\(AM=DM\\)，证明\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM=\\angle DBM\\)，判定\\(BD\\parallel AF\\)，得证\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，结合\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，得证\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\\(\\angle FAB=\\angle EBC\\)，\n证明\\(\\vartriangle CBE≌\\vartriangle BAF\\)，得到\\(CE{ \\rm{ = } }BF\\)，\\(\\angle AFB=\\angle BEC=\\angle DBM\\)，结合\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)即可得证．\n（3）①延长\\(BM\\)到F，使得\\(BM=MF\\)，结合\\(AM=DM\\)，证明\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM=\\angle DBM\\)，判定\\(BD\\parallel AF\\)，得证\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，结合\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为直角三角形，得证\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\\(\\angle FAB=\\angle EBC\\)，\n证明\\(\\vartriangle CBE≌\\vartriangle BAF\\)，得到\\(CE{ \\rm{ = } }BF\\)，即可得证．\n②根据三角形的全等得证\\(S_{ \\Delta ABD } { \\rm{ = } }S_{ \\Delta BCE }\\)，计算即可．\n【小问1详解】\n\\(AM\\)与\\(DM\\)的数量关系为\\(AM=DM\\)，理由如下：\n如图，延长\\(BM\\)到F，使得\\(BF=CE\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\n所以\\(AB{ \\rm{ = } }CB，BD=BE，\\angle ABC=\\angle DBE=90 ^ { \\circ }\\)，\n所以\\(\\angle ABM{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)，\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n因为\\(MN\\bot CE\\)，\n所以\\(\\angle BCN{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)， \\(\\angle NEB{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(\\angle ABF{ \\rm{ = } }\\angle BCE\\)，\\(\\angle DBM{ \\rm{ = } }\\angle NEB\\)，\n因为\\(\\begin{cases} BF=CE \\\\ \\angle ABF=\\angle BCE \\\\ BA=BC \\end{cases}\\)，\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(BE=AF\\)，\\(\\angle AFB{ \\rm{ = } }\\angle NEB\\)，\n〔图4〕\n所以\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM{ \\rm{ = } }\\angle DBM\\)，\n因为\\(\\begin{cases} \\angle AFM=\\angle DBM \\\\ \\angle AMF=\\angle DMB \\\\ AF=BD \\end{cases}\\)，\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(AM=DM\\)．\n【小问2详解】\n\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)，理由如下：\n如图，延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，\n因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，\n所以\\(BD\\parallel AF\\)，\n所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\n所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n所以\\(\\angle FAB=\\angle EBC\\)，\n〔图5〕\n因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(CE{ \\rm{ = } }BF\\)，\\(\\angle AFB=\\angle BEC=\\angle DBM\\)，\n因为\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(\\angle BEC{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)．\n【小问3详解】\n①延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，\n因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)，\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，\n所以\\(BD\\parallel AF\\)，\n所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为直角三角形，\n所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n所以\\(\\angle FAB=\\angle EBC\\)，\n〔图6〕\n因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(CE{ \\rm{ = } }BF\\)，\n所以\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)．\n故答案为：\\(\\frac { 1 } { 2 }\\)．\n② 因为\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle BAF }\\)，\\(S_{ \\vartriangle AMF } =S_{ \\vartriangle DMB }\\)，\n所以\\(S_{ \\vartriangle AMF } { \\rm{ + } }S_{ \\vartriangle AMB } =S_{ \\vartriangle DMB } { \\rm{ + } }S_{ \\vartriangle AMB }\\)，\n所以\\(S_{ \\vartriangle ABF } =S_{ \\vartriangle ABD }\\)，\n所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle ABD }\\)，\n所以\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)，\n故答案为：1．\n【点睛】本题考查了等腰直角三角形的性质，三角形全等的判定和性质，平行线的判定和性质，熟练掌握三角形全等的判定和性质，等腰直角三角形的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/031150976b256dd49efd77950d27a1824c222d173c38deeda037eb641ef60dac.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/c6aad3b4356bdced974d441ba295d6a4c9f9972b4da21940bf60bbe5065831aa.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/daf2f9d9f142c3f7385b74cd3355b736250f9cda1d5ac8d859b6b36f08d2cd3f.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/b8955ce10eaa61d05019d0351ffb7d3af982657f4a060be42999f35ad84eaf1a.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/5a1a50d2f48e1df38e239af10e0561da14c1f66c76d6b5c3bc1766a1a157f57b.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/cc6cc377695da054c2111953c22e610b85bd4980f09d9b810c65a249d84b58b3.png"
+  ],
+  "solution": "【小问1详解】\n\\(AM\\)与\\(DM\\)的数量关系为\\(AM=DM\\)，理由如下：\n如图，延长\\(BM\\)到F，使得\\(BF=CE\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\n所以\\(AB{ \\rm{ = } }CB，BD=BE，\\angle ABC=\\angle DBE=90 ^ { \\circ }\\)，\n所以\\(\\angle ABM{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)，\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n因为\\(MN\\bot CE\\)，\n所以\\(\\angle BCN{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)， \\(\\angle NEB{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(\\angle ABF{ \\rm{ = } }\\angle BCE\\)，\\(\\angle DBM{ \\rm{ = } }\\angle NEB\\)，\n因为\\(\\begin{cases} BF=CE \\\\ \\angle ABF=\\angle BCE \\\\ BA=BC \\end{cases}\\)，\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(BE=AF\\)，\\(\\angle AFB{ \\rm{ = } }\\angle NEB\\)，\n〔图4〕\n所以\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM{ \\rm{ = } }\\angle DBM\\)，\n因为\\(\\begin{cases} \\angle AFM=\\angle DBM \\\\ \\angle AMF=\\angle DMB \\\\ AF=BD \\end{cases}\\)，\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(AM=DM\\)．\n【小问2详解】\n\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)，理由如下：\n如图，延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，\n因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，\n所以\\(BD\\parallel AF\\)，\n所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\n所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n所以\\(\\angle FAB=\\angle EBC\\)，\n〔图5〕\n因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(CE{ \\rm{ = } }BF\\)，\\(\\angle AFB=\\angle BEC=\\angle DBM\\)，\n因为\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(\\angle BEC{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)．\n【小问3详解】\n①延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，\n因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)，\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，\n所以\\(BD\\parallel AF\\)，\n所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为直角三角形，\n所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n所以\\(\\angle FAB=\\angle EBC\\)，\n〔图6〕\n因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(CE{ \\rm{ = } }BF\\)，\n所以\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)．\n故答案为：\\(\\frac { 1 } { 2 }\\)．\n② 因为\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle BAF }\\)，\\(S_{ \\vartriangle AMF } =S_{ \\vartriangle DMB }\\)，\n所以\\(S_{ \\vartriangle AMF } { \\rm{ + } }S_{ \\vartriangle AMB } =S_{ \\vartriangle DMB } { \\rm{ + } }S_{ \\vartriangle AMB }\\)，\n所以\\(S_{ \\vartriangle ABF } =S_{ \\vartriangle ABD }\\)，\n所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle ABD }\\)，\n所以\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)，\n故答案为：1．",
+  "solution_steps": [
+    "【小问1详解】",
+    "\\(AM\\)与\\(DM\\)的数量关系为\\(AM=DM\\)，理由如下：",
+    "如图，延长\\(BM\\)到F，使得\\(BF=CE\\)，",
+    "因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，",
+    "所以\\(AB{ \\rm{ = } }CB，BD=BE，\\angle ABC=\\angle DBE=90 ^ { \\circ }\\)，",
+    "所以\\(\\angle ABM{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)，\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+    "因为\\(MN\\bot CE\\)，",
+    "所以\\(\\angle BCN{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)， \\(\\angle NEB{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+    "所以\\(\\angle ABF{ \\rm{ = } }\\angle BCE\\)，\\(\\angle DBM{ \\rm{ = } }\\angle NEB\\)，",
+    "因为\\(\\begin{cases} BF=CE \\\\ \\angle ABF=\\angle BCE \\\\ BA=BC \\end{cases}\\)，",
+    "所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，",
+    "所以\\(BE=AF\\)，\\(\\angle AFB{ \\rm{ = } }\\angle NEB\\)，",
+    "〔图4〕",
+    "所以\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM{ \\rm{ = } }\\angle DBM\\)，",
+    "因为\\(\\begin{cases} \\angle AFM=\\angle DBM \\\\ \\angle AMF=\\angle DMB \\\\ AF=BD \\end{cases}\\)，",
+    "所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+    "所以\\(AM=DM\\)．",
+    "【小问2详解】",
+    "\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)，理由如下：",
+    "如图，延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，",
+    "因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)",
+    "所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+    "所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，",
+    "所以\\(BD\\parallel AF\\)，",
+    "所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+    "因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，",
+    "所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+    "所以\\(\\angle FAB=\\angle EBC\\)，",
+    "〔图5〕",
+    "因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)",
+    "所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，",
+    "所以\\(CE{ \\rm{ = } }BF\\)，\\(\\angle AFB=\\angle BEC=\\angle DBM\\)，",
+    "因为\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+    "所以\\(\\angle BEC{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+    "所以\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)．",
+    "【小问3详解】",
+    "①延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，",
+    "因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)，\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，",
+    "所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+    "所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，",
+    "所以\\(BD\\parallel AF\\)，",
+    "所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+    "因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为直角三角形，",
+    "所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+    "所以\\(\\angle FAB=\\angle EBC\\)，",
+    "〔图6〕",
+    "因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)",
+    "所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，",
+    "所以\\(CE{ \\rm{ = } }BF\\)，",
+    "所以\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)．",
+    "故答案为：\\(\\frac { 1 } { 2 }\\)．",
+    "② 因为\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+    "所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle BAF }\\)，\\(S_{ \\vartriangle AMF } =S_{ \\vartriangle DMB }\\)，",
+    "所以\\(S_{ \\vartriangle AMF } { \\rm{ + } }S_{ \\vartriangle AMB } =S_{ \\vartriangle DMB } { \\rm{ + } }S_{ \\vartriangle AMB }\\)，",
+    "所以\\(S_{ \\vartriangle ABF } =S_{ \\vartriangle ABD }\\)，",
+    "所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle ABD }\\)，",
+    "所以\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)，",
+    "故答案为：1．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【尝试应用】\n小明将两副大小不同的三角板如图所示放置，\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，连接\\(AD\\)，\\(CE\\)，直线\\(MN\\)经过点B交\\(AD\\)于M，交\\(CE\\)于N．",
+      "paper_blocks": [
+        75,
+        76
+      ]
+    },
+    {
+      "id": "fig-78",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        78
+      ]
+    },
+    {
+      "id": "fig-81",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        81
+      ]
+    },
+    {
+      "id": "fig-86",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        86
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "如图3，小明又找了两副大小相同的直角三角板，且\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，连接\\(AD\\)，\\(CE\\)，直线\\(MN\\)经过点B交\\(AD\\)于M，交\\(CE\\)于N，若点M是\\(AD\\)的中点．求：",
+      "paper_blocks": [
+        83
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(MN\\bot CE\\)，请直接写出\\(AM\\)与\\(DM\\)的数量关系；\n\n【类比迁移】",
+      "stem_text": "如图1，若\\(MN\\bot CE\\)，请直接写出\\(AM\\)与\\(DM\\)的数量关系；\n\n【类比迁移】",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "fig-81",
+        "fig-86"
+      ],
+      "requires": [],
+      "given_answer": "\\(AM=DM\\)",
+      "answer": "\\(AM=DM\\)",
+      "given_solution": "\\(AM\\)与\\(DM\\)的数量关系为\\(AM=DM\\)，理由如下：\n如图，延长\\(BM\\)到F，使得\\(BF=CE\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\n所以\\(AB{ \\rm{ = } }CB，BD=BE，\\angle ABC=\\angle DBE=90 ^ { \\circ }\\)，\n所以\\(\\angle ABM{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)，\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n因为\\(MN\\bot CE\\)，\n所以\\(\\angle BCN{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)， \\(\\angle NEB{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(\\angle ABF{ \\rm{ = } }\\angle BCE\\)，\\(\\angle DBM{ \\rm{ = } }\\angle NEB\\)，\n因为\\(\\begin{cases} BF=CE \\\\ \\angle ABF=\\angle BCE \\\\ BA=BC \\end{cases}\\)，\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(BE=AF\\)，\\(\\angle AFB{ \\rm{ = } }\\angle NEB\\)，\n〔图4〕\n所以\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM{ \\rm{ = } }\\angle DBM\\)，\n因为\\(\\begin{cases} \\angle AFM=\\angle DBM \\\\ \\angle AMF=\\angle DMB \\\\ AF=BD \\end{cases}\\)，\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(AM=DM\\)．",
+      "solution_steps": [
+        "\\(AM\\)与\\(DM\\)的数量关系为\\(AM=DM\\)，理由如下：",
+        "如图，延长\\(BM\\)到F，使得\\(BF=CE\\)，",
+        "因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，",
+        "所以\\(AB{ \\rm{ = } }CB，BD=BE，\\angle ABC=\\angle DBE=90 ^ { \\circ }\\)，",
+        "所以\\(\\angle ABM{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)，\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+        "因为\\(MN\\bot CE\\)，",
+        "所以\\(\\angle BCN{ \\rm{ + } }\\angle CBN=90 ^ { \\circ }\\)， \\(\\angle NEB{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+        "所以\\(\\angle ABF{ \\rm{ = } }\\angle BCE\\)，\\(\\angle DBM{ \\rm{ = } }\\angle NEB\\)，",
+        "因为\\(\\begin{cases} BF=CE \\\\ \\angle ABF=\\angle BCE \\\\ BA=BC \\end{cases}\\)，",
+        "所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，",
+        "所以\\(BE=AF\\)，\\(\\angle AFB{ \\rm{ = } }\\angle NEB\\)，",
+        "〔图4〕",
+        "所以\\(BD{ \\rm{ = } }AF\\)，\\(\\angle AFM{ \\rm{ = } }\\angle DBM\\)，",
+        "因为\\(\\begin{cases} \\angle AFM=\\angle DBM \\\\ \\angle AMF=\\angle DMB \\\\ AF=BD \\end{cases}\\)，",
+        "所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+        "所以\\(AM=DM\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          77,
+          78,
+          79,
+          81,
+          86
+        ],
+        "solution_block_ids": [
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，若点M是\\(AD\\)的中点，请判断\\(BM\\)与\\(CE\\)的位置关系和数量关系，并证明；（小明发现：延长线段\\(BM\\)至点F，使得\\(BM=MF\\)，连接\\(AF\\)，证明了\\(\\vartriangle ABF\\)与\\(\\vartriangle BCE\\)的关系，便可解决问题）请你按照他的思路，完成证明．\n\n【拓展应用】",
+      "stem_text": "如图2，若点M是\\(AD\\)的中点，请判断\\(BM\\)与\\(CE\\)的位置关系和数量关系，并证明；（小明发现：延长线段\\(BM\\)至点F，使得\\(BM=MF\\)，连接\\(AF\\)，证明了\\(\\vartriangle ABF\\)与\\(\\vartriangle BCE\\)的关系，便可解决问题）请你按照他的思路，完成证明．\n\n【拓展应用】",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "fig-81",
+        "fig-86"
+      ],
+      "requires": [],
+      "given_answer": "\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)",
+      "answer": "\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)",
+      "given_solution": "\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)，理由如下：\n如图，延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，\n因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，\n所以\\(BD\\parallel AF\\)，\n所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，\n所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n所以\\(\\angle FAB=\\angle EBC\\)，\n〔图5〕\n因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(CE{ \\rm{ = } }BF\\)，\\(\\angle AFB=\\angle BEC=\\angle DBM\\)，\n因为\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(\\angle BEC{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，\n所以\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)．",
+      "solution_steps": [
+        "\\(BM\\)与\\(CE\\)的位置关系和数量关系为\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)，理由如下：",
+        "如图，延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，",
+        "因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)",
+        "所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+        "所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，",
+        "所以\\(BD\\parallel AF\\)，",
+        "所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+        "因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为等腰直角三角形，",
+        "所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+        "所以\\(\\angle FAB=\\angle EBC\\)，",
+        "〔图5〕",
+        "因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)",
+        "所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，",
+        "所以\\(CE{ \\rm{ = } }BF\\)，\\(\\angle AFB=\\angle BEC=\\angle DBM\\)，",
+        "因为\\(\\angle DBM{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+        "所以\\(\\angle BEC{ \\rm{ + } }\\angle NBE=90 ^ { \\circ }\\)，",
+        "所以\\(BM\\bot CE，BM=\\frac { 1 } { 2 }CE\\)．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          78,
+          80,
+          81,
+          82,
+          86
+        ],
+        "solution_block_ids": [
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q22-P03",
+      "label": "（3）①",
+      "prompt": "\\(\\frac { BM } { CE }=\\)            ；",
+      "stem_text": "\\(\\frac { BM } { CE }=\\)            ；",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "fig-81",
+        "fig-86",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)",
+      "answer": "\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)",
+      "given_solution": "延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，\n因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)，\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，\n所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，\n所以\\(BD\\parallel AF\\)，\n所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为直角三角形，\n所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，\n所以\\(\\angle FAB=\\angle EBC\\)，\n〔图6〕\n因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)\n所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\n所以\\(CE{ \\rm{ = } }BF\\)，\n所以\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)．\n故答案为：\\(\\frac { 1 } { 2 }\\)．",
+      "solution_steps": [
+        "延长\\(BM\\)到F，使得\\(BM=MF{ \\rm{ = } }\\frac { 1 } { 2 }BF\\)，",
+        "因为\\(\\begin{cases} AM=DM \\\\ \\angle AMF=\\angle DMB \\\\ FM=BM \\end{cases}\\)，\\(\\vartriangle ABC≌\\vartriangle EBD\\)，\\(\\angle ABC=\\angle DBE=90{}^\\circ\\)，",
+        "所以\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+        "所以\\(BD{ \\rm{ = } }AF{ \\rm{ = } }BE\\)，\\(\\angle AFM=\\angle DBM\\)，",
+        "所以\\(BD\\parallel AF\\)，",
+        "所以\\(\\angle FAB{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+        "因为\\(\\vartriangle ABC\\)和\\(\\vartriangle DBE\\)为直角三角形，",
+        "所以\\(\\angle EBC{ \\rm{ + } }\\angle ABD=180 ^ { \\circ }\\)，",
+        "所以\\(\\angle FAB=\\angle EBC\\)，",
+        "〔图6〕",
+        "因为\\(\\begin{cases} AF=BE \\\\ \\angle BAF=\\angle CBE \\\\ BA=BC \\end{cases}\\)",
+        "所以\\(\\vartriangle CBE≌\\vartriangle BAF\\)，",
+        "所以\\(CE{ \\rm{ = } }BF\\)，",
+        "所以\\(\\frac { BM } { CE }=\\frac { 1 } { 2 }\\)．",
+        "故答案为：\\(\\frac { 1 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          78,
+          81,
+          83,
+          84,
+          86
+        ],
+        "solution_block_ids": [
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q22-P04",
+      "label": "（3）②",
+      "prompt": "\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=\\)            ．",
+      "stem_text": "\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=\\)            ．",
+      "material_ids": [
+        "context",
+        "fig-78",
+        "fig-81",
+        "fig-86",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)",
+      "answer": "\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)",
+      "given_solution": "因为\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\\(\\vartriangle AMF≌\\vartriangle DMB\\)，\n所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle BAF }\\)，\\(S_{ \\vartriangle AMF } =S_{ \\vartriangle DMB }\\)，\n所以\\(S_{ \\vartriangle AMF } { \\rm{ + } }S_{ \\vartriangle AMB } =S_{ \\vartriangle DMB } { \\rm{ + } }S_{ \\vartriangle AMB }\\)，\n所以\\(S_{ \\vartriangle ABF } =S_{ \\vartriangle ABD }\\)，\n所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle ABD }\\)，\n所以\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)，\n故答案为：1．",
+      "solution_steps": [
+        "因为\\(\\vartriangle CBE≌\\vartriangle BAF\\)，\\(\\vartriangle AMF≌\\vartriangle DMB\\)，",
+        "所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle BAF }\\)，\\(S_{ \\vartriangle AMF } =S_{ \\vartriangle DMB }\\)，",
+        "所以\\(S_{ \\vartriangle AMF } { \\rm{ + } }S_{ \\vartriangle AMB } =S_{ \\vartriangle DMB } { \\rm{ + } }S_{ \\vartriangle AMB }\\)，",
+        "所以\\(S_{ \\vartriangle ABF } =S_{ \\vartriangle ABD }\\)，",
+        "所以\\(S_{ \\vartriangle CBE } =S_{ \\vartriangle ABD }\\)，",
+        "所以\\(\\frac { S_{ \\Delta ABD } } { S_{ \\Delta BCE } }=1\\)，",
+        "故答案为：1．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          78,
+          81,
+          83,
+          85,
+          86
+        ],
+        "solution_block_ids": [
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      75,
+      86
+    ],
+    "solution_body_blocks": [
+      421,
+      503
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-0E0EF80A7B/paper-q22-p06.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          141.82,
+          583.64,
+          724.55
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          80.45,
+          583.64,
+          185.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q22-p22.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q22-p23.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q22-p24.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q22-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          199.09,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          744.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          80.45,
+          583.64,
+          667.73
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          80.45,
+          583.64,
+          611.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

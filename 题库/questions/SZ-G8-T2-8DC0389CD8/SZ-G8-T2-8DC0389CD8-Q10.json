@@ -1,0 +1,163 @@
+{
+  "id": "SZ-G8-T2-8DC0389CD8-Q10",
+  "paper_id": "SZ-G8-T2-8DC0389CD8",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "利用矩形性质求长度与角度",
+  "stem": "如图，在矩形ABCD中，∠BAD的平分线交BC于点E，交DC的延长线于点F，点G是EF的中点，连接CG、BG、BD、DG，下列结论：①BC=DF；②∠ABG＋∠ADG=180°；③\\(AC{ \\rm{ : } }BG=\\sqrt[] { 2 }{ \\rm{ : } }1\\)；④若\\(\\frac { AD } { AB }=\\frac { 4 } { 3 }\\)，则4S\\({}_{△}\\)\\({}_{BDG}\\)=9S\\({}_{△}\\)\\({}_{DGF}\\)．正确的有（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4个"
+    },
+    {
+      "label": "B",
+      "text": "3个"
+    },
+    {
+      "label": "C",
+      "text": "2个"
+    },
+    {
+      "label": "D",
+      "text": "1个"
+    }
+  ],
+  "figures": [
+    "assets/figures/bc/bc6d8e908b6c67ed6556a363b9958308b36da6cb6e33e63bb62af5201c960009.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】先求出∠BAE=45°，判断出△ABE是等腰直角三角形，根据等腰直角三角形的性质可得AB=BE，∠AEB=45°，从而得到BE=CD，故①正确；由于∠BGE=∠DGC，得到∠ABG+∠ADG =180°，故②正确；先根据矩形的对角线相等得：AC=BD，证明：△DCG≌△BEG，得DG=BG，∠CGD=∠EGB，得△DGB是等腰直角三角形，根据勾股定理可得，故③正确；．过点G作GH⊥CD于H，设AD=4x=DFF，AB=3x，由勾股定理可求BD=5x，由等腰直角三角形的性质可得HG=CH=FH=\\(\\frac { 1 } { 2 }\\)x，DG=GB=\\(\\frac { 5\\sqrt[] { 2 } } { 2 }x\\)，由三角形面积公式可求，故④错误．\n【详解】解：∵四边形ABCD是矩形，\n∴AB=CD，AD=BC，∠BAD=∠ABC=∠BCD=∠ADC=90°，AC=BD，\n∵AE平分∠BAD，\n∴∠BAE=∠DAE=45°，\n∴∠F=∠FAD，\n∴AD=DF，\n∴BC=DF，故①正确；\n∵四边形ABCD是矩形，\n∴AC=BD，\n∵点G为EF的中点，\n∴CG=EG=FG，∠FCG=45°，\n∴∠BEG=∠DCG=135°，\n∵∠BAE=45°，\n∴BE=AB=CD，\n在△DCG和△BEG中，\n\\(\\begin{cases} BE=CD \\\\ \\angle BEG=\\angle DCG \\\\ CG=EG \\end{cases}\\)，\n∴△DCG≌△BEG（SAS）．\n∴DG=BG，∠CGD=∠EGB，\n∴∠CGD+∠AGD=∠EGB+∠AGD=90°，\n∴△DGB是等腰直角三角形，\n∴BD=\\(\\sqrt[] { 2 }\\)BG，\n∴AC=\\(\\sqrt[] { 2 }\\)BG，\n∴AC:BG=\\(\\sqrt[] { 2 }\\):1，故③正确；\n∵△DCG≌△BEG\n∴∠CBG=∠CDG，\n∴∠ABG+∠ADG=∠ABC+∠CBG+∠ADC-∠CDG=∠ABC+∠ADC=180°，\n故②正确；\n过点G作GH⊥CD于H，\n〔图2〕\n∵3AD=4AB，\n∴设AD=4x=DF，AB=3x，\n∴CF=CE=x，\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }{ \\rm{ = } }5x\\)，\n∵△CFG，△GBD是等腰直角三角形，\n∴HG=CH=FH=\\(\\frac { 1 } { 2 }\\)x，DG=GB=\\(\\frac { 5\\sqrt[] { 2 } } { 2 }\\)x，\n∴S\\({}_{△}\\)\\({}_{DGF}\\)=\\(\\frac { 1 } { 2 }\\)DF•HG=x\\({}^{2}\\)，S\\({}_{△}\\)\\({}_{DGB}\\)=\\(\\frac { 1 } { 2 }\\)DG•GB=\\(\\frac { 25 } { 4 }\\)x\\({}^{2}\\)，\n∴4S\\({}_{△}\\)\\({}_{BDG}\\)=25S\\({}_{△}\\)\\({}_{DGF}\\)；故④错误；\n故选：B．\n【点睛】本题考查了矩形的性质、全等三角形的判定与性质、等腰直角三角形的判定与性质；熟练掌握矩形的性质，证明三角形全等和等腰直角三角形是解决问题的关键．",
+  "given_solution_figures": [
+    "assets/figures/bc/bc6d8e908b6c67ed6556a363b9958308b36da6cb6e33e63bb62af5201c960009.png",
+    "assets/figures/14/14ebd93f67c58f34e81d6dd3d0b5bae5c31d412c6783bd38e1c6acdc91a10ee9.png"
+  ],
+  "solution": "解：∵四边形ABCD是矩形，\n∴AB=CD，AD=BC，∠BAD=∠ABC=∠BCD=∠ADC=90°，AC=BD，\n∵AE平分∠BAD，\n∴∠BAE=∠DAE=45°，\n∴∠F=∠FAD，\n∴AD=DF，\n∴BC=DF，故①正确；\n∵四边形ABCD是矩形，\n∴AC=BD，\n∵点G为EF的中点，\n∴CG=EG=FG，∠FCG=45°，\n∴∠BEG=∠DCG=135°，\n∵∠BAE=45°，\n∴BE=AB=CD，\n在△DCG和△BEG中，\n\\(\\begin{cases} BE=CD \\\\ \\angle BEG=\\angle DCG \\\\ CG=EG \\end{cases}\\)，\n∴△DCG≌△BEG（SAS）．\n∴DG=BG，∠CGD=∠EGB，\n∴∠CGD+∠AGD=∠EGB+∠AGD=90°，\n∴△DGB是等腰直角三角形，\n∴BD=\\(\\sqrt[] { 2 }\\)BG，\n∴AC=\\(\\sqrt[] { 2 }\\)BG，\n∴AC:BG=\\(\\sqrt[] { 2 }\\):1，故③正确；\n∵△DCG≌△BEG\n∴∠CBG=∠CDG，\n∴∠ABG+∠ADG=∠ABC+∠CBG+∠ADC-∠CDG=∠ABC+∠ADC=180°，\n故②正确；\n过点G作GH⊥CD于H，\n〔图2〕\n∵3AD=4AB，\n∴设AD=4x=DF，AB=3x，\n∴CF=CE=x，\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }{ \\rm{ = } }5x\\)，\n∵△CFG，△GBD是等腰直角三角形，\n∴HG=CH=FH=\\(\\frac { 1 } { 2 }\\)x，DG=GB=\\(\\frac { 5\\sqrt[] { 2 } } { 2 }\\)x，\n∴S\\({}_{△}\\)\\({}_{DGF}\\)=\\(\\frac { 1 } { 2 }\\)DF•HG=x\\({}^{2}\\)，S\\({}_{△}\\)\\({}_{DGB}\\)=\\(\\frac { 1 } { 2 }\\)DG•GB=\\(\\frac { 25 } { 4 }\\)x\\({}^{2}\\)，\n∴4S\\({}_{△}\\)\\({}_{BDG}\\)=25S\\({}_{△}\\)\\({}_{DGF}\\)；故④错误；\n故选：B．",
+  "solution_steps": [
+    "解：∵四边形ABCD是矩形，",
+    "∴AB=CD，AD=BC，∠BAD=∠ABC=∠BCD=∠ADC=90°，AC=BD，",
+    "∵AE平分∠BAD，",
+    "∴∠BAE=∠DAE=45°，",
+    "∴∠F=∠FAD，",
+    "∴AD=DF，",
+    "∴BC=DF，故①正确；",
+    "∵四边形ABCD是矩形，",
+    "∴AC=BD，",
+    "∵点G为EF的中点，",
+    "∴CG=EG=FG，∠FCG=45°，",
+    "∴∠BEG=∠DCG=135°，",
+    "∵∠BAE=45°，",
+    "∴BE=AB=CD，",
+    "在△DCG和△BEG中，",
+    "\\(\\begin{cases} BE=CD \\\\ \\angle BEG=\\angle DCG \\\\ CG=EG \\end{cases}\\)，",
+    "∴△DCG≌△BEG（SAS）．",
+    "∴DG=BG，∠CGD=∠EGB，",
+    "∴∠CGD+∠AGD=∠EGB+∠AGD=90°，",
+    "∴△DGB是等腰直角三角形，",
+    "∴BD=\\(\\sqrt[] { 2 }\\)BG，",
+    "∴AC=\\(\\sqrt[] { 2 }\\)BG，",
+    "∴AC:BG=\\(\\sqrt[] { 2 }\\):1，故③正确；",
+    "∵△DCG≌△BEG",
+    "∴∠CBG=∠CDG，",
+    "∴∠ABG+∠ADG=∠ABC+∠CBG+∠ADC-∠CDG=∠ABC+∠ADC=180°，",
+    "故②正确；",
+    "过点G作GH⊥CD于H，",
+    "〔图2〕",
+    "∵3AD=4AB，",
+    "∴设AD=4x=DF，AB=3x，",
+    "∴CF=CE=x，\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }{ \\rm{ = } }5x\\)，",
+    "∵△CFG，△GBD是等腰直角三角形，",
+    "∴HG=CH=FH=\\(\\frac { 1 } { 2 }\\)x，DG=GB=\\(\\frac { 5\\sqrt[] { 2 } } { 2 }\\)x，",
+    "∴S\\({}_{△}\\)\\({}_{DGF}\\)=\\(\\frac { 1 } { 2 }\\)DF•HG=x\\({}^{2}\\)，S\\({}_{△}\\)\\({}_{DGB}\\)=\\(\\frac { 1 } { 2 }\\)DG•GB=\\(\\frac { 25 } { 4 }\\)x\\({}^{2}\\)，",
+    "∴4S\\({}_{△}\\)\\({}_{BDG}\\)=25S\\({}_{△}\\)\\({}_{DGF}\\)；故④错误；",
+    "故选：B．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      29,
+      31
+    ],
+    "solution_body_blocks": [
+      111,
+      154
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-8DC0389CD8/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          260.91,
+          583.64,
+          501.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-8DC0389CD8/solution-q10-p05.webp",
+      "assets/SZ-G8-T2-8DC0389CD8/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-8DC0389CD8/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          697.73,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          749.09
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          603.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.02"
+  ],
+  "exam_ids": [
+    "E.G05.02.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“利用矩形性质求长度与角度”。",
+  "tag_source": "题文匹配"
+}

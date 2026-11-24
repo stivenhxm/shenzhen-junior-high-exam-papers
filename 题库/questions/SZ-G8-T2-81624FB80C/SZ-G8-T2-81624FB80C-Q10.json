@@ -1,0 +1,185 @@
+{
+  "id": "SZ-G8-T2-81624FB80C-Q10",
+  "paper_id": "SZ-G8-T2-81624FB80C",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，正方形ABCD的顶点A，B分别在x轴，y轴上，A（﹣4，0），G（0，4），BC的中点E恰好落在x轴上，CD交y轴于点F，连接DG，DO．给出判断：①BF＝AE；②CD平分∠ODG；③∠AEB+∠CDG＝90°； ④△ADO是等腰三角形．其中正确的是（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "①②③"
+    },
+    {
+      "label": "B",
+      "text": "①②④"
+    },
+    {
+      "label": "C",
+      "text": "②③④"
+    },
+    {
+      "label": "D",
+      "text": "①③④"
+    }
+  ],
+  "figures": [
+    "assets/figures/42/4231a22fbba7b2b15cfa3f586e8b6387bb92c01cb59bf3a4ea7ffd880ffd39fc.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "【分析】根据正方形的性质，可得\\(\\vartriangle ABE≌\\vartriangle BCF\\)，从而得到①③正确，延长GD，过A作GD延长线的垂线并与GD的延长线交于点H，再由A，G的坐标，可推出\\(\\vartriangle ADH≌\\vartriangle ABO\\)，得出D是HG的中点，最后得出△ADO是等腰三角形进而判断④，先假设CD平分∠ODG，根据已知条件得到\\(AO=OD\\)，根据点的坐标求得\\(AO\\ne OD\\)进而可以判断②．\n【详解】\\(\\because\\)\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(\\angle ABC=\\angle BCD=90{}^\\circ\\)\n又\\(\\angle ABO+\\angle EBO=\\angle ABO+\\angle BAO\\) \\(=90{}^\\circ\\)\n\\(\\therefore \\angle EBO=\\angle BAO\\),\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle EBO=\\angle BAO \\\\ \\angle BCF=\\angle ABE=90{}^\\circ \\\\ BC=AB \\end{cases}\\)\n\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore BF=AE\\)故①正确；\n\\(\\because \\angle DFG=\\angle CFB,\\angle DGF=90{}^\\circ\\)\n\\(\\therefore \\angle CDG=\\angle CBF\\)又\\(\\angle AEB+\\angle CBF=90{}^\\circ\\)\n\\(\\therefore \\angle AEB+\\angle CDG=90{}^\\circ\\)\n故③正确；\n延长\\(GD\\)，过\\(A\\)作\\(GD\\)延长线的垂线并与\\(GD\\)的长线交于点\\(H\\)，则\\(HA\\bot AO\\)\n〔图2〕\n\\(\\because AH=OG=4\\)\n\\(\\therefore AH=AO\\)\n\\(\\begin{cases} AD=AB \\\\ AH=AO \\end{cases}\\)\n\\(\\therefore Rt\\vartriangle ADH≌Rt\\vartriangle ABO\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)\n\\(\\therefore DH=OB\\)\n\\(\\because\\)\\(\\vartriangle ABE≌\\vartriangle BCF\\)\n\\(\\therefore BE=CF\\)\n\\(\\because\\)\\(E\\)是\\(BC\\)的中点\n\\(\\therefore BE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }DC\\)\n\\(\\therefore CF=DF=\\frac { 1 } { 2 }DC\\)\n\\(\\therefore BE=DF\\)\n\\(\\because \\angle DFG+\\angle GDF=90{}^\\circ\\)，\n由①可知\\(\\angle AEB+\\angle CDG=90{}^\\circ\\)\n\\(\\because \\angle CFB=\\angle DFG\\)\n\\(\\therefore \\angle DFG=\\angle BEO\\)\n\\(\\because \\angle DGF=\\angle OEB=90{}^\\circ\\)\n\\(\\therefore \\vartriangle DFG≌\\vartriangle BEO\\)\n\\(\\therefore DG=OB\\)\n\\(\\therefore BE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }CD=CF=FD\\)\n\\(\\therefore AH=AO\\)\n\\(\\therefore\\) 四边形\\(AHGO\\) 是正方形\n\\(\\therefore HG=4\\)\n\\(\\therefore DH=OB=2\\)\n\\(\\therefore DG=2\\)\n\\(\\therefore DH=DG\\)\n\\(\\therefore D(-2,4)\\)\n\\(\\because HA=OG,\\angle H=\\angle DGO\\)\n\\(\\therefore Rt\\vartriangle AHD≌Rt\\vartriangle OGD\\)\n\\(\\therefore\\)\\(AD=DO\\)\n\\(\\therefore \\vartriangle ADO\\)是等腰三角形，\n故④正确：\n若CD平分∠ODG\n则\\(\\angle CDG=\\angle CDO\\)\n\\(\\because\\)\\(\\angle AEB+\\angle CDG=90{}^\\circ\\)\n\\(\\therefore \\angle AEB+\\angle CDO=90{}^\\circ\\)\n\\(\\because \\angle EAB+\\angle AEB=90{}^\\circ\\)\n\\(\\therefore \\angle CDO=\\angle EAB\\)\n\\(\\because \\angle CDO+\\angle OAD=90{}^\\circ ,\\angle EAB+\\angle DAO=90{}^\\circ\\)\n\\(\\therefore OA=OD\\)\n\\(\\because A(-4,0),D(-2,4)\\)\n\\(\\therefore OA=4,OD=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)\n\\(\\therefore OA\\ne OD\\)\n故②不正确\n综上所述，①③④正确．\n故选D．\n【点睛】本题考查了正方形的性质，三角形全等的性质与判定，勾股定理，熟悉图形的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/31/31b8fc0377ef3d5261fd1e383fdc0265477a9684b80a00bcfa30d67b3f30decf.png",
+    "assets/figures/29/2945bd175a5832290bd33952aa3516cf973c7a459bfeed86b1ed8942d46c143c.png"
+  ],
+  "solution": "\\(\\because\\)\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(\\angle ABC=\\angle BCD=90{}^\\circ\\)\n又\\(\\angle ABO+\\angle EBO=\\angle ABO+\\angle BAO\\) \\(=90{}^\\circ\\)\n\\(\\therefore \\angle EBO=\\angle BAO\\),\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle EBO=\\angle BAO \\\\ \\angle BCF=\\angle ABE=90{}^\\circ \\\\ BC=AB \\end{cases}\\)\n\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore BF=AE\\)故①正确；\n\\(\\because \\angle DFG=\\angle CFB,\\angle DGF=90{}^\\circ\\)\n\\(\\therefore \\angle CDG=\\angle CBF\\)又\\(\\angle AEB+\\angle CBF=90{}^\\circ\\)\n\\(\\therefore \\angle AEB+\\angle CDG=90{}^\\circ\\)\n故③正确；\n延长\\(GD\\)，过\\(A\\)作\\(GD\\)延长线的垂线并与\\(GD\\)的长线交于点\\(H\\)，则\\(HA\\bot AO\\)\n〔图2〕\n\\(\\because AH=OG=4\\)\n\\(\\therefore AH=AO\\)\n\\(\\begin{cases} AD=AB \\\\ AH=AO \\end{cases}\\)\n\\(\\therefore Rt\\vartriangle ADH≌Rt\\vartriangle ABO\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)\n\\(\\therefore DH=OB\\)\n\\(\\because\\)\\(\\vartriangle ABE≌\\vartriangle BCF\\)\n\\(\\therefore BE=CF\\)\n\\(\\because\\)\\(E\\)是\\(BC\\)的中点\n\\(\\therefore BE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }DC\\)\n\\(\\therefore CF=DF=\\frac { 1 } { 2 }DC\\)\n\\(\\therefore BE=DF\\)\n\\(\\because \\angle DFG+\\angle GDF=90{}^\\circ\\)，\n由①可知\\(\\angle AEB+\\angle CDG=90{}^\\circ\\)\n\\(\\because \\angle CFB=\\angle DFG\\)\n\\(\\therefore \\angle DFG=\\angle BEO\\)\n\\(\\because \\angle DGF=\\angle OEB=90{}^\\circ\\)\n\\(\\therefore \\vartriangle DFG≌\\vartriangle BEO\\)\n\\(\\therefore DG=OB\\)\n\\(\\therefore BE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }CD=CF=FD\\)\n\\(\\therefore AH=AO\\)\n\\(\\therefore\\) 四边形\\(AHGO\\) 是正方形\n\\(\\therefore HG=4\\)\n\\(\\therefore DH=OB=2\\)\n\\(\\therefore DG=2\\)\n\\(\\therefore DH=DG\\)\n\\(\\therefore D(-2,4)\\)\n\\(\\because HA=OG,\\angle H=\\angle DGO\\)\n\\(\\therefore Rt\\vartriangle AHD≌Rt\\vartriangle OGD\\)\n\\(\\therefore\\)\\(AD=DO\\)\n\\(\\therefore \\vartriangle ADO\\)是等腰三角形，\n故④正确：\n若CD平分∠ODG\n则\\(\\angle CDG=\\angle CDO\\)\n\\(\\because\\)\\(\\angle AEB+\\angle CDG=90{}^\\circ\\)\n\\(\\therefore \\angle AEB+\\angle CDO=90{}^\\circ\\)\n\\(\\because \\angle EAB+\\angle AEB=90{}^\\circ\\)\n\\(\\therefore \\angle CDO=\\angle EAB\\)\n\\(\\because \\angle CDO+\\angle OAD=90{}^\\circ ,\\angle EAB+\\angle DAO=90{}^\\circ\\)\n\\(\\therefore OA=OD\\)\n\\(\\because A(-4,0),D(-2,4)\\)\n\\(\\therefore OA=4,OD=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)\n\\(\\therefore OA\\ne OD\\)\n故②不正确\n综上所述，①③④正确．\n故选D．",
+  "solution_steps": [
+    "\\(\\because\\)\\(ABCD\\)是正方形，",
+    "\\(\\therefore\\)\\(\\angle ABC=\\angle BCD=90{}^\\circ\\)",
+    "又\\(\\angle ABO+\\angle EBO=\\angle ABO+\\angle BAO\\) \\(=90{}^\\circ\\)",
+    "\\(\\therefore \\angle EBO=\\angle BAO\\),",
+    "在\\(\\vartriangle ABE\\)和\\(\\vartriangle BCF\\)中，",
+    "\\(\\begin{cases} \\angle EBO=\\angle BAO \\\\ \\angle BCF=\\angle ABE=90{}^\\circ \\\\ BC=AB \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+    "\\(\\therefore BF=AE\\)故①正确；",
+    "\\(\\because \\angle DFG=\\angle CFB,\\angle DGF=90{}^\\circ\\)",
+    "\\(\\therefore \\angle CDG=\\angle CBF\\)又\\(\\angle AEB+\\angle CBF=90{}^\\circ\\)",
+    "\\(\\therefore \\angle AEB+\\angle CDG=90{}^\\circ\\)",
+    "故③正确；",
+    "延长\\(GD\\)，过\\(A\\)作\\(GD\\)延长线的垂线并与\\(GD\\)的长线交于点\\(H\\)，则\\(HA\\bot AO\\)",
+    "〔图2〕",
+    "\\(\\because AH=OG=4\\)",
+    "\\(\\therefore AH=AO\\)",
+    "\\(\\begin{cases} AD=AB \\\\ AH=AO \\end{cases}\\)",
+    "\\(\\therefore Rt\\vartriangle ADH≌Rt\\vartriangle ABO\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)",
+    "\\(\\therefore DH=OB\\)",
+    "\\(\\because\\)\\(\\vartriangle ABE≌\\vartriangle BCF\\)",
+    "\\(\\therefore BE=CF\\)",
+    "\\(\\because\\)\\(E\\)是\\(BC\\)的中点",
+    "\\(\\therefore BE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }DC\\)",
+    "\\(\\therefore CF=DF=\\frac { 1 } { 2 }DC\\)",
+    "\\(\\therefore BE=DF\\)",
+    "\\(\\because \\angle DFG+\\angle GDF=90{}^\\circ\\)，",
+    "由①可知\\(\\angle AEB+\\angle CDG=90{}^\\circ\\)",
+    "\\(\\because \\angle CFB=\\angle DFG\\)",
+    "\\(\\therefore \\angle DFG=\\angle BEO\\)",
+    "\\(\\because \\angle DGF=\\angle OEB=90{}^\\circ\\)",
+    "\\(\\therefore \\vartriangle DFG≌\\vartriangle BEO\\)",
+    "\\(\\therefore DG=OB\\)",
+    "\\(\\therefore BE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }CD=CF=FD\\)",
+    "\\(\\therefore AH=AO\\)",
+    "\\(\\therefore\\) 四边形\\(AHGO\\) 是正方形",
+    "\\(\\therefore HG=4\\)",
+    "\\(\\therefore DH=OB=2\\)",
+    "\\(\\therefore DG=2\\)",
+    "\\(\\therefore DH=DG\\)",
+    "\\(\\therefore D(-2,4)\\)",
+    "\\(\\because HA=OG,\\angle H=\\angle DGO\\)",
+    "\\(\\therefore Rt\\vartriangle AHD≌Rt\\vartriangle OGD\\)",
+    "\\(\\therefore\\)\\(AD=DO\\)",
+    "\\(\\therefore \\vartriangle ADO\\)是等腰三角形，",
+    "故④正确：",
+    "若CD平分∠ODG",
+    "则\\(\\angle CDG=\\angle CDO\\)",
+    "\\(\\because\\)\\(\\angle AEB+\\angle CDG=90{}^\\circ\\)",
+    "\\(\\therefore \\angle AEB+\\angle CDO=90{}^\\circ\\)",
+    "\\(\\because \\angle EAB+\\angle AEB=90{}^\\circ\\)",
+    "\\(\\therefore \\angle CDO=\\angle EAB\\)",
+    "\\(\\because \\angle CDO+\\angle OAD=90{}^\\circ ,\\angle EAB+\\angle DAO=90{}^\\circ\\)",
+    "\\(\\therefore OA=OD\\)",
+    "\\(\\because A(-4,0),D(-2,4)\\)",
+    "\\(\\therefore OA=4,OD=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)",
+    "\\(\\therefore OA\\ne OD\\)",
+    "故②不正确",
+    "综上所述，①③④正确．",
+    "故选D．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      25,
+      27
+    ],
+    "solution_body_blocks": [
+      114,
+      180
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-81624FB80C/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          159.55,
+          583.64,
+          415.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-81624FB80C/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-81624FB80C/solution-q10-p07.webp",
+      "assets/SZ-G8-T2-81624FB80C/solution-q10-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          268.64,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          754.55
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          727.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "题文匹配"
+}

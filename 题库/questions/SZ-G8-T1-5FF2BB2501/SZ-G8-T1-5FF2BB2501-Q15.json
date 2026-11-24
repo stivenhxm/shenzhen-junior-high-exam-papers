@@ -1,0 +1,227 @@
+{
+  "id": "SZ-G8-T1-5FF2BB2501-Q15",
+  "paper_id": "SZ-G8-T1-5FF2BB2501",
+  "number": 15,
+  "type": "解答题",
+  "points": 6.0,
+  "title": "代入或整体替换求代数式的值",
+  "stem": "（6分）求代数式\\(a+\\sqrt[] { a ^ { 2 } -2a+1 }\\)的值，其中\\(a=-2022\\).下面是小芳和小亮的解题过程，都是把含有字母式子先开方再进行运算的方法，请认真思考、理解解答过程，回答下列问题.\n小芳：解：原式\\(=a+\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=a+1-a=1\\)；\n小亮：解：原式\\(=a+\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=a+a-1=-4045\\).\n（1）______的解法是错误的；\n（2）求代数式\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)的值，其中\\(a=4-\\sqrt[] { 5 }\\).",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（6分）求代数式\\(a+\\sqrt[] { a ^ { 2 } -2a+1 }\\)的值，其中\\(a=-2022\\).下面是小芳和小亮的解题过程，都是把含有字母式子先开方再进行运算的方法，请认真思考、理解解答过程，回答下列问题.\n小芳：解：原式\\(=a+\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=a+1-a=1\\)；\n小亮：解：原式\\(=a+\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=a+a-1=-4045\\).",
+      "paper_blocks": [
+        35,
+        36,
+        37
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q15-P01",
+      "label": "（1）",
+      "prompt": "______的解法是错误的；",
+      "stem_text": "______的解法是错误的；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "小亮",
+      "given_solution": "∵\\(a=-2022\\)，\n∴\\(a-1=-2022-1=-2023\\le 0\\)，\n∴\\(\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=1-a\\)，\n∴小亮的解法是错误的，\n故答案为：小亮；",
+      "solution_steps": [
+        "∵\\(a=-2022\\)，",
+        "∴\\(a-1=-2022-1=-2023\\le 0\\)，",
+        "∴\\(\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=1-a\\)，",
+        "∴小亮的解法是错误的，",
+        "故答案为：小亮；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          35,
+          36,
+          37,
+          38
+        ],
+        "solution_block_ids": [
+          182,
+          183,
+          184,
+          185,
+          186
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          10,
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“代数式 a+ a^ 2 -2a+1 的值”。利用已知数值或整体关系求式值。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q15-P02",
+      "label": "（2）",
+      "prompt": "求代数式\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)的值，其中\\(a=4-\\sqrt[] { 5 }\\).",
+      "stem_text": "求代数式\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)的值，其中\\(a=4-\\sqrt[] { 5 }\\).",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\)",
+      "given_solution": "∵\\(a=4-\\sqrt[] { 5 }\\)，\n∴\\(a-3=4-\\sqrt[] { 5 }-3=1-\\sqrt[] { 5 } < 0\\)，\n∴\\(\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }=3-a\\)，\n则\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)\n\\(=a+2\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }\\)\n\\(=a+2\\left ( { 3-a } \\right )\\)\n\\(=6-a\\)，\n当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\).",
+      "solution_steps": [
+        "∵\\(a=4-\\sqrt[] { 5 }\\)，",
+        "∴\\(a-3=4-\\sqrt[] { 5 }-3=1-\\sqrt[] { 5 } < 0\\)，",
+        "∴\\(\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }=3-a\\)，",
+        "则\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)",
+        "\\(=a+2\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }\\)",
+        "\\(=a+2\\left ( { 3-a } \\right )\\)",
+        "\\(=6-a\\)，",
+        "当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\)."
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          35,
+          36,
+          37,
+          39
+        ],
+        "solution_block_ids": [
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“代数式 a+2 a^ 2 -6a+9 的值”。利用已知数值或整体关系求式值。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）小亮\n（2）当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\)",
+  "given_solution": "【解答】解：（1）∵\\(a=-2022\\)，\n∴\\(a-1=-2022-1=-2023\\le 0\\)，\n∴\\(\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=1-a\\)，\n∴小亮的解法是错误的，\n故答案为：小亮；\n（2）∵\\(a=4-\\sqrt[] { 5 }\\)，\n∴\\(a-3=4-\\sqrt[] { 5 }-3=1-\\sqrt[] { 5 } < 0\\)，\n∴\\(\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }=3-a\\)，\n则\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)\n\\(=a+2\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }\\)\n\\(=a+2\\left ( { 3-a } \\right )\\)\n\\(=6-a\\)，\n当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\).",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "解：（1）∵\\(a=-2022\\)，",
+    "∴\\(a-1=-2022-1=-2023\\le 0\\)，",
+    "∴\\(\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=1-a\\)，",
+    "∴小亮的解法是错误的，",
+    "故答案为：小亮；",
+    "（2）∵\\(a=4-\\sqrt[] { 5 }\\)，",
+    "∴\\(a-3=4-\\sqrt[] { 5 }-3=1-\\sqrt[] { 5 } < 0\\)，",
+    "∴\\(\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }=3-a\\)，",
+    "则\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)",
+    "\\(=a+2\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }\\)",
+    "\\(=a+2\\left ( { 3-a } \\right )\\)",
+    "\\(=6-a\\)，",
+    "当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\)."
+  ],
+  "solution": "解：（1）∵\\(a=-2022\\)，\n∴\\(a-1=-2022-1=-2023\\le 0\\)，\n∴\\(\\sqrt[] { \\left ( { a-1 } \\right ) ^ { 2 } }=1-a\\)，\n∴小亮的解法是错误的，\n故答案为：小亮；\n（2）∵\\(a=4-\\sqrt[] { 5 }\\)，\n∴\\(a-3=4-\\sqrt[] { 5 }-3=1-\\sqrt[] { 5 } < 0\\)，\n∴\\(\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }=3-a\\)，\n则\\(a+2\\sqrt[] { a ^ { 2 } -6a+9 }\\)\n\\(=a+2\\sqrt[] { \\left ( { a-3 } \\right ) ^ { 2 } }\\)\n\\(=a+2\\left ( { 3-a } \\right )\\)\n\\(=6-a\\)，\n当\\(a=4-\\sqrt[] { 5 }\\)时，原式\\(=6-\\left ( { 4-\\sqrt[] { 5 } } \\right )=2+\\sqrt[] { 5 }\\).",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "paper_body_blocks": [
+      35,
+      39
+    ],
+    "solution_body_blocks": [
+      182,
+      194
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5FF2BB2501/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          311.82,
+          583.64,
+          461.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5FF2BB2501/solution-q15-p10.webp",
+      "assets/SZ-G8-T1-5FF2BB2501/solution-q15-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          698.18,
+          583.64,
+          761.36
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          67.73,
+          583.64,
+          336.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N03.01"
+  ],
+  "exam_ids": [
+    "E.N03.01.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "公共材料含“代数式 a+ a^ 2 -2a+1 的值”。利用已知数值或整体关系求式值。 题面含“代数式 a+2 a^ 2 -6a+9 的值”。利用已知数值或整体关系求式值。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

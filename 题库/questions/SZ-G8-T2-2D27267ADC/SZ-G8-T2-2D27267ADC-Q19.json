@@ -1,0 +1,237 @@
+{
+  "id": "SZ-G8-T2-2D27267ADC-Q19",
+  "paper_id": "SZ-G8-T2-2D27267ADC",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，在△ABC中，点E是边AC上一点，线段BE垂直于∠BAC的平分线于点D，点M为边BC的中点，连接DM．\n(1)求证: DM＝\\(\\frac { 1 } { 2 }\\)CE；\n(2)若AD＝6，BD＝8，DM＝2，求AC的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/26/26b74b94f263623314aa72f9ecefe6048c01789914d7ffd88a5e41d4524fa8e7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析  （2）AC=14",
+  "answer": "（1）见解析  （2）AC=14",
+  "given_solution": "【分析】（1）证△BAD≌△EAD，推出AB=AE，BD=DE，根据三角形的中位线性质得出DM=\\(\\frac { 1 } { 2 }\\)CE即可；\n（2）根据勾股定理求出AB，求出AE，根据三角形的中位线求出CE，即可得出答案．\n【详解】∵AD⊥BE，\n∴∠ADB=∠ADE=90°，\n∵AD为∠BAC的平分线，\n∴∠BAD=∠EAD，\n在△BAD和△EAD中，\n\\(\\begin{cases} \\angle BAD＝\\angle EAD \\\\ AD＝AD \\\\ \\angle ADB＝\\angle ADE \\end{cases}\\) ，\n∴△BAD≌△EAD（SAS），\n∴AB=AE，BD=DE，\n∵M为BC的中点，\n∴DM=\\(\\frac { 1 } { 2 }\\)CE\n（2）∵在Rt△ADB中，∠ADB=90°，AD=6，BD=8，\n∴由勾股定理得：AE=AB=\\(\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵DM=2，DM=\\(\\frac { 1 } { 2 }\\)CE，\n∴CE=4，\n∴AC=10+4=14．\n【点睛】本题考查了全等三角形的性质和判定，三角形的中位线，勾股定理的应用，解此题的关键是推出△BAD≌△EAD，题目比较好，难度适中．",
+  "given_solution_figures": [
+    "assets/figures/c2/c228a73dc8493fa30a54c210787ce7227b7ba0a7484809ddb90a28b33068c276.png"
+  ],
+  "solution": "∵AD⊥BE，\n∴∠ADB=∠ADE=90°，\n∵AD为∠BAC的平分线，\n∴∠BAD=∠EAD，\n在△BAD和△EAD中，\n\\(\\begin{cases} \\angle BAD＝\\angle EAD \\\\ AD＝AD \\\\ \\angle ADB＝\\angle ADE \\end{cases}\\) ，\n∴△BAD≌△EAD（ASA），\n∴AB=AE，BD=DE，\n∵M为BC的中点，\n∴DM=\\(\\frac { 1 } { 2 }\\)CE\n（2）∵在Rt△ADB中，∠ADB=90°，AD=6，BD=8，\n∴由勾股定理得：AE=AB=\\(\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵DM=2，DM=\\(\\frac { 1 } { 2 }\\)CE，\n∴CE=4，\n∴AC=10+4=14．",
+  "solution_steps": [
+    "∵AD⊥BE，",
+    "∴∠ADB=∠ADE=90°，",
+    "∵AD为∠BAC的平分线，",
+    "∴∠BAD=∠EAD，",
+    "在△BAD和△EAD中，",
+    "\\(\\begin{cases} \\angle BAD＝\\angle EAD \\\\ AD＝AD \\\\ \\angle ADB＝\\angle ADE \\end{cases}\\) ，",
+    "∴△BAD≌△EAD（ASA），",
+    "∴AB=AE，BD=DE，",
+    "∵M为BC的中点，",
+    "∴DM=\\(\\frac { 1 } { 2 }\\)CE",
+    "（2）∵在Rt△ADB中，∠ADB=90°，AD=6，BD=8，",
+    "∴由勾股定理得：AE=AB=\\(\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+    "∵DM=2，DM=\\(\\frac { 1 } { 2 }\\)CE，",
+    "∴CE=4，",
+    "∴AC=10+4=14．"
+  ],
+  "solution_origin": "source_checked_with_correction",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在△ABC中，点E是边AC上一点，线段BE垂直于∠BAC的平分线于点D，点M为边BC的中点，连接DM．",
+      "paper_blocks": [
+        44
+      ]
+    },
+    {
+      "id": "fig-47",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        47
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-2D27267ADC-Q19-P01",
+      "label": "(1)",
+      "prompt": "求证: DM＝\\(\\frac { 1 } { 2 }\\)CE；",
+      "stem_text": "求证: DM＝\\(\\frac { 1 } { 2 }\\)CE；",
+      "material_ids": [
+        "context",
+        "fig-47"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "∵AD⊥BE，\n∴∠ADB=∠ADE=90°，\n∵AD为∠BAC的平分线，\n∴∠BAD=∠EAD，\n在△BAD和△EAD中，\n\\(\\begin{cases} \\angle BAD＝\\angle EAD \\\\ AD＝AD \\\\ \\angle ADB＝\\angle ADE \\end{cases}\\) ，\n∴△BAD≌△EAD（SAS），\n∴AB=AE，BD=DE，\n∵M为BC的中点，\n∴DM=\\(\\frac { 1 } { 2 }\\)CE\n",
+      "solution_steps": [
+        "∵AD⊥BE，",
+        "∴∠ADB=∠ADE=90°，",
+        "∵AD为∠BAC的平分线，",
+        "∴∠BAD=∠EAD，",
+        "在△BAD和△EAD中，",
+        "\\(\\begin{cases} \\angle BAD＝\\angle EAD \\\\ AD＝AD \\\\ \\angle ADB＝\\angle ADE \\end{cases}\\) ，",
+        "∴△BAD≌△EAD（ASA），",
+        "∴AB=AE，BD=DE，",
+        "∵M为BC的中点，",
+        "∴DM=\\(\\frac { 1 } { 2 }\\)CE"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          44,
+          45,
+          47
+        ],
+        "solution_block_ids": [
+          208,
+          209
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "详解用两组等角及公共夹边AD判定全等，判定依据应为ASA。",
+      "solution_origin": "source_checked_with_correction",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2D27267ADC-Q19-P02",
+      "label": "(2)",
+      "prompt": "若AD＝6，BD＝8，DM＝2，求AC的长．",
+      "stem_text": "若AD＝6，BD＝8，DM＝2，求AC的长．",
+      "material_ids": [
+        "context",
+        "fig-47"
+      ],
+      "requires": [],
+      "given_answer": "AC=14",
+      "answer": "AC=14",
+      "given_solution": "∵在Rt△ADB中，∠ADB=90°，AD=6，BD=8，\n∴由勾股定理得：AE=AB=\\(\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵DM=2，DM=\\(\\frac { 1 } { 2 }\\)CE，\n∴CE=4，\n∴AC=10+4=14．",
+      "solution_steps": [
+        "∵在Rt△ADB中，∠ADB=90°，AD=6，BD=8，",
+        "∴由勾股定理得：AE=AB=\\(\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+        "∵DM=2，DM=\\(\\frac { 1 } { 2 }\\)CE，",
+        "∴CE=4，",
+        "∴AC=10+4=14．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          44,
+          46,
+          47
+        ],
+        "solution_block_ids": [
+          209
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "详解用两组等角及公共夹边AD判定全等，判定依据应为ASA。",
+  "source": {
+    "paper_body_blocks": [
+      44,
+      47
+    ],
+    "solution_body_blocks": [
+      201,
+      210
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2D27267ADC/paper-q19-p03.webp",
+      "assets/SZ-G8-T2-2D27267ADC/paper-q19-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          666.36,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          121.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2D27267ADC/solution-q19-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          128.18,
+          583.64,
+          680.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

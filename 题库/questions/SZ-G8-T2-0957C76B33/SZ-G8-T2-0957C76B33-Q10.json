@@ -1,0 +1,160 @@
+{
+  "id": "SZ-G8-T2-0957C76B33-Q10",
+  "paper_id": "SZ-G8-T2-0957C76B33",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "应用平行四边形性质求边角与对角线",
+  "stem": "如图，在平行四边形ABCD中，AB≠BC，AE平分∠FAD并交CD于点E，且AE⊥EF，有如下结论：①DE＝CE，②AF＝CF+AD，③\\(S_{ \\vartriangle AEF } =S_{ \\vartriangle CEF } +S_{ \\vartriangle DEA }\\) ，④AB＝BF，其中正确的是（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "①④"
+    },
+    {
+      "label": "B",
+      "text": "①②③"
+    },
+    {
+      "label": "C",
+      "text": "②③④"
+    },
+    {
+      "label": "D",
+      "text": "①②③④"
+    }
+  ],
+  "figures": [
+    "assets/figures/51/5122c43b2f18a040852c867200fb30ba629b1ae219c589a1885b87d42c33e633.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】首先延长AD，交FE的延长线于点M，易证得\\(\\vartriangle AEM\\cong \\vartriangle AEF\\left ( { ASA } \\right )\\)，可得EM=EF,AM=AF，又由平行四边形ABCD得AD∥BC，可得∠M=∠EFC,可证得\\(\\vartriangle MDE\\cong FCE\\left ( { ASA } \\right )\\)，可得出DE=CE,DM=CF,即可得出AF=AM=AD+DM=CF+AD；在线段FA上截取FN=FC，可得出AN=AD，证明\\(\\vartriangle ANE\\cong \\vartriangle ADE\\left ( { SAS } \\right )\\)，可得NE=DE=CE，再证\\(\\vartriangle EFN\\cong \\vartriangle EFC\\left ( { SSS } \\right )\\)，即可得出\\(S_{ \\vartriangle AEF } =S_{ \\vartriangle EFN } +S_{ \\vartriangle ANE } =S_{ \\vartriangle CEF } +S_{ \\vartriangle DEA }\\)；AF不一定是∠BAD的角平分线，AB不一定等于BF，由此可得结论．\n【详解】延长AD，交EF的延长线于点M，\n〔图2〕\n∵四边形ABCD是平行四边形，\n∴AD∥BC，\n∴\\(\\angle M=\\angle EFC\\),\n∵AE⊥EF，AE平分\\(\\angle FAD\\),\n∴\\(\\angle AEM=\\angle AEF=90{}^\\circ\\),\\(\\angle MAE=\\angle FAE\\),\n在\\(\\vartriangle AEM\\)和\\(\\vartriangle AEF\\)中，\n\\(\\begin{cases} \\angle AEM=\\angle AEF \\\\ AE=AE \\\\ \\angle MAE=\\angle FAE \\end{cases}\\)\n∴\\(\\vartriangle AEM\\cong \\vartriangle AEF(ASA),\\)\n∴\\(EM=EF,AM=AF,\\)\n∵AD∥BC，\n∴\\(\\angle M=\\angle EFC,\\)\n在\\(\\vartriangle MDE\\)和\\(\\vartriangle FCE\\)中，\n\\(\\begin{cases} \\angle M=\\angle EFC \\\\ EM=EF \\\\ \\angle MED=\\angle FEC \\end{cases}\\),\n∴\\(\\vartriangle MDE\\cong \\vartriangle FCE(ASA),\\)\n∴\\(DE=CE,DM=CF\\),故①正确；\n∴\\(AF=AM=AD+DM=CF+AD\\),故②正确；\n在线段AF上截取\\(FN=FC,\\)\n∵DM=CF，\n∴\\(FN=DM=CF,\\)\n∵\\(AM=AF,\\)\n∴\\(AN=AD,\\)\n在\\(\\vartriangle ANE\\)和\\(\\vartriangle ADE\\)中，\n\\(\\begin{cases} AN=AD \\\\ \\angle NAE=\\angle DAE \\\\ AE=AE \\end{cases}\\)\n∴\\(\\vartriangle ANE\\cong \\vartriangle ADE(SAS),\\)\n∴\\(NE=DE=CE,\\)\n在\\(\\vartriangle EFN\\)和\\(\\vartriangle EFC\\)中\n\\(\\begin{cases} NF=CF \\\\ EF=EF \\\\ NE=CE \\end{cases}\\)\n∴\\(\\vartriangle EFN\\cong \\vartriangle EFC(SSS),\\)\n∴\\(S_{ \\vartriangle AEF } =S_{ \\vartriangle EFN } +S_{ \\vartriangle ANE } =S_{ \\vartriangle CEF } +S_{ \\vartriangle DEA }\\),故③正确；\n∵AF不一定是\\(\\angle BAD\\)的角平分线，\n∴AB不一定等于BF，故④错误，\n故选：B．\n【点睛】本题考查平行四边形的性质，全等三角形的判定与性质以及平行线的性质，解题关键是熟练掌握平行四边形的性质，全等三角形的判定与性质以及平行线的性质，辅助线的作法以及数形结合思想的应用．",
+  "given_solution_figures": [
+    "assets/figures/51/5122c43b2f18a040852c867200fb30ba629b1ae219c589a1885b87d42c33e633.png",
+    "assets/figures/3f/3fa78a136e8fd2123a81bf7f69779926b4b430ee57d8f7254504444aad619121.png"
+  ],
+  "solution": "延长AD，交EF的延长线于点M，\n〔图2〕\n∵四边形ABCD是平行四边形，\n∴AD∥BC，\n∴\\(\\angle M=\\angle EFC\\),\n∵AE⊥EF，AE平分\\(\\angle FAD\\),\n∴\\(\\angle AEM=\\angle AEF=90{}^\\circ\\),\\(\\angle MAE=\\angle FAE\\),\n在\\(\\vartriangle AEM\\)和\\(\\vartriangle AEF\\)中，\n\\(\\begin{cases} \\angle AEM=\\angle AEF \\\\ AE=AE \\\\ \\angle MAE=\\angle FAE \\end{cases}\\)\n∴\\(\\vartriangle AEM\\cong \\vartriangle AEF(ASA),\\)\n∴\\(EM=EF,AM=AF,\\)\n∵AD∥BC，\n∴\\(\\angle M=\\angle EFC,\\)\n在\\(\\vartriangle MDE\\)和\\(\\vartriangle FCE\\)中，\n\\(\\begin{cases} \\angle M=\\angle EFC \\\\ EM=EF \\\\ \\angle MED=\\angle FEC \\end{cases}\\),\n∴\\(\\vartriangle MDE\\cong \\vartriangle FCE(ASA),\\)\n∴\\(DE=CE,DM=CF\\),故①正确；\n∴\\(AF=AM=AD+DM=CF+AD\\),故②正确；\n在线段AF上截取\\(FN=FC,\\)\n∵DM=CF，\n∴\\(FN=DM=CF,\\)\n∵\\(AM=AF,\\)\n∴\\(AN=AD,\\)\n在\\(\\vartriangle ANE\\)和\\(\\vartriangle ADE\\)中，\n\\(\\begin{cases} AN=AD \\\\ \\angle NAE=\\angle DAE \\\\ AE=AE \\end{cases}\\)\n∴\\(\\vartriangle ANE\\cong \\vartriangle ADE(SAS),\\)\n∴\\(NE=DE=CE,\\)\n在\\(\\vartriangle EFN\\)和\\(\\vartriangle EFC\\)中\n\\(\\begin{cases} NF=CF \\\\ EF=EF \\\\ NE=CE \\end{cases}\\)\n∴\\(\\vartriangle EFN\\cong \\vartriangle EFC(SSS),\\)\n∴\\(S_{ \\vartriangle AEF } =S_{ \\vartriangle EFN } +S_{ \\vartriangle ANE } =S_{ \\vartriangle CEF } +S_{ \\vartriangle DEA }\\),故③正确；\n∵AF不一定是\\(\\angle BAD\\)的角平分线，\n∴AB不一定等于BF，故④错误，\n故选：B．",
+  "solution_steps": [
+    "延长AD，交EF的延长线于点M，",
+    "〔图2〕",
+    "∵四边形ABCD是平行四边形，",
+    "∴AD∥BC，",
+    "∴\\(\\angle M=\\angle EFC\\),",
+    "∵AE⊥EF，AE平分\\(\\angle FAD\\),",
+    "∴\\(\\angle AEM=\\angle AEF=90{}^\\circ\\),\\(\\angle MAE=\\angle FAE\\),",
+    "在\\(\\vartriangle AEM\\)和\\(\\vartriangle AEF\\)中，",
+    "\\(\\begin{cases} \\angle AEM=\\angle AEF \\\\ AE=AE \\\\ \\angle MAE=\\angle FAE \\end{cases}\\)",
+    "∴\\(\\vartriangle AEM\\cong \\vartriangle AEF(ASA),\\)",
+    "∴\\(EM=EF,AM=AF,\\)",
+    "∵AD∥BC，",
+    "∴\\(\\angle M=\\angle EFC,\\)",
+    "在\\(\\vartriangle MDE\\)和\\(\\vartriangle FCE\\)中，",
+    "\\(\\begin{cases} \\angle M=\\angle EFC \\\\ EM=EF \\\\ \\angle MED=\\angle FEC \\end{cases}\\),",
+    "∴\\(\\vartriangle MDE\\cong \\vartriangle FCE(ASA),\\)",
+    "∴\\(DE=CE,DM=CF\\),故①正确；",
+    "∴\\(AF=AM=AD+DM=CF+AD\\),故②正确；",
+    "在线段AF上截取\\(FN=FC,\\)",
+    "∵DM=CF，",
+    "∴\\(FN=DM=CF,\\)",
+    "∵\\(AM=AF,\\)",
+    "∴\\(AN=AD,\\)",
+    "在\\(\\vartriangle ANE\\)和\\(\\vartriangle ADE\\)中，",
+    "\\(\\begin{cases} AN=AD \\\\ \\angle NAE=\\angle DAE \\\\ AE=AE \\end{cases}\\)",
+    "∴\\(\\vartriangle ANE\\cong \\vartriangle ADE(SAS),\\)",
+    "∴\\(NE=DE=CE,\\)",
+    "在\\(\\vartriangle EFN\\)和\\(\\vartriangle EFC\\)中",
+    "\\(\\begin{cases} NF=CF \\\\ EF=EF \\\\ NE=CE \\end{cases}\\)",
+    "∴\\(\\vartriangle EFN\\cong \\vartriangle EFC(SSS),\\)",
+    "∴\\(S_{ \\vartriangle AEF } =S_{ \\vartriangle EFN } +S_{ \\vartriangle ANE } =S_{ \\vartriangle CEF } +S_{ \\vartriangle DEA }\\),故③正确；",
+    "∵AF不一定是\\(\\angle BAD\\)的角平分线，",
+    "∴AB不一定等于BF，故④错误，",
+    "故选：B．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      24,
+      26
+    ],
+    "solution_body_blocks": [
+      111,
+      151
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-0957C76B33/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          237.73,
+          583.64,
+          384.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-0957C76B33/solution-q10-p05.webp",
+      "assets/SZ-G8-T2-0957C76B33/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-0957C76B33/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          649.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.01"
+  ],
+  "exam_ids": [
+    "E.G05.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“应用平行四边形性质求边角与对角线”。",
+  "tag_source": "题文匹配"
+}

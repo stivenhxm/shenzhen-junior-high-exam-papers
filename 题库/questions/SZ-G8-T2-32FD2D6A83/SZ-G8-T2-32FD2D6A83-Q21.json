@@ -1,0 +1,354 @@
+{
+  "id": "SZ-G8-T2-32FD2D6A83-Q21",
+  "paper_id": "SZ-G8-T2-32FD2D6A83",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，已知在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90 ^ { {}^\\circ } ,AC=8,BC=16\\)，D是\\(AC\\)上的一点，\\(CD=3\\)，点P从B点出发沿射线\\(BC\\)方向以每秒2个单位的速度向右运动．设点P的运动时间为t．连接\\(AP\\)．\n〔图1〕\n（1）当\\(t=3\\)秒时，求\\(AP\\)的长度（结果保留根号）；\n（2）当\\(\\vartriangle ABP\\)为等腰三角形时，求t的值；\n（3）过点D作\\(DE\\bot AP\\)于点E．在点P的运动过程中，当t为何值时，能使\\(DE=CD\\)？",
+  "choices": [],
+  "figures": [
+    "assets/figures/81/81c1d5810dbd7311531a90c700cb7093cae872d9f47b8351a7f992d6b3b22a50.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(2\\sqrt[] { 41 }\\)\n（2）\\(4\\sqrt[] { 5 }\\)，16，5\n（3）5或11",
+  "answer": "（1）\\(2\\sqrt[] { 41 }\\)\n（2）\\(4\\sqrt[] { 5 }\\)，16，5\n（3）5或11",
+  "given_solution": "【分析】（1）根据动点的运动速度和时间先求出\\(PC\\)，再根据勾股定理即可求解；\n（2）根动点运动过程中形成三种等腰三角形，分3种情况即可求解；\n（3）根据动点运动的不同位置，分2种情况利用全等三角形的判定与性质和勾股定理即可求解．\n【小问1详解】\n解：根据题意，得\\(BP=2t，PC=16-2t=16-2\\times 3=10，AC=8\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，根据勾股定理，得\\(AP=\\sqrt[] { AC ^ { 2 } +PC ^ { 2 } }=\\sqrt[] { 164 }=2\\sqrt[] { 41 }\\)．\n答：\\(AP\\)的长为\\(2\\sqrt[] { 41 }\\)．\n【小问2详解】\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=8，BC=16\\)，\n根据勾股定理，得\\(AB=\\sqrt[] { 64+256 }=\\sqrt[] { 320 }=8\\sqrt[] { 5 }\\)\n若\\(BA=BP\\)，则 \\(2t=8\\sqrt[] { 5 }\\)，解得\\(t=4\\sqrt[] { 5 }\\)；\n若\\(AB=AP\\)，则\\(BP=32,2t=32\\)，解得\\(t=16\\)；\n若\\(PA=PB\\)，则\\((2t) ^ { 2 } =(16-2t) ^ { 2 } +8 ^ { 2 }\\)，解得\\(t=5\\)．\n答：当\\(\\vartriangle ABP\\)为等腰三角形时，t的值为\\(4\\sqrt[] { 5 }\\)，16，5．\n【小问3详解】\n①点P在线段\\(BC\\)上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图1所示：\n〔图2〕\n则\\(\\angle AED=\\angle PED=90{}^\\circ\\)，\n∴\\(\\angle PED=\\angle ACB=90{}^\\circ\\)，\n∴\\(PD\\)平分\\(\\angle APC\\)，\n∴\\(\\angle EPD=\\angle CPD\\)，\n又∵\\(PD=PD\\)，\n∴\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(ED=CD=3,PE=PC=16-2t\\)，\n∴\\(AD=AC-CD=8-3=5\\)，\n∴\\(AE=4\\)，\n∴\\(AP=AE+PE=4+16-2t=20-2t\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(16-2t) ^ { 2 } =(20-2t) ^ { 2 }\\)，\n解得：\\(t=5\\)；\n②点P在线段\\(BC\\)的延长线上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图2所示：\n〔图3〕\n同①得：\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(ED=CD=3,PE=PC=2t-16\\)，\n∴\\(AD=AC-CD=8-3=5\\)，\n∴\\(AE=4\\)，\n∴\\(AP=AE+PE=4+2t-16=2t-12\\)，\n在\\(Rt\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(2t-16) ^ { 2 } =(2t-12) ^ { 2 }\\)，\n解得：\\(t=11\\)；\n综上所述，在点P的运动过程中，当t的值为5或11时，能使\\(DE=CD\\)．\n【点睛】本题考查了等腰三角形的性质，全等三角形的判定与性质，勾股定理，解决本题的关键是动点运动到不同位置形成不同的等腰三角形．",
+  "given_solution_figures": [
+    "assets/figures/8d/8dedcb7f90e792cee64492d866674a554398e461759d07a4bc4c3553847b9c47.png",
+    "assets/figures/d8/d80962a1b6430688a629a15f2984164f32d8deecfed0bde79f023781d024a4f4.png",
+    "assets/figures/e2/e2357ddd5adad8d54008bfe447b744007040ea8e0b102021872578476d0baf08.png"
+  ],
+  "solution": "【小问1详解】\n解：根据题意，得\\(BP=2t，PC=16-2t=16-2\\times 3=10，AC=8\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，根据勾股定理，得\\(AP=\\sqrt[] { AC ^ { 2 } +PC ^ { 2 } }=\\sqrt[] { 164 }=2\\sqrt[] { 41 }\\)．\n答：\\(AP\\)的长为\\(2\\sqrt[] { 41 }\\)．\n【小问2详解】\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=8，BC=16\\)，\n根据勾股定理，得\\(AB=\\sqrt[] { 64+256 }=\\sqrt[] { 320 }=8\\sqrt[] { 5 }\\)\n若\\(BA=BP\\)，则 \\(2t=8\\sqrt[] { 5 }\\)，解得\\(t=4\\sqrt[] { 5 }\\)；\n若\\(AB=AP\\)，则\\(BP=32,2t=32\\)，解得\\(t=16\\)；\n若\\(PA=PB\\)，则\\((2t) ^ { 2 } =(16-2t) ^ { 2 } +8 ^ { 2 }\\)，解得\\(t=5\\)．\n答：当\\(\\vartriangle ABP\\)为等腰三角形时，t的值为\\(4\\sqrt[] { 5 }\\)，16，5．\n【小问3详解】\n①点P在线段\\(BC\\)上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图1所示：\n〔图2〕\n则\\(\\angle AED=\\angle PED=90{}^\\circ\\)，\n∴\\(\\angle PED=\\angle ACB=90{}^\\circ\\)，\n∴\\(PD\\)平分\\(\\angle APC\\)，\n∴\\(\\angle EPD=\\angle CPD\\)，\n又∵\\(PD=PD\\)，\n∴\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(ED=CD=3,PE=PC=16-2t\\)，\n∴\\(AD=AC-CD=8-3=5\\)，\n∴\\(AE=4\\)，\n∴\\(AP=AE+PE=4+16-2t=20-2t\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(16-2t) ^ { 2 } =(20-2t) ^ { 2 }\\)，\n解得：\\(t=5\\)；\n②点P在线段\\(BC\\)的延长线上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图2所示：\n〔图3〕\n同①得：\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(ED=CD=3,PE=PC=2t-16\\)，\n∴\\(AD=AC-CD=8-3=5\\)，\n∴\\(AE=4\\)，\n∴\\(AP=AE+PE=4+2t-16=2t-12\\)，\n在\\(Rt\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(2t-16) ^ { 2 } =(2t-12) ^ { 2 }\\)，\n解得：\\(t=11\\)；\n综上所述，在点P的运动过程中，当t的值为5或11时，能使\\(DE=CD\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：根据题意，得\\(BP=2t，PC=16-2t=16-2\\times 3=10，AC=8\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，根据勾股定理，得\\(AP=\\sqrt[] { AC ^ { 2 } +PC ^ { 2 } }=\\sqrt[] { 164 }=2\\sqrt[] { 41 }\\)．",
+    "答：\\(AP\\)的长为\\(2\\sqrt[] { 41 }\\)．",
+    "【小问2详解】",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=8，BC=16\\)，",
+    "根据勾股定理，得\\(AB=\\sqrt[] { 64+256 }=\\sqrt[] { 320 }=8\\sqrt[] { 5 }\\)",
+    "若\\(BA=BP\\)，则 \\(2t=8\\sqrt[] { 5 }\\)，解得\\(t=4\\sqrt[] { 5 }\\)；",
+    "若\\(AB=AP\\)，则\\(BP=32,2t=32\\)，解得\\(t=16\\)；",
+    "若\\(PA=PB\\)，则\\((2t) ^ { 2 } =(16-2t) ^ { 2 } +8 ^ { 2 }\\)，解得\\(t=5\\)．",
+    "答：当\\(\\vartriangle ABP\\)为等腰三角形时，t的值为\\(4\\sqrt[] { 5 }\\)，16，5．",
+    "【小问3详解】",
+    "①点P在线段\\(BC\\)上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图1所示：",
+    "〔图2〕",
+    "则\\(\\angle AED=\\angle PED=90{}^\\circ\\)，",
+    "∴\\(\\angle PED=\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(PD\\)平分\\(\\angle APC\\)，",
+    "∴\\(\\angle EPD=\\angle CPD\\)，",
+    "又∵\\(PD=PD\\)，",
+    "∴\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(ED=CD=3,PE=PC=16-2t\\)，",
+    "∴\\(AD=AC-CD=8-3=5\\)，",
+    "∴\\(AE=4\\)，",
+    "∴\\(AP=AE+PE=4+16-2t=20-2t\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(16-2t) ^ { 2 } =(20-2t) ^ { 2 }\\)，",
+    "解得：\\(t=5\\)；",
+    "②点P在线段\\(BC\\)的延长线上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图2所示：",
+    "〔图3〕",
+    "同①得：\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(ED=CD=3,PE=PC=2t-16\\)，",
+    "∴\\(AD=AC-CD=8-3=5\\)，",
+    "∴\\(AE=4\\)，",
+    "∴\\(AP=AE+PE=4+2t-16=2t-12\\)，",
+    "在\\(Rt\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(2t-16) ^ { 2 } =(2t-12) ^ { 2 }\\)，",
+    "解得：\\(t=11\\)；",
+    "综上所述，在点P的运动过程中，当t的值为5或11时，能使\\(DE=CD\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，已知在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90 ^ { {}^\\circ } ,AC=8,BC=16\\)，D是\\(AC\\)上的一点，\\(CD=3\\)，点P从B点出发沿射线\\(BC\\)方向以每秒2个单位的速度向右运动．设点P的运动时间为t．连接\\(AP\\)．\n〔图1〕",
+      "paper_blocks": [
+        59,
+        60
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-32FD2D6A83-Q21-P01",
+      "label": "（1）",
+      "prompt": "当\\(t=3\\)秒时，求\\(AP\\)的长度（结果保留根号）；",
+      "stem_text": "当\\(t=3\\)秒时，求\\(AP\\)的长度（结果保留根号）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 41 }\\)",
+      "answer": "\\(2\\sqrt[] { 41 }\\)",
+      "given_solution": "解：根据题意，得\\(BP=2t，PC=16-2t=16-2\\times 3=10，AC=8\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，根据勾股定理，得\\(AP=\\sqrt[] { AC ^ { 2 } +PC ^ { 2 } }=\\sqrt[] { 164 }=2\\sqrt[] { 41 }\\)．\n答：\\(AP\\)的长为\\(2\\sqrt[] { 41 }\\)．",
+      "solution_steps": [
+        "解：根据题意，得\\(BP=2t，PC=16-2t=16-2\\times 3=10，AC=8\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，根据勾股定理，得\\(AP=\\sqrt[] { AC ^ { 2 } +PC ^ { 2 } }=\\sqrt[] { 164 }=2\\sqrt[] { 41 }\\)．",
+        "答：\\(AP\\)的长为\\(2\\sqrt[] { 41 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-32FD2D6A83-Q21-P02",
+      "label": "（2）",
+      "prompt": "当\\(\\vartriangle ABP\\)为等腰三角形时，求t的值；",
+      "stem_text": "当\\(\\vartriangle ABP\\)为等腰三角形时，求t的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 5 }\\)，16，5",
+      "answer": "\\(4\\sqrt[] { 5 }\\)，16，5",
+      "given_solution": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=8，BC=16\\)，\n根据勾股定理，得\\(AB=\\sqrt[] { 64+256 }=\\sqrt[] { 320 }=8\\sqrt[] { 5 }\\)\n若\\(BA=BP\\)，则 \\(2t=8\\sqrt[] { 5 }\\)，解得\\(t=4\\sqrt[] { 5 }\\)；\n若\\(AB=AP\\)，则\\(BP=32,2t=32\\)，解得\\(t=16\\)；\n若\\(PA=PB\\)，则\\((2t) ^ { 2 } =(16-2t) ^ { 2 } +8 ^ { 2 }\\)，解得\\(t=5\\)．\n答：当\\(\\vartriangle ABP\\)为等腰三角形时，t的值为\\(4\\sqrt[] { 5 }\\)，16，5．",
+      "solution_steps": [
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=8，BC=16\\)，",
+        "根据勾股定理，得\\(AB=\\sqrt[] { 64+256 }=\\sqrt[] { 320 }=8\\sqrt[] { 5 }\\)",
+        "若\\(BA=BP\\)，则 \\(2t=8\\sqrt[] { 5 }\\)，解得\\(t=4\\sqrt[] { 5 }\\)；",
+        "若\\(AB=AP\\)，则\\(BP=32,2t=32\\)，解得\\(t=16\\)；",
+        "若\\(PA=PB\\)，则\\((2t) ^ { 2 } =(16-2t) ^ { 2 } +8 ^ { 2 }\\)，解得\\(t=5\\)．",
+        "答：当\\(\\vartriangle ABP\\)为等腰三角形时，t的值为\\(4\\sqrt[] { 5 }\\)，16，5．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          62
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-32FD2D6A83-Q21-P03",
+      "label": "（3）",
+      "prompt": "过点D作\\(DE\\bot AP\\)于点E．在点P的运动过程中，当t为何值时，能使\\(DE=CD\\)？",
+      "stem_text": "过点D作\\(DE\\bot AP\\)于点E．在点P的运动过程中，当t为何值时，能使\\(DE=CD\\)？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "5或11",
+      "answer": "5或11",
+      "given_solution": "①点P在线段\\(BC\\)上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图1所示：\n〔图2〕\n则\\(\\angle AED=\\angle PED=90{}^\\circ\\)，\n∴\\(\\angle PED=\\angle ACB=90{}^\\circ\\)，\n∴\\(PD\\)平分\\(\\angle APC\\)，\n∴\\(\\angle EPD=\\angle CPD\\)，\n又∵\\(PD=PD\\)，\n∴\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(ED=CD=3,PE=PC=16-2t\\)，\n∴\\(AD=AC-CD=8-3=5\\)，\n∴\\(AE=4\\)，\n∴\\(AP=AE+PE=4+16-2t=20-2t\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(16-2t) ^ { 2 } =(20-2t) ^ { 2 }\\)，\n解得：\\(t=5\\)；\n②点P在线段\\(BC\\)的延长线上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图2所示：\n〔图3〕\n同①得：\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(ED=CD=3,PE=PC=2t-16\\)，\n∴\\(AD=AC-CD=8-3=5\\)，\n∴\\(AE=4\\)，\n∴\\(AP=AE+PE=4+2t-16=2t-12\\)，\n在\\(Rt\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(2t-16) ^ { 2 } =(2t-12) ^ { 2 }\\)，\n解得：\\(t=11\\)；\n综上所述，在点P的运动过程中，当t的值为5或11时，能使\\(DE=CD\\)．",
+      "solution_steps": [
+        "①点P在线段\\(BC\\)上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图1所示：",
+        "〔图2〕",
+        "则\\(\\angle AED=\\angle PED=90{}^\\circ\\)，",
+        "∴\\(\\angle PED=\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(PD\\)平分\\(\\angle APC\\)，",
+        "∴\\(\\angle EPD=\\angle CPD\\)，",
+        "又∵\\(PD=PD\\)，",
+        "∴\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(ED=CD=3,PE=PC=16-2t\\)，",
+        "∴\\(AD=AC-CD=8-3=5\\)，",
+        "∴\\(AE=4\\)，",
+        "∴\\(AP=AE+PE=4+16-2t=20-2t\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(16-2t) ^ { 2 } =(20-2t) ^ { 2 }\\)，",
+        "解得：\\(t=5\\)；",
+        "②点P在线段\\(BC\\)的延长线上时，过点D作\\(DE\\bot AP\\)于E，连接\\(PD\\)，如图2所示：",
+        "〔图3〕",
+        "同①得：\\(\\vartriangle PDE≌\\vartriangle PDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(ED=CD=3,PE=PC=2t-16\\)，",
+        "∴\\(AD=AC-CD=8-3=5\\)，",
+        "∴\\(AE=4\\)，",
+        "∴\\(AP=AE+PE=4+2t-16=2t-12\\)，",
+        "在\\(Rt\\vartriangle APC\\)中，由勾股定理得：\\(8 ^ { 2 } +(2t-16) ^ { 2 } =(2t-12) ^ { 2 }\\)，",
+        "解得：\\(t=11\\)；",
+        "综上所述，在点P的运动过程中，当t的值为5或11时，能使\\(DE=CD\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63
+        ],
+        "solution_block_ids": [
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      63
+    ],
+    "solution_body_blocks": [
+      379,
+      427
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-32FD2D6A83/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          356.82,
+          583.64,
+          564.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q21-p19.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q21-p20.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          652.73,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          762.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          556.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问解答对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

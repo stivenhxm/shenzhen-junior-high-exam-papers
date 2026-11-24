@@ -1,0 +1,111 @@
+{
+  "id": "SZ-G8-T1-BB19C49D57-Q15",
+  "paper_id": "SZ-G8-T1-BB19C49D57",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，在长方形\\(ABCD\\)中，\\(AB=6\\)，\\(BC=8\\)，点E为\\(AB\\)上一点，将\\(\\vartriangle BCE\\)沿\\(CE\\)翻折至\\(\\vartriangle FCE\\)，延长\\(CF\\)交\\(AB\\)于点O，交\\(DA\\)的延长线于点G，且\\(EF=AG\\)，则\\(BE\\)的长为________．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/9e27e4fe7a3d813b5e0fa043a3a1d64ad4ab80ec37bdda2f4be8199f99e99f69.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\frac { 24 } { 11 }\\)##\\(2\\frac { 2 } { 11 }\\)",
+  "answer": "\\(\\frac { 24 } { 11 }\\) 或 \\(2\\frac { 2 } { 11 }\\)",
+  "given_solution": "【分析】由折叠的性质得\\(\\angle B=\\angle CFE=90{}^\\circ ，BE=EF，BC=CF=8\\)，根据\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle EFO≌\\vartriangle GAO\\)得\\(OF=OA，OE=OG\\)，于是得到\\(AE=FG\\)，设\\(BE=x\\)，则\\(EF=AG=x\\)，\\(AE=FG=AB-BE=6-x\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDG\\)中，利用勾股定理建立方程求解即可．\n【详解】解：∵四边形\\(ABCD\\)为矩形，\\(AB=6，BC=8\\)，\n∴\\(AB=CD=6，BC=AD=8，\\angle B=\\angle D=90{}^\\circ\\)，\n由折叠可知，\\(\\angle B=\\angle CFE=90{}^\\circ ，BE=EF，BC=CF=8\\)，\n∴\\(\\angle EFO=90{}^\\circ =\\angle GAO\\)，\n在\\(\\vartriangle EFO\\)和\\(\\vartriangle GAO\\)中，\n\\(\\begin{cases} \\angle FOE=\\angle AOG \\\\ \\angle EFO=\\angle GAO \\\\ EF=AG \\end{cases}\\)，\n∴\\(\\vartriangle EFO≌\\vartriangle GAO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(OF=OA，OE=OG\\)，\n∴\\(OF+OG=OA+OE\\)，即\\(AE=FG\\)，\n设\\(BE=x\\)，则\\(EF=AG=x\\)，\\(AE=FG=AB-BE=6-x\\) ，\n∴\\(DG=AD+AG=8+x\\)，\\(CG=CF+FG=8+6-x=14-x\\) ，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDG\\)中，\\(CD ^ { 2 } +DG ^ { 2 } =CG ^ { 2 }\\)，\n∴\\(6 ^ { 2 } +\\left ( { 8+x } \\right ) ^ { 2 } =\\left ( { 14-x } \\right ) ^ { 2 }\\)，\n解得：\\(x=\\frac { 24 } { 11 }\\)，\n∴\\(BE=\\frac { 24 } { 11 }\\)．\n故答案为：\\(\\frac { 24 } { 11 }\\)．\n【点睛】本题考查矩形的性质，折叠的性质，全等三角形的判定与性质，勾股定理，利用全等三角形的性质得出\\(AE=FG\\)是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/9e27e4fe7a3d813b5e0fa043a3a1d64ad4ab80ec37bdda2f4be8199f99e99f69.png"
+  ],
+  "solution": "解：∵四边形\\(ABCD\\)为矩形，\\(AB=6，BC=8\\)，\n∴\\(AB=CD=6，BC=AD=8，\\angle B=\\angle D=90{}^\\circ\\)，\n由折叠可知，\\(\\angle B=\\angle CFE=90{}^\\circ ，BE=EF，BC=CF=8\\)，\n∴\\(\\angle EFO=90{}^\\circ =\\angle GAO\\)，\n在\\(\\vartriangle EFO\\)和\\(\\vartriangle GAO\\)中，\n\\(\\begin{cases} \\angle FOE=\\angle AOG \\\\ \\angle EFO=\\angle GAO \\\\ EF=AG \\end{cases}\\)，\n∴\\(\\vartriangle EFO≌\\vartriangle GAO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(OF=OA，OE=OG\\)，\n∴\\(OF+OG=OA+OE\\)，即\\(AE=FG\\)，\n设\\(BE=x\\)，则\\(EF=AG=x\\)，\\(AE=FG=AB-BE=6-x\\) ，\n∴\\(DG=AD+AG=8+x\\)，\\(CG=CF+FG=8+6-x=14-x\\) ，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDG\\)中，\\(CD ^ { 2 } +DG ^ { 2 } =CG ^ { 2 }\\)，\n∴\\(6 ^ { 2 } +\\left ( { 8+x } \\right ) ^ { 2 } =\\left ( { 14-x } \\right ) ^ { 2 }\\)，\n解得：\\(x=\\frac { 24 } { 11 }\\)，\n∴\\(BE=\\frac { 24 } { 11 }\\)．\n故答案为：\\(\\frac { 24 } { 11 }\\)．",
+  "solution_steps": [
+    "解：∵四边形\\(ABCD\\)为矩形，\\(AB=6，BC=8\\)，",
+    "∴\\(AB=CD=6，BC=AD=8，\\angle B=\\angle D=90{}^\\circ\\)，",
+    "由折叠可知，\\(\\angle B=\\angle CFE=90{}^\\circ ，BE=EF，BC=CF=8\\)，",
+    "∴\\(\\angle EFO=90{}^\\circ =\\angle GAO\\)，",
+    "在\\(\\vartriangle EFO\\)和\\(\\vartriangle GAO\\)中，",
+    "\\(\\begin{cases} \\angle FOE=\\angle AOG \\\\ \\angle EFO=\\angle GAO \\\\ EF=AG \\end{cases}\\)，",
+    "∴\\(\\vartriangle EFO≌\\vartriangle GAO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(OF=OA，OE=OG\\)，",
+    "∴\\(OF+OG=OA+OE\\)，即\\(AE=FG\\)，",
+    "设\\(BE=x\\)，则\\(EF=AG=x\\)，\\(AE=FG=AB-BE=6-x\\) ，",
+    "∴\\(DG=AD+AG=8+x\\)，\\(CG=CF+FG=8+6-x=14-x\\) ，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDG\\)中，\\(CD ^ { 2 } +DG ^ { 2 } =CG ^ { 2 }\\)，",
+    "∴\\(6 ^ { 2 } +\\left ( { 8+x } \\right ) ^ { 2 } =\\left ( { 14-x } \\right ) ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 24 } { 11 }\\)，",
+    "∴\\(BE=\\frac { 24 } { 11 }\\)．",
+    "故答案为：\\(\\frac { 24 } { 11 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      41,
+      42
+    ],
+    "solution_body_blocks": [
+      169,
+      190
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-BB19C49D57/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          462.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-BB19C49D57/solution-q15-p09.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q15-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          218.18,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          181.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,188 @@
+{
+  "id": "SZ-G8-T2-C5980164B8-Q10",
+  "paper_id": "SZ-G8-T2-C5980164B8",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，在矩形\\(ABCD\\)中，\\({ \\rm{ A } }{ \\rm{ B } }=\\sqrt[] { 3 }+2\\)，\\({ \\rm{ A } }{ \\rm{ D } }=\\sqrt[] { 3 }\\)．把\\(AD\\)沿\\(AE\\)折叠，使点\\(D\\)恰好落在\\(AB\\)边上的\\(D'\\)处，再将\\(\\vartriangle AED'\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)，得到\\(\\vartriangle A'ED''\\)，使得\\(EA'\\)恰好经过\\(BD'\\)的中点\\(F\\)．设\\(A'D''\\)交\\(AB\\)于点\\(G\\)，连接\\(AA'\\)．有如下结论：①\\(\\alpha =75{}^\\circ\\)；②\\(A'F\\)的长度是\\(\\sqrt[] { 6 }-2\\)；③\\(\\angle A'AF=7.5{}^\\circ\\)；④\\(\\vartriangle AA'F\\backsim \\vartriangle EGF\\)．上述结论中，正确的个数有（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1个"
+    },
+    {
+      "label": "B",
+      "text": "2个"
+    },
+    {
+      "label": "C",
+      "text": "3个"
+    },
+    {
+      "label": "D",
+      "text": "4个"
+    }
+  ],
+  "figures": [
+    "assets/figures/a0/a0d1b8aa4598c224ed4b6fc282f4895e80fb71d1ce069a26329bdcf26c10be29.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "【分析】可证四边形\\(ADED'\\)是正方形，可求\\(\\angle AED'=45{}^\\circ\\)，\\(EF=2\\)，取\\(D'F\\)的中点\\(M\\)，连接\\(D'M\\)，可证\\(\\vartriangle D'MF\\)是等边三角形，从而可求\\(\\angle D'EF=30{}^\\circ\\)，①即可求解；可求\\(AE=\\sqrt[] { 2 }AD=\\sqrt[] { 6 }\\)，②即可求解；由\\(AE=A'E\\)，\\(\\alpha =75{}^\\circ\\)，可求\\(\\angle A'AE=52.5{}^\\circ\\)③即可求解；可证\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)，可得\\(\\angle D'EG=\\angle D''EG\\)，由\\(\\angle AFA'=\\angle EFG\\)，④即可求证．\n【详解】解：\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore \\angle AD'E=\\angle D=\\angle DAD'=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(ADED'\\)是矩形，\n由折叠得：\\(AD'=AD=\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)四边形\\(ADED'\\)是正方形，\n\\(\\therefore\\)\\(\\angle AED'=45{}^\\circ\\)，\n\\(\\therefore BD'=AB-AD'=2\\)，\n\\(\\because G\\)是\\(BD'\\)的中点，\n\\(\\therefore D'F=1\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'F\\)中\n\\(\\therefore EF=\\sqrt[] { {ED'}^ { 2 } +D'F ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +1 ^ { 2 } }=2\\)，\n如图，取\\(D'F\\)的中点\\(M\\)，连接\\(D'M\\)，\n〔图2〕\n\\(\\therefore D'M=MF=\\frac { 1 } { 2 }EF=1\\)，\n\\(\\therefore D'M=MF=D'F\\)，\n\\(\\therefore \\vartriangle D'MF\\)是等边三角形，\n\\(\\therefore \\angle D'FE=60{}^\\circ\\)，\n\\(\\therefore \\angle D'EF=30{}^\\circ\\)，\n\\(\\therefore \\alpha =45{}^\\circ +30{}^\\circ =75{}^\\circ\\)，\n故①正确；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中\n\\(AE=\\sqrt[] { 2 }AD=\\sqrt[] { 6 }\\)，\n由旋转得：\\(A'E=AE=\\sqrt[] { 6 }\\)，\n\\(\\therefore A'F=A'E-EF\\)\n\\(=\\sqrt[] { 6 }-2\\)，\n故②正确；\n〔图2〕\n\\(\\because\\)四边形\\(ADED'\\)是正方形，\n\\(\\therefore \\angle D'AE=45{}^\\circ\\)，\n\\(\\because AE=A'E\\)，\\(\\alpha =75{}^\\circ\\)，\n\\(\\therefore \\angle A'AE=\\frac { 180{}^\\circ -\\alpha } { 2 }\\)\n\\(=\\frac { 180{}^\\circ -75{}^\\circ } { 2 }=52.5{}^\\circ\\)，\n\\(\\therefore \\angle A'AF=\\angle A'AE-\\angle D'AE\\)\n\\(=52.5{}^\\circ -45{}^\\circ =7.5{}^\\circ\\)，\n故③正确；\n由旋转得：\\(\\angle ED'G=ED''G=90{}^\\circ\\)，\n\\(\\angle D'ED''=\\alpha =75{}^\\circ\\)，\n\\(ED'=ED''\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)中\n\\(\\begin{cases} ED'=ED'' \\\\ EG=EG \\end{cases}\\)，\n\\(\\therefore\\)\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)(\\({ \\rm{ H } }{ \\rm{ L } }\\))，\n\\(\\therefore \\angle D'EG=\\angle D''EG\\)，\n\\(\\therefore \\angle D'EG=\\frac { 1 } { 2 }\\angle D'ED''=37.5{}^\\circ\\)，\n\\(\\therefore \\angle FEG=\\angle D'EG-\\angle D'EF=7.5{}^\\circ\\)，\n\\(\\therefore \\angle A'AF=\\angle FEG\\)，\n\\(\\because \\angle AFA'=\\angle EFG\\)，\n\\(\\therefore \\vartriangle AA'F\\backsim \\vartriangle EGF\\)，\n故④正确；\n\\(\\therefore\\)①②③④均正确；\n故选：D．\n【点睛】本题考查了折叠的性质，矩形的性质，正方形的判定及性质，直角三角形的性质，等边三角形的判定及性质，全等三角形的判定及性质，勾股定理，相似三角形的判定及性质等，掌握相关的判定方法及性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/be/be0489e36af8d368b096472b1423d3c914ac52c998b89961332f2b92efcbd505.png",
+    "assets/figures/a5/a5064258ee08e0ffa284945989fad921bbb21bec23c8abf84c81f4366f408224.png"
+  ],
+  "solution": "解：\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore \\angle AD'E=\\angle D=\\angle DAD'=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(ADED'\\)是矩形，\n由折叠得：\\(AD'=AD=\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)四边形\\(ADED'\\)是正方形，\n\\(\\therefore\\)\\(\\angle AED'=45{}^\\circ\\)，\n\\(\\therefore BD'=AB-AD'=2\\)，\n\\(\\because F\\)是\\(BD'\\)的中点，\n\\(\\therefore D'F=1\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'F\\)中\n\\(\\therefore EF=\\sqrt[] { {ED'}^ { 2 } +D'F ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +1 ^ { 2 } }=2\\)，\n如图，取\\(EF\\)的中点\\(M\\)，连接\\(D'M\\)，\n〔图2〕\n\\(\\therefore D'M=MF=\\frac { 1 } { 2 }EF=1\\)，\n\\(\\therefore D'M=MF=D'F\\)，\n\\(\\therefore \\vartriangle D'MF\\)是等边三角形，\n\\(\\therefore \\angle D'FE=60{}^\\circ\\)，\n\\(\\therefore \\angle D'EF=30{}^\\circ\\)，\n\\(\\therefore \\alpha =45{}^\\circ +30{}^\\circ =75{}^\\circ\\)，\n故①正确；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中\n\\(AE=\\sqrt[] { 2 }AD=\\sqrt[] { 6 }\\)，\n由旋转得：\\(A'E=AE=\\sqrt[] { 6 }\\)，\n\\(\\therefore A'F=A'E-EF\\)\n\\(=\\sqrt[] { 6 }-2\\)，\n故②正确；\n〔图2〕\n\\(\\because\\)四边形\\(ADED'\\)是正方形，\n\\(\\therefore \\angle D'AE=45{}^\\circ\\)，\n\\(\\because AE=A'E\\)，\\(\\alpha =75{}^\\circ\\)，\n\\(\\therefore \\angle A'AE=\\frac { 180{}^\\circ -\\alpha } { 2 }\\)\n\\(=\\frac { 180{}^\\circ -75{}^\\circ } { 2 }=52.5{}^\\circ\\)，\n\\(\\therefore \\angle A'AF=\\angle A'AE-\\angle D'AE\\)\n\\(=52.5{}^\\circ -45{}^\\circ =7.5{}^\\circ\\)，\n故③正确；\n由旋转得：\\(\\angle ED'G=ED''G=90{}^\\circ\\)，\n\\(\\angle D'ED''=\\alpha =75{}^\\circ\\)，\n\\(ED'=ED''\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)中\n\\(\\begin{cases} ED'=ED'' \\\\ EG=EG \\end{cases}\\)，\n\\(\\therefore\\)\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)(\\({ \\rm{ H } }{ \\rm{ L } }\\))，\n\\(\\therefore \\angle D'EG=\\angle D''EG\\)，\n\\(\\therefore \\angle D'EG=\\frac { 1 } { 2 }\\angle D'ED''=37.5{}^\\circ\\)，\n\\(\\therefore \\angle FEG=\\angle D'EG-\\angle D'EF=7.5{}^\\circ\\)，\n\\(\\therefore \\angle A'AF=\\angle FEG\\)，\n\\(\\because \\angle AFA'=\\angle EFG\\)，\n\\(\\therefore \\vartriangle AA'F\\backsim \\vartriangle EGF\\)，\n故④正确；\n\\(\\therefore\\)①②③④均正确；\n故选：D．",
+  "solution_steps": [
+    "解：\\(\\because\\)四边形\\(ABCD\\)是矩形，",
+    "\\(\\therefore \\angle AD'E=\\angle D=\\angle DAD'=90{}^\\circ\\)，",
+    "\\(\\therefore\\)四边形\\(ADED'\\)是矩形，",
+    "由折叠得：\\(AD'=AD=\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore\\)四边形\\(ADED'\\)是正方形，",
+    "\\(\\therefore\\)\\(\\angle AED'=45{}^\\circ\\)，",
+    "\\(\\therefore BD'=AB-AD'=2\\)，",
+    "\\(\\because F\\)是\\(BD'\\)的中点，",
+    "\\(\\therefore D'F=1\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'F\\)中",
+    "\\(\\therefore EF=\\sqrt[] { {ED'}^ { 2 } +D'F ^ { 2 } }\\)",
+    "\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +1 ^ { 2 } }=2\\)，",
+    "如图，取\\(EF\\)的中点\\(M\\)，连接\\(D'M\\)，",
+    "〔图2〕",
+    "\\(\\therefore D'M=MF=\\frac { 1 } { 2 }EF=1\\)，",
+    "\\(\\therefore D'M=MF=D'F\\)，",
+    "\\(\\therefore \\vartriangle D'MF\\)是等边三角形，",
+    "\\(\\therefore \\angle D'FE=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle D'EF=30{}^\\circ\\)，",
+    "\\(\\therefore \\alpha =45{}^\\circ +30{}^\\circ =75{}^\\circ\\)，",
+    "故①正确；",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中",
+    "\\(AE=\\sqrt[] { 2 }AD=\\sqrt[] { 6 }\\)，",
+    "由旋转得：\\(A'E=AE=\\sqrt[] { 6 }\\)，",
+    "\\(\\therefore A'F=A'E-EF\\)",
+    "\\(=\\sqrt[] { 6 }-2\\)，",
+    "故②正确；",
+    "〔图2〕",
+    "\\(\\because\\)四边形\\(ADED'\\)是正方形，",
+    "\\(\\therefore \\angle D'AE=45{}^\\circ\\)，",
+    "\\(\\because AE=A'E\\)，\\(\\alpha =75{}^\\circ\\)，",
+    "\\(\\therefore \\angle A'AE=\\frac { 180{}^\\circ -\\alpha } { 2 }\\)",
+    "\\(=\\frac { 180{}^\\circ -75{}^\\circ } { 2 }=52.5{}^\\circ\\)，",
+    "\\(\\therefore \\angle A'AF=\\angle A'AE-\\angle D'AE\\)",
+    "\\(=52.5{}^\\circ -45{}^\\circ =7.5{}^\\circ\\)，",
+    "故③正确；",
+    "由旋转得：\\(\\angle ED'G=ED''G=90{}^\\circ\\)，",
+    "\\(\\angle D'ED''=\\alpha =75{}^\\circ\\)，",
+    "\\(ED'=ED''\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)中",
+    "\\(\\begin{cases} ED'=ED'' \\\\ EG=EG \\end{cases}\\)，",
+    "\\(\\therefore\\)\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED'G≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle ED''G\\)(\\({ \\rm{ H } }{ \\rm{ L } }\\))，",
+    "\\(\\therefore \\angle D'EG=\\angle D''EG\\)，",
+    "\\(\\therefore \\angle D'EG=\\frac { 1 } { 2 }\\angle D'ED''=37.5{}^\\circ\\)，",
+    "\\(\\therefore \\angle FEG=\\angle D'EG-\\angle D'EF=7.5{}^\\circ\\)，",
+    "\\(\\therefore \\angle A'AF=\\angle FEG\\)，",
+    "\\(\\because \\angle AFA'=\\angle EFG\\)，",
+    "\\(\\therefore \\vartriangle AA'F\\backsim \\vartriangle EGF\\)，",
+    "故④正确；",
+    "\\(\\therefore\\)①②③④均正确；",
+    "故选：D．"
+  ],
+  "solution_origin": "source_checked_with_correction",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "F 是题设中 BD′ 的中点。辅助点 M 须取在直角三角形 ED′F 的斜边 EF 中点，才能由斜边中线性质得到 D′M=MF=1。原详解的中点字母笔误，结论不变。",
+  "source": {
+    "paper_body_blocks": [
+      28,
+      30
+    ],
+    "solution_body_blocks": [
+      102,
+      159
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-C5980164B8/paper-q10-p02.webp",
+      "assets/SZ-G8-T2-C5980164B8/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          558.64,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-C5980164B8/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-C5980164B8/solution-q10-p07.webp",
+      "assets/SZ-G8-T2-C5980164B8/solution-q10-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          182.73,
+          583.64,
+          663.64
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          540.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

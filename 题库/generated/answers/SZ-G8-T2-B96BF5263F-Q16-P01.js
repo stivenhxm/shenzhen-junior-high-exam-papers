@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q16-P01",{"answer":"\\(1\u003cx\\le4\\)。","solution_steps":["由①得 \\(x\\le4\\)。由②得 \\(2x\u003c3x-1\\)，即 \\(x>1\\)。取交集。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

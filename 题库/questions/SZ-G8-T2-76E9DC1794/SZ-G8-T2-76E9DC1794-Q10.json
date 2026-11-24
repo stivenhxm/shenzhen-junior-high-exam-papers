@@ -1,0 +1,146 @@
+{
+  "id": "SZ-G8-T2-76E9DC1794-Q10",
+  "paper_id": "SZ-G8-T2-76E9DC1794",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，BH是△ABC的角平分线，BA＝BC＝10，AC＝12，P，D分别是BH和AB上的任意一点，连接PA，PC，PD，CD．给出下列结论：①PA＝PC；②PA+PD≥CD；③PA+PD的最小值是\\(\\frac { 48 } { 5 }\\)；④若PA平分∠BAC，则△APH的面积为12．其中正确的是（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "①②③"
+    },
+    {
+      "label": "B",
+      "text": "①②④"
+    },
+    {
+      "label": "C",
+      "text": "②③④"
+    },
+    {
+      "label": "D",
+      "text": "①③④"
+    }
+  ],
+  "figures": [
+    "assets/figures/b9/b97e0e19fd0081110b1a8625ee4e38c1e4c720f850fcb99df465c9c39e836f4f.png"
+  ],
+  "tables": [],
+  "given_answer": "A",
+  "answer": "A",
+  "given_solution": "【分析】根据线段的垂直平分线的性质即可判定①，根据两点之间线段最短即可判断②，当CD⊥AB时，PA+PD的值最小，求出CD的值即可③，如图：过点P作PT⊥AB于T，再说明△PAT≌△PAH可得AT＝AH＝6、PT＝PH，设PT＝PH＝x，然后运用勾股定理求得x，最后求得△APH的面积即可判定④．\n【详解】解：∵BA＝BC，BH是角平分线，\n∴BH⊥AC，AH＝CH，\n∴PA＝PC，故①正确，\n∴PA+PD＝PD+PC≥CD，故②正确，\n根据垂线段最短可知，当CD⊥AB时，即C，P，D共线时，PA+PD的值最小，最小值为CD，\n在Rt△ABH中，AB＝10，AH＝6，BH＝\\(\\sqrt[] { AB ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)＝8，\n∵\\(\\frac { 1 } { 2 }\\)•AB•CD＝\\(\\frac { 1 } { 2 }\\)•AC•BH，\n∴CD＝\\(\\frac { 12\\times 8 } { 10 }\\)＝\\(\\frac { 48 } { 5 }\\)，\n∴PA+PD的最小值为\\(\\frac { 48 } { 5 }\\)，故③正确，\n如图，过点P作PT⊥AB于T．\n在△PAT和△PAH中，\n\\(\\begin{cases} \\angle PTA=\\angle PHA=90 ^ { {}^\\circ } \\\\ \\angle PAT=\\angle PAH \\\\ PA=PA \\end{cases}\\)，\n∴△PAT≌△PAH（AAS），\n∴AT＝AH＝6，PT＝PH，\n设PT＝PH＝x，\n在Rt△PTB中，则有（8﹣x）\\({}^{2}\\)＝x\\({}^{2}\\)+4\\({}^{2}\\)，\n∴x＝3，\n∴S\\({}_{△}\\)\\({}_{APH}\\)＝\\(\\frac { 1 } { 2 }\\)×AH×PH＝\\(\\frac { 1 } { 2 }\\)×3×6＝9，故④错误，\n故选A．\n〔图2〕\n【点睛】本题主要考查了轴对称最短问题、等腰三角形的性质、勾股定理、线段的垂直平分线的性质等知识点，证明BH垂直平分线段AC以及灵活参数构建方程解决问题成为解答本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/69/69fafcf1ea68e882a06493f6bcb7958f4ff4605a06419177b2d3e0b4805b2983.png",
+    "assets/figures/6a/6a02d74ed9efe35ec7c12d8e0d6207f4bab7a7725d4c853fc138be55a5aa8c29.png"
+  ],
+  "solution": "解：∵BA＝BC，BH是角平分线，\n∴BH⊥AC，AH＝CH，\n∴PA＝PC，故①正确，\n∴PA+PD＝PD+PC≥CD，故②正确，\n根据垂线段最短可知，当CD⊥AB时，即C，P，D共线时，PA+PD的值最小，最小值为CD，\n在Rt△ABH中，AB＝10，AH＝6，BH＝\\(\\sqrt[] { AB ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)＝8，\n∵\\(\\frac { 1 } { 2 }\\)•AB•CD＝\\(\\frac { 1 } { 2 }\\)•AC•BH，\n∴CD＝\\(\\frac { 12\\times 8 } { 10 }\\)＝\\(\\frac { 48 } { 5 }\\)，\n∴PA+PD的最小值为\\(\\frac { 48 } { 5 }\\)，故③正确，\n如图，过点P作PT⊥AB于T．\n在△PAT和△PAH中，\n\\(\\begin{cases} \\angle PTA=\\angle PHA=90 ^ { {}^\\circ } \\\\ \\angle PAT=\\angle PAH \\\\ PA=PA \\end{cases}\\)，\n∴△PAT≌△PAH（AAS），\n∴AT＝AH＝6，PT＝PH，\n设PT＝PH＝x，\n在Rt△PTB中，则有（8﹣x）\\({}^{2}\\)＝x\\({}^{2}\\)+4\\({}^{2}\\)，\n∴x＝3，\n∴S\\({}_{△}\\)\\({}_{APH}\\)＝\\(\\frac { 1 } { 2 }\\)×AH×PH＝\\(\\frac { 1 } { 2 }\\)×3×6＝9，故④错误，\n故选A．\n〔图2〕",
+  "solution_steps": [
+    "解：∵BA＝BC，BH是角平分线，",
+    "∴BH⊥AC，AH＝CH，",
+    "∴PA＝PC，故①正确，",
+    "∴PA+PD＝PD+PC≥CD，故②正确，",
+    "根据垂线段最短可知，当CD⊥AB时，即C，P，D共线时，PA+PD的值最小，最小值为CD，",
+    "在Rt△ABH中，AB＝10，AH＝6，BH＝\\(\\sqrt[] { AB ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)＝8，",
+    "∵\\(\\frac { 1 } { 2 }\\)•AB•CD＝\\(\\frac { 1 } { 2 }\\)•AC•BH，",
+    "∴CD＝\\(\\frac { 12\\times 8 } { 10 }\\)＝\\(\\frac { 48 } { 5 }\\)，",
+    "∴PA+PD的最小值为\\(\\frac { 48 } { 5 }\\)，故③正确，",
+    "如图，过点P作PT⊥AB于T．",
+    "在△PAT和△PAH中，",
+    "\\(\\begin{cases} \\angle PTA=\\angle PHA=90 ^ { {}^\\circ } \\\\ \\angle PAT=\\angle PAH \\\\ PA=PA \\end{cases}\\)，",
+    "∴△PAT≌△PAH（AAS），",
+    "∴AT＝AH＝6，PT＝PH，",
+    "设PT＝PH＝x，",
+    "在Rt△PTB中，则有（8﹣x）\\({}^{2}\\)＝x\\({}^{2}\\)+4\\({}^{2}\\)，",
+    "∴x＝3，",
+    "∴S\\({}_{△}\\)\\({}_{APH}\\)＝\\(\\frac { 1 } { 2 }\\)×AH×PH＝\\(\\frac { 1 } { 2 }\\)×3×6＝9，故④错误，",
+    "故选A．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      26,
+      28
+    ],
+    "solution_body_blocks": [
+      113,
+      139
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-76E9DC1794/paper-q10-p02.webp",
+      "assets/SZ-G8-T2-76E9DC1794/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          612.27,
+          583.64,
+          680.45
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          189.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-76E9DC1794/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-76E9DC1794/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          510.45,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          587.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q12",{"answer":"\\(x>3\\)","solution_steps":["直线经过 \\((3,1)\\) 且斜率为负，当横坐标大于 3 时，直线上的点位于 \\(y=1\\) 的下方。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

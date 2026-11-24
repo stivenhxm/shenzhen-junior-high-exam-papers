@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q13",{"answer":"\\(x^2(x-y)(x+y)\\)","solution_steps":["提取公因式 \\(x^2\\)，再对 \\(x^2-y^2\\) 应用平方差公式。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

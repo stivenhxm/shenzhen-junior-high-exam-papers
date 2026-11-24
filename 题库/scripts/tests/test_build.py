@@ -14,6 +14,18 @@ class SeedPapers(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = build.Bank(build.ROOT)
 
+    def test_grade_eight_editorial_answer_has_no_spurious_source_page(self):
+        paper = 'SZ-G8-T2-A5C3A6D19B'
+        item = paper + '-Q16-P02'
+        answer = self.bank.shards['answers/'+item]
+        self.assertEqual(answer['solution_origin'], 'editorial_answer_and_solution')
+        self.assertTrue(answer['solution_steps'])
+        self.assertEqual(answer['given_answer'], '')
+        self.assertEqual(answer['source'], {})
+        self.assertTrue(self.bank.shards['items/'+item]['source']['question_pages'])
+        args = argparse.Namespace(items=[item],paper=None,school=None,knowledge=None,exam=None)
+        self.assertIn('answers/'+item, build.subset(self.bank,args)['data'])
+
     def test_curriculum_includes_unused_tags_and_exports_only_relevant_branches(self):
         tax = build.read(build.ROOT/'taxonomy'/'taxonomy.v0.2.json')
         tree = self.bank.shards['curriculum']

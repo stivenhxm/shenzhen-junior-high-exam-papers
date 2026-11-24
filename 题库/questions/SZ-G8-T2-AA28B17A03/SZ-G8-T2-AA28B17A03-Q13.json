@@ -1,0 +1,120 @@
+{
+  "id": "SZ-G8-T2-AA28B17A03-Q13",
+  "paper_id": "SZ-G8-T2-AA28B17A03",
+  "number": 13,
+  "type": "填空题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，\\(\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ C } }\\)中，\\({ \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(\\angle { \\rm{ B } }{ \\rm{ A } }{ \\rm{ C } }=54 ^ { \\circ }\\)，点\\(D\\)为\\({ \\rm{ A } }{ \\rm{ B } }\\)中点，且\\({ \\rm{ O } }{ \\rm{ D } }\\bot { \\rm{ A } }{ \\rm{ B } }\\)，\\(\\angle { \\rm{ B } }{ \\rm{ A } }{ \\rm{ C } }\\)的平分线与\\({ \\rm{ A } }{ \\rm{ B } }\\)的垂直平分线交于点\\(O\\)，将\\(\\angle { \\rm{ C } }\\)沿\\({ \\rm{ E } }{ \\rm{ F } }\\)（\\({ \\rm{ E } }\\)在\\({ \\rm{ B } }{ \\rm{ C } }\\)上，\\({ \\rm{ F } }\\)在\\({ \\rm{ A } }{ \\rm{ C } }\\)上）折叠，点\\(C\\)与点\\(O\\)恰好重合，则\\(\\angle { \\rm{ O } }{ \\rm{ E } }{ \\rm{ C } }\\)为________度．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/6d/6d28ab17969e52d0ad90c677cac2889234029229e870e1427194cb969aa96946.png"
+  ],
+  "tables": [],
+  "given_answer": "108",
+  "answer": "108",
+  "given_solution": "【分析】连接OB、OC，根据角平分线的定义求出∠BAO，根据等腰三角形两底角相等求出∠ABC，再根据线段垂直平分线上的点到线段两端点的距离相等可得OA=OB，根据等边对等角可得∠ABO=∠BAO，再求出∠OBC，然后判断出点O是△ABC的外心，根据三角形外心的性质可得OB=OC，再根据等边对等角求出∠OCB=∠OBC，根据翻折的性质可得OE=CE，然后根据等边对等角求出∠COE，再利用三角形的内角和定理列式计算即可得解．\n【详解】如图，连接OB、OC，\n〔图2〕\n∵∠BAC=54°，AO为∠BAC的平分线，\n∴∠BAO=\\(\\frac { 1 } { 2 }\\)∠BAC=\\(\\frac { 1 } { 2 }\\)×54°=27°，\n又∵AB=AC，\n∴∠ABC=\\(\\frac { 1 } { 2 }\\)（180°-∠BAC）=\\(\\frac { 1 } { 2 }\\)×（180°-54°）=63°，\n∵DO是AB的垂直平分线，\n∴OA=OB，\n∴∠ABO=∠BAO=27°，\n∴∠OBC=∠ABC-∠ABO=63°-27°=36°，\n∵AO为∠BAC的平分线，AB=AC，\n∴△AOB≌△AOC（SAS），\n∴OB=OC，\n∴点O在BC的垂直平分线上，\n又∵DO是AB的垂直平分线，\n∴点O是△ABC的外心，\n∴∠OCB=∠OBC=36°，\n∵将∠C沿EF（E在BC上，F在AC上）折叠，点C与点O恰好重合，\n∴OE=CE，\n∴∠COE=∠OCB=36°，\n在△OCE中，∠OEC=180°-∠COE-∠OCB=180°-36°-36°=108°，\n故答案为108．\n【点睛】本题考查了三角形综合题，涉及了角平分线的定义，等腰三角形的性质，线段垂直平分线的性质与判定，三角形的外心，全等三角形的判定与性质等，综合性较强，有一定的难度，正确添加辅助线，熟练掌握和灵活运用相关知识是解题的关键.",
+  "given_solution_figures": [
+    "assets/figures/6d/6d28ab17969e52d0ad90c677cac2889234029229e870e1427194cb969aa96946.png",
+    "assets/figures/b7/b73cab553763d9faafb377502ce83e79d7a8a54cb61da15d25655c3ae8c00593.png"
+  ],
+  "solution": "如图，连接OB、OC，\n〔图2〕\n∵∠BAC=54°，AO为∠BAC的平分线，\n∴∠BAO=\\(\\frac { 1 } { 2 }\\)∠BAC=\\(\\frac { 1 } { 2 }\\)×54°=27°，\n又∵AB=AC，\n∴∠ABC=\\(\\frac { 1 } { 2 }\\)（180°-∠BAC）=\\(\\frac { 1 } { 2 }\\)×（180°-54°）=63°，\n∵DO是AB的垂直平分线，\n∴OA=OB，\n∴∠ABO=∠BAO=27°，\n∴∠OBC=∠ABC-∠ABO=63°-27°=36°，\n∵AO为∠BAC的平分线，AB=AC，\n∴△AOB≌△AOC（SAS），\n∴OB=OC，\n∴点O在BC的垂直平分线上，\n又∵DO是AB的垂直平分线，\n∴点O是△ABC的外心，\n∴∠OCB=∠OBC=36°，\n∵将∠C沿EF（E在BC上，F在AC上）折叠，点C与点O恰好重合，\n∴OE=CE，\n∴∠COE=∠OCB=36°，\n在△OCE中，∠OEC=180°-∠COE-∠OCB=180°-36°-36°=108°，\n故答案为108．",
+  "solution_steps": [
+    "如图，连接OB、OC，",
+    "〔图2〕",
+    "∵∠BAC=54°，AO为∠BAC的平分线，",
+    "∴∠BAO=\\(\\frac { 1 } { 2 }\\)∠BAC=\\(\\frac { 1 } { 2 }\\)×54°=27°，",
+    "又∵AB=AC，",
+    "∴∠ABC=\\(\\frac { 1 } { 2 }\\)（180°-∠BAC）=\\(\\frac { 1 } { 2 }\\)×（180°-54°）=63°，",
+    "∵DO是AB的垂直平分线，",
+    "∴OA=OB，",
+    "∴∠ABO=∠BAO=27°，",
+    "∴∠OBC=∠ABC-∠ABO=63°-27°=36°，",
+    "∵AO为∠BAC的平分线，AB=AC，",
+    "∴△AOB≌△AOC（SAS），",
+    "∴OB=OC，",
+    "∴点O在BC的垂直平分线上，",
+    "又∵DO是AB的垂直平分线，",
+    "∴点O是△ABC的外心，",
+    "∴∠OCB=∠OBC=36°，",
+    "∵将∠C沿EF（E在BC上，F在AC上）折叠，点C与点O恰好重合，",
+    "∴OE=CE，",
+    "∴∠COE=∠OCB=36°，",
+    "在△OCE中，∠OEC=180°-∠COE-∠OCB=180°-36°-36°=108°，",
+    "故答案为108．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      43,
+      44
+    ],
+    "solution_body_blocks": [
+      198,
+      225
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-AA28B17A03/paper-q13-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          268.64,
+          583.64,
+          458.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-AA28B17A03/solution-q13-p10.webp",
+      "assets/SZ-G8-T2-AA28B17A03/solution-q13-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          322.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,384 @@
+{
+  "id": "SZ-G8-T2-A34C01A739-Q22",
+  "paper_id": "SZ-G8-T2-A34C01A739",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系、由勾股关系求直角三角形边长",
+  "stem": "（1）如图1，在矩形\\(ABCD\\)中，点E为边\\(AB\\)的中点，沿\\(DE\\)折叠，使点A落在点F处，把纸片展平，延长\\(DF\\)与\\(BC\\)交于点G，请写出线段\\(FG\\)与\\(BG\\)的数量关系，并说明理由．\n（2）如图1，若\\(AB=4\\)，按照（1）中的操作进行折叠和作图，当\\(CG=2\\)时，求\\(AD\\)的值；\n（3）如图2，四边形\\(ABCD\\)为平行四形，其中\\(\\angle A\\)与\\(\\angle C\\)是对角，点E为边\\(AB\\)的中点，沿\\(DE\\)折叠，使点A落在点F处，把纸片展平，延长\\(DF\\)与射线\\(BC\\)交于点G，若\\(AD=2\\)，\\(CG=0.5\\)，请直接写出线段\\(DG\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/2e/2ed864b4857b036152bfd0c34592fa5895d72fc5b55894a0f5e47b5e32f41b12.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(FG=BG\\)，见解析；（2）\\(\\sqrt[] { 5 }+1\\)；（3）\\(3.5\\)或\\(4.5\\)",
+  "answer": "（1）\\(FG=BG\\)，见解析；（2）\\(\\sqrt[] { 5 }+1\\)；（3）\\(3.5\\)或\\(4.5\\)",
+  "given_solution": "【分析】（1）连接\\(EG\\)，根据矩形的性质，折叠的性质，证明\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EFG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBG\\)，即可得出结论；\n（2）勾股定理求出\\(DG\\)的长，设\\(AD=x\\)，根据\\(DG=DF+FG\\)，进行求解即可；\n（3）分点\\(G\\)在线段\\(BC\\)上和在线段\\(BC\\)的延长线上，两种情况进行讨论求解即可．\n【详解】（1）解：\\(FG=BG\\)，理由如下：\n连接\\(EG\\)，如图：\n〔图2〕\n∵四边形\\(ABCD\\)为矩形，\n∴\\(\\angle A=\\angle B=90{}^\\circ\\)，\n∵点\\(E\\)为\\(AB\\)的中点，\n∴\\(AE=BE\\)，\n∵折叠，\n∴\\(AE=EF\\)，\\(\\angle EFD=\\angle A=90{}^\\circ\\)，\n∴\\(BE=EF,\\angle EFG=90{}^\\circ =\\angle B\\)，\n又\\(EG=EG\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EFG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBG\\)，\n∴\\(FG=BG\\)；\n（2）∵四边形\\(ABCD\\)为矩形，\n∴\\(CD=AB=4\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(DG=\\sqrt[] { CD ^ { 2 } +CG ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n设\\(AD=x\\)，则：\\(DF=AD=BC=x\\)，\n由（1）知：\\(GF=BG=x-2\\)，\n∵\\(DG=DF+FG\\)，\n∴\\(x+x-2=2\\sqrt[] { 5 }\\)，\n∴\\(x=\\sqrt[] { 5 }+1\\)，\n∴\\(AD=\\sqrt[] { 5 }+1\\)；\n（3）当点\\(G\\)在线段\\(BC\\)的延长线上时，连接\\(BF\\)，如图：\n〔图3〕\n∵平行四边形\\(ABCD\\)，\n∴\\(AD=BC=2,AD\\parallel BC\\)，\n∴\\(\\angle A+\\angle ABC=180{}^\\circ\\)，\n∵点\\(E\\)是\\(AB\\)的中点，\n∴\\(AE=BE\\)，\n∵折叠，\n∴\\(AE=EF=BE\\)，\\(\\angle A=\\angle DFE\\)，\n∵\\(\\angle DFE+\\angle EFG=180{}^\\circ\\)，\n∴\\(\\angle EBG=\\angle EFG\\)，\n∵\\(EF=BE\\)，\n∴\\(\\angle EFB=\\angle EBF\\)，\n∴\\(\\angle GFB=\\angle GBF\\)，\n∴\\(FG=BG=BC+CG=2+0.5=2.5\\)，\n∴\\(DG=DF+FG=2+2.5=4.5\\)；\n当点\\(G\\)在线段\\(BC\\)上时：如图：\n〔图4〕\n同法可得：\\(FG=BG=BC-CG=1.5\\)，\n∴\\(DG=DF+FG=2+1.5=3.5\\)；\n综上：\\(DG=3.5\\)或\\(4.5\\)．\n【点睛】本题考查矩形与折叠，平行四边形与折叠，全等三角形的判定和性质，等腰三角形的判定和性质，勾股定理等知识点，熟练掌握相关性质，添加辅助线构造特殊图形和全等三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/2e/2ed864b4857b036152bfd0c34592fa5895d72fc5b55894a0f5e47b5e32f41b12.png",
+    "assets/figures/62/628aa65127339b208e9b3787b534d63457ed7e8195df751d192911c3248b7350.png",
+    "assets/figures/97/97e2b49f56aa6c60957c0fd1fe1991286b07fa828a20295ed8417edf5a0f0c9a.png",
+    "assets/figures/72/7210a6c0de2d0b8ad9230483e1befa4b73736d9bdf027d4fba7c7bb9695fff35.png"
+  ],
+  "solution": "（1）解：\\(FG=BG\\)，理由如下：\n连接\\(EG\\)，如图：\n〔图2〕\n∵四边形\\(ABCD\\)为矩形，\n∴\\(\\angle A=\\angle B=90{}^\\circ\\)，\n∵点\\(E\\)为\\(AB\\)的中点，\n∴\\(AE=BE\\)，\n∵折叠，\n∴\\(AE=EF\\)，\\(\\angle EFD=\\angle A=90{}^\\circ\\)，\n∴\\(BE=EF,\\angle EFG=90{}^\\circ =\\angle B\\)，\n又\\(EG=EG\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EFG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBG\\)，\n∴\\(FG=BG\\)；\n（2）∵四边形\\(ABCD\\)为矩形，\n∴\\(CD=AB=4\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(DG=\\sqrt[] { CD ^ { 2 } +CG ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n设\\(AD=x\\)，则：\\(DF=AD=BC=x\\)，\n由（1）知：\\(GF=BG=x-2\\)，\n∵\\(DG=DF+FG\\)，\n∴\\(x+x-2=2\\sqrt[] { 5 }\\)，\n∴\\(x=\\sqrt[] { 5 }+1\\)，\n∴\\(AD=\\sqrt[] { 5 }+1\\)；\n（3）当点\\(G\\)在线段\\(BC\\)的延长线上时，连接\\(BF\\)，如图：\n〔图3〕\n∵平行四边形\\(ABCD\\)，\n∴\\(AD=BC=2,AD\\parallel BC\\)，\n∴\\(\\angle A+\\angle ABC=180{}^\\circ\\)，\n∵点\\(E\\)是\\(AB\\)的中点，\n∴\\(AE=BE\\)，\n∵折叠，\n∴\\(AE=EF=BE\\)，\\(\\angle A=\\angle DFE\\)，\n∵\\(\\angle DFE+\\angle EFG=180{}^\\circ\\)，\n∴\\(\\angle EBG=\\angle EFG\\)，\n∵\\(EF=BE\\)，\n∴\\(\\angle EFB=\\angle EBF\\)，\n∴\\(\\angle GFB=\\angle GBF\\)，\n∴\\(FG=BG=BC+CG=2+0.5=2.5\\)，\n∴\\(DG=DF+FG=2+2.5=4.5\\)；\n当点\\(G\\)在线段\\(BC\\)上时：如图：\n〔图4〕\n同法可得：\\(FG=BG=BC-CG=1.5\\)，\n∴\\(DG=DF+FG=2+1.5=3.5\\)；\n综上：\\(DG=3.5\\)或\\(4.5\\)．",
+  "solution_steps": [
+    "（1）解：\\(FG=BG\\)，理由如下：",
+    "连接\\(EG\\)，如图：",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)为矩形，",
+    "∴\\(\\angle A=\\angle B=90{}^\\circ\\)，",
+    "∵点\\(E\\)为\\(AB\\)的中点，",
+    "∴\\(AE=BE\\)，",
+    "∵折叠，",
+    "∴\\(AE=EF\\)，\\(\\angle EFD=\\angle A=90{}^\\circ\\)，",
+    "∴\\(BE=EF,\\angle EFG=90{}^\\circ =\\angle B\\)，",
+    "又\\(EG=EG\\)，",
+    "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EFG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBG\\)，",
+    "∴\\(FG=BG\\)；",
+    "（2）∵四边形\\(ABCD\\)为矩形，",
+    "∴\\(CD=AB=4\\)，\\(\\angle C=90{}^\\circ\\)，",
+    "∴\\(DG=\\sqrt[] { CD ^ { 2 } +CG ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+    "设\\(AD=x\\)，则：\\(DF=AD=BC=x\\)，",
+    "由（1）知：\\(GF=BG=x-2\\)，",
+    "∵\\(DG=DF+FG\\)，",
+    "∴\\(x+x-2=2\\sqrt[] { 5 }\\)，",
+    "∴\\(x=\\sqrt[] { 5 }+1\\)，",
+    "∴\\(AD=\\sqrt[] { 5 }+1\\)；",
+    "（3）当点\\(G\\)在线段\\(BC\\)的延长线上时，连接\\(BF\\)，如图：",
+    "〔图3〕",
+    "∵平行四边形\\(ABCD\\)，",
+    "∴\\(AD=BC=2,AD\\parallel BC\\)，",
+    "∴\\(\\angle A+\\angle ABC=180{}^\\circ\\)，",
+    "∵点\\(E\\)是\\(AB\\)的中点，",
+    "∴\\(AE=BE\\)，",
+    "∵折叠，",
+    "∴\\(AE=EF=BE\\)，\\(\\angle A=\\angle DFE\\)，",
+    "∵\\(\\angle DFE+\\angle EFG=180{}^\\circ\\)，",
+    "∴\\(\\angle EBG=\\angle EFG\\)，",
+    "∵\\(EF=BE\\)，",
+    "∴\\(\\angle EFB=\\angle EBF\\)，",
+    "∴\\(\\angle GFB=\\angle GBF\\)，",
+    "∴\\(FG=BG=BC+CG=2+0.5=2.5\\)，",
+    "∴\\(DG=DF+FG=2+2.5=4.5\\)；",
+    "当点\\(G\\)在线段\\(BC\\)上时：如图：",
+    "〔图4〕",
+    "同法可得：\\(FG=BG=BC-CG=1.5\\)，",
+    "∴\\(DG=DF+FG=2+1.5=3.5\\)；",
+    "综上：\\(DG=3.5\\)或\\(4.5\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "fig-61",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-A34C01A739-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，在矩形\\(ABCD\\)中，点E为边\\(AB\\)的中点，沿\\(DE\\)折叠，使点A落在点F处，把纸片展平，延长\\(DF\\)与\\(BC\\)交于点G，请写出线段\\(FG\\)与\\(BG\\)的数量关系，并说明理由．",
+      "stem_text": "如图1，在矩形\\(ABCD\\)中，点E为边\\(AB\\)的中点，沿\\(DE\\)折叠，使点A落在点F处，把纸片展平，延长\\(DF\\)与\\(BC\\)交于点G，请写出线段\\(FG\\)与\\(BG\\)的数量关系，并说明理由．",
+      "material_ids": [
+        "fig-61"
+      ],
+      "requires": [],
+      "given_answer": "\\(FG=BG\\)，见解析；",
+      "answer": "\\(FG=BG\\)，见解析；",
+      "given_solution": "解：\\(FG=BG\\)，理由如下：\n连接\\(EG\\)，如图：\n〔图2〕\n∵四边形\\(ABCD\\)为矩形，\n∴\\(\\angle A=\\angle B=90{}^\\circ\\)，\n∵点\\(E\\)为\\(AB\\)的中点，\n∴\\(AE=BE\\)，\n∵折叠，\n∴\\(AE=EF\\)，\\(\\angle EFD=\\angle A=90{}^\\circ\\)，\n∴\\(BE=EF,\\angle EFG=90{}^\\circ =\\angle B\\)，\n又\\(EG=EG\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EFG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBG\\)，\n∴\\(FG=BG\\)；",
+      "solution_steps": [
+        "解：\\(FG=BG\\)，理由如下：",
+        "连接\\(EG\\)，如图：",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)为矩形，",
+        "∴\\(\\angle A=\\angle B=90{}^\\circ\\)，",
+        "∵点\\(E\\)为\\(AB\\)的中点，",
+        "∴\\(AE=BE\\)，",
+        "∵折叠，",
+        "∴\\(AE=EF\\)，\\(\\angle EFD=\\angle A=90{}^\\circ\\)，",
+        "∴\\(BE=EF,\\angle EFG=90{}^\\circ =\\angle B\\)，",
+        "又\\(EG=EG\\)，",
+        "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EFG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBG\\)，",
+        "∴\\(FG=BG\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          61
+        ],
+        "solution_block_ids": [
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-A34C01A739-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图1，若\\(AB=4\\)，按照（1）中的操作进行折叠和作图，当\\(CG=2\\)时，求\\(AD\\)的值；",
+      "stem_text": "如图1，若\\(AB=4\\)，按照（1）中的操作进行折叠和作图，当\\(CG=2\\)时，求\\(AD\\)的值；",
+      "material_ids": [
+        "fig-61"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 5 }+1\\)；",
+      "answer": "\\(\\sqrt[] { 5 }+1\\)；",
+      "given_solution": "∵四边形\\(ABCD\\)为矩形，\n∴\\(CD=AB=4\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(DG=\\sqrt[] { CD ^ { 2 } +CG ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n设\\(AD=x\\)，则：\\(DF=AD=BC=x\\)，\n由（1）知：\\(GF=BG=x-2\\)，\n∵\\(DG=DF+FG\\)，\n∴\\(x+x-2=2\\sqrt[] { 5 }\\)，\n∴\\(x=\\sqrt[] { 5 }+1\\)，\n∴\\(AD=\\sqrt[] { 5 }+1\\)；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)为矩形，",
+        "∴\\(CD=AB=4\\)，\\(\\angle C=90{}^\\circ\\)，",
+        "∴\\(DG=\\sqrt[] { CD ^ { 2 } +CG ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+        "设\\(AD=x\\)，则：\\(DF=AD=BC=x\\)，",
+        "由（1）知：\\(GF=BG=x-2\\)，",
+        "∵\\(DG=DF+FG\\)，",
+        "∴\\(x+x-2=2\\sqrt[] { 5 }\\)，",
+        "∴\\(x=\\sqrt[] { 5 }+1\\)，",
+        "∴\\(AD=\\sqrt[] { 5 }+1\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          61
+        ],
+        "solution_block_ids": [
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-A34C01A739-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图2，四边形\\(ABCD\\)为平行四形，其中\\(\\angle A\\)与\\(\\angle C\\)是对角，点E为边\\(AB\\)的中点，沿\\(DE\\)折叠，使点A落在点F处，把纸片展平，延长\\(DF\\)与射线\\(BC\\)交于点G，若\\(AD=2\\)，\\(CG=0.5\\)，请直接写出线段\\(DG\\)的值．",
+      "stem_text": "如图2，四边形\\(ABCD\\)为平行四形，其中\\(\\angle A\\)与\\(\\angle C\\)是对角，点E为边\\(AB\\)的中点，沿\\(DE\\)折叠，使点A落在点F处，把纸片展平，延长\\(DF\\)与射线\\(BC\\)交于点G，若\\(AD=2\\)，\\(CG=0.5\\)，请直接写出线段\\(DG\\)的值．",
+      "material_ids": [
+        "fig-61"
+      ],
+      "requires": [],
+      "given_answer": "\\(3.5\\)或\\(4.5\\)",
+      "answer": "\\(3.5\\)或\\(4.5\\)",
+      "given_solution": "当点\\(G\\)在线段\\(BC\\)的延长线上时，连接\\(BF\\)，如图：\n〔图3〕\n∵平行四边形\\(ABCD\\)，\n∴\\(AD=BC=2,AD\\parallel BC\\)，\n∴\\(\\angle A+\\angle ABC=180{}^\\circ\\)，\n∵点\\(E\\)是\\(AB\\)的中点，\n∴\\(AE=BE\\)，\n∵折叠，\n∴\\(AE=EF=BE\\)，\\(\\angle A=\\angle DFE\\)，\n∵\\(\\angle DFE+\\angle EFG=180{}^\\circ\\)，\n∴\\(\\angle EBG=\\angle EFG\\)，\n∵\\(EF=BE\\)，\n∴\\(\\angle EFB=\\angle EBF\\)，\n∴\\(\\angle GFB=\\angle GBF\\)，\n∴\\(FG=BG=BC+CG=2+0.5=2.5\\)，\n∴\\(DG=DF+FG=2+2.5=4.5\\)；\n当点\\(G\\)在线段\\(BC\\)上时：如图：\n〔图4〕\n同法可得：\\(FG=BG=BC-CG=1.5\\)，\n∴\\(DG=DF+FG=2+1.5=3.5\\)；\n综上：\\(DG=3.5\\)或\\(4.5\\)．",
+      "solution_steps": [
+        "当点\\(G\\)在线段\\(BC\\)的延长线上时，连接\\(BF\\)，如图：",
+        "〔图3〕",
+        "∵平行四边形\\(ABCD\\)，",
+        "∴\\(AD=BC=2,AD\\parallel BC\\)，",
+        "∴\\(\\angle A+\\angle ABC=180{}^\\circ\\)，",
+        "∵点\\(E\\)是\\(AB\\)的中点，",
+        "∴\\(AE=BE\\)，",
+        "∵折叠，",
+        "∴\\(AE=EF=BE\\)，\\(\\angle A=\\angle DFE\\)，",
+        "∵\\(\\angle DFE+\\angle EFG=180{}^\\circ\\)，",
+        "∴\\(\\angle EBG=\\angle EFG\\)，",
+        "∵\\(EF=BE\\)，",
+        "∴\\(\\angle EFB=\\angle EBF\\)，",
+        "∴\\(\\angle GFB=\\angle GBF\\)，",
+        "∴\\(FG=BG=BC+CG=2+0.5=2.5\\)，",
+        "∴\\(DG=DF+FG=2+2.5=4.5\\)；",
+        "当点\\(G\\)在线段\\(BC\\)上时：如图：",
+        "〔图4〕",
+        "同法可得：\\(FG=BG=BC-CG=1.5\\)，",
+        "∴\\(DG=DF+FG=2+1.5=3.5\\)；",
+        "综上：\\(DG=3.5\\)或\\(4.5\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      61
+    ],
+    "solution_body_blocks": [
+      415,
+      467
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-A34C01A739/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          120.45,
+          583.64,
+          348.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-A34C01A739/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-A34C01A739/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-A34C01A739/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          613.18,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          665.45
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          720.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

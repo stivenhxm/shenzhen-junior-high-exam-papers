@@ -1,0 +1,224 @@
+{
+  "id": "SZ-G8-T1-B1372BDD95-Q17",
+  "paper_id": "SZ-G8-T1-B1372BDD95",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "用消元求二元一次方程组的解",
+  "stem": "解方程组：\n（1）\\(\\begin{cases} x-3y=3{ \\rm{ ~ } } \\\\ x+y=15{ \\rm{ ~ } } \\end{cases}\\)；\n（2）\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)\n（2）\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)",
+  "answer": "（1）\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)\n（2）\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)",
+  "given_solution": "【分析】（1）②﹣①得出4y＝12，求出y，再把y＝3代入②求出x即可；\n（2）整理后①+②得出6x＝12，求出x，再把x＝2代入①求出y即可．\n【小问1详解】\n\\(\\begin{cases} x-3y=3① \\\\ x+y=15② \\end{cases}\\)，\n②﹣①，得4y＝12，\n解得：y＝3，\n把y＝3代入②，得x+3＝15，\n解得：x＝12，\n所以方程组的解是\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)；\n【小问2详解】\n\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)，\n原方程组化为：\\(\\begin{cases} 3x+2y=4① \\\\ 3x-2y=8② \\end{cases}\\)，\n①+②，得6x＝12，\n解得：x＝2，\n把x＝2代入①，得6+2y＝4，\n解得：y＝﹣1，\n所以方程组的解是\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)．\n【点睛】本题考查解二元一次方程组，解题的关键是消元，常用消元的方法有代入消元法和加减消元法．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n\\(\\begin{cases} x-3y=3① \\\\ x+y=15② \\end{cases}\\)，\n②﹣①，得4y＝12，\n解得：y＝3，\n把y＝3代入②，得x+3＝15，\n解得：x＝12，\n所以方程组的解是\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)；\n【小问2详解】\n\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)，\n原方程组化为：\\(\\begin{cases} 3x+2y=4① \\\\ 3x-2y=8② \\end{cases}\\)，\n①+②，得6x＝12，\n解得：x＝2，\n把x＝2代入①，得6+2y＝4，\n解得：y＝﹣1，\n所以方程组的解是\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "\\(\\begin{cases} x-3y=3① \\\\ x+y=15② \\end{cases}\\)，",
+    "②﹣①，得4y＝12，",
+    "解得：y＝3，",
+    "把y＝3代入②，得x+3＝15，",
+    "解得：x＝12，",
+    "所以方程组的解是\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)；",
+    "【小问2详解】",
+    "\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)，",
+    "原方程组化为：\\(\\begin{cases} 3x+2y=4① \\\\ 3x-2y=8② \\end{cases}\\)，",
+    "①+②，得6x＝12，",
+    "解得：x＝2，",
+    "把x＝2代入①，得6+2y＝4，",
+    "解得：y＝﹣1，",
+    "所以方程组的解是\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "解方程组：",
+      "paper_blocks": [
+        40
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-B1372BDD95-Q17-P01",
+      "label": "（1）",
+      "prompt": "\\(\\begin{cases} x-3y=3{ \\rm{ ~ } } \\\\ x+y=15{ \\rm{ ~ } } \\end{cases}\\)；",
+      "stem_text": "\\(\\begin{cases} x-3y=3{ \\rm{ ~ } } \\\\ x+y=15{ \\rm{ ~ } } \\end{cases}\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)",
+      "answer": "\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)",
+      "given_solution": "\\(\\begin{cases} x-3y=3① \\\\ x+y=15② \\end{cases}\\)，\n②﹣①，得4y＝12，\n解得：y＝3，\n把y＝3代入②，得x+3＝15，\n解得：x＝12，\n所以方程组的解是\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)；",
+      "solution_steps": [
+        "\\(\\begin{cases} x-3y=3① \\\\ x+y=15② \\end{cases}\\)，",
+        "②﹣①，得4y＝12，",
+        "解得：y＝3，",
+        "把y＝3代入②，得x+3＝15，",
+        "解得：x＝12，",
+        "所以方程组的解是\\(\\begin{cases} x=12 \\\\ y=3 \\end{cases}\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41
+        ],
+        "solution_block_ids": [
+          207,
+          208,
+          209,
+          210,
+          211,
+          212
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.03"
+      ],
+      "exam_ids": [
+        "E.N06.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用消元求二元一次方程组的解”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-B1372BDD95-Q17-P02",
+      "label": "（2）",
+      "prompt": "\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)．",
+      "stem_text": "\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)",
+      "answer": "\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)",
+      "given_solution": "\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)，\n原方程组化为：\\(\\begin{cases} 3x+2y=4① \\\\ 3x-2y=8② \\end{cases}\\)，\n①+②，得6x＝12，\n解得：x＝2，\n把x＝2代入①，得6+2y＝4，\n解得：y＝﹣1，\n所以方程组的解是\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)．",
+      "solution_steps": [
+        "\\(\\begin{cases} 3x+2y=4 \\\\ \\frac { x } { 2 }-\\frac { y+1 } { 3 }=1 \\end{cases}\\)，",
+        "原方程组化为：\\(\\begin{cases} 3x+2y=4① \\\\ 3x-2y=8② \\end{cases}\\)，",
+        "①+②，得6x＝12，",
+        "解得：x＝2，",
+        "把x＝2代入①，得6+2y＝4，",
+        "解得：y＝﹣1，",
+        "所以方程组的解是\\(\\begin{cases} x=2 \\\\ y=-1 \\end{cases}\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          42
+        ],
+        "solution_block_ids": [
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.03"
+      ],
+      "exam_ids": [
+        "E.N06.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用消元求二元一次方程组的解”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      40,
+      42
+    ],
+    "solution_body_blocks": [
+      198,
+      221
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-B1372BDD95/paper-q17-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          453.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-B1372BDD95/solution-q17-p10.webp",
+      "assets/SZ-G8-T1-B1372BDD95/solution-q17-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          113.18,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N06.03"
+  ],
+  "exam_ids": [
+    "E.N06.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“用消元求二元一次方程组的解”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

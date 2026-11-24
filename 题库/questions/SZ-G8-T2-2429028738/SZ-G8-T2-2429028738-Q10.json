@@ -1,0 +1,138 @@
+{
+  "id": "SZ-G8-T2-2429028738-Q10",
+  "paper_id": "SZ-G8-T2-2429028738",
+  "number": 10,
+  "type": "选择题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，正方形\\(ABCD\\)的边长为4，点\\(E\\)在边\\(CD\\)上，且\\(CE=1\\)，连结\\(AE\\)，点\\(F\\)在边\\(AD\\)上，连结\\(BF\\)，把\\(\\vartriangle ABF\\)沿\\(BF\\)翻折，点\\(A\\)恰好落在\\(AE\\)上的点\\(G\\)处，下列结论：①\\(AE=BF\\)；②\\(AD=2DF\\)；③\\(S_{ 四边形DFHE } =6\\)；④\\(GE=0.2\\)，其中正确的有（    ）个．\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1个"
+    },
+    {
+      "label": "B",
+      "text": "2个"
+    },
+    {
+      "label": "C",
+      "text": "3个"
+    },
+    {
+      "label": "D",
+      "text": "4个"
+    }
+  ],
+  "figures": [
+    "assets/figures/1b/1ba0a67b51e0f2a5a3adc057fb8ea0574124f9eef5e015e76cbfa5cc8621a05c.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】根据翻折的性质证\\(\\Delta ABF\\cong \\Delta DAE(ASA)\\)，得出\\(AF=DE=3\\)，\\(BF=AE\\)，即可判断①正确；根据\\(DF=AD-AF=4-3=1\\)，即可判断②错误；由勾股定理得出\\(BF=5\\)，根据\\(S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }BF\\cdot AH\\)，求出\\(AH\\)，由\\(S_{ 四边形DFHE } =S_{ \\Delta ADE } -S_{ \\Delta AFH }\\)求出即可判断③④，进而得出答案．\n【详解】解：\\(\\because\\)四边形\\(ABCD\\)为正方形，\n\\(\\therefore AB=AD=CD=4\\)，\\(\\angle BAD=\\angle D=90{}^\\circ\\)，\n\\(\\because CE=1\\)，\n\\(\\therefore DE=3\\)，\n由折叠的性质可得，\\(\\Delta ABF≌\\Delta GBF\\)，\\(BF\\)垂直平分\\(AG\\)，\n\\(\\therefore BF\\bot AE\\)，\\(AH=GH\\)，\n\\(\\therefore \\angle BAH+\\angle ABH=90{}^\\circ\\)，\n\\(\\because \\angle FAH+\\angle BAH=90{}^\\circ\\)，\n\\(\\therefore \\angle ABH=\\angle FAH\\)，\n\\(\\therefore \\Delta ABF≌\\Delta DAE(ASA)\\)，\n\\(\\therefore AF=DE=3\\)，\\(BF=AE\\)，故①正确；\n\\(\\because DF=AD-AF=4-3=1\\)，\n\\(\\therefore AD=4DF\\)，故②错误；\n在\\(Rt\\vartriangle ABF\\)中，\\(BF=5\\)，\n\\(\\therefore S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }\\times 4\\times 3=6\\)；\n\\(\\because S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }BF\\cdot AH\\)，\n\\(\\therefore 4\\times 3=5AH\\)，\n\\(\\therefore AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore AG=2AH=\\frac { 24 } { 5 }\\)，\\(FH=\\frac { 9 } { 5 }\\)，\n\\(\\therefore S_{ 四边形DFHE } =S_{ \\Delta ADE } -S_{ \\Delta AFH }\\)\n\\(=\\frac { 1 } { 2 }\\times 4\\times 3-\\frac { 1 } { 2 }\\times \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 }\\)\n\\(=\\frac { 96 } { 25 }\\)．故③错误；\n\\(\\because AE=BF=5\\)，\n\\(\\therefore GE=AE-AG=5-\\frac { 24 } { 5 }=0.2\\)，故④正确；\n综上所述：正确的是①④，\n故选：B．\n【点睛】本题考查了翻折变换，全等三角形的判定与性质，勾股定理，正方形的性质，解题的关键是掌握翻折的性质．",
+  "given_solution_figures": [
+    "assets/figures/1b/1ba0a67b51e0f2a5a3adc057fb8ea0574124f9eef5e015e76cbfa5cc8621a05c.png"
+  ],
+  "solution": "解：\\(\\because\\)四边形\\(ABCD\\)为正方形，\n\\(\\therefore AB=AD=CD=4\\)，\\(\\angle BAD=\\angle D=90{}^\\circ\\)，\n\\(\\because CE=1\\)，\n\\(\\therefore DE=3\\)，\n由折叠的性质可得，\\(\\Delta ABF≌\\Delta GBF\\)，\\(BF\\)垂直平分\\(AG\\)，\n\\(\\therefore BF\\bot AE\\)，\\(AH=GH\\)，\n\\(\\therefore \\angle BAH+\\angle ABH=90{}^\\circ\\)，\n\\(\\because \\angle FAH+\\angle BAH=90{}^\\circ\\)，\n\\(\\therefore \\angle ABH=\\angle FAH\\)，\n\\(\\therefore \\Delta ABF≌\\Delta DAE(ASA)\\)，\n\\(\\therefore AF=DE=3\\)，\\(BF=AE\\)，故①正确；\n\\(\\because DF=AD-AF=4-3=1\\)，\n\\(\\therefore AD=4DF\\)，故②错误；\n在\\(Rt\\vartriangle ABF\\)中，\\(BF=5\\)，\n\\(\\therefore S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }\\times 4\\times 3=6\\)；\n\\(\\because S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }BF\\cdot AH\\)，\n\\(\\therefore 4\\times 3=5AH\\)，\n\\(\\therefore AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore AG=2AH=\\frac { 24 } { 5 }\\)，\\(FH=\\frac { 9 } { 5 }\\)，\n\\(\\therefore S_{ 四边形DFHE } =S_{ \\Delta ADE } -S_{ \\Delta AFH }\\)\n\\(=\\frac { 1 } { 2 }\\times 4\\times 3-\\frac { 1 } { 2 }\\times \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 }\\)\n\\(=\\frac { 96 } { 25 }\\)．故③错误；\n\\(\\because AE=BF=5\\)，\n\\(\\therefore GE=AE-AG=5-\\frac { 24 } { 5 }=0.2\\)，故④正确；\n综上所述：正确的是①④，\n故选：B．",
+  "solution_steps": [
+    "解：\\(\\because\\)四边形\\(ABCD\\)为正方形，",
+    "\\(\\therefore AB=AD=CD=4\\)，\\(\\angle BAD=\\angle D=90{}^\\circ\\)，",
+    "\\(\\because CE=1\\)，",
+    "\\(\\therefore DE=3\\)，",
+    "由折叠的性质可得，\\(\\Delta ABF≌\\Delta GBF\\)，\\(BF\\)垂直平分\\(AG\\)，",
+    "\\(\\therefore BF\\bot AE\\)，\\(AH=GH\\)，",
+    "\\(\\therefore \\angle BAH+\\angle ABH=90{}^\\circ\\)，",
+    "\\(\\because \\angle FAH+\\angle BAH=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABH=\\angle FAH\\)，",
+    "\\(\\therefore \\Delta ABF≌\\Delta DAE(ASA)\\)，",
+    "\\(\\therefore AF=DE=3\\)，\\(BF=AE\\)，故①正确；",
+    "\\(\\because DF=AD-AF=4-3=1\\)，",
+    "\\(\\therefore AD=4DF\\)，故②错误；",
+    "在\\(Rt\\vartriangle ABF\\)中，\\(BF=5\\)，",
+    "\\(\\therefore S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }\\times 4\\times 3=6\\)；",
+    "\\(\\because S_{ \\Delta ABF } =\\frac { 1 } { 2 }AB\\cdot AF=\\frac { 1 } { 2 }BF\\cdot AH\\)，",
+    "\\(\\therefore 4\\times 3=5AH\\)，",
+    "\\(\\therefore AH=\\frac { 12 } { 5 }\\)，",
+    "\\(\\therefore AG=2AH=\\frac { 24 } { 5 }\\)，\\(FH=\\frac { 9 } { 5 }\\)，",
+    "\\(\\therefore S_{ 四边形DFHE } =S_{ \\Delta ADE } -S_{ \\Delta AFH }\\)",
+    "\\(=\\frac { 1 } { 2 }\\times 4\\times 3-\\frac { 1 } { 2 }\\times \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 }\\)",
+    "\\(=\\frac { 96 } { 25 }\\)．故③错误；",
+    "\\(\\because AE=BF=5\\)，",
+    "\\(\\therefore GE=AE-AG=5-\\frac { 24 } { 5 }=0.2\\)，故④正确；",
+    "综上所述：正确的是①④，",
+    "故选：B．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      27,
+      29
+    ],
+    "solution_body_blocks": [
+      108,
+      140
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2429028738/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          378.18,
+          583.64,
+          626.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2429028738/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-2429028738/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          745.91
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          220.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

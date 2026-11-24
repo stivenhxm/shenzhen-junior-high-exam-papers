@@ -1,0 +1,291 @@
+{
+  "id": "SZ-G8-T1-FD7F81E32F-Q19",
+  "paper_id": "SZ-G8-T1-FD7F81E32F",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，点\\(M\\)为边\\(AB\\)的中点，点\\(D\\)在边\\(BC\\)上．\n〔图1〕\n（1）如图1，若\\(AC=6\\)，\\(BC=8\\)，\\(MD\\bot AB\\)，求\\(MD\\)的长；\n（2）如图2，过点\\(M\\)作\\(ME\\bot MD\\)与边\\(AC\\)交于点\\(E\\)，试探究：线段\\(AE\\)、\\(ED\\)、\\(DB\\)三者之间的数量关系，并说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-FD7F81E32F/figures/5da6939bdcf1696ed9a8b56c554be6102d0aacc19a731a289855540e9c0391eb.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(DM=\\frac { 15 } { 4 }\\)；\n（2）\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由见解析",
+  "answer": "（1）\\(DM=\\frac { 15 } { 4 }\\)；\n（2）\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由见解析",
+  "given_solution": "【分析】本题考查了勾股定理，线段垂直平分线的判定和性质，全等三角形的判定和性质．\n（1）证明\\(MD\\)是线段\\(AB\\)的垂直平分线，利用勾股定理求得\\(BD=\\frac { 25 } { 4 }\\)，\\(AB=10\\)，再利用面积法求解即可；\n（2）作\\(AN\\parallel BC\\)交\\(DM\\)的延长线于点\\(N\\)，证明\\(\\vartriangle ANM≌\\vartriangle BDM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，推出\\(AN=BD\\)，\\(MN=MD\\)，由线段垂直平分线的判定和性质，得到\\(ED=EN\\)，再根据勾股定理即可得到结论．\n【小问1详解】\n解：连接\\(AD\\)，\n〔图2〕\n∵点\\(M\\)为边\\(AB\\)的中点，\\(MD\\bot AB\\)，\n∴\\(MD\\)是线段\\(AB\\)的垂直平分线，\n∴\\(AD=BD\\)，\n设\\(AD=BD=x\\)，则\\(CD=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(AD ^ { 2 } =AC ^ { 2 } +CD ^ { 2 }\\)，即\\(x ^ { 2 } =6 ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 }\\)，\n解得\\(x=\\frac { 25 } { 4 }\\)，即\\(BD=\\frac { 25 } { 4 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=6\\)，\\(BC=8\\)，\n∴\\(AB=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }AB\\times DM=\\frac { 1 } { 2 }BD\\times AC\\)，\n∴\\(DM=\\frac { \\frac { 25 } { 4 }\\times 6 } { 10 }=\\frac { 15 } { 4 }\\)；\n【小问2详解】\n解：\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由如下，\n作\\(AN\\parallel BC\\)交\\(DM\\)的延长线于点\\(N\\)，连接\\(EN\\)，\n〔图3〕\n∴\\(\\angle NAM=\\angle B\\)，\\(\\angle ANM=\\angle BDM\\)，\n∵点\\(M\\)为边\\(AB\\)的中点，\n∴\\(AM=BM\\)，\n∴\\(\\vartriangle ANM≌\\vartriangle BDM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=BD\\)，\\(MN=MD\\)，\n∵\\(ME\\bot MD\\)，\n∴\\(ME\\)是线段\\(DN\\)的垂直平分线，\n∴\\(ED=EN\\)，\n∵\\(\\angle C=90{}^\\circ\\)，\\(AN\\parallel BC\\)，\n∴\\(\\angle EAN=90{}^\\circ\\)，\n∴\\(EN ^ { 2 } =AE ^ { 2 } +AN ^ { 2 }\\)，即\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-FD7F81E32F/figures/5da6939bdcf1696ed9a8b56c554be6102d0aacc19a731a289855540e9c0391eb.png",
+    "assets/SZ-G8-T1-FD7F81E32F/figures/661a408907810a6872572b6e8a871c480367e79b94982cad5532ff5552f544e9.png",
+    "assets/SZ-G8-T1-FD7F81E32F/figures/23d2baea5bf26e4b7058b3725478c97639a58d0f5203013ae2725f54564908a8.png"
+  ],
+  "solution": "【小问1详解】\n解：连接\\(AD\\)，\n〔图2〕\n∵点\\(M\\)为边\\(AB\\)的中点，\\(MD\\bot AB\\)，\n∴\\(MD\\)是线段\\(AB\\)的垂直平分线，\n∴\\(AD=BD\\)，\n设\\(AD=BD=x\\)，则\\(CD=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(AD ^ { 2 } =AC ^ { 2 } +CD ^ { 2 }\\)，即\\(x ^ { 2 } =6 ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 }\\)，\n解得\\(x=\\frac { 25 } { 4 }\\)，即\\(BD=\\frac { 25 } { 4 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=6\\)，\\(BC=8\\)，\n∴\\(AB=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }AB\\times DM=\\frac { 1 } { 2 }BD\\times AC\\)，\n∴\\(DM=\\frac { \\frac { 25 } { 4 }\\times 6 } { 10 }=\\frac { 15 } { 4 }\\)；\n【小问2详解】\n解：\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由如下，\n作\\(AN\\parallel BC\\)交\\(DM\\)的延长线于点\\(N\\)，连接\\(EN\\)，\n〔图3〕\n∴\\(\\angle NAM=\\angle B\\)，\\(\\angle ANM=\\angle BDM\\)，\n∵点\\(M\\)为边\\(AB\\)的中点，\n∴\\(AM=BM\\)，\n∴\\(\\vartriangle ANM≌\\vartriangle BDM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=BD\\)，\\(MN=MD\\)，\n∵\\(ME\\bot MD\\)，\n∴\\(ME\\)是线段\\(DN\\)的垂直平分线，\n∴\\(ED=EN\\)，\n∵\\(\\angle C=90{}^\\circ\\)，\\(AN\\parallel BC\\)，\n∴\\(\\angle EAN=90{}^\\circ\\)，\n∴\\(EN ^ { 2 } =AE ^ { 2 } +AN ^ { 2 }\\)，即\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：连接\\(AD\\)，",
+    "〔图2〕",
+    "∵点\\(M\\)为边\\(AB\\)的中点，\\(MD\\bot AB\\)，",
+    "∴\\(MD\\)是线段\\(AB\\)的垂直平分线，",
+    "∴\\(AD=BD\\)，",
+    "设\\(AD=BD=x\\)，则\\(CD=8-x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(AD ^ { 2 } =AC ^ { 2 } +CD ^ { 2 }\\)，即\\(x ^ { 2 } =6 ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 }\\)，",
+    "解得\\(x=\\frac { 25 } { 4 }\\)，即\\(BD=\\frac { 25 } { 4 }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=6\\)，\\(BC=8\\)，",
+    "∴\\(AB=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+    "∵\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }AB\\times DM=\\frac { 1 } { 2 }BD\\times AC\\)，",
+    "∴\\(DM=\\frac { \\frac { 25 } { 4 }\\times 6 } { 10 }=\\frac { 15 } { 4 }\\)；",
+    "【小问2详解】",
+    "解：\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由如下，",
+    "作\\(AN\\parallel BC\\)交\\(DM\\)的延长线于点\\(N\\)，连接\\(EN\\)，",
+    "〔图3〕",
+    "∴\\(\\angle NAM=\\angle B\\)，\\(\\angle ANM=\\angle BDM\\)，",
+    "∵点\\(M\\)为边\\(AB\\)的中点，",
+    "∴\\(AM=BM\\)，",
+    "∴\\(\\vartriangle ANM≌\\vartriangle BDM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AN=BD\\)，\\(MN=MD\\)，",
+    "∵\\(ME\\bot MD\\)，",
+    "∴\\(ME\\)是线段\\(DN\\)的垂直平分线，",
+    "∴\\(ED=EN\\)，",
+    "∵\\(\\angle C=90{}^\\circ\\)，\\(AN\\parallel BC\\)，",
+    "∴\\(\\angle EAN=90{}^\\circ\\)，",
+    "∴\\(EN ^ { 2 } =AE ^ { 2 } +AN ^ { 2 }\\)，即\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，点\\(M\\)为边\\(AB\\)的中点，点\\(D\\)在边\\(BC\\)上．\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-FD7F81E32F-Q19-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(AC=6\\)，\\(BC=8\\)，\\(MD\\bot AB\\)，求\\(MD\\)的长；",
+      "stem_text": "如图1，若\\(AC=6\\)，\\(BC=8\\)，\\(MD\\bot AB\\)，求\\(MD\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(DM=\\frac { 15 } { 4 }\\)；",
+      "answer": "\\(DM=\\frac { 15 } { 4 }\\)；",
+      "given_solution": "解：连接\\(AD\\)，\n〔图2〕\n∵点\\(M\\)为边\\(AB\\)的中点，\\(MD\\bot AB\\)，\n∴\\(MD\\)是线段\\(AB\\)的垂直平分线，\n∴\\(AD=BD\\)，\n设\\(AD=BD=x\\)，则\\(CD=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(AD ^ { 2 } =AC ^ { 2 } +CD ^ { 2 }\\)，即\\(x ^ { 2 } =6 ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 }\\)，\n解得\\(x=\\frac { 25 } { 4 }\\)，即\\(BD=\\frac { 25 } { 4 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=6\\)，\\(BC=8\\)，\n∴\\(AB=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }AB\\times DM=\\frac { 1 } { 2 }BD\\times AC\\)，\n∴\\(DM=\\frac { \\frac { 25 } { 4 }\\times 6 } { 10 }=\\frac { 15 } { 4 }\\)；",
+      "solution_steps": [
+        "解：连接\\(AD\\)，",
+        "〔图2〕",
+        "∵点\\(M\\)为边\\(AB\\)的中点，\\(MD\\bot AB\\)，",
+        "∴\\(MD\\)是线段\\(AB\\)的垂直平分线，",
+        "∴\\(AD=BD\\)，",
+        "设\\(AD=BD=x\\)，则\\(CD=8-x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(AD ^ { 2 } =AC ^ { 2 } +CD ^ { 2 }\\)，即\\(x ^ { 2 } =6 ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 }\\)，",
+        "解得\\(x=\\frac { 25 } { 4 }\\)，即\\(BD=\\frac { 25 } { 4 }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=6\\)，\\(BC=8\\)，",
+        "∴\\(AB=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+        "∵\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }AB\\times DM=\\frac { 1 } { 2 }BD\\times AC\\)，",
+        "∴\\(DM=\\frac { \\frac { 25 } { 4 }\\times 6 } { 10 }=\\frac { 15 } { 4 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-FD7F81E32F-Q19-P02",
+      "label": "（2）",
+      "prompt": "如图2，过点\\(M\\)作\\(ME\\bot MD\\)与边\\(AC\\)交于点\\(E\\)，试探究：线段\\(AE\\)、\\(ED\\)、\\(DB\\)三者之间的数量关系，并说明理由．",
+      "stem_text": "如图2，过点\\(M\\)作\\(ME\\bot MD\\)与边\\(AC\\)交于点\\(E\\)，试探究：线段\\(AE\\)、\\(ED\\)、\\(DB\\)三者之间的数量关系，并说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由见解析",
+      "answer": "\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由见解析",
+      "given_solution": "解：\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由如下，\n作\\(AN\\parallel BC\\)交\\(DM\\)的延长线于点\\(N\\)，连接\\(EN\\)，\n〔图3〕\n∴\\(\\angle NAM=\\angle B\\)，\\(\\angle ANM=\\angle BDM\\)，\n∵点\\(M\\)为边\\(AB\\)的中点，\n∴\\(AM=BM\\)，\n∴\\(\\vartriangle ANM≌\\vartriangle BDM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=BD\\)，\\(MN=MD\\)，\n∵\\(ME\\bot MD\\)，\n∴\\(ME\\)是线段\\(DN\\)的垂直平分线，\n∴\\(ED=EN\\)，\n∵\\(\\angle C=90{}^\\circ\\)，\\(AN\\parallel BC\\)，\n∴\\(\\angle EAN=90{}^\\circ\\)，\n∴\\(EN ^ { 2 } =AE ^ { 2 } +AN ^ { 2 }\\)，即\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．",
+      "solution_steps": [
+        "解：\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．理由如下，",
+        "作\\(AN\\parallel BC\\)交\\(DM\\)的延长线于点\\(N\\)，连接\\(EN\\)，",
+        "〔图3〕",
+        "∴\\(\\angle NAM=\\angle B\\)，\\(\\angle ANM=\\angle BDM\\)，",
+        "∵点\\(M\\)为边\\(AB\\)的中点，",
+        "∴\\(AM=BM\\)，",
+        "∴\\(\\vartriangle ANM≌\\vartriangle BDM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AN=BD\\)，\\(MN=MD\\)，",
+        "∵\\(ME\\bot MD\\)，",
+        "∴\\(ME\\)是线段\\(DN\\)的垂直平分线，",
+        "∴\\(ED=EN\\)，",
+        "∵\\(\\angle C=90{}^\\circ\\)，\\(AN\\parallel BC\\)，",
+        "∴\\(\\angle EAN=90{}^\\circ\\)，",
+        "∴\\(EN ^ { 2 } =AE ^ { 2 } +AN ^ { 2 }\\)，即\\(ED ^ { 2 } =AE ^ { 2 } +BD ^ { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      69
+    ],
+    "solution_body_blocks": [
+      309,
+      346
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-FD7F81E32F/paper-q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          416.36,
+          583.64,
+          704.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-FD7F81E32F/solution-q19-p17.webp",
+      "assets/SZ-G8-T1-FD7F81E32F/solution-q19-p18.webp",
+      "assets/SZ-G8-T1-FD7F81E32F/solution-q19-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          724.55,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          696.82
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          400.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

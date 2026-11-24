@@ -1,0 +1,480 @@
+{
+  "id": "SZ-G8-T2-2DD229A131-Q22",
+  "paper_id": "SZ-G8-T2-2DD229A131",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "已知四边形\\(ABCD\\)中，E、F分别是\\(AB\\)、\\(AD\\)边上的点，\\(DE\\)与\\(CF\\)交于点G．\n【问题发现】\n（1）如图1，若四边形\\(ABCD\\)是正方形，且\\(DE\\bot CF\\)于G，则\\(\\frac { DE } { CF }=\\)______；\n【拓展研究】\n（2）如图2，当四边形\\(ABCD\\)是矩形时，且\\(DE\\bot CF\\)于G，\\(AB=m\\)，\\(AD=n\\)，则\\(\\frac { DE } { CF }=\\)______；\n【解决问题】\n（3）老师上课时提出这样的问题：如图3，若四边形\\(ABCD\\)是平行四边形，且\\(\\angle B+\\angle EGC=180{}^\\circ\\)时，求证：\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)；\n小圳同学冥思苦想不得其解，提问到：在做题过程中，我先将\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)转化成：\\(\\frac { DE } { AD }=\\frac { CF } { CD }\\)，发现\\(\\vartriangle DEA\\)与\\(\\vartriangle CEF\\)显然不相似，所以没办法直接得出\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)，怎么办呢？\n老师提示说：你是不是可以考虑引入一个桥梁或者考虑下添加辅助线来帮助解题呢？\n同学们，请你帮助小圳同学解决此题，写出完整证明过程；\n（4）如图4，若\\(BA=BC=6\\)，\\(DA=DC=10\\)，\\(\\angle BAD=90{}^\\circ\\)，\\(DE\\bot CF\\)于G，请直接写出\\(\\frac { DE } { CF }\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/41/4181215e65c5f37bd79466052646cf1b7ac40b46a6b0611e37fae943c6437891.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(1\\)；（2）\\(\\frac { n } { m }\\)；（3）证明见解析；（4）\\(\\frac { 17 } { 15 }\\)",
+  "answer": "（1）\\(1\\)；（2）\\(\\frac { n } { m }\\)；（3）证明见解析；（4）\\(\\frac { 17 } { 15 }\\)",
+  "given_solution": "【分析】（1）由四边形\\(ABCD\\)为正方形，利用正方形的性质得到\\(AD=DC\\)，利用同角的余角相等得到一对角相等，利用\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)得到\\(\\vartriangle ADE≌\\vartriangle DCF\\)，利用全等三角形对应边相等即可得证；\n（2）由四边形\\(ABCD\\)为矩形，得到一对直角相等，利用同角的余角相等得到一对角相等，利用两对角相等的三角形相似得到\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，利用相似三角形对应边成比例即可得证；\n（3）如图，在\\(AD\\)的延长线上取点\\(M\\)，使\\(CM=CF\\)，利用平行线的性质，以及同角的补角相等得到\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，利用相似三角形对应边成比例即可得证．\n（4）过点C作\\(CM\\bot AB\\)于点M，作\\(CN\\bot AD\\)于点N，连接\\(BD\\)，设\\(CN=a\\)，利用三角形全等，相似和勾股定理，解得即可．\n【详解】解：（1）∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle A=\\angle ADC=90{}^\\circ ，AD=DC\\)，\n∴\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，\n∵\\(DE\\bot CF\\)，\n∴\\(\\angle ADE+\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle AED=\\angle CFD\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle DCF\\)，\n∴\\(DE=CF\\)；\n∴\\(\\frac { DE } { CF }=1\\)；\n（2）∵四边形\\(ABCD\\)是矩形，\\(AB=m\\)，\\(AD=n\\)，\n∴\\(\\angle A=\\angle ADC=90{}^\\circ\\)，\\(AB=CD=m\\),\\(AD=BC=n\\)，\n∵\\(DE\\bot CF\\)，\n∴\\(\\angle ADE+\\angle CFD=90{}^\\circ ，\\angle DCF+\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle DCF\\)，\n∴\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，\n∴\\(\\frac { DE } { CF }=\\frac { AD } { CD }=\\frac { n } { m }\\)；\n（3）∵四边形\\(ABCD\\)为平行四边形，\n∴\\(AD\\parallel BC\\)，\\(AB\\parallel CD\\)，\n如图，在\\(AD\\)的延长线上取点\\(M\\)，使\\(CM=CF\\)，\n〔图2〕\n则\\(\\angle CMF=\\angle CFM\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle A=\\angle CDM\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle B+\\angle A=180{}^\\circ\\)，\n∵\\(\\angle B+\\angle EGC=180{}^\\circ ，\\angle EGF+\\angle EGC=180{}^\\circ\\)，\n∴\\(\\angle B=\\angle EGF\\)，\n∴\\(\\angle EGF+\\angle A=180{}^\\circ\\)，\n∴\\(\\angle AED=\\angle CFM=\\angle CMF\\)，\n∴\\(\\vartriangle ADE\\backsim \\vartriangle DCM\\)，\n∴\\(\\frac { DE } { CM }=\\frac { AD } { CD }\\)，即\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)．\n（4）过点C作\\(CM\\bot AB\\)于点M，作\\(CN\\bot AD\\)于点N，设\\(CN=a\\)，\n\\(\\because \\angle BAD=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AMCN\\)为矩形，\\(BM=a-6\\)，\n\\(\\because BA=BC=6，DA=DC=10，BD\\)为公共边，\n\\(\\therefore \\vartriangle ABD≌\\vartriangle CBD\\)，\n\\(\\therefore \\angle BCD=\\angle BAD=\\angle MCN=90{}^\\circ\\)，\n\\(\\therefore \\angle BCM=\\angle DCN\\)，\n\\(\\therefore \\vartriangle BCM\\backsim \\vartriangle DCN\\)，\n\\(\\therefore \\frac { CM } { CN }=\\frac { BC } { DC }\\)，即\\(\\frac { CM } { a }=\\frac { 6 } { 10 }\\)，\n\\(\\therefore CM=\\frac { 3 } { 5 }a\\)，\n在\\(Rt\\vartriangle BCM\\)中，\\(BM ^ { 2 } +CM ^ { 2 } =BC ^ { 2 }\\)，\n即\\((a-6) ^ { 2 } +\\left ( { \\frac { 3 } { 5 }a } \\right ) ^ { 2 } =6 ^ { 2 }\\)，\n〔图3〕\n解得\\(a=0\\)（舍），或\\(a=\\frac { 150 } { 17 }\\)，\n\\(\\therefore CN=\\frac { 150 } { 17 }\\)，\n\\(\\because \\angle BAD=90{}^\\circ ，DE\\bot CF\\)，\n\\(\\therefore \\angle BAD+\\angle EGF=180{}^\\circ\\)，\n\\(\\therefore \\angle AED+\\angle AFC=180{}^\\circ\\)，\n\\(\\therefore \\angle AEG=\\angle NFC\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\backsim { \\rm{ R } }{ \\rm{ t } }\\vartriangle NCF\\)，\n\\(\\therefore \\frac { DE } { CF }=\\frac { AD } { NC }=\\frac { 10 } { \\frac { 150 } { 17 } }=\\frac { 17 } { 15 }\\)．\n【点睛】本题考查了特殊平行四边形的性质，全等三角形的判定与性质，相似三角形的判定与性质，熟练掌握和运用各图形的性质和定理进行推理是解决本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/41/4181215e65c5f37bd79466052646cf1b7ac40b46a6b0611e37fae943c6437891.png",
+    "assets/figures/a4/a44bb6b7ea979d99dfc23e7e5284d29a086c2ff0da5fcde2213b5ae424e3439a.png",
+    "assets/figures/ac/ac9831877afa275a7c378c4273cf60cc26a61c544053f9e8825f9bceafa5baf2.png"
+  ],
+  "solution": "解：（1）∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle A=\\angle ADC=90{}^\\circ ，AD=DC\\)，\n∴\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，\n∵\\(DE\\bot CF\\)，\n∴\\(\\angle ADE+\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle AED=\\angle CFD\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle DCF\\)，\n∴\\(DE=CF\\)；\n∴\\(\\frac { DE } { CF }=1\\)；\n（2）∵四边形\\(ABCD\\)是矩形，\\(AB=m\\)，\\(AD=n\\)，\n∴\\(\\angle A=\\angle ADC=90{}^\\circ\\)，\\(AB=CD=m\\),\\(AD=BC=n\\)，\n∵\\(DE\\bot CF\\)，\n∴\\(\\angle ADE+\\angle CFD=90{}^\\circ ，\\angle DCF+\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle DCF\\)，\n∴\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，\n∴\\(\\frac { DE } { CF }=\\frac { AD } { CD }=\\frac { n } { m }\\)；\n（3）∵四边形\\(ABCD\\)为平行四边形，\n∴\\(AD\\parallel BC\\)，\\(AB\\parallel CD\\)，\n如图，在\\(AD\\)的延长线上取点\\(M\\)，使\\(CM=CF\\)，\n〔图2〕\n则\\(\\angle CMF=\\angle CFM\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle A=\\angle CDM\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle B+\\angle A=180{}^\\circ\\)，\n∵\\(\\angle B+\\angle EGC=180{}^\\circ ，\\angle EGF+\\angle EGC=180{}^\\circ\\)，\n∴\\(\\angle B=\\angle EGF\\)，\n∴\\(\\angle EGF+\\angle A=180{}^\\circ\\)，\n∴\\(\\angle AED=\\angle CFM=\\angle CMF\\)，\n∴\\(\\vartriangle ADE\\backsim \\vartriangle DCM\\)，\n∴\\(\\frac { DE } { CM }=\\frac { AD } { CD }\\)，即\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)．\n（4）过点C作\\(CM\\bot AB\\)于点M，作\\(CN\\bot AD\\)于点N，设\\(CN=a\\)，\n\\(\\because \\angle BAD=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AMCN\\)为矩形，\\(BM=a-6\\)，\n\\(\\because BA=BC=6，DA=DC=10，BD\\)为公共边，\n\\(\\therefore \\vartriangle ABD≌\\vartriangle CBD\\)，\n\\(\\therefore \\angle BCD=\\angle BAD=\\angle MCN=90{}^\\circ\\)，\n\\(\\therefore \\angle BCM=\\angle DCN\\)，\n\\(\\therefore \\vartriangle BCM\\backsim \\vartriangle DCN\\)，\n\\(\\therefore \\frac { CM } { CN }=\\frac { BC } { DC }\\)，即\\(\\frac { CM } { a }=\\frac { 6 } { 10 }\\)，\n\\(\\therefore CM=\\frac { 3 } { 5 }a\\)，\n在\\(Rt\\vartriangle BCM\\)中，\\(BM ^ { 2 } +CM ^ { 2 } =BC ^ { 2 }\\)，\n即\\((a-6) ^ { 2 } +\\left ( { \\frac { 3 } { 5 }a } \\right ) ^ { 2 } =6 ^ { 2 }\\)，\n〔图3〕\n解得\\(a=0\\)（舍），或\\(a=\\frac { 150 } { 17 }\\)，\n\\(\\therefore CN=\\frac { 150 } { 17 }\\)，\n\\(\\because \\angle BAD=90{}^\\circ ，DE\\bot CF\\)，\n\\(\\therefore \\angle BAD+\\angle EGF=180{}^\\circ\\)，\n\\(\\therefore \\angle AED+\\angle AFC=180{}^\\circ\\)，\n\\(\\therefore \\angle AEG=\\angle NFC\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\backsim { \\rm{ R } }{ \\rm{ t } }\\vartriangle NCF\\)，\n\\(\\therefore \\frac { DE } { CF }=\\frac { AD } { NC }=\\frac { 10 } { \\frac { 150 } { 17 } }=\\frac { 17 } { 15 }\\)．",
+  "solution_steps": [
+    "解：（1）∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(\\angle A=\\angle ADC=90{}^\\circ ，AD=DC\\)，",
+    "∴\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，",
+    "∵\\(DE\\bot CF\\)，",
+    "∴\\(\\angle ADE+\\angle CFD=90{}^\\circ\\)，",
+    "∴\\(\\angle AED=\\angle CFD\\)，",
+    "∴\\(\\vartriangle ADE≌\\vartriangle DCF\\)，",
+    "∴\\(DE=CF\\)；",
+    "∴\\(\\frac { DE } { CF }=1\\)；",
+    "（2）∵四边形\\(ABCD\\)是矩形，\\(AB=m\\)，\\(AD=n\\)，",
+    "∴\\(\\angle A=\\angle ADC=90{}^\\circ\\)，\\(AB=CD=m\\),\\(AD=BC=n\\)，",
+    "∵\\(DE\\bot CF\\)，",
+    "∴\\(\\angle ADE+\\angle CFD=90{}^\\circ ，\\angle DCF+\\angle CFD=90{}^\\circ\\)，",
+    "∴\\(\\angle ADE=\\angle DCF\\)，",
+    "∴\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，",
+    "∴\\(\\frac { DE } { CF }=\\frac { AD } { CD }=\\frac { n } { m }\\)；",
+    "（3）∵四边形\\(ABCD\\)为平行四边形，",
+    "∴\\(AD\\parallel BC\\)，\\(AB\\parallel CD\\)，",
+    "如图，在\\(AD\\)的延长线上取点\\(M\\)，使\\(CM=CF\\)，",
+    "〔图2〕",
+    "则\\(\\angle CMF=\\angle CFM\\)，",
+    "∵\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle A=\\angle CDM\\)，",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle B+\\angle A=180{}^\\circ\\)，",
+    "∵\\(\\angle B+\\angle EGC=180{}^\\circ ，\\angle EGF+\\angle EGC=180{}^\\circ\\)，",
+    "∴\\(\\angle B=\\angle EGF\\)，",
+    "∴\\(\\angle EGF+\\angle A=180{}^\\circ\\)，",
+    "∴\\(\\angle AED=\\angle CFM=\\angle CMF\\)，",
+    "∴\\(\\vartriangle ADE\\backsim \\vartriangle DCM\\)，",
+    "∴\\(\\frac { DE } { CM }=\\frac { AD } { CD }\\)，即\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)．",
+    "（4）过点C作\\(CM\\bot AB\\)于点M，作\\(CN\\bot AD\\)于点N，设\\(CN=a\\)，",
+    "\\(\\because \\angle BAD=90{}^\\circ\\)，",
+    "\\(\\therefore\\)四边形\\(AMCN\\)为矩形，\\(BM=a-6\\)，",
+    "\\(\\because BA=BC=6，DA=DC=10，BD\\)为公共边，",
+    "\\(\\therefore \\vartriangle ABD≌\\vartriangle CBD\\)，",
+    "\\(\\therefore \\angle BCD=\\angle BAD=\\angle MCN=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BCM=\\angle DCN\\)，",
+    "\\(\\therefore \\vartriangle BCM\\backsim \\vartriangle DCN\\)，",
+    "\\(\\therefore \\frac { CM } { CN }=\\frac { BC } { DC }\\)，即\\(\\frac { CM } { a }=\\frac { 6 } { 10 }\\)，",
+    "\\(\\therefore CM=\\frac { 3 } { 5 }a\\)，",
+    "在\\(Rt\\vartriangle BCM\\)中，\\(BM ^ { 2 } +CM ^ { 2 } =BC ^ { 2 }\\)，",
+    "即\\((a-6) ^ { 2 } +\\left ( { \\frac { 3 } { 5 }a } \\right ) ^ { 2 } =6 ^ { 2 }\\)，",
+    "〔图3〕",
+    "解得\\(a=0\\)（舍），或\\(a=\\frac { 150 } { 17 }\\)，",
+    "\\(\\therefore CN=\\frac { 150 } { 17 }\\)，",
+    "\\(\\because \\angle BAD=90{}^\\circ ，DE\\bot CF\\)，",
+    "\\(\\therefore \\angle BAD+\\angle EGF=180{}^\\circ\\)，",
+    "\\(\\therefore \\angle AED+\\angle AFC=180{}^\\circ\\)，",
+    "\\(\\therefore \\angle AEG=\\angle NFC\\)，",
+    "\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\backsim { \\rm{ R } }{ \\rm{ t } }\\vartriangle NCF\\)，",
+    "\\(\\therefore \\frac { DE } { CF }=\\frac { AD } { NC }=\\frac { 10 } { \\frac { 150 } { 17 } }=\\frac { 17 } { 15 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知四边形\\(ABCD\\)中，E、F分别是\\(AB\\)、\\(AD\\)边上的点，\\(DE\\)与\\(CF\\)交于点G．\n【问题发现】",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    },
+    {
+      "id": "fig-72",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-2DD229A131-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，若四边形\\(ABCD\\)是正方形，且\\(DE\\bot CF\\)于G，则\\(\\frac { DE } { CF }=\\)______；\n【拓展研究】",
+      "stem_text": "如图1，若四边形\\(ABCD\\)是正方形，且\\(DE\\bot CF\\)于G，则\\(\\frac { DE } { CF }=\\)______；\n【拓展研究】",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\(1\\)；",
+      "answer": "\\(1\\)；",
+      "given_solution": "∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle A=\\angle ADC=90{}^\\circ ，AD=DC\\)，\n∴\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，\n∵\\(DE\\bot CF\\)，\n∴\\(\\angle ADE+\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle AED=\\angle CFD\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle DCF\\)，\n∴\\(DE=CF\\)；\n∴\\(\\frac { DE } { CF }=1\\)；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(\\angle A=\\angle ADC=90{}^\\circ ，AD=DC\\)，",
+        "∴\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，",
+        "∵\\(DE\\bot CF\\)，",
+        "∴\\(\\angle ADE+\\angle CFD=90{}^\\circ\\)，",
+        "∴\\(\\angle AED=\\angle CFD\\)，",
+        "∴\\(\\vartriangle ADE≌\\vartriangle DCF\\)，",
+        "∴\\(DE=CF\\)；",
+        "∴\\(\\frac { DE } { CF }=1\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          72
+        ],
+        "solution_block_ids": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2DD229A131-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，当四边形\\(ABCD\\)是矩形时，且\\(DE\\bot CF\\)于G，\\(AB=m\\)，\\(AD=n\\)，则\\(\\frac { DE } { CF }=\\)______；\n【解决问题】",
+      "stem_text": "如图2，当四边形\\(ABCD\\)是矩形时，且\\(DE\\bot CF\\)于G，\\(AB=m\\)，\\(AD=n\\)，则\\(\\frac { DE } { CF }=\\)______；\n【解决问题】",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { n } { m }\\)；",
+      "answer": "\\(\\frac { n } { m }\\)；",
+      "given_solution": "∵四边形\\(ABCD\\)是矩形，\\(AB=m\\)，\\(AD=n\\)，\n∴\\(\\angle A=\\angle ADC=90{}^\\circ\\)，\\(AB=CD=m\\),\\(AD=BC=n\\)，\n∵\\(DE\\bot CF\\)，\n∴\\(\\angle ADE+\\angle CFD=90{}^\\circ ，\\angle DCF+\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle DCF\\)，\n∴\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，\n∴\\(\\frac { DE } { CF }=\\frac { AD } { CD }=\\frac { n } { m }\\)；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是矩形，\\(AB=m\\)，\\(AD=n\\)，",
+        "∴\\(\\angle A=\\angle ADC=90{}^\\circ\\)，\\(AB=CD=m\\),\\(AD=BC=n\\)，",
+        "∵\\(DE\\bot CF\\)，",
+        "∴\\(\\angle ADE+\\angle CFD=90{}^\\circ ，\\angle DCF+\\angle CFD=90{}^\\circ\\)，",
+        "∴\\(\\angle ADE=\\angle DCF\\)，",
+        "∴\\(\\vartriangle ADE\\backsim \\vartriangle DCF\\)，",
+        "∴\\(\\frac { DE } { CF }=\\frac { AD } { CD }=\\frac { n } { m }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          65,
+          66,
+          72
+        ],
+        "solution_block_ids": [
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“矩形性质与判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“矩形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2DD229A131-Q22-P03",
+      "label": "（3）",
+      "prompt": "老师上课时提出这样的问题：如图3，若四边形\\(ABCD\\)是平行四边形，且\\(\\angle B+\\angle EGC=180{}^\\circ\\)时，求证：\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)；\n小圳同学冥思苦想不得其解，提问到：在做题过程中，我先将\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)转化成：\\(\\frac { DE } { AD }=\\frac { CF } { CD }\\)，发现\\(\\vartriangle DEA\\)与\\(\\vartriangle CEF\\)显然不相似，所以没办法直接得出\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)，怎么办呢？\n老师提示说：你是不是可以考虑引入一个桥梁或者考虑下添加辅助线来帮助解题呢？\n同学们，请你帮助小圳同学解决此题，写出完整证明过程；",
+      "stem_text": "老师上课时提出这样的问题：如图3，若四边形\\(ABCD\\)是平行四边形，且\\(\\angle B+\\angle EGC=180{}^\\circ\\)时，求证：\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)；\n小圳同学冥思苦想不得其解，提问到：在做题过程中，我先将\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)转化成：\\(\\frac { DE } { AD }=\\frac { CF } { CD }\\)，发现\\(\\vartriangle DEA\\)与\\(\\vartriangle CEF\\)显然不相似，所以没办法直接得出\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)，怎么办呢？\n老师提示说：你是不是可以考虑引入一个桥梁或者考虑下添加辅助线来帮助解题呢？\n同学们，请你帮助小圳同学解决此题，写出完整证明过程；",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "∵四边形\\(ABCD\\)为平行四边形，\n∴\\(AD\\parallel BC\\)，\\(AB\\parallel CD\\)，\n如图，在\\(AD\\)的延长线上取点\\(M\\)，使\\(CM=CF\\)，\n〔图2〕\n则\\(\\angle CMF=\\angle CFM\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle A=\\angle CDM\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle B+\\angle A=180{}^\\circ\\)，\n∵\\(\\angle B+\\angle EGC=180{}^\\circ ，\\angle EGF+\\angle EGC=180{}^\\circ\\)，\n∴\\(\\angle B=\\angle EGF\\)，\n∴\\(\\angle EGF+\\angle A=180{}^\\circ\\)，\n∴\\(\\angle AED=\\angle CFM=\\angle CMF\\)，\n∴\\(\\vartriangle ADE\\backsim \\vartriangle DCM\\)，\n∴\\(\\frac { DE } { CM }=\\frac { AD } { CD }\\)，即\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)．",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)为平行四边形，",
+        "∴\\(AD\\parallel BC\\)，\\(AB\\parallel CD\\)，",
+        "如图，在\\(AD\\)的延长线上取点\\(M\\)，使\\(CM=CF\\)，",
+        "〔图2〕",
+        "则\\(\\angle CMF=\\angle CFM\\)，",
+        "∵\\(AB\\parallel CD\\)，",
+        "∴\\(\\angle A=\\angle CDM\\)，",
+        "∵\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle B+\\angle A=180{}^\\circ\\)，",
+        "∵\\(\\angle B+\\angle EGC=180{}^\\circ ，\\angle EGF+\\angle EGC=180{}^\\circ\\)，",
+        "∴\\(\\angle B=\\angle EGF\\)，",
+        "∴\\(\\angle EGF+\\angle A=180{}^\\circ\\)，",
+        "∴\\(\\angle AED=\\angle CFM=\\angle CMF\\)，",
+        "∴\\(\\vartriangle ADE\\backsim \\vartriangle DCM\\)，",
+        "∴\\(\\frac { DE } { CM }=\\frac { AD } { CD }\\)，即\\(\\frac { DE } { CF }=\\frac { AD } { CD }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          67,
+          68,
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2DD229A131-Q22-P04",
+      "label": "（4）",
+      "prompt": "如图4，若\\(BA=BC=6\\)，\\(DA=DC=10\\)，\\(\\angle BAD=90{}^\\circ\\)，\\(DE\\bot CF\\)于G，请直接写出\\(\\frac { DE } { CF }\\)的值．",
+      "stem_text": "如图4，若\\(BA=BC=6\\)，\\(DA=DC=10\\)，\\(\\angle BAD=90{}^\\circ\\)，\\(DE\\bot CF\\)于G，请直接写出\\(\\frac { DE } { CF }\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 17 } { 15 }\\)",
+      "answer": "\\(\\frac { 17 } { 15 }\\)",
+      "given_solution": "过点C作\\(CM\\bot AB\\)于点M，作\\(CN\\bot AD\\)于点N，设\\(CN=a\\)，\n\\(\\because \\angle BAD=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AMCN\\)为矩形，\\(BM=a-6\\)，\n\\(\\because BA=BC=6，DA=DC=10，BD\\)为公共边，\n\\(\\therefore \\vartriangle ABD≌\\vartriangle CBD\\)，\n\\(\\therefore \\angle BCD=\\angle BAD=\\angle MCN=90{}^\\circ\\)，\n\\(\\therefore \\angle BCM=\\angle DCN\\)，\n\\(\\therefore \\vartriangle BCM\\backsim \\vartriangle DCN\\)，\n\\(\\therefore \\frac { CM } { CN }=\\frac { BC } { DC }\\)，即\\(\\frac { CM } { a }=\\frac { 6 } { 10 }\\)，\n\\(\\therefore CM=\\frac { 3 } { 5 }a\\)，\n在\\(Rt\\vartriangle BCM\\)中，\\(BM ^ { 2 } +CM ^ { 2 } =BC ^ { 2 }\\)，\n即\\((a-6) ^ { 2 } +\\left ( { \\frac { 3 } { 5 }a } \\right ) ^ { 2 } =6 ^ { 2 }\\)，\n〔图3〕\n解得\\(a=0\\)（舍），或\\(a=\\frac { 150 } { 17 }\\)，\n\\(\\therefore CN=\\frac { 150 } { 17 }\\)，\n\\(\\because \\angle BAD=90{}^\\circ ，DE\\bot CF\\)，\n\\(\\therefore \\angle BAD+\\angle EGF=180{}^\\circ\\)，\n\\(\\therefore \\angle AED+\\angle AFC=180{}^\\circ\\)，\n\\(\\therefore \\angle AEG=\\angle NFC\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\backsim { \\rm{ R } }{ \\rm{ t } }\\vartriangle NCF\\)，\n\\(\\therefore \\frac { DE } { CF }=\\frac { AD } { NC }=\\frac { 10 } { \\frac { 150 } { 17 } }=\\frac { 17 } { 15 }\\)．",
+      "solution_steps": [
+        "过点C作\\(CM\\bot AB\\)于点M，作\\(CN\\bot AD\\)于点N，设\\(CN=a\\)，",
+        "\\(\\because \\angle BAD=90{}^\\circ\\)，",
+        "\\(\\therefore\\)四边形\\(AMCN\\)为矩形，\\(BM=a-6\\)，",
+        "\\(\\because BA=BC=6，DA=DC=10，BD\\)为公共边，",
+        "\\(\\therefore \\vartriangle ABD≌\\vartriangle CBD\\)，",
+        "\\(\\therefore \\angle BCD=\\angle BAD=\\angle MCN=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BCM=\\angle DCN\\)，",
+        "\\(\\therefore \\vartriangle BCM\\backsim \\vartriangle DCN\\)，",
+        "\\(\\therefore \\frac { CM } { CN }=\\frac { BC } { DC }\\)，即\\(\\frac { CM } { a }=\\frac { 6 } { 10 }\\)，",
+        "\\(\\therefore CM=\\frac { 3 } { 5 }a\\)，",
+        "在\\(Rt\\vartriangle BCM\\)中，\\(BM ^ { 2 } +CM ^ { 2 } =BC ^ { 2 }\\)，",
+        "即\\((a-6) ^ { 2 } +\\left ( { \\frac { 3 } { 5 }a } \\right ) ^ { 2 } =6 ^ { 2 }\\)，",
+        "〔图3〕",
+        "解得\\(a=0\\)（舍），或\\(a=\\frac { 150 } { 17 }\\)，",
+        "\\(\\therefore CN=\\frac { 150 } { 17 }\\)，",
+        "\\(\\because \\angle BAD=90{}^\\circ ，DE\\bot CF\\)，",
+        "\\(\\therefore \\angle BAD+\\angle EGF=180{}^\\circ\\)，",
+        "\\(\\therefore \\angle AED+\\angle AFC=180{}^\\circ\\)，",
+        "\\(\\therefore \\angle AEG=\\angle NFC\\)，",
+        "\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\backsim { \\rm{ R } }{ \\rm{ t } }\\vartriangle NCF\\)，",
+        "\\(\\therefore \\frac { DE } { CF }=\\frac { AD } { NC }=\\frac { 10 } { \\frac { 150 } { 17 } }=\\frac { 17 } { 15 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      72
+    ],
+    "solution_body_blocks": [
+      315,
+      385
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2DD229A131/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          613.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2DD229A131/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-2DD229A131/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-2DD229A131/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          202.73,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          650.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G05.02",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G01.05.01"
+  ],
+  "tag_note": "该问涉及“矩形性质与判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 题目涉及“矩形”，按题面与解答定位知识主题。 本问的运算或证明步骤对应“利用平行线性质求角”。",
+  "tag_source": "小问标签汇总"
+}

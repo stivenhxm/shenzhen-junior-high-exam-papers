@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q02",{"answer":"C","solution_steps":["分子为零给出 \\(x(x-1)=0\\)，即 \\(x=0\\) 或 \\(x=1\\)。分母要求 \\(x\\ne1\\)，故只有 \\(x=0\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

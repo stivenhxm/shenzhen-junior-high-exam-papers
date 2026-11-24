@@ -1,0 +1,111 @@
+{
+  "id": "SZ-G8-T1-C864A2EC32-Q15",
+  "paper_id": "SZ-G8-T1-C864A2EC32",
+  "number": 15,
+  "type": "填空题",
+  "points": null,
+  "title": "比较一次函数上的点或函数值",
+  "stem": "如图，正方形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)，\\(A_{ 2 } B_{ 2 } C_{ 2 } C_{ 1 }\\)，\\(A_{ 3 } B_{ 3 } C_{ 3 } C_{ 2 } \\cdots\\)，按如图所示放置，点\\(A_{ 1 }\\)，\\(A_{ 2 }\\)，\\(A_{ 3 } \\cdots\\)都在直线\\(y=x+1\\)上，点\\(C_{ 1 }\\)，\\(C_{ 2 }\\)，\\(C_{ 3 } \\cdots\\)都在x轴上，则点\\(A_{ 2023 }\\)的坐标是______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-C864A2EC32/figures/46335eac70af0ce9b649e3e465167cb39edc6f0e448326755b286560f43151b5.png"
+  ],
+  "tables": [],
+  "given_answer": "\\((2 ^ { 2022 } -1,2 ^ { 2022 } )\\)",
+  "answer": "\\((2 ^ { 2022 } -1,2 ^ { 2022 } )\\)",
+  "given_solution": "【分析】先求出\\(A_{ 1 }\\)、\\(A_{ 2 }\\)、\\(A_{ 3 }\\)、\\(A_{ 4 }\\)的坐标，找出规律，即可得出答案．\n【详解】解：\\(\\because\\)直线\\(y=x+1\\)和\\(y\\)轴交于\\(A_{ 1 }\\)，\n\\(\\therefore A_{ 1 }\\)的坐标\\(\\left ( { 0,1 } \\right )\\)，\n即\\(OA_{ 1 } =1\\)，\n\\(\\because\\)四边形\\(C_{ 1 } OA_{ 1 } B_{ 1 }\\)是正方形，\n\\(\\therefore OC_{ 1 } =OA_{ 1 } =1\\)，\n把\\(x=1\\)代入\\(y=x+1\\)得：\\(y=2\\)，\n\\(\\therefore A_{ 2 }\\)的坐标为\\(\\left ( { 1,2 } \\right )\\)，\\(C_{ 1 } A_{ 2 } =C_1 C_2 =2\\)，\n\\(\\therefore OC_{ 2 } =OC_{ 1 } +C_1 C_2 =3\\)，\n\\(\\therefore A_{ 3 }\\)的横坐标为3，\n把\\(x=3\\)代入\\(y=x+1\\)得：\\(y=4\\)，\n\\(\\therefore A_{ 3 }\\)的坐标为\\(\\left ( { 3,4 } \\right )\\)，\n同理可得：\\(A_{ 4 }\\)的坐标为\\(\\left ( { 7,8 } \\right )\\)\n\\(\\ldots\\)\n总结规律得：\\(A_{ n }\\)的坐标为\\(\\left ( { 2 ^ { n-1 } -1,2 ^ { n-1 } } \\right )\\)，\n\\(\\therefore A_{ 2023 } \\left ( { 2 ^ { 2022 } -1,2 ^ { 2022 } } \\right )\\)．\n故答案为：\\((2 ^ { 2022 } -1,2 ^ { 2022 } )\\)．\n【点睛】本题考查了一次函数图象上点的坐标特征以及正方形的性质；通过求出第一个正方形、第二个正方形和第三个正方形的边长得出规律是解决问题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-C864A2EC32/figures/46335eac70af0ce9b649e3e465167cb39edc6f0e448326755b286560f43151b5.png"
+  ],
+  "solution": "解：\\(\\because\\)直线\\(y=x+1\\)和\\(y\\)轴交于\\(A_{ 1 }\\)，\n\\(\\therefore A_{ 1 }\\)的坐标\\(\\left ( { 0,1 } \\right )\\)，\n即\\(OA_{ 1 } =1\\)，\n\\(\\because\\)四边形\\(C_{ 1 } OA_{ 1 } B_{ 1 }\\)是正方形，\n\\(\\therefore OC_{ 1 } =OA_{ 1 } =1\\)，\n把\\(x=1\\)代入\\(y=x+1\\)得：\\(y=2\\)，\n\\(\\therefore A_{ 2 }\\)的坐标为\\(\\left ( { 1,2 } \\right )\\)，\\(C_{ 1 } A_{ 2 } =C_1 C_2 =2\\)，\n\\(\\therefore OC_{ 2 } =OC_{ 1 } +C_1 C_2 =3\\)，\n\\(\\therefore A_{ 3 }\\)的横坐标为3，\n把\\(x=3\\)代入\\(y=x+1\\)得：\\(y=4\\)，\n\\(\\therefore A_{ 3 }\\)的坐标为\\(\\left ( { 3,4 } \\right )\\)，\n同理可得：\\(A_{ 4 }\\)的坐标为\\(\\left ( { 7,8 } \\right )\\)\n\\(\\ldots\\)\n总结规律得：\\(A_{ n }\\)的坐标为\\(\\left ( { 2 ^ { n-1 } -1,2 ^ { n-1 } } \\right )\\)，\n\\(\\therefore A_{ 2023 } \\left ( { 2 ^ { 2022 } -1,2 ^ { 2022 } } \\right )\\)．\n故答案为：\\((2 ^ { 2022 } -1,2 ^ { 2022 } )\\)．",
+  "solution_steps": [
+    "解：\\(\\because\\)直线\\(y=x+1\\)和\\(y\\)轴交于\\(A_{ 1 }\\)，",
+    "\\(\\therefore A_{ 1 }\\)的坐标\\(\\left ( { 0,1 } \\right )\\)，",
+    "即\\(OA_{ 1 } =1\\)，",
+    "\\(\\because\\)四边形\\(C_{ 1 } OA_{ 1 } B_{ 1 }\\)是正方形，",
+    "\\(\\therefore OC_{ 1 } =OA_{ 1 } =1\\)，",
+    "把\\(x=1\\)代入\\(y=x+1\\)得：\\(y=2\\)，",
+    "\\(\\therefore A_{ 2 }\\)的坐标为\\(\\left ( { 1,2 } \\right )\\)，\\(C_{ 1 } A_{ 2 } =C_1 C_2 =2\\)，",
+    "\\(\\therefore OC_{ 2 } =OC_{ 1 } +C_1 C_2 =3\\)，",
+    "\\(\\therefore A_{ 3 }\\)的横坐标为3，",
+    "把\\(x=3\\)代入\\(y=x+1\\)得：\\(y=4\\)，",
+    "\\(\\therefore A_{ 3 }\\)的坐标为\\(\\left ( { 3,4 } \\right )\\)，",
+    "同理可得：\\(A_{ 4 }\\)的坐标为\\(\\left ( { 7,8 } \\right )\\)",
+    "\\(\\ldots\\)",
+    "总结规律得：\\(A_{ n }\\)的坐标为\\(\\left ( { 2 ^ { n-1 } -1,2 ^ { n-1 } } \\right )\\)，",
+    "\\(\\therefore A_{ 2023 } \\left ( { 2 ^ { 2022 } -1,2 ^ { 2022 } } \\right )\\)．",
+    "故答案为：\\((2 ^ { 2022 } -1,2 ^ { 2022 } )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      34,
+      35
+    ],
+    "solution_body_blocks": [
+      165,
+      186
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-C864A2EC32/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          334.55,
+          583.64,
+          541.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-C864A2EC32/solution-q15-p09.webp",
+      "assets/SZ-G8-T1-C864A2EC32/solution-q15-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          365.0,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          267.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.01"
+  ],
+  "exam_ids": [
+    "E.N11.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“比较一次函数上的点或函数值”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

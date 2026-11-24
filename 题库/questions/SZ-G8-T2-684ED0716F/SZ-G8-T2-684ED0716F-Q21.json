@@ -1,0 +1,371 @@
+{
+  "id": "SZ-G8-T2-684ED0716F-Q21",
+  "paper_id": "SZ-G8-T2-684ED0716F",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由坐标定位点并判断位置特征",
+  "stem": "（1）探索发现：如图1，已知Rt△ABC中，∠ACB＝90°，AC＝BC，直线l过点C，过点A作AD⊥l，过点B作BE⊥l，垂足分别为D、E．求证：AD＝CE，CD＝BE．\n（2）迁移应用：如图2，将一块等腰直角的三角板MON放在平面直角坐标系内，三角板的一个锐角的顶点与坐标原点O重合，另两个顶点均落在第一象限内，已知点M的坐标为（1，3），求点N的坐标．\n（3）拓展应用：如图3，在平面直角坐标系内，已知直线y＝﹣3x+3与y轴交于点P，与x轴交于点Q，将直线PQ绕P点沿逆时针方向旋转45°后，所得的直线交x轴于点R．求点R的坐标．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/78/787cec39d246ec16d67bb638c078de11a64d4ae9416dde8be786d29cc7592d1d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析（2）（4，2）（3）（6，0）",
+  "answer": "（1）见解析（2）（4，2）（3）（6，0）",
+  "given_solution": "【分析】（1）先判断出∠ACB=∠ADC，再判断出∠CAD=∠BCE，进而判断出△ACD≌△CBE，即可得出结论；\n（2）先判断出MF=NG，OF=MG，进而得出MF=1，OF=3，即可求出FG=MF+MG=1+3=4，即可得出结论；\n（3）先求出OP=3，由y=0得x=1，进而得出Q（1，0），OQ=1，再判断出PQ=SQ，即可判断出OH=4，SH=OQ=1，进而求出直线PR的解析式，即可得出结论．\n【详解】（1）证明：∵∠ACB＝90°，AD⊥l，\n∴∠ACB＝∠ADC．\n∵∠ACE＝∠ADC+∠CAD，∠ACE＝∠ACB+∠BCE，\n∴∠CAD＝∠BCE，\n∵∠ADC＝∠CEB＝90°，AC＝BC．\n∴△ACD≌△CBE，\n∴AD＝CE，CD＝BE，\n（2）解：如图2，过点M作MF⊥y轴，垂足为F，过点N作NG⊥MF，交FM的延长线于G，\n〔图2〕\n由已知得OM＝ON，且∠OMN＝90°，\n∴由（1）得MF＝NG，OF＝MG，\n∵M（1，3），\n∴MF＝1，OF＝3，\n∴MG＝3，NG＝1，\n∴FG＝MF+MG＝1+3＝4，\n∴OF﹣NG＝3﹣1＝2，\n∴点N的坐标为（4，2）；\n〔图3〕\n（3）如图3，过点Q作QS⊥PQ，交PR于S，过点S作SH⊥x轴于H，\n对于直线y＝﹣3x+3，由x＝0得y＝3，\n∴P（0，3），\n∴OP＝3，\n由y＝0得x＝1，\n∴Q（1，0），OQ＝1，\n∵∠QPR＝45°，\n∴∠PSQ＝45°＝∠QPS．\n∴PQ＝SQ．\n∴由（1）得SH＝OQ，QH＝OP．\n∴OH＝OQ+QH＝OQ+OP＝3+1＝4，SH＝OQ＝1．\n∴S（4，1），\n设直线PR为y＝kx+b，则\n\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\) ，解得\\(\\begin{cases} { \\rm{ k } }=-\\frac { 1 } { 2 } \\\\ { \\rm{ b } }=3 \\end{cases}\\)．\n∴直线PR为y＝﹣\\(\\frac { 1 } { 2 }\\)x+3．\n由y＝0得，x＝6，\n∴R（6，0）．\n【点睛】本题是一次函数综合题，主要考查了待定系数法，全等三角形的判定和性质，构造出全等三角形是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/8b/8bf545ce73c766e0a86b4bb6fcbd9f065d0f7e43b817738641c51baedc19bbbd.png",
+    "assets/figures/3d/3d7e97adef4072047e345cd89f9b22f8bae39d7d56a5fd2e3af84f59599ccdf2.png",
+    "assets/figures/1b/1be0d01bcb10d119ed1bd71bf25c17b50d35a8ab6c9828227065a041144422ba.png"
+  ],
+  "solution": "（1）证明：∵∠ACB＝90°，AD⊥l，\n∴∠ACB＝∠ADC．\n∵∠ACE＝∠ADC+∠CAD，∠ACE＝∠ACB+∠BCE，\n∴∠CAD＝∠BCE，\n∵∠ADC＝∠CEB＝90°，AC＝BC．\n∴△ACD≌△CBE，\n∴AD＝CE，CD＝BE，\n（2）解：如图2，过点M作MF⊥y轴，垂足为F，过点N作NG⊥MF，交FM的延长线于G，\n〔图2〕\n由已知得OM＝ON，且∠OMN＝90°，\n∴由（1）得MF＝NG，OF＝MG，\n∵M（1，3），\n∴MF＝1，OF＝3，\n∴MG＝3，NG＝1，\n∴FG＝MF+MG＝1+3＝4，\n∴OF﹣NG＝3﹣1＝2，\n∴点N的坐标为（4，2）；\n〔图3〕\n（3）如图3，过点Q作QS⊥PQ，交PR于S，过点S作SH⊥x轴于H，\n对于直线y＝﹣3x+3，由x＝0得y＝3，\n∴P（0，3），\n∴OP＝3，\n由y＝0得x＝1，\n∴Q（1，0），OQ＝1，\n∵∠QPR＝45°，\n∴∠PSQ＝45°＝∠QPS．\n∴PQ＝SQ．\n∴由（1）得SH＝OQ，QH＝OP．\n∴OH＝OQ+QH＝OQ+OP＝3+1＝4，SH＝OQ＝1．\n∴S（4，1），\n设直线PR为y＝kx+b，则\n\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\) ，解得\\(\\begin{cases} { \\rm{ k } }=-\\frac { 1 } { 2 } \\\\ { \\rm{ b } }=3 \\end{cases}\\)．\n∴直线PR为y＝﹣\\(\\frac { 1 } { 2 }\\)x+3．\n由y＝0得，x＝6，\n∴R（6，0）．",
+  "solution_steps": [
+    "（1）证明：∵∠ACB＝90°，AD⊥l，",
+    "∴∠ACB＝∠ADC．",
+    "∵∠ACE＝∠ADC+∠CAD，∠ACE＝∠ACB+∠BCE，",
+    "∴∠CAD＝∠BCE，",
+    "∵∠ADC＝∠CEB＝90°，AC＝BC．",
+    "∴△ACD≌△CBE，",
+    "∴AD＝CE，CD＝BE，",
+    "（2）解：如图2，过点M作MF⊥y轴，垂足为F，过点N作NG⊥MF，交FM的延长线于G，",
+    "〔图2〕",
+    "由已知得OM＝ON，且∠OMN＝90°，",
+    "∴由（1）得MF＝NG，OF＝MG，",
+    "∵M（1，3），",
+    "∴MF＝1，OF＝3，",
+    "∴MG＝3，NG＝1，",
+    "∴FG＝MF+MG＝1+3＝4，",
+    "∴OF﹣NG＝3﹣1＝2，",
+    "∴点N的坐标为（4，2）；",
+    "〔图3〕",
+    "（3）如图3，过点Q作QS⊥PQ，交PR于S，过点S作SH⊥x轴于H，",
+    "对于直线y＝﹣3x+3，由x＝0得y＝3，",
+    "∴P（0，3），",
+    "∴OP＝3，",
+    "由y＝0得x＝1，",
+    "∴Q（1，0），OQ＝1，",
+    "∵∠QPR＝45°，",
+    "∴∠PSQ＝45°＝∠QPS．",
+    "∴PQ＝SQ．",
+    "∴由（1）得SH＝OQ，QH＝OP．",
+    "∴OH＝OQ+QH＝OQ+OP＝3+1＝4，SH＝OQ＝1．",
+    "∴S（4，1），",
+    "设直线PR为y＝kx+b，则",
+    "\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\) ，解得\\(\\begin{cases} { \\rm{ k } }=-\\frac { 1 } { 2 } \\\\ { \\rm{ b } }=3 \\end{cases}\\)．",
+    "∴直线PR为y＝﹣\\(\\frac { 1 } { 2 }\\)x+3．",
+    "由y＝0得，x＝6，",
+    "∴R（6，0）．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "fig-56",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-684ED0716F-Q21-P01",
+      "label": "（1）",
+      "prompt": "探索发现：如图1，已知Rt△ABC中，∠ACB＝90°，AC＝BC，直线l过点C，过点A作AD⊥l，过点B作BE⊥l，垂足分别为D、E．求证：AD＝CE，CD＝BE．",
+      "stem_text": "探索发现：如图1，已知Rt△ABC中，∠ACB＝90°，AC＝BC，直线l过点C，过点A作AD⊥l，过点B作BE⊥l，垂足分别为D、E．求证：AD＝CE，CD＝BE．",
+      "material_ids": [
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵∠ACB＝90°，AD⊥l，\n∴∠ACB＝∠ADC．\n∵∠ACE＝∠ADC+∠CAD，∠ACE＝∠ACB+∠BCE，\n∴∠CAD＝∠BCE，\n∵∠ADC＝∠CEB＝90°，AC＝BC．\n∴△ACD≌△CBE，\n∴AD＝CE，CD＝BE，",
+      "solution_steps": [
+        "证明：∵∠ACB＝90°，AD⊥l，",
+        "∴∠ACB＝∠ADC．",
+        "∵∠ACE＝∠ADC+∠CAD，∠ACE＝∠ACB+∠BCE，",
+        "∴∠CAD＝∠BCE，",
+        "∵∠ADC＝∠CEB＝90°，AC＝BC．",
+        "∴△ACD≌△CBE，",
+        "∴AD＝CE，CD＝BE，"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          56
+        ],
+        "solution_block_ids": [
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-684ED0716F-Q21-P02",
+      "label": "（2）",
+      "prompt": "迁移应用：如图2，将一块等腰直角的三角板MON放在平面直角坐标系内，三角板的一个锐角的顶点与坐标原点O重合，另两个顶点均落在第一象限内，已知点M的坐标为（1，3），求点N的坐标．",
+      "stem_text": "迁移应用：如图2，将一块等腰直角的三角板MON放在平面直角坐标系内，三角板的一个锐角的顶点与坐标原点O重合，另两个顶点均落在第一象限内，已知点M的坐标为（1，3），求点N的坐标．",
+      "material_ids": [
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "（4，2）",
+      "answer": "（4，2）",
+      "given_solution": "解：如图2，过点M作MF⊥y轴，垂足为F，过点N作NG⊥MF，交FM的延长线于G，\n〔图2〕\n由已知得OM＝ON，且∠OMN＝90°，\n∴由（1）得MF＝NG，OF＝MG，\n∵M（1，3），\n∴MF＝1，OF＝3，\n∴MG＝3，NG＝1，\n∴FG＝MF+MG＝1+3＝4，\n∴OF﹣NG＝3﹣1＝2，\n∴点N的坐标为（4，2）；\n〔图3〕",
+      "solution_steps": [
+        "解：如图2，过点M作MF⊥y轴，垂足为F，过点N作NG⊥MF，交FM的延长线于G，",
+        "〔图2〕",
+        "由已知得OM＝ON，且∠OMN＝90°，",
+        "∴由（1）得MF＝NG，OF＝MG，",
+        "∵M（1，3），",
+        "∴MF＝1，OF＝3，",
+        "∴MG＝3，NG＝1，",
+        "∴FG＝MF+MG＝1+3＝4，",
+        "∴OF﹣NG＝3﹣1＝2，",
+        "∴点N的坐标为（4，2）；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          56
+        ],
+        "solution_block_ids": [
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-684ED0716F-Q21-P03",
+      "label": "（3）",
+      "prompt": "拓展应用：如图3，在平面直角坐标系内，已知直线y＝﹣3x+3与y轴交于点P，与x轴交于点Q，将直线PQ绕P点沿逆时针方向旋转45°后，所得的直线交x轴于点R．求点R的坐标．",
+      "stem_text": "拓展应用：如图3，在平面直角坐标系内，已知直线y＝﹣3x+3与y轴交于点P，与x轴交于点Q，将直线PQ绕P点沿逆时针方向旋转45°后，所得的直线交x轴于点R．求点R的坐标．",
+      "material_ids": [
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "（6，0）",
+      "answer": "（6，0）",
+      "given_solution": "如图3，过点Q作QS⊥PQ，交PR于S，过点S作SH⊥x轴于H，\n对于直线y＝﹣3x+3，由x＝0得y＝3，\n∴P（0，3），\n∴OP＝3，\n由y＝0得x＝1，\n∴Q（1，0），OQ＝1，\n∵∠QPR＝45°，\n∴∠PSQ＝45°＝∠QPS．\n∴PQ＝SQ．\n∴由（1）得SH＝OQ，QH＝OP．\n∴OH＝OQ+QH＝OQ+OP＝3+1＝4，SH＝OQ＝1．\n∴S（4，1），\n设直线PR为y＝kx+b，则\n\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\) ，解得\\(\\begin{cases} { \\rm{ k } }=-\\frac { 1 } { 2 } \\\\ { \\rm{ b } }=3 \\end{cases}\\)．\n∴直线PR为y＝﹣\\(\\frac { 1 } { 2 }\\)x+3．\n由y＝0得，x＝6，\n∴R（6，0）．",
+      "solution_steps": [
+        "如图3，过点Q作QS⊥PQ，交PR于S，过点S作SH⊥x轴于H，",
+        "对于直线y＝﹣3x+3，由x＝0得y＝3，",
+        "∴P（0，3），",
+        "∴OP＝3，",
+        "由y＝0得x＝1，",
+        "∴Q（1，0），OQ＝1，",
+        "∵∠QPR＝45°，",
+        "∴∠PSQ＝45°＝∠QPS．",
+        "∴PQ＝SQ．",
+        "∴由（1）得SH＝OQ，QH＝OP．",
+        "∴OH＝OQ+QH＝OQ+OP＝3+1＝4，SH＝OQ＝1．",
+        "∴S（4，1），",
+        "设直线PR为y＝kx+b，则",
+        "\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\) ，解得\\(\\begin{cases} { \\rm{ k } }=-\\frac { 1 } { 2 } \\\\ { \\rm{ b } }=3 \\end{cases}\\)．",
+        "∴直线PR为y＝﹣\\(\\frac { 1 } { 2 }\\)x+3．",
+        "由y＝0得，x＝6，",
+        "∴R（6，0）．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.03"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      53,
+      56
+    ],
+    "solution_body_blocks": [
+      323,
+      367
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-684ED0716F/paper-q21-p04.webp",
+      "assets/SZ-G8-T2-684ED0716F/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          650.91,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          162.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-684ED0716F/solution-q21-p17.webp",
+      "assets/SZ-G8-T2-684ED0716F/solution-q21-p18.webp",
+      "assets/SZ-G8-T2-684ED0716F/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          284.55,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G09.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G09.01.01",
+    "E.G09.03.03"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 题面对应“由坐标定位点并判断位置特征”。 本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,419 @@
+{
+  "id": "SZ-G8-T1-BB19C49D57-Q22",
+  "paper_id": "SZ-G8-T1-BB19C49D57",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、用坐标求线段长度与面积",
+  "stem": "在平面直角坐标系\\(xOy\\)中，正比例函数\\(y=mx\\left ( { m\\ne 0 } \\right )\\)的图象经过点\\(A\\left ( { 2,4 } \\right )\\)，过点A的直线\\(y=kx+b\\left ( { 0 < k < 2 } \\right )\\)与x轴、y轴分别交于B，C两点．\n〔图1〕\n（1）求正比例函数的表达式；\n（2）若\\(\\vartriangle AOB\\)的面积为\\(\\vartriangle BOC\\)的面积的\\(\\frac { 4 } { 3 }\\)倍，求直线\\(y=kx+b\\)的表达式；\n（3）在（2）的条件下，在线段\\(BC\\)上找一点D，使\\(OC\\)平分\\(\\angle AOD\\)，求点D的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/6199696eae7d12badc8c22ade3c3b627c37233aa3ba75f8c3e7536e732041641.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=2x\\)\n（2）\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)\n（3）\\(D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)",
+  "answer": "（1）\\(y=2x\\)\n（2）\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)\n（3）\\(D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)",
+  "given_solution": "【分析】本题考查了待定系数法求函数解析式、对称问题：\n（1）将\\(A\\left ( { 2,4 } \\right )\\)代入\\(y=mx\\)即可求解；\n（2）分类讨论：当点\\(B\\)在\\(x\\)轴负半轴时，过点\\(A\\)作\\(x\\)轴和\\(y\\)轴的垂线，垂足分别为\\(N\\)和\\(M\\)，当点\\(B\\)在\\(x\\)轴正半轴时，利用待定系数法即可求解；\n（3）作点\\(A\\)关于\\(y\\)轴的对称点\\(A'\\)，连接\\(OA ^ { \\prime }\\)，根据对称性得\\(A'\\left ( { -2,4 } \\right )\\)，\\(\\angle AOC=\\angle A'OC\\)，即\\(OC\\)平分\\(\\angle AOA'\\)，进而可得\\(OC\\)平分\\(\\angle AOD\\)，利用待定系数法求得直线\\(OA ^ { \\prime }\\)的解析式为：\\(y=-2x\\)，令\\(-2x=\\frac { 1 } { 2 }x+3\\)，进而可求解；\n熟练掌握待定系数法求函数解析式及对称性，利用分类讨论思想解析问题是解题的关键．\n【小问1详解】\n解：将\\(A\\left ( { 2,4 } \\right )\\)代入\\(y=mx\\)得：\\(4=2m\\)，\n解得：\\(m=2\\)，\n\\(\\therefore\\)正比例函数的表达式\\(y=2x\\)．\n【小问2详解】\n当点\\(B\\)在\\(x\\)轴负半轴时，根据题意可画出图形，如图1所示，过点\\(A\\)作\\(x\\)轴和\\(y\\)轴的垂线，垂足分别为\\(N\\)和\\(M\\)，\n则\\(AM=2\\)，\\(AN=4\\)，\n〔图2〕\n设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，\n\\(\\therefore \\vartriangle AOC\\)的面积为\\(S\\)，即\\(S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，\n\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，\n\\(\\therefore 2OB=4OC\\)，即\\(OB=2OC\\)，\n令\\(x=0\\)，则\\(y=b\\)，\n\\(\\therefore C\\left ( { 0,b } \\right )\\)，\n\\(\\therefore OC=b\\)，\n\\(\\therefore OB=2b\\)，即\\(B\\left ( { -2b,0 } \\right )\\)，\n将\\(B\\left ( { -2b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：\n\\(\\begin{cases} -2b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)；\n当点\\(B\\)在\\(x\\)轴正半轴时，如图2所示，\n〔图3〕\n设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，\n\\(S_{ \\therefore \\vartriangle AOC } =7S\\)，即\\(7S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，\n\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，\n\\(\\therefore 14OB=4OC\\)，即\\(OB=\\frac { 2 } { 7 }OC\\)，\n令\\(x=0\\)，则\\(y=b\\)，\n\\(\\therefore C\\left ( { 0,b } \\right )\\)，\n\\(\\therefore OC=b\\)，\n\\(\\therefore OB=\\frac { 2 } { 7 }b\\)，即\\(B\\left ( { \\frac { 2 } { 7 }b,0 } \\right )\\)，\n将\\(\\left ( { -\\frac { 2 } { 7 }b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：\n\\(\\begin{cases} -\\frac { 2 } { 7 }b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 7 } { 2 } \\\\ b=-3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 7 } { 2 }x-3\\)；\n综上所述，直线\\(AB\\)的解析式为：\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)．\n【小问3详解】\n作点\\(A\\)关于\\(y\\)轴的对称点\\(A'\\)，连接\\(OA ^ { \\prime }\\)，如图：\n〔图4〕\n由对称可知，\\(\\angle AOC=\\angle A'OC\\)，即\\(OC\\)平分\\(\\angle AOA'\\)，\n\\(\\therefore OC\\)平分\\(\\angle AOD\\)，\n由对称可知，\\(A'\\left ( { -2,4 } \\right )\\)，\n\\(\\therefore\\)直线\\(OA ^ { \\prime }\\)的解析式为：\\(y=-2x\\)，\n令\\(-2x=\\frac { 1 } { 2 }x+3\\)，\n解得：\\(x=-\\frac { 6 } { 5 }\\)，\n\\(\\therefore y=-2\\times \\left ( { -\\frac { 6 } { 5 } } \\right )=\\frac { 12 } { 5 }\\)，\n\\(\\therefore D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/71c44538743938179b1398775e08056332dc09c050b4eca8a066d59acaf297e8.png",
+    "assets/SZ-G8-T1-BB19C49D57/figures/94c67f6a37b85448ac4422989e11211420a4576d07ba790ae375cb7aa3c5774f.png",
+    "assets/SZ-G8-T1-BB19C49D57/figures/d2a35b4819d07ea2dec68f3d22d82783047919187e7861caf4218d1026de3d5b.png",
+    "assets/SZ-G8-T1-BB19C49D57/figures/3a97a349a09c1fbdb9680f8fd361f392523137351fdb95bf5b2f5e5b021da262.png"
+  ],
+  "solution": "【小问1详解】\n解：将\\(A\\left ( { 2,4 } \\right )\\)代入\\(y=mx\\)得：\\(4=2m\\)，\n解得：\\(m=2\\)，\n\\(\\therefore\\)正比例函数的表达式\\(y=2x\\)．\n【小问2详解】\n当点\\(B\\)在\\(x\\)轴负半轴时，根据题意可画出图形，如图1所示，过点\\(A\\)作\\(x\\)轴和\\(y\\)轴的垂线，垂足分别为\\(N\\)和\\(M\\)，\n则\\(AM=2\\)，\\(AN=4\\)，\n〔图2〕\n设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，\n\\(\\therefore \\vartriangle AOC\\)的面积为\\(S\\)，即\\(S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，\n\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，\n\\(\\therefore 2OB=4OC\\)，即\\(OB=2OC\\)，\n令\\(x=0\\)，则\\(y=b\\)，\n\\(\\therefore C\\left ( { 0,b } \\right )\\)，\n\\(\\therefore OC=b\\)，\n\\(\\therefore OB=2b\\)，即\\(B\\left ( { -2b,0 } \\right )\\)，\n将\\(B\\left ( { -2b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：\n\\(\\begin{cases} -2b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)；\n当点\\(B\\)在\\(x\\)轴正半轴时，如图2所示，\n〔图3〕\n设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，\n\\(S_{ \\therefore \\vartriangle AOC } =7S\\)，即\\(7S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，\n\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，\n\\(\\therefore 14OB=4OC\\)，即\\(OB=\\frac { 2 } { 7 }OC\\)，\n令\\(x=0\\)，则\\(y=b\\)，\n\\(\\therefore C\\left ( { 0,b } \\right )\\)，\n\\(\\therefore OC=b\\)，\n\\(\\therefore OB=\\frac { 2 } { 7 }b\\)，即\\(B\\left ( { \\frac { 2 } { 7 }b,0 } \\right )\\)，\n将\\(\\left ( { -\\frac { 2 } { 7 }b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：\n\\(\\begin{cases} -\\frac { 2 } { 7 }b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 7 } { 2 } \\\\ b=-3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 7 } { 2 }x-3\\)；\n综上所述，直线\\(AB\\)的解析式为：\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)．\n【小问3详解】\n作点\\(A\\)关于\\(y\\)轴的对称点\\(A'\\)，连接\\(OA ^ { \\prime }\\)，如图：\n〔图4〕\n由对称可知，\\(\\angle AOC=\\angle A'OC\\)，即\\(OC\\)平分\\(\\angle AOA'\\)，\n\\(\\therefore OC\\)平分\\(\\angle AOD\\)，\n由对称可知，\\(A'\\left ( { -2,4 } \\right )\\)，\n\\(\\therefore\\)直线\\(OA ^ { \\prime }\\)的解析式为：\\(y=-2x\\)，\n令\\(-2x=\\frac { 1 } { 2 }x+3\\)，\n解得：\\(x=-\\frac { 6 } { 5 }\\)，\n\\(\\therefore y=-2\\times \\left ( { -\\frac { 6 } { 5 } } \\right )=\\frac { 12 } { 5 }\\)，\n\\(\\therefore D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：将\\(A\\left ( { 2,4 } \\right )\\)代入\\(y=mx\\)得：\\(4=2m\\)，",
+    "解得：\\(m=2\\)，",
+    "\\(\\therefore\\)正比例函数的表达式\\(y=2x\\)．",
+    "【小问2详解】",
+    "当点\\(B\\)在\\(x\\)轴负半轴时，根据题意可画出图形，如图1所示，过点\\(A\\)作\\(x\\)轴和\\(y\\)轴的垂线，垂足分别为\\(N\\)和\\(M\\)，",
+    "则\\(AM=2\\)，\\(AN=4\\)，",
+    "〔图2〕",
+    "设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，",
+    "\\(\\therefore \\vartriangle AOC\\)的面积为\\(S\\)，即\\(S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，",
+    "\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，",
+    "\\(\\therefore 2OB=4OC\\)，即\\(OB=2OC\\)，",
+    "令\\(x=0\\)，则\\(y=b\\)，",
+    "\\(\\therefore C\\left ( { 0,b } \\right )\\)，",
+    "\\(\\therefore OC=b\\)，",
+    "\\(\\therefore OB=2b\\)，即\\(B\\left ( { -2b,0 } \\right )\\)，",
+    "将\\(B\\left ( { -2b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：",
+    "\\(\\begin{cases} -2b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)；",
+    "当点\\(B\\)在\\(x\\)轴正半轴时，如图2所示，",
+    "〔图3〕",
+    "设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，",
+    "\\(S_{ \\therefore \\vartriangle AOC } =7S\\)，即\\(7S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，",
+    "\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，",
+    "\\(\\therefore 14OB=4OC\\)，即\\(OB=\\frac { 2 } { 7 }OC\\)，",
+    "令\\(x=0\\)，则\\(y=b\\)，",
+    "\\(\\therefore C\\left ( { 0,b } \\right )\\)，",
+    "\\(\\therefore OC=b\\)，",
+    "\\(\\therefore OB=\\frac { 2 } { 7 }b\\)，即\\(B\\left ( { \\frac { 2 } { 7 }b,0 } \\right )\\)，",
+    "将\\(\\left ( { -\\frac { 2 } { 7 }b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：",
+    "\\(\\begin{cases} -\\frac { 2 } { 7 }b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k=\\frac { 7 } { 2 } \\\\ b=-3 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 7 } { 2 }x-3\\)；",
+    "综上所述，直线\\(AB\\)的解析式为：\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)．",
+    "【小问3详解】",
+    "作点\\(A\\)关于\\(y\\)轴的对称点\\(A'\\)，连接\\(OA ^ { \\prime }\\)，如图：",
+    "〔图4〕",
+    "由对称可知，\\(\\angle AOC=\\angle A'OC\\)，即\\(OC\\)平分\\(\\angle AOA'\\)，",
+    "\\(\\therefore OC\\)平分\\(\\angle AOD\\)，",
+    "由对称可知，\\(A'\\left ( { -2,4 } \\right )\\)，",
+    "\\(\\therefore\\)直线\\(OA ^ { \\prime }\\)的解析式为：\\(y=-2x\\)，",
+    "令\\(-2x=\\frac { 1 } { 2 }x+3\\)，",
+    "解得：\\(x=-\\frac { 6 } { 5 }\\)，",
+    "\\(\\therefore y=-2\\times \\left ( { -\\frac { 6 } { 5 } } \\right )=\\frac { 12 } { 5 }\\)，",
+    "\\(\\therefore D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系\\(xOy\\)中，正比例函数\\(y=mx\\left ( { m\\ne 0 } \\right )\\)的图象经过点\\(A\\left ( { 2,4 } \\right )\\)，过点A的直线\\(y=kx+b\\left ( { 0 < k < 2 } \\right )\\)与x轴、y轴分别交于B，C两点．\n〔图1〕",
+      "paper_blocks": [
+        81,
+        82
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：若\\(\\vartriangle AOB\\)的面积为\\(\\vartriangle BOC\\)的面积的\\(\\frac { 4 } { 3 }\\)倍，求直线\\(y=kx+b\\)的表达式；",
+      "paper_blocks": [
+        81,
+        82,
+        84
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-BB19C49D57-Q22-P01",
+      "label": "（1）",
+      "prompt": "求正比例函数的表达式；",
+      "stem_text": "求正比例函数的表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=2x\\)",
+      "answer": "\\(y=2x\\)",
+      "given_solution": "解：将\\(A\\left ( { 2,4 } \\right )\\)代入\\(y=mx\\)得：\\(4=2m\\)，\n解得：\\(m=2\\)，\n\\(\\therefore\\)正比例函数的表达式\\(y=2x\\)．",
+      "solution_steps": [
+        "解：将\\(A\\left ( { 2,4 } \\right )\\)代入\\(y=mx\\)得：\\(4=2m\\)，",
+        "解得：\\(m=2\\)，",
+        "\\(\\therefore\\)正比例函数的表达式\\(y=2x\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83
+        ],
+        "solution_block_ids": [
+          372,
+          373,
+          374
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-BB19C49D57-Q22-P02",
+      "label": "（2）",
+      "prompt": "若\\(\\vartriangle AOB\\)的面积为\\(\\vartriangle BOC\\)的面积的\\(\\frac { 4 } { 3 }\\)倍，求直线\\(y=kx+b\\)的表达式；",
+      "stem_text": "若\\(\\vartriangle AOB\\)的面积为\\(\\vartriangle BOC\\)的面积的\\(\\frac { 4 } { 3 }\\)倍，求直线\\(y=kx+b\\)的表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)",
+      "answer": "\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)",
+      "given_solution": "当点\\(B\\)在\\(x\\)轴负半轴时，根据题意可画出图形，如图1所示，过点\\(A\\)作\\(x\\)轴和\\(y\\)轴的垂线，垂足分别为\\(N\\)和\\(M\\)，\n则\\(AM=2\\)，\\(AN=4\\)，\n〔图2〕\n设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，\n\\(\\therefore \\vartriangle AOC\\)的面积为\\(S\\)，即\\(S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，\n\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，\n\\(\\therefore 2OB=4OC\\)，即\\(OB=2OC\\)，\n令\\(x=0\\)，则\\(y=b\\)，\n\\(\\therefore C\\left ( { 0,b } \\right )\\)，\n\\(\\therefore OC=b\\)，\n\\(\\therefore OB=2b\\)，即\\(B\\left ( { -2b,0 } \\right )\\)，\n将\\(B\\left ( { -2b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：\n\\(\\begin{cases} -2b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)；\n当点\\(B\\)在\\(x\\)轴正半轴时，如图2所示，\n〔图3〕\n设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，\n\\(S_{ \\therefore \\vartriangle AOC } =7S\\)，即\\(7S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，\n\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，\n\\(\\therefore 14OB=4OC\\)，即\\(OB=\\frac { 2 } { 7 }OC\\)，\n令\\(x=0\\)，则\\(y=b\\)，\n\\(\\therefore C\\left ( { 0,b } \\right )\\)，\n\\(\\therefore OC=b\\)，\n\\(\\therefore OB=\\frac { 2 } { 7 }b\\)，即\\(B\\left ( { \\frac { 2 } { 7 }b,0 } \\right )\\)，\n将\\(\\left ( { -\\frac { 2 } { 7 }b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：\n\\(\\begin{cases} -\\frac { 2 } { 7 }b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 7 } { 2 } \\\\ b=-3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 7 } { 2 }x-3\\)；\n综上所述，直线\\(AB\\)的解析式为：\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)．",
+      "solution_steps": [
+        "当点\\(B\\)在\\(x\\)轴负半轴时，根据题意可画出图形，如图1所示，过点\\(A\\)作\\(x\\)轴和\\(y\\)轴的垂线，垂足分别为\\(N\\)和\\(M\\)，",
+        "则\\(AM=2\\)，\\(AN=4\\)，",
+        "〔图2〕",
+        "设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，",
+        "\\(\\therefore \\vartriangle AOC\\)的面积为\\(S\\)，即\\(S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，",
+        "\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，",
+        "\\(\\therefore 2OB=4OC\\)，即\\(OB=2OC\\)，",
+        "令\\(x=0\\)，则\\(y=b\\)，",
+        "\\(\\therefore C\\left ( { 0,b } \\right )\\)，",
+        "\\(\\therefore OC=b\\)，",
+        "\\(\\therefore OB=2b\\)，即\\(B\\left ( { -2b,0 } \\right )\\)，",
+        "将\\(B\\left ( { -2b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：",
+        "\\(\\begin{cases} -2b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k=\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)；",
+        "当点\\(B\\)在\\(x\\)轴正半轴时，如图2所示，",
+        "〔图3〕",
+        "设\\(\\vartriangle BOC\\)的面积为\\(3S\\)，则\\(\\vartriangle AOB\\)的面积为\\(4S\\)，",
+        "\\(S_{ \\therefore \\vartriangle AOC } =7S\\)，即\\(7S_{ \\vartriangle AOB } =4S_{ \\vartriangle AOC }\\)，",
+        "\\(\\because S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OC\\cdot AM=OC\\)，\\(S_{ \\vartriangle AOB } =\\frac { 1 } { 2 }OB\\cdot AN=2OB\\)，",
+        "\\(\\therefore 14OB=4OC\\)，即\\(OB=\\frac { 2 } { 7 }OC\\)，",
+        "令\\(x=0\\)，则\\(y=b\\)，",
+        "\\(\\therefore C\\left ( { 0,b } \\right )\\)，",
+        "\\(\\therefore OC=b\\)，",
+        "\\(\\therefore OB=\\frac { 2 } { 7 }b\\)，即\\(B\\left ( { \\frac { 2 } { 7 }b,0 } \\right )\\)，",
+        "将\\(\\left ( { -\\frac { 2 } { 7 }b,0 } \\right )\\)，\\(A\\left ( { 2,4 } \\right )\\)代入函数解析式得：",
+        "\\(\\begin{cases} -\\frac { 2 } { 7 }b\\cdot k+b=0 \\\\ 2k+b=4 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k=\\frac { 7 } { 2 } \\\\ b=-3 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 7 } { 2 }x-3\\)；",
+        "综上所述，直线\\(AB\\)的解析式为：\\(y=\\frac { 1 } { 2 }x+3\\)或\\(y=\\frac { 7 } { 2 }x-3\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          84
+        ],
+        "solution_block_ids": [
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-BB19C49D57-Q22-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，在线段\\(BC\\)上找一点D，使\\(OC\\)平分\\(\\angle AOD\\)，求点D的坐标．",
+      "stem_text": "在（2）的条件下，在线段\\(BC\\)上找一点D，使\\(OC\\)平分\\(\\angle AOD\\)，求点D的坐标．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T1-BB19C49D57-Q22-P02"
+      ],
+      "given_answer": "\\(D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)",
+      "answer": "\\(D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)",
+      "given_solution": "作点\\(A\\)关于\\(y\\)轴的对称点\\(A'\\)，连接\\(OA ^ { \\prime }\\)，如图：\n〔图4〕\n由对称可知，\\(\\angle AOC=\\angle A'OC\\)，即\\(OC\\)平分\\(\\angle AOA'\\)，\n\\(\\therefore OC\\)平分\\(\\angle AOD\\)，\n由对称可知，\\(A'\\left ( { -2,4 } \\right )\\)，\n\\(\\therefore\\)直线\\(OA ^ { \\prime }\\)的解析式为：\\(y=-2x\\)，\n令\\(-2x=\\frac { 1 } { 2 }x+3\\)，\n解得：\\(x=-\\frac { 6 } { 5 }\\)，\n\\(\\therefore y=-2\\times \\left ( { -\\frac { 6 } { 5 } } \\right )=\\frac { 12 } { 5 }\\)，\n\\(\\therefore D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)．",
+      "solution_steps": [
+        "作点\\(A\\)关于\\(y\\)轴的对称点\\(A'\\)，连接\\(OA ^ { \\prime }\\)，如图：",
+        "〔图4〕",
+        "由对称可知，\\(\\angle AOC=\\angle A'OC\\)，即\\(OC\\)平分\\(\\angle AOA'\\)，",
+        "\\(\\therefore OC\\)平分\\(\\angle AOD\\)，",
+        "由对称可知，\\(A'\\left ( { -2,4 } \\right )\\)，",
+        "\\(\\therefore\\)直线\\(OA ^ { \\prime }\\)的解析式为：\\(y=-2x\\)，",
+        "令\\(-2x=\\frac { 1 } { 2 }x+3\\)，",
+        "解得：\\(x=-\\frac { 6 } { 5 }\\)，",
+        "\\(\\therefore y=-2\\times \\left ( { -\\frac { 6 } { 5 } } \\right )=\\frac { 12 } { 5 }\\)，",
+        "\\(\\therefore D\\left ( { -\\frac { 6 } { 5 },\\frac { 12 } { 5 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          84,
+          85
+        ],
+        "solution_block_ids": [
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      81,
+      85
+    ],
+    "solution_body_blocks": [
+      357,
+      416
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-BB19C49D57/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          318.64,
+          583.64,
+          605.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-BB19C49D57/solution-q22-p18.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q22-p19.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q22-p20.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          373.64,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          475.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.01",
+    "E.G09.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问解答对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "SZ-G8-T2-9A73F13040-Q09",
+  "paper_id": "SZ-G8-T2-9A73F13040",
+  "number": 9,
+  "type": "选择题",
+  "points": 3,
+  "title": "列出满足多重约束的整数方案",
+  "stem": "某储运站现有甲种货物1530吨，乙种货物1150吨，安排用一列货车将这批货物运往青岛，这列货车可挂\\(A,B\\)两种不同规格的货厢50节.已知甲种货物35吨和乙种货物15吨可装满一节\\(A\\)型货厢，甲种货物25吨和乙种货物35吨可装满一节\\(B\\)型货厢，按此要求安排\\(A,B\\)两种货厢的节数，有几种运输方案（  ）",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1种"
+    },
+    {
+      "label": "B",
+      "text": "2种"
+    },
+    {
+      "label": "C",
+      "text": "3种"
+    },
+    {
+      "label": "D",
+      "text": "4种"
+    }
+  ],
+  "figures": [],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】设用A型货厢x节，B型货厢\\(\\left ( { 50-x } \\right )\\)节，根据题意列不等式组求解，求出x的范围，看有几种方案．\n【详解】解：设用A型货厢x节，B型货厢\\(\\left ( { 50-x } \\right )\\)节，\n根据题意列式：\\(\\begin{cases} 35x+25\\left ( { 50-x } \\right )\\ge 1530 \\\\ 15x+35\\left ( { 50-x } \\right )\\ge 1150 \\end{cases}\\)，解得\\(28\\le x\\le 30\\)，\n因为x只能取整数，所以x可以取28，29，30，对应的\\(\\left ( { 50-x } \\right )\\)是22，21，20，有三种方案．\n故选：C．\n【点睛】本题考查一元一次不等式组的应用，解题的关键是根据题意列出不等式组求解，需要注意结果要符合实际情况．",
+  "given_solution_figures": [],
+  "solution": "解：设用A型货厢x节，B型货厢\\(\\left ( { 50-x } \\right )\\)节，\n根据题意列式：\\(\\begin{cases} 35x+25\\left ( { 50-x } \\right )\\ge 1530 \\\\ 15x+35\\left ( { 50-x } \\right )\\ge 1150 \\end{cases}\\)，解得\\(28\\le x\\le 30\\)，\n因为x只能取整数，所以x可以取28，29，30，对应的\\(\\left ( { 50-x } \\right )\\)是22，21，20，有三种方案．\n故选：C．",
+  "solution_steps": [
+    "解：设用A型货厢x节，B型货厢\\(\\left ( { 50-x } \\right )\\)节，",
+    "根据题意列式：\\(\\begin{cases} 35x+25\\left ( { 50-x } \\right )\\ge 1530 \\\\ 15x+35\\left ( { 50-x } \\right )\\ge 1150 \\end{cases}\\)，解得\\(28\\le x\\le 30\\)，",
+    "因为x只能取整数，所以x可以取28，29，30，对应的\\(\\left ( { 50-x } \\right )\\)是22，21，20，有三种方案．",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      23,
+      24
+    ],
+    "solution_body_blocks": [
+      91,
+      100
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-9A73F13040/paper-q09-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          198.64,
+          583.64,
+          298.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      5
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-9A73F13040/solution-q09-p05.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          487.27,
+          583.64,
+          759.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N09.03"
+  ],
+  "exam_ids": [
+    "E.N09.03.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“列出满足多重约束的整数方案”。",
+  "tag_source": "题文匹配"
+}

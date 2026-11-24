@@ -1,0 +1,396 @@
+{
+  "id": "SZ-G8-T1-95E1C8BD30-Q22",
+  "paper_id": "SZ-G8-T1-95E1C8BD30",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将面积条件转为点的位置约束",
+  "stem": "如图，已知直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，直线\\(l_{ 2 } :y=x+2\\)与y轴交于点\\(C\\)，与直线\\(l_{ 1 }\\)交于点\\(D\\)．\n〔图1〕\n（1）求直线\\(l_{ 1 }\\)的表达式；\n（2）点\\(P\\)是线段\\(CD\\)上一点，连接\\(AP\\)，当\\(\\vartriangle ADP\\)的面积为9，求\\(P\\)点坐标；\n（3）若正比例函数\\(y=mx\\)的图像与直线\\(l_{ 2 }\\)交于点\\(P\\)，且点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，请直接写出符合条件的\\(m\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-95E1C8BD30/figures/650f45c428ea3d634855779228731d535db5a909b5118966cd798a2a9bdedca5.png"
+  ],
+  "tables": [],
+  "given_answer": "22. \\(y=-\\frac { 1 } { 2 }x-4\\)\n23. \\(P(-1,1)\\)\n24. \\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)",
+  "answer": "22. \\(y=-\\frac { 1 } { 2 }x-4\\)\n23. \\(P(-1,1)\\)\n24. \\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)",
+  "given_solution": "【分析】（1）根据题意将点代入解方程组即可得到答案；\n（2）联立两个函数解出\\(D\\)点坐标，求出\\(l_{ 2 } :y=x+2\\)与x轴交点坐标，根据面积列方程即可得到答案；\n（3）分两种情况讨论：当点P在\\(AB\\)下方时，设正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)交于点\\(G\\)，过点\\(O\\)作\\(OE\\bot l_{ 1 }\\)于点\\(E\\)，过点\\(P\\)作\\(PF\\bot l_{ 1 }\\)于点\\(F\\)，根据题意可得\\(\\vartriangle PGF≌\\vartriangle OGE\\)，即G是\\(OP\\)的中点，联立函数得到两个交点，根据中点公式即可得\\(m\\)的值；当正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)平行时，由“两直线平行，\\(k\\)值相等”即可获得\\(m\\)的值．\n【小问1详解】\n解：∵直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，\n∴\\(\\begin{cases} -8k+b=0 \\\\ b=-4 \\end{cases}\\) ，\n解得 \\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=-4 \\end{cases}\\)，\n∴\\(y=-\\frac { 1 } { 2 }x-4\\)，\n即\\(l_{ 1 }\\)的表达式为\\(y=-\\frac { 1 } { 2 }x-4\\)；\n【小问2详解】\n解：联立两个函数，\n可得 \\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=x+2 \\end{cases}\\)\n解得\\(\\begin{cases} x=-4 \\\\ y=-2 \\end{cases}\\)，\n∴点\\(D\\)的坐标为\\(D(-4,-2)\\)，\n设\\(l_{ 2 } :y=x+2\\)与x轴交点为\\(E\\)，\n当\\(y=0\\)时，可有\\(0=x+2\\)，\n解得\\(x=-2\\)，\n∴\\(E(-2,0)\\)，\\(AE=-2-(-8)=6\\)，\n∵\\(S_{ \\Delta ADE } =\\frac { 1 } { 2 }\\times AE\\times \\left | { y_{ D } } \\right |=\\frac { 1 } { 2 }\\times 6\\times 2=6 < 9\\)，\n∴点\\(P\\)在\\(CE\\)上，如图所示，设点\\(P\\)的坐标为\\(P(m,n)\\)，\n〔图2〕\n∵\\(\\vartriangle ADP\\)的面积为9，\n∴\\(S_{ \\Delta ADP } =S_{ \\Delta ADE } +S_{ \\Delta AEP } =6+\\frac { 1 } { 2 }\\times 6\\times n=9\\)，\n∴\\(n=1\\)，\n即可得到\\(1=m+2\\)，解得\\(m=-1\\)，\n∴\\(P\\)点坐标为\\(P(-1,1)\\)；\n【小问3详解】\n解：∵点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，可分两种情况讨论：\n①点P在\\(AB\\)下方时，如图所示，设正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)交于点\\(G\\)，过点\\(O\\)作\\(OE\\bot l_{ 1 }\\)于点\\(E\\)，过点\\(P\\)作\\(PF\\bot l_{ 1 }\\)于点\\(F\\)，\n〔图3〕\n由题意可得，\\(OE=PF\\)，\\(\\angle PFG=\\angle OEG=90{}^\\circ\\)，\n在\\(\\vartriangle PGF\\)与\\(\\vartriangle OGE\\)中，\n∵\\(\\begin{cases} \\angle PFG=\\angle OEG \\\\ \\angle FGP=\\angle EGO \\\\ OE=PF \\end{cases}\\)，\n∴\\(\\vartriangle PGF≌\\vartriangle OGE({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(G\\)是\\(OP\\)的中点，\n联立函数得，\n\\(\\begin{cases} y=mx \\\\ y=x+2 \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 2 } { m-1 } \\\\ y=\\frac { 2m } { m-1 } \\end{cases}\\)，即\\(P\\left ( { \\frac { 2 } { m-1 },\\frac { 2m } { m-1 } } \\right )\\)，\n\\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=mx \\end{cases}\\)，解得：\\(\\begin{cases} x=-\\frac { 8 } { 2m+1 } \\\\ y=-\\frac { 8m } { 2m+1 } \\end{cases}\\)，即\\(G\\left ( { -\\frac { 8 } { 2m+1 },-\\frac { 8m } { 2m+1 } } \\right )\\)，\n根据中点坐标关系得，\n\\(-\\frac { 8 } { 2m+1 }=\\frac { 1 } { 2 }\\times \\frac { 2 } { 1-m }\\)，\n解得\\(m=\\frac { 7 } { 10 }\\)；\n②当正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)平行时，如下图，\n〔图4〕\n∵直线\\(l_{ 1 }\\)的解析式为\\(y=-\\frac { 1 } { 2 }x-4\\)，\n∴\\(m=-\\frac { 1 } { 2 }\\)．\n综上所述，符合条件的\\(m\\)的值为\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)．\n【点睛】本题主要考查了待定系数法解一次函数解析式、一次函数交点问题及到直线距离相等问题，解题的关键是利用数形结合的思想将几何转换成方程求解．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-95E1C8BD30/figures/650f45c428ea3d634855779228731d535db5a909b5118966cd798a2a9bdedca5.png",
+    "assets/SZ-G8-T1-95E1C8BD30/figures/dae006cc31946be675054828a85f03d0accb63f7e3a657b45ac5fbf84c387d62.png",
+    "assets/SZ-G8-T1-95E1C8BD30/figures/18fd85d5f6040b719c3aa95a73c091848a11d4e1080d792a8481e3f6953a316a.png",
+    "assets/SZ-G8-T1-95E1C8BD30/figures/32d2af8b98a0c90cc4deba62b9f11ed0d262c5501b3c66dc3a2bed1844cbbd25.png"
+  ],
+  "solution": "【小问1详解】\n解：∵直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，\n∴\\(\\begin{cases} -8k+b=0 \\\\ b=-4 \\end{cases}\\) ，\n解得 \\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=-4 \\end{cases}\\)，\n∴\\(y=-\\frac { 1 } { 2 }x-4\\)，\n即\\(l_{ 1 }\\)的表达式为\\(y=-\\frac { 1 } { 2 }x-4\\)；\n【小问2详解】\n解：联立两个函数，\n可得 \\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=x+2 \\end{cases}\\)\n解得\\(\\begin{cases} x=-4 \\\\ y=-2 \\end{cases}\\)，\n∴点\\(D\\)的坐标为\\(D(-4,-2)\\)，\n设\\(l_{ 2 } :y=x+2\\)与x轴交点为\\(E\\)，\n当\\(y=0\\)时，可有\\(0=x+2\\)，\n解得\\(x=-2\\)，\n∴\\(E(-2,0)\\)，\\(AE=-2-(-8)=6\\)，\n∵\\(S_{ \\Delta ADE } =\\frac { 1 } { 2 }\\times AE\\times \\left | { y_{ D } } \\right |=\\frac { 1 } { 2 }\\times 6\\times 2=6 < 9\\)，\n∴点\\(P\\)在\\(CE\\)上，如图所示，设点\\(P\\)的坐标为\\(P(m,n)\\)，\n〔图2〕\n∵\\(\\vartriangle ADP\\)的面积为9，\n∴\\(S_{ \\Delta ADP } =S_{ \\Delta ADE } +S_{ \\Delta AEP } =6+\\frac { 1 } { 2 }\\times 6\\times n=9\\)，\n∴\\(n=1\\)，\n即可得到\\(1=m+2\\)，解得\\(m=-1\\)，\n∴\\(P\\)点坐标为\\(P(-1,1)\\)；\n【小问3详解】\n解：∵点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，可分两种情况讨论：\n①点P在\\(AB\\)下方时，如图所示，设正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)交于点\\(G\\)，过点\\(O\\)作\\(OE\\bot l_{ 1 }\\)于点\\(E\\)，过点\\(P\\)作\\(PF\\bot l_{ 1 }\\)于点\\(F\\)，\n〔图3〕\n由题意可得，\\(OE=PF\\)，\\(\\angle PFG=\\angle OEG=90{}^\\circ\\)，\n在\\(\\vartriangle PGF\\)与\\(\\vartriangle OGE\\)中，\n∵\\(\\begin{cases} \\angle PFG=\\angle OEG \\\\ \\angle FGP=\\angle EGO \\\\ OE=PF \\end{cases}\\)，\n∴\\(\\vartriangle PGF≌\\vartriangle OGE({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(G\\)是\\(OP\\)的中点，\n联立函数得，\n\\(\\begin{cases} y=mx \\\\ y=x+2 \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 2 } { m-1 } \\\\ y=\\frac { 2m } { m-1 } \\end{cases}\\)，即\\(P\\left ( { \\frac { 2 } { m-1 },\\frac { 2m } { m-1 } } \\right )\\)，\n\\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=mx \\end{cases}\\)，解得：\\(\\begin{cases} x=-\\frac { 8 } { 2m+1 } \\\\ y=-\\frac { 8m } { 2m+1 } \\end{cases}\\)，即\\(G\\left ( { -\\frac { 8 } { 2m+1 },-\\frac { 8m } { 2m+1 } } \\right )\\)，\n根据中点坐标关系得，\n\\(-\\frac { 8 } { 2m+1 }=\\frac { 1 } { 2 }\\times \\frac { 2 } { 1-m }\\)，\n解得\\(m=\\frac { 7 } { 10 }\\)；\n②当正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)平行时，如下图，\n〔图4〕\n∵直线\\(l_{ 1 }\\)的解析式为\\(y=-\\frac { 1 } { 2 }x-4\\)，\n∴\\(m=-\\frac { 1 } { 2 }\\)．\n综上所述，符合条件的\\(m\\)的值为\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，",
+    "∴\\(\\begin{cases} -8k+b=0 \\\\ b=-4 \\end{cases}\\) ，",
+    "解得 \\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=-4 \\end{cases}\\)，",
+    "∴\\(y=-\\frac { 1 } { 2 }x-4\\)，",
+    "即\\(l_{ 1 }\\)的表达式为\\(y=-\\frac { 1 } { 2 }x-4\\)；",
+    "【小问2详解】",
+    "解：联立两个函数，",
+    "可得 \\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=x+2 \\end{cases}\\)",
+    "解得\\(\\begin{cases} x=-4 \\\\ y=-2 \\end{cases}\\)，",
+    "∴点\\(D\\)的坐标为\\(D(-4,-2)\\)，",
+    "设\\(l_{ 2 } :y=x+2\\)与x轴交点为\\(E\\)，",
+    "当\\(y=0\\)时，可有\\(0=x+2\\)，",
+    "解得\\(x=-2\\)，",
+    "∴\\(E(-2,0)\\)，\\(AE=-2-(-8)=6\\)，",
+    "∵\\(S_{ \\Delta ADE } =\\frac { 1 } { 2 }\\times AE\\times \\left | { y_{ D } } \\right |=\\frac { 1 } { 2 }\\times 6\\times 2=6 < 9\\)，",
+    "∴点\\(P\\)在\\(CE\\)上，如图所示，设点\\(P\\)的坐标为\\(P(m,n)\\)，",
+    "〔图2〕",
+    "∵\\(\\vartriangle ADP\\)的面积为9，",
+    "∴\\(S_{ \\Delta ADP } =S_{ \\Delta ADE } +S_{ \\Delta AEP } =6+\\frac { 1 } { 2 }\\times 6\\times n=9\\)，",
+    "∴\\(n=1\\)，",
+    "即可得到\\(1=m+2\\)，解得\\(m=-1\\)，",
+    "∴\\(P\\)点坐标为\\(P(-1,1)\\)；",
+    "【小问3详解】",
+    "解：∵点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，可分两种情况讨论：",
+    "①点P在\\(AB\\)下方时，如图所示，设正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)交于点\\(G\\)，过点\\(O\\)作\\(OE\\bot l_{ 1 }\\)于点\\(E\\)，过点\\(P\\)作\\(PF\\bot l_{ 1 }\\)于点\\(F\\)，",
+    "〔图3〕",
+    "由题意可得，\\(OE=PF\\)，\\(\\angle PFG=\\angle OEG=90{}^\\circ\\)，",
+    "在\\(\\vartriangle PGF\\)与\\(\\vartriangle OGE\\)中，",
+    "∵\\(\\begin{cases} \\angle PFG=\\angle OEG \\\\ \\angle FGP=\\angle EGO \\\\ OE=PF \\end{cases}\\)，",
+    "∴\\(\\vartriangle PGF≌\\vartriangle OGE({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(G\\)是\\(OP\\)的中点，",
+    "联立函数得，",
+    "\\(\\begin{cases} y=mx \\\\ y=x+2 \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 2 } { m-1 } \\\\ y=\\frac { 2m } { m-1 } \\end{cases}\\)，即\\(P\\left ( { \\frac { 2 } { m-1 },\\frac { 2m } { m-1 } } \\right )\\)，",
+    "\\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=mx \\end{cases}\\)，解得：\\(\\begin{cases} x=-\\frac { 8 } { 2m+1 } \\\\ y=-\\frac { 8m } { 2m+1 } \\end{cases}\\)，即\\(G\\left ( { -\\frac { 8 } { 2m+1 },-\\frac { 8m } { 2m+1 } } \\right )\\)，",
+    "根据中点坐标关系得，",
+    "\\(-\\frac { 8 } { 2m+1 }=\\frac { 1 } { 2 }\\times \\frac { 2 } { 1-m }\\)，",
+    "解得\\(m=\\frac { 7 } { 10 }\\)；",
+    "②当正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)平行时，如下图，",
+    "〔图4〕",
+    "∵直线\\(l_{ 1 }\\)的解析式为\\(y=-\\frac { 1 } { 2 }x-4\\)，",
+    "∴\\(m=-\\frac { 1 } { 2 }\\)．",
+    "综上所述，符合条件的\\(m\\)的值为\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，已知直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，直线\\(l_{ 2 } :y=x+2\\)与y轴交于点\\(C\\)，与直线\\(l_{ 1 }\\)交于点\\(D\\)．\n〔图1〕",
+      "paper_blocks": [
+        72,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-95E1C8BD30-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(l_{ 1 }\\)的表达式；",
+      "stem_text": "求直线\\(l_{ 1 }\\)的表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 1 } { 2 }x-4\\)",
+      "answer": "\\(y=-\\frac { 1 } { 2 }x-4\\)",
+      "given_solution": "解：∵直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，\n∴\\(\\begin{cases} -8k+b=0 \\\\ b=-4 \\end{cases}\\) ，\n解得 \\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=-4 \\end{cases}\\)，\n∴\\(y=-\\frac { 1 } { 2 }x-4\\)，\n即\\(l_{ 1 }\\)的表达式为\\(y=-\\frac { 1 } { 2 }x-4\\)；",
+      "solution_steps": [
+        "解：∵直线\\(l_{ 1 } :y=kx+b\\)与x轴、y轴分别交于\\(A(-8,0)、B(0,-4)\\)两点，",
+        "∴\\(\\begin{cases} -8k+b=0 \\\\ b=-4 \\end{cases}\\) ，",
+        "解得 \\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=-4 \\end{cases}\\)，",
+        "∴\\(y=-\\frac { 1 } { 2 }x-4\\)，",
+        "即\\(l_{ 1 }\\)的表达式为\\(y=-\\frac { 1 } { 2 }x-4\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          359,
+          360,
+          361,
+          362,
+          363
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-95E1C8BD30-Q22-P02",
+      "label": "（2）",
+      "prompt": "点\\(P\\)是线段\\(CD\\)上一点，连接\\(AP\\)，当\\(\\vartriangle ADP\\)的面积为9，求\\(P\\)点坐标；",
+      "stem_text": "点\\(P\\)是线段\\(CD\\)上一点，连接\\(AP\\)，当\\(\\vartriangle ADP\\)的面积为9，求\\(P\\)点坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(P(-1,1)\\)",
+      "answer": "\\(P(-1,1)\\)",
+      "given_solution": "解：联立两个函数，\n可得 \\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=x+2 \\end{cases}\\)\n解得\\(\\begin{cases} x=-4 \\\\ y=-2 \\end{cases}\\)，\n∴点\\(D\\)的坐标为\\(D(-4,-2)\\)，\n设\\(l_{ 2 } :y=x+2\\)与x轴交点为\\(E\\)，\n当\\(y=0\\)时，可有\\(0=x+2\\)，\n解得\\(x=-2\\)，\n∴\\(E(-2,0)\\)，\\(AE=-2-(-8)=6\\)，\n∵\\(S_{ \\Delta ADE } =\\frac { 1 } { 2 }\\times AE\\times \\left | { y_{ D } } \\right |=\\frac { 1 } { 2 }\\times 6\\times 2=6 < 9\\)，\n∴点\\(P\\)在\\(CE\\)上，如图所示，设点\\(P\\)的坐标为\\(P(m,n)\\)，\n〔图2〕\n∵\\(\\vartriangle ADP\\)的面积为9，\n∴\\(S_{ \\Delta ADP } =S_{ \\Delta ADE } +S_{ \\Delta AEP } =6+\\frac { 1 } { 2 }\\times 6\\times n=9\\)，\n∴\\(n=1\\)，\n即可得到\\(1=m+2\\)，解得\\(m=-1\\)，\n∴\\(P\\)点坐标为\\(P(-1,1)\\)；",
+      "solution_steps": [
+        "解：联立两个函数，",
+        "可得 \\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=x+2 \\end{cases}\\)",
+        "解得\\(\\begin{cases} x=-4 \\\\ y=-2 \\end{cases}\\)，",
+        "∴点\\(D\\)的坐标为\\(D(-4,-2)\\)，",
+        "设\\(l_{ 2 } :y=x+2\\)与x轴交点为\\(E\\)，",
+        "当\\(y=0\\)时，可有\\(0=x+2\\)，",
+        "解得\\(x=-2\\)，",
+        "∴\\(E(-2,0)\\)，\\(AE=-2-(-8)=6\\)，",
+        "∵\\(S_{ \\Delta ADE } =\\frac { 1 } { 2 }\\times AE\\times \\left | { y_{ D } } \\right |=\\frac { 1 } { 2 }\\times 6\\times 2=6 < 9\\)，",
+        "∴点\\(P\\)在\\(CE\\)上，如图所示，设点\\(P\\)的坐标为\\(P(m,n)\\)，",
+        "〔图2〕",
+        "∵\\(\\vartriangle ADP\\)的面积为9，",
+        "∴\\(S_{ \\Delta ADP } =S_{ \\Delta ADE } +S_{ \\Delta AEP } =6+\\frac { 1 } { 2 }\\times 6\\times n=9\\)，",
+        "∴\\(n=1\\)，",
+        "即可得到\\(1=m+2\\)，解得\\(m=-1\\)，",
+        "∴\\(P\\)点坐标为\\(P(-1,1)\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-95E1C8BD30-Q22-P03",
+      "label": "（3）",
+      "prompt": "若正比例函数\\(y=mx\\)的图像与直线\\(l_{ 2 }\\)交于点\\(P\\)，且点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，请直接写出符合条件的\\(m\\)的值．",
+      "stem_text": "若正比例函数\\(y=mx\\)的图像与直线\\(l_{ 2 }\\)交于点\\(P\\)，且点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，请直接写出符合条件的\\(m\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)",
+      "answer": "\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)",
+      "given_solution": "解：∵点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，可分两种情况讨论：\n①点P在\\(AB\\)下方时，如图所示，设正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)交于点\\(G\\)，过点\\(O\\)作\\(OE\\bot l_{ 1 }\\)于点\\(E\\)，过点\\(P\\)作\\(PF\\bot l_{ 1 }\\)于点\\(F\\)，\n〔图3〕\n由题意可得，\\(OE=PF\\)，\\(\\angle PFG=\\angle OEG=90{}^\\circ\\)，\n在\\(\\vartriangle PGF\\)与\\(\\vartriangle OGE\\)中，\n∵\\(\\begin{cases} \\angle PFG=\\angle OEG \\\\ \\angle FGP=\\angle EGO \\\\ OE=PF \\end{cases}\\)，\n∴\\(\\vartriangle PGF≌\\vartriangle OGE({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(G\\)是\\(OP\\)的中点，\n联立函数得，\n\\(\\begin{cases} y=mx \\\\ y=x+2 \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 2 } { m-1 } \\\\ y=\\frac { 2m } { m-1 } \\end{cases}\\)，即\\(P\\left ( { \\frac { 2 } { m-1 },\\frac { 2m } { m-1 } } \\right )\\)，\n\\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=mx \\end{cases}\\)，解得：\\(\\begin{cases} x=-\\frac { 8 } { 2m+1 } \\\\ y=-\\frac { 8m } { 2m+1 } \\end{cases}\\)，即\\(G\\left ( { -\\frac { 8 } { 2m+1 },-\\frac { 8m } { 2m+1 } } \\right )\\)，\n根据中点坐标关系得，\n\\(-\\frac { 8 } { 2m+1 }=\\frac { 1 } { 2 }\\times \\frac { 2 } { 1-m }\\)，\n解得\\(m=\\frac { 7 } { 10 }\\)；\n②当正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)平行时，如下图，\n〔图4〕\n∵直线\\(l_{ 1 }\\)的解析式为\\(y=-\\frac { 1 } { 2 }x-4\\)，\n∴\\(m=-\\frac { 1 } { 2 }\\)．\n综上所述，符合条件的\\(m\\)的值为\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)．",
+      "solution_steps": [
+        "解：∵点\\(O\\)、点\\(P\\)到直线\\(l_{ 1 }\\)的距离相等，可分两种情况讨论：",
+        "①点P在\\(AB\\)下方时，如图所示，设正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)交于点\\(G\\)，过点\\(O\\)作\\(OE\\bot l_{ 1 }\\)于点\\(E\\)，过点\\(P\\)作\\(PF\\bot l_{ 1 }\\)于点\\(F\\)，",
+        "〔图3〕",
+        "由题意可得，\\(OE=PF\\)，\\(\\angle PFG=\\angle OEG=90{}^\\circ\\)，",
+        "在\\(\\vartriangle PGF\\)与\\(\\vartriangle OGE\\)中，",
+        "∵\\(\\begin{cases} \\angle PFG=\\angle OEG \\\\ \\angle FGP=\\angle EGO \\\\ OE=PF \\end{cases}\\)，",
+        "∴\\(\\vartriangle PGF≌\\vartriangle OGE({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(G\\)是\\(OP\\)的中点，",
+        "联立函数得，",
+        "\\(\\begin{cases} y=mx \\\\ y=x+2 \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 2 } { m-1 } \\\\ y=\\frac { 2m } { m-1 } \\end{cases}\\)，即\\(P\\left ( { \\frac { 2 } { m-1 },\\frac { 2m } { m-1 } } \\right )\\)，",
+        "\\(\\begin{cases} y=-\\frac { 1 } { 2 }x-4 \\\\ y=mx \\end{cases}\\)，解得：\\(\\begin{cases} x=-\\frac { 8 } { 2m+1 } \\\\ y=-\\frac { 8m } { 2m+1 } \\end{cases}\\)，即\\(G\\left ( { -\\frac { 8 } { 2m+1 },-\\frac { 8m } { 2m+1 } } \\right )\\)，",
+        "根据中点坐标关系得，",
+        "\\(-\\frac { 8 } { 2m+1 }=\\frac { 1 } { 2 }\\times \\frac { 2 } { 1-m }\\)，",
+        "解得\\(m=\\frac { 7 } { 10 }\\)；",
+        "②当正比例函数\\(y=mx\\)的图像与直线\\(l_{ 1 }\\)平行时，如下图，",
+        "〔图4〕",
+        "∵直线\\(l_{ 1 }\\)的解析式为\\(y=-\\frac { 1 } { 2 }x-4\\)，",
+        "∴\\(m=-\\frac { 1 } { 2 }\\)．",
+        "综上所述，符合条件的\\(m\\)的值为\\(-\\frac { 1 } { 2 }\\)或\\(\\frac { 7 } { 10 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          76
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      72,
+      76
+    ],
+    "solution_body_blocks": [
+      346,
+      401
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-95E1C8BD30/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          240.45,
+          583.64,
+          603.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-95E1C8BD30/solution-q22-p18.webp",
+      "assets/SZ-G8-T1-95E1C8BD30/solution-q22-p19.webp",
+      "assets/SZ-G8-T1-95E1C8BD30/solution-q22-p20.webp",
+      "assets/SZ-G8-T1-95E1C8BD30/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          358.64,
+          583.64,
+          734.55
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          431.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.02",
+    "E.N06.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

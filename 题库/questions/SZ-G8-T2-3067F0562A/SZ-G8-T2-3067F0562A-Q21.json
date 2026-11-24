@@ -1,0 +1,463 @@
+{
+  "id": "SZ-G8-T2-3067F0562A-Q21",
+  "paper_id": "SZ-G8-T2-3067F0562A",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、选择充分条件证明三角形全等",
+  "stem": "如图，\\(\\vartriangle ABC\\)中，\\(BA=BC\\)，\\(CO\\bot AB\\)于点O，\\(AO=6\\)，\\(BO=9\\)．\n〔图1〕\n（1）求\\(BC\\)，\\(AC\\)的长；\n（2）若点D是射线\\(OB\\)的一个动点，作\\(DE\\bot AC\\)于点E，连结\\(OE\\)．\n①当点D在线段\\(OB\\)上时，若\\(\\vartriangle AOE\\)是以\\(AO\\)为腰的等腰三角形，请求出所有符合条件的\\(OD\\)的长．\n②设直线\\(DE\\)交直线\\(BC\\)于点F连结\\(OF\\)、\\(CD\\)，若\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，则CD的长为 　    　（直接写出结果）．",
+  "choices": [],
+  "figures": [
+    "assets/figures/50/50b15ef1fcc5193cf730cfded7b5d3054eb419533328f553abe26a261cd8bc3c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BC=15\\)、\\(AC=6\\sqrt[] { 5 }\\)\n（2）①\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；②\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)",
+  "answer": "（1）\\(BC=15\\)、\\(AC=6\\sqrt[] { 5 }\\)\n（2）①\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；②\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)",
+  "given_solution": "【分析】（1）根据\\(BA=BC\\)可得\\(BC\\)的长，分别根据勾股定理可得\\(OC\\)和\\(AC\\)的长；\n（2）①分两种情况：\\(AO=OE\\)和\\(AO=AE\\)时，分别画图，根据三角形的中位线定理和证明三角形全等可解决问题；\n②分两种情况：\ni）当D在线段\\(OB\\)上时，如图3，过B作\\(BG\\bot EF\\)于G，根据同高三角形面积的比等于对应底边的比，得\\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，可得\\(BF=5\\)，证明\\(\\vartriangle BDF\\)是等腰三角形，得\\(BD=BF=5\\)，最后利用勾股定理可得结论；\nii）当D在线段\\(OB\\)的延长线上时，过B作\\(BG\\bot DE\\)于G，同i）计算可得结论．\n【小问1详解】\n解：∵\\(AO=6\\)，\\(BO=9\\)，\n∴\\(AB=15\\)，\n∵\\(BA=BC\\)\n∴\\(BC=15\\)，\n∵\\(CO\\bot AB\\)，\n∴\\(\\angle AOC=\\angle BOC=90{}^\\circ\\)，\n由勾股定理得：\\(CO=\\sqrt[] { BC ^ { 2 } -OB ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -9 ^ { 2 } }=12\\)，\n\\(AC=\\sqrt[] { AO ^ { 2 } +CO ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +12 ^ { 2 } }=6\\sqrt[] { 5 }\\)；\n【小问2详解】\n解：①分两种情况：\ni）当\\(AO=OE=6\\)时，过O作\\(ON\\bot AC\\)于N，如图1所示：\n〔图2〕\n∴\\(AN=EN\\)，\n∵\\(DE\\bot AC\\)，\n∴\\(ON\\parallel DE\\)，\n∴\\(ON\\)是\\(\\vartriangle ADE\\)的中位线，\n∴\\(OD=AO=6\\)；\nii）当\\(AO=AE=6\\)时，如图2所示：\n〔图3〕\n在\\(\\vartriangle CAO\\)和\\(\\vartriangle DAE\\)中，\n\\(\\begin{cases} \\angle A=\\angle A \\\\ AO=AE \\\\ \\angle AOC=\\angle AED=90 ^ { {}^\\circ } \\end{cases}\\)，\n∴\\(\\vartriangle CAO≌\\vartriangle DAE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AD=AC=6\\sqrt[] { 5 }\\)，\n∴\\(OD=AD-AO=6\\sqrt[] { 5 }-6\\)；\n综上所述，\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；\n②分两种情况：\n〔图4〕\ni）当D在线段\\(OB\\)时，过B作\\(BG\\bot EF\\)于G，如图3所示：\n∵\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，\n∴\\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，\n∴\\(\\frac { BF } { CB }=\\frac { 1 } { 3 }\\)，\n∵\\(CB=15\\)，\n∴\\(BF=5\\)，\n∵\\(EF\\bot AC\\)，\n∴\\(BG\\parallel AC\\)，\n∴\\(\\angle GBF=\\angle ACB\\)，\n∵\\(AE\\parallel BG\\)，\n∴\\(\\angle A=\\angle DBG\\)，\n∵\\(AB=BC\\)，\n∴\\(\\angle A=\\angle ACB\\)，\n∴\\(\\angle DBG=\\angle GBF\\)，\n∵\\(BG\\bot DF\\)，\n∴\\(\\angle BDG=\\angle BFG\\)，\n∴\\(\\vartriangle BDF\\)是等腰三角形，\n∴\\(BD=BF=5\\)，\n∴\\(OD=OB-BD=9-5=4\\)，\n∴\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 10 }\\)；\nii）当D在线段\\(OB\\)的延长线上时，过B作\\(BG\\bot DE\\)于G，如图4所示：\n同理得： \\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，\n∵\\(BC=15\\)，\n∴\\(BF=3\\)，\n同理得：\\(\\vartriangle BDF\\)是等腰三角形，\n∴\\(BD=BF=3\\)，\n∴\\(OD=BO+BD=9+3=12\\)，\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，\\(CD=\\sqrt[] { CO ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +12 ^ { 2 } }=12\\sqrt[] { 2 }\\)\n综上所述，\\(CD\\)的长为\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)，\n故答案为：\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)．\n〔图5〕\n【点睛】本题是三角形的综合题，考查了全等三角形的判定与性质、平行线的性质、等腰三角形的判定和性质、三角形的中位线性质、三角形的面积、勾股定理、分类讨论等知识；证明是\\(\\vartriangle BDF\\)等腰三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/50/50b15ef1fcc5193cf730cfded7b5d3054eb419533328f553abe26a261cd8bc3c.png",
+    "assets/figures/57/57c5e3bb954c336cd8dbe537190e947d8a4292ef9edfc3d673768589ef8618be.png",
+    "assets/figures/98/98b9845caa5f41d4c116606903d176ffefb11dc75473cdc8ab9d82fe59081f0a.png",
+    "assets/figures/b9/b909ff8d42cab21d369763d7d9268273b30d7200f5a9dc5c8ce8497f30e99d80.png",
+    "assets/figures/36/369f3fa244241d8b268e641021c656a21247ad7e79bcb010769d4482e5c7826a.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(AO=6\\)，\\(BO=9\\)，\n∴\\(AB=15\\)，\n∵\\(BA=BC\\)\n∴\\(BC=15\\)，\n∵\\(CO\\bot AB\\)，\n∴\\(\\angle AOC=\\angle BOC=90{}^\\circ\\)，\n由勾股定理得：\\(CO=\\sqrt[] { BC ^ { 2 } -OB ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -9 ^ { 2 } }=12\\)，\n\\(AC=\\sqrt[] { AO ^ { 2 } +CO ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +12 ^ { 2 } }=6\\sqrt[] { 5 }\\)；\n【小问2详解】\n解：①分两种情况：\ni）当\\(AO=OE=6\\)时，过O作\\(ON\\bot AC\\)于N，如图1所示：\n〔图2〕\n∴\\(AN=EN\\)，\n∵\\(DE\\bot AC\\)，\n∴\\(ON\\parallel DE\\)，\n∴\\(ON\\)是\\(\\vartriangle ADE\\)的中位线，\n∴\\(OD=AO=6\\)；\nii）当\\(AO=AE=6\\)时，如图2所示：\n〔图3〕\n在\\(\\vartriangle CAO\\)和\\(\\vartriangle DAE\\)中，\n\\(\\begin{cases} \\angle A=\\angle A \\\\ AO=AE \\\\ \\angle AOC=\\angle AED=90 ^ { {}^\\circ } \\end{cases}\\)，\n∴\\(\\vartriangle CAO≌\\vartriangle DAE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AD=AC=6\\sqrt[] { 5 }\\)，\n∴\\(OD=AD-AO=6\\sqrt[] { 5 }-6\\)；\n综上所述，\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；\n②分两种情况：\n〔图4〕\ni）当D在线段\\(OB\\)时，过B作\\(BG\\bot EF\\)于G，如图3所示：\n∵\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，\n∴\\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，\n∴\\(\\frac { BF } { CB }=\\frac { 1 } { 3 }\\)，\n∵\\(CB=15\\)，\n∴\\(BF=5\\)，\n∵\\(EF\\bot AC\\)，\n∴\\(BG\\parallel AC\\)，\n∴\\(\\angle GBF=\\angle ACB\\)，\n∵\\(AE\\parallel BG\\)，\n∴\\(\\angle A=\\angle DBG\\)，\n∵\\(AB=BC\\)，\n∴\\(\\angle A=\\angle ACB\\)，\n∴\\(\\angle DBG=\\angle GBF\\)，\n∵\\(BG\\bot DF\\)，\n∴\\(\\angle BDG=\\angle BFG\\)，\n∴\\(\\vartriangle BDF\\)是等腰三角形，\n∴\\(BD=BF=5\\)，\n∴\\(OD=OB-BD=9-5=4\\)，\n∴\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 10 }\\)；\nii）当D在线段\\(OB\\)的延长线上时，过B作\\(BG\\bot DE\\)于G，如图4所示：\n同理得： \\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，\n∵\\(BC=15\\)，\n∴\\(BF=3\\)，\n同理得：\\(\\vartriangle BDF\\)是等腰三角形，\n∴\\(BD=BF=3\\)，\n∴\\(OD=BO+BD=9+3=12\\)，\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，\\(CD=\\sqrt[] { CO ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +12 ^ { 2 } }=12\\sqrt[] { 2 }\\)\n综上所述，\\(CD\\)的长为\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)，\n故答案为：\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)．\n〔图5〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(AO=6\\)，\\(BO=9\\)，",
+    "∴\\(AB=15\\)，",
+    "∵\\(BA=BC\\)",
+    "∴\\(BC=15\\)，",
+    "∵\\(CO\\bot AB\\)，",
+    "∴\\(\\angle AOC=\\angle BOC=90{}^\\circ\\)，",
+    "由勾股定理得：\\(CO=\\sqrt[] { BC ^ { 2 } -OB ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -9 ^ { 2 } }=12\\)，",
+    "\\(AC=\\sqrt[] { AO ^ { 2 } +CO ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +12 ^ { 2 } }=6\\sqrt[] { 5 }\\)；",
+    "【小问2详解】",
+    "解：①分两种情况：",
+    "i）当\\(AO=OE=6\\)时，过O作\\(ON\\bot AC\\)于N，如图1所示：",
+    "〔图2〕",
+    "∴\\(AN=EN\\)，",
+    "∵\\(DE\\bot AC\\)，",
+    "∴\\(ON\\parallel DE\\)，",
+    "∴\\(ON\\)是\\(\\vartriangle ADE\\)的中位线，",
+    "∴\\(OD=AO=6\\)；",
+    "ii）当\\(AO=AE=6\\)时，如图2所示：",
+    "〔图3〕",
+    "在\\(\\vartriangle CAO\\)和\\(\\vartriangle DAE\\)中，",
+    "\\(\\begin{cases} \\angle A=\\angle A \\\\ AO=AE \\\\ \\angle AOC=\\angle AED=90 ^ { {}^\\circ } \\end{cases}\\)，",
+    "∴\\(\\vartriangle CAO≌\\vartriangle DAE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(AD=AC=6\\sqrt[] { 5 }\\)，",
+    "∴\\(OD=AD-AO=6\\sqrt[] { 5 }-6\\)；",
+    "综上所述，\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；",
+    "②分两种情况：",
+    "〔图4〕",
+    "i）当D在线段\\(OB\\)时，过B作\\(BG\\bot EF\\)于G，如图3所示：",
+    "∵\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，",
+    "∴\\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，",
+    "∴\\(\\frac { BF } { CB }=\\frac { 1 } { 3 }\\)，",
+    "∵\\(CB=15\\)，",
+    "∴\\(BF=5\\)，",
+    "∵\\(EF\\bot AC\\)，",
+    "∴\\(BG\\parallel AC\\)，",
+    "∴\\(\\angle GBF=\\angle ACB\\)，",
+    "∵\\(AE\\parallel BG\\)，",
+    "∴\\(\\angle A=\\angle DBG\\)，",
+    "∵\\(AB=BC\\)，",
+    "∴\\(\\angle A=\\angle ACB\\)，",
+    "∴\\(\\angle DBG=\\angle GBF\\)，",
+    "∵\\(BG\\bot DF\\)，",
+    "∴\\(\\angle BDG=\\angle BFG\\)，",
+    "∴\\(\\vartriangle BDF\\)是等腰三角形，",
+    "∴\\(BD=BF=5\\)，",
+    "∴\\(OD=OB-BD=9-5=4\\)，",
+    "∴\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 10 }\\)；",
+    "ii）当D在线段\\(OB\\)的延长线上时，过B作\\(BG\\bot DE\\)于G，如图4所示：",
+    "同理得： \\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，",
+    "∵\\(BC=15\\)，",
+    "∴\\(BF=3\\)，",
+    "同理得：\\(\\vartriangle BDF\\)是等腰三角形，",
+    "∴\\(BD=BF=3\\)，",
+    "∴\\(OD=BO+BD=9+3=12\\)，",
+    "\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，\\(CD=\\sqrt[] { CO ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +12 ^ { 2 } }=12\\sqrt[] { 2 }\\)",
+    "综上所述，\\(CD\\)的长为\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)，",
+    "故答案为：\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)．",
+    "〔图5〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，\\(\\vartriangle ABC\\)中，\\(BA=BC\\)，\\(CO\\bot AB\\)于点O，\\(AO=6\\)，\\(BO=9\\)．\n〔图1〕",
+      "paper_blocks": [
+        68,
+        69
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "若点D是射线\\(OB\\)的一个动点，作\\(DE\\bot AC\\)于点E，连结\\(OE\\)．",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3067F0562A-Q21-P01",
+      "label": "（1）",
+      "prompt": "求\\(BC\\)，\\(AC\\)的长；",
+      "stem_text": "求\\(BC\\)，\\(AC\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BC=15\\)、\\(AC=6\\sqrt[] { 5 }\\)",
+      "answer": "\\(BC=15\\)、\\(AC=6\\sqrt[] { 5 }\\)",
+      "given_solution": "解：∵\\(AO=6\\)，\\(BO=9\\)，\n∴\\(AB=15\\)，\n∵\\(BA=BC\\)\n∴\\(BC=15\\)，\n∵\\(CO\\bot AB\\)，\n∴\\(\\angle AOC=\\angle BOC=90{}^\\circ\\)，\n由勾股定理得：\\(CO=\\sqrt[] { BC ^ { 2 } -OB ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -9 ^ { 2 } }=12\\)，\n\\(AC=\\sqrt[] { AO ^ { 2 } +CO ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +12 ^ { 2 } }=6\\sqrt[] { 5 }\\)；",
+      "solution_steps": [
+        "解：∵\\(AO=6\\)，\\(BO=9\\)，",
+        "∴\\(AB=15\\)，",
+        "∵\\(BA=BC\\)",
+        "∴\\(BC=15\\)，",
+        "∵\\(CO\\bot AB\\)，",
+        "∴\\(\\angle AOC=\\angle BOC=90{}^\\circ\\)，",
+        "由勾股定理得：\\(CO=\\sqrt[] { BC ^ { 2 } -OB ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -9 ^ { 2 } }=12\\)，",
+        "\\(AC=\\sqrt[] { AO ^ { 2 } +CO ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +12 ^ { 2 } }=6\\sqrt[] { 5 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3067F0562A-Q21-P02",
+      "label": "（2）①",
+      "prompt": "当点D在线段\\(OB\\)上时，若\\(\\vartriangle AOE\\)是以\\(AO\\)为腰的等腰三角形，请求出所有符合条件的\\(OD\\)的长．",
+      "stem_text": "当点D在线段\\(OB\\)上时，若\\(\\vartriangle AOE\\)是以\\(AO\\)为腰的等腰三角形，请求出所有符合条件的\\(OD\\)的长．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；",
+      "answer": "\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；",
+      "given_solution": "分两种情况：\ni）当\\(AO=OE=6\\)时，过O作\\(ON\\bot AC\\)于N，如图1所示：\n〔图2〕\n∴\\(AN=EN\\)，\n∵\\(DE\\bot AC\\)，\n∴\\(ON\\parallel DE\\)，\n∴\\(ON\\)是\\(\\vartriangle ADE\\)的中位线，\n∴\\(OD=AO=6\\)；\nii）当\\(AO=AE=6\\)时，如图2所示：\n〔图3〕\n在\\(\\vartriangle CAO\\)和\\(\\vartriangle DAE\\)中，\n\\(\\begin{cases} \\angle A=\\angle A \\\\ AO=AE \\\\ \\angle AOC=\\angle AED=90 ^ { {}^\\circ } \\end{cases}\\)，\n∴\\(\\vartriangle CAO≌\\vartriangle DAE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AD=AC=6\\sqrt[] { 5 }\\)，\n∴\\(OD=AD-AO=6\\sqrt[] { 5 }-6\\)；\n综上所述，\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；",
+      "solution_steps": [
+        "分两种情况：",
+        "i）当\\(AO=OE=6\\)时，过O作\\(ON\\bot AC\\)于N，如图1所示：",
+        "〔图2〕",
+        "∴\\(AN=EN\\)，",
+        "∵\\(DE\\bot AC\\)，",
+        "∴\\(ON\\parallel DE\\)，",
+        "∴\\(ON\\)是\\(\\vartriangle ADE\\)的中位线，",
+        "∴\\(OD=AO=6\\)；",
+        "ii）当\\(AO=AE=6\\)时，如图2所示：",
+        "〔图3〕",
+        "在\\(\\vartriangle CAO\\)和\\(\\vartriangle DAE\\)中，",
+        "\\(\\begin{cases} \\angle A=\\angle A \\\\ AO=AE \\\\ \\angle AOC=\\angle AED=90 ^ { {}^\\circ } \\end{cases}\\)，",
+        "∴\\(\\vartriangle CAO≌\\vartriangle DAE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(AD=AC=6\\sqrt[] { 5 }\\)，",
+        "∴\\(OD=AD-AO=6\\sqrt[] { 5 }-6\\)；",
+        "综上所述，\\(OD\\)的长为6或\\(6\\sqrt[] { 5 }-6\\)；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3067F0562A-Q21-P03",
+      "label": "（2）②",
+      "prompt": "设直线\\(DE\\)交直线\\(BC\\)于点F连结\\(OF\\)、\\(CD\\)，若\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，则CD的长为 　    　（直接写出结果）．",
+      "stem_text": "设直线\\(DE\\)交直线\\(BC\\)于点F连结\\(OF\\)、\\(CD\\)，若\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，则CD的长为 　    　（直接写出结果）．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)",
+      "answer": "\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)",
+      "given_solution": "分两种情况：\n〔图4〕\ni）当D在线段\\(OB\\)时，过B作\\(BG\\bot EF\\)于G，如图3所示：\n∵\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，\n∴\\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，\n∴\\(\\frac { BF } { CB }=\\frac { 1 } { 3 }\\)，\n∵\\(CB=15\\)，\n∴\\(BF=5\\)，\n∵\\(EF\\bot AC\\)，\n∴\\(BG\\parallel AC\\)，\n∴\\(\\angle GBF=\\angle ACB\\)，\n∵\\(AE\\parallel BG\\)，\n∴\\(\\angle A=\\angle DBG\\)，\n∵\\(AB=BC\\)，\n∴\\(\\angle A=\\angle ACB\\)，\n∴\\(\\angle DBG=\\angle GBF\\)，\n∵\\(BG\\bot DF\\)，\n∴\\(\\angle BDG=\\angle BFG\\)，\n∴\\(\\vartriangle BDF\\)是等腰三角形，\n∴\\(BD=BF=5\\)，\n∴\\(OD=OB-BD=9-5=4\\)，\n∴\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 10 }\\)；\nii）当D在线段\\(OB\\)的延长线上时，过B作\\(BG\\bot DE\\)于G，如图4所示：\n同理得： \\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，\n∵\\(BC=15\\)，\n∴\\(BF=3\\)，\n同理得：\\(\\vartriangle BDF\\)是等腰三角形，\n∴\\(BD=BF=3\\)，\n∴\\(OD=BO+BD=9+3=12\\)，\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，\\(CD=\\sqrt[] { CO ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +12 ^ { 2 } }=12\\sqrt[] { 2 }\\)\n综上所述，\\(CD\\)的长为\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)，\n故答案为：\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)．\n〔图5〕",
+      "solution_steps": [
+        "分两种情况：",
+        "〔图4〕",
+        "i）当D在线段\\(OB\\)时，过B作\\(BG\\bot EF\\)于G，如图3所示：",
+        "∵\\(S_{ \\vartriangle OBF } :S_{ \\vartriangle OCF } =1:4\\)，",
+        "∴\\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，",
+        "∴\\(\\frac { BF } { CB }=\\frac { 1 } { 3 }\\)，",
+        "∵\\(CB=15\\)，",
+        "∴\\(BF=5\\)，",
+        "∵\\(EF\\bot AC\\)，",
+        "∴\\(BG\\parallel AC\\)，",
+        "∴\\(\\angle GBF=\\angle ACB\\)，",
+        "∵\\(AE\\parallel BG\\)，",
+        "∴\\(\\angle A=\\angle DBG\\)，",
+        "∵\\(AB=BC\\)，",
+        "∴\\(\\angle A=\\angle ACB\\)，",
+        "∴\\(\\angle DBG=\\angle GBF\\)，",
+        "∵\\(BG\\bot DF\\)，",
+        "∴\\(\\angle BDG=\\angle BFG\\)，",
+        "∴\\(\\vartriangle BDF\\)是等腰三角形，",
+        "∴\\(BD=BF=5\\)，",
+        "∴\\(OD=OB-BD=9-5=4\\)，",
+        "∴\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 10 }\\)；",
+        "ii）当D在线段\\(OB\\)的延长线上时，过B作\\(BG\\bot DE\\)于G，如图4所示：",
+        "同理得： \\(\\frac { BF } { CF }=\\frac { 1 } { 4 }\\)，",
+        "∵\\(BC=15\\)，",
+        "∴\\(BF=3\\)，",
+        "同理得：\\(\\vartriangle BDF\\)是等腰三角形，",
+        "∴\\(BD=BF=3\\)，",
+        "∴\\(OD=BO+BD=9+3=12\\)，",
+        "\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，\\(CD=\\sqrt[] { CO ^ { 2 } +OD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +12 ^ { 2 } }=12\\sqrt[] { 2 }\\)",
+        "综上所述，\\(CD\\)的长为\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)，",
+        "故答案为：\\(4\\sqrt[] { 10 }\\)或\\(12\\sqrt[] { 2 }\\)．",
+        "〔图5〕"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      73
+    ],
+    "solution_body_blocks": [
+      320,
+      393
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3067F0562A/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          97.27,
+          583.64,
+          360.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3067F0562A/solution-q21-p16.webp",
+      "assets/SZ-G8-T2-3067F0562A/solution-q21-p17.webp",
+      "assets/SZ-G8-T2-3067F0562A/solution-q21-p18.webp",
+      "assets/SZ-G8-T2-3067F0562A/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          301.36,
+          583.64,
+          741.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          384.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

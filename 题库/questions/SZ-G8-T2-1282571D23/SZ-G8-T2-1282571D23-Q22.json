@@ -1,0 +1,369 @@
+{
+  "id": "SZ-G8-T2-1282571D23-Q22",
+  "paper_id": "SZ-G8-T2-1282571D23",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将面积条件转为点的位置约束",
+  "stem": "如图1，已知函数\\(y=\\frac { 1 } { 2 }x+3\\)与x轴交于点A，与y轴交于点B，点C与点A关于y轴对称．\n〔图1〕\n（1）求直线\\(BC\\)的函数解析式；\n（2）设点M是x轴上的一个动点，过点M作y轴的平行线，交直线\\(AB\\)于点P，交直线\\(BC\\)于点Q．\n①若\\(\\vartriangle PQB\\)的面积为\\(\\frac { 7 } { 2 }\\)，求点Q的坐标；\n②点M在线段\\(AC\\)上，连接\\(BM\\)，如图2，若\\(\\angle BMP=\\angle BAC\\)，直接写出P的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/figures/bb/bb280de45bc698825d1674b8502bf05279edec1cbead996946c3a94cd99cc532.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=-\\frac { 1 } { 2 }x+3\\)；\n（2）①\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；②\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．",
+  "answer": "（1）\\(y=-\\frac { 1 } { 2 }x+3\\)；\n（2）①\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；②\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．",
+  "given_solution": "【分析】（1）先确定出点\\(B\\)坐标和点\\(A\\)坐标，进而求出点\\(C\\)坐标，最后用待定系数法求出直线\\(BC\\)解析式；\n（2）①先表示出\\(PQ\\)，最后用三角形面积公式即可得出结论；\n②分点\\(M\\)在\\(y\\)轴左侧和右侧，由对称得出\\(\\angle BAC=\\angle ACB\\)，\\(\\angle BMP+\\angle BMC=90{}^\\circ\\)，所以，当\\(\\angle MBC=90 ^ { \\circ }\\)即可，利用勾股定理建立方程即可\\(x ^ { 2 } +9+45=(6-x) ^ { 2 }\\)，即可求解．\n【小问1详解】\n解：对于\\(y=\\frac { 1 } { 2 }x+3\\)，\n由\\(x=0\\)得：\\(y=3\\)，\n\\(\\therefore B\\left ( { 0,3 } \\right )\\)．\n由\\(y=0\\)得：\\(\\frac { 1 } { 2 }x+3=0\\)，\n解得：\\(x=-6\\)，\n\\(\\therefore A\\left ( { -6,0 } \\right )\\)，\n\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称．\n\\(\\therefore C\\left ( { 6,0 } \\right )\\)，\n设直线\\(BC\\)的函数解析式为\\(y=kx+b\\)，\n\\(\\therefore \\begin{cases} b=3 \\\\ 6k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(BC\\)的函数解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)\n【小问2详解】\n①设点\\(M\\left ( { m,0 } \\right )\\)，则点\\(P\\left ( { m,\\frac { 1 } { 2 }m+3 } \\right )\\)，点\\(Q\\left ( { m,-\\frac { 1 } { 2 }m+3 } \\right )\\)，\n过点\\(B\\)作\\(BD\\bot PQ\\)与点\\(D\\)，\n〔图2〕\n则\\(PQ=\\left | { -\\frac { 1 } { 2 }m+3-\\left ( { \\frac { 1 } { 2 }m+3 } \\right ) } \\right |=\\left | { m } \\right |\\)，\\(BD=\\left | { m } \\right |\\)，\n则\\(\\vartriangle PQB\\)的面积\\(=\\frac { 1 } { 2 }PQ\\cdot BD=\\frac { 1 } { 2 }m ^ { 2 } =\\frac { 7 } { 2 }\\)，解得：\\(m=\\pm \\sqrt[] { 7 }\\)，\n故点\\(Q\\)的坐标为\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；\n②如图2，当点\\(M\\)在\\(y\\)轴的左侧时，\n\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称，\n\\(\\therefore AB=BC\\)，\n\\(\\therefore \\angle BAC=\\angle BCA\\)，\n\\(\\because \\angle BMP=\\angle BAC\\)，\n\\(\\therefore \\angle BMP=\\angle BCA\\)，\n\\(\\because \\angle BMP+\\angle BMC=90{}^\\circ\\)，\n\\(\\therefore \\angle BMC+\\angle BCA=90{}^\\circ\\)\n\\(\\therefore \\angle MBC=180{}^\\circ -\\left ( { \\angle BMC+\\angle BCA } \\right )=90{}^\\circ\\)，\n\\(\\therefore BM ^ { 2 } +BC ^ { 2 } =MC ^ { 2 }\\)，\n设\\(M\\left ( { x,0 } \\right )\\)，则\\(P\\left ( { x,\\frac { 1 } { 2 }x+3 } \\right )\\)，\n\\(\\therefore BM ^ { 2 } =OM ^ { 2 } +OB ^ { 2 } =x ^ { 2 } +9\\)，\\(MC ^ { 2 } =(6-x) ^ { 2 }\\)，\\(BC ^ { 2 } =OC ^ { 2 } +OB ^ { 2 } =6 ^ { 2 } +3 ^ { 2 } =45\\)，\n\\(\\therefore x ^ { 2 } +9+45=(6-x) ^ { 2 }\\)，解得：\\(x=-\\frac { 3 } { 2 }\\)，\n\\(\\therefore P\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)，\n如图2，当点\\(M\\)在\\(y\\)轴的右侧时，\n同理可得\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\n综上，点\\(P\\)的坐标为\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．\n【点睛】本题考查了一次函数综合题，主要考查了待定系数法，三角形的面积公式，直角三角形的判定，勾股定理，坐标轴上点的特点，分类讨论是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/bb/bb280de45bc698825d1674b8502bf05279edec1cbead996946c3a94cd99cc532.png",
+    "assets/figures/46/4604cb5ba8983434fee49a697ac06551395eff15160a32cc80baed5e547228a7.png"
+  ],
+  "solution": "【小问1详解】\n解：对于\\(y=\\frac { 1 } { 2 }x+3\\)，\n由\\(x=0\\)得：\\(y=3\\)，\n\\(\\therefore B\\left ( { 0,3 } \\right )\\)．\n由\\(y=0\\)得：\\(\\frac { 1 } { 2 }x+3=0\\)，\n解得：\\(x=-6\\)，\n\\(\\therefore A\\left ( { -6,0 } \\right )\\)，\n\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称．\n\\(\\therefore C\\left ( { 6,0 } \\right )\\)，\n设直线\\(BC\\)的函数解析式为\\(y=kx+b\\)，\n\\(\\therefore \\begin{cases} b=3 \\\\ 6k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(BC\\)的函数解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)\n【小问2详解】\n①设点\\(M\\left ( { m,0 } \\right )\\)，则点\\(P\\left ( { m,\\frac { 1 } { 2 }m+3 } \\right )\\)，点\\(Q\\left ( { m,-\\frac { 1 } { 2 }m+3 } \\right )\\)，\n过点\\(B\\)作\\(BD\\bot PQ\\)与点\\(D\\)，\n〔图2〕\n则\\(PQ=\\left | { -\\frac { 1 } { 2 }m+3-\\left ( { \\frac { 1 } { 2 }m+3 } \\right ) } \\right |=\\left | { m } \\right |\\)，\\(BD=\\left | { m } \\right |\\)，\n则\\(\\vartriangle PQB\\)的面积\\(=\\frac { 1 } { 2 }PQ\\cdot BD=\\frac { 1 } { 2 }m ^ { 2 } =\\frac { 7 } { 2 }\\)，解得：\\(m=\\pm \\sqrt[] { 7 }\\)，\n故点\\(Q\\)的坐标为\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；\n②如图2，当点\\(M\\)在\\(y\\)轴的左侧时，\n\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称，\n\\(\\therefore AB=BC\\)，\n\\(\\therefore \\angle BAC=\\angle BCA\\)，\n\\(\\because \\angle BMP=\\angle BAC\\)，\n\\(\\therefore \\angle BMP=\\angle BCA\\)，\n\\(\\because \\angle BMP+\\angle BMC=90{}^\\circ\\)，\n\\(\\therefore \\angle BMC+\\angle BCA=90{}^\\circ\\)\n\\(\\therefore \\angle MBC=180{}^\\circ -\\left ( { \\angle BMC+\\angle BCA } \\right )=90{}^\\circ\\)，\n\\(\\therefore BM ^ { 2 } +BC ^ { 2 } =MC ^ { 2 }\\)，\n设\\(M\\left ( { x,0 } \\right )\\)，则\\(P\\left ( { x,\\frac { 1 } { 2 }x+3 } \\right )\\)，\n\\(\\therefore BM ^ { 2 } =OM ^ { 2 } +OB ^ { 2 } =x ^ { 2 } +9\\)，\\(MC ^ { 2 } =(6-x) ^ { 2 }\\)，\\(BC ^ { 2 } =OC ^ { 2 } +OB ^ { 2 } =6 ^ { 2 } +3 ^ { 2 } =45\\)，\n\\(\\therefore x ^ { 2 } +9+45=(6-x) ^ { 2 }\\)，解得：\\(x=-\\frac { 3 } { 2 }\\)，\n\\(\\therefore P\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)，\n如图2，当点\\(M\\)在\\(y\\)轴的右侧时，\n同理可得\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\n综上，点\\(P\\)的坐标为\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：对于\\(y=\\frac { 1 } { 2 }x+3\\)，",
+    "由\\(x=0\\)得：\\(y=3\\)，",
+    "\\(\\therefore B\\left ( { 0,3 } \\right )\\)．",
+    "由\\(y=0\\)得：\\(\\frac { 1 } { 2 }x+3=0\\)，",
+    "解得：\\(x=-6\\)，",
+    "\\(\\therefore A\\left ( { -6,0 } \\right )\\)，",
+    "\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称．",
+    "\\(\\therefore C\\left ( { 6,0 } \\right )\\)，",
+    "设直线\\(BC\\)的函数解析式为\\(y=kx+b\\)，",
+    "\\(\\therefore \\begin{cases} b=3 \\\\ 6k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(BC\\)的函数解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)",
+    "【小问2详解】",
+    "①设点\\(M\\left ( { m,0 } \\right )\\)，则点\\(P\\left ( { m,\\frac { 1 } { 2 }m+3 } \\right )\\)，点\\(Q\\left ( { m,-\\frac { 1 } { 2 }m+3 } \\right )\\)，",
+    "过点\\(B\\)作\\(BD\\bot PQ\\)与点\\(D\\)，",
+    "〔图2〕",
+    "则\\(PQ=\\left | { -\\frac { 1 } { 2 }m+3-\\left ( { \\frac { 1 } { 2 }m+3 } \\right ) } \\right |=\\left | { m } \\right |\\)，\\(BD=\\left | { m } \\right |\\)，",
+    "则\\(\\vartriangle PQB\\)的面积\\(=\\frac { 1 } { 2 }PQ\\cdot BD=\\frac { 1 } { 2 }m ^ { 2 } =\\frac { 7 } { 2 }\\)，解得：\\(m=\\pm \\sqrt[] { 7 }\\)，",
+    "故点\\(Q\\)的坐标为\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；",
+    "②如图2，当点\\(M\\)在\\(y\\)轴的左侧时，",
+    "\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称，",
+    "\\(\\therefore AB=BC\\)，",
+    "\\(\\therefore \\angle BAC=\\angle BCA\\)，",
+    "\\(\\because \\angle BMP=\\angle BAC\\)，",
+    "\\(\\therefore \\angle BMP=\\angle BCA\\)，",
+    "\\(\\because \\angle BMP+\\angle BMC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BMC+\\angle BCA=90{}^\\circ\\)",
+    "\\(\\therefore \\angle MBC=180{}^\\circ -\\left ( { \\angle BMC+\\angle BCA } \\right )=90{}^\\circ\\)，",
+    "\\(\\therefore BM ^ { 2 } +BC ^ { 2 } =MC ^ { 2 }\\)，",
+    "设\\(M\\left ( { x,0 } \\right )\\)，则\\(P\\left ( { x,\\frac { 1 } { 2 }x+3 } \\right )\\)，",
+    "\\(\\therefore BM ^ { 2 } =OM ^ { 2 } +OB ^ { 2 } =x ^ { 2 } +9\\)，\\(MC ^ { 2 } =(6-x) ^ { 2 }\\)，\\(BC ^ { 2 } =OC ^ { 2 } +OB ^ { 2 } =6 ^ { 2 } +3 ^ { 2 } =45\\)，",
+    "\\(\\therefore x ^ { 2 } +9+45=(6-x) ^ { 2 }\\)，解得：\\(x=-\\frac { 3 } { 2 }\\)，",
+    "\\(\\therefore P\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)，",
+    "如图2，当点\\(M\\)在\\(y\\)轴的右侧时，",
+    "同理可得\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，",
+    "综上，点\\(P\\)的坐标为\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，已知函数\\(y=\\frac { 1 } { 2 }x+3\\)与x轴交于点A，与y轴交于点B，点C与点A关于y轴对称．\n〔图1〕",
+      "paper_blocks": [
+        78,
+        79
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "设点M是x轴上的一个动点，过点M作y轴的平行线，交直线\\(AB\\)于点P，交直线\\(BC\\)于点Q．",
+      "paper_blocks": [
+        81
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-1282571D23-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(BC\\)的函数解析式；",
+      "stem_text": "求直线\\(BC\\)的函数解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 1 } { 2 }x+3\\)；",
+      "answer": "\\(y=-\\frac { 1 } { 2 }x+3\\)；",
+      "given_solution": "解：对于\\(y=\\frac { 1 } { 2 }x+3\\)，\n由\\(x=0\\)得：\\(y=3\\)，\n\\(\\therefore B\\left ( { 0,3 } \\right )\\)．\n由\\(y=0\\)得：\\(\\frac { 1 } { 2 }x+3=0\\)，\n解得：\\(x=-6\\)，\n\\(\\therefore A\\left ( { -6,0 } \\right )\\)，\n\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称．\n\\(\\therefore C\\left ( { 6,0 } \\right )\\)，\n设直线\\(BC\\)的函数解析式为\\(y=kx+b\\)，\n\\(\\therefore \\begin{cases} b=3 \\\\ 6k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(BC\\)的函数解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)",
+      "solution_steps": [
+        "解：对于\\(y=\\frac { 1 } { 2 }x+3\\)，",
+        "由\\(x=0\\)得：\\(y=3\\)，",
+        "\\(\\therefore B\\left ( { 0,3 } \\right )\\)．",
+        "由\\(y=0\\)得：\\(\\frac { 1 } { 2 }x+3=0\\)，",
+        "解得：\\(x=-6\\)，",
+        "\\(\\therefore A\\left ( { -6,0 } \\right )\\)，",
+        "\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称．",
+        "\\(\\therefore C\\left ( { 6,0 } \\right )\\)，",
+        "设直线\\(BC\\)的函数解析式为\\(y=kx+b\\)，",
+        "\\(\\therefore \\begin{cases} b=3 \\\\ 6k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(BC\\)的函数解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80
+        ],
+        "solution_block_ids": [
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1282571D23-Q22-P02",
+      "label": "（2）①",
+      "prompt": "若\\(\\vartriangle PQB\\)的面积为\\(\\frac { 7 } { 2 }\\)，求点Q的坐标；",
+      "stem_text": "若\\(\\vartriangle PQB\\)的面积为\\(\\frac { 7 } { 2 }\\)，求点Q的坐标；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；",
+      "answer": "\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；",
+      "given_solution": "设点\\(M\\left ( { m,0 } \\right )\\)，则点\\(P\\left ( { m,\\frac { 1 } { 2 }m+3 } \\right )\\)，点\\(Q\\left ( { m,-\\frac { 1 } { 2 }m+3 } \\right )\\)，\n过点\\(B\\)作\\(BD\\bot PQ\\)与点\\(D\\)，\n〔图2〕\n则\\(PQ=\\left | { -\\frac { 1 } { 2 }m+3-\\left ( { \\frac { 1 } { 2 }m+3 } \\right ) } \\right |=\\left | { m } \\right |\\)，\\(BD=\\left | { m } \\right |\\)，\n则\\(\\vartriangle PQB\\)的面积\\(=\\frac { 1 } { 2 }PQ\\cdot BD=\\frac { 1 } { 2 }m ^ { 2 } =\\frac { 7 } { 2 }\\)，解得：\\(m=\\pm \\sqrt[] { 7 }\\)，\n故点\\(Q\\)的坐标为\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；",
+      "solution_steps": [
+        "设点\\(M\\left ( { m,0 } \\right )\\)，则点\\(P\\left ( { m,\\frac { 1 } { 2 }m+3 } \\right )\\)，点\\(Q\\left ( { m,-\\frac { 1 } { 2 }m+3 } \\right )\\)，",
+        "过点\\(B\\)作\\(BD\\bot PQ\\)与点\\(D\\)，",
+        "〔图2〕",
+        "则\\(PQ=\\left | { -\\frac { 1 } { 2 }m+3-\\left ( { \\frac { 1 } { 2 }m+3 } \\right ) } \\right |=\\left | { m } \\right |\\)，\\(BD=\\left | { m } \\right |\\)，",
+        "则\\(\\vartriangle PQB\\)的面积\\(=\\frac { 1 } { 2 }PQ\\cdot BD=\\frac { 1 } { 2 }m ^ { 2 } =\\frac { 7 } { 2 }\\)，解得：\\(m=\\pm \\sqrt[] { 7 }\\)，",
+        "故点\\(Q\\)的坐标为\\(\\left ( { \\sqrt[] { 7 },3-\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)或\\(\\left ( { -\\sqrt[] { 7 },3+\\frac { \\sqrt[] { 7 } } { 2 } } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          81,
+          82
+        ],
+        "solution_block_ids": [
+          428,
+          429,
+          430,
+          431,
+          432,
+          433
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1282571D23-Q22-P03",
+      "label": "（2）②",
+      "prompt": "点M在线段\\(AC\\)上，连接\\(BM\\)，如图2，若\\(\\angle BMP=\\angle BAC\\)，直接写出P的坐标．",
+      "stem_text": "点M在线段\\(AC\\)上，连接\\(BM\\)，如图2，若\\(\\angle BMP=\\angle BAC\\)，直接写出P的坐标．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．",
+      "answer": "\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．",
+      "given_solution": "如图2，当点\\(M\\)在\\(y\\)轴的左侧时，\n\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称，\n\\(\\therefore AB=BC\\)，\n\\(\\therefore \\angle BAC=\\angle BCA\\)，\n\\(\\because \\angle BMP=\\angle BAC\\)，\n\\(\\therefore \\angle BMP=\\angle BCA\\)，\n\\(\\because \\angle BMP+\\angle BMC=90{}^\\circ\\)，\n\\(\\therefore \\angle BMC+\\angle BCA=90{}^\\circ\\)\n\\(\\therefore \\angle MBC=180{}^\\circ -\\left ( { \\angle BMC+\\angle BCA } \\right )=90{}^\\circ\\)，\n\\(\\therefore BM ^ { 2 } +BC ^ { 2 } =MC ^ { 2 }\\)，\n设\\(M\\left ( { x,0 } \\right )\\)，则\\(P\\left ( { x,\\frac { 1 } { 2 }x+3 } \\right )\\)，\n\\(\\therefore BM ^ { 2 } =OM ^ { 2 } +OB ^ { 2 } =x ^ { 2 } +9\\)，\\(MC ^ { 2 } =(6-x) ^ { 2 }\\)，\\(BC ^ { 2 } =OC ^ { 2 } +OB ^ { 2 } =6 ^ { 2 } +3 ^ { 2 } =45\\)，\n\\(\\therefore x ^ { 2 } +9+45=(6-x) ^ { 2 }\\)，解得：\\(x=-\\frac { 3 } { 2 }\\)，\n\\(\\therefore P\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)，\n如图2，当点\\(M\\)在\\(y\\)轴的右侧时，\n同理可得\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\n综上，点\\(P\\)的坐标为\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．",
+      "solution_steps": [
+        "如图2，当点\\(M\\)在\\(y\\)轴的左侧时，",
+        "\\(\\because\\)点\\(C\\)与点\\(A\\)关于\\(y\\)轴对称，",
+        "\\(\\therefore AB=BC\\)，",
+        "\\(\\therefore \\angle BAC=\\angle BCA\\)，",
+        "\\(\\because \\angle BMP=\\angle BAC\\)，",
+        "\\(\\therefore \\angle BMP=\\angle BCA\\)，",
+        "\\(\\because \\angle BMP+\\angle BMC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BMC+\\angle BCA=90{}^\\circ\\)",
+        "\\(\\therefore \\angle MBC=180{}^\\circ -\\left ( { \\angle BMC+\\angle BCA } \\right )=90{}^\\circ\\)，",
+        "\\(\\therefore BM ^ { 2 } +BC ^ { 2 } =MC ^ { 2 }\\)，",
+        "设\\(M\\left ( { x,0 } \\right )\\)，则\\(P\\left ( { x,\\frac { 1 } { 2 }x+3 } \\right )\\)，",
+        "\\(\\therefore BM ^ { 2 } =OM ^ { 2 } +OB ^ { 2 } =x ^ { 2 } +9\\)，\\(MC ^ { 2 } =(6-x) ^ { 2 }\\)，\\(BC ^ { 2 } =OC ^ { 2 } +OB ^ { 2 } =6 ^ { 2 } +3 ^ { 2 } =45\\)，",
+        "\\(\\therefore x ^ { 2 } +9+45=(6-x) ^ { 2 }\\)，解得：\\(x=-\\frac { 3 } { 2 }\\)，",
+        "\\(\\therefore P\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)，",
+        "如图2，当点\\(M\\)在\\(y\\)轴的右侧时，",
+        "同理可得\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，",
+        "综上，点\\(P\\)的坐标为\\(\\left ( { -\\frac { 3 } { 2 },\\frac { 9 } { 4 } } \\right )\\)或\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          81,
+          83
+        ],
+        "solution_block_ids": [
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      78,
+      83
+    ],
+    "solution_body_blocks": [
+      403,
+      451
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-1282571D23/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          202.73,
+          583.64,
+          455.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-1282571D23/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-1282571D23/solution-q22-p22.webp",
+      "assets/SZ-G8-T2-1282571D23/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          490.91,
+          583.64,
+          743.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          556.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

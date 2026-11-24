@@ -1,0 +1,95 @@
+{
+  "knowledge_ids": [
+    "M.G05.04",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G05.04.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "据原卷问题与计算或证明核定：综合矩形与菱形性质求正方形关系、由勾股关系求直角三角形边长。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-3B2054707B-Q10",
+  "number": 10,
+  "paper_id": "SZ-G8-T2-3B2054707B",
+  "title": "综合矩形与菱形性质求正方形关系、由勾股关系求直角三角形边长",
+  "stem": "如图，已知正方形\\(ABCD\\)的边长为4，P是对角线\\(BD\\)上一点，\\(PE\\bot BC\\)于点E，\\(PF\\bot CD\\)于点F，\n连接\\(AP,EF\\)，给出下列结论：\n①\\(PD=\\sqrt[] { 2 }EC\\)；②四边形\\(PECF\\)的周长为8；③\\(AF=EF\\)；④\\(EF\\)的最小值为\\(2\\sqrt[] { 2 }\\)，\n其中正确结论有几个（  ）\n〔图1〕",
+  "type": "选择题",
+  "points": null,
+  "choices": [
+    {
+      "label": "A",
+      "text": "1"
+    },
+    {
+      "label": "B",
+      "text": "2"
+    },
+    {
+      "label": "C",
+      "text": "3"
+    },
+    {
+      "label": "D",
+      "text": "4"
+    }
+  ],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/3f/3f2e51e6739014097d5d4830a0d413a720683c243bf914366356edc5f9f82b93.png"
+  ],
+  "tables": [],
+  "answer": "C",
+  "given_answer": "C",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "设 BE=t。由正方形对角线平分直角，PE=BE=t，EC=PF=4−t。故 PD=√2(4−t)=√2·EC，且矩形 PECF 周长为 2[t+(4−t)]=8，①②成立。",
+    "由勾股定理，EF²=t²+(4−t)²=2(t−2)²+8，所以最小值为 8，即 EF 最小为 2√2。取 t=2 时，AF²=4²+2²=20，而 EF²=8，③不能成立。正确的是①②④，共三个，选 C。"
+  ],
+  "solution_origin": "editorial_solution",
+  "solution": "设 BE=t。由正方形对角线平分直角，PE=BE=t，EC=PF=4−t。故 PD=√2(4−t)=√2·EC，且矩形 PECF 周长为 2[t+(4−t)]=8，①②成立。\n由勾股定理，EF²=t²+(4−t)²=2(t−2)²+8，所以最小值为 8，即 EF 最小为 2√2。取 t=2 时，AF²=4²+2²=20，而 EF²=8，③不能成立。正确的是①②④，共三个，选 C。",
+  "review_note": "原资料仅列答案，解题过程按题意补写。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3B2054707B/single/q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          61.31,
+          582.44,
+          301.75
+        ]
+      }
+    ],
+    "solution_pages": [
+      3
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3B2054707B/single/s10-p03.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          554.88,
+          582.44,
+          569.22
+        ]
+      }
+    ]
+  },
+  "tag_source": "逐题核对"
+}

@@ -1,0 +1,240 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-CCE72126B0-Q22",
+  "number": 22,
+  "paper_id": "SZ-G8-T2-CCE72126B0",
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "（10分）感知：如图①，在菱形ABCD中，AB＝BD，点E、F分别在边AB、AD上．若AE＝DF，易知△ADE≌△DBF．\n探究：如图②，在菱形ABCD中，AB＝BD，点E、F分别在BA、AD的延长线上．若AE＝DF，△ADE与△DBF是否全等？如果全等，请证明；如果不全等，请说明理由．\n拓展：如图③，在▱ABCD中，AD＝BD，点O是AD边的垂直平分线与BD的交点，点E、F分别在OA、AD的延长线上．若AE＝DF，∠ADB＝50°，∠AFB＝32°，求∠ADE的度数．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（10分）感知：如图①，在菱形ABCD中，AB＝BD，点E、F分别在边AB、AD上．若AE＝DF，易知△ADE≌△DBF．"
+    },
+    {
+      "id": "figure-1",
+      "kind": "figure",
+      "text": "〔图1〕"
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-CCE72126B0-Q22-P01",
+      "label": "探究",
+      "prompt": "探究：如图②，在菱形ABCD中，AB＝BD，点E、F分别在BA、AD的延长线上．若AE＝DF，△ADE与△DBF是否全等？如果全等，请证明；如果不全等，请说明理由．",
+      "stem_text": "探究：如图②，在菱形ABCD中，AB＝BD，点E、F分别在BA、AD的延长线上．若AE＝DF，△ADE与△DBF是否全等？如果全等，请证明；如果不全等，请说明理由．",
+      "material_ids": [
+        "context",
+        "figure-1"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          4,
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "answer": "全等（SAS）。",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "探究：△ADE和△DBF全等．",
+        "∵四边形ABCD是菱形，",
+        "∴AB＝AD．",
+        "∵AB＝BD，",
+        "∴AB＝AD＝BD．",
+        "∴△ABD为等边三角形．",
+        "∴∠DAB＝∠ADB＝60°．",
+        "∴∠EAD＝∠FDB＝120°．",
+        "∵AE＝DF，",
+        "∴△ADE≌△DBF；"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-CCE72126B0-Q22-P02",
+      "label": "拓展",
+      "prompt": "拓展：如图③，在▱ABCD中，AD＝BD，点O是AD边的垂直平分线与BD的交点，点E、F分别在OA、AD的延长线上．若AE＝DF，∠ADB＝50°，∠AFB＝32°，求∠ADE的度数．",
+      "stem_text": "拓展：如图③，在▱ABCD中，AD＝BD，点O是AD边的垂直平分线与BD的交点，点E、F分别在OA、AD的延长线上．若AE＝DF，∠ADB＝50°，∠AFB＝32°，求∠ADE的度数．",
+      "material_ids": [
+        "context",
+        "figure-1"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          4,
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "answer": "\\(\\angle ADE=18^\\circ\\)。",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "∵点O在AD的垂直平分线上，",
+        "∴OA＝OD．",
+        "∴∠DAO＝∠ADB＝50°．",
+        "∴∠EAD＝∠FDB．",
+        "∵AE＝DF，AD＝DB，",
+        "∴△ADE≌△DBF．",
+        "∴∠DEA＝∠AFB＝32°．",
+        "∴∠EDA＝18°．"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/37/37202d005d45e56323d89bd36b5bc9eeceadd7c3cf5d2589bb83a8d626f63fba.png"
+  ],
+  "tables": [],
+  "answer": "探究 全等（SAS）。\n拓展 \\(\\angle ADE=18^\\circ\\)。",
+  "given_answer": "",
+  "given_solution": "【分析】探究：△ADE和△DBF全等，利用菱形的性质首先证明三角形ABD为等边三角形，再利用全等三角形的判定方法即可证明△ADE≌△DBF；\n拓展：因为点O在AD的垂直平分线上，所以OA＝OD，再通过证明△ADE≌△DBF，利用全等三角形的性质即可求出∠ADE的度数．\n【解答】解：\n探究：△ADE和△DBF全等．\n∵四边形ABCD是菱形，\n∴AB＝AD．\n∵AB＝BD，\n∴AB＝AD＝BD．\n∴△ABD为等边三角形．\n∴∠DAB＝∠ADB＝60°．\n∴∠EAD＝∠FDB＝120°．\n∵AE＝DF，\n∴△ADE≌△DBF；\n拓展：\n∵点O在AD的垂直平分线上，\n∴OA＝OD．\n∴∠DAO＝∠ADB＝50°．\n∴∠EAD＝∠FDB．\n∵AE＝DF，AD＝DB，\n∴△ADE≌△DBF．\n∴∠DEA＝∠AFB＝32°．\n∴∠EDA＝18°．\n【点评】本题考查了菱形的性质、等边三角形的判定和性质以及全等三角形的判定和性质，题目综合性很强，但难度不大．",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "探究 探究：△ADE和△DBF全等．",
+    "∵四边形ABCD是菱形，",
+    "∴AB＝AD．",
+    "∵AB＝BD，",
+    "∴AB＝AD＝BD．",
+    "∴△ABD为等边三角形．",
+    "∴∠DAB＝∠ADB＝60°．",
+    "∴∠EAD＝∠FDB＝120°．",
+    "∵AE＝DF，",
+    "∴△ADE≌△DBF；",
+    "拓展 ∵点O在AD的垂直平分线上，",
+    "∴OA＝OD．",
+    "∴∠DAO＝∠ADB＝50°．",
+    "∴∠EAD＝∠FDB．",
+    "∵AE＝DF，AD＝DB，",
+    "∴△ADE≌△DBF．",
+    "∴∠DEA＝∠AFB＝32°．",
+    "∴∠EDA＝18°．"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "探究 探究：△ADE和△DBF全等．\n∵四边形ABCD是菱形，\n∴AB＝AD．\n∵AB＝BD，\n∴AB＝AD＝BD．\n∴△ABD为等边三角形．\n∴∠DAB＝∠ADB＝60°．\n∴∠EAD＝∠FDB＝120°．\n∵AE＝DF，\n∴△ADE≌△DBF；\n拓展 ∵点O在AD的垂直平分线上，\n∴OA＝OD．\n∴∠DAO＝∠ADB＝50°．\n∴∠EAD＝∠FDB．\n∵AE＝DF，AD＝DB，\n∴△ADE≌△DBF．\n∴∠DEA＝∠AFB＝32°．\n∴∠EDA＝18°．",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      4,
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-CCE72126B0/single/q22-p04.webp",
+      "assets/SZ-G8-T2-CCE72126B0/single/q22-p05.webp",
+      "assets/SZ-G8-T2-CCE72126B0/single/q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          661.88,
+          582.2,
+          769.7
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          76.61,
+          582.2,
+          255.3
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          101.39,
+          582.2,
+          151.83
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-CCE72126B0/single/s22-p20.webp",
+      "assets/SZ-G8-T2-CCE72126B0/single/s22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          13,
+          217.31,
+          582.2,
+          769.05
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          13,
+          76.61,
+          582.2,
+          114.43
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

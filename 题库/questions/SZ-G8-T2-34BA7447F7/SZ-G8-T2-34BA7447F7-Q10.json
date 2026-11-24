@@ -1,0 +1,131 @@
+{
+  "id": "SZ-G8-T2-34BA7447F7-Q10",
+  "paper_id": "SZ-G8-T2-34BA7447F7",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，在四边形纸片\\(ABCD\\)中，\\(AB\\)，\\(AB=DC=4\\sqrt[] { 3 }\\)，\\(AD=9\\)，\\(\\angle BCD{ \\rm{ = } }30{}^\\circ\\)，点\\(E\\)是线段\\(DC\\)的中点，点\\(F\\)在线段\\(BC\\)上，将\\(\\vartriangle CEF\\)沿\\(EF\\)所在的直线翻折得到\\(\\vartriangle C'EF\\)，连接\\(AC'\\)，则\\(AC'\\)长度的最小值是（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(7\\sqrt[] { 3 }\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(\\frac { 7 } { 2 }\\sqrt[] { 3 }\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(5\\sqrt[] { 3 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(\\frac { 5 } { 2 }\\sqrt[] { 3 }\\)"
+    }
+  ],
+  "figures": [
+    "assets/figures/e1/e128d3b333c56ad2987e54aaaa2bbd291264b7338858273f10a5c93b88851b55.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】由折叠可知\\(EC ^ { \\prime } =EC\\)，所以当A，\\(C'\\)，E三点共线时，\\(AC'\\)的长度最小，作\\(AG\\bot CD\\)交CD的延长线于点G，根据勾股定理分别求出\\(DG，AE\\)的长度，即可求\\(AC'\\)长度的最小值．\n【详解】解：连接AE，过点A作\\(AG\\bot CD\\)交CD的延长线于点G，\n〔图2〕\n\\(\\because AB\\parallel CD\\)，\\(AB=CD\\)，\n\\(\\therefore\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore AD\\parallel BC\\)，\\(BC=AD=9\\)，\n\\(\\therefore \\angle ADG=\\angle BCD=30 ^ { \\circ }\\)，\n\\(\\therefore AG=\\frac { 1 } { 2 }AD=\\frac { 9 } { 2 }\\)，\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -(\\frac { 9 } { 2 }) ^ { 2 } }=\\frac { 9 } { 2 }\\sqrt[] { 3 }\\)，\n\\(\\because E\\)为CD的中点，\\(AB=DC=4\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }CD=2\\sqrt[] { 3 }\\)，\n\\(\\therefore EG=DE+DG=2\\sqrt[] { 3 }+\\frac { 9 } { 2 }\\sqrt[] { 3 }=\\frac { 13 } { 2 }\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=\\sqrt[] { AG ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { (\\frac { 9 } { 2 }) ^ { 2 } +(\\frac { 13\\sqrt[] { 3 } } { 2 }) ^ { 2 } }=7\\sqrt[] { 3 }\\)；\n由折叠可知，\\(EC'=EC=2\\sqrt[] { 3 }\\)，\n∴\\(AC'\\ge AE-EC'\\)，\n\\(\\therefore\\)当A，\\(C'\\)，E共线时，\\(AC'\\)的长度最小，\n\\(\\therefore\\)此时，\\(AC'=AE-EC'=7\\sqrt[] { 3 }-2\\sqrt[] { 3 }=5\\sqrt[] { 3 }\\)，\n故选：C\n【点睛】本题考查折叠问题，勾股定理，平行四边形的性质，关键是构造直角三角形求AE的长度．",
+  "given_solution_figures": [
+    "assets/figures/e1/e128d3b333c56ad2987e54aaaa2bbd291264b7338858273f10a5c93b88851b55.png",
+    "assets/figures/64/64c496f8a17036843bdfefdfc83b5f4735187e6ddea0b47aa476566644fd0185.png"
+  ],
+  "solution": "解：连接AE，过点A作\\(AG\\bot CD\\)交CD的延长线于点G，\n〔图2〕\n\\(\\because AB\\parallel CD\\)，\\(AB=CD\\)，\n\\(\\therefore\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore AD\\parallel BC\\)，\\(BC=AD=9\\)，\n\\(\\therefore \\angle ADG=\\angle BCD=30 ^ { \\circ }\\)，\n\\(\\therefore AG=\\frac { 1 } { 2 }AD=\\frac { 9 } { 2 }\\)，\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -(\\frac { 9 } { 2 }) ^ { 2 } }=\\frac { 9 } { 2 }\\sqrt[] { 3 }\\)，\n\\(\\because E\\)为CD的中点，\\(AB=DC=4\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }CD=2\\sqrt[] { 3 }\\)，\n\\(\\therefore EG=DE+DG=2\\sqrt[] { 3 }+\\frac { 9 } { 2 }\\sqrt[] { 3 }=\\frac { 13 } { 2 }\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=\\sqrt[] { AG ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { (\\frac { 9 } { 2 }) ^ { 2 } +(\\frac { 13\\sqrt[] { 3 } } { 2 }) ^ { 2 } }=7\\sqrt[] { 3 }\\)；\n由折叠可知，\\(EC'=EC=2\\sqrt[] { 3 }\\)，\n∴\\(AC'\\ge AE-EC'\\)，\n\\(\\therefore\\)当A，\\(C'\\)，E共线时，\\(AC'\\)的长度最小，\n\\(\\therefore\\)此时，\\(AC'=AE-EC'=7\\sqrt[] { 3 }-2\\sqrt[] { 3 }=5\\sqrt[] { 3 }\\)，\n故选：C",
+  "solution_steps": [
+    "解：连接AE，过点A作\\(AG\\bot CD\\)交CD的延长线于点G，",
+    "〔图2〕",
+    "\\(\\because AB\\parallel CD\\)，\\(AB=CD\\)，",
+    "\\(\\therefore\\)四边形\\(ABCD\\)是平行四边形，",
+    "\\(\\therefore AD\\parallel BC\\)，\\(BC=AD=9\\)，",
+    "\\(\\therefore \\angle ADG=\\angle BCD=30 ^ { \\circ }\\)，",
+    "\\(\\therefore AG=\\frac { 1 } { 2 }AD=\\frac { 9 } { 2 }\\)，\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -(\\frac { 9 } { 2 }) ^ { 2 } }=\\frac { 9 } { 2 }\\sqrt[] { 3 }\\)，",
+    "\\(\\because E\\)为CD的中点，\\(AB=DC=4\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore DE=\\frac { 1 } { 2 }CD=2\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore EG=DE+DG=2\\sqrt[] { 3 }+\\frac { 9 } { 2 }\\sqrt[] { 3 }=\\frac { 13 } { 2 }\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore AE=\\sqrt[] { AG ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { (\\frac { 9 } { 2 }) ^ { 2 } +(\\frac { 13\\sqrt[] { 3 } } { 2 }) ^ { 2 } }=7\\sqrt[] { 3 }\\)；",
+    "由折叠可知，\\(EC'=EC=2\\sqrt[] { 3 }\\)，",
+    "∴\\(AC'\\ge AE-EC'\\)，",
+    "\\(\\therefore\\)当A，\\(C'\\)，E共线时，\\(AC'\\)的长度最小，",
+    "\\(\\therefore\\)此时，\\(AC'=AE-EC'=7\\sqrt[] { 3 }-2\\sqrt[] { 3 }=5\\sqrt[] { 3 }\\)，",
+    "故选：C"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      42,
+      44
+    ],
+    "solution_body_blocks": [
+      117,
+      139
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-34BA7447F7/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          402.73,
+          583.64,
+          630.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-34BA7447F7/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-34BA7447F7/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          682.27,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          767.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

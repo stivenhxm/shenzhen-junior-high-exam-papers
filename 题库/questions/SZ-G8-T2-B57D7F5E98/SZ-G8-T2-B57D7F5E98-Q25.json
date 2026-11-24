@@ -1,0 +1,368 @@
+{
+  "id": "SZ-G8-T2-B57D7F5E98-Q25",
+  "paper_id": "SZ-G8-T2-B57D7F5E98",
+  "number": 25,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、由总量与部分量关系建立一次模型",
+  "stem": "在平面直角坐标系\\(xOy\\)中，对于任意两个图形T和图形W，给出如下定义：M，N分别为图形T和图形W上任意一点，将M，N两点间距离的最小值称为图形T和图形W之间的“关联距离”，记作\\(d\\left ( { T,W } \\right )\\)．如图，已知\\(\\vartriangle ABC\\)，其中\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，D，E为三角形外两点．例如，点A与x轴之间的“关联距离”\\(d\\left ( { A，x轴 } \\right )=3\\)，线段\\(AB\\)与y轴之间的“关联距离”\\(d\\left ( { AB，y轴 } \\right )=2\\)．\n〔图1〕\n(1)求点A与直线\\(BC\\)之间的“关联距离”\\(d\\left ( { A，直线BC } \\right )\\)；\n(2)若\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，将线段\\(DE\\)向左平移n个单位，当线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)时，求n的最小值；\n(3)若\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，当\\(-2\\le m\\le 3\\)时，对于每一个m，都满足线段\\(DE\\)与一次函数\\(y=kx-2k\\)（k是常数，\\(k\\ne 0\\)）的图象之间的“关联距离”\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，求k的取值范围．",
+  "choices": [],
+  "figures": [
+    "assets/figures/4b/4b4bb1cc6323162a749f3dfdb8810e28291bfa8b8e1ea13a63ecd79503872c6f.png"
+  ],
+  "tables": [],
+  "given_answer": "(1)\\(\\frac { 12 } { 5 }\\)\n(2)\\(3\\frac { 1 } { 2 }\\)\n(3)\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)\n【分析】（1）过点A作\\(AD\\bot BC\\)于点D，根据\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，得出\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，根据等积法求出\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，即可得出答案；\n（2）求出直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，求出\\(x=-\\frac { 1 } { 2 }\\)，根据线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，求出\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)即可；\n（3）根据\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，得出当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，根据\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，得出直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，画出图形，根据\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，得出结果即可．",
+  "answer": "(1)\\(\\frac { 12 } { 5 }\\)\n(2)\\(3\\frac { 1 } { 2 }\\)\n(3)\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)\n【分析】（1）过点A作\\(AD\\bot BC\\)于点D，根据\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，得出\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，根据等积法求出\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，即可得出答案；\n（2）求出直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，求出\\(x=-\\frac { 1 } { 2 }\\)，根据线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，求出\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)即可；\n（3）根据\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，得出当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，根据\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，得出直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，画出图形，根据\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，得出结果即可．",
+  "given_solution": "（1）解：过点A作\\(AD\\bot BC\\)于点D，如图所示：\n〔图2〕\n∵\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，\n∴\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\n\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n\\(\\angle BAC=90{}^\\circ\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times AB=\\frac { 1 } { 2 }BC\\times AD\\)，\n∴\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，\n∵垂线段最短，\n∴\\(d\\left ( { A，直线BC } \\right )=\\frac { 12 } { 5 }\\)；\n（2）解：∵\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，\n∴\\(DE\\)在直线\\(y=1\\)上，\n设直线\\(BC\\)的解析式为：\\(y=kx+b\\left ( { k\\ne 0 } \\right )\\)，把\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)代入得：\n\\(\\begin{cases} -2k+b=-1 \\\\ k+b=3 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=\\frac { 5 } { 3 } \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，\n把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，\n解得：\\(x=-\\frac { 1 } { 2 }\\)，\n∵线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，\n∴线段\\(DE\\)向左平移的距离为：\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)．\n（3）解：∵\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，\n∴当\\(m=-2\\)时\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)，\\(E_{ 1 } \\left ( { 0,-4 } \\right )\\)，\n当\\(m=3\\)时\\(D_{ 2 } \\left ( { 3,-2 } \\right )\\)，\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)，\n∴当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，\n∵\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，\n∴直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，如图所示：\n〔图3〕\n把\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-2=-2k-2k\\)，\n解得：\\(k=\\frac { 1 } { 2 }\\)，\n把\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-4=5k-2k\\)，\n解得：\\(k=-\\frac { 4 } { 3 }\\)，\n根据图可知，当\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)时，\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)．\n【点睛】本题主要考查了一次函数的综合应用，求一次函数的解析式，坐标与图形，三角形面积公式，两点间距离公式，解题的关键是数形结合，熟练掌握一次函数的性质．",
+  "given_solution_figures": [
+    "assets/figures/5c/5c7293bedc269a59f02336b9a724adace8f4ff386350bdd1bbebc866d2c70bfe.png",
+    "assets/figures/9a/9a4fbccc11325ebaf135930be3d83c75ec10753a39c2993cd55dbbb90be03774.png",
+    "assets/figures/f3/f3bd19a66c63d140b43864f37e66f8175ffda9129a350f7479313181524752d8.png"
+  ],
+  "solution": "（1）解：过点A作\\(AD\\bot BC\\)于点D，如图所示：\n〔图2〕\n∵\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，\n∴\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\n\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n\\(\\angle BAC=90{}^\\circ\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times AB=\\frac { 1 } { 2 }BC\\times AD\\)，\n∴\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，\n∵垂线段最短，\n∴\\(d\\left ( { A，直线BC } \\right )=\\frac { 12 } { 5 }\\)；\n（2）解：∵\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，\n∴\\(DE\\)在直线\\(y=1\\)上，\n设直线\\(BC\\)的解析式为：\\(y=kx+b\\left ( { k\\ne 0 } \\right )\\)，把\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)代入得：\n\\(\\begin{cases} -2k+b=-1 \\\\ k+b=3 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=\\frac { 5 } { 3 } \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，\n把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，\n解得：\\(x=-\\frac { 1 } { 2 }\\)，\n∵线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，\n∴线段\\(DE\\)向左平移的距离为：\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)．\n（3）解：∵\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，\n∴当\\(m=-2\\)时\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)，\\(E_{ 1 } \\left ( { 0,-4 } \\right )\\)，\n当\\(m=3\\)时\\(D_{ 2 } \\left ( { 3,-2 } \\right )\\)，\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)，\n∴当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，\n∵\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，\n∴直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，如图所示：\n〔图3〕\n把\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-2=-2k-2k\\)，\n解得：\\(k=\\frac { 1 } { 2 }\\)，\n把\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-4=5k-2k\\)，\n解得：\\(k=-\\frac { 4 } { 3 }\\)，\n根据图可知，当\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)时，\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)．",
+  "solution_steps": [
+    "（1）解：过点A作\\(AD\\bot BC\\)于点D，如图所示：",
+    "〔图2〕",
+    "∵\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，",
+    "∴\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，",
+    "\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+    "\\(\\angle BAC=90{}^\\circ\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times AB=\\frac { 1 } { 2 }BC\\times AD\\)，",
+    "∴\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，",
+    "∵垂线段最短，",
+    "∴\\(d\\left ( { A，直线BC } \\right )=\\frac { 12 } { 5 }\\)；",
+    "（2）解：∵\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，",
+    "∴\\(DE\\)在直线\\(y=1\\)上，",
+    "设直线\\(BC\\)的解析式为：\\(y=kx+b\\left ( { k\\ne 0 } \\right )\\)，把\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)代入得：",
+    "\\(\\begin{cases} -2k+b=-1 \\\\ k+b=3 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=\\frac { 5 } { 3 } \\end{cases}\\)，",
+    "∴直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，",
+    "把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，",
+    "解得：\\(x=-\\frac { 1 } { 2 }\\)，",
+    "∵线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，",
+    "∴线段\\(DE\\)向左平移的距离为：\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)．",
+    "（3）解：∵\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，",
+    "∴当\\(m=-2\\)时\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)，\\(E_{ 1 } \\left ( { 0,-4 } \\right )\\)，",
+    "当\\(m=3\\)时\\(D_{ 2 } \\left ( { 3,-2 } \\right )\\)，\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)，",
+    "∴当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，",
+    "∵\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，",
+    "∴直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，如图所示：",
+    "〔图3〕",
+    "把\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-2=-2k-2k\\)，",
+    "解得：\\(k=\\frac { 1 } { 2 }\\)，",
+    "把\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-4=5k-2k\\)，",
+    "解得：\\(k=-\\frac { 4 } { 3 }\\)，",
+    "根据图可知，当\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)时，\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系\\(xOy\\)中，对于任意两个图形T和图形W，给出如下定义：M，N分别为图形T和图形W上任意一点，将M，N两点间距离的最小值称为图形T和图形W之间的“关联距离”，记作\\(d\\left ( { T,W } \\right )\\)．如图，已知\\(\\vartriangle ABC\\)，其中\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，D，E为三角形外两点．例如，点A与x轴之间的“关联距离”\\(d\\left ( { A，x轴 } \\right )=3\\)，线段\\(AB\\)与y轴之间的“关联距离”\\(d\\left ( { AB，y轴 } \\right )=2\\)．\n〔图1〕",
+      "paper_blocks": [
+        85,
+        86
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-B57D7F5E98-Q25-P01",
+      "label": "(1)",
+      "prompt": "求点A与直线\\(BC\\)之间的“关联距离”\\(d\\left ( { A，直线BC } \\right )\\)；",
+      "stem_text": "求点A与直线\\(BC\\)之间的“关联距离”\\(d\\left ( { A，直线BC } \\right )\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 12 } { 5 }\\)",
+      "answer": "\\(\\frac { 12 } { 5 }\\)",
+      "given_solution": "解：过点A作\\(AD\\bot BC\\)于点D，如图所示：\n〔图2〕\n∵\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，\n∴\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\n\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n\\(\\angle BAC=90{}^\\circ\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times AB=\\frac { 1 } { 2 }BC\\times AD\\)，\n∴\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，\n∵垂线段最短，\n∴\\(d\\left ( { A，直线BC } \\right )=\\frac { 12 } { 5 }\\)；",
+      "solution_steps": [
+        "解：过点A作\\(AD\\bot BC\\)于点D，如图所示：",
+        "〔图2〕",
+        "∵\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，",
+        "∴\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，",
+        "\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+        "\\(\\angle BAC=90{}^\\circ\\)，",
+        "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times AB=\\frac { 1 } { 2 }BC\\times AD\\)，",
+        "∴\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，",
+        "∵垂线段最短，",
+        "∴\\(d\\left ( { A，直线BC } \\right )=\\frac { 12 } { 5 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          85,
+          86,
+          87
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-B57D7F5E98-Q25-P02",
+      "label": "(2)",
+      "prompt": "若\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，将线段\\(DE\\)向左平移n个单位，当线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)时，求n的最小值；",
+      "stem_text": "若\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，将线段\\(DE\\)向左平移n个单位，当线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)时，求n的最小值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(3\\frac { 1 } { 2 }\\)",
+      "answer": "\\(3\\frac { 1 } { 2 }\\)",
+      "given_solution": "解：∵\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，\n∴\\(DE\\)在直线\\(y=1\\)上，\n设直线\\(BC\\)的解析式为：\\(y=kx+b\\left ( { k\\ne 0 } \\right )\\)，把\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)代入得：\n\\(\\begin{cases} -2k+b=-1 \\\\ k+b=3 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=\\frac { 5 } { 3 } \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，\n把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，\n解得：\\(x=-\\frac { 1 } { 2 }\\)，\n∵线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，\n∴线段\\(DE\\)向左平移的距离为：\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)．",
+      "solution_steps": [
+        "解：∵\\(D\\left ( { 3,1 } \\right )\\)，\\(E\\left ( { 5,1 } \\right )\\)，",
+        "∴\\(DE\\)在直线\\(y=1\\)上，",
+        "设直线\\(BC\\)的解析式为：\\(y=kx+b\\left ( { k\\ne 0 } \\right )\\)，把\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)代入得：",
+        "\\(\\begin{cases} -2k+b=-1 \\\\ k+b=3 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=\\frac { 5 } { 3 } \\end{cases}\\)，",
+        "∴直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，",
+        "把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，",
+        "解得：\\(x=-\\frac { 1 } { 2 }\\)，",
+        "∵线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，",
+        "∴线段\\(DE\\)向左平移的距离为：\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          85,
+          86,
+          88
+        ],
+        "solution_block_ids": [
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-B57D7F5E98-Q25-P03",
+      "label": "(3)",
+      "prompt": "若\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，当\\(-2\\le m\\le 3\\)时，对于每一个m，都满足线段\\(DE\\)与一次函数\\(y=kx-2k\\)（k是常数，\\(k\\ne 0\\)）的图象之间的“关联距离”\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，求k的取值范围．",
+      "stem_text": "若\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，当\\(-2\\le m\\le 3\\)时，对于每一个m，都满足线段\\(DE\\)与一次函数\\(y=kx-2k\\)（k是常数，\\(k\\ne 0\\)）的图象之间的“关联距离”\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，求k的取值范围．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)\n【分析】（1）过点A作\\(AD\\bot BC\\)于点D，根据\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，得出\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，根据等积法求出\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，即可得出答案；\n（2）求出直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，求出\\(x=-\\frac { 1 } { 2 }\\)，根据线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，求出\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)即可；\n（3）根据\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，得出当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，根据\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，得出直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，画出图形，根据\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，得出结果即可．",
+      "answer": "\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)\n【分析】（1）过点A作\\(AD\\bot BC\\)于点D，根据\\(A\\left ( { -2,3 } \\right )\\)，\\(B\\left ( { -2,-1 } \\right )\\)，\\(C\\left ( { 1,3 } \\right )\\)，得出\\(AC=1-\\left ( { -2 } \\right )=3\\)，\\(AB=3-\\left ( { -1 } \\right )=4\\)，\\(BC=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，根据等积法求出\\(AD=\\frac { AC\\times AB } { BC }=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，即可得出答案；\n（2）求出直线\\(BC\\)的解析式为：\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，把\\(y=1\\)代入\\(y=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)得：\\(1=\\frac { 4 } { 3 }x+\\frac { 5 } { 3 }\\)，求出\\(x=-\\frac { 1 } { 2 }\\)，根据线段\\(DE\\)与\\(\\vartriangle ABC\\)之间的“关联距离”\\(d\\left ( { DE,\\vartriangle ABC } \\right )=0\\)，求出\\(n=3-\\left ( { -\\frac { 1 } { 2 } } \\right )=3\\frac { 1 } { 2 }\\)即可；\n（3）根据\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，得出当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，根据\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，得出直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，画出图形，根据\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)，得出结果即可．",
+      "given_solution": "解：∵\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，\n∴当\\(m=-2\\)时\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)，\\(E_{ 1 } \\left ( { 0,-4 } \\right )\\)，\n当\\(m=3\\)时\\(D_{ 2 } \\left ( { 3,-2 } \\right )\\)，\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)，\n∴当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，\n∵\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，\n∴直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，如图所示：\n〔图3〕\n把\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-2=-2k-2k\\)，\n解得：\\(k=\\frac { 1 } { 2 }\\)，\n把\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-4=5k-2k\\)，\n解得：\\(k=-\\frac { 4 } { 3 }\\)，\n根据图可知，当\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)时，\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)．",
+      "solution_steps": [
+        "解：∵\\(D\\left ( { m,-2 } \\right )\\)，\\(E\\left ( { m+2,-4 } \\right )\\)，",
+        "∴当\\(m=-2\\)时\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)，\\(E_{ 1 } \\left ( { 0,-4 } \\right )\\)，",
+        "当\\(m=3\\)时\\(D_{ 2 } \\left ( { 3,-2 } \\right )\\)，\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)，",
+        "∴当\\(-2\\le m\\le 3\\)时，线段\\(DE\\)在线段\\(D_{ 1 } E_{ 1 }\\)和\\(D_{ 2 } E_{ 2 }\\)之间，",
+        "∵\\(y=kx-2k=k\\left ( { x-2 } \\right )\\)，",
+        "∴直线\\(y=kx-2k\\)过定点\\(\\left ( { 2,0 } \\right )\\)，如图所示：",
+        "〔图3〕",
+        "把\\(D_{ 1 } \\left ( { -2,-2 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-2=-2k-2k\\)，",
+        "解得：\\(k=\\frac { 1 } { 2 }\\)，",
+        "把\\(E_{ 2 } \\left ( { 5,-4 } \\right )\\)代入\\(y=kx-2k\\)得：\\(-4=5k-2k\\)，",
+        "解得：\\(k=-\\frac { 4 } { 3 }\\)，",
+        "根据图可知，当\\(-\\frac { 4 } { 3 } < k < \\frac { 1 } { 2 }\\)且\\(k\\ne 0\\)时，\\(d\\left ( { DE,直线y=kx-2k } \\right )>0\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          85,
+          86,
+          89
+        ],
+        "solution_block_ids": [
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      85,
+      89
+    ],
+    "solution_body_blocks": [
+      407,
+      451
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-B57D7F5E98/paper-q25-p06.webp",
+      "assets/SZ-G8-T2-B57D7F5E98/paper-q25-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          570.45,
+          583.64,
+          676.82
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          62.73,
+          583.64,
+          409.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-B57D7F5E98/solution-q25-p21.webp",
+      "assets/SZ-G8-T2-B57D7F5E98/solution-q25-p22.webp",
+      "assets/SZ-G8-T2-B57D7F5E98/solution-q25-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          59.09,
+          583.64,
+          773.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          61.36,
+          583.64,
+          642.73
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          65.45,
+          583.64,
+          442.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.N06.04",
+    "M.N11.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.N06.04.01",
+    "E.N11.02.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。 本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。",
+  "tag_source": "小问标签汇总"
+}

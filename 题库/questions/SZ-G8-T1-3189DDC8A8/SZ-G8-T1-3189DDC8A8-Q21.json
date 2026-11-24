@@ -1,0 +1,228 @@
+{
+  "id": "SZ-G8-T1-3189DDC8A8-Q21",
+  "paper_id": "SZ-G8-T1-3189DDC8A8",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，已知△ABC中，∠B＝90°，AB＝16cm，BC＝12cm，P、Q是△ABC边上的两个动点，其中点P从点A开始沿A→B方向运动，且速度为每秒1cm，点Q从点B开始沿B→C→A方向运动，且速度为每秒2cm，它们同时出发，同时停止．\n〔图1〕\n(1)P、Q出发4秒后，求PQ的长；\n(2)当点Q在边CA上运动时，出发几秒钟后，△CQB能形成直角三角形？",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-3189DDC8A8/figures/0cb6ddba0f2dc3e538d3ec4e9412a0820c01e825e43606381f98d33b45ec4a9c.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，已知△ABC中，∠B＝90°，AB＝16cm，BC＝12cm，P、Q是△ABC边上的两个动点，其中点P从点A开始沿A→B方向运动，且速度为每秒1cm，点Q从点B开始沿B→C→A方向运动，且速度为每秒2cm，它们同时出发，同时停止．\n〔图1〕",
+      "paper_blocks": [
+        67,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-3189DDC8A8-Q21-P01",
+      "label": "(1)",
+      "prompt": "P、Q出发4秒后，求PQ的长；",
+      "stem_text": "P、Q出发4秒后，求PQ的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 13 }\\)",
+      "answer": "\\(4\\sqrt[] { 13 }\\)",
+      "given_solution": "解：由题意可得，\nBQ=2×4=8（cm），BP=AB〔图1〕AP=16〔图1〕1×4=12（cm），\n∵∠B=90°，\n∴PQ=\\(\\sqrt[] { BP ^ { 2 } +BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 13 }\\)（cm），\n即PQ的长为\\(4\\sqrt[] { 13 }\\)cm；",
+      "solution_steps": [
+        "解：由题意可得，",
+        "BQ=2×4=8（cm），BP=AB〔图1〕AP=16〔图1〕1×4=12（cm），",
+        "∵∠B=90°，",
+        "∴PQ=\\(\\sqrt[] { BP ^ { 2 } +BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 13 }\\)（cm），",
+        "即PQ的长为\\(4\\sqrt[] { 13 }\\)cm；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303,
+          304
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-3189DDC8A8-Q21-P02",
+      "label": "(2)",
+      "prompt": "当点Q在边CA上运动时，出发几秒钟后，△CQB能形成直角三角形？",
+      "stem_text": "当点Q在边CA上运动时，出发几秒钟后，△CQB能形成直角三角形？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "9.6秒或16秒",
+      "answer": "9.6秒或16秒",
+      "given_solution": "解：当BQ⊥AC时，∠BQC=90°，\n∵∠B=90°，AB=16cm，BC=12cm，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +12 ^ { 2 } }=20\\)（cm），\n∵\\(\\frac { AB\\centerdot BC } { 2 }=\\frac { AC\\centerdot BQ } { 2 }\\)，\n∴\\(\\frac { 16\\times 12 } { 2 }=\\frac { 20BQ } { 2 }\\)，\n解得\\(BQ=\\frac { 48 } { 5 }\\)cm，\n∴CQ=\\(\\sqrt[] { BC ^ { 2 } -BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +(\\frac { 48 } { 5 }) ^ { 2 } }=\\frac { 36 } { 5 }\\)（cm），\n∴当△CQB是直角三角形时，经过的时间为：（12+\\(\\frac { 36 } { 5 }\\)）÷2=9.6（秒）；\n当∠CBQ=90°时，点Q运动到点A，此时运动的时间为：（12+20）÷2=16（秒）；\n由上可得，当点Q在边CA上运动时，出发9.6秒或16秒后，△CQB能形成直角三角形．",
+      "solution_steps": [
+        "解：当BQ⊥AC时，∠BQC=90°，",
+        "∵∠B=90°，AB=16cm，BC=12cm，",
+        "∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +12 ^ { 2 } }=20\\)（cm），",
+        "∵\\(\\frac { AB\\centerdot BC } { 2 }=\\frac { AC\\centerdot BQ } { 2 }\\)，",
+        "∴\\(\\frac { 16\\times 12 } { 2 }=\\frac { 20BQ } { 2 }\\)，",
+        "解得\\(BQ=\\frac { 48 } { 5 }\\)cm，",
+        "∴CQ=\\(\\sqrt[] { BC ^ { 2 } -BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +(\\frac { 48 } { 5 }) ^ { 2 } }=\\frac { 36 } { 5 }\\)（cm），",
+        "∴当△CQB是直角三角形时，经过的时间为：（12+\\(\\frac { 36 } { 5 }\\)）÷2=9.6（秒）；",
+        "当∠CBQ=90°时，点Q运动到点A，此时运动的时间为：（12+20）÷2=16（秒）；",
+        "由上可得，当点Q在边CA上运动时，出发9.6秒或16秒后，△CQB能形成直角三角形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "(1)\\(4\\sqrt[] { 13 }\\)\n(2)9.6秒或16秒",
+  "answer": "(1)\\(4\\sqrt[] { 13 }\\)\n(2)9.6秒或16秒",
+  "given_solution": "【分析】（1）根据题意可以先求出BQ和BP的长，然后根据勾股定理即可求得PQ的长；\n（2）根据题意可知存在两种情况，然后分别计算出相应的时间即可．\n【详解】（1）解：由题意可得，\nBQ=2×4=8（cm），BP=AB〔图1〕AP=16〔图1〕1×4=12（cm），\n∵∠B=90°，\n∴PQ=\\(\\sqrt[] { BP ^ { 2 } +BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 13 }\\)（cm），\n即PQ的长为\\(4\\sqrt[] { 13 }\\)cm；\n（2）解：当BQ⊥AC时，∠BQC=90°，\n∵∠B=90°，AB=16cm，BC=12cm，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +12 ^ { 2 } }=20\\)（cm），\n∵\\(\\frac { AB\\centerdot BC } { 2 }=\\frac { AC\\centerdot BQ } { 2 }\\)，\n∴\\(\\frac { 16\\times 12 } { 2 }=\\frac { 20BQ } { 2 }\\)，\n解得\\(BQ=\\frac { 48 } { 5 }\\)cm，\n∴CQ=\\(\\sqrt[] { BC ^ { 2 } -BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +(\\frac { 48 } { 5 }) ^ { 2 } }=\\frac { 36 } { 5 }\\)（cm），\n∴当△CQB是直角三角形时，经过的时间为：（12+\\(\\frac { 36 } { 5 }\\)）÷2=9.6（秒）；\n当∠CBQ=90°时，点Q运动到点A，此时运动的时间为：（12+20）÷2=16（秒）；\n由上可得，当点Q在边CA上运动时，出发9.6秒或16秒后，△CQB能形成直角三角形．\n【点睛】本题考查勾股定理，解答本题的关键是明确题意，利用数形结合和分类讨论的数学思想解答．",
+  "given_solution_figures": [
+    "assets/figures/9b/9b1257899342e9f9acad0df56150f28013483bc41e61f415bfd6a1ec836a40ca.png"
+  ],
+  "solution_steps": [
+    "（1）解：由题意可得，",
+    "BQ=2×4=8（cm），BP=AB〔图1〕AP=16〔图1〕1×4=12（cm），",
+    "∵∠B=90°，",
+    "∴PQ=\\(\\sqrt[] { BP ^ { 2 } +BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 13 }\\)（cm），",
+    "即PQ的长为\\(4\\sqrt[] { 13 }\\)cm；",
+    "（2）解：当BQ⊥AC时，∠BQC=90°，",
+    "∵∠B=90°，AB=16cm，BC=12cm，",
+    "∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +12 ^ { 2 } }=20\\)（cm），",
+    "∵\\(\\frac { AB\\centerdot BC } { 2 }=\\frac { AC\\centerdot BQ } { 2 }\\)，",
+    "∴\\(\\frac { 16\\times 12 } { 2 }=\\frac { 20BQ } { 2 }\\)，",
+    "解得\\(BQ=\\frac { 48 } { 5 }\\)cm，",
+    "∴CQ=\\(\\sqrt[] { BC ^ { 2 } -BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +(\\frac { 48 } { 5 }) ^ { 2 } }=\\frac { 36 } { 5 }\\)（cm），",
+    "∴当△CQB是直角三角形时，经过的时间为：（12+\\(\\frac { 36 } { 5 }\\)）÷2=9.6（秒）；",
+    "当∠CBQ=90°时，点Q运动到点A，此时运动的时间为：（12+20）÷2=16（秒）；",
+    "由上可得，当点Q在边CA上运动时，出发9.6秒或16秒后，△CQB能形成直角三角形．"
+  ],
+  "solution": "（1）解：由题意可得，\nBQ=2×4=8（cm），BP=AB〔图1〕AP=16〔图1〕1×4=12（cm），\n∵∠B=90°，\n∴PQ=\\(\\sqrt[] { BP ^ { 2 } +BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 13 }\\)（cm），\n即PQ的长为\\(4\\sqrt[] { 13 }\\)cm；\n（2）解：当BQ⊥AC时，∠BQC=90°，\n∵∠B=90°，AB=16cm，BC=12cm，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +12 ^ { 2 } }=20\\)（cm），\n∵\\(\\frac { AB\\centerdot BC } { 2 }=\\frac { AC\\centerdot BQ } { 2 }\\)，\n∴\\(\\frac { 16\\times 12 } { 2 }=\\frac { 20BQ } { 2 }\\)，\n解得\\(BQ=\\frac { 48 } { 5 }\\)cm，\n∴CQ=\\(\\sqrt[] { BC ^ { 2 } -BQ ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +(\\frac { 48 } { 5 }) ^ { 2 } }=\\frac { 36 } { 5 }\\)（cm），\n∴当△CQB是直角三角形时，经过的时间为：（12+\\(\\frac { 36 } { 5 }\\)）÷2=9.6（秒）；\n当∠CBQ=90°时，点Q运动到点A，此时运动的时间为：（12+20）÷2=16（秒）；\n由上可得，当点Q在边CA上运动时，出发9.6秒或16秒后，△CQB能形成直角三角形．",
+  "solution_origin": "source_transcribed",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "paper_body_blocks": [
+      67,
+      70
+    ],
+    "solution_body_blocks": [
+      295,
+      316
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-3189DDC8A8/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          499.09,
+          583.64,
+          696.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-3189DDC8A8/solution-q21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          92.73,
+          583.64,
+          619.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,410 @@
+{
+  "id": "SZ-G8-T2-6F33EA3F25-Q22",
+  "paper_id": "SZ-G8-T2-6F33EA3F25",
+  "number": 22,
+  "type": "解答题",
+  "points": 7,
+  "title": "由截线所成角关系证明平行、构造全等关系证明线段或角关系",
+  "stem": "教材知识储备\n三角形的中位线：连接三角形两边中点的线段叫做三角形的中位线．\n三角形中位线定理：三角形的中位线平行于第三边，且等于第三边的一半．\n如图1，\\(E\\)、\\(P\\)分别是\\(\\vartriangle ABC\\)的中点，则\\(EF\\)就是\\(\\vartriangle ABC\\)的中位线，则有\\(EF\\parallel BC\\)，\\(EF=\\frac { 1 } { 2 }BC\\)，请依据以上知识点，回答下面问题：\n〔图1〕\n如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)，\\(E\\)分别在边\\(AB\\)，\\(AC\\)上，\\(AD=AE\\)，连接\\(DE\\)，\\(CD\\)，点\\(M\\)，\\(P\\)，\\(N\\)分别为\\(DE\\)，\\(DC\\)，\\(BC\\)的中点．\n（1）观察猜想：\n图2中，线段\\(PM\\)与\\(PN\\)的数量关系是 　，位置关系是 　　；\n（2）探究证明：\n把\\(\\vartriangle ADE\\)绕点\\(A\\)逆时针方向旋转到图3的位置，连接\\(MN\\)，\\(PM\\)，\\(PN\\)，判断\\(\\vartriangle PMN\\)的形状，并说明理由；\n（3）拓展延伸：\n若\\(AD=4\\)，\\(AB=9\\)，\\(\\vartriangle ADE\\)绕点\\(A\\)在平面内旋转过程中，请直接写出\\(\\vartriangle PMN\\)的面积取得最大值时\\(CD\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/7b/7bbe7fd14fec678de4861e8848d8edc561410481f573782f1a24e4c452d302b9.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(PM=PN\\)，\\(PM\\bot PN\\)\n（2）\\(\\vartriangle PMN\\)是等腰直角三角形，理由见解析\n（3）\\(\\sqrt[] { 97 }\\)",
+  "answer": "（1）\\(PM=PN\\)，\\(PM\\bot PN\\)\n（2）\\(\\vartriangle PMN\\)是等腰直角三角形，理由见解析\n（3）\\(\\sqrt[] { 97 }\\)",
+  "given_solution": "【分析】（1）利用三角形的中位线得出\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，进而判断出\\(BD=CE\\)，即可得出结论，再利用三角形的中位线得出\\(PM\\parallel CE\\)、\\(PN\\parallel BD\\)得出\\(\\angle DPM=\\angle DCA\\)、\\(\\angle DPN=\\angle ADC\\)，最后用互余即可得出结论；\n（2）先判断出\\(\\vartriangle ABD≌\\vartriangle ACE\\)，得出\\(BD=CE\\)，同（1）的方法得出\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，即可得出\\(PM=PN\\)，同（1）的方法即可得出结论；\n（3）先判断出\\(BD\\)最大时，\\(\\vartriangle PMN\\)的面积最大，然后根据勾股定理求解即可得出结论．\n【小问1详解】\n解：\\(\\because\\)点\\(N\\)，\\(P\\)分别是\\(BC\\)，\\(CD\\)的中点，\n\\(\\therefore PN\\parallel BD\\)，\\(PN=\\frac { 1 } { 2 }BD\\)，\n\\(\\because\\)点\\(P\\)，\\(M\\)是\\(CD\\)，\\(DE\\)的中点，\n\\(\\therefore PM\\parallel CE\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，\n\\(\\therefore BD=CE\\)，\n\\(\\therefore PM=PN\\)，\n\\(\\because PN\\parallel BD\\)，\n\\(\\therefore \\angle DPN=\\angle ADC\\)，\n\\(\\because PM\\parallel CE\\)，\n\\(\\therefore \\angle DPM=\\angle DCA\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle ADC+\\angle ACD=90{}^\\circ\\)，\n\\(\\therefore \\angle MPN=\\angle DPM+\\angle DPN=\\angle DCA+\\angle ADC=90{}^\\circ\\)，\n\\(\\therefore PM\\bot PN\\)，\n故答案为：\\(PM=PN\\)，\\(PM\\bot PN\\)；\n【小问2详解】\n解：\\(\\vartriangle PMN\\)是等腰直角三角形．理由如下：\n由旋转知，\\(\\angle BAD=\\angle CAE\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，\n\\(\\therefore \\vartriangle ABD≌\\vartriangle ACE{ \\rm{ ( } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)，\\(BD=CE\\)，\n利用三角形的中位线得\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，\n\\(\\therefore PM=PN\\)，\n\\(\\therefore \\vartriangle PMN\\)是等腰三角形，\n同（1）的方法得，\\(PM\\parallel CE\\)，\n\\(\\therefore \\angle DPM=\\angle DCE\\)，\n同（1）的方法得，\\(PN\\parallel BD\\)，\n\\(\\therefore \\angle PNC=\\angle DBC\\)，\n\\(\\because \\angle DPN=\\angle DCB+\\angle PNC=\\angle DCB+\\angle DBC\\)，\n\\(\\begin{gathered} \\therefore \\angle MPN=\\angle DPM+\\angle DPN \\\\ =\\angle DCE+\\angle DCB+\\angle DBC \\\\ =\\angle BCE+\\angle DBC \\\\ =\\angle ACB+\\angle ACE+\\angle DBC \\\\ =\\angle ACB+\\angle ABD+\\angle DBC \\end{gathered}\\)\n\\(=\\angle ACB+\\angle ABC\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle ACB+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle MPN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PMN\\)是等腰直角三角形；\n【小问3详解】\n解：由（2）知\\(\\vartriangle PMN\\)是等腰直角三角形，\n\\(\\therefore S_{ \\vartriangle PMN } =\\frac { 1 } { 2 }PN ^ { 2 }\\)，\n\\(\\therefore\\)当\\(PN\\)最大时，\\(S_{ \\vartriangle PMN }\\)最大，\n\\(\\because PN=\\frac { 1 } { 2 }BD\\)，\n\\(\\therefore BD\\)最大时\\(PN\\)最大，\n\\(\\therefore\\)当点\\(D\\)在\\(BA\\)的延长线上时\\(BD\\)最大，\n\\(\\therefore CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 81+16 }=\\sqrt[] { 97 }\\)．\n【点睛】本题是三角形综合题，考查了三角形的中位线定理，等腰直角三角形的判定和性质，全等三角形的判定和性质，直角三角形的性质的综合运用，灵活运用这些性质解决问题是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/c5/c5ff93b95d8d6e13e226cfa3caf0ba7f36b333960cd7cdc8b71804013e3bb5dd.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)点\\(N\\)，\\(P\\)分别是\\(BC\\)，\\(CD\\)的中点，\n\\(\\therefore PN\\parallel BD\\)，\\(PN=\\frac { 1 } { 2 }BD\\)，\n\\(\\because\\)点\\(P\\)，\\(M\\)是\\(CD\\)，\\(DE\\)的中点，\n\\(\\therefore PM\\parallel CE\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，\n\\(\\therefore BD=CE\\)，\n\\(\\therefore PM=PN\\)，\n\\(\\because PN\\parallel BD\\)，\n\\(\\therefore \\angle DPN=\\angle ADC\\)，\n\\(\\because PM\\parallel CE\\)，\n\\(\\therefore \\angle DPM=\\angle DCA\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle ADC+\\angle ACD=90{}^\\circ\\)，\n\\(\\therefore \\angle MPN=\\angle DPM+\\angle DPN=\\angle DCA+\\angle ADC=90{}^\\circ\\)，\n\\(\\therefore PM\\bot PN\\)，\n故答案为：\\(PM=PN\\)，\\(PM\\bot PN\\)；\n【小问2详解】\n解：\\(\\vartriangle PMN\\)是等腰直角三角形．理由如下：\n由旋转知，\\(\\angle BAD=\\angle CAE\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，\n\\(\\therefore \\vartriangle ABD≌\\vartriangle ACE{ \\rm{ ( } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)，\\(BD=CE\\)，\n利用三角形的中位线得\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，\n\\(\\therefore PM=PN\\)，\n\\(\\therefore \\vartriangle PMN\\)是等腰三角形，\n同（1）的方法得，\\(PM\\parallel CE\\)，\n\\(\\therefore \\angle DPM=\\angle DCE\\)，\n同（1）的方法得，\\(PN\\parallel BD\\)，\n\\(\\therefore \\angle PNC=\\angle DBC\\)，\n\\(\\because \\angle DPN=\\angle DCB+\\angle PNC=\\angle DCB+\\angle DBC\\)，\n\\(\\begin{gathered} \\therefore \\angle MPN=\\angle DPM+\\angle DPN \\\\ =\\angle DCE+\\angle DCB+\\angle DBC \\\\ =\\angle BCE+\\angle DBC \\\\ =\\angle ACB+\\angle ACE+\\angle DBC \\\\ =\\angle ACB+\\angle ABD+\\angle DBC \\end{gathered}\\)\n\\(=\\angle ACB+\\angle ABC\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle ACB+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle MPN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PMN\\)是等腰直角三角形；\n【小问3详解】\n解：由（2）知\\(\\vartriangle PMN\\)是等腰直角三角形，\n\\(\\therefore S_{ \\vartriangle PMN } =\\frac { 1 } { 2 }PN ^ { 2 }\\)，\n\\(\\therefore\\)当\\(PN\\)最大时，\\(S_{ \\vartriangle PMN }\\)最大，\n\\(\\because PN=\\frac { 1 } { 2 }BD\\)，\n\\(\\therefore BD\\)最大时\\(PN\\)最大，\n\\(\\therefore\\)当点\\(D\\)在\\(BA\\)的延长线上时\\(BD\\)最大，\n\\(\\therefore CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 81+16 }=\\sqrt[] { 97 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)点\\(N\\)，\\(P\\)分别是\\(BC\\)，\\(CD\\)的中点，",
+    "\\(\\therefore PN\\parallel BD\\)，\\(PN=\\frac { 1 } { 2 }BD\\)，",
+    "\\(\\because\\)点\\(P\\)，\\(M\\)是\\(CD\\)，\\(DE\\)的中点，",
+    "\\(\\therefore PM\\parallel CE\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，",
+    "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，",
+    "\\(\\therefore BD=CE\\)，",
+    "\\(\\therefore PM=PN\\)，",
+    "\\(\\because PN\\parallel BD\\)，",
+    "\\(\\therefore \\angle DPN=\\angle ADC\\)，",
+    "\\(\\because PM\\parallel CE\\)，",
+    "\\(\\therefore \\angle DPM=\\angle DCA\\)，",
+    "\\(\\because \\angle BAC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ADC+\\angle ACD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle MPN=\\angle DPM+\\angle DPN=\\angle DCA+\\angle ADC=90{}^\\circ\\)，",
+    "\\(\\therefore PM\\bot PN\\)，",
+    "故答案为：\\(PM=PN\\)，\\(PM\\bot PN\\)；",
+    "【小问2详解】",
+    "解：\\(\\vartriangle PMN\\)是等腰直角三角形．理由如下：",
+    "由旋转知，\\(\\angle BAD=\\angle CAE\\)，",
+    "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，",
+    "\\(\\therefore \\vartriangle ABD≌\\vartriangle ACE{ \\rm{ ( } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，",
+    "\\(\\therefore \\angle ABD=\\angle ACE\\)，\\(BD=CE\\)，",
+    "利用三角形的中位线得\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，",
+    "\\(\\therefore PM=PN\\)，",
+    "\\(\\therefore \\vartriangle PMN\\)是等腰三角形，",
+    "同（1）的方法得，\\(PM\\parallel CE\\)，",
+    "\\(\\therefore \\angle DPM=\\angle DCE\\)，",
+    "同（1）的方法得，\\(PN\\parallel BD\\)，",
+    "\\(\\therefore \\angle PNC=\\angle DBC\\)，",
+    "\\(\\because \\angle DPN=\\angle DCB+\\angle PNC=\\angle DCB+\\angle DBC\\)，",
+    "\\(\\begin{gathered} \\therefore \\angle MPN=\\angle DPM+\\angle DPN \\\\ =\\angle DCE+\\angle DCB+\\angle DBC \\\\ =\\angle BCE+\\angle DBC \\\\ =\\angle ACB+\\angle ACE+\\angle DBC \\\\ =\\angle ACB+\\angle ABD+\\angle DBC \\end{gathered}\\)",
+    "\\(=\\angle ACB+\\angle ABC\\)，",
+    "\\(\\because \\angle BAC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ACB+\\angle ABC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle MPN=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle PMN\\)是等腰直角三角形；",
+    "【小问3详解】",
+    "解：由（2）知\\(\\vartriangle PMN\\)是等腰直角三角形，",
+    "\\(\\therefore S_{ \\vartriangle PMN } =\\frac { 1 } { 2 }PN ^ { 2 }\\)，",
+    "\\(\\therefore\\)当\\(PN\\)最大时，\\(S_{ \\vartriangle PMN }\\)最大，",
+    "\\(\\because PN=\\frac { 1 } { 2 }BD\\)，",
+    "\\(\\therefore BD\\)最大时\\(PN\\)最大，",
+    "\\(\\therefore\\)当点\\(D\\)在\\(BA\\)的延长线上时\\(BD\\)最大，",
+    "\\(\\therefore CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 81+16 }=\\sqrt[] { 97 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "教材知识储备\n三角形的中位线：连接三角形两边中点的线段叫做三角形的中位线．\n三角形中位线定理：三角形的中位线平行于第三边，且等于第三边的一半．\n如图1，\\(E\\)、\\(P\\)分别是\\(\\vartriangle ABC\\)的中点，则\\(EF\\)就是\\(\\vartriangle ABC\\)的中位线，则有\\(EF\\parallel BC\\)，\\(EF=\\frac { 1 } { 2 }BC\\)，请依据以上知识点，回答下面问题：\n〔图1〕\n如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)，\\(E\\)分别在边\\(AB\\)，\\(AC\\)上，\\(AD=AE\\)，连接\\(DE\\)，\\(CD\\)，点\\(M\\)，\\(P\\)，\\(N\\)分别为\\(DE\\)，\\(DC\\)，\\(BC\\)的中点．",
+      "paper_blocks": [
+        63,
+        64,
+        65,
+        66,
+        67,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-6F33EA3F25-Q22-P01",
+      "label": "（1）",
+      "prompt": "观察猜想：\n图2中，线段\\(PM\\)与\\(PN\\)的数量关系是 　，位置关系是 　　；",
+      "stem_text": "观察猜想：\n图2中，线段\\(PM\\)与\\(PN\\)的数量关系是 　，位置关系是 　　；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(PM=PN\\)，\\(PM\\bot PN\\)",
+      "answer": "\\(PM=PN\\)，\\(PM\\bot PN\\)",
+      "given_solution": "解：\\(\\because\\)点\\(N\\)，\\(P\\)分别是\\(BC\\)，\\(CD\\)的中点，\n\\(\\therefore PN\\parallel BD\\)，\\(PN=\\frac { 1 } { 2 }BD\\)，\n\\(\\because\\)点\\(P\\)，\\(M\\)是\\(CD\\)，\\(DE\\)的中点，\n\\(\\therefore PM\\parallel CE\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，\n\\(\\therefore BD=CE\\)，\n\\(\\therefore PM=PN\\)，\n\\(\\because PN\\parallel BD\\)，\n\\(\\therefore \\angle DPN=\\angle ADC\\)，\n\\(\\because PM\\parallel CE\\)，\n\\(\\therefore \\angle DPM=\\angle DCA\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle ADC+\\angle ACD=90{}^\\circ\\)，\n\\(\\therefore \\angle MPN=\\angle DPM+\\angle DPN=\\angle DCA+\\angle ADC=90{}^\\circ\\)，\n\\(\\therefore PM\\bot PN\\)，\n故答案为：\\(PM=PN\\)，\\(PM\\bot PN\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)点\\(N\\)，\\(P\\)分别是\\(BC\\)，\\(CD\\)的中点，",
+        "\\(\\therefore PN\\parallel BD\\)，\\(PN=\\frac { 1 } { 2 }BD\\)，",
+        "\\(\\because\\)点\\(P\\)，\\(M\\)是\\(CD\\)，\\(DE\\)的中点，",
+        "\\(\\therefore PM\\parallel CE\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，",
+        "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，",
+        "\\(\\therefore BD=CE\\)，",
+        "\\(\\therefore PM=PN\\)，",
+        "\\(\\because PN\\parallel BD\\)，",
+        "\\(\\therefore \\angle DPN=\\angle ADC\\)，",
+        "\\(\\because PM\\parallel CE\\)，",
+        "\\(\\therefore \\angle DPM=\\angle DCA\\)，",
+        "\\(\\because \\angle BAC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ADC+\\angle ACD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle MPN=\\angle DPM+\\angle DPN=\\angle DCA+\\angle ADC=90{}^\\circ\\)，",
+        "\\(\\therefore PM\\bot PN\\)，",
+        "故答案为：\\(PM=PN\\)，\\(PM\\bot PN\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.04"
+      ],
+      "exam_ids": [
+        "E.G01.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“由截线所成角关系证明平行”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6F33EA3F25-Q22-P02",
+      "label": "（2）",
+      "prompt": "探究证明：\n把\\(\\vartriangle ADE\\)绕点\\(A\\)逆时针方向旋转到图3的位置，连接\\(MN\\)，\\(PM\\)，\\(PN\\)，判断\\(\\vartriangle PMN\\)的形状，并说明理由；",
+      "stem_text": "探究证明：\n把\\(\\vartriangle ADE\\)绕点\\(A\\)逆时针方向旋转到图3的位置，连接\\(MN\\)，\\(PM\\)，\\(PN\\)，判断\\(\\vartriangle PMN\\)的形状，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\vartriangle PMN\\)是等腰直角三角形，理由见解析",
+      "answer": "\\(\\vartriangle PMN\\)是等腰直角三角形，理由见解析",
+      "given_solution": "解：\\(\\vartriangle PMN\\)是等腰直角三角形．理由如下：\n由旋转知，\\(\\angle BAD=\\angle CAE\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，\n\\(\\therefore \\vartriangle ABD≌\\vartriangle ACE{ \\rm{ ( } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，\n\\(\\therefore \\angle ABD=\\angle ACE\\)，\\(BD=CE\\)，\n利用三角形的中位线得\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，\n\\(\\therefore PM=PN\\)，\n\\(\\therefore \\vartriangle PMN\\)是等腰三角形，\n同（1）的方法得，\\(PM\\parallel CE\\)，\n\\(\\therefore \\angle DPM=\\angle DCE\\)，\n同（1）的方法得，\\(PN\\parallel BD\\)，\n\\(\\therefore \\angle PNC=\\angle DBC\\)，\n\\(\\because \\angle DPN=\\angle DCB+\\angle PNC=\\angle DCB+\\angle DBC\\)，\n\\(\\begin{gathered} \\therefore \\angle MPN=\\angle DPM+\\angle DPN \\\\ =\\angle DCE+\\angle DCB+\\angle DBC \\\\ =\\angle BCE+\\angle DBC \\\\ =\\angle ACB+\\angle ACE+\\angle DBC \\\\ =\\angle ACB+\\angle ABD+\\angle DBC \\end{gathered}\\)\n\\(=\\angle ACB+\\angle ABC\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle ACB+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle MPN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PMN\\)是等腰直角三角形；",
+      "solution_steps": [
+        "解：\\(\\vartriangle PMN\\)是等腰直角三角形．理由如下：",
+        "由旋转知，\\(\\angle BAD=\\angle CAE\\)，",
+        "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(AD=AE\\)，",
+        "\\(\\therefore \\vartriangle ABD≌\\vartriangle ACE{ \\rm{ ( } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，",
+        "\\(\\therefore \\angle ABD=\\angle ACE\\)，\\(BD=CE\\)，",
+        "利用三角形的中位线得\\(PN=\\frac { 1 } { 2 }BD\\)，\\(PM=\\frac { 1 } { 2 }CE\\)，",
+        "\\(\\therefore PM=PN\\)，",
+        "\\(\\therefore \\vartriangle PMN\\)是等腰三角形，",
+        "同（1）的方法得，\\(PM\\parallel CE\\)，",
+        "\\(\\therefore \\angle DPM=\\angle DCE\\)，",
+        "同（1）的方法得，\\(PN\\parallel BD\\)，",
+        "\\(\\therefore \\angle PNC=\\angle DBC\\)，",
+        "\\(\\because \\angle DPN=\\angle DCB+\\angle PNC=\\angle DCB+\\angle DBC\\)，",
+        "\\(\\begin{gathered} \\therefore \\angle MPN=\\angle DPM+\\angle DPN \\\\ =\\angle DCE+\\angle DCB+\\angle DBC \\\\ =\\angle BCE+\\angle DBC \\\\ =\\angle ACB+\\angle ACE+\\angle DBC \\\\ =\\angle ACB+\\angle ABD+\\angle DBC \\end{gathered}\\)",
+        "\\(=\\angle ACB+\\angle ABC\\)，",
+        "\\(\\because \\angle BAC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ACB+\\angle ABC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle MPN=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle PMN\\)是等腰直角三角形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6F33EA3F25-Q22-P03",
+      "label": "（3）",
+      "prompt": "拓展延伸：\n若\\(AD=4\\)，\\(AB=9\\)，\\(\\vartriangle ADE\\)绕点\\(A\\)在平面内旋转过程中，请直接写出\\(\\vartriangle PMN\\)的面积取得最大值时\\(CD\\)的长．",
+      "stem_text": "拓展延伸：\n若\\(AD=4\\)，\\(AB=9\\)，\\(\\vartriangle ADE\\)绕点\\(A\\)在平面内旋转过程中，请直接写出\\(\\vartriangle PMN\\)的面积取得最大值时\\(CD\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 97 }\\)",
+      "answer": "\\(\\sqrt[] { 97 }\\)",
+      "given_solution": "解：由（2）知\\(\\vartriangle PMN\\)是等腰直角三角形，\n\\(\\therefore S_{ \\vartriangle PMN } =\\frac { 1 } { 2 }PN ^ { 2 }\\)，\n\\(\\therefore\\)当\\(PN\\)最大时，\\(S_{ \\vartriangle PMN }\\)最大，\n\\(\\because PN=\\frac { 1 } { 2 }BD\\)，\n\\(\\therefore BD\\)最大时\\(PN\\)最大，\n\\(\\therefore\\)当点\\(D\\)在\\(BA\\)的延长线上时\\(BD\\)最大，\n\\(\\therefore CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 81+16 }=\\sqrt[] { 97 }\\)．",
+      "solution_steps": [
+        "解：由（2）知\\(\\vartriangle PMN\\)是等腰直角三角形，",
+        "\\(\\therefore S_{ \\vartriangle PMN } =\\frac { 1 } { 2 }PN ^ { 2 }\\)，",
+        "\\(\\therefore\\)当\\(PN\\)最大时，\\(S_{ \\vartriangle PMN }\\)最大，",
+        "\\(\\because PN=\\frac { 1 } { 2 }BD\\)，",
+        "\\(\\therefore BD\\)最大时\\(PN\\)最大，",
+        "\\(\\therefore\\)当点\\(D\\)在\\(BA\\)的延长线上时\\(BD\\)最大，",
+        "\\(\\therefore CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 81+16 }=\\sqrt[] { 97 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      63,
+      74
+    ],
+    "solution_body_blocks": [
+      362,
+      426
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6F33EA3F25/paper-q22-p05.webp",
+      "assets/SZ-G8-T2-6F33EA3F25/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          401.36,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          158.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6F33EA3F25/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-6F33EA3F25/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-6F33EA3F25/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          144.09,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          197.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G01.04",
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G01.04.01",
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“由截线所成角关系证明平行”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

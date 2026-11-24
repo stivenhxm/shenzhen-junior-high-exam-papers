@@ -1,0 +1,470 @@
+{
+  "id": "SZ-G8-T1-AC5080C606-Q20",
+  "paper_id": "SZ-G8-T1-AC5080C606",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式",
+  "stem": "在平面直角坐标系中，点\\(O\\)为坐标原点，直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B,AB=\\frac { 5 } { 2 }\\)．\n〔图1〕\n（1）求直线\\(AB\\)的解析式；\n（2）如图2，过点\\(B\\)的直线\\(y=k_{ 1 } x+b\\)交\\(x\\)轴正半轴于\\(P,PI\\bot AB\\)于\\(I\\)，点\\(P\\)的横坐标为\\(t\\)，线段\\(PI\\)的长为\\(d\\)，求\\(d\\)与\\(t\\)的函数关系式；\n（3）如图2，在（2）的条件下，若\\(\\angle PBO+\\angle BAO=45{}^\\circ\\)，求\\(k\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-AC5080C606/figures/2d7bd11693fe5c68f30562dbf8ed015b802c768f565282feadc04c60ca7542e2.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；\n（2）\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；\n（3）\\(-7\\)．",
+  "answer": "（1）\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；\n（2）\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；\n（3）\\(-7\\)．",
+  "given_solution": "【分析】（1）先求出点B的坐标，再利用勾股定理即可求得\\(AO\\)，得出点A的坐标，再运用待定系数法求出直线\\(AB\\)的解析式；\n（2）根据题意得\\(OA=2,OB=\\frac { 3 } { 2 },AP=t+2\\)，再根据\\(S_{\\triangle  ABP }\\)可得出结论；\n（3）在\\(x\\)轴下方取一点\\(D\\)，使得\\(\\vartriangle ABD\\)是以点\\(D\\)为直角顶点的等腰直角三角形，过点\\(D\\)作\\(x\\)轴的平行线\\(l\\)，交\\(y\\)轴于点\\(E\\)，过点\\(A\\)作\\(AF\\bot l\\)于点\\(F,BD\\)交\\(x\\)轴于点\\(G\\)，证明\\(\\vartriangle BED≌\\vartriangle DFA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)得\\(BE=DF,DE=FA\\)，再证明\\(\\angle PBO=\\angle OBG\\)，可得\\(\\vartriangle PBO≌\\vartriangle GBO\\)，证明四边形\\(AOEF\\)是矩形，得出\\(EF=OA=6,OE=AF\\)，设\\(AF=DE=a\\)，则\\(BE=OB+OE=3+a,DF=EF-ED=6-a\\)，由\\(BE=DF\\)可求出\\(a=\\frac { 1 } { 4 }\\)，求出直线\\(BD\\)的解析式为\\(y=7x+\\frac { 3 } { 2 }\\)，得出\\(D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，再求出\\(G\\left ( { -\\frac { 3 } { 14 }.0 } \\right )\\)，\\(P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)，将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)代入\\(y=k_{ 1 } x+b\\)中可求出\\(k_{ 1 } =-7\\)\n【小问1详解】\n解：\\(\\because\\)直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B\\)，\n当\\(x=0\\)时，\\(y=\\frac { 3 } { 2 }\\)，\n\\(\\therefore B\\left ( { 0,\\frac { 3 } { 2 } } \\right )\\)，\n\\(\\therefore OB=\\frac { 3 } { 2 }\\)，\n\\(\\because AB=\\frac { 5 } { 2 },OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)，\n∴\\(OA ^ { 2 } +\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } =\\left ( { \\frac { 5 } { 2 } } \\right ) ^ { 2 }\\)，\n\\(\\therefore OA=2\\)（负值舍去），\n∴\\(A(−2,0)\\)，\n将\\(A(−2,0)\\)代入\\(y=kx+\\frac { 3 } { 2 }\\)，得：\\(-2k+\\frac { 3 } { 2 }=0\\)，\n\\(\\therefore k=\\frac { 3 } { 4 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；\n【小问2详解】\n解：∵点\\(P\\)的横坐标为\\(t\\)，\n∴\\(P\\left ( { t,0 } \\right )\\)，\n\\(\\because A\\left ( { -2,0 } \\right ),B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),\\)\n\\(\\therefore OA=2,OB=\\frac { 3 } { 2 },AP=t+2\\)，\n\\(\\because PI\\bot AB\\)，\n\\(\\therefore \\angle AIP=90 ^ { {}^\\circ }\\)，\n\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AP\\cdot OB=\\frac { 1 } { 2 }\\cdot \\left ( { t+2 } \\right )\\cdot \\frac { 3 } { 2 }=\\frac { 3 } { 4 }t+\\frac { 3 } { 2 }\\)，\n\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AB\\cdot PI=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\cdot d=\\frac { 5 } { 4 }d,\\)\n\\(\\therefore \\frac { 3 } { 4 }t+\\frac { 3 } { 2 }=\\frac { 5 } { 4 }d\\)\n∴\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)\n\\(\\therefore d\\)与\\(t\\)的函数关系式为\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；\n【小问3详解】\n解：在\\(x\\)轴下方取一点\\(D\\)，使得\\(\\vartriangle ABD\\)是以点\\(D\\)为直角顶点的等腰直角三角形，过点\\(D\\)作\\(x\\)轴的平行线\\(l\\)，交\\(y\\)轴于点\\(E\\)，过点\\(A\\)作\\(AF\\bot l\\)于点\\(F,BD\\)交\\(x\\)轴于点\\(G\\)，\n〔图2〕\n\\(\\therefore \\angle BED=\\angle DFA=\\angle ADB=90{}^\\circ ,AD=BD\\)，\n\\(\\therefore \\angle EBD+\\angle BDE=90{}^\\circ ,\\angle FDA+\\angle BDE=90{}^\\circ\\)，\n\\(\\therefore \\angle EBD=\\angle FDA\\)，\n在\\(\\vartriangle BED\\)和\\(\\vartriangle DFA\\)中，\n\\(\\begin{cases} \\angle BED=\\angle DFA \\\\ \\angle EBD=\\angle ADF, \\\\ AD=BD \\end{cases}\\)\n\\(\\therefore \\vartriangle BED≌\\vartriangle DFA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BE=DF,DE=FA\\)，\n\\(\\because \\angle OBA+\\angle OAB=90{}^\\circ ,\\angle ABD=45{}^\\circ\\)，\n\\(\\therefore \\angle OBG+\\angle BAO=45{}^\\circ\\)，\n\\(\\because \\angle PBO+\\angle BAO=45{}^\\circ\\)，\n\\(\\therefore \\angle PBO=\\angle OBG\\)，\n又\\(\\because \\angle BOP=\\angle BOG=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PBO≌\\vartriangle GBO\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore PO=GO\\)，\n\\(\\because A\\left ( { 6,0 } \\right ),B\\left ( { 0,3 } \\right )\\)，\n\\(\\therefore OA=6,OB=3\\)，\n\\(\\because \\angle OEF=\\angle F=\\angle AOE=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AOEF\\)是矩形，\n\\(\\therefore EF=OA=6,OE=AF\\)，\n设\\(AF=DE=a\\)，则\\(BE=OB+OE=3+a,DF=EF-ED=6-a\\)，\n\\(\\because BE=DF\\)，\n\\(\\therefore \\frac { 3 } { 2 }+a=2-a\\)，\n解得\\(a=\\frac { 1 } { 4 }\\)，\n\\(\\therefore D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，\n设直线\\(BD\\)的解析式为\\(y=px+q\\)，\n将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，\n代入得：\\(\\begin{cases} 0+q=\\frac { 3 } { 2 } \\\\ -\\frac { 1 } { 4 }p+q=-\\frac { 1 } { 4 }, \\end{cases}\\)\n解得：\\(\\begin{cases} p=-\\frac { 3 } { 2 } \\\\ q=7 \\end{cases}\\)\n\\(\\therefore\\)直线\\(BD\\)的解析式为\\(y=7x+\\frac { 3 } { 2 }\\)，\n在\\(y=7x+\\frac { 3 } { 2 }\\)中，令\\(y=0\\)，则\\(7x+\\frac { 3 } { 2 }=0\\)，\n解得：\\(x=-\\frac { 3 } { 14 }\\)，\n\\(\\therefore G\\left ( { -\\frac { 3 } { 14 }.0 } \\right )\\)，\n\\(\\therefore P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)，\n将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)代入\\(y=k_{ 1 } x+b\\)中，\n得：\\(\\begin{cases} 0+b=\\frac { 3 } { 2 } \\\\ \\frac { 3 } { 14 }k_{ 1 } +b=0 \\end{cases}\\)，\n解得：\\(k_{ 1 } =-7\\)．\n【点睛】本题考查了待定系数法求一次函数解析式、根据解析式求点的坐标，全等三角形的判定和性质、矩形的判定与性质、勾股定理运用等知识，解题的关键是合理添加辅助线，构造全等三角形解决问题．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-AC5080C606/figures/96bca3752af62c455fae6814f7752a3b7fd5c4f0b5755a006a185ded2c098979.png",
+    "assets/SZ-G8-T1-AC5080C606/figures/1f35c80c2117f2917d5e4767b84b251521d8e73b2b8aabf7e6176e20818ea5fb.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B\\)，\n当\\(x=0\\)时，\\(y=\\frac { 3 } { 2 }\\)，\n\\(\\therefore B\\left ( { 0,\\frac { 3 } { 2 } } \\right )\\)，\n\\(\\therefore OB=\\frac { 3 } { 2 }\\)，\n\\(\\because AB=\\frac { 5 } { 2 },OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)，\n∴\\(OA ^ { 2 } +\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } =\\left ( { \\frac { 5 } { 2 } } \\right ) ^ { 2 }\\)，\n\\(\\therefore OA=2\\)（负值舍去），\n∴\\(A(−2,0)\\)，\n将\\(A(−2,0)\\)代入\\(y=kx+\\frac { 3 } { 2 }\\)，得：\\(-2k+\\frac { 3 } { 2 }=0\\)，\n\\(\\therefore k=\\frac { 3 } { 4 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；\n【小问2详解】\n解：∵点\\(P\\)的横坐标为\\(t\\)，\n∴\\(P\\left ( { t,0 } \\right )\\)，\n\\(\\because A\\left ( { -2,0 } \\right ),B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),\\)\n\\(\\therefore OA=2,OB=\\frac { 3 } { 2 },AP=t+2\\)，\n\\(\\because PI\\bot AB\\)，\n\\(\\therefore \\angle AIP=90 ^ { {}^\\circ }\\)，\n\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AP\\cdot OB=\\frac { 1 } { 2 }\\cdot \\left ( { t+2 } \\right )\\cdot \\frac { 3 } { 2 }=\\frac { 3 } { 4 }t+\\frac { 3 } { 2 }\\)，\n\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AB\\cdot PI=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\cdot d=\\frac { 5 } { 4 }d,\\)\n\\(\\therefore \\frac { 3 } { 4 }t+\\frac { 3 } { 2 }=\\frac { 5 } { 4 }d\\)\n∴\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)\n\\(\\therefore d\\)与\\(t\\)的函数关系式为\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；\n【小问3详解】\n解：在\\(x\\)轴下方取一点\\(D\\)，使得\\(\\vartriangle ABD\\)是以点\\(D\\)为直角顶点的等腰直角三角形，过点\\(D\\)作\\(x\\)轴的平行线\\(l\\)，交\\(y\\)轴于点\\(E\\)，过点\\(A\\)作\\(AF\\bot l\\)于点\\(F,BD\\)交\\(x\\)轴于点\\(G\\)，\n〔图2〕\n\\(\\therefore \\angle BED=\\angle DFA=\\angle ADB=90{}^\\circ ,AD=BD\\)，\n\\(\\therefore \\angle EBD+\\angle BDE=90{}^\\circ ,\\angle FDA+\\angle BDE=90{}^\\circ\\)，\n\\(\\therefore \\angle EBD=\\angle FDA\\)，\n在\\(\\vartriangle BED\\)和\\(\\vartriangle DFA\\)中，\n\\(\\begin{cases} \\angle BED=\\angle DFA \\\\ \\angle EBD=\\angle ADF, \\\\ AD=BD \\end{cases}\\)\n\\(\\therefore \\vartriangle BED≌\\vartriangle DFA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BE=DF,DE=FA\\)，\n\\(\\because \\angle OBA+\\angle OAB=90{}^\\circ ,\\angle ABD=45{}^\\circ\\)，\n\\(\\therefore \\angle OBG+\\angle BAO=45{}^\\circ\\)，\n\\(\\because \\angle PBO+\\angle BAO=45{}^\\circ\\)，\n\\(\\therefore \\angle PBO=\\angle OBG\\)，\n又\\(\\because \\angle BOP=\\angle BOG=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PBO≌\\vartriangle GBO\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore PO=GO\\)，\n\\(\\because A\\left ( { 6,0 } \\right ),B\\left ( { 0,3 } \\right )\\)，\n\\(\\therefore OA=6,OB=3\\)，\n\\(\\because \\angle OEF=\\angle F=\\angle AOE=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AOEF\\)是矩形，\n\\(\\therefore EF=OA=6,OE=AF\\)，\n设\\(AF=DE=a\\)，则\\(BE=OB+OE=3+a,DF=EF-ED=6-a\\)，\n\\(\\because BE=DF\\)，\n\\(\\therefore \\frac { 3 } { 2 }+a=2-a\\)，\n解得\\(a=\\frac { 1 } { 4 }\\)，\n\\(\\therefore D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，\n设直线\\(BD\\)的解析式为\\(y=px+q\\)，\n将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，\n代入得：\\(\\begin{cases} 0+q=\\frac { 3 } { 2 } \\\\ -\\frac { 1 } { 4 }p+q=-\\frac { 1 } { 4 }, \\end{cases}\\)\n解得：\\(\\begin{cases} p=-\\frac { 3 } { 2 } \\\\ q=7 \\end{cases}\\)\n\\(\\therefore\\)直线\\(BD\\)的解析式为\\(y=7x+\\frac { 3 } { 2 }\\)，\n在\\(y=7x+\\frac { 3 } { 2 }\\)中，令\\(y=0\\)，则\\(7x+\\frac { 3 } { 2 }=0\\)，\n解得：\\(x=-\\frac { 3 } { 14 }\\)，\n\\(\\therefore G\\left ( { -\\frac { 3 } { 14 }.0 } \\right )\\)，\n\\(\\therefore P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)，\n将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)代入\\(y=k_{ 1 } x+b\\)中，\n得：\\(\\begin{cases} 0+b=\\frac { 3 } { 2 } \\\\ \\frac { 3 } { 14 }k_{ 1 } +b=0 \\end{cases}\\)，\n解得：\\(k_{ 1 } =-7\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B\\)，",
+    "当\\(x=0\\)时，\\(y=\\frac { 3 } { 2 }\\)，",
+    "\\(\\therefore B\\left ( { 0,\\frac { 3 } { 2 } } \\right )\\)，",
+    "\\(\\therefore OB=\\frac { 3 } { 2 }\\)，",
+    "\\(\\because AB=\\frac { 5 } { 2 },OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)，",
+    "∴\\(OA ^ { 2 } +\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } =\\left ( { \\frac { 5 } { 2 } } \\right ) ^ { 2 }\\)，",
+    "\\(\\therefore OA=2\\)（负值舍去），",
+    "∴\\(A(−2,0)\\)，",
+    "将\\(A(−2,0)\\)代入\\(y=kx+\\frac { 3 } { 2 }\\)，得：\\(-2k+\\frac { 3 } { 2 }=0\\)，",
+    "\\(\\therefore k=\\frac { 3 } { 4 }\\)，",
+    "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；",
+    "【小问2详解】",
+    "解：∵点\\(P\\)的横坐标为\\(t\\)，",
+    "∴\\(P\\left ( { t,0 } \\right )\\)，",
+    "\\(\\because A\\left ( { -2,0 } \\right ),B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),\\)",
+    "\\(\\therefore OA=2,OB=\\frac { 3 } { 2 },AP=t+2\\)，",
+    "\\(\\because PI\\bot AB\\)，",
+    "\\(\\therefore \\angle AIP=90 ^ { {}^\\circ }\\)，",
+    "\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AP\\cdot OB=\\frac { 1 } { 2 }\\cdot \\left ( { t+2 } \\right )\\cdot \\frac { 3 } { 2 }=\\frac { 3 } { 4 }t+\\frac { 3 } { 2 }\\)，",
+    "\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AB\\cdot PI=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\cdot d=\\frac { 5 } { 4 }d,\\)",
+    "\\(\\therefore \\frac { 3 } { 4 }t+\\frac { 3 } { 2 }=\\frac { 5 } { 4 }d\\)",
+    "∴\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)",
+    "\\(\\therefore d\\)与\\(t\\)的函数关系式为\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；",
+    "【小问3详解】",
+    "解：在\\(x\\)轴下方取一点\\(D\\)，使得\\(\\vartriangle ABD\\)是以点\\(D\\)为直角顶点的等腰直角三角形，过点\\(D\\)作\\(x\\)轴的平行线\\(l\\)，交\\(y\\)轴于点\\(E\\)，过点\\(A\\)作\\(AF\\bot l\\)于点\\(F,BD\\)交\\(x\\)轴于点\\(G\\)，",
+    "〔图2〕",
+    "\\(\\therefore \\angle BED=\\angle DFA=\\angle ADB=90{}^\\circ ,AD=BD\\)，",
+    "\\(\\therefore \\angle EBD+\\angle BDE=90{}^\\circ ,\\angle FDA+\\angle BDE=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle EBD=\\angle FDA\\)，",
+    "在\\(\\vartriangle BED\\)和\\(\\vartriangle DFA\\)中，",
+    "\\(\\begin{cases} \\angle BED=\\angle DFA \\\\ \\angle EBD=\\angle ADF, \\\\ AD=BD \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle BED≌\\vartriangle DFA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore BE=DF,DE=FA\\)，",
+    "\\(\\because \\angle OBA+\\angle OAB=90{}^\\circ ,\\angle ABD=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle OBG+\\angle BAO=45{}^\\circ\\)，",
+    "\\(\\because \\angle PBO+\\angle BAO=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle PBO=\\angle OBG\\)，",
+    "又\\(\\because \\angle BOP=\\angle BOG=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle PBO≌\\vartriangle GBO\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore PO=GO\\)，",
+    "\\(\\because A\\left ( { 6,0 } \\right ),B\\left ( { 0,3 } \\right )\\)，",
+    "\\(\\therefore OA=6,OB=3\\)，",
+    "\\(\\because \\angle OEF=\\angle F=\\angle AOE=90{}^\\circ\\)，",
+    "\\(\\therefore\\)四边形\\(AOEF\\)是矩形，",
+    "\\(\\therefore EF=OA=6,OE=AF\\)，",
+    "设\\(AF=DE=a\\)，则\\(BE=OB+OE=3+a,DF=EF-ED=6-a\\)，",
+    "\\(\\because BE=DF\\)，",
+    "\\(\\therefore \\frac { 3 } { 2 }+a=2-a\\)，",
+    "解得\\(a=\\frac { 1 } { 4 }\\)，",
+    "\\(\\therefore D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，",
+    "设直线\\(BD\\)的解析式为\\(y=px+q\\)，",
+    "将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，",
+    "代入得：\\(\\begin{cases} 0+q=\\frac { 3 } { 2 } \\\\ -\\frac { 1 } { 4 }p+q=-\\frac { 1 } { 4 }, \\end{cases}\\)",
+    "解得：\\(\\begin{cases} p=-\\frac { 3 } { 2 } \\\\ q=7 \\end{cases}\\)",
+    "\\(\\therefore\\)直线\\(BD\\)的解析式为\\(y=7x+\\frac { 3 } { 2 }\\)，",
+    "在\\(y=7x+\\frac { 3 } { 2 }\\)中，令\\(y=0\\)，则\\(7x+\\frac { 3 } { 2 }=0\\)，",
+    "解得：\\(x=-\\frac { 3 } { 14 }\\)，",
+    "\\(\\therefore G\\left ( { -\\frac { 3 } { 14 }.0 } \\right )\\)，",
+    "\\(\\therefore P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)，",
+    "将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)代入\\(y=k_{ 1 } x+b\\)中，",
+    "得：\\(\\begin{cases} 0+b=\\frac { 3 } { 2 } \\\\ \\frac { 3 } { 14 }k_{ 1 } +b=0 \\end{cases}\\)，",
+    "解得：\\(k_{ 1 } =-7\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系中，点\\(O\\)为坐标原点，直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B,AB=\\frac { 5 } { 2 }\\)．\n〔图1〕",
+      "paper_blocks": [
+        82,
+        83
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，过点\\(B\\)的直线\\(y=k_{ 1 } x+b\\)交\\(x\\)轴正半轴于\\(P,PI\\bot AB\\)于\\(I\\)，点\\(P\\)的横坐标为\\(t\\)，线段\\(PI\\)的长为\\(d\\)，求\\(d\\)与\\(t\\)的函数关系式；",
+      "paper_blocks": [
+        82,
+        83,
+        85
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-AC5080C606-Q20-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(AB\\)的解析式；",
+      "stem_text": "求直线\\(AB\\)的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；",
+      "answer": "\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；",
+      "given_solution": "解：\\(\\because\\)直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B\\)，\n当\\(x=0\\)时，\\(y=\\frac { 3 } { 2 }\\)，\n\\(\\therefore B\\left ( { 0,\\frac { 3 } { 2 } } \\right )\\)，\n\\(\\therefore OB=\\frac { 3 } { 2 }\\)，\n\\(\\because AB=\\frac { 5 } { 2 },OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)，\n∴\\(OA ^ { 2 } +\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } =\\left ( { \\frac { 5 } { 2 } } \\right ) ^ { 2 }\\)，\n\\(\\therefore OA=2\\)（负值舍去），\n∴\\(A(−2,0)\\)，\n将\\(A(−2,0)\\)代入\\(y=kx+\\frac { 3 } { 2 }\\)，得：\\(-2k+\\frac { 3 } { 2 }=0\\)，\n\\(\\therefore k=\\frac { 3 } { 4 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)直线\\(y=kx+\\frac { 3 } { 2 }\\)交\\(x\\)轴于点\\(A\\)，交\\(y\\)轴于点\\(B\\)，",
+        "当\\(x=0\\)时，\\(y=\\frac { 3 } { 2 }\\)，",
+        "\\(\\therefore B\\left ( { 0,\\frac { 3 } { 2 } } \\right )\\)，",
+        "\\(\\therefore OB=\\frac { 3 } { 2 }\\)，",
+        "\\(\\because AB=\\frac { 5 } { 2 },OA ^ { 2 } +OB ^ { 2 } =AB ^ { 2 }\\)，",
+        "∴\\(OA ^ { 2 } +\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } =\\left ( { \\frac { 5 } { 2 } } \\right ) ^ { 2 }\\)，",
+        "\\(\\therefore OA=2\\)（负值舍去），",
+        "∴\\(A(−2,0)\\)，",
+        "将\\(A(−2,0)\\)代入\\(y=kx+\\frac { 3 } { 2 }\\)，得：\\(-2k+\\frac { 3 } { 2 }=0\\)，",
+        "\\(\\therefore k=\\frac { 3 } { 4 }\\)，",
+        "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 3 } { 4 }x+\\frac { 3 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-AC5080C606-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，过点\\(B\\)的直线\\(y=k_{ 1 } x+b\\)交\\(x\\)轴正半轴于\\(P,PI\\bot AB\\)于\\(I\\)，点\\(P\\)的横坐标为\\(t\\)，线段\\(PI\\)的长为\\(d\\)，求\\(d\\)与\\(t\\)的函数关系式；",
+      "stem_text": "如图2，过点\\(B\\)的直线\\(y=k_{ 1 } x+b\\)交\\(x\\)轴正半轴于\\(P,PI\\bot AB\\)于\\(I\\)，点\\(P\\)的横坐标为\\(t\\)，线段\\(PI\\)的长为\\(d\\)，求\\(d\\)与\\(t\\)的函数关系式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；",
+      "answer": "\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；",
+      "given_solution": "解：∵点\\(P\\)的横坐标为\\(t\\)，\n∴\\(P\\left ( { t,0 } \\right )\\)，\n\\(\\because A\\left ( { -2,0 } \\right ),B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),\\)\n\\(\\therefore OA=2,OB=\\frac { 3 } { 2 },AP=t+2\\)，\n\\(\\because PI\\bot AB\\)，\n\\(\\therefore \\angle AIP=90 ^ { {}^\\circ }\\)，\n\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AP\\cdot OB=\\frac { 1 } { 2 }\\cdot \\left ( { t+2 } \\right )\\cdot \\frac { 3 } { 2 }=\\frac { 3 } { 4 }t+\\frac { 3 } { 2 }\\)，\n\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AB\\cdot PI=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\cdot d=\\frac { 5 } { 4 }d,\\)\n\\(\\therefore \\frac { 3 } { 4 }t+\\frac { 3 } { 2 }=\\frac { 5 } { 4 }d\\)\n∴\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)\n\\(\\therefore d\\)与\\(t\\)的函数关系式为\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；",
+      "solution_steps": [
+        "解：∵点\\(P\\)的横坐标为\\(t\\)，",
+        "∴\\(P\\left ( { t,0 } \\right )\\)，",
+        "\\(\\because A\\left ( { -2,0 } \\right ),B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),\\)",
+        "\\(\\therefore OA=2,OB=\\frac { 3 } { 2 },AP=t+2\\)，",
+        "\\(\\because PI\\bot AB\\)，",
+        "\\(\\therefore \\angle AIP=90 ^ { {}^\\circ }\\)，",
+        "\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AP\\cdot OB=\\frac { 1 } { 2 }\\cdot \\left ( { t+2 } \\right )\\cdot \\frac { 3 } { 2 }=\\frac { 3 } { 4 }t+\\frac { 3 } { 2 }\\)，",
+        "\\(\\because S_{\\triangle  ABP } =\\frac { 1 } { 2 }\\cdot AB\\cdot PI=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\cdot d=\\frac { 5 } { 4 }d,\\)",
+        "\\(\\therefore \\frac { 3 } { 4 }t+\\frac { 3 } { 2 }=\\frac { 5 } { 4 }d\\)",
+        "∴\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)",
+        "\\(\\therefore d\\)与\\(t\\)的函数关系式为\\(d=\\frac { 3 } { 5 }t+\\frac { 6 } { 5 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85
+        ],
+        "solution_block_ids": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-AC5080C606-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图2，在（2）的条件下，若\\(\\angle PBO+\\angle BAO=45{}^\\circ\\)，求\\(k\\)的值．",
+      "stem_text": "如图2，在（2）的条件下，若\\(\\angle PBO+\\angle BAO=45{}^\\circ\\)，求\\(k\\)的值．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T1-AC5080C606-Q20-P02"
+      ],
+      "given_answer": "\\(-7\\)．",
+      "answer": "\\(-7\\)．",
+      "given_solution": "解：在\\(x\\)轴下方取一点\\(D\\)，使得\\(\\vartriangle ABD\\)是以点\\(D\\)为直角顶点的等腰直角三角形，过点\\(D\\)作\\(x\\)轴的平行线\\(l\\)，交\\(y\\)轴于点\\(E\\)，过点\\(A\\)作\\(AF\\bot l\\)于点\\(F,BD\\)交\\(x\\)轴于点\\(G\\)，\n〔图2〕\n\\(\\therefore \\angle BED=\\angle DFA=\\angle ADB=90{}^\\circ ,AD=BD\\)，\n\\(\\therefore \\angle EBD+\\angle BDE=90{}^\\circ ,\\angle FDA+\\angle BDE=90{}^\\circ\\)，\n\\(\\therefore \\angle EBD=\\angle FDA\\)，\n在\\(\\vartriangle BED\\)和\\(\\vartriangle DFA\\)中，\n\\(\\begin{cases} \\angle BED=\\angle DFA \\\\ \\angle EBD=\\angle ADF, \\\\ AD=BD \\end{cases}\\)\n\\(\\therefore \\vartriangle BED≌\\vartriangle DFA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BE=DF,DE=FA\\)，\n\\(\\because \\angle OBA+\\angle OAB=90{}^\\circ ,\\angle ABD=45{}^\\circ\\)，\n\\(\\therefore \\angle OBG+\\angle BAO=45{}^\\circ\\)，\n\\(\\because \\angle PBO+\\angle BAO=45{}^\\circ\\)，\n\\(\\therefore \\angle PBO=\\angle OBG\\)，\n又\\(\\because \\angle BOP=\\angle BOG=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PBO≌\\vartriangle GBO\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore PO=GO\\)，\n\\(\\because A\\left ( { 6,0 } \\right ),B\\left ( { 0,3 } \\right )\\)，\n\\(\\therefore OA=6,OB=3\\)，\n\\(\\because \\angle OEF=\\angle F=\\angle AOE=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AOEF\\)是矩形，\n\\(\\therefore EF=OA=6,OE=AF\\)，\n设\\(AF=DE=a\\)，则\\(BE=OB+OE=3+a,DF=EF-ED=6-a\\)，\n\\(\\because BE=DF\\)，\n\\(\\therefore \\frac { 3 } { 2 }+a=2-a\\)，\n解得\\(a=\\frac { 1 } { 4 }\\)，\n\\(\\therefore D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，\n设直线\\(BD\\)的解析式为\\(y=px+q\\)，\n将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，\n代入得：\\(\\begin{cases} 0+q=\\frac { 3 } { 2 } \\\\ -\\frac { 1 } { 4 }p+q=-\\frac { 1 } { 4 }, \\end{cases}\\)\n解得：\\(\\begin{cases} p=-\\frac { 3 } { 2 } \\\\ q=7 \\end{cases}\\)\n\\(\\therefore\\)直线\\(BD\\)的解析式为\\(y=7x+\\frac { 3 } { 2 }\\)，\n在\\(y=7x+\\frac { 3 } { 2 }\\)中，令\\(y=0\\)，则\\(7x+\\frac { 3 } { 2 }=0\\)，\n解得：\\(x=-\\frac { 3 } { 14 }\\)，\n\\(\\therefore G\\left ( { -\\frac { 3 } { 14 }.0 } \\right )\\)，\n\\(\\therefore P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)，\n将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)代入\\(y=k_{ 1 } x+b\\)中，\n得：\\(\\begin{cases} 0+b=\\frac { 3 } { 2 } \\\\ \\frac { 3 } { 14 }k_{ 1 } +b=0 \\end{cases}\\)，\n解得：\\(k_{ 1 } =-7\\)．",
+      "solution_steps": [
+        "解：在\\(x\\)轴下方取一点\\(D\\)，使得\\(\\vartriangle ABD\\)是以点\\(D\\)为直角顶点的等腰直角三角形，过点\\(D\\)作\\(x\\)轴的平行线\\(l\\)，交\\(y\\)轴于点\\(E\\)，过点\\(A\\)作\\(AF\\bot l\\)于点\\(F,BD\\)交\\(x\\)轴于点\\(G\\)，",
+        "〔图2〕",
+        "\\(\\therefore \\angle BED=\\angle DFA=\\angle ADB=90{}^\\circ ,AD=BD\\)，",
+        "\\(\\therefore \\angle EBD+\\angle BDE=90{}^\\circ ,\\angle FDA+\\angle BDE=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle EBD=\\angle FDA\\)，",
+        "在\\(\\vartriangle BED\\)和\\(\\vartriangle DFA\\)中，",
+        "\\(\\begin{cases} \\angle BED=\\angle DFA \\\\ \\angle EBD=\\angle ADF, \\\\ AD=BD \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle BED≌\\vartriangle DFA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore BE=DF,DE=FA\\)，",
+        "\\(\\because \\angle OBA+\\angle OAB=90{}^\\circ ,\\angle ABD=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle OBG+\\angle BAO=45{}^\\circ\\)，",
+        "\\(\\because \\angle PBO+\\angle BAO=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle PBO=\\angle OBG\\)，",
+        "又\\(\\because \\angle BOP=\\angle BOG=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle PBO≌\\vartriangle GBO\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore PO=GO\\)，",
+        "\\(\\because A\\left ( { 6,0 } \\right ),B\\left ( { 0,3 } \\right )\\)，",
+        "\\(\\therefore OA=6,OB=3\\)，",
+        "\\(\\because \\angle OEF=\\angle F=\\angle AOE=90{}^\\circ\\)，",
+        "\\(\\therefore\\)四边形\\(AOEF\\)是矩形，",
+        "\\(\\therefore EF=OA=6,OE=AF\\)，",
+        "设\\(AF=DE=a\\)，则\\(BE=OB+OE=3+a,DF=EF-ED=6-a\\)，",
+        "\\(\\because BE=DF\\)，",
+        "\\(\\therefore \\frac { 3 } { 2 }+a=2-a\\)，",
+        "解得\\(a=\\frac { 1 } { 4 }\\)，",
+        "\\(\\therefore D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，",
+        "设直线\\(BD\\)的解析式为\\(y=px+q\\)，",
+        "将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),D\\left ( { -\\frac { 1 } { 4 },-\\frac { 1 } { 4 } } \\right )\\)，",
+        "代入得：\\(\\begin{cases} 0+q=\\frac { 3 } { 2 } \\\\ -\\frac { 1 } { 4 }p+q=-\\frac { 1 } { 4 }, \\end{cases}\\)",
+        "解得：\\(\\begin{cases} p=-\\frac { 3 } { 2 } \\\\ q=7 \\end{cases}\\)",
+        "\\(\\therefore\\)直线\\(BD\\)的解析式为\\(y=7x+\\frac { 3 } { 2 }\\)，",
+        "在\\(y=7x+\\frac { 3 } { 2 }\\)中，令\\(y=0\\)，则\\(7x+\\frac { 3 } { 2 }=0\\)，",
+        "解得：\\(x=-\\frac { 3 } { 14 }\\)，",
+        "\\(\\therefore G\\left ( { -\\frac { 3 } { 14 }.0 } \\right )\\)，",
+        "\\(\\therefore P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)，",
+        "将\\(B\\left ( { 0,\\frac { 3 } { 2 } } \\right ),P\\left ( { \\frac { 3 } { 14 },0 } \\right )\\)代入\\(y=k_{ 1 } x+b\\)中，",
+        "得：\\(\\begin{cases} 0+b=\\frac { 3 } { 2 } \\\\ \\frac { 3 } { 14 }k_{ 1 } +b=0 \\end{cases}\\)，",
+        "解得：\\(k_{ 1 } =-7\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85,
+          86
+        ],
+        "solution_block_ids": [
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      82,
+      86
+    ],
+    "solution_body_blocks": [
+      360,
+      435
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-AC5080C606/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          155.91,
+          583.64,
+          408.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-AC5080C606/solution-q20-p19.webp",
+      "assets/SZ-G8-T1-AC5080C606/solution-q20-p20.webp",
+      "assets/SZ-G8-T1-AC5080C606/solution-q20-p21.webp",
+      "assets/SZ-G8-T1-AC5080C606/solution-q20-p22.webp",
+      "assets/SZ-G8-T1-AC5080C606/solution-q20-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          272.73,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          739.09
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

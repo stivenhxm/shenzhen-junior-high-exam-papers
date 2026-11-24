@@ -1,0 +1,218 @@
+{
+  "id": "SZ-G8-T1-7A37B188ED-Q17",
+  "paper_id": "SZ-G8-T1-7A37B188ED",
+  "number": 17,
+  "type": "解答题",
+  "points": 8.0,
+  "title": "识别结构并使用乘法公式、代入或整体替换求代数式的值",
+  "stem": "（8分）若实数x，y满足\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．\n(1)求x，y之间的数量关系；\n(2)求\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019\\)的值．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）若实数x，y满足\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．",
+      "paper_blocks": [
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-7A37B188ED-Q17-P01",
+      "label": "(1)",
+      "prompt": "求x，y之间的数量关系；",
+      "stem_text": "求x，y之间的数量关系；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(x=y\\)",
+      "given_solution": "解：\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．\n∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016 } { y-\\sqrt[] { y ^ { 2 } -2016 } }\\)．（1分）\n∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) } { \\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) }=y+\\sqrt[] { y ^ { 2 } +2016 }\\)①（3分）\n同理得：\\(x+\\sqrt[] { x ^ { 2 } -2016 }=y-\\sqrt[] { y ^ { 2 } -2016 }\\)②\n①＋②得：\\(2x=2y\\)，（4分）\n∴\\(x=y\\)．（5分）",
+      "solution_steps": [
+        "解：\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．",
+        "∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016 } { y-\\sqrt[] { y ^ { 2 } -2016 } }\\)．（1分）",
+        "∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) } { \\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) }=y+\\sqrt[] { y ^ { 2 } +2016 }\\)①（3分）",
+        "同理得：\\(x+\\sqrt[] { x ^ { 2 } -2016 }=y-\\sqrt[] { y ^ { 2 } -2016 }\\)②",
+        "①＋②得：\\(2x=2y\\)，（4分）",
+        "∴\\(x=y\\)．（5分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          173,
+          174,
+          175,
+          176,
+          177,
+          178
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          8,
+          9
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.06",
+        "M.N05.02"
+      ],
+      "exam_ids": [
+        "E.N03.06.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "本题要求分母有理化，已有细目关注化为最简根式及开方的符号条件。",
+      "tag_reason": "依据本问题干、解答或原图核定，涉及识别结构并使用乘法公式、二次根式性质与化简。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T1-7A37B188ED-Q17-P02",
+      "label": "(2)",
+      "prompt": "求\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019\\)的值．",
+      "stem_text": "求\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(=x ^ { 2 } -2019=2016-2019=-3\\)",
+      "given_solution": "解：把\\(x=y\\)代入①，得\\(x-\\sqrt[] { x ^ { 2 } -2016 }=x+\\sqrt[] { x ^ { 2 } -2016 }\\)，\n∴\\(x ^ { 2 } =2016\\)．（6分）\n则\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019=3x ^ { 2 } -2x ^ { 2 } +5x-5x-2019\\)\n\\(=x ^ { 2 } -2019=2016-2019=-3\\)．（8分）",
+      "solution_steps": [
+        "解：把\\(x=y\\)代入①，得\\(x-\\sqrt[] { x ^ { 2 } -2016 }=x+\\sqrt[] { x ^ { 2 } -2016 }\\)，",
+        "∴\\(x ^ { 2 } =2016\\)．（6分）",
+        "则\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019=3x ^ { 2 } -2x ^ { 2 } +5x-5x-2019\\)",
+        "\\(=x ^ { 2 } -2019=2016-2019=-3\\)．（8分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          179,
+          180,
+          181,
+          182
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "依据本问题干、解答或原图核定，涉及代入或整体替换求代数式的值。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）∴\\(x=y\\)\n（2）\\(=x ^ { 2 } -2019=2016-2019=-3\\)",
+  "given_solution": "【详解】（1）解：\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．\n∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016 } { y-\\sqrt[] { y ^ { 2 } -2016 } }\\)．（1分）\n∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) } { \\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) }=y+\\sqrt[] { y ^ { 2 } +2016 }\\)①（3分）\n同理得：\\(x+\\sqrt[] { x ^ { 2 } -2016 }=y-\\sqrt[] { y ^ { 2 } -2016 }\\)②\n①＋②得：\\(2x=2y\\)，（4分）\n∴\\(x=y\\)．（5分）\n（2）解：把\\(x=y\\)代入①，得\\(x-\\sqrt[] { x ^ { 2 } -2016 }=x+\\sqrt[] { x ^ { 2 } -2016 }\\)，\n∴\\(x ^ { 2 } =2016\\)．（6分）\n则\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019=3x ^ { 2 } -2x ^ { 2 } +5x-5x-2019\\)\n\\(=x ^ { 2 } -2019=2016-2019=-3\\)．（8分）",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "（1）解：\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．",
+    "∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016 } { y-\\sqrt[] { y ^ { 2 } -2016 } }\\)．（1分）",
+    "∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) } { \\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) }=y+\\sqrt[] { y ^ { 2 } +2016 }\\)①（3分）",
+    "同理得：\\(x+\\sqrt[] { x ^ { 2 } -2016 }=y-\\sqrt[] { y ^ { 2 } -2016 }\\)②",
+    "①＋②得：\\(2x=2y\\)，（4分）",
+    "∴\\(x=y\\)．（5分）",
+    "（2）解：把\\(x=y\\)代入①，得\\(x-\\sqrt[] { x ^ { 2 } -2016 }=x+\\sqrt[] { x ^ { 2 } -2016 }\\)，",
+    "∴\\(x ^ { 2 } =2016\\)．（6分）",
+    "则\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019=3x ^ { 2 } -2x ^ { 2 } +5x-5x-2019\\)",
+    "\\(=x ^ { 2 } -2019=2016-2019=-3\\)．（8分）"
+  ],
+  "solution": "（1）解：\\(\\left ( { x-\\sqrt[] { x ^ { 2 } -2016 } } \\right )\\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )=2016\\)．\n∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016 } { y-\\sqrt[] { y ^ { 2 } -2016 } }\\)．（1分）\n∴\\(x-\\sqrt[] { x ^ { 2 } -2016 }=\\frac { 2016\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) } { \\left ( { y-\\sqrt[] { y ^ { 2 } -2016 } } \\right )\\left ( { y+\\sqrt[] { y ^ { 2 } -2016 } } \\right ) }=y+\\sqrt[] { y ^ { 2 } +2016 }\\)①（3分）\n同理得：\\(x+\\sqrt[] { x ^ { 2 } -2016 }=y-\\sqrt[] { y ^ { 2 } -2016 }\\)②\n①＋②得：\\(2x=2y\\)，（4分）\n∴\\(x=y\\)．（5分）\n（2）解：把\\(x=y\\)代入①，得\\(x-\\sqrt[] { x ^ { 2 } -2016 }=x+\\sqrt[] { x ^ { 2 } -2016 }\\)，\n∴\\(x ^ { 2 } =2016\\)．（6分）\n则\\(3x ^ { 2 } -2y ^ { 2 } +5x-5y-2019=3x ^ { 2 } -2x ^ { 2 } +5x-5x-2019\\)\n\\(=x ^ { 2 } -2019=2016-2019=-3\\)．（8分）",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "paper_body_blocks": [
+      69,
+      74
+    ],
+    "solution_body_blocks": [
+      173,
+      182
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-7A37B188ED/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          417.27,
+          583.64,
+          488.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-7A37B188ED/solution-q17-p08.webp",
+      "assets/SZ-G8-T1-7A37B188ED/solution-q17-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          651.36,
+          583.64,
+          719.09
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          71.36,
+          583.64,
+          292.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N03.06",
+    "M.N05.02",
+    "M.N03.01"
+  ],
+  "exam_ids": [
+    "E.N03.06.01",
+    "E.N03.01.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "本题要求分母有理化，已有细目关注化为最简根式及开方的符号条件。",
+  "tag_reason": "依据本问题干、解答或原图核定，涉及识别结构并使用乘法公式、二次根式性质与化简。 依据本问题干、解答或原图核定，涉及代入或整体替换求代数式的值。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

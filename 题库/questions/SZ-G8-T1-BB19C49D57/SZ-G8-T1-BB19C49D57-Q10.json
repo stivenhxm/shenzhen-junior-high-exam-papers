@@ -1,0 +1,157 @@
+{
+  "id": "SZ-G8-T1-BB19C49D57-Q10",
+  "paper_id": "SZ-G8-T1-BB19C49D57",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "比较一次函数上的点或函数值",
+  "stem": "如图，在平面直角坐标系中，直线\\(y=x+2\\)与\\(x\\)轴交于点\\(A\\)，与\\(y\\)轴交于点\\(B\\)，点\\(P\\)是线段\\(AB\\)的中点，点\\(C\\)是\\(x\\)轴上的一个动点，连接\\(BC\\)，以\\(BC\\)为直角边，点\\(B\\)为直角顶点作等腰直角\\(\\vartriangle BCD\\)，连接\\(DP\\)．则\\(DP\\)长度的最小值是（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1"
+    },
+    {
+      "label": "B",
+      "text": "2"
+    },
+    {
+      "label": "C",
+      "text": "\\(2\\sqrt[] { 2 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "3"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/9e84aa9624dac63a5c720681be9b613e61ef420824c2f5acd349781e6f2290a2.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "【分析】作\\(BM\\bot y\\)轴且\\(BM=OB\\)，连接\\(DM\\)，延长\\(MD\\)交\\(x\\)轴于\\(N\\)，求出\\(A\\)点坐标为\\(\\left ( { -2，0 } \\right )\\)，\\(B\\)点坐标为\\(\\left ( { 0，2 } \\right )\\)，得出\\(OA=OB=BM=2\\)，得出点\\(M\\left ( { 2，2 } \\right )\\)，设点\\(C\\left ( { c，0 } \\right )\\)，则\\(OC=-c\\)，证明\\(\\vartriangle BOC≌\\vartriangle BMD\\)得出\\(\\angle BOC=\\angle BMD=90{}^\\circ\\)，\\(MD=OC=-c\\)，得出\\(M\\)，\\(D\\)，\\(N\\)三点共线，从而得到\\(D\\left ( { 2，2+c } \\right )\\)，得出\\(P\\left ( { -1，1 } \\right )\\)，再由勾股定理表示出\\(PD=\\sqrt[] { \\left[ 2-\\left ( { -1 } \\right ) \\right] ^ { 2 } +\\left ( { 2+c-1 } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { c+1 } \\right ) ^ { 2 } +9 }\\)，即可得出答案．\n【详解】解：如图，作\\(BM\\bot y\\)轴且\\(BM=OB\\)，连接\\(DM\\)，作\\(MD\\bot x\\)轴于\\(N\\)，\n〔图2〕，\n\\(\\because\\)直线\\(y=x+2\\)与\\(x\\)轴交于点\\(A\\)，与\\(y\\)轴交于点\\(B\\)，\n\\(\\therefore\\)令\\(y=0\\)，则\\(x+2=0\\)，解得\\(x=-2\\)，令\\(x=0\\)，\\(y=2\\)，\n\\(\\therefore A\\)点坐标为\\(\\left ( { -2，0 } \\right )\\)，\\(B\\)点坐标为\\(\\left ( { 0，2 } \\right )\\)，\n\\(\\therefore OA=OB=BM=2\\)，\n\\(\\because BM\\bot y\\)轴，\n\\(\\therefore \\angle OBM=90{}^\\circ\\)，\\(BM\\)，\n\\(\\therefore M\\)点坐标为\\(\\left ( { 2，2 } \\right )\\)，\n设点\\(C\\left ( { c，0 } \\right )\\)，则\\(OC=-c\\)，\n\\(\\because \\vartriangle BCD\\)是等腰直角三角形，\n\\(\\therefore BC=BD\\)，\\(\\angle CBD=90{}^\\circ\\)，\n\\(\\therefore \\angle CDB-\\angle OBD=\\angle OBM-\\angle OBD\\)，\n\\(\\therefore \\angle CBO=\\angle DBM\\)，\n在\\(\\vartriangle BOC\\)和\\(\\vartriangle BMD\\)中，\n\\(\\begin{cases} BC=BD \\\\ \\angle CBO=\\angle DBM \\\\ OB=MB \\end{cases}\\)，\n\\(\\therefore \\vartriangle BOC≌\\vartriangle BMD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle BOC=\\angle BMD=90{}^\\circ\\)，\\(MD=OC=-c\\)，\n\\(\\therefore BM\\bot DM\\)，\n\\(\\therefore DM\\parallel OB\\)，\n\\(\\therefore M\\)，\\(D\\)，\\(N\\)三点横坐标相同，都为\\(2\\)，\n\\(\\therefore M\\)，\\(D\\)，\\(N\\)三点共线，\n\\(\\therefore DN=2-\\left ( { -c } \\right )=2+c\\)，\n\\(\\therefore D\\left ( { 2，2+c } \\right )\\)，\n\\(\\because\\)点\\(P\\)是线段\\(AB\\)的中点，\n\\(\\therefore P\\left ( { -1，1 } \\right )\\)，\n\\(\\therefore PD=\\sqrt[] { \\left[ 2-\\left ( { -1 } \\right ) \\right] ^ { 2 } +\\left ( { 2+c-1 } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { c+1 } \\right ) ^ { 2 } +9 }\\)，\n\\(\\because \\left ( { c+1 } \\right ) ^ { 2 } \\ge 0\\)，\n\\(\\therefore\\)当\\(\\left ( { c+1 } \\right ) ^ { 2 } =0\\)即\\(c=-1\\)时，\\(PD\\)最小，为\\(\\sqrt[] { 9 }=3\\)，\n\\(\\therefore PD\\)的最小值为\\(3\\)，\n故选：D．\n【点睛】本题主要考查了一次函数图象上点的坐标特征，全等三角形的判定与性质，等腰直角三角形的判定与性质，勾股定理等知识点，综合程度较高，熟练掌握以上知识点并灵活运用，添加适当的辅助线是解此题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-BB19C49D57/figures/9e84aa9624dac63a5c720681be9b613e61ef420824c2f5acd349781e6f2290a2.png",
+    "assets/SZ-G8-T1-BB19C49D57/figures/c47f499b8c538b2a592833880228f50e2ad8da8e8e1a8e86ea0db21e9763132b.png"
+  ],
+  "solution": "解：如图，作\\(BM\\bot y\\)轴且\\(BM=OB\\)，连接\\(DM\\)，作\\(MD\\bot x\\)轴于\\(N\\)，\n〔图2〕，\n\\(\\because\\)直线\\(y=x+2\\)与\\(x\\)轴交于点\\(A\\)，与\\(y\\)轴交于点\\(B\\)，\n\\(\\therefore\\)令\\(y=0\\)，则\\(x+2=0\\)，解得\\(x=-2\\)，令\\(x=0\\)，\\(y=2\\)，\n\\(\\therefore A\\)点坐标为\\(\\left ( { -2，0 } \\right )\\)，\\(B\\)点坐标为\\(\\left ( { 0，2 } \\right )\\)，\n\\(\\therefore OA=OB=BM=2\\)，\n\\(\\because BM\\bot y\\)轴，\n\\(\\therefore \\angle OBM=90{}^\\circ\\)，\\(BM\\)，\n\\(\\therefore M\\)点坐标为\\(\\left ( { 2，2 } \\right )\\)，\n设点\\(C\\left ( { c，0 } \\right )\\)，则\\(OC=-c\\)，\n\\(\\because \\vartriangle BCD\\)是等腰直角三角形，\n\\(\\therefore BC=BD\\)，\\(\\angle CBD=90{}^\\circ\\)，\n\\(\\therefore \\angle CDB-\\angle OBD=\\angle OBM-\\angle OBD\\)，\n\\(\\therefore \\angle CBO=\\angle DBM\\)，\n在\\(\\vartriangle BOC\\)和\\(\\vartriangle BMD\\)中，\n\\(\\begin{cases} BC=BD \\\\ \\angle CBO=\\angle DBM \\\\ OB=MB \\end{cases}\\)，\n\\(\\therefore \\vartriangle BOC≌\\vartriangle BMD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle BOC=\\angle BMD=90{}^\\circ\\)，\\(MD=OC=-c\\)，\n\\(\\therefore BM\\bot DM\\)，\n\\(\\therefore DM\\parallel OB\\)，\n\\(\\therefore M\\)，\\(D\\)，\\(N\\)三点横坐标相同，都为\\(2\\)，\n\\(\\therefore M\\)，\\(D\\)，\\(N\\)三点共线，\n\\(\\therefore DN=2-\\left ( { -c } \\right )=2+c\\)，\n\\(\\therefore D\\left ( { 2，2+c } \\right )\\)，\n\\(\\because\\)点\\(P\\)是线段\\(AB\\)的中点，\n\\(\\therefore P\\left ( { -1，1 } \\right )\\)，\n\\(\\therefore PD=\\sqrt[] { \\left[ 2-\\left ( { -1 } \\right ) \\right] ^ { 2 } +\\left ( { 2+c-1 } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { c+1 } \\right ) ^ { 2 } +9 }\\)，\n\\(\\because \\left ( { c+1 } \\right ) ^ { 2 } \\ge 0\\)，\n\\(\\therefore\\)当\\(\\left ( { c+1 } \\right ) ^ { 2 } =0\\)即\\(c=-1\\)时，\\(PD\\)最小，为\\(\\sqrt[] { 9 }=3\\)，\n\\(\\therefore PD\\)的最小值为\\(3\\)，\n故选：D．",
+  "solution_steps": [
+    "解：如图，作\\(BM\\bot y\\)轴且\\(BM=OB\\)，连接\\(DM\\)，作\\(MD\\bot x\\)轴于\\(N\\)，",
+    "〔图2〕，",
+    "\\(\\because\\)直线\\(y=x+2\\)与\\(x\\)轴交于点\\(A\\)，与\\(y\\)轴交于点\\(B\\)，",
+    "\\(\\therefore\\)令\\(y=0\\)，则\\(x+2=0\\)，解得\\(x=-2\\)，令\\(x=0\\)，\\(y=2\\)，",
+    "\\(\\therefore A\\)点坐标为\\(\\left ( { -2，0 } \\right )\\)，\\(B\\)点坐标为\\(\\left ( { 0，2 } \\right )\\)，",
+    "\\(\\therefore OA=OB=BM=2\\)，",
+    "\\(\\because BM\\bot y\\)轴，",
+    "\\(\\therefore \\angle OBM=90{}^\\circ\\)，\\(BM\\)，",
+    "\\(\\therefore M\\)点坐标为\\(\\left ( { 2，2 } \\right )\\)，",
+    "设点\\(C\\left ( { c，0 } \\right )\\)，则\\(OC=-c\\)，",
+    "\\(\\because \\vartriangle BCD\\)是等腰直角三角形，",
+    "\\(\\therefore BC=BD\\)，\\(\\angle CBD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CDB-\\angle OBD=\\angle OBM-\\angle OBD\\)，",
+    "\\(\\therefore \\angle CBO=\\angle DBM\\)，",
+    "在\\(\\vartriangle BOC\\)和\\(\\vartriangle BMD\\)中，",
+    "\\(\\begin{cases} BC=BD \\\\ \\angle CBO=\\angle DBM \\\\ OB=MB \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BOC≌\\vartriangle BMD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore \\angle BOC=\\angle BMD=90{}^\\circ\\)，\\(MD=OC=-c\\)，",
+    "\\(\\therefore BM\\bot DM\\)，",
+    "\\(\\therefore DM\\parallel OB\\)，",
+    "\\(\\therefore M\\)，\\(D\\)，\\(N\\)三点横坐标相同，都为\\(2\\)，",
+    "\\(\\therefore M\\)，\\(D\\)，\\(N\\)三点共线，",
+    "\\(\\therefore DN=2-\\left ( { -c } \\right )=2+c\\)，",
+    "\\(\\therefore D\\left ( { 2，2+c } \\right )\\)，",
+    "\\(\\because\\)点\\(P\\)是线段\\(AB\\)的中点，",
+    "\\(\\therefore P\\left ( { -1，1 } \\right )\\)，",
+    "\\(\\therefore PD=\\sqrt[] { \\left[ 2-\\left ( { -1 } \\right ) \\right] ^ { 2 } +\\left ( { 2+c-1 } \\right ) ^ { 2 } }=\\sqrt[] { \\left ( { c+1 } \\right ) ^ { 2 } +9 }\\)，",
+    "\\(\\because \\left ( { c+1 } \\right ) ^ { 2 } \\ge 0\\)，",
+    "\\(\\therefore\\)当\\(\\left ( { c+1 } \\right ) ^ { 2 } =0\\)即\\(c=-1\\)时，\\(PD\\)最小，为\\(\\sqrt[] { 9 }=3\\)，",
+    "\\(\\therefore PD\\)的最小值为\\(3\\)，",
+    "故选：D．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      32,
+      34
+    ],
+    "solution_body_blocks": [
+      98,
+      135
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-BB19C49D57/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          568.64,
+          583.64,
+          756.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-BB19C49D57/solution-q10-p05.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q10-p06.webp",
+      "assets/SZ-G8-T1-BB19C49D57/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          518.64,
+          583.64,
+          724.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          741.82
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          337.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.01"
+  ],
+  "exam_ids": [
+    "E.N11.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“比较一次函数上的点或函数值”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

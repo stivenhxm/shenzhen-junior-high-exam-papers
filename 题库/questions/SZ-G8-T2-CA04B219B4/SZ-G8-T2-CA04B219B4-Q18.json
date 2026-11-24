@@ -1,0 +1,192 @@
+{
+  "knowledge_ids": [
+    "M.N06.04",
+    "M.N09.03"
+  ],
+  "exam_ids": [
+    "E.N06.04.01",
+    "E.N09.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。 本问的要求和解答步骤对应“把至少至多等条件转为不等式”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-CA04B219B4-Q18",
+  "number": 18,
+  "paper_id": "SZ-G8-T2-CA04B219B4",
+  "title": "由总量与部分量关系建立一次模型、把至少至多等条件转为不等式",
+  "stem": "2025年第九届亚洲冬季运动会将于2025年2月7日在哈尔滨举行，\n吉祥物“滨滨”和“妮妮”冰箱贴在市场热销，某商场现购进“滨滨”和“妮妮”冰箱贴一共1000个，\n其中一个“滨滨”进价12元，一个“妮妮”进价15元，总共花费13800元。\n〔图1〕\n求购进“滨滨”和“妮妮”各多少个？\n在销售过程中“滨滨”、“妮妮”标价分别为20元/个、25元/个，当“滨滨”、“妮妮”各卖出m个后，\n该商店进行促销，剩余的“滨滨”按标价七折出售，剩余的“妮妮”按八折出售，\n若购进的吉祥物冰箱贴全部销售后利润不少于6000元，求m的最小值？",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "2025年第九届亚洲冬季运动会将于2025年2月7日在哈尔滨举行，\n吉祥物“滨滨”和“妮妮”冰箱贴在市场热销，某商场现购进“滨滨”和“妮妮”冰箱贴一共1000个，\n其中一个“滨滨”进价12元，一个“妮妮”进价15元，总共花费13800元。\n〔图1〕"
+    },
+    {
+      "id": "prior-1",
+      "kind": "text",
+      "text": "前问（1）：求购进“滨滨”和“妮妮”各多少个？\n已得：购进“滨滨”400个，“妮妮”600个"
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-CA04B219B4-Q18-P01",
+      "label": "（1）",
+      "prompt": "求购进“滨滨”和“妮妮”各多少个？",
+      "stem_text": "求购进“滨滨”和“妮妮”各多少个？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "answer": "购进“滨滨”400个，“妮妮”600个",
+      "given_answer": "购进“滨滨”400个，“妮妮”600个",
+      "given_solution": "（1）解：设购进“滨滨”x个，则购进“妮妮”\\(\\left ( { 1000-x } \\right )\\)个．\n\\(12x+15\\left ( { 1000-x } \\right )=13800\\)，\n解得\\(x=400\\)，\n∴\\(1000-400=600\\)．\n答：购进“滨滨”400个，“妮妮”600个．",
+      "solution_steps": [
+        "（1）解：设购进“滨滨”x个，则购进“妮妮”\\(\\left ( { 1000-x } \\right )\\)个．",
+        "\\(12x+15\\left ( { 1000-x } \\right )=13800\\)，",
+        "解得\\(x=400\\)，",
+        "∴\\(1000-400=600\\)．",
+        "答：购进“滨滨”400个，“妮妮”600个．"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_transcribed",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-CA04B219B4-Q18-P02",
+      "label": "（2）",
+      "prompt": "在销售过程中“滨滨”、“妮妮”标价分别为20元/个、25元/个，当“滨滨”、“妮妮”各卖出m个后，\n该商店进行促销，剩余的“滨滨”按标价七折出售，剩余的“妮妮”按八折出售，\n若购进的吉祥物冰箱贴全部销售后利润不少于6000元，求m的最小值？",
+      "stem_text": "在销售过程中“滨滨”、“妮妮”标价分别为20元/个、25元/个，当“滨滨”、“妮妮”各卖出m个后，\n该商店进行促销，剩余的“滨滨”按标价七折出售，剩余的“妮妮”按八折出售，\n若购进的吉祥物冰箱贴全部销售后利润不少于6000元，求m的最小值？",
+      "material_ids": [
+        "context",
+        "prior-1"
+      ],
+      "requires": [
+        "SZ-G8-T2-CA04B219B4-Q18-P01"
+      ],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "answer": "m的最小值为200",
+      "given_answer": "m的最小值为200",
+      "given_solution": "（2）解：由题意得\\(\\left ( { 20-12 } \\right )m+\\left ( { 25-15 } \\right )m+\\left ( { 20\\times 70{ \\rm{ \\% } }-12 } \\right )\\left ( { 400-m } \\right )+\\left ( { 25\\times 80{ \\rm{ \\% } }-15 } \\right )\\left ( { 600-m } \\right )\\ge 6000\\)，\n解得\\(m\\ge 200\\)，\n答：m的最小值为200．",
+      "solution_steps": [
+        "（2）解：由题意得\\(\\left ( { 20-12 } \\right )m+\\left ( { 25-15 } \\right )m+\\left ( { 20\\times 70{ \\rm{ \\% } }-12 } \\right )\\left ( { 400-m } \\right )+\\left ( { 25\\times 80{ \\rm{ \\% } }-15 } \\right )\\left ( { 600-m } \\right )\\ge 6000\\)，",
+        "解得\\(m\\ge 200\\)，",
+        "答：m的最小值为200．"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_transcribed",
+      "knowledge_ids": [
+        "M.N09.03"
+      ],
+      "exam_ids": [
+        "E.N09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“把至少至多等条件转为不等式”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/7e/7e168640a9b8bd7411c9cac8e128891df914ba1f2f3a58c4f8641292a4bdea3f.png"
+  ],
+  "tables": [],
+  "answer": "（1） 购进“滨滨”400个，“妮妮”600个\n（2） m的最小值为200",
+  "given_answer": "(1)购进“滨滨”400个，“妮妮”600个\n(2)m的最小值为200",
+  "given_solution": "【分析】本题考查一元一次方程、一元一次不等式的实际应用：\n（1）设购进“滨滨”x个，则购进“妮妮”\\(\\left ( { 1000-x } \\right )\\)个，根据题意列一元一次方程，解方程即可；\n（2）根据促销规则列不等式，求出不等式的最小整数解即可．\n【详解】（1）解：设购进“滨滨”x个，则购进“妮妮”\\(\\left ( { 1000-x } \\right )\\)个．\n\\(12x+15\\left ( { 1000-x } \\right )=13800\\)，\n解得\\(x=400\\)，\n∴\\(1000-400=600\\)．\n答：购进“滨滨”400个，“妮妮”600个．\n（2）解：由题意得\\(\\left ( { 20-12 } \\right )m+\\left ( { 25-15 } \\right )m+\\left ( { 20\\times 70{ \\rm{ \\% } }-12 } \\right )\\left ( { 400-m } \\right )+\\left ( { 25\\times 80{ \\rm{ \\% } }-15 } \\right )\\left ( { 600-m } \\right )\\ge 6000\\)，\n解得\\(m\\ge 200\\)，\n答：m的最小值为200．",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "（1） （1）解：设购进“滨滨”x个，则购进“妮妮”\\(\\left ( { 1000-x } \\right )\\)个．",
+    "\\(12x+15\\left ( { 1000-x } \\right )=13800\\)，",
+    "解得\\(x=400\\)，",
+    "∴\\(1000-400=600\\)．",
+    "答：购进“滨滨”400个，“妮妮”600个．",
+    "（2） （2）解：由题意得\\(\\left ( { 20-12 } \\right )m+\\left ( { 25-15 } \\right )m+\\left ( { 20\\times 70{ \\rm{ \\% } }-12 } \\right )\\left ( { 400-m } \\right )+\\left ( { 25\\times 80{ \\rm{ \\% } }-15 } \\right )\\left ( { 600-m } \\right )\\ge 6000\\)，",
+    "解得\\(m\\ge 200\\)，",
+    "答：m的最小值为200．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1） （1）解：设购进“滨滨”x个，则购进“妮妮”\\(\\left ( { 1000-x } \\right )\\)个．\n\\(12x+15\\left ( { 1000-x } \\right )=13800\\)，\n解得\\(x=400\\)，\n∴\\(1000-400=600\\)．\n答：购进“滨滨”400个，“妮妮”600个．\n（2） （2）解：由题意得\\(\\left ( { 20-12 } \\right )m+\\left ( { 25-15 } \\right )m+\\left ( { 20\\times 70{ \\rm{ \\% } }-12 } \\right )\\left ( { 400-m } \\right )+\\left ( { 25\\times 80{ \\rm{ \\% } }-15 } \\right )\\left ( { 600-m } \\right )\\ge 6000\\)，\n解得\\(m\\ge 200\\)，\n答：m的最小值为200．",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-CA04B219B4/single/q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          131.75,
+          582.2,
+          442.62
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-CA04B219B4/single/s18-p13.webp",
+      "assets/SZ-G8-T2-CA04B219B4/single/s18-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          568.75,
+          582.2,
+          770.49
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          62.26,
+          582.2,
+          177.48
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

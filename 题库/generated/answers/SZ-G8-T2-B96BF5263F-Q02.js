@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q02",{"answer":"C","solution_steps":["在 C 的位置添加圆后，四个圆心依次连成菱形。两条对角线都是图形的对称轴，交点是对称中心。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

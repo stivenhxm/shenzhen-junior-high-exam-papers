@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q11",{"answer":"\\((a-3)(a+3)\\)。","solution_steps":["\\(a^2-9=a^2-3^2\\)。用平方差公式得 \\((a-3)(a+3)\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

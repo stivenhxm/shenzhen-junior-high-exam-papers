@@ -1,0 +1,157 @@
+{
+  "id": "SZ-G8-T2-FE0D7CCA65-Q10",
+  "paper_id": "SZ-G8-T2-FE0D7CCA65",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "判定等边三角形并用于构造",
+  "stem": "如图，\\(▱ABCD\\)的对角线\\(AC、BD\\)交于点O，点E是\\(BC\\)的中点，且\\(\\angle BCD=120{}^\\circ\\)，\\(AB=\\frac { 1 } { 2 }BC\\)，连接\\(OE\\)．给出下列4个结论：\n〔图1〕\n①\\(\\vartriangle ABE\\)是等边三角形；\n②\\(\\angle EAC=30{}^\\circ\\)；\n③\\(OE=\\frac { 1 } { 4 }BC\\)；\n④若\\(AB=3\\)，则\\(S_{ \\vartriangle AEO } =\\frac { 9\\sqrt[] { 3 } } { 4 }\\)．\n上述结论正确的有（    ）",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1个"
+    },
+    {
+      "label": "B",
+      "text": "2个"
+    },
+    {
+      "label": "C",
+      "text": "3个"
+    },
+    {
+      "label": "D",
+      "text": "4个"
+    }
+  ],
+  "figures": [
+    "assets/figures/f2/f24a388ceefc98cfe7e56d44827f38d8ffb8f42ee41bbec42c6a9bbfe73993f4.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】运用平行四边形的性质可得\\(\\angle ABC{ \\rm{ = } }60{}^\\circ ，\\) 再证明\\(AB=BE\\)，从而可得\\(\\Delta ABE\\)是等边三角形，故可判断①正确；由\\(\\Delta ABE\\)是等边三角形可得\\(\\angle AEB=60{}^\\circ\\)，\\(AE=EC\\)，从而可求出\\(\\angle EAC{ \\rm{ = } }30{}^\\circ\\)，故可判断②正确；证明得出\\(O\\)为AC的中点，又E为BC的中点，故OE为\\(\\Delta ABC\\)的中位线，故可得\\(OE=\\frac { 1 } { 2 }AB\\)，由可得出\\(OE=\\frac { 1 } { 4 }BC\\)，故可判断③正确；由①②可判断\\(\\angle BAC{ \\rm{ = } }90{}^\\circ\\)，根据勾股定理求出BC=\\(3\\sqrt[] { 3 }\\)，进一步求出\\(S_{ \\Delta ABC }\\)，由中线的性质可得结论．\n【详解】解：∵四边形ABCD是平行四边形，\n∴AB//CD，AO=CO，\n∴\\(\\angle ABC+\\angle BCD=180{}^\\circ\\)\n∵\\(\\angle BCD=120{}^\\circ\\)\n∴\\(\\angle ABC=60{}^\\circ ,\\)\n∵点E为BC的中点，\n∴\\(BE=CE=\\frac { 1 } { 2 }BC\\)\n又\\(AB=\\frac { 1 } { 2 }BC\\)\n∴\\(AB=BE\\)\n∴\\(\\Delta ABE\\)是等边三角形，故结论①正确；\n∴\\(AE=BE=EC\\)，\\(\\angle AEB=\\angle BAE=60{}^\\circ\\)\n∴\\(\\angle EAC=\\angle ACE\\)\n∵\\(\\angle AEB=\\angle EAC+\\angle AEC\\)\n∴\\(2\\angle EAC=60{}^\\circ\\)\n∴\\(\\angle EAC=30{}^\\circ\\)，故结论②正确；\n∵AO=CO\n∴点O为AC的中点，\n又点E为BC的中点，\n∴OE为\\(\\Delta ABC\\)的中位线，\n∴\\(OE=\\frac { 1 } { 2 }AB\\)\n∵\\(AB=\\frac { 1 } { 2 }BC\\)\n∴\\(OE=\\frac { 1 } { 4 }BC\\)，故结论③正确；\n∵\\(\\angle BAE=60{}^\\circ ,\\angle EAC=30{}^\\circ\\)\n∴\\(\\angle BAC=\\angle BAE+\\angle EAC=90{}^\\circ\\)\n∵\\(AB=\\frac { 1 } { 2 }BC,AB=3\\)\n∴\\(BC=6\\)\n由勾股定理得，\\(AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -3 ^ { 2 } }=3\\sqrt[] { 3 }\\)\n∴\\(S_{ \\Delta ABC } =\\frac { 1 } { 2 }AB\\centerdot AC=\\frac { 1 } { 2 }\\times 3\\times 3\\sqrt[] { 3 }=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)\n∵AE为BC边上的中线，\n∴\\(S_{ \\Delta AEC } =\\frac { 1 } { 2 }S_{ \\Delta ABC } =\\frac { 9\\sqrt[] { 3 } } { 4 }\\),\n∵EO为AC边的中线，\n∴\\(S_{ \\Delta AEO } =\\frac { 1 } { 2 }S_{ \\Delta AEC } =\\frac { 1 } { 2 }\\times \\frac { 9\\sqrt[] { 3 } } { 4 }=\\frac { 9\\sqrt[] { 3 } } { 8 }\\)，故结论④错误；\n所以，正确的结论是①②③，共3个，\n故选：C．\n【点睛】本题考查了平行四边形的性质，等边三角形的判定和性质，直角三角形的性质，中位线定理等知识，熟练掌握性质定理和判定定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/f2/f24a388ceefc98cfe7e56d44827f38d8ffb8f42ee41bbec42c6a9bbfe73993f4.png"
+  ],
+  "solution": "解：∵四边形ABCD是平行四边形，\n∴AB//CD，AO=CO，\n∴\\(\\angle ABC+\\angle BCD=180{}^\\circ\\)\n∵\\(\\angle BCD=120{}^\\circ\\)\n∴\\(\\angle ABC=60{}^\\circ ,\\)\n∵点E为BC的中点，\n∴\\(BE=CE=\\frac { 1 } { 2 }BC\\)\n又\\(AB=\\frac { 1 } { 2 }BC\\)\n∴\\(AB=BE\\)\n∴\\(\\Delta ABE\\)是等边三角形，故结论①正确；\n∴\\(AE=BE=EC\\)，\\(\\angle AEB=\\angle BAE=60{}^\\circ\\)\n∴\\(\\angle EAC=\\angle ACE\\)\n∵\\(\\angle AEB=\\angle EAC+\\angle AEC\\)\n∴\\(2\\angle EAC=60{}^\\circ\\)\n∴\\(\\angle EAC=30{}^\\circ\\)，故结论②正确；\n∵AO=CO\n∴点O为AC的中点，\n又点E为BC的中点，\n∴OE为\\(\\Delta ABC\\)的中位线，\n∴\\(OE=\\frac { 1 } { 2 }AB\\)\n∵\\(AB=\\frac { 1 } { 2 }BC\\)\n∴\\(OE=\\frac { 1 } { 4 }BC\\)，故结论③正确；\n∵\\(\\angle BAE=60{}^\\circ ,\\angle EAC=30{}^\\circ\\)\n∴\\(\\angle BAC=\\angle BAE+\\angle EAC=90{}^\\circ\\)\n∵\\(AB=\\frac { 1 } { 2 }BC,AB=3\\)\n∴\\(BC=6\\)\n由勾股定理得，\\(AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -3 ^ { 2 } }=3\\sqrt[] { 3 }\\)\n∴\\(S_{ \\Delta ABC } =\\frac { 1 } { 2 }AB\\centerdot AC=\\frac { 1 } { 2 }\\times 3\\times 3\\sqrt[] { 3 }=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)\n∵AE为BC边上的中线，\n∴\\(S_{ \\Delta AEC } =\\frac { 1 } { 2 }S_{ \\Delta ABC } =\\frac { 9\\sqrt[] { 3 } } { 4 }\\),\n∵EO为AC边的中线，\n∴\\(S_{ \\Delta AEO } =\\frac { 1 } { 2 }S_{ \\Delta AEC } =\\frac { 1 } { 2 }\\times \\frac { 9\\sqrt[] { 3 } } { 4 }=\\frac { 9\\sqrt[] { 3 } } { 8 }\\)，故结论④错误；\n所以，正确的结论是①②③，共3个，\n故选：C．",
+  "solution_steps": [
+    "解：∵四边形ABCD是平行四边形，",
+    "∴AB//CD，AO=CO，",
+    "∴\\(\\angle ABC+\\angle BCD=180{}^\\circ\\)",
+    "∵\\(\\angle BCD=120{}^\\circ\\)",
+    "∴\\(\\angle ABC=60{}^\\circ ,\\)",
+    "∵点E为BC的中点，",
+    "∴\\(BE=CE=\\frac { 1 } { 2 }BC\\)",
+    "又\\(AB=\\frac { 1 } { 2 }BC\\)",
+    "∴\\(AB=BE\\)",
+    "∴\\(\\Delta ABE\\)是等边三角形，故结论①正确；",
+    "∴\\(AE=BE=EC\\)，\\(\\angle AEB=\\angle BAE=60{}^\\circ\\)",
+    "∴\\(\\angle EAC=\\angle ACE\\)",
+    "∵\\(\\angle AEB=\\angle EAC+\\angle AEC\\)",
+    "∴\\(2\\angle EAC=60{}^\\circ\\)",
+    "∴\\(\\angle EAC=30{}^\\circ\\)，故结论②正确；",
+    "∵AO=CO",
+    "∴点O为AC的中点，",
+    "又点E为BC的中点，",
+    "∴OE为\\(\\Delta ABC\\)的中位线，",
+    "∴\\(OE=\\frac { 1 } { 2 }AB\\)",
+    "∵\\(AB=\\frac { 1 } { 2 }BC\\)",
+    "∴\\(OE=\\frac { 1 } { 4 }BC\\)，故结论③正确；",
+    "∵\\(\\angle BAE=60{}^\\circ ,\\angle EAC=30{}^\\circ\\)",
+    "∴\\(\\angle BAC=\\angle BAE+\\angle EAC=90{}^\\circ\\)",
+    "∵\\(AB=\\frac { 1 } { 2 }BC,AB=3\\)",
+    "∴\\(BC=6\\)",
+    "由勾股定理得，\\(AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -3 ^ { 2 } }=3\\sqrt[] { 3 }\\)",
+    "∴\\(S_{ \\Delta ABC } =\\frac { 1 } { 2 }AB\\centerdot AC=\\frac { 1 } { 2 }\\times 3\\times 3\\sqrt[] { 3 }=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)",
+    "∵AE为BC边上的中线，",
+    "∴\\(S_{ \\Delta AEC } =\\frac { 1 } { 2 }S_{ \\Delta ABC } =\\frac { 9\\sqrt[] { 3 } } { 4 }\\),",
+    "∵EO为AC边的中线，",
+    "∴\\(S_{ \\Delta AEO } =\\frac { 1 } { 2 }S_{ \\Delta AEC } =\\frac { 1 } { 2 }\\times \\frac { 9\\sqrt[] { 3 } } { 4 }=\\frac { 9\\sqrt[] { 3 } } { 8 }\\)，故结论④错误；",
+    "所以，正确的结论是①②③，共3个，",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      34,
+      41
+    ],
+    "solution_body_blocks": [
+      112,
+      157
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-FE0D7CCA65/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          383.64,
+          583.64,
+          696.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-FE0D7CCA65/solution-q10-p05.webp",
+      "assets/SZ-G8-T2-FE0D7CCA65/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-FE0D7CCA65/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          659.09,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          376.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.02"
+  ],
+  "exam_ids": [
+    "E.G04.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“判定等边三角形并用于构造”。",
+  "tag_source": "题文匹配"
+}

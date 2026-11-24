@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q09",{"answer":"B","solution_steps":["一月至三月的产值依次是 \\(50\\)、\\(50(1+x)\\)、\\(50(1+x)^2\\) 亿元。第一季度为三者之和，因此 \\(50+50(1+x)+50(1+x)^2=175\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

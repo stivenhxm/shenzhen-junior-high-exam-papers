@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-76E9DC1794-Q16-P03",{"answer":"和","solution_steps":["和"],"given_answer":"和","given_solution":"和","solution_origin":"source_transcribed","review_note":"","source":{"solution_pages":[11],"solution_images":["assets/SZ-G8-T2-76E9DC1794/solution-q16-p11.webp"],"solution_pdf":"assets/SZ-G8-T2-76E9DC1794/solution.pdf"},"solution_figures":[]});

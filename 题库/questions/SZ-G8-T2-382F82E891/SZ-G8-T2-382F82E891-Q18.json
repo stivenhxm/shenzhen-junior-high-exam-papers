@@ -1,0 +1,261 @@
+{
+  "knowledge_ids": [
+    "M.G01.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-382F82E891-Q18",
+  "number": 18,
+  "paper_id": "SZ-G8-T2-382F82E891",
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "（8分）如图，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，角平分线\\(BD\\)交\\(CE\\)于点M．\n〔图1〕\n(1)求证：\\(CM=CD\\)；\n(2)若\\(AB=10\\)，\\(AC=8\\)．求\\(CM\\)的长度．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）如图，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，角平分线\\(BD\\)交\\(CE\\)于点M．\n〔图1〕",
+      "paper_blocks": [
+        113,
+        114
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-382F82E891-Q18-P01",
+      "label": "(1)",
+      "prompt": "求证：\\(CM=CD\\)；",
+      "stem_text": "求证：\\(CM=CD\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(CD=CM\\)；（3分）",
+      "given_solution": "证明：∵\\(BD\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle ABD=\\angle CBD\\)，（1分）\n∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，\n∴\\(\\angle CEB=\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle BME=\\angle CBD+\\angle CDM=90{}^\\circ\\)，\n∴\\(\\angle BME=\\angle CDM\\)，（2分）\n∵\\(\\angle BME=\\angle CMD\\)，\n∴\\(\\angle CDM=\\angle CMD\\)，\n∴\\(CD=CM\\)；（3分）",
+      "solution_steps": [
+        "证明：∵\\(BD\\)平分\\(\\angle ABC\\)，",
+        "∴\\(\\angle ABD=\\angle CBD\\)，（1分）",
+        "∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，",
+        "∴\\(\\angle CEB=\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle ABD+\\angle BME=\\angle CBD+\\angle CDM=90{}^\\circ\\)，",
+        "∴\\(\\angle BME=\\angle CDM\\)，（2分）",
+        "∵\\(\\angle BME=\\angle CMD\\)，",
+        "∴\\(\\angle CDM=\\angle CMD\\)，",
+        "∴\\(CD=CM\\)；（3分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          113,
+          114,
+          115
+        ],
+        "solution_block_ids": [
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-382F82E891-Q18-P02",
+      "label": "(2)",
+      "prompt": "若\\(AB=10\\)，\\(AC=8\\)．求\\(CM\\)的长度．",
+      "stem_text": "若\\(AB=10\\)，\\(AC=8\\)．求\\(CM\\)的长度．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(CM=3\\)．（8分）",
+      "given_solution": "解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=10\\)，\\(AC=8\\)．\n∴\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=6\\)，（4分）\n如图，过点D作\\(DF\\bot AB\\)于点F，\n〔图1〕\n∵\\(BD\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(CD=FD\\)，（5分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\)中，\n∵\\(BD=BD\\)，\\(CD=FD\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，（6分）\n∴\\(BF=BC=6\\)，\n∴\\(AF=4\\)，（7分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD ^ { 2 } =DF ^ { 2 } +AF ^ { 2 }\\)，\n∴\\(\\left ( { 8-CD } \\right ) ^ { 2 } =CD ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(CD=3\\)，\n∵\\(CD=CM\\)，\n∴\\(CM=3\\)．（8分）",
+      "solution_steps": [
+        "解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=10\\)，\\(AC=8\\)．",
+        "∴\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=6\\)，（4分）",
+        "如图，过点D作\\(DF\\bot AB\\)于点F，",
+        "〔图1〕",
+        "∵\\(BD\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(CD=FD\\)，（5分）",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\)中，",
+        "∵\\(BD=BD\\)，\\(CD=FD\\)，",
+        "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，（6分）",
+        "∴\\(BF=BC=6\\)，",
+        "∴\\(AF=4\\)，（7分）",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD ^ { 2 } =DF ^ { 2 } +AF ^ { 2 }\\)，",
+        "∴\\(\\left ( { 8-CD } \\right ) ^ { 2 } =CD ^ { 2 } +4 ^ { 2 }\\)，",
+        "解得：\\(CD=3\\)，",
+        "∵\\(CD=CM\\)，",
+        "∴\\(CM=3\\)．（8分）"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          113,
+          114,
+          116
+        ],
+        "solution_block_ids": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/1c/1cf951734e38eef452a95904cb63c98688d6bc0a6a42f88c6631514f0633011a.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴\\(CD=CM\\)；（3分）\n（2）∴\\(CM=3\\)．（8分）",
+  "given_answer": "",
+  "given_solution": "【详解】（1）证明：∵\\(BD\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle ABD=\\angle CBD\\)，（1分）\n∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，\n∴\\(\\angle CEB=\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle BME=\\angle CBD+\\angle CDM=90{}^\\circ\\)，\n∴\\(\\angle BME=\\angle CDM\\)，（2分）\n∵\\(\\angle BME=\\angle CMD\\)，\n∴\\(\\angle CDM=\\angle CMD\\)，\n∴\\(CD=CM\\)；（3分）\n（2）解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=10\\)，\\(AC=8\\)．\n∴\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=6\\)，（4分）\n如图，过点D作\\(DF\\bot AB\\)于点F，\n〔图1〕\n∵\\(BD\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(CD=FD\\)，（5分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\)中，\n∵\\(BD=BD\\)，\\(CD=FD\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，（6分）\n∴\\(BF=BC=6\\)，\n∴\\(AF=4\\)，（7分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD ^ { 2 } =DF ^ { 2 } +AF ^ { 2 }\\)，\n∴\\(\\left ( { 8-CD } \\right ) ^ { 2 } =CD ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(CD=3\\)，\n∵\\(CD=CM\\)，\n∴\\(CM=3\\)．（8分）",
+  "given_solution_figures": [
+    "assets/figures/da/dae94d8f5f721da36d2c908cb80b24b03629b0d2d28ce15c04b2954d0c345b36.png"
+  ],
+  "solution_steps": [
+    "（1）证明：∵\\(BD\\)平分\\(\\angle ABC\\)，",
+    "∴\\(\\angle ABD=\\angle CBD\\)，（1分）",
+    "∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，",
+    "∴\\(\\angle CEB=\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle ABD+\\angle BME=\\angle CBD+\\angle CDM=90{}^\\circ\\)，",
+    "∴\\(\\angle BME=\\angle CDM\\)，（2分）",
+    "∵\\(\\angle BME=\\angle CMD\\)，",
+    "∴\\(\\angle CDM=\\angle CMD\\)，",
+    "∴\\(CD=CM\\)；（3分）",
+    "（2）解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=10\\)，\\(AC=8\\)．",
+    "∴\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=6\\)，（4分）",
+    "如图，过点D作\\(DF\\bot AB\\)于点F，",
+    "〔图1〕",
+    "∵\\(BD\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(CD=FD\\)，（5分）",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\)中，",
+    "∵\\(BD=BD\\)，\\(CD=FD\\)，",
+    "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，（6分）",
+    "∴\\(BF=BC=6\\)，",
+    "∴\\(AF=4\\)，（7分）",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD ^ { 2 } =DF ^ { 2 } +AF ^ { 2 }\\)，",
+    "∴\\(\\left ( { 8-CD } \\right ) ^ { 2 } =CD ^ { 2 } +4 ^ { 2 }\\)，",
+    "解得：\\(CD=3\\)，",
+    "∵\\(CD=CM\\)，",
+    "∴\\(CM=3\\)．（8分）"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）证明：∵\\(BD\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle ABD=\\angle CBD\\)，（1分）\n∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\)是斜边\\(AB\\)上的高，\n∴\\(\\angle CEB=\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle BME=\\angle CBD+\\angle CDM=90{}^\\circ\\)，\n∴\\(\\angle BME=\\angle CDM\\)，（2分）\n∵\\(\\angle BME=\\angle CMD\\)，\n∴\\(\\angle CDM=\\angle CMD\\)，\n∴\\(CD=CM\\)；（3分）\n（2）解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=10\\)，\\(AC=8\\)．\n∴\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=6\\)，（4分）\n如图，过点D作\\(DF\\bot AB\\)于点F，\n〔图1〕\n∵\\(BD\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(CD=FD\\)，（5分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\)中，\n∵\\(BD=BD\\)，\\(CD=FD\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCD≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BFD\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，（6分）\n∴\\(BF=BC=6\\)，\n∴\\(AF=4\\)，（7分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD ^ { 2 } =DF ^ { 2 } +AF ^ { 2 }\\)，\n∴\\(\\left ( { 8-CD } \\right ) ^ { 2 } =CD ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(CD=3\\)，\n∵\\(CD=CM\\)，\n∴\\(CM=3\\)．（8分）",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-382F82E891/single/q18-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          403.31,
+          582.2,
+          542.88
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-382F82E891/single/s18-p15.webp",
+      "assets/SZ-G8-T2-382F82E891/single/s18-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          200.75,
+          582.2,
+          752.92
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          77.48,
+          582.2,
+          167.91
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

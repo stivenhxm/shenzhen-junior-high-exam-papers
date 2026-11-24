@@ -1,0 +1,91 @@
+{
+  "knowledge_ids": [
+    "M.G02.04"
+  ],
+  "exam_ids": [
+    "E.G02.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“用分割或补形求面积”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-B96BF5263F-Q08",
+  "number": 8,
+  "paper_id": "SZ-G8-T2-B96BF5263F",
+  "title": "用分割或补形求面积",
+  "stem": "〔图1〕点\\(E\\)、\\(F\\)分别在平行四边形\\(ABCD\\)的边\\(BC\\)、\\(AD\\)上，\\(BE=DF\\)，点\\(P\\)在边\\(AB\\)上，\\(AP\\)：\\(PB=1\\)：\\(n(n>1)\\)，过点\\(P\\)且平行于\\(AD\\)的直线\\(l\\)将\\(△ABE\\)分成面积为\\({S}_{1}\\)、\\({S}_{2}\\)的两部分，将\\(△CDF\\)分成面积为\\({S}_{3}\\)、\\({S}_{4}\\)两部分\\((\\)如图\\()\\)则\\(({S}_{1}+{S}_{4})\\)：\\(({S}_{2}+{S}_{3})\\)的值为(    )",
+  "type": "选择题",
+  "points": null,
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(1\\)：\\((n+1)\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(1\\)：\\((2n+1)\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(1\\)：\\(n\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(n\\)：\\((n+1)\\)"
+    }
+  ],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/56/56ac55315ca922499bb1aeb30b7c50fdbed8baa7e37ba2bdec6af7c481590041.png"
+  ],
+  "tables": [],
+  "answer": "C",
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "设两三角形各自的面积为 \\(S\\)，因为 \\(BE=DF\\) 且高相等。令 \\(u=AP/AB=1/(n+1)\\)。",
+    "平行线截出相似三角形，得 \\(S_1=u^2S,\\ S_3=(1-u)^2S\\)。又 \\(S_2=S-S_1,\\ S_4=S-S_3\\)。",
+    "因此 \\((S_1+S_4):(S_2+S_3)=2uS:2(1-u)S=1:n\\)。"
+  ],
+  "solution_origin": "editorial_answer_and_solution",
+  "solution": "设两三角形各自的面积为 \\(S\\)，因为 \\(BE=DF\\) 且高相等。令 \\(u=AP/AB=1/(n+1)\\)。\n平行线截出相似三角形，得 \\(S_1=u^2S,\\ S_3=(1-u)^2S\\)。又 \\(S_2=S-S_1,\\ S_4=S-S_3\\)。\n因此 \\((S_1+S_4):(S_2+S_3)=2uS:2(1-u)S=1:n\\)。",
+  "review_note": "原卷未附答案，以下解答按卷面条件推导。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      1,
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-B96BF5263F/single/q08-p01.webp",
+      "assets/SZ-G8-T2-B96BF5263F/single/q08-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          13,
+          684.96,
+          582.2,
+          761.49
+        ]
+      },
+      {
+        "page": 2,
+        "bbox_pt": [
+          13,
+          71.83,
+          582.2,
+          108.35
+        ]
+      }
+    ],
+    "solution_images": [],
+    "solution_pages": [],
+    "solution_regions": []
+  },
+  "tag_source": "题文匹配"
+}

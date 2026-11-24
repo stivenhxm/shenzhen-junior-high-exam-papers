@@ -1,0 +1,418 @@
+{
+  "id": "SZ-G8-T1-373D1DB9B4-Q22",
+  "paper_id": "SZ-G8-T1-373D1DB9B4",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将折叠条件转为可计算的几何关系",
+  "stem": "如图，在平面直角坐标系中，直线\\(AB\\)与坐标轴相交于点\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，点\\(C\\)是\\(y\\)轴上一点．\n〔图1〕\n（1）求直线\\(AB\\)的表达式．\n（2）如图1，连接\\(BC\\)，将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，若点\\(E\\)恰好落在直线\\(AB\\)上，求点\\(C\\)的坐标．\n（3）如图2，点\\(F\\left ( { 2,0 } \\right )\\)在\\(x\\)轴的正半轴上，连接\\(CF\\)，将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，连接\\(BG\\)，请问\\(BG\\)有最小值吗？如果有，请求出来；如果没有，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-373D1DB9B4/figures/9181cd2ef5c5871bbc9ffe19b09c7147bfa56238fee930f602c81f1feeab93b2.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=-\\frac { 3 } { 4 }x+6\\)\n（2）\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)\n（3）\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)",
+  "answer": "（1）\\(y=-\\frac { 3 } { 4 }x+6\\)\n（2）\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)\n（3）\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)",
+  "given_solution": "【分析】（1）利用待定系数法求解析式即可；\n（2）根据翻折可得\\(\\vartriangle OBC≌\\vartriangle EBC\\)，得到\\(OC=CE,OB=BE=8\\)，进而得到\\(AC=6-OC,AE=AB-BE=2\\)，最后在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中利用勾股定理列方程求出\\(OC\\)即可；\n（3）由\\(F\\left ( { 2,0 } \\right )\\)可设\\(CF\\)解析式为\\(y=k\\left ( { x-2 } \\right )\\)，过\\(G\\)作\\(GE\\bot CF\\)于\\(E\\)，过\\(E\\)作\\(EN\\bot OB\\)于\\(N\\)，过\\(G\\)作\\(GM\\bot EN\\)于\\(M\\)，由\\(\\angle CFG=45{}^\\circ\\)即可得到等腰直角三角形\\(\\vartriangle EFG\\)，\\(\\vartriangle GME≌\\vartriangle ENF\\)，设\\(E\\left ( { m,km-2m } \\right )\\)，由全等求出点\\(G\\)坐标，最后求出点\\(G\\)的轨迹方程即可求出\\(BG\\)最小值．\n【小问1详解】\n设直线\\(AB\\)的表达式为\\(y=kx+b\\)，\n把\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)代入\\(y=kx+b\\)可得\n\\(\\begin{cases} 6=b \\\\ 0=8k+b \\end{cases}\\)，\n解得\\(\\begin{cases} b=6 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，\n∴直线\\(AB\\)的表达式为\\(y=-\\frac { 3 } { 4 }x+6\\)；\n【小问2详解】\n∵\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，\n∴\\(OA=6\\)，\\(OB=8\\)，\n∴\\(AB=10\\)，\\(AC=OA-OC=6-OC\\)，\n∵将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，\n∴\\(\\vartriangle OBC≌\\vartriangle EBC\\)，\n∴\\(OC=CE,OB=BE=8\\)，\n∴\\(AE=AB-BE=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(CE ^ { 2 } +AE ^ { 2 } =AC ^ { 2 }\\)，\n∴\\(OC ^ { 2 } +2 ^ { 2 } =\\left ( { 6-OC } \\right ) ^ { 2 }\\)，\n解得\\(OC=\\frac { 8 } { 3 }\\),\n∴\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)；\n【小问3详解】\n过\\(G\\)作\\(GE\\bot CF\\)于\\(E\\)，过\\(E\\)作\\(EN\\bot OB\\)于\\(N\\)，过\\(G\\)作\\(GM\\bot EN\\)于\\(M\\)，\n〔图2〕\n∵\\(F\\left ( { 2,0 } \\right )\\)\n∴设\\(CF\\)解析式为\\(y=k\\left ( { x-2 } \\right )\\)，\n∴设\\(E\\left ( { m,km-2k } \\right )\\)，\\(C\\left ( { 0,-2k } \\right )\\)，\\(0 < m < 2\\)，\n∴\\(EN=km-2k,ON=m\\)，\\(NF=OF-ON=2-m\\)\n∵将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，\n∴\\(\\angle CFG=45{}^\\circ\\)，\\(CF=FG\\)，\n∵\\(GE\\bot CF\\)，\n∴\\(\\angle CFG=\\angle FGE=45{}^\\circ\\)，\n∴\\(EG=EF\\)，\n∵\\(EN\\bot OB\\)，\\(GM\\bot EN\\)，\n∴\\(\\angle M=\\angle MNF=90{}^\\circ\\)，\\(\\angle MEG=\\angle NFE=90{}^\\circ -\\angle NEF\\)，\n∴\\(\\vartriangle GME≌\\vartriangle ENF\\)，\n∴\\(NF=ME=2-m\\)，\\(MG=EN=km-2k\\)，\n∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)，\n∵\\(CF=FG\\)，\n∴\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left ( { m+km-2k-2 } \\right ) ^ { 2 } +\\left ( { km-2k+2-m } \\right ) ^ { 2 }\\)，\n\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left[ \\left ( { m-2 } \\right )\\left ( { k+1 } \\right ) \\right] ^ { 2 } +\\left[ \\left ( { m-2 } \\right )\\left ( { k-1 } \\right ) \\right] ^ { 2 }\\)\n整理得：\\(4\\left ( { 1+k ^ { 2 } } \\right )=2\\left ( { 1+k ^ { 2 } } \\right )\\left ( { m-2 } \\right ) ^ { 2 }\\)\n∴\\(\\left ( { m-2 } \\right ) ^ { 2 } =2\\)，解得\\(m=2\\pm \\sqrt[] { 2 }\\)\n∴\\(m=2-\\sqrt[] { 2 }\\)\n∵\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)\n∴令\\(\\begin{cases} x=m+km-2k \\\\ y=km-2k+2-m \\end{cases}\\)，整理得\\(y=x+2-2m\\)\n∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)在直线\\(y=x+2-2m\\)上移动，\n∴直线\\(y=x+2-2m\\)与\\(x\\)轴交点坐标\\(Q\\left ( { 2m-2,0 } \\right )\\)，与\\(y\\)轴交点坐标\\(P\\left ( { 0,2-2m } \\right )\\)，\n∴\\(OP=OQ\\)，\\(BQ=10-2m\\)\n∴\\(\\angle PQO=45{}^\\circ\\)，\n过\\(B\\)作\\(BH\\bot GP\\)于\\(H\\)，则\\(BH\\)即为\\(BG\\)的最小值，\n〔图3〕\n∴\\(\\angle PQO=\\angle HBQ=45{}^\\circ\\)，\n∴\\(BH=HQ=\\frac { \\sqrt[] { 2 } } { 2 }BQ=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-2m } \\right )=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-4+2\\sqrt[] { 2 } } \\right )=3\\sqrt[] { 2 }+2\\)．\n∴\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)．\n【点睛】本题考查一次函数解析式，勾股定理，全等三角形的判定与性质，点的轨迹方程，垂线段最短等知识点．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-373D1DB9B4/figures/9181cd2ef5c5871bbc9ffe19b09c7147bfa56238fee930f602c81f1feeab93b2.png",
+    "assets/SZ-G8-T1-373D1DB9B4/figures/ff3ac505b8e01ea024b8e582653522b571a0892e1bea1e0a2ff0e3cf7862eceb.png",
+    "assets/SZ-G8-T1-373D1DB9B4/figures/0d3e8bb3fad80930a3dbe45cd368b34ac62b4f5e99fb997a3f66a6cdeca8ab08.png"
+  ],
+  "solution": "【小问1详解】\n设直线\\(AB\\)的表达式为\\(y=kx+b\\)，\n把\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)代入\\(y=kx+b\\)可得\n\\(\\begin{cases} 6=b \\\\ 0=8k+b \\end{cases}\\)，\n解得\\(\\begin{cases} b=6 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，\n∴直线\\(AB\\)的表达式为\\(y=-\\frac { 3 } { 4 }x+6\\)；\n【小问2详解】\n∵\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，\n∴\\(OA=6\\)，\\(OB=8\\)，\n∴\\(AB=10\\)，\\(AC=OA-OC=6-OC\\)，\n∵将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，\n∴\\(\\vartriangle OBC≌\\vartriangle EBC\\)，\n∴\\(OC=CE,OB=BE=8\\)，\n∴\\(AE=AB-BE=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(CE ^ { 2 } +AE ^ { 2 } =AC ^ { 2 }\\)，\n∴\\(OC ^ { 2 } +2 ^ { 2 } =\\left ( { 6-OC } \\right ) ^ { 2 }\\)，\n解得\\(OC=\\frac { 8 } { 3 }\\),\n∴\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)；\n【小问3详解】\n过\\(G\\)作\\(GE\\bot CF\\)于\\(E\\)，过\\(E\\)作\\(EN\\bot OB\\)于\\(N\\)，过\\(G\\)作\\(GM\\bot EN\\)于\\(M\\)，\n〔图2〕\n∵\\(F\\left ( { 2,0 } \\right )\\)\n∴设\\(CF\\)解析式为\\(y=k\\left ( { x-2 } \\right )\\)，\n∴设\\(E\\left ( { m,km-2k } \\right )\\)，\\(C\\left ( { 0,-2k } \\right )\\)，\\(0 < m < 2\\)，\n∴\\(EN=km-2k,ON=m\\)，\\(NF=OF-ON=2-m\\)\n∵将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，\n∴\\(\\angle CFG=45{}^\\circ\\)，\\(CF=FG\\)，\n∵\\(GE\\bot CF\\)，\n∴\\(\\angle CFG=\\angle FGE=45{}^\\circ\\)，\n∴\\(EG=EF\\)，\n∵\\(EN\\bot OB\\)，\\(GM\\bot EN\\)，\n∴\\(\\angle M=\\angle MNF=90{}^\\circ\\)，\\(\\angle MEG=\\angle NFE=90{}^\\circ -\\angle NEF\\)，\n∴\\(\\vartriangle GME≌\\vartriangle ENF\\)，\n∴\\(NF=ME=2-m\\)，\\(MG=EN=km-2k\\)，\n∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)，\n∵\\(CF=FG\\)，\n∴\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left ( { m+km-2k-2 } \\right ) ^ { 2 } +\\left ( { km-2k+2-m } \\right ) ^ { 2 }\\)，\n\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left[ \\left ( { m-2 } \\right )\\left ( { k+1 } \\right ) \\right] ^ { 2 } +\\left[ \\left ( { m-2 } \\right )\\left ( { k-1 } \\right ) \\right] ^ { 2 }\\)\n整理得：\\(4\\left ( { 1+k ^ { 2 } } \\right )=2\\left ( { 1+k ^ { 2 } } \\right )\\left ( { m-2 } \\right ) ^ { 2 }\\)\n∴\\(\\left ( { m-2 } \\right ) ^ { 2 } =2\\)，解得\\(m=2\\pm \\sqrt[] { 2 }\\)\n∴\\(m=2-\\sqrt[] { 2 }\\)\n∵\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)\n∴令\\(\\begin{cases} x=m+km-2k \\\\ y=km-2k+2-m \\end{cases}\\)，整理得\\(y=x+2-2m\\)\n∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)在直线\\(y=x+2-2m\\)上移动，\n∴直线\\(y=x+2-2m\\)与\\(x\\)轴交点坐标\\(Q\\left ( { 2m-2,0 } \\right )\\)，与\\(y\\)轴交点坐标\\(P\\left ( { 0,2-2m } \\right )\\)，\n∴\\(OP=OQ\\)，\\(BQ=10-2m\\)\n∴\\(\\angle PQO=45{}^\\circ\\)，\n过\\(B\\)作\\(BH\\bot GP\\)于\\(H\\)，则\\(BH\\)即为\\(BG\\)的最小值，\n〔图3〕\n∴\\(\\angle PQO=\\angle HBQ=45{}^\\circ\\)，\n∴\\(BH=HQ=\\frac { \\sqrt[] { 2 } } { 2 }BQ=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-2m } \\right )=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-4+2\\sqrt[] { 2 } } \\right )=3\\sqrt[] { 2 }+2\\)．\n∴\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "设直线\\(AB\\)的表达式为\\(y=kx+b\\)，",
+    "把\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)代入\\(y=kx+b\\)可得",
+    "\\(\\begin{cases} 6=b \\\\ 0=8k+b \\end{cases}\\)，",
+    "解得\\(\\begin{cases} b=6 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，",
+    "∴直线\\(AB\\)的表达式为\\(y=-\\frac { 3 } { 4 }x+6\\)；",
+    "【小问2详解】",
+    "∵\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，",
+    "∴\\(OA=6\\)，\\(OB=8\\)，",
+    "∴\\(AB=10\\)，\\(AC=OA-OC=6-OC\\)，",
+    "∵将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，",
+    "∴\\(\\vartriangle OBC≌\\vartriangle EBC\\)，",
+    "∴\\(OC=CE,OB=BE=8\\)，",
+    "∴\\(AE=AB-BE=2\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(CE ^ { 2 } +AE ^ { 2 } =AC ^ { 2 }\\)，",
+    "∴\\(OC ^ { 2 } +2 ^ { 2 } =\\left ( { 6-OC } \\right ) ^ { 2 }\\)，",
+    "解得\\(OC=\\frac { 8 } { 3 }\\),",
+    "∴\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)；",
+    "【小问3详解】",
+    "过\\(G\\)作\\(GE\\bot CF\\)于\\(E\\)，过\\(E\\)作\\(EN\\bot OB\\)于\\(N\\)，过\\(G\\)作\\(GM\\bot EN\\)于\\(M\\)，",
+    "〔图2〕",
+    "∵\\(F\\left ( { 2,0 } \\right )\\)",
+    "∴设\\(CF\\)解析式为\\(y=k\\left ( { x-2 } \\right )\\)，",
+    "∴设\\(E\\left ( { m,km-2k } \\right )\\)，\\(C\\left ( { 0,-2k } \\right )\\)，\\(0 < m < 2\\)，",
+    "∴\\(EN=km-2k,ON=m\\)，\\(NF=OF-ON=2-m\\)",
+    "∵将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，",
+    "∴\\(\\angle CFG=45{}^\\circ\\)，\\(CF=FG\\)，",
+    "∵\\(GE\\bot CF\\)，",
+    "∴\\(\\angle CFG=\\angle FGE=45{}^\\circ\\)，",
+    "∴\\(EG=EF\\)，",
+    "∵\\(EN\\bot OB\\)，\\(GM\\bot EN\\)，",
+    "∴\\(\\angle M=\\angle MNF=90{}^\\circ\\)，\\(\\angle MEG=\\angle NFE=90{}^\\circ -\\angle NEF\\)，",
+    "∴\\(\\vartriangle GME≌\\vartriangle ENF\\)，",
+    "∴\\(NF=ME=2-m\\)，\\(MG=EN=km-2k\\)，",
+    "∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)，",
+    "∵\\(CF=FG\\)，",
+    "∴\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left ( { m+km-2k-2 } \\right ) ^ { 2 } +\\left ( { km-2k+2-m } \\right ) ^ { 2 }\\)，",
+    "\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left[ \\left ( { m-2 } \\right )\\left ( { k+1 } \\right ) \\right] ^ { 2 } +\\left[ \\left ( { m-2 } \\right )\\left ( { k-1 } \\right ) \\right] ^ { 2 }\\)",
+    "整理得：\\(4\\left ( { 1+k ^ { 2 } } \\right )=2\\left ( { 1+k ^ { 2 } } \\right )\\left ( { m-2 } \\right ) ^ { 2 }\\)",
+    "∴\\(\\left ( { m-2 } \\right ) ^ { 2 } =2\\)，解得\\(m=2\\pm \\sqrt[] { 2 }\\)",
+    "∴\\(m=2-\\sqrt[] { 2 }\\)",
+    "∵\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)",
+    "∴令\\(\\begin{cases} x=m+km-2k \\\\ y=km-2k+2-m \\end{cases}\\)，整理得\\(y=x+2-2m\\)",
+    "∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)在直线\\(y=x+2-2m\\)上移动，",
+    "∴直线\\(y=x+2-2m\\)与\\(x\\)轴交点坐标\\(Q\\left ( { 2m-2,0 } \\right )\\)，与\\(y\\)轴交点坐标\\(P\\left ( { 0,2-2m } \\right )\\)，",
+    "∴\\(OP=OQ\\)，\\(BQ=10-2m\\)",
+    "∴\\(\\angle PQO=45{}^\\circ\\)，",
+    "过\\(B\\)作\\(BH\\bot GP\\)于\\(H\\)，则\\(BH\\)即为\\(BG\\)的最小值，",
+    "〔图3〕",
+    "∴\\(\\angle PQO=\\angle HBQ=45{}^\\circ\\)，",
+    "∴\\(BH=HQ=\\frac { \\sqrt[] { 2 } } { 2 }BQ=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-2m } \\right )=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-4+2\\sqrt[] { 2 } } \\right )=3\\sqrt[] { 2 }+2\\)．",
+    "∴\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线\\(AB\\)与坐标轴相交于点\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，点\\(C\\)是\\(y\\)轴上一点．\n〔图1〕",
+      "paper_blocks": [
+        57,
+        58
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-373D1DB9B4-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(AB\\)的表达式．",
+      "stem_text": "求直线\\(AB\\)的表达式．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 3 } { 4 }x+6\\)",
+      "answer": "\\(y=-\\frac { 3 } { 4 }x+6\\)",
+      "given_solution": "设直线\\(AB\\)的表达式为\\(y=kx+b\\)，\n把\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)代入\\(y=kx+b\\)可得\n\\(\\begin{cases} 6=b \\\\ 0=8k+b \\end{cases}\\)，\n解得\\(\\begin{cases} b=6 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，\n∴直线\\(AB\\)的表达式为\\(y=-\\frac { 3 } { 4 }x+6\\)；",
+      "solution_steps": [
+        "设直线\\(AB\\)的表达式为\\(y=kx+b\\)，",
+        "把\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)代入\\(y=kx+b\\)可得",
+        "\\(\\begin{cases} 6=b \\\\ 0=8k+b \\end{cases}\\)，",
+        "解得\\(\\begin{cases} b=6 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，",
+        "∴直线\\(AB\\)的表达式为\\(y=-\\frac { 3 } { 4 }x+6\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-373D1DB9B4-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图1，连接\\(BC\\)，将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，若点\\(E\\)恰好落在直线\\(AB\\)上，求点\\(C\\)的坐标．",
+      "stem_text": "如图1，连接\\(BC\\)，将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，若点\\(E\\)恰好落在直线\\(AB\\)上，求点\\(C\\)的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)",
+      "answer": "\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)",
+      "given_solution": "∵\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，\n∴\\(OA=6\\)，\\(OB=8\\)，\n∴\\(AB=10\\)，\\(AC=OA-OC=6-OC\\)，\n∵将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，\n∴\\(\\vartriangle OBC≌\\vartriangle EBC\\)，\n∴\\(OC=CE,OB=BE=8\\)，\n∴\\(AE=AB-BE=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(CE ^ { 2 } +AE ^ { 2 } =AC ^ { 2 }\\)，\n∴\\(OC ^ { 2 } +2 ^ { 2 } =\\left ( { 6-OC } \\right ) ^ { 2 }\\)，\n解得\\(OC=\\frac { 8 } { 3 }\\),\n∴\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)；",
+      "solution_steps": [
+        "∵\\(A\\left ( { 0,6 } \\right )\\)，\\(B\\left ( { 8,0 } \\right )\\)，",
+        "∴\\(OA=6\\)，\\(OB=8\\)，",
+        "∴\\(AB=10\\)，\\(AC=OA-OC=6-OC\\)，",
+        "∵将\\(\\vartriangle OBC\\)沿\\(BC\\)翻折至\\(\\vartriangle EBC\\)，",
+        "∴\\(\\vartriangle OBC≌\\vartriangle EBC\\)，",
+        "∴\\(OC=CE,OB=BE=8\\)，",
+        "∴\\(AE=AB-BE=2\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(CE ^ { 2 } +AE ^ { 2 } =AC ^ { 2 }\\)，",
+        "∴\\(OC ^ { 2 } +2 ^ { 2 } =\\left ( { 6-OC } \\right ) ^ { 2 }\\)，",
+        "解得\\(OC=\\frac { 8 } { 3 }\\),",
+        "∴\\(C\\left ( { 0,\\frac { 8 } { 3 } } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          60
+        ],
+        "solution_block_ids": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-373D1DB9B4-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图2，点\\(F\\left ( { 2,0 } \\right )\\)在\\(x\\)轴的正半轴上，连接\\(CF\\)，将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，连接\\(BG\\)，请问\\(BG\\)有最小值吗？如果有，请求出来；如果没有，请说明理由．",
+      "stem_text": "如图2，点\\(F\\left ( { 2,0 } \\right )\\)在\\(x\\)轴的正半轴上，连接\\(CF\\)，将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，连接\\(BG\\)，请问\\(BG\\)有最小值吗？如果有，请求出来；如果没有，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)",
+      "answer": "\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)",
+      "given_solution": "过\\(G\\)作\\(GE\\bot CF\\)于\\(E\\)，过\\(E\\)作\\(EN\\bot OB\\)于\\(N\\)，过\\(G\\)作\\(GM\\bot EN\\)于\\(M\\)，\n〔图2〕\n∵\\(F\\left ( { 2,0 } \\right )\\)\n∴设\\(CF\\)解析式为\\(y=k\\left ( { x-2 } \\right )\\)，\n∴设\\(E\\left ( { m,km-2k } \\right )\\)，\\(C\\left ( { 0,-2k } \\right )\\)，\\(0 < m < 2\\)，\n∴\\(EN=km-2k,ON=m\\)，\\(NF=OF-ON=2-m\\)\n∵将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，\n∴\\(\\angle CFG=45{}^\\circ\\)，\\(CF=FG\\)，\n∵\\(GE\\bot CF\\)，\n∴\\(\\angle CFG=\\angle FGE=45{}^\\circ\\)，\n∴\\(EG=EF\\)，\n∵\\(EN\\bot OB\\)，\\(GM\\bot EN\\)，\n∴\\(\\angle M=\\angle MNF=90{}^\\circ\\)，\\(\\angle MEG=\\angle NFE=90{}^\\circ -\\angle NEF\\)，\n∴\\(\\vartriangle GME≌\\vartriangle ENF\\)，\n∴\\(NF=ME=2-m\\)，\\(MG=EN=km-2k\\)，\n∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)，\n∵\\(CF=FG\\)，\n∴\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left ( { m+km-2k-2 } \\right ) ^ { 2 } +\\left ( { km-2k+2-m } \\right ) ^ { 2 }\\)，\n\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left[ \\left ( { m-2 } \\right )\\left ( { k+1 } \\right ) \\right] ^ { 2 } +\\left[ \\left ( { m-2 } \\right )\\left ( { k-1 } \\right ) \\right] ^ { 2 }\\)\n整理得：\\(4\\left ( { 1+k ^ { 2 } } \\right )=2\\left ( { 1+k ^ { 2 } } \\right )\\left ( { m-2 } \\right ) ^ { 2 }\\)\n∴\\(\\left ( { m-2 } \\right ) ^ { 2 } =2\\)，解得\\(m=2\\pm \\sqrt[] { 2 }\\)\n∴\\(m=2-\\sqrt[] { 2 }\\)\n∵\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)\n∴令\\(\\begin{cases} x=m+km-2k \\\\ y=km-2k+2-m \\end{cases}\\)，整理得\\(y=x+2-2m\\)\n∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)在直线\\(y=x+2-2m\\)上移动，\n∴直线\\(y=x+2-2m\\)与\\(x\\)轴交点坐标\\(Q\\left ( { 2m-2,0 } \\right )\\)，与\\(y\\)轴交点坐标\\(P\\left ( { 0,2-2m } \\right )\\)，\n∴\\(OP=OQ\\)，\\(BQ=10-2m\\)\n∴\\(\\angle PQO=45{}^\\circ\\)，\n过\\(B\\)作\\(BH\\bot GP\\)于\\(H\\)，则\\(BH\\)即为\\(BG\\)的最小值，\n〔图3〕\n∴\\(\\angle PQO=\\angle HBQ=45{}^\\circ\\)，\n∴\\(BH=HQ=\\frac { \\sqrt[] { 2 } } { 2 }BQ=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-2m } \\right )=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-4+2\\sqrt[] { 2 } } \\right )=3\\sqrt[] { 2 }+2\\)．\n∴\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)．",
+      "solution_steps": [
+        "过\\(G\\)作\\(GE\\bot CF\\)于\\(E\\)，过\\(E\\)作\\(EN\\bot OB\\)于\\(N\\)，过\\(G\\)作\\(GM\\bot EN\\)于\\(M\\)，",
+        "〔图2〕",
+        "∵\\(F\\left ( { 2,0 } \\right )\\)",
+        "∴设\\(CF\\)解析式为\\(y=k\\left ( { x-2 } \\right )\\)，",
+        "∴设\\(E\\left ( { m,km-2k } \\right )\\)，\\(C\\left ( { 0,-2k } \\right )\\)，\\(0 < m < 2\\)，",
+        "∴\\(EN=km-2k,ON=m\\)，\\(NF=OF-ON=2-m\\)",
+        "∵将\\(CF\\)绕点\\(F\\)顺时针旋转\\(45{}^\\circ\\)至\\(GF\\)的位置，",
+        "∴\\(\\angle CFG=45{}^\\circ\\)，\\(CF=FG\\)，",
+        "∵\\(GE\\bot CF\\)，",
+        "∴\\(\\angle CFG=\\angle FGE=45{}^\\circ\\)，",
+        "∴\\(EG=EF\\)，",
+        "∵\\(EN\\bot OB\\)，\\(GM\\bot EN\\)，",
+        "∴\\(\\angle M=\\angle MNF=90{}^\\circ\\)，\\(\\angle MEG=\\angle NFE=90{}^\\circ -\\angle NEF\\)，",
+        "∴\\(\\vartriangle GME≌\\vartriangle ENF\\)，",
+        "∴\\(NF=ME=2-m\\)，\\(MG=EN=km-2k\\)，",
+        "∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)，",
+        "∵\\(CF=FG\\)，",
+        "∴\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left ( { m+km-2k-2 } \\right ) ^ { 2 } +\\left ( { km-2k+2-m } \\right ) ^ { 2 }\\)，",
+        "\\(2 ^ { 2 } +\\left ( { -2k } \\right ) ^ { 2 } =\\left[ \\left ( { m-2 } \\right )\\left ( { k+1 } \\right ) \\right] ^ { 2 } +\\left[ \\left ( { m-2 } \\right )\\left ( { k-1 } \\right ) \\right] ^ { 2 }\\)",
+        "整理得：\\(4\\left ( { 1+k ^ { 2 } } \\right )=2\\left ( { 1+k ^ { 2 } } \\right )\\left ( { m-2 } \\right ) ^ { 2 }\\)",
+        "∴\\(\\left ( { m-2 } \\right ) ^ { 2 } =2\\)，解得\\(m=2\\pm \\sqrt[] { 2 }\\)",
+        "∴\\(m=2-\\sqrt[] { 2 }\\)",
+        "∵\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)",
+        "∴令\\(\\begin{cases} x=m+km-2k \\\\ y=km-2k+2-m \\end{cases}\\)，整理得\\(y=x+2-2m\\)",
+        "∴\\(G\\left ( { m+km-2k,km-2k+2-m } \\right )\\)在直线\\(y=x+2-2m\\)上移动，",
+        "∴直线\\(y=x+2-2m\\)与\\(x\\)轴交点坐标\\(Q\\left ( { 2m-2,0 } \\right )\\)，与\\(y\\)轴交点坐标\\(P\\left ( { 0,2-2m } \\right )\\)，",
+        "∴\\(OP=OQ\\)，\\(BQ=10-2m\\)",
+        "∴\\(\\angle PQO=45{}^\\circ\\)，",
+        "过\\(B\\)作\\(BH\\bot GP\\)于\\(H\\)，则\\(BH\\)即为\\(BG\\)的最小值，",
+        "〔图3〕",
+        "∴\\(\\angle PQO=\\angle HBQ=45{}^\\circ\\)，",
+        "∴\\(BH=HQ=\\frac { \\sqrt[] { 2 } } { 2 }BQ=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-2m } \\right )=\\frac { \\sqrt[] { 2 } } { 2 }\\left ( { 10-4+2\\sqrt[] { 2 } } \\right )=3\\sqrt[] { 2 }+2\\)．",
+        "∴\\(BG\\)有最小值，最小值为\\(3\\sqrt[] { 2 }+2\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          61
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      57,
+      61
+    ],
+    "solution_body_blocks": [
+      324,
+      388
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-373D1DB9B4/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          75.0,
+          583.64,
+          322.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-373D1DB9B4/solution-q22-p17.webp",
+      "assets/SZ-G8-T1-373D1DB9B4/solution-q22-p18.webp",
+      "assets/SZ-G8-T1-373D1DB9B4/solution-q22-p19.webp",
+      "assets/SZ-G8-T1-373D1DB9B4/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          444.55,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          642.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          524.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G07.01",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G07.01.02",
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 题面对应“将折叠条件转为可计算的几何关系”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

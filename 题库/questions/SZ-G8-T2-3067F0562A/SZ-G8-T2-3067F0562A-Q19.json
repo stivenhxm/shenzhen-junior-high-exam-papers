@@ -1,0 +1,267 @@
+{
+  "id": "SZ-G8-T2-3067F0562A-Q19",
+  "paper_id": "SZ-G8-T2-3067F0562A",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "由角或边条件判定等腰、选择充分条件证明三角形全等",
+  "stem": "如图，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB\\)的平分线交\\(AB\\)于点\\(D,\\angle ADC\\)的平分线交\\(AC\\)于点\\(E\\)，\\(DE\\parallel BC\\)．\n〔图1〕\n（1）证明：\\(\\vartriangle DBC\\)是等腰三角形；\n（2）若\\(BC=2CE\\)，求\\(\\angle ADE\\)的度数．",
+  "choices": [],
+  "figures": [
+    "assets/figures/e4/e46a62b19dad0fb9eac82644d5de9ee6a6dfd57f294616cd6fda8948d500ff32.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；\n（2）\\(45{}^\\circ\\)．",
+  "answer": "（1）见解析；\n（2）\\(45{}^\\circ\\)．",
+  "given_solution": "【分析】（1）由角平分线的定义和平行线的性质，得出\\(\\angle DCB=\\angle B\\)，再由等角对等边的性质，即可证明结论；\n（2）取\\(BC\\)的中点\\(F\\)，连接\\(DF\\)．证明\\(\\vartriangle DFC≌\\vartriangle DEC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得到\\(\\angle FDC=\\angle EDC\\)，再结合等腰三角形三线合一的性质，得出\\(\\angle BDF=\\angle CDF=\\angle CDE=\\angle ADE\\)，即可求出\\(\\angle ADE\\)的度数．\n【小问1详解】\n证明：\\(\\because CD\\)平分\\(\\angle ACB,ED\\)平分\\(\\angle ADC\\)，\n\\(\\therefore \\angle DCB=\\angle ECD,\\angle ADE=\\angle CDE\\)．\n\\(\\because DE\\parallel BC\\)，\n\\(\\therefore \\angle DCB=\\angle CDE,\\angle ADE=\\angle B\\)，\n\\(\\therefore \\angle DCB=\\angle B\\)，\n\\(\\therefore\\)\\(DB=DC\\)．\n\\(\\therefore \\vartriangle DBC\\)是等腰三角形；\n【小问2详解】\n解：取\\(BC\\)的中点\\(F\\)，连接\\(DF\\)．\n〔图2〕\n\\(\\because BC=2CE\\)，\n\\(\\therefore BF=FC=EC\\)，\n在\\(\\vartriangle DFC\\)和\\(\\vartriangle DEC\\)中，\n\\(\\begin{cases} FC=EC \\\\ \\angle DCB=\\angle DCE \\\\ DC=DC \\end{cases}\\)\n\\(\\therefore \\vartriangle DFC≌\\vartriangle DEC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．\n\\(\\therefore \\angle FDC=\\angle EDC\\)．\n又\\(DB=DC,DF\\)是\\(BC\\)边上的中线，\n\\(\\therefore DF\\)平分\\(\\angle BDC\\)，即\\(\\angle BDF=\\angle CDF\\)．\n\\(\\therefore \\angle BDF=\\angle CDF=\\angle CDE=\\angle ADE\\)．\n\\(\\because \\angle BDF+\\angle CDF+\\angle CDE+\\angle ADE=180{}^\\circ\\)，\n\\(\\therefore 4\\angle ADE=180{}^\\circ\\)，\n解得\\(\\angle ADE=45{}^\\circ\\)．\n【点睛】本题考查了角平分线的定义，平行线的性质，等腰三角形的判定和性质，全等三角形的判定和性质，掌握等腰三角形三线合一的性质是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/e4/e46a62b19dad0fb9eac82644d5de9ee6a6dfd57f294616cd6fda8948d500ff32.png",
+    "assets/figures/fd/fd59913d2eedc44c92efc15102a6c30872de3a8ee8ca5491594ab5b3f24ac32c.png"
+  ],
+  "solution": "【小问1详解】\n证明：\\(\\because CD\\)平分\\(\\angle ACB,ED\\)平分\\(\\angle ADC\\)，\n\\(\\therefore \\angle DCB=\\angle ECD,\\angle ADE=\\angle CDE\\)．\n\\(\\because DE\\parallel BC\\)，\n\\(\\therefore \\angle DCB=\\angle CDE,\\angle ADE=\\angle B\\)，\n\\(\\therefore \\angle DCB=\\angle B\\)，\n\\(\\therefore\\)\\(DB=DC\\)．\n\\(\\therefore \\vartriangle DBC\\)是等腰三角形；\n【小问2详解】\n解：取\\(BC\\)的中点\\(F\\)，连接\\(DF\\)．\n〔图2〕\n\\(\\because BC=2CE\\)，\n\\(\\therefore BF=FC=EC\\)，\n在\\(\\vartriangle DFC\\)和\\(\\vartriangle DEC\\)中，\n\\(\\begin{cases} FC=EC \\\\ \\angle DCB=\\angle DCE \\\\ DC=DC \\end{cases}\\)\n\\(\\therefore \\vartriangle DFC≌\\vartriangle DEC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．\n\\(\\therefore \\angle FDC=\\angle EDC\\)．\n又\\(DB=DC,DF\\)是\\(BC\\)边上的中线，\n\\(\\therefore DF\\)平分\\(\\angle BDC\\)，即\\(\\angle BDF=\\angle CDF\\)．\n\\(\\therefore \\angle BDF=\\angle CDF=\\angle CDE=\\angle ADE\\)．\n\\(\\because \\angle BDF+\\angle CDF+\\angle CDE+\\angle ADE=180{}^\\circ\\)，\n\\(\\therefore 4\\angle ADE=180{}^\\circ\\)，\n解得\\(\\angle ADE=45{}^\\circ\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：\\(\\because CD\\)平分\\(\\angle ACB,ED\\)平分\\(\\angle ADC\\)，",
+    "\\(\\therefore \\angle DCB=\\angle ECD,\\angle ADE=\\angle CDE\\)．",
+    "\\(\\because DE\\parallel BC\\)，",
+    "\\(\\therefore \\angle DCB=\\angle CDE,\\angle ADE=\\angle B\\)，",
+    "\\(\\therefore \\angle DCB=\\angle B\\)，",
+    "\\(\\therefore\\)\\(DB=DC\\)．",
+    "\\(\\therefore \\vartriangle DBC\\)是等腰三角形；",
+    "【小问2详解】",
+    "解：取\\(BC\\)的中点\\(F\\)，连接\\(DF\\)．",
+    "〔图2〕",
+    "\\(\\because BC=2CE\\)，",
+    "\\(\\therefore BF=FC=EC\\)，",
+    "在\\(\\vartriangle DFC\\)和\\(\\vartriangle DEC\\)中，",
+    "\\(\\begin{cases} FC=EC \\\\ \\angle DCB=\\angle DCE \\\\ DC=DC \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle DFC≌\\vartriangle DEC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．",
+    "\\(\\therefore \\angle FDC=\\angle EDC\\)．",
+    "又\\(DB=DC,DF\\)是\\(BC\\)边上的中线，",
+    "\\(\\therefore DF\\)平分\\(\\angle BDC\\)，即\\(\\angle BDF=\\angle CDF\\)．",
+    "\\(\\therefore \\angle BDF=\\angle CDF=\\angle CDE=\\angle ADE\\)．",
+    "\\(\\because \\angle BDF+\\angle CDF+\\angle CDE+\\angle ADE=180{}^\\circ\\)，",
+    "\\(\\therefore 4\\angle ADE=180{}^\\circ\\)，",
+    "解得\\(\\angle ADE=45{}^\\circ\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB\\)的平分线交\\(AB\\)于点\\(D,\\angle ADC\\)的平分线交\\(AC\\)于点\\(E\\)，\\(DE\\parallel BC\\)．\n〔图1〕",
+      "paper_blocks": [
+        55,
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3067F0562A-Q19-P01",
+      "label": "（1）",
+      "prompt": "证明：\\(\\vartriangle DBC\\)是等腰三角形；",
+      "stem_text": "证明：\\(\\vartriangle DBC\\)是等腰三角形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：\\(\\because CD\\)平分\\(\\angle ACB,ED\\)平分\\(\\angle ADC\\)，\n\\(\\therefore \\angle DCB=\\angle ECD,\\angle ADE=\\angle CDE\\)．\n\\(\\because DE\\parallel BC\\)，\n\\(\\therefore \\angle DCB=\\angle CDE,\\angle ADE=\\angle B\\)，\n\\(\\therefore \\angle DCB=\\angle B\\)，\n\\(\\therefore\\)\\(DB=DC\\)．\n\\(\\therefore \\vartriangle DBC\\)是等腰三角形；",
+      "solution_steps": [
+        "证明：\\(\\because CD\\)平分\\(\\angle ACB,ED\\)平分\\(\\angle ADC\\)，",
+        "\\(\\therefore \\angle DCB=\\angle ECD,\\angle ADE=\\angle CDE\\)．",
+        "\\(\\because DE\\parallel BC\\)，",
+        "\\(\\therefore \\angle DCB=\\angle CDE,\\angle ADE=\\angle B\\)，",
+        "\\(\\therefore \\angle DCB=\\angle B\\)，",
+        "\\(\\therefore\\)\\(DB=DC\\)．",
+        "\\(\\therefore \\vartriangle DBC\\)是等腰三角形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由角或边条件判定等腰”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3067F0562A-Q19-P02",
+      "label": "（2）",
+      "prompt": "若\\(BC=2CE\\)，求\\(\\angle ADE\\)的度数．",
+      "stem_text": "若\\(BC=2CE\\)，求\\(\\angle ADE\\)的度数．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(45{}^\\circ\\)．",
+      "answer": "\\(45{}^\\circ\\)．",
+      "given_solution": "解：取\\(BC\\)的中点\\(F\\)，连接\\(DF\\)．\n〔图2〕\n\\(\\because BC=2CE\\)，\n\\(\\therefore BF=FC=EC\\)，\n在\\(\\vartriangle DFC\\)和\\(\\vartriangle DEC\\)中，\n\\(\\begin{cases} FC=EC \\\\ \\angle DCB=\\angle DCE \\\\ DC=DC \\end{cases}\\)\n\\(\\therefore \\vartriangle DFC≌\\vartriangle DEC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．\n\\(\\therefore \\angle FDC=\\angle EDC\\)．\n又\\(DB=DC,DF\\)是\\(BC\\)边上的中线，\n\\(\\therefore DF\\)平分\\(\\angle BDC\\)，即\\(\\angle BDF=\\angle CDF\\)．\n\\(\\therefore \\angle BDF=\\angle CDF=\\angle CDE=\\angle ADE\\)．\n\\(\\because \\angle BDF+\\angle CDF+\\angle CDE+\\angle ADE=180{}^\\circ\\)，\n\\(\\therefore 4\\angle ADE=180{}^\\circ\\)，\n解得\\(\\angle ADE=45{}^\\circ\\)．",
+      "solution_steps": [
+        "解：取\\(BC\\)的中点\\(F\\)，连接\\(DF\\)．",
+        "〔图2〕",
+        "\\(\\because BC=2CE\\)，",
+        "\\(\\therefore BF=FC=EC\\)，",
+        "在\\(\\vartriangle DFC\\)和\\(\\vartriangle DEC\\)中，",
+        "\\(\\begin{cases} FC=EC \\\\ \\angle DCB=\\angle DCE \\\\ DC=DC \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle DFC≌\\vartriangle DEC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．",
+        "\\(\\therefore \\angle FDC=\\angle EDC\\)．",
+        "又\\(DB=DC,DF\\)是\\(BC\\)边上的中线，",
+        "\\(\\therefore DF\\)平分\\(\\angle BDC\\)，即\\(\\angle BDF=\\angle CDF\\)．",
+        "\\(\\therefore \\angle BDF=\\angle CDF=\\angle CDE=\\angle ADE\\)．",
+        "\\(\\because \\angle BDF+\\angle CDF+\\angle CDE+\\angle ADE=180{}^\\circ\\)，",
+        "\\(\\therefore 4\\angle ADE=180{}^\\circ\\)，",
+        "解得\\(\\angle ADE=45{}^\\circ\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58
+        ],
+        "solution_block_ids": [
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      55,
+      58
+    ],
+    "solution_body_blocks": [
+      237,
+      269
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3067F0562A/paper-q19-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          243.18,
+          583.64,
+          418.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3067F0562A/solution-q19-p12.webp",
+      "assets/SZ-G8-T2-3067F0562A/solution-q19-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          354.55,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          525.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G04.01.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由角或边条件判定等腰”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

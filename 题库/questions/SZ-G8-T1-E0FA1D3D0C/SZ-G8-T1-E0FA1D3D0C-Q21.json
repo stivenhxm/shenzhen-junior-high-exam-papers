@@ -1,0 +1,318 @@
+{
+  "id": "SZ-G8-T1-E0FA1D3D0C-Q21",
+  "paper_id": "SZ-G8-T1-E0FA1D3D0C",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、用坐标求线段长度与面积",
+  "stem": "阅读材料并回答下列问题：\n当m，n都是实数，且满足\\(m﹣n=6\\)，就称点P\\(\\left ( { m﹣1，3n+1 } \\right )\\)为“燕南点”．例如：点E\\(\\left ( { 3，1 } \\right )\\)，令\\(\\begin{cases} m-1=3 \\\\ 3n+1=1 \\end{cases}\\)得\\(\\begin{cases} m=4 \\\\ n=0 \\end{cases}\\)，\\(m﹣n=4\\ne 6\\) ，所以E\\(\\left ( { 3，1 } \\right )\\)不是“燕南点”；F\\(\\left ( { 4，-2 } \\right )\\)，令\\(\\begin{cases} m-1=4 \\\\ 3n+1=-2 \\end{cases}\\)得\\(\\begin{cases} m=5 \\\\ n=-1 \\end{cases}\\)，\\(m﹣n=6\\)，所以F\\(\\left ( { 4，-2 } \\right )\\)是“燕南点”．\n（1）点A \\(\\left ( { 7,1 } \\right )\\)，B \\(\\left ( { 6,4 } \\right )\\)是“燕南点”的是\n（2）点M\\(\\left ( { a，2a﹣1 } \\right )\\)是“燕南点”，请判断点M在第几象限？并说明理由；\n（3）若以关于x，y的方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为坐标的点C\\(\\left ( { x，y } \\right )\\)是“燕南点”，求t的值．\n如图，在平面直角坐标系中，一次函数y=kx+b的图象与y轴的正半轴交于点A，与x轴交于点B（2，0），三角形△ABO的面积为2．动点P从点O出发，以每秒1个单位长度的速度在射线OB上运动，动点Q从B出发，沿x轴的正半轴与点P同时以相同的速度运动，过P作PM⊥x轴交直线AB于M．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-E0FA1D3D0C/figures/205af684abbecaaea03f313b38c5b94543dc08aca8f7a624df8a71501756b997.png"
+  ],
+  "tables": [],
+  "given_answer": "（1） B\\(\\left ( { 6,4 } \\right )\\)；\n（2） M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；\n（3）\\(~t=10\\)．",
+  "answer": "（1） B\\(\\left ( { 6,4 } \\right )\\)；\n（2） M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；\n（3）\\(~t=10\\)．",
+  "given_solution": "【分析】（1）根据“燕南点”的定义分别判断即可；\n（2）直接利用“燕南点”的定义得出a的值再求出点的坐标进而得出答案；\n（3）直接利用“燕南点”的定义得出t的值进而得出答案；\n【详解】（1）\\(\\because\\)点A\\(\\left ( { 7,1 } \\right )\\)，令\\(\\begin{cases} m-1=7 \\\\ 3n+1=1 \\end{cases}\\)\n解得\\(\\begin{cases} m=8 \\\\ n=0 \\end{cases}\\)\n\\(\\because m-n＝8\\ne 6\\)，\n\\(\\therefore\\)A\\(\\left ( { 7,1 } \\right )\\)不是“燕南点“，\n\\(\\because\\)点B\\(\\left ( { 6,4 } \\right )\\)，令\\(\\begin{cases} m-1=6 \\\\ 3n+1=4 \\end{cases}\\)\n解得\\(\\begin{cases} m=7 \\\\ n=1 \\end{cases}\\)\n\\(\\therefore m-n＝6\\)，\n\\(\\therefore\\)B\\(\\left ( { 6,4 } \\right )\\)是“燕南点”；\n故答案为：B\\(\\left ( { 6,4 } \\right )\\)；\n（2）根据题意\\(\\begin{cases} m-1=a \\\\ 3n+1=2a-1 \\end{cases}\\),得\\(\\begin{cases} m=1+a \\\\ n=\\frac { 2a-2 } { 3 } \\end{cases}\\)，\n\\(\\because m-n=6\\)，\n\\(\\therefore \\left ( { 1+a } \\right )-\\frac { 2a-2 } { 3 }=6\\)，求得\\(a=13\\)，\n所以\\(2a-1=25\\)，所以M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；\n（3）方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为\\(\\begin{cases} x=\\frac { t+2 } { 3 } \\\\ y=\\frac { 4-t } { 3 } \\end{cases}\\)\n∵点\\(C\\left ( { \\frac { t+2 } { 3 },\\frac { 4-t } { 3 } } \\right )\\)是“燕南点”，\n∴\\(\\begin{cases} m-1=\\frac { t+2 } { 3 } \\\\ 3n+1=\\frac { 4-t } { 3 } \\end{cases}\\)\n∴\\(\\begin{cases} m=\\frac { t+5 } { 3 } \\\\ n=\\frac { 1-t } { 9 } \\end{cases}\\)\n\\(\\because m-n=6\\)，∴\\(\\frac { t+5 } { 3 }-\\frac { 1-t } { 9 }=6\\)，解得\\(t=10\\)，\n∴t的值为10．\n【点睛】本题主要考查了解二元一次方程组，二元一次方程组的解，点的坐标的知识，同时考查了阅读理解能力及迁移运用能力．\n如图，在平面直角坐标系中，一次函数y=kx+b的图象与y轴的正半轴交于点A，与x轴交于点B（2，0），三角形△ABO的面积为2．动点P从点O出发，以每秒1个单位长度的速度在射线OB上运动，动点Q从B出发，沿x轴的正半轴与点P同时以相同的速度运动，过P作PM⊥x轴交直线AB于M．\n〔图1〕",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-E0FA1D3D0C/figures/8f54b9a208572ff4fdab18529a1598f37865992a29dcf731036edc3b28d2cf9f.png"
+  ],
+  "solution": "（1）\\(\\because\\)点A\\(\\left ( { 7,1 } \\right )\\)，令\\(\\begin{cases} m-1=7 \\\\ 3n+1=1 \\end{cases}\\)\n解得\\(\\begin{cases} m=8 \\\\ n=0 \\end{cases}\\)\n\\(\\because m-n＝8\\ne 6\\)，\n\\(\\therefore\\)A\\(\\left ( { 7,1 } \\right )\\)不是“燕南点“，\n\\(\\because\\)点B\\(\\left ( { 6,4 } \\right )\\)，令\\(\\begin{cases} m-1=6 \\\\ 3n+1=4 \\end{cases}\\)\n解得\\(\\begin{cases} m=7 \\\\ n=1 \\end{cases}\\)\n\\(\\therefore m-n＝6\\)，\n\\(\\therefore\\)B\\(\\left ( { 6,4 } \\right )\\)是“燕南点”；\n故答案为：B\\(\\left ( { 6,4 } \\right )\\)；\n（2）根据题意\\(\\begin{cases} m-1=a \\\\ 3n+1=2a-1 \\end{cases}\\),得\\(\\begin{cases} m=1+a \\\\ n=\\frac { 2a-2 } { 3 } \\end{cases}\\)，\n\\(\\because m-n=6\\)，\n\\(\\therefore \\left ( { 1+a } \\right )-\\frac { 2a-2 } { 3 }=6\\)，求得\\(a=13\\)，\n所以\\(2a-1=25\\)，所以M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；\n（3）方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为\\(\\begin{cases} x=\\frac { t+2 } { 3 } \\\\ y=\\frac { 4-t } { 3 } \\end{cases}\\)\n∵点\\(C\\left ( { \\frac { t+2 } { 3 },\\frac { 4-t } { 3 } } \\right )\\)是“燕南点”，\n∴\\(\\begin{cases} m-1=\\frac { t+2 } { 3 } \\\\ 3n+1=\\frac { 4-t } { 3 } \\end{cases}\\)\n∴\\(\\begin{cases} m=\\frac { t+5 } { 3 } \\\\ n=\\frac { 1-t } { 9 } \\end{cases}\\)\n\\(\\because m-n=6\\)，∴\\(\\frac { t+5 } { 3 }-\\frac { 1-t } { 9 }=6\\)，解得\\(t=10\\)，\n∴t的值为10．",
+  "solution_steps": [
+    "（1）\\(\\because\\)点A\\(\\left ( { 7,1 } \\right )\\)，令\\(\\begin{cases} m-1=7 \\\\ 3n+1=1 \\end{cases}\\)",
+    "解得\\(\\begin{cases} m=8 \\\\ n=0 \\end{cases}\\)",
+    "\\(\\because m-n＝8\\ne 6\\)，",
+    "\\(\\therefore\\)A\\(\\left ( { 7,1 } \\right )\\)不是“燕南点“，",
+    "\\(\\because\\)点B\\(\\left ( { 6,4 } \\right )\\)，令\\(\\begin{cases} m-1=6 \\\\ 3n+1=4 \\end{cases}\\)",
+    "解得\\(\\begin{cases} m=7 \\\\ n=1 \\end{cases}\\)",
+    "\\(\\therefore m-n＝6\\)，",
+    "\\(\\therefore\\)B\\(\\left ( { 6,4 } \\right )\\)是“燕南点”；",
+    "故答案为：B\\(\\left ( { 6,4 } \\right )\\)；",
+    "（2）根据题意\\(\\begin{cases} m-1=a \\\\ 3n+1=2a-1 \\end{cases}\\),得\\(\\begin{cases} m=1+a \\\\ n=\\frac { 2a-2 } { 3 } \\end{cases}\\)，",
+    "\\(\\because m-n=6\\)，",
+    "\\(\\therefore \\left ( { 1+a } \\right )-\\frac { 2a-2 } { 3 }=6\\)，求得\\(a=13\\)，",
+    "所以\\(2a-1=25\\)，所以M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；",
+    "（3）方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为\\(\\begin{cases} x=\\frac { t+2 } { 3 } \\\\ y=\\frac { 4-t } { 3 } \\end{cases}\\)",
+    "∵点\\(C\\left ( { \\frac { t+2 } { 3 },\\frac { 4-t } { 3 } } \\right )\\)是“燕南点”，",
+    "∴\\(\\begin{cases} m-1=\\frac { t+2 } { 3 } \\\\ 3n+1=\\frac { 4-t } { 3 } \\end{cases}\\)",
+    "∴\\(\\begin{cases} m=\\frac { t+5 } { 3 } \\\\ n=\\frac { 1-t } { 9 } \\end{cases}\\)",
+    "\\(\\because m-n=6\\)，∴\\(\\frac { t+5 } { 3 }-\\frac { 1-t } { 9 }=6\\)，解得\\(t=10\\)，",
+    "∴t的值为10．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "阅读材料并回答下列问题：\n当m，n都是实数，且满足\\(m﹣n=6\\)，就称点P\\(\\left ( { m﹣1，3n+1 } \\right )\\)为“燕南点”．例如：点E\\(\\left ( { 3，1 } \\right )\\)，令\\(\\begin{cases} m-1=3 \\\\ 3n+1=1 \\end{cases}\\)得\\(\\begin{cases} m=4 \\\\ n=0 \\end{cases}\\)，\\(m﹣n=4\\ne 6\\) ，所以E\\(\\left ( { 3，1 } \\right )\\)不是“燕南点”；F\\(\\left ( { 4，-2 } \\right )\\)，令\\(\\begin{cases} m-1=4 \\\\ 3n+1=-2 \\end{cases}\\)得\\(\\begin{cases} m=5 \\\\ n=-1 \\end{cases}\\)，\\(m﹣n=6\\)，所以F\\(\\left ( { 4，-2 } \\right )\\)是“燕南点”．",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-E0FA1D3D0C-Q21-P01",
+      "label": "（1）",
+      "prompt": "点A \\(\\left ( { 7,1 } \\right )\\)，B \\(\\left ( { 6,4 } \\right )\\)是“燕南点”的是",
+      "stem_text": "点A \\(\\left ( { 7,1 } \\right )\\)，B \\(\\left ( { 6,4 } \\right )\\)是“燕南点”的是",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "B\\(\\left ( { 6,4 } \\right )\\)；",
+      "answer": "B\\(\\left ( { 6,4 } \\right )\\)；",
+      "given_solution": "\\(\\because\\)点A\\(\\left ( { 7,1 } \\right )\\)，令\\(\\begin{cases} m-1=7 \\\\ 3n+1=1 \\end{cases}\\)\n解得\\(\\begin{cases} m=8 \\\\ n=0 \\end{cases}\\)\n\\(\\because m-n＝8\\ne 6\\)，\n\\(\\therefore\\)A\\(\\left ( { 7,1 } \\right )\\)不是“燕南点“，\n\\(\\because\\)点B\\(\\left ( { 6,4 } \\right )\\)，令\\(\\begin{cases} m-1=6 \\\\ 3n+1=4 \\end{cases}\\)\n解得\\(\\begin{cases} m=7 \\\\ n=1 \\end{cases}\\)\n\\(\\therefore m-n＝6\\)，\n\\(\\therefore\\)B\\(\\left ( { 6,4 } \\right )\\)是“燕南点”；\n故答案为：B\\(\\left ( { 6,4 } \\right )\\)；",
+      "solution_steps": [
+        "\\(\\because\\)点A\\(\\left ( { 7,1 } \\right )\\)，令\\(\\begin{cases} m-1=7 \\\\ 3n+1=1 \\end{cases}\\)",
+        "解得\\(\\begin{cases} m=8 \\\\ n=0 \\end{cases}\\)",
+        "\\(\\because m-n＝8\\ne 6\\)，",
+        "\\(\\therefore\\)A\\(\\left ( { 7,1 } \\right )\\)不是“燕南点“，",
+        "\\(\\because\\)点B\\(\\left ( { 6,4 } \\right )\\)，令\\(\\begin{cases} m-1=6 \\\\ 3n+1=4 \\end{cases}\\)",
+        "解得\\(\\begin{cases} m=7 \\\\ n=1 \\end{cases}\\)",
+        "\\(\\therefore m-n＝6\\)，",
+        "\\(\\therefore\\)B\\(\\left ( { 6,4 } \\right )\\)是“燕南点”；",
+        "故答案为：B\\(\\left ( { 6,4 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          70
+        ],
+        "solution_block_ids": [
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "依据本问原题和解法，核定为“平面直角坐标系与点”。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T1-E0FA1D3D0C-Q21-P02",
+      "label": "（2）",
+      "prompt": "点M\\(\\left ( { a，2a﹣1 } \\right )\\)是“燕南点”，请判断点M在第几象限？并说明理由；",
+      "stem_text": "点M\\(\\left ( { a，2a﹣1 } \\right )\\)是“燕南点”，请判断点M在第几象限？并说明理由；",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；",
+      "answer": "M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；",
+      "given_solution": "根据题意\\(\\begin{cases} m-1=a \\\\ 3n+1=2a-1 \\end{cases}\\),得\\(\\begin{cases} m=1+a \\\\ n=\\frac { 2a-2 } { 3 } \\end{cases}\\)，\n\\(\\because m-n=6\\)，\n\\(\\therefore \\left ( { 1+a } \\right )-\\frac { 2a-2 } { 3 }=6\\)，求得\\(a=13\\)，\n所以\\(2a-1=25\\)，所以M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；",
+      "solution_steps": [
+        "根据题意\\(\\begin{cases} m-1=a \\\\ 3n+1=2a-1 \\end{cases}\\),得\\(\\begin{cases} m=1+a \\\\ n=\\frac { 2a-2 } { 3 } \\end{cases}\\)，",
+        "\\(\\because m-n=6\\)，",
+        "\\(\\therefore \\left ( { 1+a } \\right )-\\frac { 2a-2 } { 3 }=6\\)，求得\\(a=13\\)，",
+        "所以\\(2a-1=25\\)，所以M\\(\\left ( { 13,25 } \\right )\\)，在第一象限；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          368,
+          369,
+          370,
+          371
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-E0FA1D3D0C-Q21-P03",
+      "label": "（3）",
+      "prompt": "若以关于x，y的方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为坐标的点C\\(\\left ( { x，y } \\right )\\)是“燕南点”，求t的值．\n如图，在平面直角坐标系中，一次函数y=kx+b的图象与y轴的正半轴交于点A，与x轴交于点B（2，0），三角形△ABO的面积为2．动点P从点O出发，以每秒1个单位长度的速度在射线OB上运动，动点Q从B出发，沿x轴的正半轴与点P同时以相同的速度运动，过P作PM⊥x轴交直线AB于M．",
+      "stem_text": "若以关于x，y的方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为坐标的点C\\(\\left ( { x，y } \\right )\\)是“燕南点”，求t的值．\n如图，在平面直角坐标系中，一次函数y=kx+b的图象与y轴的正半轴交于点A，与x轴交于点B（2，0），三角形△ABO的面积为2．动点P从点O出发，以每秒1个单位长度的速度在射线OB上运动，动点Q从B出发，沿x轴的正半轴与点P同时以相同的速度运动，过P作PM⊥x轴交直线AB于M．",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(~t=10\\)．",
+      "answer": "\\(~t=10\\)．",
+      "given_solution": "方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为\\(\\begin{cases} x=\\frac { t+2 } { 3 } \\\\ y=\\frac { 4-t } { 3 } \\end{cases}\\)\n∵点\\(C\\left ( { \\frac { t+2 } { 3 },\\frac { 4-t } { 3 } } \\right )\\)是“燕南点”，\n∴\\(\\begin{cases} m-1=\\frac { t+2 } { 3 } \\\\ 3n+1=\\frac { 4-t } { 3 } \\end{cases}\\)\n∴\\(\\begin{cases} m=\\frac { t+5 } { 3 } \\\\ n=\\frac { 1-t } { 9 } \\end{cases}\\)\n\\(\\because m-n=6\\)，∴\\(\\frac { t+5 } { 3 }-\\frac { 1-t } { 9 }=6\\)，解得\\(t=10\\)，\n∴t的值为10．",
+      "solution_steps": [
+        "方程组\\(\\begin{cases} x+y=2 \\\\ 2x-y=t \\end{cases}\\)的解为\\(\\begin{cases} x=\\frac { t+2 } { 3 } \\\\ y=\\frac { 4-t } { 3 } \\end{cases}\\)",
+        "∵点\\(C\\left ( { \\frac { t+2 } { 3 },\\frac { 4-t } { 3 } } \\right )\\)是“燕南点”，",
+        "∴\\(\\begin{cases} m-1=\\frac { t+2 } { 3 } \\\\ 3n+1=\\frac { 4-t } { 3 } \\end{cases}\\)",
+        "∴\\(\\begin{cases} m=\\frac { t+5 } { 3 } \\\\ n=\\frac { 1-t } { 9 } \\end{cases}\\)",
+        "\\(\\because m-n=6\\)，∴\\(\\frac { t+5 } { 3 }-\\frac { 1-t } { 9 }=6\\)，解得\\(t=10\\)，",
+        "∴t的值为10．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      70
+    ],
+    "solution_body_blocks": [
+      347,
+      380
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-E0FA1D3D0C/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          654.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-E0FA1D3D0C/solution-q21-p19.webp",
+      "assets/SZ-G8-T1-E0FA1D3D0C/solution-q21-p20.webp",
+      "assets/SZ-G8-T1-E0FA1D3D0C/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          449.55,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          256.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.G09.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "依据本问原题和解法，核定为“平面直角坐标系与点”。 题面对应“由坐标定位点并判断位置特征”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

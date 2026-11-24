@@ -1,0 +1,388 @@
+{
+  "id": "SZ-G8-T2-8E5451F9DC-Q21",
+  "paper_id": "SZ-G8-T2-8E5451F9DC",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "在菱形ABCD中，对角线AC、BD相交于点O，过点O直线EF分别交DA、BC的延长线于点E、F，连接BE、DF．\n（1）求证：△AOE≌△COF；\n（2）若EF＝BD，BE＝8，BF＝16，求菱形ABCD的面积；\n（3）若EF⊥AB，垂足为G，OB＝3\\(\\sqrt[] { 10 }\\)AG，求\\(\\frac { OA } { AB }\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/88/88cb7a88751b06c82b137e73229364ecfef9ff4233bfbda90c39fcf4a228dad1.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）80；（3）\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)",
+  "answer": "（1）见解析；（2）80；（3）\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)",
+  "given_solution": "【分析】（1）根据菱形性质和全等三角形的判定即可得证；\n（2）根据矩形的判定定理，先判断四边形EBFE是矩形，再根据勾股定理求菱形边长，即可求得结论；\n（3）根据直角三角形的双垂型证明两个直角三角形相似，再根据相似三角形对应边成比例和勾股定理，用含OB的式子表示OA和AB即可得结论．\n【详解】证明：（1）∵四边形ABCD是菱形，\n∴OA＝OC，AD∥BC，\n∴∠EAO＝∠FCO，又∠AOE＝∠COF\n∴△AOE≌△COF（AAS）；\n（2）由△AOE≌△COF，得OE＝OF，\n∵四边形ABCD是菱形，\n∴OB＝OD\n∴四边形EBFD是平行四边形，\n∵EF＝BD，\n∴▱EBFE是矩形，\n∴∠EBF＝90°，\n设菱形ABCD的边长为x，\n∴AB＝AD＝x，\n∴AE＝16﹣x，\n在Rt△AEB中，根据勾股定理，得\nAB\\({}^{2}\\)＝AE\\({}^{2}\\)+BE\\({}^{2}\\)，即x\\({}^{2}\\)＝（16﹣x）\\({}^{2}\\)+8\\({}^{2}\\)，解得x＝10，\n∴S\\({}_{菱形}\\)＝BC•BE＝10×8＝80．\n答：菱形ABCD的面积为80．\n（3）∵EF⊥AB，垂足为G，\n〔图2〕\n∵四边形ABCD是菱形，\n∴OA⊥OB\n∴∠AOG+∠BOG＝90°，\n∵OG⊥AB，\n∴∠AOG+∠OAG＝90°，\n∴∠BOG＝∠OAG，∠AGO＝∠BGO＝90°，\n∴△OBG∽△AOG\n∴\\(\\frac { OG } { BG }=\\frac { AG } { OG }\\)，\n∴OG\\({}^{2}\\)＝AG•BG\n∵在Rt△GOB中，根据勾股定理，得\nOG\\({}^{2}\\)＝OB\\({}^{2}\\)﹣BG\\({}^{2}\\)\n∴OB\\({}^{2}\\)﹣BG\\({}^{2}\\)＝AG•BG，\n∵OB＝3\\(\\sqrt[] { 10 }\\)AG，\n∴BG\\({}^{2}\\)+AG•BG﹣90AG\\({}^{2}\\)＝0\n∴（BG﹣9AG）（BG+10AG）＝0\nBG＝9AG，BG＝﹣10AG（不符合题意，舍去），\nAB＝BG+AG＝10AG，\n在Rt△AOB中，根据勾股定理，得\nOA\\({}^{2}\\)＝AB\\({}^{2}\\)﹣OB\\({}^{2}\\)＝100AG\\({}^{2}\\)﹣90AG\\({}^{2}\\)＝10AG\\({}^{2}\\)\n∴OA＝\\(\\sqrt[] { 10 }\\)AG\n∴\\(\\frac { OA } { AB }=\\frac { \\sqrt[] { 10 }AG } { 10AG }\\)＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)\n答：\\(\\frac { OA } { AB }\\)的值为\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)．\n【点睛】本题考查了矩形的判定和性质、菱形的性质、勾股定理、双垂型三角形相似，解决本题的关键是综合运用以上知识．",
+  "given_solution_figures": [
+    "assets/figures/1c/1c4c09a8bacc7a08cda8de1cdae171f466d7ff231f34b9b624adf1b0ad46b171.png",
+    "assets/figures/f0/f0e71409f180a3d4e8eaee5e06c748bbe54060711a463a3e34ad10be2e8d07f9.png"
+  ],
+  "solution": "证明：（1）∵四边形ABCD是菱形，\n∴OA＝OC，AD∥BC，\n∴∠EAO＝∠FCO，又∠AOE＝∠COF\n∴△AOE≌△COF（AAS）；\n（2）由△AOE≌△COF，得OE＝OF，\n∵四边形ABCD是菱形，\n∴OB＝OD\n∴四边形EBFD是平行四边形，\n∵EF＝BD，\n∴▱EBFE是矩形，\n∴∠EBF＝90°，\n设菱形ABCD的边长为x，\n∴AB＝AD＝x，\n∴AE＝16﹣x，\n在Rt△AEB中，根据勾股定理，得\nAB\\({}^{2}\\)＝AE\\({}^{2}\\)+BE\\({}^{2}\\)，即x\\({}^{2}\\)＝（16﹣x）\\({}^{2}\\)+8\\({}^{2}\\)，解得x＝10，\n∴S\\({}_{菱形}\\)＝BC•BE＝10×8＝80．\n答：菱形ABCD的面积为80．\n（3）∵EF⊥AB，垂足为G，\n〔图2〕\n∵四边形ABCD是菱形，\n∴OA⊥OB\n∴∠AOG+∠BOG＝90°，\n∵OG⊥AB，\n∴∠AOG+∠OAG＝90°，\n∴∠BOG＝∠OAG，∠AGO＝∠BGO＝90°，\n∴△OBG∽△AOG\n∴\\(\\frac { OG } { BG }=\\frac { AG } { OG }\\)，\n∴OG\\({}^{2}\\)＝AG•BG\n∵在Rt△GOB中，根据勾股定理，得\nOG\\({}^{2}\\)＝OB\\({}^{2}\\)﹣BG\\({}^{2}\\)\n∴OB\\({}^{2}\\)﹣BG\\({}^{2}\\)＝AG•BG，\n∵OB＝3\\(\\sqrt[] { 10 }\\)AG，\n∴BG\\({}^{2}\\)+AG•BG﹣90AG\\({}^{2}\\)＝0\n∴（BG﹣9AG）（BG+10AG）＝0\nBG＝9AG，BG＝﹣10AG（不符合题意，舍去），\nAB＝BG+AG＝10AG，\n在Rt△AOB中，根据勾股定理，得\nOA\\({}^{2}\\)＝AB\\({}^{2}\\)﹣OB\\({}^{2}\\)＝100AG\\({}^{2}\\)﹣90AG\\({}^{2}\\)＝10AG\\({}^{2}\\)\n∴OA＝\\(\\sqrt[] { 10 }\\)AG\n∴\\(\\frac { OA } { AB }=\\frac { \\sqrt[] { 10 }AG } { 10AG }\\)＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)\n答：\\(\\frac { OA } { AB }\\)的值为\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)．",
+  "solution_steps": [
+    "证明：（1）∵四边形ABCD是菱形，",
+    "∴OA＝OC，AD∥BC，",
+    "∴∠EAO＝∠FCO，又∠AOE＝∠COF",
+    "∴△AOE≌△COF（AAS）；",
+    "（2）由△AOE≌△COF，得OE＝OF，",
+    "∵四边形ABCD是菱形，",
+    "∴OB＝OD",
+    "∴四边形EBFD是平行四边形，",
+    "∵EF＝BD，",
+    "∴▱EBFE是矩形，",
+    "∴∠EBF＝90°，",
+    "设菱形ABCD的边长为x，",
+    "∴AB＝AD＝x，",
+    "∴AE＝16﹣x，",
+    "在Rt△AEB中，根据勾股定理，得",
+    "AB\\({}^{2}\\)＝AE\\({}^{2}\\)+BE\\({}^{2}\\)，即x\\({}^{2}\\)＝（16﹣x）\\({}^{2}\\)+8\\({}^{2}\\)，解得x＝10，",
+    "∴S\\({}_{菱形}\\)＝BC•BE＝10×8＝80．",
+    "答：菱形ABCD的面积为80．",
+    "（3）∵EF⊥AB，垂足为G，",
+    "〔图2〕",
+    "∵四边形ABCD是菱形，",
+    "∴OA⊥OB",
+    "∴∠AOG+∠BOG＝90°，",
+    "∵OG⊥AB，",
+    "∴∠AOG+∠OAG＝90°，",
+    "∴∠BOG＝∠OAG，∠AGO＝∠BGO＝90°，",
+    "∴△OBG∽△AOG",
+    "∴\\(\\frac { OG } { BG }=\\frac { AG } { OG }\\)，",
+    "∴OG\\({}^{2}\\)＝AG•BG",
+    "∵在Rt△GOB中，根据勾股定理，得",
+    "OG\\({}^{2}\\)＝OB\\({}^{2}\\)﹣BG\\({}^{2}\\)",
+    "∴OB\\({}^{2}\\)﹣BG\\({}^{2}\\)＝AG•BG，",
+    "∵OB＝3\\(\\sqrt[] { 10 }\\)AG，",
+    "∴BG\\({}^{2}\\)+AG•BG﹣90AG\\({}^{2}\\)＝0",
+    "∴（BG﹣9AG）（BG+10AG）＝0",
+    "BG＝9AG，BG＝﹣10AG（不符合题意，舍去），",
+    "AB＝BG+AG＝10AG，",
+    "在Rt△AOB中，根据勾股定理，得",
+    "OA\\({}^{2}\\)＝AB\\({}^{2}\\)﹣OB\\({}^{2}\\)＝100AG\\({}^{2}\\)﹣90AG\\({}^{2}\\)＝10AG\\({}^{2}\\)",
+    "∴OA＝\\(\\sqrt[] { 10 }\\)AG",
+    "∴\\(\\frac { OA } { AB }=\\frac { \\sqrt[] { 10 }AG } { 10AG }\\)＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)",
+    "答：\\(\\frac { OA } { AB }\\)的值为\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在菱形ABCD中，对角线AC、BD相交于点O，过点O直线EF分别交DA、BC的延长线于点E、F，连接BE、DF．",
+      "paper_blocks": [
+        51
+      ]
+    },
+    {
+      "id": "fig-55",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        55
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-8E5451F9DC-Q21-P01",
+      "label": "（1）",
+      "prompt": "求证：△AOE≌△COF；",
+      "stem_text": "求证：△AOE≌△COF；",
+      "material_ids": [
+        "context",
+        "fig-55"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵四边形ABCD是菱形，\n∴OA＝OC，AD∥BC，\n∴∠EAO＝∠FCO，又∠AOE＝∠COF\n∴△AOE≌△COF（AAS）；",
+      "solution_steps": [
+        "∵四边形ABCD是菱形，",
+        "∴OA＝OC，AD∥BC，",
+        "∴∠EAO＝∠FCO，又∠AOE＝∠COF",
+        "∴△AOE≌△COF（AAS）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          55
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-8E5451F9DC-Q21-P02",
+      "label": "（2）",
+      "prompt": "若EF＝BD，BE＝8，BF＝16，求菱形ABCD的面积；",
+      "stem_text": "若EF＝BD，BE＝8，BF＝16，求菱形ABCD的面积；",
+      "material_ids": [
+        "context",
+        "fig-55"
+      ],
+      "requires": [],
+      "given_answer": "80；",
+      "answer": "80；",
+      "given_solution": "由△AOE≌△COF，得OE＝OF，\n∵四边形ABCD是菱形，\n∴OB＝OD\n∴四边形EBFD是平行四边形，\n∵EF＝BD，\n∴▱EBFE是矩形，\n∴∠EBF＝90°，\n设菱形ABCD的边长为x，\n∴AB＝AD＝x，\n∴AE＝16﹣x，\n在Rt△AEB中，根据勾股定理，得\nAB\\({}^{2}\\)＝AE\\({}^{2}\\)+BE\\({}^{2}\\)，即x\\({}^{2}\\)＝（16﹣x）\\({}^{2}\\)+8\\({}^{2}\\)，解得x＝10，\n∴S\\({}_{菱形}\\)＝BC•BE＝10×8＝80．\n答：菱形ABCD的面积为80．",
+      "solution_steps": [
+        "由△AOE≌△COF，得OE＝OF，",
+        "∵四边形ABCD是菱形，",
+        "∴OB＝OD",
+        "∴四边形EBFD是平行四边形，",
+        "∵EF＝BD，",
+        "∴▱EBFE是矩形，",
+        "∴∠EBF＝90°，",
+        "设菱形ABCD的边长为x，",
+        "∴AB＝AD＝x，",
+        "∴AE＝16﹣x，",
+        "在Rt△AEB中，根据勾股定理，得",
+        "AB\\({}^{2}\\)＝AE\\({}^{2}\\)+BE\\({}^{2}\\)，即x\\({}^{2}\\)＝（16﹣x）\\({}^{2}\\)+8\\({}^{2}\\)，解得x＝10，",
+        "∴S\\({}_{菱形}\\)＝BC•BE＝10×8＝80．",
+        "答：菱形ABCD的面积为80．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          53,
+          55
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-8E5451F9DC-Q21-P03",
+      "label": "（3）",
+      "prompt": "若EF⊥AB，垂足为G，OB＝3\\(\\sqrt[] { 10 }\\)AG，求\\(\\frac { OA } { AB }\\)的值．",
+      "stem_text": "若EF⊥AB，垂足为G，OB＝3\\(\\sqrt[] { 10 }\\)AG，求\\(\\frac { OA } { AB }\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-55"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)",
+      "answer": "\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)",
+      "given_solution": "∵EF⊥AB，垂足为G，\n〔图2〕\n∵四边形ABCD是菱形，\n∴OA⊥OB\n∴∠AOG+∠BOG＝90°，\n∵OG⊥AB，\n∴∠AOG+∠OAG＝90°，\n∴∠BOG＝∠OAG，∠AGO＝∠BGO＝90°，\n∴△OBG∽△AOG\n∴\\(\\frac { OG } { BG }=\\frac { AG } { OG }\\)，\n∴OG\\({}^{2}\\)＝AG•BG\n∵在Rt△GOB中，根据勾股定理，得\nOG\\({}^{2}\\)＝OB\\({}^{2}\\)﹣BG\\({}^{2}\\)\n∴OB\\({}^{2}\\)﹣BG\\({}^{2}\\)＝AG•BG，\n∵OB＝3\\(\\sqrt[] { 10 }\\)AG，\n∴BG\\({}^{2}\\)+AG•BG﹣90AG\\({}^{2}\\)＝0\n∴（BG﹣9AG）（BG+10AG）＝0\nBG＝9AG，BG＝﹣10AG（不符合题意，舍去），\nAB＝BG+AG＝10AG，\n在Rt△AOB中，根据勾股定理，得\nOA\\({}^{2}\\)＝AB\\({}^{2}\\)﹣OB\\({}^{2}\\)＝100AG\\({}^{2}\\)﹣90AG\\({}^{2}\\)＝10AG\\({}^{2}\\)\n∴OA＝\\(\\sqrt[] { 10 }\\)AG\n∴\\(\\frac { OA } { AB }=\\frac { \\sqrt[] { 10 }AG } { 10AG }\\)＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)\n答：\\(\\frac { OA } { AB }\\)的值为\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)．",
+      "solution_steps": [
+        "∵EF⊥AB，垂足为G，",
+        "〔图2〕",
+        "∵四边形ABCD是菱形，",
+        "∴OA⊥OB",
+        "∴∠AOG+∠BOG＝90°，",
+        "∵OG⊥AB，",
+        "∴∠AOG+∠OAG＝90°，",
+        "∴∠BOG＝∠OAG，∠AGO＝∠BGO＝90°，",
+        "∴△OBG∽△AOG",
+        "∴\\(\\frac { OG } { BG }=\\frac { AG } { OG }\\)，",
+        "∴OG\\({}^{2}\\)＝AG•BG",
+        "∵在Rt△GOB中，根据勾股定理，得",
+        "OG\\({}^{2}\\)＝OB\\({}^{2}\\)﹣BG\\({}^{2}\\)",
+        "∴OB\\({}^{2}\\)﹣BG\\({}^{2}\\)＝AG•BG，",
+        "∵OB＝3\\(\\sqrt[] { 10 }\\)AG，",
+        "∴BG\\({}^{2}\\)+AG•BG﹣90AG\\({}^{2}\\)＝0",
+        "∴（BG﹣9AG）（BG+10AG）＝0",
+        "BG＝9AG，BG＝﹣10AG（不符合题意，舍去），",
+        "AB＝BG+AG＝10AG，",
+        "在Rt△AOB中，根据勾股定理，得",
+        "OA\\({}^{2}\\)＝AB\\({}^{2}\\)﹣OB\\({}^{2}\\)＝100AG\\({}^{2}\\)﹣90AG\\({}^{2}\\)＝10AG\\({}^{2}\\)",
+        "∴OA＝\\(\\sqrt[] { 10 }\\)AG",
+        "∴\\(\\frac { OA } { AB }=\\frac { \\sqrt[] { 10 }AG } { 10AG }\\)＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)",
+        "答：\\(\\frac { OA } { AB }\\)的值为\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          51,
+          54,
+          55
+        ],
+        "solution_block_ids": [
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      51,
+      55
+    ],
+    "solution_body_blocks": [
+      290,
+      342
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-8E5451F9DC/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          440.45,
+          583.64,
+          670.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q21-p15.webp",
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q21-p16.webp",
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q21-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          403.18,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          306.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,260 @@
+{
+  "id": "SZ-G8-T1-2BB46AC0C1-Q17",
+  "paper_id": "SZ-G8-T1-2BB46AC0C1",
+  "number": 17,
+  "type": "解答题",
+  "points": 8.0,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "（8分）在“欢乐周末·非遗市集”活动现场，诸多非遗项目集中亮相，让过往游客市民看花了眼、“迷”住了心．小明买了一个年画风筝，并进行了试放，为了解决一些问题，他设计了如下的方案：先测得放飞点与风筝的水平距离\\(BD\\)为15m；根据手中余线长度，计算出\\(AC\\)的长度为17m；牵线放风筝的手到地面的距离\\(AB\\)为1.5m．已知点A，B，C，D在同一平面内．\n〔图1〕\n(1)求风筝离地面的垂直高度\\(CD\\)；\n(2)在余线仅剩9m的情况下，若想要风筝沿射线\\(DC\\)方向再上升12m，请问能否成功？请运用数学知识说明．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/57e29be88777844eb28f1f28f2e30b7344b69bb2cc500cde65f1a3b7bae59c5c.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）在“欢乐周末·非遗市集”活动现场，诸多非遗项目集中亮相，让过往游客市民看花了眼、“迷”住了心．小明买了一个年画风筝，并进行了试放，为了解决一些问题，他设计了如下的方案：先测得放飞点与风筝的水平距离\\(BD\\)为15m；根据手中余线长度，计算出\\(AC\\)的长度为17m；牵线放风筝的手到地面的距离\\(AB\\)为1.5m．已知点A，B，C，D在同一平面内．\n〔图1〕",
+      "paper_blocks": [
+        82,
+        83
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q17-P01",
+      "label": "(1)",
+      "prompt": "求风筝离地面的垂直高度\\(CD\\)；",
+      "stem_text": "求风筝离地面的垂直高度\\(CD\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)",
+      "given_solution": "解：如图1所示，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，\n〔图1〕\n则\\(AE=BD=15{ \\rm{ m } }\\)，\\(AB=CD=1.5{ \\rm{ m } }\\)，\\(\\angle AEC=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEC\\)中，\n\\(CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 17 ^ { 2 } -15 ^ { 2 } }=8\\left ( { { \\rm{ m } } } \\right )\\)，(2分）\n\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)．(4分）",
+      "solution_steps": [
+        "解：如图1所示，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，",
+        "〔图1〕",
+        "则\\(AE=BD=15{ \\rm{ m } }\\)，\\(AB=CD=1.5{ \\rm{ m } }\\)，\\(\\angle AEC=90{}^\\circ\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEC\\)中，",
+        "\\(CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 17 ^ { 2 } -15 ^ { 2 } }=8\\left ( { { \\rm{ m } } } \\right )\\)，(2分）",
+        "\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)．(4分）"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          190,
+          191,
+          192,
+          193,
+          194,
+          195
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          10,
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q17-P02",
+      "label": "(2)",
+      "prompt": "在余线仅剩9m的情况下，若想要风筝沿射线\\(DC\\)方向再上升12m，请问能否成功？请运用数学知识说明．",
+      "stem_text": "在余线仅剩9m的情况下，若想要风筝沿射线\\(DC\\)方向再上升12m，请问能否成功？请运用数学知识说明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴不能上升12m，即不能成功",
+      "given_solution": "解：不能成功，理由如下：\n假设能上升12m，如图所示，延长\\(DC\\)至点\\(F\\)，连接\\(AF\\)，\n〔图2〕\n则\\(CF=12{ \\rm{ m } }\\)，\n\\(\\therefore EF=CE+CF=8+12=20\\left ( { { \\rm{ m } } } \\right )\\)．(5分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)中，\n\\(AF=\\sqrt[] { AE ^ { 2 } +EF ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\left ( { { \\rm{ m } } } \\right )\\)．(6分）\n\\(\\because AC=17m\\)，余线仅剩7m，(7分）\n∴\\(17+7=24 < 25\\)，\n∴不能上升12m，即不能成功．(8分）",
+      "solution_steps": [
+        "解：不能成功，理由如下：",
+        "假设能上升12m，如图所示，延长\\(DC\\)至点\\(F\\)，连接\\(AF\\)，",
+        "〔图2〕",
+        "则\\(CF=12{ \\rm{ m } }\\)，",
+        "\\(\\therefore EF=CE+CF=8+12=20\\left ( { { \\rm{ m } } } \\right )\\)．(5分）",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)中，",
+        "\\(AF=\\sqrt[] { AE ^ { 2 } +EF ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\left ( { { \\rm{ m } } } \\right )\\)．(6分）",
+        "\\(\\because AC=17m\\)，余线仅剩7m，(7分）",
+        "∴\\(17+7=24 < 25\\)，",
+        "∴不能上升12m，即不能成功．(8分）"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85
+        ],
+        "solution_block_ids": [
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)\n（2）∴不能上升12m，即不能成功",
+  "given_solution": "【详解】（1）解：如图1所示，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，\n〔图1〕\n则\\(AE=BD=15{ \\rm{ m } }\\)，\\(AB=CD=1.5{ \\rm{ m } }\\)，\\(\\angle AEC=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEC\\)中，\n\\(CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 17 ^ { 2 } -15 ^ { 2 } }=8\\left ( { { \\rm{ m } } } \\right )\\)，(2分）\n\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)．(4分）\n（2）解：不能成功，理由如下：\n假设能上升12m，如图所示，延长\\(DC\\)至点\\(F\\)，连接\\(AF\\)，\n〔图2〕\n则\\(CF=12{ \\rm{ m } }\\)，\n\\(\\therefore EF=CE+CF=8+12=20\\left ( { { \\rm{ m } } } \\right )\\)．(5分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)中，\n\\(AF=\\sqrt[] { AE ^ { 2 } +EF ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\left ( { { \\rm{ m } } } \\right )\\)．(6分）\n\\(\\because AC=17m\\)，余线仅剩7m，(7分）\n∴\\(17+7=24 < 25\\)，\n∴不能上升12m，即不能成功．(8分）",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/60e6bc667ef8727be2253cc5127034d00d60483a3e64863b928573900d4ed936.png",
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/ffb965c1bbbd58a026f6dfa11a69bc8cb9e2c038554b1a756284e9aa7ea1364b.png"
+  ],
+  "solution_steps": [
+    "（1）解：如图1所示，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，",
+    "〔图1〕",
+    "则\\(AE=BD=15{ \\rm{ m } }\\)，\\(AB=CD=1.5{ \\rm{ m } }\\)，\\(\\angle AEC=90{}^\\circ\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEC\\)中，",
+    "\\(CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 17 ^ { 2 } -15 ^ { 2 } }=8\\left ( { { \\rm{ m } } } \\right )\\)，(2分）",
+    "\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)．(4分）",
+    "（2）解：不能成功，理由如下：",
+    "假设能上升12m，如图所示，延长\\(DC\\)至点\\(F\\)，连接\\(AF\\)，",
+    "〔图2〕",
+    "则\\(CF=12{ \\rm{ m } }\\)，",
+    "\\(\\therefore EF=CE+CF=8+12=20\\left ( { { \\rm{ m } } } \\right )\\)．(5分）",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)中，",
+    "\\(AF=\\sqrt[] { AE ^ { 2 } +EF ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\left ( { { \\rm{ m } } } \\right )\\)．(6分）",
+    "\\(\\because AC=17m\\)，余线仅剩7m，(7分）",
+    "∴\\(17+7=24 < 25\\)，",
+    "∴不能上升12m，即不能成功．(8分）"
+  ],
+  "solution": "（1）解：如图1所示，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，\n〔图1〕\n则\\(AE=BD=15{ \\rm{ m } }\\)，\\(AB=CD=1.5{ \\rm{ m } }\\)，\\(\\angle AEC=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEC\\)中，\n\\(CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 17 ^ { 2 } -15 ^ { 2 } }=8\\left ( { { \\rm{ m } } } \\right )\\)，(2分）\n\\(\\therefore CD=CE+CD=8+1.5=9.5\\left ( { { \\rm{ m } } } \\right )\\)．(4分）\n（2）解：不能成功，理由如下：\n假设能上升12m，如图所示，延长\\(DC\\)至点\\(F\\)，连接\\(AF\\)，\n〔图2〕\n则\\(CF=12{ \\rm{ m } }\\)，\n\\(\\therefore EF=CE+CF=8+12=20\\left ( { { \\rm{ m } } } \\right )\\)．(5分）\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)中，\n\\(AF=\\sqrt[] { AE ^ { 2 } +EF ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\left ( { { \\rm{ m } } } \\right )\\)．(6分）\n\\(\\because AC=17m\\)，余线仅剩7m，(7分）\n∴\\(17+7=24 < 25\\)，\n∴不能上升12m，即不能成功．(8分）",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "paper_body_blocks": [
+      82,
+      95
+    ],
+    "solution_body_blocks": [
+      190,
+      205
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-2BB46AC0C1/paper-q17-p04.webp",
+      "assets/SZ-G8-T1-2BB46AC0C1/paper-q17-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          717.73,
+          583.64,
+          752.73
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          70.91,
+          583.64,
+          259.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-2BB46AC0C1/solution-q17-p10.webp",
+      "assets/SZ-G8-T1-2BB46AC0C1/solution-q17-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          676.36,
+          583.64,
+          690.91
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          82.27,
+          583.64,
+          651.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

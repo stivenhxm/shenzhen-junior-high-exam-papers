@@ -1,0 +1,379 @@
+{
+  "id": "SZ-G8-T2-2086D61EDB-Q22",
+  "paper_id": "SZ-G8-T2-2086D61EDB",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由平移或对称写出坐标变化、将特殊图形条件转为坐标关系",
+  "stem": "如图1，在平面直角坐标系中，直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b与x轴、y轴相交于A、B两点，动点C（m，0）在线段OA上，将线段CB绕着点C顺时针旋转90°得到CD，此时点D恰好落在直线AB上，过点D作DE⊥x轴于点E．\n（1）求m和b的数量关系；\n（2）当m＝1时，如图2，将△BCD沿x轴正方向平移得△B′C′D′，当直线B′C′经过点D时，求点B′的坐标及△BCD平移的距离；\n（3）在（2）的条件下，直线AB上是否存在一点P，以P、C、D为顶点的三角形是等腰直角三角形？若存在，写出满足条件的P点坐标；若不存在，请说明理由．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/d4/d437237f841bd28ff7bdf0552360ca209967d38e3b5827c8a3b7573f1c54ca59.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）b=3m；（2）\\(B'(\\frac { 10 } { 3 },3),\\frac { 10 } { 3 }\\)个单位长度；（3）P(0,3)或（2，2）",
+  "answer": "（1）b=3m；（2）\\(B'(\\frac { 10 } { 3 },3),\\frac { 10 } { 3 }\\)个单位长度；（3）P(0,3)或（2，2）",
+  "given_solution": "【分析】（1）易证△BOC≌△CED，可得BO=CE=b，DE=OC=m，可得点D坐标，代入解析式可求m和b的数量关系；\n（2）首先求出点D的坐标，再求出直线B′C′的解析式，求出点C′的坐标即可解决问题；\n（3）分两种情况讨论，由等腰直角三角形的性质可求点P坐标．\n【详解】解：（1）直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b中，x＝0时，y＝b，\n所以，B（0，b），又C（m，0），\n所以，OB＝b，OC＝m，\n〔图2〕\n在\\(\\vartriangle OBC\\)和\\(\\Delta ECD\\)中\n\\(\\begin{cases} \\angle OBC=\\angle ECD \\\\ BC=CD \\\\ \\angle BOC=\\angle DEC=90 ^ { {}^\\circ } \\end{cases}\\)\n〔图3〕\n∴点\\(D(b+m,m)\\)\n〔图4〕\n（2）∵m=1，\n∴b=3，点C（1，0），点D（4，1）\n∴直线AB解析式为：\\(y=-\\frac { 1 } { 2 }x+3\\)\n设直线BC解析式为：y=ax+3，且过（1，0）\n∴0=a+3\n∴a=-3\n∴直线BC的解析式为y=-3x+3，\n设直线B′C′的解析式为y=-3x+c，把D（4，1）代入得到c=13，\n∴直线B′C′的解析式为y=-3x+13，\n当y=3时，\\(x=\\frac { 10 } { 3 }\\)\n当y=0时，\\(x=\\frac { 13 } { 3 }\\)\n\\(\\therefore B ^ { \\prime } \\left ( { \\frac { 10 } { 3 },3 } \\right ),C ^ { \\prime } \\left ( { \\frac { 13 } { 3 },0 } \\right )\\)\n\\(\\therefore CC ^ { \\prime } =\\frac { 10 } { 3 }\\)\n∴△BCD平移的距离是\\(\\frac { 10 } { 3 }\\)个单位．\n（3）当∠PCD=90°，PC=CD时，点P与点B重合，\n∴点P（0，3）\n如图，当∠CPD=90°，PC=PD时，\n〔图5〕\n∵BC=CD，∠BCD=90°，∠CPD=90°\n∴BP=PD\n∴点P是BD的中点，且点B（0，3），点D（4，1）\n∴点P（2，2）\n综上所述，点P为（0，3）或（2，2）时，以P、C、D为顶点的三角形是等腰直角三角形．\n【点睛】本题考查一次函数综合题、等腰直角三角形的性质、全等三角形的判定和性质、待定系数法等知识，解题的关键是灵活运用待定系数法解决问题，学会用分类讨论的思想思考问题，学会用平移性质解决问题，属于中考压轴题．",
+  "given_solution_figures": [
+    "assets/figures/e4/e400fd4e365efb4d2d2efb2e42886a2a816128778e4fc9dd7a70e59a3a28a164.png",
+    "assets/figures/22/2239260fa34974182344bede55b3b1294f0145f645f814cc3adde84eada0d6f4.png",
+    "assets/figures/1a/1aa836fba07faafa2711584be514bed0e2afcf3ee8ca732c4e39f431b94fbe87.png",
+    "assets/figures/65/65ad003394ecaabff2f92a18d053d3ddb952e7fec74c8004ea3119727790dcfe.png",
+    "assets/figures/14/14e9bbe348fa1efa9479ed2340f5f2504047400a61df8b8e487ba6b8c198835f.png"
+  ],
+  "solution": "解：（1）直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b中，x＝0时，y＝b，\n所以，B（0，b），又C（m，0），\n所以，OB＝b，OC＝m，\n〔图2〕\n在\\(\\vartriangle OBC\\)和\\(\\Delta ECD\\)中\n\\(\\begin{cases} \\angle OBC=\\angle ECD \\\\ BC=CD \\\\ \\angle BOC=\\angle DEC=90 ^ { {}^\\circ } \\end{cases}\\)\n〔图3〕\n∴点\\(D(b+m,m)\\)\n〔图4〕\n（2）∵m=1，\n∴b=3，点C（1，0），点D（4，1）\n∴直线AB解析式为：\\(y=-\\frac { 1 } { 2 }x+3\\)\n设直线BC解析式为：y=ax+3，且过（1，0）\n∴0=a+3\n∴a=-3\n∴直线BC的解析式为y=-3x+3，\n设直线B′C′的解析式为y=-3x+c，把D（4，1）代入得到c=13，\n∴直线B′C′的解析式为y=-3x+13，\n当y=3时，\\(x=\\frac { 10 } { 3 }\\)\n当y=0时，\\(x=\\frac { 13 } { 3 }\\)\n\\(\\therefore B ^ { \\prime } \\left ( { \\frac { 10 } { 3 },3 } \\right ),C ^ { \\prime } \\left ( { \\frac { 13 } { 3 },0 } \\right )\\)\n\\(\\therefore CC ^ { \\prime } =\\frac { 10 } { 3 }\\)\n∴△BCD平移的距离是\\(\\frac { 10 } { 3 }\\)个单位．\n（3）当∠PCD=90°，PC=CD时，点P与点B重合，\n∴点P（0，3）\n如图，当∠CPD=90°，PC=PD时，\n〔图5〕\n∵BC=CD，∠BCD=90°，∠CPD=90°\n∴BP=PD\n∴点P是BD的中点，且点B（0，3），点D（4，1）\n∴点P（2，2）\n综上所述，点P为（0，3）或（2，2）时，以P、C、D为顶点的三角形是等腰直角三角形．",
+  "solution_steps": [
+    "解：（1）直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b中，x＝0时，y＝b，",
+    "所以，B（0，b），又C（m，0），",
+    "所以，OB＝b，OC＝m，",
+    "〔图2〕",
+    "在\\(\\vartriangle OBC\\)和\\(\\Delta ECD\\)中",
+    "\\(\\begin{cases} \\angle OBC=\\angle ECD \\\\ BC=CD \\\\ \\angle BOC=\\angle DEC=90 ^ { {}^\\circ } \\end{cases}\\)",
+    "〔图3〕",
+    "∴点\\(D(b+m,m)\\)",
+    "〔图4〕",
+    "（2）∵m=1，",
+    "∴b=3，点C（1，0），点D（4，1）",
+    "∴直线AB解析式为：\\(y=-\\frac { 1 } { 2 }x+3\\)",
+    "设直线BC解析式为：y=ax+3，且过（1，0）",
+    "∴0=a+3",
+    "∴a=-3",
+    "∴直线BC的解析式为y=-3x+3，",
+    "设直线B′C′的解析式为y=-3x+c，把D（4，1）代入得到c=13，",
+    "∴直线B′C′的解析式为y=-3x+13，",
+    "当y=3时，\\(x=\\frac { 10 } { 3 }\\)",
+    "当y=0时，\\(x=\\frac { 13 } { 3 }\\)",
+    "\\(\\therefore B ^ { \\prime } \\left ( { \\frac { 10 } { 3 },3 } \\right ),C ^ { \\prime } \\left ( { \\frac { 13 } { 3 },0 } \\right )\\)",
+    "\\(\\therefore CC ^ { \\prime } =\\frac { 10 } { 3 }\\)",
+    "∴△BCD平移的距离是\\(\\frac { 10 } { 3 }\\)个单位．",
+    "（3）当∠PCD=90°，PC=CD时，点P与点B重合，",
+    "∴点P（0，3）",
+    "如图，当∠CPD=90°，PC=PD时，",
+    "〔图5〕",
+    "∵BC=CD，∠BCD=90°，∠CPD=90°",
+    "∴BP=PD",
+    "∴点P是BD的中点，且点B（0，3），点D（4，1）",
+    "∴点P（2，2）",
+    "综上所述，点P为（0，3）或（2，2）时，以P、C、D为顶点的三角形是等腰直角三角形．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在平面直角坐标系中，直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b与x轴、y轴相交于A、B两点，动点C（m，0）在线段OA上，将线段CB绕着点C顺时针旋转90°得到CD，此时点D恰好落在直线AB上，过点D作DE⊥x轴于点E．",
+      "paper_blocks": [
+        58
+      ]
+    },
+    {
+      "id": "fig-62",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        62
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：当m＝1时，如图2，将△BCD沿x轴正方向平移得△B′C′D′，当直线B′C′经过点D时，求点B′的坐标及△BCD平移的距离；",
+      "paper_blocks": [
+        58,
+        60,
+        62,
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-2086D61EDB-Q22-P01",
+      "label": "（1）",
+      "prompt": "求m和b的数量关系；",
+      "stem_text": "求m和b的数量关系；",
+      "material_ids": [
+        "context",
+        "fig-62"
+      ],
+      "requires": [],
+      "given_answer": "b=3m；",
+      "answer": "b=3m；",
+      "given_solution": "直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b中，x＝0时，y＝b，\n所以，B（0，b），又C（m，0），\n所以，OB＝b，OC＝m，\n〔图2〕\n在\\(\\vartriangle OBC\\)和\\(\\Delta ECD\\)中\n\\(\\begin{cases} \\angle OBC=\\angle ECD \\\\ BC=CD \\\\ \\angle BOC=\\angle DEC=90 ^ { {}^\\circ } \\end{cases}\\)\n〔图3〕\n∴点\\(D(b+m,m)\\)\n〔图4〕",
+      "solution_steps": [
+        "直线y＝﹣\\(\\frac { 1 } { 2 }\\)x+b中，x＝0时，y＝b，",
+        "所以，B（0，b），又C（m，0），",
+        "所以，OB＝b，OC＝m，",
+        "〔图2〕",
+        "在\\(\\vartriangle OBC\\)和\\(\\Delta ECD\\)中",
+        "\\(\\begin{cases} \\angle OBC=\\angle ECD \\\\ BC=CD \\\\ \\angle BOC=\\angle DEC=90 ^ { {}^\\circ } \\end{cases}\\)",
+        "〔图3〕",
+        "∴点\\(D(b+m,m)\\)",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          62,
+          64
+        ],
+        "solution_block_ids": [
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2086D61EDB-Q22-P02",
+      "label": "（2）",
+      "prompt": "当m＝1时，如图2，将△BCD沿x轴正方向平移得△B′C′D′，当直线B′C′经过点D时，求点B′的坐标及△BCD平移的距离；",
+      "stem_text": "当m＝1时，如图2，将△BCD沿x轴正方向平移得△B′C′D′，当直线B′C′经过点D时，求点B′的坐标及△BCD平移的距离；",
+      "material_ids": [
+        "context",
+        "fig-62"
+      ],
+      "requires": [],
+      "given_answer": "\\(B'(\\frac { 10 } { 3 },3),\\frac { 10 } { 3 }\\)个单位长度；",
+      "answer": "\\(B'(\\frac { 10 } { 3 },3),\\frac { 10 } { 3 }\\)个单位长度；",
+      "given_solution": "∵m=1，\n∴b=3，点C（1，0），点D（4，1）\n∴直线AB解析式为：\\(y=-\\frac { 1 } { 2 }x+3\\)\n设直线BC解析式为：y=ax+3，且过（1，0）\n∴0=a+3\n∴a=-3\n∴直线BC的解析式为y=-3x+3，\n设直线B′C′的解析式为y=-3x+c，把D（4，1）代入得到c=13，\n∴直线B′C′的解析式为y=-3x+13，\n当y=3时，\\(x=\\frac { 10 } { 3 }\\)\n当y=0时，\\(x=\\frac { 13 } { 3 }\\)\n\\(\\therefore B ^ { \\prime } \\left ( { \\frac { 10 } { 3 },3 } \\right ),C ^ { \\prime } \\left ( { \\frac { 13 } { 3 },0 } \\right )\\)\n\\(\\therefore CC ^ { \\prime } =\\frac { 10 } { 3 }\\)\n∴△BCD平移的距离是\\(\\frac { 10 } { 3 }\\)个单位．",
+      "solution_steps": [
+        "∵m=1，",
+        "∴b=3，点C（1，0），点D（4，1）",
+        "∴直线AB解析式为：\\(y=-\\frac { 1 } { 2 }x+3\\)",
+        "设直线BC解析式为：y=ax+3，且过（1，0）",
+        "∴0=a+3",
+        "∴a=-3",
+        "∴直线BC的解析式为y=-3x+3，",
+        "设直线B′C′的解析式为y=-3x+c，把D（4，1）代入得到c=13，",
+        "∴直线B′C′的解析式为y=-3x+13，",
+        "当y=3时，\\(x=\\frac { 10 } { 3 }\\)",
+        "当y=0时，\\(x=\\frac { 13 } { 3 }\\)",
+        "\\(\\therefore B ^ { \\prime } \\left ( { \\frac { 10 } { 3 },3 } \\right ),C ^ { \\prime } \\left ( { \\frac { 13 } { 3 },0 } \\right )\\)",
+        "\\(\\therefore CC ^ { \\prime } =\\frac { 10 } { 3 }\\)",
+        "∴△BCD平移的距离是\\(\\frac { 10 } { 3 }\\)个单位．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          58,
+          60,
+          62,
+          64
+        ],
+        "solution_block_ids": [
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2086D61EDB-Q22-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，直线AB上是否存在一点P，以P、C、D为顶点的三角形是等腰直角三角形？若存在，写出满足条件的P点坐标；若不存在，请说明理由．",
+      "stem_text": "在（2）的条件下，直线AB上是否存在一点P，以P、C、D为顶点的三角形是等腰直角三角形？若存在，写出满足条件的P点坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "fig-62",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T2-2086D61EDB-Q22-P02"
+      ],
+      "given_answer": "P(0,3)或（2，2）",
+      "answer": "P(0,3)或（2，2）",
+      "given_solution": "当∠PCD=90°，PC=CD时，点P与点B重合，\n∴点P（0，3）\n如图，当∠CPD=90°，PC=PD时，\n〔图5〕\n∵BC=CD，∠BCD=90°，∠CPD=90°\n∴BP=PD\n∴点P是BD的中点，且点B（0，3），点D（4，1）\n∴点P（2，2）\n综上所述，点P为（0，3）或（2，2）时，以P、C、D为顶点的三角形是等腰直角三角形．",
+      "solution_steps": [
+        "当∠PCD=90°，PC=CD时，点P与点B重合，",
+        "∴点P（0，3）",
+        "如图，当∠CPD=90°，PC=PD时，",
+        "〔图5〕",
+        "∵BC=CD，∠BCD=90°，∠CPD=90°",
+        "∴BP=PD",
+        "∴点P是BD的中点，且点B（0，3），点D（4，1）",
+        "∴点P（2，2）",
+        "综上所述，点P为（0，3）或（2，2）时，以P、C、D为顶点的三角形是等腰直角三角形．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          60,
+          61,
+          62,
+          64
+        ],
+        "solution_block_ids": [
+          306
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.03"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      64
+    ],
+    "solution_body_blocks": [
+      276,
+      309
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2086D61EDB/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-2086D61EDB/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          580.91,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          167.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2086D61EDB/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-2086D61EDB/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          580.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G09.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.02.01",
+    "E.G09.03.03"
+  ],
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。 本问的式子结构和所求量对应“由平移或对称写出坐标变化”。 本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+  "tag_source": "小问标签汇总"
+}

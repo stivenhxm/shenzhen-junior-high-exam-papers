@@ -1,0 +1,423 @@
+{
+  "id": "SZ-G8-T1-9246E13ACE-Q22",
+  "paper_id": "SZ-G8-T1-9246E13ACE",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将面积条件转为点的位置约束",
+  "stem": "如图①，直线\\(y=kx+b\\)与x轴交于点\\(A\\left ( { 4，0 } \\right )\\)，与y轴交于点B，与直线\\(y=-2x\\)交于点\\(C\\left ( { a，-4 } \\right )\\)．\n〔图1〕\n（1）求点C的坐标及直线\\(AB\\)的表达式；\n（2）点P在y轴上，若\\(\\vartriangle { \\rm{ P } }{ \\rm{ B } }{ \\rm{ C } }\\)的面积为6，求点P的坐标；\n（3）如图②，过x轴正半轴上的动点\\(D\\left ( { m，0 } \\right )\\)作直线\\(l\\bot x\\)轴，点Q在直线l上，若以B，C，Q为顶点的三角形是等腰直角三角形，请直接写出相应m的值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-9246E13ACE/figures/cb2029c87c6f6b70b36bd0f181cf3266d213e4ced30ce6a4c448523f5cc1611c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(C\\left ( { 2,-4 } \\right )\\)，直线AB的表达式\\(y=2x﹣8\\)；\n（2）点P的坐标为\\(\\left ( { 0,-2 } \\right )\\)或\\(\\left ( { 0，-14 } \\right )\\)；\n（3）m的值为4或6或3．",
+  "answer": "（1）\\(C\\left ( { 2,-4 } \\right )\\)，直线AB的表达式\\(y=2x﹣8\\)；\n（2）点P的坐标为\\(\\left ( { 0,-2 } \\right )\\)或\\(\\left ( { 0，-14 } \\right )\\)；\n（3）m的值为4或6或3．",
+  "given_solution": "【分析】（1）将点\\(C\\)的坐标代入直线\\(y=-2x\\)可得出\\(a\\)的值，即得\\(C\\)点坐标，再用待定系数法求直线\\(AB\\)的表达式即可；\n（2）设点\\(P\\)的坐标为\\(\\left ( { 0,p } \\right )\\)，先求出点B的坐标，然后根据\\(\\vartriangle PBC\\)\n的面积为4求解即可；\n（3）分三种情况：①当\\(BC=BQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，过点\\(Q\\)作\\(QN\\bot y\\)轴于\\(N\\)，②当\\(BC=CQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，延长\\(MC\\)交直线\\(l\\)于\\(N\\)，③当\\(BQ=CQ\\)时，过点\\(C\\)作\\({ \\rm{ C } }{ \\rm{ M } }\\bot\\)直线\\(l\\)于\\(M\\)，过点\\(B\\)作\\(BN\\bot\\)直线\\(l\\)于\\(N\\)，分别利用全等三角形的判定和性质列出方程即可得到结论．\n【小问1详解】\n解：\\(\\because\\)点\\(C\\left ( { a，-4 } \\right )\\)在直线\\(y=-2x\\)上，\n\\(\\therefore -2a=-4\\)，\n解得\\(a=2\\)，\n\\(\\therefore C\\left ( { 2，-4 } \\right )\\)，\n将\\(A\\left ( { 4，0 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)代入直线\\(y=kx+b\\)，得：\n\\(\\begin{cases} 2k+b=-4 \\\\ 4k+b=0 \\end{cases}\\)，\n解得\\(\\begin{cases} k=2 \\\\ b=-8 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)；\n【小问2详解】\n解：设点\\(P\\)的坐标为\\(\\left ( { 0，p } \\right )\\)，\n\\(\\because\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)，\n\\(\\therefore B\\left ( { 0，-8 } \\right )\\)，\n\\(\\therefore BP=\\left | { p+8 } \\right |\\)，\n\\(\\because \\vartriangle PBC\\)的面积为4，\\(C\\left ( { 2，-4 } \\right )\\)，\n\\(\\therefore S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }\\times 2\\left | { p+8 } \\right |=4\\)，\n\\(\\therefore p=-4\\)或\\(-12\\)，\n\\(\\therefore\\)点\\(P\\)的坐标为\\(\\left ( { 0，-4 } \\right )\\)或\\(\\left ( { 0，-12 } \\right )\\)；\n【小问3详解】\n解：以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，分以下三种情况：\n①当\\(BC=BQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，过点\\(Q\\)作\\(QN\\bot y\\)轴于\\(N\\)，\n〔图2〕\n\\(\\therefore \\angle BMC=\\angle QNB=90{}^\\circ\\)，\n\\(\\therefore \\angle CBM+\\angle BCM=90{}^\\circ\\)，\n\\(\\because \\angle QBC=90{}^\\circ\\)，\n\\(\\therefore \\angle CBM+\\angle QBN=90{}^\\circ\\)，\n\\(\\therefore \\angle BCM=\\angle QBN\\)，\n\\(\\because BC=BQ\\)，\n\\(\\therefore \\vartriangle BCM\\)≌\\(\\vartriangle QBN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=BM\\)，\\(BN=CM\\)，\n\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，\n∴\\(BM=4\\)，\\(CM=2\\)，\n\\(\\therefore QN=BM=4\\)，\n\\(\\therefore m=4\\)；\n②当\\(BC=CQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，延长\\(MC\\)交直线\\(l\\)于\\(N\\)，\n〔图3〕\n同理：\\(\\vartriangle BCM\\)≌\\(\\vartriangle CQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=CM=2\\)，\\(BM=CN=4\\)，\n\\(\\therefore MN=MC+CN=6\\)\n\\(\\therefore m=6\\)；\n③当\\(BQ=CQ\\)时，过点\\(C\\)作\\({ \\rm{ C } }{ \\rm{ M } }\\bot\\)直线\\(l\\)于\\(M\\)，过点\\(B\\)作\\(BN\\bot\\)直线\\(l\\)于\\(N\\)，\n〔图4〕\n同理：\\(\\vartriangle QCM\\)≌\\(\\vartriangle BQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=CM\\)，\\(BN=QM\\)，\n设\\(Q\\left ( { m，t } \\right )\\)，\n\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，\n\\(\\therefore CM=m-2\\)，\\(BN=m\\)，\\(MN=8-4=4\\)，\\(QN=t+8\\)，\\(QM=-4-t\\)，\n\\(\\therefore \\begin{cases} m-2=t+8 \\\\ -4-t=m \\end{cases}\\)，\n解得\\(\\begin{cases} m=3 \\\\ t=-7 \\end{cases}\\) ，\n\\(\\therefore m=3\\)；\n综上，若以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，\\(m\\)的值为\\(4\\)或\\(6\\)或\\(3\\)．\n【点睛】本题是一次函数综合题，考查了一次函数图象上点的坐标特征，两点间的距离，三角形的面积，等腰直角三角形的性质，全等三角形的判定和性质，熟练掌握方程的思想方法及分类讨论思想是解本题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-9246E13ACE/figures/54d4b1cf8b71c9b53564fe68018db47df72bd3b37bd5e835aecbaac580a1af5d.png",
+    "assets/SZ-G8-T1-9246E13ACE/figures/11f61f7273e48ec19412c40265b66c5a64dc4795d5622450115cfe78ca37e5bd.png",
+    "assets/SZ-G8-T1-9246E13ACE/figures/7434a878ad50f5fcedd616fee7ac14ec639489b43ee80b9a8555e9cf5f34a994.png",
+    "assets/SZ-G8-T1-9246E13ACE/figures/9e29ab7832a86e19858e1b6ebaa56688f2b8b148e10f7064cb82dc23301ab450.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)点\\(C\\left ( { a，-4 } \\right )\\)在直线\\(y=-2x\\)上，\n\\(\\therefore -2a=-4\\)，\n解得\\(a=2\\)，\n\\(\\therefore C\\left ( { 2，-4 } \\right )\\)，\n将\\(A\\left ( { 4，0 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)代入直线\\(y=kx+b\\)，得：\n\\(\\begin{cases} 2k+b=-4 \\\\ 4k+b=0 \\end{cases}\\)，\n解得\\(\\begin{cases} k=2 \\\\ b=-8 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)；\n【小问2详解】\n解：设点\\(P\\)的坐标为\\(\\left ( { 0，p } \\right )\\)，\n\\(\\because\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)，\n\\(\\therefore B\\left ( { 0，-8 } \\right )\\)，\n\\(\\therefore BP=\\left | { p+8 } \\right |\\)，\n\\(\\because \\vartriangle PBC\\)的面积为4，\\(C\\left ( { 2，-4 } \\right )\\)，\n\\(\\therefore S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }\\times 2\\left | { p+8 } \\right |=4\\)，\n\\(\\therefore p=-4\\)或\\(-12\\)，\n\\(\\therefore\\)点\\(P\\)的坐标为\\(\\left ( { 0，-4 } \\right )\\)或\\(\\left ( { 0，-12 } \\right )\\)；\n【小问3详解】\n解：以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，分以下三种情况：\n①当\\(BC=BQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，过点\\(Q\\)作\\(QN\\bot y\\)轴于\\(N\\)，\n〔图2〕\n\\(\\therefore \\angle BMC=\\angle QNB=90{}^\\circ\\)，\n\\(\\therefore \\angle CBM+\\angle BCM=90{}^\\circ\\)，\n\\(\\because \\angle QBC=90{}^\\circ\\)，\n\\(\\therefore \\angle CBM+\\angle QBN=90{}^\\circ\\)，\n\\(\\therefore \\angle BCM=\\angle QBN\\)，\n\\(\\because BC=BQ\\)，\n\\(\\therefore \\vartriangle BCM\\)≌\\(\\vartriangle QBN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=BM\\)，\\(BN=CM\\)，\n\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，\n∴\\(BM=4\\)，\\(CM=2\\)，\n\\(\\therefore QN=BM=4\\)，\n\\(\\therefore m=4\\)；\n②当\\(BC=CQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，延长\\(MC\\)交直线\\(l\\)于\\(N\\)，\n〔图3〕\n同理：\\(\\vartriangle BCM\\)≌\\(\\vartriangle CQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=CM=2\\)，\\(BM=CN=4\\)，\n\\(\\therefore MN=MC+CN=6\\)\n\\(\\therefore m=6\\)；\n③当\\(BQ=CQ\\)时，过点\\(C\\)作\\({ \\rm{ C } }{ \\rm{ M } }\\bot\\)直线\\(l\\)于\\(M\\)，过点\\(B\\)作\\(BN\\bot\\)直线\\(l\\)于\\(N\\)，\n〔图4〕\n同理：\\(\\vartriangle QCM\\)≌\\(\\vartriangle BQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=CM\\)，\\(BN=QM\\)，\n设\\(Q\\left ( { m，t } \\right )\\)，\n\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，\n\\(\\therefore CM=m-2\\)，\\(BN=m\\)，\\(MN=8-4=4\\)，\\(QN=t+8\\)，\\(QM=-4-t\\)，\n\\(\\therefore \\begin{cases} m-2=t+8 \\\\ -4-t=m \\end{cases}\\)，\n解得\\(\\begin{cases} m=3 \\\\ t=-7 \\end{cases}\\) ，\n\\(\\therefore m=3\\)；\n综上，若以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，\\(m\\)的值为\\(4\\)或\\(6\\)或\\(3\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)点\\(C\\left ( { a，-4 } \\right )\\)在直线\\(y=-2x\\)上，",
+    "\\(\\therefore -2a=-4\\)，",
+    "解得\\(a=2\\)，",
+    "\\(\\therefore C\\left ( { 2，-4 } \\right )\\)，",
+    "将\\(A\\left ( { 4，0 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)代入直线\\(y=kx+b\\)，得：",
+    "\\(\\begin{cases} 2k+b=-4 \\\\ 4k+b=0 \\end{cases}\\)，",
+    "解得\\(\\begin{cases} k=2 \\\\ b=-8 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)；",
+    "【小问2详解】",
+    "解：设点\\(P\\)的坐标为\\(\\left ( { 0，p } \\right )\\)，",
+    "\\(\\because\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)，",
+    "\\(\\therefore B\\left ( { 0，-8 } \\right )\\)，",
+    "\\(\\therefore BP=\\left | { p+8 } \\right |\\)，",
+    "\\(\\because \\vartriangle PBC\\)的面积为4，\\(C\\left ( { 2，-4 } \\right )\\)，",
+    "\\(\\therefore S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }\\times 2\\left | { p+8 } \\right |=4\\)，",
+    "\\(\\therefore p=-4\\)或\\(-12\\)，",
+    "\\(\\therefore\\)点\\(P\\)的坐标为\\(\\left ( { 0，-4 } \\right )\\)或\\(\\left ( { 0，-12 } \\right )\\)；",
+    "【小问3详解】",
+    "解：以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，分以下三种情况：",
+    "①当\\(BC=BQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，过点\\(Q\\)作\\(QN\\bot y\\)轴于\\(N\\)，",
+    "〔图2〕",
+    "\\(\\therefore \\angle BMC=\\angle QNB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CBM+\\angle BCM=90{}^\\circ\\)，",
+    "\\(\\because \\angle QBC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CBM+\\angle QBN=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BCM=\\angle QBN\\)，",
+    "\\(\\because BC=BQ\\)，",
+    "\\(\\therefore \\vartriangle BCM\\)≌\\(\\vartriangle QBN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore QN=BM\\)，\\(BN=CM\\)，",
+    "\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，",
+    "∴\\(BM=4\\)，\\(CM=2\\)，",
+    "\\(\\therefore QN=BM=4\\)，",
+    "\\(\\therefore m=4\\)；",
+    "②当\\(BC=CQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，延长\\(MC\\)交直线\\(l\\)于\\(N\\)，",
+    "〔图3〕",
+    "同理：\\(\\vartriangle BCM\\)≌\\(\\vartriangle CQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore QN=CM=2\\)，\\(BM=CN=4\\)，",
+    "\\(\\therefore MN=MC+CN=6\\)",
+    "\\(\\therefore m=6\\)；",
+    "③当\\(BQ=CQ\\)时，过点\\(C\\)作\\({ \\rm{ C } }{ \\rm{ M } }\\bot\\)直线\\(l\\)于\\(M\\)，过点\\(B\\)作\\(BN\\bot\\)直线\\(l\\)于\\(N\\)，",
+    "〔图4〕",
+    "同理：\\(\\vartriangle QCM\\)≌\\(\\vartriangle BQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore QN=CM\\)，\\(BN=QM\\)，",
+    "设\\(Q\\left ( { m，t } \\right )\\)，",
+    "\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，",
+    "\\(\\therefore CM=m-2\\)，\\(BN=m\\)，\\(MN=8-4=4\\)，\\(QN=t+8\\)，\\(QM=-4-t\\)，",
+    "\\(\\therefore \\begin{cases} m-2=t+8 \\\\ -4-t=m \\end{cases}\\)，",
+    "解得\\(\\begin{cases} m=3 \\\\ t=-7 \\end{cases}\\) ，",
+    "\\(\\therefore m=3\\)；",
+    "综上，若以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，\\(m\\)的值为\\(4\\)或\\(6\\)或\\(3\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图①，直线\\(y=kx+b\\)与x轴交于点\\(A\\left ( { 4，0 } \\right )\\)，与y轴交于点B，与直线\\(y=-2x\\)交于点\\(C\\left ( { a，-4 } \\right )\\)．\n〔图1〕",
+      "paper_blocks": [
+        65,
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-9246E13ACE-Q22-P01",
+      "label": "（1）",
+      "prompt": "求点C的坐标及直线\\(AB\\)的表达式；",
+      "stem_text": "求点C的坐标及直线\\(AB\\)的表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(C\\left ( { 2,-4 } \\right )\\)，直线AB的表达式\\(y=2x﹣8\\)；",
+      "answer": "\\(C\\left ( { 2,-4 } \\right )\\)，直线AB的表达式\\(y=2x﹣8\\)；",
+      "given_solution": "解：\\(\\because\\)点\\(C\\left ( { a，-4 } \\right )\\)在直线\\(y=-2x\\)上，\n\\(\\therefore -2a=-4\\)，\n解得\\(a=2\\)，\n\\(\\therefore C\\left ( { 2，-4 } \\right )\\)，\n将\\(A\\left ( { 4，0 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)代入直线\\(y=kx+b\\)，得：\n\\(\\begin{cases} 2k+b=-4 \\\\ 4k+b=0 \\end{cases}\\)，\n解得\\(\\begin{cases} k=2 \\\\ b=-8 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)点\\(C\\left ( { a，-4 } \\right )\\)在直线\\(y=-2x\\)上，",
+        "\\(\\therefore -2a=-4\\)，",
+        "解得\\(a=2\\)，",
+        "\\(\\therefore C\\left ( { 2，-4 } \\right )\\)，",
+        "将\\(A\\left ( { 4，0 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)代入直线\\(y=kx+b\\)，得：",
+        "\\(\\begin{cases} 2k+b=-4 \\\\ 4k+b=0 \\end{cases}\\)，",
+        "解得\\(\\begin{cases} k=2 \\\\ b=-8 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-9246E13ACE-Q22-P02",
+      "label": "（2）",
+      "prompt": "点P在y轴上，若\\(\\vartriangle { \\rm{ P } }{ \\rm{ B } }{ \\rm{ C } }\\)的面积为6，求点P的坐标；",
+      "stem_text": "点P在y轴上，若\\(\\vartriangle { \\rm{ P } }{ \\rm{ B } }{ \\rm{ C } }\\)的面积为6，求点P的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "点P的坐标为\\(\\left ( { 0,-2 } \\right )\\)或\\(\\left ( { 0，-14 } \\right )\\)；",
+      "answer": "点P的坐标为\\(\\left ( { 0,-2 } \\right )\\)或\\(\\left ( { 0，-14 } \\right )\\)；",
+      "given_solution": "解：设点\\(P\\)的坐标为\\(\\left ( { 0，p } \\right )\\)，\n\\(\\because\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)，\n\\(\\therefore B\\left ( { 0，-8 } \\right )\\)，\n\\(\\therefore BP=\\left | { p+8 } \\right |\\)，\n\\(\\because \\vartriangle PBC\\)的面积为4，\\(C\\left ( { 2，-4 } \\right )\\)，\n\\(\\therefore S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }\\times 2\\left | { p+8 } \\right |=4\\)，\n\\(\\therefore p=-4\\)或\\(-12\\)，\n\\(\\therefore\\)点\\(P\\)的坐标为\\(\\left ( { 0，-4 } \\right )\\)或\\(\\left ( { 0，-12 } \\right )\\)；",
+      "solution_steps": [
+        "解：设点\\(P\\)的坐标为\\(\\left ( { 0，p } \\right )\\)，",
+        "\\(\\because\\)直线\\(AB\\)的解析式为\\(y=2x-8\\)，",
+        "\\(\\therefore B\\left ( { 0，-8 } \\right )\\)，",
+        "\\(\\therefore BP=\\left | { p+8 } \\right |\\)，",
+        "\\(\\because \\vartriangle PBC\\)的面积为4，\\(C\\left ( { 2，-4 } \\right )\\)，",
+        "\\(\\therefore S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }\\times 2\\left | { p+8 } \\right |=4\\)，",
+        "\\(\\therefore p=-4\\)或\\(-12\\)，",
+        "\\(\\therefore\\)点\\(P\\)的坐标为\\(\\left ( { 0，-4 } \\right )\\)或\\(\\left ( { 0，-12 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          68
+        ],
+        "solution_block_ids": [
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-9246E13ACE-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图②，过x轴正半轴上的动点\\(D\\left ( { m，0 } \\right )\\)作直线\\(l\\bot x\\)轴，点Q在直线l上，若以B，C，Q为顶点的三角形是等腰直角三角形，请直接写出相应m的值．",
+      "stem_text": "如图②，过x轴正半轴上的动点\\(D\\left ( { m，0 } \\right )\\)作直线\\(l\\bot x\\)轴，点Q在直线l上，若以B，C，Q为顶点的三角形是等腰直角三角形，请直接写出相应m的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "m的值为4或6或3．",
+      "answer": "m的值为4或6或3．",
+      "given_solution": "解：以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，分以下三种情况：\n①当\\(BC=BQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，过点\\(Q\\)作\\(QN\\bot y\\)轴于\\(N\\)，\n〔图2〕\n\\(\\therefore \\angle BMC=\\angle QNB=90{}^\\circ\\)，\n\\(\\therefore \\angle CBM+\\angle BCM=90{}^\\circ\\)，\n\\(\\because \\angle QBC=90{}^\\circ\\)，\n\\(\\therefore \\angle CBM+\\angle QBN=90{}^\\circ\\)，\n\\(\\therefore \\angle BCM=\\angle QBN\\)，\n\\(\\because BC=BQ\\)，\n\\(\\therefore \\vartriangle BCM\\)≌\\(\\vartriangle QBN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=BM\\)，\\(BN=CM\\)，\n\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，\n∴\\(BM=4\\)，\\(CM=2\\)，\n\\(\\therefore QN=BM=4\\)，\n\\(\\therefore m=4\\)；\n②当\\(BC=CQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，延长\\(MC\\)交直线\\(l\\)于\\(N\\)，\n〔图3〕\n同理：\\(\\vartriangle BCM\\)≌\\(\\vartriangle CQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=CM=2\\)，\\(BM=CN=4\\)，\n\\(\\therefore MN=MC+CN=6\\)\n\\(\\therefore m=6\\)；\n③当\\(BQ=CQ\\)时，过点\\(C\\)作\\({ \\rm{ C } }{ \\rm{ M } }\\bot\\)直线\\(l\\)于\\(M\\)，过点\\(B\\)作\\(BN\\bot\\)直线\\(l\\)于\\(N\\)，\n〔图4〕\n同理：\\(\\vartriangle QCM\\)≌\\(\\vartriangle BQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore QN=CM\\)，\\(BN=QM\\)，\n设\\(Q\\left ( { m，t } \\right )\\)，\n\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，\n\\(\\therefore CM=m-2\\)，\\(BN=m\\)，\\(MN=8-4=4\\)，\\(QN=t+8\\)，\\(QM=-4-t\\)，\n\\(\\therefore \\begin{cases} m-2=t+8 \\\\ -4-t=m \\end{cases}\\)，\n解得\\(\\begin{cases} m=3 \\\\ t=-7 \\end{cases}\\) ，\n\\(\\therefore m=3\\)；\n综上，若以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，\\(m\\)的值为\\(4\\)或\\(6\\)或\\(3\\)．",
+      "solution_steps": [
+        "解：以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，分以下三种情况：",
+        "①当\\(BC=BQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，过点\\(Q\\)作\\(QN\\bot y\\)轴于\\(N\\)，",
+        "〔图2〕",
+        "\\(\\therefore \\angle BMC=\\angle QNB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CBM+\\angle BCM=90{}^\\circ\\)，",
+        "\\(\\because \\angle QBC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CBM+\\angle QBN=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BCM=\\angle QBN\\)，",
+        "\\(\\because BC=BQ\\)，",
+        "\\(\\therefore \\vartriangle BCM\\)≌\\(\\vartriangle QBN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore QN=BM\\)，\\(BN=CM\\)，",
+        "\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，",
+        "∴\\(BM=4\\)，\\(CM=2\\)，",
+        "\\(\\therefore QN=BM=4\\)，",
+        "\\(\\therefore m=4\\)；",
+        "②当\\(BC=CQ\\)时，过点\\(C\\)作\\(CM\\bot y\\)轴于\\(M\\)，延长\\(MC\\)交直线\\(l\\)于\\(N\\)，",
+        "〔图3〕",
+        "同理：\\(\\vartriangle BCM\\)≌\\(\\vartriangle CQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore QN=CM=2\\)，\\(BM=CN=4\\)，",
+        "\\(\\therefore MN=MC+CN=6\\)",
+        "\\(\\therefore m=6\\)；",
+        "③当\\(BQ=CQ\\)时，过点\\(C\\)作\\({ \\rm{ C } }{ \\rm{ M } }\\bot\\)直线\\(l\\)于\\(M\\)，过点\\(B\\)作\\(BN\\bot\\)直线\\(l\\)于\\(N\\)，",
+        "〔图4〕",
+        "同理：\\(\\vartriangle QCM\\)≌\\(\\vartriangle BQN({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore QN=CM\\)，\\(BN=QM\\)，",
+        "设\\(Q\\left ( { m，t } \\right )\\)，",
+        "\\(\\because B\\left ( { 0，-8 } \\right )\\)，\\(C\\left ( { 2，-4 } \\right )\\)，",
+        "\\(\\therefore CM=m-2\\)，\\(BN=m\\)，\\(MN=8-4=4\\)，\\(QN=t+8\\)，\\(QM=-4-t\\)，",
+        "\\(\\therefore \\begin{cases} m-2=t+8 \\\\ -4-t=m \\end{cases}\\)，",
+        "解得\\(\\begin{cases} m=3 \\\\ t=-7 \\end{cases}\\) ，",
+        "\\(\\therefore m=3\\)；",
+        "综上，若以\\(B\\)，\\(C\\)，\\(Q\\)为顶点的三角形是等腰直角三角形，\\(m\\)的值为\\(4\\)或\\(6\\)或\\(3\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          69
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      65,
+      69
+    ],
+    "solution_body_blocks": [
+      303,
+      367
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-9246E13ACE/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          475.0,
+          583.64,
+          722.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-9246E13ACE/solution-q22-p16.webp",
+      "assets/SZ-G8-T1-9246E13ACE/solution-q22-p17.webp",
+      "assets/SZ-G8-T1-9246E13ACE/solution-q22-p18.webp",
+      "assets/SZ-G8-T1-9246E13ACE/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          106.36,
+          583.64,
+          741.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          53.18,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          259.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

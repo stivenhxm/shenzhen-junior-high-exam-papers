@@ -1,0 +1,405 @@
+{
+  "id": "SZ-G8-T1-33A9BF0470-Q22",
+  "paper_id": "SZ-G8-T1-33A9BF0470",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、用坐标求线段长度与面积",
+  "stem": "如图，在平面直角坐标系中，直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)与x轴交于点A，与y轴交于点\\(B\\left ( { 0,2 } \\right )\\)，直线\\(AC\\)经过y轴负半轴上的点C，且\\(\\angle ACO=45{}^\\circ\\)．\n〔图1〕\n（1）求直线\\(AC\\)的函数表达式；\n（2）直线\\(AC\\)向上平移9个单位，平移后的直线与直线\\(AB\\)交于点D，连结\\(DC\\)，求\\(\\vartriangle ACD\\)面积；\n（3）在（2）的条件下，平移后的直线与x轴交于点E，点M为x轴上的一点，直线\\(DE\\)上是否存在点N（不与点D重合），使以点E，M，N为顶点的三角形与\\(\\vartriangle ADE\\)全等，若存在，请直接写出点N的坐标；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-33A9BF0470/figures/c45603f914d9076e0a52d55d8ba823a7bfc8a9c51d53be2b083802fef9b0fcde.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=-x-4\\)\n（2）\\(18\\)\n（3）\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)",
+  "answer": "（1）\\(y=-x-4\\)\n（2）\\(18\\)\n（3）\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)",
+  "given_solution": "【分析】（1）由点B的坐标可求得m的值，然后根据直线\\(AB\\)的解析式可以求得A的坐标，再结合\\(OA=OC\\)得到C的坐标，然后用待定系数法求出直线\\(AC\\)的解析式；\n（2）根据直线的平移规律得到直线\\(DE\\)的解析式，从而求得D的坐标，然后根据\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle ABC } +S_{ \\vartriangle BCD }\\)即可求解；\n（3）先根据直线\\(DE\\)的解析式求出点E，根据勾股定理以及平行四边形的性质，分三种情况可得到点N的坐标．\n【小问1详解】\n解：将点\\(B\\left ( { 0,2 } \\right )\\)代入直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)，\n得到\\(m=2\\)，\n∴直线\\(AB:y=\\frac { 1 } { 2 }x+2\\)，\n令\\(y=0\\)，得到\\(x=-4\\)，\n∴\\(A\\left ( { -4,0 } \\right )\\)，\\(OA=4\\)，\n∵\\(\\angle ACO=45{}^\\circ\\)，\n∴\\(OA=OC\\)，\n∴\\(C\\left ( { 0,-4 } \\right )\\)，\n设直线\\(AC\\)的表达式为\\(y=kx+b\\)，\n则\\(\\begin{cases} -4k+b=0 \\\\ b=-4 \\end{cases}\\)，解得\\(\\begin{cases} k=-1 \\\\ b=-4 \\end{cases}\\)，\n∴直线\\(AC\\)的表达式为\\(y=-x-4\\)，\n【小问2详解】\n解：∵直线\\(AC\\)向上平移9个单位，\n∴直线\\(DE\\)的解析式为\\(y=-x-4+9=-x+5\\)，\n∵平移后的直线与直线\\(AB\\)交于点D，\n∴\\(\\begin{cases} y=\\frac { 1 } { 2 }x+2 \\\\ y=-x+5 \\end{cases}\\)，解得\\(\\begin{cases} x=2 \\\\ y=3 \\end{cases}\\)，\n∴\\(D\\left ( { 2,3 } \\right )\\)，\n∵\\(B\\left ( { 0,2 } \\right )\\)，\\(C\\left ( { 0,-4 } \\right )\\)，\n∴\\(BC=6\\)，\n∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle ABC } +S_{ \\vartriangle BCD }\\)\n=\\(\\frac { 1 } { 2 }BC\\cdot OA+\\frac { 1 } { 2 }BC\\times 2\\)\n=\\(\\frac { 1 } { 2 }\\times 6\\times 4+\\frac { 1 } { 2 }\\times 6\\times 2=18\\)；\n【小问3详解】\n解：∵直线\\(DE\\)：\\(y=-x+5\\)与x轴交于点E，\n∴点\\(E\\left ( { 5,0 } \\right )\\)，\n∴\\(AE=9\\)，\n当\\(EN=AE=9\\)时，过点N作x轴的垂线交x轴于一点F，如图所示：\n〔图2〕\n设\\(N\\left ( { a,-a+5 } \\right )\\)，\n则\\(NF=\\left | { -a+5 } \\right |\\)，\\(FE=5-a\\)，\n在\\(\\vartriangle NEF\\)中，\\(NF ^ { 2 } +EF ^ { 2 } =NE ^ { 2 }\\)，\n即\\(\\left ( { -a+5 } \\right ) ^ { 2 } +\\left ( { 5-a } \\right ) ^ { 2 } =9 ^ { 2 }\\)，\n解得\\(a=5\\pm \\frac { 9\\sqrt[] { 2 } } { 2 }\\)，\n∴\\(N\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(N\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)；\n当\\(DE=EN\\)时，如图所示：\n〔图3〕\n∵\\(\\vartriangle ADE≌\\vartriangle MNE\\)，\n∴\\(\\angle ADE=\\angle MNE,DE=NE\\)，\n∴点E为\\(DN\\)的中点，\n∵\\(D\\left ( { 2,3 } \\right )\\)，\\(E\\left ( { 5,0 } \\right )\\)，\n∴\\(N\\left ( { 8,-3 } \\right )\\)，\n综上，存在，此时点N的坐标为\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)．\n【点睛】本题考查了一次函数的图像、待定系数法求一次函数解析式、一次函数图像的平移、平面直角坐标系中求图形的面积、求两直线交点坐标，分类讨论，数形结合是解答本题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-33A9BF0470/figures/c45603f914d9076e0a52d55d8ba823a7bfc8a9c51d53be2b083802fef9b0fcde.png",
+    "assets/SZ-G8-T1-33A9BF0470/figures/bc5f821769120e3278bb0125fafd67e964ff6e190e4d005699dac60c66acc9a1.png",
+    "assets/SZ-G8-T1-33A9BF0470/figures/76d31fe837ad0b393f72c3b3d49481457669c6e4b5e8c7f35c147861cd352b06.png"
+  ],
+  "solution": "【小问1详解】\n解：将点\\(B\\left ( { 0,2 } \\right )\\)代入直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)，\n得到\\(m=2\\)，\n∴直线\\(AB:y=\\frac { 1 } { 2 }x+2\\)，\n令\\(y=0\\)，得到\\(x=-4\\)，\n∴\\(A\\left ( { -4,0 } \\right )\\)，\\(OA=4\\)，\n∵\\(\\angle ACO=45{}^\\circ\\)，\n∴\\(OA=OC\\)，\n∴\\(C\\left ( { 0,-4 } \\right )\\)，\n设直线\\(AC\\)的表达式为\\(y=kx+b\\)，\n则\\(\\begin{cases} -4k+b=0 \\\\ b=-4 \\end{cases}\\)，解得\\(\\begin{cases} k=-1 \\\\ b=-4 \\end{cases}\\)，\n∴直线\\(AC\\)的表达式为\\(y=-x-4\\)，\n【小问2详解】\n解：∵直线\\(AC\\)向上平移9个单位，\n∴直线\\(DE\\)的解析式为\\(y=-x-4+9=-x+5\\)，\n∵平移后的直线与直线\\(AB\\)交于点D，\n∴\\(\\begin{cases} y=\\frac { 1 } { 2 }x+2 \\\\ y=-x+5 \\end{cases}\\)，解得\\(\\begin{cases} x=2 \\\\ y=3 \\end{cases}\\)，\n∴\\(D\\left ( { 2,3 } \\right )\\)，\n∵\\(B\\left ( { 0,2 } \\right )\\)，\\(C\\left ( { 0,-4 } \\right )\\)，\n∴\\(BC=6\\)，\n∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle ABC } +S_{ \\vartriangle BCD }\\)\n=\\(\\frac { 1 } { 2 }BC\\cdot OA+\\frac { 1 } { 2 }BC\\times 2\\)\n=\\(\\frac { 1 } { 2 }\\times 6\\times 4+\\frac { 1 } { 2 }\\times 6\\times 2=18\\)；\n【小问3详解】\n解：∵直线\\(DE\\)：\\(y=-x+5\\)与x轴交于点E，\n∴点\\(E\\left ( { 5,0 } \\right )\\)，\n∴\\(AE=9\\)，\n当\\(EN=AE=9\\)时，过点N作x轴的垂线交x轴于一点F，如图所示：\n〔图2〕\n设\\(N\\left ( { a,-a+5 } \\right )\\)，\n则\\(NF=\\left | { -a+5 } \\right |\\)，\\(FE=5-a\\)，\n在\\(\\vartriangle NEF\\)中，\\(NF ^ { 2 } +EF ^ { 2 } =NE ^ { 2 }\\)，\n即\\(\\left ( { -a+5 } \\right ) ^ { 2 } +\\left ( { 5-a } \\right ) ^ { 2 } =9 ^ { 2 }\\)，\n解得\\(a=5\\pm \\frac { 9\\sqrt[] { 2 } } { 2 }\\)，\n∴\\(N\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(N\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)；\n当\\(DE=EN\\)时，如图所示：\n〔图3〕\n∵\\(\\vartriangle ADE≌\\vartriangle MNE\\)，\n∴\\(\\angle ADE=\\angle MNE,DE=NE\\)，\n∴点E为\\(DN\\)的中点，\n∵\\(D\\left ( { 2,3 } \\right )\\)，\\(E\\left ( { 5,0 } \\right )\\)，\n∴\\(N\\left ( { 8,-3 } \\right )\\)，\n综上，存在，此时点N的坐标为\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：将点\\(B\\left ( { 0,2 } \\right )\\)代入直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)，",
+    "得到\\(m=2\\)，",
+    "∴直线\\(AB:y=\\frac { 1 } { 2 }x+2\\)，",
+    "令\\(y=0\\)，得到\\(x=-4\\)，",
+    "∴\\(A\\left ( { -4,0 } \\right )\\)，\\(OA=4\\)，",
+    "∵\\(\\angle ACO=45{}^\\circ\\)，",
+    "∴\\(OA=OC\\)，",
+    "∴\\(C\\left ( { 0,-4 } \\right )\\)，",
+    "设直线\\(AC\\)的表达式为\\(y=kx+b\\)，",
+    "则\\(\\begin{cases} -4k+b=0 \\\\ b=-4 \\end{cases}\\)，解得\\(\\begin{cases} k=-1 \\\\ b=-4 \\end{cases}\\)，",
+    "∴直线\\(AC\\)的表达式为\\(y=-x-4\\)，",
+    "【小问2详解】",
+    "解：∵直线\\(AC\\)向上平移9个单位，",
+    "∴直线\\(DE\\)的解析式为\\(y=-x-4+9=-x+5\\)，",
+    "∵平移后的直线与直线\\(AB\\)交于点D，",
+    "∴\\(\\begin{cases} y=\\frac { 1 } { 2 }x+2 \\\\ y=-x+5 \\end{cases}\\)，解得\\(\\begin{cases} x=2 \\\\ y=3 \\end{cases}\\)，",
+    "∴\\(D\\left ( { 2,3 } \\right )\\)，",
+    "∵\\(B\\left ( { 0,2 } \\right )\\)，\\(C\\left ( { 0,-4 } \\right )\\)，",
+    "∴\\(BC=6\\)，",
+    "∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle ABC } +S_{ \\vartriangle BCD }\\)",
+    "=\\(\\frac { 1 } { 2 }BC\\cdot OA+\\frac { 1 } { 2 }BC\\times 2\\)",
+    "=\\(\\frac { 1 } { 2 }\\times 6\\times 4+\\frac { 1 } { 2 }\\times 6\\times 2=18\\)；",
+    "【小问3详解】",
+    "解：∵直线\\(DE\\)：\\(y=-x+5\\)与x轴交于点E，",
+    "∴点\\(E\\left ( { 5,0 } \\right )\\)，",
+    "∴\\(AE=9\\)，",
+    "当\\(EN=AE=9\\)时，过点N作x轴的垂线交x轴于一点F，如图所示：",
+    "〔图2〕",
+    "设\\(N\\left ( { a,-a+5 } \\right )\\)，",
+    "则\\(NF=\\left | { -a+5 } \\right |\\)，\\(FE=5-a\\)，",
+    "在\\(\\vartriangle NEF\\)中，\\(NF ^ { 2 } +EF ^ { 2 } =NE ^ { 2 }\\)，",
+    "即\\(\\left ( { -a+5 } \\right ) ^ { 2 } +\\left ( { 5-a } \\right ) ^ { 2 } =9 ^ { 2 }\\)，",
+    "解得\\(a=5\\pm \\frac { 9\\sqrt[] { 2 } } { 2 }\\)，",
+    "∴\\(N\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(N\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)；",
+    "当\\(DE=EN\\)时，如图所示：",
+    "〔图3〕",
+    "∵\\(\\vartriangle ADE≌\\vartriangle MNE\\)，",
+    "∴\\(\\angle ADE=\\angle MNE,DE=NE\\)，",
+    "∴点E为\\(DN\\)的中点，",
+    "∵\\(D\\left ( { 2,3 } \\right )\\)，\\(E\\left ( { 5,0 } \\right )\\)，",
+    "∴\\(N\\left ( { 8,-3 } \\right )\\)，",
+    "综上，存在，此时点N的坐标为\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)与x轴交于点A，与y轴交于点\\(B\\left ( { 0,2 } \\right )\\)，直线\\(AC\\)经过y轴负半轴上的点C，且\\(\\angle ACO=45{}^\\circ\\)．\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：直线\\(AC\\)向上平移9个单位，平移后的直线与直线\\(AB\\)交于点D，连结\\(DC\\)，求\\(\\vartriangle ACD\\)面积；",
+      "paper_blocks": [
+        71,
+        72,
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-33A9BF0470-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(AC\\)的函数表达式；",
+      "stem_text": "求直线\\(AC\\)的函数表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-x-4\\)",
+      "answer": "\\(y=-x-4\\)",
+      "given_solution": "解：将点\\(B\\left ( { 0,2 } \\right )\\)代入直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)，\n得到\\(m=2\\)，\n∴直线\\(AB:y=\\frac { 1 } { 2 }x+2\\)，\n令\\(y=0\\)，得到\\(x=-4\\)，\n∴\\(A\\left ( { -4,0 } \\right )\\)，\\(OA=4\\)，\n∵\\(\\angle ACO=45{}^\\circ\\)，\n∴\\(OA=OC\\)，\n∴\\(C\\left ( { 0,-4 } \\right )\\)，\n设直线\\(AC\\)的表达式为\\(y=kx+b\\)，\n则\\(\\begin{cases} -4k+b=0 \\\\ b=-4 \\end{cases}\\)，解得\\(\\begin{cases} k=-1 \\\\ b=-4 \\end{cases}\\)，\n∴直线\\(AC\\)的表达式为\\(y=-x-4\\)，",
+      "solution_steps": [
+        "解：将点\\(B\\left ( { 0,2 } \\right )\\)代入直线\\(AB:y=\\frac { 1 } { 2 }x+m\\)，",
+        "得到\\(m=2\\)，",
+        "∴直线\\(AB:y=\\frac { 1 } { 2 }x+2\\)，",
+        "令\\(y=0\\)，得到\\(x=-4\\)，",
+        "∴\\(A\\left ( { -4,0 } \\right )\\)，\\(OA=4\\)，",
+        "∵\\(\\angle ACO=45{}^\\circ\\)，",
+        "∴\\(OA=OC\\)，",
+        "∴\\(C\\left ( { 0,-4 } \\right )\\)，",
+        "设直线\\(AC\\)的表达式为\\(y=kx+b\\)，",
+        "则\\(\\begin{cases} -4k+b=0 \\\\ b=-4 \\end{cases}\\)，解得\\(\\begin{cases} k=-1 \\\\ b=-4 \\end{cases}\\)，",
+        "∴直线\\(AC\\)的表达式为\\(y=-x-4\\)，"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-33A9BF0470-Q22-P02",
+      "label": "（2）",
+      "prompt": "直线\\(AC\\)向上平移9个单位，平移后的直线与直线\\(AB\\)交于点D，连结\\(DC\\)，求\\(\\vartriangle ACD\\)面积；",
+      "stem_text": "直线\\(AC\\)向上平移9个单位，平移后的直线与直线\\(AB\\)交于点D，连结\\(DC\\)，求\\(\\vartriangle ACD\\)面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(18\\)",
+      "answer": "\\(18\\)",
+      "given_solution": "解：∵直线\\(AC\\)向上平移9个单位，\n∴直线\\(DE\\)的解析式为\\(y=-x-4+9=-x+5\\)，\n∵平移后的直线与直线\\(AB\\)交于点D，\n∴\\(\\begin{cases} y=\\frac { 1 } { 2 }x+2 \\\\ y=-x+5 \\end{cases}\\)，解得\\(\\begin{cases} x=2 \\\\ y=3 \\end{cases}\\)，\n∴\\(D\\left ( { 2,3 } \\right )\\)，\n∵\\(B\\left ( { 0,2 } \\right )\\)，\\(C\\left ( { 0,-4 } \\right )\\)，\n∴\\(BC=6\\)，\n∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle ABC } +S_{ \\vartriangle BCD }\\)\n=\\(\\frac { 1 } { 2 }BC\\cdot OA+\\frac { 1 } { 2 }BC\\times 2\\)\n=\\(\\frac { 1 } { 2 }\\times 6\\times 4+\\frac { 1 } { 2 }\\times 6\\times 2=18\\)；",
+      "solution_steps": [
+        "解：∵直线\\(AC\\)向上平移9个单位，",
+        "∴直线\\(DE\\)的解析式为\\(y=-x-4+9=-x+5\\)，",
+        "∵平移后的直线与直线\\(AB\\)交于点D，",
+        "∴\\(\\begin{cases} y=\\frac { 1 } { 2 }x+2 \\\\ y=-x+5 \\end{cases}\\)，解得\\(\\begin{cases} x=2 \\\\ y=3 \\end{cases}\\)，",
+        "∴\\(D\\left ( { 2,3 } \\right )\\)，",
+        "∵\\(B\\left ( { 0,2 } \\right )\\)，\\(C\\left ( { 0,-4 } \\right )\\)，",
+        "∴\\(BC=6\\)，",
+        "∴\\(S_{ \\vartriangle ACD } =S_{ \\vartriangle ABC } +S_{ \\vartriangle BCD }\\)",
+        "=\\(\\frac { 1 } { 2 }BC\\cdot OA+\\frac { 1 } { 2 }BC\\times 2\\)",
+        "=\\(\\frac { 1 } { 2 }\\times 6\\times 4+\\frac { 1 } { 2 }\\times 6\\times 2=18\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-33A9BF0470-Q22-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，平移后的直线与x轴交于点E，点M为x轴上的一点，直线\\(DE\\)上是否存在点N（不与点D重合），使以点E，M，N为顶点的三角形与\\(\\vartriangle ADE\\)全等，若存在，请直接写出点N的坐标；若不存在，请说明理由．",
+      "stem_text": "在（2）的条件下，平移后的直线与x轴交于点E，点M为x轴上的一点，直线\\(DE\\)上是否存在点N（不与点D重合），使以点E，M，N为顶点的三角形与\\(\\vartriangle ADE\\)全等，若存在，请直接写出点N的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T1-33A9BF0470-Q22-P02"
+      ],
+      "given_answer": "\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)",
+      "answer": "\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)",
+      "given_solution": "解：∵直线\\(DE\\)：\\(y=-x+5\\)与x轴交于点E，\n∴点\\(E\\left ( { 5,0 } \\right )\\)，\n∴\\(AE=9\\)，\n当\\(EN=AE=9\\)时，过点N作x轴的垂线交x轴于一点F，如图所示：\n〔图2〕\n设\\(N\\left ( { a,-a+5 } \\right )\\)，\n则\\(NF=\\left | { -a+5 } \\right |\\)，\\(FE=5-a\\)，\n在\\(\\vartriangle NEF\\)中，\\(NF ^ { 2 } +EF ^ { 2 } =NE ^ { 2 }\\)，\n即\\(\\left ( { -a+5 } \\right ) ^ { 2 } +\\left ( { 5-a } \\right ) ^ { 2 } =9 ^ { 2 }\\)，\n解得\\(a=5\\pm \\frac { 9\\sqrt[] { 2 } } { 2 }\\)，\n∴\\(N\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(N\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)；\n当\\(DE=EN\\)时，如图所示：\n〔图3〕\n∵\\(\\vartriangle ADE≌\\vartriangle MNE\\)，\n∴\\(\\angle ADE=\\angle MNE,DE=NE\\)，\n∴点E为\\(DN\\)的中点，\n∵\\(D\\left ( { 2,3 } \\right )\\)，\\(E\\left ( { 5,0 } \\right )\\)，\n∴\\(N\\left ( { 8,-3 } \\right )\\)，\n综上，存在，此时点N的坐标为\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)．",
+      "solution_steps": [
+        "解：∵直线\\(DE\\)：\\(y=-x+5\\)与x轴交于点E，",
+        "∴点\\(E\\left ( { 5,0 } \\right )\\)，",
+        "∴\\(AE=9\\)，",
+        "当\\(EN=AE=9\\)时，过点N作x轴的垂线交x轴于一点F，如图所示：",
+        "〔图2〕",
+        "设\\(N\\left ( { a,-a+5 } \\right )\\)，",
+        "则\\(NF=\\left | { -a+5 } \\right |\\)，\\(FE=5-a\\)，",
+        "在\\(\\vartriangle NEF\\)中，\\(NF ^ { 2 } +EF ^ { 2 } =NE ^ { 2 }\\)，",
+        "即\\(\\left ( { -a+5 } \\right ) ^ { 2 } +\\left ( { 5-a } \\right ) ^ { 2 } =9 ^ { 2 }\\)，",
+        "解得\\(a=5\\pm \\frac { 9\\sqrt[] { 2 } } { 2 }\\)，",
+        "∴\\(N\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(N\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)；",
+        "当\\(DE=EN\\)时，如图所示：",
+        "〔图3〕",
+        "∵\\(\\vartriangle ADE≌\\vartriangle MNE\\)，",
+        "∴\\(\\angle ADE=\\angle MNE,DE=NE\\)，",
+        "∴点E为\\(DN\\)的中点，",
+        "∵\\(D\\left ( { 2,3 } \\right )\\)，\\(E\\left ( { 5,0 } \\right )\\)，",
+        "∴\\(N\\left ( { 8,-3 } \\right )\\)，",
+        "综上，存在，此时点N的坐标为\\(\\left ( { 8,-3 } \\right )\\)或\\(\\left ( { 5+\\frac { 9\\sqrt[] { 2 } } { 2 },-\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)或\\(\\left ( { 5-\\frac { 9\\sqrt[] { 2 } } { 2 },\\frac { 9\\sqrt[] { 2 } } { 2 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      75
+    ],
+    "solution_body_blocks": [
+      371,
+      426
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-33A9BF0470/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          257.27,
+          583.64,
+          564.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-33A9BF0470/solution-q22-p18.webp",
+      "assets/SZ-G8-T1-33A9BF0470/solution-q22-p19.webp",
+      "assets/SZ-G8-T1-33A9BF0470/solution-q22-p20.webp",
+      "assets/SZ-G8-T1-33A9BF0470/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          716.36,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          720.0
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          400.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.01",
+    "E.G09.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

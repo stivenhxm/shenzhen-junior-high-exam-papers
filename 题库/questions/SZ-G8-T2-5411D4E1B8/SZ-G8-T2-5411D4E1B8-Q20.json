@@ -1,0 +1,293 @@
+{
+  "id": "SZ-G8-T2-5411D4E1B8-Q20",
+  "paper_id": "SZ-G8-T2-5411D4E1B8",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由充分条件判定平行四边形、由勾股关系求直角三角形边长",
+  "stem": "如图1，在四边形\\(ABCD\\)中，\\(AC\\)和\\(BD\\)相交于点O，\\(AO=CO,\\quad \\angle BCA=\\angle CAD\\)．\n〔图1〕\n（1）求证：四边形\\(ABCD\\)是平行四边形；\n（2）如图2，E，F，G分别是\\(BO,CO,AD\\)的中点，连接\\(EF,GE,GF\\)，若\\(BD=2AB,\\quad BC=15,\\quad AC=16\\)，求\\(\\vartriangle EFG\\)的周长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/b2/b2875a8ac55ad73c6317686622898899be91ad949c54900dd2056774790211f9.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明过程见解析\n（2）24",
+  "answer": "（1）证明过程见解析\n（2）24",
+  "given_solution": "【分析】(1)由\\(\\angle BCA=\\angle CAD\\)得到BC//AD，再证明△AOD≌△COB得到BC=AD，由此即可证明四边形ABCD为平行四边形；\n(2)由ABCD为平行四边形得到BD=2BO，结合已知条件BD=2BA得到BO=BA=CD=OD，进而得到△DOF与△BOA均为等腰三角形，结合F为OC中点得到∠DFA=90°，GF为Rt△ADF斜边上的中线求出\\(GF=\\frac { 1 } { 2 }AD=\\frac { 15 } { 2 }\\)；过B点作BH⊥AC于H，求出BH=9，再证明四边形BHGE为平行四边形得到GE=BH=9，最后将GE、GF、EF相加即可求解．\n【小问1详解】\n证明：∵\\(\\angle BCA=\\angle CAD\\)，\n∴BC∥AD，\n在△AOD和△COB中：\\(\\begin{cases} \\angle BCA=\\angle CAD \\\\ CO=AO \\\\ \\angle COB=\\angle AOD \\end{cases}\\)，\n∴△AOD≌△COB(ASA)，\n∴BC=AD，\n∴四边形ABCD为平行四边形．\n【小问2详解】\n解：∵点E、F分别为BO和CO的中点，\n∴EF是△OBC的中位线，\n∴\\(EF=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；\n∵ABCD为平行四边形，\n∴BD=2BO，\n又已知BD=2BA，\n∴BO=BA=CD=OD，\n∴△DOC与△BOA均为等腰三角形，\n又F为OC的中点，连接DF，\n∴DF⊥OC，\n∴∠AFD=90°，\n又G为AD的中点，\n由直角三角形斜边上的中线等于斜边的一半可知：\\(GF=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；\n〔图2〕\n过B点作BH⊥AO于H，连接HG，如上图所示：\n由等腰三角形的“三线合一”可知：AH=HO=\\(\\frac { 1 } { 2 }\\)AO=\\(\\frac { 1 } { 4 }\\)AC=4，\n∴HC=HO+OC=4+8=12，\n在Rt△BHC中，由勾股定理可知\\(BH=\\sqrt[] { BC ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -12 ^ { 2 } }=9\\),\n∵H为AO中点，G为AD中点，\n∴HG为△AOD的中位线，\n∴HG∥BD，即HG∥BE，\n且\\(HG=\\frac { 1 } { 2 }OD=\\frac { 1 } { 2 }BO=BE\\)，\n∴四边形BHGE为平行四边形，\n∴GE=BH=9，\n∴\\(C_{ \\vartriangle EFG } =GE+GF+EF=9+\\frac { 15 } { 2 }+\\frac { 15 } { 2 }=24\\)．\n【点睛】本题考查了三角形全等的判定方法、平行四边形的性质、三角形中位线定理、直角三角形斜边上的中线等于斜边的一半等，熟练掌握各图形的性质及定理是解决本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/b2/b2875a8ac55ad73c6317686622898899be91ad949c54900dd2056774790211f9.png",
+    "assets/figures/61/612097101afdcf2eac18b05b766da1e06495567509811652054adf6b819d0a84.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵\\(\\angle BCA=\\angle CAD\\)，\n∴BC∥AD，\n在△AOD和△COB中：\\(\\begin{cases} \\angle BCA=\\angle CAD \\\\ CO=AO \\\\ \\angle COB=\\angle AOD \\end{cases}\\)，\n∴△AOD≌△COB(ASA)，\n∴BC=AD，\n∴四边形ABCD为平行四边形．\n【小问2详解】\n解：∵点E、F分别为BO和CO的中点，\n∴EF是△OBC的中位线，\n∴\\(EF=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；\n∵ABCD为平行四边形，\n∴BD=2BO，\n又已知BD=2BA，\n∴BO=BA=CD=OD，\n∴△DOC与△BOA均为等腰三角形，\n又F为OC的中点，连接DF，\n∴DF⊥OC，\n∴∠AFD=90°，\n又G为AD的中点，\n由直角三角形斜边上的中线等于斜边的一半可知：\\(GF=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；\n〔图2〕\n过B点作BH⊥AO于H，连接HG，如上图所示：\n由等腰三角形的“三线合一”可知：AH=HO=\\(\\frac { 1 } { 2 }\\)AO=\\(\\frac { 1 } { 4 }\\)AC=4，\n∴HC=HO+OC=4+8=12，\n在Rt△BHC中，由勾股定理可知\\(BH=\\sqrt[] { BC ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -12 ^ { 2 } }=9\\),\n∵H为AO中点，G为AD中点，\n∴HG为△AOD的中位线，\n∴HG∥BD，即HG∥BE，\n且\\(HG=\\frac { 1 } { 2 }OD=\\frac { 1 } { 2 }BO=BE\\)，\n∴四边形BHGE为平行四边形，\n∴GE=BH=9，\n∴\\(C_{ \\vartriangle EFG } =GE+GF+EF=9+\\frac { 15 } { 2 }+\\frac { 15 } { 2 }=24\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵\\(\\angle BCA=\\angle CAD\\)，",
+    "∴BC∥AD，",
+    "在△AOD和△COB中：\\(\\begin{cases} \\angle BCA=\\angle CAD \\\\ CO=AO \\\\ \\angle COB=\\angle AOD \\end{cases}\\)，",
+    "∴△AOD≌△COB(ASA)，",
+    "∴BC=AD，",
+    "∴四边形ABCD为平行四边形．",
+    "【小问2详解】",
+    "解：∵点E、F分别为BO和CO的中点，",
+    "∴EF是△OBC的中位线，",
+    "∴\\(EF=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；",
+    "∵ABCD为平行四边形，",
+    "∴BD=2BO，",
+    "又已知BD=2BA，",
+    "∴BO=BA=CD=OD，",
+    "∴△DOC与△BOA均为等腰三角形，",
+    "又F为OC的中点，连接DF，",
+    "∴DF⊥OC，",
+    "∴∠AFD=90°，",
+    "又G为AD的中点，",
+    "由直角三角形斜边上的中线等于斜边的一半可知：\\(GF=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；",
+    "〔图2〕",
+    "过B点作BH⊥AO于H，连接HG，如上图所示：",
+    "由等腰三角形的“三线合一”可知：AH=HO=\\(\\frac { 1 } { 2 }\\)AO=\\(\\frac { 1 } { 4 }\\)AC=4，",
+    "∴HC=HO+OC=4+8=12，",
+    "在Rt△BHC中，由勾股定理可知\\(BH=\\sqrt[] { BC ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -12 ^ { 2 } }=9\\),",
+    "∵H为AO中点，G为AD中点，",
+    "∴HG为△AOD的中位线，",
+    "∴HG∥BD，即HG∥BE，",
+    "且\\(HG=\\frac { 1 } { 2 }OD=\\frac { 1 } { 2 }BO=BE\\)，",
+    "∴四边形BHGE为平行四边形，",
+    "∴GE=BH=9，",
+    "∴\\(C_{ \\vartriangle EFG } =GE+GF+EF=9+\\frac { 15 } { 2 }+\\frac { 15 } { 2 }=24\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在四边形\\(ABCD\\)中，\\(AC\\)和\\(BD\\)相交于点O，\\(AO=CO,\\quad \\angle BCA=\\angle CAD\\)．\n〔图1〕",
+      "paper_blocks": [
+        56,
+        57
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-5411D4E1B8-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(ABCD\\)是平行四边形；",
+      "stem_text": "求证：四边形\\(ABCD\\)是平行四边形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明过程见解析",
+      "answer": "证明过程见解析",
+      "given_solution": "证明：∵\\(\\angle BCA=\\angle CAD\\)，\n∴BC∥AD，\n在△AOD和△COB中：\\(\\begin{cases} \\angle BCA=\\angle CAD \\\\ CO=AO \\\\ \\angle COB=\\angle AOD \\end{cases}\\)，\n∴△AOD≌△COB(ASA)，\n∴BC=AD，\n∴四边形ABCD为平行四边形．",
+      "solution_steps": [
+        "证明：∵\\(\\angle BCA=\\angle CAD\\)，",
+        "∴BC∥AD，",
+        "在△AOD和△COB中：\\(\\begin{cases} \\angle BCA=\\angle CAD \\\\ CO=AO \\\\ \\angle COB=\\angle AOD \\end{cases}\\)，",
+        "∴△AOD≌△COB(ASA)，",
+        "∴BC=AD，",
+        "∴四边形ABCD为平行四边形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58
+        ],
+        "solution_block_ids": [
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.01"
+      ],
+      "exam_ids": [
+        "E.G05.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-5411D4E1B8-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，E，F，G分别是\\(BO,CO,AD\\)的中点，连接\\(EF,GE,GF\\)，若\\(BD=2AB,\\quad BC=15,\\quad AC=16\\)，求\\(\\vartriangle EFG\\)的周长．",
+      "stem_text": "如图2，E，F，G分别是\\(BO,CO,AD\\)的中点，连接\\(EF,GE,GF\\)，若\\(BD=2AB,\\quad BC=15,\\quad AC=16\\)，求\\(\\vartriangle EFG\\)的周长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "24",
+      "answer": "24",
+      "given_solution": "解：∵点E、F分别为BO和CO的中点，\n∴EF是△OBC的中位线，\n∴\\(EF=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；\n∵ABCD为平行四边形，\n∴BD=2BO，\n又已知BD=2BA，\n∴BO=BA=CD=OD，\n∴△DOC与△BOA均为等腰三角形，\n又F为OC的中点，连接DF，\n∴DF⊥OC，\n∴∠AFD=90°，\n又G为AD的中点，\n由直角三角形斜边上的中线等于斜边的一半可知：\\(GF=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；\n〔图2〕\n过B点作BH⊥AO于H，连接HG，如上图所示：\n由等腰三角形的“三线合一”可知：AH=HO=\\(\\frac { 1 } { 2 }\\)AO=\\(\\frac { 1 } { 4 }\\)AC=4，\n∴HC=HO+OC=4+8=12，\n在Rt△BHC中，由勾股定理可知\\(BH=\\sqrt[] { BC ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -12 ^ { 2 } }=9\\),\n∵H为AO中点，G为AD中点，\n∴HG为△AOD的中位线，\n∴HG∥BD，即HG∥BE，\n且\\(HG=\\frac { 1 } { 2 }OD=\\frac { 1 } { 2 }BO=BE\\)，\n∴四边形BHGE为平行四边形，\n∴GE=BH=9，\n∴\\(C_{ \\vartriangle EFG } =GE+GF+EF=9+\\frac { 15 } { 2 }+\\frac { 15 } { 2 }=24\\)．",
+      "solution_steps": [
+        "解：∵点E、F分别为BO和CO的中点，",
+        "∴EF是△OBC的中位线，",
+        "∴\\(EF=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；",
+        "∵ABCD为平行四边形，",
+        "∴BD=2BO，",
+        "又已知BD=2BA，",
+        "∴BO=BA=CD=OD，",
+        "∴△DOC与△BOA均为等腰三角形，",
+        "又F为OC的中点，连接DF，",
+        "∴DF⊥OC，",
+        "∴∠AFD=90°，",
+        "又G为AD的中点，",
+        "由直角三角形斜边上的中线等于斜边的一半可知：\\(GF=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=\\frac { 15 } { 2 }\\)；",
+        "〔图2〕",
+        "过B点作BH⊥AO于H，连接HG，如上图所示：",
+        "由等腰三角形的“三线合一”可知：AH=HO=\\(\\frac { 1 } { 2 }\\)AO=\\(\\frac { 1 } { 4 }\\)AC=4，",
+        "∴HC=HO+OC=4+8=12，",
+        "在Rt△BHC中，由勾股定理可知\\(BH=\\sqrt[] { BC ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } -12 ^ { 2 } }=9\\),",
+        "∵H为AO中点，G为AD中点，",
+        "∴HG为△AOD的中位线，",
+        "∴HG∥BD，即HG∥BE，",
+        "且\\(HG=\\frac { 1 } { 2 }OD=\\frac { 1 } { 2 }BO=BE\\)，",
+        "∴四边形BHGE为平行四边形，",
+        "∴GE=BH=9，",
+        "∴\\(C_{ \\vartriangle EFG } =GE+GF+EF=9+\\frac { 15 } { 2 }+\\frac { 15 } { 2 }=24\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          59
+        ],
+        "solution_block_ids": [
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      59
+    ],
+    "solution_body_blocks": [
+      324,
+      366
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-5411D4E1B8/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          336.82,
+          583.64,
+          577.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-5411D4E1B8/solution-q20-p17.webp",
+      "assets/SZ-G8-T2-5411D4E1B8/solution-q20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          116.82,
+          583.64,
+          761.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          604.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G05.01.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

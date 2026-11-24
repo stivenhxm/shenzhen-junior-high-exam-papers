@@ -1,0 +1,439 @@
+{
+  "id": "SZ-G8-T2-8C40531CBC-Q22",
+  "paper_id": "SZ-G8-T2-8C40531CBC",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图1，△ABC是边长为4cm的等边三角形，边AB在射线OM上，且OA＝6cm，点D从点O出发，沿射线OM方向以1cm/s的速度运动，当D不与点A重合时，将线段CD绕点C逆时针方向旋转60°得到CE，连接DE、BE，设点D运动了ts．\n〔图1〕\n（1）点D的运动过程中，线段AD与BE的数量关系是______，请以图1情形为例（当点D在线段OA上时，点D与点A不重合），说明理由．\n（2）当6<t<10时，如图2，△BDE周长是否存在最小值？若存在，求出△BDE的最小周长；若不存在，请说明理由．\n（3）当点D在射线OM上运动时，是否存在以D、B、E为顶点的三角形是直角三角形？若存在，直接写出此时t的值______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/73/73226897c33505206d99ba6dca98272ce9ea5692f57d1b4b8d117e5d8e32e2b2.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）AD＝BE，理由见解析；\n（2）2\\(\\sqrt[] { 3 }\\)+4，理由见解析；\n（3）2或14．",
+  "answer": "（1）AD＝BE，理由见解析；\n（2）2\\(\\sqrt[] { 3 }\\)+4，理由见解析；\n（3）2或14．",
+  "given_solution": "【分析】（1）由旋转的性质得到∠DCE＝60°，DC＝EC，进而证得△ACD≌△BCE，即可得到结论；\n（2）当6＜t＜10时，由旋转的性质得到BE＝AD，于是得到C\\({}_{△}\\)\\({}_{DBE}\\)＝BE+DB+DE＝AB+DE＝4+DE，根据等边三角形的性质得到DE＝CD，由垂线段最短得到当CD⊥AB时，△BDE的周长最小，于是得到结论；\n（3）存在，①当点D与点B重合时，D，B，E不能构成三角形，②当0≤t＜6时，由旋转的性质得到∠ABE＝60°，∠BDE＜60°，求得∠BED＝90°，根据等边三角形的性质得到∠DEC＝60°，求得∠CEB＝30°，求得OD＝OA﹣DA＝6﹣4＝2，于是得到t＝2÷1＝2s；③当6＜t＜10时，不存在直角三角形．④当t＞10时，可得到t＝14．\n【小问1详解】\n解： AD＝BE，理由如下：\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∵△ABC是等边三角形，\n∴∠ACB＝60°＝∠DCE，AC＝BC，\n∴∠ACB－∠ACE＝∠DCE－∠ACE，\n∴∠ACD＝∠BCE，\n在△ACD和△BCE中，\n\\(\\begin{cases} CD=CE \\\\ \\angle ACD=\\angle BCE \\\\ AC=BC \\end{cases}\\) ，\n∴△ACD≌△BCE（SAS），\n∴AD＝BE，\n故答案为：AD＝BE；\n【小问2详解】\n存在，当6＜t＜10时，\n由（1）知，BE＝AD，\n∴△BDE周长C\\({}_{△}\\)\\({}_{BDE}\\)＝BE+DB+DE＝AD＋DB＋DE＝AB+DE＝4+DE，\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∴DE＝CD，\n∴C\\({}_{△}\\)\\({}_{BDE}\\)＝CD+4，\n由垂线段最短可知，当CD⊥AB时，CD最短，△BDE的周长最小，\n在等边三角形△ABC中，∠ACB＝60°，BC＝AB＝4cm，\n当CD⊥AB时，BD＝\\(\\frac { 1 } { 2 }\\)AB＝2（cm），\n∴CD＝\\(\\sqrt[] { BC ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)（cm），\n∴△BDE的最小周长＝CD+4＝（2\\(\\sqrt[] { 3 }\\)+4）（cm）；\n【小问3详解】\n存在，①∵当点D与点B重合时，D，B，E不能构成三角形，\n∴当点D与点B重合时，不符合题意，\n②当0≤t＜6时，由旋转可知，∠ABE＝60°，∠BDE＜60°，\n∴∠BED＝90°，\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∴∠DEC＝60°，\n∴∠CEB＝30°，\n∵∠CEB＝∠CDA，\n∴∠CDA＝30°，\n∵∠CAB＝60°，\n∴∠ACD＝∠ADC＝30°，\n∴DA＝CA＝4cm，\n∴OD＝OA﹣DA＝6﹣4＝2cm，\n∴t＝2÷1＝2（s）；\n③当6＜t＜10时，不存在直角三角形．\n④如图，当t＞10时，由旋转的性质可知，∠DBE＝60°，\n〔图2〕\n又由（1）知∠CDE＝60°，\n∴∠BDE＝∠CDE+∠BDC＝60°+∠BDC，\n而∠BDC＞0°，\n∴∠BDE＞60°，\n∴只能∠BDE＝90°，\n从而∠BCD＝30°，\n∴BD＝BC＝4cm，\n∴OD＝14cm，\n∴t＝14÷1＝14（s），\n综上所述：当t＝2或14s时，以D、E、B为顶点的三角形是直角三角形，\n故答案为：2或14．\n【点睛】本题考查了旋转的性质、等边三角形的判定和性质、全等三角形的判定和性质、三角形周长的计算、直角三角形的判定等知识，熟练掌握旋转的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/73/73226897c33505206d99ba6dca98272ce9ea5692f57d1b4b8d117e5d8e32e2b2.png",
+    "assets/figures/92/926d5495cc1161c055f7e40924bb5f6b2474bac62bdcd09bc2a1b0661f551d0b.png"
+  ],
+  "solution": "【小问1详解】\n解： AD＝BE，理由如下：\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∵△ABC是等边三角形，\n∴∠ACB＝60°＝∠DCE，AC＝BC，\n∴∠ACB－∠ACE＝∠DCE－∠ACE，\n∴∠ACD＝∠BCE，\n在△ACD和△BCE中，\n\\(\\begin{cases} CD=CE \\\\ \\angle ACD=\\angle BCE \\\\ AC=BC \\end{cases}\\) ，\n∴△ACD≌△BCE（SAS），\n∴AD＝BE，\n故答案为：AD＝BE；\n【小问2详解】\n存在，当6＜t＜10时，\n由（1）知，BE＝AD，\n∴△BDE周长C\\({}_{△}\\)\\({}_{BDE}\\)＝BE+DB+DE＝AD＋DB＋DE＝AB+DE＝4+DE，\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∴DE＝CD，\n∴C\\({}_{△}\\)\\({}_{BDE}\\)＝CD+4，\n由垂线段最短可知，当CD⊥AB时，CD最短，△BDE的周长最小，\n在等边三角形△ABC中，∠ACB＝60°，BC＝AB＝4cm，\n当CD⊥AB时，BD＝\\(\\frac { 1 } { 2 }\\)AB＝2（cm），\n∴CD＝\\(\\sqrt[] { BC ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)（cm），\n∴△BDE的最小周长＝CD+4＝（2\\(\\sqrt[] { 3 }\\)+4）（cm）；\n【小问3详解】\n存在，①∵当点D与点B重合时，D，B，E不能构成三角形，\n∴当点D与点B重合时，不符合题意，\n②当0≤t＜6时，由旋转可知，∠ABE＝60°，∠BDE＜60°，\n∴∠BED＝90°，\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∴∠DEC＝60°，\n∴∠CEB＝30°，\n∵∠CEB＝∠CDA，\n∴∠CDA＝30°，\n∵∠CAB＝60°，\n∴∠ACD＝∠ADC＝30°，\n∴DA＝CA＝4cm，\n∴OD＝OA﹣DA＝6﹣4＝2cm，\n∴t＝2÷1＝2（s）；\n③当6＜t＜10时，不存在直角三角形．\n④如图，当t＞10时，由旋转的性质可知，∠DBE＝60°，\n〔图2〕\n又由（1）知∠CDE＝60°，\n∴∠BDE＝∠CDE+∠BDC＝60°+∠BDC，\n而∠BDC＞0°，\n∴∠BDE＞60°，\n∴只能∠BDE＝90°，\n从而∠BCD＝30°，\n∴BD＝BC＝4cm，\n∴OD＝14cm，\n∴t＝14÷1＝14（s），\n综上所述：当t＝2或14s时，以D、E、B为顶点的三角形是直角三角形，\n故答案为：2或14．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解： AD＝BE，理由如下：",
+    "∵将线段CD绕点C逆时针方向旋转60°得到CE，",
+    "∴∠DCE＝60°，DC＝EC，",
+    "∴△CDE是等边三角形，",
+    "∵△ABC是等边三角形，",
+    "∴∠ACB＝60°＝∠DCE，AC＝BC，",
+    "∴∠ACB－∠ACE＝∠DCE－∠ACE，",
+    "∴∠ACD＝∠BCE，",
+    "在△ACD和△BCE中，",
+    "\\(\\begin{cases} CD=CE \\\\ \\angle ACD=\\angle BCE \\\\ AC=BC \\end{cases}\\) ，",
+    "∴△ACD≌△BCE（SAS），",
+    "∴AD＝BE，",
+    "故答案为：AD＝BE；",
+    "【小问2详解】",
+    "存在，当6＜t＜10时，",
+    "由（1）知，BE＝AD，",
+    "∴△BDE周长C\\({}_{△}\\)\\({}_{BDE}\\)＝BE+DB+DE＝AD＋DB＋DE＝AB+DE＝4+DE，",
+    "∵将线段CD绕点C逆时针方向旋转60°得到CE，",
+    "∴∠DCE＝60°，DC＝EC，",
+    "∴△CDE是等边三角形，",
+    "∴DE＝CD，",
+    "∴C\\({}_{△}\\)\\({}_{BDE}\\)＝CD+4，",
+    "由垂线段最短可知，当CD⊥AB时，CD最短，△BDE的周长最小，",
+    "在等边三角形△ABC中，∠ACB＝60°，BC＝AB＝4cm，",
+    "当CD⊥AB时，BD＝\\(\\frac { 1 } { 2 }\\)AB＝2（cm），",
+    "∴CD＝\\(\\sqrt[] { BC ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)（cm），",
+    "∴△BDE的最小周长＝CD+4＝（2\\(\\sqrt[] { 3 }\\)+4）（cm）；",
+    "【小问3详解】",
+    "存在，①∵当点D与点B重合时，D，B，E不能构成三角形，",
+    "∴当点D与点B重合时，不符合题意，",
+    "②当0≤t＜6时，由旋转可知，∠ABE＝60°，∠BDE＜60°，",
+    "∴∠BED＝90°，",
+    "∵将线段CD绕点C逆时针方向旋转60°得到CE，",
+    "∴∠DCE＝60°，DC＝EC，",
+    "∴△CDE是等边三角形，",
+    "∴∠DEC＝60°，",
+    "∴∠CEB＝30°，",
+    "∵∠CEB＝∠CDA，",
+    "∴∠CDA＝30°，",
+    "∵∠CAB＝60°，",
+    "∴∠ACD＝∠ADC＝30°，",
+    "∴DA＝CA＝4cm，",
+    "∴OD＝OA﹣DA＝6﹣4＝2cm，",
+    "∴t＝2÷1＝2（s）；",
+    "③当6＜t＜10时，不存在直角三角形．",
+    "④如图，当t＞10时，由旋转的性质可知，∠DBE＝60°，",
+    "〔图2〕",
+    "又由（1）知∠CDE＝60°，",
+    "∴∠BDE＝∠CDE+∠BDC＝60°+∠BDC，",
+    "而∠BDC＞0°，",
+    "∴∠BDE＞60°，",
+    "∴只能∠BDE＝90°，",
+    "从而∠BCD＝30°，",
+    "∴BD＝BC＝4cm，",
+    "∴OD＝14cm，",
+    "∴t＝14÷1＝14（s），",
+    "综上所述：当t＝2或14s时，以D、E、B为顶点的三角形是直角三角形，",
+    "故答案为：2或14．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，△ABC是边长为4cm的等边三角形，边AB在射线OM上，且OA＝6cm，点D从点O出发，沿射线OM方向以1cm/s的速度运动，当D不与点A重合时，将线段CD绕点C逆时针方向旋转60°得到CE，连接DE、BE，设点D运动了ts．\n〔图1〕",
+      "paper_blocks": [
+        81,
+        82
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-8C40531CBC-Q22-P01",
+      "label": "（1）",
+      "prompt": "点D的运动过程中，线段AD与BE的数量关系是______，请以图1情形为例（当点D在线段OA上时，点D与点A不重合），说明理由．",
+      "stem_text": "点D的运动过程中，线段AD与BE的数量关系是______，请以图1情形为例（当点D在线段OA上时，点D与点A不重合），说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "AD＝BE，理由见解析；",
+      "answer": "AD＝BE，理由见解析；",
+      "given_solution": "解： AD＝BE，理由如下：\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∵△ABC是等边三角形，\n∴∠ACB＝60°＝∠DCE，AC＝BC，\n∴∠ACB－∠ACE＝∠DCE－∠ACE，\n∴∠ACD＝∠BCE，\n在△ACD和△BCE中，\n\\(\\begin{cases} CD=CE \\\\ \\angle ACD=\\angle BCE \\\\ AC=BC \\end{cases}\\) ，\n∴△ACD≌△BCE（SAS），\n∴AD＝BE，\n故答案为：AD＝BE；",
+      "solution_steps": [
+        "解： AD＝BE，理由如下：",
+        "∵将线段CD绕点C逆时针方向旋转60°得到CE，",
+        "∴∠DCE＝60°，DC＝EC，",
+        "∴△CDE是等边三角形，",
+        "∵△ABC是等边三角形，",
+        "∴∠ACB＝60°＝∠DCE，AC＝BC，",
+        "∴∠ACB－∠ACE＝∠DCE－∠ACE，",
+        "∴∠ACD＝∠BCE，",
+        "在△ACD和△BCE中，",
+        "\\(\\begin{cases} CD=CE \\\\ \\angle ACD=\\angle BCE \\\\ AC=BC \\end{cases}\\) ，",
+        "∴△ACD≌△BCE（SAS），",
+        "∴AD＝BE，",
+        "故答案为：AD＝BE；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83
+        ],
+        "solution_block_ids": [
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-8C40531CBC-Q22-P02",
+      "label": "（2）",
+      "prompt": "当6<t<10时，如图2，△BDE周长是否存在最小值？若存在，求出△BDE的最小周长；若不存在，请说明理由．",
+      "stem_text": "当6<t<10时，如图2，△BDE周长是否存在最小值？若存在，求出△BDE的最小周长；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "2\\(\\sqrt[] { 3 }\\)+4，理由见解析；",
+      "answer": "2\\(\\sqrt[] { 3 }\\)+4，理由见解析；",
+      "given_solution": "存在，当6＜t＜10时，\n由（1）知，BE＝AD，\n∴△BDE周长C\\({}_{△}\\)\\({}_{BDE}\\)＝BE+DB+DE＝AD＋DB＋DE＝AB+DE＝4+DE，\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∴DE＝CD，\n∴C\\({}_{△}\\)\\({}_{BDE}\\)＝CD+4，\n由垂线段最短可知，当CD⊥AB时，CD最短，△BDE的周长最小，\n在等边三角形△ABC中，∠ACB＝60°，BC＝AB＝4cm，\n当CD⊥AB时，BD＝\\(\\frac { 1 } { 2 }\\)AB＝2（cm），\n∴CD＝\\(\\sqrt[] { BC ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)（cm），\n∴△BDE的最小周长＝CD+4＝（2\\(\\sqrt[] { 3 }\\)+4）（cm）；",
+      "solution_steps": [
+        "存在，当6＜t＜10时，",
+        "由（1）知，BE＝AD，",
+        "∴△BDE周长C\\({}_{△}\\)\\({}_{BDE}\\)＝BE+DB+DE＝AD＋DB＋DE＝AB+DE＝4+DE，",
+        "∵将线段CD绕点C逆时针方向旋转60°得到CE，",
+        "∴∠DCE＝60°，DC＝EC，",
+        "∴△CDE是等边三角形，",
+        "∴DE＝CD，",
+        "∴C\\({}_{△}\\)\\({}_{BDE}\\)＝CD+4，",
+        "由垂线段最短可知，当CD⊥AB时，CD最短，△BDE的周长最小，",
+        "在等边三角形△ABC中，∠ACB＝60°，BC＝AB＝4cm，",
+        "当CD⊥AB时，BD＝\\(\\frac { 1 } { 2 }\\)AB＝2（cm），",
+        "∴CD＝\\(\\sqrt[] { BC ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)（cm），",
+        "∴△BDE的最小周长＝CD+4＝（2\\(\\sqrt[] { 3 }\\)+4）（cm）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          84
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-8C40531CBC-Q22-P03",
+      "label": "（3）",
+      "prompt": "当点D在射线OM上运动时，是否存在以D、B、E为顶点的三角形是直角三角形？若存在，直接写出此时t的值______．",
+      "stem_text": "当点D在射线OM上运动时，是否存在以D、B、E为顶点的三角形是直角三角形？若存在，直接写出此时t的值______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "2或14．",
+      "answer": "2或14．",
+      "given_solution": "存在，①∵当点D与点B重合时，D，B，E不能构成三角形，\n∴当点D与点B重合时，不符合题意，\n②当0≤t＜6时，由旋转可知，∠ABE＝60°，∠BDE＜60°，\n∴∠BED＝90°，\n∵将线段CD绕点C逆时针方向旋转60°得到CE，\n∴∠DCE＝60°，DC＝EC，\n∴△CDE是等边三角形，\n∴∠DEC＝60°，\n∴∠CEB＝30°，\n∵∠CEB＝∠CDA，\n∴∠CDA＝30°，\n∵∠CAB＝60°，\n∴∠ACD＝∠ADC＝30°，\n∴DA＝CA＝4cm，\n∴OD＝OA﹣DA＝6﹣4＝2cm，\n∴t＝2÷1＝2（s）；\n③当6＜t＜10时，不存在直角三角形．\n④如图，当t＞10时，由旋转的性质可知，∠DBE＝60°，\n〔图2〕\n又由（1）知∠CDE＝60°，\n∴∠BDE＝∠CDE+∠BDC＝60°+∠BDC，\n而∠BDC＞0°，\n∴∠BDE＞60°，\n∴只能∠BDE＝90°，\n从而∠BCD＝30°，\n∴BD＝BC＝4cm，\n∴OD＝14cm，\n∴t＝14÷1＝14（s），\n综上所述：当t＝2或14s时，以D、E、B为顶点的三角形是直角三角形，\n故答案为：2或14．",
+      "solution_steps": [
+        "存在，①∵当点D与点B重合时，D，B，E不能构成三角形，",
+        "∴当点D与点B重合时，不符合题意，",
+        "②当0≤t＜6时，由旋转可知，∠ABE＝60°，∠BDE＜60°，",
+        "∴∠BED＝90°，",
+        "∵将线段CD绕点C逆时针方向旋转60°得到CE，",
+        "∴∠DCE＝60°，DC＝EC，",
+        "∴△CDE是等边三角形，",
+        "∴∠DEC＝60°，",
+        "∴∠CEB＝30°，",
+        "∵∠CEB＝∠CDA，",
+        "∴∠CDA＝30°，",
+        "∵∠CAB＝60°，",
+        "∴∠ACD＝∠ADC＝30°，",
+        "∴DA＝CA＝4cm，",
+        "∴OD＝OA﹣DA＝6﹣4＝2cm，",
+        "∴t＝2÷1＝2（s）；",
+        "③当6＜t＜10时，不存在直角三角形．",
+        "④如图，当t＞10时，由旋转的性质可知，∠DBE＝60°，",
+        "〔图2〕",
+        "又由（1）知∠CDE＝60°，",
+        "∴∠BDE＝∠CDE+∠BDC＝60°+∠BDC，",
+        "而∠BDC＞0°，",
+        "∴∠BDE＞60°，",
+        "∴只能∠BDE＝90°，",
+        "从而∠BCD＝30°，",
+        "∴BD＝BC＝4cm，",
+        "∴OD＝14cm，",
+        "∴t＝14÷1＝14（s），",
+        "综上所述：当t＝2或14s时，以D、E、B为顶点的三角形是直角三角形，",
+        "故答案为：2或14．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          85
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      81,
+      85
+    ],
+    "solution_body_blocks": [
+      355,
+      426
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-8C40531CBC/paper-q22-p06.webp",
+      "assets/SZ-G8-T2-8C40531CBC/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          612.27,
+          583.64,
+          673.18
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          291.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-8C40531CBC/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-8C40531CBC/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-8C40531CBC/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          307.73,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          696.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04",
+    "M.G07.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01",
+    "E.G07.03.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问解答对应“利用旋转对应建立全等或角度关系”。",
+  "tag_source": "小问标签汇总"
+}

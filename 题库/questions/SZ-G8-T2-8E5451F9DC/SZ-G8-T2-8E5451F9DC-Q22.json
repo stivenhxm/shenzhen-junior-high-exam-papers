@@ -1,0 +1,428 @@
+{
+  "id": "SZ-G8-T2-8E5451F9DC-Q22",
+  "paper_id": "SZ-G8-T2-8E5451F9DC",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "补足条件判定矩形、在折线或辅助线图形中传递角关系",
+  "stem": "如图,已知四边形ABCD中,AB//DC,AB=DC,且AB=6cm,BC=8cm,对角线AC =10cm,\n(1)求证:四边形ABCD是矩形;\n(2)如图(2),若动点Q从点C出发,在CA边上以每秒5cm的速度向点A匀速运动,同时动点P从点B出发,在BC边上以每秒4cm的速度向点C匀速运动,运动时间为t秒(0≤t＜2),连接BQ、AP,若AP⊥BQ,求t的值;\n(3)如图(3),若点Q在对角线AC上,CQ=4cm ,动点P从B点出发,以每秒1cm的速度沿BC运动至点C止.设点P运动了t 秒,请你探索:从运动开始,经过多少时间,以点Q、P、C为顶点的三角形是等腰三角形?请求出所有可能的结果.\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/da/da5496b10e7a876f45fbd05dcaca96f2d17ed10605be251831aaf6c8c2ec56bb.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(t=\\frac { 7 } { 8 }\\)；（3）t=4秒或1.6秒或5.5秒.",
+  "answer": "（1）见解析；（2）\\(t=\\frac { 7 } { 8 }\\)；（3）t=4秒或1.6秒或5.5秒.",
+  "given_solution": "【分析】（1）先根据一对对边平行且相等的四边形是平行四边形判定四边形ABCD是平行四边形，再根据勾股定理的逆定理证明∠B＝90°，得出四边形ABCD是矩形；\n（2）先过Q作QM⊥BC于M点，AP与BQ交于点N，判定△ABP∽△BMQ，得出\\(\\frac { AB } { BM }=\\frac { BP } { MQ }\\)，即\\(\\frac { 6 } { 8-4t }=\\frac { 4t } { 3t }\\)，求得t的值即可；\n（3）分为三种情况讨论：当CQ＝CP＝4cm时，当PQ＝CQ＝4cm时，当QP＝CP时，分别根据等腰三角形的性质，求得BP的长，进而得到t的值．\n【详解】证明：（1）∵AB∥DC，AB＝DC，\n∴四边形ABCD是平行四边形，\n∵AB＝6cm，BC＝8cm，AC＝l0cm，\n∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝100，AC\\({}^{2}\\)＝100，\n∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝AC\\({}^{2}\\)，\n∴∠B＝90°，\n∴四边形ABCD是矩形；\n（2）如图，过Q作QM⊥BC于M点，AP与BQ交于点N，\n〔图2〕\n则CQ＝5t，QM＝3t，CM＝4t，MB＝8－4t，\n∵∠NAB＋∠ABN＝90°，∠ABN＋∠NBP＝90°，\n∴∠NAB＝∠NBP，且∠ABP＝∠BMQ＝90°，\n∴△ABP∽△BMQ，\n∴\\(\\frac { AB } { BM }=\\frac { BP } { MQ }\\)，\n即\\(\\frac { 6 } { 8-4t }=\\frac { 4t } { 3t }\\)，\n解得t＝\\(\\frac { 7 } { 8 }\\)；\n（3）分为三种情况：①如图1，\n〔图3〕\n当CQ＝CP＝4cm时，\nBP＝8－4＝4cm，\n即t＝4秒；\n②如图2，\n〔图4〕\n当PQ＝CQ＝4cm时，过Q作QM⊥BC于M，\n则AB∥QM，\n∴\\(\\frac { CE } { AC }＝\\frac { CM } { BC }\\)，\n∴\\(\\frac { 4 } { 10 }＝\\frac { CM } { 8 }\\)，\n∴CM＝3.2（cm），\n∵PQ＝CQ，QM⊥CP，\n∴PC＝2CM＝6.4cm，\n∴BP＝8cm－6.4cm＝1.6cm，\n∴t＝1.6s；\n③如图3，当QP＝CP时，过P作PN⊥AC于N，\n〔图5〕\n则CN＝\\(\\frac { 1 } { 2 }\\)CQ＝2，∠CNP＝∠B＝90°，\n∵∠PCN＝∠BCA，\n∴△PCN∽△ACB，\n∴\\(\\frac { CN } { CB }＝\\frac { CP } { AC }\\)，\n∴\\(\\frac { 2 } { 8 }＝\\frac { CP } { 10 }\\)，\n∴CP＝2.5cm，\n∴BP＝8cm－2.5cm＝5.5cm，\nt＝5.5s，\n即从运动开始，经过4秒或1.6秒或5.5秒时，以点Q、P、C为顶点的三角形是等腰三角形，即t＝4秒或1.6秒或5.5秒.\n【点睛】本题以动点问题为背景，主要考查了四边形的综合应用，解决问题时需要运用矩形的判定、勾股定理的逆定理、相似三角形的判定与性质以及等腰三角形的性质等，解决问题的关键是作辅助线构造相似三角形，解题时注意分类思想的运用．",
+  "given_solution_figures": [
+    "assets/figures/c8/c8aea10d891bae67e84cdadd7ec88a094e74ebbeb958f35416de5324e8c68ace.png",
+    "assets/figures/11/114d53787f3d023fa524016b44101921705d5e95c3e41022d19878b867ca315e.png",
+    "assets/figures/c4/c4d691a7ca2a966c487853e23fe55c449c435067a19a0ac5cdc03794f849cb51.png",
+    "assets/figures/fe/feded3c08ae80735d2bee252ab4754fb5a1b6fd02e5d0af74f83e9832f980daa.png",
+    "assets/figures/10/10d66a37630f6f1082158e4ffd31ebb781fafb6b90c44ac91971f1a8864bc8f9.png"
+  ],
+  "solution": "证明：（1）∵AB∥DC，AB＝DC，\n∴四边形ABCD是平行四边形，\n∵AB＝6cm，BC＝8cm，AC＝l0cm，\n∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝100，AC\\({}^{2}\\)＝100，\n∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝AC\\({}^{2}\\)，\n∴∠B＝90°，\n∴四边形ABCD是矩形；\n（2）如图，过Q作QM⊥BC于M点，AP与BQ交于点N，\n〔图2〕\n则CQ＝5t，QM＝3t，CM＝4t，MB＝8－4t，\n∵∠NAB＋∠ABN＝90°，∠ABN＋∠NBP＝90°，\n∴∠NAB＝∠NBP，且∠ABP＝∠BMQ＝90°，\n∴△ABP∽△BMQ，\n∴\\(\\frac { AB } { BM }=\\frac { BP } { MQ }\\)，\n即\\(\\frac { 6 } { 8-4t }=\\frac { 4t } { 3t }\\)，\n解得t＝\\(\\frac { 7 } { 8 }\\)；\n（3）分为三种情况：①如图1，\n〔图3〕\n当CQ＝CP＝4cm时，\nBP＝8－4＝4cm，\n即t＝4秒；\n②如图2，\n〔图4〕\n当PQ＝CQ＝4cm时，过Q作QM⊥BC于M，\n则AB∥QM，\n∴\\(\\frac { CE } { AC }＝\\frac { CM } { BC }\\)，\n∴\\(\\frac { 4 } { 10 }＝\\frac { CM } { 8 }\\)，\n∴CM＝3.2（cm），\n∵PQ＝CQ，QM⊥CP，\n∴PC＝2CM＝6.4cm，\n∴BP＝8cm－6.4cm＝1.6cm，\n∴t＝1.6s；\n③如图3，当QP＝CP时，过P作PN⊥AC于N，\n〔图5〕\n则CN＝\\(\\frac { 1 } { 2 }\\)CQ＝2，∠CNP＝∠B＝90°，\n∵∠PCN＝∠BCA，\n∴△PCN∽△ACB，\n∴\\(\\frac { CN } { CB }＝\\frac { CP } { AC }\\)，\n∴\\(\\frac { 2 } { 8 }＝\\frac { CP } { 10 }\\)，\n∴CP＝2.5cm，\n∴BP＝8cm－2.5cm＝5.5cm，\nt＝5.5s，\n即从运动开始，经过4秒或1.6秒或5.5秒时，以点Q、P、C为顶点的三角形是等腰三角形，即t＝4秒或1.6秒或5.5秒.",
+  "solution_steps": [
+    "证明：（1）∵AB∥DC，AB＝DC，",
+    "∴四边形ABCD是平行四边形，",
+    "∵AB＝6cm，BC＝8cm，AC＝l0cm，",
+    "∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝100，AC\\({}^{2}\\)＝100，",
+    "∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝AC\\({}^{2}\\)，",
+    "∴∠B＝90°，",
+    "∴四边形ABCD是矩形；",
+    "（2）如图，过Q作QM⊥BC于M点，AP与BQ交于点N，",
+    "〔图2〕",
+    "则CQ＝5t，QM＝3t，CM＝4t，MB＝8－4t，",
+    "∵∠NAB＋∠ABN＝90°，∠ABN＋∠NBP＝90°，",
+    "∴∠NAB＝∠NBP，且∠ABP＝∠BMQ＝90°，",
+    "∴△ABP∽△BMQ，",
+    "∴\\(\\frac { AB } { BM }=\\frac { BP } { MQ }\\)，",
+    "即\\(\\frac { 6 } { 8-4t }=\\frac { 4t } { 3t }\\)，",
+    "解得t＝\\(\\frac { 7 } { 8 }\\)；",
+    "（3）分为三种情况：①如图1，",
+    "〔图3〕",
+    "当CQ＝CP＝4cm时，",
+    "BP＝8－4＝4cm，",
+    "即t＝4秒；",
+    "②如图2，",
+    "〔图4〕",
+    "当PQ＝CQ＝4cm时，过Q作QM⊥BC于M，",
+    "则AB∥QM，",
+    "∴\\(\\frac { CE } { AC }＝\\frac { CM } { BC }\\)，",
+    "∴\\(\\frac { 4 } { 10 }＝\\frac { CM } { 8 }\\)，",
+    "∴CM＝3.2（cm），",
+    "∵PQ＝CQ，QM⊥CP，",
+    "∴PC＝2CM＝6.4cm，",
+    "∴BP＝8cm－6.4cm＝1.6cm，",
+    "∴t＝1.6s；",
+    "③如图3，当QP＝CP时，过P作PN⊥AC于N，",
+    "〔图5〕",
+    "则CN＝\\(\\frac { 1 } { 2 }\\)CQ＝2，∠CNP＝∠B＝90°，",
+    "∵∠PCN＝∠BCA，",
+    "∴△PCN∽△ACB，",
+    "∴\\(\\frac { CN } { CB }＝\\frac { CP } { AC }\\)，",
+    "∴\\(\\frac { 2 } { 8 }＝\\frac { CP } { 10 }\\)，",
+    "∴CP＝2.5cm，",
+    "∴BP＝8cm－2.5cm＝5.5cm，",
+    "t＝5.5s，",
+    "即从运动开始，经过4秒或1.6秒或5.5秒时，以点Q、P、C为顶点的三角形是等腰三角形，即t＝4秒或1.6秒或5.5秒."
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图,已知四边形ABCD中,AB//DC,AB=DC,且AB=6cm,BC=8cm,对角线AC =10cm,",
+      "paper_blocks": [
+        56
+      ]
+    },
+    {
+      "id": "fig-60",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        60
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-8E5451F9DC-Q22-P01",
+      "label": "(1)",
+      "prompt": "求证:四边形ABCD是矩形;",
+      "stem_text": "求证:四边形ABCD是矩形;",
+      "material_ids": [
+        "context",
+        "fig-60"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵AB∥DC，AB＝DC，\n∴四边形ABCD是平行四边形，\n∵AB＝6cm，BC＝8cm，AC＝l0cm，\n∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝100，AC\\({}^{2}\\)＝100，\n∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝AC\\({}^{2}\\)，\n∴∠B＝90°，\n∴四边形ABCD是矩形；",
+      "solution_steps": [
+        "∵AB∥DC，AB＝DC，",
+        "∴四边形ABCD是平行四边形，",
+        "∵AB＝6cm，BC＝8cm，AC＝l0cm，",
+        "∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝100，AC\\({}^{2}\\)＝100，",
+        "∴AB\\({}^{2}\\)＋BC\\({}^{2}\\)＝AC\\({}^{2}\\)，",
+        "∴∠B＝90°，",
+        "∴四边形ABCD是矩形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-8E5451F9DC-Q22-P02",
+      "label": "(2)",
+      "prompt": "如图(2),若动点Q从点C出发,在CA边上以每秒5cm的速度向点A匀速运动,同时动点P从点B出发,在BC边上以每秒4cm的速度向点C匀速运动,运动时间为t秒(0≤t＜2),连接BQ、AP,若AP⊥BQ,求t的值;",
+      "stem_text": "如图(2),若动点Q从点C出发,在CA边上以每秒5cm的速度向点A匀速运动,同时动点P从点B出发,在BC边上以每秒4cm的速度向点C匀速运动,运动时间为t秒(0≤t＜2),连接BQ、AP,若AP⊥BQ,求t的值;",
+      "material_ids": [
+        "context",
+        "fig-60"
+      ],
+      "requires": [],
+      "given_answer": "\\(t=\\frac { 7 } { 8 }\\)；",
+      "answer": "\\(t=\\frac { 7 } { 8 }\\)；",
+      "given_solution": "如图，过Q作QM⊥BC于M点，AP与BQ交于点N，\n〔图2〕\n则CQ＝5t，QM＝3t，CM＝4t，MB＝8－4t，\n∵∠NAB＋∠ABN＝90°，∠ABN＋∠NBP＝90°，\n∴∠NAB＝∠NBP，且∠ABP＝∠BMQ＝90°，\n∴△ABP∽△BMQ，\n∴\\(\\frac { AB } { BM }=\\frac { BP } { MQ }\\)，\n即\\(\\frac { 6 } { 8-4t }=\\frac { 4t } { 3t }\\)，\n解得t＝\\(\\frac { 7 } { 8 }\\)；",
+      "solution_steps": [
+        "如图，过Q作QM⊥BC于M点，AP与BQ交于点N，",
+        "〔图2〕",
+        "则CQ＝5t，QM＝3t，CM＝4t，MB＝8－4t，",
+        "∵∠NAB＋∠ABN＝90°，∠ABN＋∠NBP＝90°，",
+        "∴∠NAB＝∠NBP，且∠ABP＝∠BMQ＝90°，",
+        "∴△ABP∽△BMQ，",
+        "∴\\(\\frac { AB } { BM }=\\frac { BP } { MQ }\\)，",
+        "即\\(\\frac { 6 } { 8-4t }=\\frac { 4t } { 3t }\\)，",
+        "解得t＝\\(\\frac { 7 } { 8 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          58,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-8E5451F9DC-Q22-P03",
+      "label": "(3)",
+      "prompt": "如图(3),若点Q在对角线AC上,CQ=4cm ,动点P从B点出发,以每秒1cm的速度沿BC运动至点C止.设点P运动了t 秒,请你探索:从运动开始,经过多少时间,以点Q、P、C为顶点的三角形是等腰三角形?请求出所有可能的结果.",
+      "stem_text": "如图(3),若点Q在对角线AC上,CQ=4cm ,动点P从B点出发,以每秒1cm的速度沿BC运动至点C止.设点P运动了t 秒,请你探索:从运动开始,经过多少时间,以点Q、P、C为顶点的三角形是等腰三角形?请求出所有可能的结果.",
+      "material_ids": [
+        "context",
+        "fig-60"
+      ],
+      "requires": [],
+      "given_answer": "t=4秒或1.6秒或5.5秒.",
+      "answer": "t=4秒或1.6秒或5.5秒.",
+      "given_solution": "分为三种情况：①如图1，\n〔图3〕\n当CQ＝CP＝4cm时，\nBP＝8－4＝4cm，\n即t＝4秒；\n②如图2，\n〔图4〕\n当PQ＝CQ＝4cm时，过Q作QM⊥BC于M，\n则AB∥QM，\n∴\\(\\frac { CE } { AC }＝\\frac { CM } { BC }\\)，\n∴\\(\\frac { 4 } { 10 }＝\\frac { CM } { 8 }\\)，\n∴CM＝3.2（cm），\n∵PQ＝CQ，QM⊥CP，\n∴PC＝2CM＝6.4cm，\n∴BP＝8cm－6.4cm＝1.6cm，\n∴t＝1.6s；\n③如图3，当QP＝CP时，过P作PN⊥AC于N，\n〔图5〕\n则CN＝\\(\\frac { 1 } { 2 }\\)CQ＝2，∠CNP＝∠B＝90°，\n∵∠PCN＝∠BCA，\n∴△PCN∽△ACB，\n∴\\(\\frac { CN } { CB }＝\\frac { CP } { AC }\\)，\n∴\\(\\frac { 2 } { 8 }＝\\frac { CP } { 10 }\\)，\n∴CP＝2.5cm，\n∴BP＝8cm－2.5cm＝5.5cm，\nt＝5.5s，\n即从运动开始，经过4秒或1.6秒或5.5秒时，以点Q、P、C为顶点的三角形是等腰三角形，即t＝4秒或1.6秒或5.5秒.",
+      "solution_steps": [
+        "分为三种情况：①如图1，",
+        "〔图3〕",
+        "当CQ＝CP＝4cm时，",
+        "BP＝8－4＝4cm，",
+        "即t＝4秒；",
+        "②如图2，",
+        "〔图4〕",
+        "当PQ＝CQ＝4cm时，过Q作QM⊥BC于M，",
+        "则AB∥QM，",
+        "∴\\(\\frac { CE } { AC }＝\\frac { CM } { BC }\\)，",
+        "∴\\(\\frac { 4 } { 10 }＝\\frac { CM } { 8 }\\)，",
+        "∴CM＝3.2（cm），",
+        "∵PQ＝CQ，QM⊥CP，",
+        "∴PC＝2CM＝6.4cm，",
+        "∴BP＝8cm－6.4cm＝1.6cm，",
+        "∴t＝1.6s；",
+        "③如图3，当QP＝CP时，过P作PN⊥AC于N，",
+        "〔图5〕",
+        "则CN＝\\(\\frac { 1 } { 2 }\\)CQ＝2，∠CNP＝∠B＝90°，",
+        "∵∠PCN＝∠BCA，",
+        "∴△PCN∽△ACB，",
+        "∴\\(\\frac { CN } { CB }＝\\frac { CP } { AC }\\)，",
+        "∴\\(\\frac { 2 } { 8 }＝\\frac { CP } { 10 }\\)，",
+        "∴CP＝2.5cm，",
+        "∴BP＝8cm－2.5cm＝5.5cm，",
+        "t＝5.5s，",
+        "即从运动开始，经过4秒或1.6秒或5.5秒时，以点Q、P、C为顶点的三角形是等腰三角形，即t＝4秒或1.6秒或5.5秒."
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“在折线或辅助线图形中传递角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      61
+    ],
+    "solution_body_blocks": [
+      343,
+      397
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-8E5451F9DC/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-8E5451F9DC/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          674.55,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          246.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-8E5451F9DC/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          616.36,
+          583.64,
+          756.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          642.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          745.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          663.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G01.02",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G01.05.02"
+  ],
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 题目涉及“∠”，按题面与解答定位知识主题。 本问的运算或证明步骤对应“在折线或辅助线图形中传递角关系”。",
+  "tag_source": "小问标签汇总"
+}

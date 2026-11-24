@@ -1,0 +1,391 @@
+{
+  "id": "SZ-G8-T1-016D55B7A4-Q20",
+  "paper_id": "SZ-G8-T1-016D55B7A4",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系、求满足等腰条件的所有动点位置",
+  "stem": "如图，直线\\(y=-\\frac { 3 } { 2 }x+b\\)与x轴交于点A，与y轴交于点B，点（2，3）\\(P(2{ \\rm{ , } }3)\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，点C是线段\\(OB\\)上一点（不与点O，B重合）．\n〔图1〕\n（1）求点A，B的坐标．\n（2）连接\\(PC\\)，将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，点D为点O的对应点，点D在第一象限，且\\(\\angle OCD=90{}^\\circ\\)．\n①求点D的坐标．\n②若直线\\(y=-\\frac { 3 } { 2 }x+b\\)与\\(CD\\)交于点E，在y轴上是否存在点Q，使\\(\\vartriangle BEQ\\)是以\\(BE\\)为腰的等腰三角形？若存在，请直接写出点Q的坐标；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-016D55B7A4/figures/17f61d4182ef53974acc43ed09be9e8a7a75b16771ee7629ec4047f7a63b0de6.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)\n（2）①\\(\\left ( { 5，5 } \\right )\\)；②存在，\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)",
+  "answer": "（1）\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)\n（2）①\\(\\left ( { 5，5 } \\right )\\)；②存在，\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)",
+  "given_solution": "【分析】本题是一次函数综合题，考查了一次函数的性质，待定系数法求解析式，轴对称的性质，等腰三角形的判定等知识，求出直线解析式和分类讨论是解题的关键．\n（1）将点\\(P\\left ( { 2，3 } \\right )\\)代入\\(y=-\\frac { 3 } { 2 }x+b\\)先求出b的值，即可得点A，点B坐标；\n（2）①过点P作\\(PF\\bot OA\\)于F，由折叠的性质可得\\(\\angle OCP=\\frac { 1 } { 2 }\\angle OCD=45{}^\\circ\\) ，\\(OC=CD\\)，可得则\\(CD=OC=OF＋CF=5\\)，即可求解；②求出点E的坐标\\(\\left ( { \\frac { 2 } { 3 }{ \\rm{ , } }5 } \\right )\\)，利用勾股定理得\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=\\frac { \\sqrt[] { 13 } } { 3 }\\)，再分三种情况求解即可．\n【小问1详解】\n解∵点\\(P\\left ( { 2，3 } \\right )\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，\n∴\\(y=-\\frac { 3 } { 2 }\\times 2+b\\)，\n解得：\\(b=6\\)，\n∴直线的解析式为\\(y=-\\frac { 3 } { 2 }x+6\\)，\n∵直线\\(y=-\\frac { 3 } { 2 }x+6\\)与x轴交于点A，与y轴交于点B，\n∴点\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)；\n【小问2详解】\n①过点P作\\(PF\\bot OA\\)于F，\n〔图2〕\n∵将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，\\(\\angle OCD＝90{}^\\circ\\)，\n∴\\(\\angle OCP=\\frac { 1 } { 2 }\\angle OCD=45{}^\\circ\\)，\\(OC=CD\\)，\n∴\\(CF=PF\\)，\n∵点\\(P\\left ( { 2，3 } \\right )\\)，\n∴\\(CF=PF=2\\)，\\(OF=3\\)，\n∴\\(CD=OC=OF+CF=5\\)，\n∴点\\(D\\left ( { 5，5 } \\right )\\)，\n②如图：\n〔图3〕\n∵\\(OC=5\\)，\\(OB=6\\)，\n∴\\(BC=1\\)，\n∴\\(5=-\\frac { 3 } { 2 }x+6\\)，解得\\(x=\\frac { 2 } { 3 }\\)，\n∴点E的坐标\\(\\left ( { \\frac { 2 } { 3 }{ \\rm{ , } }5 } \\right )\\)，\n∴\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n当\\(\\vartriangle BEQ_{ 1 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 1 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴\\(OQ_{ 1 } =OB+BQ_{ 1 } =6+\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴点Q的坐标为\\(\\left ( { 0,6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；\n当\\(\\vartriangle BEQ_{ 2 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 2 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴\\(OQ_{ 2 } =OB-BQ_{ 2 } =6-\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；\n当\\(\\vartriangle BEQ_{ 3 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=EQ_{ 3 }\\)，\n∵\\(\\angle OCD=90{}^\\circ\\)，\n∴\\(CE\\bot OB\\)，\n∴\\(BC=CQ_{ 3 } =1\\)，\n∴\\(OQ_{ 3 } =OC-CQ_{ 3 } =5-1=4\\)，\n∴点Q的坐标为\\(\\left ( { 0，4 } \\right )\\)；\n综上，存在点Q，使\\(\\vartriangle BEQ\\)是以BE为腰的等腰三角形，点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-016D55B7A4/figures/32cdad8b99c4234e2154338c33e1af155c095f143d1924d1ca6baba40977e321.png",
+    "assets/SZ-G8-T1-016D55B7A4/figures/11b343a8f33dc62b0c5d0e4cb21c72d432cb2f654dc39e1a939e2059de24ca53.png",
+    "assets/SZ-G8-T1-016D55B7A4/figures/e807ee0d0628fb5bcfcfffa68a11355db10931d0627aa9d00209197e79a82152.png"
+  ],
+  "solution": "【小问1详解】\n解∵点\\(P\\left ( { 2，3 } \\right )\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，\n∴\\(y=-\\frac { 3 } { 2 }\\times 2+b\\)，\n解得：\\(b=6\\)，\n∴直线的解析式为\\(y=-\\frac { 3 } { 2 }x+6\\)，\n∵直线\\(y=-\\frac { 3 } { 2 }x+6\\)与x轴交于点A，与y轴交于点B，\n∴点\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)；\n【小问2详解】\n①过点P作\\(PF\\bot OA\\)于F，\n〔图2〕\n∵将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，\\(\\angle OCD＝90{}^\\circ\\)，\n∴\\(\\angle OCP=\\frac { 1 } { 2 }\\angle OCD=45{}^\\circ\\)，\\(OC=CD\\)，\n∴\\(CF=PF\\)，\n∵点\\(P\\left ( { 2，3 } \\right )\\)，\n∴\\(CF=PF=2\\)，\\(OF=3\\)，\n∴\\(CD=OC=OF+CF=5\\)，\n∴点\\(D\\left ( { 5，5 } \\right )\\)，\n②如图：\n〔图3〕\n∵\\(OC=5\\)，\\(OB=6\\)，\n∴\\(BC=1\\)，\n∴\\(5=-\\frac { 3 } { 2 }x+6\\)，解得\\(x=\\frac { 2 } { 3 }\\)，\n∴点E的坐标\\(\\left ( { \\frac { 2 } { 3 }{ \\rm{ , } }5 } \\right )\\)，\n∴\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n当\\(\\vartriangle BEQ_{ 1 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 1 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴\\(OQ_{ 1 } =OB+BQ_{ 1 } =6+\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴点Q的坐标为\\(\\left ( { 0,6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；\n当\\(\\vartriangle BEQ_{ 2 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 2 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴\\(OQ_{ 2 } =OB-BQ_{ 2 } =6-\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；\n当\\(\\vartriangle BEQ_{ 3 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=EQ_{ 3 }\\)，\n∵\\(\\angle OCD=90{}^\\circ\\)，\n∴\\(CE\\bot OB\\)，\n∴\\(BC=CQ_{ 3 } =1\\)，\n∴\\(OQ_{ 3 } =OC-CQ_{ 3 } =5-1=4\\)，\n∴点Q的坐标为\\(\\left ( { 0，4 } \\right )\\)；\n综上，存在点Q，使\\(\\vartriangle BEQ\\)是以BE为腰的等腰三角形，点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解∵点\\(P\\left ( { 2，3 } \\right )\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，",
+    "∴\\(y=-\\frac { 3 } { 2 }\\times 2+b\\)，",
+    "解得：\\(b=6\\)，",
+    "∴直线的解析式为\\(y=-\\frac { 3 } { 2 }x+6\\)，",
+    "∵直线\\(y=-\\frac { 3 } { 2 }x+6\\)与x轴交于点A，与y轴交于点B，",
+    "∴点\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)；",
+    "【小问2详解】",
+    "①过点P作\\(PF\\bot OA\\)于F，",
+    "〔图2〕",
+    "∵将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，\\(\\angle OCD＝90{}^\\circ\\)，",
+    "∴\\(\\angle OCP=\\frac { 1 } { 2 }\\angle OCD=45{}^\\circ\\)，\\(OC=CD\\)，",
+    "∴\\(CF=PF\\)，",
+    "∵点\\(P\\left ( { 2，3 } \\right )\\)，",
+    "∴\\(CF=PF=2\\)，\\(OF=3\\)，",
+    "∴\\(CD=OC=OF+CF=5\\)，",
+    "∴点\\(D\\left ( { 5，5 } \\right )\\)，",
+    "②如图：",
+    "〔图3〕",
+    "∵\\(OC=5\\)，\\(OB=6\\)，",
+    "∴\\(BC=1\\)，",
+    "∴\\(5=-\\frac { 3 } { 2 }x+6\\)，解得\\(x=\\frac { 2 } { 3 }\\)，",
+    "∴点E的坐标\\(\\left ( { \\frac { 2 } { 3 }{ \\rm{ , } }5 } \\right )\\)，",
+    "∴\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+    "当\\(\\vartriangle BEQ_{ 1 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 1 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+    "∴\\(OQ_{ 1 } =OB+BQ_{ 1 } =6+\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+    "∴点Q的坐标为\\(\\left ( { 0,6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；",
+    "当\\(\\vartriangle BEQ_{ 2 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 2 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+    "∴\\(OQ_{ 2 } =OB-BQ_{ 2 } =6-\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+    "∴点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；",
+    "当\\(\\vartriangle BEQ_{ 3 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=EQ_{ 3 }\\)，",
+    "∵\\(\\angle OCD=90{}^\\circ\\)，",
+    "∴\\(CE\\bot OB\\)，",
+    "∴\\(BC=CQ_{ 3 } =1\\)，",
+    "∴\\(OQ_{ 3 } =OC-CQ_{ 3 } =5-1=4\\)，",
+    "∴点Q的坐标为\\(\\left ( { 0，4 } \\right )\\)；",
+    "综上，存在点Q，使\\(\\vartriangle BEQ\\)是以BE为腰的等腰三角形，点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，直线\\(y=-\\frac { 3 } { 2 }x+b\\)与x轴交于点A，与y轴交于点B，点（2，3）\\(P(2{ \\rm{ , } }3)\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，点C是线段\\(OB\\)上一点（不与点O，B重合）．\n〔图1〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "连接\\(PC\\)，将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，点D为点O的对应点，点D在第一象限，且\\(\\angle OCD=90{}^\\circ\\)．",
+      "paper_blocks": [
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-016D55B7A4-Q20-P01",
+      "label": "（1）",
+      "prompt": "求点A，B的坐标．",
+      "stem_text": "求点A，B的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)",
+      "answer": "\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)",
+      "given_solution": "解∵点\\(P\\left ( { 2，3 } \\right )\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，\n∴\\(y=-\\frac { 3 } { 2 }\\times 2+b\\)，\n解得：\\(b=6\\)，\n∴直线的解析式为\\(y=-\\frac { 3 } { 2 }x+6\\)，\n∵直线\\(y=-\\frac { 3 } { 2 }x+6\\)与x轴交于点A，与y轴交于点B，\n∴点\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)；",
+      "solution_steps": [
+        "解∵点\\(P\\left ( { 2，3 } \\right )\\)在直线\\(y=-\\frac { 3 } { 2 }x+b\\)上，",
+        "∴\\(y=-\\frac { 3 } { 2 }\\times 2+b\\)，",
+        "解得：\\(b=6\\)，",
+        "∴直线的解析式为\\(y=-\\frac { 3 } { 2 }x+6\\)，",
+        "∵直线\\(y=-\\frac { 3 } { 2 }x+6\\)与x轴交于点A，与y轴交于点B，",
+        "∴点\\(A\\left ( { 4，0 } \\right )\\)，\\(B\\left ( { 0，6 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“坐标”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-016D55B7A4-Q20-P02",
+      "label": "（2）①",
+      "prompt": "求点D的坐标．",
+      "stem_text": "求点D的坐标．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 5，5 } \\right )\\)；",
+      "answer": "\\(\\left ( { 5，5 } \\right )\\)；",
+      "given_solution": "过点P作\\(PF\\bot OA\\)于F，\n〔图2〕\n∵将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，\\(\\angle OCD＝90{}^\\circ\\)，\n∴\\(\\angle OCP=\\frac { 1 } { 2 }\\angle OCD=45{}^\\circ\\)，\\(OC=CD\\)，\n∴\\(CF=PF\\)，\n∵点\\(P\\left ( { 2，3 } \\right )\\)，\n∴\\(CF=PF=2\\)，\\(OF=3\\)，\n∴\\(CD=OC=OF+CF=5\\)，\n∴点\\(D\\left ( { 5，5 } \\right )\\)，",
+      "solution_steps": [
+        "过点P作\\(PF\\bot OA\\)于F，",
+        "〔图2〕",
+        "∵将\\(\\vartriangle OPC\\)沿直线\\(PC\\)翻折得到\\(\\vartriangle DPC\\)，\\(\\angle OCD＝90{}^\\circ\\)，",
+        "∴\\(\\angle OCP=\\frac { 1 } { 2 }\\angle OCD=45{}^\\circ\\)，\\(OC=CD\\)，",
+        "∴\\(CF=PF\\)，",
+        "∵点\\(P\\left ( { 2，3 } \\right )\\)，",
+        "∴\\(CF=PF=2\\)，\\(OF=3\\)，",
+        "∴\\(CD=OC=OF+CF=5\\)，",
+        "∴点\\(D\\left ( { 5，5 } \\right )\\)，"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-016D55B7A4-Q20-P03",
+      "label": "（2）②",
+      "prompt": "若直线\\(y=-\\frac { 3 } { 2 }x+b\\)与\\(CD\\)交于点E，在y轴上是否存在点Q，使\\(\\vartriangle BEQ\\)是以\\(BE\\)为腰的等腰三角形？若存在，请直接写出点Q的坐标；若不存在，请说明理由．",
+      "stem_text": "若直线\\(y=-\\frac { 3 } { 2 }x+b\\)与\\(CD\\)交于点E，在y轴上是否存在点Q，使\\(\\vartriangle BEQ\\)是以\\(BE\\)为腰的等腰三角形？若存在，请直接写出点Q的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "存在，\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)",
+      "answer": "存在，\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)",
+      "given_solution": "如图：\n〔图3〕\n∵\\(OC=5\\)，\\(OB=6\\)，\n∴\\(BC=1\\)，\n∴\\(5=-\\frac { 3 } { 2 }x+6\\)，解得\\(x=\\frac { 2 } { 3 }\\)，\n∴点E的坐标\\(\\left ( { \\frac { 2 } { 3 }{ \\rm{ , } }5 } \\right )\\)，\n∴\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n当\\(\\vartriangle BEQ_{ 1 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 1 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴\\(OQ_{ 1 } =OB+BQ_{ 1 } =6+\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴点Q的坐标为\\(\\left ( { 0,6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；\n当\\(\\vartriangle BEQ_{ 2 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 2 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴\\(OQ_{ 2 } =OB-BQ_{ 2 } =6-\\frac { \\sqrt[] { 13 } } { 3 }\\)，\n∴点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；\n当\\(\\vartriangle BEQ_{ 3 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=EQ_{ 3 }\\)，\n∵\\(\\angle OCD=90{}^\\circ\\)，\n∴\\(CE\\bot OB\\)，\n∴\\(BC=CQ_{ 3 } =1\\)，\n∴\\(OQ_{ 3 } =OC-CQ_{ 3 } =5-1=4\\)，\n∴点Q的坐标为\\(\\left ( { 0，4 } \\right )\\)；\n综上，存在点Q，使\\(\\vartriangle BEQ\\)是以BE为腰的等腰三角形，点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)．",
+      "solution_steps": [
+        "如图：",
+        "〔图3〕",
+        "∵\\(OC=5\\)，\\(OB=6\\)，",
+        "∴\\(BC=1\\)，",
+        "∴\\(5=-\\frac { 3 } { 2 }x+6\\)，解得\\(x=\\frac { 2 } { 3 }\\)，",
+        "∴点E的坐标\\(\\left ( { \\frac { 2 } { 3 }{ \\rm{ , } }5 } \\right )\\)，",
+        "∴\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+        "当\\(\\vartriangle BEQ_{ 1 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 1 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+        "∴\\(OQ_{ 1 } =OB+BQ_{ 1 } =6+\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+        "∴点Q的坐标为\\(\\left ( { 0,6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；",
+        "当\\(\\vartriangle BEQ_{ 2 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=BQ_{ 2 } =\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+        "∴\\(OQ_{ 2 } =OB-BQ_{ 2 } =6-\\frac { \\sqrt[] { 13 } } { 3 }\\)，",
+        "∴点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)；",
+        "当\\(\\vartriangle BEQ_{ 3 }\\)是以\\(BE\\)为腰的等腰三角形时，\\(BE=EQ_{ 3 }\\)，",
+        "∵\\(\\angle OCD=90{}^\\circ\\)，",
+        "∴\\(CE\\bot OB\\)，",
+        "∴\\(BC=CQ_{ 3 } =1\\)，",
+        "∴\\(OQ_{ 3 } =OC-CQ_{ 3 } =5-1=4\\)，",
+        "∴点Q的坐标为\\(\\left ( { 0，4 } \\right )\\)；",
+        "综上，存在点Q，使\\(\\vartriangle BEQ\\)是以BE为腰的等腰三角形，点Q的坐标为\\(\\left ( { 0{ \\rm{ , } }6+\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0{ \\rm{ , } }6-\\frac { \\sqrt[] { 13 } } { 3 } } \\right )\\)或\\(\\left ( { 0，4 } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01",
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G04.01.03",
+        "E.G09.03.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“求满足等腰条件的所有动点位置、将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      65
+    ],
+    "solution_body_blocks": [
+      296,
+      344
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-016D55B7A4/paper-q20-p05.webp",
+      "assets/SZ-G8-T1-016D55B7A4/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          546.82,
+          583.64,
+          760.91
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          205.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-016D55B7A4/solution-q20-p16.webp",
+      "assets/SZ-G8-T1-016D55B7A4/solution-q20-p17.webp",
+      "assets/SZ-G8-T1-016D55B7A4/solution-q20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          215.45,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          741.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          525.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G07.01",
+    "M.G04.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G04.01.03",
+    "E.G09.03.03"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“坐标”，按题面与解答定位知识主题。 本问解答对应“将折叠条件转为可计算的几何关系”。 本问的式子结构和所求量对应“求满足等腰条件的所有动点位置、将特殊图形条件转为坐标关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

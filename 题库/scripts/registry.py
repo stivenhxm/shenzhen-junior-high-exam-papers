@@ -9,6 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 NAME = '已解析试卷.json'
 G7_INVENTORY = '七年级上学期来源清单.json'
 G7_T2_INVENTORY = '七年级下学期来源清单.json'
+G8_T1_INVENTORY = '八年级上学期来源清单.json'
+G8_T2_INVENTORY = '八年级下学期来源清单.json'
 
 
 def file_digest(path):
@@ -86,7 +88,7 @@ def attach_inventory(root, entries, *, audit=False, inventory=None):
             raise ValueError(f'来源清单包含未知的共用来源试卷：{rel}')
         if not disk.is_file() or file_digest(disk) != src['sha256']:
             raise ValueError(f'来源文件有变化，请复核：{rel}')
-        if rel not in (entry['paper']['git_path'],entry['solution']['git_path']):
+        if rel not in (entry['paper']['git_path'],entry.get('solution',{}).get('git_path')):
             entry.setdefault('alternate_sources',[]).append({k:src[k] for k in ('git_path','sha256','role')})
     if audit:
         # Word creates a temporary owner file next to a document while it is open.
@@ -96,6 +98,8 @@ def attach_inventory(root, entries, *, audit=False, inventory=None):
             raise ValueError('来源目录与清单不同：'+'、'.join(sorted(actual.symmetric_difference(known))))
         for row in entries:
             for field in ('paper','solution'):
+                if field not in row:
+                    continue
                 source=row[field]
                 if (repo/source['git_path']).is_relative_to(folder):
                     match = known[source['git_path']]
@@ -105,7 +109,8 @@ def attach_inventory(root, entries, *, audit=False, inventory=None):
 
 def source_records(row):
     for role in ('paper','solution'):
-        yield role,row[role]
+        if role in row:
+            yield role,row[role]
     for src in row.get('alternate_sources',[]):
         yield src['role'],src
 
@@ -133,13 +138,16 @@ if __name__ == '__main__':
     cli.add_argument('source', nargs='?', type=Path, help='原始文件路径')
     cli.add_argument('--audit-g7', action='store_true', help='逐文件核对七上来源清单及其内容指纹')
     cli.add_argument('--audit-g7-t2', action='store_true', help='逐文件核对七下来源清单及其内容指纹')
+    cli.add_argument('--audit-g8', action='store_true', help='逐文件核对八年级两个学期的来源清单及其内容指纹')
     args = cli.parse_args()
     records = json.loads((ROOT/'generated'/NAME).read_text(encoding='utf8'))['papers']
-    if args.audit_g7 or args.audit_g7_t2:
+    if args.audit_g7 or args.audit_g7_t2 or args.audit_g8:
         manifests = [json.loads(f.read_text(encoding='utf8')) for f in (ROOT/'papers').glob('*.json')]
-        for selected, name in ((args.audit_g7,G7_INVENTORY),(args.audit_g7_t2,G7_T2_INVENTORY)):
+        entries = [make_entry(ROOT.parent,p,0) for p in manifests]
+        for selected, name in ((args.audit_g7,G7_INVENTORY),(args.audit_g7_t2,G7_T2_INVENTORY),
+                               (args.audit_g8,G8_T1_INVENTORY),(args.audit_g8,G8_T2_INVENTORY)):
             if selected:
-                data = attach_inventory(ROOT,[make_entry(ROOT.parent,p,0) for p in manifests],audit=True,inventory=name)
+                data = attach_inventory(ROOT,entries,audit=True,inventory=name)
                 print(f"{name}覆盖 {len(data['files'])} 个文件，关联 {len({r['paper_id'] for r in data['files']})} 份试卷。")
     elif args.source:
         status, row, role = lookup(records, args.source)

@@ -1,0 +1,351 @@
+{
+  "id": "SZ-G8-T1-B59081D4B9-Q17",
+  "paper_id": "SZ-G8-T1-B59081D4B9",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "在\\(\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ ,\\angle A,\\angle B,\\angle C\\)的对边分别为\\(a,b,c\\)，设\\(\\vartriangle ABC\\)的面积为s，周长为l，探索\\(\\frac { s } { l }\\)与\\(a+b-c\\)的值之间的关系．\n（1）填表：\na | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 |  | \n5 | 12 | 13 |  | \n8 | 15 | 17 |  |\n（2）分析后猜想：若设\\(a+b-c=m\\)（m为正实数），则\\(\\frac { s } { l }=\\)_______（用m表示）；\n（3）请写出（2）中结论的推导过程．",
+  "choices": [],
+  "figures": [],
+  "tables": [
+    {
+      "text": "a | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 |  | \n5 | 12 | 13 |  | \n8 | 15 | 17 |  | ",
+      "rows": [
+        [
+          [
+            "a"
+          ],
+          [
+            "b"
+          ],
+          [
+            "c"
+          ],
+          [
+            "\\(a+b-c\\)"
+          ],
+          [
+            "\\(\\frac { s } { l }\\)"
+          ]
+        ],
+        [
+          [
+            "3"
+          ],
+          [
+            "4"
+          ],
+          [
+            "5"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "5"
+          ],
+          [
+            "12"
+          ],
+          [
+            "13"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ],
+        [
+          [
+            "8"
+          ],
+          [
+            "15"
+          ],
+          [
+            "17"
+          ],
+          [
+            ""
+          ],
+          [
+            ""
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）见解析    （2）\\(\\frac { m } { 4 }\\)\n（3）见解析",
+  "answer": "（1）见解析    （2）\\(\\frac { m } { 4 }\\)\n（3）见解析",
+  "given_solution": "【分析】本题主要考查了勾股定理，数字类的规律探索：\n（1）根据表格中的数据结合三角形面积和周长计算公式计算求解即可；\n（2）根据（1）所求结合题意可发现\\(\\frac { s } { l }=\\frac { m } { 4 }\\)；\n（3）根据题意可得\\(\\left ( { a+b+c } \\right )\\left ( { a+b-c } \\right )=lm\\)，则由乘法公式推出\\(a ^ { 2 } +2ab+b ^ { 2 } -c ^ { 2 } =lm\\)，再由\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)（勾股定理），可得\\(2ab=lm\\)，根据三角形面积公式得到\\(\\frac { 1 } { 2 }ab=s\\)，则\\(2ab=4s\\)，即可得到\\(4s=lm\\)，故\\(\\frac { s } { l }=\\frac { m } { 4 }\\)．\n【小问1详解】\n解：当\\(a=3，b=4，c=5\\)时，\\(a+b-c=3+4-5=2\\)，\\(s=\\frac { 1 } { 2 }\\times 3\\times 4=6，l=3+4+5=12\\)，则\\(\\frac { s } { l }=\\frac { 1 } { 2 }\\)；\n当\\(a=5，b=12，c=13\\)时，\\(a+b-c=5+12-13=4\\)，\\(s=\\frac { 1 } { 2 }\\times 5\\times 12=30，l=5+12+13=30\\)，则\\(\\frac { s } { l }=1\\)；\n当\\(a=8，b=15，c=17\\)时，\\(a+b-c=8+15-17=6\\)，\\(s=\\frac { 1 } { 2 }\\times 8\\times 15=60，l=8+15+17=40\\)，则\\(\\frac { s } { l }=\\frac { 3 } { 2 }\\)；\n填表如下：\na | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 | 2 | \\(\\frac { 1 } { 2 }\\)\n5 | 12 | 13 | 4 | 1\n8 | 15 | 17 | 6 | \\(\\frac { 3 } { 2 }\\)\n【小问2详解】\n解：由（1）可猜想\\(\\frac { s } { l }=\\frac { m } { 4 }\\)，\n故答案为：\\(\\frac { m } { 4 }\\)\n【小问3详解】\n证明：∵\\(a+b+c=l\\)，\\(a+b-c=m\\)，\n∴\\(\\left ( { a+b+c } \\right )\\left ( { a+b-c } \\right )=lm\\)，\n∴\\(a ^ { 2 } +2ab+b ^ { 2 } -c ^ { 2 } =lm\\)，\n∵\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)（勾股定理），\n∴\\(2ab=lm\\)，\n∵\\(\\frac { 1 } { 2 }ab=s\\)，\n∴\\(2ab=4s\\)，\n∴\\(4s=lm\\)，故\\(\\frac { s } { l }=\\frac { m } { 4 }\\)．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n解：当\\(a=3，b=4，c=5\\)时，\\(a+b-c=3+4-5=2\\)，\\(s=\\frac { 1 } { 2 }\\times 3\\times 4=6，l=3+4+5=12\\)，则\\(\\frac { s } { l }=\\frac { 1 } { 2 }\\)；\n当\\(a=5，b=12，c=13\\)时，\\(a+b-c=5+12-13=4\\)，\\(s=\\frac { 1 } { 2 }\\times 5\\times 12=30，l=5+12+13=30\\)，则\\(\\frac { s } { l }=1\\)；\n当\\(a=8，b=15，c=17\\)时，\\(a+b-c=8+15-17=6\\)，\\(s=\\frac { 1 } { 2 }\\times 8\\times 15=60，l=8+15+17=40\\)，则\\(\\frac { s } { l }=\\frac { 3 } { 2 }\\)；\n填表如下：\na | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 | 2 | \\(\\frac { 1 } { 2 }\\)\n5 | 12 | 13 | 4 | 1\n8 | 15 | 17 | 6 | \\(\\frac { 3 } { 2 }\\)\n【小问2详解】\n解：由（1）可猜想\\(\\frac { s } { l }=\\frac { m } { 4 }\\)，\n故答案为：\\(\\frac { m } { 4 }\\)\n【小问3详解】\n证明：∵\\(a+b+c=l\\)，\\(a+b-c=m\\)，\n∴\\(\\left ( { a+b+c } \\right )\\left ( { a+b-c } \\right )=lm\\)，\n∴\\(a ^ { 2 } +2ab+b ^ { 2 } -c ^ { 2 } =lm\\)，\n∵\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)（勾股定理），\n∴\\(2ab=lm\\)，\n∵\\(\\frac { 1 } { 2 }ab=s\\)，\n∴\\(2ab=4s\\)，\n∴\\(4s=lm\\)，故\\(\\frac { s } { l }=\\frac { m } { 4 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：当\\(a=3，b=4，c=5\\)时，\\(a+b-c=3+4-5=2\\)，\\(s=\\frac { 1 } { 2 }\\times 3\\times 4=6，l=3+4+5=12\\)，则\\(\\frac { s } { l }=\\frac { 1 } { 2 }\\)；",
+    "当\\(a=5，b=12，c=13\\)时，\\(a+b-c=5+12-13=4\\)，\\(s=\\frac { 1 } { 2 }\\times 5\\times 12=30，l=5+12+13=30\\)，则\\(\\frac { s } { l }=1\\)；",
+    "当\\(a=8，b=15，c=17\\)时，\\(a+b-c=8+15-17=6\\)，\\(s=\\frac { 1 } { 2 }\\times 8\\times 15=60，l=8+15+17=40\\)，则\\(\\frac { s } { l }=\\frac { 3 } { 2 }\\)；",
+    "填表如下：",
+    "a | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)",
+    "3 | 4 | 5 | 2 | \\(\\frac { 1 } { 2 }\\)",
+    "5 | 12 | 13 | 4 | 1",
+    "8 | 15 | 17 | 6 | \\(\\frac { 3 } { 2 }\\)",
+    "【小问2详解】",
+    "解：由（1）可猜想\\(\\frac { s } { l }=\\frac { m } { 4 }\\)，",
+    "故答案为：\\(\\frac { m } { 4 }\\)",
+    "【小问3详解】",
+    "证明：∵\\(a+b+c=l\\)，\\(a+b-c=m\\)，",
+    "∴\\(\\left ( { a+b+c } \\right )\\left ( { a+b-c } \\right )=lm\\)，",
+    "∴\\(a ^ { 2 } +2ab+b ^ { 2 } -c ^ { 2 } =lm\\)，",
+    "∵\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)（勾股定理），",
+    "∴\\(2ab=lm\\)，",
+    "∵\\(\\frac { 1 } { 2 }ab=s\\)，",
+    "∴\\(2ab=4s\\)，",
+    "∴\\(4s=lm\\)，故\\(\\frac { s } { l }=\\frac { m } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\(\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ ,\\angle A,\\angle B,\\angle C\\)的对边分别为\\(a,b,c\\)，设\\(\\vartriangle ABC\\)的面积为s，周长为l，探索\\(\\frac { s } { l }\\)与\\(a+b-c\\)的值之间的关系．",
+      "paper_blocks": [
+        49
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-B59081D4B9-Q17-P01",
+      "label": "（1）",
+      "prompt": "填表：\na | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 |  | \n5 | 12 | 13 |  | \n8 | 15 | 17 |  |",
+      "stem_text": "填表：\na | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 |  | \n5 | 12 | 13 |  | \n8 | 15 | 17 |  |",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "解：当\\(a=3，b=4，c=5\\)时，\\(a+b-c=3+4-5=2\\)，\\(s=\\frac { 1 } { 2 }\\times 3\\times 4=6，l=3+4+5=12\\)，则\\(\\frac { s } { l }=\\frac { 1 } { 2 }\\)；\n当\\(a=5，b=12，c=13\\)时，\\(a+b-c=5+12-13=4\\)，\\(s=\\frac { 1 } { 2 }\\times 5\\times 12=30，l=5+12+13=30\\)，则\\(\\frac { s } { l }=1\\)；\n当\\(a=8，b=15，c=17\\)时，\\(a+b-c=8+15-17=6\\)，\\(s=\\frac { 1 } { 2 }\\times 8\\times 15=60，l=8+15+17=40\\)，则\\(\\frac { s } { l }=\\frac { 3 } { 2 }\\)；\n填表如下：\na | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)\n3 | 4 | 5 | 2 | \\(\\frac { 1 } { 2 }\\)\n5 | 12 | 13 | 4 | 1\n8 | 15 | 17 | 6 | \\(\\frac { 3 } { 2 }\\)",
+      "solution_steps": [
+        "解：当\\(a=3，b=4，c=5\\)时，\\(a+b-c=3+4-5=2\\)，\\(s=\\frac { 1 } { 2 }\\times 3\\times 4=6，l=3+4+5=12\\)，则\\(\\frac { s } { l }=\\frac { 1 } { 2 }\\)；",
+        "当\\(a=5，b=12，c=13\\)时，\\(a+b-c=5+12-13=4\\)，\\(s=\\frac { 1 } { 2 }\\times 5\\times 12=30，l=5+12+13=30\\)，则\\(\\frac { s } { l }=1\\)；",
+        "当\\(a=8，b=15，c=17\\)时，\\(a+b-c=8+15-17=6\\)，\\(s=\\frac { 1 } { 2 }\\times 8\\times 15=60，l=8+15+17=40\\)，则\\(\\frac { s } { l }=\\frac { 3 } { 2 }\\)；",
+        "填表如下：",
+        "a | b | c | \\(a+b-c\\) | \\(\\frac { s } { l }\\)",
+        "3 | 4 | 5 | 2 | \\(\\frac { 1 } { 2 }\\)",
+        "5 | 12 | 13 | 4 | 1",
+        "8 | 15 | 17 | 6 | \\(\\frac { 3 } { 2 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          51
+        ],
+        "solution_block_ids": [
+          264,
+          265,
+          266,
+          267,
+          268
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-B59081D4B9-Q17-P02",
+      "label": "（2）",
+      "prompt": "分析后猜想：若设\\(a+b-c=m\\)（m为正实数），则\\(\\frac { s } { l }=\\)_______（用m表示）；",
+      "stem_text": "分析后猜想：若设\\(a+b-c=m\\)（m为正实数），则\\(\\frac { s } { l }=\\)_______（用m表示）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { m } { 4 }\\)",
+      "answer": "\\(\\frac { m } { 4 }\\)",
+      "given_solution": "解：由（1）可猜想\\(\\frac { s } { l }=\\frac { m } { 4 }\\)，\n故答案为：\\(\\frac { m } { 4 }\\)",
+      "solution_steps": [
+        "解：由（1）可猜想\\(\\frac { s } { l }=\\frac { m } { 4 }\\)，",
+        "故答案为：\\(\\frac { m } { 4 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          53
+        ],
+        "solution_block_ids": [
+          270,
+          271
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-B59081D4B9-Q17-P03",
+      "label": "（3）",
+      "prompt": "请写出（2）中结论的推导过程．",
+      "stem_text": "请写出（2）中结论的推导过程．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵\\(a+b+c=l\\)，\\(a+b-c=m\\)，\n∴\\(\\left ( { a+b+c } \\right )\\left ( { a+b-c } \\right )=lm\\)，\n∴\\(a ^ { 2 } +2ab+b ^ { 2 } -c ^ { 2 } =lm\\)，\n∵\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)（勾股定理），\n∴\\(2ab=lm\\)，\n∵\\(\\frac { 1 } { 2 }ab=s\\)，\n∴\\(2ab=4s\\)，\n∴\\(4s=lm\\)，故\\(\\frac { s } { l }=\\frac { m } { 4 }\\)．",
+      "solution_steps": [
+        "证明：∵\\(a+b+c=l\\)，\\(a+b-c=m\\)，",
+        "∴\\(\\left ( { a+b+c } \\right )\\left ( { a+b-c } \\right )=lm\\)，",
+        "∴\\(a ^ { 2 } +2ab+b ^ { 2 } -c ^ { 2 } =lm\\)，",
+        "∵\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)（勾股定理），",
+        "∴\\(2ab=lm\\)，",
+        "∵\\(\\frac { 1 } { 2 }ab=s\\)，",
+        "∴\\(2ab=4s\\)，",
+        "∴\\(4s=lm\\)，故\\(\\frac { s } { l }=\\frac { m } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          54
+        ],
+        "solution_block_ids": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      54
+    ],
+    "solution_body_blocks": [
+      250,
+      280
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-B59081D4B9/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          256.36,
+          583.64,
+          574.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-B59081D4B9/solution-q17-p14.webp",
+      "assets/SZ-G8-T1-B59081D4B9/solution-q17-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          192.27,
+          583.64,
+          733.18
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          672.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。 本问解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

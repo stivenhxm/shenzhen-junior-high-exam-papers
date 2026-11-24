@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q18-P03",{"answer":"售价130元时月利润最大，为9800元。","solution_steps":["月利润 \\(y=(x-60)(400-2x)=-2(x-130)^2+9800\\)。当 \\(x=130\\) 时，平方项为零且利润最大。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

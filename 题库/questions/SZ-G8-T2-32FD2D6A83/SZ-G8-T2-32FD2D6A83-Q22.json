@@ -1,0 +1,450 @@
+{
+  "id": "SZ-G8-T2-32FD2D6A83-Q22",
+  "paper_id": "SZ-G8-T2-32FD2D6A83",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "如图，△ABC为等边三角形，直线l过点C，在l上位于C点右侧的点D满足∠BDC＝60°\n（1）如图1，在l上位于C点左侧取一点E，使∠AEC＝60°，求证：△AEC≌△CDB；\n（2）如图2，点F、G在直线l上，连AF，在l上方作∠AFH＝120°，且AF＝HF，∠HGF＝120°，求证：HG+BD＝CF；\n（3）在（2）的条件下，当A、B位于直线l两侧，其余条件不变时（如图3），线段HG、CF、BD的数量关系为 　 　．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/99/99a46a8c1f52c723219d4d7f6e1fd616bf8a827695b05dd765537bd544cd5eb5.png",
+    "assets/figures/e8/e84283b8405e0c357148f9a562156a8b5a042d378df02f6bd30dd4bd8788e719.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）见解析；（3）CF=EF-BD．",
+  "answer": "（1）见解析；（2）见解析；（3）CF=EF-BD．",
+  "given_solution": "【分析】（1）先证明∠ACE=∠CBD，即可利用AAS证明△AEC≌△CDB；\n（2）在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，由（1）可知△AEC≌△CDB，CE=BD，然后证明△FAE≌△HFG得到GH=EF，则CF=EF+CE=GH+BD即HG+BD=CF；\n（3）在直线l上位于C点右侧取一点E使得∠AED=60°，连接AE，在直线l上位于D点左侧取一点M使得BM=BD，设AB与直线l交于N，先证明△BDM是等边三角形，得到∠DBM=∠DMB=60°，然后证明∠ACE=∠ABD=∠CBM，即可利用AAS证明△AEC≌△CMB得到CE=BM=BD；最后证明△AEF≌△FGH得到HG=EF，则EF=CE+CF=CF+BD即CF=EF-BD．\n【详解】解：（1）∵△ABC是等边三角形，\n∴AC=BC，∠ACB=60°，\n∴∠ACE+∠BCD=180°-∠ACB=120°，\n∵∠BDC=60°，\n∴∠BCD+∠CBD=180°-∠BDC=120°，\n∴∠ACE=∠CBD，\n在△AEC和△CDB中，\n\\(\\begin{cases} \\angle ACE{ \\rm{ = } }\\angle CBD \\\\ \\angle AEC{ \\rm{ = } }\\angle CDB{ \\rm{ = } }60 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，\n∴△AEC≌△CDB（AAS）\n〔图2〕\n（2）如图所示，在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，\n由（1）可知△AEC≌△CDB，\n∴CE=BD，\n∵∠ACE=60°，\n∴∠AEF=120°，\n∴∠AEF=∠AFH=120°，\n∴∠AFE+∠FAE=180°-∠AEF=60°，∠AFE+∠HFG=180°-∠AFH=60°，\n∴∠FAE=∠HFG，\n在△FAE和△HFG中，\n\\(\\begin{cases} \\angle FAE=\\angle HFG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△FAE≌△HFG（AAS），\n∴GH=EF，\n∴CF=EF+CE=GH+BD即HG+BD=CF；\n〔图3〕\n（3）如图所示，在直线l上位于C点右侧取一点E使得∠AED=60°，连接AE，在直线l上位于D点左侧取一点M使得BM=BD，设AB与直线l交于N\n∵∠BDC=60°，BM=BD，\n∴△BDM是等边三角形，\n∴∠DBM=∠DMB=60°，\n∵三角形ABC是等边三角形，\n∴∠ABC=∠BAC=60°，AC=BC\n∴∠ABM+∠CBM=∠ABM+∠ABD，\n∴∠ABD=∠CBM，\n∵∠BAC=∠BDC=60°，∠ANE=∠DNB，\n∴∠ACE=∠ABD=∠CBM，\n∵∠CMB=180°-∠DMB=120°，∠AEC=180°-∠AED=120°，\n∴∠CMB=∠AEC，\n在△AEC和△CMB中，\n\\(\\begin{cases} \\angle ACE=\\angle CBM \\\\ \\angle AEC=\\angle CMB=120 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，\n∴△AEC≌△CMB（AAS），\n∴CE=BM=BD；\n∵∠AFH=120°，\n∴∠AFC+∠GFH=60°，\n∵∠GFH+∠FHG=180°-∠HGF=60°，\n∴∠AFC=∠FHG，\n在△AEF和△FGH中，\n\\(\\begin{cases} \\angle AFE=\\angle FHG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△AEF≌△FGH（AAS），\n∴HG=EF，\n∴EF=CE+CF=CF+BD即CF=EF-BD．\n故答案为：CF=EF-BD．\n〔图4〕\n【点睛】本题主要考查了全等三角形的性质与判定，等边三角形的性质与判定，三角形内角和定理，解题的关键在于能够熟练掌握全等三角形的性质与判定条件．",
+  "given_solution_figures": [
+    "assets/figures/ba/ba5c5eeb20af0a60599c9f2031ced420ca56427f6326d00e42541d42080fa84c.png",
+    "assets/figures/d0/d049b5eff18fbb0a46622d079c94daa5c389d12610e81529ff389b54aa80d048.png",
+    "assets/figures/e8/e84283b8405e0c357148f9a562156a8b5a042d378df02f6bd30dd4bd8788e719.png",
+    "assets/figures/62/62eda020b470f509c2b91e715517ed8076b837896464cfdd9177aa7813c7f732.png"
+  ],
+  "solution": "解：（1）∵△ABC是等边三角形，\n∴AC=BC，∠ACB=60°，\n∴∠ACE+∠BCD=180°-∠ACB=120°，\n∵∠BDC=60°，\n∴∠BCD+∠CBD=180°-∠BDC=120°，\n∴∠ACE=∠CBD，\n在△AEC和△CDB中，\n\\(\\begin{cases} \\angle ACE{ \\rm{ = } }\\angle CBD \\\\ \\angle AEC{ \\rm{ = } }\\angle CDB{ \\rm{ = } }60 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，\n∴△AEC≌△CDB（AAS）\n〔图2〕\n（2）如图所示，在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，\n由（1）可知△AEC≌△CDB，\n∴CE=BD，\n∵∠ACE=60°，\n∴∠AEF=120°，\n∴∠AEF=∠AFH=120°，\n∴∠AFE+∠FAE=180°-∠AEF=60°，∠AFE+∠HFG=180°-∠AFH=60°，\n∴∠FAE=∠HFG，\n在△FAE和△HFG中，\n\\(\\begin{cases} \\angle FAE=\\angle HFG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△FAE≌△HFG（AAS），\n∴GH=EF，\n∴CF=EF+CE=GH+BD即HG+BD=CF；\n〔图3〕\n（3）如图所示，在直线l上位于C点右侧取一点E使得∠AED=60°，连接AE，在直线l上位于D点左侧取一点M使得BM=BD，设AB与直线l交于N\n∵∠BDC=60°，BM=BD，\n∴△BDM是等边三角形，\n∴∠DBM=∠DMB=60°，\n∵三角形ABC是等边三角形，\n∴∠ABC=∠BAC=60°，AC=BC\n∴∠ABM+∠CBM=∠ABM+∠ABD，\n∴∠ABD=∠CBM，\n∵∠BAC=∠BDC=60°，∠ANE=∠DNB，\n∴∠ACE=∠ABD=∠CBM，\n∵∠CMB=180°-∠DMB=120°，∠AEC=180°-∠AED=120°，\n∴∠CMB=∠AEC，\n在△AEC和△CMB中，\n\\(\\begin{cases} \\angle ACE=\\angle CBM \\\\ \\angle AEC=\\angle CMB=120 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，\n∴△AEC≌△CMB（AAS），\n∴CE=BM=BD；\n∵∠AFH=120°，\n∴∠AFC+∠GFH=60°，\n∵∠GFH+∠FHG=180°-∠HGF=60°，\n∴∠AFC=∠FHG，\n在△AEF和△FGH中，\n\\(\\begin{cases} \\angle AFE=\\angle FHG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△AEF≌△FGH（AAS），\n∴HG=EF，\n∴EF=CE+CF=CF+BD即CF=EF-BD．\n故答案为：CF=EF-BD．\n〔图4〕",
+  "solution_steps": [
+    "解：（1）∵△ABC是等边三角形，",
+    "∴AC=BC，∠ACB=60°，",
+    "∴∠ACE+∠BCD=180°-∠ACB=120°，",
+    "∵∠BDC=60°，",
+    "∴∠BCD+∠CBD=180°-∠BDC=120°，",
+    "∴∠ACE=∠CBD，",
+    "在△AEC和△CDB中，",
+    "\\(\\begin{cases} \\angle ACE{ \\rm{ = } }\\angle CBD \\\\ \\angle AEC{ \\rm{ = } }\\angle CDB{ \\rm{ = } }60 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，",
+    "∴△AEC≌△CDB（AAS）",
+    "〔图2〕",
+    "（2）如图所示，在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，",
+    "由（1）可知△AEC≌△CDB，",
+    "∴CE=BD，",
+    "∵∠ACE=60°，",
+    "∴∠AEF=120°，",
+    "∴∠AEF=∠AFH=120°，",
+    "∴∠AFE+∠FAE=180°-∠AEF=60°，∠AFE+∠HFG=180°-∠AFH=60°，",
+    "∴∠FAE=∠HFG，",
+    "在△FAE和△HFG中，",
+    "\\(\\begin{cases} \\angle FAE=\\angle HFG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，",
+    "∴△FAE≌△HFG（AAS），",
+    "∴GH=EF，",
+    "∴CF=EF+CE=GH+BD即HG+BD=CF；",
+    "〔图3〕",
+    "（3）如图所示，在直线l上位于C点右侧取一点E使得∠AED=60°，连接AE，在直线l上位于D点左侧取一点M使得BM=BD，设AB与直线l交于N",
+    "∵∠BDC=60°，BM=BD，",
+    "∴△BDM是等边三角形，",
+    "∴∠DBM=∠DMB=60°，",
+    "∵三角形ABC是等边三角形，",
+    "∴∠ABC=∠BAC=60°，AC=BC",
+    "∴∠ABM+∠CBM=∠ABM+∠ABD，",
+    "∴∠ABD=∠CBM，",
+    "∵∠BAC=∠BDC=60°，∠ANE=∠DNB，",
+    "∴∠ACE=∠ABD=∠CBM，",
+    "∵∠CMB=180°-∠DMB=120°，∠AEC=180°-∠AED=120°，",
+    "∴∠CMB=∠AEC，",
+    "在△AEC和△CMB中，",
+    "\\(\\begin{cases} \\angle ACE=\\angle CBM \\\\ \\angle AEC=\\angle CMB=120 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，",
+    "∴△AEC≌△CMB（AAS），",
+    "∴CE=BM=BD；",
+    "∵∠AFH=120°，",
+    "∴∠AFC+∠GFH=60°，",
+    "∵∠GFH+∠FHG=180°-∠HGF=60°，",
+    "∴∠AFC=∠FHG，",
+    "在△AEF和△FGH中，",
+    "\\(\\begin{cases} \\angle AFE=\\angle FHG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，",
+    "∴△AEF≌△FGH（AAS），",
+    "∴HG=EF，",
+    "∴EF=CE+CF=CF+BD即CF=EF-BD．",
+    "故答案为：CF=EF-BD．",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，△ABC为等边三角形，直线l过点C，在l上位于C点右侧的点D满足∠BDC＝60°",
+      "paper_blocks": [
+        64
+      ]
+    },
+    {
+      "id": "fig-68",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        68
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，点F、G在直线l上，连AF，在l上方作∠AFH＝120°，且AF＝HF，∠HGF＝120°，求证：HG+BD＝CF；\n前问作答依据：如图所示，在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，\n由（1）可知△AEC≌△CDB，\n∴CE=BD，\n∵∠ACE=60°，\n∴∠AEF=120°，\n∴∠AEF=∠AFH=120°，\n∴∠AFE+∠FAE=180°-∠AEF=60°，∠AFE+∠HFG=180°-∠AFH=60°，\n∴∠FAE=∠HFG，\n在△FAE和△HFG中，\n\\(\\begin{cases} \\angle FAE=\\angle HFG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△FAE≌△HFG（AAS），\n∴GH=EF，\n∴CF=EF+CE=GH+BD即HG+BD=CF；\n〔图2〕",
+      "paper_blocks": [
+        64,
+        66,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-32FD2D6A83-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，在l上位于C点左侧取一点E，使∠AEC＝60°，求证：△AEC≌△CDB；",
+      "stem_text": "如图1，在l上位于C点左侧取一点E，使∠AEC＝60°，求证：△AEC≌△CDB；",
+      "material_ids": [
+        "context",
+        "fig-68"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵△ABC是等边三角形，\n∴AC=BC，∠ACB=60°，\n∴∠ACE+∠BCD=180°-∠ACB=120°，\n∵∠BDC=60°，\n∴∠BCD+∠CBD=180°-∠BDC=120°，\n∴∠ACE=∠CBD，\n在△AEC和△CDB中，\n\\(\\begin{cases} \\angle ACE{ \\rm{ = } }\\angle CBD \\\\ \\angle AEC{ \\rm{ = } }\\angle CDB{ \\rm{ = } }60 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，\n∴△AEC≌△CDB（AAS）\n〔图2〕",
+      "solution_steps": [
+        "∵△ABC是等边三角形，",
+        "∴AC=BC，∠ACB=60°，",
+        "∴∠ACE+∠BCD=180°-∠ACB=120°，",
+        "∵∠BDC=60°，",
+        "∴∠BCD+∠CBD=180°-∠BDC=120°，",
+        "∴∠ACE=∠CBD，",
+        "在△AEC和△CDB中，",
+        "\\(\\begin{cases} \\angle ACE{ \\rm{ = } }\\angle CBD \\\\ \\angle AEC{ \\rm{ = } }\\angle CDB{ \\rm{ = } }60 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，",
+        "∴△AEC≌△CDB（AAS）",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68
+        ],
+        "solution_block_ids": [
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-32FD2D6A83-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，点F、G在直线l上，连AF，在l上方作∠AFH＝120°，且AF＝HF，∠HGF＝120°，求证：HG+BD＝CF；",
+      "stem_text": "如图2，点F、G在直线l上，连AF，在l上方作∠AFH＝120°，且AF＝HF，∠HGF＝120°，求证：HG+BD＝CF；",
+      "material_ids": [
+        "context",
+        "fig-68"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "如图所示，在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，\n由（1）可知△AEC≌△CDB，\n∴CE=BD，\n∵∠ACE=60°，\n∴∠AEF=120°，\n∴∠AEF=∠AFH=120°，\n∴∠AFE+∠FAE=180°-∠AEF=60°，∠AFE+∠HFG=180°-∠AFH=60°，\n∴∠FAE=∠HFG，\n在△FAE和△HFG中，\n\\(\\begin{cases} \\angle FAE=\\angle HFG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△FAE≌△HFG（AAS），\n∴GH=EF，\n∴CF=EF+CE=GH+BD即HG+BD=CF；\n〔图3〕",
+      "solution_steps": [
+        "如图所示，在直线l上位于C点左侧取一点E，使得∠AEC=60°，连接AE，",
+        "由（1）可知△AEC≌△CDB，",
+        "∴CE=BD，",
+        "∵∠ACE=60°，",
+        "∴∠AEF=120°，",
+        "∴∠AEF=∠AFH=120°，",
+        "∴∠AFE+∠FAE=180°-∠AEF=60°，∠AFE+∠HFG=180°-∠AFH=60°，",
+        "∴∠FAE=∠HFG，",
+        "在△FAE和△HFG中，",
+        "\\(\\begin{cases} \\angle FAE=\\angle HFG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，",
+        "∴△FAE≌△HFG（AAS），",
+        "∴GH=EF，",
+        "∴CF=EF+CE=GH+BD即HG+BD=CF；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          66,
+          68
+        ],
+        "solution_block_ids": [
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-32FD2D6A83-Q22-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，当A、B位于直线l两侧，其余条件不变时（如图3），线段HG、CF、BD的数量关系为 　 　．",
+      "stem_text": "在（2）的条件下，当A、B位于直线l两侧，其余条件不变时（如图3），线段HG、CF、BD的数量关系为 　 　．",
+      "material_ids": [
+        "context",
+        "fig-68",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T2-32FD2D6A83-Q22-P02"
+      ],
+      "given_answer": "CF=EF-BD．",
+      "answer": "CF=EF-BD．",
+      "given_solution": "如图所示，在直线l上位于C点右侧取一点E使得∠AED=60°，连接AE，在直线l上位于D点左侧取一点M使得BM=BD，设AB与直线l交于N\n∵∠BDC=60°，BM=BD，\n∴△BDM是等边三角形，\n∴∠DBM=∠DMB=60°，\n∵三角形ABC是等边三角形，\n∴∠ABC=∠BAC=60°，AC=BC\n∴∠ABM+∠CBM=∠ABM+∠ABD，\n∴∠ABD=∠CBM，\n∵∠BAC=∠BDC=60°，∠ANE=∠DNB，\n∴∠ACE=∠ABD=∠CBM，\n∵∠CMB=180°-∠DMB=120°，∠AEC=180°-∠AED=120°，\n∴∠CMB=∠AEC，\n在△AEC和△CMB中，\n\\(\\begin{cases} \\angle ACE=\\angle CBM \\\\ \\angle AEC=\\angle CMB=120 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，\n∴△AEC≌△CMB（AAS），\n∴CE=BM=BD；\n∵∠AFH=120°，\n∴∠AFC+∠GFH=60°，\n∵∠GFH+∠FHG=180°-∠HGF=60°，\n∴∠AFC=∠FHG，\n在△AEF和△FGH中，\n\\(\\begin{cases} \\angle AFE=\\angle FHG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，\n∴△AEF≌△FGH（AAS），\n∴HG=EF，\n∴EF=CE+CF=CF+BD即CF=EF-BD．\n故答案为：CF=EF-BD．\n〔图4〕",
+      "solution_steps": [
+        "如图所示，在直线l上位于C点右侧取一点E使得∠AED=60°，连接AE，在直线l上位于D点左侧取一点M使得BM=BD，设AB与直线l交于N",
+        "∵∠BDC=60°，BM=BD，",
+        "∴△BDM是等边三角形，",
+        "∴∠DBM=∠DMB=60°，",
+        "∵三角形ABC是等边三角形，",
+        "∴∠ABC=∠BAC=60°，AC=BC",
+        "∴∠ABM+∠CBM=∠ABM+∠ABD，",
+        "∴∠ABD=∠CBM，",
+        "∵∠BAC=∠BDC=60°，∠ANE=∠DNB，",
+        "∴∠ACE=∠ABD=∠CBM，",
+        "∵∠CMB=180°-∠DMB=120°，∠AEC=180°-∠AED=120°，",
+        "∴∠CMB=∠AEC，",
+        "在△AEC和△CMB中，",
+        "\\(\\begin{cases} \\angle ACE=\\angle CBM \\\\ \\angle AEC=\\angle CMB=120 ^ { \\circ } \\\\ AC=CB \\end{cases}\\)，",
+        "∴△AEC≌△CMB（AAS），",
+        "∴CE=BM=BD；",
+        "∵∠AFH=120°，",
+        "∴∠AFC+∠GFH=60°，",
+        "∵∠GFH+∠FHG=180°-∠HGF=60°，",
+        "∴∠AFC=∠FHG，",
+        "在△AEF和△FGH中，",
+        "\\(\\begin{cases} \\angle AFE=\\angle FHG \\\\ \\angle AEF=\\angle FGH=120 ^ { \\circ } \\\\ AF=FH \\end{cases}\\)，",
+        "∴△AEF≌△FGH（AAS），",
+        "∴HG=EF，",
+        "∴EF=CE+CF=CF+BD即CF=EF-BD．",
+        "故答案为：CF=EF-BD．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      68
+    ],
+    "solution_body_blocks": [
+      428,
+      489
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-32FD2D6A83/paper-q22-p05.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          705.45
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          263.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q22-p22.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q22-p23.webp",
+      "assets/SZ-G8-T2-32FD2D6A83/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          268.64,
+          583.64,
+          719.55
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          44.55,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          696.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

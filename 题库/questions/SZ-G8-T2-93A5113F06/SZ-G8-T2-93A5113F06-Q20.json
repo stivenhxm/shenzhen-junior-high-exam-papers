@@ -1,0 +1,242 @@
+{
+  "id": "SZ-G8-T2-93A5113F06-Q20",
+  "paper_id": "SZ-G8-T2-93A5113F06",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "如图，在四边形ABCD中，\\(AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，E为CD的中点，连接AE、BE，BE⊥AE，延长AE交BC的延长线于点F．求证：\n（1）FC＝AD；\n（2）AB＝BC+AD．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/3a/3af6e7f0522025683486b0b19b7b74be5b166f5cfaa570a9cb34cf088bea7b6a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见解析；（2）证明见解析．",
+  "answer": "（1）证明见解析；（2）证明见解析．",
+  "given_solution": "【分析】（1）先根据平行线的性质可得\\(\\angle F=\\angle DAE,\\angle ECF=\\angle D\\)，再根据线段中点的定义可得\\(CE=DE\\)，然后根据三角形全等的判定定理与性质即可得证；\n（2）先根据三角形全等的性质可得\\(FE=AE\\)，再根据线段垂直平分线的判定与性质可得\\(AB=FB\\)，然后根据线段的和差、等量代换即可得证．\n【详解】（1）\\(\\because AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，\n\\(\\therefore \\angle F=\\angle DAE,\\angle ECF=\\angle D\\)，\n\\(\\because\\)点E是CD的中点，\n\\(\\therefore CE=DE\\)，\n在\\(\\vartriangle CEF\\)和\\(\\vartriangle DEA\\)中，\\(\\begin{cases} \\angle F=\\angle DAE \\\\ \\angle ECF=\\angle D \\\\ CE=DE \\end{cases}\\)，\n\\(\\therefore \\vartriangle CEF\\cong \\vartriangle DEA(AAS)\\)，\n\\(\\therefore FC=AD\\)；\n（2）由（1）已证：\\(\\vartriangle CEF\\cong \\vartriangle DEA\\)，\n\\(\\therefore FE=AE\\)，\n又\\(\\because BE\\bot AE\\)，\n\\(\\therefore BE\\)是线段AF的垂直平分线，\n\\(\\therefore AB=FB=BC+FC\\)，\n由（1）可知，\\(FC=AD\\)，\n\\(\\therefore AB=BC+AD\\)．\n【点睛】本题考查了平行线的性质、三角形全等的判定定理与性质、线段垂直平分线的判定与性质等知识点，熟练掌握三角形全等的判定定理与性质是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/3a/3af6e7f0522025683486b0b19b7b74be5b166f5cfaa570a9cb34cf088bea7b6a.png"
+  ],
+  "solution": "（1）\\(\\because AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，\n\\(\\therefore \\angle F=\\angle DAE,\\angle ECF=\\angle D\\)，\n\\(\\because\\)点E是CD的中点，\n\\(\\therefore CE=DE\\)，\n在\\(\\vartriangle CEF\\)和\\(\\vartriangle DEA\\)中，\\(\\begin{cases} \\angle F=\\angle DAE \\\\ \\angle ECF=\\angle D \\\\ CE=DE \\end{cases}\\)，\n\\(\\therefore \\vartriangle CEF\\cong \\vartriangle DEA(AAS)\\)，\n\\(\\therefore FC=AD\\)；\n（2）由（1）已证：\\(\\vartriangle CEF\\cong \\vartriangle DEA\\)，\n\\(\\therefore FE=AE\\)，\n又\\(\\because BE\\bot AE\\)，\n\\(\\therefore BE\\)是线段AF的垂直平分线，\n\\(\\therefore AB=FB=BC+FC\\)，\n由（1）可知，\\(FC=AD\\)，\n\\(\\therefore AB=BC+AD\\)．",
+  "solution_steps": [
+    "（1）\\(\\because AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，",
+    "\\(\\therefore \\angle F=\\angle DAE,\\angle ECF=\\angle D\\)，",
+    "\\(\\because\\)点E是CD的中点，",
+    "\\(\\therefore CE=DE\\)，",
+    "在\\(\\vartriangle CEF\\)和\\(\\vartriangle DEA\\)中，\\(\\begin{cases} \\angle F=\\angle DAE \\\\ \\angle ECF=\\angle D \\\\ CE=DE \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle CEF\\cong \\vartriangle DEA(AAS)\\)，",
+    "\\(\\therefore FC=AD\\)；",
+    "（2）由（1）已证：\\(\\vartriangle CEF\\cong \\vartriangle DEA\\)，",
+    "\\(\\therefore FE=AE\\)，",
+    "又\\(\\because BE\\bot AE\\)，",
+    "\\(\\therefore BE\\)是线段AF的垂直平分线，",
+    "\\(\\therefore AB=FB=BC+FC\\)，",
+    "由（1）可知，\\(FC=AD\\)，",
+    "\\(\\therefore AB=BC+AD\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在四边形ABCD中，\\(AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，E为CD的中点，连接AE、BE，BE⊥AE，延长AE交BC的延长线于点F．求证：",
+      "paper_blocks": [
+        53
+      ]
+    },
+    {
+      "id": "fig-56",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-93A5113F06-Q20-P01",
+      "label": "（1）",
+      "prompt": "FC＝AD；",
+      "stem_text": "FC＝AD；",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "\\(\\because AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，\n\\(\\therefore \\angle F=\\angle DAE,\\angle ECF=\\angle D\\)，\n\\(\\because\\)点E是CD的中点，\n\\(\\therefore CE=DE\\)，\n在\\(\\vartriangle CEF\\)和\\(\\vartriangle DEA\\)中，\\(\\begin{cases} \\angle F=\\angle DAE \\\\ \\angle ECF=\\angle D \\\\ CE=DE \\end{cases}\\)，\n\\(\\therefore \\vartriangle CEF\\cong \\vartriangle DEA(AAS)\\)，\n\\(\\therefore FC=AD\\)；",
+      "solution_steps": [
+        "\\(\\because AD{ \\rm{ / } }{ \\rm{ / } }BC\\)，",
+        "\\(\\therefore \\angle F=\\angle DAE,\\angle ECF=\\angle D\\)，",
+        "\\(\\because\\)点E是CD的中点，",
+        "\\(\\therefore CE=DE\\)，",
+        "在\\(\\vartriangle CEF\\)和\\(\\vartriangle DEA\\)中，\\(\\begin{cases} \\angle F=\\angle DAE \\\\ \\angle ECF=\\angle D \\\\ CE=DE \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle CEF\\cong \\vartriangle DEA(AAS)\\)，",
+        "\\(\\therefore FC=AD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          54,
+          56
+        ],
+        "solution_block_ids": [
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-93A5113F06-Q20-P02",
+      "label": "（2）",
+      "prompt": "AB＝BC+AD．",
+      "stem_text": "AB＝BC+AD．",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析．",
+      "answer": "证明见解析．",
+      "given_solution": "由（1）已证：\\(\\vartriangle CEF\\cong \\vartriangle DEA\\)，\n\\(\\therefore FE=AE\\)，\n又\\(\\because BE\\bot AE\\)，\n\\(\\therefore BE\\)是线段AF的垂直平分线，\n\\(\\therefore AB=FB=BC+FC\\)，\n由（1）可知，\\(FC=AD\\)，\n\\(\\therefore AB=BC+AD\\)．",
+      "solution_steps": [
+        "由（1）已证：\\(\\vartriangle CEF\\cong \\vartriangle DEA\\)，",
+        "\\(\\therefore FE=AE\\)，",
+        "又\\(\\because BE\\bot AE\\)，",
+        "\\(\\therefore BE\\)是线段AF的垂直平分线，",
+        "\\(\\therefore AB=FB=BC+FC\\)，",
+        "由（1）可知，\\(FC=AD\\)，",
+        "\\(\\therefore AB=BC+AD\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      53,
+      56
+    ],
+    "solution_body_blocks": [
+      238,
+      260
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-93A5113F06/paper-q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          448.18,
+          583.64,
+          640.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-93A5113F06/solution-q20-p13.webp",
+      "assets/SZ-G8-T2-93A5113F06/solution-q20-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          549.55,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          392.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

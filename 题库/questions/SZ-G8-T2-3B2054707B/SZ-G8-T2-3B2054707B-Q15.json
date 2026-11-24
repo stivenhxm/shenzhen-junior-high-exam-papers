@@ -1,0 +1,90 @@
+{
+  "knowledge_ids": [
+    "M.G07.03",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G07.03.02",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "据原卷问题与计算或证明核定：利用旋转对应建立全等或角度关系、从全等对应关系求边与角。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-3B2054707B-Q15",
+  "number": 15,
+  "paper_id": "SZ-G8-T2-3B2054707B",
+  "title": "利用旋转对应建立全等或角度关系、从全等对应关系求边与角",
+  "stem": "如图，正方形\\(ABCD\\)的对角线\\(AC\\)与\\(BD\\)相交于点\\(O\\)，将\\(\\angle COB\\)绕点\\(O\\)顺时针旋转，设旋转角为\\(\\alpha\\)（\\(0 < \\alpha < 90{}^\\circ\\)），角的两边分别与\\(BC\\)，\\(AB\\)交于点\\(M\\)，\\(N\\)，连接\\(DM\\)，\\(CN\\)，\\(MN\\)，下列四个结论：\n①\\(\\angle CDM=\\angle COM\\)；②\\(CN\\bot DM\\)；③\\(\\vartriangle CNB≌\\vartriangle DMC\\)；④\\(AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)；\n其中正确结论的是_____________（填序号）\n〔图1〕分",
+  "type": "填空题",
+  "points": null,
+  "choices": [],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/a0/a0ef2459fb6673ded7ac7eabbcc15bace5f0aa168aeecf10826217bbdc9c56ad.png"
+  ],
+  "tables": [],
+  "answer": "②③④",
+  "given_answer": "②③④",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "绕 O 逆时针旋转 90°，点 N、B、C 分别转到 M、C、D，故 △CNB≌△DMC，CN⊥DM，BN=CM，②③成立。",
+    "由 AB=BC 得 AN=AB−BN=BM。直角三角形 MBN 中，MN²=BM²+BN²=AN²+CM²，④成立。",
+    "取 α=45° 时，M 是 BC 的中点，∠COM=45°。直角三角形 DCM 中 CM=CD/2，故 ∠CDM<45°，①不成立。正确的是②③④。"
+  ],
+  "solution_origin": "editorial_solution",
+  "solution": "绕 O 逆时针旋转 90°，点 N、B、C 分别转到 M、C、D，故 △CNB≌△DMC，CN⊥DM，BN=CM，②③成立。\n由 AB=BC 得 AN=AB−BN=BM。直角三角形 MBN 中，MN²=BM²+BN²=AN²+CM²，④成立。\n取 α=45° 时，M 是 BC 的中点，∠COM=45°。直角三角形 DCM 中 CM=CD/2，故 ∠CDM<45°，①不成立。正确的是②③④。",
+  "review_note": "原资料仅列答案，解题过程按题意补写。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3B2054707B/single/q15-p03.webp",
+      "assets/SZ-G8-T2-3B2054707B/single/q15-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          696.31,
+          582.44,
+          765.44
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          61.39,
+          582.44,
+          205.74
+        ]
+      }
+    ],
+    "solution_pages": [
+      4
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3B2054707B/single/s15-p04.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          601.75,
+          582.44,
+          616.09
+        ]
+      }
+    ]
+  },
+  "tag_source": "逐题核对"
+}

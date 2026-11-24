@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q04",{"answer":"B","solution_steps":["两倍数为 \\(2x\\)，差的一半为 \\(\\frac{3-x}{2}\\)。“不大于”对应 \\(\\le\\)，故选择 B。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

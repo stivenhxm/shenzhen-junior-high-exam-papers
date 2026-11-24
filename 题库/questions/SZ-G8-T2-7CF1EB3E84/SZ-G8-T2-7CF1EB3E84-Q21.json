@@ -1,0 +1,347 @@
+{
+  "id": "SZ-G8-T2-7CF1EB3E84-Q21",
+  "paper_id": "SZ-G8-T2-7CF1EB3E84",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、构造全等关系证明线段或角关系",
+  "stem": "如图，在平面直角坐标系中，已知点\\(A\\left ( { 0,6 } \\right )\\)，\\(\\vartriangle AOB\\)为等边三角形，P是x轴上一个动点（不与原点O重合），以线段\\(AP\\)为一边在其右侧作等边三角形\\(\\vartriangle APQ\\)．\n〔图1〕\n（1）求点B的坐标；\n（2）在点P的运动过程中，\\(\\angle ABQ\\)的大小是否发生改变？如不改变，求出其大小；如改变，请说明理由．\n（3）连接\\(OQ\\)，当\\(OQ\\parallel AB\\)时，求点P的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/figures/98/98fdef06262f2d777ab571ed9443dfc3b7d4d69c2988363be9e42387ed5045f3.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)\n（2）不变，\\(\\angle ABQ=90{}^\\circ\\)\n（3）\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)",
+  "answer": "（1）\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)\n（2）不变，\\(\\angle ABQ=90{}^\\circ\\)\n（3）\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)",
+  "given_solution": "【分析】（1）过点\\(B\\)作\\(BC\\bot x\\)轴于点\\(C\\)，证明\\(\\angle BOC=30{}^\\circ\\)，\\(OB=6\\)，借助直角三角形的边角关系即可解决问题；\n（2）证明\\(\\vartriangle APO≌\\vartriangle AQB({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，得到\\(\\angle ABQ=\\angle AOP=90{}^\\circ\\)，即可解决问题；\n（3）根据点\\(P\\)在\\(x\\)的正半轴还是负半轴两种情况讨论，再根据全等三角形的性质即可得出结果．\n【小问1详解】\n解：如图1，过点\\(B\\)作\\(BC\\bot x\\)轴于点\\(C\\)，\n〔图2〕\n∵\\(A\\left ( { 0,6 } \\right )\\)，\n∴\\(OA=6\\)，\n\\(\\because \\vartriangle AOB\\)为等边三角形，\n\\(\\therefore \\angle AOB=60{}^\\circ\\)，\\(OB=OA=6\\)，\n\\(\\therefore \\angle BOC=30{}^\\circ\\)，而\\(\\angle OCB=90{}^\\circ\\)，\n\\(\\therefore BC=\\frac { 1 } { 2 }OB=3\\)，\\(OC=3\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)点\\(B\\)的坐标为\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)；\n【小问2详解】\n\\(\\angle ABQ=90{}^\\circ\\)，始终不变．理由如下：\n\\(\\because \\vartriangle APQ\\)、\\(\\vartriangle AOB\\)均为等边三角形，\n\\(\\therefore AP=AQ\\)，\\(AO=AB\\)，\\(\\angle PAQ=\\angle OAB\\)，\n\\(\\therefore \\angle PAO=\\angle QAB\\)，\n在\\(\\vartriangle APO\\)与\\(\\vartriangle AQB\\)中，\n\\(\\begin{cases} AP=AQ \\\\ \\angle PAO=\\angle QAB \\\\ AO=AB \\end{cases}\\)，\n\\(\\therefore \\vartriangle APO≌\\vartriangle AQB({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore \\angle ABQ=\\angle AOP=90{}^\\circ\\)；\n【小问3详解】\n当点\\(P\\)在\\(x\\)轴负半轴上时，点\\(Q\\)在点\\(B\\)的下方，\n\\(\\because AB\\parallel OQ\\)，\\(\\angle ABQ=90{}^\\circ\\)\n∴\\(\\angle BQO=90{}^\\circ\\)，\\(\\angle BOQ=\\angle ABO=60{}^\\circ\\)．\n又∵\\(OB=OA=6\\)，\n∴\\(\\angle OBQ=30{}^\\circ\\)，\n∴\\(OQ=\\frac { 1 } { 2 }OB=3\\)，\\(BQ=\\sqrt[] { OB ^ { 2 } -OQ ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n由（2）可知，\\(\\vartriangle APO≌\\vartriangle AQB\\)，\n\\(\\therefore OP=BQ=3\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)此时\\(P\\)的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．\n当点\\(P\\)在\\(x\\)轴正半轴时，点\\(Q\\)必在第一象限，\\(OQ\\)和\\(AB\\)不可能平行，\n综上：点P的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．\n〔图3〕\n【点睛】本题主要考查了等边三角形的性质以及全等三角形的判定及性质以及梯形的性质，注意利用分类讨论得出是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/b7/b71dd797e2376eea328e8436feacbc21d06be90d112780402a6352bce5a231c0.png",
+    "assets/figures/6a/6ade0567bed8b1c1c46061f2647c9474a34d7dcd52682c164f0d0ac8813d403d.png",
+    "assets/figures/00/00b1588e0ef2c7e4e3c2e71316f5d331ef288cb82ed1e6ad28cb64cd0b5101b1.png"
+  ],
+  "solution": "【小问1详解】\n解：如图1，过点\\(B\\)作\\(BC\\bot x\\)轴于点\\(C\\)，\n〔图2〕\n∵\\(A\\left ( { 0,6 } \\right )\\)，\n∴\\(OA=6\\)，\n\\(\\because \\vartriangle AOB\\)为等边三角形，\n\\(\\therefore \\angle AOB=60{}^\\circ\\)，\\(OB=OA=6\\)，\n\\(\\therefore \\angle BOC=30{}^\\circ\\)，而\\(\\angle OCB=90{}^\\circ\\)，\n\\(\\therefore BC=\\frac { 1 } { 2 }OB=3\\)，\\(OC=3\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)点\\(B\\)的坐标为\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)；\n【小问2详解】\n\\(\\angle ABQ=90{}^\\circ\\)，始终不变．理由如下：\n\\(\\because \\vartriangle APQ\\)、\\(\\vartriangle AOB\\)均为等边三角形，\n\\(\\therefore AP=AQ\\)，\\(AO=AB\\)，\\(\\angle PAQ=\\angle OAB\\)，\n\\(\\therefore \\angle PAO=\\angle QAB\\)，\n在\\(\\vartriangle APO\\)与\\(\\vartriangle AQB\\)中，\n\\(\\begin{cases} AP=AQ \\\\ \\angle PAO=\\angle QAB \\\\ AO=AB \\end{cases}\\)，\n\\(\\therefore \\vartriangle APO≌\\vartriangle AQB({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore \\angle ABQ=\\angle AOP=90{}^\\circ\\)；\n【小问3详解】\n当点\\(P\\)在\\(x\\)轴负半轴上时，点\\(Q\\)在点\\(B\\)的下方，\n\\(\\because AB\\parallel OQ\\)，\\(\\angle ABQ=90{}^\\circ\\)\n∴\\(\\angle BQO=90{}^\\circ\\)，\\(\\angle BOQ=\\angle ABO=60{}^\\circ\\)．\n又∵\\(OB=OA=6\\)，\n∴\\(\\angle OBQ=30{}^\\circ\\)，\n∴\\(OQ=\\frac { 1 } { 2 }OB=3\\)，\\(BQ=\\sqrt[] { OB ^ { 2 } -OQ ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n由（2）可知，\\(\\vartriangle APO≌\\vartriangle AQB\\)，\n\\(\\therefore OP=BQ=3\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)此时\\(P\\)的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．\n当点\\(P\\)在\\(x\\)轴正半轴时，点\\(Q\\)必在第一象限，\\(OQ\\)和\\(AB\\)不可能平行，\n综上：点P的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．\n〔图3〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：如图1，过点\\(B\\)作\\(BC\\bot x\\)轴于点\\(C\\)，",
+    "〔图2〕",
+    "∵\\(A\\left ( { 0,6 } \\right )\\)，",
+    "∴\\(OA=6\\)，",
+    "\\(\\because \\vartriangle AOB\\)为等边三角形，",
+    "\\(\\therefore \\angle AOB=60{}^\\circ\\)，\\(OB=OA=6\\)，",
+    "\\(\\therefore \\angle BOC=30{}^\\circ\\)，而\\(\\angle OCB=90{}^\\circ\\)，",
+    "\\(\\therefore BC=\\frac { 1 } { 2 }OB=3\\)，\\(OC=3\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore\\)点\\(B\\)的坐标为\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)；",
+    "【小问2详解】",
+    "\\(\\angle ABQ=90{}^\\circ\\)，始终不变．理由如下：",
+    "\\(\\because \\vartriangle APQ\\)、\\(\\vartriangle AOB\\)均为等边三角形，",
+    "\\(\\therefore AP=AQ\\)，\\(AO=AB\\)，\\(\\angle PAQ=\\angle OAB\\)，",
+    "\\(\\therefore \\angle PAO=\\angle QAB\\)，",
+    "在\\(\\vartriangle APO\\)与\\(\\vartriangle AQB\\)中，",
+    "\\(\\begin{cases} AP=AQ \\\\ \\angle PAO=\\angle QAB \\\\ AO=AB \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle APO≌\\vartriangle AQB({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore \\angle ABQ=\\angle AOP=90{}^\\circ\\)；",
+    "【小问3详解】",
+    "当点\\(P\\)在\\(x\\)轴负半轴上时，点\\(Q\\)在点\\(B\\)的下方，",
+    "\\(\\because AB\\parallel OQ\\)，\\(\\angle ABQ=90{}^\\circ\\)",
+    "∴\\(\\angle BQO=90{}^\\circ\\)，\\(\\angle BOQ=\\angle ABO=60{}^\\circ\\)．",
+    "又∵\\(OB=OA=6\\)，",
+    "∴\\(\\angle OBQ=30{}^\\circ\\)，",
+    "∴\\(OQ=\\frac { 1 } { 2 }OB=3\\)，\\(BQ=\\sqrt[] { OB ^ { 2 } -OQ ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+    "由（2）可知，\\(\\vartriangle APO≌\\vartriangle AQB\\)，",
+    "\\(\\therefore OP=BQ=3\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore\\)此时\\(P\\)的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．",
+    "当点\\(P\\)在\\(x\\)轴正半轴时，点\\(Q\\)必在第一象限，\\(OQ\\)和\\(AB\\)不可能平行，",
+    "综上：点P的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，已知点\\(A\\left ( { 0,6 } \\right )\\)，\\(\\vartriangle AOB\\)为等边三角形，P是x轴上一个动点（不与原点O重合），以线段\\(AP\\)为一边在其右侧作等边三角形\\(\\vartriangle APQ\\)．\n〔图1〕",
+      "paper_blocks": [
+        63,
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-7CF1EB3E84-Q21-P01",
+      "label": "（1）",
+      "prompt": "求点B的坐标；",
+      "stem_text": "求点B的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)",
+      "answer": "\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)",
+      "given_solution": "解：如图1，过点\\(B\\)作\\(BC\\bot x\\)轴于点\\(C\\)，\n〔图2〕\n∵\\(A\\left ( { 0,6 } \\right )\\)，\n∴\\(OA=6\\)，\n\\(\\because \\vartriangle AOB\\)为等边三角形，\n\\(\\therefore \\angle AOB=60{}^\\circ\\)，\\(OB=OA=6\\)，\n\\(\\therefore \\angle BOC=30{}^\\circ\\)，而\\(\\angle OCB=90{}^\\circ\\)，\n\\(\\therefore BC=\\frac { 1 } { 2 }OB=3\\)，\\(OC=3\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)点\\(B\\)的坐标为\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)；",
+      "solution_steps": [
+        "解：如图1，过点\\(B\\)作\\(BC\\bot x\\)轴于点\\(C\\)，",
+        "〔图2〕",
+        "∵\\(A\\left ( { 0,6 } \\right )\\)，",
+        "∴\\(OA=6\\)，",
+        "\\(\\because \\vartriangle AOB\\)为等边三角形，",
+        "\\(\\therefore \\angle AOB=60{}^\\circ\\)，\\(OB=OA=6\\)，",
+        "\\(\\therefore \\angle BOC=30{}^\\circ\\)，而\\(\\angle OCB=90{}^\\circ\\)，",
+        "\\(\\therefore BC=\\frac { 1 } { 2 }OB=3\\)，\\(OC=3\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore\\)点\\(B\\)的坐标为\\(B\\left ( { 3\\sqrt[] { 3 },3 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7CF1EB3E84-Q21-P02",
+      "label": "（2）",
+      "prompt": "在点P的运动过程中，\\(\\angle ABQ\\)的大小是否发生改变？如不改变，求出其大小；如改变，请说明理由．",
+      "stem_text": "在点P的运动过程中，\\(\\angle ABQ\\)的大小是否发生改变？如不改变，求出其大小；如改变，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "不变，\\(\\angle ABQ=90{}^\\circ\\)",
+      "answer": "不变，\\(\\angle ABQ=90{}^\\circ\\)",
+      "given_solution": "\\(\\angle ABQ=90{}^\\circ\\)，始终不变．理由如下：\n\\(\\because \\vartriangle APQ\\)、\\(\\vartriangle AOB\\)均为等边三角形，\n\\(\\therefore AP=AQ\\)，\\(AO=AB\\)，\\(\\angle PAQ=\\angle OAB\\)，\n\\(\\therefore \\angle PAO=\\angle QAB\\)，\n在\\(\\vartriangle APO\\)与\\(\\vartriangle AQB\\)中，\n\\(\\begin{cases} AP=AQ \\\\ \\angle PAO=\\angle QAB \\\\ AO=AB \\end{cases}\\)，\n\\(\\therefore \\vartriangle APO≌\\vartriangle AQB({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore \\angle ABQ=\\angle AOP=90{}^\\circ\\)；",
+      "solution_steps": [
+        "\\(\\angle ABQ=90{}^\\circ\\)，始终不变．理由如下：",
+        "\\(\\because \\vartriangle APQ\\)、\\(\\vartriangle AOB\\)均为等边三角形，",
+        "\\(\\therefore AP=AQ\\)，\\(AO=AB\\)，\\(\\angle PAQ=\\angle OAB\\)，",
+        "\\(\\therefore \\angle PAO=\\angle QAB\\)，",
+        "在\\(\\vartriangle APO\\)与\\(\\vartriangle AQB\\)中，",
+        "\\(\\begin{cases} AP=AQ \\\\ \\angle PAO=\\angle QAB \\\\ AO=AB \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle APO≌\\vartriangle AQB({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore \\angle ABQ=\\angle AOP=90{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7CF1EB3E84-Q21-P03",
+      "label": "（3）",
+      "prompt": "连接\\(OQ\\)，当\\(OQ\\parallel AB\\)时，求点P的坐标．",
+      "stem_text": "连接\\(OQ\\)，当\\(OQ\\parallel AB\\)时，求点P的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)",
+      "answer": "\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)",
+      "given_solution": "当点\\(P\\)在\\(x\\)轴负半轴上时，点\\(Q\\)在点\\(B\\)的下方，\n\\(\\because AB\\parallel OQ\\)，\\(\\angle ABQ=90{}^\\circ\\)\n∴\\(\\angle BQO=90{}^\\circ\\)，\\(\\angle BOQ=\\angle ABO=60{}^\\circ\\)．\n又∵\\(OB=OA=6\\)，\n∴\\(\\angle OBQ=30{}^\\circ\\)，\n∴\\(OQ=\\frac { 1 } { 2 }OB=3\\)，\\(BQ=\\sqrt[] { OB ^ { 2 } -OQ ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n由（2）可知，\\(\\vartriangle APO≌\\vartriangle AQB\\)，\n\\(\\therefore OP=BQ=3\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)此时\\(P\\)的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．\n当点\\(P\\)在\\(x\\)轴正半轴时，点\\(Q\\)必在第一象限，\\(OQ\\)和\\(AB\\)不可能平行，\n综上：点P的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．\n〔图3〕",
+      "solution_steps": [
+        "当点\\(P\\)在\\(x\\)轴负半轴上时，点\\(Q\\)在点\\(B\\)的下方，",
+        "\\(\\because AB\\parallel OQ\\)，\\(\\angle ABQ=90{}^\\circ\\)",
+        "∴\\(\\angle BQO=90{}^\\circ\\)，\\(\\angle BOQ=\\angle ABO=60{}^\\circ\\)．",
+        "又∵\\(OB=OA=6\\)，",
+        "∴\\(\\angle OBQ=30{}^\\circ\\)，",
+        "∴\\(OQ=\\frac { 1 } { 2 }OB=3\\)，\\(BQ=\\sqrt[] { OB ^ { 2 } -OQ ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+        "由（2）可知，\\(\\vartriangle APO≌\\vartriangle AQB\\)，",
+        "\\(\\therefore OP=BQ=3\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore\\)此时\\(P\\)的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．",
+        "当点\\(P\\)在\\(x\\)轴正半轴时，点\\(Q\\)必在第一象限，\\(OQ\\)和\\(AB\\)不可能平行，",
+        "综上：点P的坐标为\\(\\left ( { -3\\sqrt[] { 3 },0 } \\right )\\)．",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          67
+        ],
+        "solution_block_ids": [
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      63,
+      67
+    ],
+    "solution_body_blocks": [
+      328,
+      372
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-7CF1EB3E84/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          395.0,
+          583.64,
+          677.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-7CF1EB3E84/solution-q21-p17.webp",
+      "assets/SZ-G8-T2-7CF1EB3E84/solution-q21-p18.webp",
+      "assets/SZ-G8-T2-7CF1EB3E84/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          532.73,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          533.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,392 @@
+{
+  "id": "SZ-G8-T2-9E1DAD0185-Q20",
+  "paper_id": "SZ-G8-T2-9E1DAD0185",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "已知\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ\\)，直线l是过点B的一条动直线（不与直线\\(AB,BC\\)重合），分别过点A，C作直线，的垂线，垂足为D，E直线，与直线\\(BC\\)的夹角为\\(\\alpha\\)．\n〔图1〕\n（1）如图1，当直线l在\\(\\angle ABC\\)的外部时，猜想线段\\(AD,CE,DE\\)的数量关系并证明；\n（2）如图2，当直线l在∠ABC的内部时，且\\(0{}^\\circ < \\alpha < 45{}^\\circ\\)，（1）中的结论是否还成立？若不成立，请写出线段\\(AD,CE,DE\\)的数量关系并证明；\n（3）如图3，在（2）的条件下，连接\\(AE\\)，过点D作\\(DH\\bot AE\\)于H，过点A作\\(AF\\parallel BC\\)交\\(DH\\)的延长线于点F，则线段\\(DF,BE,DE\\)的数量关系是______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/0d/0defabed5e566afd7d4ca51adcd70ceb3a7222e17ac70c068a3a54d2a2b2b556.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AD+CE=DE\\)，证明见解析\n（2）\\(AD-CE=DE\\)，证明见解析\n（3）\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)",
+  "answer": "（1）\\(AD+CE=DE\\)，证明见解析\n（2）\\(AD-CE=DE\\)，证明见解析\n（3）\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)",
+  "given_solution": "【分析】此题考查了全等三角形的判定和性质，勾股定理，熟练掌握全等三角形的判定和性质，勾股定理是解决问题的关键．\n（1）根据\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l得\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，再根据\\(\\angle ABC=90{}^\\circ\\)得\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，由此得\\(\\angle A=\\angle CBE\\)，进而可依据“\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)”判定\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)全等，则\\(AD=BE,BD=CE\\)，由此可得线段\\(AD,CE,DE\\)的数量关系；\n（2）同（1）可证\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)全等，则\\(AD=BE,BD=CE\\)，由此可得线段\\(AD,CE,DE\\)的数量关系；\n（3）先证\\(\\angle ABE=\\angle DAF\\)，再证\\(\\angle BEH=\\angle ADF\\)，根据在（2）的条件下得\\(AD=BE\\)，由此可依据“\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)”判定\\(\\vartriangle ABE\\)和\\(\\vartriangle ADF\\)全等，则\\(AE=DF\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中由勾股定理得\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，再根据\\(AD=BE\\)，\\(AE=DF\\)可得线段\\(DF,BE,DE\\)的数量关系．\n【小问1详解】\n线段\\(AD,CE,DE\\)的数量关系是\\(AD+CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD+CE=BE+BD=DE\\)，\n∴\\(AD+CE=DE\\)；\n【小问2详解】\n（1）中的结论不成立，线段\\(AD,CE,DE\\)的数量关系是\\(AD-CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD-CE=BE-BD=DE\\)，\n∴\\(AD-CE=DE\\)；\n【小问3详解】\n如图：\n〔图2〕\n线段\\(DF,BE,DE\\)的数量关系是\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)，证明如下：\n∵\\(AF\\parallel BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle BAF=90{}^\\circ\\)，即\\(\\angle BAD+\\angle DAF=90{}^\\circ\\)，\n∵\\(AD\\bot\\)直线l，则\\(\\angle BAD+\\angle ABE=90{}^\\circ ,\\angle ADF+\\angle EDH=90{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle DAF\\)，\n∵\\(DH\\bot AE\\)，则\\(\\angle EDH+\\angle BEH=90{}^\\circ\\)，\n∴\\(\\angle BEH=\\angle ADF\\)，\n∵在（2）的条件下，则\\(AD=BE\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ADF\\)中\n\\(\\begin{cases} \\angle ABE=\\angle DAF \\\\ AD=BE \\\\ \\angle BEH=\\angle ADF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=DF\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，\n∵\\(AD=BE,AE=DF\\)，\n∴\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/66/661f434323a79195e205df664eafe11f7356208af8a983b440a09b5e5cd24aee.png",
+    "assets/figures/05/0589583513e01b0516fa93819118d0631b221ba3449b4c63081e1c4a3da1e887.png"
+  ],
+  "solution": "【小问1详解】\n线段\\(AD,CE,DE\\)的数量关系是\\(AD+CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD+CE=BE+BD=DE\\)，\n∴\\(AD+CE=DE\\)；\n【小问2详解】\n（1）中的结论不成立，线段\\(AD,CE,DE\\)的数量关系是\\(AD-CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD-CE=BE-BD=DE\\)，\n∴\\(AD-CE=DE\\)；\n【小问3详解】\n如图：\n〔图2〕\n线段\\(DF,BE,DE\\)的数量关系是\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)，证明如下：\n∵\\(AF\\parallel BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle BAF=90{}^\\circ\\)，即\\(\\angle BAD+\\angle DAF=90{}^\\circ\\)，\n∵\\(AD\\bot\\)直线l，则\\(\\angle BAD+\\angle ABE=90{}^\\circ ,\\angle ADF+\\angle EDH=90{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle DAF\\)，\n∵\\(DH\\bot AE\\)，则\\(\\angle EDH+\\angle BEH=90{}^\\circ\\)，\n∴\\(\\angle BEH=\\angle ADF\\)，\n∵在（2）的条件下，则\\(AD=BE\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ADF\\)中\n\\(\\begin{cases} \\angle ABE=\\angle DAF \\\\ AD=BE \\\\ \\angle BEH=\\angle ADF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=DF\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，\n∵\\(AD=BE,AE=DF\\)，\n∴\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "线段\\(AD,CE,DE\\)的数量关系是\\(AD+CE=DE\\)，证明如下：",
+    "∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，",
+    "∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，",
+    "∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，",
+    "∴\\(\\angle A=\\angle CBE\\)，",
+    "在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，",
+    "\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AD=BE,BD=CE\\)，",
+    "∴\\(AD+CE=BE+BD=DE\\)，",
+    "∴\\(AD+CE=DE\\)；",
+    "【小问2详解】",
+    "（1）中的结论不成立，线段\\(AD,CE,DE\\)的数量关系是\\(AD-CE=DE\\)，证明如下：",
+    "∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，",
+    "∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，",
+    "∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，",
+    "∴\\(\\angle A=\\angle CBE\\)，",
+    "在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，",
+    "\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AD=BE,BD=CE\\)，",
+    "∴\\(AD-CE=BE-BD=DE\\)，",
+    "∴\\(AD-CE=DE\\)；",
+    "【小问3详解】",
+    "如图：",
+    "〔图2〕",
+    "线段\\(DF,BE,DE\\)的数量关系是\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)，证明如下：",
+    "∵\\(AF\\parallel BC,\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(\\angle BAF=90{}^\\circ\\)，即\\(\\angle BAD+\\angle DAF=90{}^\\circ\\)，",
+    "∵\\(AD\\bot\\)直线l，则\\(\\angle BAD+\\angle ABE=90{}^\\circ ,\\angle ADF+\\angle EDH=90{}^\\circ\\)，",
+    "∴\\(\\angle ABE=\\angle DAF\\)，",
+    "∵\\(DH\\bot AE\\)，则\\(\\angle EDH+\\angle BEH=90{}^\\circ\\)，",
+    "∴\\(\\angle BEH=\\angle ADF\\)，",
+    "∵在（2）的条件下，则\\(AD=BE\\)，",
+    "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ADF\\)中",
+    "\\(\\begin{cases} \\angle ABE=\\angle DAF \\\\ AD=BE \\\\ \\angle BEH=\\angle ADF \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle ADF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(AE=DF\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，",
+    "∵\\(AD=BE,AE=DF\\)，",
+    "∴\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ\\)，直线l是过点B的一条动直线（不与直线\\(AB,BC\\)重合），分别过点A，C作直线，的垂线，垂足为D，E直线，与直线\\(BC\\)的夹角为\\(\\alpha\\)．\n〔图1〕",
+      "paper_blocks": [
+        70,
+        71
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，当直线l在∠ABC的内部时，且\\(0{}^\\circ < \\alpha < 45{}^\\circ\\)，（1）中的结论是否还成立？若不成立，请写出线段\\(AD,CE,DE\\)的数量关系并证明；\n前问作答依据：（1）中的结论不成立，线段\\(AD,CE,DE\\)的数量关系是\\(AD-CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD-CE=BE-BD=DE\\)，\n∴\\(AD-CE=DE\\)；",
+      "paper_blocks": [
+        70,
+        71,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-9E1DAD0185-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，当直线l在\\(\\angle ABC\\)的外部时，猜想线段\\(AD,CE,DE\\)的数量关系并证明；",
+      "stem_text": "如图1，当直线l在\\(\\angle ABC\\)的外部时，猜想线段\\(AD,CE,DE\\)的数量关系并证明；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD+CE=DE\\)，证明见解析",
+      "answer": "\\(AD+CE=DE\\)，证明见解析",
+      "given_solution": "线段\\(AD,CE,DE\\)的数量关系是\\(AD+CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD+CE=BE+BD=DE\\)，\n∴\\(AD+CE=DE\\)；",
+      "solution_steps": [
+        "线段\\(AD,CE,DE\\)的数量关系是\\(AD+CE=DE\\)，证明如下：",
+        "∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，",
+        "∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，",
+        "∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，",
+        "∴\\(\\angle A=\\angle CBE\\)，",
+        "在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，",
+        "\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AD=BE,BD=CE\\)，",
+        "∴\\(AD+CE=BE+BD=DE\\)，",
+        "∴\\(AD+CE=DE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-9E1DAD0185-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，当直线l在∠ABC的内部时，且\\(0{}^\\circ < \\alpha < 45{}^\\circ\\)，（1）中的结论是否还成立？若不成立，请写出线段\\(AD,CE,DE\\)的数量关系并证明；",
+      "stem_text": "如图2，当直线l在∠ABC的内部时，且\\(0{}^\\circ < \\alpha < 45{}^\\circ\\)，（1）中的结论是否还成立？若不成立，请写出线段\\(AD,CE,DE\\)的数量关系并证明；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD-CE=DE\\)，证明见解析",
+      "answer": "\\(AD-CE=DE\\)，证明见解析",
+      "given_solution": "（1）中的结论不成立，线段\\(AD,CE,DE\\)的数量关系是\\(AD-CE=DE\\)，证明如下：\n∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，\n∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，\n∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，\n∴\\(\\angle A=\\angle CBE\\)，\n在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，\n\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AD=BE,BD=CE\\)，\n∴\\(AD-CE=BE-BD=DE\\)，\n∴\\(AD-CE=DE\\)；",
+      "solution_steps": [
+        "（1）中的结论不成立，线段\\(AD,CE,DE\\)的数量关系是\\(AD-CE=DE\\)，证明如下：",
+        "∵\\(AD\\bot\\)直线l，\\(CE\\bot\\)直线l，",
+        "∴\\(\\angle ADB=\\angle BEC=90{}^\\circ ,\\angle ABD+\\angle A=90{}^\\circ\\)，",
+        "∵\\(AB=BC,\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(\\angle ABD+\\angle CBE=90{}^\\circ\\)，",
+        "∴\\(\\angle A=\\angle CBE\\)，",
+        "在\\(\\vartriangle ABD\\)和\\(\\vartriangle BCE\\)中，",
+        "\\(\\begin{cases} \\angle ADB=\\angle BEC=90{}^\\circ \\\\ \\angle A=\\angle CBE \\\\ AB=BC \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABD≌\\vartriangle BCE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AD=BE,BD=CE\\)，",
+        "∴\\(AD-CE=BE-BD=DE\\)，",
+        "∴\\(AD-CE=DE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-9E1DAD0185-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图3，在（2）的条件下，连接\\(AE\\)，过点D作\\(DH\\bot AE\\)于H，过点A作\\(AF\\parallel BC\\)交\\(DH\\)的延长线于点F，则线段\\(DF,BE,DE\\)的数量关系是______．",
+      "stem_text": "如图3，在（2）的条件下，连接\\(AE\\)，过点D作\\(DH\\bot AE\\)于H，过点A作\\(AF\\parallel BC\\)交\\(DH\\)的延长线于点F，则线段\\(DF,BE,DE\\)的数量关系是______．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T2-9E1DAD0185-Q20-P02"
+      ],
+      "given_answer": "\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)",
+      "answer": "\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)",
+      "given_solution": "如图：\n〔图2〕\n线段\\(DF,BE,DE\\)的数量关系是\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)，证明如下：\n∵\\(AF\\parallel BC,\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle BAF=90{}^\\circ\\)，即\\(\\angle BAD+\\angle DAF=90{}^\\circ\\)，\n∵\\(AD\\bot\\)直线l，则\\(\\angle BAD+\\angle ABE=90{}^\\circ ,\\angle ADF+\\angle EDH=90{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle DAF\\)，\n∵\\(DH\\bot AE\\)，则\\(\\angle EDH+\\angle BEH=90{}^\\circ\\)，\n∴\\(\\angle BEH=\\angle ADF\\)，\n∵在（2）的条件下，则\\(AD=BE\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ADF\\)中\n\\(\\begin{cases} \\angle ABE=\\angle DAF \\\\ AD=BE \\\\ \\angle BEH=\\angle ADF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=DF\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，\n∵\\(AD=BE,AE=DF\\)，\n∴\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)．",
+      "solution_steps": [
+        "如图：",
+        "〔图2〕",
+        "线段\\(DF,BE,DE\\)的数量关系是\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)，证明如下：",
+        "∵\\(AF\\parallel BC,\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(\\angle BAF=90{}^\\circ\\)，即\\(\\angle BAD+\\angle DAF=90{}^\\circ\\)，",
+        "∵\\(AD\\bot\\)直线l，则\\(\\angle BAD+\\angle ABE=90{}^\\circ ,\\angle ADF+\\angle EDH=90{}^\\circ\\)，",
+        "∴\\(\\angle ABE=\\angle DAF\\)，",
+        "∵\\(DH\\bot AE\\)，则\\(\\angle EDH+\\angle BEH=90{}^\\circ\\)，",
+        "∴\\(\\angle BEH=\\angle ADF\\)，",
+        "∵在（2）的条件下，则\\(AD=BE\\)，",
+        "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ADF\\)中",
+        "\\(\\begin{cases} \\angle ABE=\\angle DAF \\\\ AD=BE \\\\ \\angle BEH=\\angle ADF \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle ADF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(AE=DF\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，",
+        "∵\\(AD=BE,AE=DF\\)，",
+        "∴\\(DF ^ { 2 } =BE ^ { 2 } +DE ^ { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      74
+    ],
+    "solution_body_blocks": [
+      316,
+      372
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-9E1DAD0185/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          248.64,
+          583.64,
+          595.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-9E1DAD0185/solution-q20-p18.webp",
+      "assets/SZ-G8-T2-9E1DAD0185/solution-q20-p19.webp",
+      "assets/SZ-G8-T2-9E1DAD0185/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          354.55,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          580.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

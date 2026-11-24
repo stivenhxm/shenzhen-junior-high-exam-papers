@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q16-P02",{"answer":"\\(x=\\frac{-3\\pm\\sqrt{13}}2\\)。","solution_steps":["\\(a=1,b=3,c=-1\\)，判别式 \\(b^2-4ac=13\\)。代入求根公式得 \\(x=\\frac{-3\\pm\\sqrt{13}}2\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

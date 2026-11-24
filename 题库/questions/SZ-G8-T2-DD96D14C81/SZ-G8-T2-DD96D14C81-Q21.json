@@ -1,0 +1,400 @@
+{
+  "id": "SZ-G8-T2-DD96D14C81-Q21",
+  "paper_id": "SZ-G8-T2-DD96D14C81",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "应用等腰三角形性质求边角、由勾股关系求直角三角形边长",
+  "stem": "我们新定义一种三角形：两边平方和等于第三边平方的\\(3\\)倍的三角形叫做非凡三角形．例如：某三角形三边长分别是\\(\\sqrt[] { 3 },2\\)和\\(3\\)，因为\\(\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +3 ^ { 2 } =12=3\\times 2 ^ { 2 }\\)，所以这个三角形是非凡三角形．\n（1）判断：等腰直角三角形        _非凡三角形（填“是”或“不是”)﹔\n（2）若\\(\\vartriangle ABC\\)是非凡三角形，且\\(AB=3,BC=6\\)，则\\(AC=\\)       _\n（3）如图，在平行四边形\\(ABCD\\)中，\\(AC\\bot BD\\)于点\\(O,AB=6\\)，且\\(\\vartriangle ABD\\)是非凡三角形，求\\(AC\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/4a/4a26a24e2a1e8f94771a561c0060ea2dcff78adf813c004b06d4a1138e5c4a06.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）是；（2）\\(\\sqrt[] { 15 }\\)；（3）\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．",
+  "answer": "（1）是；（2）\\(\\sqrt[] { 15 }\\)；（3）\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．",
+  "given_solution": "【分析】（1）令等腰直角三角形的三个边分别为\\(a\\)，\\(a\\)，\\(\\sqrt[] { 2 }a\\)，由\\(a ^ { 2 } +(\\sqrt[] { 2 }a) ^ { 2 } =3a ^ { 2 }\\)可知等腰直角三角形是非凡三角形；\n（2）根据非凡三角形定义及三角形三边关系求出\\(AC\\)即可；\n（3）根据四边形\\(ABCD\\)是平行四边形，得出\\(AD=AB=6\\)，由\\(\\vartriangle ABD\\)是非凡三角形，分情况计算\\(AC\\)的值即可．\n【详解】解：（1）令等腰直角三角形的三个边分别为\\(a\\)，\\(a\\)，\\(\\sqrt[] { 2 }a\\)，\n\\(\\because a ^ { 2 } +(\\sqrt[] { 2 }a) ^ { 2 } =3a ^ { 2 }\\)，\n\\(\\therefore\\)等腰直角三角形是非凡三角形，\n故答案为：是；\n（2）\\(\\because \\vartriangle ABC\\)是非凡三角形，\\(AB=3,BC=6\\)，\n∴当\\(AB ^ { 2 } +BC ^ { 2 } =3AC ^ { 2 }\\)时，\n则\\(3 ^ { 2 } +6 ^ { 2 } =3AC ^ { 2 }\\)，\n∴\\(AC=\\sqrt[] { \\frac { 3 ^ { 2 } +6 ^ { 2 } } { 3 } }=\\sqrt[] { 15 }\\)，\n当\\(AB ^ { 2 } +AC ^ { 2 } =3BC ^ { 2 }\\)时，\n则\\(3 ^ { 2 } +AC ^ { 2 } =3\\times 6 ^ { 2 }\\)，\n∴\\(AC=\\sqrt[] { 108-9 }=3\\sqrt[] { 11 }\\)，\n当\\(AC ^ { 2 } +BC ^ { 2 } =3AB ^ { 2 }\\)时，\n则\\(AC ^ { 2 } +6 ^ { 2 } =3\\times 3 ^ { 2 }\\)，\n∴\\(AC ^ { 2 } =27-36=-9\\)（显然不符合题意，舍去），\n\\(\\because AB=3\\)，\\(BC=6\\)，\n\\(\\therefore 3 < AC < 9\\)，\n∴\\(AC=\\sqrt[] { 15 }\\)符合题意；\\(AC=3\\sqrt[] { 11 }\\)不符合题意，舍去，\n故答案为：\\(\\sqrt[] { 15 }\\)；\n（3）\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore BO=DO=\\frac { 1 } { 2 }BD\\)，\\(AC=2AO\\)，\n又\\(\\because AC\\bot BD\\)，\n\\(\\therefore AC\\)垂直平分\\(BD\\)，\n\\(\\therefore AD=AB=6\\)，\n\\(\\because \\vartriangle ABD\\)是非凡三角形，\n∴①当\\(AB ^ { 2 } +AD ^ { 2 } =3BD ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =\\frac { 1 } { 3 }(AB ^ { 2 } +AD ^ { 2 } )=\\frac { 1 } { 3 }\\times (6 ^ { 2 } +6 ^ { 2 } )=24\\)，\n\\(\\therefore BD=2\\sqrt[] { 6 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=\\sqrt[] { 6 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=\\sqrt[] { 30 }\\)，\n\\(\\therefore AC=2AO=2\\sqrt[] { 30 }\\)；\n②当\\(AB ^ { 2 } +BD ^ { 2 } =3AD ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =3AD ^ { 2 } -AB ^ { 2 } =2AD ^ { 2 } =72\\)，\n\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；\n③当\\(AD ^ { 2 } +BD ^ { 2 } =3AB ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =3AB ^ { 2 } -AD ^ { 2 } =2AD ^ { 2 } =72\\)，\n\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；\n综上所述，AC的值为\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．\n【点睛】本题主要考查了平行四边形的性质，垂直平分线的判定与性质，勾股定理的应用等相关知识，正确理解非凡三角形的定义，学会运用分类讨论思想是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/4a/4a26a24e2a1e8f94771a561c0060ea2dcff78adf813c004b06d4a1138e5c4a06.png"
+  ],
+  "solution": "解：（1）令等腰直角三角形的三个边分别为\\(a\\)，\\(a\\)，\\(\\sqrt[] { 2 }a\\)，\n\\(\\because a ^ { 2 } +(\\sqrt[] { 2 }a) ^ { 2 } =3a ^ { 2 }\\)，\n\\(\\therefore\\)等腰直角三角形是非凡三角形，\n故答案为：是；\n（2）\\(\\because \\vartriangle ABC\\)是非凡三角形，\\(AB=3,BC=6\\)，\n∴当\\(AB ^ { 2 } +BC ^ { 2 } =3AC ^ { 2 }\\)时，\n则\\(3 ^ { 2 } +6 ^ { 2 } =3AC ^ { 2 }\\)，\n∴\\(AC=\\sqrt[] { \\frac { 3 ^ { 2 } +6 ^ { 2 } } { 3 } }=\\sqrt[] { 15 }\\)，\n当\\(AB ^ { 2 } +AC ^ { 2 } =3BC ^ { 2 }\\)时，\n则\\(3 ^ { 2 } +AC ^ { 2 } =3\\times 6 ^ { 2 }\\)，\n∴\\(AC=\\sqrt[] { 108-9 }=3\\sqrt[] { 11 }\\)，\n当\\(AC ^ { 2 } +BC ^ { 2 } =3AB ^ { 2 }\\)时，\n则\\(AC ^ { 2 } +6 ^ { 2 } =3\\times 3 ^ { 2 }\\)，\n∴\\(AC ^ { 2 } =27-36=-9\\)（显然不符合题意，舍去），\n\\(\\because AB=3\\)，\\(BC=6\\)，\n\\(\\therefore 3 < AC < 9\\)，\n∴\\(AC=\\sqrt[] { 15 }\\)符合题意；\\(AC=3\\sqrt[] { 11 }\\)不符合题意，舍去，\n故答案为：\\(\\sqrt[] { 15 }\\)；\n（3）\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore BO=DO=\\frac { 1 } { 2 }BD\\)，\\(AC=2AO\\)，\n又\\(\\because AC\\bot BD\\)，\n\\(\\therefore AC\\)垂直平分\\(BD\\)，\n\\(\\therefore AD=AB=6\\)，\n\\(\\because \\vartriangle ABD\\)是非凡三角形，\n∴①当\\(AB ^ { 2 } +AD ^ { 2 } =3BD ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =\\frac { 1 } { 3 }(AB ^ { 2 } +AD ^ { 2 } )=\\frac { 1 } { 3 }\\times (6 ^ { 2 } +6 ^ { 2 } )=24\\)，\n\\(\\therefore BD=2\\sqrt[] { 6 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=\\sqrt[] { 6 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=\\sqrt[] { 30 }\\)，\n\\(\\therefore AC=2AO=2\\sqrt[] { 30 }\\)；\n②当\\(AB ^ { 2 } +BD ^ { 2 } =3AD ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =3AD ^ { 2 } -AB ^ { 2 } =2AD ^ { 2 } =72\\)，\n\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；\n③当\\(AD ^ { 2 } +BD ^ { 2 } =3AB ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =3AB ^ { 2 } -AD ^ { 2 } =2AD ^ { 2 } =72\\)，\n\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；\n综上所述，AC的值为\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．",
+  "solution_steps": [
+    "解：（1）令等腰直角三角形的三个边分别为\\(a\\)，\\(a\\)，\\(\\sqrt[] { 2 }a\\)，",
+    "\\(\\because a ^ { 2 } +(\\sqrt[] { 2 }a) ^ { 2 } =3a ^ { 2 }\\)，",
+    "\\(\\therefore\\)等腰直角三角形是非凡三角形，",
+    "故答案为：是；",
+    "（2）\\(\\because \\vartriangle ABC\\)是非凡三角形，\\(AB=3,BC=6\\)，",
+    "∴当\\(AB ^ { 2 } +BC ^ { 2 } =3AC ^ { 2 }\\)时，",
+    "则\\(3 ^ { 2 } +6 ^ { 2 } =3AC ^ { 2 }\\)，",
+    "∴\\(AC=\\sqrt[] { \\frac { 3 ^ { 2 } +6 ^ { 2 } } { 3 } }=\\sqrt[] { 15 }\\)，",
+    "当\\(AB ^ { 2 } +AC ^ { 2 } =3BC ^ { 2 }\\)时，",
+    "则\\(3 ^ { 2 } +AC ^ { 2 } =3\\times 6 ^ { 2 }\\)，",
+    "∴\\(AC=\\sqrt[] { 108-9 }=3\\sqrt[] { 11 }\\)，",
+    "当\\(AC ^ { 2 } +BC ^ { 2 } =3AB ^ { 2 }\\)时，",
+    "则\\(AC ^ { 2 } +6 ^ { 2 } =3\\times 3 ^ { 2 }\\)，",
+    "∴\\(AC ^ { 2 } =27-36=-9\\)（显然不符合题意，舍去），",
+    "\\(\\because AB=3\\)，\\(BC=6\\)，",
+    "\\(\\therefore 3 < AC < 9\\)，",
+    "∴\\(AC=\\sqrt[] { 15 }\\)符合题意；\\(AC=3\\sqrt[] { 11 }\\)不符合题意，舍去，",
+    "故答案为：\\(\\sqrt[] { 15 }\\)；",
+    "（3）\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+    "\\(\\therefore BO=DO=\\frac { 1 } { 2 }BD\\)，\\(AC=2AO\\)，",
+    "又\\(\\because AC\\bot BD\\)，",
+    "\\(\\therefore AC\\)垂直平分\\(BD\\)，",
+    "\\(\\therefore AD=AB=6\\)，",
+    "\\(\\because \\vartriangle ABD\\)是非凡三角形，",
+    "∴①当\\(AB ^ { 2 } +AD ^ { 2 } =3BD ^ { 2 }\\)时，",
+    "则\\(BD ^ { 2 } =\\frac { 1 } { 3 }(AB ^ { 2 } +AD ^ { 2 } )=\\frac { 1 } { 3 }\\times (6 ^ { 2 } +6 ^ { 2 } )=24\\)，",
+    "\\(\\therefore BD=2\\sqrt[] { 6 }\\)（舍负），",
+    "\\(\\therefore BO=\\frac { 1 } { 2 }BD=\\sqrt[] { 6 }\\)，",
+    "在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=\\sqrt[] { 30 }\\)，",
+    "\\(\\therefore AC=2AO=2\\sqrt[] { 30 }\\)；",
+    "②当\\(AB ^ { 2 } +BD ^ { 2 } =3AD ^ { 2 }\\)时，",
+    "则\\(BD ^ { 2 } =3AD ^ { 2 } -AB ^ { 2 } =2AD ^ { 2 } =72\\)，",
+    "\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），",
+    "\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，",
+    "在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；",
+    "③当\\(AD ^ { 2 } +BD ^ { 2 } =3AB ^ { 2 }\\)时，",
+    "则\\(BD ^ { 2 } =3AB ^ { 2 } -AD ^ { 2 } =2AD ^ { 2 } =72\\)，",
+    "\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），",
+    "\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，",
+    "在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；",
+    "综上所述，AC的值为\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "我们新定义一种三角形：两边平方和等于第三边平方的\\(3\\)倍的三角形叫做非凡三角形．例如：某三角形三边长分别是\\(\\sqrt[] { 3 },2\\)和\\(3\\)，因为\\(\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +3 ^ { 2 } =12=3\\times 2 ^ { 2 }\\)，所以这个三角形是非凡三角形．",
+      "paper_blocks": [
+        55
+      ]
+    },
+    {
+      "id": "fig-59",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q21-P01",
+      "label": "（1）",
+      "prompt": "判断：等腰直角三角形        _非凡三角形（填“是”或“不是”)﹔",
+      "stem_text": "判断：等腰直角三角形        _非凡三角形（填“是”或“不是”)﹔",
+      "material_ids": [
+        "context",
+        "fig-59"
+      ],
+      "requires": [],
+      "given_answer": "是；",
+      "answer": "是；",
+      "given_solution": "令等腰直角三角形的三个边分别为\\(a\\)，\\(a\\)，\\(\\sqrt[] { 2 }a\\)，\n\\(\\because a ^ { 2 } +(\\sqrt[] { 2 }a) ^ { 2 } =3a ^ { 2 }\\)，\n\\(\\therefore\\)等腰直角三角形是非凡三角形，\n故答案为：是；",
+      "solution_steps": [
+        "令等腰直角三角形的三个边分别为\\(a\\)，\\(a\\)，\\(\\sqrt[] { 2 }a\\)，",
+        "\\(\\because a ^ { 2 } +(\\sqrt[] { 2 }a) ^ { 2 } =3a ^ { 2 }\\)，",
+        "\\(\\therefore\\)等腰直角三角形是非凡三角形，",
+        "故答案为：是；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          59
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q21-P02",
+      "label": "（2）",
+      "prompt": "若\\(\\vartriangle ABC\\)是非凡三角形，且\\(AB=3,BC=6\\)，则\\(AC=\\)       _",
+      "stem_text": "若\\(\\vartriangle ABC\\)是非凡三角形，且\\(AB=3,BC=6\\)，则\\(AC=\\)       _",
+      "material_ids": [
+        "context",
+        "fig-59"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 15 }\\)；",
+      "answer": "\\(\\sqrt[] { 15 }\\)；",
+      "given_solution": "\\(\\because \\vartriangle ABC\\)是非凡三角形，\\(AB=3,BC=6\\)，\n∴当\\(AB ^ { 2 } +BC ^ { 2 } =3AC ^ { 2 }\\)时，\n则\\(3 ^ { 2 } +6 ^ { 2 } =3AC ^ { 2 }\\)，\n∴\\(AC=\\sqrt[] { \\frac { 3 ^ { 2 } +6 ^ { 2 } } { 3 } }=\\sqrt[] { 15 }\\)，\n当\\(AB ^ { 2 } +AC ^ { 2 } =3BC ^ { 2 }\\)时，\n则\\(3 ^ { 2 } +AC ^ { 2 } =3\\times 6 ^ { 2 }\\)，\n∴\\(AC=\\sqrt[] { 108-9 }=3\\sqrt[] { 11 }\\)，\n当\\(AC ^ { 2 } +BC ^ { 2 } =3AB ^ { 2 }\\)时，\n则\\(AC ^ { 2 } +6 ^ { 2 } =3\\times 3 ^ { 2 }\\)，\n∴\\(AC ^ { 2 } =27-36=-9\\)（显然不符合题意，舍去），\n\\(\\because AB=3\\)，\\(BC=6\\)，\n\\(\\therefore 3 < AC < 9\\)，\n∴\\(AC=\\sqrt[] { 15 }\\)符合题意；\\(AC=3\\sqrt[] { 11 }\\)不符合题意，舍去，\n故答案为：\\(\\sqrt[] { 15 }\\)；",
+      "solution_steps": [
+        "\\(\\because \\vartriangle ABC\\)是非凡三角形，\\(AB=3,BC=6\\)，",
+        "∴当\\(AB ^ { 2 } +BC ^ { 2 } =3AC ^ { 2 }\\)时，",
+        "则\\(3 ^ { 2 } +6 ^ { 2 } =3AC ^ { 2 }\\)，",
+        "∴\\(AC=\\sqrt[] { \\frac { 3 ^ { 2 } +6 ^ { 2 } } { 3 } }=\\sqrt[] { 15 }\\)，",
+        "当\\(AB ^ { 2 } +AC ^ { 2 } =3BC ^ { 2 }\\)时，",
+        "则\\(3 ^ { 2 } +AC ^ { 2 } =3\\times 6 ^ { 2 }\\)，",
+        "∴\\(AC=\\sqrt[] { 108-9 }=3\\sqrt[] { 11 }\\)，",
+        "当\\(AC ^ { 2 } +BC ^ { 2 } =3AB ^ { 2 }\\)时，",
+        "则\\(AC ^ { 2 } +6 ^ { 2 } =3\\times 3 ^ { 2 }\\)，",
+        "∴\\(AC ^ { 2 } =27-36=-9\\)（显然不符合题意，舍去），",
+        "\\(\\because AB=3\\)，\\(BC=6\\)，",
+        "\\(\\therefore 3 < AC < 9\\)，",
+        "∴\\(AC=\\sqrt[] { 15 }\\)符合题意；\\(AC=3\\sqrt[] { 11 }\\)不符合题意，舍去，",
+        "故答案为：\\(\\sqrt[] { 15 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          57,
+          59
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图，在平行四边形\\(ABCD\\)中，\\(AC\\bot BD\\)于点\\(O,AB=6\\)，且\\(\\vartriangle ABD\\)是非凡三角形，求\\(AC\\)的值．",
+      "stem_text": "如图，在平行四边形\\(ABCD\\)中，\\(AC\\bot BD\\)于点\\(O,AB=6\\)，且\\(\\vartriangle ABD\\)是非凡三角形，求\\(AC\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-59"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．",
+      "answer": "\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．",
+      "given_solution": "\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore BO=DO=\\frac { 1 } { 2 }BD\\)，\\(AC=2AO\\)，\n又\\(\\because AC\\bot BD\\)，\n\\(\\therefore AC\\)垂直平分\\(BD\\)，\n\\(\\therefore AD=AB=6\\)，\n\\(\\because \\vartriangle ABD\\)是非凡三角形，\n∴①当\\(AB ^ { 2 } +AD ^ { 2 } =3BD ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =\\frac { 1 } { 3 }(AB ^ { 2 } +AD ^ { 2 } )=\\frac { 1 } { 3 }\\times (6 ^ { 2 } +6 ^ { 2 } )=24\\)，\n\\(\\therefore BD=2\\sqrt[] { 6 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=\\sqrt[] { 6 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=\\sqrt[] { 30 }\\)，\n\\(\\therefore AC=2AO=2\\sqrt[] { 30 }\\)；\n②当\\(AB ^ { 2 } +BD ^ { 2 } =3AD ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =3AD ^ { 2 } -AB ^ { 2 } =2AD ^ { 2 } =72\\)，\n\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；\n③当\\(AD ^ { 2 } +BD ^ { 2 } =3AB ^ { 2 }\\)时，\n则\\(BD ^ { 2 } =3AB ^ { 2 } -AD ^ { 2 } =2AD ^ { 2 } =72\\)，\n\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），\n\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，\n在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；\n综上所述，AC的值为\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．",
+      "solution_steps": [
+        "\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+        "\\(\\therefore BO=DO=\\frac { 1 } { 2 }BD\\)，\\(AC=2AO\\)，",
+        "又\\(\\because AC\\bot BD\\)，",
+        "\\(\\therefore AC\\)垂直平分\\(BD\\)，",
+        "\\(\\therefore AD=AB=6\\)，",
+        "\\(\\because \\vartriangle ABD\\)是非凡三角形，",
+        "∴①当\\(AB ^ { 2 } +AD ^ { 2 } =3BD ^ { 2 }\\)时，",
+        "则\\(BD ^ { 2 } =\\frac { 1 } { 3 }(AB ^ { 2 } +AD ^ { 2 } )=\\frac { 1 } { 3 }\\times (6 ^ { 2 } +6 ^ { 2 } )=24\\)，",
+        "\\(\\therefore BD=2\\sqrt[] { 6 }\\)（舍负），",
+        "\\(\\therefore BO=\\frac { 1 } { 2 }BD=\\sqrt[] { 6 }\\)，",
+        "在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=\\sqrt[] { 30 }\\)，",
+        "\\(\\therefore AC=2AO=2\\sqrt[] { 30 }\\)；",
+        "②当\\(AB ^ { 2 } +BD ^ { 2 } =3AD ^ { 2 }\\)时，",
+        "则\\(BD ^ { 2 } =3AD ^ { 2 } -AB ^ { 2 } =2AD ^ { 2 } =72\\)，",
+        "\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），",
+        "\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，",
+        "在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；",
+        "③当\\(AD ^ { 2 } +BD ^ { 2 } =3AB ^ { 2 }\\)时，",
+        "则\\(BD ^ { 2 } =3AB ^ { 2 } -AD ^ { 2 } =2AD ^ { 2 } =72\\)，",
+        "\\(\\therefore BD=6\\sqrt[] { 2 }\\)（舍负），",
+        "\\(\\therefore BO=\\frac { 1 } { 2 }BD=3\\sqrt[] { 2 }\\)，",
+        "在\\(Rt\\vartriangle AOB\\)中，\\(AO=\\sqrt[] { AB ^ { 2 } -BO ^ { 2 } }=3\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore AC=2AO=6\\sqrt[] { 2 }\\)；",
+        "综上所述，AC的值为\\(2\\sqrt[] { 30 }\\)或\\(6\\sqrt[] { 2 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      55,
+      59
+    ],
+    "solution_body_blocks": [
+      290,
+      343
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-DD96D14C81/paper-q21-p04.webp",
+      "assets/SZ-G8-T2-DD96D14C81/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          588.64,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          119.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-DD96D14C81/solution-q21-p15.webp",
+      "assets/SZ-G8-T2-DD96D14C81/solution-q21-p16.webp",
+      "assets/SZ-G8-T2-DD96D14C81/solution-q21-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          239.09,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          244.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

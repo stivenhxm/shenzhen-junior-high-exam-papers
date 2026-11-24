@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q20-P02",{"answer":"不正确，和为4的概率是1/4。","solution_steps":["和4、5、6对应的等可能有序结果数依次为1、2、1。只有（2，2）的和为4，概率为1/4。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

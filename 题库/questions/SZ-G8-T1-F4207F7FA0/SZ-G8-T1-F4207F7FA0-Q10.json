@@ -1,0 +1,131 @@
+{
+  "id": "SZ-G8-T1-F4207F7FA0-Q10",
+  "paper_id": "SZ-G8-T1-F4207F7FA0",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "解释勾股关系的面积证明",
+  "stem": "我国清代数学家李锐借助三个正方形用出入相补的方法证明了勾股定理．如图，直角三角形的三边a，b，c满足\\(c>a>b\\)，分别以a、b、c为边作三个正方形：正方形\\(CBFG\\)、正方形\\(HDEF\\)、正方形\\(ABEJ\\)，把它们拼成如图所示形状，使E、F、G三点在一条直线上，若\\(a+b=7\\)，四边形\\(ABFK\\)与\\(\\vartriangle DEL\\)面积之和为7，则正方形\\(ABEJ\\)的面积为（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "49"
+    },
+    {
+      "label": "B",
+      "text": "28"
+    },
+    {
+      "label": "C",
+      "text": "21"
+    },
+    {
+      "label": "D",
+      "text": "14"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G8-T1-F4207F7FA0/figures/85fe38d364d087db3acc12022f069ea14c82a998d219e30b913ceb40e45bbe01.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】本题考查了勾股定理，全等三角形的判定和性质，解题的关键是证明三角形全等，根据图形面积得到相应等式，从而进行计算．证明\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBF\\)，得到\\(AC=FE=b\\)，再证明\\(\\vartriangle AGK≌\\vartriangle BHL\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，从而推出\\(S_{ 四边形ABFK } +S_{ \\vartriangle DEL } +\\frac { ab } { 2 }=\\frac { \\left ( { a-b+a } \\right )a } { 2 }+b ^ { 2 }\\)，化简得到\\(a ^ { 2 } +b ^ { 2 } -ab=7\\)，再根据\\(a+b=7\\)，得到\\(a ^ { 2 } +b ^ { 2 } +2ab=49\\)，结合两式可得\\(a ^ { 2 } +b ^ { 2 } =21\\)，从而计算结果．\n【详解】解：在\\(\\vartriangle ABC\\)与\\(\\vartriangle FBE\\)中\\(\\begin{cases} AB=BE=c \\\\ BC=BF=a \\end{cases}\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBF\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n∴\\(AC=FE=b\\)，\n∴\\(AG=a-b=BH\\)，\n又∵\\(CG\\parallel BF\\)，\n∴\\(\\angle CAB=\\angle ABF\\)，\n∴\\(\\angle GAK=90{}^\\circ -\\angle CAB=90{}^\\circ -\\angle ABF=\\angle HBL\\)，\n在\\(\\vartriangle AGK\\)与\\(\\vartriangle BHL\\)中，\n\\(\\begin{cases} AG=BH \\\\ \\angle G=\\angle BHL \\\\ \\angle GAK=\\angle HBL \\end{cases}\\)，\n∴\\(\\vartriangle AGK≌\\vartriangle BHL\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(S_{ 四边形ABFK } +S_{ \\vartriangle BHL } +S_{ 四边形HFEL } +S_{ \\vartriangle DEL } =S_{ 四边形ABFK } +S_{ \\vartriangle AGK } +S_{ 四边形HFEL } +S_{ \\vartriangle DEL }\\)，\n∴\\(S_{ 四边形ABFK } +S_{ \\vartriangle BFE } +S_{ \\vartriangle DEL } =S_{ 四边形AGFB } +S_{ 四边形HFED }\\)，\n即\\(S_{ 四边形ABFK } +S_{ \\vartriangle DEL } +\\frac { ab } { 2 }=\\frac { \\left ( { a-b+a } \\right )a } { 2 }+b ^ { 2 }\\)，\n化简得：\\(a ^ { 2 } +b ^ { 2 } -ab=7\\)①，\n∵\\(a+b=7\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } +2ab=49\\)②，\n\\(\\frac { ①\\times 2+② } { 3 }\\)，得：\\(a ^ { 2 } +b ^ { 2 } =21\\)，\n∴\\(S_{ 正方形ABEJ } =c ^ { 2 } =a ^ { 2 } +b ^ { 2 } =21\\)．\n故选：C．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-F4207F7FA0/figures/85fe38d364d087db3acc12022f069ea14c82a998d219e30b913ceb40e45bbe01.png"
+  ],
+  "solution": "解：在\\(\\vartriangle ABC\\)与\\(\\vartriangle FBE\\)中\\(\\begin{cases} AB=BE=c \\\\ BC=BF=a \\end{cases}\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBF\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n∴\\(AC=FE=b\\)，\n∴\\(AG=a-b=BH\\)，\n又∵\\(CG\\parallel BF\\)，\n∴\\(\\angle CAB=\\angle ABF\\)，\n∴\\(\\angle GAK=90{}^\\circ -\\angle CAB=90{}^\\circ -\\angle ABF=\\angle HBL\\)，\n在\\(\\vartriangle AGK\\)与\\(\\vartriangle BHL\\)中，\n\\(\\begin{cases} AG=BH \\\\ \\angle G=\\angle BHL \\\\ \\angle GAK=\\angle HBL \\end{cases}\\)，\n∴\\(\\vartriangle AGK≌\\vartriangle BHL\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(S_{ 四边形ABFK } +S_{ \\vartriangle BHL } +S_{ 四边形HFEL } +S_{ \\vartriangle DEL } =S_{ 四边形ABFK } +S_{ \\vartriangle AGK } +S_{ 四边形HFEL } +S_{ \\vartriangle DEL }\\)，\n∴\\(S_{ 四边形ABFK } +S_{ \\vartriangle BFE } +S_{ \\vartriangle DEL } =S_{ 四边形AGFB } +S_{ 四边形HFED }\\)，\n即\\(S_{ 四边形ABFK } +S_{ \\vartriangle DEL } +\\frac { ab } { 2 }=\\frac { \\left ( { a-b+a } \\right )a } { 2 }+b ^ { 2 }\\)，\n化简得：\\(a ^ { 2 } +b ^ { 2 } -ab=7\\)①，\n∵\\(a+b=7\\)，\n∴\\(a ^ { 2 } +b ^ { 2 } +2ab=49\\)②，\n\\(\\frac { ①\\times 2+② } { 3 }\\)，得：\\(a ^ { 2 } +b ^ { 2 } =21\\)，\n∴\\(S_{ 正方形ABEJ } =c ^ { 2 } =a ^ { 2 } +b ^ { 2 } =21\\)．\n故选：C．",
+  "solution_steps": [
+    "解：在\\(\\vartriangle ABC\\)与\\(\\vartriangle FBE\\)中\\(\\begin{cases} AB=BE=c \\\\ BC=BF=a \\end{cases}\\)，",
+    "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle EBF\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，",
+    "∴\\(AC=FE=b\\)，",
+    "∴\\(AG=a-b=BH\\)，",
+    "又∵\\(CG\\parallel BF\\)，",
+    "∴\\(\\angle CAB=\\angle ABF\\)，",
+    "∴\\(\\angle GAK=90{}^\\circ -\\angle CAB=90{}^\\circ -\\angle ABF=\\angle HBL\\)，",
+    "在\\(\\vartriangle AGK\\)与\\(\\vartriangle BHL\\)中，",
+    "\\(\\begin{cases} AG=BH \\\\ \\angle G=\\angle BHL \\\\ \\angle GAK=\\angle HBL \\end{cases}\\)，",
+    "∴\\(\\vartriangle AGK≌\\vartriangle BHL\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(S_{ 四边形ABFK } +S_{ \\vartriangle BHL } +S_{ 四边形HFEL } +S_{ \\vartriangle DEL } =S_{ 四边形ABFK } +S_{ \\vartriangle AGK } +S_{ 四边形HFEL } +S_{ \\vartriangle DEL }\\)，",
+    "∴\\(S_{ 四边形ABFK } +S_{ \\vartriangle BFE } +S_{ \\vartriangle DEL } =S_{ 四边形AGFB } +S_{ 四边形HFED }\\)，",
+    "即\\(S_{ 四边形ABFK } +S_{ \\vartriangle DEL } +\\frac { ab } { 2 }=\\frac { \\left ( { a-b+a } \\right )a } { 2 }+b ^ { 2 }\\)，",
+    "化简得：\\(a ^ { 2 } +b ^ { 2 } -ab=7\\)①，",
+    "∵\\(a+b=7\\)，",
+    "∴\\(a ^ { 2 } +b ^ { 2 } +2ab=49\\)②，",
+    "\\(\\frac { ①\\times 2+② } { 3 }\\)，得：\\(a ^ { 2 } +b ^ { 2 } =21\\)，",
+    "∴\\(S_{ 正方形ABEJ } =c ^ { 2 } =a ^ { 2 } +b ^ { 2 } =21\\)．",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      25,
+      27
+    ],
+    "solution_body_blocks": [
+      100,
+      124
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-F4207F7FA0/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          409.09,
+          583.64,
+          625.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-F4207F7FA0/solution-q10-p06.webp",
+      "assets/SZ-G8-T1-F4207F7FA0/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          229.55,
+          583.64,
+          749.09
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          290.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“解释勾股关系的面积证明”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

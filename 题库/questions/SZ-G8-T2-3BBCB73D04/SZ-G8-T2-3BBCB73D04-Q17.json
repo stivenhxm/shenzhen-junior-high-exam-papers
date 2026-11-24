@@ -1,0 +1,299 @@
+{
+  "id": "SZ-G8-T2-3BBCB73D04-Q17",
+  "paper_id": "SZ-G8-T2-3BBCB73D04",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "如图，在△ABC中，AB＝AC，点D是BA延长线上的一点，点E是AC的中点．\n〔图1〕\n（1）实践与操作：利用尺规按下列要求作图，并在图中标明相应字母：（保留作图痕迹，不写作法）\n①作∠DAC的平分线AM；\n②连接BE并延长交AM于点F；\n（2）求证：\\(AF\\parallel BC\\)且AF＝BC．",
+  "choices": [],
+  "figures": [
+    "assets/figures/9d/9d4a1000aaed2f659cc4818cba4d615459c7bfbb87b44595f60b8fa15a99d5a5.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①见解析；②见解析；（2）见解析",
+  "answer": "（1）①见解析；②见解析；（2）见解析",
+  "given_solution": "【分析】（1）①以A为圆心，任意长为半径画弧，与\\(\\angle DAC\\)的两边相交，得到两个交点，再分别以这两个交点为圆心，大于这两个交点的距离的一半为半径画弧，两弧交于一点，再以\\(A\\)为端点，过两弧的交点作射线即可；②按照提示作图即可；\n（2）利用角平分线的性质与三角形的外角的性质证明：∠C＝∠FAC，可得\\(AF\\parallel BC\\)，再证明△AEF≌△CEB，可得AF＝BC．\n【详解】解：（1）如图所示，AM即为所求，BE的延长线交AM于F．\n〔图2〕\n（2）证明：∵AB＝AC，\n∴∠ABC＝∠C，\n∴∠DAC＝∠ABC+∠C＝2∠C，\n∠DAC的平分线AM，\n∵∠DAC＝2∠FAC，\n∴∠C＝∠FAC，\n∴\\(AF\\parallel BC\\)，\n∵E是AC中点，\n∴AE＝EC，\n在△AEF和△CEB中，\n\\(\\begin{cases} \\angle FAE=\\angle C \\\\ AE=CE \\\\ \\angle AEF=\\angle BEC \\end{cases}\\)，\n∴△AEF≌△CEB，\n∴AF＝BC．\n【点睛】本题考查的是角平分线的作图，三角形的外角的性质，平行线的性质，全等三角形的判定与性质，等腰三角形的性质，掌握“等腰三角形+角平分线\\(\\to\\)平行线”是解本题的关键.",
+  "given_solution_figures": [
+    "assets/figures/87/87c79aa05634ff4e83f50653a8ed0c8cf2c0fb70c50bd531954a521a5c2bb16d.png",
+    "assets/figures/9c/9c821fd4c5894bf8f720a4331e2b4f7aa6614a1e51eb24a08d93436212286bda.png"
+  ],
+  "solution": "解：（1）如图所示，AM即为所求，BE的延长线交AM于F．\n〔图2〕\n（2）证明：∵AB＝AC，\n∴∠ABC＝∠C，\n∴∠DAC＝∠ABC+∠C＝2∠C，\n∠DAC的平分线AM，\n∵∠DAC＝2∠FAC，\n∴∠C＝∠FAC，\n∴\\(AF\\parallel BC\\)，\n∵E是AC中点，\n∴AE＝EC，\n在△AEF和△CEB中，\n\\(\\begin{cases} \\angle FAE=\\angle C \\\\ AE=CE \\\\ \\angle AEF=\\angle BEC \\end{cases}\\)，\n∴△AEF≌△CEB，\n∴AF＝BC．",
+  "solution_steps": [
+    "解：（1）如图所示，AM即为所求，BE的延长线交AM于F．",
+    "〔图2〕",
+    "（2）证明：∵AB＝AC，",
+    "∴∠ABC＝∠C，",
+    "∴∠DAC＝∠ABC+∠C＝2∠C，",
+    "∠DAC的平分线AM，",
+    "∵∠DAC＝2∠FAC，",
+    "∴∠C＝∠FAC，",
+    "∴\\(AF\\parallel BC\\)，",
+    "∵E是AC中点，",
+    "∴AE＝EC，",
+    "在△AEF和△CEB中，",
+    "\\(\\begin{cases} \\angle FAE=\\angle C \\\\ AE=CE \\\\ \\angle AEF=\\angle BEC \\end{cases}\\)，",
+    "∴△AEF≌△CEB，",
+    "∴AF＝BC．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在△ABC中，AB＝AC，点D是BA延长线上的一点，点E是AC的中点．\n〔图1〕",
+      "paper_blocks": [
+        49,
+        50
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "实践与操作：利用尺规按下列要求作图，并在图中标明相应字母：（保留作图痕迹，不写作法）",
+      "paper_blocks": [
+        51
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3BBCB73D04-Q17-P01",
+      "label": "（1）①",
+      "prompt": "作∠DAC的平分线AM；",
+      "stem_text": "作∠DAC的平分线AM；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "（1）①见解析",
+      "answer": "（1）①见解析",
+      "given_solution": "解：（1）如图所示，AM即为所求，BE的延长线交AM于F．\n〔图2〕",
+      "solution_steps": [
+        "解：（1）如图所示，AM即为所求，BE的延长线交AM于F．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          51,
+          52
+        ],
+        "solution_block_ids": [
+          232,
+          233
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3BBCB73D04-Q17-P02",
+      "label": "（1）②",
+      "prompt": "连接BE并延长交AM于点F；",
+      "stem_text": "连接BE并延长交AM于点F；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "②见解析",
+      "answer": "②见解析",
+      "given_solution": "解：（1）如图所示，AM即为所求，BE的延长线交AM于F．\n〔图2〕",
+      "solution_steps": [
+        "解：（1）如图所示，AM即为所求，BE的延长线交AM于F．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          51,
+          53
+        ],
+        "solution_block_ids": [
+          232,
+          233
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G12.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“用尺规”。用尺规完成基本作图。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3BBCB73D04-Q17-P03",
+      "label": "（2）",
+      "prompt": "求证：\\(AF\\parallel BC\\)且AF＝BC．",
+      "stem_text": "求证：\\(AF\\parallel BC\\)且AF＝BC．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "（2）见解析",
+      "answer": "（2）见解析",
+      "given_solution": "（2）证明：∵AB＝AC，\n∴∠ABC＝∠C，\n∴∠DAC＝∠ABC+∠C＝2∠C，\n∠DAC的平分线AM，\n∵∠DAC＝2∠FAC，\n∴∠C＝∠FAC，\n∴\\(AF\\parallel BC\\)，\n∵E是AC中点，\n∴AE＝EC，\n在△AEF和△CEB中，\n\\(\\begin{cases} \\angle FAE=\\angle C \\\\ AE=CE \\\\ \\angle AEF=\\angle BEC \\end{cases}\\)，\n∴△AEF≌△CEB，\n∴AF＝BC．",
+      "solution_steps": [
+        "（2）证明：∵AB＝AC，",
+        "∴∠ABC＝∠C，",
+        "∴∠DAC＝∠ABC+∠C＝2∠C，",
+        "∠DAC的平分线AM，",
+        "∵∠DAC＝2∠FAC，",
+        "∴∠C＝∠FAC，",
+        "∴\\(AF\\parallel BC\\)，",
+        "∵E是AC中点，",
+        "∴AE＝EC，",
+        "在△AEF和△CEB中，",
+        "\\(\\begin{cases} \\angle FAE=\\angle C \\\\ AE=CE \\\\ \\angle AEF=\\angle BEC \\end{cases}\\)，",
+        "∴△AEF≌△CEB，",
+        "∴AF＝BC．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          54
+        ],
+        "solution_block_ids": [
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      54
+    ],
+    "solution_body_blocks": [
+      222,
+      247
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3BBCB73D04/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          518.64,
+          583.64,
+          766.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3BBCB73D04/solution-q17-p12.webp",
+      "assets/SZ-G8-T2-3BBCB73D04/solution-q17-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          143.64,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          135.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G01.02",
+    "M.G12.01",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。 公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。 公共材料含“用尺规”。用尺规完成基本作图。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

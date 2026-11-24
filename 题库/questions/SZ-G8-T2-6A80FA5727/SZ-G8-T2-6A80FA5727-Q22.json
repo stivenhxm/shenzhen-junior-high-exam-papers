@@ -1,0 +1,392 @@
+{
+  "id": "SZ-G8-T2-6A80FA5727-Q22",
+  "paper_id": "SZ-G8-T2-6A80FA5727",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、由勾股关系求直角三角形边长",
+  "stem": "如图，在平面直角坐标系中，直线\\(y=-2x+8\\)与x轴交于点A，与y轴交于点B，过点B的直线交x轴的负半轴于点C，且\\(\\vartriangle ABC\\)面积为40．\n〔图1〕\n（1）求点C的坐标及直线\\(BC\\)的解析式；\n（2）如图2，已知点\\(E\\left ( { 0，3 } \\right )\\)，连接\\(AE\\)并延长与\\(BC\\)交于点F，求线段\\(CF\\)的长度．\n（3）如图3，将直线\\(BC\\)向右平移\\(m\\left ( { 0 < m < 6 } \\right )\\)个单位，交x轴于点M，交y轴于点N，在直线\\(AB\\)或\\(BC\\)上是否存在一点P，使得以点M，N，O，P为顶点的四边形为平行四边形？若存在，请直接写出点P的坐标；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/4e/4e045d84c6b5f97d8efe9bc721c3665b59e37a29ba8f98b2b4adbe96088889a3.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=\\frac { 4 } { 3 }x+8\\)\n（2）6    （3）\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)",
+  "answer": "（1）\\(y=\\frac { 4 } { 3 }x+8\\)\n（2）6    （3）\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)",
+  "given_solution": "【分析】（1）先根据直线\\(y=-2x+8\\)，求出\\(A\\)、B两个点的坐标，然后根据\\(\\vartriangle ABC\\)面积为40求出点C的坐标，最后根据待定系数法求出直线\\(BC\\)的解析式即可；\n（2）先求作直线\\(AE\\)的解析式，然后求作点F的坐标，根据两点间距离公式求出\\(CF\\)的长即可；\n（3）根据平移设直线\\(MN\\)的解析式为\\(y=\\frac { 4 } { 3 }x+4n\\)，求出\\(M\\left ( { -3n,0 } \\right )\\)，\\(N\\left ( { 0,4n } \\right )\\)，分两种情况：当点P在\\(BC\\)上时，此时是\\(▱MONP\\)，当点P在\\(AB\\)上时，此时是\\(▱MOPN\\)，分别求出点P的坐标即可．\n【小问1详解】\n解：把\\(x=0\\)代入\\(y=-2x+8\\)得：\\(y=8\\)，\n把\\(y=0\\)代入\\(y=-2x+8\\)得\\(0=-2x+8\\)，解得：\\(x=4\\)，\n∴\\(A\\left ( { 4,0 } \\right )\\)，\\(B\\left ( { 0,8 } \\right )\\)，\n∴\\(OB=8\\)，\\(OA=4\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times OB=\\frac { 1 } { 2 }AC\\times 8=40\\)，\n解得：\\(AC=10\\)，\n∴\\(OC=10-4=6\\)，\n∴\\(C\\left ( { -6,0 } \\right )\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)，把\\(B\\left ( { 0,8 } \\right )\\)，\\(C\\left ( { -6,0 } \\right )\\)代入得：\n\\(\\begin{cases} b=8 \\\\ -6k+b=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=8 \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为\\(y=\\frac { 4 } { 3 }x+8\\)；\n【小问2详解】\n解：设直线\\(AE\\)的解析式为\\(y=k'x+b'\\)，把\\(A\\left ( { 4,0 } \\right )\\)，\\(E\\left ( { 0,3 } \\right )\\)代入得：\n\\(\\begin{cases} b'=3 \\\\ 4k'+b'=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} k'=-\\frac { 3 } { 4 } \\\\ b'=3 \\end{cases}\\)，\n∴直线\\(AE\\)的解析式为\\(y=-\\frac { 3 } { 4 }x+3\\)；\n联立\\(\\begin{cases} y=-\\frac { 3 } { 4 }x+3 \\\\ y=\\frac { 4 } { 3 }x+8 \\end{cases}\\)，\n解得：\\(\\begin{cases} x=-\\frac { 12 } { 5 } \\\\ y=\\frac { 24 } { 5 } \\end{cases}\\)，\n∴点F的坐标为\\(\\left ( { -\\frac { 12 } { 5 },\\frac { 24 } { 5 } } \\right )\\)，\n∴\\(CF=\\sqrt[] { \\left ( { -\\frac { 12 } { 5 }+6 } \\right ) ^ { 2 } +\\left ( { \\frac { 24 } { 5 } } \\right ) ^ { 2 } }=6\\)；\n【小问3详解】\n解：根据平移设直线\\(MN\\)的解析式为\\(y=\\frac { 4 } { 3 }x+4n\\)，\n把\\(x=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(y=4n\\)，\n把\\(y=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(0=\\frac { 4 } { 3 }x+4n\\)，解得：\\(x=-3n\\)，\n∴\\(M\\left ( { -3n,0 } \\right )\\)，\\(N\\left ( { 0,4n } \\right )\\)，\n当点P在\\(BC\\)上时，此时是\\(▱MONP\\)，\n∴\\(ON=MP\\)，\\(ON\\parallel MP\\)，\n∴\\(\\angle PMO=\\angle NOA=90{}^\\circ\\)，\n∴\\(PM\\bot x\\)轴，\n把\\(x=-3n\\)代入\\(y=\\frac { 4 } { 3 }x+8\\)得：\\(y=-4n+8\\)，\n∴\\(-4n+8=4n\\)，\n解得：\\(n=1\\)，\n∴\\(P\\left ( { -3,4 } \\right )\\)；\n当点P在\\(AB\\)上时，此时是\\(▱MOPN\\)，\n∴\\(NP=OM=3n\\)，\\(PN\\parallel MO\\)，\n即\\(PN\\parallel x\\)轴，\n∴点N的纵坐标为\\(4n\\)，\n把\\(y=4n\\)代入\\(y=-\\frac { 3 } { 4 }x+3\\)得：\\(4n=-\\frac { 3 } { 4 }x+3\\)，\n解得：\\(x=\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )\\)，\n∴\\(\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )=3n\\)，\n解得：\\(n=\\frac { 32 } { 25 }\\)，\n∴\\(3n=\\frac { 96 } { 25 }\\)，\\(4n=\\frac { 128 } { 25 }\\)，\n∴此时点P的坐标为\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．\n综上分析可知：点P的坐标为：\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．\n【点睛】本题主要考查了一次函数的综合应用，平行四边形的性质，求一次函数解析式，求两条直线的交点坐标，三角形的面积，解题的关键是熟练掌握待定系数法，求出一次函数解析式．",
+  "given_solution_figures": [
+    "assets/figures/4e/4e045d84c6b5f97d8efe9bc721c3665b59e37a29ba8f98b2b4adbe96088889a3.png"
+  ],
+  "solution": "【小问1详解】\n解：把\\(x=0\\)代入\\(y=-2x+8\\)得：\\(y=8\\)，\n把\\(y=0\\)代入\\(y=-2x+8\\)得\\(0=-2x+8\\)，解得：\\(x=4\\)，\n∴\\(A\\left ( { 4,0 } \\right )\\)，\\(B\\left ( { 0,8 } \\right )\\)，\n∴\\(OB=8\\)，\\(OA=4\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times OB=\\frac { 1 } { 2 }AC\\times 8=40\\)，\n解得：\\(AC=10\\)，\n∴\\(OC=10-4=6\\)，\n∴\\(C\\left ( { -6,0 } \\right )\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)，把\\(B\\left ( { 0,8 } \\right )\\)，\\(C\\left ( { -6,0 } \\right )\\)代入得：\n\\(\\begin{cases} b=8 \\\\ -6k+b=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=8 \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为\\(y=\\frac { 4 } { 3 }x+8\\)；\n【小问2详解】\n解：设直线\\(AE\\)的解析式为\\(y=k'x+b'\\)，把\\(A\\left ( { 4,0 } \\right )\\)，\\(E\\left ( { 0,3 } \\right )\\)代入得：\n\\(\\begin{cases} b'=3 \\\\ 4k'+b'=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} k'=-\\frac { 3 } { 4 } \\\\ b'=3 \\end{cases}\\)，\n∴直线\\(AE\\)的解析式为\\(y=-\\frac { 3 } { 4 }x+3\\)；\n联立\\(\\begin{cases} y=-\\frac { 3 } { 4 }x+3 \\\\ y=\\frac { 4 } { 3 }x+8 \\end{cases}\\)，\n解得：\\(\\begin{cases} x=-\\frac { 12 } { 5 } \\\\ y=\\frac { 24 } { 5 } \\end{cases}\\)，\n∴点F的坐标为\\(\\left ( { -\\frac { 12 } { 5 },\\frac { 24 } { 5 } } \\right )\\)，\n∴\\(CF=\\sqrt[] { \\left ( { -\\frac { 12 } { 5 }+6 } \\right ) ^ { 2 } +\\left ( { \\frac { 24 } { 5 } } \\right ) ^ { 2 } }=6\\)；\n【小问3详解】\n解：根据平移设直线\\(MN\\)的解析式为\\(y=\\frac { 4 } { 3 }x+4n\\)，\n把\\(x=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(y=4n\\)，\n把\\(y=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(0=\\frac { 4 } { 3 }x+4n\\)，解得：\\(x=-3n\\)，\n∴\\(M\\left ( { -3n,0 } \\right )\\)，\\(N\\left ( { 0,4n } \\right )\\)，\n当点P在\\(BC\\)上时，此时是\\(▱MONP\\)，\n∴\\(ON=MP\\)，\\(ON\\parallel MP\\)，\n∴\\(\\angle PMO=\\angle NOA=90{}^\\circ\\)，\n∴\\(PM\\bot x\\)轴，\n把\\(x=-3n\\)代入\\(y=\\frac { 4 } { 3 }x+8\\)得：\\(y=-4n+8\\)，\n∴\\(-4n+8=4n\\)，\n解得：\\(n=1\\)，\n∴\\(P\\left ( { -3,4 } \\right )\\)；\n当点P在\\(AB\\)上时，此时是\\(▱MOPN\\)，\n∴\\(NP=OM=3n\\)，\\(PN\\parallel MO\\)，\n即\\(PN\\parallel x\\)轴，\n∴点N的纵坐标为\\(4n\\)，\n把\\(y=4n\\)代入\\(y=-\\frac { 3 } { 4 }x+3\\)得：\\(4n=-\\frac { 3 } { 4 }x+3\\)，\n解得：\\(x=\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )\\)，\n∴\\(\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )=3n\\)，\n解得：\\(n=\\frac { 32 } { 25 }\\)，\n∴\\(3n=\\frac { 96 } { 25 }\\)，\\(4n=\\frac { 128 } { 25 }\\)，\n∴此时点P的坐标为\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．\n综上分析可知：点P的坐标为：\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：把\\(x=0\\)代入\\(y=-2x+8\\)得：\\(y=8\\)，",
+    "把\\(y=0\\)代入\\(y=-2x+8\\)得\\(0=-2x+8\\)，解得：\\(x=4\\)，",
+    "∴\\(A\\left ( { 4,0 } \\right )\\)，\\(B\\left ( { 0,8 } \\right )\\)，",
+    "∴\\(OB=8\\)，\\(OA=4\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times OB=\\frac { 1 } { 2 }AC\\times 8=40\\)，",
+    "解得：\\(AC=10\\)，",
+    "∴\\(OC=10-4=6\\)，",
+    "∴\\(C\\left ( { -6,0 } \\right )\\)，",
+    "设直线\\(BC\\)的解析式为\\(y=kx+b\\)，把\\(B\\left ( { 0,8 } \\right )\\)，\\(C\\left ( { -6,0 } \\right )\\)代入得：",
+    "\\(\\begin{cases} b=8 \\\\ -6k+b=0 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=8 \\end{cases}\\)，",
+    "∴直线\\(BC\\)的解析式为\\(y=\\frac { 4 } { 3 }x+8\\)；",
+    "【小问2详解】",
+    "解：设直线\\(AE\\)的解析式为\\(y=k'x+b'\\)，把\\(A\\left ( { 4,0 } \\right )\\)，\\(E\\left ( { 0,3 } \\right )\\)代入得：",
+    "\\(\\begin{cases} b'=3 \\\\ 4k'+b'=0 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k'=-\\frac { 3 } { 4 } \\\\ b'=3 \\end{cases}\\)，",
+    "∴直线\\(AE\\)的解析式为\\(y=-\\frac { 3 } { 4 }x+3\\)；",
+    "联立\\(\\begin{cases} y=-\\frac { 3 } { 4 }x+3 \\\\ y=\\frac { 4 } { 3 }x+8 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} x=-\\frac { 12 } { 5 } \\\\ y=\\frac { 24 } { 5 } \\end{cases}\\)，",
+    "∴点F的坐标为\\(\\left ( { -\\frac { 12 } { 5 },\\frac { 24 } { 5 } } \\right )\\)，",
+    "∴\\(CF=\\sqrt[] { \\left ( { -\\frac { 12 } { 5 }+6 } \\right ) ^ { 2 } +\\left ( { \\frac { 24 } { 5 } } \\right ) ^ { 2 } }=6\\)；",
+    "【小问3详解】",
+    "解：根据平移设直线\\(MN\\)的解析式为\\(y=\\frac { 4 } { 3 }x+4n\\)，",
+    "把\\(x=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(y=4n\\)，",
+    "把\\(y=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(0=\\frac { 4 } { 3 }x+4n\\)，解得：\\(x=-3n\\)，",
+    "∴\\(M\\left ( { -3n,0 } \\right )\\)，\\(N\\left ( { 0,4n } \\right )\\)，",
+    "当点P在\\(BC\\)上时，此时是\\(▱MONP\\)，",
+    "∴\\(ON=MP\\)，\\(ON\\parallel MP\\)，",
+    "∴\\(\\angle PMO=\\angle NOA=90{}^\\circ\\)，",
+    "∴\\(PM\\bot x\\)轴，",
+    "把\\(x=-3n\\)代入\\(y=\\frac { 4 } { 3 }x+8\\)得：\\(y=-4n+8\\)，",
+    "∴\\(-4n+8=4n\\)，",
+    "解得：\\(n=1\\)，",
+    "∴\\(P\\left ( { -3,4 } \\right )\\)；",
+    "当点P在\\(AB\\)上时，此时是\\(▱MOPN\\)，",
+    "∴\\(NP=OM=3n\\)，\\(PN\\parallel MO\\)，",
+    "即\\(PN\\parallel x\\)轴，",
+    "∴点N的纵坐标为\\(4n\\)，",
+    "把\\(y=4n\\)代入\\(y=-\\frac { 3 } { 4 }x+3\\)得：\\(4n=-\\frac { 3 } { 4 }x+3\\)，",
+    "解得：\\(x=\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )\\)，",
+    "∴\\(\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )=3n\\)，",
+    "解得：\\(n=\\frac { 32 } { 25 }\\)，",
+    "∴\\(3n=\\frac { 96 } { 25 }\\)，\\(4n=\\frac { 128 } { 25 }\\)，",
+    "∴此时点P的坐标为\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．",
+    "综上分析可知：点P的坐标为：\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线\\(y=-2x+8\\)与x轴交于点A，与y轴交于点B，过点B的直线交x轴的负半轴于点C，且\\(\\vartriangle ABC\\)面积为40．\n〔图1〕",
+      "paper_blocks": [
+        54,
+        55
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-6A80FA5727-Q22-P01",
+      "label": "（1）",
+      "prompt": "求点C的坐标及直线\\(BC\\)的解析式；",
+      "stem_text": "求点C的坐标及直线\\(BC\\)的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=\\frac { 4 } { 3 }x+8\\)",
+      "answer": "\\(y=\\frac { 4 } { 3 }x+8\\)",
+      "given_solution": "解：把\\(x=0\\)代入\\(y=-2x+8\\)得：\\(y=8\\)，\n把\\(y=0\\)代入\\(y=-2x+8\\)得\\(0=-2x+8\\)，解得：\\(x=4\\)，\n∴\\(A\\left ( { 4,0 } \\right )\\)，\\(B\\left ( { 0,8 } \\right )\\)，\n∴\\(OB=8\\)，\\(OA=4\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times OB=\\frac { 1 } { 2 }AC\\times 8=40\\)，\n解得：\\(AC=10\\)，\n∴\\(OC=10-4=6\\)，\n∴\\(C\\left ( { -6,0 } \\right )\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)，把\\(B\\left ( { 0,8 } \\right )\\)，\\(C\\left ( { -6,0 } \\right )\\)代入得：\n\\(\\begin{cases} b=8 \\\\ -6k+b=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=8 \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为\\(y=\\frac { 4 } { 3 }x+8\\)；",
+      "solution_steps": [
+        "解：把\\(x=0\\)代入\\(y=-2x+8\\)得：\\(y=8\\)，",
+        "把\\(y=0\\)代入\\(y=-2x+8\\)得\\(0=-2x+8\\)，解得：\\(x=4\\)，",
+        "∴\\(A\\left ( { 4,0 } \\right )\\)，\\(B\\left ( { 0,8 } \\right )\\)，",
+        "∴\\(OB=8\\)，\\(OA=4\\)，",
+        "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\times OB=\\frac { 1 } { 2 }AC\\times 8=40\\)，",
+        "解得：\\(AC=10\\)，",
+        "∴\\(OC=10-4=6\\)，",
+        "∴\\(C\\left ( { -6,0 } \\right )\\)，",
+        "设直线\\(BC\\)的解析式为\\(y=kx+b\\)，把\\(B\\left ( { 0,8 } \\right )\\)，\\(C\\left ( { -6,0 } \\right )\\)代入得：",
+        "\\(\\begin{cases} b=8 \\\\ -6k+b=0 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k=\\frac { 4 } { 3 } \\\\ b=8 \\end{cases}\\)，",
+        "∴直线\\(BC\\)的解析式为\\(y=\\frac { 4 } { 3 }x+8\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6A80FA5727-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，已知点\\(E\\left ( { 0，3 } \\right )\\)，连接\\(AE\\)并延长与\\(BC\\)交于点F，求线段\\(CF\\)的长度．",
+      "stem_text": "如图2，已知点\\(E\\left ( { 0，3 } \\right )\\)，连接\\(AE\\)并延长与\\(BC\\)交于点F，求线段\\(CF\\)的长度．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "6",
+      "answer": "6",
+      "given_solution": "解：设直线\\(AE\\)的解析式为\\(y=k'x+b'\\)，把\\(A\\left ( { 4,0 } \\right )\\)，\\(E\\left ( { 0,3 } \\right )\\)代入得：\n\\(\\begin{cases} b'=3 \\\\ 4k'+b'=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} k'=-\\frac { 3 } { 4 } \\\\ b'=3 \\end{cases}\\)，\n∴直线\\(AE\\)的解析式为\\(y=-\\frac { 3 } { 4 }x+3\\)；\n联立\\(\\begin{cases} y=-\\frac { 3 } { 4 }x+3 \\\\ y=\\frac { 4 } { 3 }x+8 \\end{cases}\\)，\n解得：\\(\\begin{cases} x=-\\frac { 12 } { 5 } \\\\ y=\\frac { 24 } { 5 } \\end{cases}\\)，\n∴点F的坐标为\\(\\left ( { -\\frac { 12 } { 5 },\\frac { 24 } { 5 } } \\right )\\)，\n∴\\(CF=\\sqrt[] { \\left ( { -\\frac { 12 } { 5 }+6 } \\right ) ^ { 2 } +\\left ( { \\frac { 24 } { 5 } } \\right ) ^ { 2 } }=6\\)；",
+      "solution_steps": [
+        "解：设直线\\(AE\\)的解析式为\\(y=k'x+b'\\)，把\\(A\\left ( { 4,0 } \\right )\\)，\\(E\\left ( { 0,3 } \\right )\\)代入得：",
+        "\\(\\begin{cases} b'=3 \\\\ 4k'+b'=0 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k'=-\\frac { 3 } { 4 } \\\\ b'=3 \\end{cases}\\)，",
+        "∴直线\\(AE\\)的解析式为\\(y=-\\frac { 3 } { 4 }x+3\\)；",
+        "联立\\(\\begin{cases} y=-\\frac { 3 } { 4 }x+3 \\\\ y=\\frac { 4 } { 3 }x+8 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} x=-\\frac { 12 } { 5 } \\\\ y=\\frac { 24 } { 5 } \\end{cases}\\)，",
+        "∴点F的坐标为\\(\\left ( { -\\frac { 12 } { 5 },\\frac { 24 } { 5 } } \\right )\\)，",
+        "∴\\(CF=\\sqrt[] { \\left ( { -\\frac { 12 } { 5 }+6 } \\right ) ^ { 2 } +\\left ( { \\frac { 24 } { 5 } } \\right ) ^ { 2 } }=6\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          57
+        ],
+        "solution_block_ids": [
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6A80FA5727-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，将直线\\(BC\\)向右平移\\(m\\left ( { 0 < m < 6 } \\right )\\)个单位，交x轴于点M，交y轴于点N，在直线\\(AB\\)或\\(BC\\)上是否存在一点P，使得以点M，N，O，P为顶点的四边形为平行四边形？若存在，请直接写出点P的坐标；若不存在，请说明理由．",
+      "stem_text": "如图3，将直线\\(BC\\)向右平移\\(m\\left ( { 0 < m < 6 } \\right )\\)个单位，交x轴于点M，交y轴于点N，在直线\\(AB\\)或\\(BC\\)上是否存在一点P，使得以点M，N，O，P为顶点的四边形为平行四边形？若存在，请直接写出点P的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)",
+      "answer": "\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)",
+      "given_solution": "解：根据平移设直线\\(MN\\)的解析式为\\(y=\\frac { 4 } { 3 }x+4n\\)，\n把\\(x=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(y=4n\\)，\n把\\(y=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(0=\\frac { 4 } { 3 }x+4n\\)，解得：\\(x=-3n\\)，\n∴\\(M\\left ( { -3n,0 } \\right )\\)，\\(N\\left ( { 0,4n } \\right )\\)，\n当点P在\\(BC\\)上时，此时是\\(▱MONP\\)，\n∴\\(ON=MP\\)，\\(ON\\parallel MP\\)，\n∴\\(\\angle PMO=\\angle NOA=90{}^\\circ\\)，\n∴\\(PM\\bot x\\)轴，\n把\\(x=-3n\\)代入\\(y=\\frac { 4 } { 3 }x+8\\)得：\\(y=-4n+8\\)，\n∴\\(-4n+8=4n\\)，\n解得：\\(n=1\\)，\n∴\\(P\\left ( { -3,4 } \\right )\\)；\n当点P在\\(AB\\)上时，此时是\\(▱MOPN\\)，\n∴\\(NP=OM=3n\\)，\\(PN\\parallel MO\\)，\n即\\(PN\\parallel x\\)轴，\n∴点N的纵坐标为\\(4n\\)，\n把\\(y=4n\\)代入\\(y=-\\frac { 3 } { 4 }x+3\\)得：\\(4n=-\\frac { 3 } { 4 }x+3\\)，\n解得：\\(x=\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )\\)，\n∴\\(\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )=3n\\)，\n解得：\\(n=\\frac { 32 } { 25 }\\)，\n∴\\(3n=\\frac { 96 } { 25 }\\)，\\(4n=\\frac { 128 } { 25 }\\)，\n∴此时点P的坐标为\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．\n综上分析可知：点P的坐标为：\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．",
+      "solution_steps": [
+        "解：根据平移设直线\\(MN\\)的解析式为\\(y=\\frac { 4 } { 3 }x+4n\\)，",
+        "把\\(x=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(y=4n\\)，",
+        "把\\(y=0\\)代入\\(y=\\frac { 4 } { 3 }x+4n\\)得：\\(0=\\frac { 4 } { 3 }x+4n\\)，解得：\\(x=-3n\\)，",
+        "∴\\(M\\left ( { -3n,0 } \\right )\\)，\\(N\\left ( { 0,4n } \\right )\\)，",
+        "当点P在\\(BC\\)上时，此时是\\(▱MONP\\)，",
+        "∴\\(ON=MP\\)，\\(ON\\parallel MP\\)，",
+        "∴\\(\\angle PMO=\\angle NOA=90{}^\\circ\\)，",
+        "∴\\(PM\\bot x\\)轴，",
+        "把\\(x=-3n\\)代入\\(y=\\frac { 4 } { 3 }x+8\\)得：\\(y=-4n+8\\)，",
+        "∴\\(-4n+8=4n\\)，",
+        "解得：\\(n=1\\)，",
+        "∴\\(P\\left ( { -3,4 } \\right )\\)；",
+        "当点P在\\(AB\\)上时，此时是\\(▱MOPN\\)，",
+        "∴\\(NP=OM=3n\\)，\\(PN\\parallel MO\\)，",
+        "即\\(PN\\parallel x\\)轴，",
+        "∴点N的纵坐标为\\(4n\\)，",
+        "把\\(y=4n\\)代入\\(y=-\\frac { 3 } { 4 }x+3\\)得：\\(4n=-\\frac { 3 } { 4 }x+3\\)，",
+        "解得：\\(x=\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )\\)，",
+        "∴\\(\\frac { 4 } { 3 }\\left ( { 8-4n } \\right )=3n\\)，",
+        "解得：\\(n=\\frac { 32 } { 25 }\\)，",
+        "∴\\(3n=\\frac { 96 } { 25 }\\)，\\(4n=\\frac { 128 } { 25 }\\)，",
+        "∴此时点P的坐标为\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．",
+        "综上分析可知：点P的坐标为：\\(\\left ( { -3,4 } \\right )\\)或\\(\\left ( { \\frac { 96 } { 25 }，\\frac { 128 } { 25 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          58
+        ],
+        "solution_block_ids": [
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      54,
+      58
+    ],
+    "solution_body_blocks": [
+      354,
+      411
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6A80FA5727/paper-q22-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          475.0,
+          583.64,
+          759.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6A80FA5727/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          475.45,
+          583.64,
+          743.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          725.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          369.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G04.04",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G04.04.01",
+    "E.G09.02.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+  "tag_source": "小问标签汇总"
+}

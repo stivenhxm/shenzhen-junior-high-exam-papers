@@ -15,7 +15,7 @@
     "exam_type": {"type": "string"},
     "question_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string"}},
     "sources": {
-      "type": "object", "required": ["paper", "solution"],
+      "type": "object", "required": ["paper"],
       "properties": {"paper": {"$ref": "#/$defs/document"}, "solution": {"$ref": "#/$defs/document"}}
     }
   },

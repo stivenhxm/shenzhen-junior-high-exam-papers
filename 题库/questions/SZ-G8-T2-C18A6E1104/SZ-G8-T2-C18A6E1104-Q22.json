@@ -1,0 +1,579 @@
+{
+  "id": "SZ-G8-T2-C18A6E1104-Q22",
+  "paper_id": "SZ-G8-T2-C18A6E1104",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、应用等腰三角形性质求边角",
+  "stem": "【问题感知】（1）如图1，在四边形\\(ABCD\\)中，\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，且\\(AD=CD\\)，①请直接写出\\(AB\\)、\\(BC\\)、\\(BD\\)的数量关系：          ；\n②证明：\\(BD\\)平分\\(\\angle ABC\\)；\n【迁移应用】（2）如图2，四边形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(\\angle ADC=120{}^\\circ\\)，\\(BE\\bot AD\\)，\\(AB=BC=\\sqrt[] { 13 }\\)，\\(CD=1\\)，计算\\(BE\\)的长度；\n【拓展研究】（3）如图3，正方形\\(ABCD\\)中，E为\\(BC\\)边上一点，连接\\(AE\\)，F为\\(AE\\)边上一点，且\\(AF=BC\\)，\\(FG\\)垂直\\(DF\\)交\\(AB\\)于点G，\\(EF=2\\)，\\(AG=5\\)，直接写出正方形的边长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/bc/bc2b88918e51339077aedc1766d75e083373bbc02e1d88cd5b25483851b66752.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(AB+BC=\\sqrt[] { 2 }BD\\)；②见解析；（2）\\(2\\sqrt[] { 3 }\\)；（3）\\(2\\sqrt[] { 5 }+5\\)",
+  "answer": "（1）①\\(AB+BC=\\sqrt[] { 2 }BD\\)；②见解析；（2）\\(2\\sqrt[] { 3 }\\)；（3）\\(2\\sqrt[] { 5 }+5\\)",
+  "given_solution": "【分析】（1）①延长\\(BC\\)使\\(CE=AB\\)，连接\\(DE\\)，证明\\(\\vartriangle DAB≌\\vartriangle DCE\\)，得出\\(BD=DE,\\angle ADB=\\angle CDE\\)，证出\\(\\angle BDE=90{}^\\circ\\)，在\\(Rt\\vartriangle BDE\\)中，根据勾股定理即可求解；\n②将\\(\\vartriangle DAB\\)绕点\\(D\\)逆时针旋转\\(90{}^\\circ\\)至\\(\\vartriangle DCE\\)，证明\\(B\\)、\\(C\\)、\\(E\\)三点共线，证出\\(\\vartriangle BDE\\)是等腰直角三角形，得出\\(\\angle DBC=\\angle DEC=\\angle DBA=45{}^\\circ\\)，即可证明；\n（2）连接\\(BD\\)，将\\(\\vartriangle BCD\\)绕点\\(D\\)逆时针旋转\\(60{}^\\circ\\)至\\(\\vartriangle BAD'\\)，根据旋转的性质得出\\(AD'=CD=1,BD'=BD,\\angle D'BA=\\angle DBC\\)，证明\\(B\\)、\\(D\\)、\\(D'\\)三点共线，从而证出\\(\\vartriangle BDD'\\)是等边三角形，根据等边三角形性质得出，\\(BE\\)平分\\(\\angle D'BE\\)，得出\\(\\angle D'BE=30{}^\\circ\\)，根据直角三角形的性质和勾股定理得出\\(BE=\\sqrt[] { 3 }D'E\\)，设\\(AE=x\\)则\\(BE=\\sqrt[] { 3 }(1+x)\\)，在\\(Rt\\vartriangle ABE\\)中，根据勾股定理列方程求解即可；\n（3）过点\\(B\\)作\\(BM\\bot GF\\)交\\(GF\\)于点\\(M\\)，作\\(BN\\bot FH\\)交\\(FH\\)于点\\(N\\)，根据四边形\\(ABCD\\)是正方形，得出\\(\\angle BAD=\\angle ABC=90{}^\\circ ,AD=AB=BC,AD\\parallel BC\\)，从而得出\\(\\angle 1=\\angle 5\\)，结合\\(AF=BC\\)，得出\\(\\angle 1=\\angle 2,AD=AF=AB\\)，\\(\\angle AFB=\\angle ABF,\\angle 1=\\angle 2=\\angle 5=\\angle 6=\\angle 7\\)，即可得出\\(EH=EF=2\\)，根据\\(\\angle 1+\\angle 3=180{}^\\circ ,\\angle 3+\\angle 4=180{}^\\circ\\)，得出\\(\\angle 1=\\angle 4=\\angle 2=\\angle 7\\)，证出\\(\\angle 9=\\angle 8\\)，\\(\\angle 10=\\angle 11\\)，即可得\\(BM=MF\\)，证出四边形\\(BNFM\\)是正方形，得出\\(BM=BN\\)，证明\\(\\vartriangle BGM≌\\vartriangle BHN\\)，得出\\(BG=BH\\)，设\\(BG=BH=a\\)，则\\(BE=a+2\\)，\\(AF=a+5,AE=a+7\\)，在\\(Rt\\vartriangle ABE\\)中，根据勾股定理求出\\(a=2\\sqrt[] { 5 }\\)，即可求解；\n【详解】解：（1）①\\(BC+AB=\\sqrt[] { 2 }BD\\)，\n证明：延长\\(BC\\)使\\(CE=AB\\)，连接\\(DE\\)，\n〔图2〕\n则\\(\\angle BCD+\\angle DCE=180{}^\\circ\\)，\n∵\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，\n∴\\(\\angle DAB=\\angle DCE\\)，\n∵\\(AD=DC,AB=CE,\\angle DAB=\\angle DCE\\)，\n∴\\(\\vartriangle DAB≌\\vartriangle DCE\\left ( { SAS } \\right )\\)，\n∴\\(BD=DE,\\angle ADB=\\angle CDE\\)，\n∴\\(\\angle BDE=\\angle BDC+\\angle CDE=\\angle BDC+\\angle ADB=90{}^\\circ\\)，\n在\\(Rt\\vartriangle BDE\\)中，\\(BD ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } =\\left ( { BC+CE } \\right ) ^ { 2 }\\)，\n∴\\(2BD ^ { 2 } =\\left ( { BC+AB } \\right ) ^ { 2 }\\)，\n∴\\(BC+AB=\\sqrt[] { 2 }BD\\)；\n②证明：将\\(\\vartriangle DAB\\)绕点\\(D\\)逆时针旋转\\(90{}^\\circ\\)至\\(\\vartriangle DCE\\)，\n\\(\\therefore \\angle DCB+\\angle DCE=\\angle DCB+\\angle DAB=180{}^\\circ\\)，\n∴\\(B\\)、\\(C\\)、\\(E\\)三点共线，\n\\(\\because \\angle ADB+\\angle BDC=\\angle CDE+\\angle BDC=90{}^\\circ ,BD=CD\\)，\n∴\\(\\vartriangle BDE\\)是等腰直角三角形，\n\\(\\therefore \\angle DBC=\\angle DEC=\\angle DBA=45{}^\\circ\\)，\n∴\\(BD\\)平分\\(\\angle ABC\\)；\n（2）解：连接\\(BD\\)，将\\(\\vartriangle BCD\\)绕点\\(D\\)逆时针旋转\\(60{}^\\circ\\)至\\(\\vartriangle BAD'\\)，\n〔图3〕\n\\(\\therefore AD'=CD=1,BD'=BD,\\angle D'BA=\\angle DBC\\)，\n在四边形\\(ABCD\\)中，\\(\\angle BAC+\\angle ABC+\\angle BCD+\\angle ADC=360{}^\\circ\\)，\n\\(\\therefore \\angle BAD+\\angle BAD'=\\angle BAD+\\angle BCD=180{}^\\circ\\)，\n∴\\(B\\)、\\(D\\)、\\(D'\\)三点共线，\n又\\(\\angle ABD'+\\angle ABD=\\angle BCD+\\angle ABD=60{}^\\circ ,BD=BD\\)，\n所以\\(\\vartriangle BDD'\\)是等边三角形，\n\\(\\because BE\\bot AD\\)，\n∴\\(BE\\)平分\\(\\angle D'BE\\)，\n\\(\\therefore \\angle D'BE=30{}^\\circ\\)，\n\\(\\therefore 2D'E=BD',BE=\\sqrt[] { {BD'}^ { 2 } -D'E ^ { 2 } }=\\sqrt[] { 3 }D'E\\)，\n设\\(AE=x\\)则\\(BE=\\sqrt[] { 3 }\\left ( { AD'+AE } \\right )=\\sqrt[] { 3 }(1+x)\\)，\n在\\(Rt\\vartriangle ABE\\)中，\\(AE ^ { 2 } +BE ^ { 2 } =AB ^ { 2 }\\)，\n则\\(x ^ { 2 } +[\\sqrt[] { 3 }(1+x)] ^ { 2 } =13\\)，\n解得\\(x_{ 1 } =1,x_{ 2 } =-\\frac { 5 } { 2 }\\)(舍)，\n\\(\\therefore AE=1\\)，\n\\(\\therefore BE=2\\sqrt[] { 3 }\\)；\n（3）解：过点\\(B\\)作\\(BM\\bot GF\\)交\\(GF\\)于点\\(M\\)，作\\(BN\\bot FH\\)交\\(FH\\)于点\\(N\\)，\n〔图4〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle BAD=\\angle ABC=90{}^\\circ ,AD=AB=BC,AD\\parallel BC\\)，\n∴\\(\\angle 1=\\angle 5\\)，\n∵\\(AF=BC\\)，\n∴\\(AD=AF\\)，\n∴\\(\\angle 1=\\angle 2,AD=AF=AB\\)，\n∴\\(\\angle AFB=\\angle ABF,\\angle 1=\\angle 2=\\angle 5=\\angle 6=\\angle 7\\)，\n∴\\(EH=EF=2\\)，\n∵\\(\\angle GAD=\\angle GFD=90{}^\\circ\\)，\n∴\\(\\angle 1+\\angle 3=180{}^\\circ ,\\angle 3+\\angle 4=180{}^\\circ\\)，\n∴\\(\\angle 1=\\angle 4=\\angle 2=\\angle 7\\)，\n∵\\(\\angle 2+\\angle 9=\\angle 8+\\angle 4=90{}^\\circ\\)，\n∴\\(\\angle 9=\\angle 8\\)，\n∵\\(\\angle AFB=\\angle ABF\\)，\n∴\\(\\angle ABF-\\angle 8=\\angle AFB-\\angle 9\\)，\n∴\\(\\angle 10=\\angle 11\\)，\n∴\\(BM=MF\\)，\n又∵\\(\\angle BMF=\\angle N=\\angle MFN=90{}^\\circ\\)，\n∴四边形\\(BNFM\\)是正方形，\n∴\\(BM=BN\\)，\n∵\\(BM=BN,\\angle 4=\\angle 7,\\angle GMB=\\angle N=90{}^\\circ\\)，\n∴\\(\\vartriangle BGM≌\\vartriangle BHN\\left ( { AAS } \\right )\\)，\n∴\\(BG=BH\\)，\n设\\(BG=BH=a\\)，\n∴\\(BE=a+2\\)，\n∴\\(AB=AF=a+5,AE=a+5+2=a+7\\)，\n在\\(Rt\\vartriangle ABE\\)中，\\(AB ^ { 2 } +BE ^ { 2 } =AE ^ { 2 }\\)，\n故\\(\\left ( { a+5 } \\right ) ^ { 2 } +a ^ { 2 } =\\left ( { a+7 } \\right ) ^ { 2 }\\)，\n解得：\\(a=2\\sqrt[] { 5 }\\)，\n则正方形\\(ABCD\\)的边长\\(AB=2\\sqrt[] { 5 }+5\\)．\n【点睛】该题主要考查了正方形的性质和判定，勾股定理，全等三角形的性质和判定，旋转的性质，等腰三角形的性质和判定，等边三角形的性质和判定，直角三角形的性质等知识点，解题的关键是正确作出辅助线．",
+  "given_solution_figures": [
+    "assets/figures/bc/bc2b88918e51339077aedc1766d75e083373bbc02e1d88cd5b25483851b66752.png",
+    "assets/figures/6d/6d249f8164fd1c6e3074486396da25318ba6ef6ce9ac83e9a39fc3a45573849f.png",
+    "assets/figures/c3/c38cd6414465fe0e32bfcf2553890f50a9a2436d83cb646cc61d5334b6963ae3.png",
+    "assets/figures/9a/9ad773c048ac8fe3f87bf8868f235f068afd4d015ed86ad79fd6efc0bd870093.png"
+  ],
+  "solution": "解：（1）①\\(BC+AB=\\sqrt[] { 2 }BD\\)，\n证明：延长\\(BC\\)使\\(CE=AB\\)，连接\\(DE\\)，\n〔图2〕\n则\\(\\angle BCD+\\angle DCE=180{}^\\circ\\)，\n∵\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，\n∴\\(\\angle DAB=\\angle DCE\\)，\n∵\\(AD=DC,AB=CE,\\angle DAB=\\angle DCE\\)，\n∴\\(\\vartriangle DAB≌\\vartriangle DCE\\left ( { SAS } \\right )\\)，\n∴\\(BD=DE,\\angle ADB=\\angle CDE\\)，\n∴\\(\\angle BDE=\\angle BDC+\\angle CDE=\\angle BDC+\\angle ADB=90{}^\\circ\\)，\n在\\(Rt\\vartriangle BDE\\)中，\\(BD ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } =\\left ( { BC+CE } \\right ) ^ { 2 }\\)，\n∴\\(2BD ^ { 2 } =\\left ( { BC+AB } \\right ) ^ { 2 }\\)，\n∴\\(BC+AB=\\sqrt[] { 2 }BD\\)；\n②证明：将\\(\\vartriangle DAB\\)绕点\\(D\\)逆时针旋转\\(90{}^\\circ\\)至\\(\\vartriangle DCE\\)，\n\\(\\therefore \\angle DCB+\\angle DCE=\\angle DCB+\\angle DAB=180{}^\\circ\\)，\n∴\\(B\\)、\\(C\\)、\\(E\\)三点共线，\n\\(\\because \\angle ADB+\\angle BDC=\\angle CDE+\\angle BDC=90{}^\\circ ,BD=CD\\)，\n∴\\(\\vartriangle BDE\\)是等腰直角三角形，\n\\(\\therefore \\angle DBC=\\angle DEC=\\angle DBA=45{}^\\circ\\)，\n∴\\(BD\\)平分\\(\\angle ABC\\)；\n（2）解：连接\\(BD\\)，将\\(\\vartriangle BCD\\)绕点\\(D\\)逆时针旋转\\(60{}^\\circ\\)至\\(\\vartriangle BAD'\\)，\n〔图3〕\n\\(\\therefore AD'=CD=1,BD'=BD,\\angle D'BA=\\angle DBC\\)，\n在四边形\\(ABCD\\)中，\\(\\angle BAC+\\angle ABC+\\angle BCD+\\angle ADC=360{}^\\circ\\)，\n\\(\\therefore \\angle BAD+\\angle BAD'=\\angle BAD+\\angle BCD=180{}^\\circ\\)，\n∴\\(B\\)、\\(D\\)、\\(D'\\)三点共线，\n又\\(\\angle ABD'+\\angle ABD=\\angle BCD+\\angle ABD=60{}^\\circ ,BD=BD\\)，\n所以\\(\\vartriangle BDD'\\)是等边三角形，\n\\(\\because BE\\bot AD\\)，\n∴\\(BE\\)平分\\(\\angle D'BE\\)，\n\\(\\therefore \\angle D'BE=30{}^\\circ\\)，\n\\(\\therefore 2D'E=BD',BE=\\sqrt[] { {BD'}^ { 2 } -D'E ^ { 2 } }=\\sqrt[] { 3 }D'E\\)，\n设\\(AE=x\\)则\\(BE=\\sqrt[] { 3 }\\left ( { AD'+AE } \\right )=\\sqrt[] { 3 }(1+x)\\)，\n在\\(Rt\\vartriangle ABE\\)中，\\(AE ^ { 2 } +BE ^ { 2 } =AB ^ { 2 }\\)，\n则\\(x ^ { 2 } +[\\sqrt[] { 3 }(1+x)] ^ { 2 } =13\\)，\n解得\\(x_{ 1 } =1,x_{ 2 } =-\\frac { 5 } { 2 }\\)(舍)，\n\\(\\therefore AE=1\\)，\n\\(\\therefore BE=2\\sqrt[] { 3 }\\)；\n（3）解：过点\\(B\\)作\\(BM\\bot GF\\)交\\(GF\\)于点\\(M\\)，作\\(BN\\bot FH\\)交\\(FH\\)于点\\(N\\)，\n〔图4〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle BAD=\\angle ABC=90{}^\\circ ,AD=AB=BC,AD\\parallel BC\\)，\n∴\\(\\angle 1=\\angle 5\\)，\n∵\\(AF=BC\\)，\n∴\\(AD=AF\\)，\n∴\\(\\angle 1=\\angle 2,AD=AF=AB\\)，\n∴\\(\\angle AFB=\\angle ABF,\\angle 1=\\angle 2=\\angle 5=\\angle 6=\\angle 7\\)，\n∴\\(EH=EF=2\\)，\n∵\\(\\angle GAD=\\angle GFD=90{}^\\circ\\)，\n∴\\(\\angle 1+\\angle 3=180{}^\\circ ,\\angle 3+\\angle 4=180{}^\\circ\\)，\n∴\\(\\angle 1=\\angle 4=\\angle 2=\\angle 7\\)，\n∵\\(\\angle 2+\\angle 9=\\angle 8+\\angle 4=90{}^\\circ\\)，\n∴\\(\\angle 9=\\angle 8\\)，\n∵\\(\\angle AFB=\\angle ABF\\)，\n∴\\(\\angle ABF-\\angle 8=\\angle AFB-\\angle 9\\)，\n∴\\(\\angle 10=\\angle 11\\)，\n∴\\(BM=MF\\)，\n又∵\\(\\angle BMF=\\angle N=\\angle MFN=90{}^\\circ\\)，\n∴四边形\\(BNFM\\)是正方形，\n∴\\(BM=BN\\)，\n∵\\(BM=BN,\\angle 4=\\angle 7,\\angle GMB=\\angle N=90{}^\\circ\\)，\n∴\\(\\vartriangle BGM≌\\vartriangle BHN\\left ( { AAS } \\right )\\)，\n∴\\(BG=BH\\)，\n设\\(BG=BH=a\\)，\n∴\\(BE=a+2\\)，\n∴\\(AB=AF=a+5,AE=a+5+2=a+7\\)，\n在\\(Rt\\vartriangle ABE\\)中，\\(AB ^ { 2 } +BE ^ { 2 } =AE ^ { 2 }\\)，\n故\\(\\left ( { a+5 } \\right ) ^ { 2 } +a ^ { 2 } =\\left ( { a+7 } \\right ) ^ { 2 }\\)，\n解得：\\(a=2\\sqrt[] { 5 }\\)，\n则正方形\\(ABCD\\)的边长\\(AB=2\\sqrt[] { 5 }+5\\)．",
+  "solution_steps": [
+    "解：（1）①\\(BC+AB=\\sqrt[] { 2 }BD\\)，",
+    "证明：延长\\(BC\\)使\\(CE=AB\\)，连接\\(DE\\)，",
+    "〔图2〕",
+    "则\\(\\angle BCD+\\angle DCE=180{}^\\circ\\)，",
+    "∵\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，",
+    "∴\\(\\angle DAB=\\angle DCE\\)，",
+    "∵\\(AD=DC,AB=CE,\\angle DAB=\\angle DCE\\)，",
+    "∴\\(\\vartriangle DAB≌\\vartriangle DCE\\left ( { SAS } \\right )\\)，",
+    "∴\\(BD=DE,\\angle ADB=\\angle CDE\\)，",
+    "∴\\(\\angle BDE=\\angle BDC+\\angle CDE=\\angle BDC+\\angle ADB=90{}^\\circ\\)，",
+    "在\\(Rt\\vartriangle BDE\\)中，\\(BD ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } =\\left ( { BC+CE } \\right ) ^ { 2 }\\)，",
+    "∴\\(2BD ^ { 2 } =\\left ( { BC+AB } \\right ) ^ { 2 }\\)，",
+    "∴\\(BC+AB=\\sqrt[] { 2 }BD\\)；",
+    "②证明：将\\(\\vartriangle DAB\\)绕点\\(D\\)逆时针旋转\\(90{}^\\circ\\)至\\(\\vartriangle DCE\\)，",
+    "\\(\\therefore \\angle DCB+\\angle DCE=\\angle DCB+\\angle DAB=180{}^\\circ\\)，",
+    "∴\\(B\\)、\\(C\\)、\\(E\\)三点共线，",
+    "\\(\\because \\angle ADB+\\angle BDC=\\angle CDE+\\angle BDC=90{}^\\circ ,BD=CD\\)，",
+    "∴\\(\\vartriangle BDE\\)是等腰直角三角形，",
+    "\\(\\therefore \\angle DBC=\\angle DEC=\\angle DBA=45{}^\\circ\\)，",
+    "∴\\(BD\\)平分\\(\\angle ABC\\)；",
+    "（2）解：连接\\(BD\\)，将\\(\\vartriangle BCD\\)绕点\\(D\\)逆时针旋转\\(60{}^\\circ\\)至\\(\\vartriangle BAD'\\)，",
+    "〔图3〕",
+    "\\(\\therefore AD'=CD=1,BD'=BD,\\angle D'BA=\\angle DBC\\)，",
+    "在四边形\\(ABCD\\)中，\\(\\angle BAC+\\angle ABC+\\angle BCD+\\angle ADC=360{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAD+\\angle BAD'=\\angle BAD+\\angle BCD=180{}^\\circ\\)，",
+    "∴\\(B\\)、\\(D\\)、\\(D'\\)三点共线，",
+    "又\\(\\angle ABD'+\\angle ABD=\\angle BCD+\\angle ABD=60{}^\\circ ,BD=BD\\)，",
+    "所以\\(\\vartriangle BDD'\\)是等边三角形，",
+    "\\(\\because BE\\bot AD\\)，",
+    "∴\\(BE\\)平分\\(\\angle D'BE\\)，",
+    "\\(\\therefore \\angle D'BE=30{}^\\circ\\)，",
+    "\\(\\therefore 2D'E=BD',BE=\\sqrt[] { {BD'}^ { 2 } -D'E ^ { 2 } }=\\sqrt[] { 3 }D'E\\)，",
+    "设\\(AE=x\\)则\\(BE=\\sqrt[] { 3 }\\left ( { AD'+AE } \\right )=\\sqrt[] { 3 }(1+x)\\)，",
+    "在\\(Rt\\vartriangle ABE\\)中，\\(AE ^ { 2 } +BE ^ { 2 } =AB ^ { 2 }\\)，",
+    "则\\(x ^ { 2 } +[\\sqrt[] { 3 }(1+x)] ^ { 2 } =13\\)，",
+    "解得\\(x_{ 1 } =1,x_{ 2 } =-\\frac { 5 } { 2 }\\)(舍)，",
+    "\\(\\therefore AE=1\\)，",
+    "\\(\\therefore BE=2\\sqrt[] { 3 }\\)；",
+    "（3）解：过点\\(B\\)作\\(BM\\bot GF\\)交\\(GF\\)于点\\(M\\)，作\\(BN\\bot FH\\)交\\(FH\\)于点\\(N\\)，",
+    "〔图4〕",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(\\angle BAD=\\angle ABC=90{}^\\circ ,AD=AB=BC,AD\\parallel BC\\)，",
+    "∴\\(\\angle 1=\\angle 5\\)，",
+    "∵\\(AF=BC\\)，",
+    "∴\\(AD=AF\\)，",
+    "∴\\(\\angle 1=\\angle 2,AD=AF=AB\\)，",
+    "∴\\(\\angle AFB=\\angle ABF,\\angle 1=\\angle 2=\\angle 5=\\angle 6=\\angle 7\\)，",
+    "∴\\(EH=EF=2\\)，",
+    "∵\\(\\angle GAD=\\angle GFD=90{}^\\circ\\)，",
+    "∴\\(\\angle 1+\\angle 3=180{}^\\circ ,\\angle 3+\\angle 4=180{}^\\circ\\)，",
+    "∴\\(\\angle 1=\\angle 4=\\angle 2=\\angle 7\\)，",
+    "∵\\(\\angle 2+\\angle 9=\\angle 8+\\angle 4=90{}^\\circ\\)，",
+    "∴\\(\\angle 9=\\angle 8\\)，",
+    "∵\\(\\angle AFB=\\angle ABF\\)，",
+    "∴\\(\\angle ABF-\\angle 8=\\angle AFB-\\angle 9\\)，",
+    "∴\\(\\angle 10=\\angle 11\\)，",
+    "∴\\(BM=MF\\)，",
+    "又∵\\(\\angle BMF=\\angle N=\\angle MFN=90{}^\\circ\\)，",
+    "∴四边形\\(BNFM\\)是正方形，",
+    "∴\\(BM=BN\\)，",
+    "∵\\(BM=BN,\\angle 4=\\angle 7,\\angle GMB=\\angle N=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle BGM≌\\vartriangle BHN\\left ( { AAS } \\right )\\)，",
+    "∴\\(BG=BH\\)，",
+    "设\\(BG=BH=a\\)，",
+    "∴\\(BE=a+2\\)，",
+    "∴\\(AB=AF=a+5,AE=a+5+2=a+7\\)，",
+    "在\\(Rt\\vartriangle ABE\\)中，\\(AB ^ { 2 } +BE ^ { 2 } =AE ^ { 2 }\\)，",
+    "故\\(\\left ( { a+5 } \\right ) ^ { 2 } +a ^ { 2 } =\\left ( { a+7 } \\right ) ^ { 2 }\\)，",
+    "解得：\\(a=2\\sqrt[] { 5 }\\)，",
+    "则正方形\\(ABCD\\)的边长\\(AB=2\\sqrt[] { 5 }+5\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题感知】",
+      "paper_blocks": [
+        67
+      ]
+    },
+    {
+      "id": "fig-71",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        71
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图1，在四边形\\(ABCD\\)中，\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，且\\(AD=CD\\)，",
+      "paper_blocks": [
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-C18A6E1104-Q22-P01",
+      "label": "（1）①",
+      "prompt": "请直接写出\\(AB\\)、\\(BC\\)、\\(BD\\)的数量关系：          ；",
+      "stem_text": "请直接写出\\(AB\\)、\\(BC\\)、\\(BD\\)的数量关系：          ；",
+      "material_ids": [
+        "context",
+        "fig-71",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(AB+BC=\\sqrt[] { 2 }BD\\)；",
+      "answer": "\\(AB+BC=\\sqrt[] { 2 }BD\\)；",
+      "given_solution": "\\(BC+AB=\\sqrt[] { 2 }BD\\)，\n证明：延长\\(BC\\)使\\(CE=AB\\)，连接\\(DE\\)，\n〔图2〕\n则\\(\\angle BCD+\\angle DCE=180{}^\\circ\\)，\n∵\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，\n∴\\(\\angle DAB=\\angle DCE\\)，\n∵\\(AD=DC,AB=CE,\\angle DAB=\\angle DCE\\)，\n∴\\(\\vartriangle DAB≌\\vartriangle DCE\\left ( { SAS } \\right )\\)，\n∴\\(BD=DE,\\angle ADB=\\angle CDE\\)，\n∴\\(\\angle BDE=\\angle BDC+\\angle CDE=\\angle BDC+\\angle ADB=90{}^\\circ\\)，\n在\\(Rt\\vartriangle BDE\\)中，\\(BD ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } =\\left ( { BC+CE } \\right ) ^ { 2 }\\)，\n∴\\(2BD ^ { 2 } =\\left ( { BC+AB } \\right ) ^ { 2 }\\)，\n∴\\(BC+AB=\\sqrt[] { 2 }BD\\)；",
+      "solution_steps": [
+        "\\(BC+AB=\\sqrt[] { 2 }BD\\)，",
+        "证明：延长\\(BC\\)使\\(CE=AB\\)，连接\\(DE\\)，",
+        "〔图2〕",
+        "则\\(\\angle BCD+\\angle DCE=180{}^\\circ\\)，",
+        "∵\\(\\angle ABC=\\angle ADC=90{}^\\circ ,\\angle A+\\angle C=180{}^\\circ\\)，",
+        "∴\\(\\angle DAB=\\angle DCE\\)，",
+        "∵\\(AD=DC,AB=CE,\\angle DAB=\\angle DCE\\)，",
+        "∴\\(\\vartriangle DAB≌\\vartriangle DCE\\left ( { SAS } \\right )\\)，",
+        "∴\\(BD=DE,\\angle ADB=\\angle CDE\\)，",
+        "∴\\(\\angle BDE=\\angle BDC+\\angle CDE=\\angle BDC+\\angle ADB=90{}^\\circ\\)，",
+        "在\\(Rt\\vartriangle BDE\\)中，\\(BD ^ { 2 } +DE ^ { 2 } =BE ^ { 2 } =\\left ( { BC+CE } \\right ) ^ { 2 }\\)，",
+        "∴\\(2BD ^ { 2 } =\\left ( { BC+AB } \\right ) ^ { 2 }\\)，",
+        "∴\\(BC+AB=\\sqrt[] { 2 }BD\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          71
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C18A6E1104-Q22-P02",
+      "label": "（1）②",
+      "prompt": "证明：\\(BD\\)平分\\(\\angle ABC\\)；\n【迁移应用】",
+      "stem_text": "证明：\\(BD\\)平分\\(\\angle ABC\\)；\n【迁移应用】",
+      "material_ids": [
+        "context",
+        "fig-71",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：将\\(\\vartriangle DAB\\)绕点\\(D\\)逆时针旋转\\(90{}^\\circ\\)至\\(\\vartriangle DCE\\)，\n\\(\\therefore \\angle DCB+\\angle DCE=\\angle DCB+\\angle DAB=180{}^\\circ\\)，\n∴\\(B\\)、\\(C\\)、\\(E\\)三点共线，\n\\(\\because \\angle ADB+\\angle BDC=\\angle CDE+\\angle BDC=90{}^\\circ ,BD=CD\\)，\n∴\\(\\vartriangle BDE\\)是等腰直角三角形，\n\\(\\therefore \\angle DBC=\\angle DEC=\\angle DBA=45{}^\\circ\\)，\n∴\\(BD\\)平分\\(\\angle ABC\\)；",
+      "solution_steps": [
+        "证明：将\\(\\vartriangle DAB\\)绕点\\(D\\)逆时针旋转\\(90{}^\\circ\\)至\\(\\vartriangle DCE\\)，",
+        "\\(\\therefore \\angle DCB+\\angle DCE=\\angle DCB+\\angle DAB=180{}^\\circ\\)，",
+        "∴\\(B\\)、\\(C\\)、\\(E\\)三点共线，",
+        "\\(\\because \\angle ADB+\\angle BDC=\\angle CDE+\\angle BDC=90{}^\\circ ,BD=CD\\)，",
+        "∴\\(\\vartriangle BDE\\)是等腰直角三角形，",
+        "\\(\\therefore \\angle DBC=\\angle DEC=\\angle DBA=45{}^\\circ\\)，",
+        "∴\\(BD\\)平分\\(\\angle ABC\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C18A6E1104-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图2，四边形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(\\angle ADC=120{}^\\circ\\)，\\(BE\\bot AD\\)，\\(AB=BC=\\sqrt[] { 13 }\\)，\\(CD=1\\)，计算\\(BE\\)的长度；\n【拓展研究】",
+      "stem_text": "如图2，四边形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(\\angle ADC=120{}^\\circ\\)，\\(BE\\bot AD\\)，\\(AB=BC=\\sqrt[] { 13 }\\)，\\(CD=1\\)，计算\\(BE\\)的长度；\n【拓展研究】",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }\\)；",
+      "answer": "\\(2\\sqrt[] { 3 }\\)；",
+      "given_solution": "解：连接\\(BD\\)，将\\(\\vartriangle BCD\\)绕点\\(D\\)逆时针旋转\\(60{}^\\circ\\)至\\(\\vartriangle BAD'\\)，\n〔图3〕\n\\(\\therefore AD'=CD=1,BD'=BD,\\angle D'BA=\\angle DBC\\)，\n在四边形\\(ABCD\\)中，\\(\\angle BAC+\\angle ABC+\\angle BCD+\\angle ADC=360{}^\\circ\\)，\n\\(\\therefore \\angle BAD+\\angle BAD'=\\angle BAD+\\angle BCD=180{}^\\circ\\)，\n∴\\(B\\)、\\(D\\)、\\(D'\\)三点共线，\n又\\(\\angle ABD'+\\angle ABD=\\angle BCD+\\angle ABD=60{}^\\circ ,BD=BD\\)，\n所以\\(\\vartriangle BDD'\\)是等边三角形，\n\\(\\because BE\\bot AD\\)，\n∴\\(BE\\)平分\\(\\angle D'BE\\)，\n\\(\\therefore \\angle D'BE=30{}^\\circ\\)，\n\\(\\therefore 2D'E=BD',BE=\\sqrt[] { {BD'}^ { 2 } -D'E ^ { 2 } }=\\sqrt[] { 3 }D'E\\)，\n设\\(AE=x\\)则\\(BE=\\sqrt[] { 3 }\\left ( { AD'+AE } \\right )=\\sqrt[] { 3 }(1+x)\\)，\n在\\(Rt\\vartriangle ABE\\)中，\\(AE ^ { 2 } +BE ^ { 2 } =AB ^ { 2 }\\)，\n则\\(x ^ { 2 } +[\\sqrt[] { 3 }(1+x)] ^ { 2 } =13\\)，\n解得\\(x_{ 1 } =1,x_{ 2 } =-\\frac { 5 } { 2 }\\)(舍)，\n\\(\\therefore AE=1\\)，\n\\(\\therefore BE=2\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "解：连接\\(BD\\)，将\\(\\vartriangle BCD\\)绕点\\(D\\)逆时针旋转\\(60{}^\\circ\\)至\\(\\vartriangle BAD'\\)，",
+        "〔图3〕",
+        "\\(\\therefore AD'=CD=1,BD'=BD,\\angle D'BA=\\angle DBC\\)，",
+        "在四边形\\(ABCD\\)中，\\(\\angle BAC+\\angle ABC+\\angle BCD+\\angle ADC=360{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAD+\\angle BAD'=\\angle BAD+\\angle BCD=180{}^\\circ\\)，",
+        "∴\\(B\\)、\\(D\\)、\\(D'\\)三点共线，",
+        "又\\(\\angle ABD'+\\angle ABD=\\angle BCD+\\angle ABD=60{}^\\circ ,BD=BD\\)，",
+        "所以\\(\\vartriangle BDD'\\)是等边三角形，",
+        "\\(\\because BE\\bot AD\\)，",
+        "∴\\(BE\\)平分\\(\\angle D'BE\\)，",
+        "\\(\\therefore \\angle D'BE=30{}^\\circ\\)，",
+        "\\(\\therefore 2D'E=BD',BE=\\sqrt[] { {BD'}^ { 2 } -D'E ^ { 2 } }=\\sqrt[] { 3 }D'E\\)，",
+        "设\\(AE=x\\)则\\(BE=\\sqrt[] { 3 }\\left ( { AD'+AE } \\right )=\\sqrt[] { 3 }(1+x)\\)，",
+        "在\\(Rt\\vartriangle ABE\\)中，\\(AE ^ { 2 } +BE ^ { 2 } =AB ^ { 2 }\\)，",
+        "则\\(x ^ { 2 } +[\\sqrt[] { 3 }(1+x)] ^ { 2 } =13\\)，",
+        "解得\\(x_{ 1 } =1,x_{ 2 } =-\\frac { 5 } { 2 }\\)(舍)，",
+        "\\(\\therefore AE=1\\)，",
+        "\\(\\therefore BE=2\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C18A6E1104-Q22-P04",
+      "label": "（3）",
+      "prompt": "如图3，正方形\\(ABCD\\)中，E为\\(BC\\)边上一点，连接\\(AE\\)，F为\\(AE\\)边上一点，且\\(AF=BC\\)，\\(FG\\)垂直\\(DF\\)交\\(AB\\)于点G，\\(EF=2\\)，\\(AG=5\\)，直接写出正方形的边长．",
+      "stem_text": "如图3，正方形\\(ABCD\\)中，E为\\(BC\\)边上一点，连接\\(AE\\)，F为\\(AE\\)边上一点，且\\(AF=BC\\)，\\(FG\\)垂直\\(DF\\)交\\(AB\\)于点G，\\(EF=2\\)，\\(AG=5\\)，直接写出正方形的边长．",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 5 }+5\\)",
+      "answer": "\\(2\\sqrt[] { 5 }+5\\)",
+      "given_solution": "解：过点\\(B\\)作\\(BM\\bot GF\\)交\\(GF\\)于点\\(M\\)，作\\(BN\\bot FH\\)交\\(FH\\)于点\\(N\\)，\n〔图4〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle BAD=\\angle ABC=90{}^\\circ ,AD=AB=BC,AD\\parallel BC\\)，\n∴\\(\\angle 1=\\angle 5\\)，\n∵\\(AF=BC\\)，\n∴\\(AD=AF\\)，\n∴\\(\\angle 1=\\angle 2,AD=AF=AB\\)，\n∴\\(\\angle AFB=\\angle ABF,\\angle 1=\\angle 2=\\angle 5=\\angle 6=\\angle 7\\)，\n∴\\(EH=EF=2\\)，\n∵\\(\\angle GAD=\\angle GFD=90{}^\\circ\\)，\n∴\\(\\angle 1+\\angle 3=180{}^\\circ ,\\angle 3+\\angle 4=180{}^\\circ\\)，\n∴\\(\\angle 1=\\angle 4=\\angle 2=\\angle 7\\)，\n∵\\(\\angle 2+\\angle 9=\\angle 8+\\angle 4=90{}^\\circ\\)，\n∴\\(\\angle 9=\\angle 8\\)，\n∵\\(\\angle AFB=\\angle ABF\\)，\n∴\\(\\angle ABF-\\angle 8=\\angle AFB-\\angle 9\\)，\n∴\\(\\angle 10=\\angle 11\\)，\n∴\\(BM=MF\\)，\n又∵\\(\\angle BMF=\\angle N=\\angle MFN=90{}^\\circ\\)，\n∴四边形\\(BNFM\\)是正方形，\n∴\\(BM=BN\\)，\n∵\\(BM=BN,\\angle 4=\\angle 7,\\angle GMB=\\angle N=90{}^\\circ\\)，\n∴\\(\\vartriangle BGM≌\\vartriangle BHN\\left ( { AAS } \\right )\\)，\n∴\\(BG=BH\\)，\n设\\(BG=BH=a\\)，\n∴\\(BE=a+2\\)，\n∴\\(AB=AF=a+5,AE=a+5+2=a+7\\)，\n在\\(Rt\\vartriangle ABE\\)中，\\(AB ^ { 2 } +BE ^ { 2 } =AE ^ { 2 }\\)，\n故\\(\\left ( { a+5 } \\right ) ^ { 2 } +a ^ { 2 } =\\left ( { a+7 } \\right ) ^ { 2 }\\)，\n解得：\\(a=2\\sqrt[] { 5 }\\)，\n则正方形\\(ABCD\\)的边长\\(AB=2\\sqrt[] { 5 }+5\\)．",
+      "solution_steps": [
+        "解：过点\\(B\\)作\\(BM\\bot GF\\)交\\(GF\\)于点\\(M\\)，作\\(BN\\bot FH\\)交\\(FH\\)于点\\(N\\)，",
+        "〔图4〕",
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(\\angle BAD=\\angle ABC=90{}^\\circ ,AD=AB=BC,AD\\parallel BC\\)，",
+        "∴\\(\\angle 1=\\angle 5\\)，",
+        "∵\\(AF=BC\\)，",
+        "∴\\(AD=AF\\)，",
+        "∴\\(\\angle 1=\\angle 2,AD=AF=AB\\)，",
+        "∴\\(\\angle AFB=\\angle ABF,\\angle 1=\\angle 2=\\angle 5=\\angle 6=\\angle 7\\)，",
+        "∴\\(EH=EF=2\\)，",
+        "∵\\(\\angle GAD=\\angle GFD=90{}^\\circ\\)，",
+        "∴\\(\\angle 1+\\angle 3=180{}^\\circ ,\\angle 3+\\angle 4=180{}^\\circ\\)，",
+        "∴\\(\\angle 1=\\angle 4=\\angle 2=\\angle 7\\)，",
+        "∵\\(\\angle 2+\\angle 9=\\angle 8+\\angle 4=90{}^\\circ\\)，",
+        "∴\\(\\angle 9=\\angle 8\\)，",
+        "∵\\(\\angle AFB=\\angle ABF\\)，",
+        "∴\\(\\angle ABF-\\angle 8=\\angle AFB-\\angle 9\\)，",
+        "∴\\(\\angle 10=\\angle 11\\)，",
+        "∴\\(BM=MF\\)，",
+        "又∵\\(\\angle BMF=\\angle N=\\angle MFN=90{}^\\circ\\)，",
+        "∴四边形\\(BNFM\\)是正方形，",
+        "∴\\(BM=BN\\)，",
+        "∵\\(BM=BN,\\angle 4=\\angle 7,\\angle GMB=\\angle N=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle BGM≌\\vartriangle BHN\\left ( { AAS } \\right )\\)，",
+        "∴\\(BG=BH\\)，",
+        "设\\(BG=BH=a\\)，",
+        "∴\\(BE=a+2\\)，",
+        "∴\\(AB=AF=a+5,AE=a+5+2=a+7\\)，",
+        "在\\(Rt\\vartriangle ABE\\)中，\\(AB ^ { 2 } +BE ^ { 2 } =AE ^ { 2 }\\)，",
+        "故\\(\\left ( { a+5 } \\right ) ^ { 2 } +a ^ { 2 } =\\left ( { a+7 } \\right ) ^ { 2 }\\)，",
+        "解得：\\(a=2\\sqrt[] { 5 }\\)，",
+        "则正方形\\(ABCD\\)的边长\\(AB=2\\sqrt[] { 5 }+5\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      71
+    ],
+    "solution_body_blocks": [
+      347,
+      428
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-C18A6E1104/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-C18A6E1104/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          693.18,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          297.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-C18A6E1104/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-C18A6E1104/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-C18A6E1104/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-C18A6E1104/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-C18A6E1104/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          231.36,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          739.55
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          746.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          764.09
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          111.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.01",
+    "M.G04.04",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.01.01",
+    "E.G04.04.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“应用等腰三角形性质求边角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,431 @@
+{
+  "id": "SZ-G8-T1-8423745DD8-Q22",
+  "paper_id": "SZ-G8-T1-8423745DD8",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将面积条件转为点的位置约束",
+  "stem": "如图，在平面直角坐标系中，直线AB：y＝kx＋1（k≠0）交y轴于点A，交x轴于点B（3，0），点P是直线AB上方第一象限内的动点．\n〔图1〕\n（1）求直线AB的表达式和点A的坐标；\n（2）点P是直线x＝2上一动点，当△ABP的面积与△ABO的面积相等时，求点P的坐标；\n（3）当△ABP为等腰直角三角形时，请直接写出点P的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-8423745DD8/figures/99472afb1a19cc909fcbc3b8367fde409055afe6832a1f42b3b0aba997f0d309.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）y＝\\(-\\frac { 1 } { 3 }\\)x＋1，点A（0，1）\n（2）点P的坐标是（2，\\(\\frac { 4 } { 3 }\\)）\n（3）点P的坐标是（4，3）或（1，4）或（2，2）",
+  "answer": "（1）y＝\\(-\\frac { 1 } { 3 }\\)x＋1，点A（0，1）\n（2）点P的坐标是（2，\\(\\frac { 4 } { 3 }\\)）\n（3）点P的坐标是（4，3）或（1，4）或（2，2）",
+  "given_solution": "【分析】（1）把\\(B\\)的坐标代入直线\\(AB\\)的解析式，即可求得\\(k\\)的值，然后在解析式中，令\\(x=0\\)，求得\\(y\\)的值，即可求得\\(A\\)的坐标；\n（2）过点\\(A\\)作\\(AM\\bot PD\\)，垂足为\\(M\\)，求得\\(AM\\)的长，即可求得\\(\\Delta BPD\\)和\\(\\Delta PAD\\)的面积，二者的和即可表示\\(S_{ \\Delta PAB }\\)，在根据\\(\\Delta ABP\\)的面积与\\(\\Delta ABO\\)的面积相等列方程即可得答案；\n（3）分三种情况：当\\(P\\)为直角顶点时，过\\(P\\)作\\(PN\\bot y\\)轴于\\(N\\)，过\\(B\\)作\\(BM\\bot PN\\)于\\(M\\)，由\\(\\Delta APN\\cong \\Delta PBM(AAS)\\)，可得\\(AN+1=PN\\)①，\\(PN+AN=3\\)②，即得\\(P(2,2)\\)；当\\(A\\)为直角顶点时，过\\(P\\)作\\(PK\\bot y\\)轴于\\(K\\)，由\\(\\Delta APK\\cong \\Delta BAO\\)，可得\\(P(1,4)\\)，当\\(B\\)为直角顶点时，过\\(P\\)作\\(PR\\bot x\\)轴于\\(R\\)，同理可得\\(P(4,3)\\)．\n【小问1详解】\n解：\\(\\because\\)直线\\(AB:y=kx+1(k\\ne 0)\\)交\\(y\\)轴于点\\(A\\)，交\\(x\\)轴于点\\(B(3,0)\\)，\n\\(\\therefore 0=3k+1\\)，\n\\(\\therefore k=-\\frac { 1 } { 3 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式是\\(y=-\\frac { 1 } { 3 }x+1\\)．\n当\\(x=0\\)时，\\(y=1\\)，\n\\(\\therefore\\)点\\(A(0,1)\\)；\n【小问2详解】\n解：如图1，过点\\(A\\)作\\(AM\\bot PD\\)，垂足为\\(M\\)，则有\\(AM=2\\)，\n〔图2〕\n设\\(P(2,n)\\)，\n\\(\\because x=2\\)时，\\(y=-\\frac { 1 } { 3 }x+1=\\frac { 1 } { 3 }\\)，\n\\(\\therefore D(2,\\frac { 1 } { 3 })\\)，\n\\(\\because P\\)在点\\(D\\)的上方，\n\\(\\therefore PD=n-\\frac { 1 } { 3 }\\)，\n\\(\\therefore S_{ \\Delta APD } =\\frac { 1 } { 2 }AM\\cdot PD=\\frac { 1 } { 2 }\\times 2\\times (n-\\frac { 1 } { 3 })=n-\\frac { 1 } { 3 }\\)，\n由点\\(B(3,0)\\)，可知点\\(B\\)到直线\\(x=2\\)的距离为1，即\\(\\Delta BDP\\)的边\\(PD\\)上的高长为1，\n\\(\\therefore S_{ \\Delta BPD } =\\frac { 1 } { 2 }\\times 1\\times (n-\\frac { 1 } { 3 })=\\frac { 1 } { 2 }(n-\\frac { 1 } { 3 })\\)，\n\\(\\therefore S_{ \\Delta PAB } =S_{ \\Delta APD } +S_{ \\Delta BPD } =\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }\\)；\n\\(\\because \\Delta ABP\\)的面积与\\(\\Delta ABO\\)的面积相等，\n\\(\\therefore\\)\\(\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }=\\frac { 1 } { 2 }\\times 1\\times 3\\)，\n解得\\(n=\\frac { 4 } { 3 }\\)，\n\\(\\therefore P(2,\\frac { 4 } { 3 })\\)；\n【小问3详解】\n解：当\\(P\\)为直角顶点时，过\\(P\\)作\\(PN\\bot y\\)轴于\\(N\\)，过\\(B\\)作\\(BM\\bot PN\\)于\\(M\\)，\n如图\\(2:\\)\n〔图3〕\n\\(\\because \\Delta ABP\\)为等腰直角三角形，\n\\(\\therefore AP=BP\\)，\\(\\angle NPA=90{}^\\circ -\\angle BPM=\\angle PBM\\)，\n\\(\\because \\angle ANP=\\angle BMP=90{}^\\circ\\)，\n\\(\\therefore \\Delta APN\\cong \\Delta PBM(AAS)\\)，\n\\(\\therefore BM=PN\\)，\\(PM=AN\\)，\n\\(\\because \\angle NOB=\\angle ONM=\\angle OBM=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(OBMN\\)是矩形，\n\\(\\therefore MN=OB=3\\)，\\(BM=ON=AN+1=PN\\)①，\n\\(\\therefore PN+PM=PN+AN=3\\)②，\n由①②解得\\(PN=2\\)，\\(AN=1\\)，\n\\(\\therefore ON=OA=AN=2\\)，\n\\(\\therefore P(2,2)\\)；\n当\\(A\\)为直角顶点时，过\\(P\\)作\\(PK\\bot y\\)轴于\\(K\\)，如图\\(3:\\)\n〔图4〕\n\\(\\because \\Delta ABP\\)为等腰直角三角形，\n\\(\\therefore AP=AB\\)，\\(\\angle KAP=90{}^\\circ -\\angle OAB=\\angle ABO\\)，\n而\\(\\angle PKA=\\angle AOB=90{}^\\circ\\)，\n\\(\\therefore \\Delta APK\\cong \\Delta BAO(AAS)\\)，\n\\(\\therefore AK=OB=3\\)，\\(PK=OA=1\\)，\n\\(\\therefore OK=OA+AK=4\\)，\n\\(\\therefore P(1,4)\\)，\n当\\(B\\)为直角顶点时，过\\(P\\)作\\(PR\\bot x\\)轴于\\(R\\)，如图\\(4:\\)\n〔图5〕\n同理可证\\(\\Delta AOB\\cong \\Delta BRP(AAS)\\)，\n\\(\\therefore BR=OA=1\\)，\\(PR=OB=3\\)，\n\\(\\therefore P(4,3)\\)，\n综上所述，\\(P\\)坐标为：\\((2,2)\\)或\\((1,4)\\)或\\((4,3)\\)．\n【点睛】本题考查一次函数综合应用，解题的关键是作辅助线，构造全等三角形，利用全等三角形对应边相等解决问题．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-8423745DD8/figures/99472afb1a19cc909fcbc3b8367fde409055afe6832a1f42b3b0aba997f0d309.png",
+    "assets/SZ-G8-T1-8423745DD8/figures/d851b98dba7f7825f102d9346299ac76c6bb130cd63e58f2e8c34627f7cd30db.png",
+    "assets/SZ-G8-T1-8423745DD8/figures/e2f8941e05d6028c40d77106a7cb2f64b8f547e85ec8672d24241e34d1333310.png",
+    "assets/SZ-G8-T1-8423745DD8/figures/8aaa1c7463085691a8099bf7326db041a30aec843497051902f567bb50fc7243.png",
+    "assets/SZ-G8-T1-8423745DD8/figures/95e4a78de676c4dbf09fab4acba9037fc959146e2039c0788281a89d8fd01022.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)直线\\(AB:y=kx+1(k\\ne 0)\\)交\\(y\\)轴于点\\(A\\)，交\\(x\\)轴于点\\(B(3,0)\\)，\n\\(\\therefore 0=3k+1\\)，\n\\(\\therefore k=-\\frac { 1 } { 3 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式是\\(y=-\\frac { 1 } { 3 }x+1\\)．\n当\\(x=0\\)时，\\(y=1\\)，\n\\(\\therefore\\)点\\(A(0,1)\\)；\n【小问2详解】\n解：如图1，过点\\(A\\)作\\(AM\\bot PD\\)，垂足为\\(M\\)，则有\\(AM=2\\)，\n〔图2〕\n设\\(P(2,n)\\)，\n\\(\\because x=2\\)时，\\(y=-\\frac { 1 } { 3 }x+1=\\frac { 1 } { 3 }\\)，\n\\(\\therefore D(2,\\frac { 1 } { 3 })\\)，\n\\(\\because P\\)在点\\(D\\)的上方，\n\\(\\therefore PD=n-\\frac { 1 } { 3 }\\)，\n\\(\\therefore S_{ \\Delta APD } =\\frac { 1 } { 2 }AM\\cdot PD=\\frac { 1 } { 2 }\\times 2\\times (n-\\frac { 1 } { 3 })=n-\\frac { 1 } { 3 }\\)，\n由点\\(B(3,0)\\)，可知点\\(B\\)到直线\\(x=2\\)的距离为1，即\\(\\Delta BDP\\)的边\\(PD\\)上的高长为1，\n\\(\\therefore S_{ \\Delta BPD } =\\frac { 1 } { 2 }\\times 1\\times (n-\\frac { 1 } { 3 })=\\frac { 1 } { 2 }(n-\\frac { 1 } { 3 })\\)，\n\\(\\therefore S_{ \\Delta PAB } =S_{ \\Delta APD } +S_{ \\Delta BPD } =\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }\\)；\n\\(\\because \\Delta ABP\\)的面积与\\(\\Delta ABO\\)的面积相等，\n\\(\\therefore\\)\\(\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }=\\frac { 1 } { 2 }\\times 1\\times 3\\)，\n解得\\(n=\\frac { 4 } { 3 }\\)，\n\\(\\therefore P(2,\\frac { 4 } { 3 })\\)；\n【小问3详解】\n解：当\\(P\\)为直角顶点时，过\\(P\\)作\\(PN\\bot y\\)轴于\\(N\\)，过\\(B\\)作\\(BM\\bot PN\\)于\\(M\\)，\n如图\\(2:\\)\n〔图3〕\n\\(\\because \\Delta ABP\\)为等腰直角三角形，\n\\(\\therefore AP=BP\\)，\\(\\angle NPA=90{}^\\circ -\\angle BPM=\\angle PBM\\)，\n\\(\\because \\angle ANP=\\angle BMP=90{}^\\circ\\)，\n\\(\\therefore \\Delta APN\\cong \\Delta PBM(AAS)\\)，\n\\(\\therefore BM=PN\\)，\\(PM=AN\\)，\n\\(\\because \\angle NOB=\\angle ONM=\\angle OBM=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(OBMN\\)是矩形，\n\\(\\therefore MN=OB=3\\)，\\(BM=ON=AN+1=PN\\)①，\n\\(\\therefore PN+PM=PN+AN=3\\)②，\n由①②解得\\(PN=2\\)，\\(AN=1\\)，\n\\(\\therefore ON=OA=AN=2\\)，\n\\(\\therefore P(2,2)\\)；\n当\\(A\\)为直角顶点时，过\\(P\\)作\\(PK\\bot y\\)轴于\\(K\\)，如图\\(3:\\)\n〔图4〕\n\\(\\because \\Delta ABP\\)为等腰直角三角形，\n\\(\\therefore AP=AB\\)，\\(\\angle KAP=90{}^\\circ -\\angle OAB=\\angle ABO\\)，\n而\\(\\angle PKA=\\angle AOB=90{}^\\circ\\)，\n\\(\\therefore \\Delta APK\\cong \\Delta BAO(AAS)\\)，\n\\(\\therefore AK=OB=3\\)，\\(PK=OA=1\\)，\n\\(\\therefore OK=OA+AK=4\\)，\n\\(\\therefore P(1,4)\\)，\n当\\(B\\)为直角顶点时，过\\(P\\)作\\(PR\\bot x\\)轴于\\(R\\)，如图\\(4:\\)\n〔图5〕\n同理可证\\(\\Delta AOB\\cong \\Delta BRP(AAS)\\)，\n\\(\\therefore BR=OA=1\\)，\\(PR=OB=3\\)，\n\\(\\therefore P(4,3)\\)，\n综上所述，\\(P\\)坐标为：\\((2,2)\\)或\\((1,4)\\)或\\((4,3)\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)直线\\(AB:y=kx+1(k\\ne 0)\\)交\\(y\\)轴于点\\(A\\)，交\\(x\\)轴于点\\(B(3,0)\\)，",
+    "\\(\\therefore 0=3k+1\\)，",
+    "\\(\\therefore k=-\\frac { 1 } { 3 }\\)，",
+    "\\(\\therefore\\)直线\\(AB\\)的解析式是\\(y=-\\frac { 1 } { 3 }x+1\\)．",
+    "当\\(x=0\\)时，\\(y=1\\)，",
+    "\\(\\therefore\\)点\\(A(0,1)\\)；",
+    "【小问2详解】",
+    "解：如图1，过点\\(A\\)作\\(AM\\bot PD\\)，垂足为\\(M\\)，则有\\(AM=2\\)，",
+    "〔图2〕",
+    "设\\(P(2,n)\\)，",
+    "\\(\\because x=2\\)时，\\(y=-\\frac { 1 } { 3 }x+1=\\frac { 1 } { 3 }\\)，",
+    "\\(\\therefore D(2,\\frac { 1 } { 3 })\\)，",
+    "\\(\\because P\\)在点\\(D\\)的上方，",
+    "\\(\\therefore PD=n-\\frac { 1 } { 3 }\\)，",
+    "\\(\\therefore S_{ \\Delta APD } =\\frac { 1 } { 2 }AM\\cdot PD=\\frac { 1 } { 2 }\\times 2\\times (n-\\frac { 1 } { 3 })=n-\\frac { 1 } { 3 }\\)，",
+    "由点\\(B(3,0)\\)，可知点\\(B\\)到直线\\(x=2\\)的距离为1，即\\(\\Delta BDP\\)的边\\(PD\\)上的高长为1，",
+    "\\(\\therefore S_{ \\Delta BPD } =\\frac { 1 } { 2 }\\times 1\\times (n-\\frac { 1 } { 3 })=\\frac { 1 } { 2 }(n-\\frac { 1 } { 3 })\\)，",
+    "\\(\\therefore S_{ \\Delta PAB } =S_{ \\Delta APD } +S_{ \\Delta BPD } =\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }\\)；",
+    "\\(\\because \\Delta ABP\\)的面积与\\(\\Delta ABO\\)的面积相等，",
+    "\\(\\therefore\\)\\(\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }=\\frac { 1 } { 2 }\\times 1\\times 3\\)，",
+    "解得\\(n=\\frac { 4 } { 3 }\\)，",
+    "\\(\\therefore P(2,\\frac { 4 } { 3 })\\)；",
+    "【小问3详解】",
+    "解：当\\(P\\)为直角顶点时，过\\(P\\)作\\(PN\\bot y\\)轴于\\(N\\)，过\\(B\\)作\\(BM\\bot PN\\)于\\(M\\)，",
+    "如图\\(2:\\)",
+    "〔图3〕",
+    "\\(\\because \\Delta ABP\\)为等腰直角三角形，",
+    "\\(\\therefore AP=BP\\)，\\(\\angle NPA=90{}^\\circ -\\angle BPM=\\angle PBM\\)，",
+    "\\(\\because \\angle ANP=\\angle BMP=90{}^\\circ\\)，",
+    "\\(\\therefore \\Delta APN\\cong \\Delta PBM(AAS)\\)，",
+    "\\(\\therefore BM=PN\\)，\\(PM=AN\\)，",
+    "\\(\\because \\angle NOB=\\angle ONM=\\angle OBM=90{}^\\circ\\)，",
+    "\\(\\therefore\\)四边形\\(OBMN\\)是矩形，",
+    "\\(\\therefore MN=OB=3\\)，\\(BM=ON=AN+1=PN\\)①，",
+    "\\(\\therefore PN+PM=PN+AN=3\\)②，",
+    "由①②解得\\(PN=2\\)，\\(AN=1\\)，",
+    "\\(\\therefore ON=OA=AN=2\\)，",
+    "\\(\\therefore P(2,2)\\)；",
+    "当\\(A\\)为直角顶点时，过\\(P\\)作\\(PK\\bot y\\)轴于\\(K\\)，如图\\(3:\\)",
+    "〔图4〕",
+    "\\(\\because \\Delta ABP\\)为等腰直角三角形，",
+    "\\(\\therefore AP=AB\\)，\\(\\angle KAP=90{}^\\circ -\\angle OAB=\\angle ABO\\)，",
+    "而\\(\\angle PKA=\\angle AOB=90{}^\\circ\\)，",
+    "\\(\\therefore \\Delta APK\\cong \\Delta BAO(AAS)\\)，",
+    "\\(\\therefore AK=OB=3\\)，\\(PK=OA=1\\)，",
+    "\\(\\therefore OK=OA+AK=4\\)，",
+    "\\(\\therefore P(1,4)\\)，",
+    "当\\(B\\)为直角顶点时，过\\(P\\)作\\(PR\\bot x\\)轴于\\(R\\)，如图\\(4:\\)",
+    "〔图5〕",
+    "同理可证\\(\\Delta AOB\\cong \\Delta BRP(AAS)\\)，",
+    "\\(\\therefore BR=OA=1\\)，\\(PR=OB=3\\)，",
+    "\\(\\therefore P(4,3)\\)，",
+    "综上所述，\\(P\\)坐标为：\\((2,2)\\)或\\((1,4)\\)或\\((4,3)\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线AB：y＝kx＋1（k≠0）交y轴于点A，交x轴于点B（3，0），点P是直线AB上方第一象限内的动点．\n〔图1〕",
+      "paper_blocks": [
+        76,
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-8423745DD8-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线AB的表达式和点A的坐标；",
+      "stem_text": "求直线AB的表达式和点A的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "y＝\\(-\\frac { 1 } { 3 }\\)x＋1，点A（0，1）",
+      "answer": "y＝\\(-\\frac { 1 } { 3 }\\)x＋1，点A（0，1）",
+      "given_solution": "解：\\(\\because\\)直线\\(AB:y=kx+1(k\\ne 0)\\)交\\(y\\)轴于点\\(A\\)，交\\(x\\)轴于点\\(B(3,0)\\)，\n\\(\\therefore 0=3k+1\\)，\n\\(\\therefore k=-\\frac { 1 } { 3 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式是\\(y=-\\frac { 1 } { 3 }x+1\\)．\n当\\(x=0\\)时，\\(y=1\\)，\n\\(\\therefore\\)点\\(A(0,1)\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)直线\\(AB:y=kx+1(k\\ne 0)\\)交\\(y\\)轴于点\\(A\\)，交\\(x\\)轴于点\\(B(3,0)\\)，",
+        "\\(\\therefore 0=3k+1\\)，",
+        "\\(\\therefore k=-\\frac { 1 } { 3 }\\)，",
+        "\\(\\therefore\\)直线\\(AB\\)的解析式是\\(y=-\\frac { 1 } { 3 }x+1\\)．",
+        "当\\(x=0\\)时，\\(y=1\\)，",
+        "\\(\\therefore\\)点\\(A(0,1)\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-8423745DD8-Q22-P02",
+      "label": "（2）",
+      "prompt": "点P是直线x＝2上一动点，当△ABP的面积与△ABO的面积相等时，求点P的坐标；",
+      "stem_text": "点P是直线x＝2上一动点，当△ABP的面积与△ABO的面积相等时，求点P的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "点P的坐标是（2，\\(\\frac { 4 } { 3 }\\)）",
+      "answer": "点P的坐标是（2，\\(\\frac { 4 } { 3 }\\)）",
+      "given_solution": "解：如图1，过点\\(A\\)作\\(AM\\bot PD\\)，垂足为\\(M\\)，则有\\(AM=2\\)，\n〔图2〕\n设\\(P(2,n)\\)，\n\\(\\because x=2\\)时，\\(y=-\\frac { 1 } { 3 }x+1=\\frac { 1 } { 3 }\\)，\n\\(\\therefore D(2,\\frac { 1 } { 3 })\\)，\n\\(\\because P\\)在点\\(D\\)的上方，\n\\(\\therefore PD=n-\\frac { 1 } { 3 }\\)，\n\\(\\therefore S_{ \\Delta APD } =\\frac { 1 } { 2 }AM\\cdot PD=\\frac { 1 } { 2 }\\times 2\\times (n-\\frac { 1 } { 3 })=n-\\frac { 1 } { 3 }\\)，\n由点\\(B(3,0)\\)，可知点\\(B\\)到直线\\(x=2\\)的距离为1，即\\(\\Delta BDP\\)的边\\(PD\\)上的高长为1，\n\\(\\therefore S_{ \\Delta BPD } =\\frac { 1 } { 2 }\\times 1\\times (n-\\frac { 1 } { 3 })=\\frac { 1 } { 2 }(n-\\frac { 1 } { 3 })\\)，\n\\(\\therefore S_{ \\Delta PAB } =S_{ \\Delta APD } +S_{ \\Delta BPD } =\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }\\)；\n\\(\\because \\Delta ABP\\)的面积与\\(\\Delta ABO\\)的面积相等，\n\\(\\therefore\\)\\(\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }=\\frac { 1 } { 2 }\\times 1\\times 3\\)，\n解得\\(n=\\frac { 4 } { 3 }\\)，\n\\(\\therefore P(2,\\frac { 4 } { 3 })\\)；",
+      "solution_steps": [
+        "解：如图1，过点\\(A\\)作\\(AM\\bot PD\\)，垂足为\\(M\\)，则有\\(AM=2\\)，",
+        "〔图2〕",
+        "设\\(P(2,n)\\)，",
+        "\\(\\because x=2\\)时，\\(y=-\\frac { 1 } { 3 }x+1=\\frac { 1 } { 3 }\\)，",
+        "\\(\\therefore D(2,\\frac { 1 } { 3 })\\)，",
+        "\\(\\because P\\)在点\\(D\\)的上方，",
+        "\\(\\therefore PD=n-\\frac { 1 } { 3 }\\)，",
+        "\\(\\therefore S_{ \\Delta APD } =\\frac { 1 } { 2 }AM\\cdot PD=\\frac { 1 } { 2 }\\times 2\\times (n-\\frac { 1 } { 3 })=n-\\frac { 1 } { 3 }\\)，",
+        "由点\\(B(3,0)\\)，可知点\\(B\\)到直线\\(x=2\\)的距离为1，即\\(\\Delta BDP\\)的边\\(PD\\)上的高长为1，",
+        "\\(\\therefore S_{ \\Delta BPD } =\\frac { 1 } { 2 }\\times 1\\times (n-\\frac { 1 } { 3 })=\\frac { 1 } { 2 }(n-\\frac { 1 } { 3 })\\)，",
+        "\\(\\therefore S_{ \\Delta PAB } =S_{ \\Delta APD } +S_{ \\Delta BPD } =\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }\\)；",
+        "\\(\\because \\Delta ABP\\)的面积与\\(\\Delta ABO\\)的面积相等，",
+        "\\(\\therefore\\)\\(\\frac { 3 } { 2 }n-\\frac { 1 } { 2 }=\\frac { 1 } { 2 }\\times 1\\times 3\\)，",
+        "解得\\(n=\\frac { 4 } { 3 }\\)，",
+        "\\(\\therefore P(2,\\frac { 4 } { 3 })\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          79
+        ],
+        "solution_block_ids": [
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-8423745DD8-Q22-P03",
+      "label": "（3）",
+      "prompt": "当△ABP为等腰直角三角形时，请直接写出点P的坐标．",
+      "stem_text": "当△ABP为等腰直角三角形时，请直接写出点P的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "点P的坐标是（4，3）或（1，4）或（2，2）",
+      "answer": "点P的坐标是（4，3）或（1，4）或（2，2）",
+      "given_solution": "解：当\\(P\\)为直角顶点时，过\\(P\\)作\\(PN\\bot y\\)轴于\\(N\\)，过\\(B\\)作\\(BM\\bot PN\\)于\\(M\\)，\n如图\\(2:\\)\n〔图3〕\n\\(\\because \\Delta ABP\\)为等腰直角三角形，\n\\(\\therefore AP=BP\\)，\\(\\angle NPA=90{}^\\circ -\\angle BPM=\\angle PBM\\)，\n\\(\\because \\angle ANP=\\angle BMP=90{}^\\circ\\)，\n\\(\\therefore \\Delta APN\\cong \\Delta PBM(AAS)\\)，\n\\(\\therefore BM=PN\\)，\\(PM=AN\\)，\n\\(\\because \\angle NOB=\\angle ONM=\\angle OBM=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(OBMN\\)是矩形，\n\\(\\therefore MN=OB=3\\)，\\(BM=ON=AN+1=PN\\)①，\n\\(\\therefore PN+PM=PN+AN=3\\)②，\n由①②解得\\(PN=2\\)，\\(AN=1\\)，\n\\(\\therefore ON=OA=AN=2\\)，\n\\(\\therefore P(2,2)\\)；\n当\\(A\\)为直角顶点时，过\\(P\\)作\\(PK\\bot y\\)轴于\\(K\\)，如图\\(3:\\)\n〔图4〕\n\\(\\because \\Delta ABP\\)为等腰直角三角形，\n\\(\\therefore AP=AB\\)，\\(\\angle KAP=90{}^\\circ -\\angle OAB=\\angle ABO\\)，\n而\\(\\angle PKA=\\angle AOB=90{}^\\circ\\)，\n\\(\\therefore \\Delta APK\\cong \\Delta BAO(AAS)\\)，\n\\(\\therefore AK=OB=3\\)，\\(PK=OA=1\\)，\n\\(\\therefore OK=OA+AK=4\\)，\n\\(\\therefore P(1,4)\\)，\n当\\(B\\)为直角顶点时，过\\(P\\)作\\(PR\\bot x\\)轴于\\(R\\)，如图\\(4:\\)\n〔图5〕\n同理可证\\(\\Delta AOB\\cong \\Delta BRP(AAS)\\)，\n\\(\\therefore BR=OA=1\\)，\\(PR=OB=3\\)，\n\\(\\therefore P(4,3)\\)，\n综上所述，\\(P\\)坐标为：\\((2,2)\\)或\\((1,4)\\)或\\((4,3)\\)．",
+      "solution_steps": [
+        "解：当\\(P\\)为直角顶点时，过\\(P\\)作\\(PN\\bot y\\)轴于\\(N\\)，过\\(B\\)作\\(BM\\bot PN\\)于\\(M\\)，",
+        "如图\\(2:\\)",
+        "〔图3〕",
+        "\\(\\because \\Delta ABP\\)为等腰直角三角形，",
+        "\\(\\therefore AP=BP\\)，\\(\\angle NPA=90{}^\\circ -\\angle BPM=\\angle PBM\\)，",
+        "\\(\\because \\angle ANP=\\angle BMP=90{}^\\circ\\)，",
+        "\\(\\therefore \\Delta APN\\cong \\Delta PBM(AAS)\\)，",
+        "\\(\\therefore BM=PN\\)，\\(PM=AN\\)，",
+        "\\(\\because \\angle NOB=\\angle ONM=\\angle OBM=90{}^\\circ\\)，",
+        "\\(\\therefore\\)四边形\\(OBMN\\)是矩形，",
+        "\\(\\therefore MN=OB=3\\)，\\(BM=ON=AN+1=PN\\)①，",
+        "\\(\\therefore PN+PM=PN+AN=3\\)②，",
+        "由①②解得\\(PN=2\\)，\\(AN=1\\)，",
+        "\\(\\therefore ON=OA=AN=2\\)，",
+        "\\(\\therefore P(2,2)\\)；",
+        "当\\(A\\)为直角顶点时，过\\(P\\)作\\(PK\\bot y\\)轴于\\(K\\)，如图\\(3:\\)",
+        "〔图4〕",
+        "\\(\\because \\Delta ABP\\)为等腰直角三角形，",
+        "\\(\\therefore AP=AB\\)，\\(\\angle KAP=90{}^\\circ -\\angle OAB=\\angle ABO\\)，",
+        "而\\(\\angle PKA=\\angle AOB=90{}^\\circ\\)，",
+        "\\(\\therefore \\Delta APK\\cong \\Delta BAO(AAS)\\)，",
+        "\\(\\therefore AK=OB=3\\)，\\(PK=OA=1\\)，",
+        "\\(\\therefore OK=OA+AK=4\\)，",
+        "\\(\\therefore P(1,4)\\)，",
+        "当\\(B\\)为直角顶点时，过\\(P\\)作\\(PR\\bot x\\)轴于\\(R\\)，如图\\(4:\\)",
+        "〔图5〕",
+        "同理可证\\(\\Delta AOB\\cong \\Delta BRP(AAS)\\)，",
+        "\\(\\therefore BR=OA=1\\)，\\(PR=OB=3\\)，",
+        "\\(\\therefore P(4,3)\\)，",
+        "综上所述，\\(P\\)坐标为：\\((2,2)\\)或\\((1,4)\\)或\\((4,3)\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          80
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      76,
+      80
+    ],
+    "solution_body_blocks": [
+      383,
+      449
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-8423745DD8/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          354.55,
+          583.64,
+          603.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-8423745DD8/solution-q22-p21.webp",
+      "assets/SZ-G8-T1-8423745DD8/solution-q22-p22.webp",
+      "assets/SZ-G8-T1-8423745DD8/solution-q22-p23.webp",
+      "assets/SZ-G8-T1-8423745DD8/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          258.18,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          58.18,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          415.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.02",
+    "E.G09.03.03"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

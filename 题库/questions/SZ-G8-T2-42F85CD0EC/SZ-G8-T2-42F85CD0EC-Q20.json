@@ -1,0 +1,296 @@
+{
+  "id": "SZ-G8-T2-42F85CD0EC-Q20",
+  "paper_id": "SZ-G8-T2-42F85CD0EC",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，在四边形ABCD中，BC＝CD，∠BCD=α°，∠ABC+∠ADC＝180°，AC、BD交于点E．将△CBA绕点C顺时针旋转α°得到△CDF．\n（1）求证：∠CAB＝∠CAD；\n（2）若∠ABD＝90°，AB＝3，BD＝4，△BCE的面积为S\\({}_{1}\\)，△CDE的面积为S\\({}_{2}\\)，求S\\({}_{1}\\)：S\\({}_{2}\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/01/015452c65b9131cacdf4232379196d49b0c571e274d241fa1c07677aac383991.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(\\frac { 3 } { 5 }\\).",
+  "answer": "（1）见解析；（2）\\(\\frac { 3 } { 5 }\\).",
+  "given_solution": "【分析】（1）由旋转旋转可得△CAB≌△CFD，再根据全等三角形的性质和∠ABC+∠ADC=180°，即可得∠CAB=∠CAD；\n（2）根据∠ABD=90°，AB=3，BD=4，可得AD的长，再根据勾股定理求出BE和DE的长，根据△BCE和△CDE同高，即可得S\\({}_{1}\\)：S\\({}_{2}\\)的值．\n【详解】解：（1）证明：由旋转旋转可知：△CAB≌△CFD，\n∴∠CDF=∠CBA，∠F=∠CAB，CA=CF，\n∵∠CBA+∠CDA=180°，\n∴∠CDF+∠CDA=180°，\n∴A、D、F三点共线，\n∵AC=CF，\n∴∠F=∠CAD，\n∴∠CAB=∠CAD；\n（2）过点E作EM⊥AF于点M，过点C作CN⊥BD于点N，\n〔图2〕\n∴∠ABE=∠AME=90°，\n在△ABE和△AME中，\n\\(\\begin{cases} \\angle EAB=\\angle EAM \\\\ \\angle ABE=\\angle AME \\\\ AE=AE \\end{cases}\\)，\n∴△ABE≌△AME（AAS），\n∴AM=AB=3，BE=ME，\n∵∠ABD=90°，AB=3，BD=4，\n∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }\\)=5，\n∴DM=2，设BE=EM=x，则DE=4-x\n∴x\\({}^{2}\\)+2\\({}^{2}\\)=（4-x）\\({}^{2}\\)，\n解得x=1.5，\n∴BE=1.5，DE=2.5，\n∴S\\({}_{1}\\)：S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)BE•CN：\\(\\frac { 1 } { 2 }\\)DE•CN=\\(\\frac { 3 } { 5 }\\)．\n【点睛】本题考查了作图-旋转变换、全等三角形的判定与性质、角平分线的性质，解决本题的关键是掌握旋转的性质．",
+  "given_solution_figures": [
+    "assets/figures/ad/ad99fd5597b690c798a5107afb57d8b2ad91ae4a4874670884f2878f638efd33.png",
+    "assets/figures/4a/4a9a5e8f4f5a80852ce4d6306388cf2a33b7f12e3d9978344fb55ea0e3963239.png"
+  ],
+  "solution": "解：（1）证明：由旋转旋转可知：△CAB≌△CFD，\n∴∠CDF=∠CBA，∠F=∠CAB，CA=CF，\n∵∠CBA+∠CDA=180°，\n∴∠CDF+∠CDA=180°，\n∴A、D、F三点共线，\n∵AC=CF，\n∴∠F=∠CAD，\n∴∠CAB=∠CAD；\n（2）过点E作EM⊥AF于点M，过点C作CN⊥BD于点N，\n〔图2〕\n∴∠ABE=∠AME=90°，\n在△ABE和△AME中，\n\\(\\begin{cases} \\angle EAB=\\angle EAM \\\\ \\angle ABE=\\angle AME \\\\ AE=AE \\end{cases}\\)，\n∴△ABE≌△AME（AAS），\n∴AM=AB=3，BE=ME，\n∵∠ABD=90°，AB=3，BD=4，\n∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }\\)=5，\n∴DM=2，设BE=EM=x，则DE=4-x\n∴x\\({}^{2}\\)+2\\({}^{2}\\)=（4-x）\\({}^{2}\\)，\n解得x=1.5，\n∴BE=1.5，DE=2.5，\n∴S\\({}_{1}\\)：S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)BE•CN：\\(\\frac { 1 } { 2 }\\)DE•CN=\\(\\frac { 3 } { 5 }\\)．",
+  "solution_steps": [
+    "解：（1）证明：由旋转旋转可知：△CAB≌△CFD，",
+    "∴∠CDF=∠CBA，∠F=∠CAB，CA=CF，",
+    "∵∠CBA+∠CDA=180°，",
+    "∴∠CDF+∠CDA=180°，",
+    "∴A、D、F三点共线，",
+    "∵AC=CF，",
+    "∴∠F=∠CAD，",
+    "∴∠CAB=∠CAD；",
+    "（2）过点E作EM⊥AF于点M，过点C作CN⊥BD于点N，",
+    "〔图2〕",
+    "∴∠ABE=∠AME=90°，",
+    "在△ABE和△AME中，",
+    "\\(\\begin{cases} \\angle EAB=\\angle EAM \\\\ \\angle ABE=\\angle AME \\\\ AE=AE \\end{cases}\\)，",
+    "∴△ABE≌△AME（AAS），",
+    "∴AM=AB=3，BE=ME，",
+    "∵∠ABD=90°，AB=3，BD=4，",
+    "∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }\\)=5，",
+    "∴DM=2，设BE=EM=x，则DE=4-x",
+    "∴x\\({}^{2}\\)+2\\({}^{2}\\)=（4-x）\\({}^{2}\\)，",
+    "解得x=1.5，",
+    "∴BE=1.5，DE=2.5，",
+    "∴S\\({}_{1}\\)：S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)BE•CN：\\(\\frac { 1 } { 2 }\\)DE•CN=\\(\\frac { 3 } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在四边形ABCD中，BC＝CD，∠BCD=α°，∠ABC+∠ADC＝180°，AC、BD交于点E．将△CBA绕点C顺时针旋转α°得到△CDF．",
+      "paper_blocks": [
+        66
+      ]
+    },
+    {
+      "id": "fig-69",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-42F85CD0EC-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：∠CAB＝∠CAD；",
+      "stem_text": "求证：∠CAB＝∠CAD；",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：由旋转旋转可知：△CAB≌△CFD，\n∴∠CDF=∠CBA，∠F=∠CAB，CA=CF，\n∵∠CBA+∠CDA=180°，\n∴∠CDF+∠CDA=180°，\n∴A、D、F三点共线，\n∵AC=CF，\n∴∠F=∠CAD，\n∴∠CAB=∠CAD；",
+      "solution_steps": [
+        "证明：由旋转旋转可知：△CAB≌△CFD，",
+        "∴∠CDF=∠CBA，∠F=∠CAB，CA=CF，",
+        "∵∠CBA+∠CDA=180°，",
+        "∴∠CDF+∠CDA=180°，",
+        "∴A、D、F三点共线，",
+        "∵AC=CF，",
+        "∴∠F=∠CAD，",
+        "∴∠CAB=∠CAD；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-42F85CD0EC-Q20-P02",
+      "label": "（2）",
+      "prompt": "若∠ABD＝90°，AB＝3，BD＝4，△BCE的面积为S\\({}_{1}\\)，△CDE的面积为S\\({}_{2}\\)，求S\\({}_{1}\\)：S\\({}_{2}\\)的值．",
+      "stem_text": "若∠ABD＝90°，AB＝3，BD＝4，△BCE的面积为S\\({}_{1}\\)，△CDE的面积为S\\({}_{2}\\)，求S\\({}_{1}\\)：S\\({}_{2}\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-69"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { 5 }\\).",
+      "answer": "\\(\\frac { 3 } { 5 }\\).",
+      "given_solution": "过点E作EM⊥AF于点M，过点C作CN⊥BD于点N，\n〔图2〕\n∴∠ABE=∠AME=90°，\n在△ABE和△AME中，\n\\(\\begin{cases} \\angle EAB=\\angle EAM \\\\ \\angle ABE=\\angle AME \\\\ AE=AE \\end{cases}\\)，\n∴△ABE≌△AME（AAS），\n∴AM=AB=3，BE=ME，\n∵∠ABD=90°，AB=3，BD=4，\n∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }\\)=5，\n∴DM=2，设BE=EM=x，则DE=4-x\n∴x\\({}^{2}\\)+2\\({}^{2}\\)=（4-x）\\({}^{2}\\)，\n解得x=1.5，\n∴BE=1.5，DE=2.5，\n∴S\\({}_{1}\\)：S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)BE•CN：\\(\\frac { 1 } { 2 }\\)DE•CN=\\(\\frac { 3 } { 5 }\\)．",
+      "solution_steps": [
+        "过点E作EM⊥AF于点M，过点C作CN⊥BD于点N，",
+        "〔图2〕",
+        "∴∠ABE=∠AME=90°，",
+        "在△ABE和△AME中，",
+        "\\(\\begin{cases} \\angle EAB=\\angle EAM \\\\ \\angle ABE=\\angle AME \\\\ AE=AE \\end{cases}\\)，",
+        "∴△ABE≌△AME（AAS），",
+        "∴AM=AB=3，BE=ME，",
+        "∵∠ABD=90°，AB=3，BD=4，",
+        "∴AD=\\(\\sqrt[] { AB ^ { 2 } +BD ^ { 2 } }\\)=5，",
+        "∴DM=2，设BE=EM=x，则DE=4-x",
+        "∴x\\({}^{2}\\)+2\\({}^{2}\\)=（4-x）\\({}^{2}\\)，",
+        "解得x=1.5，",
+        "∴BE=1.5，DE=2.5，",
+        "∴S\\({}_{1}\\)：S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)BE•CN：\\(\\frac { 1 } { 2 }\\)DE•CN=\\(\\frac { 3 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      69
+    ],
+    "solution_body_blocks": [
+      296,
+      326
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-42F85CD0EC/paper-q20-p04.webp",
+      "assets/SZ-G8-T2-42F85CD0EC/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          201.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-42F85CD0EC/solution-q20-p14.webp",
+      "assets/SZ-G8-T2-42F85CD0EC/solution-q20-p15.webp",
+      "assets/SZ-G8-T2-42F85CD0EC/solution-q20-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          631.36,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

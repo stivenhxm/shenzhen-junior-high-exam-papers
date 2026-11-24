@@ -1,0 +1,383 @@
+{
+  "id": "SZ-G8-T2-C5980164B8-Q21",
+  "paper_id": "SZ-G8-T2-C5980164B8",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、由文字或图形数量关系列代数式",
+  "stem": "如图，在平面直角坐标系中，矩形\\(OABC\\)的两边\\(OA\\)，\\(OC\\)分别在\\(x\\)轴、\\(y\\)轴的正半轴上，\\(OA=4\\)，\\(OC=2\\)．点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒\\(1\\)个单位长的速度向点\\(A\\)匀速运动，当点\\(P\\)到达点\\(A\\)时停止运动，设点\\(P\\)运动的时间是\\(t\\)秒．将线段\\(CP\\)的中点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，点\\(D\\)随点\\(P\\)的运动而运动，连接\\(DP\\)，\\(DA\\)．\n〔图1〕\n（1）当\\(t=2\\)时，点\\(D\\)的坐标是    ；\n（2）请用含\\(t\\)的代数式表示出点\\(D\\)的坐标    ；\n（3）在点\\(P\\)从\\(O\\)向\\(A\\)运动的过程中，\\(\\vartriangle DPA\\)能否成为直角三角形？若能，求\\(t\\)的值．若不能，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/d8/d846d574fc19af4732baf1d21758a832c06d3b07268004bd6d0d986437427d2d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { 3，1 } \\right )\\)\n（2）\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)\n（3）当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．",
+  "answer": "（1）\\(\\left ( { 3，1 } \\right )\\)\n（2）\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)\n（3）当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．",
+  "given_solution": "【分析】（1）求得\\(OP=OC=2\\)，得到\\(PC=2\\sqrt[] { 2 }\\)，推出\\(PD=PF=\\sqrt[] { 2 }\\)，利用等腰直角三角形的性质即可求解；\n（2）设出\\(P\\)点坐标，再求出\\(CP\\)的中点坐标，根据相似的性质即可求出\\(D\\)点坐标；\n（3）先判断出可能为直角的角，再根据勾股定理求解；\n【小问1详解】\n解：∵\\(t=2\\)，\n∴\\(OP=OC=2\\)，\n∴\\(\\angle OPC=\\angle OCP=45{}^\\circ\\)，\\(PC=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\n设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，\n〔图2〕\n∴\\(\\angle DPE=180{}^\\circ -45{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\\(PD=PF=\\frac { 1 } { 2 }PC=\\sqrt[] { 2 }\\)，\n∴\\(PE=DE=\\frac { \\sqrt[] { 2 } } { 2 }PD=1\\)，\n∴点\\(D\\)坐标为\\(\\left ( { 3，1 } \\right )\\)；\n故答案为：\\(\\left ( { 3，1 } \\right )\\)；\n【小问2详解】\n解：∵点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒1个单位长的速度向点\\(A\\)匀速运动，\n\\(\\therefore OP=t\\)，而\\(OC=2\\)，\n\\(\\therefore P(t，0)\\)，\n设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，\n〔图2〕\n则\\(F\\)点的坐标为\\(\\left ( { \\frac { t } { 2 }，1 } \\right )\\)，\n\\(\\because F\\)点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，\n\\(\\therefore \\angle CPD=90\\)，\n\\(\\therefore \\angle DPE+\\angle OPC=90{}^\\circ\\)，\n又\\(\\because \\angle POC=90{}^\\circ\\)，\\(\\angle OCP+\\angle OPC=90{}^\\circ\\)，\n\\(\\therefore \\angle OCP=\\angle EPD\\)，\n\\(\\therefore \\vartriangle OCP\\backsim \\vartriangle EPD\\)，\n\\(\\because PD:CP=1:2\\)，\n\\(\\therefore DE:PO=PE:CO=PD:CP=1:2\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }PO=\\frac { t } { 2 }\\)，\\(PE=\\frac { 1 } { 2 }CO=1\\)，\n\\(\\therefore D\\)点坐标为\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)，\n故答案为：\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)；\n【小问3详解】\n解：能构成直角三角形．\n①当\\(\\angle PDA=90{}^\\circ\\)时，\\(PC\\parallel AD\\)，\n由勾股定理得，\\(PD ^ { 2 } +AD ^ { 2 } =AP ^ { 2 }\\)，\\(PD ^ { 2 } =DE ^ { 2 } +PE ^ { 2 }\\)，\\(AD ^ { 2 } =DE ^ { 2 } +AE ^ { 2 }\\)，\n即\\(\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } +1+(4-t-1) ^ { 2 } +\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } =(4-t) ^ { 2 }\\)，\n解得，\\(t=2\\)或\\(t=-6\\)（舍去）．\n\\(\\therefore t=2\\)秒．\n②当\\(\\angle PAD=90{}^\\circ\\)时，此时点\\(D\\)在\\(AB\\)上，\n〔图3〕\n可知，\\(\\vartriangle COP\\backsim \\vartriangle PAD\\)，\n\\(\\therefore\\)\\(\\frac { CP } { PD }=\\frac { 2PD } { PD }=\\frac { CO } { PA }\\)，\n\\(\\therefore 2=\\frac { 2 } { PA }\\)，\n\\(\\therefore PA=1\\)，\n即\\(t+1=4\\)，\\(t=3\\)秒 ．\n综上，可知当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．\n【点睛】本题属于四边形综合题，考查了矩形的性质相似三角形的判定和性质，是动点问题在实际生活中的运用，结合了直角三角形的相关性质，具有一定的综合性．",
+  "given_solution_figures": [
+    "assets/figures/e1/e122ef36c2f58501a164d5a346480a24158c7e557f989f176ed53f3edc006d4a.png",
+    "assets/figures/43/43e4df4c18a35da1974328f279ec382c339254f26160d8321efcf087cac3ec1b.png",
+    "assets/figures/9d/9d53d1a6288b21c6385e0e78acbbe697fd6b35972424b9bf67c217f8ebd91884.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(t=2\\)，\n∴\\(OP=OC=2\\)，\n∴\\(\\angle OPC=\\angle OCP=45{}^\\circ\\)，\\(PC=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\n设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，\n〔图2〕\n∴\\(\\angle DPE=180{}^\\circ -45{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\\(PD=PF=\\frac { 1 } { 2 }PC=\\sqrt[] { 2 }\\)，\n∴\\(PE=DE=\\frac { \\sqrt[] { 2 } } { 2 }PD=1\\)，\n∴点\\(D\\)坐标为\\(\\left ( { 3，1 } \\right )\\)；\n故答案为：\\(\\left ( { 3，1 } \\right )\\)；\n【小问2详解】\n解：∵点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒1个单位长的速度向点\\(A\\)匀速运动，\n\\(\\therefore OP=t\\)，而\\(OC=2\\)，\n\\(\\therefore P(t，0)\\)，\n设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，\n〔图2〕\n则\\(F\\)点的坐标为\\(\\left ( { \\frac { t } { 2 }，1 } \\right )\\)，\n\\(\\because F\\)点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，\n\\(\\therefore \\angle CPD=90\\)，\n\\(\\therefore \\angle DPE+\\angle OPC=90{}^\\circ\\)，\n又\\(\\because \\angle POC=90{}^\\circ\\)，\\(\\angle OCP+\\angle OPC=90{}^\\circ\\)，\n\\(\\therefore \\angle OCP=\\angle EPD\\)，\n\\(\\therefore \\vartriangle OCP\\backsim \\vartriangle EPD\\)，\n\\(\\because PD:CP=1:2\\)，\n\\(\\therefore DE:PO=PE:CO=PD:CP=1:2\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }PO=\\frac { t } { 2 }\\)，\\(PE=\\frac { 1 } { 2 }CO=1\\)，\n\\(\\therefore D\\)点坐标为\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)，\n故答案为：\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)；\n【小问3详解】\n解：能构成直角三角形．\n①当\\(\\angle PDA=90{}^\\circ\\)时，\\(PC\\parallel AD\\)，\n由勾股定理得，\\(PD ^ { 2 } +AD ^ { 2 } =AP ^ { 2 }\\)，\\(PD ^ { 2 } =DE ^ { 2 } +PE ^ { 2 }\\)，\\(AD ^ { 2 } =DE ^ { 2 } +AE ^ { 2 }\\)，\n即\\(\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } +1+(4-t-1) ^ { 2 } +\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } =(4-t) ^ { 2 }\\)，\n解得，\\(t=2\\)或\\(t=-6\\)（舍去）．\n\\(\\therefore t=2\\)秒．\n②当\\(\\angle PAD=90{}^\\circ\\)时，此时点\\(D\\)在\\(AB\\)上，\n〔图3〕\n可知，\\(\\vartriangle COP\\backsim \\vartriangle PAD\\)，\n\\(\\therefore\\)\\(\\frac { CP } { PD }=\\frac { 2PD } { PD }=\\frac { CO } { PA }\\)，\n\\(\\therefore 2=\\frac { 2 } { PA }\\)，\n\\(\\therefore PA=1\\)，\n即\\(t+1=4\\)，\\(t=3\\)秒 ．\n综上，可知当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(t=2\\)，",
+    "∴\\(OP=OC=2\\)，",
+    "∴\\(\\angle OPC=\\angle OCP=45{}^\\circ\\)，\\(PC=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，",
+    "设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，",
+    "〔图2〕",
+    "∴\\(\\angle DPE=180{}^\\circ -45{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\\(PD=PF=\\frac { 1 } { 2 }PC=\\sqrt[] { 2 }\\)，",
+    "∴\\(PE=DE=\\frac { \\sqrt[] { 2 } } { 2 }PD=1\\)，",
+    "∴点\\(D\\)坐标为\\(\\left ( { 3，1 } \\right )\\)；",
+    "故答案为：\\(\\left ( { 3，1 } \\right )\\)；",
+    "【小问2详解】",
+    "解：∵点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒1个单位长的速度向点\\(A\\)匀速运动，",
+    "\\(\\therefore OP=t\\)，而\\(OC=2\\)，",
+    "\\(\\therefore P(t，0)\\)，",
+    "设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，",
+    "〔图2〕",
+    "则\\(F\\)点的坐标为\\(\\left ( { \\frac { t } { 2 }，1 } \\right )\\)，",
+    "\\(\\because F\\)点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，",
+    "\\(\\therefore \\angle CPD=90\\)，",
+    "\\(\\therefore \\angle DPE+\\angle OPC=90{}^\\circ\\)，",
+    "又\\(\\because \\angle POC=90{}^\\circ\\)，\\(\\angle OCP+\\angle OPC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle OCP=\\angle EPD\\)，",
+    "\\(\\therefore \\vartriangle OCP\\backsim \\vartriangle EPD\\)，",
+    "\\(\\because PD:CP=1:2\\)，",
+    "\\(\\therefore DE:PO=PE:CO=PD:CP=1:2\\)，",
+    "\\(\\therefore DE=\\frac { 1 } { 2 }PO=\\frac { t } { 2 }\\)，\\(PE=\\frac { 1 } { 2 }CO=1\\)，",
+    "\\(\\therefore D\\)点坐标为\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)，",
+    "故答案为：\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)；",
+    "【小问3详解】",
+    "解：能构成直角三角形．",
+    "①当\\(\\angle PDA=90{}^\\circ\\)时，\\(PC\\parallel AD\\)，",
+    "由勾股定理得，\\(PD ^ { 2 } +AD ^ { 2 } =AP ^ { 2 }\\)，\\(PD ^ { 2 } =DE ^ { 2 } +PE ^ { 2 }\\)，\\(AD ^ { 2 } =DE ^ { 2 } +AE ^ { 2 }\\)，",
+    "即\\(\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } +1+(4-t-1) ^ { 2 } +\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } =(4-t) ^ { 2 }\\)，",
+    "解得，\\(t=2\\)或\\(t=-6\\)（舍去）．",
+    "\\(\\therefore t=2\\)秒．",
+    "②当\\(\\angle PAD=90{}^\\circ\\)时，此时点\\(D\\)在\\(AB\\)上，",
+    "〔图3〕",
+    "可知，\\(\\vartriangle COP\\backsim \\vartriangle PAD\\)，",
+    "\\(\\therefore\\)\\(\\frac { CP } { PD }=\\frac { 2PD } { PD }=\\frac { CO } { PA }\\)，",
+    "\\(\\therefore 2=\\frac { 2 } { PA }\\)，",
+    "\\(\\therefore PA=1\\)，",
+    "即\\(t+1=4\\)，\\(t=3\\)秒 ．",
+    "综上，可知当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，矩形\\(OABC\\)的两边\\(OA\\)，\\(OC\\)分别在\\(x\\)轴、\\(y\\)轴的正半轴上，\\(OA=4\\)，\\(OC=2\\)．点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒\\(1\\)个单位长的速度向点\\(A\\)匀速运动，当点\\(P\\)到达点\\(A\\)时停止运动，设点\\(P\\)运动的时间是\\(t\\)秒．将线段\\(CP\\)的中点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，点\\(D\\)随点\\(P\\)的运动而运动，连接\\(DP\\)，\\(DA\\)．\n〔图1〕",
+      "paper_blocks": [
+        59,
+        60
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-C5980164B8-Q21-P01",
+      "label": "（1）",
+      "prompt": "当\\(t=2\\)时，点\\(D\\)的坐标是    ；",
+      "stem_text": "当\\(t=2\\)时，点\\(D\\)的坐标是    ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 3，1 } \\right )\\)",
+      "answer": "\\(\\left ( { 3，1 } \\right )\\)",
+      "given_solution": "解：∵\\(t=2\\)，\n∴\\(OP=OC=2\\)，\n∴\\(\\angle OPC=\\angle OCP=45{}^\\circ\\)，\\(PC=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\n设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，\n〔图2〕\n∴\\(\\angle DPE=180{}^\\circ -45{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\\(PD=PF=\\frac { 1 } { 2 }PC=\\sqrt[] { 2 }\\)，\n∴\\(PE=DE=\\frac { \\sqrt[] { 2 } } { 2 }PD=1\\)，\n∴点\\(D\\)坐标为\\(\\left ( { 3，1 } \\right )\\)；\n故答案为：\\(\\left ( { 3，1 } \\right )\\)；",
+      "solution_steps": [
+        "解：∵\\(t=2\\)，",
+        "∴\\(OP=OC=2\\)，",
+        "∴\\(\\angle OPC=\\angle OCP=45{}^\\circ\\)，\\(PC=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，",
+        "设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，",
+        "〔图2〕",
+        "∴\\(\\angle DPE=180{}^\\circ -45{}^\\circ -90{}^\\circ =45{}^\\circ\\)，\\(PD=PF=\\frac { 1 } { 2 }PC=\\sqrt[] { 2 }\\)，",
+        "∴\\(PE=DE=\\frac { \\sqrt[] { 2 } } { 2 }PD=1\\)，",
+        "∴点\\(D\\)坐标为\\(\\left ( { 3，1 } \\right )\\)；",
+        "故答案为：\\(\\left ( { 3，1 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C5980164B8-Q21-P02",
+      "label": "（2）",
+      "prompt": "请用含\\(t\\)的代数式表示出点\\(D\\)的坐标    ；",
+      "stem_text": "请用含\\(t\\)的代数式表示出点\\(D\\)的坐标    ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)",
+      "answer": "\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)",
+      "given_solution": "解：∵点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒1个单位长的速度向点\\(A\\)匀速运动，\n\\(\\therefore OP=t\\)，而\\(OC=2\\)，\n\\(\\therefore P(t，0)\\)，\n设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，\n〔图2〕\n则\\(F\\)点的坐标为\\(\\left ( { \\frac { t } { 2 }，1 } \\right )\\)，\n\\(\\because F\\)点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，\n\\(\\therefore \\angle CPD=90\\)，\n\\(\\therefore \\angle DPE+\\angle OPC=90{}^\\circ\\)，\n又\\(\\because \\angle POC=90{}^\\circ\\)，\\(\\angle OCP+\\angle OPC=90{}^\\circ\\)，\n\\(\\therefore \\angle OCP=\\angle EPD\\)，\n\\(\\therefore \\vartriangle OCP\\backsim \\vartriangle EPD\\)，\n\\(\\because PD:CP=1:2\\)，\n\\(\\therefore DE:PO=PE:CO=PD:CP=1:2\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }PO=\\frac { t } { 2 }\\)，\\(PE=\\frac { 1 } { 2 }CO=1\\)，\n\\(\\therefore D\\)点坐标为\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)，\n故答案为：\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)；",
+      "solution_steps": [
+        "解：∵点\\(P\\)从点\\(O\\)出发，沿\\(x\\)轴以每秒1个单位长的速度向点\\(A\\)匀速运动，",
+        "\\(\\therefore OP=t\\)，而\\(OC=2\\)，",
+        "\\(\\therefore P(t，0)\\)，",
+        "设\\(CP\\)的中点为\\(F\\)，过\\(D\\)点作\\(DE\\bot OA\\)，垂足为\\(E\\)，",
+        "〔图2〕",
+        "则\\(F\\)点的坐标为\\(\\left ( { \\frac { t } { 2 }，1 } \\right )\\)，",
+        "\\(\\because F\\)点绕点\\(P\\)按顺时针方向旋转\\(90{}^\\circ\\)得点\\(D\\)，",
+        "\\(\\therefore \\angle CPD=90\\)，",
+        "\\(\\therefore \\angle DPE+\\angle OPC=90{}^\\circ\\)，",
+        "又\\(\\because \\angle POC=90{}^\\circ\\)，\\(\\angle OCP+\\angle OPC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle OCP=\\angle EPD\\)，",
+        "\\(\\therefore \\vartriangle OCP\\backsim \\vartriangle EPD\\)，",
+        "\\(\\because PD:CP=1:2\\)，",
+        "\\(\\therefore DE:PO=PE:CO=PD:CP=1:2\\)，",
+        "\\(\\therefore DE=\\frac { 1 } { 2 }PO=\\frac { t } { 2 }\\)，\\(PE=\\frac { 1 } { 2 }CO=1\\)，",
+        "\\(\\therefore D\\)点坐标为\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)，",
+        "故答案为：\\(\\left ( { t+1，\\frac { t } { 2 } } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          62
+        ],
+        "solution_block_ids": [
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面含“用含 t 的代数式表示”。用代数式表示数量关系。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-C5980164B8-Q21-P03",
+      "label": "（3）",
+      "prompt": "在点\\(P\\)从\\(O\\)向\\(A\\)运动的过程中，\\(\\vartriangle DPA\\)能否成为直角三角形？若能，求\\(t\\)的值．若不能，请说明理由．",
+      "stem_text": "在点\\(P\\)从\\(O\\)向\\(A\\)运动的过程中，\\(\\vartriangle DPA\\)能否成为直角三角形？若能，求\\(t\\)的值．若不能，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．",
+      "answer": "当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．",
+      "given_solution": "解：能构成直角三角形．\n①当\\(\\angle PDA=90{}^\\circ\\)时，\\(PC\\parallel AD\\)，\n由勾股定理得，\\(PD ^ { 2 } +AD ^ { 2 } =AP ^ { 2 }\\)，\\(PD ^ { 2 } =DE ^ { 2 } +PE ^ { 2 }\\)，\\(AD ^ { 2 } =DE ^ { 2 } +AE ^ { 2 }\\)，\n即\\(\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } +1+(4-t-1) ^ { 2 } +\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } =(4-t) ^ { 2 }\\)，\n解得，\\(t=2\\)或\\(t=-6\\)（舍去）．\n\\(\\therefore t=2\\)秒．\n②当\\(\\angle PAD=90{}^\\circ\\)时，此时点\\(D\\)在\\(AB\\)上，\n〔图3〕\n可知，\\(\\vartriangle COP\\backsim \\vartriangle PAD\\)，\n\\(\\therefore\\)\\(\\frac { CP } { PD }=\\frac { 2PD } { PD }=\\frac { CO } { PA }\\)，\n\\(\\therefore 2=\\frac { 2 } { PA }\\)，\n\\(\\therefore PA=1\\)，\n即\\(t+1=4\\)，\\(t=3\\)秒 ．\n综上，可知当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．",
+      "solution_steps": [
+        "解：能构成直角三角形．",
+        "①当\\(\\angle PDA=90{}^\\circ\\)时，\\(PC\\parallel AD\\)，",
+        "由勾股定理得，\\(PD ^ { 2 } +AD ^ { 2 } =AP ^ { 2 }\\)，\\(PD ^ { 2 } =DE ^ { 2 } +PE ^ { 2 }\\)，\\(AD ^ { 2 } =DE ^ { 2 } +AE ^ { 2 }\\)，",
+        "即\\(\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } +1+(4-t-1) ^ { 2 } +\\left ( { \\frac { t } { 2 } } \\right ) ^ { 2 } =(4-t) ^ { 2 }\\)，",
+        "解得，\\(t=2\\)或\\(t=-6\\)（舍去）．",
+        "\\(\\therefore t=2\\)秒．",
+        "②当\\(\\angle PAD=90{}^\\circ\\)时，此时点\\(D\\)在\\(AB\\)上，",
+        "〔图3〕",
+        "可知，\\(\\vartriangle COP\\backsim \\vartriangle PAD\\)，",
+        "\\(\\therefore\\)\\(\\frac { CP } { PD }=\\frac { 2PD } { PD }=\\frac { CO } { PA }\\)，",
+        "\\(\\therefore 2=\\frac { 2 } { PA }\\)，",
+        "\\(\\therefore PA=1\\)，",
+        "即\\(t+1=4\\)，\\(t=3\\)秒 ．",
+        "综上，可知当\\(t\\)为2秒或3秒时，\\(\\vartriangle DPA\\)能成为直角三角形．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.05"
+      ],
+      "exam_ids": [
+        "E.G04.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“用边长平方关系判定直角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      63
+    ],
+    "solution_body_blocks": [
+      339,
+      394
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-C5980164B8/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          339.09,
+          583.64,
+          626.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-C5980164B8/solution-q21-p19.webp",
+      "assets/SZ-G8-T2-C5980164B8/solution-q21-p20.webp",
+      "assets/SZ-G8-T2-C5980164B8/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          704.55
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          337.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.N03.01",
+    "M.G04.05"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.N03.01.01",
+    "E.G04.05.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 题面含“用含 t 的代数式表示”。用代数式表示数量关系。 本问的要求和解答步骤对应“用边长平方关系判定直角”。",
+  "tag_source": "小问标签汇总"
+}

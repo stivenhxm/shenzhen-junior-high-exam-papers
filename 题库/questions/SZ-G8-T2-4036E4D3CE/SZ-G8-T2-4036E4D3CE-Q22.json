@@ -1,0 +1,399 @@
+{
+  "id": "SZ-G8-T2-4036E4D3CE-Q22",
+  "paper_id": "SZ-G8-T2-4036E4D3CE",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将面积条件转为点的位置约束",
+  "stem": "如图，在平面直角坐标系中，四边形\\(OABC\\)各顶点坐标分别为\\(O\\left ( { 0,0 } \\right )\\)，\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)．\n〔图1〕\n（1）求\\(AB\\)所在直线的函数表达式；\n（2）若直线\\(BC\\)上有一点\\(D\\)，使得\\(\\vartriangle ABD\\)与\\(\\vartriangle ABO\\)的面积相等，求出点\\(D\\)的坐标；\n（3）有一动点\\(P\\)从\\(O\\)点出发，沿折线\\(OA-AB-BC\\)运动，速度为1单位长度/秒，运动时间为\\(t\\)秒，到达\\(C\\)点时停止运动．试求出\\(\\vartriangle OPC\\)的面积\\(S\\)关于\\(t\\)的函数关系式，并写出相应\\(t\\)的取值范围．",
+  "choices": [],
+  "figures": [
+    "assets/figures/0e/0e6c91eb89f0938e5a2b78f2e884aa4b3b56ca70312dc306ab36dab673f73cc9.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n（2）\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)\n（3）\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)",
+  "answer": "（1）\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n（2）\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)\n（3）\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)",
+  "given_solution": "【分析】（1）用待定系数法求一次函数解析式即可；\n（2）先求出BC的解析式，过点\\(O\\)作\\(OD\\parallel AB\\)交\\(BC\\)于\\(D\\)，则\\(S_{ \\vartriangle ABO } =S_{ \\vartriangle ABD }\\)，根据直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)，得出直线\\(OD\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，联立\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 3 }x \\\\ y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 } \\end{cases}\\)，解方程组即可得出点D的坐标；根据对称性可知，当点\\(D\\)在\\(CB\\)的延长线上时，利用中点坐标公式求出此时点D的坐标即可；\n（3）根据A、B、C三点坐标求出OA、AB、BC，分\\(0 < t\\le 2\\)、\\(2 < t\\le 2+2\\sqrt[] { 3 }\\)、\\(2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 }\\)三种情况分别求出结果即可．\n【小问1详解】\n解：设直线\\(AB\\)的解析式为\\(y=kx+b\\)，\n把\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)代入\\(y=kx+b\\)，则有\\(\\begin{cases} k+b=\\sqrt[] { 3 } \\\\ 4k+b=2\\sqrt[] { 3 } \\end{cases}\\)，\n解得\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．\n【小问2详解】\n解：设直线BC的解析式为\\(y=k'x+b'\\)，把\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)代入得：\n\\(\\begin{cases} 4k'+b'=2\\sqrt[] { 3 } \\\\ 6k'+b'=0 \\end{cases}\\)，解得：\\(\\begin{cases} k'=-\\sqrt[] { 3 } \\\\ b'=6\\sqrt[] { 3 } \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为\\(y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 }\\)，\n过点\\(O\\)作\\(OD\\parallel AB\\)交\\(BC\\)于\\(D\\)，则\\(S_{ \\vartriangle ABO } =S_{ \\vartriangle ABD }\\)，\n∵直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)，\n∴直线\\(OD\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，\n联立\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 3 }x \\\\ y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 } \\end{cases}\\)，解得\\(\\begin{cases} x=\\frac { 9 } { 2 } \\\\ y=\\frac { 3\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，\n∴\\(D\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)，\n根据对称性可知，当点\\(D\\)在\\(CB\\)的延长线上时，设此时点D的坐标为（m，n），根据中点坐标公式可知，\\(\\begin{cases} 4=\\frac { \\frac { 9 } { 2 }+m } { 2 } \\\\ 2\\sqrt[] { 3 }=\\frac { \\frac { 3\\sqrt[] { 3 } } { 2 }+n } { 2 } \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 7 } { 2 } \\\\ n=\\frac { 5\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，\n∴此时\\(D\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．\n综上所述，满足条件的点\\(D\\)的坐标为\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．\n〔图2〕【小问3详解】\n解：∵\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，\n∴\\(OA=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\)，\\(AB=\\sqrt[] { 3 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\sqrt[] { 3 }\\)，\\(BC=\\sqrt[] { 2 ^ { 2 } +(2\\sqrt[] { 3 }) ^ { 2 } }=4\\)，\n当\\(0 < t\\le 2\\)时，此时点P在OA上，过点P作PE⊥x轴于点E，如图所示：\n〔图3〕\n设OA的解析式为\\(y=k_{ 1 } x\\)，把\\(A\\left ( { 1，\\sqrt[] { 3 } } \\right )\\)代入得：\\(k_{ 1 } =\\sqrt[] { 3 }\\)，\n∴OA的解析式为\\(y=\\sqrt[] { 3 }x\\)，\n∴设纵坐标为m，则横坐标为\\(\\frac { \\sqrt[] { 3 } } { 3 }m\\)，\n∵\\(OP ^ { 2 } =PE ^ { 2 } +OE ^ { 2 }\\)，\n∴\\(t ^ { 2 } =m ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 3 }m } \\right ) ^ { 2 }\\)，\n解得：\\(m=\\frac { \\sqrt[] { 3 } } { 2 }t\\)或\\(m=-\\frac { \\sqrt[] { 3 } } { 2 }t\\)（舍去），\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }t=\\frac { 3\\sqrt[] { 3 } } { 2 }t\\)；\n当\\(2 < t\\le 2+2\\sqrt[] { 3 }\\)，过点P作PE⊥x轴于点E，过点A作AF⊥PE于点F，如图所示：\n〔图4〕\n同理可得：\\(P\\)点的纵坐标为\\(\\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2)\\)，\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\left[ \\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2) \\right]=\\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\)；\n当\\(2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 }\\)时，过点P作PE⊥x轴于点E，如图所示：\n〔图5〕\n同理可得：点\\(P\\)的纵坐标为\\(\\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)\\)，\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)=-\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\)．\n综上分析可知，\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)．\n【点睛】本题属于一次函数综合题，考查了一次函数的性质，三角形的面积，平行线的性质等知识，解题的关键是学会用分类讨论的思想思考问题，属于中考压轴题．",
+  "given_solution_figures": [
+    "assets/figures/26/263a43df92fa13f95b27b3ca32a2700d3f90de068abe63ecacc28de167f18b27.png",
+    "assets/figures/70/70d5f96ddf9cfb31ff126039e0303ee9486cdcbae96036195b2fd50d9aec5d42.png",
+    "assets/figures/ca/ca32d0219b6cf039c1434c9949346e93191fa03a6f09c25a56522a62bc4ed41b.png",
+    "assets/figures/99/999fc67a809248a6949d1d62a14ae32c9749ed21b9c7547e9a8145fa6313314e.png",
+    "assets/figures/15/154ced05239006d52adde3e442c371c23f9919b09fd85f3abe78bf11271e3c86.png"
+  ],
+  "solution": "【小问1详解】\n解：设直线\\(AB\\)的解析式为\\(y=kx+b\\)，\n把\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)代入\\(y=kx+b\\)，则有\\(\\begin{cases} k+b=\\sqrt[] { 3 } \\\\ 4k+b=2\\sqrt[] { 3 } \\end{cases}\\)，\n解得\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．\n【小问2详解】\n解：设直线BC的解析式为\\(y=k'x+b'\\)，把\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)代入得：\n\\(\\begin{cases} 4k'+b'=2\\sqrt[] { 3 } \\\\ 6k'+b'=0 \\end{cases}\\)，解得：\\(\\begin{cases} k'=-\\sqrt[] { 3 } \\\\ b'=6\\sqrt[] { 3 } \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为\\(y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 }\\)，\n过点\\(O\\)作\\(OD\\parallel AB\\)交\\(BC\\)于\\(D\\)，则\\(S_{ \\vartriangle ABO } =S_{ \\vartriangle ABD }\\)，\n∵直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)，\n∴直线\\(OD\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，\n联立\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 3 }x \\\\ y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 } \\end{cases}\\)，解得\\(\\begin{cases} x=\\frac { 9 } { 2 } \\\\ y=\\frac { 3\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，\n∴\\(D\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)，\n根据对称性可知，当点\\(D\\)在\\(CB\\)的延长线上时，设此时点D的坐标为（m，n），根据中点坐标公式可知，\\(\\begin{cases} 4=\\frac { \\frac { 9 } { 2 }+m } { 2 } \\\\ 2\\sqrt[] { 3 }=\\frac { \\frac { 3\\sqrt[] { 3 } } { 2 }+n } { 2 } \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 7 } { 2 } \\\\ n=\\frac { 5\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，\n∴此时\\(D\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．\n综上所述，满足条件的点\\(D\\)的坐标为\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．\n〔图2〕【小问3详解】\n解：∵\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，\n∴\\(OA=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\)，\\(AB=\\sqrt[] { 3 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\sqrt[] { 3 }\\)，\\(BC=\\sqrt[] { 2 ^ { 2 } +(2\\sqrt[] { 3 }) ^ { 2 } }=4\\)，\n当\\(0 < t\\le 2\\)时，此时点P在OA上，过点P作PE⊥x轴于点E，如图所示：\n〔图3〕\n设OA的解析式为\\(y=k_{ 1 } x\\)，把\\(A\\left ( { 1，\\sqrt[] { 3 } } \\right )\\)代入得：\\(k_{ 1 } =\\sqrt[] { 3 }\\)，\n∴OA的解析式为\\(y=\\sqrt[] { 3 }x\\)，\n∴设纵坐标为m，则横坐标为\\(\\frac { \\sqrt[] { 3 } } { 3 }m\\)，\n∵\\(OP ^ { 2 } =PE ^ { 2 } +OE ^ { 2 }\\)，\n∴\\(t ^ { 2 } =m ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 3 }m } \\right ) ^ { 2 }\\)，\n解得：\\(m=\\frac { \\sqrt[] { 3 } } { 2 }t\\)或\\(m=-\\frac { \\sqrt[] { 3 } } { 2 }t\\)（舍去），\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }t=\\frac { 3\\sqrt[] { 3 } } { 2 }t\\)；\n当\\(2 < t\\le 2+2\\sqrt[] { 3 }\\)，过点P作PE⊥x轴于点E，过点A作AF⊥PE于点F，如图所示：\n〔图4〕\n同理可得：\\(P\\)点的纵坐标为\\(\\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2)\\)，\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\left[ \\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2) \\right]=\\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\)；\n当\\(2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 }\\)时，过点P作PE⊥x轴于点E，如图所示：\n〔图5〕\n同理可得：点\\(P\\)的纵坐标为\\(\\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)\\)，\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)=-\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\)．\n综上分析可知，\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：设直线\\(AB\\)的解析式为\\(y=kx+b\\)，",
+    "把\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)代入\\(y=kx+b\\)，则有\\(\\begin{cases} k+b=\\sqrt[] { 3 } \\\\ 4k+b=2\\sqrt[] { 3 } \\end{cases}\\)，",
+    "解得\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+    "∴直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．",
+    "【小问2详解】",
+    "解：设直线BC的解析式为\\(y=k'x+b'\\)，把\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)代入得：",
+    "\\(\\begin{cases} 4k'+b'=2\\sqrt[] { 3 } \\\\ 6k'+b'=0 \\end{cases}\\)，解得：\\(\\begin{cases} k'=-\\sqrt[] { 3 } \\\\ b'=6\\sqrt[] { 3 } \\end{cases}\\)，",
+    "∴直线\\(BC\\)的解析式为\\(y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 }\\)，",
+    "过点\\(O\\)作\\(OD\\parallel AB\\)交\\(BC\\)于\\(D\\)，则\\(S_{ \\vartriangle ABO } =S_{ \\vartriangle ABD }\\)，",
+    "∵直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)，",
+    "∴直线\\(OD\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，",
+    "联立\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 3 }x \\\\ y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 } \\end{cases}\\)，解得\\(\\begin{cases} x=\\frac { 9 } { 2 } \\\\ y=\\frac { 3\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，",
+    "∴\\(D\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)，",
+    "根据对称性可知，当点\\(D\\)在\\(CB\\)的延长线上时，设此时点D的坐标为（m，n），根据中点坐标公式可知，\\(\\begin{cases} 4=\\frac { \\frac { 9 } { 2 }+m } { 2 } \\\\ 2\\sqrt[] { 3 }=\\frac { \\frac { 3\\sqrt[] { 3 } } { 2 }+n } { 2 } \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 7 } { 2 } \\\\ n=\\frac { 5\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，",
+    "∴此时\\(D\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．",
+    "综上所述，满足条件的点\\(D\\)的坐标为\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．",
+    "〔图2〕【小问3详解】",
+    "解：∵\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，",
+    "∴\\(OA=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\)，\\(AB=\\sqrt[] { 3 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\sqrt[] { 3 }\\)，\\(BC=\\sqrt[] { 2 ^ { 2 } +(2\\sqrt[] { 3 }) ^ { 2 } }=4\\)，",
+    "当\\(0 < t\\le 2\\)时，此时点P在OA上，过点P作PE⊥x轴于点E，如图所示：",
+    "〔图3〕",
+    "设OA的解析式为\\(y=k_{ 1 } x\\)，把\\(A\\left ( { 1，\\sqrt[] { 3 } } \\right )\\)代入得：\\(k_{ 1 } =\\sqrt[] { 3 }\\)，",
+    "∴OA的解析式为\\(y=\\sqrt[] { 3 }x\\)，",
+    "∴设纵坐标为m，则横坐标为\\(\\frac { \\sqrt[] { 3 } } { 3 }m\\)，",
+    "∵\\(OP ^ { 2 } =PE ^ { 2 } +OE ^ { 2 }\\)，",
+    "∴\\(t ^ { 2 } =m ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 3 }m } \\right ) ^ { 2 }\\)，",
+    "解得：\\(m=\\frac { \\sqrt[] { 3 } } { 2 }t\\)或\\(m=-\\frac { \\sqrt[] { 3 } } { 2 }t\\)（舍去），",
+    "∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }t=\\frac { 3\\sqrt[] { 3 } } { 2 }t\\)；",
+    "当\\(2 < t\\le 2+2\\sqrt[] { 3 }\\)，过点P作PE⊥x轴于点E，过点A作AF⊥PE于点F，如图所示：",
+    "〔图4〕",
+    "同理可得：\\(P\\)点的纵坐标为\\(\\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2)\\)，",
+    "∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\left[ \\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2) \\right]=\\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\)；",
+    "当\\(2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 }\\)时，过点P作PE⊥x轴于点E，如图所示：",
+    "〔图5〕",
+    "同理可得：点\\(P\\)的纵坐标为\\(\\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)\\)，",
+    "∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)=-\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\)．",
+    "综上分析可知，\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，四边形\\(OABC\\)各顶点坐标分别为\\(O\\left ( { 0,0 } \\right )\\)，\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)．\n〔图1〕",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-4036E4D3CE-Q22-P01",
+      "label": "（1）",
+      "prompt": "求\\(AB\\)所在直线的函数表达式；",
+      "stem_text": "求\\(AB\\)所在直线的函数表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+      "answer": "\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+      "given_solution": "解：设直线\\(AB\\)的解析式为\\(y=kx+b\\)，\n把\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)代入\\(y=kx+b\\)，则有\\(\\begin{cases} k+b=\\sqrt[] { 3 } \\\\ 4k+b=2\\sqrt[] { 3 } \\end{cases}\\)，\n解得\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．",
+      "solution_steps": [
+        "解：设直线\\(AB\\)的解析式为\\(y=kx+b\\)，",
+        "把\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)代入\\(y=kx+b\\)，则有\\(\\begin{cases} k+b=\\sqrt[] { 3 } \\\\ 4k+b=2\\sqrt[] { 3 } \\end{cases}\\)，",
+        "解得\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+        "∴直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          66
+        ],
+        "solution_block_ids": [
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-4036E4D3CE-Q22-P02",
+      "label": "（2）",
+      "prompt": "若直线\\(BC\\)上有一点\\(D\\)，使得\\(\\vartriangle ABD\\)与\\(\\vartriangle ABO\\)的面积相等，求出点\\(D\\)的坐标；",
+      "stem_text": "若直线\\(BC\\)上有一点\\(D\\)，使得\\(\\vartriangle ABD\\)与\\(\\vartriangle ABO\\)的面积相等，求出点\\(D\\)的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)",
+      "answer": "\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)",
+      "given_solution": "解：设直线BC的解析式为\\(y=k'x+b'\\)，把\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)代入得：\n\\(\\begin{cases} 4k'+b'=2\\sqrt[] { 3 } \\\\ 6k'+b'=0 \\end{cases}\\)，解得：\\(\\begin{cases} k'=-\\sqrt[] { 3 } \\\\ b'=6\\sqrt[] { 3 } \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为\\(y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 }\\)，\n过点\\(O\\)作\\(OD\\parallel AB\\)交\\(BC\\)于\\(D\\)，则\\(S_{ \\vartriangle ABO } =S_{ \\vartriangle ABD }\\)，\n∵直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)，\n∴直线\\(OD\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，\n联立\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 3 }x \\\\ y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 } \\end{cases}\\)，解得\\(\\begin{cases} x=\\frac { 9 } { 2 } \\\\ y=\\frac { 3\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，\n∴\\(D\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)，\n根据对称性可知，当点\\(D\\)在\\(CB\\)的延长线上时，设此时点D的坐标为（m，n），根据中点坐标公式可知，\\(\\begin{cases} 4=\\frac { \\frac { 9 } { 2 }+m } { 2 } \\\\ 2\\sqrt[] { 3 }=\\frac { \\frac { 3\\sqrt[] { 3 } } { 2 }+n } { 2 } \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 7 } { 2 } \\\\ n=\\frac { 5\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，\n∴此时\\(D\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．\n综上所述，满足条件的点\\(D\\)的坐标为\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．\n〔图2〕",
+      "solution_steps": [
+        "解：设直线BC的解析式为\\(y=k'x+b'\\)，把\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)代入得：",
+        "\\(\\begin{cases} 4k'+b'=2\\sqrt[] { 3 } \\\\ 6k'+b'=0 \\end{cases}\\)，解得：\\(\\begin{cases} k'=-\\sqrt[] { 3 } \\\\ b'=6\\sqrt[] { 3 } \\end{cases}\\)，",
+        "∴直线\\(BC\\)的解析式为\\(y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 }\\)，",
+        "过点\\(O\\)作\\(OD\\parallel AB\\)交\\(BC\\)于\\(D\\)，则\\(S_{ \\vartriangle ABO } =S_{ \\vartriangle ABD }\\)，",
+        "∵直线\\(AB\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { 2\\sqrt[] { 3 } } { 3 }\\)，",
+        "∴直线\\(OD\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，",
+        "联立\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 3 }x \\\\ y=-\\sqrt[] { 3 }x+6\\sqrt[] { 3 } \\end{cases}\\)，解得\\(\\begin{cases} x=\\frac { 9 } { 2 } \\\\ y=\\frac { 3\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，",
+        "∴\\(D\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)，",
+        "根据对称性可知，当点\\(D\\)在\\(CB\\)的延长线上时，设此时点D的坐标为（m，n），根据中点坐标公式可知，\\(\\begin{cases} 4=\\frac { \\frac { 9 } { 2 }+m } { 2 } \\\\ 2\\sqrt[] { 3 }=\\frac { \\frac { 3\\sqrt[] { 3 } } { 2 }+n } { 2 } \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 7 } { 2 } \\\\ n=\\frac { 5\\sqrt[] { 3 } } { 2 } \\end{cases}\\)，",
+        "∴此时\\(D\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．",
+        "综上所述，满足条件的点\\(D\\)的坐标为\\(\\left ( { \\frac { 9 } { 2 },\\frac { 3\\sqrt[] { 3 } } { 2 } } \\right )\\)或\\(\\left ( { \\frac { 7 } { 2 },\\frac { 5\\sqrt[] { 3 } } { 2 } } \\right )\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-4036E4D3CE-Q22-P03",
+      "label": "（3）",
+      "prompt": "有一动点\\(P\\)从\\(O\\)点出发，沿折线\\(OA-AB-BC\\)运动，速度为1单位长度/秒，运动时间为\\(t\\)秒，到达\\(C\\)点时停止运动．试求出\\(\\vartriangle OPC\\)的面积\\(S\\)关于\\(t\\)的函数关系式，并写出相应\\(t\\)的取值范围．",
+      "stem_text": "有一动点\\(P\\)从\\(O\\)点出发，沿折线\\(OA-AB-BC\\)运动，速度为1单位长度/秒，运动时间为\\(t\\)秒，到达\\(C\\)点时停止运动．试求出\\(\\vartriangle OPC\\)的面积\\(S\\)关于\\(t\\)的函数关系式，并写出相应\\(t\\)的取值范围．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)",
+      "answer": "\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)",
+      "given_solution": "解：∵\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，\n∴\\(OA=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\)，\\(AB=\\sqrt[] { 3 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\sqrt[] { 3 }\\)，\\(BC=\\sqrt[] { 2 ^ { 2 } +(2\\sqrt[] { 3 }) ^ { 2 } }=4\\)，\n当\\(0 < t\\le 2\\)时，此时点P在OA上，过点P作PE⊥x轴于点E，如图所示：\n〔图3〕\n设OA的解析式为\\(y=k_{ 1 } x\\)，把\\(A\\left ( { 1，\\sqrt[] { 3 } } \\right )\\)代入得：\\(k_{ 1 } =\\sqrt[] { 3 }\\)，\n∴OA的解析式为\\(y=\\sqrt[] { 3 }x\\)，\n∴设纵坐标为m，则横坐标为\\(\\frac { \\sqrt[] { 3 } } { 3 }m\\)，\n∵\\(OP ^ { 2 } =PE ^ { 2 } +OE ^ { 2 }\\)，\n∴\\(t ^ { 2 } =m ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 3 }m } \\right ) ^ { 2 }\\)，\n解得：\\(m=\\frac { \\sqrt[] { 3 } } { 2 }t\\)或\\(m=-\\frac { \\sqrt[] { 3 } } { 2 }t\\)（舍去），\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }t=\\frac { 3\\sqrt[] { 3 } } { 2 }t\\)；\n当\\(2 < t\\le 2+2\\sqrt[] { 3 }\\)，过点P作PE⊥x轴于点E，过点A作AF⊥PE于点F，如图所示：\n〔图4〕\n同理可得：\\(P\\)点的纵坐标为\\(\\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2)\\)，\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\left[ \\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2) \\right]=\\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\)；\n当\\(2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 }\\)时，过点P作PE⊥x轴于点E，如图所示：\n〔图5〕\n同理可得：点\\(P\\)的纵坐标为\\(\\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)\\)，\n∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)=-\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\)．\n综上分析可知，\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)．",
+      "solution_steps": [
+        "解：∵\\(A\\left ( { 1,\\sqrt[] { 3 } } \\right )\\)，\\(B\\left ( { 4,2\\sqrt[] { 3 } } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，",
+        "∴\\(OA=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\)，\\(AB=\\sqrt[] { 3 ^ { 2 } +(\\sqrt[] { 3 }) ^ { 2 } }=2\\sqrt[] { 3 }\\)，\\(BC=\\sqrt[] { 2 ^ { 2 } +(2\\sqrt[] { 3 }) ^ { 2 } }=4\\)，",
+        "当\\(0 < t\\le 2\\)时，此时点P在OA上，过点P作PE⊥x轴于点E，如图所示：",
+        "〔图3〕",
+        "设OA的解析式为\\(y=k_{ 1 } x\\)，把\\(A\\left ( { 1，\\sqrt[] { 3 } } \\right )\\)代入得：\\(k_{ 1 } =\\sqrt[] { 3 }\\)，",
+        "∴OA的解析式为\\(y=\\sqrt[] { 3 }x\\)，",
+        "∴设纵坐标为m，则横坐标为\\(\\frac { \\sqrt[] { 3 } } { 3 }m\\)，",
+        "∵\\(OP ^ { 2 } =PE ^ { 2 } +OE ^ { 2 }\\)，",
+        "∴\\(t ^ { 2 } =m ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 3 }m } \\right ) ^ { 2 }\\)，",
+        "解得：\\(m=\\frac { \\sqrt[] { 3 } } { 2 }t\\)或\\(m=-\\frac { \\sqrt[] { 3 } } { 2 }t\\)（舍去），",
+        "∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }t=\\frac { 3\\sqrt[] { 3 } } { 2 }t\\)；",
+        "当\\(2 < t\\le 2+2\\sqrt[] { 3 }\\)，过点P作PE⊥x轴于点E，过点A作AF⊥PE于点F，如图所示：",
+        "〔图4〕",
+        "同理可得：\\(P\\)点的纵坐标为\\(\\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2)\\)，",
+        "∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\left[ \\sqrt[] { 3 }+\\frac { 1 } { 2 }(t-2) \\right]=\\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\)；",
+        "当\\(2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 }\\)时，过点P作PE⊥x轴于点E，如图所示：",
+        "〔图5〕",
+        "同理可得：点\\(P\\)的纵坐标为\\(\\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)\\)，",
+        "∴\\(S=\\frac { 1 } { 2 }\\times 6\\times \\frac { \\sqrt[] { 3 } } { 2 }(6+2\\sqrt[] { 3 }-t)=-\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\)．",
+        "综上分析可知，\\(S=\\begin{cases} \\frac { 3\\sqrt[] { 3 } } { 2 }t\\left ( { 0 < t\\le 2 } \\right ) \\\\ \\frac { 3 } { 2 }t+3\\sqrt[] { 3 }-3\\left ( { 2 < t\\le 2+2\\sqrt[] { 3 } } \\right ) \\\\ -\\frac { 3\\sqrt[] { 3 } } { 2 }t+9\\sqrt[] { 3 }+9\\left ( { 2+2\\sqrt[] { 3 } < t < 6+2\\sqrt[] { 3 } } \\right ) \\end{cases}\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      66
+    ],
+    "solution_body_blocks": [
+      361,
+      412
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-4036E4D3CE/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          314.09,
+          583.64,
+          618.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-4036E4D3CE/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-4036E4D3CE/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-4036E4D3CE/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-4036E4D3CE/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-4036E4D3CE/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          442.27,
+          583.64,
+          709.55
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          734.55
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          756.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          740.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          197.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.02",
+    "E.G09.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+  "tag_source": "小问标签汇总"
+}

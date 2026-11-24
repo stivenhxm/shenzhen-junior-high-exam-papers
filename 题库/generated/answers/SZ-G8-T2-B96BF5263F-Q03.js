@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q03",{"answer":"B","solution_steps":["由 \\(x-y=k\\) 和 \\(2x-3y=4\\)，得 \\(x=3k-4,\\ y=2k-4\\)。","代入条件得 \\(3k-4\\ge-1,\\ 2k-4\u003c2\\)，故 \\(1\\le k\u003c3\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

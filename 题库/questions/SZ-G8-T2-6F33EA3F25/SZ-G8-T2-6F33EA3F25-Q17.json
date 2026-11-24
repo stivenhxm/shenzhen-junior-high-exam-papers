@@ -1,0 +1,98 @@
+{
+  "id": "SZ-G8-T2-6F33EA3F25-Q17",
+  "paper_id": "SZ-G8-T2-6F33EA3F25",
+  "number": 17,
+  "type": "解答题",
+  "points": 7,
+  "title": "完成分式加减与混合化简",
+  "stem": "先化简，再求值：\\((1-\\frac { 1 } { x-1 })\\div \\frac { x ^ { 2 } -4x+4 } { x-1 }\\)，其中\\(x\\)是不等式\\(3-x\\ge 0\\)的正整数解.",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "1.",
+  "answer": "1.",
+  "given_solution": "【分析】将原式被除式括号中两项通分并利用同分母分式的减法法则计算，除式分子利用完全平方公式分解因式，分母利用平方差公式分解因式，然后利用除以一个数等于乘以这个数的倒数将除法运算化为乘法运算，约分得到最简结果，再由关于x的不等式求出解集得到x的范围，在范围中找出正整数解得到x的值，将x的值代入化简后的式子中计算，即可得到原式的值．\n【详解】解：原式=\\((\\frac { x-1 } { x-1 }-\\frac { 1 } { x-1 })\\div \\frac { \\left ( { x-2 } \\right ) ^ { 2 } } { x-1 }\\)\n=\\(\\frac { x-2 } { x-1 }\\times \\frac { x-1 } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)\n\\(=\\frac { 1 } { x-2 }\\)\n\\(3-x\\le 0\\)的正整数解为\\(x=1,2,3\\)\n但\\(x\\ne 1,x\\ne 2\\)\n所以\\(x=3\\)\n∴原式的值\\(\\frac { 1 } { x-2 }=1\\)\n【点睛】此题考查一元一次不等式的整数解，分式的化简求值，解题关键在于掌握运算法则.",
+  "given_solution_figures": [],
+  "solution": "解：原式=\\((\\frac { x-1 } { x-1 }-\\frac { 1 } { x-1 })\\div \\frac { \\left ( { x-2 } \\right ) ^ { 2 } } { x-1 }\\)\n=\\(\\frac { x-2 } { x-1 }\\times \\frac { x-1 } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)\n\\(=\\frac { 1 } { x-2 }\\)\n\\(3-x\\le 0\\)的正整数解为\\(x=1,2,3\\)\n但\\(x\\ne 1,x\\ne 2\\)\n所以\\(x=3\\)\n∴原式的值\\(\\frac { 1 } { x-2 }=1\\)",
+  "solution_steps": [
+    "解：原式=\\((\\frac { x-1 } { x-1 }-\\frac { 1 } { x-1 })\\div \\frac { \\left ( { x-2 } \\right ) ^ { 2 } } { x-1 }\\)",
+    "=\\(\\frac { x-2 } { x-1 }\\times \\frac { x-1 } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)",
+    "\\(=\\frac { 1 } { x-2 }\\)",
+    "\\(3-x\\le 0\\)的正整数解为\\(x=1,2,3\\)",
+    "但\\(x\\ne 1,x\\ne 2\\)",
+    "所以\\(x=3\\)",
+    "∴原式的值\\(\\frac { 1 } { x-2 }=1\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      46,
+      46
+    ],
+    "solution_body_blocks": [
+      240,
+      251
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6F33EA3F25/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          162.73,
+          583.64,
+          195.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6F33EA3F25/solution-q17-p12.webp",
+      "assets/SZ-G8-T2-6F33EA3F25/solution-q17-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          549.55,
+          583.64,
+          726.82
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          260.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N04.04"
+  ],
+  "exam_ids": [
+    "E.N04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“完成分式加减与混合化简”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q15",{"answer":"正方形","solution_steps":["中位线定理给出 \\(EF\\parallel AC,\\ FG\\parallel BD\\)，且 \\(EF=GH=AC/2,\\ FG=HE=BD/2\\)。","对角线既等长又垂直，故所得四边形四边相等，且相邻两边垂直，是正方形。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

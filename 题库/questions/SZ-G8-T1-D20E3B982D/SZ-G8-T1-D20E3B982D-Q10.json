@@ -1,0 +1,145 @@
+{
+  "id": "SZ-G8-T1-D20E3B982D-Q10",
+  "paper_id": "SZ-G8-T1-D20E3B982D",
+  "number": 10,
+  "type": "选择题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，△ABC和△ECD都是等腰直角三角形，△ABC的顶点A在△ECD的斜边DE上．下列结论：其中正确的有（    ）\n①△ACE≌△BCD；②∠DAB＝∠ACE；③AE+AC＝AD；④AE\\(^ { 2 }\\)+AD\\(^ { 2 }\\)＝2AC\\(^ { 2 }\\)\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "1个"
+    },
+    {
+      "label": "B",
+      "text": "2个"
+    },
+    {
+      "label": "C",
+      "text": "3个"
+    },
+    {
+      "label": "D",
+      "text": "4个"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G8-T1-D20E3B982D/figures/3d68be5cc1eb4297ca0969c9d601ab48442a53bb383ca5724f9664ac6780ab9d.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】根据等腰直角三角形的性质得到CA＝CB，∠CAB＝∠CBA＝45°，CD＝CE，∠E＝∠CDE＝45°，则可根据“SAS”证明△ACE≌△BCD，于是可对①进行判断；利用三角形外角性质得到∠DAB+∠BAC＝∠E+∠ACE，加上∠CAB＝∠E＝45°，则可得对②进行判断；由全等三角形得性质和等边三角形得性质得出③不正确；证出△ADB是直角三角形，由勾股定理得出④正确．\n【详解】解：∵△ABC和△ECD都是等腰直角三角形，\n∴CA＝CB，∠CAB＝∠CBA＝45°，CD＝CE，∠E＝∠CDE＝45°，\n∵∠ACE+∠ACD＝∠ACD+∠BCD，\n∴∠ACE＝∠BCD，\n在△ACE和△BCD中，\n\\(\\begin{cases} CE=CD \\\\ \\angle ACE=\\angle BCD \\\\ CA=CB \\end{cases}\\)，\n∴△ACE≌△BCD(SAS)，所以①正确；\n∵∠DAC＝∠E+∠ACE，即∠DAB+∠BAC＝∠E+∠ACE，\n而∠CAB＝∠E＝45°，\n∴∠DAB＝∠ACE，所以②正确；\n在AD上截取DF=AE，连接CF，如图所示，\n〔图2〕\n在△ACE和△FCD中，\n\\(\\begin{cases} AE=FD \\\\ \\angle E=\\angle CDF=45{}^\\circ \\\\ CE=CD \\end{cases}\\)\n∴△ACE\\(\\cong\\)△FCD(SAS)，\n∴AC=FC，\n当\\(\\angle CAF=60{}^\\circ\\)，△ACF是等边三角形，\n则AC=AF，此时AE+AC=DF+AF=AD，\n但\\(\\angle CAF=60{}^\\circ\\)无法求证，\n故③不正确；\n由①得，△ACE≌△BCD，\n∴AE=BD，\\(\\angle\\)CEA=\\(\\angle\\)CDB=45°，\n∴\\(\\angle\\)ADB=\\(\\angle\\)CDB+\\(\\angle\\)EDC=90°，\n∴△ADB是直角三角形，\n∴\\(AD ^ { 2 } +BD ^ { 2 } =AB ^ { 2 }\\)，\n∴\\(AD ^ { 2 } +AE ^ { 2 } =AB ^ { 2 }\\)，\n∵△ABC是等腰直角三角形，\n∴\\(AB=\\sqrt[] { 2 }AC\\)，\n∴\\(AE ^ { 2 } +AD ^ { 2 } =2AC ^ { 2 }\\)，故④正确；\n故选C．\n【点睛】本题考查了全等三角形得判定和性质、等腰直角三角形的性质、勾股定理和直角三角形的判定和性质，解决本题的关键是掌握全等三角形的判定和性质．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-D20E3B982D/figures/a27557d47595e50118a660c903130ad6b8ccfed312d3b6bf21d14eb49fb9b260.png",
+    "assets/SZ-G8-T1-D20E3B982D/figures/65c59e651de9d2ed0a1124e970cfacbef99c01dfea36f23344c732575b5d92b2.png"
+  ],
+  "solution": "解：∵△ABC和△ECD都是等腰直角三角形，\n∴CA＝CB，∠CAB＝∠CBA＝45°，CD＝CE，∠E＝∠CDE＝45°，\n∵∠ACE+∠ACD＝∠ACD+∠BCD，\n∴∠ACE＝∠BCD，\n在△ACE和△BCD中，\n\\(\\begin{cases} CE=CD \\\\ \\angle ACE=\\angle BCD \\\\ CA=CB \\end{cases}\\)，\n∴△ACE≌△BCD(SAS)，所以①正确；\n∵∠DAC＝∠E+∠ACE，即∠DAB+∠BAC＝∠E+∠ACE，\n而∠CAB＝∠E＝45°，\n∴∠DAB＝∠ACE，所以②正确；\n在AD上截取DF=AE，连接CF，如图所示，\n〔图2〕\n在△ACE和△FCD中，\n\\(\\begin{cases} AE=FD \\\\ \\angle E=\\angle CDF=45{}^\\circ \\\\ CE=CD \\end{cases}\\)\n∴△ACE\\(\\cong\\)△FCD(SAS)，\n∴AC=FC，\n当\\(\\angle CAF=60{}^\\circ\\)，△ACF是等边三角形，\n则AC=AF，此时AE+AC=DF+AF=AD，\n但\\(\\angle CAF=60{}^\\circ\\)无法求证，\n故③不正确；\n由①得，△ACE≌△BCD，\n∴AE=BD，\\(\\angle\\)CEA=\\(\\angle\\)CDB=45°，\n∴\\(\\angle\\)ADB=\\(\\angle\\)CDB+\\(\\angle\\)EDC=90°，\n∴△ADB是直角三角形，\n∴\\(AD ^ { 2 } +BD ^ { 2 } =AB ^ { 2 }\\)，\n∴\\(AD ^ { 2 } +AE ^ { 2 } =AB ^ { 2 }\\)，\n∵△ABC是等腰直角三角形，\n∴\\(AB=\\sqrt[] { 2 }AC\\)，\n∴\\(AE ^ { 2 } +AD ^ { 2 } =2AC ^ { 2 }\\)，故④正确；\n故选C．",
+  "solution_steps": [
+    "解：∵△ABC和△ECD都是等腰直角三角形，",
+    "∴CA＝CB，∠CAB＝∠CBA＝45°，CD＝CE，∠E＝∠CDE＝45°，",
+    "∵∠ACE+∠ACD＝∠ACD+∠BCD，",
+    "∴∠ACE＝∠BCD，",
+    "在△ACE和△BCD中，",
+    "\\(\\begin{cases} CE=CD \\\\ \\angle ACE=\\angle BCD \\\\ CA=CB \\end{cases}\\)，",
+    "∴△ACE≌△BCD(SAS)，所以①正确；",
+    "∵∠DAC＝∠E+∠ACE，即∠DAB+∠BAC＝∠E+∠ACE，",
+    "而∠CAB＝∠E＝45°，",
+    "∴∠DAB＝∠ACE，所以②正确；",
+    "在AD上截取DF=AE，连接CF，如图所示，",
+    "〔图2〕",
+    "在△ACE和△FCD中，",
+    "\\(\\begin{cases} AE=FD \\\\ \\angle E=\\angle CDF=45{}^\\circ \\\\ CE=CD \\end{cases}\\)",
+    "∴△ACE\\(\\cong\\)△FCD(SAS)，",
+    "∴AC=FC，",
+    "当\\(\\angle CAF=60{}^\\circ\\)，△ACF是等边三角形，",
+    "则AC=AF，此时AE+AC=DF+AF=AD，",
+    "但\\(\\angle CAF=60{}^\\circ\\)无法求证，",
+    "故③不正确；",
+    "由①得，△ACE≌△BCD，",
+    "∴AE=BD，\\(\\angle\\)CEA=\\(\\angle\\)CDB=45°，",
+    "∴\\(\\angle\\)ADB=\\(\\angle\\)CDB+\\(\\angle\\)EDC=90°，",
+    "∴△ADB是直角三角形，",
+    "∴\\(AD ^ { 2 } +BD ^ { 2 } =AB ^ { 2 }\\)，",
+    "∴\\(AD ^ { 2 } +AE ^ { 2 } =AB ^ { 2 }\\)，",
+    "∵△ABC是等腰直角三角形，",
+    "∴\\(AB=\\sqrt[] { 2 }AC\\)，",
+    "∴\\(AE ^ { 2 } +AD ^ { 2 } =2AC ^ { 2 }\\)，故④正确；",
+    "故选C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      24,
+      27
+    ],
+    "solution_body_blocks": [
+      89,
+      126
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-D20E3B982D/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          228.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-D20E3B982D/solution-q10-p05.webp",
+      "assets/SZ-G8-T1-D20E3B982D/solution-q10-p06.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          167.27,
+          583.64,
+          711.82
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          540.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

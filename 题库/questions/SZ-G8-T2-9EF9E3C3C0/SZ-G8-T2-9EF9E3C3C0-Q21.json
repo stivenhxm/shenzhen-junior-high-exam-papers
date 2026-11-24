@@ -1,0 +1,366 @@
+{
+  "id": "SZ-G8-T2-9EF9E3C3C0-Q21",
+  "paper_id": "SZ-G8-T2-9EF9E3C3C0",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "用坐标求线段长度与面积",
+  "stem": "阅读材料：\n在数轴上，\\(x=2\\)表示一个点；在平面直角坐标系中，\\(x=2\\)表示一条直线；以二元一次方程\\(x+y=2\\)的所有解为坐标的点组成的图形就是一次函数\\(y=-x+2\\)的图象，它也是一条直线．\n如图1，在平面直角坐标系中，不等式\\(x\\le 2\\)表示一个平面区域，即直线\\(x=2\\)及其左侧的部分；如图2，不等式\\(y\\le -x+2\\)也表示一个平面区域，即直线\\(~y=-x+2\\)及其下方的部分．\n请根据以上材料回答问题：\n〔图1〕\n（1）图3阴影部分（含边界）表示的是___________（填写不等式）表示的平面区域；\n（2）如图4，请求出表示阴影部分平面区域（含边界）的不等式组；\n（3）如图5，点A在x轴上，点B的坐标为（0，1），且\\(\\angle ABO=60{}^\\circ\\)，点P为\\(\\vartriangle ABO\\)内部一点（含边界），过点P分别作\\(PC\\bot OA\\)，\\(PD\\bot AB\\)，\\(PE\\bot BO\\)，垂足分别为C，D，E，若\\(PC\\le PE\\le PD\\)，则所有点P组成的平面区域的面积为___________．",
+  "choices": [],
+  "figures": [
+    "assets/figures/14/1453516a6f0ea63d3615ddf979cfd0d86aa8e91784b40871ae68084cc1d19cf8.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y\\ge x+2\\)；\n（2）\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；\n（3）\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．",
+  "answer": "（1）\\(y\\ge x+2\\)；\n（2）\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；\n（3）\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．",
+  "given_solution": "【分析】（1）求出经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=x+2\\)，可得图3阴影部分（含边界）表示的是\\(y\\ge x+2\\)表示的平面区域；\n（2）用待定系数法求出直线\\(m\\)解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)，直线\\(n\\)解析式为\\(y=3x+3\\)，即得阴影部分平面区域（含边界）的不等式组为\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；\n（3）作\\(\\angle AOB\\)的平分线交\\(AB\\)于\\(R\\)，\\(\\angle OBA\\)的平分线交\\(OA\\)于\\(K\\)，\\(\\angle BAO\\)的平分线交\\(OB\\)于\\(T\\)，〔图2〕，\\(OR\\)，\\(AT\\)交于\\(G\\)，满足条件的\\(P\\)在\\(\\Delta OGK\\)内（包括边界），再求出\\(OK=\\frac { OB } { \\sqrt[] { 3 } }=\\frac { 1 } { \\sqrt[] { 3 } }=\\frac { \\sqrt[] { 3 } } { 3 }\\)，列方程求得\\(CG=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，用三角形面积公式可得答案．\n【小问1详解】\n设经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=kx+2\\)，\n\\(\\therefore -2k+2=0\\)，\n解得\\(k=1\\)，\n\\(\\therefore\\)经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=x+2\\)，\n观察图象可知，图3阴影部分（含边界）表示的是\\(y\\ge x+2\\)表示的平面区域；\n故答案为：\\(y\\ge x+2\\)；\n【小问2详解】\n设直线\\(m\\)解析式为\\(y=k_{ 1 } x+3\\)，把\\((6,0)\\)代入得：\n\\(6k_{ 1 } +3=0\\)，\n解得\\(k_{ 1 } =-\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(m\\)解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)，\n设直线\\(n\\)解析式为\\(y=k_{ 2 } x+3\\)，将\\((-1,0)\\)代入得：\n\\(-k_{ 2 } +3=0\\)，\n解得\\(k_{ 2 } =3\\)，\n\\(\\therefore\\)直线\\(n\\)解析式为\\(y=3x+3\\)，\n观察图象可知，阴影部分平面区域（含边界）的不等式组为\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；\n【小问3详解】\n作\\(\\angle AOB\\)的平分线交\\(AB\\)于\\(R\\)，\\(\\angle OBA\\)的平分线交\\(OA\\)于\\(K\\)，\\(\\angle BAO\\)的平分线交\\(OB\\)于\\(T\\)，〔图2〕，\\(OR\\)，\\(AT\\)交于\\(G\\)，如图：\n〔图3〕\n满足条件的\\(P\\)在\\(\\Delta OGK\\)内（包括边界），即图中阴影部分，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle OBK=\\frac { 1 } { 2 }ABO=30{}^\\circ\\)，\n\\(\\therefore OK=\\frac { OB } { \\sqrt[] { 3 } }=\\frac { 1 } { \\sqrt[] { 3 } }=\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n\\(\\because \\angle EOG=\\angle COG=\\frac { 1 } { 2 }\\angle AOB=45{}^\\circ\\)，\n\\(\\therefore OE=GE\\)，\\(OC=CG\\)，\n\\(\\because \\angle EOC=\\angle GEO=\\angle GCO=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(EOCG\\)是正方形，\n设\\(OE=OC=CG=EG=x\\)，则\\(BE=\\sqrt[] { 3 }x\\)，\n\\(\\therefore BE+OE=\\sqrt[] { 3 }x+x=1\\)，\n\\(\\therefore x=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，\n\\(\\therefore CG=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，\n\\(\\therefore S_{ \\Delta OGK } =\\frac { 1 } { 2 }OK\\cdot CG=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 3 } } { 3 }\\times \\frac { \\sqrt[] { 3 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)，\n故答案为：\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．\n【点睛】本题考查一次函数的综合应用，涉及待定系数法，不等式（组\\()\\)，三角形面积等知识，解题的关键是数形结合思想的应用．",
+  "given_solution_figures": [
+    "assets/figures/14/1453516a6f0ea63d3615ddf979cfd0d86aa8e91784b40871ae68084cc1d19cf8.png",
+    "assets/figures/79/790d629183b98d7b07b0cec894fc4e729a659b77a64579dd1d58f9c39aaf0e80.png",
+    "assets/figures/2e/2ea9df7241933833849015129428174e50d12408dafdc4359e44d9609565e236.png"
+  ],
+  "solution": "【小问1详解】\n设经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=kx+2\\)，\n\\(\\therefore -2k+2=0\\)，\n解得\\(k=1\\)，\n\\(\\therefore\\)经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=x+2\\)，\n观察图象可知，图3阴影部分（含边界）表示的是\\(y\\ge x+2\\)表示的平面区域；\n故答案为：\\(y\\ge x+2\\)；\n【小问2详解】\n设直线\\(m\\)解析式为\\(y=k_{ 1 } x+3\\)，把\\((6,0)\\)代入得：\n\\(6k_{ 1 } +3=0\\)，\n解得\\(k_{ 1 } =-\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(m\\)解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)，\n设直线\\(n\\)解析式为\\(y=k_{ 2 } x+3\\)，将\\((-1,0)\\)代入得：\n\\(-k_{ 2 } +3=0\\)，\n解得\\(k_{ 2 } =3\\)，\n\\(\\therefore\\)直线\\(n\\)解析式为\\(y=3x+3\\)，\n观察图象可知，阴影部分平面区域（含边界）的不等式组为\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；\n【小问3详解】\n作\\(\\angle AOB\\)的平分线交\\(AB\\)于\\(R\\)，\\(\\angle OBA\\)的平分线交\\(OA\\)于\\(K\\)，\\(\\angle BAO\\)的平分线交\\(OB\\)于\\(T\\)，〔图2〕，\\(OR\\)，\\(AT\\)交于\\(G\\)，如图：\n〔图3〕\n满足条件的\\(P\\)在\\(\\Delta OGK\\)内（包括边界），即图中阴影部分，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle OBK=\\frac { 1 } { 2 }ABO=30{}^\\circ\\)，\n\\(\\therefore OK=\\frac { OB } { \\sqrt[] { 3 } }=\\frac { 1 } { \\sqrt[] { 3 } }=\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n\\(\\because \\angle EOG=\\angle COG=\\frac { 1 } { 2 }\\angle AOB=45{}^\\circ\\)，\n\\(\\therefore OE=GE\\)，\\(OC=CG\\)，\n\\(\\because \\angle EOC=\\angle GEO=\\angle GCO=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(EOCG\\)是正方形，\n设\\(OE=OC=CG=EG=x\\)，则\\(BE=\\sqrt[] { 3 }x\\)，\n\\(\\therefore BE+OE=\\sqrt[] { 3 }x+x=1\\)，\n\\(\\therefore x=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，\n\\(\\therefore CG=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，\n\\(\\therefore S_{ \\Delta OGK } =\\frac { 1 } { 2 }OK\\cdot CG=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 3 } } { 3 }\\times \\frac { \\sqrt[] { 3 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)，\n故答案为：\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "设经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=kx+2\\)，",
+    "\\(\\therefore -2k+2=0\\)，",
+    "解得\\(k=1\\)，",
+    "\\(\\therefore\\)经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=x+2\\)，",
+    "观察图象可知，图3阴影部分（含边界）表示的是\\(y\\ge x+2\\)表示的平面区域；",
+    "故答案为：\\(y\\ge x+2\\)；",
+    "【小问2详解】",
+    "设直线\\(m\\)解析式为\\(y=k_{ 1 } x+3\\)，把\\((6,0)\\)代入得：",
+    "\\(6k_{ 1 } +3=0\\)，",
+    "解得\\(k_{ 1 } =-\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore\\)直线\\(m\\)解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)，",
+    "设直线\\(n\\)解析式为\\(y=k_{ 2 } x+3\\)，将\\((-1,0)\\)代入得：",
+    "\\(-k_{ 2 } +3=0\\)，",
+    "解得\\(k_{ 2 } =3\\)，",
+    "\\(\\therefore\\)直线\\(n\\)解析式为\\(y=3x+3\\)，",
+    "观察图象可知，阴影部分平面区域（含边界）的不等式组为\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；",
+    "【小问3详解】",
+    "作\\(\\angle AOB\\)的平分线交\\(AB\\)于\\(R\\)，\\(\\angle OBA\\)的平分线交\\(OA\\)于\\(K\\)，\\(\\angle BAO\\)的平分线交\\(OB\\)于\\(T\\)，〔图2〕，\\(OR\\)，\\(AT\\)交于\\(G\\)，如图：",
+    "〔图3〕",
+    "满足条件的\\(P\\)在\\(\\Delta OGK\\)内（包括边界），即图中阴影部分，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle OBK=\\frac { 1 } { 2 }ABO=30{}^\\circ\\)，",
+    "\\(\\therefore OK=\\frac { OB } { \\sqrt[] { 3 } }=\\frac { 1 } { \\sqrt[] { 3 } }=\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+    "\\(\\because \\angle EOG=\\angle COG=\\frac { 1 } { 2 }\\angle AOB=45{}^\\circ\\)，",
+    "\\(\\therefore OE=GE\\)，\\(OC=CG\\)，",
+    "\\(\\because \\angle EOC=\\angle GEO=\\angle GCO=90{}^\\circ\\)，",
+    "\\(\\therefore\\)四边形\\(EOCG\\)是正方形，",
+    "设\\(OE=OC=CG=EG=x\\)，则\\(BE=\\sqrt[] { 3 }x\\)，",
+    "\\(\\therefore BE+OE=\\sqrt[] { 3 }x+x=1\\)，",
+    "\\(\\therefore x=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，",
+    "\\(\\therefore CG=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，",
+    "\\(\\therefore S_{ \\Delta OGK } =\\frac { 1 } { 2 }OK\\cdot CG=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 3 } } { 3 }\\times \\frac { \\sqrt[] { 3 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)，",
+    "故答案为：\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "阅读材料：\n在数轴上，\\(x=2\\)表示一个点；在平面直角坐标系中，\\(x=2\\)表示一条直线；以二元一次方程\\(x+y=2\\)的所有解为坐标的点组成的图形就是一次函数\\(y=-x+2\\)的图象，它也是一条直线．\n如图1，在平面直角坐标系中，不等式\\(x\\le 2\\)表示一个平面区域，即直线\\(x=2\\)及其左侧的部分；如图2，不等式\\(y\\le -x+2\\)也表示一个平面区域，即直线\\(~y=-x+2\\)及其下方的部分．\n请根据以上材料回答问题：\n〔图1〕",
+      "paper_blocks": [
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-9EF9E3C3C0-Q21-P01",
+      "label": "（1）",
+      "prompt": "图3阴影部分（含边界）表示的是___________（填写不等式）表示的平面区域；",
+      "stem_text": "图3阴影部分（含边界）表示的是___________（填写不等式）表示的平面区域；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y\\ge x+2\\)；",
+      "answer": "\\(y\\ge x+2\\)；",
+      "given_solution": "设经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=kx+2\\)，\n\\(\\therefore -2k+2=0\\)，\n解得\\(k=1\\)，\n\\(\\therefore\\)经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=x+2\\)，\n观察图象可知，图3阴影部分（含边界）表示的是\\(y\\ge x+2\\)表示的平面区域；\n故答案为：\\(y\\ge x+2\\)；",
+      "solution_steps": [
+        "设经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=kx+2\\)，",
+        "\\(\\therefore -2k+2=0\\)，",
+        "解得\\(k=1\\)，",
+        "\\(\\therefore\\)经过\\((-2,0)\\)，\\((0,2)\\)的直线为\\(y=x+2\\)，",
+        "观察图象可知，图3阴影部分（含边界）表示的是\\(y\\ge x+2\\)表示的平面区域；",
+        "故答案为：\\(y\\ge x+2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N09.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“解一元一次不等式或不等式组”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“不等式”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-9EF9E3C3C0-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图4，请求出表示阴影部分平面区域（含边界）的不等式组；",
+      "stem_text": "如图4，请求出表示阴影部分平面区域（含边界）的不等式组；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；",
+      "answer": "\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；",
+      "given_solution": "设直线\\(m\\)解析式为\\(y=k_{ 1 } x+3\\)，把\\((6,0)\\)代入得：\n\\(6k_{ 1 } +3=0\\)，\n解得\\(k_{ 1 } =-\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(m\\)解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)，\n设直线\\(n\\)解析式为\\(y=k_{ 2 } x+3\\)，将\\((-1,0)\\)代入得：\n\\(-k_{ 2 } +3=0\\)，\n解得\\(k_{ 2 } =3\\)，\n\\(\\therefore\\)直线\\(n\\)解析式为\\(y=3x+3\\)，\n观察图象可知，阴影部分平面区域（含边界）的不等式组为\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；",
+      "solution_steps": [
+        "设直线\\(m\\)解析式为\\(y=k_{ 1 } x+3\\)，把\\((6,0)\\)代入得：",
+        "\\(6k_{ 1 } +3=0\\)，",
+        "解得\\(k_{ 1 } =-\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore\\)直线\\(m\\)解析式为\\(y=-\\frac { 1 } { 2 }x+3\\)，",
+        "设直线\\(n\\)解析式为\\(y=k_{ 2 } x+3\\)，将\\((-1,0)\\)代入得：",
+        "\\(-k_{ 2 } +3=0\\)，",
+        "解得\\(k_{ 2 } =3\\)，",
+        "\\(\\therefore\\)直线\\(n\\)解析式为\\(y=3x+3\\)，",
+        "观察图象可知，阴影部分平面区域（含边界）的不等式组为\\(\\begin{cases} y\\le -\\frac { 1 } { 2 }x+3 \\\\ y\\ge 3x+3 \\end{cases}\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          76
+        ],
+        "solution_block_ids": [
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N09.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“解一元一次不等式或不等式组”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“不等式”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-9EF9E3C3C0-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图5，点A在x轴上，点B的坐标为（0，1），且\\(\\angle ABO=60{}^\\circ\\)，点P为\\(\\vartriangle ABO\\)内部一点（含边界），过点P分别作\\(PC\\bot OA\\)，\\(PD\\bot AB\\)，\\(PE\\bot BO\\)，垂足分别为C，D，E，若\\(PC\\le PE\\le PD\\)，则所有点P组成的平面区域的面积为___________．",
+      "stem_text": "如图5，点A在x轴上，点B的坐标为（0，1），且\\(\\angle ABO=60{}^\\circ\\)，点P为\\(\\vartriangle ABO\\)内部一点（含边界），过点P分别作\\(PC\\bot OA\\)，\\(PD\\bot AB\\)，\\(PE\\bot BO\\)，垂足分别为C，D，E，若\\(PC\\le PE\\le PD\\)，则所有点P组成的平面区域的面积为___________．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．",
+      "answer": "\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．",
+      "given_solution": "作\\(\\angle AOB\\)的平分线交\\(AB\\)于\\(R\\)，\\(\\angle OBA\\)的平分线交\\(OA\\)于\\(K\\)，\\(\\angle BAO\\)的平分线交\\(OB\\)于\\(T\\)，〔图2〕，\\(OR\\)，\\(AT\\)交于\\(G\\)，如图：\n〔图3〕\n满足条件的\\(P\\)在\\(\\Delta OGK\\)内（包括边界），即图中阴影部分，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle OBK=\\frac { 1 } { 2 }ABO=30{}^\\circ\\)，\n\\(\\therefore OK=\\frac { OB } { \\sqrt[] { 3 } }=\\frac { 1 } { \\sqrt[] { 3 } }=\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n\\(\\because \\angle EOG=\\angle COG=\\frac { 1 } { 2 }\\angle AOB=45{}^\\circ\\)，\n\\(\\therefore OE=GE\\)，\\(OC=CG\\)，\n\\(\\because \\angle EOC=\\angle GEO=\\angle GCO=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(EOCG\\)是正方形，\n设\\(OE=OC=CG=EG=x\\)，则\\(BE=\\sqrt[] { 3 }x\\)，\n\\(\\therefore BE+OE=\\sqrt[] { 3 }x+x=1\\)，\n\\(\\therefore x=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，\n\\(\\therefore CG=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，\n\\(\\therefore S_{ \\Delta OGK } =\\frac { 1 } { 2 }OK\\cdot CG=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 3 } } { 3 }\\times \\frac { \\sqrt[] { 3 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)，\n故答案为：\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．",
+      "solution_steps": [
+        "作\\(\\angle AOB\\)的平分线交\\(AB\\)于\\(R\\)，\\(\\angle OBA\\)的平分线交\\(OA\\)于\\(K\\)，\\(\\angle BAO\\)的平分线交\\(OB\\)于\\(T\\)，〔图2〕，\\(OR\\)，\\(AT\\)交于\\(G\\)，如图：",
+        "〔图3〕",
+        "满足条件的\\(P\\)在\\(\\Delta OGK\\)内（包括边界），即图中阴影部分，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle OBK=\\frac { 1 } { 2 }ABO=30{}^\\circ\\)，",
+        "\\(\\therefore OK=\\frac { OB } { \\sqrt[] { 3 } }=\\frac { 1 } { \\sqrt[] { 3 } }=\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+        "\\(\\because \\angle EOG=\\angle COG=\\frac { 1 } { 2 }\\angle AOB=45{}^\\circ\\)，",
+        "\\(\\therefore OE=GE\\)，\\(OC=CG\\)，",
+        "\\(\\because \\angle EOC=\\angle GEO=\\angle GCO=90{}^\\circ\\)，",
+        "\\(\\therefore\\)四边形\\(EOCG\\)是正方形，",
+        "设\\(OE=OC=CG=EG=x\\)，则\\(BE=\\sqrt[] { 3 }x\\)，",
+        "\\(\\therefore BE+OE=\\sqrt[] { 3 }x+x=1\\)，",
+        "\\(\\therefore x=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，",
+        "\\(\\therefore CG=\\frac { \\sqrt[] { 3 }-1 } { 2 }\\)，",
+        "\\(\\therefore S_{ \\Delta OGK } =\\frac { 1 } { 2 }OK\\cdot CG=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 3 } } { 3 }\\times \\frac { \\sqrt[] { 3 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)，",
+        "故答案为：\\(\\frac { 3-\\sqrt[] { 3 } } { 12 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          73,
+          74,
+          77
+        ],
+        "solution_block_ids": [
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      77
+    ],
+    "solution_body_blocks": [
+      354,
+      402
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-9EF9E3C3C0/paper-q21-p05.webp",
+      "assets/SZ-G8-T2-9EF9E3C3C0/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          260.91,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-9EF9E3C3C0/solution-q21-p18.webp",
+      "assets/SZ-G8-T2-9EF9E3C3C0/solution-q21-p19.webp",
+      "assets/SZ-G8-T2-9EF9E3C3C0/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          435.91,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          735.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          55.45,
+          583.64,
+          618.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.N09.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.03.01"
+  ],
+  "tag_note": "该问涉及“解一元一次不等式或不等式组”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“不等式”，按题面与解答定位知识主题。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+  "tag_source": "小问标签汇总"
+}

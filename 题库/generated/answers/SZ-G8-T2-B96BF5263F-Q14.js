@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q14",{"answer":"14","solution_steps":["由折叠得 \\(BE=BA=11\\) 且 \\(DE=DA\\)。故 \\(CD+DE=CD+DA=AC=12\\)。","由周长可得 \\(CE=15-12=3\\)，于是 \\(BC=11+3=14\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

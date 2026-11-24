@@ -143,6 +143,7 @@
       const a = await data.get('answers/'+item.id);
       const origins = {source_checked_with_correction:'依据题干校正，可展开下方原解析对照', source_transcribed:'据配套解析转录',
         source_solution_summary:'答案从配套解题过程归纳', editorial_solution:'资料提供答案，解法由题库补写',
+        editorial_answer_and_solution:'原卷未附答案，以下答案和解法由题库补写',
         source_answer_only:'资料只提供答案',source_facsimile:'参考原件影像'};
       body.replaceChildren(element('p','muted', origins[a.solution_origin] || '依据配套解析整理'));
       body.append(texText(a.answer,'ref-answer',a.figure_refs));
@@ -159,7 +160,7 @@
         control.append(img); body.append(control);
       }
       if (a.review_note) body.append(note(a.review_note));
-      body.append(section('资料原答案与原解析', async source => {
+      if (a.source.solution_pdf) body.append(section('资料原答案与原解析', async source => {
         source.replaceChildren();
         if (a.given_answer) source.append(element('h3','','资料原答案'),texText(a.given_answer,'',a.figure_refs));
         source.append(pdfLinks(a.source.solution_pdf,a.source.solution_pages,'解析版'));
@@ -211,6 +212,10 @@
     r.append(pdfLinks(source.paper_pdf,source.question_pages,'原卷'));
     r.append(section('对照原卷 / 放大原题',body => {
       body.replaceChildren(cuts(source.question_images,source.question_pages,'原卷'));
+      for (const ref of item.supplemental_papers || []) {
+        if (ref.note) body.append(note(ref.note));
+        body.append(pdfLinks(ref.pdf,ref.pages,ref.label));
+      }
     }));
     r.append(answerSections(item));
     r.append(section('知识点与考点',body => {

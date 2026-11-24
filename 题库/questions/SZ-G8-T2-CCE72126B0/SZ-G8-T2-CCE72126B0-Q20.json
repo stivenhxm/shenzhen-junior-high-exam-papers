@@ -1,0 +1,262 @@
+{
+  "knowledge_ids": [
+    "M.G05.01",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G05.01.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“由充分条件判定平行四边形”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-CCE72126B0-Q20",
+  "number": 20,
+  "paper_id": "SZ-G8-T2-CCE72126B0",
+  "title": "由充分条件判定平行四边形、选择充分条件证明三角形全等",
+  "stem": "（8分）如图．在平行四边形ABCD中，点F在AB的延长线上，且BF＝AB．连接FD，交BC于点E\n（1）说明：△DCE≌△FBE；\n（2）若DF平分∠ADC．且EC＝6cm，求四边形ABCD的周长．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）如图．在平行四边形ABCD中，点F在AB的延长线上，且BF＝AB．连接FD，交BC于点E",
+      "paper_blocks": [
+        51
+      ]
+    },
+    {
+      "id": "fig-54",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        54
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-CCE72126B0-Q20-P01",
+      "label": "（1）",
+      "prompt": "说明：△DCE≌△FBE；",
+      "stem_text": "说明：△DCE≌△FBE；",
+      "material_ids": [
+        "context",
+        "fig-54"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴△DCE≌△FBE（AAS）",
+      "given_solution": "证明：∵四边形ABCD是平行四边形，\n∴AB∥DC，AB＝DC，AD∥BC，AD＝BC，\n∴∠CDE＝∠F，\n又∵BF＝AB，\n∴DC＝FB，\n在△DCE和△FBE中，\n〔图1〕，\n∴△DCE≌△FBE（AAS）；",
+      "solution_steps": [
+        "证明：∵四边形ABCD是平行四边形，",
+        "∴AB∥DC，AB＝DC，AD∥BC，AD＝BC，",
+        "∴∠CDE＝∠F，",
+        "又∵BF＝AB，",
+        "∴DC＝FB，",
+        "在△DCE和△FBE中，",
+        "〔图1〕，",
+        "∴△DCE≌△FBE（AAS）；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          54
+        ],
+        "solution_block_ids": [
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.01"
+      ],
+      "exam_ids": [
+        "E.G05.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问解答对应“由充分条件判定平行四边形”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-CCE72126B0-Q20-P02",
+      "label": "（2）",
+      "prompt": "若DF平分∠ADC．且EC＝6cm，求四边形ABCD的周长．",
+      "stem_text": "若DF平分∠ADC．且EC＝6cm，求四边形ABCD的周长．",
+      "material_ids": [
+        "context",
+        "fig-54"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）",
+      "given_solution": "解：∵△DCE≌△FBE，\n∴EB＝EC，\n∵EC＝6cm，\n∴BC＝2EB＝12cm，\n∵四边形ABCD是平行四边形，\n∴AD＝BC＝12cm，\n∴AD＝12cm，\n∵AD∥BC，DF平分∠ADC，\n∴∠ADE＝∠CED，∠ADE＝∠CDE，\n∴∠CED＝∠CDE，\n∴DC＝EC＝6cm，\n∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）．",
+      "solution_steps": [
+        "解：∵△DCE≌△FBE，",
+        "∴EB＝EC，",
+        "∵EC＝6cm，",
+        "∴BC＝2EB＝12cm，",
+        "∵四边形ABCD是平行四边形，",
+        "∴AD＝BC＝12cm，",
+        "∴AD＝12cm，",
+        "∵AD∥BC，DF平分∠ADC，",
+        "∴∠ADE＝∠CED，∠ADE＝∠CDE，",
+        "∴∠CED＝∠CDE，",
+        "∴DC＝EC＝6cm，",
+        "∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          53,
+          54
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/d1/d14647f167549c0e8a74806831f546c461cf4c3ffc6fb4eef0e28b6a236394ca.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴△DCE≌△FBE（AAS）\n（2）∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）",
+  "given_answer": "",
+  "given_solution": "【分析】（1）由平行四边形的对边平行且相等，即可得AB＝DC，AB∥DC，继而可求得∠CDE＝∠F，又由BF＝AB，即可利用AAS判定△DCE≌△FBE；\n（2）由（1）得BE＝EC，即可求得BC的长，又由平行四边形的对边相等，求得AD的长，再由平行线的性质和角平分线的定义证出DC＝EC，即可得出四边形ABCD的周长．\n【解答】（1）证明：∵四边形ABCD是平行四边形，\n∴AB∥DC，AB＝DC，AD∥BC，AD＝BC，\n∴∠CDE＝∠F，\n又∵BF＝AB，\n∴DC＝FB，\n在△DCE和△FBE中，\n〔图1〕，\n∴△DCE≌△FBE（AAS）；\n（2）解：∵△DCE≌△FBE，\n∴EB＝EC，\n∵EC＝6cm，\n∴BC＝2EB＝12cm，\n∵四边形ABCD是平行四边形，\n∴AD＝BC＝12cm，\n∴AD＝12cm，\n∵AD∥BC，DF平分∠ADC，\n∴∠ADE＝∠CED，∠ADE＝∠CDE，\n∴∠CED＝∠CDE，\n∴DC＝EC＝6cm，\n∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）．\n【点评】此题考查了平行四边形的性质、全等三角形的判定与性质、等腰三角形的判定；熟练掌握平行四边形的性质，证明三角形全等是解决问题的关键．",
+  "given_solution_figures": [
+    "assets/figures/49/49069b7f90e33e1a7139f50670f65a4dd3266e7d35ef24522491474a33fddfbb.png"
+  ],
+  "solution_steps": [
+    "（1）证明：∵四边形ABCD是平行四边形，",
+    "∴AB∥DC，AB＝DC，AD∥BC，AD＝BC，",
+    "∴∠CDE＝∠F，",
+    "又∵BF＝AB，",
+    "∴DC＝FB，",
+    "在△DCE和△FBE中，",
+    "〔图1〕，",
+    "∴△DCE≌△FBE（AAS）；",
+    "（2）解：∵△DCE≌△FBE，",
+    "∴EB＝EC，",
+    "∵EC＝6cm，",
+    "∴BC＝2EB＝12cm，",
+    "∵四边形ABCD是平行四边形，",
+    "∴AD＝BC＝12cm，",
+    "∴AD＝12cm，",
+    "∵AD∥BC，DF平分∠ADC，",
+    "∴∠ADE＝∠CED，∠ADE＝∠CDE，",
+    "∴∠CED＝∠CDE，",
+    "∴DC＝EC＝6cm，",
+    "∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）．"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）证明：∵四边形ABCD是平行四边形，\n∴AB∥DC，AB＝DC，AD∥BC，AD＝BC，\n∴∠CDE＝∠F，\n又∵BF＝AB，\n∴DC＝FB，\n在△DCE和△FBE中，\n〔图1〕，\n∴△DCE≌△FBE（AAS）；\n（2）解：∵△DCE≌△FBE，\n∴EB＝EC，\n∵EC＝6cm，\n∴BC＝2EB＝12cm，\n∵四边形ABCD是平行四边形，\n∴AD＝BC＝12cm，\n∴AD＝12cm，\n∵AD∥BC，DF平分∠ADC，\n∴∠ADE＝∠CED，∠ADE＝∠CDE，\n∴∠CED＝∠CDE，\n∴DC＝EC＝6cm，\n∴四边形ABCD的周长＝2（AD+BC）＝2（12+6）＝36（cm）．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-CCE72126B0/single/q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          294.88,
+          582.2,
+          491.4
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-CCE72126B0/single/s20-p17.webp",
+      "assets/SZ-G8-T2-CCE72126B0/single/s20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          537.92,
+          582.2,
+          769.22
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          70.52,
+          582.2,
+          465.3
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

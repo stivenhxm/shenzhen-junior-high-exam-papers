@@ -1,0 +1,421 @@
+{
+  "id": "SZ-G8-T1-4C9A4F0663-Q21",
+  "paper_id": "SZ-G8-T1-4C9A4F0663",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "用消元求二元一次方程组的解、代入或整体替换求代数式的值",
+  "stem": "已知一个三位自然数\\(m\\)，若满足十位数字等于百位数字与个位数字之和，则称这个数为“平衡数”，并把其百位数字与个位数字的乘积记为\\(F\\left ( { m } \\right )\\)．\n例如\\(693\\)，\\(\\because 3+6=9\\)，\\(\\therefore 693\\)是“平衡数”． \\(F\\left ( { 693 } \\right )=6\\times 3=18\\)．\n规定：\\(G\\left ( { m,n } \\right )=sF\\left ( { m } \\right )+tF\\left ( { n } \\right )\\left ( { s } \\right )\\)，\\(t\\)均为非零实数，\\(m\\)，\\(n\\)均为平衡数）．\n已知：\\(G\\left ( { 253,121 } \\right )=5\\)，\\(G\\left ( { 231,693 } \\right )=-16\\)．\n（1）求\\(s\\)，\\(t\\)及\\(G\\left ( { 286,341 } \\right )\\)的值；\n（2）已知“平衡数”\\(m\\)个位数为7，同时与“平衡数”\\(n\\)满足\\(G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }\\)，求\\(n\\)的所有可能值；\n（3）已知\\(m\\)，\\(n\\)是两个十位数字相同的“平衡数”， \\(m\\)加上其各个数位上数字之和是7的倍数，若\\(G\\left ( { m,n } \\right )=-5\\)，求\\(n\\)的所有可能值．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\\(G\\left ( { 286,341 } \\right )=9\\)\n（2）\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)\n（3）\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)",
+  "answer": "（1）\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\\(G\\left ( { 286,341 } \\right )=9\\)\n（2）\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)\n（3）\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)",
+  "given_solution": "【分析】（1）根据\\(G\\left ( { 253,121 } \\right )=5\\)， \\(G\\left ( { 231,693 } \\right )=-16\\)，列出方程即可求出\\(s\\)，\\(t\\)的值，进而利用规定可求\\(G\\left ( { 286,341 } \\right )\\)；\n（2）根据“平衡数”\\(m\\)个位数为7，可求出\\(m\\)的值，又因为\\(F\\left ( { m } \\right )-10\\ge 0\\)，可求\\(m\\)的值，进而可求\\(F\\left ( { m } \\right )=14\\)，\\(G\\left ( { m,n } \\right )=2\\)，\\(F\\left ( { n } \\right )=12\\)，即可求得答案；\n（3）根据“平衡数”的定义表示出\\(b=a+c=x+y\\)，根据\\(m\\)加上各个数位上数字之和是7的倍数，判定出\\(a\\)，\\(b\\)，\\(c\\)的值，从而求出\\(m\\)值，再利用\\(F\\left ( { m } \\right )-F\\left ( { n } \\right )=-5\\)，求出\\(x\\)，\\(y\\)的值，然后根据规定求出\\(n\\)的值；\n【小问1详解】\n解：由题意，得\\(G\\left ( { 253,121 } \\right )=sF\\left ( { 253 } \\right )+tF\\left ( { 121 } \\right )=6s+t=5\\)，\n\\(G\\left ( { 231,693 } \\right )=sF\\left ( { 231 } \\right )+tF\\left ( { 396 } \\right )=2s+18t=-16\\)，\n即\\(\\begin{cases} 6s+t=5 \\\\ 2s+18t=-16 \\end{cases}\\)，\n解得：\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\n\\(\\therefore G\\left ( { 286,341 } \\right )=F\\left ( { 286 } \\right )-F\\left ( { 341 } \\right )=2\\times 6-3\\times 1=9\\)；\n【小问2详解】\n解：\\(\\because\\)已知“平衡数”\\(m\\)个位数为7，\n\\(\\therefore m\\)的可能值为\\(297\\)或\\(187\\)，\n又\\(\\because F\\left ( { m } \\right )-10\\ge 0\\)\n\\(\\therefore m=297\\)\n\\(\\therefore F\\left ( { m } \\right )=14\\)\n\\(\\therefore G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }=2\\)\n∴\\(F\\left ( { n } \\right )=12\\)\n不妨设n的百位数，十位数，个位数分别为\\(a，b，c\\)\n则\\(ac=12\\)且\\(a+c < 10\\)\n∴\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)；\n【小问3详解】\n解：设“平衡数”\\(m=100a+10b+c\\)，\\(n=100x+10b+y\\)，\n\\(\\therefore b=a+c=x+y\\)，\n\\(\\therefore m+a+b+c=100a+10b+c+a+b+c\\)\n\\(=101a+11b+2c\\)\n\\(=101a+11\\left ( { a+c } \\right )+2c\\)\n\\(=112a+13c\\)\n\\(\\because m\\)加上其各个数位上数字之和是7的倍数，\n\\(\\therefore \\frac { 112a+13c } { 7 }=16a+\\frac { 13c } { 7 }\\)为整数，\n\\(\\because 0\\le c\\le 9\\)的整数，\n\\(\\therefore c=7\\)或\\(c=0\\)，\n①当\\(c=7\\)时\n\\(\\because 1\\le a\\le 9\\)的整数，\\(1\\le b\\le 9\\)的整数，且\\(b=a+c\\)，\n\\(\\therefore a=1\\)，\\(b=8\\)，\\(a=2\\)，\\(b=9\\)，\n\\(\\therefore m=187\\)或\\(297\\)，\n\\(\\because G\\left ( { m,n } \\right )=-5\\)，\n当\\(m=187\\)时，\n\\(\\therefore 7-F\\left ( { n } \\right )=-5\\)，\n\\(\\therefore F\\left ( { n } \\right )=12\\)，\n\\(\\therefore xy=12\\)，\\(x+y=8\\)，\n∴\\(\\begin{cases} x=2 \\\\ y=6 \\end{cases}\\)或\\(\\begin{cases} x=6 \\\\ y=2 \\end{cases}\\)，\n\\(\\therefore n=286\\)或\\(682\\)；\n当\\(m=297\\)时，\n\\(\\therefore 14-F\\left ( { n } \\right )=-5\\)，\n∴\\(F\\left ( { n } \\right )=19\\)，\n∴\\(xy=19\\)，\\(x+y=9\\)，方程无正整数解，\n②当\\(c=0\\)时\n\\(F\\left ( { m } \\right )=0\\)\n\\(F\\left ( { n } \\right )=5\\)\n∴\\(n=165\\)或\\(561\\)；\n综上，\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)\n【点睛】本题是一道以新定义为背景的阅读题目，考查了新定义，解二元一次方程组，能够根据定义列出代数式，根据各数的取值范围求出的\\(a,b,c,x,y\\)值是解答的关键",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n解：由题意，得\\(G\\left ( { 253,121 } \\right )=sF\\left ( { 253 } \\right )+tF\\left ( { 121 } \\right )=6s+t=5\\)，\n\\(G\\left ( { 231,693 } \\right )=sF\\left ( { 231 } \\right )+tF\\left ( { 396 } \\right )=2s+18t=-16\\)，\n即\\(\\begin{cases} 6s+t=5 \\\\ 2s+18t=-16 \\end{cases}\\)，\n解得：\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\n\\(\\therefore G\\left ( { 286,341 } \\right )=F\\left ( { 286 } \\right )-F\\left ( { 341 } \\right )=2\\times 6-3\\times 1=9\\)；\n【小问2详解】\n解：\\(\\because\\)已知“平衡数”\\(m\\)个位数为7，\n\\(\\therefore m\\)的可能值为\\(297\\)或\\(187\\)，\n又\\(\\because F\\left ( { m } \\right )-10\\ge 0\\)\n\\(\\therefore m=297\\)\n\\(\\therefore F\\left ( { m } \\right )=14\\)\n\\(\\therefore G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }=2\\)\n∴\\(F\\left ( { n } \\right )=12\\)\n不妨设n的百位数，十位数，个位数分别为\\(a，b，c\\)\n则\\(ac=12\\)且\\(a+c < 10\\)\n∴\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)；\n【小问3详解】\n解：设“平衡数”\\(m=100a+10b+c\\)，\\(n=100x+10b+y\\)，\n\\(\\therefore b=a+c=x+y\\)，\n\\(\\therefore m+a+b+c=100a+10b+c+a+b+c\\)\n\\(=101a+11b+2c\\)\n\\(=101a+11\\left ( { a+c } \\right )+2c\\)\n\\(=112a+13c\\)\n\\(\\because m\\)加上其各个数位上数字之和是7的倍数，\n\\(\\therefore \\frac { 112a+13c } { 7 }=16a+\\frac { 13c } { 7 }\\)为整数，\n\\(\\because 0\\le c\\le 9\\)的整数，\n\\(\\therefore c=7\\)或\\(c=0\\)，\n①当\\(c=7\\)时\n\\(\\because 1\\le a\\le 9\\)的整数，\\(1\\le b\\le 9\\)的整数，且\\(b=a+c\\)，\n\\(\\therefore a=1\\)，\\(b=8\\)，\\(a=2\\)，\\(b=9\\)，\n\\(\\therefore m=187\\)或\\(297\\)，\n\\(\\because G\\left ( { m,n } \\right )=-5\\)，\n当\\(m=187\\)时，\n\\(\\therefore 7-F\\left ( { n } \\right )=-5\\)，\n\\(\\therefore F\\left ( { n } \\right )=12\\)，\n\\(\\therefore xy=12\\)，\\(x+y=8\\)，\n∴\\(\\begin{cases} x=2 \\\\ y=6 \\end{cases}\\)或\\(\\begin{cases} x=6 \\\\ y=2 \\end{cases}\\)，\n\\(\\therefore n=286\\)或\\(682\\)；\n当\\(m=297\\)时，\n\\(\\therefore 14-F\\left ( { n } \\right )=-5\\)，\n∴\\(F\\left ( { n } \\right )=19\\)，\n∴\\(xy=19\\)，\\(x+y=9\\)，方程无正整数解，\n②当\\(c=0\\)时\n\\(F\\left ( { m } \\right )=0\\)\n\\(F\\left ( { n } \\right )=5\\)\n∴\\(n=165\\)或\\(561\\)；\n综上，\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由题意，得\\(G\\left ( { 253,121 } \\right )=sF\\left ( { 253 } \\right )+tF\\left ( { 121 } \\right )=6s+t=5\\)，",
+    "\\(G\\left ( { 231,693 } \\right )=sF\\left ( { 231 } \\right )+tF\\left ( { 396 } \\right )=2s+18t=-16\\)，",
+    "即\\(\\begin{cases} 6s+t=5 \\\\ 2s+18t=-16 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，",
+    "\\(\\therefore G\\left ( { 286,341 } \\right )=F\\left ( { 286 } \\right )-F\\left ( { 341 } \\right )=2\\times 6-3\\times 1=9\\)；",
+    "【小问2详解】",
+    "解：\\(\\because\\)已知“平衡数”\\(m\\)个位数为7，",
+    "\\(\\therefore m\\)的可能值为\\(297\\)或\\(187\\)，",
+    "又\\(\\because F\\left ( { m } \\right )-10\\ge 0\\)",
+    "\\(\\therefore m=297\\)",
+    "\\(\\therefore F\\left ( { m } \\right )=14\\)",
+    "\\(\\therefore G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }=2\\)",
+    "∴\\(F\\left ( { n } \\right )=12\\)",
+    "不妨设n的百位数，十位数，个位数分别为\\(a，b，c\\)",
+    "则\\(ac=12\\)且\\(a+c < 10\\)",
+    "∴\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)；",
+    "【小问3详解】",
+    "解：设“平衡数”\\(m=100a+10b+c\\)，\\(n=100x+10b+y\\)，",
+    "\\(\\therefore b=a+c=x+y\\)，",
+    "\\(\\therefore m+a+b+c=100a+10b+c+a+b+c\\)",
+    "\\(=101a+11b+2c\\)",
+    "\\(=101a+11\\left ( { a+c } \\right )+2c\\)",
+    "\\(=112a+13c\\)",
+    "\\(\\because m\\)加上其各个数位上数字之和是7的倍数，",
+    "\\(\\therefore \\frac { 112a+13c } { 7 }=16a+\\frac { 13c } { 7 }\\)为整数，",
+    "\\(\\because 0\\le c\\le 9\\)的整数，",
+    "\\(\\therefore c=7\\)或\\(c=0\\)，",
+    "①当\\(c=7\\)时",
+    "\\(\\because 1\\le a\\le 9\\)的整数，\\(1\\le b\\le 9\\)的整数，且\\(b=a+c\\)，",
+    "\\(\\therefore a=1\\)，\\(b=8\\)，\\(a=2\\)，\\(b=9\\)，",
+    "\\(\\therefore m=187\\)或\\(297\\)，",
+    "\\(\\because G\\left ( { m,n } \\right )=-5\\)，",
+    "当\\(m=187\\)时，",
+    "\\(\\therefore 7-F\\left ( { n } \\right )=-5\\)，",
+    "\\(\\therefore F\\left ( { n } \\right )=12\\)，",
+    "\\(\\therefore xy=12\\)，\\(x+y=8\\)，",
+    "∴\\(\\begin{cases} x=2 \\\\ y=6 \\end{cases}\\)或\\(\\begin{cases} x=6 \\\\ y=2 \\end{cases}\\)，",
+    "\\(\\therefore n=286\\)或\\(682\\)；",
+    "当\\(m=297\\)时，",
+    "\\(\\therefore 14-F\\left ( { n } \\right )=-5\\)，",
+    "∴\\(F\\left ( { n } \\right )=19\\)，",
+    "∴\\(xy=19\\)，\\(x+y=9\\)，方程无正整数解，",
+    "②当\\(c=0\\)时",
+    "\\(F\\left ( { m } \\right )=0\\)",
+    "\\(F\\left ( { n } \\right )=5\\)",
+    "∴\\(n=165\\)或\\(561\\)；",
+    "综上，\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知一个三位自然数\\(m\\)，若满足十位数字等于百位数字与个位数字之和，则称这个数为“平衡数”，并把其百位数字与个位数字的乘积记为\\(F\\left ( { m } \\right )\\)．\n例如\\(693\\)，\\(\\because 3+6=9\\)，\\(\\therefore 693\\)是“平衡数”． \\(F\\left ( { 693 } \\right )=6\\times 3=18\\)．\n规定：\\(G\\left ( { m,n } \\right )=sF\\left ( { m } \\right )+tF\\left ( { n } \\right )\\left ( { s } \\right )\\)，\\(t\\)均为非零实数，\\(m\\)，\\(n\\)均为平衡数）．\n已知：\\(G\\left ( { 253,121 } \\right )=5\\)，\\(G\\left ( { 231,693 } \\right )=-16\\)．",
+      "paper_blocks": [
+        70,
+        71,
+        72,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-4C9A4F0663-Q21-P01",
+      "label": "（1）",
+      "prompt": "求\\(s\\)，\\(t\\)及\\(G\\left ( { 286,341 } \\right )\\)的值；",
+      "stem_text": "求\\(s\\)，\\(t\\)及\\(G\\left ( { 286,341 } \\right )\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\\(G\\left ( { 286,341 } \\right )=9\\)",
+      "answer": "\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\\(G\\left ( { 286,341 } \\right )=9\\)",
+      "given_solution": "解：由题意，得\\(G\\left ( { 253,121 } \\right )=sF\\left ( { 253 } \\right )+tF\\left ( { 121 } \\right )=6s+t=5\\)，\n\\(G\\left ( { 231,693 } \\right )=sF\\left ( { 231 } \\right )+tF\\left ( { 396 } \\right )=2s+18t=-16\\)，\n即\\(\\begin{cases} 6s+t=5 \\\\ 2s+18t=-16 \\end{cases}\\)，\n解得：\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，\n\\(\\therefore G\\left ( { 286,341 } \\right )=F\\left ( { 286 } \\right )-F\\left ( { 341 } \\right )=2\\times 6-3\\times 1=9\\)；",
+      "solution_steps": [
+        "解：由题意，得\\(G\\left ( { 253,121 } \\right )=sF\\left ( { 253 } \\right )+tF\\left ( { 121 } \\right )=6s+t=5\\)，",
+        "\\(G\\left ( { 231,693 } \\right )=sF\\left ( { 231 } \\right )+tF\\left ( { 396 } \\right )=2s+18t=-16\\)，",
+        "即\\(\\begin{cases} 6s+t=5 \\\\ 2s+18t=-16 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} s=1 \\\\ t=-1 \\end{cases}\\)，",
+        "\\(\\therefore G\\left ( { 286,341 } \\right )=F\\left ( { 286 } \\right )-F\\left ( { 341 } \\right )=2\\times 6-3\\times 1=9\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          364,
+          365,
+          366,
+          367,
+          368
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.03",
+        "M.N03.01"
+      ],
+      "exam_ids": [
+        "E.N06.03.01",
+        "E.N03.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "依据本问题干、解答或原图核定，涉及用消元求二元一次方程组的解、代入或整体替换求代数式的值。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T1-4C9A4F0663-Q21-P02",
+      "label": "（2）",
+      "prompt": "已知“平衡数”\\(m\\)个位数为7，同时与“平衡数”\\(n\\)满足\\(G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }\\)，求\\(n\\)的所有可能值；",
+      "stem_text": "已知“平衡数”\\(m\\)个位数为7，同时与“平衡数”\\(n\\)满足\\(G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }\\)，求\\(n\\)的所有可能值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)",
+      "answer": "\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)",
+      "given_solution": "解：\\(\\because\\)已知“平衡数”\\(m\\)个位数为7，\n\\(\\therefore m\\)的可能值为\\(297\\)或\\(187\\)，\n又\\(\\because F\\left ( { m } \\right )-10\\ge 0\\)\n\\(\\therefore m=297\\)\n\\(\\therefore F\\left ( { m } \\right )=14\\)\n\\(\\therefore G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }=2\\)\n∴\\(F\\left ( { n } \\right )=12\\)\n不妨设n的百位数，十位数，个位数分别为\\(a，b，c\\)\n则\\(ac=12\\)且\\(a+c < 10\\)\n∴\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)已知“平衡数”\\(m\\)个位数为7，",
+        "\\(\\therefore m\\)的可能值为\\(297\\)或\\(187\\)，",
+        "又\\(\\because F\\left ( { m } \\right )-10\\ge 0\\)",
+        "\\(\\therefore m=297\\)",
+        "\\(\\therefore F\\left ( { m } \\right )=14\\)",
+        "\\(\\therefore G\\left ( { m,n } \\right )=\\sqrt[] { F\\left ( { m } \\right )-10 }=2\\)",
+        "∴\\(F\\left ( { n } \\right )=12\\)",
+        "不妨设n的百位数，十位数，个位数分别为\\(a，b，c\\)",
+        "则\\(ac=12\\)且\\(a+c < 10\\)",
+        "∴\\(n=286\\)或\\(682\\)或\\(374\\)或\\(473\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.09",
+        "M.N05.01"
+      ],
+      "exam_ids": [
+        "E.N05.01.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_note": "该问涉及“代数推理与规律解释”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "依据本问题干、解答或原图核定，涉及代数推理与规律解释、求二次根式有意义的条件。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T1-4C9A4F0663-Q21-P03",
+      "label": "（3）",
+      "prompt": "已知\\(m\\)，\\(n\\)是两个十位数字相同的“平衡数”， \\(m\\)加上其各个数位上数字之和是7的倍数，若\\(G\\left ( { m,n } \\right )=-5\\)，求\\(n\\)的所有可能值．",
+      "stem_text": "已知\\(m\\)，\\(n\\)是两个十位数字相同的“平衡数”， \\(m\\)加上其各个数位上数字之和是7的倍数，若\\(G\\left ( { m,n } \\right )=-5\\)，求\\(n\\)的所有可能值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)",
+      "answer": "\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)",
+      "given_solution": "解：设“平衡数”\\(m=100a+10b+c\\)，\\(n=100x+10b+y\\)，\n\\(\\therefore b=a+c=x+y\\)，\n\\(\\therefore m+a+b+c=100a+10b+c+a+b+c\\)\n\\(=101a+11b+2c\\)\n\\(=101a+11\\left ( { a+c } \\right )+2c\\)\n\\(=112a+13c\\)\n\\(\\because m\\)加上其各个数位上数字之和是7的倍数，\n\\(\\therefore \\frac { 112a+13c } { 7 }=16a+\\frac { 13c } { 7 }\\)为整数，\n\\(\\because 0\\le c\\le 9\\)的整数，\n\\(\\therefore c=7\\)或\\(c=0\\)，\n①当\\(c=7\\)时\n\\(\\because 1\\le a\\le 9\\)的整数，\\(1\\le b\\le 9\\)的整数，且\\(b=a+c\\)，\n\\(\\therefore a=1\\)，\\(b=8\\)，\\(a=2\\)，\\(b=9\\)，\n\\(\\therefore m=187\\)或\\(297\\)，\n\\(\\because G\\left ( { m,n } \\right )=-5\\)，\n当\\(m=187\\)时，\n\\(\\therefore 7-F\\left ( { n } \\right )=-5\\)，\n\\(\\therefore F\\left ( { n } \\right )=12\\)，\n\\(\\therefore xy=12\\)，\\(x+y=8\\)，\n∴\\(\\begin{cases} x=2 \\\\ y=6 \\end{cases}\\)或\\(\\begin{cases} x=6 \\\\ y=2 \\end{cases}\\)，\n\\(\\therefore n=286\\)或\\(682\\)；\n当\\(m=297\\)时，\n\\(\\therefore 14-F\\left ( { n } \\right )=-5\\)，\n∴\\(F\\left ( { n } \\right )=19\\)，\n∴\\(xy=19\\)，\\(x+y=9\\)，方程无正整数解，\n②当\\(c=0\\)时\n\\(F\\left ( { m } \\right )=0\\)\n\\(F\\left ( { n } \\right )=5\\)\n∴\\(n=165\\)或\\(561\\)；\n综上，\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)",
+      "solution_steps": [
+        "解：设“平衡数”\\(m=100a+10b+c\\)，\\(n=100x+10b+y\\)，",
+        "\\(\\therefore b=a+c=x+y\\)，",
+        "\\(\\therefore m+a+b+c=100a+10b+c+a+b+c\\)",
+        "\\(=101a+11b+2c\\)",
+        "\\(=101a+11\\left ( { a+c } \\right )+2c\\)",
+        "\\(=112a+13c\\)",
+        "\\(\\because m\\)加上其各个数位上数字之和是7的倍数，",
+        "\\(\\therefore \\frac { 112a+13c } { 7 }=16a+\\frac { 13c } { 7 }\\)为整数，",
+        "\\(\\because 0\\le c\\le 9\\)的整数，",
+        "\\(\\therefore c=7\\)或\\(c=0\\)，",
+        "①当\\(c=7\\)时",
+        "\\(\\because 1\\le a\\le 9\\)的整数，\\(1\\le b\\le 9\\)的整数，且\\(b=a+c\\)，",
+        "\\(\\therefore a=1\\)，\\(b=8\\)，\\(a=2\\)，\\(b=9\\)，",
+        "\\(\\therefore m=187\\)或\\(297\\)，",
+        "\\(\\because G\\left ( { m,n } \\right )=-5\\)，",
+        "当\\(m=187\\)时，",
+        "\\(\\therefore 7-F\\left ( { n } \\right )=-5\\)，",
+        "\\(\\therefore F\\left ( { n } \\right )=12\\)，",
+        "\\(\\therefore xy=12\\)，\\(x+y=8\\)，",
+        "∴\\(\\begin{cases} x=2 \\\\ y=6 \\end{cases}\\)或\\(\\begin{cases} x=6 \\\\ y=2 \\end{cases}\\)，",
+        "\\(\\therefore n=286\\)或\\(682\\)；",
+        "当\\(m=297\\)时，",
+        "\\(\\therefore 14-F\\left ( { n } \\right )=-5\\)，",
+        "∴\\(F\\left ( { n } \\right )=19\\)，",
+        "∴\\(xy=19\\)，\\(x+y=9\\)，方程无正整数解，",
+        "②当\\(c=0\\)时",
+        "\\(F\\left ( { m } \\right )=0\\)",
+        "\\(F\\left ( { n } \\right )=5\\)",
+        "∴\\(n=165\\)或\\(561\\)；",
+        "综上，\\(n=286\\)或\\(682\\)或\\(165\\)或\\(561\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          73,
+          76
+        ],
+        "solution_block_ids": [
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      76
+    ],
+    "solution_body_blocks": [
+      349,
+      411
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-4C9A4F0663/paper-q21-p05.webp",
+      "assets/SZ-G8-T1-4C9A4F0663/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          598.18,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          149.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-4C9A4F0663/solution-q21-p18.webp",
+      "assets/SZ-G8-T1-4C9A4F0663/solution-q21-p19.webp",
+      "assets/SZ-G8-T1-4C9A4F0663/solution-q21-p20.webp",
+      "assets/SZ-G8-T1-4C9A4F0663/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          666.82,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          256.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N06.03",
+    "M.N03.01",
+    "M.N03.09",
+    "M.N05.01",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.N06.03.01",
+    "E.N03.01.02",
+    "E.N05.01.01",
+    "E.N06.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“代数推理与规律解释”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "依据本问题干、解答或原图核定，涉及用消元求二元一次方程组的解、代入或整体替换求代数式的值。 依据本问题干、解答或原图核定，涉及代数推理与规律解释、求二次根式有意义的条件。 本问的要求和解答步骤对应“由总量与部分量关系建立一次模型”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

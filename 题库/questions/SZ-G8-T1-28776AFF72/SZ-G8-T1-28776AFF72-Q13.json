@@ -1,0 +1,152 @@
+{
+  "id": "SZ-G8-T1-28776AFF72-Q13",
+  "paper_id": "SZ-G8-T1-28776AFF72",
+  "number": 13,
+  "type": "填空题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，长方形\\(ABCD\\)中：\\(AB=CD=8\\)，\\(AD=BC=5\\)．点E为射线\\(AB\\)上的一动点，将\\(\\vartriangle ADE\\)沿\\(DE\\)折叠，得到\\(\\vartriangle A'DE\\)（点A的对应点为\\(A'\\)）并连接\\(A ^ { \\prime } A\\)、\\(A'B\\)，当\\(\\vartriangle A'AB\\)为等腰三角形，\\(AE\\)的长是______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-28776AFF72/figures/f125ad8b0fb3ee1e7aea1a693e1d7776a68e60aec42b2152248af3c60c199155.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)",
+  "answer": "\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)",
+  "given_solution": "【分析】本题考查了勾股定理，线段垂直平分线的判定和性质，等腰三角形的判定和性质．分三种情况讨论，当\\(A'A=AB=8\\)、\\(A'A=A'B\\)和\\(AB=A'B\\)，利用勾股定理列式计算即可求解．\n【详解】解：设\\(DE\\)与\\(A ^ { \\prime } A\\)交于点\\(O\\)，由折叠知\\(DE\\)是线段\\(A ^ { \\prime } A\\)的垂直平分线，\\(AD=A'D=5\\)，\\(AE=A'E\\)，\n∴\\(A'A\\bot DE\\)，\\(AO=A'O=\\frac { 1 } { 2 }AA'\\)，\n当\\(\\vartriangle A'AB\\)为等腰三角形时，分三种情况讨论，\n当\\(A'A=AB=8\\)时，\n〔图2〕\n\\(\\angle AOD=90{}^\\circ\\)，\\(AO=A'O=\\frac { 1 } { 2 }AA'=4\\)，\n∴\\(OD=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n设\\(AE=x\\)，则\\(DE=\\sqrt[] { 25+x ^ { 2 } }\\)，\n∵\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }AE\\times AD=\\frac { 1 } { 2 }DE\\times AO\\)，\n∴\\(16\\left ( { 25+x ^ { 2 } } \\right )=25x ^ { 2 }\\)，\n解得\\(x=\\pm \\frac { 20 } { 3 }\\)（舍去负值），即\\(AE=\\frac { 20 } { 3 }\\)；\n当\\(A'A=A'B\\)时，如图，过点\\(A'\\)作\\(MN\\bot AB\\)交\\(AB\\)于点\\(N\\)，交\\(CD\\)于点\\(M\\)，\n〔图3〕\n∴\\(MN=AD=BC=5=A'D\\)，\\(DM=AN\\)，\n∵\\(A'A=A'B\\)，\n∴\\(AN=BN=4=DM\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle A'DM\\)中，由勾股定理得\\(A'M=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∴\\(A'N=5-3=2\\)，\n设\\(AE=x\\)，则\\(A'E=x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle A'EN\\)中，由勾股定理得\\(x ^ { 2 } =\\left ( { 4-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，\n解得\\(x=\\frac { 5 } { 2 }\\)，即\\(AE=\\frac { 5 } { 2 }\\)；\n当\\(AB=A'B\\)时，点\\(B\\)在线段\\(A ^ { \\prime } A\\)的垂直平分线上，\n∵点\\(D\\)、\\(E\\)都在线段\\(A ^ { \\prime } A\\)的垂直平分线上，\n∴点\\(B\\)、\\(E\\)重合，\n此时，\\(AE=8\\)；\n〔图4〕\n综上，\\(AE\\)的长是\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)，\n故答案为：\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-28776AFF72/figures/f125ad8b0fb3ee1e7aea1a693e1d7776a68e60aec42b2152248af3c60c199155.png",
+    "assets/SZ-G8-T1-28776AFF72/figures/bca62451c0f0a82c4abfeb622a190f3d89b97c1dc99d09fc1c1314f79a5a90e0.png",
+    "assets/SZ-G8-T1-28776AFF72/figures/9a0287cf7bc5fdb17131829cf1d49c621612f6b8a68bd500edb4b1b32454aba0.png",
+    "assets/SZ-G8-T1-28776AFF72/figures/6d9f6ca0d380d43ad04e7d475ff19c502ec8f2891358faaa89a39588bb8008ff.png"
+  ],
+  "solution": "解：设\\(DE\\)与\\(A ^ { \\prime } A\\)交于点\\(O\\)，由折叠知\\(DE\\)是线段\\(A ^ { \\prime } A\\)的垂直平分线，\\(AD=A'D=5\\)，\\(AE=A'E\\)，\n∴\\(A'A\\bot DE\\)，\\(AO=A'O=\\frac { 1 } { 2 }AA'\\)，\n当\\(\\vartriangle A'AB\\)为等腰三角形时，分三种情况讨论，\n当\\(A'A=AB=8\\)时，\n〔图2〕\n\\(\\angle AOD=90{}^\\circ\\)，\\(AO=A'O=\\frac { 1 } { 2 }AA'=4\\)，\n∴\\(OD=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n设\\(AE=x\\)，则\\(DE=\\sqrt[] { 25+x ^ { 2 } }\\)，\n∵\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }AE\\times AD=\\frac { 1 } { 2 }DE\\times AO\\)，\n∴\\(16\\left ( { 25+x ^ { 2 } } \\right )=25x ^ { 2 }\\)，\n解得\\(x=\\pm \\frac { 20 } { 3 }\\)（舍去负值），即\\(AE=\\frac { 20 } { 3 }\\)；\n当\\(A'A=A'B\\)时，如图，过点\\(A'\\)作\\(MN\\bot AB\\)交\\(AB\\)于点\\(N\\)，交\\(CD\\)于点\\(M\\)，\n〔图3〕\n∴\\(MN=AD=BC=5=A'D\\)，\\(DM=AN\\)，\n∵\\(A'A=A'B\\)，\n∴\\(AN=BN=4=DM\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle A'DM\\)中，由勾股定理得\\(A'M=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∴\\(A'N=5-3=2\\)，\n设\\(AE=x\\)，则\\(A'E=x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle A'EN\\)中，由勾股定理得\\(x ^ { 2 } =\\left ( { 4-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，\n解得\\(x=\\frac { 5 } { 2 }\\)，即\\(AE=\\frac { 5 } { 2 }\\)；\n当\\(AB=A'B\\)时，点\\(B\\)在线段\\(A ^ { \\prime } A\\)的垂直平分线上，\n∵点\\(D\\)、\\(E\\)都在线段\\(A ^ { \\prime } A\\)的垂直平分线上，\n∴点\\(B\\)、\\(E\\)重合，\n此时，\\(AE=8\\)；\n〔图4〕\n综上，\\(AE\\)的长是\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)，\n故答案为：\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)．",
+  "solution_steps": [
+    "解：设\\(DE\\)与\\(A ^ { \\prime } A\\)交于点\\(O\\)，由折叠知\\(DE\\)是线段\\(A ^ { \\prime } A\\)的垂直平分线，\\(AD=A'D=5\\)，\\(AE=A'E\\)，",
+    "∴\\(A'A\\bot DE\\)，\\(AO=A'O=\\frac { 1 } { 2 }AA'\\)，",
+    "当\\(\\vartriangle A'AB\\)为等腰三角形时，分三种情况讨论，",
+    "当\\(A'A=AB=8\\)时，",
+    "〔图2〕",
+    "\\(\\angle AOD=90{}^\\circ\\)，\\(AO=A'O=\\frac { 1 } { 2 }AA'=4\\)，",
+    "∴\\(OD=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，",
+    "设\\(AE=x\\)，则\\(DE=\\sqrt[] { 25+x ^ { 2 } }\\)，",
+    "∵\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }AE\\times AD=\\frac { 1 } { 2 }DE\\times AO\\)，",
+    "∴\\(16\\left ( { 25+x ^ { 2 } } \\right )=25x ^ { 2 }\\)，",
+    "解得\\(x=\\pm \\frac { 20 } { 3 }\\)（舍去负值），即\\(AE=\\frac { 20 } { 3 }\\)；",
+    "当\\(A'A=A'B\\)时，如图，过点\\(A'\\)作\\(MN\\bot AB\\)交\\(AB\\)于点\\(N\\)，交\\(CD\\)于点\\(M\\)，",
+    "〔图3〕",
+    "∴\\(MN=AD=BC=5=A'D\\)，\\(DM=AN\\)，",
+    "∵\\(A'A=A'B\\)，",
+    "∴\\(AN=BN=4=DM\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle A'DM\\)中，由勾股定理得\\(A'M=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，",
+    "∴\\(A'N=5-3=2\\)，",
+    "设\\(AE=x\\)，则\\(A'E=x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle A'EN\\)中，由勾股定理得\\(x ^ { 2 } =\\left ( { 4-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，",
+    "解得\\(x=\\frac { 5 } { 2 }\\)，即\\(AE=\\frac { 5 } { 2 }\\)；",
+    "当\\(AB=A'B\\)时，点\\(B\\)在线段\\(A ^ { \\prime } A\\)的垂直平分线上，",
+    "∵点\\(D\\)、\\(E\\)都在线段\\(A ^ { \\prime } A\\)的垂直平分线上，",
+    "∴点\\(B\\)、\\(E\\)重合，",
+    "此时，\\(AE=8\\)；",
+    "〔图4〕",
+    "综上，\\(AE\\)的长是\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)，",
+    "故答案为：\\(8\\)或\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 20 } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      33,
+      34
+    ],
+    "solution_body_blocks": [
+      135,
+      167
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-28776AFF72/paper-q13-p02.webp",
+      "assets/SZ-G8-T1-28776AFF72/paper-q13-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          729.09,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          173.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-28776AFF72/solution-q13-p07.webp",
+      "assets/SZ-G8-T1-28776AFF72/solution-q13-p08.webp",
+      "assets/SZ-G8-T1-28776AFF72/solution-q13-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          600.45,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          726.82
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          412.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

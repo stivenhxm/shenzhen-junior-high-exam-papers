@@ -1,0 +1,515 @@
+{
+  "id": "SZ-G8-T1-6CB464B74F-Q19",
+  "paper_id": "SZ-G8-T1-6CB464B74F",
+  "number": 19,
+  "type": "解答题",
+  "points": 10.0,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "（10分）问题情境：在学习了《勾股定理》和《实数》后，某班同学们以“已知三角形三边的长度，求三角形面积”为主题开展了数学活动，同学们想到借助曾经阅读的数学资料进行探究：\n材料\\(1\\)．古希腊的几何学家海伦（\\(Heron\\)，约公元\\(50\\)年），在他的著作《度量》一书中，给出了求其面积的海伦公式\\(S=\\sqrt[] { p\\left ( { p-a } \\right )\\left ( { p-b } \\right )\\left ( { p-c } \\right ) }\\)（其中\\(a，b，c\\)为三角形的三边长，\\(p=\\frac { a+b+c } { 2 }\\)，\\(S\\)为三角形的面积）．\n材料\\(2\\)．我国南宋时期数学家秦九韶曾提出利用三角形的三边长求面积的秦九韶公式：\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ a ^ { 2 } b ^ { 2 } -\\left ( { \\frac { a ^ { 2 } +b ^ { 2 } -c ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)其中三角形边长分别为\\(a，b，c\\)，三角形的面积为\\(S\\)．\n（1）利用材料1解决下面的问题：当\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)时，求这个三角形的面积？\n（2）利用材料\\(2\\)解决下面的问题：已知\\(\\vartriangle ABC\\)三条边的长度分别是\\(\\sqrt[] { x+1 }，\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }，4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，记\\(\\vartriangle ABC\\)的周长为\\(C_{ \\vartriangle ABC }\\)．\n①当\\(x=2\\)时，请直接写出\\(\\vartriangle ABC\\)中最长边的长度；\n②若\\(x\\)为整数，当\\(C_{ \\vartriangle ABC }\\)取得最大值时，请用秦九韶公式求出△ABC的面积．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "materials": [
+    {
+      "id": "background",
+      "kind": "text",
+      "text": "（10分）问题情境：在学习了《勾股定理》和《实数》后，某班同学们以“已知三角形三边的长度，求三角形面积”为主题开展了数学活动，同学们想到借助曾经阅读的数学资料进行探究：\n材料\\(1\\)．古希腊的几何学家海伦（\\(Heron\\)，约公元\\(50\\)年），在他的著作《度量》一书中，给出了求其面积的海伦公式\\(S=\\sqrt[] { p\\left ( { p-a } \\right )\\left ( { p-b } \\right )\\left ( { p-c } \\right ) }\\)（其中\\(a，b，c\\)为三角形的三边长，\\(p=\\frac { a+b+c } { 2 }\\)，\\(S\\)为三角形的面积）．\n材料\\(2\\)．我国南宋时期数学家秦九韶曾提出利用三角形的三边长求面积的秦九韶公式：\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ a ^ { 2 } b ^ { 2 } -\\left ( { \\frac { a ^ { 2 } +b ^ { 2 } -c ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)其中三角形边长分别为\\(a，b，c\\)，三角形的面积为\\(S\\)．",
+      "paper_blocks": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ]
+    },
+    {
+      "id": "edges",
+      "kind": "text",
+      "text": "（2）利用材料\\(2\\)解决下面的问题：已知\\(\\vartriangle ABC\\)三条边的长度分别是\\(\\sqrt[] { x+1 }，\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }，4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，记\\(\\vartriangle ABC\\)的周长为\\(C_{ \\vartriangle ABC }\\)．",
+      "paper_blocks": [
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-6CB464B74F-Q19-P01",
+      "label": "（1）",
+      "prompt": "（1）利用材料1解决下面的问题：当\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)时，求这个三角形的面积？",
+      "stem_text": "（1）利用材料1解决下面的问题：当\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)时，求这个三角形的面积？",
+      "material_ids": [
+        "background"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(3\\)。",
+      "given_solution": "解：（1）∵\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)，\n∴\\(p=\\frac { \\sqrt[] { 5 }+3+2\\sqrt[] { 5 } } { 2 }=\\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\)，（1分）\n∴\\(S=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-\\sqrt[] { 5 } } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-3 } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-2\\sqrt[] { 5 } } \\right ) }\\)，\n\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，\n\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，\n\\(=\\sqrt[] { \\frac { \\left ( { 3\\sqrt[] { 5 } } \\right ) ^ { 2 } -3 ^ { 2 } } { 4 }\\times \\frac { 3 ^ { 2 } -\\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } } { 4 } }\\)，\n\\(=\\sqrt[] { \\frac { 36 } { 4 }\\times \\frac { 4 } { 4 } }\\)，\n\\(=\\sqrt[] { 9 }\\)，\n\\(=3\\)；（2分）",
+      "solution_steps": [
+        "解：（1）∵\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)，",
+        "∴\\(p=\\frac { \\sqrt[] { 5 }+3+2\\sqrt[] { 5 } } { 2 }=\\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\)，（1分）",
+        "∴\\(S=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-\\sqrt[] { 5 } } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-3 } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-2\\sqrt[] { 5 } } \\right ) }\\)，",
+        "\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，",
+        "\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，",
+        "\\(=\\sqrt[] { \\frac { \\left ( { 3\\sqrt[] { 5 } } \\right ) ^ { 2 } -3 ^ { 2 } } { 4 }\\times \\frac { 3 ^ { 2 } -\\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } } { 4 } }\\)，",
+        "\\(=\\sqrt[] { \\frac { 36 } { 4 }\\times \\frac { 4 } { 4 } }\\)，",
+        "\\(=\\sqrt[] { 9 }\\)，",
+        "\\(=3\\)；（2分）"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ],
+        "solution_block_ids": [
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“三角形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-6CB464B74F-Q19-P02",
+      "label": "（2）①",
+      "prompt": "①当\\(x=2\\)时，请直接写出\\(\\vartriangle ABC\\)中最长边的长度；",
+      "stem_text": "①当\\(x=2\\)时，请直接写出\\(\\vartriangle ABC\\)中最长边的长度；",
+      "material_ids": [
+        "background",
+        "edges"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(3\\)。",
+      "given_solution": "（2）①当\\(x=2\\)时，\n\\(\\sqrt[] { x+1 }=\\sqrt[] { 3 }\\)，\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } }=3\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } =2\\)，(5分）\n∴⊿ABC中最长边的长度为\\(3\\)；（6分）",
+      "solution_steps": [
+        "（2）①当\\(x=2\\)时，",
+        "\\(\\sqrt[] { x+1 }=\\sqrt[] { 3 }\\)，\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } }=3\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } =2\\)，(5分）",
+        "∴⊿ABC中最长边的长度为\\(3\\)；（6分）"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ],
+        "solution_block_ids": [
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-6CB464B74F-Q19-P03",
+      "label": "（2）②",
+      "prompt": "②若\\(x\\)为整数，当\\(C_{ \\vartriangle ABC }\\)取得最大值时，请用秦九韶公式求出△ABC的面积．",
+      "stem_text": "②若\\(x\\)为整数，当\\(C_{ \\vartriangle ABC }\\)取得最大值时，请用秦九韶公式求出△ABC的面积．",
+      "material_ids": [
+        "background",
+        "edges"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(3\\sqrt7/4\\)。",
+      "given_solution": "②∵\\(x+1\\ge 0\\)，\\(4-x\\ge 0\\)，\n∴\\(-1\\le x\\le 4\\)，（7分）\n∵\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，三角形的边为正数，\n∴\\(x>0\\)，\n∴\\(0 < x\\le 4\\)，（8分）\n∴\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=5-x\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，\n∴\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }+4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，\n\\(=\\sqrt[] { x+1 }+5-x+x\\)，\n\\(=\\sqrt[] { x+1 }+5\\)，（9分）\n∵\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+5\\)，\\(-1\\le x\\le 4\\)，\\(x\\)为整数，\n∴当\\(x=4\\)时，三边为\\(\\sqrt[] { 5 }\\)，\\(1\\)，\\(4\\)，\n∵\\(\\sqrt[] { 5 }+1 < 4\\)，\n∴\\(x=4\\)不合题意，舍去，\n当\\(x=3\\)时，三边为\\(2\\)，\\(2\\)，\\(3\\)，符合题意，此时，\\(C_{ \\vartriangle ABC }\\)取最大值，\n∴\\(a=2\\)，\\(b=2\\)，\\(c=3\\)，\n∴\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 2 ^ { 2 } \\times 2 ^ { 2 } -\\left ( { \\frac { 2 ^ { 2 } +2 ^ { 2 } -3 ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)\n\\(=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 16-\\left ( { -\\frac { 1 } { 2 } } \\right ) ^ { 2 } \\right] }\\)，\n\\(=\\sqrt[] { \\frac { 1 } { 4 }\\times \\left ( { 16-\\frac { 1 } { 4 } } \\right ) }\\)，\n\\(=\\sqrt[] { \\frac { 63 } { 16 } }\\)，\n\\(=\\frac { 3 } { 4 }\\sqrt[] { 7 }\\)．（10分）",
+      "solution_steps": [
+        "②∵\\(x+1\\ge 0\\)，\\(4-x\\ge 0\\)，",
+        "∴\\(-1\\le x\\le 4\\)，（7分）",
+        "∵\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，三角形的边为正数，",
+        "∴\\(x>0\\)，",
+        "∴\\(0 < x\\le 4\\)，（8分）",
+        "∴\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=5-x\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，",
+        "∴\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }+4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，",
+        "\\(=\\sqrt[] { x+1 }+5-x+x\\)，",
+        "\\(=\\sqrt[] { x+1 }+5\\)，（9分）",
+        "∵\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+5\\)，\\(-1\\le x\\le 4\\)，\\(x\\)为整数，",
+        "∴当\\(x=4\\)时，三边为\\(\\sqrt[] { 5 }\\)，\\(1\\)，\\(4\\)，",
+        "∵\\(\\sqrt[] { 5 }+1 < 4\\)，",
+        "∴\\(x=4\\)不合题意，舍去，",
+        "当\\(x=3\\)时，三边为\\(2\\)，\\(2\\)，\\(3\\)，符合题意，此时，\\(C_{ \\vartriangle ABC }\\)取最大值，",
+        "∴\\(a=2\\)，\\(b=2\\)，\\(c=3\\)，",
+        "∴\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 2 ^ { 2 } \\times 2 ^ { 2 } -\\left ( { \\frac { 2 ^ { 2 } +2 ^ { 2 } -3 ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)",
+        "\\(=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 16-\\left ( { -\\frac { 1 } { 2 } } \\right ) ^ { 2 } \\right] }\\)，",
+        "\\(=\\sqrt[] { \\frac { 1 } { 4 }\\times \\left ( { 16-\\frac { 1 } { 4 } } \\right ) }\\)，",
+        "\\(=\\sqrt[] { \\frac { 63 } { 16 } }\\)，",
+        "\\(=\\frac { 3 } { 4 }\\sqrt[] { 7 }\\)．（10分）"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128
+        ],
+        "solution_block_ids": [
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）\\(3\\)。\n（2）①\\(3\\)。\n（2）②\\(3\\sqrt7/4\\)。",
+  "given_solution": "【详解】解：（1）∵\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)，\n∴\\(p=\\frac { \\sqrt[] { 5 }+3+2\\sqrt[] { 5 } } { 2 }=\\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\)，（1分）\n∴\\(S=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-\\sqrt[] { 5 } } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-3 } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-2\\sqrt[] { 5 } } \\right ) }\\)，\n\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，\n\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，\n\\(=\\sqrt[] { \\frac { \\left ( { 3\\sqrt[] { 5 } } \\right ) ^ { 2 } -3 ^ { 2 } } { 4 }\\times \\frac { 3 ^ { 2 } -\\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } } { 4 } }\\)，\n\\(=\\sqrt[] { \\frac { 36 } { 4 }\\times \\frac { 4 } { 4 } }\\)，\n\\(=\\sqrt[] { 9 }\\)，\n\\(=3\\)；（2分）\n（2）①当\\(x=2\\)时，\n\\(\\sqrt[] { x+1 }=\\sqrt[] { 3 }\\)，\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } }=3\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } =2\\)，(5分）\n∴⊿ABC中最长边的长度为\\(3\\)；（6分）\n②∵\\(x+1\\ge 0\\)，\\(4-x\\ge 0\\)，\n∴\\(-1\\le x\\le 4\\)，（7分）\n∵\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，三角形的边为正数，\n∴\\(x>0\\)，\n∴\\(0 < x\\le 4\\)，（8分）\n∴\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=5-x\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，\n∴\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }+4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，\n\\(=\\sqrt[] { x+1 }+5-x+x\\)，\n\\(=\\sqrt[] { x+1 }+5\\)，（9分）\n∵\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+5\\)，\\(-1\\le x\\le 4\\)，\\(x\\)为整数，\n∴当\\(x=4\\)时，三边为\\(\\sqrt[] { 5 }\\)，\\(1\\)，\\(4\\)，\n∵\\(\\sqrt[] { 5 }+1 < 4\\)，\n∴\\(x=4\\)不合题意，舍去，\n当\\(x=3\\)时，三边为\\(2\\)，\\(2\\)，\\(3\\)，符合题意，此时，\\(C_{ \\vartriangle ABC }\\)取最大值，\n∴\\(a=2\\)，\\(b=2\\)，\\(c=3\\)，\n∴\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 2 ^ { 2 } \\times 2 ^ { 2 } -\\left ( { \\frac { 2 ^ { 2 } +2 ^ { 2 } -3 ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)\n\\(=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 16-\\left ( { -\\frac { 1 } { 2 } } \\right ) ^ { 2 } \\right] }\\)，\n\\(=\\sqrt[] { \\frac { 1 } { 4 }\\times \\left ( { 16-\\frac { 1 } { 4 } } \\right ) }\\)，\n\\(=\\sqrt[] { \\frac { 63 } { 16 } }\\)，\n\\(=\\frac { 3 } { 4 }\\sqrt[] { 7 }\\)．（10分）",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "解：（1）∵\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)，",
+    "∴\\(p=\\frac { \\sqrt[] { 5 }+3+2\\sqrt[] { 5 } } { 2 }=\\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\)，（1分）",
+    "∴\\(S=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-\\sqrt[] { 5 } } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-3 } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-2\\sqrt[] { 5 } } \\right ) }\\)，",
+    "\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，",
+    "\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，",
+    "\\(=\\sqrt[] { \\frac { \\left ( { 3\\sqrt[] { 5 } } \\right ) ^ { 2 } -3 ^ { 2 } } { 4 }\\times \\frac { 3 ^ { 2 } -\\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } } { 4 } }\\)，",
+    "\\(=\\sqrt[] { \\frac { 36 } { 4 }\\times \\frac { 4 } { 4 } }\\)，",
+    "\\(=\\sqrt[] { 9 }\\)，",
+    "\\(=3\\)；（2分）",
+    "（2）①当\\(x=2\\)时，",
+    "\\(\\sqrt[] { x+1 }=\\sqrt[] { 3 }\\)，\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } }=3\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } =2\\)，(5分）",
+    "∴⊿ABC中最长边的长度为\\(3\\)；（6分）",
+    "②∵\\(x+1\\ge 0\\)，\\(4-x\\ge 0\\)，",
+    "∴\\(-1\\le x\\le 4\\)，（7分）",
+    "∵\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，三角形的边为正数，",
+    "∴\\(x>0\\)，",
+    "∴\\(0 < x\\le 4\\)，（8分）",
+    "∴\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=5-x\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，",
+    "∴\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }+4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，",
+    "\\(=\\sqrt[] { x+1 }+5-x+x\\)，",
+    "\\(=\\sqrt[] { x+1 }+5\\)，（9分）",
+    "∵\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+5\\)，\\(-1\\le x\\le 4\\)，\\(x\\)为整数，",
+    "∴当\\(x=4\\)时，三边为\\(\\sqrt[] { 5 }\\)，\\(1\\)，\\(4\\)，",
+    "∵\\(\\sqrt[] { 5 }+1 < 4\\)，",
+    "∴\\(x=4\\)不合题意，舍去，",
+    "当\\(x=3\\)时，三边为\\(2\\)，\\(2\\)，\\(3\\)，符合题意，此时，\\(C_{ \\vartriangle ABC }\\)取最大值，",
+    "∴\\(a=2\\)，\\(b=2\\)，\\(c=3\\)，",
+    "∴\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 2 ^ { 2 } \\times 2 ^ { 2 } -\\left ( { \\frac { 2 ^ { 2 } +2 ^ { 2 } -3 ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)",
+    "\\(=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 16-\\left ( { -\\frac { 1 } { 2 } } \\right ) ^ { 2 } \\right] }\\)，",
+    "\\(=\\sqrt[] { \\frac { 1 } { 4 }\\times \\left ( { 16-\\frac { 1 } { 4 } } \\right ) }\\)，",
+    "\\(=\\sqrt[] { \\frac { 63 } { 16 } }\\)，",
+    "\\(=\\frac { 3 } { 4 }\\sqrt[] { 7 }\\)．（10分）"
+  ],
+  "solution": "解：（1）∵\\(a=\\sqrt[] { 5 }，b=3，c=2\\sqrt[] { 5 }\\)，\n∴\\(p=\\frac { \\sqrt[] { 5 }+3+2\\sqrt[] { 5 } } { 2 }=\\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\)，（1分）\n∴\\(S=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-\\sqrt[] { 5 } } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-3 } \\right )\\times \\left ( { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }-2\\sqrt[] { 5 } } \\right ) }\\)，\n\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，\n\\(=\\sqrt[] { \\frac { 3\\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3\\sqrt[] { 5 }-3 } { 2 }\\times \\frac { \\sqrt[] { 5 }+3 } { 2 }\\times \\frac { 3-\\sqrt[] { 5 } } { 2 } }\\)，\n\\(=\\sqrt[] { \\frac { \\left ( { 3\\sqrt[] { 5 } } \\right ) ^ { 2 } -3 ^ { 2 } } { 4 }\\times \\frac { 3 ^ { 2 } -\\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } } { 4 } }\\)，\n\\(=\\sqrt[] { \\frac { 36 } { 4 }\\times \\frac { 4 } { 4 } }\\)，\n\\(=\\sqrt[] { 9 }\\)，\n\\(=3\\)；（2分）\n（2）①当\\(x=2\\)时，\n\\(\\sqrt[] { x+1 }=\\sqrt[] { 3 }\\)，\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } }=3\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } =2\\)，(5分）\n∴⊿ABC中最长边的长度为\\(3\\)；（6分）\n②∵\\(x+1\\ge 0\\)，\\(4-x\\ge 0\\)，\n∴\\(-1\\le x\\le 4\\)，（7分）\n∵\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，三角形的边为正数，\n∴\\(x>0\\)，\n∴\\(0 < x\\le 4\\)，（8分）\n∴\\(\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }=5-x\\)，\\(4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 } =4-\\left ( { 4-x } \\right )=x\\)，\n∴\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+\\sqrt[] { \\left ( { 5-x } \\right ) ^ { 2 } }+4-\\left ( { \\sqrt[] { 4-x } } \\right ) ^ { 2 }\\)，\n\\(=\\sqrt[] { x+1 }+5-x+x\\)，\n\\(=\\sqrt[] { x+1 }+5\\)，（9分）\n∵\\(C_{ \\vartriangle ABC } =\\sqrt[] { x+1 }+5\\)，\\(-1\\le x\\le 4\\)，\\(x\\)为整数，\n∴当\\(x=4\\)时，三边为\\(\\sqrt[] { 5 }\\)，\\(1\\)，\\(4\\)，\n∵\\(\\sqrt[] { 5 }+1 < 4\\)，\n∴\\(x=4\\)不合题意，舍去，\n当\\(x=3\\)时，三边为\\(2\\)，\\(2\\)，\\(3\\)，符合题意，此时，\\(C_{ \\vartriangle ABC }\\)取最大值，\n∴\\(a=2\\)，\\(b=2\\)，\\(c=3\\)，\n∴\\(S=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 2 ^ { 2 } \\times 2 ^ { 2 } -\\left ( { \\frac { 2 ^ { 2 } +2 ^ { 2 } -3 ^ { 2 } } { 2 } } \\right ) ^ { 2 } \\right] }\\)\n\\(=\\sqrt[] { \\frac { 1 } { 4 }\\left[ 16-\\left ( { -\\frac { 1 } { 2 } } \\right ) ^ { 2 } \\right] }\\)，\n\\(=\\sqrt[] { \\frac { 1 } { 4 }\\times \\left ( { 16-\\frac { 1 } { 4 } } \\right ) }\\)，\n\\(=\\sqrt[] { \\frac { 63 } { 16 } }\\)，\n\\(=\\frac { 3 } { 4 }\\sqrt[] { 7 }\\)．（10分）",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "paper_body_blocks": [
+      106,
+      128
+    ],
+    "solution_body_blocks": [
+      262,
+      293
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-6CB464B74F/paper-q19-p06.webp",
+      "assets/SZ-G8-T1-6CB464B74F/paper-q19-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          715.45,
+          583.64,
+          753.18
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          320.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-6CB464B74F/solution-q19-p14.webp",
+      "assets/SZ-G8-T1-6CB464B74F/solution-q19-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          425.91,
+          583.64,
+          760.45
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          74.55,
+          583.64,
+          724.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“三角形”，按题面与解答定位知识主题。 题目涉及“△”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

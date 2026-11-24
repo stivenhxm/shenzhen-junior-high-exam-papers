@@ -1,0 +1,371 @@
+{
+  "knowledge_ids": [
+    "M.G05.03",
+    "M.G01.02",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G05.03.02",
+    "E.G03.02.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。 题目涉及“∠”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-3292F1D01E-Q23",
+  "number": 23,
+  "paper_id": "SZ-G8-T2-3292F1D01E",
+  "title": "由边或对角线条件证明菱形、构造全等关系证明线段或角关系",
+  "stem": "（10分）（2022春•福田区校级期末）如图，在平行四边形ABCD中，CE平分∠BCD，交AB边于点E，EF∥BC，交CD于点F，点G是BC边的中点，连接GF，且∠1＝∠2，CE与GF交于点M，过点M作MH⊥CD于点H．\n（1）求证：四边形BCFE是菱形；\n（2）若CH＝1，求BC的长；\n（3）求证：EM＝FG+MH．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（10分）（2022春•福田区校级期末）如图，在平行四边形ABCD中，CE平分∠BCD，交AB边于点E，EF∥BC，交CD于点F，点G是BC边的中点，连接GF，且∠1＝∠2，CE与GF交于点M，过点M作MH⊥CD于点H．",
+      "paper_blocks": [
+        100
+      ]
+    },
+    {
+      "id": "fig-104",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        104
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3292F1D01E-Q23-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形BCFE是菱形；",
+      "stem_text": "求证：四边形BCFE是菱形；",
+      "material_ids": [
+        "context",
+        "fig-104"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴四边形BCFE是菱形",
+      "given_solution": "证明：∵四边形ABCD是平行四边形，\n∴AB∥CD，\n∴∠1＝∠ECF，\n∵EF∥BC，\n∴四边形BCFE是平行四边形，\n∵CE平分∠BCD，\n∴∠BCE＝∠ECF，\n∴∠BCE＝∠1，\n∴BC＝BE，\n∴四边形BCFE是菱形；",
+      "solution_steps": [
+        "证明：∵四边形ABCD是平行四边形，",
+        "∴AB∥CD，",
+        "∴∠1＝∠ECF，",
+        "∵EF∥BC，",
+        "∴四边形BCFE是平行四边形，",
+        "∵CE平分∠BCD，",
+        "∴∠BCE＝∠ECF，",
+        "∴∠BCE＝∠1，",
+        "∴BC＝BE，",
+        "∴四边形BCFE是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          100,
+          101,
+          104
+        ],
+        "solution_block_ids": [
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3292F1D01E-Q23-P02",
+      "label": "（2）",
+      "prompt": "若CH＝1，求BC的长；",
+      "stem_text": "若CH＝1，求BC的长；",
+      "material_ids": [
+        "context",
+        "fig-104"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴BC＝CF＝2",
+      "given_solution": "∵∠1＝∠ECF，∠1＝∠2，\n∴∠ECF＝∠2，\n∴CM＝FM，\n∵MH⊥CD，\n∴CF＝2CH＝2×1＝2，\n∵四边形BCFE是菱形；\n∴BC＝CF＝2；",
+      "solution_steps": [
+        "∵∠1＝∠ECF，∠1＝∠2，",
+        "∴∠ECF＝∠2，",
+        "∴CM＝FM，",
+        "∵MH⊥CD，",
+        "∴CF＝2CH＝2×1＝2，",
+        "∵四边形BCFE是菱形；",
+        "∴BC＝CF＝2；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          100,
+          102,
+          104
+        ],
+        "solution_block_ids": [
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3292F1D01E-Q23-P03",
+      "label": "（3）",
+      "prompt": "求证：EM＝FG+MH．",
+      "stem_text": "求证：EM＝FG+MH．",
+      "material_ids": [
+        "context",
+        "fig-104"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "〔图3〕",
+      "given_solution": "连接BF交CE于点O，\n∵G是BC中点，\n∴CG＝〔图1〕CB，\n∵CH＝〔图1〕CF，\n∴CG＝CH，\n在△CGM和△CHM中，\n〔图2〕，\n∴△CGM≌△CHM（SAS），\n∴∠CGM＝∠CHM＝90°，\n即FG⊥BC，\n∴CF＝BF，\n∵BC＝CF，\n∴BC＝CF＝BF，\n∴△BCF是等边三角形，\n∴∠BFC＝60°，\n∴∠2＝∠BFG＝30°，\n∵BF⊥CE，\n∴OM＝MH，\n∵OE＝OC＝FG，\n∴EM＝FG+MH．\n〔图3〕",
+      "solution_steps": [
+        "连接BF交CE于点O，",
+        "∵G是BC中点，",
+        "∴CG＝〔图1〕CB，",
+        "∵CH＝〔图1〕CF，",
+        "∴CG＝CH，",
+        "在△CGM和△CHM中，",
+        "〔图2〕，",
+        "∴△CGM≌△CHM（SAS），",
+        "∴∠CGM＝∠CHM＝90°，",
+        "即FG⊥BC，",
+        "∴CF＝BF，",
+        "∵BC＝CF，",
+        "∴BC＝CF＝BF，",
+        "∴△BCF是等边三角形，",
+        "∴∠BFC＝60°，",
+        "∴∠2＝∠BFG＝30°，",
+        "∵BF⊥CE，",
+        "∴OM＝MH，",
+        "∵OE＝OC＝FG，",
+        "∴EM＝FG+MH．",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3,
+        1,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          100,
+          103,
+          104
+        ],
+        "solution_block_ids": [
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/6e/6ef381019adb60c8b8a1f2e0936f6a1166ccb5fcc10dc7f498f3e2923b957932.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴四边形BCFE是菱形\n（2）∴BC＝CF＝2\n（3）〔图3〕",
+  "given_answer": "",
+  "given_solution": "（1）证明：∵四边形ABCD是平行四边形，\n∴AB∥CD，\n∴∠1＝∠ECF，\n∵EF∥BC，\n∴四边形BCFE是平行四边形，\n∵CE平分∠BCD，\n∴∠BCE＝∠ECF，\n∴∠BCE＝∠1，\n∴BC＝BE，\n∴四边形BCFE是菱形；\n（2）∵∠1＝∠ECF，∠1＝∠2，\n∴∠ECF＝∠2，\n∴CM＝FM，\n∵MH⊥CD，\n∴CF＝2CH＝2×1＝2，\n∵四边形BCFE是菱形；\n∴BC＝CF＝2；\n（3）连接BF交CE于点O，\n∵G是BC中点，\n∴CG＝〔图1〕CB，\n∵CH＝〔图1〕CF，\n∴CG＝CH，\n在△CGM和△CHM中，\n〔图2〕，\n∴△CGM≌△CHM（SAS），\n∴∠CGM＝∠CHM＝90°，\n即FG⊥BC，\n∴CF＝BF，\n∵BC＝CF，\n∴BC＝CF＝BF，\n∴△BCF是等边三角形，\n∴∠BFC＝60°，\n∴∠2＝∠BFG＝30°，\n∵BF⊥CE，\n∴OM＝MH，\n∵OE＝OC＝FG，\n∴EM＝FG+MH．\n〔图3〕",
+  "given_solution_figures": [
+    "assets/figures/aa/aa66a0850368af74123441ae3154b56098ab5b4111f238fc2d9a420f6cbcd7ec.png",
+    "assets/figures/2e/2eaaf98c24e15f4ea82056a668d3b071d484f0af77ab25c5adf0042ac31b55f8.png",
+    "assets/figures/b6/b6f9a5cf4c8eabcff5005115b8b1eda2b9e173778d3aa470d81b8e04a1ce89e5.png"
+  ],
+  "solution_steps": [
+    "（1）证明：∵四边形ABCD是平行四边形，",
+    "∴AB∥CD，",
+    "∴∠1＝∠ECF，",
+    "∵EF∥BC，",
+    "∴四边形BCFE是平行四边形，",
+    "∵CE平分∠BCD，",
+    "∴∠BCE＝∠ECF，",
+    "∴∠BCE＝∠1，",
+    "∴BC＝BE，",
+    "∴四边形BCFE是菱形；",
+    "（2）∵∠1＝∠ECF，∠1＝∠2，",
+    "∴∠ECF＝∠2，",
+    "∴CM＝FM，",
+    "∵MH⊥CD，",
+    "∴CF＝2CH＝2×1＝2，",
+    "∵四边形BCFE是菱形；",
+    "∴BC＝CF＝2；",
+    "（3）连接BF交CE于点O，",
+    "∵G是BC中点，",
+    "∴CG＝〔图1〕CB，",
+    "∵CH＝〔图1〕CF，",
+    "∴CG＝CH，",
+    "在△CGM和△CHM中，",
+    "〔图2〕，",
+    "∴△CGM≌△CHM（SAS），",
+    "∴∠CGM＝∠CHM＝90°，",
+    "即FG⊥BC，",
+    "∴CF＝BF，",
+    "∵BC＝CF，",
+    "∴BC＝CF＝BF，",
+    "∴△BCF是等边三角形，",
+    "∴∠BFC＝60°，",
+    "∴∠2＝∠BFG＝30°，",
+    "∵BF⊥CE，",
+    "∴OM＝MH，",
+    "∵OE＝OC＝FG，",
+    "∴EM＝FG+MH．",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）证明：∵四边形ABCD是平行四边形，\n∴AB∥CD，\n∴∠1＝∠ECF，\n∵EF∥BC，\n∴四边形BCFE是平行四边形，\n∵CE平分∠BCD，\n∴∠BCE＝∠ECF，\n∴∠BCE＝∠1，\n∴BC＝BE，\n∴四边形BCFE是菱形；\n（2）∵∠1＝∠ECF，∠1＝∠2，\n∴∠ECF＝∠2，\n∴CM＝FM，\n∵MH⊥CD，\n∴CF＝2CH＝2×1＝2，\n∵四边形BCFE是菱形；\n∴BC＝CF＝2；\n（3）连接BF交CE于点O，\n∵G是BC中点，\n∴CG＝〔图1〕CB，\n∵CH＝〔图1〕CF，\n∴CG＝CH，\n在△CGM和△CHM中，\n〔图2〕，\n∴△CGM≌△CHM（SAS），\n∴∠CGM＝∠CHM＝90°，\n即FG⊥BC，\n∴CF＝BF，\n∵BC＝CF，\n∴BC＝CF＝BF，\n∴△BCF是等边三角形，\n∴∠BFC＝60°，\n∴∠2＝∠BFG＝30°，\n∵BF⊥CE，\n∴OM＝MH，\n∵OE＝OC＝FG，\n∴EM＝FG+MH．\n〔图3〕",
+  "review_note": "",
+  "solution_figure_ids": [
+    3,
+    1,
+    2
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3292F1D01E/single/q23-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          471.96,
+          582.2,
+          703.7
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3292F1D01E/single/s23-p13.webp",
+      "assets/SZ-G8-T2-3292F1D01E/single/s23-p14.webp",
+      "assets/SZ-G8-T2-3292F1D01E/single/s23-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          535.53,
+          582.2,
+          733.79
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          72.7,
+          582.2,
+          694.87
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          69.65,
+          582.2,
+          180.96
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

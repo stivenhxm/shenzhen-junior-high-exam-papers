@@ -1,0 +1,216 @@
+{
+  "id": "SZ-G8-T2-F65DC1409D-Q19",
+  "paper_id": "SZ-G8-T2-F65DC1409D",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "由充分条件判定平行四边形、由勾股关系求直角三角形边长",
+  "stem": "在等腰△ABC中，AB＝AC，D、E分别为AB、BC边上的中点，连接DE并延长DE到F，使得EF＝2ED，连接AE、CF．\n〔图1〕\n（1）求证：四边形AEFC为平行四边形．\n（2）若AC＝5，BC＝6，求CF的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/85/858491a184b3f722b922fe4a683b63a7326e9b8f23cf90c3eba3b279902031d6.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）4",
+  "answer": "（1）见解析    （2）4",
+  "given_solution": "【分析】（1）先根据三角形的中位线的定义得\\(DE//AC\\)，\\(DE=\\frac { 1 } { 2 }AC\\)，再根据已知条件得EF＝AC，最后根据“一组对边平行且相等的四边形是平行四边形”得出答案；\n（2）先根据等腰三角形的性质求出CE，得\\(AE\\bot BC\\)，然后根据勾股定理求出AE，最后根据“平行四边形的对边相等”得出答案．\n【小问1详解】\n证明：∵D、E分别是AB、BC的中点，\n∴DE是△ABC的中位线，\n∴\\(DE//AC\\)，\\(DE=\\frac { 1 } { 2 }AC\\)．\n∵EF＝2DE，\n∴EF＝AC，\n∴四边形AEFC是平行四边形．\n【小问2详解】\n∵AC=AB，E为BC中点，\n∴\\(AE\\bot BC\\)，\\(CE=\\frac { 1 } { 2 }BC=3\\)，\n∴\\(AE=\\sqrt[] { AC ^ { 2 } -CE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }{ \\rm{ = } }{ \\rm{ 4 } }\\)．\n∵四边形AEFC是平行四边形，\n∴CF=AE=4．\n【点睛】本题主要考查了平行四边形的性质和判定，等腰三角形的性质，三角形中位线的性质和定义，勾股定理等，勾股定理是求线段长的常用方法．",
+  "given_solution_figures": [
+    "assets/figures/89/89affbff59b0b3bda8db70c040e3d3105665c3fed0a19f2065f78192f02be71d.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵D、E分别是AB、BC的中点，\n∴DE是△ABC的中位线，\n∴\\(DE//AC\\)，\\(DE=\\frac { 1 } { 2 }AC\\)．\n∵EF＝2DE，\n∴EF＝AC，\n∴四边形AEFC是平行四边形．\n【小问2详解】\n∵AC=AB，E为BC中点，\n∴\\(AE\\bot BC\\)，\\(CE=\\frac { 1 } { 2 }BC=3\\)，\n∴\\(AE=\\sqrt[] { AC ^ { 2 } -CE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }{ \\rm{ = } }{ \\rm{ 4 } }\\)．\n∵四边形AEFC是平行四边形，\n∴CF=AE=4．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵D、E分别是AB、BC的中点，",
+    "∴DE是△ABC的中位线，",
+    "∴\\(DE//AC\\)，\\(DE=\\frac { 1 } { 2 }AC\\)．",
+    "∵EF＝2DE，",
+    "∴EF＝AC，",
+    "∴四边形AEFC是平行四边形．",
+    "【小问2详解】",
+    "∵AC=AB，E为BC中点，",
+    "∴\\(AE\\bot BC\\)，\\(CE=\\frac { 1 } { 2 }BC=3\\)，",
+    "∴\\(AE=\\sqrt[] { AC ^ { 2 } -CE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }{ \\rm{ = } }{ \\rm{ 4 } }\\)．",
+    "∵四边形AEFC是平行四边形，",
+    "∴CF=AE=4．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在等腰△ABC中，AB＝AC，D、E分别为AB、BC边上的中点，连接DE并延长DE到F，使得EF＝2ED，连接AE、CF．\n〔图1〕",
+      "paper_blocks": [
+        48,
+        49
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-F65DC1409D-Q19-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形AEFC为平行四边形．",
+      "stem_text": "求证：四边形AEFC为平行四边形．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵D、E分别是AB、BC的中点，\n∴DE是△ABC的中位线，\n∴\\(DE//AC\\)，\\(DE=\\frac { 1 } { 2 }AC\\)．\n∵EF＝2DE，\n∴EF＝AC，\n∴四边形AEFC是平行四边形．",
+      "solution_steps": [
+        "证明：∵D、E分别是AB、BC的中点，",
+        "∴DE是△ABC的中位线，",
+        "∴\\(DE//AC\\)，\\(DE=\\frac { 1 } { 2 }AC\\)．",
+        "∵EF＝2DE，",
+        "∴EF＝AC，",
+        "∴四边形AEFC是平行四边形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          48,
+          49,
+          50
+        ],
+        "solution_block_ids": [
+          255,
+          256,
+          257,
+          258,
+          259,
+          260
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.01"
+      ],
+      "exam_ids": [
+        "E.G05.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-F65DC1409D-Q19-P02",
+      "label": "（2）",
+      "prompt": "若AC＝5，BC＝6，求CF的长．",
+      "stem_text": "若AC＝5，BC＝6，求CF的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "4",
+      "answer": "4",
+      "given_solution": "∵AC=AB，E为BC中点，\n∴\\(AE\\bot BC\\)，\\(CE=\\frac { 1 } { 2 }BC=3\\)，\n∴\\(AE=\\sqrt[] { AC ^ { 2 } -CE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }{ \\rm{ = } }{ \\rm{ 4 } }\\)．\n∵四边形AEFC是平行四边形，\n∴CF=AE=4．",
+      "solution_steps": [
+        "∵AC=AB，E为BC中点，",
+        "∴\\(AE\\bot BC\\)，\\(CE=\\frac { 1 } { 2 }BC=3\\)，",
+        "∴\\(AE=\\sqrt[] { AC ^ { 2 } -CE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }{ \\rm{ = } }{ \\rm{ 4 } }\\)．",
+        "∵四边形AEFC是平行四边形，",
+        "∴CF=AE=4．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          48,
+          49,
+          51
+        ],
+        "solution_block_ids": [
+          262,
+          263,
+          264,
+          265,
+          266
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      48,
+      51
+    ],
+    "solution_body_blocks": [
+      246,
+      267
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-F65DC1409D/paper-q19-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          384.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-F65DC1409D/solution-q19-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          587.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G05.01.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

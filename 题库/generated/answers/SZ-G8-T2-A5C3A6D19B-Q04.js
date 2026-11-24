@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q04",{"answer":"C","solution_steps":["相邻外角为 \\(180^\\circ-150^\\circ=30^\\circ\\)。正多边形的边数为 \\(360^\\circ/30^\\circ=12\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

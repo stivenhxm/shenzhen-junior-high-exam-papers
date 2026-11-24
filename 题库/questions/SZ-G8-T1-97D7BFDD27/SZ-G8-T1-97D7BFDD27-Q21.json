@@ -1,0 +1,389 @@
+{
+  "id": "SZ-G8-T1-97D7BFDD27-Q21",
+  "paper_id": "SZ-G8-T1-97D7BFDD27",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "已知\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)．\n〔图1〕\n（1）【发现问题】\n如图1，若D为\\(\\vartriangle ACB\\)内部一点，AE与BD的数量关系是______；\n（2）【探索证明】\n如图2，若D为AB边上一点，\\(AD=5\\)，\\(BD=12\\)，求DE的长．\n（3）【学于致用】\n运用（1）（2）解答中所积累的经验和知识，完成下题：如图3，已知\\(\\angle BCE=90{}^\\circ\\)，\\(AC=AB\\)，\\(\\angle BAC=45{}^\\circ\\)，\\(AB=AC=1\\)，求AE的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-97D7BFDD27/figures/18e6bee9ad4170ddfab5d560048a382ee3bd06a15e539191d88b59e5d1d9b465.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AE=BD\\)；理由见解析\n（2）\\(ED=13\\)\n（3）\\(AE=\\sqrt[] { 3 }\\)",
+  "answer": "（1）\\(AE=BD\\)；理由见解析\n（2）\\(ED=13\\)\n（3）\\(AE=\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）证明\\(\\vartriangle AEC≌\\vartriangle BDC\\)即可得\\(AE=BD\\)；\n（2）方法同（1）证明\\(\\vartriangle AEC≌\\vartriangle BDC\\)，从而\\(\\angle EAD=90{}^\\circ ,\\)\\(AE=BD\\)，最后由勾股定理即可求得\\(DE\\)；\n（3）根据（1）（2）的方法作点\\(B\\)关于\\(AC\\)对称点\\(C'\\)，连接\\(BC',EC'\\)，\\(CC'\\)，\\(AC'\\)，证明\\(\\angle AC'E\\)=\\(90{}^\\circ\\)，通过证明\\(\\vartriangle C'CB\\)\\(≌\\)\\(\\vartriangle C'CE\\)得\\(BC'=C'E\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AC'E\\)中用勾股定理求得\\(AE\\)的长．\n【小问1详解】\n如图\n〔图2〕\n\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)\n\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore\\)\\(AE=BD\\)．\n【小问2详解】\n如图\n〔图3〕\n\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)\n\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\),\n\\(\\angle B=\\angle CAB=45{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore\\)\\(AE=BD\\)，\\(\\angle B=\\angle 4\\)\n\\(\\therefore \\angle EAD=\\angle 4+\\angle CAB=90{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(AE=BD=12,AD=5\\)\n\\(\\therefore ED=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +5 ^ { 2 } }=13\\)．\n【小问3详解】\n如图：作点\\(B\\)关于\\(AC\\)对称点\\(C'\\)，连接\\(BC',EC'\\)，\\(CC'\\)，\\(AC'\\)，\n〔图4〕\n则\\(AC'=AB=1\\),\\(BC=C'C\\)，\\(\\angle 5=\\angle BAC=45{}^\\circ\\)\n\\(\\therefore \\angle C'AB=90{}^\\circ\\)\n\\(\\therefore BC'=\\sqrt[] { 1 ^ { 2 } +1 ^ { 2 } }=\\sqrt[] { 2 }\\)\n\\(\\because AB=AC=AC'\\)\n\\(\\therefore \\angle ABC=\\angle ACB=\\angle AC'C=\\angle AC'C\\)\\(=\\frac { 1 } { 2 }\\times (180{}^\\circ -45{}^\\circ )=67.5{}^\\circ\\)\n\\(\\therefore \\angle BCC'=2\\times 67.5{}^\\circ =135{}^\\circ\\)\n\\(\\therefore \\angle C'CE=360{}^\\circ -\\angle BCE-\\angle BCC'\\)\n\\(=360{}^\\circ -67.5{}^\\circ \\times 2-90{}^\\circ\\)\\(=135{}^\\circ\\)\n\\(\\therefore \\angle BCC'=\\angle C'CE\\)\n又\\(\\because CE=CB=CC'\\)\n\\(\\therefore \\angle 1=\\angle 2=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CE)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ ,\\)\n\\(\\angle 3=\\angle 4=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CB)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\angle AC'E=\\angle AC'C+\\angle 1=67.5{}^\\circ +22.5{}^\\circ =90{}^\\circ\\)\n在\\(\\vartriangle C'CB\\)与\\(\\vartriangle C'CE\\)中\n\\(\\begin{cases} \\angle 1=\\angle 3 \\\\ CC'=CC' \\\\ \\angle C'AE=\\angle C'AC \\end{cases}\\)\n\\(\\therefore\\)\\(\\vartriangle C'CB\\)\\(≌\\)\\(\\vartriangle C'CE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n\\(\\therefore BC'=EC'=\\sqrt[] { 2 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AC'E\\)中\n\\(C'E\\)=\\(\\sqrt[] { 2 }\\)，\\(AC'=1\\)\n\\(\\therefore AE=\\sqrt[] { A{C'}^{2} +E{C'}^{2} }=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=\\sqrt[] { 3 }\\)．\n【点睛】本题考查了轴对称图形的性质，三角形全等的判定与性质，等腰三角形的性质，勾股定理，找到三角形全等的条件或通过辅助线构造三角形全等的条件是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-97D7BFDD27/figures/18e6bee9ad4170ddfab5d560048a382ee3bd06a15e539191d88b59e5d1d9b465.png",
+    "assets/SZ-G8-T1-97D7BFDD27/figures/334854fc1ce5d012c0cbadac1156a97a73a1d05ddc8171acde832e6770c3ac48.png",
+    "assets/SZ-G8-T1-97D7BFDD27/figures/5595af8440af30eb0792ee3d3257c2563a5929d4db9d2317f7e56099d306e156.png",
+    "assets/SZ-G8-T1-97D7BFDD27/figures/2ade53179edce34daa422b58fcfcf024da24072fbea073110dc7e4c2940d0cf7.png"
+  ],
+  "solution": "【小问1详解】\n如图\n〔图2〕\n\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)\n\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore\\)\\(AE=BD\\)．\n【小问2详解】\n如图\n〔图3〕\n\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)\n\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\),\n\\(\\angle B=\\angle CAB=45{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore\\)\\(AE=BD\\)，\\(\\angle B=\\angle 4\\)\n\\(\\therefore \\angle EAD=\\angle 4+\\angle CAB=90{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(AE=BD=12,AD=5\\)\n\\(\\therefore ED=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +5 ^ { 2 } }=13\\)．\n【小问3详解】\n如图：作点\\(B\\)关于\\(AC\\)对称点\\(C'\\)，连接\\(BC',EC'\\)，\\(CC'\\)，\\(AC'\\)，\n〔图4〕\n则\\(AC'=AB=1\\),\\(BC=C'C\\)，\\(\\angle 5=\\angle BAC=45{}^\\circ\\)\n\\(\\therefore \\angle C'AB=90{}^\\circ\\)\n\\(\\therefore BC'=\\sqrt[] { 1 ^ { 2 } +1 ^ { 2 } }=\\sqrt[] { 2 }\\)\n\\(\\because AB=AC=AC'\\)\n\\(\\therefore \\angle ABC=\\angle ACB=\\angle AC'C=\\angle AC'C\\)\\(=\\frac { 1 } { 2 }\\times (180{}^\\circ -45{}^\\circ )=67.5{}^\\circ\\)\n\\(\\therefore \\angle BCC'=2\\times 67.5{}^\\circ =135{}^\\circ\\)\n\\(\\therefore \\angle C'CE=360{}^\\circ -\\angle BCE-\\angle BCC'\\)\n\\(=360{}^\\circ -67.5{}^\\circ \\times 2-90{}^\\circ\\)\\(=135{}^\\circ\\)\n\\(\\therefore \\angle BCC'=\\angle C'CE\\)\n又\\(\\because CE=CB=CC'\\)\n\\(\\therefore \\angle 1=\\angle 2=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CE)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ ,\\)\n\\(\\angle 3=\\angle 4=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CB)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\angle AC'E=\\angle AC'C+\\angle 1=67.5{}^\\circ +22.5{}^\\circ =90{}^\\circ\\)\n在\\(\\vartriangle C'CB\\)与\\(\\vartriangle C'CE\\)中\n\\(\\begin{cases} \\angle 1=\\angle 3 \\\\ CC'=CC' \\\\ \\angle C'AE=\\angle C'AC \\end{cases}\\)\n\\(\\therefore\\)\\(\\vartriangle C'CB\\)\\(≌\\)\\(\\vartriangle C'CE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n\\(\\therefore BC'=EC'=\\sqrt[] { 2 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AC'E\\)中\n\\(C'E\\)=\\(\\sqrt[] { 2 }\\)，\\(AC'=1\\)\n\\(\\therefore AE=\\sqrt[] { A{C'}^{2} +E{C'}^{2} }=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "如图",
+    "〔图2〕",
+    "\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)",
+    "\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\)",
+    "\\(\\therefore \\angle 1=\\angle 3\\)",
+    "\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+    "\\(\\therefore\\)\\(AE=BD\\)．",
+    "【小问2详解】",
+    "如图",
+    "〔图3〕",
+    "\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)",
+    "\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\),",
+    "\\(\\angle B=\\angle CAB=45{}^\\circ\\)",
+    "\\(\\therefore \\angle 1=\\angle 3\\)",
+    "\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+    "\\(\\therefore\\)\\(AE=BD\\)，\\(\\angle B=\\angle 4\\)",
+    "\\(\\therefore \\angle EAD=\\angle 4+\\angle CAB=90{}^\\circ\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(AE=BD=12,AD=5\\)",
+    "\\(\\therefore ED=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +5 ^ { 2 } }=13\\)．",
+    "【小问3详解】",
+    "如图：作点\\(B\\)关于\\(AC\\)对称点\\(C'\\)，连接\\(BC',EC'\\)，\\(CC'\\)，\\(AC'\\)，",
+    "〔图4〕",
+    "则\\(AC'=AB=1\\),\\(BC=C'C\\)，\\(\\angle 5=\\angle BAC=45{}^\\circ\\)",
+    "\\(\\therefore \\angle C'AB=90{}^\\circ\\)",
+    "\\(\\therefore BC'=\\sqrt[] { 1 ^ { 2 } +1 ^ { 2 } }=\\sqrt[] { 2 }\\)",
+    "\\(\\because AB=AC=AC'\\)",
+    "\\(\\therefore \\angle ABC=\\angle ACB=\\angle AC'C=\\angle AC'C\\)\\(=\\frac { 1 } { 2 }\\times (180{}^\\circ -45{}^\\circ )=67.5{}^\\circ\\)",
+    "\\(\\therefore \\angle BCC'=2\\times 67.5{}^\\circ =135{}^\\circ\\)",
+    "\\(\\therefore \\angle C'CE=360{}^\\circ -\\angle BCE-\\angle BCC'\\)",
+    "\\(=360{}^\\circ -67.5{}^\\circ \\times 2-90{}^\\circ\\)\\(=135{}^\\circ\\)",
+    "\\(\\therefore \\angle BCC'=\\angle C'CE\\)",
+    "又\\(\\because CE=CB=CC'\\)",
+    "\\(\\therefore \\angle 1=\\angle 2=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CE)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ ,\\)",
+    "\\(\\angle 3=\\angle 4=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CB)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ\\)",
+    "\\(\\therefore \\angle 1=\\angle 3\\)",
+    "\\(\\therefore\\)\\(\\angle AC'E=\\angle AC'C+\\angle 1=67.5{}^\\circ +22.5{}^\\circ =90{}^\\circ\\)",
+    "在\\(\\vartriangle C'CB\\)与\\(\\vartriangle C'CE\\)中",
+    "\\(\\begin{cases} \\angle 1=\\angle 3 \\\\ CC'=CC' \\\\ \\angle C'AE=\\angle C'AC \\end{cases}\\)",
+    "\\(\\therefore\\)\\(\\vartriangle C'CB\\)\\(≌\\)\\(\\vartriangle C'CE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)",
+    "\\(\\therefore BC'=EC'=\\sqrt[] { 2 }\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AC'E\\)中",
+    "\\(C'E\\)=\\(\\sqrt[] { 2 }\\)，\\(AC'=1\\)",
+    "\\(\\therefore AE=\\sqrt[] { A{C'}^{2} +E{C'}^{2} }=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)．\n〔图1〕",
+      "paper_blocks": [
+        54,
+        55
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-97D7BFDD27-Q21-P01",
+      "label": "（1）",
+      "prompt": "【发现问题】\n如图1，若D为\\(\\vartriangle ACB\\)内部一点，AE与BD的数量关系是______；",
+      "stem_text": "【发现问题】\n如图1，若D为\\(\\vartriangle ACB\\)内部一点，AE与BD的数量关系是______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AE=BD\\)；理由见解析",
+      "answer": "\\(AE=BD\\)；理由见解析",
+      "given_solution": "如图\n〔图2〕\n\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)\n\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore\\)\\(AE=BD\\)．",
+      "solution_steps": [
+        "如图",
+        "〔图2〕",
+        "\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)",
+        "\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\)",
+        "\\(\\therefore \\angle 1=\\angle 3\\)",
+        "\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+        "\\(\\therefore\\)\\(AE=BD\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-97D7BFDD27-Q21-P02",
+      "label": "（2）",
+      "prompt": "【探索证明】\n如图2，若D为AB边上一点，\\(AD=5\\)，\\(BD=12\\)，求DE的长．",
+      "stem_text": "【探索证明】\n如图2，若D为AB边上一点，\\(AD=5\\)，\\(BD=12\\)，求DE的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(ED=13\\)",
+      "answer": "\\(ED=13\\)",
+      "given_solution": "如图\n〔图3〕\n\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)\n\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\),\n\\(\\angle B=\\angle CAB=45{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(\\therefore\\)\\(AE=BD\\)，\\(\\angle B=\\angle 4\\)\n\\(\\therefore \\angle EAD=\\angle 4+\\angle CAB=90{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(AE=BD=12,AD=5\\)\n\\(\\therefore ED=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +5 ^ { 2 } }=13\\)．",
+      "solution_steps": [
+        "如图",
+        "〔图3〕",
+        "\\(\\because\\)\\(\\vartriangle ACB\\)和\\(\\vartriangle ECD\\)都是等腰直角三角形，\\(\\angle ACB=\\angle ECD=90{}^\\circ\\)",
+        "\\(\\therefore CE=CD,CA=CB,\\angle 1+\\angle 2=90{}^\\circ ,\\angle 2+\\angle 3=90{}^\\circ\\),",
+        "\\(\\angle B=\\angle CAB=45{}^\\circ\\)",
+        "\\(\\therefore \\angle 1=\\angle 3\\)",
+        "\\(\\therefore\\)\\(\\vartriangle AEC≌\\vartriangle BDC\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+        "\\(\\therefore\\)\\(AE=BD\\)，\\(\\angle B=\\angle 4\\)",
+        "\\(\\therefore \\angle EAD=\\angle 4+\\angle CAB=90{}^\\circ\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(AE=BD=12,AD=5\\)",
+        "\\(\\therefore ED=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 12 ^ { 2 } +5 ^ { 2 } }=13\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-97D7BFDD27-Q21-P03",
+      "label": "（3）",
+      "prompt": "【学于致用】\n运用（1）（2）解答中所积累的经验和知识，完成下题：如图3，已知\\(\\angle BCE=90{}^\\circ\\)，\\(AC=AB\\)，\\(\\angle BAC=45{}^\\circ\\)，\\(AB=AC=1\\)，求AE的长．",
+      "stem_text": "【学于致用】\n运用（1）（2）解答中所积累的经验和知识，完成下题：如图3，已知\\(\\angle BCE=90{}^\\circ\\)，\\(AC=AB\\)，\\(\\angle BAC=45{}^\\circ\\)，\\(AB=AC=1\\)，求AE的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AE=\\sqrt[] { 3 }\\)",
+      "answer": "\\(AE=\\sqrt[] { 3 }\\)",
+      "given_solution": "如图：作点\\(B\\)关于\\(AC\\)对称点\\(C'\\)，连接\\(BC',EC'\\)，\\(CC'\\)，\\(AC'\\)，\n〔图4〕\n则\\(AC'=AB=1\\),\\(BC=C'C\\)，\\(\\angle 5=\\angle BAC=45{}^\\circ\\)\n\\(\\therefore \\angle C'AB=90{}^\\circ\\)\n\\(\\therefore BC'=\\sqrt[] { 1 ^ { 2 } +1 ^ { 2 } }=\\sqrt[] { 2 }\\)\n\\(\\because AB=AC=AC'\\)\n\\(\\therefore \\angle ABC=\\angle ACB=\\angle AC'C=\\angle AC'C\\)\\(=\\frac { 1 } { 2 }\\times (180{}^\\circ -45{}^\\circ )=67.5{}^\\circ\\)\n\\(\\therefore \\angle BCC'=2\\times 67.5{}^\\circ =135{}^\\circ\\)\n\\(\\therefore \\angle C'CE=360{}^\\circ -\\angle BCE-\\angle BCC'\\)\n\\(=360{}^\\circ -67.5{}^\\circ \\times 2-90{}^\\circ\\)\\(=135{}^\\circ\\)\n\\(\\therefore \\angle BCC'=\\angle C'CE\\)\n又\\(\\because CE=CB=CC'\\)\n\\(\\therefore \\angle 1=\\angle 2=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CE)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ ,\\)\n\\(\\angle 3=\\angle 4=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CB)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 3\\)\n\\(\\therefore\\)\\(\\angle AC'E=\\angle AC'C+\\angle 1=67.5{}^\\circ +22.5{}^\\circ =90{}^\\circ\\)\n在\\(\\vartriangle C'CB\\)与\\(\\vartriangle C'CE\\)中\n\\(\\begin{cases} \\angle 1=\\angle 3 \\\\ CC'=CC' \\\\ \\angle C'AE=\\angle C'AC \\end{cases}\\)\n\\(\\therefore\\)\\(\\vartriangle C'CB\\)\\(≌\\)\\(\\vartriangle C'CE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n\\(\\therefore BC'=EC'=\\sqrt[] { 2 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AC'E\\)中\n\\(C'E\\)=\\(\\sqrt[] { 2 }\\)，\\(AC'=1\\)\n\\(\\therefore AE=\\sqrt[] { A{C'}^{2} +E{C'}^{2} }=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "如图：作点\\(B\\)关于\\(AC\\)对称点\\(C'\\)，连接\\(BC',EC'\\)，\\(CC'\\)，\\(AC'\\)，",
+        "〔图4〕",
+        "则\\(AC'=AB=1\\),\\(BC=C'C\\)，\\(\\angle 5=\\angle BAC=45{}^\\circ\\)",
+        "\\(\\therefore \\angle C'AB=90{}^\\circ\\)",
+        "\\(\\therefore BC'=\\sqrt[] { 1 ^ { 2 } +1 ^ { 2 } }=\\sqrt[] { 2 }\\)",
+        "\\(\\because AB=AC=AC'\\)",
+        "\\(\\therefore \\angle ABC=\\angle ACB=\\angle AC'C=\\angle AC'C\\)\\(=\\frac { 1 } { 2 }\\times (180{}^\\circ -45{}^\\circ )=67.5{}^\\circ\\)",
+        "\\(\\therefore \\angle BCC'=2\\times 67.5{}^\\circ =135{}^\\circ\\)",
+        "\\(\\therefore \\angle C'CE=360{}^\\circ -\\angle BCE-\\angle BCC'\\)",
+        "\\(=360{}^\\circ -67.5{}^\\circ \\times 2-90{}^\\circ\\)\\(=135{}^\\circ\\)",
+        "\\(\\therefore \\angle BCC'=\\angle C'CE\\)",
+        "又\\(\\because CE=CB=CC'\\)",
+        "\\(\\therefore \\angle 1=\\angle 2=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CE)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ ,\\)",
+        "\\(\\angle 3=\\angle 4=\\frac { 1 } { 2 }\\times (180{}^\\circ -\\angle C'CB)=\\frac { 1 } { 2 }\\times (180{}^\\circ -135{}^\\circ )=22.5{}^\\circ\\)",
+        "\\(\\therefore \\angle 1=\\angle 3\\)",
+        "\\(\\therefore\\)\\(\\angle AC'E=\\angle AC'C+\\angle 1=67.5{}^\\circ +22.5{}^\\circ =90{}^\\circ\\)",
+        "在\\(\\vartriangle C'CB\\)与\\(\\vartriangle C'CE\\)中",
+        "\\(\\begin{cases} \\angle 1=\\angle 3 \\\\ CC'=CC' \\\\ \\angle C'AE=\\angle C'AC \\end{cases}\\)",
+        "\\(\\therefore\\)\\(\\vartriangle C'CB\\)\\(≌\\)\\(\\vartriangle C'CE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)",
+        "\\(\\therefore BC'=EC'=\\sqrt[] { 2 }\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AC'E\\)中",
+        "\\(C'E\\)=\\(\\sqrt[] { 2 }\\)，\\(AC'=1\\)",
+        "\\(\\therefore AE=\\sqrt[] { A{C'}^{2} +E{C'}^{2} }=\\sqrt[] { 1 ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      54,
+      61
+    ],
+    "solution_body_blocks": [
+      290,
+      349
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-97D7BFDD27/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          462.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-97D7BFDD27/solution-q21-p16.webp",
+      "assets/SZ-G8-T1-97D7BFDD27/solution-q21-p17.webp",
+      "assets/SZ-G8-T1-97D7BFDD27/solution-q21-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          299.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,247 @@
+{
+  "id": "SZ-G8-T1-9A0C7D2F62-Q21",
+  "paper_id": "SZ-G8-T1-9A0C7D2F62",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "已知：如图，\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)均为等腰直角三角形，\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，连结\\(AC\\)，\\(BD\\)，且\\(D\\)、\\(E\\)、\\(C\\)三点在一直线上，\\(AD=\\sqrt[] { 2 }\\)，\\(DE=2EC\\)．\n〔图1〕\n（1）求证：\\(\\vartriangle ADB≌\\vartriangle AEC\\)；\n（2）求线段\\(BC\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/7bb00d3e5a35592a698fee4dc95156321387f327777b103d9a81e56984ef3053.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）详见解析；（2）\\(BC=\\sqrt[] { 10 }\\)",
+  "answer": "（1）详见解析；（2）\\(BC=\\sqrt[] { 10 }\\)",
+  "given_solution": "【分析】（1）根据等式的基本性质可得∠DAB=∠EAC，然后根据等腰直角三角形的性质可得DA=EA，BA=CA，再利用SAS即可证出结论；\n（2）根据等腰直角三角形的性质和勾股定理即可求出DE，从而求出EC和DC，再根据全等三角形的性质即可求出DB，∠ADB=∠AEC，从而求出∠BDC=90°，最后根据勾股定理即可求出结论．\n【详解】证明：（1）∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)\n∴∠DAE－∠BAE=∠BAC－∠BAE\n∴∠DAB=∠EAC\n∵\\(\\Delta ABC\\)和\\(\\Delta ADE\\)均为等腰直角三角形\n∴DA=EA，BA=CA\n在△ADB和△AEC中\n\\(\\begin{cases} DA=EA \\\\ \\angle DAB=\\angle EAC \\\\ BA=CA \\end{cases}\\)\n∴△ADB≌△AEC\n（2）∵\\(\\vartriangle ADE\\)是等腰直角三角形，\\(AD=AE=\\sqrt[] { 2 }\\)\n∴DE=\\(\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=2\\)，\n∵\\(DE=2EC\\)\n∴EC=\\(\\frac { 1 } { 2 }DE=1\\)，\n∴DC=DE＋EC=3\n∵△ADB≌△AEC\n∴DB=EC=3，∠ADB=∠AEC\n∵∠ADB=∠ADE＋∠BDC，∠AEC=∠ADE＋∠DAE=∠ADE＋90°\n∴∠BDC=90°\n在Rt△BDC中，\\(BC=\\sqrt[] { DB ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 10 }\\)\n【点睛】此题考查的是等腰直角三角形的性质、全等三角形的判定及性质和勾股定理，掌握等腰直角三角形的性质、全等三角形的判定及性质和利用勾股定理解直角三角形是解决此题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-9A0C7D2F62/figures/84fa8749c38b77c9e9137a31a2d31ceac7b21c6c36a726285ffeb212e8f8a555.png"
+  ],
+  "solution": "证明：（1）∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)\n∴∠DAE－∠BAE=∠BAC－∠BAE\n∴∠DAB=∠EAC\n∵\\(\\Delta ABC\\)和\\(\\Delta ADE\\)均为等腰直角三角形\n∴DA=EA，BA=CA\n在△ADB和△AEC中\n\\(\\begin{cases} DA=EA \\\\ \\angle DAB=\\angle EAC \\\\ BA=CA \\end{cases}\\)\n∴△ADB≌△AEC\n（2）∵\\(\\vartriangle ADE\\)是等腰直角三角形，\\(AD=AE=\\sqrt[] { 2 }\\)\n∴DE=\\(\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=2\\)，\n∵\\(DE=2EC\\)\n∴EC=\\(\\frac { 1 } { 2 }DE=1\\)，\n∴DC=DE＋EC=3\n∵△ADB≌△AEC\n∴DB=EC=3，∠ADB=∠AEC\n∵∠ADB=∠ADE＋∠BDC，∠AEC=∠ADE＋∠DAE=∠ADE＋90°\n∴∠BDC=90°\n在Rt△BDC中，\\(BC=\\sqrt[] { DB ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 10 }\\)",
+  "solution_steps": [
+    "证明：（1）∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)",
+    "∴∠DAE－∠BAE=∠BAC－∠BAE",
+    "∴∠DAB=∠EAC",
+    "∵\\(\\Delta ABC\\)和\\(\\Delta ADE\\)均为等腰直角三角形",
+    "∴DA=EA，BA=CA",
+    "在△ADB和△AEC中",
+    "\\(\\begin{cases} DA=EA \\\\ \\angle DAB=\\angle EAC \\\\ BA=CA \\end{cases}\\)",
+    "∴△ADB≌△AEC",
+    "（2）∵\\(\\vartriangle ADE\\)是等腰直角三角形，\\(AD=AE=\\sqrt[] { 2 }\\)",
+    "∴DE=\\(\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=2\\)，",
+    "∵\\(DE=2EC\\)",
+    "∴EC=\\(\\frac { 1 } { 2 }DE=1\\)，",
+    "∴DC=DE＋EC=3",
+    "∵△ADB≌△AEC",
+    "∴DB=EC=3，∠ADB=∠AEC",
+    "∵∠ADB=∠ADE＋∠BDC，∠AEC=∠ADE＋∠DAE=∠ADE＋90°",
+    "∴∠BDC=90°",
+    "在Rt△BDC中，\\(BC=\\sqrt[] { DB ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 10 }\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知：如图，\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)均为等腰直角三角形，\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，连结\\(AC\\)，\\(BD\\)，且\\(D\\)、\\(E\\)、\\(C\\)三点在一直线上，\\(AD=\\sqrt[] { 2 }\\)，\\(DE=2EC\\)．\n〔图1〕",
+      "paper_blocks": [
+        50,
+        51
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-9A0C7D2F62-Q21-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(\\vartriangle ADB≌\\vartriangle AEC\\)；",
+      "stem_text": "求证：\\(\\vartriangle ADB≌\\vartriangle AEC\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "详见解析；",
+      "answer": "详见解析；",
+      "given_solution": "∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)\n∴∠DAE－∠BAE=∠BAC－∠BAE\n∴∠DAB=∠EAC\n∵\\(\\Delta ABC\\)和\\(\\Delta ADE\\)均为等腰直角三角形\n∴DA=EA，BA=CA\n在△ADB和△AEC中\n\\(\\begin{cases} DA=EA \\\\ \\angle DAB=\\angle EAC \\\\ BA=CA \\end{cases}\\)\n∴△ADB≌△AEC",
+      "solution_steps": [
+        "∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)",
+        "∴∠DAE－∠BAE=∠BAC－∠BAE",
+        "∴∠DAB=∠EAC",
+        "∵\\(\\Delta ABC\\)和\\(\\Delta ADE\\)均为等腰直角三角形",
+        "∴DA=EA，BA=CA",
+        "在△ADB和△AEC中",
+        "\\(\\begin{cases} DA=EA \\\\ \\angle DAB=\\angle EAC \\\\ BA=CA \\end{cases}\\)",
+        "∴△ADB≌△AEC"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52
+        ],
+        "solution_block_ids": [
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-9A0C7D2F62-Q21-P02",
+      "label": "（2）",
+      "prompt": "求线段\\(BC\\)的长．",
+      "stem_text": "求线段\\(BC\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BC=\\sqrt[] { 10 }\\)",
+      "answer": "\\(BC=\\sqrt[] { 10 }\\)",
+      "given_solution": "∵\\(\\vartriangle ADE\\)是等腰直角三角形，\\(AD=AE=\\sqrt[] { 2 }\\)\n∴DE=\\(\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=2\\)，\n∵\\(DE=2EC\\)\n∴EC=\\(\\frac { 1 } { 2 }DE=1\\)，\n∴DC=DE＋EC=3\n∵△ADB≌△AEC\n∴DB=EC=3，∠ADB=∠AEC\n∵∠ADB=∠ADE＋∠BDC，∠AEC=∠ADE＋∠DAE=∠ADE＋90°\n∴∠BDC=90°\n在Rt△BDC中，\\(BC=\\sqrt[] { DB ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 10 }\\)",
+      "solution_steps": [
+        "∵\\(\\vartriangle ADE\\)是等腰直角三角形，\\(AD=AE=\\sqrt[] { 2 }\\)",
+        "∴DE=\\(\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=2\\)，",
+        "∵\\(DE=2EC\\)",
+        "∴EC=\\(\\frac { 1 } { 2 }DE=1\\)，",
+        "∴DC=DE＋EC=3",
+        "∵△ADB≌△AEC",
+        "∴DB=EC=3，∠ADB=∠AEC",
+        "∵∠ADB=∠ADE＋∠BDC，∠AEC=∠ADE＋∠DAE=∠ADE＋90°",
+        "∴∠BDC=90°",
+        "在Rt△BDC中，\\(BC=\\sqrt[] { DB ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 10 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          53
+        ],
+        "solution_block_ids": [
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      50,
+      53
+    ],
+    "solution_body_blocks": [
+      274,
+      301
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-9A0C7D2F62/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          112.73,
+          583.64,
+          392.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-9A0C7D2F62/solution-q21-p14.webp",
+      "assets/SZ-G8-T1-9A0C7D2F62/solution-q21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          504.55,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

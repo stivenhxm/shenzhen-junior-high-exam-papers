@@ -1,0 +1,313 @@
+{
+  "id": "SZ-G8-T1-C853919449-Q20",
+  "paper_id": "SZ-G8-T1-C853919449",
+  "number": 20,
+  "type": "解答题",
+  "points": 3,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "综合探究：\n“在\\(\\vartriangle ABC\\)中，\\(AB\\)、\\(BC\\)、\\(AC\\)三边的长分别为\\(\\sqrt[] { 5 }\\)、\\(\\sqrt[] { 10 }\\)、\\(\\sqrt[] { 13 }\\)，求这个三角形的面积”．\n小明同学在解答这道题时，先建立一个正方形网格（每个小正方形的边长为1），再在网格中画出格点\\(\\vartriangle ABC\\)（即\\(\\vartriangle ABC\\)三个顶点都在小正方形的顶点处），如图1所示，这样不需求\\(\\vartriangle ABC\\)的高，而借用网格就能计算出它的面积．我们把上述求\\(\\vartriangle ABC\\)面积的方法叫做构图法．\n〔图1〕\n（1）直接写出图1中\\(\\vartriangle ABC\\)的面积是______；\n（2）若\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），试运用构图法在图2中画出相应的\\(\\vartriangle MNP\\)，并求出\\(\\vartriangle MNP\\)的面积．\n（3）拓展应用：求代数式：\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-C853919449/figures/578a715edcb3d13a1bbe17d6d2cd37ca2db609864d3cceef18ef3776b2503c8c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 7 } { 2 }\\)\n（2）图见解析，\\(5mn\\)\n（3）5",
+  "answer": "（1）\\(\\frac { 7 } { 2 }\\)\n（2）图见解析，\\(5mn\\)\n（3）5",
+  "given_solution": "【分析】（1）分割法求出三角形的面积即可；\n（2）易得此三角形的三边分别是直角边长为m，\\(4n\\)的直角三角形的斜边；直角边长为\\(3m,2n\\)的直角三角形的斜边；直角边长为\\(2m,2n\\)的直角三角形的斜边．同样把它整理为一个长方形的面积减去三个直角三角形的面积．\n（3）将代数式转化为平面直角坐标系中\\(x\\)轴上一点\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 0,1 } \\right )\\)的距离与\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 4,2 } \\right )\\)的距离和的最小值，利用成轴对称的性质，进行求解即可．\n【小问1详解】\n解：由图可知：\\(\\vartriangle ABC\\)的面积是\\(3\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3=\\frac { 7 } { 2 }\\)；\n故答案为：\\(\\frac { 7 } { 2 }\\)；\n【小问2详解】\n\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），\n∴\\(\\vartriangle MNP\\)的三边分别是直角边长为m，\\(4n\\)的直角三角形的斜边；直角边长为\\(3m,2n\\)的直角三角形的斜边；直角边长为\\(2m,2n\\)的直角三角形的斜边，构造三角形如图：\n〔图2〕\n由图可知：\\(\\vartriangle MNP\\)的面积是\\(4m\\cdot 3n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 2n-\\frac { 1 } { 2 }\\cdot 4m\\cdot n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 3n=5mn\\)；\n【小问3详解】\n\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，可以看成平面直角坐标系中\\(x\\)轴上一点\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 0,1 } \\right )\\)的距离与\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 4,2 } \\right )\\)的距离和的最小值，如图：\n〔图3〕\n设\\(A\\left ( { 0,1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\\(P\\left ( { x,0 } \\right )\\)，则：\\(PA+PB=\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，\n过点\\(A\\)作\\(x\\)轴的对称点\\(A'\\)，则：\\(A'\\left ( { 0,-1 } \\right )\\)，\\(PA+PB=PA'+PB\\ge A'B\\)，当且仅当\\(A'\\)，\\(P\\)，\\(B\\)三点共线时，\\(PA+PB\\)的值最小，即为\\(A'B\\)的长，\n∵\\(A'\\left ( { 0,-1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\n∴\\(A'B=\\sqrt[] { 4 ^ { 2 } +\\left ( { 2+1 } \\right ) ^ { 2 } }=5\\)．\n∴\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值为5．\n【点睛】本题考查勾股定理与网格问题，坐标与轴对称．解题的关键是理解并掌握构图法，将代数问题转化为几何问题，利用数形结合的思想进行求解．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-C853919449/figures/578a715edcb3d13a1bbe17d6d2cd37ca2db609864d3cceef18ef3776b2503c8c.png",
+    "assets/SZ-G8-T1-C853919449/figures/9a91655aeb9367542df491f205b01f99872f78d136dc581193b583f91aec8bf5.png",
+    "assets/SZ-G8-T1-C853919449/figures/b35dc6e14712d0f59fef15b859e0c704f9e21cc4045102e037a9e39146c843e6.png"
+  ],
+  "solution": "【小问1详解】\n解：由图可知：\\(\\vartriangle ABC\\)的面积是\\(3\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3=\\frac { 7 } { 2 }\\)；\n故答案为：\\(\\frac { 7 } { 2 }\\)；\n【小问2详解】\n\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），\n∴\\(\\vartriangle MNP\\)的三边分别是直角边长为m，\\(4n\\)的直角三角形的斜边；直角边长为\\(3m,2n\\)的直角三角形的斜边；直角边长为\\(2m,2n\\)的直角三角形的斜边，构造三角形如图：\n〔图2〕\n由图可知：\\(\\vartriangle MNP\\)的面积是\\(4m\\cdot 3n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 2n-\\frac { 1 } { 2 }\\cdot 4m\\cdot n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 3n=5mn\\)；\n【小问3详解】\n\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，可以看成平面直角坐标系中\\(x\\)轴上一点\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 0,1 } \\right )\\)的距离与\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 4,2 } \\right )\\)的距离和的最小值，如图：\n〔图3〕\n设\\(A\\left ( { 0,1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\\(P\\left ( { x,0 } \\right )\\)，则：\\(PA+PB=\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，\n过点\\(A\\)作\\(x\\)轴的对称点\\(A'\\)，则：\\(A'\\left ( { 0,-1 } \\right )\\)，\\(PA+PB=PA'+PB\\ge A'B\\)，当且仅当\\(A'\\)，\\(P\\)，\\(B\\)三点共线时，\\(PA+PB\\)的值最小，即为\\(A'B\\)的长，\n∵\\(A'\\left ( { 0,-1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\n∴\\(A'B=\\sqrt[] { 4 ^ { 2 } +\\left ( { 2+1 } \\right ) ^ { 2 } }=5\\)．\n∴\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值为5．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由图可知：\\(\\vartriangle ABC\\)的面积是\\(3\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3=\\frac { 7 } { 2 }\\)；",
+    "故答案为：\\(\\frac { 7 } { 2 }\\)；",
+    "【小问2详解】",
+    "\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），",
+    "∴\\(\\vartriangle MNP\\)的三边分别是直角边长为m，\\(4n\\)的直角三角形的斜边；直角边长为\\(3m,2n\\)的直角三角形的斜边；直角边长为\\(2m,2n\\)的直角三角形的斜边，构造三角形如图：",
+    "〔图2〕",
+    "由图可知：\\(\\vartriangle MNP\\)的面积是\\(4m\\cdot 3n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 2n-\\frac { 1 } { 2 }\\cdot 4m\\cdot n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 3n=5mn\\)；",
+    "【小问3详解】",
+    "\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，可以看成平面直角坐标系中\\(x\\)轴上一点\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 0,1 } \\right )\\)的距离与\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 4,2 } \\right )\\)的距离和的最小值，如图：",
+    "〔图3〕",
+    "设\\(A\\left ( { 0,1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\\(P\\left ( { x,0 } \\right )\\)，则：\\(PA+PB=\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，",
+    "过点\\(A\\)作\\(x\\)轴的对称点\\(A'\\)，则：\\(A'\\left ( { 0,-1 } \\right )\\)，\\(PA+PB=PA'+PB\\ge A'B\\)，当且仅当\\(A'\\)，\\(P\\)，\\(B\\)三点共线时，\\(PA+PB\\)的值最小，即为\\(A'B\\)的长，",
+    "∵\\(A'\\left ( { 0,-1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，",
+    "∴\\(A'B=\\sqrt[] { 4 ^ { 2 } +\\left ( { 2+1 } \\right ) ^ { 2 } }=5\\)．",
+    "∴\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值为5．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合探究：\n“在\\(\\vartriangle ABC\\)中，\\(AB\\)、\\(BC\\)、\\(AC\\)三边的长分别为\\(\\sqrt[] { 5 }\\)、\\(\\sqrt[] { 10 }\\)、\\(\\sqrt[] { 13 }\\)，求这个三角形的面积”．\n小明同学在解答这道题时，先建立一个正方形网格（每个小正方形的边长为1），再在网格中画出格点\\(\\vartriangle ABC\\)（即\\(\\vartriangle ABC\\)三个顶点都在小正方形的顶点处），如图1所示，这样不需求\\(\\vartriangle ABC\\)的高，而借用网格就能计算出它的面积．我们把上述求\\(\\vartriangle ABC\\)面积的方法叫做构图法．\n〔图1〕",
+      "paper_blocks": [
+        67,
+        68,
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-C853919449-Q20-P01",
+      "label": "（1）",
+      "prompt": "直接写出图1中\\(\\vartriangle ABC\\)的面积是______；",
+      "stem_text": "直接写出图1中\\(\\vartriangle ABC\\)的面积是______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 7 } { 2 }\\)",
+      "answer": "\\(\\frac { 7 } { 2 }\\)",
+      "given_solution": "解：由图可知：\\(\\vartriangle ABC\\)的面积是\\(3\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3=\\frac { 7 } { 2 }\\)；\n故答案为：\\(\\frac { 7 } { 2 }\\)；",
+      "solution_steps": [
+        "解：由图可知：\\(\\vartriangle ABC\\)的面积是\\(3\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3=\\frac { 7 } { 2 }\\)；",
+        "故答案为：\\(\\frac { 7 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          320,
+          321
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-C853919449-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），试运用构图法在图2中画出相应的\\(\\vartriangle MNP\\)，并求出\\(\\vartriangle MNP\\)的面积．",
+      "stem_text": "若\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），试运用构图法在图2中画出相应的\\(\\vartriangle MNP\\)，并求出\\(\\vartriangle MNP\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "图见解析，\\(5mn\\)",
+      "answer": "图见解析，\\(5mn\\)",
+      "given_solution": "\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），\n∴\\(\\vartriangle MNP\\)的三边分别是直角边长为m，\\(4n\\)的直角三角形的斜边；直角边长为\\(3m,2n\\)的直角三角形的斜边；直角边长为\\(2m,2n\\)的直角三角形的斜边，构造三角形如图：\n〔图2〕\n由图可知：\\(\\vartriangle MNP\\)的面积是\\(4m\\cdot 3n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 2n-\\frac { 1 } { 2 }\\cdot 4m\\cdot n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 3n=5mn\\)；",
+      "solution_steps": [
+        "\\(\\vartriangle MNP\\)的边长分别为\\(\\sqrt[] { m ^ { 2 } +16n ^ { 2 } }\\)、\\(\\sqrt[] { 9m ^ { 2 } +4n ^ { 2 } }\\)、\\(\\sqrt[] { 4m ^ { 2 } +4n ^ { 2 } }\\)（\\(m>0\\)，\\(n>0\\)，且\\(m\\ne n\\)），",
+        "∴\\(\\vartriangle MNP\\)的三边分别是直角边长为m，\\(4n\\)的直角三角形的斜边；直角边长为\\(3m,2n\\)的直角三角形的斜边；直角边长为\\(2m,2n\\)的直角三角形的斜边，构造三角形如图：",
+        "〔图2〕",
+        "由图可知：\\(\\vartriangle MNP\\)的面积是\\(4m\\cdot 3n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 2n-\\frac { 1 } { 2 }\\cdot 4m\\cdot n-\\frac { 1 } { 2 }\\cdot 2m\\cdot 3n=5mn\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-C853919449-Q20-P03",
+      "label": "（3）",
+      "prompt": "拓展应用：求代数式：\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值．",
+      "stem_text": "拓展应用：求代数式：\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "5",
+      "answer": "5",
+      "given_solution": "\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，可以看成平面直角坐标系中\\(x\\)轴上一点\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 0,1 } \\right )\\)的距离与\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 4,2 } \\right )\\)的距离和的最小值，如图：\n〔图3〕\n设\\(A\\left ( { 0,1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\\(P\\left ( { x,0 } \\right )\\)，则：\\(PA+PB=\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，\n过点\\(A\\)作\\(x\\)轴的对称点\\(A'\\)，则：\\(A'\\left ( { 0,-1 } \\right )\\)，\\(PA+PB=PA'+PB\\ge A'B\\)，当且仅当\\(A'\\)，\\(P\\)，\\(B\\)三点共线时，\\(PA+PB\\)的值最小，即为\\(A'B\\)的长，\n∵\\(A'\\left ( { 0,-1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\n∴\\(A'B=\\sqrt[] { 4 ^ { 2 } +\\left ( { 2+1 } \\right ) ^ { 2 } }=5\\)．\n∴\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值为5．",
+      "solution_steps": [
+        "\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，可以看成平面直角坐标系中\\(x\\)轴上一点\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 0,1 } \\right )\\)的距离与\\(\\left ( { x,0 } \\right )\\)到点\\(\\left ( { 4,2 } \\right )\\)的距离和的最小值，如图：",
+        "〔图3〕",
+        "设\\(A\\left ( { 0,1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，\\(P\\left ( { x,0 } \\right )\\)，则：\\(PA+PB=\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)，",
+        "过点\\(A\\)作\\(x\\)轴的对称点\\(A'\\)，则：\\(A'\\left ( { 0,-1 } \\right )\\)，\\(PA+PB=PA'+PB\\ge A'B\\)，当且仅当\\(A'\\)，\\(P\\)，\\(B\\)三点共线时，\\(PA+PB\\)的值最小，即为\\(A'B\\)的长，",
+        "∵\\(A'\\left ( { 0,-1 } \\right )\\)，\\(B\\left ( { 4,2 } \\right )\\)，",
+        "∴\\(A'B=\\sqrt[] { 4 ^ { 2 } +\\left ( { 2+1 } \\right ) ^ { 2 } }=5\\)．",
+        "∴\\(\\sqrt[] { x ^ { 2 } +1 }+\\sqrt[] { \\left ( { 4-x } \\right ) ^ { 2 } +4 }\\left ( { 0\\le x\\le 4 } \\right )\\)的最小值为5．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      73
+    ],
+    "solution_body_blocks": [
+      305,
+      335
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-C853919449/paper-q20-p06.webp",
+      "assets/SZ-G8-T1-C853919449/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          441.82,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          98.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-C853919449/solution-q20-p17.webp",
+      "assets/SZ-G8-T1-C853919449/solution-q20-p18.webp",
+      "assets/SZ-G8-T1-C853919449/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          663.18,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          648.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          408.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

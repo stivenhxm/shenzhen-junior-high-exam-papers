@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q01",{"answer":"A","solution_steps":["被开方数需非负且分母不能为零，两条件合并为 \\(x+1>0\\)，即 \\(x>-1\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

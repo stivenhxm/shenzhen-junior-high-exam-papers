@@ -1,0 +1,358 @@
+{
+  "id": "SZ-G8-T2-6ECF7A7253-Q21",
+  "paper_id": "SZ-G8-T2-6ECF7A7253",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由平移或对称写出坐标变化、将面积条件转为点的位置约束",
+  "stem": "【项目式学习】\n【项目主题】如何快速计算出平面直角坐标系中三个不共线的点围成的三角形的面积？\n【项目背景】已知平面直角坐标系中任意三个不共线的点的坐标，如何快速计算出其围成的三角形的面积？八年级数学学习小组围绕这一问题，进行了项目式学习．\n任务一：查阅资料\n小组成员经过查阅相关资料，得到如下素材：\n素材一：把一个几何图形按照某种法则或规律变换成另一种几何图形的过程叫做几何变换． 因为几何图形是点的集合，所以几何变换都是通过点的变换实现的，几何变换中最基础的一类是全等变换、全等变换的基本形式有：平移、旋转、轴对称．全等变换前后的两个几何图形是全等形 ．\n素材二：在平面直角坐标系中，若已知\\(A\\left ( { x_{ 1 } ，y_{ 1 } } \\right )，B\\left ( { x_{ 2 } ，y_{ 2 } } \\right )，O\\left ( { 0，0 } \\right )\\)，则\\(\\vartriangle ABO\\)的面积可以表示为\\(\\frac { 1 } { 2 }|x_{ 1 } y_{ 2 } -x_{ 2 } y_{ 1 } |\\)；\n任务二：特例验证\n（1）小组成员根据素材二中的公式，很快计算出点\\(A\\left ( { 3，4 } \\right )\\)， 点\\(B\\left ( { 2，6 } \\right )\\)与原点O 构成的三角形面积\\(S_{ \\vartriangle ABO } =\\)     ①   ，并且利用割补法探究了素材二中公式的证明过程：如图，因为三角形的面积不因为坐标系的位置变化而改变，所以不妨假设\\(A\\left ( { x_{ 1 } ，y_{ 1 } } \\right )，B\\left ( { x_{ 2 } ，y_{ 2 } } \\right )\\)都在第一象限，且\\(x_{ 1 } < x_{ 2 }\\)，\\(y_{ 1 } >y_{ 2 }\\)．过点A作x轴的平行线l，交y轴 于C点，过点B 作y轴的平行线m，交x轴于D点，I与m交于点E，则E点坐标为      ②   因为\\(\\vartriangle ACO\\)与\\(\\vartriangle BDO\\)与\\(\\vartriangle AEB\\)是直角三角形，四边形\\(ECOD\\)是矩形，所以\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（ {\\underline{ ③ }} ），\\)整理得\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left ( { x_{ 2 } y_{ 1 } -x_{ 1 } y_{ 2 } } \\right )\\)，由于\\(AB\\)位置可以互换，所以\\(\\vartriangle ABO\\)的面积可以统一表示为\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }|x_{ 1 } y_{ 2 } -x_{ 2 } y_{ 1 } |\\)；\n任务二：迁移推广\n小组成员经过思考发现：当三角形的三个顶点都不是原点时，可以通过全等变换，使得某一 个顶点变换到原点，从而可以继续利用素材二中公式进行计算，根据素材一的知识，可知变换后的新三角形的面积与原三角形的面积相等，\n例如：已知\\(A\\left ( { 3，4 } \\right )，B\\left ( { 2，6 } \\right )，C\\left ( { -2，2 } \\right )\\)，可将\\(\\vartriangle ABC\\)进行平移变换，使得点C平移至原点，A的对应点为\\(A_{ 1 }\\)，B的对应点为\\(B_{ 1 }\\)，从而计算出\\(\\vartriangle ABC\\)的面积；也可以通过旋转变换的方法，将\\(\\vartriangle ABC\\)绕某一点旋转\\(180{}^\\circ\\)，使得点C 变换到原点O，A的对应点为\\(A_{ 2 }\\)，B的对应点为\\(B_{ 2 }\\)，从而也可以计算出\\(\\vartriangle ABC\\)的面积，\n（2）经过画图分析，可知\\(A_{ 1 }\\)的坐标为         \\(A_{ 2 }\\)的坐标为         ，\\(\\vartriangle ABC\\)的面积\\(S_{ ABC } =\\)\n任务三：实践应用\n（3）已知\\(A\\left ( { 3，4 } \\right )，B\\left ( { 2，6 } \\right )\\)，C是直线\\(y=-x+1\\)上的动点，当\\(\\vartriangle ABC\\)的面积为3时，求C点坐标．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/49/49dcf102a3733255021b00666b1d1c2f8eabe71b55bff427b427feca7d31868b.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；（2）\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；（3）C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)",
+  "answer": "（1）5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；（2）\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；（3）C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)",
+  "given_solution": "【分析】（1）由题意知，\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left | { 3\\times 6-4\\times 2 } \\right |=5\\)，E点坐标为\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)；根据\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（y_{ 1 } -y_{ 2 } ）\\)，作答即可；\n（2）如图，由平移可得A的对应点\\(A_{ 1 } \\left ( { 5，2 } \\right )\\)，B的对应点\\(B_{ 1 } \\left ( { 4，4 } \\right )\\)；由旋转可求\\(A_{ 2 } \\left ( { -5，-2 } \\right )\\)，根据\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle A_{ 1 } B_{ 1 } O } =\\frac { 1 } { 2 }\\left | { 5\\times 4-2\\times 4 } \\right |\\)，计算求解即可；\n（3）设\\(C\\left ( { m，-m+1 } \\right )\\)，当\\(C\\left ( { m，-m+1 } \\right )\\)平移到\\(O\\left ( { 0，0 } \\right )\\)，A的对应点为\\(A'\\left ( { 3-m，3+m } \\right )\\)，B的对应点为\\(B'\\left ( { 2-m，5+m } \\right )\\)，根据\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\left | { \\left ( { 3-m } \\right )\\left ( { 5+m } \\right )-\\left ( { 3+m } \\right )\\left ( { 2-m } \\right ) } \\right |=3\\)，计算求解，然后作答即可．\n【详解】（1）解：由题意知，\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left | { 3\\times 6-4\\times 2 } \\right |=5\\)，\nE点坐标为\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)；\n\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（y_{ 1 } -y_{ 2 } ）\\)，\n故答案为：5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；\n（2）解：如图，\n〔图2〕\n∵\\(A\\left ( { 3，4 } \\right )，C\\left ( { -2，2 } \\right )\\)，\n∴点C平移至原点\\(O\\)，即向右平移2个单位，再向下平移2个单位，\n∴A的对应点\\(A_{ 1 } \\left ( { 5，2 } \\right )\\)，B的对应点\\(B_{ 1 } \\left ( { 4，4 } \\right )\\)；\n∵\\(C\\left ( { -2，2 } \\right )\\) 旋转变换到原点O，\n∴旋转中点为\\(OC\\)的中点\\(\\left ( { -1，1 } \\right )\\)，\n∴\\(AA_{ 2 }\\)的中点也为\\(\\left ( { -1，1 } \\right )\\)，\n∴\\(A_{ 2 } \\left ( { -5，-2 } \\right )\\)，\n∴\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle A_{ 1 } B_{ 1 } O } =\\frac { 1 } { 2 }\\left | { 5\\times 4-2\\times 4 } \\right |=6\\)，\n故答案为：\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；\n（3）解：设\\(C\\left ( { m，-m+1 } \\right )\\)，\n当\\(C\\left ( { m，-m+1 } \\right )\\)平移到\\(O\\left ( { 0，0 } \\right )\\)，\n∴A的对应点为\\(A'\\left ( { 3-m，3+m } \\right )\\)，B的对应点为\\(B'\\left ( { 2-m，5+m } \\right )\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\left | { \\left ( { 3-m } \\right )\\left ( { 5+m } \\right )-\\left ( { 3+m } \\right )\\left ( { 2-m } \\right ) } \\right |=3\\)，\n整理得，\\(\\left | { -m+9 } \\right |=6\\)，\n解得，\\(m=3\\)或\\(m=15\\)，\n∴C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)．\n【点睛】本题考查了坐标与图形，点坐标的平移，中心对称的性质，一次函数等知识．熟练掌握坐标与图形，点坐标的平移，中心对称的性质，一次函数是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/49/49dcf102a3733255021b00666b1d1c2f8eabe71b55bff427b427feca7d31868b.png",
+    "assets/figures/b2/b26e775399e15fcd2f6614b6ffd4e8ed21052c490546caae2bdf27ab27430232.png"
+  ],
+  "solution": "（1）解：由题意知，\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left | { 3\\times 6-4\\times 2 } \\right |=5\\)，\nE点坐标为\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)；\n\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（y_{ 1 } -y_{ 2 } ）\\)，\n故答案为：5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；\n（2）解：如图，\n〔图2〕\n∵\\(A\\left ( { 3，4 } \\right )，C\\left ( { -2，2 } \\right )\\)，\n∴点C平移至原点\\(O\\)，即向右平移2个单位，再向下平移2个单位，\n∴A的对应点\\(A_{ 1 } \\left ( { 5，2 } \\right )\\)，B的对应点\\(B_{ 1 } \\left ( { 4，4 } \\right )\\)；\n∵\\(C\\left ( { -2，2 } \\right )\\) 旋转变换到原点O，\n∴旋转中点为\\(OC\\)的中点\\(\\left ( { -1，1 } \\right )\\)，\n∴\\(AA_{ 2 }\\)的中点也为\\(\\left ( { -1，1 } \\right )\\)，\n∴\\(A_{ 2 } \\left ( { -5，-2 } \\right )\\)，\n∴\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle A_{ 1 } B_{ 1 } O } =\\frac { 1 } { 2 }\\left | { 5\\times 4-2\\times 4 } \\right |=6\\)，\n故答案为：\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；\n（3）解：设\\(C\\left ( { m，-m+1 } \\right )\\)，\n当\\(C\\left ( { m，-m+1 } \\right )\\)平移到\\(O\\left ( { 0，0 } \\right )\\)，\n∴A的对应点为\\(A'\\left ( { 3-m，3+m } \\right )\\)，B的对应点为\\(B'\\left ( { 2-m，5+m } \\right )\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\left | { \\left ( { 3-m } \\right )\\left ( { 5+m } \\right )-\\left ( { 3+m } \\right )\\left ( { 2-m } \\right ) } \\right |=3\\)，\n整理得，\\(\\left | { -m+9 } \\right |=6\\)，\n解得，\\(m=3\\)或\\(m=15\\)，\n∴C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)．",
+  "solution_steps": [
+    "（1）解：由题意知，\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left | { 3\\times 6-4\\times 2 } \\right |=5\\)，",
+    "E点坐标为\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)；",
+    "\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（y_{ 1 } -y_{ 2 } ）\\)，",
+    "故答案为：5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；",
+    "（2）解：如图，",
+    "〔图2〕",
+    "∵\\(A\\left ( { 3，4 } \\right )，C\\left ( { -2，2 } \\right )\\)，",
+    "∴点C平移至原点\\(O\\)，即向右平移2个单位，再向下平移2个单位，",
+    "∴A的对应点\\(A_{ 1 } \\left ( { 5，2 } \\right )\\)，B的对应点\\(B_{ 1 } \\left ( { 4，4 } \\right )\\)；",
+    "∵\\(C\\left ( { -2，2 } \\right )\\) 旋转变换到原点O，",
+    "∴旋转中点为\\(OC\\)的中点\\(\\left ( { -1，1 } \\right )\\)，",
+    "∴\\(AA_{ 2 }\\)的中点也为\\(\\left ( { -1，1 } \\right )\\)，",
+    "∴\\(A_{ 2 } \\left ( { -5，-2 } \\right )\\)，",
+    "∴\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle A_{ 1 } B_{ 1 } O } =\\frac { 1 } { 2 }\\left | { 5\\times 4-2\\times 4 } \\right |=6\\)，",
+    "故答案为：\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；",
+    "（3）解：设\\(C\\left ( { m，-m+1 } \\right )\\)，",
+    "当\\(C\\left ( { m，-m+1 } \\right )\\)平移到\\(O\\left ( { 0，0 } \\right )\\)，",
+    "∴A的对应点为\\(A'\\left ( { 3-m，3+m } \\right )\\)，B的对应点为\\(B'\\left ( { 2-m，5+m } \\right )\\)，",
+    "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\left | { \\left ( { 3-m } \\right )\\left ( { 5+m } \\right )-\\left ( { 3+m } \\right )\\left ( { 2-m } \\right ) } \\right |=3\\)，",
+    "整理得，\\(\\left | { -m+9 } \\right |=6\\)，",
+    "解得，\\(m=3\\)或\\(m=15\\)，",
+    "∴C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【项目式学习】\n【项目主题】如何快速计算出平面直角坐标系中三个不共线的点围成的三角形的面积？\n【项目背景】已知平面直角坐标系中任意三个不共线的点的坐标，如何快速计算出其围成的三角形的面积？八年级数学学习小组围绕这一问题，进行了项目式学习．",
+      "paper_blocks": [
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "fig-83",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        83
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-6ECF7A7253-Q21-P01",
+      "label": "任务一",
+      "prompt": "查阅资料\n小组成员经过查阅相关资料，得到如下素材：\n素材一：把一个几何图形按照某种法则或规律变换成另一种几何图形的过程叫做几何变换． 因为几何图形是点的集合，所以几何变换都是通过点的变换实现的，几何变换中最基础的一类是全等变换、全等变换的基本形式有：平移、旋转、轴对称．全等变换前后的两个几何图形是全等形 ．\n素材二：在平面直角坐标系中，若已知\\(A\\left ( { x_{ 1 } ，y_{ 1 } } \\right )，B\\left ( { x_{ 2 } ，y_{ 2 } } \\right )，O\\left ( { 0，0 } \\right )\\)，则\\(\\vartriangle ABO\\)的面积可以表示为\\(\\frac { 1 } { 2 }|x_{ 1 } y_{ 2 } -x_{ 2 } y_{ 1 } |\\)；",
+      "stem_text": "查阅资料\n小组成员经过查阅相关资料，得到如下素材：\n素材一：把一个几何图形按照某种法则或规律变换成另一种几何图形的过程叫做几何变换． 因为几何图形是点的集合，所以几何变换都是通过点的变换实现的，几何变换中最基础的一类是全等变换、全等变换的基本形式有：平移、旋转、轴对称．全等变换前后的两个几何图形是全等形 ．\n素材二：在平面直角坐标系中，若已知\\(A\\left ( { x_{ 1 } ，y_{ 1 } } \\right )，B\\left ( { x_{ 2 } ，y_{ 2 } } \\right )，O\\left ( { 0，0 } \\right )\\)，则\\(\\vartriangle ABO\\)的面积可以表示为\\(\\frac { 1 } { 2 }|x_{ 1 } y_{ 2 } -x_{ 2 } y_{ 1 } |\\)；",
+      "material_ids": [
+        "context",
+        "fig-83"
+      ],
+      "requires": [],
+      "given_answer": "5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)",
+      "answer": "5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)",
+      "given_solution": "（1）解：由题意知，\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left | { 3\\times 6-4\\times 2 } \\right |=5\\)，\nE点坐标为\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)；\n\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（y_{ 1 } -y_{ 2 } ）\\)，\n故答案为：5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；",
+      "solution_steps": [
+        "（1）解：由题意知，\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left | { 3\\times 6-4\\times 2 } \\right |=5\\)，",
+        "E点坐标为\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)；",
+        "\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（y_{ 1 } -y_{ 2 } ）\\)，",
+        "故答案为：5，\\(\\left ( { x_{ 2 } ，y_{ 1 } } \\right )\\)，\\(y_{ 1 } -y_{ 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          83
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6ECF7A7253-Q21-P02",
+      "label": "任务二",
+      "prompt": "特例验证\n（1）小组成员根据素材二中的公式，很快计算出点\\(A\\left ( { 3，4 } \\right )\\)， 点\\(B\\left ( { 2，6 } \\right )\\)与原点O 构成的三角形面积\\(S_{ \\vartriangle ABO } =\\)     ①   ，并且利用割补法探究了素材二中公式的证明过程：如图，因为三角形的面积不因为坐标系的位置变化而改变，所以不妨假设\\(A\\left ( { x_{ 1 } ，y_{ 1 } } \\right )，B\\left ( { x_{ 2 } ，y_{ 2 } } \\right )\\)都在第一象限，且\\(x_{ 1 } < x_{ 2 }\\)，\\(y_{ 1 } >y_{ 2 }\\)．过点A作x轴的平行线l，交y轴 于C点，过点B 作y轴的平行线m，交x轴于D点，I与m交于点E，则E点坐标为      ②   因为\\(\\vartriangle ACO\\)与\\(\\vartriangle BDO\\)与\\(\\vartriangle AEB\\)是直角三角形，四边形\\(ECOD\\)是矩形，所以\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（ {\\underline{ ③ }} ），\\)整理得\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left ( { x_{ 2 } y_{ 1 } -x_{ 1 } y_{ 2 } } \\right )\\)，由于\\(AB\\)位置可以互换，所以\\(\\vartriangle ABO\\)的面积可以统一表示为\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }|x_{ 1 } y_{ 2 } -x_{ 2 } y_{ 1 } |\\)；\n任务二：迁移推广\n小组成员经过思考发现：当三角形的三个顶点都不是原点时，可以通过全等变换，使得某一 个顶点变换到原点，从而可以继续利用素材二中公式进行计算，根据素材一的知识，可知变换后的新三角形的面积与原三角形的面积相等，\n例如：已知\\(A\\left ( { 3，4 } \\right )，B\\left ( { 2，6 } \\right )，C\\left ( { -2，2 } \\right )\\)，可将\\(\\vartriangle ABC\\)进行平移变换，使得点C平移至原点，A的对应点为\\(A_{ 1 }\\)，B的对应点为\\(B_{ 1 }\\)，从而计算出\\(\\vartriangle ABC\\)的面积；也可以通过旋转变换的方法，将\\(\\vartriangle ABC\\)绕某一点旋转\\(180{}^\\circ\\)，使得点C 变换到原点O，A的对应点为\\(A_{ 2 }\\)，B的对应点为\\(B_{ 2 }\\)，从而也可以计算出\\(\\vartriangle ABC\\)的面积，\n（2）经过画图分析，可知\\(A_{ 1 }\\)的坐标为         \\(A_{ 2 }\\)的坐标为         ，\\(\\vartriangle ABC\\)的面积\\(S_{ ABC } =\\)",
+      "stem_text": "特例验证\n（1）小组成员根据素材二中的公式，很快计算出点\\(A\\left ( { 3，4 } \\right )\\)， 点\\(B\\left ( { 2，6 } \\right )\\)与原点O 构成的三角形面积\\(S_{ \\vartriangle ABO } =\\)     ①   ，并且利用割补法探究了素材二中公式的证明过程：如图，因为三角形的面积不因为坐标系的位置变化而改变，所以不妨假设\\(A\\left ( { x_{ 1 } ，y_{ 1 } } \\right )，B\\left ( { x_{ 2 } ，y_{ 2 } } \\right )\\)都在第一象限，且\\(x_{ 1 } < x_{ 2 }\\)，\\(y_{ 1 } >y_{ 2 }\\)．过点A作x轴的平行线l，交y轴 于C点，过点B 作y轴的平行线m，交x轴于D点，I与m交于点E，则E点坐标为      ②   因为\\(\\vartriangle ACO\\)与\\(\\vartriangle BDO\\)与\\(\\vartriangle AEB\\)是直角三角形，四边形\\(ECOD\\)是矩形，所以\\(S_{ \\vartriangle ABO } =S_{ 矩形ECOD } -S_{ \\vartriangle ACO } -S_{ \\vartriangle BDO } -S_{ \\vartriangle ABE } =x_{ 2 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 1 } y_{ 1 } -\\frac { 1 } { 2 }x_{ 2 } y_{ 2 } -\\frac { 1 } { 2 }\\left ( { x_{ 2 } -x_{ 1 } } \\right )（ {\\underline{ ③ }} ），\\)整理得\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\left ( { x_{ 2 } y_{ 1 } -x_{ 1 } y_{ 2 } } \\right )\\)，由于\\(AB\\)位置可以互换，所以\\(\\vartriangle ABO\\)的面积可以统一表示为\\(S_{ \\vartriangle ABD } =\\frac { 1 } { 2 }|x_{ 1 } y_{ 2 } -x_{ 2 } y_{ 1 } |\\)；\n任务二：迁移推广\n小组成员经过思考发现：当三角形的三个顶点都不是原点时，可以通过全等变换，使得某一 个顶点变换到原点，从而可以继续利用素材二中公式进行计算，根据素材一的知识，可知变换后的新三角形的面积与原三角形的面积相等，\n例如：已知\\(A\\left ( { 3，4 } \\right )，B\\left ( { 2，6 } \\right )，C\\left ( { -2，2 } \\right )\\)，可将\\(\\vartriangle ABC\\)进行平移变换，使得点C平移至原点，A的对应点为\\(A_{ 1 }\\)，B的对应点为\\(B_{ 1 }\\)，从而计算出\\(\\vartriangle ABC\\)的面积；也可以通过旋转变换的方法，将\\(\\vartriangle ABC\\)绕某一点旋转\\(180{}^\\circ\\)，使得点C 变换到原点O，A的对应点为\\(A_{ 2 }\\)，B的对应点为\\(B_{ 2 }\\)，从而也可以计算出\\(\\vartriangle ABC\\)的面积，\n（2）经过画图分析，可知\\(A_{ 1 }\\)的坐标为         \\(A_{ 2 }\\)的坐标为         ，\\(\\vartriangle ABC\\)的面积\\(S_{ ABC } =\\)",
+      "material_ids": [
+        "context",
+        "fig-83"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)",
+      "answer": "\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)",
+      "given_solution": "（2）解：如图，\n〔图2〕\n∵\\(A\\left ( { 3，4 } \\right )，C\\left ( { -2，2 } \\right )\\)，\n∴点C平移至原点\\(O\\)，即向右平移2个单位，再向下平移2个单位，\n∴A的对应点\\(A_{ 1 } \\left ( { 5，2 } \\right )\\)，B的对应点\\(B_{ 1 } \\left ( { 4，4 } \\right )\\)；\n∵\\(C\\left ( { -2，2 } \\right )\\) 旋转变换到原点O，\n∴旋转中点为\\(OC\\)的中点\\(\\left ( { -1，1 } \\right )\\)，\n∴\\(AA_{ 2 }\\)的中点也为\\(\\left ( { -1，1 } \\right )\\)，\n∴\\(A_{ 2 } \\left ( { -5，-2 } \\right )\\)，\n∴\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle A_{ 1 } B_{ 1 } O } =\\frac { 1 } { 2 }\\left | { 5\\times 4-2\\times 4 } \\right |=6\\)，\n故答案为：\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；",
+      "solution_steps": [
+        "（2）解：如图，",
+        "〔图2〕",
+        "∵\\(A\\left ( { 3，4 } \\right )，C\\left ( { -2，2 } \\right )\\)，",
+        "∴点C平移至原点\\(O\\)，即向右平移2个单位，再向下平移2个单位，",
+        "∴A的对应点\\(A_{ 1 } \\left ( { 5，2 } \\right )\\)，B的对应点\\(B_{ 1 } \\left ( { 4，4 } \\right )\\)；",
+        "∵\\(C\\left ( { -2，2 } \\right )\\) 旋转变换到原点O，",
+        "∴旋转中点为\\(OC\\)的中点\\(\\left ( { -1，1 } \\right )\\)，",
+        "∴\\(AA_{ 2 }\\)的中点也为\\(\\left ( { -1，1 } \\right )\\)，",
+        "∴\\(A_{ 2 } \\left ( { -5，-2 } \\right )\\)，",
+        "∴\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle A_{ 1 } B_{ 1 } O } =\\frac { 1 } { 2 }\\left | { 5\\times 4-2\\times 4 } \\right |=6\\)，",
+        "故答案为：\\(\\left ( { 5，2 } \\right )\\)，\\(\\left ( { -5，-2 } \\right )\\)，\\(6\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          83
+        ],
+        "solution_block_ids": [
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6ECF7A7253-Q21-P03",
+      "label": "任务三",
+      "prompt": "实践应用\n（3）已知\\(A\\left ( { 3，4 } \\right )，B\\left ( { 2，6 } \\right )\\)，C是直线\\(y=-x+1\\)上的动点，当\\(\\vartriangle ABC\\)的面积为3时，求C点坐标．",
+      "stem_text": "实践应用\n（3）已知\\(A\\left ( { 3，4 } \\right )，B\\left ( { 2，6 } \\right )\\)，C是直线\\(y=-x+1\\)上的动点，当\\(\\vartriangle ABC\\)的面积为3时，求C点坐标．",
+      "material_ids": [
+        "context",
+        "fig-83"
+      ],
+      "requires": [],
+      "given_answer": "C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)",
+      "answer": "C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)",
+      "given_solution": "（3）解：设\\(C\\left ( { m，-m+1 } \\right )\\)，\n当\\(C\\left ( { m，-m+1 } \\right )\\)平移到\\(O\\left ( { 0，0 } \\right )\\)，\n∴A的对应点为\\(A'\\left ( { 3-m，3+m } \\right )\\)，B的对应点为\\(B'\\left ( { 2-m，5+m } \\right )\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\left | { \\left ( { 3-m } \\right )\\left ( { 5+m } \\right )-\\left ( { 3+m } \\right )\\left ( { 2-m } \\right ) } \\right |=3\\)，\n整理得，\\(\\left | { -m+9 } \\right |=6\\)，\n解得，\\(m=3\\)或\\(m=15\\)，\n∴C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)．",
+      "solution_steps": [
+        "（3）解：设\\(C\\left ( { m，-m+1 } \\right )\\)，",
+        "当\\(C\\left ( { m，-m+1 } \\right )\\)平移到\\(O\\left ( { 0，0 } \\right )\\)，",
+        "∴A的对应点为\\(A'\\left ( { 3-m，3+m } \\right )\\)，B的对应点为\\(B'\\left ( { 2-m，5+m } \\right )\\)，",
+        "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\left | { \\left ( { 3-m } \\right )\\left ( { 5+m } \\right )-\\left ( { 3+m } \\right )\\left ( { 2-m } \\right ) } \\right |=3\\)，",
+        "整理得，\\(\\left | { -m+9 } \\right |=6\\)，",
+        "解得，\\(m=3\\)或\\(m=15\\)，",
+        "∴C的坐标为\\(\\left ( { 3，-2 } \\right )\\)或\\(\\left ( { 15，-14 } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          81,
+          82,
+          83
+        ],
+        "solution_block_ids": [
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      83
+    ],
+    "solution_body_blocks": [
+      306,
+      349
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6ECF7A7253/paper-q21-p05.webp",
+      "assets/SZ-G8-T2-6ECF7A7253/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          253.18,
+          583.64,
+          739.09
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          497.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6ECF7A7253/solution-q21-p17.webp",
+      "assets/SZ-G8-T2-6ECF7A7253/solution-q21-p18.webp",
+      "assets/SZ-G8-T2-6ECF7A7253/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          425.91,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G09.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.02.01",
+    "E.G09.03.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+  "tag_source": "小问标签汇总"
+}

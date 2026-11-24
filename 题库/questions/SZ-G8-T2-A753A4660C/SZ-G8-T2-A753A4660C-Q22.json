@@ -1,0 +1,389 @@
+{
+  "id": "SZ-G8-T2-A753A4660C-Q22",
+  "paper_id": "SZ-G8-T2-A753A4660C",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "已知\\(\\vartriangle\\)AOB和△MON都是等腰直角三角形，∠AOB＝∠MON＝90°．\n（1）如图1：连AM，BN，求证：\\(\\vartriangle\\)AOM≌\\(\\vartriangle\\)BON；\n（2）若将Rt\\(\\vartriangle\\)MON绕点O顺时针旋转，当点A，M，N恰好在同一条直线上时，如图2所示，线段OH//BN，OH与AM交点为H，若OB＝4，ON＝3，求出线段AM的长；\n（3）若将\\(\\vartriangle\\)MON绕点O顺时针旋转，当点N恰好落在AB边上时，如图3所示，MN与AO交点为P，求证：MP\\({}^{2}\\)+PN\\({}^{2}\\)＝2PO\\({}^{2}\\)．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/e1/e14ee2c10629b042a77db34a7ae21eb815b89f2e514403fbb1ad45b8bdecf063.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)；（3）见解析",
+  "answer": "（1）见解析；（2）\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)；（3）见解析",
+  "given_solution": "【分析】（1）根据角的和差关系可得∠AOM＝∠BON，利用SAS即可得结论．\n（2）当MN在OA左侧时，根据全等三角形的性质及三角形内角和定理可得∠ANJ＝∠JOB＝90°，根据平行线的性质可得∠OHN=∠ANJ=90°，利用等腰直角三角形的性质可求出MN、HM、OH的长，利用勾股定理可求出AH的长，即可得出AM的长；同理可得出MN在OA右侧时AM的长，即可得答案；\n（3）如图，在OB上取一点T，使得OT＝OP，连接PT，NT．利用SAS可证明△POM≌△TON，即可证明∠M=∠ONM=45°，可得∠PNT＝∠ONM+∠ONT＝90°，可得PT\\({}^{2}\\)＝PN\\({}^{2}\\)+NT\\({}^{2}\\)＝PN\\({}^{2}\\)+PM\\({}^{2}\\)，即可得出结论．\n【详解】（1）∵△AOB和△MON都是等腰直角三角形，\n∴OM=ON，AO=BO，\n∵∠AOB＝∠MON＝90°，\n∴∠AOB+∠AON=∠MON+∠AON，\n∴∠AOM＝∠BON，\n在△AOM和△BON中\\(\\begin{cases} OM=ON \\\\ \\angle AOM=\\angle BON \\\\ AO=BO \\end{cases}\\)，\n∴△AOM≌△BON（SAS）．\n（2）如图，当MN在OA左侧时，设OA交BN于J，\n∵△AOM≌△BON，\n∴∠OAM＝∠OBN，\n∵∠AJN＝∠BJO，\n∴∠ANJ＝∠JOB＝90°，\n∵OH//BN，\n∴∠OHN=∠ANJ=90°，\n∵OM＝ON＝3，∠MON＝90°，OH⊥MN，\n∴MN＝\\(\\sqrt[] { 2 }OM\\)=3\\(\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\n∵OA=OB=4，\n∴AH＝\\(\\sqrt[] { OA ^ { 2 } -OH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } -(\\frac { 3\\sqrt[] { 2 } } { 2 }) ^ { 2 } }\\)＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，\n∴AM＝MH+AH＝\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)．\n〔图2〕\n如图，当MN在OA右侧时，\n同理可得：MN＝\\(3\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，AH＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，\n∴AM＝AH-MH＝\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．\n〔图3〕\n综上所述，BN的长为\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．\n（3）如图，在OB上取一点T，使得OT＝OP，连接PT，NT．\n∵∠MON＝∠POT＝90°，\n∴∠MON-∠PON=∠POT-∠PON，\n∴∠MOP＝∠NOT，\n在△POM和△TON中\\(\\begin{cases} OM=ON \\\\ \\angle MOP=\\angle NOT \\\\ OP=OT \\end{cases}\\)\n∴△POM≌△TON（SAS），\n∴PM＝TN，∠M＝∠ONT＝45°，\n∵∠M=∠ONM=45°，\n∴∠ONM＝∠ONT＝45°，\n∴∠PNT＝∠ONM+∠ONT＝90°，\n∴PT\\({}^{2}\\)＝PN\\({}^{2}\\)+NT\\({}^{2}\\)＝PN\\({}^{2}\\)+PM\\({}^{2}\\)\n∵△POT是等腰直角三角形，\n∴PT\\({}^{2}\\)＝2OP\\({}^{2}\\)，\n∴PM\\({}^{2}\\)+NP\\({}^{2}\\)＝2OP\\({}^{2}\\)．\n〔图4〕\n【点睛】本题考查全等三角形的判定与性质、等腰直角三角形的性质及勾股定理，熟练掌握相关性质及判定定理并运用分类讨论的思想是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/cc/cc33fd6d4f06e6a87ee40e19133842e310c22fd862be06231cd1e7ae0104d665.png",
+    "assets/figures/27/27d864279b8ee125f0d3e97ba1219bf4de06c27677127e0cfe0b84e92e54ded0.png",
+    "assets/figures/d2/d2668776b7bb6e955e8368e5f91b4a2a928716bacd9906dff978ebb56f6f966c.png",
+    "assets/figures/58/5898b9e23c89c769111d10b84893abd5f3ab0726e118fe3f5e2bb8816540ba9e.png"
+  ],
+  "solution": "（1）∵△AOB和△MON都是等腰直角三角形，\n∴OM=ON，AO=BO，\n∵∠AOB＝∠MON＝90°，\n∴∠AOB+∠AON=∠MON+∠AON，\n∴∠AOM＝∠BON，\n在△AOM和△BON中\\(\\begin{cases} OM=ON \\\\ \\angle AOM=\\angle BON \\\\ AO=BO \\end{cases}\\)，\n∴△AOM≌△BON（SAS）．\n（2）如图，当MN在OA左侧时，设OA交BN于J，\n∵△AOM≌△BON，\n∴∠OAM＝∠OBN，\n∵∠AJN＝∠BJO，\n∴∠ANJ＝∠JOB＝90°，\n∵OH//BN，\n∴∠OHN=∠ANJ=90°，\n∵OM＝ON＝3，∠MON＝90°，OH⊥MN，\n∴MN＝\\(\\sqrt[] { 2 }OM\\)=3\\(\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\n∵OA=OB=4，\n∴AH＝\\(\\sqrt[] { OA ^ { 2 } -OH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } -(\\frac { 3\\sqrt[] { 2 } } { 2 }) ^ { 2 } }\\)＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，\n∴AM＝MH+AH＝\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)．\n〔图2〕\n如图，当MN在OA右侧时，\n同理可得：MN＝\\(3\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，AH＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，\n∴AM＝AH-MH＝\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．\n〔图3〕\n综上所述，BN的长为\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．\n（3）如图，在OB上取一点T，使得OT＝OP，连接PT，NT．\n∵∠MON＝∠POT＝90°，\n∴∠MON-∠PON=∠POT-∠PON，\n∴∠MOP＝∠NOT，\n在△POM和△TON中\\(\\begin{cases} OM=ON \\\\ \\angle MOP=\\angle NOT \\\\ OP=OT \\end{cases}\\)\n∴△POM≌△TON（SAS），\n∴PM＝TN，∠M＝∠ONT＝45°，\n∵∠M=∠ONM=45°，\n∴∠ONM＝∠ONT＝45°，\n∴∠PNT＝∠ONM+∠ONT＝90°，\n∴PT\\({}^{2}\\)＝PN\\({}^{2}\\)+NT\\({}^{2}\\)＝PN\\({}^{2}\\)+PM\\({}^{2}\\)\n∵△POT是等腰直角三角形，\n∴PT\\({}^{2}\\)＝2OP\\({}^{2}\\)，\n∴PM\\({}^{2}\\)+NP\\({}^{2}\\)＝2OP\\({}^{2}\\)．\n〔图4〕",
+  "solution_steps": [
+    "（1）∵△AOB和△MON都是等腰直角三角形，",
+    "∴OM=ON，AO=BO，",
+    "∵∠AOB＝∠MON＝90°，",
+    "∴∠AOB+∠AON=∠MON+∠AON，",
+    "∴∠AOM＝∠BON，",
+    "在△AOM和△BON中\\(\\begin{cases} OM=ON \\\\ \\angle AOM=\\angle BON \\\\ AO=BO \\end{cases}\\)，",
+    "∴△AOM≌△BON（SAS）．",
+    "（2）如图，当MN在OA左侧时，设OA交BN于J，",
+    "∵△AOM≌△BON，",
+    "∴∠OAM＝∠OBN，",
+    "∵∠AJN＝∠BJO，",
+    "∴∠ANJ＝∠JOB＝90°，",
+    "∵OH//BN，",
+    "∴∠OHN=∠ANJ=90°，",
+    "∵OM＝ON＝3，∠MON＝90°，OH⊥MN，",
+    "∴MN＝\\(\\sqrt[] { 2 }OM\\)=3\\(\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，",
+    "∵OA=OB=4，",
+    "∴AH＝\\(\\sqrt[] { OA ^ { 2 } -OH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } -(\\frac { 3\\sqrt[] { 2 } } { 2 }) ^ { 2 } }\\)＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，",
+    "∴AM＝MH+AH＝\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)．",
+    "〔图2〕",
+    "如图，当MN在OA右侧时，",
+    "同理可得：MN＝\\(3\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，AH＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，",
+    "∴AM＝AH-MH＝\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．",
+    "〔图3〕",
+    "综上所述，BN的长为\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．",
+    "（3）如图，在OB上取一点T，使得OT＝OP，连接PT，NT．",
+    "∵∠MON＝∠POT＝90°，",
+    "∴∠MON-∠PON=∠POT-∠PON，",
+    "∴∠MOP＝∠NOT，",
+    "在△POM和△TON中\\(\\begin{cases} OM=ON \\\\ \\angle MOP=\\angle NOT \\\\ OP=OT \\end{cases}\\)",
+    "∴△POM≌△TON（SAS），",
+    "∴PM＝TN，∠M＝∠ONT＝45°，",
+    "∵∠M=∠ONM=45°，",
+    "∴∠ONM＝∠ONT＝45°，",
+    "∴∠PNT＝∠ONM+∠ONT＝90°，",
+    "∴PT\\({}^{2}\\)＝PN\\({}^{2}\\)+NT\\({}^{2}\\)＝PN\\({}^{2}\\)+PM\\({}^{2}\\)",
+    "∵△POT是等腰直角三角形，",
+    "∴PT\\({}^{2}\\)＝2OP\\({}^{2}\\)，",
+    "∴PM\\({}^{2}\\)+NP\\({}^{2}\\)＝2OP\\({}^{2}\\)．",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(\\vartriangle\\)AOB和△MON都是等腰直角三角形，∠AOB＝∠MON＝90°．",
+      "paper_blocks": [
+        62
+      ]
+    },
+    {
+      "id": "fig-66",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-A753A4660C-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1：连AM，BN，求证：\\(\\vartriangle\\)AOM≌\\(\\vartriangle\\)BON；",
+      "stem_text": "如图1：连AM，BN，求证：\\(\\vartriangle\\)AOM≌\\(\\vartriangle\\)BON；",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵△AOB和△MON都是等腰直角三角形，\n∴OM=ON，AO=BO，\n∵∠AOB＝∠MON＝90°，\n∴∠AOB+∠AON=∠MON+∠AON，\n∴∠AOM＝∠BON，\n在△AOM和△BON中\\(\\begin{cases} OM=ON \\\\ \\angle AOM=\\angle BON \\\\ AO=BO \\end{cases}\\)，\n∴△AOM≌△BON（SAS）．",
+      "solution_steps": [
+        "∵△AOB和△MON都是等腰直角三角形，",
+        "∴OM=ON，AO=BO，",
+        "∵∠AOB＝∠MON＝90°，",
+        "∴∠AOB+∠AON=∠MON+∠AON，",
+        "∴∠AOM＝∠BON，",
+        "在△AOM和△BON中\\(\\begin{cases} OM=ON \\\\ \\angle AOM=\\angle BON \\\\ AO=BO \\end{cases}\\)，",
+        "∴△AOM≌△BON（SAS）．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          66
+        ],
+        "solution_block_ids": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-A753A4660C-Q22-P02",
+      "label": "（2）",
+      "prompt": "若将Rt\\(\\vartriangle\\)MON绕点O顺时针旋转，当点A，M，N恰好在同一条直线上时，如图2所示，线段OH//BN，OH与AM交点为H，若OB＝4，ON＝3，求出线段AM的长；",
+      "stem_text": "若将Rt\\(\\vartriangle\\)MON绕点O顺时针旋转，当点A，M，N恰好在同一条直线上时，如图2所示，线段OH//BN，OH与AM交点为H，若OB＝4，ON＝3，求出线段AM的长；",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)；",
+      "answer": "\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)；",
+      "given_solution": "如图，当MN在OA左侧时，设OA交BN于J，\n∵△AOM≌△BON，\n∴∠OAM＝∠OBN，\n∵∠AJN＝∠BJO，\n∴∠ANJ＝∠JOB＝90°，\n∵OH//BN，\n∴∠OHN=∠ANJ=90°，\n∵OM＝ON＝3，∠MON＝90°，OH⊥MN，\n∴MN＝\\(\\sqrt[] { 2 }OM\\)=3\\(\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\n∵OA=OB=4，\n∴AH＝\\(\\sqrt[] { OA ^ { 2 } -OH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } -(\\frac { 3\\sqrt[] { 2 } } { 2 }) ^ { 2 } }\\)＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，\n∴AM＝MH+AH＝\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)．\n〔图2〕\n如图，当MN在OA右侧时，\n同理可得：MN＝\\(3\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，AH＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，\n∴AM＝AH-MH＝\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．\n〔图3〕\n综上所述，BN的长为\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．",
+      "solution_steps": [
+        "如图，当MN在OA左侧时，设OA交BN于J，",
+        "∵△AOM≌△BON，",
+        "∴∠OAM＝∠OBN，",
+        "∵∠AJN＝∠BJO，",
+        "∴∠ANJ＝∠JOB＝90°，",
+        "∵OH//BN，",
+        "∴∠OHN=∠ANJ=90°，",
+        "∵OM＝ON＝3，∠MON＝90°，OH⊥MN，",
+        "∴MN＝\\(\\sqrt[] { 2 }OM\\)=3\\(\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，",
+        "∵OA=OB=4，",
+        "∴AH＝\\(\\sqrt[] { OA ^ { 2 } -OH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } -(\\frac { 3\\sqrt[] { 2 } } { 2 }) ^ { 2 } }\\)＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，",
+        "∴AM＝MH+AH＝\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)．",
+        "〔图2〕",
+        "如图，当MN在OA右侧时，",
+        "同理可得：MN＝\\(3\\sqrt[] { 2 }\\)，MH＝HN＝OH＝\\(\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，AH＝\\(\\frac { \\sqrt[] { 46 } } { 2 }\\)，",
+        "∴AM＝AH-MH＝\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．",
+        "〔图3〕",
+        "综上所述，BN的长为\\(\\frac { \\sqrt[] { 46 }+3\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 46 }-3\\sqrt[] { 2 } } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-A753A4660C-Q22-P03",
+      "label": "（3）",
+      "prompt": "若将\\(\\vartriangle\\)MON绕点O顺时针旋转，当点N恰好落在AB边上时，如图3所示，MN与AO交点为P，求证：MP\\({}^{2}\\)+PN\\({}^{2}\\)＝2PO\\({}^{2}\\)．",
+      "stem_text": "若将\\(\\vartriangle\\)MON绕点O顺时针旋转，当点N恰好落在AB边上时，如图3所示，MN与AO交点为P，求证：MP\\({}^{2}\\)+PN\\({}^{2}\\)＝2PO\\({}^{2}\\)．",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "如图，在OB上取一点T，使得OT＝OP，连接PT，NT．\n∵∠MON＝∠POT＝90°，\n∴∠MON-∠PON=∠POT-∠PON，\n∴∠MOP＝∠NOT，\n在△POM和△TON中\\(\\begin{cases} OM=ON \\\\ \\angle MOP=\\angle NOT \\\\ OP=OT \\end{cases}\\)\n∴△POM≌△TON（SAS），\n∴PM＝TN，∠M＝∠ONT＝45°，\n∵∠M=∠ONM=45°，\n∴∠ONM＝∠ONT＝45°，\n∴∠PNT＝∠ONM+∠ONT＝90°，\n∴PT\\({}^{2}\\)＝PN\\({}^{2}\\)+NT\\({}^{2}\\)＝PN\\({}^{2}\\)+PM\\({}^{2}\\)\n∵△POT是等腰直角三角形，\n∴PT\\({}^{2}\\)＝2OP\\({}^{2}\\)，\n∴PM\\({}^{2}\\)+NP\\({}^{2}\\)＝2OP\\({}^{2}\\)．\n〔图4〕",
+      "solution_steps": [
+        "如图，在OB上取一点T，使得OT＝OP，连接PT，NT．",
+        "∵∠MON＝∠POT＝90°，",
+        "∴∠MON-∠PON=∠POT-∠PON，",
+        "∴∠MOP＝∠NOT，",
+        "在△POM和△TON中\\(\\begin{cases} OM=ON \\\\ \\angle MOP=\\angle NOT \\\\ OP=OT \\end{cases}\\)",
+        "∴△POM≌△TON（SAS），",
+        "∴PM＝TN，∠M＝∠ONT＝45°，",
+        "∵∠M=∠ONM=45°，",
+        "∴∠ONM＝∠ONT＝45°，",
+        "∴∠PNT＝∠ONM+∠ONT＝90°，",
+        "∴PT\\({}^{2}\\)＝PN\\({}^{2}\\)+NT\\({}^{2}\\)＝PN\\({}^{2}\\)+PM\\({}^{2}\\)",
+        "∵△POT是等腰直角三角形，",
+        "∴PT\\({}^{2}\\)＝2OP\\({}^{2}\\)，",
+        "∴PM\\({}^{2}\\)+NP\\({}^{2}\\)＝2OP\\({}^{2}\\)．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      66
+    ],
+    "solution_body_blocks": [
+      302,
+      352
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-A753A4660C/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          214.09,
+          583.64,
+          481.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-A753A4660C/solution-q22-p16.webp",
+      "assets/SZ-G8-T2-A753A4660C/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-A753A4660C/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          215.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          486.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

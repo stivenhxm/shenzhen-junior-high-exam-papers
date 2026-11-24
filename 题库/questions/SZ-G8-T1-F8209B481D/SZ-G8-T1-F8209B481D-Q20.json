@@ -1,0 +1,468 @@
+{
+  "id": "SZ-G8-T1-F8209B481D-Q20",
+  "paper_id": "SZ-G8-T1-F8209B481D",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、应用等腰三角形性质求边角",
+  "stem": "如图，在平面直角坐标系中，直线\\(AB:y=kx+2\\)与\\(x\\)轴交于点\\(A\\)，与\\(y\\)轴交于点\\(B\\)，且直线\\(AB\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行；\n〔图1〕\n（1）\\(k=\\)______；点\\(A\\)的坐标______；点\\(B\\)的坐标是______；\n（2）若点\\(C\\left ( { 2,0 } \\right )\\)，将线段\\(AB\\)水平向右平移\\(m\\)个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，连接\\(A'C,B'C\\)．若\\(\\vartriangle A'B'C\\)是等腰三角形，求\\(m\\)的值；\n（3）点\\(P\\)为\\(y\\)轴上一动点，连接\\(AP\\)，若\\(\\angle PAB=45{}^\\circ\\)，请求出点\\(P\\)坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-F8209B481D/figures/2d270fda1b78d37cd335289bbc40d207210a40effd6d1dc636940442d2bd7501.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)\n（2）\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)\n（3）点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)",
+  "answer": "（1）\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)\n（2）\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)\n（3）点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)",
+  "given_solution": "【分析】（1）根据两直线平行，可得k的值，即可求出直线与坐标轴的交点；\n（2）根据平移的性质，可知点\\(A'\\)和点\\(B'\\)的坐标，\\(\\vartriangle A'B'C\\)是等腰三角形，分三种情况讨论；\n（3）分两种情况讨论，①过点B作\\(BD\\bot AB\\)，且\\(BD=AB\\)，连接\\(AD\\)交y轴于点P，过点D作\\(DH\\bot y\\)轴于点H，则\\(\\vartriangle ABD\\)是等腰直角三角形，证明\\(\\vartriangle BDH≌\\vartriangle ABO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，根据全等三角形的性质进一步可得点D的坐标，再利用待定系数法求直线\\(AD\\)的解析式，进一步可得点P的坐标；②过点B作\\(BM\\bot AB\\)，且\\(BM=AB\\)，连接\\(AM\\)交y轴于点P，过点M作\\(MN\\bot y\\)轴于点N，则\\(\\vartriangle ABM\\)9是等腰直角三角形，证明\\(\\vartriangle ABO≌\\vartriangle BMN\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)根据全等三角形的性质进一步可得点M的坐标，再利用待定系数法求直线\\(AM\\)的解析式，进一步可得点P的坐标．\n【小问1详解】\n解：\\(\\because\\)直线\\(AB:y=kx+2\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行，\n\\(\\therefore k=\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+2\\)，\n令\\(y=0\\)，得\\(x=-4\\)，\n即点A的坐标为\\(\\left ( { -4,0 } \\right )\\)，\n令\\(x=0\\)，得\\(y=2\\)\n即点B的坐标为\\((0,2)\\)，\n故答案为：\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)；\n【小问2详解】\n\\(\\because\\)点\\(C\\left ( { 2,0 } \\right )\\)，且将线段\\(AB\\)水平向右平移m个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，\n\\(\\therefore\\)点\\(A'\\)的坐标为\\(\\left ( { -4+m,0 } \\right )\\)，点\\(B'\\)的坐标为\\(\\left ( { m,2 } \\right )\\)，\n\\(\\therefore A'{B'}^{2} =\\left ( { -4+m-m } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } =20\\)，\\(A'C ^ { 2 } =\\left ( { -4+m-2 } \\right ) ^ { 2 } =\\left ( { m-6 } \\right ) ^ { 2 }\\)，\n\\(B'C ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +\\left ( { 2-0 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，\n\\(\\vartriangle A'B'C\\)是等腰三角形，分情况讨论：\n①当\\(A'B'=A'C\\)时，可得\\(20=\\left ( { m-6 } \\right ) ^ { 2 }\\)，解得\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)，\n②当\\(A'B'=B'C\\)时，可得\\(20=\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=6\\)（舍去）或\\(m=-2\\)（舍去），\n③当\\(A'C=B'C\\)时，可得\\(\\left ( { m-6 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=\\frac { 7 } { 2 }\\)，\n综上所述，\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)；\n【小问3详解】\n分情况讨论：①过点B作\\(BD\\bot AB\\)，且\\(BD=AB\\)，连接\\(AD\\)交y轴于点P，过点D作\\(DH\\bot y\\)轴于点H，如图所示：\n〔图2〕\n则\\(\\vartriangle ABD\\)是等腰直角三角形，\n\\(\\therefore \\angle PAB=45{}^\\circ\\)，\n\\(\\because\\)点\\(A(−4,0)\\)，点\\(B\\left ( { 0,2 } \\right )\\)，\n\\(\\therefore OA=4\\)，\\(OB=2\\)，\n\\(\\because \\angle DHB=90{}^\\circ\\)，\n\\(\\therefore \\angle HDB+\\angle HBD=90{}^\\circ\\)，\n\\(\\because \\angle ABD=90{}^\\circ\\)，\n\\(\\therefore \\angle ABO+\\angle HBD=90{}^\\circ\\)，\n\\(\\therefore \\angle HDB=\\angle ABO\\)，\n在\\(\\vartriangle BDH\\)和\\(\\vartriangle ABO\\)中，\n\\(\\begin{cases} \\angle DHB=\\angle BOA=90{}^\\circ \\\\ \\angle HDB=\\angle ABO \\\\ BD=AB \\end{cases}\\)，\n\\(\\vartriangle BDH≌\\vartriangle ABO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BH=AO=4\\)，\\(DH=OB=2\\)，\n\\(\\therefore\\)点D的坐标为\\(\\left ( { -2,6 } \\right )\\)，\n设直线\\(AD\\)的解析式为\\(y=kx+b\\)（k，b为常数，\\(k\\ne 0\\)），\n代入点\\(A(−4,0)\\)，点\\(D\\left ( { -2,6 } \\right )\\)，\n得\\(\\begin{cases} -4k+b=0 \\\\ -2k+b=6 \\end{cases}\\)，解得：\\(\\begin{cases} k=3 \\\\ b=12 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AD\\)的解析式为\\(y=3x+12\\)，\n\\(\\therefore\\)点P的坐标为\\(\\left ( { 0,12 } \\right )\\)；\n②过点B作\\(BM\\bot AB\\)，且\\(BM=AB\\)，连接\\(AM\\)交y轴于点P，过点M作\\(MN\\bot y\\)轴于点N，如图所示：\n〔图3〕\n则\\(\\vartriangle ABM\\)是等腰直角三角形，\n\\(\\therefore \\angle PAB=45{}^\\circ\\)，\n\\(\\because \\angle ABM=90{}^\\circ\\)，\n\\(\\therefore \\angle AOB+\\angle NBM=90{}^\\circ\\)，\n\\(\\because \\angle BNM=90{}^\\circ\\)，\n\\(\\therefore \\angle NMB+\\angle NBM=90{}^\\circ\\)，\n\\(\\therefore \\angle NMB=\\angle ABO\\)，\n在\\(\\vartriangle ABO\\)和\\(\\vartriangle BMN\\)中，\n\\(\\begin{cases} \\angle AOB=\\angle BNM=90{}^\\circ \\\\ \\angle ABO=\\angle BMN \\\\ BM=AB \\end{cases}\\)，\n\\(\\vartriangle ABO≌\\vartriangle BMN\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BN=AO=4\\)，\\(NM=OB=2\\)，\n\\(\\therefore\\)点M的坐标为\\(\\left ( { 2，-2 } \\right )\\)，\n设直线\\(AM\\)的解析式为\\(y=ax+c\\)（a，c为常数，\\(a\\ne 0\\)），\n代入点\\(A(−4,0)\\)，点\\(M\\left ( { 2,-2 } \\right )\\)，\n得\\(\\begin{cases} -4a+c=0 \\\\ 2a+c=-2 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 1 } { 3 } \\\\ c=-\\frac { 4 } { 3 } \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AM\\)的解析式为\\(y=-\\frac { 1 } { 3 }x-\\frac { 4 } { 3 }\\)，\n点P的坐标为\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．\n综上所述，满足条件的点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．\n【点睛】本题考查了一次函数的综合，涉及一次函数图象上点的坐标特征，全等三角形的判定和性质，平移的性质，待定系数法求解析式，等腰直角三角形的性质，本题综合性较强，计算量较大．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-F8209B481D/figures/3d74ebf48b9ae12620216820564ef57c9ae13dc20ac533416d87a17642567459.png",
+    "assets/SZ-G8-T1-F8209B481D/figures/06d8cff328f30789be07097526fbe8c6f6ea1504381103f3dd40765357708a48.png",
+    "assets/SZ-G8-T1-F8209B481D/figures/31e0e12d313209d948b4d6e2cc84df578608c11663471f09ea167440c133c547.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)直线\\(AB:y=kx+2\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行，\n\\(\\therefore k=\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+2\\)，\n令\\(y=0\\)，得\\(x=-4\\)，\n即点A的坐标为\\(\\left ( { -4,0 } \\right )\\)，\n令\\(x=0\\)，得\\(y=2\\)\n即点B的坐标为\\((0,2)\\)，\n故答案为：\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)；\n【小问2详解】\n\\(\\because\\)点\\(C\\left ( { 2,0 } \\right )\\)，且将线段\\(AB\\)水平向右平移m个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，\n\\(\\therefore\\)点\\(A'\\)的坐标为\\(\\left ( { -4+m,0 } \\right )\\)，点\\(B'\\)的坐标为\\(\\left ( { m,2 } \\right )\\)，\n\\(\\therefore A'{B'}^{2} =\\left ( { -4+m-m } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } =20\\)，\\(A'C ^ { 2 } =\\left ( { -4+m-2 } \\right ) ^ { 2 } =\\left ( { m-6 } \\right ) ^ { 2 }\\)，\n\\(B'C ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +\\left ( { 2-0 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，\n\\(\\vartriangle A'B'C\\)是等腰三角形，分情况讨论：\n①当\\(A'B'=A'C\\)时，可得\\(20=\\left ( { m-6 } \\right ) ^ { 2 }\\)，解得\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)，\n②当\\(A'B'=B'C\\)时，可得\\(20=\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=6\\)（舍去）或\\(m=-2\\)（舍去），\n③当\\(A'C=B'C\\)时，可得\\(\\left ( { m-6 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=\\frac { 7 } { 2 }\\)，\n综上所述，\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)；\n【小问3详解】\n分情况讨论：①过点B作\\(BD\\bot AB\\)，且\\(BD=AB\\)，连接\\(AD\\)交y轴于点P，过点D作\\(DH\\bot y\\)轴于点H，如图所示：\n〔图2〕\n则\\(\\vartriangle ABD\\)是等腰直角三角形，\n\\(\\therefore \\angle PAB=45{}^\\circ\\)，\n\\(\\because\\)点\\(A(−4,0)\\)，点\\(B\\left ( { 0,2 } \\right )\\)，\n\\(\\therefore OA=4\\)，\\(OB=2\\)，\n\\(\\because \\angle DHB=90{}^\\circ\\)，\n\\(\\therefore \\angle HDB+\\angle HBD=90{}^\\circ\\)，\n\\(\\because \\angle ABD=90{}^\\circ\\)，\n\\(\\therefore \\angle ABO+\\angle HBD=90{}^\\circ\\)，\n\\(\\therefore \\angle HDB=\\angle ABO\\)，\n在\\(\\vartriangle BDH\\)和\\(\\vartriangle ABO\\)中，\n\\(\\begin{cases} \\angle DHB=\\angle BOA=90{}^\\circ \\\\ \\angle HDB=\\angle ABO \\\\ BD=AB \\end{cases}\\)，\n\\(\\vartriangle BDH≌\\vartriangle ABO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BH=AO=4\\)，\\(DH=OB=2\\)，\n\\(\\therefore\\)点D的坐标为\\(\\left ( { -2,6 } \\right )\\)，\n设直线\\(AD\\)的解析式为\\(y=kx+b\\)（k，b为常数，\\(k\\ne 0\\)），\n代入点\\(A(−4,0)\\)，点\\(D\\left ( { -2,6 } \\right )\\)，\n得\\(\\begin{cases} -4k+b=0 \\\\ -2k+b=6 \\end{cases}\\)，解得：\\(\\begin{cases} k=3 \\\\ b=12 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AD\\)的解析式为\\(y=3x+12\\)，\n\\(\\therefore\\)点P的坐标为\\(\\left ( { 0,12 } \\right )\\)；\n②过点B作\\(BM\\bot AB\\)，且\\(BM=AB\\)，连接\\(AM\\)交y轴于点P，过点M作\\(MN\\bot y\\)轴于点N，如图所示：\n〔图3〕\n则\\(\\vartriangle ABM\\)是等腰直角三角形，\n\\(\\therefore \\angle PAB=45{}^\\circ\\)，\n\\(\\because \\angle ABM=90{}^\\circ\\)，\n\\(\\therefore \\angle AOB+\\angle NBM=90{}^\\circ\\)，\n\\(\\because \\angle BNM=90{}^\\circ\\)，\n\\(\\therefore \\angle NMB+\\angle NBM=90{}^\\circ\\)，\n\\(\\therefore \\angle NMB=\\angle ABO\\)，\n在\\(\\vartriangle ABO\\)和\\(\\vartriangle BMN\\)中，\n\\(\\begin{cases} \\angle AOB=\\angle BNM=90{}^\\circ \\\\ \\angle ABO=\\angle BMN \\\\ BM=AB \\end{cases}\\)，\n\\(\\vartriangle ABO≌\\vartriangle BMN\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BN=AO=4\\)，\\(NM=OB=2\\)，\n\\(\\therefore\\)点M的坐标为\\(\\left ( { 2，-2 } \\right )\\)，\n设直线\\(AM\\)的解析式为\\(y=ax+c\\)（a，c为常数，\\(a\\ne 0\\)），\n代入点\\(A(−4,0)\\)，点\\(M\\left ( { 2,-2 } \\right )\\)，\n得\\(\\begin{cases} -4a+c=0 \\\\ 2a+c=-2 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 1 } { 3 } \\\\ c=-\\frac { 4 } { 3 } \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AM\\)的解析式为\\(y=-\\frac { 1 } { 3 }x-\\frac { 4 } { 3 }\\)，\n点P的坐标为\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．\n综上所述，满足条件的点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)直线\\(AB:y=kx+2\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行，",
+    "\\(\\therefore k=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+2\\)，",
+    "令\\(y=0\\)，得\\(x=-4\\)，",
+    "即点A的坐标为\\(\\left ( { -4,0 } \\right )\\)，",
+    "令\\(x=0\\)，得\\(y=2\\)",
+    "即点B的坐标为\\((0,2)\\)，",
+    "故答案为：\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)；",
+    "【小问2详解】",
+    "\\(\\because\\)点\\(C\\left ( { 2,0 } \\right )\\)，且将线段\\(AB\\)水平向右平移m个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，",
+    "\\(\\therefore\\)点\\(A'\\)的坐标为\\(\\left ( { -4+m,0 } \\right )\\)，点\\(B'\\)的坐标为\\(\\left ( { m,2 } \\right )\\)，",
+    "\\(\\therefore A'{B'}^{2} =\\left ( { -4+m-m } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } =20\\)，\\(A'C ^ { 2 } =\\left ( { -4+m-2 } \\right ) ^ { 2 } =\\left ( { m-6 } \\right ) ^ { 2 }\\)，",
+    "\\(B'C ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +\\left ( { 2-0 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，",
+    "\\(\\vartriangle A'B'C\\)是等腰三角形，分情况讨论：",
+    "①当\\(A'B'=A'C\\)时，可得\\(20=\\left ( { m-6 } \\right ) ^ { 2 }\\)，解得\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)，",
+    "②当\\(A'B'=B'C\\)时，可得\\(20=\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=6\\)（舍去）或\\(m=-2\\)（舍去），",
+    "③当\\(A'C=B'C\\)时，可得\\(\\left ( { m-6 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=\\frac { 7 } { 2 }\\)，",
+    "综上所述，\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)；",
+    "【小问3详解】",
+    "分情况讨论：①过点B作\\(BD\\bot AB\\)，且\\(BD=AB\\)，连接\\(AD\\)交y轴于点P，过点D作\\(DH\\bot y\\)轴于点H，如图所示：",
+    "〔图2〕",
+    "则\\(\\vartriangle ABD\\)是等腰直角三角形，",
+    "\\(\\therefore \\angle PAB=45{}^\\circ\\)，",
+    "\\(\\because\\)点\\(A(−4,0)\\)，点\\(B\\left ( { 0,2 } \\right )\\)，",
+    "\\(\\therefore OA=4\\)，\\(OB=2\\)，",
+    "\\(\\because \\angle DHB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle HDB+\\angle HBD=90{}^\\circ\\)，",
+    "\\(\\because \\angle ABD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABO+\\angle HBD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle HDB=\\angle ABO\\)，",
+    "在\\(\\vartriangle BDH\\)和\\(\\vartriangle ABO\\)中，",
+    "\\(\\begin{cases} \\angle DHB=\\angle BOA=90{}^\\circ \\\\ \\angle HDB=\\angle ABO \\\\ BD=AB \\end{cases}\\)，",
+    "\\(\\vartriangle BDH≌\\vartriangle ABO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore BH=AO=4\\)，\\(DH=OB=2\\)，",
+    "\\(\\therefore\\)点D的坐标为\\(\\left ( { -2,6 } \\right )\\)，",
+    "设直线\\(AD\\)的解析式为\\(y=kx+b\\)（k，b为常数，\\(k\\ne 0\\)），",
+    "代入点\\(A(−4,0)\\)，点\\(D\\left ( { -2,6 } \\right )\\)，",
+    "得\\(\\begin{cases} -4k+b=0 \\\\ -2k+b=6 \\end{cases}\\)，解得：\\(\\begin{cases} k=3 \\\\ b=12 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(AD\\)的解析式为\\(y=3x+12\\)，",
+    "\\(\\therefore\\)点P的坐标为\\(\\left ( { 0,12 } \\right )\\)；",
+    "②过点B作\\(BM\\bot AB\\)，且\\(BM=AB\\)，连接\\(AM\\)交y轴于点P，过点M作\\(MN\\bot y\\)轴于点N，如图所示：",
+    "〔图3〕",
+    "则\\(\\vartriangle ABM\\)是等腰直角三角形，",
+    "\\(\\therefore \\angle PAB=45{}^\\circ\\)，",
+    "\\(\\because \\angle ABM=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle AOB+\\angle NBM=90{}^\\circ\\)，",
+    "\\(\\because \\angle BNM=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle NMB+\\angle NBM=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle NMB=\\angle ABO\\)，",
+    "在\\(\\vartriangle ABO\\)和\\(\\vartriangle BMN\\)中，",
+    "\\(\\begin{cases} \\angle AOB=\\angle BNM=90{}^\\circ \\\\ \\angle ABO=\\angle BMN \\\\ BM=AB \\end{cases}\\)，",
+    "\\(\\vartriangle ABO≌\\vartriangle BMN\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore BN=AO=4\\)，\\(NM=OB=2\\)，",
+    "\\(\\therefore\\)点M的坐标为\\(\\left ( { 2，-2 } \\right )\\)，",
+    "设直线\\(AM\\)的解析式为\\(y=ax+c\\)（a，c为常数，\\(a\\ne 0\\)），",
+    "代入点\\(A(−4,0)\\)，点\\(M\\left ( { 2,-2 } \\right )\\)，",
+    "得\\(\\begin{cases} -4a+c=0 \\\\ 2a+c=-2 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 1 } { 3 } \\\\ c=-\\frac { 4 } { 3 } \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(AM\\)的解析式为\\(y=-\\frac { 1 } { 3 }x-\\frac { 4 } { 3 }\\)，",
+    "点P的坐标为\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．",
+    "综上所述，满足条件的点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线\\(AB:y=kx+2\\)与\\(x\\)轴交于点\\(A\\)，与\\(y\\)轴交于点\\(B\\)，且直线\\(AB\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行；\n〔图1〕",
+      "paper_blocks": [
+        68,
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-F8209B481D-Q20-P01",
+      "label": "（1）",
+      "prompt": "\\(k=\\)______；点\\(A\\)的坐标______；点\\(B\\)的坐标是______；",
+      "stem_text": "\\(k=\\)______；点\\(A\\)的坐标______；点\\(B\\)的坐标是______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)",
+      "answer": "\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)",
+      "given_solution": "解：\\(\\because\\)直线\\(AB:y=kx+2\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行，\n\\(\\therefore k=\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+2\\)，\n令\\(y=0\\)，得\\(x=-4\\)，\n即点A的坐标为\\(\\left ( { -4,0 } \\right )\\)，\n令\\(x=0\\)，得\\(y=2\\)\n即点B的坐标为\\((0,2)\\)，\n故答案为：\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)直线\\(AB:y=kx+2\\)与直线\\(y=\\frac { 1 } { 2 }x\\)平行，",
+        "\\(\\therefore k=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore\\)直线\\(AB\\)的解析式为\\(y=\\frac { 1 } { 2 }x+2\\)，",
+        "令\\(y=0\\)，得\\(x=-4\\)，",
+        "即点A的坐标为\\(\\left ( { -4,0 } \\right )\\)，",
+        "令\\(x=0\\)，得\\(y=2\\)",
+        "即点B的坐标为\\((0,2)\\)，",
+        "故答案为：\\(\\frac { 1 } { 2 }\\)，\\(\\left ( { -4,0 } \\right )\\)，\\((0,2)\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-F8209B481D-Q20-P02",
+      "label": "（2）",
+      "prompt": "若点\\(C\\left ( { 2,0 } \\right )\\)，将线段\\(AB\\)水平向右平移\\(m\\)个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，连接\\(A'C,B'C\\)．若\\(\\vartriangle A'B'C\\)是等腰三角形，求\\(m\\)的值；",
+      "stem_text": "若点\\(C\\left ( { 2,0 } \\right )\\)，将线段\\(AB\\)水平向右平移\\(m\\)个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，连接\\(A'C,B'C\\)．若\\(\\vartriangle A'B'C\\)是等腰三角形，求\\(m\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)",
+      "answer": "\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)",
+      "given_solution": "\\(\\because\\)点\\(C\\left ( { 2,0 } \\right )\\)，且将线段\\(AB\\)水平向右平移m个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，\n\\(\\therefore\\)点\\(A'\\)的坐标为\\(\\left ( { -4+m,0 } \\right )\\)，点\\(B'\\)的坐标为\\(\\left ( { m,2 } \\right )\\)，\n\\(\\therefore A'{B'}^{2} =\\left ( { -4+m-m } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } =20\\)，\\(A'C ^ { 2 } =\\left ( { -4+m-2 } \\right ) ^ { 2 } =\\left ( { m-6 } \\right ) ^ { 2 }\\)，\n\\(B'C ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +\\left ( { 2-0 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，\n\\(\\vartriangle A'B'C\\)是等腰三角形，分情况讨论：\n①当\\(A'B'=A'C\\)时，可得\\(20=\\left ( { m-6 } \\right ) ^ { 2 }\\)，解得\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)，\n②当\\(A'B'=B'C\\)时，可得\\(20=\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=6\\)（舍去）或\\(m=-2\\)（舍去），\n③当\\(A'C=B'C\\)时，可得\\(\\left ( { m-6 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=\\frac { 7 } { 2 }\\)，\n综上所述，\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)；",
+      "solution_steps": [
+        "\\(\\because\\)点\\(C\\left ( { 2,0 } \\right )\\)，且将线段\\(AB\\)水平向右平移m个单位\\(\\left ( { m>0 } \\right )\\)得到线段\\(A'B'\\)，",
+        "\\(\\therefore\\)点\\(A'\\)的坐标为\\(\\left ( { -4+m,0 } \\right )\\)，点\\(B'\\)的坐标为\\(\\left ( { m,2 } \\right )\\)，",
+        "\\(\\therefore A'{B'}^{2} =\\left ( { -4+m-m } \\right ) ^ { 2 } +\\left ( { 0-2 } \\right ) ^ { 2 } =20\\)，\\(A'C ^ { 2 } =\\left ( { -4+m-2 } \\right ) ^ { 2 } =\\left ( { m-6 } \\right ) ^ { 2 }\\)，",
+        "\\(B'C ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +\\left ( { 2-0 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，",
+        "\\(\\vartriangle A'B'C\\)是等腰三角形，分情况讨论：",
+        "①当\\(A'B'=A'C\\)时，可得\\(20=\\left ( { m-6 } \\right ) ^ { 2 }\\)，解得\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)，",
+        "②当\\(A'B'=B'C\\)时，可得\\(20=\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=6\\)（舍去）或\\(m=-2\\)（舍去），",
+        "③当\\(A'C=B'C\\)时，可得\\(\\left ( { m-6 } \\right ) ^ { 2 } =\\left ( { m-2 } \\right ) ^ { 2 } +4\\)，解得\\(m=\\frac { 7 } { 2 }\\)，",
+        "综上所述，\\(m=6+2\\sqrt[] { 5 }\\)或\\(m=6-2\\sqrt[] { 5 }\\)或\\(m=\\frac { 7 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-F8209B481D-Q20-P03",
+      "label": "（3）",
+      "prompt": "点\\(P\\)为\\(y\\)轴上一动点，连接\\(AP\\)，若\\(\\angle PAB=45{}^\\circ\\)，请求出点\\(P\\)坐标．",
+      "stem_text": "点\\(P\\)为\\(y\\)轴上一动点，连接\\(AP\\)，若\\(\\angle PAB=45{}^\\circ\\)，请求出点\\(P\\)坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)",
+      "answer": "点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)",
+      "given_solution": "分情况讨论：①过点B作\\(BD\\bot AB\\)，且\\(BD=AB\\)，连接\\(AD\\)交y轴于点P，过点D作\\(DH\\bot y\\)轴于点H，如图所示：\n〔图2〕\n则\\(\\vartriangle ABD\\)是等腰直角三角形，\n\\(\\therefore \\angle PAB=45{}^\\circ\\)，\n\\(\\because\\)点\\(A(−4,0)\\)，点\\(B\\left ( { 0,2 } \\right )\\)，\n\\(\\therefore OA=4\\)，\\(OB=2\\)，\n\\(\\because \\angle DHB=90{}^\\circ\\)，\n\\(\\therefore \\angle HDB+\\angle HBD=90{}^\\circ\\)，\n\\(\\because \\angle ABD=90{}^\\circ\\)，\n\\(\\therefore \\angle ABO+\\angle HBD=90{}^\\circ\\)，\n\\(\\therefore \\angle HDB=\\angle ABO\\)，\n在\\(\\vartriangle BDH\\)和\\(\\vartriangle ABO\\)中，\n\\(\\begin{cases} \\angle DHB=\\angle BOA=90{}^\\circ \\\\ \\angle HDB=\\angle ABO \\\\ BD=AB \\end{cases}\\)，\n\\(\\vartriangle BDH≌\\vartriangle ABO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BH=AO=4\\)，\\(DH=OB=2\\)，\n\\(\\therefore\\)点D的坐标为\\(\\left ( { -2,6 } \\right )\\)，\n设直线\\(AD\\)的解析式为\\(y=kx+b\\)（k，b为常数，\\(k\\ne 0\\)），\n代入点\\(A(−4,0)\\)，点\\(D\\left ( { -2,6 } \\right )\\)，\n得\\(\\begin{cases} -4k+b=0 \\\\ -2k+b=6 \\end{cases}\\)，解得：\\(\\begin{cases} k=3 \\\\ b=12 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AD\\)的解析式为\\(y=3x+12\\)，\n\\(\\therefore\\)点P的坐标为\\(\\left ( { 0,12 } \\right )\\)；\n②过点B作\\(BM\\bot AB\\)，且\\(BM=AB\\)，连接\\(AM\\)交y轴于点P，过点M作\\(MN\\bot y\\)轴于点N，如图所示：\n〔图3〕\n则\\(\\vartriangle ABM\\)是等腰直角三角形，\n\\(\\therefore \\angle PAB=45{}^\\circ\\)，\n\\(\\because \\angle ABM=90{}^\\circ\\)，\n\\(\\therefore \\angle AOB+\\angle NBM=90{}^\\circ\\)，\n\\(\\because \\angle BNM=90{}^\\circ\\)，\n\\(\\therefore \\angle NMB+\\angle NBM=90{}^\\circ\\)，\n\\(\\therefore \\angle NMB=\\angle ABO\\)，\n在\\(\\vartriangle ABO\\)和\\(\\vartriangle BMN\\)中，\n\\(\\begin{cases} \\angle AOB=\\angle BNM=90{}^\\circ \\\\ \\angle ABO=\\angle BMN \\\\ BM=AB \\end{cases}\\)，\n\\(\\vartriangle ABO≌\\vartriangle BMN\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore BN=AO=4\\)，\\(NM=OB=2\\)，\n\\(\\therefore\\)点M的坐标为\\(\\left ( { 2，-2 } \\right )\\)，\n设直线\\(AM\\)的解析式为\\(y=ax+c\\)（a，c为常数，\\(a\\ne 0\\)），\n代入点\\(A(−4,0)\\)，点\\(M\\left ( { 2,-2 } \\right )\\)，\n得\\(\\begin{cases} -4a+c=0 \\\\ 2a+c=-2 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 1 } { 3 } \\\\ c=-\\frac { 4 } { 3 } \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AM\\)的解析式为\\(y=-\\frac { 1 } { 3 }x-\\frac { 4 } { 3 }\\)，\n点P的坐标为\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．\n综上所述，满足条件的点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．",
+      "solution_steps": [
+        "分情况讨论：①过点B作\\(BD\\bot AB\\)，且\\(BD=AB\\)，连接\\(AD\\)交y轴于点P，过点D作\\(DH\\bot y\\)轴于点H，如图所示：",
+        "〔图2〕",
+        "则\\(\\vartriangle ABD\\)是等腰直角三角形，",
+        "\\(\\therefore \\angle PAB=45{}^\\circ\\)，",
+        "\\(\\because\\)点\\(A(−4,0)\\)，点\\(B\\left ( { 0,2 } \\right )\\)，",
+        "\\(\\therefore OA=4\\)，\\(OB=2\\)，",
+        "\\(\\because \\angle DHB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle HDB+\\angle HBD=90{}^\\circ\\)，",
+        "\\(\\because \\angle ABD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABO+\\angle HBD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle HDB=\\angle ABO\\)，",
+        "在\\(\\vartriangle BDH\\)和\\(\\vartriangle ABO\\)中，",
+        "\\(\\begin{cases} \\angle DHB=\\angle BOA=90{}^\\circ \\\\ \\angle HDB=\\angle ABO \\\\ BD=AB \\end{cases}\\)，",
+        "\\(\\vartriangle BDH≌\\vartriangle ABO\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore BH=AO=4\\)，\\(DH=OB=2\\)，",
+        "\\(\\therefore\\)点D的坐标为\\(\\left ( { -2,6 } \\right )\\)，",
+        "设直线\\(AD\\)的解析式为\\(y=kx+b\\)（k，b为常数，\\(k\\ne 0\\)），",
+        "代入点\\(A(−4,0)\\)，点\\(D\\left ( { -2,6 } \\right )\\)，",
+        "得\\(\\begin{cases} -4k+b=0 \\\\ -2k+b=6 \\end{cases}\\)，解得：\\(\\begin{cases} k=3 \\\\ b=12 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(AD\\)的解析式为\\(y=3x+12\\)，",
+        "\\(\\therefore\\)点P的坐标为\\(\\left ( { 0,12 } \\right )\\)；",
+        "②过点B作\\(BM\\bot AB\\)，且\\(BM=AB\\)，连接\\(AM\\)交y轴于点P，过点M作\\(MN\\bot y\\)轴于点N，如图所示：",
+        "〔图3〕",
+        "则\\(\\vartriangle ABM\\)是等腰直角三角形，",
+        "\\(\\therefore \\angle PAB=45{}^\\circ\\)，",
+        "\\(\\because \\angle ABM=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle AOB+\\angle NBM=90{}^\\circ\\)，",
+        "\\(\\because \\angle BNM=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle NMB+\\angle NBM=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle NMB=\\angle ABO\\)，",
+        "在\\(\\vartriangle ABO\\)和\\(\\vartriangle BMN\\)中，",
+        "\\(\\begin{cases} \\angle AOB=\\angle BNM=90{}^\\circ \\\\ \\angle ABO=\\angle BMN \\\\ BM=AB \\end{cases}\\)，",
+        "\\(\\vartriangle ABO≌\\vartriangle BMN\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore BN=AO=4\\)，\\(NM=OB=2\\)，",
+        "\\(\\therefore\\)点M的坐标为\\(\\left ( { 2，-2 } \\right )\\)，",
+        "设直线\\(AM\\)的解析式为\\(y=ax+c\\)（a，c为常数，\\(a\\ne 0\\)），",
+        "代入点\\(A(−4,0)\\)，点\\(M\\left ( { 2,-2 } \\right )\\)，",
+        "得\\(\\begin{cases} -4a+c=0 \\\\ 2a+c=-2 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 1 } { 3 } \\\\ c=-\\frac { 4 } { 3 } \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(AM\\)的解析式为\\(y=-\\frac { 1 } { 3 }x-\\frac { 4 } { 3 }\\)，",
+        "点P的坐标为\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．",
+        "综上所述，满足条件的点P的坐标为\\(\\left ( { 0,12 } \\right )\\)或\\(\\left ( { 0,-\\frac { 4 } { 3 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          72
+        ],
+        "solution_block_ids": [
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“坐标与几何数量关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“坐标与几何数量关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      72
+    ],
+    "solution_body_blocks": [
+      324,
+      397
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-F8209B481D/paper-q20-p05.webp",
+      "assets/SZ-G8-T1-F8209B481D/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          724.55,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          299.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-F8209B481D/solution-q20-p17.webp",
+      "assets/SZ-G8-T1-F8209B481D/solution-q20-p18.webp",
+      "assets/SZ-G8-T1-F8209B481D/solution-q20-p19.webp",
+      "assets/SZ-G8-T1-F8209B481D/solution-q20-p20.webp",
+      "assets/SZ-G8-T1-F8209B481D/solution-q20-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          464.09,
+          583.64,
+          748.18
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          749.09
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          213.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G04.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.G04.01.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“坐标与几何数量关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 本问的运算或证明步骤对应“应用等腰三角形性质求边角”。 本问的要求和解答步骤对应“坐标与几何数量关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q05",{"answer":"C","solution_steps":["代入后分式为 \\(\\frac{2x+2y}{(2x)(2y)}=\\frac12\\cdot\\frac{x+y}{xy}\\)，缩小为原来的二分之一。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

@@ -1,0 +1,331 @@
+{
+  "id": "SZ-G8-T2-F65DC1409D-Q22",
+  "paper_id": "SZ-G8-T2-F65DC1409D",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "（1）如图1，△ABC为等边三角形，点D为BC边上的一动点（点D不与B、C重合），以AD为边作等边△ADE，连接CE．易求∠DCE＝         °；\n（2）如图2，在△ABC中，∠BAC＝90°，AC＝AB，点D为BC上的一动点（点D不与B、C重合），以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE，类比题（1），请你猜想：线段BD、CD、DE之间的关系，并说明理由；\n（3）如图3，在（2）的条件下，若D点在BC的延长线上运动，以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE．CE＝10，BC＝6，求AE的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/1f/1fcc2a0229b040181c04cc60c2ee4f42e13545ac022514dbcd6b6a877a903fc7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）120°；（2）\\(CD ^ { 2 } +BD ^ { 2 } =DE ^ { 2 }\\)，理由见解析；（3）\\(\\sqrt[] { 58 }\\)",
+  "answer": "（1）120°；（2）\\(CD ^ { 2 } +BD ^ { 2 } =DE ^ { 2 }\\)，理由见解析；（3）\\(\\sqrt[] { 58 }\\)",
+  "given_solution": "【分析】（1）利用等式的性质判断出∠BAD=∠CAE，进而得出△ABD≌△ACE，即可得出答案；\n（2）同（1）的方法判断出△ABD≌△ACE，进而得出BD=CE，∠BCE=90°，即可得出结论；\n（3）同（2）的方法，即可得出结论．\n【详解】（1）∵△ABC和△ADE都是等边三角形，\n∴AB=AC，AD=AE，∠B=∠ACB=∠BAC=∠DAE=60°，\n∴∠BAD+∠CAD=∠CAE+∠CAD，\n∴∠BAD=∠CAE，\n∴△ABD≌△ACE（SAS），\n∴∠B=∠ACE=60°，\n∴∠DCE=∠ACB+∠ACE=120°，\n故答案为：120；\n（2）DE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；理由如下：\n在Rt△ABC中，AB=AC，\n∴∠B=∠ACB=45°，\n∵∠BAC=∠DAE=90°，\n∴∠BAD=∠CAE，\n∵AD=AE，\n∴△ABD≌△ACE（SAS），\n∴BD=CE，∠ACE=∠B=45°，\n∴∠BCE=∠ACB+∠ACE=90°，\n根据勾股定理得，DE\\({}^{2}\\)=CD\\({}^{2}\\)+CE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；\n（3）∵∠BAC＝∠DAE＝90°，\n∴∠BAC+∠DAC＝∠DAE+∠DAC，\n即∠BAD＝∠CAE，\n在△ABD与△ACE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD＝\\angle CAE \\\\ AD=AE \\end{cases}\\)\n∴△ABD≌△ACE（SAS），\n∴∠ABC＝∠ACE＝45°，BD＝CE，\n∴∠ABC+∠ACB＝∠ACE+∠ACB＝90°，\n∴∠BCE＝∠ECD＝90°\n∵BC＝6，CE＝10，\n∴BD＝CE＝10，\n∴CD＝BD﹣BC=10﹣6＝4，\n∴Rt△DCE中，DE＝\\(\\sqrt[] { CE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 29 }\\)\n∵△ADE是等腰直角三角形，\n∴AE＝\\(\\frac { 2\\sqrt[] { 29 } } { \\sqrt[] { 2 } }=\\sqrt[] { 58 }\\)\n【点睛】此题是三角形综合题，主要考查了等边三角形的性质，等腰直角三角形的性质，全等三角形的判定和性质，勾股定理，判断出△ABD≌△ACE是解本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/1f/1fbedc06b38e9eebebb45320d85ebcca31e80f9d96789de12fb1d35b82822d1e.png"
+  ],
+  "solution": "（1）∵△ABC和△ADE都是等边三角形，\n∴AB=AC，AD=AE，∠B=∠ACB=∠BAC=∠DAE=60°，\n∴∠BAD+∠CAD=∠CAE+∠CAD，\n∴∠BAD=∠CAE，\n∴△ABD≌△ACE（SAS），\n∴∠B=∠ACE=60°，\n∴∠DCE=∠ACB+∠ACE=120°，\n故答案为：120；\n（2）DE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；理由如下：\n在Rt△ABC中，AB=AC，\n∴∠B=∠ACB=45°，\n∵∠BAC=∠DAE=90°，\n∴∠BAD=∠CAE，\n∵AD=AE，\n∴△ABD≌△ACE（SAS），\n∴BD=CE，∠ACE=∠B=45°，\n∴∠BCE=∠ACB+∠ACE=90°，\n根据勾股定理得，DE\\({}^{2}\\)=CD\\({}^{2}\\)+CE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；\n（3）∵∠BAC＝∠DAE＝90°，\n∴∠BAC+∠DAC＝∠DAE+∠DAC，\n即∠BAD＝∠CAE，\n在△ABD与△ACE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD＝\\angle CAE \\\\ AD=AE \\end{cases}\\)\n∴△ABD≌△ACE（SAS），\n∴∠ABC＝∠ACE＝45°，BD＝CE，\n∴∠ABC+∠ACB＝∠ACE+∠ACB＝90°，\n∴∠BCE＝∠ECD＝90°\n∵BC＝6，CE＝10，\n∴BD＝CE＝10，\n∴CD＝BD﹣BC=10﹣6＝4，\n∴Rt△DCE中，DE＝\\(\\sqrt[] { CE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 29 }\\)\n∵△ADE是等腰直角三角形，\n∴AE＝\\(\\frac { 2\\sqrt[] { 29 } } { \\sqrt[] { 2 } }=\\sqrt[] { 58 }\\)",
+  "solution_steps": [
+    "（1）∵△ABC和△ADE都是等边三角形，",
+    "∴AB=AC，AD=AE，∠B=∠ACB=∠BAC=∠DAE=60°，",
+    "∴∠BAD+∠CAD=∠CAE+∠CAD，",
+    "∴∠BAD=∠CAE，",
+    "∴△ABD≌△ACE（SAS），",
+    "∴∠B=∠ACE=60°，",
+    "∴∠DCE=∠ACB+∠ACE=120°，",
+    "故答案为：120；",
+    "（2）DE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；理由如下：",
+    "在Rt△ABC中，AB=AC，",
+    "∴∠B=∠ACB=45°，",
+    "∵∠BAC=∠DAE=90°，",
+    "∴∠BAD=∠CAE，",
+    "∵AD=AE，",
+    "∴△ABD≌△ACE（SAS），",
+    "∴BD=CE，∠ACE=∠B=45°，",
+    "∴∠BCE=∠ACB+∠ACE=90°，",
+    "根据勾股定理得，DE\\({}^{2}\\)=CD\\({}^{2}\\)+CE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；",
+    "（3）∵∠BAC＝∠DAE＝90°，",
+    "∴∠BAC+∠DAC＝∠DAE+∠DAC，",
+    "即∠BAD＝∠CAE，",
+    "在△ABD与△ACE中，",
+    "\\(\\begin{cases} AB=AC \\\\ \\angle BAD＝\\angle CAE \\\\ AD=AE \\end{cases}\\)",
+    "∴△ABD≌△ACE（SAS），",
+    "∴∠ABC＝∠ACE＝45°，BD＝CE，",
+    "∴∠ABC+∠ACB＝∠ACE+∠ACB＝90°，",
+    "∴∠BCE＝∠ECD＝90°",
+    "∵BC＝6，CE＝10，",
+    "∴BD＝CE＝10，",
+    "∴CD＝BD﹣BC=10﹣6＝4，",
+    "∴Rt△DCE中，DE＝\\(\\sqrt[] { CE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 29 }\\)",
+    "∵△ADE是等腰直角三角形，",
+    "∴AE＝\\(\\frac { 2\\sqrt[] { 29 } } { \\sqrt[] { 2 } }=\\sqrt[] { 58 }\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "fig-65",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        65
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，在△ABC中，∠BAC＝90°，AC＝AB，点D为BC上的一动点（点D不与B、C重合），以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE，类比题（1），请你猜想：线段BD、CD、DE之间的关系，并说明理由；\n前问作答依据：DE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；理由如下：\n在Rt△ABC中，AB=AC，\n∴∠B=∠ACB=45°，\n∵∠BAC=∠DAE=90°，\n∴∠BAD=∠CAE，\n∵AD=AE，\n∴△ABD≌△ACE（SAS），\n∴BD=CE，∠ACE=∠B=45°，\n∴∠BCE=∠ACB+∠ACE=90°，\n根据勾股定理得，DE\\({}^{2}\\)=CD\\({}^{2}\\)+CE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；",
+      "paper_blocks": [
+        63,
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-F65DC1409D-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，△ABC为等边三角形，点D为BC边上的一动点（点D不与B、C重合），以AD为边作等边△ADE，连接CE．易求∠DCE＝         °；",
+      "stem_text": "如图1，△ABC为等边三角形，点D为BC边上的一动点（点D不与B、C重合），以AD为边作等边△ADE，连接CE．易求∠DCE＝         °；",
+      "material_ids": [
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "120°；",
+      "answer": "120°；",
+      "given_solution": "∵△ABC和△ADE都是等边三角形，\n∴AB=AC，AD=AE，∠B=∠ACB=∠BAC=∠DAE=60°，\n∴∠BAD+∠CAD=∠CAE+∠CAD，\n∴∠BAD=∠CAE，\n∴△ABD≌△ACE（SAS），\n∴∠B=∠ACE=60°，\n∴∠DCE=∠ACB+∠ACE=120°，\n故答案为：120；",
+      "solution_steps": [
+        "∵△ABC和△ADE都是等边三角形，",
+        "∴AB=AC，AD=AE，∠B=∠ACB=∠BAC=∠DAE=60°，",
+        "∴∠BAD+∠CAD=∠CAE+∠CAD，",
+        "∴∠BAD=∠CAE，",
+        "∴△ABD≌△ACE（SAS），",
+        "∴∠B=∠ACE=60°，",
+        "∴∠DCE=∠ACB+∠ACE=120°，",
+        "故答案为：120；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          65
+        ],
+        "solution_block_ids": [
+          336
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-F65DC1409D-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，在△ABC中，∠BAC＝90°，AC＝AB，点D为BC上的一动点（点D不与B、C重合），以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE，类比题（1），请你猜想：线段BD、CD、DE之间的关系，并说明理由；",
+      "stem_text": "如图2，在△ABC中，∠BAC＝90°，AC＝AB，点D为BC上的一动点（点D不与B、C重合），以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE，类比题（1），请你猜想：线段BD、CD、DE之间的关系，并说明理由；",
+      "material_ids": [
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "\\(CD ^ { 2 } +BD ^ { 2 } =DE ^ { 2 }\\)，理由见解析；",
+      "answer": "\\(CD ^ { 2 } +BD ^ { 2 } =DE ^ { 2 }\\)，理由见解析；",
+      "given_solution": "DE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；理由如下：\n在Rt△ABC中，AB=AC，\n∴∠B=∠ACB=45°，\n∵∠BAC=∠DAE=90°，\n∴∠BAD=∠CAE，\n∵AD=AE，\n∴△ABD≌△ACE（SAS），\n∴BD=CE，∠ACE=∠B=45°，\n∴∠BCE=∠ACB+∠ACE=90°，\n根据勾股定理得，DE\\({}^{2}\\)=CD\\({}^{2}\\)+CE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；",
+      "solution_steps": [
+        "DE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；理由如下：",
+        "在Rt△ABC中，AB=AC，",
+        "∴∠B=∠ACB=45°，",
+        "∵∠BAC=∠DAE=90°，",
+        "∴∠BAD=∠CAE，",
+        "∵AD=AE，",
+        "∴△ABD≌△ACE（SAS），",
+        "∴BD=CE，∠ACE=∠B=45°，",
+        "∴∠BCE=∠ACB+∠ACE=90°，",
+        "根据勾股定理得，DE\\({}^{2}\\)=CD\\({}^{2}\\)+CE\\({}^{2}\\)=CD\\({}^{2}\\)+BD\\({}^{2}\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          337
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-F65DC1409D-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，在（2）的条件下，若D点在BC的延长线上运动，以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE．CE＝10，BC＝6，求AE的长．",
+      "stem_text": "如图3，在（2）的条件下，若D点在BC的延长线上运动，以AD为边作等腰Rt△ADE，∠DAE＝90°（顶点A、D、E按逆时针方向排列），连接CE．CE＝10，BC＝6，求AE的长．",
+      "material_ids": [
+        "fig-65",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T2-F65DC1409D-Q22-P02"
+      ],
+      "given_answer": "\\(\\sqrt[] { 58 }\\)",
+      "answer": "\\(\\sqrt[] { 58 }\\)",
+      "given_solution": "∵∠BAC＝∠DAE＝90°，\n∴∠BAC+∠DAC＝∠DAE+∠DAC，\n即∠BAD＝∠CAE，\n在△ABD与△ACE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD＝\\angle CAE \\\\ AD=AE \\end{cases}\\)\n∴△ABD≌△ACE（SAS），\n∴∠ABC＝∠ACE＝45°，BD＝CE，\n∴∠ABC+∠ACB＝∠ACE+∠ACB＝90°，\n∴∠BCE＝∠ECD＝90°\n∵BC＝6，CE＝10，\n∴BD＝CE＝10，\n∴CD＝BD﹣BC=10﹣6＝4，\n∴Rt△DCE中，DE＝\\(\\sqrt[] { CE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 29 }\\)\n∵△ADE是等腰直角三角形，\n∴AE＝\\(\\frac { 2\\sqrt[] { 29 } } { \\sqrt[] { 2 } }=\\sqrt[] { 58 }\\)",
+      "solution_steps": [
+        "∵∠BAC＝∠DAE＝90°，",
+        "∴∠BAC+∠DAC＝∠DAE+∠DAC，",
+        "即∠BAD＝∠CAE，",
+        "在△ABD与△ACE中，",
+        "\\(\\begin{cases} AB=AC \\\\ \\angle BAD＝\\angle CAE \\\\ AD=AE \\end{cases}\\)",
+        "∴△ABD≌△ACE（SAS），",
+        "∴∠ABC＝∠ACE＝45°，BD＝CE，",
+        "∴∠ABC+∠ACB＝∠ACE+∠ACB＝90°，",
+        "∴∠BCE＝∠ECD＝90°",
+        "∵BC＝6，CE＝10，",
+        "∴BD＝CE＝10，",
+        "∴CD＝BD﹣BC=10﹣6＝4，",
+        "∴Rt△DCE中，DE＝\\(\\sqrt[] { CE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 29 }\\)",
+        "∵△ADE是等腰直角三角形，",
+        "∴AE＝\\(\\frac { 2\\sqrt[] { 29 } } { \\sqrt[] { 2 } }=\\sqrt[] { 58 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      65
+    ],
+    "solution_body_blocks": [
+      329,
+      353
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-F65DC1409D/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          370.0,
+          583.64,
+          666.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-F65DC1409D/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-F65DC1409D/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          330.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q21-P02",{"answer":"至少 4 小时。","solution_steps":["设甲队工作 \\(t\\) 小时。在 8 小时内两队能卸完的条件为 \\(180t+120(8-t)\\ge1200\\)，解得 \\(t\\ge4\\)。取 4 小时，恰好在 15 时前完成。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

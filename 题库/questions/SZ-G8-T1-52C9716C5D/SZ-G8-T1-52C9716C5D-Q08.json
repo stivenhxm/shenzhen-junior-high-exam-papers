@@ -1,0 +1,131 @@
+{
+  "id": "SZ-G8-T1-52C9716C5D-Q08",
+  "paper_id": "SZ-G8-T1-52C9716C5D",
+  "number": 8,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，三角形纸片ABC中，点D是BC边上一点，连接AD，把△ABD沿着直线AD翻折，得到△AED，DE交AC于点G，连接BE交AD于点F．若DG＝EG，AF＝4，AB＝5，△AEG的面积为\\(\\frac { 9 } { 2 }\\)，则\\(BD ^ { 2 }\\)的值为（  ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "13"
+    },
+    {
+      "label": "B",
+      "text": "12"
+    },
+    {
+      "label": "C",
+      "text": "11"
+    },
+    {
+      "label": "D",
+      "text": "10"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G8-T1-52C9716C5D/figures/7d1c59d54b7ab42e92eb77a93821e6f94b2529108fa26fb89d2754d378e6511c.png"
+  ],
+  "tables": [],
+  "given_answer": "A",
+  "answer": "A",
+  "given_solution": "【分析】首先根据SAS证明△BAF≌△EAF可得AF⊥BE，根据三角形的面积公式求出AD，根据勾股定理求出BD即可．\n【详解】解：由折叠得，\\(AB=AE\\)，∠BAF=∠EAF，\n在△BAF和△EAF中，\n\\(\\begin{cases} AB=AE \\\\ \\angle BAF=\\angle EAF \\\\ AF=AF \\end{cases}\\)，\n∴△BAF≌△EAF(SAS)，\n∴BF=EF，\n∴AF⊥BE，\n又∵AF＝4，AB＝5，\n∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=3\\)，\n在△ADE中，EF⊥AD，DG＝EG，设DE边上的高线长为h，\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }AD\\cdot EF=\\frac { 1 } { 2 }DG\\cdot h+\\frac { 1 } { 2 }EG\\cdot h\\)，\n即\\(S_{ \\vartriangle ADG } +S_{ \\vartriangle AEG } =\\frac { 1 } { 2 }AD\\cdot EF\\)，\n∵\\(S_{ \\vartriangle AEG } =\\frac { 1 } { 2 }\\cdot GE\\cdot h=\\frac { 9 } { 2 }\\)，\\(S_{ \\vartriangle ADG } =S_{ \\vartriangle AEG }\\)，\n∴\\(S_{ \\vartriangle ADG } +S_{ \\vartriangle AEG } =\\frac { 9 } { 2 }+\\frac { 9 } { 2 }=9\\)，\n∴\\(9=\\frac { 1 } { 2 }AD\\cdot 3\\)，\n∴\\(AD=6\\)，\n∴\\(FD=AD-AF=6-4=2\\)，\n在Rt△BDF中，\\(BF=3\\)，\\(FD=2\\)，\n∴\\(BD ^ { 2 } =BF ^ { 2 } +FD ^ { 2 } =3 ^ { 2 } +2 ^ { 2 } =13\\)，\n故选：A．\n【点睛】本题考查翻折变换、三角形的面积、勾股定理、全等三角形的判定与性质等知识，运用三角形的面积求出AD的长度是解答本题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-52C9716C5D/figures/7d1c59d54b7ab42e92eb77a93821e6f94b2529108fa26fb89d2754d378e6511c.png"
+  ],
+  "solution": "解：由折叠得，\\(AB=AE\\)，∠BAF=∠EAF，\n在△BAF和△EAF中，\n\\(\\begin{cases} AB=AE \\\\ \\angle BAF=\\angle EAF \\\\ AF=AF \\end{cases}\\)，\n∴△BAF≌△EAF(SAS)，\n∴BF=EF，\n∴AF⊥BE，\n又∵AF＝4，AB＝5，\n∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=3\\)，\n在△ADE中，EF⊥AD，DG＝EG，设DE边上的高线长为h，\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }AD\\cdot EF=\\frac { 1 } { 2 }DG\\cdot h+\\frac { 1 } { 2 }EG\\cdot h\\)，\n即\\(S_{ \\vartriangle ADG } +S_{ \\vartriangle AEG } =\\frac { 1 } { 2 }AD\\cdot EF\\)，\n∵\\(S_{ \\vartriangle AEG } =\\frac { 1 } { 2 }\\cdot GE\\cdot h=\\frac { 9 } { 2 }\\)，\\(S_{ \\vartriangle ADG } =S_{ \\vartriangle AEG }\\)，\n∴\\(S_{ \\vartriangle ADG } +S_{ \\vartriangle AEG } =\\frac { 9 } { 2 }+\\frac { 9 } { 2 }=9\\)，\n∴\\(9=\\frac { 1 } { 2 }AD\\cdot 3\\)，\n∴\\(AD=6\\)，\n∴\\(FD=AD-AF=6-4=2\\)，\n在Rt△BDF中，\\(BF=3\\)，\\(FD=2\\)，\n∴\\(BD ^ { 2 } =BF ^ { 2 } +FD ^ { 2 } =3 ^ { 2 } +2 ^ { 2 } =13\\)，\n故选：A．",
+  "solution_steps": [
+    "解：由折叠得，\\(AB=AE\\)，∠BAF=∠EAF，",
+    "在△BAF和△EAF中，",
+    "\\(\\begin{cases} AB=AE \\\\ \\angle BAF=\\angle EAF \\\\ AF=AF \\end{cases}\\)，",
+    "∴△BAF≌△EAF(SAS)，",
+    "∴BF=EF，",
+    "∴AF⊥BE，",
+    "又∵AF＝4，AB＝5，",
+    "∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=3\\)，",
+    "在△ADE中，EF⊥AD，DG＝EG，设DE边上的高线长为h，",
+    "∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }AD\\cdot EF=\\frac { 1 } { 2 }DG\\cdot h+\\frac { 1 } { 2 }EG\\cdot h\\)，",
+    "即\\(S_{ \\vartriangle ADG } +S_{ \\vartriangle AEG } =\\frac { 1 } { 2 }AD\\cdot EF\\)，",
+    "∵\\(S_{ \\vartriangle AEG } =\\frac { 1 } { 2 }\\cdot GE\\cdot h=\\frac { 9 } { 2 }\\)，\\(S_{ \\vartriangle ADG } =S_{ \\vartriangle AEG }\\)，",
+    "∴\\(S_{ \\vartriangle ADG } +S_{ \\vartriangle AEG } =\\frac { 9 } { 2 }+\\frac { 9 } { 2 }=9\\)，",
+    "∴\\(9=\\frac { 1 } { 2 }AD\\cdot 3\\)，",
+    "∴\\(AD=6\\)，",
+    "∴\\(FD=AD-AF=6-4=2\\)，",
+    "在Rt△BDF中，\\(BF=3\\)，\\(FD=2\\)，",
+    "∴\\(BD ^ { 2 } =BF ^ { 2 } +FD ^ { 2 } =3 ^ { 2 } +2 ^ { 2 } =13\\)，",
+    "故选：A．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      18,
+      20
+    ],
+    "solution_body_blocks": [
+      93,
+      118
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-52C9716C5D/paper-q08-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          182.73,
+          583.64,
+          399.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-52C9716C5D/solution-q08-p05.webp",
+      "assets/SZ-G8-T1-52C9716C5D/solution-q08-p06.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          253.18,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          213.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

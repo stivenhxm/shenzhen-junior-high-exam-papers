@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q16-P02",{"answer":"原方程无解。","solution_steps":["取值条件为 \\(x\\ne\\pm2\\)。同乘 \\((x-2)(x+2)\\) 得 \\(x-2+4x=2(x+2)\\)，解得 \\(x=2\\)。它使原方程分母为零，应舍去。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

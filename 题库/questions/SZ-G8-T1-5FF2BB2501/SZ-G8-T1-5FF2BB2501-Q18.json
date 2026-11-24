@@ -1,0 +1,286 @@
+{
+  "id": "SZ-G8-T1-5FF2BB2501-Q18",
+  "paper_id": "SZ-G8-T1-5FF2BB2501",
+  "number": 18,
+  "type": "解答题",
+  "points": 9.0,
+  "title": "将折叠条件转为可计算的几何关系、由勾股关系求直角三角形边长",
+  "stem": "（9分）如图，将长方形纸片\\(ABCD\\)沿对角线\\(AC\\)折叠，使点B落到点\\(B'\\)位置，\\(AB'\\)与\\(CD\\)交于点E，且\\(AB=8\\)，\\(AD=4\\).\n〔图1〕\n（1）求证：\\(AE=EC\\)；\n（2）求\\(EC\\)的长；\n（3）点P为线段\\(AC\\)上任一点，\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H.请直接写出\\(PG+PH\\)的值.",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-5FF2BB2501/figures/7860f71cf88b33415151529c2061ed3c5b75fc2d68c66178387fcdb02033fcf9.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）如图，将长方形纸片\\(ABCD\\)沿对角线\\(AC\\)折叠，使点B落到点\\(B'\\)位置，\\(AB'\\)与\\(CD\\)交于点E，且\\(AB=8\\)，\\(AD=4\\).\n〔图1〕",
+      "paper_blocks": [
+        50,
+        51
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q18-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(AE=EC\\)；",
+      "stem_text": "求证：\\(AE=EC\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(EA=EC\\)",
+      "given_solution": "由翻折变换的性质可知：\\(\\angle EAC=\\angle BAC\\)，\n∵\\(DC\\)，\n∴\\(\\angle ECA=\\angle BAC\\).\n∴\\(\\angle EAC=\\angle ECA\\).\n∴\\(EA=EC\\).",
+      "solution_steps": [
+        "由翻折变换的性质可知：\\(\\angle EAC=\\angle BAC\\)，",
+        "∵\\(DC\\)，",
+        "∴\\(\\angle ECA=\\angle BAC\\).",
+        "∴\\(\\angle EAC=\\angle ECA\\).",
+        "∴\\(EA=EC\\)."
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52
+        ],
+        "solution_block_ids": [
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q18-P02",
+      "label": "（2）",
+      "prompt": "求\\(EC\\)的长；",
+      "stem_text": "求\\(EC\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(EC=5\\)",
+      "given_solution": "设\\(EA=EC=x\\)，\\(DE=8-x\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEA\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，即\\(x ^ { 2 } =\\left ( { 8-x } \\right ) ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(x=5\\).\n∴\\(EC=5\\).",
+      "solution_steps": [
+        "设\\(EA=EC=x\\)，\\(DE=8-x\\)；",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEA\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，即\\(x ^ { 2 } =\\left ( { 8-x } \\right ) ^ { 2 } +4 ^ { 2 }\\)，",
+        "解得：\\(x=5\\).",
+        "∴\\(EC=5\\)."
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          53
+        ],
+        "solution_block_ids": [
+          224,
+          225,
+          226,
+          227
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q18-P03",
+      "label": "（3）",
+      "prompt": "点P为线段\\(AC\\)上任一点，\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H.请直接写出\\(PG+PH\\)的值.",
+      "stem_text": "点P为线段\\(AC\\)上任一点，\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H.请直接写出\\(PG+PH\\)的值.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(PG+PH=4\\)",
+      "given_solution": "如图所示；连接\\(EP\\).\n〔图1〕\n∵\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H，\n∴\\(S_{ \\vartriangle AEP } =\\frac { 1 } { 2 }AE\\cdot GP\\)，\\(S_{ \\vartriangle ECP } =\\frac { 1 } { 2 }EC\\cdot PH\\).\n∵\\(S_{ \\vartriangle AEP } +S_{ \\vartriangle ECP } =S_{ \\vartriangle ECA }\\)，\n∴\\(\\frac { 1 } { 2 }AE\\cdot GP+\\frac { 1 } { 2 }EC\\cdot PH=\\frac { 1 } { 2 }EC\\cdot AD\\)，即\\(\\frac { 1 } { 2 }\\times 5\\times PG+\\frac { 1 } { 2 }\\times 5\\times PH=\\frac { 1 } { 2 }\\times 5\\times 4\\).\n∴\\(PG+PH=4\\).",
+      "solution_steps": [
+        "如图所示；连接\\(EP\\).",
+        "〔图1〕",
+        "∵\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H，",
+        "∴\\(S_{ \\vartriangle AEP } =\\frac { 1 } { 2 }AE\\cdot GP\\)，\\(S_{ \\vartriangle ECP } =\\frac { 1 } { 2 }EC\\cdot PH\\).",
+        "∵\\(S_{ \\vartriangle AEP } +S_{ \\vartriangle ECP } =S_{ \\vartriangle ECA }\\)，",
+        "∴\\(\\frac { 1 } { 2 }AE\\cdot GP+\\frac { 1 } { 2 }EC\\cdot PH=\\frac { 1 } { 2 }EC\\cdot AD\\)，即\\(\\frac { 1 } { 2 }\\times 5\\times PG+\\frac { 1 } { 2 }\\times 5\\times PH=\\frac { 1 } { 2 }\\times 5\\times 4\\).",
+        "∴\\(PG+PH=4\\)."
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          54
+        ],
+        "solution_block_ids": [
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）∴\\(EA=EC\\)\n（2）∴\\(EC=5\\)\n（3）∴\\(PG+PH=4\\)",
+  "given_solution": "【解答】解：（1）由翻折变换的性质可知：\\(\\angle EAC=\\angle BAC\\)，\n∵\\(DC\\)，\n∴\\(\\angle ECA=\\angle BAC\\).\n∴\\(\\angle EAC=\\angle ECA\\).\n∴\\(EA=EC\\).\n（2）设\\(EA=EC=x\\)，\\(DE=8-x\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEA\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，即\\(x ^ { 2 } =\\left ( { 8-x } \\right ) ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(x=5\\).\n∴\\(EC=5\\).\n（3）如图所示；连接\\(EP\\).\n〔图1〕\n∵\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H，\n∴\\(S_{ \\vartriangle AEP } =\\frac { 1 } { 2 }AE\\cdot GP\\)，\\(S_{ \\vartriangle ECP } =\\frac { 1 } { 2 }EC\\cdot PH\\).\n∵\\(S_{ \\vartriangle AEP } +S_{ \\vartriangle ECP } =S_{ \\vartriangle ECA }\\)，\n∴\\(\\frac { 1 } { 2 }AE\\cdot GP+\\frac { 1 } { 2 }EC\\cdot PH=\\frac { 1 } { 2 }EC\\cdot AD\\)，即\\(\\frac { 1 } { 2 }\\times 5\\times PG+\\frac { 1 } { 2 }\\times 5\\times PH=\\frac { 1 } { 2 }\\times 5\\times 4\\).\n∴\\(PG+PH=4\\).",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-5FF2BB2501/figures/f625cca26655e153abe12931a8ff6ac798eb7d6ca7cc7288358e18cae25925f5.png"
+  ],
+  "solution_steps": [
+    "解：（1）由翻折变换的性质可知：\\(\\angle EAC=\\angle BAC\\)，",
+    "∵\\(DC\\)，",
+    "∴\\(\\angle ECA=\\angle BAC\\).",
+    "∴\\(\\angle EAC=\\angle ECA\\).",
+    "∴\\(EA=EC\\).",
+    "（2）设\\(EA=EC=x\\)，\\(DE=8-x\\)；",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEA\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，即\\(x ^ { 2 } =\\left ( { 8-x } \\right ) ^ { 2 } +4 ^ { 2 }\\)，",
+    "解得：\\(x=5\\).",
+    "∴\\(EC=5\\).",
+    "（3）如图所示；连接\\(EP\\).",
+    "〔图1〕",
+    "∵\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H，",
+    "∴\\(S_{ \\vartriangle AEP } =\\frac { 1 } { 2 }AE\\cdot GP\\)，\\(S_{ \\vartriangle ECP } =\\frac { 1 } { 2 }EC\\cdot PH\\).",
+    "∵\\(S_{ \\vartriangle AEP } +S_{ \\vartriangle ECP } =S_{ \\vartriangle ECA }\\)，",
+    "∴\\(\\frac { 1 } { 2 }AE\\cdot GP+\\frac { 1 } { 2 }EC\\cdot PH=\\frac { 1 } { 2 }EC\\cdot AD\\)，即\\(\\frac { 1 } { 2 }\\times 5\\times PG+\\frac { 1 } { 2 }\\times 5\\times PH=\\frac { 1 } { 2 }\\times 5\\times 4\\).",
+    "∴\\(PG+PH=4\\)."
+  ],
+  "solution": "解：（1）由翻折变换的性质可知：\\(\\angle EAC=\\angle BAC\\)，\n∵\\(DC\\)，\n∴\\(\\angle ECA=\\angle BAC\\).\n∴\\(\\angle EAC=\\angle ECA\\).\n∴\\(EA=EC\\).\n（2）设\\(EA=EC=x\\)，\\(DE=8-x\\)；\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEA\\)中，由勾股定理得：\\(AE ^ { 2 } =AD ^ { 2 } +DE ^ { 2 }\\)，即\\(x ^ { 2 } =\\left ( { 8-x } \\right ) ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(x=5\\).\n∴\\(EC=5\\).\n（3）如图所示；连接\\(EP\\).\n〔图1〕\n∵\\(PG\\bot AE\\)于G，\\(PH\\bot EC\\)于H，\n∴\\(S_{ \\vartriangle AEP } =\\frac { 1 } { 2 }AE\\cdot GP\\)，\\(S_{ \\vartriangle ECP } =\\frac { 1 } { 2 }EC\\cdot PH\\).\n∵\\(S_{ \\vartriangle AEP } +S_{ \\vartriangle ECP } =S_{ \\vartriangle ECA }\\)，\n∴\\(\\frac { 1 } { 2 }AE\\cdot GP+\\frac { 1 } { 2 }EC\\cdot PH=\\frac { 1 } { 2 }EC\\cdot AD\\)，即\\(\\frac { 1 } { 2 }\\times 5\\times PG+\\frac { 1 } { 2 }\\times 5\\times PH=\\frac { 1 } { 2 }\\times 5\\times 4\\).\n∴\\(PG+PH=4\\).",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "paper_body_blocks": [
+      50,
+      54
+    ],
+    "solution_body_blocks": [
+      219,
+      234
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5FF2BB2501/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          148.64,
+          583.64,
+          347.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5FF2BB2501/solution-q18-p12.webp",
+      "assets/SZ-G8-T1-5FF2BB2501/solution-q18-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          361.36,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          159.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.G04.04",
+    "M.G02.03"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 公共材料含“对角线”。由多边形的结构计算对角线或分割数量。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

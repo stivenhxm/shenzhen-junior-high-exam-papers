@@ -1,0 +1,230 @@
+{
+  "id": "SZ-G8-T1-D20E3B982D-Q18",
+  "paper_id": "SZ-G8-T1-D20E3B982D",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，将矩形ABCD沿对角线BD折叠，使点C落在点E处，BE与AD交于点F．\n（1）求证：△ABF≌△EDF；\n（2）若AB=6，BC=8，求AF的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-D20E3B982D/figures/557d3fc5afa33839aad5e5db5c949f53fced943fda30bfca106cff03e0f607c0.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；\n（2）\\(\\frac { 7 } { 4 }\\)",
+  "answer": "（1）见解析；\n（2）\\(\\frac { 7 } { 4 }\\)",
+  "given_solution": "【分析】（1）根据矩形的性质可得AB=CD，∠C=∠A=90°，再根据折叠的性质可得DE=CD，∠C=∠E=90°，然后利用“角角边”证明即可；\n（2）设AF=x，则BF=DF=8-x，根据勾股定理列方程求解即可．\n【小问1详解】\n证明：在矩形ABCD中，AB=CD，∠A=∠C=90°，\n由折叠得：DE=CD，∠C=∠E=90°，\n∴AB=DE，∠A=∠E=90°，\n∵∠AFB=∠EFD，\n∴△ABF≌△EDF（AAS）；\n【小问2详解】\n解：∵△ABF≌△EDF，\n∴BF=DF，\n设AF=x，则BF=DF=8﹣x，\n在Rt△ABF中，由勾股定理得：\nBF\\({}^{2}\\)=AB\\({}^{2}\\)+AF\\({}^{2}\\)，即（8﹣x）\\({}^{2}\\)=x\\({}^{2}\\)+6\\({}^{2}\\)，\nx=〔图2〕，即AF=〔图2〕\n【点睛】本题考查了翻折变换的性质，全等三角形的判定与性质，矩形的性质，勾股定理，翻折前后对应边相等，对应角相等，利用勾股定理列出方程是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-D20E3B982D/figures/557d3fc5afa33839aad5e5db5c949f53fced943fda30bfca106cff03e0f607c0.png",
+    "assets/SZ-G8-T1-D20E3B982D/figures/1c5c1be13617b674f9c67cb45fe11c3636b28b16843bae6bb83f9be315998b28.png"
+  ],
+  "solution": "【小问1详解】\n证明：在矩形ABCD中，AB=CD，∠A=∠C=90°，\n由折叠得：DE=CD，∠C=∠E=90°，\n∴AB=DE，∠A=∠E=90°，\n∵∠AFB=∠EFD，\n∴△ABF≌△EDF（AAS）；\n【小问2详解】\n解：∵△ABF≌△EDF，\n∴BF=DF，\n设AF=x，则BF=DF=8﹣x，\n在Rt△ABF中，由勾股定理得：\nBF\\({}^{2}\\)=AB\\({}^{2}\\)+AF\\({}^{2}\\)，即（8﹣x）\\({}^{2}\\)=x\\({}^{2}\\)+6\\({}^{2}\\)，\nx=〔图2〕，即AF=〔图2〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：在矩形ABCD中，AB=CD，∠A=∠C=90°，",
+    "由折叠得：DE=CD，∠C=∠E=90°，",
+    "∴AB=DE，∠A=∠E=90°，",
+    "∵∠AFB=∠EFD，",
+    "∴△ABF≌△EDF（AAS）；",
+    "【小问2详解】",
+    "解：∵△ABF≌△EDF，",
+    "∴BF=DF，",
+    "设AF=x，则BF=DF=8﹣x，",
+    "在Rt△ABF中，由勾股定理得：",
+    "BF\\({}^{2}\\)=AB\\({}^{2}\\)+AF\\({}^{2}\\)，即（8﹣x）\\({}^{2}\\)=x\\({}^{2}\\)+6\\({}^{2}\\)，",
+    "x=〔图2〕，即AF=〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，将矩形ABCD沿对角线BD折叠，使点C落在点E处，BE与AD交于点F．",
+      "paper_blocks": [
+        45
+      ]
+    },
+    {
+      "id": "fig-48",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        48
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-D20E3B982D-Q18-P01",
+      "label": "（1）",
+      "prompt": "求证：△ABF≌△EDF；",
+      "stem_text": "求证：△ABF≌△EDF；",
+      "material_ids": [
+        "context",
+        "fig-48"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：在矩形ABCD中，AB=CD，∠A=∠C=90°，\n由折叠得：DE=CD，∠C=∠E=90°，\n∴AB=DE，∠A=∠E=90°，\n∵∠AFB=∠EFD，\n∴△ABF≌△EDF（AAS）；",
+      "solution_steps": [
+        "证明：在矩形ABCD中，AB=CD，∠A=∠C=90°，",
+        "由折叠得：DE=CD，∠C=∠E=90°，",
+        "∴AB=DE，∠A=∠E=90°，",
+        "∵∠AFB=∠EFD，",
+        "∴△ABF≌△EDF（AAS）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          45,
+          46,
+          48
+        ],
+        "solution_block_ids": [
+          241,
+          242,
+          243,
+          244,
+          245
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-D20E3B982D-Q18-P02",
+      "label": "（2）",
+      "prompt": "若AB=6，BC=8，求AF的长．",
+      "stem_text": "若AB=6，BC=8，求AF的长．",
+      "material_ids": [
+        "context",
+        "fig-48"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 7 } { 4 }\\)",
+      "answer": "\\(\\frac { 7 } { 4 }\\)",
+      "given_solution": "解：∵△ABF≌△EDF，\n∴BF=DF，\n设AF=x，则BF=DF=8﹣x，\n在Rt△ABF中，由勾股定理得：\nBF\\({}^{2}\\)=AB\\({}^{2}\\)+AF\\({}^{2}\\)，即（8﹣x）\\({}^{2}\\)=x\\({}^{2}\\)+6\\({}^{2}\\)，\nx=〔图2〕，即AF=〔图2〕",
+      "solution_steps": [
+        "解：∵△ABF≌△EDF，",
+        "∴BF=DF，",
+        "设AF=x，则BF=DF=8﹣x，",
+        "在Rt△ABF中，由勾股定理得：",
+        "BF\\({}^{2}\\)=AB\\({}^{2}\\)+AF\\({}^{2}\\)，即（8﹣x）\\({}^{2}\\)=x\\({}^{2}\\)+6\\({}^{2}\\)，",
+        "x=〔图2〕，即AF=〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          45,
+          47,
+          48
+        ],
+        "solution_block_ids": [
+          247,
+          248,
+          249,
+          250,
+          251,
+          252
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      45,
+      48
+    ],
+    "solution_body_blocks": [
+      232,
+      253
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-D20E3B982D/paper-q18-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          588.64,
+          583.64,
+          743.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-D20E3B982D/solution-q18-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          689.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

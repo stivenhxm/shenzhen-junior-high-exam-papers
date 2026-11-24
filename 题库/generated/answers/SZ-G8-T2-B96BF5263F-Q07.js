@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q07",{"answer":"B","solution_steps":["设顶角为 \\(\\alpha\\)，底角为 \\(90^\\circ-\\alpha/2\\)。腰上的高垂直于腰，与底边所夹的锐角为底角的余角，等于 \\(\\alpha/2\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

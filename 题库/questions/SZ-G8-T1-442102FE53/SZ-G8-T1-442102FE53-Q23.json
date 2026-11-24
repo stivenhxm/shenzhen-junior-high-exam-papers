@@ -1,0 +1,376 @@
+{
+  "id": "SZ-G8-T1-442102FE53-Q23",
+  "paper_id": "SZ-G8-T1-442102FE53",
+  "number": 23,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、用坐标求线段长度与面积",
+  "stem": "如图，在平面直角坐标系中，已知点A，B，C为\\(\\vartriangle ABC\\)的三个顶点，直线\\(AB\\)的解析式为\\(y=3x+b\\)．\n〔图1〕\n（1）如图①，若点A在y轴上，点B在x轴上，\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，求A，B两点的坐标；\n（2）在（1）的条件下，过x轴上一点\\(D\\left ( { -6,0 } \\right )\\)作\\(DE\\bot AC\\)于E，DE交y轴于点F，求\\(\\vartriangle DOF\\)的面积；\n（3）如图②，将\\(\\vartriangle ABC\\)沿x轴向左平移，AC边与y轴交于一点P（P不同于A和C两点），过P作一直线与AB的延长线交于Q点，与x轴交于点M，且\\(CP=BQ\\)，在\\(\\vartriangle ABC\\)平移过程中，M点的坐标是否发生变化？如果不变，请写出M点的坐标及理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-442102FE53/figures/2ed957aa40cd481f2ac334958ca46f13a7d8e21eb12eb2aa3c93198a746fb5e8.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(B\\left ( { -2,0 } \\right )\\)，\\(A\\left ( { 0,6 } \\right )\\)\n（2）6    （3）M点的坐标不变化，\\(M\\left ( { -2,0 } \\right )\\)，理由见解析",
+  "answer": "（1）\\(B\\left ( { -2,0 } \\right )\\)，\\(A\\left ( { 0,6 } \\right )\\)\n（2）6    （3）M点的坐标不变化，\\(M\\left ( { -2,0 } \\right )\\)，理由见解析",
+  "given_solution": "【分析】（1）根据\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)得\\(B\\left ( { -2,0 } \\right )\\)，根据直线AB的解析式为\\(y=3x+b\\)，点A在y轴上，令\\(x=0\\)得\\(b=6\\)，即可得；\n（2）根据\\(AO\\bot BC\\)，\\(DE\\bot AC\\)得\\(\\angle FOD=\\angle COA=90{}^\\circ\\)，即可得\\(\\angle ODF+\\angle ACO=\\angle OAC+\\angle ACO=90{}^\\circ\\)，则\\(\\angle ODF=\\angle OAC\\)，即可得\\(A\\left ( { 0,6 } \\right )\\)，\\(D\\left ( { -6,0 } \\right )\\)，则\\(DO=AO\\)，利用ASA证明\\(\\vartriangle DOF≌\\vartriangle AOC\\)，即可得；\n（3）过点P作\\(PN\\parallel AB\\)交BC于点N，则\\(\\angle 1=\\angle Q\\)，\\(\\angle ABC=\\angle PNC\\)，根据\\(\\angle ABC=\\angle ACB\\)得\\(\\angle PNC=\\angle PCB\\)，则\\(PN=PC\\)，根据\\(CP=BQ\\)得\\(PN=BQ\\)，利用AAS证明\\(\\vartriangle QBM≌\\vartriangle PNM\\)，得\\(MN=BM\\)，根据\\(PC=PN\\)，\\(PO\\bot CN\\)，得\\(ON=OC\\)，根据\\(BM{ \\rm{ + } }MN{ \\rm{ + } }ON{ \\rm{ + } }OC=BC\\)，可得\\(OM=MN+ON=\\frac { 1 } { 2 }BC=2\\)，即可得．\n【小问1详解】\n解．∵\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，\n∴\\(B\\left ( { -2,0 } \\right )\\)，\n∵直线AB的解析式为\\(y=3x+b\\)，点A在y轴上，\n∴令\\(x=0\\)得\\(b=6\\)，\n∴\\(A\\left ( { 0,6 } \\right )\\)；\n【小问2详解】\n解：∵\\(AO\\bot BC\\)，\\(DE\\bot AC\\)，\n∴\\(\\angle FOD=\\angle COA=90{}^\\circ\\)，\n∴\\(\\angle ODF+\\angle ACO=\\angle OAC+\\angle ACO=90{}^\\circ\\)，\n∴\\(\\angle ODF=\\angle OAC\\)，\n∴\\(A\\left ( { 0,6 } \\right )\\)，\\(D\\left ( { -6,0 } \\right )\\)，\n∴\\(DO=AO\\)，\n在\\(\\vartriangle DOF\\)与\\(\\vartriangle AOC\\)中，\n\\(\\begin{cases} \\angle ODF=\\angle OAC \\\\ OD=OA \\\\ \\angle FOD=\\angle COA \\end{cases}\\)\n∴\\(\\vartriangle DOF≌\\vartriangle AOC\\)（ASA），\n∴\\(S_{ \\vartriangle DOF } =S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OA\\centerdot OB=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；\n【小问3详解】\nM点的坐标不发生变化，\\(M\\left ( { -2,0 } \\right )\\)，理由如下，\n解：如图所示，过点P作\\(PN\\parallel AB\\)交BC于点N，\n〔图2〕\n则\\(\\angle 1=\\angle Q\\)，\\(\\angle ABC=\\angle PNC\\)，\n∵\\(\\angle ABC=\\angle ACB\\)，\n∴\\(\\angle PNC=\\angle PCB\\)，\n∴\\(PN=PC\\)，\n∵\\(CP=BQ\\)，\n∴\\(PN=BQ\\)，\n在\\(\\vartriangle QBM\\)和〔图3〕中，\n\\(\\begin{cases} \\angle Q=\\angle 1 \\\\ \\angle 2=\\angle 3 \\\\ BQ=PN \\end{cases}\\)，\n∴\\(\\vartriangle QBM≌\\vartriangle PNM\\left ( { AAS } \\right )\\)，\n∴\\(MN=BM\\)，\n∵\\(PC=PN\\)，\\(PO\\bot CN\\)，\n∴\\(ON=OC\\)，\n∵\\(BM{ \\rm{ + } }MN{ \\rm{ + } }ON{ \\rm{ + } }OC=BC\\)，\n∴\\(OM=MN+ON=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(M\\left ( { -2,0 } \\right )\\)，\n即M点的坐标不发生变化．\n【点睛】本题考查了一次函数，全等三角形的判定与性质，等边对等角，解题的关键是掌握并灵活运用这些知识点．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-442102FE53/figures/2ed957aa40cd481f2ac334958ca46f13a7d8e21eb12eb2aa3c93198a746fb5e8.png",
+    "assets/SZ-G8-T1-442102FE53/figures/3c2dc5f285288b44ae8f283547ba4a2ec789f8e7a4ff6446fa79894ba8b1be30.png",
+    "assets/SZ-G8-T1-442102FE53/figures/489fc5dd264036c7a8ef0d369358da160daf48510c5033b6fd8e9abc0af00a2f.png"
+  ],
+  "solution": "【小问1详解】\n解．∵\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，\n∴\\(B\\left ( { -2,0 } \\right )\\)，\n∵直线AB的解析式为\\(y=3x+b\\)，点A在y轴上，\n∴令\\(x=0\\)得\\(b=6\\)，\n∴\\(A\\left ( { 0,6 } \\right )\\)；\n【小问2详解】\n解：∵\\(AO\\bot BC\\)，\\(DE\\bot AC\\)，\n∴\\(\\angle FOD=\\angle COA=90{}^\\circ\\)，\n∴\\(\\angle ODF+\\angle ACO=\\angle OAC+\\angle ACO=90{}^\\circ\\)，\n∴\\(\\angle ODF=\\angle OAC\\)，\n∴\\(A\\left ( { 0,6 } \\right )\\)，\\(D\\left ( { -6,0 } \\right )\\)，\n∴\\(DO=AO\\)，\n在\\(\\vartriangle DOF\\)与\\(\\vartriangle AOC\\)中，\n\\(\\begin{cases} \\angle ODF=\\angle OAC \\\\ OD=OA \\\\ \\angle FOD=\\angle COA \\end{cases}\\)\n∴\\(\\vartriangle DOF≌\\vartriangle AOC\\)（ASA），\n∴\\(S_{ \\vartriangle DOF } =S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OA\\centerdot OB=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；\n【小问3详解】\nM点的坐标不发生变化，\\(M\\left ( { -2,0 } \\right )\\)，理由如下，\n解：如图所示，过点P作\\(PN\\parallel AB\\)交BC于点N，\n〔图2〕\n则\\(\\angle 1=\\angle Q\\)，\\(\\angle ABC=\\angle PNC\\)，\n∵\\(\\angle ABC=\\angle ACB\\)，\n∴\\(\\angle PNC=\\angle PCB\\)，\n∴\\(PN=PC\\)，\n∵\\(CP=BQ\\)，\n∴\\(PN=BQ\\)，\n在\\(\\vartriangle QBM\\)和〔图3〕中，\n\\(\\begin{cases} \\angle Q=\\angle 1 \\\\ \\angle 2=\\angle 3 \\\\ BQ=PN \\end{cases}\\)，\n∴\\(\\vartriangle QBM≌\\vartriangle PNM\\left ( { AAS } \\right )\\)，\n∴\\(MN=BM\\)，\n∵\\(PC=PN\\)，\\(PO\\bot CN\\)，\n∴\\(ON=OC\\)，\n∵\\(BM{ \\rm{ + } }MN{ \\rm{ + } }ON{ \\rm{ + } }OC=BC\\)，\n∴\\(OM=MN+ON=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(M\\left ( { -2,0 } \\right )\\)，\n即M点的坐标不发生变化．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解．∵\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，",
+    "∴\\(B\\left ( { -2,0 } \\right )\\)，",
+    "∵直线AB的解析式为\\(y=3x+b\\)，点A在y轴上，",
+    "∴令\\(x=0\\)得\\(b=6\\)，",
+    "∴\\(A\\left ( { 0,6 } \\right )\\)；",
+    "【小问2详解】",
+    "解：∵\\(AO\\bot BC\\)，\\(DE\\bot AC\\)，",
+    "∴\\(\\angle FOD=\\angle COA=90{}^\\circ\\)，",
+    "∴\\(\\angle ODF+\\angle ACO=\\angle OAC+\\angle ACO=90{}^\\circ\\)，",
+    "∴\\(\\angle ODF=\\angle OAC\\)，",
+    "∴\\(A\\left ( { 0,6 } \\right )\\)，\\(D\\left ( { -6,0 } \\right )\\)，",
+    "∴\\(DO=AO\\)，",
+    "在\\(\\vartriangle DOF\\)与\\(\\vartriangle AOC\\)中，",
+    "\\(\\begin{cases} \\angle ODF=\\angle OAC \\\\ OD=OA \\\\ \\angle FOD=\\angle COA \\end{cases}\\)",
+    "∴\\(\\vartriangle DOF≌\\vartriangle AOC\\)（ASA），",
+    "∴\\(S_{ \\vartriangle DOF } =S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OA\\centerdot OB=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；",
+    "【小问3详解】",
+    "M点的坐标不发生变化，\\(M\\left ( { -2,0 } \\right )\\)，理由如下，",
+    "解：如图所示，过点P作\\(PN\\parallel AB\\)交BC于点N，",
+    "〔图2〕",
+    "则\\(\\angle 1=\\angle Q\\)，\\(\\angle ABC=\\angle PNC\\)，",
+    "∵\\(\\angle ABC=\\angle ACB\\)，",
+    "∴\\(\\angle PNC=\\angle PCB\\)，",
+    "∴\\(PN=PC\\)，",
+    "∵\\(CP=BQ\\)，",
+    "∴\\(PN=BQ\\)，",
+    "在\\(\\vartriangle QBM\\)和〔图3〕中，",
+    "\\(\\begin{cases} \\angle Q=\\angle 1 \\\\ \\angle 2=\\angle 3 \\\\ BQ=PN \\end{cases}\\)，",
+    "∴\\(\\vartriangle QBM≌\\vartriangle PNM\\left ( { AAS } \\right )\\)，",
+    "∴\\(MN=BM\\)，",
+    "∵\\(PC=PN\\)，\\(PO\\bot CN\\)，",
+    "∴\\(ON=OC\\)，",
+    "∵\\(BM{ \\rm{ + } }MN{ \\rm{ + } }ON{ \\rm{ + } }OC=BC\\)，",
+    "∴\\(OM=MN+ON=\\frac { 1 } { 2 }BC=2\\)，",
+    "∴\\(M\\left ( { -2,0 } \\right )\\)，",
+    "即M点的坐标不发生变化．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，已知点A，B，C为\\(\\vartriangle ABC\\)的三个顶点，直线\\(AB\\)的解析式为\\(y=3x+b\\)．\n〔图1〕",
+      "paper_blocks": [
+        65,
+        66
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：如图①，若点A在y轴上，点B在x轴上，\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，求A，B两点的坐标；",
+      "paper_blocks": [
+        65,
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-442102FE53-Q23-P01",
+      "label": "（1）",
+      "prompt": "如图①，若点A在y轴上，点B在x轴上，\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，求A，B两点的坐标；",
+      "stem_text": "如图①，若点A在y轴上，点B在x轴上，\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，求A，B两点的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(B\\left ( { -2,0 } \\right )\\)，\\(A\\left ( { 0,6 } \\right )\\)",
+      "answer": "\\(B\\left ( { -2,0 } \\right )\\)，\\(A\\left ( { 0,6 } \\right )\\)",
+      "given_solution": "解．∵\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，\n∴\\(B\\left ( { -2,0 } \\right )\\)，\n∵直线AB的解析式为\\(y=3x+b\\)，点A在y轴上，\n∴令\\(x=0\\)得\\(b=6\\)，\n∴\\(A\\left ( { 0,6 } \\right )\\)；",
+      "solution_steps": [
+        "解．∵\\(C\\left ( { 2,0 } \\right )\\)，\\(OB=OC\\)，",
+        "∴\\(B\\left ( { -2,0 } \\right )\\)，",
+        "∵直线AB的解析式为\\(y=3x+b\\)，点A在y轴上，",
+        "∴令\\(x=0\\)得\\(b=6\\)，",
+        "∴\\(A\\left ( { 0,6 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-442102FE53-Q23-P02",
+      "label": "（2）",
+      "prompt": "在（1）的条件下，过x轴上一点\\(D\\left ( { -6,0 } \\right )\\)作\\(DE\\bot AC\\)于E，DE交y轴于点F，求\\(\\vartriangle DOF\\)的面积；",
+      "stem_text": "在（1）的条件下，过x轴上一点\\(D\\left ( { -6,0 } \\right )\\)作\\(DE\\bot AC\\)于E，DE交y轴于点F，求\\(\\vartriangle DOF\\)的面积；",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G8-T1-442102FE53-Q23-P01"
+      ],
+      "given_answer": "6",
+      "answer": "6",
+      "given_solution": "解：∵\\(AO\\bot BC\\)，\\(DE\\bot AC\\)，\n∴\\(\\angle FOD=\\angle COA=90{}^\\circ\\)，\n∴\\(\\angle ODF+\\angle ACO=\\angle OAC+\\angle ACO=90{}^\\circ\\)，\n∴\\(\\angle ODF=\\angle OAC\\)，\n∴\\(A\\left ( { 0,6 } \\right )\\)，\\(D\\left ( { -6,0 } \\right )\\)，\n∴\\(DO=AO\\)，\n在\\(\\vartriangle DOF\\)与\\(\\vartriangle AOC\\)中，\n\\(\\begin{cases} \\angle ODF=\\angle OAC \\\\ OD=OA \\\\ \\angle FOD=\\angle COA \\end{cases}\\)\n∴\\(\\vartriangle DOF≌\\vartriangle AOC\\)（ASA），\n∴\\(S_{ \\vartriangle DOF } =S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OA\\centerdot OB=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；",
+      "solution_steps": [
+        "解：∵\\(AO\\bot BC\\)，\\(DE\\bot AC\\)，",
+        "∴\\(\\angle FOD=\\angle COA=90{}^\\circ\\)，",
+        "∴\\(\\angle ODF+\\angle ACO=\\angle OAC+\\angle ACO=90{}^\\circ\\)，",
+        "∴\\(\\angle ODF=\\angle OAC\\)，",
+        "∴\\(A\\left ( { 0,6 } \\right )\\)，\\(D\\left ( { -6,0 } \\right )\\)，",
+        "∴\\(DO=AO\\)，",
+        "在\\(\\vartriangle DOF\\)与\\(\\vartriangle AOC\\)中，",
+        "\\(\\begin{cases} \\angle ODF=\\angle OAC \\\\ OD=OA \\\\ \\angle FOD=\\angle COA \\end{cases}\\)",
+        "∴\\(\\vartriangle DOF≌\\vartriangle AOC\\)（ASA），",
+        "∴\\(S_{ \\vartriangle DOF } =S_{ \\vartriangle AOC } =\\frac { 1 } { 2 }OA\\centerdot OB=\\frac { 1 } { 2 }\\times 2\\times 6=6\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-442102FE53-Q23-P03",
+      "label": "（3）",
+      "prompt": "如图②，将\\(\\vartriangle ABC\\)沿x轴向左平移，AC边与y轴交于一点P（P不同于A和C两点），过P作一直线与AB的延长线交于Q点，与x轴交于点M，且\\(CP=BQ\\)，在\\(\\vartriangle ABC\\)平移过程中，M点的坐标是否发生变化？如果不变，请写出M点的坐标及理由．",
+      "stem_text": "如图②，将\\(\\vartriangle ABC\\)沿x轴向左平移，AC边与y轴交于一点P（P不同于A和C两点），过P作一直线与AB的延长线交于Q点，与x轴交于点M，且\\(CP=BQ\\)，在\\(\\vartriangle ABC\\)平移过程中，M点的坐标是否发生变化？如果不变，请写出M点的坐标及理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "M点的坐标不变化，\\(M\\left ( { -2,0 } \\right )\\)，理由见解析",
+      "answer": "M点的坐标不变化，\\(M\\left ( { -2,0 } \\right )\\)，理由见解析",
+      "given_solution": "M点的坐标不发生变化，\\(M\\left ( { -2,0 } \\right )\\)，理由如下，\n解：如图所示，过点P作\\(PN\\parallel AB\\)交BC于点N，\n〔图2〕\n则\\(\\angle 1=\\angle Q\\)，\\(\\angle ABC=\\angle PNC\\)，\n∵\\(\\angle ABC=\\angle ACB\\)，\n∴\\(\\angle PNC=\\angle PCB\\)，\n∴\\(PN=PC\\)，\n∵\\(CP=BQ\\)，\n∴\\(PN=BQ\\)，\n在\\(\\vartriangle QBM\\)和〔图3〕中，\n\\(\\begin{cases} \\angle Q=\\angle 1 \\\\ \\angle 2=\\angle 3 \\\\ BQ=PN \\end{cases}\\)，\n∴\\(\\vartriangle QBM≌\\vartriangle PNM\\left ( { AAS } \\right )\\)，\n∴\\(MN=BM\\)，\n∵\\(PC=PN\\)，\\(PO\\bot CN\\)，\n∴\\(ON=OC\\)，\n∵\\(BM{ \\rm{ + } }MN{ \\rm{ + } }ON{ \\rm{ + } }OC=BC\\)，\n∴\\(OM=MN+ON=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(M\\left ( { -2,0 } \\right )\\)，\n即M点的坐标不发生变化．",
+      "solution_steps": [
+        "M点的坐标不发生变化，\\(M\\left ( { -2,0 } \\right )\\)，理由如下，",
+        "解：如图所示，过点P作\\(PN\\parallel AB\\)交BC于点N，",
+        "〔图2〕",
+        "则\\(\\angle 1=\\angle Q\\)，\\(\\angle ABC=\\angle PNC\\)，",
+        "∵\\(\\angle ABC=\\angle ACB\\)，",
+        "∴\\(\\angle PNC=\\angle PCB\\)，",
+        "∴\\(PN=PC\\)，",
+        "∵\\(CP=BQ\\)，",
+        "∴\\(PN=BQ\\)，",
+        "在\\(\\vartriangle QBM\\)和〔图3〕中，",
+        "\\(\\begin{cases} \\angle Q=\\angle 1 \\\\ \\angle 2=\\angle 3 \\\\ BQ=PN \\end{cases}\\)，",
+        "∴\\(\\vartriangle QBM≌\\vartriangle PNM\\left ( { AAS } \\right )\\)，",
+        "∴\\(MN=BM\\)，",
+        "∵\\(PC=PN\\)，\\(PO\\bot CN\\)，",
+        "∴\\(ON=OC\\)，",
+        "∵\\(BM{ \\rm{ + } }MN{ \\rm{ + } }ON{ \\rm{ + } }OC=BC\\)，",
+        "∴\\(OM=MN+ON=\\frac { 1 } { 2 }BC=2\\)，",
+        "∴\\(M\\left ( { -2,0 } \\right )\\)，",
+        "即M点的坐标不发生变化．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          69
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      65,
+      69
+    ],
+    "solution_body_blocks": [
+      337,
+      385
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-442102FE53/paper-q23-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          378.18,
+          583.64,
+          735.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-442102FE53/solution-q23-p19.webp",
+      "assets/SZ-G8-T1-442102FE53/solution-q23-p20.webp",
+      "assets/SZ-G8-T1-442102FE53/solution-q23-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          735.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          196.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.01",
+    "E.G09.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

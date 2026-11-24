@@ -1,0 +1,470 @@
+{
+  "id": "SZ-G8-T1-7C00A001A2-Q19",
+  "paper_id": "SZ-G8-T1-7C00A001A2",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、求满足等腰条件的所有动点位置",
+  "stem": "如图1，在平面直角坐标系中点A坐标为\\(\\left ( { a,b } \\right )\\)，a、b满足\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)\n〔图1〕\n（1）直接写出点A的坐标______；\\(OA=\\)______；\n（2）x轴上是否存在点P，使得\\(\\vartriangle AOP\\)为等腰三角形，请直接写出点P坐标；\n（3）如图2，C为\\(\\left ( { 0,-6 } \\right )\\)，若点B在x轴正半轴上，当\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)的面积一半时；\n①点B坐标为______；\n②求\\(\\angle ACO+\\angle BCO\\)的大小，要有过程",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-7C00A001A2/figures/6609079e7cb2deba715407b41985e67c42fd333b1ba428d44834b34cfd95486c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)；\n（2）P为\\(\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { 8,0 } \\right )\\)或\\(\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；\n（3）①\\(B\\left ( { 2,0 } \\right )\\)；②\\(\\angle ABO+\\angle DBO=45{}^\\circ\\)．",
+  "answer": "（1）\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)；\n（2）P为\\(\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { 8,0 } \\right )\\)或\\(\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；\n（3）①\\(B\\left ( { 2,0 } \\right )\\)；②\\(\\angle ABO+\\angle DBO=45{}^\\circ\\)．",
+  "given_solution": "【分析】（1）因为\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)，利用绝对值和二次根式的非负性求出\\(a=4\\)，\\(b=2\\)，即可求出点A坐标，进一步可求出\\(OA\\)；\n（2）分情况讨论，作出图形，结合图形求解即可\n（3）①利用\\(\\frac { 1 } { 2 }\\times OC\\times OB=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times OC\\times 4\\)，可求出\\(B\\left ( { 2,0 } \\right )\\)；②作点B关于y轴的对称点\\(B'\\)，连接\\(B'C\\)，\\(AB'\\)，过点A作\\(AH\\bot x\\)轴于H点，证明\\(\\vartriangle AHB'≌\\vartriangle B'OC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，进一步可求出\\(\\angle ACO+\\angle BCO=45{}^\\circ\\)．\n【小问1详解】\n解：∵\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)，\n∴\\(a-4=0\\)，\\(2-b=0\\)，\n解得：\\(a=4\\)，\\(b=2\\)，\n∴\\(A\\left ( { 4,2 } \\right )\\)；\n∴\\(OA=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)；\n故答案为：\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)\n【小问2详解】\n解：当\\(OA=AP\\)，\\(OP\\)为底边，如图：作\\(AB\\bot OP\\)交于点B，\n〔图2〕\n∵\\(A\\left ( { 4,2 } \\right )\\)，\\(OA=AP\\)，\n∴\\(OB=4\\)，\n∴\\(OP=2OB=8\\)，即\\(P\\left ( { 8,0 } \\right )\\)；\n当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的正半轴，如图：\n〔图3〕\n∵\\(OA=2\\sqrt[] { 5 }\\)，\n∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)；\n当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的负半轴，如图：\n〔图4〕\n∵\\(OA=2\\sqrt[] { 5 }\\)，\n∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)；\n当\\(AP=OP\\)，\\(OA\\)为底边，如图：作\\(AC\\bot x\\)轴交于点C，\n〔图5〕\n设\\(OP=AP=x\\)，则\\(PC=4-x\\)，\n∵\\(AC=2\\)，\n∴由勾股定理得：\\(\\sqrt[] { 2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 } }=x\\)，\n解得：\\(x=\\frac { 5 } { 2 }\\)，即\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)\n综上所述：\\(P\\left ( { 8,0 } \\right )\\)，\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；\n【小问3详解】\n解：①∵\\(C\\left ( { 0,-6 } \\right )\\)，\\(A\\left ( { 4,2 } \\right )\\)，\n∵\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)面积的一半，\n∴\\(\\frac { 1 } { 2 }\\times OC\\times OB=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times OC\\times 4\\)，\n∴\\(BO=2\\)，即\\(B\\left ( { 2,0 } \\right )\\)；\n②如图，作点B关于y轴的对称点\\(B'\\)，连接\\(B'C\\)，\\(AB'\\)，过点A作\\(AH\\bot x\\)轴于H点，\n〔图6〕\n∴\\(OB=OB'=2\\)，\\(BB'\\bot CO\\)，\n∴\\(BC=B ^ { \\prime } C\\)，\n又∵\\(BB'\\bot CO\\)，\n∴\\(\\angle BCO=\\angle B'CO\\)，\n∵\\(\\begin{cases} AH=B'O \\\\ \\angle AHB'=\\angle B'OC \\\\ B'H=CO \\end{cases}\\)，\n∴\\(\\vartriangle AHB'≌\\vartriangle B'OC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AB'H=\\angle B'CO\\)，\\(AB'=B'C\\)，\n∴\\(\\angle AB'H+\\angle CB'O=\\angle B'CO+\\angle CB'O=90{}^\\circ\\)，\n∵\\(AB'=B'C\\)，\n∴\\(\\angle B'CA=\\angle ACO+\\angle B'CO=45{}^\\circ\\)，\n∵\\(\\angle BCO=\\angle B'CO\\)，\n∴\\(\\angle ACO+\\angle BCO=45{}^\\circ\\)．\n【点睛】本题考查直角坐标系，等腰三角形的性质，三角形全等，解题的关键是熟练掌握以上相关知识，结合图形进行求解，对于第（2）问需要分类讨论，掌握分类讨论的思想．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-7C00A001A2/figures/6609079e7cb2deba715407b41985e67c42fd333b1ba428d44834b34cfd95486c.png",
+    "assets/SZ-G8-T1-7C00A001A2/figures/15a11d9cc0dec9fc9e639fea68f0434e6d732a4a6e666851bd4a7279e1d8f6ee.png",
+    "assets/SZ-G8-T1-7C00A001A2/figures/65922b7d5bfdef2bddc4267c824972827d0f08837dbfd43eeebb048768bc8127.png",
+    "assets/SZ-G8-T1-7C00A001A2/figures/517970e1fc03c2372f85a9e9c5135180e2dc0264d8328f6ccff7adf8843d742b.png",
+    "assets/SZ-G8-T1-7C00A001A2/figures/06d839e2c495f0d9d99e32abee2e2fa22812140f65df576fa5822b595f99f8aa.png",
+    "assets/SZ-G8-T1-7C00A001A2/figures/7cc7708255f16d90fdc2253b1acf12dafd5e626e4cd5102ba999174a41394810.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)，\n∴\\(a-4=0\\)，\\(2-b=0\\)，\n解得：\\(a=4\\)，\\(b=2\\)，\n∴\\(A\\left ( { 4,2 } \\right )\\)；\n∴\\(OA=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)；\n故答案为：\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)\n【小问2详解】\n解：当\\(OA=AP\\)，\\(OP\\)为底边，如图：作\\(AB\\bot OP\\)交于点B，\n〔图2〕\n∵\\(A\\left ( { 4,2 } \\right )\\)，\\(OA=AP\\)，\n∴\\(OB=4\\)，\n∴\\(OP=2OB=8\\)，即\\(P\\left ( { 8,0 } \\right )\\)；\n当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的正半轴，如图：\n〔图3〕\n∵\\(OA=2\\sqrt[] { 5 }\\)，\n∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)；\n当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的负半轴，如图：\n〔图4〕\n∵\\(OA=2\\sqrt[] { 5 }\\)，\n∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)；\n当\\(AP=OP\\)，\\(OA\\)为底边，如图：作\\(AC\\bot x\\)轴交于点C，\n〔图5〕\n设\\(OP=AP=x\\)，则\\(PC=4-x\\)，\n∵\\(AC=2\\)，\n∴由勾股定理得：\\(\\sqrt[] { 2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 } }=x\\)，\n解得：\\(x=\\frac { 5 } { 2 }\\)，即\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)\n综上所述：\\(P\\left ( { 8,0 } \\right )\\)，\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；\n【小问3详解】\n解：①∵\\(C\\left ( { 0,-6 } \\right )\\)，\\(A\\left ( { 4,2 } \\right )\\)，\n∵\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)面积的一半，\n∴\\(\\frac { 1 } { 2 }\\times OC\\times OB=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times OC\\times 4\\)，\n∴\\(BO=2\\)，即\\(B\\left ( { 2,0 } \\right )\\)；\n②如图，作点B关于y轴的对称点\\(B'\\)，连接\\(B'C\\)，\\(AB'\\)，过点A作\\(AH\\bot x\\)轴于H点，\n〔图6〕\n∴\\(OB=OB'=2\\)，\\(BB'\\bot CO\\)，\n∴\\(BC=B ^ { \\prime } C\\)，\n又∵\\(BB'\\bot CO\\)，\n∴\\(\\angle BCO=\\angle B'CO\\)，\n∵\\(\\begin{cases} AH=B'O \\\\ \\angle AHB'=\\angle B'OC \\\\ B'H=CO \\end{cases}\\)，\n∴\\(\\vartriangle AHB'≌\\vartriangle B'OC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AB'H=\\angle B'CO\\)，\\(AB'=B'C\\)，\n∴\\(\\angle AB'H+\\angle CB'O=\\angle B'CO+\\angle CB'O=90{}^\\circ\\)，\n∵\\(AB'=B'C\\)，\n∴\\(\\angle B'CA=\\angle ACO+\\angle B'CO=45{}^\\circ\\)，\n∵\\(\\angle BCO=\\angle B'CO\\)，\n∴\\(\\angle ACO+\\angle BCO=45{}^\\circ\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)，",
+    "∴\\(a-4=0\\)，\\(2-b=0\\)，",
+    "解得：\\(a=4\\)，\\(b=2\\)，",
+    "∴\\(A\\left ( { 4,2 } \\right )\\)；",
+    "∴\\(OA=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)；",
+    "故答案为：\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)",
+    "【小问2详解】",
+    "解：当\\(OA=AP\\)，\\(OP\\)为底边，如图：作\\(AB\\bot OP\\)交于点B，",
+    "〔图2〕",
+    "∵\\(A\\left ( { 4,2 } \\right )\\)，\\(OA=AP\\)，",
+    "∴\\(OB=4\\)，",
+    "∴\\(OP=2OB=8\\)，即\\(P\\left ( { 8,0 } \\right )\\)；",
+    "当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的正半轴，如图：",
+    "〔图3〕",
+    "∵\\(OA=2\\sqrt[] { 5 }\\)，",
+    "∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)；",
+    "当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的负半轴，如图：",
+    "〔图4〕",
+    "∵\\(OA=2\\sqrt[] { 5 }\\)，",
+    "∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)；",
+    "当\\(AP=OP\\)，\\(OA\\)为底边，如图：作\\(AC\\bot x\\)轴交于点C，",
+    "〔图5〕",
+    "设\\(OP=AP=x\\)，则\\(PC=4-x\\)，",
+    "∵\\(AC=2\\)，",
+    "∴由勾股定理得：\\(\\sqrt[] { 2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 } }=x\\)，",
+    "解得：\\(x=\\frac { 5 } { 2 }\\)，即\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)",
+    "综上所述：\\(P\\left ( { 8,0 } \\right )\\)，\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；",
+    "【小问3详解】",
+    "解：①∵\\(C\\left ( { 0,-6 } \\right )\\)，\\(A\\left ( { 4,2 } \\right )\\)，",
+    "∵\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)面积的一半，",
+    "∴\\(\\frac { 1 } { 2 }\\times OC\\times OB=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times OC\\times 4\\)，",
+    "∴\\(BO=2\\)，即\\(B\\left ( { 2,0 } \\right )\\)；",
+    "②如图，作点B关于y轴的对称点\\(B'\\)，连接\\(B'C\\)，\\(AB'\\)，过点A作\\(AH\\bot x\\)轴于H点，",
+    "〔图6〕",
+    "∴\\(OB=OB'=2\\)，\\(BB'\\bot CO\\)，",
+    "∴\\(BC=B ^ { \\prime } C\\)，",
+    "又∵\\(BB'\\bot CO\\)，",
+    "∴\\(\\angle BCO=\\angle B'CO\\)，",
+    "∵\\(\\begin{cases} AH=B'O \\\\ \\angle AHB'=\\angle B'OC \\\\ B'H=CO \\end{cases}\\)，",
+    "∴\\(\\vartriangle AHB'≌\\vartriangle B'OC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle AB'H=\\angle B'CO\\)，\\(AB'=B'C\\)，",
+    "∴\\(\\angle AB'H+\\angle CB'O=\\angle B'CO+\\angle CB'O=90{}^\\circ\\)，",
+    "∵\\(AB'=B'C\\)，",
+    "∴\\(\\angle B'CA=\\angle ACO+\\angle B'CO=45{}^\\circ\\)，",
+    "∵\\(\\angle BCO=\\angle B'CO\\)，",
+    "∴\\(\\angle ACO+\\angle BCO=45{}^\\circ\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在平面直角坐标系中点A坐标为\\(\\left ( { a,b } \\right )\\)，a、b满足\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)\n〔图1〕",
+      "paper_blocks": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "如图2，C为\\(\\left ( { 0,-6 } \\right )\\)，若点B在x轴正半轴上，当\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)的面积一半时；",
+      "paper_blocks": [
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-7C00A001A2-Q19-P01",
+      "label": "（1）",
+      "prompt": "直接写出点A的坐标______；\\(OA=\\)______；",
+      "stem_text": "直接写出点A的坐标______；\\(OA=\\)______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)；",
+      "answer": "\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)；",
+      "given_solution": "解：∵\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)，\n∴\\(a-4=0\\)，\\(2-b=0\\)，\n解得：\\(a=4\\)，\\(b=2\\)，\n∴\\(A\\left ( { 4,2 } \\right )\\)；\n∴\\(OA=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)；\n故答案为：\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)",
+      "solution_steps": [
+        "解：∵\\(\\left | { a-4 } \\right |+\\sqrt[] { 2-b }=0\\)，",
+        "∴\\(a-4=0\\)，\\(2-b=0\\)，",
+        "解得：\\(a=4\\)，\\(b=2\\)，",
+        "∴\\(A\\left ( { 4,2 } \\right )\\)；",
+        "∴\\(OA=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)；",
+        "故答案为：\\(\\left ( { 4,2 } \\right )\\)；\\(2\\sqrt[] { 5 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303,
+          304,
+          305
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-7C00A001A2-Q19-P02",
+      "label": "（2）",
+      "prompt": "x轴上是否存在点P，使得\\(\\vartriangle AOP\\)为等腰三角形，请直接写出点P坐标；",
+      "stem_text": "x轴上是否存在点P，使得\\(\\vartriangle AOP\\)为等腰三角形，请直接写出点P坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "P为\\(\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { 8,0 } \\right )\\)或\\(\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；",
+      "answer": "P为\\(\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)、\\(\\left ( { 8,0 } \\right )\\)或\\(\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；",
+      "given_solution": "解：当\\(OA=AP\\)，\\(OP\\)为底边，如图：作\\(AB\\bot OP\\)交于点B，\n〔图2〕\n∵\\(A\\left ( { 4,2 } \\right )\\)，\\(OA=AP\\)，\n∴\\(OB=4\\)，\n∴\\(OP=2OB=8\\)，即\\(P\\left ( { 8,0 } \\right )\\)；\n当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的正半轴，如图：\n〔图3〕\n∵\\(OA=2\\sqrt[] { 5 }\\)，\n∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)；\n当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的负半轴，如图：\n〔图4〕\n∵\\(OA=2\\sqrt[] { 5 }\\)，\n∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)；\n当\\(AP=OP\\)，\\(OA\\)为底边，如图：作\\(AC\\bot x\\)轴交于点C，\n〔图5〕\n设\\(OP=AP=x\\)，则\\(PC=4-x\\)，\n∵\\(AC=2\\)，\n∴由勾股定理得：\\(\\sqrt[] { 2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 } }=x\\)，\n解得：\\(x=\\frac { 5 } { 2 }\\)，即\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)\n综上所述：\\(P\\left ( { 8,0 } \\right )\\)，\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；",
+      "solution_steps": [
+        "解：当\\(OA=AP\\)，\\(OP\\)为底边，如图：作\\(AB\\bot OP\\)交于点B，",
+        "〔图2〕",
+        "∵\\(A\\left ( { 4,2 } \\right )\\)，\\(OA=AP\\)，",
+        "∴\\(OB=4\\)，",
+        "∴\\(OP=2OB=8\\)，即\\(P\\left ( { 8,0 } \\right )\\)；",
+        "当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的正半轴，如图：",
+        "〔图3〕",
+        "∵\\(OA=2\\sqrt[] { 5 }\\)，",
+        "∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)；",
+        "当\\(OA=OP\\)，\\(AP\\)为底边，P在x轴的负半轴，如图：",
+        "〔图4〕",
+        "∵\\(OA=2\\sqrt[] { 5 }\\)，",
+        "∴\\(OP=2\\sqrt[] { 5 }\\)，即\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)；",
+        "当\\(AP=OP\\)，\\(OA\\)为底边，如图：作\\(AC\\bot x\\)轴交于点C，",
+        "〔图5〕",
+        "设\\(OP=AP=x\\)，则\\(PC=4-x\\)，",
+        "∵\\(AC=2\\)，",
+        "∴由勾股定理得：\\(\\sqrt[] { 2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 } }=x\\)，",
+        "解得：\\(x=\\frac { 5 } { 2 }\\)，即\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)",
+        "综上所述：\\(P\\left ( { 8,0 } \\right )\\)，\\(P\\left ( { -2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { 2\\sqrt[] { 5 },0 } \\right )\\)，\\(P\\left ( { \\frac { 5 } { 2 },0 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          62
+        ],
+        "solution_block_ids": [
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01",
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G04.01.03",
+        "E.G09.03.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“求满足等腰条件的所有动点位置、将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-7C00A001A2-Q19-P03",
+      "label": "（3）①",
+      "prompt": "点B坐标为______；",
+      "stem_text": "点B坐标为______；",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(B\\left ( { 2,0 } \\right )\\)；",
+      "answer": "\\(B\\left ( { 2,0 } \\right )\\)；",
+      "given_solution": "∵\\(C\\left ( { 0,-6 } \\right )\\)，\\(A\\left ( { 4,2 } \\right )\\)，\n∵\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)面积的一半，\n∴\\(\\frac { 1 } { 2 }\\times OC\\times OB=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times OC\\times 4\\)，\n∴\\(BO=2\\)，即\\(B\\left ( { 2,0 } \\right )\\)；",
+      "solution_steps": [
+        "∵\\(C\\left ( { 0,-6 } \\right )\\)，\\(A\\left ( { 4,2 } \\right )\\)，",
+        "∵\\(\\vartriangle BOC\\)的面积等于\\(\\vartriangle AOC\\)面积的一半，",
+        "∴\\(\\frac { 1 } { 2 }\\times OC\\times OB=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times OC\\times 4\\)，",
+        "∴\\(BO=2\\)，即\\(B\\left ( { 2,0 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          328,
+          329,
+          330,
+          331
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“坐标”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-7C00A001A2-Q19-P04",
+      "label": "（3）②",
+      "prompt": "求\\(\\angle ACO+\\angle BCO\\)的大小，要有过程",
+      "stem_text": "求\\(\\angle ACO+\\angle BCO\\)的大小，要有过程",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle ABO+\\angle DBO=45{}^\\circ\\)．",
+      "answer": "\\(\\angle ABO+\\angle DBO=45{}^\\circ\\)．",
+      "given_solution": "如图，作点B关于y轴的对称点\\(B'\\)，连接\\(B'C\\)，\\(AB'\\)，过点A作\\(AH\\bot x\\)轴于H点，\n〔图6〕\n∴\\(OB=OB'=2\\)，\\(BB'\\bot CO\\)，\n∴\\(BC=B ^ { \\prime } C\\)，\n又∵\\(BB'\\bot CO\\)，\n∴\\(\\angle BCO=\\angle B'CO\\)，\n∵\\(\\begin{cases} AH=B'O \\\\ \\angle AHB'=\\angle B'OC \\\\ B'H=CO \\end{cases}\\)，\n∴\\(\\vartriangle AHB'≌\\vartriangle B'OC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AB'H=\\angle B'CO\\)，\\(AB'=B'C\\)，\n∴\\(\\angle AB'H+\\angle CB'O=\\angle B'CO+\\angle CB'O=90{}^\\circ\\)，\n∵\\(AB'=B'C\\)，\n∴\\(\\angle B'CA=\\angle ACO+\\angle B'CO=45{}^\\circ\\)，\n∵\\(\\angle BCO=\\angle B'CO\\)，\n∴\\(\\angle ACO+\\angle BCO=45{}^\\circ\\)．",
+      "solution_steps": [
+        "如图，作点B关于y轴的对称点\\(B'\\)，连接\\(B'C\\)，\\(AB'\\)，过点A作\\(AH\\bot x\\)轴于H点，",
+        "〔图6〕",
+        "∴\\(OB=OB'=2\\)，\\(BB'\\bot CO\\)，",
+        "∴\\(BC=B ^ { \\prime } C\\)，",
+        "又∵\\(BB'\\bot CO\\)，",
+        "∴\\(\\angle BCO=\\angle B'CO\\)，",
+        "∵\\(\\begin{cases} AH=B'O \\\\ \\angle AHB'=\\angle B'OC \\\\ B'H=CO \\end{cases}\\)，",
+        "∴\\(\\vartriangle AHB'≌\\vartriangle B'OC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle AB'H=\\angle B'CO\\)，\\(AB'=B'C\\)，",
+        "∴\\(\\angle AB'H+\\angle CB'O=\\angle B'CO+\\angle CB'O=90{}^\\circ\\)，",
+        "∵\\(AB'=B'C\\)，",
+        "∴\\(\\angle B'CA=\\angle ACO+\\angle B'CO=45{}^\\circ\\)，",
+        "∵\\(\\angle BCO=\\angle B'CO\\)，",
+        "∴\\(\\angle ACO+\\angle BCO=45{}^\\circ\\)．"
+      ],
+      "solution_figure_ids": [
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      65
+    ],
+    "solution_body_blocks": [
+      285,
+      346
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-7C00A001A2/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          182.73,
+          583.64,
+          501.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-7C00A001A2/solution-q19-p17.webp",
+      "assets/SZ-G8-T1-7C00A001A2/solution-q19-p18.webp",
+      "assets/SZ-G8-T1-7C00A001A2/solution-q19-p19.webp",
+      "assets/SZ-G8-T1-7C00A001A2/solution-q19-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          348.18,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          657.73
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          45.0,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          587.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G04.01",
+    "M.G09.03",
+    "M.G09.01",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G04.01.03",
+    "E.G09.03.03",
+    "E.G09.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的式子结构和所求量对应“求满足等腰条件的所有动点位置、将特殊图形条件转为坐标关系”。 题目涉及“坐标”，按题面与解答定位知识主题。 本问解答对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q01",{"answer":"D","solution_steps":["D 图案沿花瓣中心线对折后重合，绕中心旋转180°也重合。A、B 旋转180°后不能重合，C 中的缺口也破坏中心对称。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

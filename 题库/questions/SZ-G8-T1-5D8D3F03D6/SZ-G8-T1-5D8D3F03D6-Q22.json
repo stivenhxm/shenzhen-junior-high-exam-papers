@@ -1,0 +1,341 @@
+{
+  "id": "SZ-G8-T1-5D8D3F03D6-Q22",
+  "paper_id": "SZ-G8-T1-5D8D3F03D6",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、解释勾股关系的面积证明",
+  "stem": "阅读材料，回答问题：\n（1）中国古代数学著作《周髀算经》（如图\\(1\\)）有着这样的记载：“勾广三，股修四，经隅五．”这句话的意思是：“如果直角三角形两直角边长分别为\\(3\\)和\\(4\\)，那么斜边的长为\\(5\\)．” 上述记载表明了：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ C } }\\)中，如果\\(\\angle C=90 ^ { \\circ }\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，那么\\(a\\)，\\(b\\)，\\(c\\)，三者之间的数量关系是_____．\n〔图1〕\n（2）对于这个数量关系，我国汉代数学家赵爽根据“赵爽弦图”（如图\\(2\\)，它是由八个全等的直角三角形围成的一个正方形），利用面积法进行了证明．参考赵爽的思路，将下面的证明过程补充完整：\n证明：\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABDE } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =\\)_____，且_____=_____，\n\\(\\therefore \\left ( { a+b } \\right ) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)，\n整理得 \\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，\n\\(\\therefore\\)_____．\n〔图2〕\n（3）如图\\(3\\)，把矩形\\(ABCD\\)折叠，使点\\(C\\)与点\\(A\\)重合，折痕为\\(EF\\)，如果\\(AB=4\\)，\\(BC=8\\)，求 \\(BE\\)的长．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-5D8D3F03D6/figures/ca23a8ca6be77037d64c6c790714106e9d38cf886b6ec98e565f15267821ee94.png",
+    "assets/SZ-G8-T1-5D8D3F03D6/figures/8565124e7176e46a8365d8826f053692297f83588a87fa31829839f7a5c29032.png",
+    "assets/SZ-G8-T1-5D8D3F03D6/figures/320f90c024654436c33ae1d8669b71314e039aad954c67e651a03a0a62765357.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n（2）\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n（3）3．",
+  "answer": "（1）\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n（2）\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n（3）3．",
+  "given_solution": "【分析】（1）根据勾股定理解答即可；\n（2）根据题意、结合图形，根据完全平方公式进行计算即可；\n（3）根据翻折变换的特点、结合勾股定理列出方程，解方程即可．\n【小问1详解】\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，\n由勾股定理得，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，\n故答案为：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n【小问2详解】\n\\(\\because S_{ \\Delta ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABCD } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =(a+b) ^ { 2 }\\)，且\\(S_{ 正方形MNPQ } { \\rm{ = } }4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)，\n\\(\\therefore (a+b) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)\n整理得，\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，\n\\(\\therefore a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，\n故答案为：\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n【小问3详解】\n设\\(BE=x\\)，则\\(EC=8-x\\)，\n由折叠的性质可知，\\(AE=EC=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(AE ^ { 2 } =AB ^ { 2 } +BE ^ { 2 }\\)，\n则\\((8-x) ^ { 2 } =4 ^ { 2 } +x ^ { 2 }\\)，\n解得，\\(x=3\\)，\n则\\(BE\\)的长为3．\n【点睛】本题考查的是正方形和矩形的性质、勾股定理、翻折变换的性质，正确理解勾股定理、灵活运用数形结合思想是解题的关键",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-5D8D3F03D6/figures/ca23a8ca6be77037d64c6c790714106e9d38cf886b6ec98e565f15267821ee94.png",
+    "assets/SZ-G8-T1-5D8D3F03D6/figures/8565124e7176e46a8365d8826f053692297f83588a87fa31829839f7a5c29032.png",
+    "assets/SZ-G8-T1-5D8D3F03D6/figures/320f90c024654436c33ae1d8669b71314e039aad954c67e651a03a0a62765357.png"
+  ],
+  "solution": "【小问1详解】\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，\n由勾股定理得，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，\n故答案为：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n【小问2详解】\n\\(\\because S_{ \\Delta ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABCD } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =(a+b) ^ { 2 }\\)，且\\(S_{ 正方形MNPQ } { \\rm{ = } }4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)，\n\\(\\therefore (a+b) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)\n整理得，\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，\n\\(\\therefore a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，\n故答案为：\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；\n【小问3详解】\n设\\(BE=x\\)，则\\(EC=8-x\\)，\n由折叠的性质可知，\\(AE=EC=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(AE ^ { 2 } =AB ^ { 2 } +BE ^ { 2 }\\)，\n则\\((8-x) ^ { 2 } =4 ^ { 2 } +x ^ { 2 }\\)，\n解得，\\(x=3\\)，\n则\\(BE\\)的长为3．",
+  "solution_steps": [
+    "【小问1详解】",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，",
+    "由勾股定理得，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，",
+    "故答案为：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+    "【小问2详解】",
+    "\\(\\because S_{ \\Delta ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABCD } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =(a+b) ^ { 2 }\\)，且\\(S_{ 正方形MNPQ } { \\rm{ = } }4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)，",
+    "\\(\\therefore (a+b) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)",
+    "整理得，\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，",
+    "\\(\\therefore a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，",
+    "故答案为：\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+    "【小问3详解】",
+    "设\\(BE=x\\)，则\\(EC=8-x\\)，",
+    "由折叠的性质可知，\\(AE=EC=8-x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(AE ^ { 2 } =AB ^ { 2 } +BE ^ { 2 }\\)，",
+    "则\\((8-x) ^ { 2 } =4 ^ { 2 } +x ^ { 2 }\\)，",
+    "解得，\\(x=3\\)，",
+    "则\\(BE\\)的长为3．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "阅读材料，回答问题：",
+      "paper_blocks": [
+        62
+      ]
+    },
+    {
+      "id": "fig-64",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        64
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        70
+      ]
+    },
+    {
+      "id": "fig-72",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5D8D3F03D6-Q22-P01",
+      "label": "（1）",
+      "prompt": "中国古代数学著作《周髀算经》（如图\\(1\\)）有着这样的记载：“勾广三，股修四，经隅五．”这句话的意思是：“如果直角三角形两直角边长分别为\\(3\\)和\\(4\\)，那么斜边的长为\\(5\\)．” 上述记载表明了：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ C } }\\)中，如果\\(\\angle C=90 ^ { \\circ }\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，那么\\(a\\)，\\(b\\)，\\(c\\)，三者之间的数量关系是_____．",
+      "stem_text": "中国古代数学著作《周髀算经》（如图\\(1\\)）有着这样的记载：“勾广三，股修四，经隅五．”这句话的意思是：“如果直角三角形两直角边长分别为\\(3\\)和\\(4\\)，那么斜边的长为\\(5\\)．” 上述记载表明了：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ C } }\\)中，如果\\(\\angle C=90 ^ { \\circ }\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，那么\\(a\\)，\\(b\\)，\\(c\\)，三者之间的数量关系是_____．",
+      "material_ids": [
+        "context",
+        "fig-64",
+        "fig-70",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+      "answer": "\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+      "given_solution": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，\n由勾股定理得，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，\n故答案为：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+      "solution_steps": [
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(BC=a\\)，\\(AC=b\\)，\\(AB=c\\)，",
+        "由勾股定理得，\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，",
+        "故答案为：\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          302,
+          303,
+          304
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5D8D3F03D6-Q22-P02",
+      "label": "（2）",
+      "prompt": "对于这个数量关系，我国汉代数学家赵爽根据“赵爽弦图”（如图\\(2\\)，它是由八个全等的直角三角形围成的一个正方形），利用面积法进行了证明．参考赵爽的思路，将下面的证明过程补充完整：\n证明：\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABDE } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =\\)_____，且_____=_____，\n\\(\\therefore \\left ( { a+b } \\right ) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)，\n整理得 \\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，\n\\(\\therefore\\)_____．",
+      "stem_text": "对于这个数量关系，我国汉代数学家赵爽根据“赵爽弦图”（如图\\(2\\)，它是由八个全等的直角三角形围成的一个正方形），利用面积法进行了证明．参考赵爽的思路，将下面的证明过程补充完整：\n证明：\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABDE } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =\\)_____，且_____=_____，\n\\(\\therefore \\left ( { a+b } \\right ) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)，\n整理得 \\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，\n\\(\\therefore\\)_____．",
+      "material_ids": [
+        "context",
+        "fig-64",
+        "fig-70",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+      "answer": "\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+      "given_solution": "\\(\\because S_{ \\Delta ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABCD } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =(a+b) ^ { 2 }\\)，且\\(S_{ 正方形MNPQ } { \\rm{ = } }4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)，\n\\(\\therefore (a+b) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)\n整理得，\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，\n\\(\\therefore a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，\n故答案为：\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；",
+      "solution_steps": [
+        "\\(\\because S_{ \\Delta ABC } =\\frac { 1 } { 2 }ab\\)，\\(S_{ 正方形ABCD } =c ^ { 2 }\\)，\\(S_{ 正方形MNPQ } =(a+b) ^ { 2 }\\)，且\\(S_{ 正方形MNPQ } { \\rm{ = } }4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)，",
+        "\\(\\therefore (a+b) ^ { 2 } =4\\times \\frac { 1 } { 2 }ab+c ^ { 2 }\\)",
+        "整理得，\\(a ^ { 2 } +2ab+b ^ { 2 } =2ab+c ^ { 2 }\\)，",
+        "\\(\\therefore a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)，",
+        "故答案为：\\((a+b) ^ { 2 }\\)；\\(S_{ 正方形MNPQ }\\)；\\(4S_{ \\vartriangle ABC } +S_{ 正方形ABDE }\\)；\\(a ^ { 2 } +b ^ { 2 } =c ^ { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          306,
+          307,
+          308,
+          309,
+          310
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“解释勾股关系的面积证明”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5D8D3F03D6-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图\\(3\\)，把矩形\\(ABCD\\)折叠，使点\\(C\\)与点\\(A\\)重合，折痕为\\(EF\\)，如果\\(AB=4\\)，\\(BC=8\\)，求 \\(BE\\)的长．",
+      "stem_text": "如图\\(3\\)，把矩形\\(ABCD\\)折叠，使点\\(C\\)与点\\(A\\)重合，折痕为\\(EF\\)，如果\\(AB=4\\)，\\(BC=8\\)，求 \\(BE\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-64",
+        "fig-70",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "3．",
+      "answer": "3．",
+      "given_solution": "设\\(BE=x\\)，则\\(EC=8-x\\)，\n由折叠的性质可知，\\(AE=EC=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(AE ^ { 2 } =AB ^ { 2 } +BE ^ { 2 }\\)，\n则\\((8-x) ^ { 2 } =4 ^ { 2 } +x ^ { 2 }\\)，\n解得，\\(x=3\\)，\n则\\(BE\\)的长为3．",
+      "solution_steps": [
+        "设\\(BE=x\\)，则\\(EC=8-x\\)，",
+        "由折叠的性质可知，\\(AE=EC=8-x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(AE ^ { 2 } =AB ^ { 2 } +BE ^ { 2 }\\)，",
+        "则\\((8-x) ^ { 2 } =4 ^ { 2 } +x ^ { 2 }\\)，",
+        "解得，\\(x=3\\)，",
+        "则\\(BE\\)的长为3．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          62,
+          64,
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          317
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      72
+    ],
+    "solution_body_blocks": [
+      283,
+      318
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5D8D3F03D6/paper-q22-p05.webp",
+      "assets/SZ-G8-T1-5D8D3F03D6/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          670.0
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          53.18,
+          583.64,
+          674.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5D8D3F03D6/solution-q22-p16.webp",
+      "assets/SZ-G8-T1-5D8D3F03D6/solution-q22-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          194.09,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          166.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G04.04.02",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“由勾股关系求直角三角形边长”。 题面对应“解释勾股关系的面积证明”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

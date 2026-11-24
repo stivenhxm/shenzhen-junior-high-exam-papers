@@ -1,0 +1,464 @@
+{
+  "id": "SZ-G8-T2-6A80FA5727-Q21",
+  "paper_id": "SZ-G8-T2-6A80FA5727",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、构造全等关系证明线段或角关系",
+  "stem": "在平行四边形\\(ABCD\\)中，\\(AE\\bot CD\\)于E，\\(CF\\bot AD\\)于F，H为\\(AD\\)上一动点，连接\\(CH\\)，\\(CH\\)交\\(AE\\)于G，且\\(AE=CD=4\\)．\n〔图1〕\n（1）如图1，若\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，求\\(CF\\)、\\(AF\\)的长；\n（2）如图2，当\\(FH=FD\\)时，求证：\\(CG=ED+AG\\)；\n（3）如图3，若\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点H是直线\\(AD\\)上任一点，将线段\\(CH\\)绕C点逆时针旋转\\(60{}^\\circ\\)，得到线段\\(CH'\\)，请直接写出\\(AH'\\)的最小值______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/66/66fd9f63df3893f79501bb5477f963cd54cac57eb8f5eaa5b30c8ff40b108651.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(CF=2\\sqrt[] { 3 }\\)，\\(AF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；\n（2）证明见解析    （3）\\(4-2\\sqrt[] { 3 }\\)",
+  "answer": "（1）\\(CF=2\\sqrt[] { 3 }\\)，\\(AF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；\n（2）证明见解析    （3）\\(4-2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）根据平行四边形的性质，可得\\(\\angle B=\\angle D=60{}^\\circ\\)，再利用含30度角的直角三角形的性质以及勾股定理求解即可；\n（2）过点\\(B\\)作\\(BK\\bot CH\\)于点\\(K\\)，连接\\(BG\\)，由垂直平分线的性质和等边对等角的性质，得到\\(\\angle CHF=\\angle D\\)，证明\\(\\vartriangle BKC≌\\vartriangle AED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得到\\(CK=DE\\)，\\(BK=AE\\)，进而得出\\(BK=AB\\)，再证明\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle KBG\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，得到\\(AG=KG\\)，即可得出结论；\n（3）在\\(DA\\)取点\\(P\\)，使得\\(DP=CD\\)，连接\\(PH'\\)并延长交\\(BC\\)于\\(Q\\)，连接\\(CP\\)，则\\(\\vartriangle CDP\\)是等边三角形，结合旋转的性质，可证\\(\\vartriangle CDH≌\\vartriangle CPH'\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得出\\(\\angle CPH'=\\angle PCD=60{}^\\circ\\)，进而推出\\(AE\\bot PQ\\)，设\\(PQ\\)与\\(AE\\)的交点为\\(O\\)，点\\(H'\\)在直线\\(PQ\\)上运动，则当点\\(H'\\)运动到点\\(O\\)处时，\\(AH'\\)有最小值，由（1）可知，\\(AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，从而得出\\(AP=\\frac { 8\\sqrt[] { 3 } } { 3 }-4\\)，再利用勾股定理，求出\\(OA\\)的长，即为\\(AH'\\)的最小值．\n【小问1详解】\n解：\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，\n\\(\\because CF\\bot AD\\)，\n\\(\\therefore \\angle CFD=90{}^\\circ\\)，\n在\\(Rt\\vartriangle CFD\\)中，\\(\\angle FCD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(CD=4\\)，\n\\(\\therefore DF=\\frac { 1 } { 2 }CD=2\\)，\\(CF=\\sqrt[] { CD ^ { 2 } -DF ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore \\angle AED=90{}^\\circ\\)，\n在\\(Rt\\vartriangle AED\\)中，\\(\\angle EAD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(AE=4\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }AD\\)，\n\\(\\therefore AE=\\sqrt[] { AD ^ { 2 } -DE ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AD=4\\)，\n\\(\\therefore AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n\\(\\therefore AF=AD-DF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；\n【小问2详解】\n证明：如图，过点\\(B\\)作\\(BK\\bot CH\\)于点\\(K\\)，连接\\(BG\\)，\n〔图2〕\n\\(\\because CF\\bot AD\\)，\\(FH=FD\\)，\n\\(\\therefore CF\\)垂直平分\\(DH\\)，\n\\(\\therefore CD=CH\\)，\n\\(\\therefore \\angle CHF=\\angle D\\)，\n\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\\(AB=CD\\)，\n\\(\\therefore \\angle CHF=\\angle BCH\\)，\n\\(\\therefore \\angle D=\\angle BCH\\)，\n在\\(\\vartriangle BKC\\)和\\(\\vartriangle AED\\)中，\n\\(\\begin{cases} \\angle BKC=\\angle AED=90{}^\\circ \\\\ \\angle BCK=\\angle D \\\\ BC=AD \\end{cases}\\)，\n\\(\\therefore \\vartriangle BKC≌\\vartriangle AED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore CK=DE\\)，\\(BK=AE\\)，\n\\(\\because AB=CD\\)，\\(AE=CD\\)，\n\\(\\therefore BK=AB\\)，\n在\\(Rt\\vartriangle ABG\\)和\\(Rt\\vartriangle KBG\\)中，\n\\(\\begin{cases} AB=BK \\\\ BG=BG \\end{cases}\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ABG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle KBG\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n\\(\\therefore AG=KG\\)，\n\\(\\therefore CG=CK+KG=ED+AG\\)；\n【小问3详解】\n解：如图，在\\(DA\\)取点\\(P\\)，使得\\(DP=CD\\)，连接\\(PH'\\)并延长交\\(BC\\)于\\(Q\\)，连接\\(CP\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle CDP\\)是等边三角形，\n\\(\\therefore \\angle DCP=60{}^\\circ\\)，\\(CD=CP\\)，\n由旋转的性质可知，\\(\\angle HCH'=60{}^\\circ\\)，\\(CH=CH'\\)，\n\\(\\therefore \\angle DCP-\\angle PCH=\\angle HCH'-\\angle PCH\\)，即\\(\\angle DCH=\\angle PCH'\\)，\n在\\(\\vartriangle CDH\\)和\\(\\vartriangle CPH'\\)中，\n\\(\\begin{cases} CD=CP \\\\ \\angle DCH=\\angle PCH' \\\\ CH=CH' \\end{cases}\\)，\n\\(\\therefore \\vartriangle CDH≌\\vartriangle CPH'\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle D=\\angle CPH'=60{}^\\circ\\)，\n\\(\\therefore \\angle CPH'=\\angle PCD=60{}^\\circ\\)，\n\\(\\therefore PQ\\parallel CD\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore AE\\bot PQ\\)，\n设\\(PQ\\)与\\(AE\\)的交点为\\(O\\)，\n\\(\\because\\)点\\(H'\\)在直线\\(PQ\\)上运动，\n\\(\\therefore\\)当点\\(H'\\)运动到点\\(O\\)处时，\\(AH'\\)有最小值，\n\\(\\because \\angle AED=90{}^\\circ\\)，\\(\\angle D=60{}^\\circ\\)，\n\\(\\therefore \\angle DAE=30{}^\\circ\\)，\n由（1）可知，\\(AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n\\(\\because CD=DP=4\\)，\n\\(\\therefore AP=AD-DP=\\frac { 8\\sqrt[] { 3 } } { 3 }-4\\)，\n在\\(Rt\\vartriangle AOP\\)中，\\(\\angle PAO=30{}^\\circ\\)，\n\\(\\therefore OP=\\frac { 1 } { 2 }AP=\\frac { 4\\sqrt[] { 3 } } { 3 }-2\\)，\\(OA=\\sqrt[] { AP ^ { 2 } -OP ^ { 2 } }=\\sqrt[] { 3 }OP=4-2\\sqrt[] { 3 }\\)，\n即\\(AH'\\)的最小值为\\(4-2\\sqrt[] { 3 }\\)．\n【点睛】本题考查了平行四边形的性质，含30度角的直角三角形性质，勾股定理，垂直平分线的性质，等腰三角形的判定和性质，全等三角形的判定和性质，等边三角形的判定和性质，旋转的性质等知识，综合性较强，掌握相关知识点是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/66/66fd9f63df3893f79501bb5477f963cd54cac57eb8f5eaa5b30c8ff40b108651.png",
+    "assets/figures/5f/5f54030de144cf05b750cbefa4f540ea686c9b56600a78799ad0ae348174cc78.png",
+    "assets/figures/7e/7e5d5b402cddb56712a51fd25df10ef4de0606b59c771db1b65bc073647e4201.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，\n\\(\\because CF\\bot AD\\)，\n\\(\\therefore \\angle CFD=90{}^\\circ\\)，\n在\\(Rt\\vartriangle CFD\\)中，\\(\\angle FCD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(CD=4\\)，\n\\(\\therefore DF=\\frac { 1 } { 2 }CD=2\\)，\\(CF=\\sqrt[] { CD ^ { 2 } -DF ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore \\angle AED=90{}^\\circ\\)，\n在\\(Rt\\vartriangle AED\\)中，\\(\\angle EAD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(AE=4\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }AD\\)，\n\\(\\therefore AE=\\sqrt[] { AD ^ { 2 } -DE ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AD=4\\)，\n\\(\\therefore AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n\\(\\therefore AF=AD-DF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；\n【小问2详解】\n证明：如图，过点\\(B\\)作\\(BK\\bot CH\\)于点\\(K\\)，连接\\(BG\\)，\n〔图2〕\n\\(\\because CF\\bot AD\\)，\\(FH=FD\\)，\n\\(\\therefore CF\\)垂直平分\\(DH\\)，\n\\(\\therefore CD=CH\\)，\n\\(\\therefore \\angle CHF=\\angle D\\)，\n\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\\(AB=CD\\)，\n\\(\\therefore \\angle CHF=\\angle BCH\\)，\n\\(\\therefore \\angle D=\\angle BCH\\)，\n在\\(\\vartriangle BKC\\)和\\(\\vartriangle AED\\)中，\n\\(\\begin{cases} \\angle BKC=\\angle AED=90{}^\\circ \\\\ \\angle BCK=\\angle D \\\\ BC=AD \\end{cases}\\)，\n\\(\\therefore \\vartriangle BKC≌\\vartriangle AED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore CK=DE\\)，\\(BK=AE\\)，\n\\(\\because AB=CD\\)，\\(AE=CD\\)，\n\\(\\therefore BK=AB\\)，\n在\\(Rt\\vartriangle ABG\\)和\\(Rt\\vartriangle KBG\\)中，\n\\(\\begin{cases} AB=BK \\\\ BG=BG \\end{cases}\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ABG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle KBG\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n\\(\\therefore AG=KG\\)，\n\\(\\therefore CG=CK+KG=ED+AG\\)；\n【小问3详解】\n解：如图，在\\(DA\\)取点\\(P\\)，使得\\(DP=CD\\)，连接\\(PH'\\)并延长交\\(BC\\)于\\(Q\\)，连接\\(CP\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle CDP\\)是等边三角形，\n\\(\\therefore \\angle DCP=60{}^\\circ\\)，\\(CD=CP\\)，\n由旋转的性质可知，\\(\\angle HCH'=60{}^\\circ\\)，\\(CH=CH'\\)，\n\\(\\therefore \\angle DCP-\\angle PCH=\\angle HCH'-\\angle PCH\\)，即\\(\\angle DCH=\\angle PCH'\\)，\n在\\(\\vartriangle CDH\\)和\\(\\vartriangle CPH'\\)中，\n\\(\\begin{cases} CD=CP \\\\ \\angle DCH=\\angle PCH' \\\\ CH=CH' \\end{cases}\\)，\n\\(\\therefore \\vartriangle CDH≌\\vartriangle CPH'\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle D=\\angle CPH'=60{}^\\circ\\)，\n\\(\\therefore \\angle CPH'=\\angle PCD=60{}^\\circ\\)，\n\\(\\therefore PQ\\parallel CD\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore AE\\bot PQ\\)，\n设\\(PQ\\)与\\(AE\\)的交点为\\(O\\)，\n\\(\\because\\)点\\(H'\\)在直线\\(PQ\\)上运动，\n\\(\\therefore\\)当点\\(H'\\)运动到点\\(O\\)处时，\\(AH'\\)有最小值，\n\\(\\because \\angle AED=90{}^\\circ\\)，\\(\\angle D=60{}^\\circ\\)，\n\\(\\therefore \\angle DAE=30{}^\\circ\\)，\n由（1）可知，\\(AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n\\(\\because CD=DP=4\\)，\n\\(\\therefore AP=AD-DP=\\frac { 8\\sqrt[] { 3 } } { 3 }-4\\)，\n在\\(Rt\\vartriangle AOP\\)中，\\(\\angle PAO=30{}^\\circ\\)，\n\\(\\therefore OP=\\frac { 1 } { 2 }AP=\\frac { 4\\sqrt[] { 3 } } { 3 }-2\\)，\\(OA=\\sqrt[] { AP ^ { 2 } -OP ^ { 2 } }=\\sqrt[] { 3 }OP=4-2\\sqrt[] { 3 }\\)，\n即\\(AH'\\)的最小值为\\(4-2\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+    "\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，",
+    "\\(\\because CF\\bot AD\\)，",
+    "\\(\\therefore \\angle CFD=90{}^\\circ\\)，",
+    "在\\(Rt\\vartriangle CFD\\)中，\\(\\angle FCD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(CD=4\\)，",
+    "\\(\\therefore DF=\\frac { 1 } { 2 }CD=2\\)，\\(CF=\\sqrt[] { CD ^ { 2 } -DF ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+    "\\(\\because AE\\bot CD\\)，",
+    "\\(\\therefore \\angle AED=90{}^\\circ\\)，",
+    "在\\(Rt\\vartriangle AED\\)中，\\(\\angle EAD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(AE=4\\)，",
+    "\\(\\therefore DE=\\frac { 1 } { 2 }AD\\)，",
+    "\\(\\therefore AE=\\sqrt[] { AD ^ { 2 } -DE ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AD=4\\)，",
+    "\\(\\therefore AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，",
+    "\\(\\therefore AF=AD-DF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；",
+    "【小问2详解】",
+    "证明：如图，过点\\(B\\)作\\(BK\\bot CH\\)于点\\(K\\)，连接\\(BG\\)，",
+    "〔图2〕",
+    "\\(\\because CF\\bot AD\\)，\\(FH=FD\\)，",
+    "\\(\\therefore CF\\)垂直平分\\(DH\\)，",
+    "\\(\\therefore CD=CH\\)，",
+    "\\(\\therefore \\angle CHF=\\angle D\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+    "\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\\(AB=CD\\)，",
+    "\\(\\therefore \\angle CHF=\\angle BCH\\)，",
+    "\\(\\therefore \\angle D=\\angle BCH\\)，",
+    "在\\(\\vartriangle BKC\\)和\\(\\vartriangle AED\\)中，",
+    "\\(\\begin{cases} \\angle BKC=\\angle AED=90{}^\\circ \\\\ \\angle BCK=\\angle D \\\\ BC=AD \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BKC≌\\vartriangle AED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore CK=DE\\)，\\(BK=AE\\)，",
+    "\\(\\because AB=CD\\)，\\(AE=CD\\)，",
+    "\\(\\therefore BK=AB\\)，",
+    "在\\(Rt\\vartriangle ABG\\)和\\(Rt\\vartriangle KBG\\)中，",
+    "\\(\\begin{cases} AB=BK \\\\ BG=BG \\end{cases}\\)，",
+    "\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ABG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle KBG\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，",
+    "\\(\\therefore AG=KG\\)，",
+    "\\(\\therefore CG=CK+KG=ED+AG\\)；",
+    "【小问3详解】",
+    "解：如图，在\\(DA\\)取点\\(P\\)，使得\\(DP=CD\\)，连接\\(PH'\\)并延长交\\(BC\\)于\\(Q\\)，连接\\(CP\\)，",
+    "〔图3〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+    "\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle CDP\\)是等边三角形，",
+    "\\(\\therefore \\angle DCP=60{}^\\circ\\)，\\(CD=CP\\)，",
+    "由旋转的性质可知，\\(\\angle HCH'=60{}^\\circ\\)，\\(CH=CH'\\)，",
+    "\\(\\therefore \\angle DCP-\\angle PCH=\\angle HCH'-\\angle PCH\\)，即\\(\\angle DCH=\\angle PCH'\\)，",
+    "在\\(\\vartriangle CDH\\)和\\(\\vartriangle CPH'\\)中，",
+    "\\(\\begin{cases} CD=CP \\\\ \\angle DCH=\\angle PCH' \\\\ CH=CH' \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle CDH≌\\vartriangle CPH'\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore \\angle D=\\angle CPH'=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle CPH'=\\angle PCD=60{}^\\circ\\)，",
+    "\\(\\therefore PQ\\parallel CD\\)，",
+    "\\(\\because AE\\bot CD\\)，",
+    "\\(\\therefore AE\\bot PQ\\)，",
+    "设\\(PQ\\)与\\(AE\\)的交点为\\(O\\)，",
+    "\\(\\because\\)点\\(H'\\)在直线\\(PQ\\)上运动，",
+    "\\(\\therefore\\)当点\\(H'\\)运动到点\\(O\\)处时，\\(AH'\\)有最小值，",
+    "\\(\\because \\angle AED=90{}^\\circ\\)，\\(\\angle D=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle DAE=30{}^\\circ\\)，",
+    "由（1）可知，\\(AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，",
+    "\\(\\because CD=DP=4\\)，",
+    "\\(\\therefore AP=AD-DP=\\frac { 8\\sqrt[] { 3 } } { 3 }-4\\)，",
+    "在\\(Rt\\vartriangle AOP\\)中，\\(\\angle PAO=30{}^\\circ\\)，",
+    "\\(\\therefore OP=\\frac { 1 } { 2 }AP=\\frac { 4\\sqrt[] { 3 } } { 3 }-2\\)，\\(OA=\\sqrt[] { AP ^ { 2 } -OP ^ { 2 } }=\\sqrt[] { 3 }OP=4-2\\sqrt[] { 3 }\\)，",
+    "即\\(AH'\\)的最小值为\\(4-2\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平行四边形\\(ABCD\\)中，\\(AE\\bot CD\\)于E，\\(CF\\bot AD\\)于F，H为\\(AD\\)上一动点，连接\\(CH\\)，\\(CH\\)交\\(AE\\)于G，且\\(AE=CD=4\\)．\n〔图1〕",
+      "paper_blocks": [
+        49,
+        50
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-6A80FA5727-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，求\\(CF\\)、\\(AF\\)的长；",
+      "stem_text": "如图1，若\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，求\\(CF\\)、\\(AF\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(CF=2\\sqrt[] { 3 }\\)，\\(AF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；",
+      "answer": "\\(CF=2\\sqrt[] { 3 }\\)，\\(AF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；",
+      "given_solution": "解：\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，\n\\(\\because CF\\bot AD\\)，\n\\(\\therefore \\angle CFD=90{}^\\circ\\)，\n在\\(Rt\\vartriangle CFD\\)中，\\(\\angle FCD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(CD=4\\)，\n\\(\\therefore DF=\\frac { 1 } { 2 }CD=2\\)，\\(CF=\\sqrt[] { CD ^ { 2 } -DF ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore \\angle AED=90{}^\\circ\\)，\n在\\(Rt\\vartriangle AED\\)中，\\(\\angle EAD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(AE=4\\)，\n\\(\\therefore DE=\\frac { 1 } { 2 }AD\\)，\n\\(\\therefore AE=\\sqrt[] { AD ^ { 2 } -DE ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AD=4\\)，\n\\(\\therefore AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n\\(\\therefore AF=AD-DF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+        "\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，",
+        "\\(\\because CF\\bot AD\\)，",
+        "\\(\\therefore \\angle CFD=90{}^\\circ\\)，",
+        "在\\(Rt\\vartriangle CFD\\)中，\\(\\angle FCD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(CD=4\\)，",
+        "\\(\\therefore DF=\\frac { 1 } { 2 }CD=2\\)，\\(CF=\\sqrt[] { CD ^ { 2 } -DF ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+        "\\(\\because AE\\bot CD\\)，",
+        "\\(\\therefore \\angle AED=90{}^\\circ\\)，",
+        "在\\(Rt\\vartriangle AED\\)中，\\(\\angle EAD=90{}^\\circ -\\angle D=30{}^\\circ\\)，\\(AE=4\\)，",
+        "\\(\\therefore DE=\\frac { 1 } { 2 }AD\\)，",
+        "\\(\\therefore AE=\\sqrt[] { AD ^ { 2 } -DE ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AD=4\\)，",
+        "\\(\\therefore AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，",
+        "\\(\\therefore AF=AD-DF=\\frac { 8\\sqrt[] { 3 } } { 3 }-2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          51
+        ],
+        "solution_block_ids": [
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6A80FA5727-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图2，当\\(FH=FD\\)时，求证：\\(CG=ED+AG\\)；",
+      "stem_text": "如图2，当\\(FH=FD\\)时，求证：\\(CG=ED+AG\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "证明：如图，过点\\(B\\)作\\(BK\\bot CH\\)于点\\(K\\)，连接\\(BG\\)，\n〔图2〕\n\\(\\because CF\\bot AD\\)，\\(FH=FD\\)，\n\\(\\therefore CF\\)垂直平分\\(DH\\)，\n\\(\\therefore CD=CH\\)，\n\\(\\therefore \\angle CHF=\\angle D\\)，\n\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\\(AB=CD\\)，\n\\(\\therefore \\angle CHF=\\angle BCH\\)，\n\\(\\therefore \\angle D=\\angle BCH\\)，\n在\\(\\vartriangle BKC\\)和\\(\\vartriangle AED\\)中，\n\\(\\begin{cases} \\angle BKC=\\angle AED=90{}^\\circ \\\\ \\angle BCK=\\angle D \\\\ BC=AD \\end{cases}\\)，\n\\(\\therefore \\vartriangle BKC≌\\vartriangle AED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore CK=DE\\)，\\(BK=AE\\)，\n\\(\\because AB=CD\\)，\\(AE=CD\\)，\n\\(\\therefore BK=AB\\)，\n在\\(Rt\\vartriangle ABG\\)和\\(Rt\\vartriangle KBG\\)中，\n\\(\\begin{cases} AB=BK \\\\ BG=BG \\end{cases}\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ABG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle KBG\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n\\(\\therefore AG=KG\\)，\n\\(\\therefore CG=CK+KG=ED+AG\\)；",
+      "solution_steps": [
+        "证明：如图，过点\\(B\\)作\\(BK\\bot CH\\)于点\\(K\\)，连接\\(BG\\)，",
+        "〔图2〕",
+        "\\(\\because CF\\bot AD\\)，\\(FH=FD\\)，",
+        "\\(\\therefore CF\\)垂直平分\\(DH\\)，",
+        "\\(\\therefore CD=CH\\)，",
+        "\\(\\therefore \\angle CHF=\\angle D\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+        "\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\\(AB=CD\\)，",
+        "\\(\\therefore \\angle CHF=\\angle BCH\\)，",
+        "\\(\\therefore \\angle D=\\angle BCH\\)，",
+        "在\\(\\vartriangle BKC\\)和\\(\\vartriangle AED\\)中，",
+        "\\(\\begin{cases} \\angle BKC=\\angle AED=90{}^\\circ \\\\ \\angle BCK=\\angle D \\\\ BC=AD \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle BKC≌\\vartriangle AED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore CK=DE\\)，\\(BK=AE\\)，",
+        "\\(\\because AB=CD\\)，\\(AE=CD\\)，",
+        "\\(\\therefore BK=AB\\)，",
+        "在\\(Rt\\vartriangle ABG\\)和\\(Rt\\vartriangle KBG\\)中，",
+        "\\(\\begin{cases} AB=BK \\\\ BG=BG \\end{cases}\\)，",
+        "\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle ABG≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle KBG\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，",
+        "\\(\\therefore AG=KG\\)，",
+        "\\(\\therefore CG=CK+KG=ED+AG\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          52
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6A80FA5727-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图3，若\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点H是直线\\(AD\\)上任一点，将线段\\(CH\\)绕C点逆时针旋转\\(60{}^\\circ\\)，得到线段\\(CH'\\)，请直接写出\\(AH'\\)的最小值______．",
+      "stem_text": "如图3，若\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点H是直线\\(AD\\)上任一点，将线段\\(CH\\)绕C点逆时针旋转\\(60{}^\\circ\\)，得到线段\\(CH'\\)，请直接写出\\(AH'\\)的最小值______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4-2\\sqrt[] { 3 }\\)",
+      "answer": "\\(4-2\\sqrt[] { 3 }\\)",
+      "given_solution": "解：如图，在\\(DA\\)取点\\(P\\)，使得\\(DP=CD\\)，连接\\(PH'\\)并延长交\\(BC\\)于\\(Q\\)，连接\\(CP\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是平行四边形，\n\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle CDP\\)是等边三角形，\n\\(\\therefore \\angle DCP=60{}^\\circ\\)，\\(CD=CP\\)，\n由旋转的性质可知，\\(\\angle HCH'=60{}^\\circ\\)，\\(CH=CH'\\)，\n\\(\\therefore \\angle DCP-\\angle PCH=\\angle HCH'-\\angle PCH\\)，即\\(\\angle DCH=\\angle PCH'\\)，\n在\\(\\vartriangle CDH\\)和\\(\\vartriangle CPH'\\)中，\n\\(\\begin{cases} CD=CP \\\\ \\angle DCH=\\angle PCH' \\\\ CH=CH' \\end{cases}\\)，\n\\(\\therefore \\vartriangle CDH≌\\vartriangle CPH'\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle D=\\angle CPH'=60{}^\\circ\\)，\n\\(\\therefore \\angle CPH'=\\angle PCD=60{}^\\circ\\)，\n\\(\\therefore PQ\\parallel CD\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore AE\\bot PQ\\)，\n设\\(PQ\\)与\\(AE\\)的交点为\\(O\\)，\n\\(\\because\\)点\\(H'\\)在直线\\(PQ\\)上运动，\n\\(\\therefore\\)当点\\(H'\\)运动到点\\(O\\)处时，\\(AH'\\)有最小值，\n\\(\\because \\angle AED=90{}^\\circ\\)，\\(\\angle D=60{}^\\circ\\)，\n\\(\\therefore \\angle DAE=30{}^\\circ\\)，\n由（1）可知，\\(AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n\\(\\because CD=DP=4\\)，\n\\(\\therefore AP=AD-DP=\\frac { 8\\sqrt[] { 3 } } { 3 }-4\\)，\n在\\(Rt\\vartriangle AOP\\)中，\\(\\angle PAO=30{}^\\circ\\)，\n\\(\\therefore OP=\\frac { 1 } { 2 }AP=\\frac { 4\\sqrt[] { 3 } } { 3 }-2\\)，\\(OA=\\sqrt[] { AP ^ { 2 } -OP ^ { 2 } }=\\sqrt[] { 3 }OP=4-2\\sqrt[] { 3 }\\)，\n即\\(AH'\\)的最小值为\\(4-2\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：如图，在\\(DA\\)取点\\(P\\)，使得\\(DP=CD\\)，连接\\(PH'\\)并延长交\\(BC\\)于\\(Q\\)，连接\\(CP\\)，",
+        "〔图3〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是平行四边形，",
+        "\\(\\therefore \\angle B=\\angle D=60{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle CDP\\)是等边三角形，",
+        "\\(\\therefore \\angle DCP=60{}^\\circ\\)，\\(CD=CP\\)，",
+        "由旋转的性质可知，\\(\\angle HCH'=60{}^\\circ\\)，\\(CH=CH'\\)，",
+        "\\(\\therefore \\angle DCP-\\angle PCH=\\angle HCH'-\\angle PCH\\)，即\\(\\angle DCH=\\angle PCH'\\)，",
+        "在\\(\\vartriangle CDH\\)和\\(\\vartriangle CPH'\\)中，",
+        "\\(\\begin{cases} CD=CP \\\\ \\angle DCH=\\angle PCH' \\\\ CH=CH' \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle CDH≌\\vartriangle CPH'\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore \\angle D=\\angle CPH'=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle CPH'=\\angle PCD=60{}^\\circ\\)，",
+        "\\(\\therefore PQ\\parallel CD\\)，",
+        "\\(\\because AE\\bot CD\\)，",
+        "\\(\\therefore AE\\bot PQ\\)，",
+        "设\\(PQ\\)与\\(AE\\)的交点为\\(O\\)，",
+        "\\(\\because\\)点\\(H'\\)在直线\\(PQ\\)上运动，",
+        "\\(\\therefore\\)当点\\(H'\\)运动到点\\(O\\)处时，\\(AH'\\)有最小值，",
+        "\\(\\because \\angle AED=90{}^\\circ\\)，\\(\\angle D=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle DAE=30{}^\\circ\\)，",
+        "由（1）可知，\\(AD=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，",
+        "\\(\\because CD=DP=4\\)，",
+        "\\(\\therefore AP=AD-DP=\\frac { 8\\sqrt[] { 3 } } { 3 }-4\\)，",
+        "在\\(Rt\\vartriangle AOP\\)中，\\(\\angle PAO=30{}^\\circ\\)，",
+        "\\(\\therefore OP=\\frac { 1 } { 2 }AP=\\frac { 4\\sqrt[] { 3 } } { 3 }-2\\)，\\(OA=\\sqrt[] { AP ^ { 2 } -OP ^ { 2 } }=\\sqrt[] { 3 }OP=4-2\\sqrt[] { 3 }\\)，",
+        "即\\(AH'\\)的最小值为\\(4-2\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          53
+        ],
+        "solution_block_ids": [
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          16,
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      53
+    ],
+    "solution_body_blocks": [
+      278,
+      353
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6A80FA5727/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          237.73,
+          583.64,
+          463.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6A80FA5727/solution-q21-p14.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q21-p15.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q21-p16.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q21-p17.webp",
+      "assets/SZ-G8-T2-6A80FA5727/solution-q21-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          676.36,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          731.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          174.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G03.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

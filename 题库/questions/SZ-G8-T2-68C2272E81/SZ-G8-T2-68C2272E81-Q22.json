@@ -1,0 +1,452 @@
+{
+  "id": "SZ-G8-T2-68C2272E81-Q22",
+  "paper_id": "SZ-G8-T2-68C2272E81",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "在课外小组活动时，小慧拿来一道题（原问题）和小东、小明交流．\n原问题：如图1，已知△ABC，∠ACB＝90°，∠ABC＝45°，分别以AB、BC为边向外作△ABD与△BCE，且DA＝DB，EB＝EC，∠ADB＝∠BEC＝90°，连接DE交AB于点F．探究线段DF与EF的数量关系．\n小慧同学的思路是：过点D作DG⊥AB于G，构造全等三角形，通过推理使问题得解．\n小东同学说：我做过一道类似的题目，不同的是∠ABC＝30°，∠ADB＝∠BEC＝60度．\n小明同学经过合情推理，提出一个猜想，我们可以把问题推广到一般情况．\n请你参考小慧同学的思路，探究并解决这三位同学提出的问题：\n（1）写出原问题中DF与EF的数量关系；\n（2）如图2，若∠ABC＝30°，∠ADB＝∠BEC＝60°，原问题中的其他条件不变，你在（1）中得到的结论是否发生变化？请写出你的猜想并加以证明；\n（3）如图3，若∠ADB＝∠BEC＝2∠ABC，原问题中的其他条件不变，你在（1）中得到的结论是否发生变化？请写出你的猜想并加以证明．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/aa/aa58eeda7bbe39a8cb58cfd532c8d6532aafe88e45756525bc68f0dd37e4f43f.jpeg"
+  ],
+  "tables": [],
+  "given_answer": "",
+  "answer": "解：（1）DF＝EF．\n（2）猜想：DF＝FE．\n∴DF＝EF．",
+  "given_solution": "解：（1）DF＝EF．\n（2）猜想：DF＝FE．\n证明：过点D作DG⊥AB于G，则∠DGB＝90度．\n∵DA＝DB，∠ADB＝60度．\n∴AG＝BG，△DBA是等边三角形．\n∴DB＝BA．\n∵∠ACB＝90°，∠ABC＝30°，\n∴AC＝〔图2〕AB＝BG．\n在Rt△DBG和Rt△BAC中\n〔图3〕\n∴Rt△DBG≌Rt△BAC（HL）．\n∴DG＝BC．\n∵BE＝EC，∠BEC＝60°，\n∴△EBC是等边三角形．\n∴BC＝BE，∠CBE＝60度．\n∴DG＝BE，∠ABE＝∠ABC+∠CBE＝90°．\n∵∠DFG＝∠EFB，∠DGF＝∠EBF，\n在△DFG和△EFB中\n〔图4〕\n∴△DFG≌△EFB（AAS）．\n∴DF＝EF．\n（3）猜想：DF＝FE．\n过点D作DH⊥AB于H，连接HC，HE，HE交CB于K，则∠DHB＝90度．\n∵DA＝DB，\n∴AH＝BH，∠1＝∠HDB．\n∵∠ACB＝90°，\n∴HC＝HB．\n在△HBE和△HCE中\n〔图5〕\n∴△HBE≌△HCE（SSS）．\n∴∠2＝∠3，∠4＝∠BEH．\n∴HK⊥BC．\n∴∠BKE＝90°．\n∵∠ADB＝∠BEC＝2∠ABC，\n∴∠HDB＝∠BEH＝∠ABC．\n∴∠DBC＝∠DBH+∠ABC＝∠DBH+∠HDB＝90°，\n∠EBH＝∠EBK+∠ABC＝∠EBK+∠BEK＝90°．\n∴DB∥HE，DH∥BE．\n∴四边形DHEB是平行四边形．\n∴DF＝EF．\n〔图6〕",
+  "given_solution_figures": [
+    "assets/figures/50/50f374bb7358ce6905f4657b4b4e54873c795ce4c69502d60b493d26ba2c6d91.jpeg",
+    "assets/figures/e7/e71388d53cf9f98a43d6c5a705ad30db7635a3cb495ae17cd9ba0b7b93bf1359.jpeg",
+    "assets/figures/84/84e6d6be1b905164638449f58216a6995a168642be948cb712c7b87c00c08964.jpeg",
+    "assets/figures/f2/f26ea37039c7be8cd4a3daa2509ffc5fb5eb824438b0cec4ee137064749de09b.jpeg",
+    "assets/figures/e6/e6908830b88d7897fd1dc799eefe6eb973c8c124e05a8240334623740e3da271.jpeg",
+    "assets/figures/6f/6f7c1616029edfadb2c3aa9e88479d7363eb21d510c6ffe6b5ee6271587f0e38.jpeg"
+  ],
+  "solution": "解：（1）DF＝EF．\n（2）猜想：DF＝FE．\n证明：过点D作DG⊥AB于G，则∠DGB＝90度．\n∵DA＝DB，∠ADB＝60度．\n∴AG＝BG，△DBA是等边三角形．\n∴DB＝BA．\n∵∠ACB＝90°，∠ABC＝30°，\n∴AC＝〔图2〕AB＝BG．\n在Rt△DBG和Rt△BAC中\n〔图3〕\n∴Rt△DBG≌Rt△BAC（HL）．\n∴DG＝BC．\n∵BE＝EC，∠BEC＝60°，\n∴△EBC是等边三角形．\n∴BC＝BE，∠CBE＝60度．\n∴DG＝BE，∠ABE＝∠ABC+∠CBE＝90°．\n∵∠DFG＝∠EFB，∠DGF＝∠EBF，\n在△DFG和△EFB中\n〔图4〕\n∴△DFG≌△EFB（AAS）．\n∴DF＝EF．\n（3）猜想：DF＝FE．\n过点D作DH⊥AB于H，连接HC，HE，HE交CB于K，则∠DHB＝90度．\n∵DA＝DB，\n∴AH＝BH，∠1＝∠HDB．\n∵∠ACB＝90°，\n∴HC＝HB．\n在△HBE和△HCE中\n〔图5〕\n∴△HBE≌△HCE（SSS）．\n∴∠2＝∠3，∠4＝∠BEH．\n∴HK⊥BC．\n∴∠BKE＝90°．\n∵∠ADB＝∠BEC＝2∠ABC，\n∴∠HDB＝∠BEH＝∠ABC．\n∴∠DBC＝∠DBH+∠ABC＝∠DBH+∠HDB＝90°，\n∠EBH＝∠EBK+∠ABC＝∠EBK+∠BEK＝90°．\n∴DB∥HE，DH∥BE．\n∴四边形DHEB是平行四边形．\n∴DF＝EF．\n〔图6〕",
+  "solution_steps": [
+    "解：（1）DF＝EF．",
+    "（2）猜想：DF＝FE．",
+    "证明：过点D作DG⊥AB于G，则∠DGB＝90度．",
+    "∵DA＝DB，∠ADB＝60度．",
+    "∴AG＝BG，△DBA是等边三角形．",
+    "∴DB＝BA．",
+    "∵∠ACB＝90°，∠ABC＝30°，",
+    "∴AC＝〔图2〕AB＝BG．",
+    "在Rt△DBG和Rt△BAC中",
+    "〔图3〕",
+    "∴Rt△DBG≌Rt△BAC（HL）．",
+    "∴DG＝BC．",
+    "∵BE＝EC，∠BEC＝60°，",
+    "∴△EBC是等边三角形．",
+    "∴BC＝BE，∠CBE＝60度．",
+    "∴DG＝BE，∠ABE＝∠ABC+∠CBE＝90°．",
+    "∵∠DFG＝∠EFB，∠DGF＝∠EBF，",
+    "在△DFG和△EFB中",
+    "〔图4〕",
+    "∴△DFG≌△EFB（AAS）．",
+    "∴DF＝EF．",
+    "（3）猜想：DF＝FE．",
+    "过点D作DH⊥AB于H，连接HC，HE，HE交CB于K，则∠DHB＝90度．",
+    "∵DA＝DB，",
+    "∴AH＝BH，∠1＝∠HDB．",
+    "∵∠ACB＝90°，",
+    "∴HC＝HB．",
+    "在△HBE和△HCE中",
+    "〔图5〕",
+    "∴△HBE≌△HCE（SSS）．",
+    "∴∠2＝∠3，∠4＝∠BEH．",
+    "∴HK⊥BC．",
+    "∴∠BKE＝90°．",
+    "∵∠ADB＝∠BEC＝2∠ABC，",
+    "∴∠HDB＝∠BEH＝∠ABC．",
+    "∴∠DBC＝∠DBH+∠ABC＝∠DBH+∠HDB＝90°，",
+    "∠EBH＝∠EBK+∠ABC＝∠EBK+∠BEK＝90°．",
+    "∴DB∥HE，DH∥BE．",
+    "∴四边形DHEB是平行四边形．",
+    "∴DF＝EF．",
+    "〔图6〕"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在课外小组活动时，小慧拿来一道题（原问题）和小东、小明交流．\n原问题：如图1，已知△ABC，∠ACB＝90°，∠ABC＝45°，分别以AB、BC为边向外作△ABD与△BCE，且DA＝DB，EB＝EC，∠ADB＝∠BEC＝90°，连接DE交AB于点F．探究线段DF与EF的数量关系．\n小慧同学的思路是：过点D作DG⊥AB于G，构造全等三角形，通过推理使问题得解．\n小东同学说：我做过一道类似的题目，不同的是∠ABC＝30°，∠ADB＝∠BEC＝60度．\n小明同学经过合情推理，提出一个猜想，我们可以把问题推广到一般情况．\n请你参考小慧同学的思路，探究并解决这三位同学提出的问题：",
+      "paper_blocks": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：写出原问题中DF与EF的数量关系；",
+      "paper_blocks": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-68C2272E81-Q22-P01",
+      "label": "（1）",
+      "prompt": "写出原问题中DF与EF的数量关系；",
+      "stem_text": "写出原问题中DF与EF的数量关系；",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "DF＝EF．",
+      "given_solution": "DF＝EF．",
+      "solution_steps": [
+        "DF＝EF．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          406
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-68C2272E81-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，若∠ABC＝30°，∠ADB＝∠BEC＝60°，原问题中的其他条件不变，你在（1）中得到的结论是否发生变化？请写出你的猜想并加以证明；",
+      "stem_text": "如图2，若∠ABC＝30°，∠ADB＝∠BEC＝60°，原问题中的其他条件不变，你在（1）中得到的结论是否发生变化？请写出你的猜想并加以证明；",
+      "material_ids": [
+        "context",
+        "fig-70",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G8-T2-68C2272E81-Q22-P01"
+      ],
+      "given_answer": "",
+      "answer": "∴DF＝EF．",
+      "given_solution": "猜想：DF＝FE．\n证明：过点D作DG⊥AB于G，则∠DGB＝90度．\n∵DA＝DB，∠ADB＝60度．\n∴AG＝BG，△DBA是等边三角形．\n∴DB＝BA．\n∵∠ACB＝90°，∠ABC＝30°，\n∴AC＝〔图2〕AB＝BG．\n在Rt△DBG和Rt△BAC中\n〔图3〕\n∴Rt△DBG≌Rt△BAC（HL）．\n∴DG＝BC．\n∵BE＝EC，∠BEC＝60°，\n∴△EBC是等边三角形．\n∴BC＝BE，∠CBE＝60度．\n∴DG＝BE，∠ABE＝∠ABC+∠CBE＝90°．\n∵∠DFG＝∠EFB，∠DGF＝∠EBF，\n在△DFG和△EFB中\n〔图4〕\n∴△DFG≌△EFB（AAS）．\n∴DF＝EF．",
+      "solution_steps": [
+        "猜想：DF＝FE．",
+        "证明：过点D作DG⊥AB于G，则∠DGB＝90度．",
+        "∵DA＝DB，∠ADB＝60度．",
+        "∴AG＝BG，△DBA是等边三角形．",
+        "∴DB＝BA．",
+        "∵∠ACB＝90°，∠ABC＝30°，",
+        "∴AC＝〔图2〕AB＝BG．",
+        "在Rt△DBG和Rt△BAC中",
+        "〔图3〕",
+        "∴Rt△DBG≌Rt△BAC（HL）．",
+        "∴DG＝BC．",
+        "∵BE＝EC，∠BEC＝60°，",
+        "∴△EBC是等边三角形．",
+        "∴BC＝BE，∠CBE＝60度．",
+        "∴DG＝BE，∠ABE＝∠ABC+∠CBE＝90°．",
+        "∵∠DFG＝∠EFB，∠DGF＝∠EBF，",
+        "在△DFG和△EFB中",
+        "〔图4〕",
+        "∴△DFG≌△EFB（AAS）．",
+        "∴DF＝EF．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-68C2272E81-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，若∠ADB＝∠BEC＝2∠ABC，原问题中的其他条件不变，你在（1）中得到的结论是否发生变化？请写出你的猜想并加以证明．",
+      "stem_text": "如图3，若∠ADB＝∠BEC＝2∠ABC，原问题中的其他条件不变，你在（1）中得到的结论是否发生变化？请写出你的猜想并加以证明．",
+      "material_ids": [
+        "context",
+        "fig-70",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G8-T2-68C2272E81-Q22-P01"
+      ],
+      "given_answer": "",
+      "answer": "结论保持不变，DF＝EF。",
+      "given_solution": "猜想：DF＝FE．\n过点D作DH⊥AB于H，连接HC，HE，HE交CB于K，则∠DHB＝90度．\n∵DA＝DB，\n∴AH＝BH，∠1＝∠HDB．\n∵∠ACB＝90°，\n∴HC＝HB．\n在△HBE和△HCE中\n〔图5〕\n∴△HBE≌△HCE（SSS）．\n∴∠2＝∠3，∠4＝∠BEH．\n∴HK⊥BC．\n∴∠BKE＝90°．\n∵∠ADB＝∠BEC＝2∠ABC，\n∴∠HDB＝∠BEH＝∠ABC．\n∴∠DBC＝∠DBH+∠ABC＝∠DBH+∠HDB＝90°，\n∠EBH＝∠EBK+∠ABC＝∠EBK+∠BEK＝90°．\n∴DB∥HE，DH∥BE．\n∴四边形DHEB是平行四边形．\n∴DF＝EF．\n〔图6〕",
+      "solution_steps": [
+        "猜想：DF＝FE．",
+        "过点D作DH⊥AB于H，连接HC，HE，HE交CB于K，则∠DHB＝90度．",
+        "∵DA＝DB，",
+        "∴AH＝BH，∠1＝∠HDB．",
+        "∵∠ACB＝90°，",
+        "∴HC＝HB．",
+        "在△HBE和△HCE中",
+        "〔图5〕",
+        "∴△HBE≌△HCE（SSS）．",
+        "∴∠2＝∠3，∠4＝∠BEH．",
+        "∴HK⊥BC．",
+        "∴∠BKE＝90°．",
+        "∵∠ADB＝∠BEC＝2∠ABC，",
+        "∴∠HDB＝∠BEH＝∠ABC．",
+        "∴∠DBC＝∠DBH+∠ABC＝∠DBH+∠HDB＝90°，",
+        "∠EBH＝∠EBK+∠ABC＝∠EBK+∠BEK＝90°．",
+        "∴DB∥HE，DH∥BE．",
+        "∴四边形DHEB是平行四边形．",
+        "∴DF＝EF．",
+        "〔图6〕"
+      ],
+      "solution_figure_ids": [
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "答案摘要取自本题配套详解中相应的结论。",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      70
+    ],
+    "solution_body_blocks": [
+      396,
+      446
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-68C2272E81/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-68C2272E81/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          685.45,
+          583.64,
+          770.0
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          76.82,
+          583.64,
+          420.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-68C2272E81/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-68C2272E81/solution-q22-p22.webp",
+      "assets/SZ-G8-T2-68C2272E81/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          693.18,
+          583.64,
+          754.55
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          76.82,
+          583.64,
+          761.36
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          77.73,
+          583.64,
+          443.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

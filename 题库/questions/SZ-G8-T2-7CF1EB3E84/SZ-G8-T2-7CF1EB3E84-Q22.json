@@ -1,0 +1,406 @@
+{
+  "id": "SZ-G8-T2-7CF1EB3E84-Q22",
+  "paper_id": "SZ-G8-T2-7CF1EB3E84",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "（1）特殊情景：如图（1），在四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，以点A为顶点作一个角，角的两边分别交\\(BC\\)，\\(CD\\)于点E，F，且\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，连接\\(EF\\)，若\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，探究：线段\\(BE，DF，EF\\)之间的数量关系，并说明理由．\n（2）类比猜想：类比特殊情景，在上述（1）条件下，把“\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)”改成一般情况“\\(\\angle B{ \\rm{ + } }\\angle D{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)”，如图（2），小明猜想：线段\\(BE，DF，EF\\)之间的数量关系是否仍然成立？若成立，请你证明结论；若不成立，请你写出成立时α的取值范围．\n（3）解决问题：如图（3），在\\(\\vartriangle ABC\\)中，\\(\\angle BAC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(AB=AC=4\\)，点D，E均在边\\(BC\\)上，且\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，若\\(BD=\\sqrt[] { 2 }\\)，计算\\(DE\\)的长度．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/e8/e8c5ee5f496872f9f2a3c586991725adbeed5011e5ee39d829dfbf58ddc0bfe7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BE+DF=EF\\)，理由见解析；（2）成立，证明见解析；（3）\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+  "answer": "（1）\\(BE+DF=EF\\)，理由见解析；（2）成立，证明见解析；（3）\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+  "given_solution": "【分析】（1）将\\(\\vartriangle ABE\\)绕点A顺时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle ADG\\)，据此知\\(AE=AG，BE=DG，\\angle BAE=\\angle DAG\\)．证\\(\\vartriangle AFE\\cong \\vartriangle AFG\\)得\\(EF{ \\rm{ = } }FG\\)，从而得出答案；\n（2）将\\(\\vartriangle ABE\\)绕点A顺时针旋转α得到\\(\\vartriangle ADH\\)，知\\(\\angle ABE=\\angle ADH，\\angle BAE=\\angle DAH，AE=AH，BE=DH\\)，证\\(\\vartriangle AEF\\cong \\vartriangle AHF\\)得\\(EF=FH=DF+DH=DF+BE\\)；\n（3）将\\(\\vartriangle AEC\\)绕点A逆时针旋转90°，得到\\(\\vartriangle AE'B\\)，连接\\(DE'\\)．据此知\\(BE'=EC，AE'=AE，\\angle C=\\angle ABE'，\\angle EAC=\\angle E'AB\\)，由\\(AB=AC=4\\)知\\(\\angle ABC{ \\rm{ + } }\\angle ABE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，即\\(\\angle E'BD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，从而得\\(E'B ^ { 2 } +BD ^ { 2 } =E'D ^ { 2 }\\)．易证\\(\\vartriangle AE'D\\cong \\vartriangle AED\\)得\\(DE=DE'\\)，根据\\(DE ^ { 2 } =BD ^ { 2 } +EC ^ { 2 }\\)可得答案．\n【详解】解：（1）\\(BE+DF=EF\\)，理由如下：\n如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle ADG\\)，\n〔图2〕\n∵四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD，\\)\n∵\\(\\angle ADC{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle ADG{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF{ \\rm{ = } }\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\angle BAD{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle FDG{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，即点F，D，G共线．\n由旋转可得\\(AE=AG，BE=DG，\\angle BAE=\\angle DAG\\)．\n∵\\(\\angle BAE{ \\rm{ + } }\\angle DAF{ \\rm{ = } }\\angle BAD-\\angle EAF{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAG{ \\rm{ + } }\\angle DAF{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle EAF=\\angle FAG\\)，\n∵\\(AF=AF\\)，\n∴\\(\\vartriangle AFE\\cong \\vartriangle AFG（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(EF{ \\rm{ = } }FG\\)．\n又∵\\(FG=DG+DF=BE+DF\\)，\n∴\\(BE+DF=EF\\)；\n（2）成立．\\(EF{ \\rm{ = } }BE{ \\rm{ + } }DF\\)；\n证明：设\\(\\angle BAD=\\alpha\\)，则\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，\n如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转α得到\\(\\vartriangle ADH\\)，\n〔图3〕\n∴\\(\\angle ABE=\\angle ADH，\\angle BAE=\\angle DAH，AE=AH，BE=DH\\)．\n∵\\(\\angle B{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle ADH{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴点C，D，H在同一直线上．\n∵\\(\\angle BAD=\\alpha\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle BAE+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle DAH+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle FAH=\\angle EAF\\)，\n又∵\\(AF=AF\\)，\n∴\\(\\vartriangle AEF\\cong \\vartriangle AHF（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(EF=FH=DF+DH=BE+DF\\)；\n（3）如图，将\\(\\vartriangle AEC\\)绕点A逆时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle AE'B\\)，连接\\(DE'\\)．\n〔图4〕\n∴\\(BE'=EC，AE'=AE，\\angle C=\\angle ABE'，\\angle EAC=\\angle E'AB\\)，\n∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAE'=\\angle DAE\\)，\n∵\\(AD{ \\rm{ = } }AD\\)，\n∴\\(\\vartriangle AE'D\\cong \\vartriangle AED（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(DE=DE'\\)，\n在\\(Rt\\vartriangle ABC\\)中，\\(AB=AC=4\\)，\n∴\\(\\angle ABC{ \\rm{ = } }\\angle ACB{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(BC=4\\sqrt[] { 2 }\\)，\n∴\\(CD=BC-BD=3\\sqrt[] { 2 }\\)，\\(\\angle ABC{ \\rm{ + } }\\angle ABE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，即\\(\\angle E'BD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(E'B ^ { 2 } +BD ^ { 2 } =E'D ^ { 2 }\\)．\n∵\\(DE=DE'\\)，\n∴\\(DE ^ { 2 } =BD ^ { 2 } +EC ^ { 2 }\\)，即\\(DE ^ { 2 } =\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 2 }-DE } \\right ) ^ { 2 }\\)，\n解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．\n【点睛】本题是四边形的综合问题，考查旋转变换的性质，勾股定理，正方形的性质，全等三角形的判定与性质，直角三角形的有关性质等．熟练掌握全等三角形的判定与性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/e7/e7dfd9318e4a351e1fd3a4a2c0caa44a799d17a3b3fc88735cc11b4eec50b497.png",
+    "assets/figures/b0/b0d46f7d65ffe172224cdc0054a333402e9d7c1a26d876343585fc443f26b2db.png",
+    "assets/figures/64/641fc3a3257510fa75c39b4d7945f4543e7a2a0ffa71dcac2cf69f11c0994551.png",
+    "assets/figures/cc/cc1a6c28cd1fa4001e04a00c8497456cba78646dd6517c4d06e49101a569bdb9.png"
+  ],
+  "solution": "解：（1）\\(BE+DF=EF\\)，理由如下：\n如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle ADG\\)，\n〔图2〕\n∵四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD，\\)\n∵\\(\\angle ADC{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle ADG{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF{ \\rm{ = } }\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\angle BAD{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle FDG{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，即点F，D，G共线．\n由旋转可得\\(AE=AG，BE=DG，\\angle BAE=\\angle DAG\\)．\n∵\\(\\angle BAE{ \\rm{ + } }\\angle DAF{ \\rm{ = } }\\angle BAD-\\angle EAF{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAG{ \\rm{ + } }\\angle DAF{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle EAF=\\angle FAG\\)，\n∵\\(AF=AF\\)，\n∴\\(\\vartriangle AFE\\cong \\vartriangle AFG（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(EF{ \\rm{ = } }FG\\)．\n又∵\\(FG=DG+DF=BE+DF\\)，\n∴\\(BE+DF=EF\\)；\n（2）成立．\\(EF{ \\rm{ = } }BE{ \\rm{ + } }DF\\)；\n证明：设\\(\\angle BAD=\\alpha\\)，则\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，\n如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转α得到\\(\\vartriangle ADH\\)，\n〔图3〕\n∴\\(\\angle ABE=\\angle ADH，\\angle BAE=\\angle DAH，AE=AH，BE=DH\\)．\n∵\\(\\angle B{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle ADH{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴点C，D，H在同一直线上．\n∵\\(\\angle BAD=\\alpha\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle BAE+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle DAH+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle FAH=\\angle EAF\\)，\n又∵\\(AF=AF\\)，\n∴\\(\\vartriangle AEF\\cong \\vartriangle AHF（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(EF=FH=DF+DH=BE+DF\\)；\n（3）如图，将\\(\\vartriangle AEC\\)绕点A逆时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle AE'B\\)，连接\\(DE'\\)．\n〔图4〕\n∴\\(BE'=EC，AE'=AE，\\angle C=\\angle ABE'，\\angle EAC=\\angle E'AB\\)，\n∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAE'=\\angle DAE\\)，\n∵\\(AD{ \\rm{ = } }AD\\)，\n∴\\(\\vartriangle AE'D\\cong \\vartriangle AED（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(DE=DE'\\)，\n在\\(Rt\\vartriangle ABC\\)中，\\(AB=AC=4\\)，\n∴\\(\\angle ABC{ \\rm{ = } }\\angle ACB{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(BC=4\\sqrt[] { 2 }\\)，\n∴\\(CD=BC-BD=3\\sqrt[] { 2 }\\)，\\(\\angle ABC{ \\rm{ + } }\\angle ABE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，即\\(\\angle E'BD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(E'B ^ { 2 } +BD ^ { 2 } =E'D ^ { 2 }\\)．\n∵\\(DE=DE'\\)，\n∴\\(DE ^ { 2 } =BD ^ { 2 } +EC ^ { 2 }\\)，即\\(DE ^ { 2 } =\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 2 }-DE } \\right ) ^ { 2 }\\)，\n解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）\\(BE+DF=EF\\)，理由如下：",
+    "如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle ADG\\)，",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD，\\)",
+    "∵\\(\\angle ADC{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle ADG{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF{ \\rm{ = } }\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\angle BAD{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle FDG{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，即点F，D，G共线．",
+    "由旋转可得\\(AE=AG，BE=DG，\\angle BAE=\\angle DAG\\)．",
+    "∵\\(\\angle BAE{ \\rm{ + } }\\angle DAF{ \\rm{ = } }\\angle BAD-\\angle EAF{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle DAG{ \\rm{ + } }\\angle DAF{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle EAF=\\angle FAG\\)，",
+    "∵\\(AF=AF\\)，",
+    "∴\\(\\vartriangle AFE\\cong \\vartriangle AFG（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，",
+    "∴\\(EF{ \\rm{ = } }FG\\)．",
+    "又∵\\(FG=DG+DF=BE+DF\\)，",
+    "∴\\(BE+DF=EF\\)；",
+    "（2）成立．\\(EF{ \\rm{ = } }BE{ \\rm{ + } }DF\\)；",
+    "证明：设\\(\\angle BAD=\\alpha\\)，则\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，",
+    "如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转α得到\\(\\vartriangle ADH\\)，",
+    "〔图3〕",
+    "∴\\(\\angle ABE=\\angle ADH，\\angle BAE=\\angle DAH，AE=AH，BE=DH\\)．",
+    "∵\\(\\angle B{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(\\angle ADH{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴点C，D，H在同一直线上．",
+    "∵\\(\\angle BAD=\\alpha\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，",
+    "∴\\(\\angle BAE+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，",
+    "∴\\(\\angle DAH+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，",
+    "∴\\(\\angle FAH=\\angle EAF\\)，",
+    "又∵\\(AF=AF\\)，",
+    "∴\\(\\vartriangle AEF\\cong \\vartriangle AHF（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，",
+    "∴\\(EF=FH=DF+DH=BE+DF\\)；",
+    "（3）如图，将\\(\\vartriangle AEC\\)绕点A逆时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle AE'B\\)，连接\\(DE'\\)．",
+    "〔图4〕",
+    "∴\\(BE'=EC，AE'=AE，\\angle C=\\angle ABE'，\\angle EAC=\\angle E'AB\\)，",
+    "∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle DAE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle DAE'=\\angle DAE\\)，",
+    "∵\\(AD{ \\rm{ = } }AD\\)，",
+    "∴\\(\\vartriangle AE'D\\cong \\vartriangle AED（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，",
+    "∴\\(DE=DE'\\)，",
+    "在\\(Rt\\vartriangle ABC\\)中，\\(AB=AC=4\\)，",
+    "∴\\(\\angle ABC{ \\rm{ = } }\\angle ACB{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(BC=4\\sqrt[] { 2 }\\)，",
+    "∴\\(CD=BC-BD=3\\sqrt[] { 2 }\\)，\\(\\angle ABC{ \\rm{ + } }\\angle ABE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，即\\(\\angle E'BD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(E'B ^ { 2 } +BD ^ { 2 } =E'D ^ { 2 }\\)．",
+    "∵\\(DE=DE'\\)，",
+    "∴\\(DE ^ { 2 } =BD ^ { 2 } +EC ^ { 2 }\\)，即\\(DE ^ { 2 } =\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 2 }-DE } \\right ) ^ { 2 }\\)，",
+    "解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "fig-71",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-7CF1EB3E84-Q22-P01",
+      "label": "（1）",
+      "prompt": "特殊情景：如图（1），在四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，以点A为顶点作一个角，角的两边分别交\\(BC\\)，\\(CD\\)于点E，F，且\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，连接\\(EF\\)，若\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，探究：线段\\(BE，DF，EF\\)之间的数量关系，并说明理由．",
+      "stem_text": "特殊情景：如图（1），在四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，以点A为顶点作一个角，角的两边分别交\\(BC\\)，\\(CD\\)于点E，F，且\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，连接\\(EF\\)，若\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，探究：线段\\(BE，DF，EF\\)之间的数量关系，并说明理由．",
+      "material_ids": [
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE+DF=EF\\)，理由见解析；",
+      "answer": "\\(BE+DF=EF\\)，理由见解析；",
+      "given_solution": "\\(BE+DF=EF\\)，理由如下：\n如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle ADG\\)，\n〔图2〕\n∵四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD，\\)\n∵\\(\\angle ADC{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle ADG{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF{ \\rm{ = } }\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\angle BAD{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle FDG{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，即点F，D，G共线．\n由旋转可得\\(AE=AG，BE=DG，\\angle BAE=\\angle DAG\\)．\n∵\\(\\angle BAE{ \\rm{ + } }\\angle DAF{ \\rm{ = } }\\angle BAD-\\angle EAF{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAG{ \\rm{ + } }\\angle DAF{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle EAF=\\angle FAG\\)，\n∵\\(AF=AF\\)，\n∴\\(\\vartriangle AFE\\cong \\vartriangle AFG（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(EF{ \\rm{ = } }FG\\)．\n又∵\\(FG=DG+DF=BE+DF\\)，\n∴\\(BE+DF=EF\\)；",
+      "solution_steps": [
+        "\\(BE+DF=EF\\)，理由如下：",
+        "如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle ADG\\)，",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)中，\\(AB{ \\rm{ = } }AD\\)，\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD，\\)",
+        "∵\\(\\angle ADC{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle ADG{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(\\angle EAF{ \\rm{ = } }\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\angle BAD{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle FDG{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，即点F，D，G共线．",
+        "由旋转可得\\(AE=AG，BE=DG，\\angle BAE=\\angle DAG\\)．",
+        "∵\\(\\angle BAE{ \\rm{ + } }\\angle DAF{ \\rm{ = } }\\angle BAD-\\angle EAF{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle DAG{ \\rm{ + } }\\angle DAF{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle EAF=\\angle FAG\\)，",
+        "∵\\(AF=AF\\)，",
+        "∴\\(\\vartriangle AFE\\cong \\vartriangle AFG（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，",
+        "∴\\(EF{ \\rm{ = } }FG\\)．",
+        "又∵\\(FG=DG+DF=BE+DF\\)，",
+        "∴\\(BE+DF=EF\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7CF1EB3E84-Q22-P02",
+      "label": "（2）",
+      "prompt": "类比猜想：类比特殊情景，在上述（1）条件下，把“\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)”改成一般情况“\\(\\angle B{ \\rm{ + } }\\angle D{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)”，如图（2），小明猜想：线段\\(BE，DF，EF\\)之间的数量关系是否仍然成立？若成立，请你证明结论；若不成立，请你写出成立时α的取值范围．",
+      "stem_text": "类比猜想：类比特殊情景，在上述（1）条件下，把“\\(\\angle BAD{ \\rm{ = } }\\angle B{ \\rm{ = } }\\angle D{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)”改成一般情况“\\(\\angle B{ \\rm{ + } }\\angle D{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)”，如图（2），小明猜想：线段\\(BE，DF，EF\\)之间的数量关系是否仍然成立？若成立，请你证明结论；若不成立，请你写出成立时α的取值范围．",
+      "material_ids": [
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "成立，证明见解析；",
+      "answer": "成立，证明见解析；",
+      "given_solution": "成立．\\(EF{ \\rm{ = } }BE{ \\rm{ + } }DF\\)；\n证明：设\\(\\angle BAD=\\alpha\\)，则\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，\n如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转α得到\\(\\vartriangle ADH\\)，\n〔图3〕\n∴\\(\\angle ABE=\\angle ADH，\\angle BAE=\\angle DAH，AE=AH，BE=DH\\)．\n∵\\(\\angle B{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle ADH{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴点C，D，H在同一直线上．\n∵\\(\\angle BAD=\\alpha\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle BAE+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle DAH+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，\n∴\\(\\angle FAH=\\angle EAF\\)，\n又∵\\(AF=AF\\)，\n∴\\(\\vartriangle AEF\\cong \\vartriangle AHF（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(EF=FH=DF+DH=BE+DF\\)；",
+      "solution_steps": [
+        "成立．\\(EF{ \\rm{ = } }BE{ \\rm{ + } }DF\\)；",
+        "证明：设\\(\\angle BAD=\\alpha\\)，则\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，",
+        "如图，将\\(\\vartriangle ABE\\)绕点A顺时针旋转α得到\\(\\vartriangle ADH\\)，",
+        "〔图3〕",
+        "∴\\(\\angle ABE=\\angle ADH，\\angle BAE=\\angle DAH，AE=AH，BE=DH\\)．",
+        "∵\\(\\angle B{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴\\(\\angle ADH{ \\rm{ + } }\\angle ADC{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ 8 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴点C，D，H在同一直线上．",
+        "∵\\(\\angle BAD=\\alpha\\)，\\(\\angle EAF=\\frac { 1 } { 2 }\\alpha\\)，",
+        "∴\\(\\angle BAE+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，",
+        "∴\\(\\angle DAH+\\angle FAD=\\frac { 1 } { 2 }\\alpha\\)，",
+        "∴\\(\\angle FAH=\\angle EAF\\)，",
+        "又∵\\(AF=AF\\)，",
+        "∴\\(\\vartriangle AEF\\cong \\vartriangle AHF（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，",
+        "∴\\(EF=FH=DF+DH=BE+DF\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7CF1EB3E84-Q22-P03",
+      "label": "（3）",
+      "prompt": "解决问题：如图（3），在\\(\\vartriangle ABC\\)中，\\(\\angle BAC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(AB=AC=4\\)，点D，E均在边\\(BC\\)上，且\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，若\\(BD=\\sqrt[] { 2 }\\)，计算\\(DE\\)的长度．",
+      "stem_text": "解决问题：如图（3），在\\(\\vartriangle ABC\\)中，\\(\\angle BAC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\\(AB=AC=4\\)，点D，E均在边\\(BC\\)上，且\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，若\\(BD=\\sqrt[] { 2 }\\)，计算\\(DE\\)的长度．",
+      "material_ids": [
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+      "answer": "\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+      "given_solution": "如图，将\\(\\vartriangle AEC\\)绕点A逆时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle AE'B\\)，连接\\(DE'\\)．\n〔图4〕\n∴\\(BE'=EC，AE'=AE，\\angle C=\\angle ABE'，\\angle EAC=\\angle E'AB\\)，\n∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DAE'=\\angle DAE\\)，\n∵\\(AD{ \\rm{ = } }AD\\)，\n∴\\(\\vartriangle AE'D\\cong \\vartriangle AED（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，\n∴\\(DE=DE'\\)，\n在\\(Rt\\vartriangle ABC\\)中，\\(AB=AC=4\\)，\n∴\\(\\angle ABC{ \\rm{ = } }\\angle ACB{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(BC=4\\sqrt[] { 2 }\\)，\n∴\\(CD=BC-BD=3\\sqrt[] { 2 }\\)，\\(\\angle ABC{ \\rm{ + } }\\angle ABE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，即\\(\\angle E'BD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(E'B ^ { 2 } +BD ^ { 2 } =E'D ^ { 2 }\\)．\n∵\\(DE=DE'\\)，\n∴\\(DE ^ { 2 } =BD ^ { 2 } +EC ^ { 2 }\\)，即\\(DE ^ { 2 } =\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 2 }-DE } \\right ) ^ { 2 }\\)，\n解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．",
+      "solution_steps": [
+        "如图，将\\(\\vartriangle AEC\\)绕点A逆时针旋转\\({ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，得到\\(\\vartriangle AE'B\\)，连接\\(DE'\\)．",
+        "〔图4〕",
+        "∴\\(BE'=EC，AE'=AE，\\angle C=\\angle ABE'，\\angle EAC=\\angle E'AB\\)，",
+        "∵\\(\\angle DAE{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle DAE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ -{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ { \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle DAE'=\\angle DAE\\)，",
+        "∵\\(AD{ \\rm{ = } }AD\\)，",
+        "∴\\(\\vartriangle AE'D\\cong \\vartriangle AED（{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }）\\)，",
+        "∴\\(DE=DE'\\)，",
+        "在\\(Rt\\vartriangle ABC\\)中，\\(AB=AC=4\\)，",
+        "∴\\(\\angle ABC{ \\rm{ = } }\\angle ACB{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(BC=4\\sqrt[] { 2 }\\)，",
+        "∴\\(CD=BC-BD=3\\sqrt[] { 2 }\\)，\\(\\angle ABC{ \\rm{ + } }\\angle ABE'{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，即\\(\\angle E'BD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴\\(E'B ^ { 2 } +BD ^ { 2 } =E'D ^ { 2 }\\)．",
+        "∵\\(DE=DE'\\)，",
+        "∴\\(DE ^ { 2 } =BD ^ { 2 } +EC ^ { 2 }\\)，即\\(DE ^ { 2 } =\\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 2 }-DE } \\right ) ^ { 2 }\\)，",
+        "解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      71
+    ],
+    "solution_body_blocks": [
+      373,
+      428
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-7CF1EB3E84/paper-q22-p05.webp",
+      "assets/SZ-G8-T2-7CF1EB3E84/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          322.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-7CF1EB3E84/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-7CF1EB3E84/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-7CF1EB3E84/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          208.18,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          56.36,
+          583.64,
+          603.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

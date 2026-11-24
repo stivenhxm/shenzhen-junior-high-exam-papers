@@ -1,0 +1,351 @@
+{
+  "id": "SZ-G8-T2-1D05A6A78F-Q22",
+  "paper_id": "SZ-G8-T2-1D05A6A78F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "用坐标求线段长度与面积、选择充分条件证明三角形全等",
+  "stem": "如图，在平面直角坐标系中，\\(O\\)为坐标原点，\\(A\\)，\\(B\\)两点的坐标分别为\\(A\\left ( { 5,0 } \\right )\\)，\\(B\\left ( { 0,3 } \\right )\\)，点\\(P\\)从点\\(A\\)出发，以每秒1个单位长度的速度沿射线\\(AO\\)匀速运动，设点\\(P\\)的运动时间为\\(t\\)秒．\n〔图1〕\n（1）当点\\(P\\)在线段\\(AO\\)上时，\\(OP=\\)________；当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=\\)________；（用含\\(t\\)的式子表示）\n（2）连接\\(PB\\)，若\\(\\vartriangle POB\\)的面积为3，求\\(t\\)的值；\n（3）过点\\(P\\)作直线\\(AB\\)的垂线，垂足为\\(D\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，当点\\(P\\)在运动过程中，是否存在这样点\\(P\\)，使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等？若存在，请求出\\(t\\)的值；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/c6/c64cbbb35bfc2342e34d5e2c6f1904bd92bb9fcc469cb312f0b7f815b923cfbe.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(5-t\\)，\\(t-5\\)\n（2）3或7    （3）存在，2或8",
+  "answer": "（1）\\(5-t\\)，\\(t-5\\)\n（2）3或7    （3）存在，2或8",
+  "given_solution": "【分析】（1）根据题意，点\\(P\\)在线段\\(AO\\)上时，\\(OP=OA-AP\\)，点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=AP-AO\\)，即可求解；\n（2）根据（1）的结论，根据三角形面积公式列出方程，解方程即可求解；\n（3）根据全等三角形的性质，分类讨论，根据全等的性质列出方程，解方程即可求解．\n【小问1详解】\n解：依题意，\\(AP=t\\)，\\(AO=5\\)，当点\\(P\\)在线段\\(AO\\)上时，\\(OP=OA-AP=5-t\\)\n当点\\(P\\)在线段\\(AO\\)的延长线上时，当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=AP-AO=t-5\\)；\n故答案为：\\(5-t\\)，\\(t-5\\)；\n【小问2详解】\n当点\\(P\\)在线段\\(AO\\)上时，\n\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { 5-t } \\right )\\times 3=3\\)．\n解得\\(t=3\\)．\n当点\\(P\\)在线段\\(AO\\)的延长线上时，\n\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { t-5 } \\right )\\times 3=3\\)．\n解得\\(t=7\\)．\n∴当\\(t=3\\)或\\(t=7\\)时，\\(\\vartriangle POB\\)的面积为3．\n【小问3详解】\n存在点\\(P\\)使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等．\n当点\\(P\\)在线段\\(AO\\)上时，如图①．\n∵\\(PD\\bot AB\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，\n∴\\(\\angle DBE+\\angle BED=90{}^\\circ\\)．\n∵\\(OA\\bot OB\\)，\n∴\\(\\angle BOA=\\angle POE=90{}^\\circ\\)．\n∴\\(\\angle ABO+\\angle BAO=90{}^\\circ\\)．\n∴\\(\\angle BAO=\\angle BED\\)．\n∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n∴\\(5-t=3\\)．解得\\(t=2\\)．\n〔图2〕\n当点\\(P\\)在线段\\(AO\\)的延长线上时，如图②．\n同上可得\\(\\angle BOA=\\angle POE=90{}^\\circ\\)，\\(\\angle BAO=\\angle BED\\)．\n∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n∴\\(t-5=3\\)．\n解得\\(t=8\\)．\n∴当\\(t=2\\)或\\(t=8\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n【点睛】本题考查了坐标与图形，列代数式，一元一次方程的应用，全等三角形的性质，数形结合，分类讨论是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/bb/bbee119dbc01039fc8cf6e0df811bf2d4e784d7f86f8c345cb67d5d603ccce5c.png",
+    "assets/figures/c5/c5984ef137a30cb031f45e6d90a78a017657b6386358a08e9ace3b15c3f23a59.png"
+  ],
+  "solution": "【小问1详解】\n解：依题意，\\(AP=t\\)，\\(AO=5\\)，当点\\(P\\)在线段\\(AO\\)上时，\\(OP=OA-AP=5-t\\)\n当点\\(P\\)在线段\\(AO\\)的延长线上时，当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=AP-AO=t-5\\)；\n故答案为：\\(5-t\\)，\\(t-5\\)；\n【小问2详解】\n当点\\(P\\)在线段\\(AO\\)上时，\n\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { 5-t } \\right )\\times 3=3\\)．\n解得\\(t=3\\)．\n当点\\(P\\)在线段\\(AO\\)的延长线上时，\n\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { t-5 } \\right )\\times 3=3\\)．\n解得\\(t=7\\)．\n∴当\\(t=3\\)或\\(t=7\\)时，\\(\\vartriangle POB\\)的面积为3．\n【小问3详解】\n存在点\\(P\\)使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等．\n当点\\(P\\)在线段\\(AO\\)上时，如图①．\n∵\\(PD\\bot AB\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，\n∴\\(\\angle DBE+\\angle BED=90{}^\\circ\\)．\n∵\\(OA\\bot OB\\)，\n∴\\(\\angle BOA=\\angle POE=90{}^\\circ\\)．\n∴\\(\\angle ABO+\\angle BAO=90{}^\\circ\\)．\n∴\\(\\angle BAO=\\angle BED\\)．\n∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n∴\\(5-t=3\\)．解得\\(t=2\\)．\n〔图2〕\n当点\\(P\\)在线段\\(AO\\)的延长线上时，如图②．\n同上可得\\(\\angle BOA=\\angle POE=90{}^\\circ\\)，\\(\\angle BAO=\\angle BED\\)．\n∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n∴\\(t-5=3\\)．\n解得\\(t=8\\)．\n∴当\\(t=2\\)或\\(t=8\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：依题意，\\(AP=t\\)，\\(AO=5\\)，当点\\(P\\)在线段\\(AO\\)上时，\\(OP=OA-AP=5-t\\)",
+    "当点\\(P\\)在线段\\(AO\\)的延长线上时，当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=AP-AO=t-5\\)；",
+    "故答案为：\\(5-t\\)，\\(t-5\\)；",
+    "【小问2详解】",
+    "当点\\(P\\)在线段\\(AO\\)上时，",
+    "\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { 5-t } \\right )\\times 3=3\\)．",
+    "解得\\(t=3\\)．",
+    "当点\\(P\\)在线段\\(AO\\)的延长线上时，",
+    "\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { t-5 } \\right )\\times 3=3\\)．",
+    "解得\\(t=7\\)．",
+    "∴当\\(t=3\\)或\\(t=7\\)时，\\(\\vartriangle POB\\)的面积为3．",
+    "【小问3详解】",
+    "存在点\\(P\\)使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等．",
+    "当点\\(P\\)在线段\\(AO\\)上时，如图①．",
+    "∵\\(PD\\bot AB\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，",
+    "∴\\(\\angle DBE+\\angle BED=90{}^\\circ\\)．",
+    "∵\\(OA\\bot OB\\)，",
+    "∴\\(\\angle BOA=\\angle POE=90{}^\\circ\\)．",
+    "∴\\(\\angle ABO+\\angle BAO=90{}^\\circ\\)．",
+    "∴\\(\\angle BAO=\\angle BED\\)．",
+    "∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．",
+    "∴\\(5-t=3\\)．解得\\(t=2\\)．",
+    "〔图2〕",
+    "当点\\(P\\)在线段\\(AO\\)的延长线上时，如图②．",
+    "同上可得\\(\\angle BOA=\\angle POE=90{}^\\circ\\)，\\(\\angle BAO=\\angle BED\\)．",
+    "∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．",
+    "∴\\(t-5=3\\)．",
+    "解得\\(t=8\\)．",
+    "∴当\\(t=2\\)或\\(t=8\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，\\(O\\)为坐标原点，\\(A\\)，\\(B\\)两点的坐标分别为\\(A\\left ( { 5,0 } \\right )\\)，\\(B\\left ( { 0,3 } \\right )\\)，点\\(P\\)从点\\(A\\)出发，以每秒1个单位长度的速度沿射线\\(AO\\)匀速运动，设点\\(P\\)的运动时间为\\(t\\)秒．\n〔图1〕",
+      "paper_blocks": [
+        67,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-1D05A6A78F-Q22-P01",
+      "label": "（1）",
+      "prompt": "当点\\(P\\)在线段\\(AO\\)上时，\\(OP=\\)________；当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=\\)________；（用含\\(t\\)的式子表示）",
+      "stem_text": "当点\\(P\\)在线段\\(AO\\)上时，\\(OP=\\)________；当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=\\)________；（用含\\(t\\)的式子表示）",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(5-t\\)，\\(t-5\\)",
+      "answer": "\\(5-t\\)，\\(t-5\\)",
+      "given_solution": "解：依题意，\\(AP=t\\)，\\(AO=5\\)，当点\\(P\\)在线段\\(AO\\)上时，\\(OP=OA-AP=5-t\\)\n当点\\(P\\)在线段\\(AO\\)的延长线上时，当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=AP-AO=t-5\\)；\n故答案为：\\(5-t\\)，\\(t-5\\)；",
+      "solution_steps": [
+        "解：依题意，\\(AP=t\\)，\\(AO=5\\)，当点\\(P\\)在线段\\(AO\\)上时，\\(OP=OA-AP=5-t\\)",
+        "当点\\(P\\)在线段\\(AO\\)的延长线上时，当点\\(P\\)在线段\\(AO\\)的延长线上时，\\(OP=AP-AO=t-5\\)；",
+        "故答案为：\\(5-t\\)，\\(t-5\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          359,
+          360,
+          361
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“坐标与几何数量关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“平面直角坐标系”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1D05A6A78F-Q22-P02",
+      "label": "（2）",
+      "prompt": "连接\\(PB\\)，若\\(\\vartriangle POB\\)的面积为3，求\\(t\\)的值；",
+      "stem_text": "连接\\(PB\\)，若\\(\\vartriangle POB\\)的面积为3，求\\(t\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "3或7",
+      "answer": "3或7",
+      "given_solution": "当点\\(P\\)在线段\\(AO\\)上时，\n\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { 5-t } \\right )\\times 3=3\\)．\n解得\\(t=3\\)．\n当点\\(P\\)在线段\\(AO\\)的延长线上时，\n\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { t-5 } \\right )\\times 3=3\\)．\n解得\\(t=7\\)．\n∴当\\(t=3\\)或\\(t=7\\)时，\\(\\vartriangle POB\\)的面积为3．",
+      "solution_steps": [
+        "当点\\(P\\)在线段\\(AO\\)上时，",
+        "\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { 5-t } \\right )\\times 3=3\\)．",
+        "解得\\(t=3\\)．",
+        "当点\\(P\\)在线段\\(AO\\)的延长线上时，",
+        "\\(S_{ \\vartriangle POB } =\\frac { 1 } { 2 }OP\\cdot BO=\\frac { 1 } { 2 }\\times \\left ( { t-5 } \\right )\\times 3=3\\)．",
+        "解得\\(t=7\\)．",
+        "∴当\\(t=3\\)或\\(t=7\\)时，\\(\\vartriangle POB\\)的面积为3．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1D05A6A78F-Q22-P03",
+      "label": "（3）",
+      "prompt": "过点\\(P\\)作直线\\(AB\\)的垂线，垂足为\\(D\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，当点\\(P\\)在运动过程中，是否存在这样点\\(P\\)，使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等？若存在，请求出\\(t\\)的值；若不存在，请说明理由．",
+      "stem_text": "过点\\(P\\)作直线\\(AB\\)的垂线，垂足为\\(D\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，当点\\(P\\)在运动过程中，是否存在这样点\\(P\\)，使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等？若存在，请求出\\(t\\)的值；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在，2或8",
+      "answer": "存在，2或8",
+      "given_solution": "存在点\\(P\\)使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等．\n当点\\(P\\)在线段\\(AO\\)上时，如图①．\n∵\\(PD\\bot AB\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，\n∴\\(\\angle DBE+\\angle BED=90{}^\\circ\\)．\n∵\\(OA\\bot OB\\)，\n∴\\(\\angle BOA=\\angle POE=90{}^\\circ\\)．\n∴\\(\\angle ABO+\\angle BAO=90{}^\\circ\\)．\n∴\\(\\angle BAO=\\angle BED\\)．\n∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n∴\\(5-t=3\\)．解得\\(t=2\\)．\n〔图2〕\n当点\\(P\\)在线段\\(AO\\)的延长线上时，如图②．\n同上可得\\(\\angle BOA=\\angle POE=90{}^\\circ\\)，\\(\\angle BAO=\\angle BED\\)．\n∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．\n∴\\(t-5=3\\)．\n解得\\(t=8\\)．\n∴当\\(t=2\\)或\\(t=8\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．",
+      "solution_steps": [
+        "存在点\\(P\\)使\\(\\vartriangle POE\\)与\\(\\vartriangle AOB\\)全等．",
+        "当点\\(P\\)在线段\\(AO\\)上时，如图①．",
+        "∵\\(PD\\bot AB\\)，直线\\(PD\\)与\\(y\\)轴交于点\\(E\\)，",
+        "∴\\(\\angle DBE+\\angle BED=90{}^\\circ\\)．",
+        "∵\\(OA\\bot OB\\)，",
+        "∴\\(\\angle BOA=\\angle POE=90{}^\\circ\\)．",
+        "∴\\(\\angle ABO+\\angle BAO=90{}^\\circ\\)．",
+        "∴\\(\\angle BAO=\\angle BED\\)．",
+        "∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．",
+        "∴\\(5-t=3\\)．解得\\(t=2\\)．",
+        "〔图2〕",
+        "当点\\(P\\)在线段\\(AO\\)的延长线上时，如图②．",
+        "同上可得\\(\\angle BOA=\\angle POE=90{}^\\circ\\)，\\(\\angle BAO=\\angle BED\\)．",
+        "∴当\\(OP=OB\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．",
+        "∴\\(t-5=3\\)．",
+        "解得\\(t=8\\)．",
+        "∴当\\(t=2\\)或\\(t=8\\)时，\\(\\vartriangle POE≌\\vartriangle BOA\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      71
+    ],
+    "solution_body_blocks": [
+      347,
+      388
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-1D05A6A78F/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-1D05A6A78F/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          607.73,
+          583.64,
+          769.55
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          135.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-1D05A6A78F/solution-q22-p16.webp",
+      "assets/SZ-G8-T2-1D05A6A78F/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-1D05A6A78F/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          721.36,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          59.09,
+          583.64,
+          400.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G09.03",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G09.03.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "该问涉及“坐标与几何数量关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“平面直角坐标系”，按题面与解答定位知识主题。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

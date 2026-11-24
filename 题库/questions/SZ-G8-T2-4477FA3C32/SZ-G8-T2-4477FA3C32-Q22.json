@@ -1,0 +1,456 @@
+{
+  "id": "SZ-G8-T2-4477FA3C32-Q22",
+  "paper_id": "SZ-G8-T2-4477FA3C32",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "问题背景：\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)都是等腰直角三角形，\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．\n〔图1〕\n（1）问题探究：连接\\(BD\\)与\\(CE\\)，\\(BD\\)与\\(CE\\)交点为F．\n①如图1，\\(BD\\)与\\(CE\\)的数量关系是        （填“相等”或“不相等”），\\(BD\\)与\\(CE\\)的位置关系是        （填“平行”或“垂直”）；\n②如图2，M、N分别是\\(BD\\)与\\(CE\\)的中点，\\(\\angle ANM=\\)        \\({}^\\circ\\)；\n（2）问题拓展：当等腰直角\\(\\vartriangle ABC\\)旋转到如图3位置，连接\\(BE,CD\\)，点H为\\(BE\\)中点，当B、C、D三点共线时，若\\(AB=4\\)，\\(AD=4\\sqrt[] { 5 }\\)，请求出线段\\(AH\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/00/00e086a1784ed27b7f66e14a9b0b7311dd98d7109108c7fc67588a9306e684d2.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①相等，垂直；②45\n（2）2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)",
+  "answer": "（1）①相等，垂直；②45\n（2）2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)",
+  "given_solution": "【分析】（1）①可证得\\(\\vartriangle CAE≌\\vartriangle BAD\\)，从而\\(BD=CE,\\angle ACE=\\angle ABD\\)，进一步得出结果；②连接\\(AM\\)，可证得\\(\\vartriangle ACN≌\\vartriangle ABM\\)，从而\\(AN=AM,\\angle CAN=\\angle BAM\\)，进一步得出结果；\n（2）当C在\\(BD\\)上时，作\\(AR\\bot BC\\)于R，延长\\(AH\\)至W，使\\(HW=AH\\)，结合勾股定理可求得\\(CD=DR-CR=4\\sqrt[] { 2 }\\)，再证四边形\\(ABWE\\)是平行四边形，可得\\(EW=AB=AC,\\angle AEW+\\angle BAE=180{}^\\circ\\)，可得\\(\\angle AEW=\\angle CAD\\)，可证得\\(\\vartriangle AEW≌\\vartriangle ADC\\)，从而\\(AW=CD=4\\sqrt[] { 2 }\\)，即可得出\\(AH\\)的值；当点C在\\(DB\\)的延长线上时，同样的方法得出\\(AH\\)的值．\n【小问1详解】\n解：①如图1，设\\(AB\\)与\\(CE\\)交于点O，\n〔图2〕\n∵\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．\n∴\\(\\angle BAC+\\angle BAE=\\angle DAE+\\angle BAE\\)，\n∴\\(\\angle CAE=\\angle BAD\\)，\n∴\\(\\vartriangle CAE≌\\vartriangle BAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BD=CE,\\angle ACE=\\angle ABD\\)，\n∵\\(\\angle BOF=\\angle AOC\\)，\n∴\\(\\angle BFO=\\angle BAC=90{}^\\circ\\)，\n∴\\(BD\\bot CE\\)，\n故答案为：相等，垂直；\n②如图2，连接\\(AM\\)，\n〔图3〕\n由①知，\\(\\angle ACE=\\angle ABD,CE=BD\\)，\n∵M、N分别是\\(BD\\)与\\(CE\\)的中点，\n∴\\(CN=\\frac { 1 } { 2 }CE,BM=\\frac { 1 } { 2 }BD\\)，\n∴\\(CN=BM\\)，\n∵\\(AC=AB\\)，\n∴\\(\\vartriangle ACN≌\\vartriangle ABM\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=AM,\\angle CAN=\\angle BAM\\)，\n∴\\(\\angle CAN-\\angle BAN=\\angle BAM-\\angle BAN\\)，\\(\\angle ANM=\\angle AMN\\)，\n∴\\(\\angle MAN=\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle ANM=\\angle AMN=45{}^\\circ\\)，\n故答案为：45；\n【小问2详解】\n解：如图3，当C在\\(BD\\)上时，作\\(AR\\bot BC\\)于R，延长\\(AH\\)至W，使\\(HW=AH\\)，\n〔图4〕\n∴\\(\\angle ARD=90{}^\\circ\\)，\n∵\\(\\angle ACB=45{}^\\circ ,\\angle ARC=90{}^\\circ\\)，\n\\(\\therefore AR=CR=\\frac { \\sqrt[] { 2 } } { 2 }AC=2\\sqrt[] { 2 }\\)，\n\\(\\therefore DR=\\sqrt[] { AD ^ { 2 } -AR ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 5 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=6\\sqrt[] { 2 }\\)，\n\\(\\therefore CD=DR-CR=6\\sqrt[] { 2 }-2\\sqrt[] { 2 }=4\\sqrt[] { 2 }\\)，\n∵H是\\(BE\\)的中点，\n∴四边形\\(ABWE\\)是平行四边形，\n∴\\(EW=AB=AC,\\angle AEW+\\angle BAE=180{}^\\circ\\)，\n∵\\(\\angle BAC+\\angle DAE=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，\n∴\\(\\angle CAD+\\angle BAE=180{}^\\circ\\)，\n∴\\(\\angle AEW=\\angle CAD\\)，\n∵\\(AD=AE\\)，\n∴\\(\\vartriangle AEW≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AW=CD=4\\sqrt[] { 2 }\\)，\n∴\\(AH=2\\sqrt[] { 2 }\\)，\n如图4，当点C在\\(DB\\)的延长线上时，作\\(AR\\bot BC\\)于R，\n〔图5〕\n同理\\(CD=DR+CR=6\\sqrt[] { 2 }+2\\sqrt[] { 2 }=8\\sqrt[] { 2 }\\)，\n∴\\(AH=\\frac { 1 } { 2 }CD=4\\sqrt[] { 2 }\\)，\n综上所述：\\(AH\\)的长为 2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)．\n【点睛】本题主要考查了等腰直角三角形的性质，全等三角形的判定和性质，平行四边形的判定和性质，勾股定理，利用类比思想解答和分类讨论思想解答是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/00/00e086a1784ed27b7f66e14a9b0b7311dd98d7109108c7fc67588a9306e684d2.png",
+    "assets/figures/f0/f016e422f891182ffcbb2ee52fad172e2317c9f7bb106ddcf995f04a5a19e56c.png",
+    "assets/figures/2c/2c8f5c7b3267e37ac9a20f32968c411bef2cc2a34e6392ca1100d65262fd9080.png",
+    "assets/figures/da/da5268b3d7a6e7c940f811e6dfa26a182c1b53e1d9ba1dfd2e0e643a5d58c6e6.png",
+    "assets/figures/f3/f3e6a3c13e9929711b98cd40301e8889b7877d139548e3630909fd932bfa08c0.png"
+  ],
+  "solution": "【小问1详解】\n解：①如图1，设\\(AB\\)与\\(CE\\)交于点O，\n〔图2〕\n∵\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．\n∴\\(\\angle BAC+\\angle BAE=\\angle DAE+\\angle BAE\\)，\n∴\\(\\angle CAE=\\angle BAD\\)，\n∴\\(\\vartriangle CAE≌\\vartriangle BAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BD=CE,\\angle ACE=\\angle ABD\\)，\n∵\\(\\angle BOF=\\angle AOC\\)，\n∴\\(\\angle BFO=\\angle BAC=90{}^\\circ\\)，\n∴\\(BD\\bot CE\\)，\n故答案为：相等，垂直；\n②如图2，连接\\(AM\\)，\n〔图3〕\n由①知，\\(\\angle ACE=\\angle ABD,CE=BD\\)，\n∵M、N分别是\\(BD\\)与\\(CE\\)的中点，\n∴\\(CN=\\frac { 1 } { 2 }CE,BM=\\frac { 1 } { 2 }BD\\)，\n∴\\(CN=BM\\)，\n∵\\(AC=AB\\)，\n∴\\(\\vartriangle ACN≌\\vartriangle ABM\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=AM,\\angle CAN=\\angle BAM\\)，\n∴\\(\\angle CAN-\\angle BAN=\\angle BAM-\\angle BAN\\)，\\(\\angle ANM=\\angle AMN\\)，\n∴\\(\\angle MAN=\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle ANM=\\angle AMN=45{}^\\circ\\)，\n故答案为：45；\n【小问2详解】\n解：如图3，当C在\\(BD\\)上时，作\\(AR\\bot BC\\)于R，延长\\(AH\\)至W，使\\(HW=AH\\)，\n〔图4〕\n∴\\(\\angle ARD=90{}^\\circ\\)，\n∵\\(\\angle ACB=45{}^\\circ ,\\angle ARC=90{}^\\circ\\)，\n\\(\\therefore AR=CR=\\frac { \\sqrt[] { 2 } } { 2 }AC=2\\sqrt[] { 2 }\\)，\n\\(\\therefore DR=\\sqrt[] { AD ^ { 2 } -AR ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 5 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=6\\sqrt[] { 2 }\\)，\n\\(\\therefore CD=DR-CR=6\\sqrt[] { 2 }-2\\sqrt[] { 2 }=4\\sqrt[] { 2 }\\)，\n∵H是\\(BE\\)的中点，\n∴四边形\\(ABWE\\)是平行四边形，\n∴\\(EW=AB=AC,\\angle AEW+\\angle BAE=180{}^\\circ\\)，\n∵\\(\\angle BAC+\\angle DAE=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，\n∴\\(\\angle CAD+\\angle BAE=180{}^\\circ\\)，\n∴\\(\\angle AEW=\\angle CAD\\)，\n∵\\(AD=AE\\)，\n∴\\(\\vartriangle AEW≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AW=CD=4\\sqrt[] { 2 }\\)，\n∴\\(AH=2\\sqrt[] { 2 }\\)，\n如图4，当点C在\\(DB\\)的延长线上时，作\\(AR\\bot BC\\)于R，\n〔图5〕\n同理\\(CD=DR+CR=6\\sqrt[] { 2 }+2\\sqrt[] { 2 }=8\\sqrt[] { 2 }\\)，\n∴\\(AH=\\frac { 1 } { 2 }CD=4\\sqrt[] { 2 }\\)，\n综上所述：\\(AH\\)的长为 2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①如图1，设\\(AB\\)与\\(CE\\)交于点O，",
+    "〔图2〕",
+    "∵\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．",
+    "∴\\(\\angle BAC+\\angle BAE=\\angle DAE+\\angle BAE\\)，",
+    "∴\\(\\angle CAE=\\angle BAD\\)，",
+    "∴\\(\\vartriangle CAE≌\\vartriangle BAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(BD=CE,\\angle ACE=\\angle ABD\\)，",
+    "∵\\(\\angle BOF=\\angle AOC\\)，",
+    "∴\\(\\angle BFO=\\angle BAC=90{}^\\circ\\)，",
+    "∴\\(BD\\bot CE\\)，",
+    "故答案为：相等，垂直；",
+    "②如图2，连接\\(AM\\)，",
+    "〔图3〕",
+    "由①知，\\(\\angle ACE=\\angle ABD,CE=BD\\)，",
+    "∵M、N分别是\\(BD\\)与\\(CE\\)的中点，",
+    "∴\\(CN=\\frac { 1 } { 2 }CE,BM=\\frac { 1 } { 2 }BD\\)，",
+    "∴\\(CN=BM\\)，",
+    "∵\\(AC=AB\\)，",
+    "∴\\(\\vartriangle ACN≌\\vartriangle ABM\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AN=AM,\\angle CAN=\\angle BAM\\)，",
+    "∴\\(\\angle CAN-\\angle BAN=\\angle BAM-\\angle BAN\\)，\\(\\angle ANM=\\angle AMN\\)，",
+    "∴\\(\\angle MAN=\\angle BAC=90{}^\\circ\\)，",
+    "∴\\(\\angle ANM=\\angle AMN=45{}^\\circ\\)，",
+    "故答案为：45；",
+    "【小问2详解】",
+    "解：如图3，当C在\\(BD\\)上时，作\\(AR\\bot BC\\)于R，延长\\(AH\\)至W，使\\(HW=AH\\)，",
+    "〔图4〕",
+    "∴\\(\\angle ARD=90{}^\\circ\\)，",
+    "∵\\(\\angle ACB=45{}^\\circ ,\\angle ARC=90{}^\\circ\\)，",
+    "\\(\\therefore AR=CR=\\frac { \\sqrt[] { 2 } } { 2 }AC=2\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore DR=\\sqrt[] { AD ^ { 2 } -AR ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 5 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=6\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore CD=DR-CR=6\\sqrt[] { 2 }-2\\sqrt[] { 2 }=4\\sqrt[] { 2 }\\)，",
+    "∵H是\\(BE\\)的中点，",
+    "∴四边形\\(ABWE\\)是平行四边形，",
+    "∴\\(EW=AB=AC,\\angle AEW+\\angle BAE=180{}^\\circ\\)，",
+    "∵\\(\\angle BAC+\\angle DAE=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，",
+    "∴\\(\\angle CAD+\\angle BAE=180{}^\\circ\\)，",
+    "∴\\(\\angle AEW=\\angle CAD\\)，",
+    "∵\\(AD=AE\\)，",
+    "∴\\(\\vartriangle AEW≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AW=CD=4\\sqrt[] { 2 }\\)，",
+    "∴\\(AH=2\\sqrt[] { 2 }\\)，",
+    "如图4，当点C在\\(DB\\)的延长线上时，作\\(AR\\bot BC\\)于R，",
+    "〔图5〕",
+    "同理\\(CD=DR+CR=6\\sqrt[] { 2 }+2\\sqrt[] { 2 }=8\\sqrt[] { 2 }\\)，",
+    "∴\\(AH=\\frac { 1 } { 2 }CD=4\\sqrt[] { 2 }\\)，",
+    "综上所述：\\(AH\\)的长为 2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "问题背景：\\(\\vartriangle ABC\\)和\\(\\vartriangle ADE\\)都是等腰直角三角形，\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．\n〔图1〕",
+      "paper_blocks": [
+        62,
+        63
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "问题探究：连接\\(BD\\)与\\(CE\\)，\\(BD\\)与\\(CE\\)交点为F．",
+      "paper_blocks": [
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-4477FA3C32-Q22-P01",
+      "label": "（1）①",
+      "prompt": "如图1，\\(BD\\)与\\(CE\\)的数量关系是        （填“相等”或“不相等”），\\(BD\\)与\\(CE\\)的位置关系是        （填“平行”或“垂直”）；",
+      "stem_text": "如图1，\\(BD\\)与\\(CE\\)的数量关系是        （填“相等”或“不相等”），\\(BD\\)与\\(CE\\)的位置关系是        （填“平行”或“垂直”）；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "相等，垂直；",
+      "answer": "相等，垂直；",
+      "given_solution": "如图1，设\\(AB\\)与\\(CE\\)交于点O，\n〔图2〕\n∵\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．\n∴\\(\\angle BAC+\\angle BAE=\\angle DAE+\\angle BAE\\)，\n∴\\(\\angle CAE=\\angle BAD\\)，\n∴\\(\\vartriangle CAE≌\\vartriangle BAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(BD=CE,\\angle ACE=\\angle ABD\\)，\n∵\\(\\angle BOF=\\angle AOC\\)，\n∴\\(\\angle BFO=\\angle BAC=90{}^\\circ\\)，\n∴\\(BD\\bot CE\\)，\n故答案为：相等，垂直；",
+      "solution_steps": [
+        "如图1，设\\(AB\\)与\\(CE\\)交于点O，",
+        "〔图2〕",
+        "∵\\(\\angle BAC=\\angle DAE=90{}^\\circ ,AB=AC,AD=AE\\)．",
+        "∴\\(\\angle BAC+\\angle BAE=\\angle DAE+\\angle BAE\\)，",
+        "∴\\(\\angle CAE=\\angle BAD\\)，",
+        "∴\\(\\vartriangle CAE≌\\vartriangle BAD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(BD=CE,\\angle ACE=\\angle ABD\\)，",
+        "∵\\(\\angle BOF=\\angle AOC\\)，",
+        "∴\\(\\angle BFO=\\angle BAC=90{}^\\circ\\)，",
+        "∴\\(BD\\bot CE\\)，",
+        "故答案为：相等，垂直；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-4477FA3C32-Q22-P02",
+      "label": "（1）②",
+      "prompt": "如图2，M、N分别是\\(BD\\)与\\(CE\\)的中点，\\(\\angle ANM=\\)        \\({}^\\circ\\)；",
+      "stem_text": "如图2，M、N分别是\\(BD\\)与\\(CE\\)的中点，\\(\\angle ANM=\\)        \\({}^\\circ\\)；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "45",
+      "answer": "45",
+      "given_solution": "如图2，连接\\(AM\\)，\n〔图3〕\n由①知，\\(\\angle ACE=\\angle ABD,CE=BD\\)，\n∵M、N分别是\\(BD\\)与\\(CE\\)的中点，\n∴\\(CN=\\frac { 1 } { 2 }CE,BM=\\frac { 1 } { 2 }BD\\)，\n∴\\(CN=BM\\)，\n∵\\(AC=AB\\)，\n∴\\(\\vartriangle ACN≌\\vartriangle ABM\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=AM,\\angle CAN=\\angle BAM\\)，\n∴\\(\\angle CAN-\\angle BAN=\\angle BAM-\\angle BAN\\)，\\(\\angle ANM=\\angle AMN\\)，\n∴\\(\\angle MAN=\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle ANM=\\angle AMN=45{}^\\circ\\)，\n故答案为：45；",
+      "solution_steps": [
+        "如图2，连接\\(AM\\)，",
+        "〔图3〕",
+        "由①知，\\(\\angle ACE=\\angle ABD,CE=BD\\)，",
+        "∵M、N分别是\\(BD\\)与\\(CE\\)的中点，",
+        "∴\\(CN=\\frac { 1 } { 2 }CE,BM=\\frac { 1 } { 2 }BD\\)，",
+        "∴\\(CN=BM\\)，",
+        "∵\\(AC=AB\\)，",
+        "∴\\(\\vartriangle ACN≌\\vartriangle ABM\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AN=AM,\\angle CAN=\\angle BAM\\)，",
+        "∴\\(\\angle CAN-\\angle BAN=\\angle BAM-\\angle BAN\\)，\\(\\angle ANM=\\angle AMN\\)，",
+        "∴\\(\\angle MAN=\\angle BAC=90{}^\\circ\\)，",
+        "∴\\(\\angle ANM=\\angle AMN=45{}^\\circ\\)，",
+        "故答案为：45；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-4477FA3C32-Q22-P03",
+      "label": "（2）",
+      "prompt": "问题拓展：当等腰直角\\(\\vartriangle ABC\\)旋转到如图3位置，连接\\(BE,CD\\)，点H为\\(BE\\)中点，当B、C、D三点共线时，若\\(AB=4\\)，\\(AD=4\\sqrt[] { 5 }\\)，请求出线段\\(AH\\)的长．",
+      "stem_text": "问题拓展：当等腰直角\\(\\vartriangle ABC\\)旋转到如图3位置，连接\\(BE,CD\\)，点H为\\(BE\\)中点，当B、C、D三点共线时，若\\(AB=4\\)，\\(AD=4\\sqrt[] { 5 }\\)，请求出线段\\(AH\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)",
+      "answer": "2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)",
+      "given_solution": "解：如图3，当C在\\(BD\\)上时，作\\(AR\\bot BC\\)于R，延长\\(AH\\)至W，使\\(HW=AH\\)，\n〔图4〕\n∴\\(\\angle ARD=90{}^\\circ\\)，\n∵\\(\\angle ACB=45{}^\\circ ,\\angle ARC=90{}^\\circ\\)，\n\\(\\therefore AR=CR=\\frac { \\sqrt[] { 2 } } { 2 }AC=2\\sqrt[] { 2 }\\)，\n\\(\\therefore DR=\\sqrt[] { AD ^ { 2 } -AR ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 5 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=6\\sqrt[] { 2 }\\)，\n\\(\\therefore CD=DR-CR=6\\sqrt[] { 2 }-2\\sqrt[] { 2 }=4\\sqrt[] { 2 }\\)，\n∵H是\\(BE\\)的中点，\n∴四边形\\(ABWE\\)是平行四边形，\n∴\\(EW=AB=AC,\\angle AEW+\\angle BAE=180{}^\\circ\\)，\n∵\\(\\angle BAC+\\angle DAE=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，\n∴\\(\\angle CAD+\\angle BAE=180{}^\\circ\\)，\n∴\\(\\angle AEW=\\angle CAD\\)，\n∵\\(AD=AE\\)，\n∴\\(\\vartriangle AEW≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AW=CD=4\\sqrt[] { 2 }\\)，\n∴\\(AH=2\\sqrt[] { 2 }\\)，\n如图4，当点C在\\(DB\\)的延长线上时，作\\(AR\\bot BC\\)于R，\n〔图5〕\n同理\\(CD=DR+CR=6\\sqrt[] { 2 }+2\\sqrt[] { 2 }=8\\sqrt[] { 2 }\\)，\n∴\\(AH=\\frac { 1 } { 2 }CD=4\\sqrt[] { 2 }\\)，\n综上所述：\\(AH\\)的长为 2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)．",
+      "solution_steps": [
+        "解：如图3，当C在\\(BD\\)上时，作\\(AR\\bot BC\\)于R，延长\\(AH\\)至W，使\\(HW=AH\\)，",
+        "〔图4〕",
+        "∴\\(\\angle ARD=90{}^\\circ\\)，",
+        "∵\\(\\angle ACB=45{}^\\circ ,\\angle ARC=90{}^\\circ\\)，",
+        "\\(\\therefore AR=CR=\\frac { \\sqrt[] { 2 } } { 2 }AC=2\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore DR=\\sqrt[] { AD ^ { 2 } -AR ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 5 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=6\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore CD=DR-CR=6\\sqrt[] { 2 }-2\\sqrt[] { 2 }=4\\sqrt[] { 2 }\\)，",
+        "∵H是\\(BE\\)的中点，",
+        "∴四边形\\(ABWE\\)是平行四边形，",
+        "∴\\(EW=AB=AC,\\angle AEW+\\angle BAE=180{}^\\circ\\)，",
+        "∵\\(\\angle BAC+\\angle DAE=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，",
+        "∴\\(\\angle CAD+\\angle BAE=180{}^\\circ\\)，",
+        "∴\\(\\angle AEW=\\angle CAD\\)，",
+        "∵\\(AD=AE\\)，",
+        "∴\\(\\vartriangle AEW≌\\vartriangle ADC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AW=CD=4\\sqrt[] { 2 }\\)，",
+        "∴\\(AH=2\\sqrt[] { 2 }\\)，",
+        "如图4，当点C在\\(DB\\)的延长线上时，作\\(AR\\bot BC\\)于R，",
+        "〔图5〕",
+        "同理\\(CD=DR+CR=6\\sqrt[] { 2 }+2\\sqrt[] { 2 }=8\\sqrt[] { 2 }\\)，",
+        "∴\\(AH=\\frac { 1 } { 2 }CD=4\\sqrt[] { 2 }\\)，",
+        "综上所述：\\(AH\\)的长为 2\\(\\sqrt[] { 2 }\\)或4\\(\\sqrt[] { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          67
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      67
+    ],
+    "solution_body_blocks": [
+      312,
+      371
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-4477FA3C32/paper-q22-p05.webp",
+      "assets/SZ-G8-T2-4477FA3C32/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          658.18,
+          583.64,
+          673.18
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          491.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-4477FA3C32/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-4477FA3C32/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-4477FA3C32/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-4477FA3C32/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-4477FA3C32/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          650.45,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          665.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

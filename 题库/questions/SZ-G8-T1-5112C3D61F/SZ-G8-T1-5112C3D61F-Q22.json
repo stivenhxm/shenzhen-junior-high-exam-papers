@@ -1,0 +1,323 @@
+{
+  "id": "SZ-G8-T1-5112C3D61F-Q22",
+  "paper_id": "SZ-G8-T1-5112C3D61F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、用坐标求线段长度与面积",
+  "stem": "如图，在平面直角坐标系xOy中，点Q的坐标为（8，0），直线\\(l\\)与x轴，y轴分别交于A（10，0），B（0，10）两点，点P（x，y）是第一象限直线\\(l\\)上的动点．\n〔图1〕〔图2〕\n（1）求直线\\(l\\)的解析式；\n（2）设△POQ的面积为S，求S关于x的函数解析式，并写出x的取值范围；\n（3）当△POQ的面积等于20时，在y轴上是否存在一点C，使∠CPO＝22.5°，若存在，请求点C的坐标；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-5112C3D61F/figures/be13d87f6a27df396e1682feb3f49733afab6294dabb5da3df08fd20b5ef082e.png",
+    "assets/SZ-G8-T1-5112C3D61F/figures/698b4ed58d60407ee63695bc47438c5c402060706c9b6e57f0fe1af99e4befb3.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）y= -x+10\n（2）S= -4x+40(0＜x＜10)\n（3）存在，点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）",
+  "answer": "（1）y= -x+10\n（2）S= -4x+40(0＜x＜10)\n（3）存在，点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）",
+  "given_solution": "【分析】(1)设直线的解析式为y=kx+b，把A（10，0），B（0，10）两点代入解方程组即可．\n（2）根据题意点P(x，y)可变形为P(x，-x+10)，根据S=\\(\\frac { 1 } { 2 }OQ\\centerdot y_{ p }\\)计算即可．\n（3）过点P作PD⊥y轴，垂足为D，作PC平分∠DPO，交y轴于点C，作过点C作CE⊥OP，垂足为E，利用勾股定理，等腰直角三角形的性质计算即可．\n【小问1详解】\n设直线的解析式为y=kx+b，把A（10，0），B（0，10）两点代入，得\n\\(\\begin{cases} 10k+b=0 \\\\ b=10 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-1 \\\\ b=10 \\end{cases}\\)，\n∴直线\\(l\\)的解析式为\\(y=-x+10\\)．\n【小问2详解】\n∵点P是直线\\(y=-x+10\\)的点，\n∴P（x，\\(-x+10\\)），\n∴S=\\(\\frac { 1 } { 2 }OQ\\centerdot y_{ p }\\)=\\(\\frac { 1 } { 2 }\\times 8\\times (-x+10)\\)=-4x+40(0＜x＜10) ．\n【小问3详解】\n∵ S=-4x+40=20，\n解得x=5，y=5，\n故点P（5，5），\n∴过点P作PD⊥y轴，垂足为D，\n则PD=DO=5，∠DPO=∠DOP=45°，PO=\\(\\sqrt[] { 5 ^ { 2 } +5 ^ { 2 } }=5\\sqrt[] { 2 }\\)．\n作PC平分∠DPO，交y轴于点C，\n〔图3〕\n则∠CPO=22.5°，\n∴过点C作CE⊥OP，垂足为E，\n则DC=CE，由PC=PC，得△PDC≌△PEC，\n∴PD=PE=5，\n∵∠DOP=45°，CE⊥OP，\n∴CE=OE=PO-PE=\\(5\\sqrt[] { 2 }-5\\)，\n∴CO=\\(\\sqrt[] { 2 }CE=\\sqrt[] { 2 }(5\\sqrt[] { 2 }-5)=10-5\\sqrt[] { 2 }\\),\n故点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）．\n【点睛】本题考查了待定系数法求解析式，勾股定理，三角形全等，等腰直角三角形的判定和性质，熟练掌握待定系数法，灵活运用勾股定理和等腰直角三角形的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-5112C3D61F/figures/97609ea4b3d66539319013db7b138d73309d6a9b6e0f216083b368e410e3d582.png",
+    "assets/SZ-G8-T1-5112C3D61F/figures/2ebdd780b27a31d869a43d47b3597c3d17ef0da03d8e3366a9a0312c14624374.png",
+    "assets/SZ-G8-T1-5112C3D61F/figures/042119e6aa850c8fb9b8da285c3a17b7f76ae128c4d8907e9a2006210360a9d4.png"
+  ],
+  "solution": "【小问1详解】\n设直线的解析式为y=kx+b，把A（10，0），B（0，10）两点代入，得\n\\(\\begin{cases} 10k+b=0 \\\\ b=10 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-1 \\\\ b=10 \\end{cases}\\)，\n∴直线\\(l\\)的解析式为\\(y=-x+10\\)．\n【小问2详解】\n∵点P是直线\\(y=-x+10\\)的点，\n∴P（x，\\(-x+10\\)），\n∴S=\\(\\frac { 1 } { 2 }OQ\\centerdot y_{ p }\\)=\\(\\frac { 1 } { 2 }\\times 8\\times (-x+10)\\)=-4x+40(0＜x＜10) ．\n【小问3详解】\n∵ S=-4x+40=20，\n解得x=5，y=5，\n故点P（5，5），\n∴过点P作PD⊥y轴，垂足为D，\n则PD=DO=5，∠DPO=∠DOP=45°，PO=\\(\\sqrt[] { 5 ^ { 2 } +5 ^ { 2 } }=5\\sqrt[] { 2 }\\)．\n作PC平分∠DPO，交y轴于点C，\n〔图3〕\n则∠CPO=22.5°，\n∴过点C作CE⊥OP，垂足为E，\n则DC=CE，由PC=PC，得△PDC≌△PEC，\n∴PD=PE=5，\n∵∠DOP=45°，CE⊥OP，\n∴CE=OE=PO-PE=\\(5\\sqrt[] { 2 }-5\\)，\n∴CO=\\(\\sqrt[] { 2 }CE=\\sqrt[] { 2 }(5\\sqrt[] { 2 }-5)=10-5\\sqrt[] { 2 }\\),\n故点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）．",
+  "solution_steps": [
+    "【小问1详解】",
+    "设直线的解析式为y=kx+b，把A（10，0），B（0，10）两点代入，得",
+    "\\(\\begin{cases} 10k+b=0 \\\\ b=10 \\end{cases}\\)，",
+    "解得\\(\\begin{cases} k=-1 \\\\ b=10 \\end{cases}\\)，",
+    "∴直线\\(l\\)的解析式为\\(y=-x+10\\)．",
+    "【小问2详解】",
+    "∵点P是直线\\(y=-x+10\\)的点，",
+    "∴P（x，\\(-x+10\\)），",
+    "∴S=\\(\\frac { 1 } { 2 }OQ\\centerdot y_{ p }\\)=\\(\\frac { 1 } { 2 }\\times 8\\times (-x+10)\\)=-4x+40(0＜x＜10) ．",
+    "【小问3详解】",
+    "∵ S=-4x+40=20，",
+    "解得x=5，y=5，",
+    "故点P（5，5），",
+    "∴过点P作PD⊥y轴，垂足为D，",
+    "则PD=DO=5，∠DPO=∠DOP=45°，PO=\\(\\sqrt[] { 5 ^ { 2 } +5 ^ { 2 } }=5\\sqrt[] { 2 }\\)．",
+    "作PC平分∠DPO，交y轴于点C，",
+    "〔图3〕",
+    "则∠CPO=22.5°，",
+    "∴过点C作CE⊥OP，垂足为E，",
+    "则DC=CE，由PC=PC，得△PDC≌△PEC，",
+    "∴PD=PE=5，",
+    "∵∠DOP=45°，CE⊥OP，",
+    "∴CE=OE=PO-PE=\\(5\\sqrt[] { 2 }-5\\)，",
+    "∴CO=\\(\\sqrt[] { 2 }CE=\\sqrt[] { 2 }(5\\sqrt[] { 2 }-5)=10-5\\sqrt[] { 2 }\\),",
+    "故点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系xOy中，点Q的坐标为（8，0），直线\\(l\\)与x轴，y轴分别交于A（10，0），B（0，10）两点，点P（x，y）是第一象限直线\\(l\\)上的动点．\n〔图1〕〔图2〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5112C3D61F-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(l\\)的解析式；",
+      "stem_text": "求直线\\(l\\)的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "y= -x+10",
+      "answer": "y= -x+10",
+      "given_solution": "设直线的解析式为y=kx+b，把A（10，0），B（0，10）两点代入，得\n\\(\\begin{cases} 10k+b=0 \\\\ b=10 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-1 \\\\ b=10 \\end{cases}\\)，\n∴直线\\(l\\)的解析式为\\(y=-x+10\\)．",
+      "solution_steps": [
+        "设直线的解析式为y=kx+b，把A（10，0），B（0，10）两点代入，得",
+        "\\(\\begin{cases} 10k+b=0 \\\\ b=10 \\end{cases}\\)，",
+        "解得\\(\\begin{cases} k=-1 \\\\ b=10 \\end{cases}\\)，",
+        "∴直线\\(l\\)的解析式为\\(y=-x+10\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5112C3D61F-Q22-P02",
+      "label": "（2）",
+      "prompt": "设△POQ的面积为S，求S关于x的函数解析式，并写出x的取值范围；",
+      "stem_text": "设△POQ的面积为S，求S关于x的函数解析式，并写出x的取值范围；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "S= -4x+40(0＜x＜10)",
+      "answer": "S= -4x+40(0＜x＜10)",
+      "given_solution": "∵点P是直线\\(y=-x+10\\)的点，\n∴P（x，\\(-x+10\\)），\n∴S=\\(\\frac { 1 } { 2 }OQ\\centerdot y_{ p }\\)=\\(\\frac { 1 } { 2 }\\times 8\\times (-x+10)\\)=-4x+40(0＜x＜10) ．",
+      "solution_steps": [
+        "∵点P是直线\\(y=-x+10\\)的点，",
+        "∴P（x，\\(-x+10\\)），",
+        "∴S=\\(\\frac { 1 } { 2 }OQ\\centerdot y_{ p }\\)=\\(\\frac { 1 } { 2 }\\times 8\\times (-x+10)\\)=-4x+40(0＜x＜10) ．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          354,
+          355,
+          356
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5112C3D61F-Q22-P03",
+      "label": "（3）",
+      "prompt": "当△POQ的面积等于20时，在y轴上是否存在一点C，使∠CPO＝22.5°，若存在，请求点C的坐标；若不存在，请说明理由．",
+      "stem_text": "当△POQ的面积等于20时，在y轴上是否存在一点C，使∠CPO＝22.5°，若存在，请求点C的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在，点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）",
+      "answer": "存在，点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）",
+      "given_solution": "∵ S=-4x+40=20，\n解得x=5，y=5，\n故点P（5，5），\n∴过点P作PD⊥y轴，垂足为D，\n则PD=DO=5，∠DPO=∠DOP=45°，PO=\\(\\sqrt[] { 5 ^ { 2 } +5 ^ { 2 } }=5\\sqrt[] { 2 }\\)．\n作PC平分∠DPO，交y轴于点C，\n〔图3〕\n则∠CPO=22.5°，\n∴过点C作CE⊥OP，垂足为E，\n则DC=CE，由PC=PC，得△PDC≌△PEC，\n∴PD=PE=5，\n∵∠DOP=45°，CE⊥OP，\n∴CE=OE=PO-PE=\\(5\\sqrt[] { 2 }-5\\)，\n∴CO=\\(\\sqrt[] { 2 }CE=\\sqrt[] { 2 }(5\\sqrt[] { 2 }-5)=10-5\\sqrt[] { 2 }\\),\n故点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）．",
+      "solution_steps": [
+        "∵ S=-4x+40=20，",
+        "解得x=5，y=5，",
+        "故点P（5，5），",
+        "∴过点P作PD⊥y轴，垂足为D，",
+        "则PD=DO=5，∠DPO=∠DOP=45°，PO=\\(\\sqrt[] { 5 ^ { 2 } +5 ^ { 2 } }=5\\sqrt[] { 2 }\\)．",
+        "作PC平分∠DPO，交y轴于点C，",
+        "〔图3〕",
+        "则∠CPO=22.5°，",
+        "∴过点C作CE⊥OP，垂足为E，",
+        "则DC=CE，由PC=PC，得△PDC≌△PEC，",
+        "∴PD=PE=5，",
+        "∵∠DOP=45°，CE⊥OP，",
+        "∴CE=OE=PO-PE=\\(5\\sqrt[] { 2 }-5\\)，",
+        "∴CO=\\(\\sqrt[] { 2 }CE=\\sqrt[] { 2 }(5\\sqrt[] { 2 }-5)=10-5\\sqrt[] { 2 }\\),",
+        "故点C的坐标为（0，\\(10-5\\sqrt[] { 2 }\\)）．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      73
+    ],
+    "solution_body_blocks": [
+      336,
+      373
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5112C3D61F/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          525.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5112C3D61F/solution-q22-p17.webp",
+      "assets/SZ-G8-T1-5112C3D61F/solution-q22-p18.webp",
+      "assets/SZ-G8-T1-5112C3D61F/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          385.91,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          150.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G09.03.01",
+    "E.G09.03.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

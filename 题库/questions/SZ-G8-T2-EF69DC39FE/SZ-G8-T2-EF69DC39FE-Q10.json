@@ -1,0 +1,159 @@
+{
+  "id": "SZ-G8-T2-EF69DC39FE-Q10",
+  "paper_id": "SZ-G8-T2-EF69DC39FE",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，菱形\\(ABCD\\)中，\\(AB=6\\)，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点\\(E\\)是\\(AB\\)上一点，将菱形沿着\\(EC\\)折叠，使点\\(B\\)落在点\\(F\\)处，\\(CF\\)与\\(AD\\)交于点\\(G\\)，点\\(H\\)是\\(EC\\)的中点，\\(FH=\\sqrt[] { 19 }\\)，则\\(FG\\)的长为（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(3\\sqrt[] { 3 }-\\sqrt[] { 19 }\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(6-3\\sqrt[] { 3 }\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(\\frac { 4 } { 5 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(\\frac { 3 } { 4 }\\)"
+    }
+  ],
+  "figures": [
+    "assets/figures/5c/5cd64f501aa551033c55d9e8d1f91c06474d6b1877e44f73ec817290355ac9c9.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "【分析】作辅助线如解析图，要求\\(FG\\)，因为\\(CF=CB=6\\)，故只要求出\\(CG\\)即可，根据三角形的中位线定理和含30度角的直角三角形的性质依次求出\\(HI=3,BI=EI=AE=2,CL=3\\sqrt[] { 3 },KL=6\\)，然后设\\(GK=GC=y\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GLC\\)中，由勾股定理列出方程即可求出\\(CG\\)．\n【详解】解：取\\(BE\\)的中点I，过点B作\\(BJ\\bot HI\\)交\\(HI\\)的延长线于点J，连接\\(BH\\)，如图，\n∵点\\(H\\)是\\(EC\\)的中点，\n∴\\(HI=\\frac { 1 } { 2 }BC=3\\)，\\(HI\\parallel BC\\)，\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle HIB=120{}^\\circ\\)，\\(\\angle BIJ=60{}^\\circ\\)，\n∴\\(\\angle JBI=30{}^\\circ\\)，\n设\\(IJ=x\\)，则\\(BI=2x,BJ=\\sqrt[] { 3 }x\\)，\n∵将菱形沿着\\(EC\\)折叠，使点\\(B\\)落在点\\(F\\)处，\\(FH=\\sqrt[] { 19 }\\)，\n∴\\(FH=BH=\\sqrt[] { 19 }\\)，\\(BC=FC=6\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BHJ\\)中，由勾股定理得\\(BJ ^ { 2 } +JH ^ { 2 } =BH ^ { 2 }\\)，\n即\\(\\left ( { \\sqrt[] { 3 }x } \\right ) ^ { 2 } +\\left ( { x+3 } \\right ) ^ { 2 } =\\left ( { \\sqrt[] { 19 } } \\right ) ^ { 2 }\\)，解得\\(x=1\\)（舍去负值），\n∴\\(BI=2\\)，\n∴\\(EI=2\\)，\\(AE=AB-BI-EI=2\\)，\n延长\\(DA,CE\\)交于点K，\n〔图2〕\n∵\\(AK\\parallel BC\\)，\n∴\\(AK\\parallel IH\\)，\n∴\\(\\angle 3=\\angle EHI=\\angle 1,\\angle KAE=\\angle EIH\\)，\n∵\\(AE=EI=2\\)，\n∴\\(\\vartriangle AEK\\)≌\\(\\vartriangle IEH\\)，\n∴\\(AK=HI=3\\)，\n作\\(CL\\bot AD\\)于点L，\n∵\\(\\angle D=\\angle B=60{}^\\circ\\)，\n∴\\(\\angle DCL=30{}^\\circ\\)，\n∴\\(DL=\\frac { 1 } { 2 }DC=3,CL=\\sqrt[] { 6 ^ { 2 } -3 ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n∴\\(AL=AD-DL=3\\)，\n∴\\(LK=AK+AL=6\\)，\n∵\\(\\angle 1=\\angle 2\\)，\n∴\\(\\angle 2=\\angle 3\\)，\n∴设\\(GK=GC=y\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GLC\\)中，由勾股定理得\\(\\left ( { 6-y } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } =y ^ { 2 }\\)，解得\\(y=\\frac { 21 } { 4 }\\)，\n∴\\(FG=FC-GC=6-\\frac { 21 } { 4 }=\\frac { 3 } { 4 }\\)．\n故选：D．\n【点睛】本题考查了菱形的性质、折叠的性质、全等三角形的判定和性质、三角形的中位线定理、一元二次方程的求解、勾股定理以及等腰三角形的判定和性质等知识，综合性较强，难度较大，正确添加辅助线、熟练掌握相关图形的性质定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/5c/5cd64f501aa551033c55d9e8d1f91c06474d6b1877e44f73ec817290355ac9c9.png",
+    "assets/figures/fe/fe5d4ca90bef88bfb5ba2f25ab9a895dddab232da3d1bc33cc249220f929164d.png"
+  ],
+  "solution": "解：取\\(BE\\)的中点I，过点B作\\(BJ\\bot HI\\)交\\(HI\\)的延长线于点J，连接\\(BH\\)，如图，\n∵点\\(H\\)是\\(EC\\)的中点，\n∴\\(HI=\\frac { 1 } { 2 }BC=3\\)，\\(HI\\parallel BC\\)，\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle HIB=120{}^\\circ\\)，\\(\\angle BIJ=60{}^\\circ\\)，\n∴\\(\\angle JBI=30{}^\\circ\\)，\n设\\(IJ=x\\)，则\\(BI=2x,BJ=\\sqrt[] { 3 }x\\)，\n∵将菱形沿着\\(EC\\)折叠，使点\\(B\\)落在点\\(F\\)处，\\(FH=\\sqrt[] { 19 }\\)，\n∴\\(FH=BH=\\sqrt[] { 19 }\\)，\\(BC=FC=6\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BHJ\\)中，由勾股定理得\\(BJ ^ { 2 } +JH ^ { 2 } =BH ^ { 2 }\\)，\n即\\(\\left ( { \\sqrt[] { 3 }x } \\right ) ^ { 2 } +\\left ( { x+3 } \\right ) ^ { 2 } =\\left ( { \\sqrt[] { 19 } } \\right ) ^ { 2 }\\)，解得\\(x=1\\)（舍去负值），\n∴\\(BI=2\\)，\n∴\\(EI=2\\)，\\(AE=AB-BI-EI=2\\)，\n延长\\(DA,CE\\)交于点K，\n〔图2〕\n∵\\(AK\\parallel BC\\)，\n∴\\(AK\\parallel IH\\)，\n∴\\(\\angle 3=\\angle EHI=\\angle 1,\\angle KAE=\\angle EIH\\)，\n∵\\(AE=EI=2\\)，\n∴\\(\\vartriangle AEK\\)≌\\(\\vartriangle IEH\\)，\n∴\\(AK=HI=3\\)，\n作\\(CL\\bot AD\\)于点L，\n∵\\(\\angle D=\\angle B=60{}^\\circ\\)，\n∴\\(\\angle DCL=30{}^\\circ\\)，\n∴\\(DL=\\frac { 1 } { 2 }DC=3,CL=\\sqrt[] { 6 ^ { 2 } -3 ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n∴\\(AL=AD-DL=3\\)，\n∴\\(LK=AK+AL=6\\)，\n∵\\(\\angle 1=\\angle 2\\)，\n∴\\(\\angle 2=\\angle 3\\)，\n∴设\\(GK=GC=y\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GLC\\)中，由勾股定理得\\(\\left ( { 6-y } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } =y ^ { 2 }\\)，解得\\(y=\\frac { 21 } { 4 }\\)，\n∴\\(FG=FC-GC=6-\\frac { 21 } { 4 }=\\frac { 3 } { 4 }\\)．\n故选：D．",
+  "solution_steps": [
+    "解：取\\(BE\\)的中点I，过点B作\\(BJ\\bot HI\\)交\\(HI\\)的延长线于点J，连接\\(BH\\)，如图，",
+    "∵点\\(H\\)是\\(EC\\)的中点，",
+    "∴\\(HI=\\frac { 1 } { 2 }BC=3\\)，\\(HI\\parallel BC\\)，",
+    "∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(\\angle HIB=120{}^\\circ\\)，\\(\\angle BIJ=60{}^\\circ\\)，",
+    "∴\\(\\angle JBI=30{}^\\circ\\)，",
+    "设\\(IJ=x\\)，则\\(BI=2x,BJ=\\sqrt[] { 3 }x\\)，",
+    "∵将菱形沿着\\(EC\\)折叠，使点\\(B\\)落在点\\(F\\)处，\\(FH=\\sqrt[] { 19 }\\)，",
+    "∴\\(FH=BH=\\sqrt[] { 19 }\\)，\\(BC=FC=6\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BHJ\\)中，由勾股定理得\\(BJ ^ { 2 } +JH ^ { 2 } =BH ^ { 2 }\\)，",
+    "即\\(\\left ( { \\sqrt[] { 3 }x } \\right ) ^ { 2 } +\\left ( { x+3 } \\right ) ^ { 2 } =\\left ( { \\sqrt[] { 19 } } \\right ) ^ { 2 }\\)，解得\\(x=1\\)（舍去负值），",
+    "∴\\(BI=2\\)，",
+    "∴\\(EI=2\\)，\\(AE=AB-BI-EI=2\\)，",
+    "延长\\(DA,CE\\)交于点K，",
+    "〔图2〕",
+    "∵\\(AK\\parallel BC\\)，",
+    "∴\\(AK\\parallel IH\\)，",
+    "∴\\(\\angle 3=\\angle EHI=\\angle 1,\\angle KAE=\\angle EIH\\)，",
+    "∵\\(AE=EI=2\\)，",
+    "∴\\(\\vartriangle AEK\\)≌\\(\\vartriangle IEH\\)，",
+    "∴\\(AK=HI=3\\)，",
+    "作\\(CL\\bot AD\\)于点L，",
+    "∵\\(\\angle D=\\angle B=60{}^\\circ\\)，",
+    "∴\\(\\angle DCL=30{}^\\circ\\)，",
+    "∴\\(DL=\\frac { 1 } { 2 }DC=3,CL=\\sqrt[] { 6 ^ { 2 } -3 ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+    "∴\\(AL=AD-DL=3\\)，",
+    "∴\\(LK=AK+AL=6\\)，",
+    "∵\\(\\angle 1=\\angle 2\\)，",
+    "∴\\(\\angle 2=\\angle 3\\)，",
+    "∴设\\(GK=GC=y\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GLC\\)中，由勾股定理得\\(\\left ( { 6-y } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } =y ^ { 2 }\\)，解得\\(y=\\frac { 21 } { 4 }\\)，",
+    "∴\\(FG=FC-GC=6-\\frac { 21 } { 4 }=\\frac { 3 } { 4 }\\)．",
+    "故选：D．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      29,
+      31
+    ],
+    "solution_body_blocks": [
+      133,
+      172
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-EF69DC39FE/paper-q10-p02.webp",
+      "assets/SZ-G8-T2-EF69DC39FE/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          713.18,
+          583.64,
+          756.82
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          216.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-EF69DC39FE/solution-q10-p08.webp",
+      "assets/SZ-G8-T2-EF69DC39FE/solution-q10-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          221.82,
+          583.64,
+          720.0
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          727.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

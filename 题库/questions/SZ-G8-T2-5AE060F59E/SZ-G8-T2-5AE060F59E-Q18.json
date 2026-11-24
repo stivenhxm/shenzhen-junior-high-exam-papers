@@ -1,0 +1,235 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G05.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G05.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的式子结构和所求量对应“由充分条件判定平行四边形”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-5AE060F59E-Q18",
+  "number": 18,
+  "paper_id": "SZ-G8-T2-5AE060F59E",
+  "title": "构造全等关系证明线段或角关系、由充分条件判定平行四边形",
+  "stem": "（7分）如图所示，点E在四边形ABCD的边AD上，连接CE，并延长CE交BA的延长线于点F，已知AE＝DE，FE＝CE．\n（1）求证：△AEF≌△DEC；\n（2）若AD∥BC，求证：四边形ABCD为平行四边形．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（7分）如图所示，点E在四边形ABCD的边AD上，连接CE，并延长CE交BA的延长线于点F，已知AE＝DE，FE＝CE．",
+      "paper_blocks": [
+        47
+      ]
+    },
+    {
+      "id": "fig-50",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        50
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-5AE060F59E-Q18-P01",
+      "label": "（1）",
+      "prompt": "求证：△AEF≌△DEC；",
+      "stem_text": "求证：△AEF≌△DEC；",
+      "material_ids": [
+        "context",
+        "fig-50"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴△AEF≌△DEC（SAS）",
+      "given_solution": "在△AEF和△DEC中，\n〔图1〕，\n∴△AEF≌△DEC（SAS）；",
+      "solution_steps": [
+        "在△AEF和△DEC中，",
+        "〔图1〕，",
+        "∴△AEF≌△DEC（SAS）；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          47,
+          48,
+          50
+        ],
+        "solution_block_ids": [
+          247,
+          248,
+          249
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-5AE060F59E-Q18-P02",
+      "label": "（2）",
+      "prompt": "若AD∥BC，求证：四边形ABCD为平行四边形．",
+      "stem_text": "若AD∥BC，求证：四边形ABCD为平行四边形．",
+      "material_ids": [
+        "context",
+        "fig-50"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴四边形ABCD为平行四边形",
+      "given_solution": "∵△AEF≌△DEC，\n∴∠AFE＝∠DCE，\n∴AB∥CD，\n∵AD∥BC，\n∴四边形ABCD为平行四边形．",
+      "solution_steps": [
+        "∵△AEF≌△DEC，",
+        "∴∠AFE＝∠DCE，",
+        "∴AB∥CD，",
+        "∵AD∥BC，",
+        "∴四边形ABCD为平行四边形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          47,
+          49,
+          50
+        ],
+        "solution_block_ids": [
+          250,
+          251,
+          252,
+          253,
+          254
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.01"
+      ],
+      "exam_ids": [
+        "E.G05.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/e1/e100130fca06a2830fe291a202d1931e0e45d866d2146042f89779dd5917b19c.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴△AEF≌△DEC（SAS）\n（2）∴四边形ABCD为平行四边形",
+  "given_answer": "",
+  "given_solution": "【分析】（1）利用SAS定理证明△AEF≌△DEC；\n（2）根据全等三角形的性质得到∠AFE＝∠DCE，得到AB∥CD，根据两组对边分别平行的四边形是平行四边形证明结论．\n【解答】证明：（1）在△AEF和△DEC中，\n〔图1〕，\n∴△AEF≌△DEC（SAS）；\n（2）∵△AEF≌△DEC，\n∴∠AFE＝∠DCE，\n∴AB∥CD，\n∵AD∥BC，\n∴四边形ABCD为平行四边形．\n【点评】本题考查的是平行四边形的判定、全等三角形的判定和性质，掌握平行四边形的判定定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/7e/7e488dab3d8267a5c10a0528ddf82351035dc8dcac699ab64807b3aed7b35694.png"
+  ],
+  "solution_steps": [
+    "证明：（1）在△AEF和△DEC中，",
+    "〔图1〕，",
+    "∴△AEF≌△DEC（SAS）；",
+    "（2）∵△AEF≌△DEC，",
+    "∴∠AFE＝∠DCE，",
+    "∴AB∥CD，",
+    "∵AD∥BC，",
+    "∴四边形ABCD为平行四边形．"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "证明：（1）在△AEF和△DEC中，\n〔图1〕，\n∴△AEF≌△DEC（SAS）；\n（2）∵△AEF≌△DEC，\n∴∠AFE＝∠DCE，\n∴AB∥CD，\n∵AD∥BC，\n∴四边形ABCD为平行四边形．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-5AE060F59E/single/q18-p03.webp",
+      "assets/SZ-G8-T2-5AE060F59E/single/q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          732.92,
+          582.2,
+          754.22
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          76.61,
+          582.2,
+          214.87
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-5AE060F59E/single/s18-p14.webp",
+      "assets/SZ-G8-T2-5AE060F59E/single/s18-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          583.88,
+          582.2,
+          761.27
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.2,
+          207.91
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

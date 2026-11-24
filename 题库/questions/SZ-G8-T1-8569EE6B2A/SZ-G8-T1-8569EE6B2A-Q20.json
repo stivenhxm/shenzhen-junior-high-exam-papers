@@ -1,0 +1,447 @@
+{
+  "id": "SZ-G8-T1-8569EE6B2A-Q20",
+  "paper_id": "SZ-G8-T1-8569EE6B2A",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "材料：如图所示，\\(B\\)、\\(C\\)、\\(E\\)三点在同一条直线上，\\(AC=CD\\)，\\(\\angle B=\\angle E=90{}^\\circ\\)，\\(AC\\bot CD\\)，则有\\(\\vartriangle ABC≌\\vartriangle CED\\)．\n〔图1〕\n（1）【小试牛刀】如图1，在平面直角坐标系中，\\(OC\\bot BC\\)且\\(OC=BC\\)，\\(C\\left ( { 1,4 } \\right )\\)，点\\(C\\)、\\(B\\)按顺时针顺序排列，则\\(B\\)点坐标为_____________；\n（2）【深入探究】如图2，点\\(M\\)，\\(E\\)分别在\\(x\\)轴、\\(y\\)轴上，\\(OM=OE\\)，点\\(A\\)在\\(x\\)轴负半轴上，连接\\(AE\\)，作\\(EF\\bot AE\\)且\\(EF=AE\\)，连\\(MF\\)交\\(y\\)轴于\\(N\\)，请猜想线段\\(ON\\)与线段\\(AM\\)的数量关系并进行证明；\n（3）【拓展提升】如图3，\\(A\\left ( { \\sqrt[] { 2 }+1,0 } \\right )\\)，\\(AM\\bot x\\)轴，在直线\\(AM\\)上有一动点\\(N\\)，连接\\(ON\\)并在\\(x\\)轴上方作\\(OQ\\bot ON\\)且\\(OQ=ON\\)，连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，连接\\(QN\\)交坐标轴于点\\(E\\)，当\\(OE=2\\)时，直接写出\\(Q\\)点的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-8569EE6B2A/figures/06443a9c177f298cf145309b5a488fce1f86eaac3b5ca60ee376bfb02c2feffe.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { 5,3 } \\right )\\)\n（2）\\(NO=\\frac { 1 } { 2 }AM\\)，理由见解析\n（3）\\(Q\\)的坐标为\\(\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)",
+  "answer": "（1）\\(\\left ( { 5,3 } \\right )\\)\n（2）\\(NO=\\frac { 1 } { 2 }AM\\)，理由见解析\n（3）\\(Q\\)的坐标为\\(\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)",
+  "given_solution": "【分析】本题主要考查了坐标与图形，全等三角形的判定与性质，待定系数法求一次函数解析式，掌握作出辅助线构造全等三角形是解决此题的关键．\n（1）过点\\(C\\)作\\(CE\\parallel x\\)轴，则\\(CE\\bot y\\)轴，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，证明\\(\\vartriangle OCE≌\\vartriangle CBF\\)，根据全等三角形的性质可得结论；\n（2）过点\\(F\\)作\\(BF\\bot y\\)于点\\(B\\)，同（1）可证：\\(\\vartriangle BFE≌\\vartriangle OEA\\)，得到\\(BE=OA\\)，\\(BF=OE\\)，即可得到\\(AM=OB\\)，再证明\\(\\vartriangle BFN≌\\vartriangle OMN\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，得到\\(NB=NO=\\frac { 1 } { 2 }OB=\\frac { 1 } { 2 }AM\\)；\n（3）设\\(QD\\)与\\(y\\)轴交于点\\(F\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，先证明\\(\\vartriangle QOF≌\\vartriangle AON\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得到\\(QF=AN\\)，再根据\\(E\\)位于\\(y\\)轴上，则\\(E(0,2)\\)，\\(QF=AN=m\\)，得到\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，最后根据\\(E(0,2)\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)都在直线\\(QN\\)上求出\\(m=1\\)，得到\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)；同理\\(E\\)位于\\(x\\)轴上，求出另一个点\\(Q\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)．\n【小问1详解】\n解：过点\\(C\\)作\\(CE\\bot y\\)轴于\\(E\\)，过\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，\n〔图2〕\n\\(\\therefore \\angle OEC=\\angle CFB=90{}^\\circ\\)，\\(\\angle FCB+\\angle CBF=90{}^\\circ\\)，\n∵\\(C\\left ( { 1,4 } \\right )\\)，\n∴\\(OE=4\\)，\\(CE=1\\)，\n\\(\\because BC\\bot OC\\)，\n\\(\\therefore \\angle DCB=90{}^\\circ\\)，\n\\(\\therefore \\angle OCE+\\angle BCF=90{}^\\circ\\)，\n\\(\\therefore \\angle OCE=\\angle CBF\\)，\n\\(\\because OC=BC\\)，\n\\(\\therefore\\)\\(\\vartriangle OCE≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore BF=CE=1\\)，\\(CF=OE=4\\)，\n\\(\\therefore B\\left ( { 1+4,4-1 } \\right )\\)，即\\(B(5,3)\\)，\n故答案为：\\(\\left ( { 5,3 } \\right )\\)；\n【小问2详解】\n解：\\(NO=\\frac { 1 } { 2 }AM\\)，理由如下：\n过点\\(F\\)作\\(BF\\bot y\\)于点\\(B\\)，\n〔图3〕\n同（1）可证：\\(\\vartriangle BFE≌\\vartriangle OEA\\)，\n\\(\\therefore BE=OA\\)，\\(BF=OE\\)，\n\\(\\because OE=OM\\)，\n\\(\\therefore BF=OM\\)，\n\\(\\therefore AM=OA+OM=EB+OE=OB\\)，\n又\\(\\angle FBN=\\angle MON=90{}^\\circ\\)，\\(\\angle BNF=\\angle ONM\\)，\\(BF=OM\\)，\n\\(\\therefore\\)\\(\\vartriangle BFN≌\\vartriangle OMN\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore NB=NO\\)，\n\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }OB\\)，\n\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }AM\\)；\n【小问3详解】\n解：设\\(QD\\)与\\(y\\)轴交于点\\(F\\)，\n∵连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，\n∴\\(F\\left ( { 0,\\sqrt[] { 2 }+1 } \\right )\\)，\\(\\angle QFO=90{}^\\circ\\)，\n∵\\(OQ\\bot ON\\)，\\(AM\\bot x\\)轴，设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，\n∴\\(\\angle QFO=\\angle OAN=\\angle QON=90{}^\\circ\\)，\n∴\\(\\angle QOF=\\angle AON\\)，\n∵\\(OQ=ON\\)，\n∴\\(\\vartriangle QOF≌\\vartriangle AON\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(QF=AN\\)，\n①\\(E\\)位于\\(y\\)轴上，连接\\(QN\\)交坐标轴于点\\(E\\)，\\(OE=2\\)，则\\(E(0,2)\\)，\n〔图4〕\n∴\\(QF=AN=m\\)，\n∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n设直线\\(QN\\)解析式为\\(y=kx+b\\)，\n代入\\(E(0,2)\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)得\\(\\begin{cases} 2=b \\\\ \\sqrt[] { 2 }+1=-mk+b \\\\ m=\\left ( { \\sqrt[] { 2 }+1 } \\right )k+b \\end{cases}\\)，\n解得\\(m=1\\)，\n∴\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)；\n同理②\\(E\\)位于\\(x\\)轴上，\\(E\\left ( { 2,0 } \\right )\\)设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，则\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n〔图5〕\n∴\\(QF=AN=-m\\)，\n∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n设直线\\(QN\\)解析式为\\(y=kx+b\\)，\n把\\(E\\left ( { 2,0 } \\right )\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)代入\\(y=kx+b\\)解得\\(m=-1\\)，\n∴\\(Q\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)，\n综上所述，\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-8569EE6B2A/figures/06443a9c177f298cf145309b5a488fce1f86eaac3b5ca60ee376bfb02c2feffe.png",
+    "assets/SZ-G8-T1-8569EE6B2A/figures/2e5fee4a879e5b1ceeda2a932f33ada85b21cc36d19b21d9c249bcf3b90228e5.png",
+    "assets/SZ-G8-T1-8569EE6B2A/figures/18eae550ea1c3473a84e67f68d94b79d134a7afb60d5b36f47f73bc1256e802a.png",
+    "assets/SZ-G8-T1-8569EE6B2A/figures/4dec3e7ba3a3781ad73b49ac892ca2c2ad99dea91577e17913621dacd93f53ef.png",
+    "assets/SZ-G8-T1-8569EE6B2A/figures/d03d18fcc9ec981d0d70bdc03c03beaf727c7c6cb902baf1c67790fe842b4849.png"
+  ],
+  "solution": "【小问1详解】\n解：过点\\(C\\)作\\(CE\\bot y\\)轴于\\(E\\)，过\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，\n〔图2〕\n\\(\\therefore \\angle OEC=\\angle CFB=90{}^\\circ\\)，\\(\\angle FCB+\\angle CBF=90{}^\\circ\\)，\n∵\\(C\\left ( { 1,4 } \\right )\\)，\n∴\\(OE=4\\)，\\(CE=1\\)，\n\\(\\because BC\\bot OC\\)，\n\\(\\therefore \\angle DCB=90{}^\\circ\\)，\n\\(\\therefore \\angle OCE+\\angle BCF=90{}^\\circ\\)，\n\\(\\therefore \\angle OCE=\\angle CBF\\)，\n\\(\\because OC=BC\\)，\n\\(\\therefore\\)\\(\\vartriangle OCE≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore BF=CE=1\\)，\\(CF=OE=4\\)，\n\\(\\therefore B\\left ( { 1+4,4-1 } \\right )\\)，即\\(B(5,3)\\)，\n故答案为：\\(\\left ( { 5,3 } \\right )\\)；\n【小问2详解】\n解：\\(NO=\\frac { 1 } { 2 }AM\\)，理由如下：\n过点\\(F\\)作\\(BF\\bot y\\)于点\\(B\\)，\n〔图3〕\n同（1）可证：\\(\\vartriangle BFE≌\\vartriangle OEA\\)，\n\\(\\therefore BE=OA\\)，\\(BF=OE\\)，\n\\(\\because OE=OM\\)，\n\\(\\therefore BF=OM\\)，\n\\(\\therefore AM=OA+OM=EB+OE=OB\\)，\n又\\(\\angle FBN=\\angle MON=90{}^\\circ\\)，\\(\\angle BNF=\\angle ONM\\)，\\(BF=OM\\)，\n\\(\\therefore\\)\\(\\vartriangle BFN≌\\vartriangle OMN\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore NB=NO\\)，\n\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }OB\\)，\n\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }AM\\)；\n【小问3详解】\n解：设\\(QD\\)与\\(y\\)轴交于点\\(F\\)，\n∵连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，\n∴\\(F\\left ( { 0,\\sqrt[] { 2 }+1 } \\right )\\)，\\(\\angle QFO=90{}^\\circ\\)，\n∵\\(OQ\\bot ON\\)，\\(AM\\bot x\\)轴，设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，\n∴\\(\\angle QFO=\\angle OAN=\\angle QON=90{}^\\circ\\)，\n∴\\(\\angle QOF=\\angle AON\\)，\n∵\\(OQ=ON\\)，\n∴\\(\\vartriangle QOF≌\\vartriangle AON\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(QF=AN\\)，\n①\\(E\\)位于\\(y\\)轴上，连接\\(QN\\)交坐标轴于点\\(E\\)，\\(OE=2\\)，则\\(E(0,2)\\)，\n〔图4〕\n∴\\(QF=AN=m\\)，\n∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n设直线\\(QN\\)解析式为\\(y=kx+b\\)，\n代入\\(E(0,2)\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)得\\(\\begin{cases} 2=b \\\\ \\sqrt[] { 2 }+1=-mk+b \\\\ m=\\left ( { \\sqrt[] { 2 }+1 } \\right )k+b \\end{cases}\\)，\n解得\\(m=1\\)，\n∴\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)；\n同理②\\(E\\)位于\\(x\\)轴上，\\(E\\left ( { 2,0 } \\right )\\)设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，则\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n〔图5〕\n∴\\(QF=AN=-m\\)，\n∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n设直线\\(QN\\)解析式为\\(y=kx+b\\)，\n把\\(E\\left ( { 2,0 } \\right )\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)代入\\(y=kx+b\\)解得\\(m=-1\\)，\n∴\\(Q\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)，\n综上所述，\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：过点\\(C\\)作\\(CE\\bot y\\)轴于\\(E\\)，过\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，",
+    "〔图2〕",
+    "\\(\\therefore \\angle OEC=\\angle CFB=90{}^\\circ\\)，\\(\\angle FCB+\\angle CBF=90{}^\\circ\\)，",
+    "∵\\(C\\left ( { 1,4 } \\right )\\)，",
+    "∴\\(OE=4\\)，\\(CE=1\\)，",
+    "\\(\\because BC\\bot OC\\)，",
+    "\\(\\therefore \\angle DCB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle OCE+\\angle BCF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle OCE=\\angle CBF\\)，",
+    "\\(\\because OC=BC\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle OCE≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore BF=CE=1\\)，\\(CF=OE=4\\)，",
+    "\\(\\therefore B\\left ( { 1+4,4-1 } \\right )\\)，即\\(B(5,3)\\)，",
+    "故答案为：\\(\\left ( { 5,3 } \\right )\\)；",
+    "【小问2详解】",
+    "解：\\(NO=\\frac { 1 } { 2 }AM\\)，理由如下：",
+    "过点\\(F\\)作\\(BF\\bot y\\)于点\\(B\\)，",
+    "〔图3〕",
+    "同（1）可证：\\(\\vartriangle BFE≌\\vartriangle OEA\\)，",
+    "\\(\\therefore BE=OA\\)，\\(BF=OE\\)，",
+    "\\(\\because OE=OM\\)，",
+    "\\(\\therefore BF=OM\\)，",
+    "\\(\\therefore AM=OA+OM=EB+OE=OB\\)，",
+    "又\\(\\angle FBN=\\angle MON=90{}^\\circ\\)，\\(\\angle BNF=\\angle ONM\\)，\\(BF=OM\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle BFN≌\\vartriangle OMN\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore NB=NO\\)，",
+    "\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }OB\\)，",
+    "\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }AM\\)；",
+    "【小问3详解】",
+    "解：设\\(QD\\)与\\(y\\)轴交于点\\(F\\)，",
+    "∵连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，",
+    "∴\\(F\\left ( { 0,\\sqrt[] { 2 }+1 } \\right )\\)，\\(\\angle QFO=90{}^\\circ\\)，",
+    "∵\\(OQ\\bot ON\\)，\\(AM\\bot x\\)轴，设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，",
+    "∴\\(\\angle QFO=\\angle OAN=\\angle QON=90{}^\\circ\\)，",
+    "∴\\(\\angle QOF=\\angle AON\\)，",
+    "∵\\(OQ=ON\\)，",
+    "∴\\(\\vartriangle QOF≌\\vartriangle AON\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(QF=AN\\)，",
+    "①\\(E\\)位于\\(y\\)轴上，连接\\(QN\\)交坐标轴于点\\(E\\)，\\(OE=2\\)，则\\(E(0,2)\\)，",
+    "〔图4〕",
+    "∴\\(QF=AN=m\\)，",
+    "∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，",
+    "设直线\\(QN\\)解析式为\\(y=kx+b\\)，",
+    "代入\\(E(0,2)\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)得\\(\\begin{cases} 2=b \\\\ \\sqrt[] { 2 }+1=-mk+b \\\\ m=\\left ( { \\sqrt[] { 2 }+1 } \\right )k+b \\end{cases}\\)，",
+    "解得\\(m=1\\)，",
+    "∴\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)；",
+    "同理②\\(E\\)位于\\(x\\)轴上，\\(E\\left ( { 2,0 } \\right )\\)设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，则\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，",
+    "〔图5〕",
+    "∴\\(QF=AN=-m\\)，",
+    "∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，",
+    "设直线\\(QN\\)解析式为\\(y=kx+b\\)，",
+    "把\\(E\\left ( { 2,0 } \\right )\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)代入\\(y=kx+b\\)解得\\(m=-1\\)，",
+    "∴\\(Q\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)，",
+    "综上所述，\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "材料：如图所示，\\(B\\)、\\(C\\)、\\(E\\)三点在同一条直线上，\\(AC=CD\\)，\\(\\angle B=\\angle E=90{}^\\circ\\)，\\(AC\\bot CD\\)，则有\\(\\vartriangle ABC≌\\vartriangle CED\\)．\n〔图1〕",
+      "paper_blocks": [
+        70,
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-8569EE6B2A-Q20-P01",
+      "label": "（1）",
+      "prompt": "【小试牛刀】如图1，在平面直角坐标系中，\\(OC\\bot BC\\)且\\(OC=BC\\)，\\(C\\left ( { 1,4 } \\right )\\)，点\\(C\\)、\\(B\\)按顺时针顺序排列，则\\(B\\)点坐标为_____________；",
+      "stem_text": "【小试牛刀】如图1，在平面直角坐标系中，\\(OC\\bot BC\\)且\\(OC=BC\\)，\\(C\\left ( { 1,4 } \\right )\\)，点\\(C\\)、\\(B\\)按顺时针顺序排列，则\\(B\\)点坐标为_____________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 5,3 } \\right )\\)",
+      "answer": "\\(\\left ( { 5,3 } \\right )\\)",
+      "given_solution": "解：过点\\(C\\)作\\(CE\\bot y\\)轴于\\(E\\)，过\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，\n〔图2〕\n\\(\\therefore \\angle OEC=\\angle CFB=90{}^\\circ\\)，\\(\\angle FCB+\\angle CBF=90{}^\\circ\\)，\n∵\\(C\\left ( { 1,4 } \\right )\\)，\n∴\\(OE=4\\)，\\(CE=1\\)，\n\\(\\because BC\\bot OC\\)，\n\\(\\therefore \\angle DCB=90{}^\\circ\\)，\n\\(\\therefore \\angle OCE+\\angle BCF=90{}^\\circ\\)，\n\\(\\therefore \\angle OCE=\\angle CBF\\)，\n\\(\\because OC=BC\\)，\n\\(\\therefore\\)\\(\\vartriangle OCE≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore BF=CE=1\\)，\\(CF=OE=4\\)，\n\\(\\therefore B\\left ( { 1+4,4-1 } \\right )\\)，即\\(B(5,3)\\)，\n故答案为：\\(\\left ( { 5,3 } \\right )\\)；",
+      "solution_steps": [
+        "解：过点\\(C\\)作\\(CE\\bot y\\)轴于\\(E\\)，过\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，",
+        "〔图2〕",
+        "\\(\\therefore \\angle OEC=\\angle CFB=90{}^\\circ\\)，\\(\\angle FCB+\\angle CBF=90{}^\\circ\\)，",
+        "∵\\(C\\left ( { 1,4 } \\right )\\)，",
+        "∴\\(OE=4\\)，\\(CE=1\\)，",
+        "\\(\\because BC\\bot OC\\)，",
+        "\\(\\therefore \\angle DCB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle OCE+\\angle BCF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle OCE=\\angle CBF\\)，",
+        "\\(\\because OC=BC\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle OCE≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore BF=CE=1\\)，\\(CF=OE=4\\)，",
+        "\\(\\therefore B\\left ( { 1+4,4-1 } \\right )\\)，即\\(B(5,3)\\)，",
+        "故答案为：\\(\\left ( { 5,3 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-8569EE6B2A-Q20-P02",
+      "label": "（2）",
+      "prompt": "【深入探究】如图2，点\\(M\\)，\\(E\\)分别在\\(x\\)轴、\\(y\\)轴上，\\(OM=OE\\)，点\\(A\\)在\\(x\\)轴负半轴上，连接\\(AE\\)，作\\(EF\\bot AE\\)且\\(EF=AE\\)，连\\(MF\\)交\\(y\\)轴于\\(N\\)，请猜想线段\\(ON\\)与线段\\(AM\\)的数量关系并进行证明；",
+      "stem_text": "【深入探究】如图2，点\\(M\\)，\\(E\\)分别在\\(x\\)轴、\\(y\\)轴上，\\(OM=OE\\)，点\\(A\\)在\\(x\\)轴负半轴上，连接\\(AE\\)，作\\(EF\\bot AE\\)且\\(EF=AE\\)，连\\(MF\\)交\\(y\\)轴于\\(N\\)，请猜想线段\\(ON\\)与线段\\(AM\\)的数量关系并进行证明；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(NO=\\frac { 1 } { 2 }AM\\)，理由见解析",
+      "answer": "\\(NO=\\frac { 1 } { 2 }AM\\)，理由见解析",
+      "given_solution": "解：\\(NO=\\frac { 1 } { 2 }AM\\)，理由如下：\n过点\\(F\\)作\\(BF\\bot y\\)于点\\(B\\)，\n〔图3〕\n同（1）可证：\\(\\vartriangle BFE≌\\vartriangle OEA\\)，\n\\(\\therefore BE=OA\\)，\\(BF=OE\\)，\n\\(\\because OE=OM\\)，\n\\(\\therefore BF=OM\\)，\n\\(\\therefore AM=OA+OM=EB+OE=OB\\)，\n又\\(\\angle FBN=\\angle MON=90{}^\\circ\\)，\\(\\angle BNF=\\angle ONM\\)，\\(BF=OM\\)，\n\\(\\therefore\\)\\(\\vartriangle BFN≌\\vartriangle OMN\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore NB=NO\\)，\n\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }OB\\)，\n\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }AM\\)；",
+      "solution_steps": [
+        "解：\\(NO=\\frac { 1 } { 2 }AM\\)，理由如下：",
+        "过点\\(F\\)作\\(BF\\bot y\\)于点\\(B\\)，",
+        "〔图3〕",
+        "同（1）可证：\\(\\vartriangle BFE≌\\vartriangle OEA\\)，",
+        "\\(\\therefore BE=OA\\)，\\(BF=OE\\)，",
+        "\\(\\because OE=OM\\)，",
+        "\\(\\therefore BF=OM\\)，",
+        "\\(\\therefore AM=OA+OM=EB+OE=OB\\)，",
+        "又\\(\\angle FBN=\\angle MON=90{}^\\circ\\)，\\(\\angle BNF=\\angle ONM\\)，\\(BF=OM\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle BFN≌\\vartriangle OMN\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore NB=NO\\)，",
+        "\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }OB\\)，",
+        "\\(\\therefore\\)\\(NO=\\frac { 1 } { 2 }AM\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-8569EE6B2A-Q20-P03",
+      "label": "（3）",
+      "prompt": "【拓展提升】如图3，\\(A\\left ( { \\sqrt[] { 2 }+1,0 } \\right )\\)，\\(AM\\bot x\\)轴，在直线\\(AM\\)上有一动点\\(N\\)，连接\\(ON\\)并在\\(x\\)轴上方作\\(OQ\\bot ON\\)且\\(OQ=ON\\)，连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，连接\\(QN\\)交坐标轴于点\\(E\\)，当\\(OE=2\\)时，直接写出\\(Q\\)点的坐标．",
+      "stem_text": "【拓展提升】如图3，\\(A\\left ( { \\sqrt[] { 2 }+1,0 } \\right )\\)，\\(AM\\bot x\\)轴，在直线\\(AM\\)上有一动点\\(N\\)，连接\\(ON\\)并在\\(x\\)轴上方作\\(OQ\\bot ON\\)且\\(OQ=ON\\)，连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，连接\\(QN\\)交坐标轴于点\\(E\\)，当\\(OE=2\\)时，直接写出\\(Q\\)点的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(Q\\)的坐标为\\(\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)",
+      "answer": "\\(Q\\)的坐标为\\(\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)",
+      "given_solution": "解：设\\(QD\\)与\\(y\\)轴交于点\\(F\\)，\n∵连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，\n∴\\(F\\left ( { 0,\\sqrt[] { 2 }+1 } \\right )\\)，\\(\\angle QFO=90{}^\\circ\\)，\n∵\\(OQ\\bot ON\\)，\\(AM\\bot x\\)轴，设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，\n∴\\(\\angle QFO=\\angle OAN=\\angle QON=90{}^\\circ\\)，\n∴\\(\\angle QOF=\\angle AON\\)，\n∵\\(OQ=ON\\)，\n∴\\(\\vartriangle QOF≌\\vartriangle AON\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(QF=AN\\)，\n①\\(E\\)位于\\(y\\)轴上，连接\\(QN\\)交坐标轴于点\\(E\\)，\\(OE=2\\)，则\\(E(0,2)\\)，\n〔图4〕\n∴\\(QF=AN=m\\)，\n∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n设直线\\(QN\\)解析式为\\(y=kx+b\\)，\n代入\\(E(0,2)\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)得\\(\\begin{cases} 2=b \\\\ \\sqrt[] { 2 }+1=-mk+b \\\\ m=\\left ( { \\sqrt[] { 2 }+1 } \\right )k+b \\end{cases}\\)，\n解得\\(m=1\\)，\n∴\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)；\n同理②\\(E\\)位于\\(x\\)轴上，\\(E\\left ( { 2,0 } \\right )\\)设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，则\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n〔图5〕\n∴\\(QF=AN=-m\\)，\n∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\n设直线\\(QN\\)解析式为\\(y=kx+b\\)，\n把\\(E\\left ( { 2,0 } \\right )\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)代入\\(y=kx+b\\)解得\\(m=-1\\)，\n∴\\(Q\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)，\n综上所述，\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)．",
+      "solution_steps": [
+        "解：设\\(QD\\)与\\(y\\)轴交于点\\(F\\)，",
+        "∵连接点\\(D\\left ( { \\sqrt[] { 2 }+1,\\sqrt[] { 2 }+1 } \\right )\\)与点\\(Q\\)的线段平行于\\(x\\)轴，",
+        "∴\\(F\\left ( { 0,\\sqrt[] { 2 }+1 } \\right )\\)，\\(\\angle QFO=90{}^\\circ\\)，",
+        "∵\\(OQ\\bot ON\\)，\\(AM\\bot x\\)轴，设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，",
+        "∴\\(\\angle QFO=\\angle OAN=\\angle QON=90{}^\\circ\\)，",
+        "∴\\(\\angle QOF=\\angle AON\\)，",
+        "∵\\(OQ=ON\\)，",
+        "∴\\(\\vartriangle QOF≌\\vartriangle AON\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(QF=AN\\)，",
+        "①\\(E\\)位于\\(y\\)轴上，连接\\(QN\\)交坐标轴于点\\(E\\)，\\(OE=2\\)，则\\(E(0,2)\\)，",
+        "〔图4〕",
+        "∴\\(QF=AN=m\\)，",
+        "∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，",
+        "设直线\\(QN\\)解析式为\\(y=kx+b\\)，",
+        "代入\\(E(0,2)\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)得\\(\\begin{cases} 2=b \\\\ \\sqrt[] { 2 }+1=-mk+b \\\\ m=\\left ( { \\sqrt[] { 2 }+1 } \\right )k+b \\end{cases}\\)，",
+        "解得\\(m=1\\)，",
+        "∴\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)；",
+        "同理②\\(E\\)位于\\(x\\)轴上，\\(E\\left ( { 2,0 } \\right )\\)设\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)，则\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，",
+        "〔图5〕",
+        "∴\\(QF=AN=-m\\)，",
+        "∴\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，",
+        "设直线\\(QN\\)解析式为\\(y=kx+b\\)，",
+        "把\\(E\\left ( { 2,0 } \\right )\\)，\\(Q\\left ( { -m,\\sqrt[] { 2 }+1 } \\right )\\)，\\(N\\left ( { \\sqrt[] { 2 }+1,m } \\right )\\)代入\\(y=kx+b\\)解得\\(m=-1\\)，",
+        "∴\\(Q\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)，",
+        "综上所述，\\(Q\\left ( { -1,\\sqrt[] { 2 }+1 } \\right )\\)或\\(\\left ( { 1,\\sqrt[] { 2 }+1 } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          74
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“坐标与几何数量关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“坐标与几何数量关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      74
+    ],
+    "solution_body_blocks": [
+      292,
+      359
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-8569EE6B2A/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          128.18,
+          583.64,
+          490.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-8569EE6B2A/solution-q20-p17.webp",
+      "assets/SZ-G8-T1-8569EE6B2A/solution-q20-p18.webp",
+      "assets/SZ-G8-T1-8569EE6B2A/solution-q20-p19.webp",
+      "assets/SZ-G8-T1-8569EE6B2A/solution-q20-p20.webp",
+      "assets/SZ-G8-T1-8569EE6B2A/solution-q20-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          667.73,
+          583.64,
+          751.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          73.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G03.02.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“坐标与几何数量关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“坐标与几何数量关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

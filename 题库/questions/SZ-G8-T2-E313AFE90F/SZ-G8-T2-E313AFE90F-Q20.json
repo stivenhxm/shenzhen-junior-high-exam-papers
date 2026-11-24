@@ -1,0 +1,201 @@
+{
+  "knowledge_ids": [
+    "M.G05.01",
+    "M.G04.01"
+  ],
+  "exam_ids": [
+    "E.G05.01.02",
+    "E.G04.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。 解析点明的考查内容对应“应用等腰三角形性质求边角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-E313AFE90F-Q20",
+  "number": 20,
+  "paper_id": "SZ-G8-T2-E313AFE90F",
+  "title": "由充分条件判定平行四边形、应用等腰三角形性质求边角",
+  "stem": "\\((\\)本小题\\(8.0\\)分\\()\\)\n如图，四边形\\(ABCD\\)是平行四边形，\\(E\\)、\\(F\\)是对角线\\(AC\\)上的两点，连接\\(BE\\)、\\(ED\\)、\\(DF\\)、\\(FB\\)，若\\(∠ADF=∠CBE=90°\\)．\n（1）求证：四边形\\(BEDF\\)是平行四边形；\n（2）若\\(∠BAC=30°\\)，\\(∠BEC=45°\\)，请判断\\(AB\\)与\\(CE\\)有什么数量关系，并说明理由．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "\\((\\)本小题\\(8.0\\)分\\()\\)\n如图，四边形\\(ABCD\\)是平行四边形，\\(E\\)、\\(F\\)是对角线\\(AC\\)上的两点，连接\\(BE\\)、\\(ED\\)、\\(DF\\)、\\(FB\\)，若\\(∠ADF=∠CBE=90°\\)．",
+      "paper_blocks": [
+        38
+      ]
+    },
+    {
+      "id": "fig-39",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        39
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-E313AFE90F-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(BEDF\\)是平行四边形；",
+      "stem_text": "求证：四边形\\(BEDF\\)是平行四边形；",
+      "material_ids": [
+        "context",
+        "fig-39"
+      ],
+      "requires": [],
+      "given_answer": "证明：\\(∵\\)四边形\\(ABCD\\)是平行四边形，\n\\(∴AD//BC\\)，\\(AD=BC\\)，\n\\(∴∠BCE=∠DAF\\)，\n在\\(△BCE\\)和\\(△DAF\\)中，\n\\(\\{∠CBE=∠ADF=90°BC=AD∠BCE=∠DAF\\)，\n\\(∴△BCE\\)≌\\(△DAF\\)，\n\\(∴BE=DF\\)，\\(∠BEC=∠DFA\\)，\n\\(∴BE//DF\\)，\n\\(∴\\)四边形\\(BEDF\\)是平行四边形．",
+      "answer": "证明：\\(∵\\)四边形\\(ABCD\\)是平行四边形，\n\\(∴AD//BC\\)，\\(AD=BC\\)，\n\\(∴∠BCE=∠DAF\\)，\n在\\(△BCE\\)和\\(△DAF\\)中，\n\\(\\{∠CBE=∠ADF=90°BC=AD∠BCE=∠DAF\\)，\n\\(∴△BCE\\)≌\\(△DAF\\)，\n\\(∴BE=DF\\)，\\(∠BEC=∠DFA\\)，\n\\(∴BE//DF\\)，\n\\(∴\\)四边形\\(BEDF\\)是平行四边形．",
+      "given_solution": "只要证明\\(△BCE\\)≌\\(△DAF\\)，推出\\(BE=DF\\)，\\(∠BEC=∠DFA\\)，推出\\(BE//DF\\)，由此即可证明；",
+      "solution_steps": [
+        "只要证明\\(△BCE\\)≌\\(△DAF\\)，推出\\(BE=DF\\)，\\(∠BEC=∠DFA\\)，推出\\(BE//DF\\)，由此即可证明；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          38,
+          39
+        ],
+        "solution_block_ids": [
+          83
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.01"
+      ],
+      "exam_ids": [
+        "E.G05.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“由充分条件判定平行四边形”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E313AFE90F-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(∠BAC=30°\\)，\\(∠BEC=45°\\)，请判断\\(AB\\)与\\(CE\\)有什么数量关系，并说明理由．",
+      "stem_text": "若\\(∠BAC=30°\\)，\\(∠BEC=45°\\)，请判断\\(AB\\)与\\(CE\\)有什么数量关系，并说明理由．",
+      "material_ids": [
+        "context",
+        "fig-39"
+      ],
+      "requires": [],
+      "given_answer": "结论：\\(AB=EC\\)．\n理由：作\\(BH⊥AC\\)于\\(H\\)．\n在\\(Rt△ABH\\)中，\\(∵∠AHB=90°\\)，\\(∠BAH=30°\\)，\n\\(∴AB=2BH\\)，\n在\\(Rt△BEC\\)中，\\(∵∠EBC=90°\\)，\\(∠BEC=45°\\)，\\(BH⊥CE\\)，\n\\(∴EH=HC\\)，\n\\(∴EC=2BH\\)，\n\\(∴AB=EC\\)．",
+      "answer": "结论：\\(AB=EC\\)．\n理由：作\\(BH⊥AC\\)于\\(H\\)．\n在\\(Rt△ABH\\)中，\\(∵∠AHB=90°\\)，\\(∠BAH=30°\\)，\n\\(∴AB=2BH\\)，\n在\\(Rt△BEC\\)中，\\(∵∠EBC=90°\\)，\\(∠BEC=45°\\)，\\(BH⊥CE\\)，\n\\(∴EH=HC\\)，\n\\(∴EC=2BH\\)，\n\\(∴AB=EC\\)．",
+      "given_solution": "结论：\\(AB=EC.\\)作\\(BH⊥AC\\)于\\(H.\\)只要证明\\(AB=2BH\\)，\\(EC=2BH\\)即可解决问题；\n本题考查平行四边形的判定和性质、全等三角形的判定和性质、直角三角形\\(30\\)度角性质、等腰直角三角形的性质等知识，解题的关键是学会添加常用辅助线，构造直角三角形解决问题，属于中考常考题型．",
+      "solution_steps": [
+        "结论：\\(AB=EC.\\)作\\(BH⊥AC\\)于\\(H.\\)只要证明\\(AB=2BH\\)，\\(EC=2BH\\)即可解决问题；",
+        "本题考查平行四边形的判定和性质、全等三角形的判定和性质、直角三角形\\(30\\)度角性质、等腰直角三角形的性质等知识，解题的关键是学会添加常用辅助线，构造直角三角形解决问题，属于中考常考题型．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          38,
+          39
+        ],
+        "solution_block_ids": [
+          83
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "解析点明的考查内容对应“应用等腰三角形性质求边角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/f7/f7920caa5b4502d992c2c70a5aa9141f8974b94aeddcee0801f7b1901d43a93b.png"
+  ],
+  "tables": [],
+  "answer": "〔图1〕（1）证明：\\(∵\\)四边形\\(ABCD\\)是平行四边形，\n\\(∴AD//BC\\)，\\(AD=BC\\)，\n\\(∴∠BCE=∠DAF\\)，\n在\\(△BCE\\)和\\(△DAF\\)中，\n\\(\\{∠CBE=∠ADF=90°BC=AD∠BCE=∠DAF\\)，\n\\(∴△BCE\\)≌\\(△DAF\\)，\n\\(∴BE=DF\\)，\\(∠BEC=∠DFA\\)，\n\\(∴BE//DF\\)，\n\\(∴\\)四边形\\(BEDF\\)是平行四边形．\n\n（2）结论：\\(AB=EC\\)．\n理由：作\\(BH⊥AC\\)于\\(H\\)．\n在\\(Rt△ABH\\)中，\\(∵∠AHB=90°\\)，\\(∠BAH=30°\\)，\n\\(∴AB=2BH\\)，\n在\\(Rt△BEC\\)中，\\(∵∠EBC=90°\\)，\\(∠BEC=45°\\)，\\(BH⊥CE\\)，\n\\(∴EH=HC\\)，\n\\(∴EC=2BH\\)，\n\\(∴AB=EC\\)．",
+  "given_answer": "〔图1〕（1）证明：\\(∵\\)四边形\\(ABCD\\)是平行四边形，\n\\(∴AD//BC\\)，\\(AD=BC\\)，\n\\(∴∠BCE=∠DAF\\)，\n在\\(△BCE\\)和\\(△DAF\\)中，\n\\(\\{∠CBE=∠ADF=90°BC=AD∠BCE=∠DAF\\)，\n\\(∴△BCE\\)≌\\(△DAF\\)，\n\\(∴BE=DF\\)，\\(∠BEC=∠DFA\\)，\n\\(∴BE//DF\\)，\n\\(∴\\)四边形\\(BEDF\\)是平行四边形．\n\n（2）结论：\\(AB=EC\\)．\n理由：作\\(BH⊥AC\\)于\\(H\\)．\n在\\(Rt△ABH\\)中，\\(∵∠AHB=90°\\)，\\(∠BAH=30°\\)，\n\\(∴AB=2BH\\)，\n在\\(Rt△BEC\\)中，\\(∵∠EBC=90°\\)，\\(∠BEC=45°\\)，\\(BH⊥CE\\)，\n\\(∴EH=HC\\)，\n\\(∴EC=2BH\\)，\n\\(∴AB=EC\\)．",
+  "given_solution": "【解析】（1）只要证明\\(△BCE\\)≌\\(△DAF\\)，推出\\(BE=DF\\)，\\(∠BEC=∠DFA\\)，推出\\(BE//DF\\)，由此即可证明；\n（2）结论：\\(AB=EC.\\)作\\(BH⊥AC\\)于\\(H.\\)只要证明\\(AB=2BH\\)，\\(EC=2BH\\)即可解决问题；\n本题考查平行四边形的判定和性质、全等三角形的判定和性质、直角三角形\\(30\\)度角性质、等腰直角三角形的性质等知识，解题的关键是学会添加常用辅助线，构造直角三角形解决问题，属于中考常考题型．",
+  "given_solution_figures": [
+    "assets/figures/95/950653a6a4ae1f311adfbe01269c0456d5660071217da3b381cad2c76481d387.png"
+  ],
+  "solution_steps": [
+    "【解析】（1）只要证明\\(△BCE\\)≌\\(△DAF\\)，推出\\(BE=DF\\)，\\(∠BEC=∠DFA\\)，推出\\(BE//DF\\)，由此即可证明；",
+    "（2）结论：\\(AB=EC.\\)作\\(BH⊥AC\\)于\\(H.\\)只要证明\\(AB=2BH\\)，\\(EC=2BH\\)即可解决问题；",
+    "本题考查平行四边形的判定和性质、全等三角形的判定和性质、直角三角形\\(30\\)度角性质、等腰直角三角形的性质等知识，解题的关键是学会添加常用辅助线，构造直角三角形解决问题，属于中考常考题型．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "【解析】（1）只要证明\\(△BCE\\)≌\\(△DAF\\)，推出\\(BE=DF\\)，\\(∠BEC=∠DFA\\)，推出\\(BE//DF\\)，由此即可证明；\n（2）结论：\\(AB=EC.\\)作\\(BH⊥AC\\)于\\(H.\\)只要证明\\(AB=2BH\\)，\\(EC=2BH\\)即可解决问题；\n本题考查平行四边形的判定和性质、全等三角形的判定和性质、直角三角形\\(30\\)度角性质、等腰直角三角形的性质等知识，解题的关键是学会添加常用辅助线，构造直角三角形解决问题，属于中考常考题型．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-E313AFE90F/single/q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          515.96,
+          582.2,
+          708.14
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-E313AFE90F/single/s20-p16.webp",
+      "assets/SZ-G8-T2-E313AFE90F/single/s20-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          493.79,
+          582.2,
+          755.53
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          71.83,
+          582.2,
+          311.39
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

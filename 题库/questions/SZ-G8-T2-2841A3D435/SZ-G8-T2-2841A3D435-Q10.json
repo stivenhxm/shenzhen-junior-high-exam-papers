@@ -1,0 +1,167 @@
+{
+  "id": "SZ-G8-T2-2841A3D435-Q10",
+  "paper_id": "SZ-G8-T2-2841A3D435",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "在如图所示的三角形纸片\\(ABC\\)中，\\(\\angle C=90{}^\\circ\\)，沿\\(AD\\)折叠三角形纸片，使点C落在\\(AB\\)边上的E点，若此时点D恰好为\\(BC\\)边靠近点C的三等分点，则下列结论：①\\(\\angle B=30{}^\\circ\\)；②\\(\\vartriangle ACD≌\\vartriangle BED\\)；③\\(DE\\)垂直平分\\(AB\\)；④\\(S_{ \\vartriangle ABC } =\\sqrt[] { 3 }AC ^ { 2 }\\)，其中正确是（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "①②③"
+    },
+    {
+      "label": "B",
+      "text": "①②④"
+    },
+    {
+      "label": "C",
+      "text": "①③④"
+    },
+    {
+      "label": "D",
+      "text": "②③④"
+    }
+  ],
+  "figures": [
+    "assets/figures/ac/acf809cd731ba3e41d20acfecd034ea0a9f328b56f806b911074fb7bec1d2488.png"
+  ],
+  "tables": [],
+  "given_answer": "A",
+  "answer": "A",
+  "given_solution": "【分析】由折叠可得：\\(DE=CD\\)，\\(\\angle AED=\\angle C=90{}^\\circ\\)，由点D恰好为BC边靠近点C的三等分点，得\\(BD=2CD\\)，则\\(BD=2DE\\)，取\\(BD\\)中点F， 连接\\(EF\\)，证明\\(\\vartriangle DEF\\)是等边三角形，得\\(\\angle EDF=60{}^\\circ\\)，所以\\(\\angle B=30{}^\\circ\\)，可判定①正确；从而求得\\(\\angle BAC=60{}^\\circ\\)，继而求得\\(\\angle CAD=30{}^\\circ\\)，所以\\(\\angle CAD=\\angle B\\)，即可由\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)判定\\(\\vartriangle ACD≌\\vartriangle BED\\)，即可判定②正确；由全等三角形的性质得\\(AD=BD\\)，再根据等腰三角形三线合一性质得出DE垂直平分AB，可判定③正确；由含30度的直角三角形的性质得\\(AB=2AC\\)，再利用勾股定理得\\(BC=\\sqrt[] { 3 }AC\\)，即可由三角形面积公式求得\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { \\sqrt[] { 3 } } { 2 }AC ^ { 2 }\\)，可判定④错误．\n【详解】解：由折叠可得：\\(DE=CD\\)，\\(\\angle AED=\\angle C=90{}^\\circ\\)，\n∴\\(\\angle BED=90{}^\\circ\\)\n∵点D恰好为BC边靠近点C的三等分点，\n∴\\(BD=2CD\\)，\n∴\\(BD=2DE\\)，\n取\\(BD\\)中点F， 连接\\(EF\\)，如图，\n〔图2〕\n∵点F是\\(BD\\)的中点，\\(\\angle BED=90{}^\\circ\\)，\n∴\\(BD=2EF=2DF\\)，\n∴\\(EF=DF=DE\\)，\n∴\\(\\vartriangle DEF\\)是等边三角形，\n∴\\(\\angle EDF=60{}^\\circ\\)\n∴\\(\\angle B=30{}^\\circ\\)，故①正确；\n∴\\(\\angle BAC=60{}^\\circ\\)，\n由折叠可得：\\(\\angle BAD=\\angle CAD\\)，\n∴\\(\\angle CAD=\\frac { 1 } { 2 }\\angle BAC=30{}^\\circ\\)，\n∴\\(\\angle CAD=\\angle B\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle BED\\)中，\n\\(\\begin{cases} \\angle C=\\angle BED \\\\ \\angle CAD=\\angle B \\\\ CD=ED \\end{cases}\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle BED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，故②正确；\n∴\\(AD=BD\\)\n∵\\(\\angle AED=90{}^\\circ\\)\n∴\\(AE=BE\\)\n∴DE垂直平分AB，故③正确；\n∵\\(\\angle B=30{}^\\circ\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(AB=2AC\\)，\n由勾股定理，得\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=\\sqrt[] { \\left ( { 2AC } \\right ) ^ { 2 } -AC ^ { 2 } }=\\sqrt[] { 3 }AC\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { \\sqrt[] { 3 } } { 2 }AC ^ { 2 }\\)，故④错误；\n综上，正确的有①②③．\n故选：A．\n【点睛】本题考查折叠的性质，直角三角形的性质，勾股定理，等腰三角形的性质，全等三角形判定与性质．此题属三角形折叠问题，综合性较强，属中考压轴题．",
+  "given_solution_figures": [
+    "assets/figures/ac/acf809cd731ba3e41d20acfecd034ea0a9f328b56f806b911074fb7bec1d2488.png",
+    "assets/figures/18/18e1ca6badd56539773220c70abd832b52470a5a69d45c9657f48639e2c75c20.png"
+  ],
+  "solution": "解：由折叠可得：\\(DE=CD\\)，\\(\\angle AED=\\angle C=90{}^\\circ\\)，\n∴\\(\\angle BED=90{}^\\circ\\)\n∵点D恰好为BC边靠近点C的三等分点，\n∴\\(BD=2CD\\)，\n∴\\(BD=2DE\\)，\n取\\(BD\\)中点F， 连接\\(EF\\)，如图，\n〔图2〕\n∵点F是\\(BD\\)的中点，\\(\\angle BED=90{}^\\circ\\)，\n∴\\(BD=2EF=2DF\\)，\n∴\\(EF=DF=DE\\)，\n∴\\(\\vartriangle DEF\\)是等边三角形，\n∴\\(\\angle EDF=60{}^\\circ\\)\n∴\\(\\angle B=30{}^\\circ\\)，故①正确；\n∴\\(\\angle BAC=60{}^\\circ\\)，\n由折叠可得：\\(\\angle BAD=\\angle CAD\\)，\n∴\\(\\angle CAD=\\frac { 1 } { 2 }\\angle BAC=30{}^\\circ\\)，\n∴\\(\\angle CAD=\\angle B\\)，\n在\\(\\vartriangle ACD\\)和\\(\\vartriangle BED\\)中，\n\\(\\begin{cases} \\angle C=\\angle BED \\\\ \\angle CAD=\\angle B \\\\ CD=ED \\end{cases}\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle BED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，故②正确；\n∴\\(AD=BD\\)\n∵\\(\\angle AED=90{}^\\circ\\)\n∴\\(AE=BE\\)\n∴DE垂直平分AB，故③正确；\n∵\\(\\angle B=30{}^\\circ\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(AB=2AC\\)，\n由勾股定理，得\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=\\sqrt[] { \\left ( { 2AC } \\right ) ^ { 2 } -AC ^ { 2 } }=\\sqrt[] { 3 }AC\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { \\sqrt[] { 3 } } { 2 }AC ^ { 2 }\\)，故④错误；\n综上，正确的有①②③．\n故选：A．",
+  "solution_steps": [
+    "解：由折叠可得：\\(DE=CD\\)，\\(\\angle AED=\\angle C=90{}^\\circ\\)，",
+    "∴\\(\\angle BED=90{}^\\circ\\)",
+    "∵点D恰好为BC边靠近点C的三等分点，",
+    "∴\\(BD=2CD\\)，",
+    "∴\\(BD=2DE\\)，",
+    "取\\(BD\\)中点F， 连接\\(EF\\)，如图，",
+    "〔图2〕",
+    "∵点F是\\(BD\\)的中点，\\(\\angle BED=90{}^\\circ\\)，",
+    "∴\\(BD=2EF=2DF\\)，",
+    "∴\\(EF=DF=DE\\)，",
+    "∴\\(\\vartriangle DEF\\)是等边三角形，",
+    "∴\\(\\angle EDF=60{}^\\circ\\)",
+    "∴\\(\\angle B=30{}^\\circ\\)，故①正确；",
+    "∴\\(\\angle BAC=60{}^\\circ\\)，",
+    "由折叠可得：\\(\\angle BAD=\\angle CAD\\)，",
+    "∴\\(\\angle CAD=\\frac { 1 } { 2 }\\angle BAC=30{}^\\circ\\)，",
+    "∴\\(\\angle CAD=\\angle B\\)，",
+    "在\\(\\vartriangle ACD\\)和\\(\\vartriangle BED\\)中，",
+    "\\(\\begin{cases} \\angle C=\\angle BED \\\\ \\angle CAD=\\angle B \\\\ CD=ED \\end{cases}\\)，",
+    "∴\\(\\vartriangle ACD≌\\vartriangle BED\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，故②正确；",
+    "∴\\(AD=BD\\)",
+    "∵\\(\\angle AED=90{}^\\circ\\)",
+    "∴\\(AE=BE\\)",
+    "∴DE垂直平分AB，故③正确；",
+    "∵\\(\\angle B=30{}^\\circ\\)，\\(\\angle C=90{}^\\circ\\)，",
+    "∴\\(AB=2AC\\)，",
+    "由勾股定理，得\\(BC=\\sqrt[] { AB ^ { 2 } -AC ^ { 2 } }=\\sqrt[] { \\left ( { 2AC } \\right ) ^ { 2 } -AC ^ { 2 } }=\\sqrt[] { 3 }AC\\)，",
+    "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { \\sqrt[] { 3 } } { 2 }AC ^ { 2 }\\)，故④错误；",
+    "综上，正确的有①②③．",
+    "故选：A．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      31,
+      33
+    ],
+    "solution_body_blocks": [
+      124,
+      160
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2841A3D435/paper-q10-p02.webp",
+      "assets/SZ-G8-T2-2841A3D435/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          674.55,
+          583.64,
+          741.82
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          158.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2841A3D435/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-2841A3D435/solution-q10-p07.webp",
+      "assets/SZ-G8-T2-2841A3D435/solution-q10-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          604.09,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          306.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

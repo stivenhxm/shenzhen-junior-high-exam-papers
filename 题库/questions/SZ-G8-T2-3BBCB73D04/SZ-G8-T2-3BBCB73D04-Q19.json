@@ -1,0 +1,371 @@
+{
+  "id": "SZ-G8-T2-3BBCB73D04-Q19",
+  "paper_id": "SZ-G8-T2-3BBCB73D04",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "由截线所成角关系证明平行、利用平行线性质求角",
+  "stem": "如图1，将两个完全相同的三角形纸片ABC和DEC重合放置，其中∠C＝90°，∠B＝∠E＝30°．\n〔图1〕\n（1）晓晓在操作中发现：如图2，固定△ABC，使△DEC绕点C顺时针旋转．当点D恰好落在AB边上时，填空：\n①线段DE与AC的位置关系是_______；\n②设△BDC的面积为S\\({}_{1}\\)，△AEC的面积为S\\({}_{2}\\)，则S\\({}_{1}\\)与S\\({}_{2}\\)的数量关系是_______；\n（2）猜想论证：当△DEC绕点C旋转到图3所示的位置时，晓晓猜想（1）中S\\({}_{1}\\)与S\\({}_{2}\\)的数量关系仍然成立，并尝试分别作出了△BDC和△AEC中BC，CE边上的高，请你证明晓晓的猜想．",
+  "choices": [],
+  "figures": [
+    "assets/figures/1f/1f987f68d68d94c81c0fc0e53d0c53ffd129b3a33c14b3a809cdfa9f9f649ca2.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①DE∥AC；②S\\({}_{1}\\)＝S\\({}_{2}\\)；（2）见解析",
+  "answer": "（1）①DE∥AC；②S\\({}_{1}\\)＝S\\({}_{2}\\)；（2）见解析",
+  "given_solution": "【分析】（1）利用旋转可知\\(CA=CD\\)，根据\\(\\angle B=30{}^\\circ\\)，得出\\(\\vartriangle ADC\\)是等边三角形，得出\\(\\angle EDC=\\angle DCA\\)，利用内错角相等两直线平行可证\\(DE//AC\\)，\n②由图得知\\(\\vartriangle ADC\\)和\\(\\vartriangle BDC\\)等底同高，\\(\\vartriangle ADC\\)和\\(\\vartriangle ACE\\)同底等高，利用三角形面积公式，得到\\(S_{ 1 } =S_{ 2 }\\)．\n（2）延长EC，过A作AN⊥EC交延长线于N，过D作DM⊥AC于M，由图形是旋转得到，利用\\(AAS\\)可以证明\\(\\vartriangle ACN≌\\vartriangle DCM\\)，所以\\(AN=DM\\)，利用三角形面积公式可以求证.\n【详解】解：（1）①如图2中，\n由旋转可知：\\(CA=CD\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\\(\\angle B=30{}^\\circ\\)，\n∴\\(\\angle CAD=60{}^\\circ\\)，\n∴\\(\\vartriangle ADC\\)是等边三角形，\n∴\\(\\angle DCA=60{}^\\circ\\)，\n∵\\(\\angle ECD=90{}^\\circ\\)，\\(\\angle DEC=30{}^\\circ\\)，\n∴\\(\\angle CDE=90{}^\\circ -\\angle DEC=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(\\angle EDC=\\angle DCA\\)，\n∴\\(DE//AC\\)；\n〔图2〕\n②设过C作CH⊥AB于H，DG⊥AC于G，过E作EF⊥AC交延长线于F，\n∵∠B=30°，∠ACB=90°，\n∴\\(AB=2AC\\)，\n∵△ACD为等边三角形，\n∴\\(AD=AC\\)，\n∴\\(AD=BD\\)，\n∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }CH\\cdot BD=\\frac { 1 } { 2 }AD\\cdot CH\\) ，\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }AD\\cdot CH\\)；\n∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ADC }\\)，\n∵\\(DE//AC\\)，\n∴DG=EF，\n∴\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }DG\\cdot AC\\)，\\(S_{ \\vartriangle AEC } =\\frac { 1 } { 2 }EF\\cdot AC=\\frac { 1 } { 2 }DG\\cdot AC\\)\n∴\\(S_{ \\vartriangle ADC } =S_{ \\vartriangle ACE }\\)，\n∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ACE }\\)，\n即：\\(S_{ 1 } =S_{ 2 }\\)．\n故答案为：\\(S_{ 1 } =S_{ 2 }\\)；\n〔图3〕\n（2）如图3中，延长EC，过A作AN⊥EC交延长线于N，过D作DM⊥AC于M，\n∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点\\(C\\)旋转得到，\n∴\\(BC=CE\\)，\\(AC=CD\\)，\n∵\\(\\angle ACN+\\angle BCN=90{}^\\circ\\)，\\(\\angle DCM+\\angle BCN=180{}^\\circ -\\angle DCE=180 ^ { \\circ } -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle ACN=\\angle DCM\\)，\n在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\n\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle ANC=\\angle DMC=90 ^ { \\circ } \\\\ AC=DC \\end{cases}\\) ，\n∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { AAS } \\right )\\)，\n∴\\(AN=DM\\)，\n∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times BC\\times DM=\\frac { 1 } { 2 }BC\\cdot DM\\)，\n\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times CE\\times AN=\\frac { 1 } { 2 }BC\\cdot DM\\)，\n\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle AEC }\\)．\n〔图4〕\n【点睛】本题属于几何变换综合题，考查了旋转变换，全等三角形的判定和性质，等边三角形的判定和性质，三角形面积性质同底等高，与等底同高两个三角形面积相等等知识，解题的关键是学会添加常用辅助线，构造特殊图形解决问题.",
+  "given_solution_figures": [
+    "assets/figures/6e/6e3dd0f93fd92565c8292682c8cafca947da430a7603ed4249bb40f5d060b4ef.png",
+    "assets/figures/37/37de151aff239b9d837ba91ae5c27e188ffb5df2555f1817b25cd3b62fb86500.png",
+    "assets/figures/f5/f5f5d4ff3c1b329c9622eeae366b8019a9071f8eaad11b46f6a0da9789dc2722.png",
+    "assets/figures/ad/adbd27fb1af78d7b8971ac6dd942a847c7299bf9ee7163effc92404426c8e5de.png"
+  ],
+  "solution": "解：（1）①如图2中，\n由旋转可知：\\(CA=CD\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\\(\\angle B=30{}^\\circ\\)，\n∴\\(\\angle CAD=60{}^\\circ\\)，\n∴\\(\\vartriangle ADC\\)是等边三角形，\n∴\\(\\angle DCA=60{}^\\circ\\)，\n∵\\(\\angle ECD=90{}^\\circ\\)，\\(\\angle DEC=30{}^\\circ\\)，\n∴\\(\\angle CDE=90{}^\\circ -\\angle DEC=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(\\angle EDC=\\angle DCA\\)，\n∴\\(DE//AC\\)；\n〔图2〕\n②设过C作CH⊥AB于H，DG⊥AC于G，过E作EF⊥AC交延长线于F，\n∵∠B=30°，∠ACB=90°，\n∴\\(AB=2AC\\)，\n∵△ACD为等边三角形，\n∴\\(AD=AC\\)，\n∴\\(AD=BD\\)，\n∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }CH\\cdot BD=\\frac { 1 } { 2 }AD\\cdot CH\\) ，\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }AD\\cdot CH\\)；\n∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ADC }\\)，\n∵\\(DE//AC\\)，\n∴DG=EF，\n∴\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }DG\\cdot AC\\)，\\(S_{ \\vartriangle AEC } =\\frac { 1 } { 2 }EF\\cdot AC=\\frac { 1 } { 2 }DG\\cdot AC\\)\n∴\\(S_{ \\vartriangle ADC } =S_{ \\vartriangle ACE }\\)，\n∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ACE }\\)，\n即：\\(S_{ 1 } =S_{ 2 }\\)．\n故答案为：\\(S_{ 1 } =S_{ 2 }\\)；\n〔图3〕\n（2）如图3中，延长EC，过A作AN⊥EC交延长线于N，过D作DM⊥AC于M，\n∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点\\(C\\)旋转得到，\n∴\\(BC=CE\\)，\\(AC=CD\\)，\n∵\\(\\angle ACN+\\angle BCN=90{}^\\circ\\)，\\(\\angle DCM+\\angle BCN=180{}^\\circ -\\angle DCE=180 ^ { \\circ } -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle ACN=\\angle DCM\\)，\n在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\n\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle ANC=\\angle DMC=90 ^ { \\circ } \\\\ AC=DC \\end{cases}\\) ，\n∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { AAS } \\right )\\)，\n∴\\(AN=DM\\)，\n∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times BC\\times DM=\\frac { 1 } { 2 }BC\\cdot DM\\)，\n\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times CE\\times AN=\\frac { 1 } { 2 }BC\\cdot DM\\)，\n\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle AEC }\\)．\n〔图4〕",
+  "solution_steps": [
+    "解：（1）①如图2中，",
+    "由旋转可知：\\(CA=CD\\)，",
+    "∵\\(\\angle ACB=90{}^\\circ\\)，\\(\\angle B=30{}^\\circ\\)，",
+    "∴\\(\\angle CAD=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle ADC\\)是等边三角形，",
+    "∴\\(\\angle DCA=60{}^\\circ\\)，",
+    "∵\\(\\angle ECD=90{}^\\circ\\)，\\(\\angle DEC=30{}^\\circ\\)，",
+    "∴\\(\\angle CDE=90{}^\\circ -\\angle DEC=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+    "∴\\(\\angle EDC=\\angle DCA\\)，",
+    "∴\\(DE//AC\\)；",
+    "〔图2〕",
+    "②设过C作CH⊥AB于H，DG⊥AC于G，过E作EF⊥AC交延长线于F，",
+    "∵∠B=30°，∠ACB=90°，",
+    "∴\\(AB=2AC\\)，",
+    "∵△ACD为等边三角形，",
+    "∴\\(AD=AC\\)，",
+    "∴\\(AD=BD\\)，",
+    "∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }CH\\cdot BD=\\frac { 1 } { 2 }AD\\cdot CH\\) ，\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }AD\\cdot CH\\)；",
+    "∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ADC }\\)，",
+    "∵\\(DE//AC\\)，",
+    "∴DG=EF，",
+    "∴\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }DG\\cdot AC\\)，\\(S_{ \\vartriangle AEC } =\\frac { 1 } { 2 }EF\\cdot AC=\\frac { 1 } { 2 }DG\\cdot AC\\)",
+    "∴\\(S_{ \\vartriangle ADC } =S_{ \\vartriangle ACE }\\)，",
+    "∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ACE }\\)，",
+    "即：\\(S_{ 1 } =S_{ 2 }\\)．",
+    "故答案为：\\(S_{ 1 } =S_{ 2 }\\)；",
+    "〔图3〕",
+    "（2）如图3中，延长EC，过A作AN⊥EC交延长线于N，过D作DM⊥AC于M，",
+    "∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点\\(C\\)旋转得到，",
+    "∴\\(BC=CE\\)，\\(AC=CD\\)，",
+    "∵\\(\\angle ACN+\\angle BCN=90{}^\\circ\\)，\\(\\angle DCM+\\angle BCN=180{}^\\circ -\\angle DCE=180 ^ { \\circ } -90{}^\\circ =90{}^\\circ\\)，",
+    "∴\\(\\angle ACN=\\angle DCM\\)，",
+    "在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，",
+    "\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle ANC=\\angle DMC=90 ^ { \\circ } \\\\ AC=DC \\end{cases}\\) ，",
+    "∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { AAS } \\right )\\)，",
+    "∴\\(AN=DM\\)，",
+    "∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times BC\\times DM=\\frac { 1 } { 2 }BC\\cdot DM\\)，",
+    "\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times CE\\times AN=\\frac { 1 } { 2 }BC\\cdot DM\\)，",
+    "\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle AEC }\\)．",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，将两个完全相同的三角形纸片ABC和DEC重合放置，其中∠C＝90°，∠B＝∠E＝30°．\n〔图1〕",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "晓晓在操作中发现：如图2，固定△ABC，使△DEC绕点C顺时针旋转．当点D恰好落在AB边上时，填空：",
+      "paper_blocks": [
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3BBCB73D04-Q19-P01",
+      "label": "（1）①",
+      "prompt": "线段DE与AC的位置关系是_______；",
+      "stem_text": "线段DE与AC的位置关系是_______；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "DE∥AC；",
+      "answer": "DE∥AC；",
+      "given_solution": "如图2中，\n由旋转可知：\\(CA=CD\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\\(\\angle B=30{}^\\circ\\)，\n∴\\(\\angle CAD=60{}^\\circ\\)，\n∴\\(\\vartriangle ADC\\)是等边三角形，\n∴\\(\\angle DCA=60{}^\\circ\\)，\n∵\\(\\angle ECD=90{}^\\circ\\)，\\(\\angle DEC=30{}^\\circ\\)，\n∴\\(\\angle CDE=90{}^\\circ -\\angle DEC=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(\\angle EDC=\\angle DCA\\)，\n∴\\(DE//AC\\)；\n〔图2〕",
+      "solution_steps": [
+        "如图2中，",
+        "由旋转可知：\\(CA=CD\\)，",
+        "∵\\(\\angle ACB=90{}^\\circ\\)，\\(\\angle B=30{}^\\circ\\)，",
+        "∴\\(\\angle CAD=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle ADC\\)是等边三角形，",
+        "∴\\(\\angle DCA=60{}^\\circ\\)，",
+        "∵\\(\\angle ECD=90{}^\\circ\\)，\\(\\angle DEC=30{}^\\circ\\)，",
+        "∴\\(\\angle CDE=90{}^\\circ -\\angle DEC=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+        "∴\\(\\angle EDC=\\angle DCA\\)，",
+        "∴\\(DE//AC\\)；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          289,
+          290
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.04"
+      ],
+      "exam_ids": [
+        "E.G01.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“由截线所成角关系证明平行”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3BBCB73D04-Q19-P02",
+      "label": "（1）②",
+      "prompt": "设△BDC的面积为S\\({}_{1}\\)，△AEC的面积为S\\({}_{2}\\)，则S\\({}_{1}\\)与S\\({}_{2}\\)的数量关系是_______；",
+      "stem_text": "设△BDC的面积为S\\({}_{1}\\)，△AEC的面积为S\\({}_{2}\\)，则S\\({}_{1}\\)与S\\({}_{2}\\)的数量关系是_______；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "S\\({}_{1}\\)＝S\\({}_{2}\\)；",
+      "answer": "S\\({}_{1}\\)＝S\\({}_{2}\\)；",
+      "given_solution": "设过C作CH⊥AB于H，DG⊥AC于G，过E作EF⊥AC交延长线于F，\n∵∠B=30°，∠ACB=90°，\n∴\\(AB=2AC\\)，\n∵△ACD为等边三角形，\n∴\\(AD=AC\\)，\n∴\\(AD=BD\\)，\n∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }CH\\cdot BD=\\frac { 1 } { 2 }AD\\cdot CH\\) ，\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }AD\\cdot CH\\)；\n∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ADC }\\)，\n∵\\(DE//AC\\)，\n∴DG=EF，\n∴\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }DG\\cdot AC\\)，\\(S_{ \\vartriangle AEC } =\\frac { 1 } { 2 }EF\\cdot AC=\\frac { 1 } { 2 }DG\\cdot AC\\)\n∴\\(S_{ \\vartriangle ADC } =S_{ \\vartriangle ACE }\\)，\n∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ACE }\\)，\n即：\\(S_{ 1 } =S_{ 2 }\\)．\n故答案为：\\(S_{ 1 } =S_{ 2 }\\)；\n〔图3〕",
+      "solution_steps": [
+        "设过C作CH⊥AB于H，DG⊥AC于G，过E作EF⊥AC交延长线于F，",
+        "∵∠B=30°，∠ACB=90°，",
+        "∴\\(AB=2AC\\)，",
+        "∵△ACD为等边三角形，",
+        "∴\\(AD=AC\\)，",
+        "∴\\(AD=BD\\)，",
+        "∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }CH\\cdot BD=\\frac { 1 } { 2 }AD\\cdot CH\\) ，\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }AD\\cdot CH\\)；",
+        "∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ADC }\\)，",
+        "∵\\(DE//AC\\)，",
+        "∴DG=EF，",
+        "∴\\(S_{ \\vartriangle ADC } =\\frac { 1 } { 2 }DG\\cdot AC\\)，\\(S_{ \\vartriangle AEC } =\\frac { 1 } { 2 }EF\\cdot AC=\\frac { 1 } { 2 }DG\\cdot AC\\)",
+        "∴\\(S_{ \\vartriangle ADC } =S_{ \\vartriangle ACE }\\)，",
+        "∴\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle ACE }\\)，",
+        "即：\\(S_{ 1 } =S_{ 2 }\\)．",
+        "故答案为：\\(S_{ 1 } =S_{ 2 }\\)；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3BBCB73D04-Q19-P03",
+      "label": "（2）",
+      "prompt": "猜想论证：当△DEC绕点C旋转到图3所示的位置时，晓晓猜想（1）中S\\({}_{1}\\)与S\\({}_{2}\\)的数量关系仍然成立，并尝试分别作出了△BDC和△AEC中BC，CE边上的高，请你证明晓晓的猜想．",
+      "stem_text": "猜想论证：当△DEC绕点C旋转到图3所示的位置时，晓晓猜想（1）中S\\({}_{1}\\)与S\\({}_{2}\\)的数量关系仍然成立，并尝试分别作出了△BDC和△AEC中BC，CE边上的高，请你证明晓晓的猜想．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "如图3中，延长EC，过A作AN⊥EC交延长线于N，过D作DM⊥AC于M，\n∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点\\(C\\)旋转得到，\n∴\\(BC=CE\\)，\\(AC=CD\\)，\n∵\\(\\angle ACN+\\angle BCN=90{}^\\circ\\)，\\(\\angle DCM+\\angle BCN=180{}^\\circ -\\angle DCE=180 ^ { \\circ } -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle ACN=\\angle DCM\\)，\n在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\n\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle ANC=\\angle DMC=90 ^ { \\circ } \\\\ AC=DC \\end{cases}\\) ，\n∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { AAS } \\right )\\)，\n∴\\(AN=DM\\)，\n∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times BC\\times DM=\\frac { 1 } { 2 }BC\\cdot DM\\)，\n\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times CE\\times AN=\\frac { 1 } { 2 }BC\\cdot DM\\)，\n\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle AEC }\\)．\n〔图4〕",
+      "solution_steps": [
+        "如图3中，延长EC，过A作AN⊥EC交延长线于N，过D作DM⊥AC于M，",
+        "∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点\\(C\\)旋转得到，",
+        "∴\\(BC=CE\\)，\\(AC=CD\\)，",
+        "∵\\(\\angle ACN+\\angle BCN=90{}^\\circ\\)，\\(\\angle DCM+\\angle BCN=180{}^\\circ -\\angle DCE=180 ^ { \\circ } -90{}^\\circ =90{}^\\circ\\)，",
+        "∴\\(\\angle ACN=\\angle DCM\\)，",
+        "在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，",
+        "\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle ANC=\\angle DMC=90 ^ { \\circ } \\\\ AC=DC \\end{cases}\\) ，",
+        "∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { AAS } \\right )\\)，",
+        "∴\\(AN=DM\\)，",
+        "∴\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times BC\\times DM=\\frac { 1 } { 2 }BC\\cdot DM\\)，",
+        "\\(S_{ \\vartriangle BDC } =\\frac { 1 } { 2 }\\times CE\\times AN=\\frac { 1 } { 2 }BC\\cdot DM\\)，",
+        "\\(S_{ \\vartriangle BDC } =S_{ \\vartriangle AEC }\\)．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          66
+        ],
+        "solution_block_ids": [
+          302,
+          303,
+          304,
+          305
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“按旋转或中心对称确定对应图形”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      66
+    ],
+    "solution_body_blocks": [
+      279,
+      306
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3BBCB73D04/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          315.45,
+          583.64,
+          626.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3BBCB73D04/solution-q19-p15.webp",
+      "assets/SZ-G8-T2-3BBCB73D04/solution-q19-p16.webp",
+      "assets/SZ-G8-T2-3BBCB73D04/solution-q19-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          96.82,
+          583.64,
+          762.27
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          754.55
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          330.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G01.04",
+    "M.G01.05",
+    "M.G07.03"
+  ],
+  "exam_ids": [
+    "E.G01.04.01",
+    "E.G01.05.01",
+    "E.G07.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“由截线所成角关系证明平行”。 本问的运算或证明步骤对应“利用平行线性质求角”。 本问的要求和解答步骤对应“按旋转或中心对称确定对应图形”。",
+  "tag_source": "小问标签汇总"
+}

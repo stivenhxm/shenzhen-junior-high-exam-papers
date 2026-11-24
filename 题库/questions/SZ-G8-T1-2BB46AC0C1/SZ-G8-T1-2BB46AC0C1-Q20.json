@@ -1,0 +1,331 @@
+{
+  "id": "SZ-G8-T1-2BB46AC0C1-Q20",
+  "paper_id": "SZ-G8-T1-2BB46AC0C1",
+  "number": 20,
+  "type": "解答题",
+  "points": 13.0,
+  "title": "构造全等关系证明线段或角关系、用边长平方关系判定直角",
+  "stem": "(13分）（1）如图1，在Rt△ABC和Rt△ADE中，AB＝AC，AD＝AE，且点D在BC边上滑（点D不与点B，C重合），连接EC．\n①则线段BC，DC，EC之间满足的等量关系式为　 　；\n②求证：BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)．\n（2）如图2，在四边形ABCD中，∠ABC＝∠ACB＝∠ADC＝45°．若BD＝13，CD＝5，求AD\\({}^{2}\\)．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/457c5e3512082b5d8a8de6a70de20e22835e1113fda7c45645d845d9a599d206.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "(13分）",
+      "paper_blocks": [
+        129
+      ]
+    },
+    {
+      "id": "fig-133",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        133
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，在Rt△ABC和Rt△ADE中，AB＝AC，AD＝AE，且点D在BC边上滑（点D不与点B，C重合），连接EC．\n①则线段BC，DC，EC之间满足的等量关系式为　 　；\n②求证：BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)．",
+      "stem_text": "如图1，在Rt△ABC和Rt△ADE中，AB＝AC，AD＝AE，且点D在BC边上滑（点D不与点B，C重合），连接EC．\n①则线段BC，DC，EC之间满足的等量关系式为　 　；\n②求证：BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)．",
+      "material_ids": [
+        "context",
+        "fig-133"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)",
+      "given_solution": "①解：BC＝DC+EC，理由如下：\n∵∠BAC＝∠DAE＝90°，\n∴∠BAC﹣∠DAC＝∠DAE﹣∠DAC，\n即∠BAD＝∠CAE，\n在△BAD和△CAE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n∴△BAD≌△CAE（SAS），\n∴BD＝EC，\n∴BC＝DC+BD＝DC+EC；\n故答案为：BC＝DC+EC；（3分）\n②证明：∵Rt△ABC中，AB＝AC，\n∴∠B＝∠ACB＝45°，\n由（1）得，△BAD≌△CAE，（4分）\n∴BD＝CE，∠ACE＝∠B＝45°，\n∴∠DCE＝∠ACB+∠ACE＝90°，\n∴CE\\({}^{2}\\)+CD\\({}^{2}\\)＝ED\\({}^{2}\\)，（5分）\n在Rt△ADE中，AD\\({}^{2}\\)+AE\\({}^{2}\\)＝ED\\({}^{2}\\)，\n又AD＝AE，\n∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)；(6分）",
+      "solution_steps": [
+        "①解：BC＝DC+EC，理由如下：",
+        "∵∠BAC＝∠DAE＝90°，",
+        "∴∠BAC﹣∠DAC＝∠DAE﹣∠DAC，",
+        "即∠BAD＝∠CAE，",
+        "在△BAD和△CAE中，",
+        "\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，",
+        "∴△BAD≌△CAE（SAS），",
+        "∴BD＝EC，",
+        "∴BC＝DC+BD＝DC+EC；",
+        "故答案为：BC＝DC+EC；（3分）",
+        "②证明：∵Rt△ABC中，AB＝AC，",
+        "∴∠B＝∠ACB＝45°，",
+        "由（1）得，△BAD≌△CAE，（4分）",
+        "∴BD＝CE，∠ACE＝∠B＝45°，",
+        "∴∠DCE＝∠ACB+∠ACE＝90°，",
+        "∴CE\\({}^{2}\\)+CD\\({}^{2}\\)＝ED\\({}^{2}\\)，（5分）",
+        "在Rt△ADE中，AD\\({}^{2}\\)+AE\\({}^{2}\\)＝ED\\({}^{2}\\)，",
+        "又AD＝AE，",
+        "∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)；(6分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          129,
+          130,
+          131,
+          133
+        ],
+        "solution_block_ids": [
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，在四边形ABCD中，∠ABC＝∠ACB＝∠ADC＝45°．若BD＝13，CD＝5，求AD\\({}^{2}\\)．",
+      "stem_text": "如图2，在四边形ABCD中，∠ABC＝∠ACB＝∠ADC＝45°．若BD＝13，CD＝5，求AD\\({}^{2}\\)．",
+      "material_ids": [
+        "context",
+        "fig-133"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72",
+      "given_solution": "解：如图2，过A作AE⊥AD，使AE＝AD，连接CE，DE，\n∴∠EDA=45°，(8分）\n∵∠ABC＝∠ACB＝45°，\n∴∠BAC=∠DAE=90°，\n∵∠BAC+∠CAD＝∠DAE+∠CAD，\n即∠BAD＝∠CAE，(9分）\n在△BAD与△CAE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n∴△BAD≌△CAE（SAS），(10分）\n∴BD＝CE＝13，(11分）\n∵∠ADC＝45°，∠EDA＝45°，\n∴∠EDC＝90°，\n∴DE＝\\(\\sqrt[] { CE } ^ { 2 } -CD ^ { 2 }\\)＝\\(\\sqrt[] { 13 ^ { 2 } -5 ^ { 2 } }\\)＝12，(12分）\n∵∠DAE＝90°，\n∴AD\\({}^{2}\\)+AE\\({}^{2}\\)＝DE\\({}^{2}\\)，\n∵AE＝AD，\n∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72．(13分）\n〔图1〕",
+      "solution_steps": [
+        "解：如图2，过A作AE⊥AD，使AE＝AD，连接CE，DE，",
+        "∴∠EDA=45°，(8分）",
+        "∵∠ABC＝∠ACB＝45°，",
+        "∴∠BAC=∠DAE=90°，",
+        "∵∠BAC+∠CAD＝∠DAE+∠CAD，",
+        "即∠BAD＝∠CAE，(9分）",
+        "在△BAD与△CAE中，",
+        "\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，",
+        "∴△BAD≌△CAE（SAS），(10分）",
+        "∴BD＝CE＝13，(11分）",
+        "∵∠ADC＝45°，∠EDA＝45°，",
+        "∴∠EDC＝90°，",
+        "∴DE＝\\(\\sqrt[] { CE } ^ { 2 } -CD ^ { 2 }\\)＝\\(\\sqrt[] { 13 ^ { 2 } -5 ^ { 2 } }\\)＝12，(12分）",
+        "∵∠DAE＝90°，",
+        "∴AD\\({}^{2}\\)+AE\\({}^{2}\\)＝DE\\({}^{2}\\)，",
+        "∵AE＝AD，",
+        "∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72．(13分）",
+        "〔图1〕"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          129,
+          132,
+          133
+        ],
+        "solution_block_ids": [
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.05"
+      ],
+      "exam_ids": [
+        "E.G04.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“用边长平方关系判定直角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)\n（2）∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72",
+  "given_solution": "【详解】（1）①解：BC＝DC+EC，理由如下：\n∵∠BAC＝∠DAE＝90°，\n∴∠BAC﹣∠DAC＝∠DAE﹣∠DAC，\n即∠BAD＝∠CAE，\n在△BAD和△CAE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n∴△BAD≌△CAE（SAS），\n∴BD＝EC，\n∴BC＝DC+BD＝DC+EC；\n故答案为：BC＝DC+EC；（3分）\n②证明：∵Rt△ABC中，AB＝AC，\n∴∠B＝∠ACB＝45°，\n由（1）得，△BAD≌△CAE，（4分）\n∴BD＝CE，∠ACE＝∠B＝45°，\n∴∠DCE＝∠ACB+∠ACE＝90°，\n∴CE\\({}^{2}\\)+CD\\({}^{2}\\)＝ED\\({}^{2}\\)，（5分）\n在Rt△ADE中，AD\\({}^{2}\\)+AE\\({}^{2}\\)＝ED\\({}^{2}\\)，\n又AD＝AE，\n∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)；(6分）\n（2）解：如图2，过A作AE⊥AD，使AE＝AD，连接CE，DE，\n∴∠EDA=45°，(8分）\n∵∠ABC＝∠ACB＝45°，\n∴∠BAC=∠DAE=90°，\n∵∠BAC+∠CAD＝∠DAE+∠CAD，\n即∠BAD＝∠CAE，(9分）\n在△BAD与△CAE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n∴△BAD≌△CAE（SAS），(10分）\n∴BD＝CE＝13，(11分）\n∵∠ADC＝45°，∠EDA＝45°，\n∴∠EDC＝90°，\n∴DE＝\\(\\sqrt[] { CE } ^ { 2 } -CD ^ { 2 }\\)＝\\(\\sqrt[] { 13 ^ { 2 } -5 ^ { 2 } }\\)＝12，(12分）\n∵∠DAE＝90°，\n∴AD\\({}^{2}\\)+AE\\({}^{2}\\)＝DE\\({}^{2}\\)，\n∵AE＝AD，\n∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72．(13分）\n〔图1〕",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/d758318cd7b78dcd9ec3a13e61ddd897447c0aa047e8b0d7bea5a11d238d1639.png"
+  ],
+  "solution_steps": [
+    "（1）①解：BC＝DC+EC，理由如下：",
+    "∵∠BAC＝∠DAE＝90°，",
+    "∴∠BAC﹣∠DAC＝∠DAE﹣∠DAC，",
+    "即∠BAD＝∠CAE，",
+    "在△BAD和△CAE中，",
+    "\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，",
+    "∴△BAD≌△CAE（SAS），",
+    "∴BD＝EC，",
+    "∴BC＝DC+BD＝DC+EC；",
+    "故答案为：BC＝DC+EC；（3分）",
+    "②证明：∵Rt△ABC中，AB＝AC，",
+    "∴∠B＝∠ACB＝45°，",
+    "由（1）得，△BAD≌△CAE，（4分）",
+    "∴BD＝CE，∠ACE＝∠B＝45°，",
+    "∴∠DCE＝∠ACB+∠ACE＝90°，",
+    "∴CE\\({}^{2}\\)+CD\\({}^{2}\\)＝ED\\({}^{2}\\)，（5分）",
+    "在Rt△ADE中，AD\\({}^{2}\\)+AE\\({}^{2}\\)＝ED\\({}^{2}\\)，",
+    "又AD＝AE，",
+    "∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)；(6分）",
+    "（2）解：如图2，过A作AE⊥AD，使AE＝AD，连接CE，DE，",
+    "∴∠EDA=45°，(8分）",
+    "∵∠ABC＝∠ACB＝45°，",
+    "∴∠BAC=∠DAE=90°，",
+    "∵∠BAC+∠CAD＝∠DAE+∠CAD，",
+    "即∠BAD＝∠CAE，(9分）",
+    "在△BAD与△CAE中，",
+    "\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，",
+    "∴△BAD≌△CAE（SAS），(10分）",
+    "∴BD＝CE＝13，(11分）",
+    "∵∠ADC＝45°，∠EDA＝45°，",
+    "∴∠EDC＝90°，",
+    "∴DE＝\\(\\sqrt[] { CE } ^ { 2 } -CD ^ { 2 }\\)＝\\(\\sqrt[] { 13 ^ { 2 } -5 ^ { 2 } }\\)＝12，(12分）",
+    "∵∠DAE＝90°，",
+    "∴AD\\({}^{2}\\)+AE\\({}^{2}\\)＝DE\\({}^{2}\\)，",
+    "∵AE＝AD，",
+    "∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72．(13分）",
+    "〔图1〕"
+  ],
+  "solution": "（1）①解：BC＝DC+EC，理由如下：\n∵∠BAC＝∠DAE＝90°，\n∴∠BAC﹣∠DAC＝∠DAE﹣∠DAC，\n即∠BAD＝∠CAE，\n在△BAD和△CAE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n∴△BAD≌△CAE（SAS），\n∴BD＝EC，\n∴BC＝DC+BD＝DC+EC；\n故答案为：BC＝DC+EC；（3分）\n②证明：∵Rt△ABC中，AB＝AC，\n∴∠B＝∠ACB＝45°，\n由（1）得，△BAD≌△CAE，（4分）\n∴BD＝CE，∠ACE＝∠B＝45°，\n∴∠DCE＝∠ACB+∠ACE＝90°，\n∴CE\\({}^{2}\\)+CD\\({}^{2}\\)＝ED\\({}^{2}\\)，（5分）\n在Rt△ADE中，AD\\({}^{2}\\)+AE\\({}^{2}\\)＝ED\\({}^{2}\\)，\n又AD＝AE，\n∴BD\\({}^{2}\\)+CD\\({}^{2}\\)＝2AD\\({}^{2}\\)；(6分）\n（2）解：如图2，过A作AE⊥AD，使AE＝AD，连接CE，DE，\n∴∠EDA=45°，(8分）\n∵∠ABC＝∠ACB＝45°，\n∴∠BAC=∠DAE=90°，\n∵∠BAC+∠CAD＝∠DAE+∠CAD，\n即∠BAD＝∠CAE，(9分）\n在△BAD与△CAE中，\n\\(\\begin{cases} AB=AC \\\\ \\angle BAD=\\angle CAE \\\\ AD=AE \\end{cases}\\)，\n∴△BAD≌△CAE（SAS），(10分）\n∴BD＝CE＝13，(11分）\n∵∠ADC＝45°，∠EDA＝45°，\n∴∠EDC＝90°，\n∴DE＝\\(\\sqrt[] { CE } ^ { 2 } -CD ^ { 2 }\\)＝\\(\\sqrt[] { 13 ^ { 2 } -5 ^ { 2 } }\\)＝12，(12分）\n∵∠DAE＝90°，\n∴AD\\({}^{2}\\)+AE\\({}^{2}\\)＝DE\\({}^{2}\\)，\n∵AE＝AD，\n∴AD\\({}^{2}\\)＝\\(\\frac { 1 } { 2 }DE ^ { 2 }\\)＝72．(13分）\n〔图1〕",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "paper_body_blocks": [
+      129,
+      135
+    ],
+    "solution_body_blocks": [
+      272,
+      310
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-2BB46AC0C1/paper-q20-p06.webp",
+      "assets/SZ-G8-T1-2BB46AC0C1/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          714.09,
+          583.64,
+          770.45
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          69.09,
+          583.64,
+          229.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-2BB46AC0C1/solution-q20-p15.webp",
+      "assets/SZ-G8-T1-2BB46AC0C1/solution-q20-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          315.91,
+          583.64,
+          768.64
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          720.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.05"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“用边长平方关系判定直角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

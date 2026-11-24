@@ -1,0 +1,125 @@
+{
+  "id": "SZ-G8-T2-F634E693C0-Q15",
+  "paper_id": "SZ-G8-T2-F634E693C0",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，已知\\(\\vartriangle ABC\\)是边长为4的等边三角形，点\\(D\\)是\\(BC\\)边上一点，且\\(CD=3BD\\)，将\\(\\vartriangle ABD\\)沿\\(AD\\)折叠，点\\(B\\)的对应点为\\(B'\\)，连接\\(CB'\\)并延长，与\\(AD\\)的延长线交于点\\(M\\)，连接\\(BM\\)，则\\(BM\\)的长为______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/f8/f819ed184cff73418af74320af960082158e2a740aa9269b8281b2941f69f7d3.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+  "answer": "\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+  "given_solution": "【分析】本题考查了等边三角形的性质，折叠的性质，勾股定理；过点\\(D\\)作\\(DF\\bot AB\\)于点\\(F\\)，连接\\(BB'\\)交\\(AM\\)于点\\(E\\)，先根据折叠的得出\\(\\angle BB'C=150{}^\\circ\\)，进而勾股定理求得\\(DF\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，得出\\(AD\\)，根据等面积法求得\\(BE\\)，进而勾股定理，即可求解．\n【详解】解：如图所示，过点\\(D\\)作\\(DF\\bot AB\\)于点\\(F\\)，连接\\(BB'\\)交\\(AM\\)于点\\(E\\)，\n〔图2〕\n∵\\(\\vartriangle ABC\\)是等边三角形，将\\(\\vartriangle ABD\\)沿\\(AD\\)折叠，点\\(B\\)的对应点为\\(B'\\)，\n∴\\(AB=AB'=AC\\)，\\(\\angle BAC=60{}^\\circ\\)\n∴\\(\\angle ABB'=\\angle AB'B,\\angle AB'C=\\angle ACB\\)\n∵\\(\\angle ABB'+\\angle AB'B+\\angle AB'C+\\angle ACB+\\angle BAC=360{}^\\circ\\)\n∴\\(\\angle AB'B+\\angle AB'C=\\angle BB'C=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -\\angle BAC } \\right )=150{}^\\circ\\)\n∴\\(\\angle BB'M=30{}^\\circ\\)\n∵折叠，\n∴\\(MB=MB'\\)，\n∴\\(\\angle MBB'=\\angle MB'B=30{}^\\circ\\)\n∵已知\\(\\vartriangle ABC\\)是边长为4的等边三角形，点\\(D\\)是\\(BC\\)边上一点，且\\(CD=3BD\\)，\n∴\\(BD=1\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDF\\)中，\\(\\angle FBD=60{}^\\circ\\)，则\\(\\angle FDB=30{}^\\circ\\)\n∴\\(BF=\\frac { 1 } { 2 }BD=\\frac { 1 } { 2 }\\)，\\(DF=\\sqrt[] { 3 }BF=\\frac { \\sqrt[] { 3 } } { 2 }\\)\n∴\\(AF=AB-FB=4-\\frac { 1 } { 2 }=\\frac { 7 } { 2 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 13 }\\)\n∵折叠，\n∴\\(BB'\\bot AM\\)，\n∵\\(S_{ \\vartriangle ABD } =\\)\\(\\frac { 1 } { 2 }AB\\times DF=\\frac { 1 } { 2 }AD\\times BE\\)\n∴\\(\\frac { 1 } { 2 }\\times 4\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 1 } { 2 }\\times \\sqrt[] { 13 }\\times BE\\)，\n解得：\\(BE=\\frac { 2\\sqrt[] { 39 } } { 13 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEM\\)中，\\(\\angle MBE=30{}^\\circ\\)，则\\(BM=2EM\\)\n∴\\(BM ^ { 2 } =EM ^ { 2 } +BE ^ { 2 }\\)\n即\\(BM ^ { 2 } =\\frac { 1 } { 4 }BM ^ { 2 } +BE ^ { 2 }\\)，\n∴\\(BM=\\frac { BE } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { \\frac { 2\\sqrt[] { 39 } } { 13 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)\n故答案为：\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/f8/f819ed184cff73418af74320af960082158e2a740aa9269b8281b2941f69f7d3.png",
+    "assets/figures/0a/0a6ff163fdddfc081a9985b294e6558053fdc02e0501e22a58bcc9f0b4c2c86e.png"
+  ],
+  "solution": "解：如图所示，过点\\(D\\)作\\(DF\\bot AB\\)于点\\(F\\)，连接\\(BB'\\)交\\(AM\\)于点\\(E\\)，\n〔图2〕\n∵\\(\\vartriangle ABC\\)是等边三角形，将\\(\\vartriangle ABD\\)沿\\(AD\\)折叠，点\\(B\\)的对应点为\\(B'\\)，\n∴\\(AB=AB'=AC\\)，\\(\\angle BAC=60{}^\\circ\\)\n∴\\(\\angle ABB'=\\angle AB'B,\\angle AB'C=\\angle ACB\\)\n∵\\(\\angle ABB'+\\angle AB'B+\\angle AB'C+\\angle ACB+\\angle BAC=360{}^\\circ\\)\n∴\\(\\angle AB'B+\\angle AB'C=\\angle BB'C=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -\\angle BAC } \\right )=150{}^\\circ\\)\n∴\\(\\angle BB'M=30{}^\\circ\\)\n∵折叠，\n∴\\(MB=MB'\\)，\n∴\\(\\angle MBB'=\\angle MB'B=30{}^\\circ\\)\n∵已知\\(\\vartriangle ABC\\)是边长为4的等边三角形，点\\(D\\)是\\(BC\\)边上一点，且\\(CD=3BD\\)，\n∴\\(BD=1\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDF\\)中，\\(\\angle FBD=60{}^\\circ\\)，则\\(\\angle FDB=30{}^\\circ\\)\n∴\\(BF=\\frac { 1 } { 2 }BD=\\frac { 1 } { 2 }\\)，\\(DF=\\sqrt[] { 3 }BF=\\frac { \\sqrt[] { 3 } } { 2 }\\)\n∴\\(AF=AB-FB=4-\\frac { 1 } { 2 }=\\frac { 7 } { 2 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 13 }\\)\n∵折叠，\n∴\\(BB'\\bot AM\\)，\n∵\\(S_{ \\vartriangle ABD } =\\)\\(\\frac { 1 } { 2 }AB\\times DF=\\frac { 1 } { 2 }AD\\times BE\\)\n∴\\(\\frac { 1 } { 2 }\\times 4\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 1 } { 2 }\\times \\sqrt[] { 13 }\\times BE\\)，\n解得：\\(BE=\\frac { 2\\sqrt[] { 39 } } { 13 }\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEM\\)中，\\(\\angle MBE=30{}^\\circ\\)，则\\(BM=2EM\\)\n∴\\(BM ^ { 2 } =EM ^ { 2 } +BE ^ { 2 }\\)\n即\\(BM ^ { 2 } =\\frac { 1 } { 4 }BM ^ { 2 } +BE ^ { 2 }\\)，\n∴\\(BM=\\frac { BE } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { \\frac { 2\\sqrt[] { 39 } } { 13 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)\n故答案为：\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．",
+  "solution_steps": [
+    "解：如图所示，过点\\(D\\)作\\(DF\\bot AB\\)于点\\(F\\)，连接\\(BB'\\)交\\(AM\\)于点\\(E\\)，",
+    "〔图2〕",
+    "∵\\(\\vartriangle ABC\\)是等边三角形，将\\(\\vartriangle ABD\\)沿\\(AD\\)折叠，点\\(B\\)的对应点为\\(B'\\)，",
+    "∴\\(AB=AB'=AC\\)，\\(\\angle BAC=60{}^\\circ\\)",
+    "∴\\(\\angle ABB'=\\angle AB'B,\\angle AB'C=\\angle ACB\\)",
+    "∵\\(\\angle ABB'+\\angle AB'B+\\angle AB'C+\\angle ACB+\\angle BAC=360{}^\\circ\\)",
+    "∴\\(\\angle AB'B+\\angle AB'C=\\angle BB'C=\\frac { 1 } { 2 }\\left ( { 360{}^\\circ -\\angle BAC } \\right )=150{}^\\circ\\)",
+    "∴\\(\\angle BB'M=30{}^\\circ\\)",
+    "∵折叠，",
+    "∴\\(MB=MB'\\)，",
+    "∴\\(\\angle MBB'=\\angle MB'B=30{}^\\circ\\)",
+    "∵已知\\(\\vartriangle ABC\\)是边长为4的等边三角形，点\\(D\\)是\\(BC\\)边上一点，且\\(CD=3BD\\)，",
+    "∴\\(BD=1\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDF\\)中，\\(\\angle FBD=60{}^\\circ\\)，则\\(\\angle FDB=30{}^\\circ\\)",
+    "∴\\(BF=\\frac { 1 } { 2 }BD=\\frac { 1 } { 2 }\\)，\\(DF=\\sqrt[] { 3 }BF=\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+    "∴\\(AF=AB-FB=4-\\frac { 1 } { 2 }=\\frac { 7 } { 2 }\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 13 }\\)",
+    "∵折叠，",
+    "∴\\(BB'\\bot AM\\)，",
+    "∵\\(S_{ \\vartriangle ABD } =\\)\\(\\frac { 1 } { 2 }AB\\times DF=\\frac { 1 } { 2 }AD\\times BE\\)",
+    "∴\\(\\frac { 1 } { 2 }\\times 4\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 1 } { 2 }\\times \\sqrt[] { 13 }\\times BE\\)，",
+    "解得：\\(BE=\\frac { 2\\sqrt[] { 39 } } { 13 }\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEM\\)中，\\(\\angle MBE=30{}^\\circ\\)，则\\(BM=2EM\\)",
+    "∴\\(BM ^ { 2 } =EM ^ { 2 } +BE ^ { 2 }\\)",
+    "即\\(BM ^ { 2 } =\\frac { 1 } { 4 }BM ^ { 2 } +BE ^ { 2 }\\)，",
+    "∴\\(BM=\\frac { BE } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { \\frac { 2\\sqrt[] { 39 } } { 13 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+    "故答案为：\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      45,
+      46
+    ],
+    "solution_body_blocks": [
+      200,
+      231
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-F634E693C0/paper-q15-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          448.18,
+          583.64,
+          637.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-F634E693C0/solution-q15-p11.webp",
+      "assets/SZ-G8-T2-F634E693C0/solution-q15-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          177.27,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          538.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

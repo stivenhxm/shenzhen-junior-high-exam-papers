@@ -1,0 +1,330 @@
+{
+  "id": "SZ-G8-T1-5B888747C3-Q21",
+  "paper_id": "SZ-G8-T1-5B888747C3",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "定义，我们把对角线互相垂直的四边形叫做垂美四边形．\n〔图1〕\n【概念理解】如图②，在四边形\\(ABCD\\)中，如果\\(AB=AD\\)，\\(CB=CD\\)，那么四边形\\(ABCD\\)是垂美四边形吗？请说明理由．\n【性质探究】如图①，垂美四边形\\(ABCD\\)两组对边\\(AB、CD\\)与\\(BC、AD\\)之间有怎样的数量关系？写出你的猜想，并给出证明．\n【问题解决】如图③，分别以\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)的直角边\\(AC\\)和斜边\\(AB\\)为边向外作正方形\\(ACFG\\)和正方形\\(ABDE\\)，连接\\(CE、BG、GE\\)．若\\(AC=2\\)，\\(AB=5\\)，则直接写出\\(GE\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-5B888747C3/figures/41714275c474744c58fee61dbf8d9a85cf10b1a8029151c022347b4e7f72b5d1.png"
+  ],
+  "tables": [],
+  "given_answer": "[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由见解析；[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)，理由见解析；[问题解决]：\\(\\sqrt[] { 37 }\\)",
+  "answer": "[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由见解析；[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)，理由见解析；[问题解决]：\\(\\sqrt[] { 37 }\\)",
+  "given_solution": "【分析】[概念理解]：根据垂直平分线的判定定理证明即可；\n[性质探究]：根据垂直的定义和勾股定理解答即可；\n[问题解决]：根据垂美四边形的性质、勾股定理、结合（2）的结论计算即可．\n【详解】解：[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由如下：\n\\(\\because AB=AD\\)，\n\\(\\therefore\\)点\\(A\\)在线段\\(BD\\)的垂直平分线上，\n\\(\\because CB=CD\\)，\n\\(\\therefore\\)点\\(C\\)在线段\\(BD\\)的垂直平分线上，\n\\(\\therefore\\)直线\\(AC\\)是线段\\(BD\\)的垂直平分线，\n\\(\\therefore AC\\bot BD\\)，即四边形\\(ABCD\\)是垂美四边形；\n[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)．理由如下：\n如图2，已知四边形\\(ABCD\\)中，\\(AC\\bot BD\\)，垂足为\\(E\\)，\n〔图2〕\n\\(\\because AC\\bot BD\\)，\n\\(\\therefore \\angle AED=\\angle AEB=\\angle BEC=\\angle CED=90{}^\\circ\\)，\n由勾股定理得，\\(AD ^ { 2 } +BC ^ { 2 } =AE ^ { 2 } +DE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 }\\)，\n\\(AB ^ { 2 } +CD ^ { 2 } =AE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 } +DE ^ { 2 }\\)，\n\\(\\therefore AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)；\n[问题解决]：连接\\(CG\\)、\\(BE\\)，如图3所示：\n〔图3〕\n\\(\\because \\angle CAG=\\angle BAE=90{}^\\circ\\)，\n\\(\\therefore \\angle CAG+\\angle BAC=\\angle BAE+\\angle BAC\\)，即\\(\\angle GAB=\\angle CAE\\)，\n在\\(\\vartriangle GAB\\)和\\(\\vartriangle CAE\\)中，\n\\(\\begin{cases} AG=AC \\\\ \\\\ \\angle GAB=\\angle CAE \\\\ \\\\ AB=AE \\\\ \\, \\end{cases}\\)，\n\\(\\therefore \\vartriangle GAB≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABG=\\angle AEC\\)，又\\(\\angle AEC+\\angle AME=90{}^\\circ\\)，\n\\(\\therefore \\angle ABG+\\angle AME=90{}^\\circ\\)，即\\(CE\\bot BG\\)，\n\\(\\therefore\\)四边形\\(CGEB\\)是垂美四边形，\n由（2）得，\\(CG ^ { 2 } +BE ^ { 2 } =CB ^ { 2 } +GE ^ { 2 }\\)，\n\\(\\because AC=2\\)，\\(AB=5\\)，\n\\(\\therefore BC=\\sqrt[] { 21 }\\)，\\(CG=2\\sqrt[] { 2 }\\)，\\(BE=5\\sqrt[] { 2 }\\)，\n\\(\\therefore GE ^ { 2 } =CG ^ { 2 } +BE ^ { 2 } -CB ^ { 2 } =37\\)，\n\\(\\therefore GE=\\sqrt[] { 37 }\\)；\n故答案为：\\(\\sqrt[] { 37 }\\)．\n【点睛】本题是四边形综合题目，考查的是全等三角形的判定和性质、垂直的定义、勾股定理的应用，正确理解垂美四边形的定义、灵活运用勾股定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-5B888747C3/figures/41714275c474744c58fee61dbf8d9a85cf10b1a8029151c022347b4e7f72b5d1.png",
+    "assets/SZ-G8-T1-5B888747C3/figures/b3b3f3748356ccefa8085e3be099df0d576d02b7867a4f3a14adb6b7d6ae98fc.png",
+    "assets/SZ-G8-T1-5B888747C3/figures/591b0e9e7c48647fe761536560dd73f3d70ace0cf4dfd82c2ea84e01e3201c03.png"
+  ],
+  "solution": "解：[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由如下：\n\\(\\because AB=AD\\)，\n\\(\\therefore\\)点\\(A\\)在线段\\(BD\\)的垂直平分线上，\n\\(\\because CB=CD\\)，\n\\(\\therefore\\)点\\(C\\)在线段\\(BD\\)的垂直平分线上，\n\\(\\therefore\\)直线\\(AC\\)是线段\\(BD\\)的垂直平分线，\n\\(\\therefore AC\\bot BD\\)，即四边形\\(ABCD\\)是垂美四边形；\n[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)．理由如下：\n如图2，已知四边形\\(ABCD\\)中，\\(AC\\bot BD\\)，垂足为\\(E\\)，\n〔图2〕\n\\(\\because AC\\bot BD\\)，\n\\(\\therefore \\angle AED=\\angle AEB=\\angle BEC=\\angle CED=90{}^\\circ\\)，\n由勾股定理得，\\(AD ^ { 2 } +BC ^ { 2 } =AE ^ { 2 } +DE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 }\\)，\n\\(AB ^ { 2 } +CD ^ { 2 } =AE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 } +DE ^ { 2 }\\)，\n\\(\\therefore AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)；\n[问题解决]：连接\\(CG\\)、\\(BE\\)，如图3所示：\n〔图3〕\n\\(\\because \\angle CAG=\\angle BAE=90{}^\\circ\\)，\n\\(\\therefore \\angle CAG+\\angle BAC=\\angle BAE+\\angle BAC\\)，即\\(\\angle GAB=\\angle CAE\\)，\n在\\(\\vartriangle GAB\\)和\\(\\vartriangle CAE\\)中，\n\\(\\begin{cases} AG=AC \\\\ \\\\ \\angle GAB=\\angle CAE \\\\ \\\\ AB=AE \\\\ \\, \\end{cases}\\)，\n\\(\\therefore \\vartriangle GAB≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABG=\\angle AEC\\)，又\\(\\angle AEC+\\angle AME=90{}^\\circ\\)，\n\\(\\therefore \\angle ABG+\\angle AME=90{}^\\circ\\)，即\\(CE\\bot BG\\)，\n\\(\\therefore\\)四边形\\(CGEB\\)是垂美四边形，\n由（2）得，\\(CG ^ { 2 } +BE ^ { 2 } =CB ^ { 2 } +GE ^ { 2 }\\)，\n\\(\\because AC=2\\)，\\(AB=5\\)，\n\\(\\therefore BC=\\sqrt[] { 21 }\\)，\\(CG=2\\sqrt[] { 2 }\\)，\\(BE=5\\sqrt[] { 2 }\\)，\n\\(\\therefore GE ^ { 2 } =CG ^ { 2 } +BE ^ { 2 } -CB ^ { 2 } =37\\)，\n\\(\\therefore GE=\\sqrt[] { 37 }\\)；\n故答案为：\\(\\sqrt[] { 37 }\\)．",
+  "solution_steps": [
+    "解：[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由如下：",
+    "\\(\\because AB=AD\\)，",
+    "\\(\\therefore\\)点\\(A\\)在线段\\(BD\\)的垂直平分线上，",
+    "\\(\\because CB=CD\\)，",
+    "\\(\\therefore\\)点\\(C\\)在线段\\(BD\\)的垂直平分线上，",
+    "\\(\\therefore\\)直线\\(AC\\)是线段\\(BD\\)的垂直平分线，",
+    "\\(\\therefore AC\\bot BD\\)，即四边形\\(ABCD\\)是垂美四边形；",
+    "[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)．理由如下：",
+    "如图2，已知四边形\\(ABCD\\)中，\\(AC\\bot BD\\)，垂足为\\(E\\)，",
+    "〔图2〕",
+    "\\(\\because AC\\bot BD\\)，",
+    "\\(\\therefore \\angle AED=\\angle AEB=\\angle BEC=\\angle CED=90{}^\\circ\\)，",
+    "由勾股定理得，\\(AD ^ { 2 } +BC ^ { 2 } =AE ^ { 2 } +DE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 }\\)，",
+    "\\(AB ^ { 2 } +CD ^ { 2 } =AE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 } +DE ^ { 2 }\\)，",
+    "\\(\\therefore AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)；",
+    "[问题解决]：连接\\(CG\\)、\\(BE\\)，如图3所示：",
+    "〔图3〕",
+    "\\(\\because \\angle CAG=\\angle BAE=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CAG+\\angle BAC=\\angle BAE+\\angle BAC\\)，即\\(\\angle GAB=\\angle CAE\\)，",
+    "在\\(\\vartriangle GAB\\)和\\(\\vartriangle CAE\\)中，",
+    "\\(\\begin{cases} AG=AC \\\\ \\\\ \\angle GAB=\\angle CAE \\\\ \\\\ AB=AE \\\\ \\, \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle GAB≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore \\angle ABG=\\angle AEC\\)，又\\(\\angle AEC+\\angle AME=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABG+\\angle AME=90{}^\\circ\\)，即\\(CE\\bot BG\\)，",
+    "\\(\\therefore\\)四边形\\(CGEB\\)是垂美四边形，",
+    "由（2）得，\\(CG ^ { 2 } +BE ^ { 2 } =CB ^ { 2 } +GE ^ { 2 }\\)，",
+    "\\(\\because AC=2\\)，\\(AB=5\\)，",
+    "\\(\\therefore BC=\\sqrt[] { 21 }\\)，\\(CG=2\\sqrt[] { 2 }\\)，\\(BE=5\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore GE ^ { 2 } =CG ^ { 2 } +BE ^ { 2 } -CB ^ { 2 } =37\\)，",
+    "\\(\\therefore GE=\\sqrt[] { 37 }\\)；",
+    "故答案为：\\(\\sqrt[] { 37 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "kind": "text",
+      "id": "m1",
+      "text": "定义，我们把对角线互相垂直的四边形叫做垂美四边形．\n〔图1〕",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5B888747C3-Q21-P01",
+      "label": "概念理解",
+      "prompt": "【概念理解】如图②，在四边形\\(ABCD\\)中，如果\\(AB=AD\\)，\\(CB=CD\\)，那么四边形\\(ABCD\\)是垂美四边形吗？请说明理由．",
+      "stem_text": "【概念理解】如图②，在四边形\\(ABCD\\)中，如果\\(AB=AD\\)，\\(CB=CD\\)，那么四边形\\(ABCD\\)是垂美四边形吗？请说明理由．",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [],
+      "given_answer": "四边形 ABCD 是垂美四边形。",
+      "answer": "四边形 ABCD 是垂美四边形。",
+      "given_solution": "【详解】解：[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由如下：\n\\(\\because AB=AD\\)，\n\\(\\therefore\\)点\\(A\\)在线段\\(BD\\)的垂直平分线上，\n\\(\\because CB=CD\\)，\n\\(\\therefore\\)点\\(C\\)在线段\\(BD\\)的垂直平分线上，\n\\(\\therefore\\)直线\\(AC\\)是线段\\(BD\\)的垂直平分线，\n\\(\\therefore AC\\bot BD\\)，即四边形\\(ABCD\\)是垂美四边形；",
+      "solution_steps": [
+        "解：[概念理解]：四边形\\(ABCD\\)是垂美四边形．理由如下：",
+        "\\(\\because AB=AD\\)，",
+        "\\(\\therefore\\)点\\(A\\)在线段\\(BD\\)的垂直平分线上，",
+        "\\(\\because CB=CD\\)，",
+        "\\(\\therefore\\)点\\(C\\)在线段\\(BD\\)的垂直平分线上，",
+        "\\(\\therefore\\)直线\\(AC\\)是线段\\(BD\\)的垂直平分线，",
+        "\\(\\therefore AC\\bot BD\\)，即四边形\\(ABCD\\)是垂美四边形；"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          63
+        ],
+        "solution_block_ids": [
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "knowledge_ids": [
+        "M.G02.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5B888747C3-Q21-P02",
+      "label": "性质探究",
+      "prompt": "【性质探究】如图①，垂美四边形\\(ABCD\\)两组对边\\(AB、CD\\)与\\(BC、AD\\)之间有怎样的数量关系？写出你的猜想，并给出证明．",
+      "stem_text": "【性质探究】如图①，垂美四边形\\(ABCD\\)两组对边\\(AB、CD\\)与\\(BC、AD\\)之间有怎样的数量关系？写出你的猜想，并给出证明．",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD^2+BC^2=AB^2+CD^2\\)。",
+      "answer": "\\(AD^2+BC^2=AB^2+CD^2\\)。",
+      "given_solution": "[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)．理由如下：\n如图2，已知四边形\\(ABCD\\)中，\\(AC\\bot BD\\)，垂足为\\(E\\)，\n〔图2〕\n\\(\\because AC\\bot BD\\)，\n\\(\\therefore \\angle AED=\\angle AEB=\\angle BEC=\\angle CED=90{}^\\circ\\)，\n由勾股定理得，\\(AD ^ { 2 } +BC ^ { 2 } =AE ^ { 2 } +DE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 }\\)，\n\\(AB ^ { 2 } +CD ^ { 2 } =AE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 } +DE ^ { 2 }\\)，\n\\(\\therefore AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)；",
+      "solution_steps": [
+        "[性质探究]：\\(AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)．理由如下：",
+        "如图2，已知四边形\\(ABCD\\)中，\\(AC\\bot BD\\)，垂足为\\(E\\)，",
+        "〔图2〕",
+        "\\(\\because AC\\bot BD\\)，",
+        "\\(\\therefore \\angle AED=\\angle AEB=\\angle BEC=\\angle CED=90{}^\\circ\\)，",
+        "由勾股定理得，\\(AD ^ { 2 } +BC ^ { 2 } =AE ^ { 2 } +DE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 }\\)，",
+        "\\(AB ^ { 2 } +CD ^ { 2 } =AE ^ { 2 } +BE ^ { 2 } +CE ^ { 2 } +DE ^ { 2 }\\)，",
+        "\\(\\therefore AD ^ { 2 } +BC ^ { 2 } =AB ^ { 2 } +CD ^ { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          64
+        ],
+        "solution_block_ids": [
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5B888747C3-Q21-P03",
+      "label": "问题解决",
+      "prompt": "【问题解决】如图③，分别以\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)的直角边\\(AC\\)和斜边\\(AB\\)为边向外作正方形\\(ACFG\\)和正方形\\(ABDE\\)，连接\\(CE、BG、GE\\)．若\\(AC=2\\)，\\(AB=5\\)，则直接写出\\(GE\\)的值．",
+      "stem_text": "【问题解决】如图③，分别以\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)的直角边\\(AC\\)和斜边\\(AB\\)为边向外作正方形\\(ACFG\\)和正方形\\(ABDE\\)，连接\\(CE、BG、GE\\)．若\\(AC=2\\)，\\(AB=5\\)，则直接写出\\(GE\\)的值．",
+      "material_ids": [
+        "m1"
+      ],
+      "requires": [
+        "SZ-G8-T1-5B888747C3-Q21-P02"
+      ],
+      "given_answer": "\\(\\sqrt{37}\\)。",
+      "answer": "\\(\\sqrt{37}\\)。",
+      "given_solution": "[问题解决]：连接\\(CG\\)、\\(BE\\)，如图3所示：\n〔图3〕\n\\(\\because \\angle CAG=\\angle BAE=90{}^\\circ\\)，\n\\(\\therefore \\angle CAG+\\angle BAC=\\angle BAE+\\angle BAC\\)，即\\(\\angle GAB=\\angle CAE\\)，\n在\\(\\vartriangle GAB\\)和\\(\\vartriangle CAE\\)中，\n\\(\\begin{cases} AG=AC \\\\ \\\\ \\angle GAB=\\angle CAE \\\\ \\\\ AB=AE \\\\ \\, \\end{cases}\\)，\n\\(\\therefore \\vartriangle GAB≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore \\angle ABG=\\angle AEC\\)，又\\(\\angle AEC+\\angle AME=90{}^\\circ\\)，\n\\(\\therefore \\angle ABG+\\angle AME=90{}^\\circ\\)，即\\(CE\\bot BG\\)，\n\\(\\therefore\\)四边形\\(CGEB\\)是垂美四边形，\n由（2）得，\\(CG ^ { 2 } +BE ^ { 2 } =CB ^ { 2 } +GE ^ { 2 }\\)，\n\\(\\because AC=2\\)，\\(AB=5\\)，\n\\(\\therefore BC=\\sqrt[] { 21 }\\)，\\(CG=2\\sqrt[] { 2 }\\)，\\(BE=5\\sqrt[] { 2 }\\)，\n\\(\\therefore GE ^ { 2 } =CG ^ { 2 } +BE ^ { 2 } -CB ^ { 2 } =37\\)，\n\\(\\therefore GE=\\sqrt[] { 37 }\\)；\n故答案为：\\(\\sqrt[] { 37 }\\)．",
+      "solution_steps": [
+        "[问题解决]：连接\\(CG\\)、\\(BE\\)，如图3所示：",
+        "〔图3〕",
+        "\\(\\because \\angle CAG=\\angle BAE=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CAG+\\angle BAC=\\angle BAE+\\angle BAC\\)，即\\(\\angle GAB=\\angle CAE\\)，",
+        "在\\(\\vartriangle GAB\\)和\\(\\vartriangle CAE\\)中，",
+        "\\(\\begin{cases} AG=AC \\\\ \\\\ \\angle GAB=\\angle CAE \\\\ \\\\ AB=AE \\\\ \\, \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle GAB≌\\vartriangle CAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore \\angle ABG=\\angle AEC\\)，又\\(\\angle AEC+\\angle AME=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABG+\\angle AME=90{}^\\circ\\)，即\\(CE\\bot BG\\)，",
+        "\\(\\therefore\\)四边形\\(CGEB\\)是垂美四边形，",
+        "由（2）得，\\(CG ^ { 2 } +BE ^ { 2 } =CB ^ { 2 } +GE ^ { 2 }\\)，",
+        "\\(\\because AC=2\\)，\\(AB=5\\)，",
+        "\\(\\therefore BC=\\sqrt[] { 21 }\\)，\\(CG=2\\sqrt[] { 2 }\\)，\\(BE=5\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore GE ^ { 2 } =CG ^ { 2 } +BE ^ { 2 } -CB ^ { 2 } =37\\)，",
+        "\\(\\therefore GE=\\sqrt[] { 37 }\\)；",
+        "故答案为：\\(\\sqrt[] { 37 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "review_note": "",
+      "source": {
+        "paper_block_ids": [
+          65
+        ],
+        "solution_block_ids": [
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      65
+    ],
+    "solution_body_blocks": [
+      314,
+      355
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5B888747C3/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          144.09,
+          583.64,
+          408.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5B888747C3/solution-q21-p17.webp",
+      "assets/SZ-G8-T1-5B888747C3/solution-q21-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G02.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

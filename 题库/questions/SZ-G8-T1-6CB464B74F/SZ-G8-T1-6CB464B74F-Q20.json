@@ -1,0 +1,402 @@
+{
+  "id": "SZ-G8-T1-6CB464B74F-Q20",
+  "paper_id": "SZ-G8-T1-6CB464B74F",
+  "number": 20,
+  "type": "解答题",
+  "points": 11.0,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "（11分）如图，点\\(A(0,a)\\)，点\\(B(b,0)\\)分别为\\(y\\)轴正半轴、\\(x\\)轴负半轴上的点，以点\\(B\\)为直角顶点在第二象限作等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)．\n〔图1〕\n(1)如图1，若\\(a\\)、\\(b\\)满足\\(\\left ( { a-3 } \\right ) ^ { 2 } +\\sqrt[] { \\left ( { b+2 } \\right ) ^ { 2 } }=0\\)，求点\\(C\\)的坐标；\n(2)在x轴上是否存在点P，使\\(\\vartriangle PAB\\)是以\\(AB\\)为腰的等腰三角形？若存在，请直接写出点P的坐标；若不存在，请说明理由．\n(3)如图2，点\\(M\\)在\\(AC\\)上，点\\(N\\)在\\(CA\\)的延长线上，\\(\\angle MBN=45{}^\\circ\\)，探究线段\\(CM\\)、\\(AN\\)和\\(MN\\)之间的关系，并加以证明．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-6CB464B74F/figures/cce3ef9a11befa5045770ad3e8421526136a2ed1fd9c7ea86f85eff471acf1cf.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（11分）如图，点\\(A(0,a)\\)，点\\(B(b,0)\\)分别为\\(y\\)轴正半轴、\\(x\\)轴负半轴上的点，以点\\(B\\)为直角顶点在第二象限作等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)．\n〔图1〕",
+      "paper_blocks": [
+        129,
+        130
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-6CB464B74F-Q20-P01",
+      "label": "(1)",
+      "prompt": "如图1，若\\(a\\)、\\(b\\)满足\\(\\left ( { a-3 } \\right ) ^ { 2 } +\\sqrt[] { \\left ( { b+2 } \\right ) ^ { 2 } }=0\\)，求点\\(C\\)的坐标；",
+      "stem_text": "如图1，若\\(a\\)、\\(b\\)满足\\(\\left ( { a-3 } \\right ) ^ { 2 } +\\sqrt[] { \\left ( { b+2 } \\right ) ^ { 2 } }=0\\)，求点\\(C\\)的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore C(-5,2)\\)",
+      "given_solution": "解：如图：过点\\(C\\)作\\(CD\\bot x\\)轴于\\(D\\)．\n〔图1〕\\((a-3) ^ { 2 } +\\left | { b+2 } \\right |=0\\)，\n\\(\\therefore a=3\\)，\\(b=-2\\)， （1分）\n\\(\\therefore A(0,3)\\)，\\(B(-2,0)\\)，\n\\(\\therefore AO=3\\)，\\(BO=2\\)，（2分）\n∵⊿ABC是等腰直角三角形，\n\\(\\therefore \\angle ABC=90{}^\\circ\\)，\\(AB=BC\\)，\n\\(\\therefore \\angle ABO+\\angle CBD=\\angle BAO+\\angle ABO\\)，\n\\(\\therefore \\angle BAO=\\angle CBD\\)，\n在⊿AOB和\\(\\vartriangle BDC\\)中，\n\\(\\because \\angle AOB=\\angle BDC=90{}^\\circ\\)，\\(\\angle BAO=\\angle CBD\\)，\\(AB=BC\\)，\n\\(\\therefore \\vartriangle AOB≌\\vartriangle BDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)， (3分）\n\\(\\therefore AO=BD=3\\)，\\(BO=CD=2\\)，\n\\(\\therefore OD=5\\)，\n\\(\\therefore C(-5,2)\\)；（4分）",
+      "solution_steps": [
+        "解：如图：过点\\(C\\)作\\(CD\\bot x\\)轴于\\(D\\)．",
+        "〔图1〕\\((a-3) ^ { 2 } +\\left | { b+2 } \\right |=0\\)，",
+        "\\(\\therefore a=3\\)，\\(b=-2\\)， （1分）",
+        "\\(\\therefore A(0,3)\\)，\\(B(-2,0)\\)，",
+        "\\(\\therefore AO=3\\)，\\(BO=2\\)，（2分）",
+        "∵⊿ABC是等腰直角三角形，",
+        "\\(\\therefore \\angle ABC=90{}^\\circ\\)，\\(AB=BC\\)，",
+        "\\(\\therefore \\angle ABO+\\angle CBD=\\angle BAO+\\angle ABO\\)，",
+        "\\(\\therefore \\angle BAO=\\angle CBD\\)，",
+        "在⊿AOB和\\(\\vartriangle BDC\\)中，",
+        "\\(\\because \\angle AOB=\\angle BDC=90{}^\\circ\\)，\\(\\angle BAO=\\angle CBD\\)，\\(AB=BC\\)，",
+        "\\(\\therefore \\vartriangle AOB≌\\vartriangle BDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)， (3分）",
+        "\\(\\therefore AO=BD=3\\)，\\(BO=CD=2\\)，",
+        "\\(\\therefore OD=5\\)，",
+        "\\(\\therefore C(-5,2)\\)；（4分）"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          129,
+          130,
+          131
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-6CB464B74F-Q20-P02",
+      "label": "(2)",
+      "prompt": "在x轴上是否存在点P，使\\(\\vartriangle PAB\\)是以\\(AB\\)为腰的等腰三角形？若存在，请直接写出点P的坐标；若不存在，请说明理由．",
+      "stem_text": "在x轴上是否存在点P，使\\(\\vartriangle PAB\\)是以\\(AB\\)为腰的等腰三角形？若存在，请直接写出点P的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)",
+      "given_solution": "存在，求解如下：\n设点P的坐标为\\((m,0)\\)，则\\(AP ^ { 2 } =\\left ( { m-0 } \\right ) ^ { 2 } +\\left ( { 0-3 } \\right ) ^ { 2 } =m ^ { 2 } +9\\)，\\(BP=\\left | { m+2 } \\right |\\)\n∵\\(AO=3\\)，\\(BO=2\\)，\\(\\angle AOB=90{}^\\circ\\)\n∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\sqrt[] { 13 }\\)，（5分）\n当\\(AP=AB\\)时，则\\(AP ^ { 2 } =AB ^ { 2 }\\)，得到\\(m ^ { 2 } +9=\\left ( { \\sqrt[] { 13 } } \\right ) ^ { 2 }\\)，解得\\(m=2\\)或\\(m=-2\\)（不合题意，舍去）\n∴此时点P的坐标为\\((2,0)\\)；（6分）\n当\\(BP=AB\\)时，，得到\\(\\left | { m+2 } \\right |=\\sqrt[] { 13 }\\)，解得\\(m=-2+\\sqrt[] { 13 }\\)或\\(m=-2-\\sqrt[] { 13 }\\)\n∴此时点P的坐标为\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；\n综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；（7分）",
+      "solution_steps": [
+        "存在，求解如下：",
+        "设点P的坐标为\\((m,0)\\)，则\\(AP ^ { 2 } =\\left ( { m-0 } \\right ) ^ { 2 } +\\left ( { 0-3 } \\right ) ^ { 2 } =m ^ { 2 } +9\\)，\\(BP=\\left | { m+2 } \\right |\\)",
+        "∵\\(AO=3\\)，\\(BO=2\\)，\\(\\angle AOB=90{}^\\circ\\)",
+        "∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\sqrt[] { 13 }\\)，（5分）",
+        "当\\(AP=AB\\)时，则\\(AP ^ { 2 } =AB ^ { 2 }\\)，得到\\(m ^ { 2 } +9=\\left ( { \\sqrt[] { 13 } } \\right ) ^ { 2 }\\)，解得\\(m=2\\)或\\(m=-2\\)（不合题意，舍去）",
+        "∴此时点P的坐标为\\((2,0)\\)；（6分）",
+        "当\\(BP=AB\\)时，，得到\\(\\left | { m+2 } \\right |=\\sqrt[] { 13 }\\)，解得\\(m=-2+\\sqrt[] { 13 }\\)或\\(m=-2-\\sqrt[] { 13 }\\)",
+        "∴此时点P的坐标为\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；",
+        "综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；（7分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          129,
+          130,
+          132
+        ],
+        "solution_block_ids": [
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01",
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G04.01.03",
+        "E.G09.03.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“求满足等腰条件的所有动点位置、将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-6CB464B74F-Q20-P03",
+      "label": "(3)",
+      "prompt": "如图2，点\\(M\\)在\\(AC\\)上，点\\(N\\)在\\(CA\\)的延长线上，\\(\\angle MBN=45{}^\\circ\\)，探究线段\\(CM\\)、\\(AN\\)和\\(MN\\)之间的关系，并加以证明．",
+      "stem_text": "如图2，点\\(M\\)在\\(AC\\)上，点\\(N\\)在\\(CA\\)的延长线上，\\(\\angle MBN=45{}^\\circ\\)，探究线段\\(CM\\)、\\(AN\\)和\\(MN\\)之间的关系，并加以证明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)",
+      "given_solution": "\\(AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)，证明如下：\n过点\\(B\\)作\\(PB\\bot BN\\)，使\\(BP=BN\\)，连接\\(PM\\)、\\(PC\\)．\n〔图2〕\\(\\because \\angle MBN=45{}^\\circ\\)，\n\\(\\therefore \\angle PBM=\\angle NBM=45{}^\\circ\\)，\n在\\(\\vartriangle PBM\\)和\\(\\vartriangle NBM\\)中，\n\\(\\because BP=BN\\)，\\(\\angle PBM=\\angle NBM=45{}^\\circ\\)，\\(BM=BM\\)，\n\\(\\therefore \\vartriangle PBM≌\\vartriangle NBM({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （8分）\n\\(\\therefore MP=MN\\)，\\(\\angle BMP=\\angle BMN\\)，\n\\(\\because \\angle ABC=\\angle PBN=90{}^\\circ\\)，\n\\(\\therefore \\angle PBC=\\angle NBA\\)，\n在\\(\\vartriangle PBC\\)和\\(\\vartriangle NBA\\)中，\n\\(\\because BP=BN\\)，\\(\\angle PBC=\\angle NBA\\)，\\(AB=BC\\)，\n\\(\\therefore \\vartriangle PBC≌\\vartriangle NBA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （9分）\n\\(\\therefore PC=AN\\)，\\(\\angle PCB=\\angle NAB=135{}^\\circ\\)，\n\\(\\therefore \\angle PCM=\\angle PCB-45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore PC ^ { 2 } +CM ^ { 2 } =PM ^ { 2 }\\)（10分）\n\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)（11分）",
+      "solution_steps": [
+        "\\(AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)，证明如下：",
+        "过点\\(B\\)作\\(PB\\bot BN\\)，使\\(BP=BN\\)，连接\\(PM\\)、\\(PC\\)．",
+        "〔图2〕\\(\\because \\angle MBN=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle PBM=\\angle NBM=45{}^\\circ\\)，",
+        "在\\(\\vartriangle PBM\\)和\\(\\vartriangle NBM\\)中，",
+        "\\(\\because BP=BN\\)，\\(\\angle PBM=\\angle NBM=45{}^\\circ\\)，\\(BM=BM\\)，",
+        "\\(\\therefore \\vartriangle PBM≌\\vartriangle NBM({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （8分）",
+        "\\(\\therefore MP=MN\\)，\\(\\angle BMP=\\angle BMN\\)，",
+        "\\(\\because \\angle ABC=\\angle PBN=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle PBC=\\angle NBA\\)，",
+        "在\\(\\vartriangle PBC\\)和\\(\\vartriangle NBA\\)中，",
+        "\\(\\because BP=BN\\)，\\(\\angle PBC=\\angle NBA\\)，\\(AB=BC\\)，",
+        "\\(\\therefore \\vartriangle PBC≌\\vartriangle NBA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （9分）",
+        "\\(\\therefore PC=AN\\)，\\(\\angle PCB=\\angle NAB=135{}^\\circ\\)，",
+        "\\(\\therefore \\angle PCM=\\angle PCB-45{}^\\circ =90{}^\\circ\\)，",
+        "\\(\\therefore PC ^ { 2 } +CM ^ { 2 } =PM ^ { 2 }\\)（10分）",
+        "\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)（11分）"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          129,
+          130,
+          133
+        ],
+        "solution_block_ids": [
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）\\(\\therefore C(-5,2)\\)\n（2）综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)\n（3）\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)",
+  "given_solution": "【详解】（1）\n解：如图：过点\\(C\\)作\\(CD\\bot x\\)轴于\\(D\\)．\n〔图1〕\\((a-3) ^ { 2 } +\\left | { b+2 } \\right |=0\\)，\n\\(\\therefore a=3\\)，\\(b=-2\\)， （1分）\n\\(\\therefore A(0,3)\\)，\\(B(-2,0)\\)，\n\\(\\therefore AO=3\\)，\\(BO=2\\)，（2分）\n∵⊿ABC是等腰直角三角形，\n\\(\\therefore \\angle ABC=90{}^\\circ\\)，\\(AB=BC\\)，\n\\(\\therefore \\angle ABO+\\angle CBD=\\angle BAO+\\angle ABO\\)，\n\\(\\therefore \\angle BAO=\\angle CBD\\)，\n在⊿AOB和\\(\\vartriangle BDC\\)中，\n\\(\\because \\angle AOB=\\angle BDC=90{}^\\circ\\)，\\(\\angle BAO=\\angle CBD\\)，\\(AB=BC\\)，\n\\(\\therefore \\vartriangle AOB≌\\vartriangle BDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)， (3分）\n\\(\\therefore AO=BD=3\\)，\\(BO=CD=2\\)，\n\\(\\therefore OD=5\\)，\n\\(\\therefore C(-5,2)\\)；（4分）\n（2）存在，求解如下：\n设点P的坐标为\\((m,0)\\)，则\\(AP ^ { 2 } =\\left ( { m-0 } \\right ) ^ { 2 } +\\left ( { 0-3 } \\right ) ^ { 2 } =m ^ { 2 } +9\\)，\\(BP=\\left | { m+2 } \\right |\\)\n∵\\(AO=3\\)，\\(BO=2\\)，\\(\\angle AOB=90{}^\\circ\\)\n∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\sqrt[] { 13 }\\)，（5分）\n当\\(AP=AB\\)时，则\\(AP ^ { 2 } =AB ^ { 2 }\\)，得到\\(m ^ { 2 } +9=\\left ( { \\sqrt[] { 13 } } \\right ) ^ { 2 }\\)，解得\\(m=2\\)或\\(m=-2\\)（不合题意，舍去）\n∴此时点P的坐标为\\((2,0)\\)；（6分）\n当\\(BP=AB\\)时，，得到\\(\\left | { m+2 } \\right |=\\sqrt[] { 13 }\\)，解得\\(m=-2+\\sqrt[] { 13 }\\)或\\(m=-2-\\sqrt[] { 13 }\\)\n∴此时点P的坐标为\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；\n综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；（7分）\n（3）\\(AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)，证明如下：\n过点\\(B\\)作\\(PB\\bot BN\\)，使\\(BP=BN\\)，连接\\(PM\\)、\\(PC\\)．\n〔图2〕\\(\\because \\angle MBN=45{}^\\circ\\)，\n\\(\\therefore \\angle PBM=\\angle NBM=45{}^\\circ\\)，\n在\\(\\vartriangle PBM\\)和\\(\\vartriangle NBM\\)中，\n\\(\\because BP=BN\\)，\\(\\angle PBM=\\angle NBM=45{}^\\circ\\)，\\(BM=BM\\)，\n\\(\\therefore \\vartriangle PBM≌\\vartriangle NBM({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （8分）\n\\(\\therefore MP=MN\\)，\\(\\angle BMP=\\angle BMN\\)，\n\\(\\because \\angle ABC=\\angle PBN=90{}^\\circ\\)，\n\\(\\therefore \\angle PBC=\\angle NBA\\)，\n在\\(\\vartriangle PBC\\)和\\(\\vartriangle NBA\\)中，\n\\(\\because BP=BN\\)，\\(\\angle PBC=\\angle NBA\\)，\\(AB=BC\\)，\n\\(\\therefore \\vartriangle PBC≌\\vartriangle NBA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （9分）\n\\(\\therefore PC=AN\\)，\\(\\angle PCB=\\angle NAB=135{}^\\circ\\)，\n\\(\\therefore \\angle PCM=\\angle PCB-45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore PC ^ { 2 } +CM ^ { 2 } =PM ^ { 2 }\\)（10分）\n\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)（11分）",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-6CB464B74F/figures/984f57760750c1ba1171aed5a8153fd69d52e4af52e73c985cb12c48270d927a.png",
+    "assets/SZ-G8-T1-6CB464B74F/figures/8e667e92f84cb35ab76e22814b942025a85cd6ca09c188bdb5d5239bd899a41b.png"
+  ],
+  "solution_steps": [
+    "（1）",
+    "解：如图：过点\\(C\\)作\\(CD\\bot x\\)轴于\\(D\\)．",
+    "〔图1〕\\((a-3) ^ { 2 } +\\left | { b+2 } \\right |=0\\)，",
+    "\\(\\therefore a=3\\)，\\(b=-2\\)， （1分）",
+    "\\(\\therefore A(0,3)\\)，\\(B(-2,0)\\)，",
+    "\\(\\therefore AO=3\\)，\\(BO=2\\)，（2分）",
+    "∵⊿ABC是等腰直角三角形，",
+    "\\(\\therefore \\angle ABC=90{}^\\circ\\)，\\(AB=BC\\)，",
+    "\\(\\therefore \\angle ABO+\\angle CBD=\\angle BAO+\\angle ABO\\)，",
+    "\\(\\therefore \\angle BAO=\\angle CBD\\)，",
+    "在⊿AOB和\\(\\vartriangle BDC\\)中，",
+    "\\(\\because \\angle AOB=\\angle BDC=90{}^\\circ\\)，\\(\\angle BAO=\\angle CBD\\)，\\(AB=BC\\)，",
+    "\\(\\therefore \\vartriangle AOB≌\\vartriangle BDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)， (3分）",
+    "\\(\\therefore AO=BD=3\\)，\\(BO=CD=2\\)，",
+    "\\(\\therefore OD=5\\)，",
+    "\\(\\therefore C(-5,2)\\)；（4分）",
+    "（2）存在，求解如下：",
+    "设点P的坐标为\\((m,0)\\)，则\\(AP ^ { 2 } =\\left ( { m-0 } \\right ) ^ { 2 } +\\left ( { 0-3 } \\right ) ^ { 2 } =m ^ { 2 } +9\\)，\\(BP=\\left | { m+2 } \\right |\\)",
+    "∵\\(AO=3\\)，\\(BO=2\\)，\\(\\angle AOB=90{}^\\circ\\)",
+    "∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\sqrt[] { 13 }\\)，（5分）",
+    "当\\(AP=AB\\)时，则\\(AP ^ { 2 } =AB ^ { 2 }\\)，得到\\(m ^ { 2 } +9=\\left ( { \\sqrt[] { 13 } } \\right ) ^ { 2 }\\)，解得\\(m=2\\)或\\(m=-2\\)（不合题意，舍去）",
+    "∴此时点P的坐标为\\((2,0)\\)；（6分）",
+    "当\\(BP=AB\\)时，，得到\\(\\left | { m+2 } \\right |=\\sqrt[] { 13 }\\)，解得\\(m=-2+\\sqrt[] { 13 }\\)或\\(m=-2-\\sqrt[] { 13 }\\)",
+    "∴此时点P的坐标为\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；",
+    "综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；（7分）",
+    "（3）\\(AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)，证明如下：",
+    "过点\\(B\\)作\\(PB\\bot BN\\)，使\\(BP=BN\\)，连接\\(PM\\)、\\(PC\\)．",
+    "〔图2〕\\(\\because \\angle MBN=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle PBM=\\angle NBM=45{}^\\circ\\)，",
+    "在\\(\\vartriangle PBM\\)和\\(\\vartriangle NBM\\)中，",
+    "\\(\\because BP=BN\\)，\\(\\angle PBM=\\angle NBM=45{}^\\circ\\)，\\(BM=BM\\)，",
+    "\\(\\therefore \\vartriangle PBM≌\\vartriangle NBM({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （8分）",
+    "\\(\\therefore MP=MN\\)，\\(\\angle BMP=\\angle BMN\\)，",
+    "\\(\\because \\angle ABC=\\angle PBN=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle PBC=\\angle NBA\\)，",
+    "在\\(\\vartriangle PBC\\)和\\(\\vartriangle NBA\\)中，",
+    "\\(\\because BP=BN\\)，\\(\\angle PBC=\\angle NBA\\)，\\(AB=BC\\)，",
+    "\\(\\therefore \\vartriangle PBC≌\\vartriangle NBA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （9分）",
+    "\\(\\therefore PC=AN\\)，\\(\\angle PCB=\\angle NAB=135{}^\\circ\\)，",
+    "\\(\\therefore \\angle PCM=\\angle PCB-45{}^\\circ =90{}^\\circ\\)，",
+    "\\(\\therefore PC ^ { 2 } +CM ^ { 2 } =PM ^ { 2 }\\)（10分）",
+    "\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)（11分）"
+  ],
+  "solution": "（1）\n解：如图：过点\\(C\\)作\\(CD\\bot x\\)轴于\\(D\\)．\n〔图1〕\\((a-3) ^ { 2 } +\\left | { b+2 } \\right |=0\\)，\n\\(\\therefore a=3\\)，\\(b=-2\\)， （1分）\n\\(\\therefore A(0,3)\\)，\\(B(-2,0)\\)，\n\\(\\therefore AO=3\\)，\\(BO=2\\)，（2分）\n∵⊿ABC是等腰直角三角形，\n\\(\\therefore \\angle ABC=90{}^\\circ\\)，\\(AB=BC\\)，\n\\(\\therefore \\angle ABO+\\angle CBD=\\angle BAO+\\angle ABO\\)，\n\\(\\therefore \\angle BAO=\\angle CBD\\)，\n在⊿AOB和\\(\\vartriangle BDC\\)中，\n\\(\\because \\angle AOB=\\angle BDC=90{}^\\circ\\)，\\(\\angle BAO=\\angle CBD\\)，\\(AB=BC\\)，\n\\(\\therefore \\vartriangle AOB≌\\vartriangle BDC({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)， (3分）\n\\(\\therefore AO=BD=3\\)，\\(BO=CD=2\\)，\n\\(\\therefore OD=5\\)，\n\\(\\therefore C(-5,2)\\)；（4分）\n（2）存在，求解如下：\n设点P的坐标为\\((m,0)\\)，则\\(AP ^ { 2 } =\\left ( { m-0 } \\right ) ^ { 2 } +\\left ( { 0-3 } \\right ) ^ { 2 } =m ^ { 2 } +9\\)，\\(BP=\\left | { m+2 } \\right |\\)\n∵\\(AO=3\\)，\\(BO=2\\)，\\(\\angle AOB=90{}^\\circ\\)\n∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\sqrt[] { 13 }\\)，（5分）\n当\\(AP=AB\\)时，则\\(AP ^ { 2 } =AB ^ { 2 }\\)，得到\\(m ^ { 2 } +9=\\left ( { \\sqrt[] { 13 } } \\right ) ^ { 2 }\\)，解得\\(m=2\\)或\\(m=-2\\)（不合题意，舍去）\n∴此时点P的坐标为\\((2,0)\\)；（6分）\n当\\(BP=AB\\)时，，得到\\(\\left | { m+2 } \\right |=\\sqrt[] { 13 }\\)，解得\\(m=-2+\\sqrt[] { 13 }\\)或\\(m=-2-\\sqrt[] { 13 }\\)\n∴此时点P的坐标为\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；\n综上可知，点P的坐标为\\((2,0)\\)或\\((-2+\\sqrt[] { 13 },0)\\)或\\((-2-\\sqrt[] { 13 },0)\\)；（7分）\n（3）\\(AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)，证明如下：\n过点\\(B\\)作\\(PB\\bot BN\\)，使\\(BP=BN\\)，连接\\(PM\\)、\\(PC\\)．\n〔图2〕\\(\\because \\angle MBN=45{}^\\circ\\)，\n\\(\\therefore \\angle PBM=\\angle NBM=45{}^\\circ\\)，\n在\\(\\vartriangle PBM\\)和\\(\\vartriangle NBM\\)中，\n\\(\\because BP=BN\\)，\\(\\angle PBM=\\angle NBM=45{}^\\circ\\)，\\(BM=BM\\)，\n\\(\\therefore \\vartriangle PBM≌\\vartriangle NBM({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （8分）\n\\(\\therefore MP=MN\\)，\\(\\angle BMP=\\angle BMN\\)，\n\\(\\because \\angle ABC=\\angle PBN=90{}^\\circ\\)，\n\\(\\therefore \\angle PBC=\\angle NBA\\)，\n在\\(\\vartriangle PBC\\)和\\(\\vartriangle NBA\\)中，\n\\(\\because BP=BN\\)，\\(\\angle PBC=\\angle NBA\\)，\\(AB=BC\\)，\n\\(\\therefore \\vartriangle PBC≌\\vartriangle NBA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)， （9分）\n\\(\\therefore PC=AN\\)，\\(\\angle PCB=\\angle NAB=135{}^\\circ\\)，\n\\(\\therefore \\angle PCM=\\angle PCB-45{}^\\circ =90{}^\\circ\\)，\n\\(\\therefore PC ^ { 2 } +CM ^ { 2 } =PM ^ { 2 }\\)（10分）\n\\(\\therefore AN ^ { 2 } +CM ^ { 2 } =MN ^ { 2 }\\)（11分）",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "paper_body_blocks": [
+      129,
+      136
+    ],
+    "solution_body_blocks": [
+      299,
+      343
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-6CB464B74F/paper-q20-p07.webp",
+      "assets/SZ-G8-T1-6CB464B74F/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          707.27,
+          583.64,
+          745.45
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          75.91,
+          583.64,
+          316.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-6CB464B74F/solution-q20-p16.webp",
+      "assets/SZ-G8-T1-6CB464B74F/solution-q20-p17.webp",
+      "assets/SZ-G8-T1-6CB464B74F/solution-q20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          325.0,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          768.18
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          113.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G04.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G04.01.03",
+    "E.G09.03.03",
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的式子结构和所求量对应“求满足等腰条件的所有动点位置、将特殊图形条件转为坐标关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

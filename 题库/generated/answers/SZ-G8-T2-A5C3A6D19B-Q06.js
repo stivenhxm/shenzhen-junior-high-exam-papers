@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q06",{"answer":"B（①②）","solution_steps":["随着次数增加，正面频率在0.35附近波动，与均匀纪念币的0.5相差较大，支持①和②。","样本频率有随机波动，5000次的结果并非必然比4000次更接近真实概率，故③错误。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

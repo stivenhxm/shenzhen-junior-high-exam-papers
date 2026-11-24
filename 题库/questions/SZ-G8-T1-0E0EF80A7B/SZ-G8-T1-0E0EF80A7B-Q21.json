@@ -1,0 +1,408 @@
+{
+  "id": "SZ-G8-T1-0E0EF80A7B-Q21",
+  "paper_id": "SZ-G8-T1-0E0EF80A7B",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、由勾股关系求直角三角形边长",
+  "stem": "如图1，直线\\(AB\\)和直线\\(AC\\)相交于A点\\(\\left ( { -4,0 } \\right )\\)，B、C分别在y轴的正半轴和负半轴上，且\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)．\n〔图1〕\n（1）求直线\\(AB\\)的函数表达式；\n（2）在线段\\(AC\\)上找一点P，使得\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)，求P点的坐标；\n（3）如图2，D点为线段\\(AO\\)的中点，若点Q是线段\\(AB\\)（不与点A、B重合）上一点，且使得\\(\\angle DQA=\\angle OQB\\)，请求出Q点坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/320f60c7889038195dcf6eb009c3191925a9d65b664d4c0504f8877c1a0ffdde.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=x+4\\)\n（2）\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)\n（3）\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)",
+  "answer": "（1）\\(y=x+4\\)\n（2）\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)\n（3）\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)",
+  "given_solution": "【分析】(1)根据\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，确定\\(OB=2OC=2\\times 2=4\\)，确定点\\(B(0,4)\\)，设直线\\(AB\\)的函数表达式为\\(y=kx+b\\)，代入A、B两点的坐标计算即可．\n（2）设直线\\(AC\\)的函数表达式为\\(y=mx+n\\)，代入A、C两点的坐标，确定解析式，设\\(P(a,ma+n)\\)，连接\\(BP\\)，根据坐标可计算\\(S_{ \\Delta ACO }\\)，结合\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)确定\\(S_{ \\Delta ABP }\\)，再运用分割法得到\\(S_{ \\Delta ABP } =S_{ \\Delta ABC } -S_{ \\Delta PBC } =\\frac { 1 } { 2 }BC\\centerdot OA-\\frac { 1 } { 2 }BC\\centerdot |P_{ x } |\\)，计算即可．\n（3）在\\(AB\\)上取一点E，使得\\(AQ=QE\\)，连接\\(OE\\)，结合\\(AD=DO\\)得到\\(DQ\\)是中位线，得到\\(DQ\\parallel OE\\)，得到\\(\\angle DQA=\\angle OEQ\\)，结合\\(\\angle DQA=\\angle OQB\\)，可证明\\(\\angle OEQ=\\angle OQB\\)，继而得到\\(OQ=OE\\)，过点Q作\\(QG\\bot OA\\)于点G，利用等腰直角三角形的性质，运用勾股定理，求算\\(QG，AG，OG\\)的长，结合点的位置，写出坐标即可．\n【小问1详解】\n因为\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，\n所以\\(OB=2OC=2\\times 2=4\\)，\n所以点\\(B(0,4)\\)，\n设直线\\(AB\\)的函数表达式为\\(y=kx+b\\)，代入A、B两点的坐标，得：\n\\(\\begin{cases} -4k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=1 \\\\ b=4 \\end{cases}\\)，\n所以直线\\(AB\\)的函数表达式为\\(y=x+4\\)．\n【小问2详解】\n设直线\\(AC\\)的函数表达式为\\(y=mx+n\\)，代入A、C两点的坐标，得：\n\\(\\begin{cases} -4m+n=0 \\\\ n=-2 \\end{cases}\\)，\n解得\\(\\begin{cases} m=-\\frac { 1 } { 2 } \\\\ n=-2 \\end{cases}\\)，\n所以直线\\(AC\\)的函数表达式为\\(y=-\\frac { 1 } { 2 }x-2\\)．\n设\\(P(a,-\\frac { 1 } { 2 }a-2)\\)，连接\\(BP\\)，\n〔图2〕\n因为A点\\(\\left ( { -4,0 } \\right )\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，点\\(B(0,4)\\)，\n所以\\(OA=4，OC=2，BC=4-(-2)=6\\)，\n所以\\(S_{ \\Delta ACO } { \\rm{ = } }\\frac { 1 } { 2 }AO\\centerdot OC=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，\n因为\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)\n所以\\(S_{ \\Delta ABP } { \\rm{ = } }8\\)，\n因为\\(S_{ { \\rm{ \\Delta } }ABP } =S_{ { \\rm{ \\Delta } }ABC } -S_{ { \\rm{ \\Delta } }PBC } =\\frac { 1 } { 2 }BC\\cdot OA-\\frac { 1 } { 2 }BC\\cdot \\left | { x_{ P } } \\right |\\)，\n所以\\(\\frac { 1 } { 2 }\\times 6\\times 4-\\frac { 1 } { 2 }\\times 6\\times （-a)=8\\)，\n解得\\(a=-\\frac { 4 } { 3 }\\)，\n所以\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)．\n【小问3详解】\n如图，因为\\(OB=OA=4\\)，D点为线段\\(AO\\)的中点，\n所以\\(\\angle DAQ=\\angle OBQ=45 ^ { \\circ }\\)，\\(DA=DB=2\\)，\\(AB=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n在\\(AB\\)上取一点E，使得\\(AQ=QE\\)，连接\\(OE\\)，\n因为\\(AD=DO\\)，\n所以\\(DQ\\)是中位线，\n所以\\(DQ\\parallel OE\\)，\n所以\\(\\angle DQA=\\angle OEQ\\)，\\(OE=2DQ\\)，\n因为\\(\\angle DQA=\\angle OQB\\)，\n所以\\(\\angle OEQ=\\angle OQB\\)，\n所以\\(OQ=OE=2DQ\\)，\n过点Q作\\(QG\\bot OA\\)于点G，\n则\\(QG=AG\\)，\n设\\(QG=AG=x\\)，则\\(DG=2-x,OG=4-x\\)，\n根据勾股定理，得\\(DQ ^ { 2 } =(2-x) ^ { 2 } +x ^ { 2 } ,OQ ^ { 2 } =(4-x) ^ { 2 } +x ^ { 2 }\\)，\n所以\\((4-x) ^ { 2 } +x ^ { 2 } =4[(2-x) ^ { 2 } +x ^ { 2 } ]\\)，\n解得\\(x=\\frac { 4 } { 3 }\\)，\n所以\\(QG{ \\rm{ = } }AG=\\frac { 4 } { 3 }，OG{ \\rm{ = } }OA-AG=\\frac { 8 } { 3 }\\)，\n〔图3〕\n因为点Q在第二象限，\n所以\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)．\n【点睛】本题考查了待定系数法求一次函数的解析式，勾股定理，等腰直角三角形的判定和性质，线段与坐标的关系，三角形中位线定理，勾股定理，三角形面积分割法计算，熟练掌握待定系数法，勾股定理，三角形中位线定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/320f60c7889038195dcf6eb009c3191925a9d65b664d4c0504f8877c1a0ffdde.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/47e5592ba45cf92eb545f50ac6663761f8bea179cc5a8b7121f20bd68ef7e031.png",
+    "assets/SZ-G8-T1-0E0EF80A7B/figures/5205ee2e55dd213084c41e33fc4b4f6731f79b430d6000f396080cecc92ae790.png"
+  ],
+  "solution": "【小问1详解】\n因为\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，\n所以\\(OB=2OC=2\\times 2=4\\)，\n所以点\\(B(0,4)\\)，\n设直线\\(AB\\)的函数表达式为\\(y=kx+b\\)，代入A、B两点的坐标，得：\n\\(\\begin{cases} -4k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=1 \\\\ b=4 \\end{cases}\\)，\n所以直线\\(AB\\)的函数表达式为\\(y=x+4\\)．\n【小问2详解】\n设直线\\(AC\\)的函数表达式为\\(y=mx+n\\)，代入A、C两点的坐标，得：\n\\(\\begin{cases} -4m+n=0 \\\\ n=-2 \\end{cases}\\)，\n解得\\(\\begin{cases} m=-\\frac { 1 } { 2 } \\\\ n=-2 \\end{cases}\\)，\n所以直线\\(AC\\)的函数表达式为\\(y=-\\frac { 1 } { 2 }x-2\\)．\n设\\(P(a,-\\frac { 1 } { 2 }a-2)\\)，连接\\(BP\\)，\n〔图2〕\n因为A点\\(\\left ( { -4,0 } \\right )\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，点\\(B(0,4)\\)，\n所以\\(OA=4，OC=2，BC=4-(-2)=6\\)，\n所以\\(S_{ \\Delta ACO } { \\rm{ = } }\\frac { 1 } { 2 }AO\\centerdot OC=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，\n因为\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)\n所以\\(S_{ \\Delta ABP } { \\rm{ = } }8\\)，\n因为\\(S_{ { \\rm{ \\Delta } }ABP } =S_{ { \\rm{ \\Delta } }ABC } -S_{ { \\rm{ \\Delta } }PBC } =\\frac { 1 } { 2 }BC\\cdot OA-\\frac { 1 } { 2 }BC\\cdot \\left | { x_{ P } } \\right |\\)，\n所以\\(\\frac { 1 } { 2 }\\times 6\\times 4-\\frac { 1 } { 2 }\\times 6\\times （-a)=8\\)，\n解得\\(a=-\\frac { 4 } { 3 }\\)，\n所以\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)．\n【小问3详解】\n如图，因为\\(OB=OA=4\\)，D点为线段\\(AO\\)的中点，\n所以\\(\\angle DAQ=\\angle OBQ=45 ^ { \\circ }\\)，\\(DA=DB=2\\)，\\(AB=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n在\\(AB\\)上取一点E，使得\\(AQ=QE\\)，连接\\(OE\\)，\n因为\\(AD=DO\\)，\n所以\\(DQ\\)是中位线，\n所以\\(DQ\\parallel OE\\)，\n所以\\(\\angle DQA=\\angle OEQ\\)，\\(OE=2DQ\\)，\n因为\\(\\angle DQA=\\angle OQB\\)，\n所以\\(\\angle OEQ=\\angle OQB\\)，\n所以\\(OQ=OE=2DQ\\)，\n过点Q作\\(QG\\bot OA\\)于点G，\n则\\(QG=AG\\)，\n设\\(QG=AG=x\\)，则\\(DG=2-x,OG=4-x\\)，\n根据勾股定理，得\\(DQ ^ { 2 } =(2-x) ^ { 2 } +x ^ { 2 } ,OQ ^ { 2 } =(4-x) ^ { 2 } +x ^ { 2 }\\)，\n所以\\((4-x) ^ { 2 } +x ^ { 2 } =4[(2-x) ^ { 2 } +x ^ { 2 } ]\\)，\n解得\\(x=\\frac { 4 } { 3 }\\)，\n所以\\(QG{ \\rm{ = } }AG=\\frac { 4 } { 3 }，OG{ \\rm{ = } }OA-AG=\\frac { 8 } { 3 }\\)，\n〔图3〕\n因为点Q在第二象限，\n所以\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "因为\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，",
+    "所以\\(OB=2OC=2\\times 2=4\\)，",
+    "所以点\\(B(0,4)\\)，",
+    "设直线\\(AB\\)的函数表达式为\\(y=kx+b\\)，代入A、B两点的坐标，得：",
+    "\\(\\begin{cases} -4k+b=0 \\\\ b=4 \\end{cases}\\)，",
+    "解得\\(\\begin{cases} k=1 \\\\ b=4 \\end{cases}\\)，",
+    "所以直线\\(AB\\)的函数表达式为\\(y=x+4\\)．",
+    "【小问2详解】",
+    "设直线\\(AC\\)的函数表达式为\\(y=mx+n\\)，代入A、C两点的坐标，得：",
+    "\\(\\begin{cases} -4m+n=0 \\\\ n=-2 \\end{cases}\\)，",
+    "解得\\(\\begin{cases} m=-\\frac { 1 } { 2 } \\\\ n=-2 \\end{cases}\\)，",
+    "所以直线\\(AC\\)的函数表达式为\\(y=-\\frac { 1 } { 2 }x-2\\)．",
+    "设\\(P(a,-\\frac { 1 } { 2 }a-2)\\)，连接\\(BP\\)，",
+    "〔图2〕",
+    "因为A点\\(\\left ( { -4,0 } \\right )\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，点\\(B(0,4)\\)，",
+    "所以\\(OA=4，OC=2，BC=4-(-2)=6\\)，",
+    "所以\\(S_{ \\Delta ACO } { \\rm{ = } }\\frac { 1 } { 2 }AO\\centerdot OC=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，",
+    "因为\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)",
+    "所以\\(S_{ \\Delta ABP } { \\rm{ = } }8\\)，",
+    "因为\\(S_{ { \\rm{ \\Delta } }ABP } =S_{ { \\rm{ \\Delta } }ABC } -S_{ { \\rm{ \\Delta } }PBC } =\\frac { 1 } { 2 }BC\\cdot OA-\\frac { 1 } { 2 }BC\\cdot \\left | { x_{ P } } \\right |\\)，",
+    "所以\\(\\frac { 1 } { 2 }\\times 6\\times 4-\\frac { 1 } { 2 }\\times 6\\times （-a)=8\\)，",
+    "解得\\(a=-\\frac { 4 } { 3 }\\)，",
+    "所以\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)．",
+    "【小问3详解】",
+    "如图，因为\\(OB=OA=4\\)，D点为线段\\(AO\\)的中点，",
+    "所以\\(\\angle DAQ=\\angle OBQ=45 ^ { \\circ }\\)，\\(DA=DB=2\\)，\\(AB=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+    "在\\(AB\\)上取一点E，使得\\(AQ=QE\\)，连接\\(OE\\)，",
+    "因为\\(AD=DO\\)，",
+    "所以\\(DQ\\)是中位线，",
+    "所以\\(DQ\\parallel OE\\)，",
+    "所以\\(\\angle DQA=\\angle OEQ\\)，\\(OE=2DQ\\)，",
+    "因为\\(\\angle DQA=\\angle OQB\\)，",
+    "所以\\(\\angle OEQ=\\angle OQB\\)，",
+    "所以\\(OQ=OE=2DQ\\)，",
+    "过点Q作\\(QG\\bot OA\\)于点G，",
+    "则\\(QG=AG\\)，",
+    "设\\(QG=AG=x\\)，则\\(DG=2-x,OG=4-x\\)，",
+    "根据勾股定理，得\\(DQ ^ { 2 } =(2-x) ^ { 2 } +x ^ { 2 } ,OQ ^ { 2 } =(4-x) ^ { 2 } +x ^ { 2 }\\)，",
+    "所以\\((4-x) ^ { 2 } +x ^ { 2 } =4[(2-x) ^ { 2 } +x ^ { 2 } ]\\)，",
+    "解得\\(x=\\frac { 4 } { 3 }\\)，",
+    "所以\\(QG{ \\rm{ = } }AG=\\frac { 4 } { 3 }，OG{ \\rm{ = } }OA-AG=\\frac { 8 } { 3 }\\)，",
+    "〔图3〕",
+    "因为点Q在第二象限，",
+    "所以\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，直线\\(AB\\)和直线\\(AC\\)相交于A点\\(\\left ( { -4,0 } \\right )\\)，B、C分别在y轴的正半轴和负半轴上，且\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)．\n〔图1〕",
+      "paper_blocks": [
+        70,
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q21-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(AB\\)的函数表达式；",
+      "stem_text": "求直线\\(AB\\)的函数表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=x+4\\)",
+      "answer": "\\(y=x+4\\)",
+      "given_solution": "因为\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，\n所以\\(OB=2OC=2\\times 2=4\\)，\n所以点\\(B(0,4)\\)，\n设直线\\(AB\\)的函数表达式为\\(y=kx+b\\)，代入A、B两点的坐标，得：\n\\(\\begin{cases} -4k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=1 \\\\ b=4 \\end{cases}\\)，\n所以直线\\(AB\\)的函数表达式为\\(y=x+4\\)．",
+      "solution_steps": [
+        "因为\\(OB=2OC\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，",
+        "所以\\(OB=2OC=2\\times 2=4\\)，",
+        "所以点\\(B(0,4)\\)，",
+        "设直线\\(AB\\)的函数表达式为\\(y=kx+b\\)，代入A、B两点的坐标，得：",
+        "\\(\\begin{cases} -4k+b=0 \\\\ b=4 \\end{cases}\\)，",
+        "解得\\(\\begin{cases} k=1 \\\\ b=4 \\end{cases}\\)，",
+        "所以直线\\(AB\\)的函数表达式为\\(y=x+4\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q21-P02",
+      "label": "（2）",
+      "prompt": "在线段\\(AC\\)上找一点P，使得\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)，求P点的坐标；",
+      "stem_text": "在线段\\(AC\\)上找一点P，使得\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)，求P点的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)",
+      "answer": "\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)",
+      "given_solution": "设直线\\(AC\\)的函数表达式为\\(y=mx+n\\)，代入A、C两点的坐标，得：\n\\(\\begin{cases} -4m+n=0 \\\\ n=-2 \\end{cases}\\)，\n解得\\(\\begin{cases} m=-\\frac { 1 } { 2 } \\\\ n=-2 \\end{cases}\\)，\n所以直线\\(AC\\)的函数表达式为\\(y=-\\frac { 1 } { 2 }x-2\\)．\n设\\(P(a,-\\frac { 1 } { 2 }a-2)\\)，连接\\(BP\\)，\n〔图2〕\n因为A点\\(\\left ( { -4,0 } \\right )\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，点\\(B(0,4)\\)，\n所以\\(OA=4，OC=2，BC=4-(-2)=6\\)，\n所以\\(S_{ \\Delta ACO } { \\rm{ = } }\\frac { 1 } { 2 }AO\\centerdot OC=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，\n因为\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)\n所以\\(S_{ \\Delta ABP } { \\rm{ = } }8\\)，\n因为\\(S_{ { \\rm{ \\Delta } }ABP } =S_{ { \\rm{ \\Delta } }ABC } -S_{ { \\rm{ \\Delta } }PBC } =\\frac { 1 } { 2 }BC\\cdot OA-\\frac { 1 } { 2 }BC\\cdot \\left | { x_{ P } } \\right |\\)，\n所以\\(\\frac { 1 } { 2 }\\times 6\\times 4-\\frac { 1 } { 2 }\\times 6\\times （-a)=8\\)，\n解得\\(a=-\\frac { 4 } { 3 }\\)，\n所以\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)．",
+      "solution_steps": [
+        "设直线\\(AC\\)的函数表达式为\\(y=mx+n\\)，代入A、C两点的坐标，得：",
+        "\\(\\begin{cases} -4m+n=0 \\\\ n=-2 \\end{cases}\\)，",
+        "解得\\(\\begin{cases} m=-\\frac { 1 } { 2 } \\\\ n=-2 \\end{cases}\\)，",
+        "所以直线\\(AC\\)的函数表达式为\\(y=-\\frac { 1 } { 2 }x-2\\)．",
+        "设\\(P(a,-\\frac { 1 } { 2 }a-2)\\)，连接\\(BP\\)，",
+        "〔图2〕",
+        "因为A点\\(\\left ( { -4,0 } \\right )\\)，C点坐标为\\(\\left ( { 0,-2 } \\right )\\)，点\\(B(0,4)\\)，",
+        "所以\\(OA=4，OC=2，BC=4-(-2)=6\\)，",
+        "所以\\(S_{ \\Delta ACO } { \\rm{ = } }\\frac { 1 } { 2 }AO\\centerdot OC=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，",
+        "因为\\(S_{ \\Delta ABP } =2S_{ \\Delta ACO }\\)",
+        "所以\\(S_{ \\Delta ABP } { \\rm{ = } }8\\)，",
+        "因为\\(S_{ { \\rm{ \\Delta } }ABP } =S_{ { \\rm{ \\Delta } }ABC } -S_{ { \\rm{ \\Delta } }PBC } =\\frac { 1 } { 2 }BC\\cdot OA-\\frac { 1 } { 2 }BC\\cdot \\left | { x_{ P } } \\right |\\)，",
+        "所以\\(\\frac { 1 } { 2 }\\times 6\\times 4-\\frac { 1 } { 2 }\\times 6\\times （-a)=8\\)，",
+        "解得\\(a=-\\frac { 4 } { 3 }\\)，",
+        "所以\\(P(-\\frac { 4 } { 3 },-\\frac { 4 } { 3 })\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“坐标”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-0E0EF80A7B-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图2，D点为线段\\(AO\\)的中点，若点Q是线段\\(AB\\)（不与点A、B重合）上一点，且使得\\(\\angle DQA=\\angle OQB\\)，请求出Q点坐标．",
+      "stem_text": "如图2，D点为线段\\(AO\\)的中点，若点Q是线段\\(AB\\)（不与点A、B重合）上一点，且使得\\(\\angle DQA=\\angle OQB\\)，请求出Q点坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)",
+      "answer": "\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)",
+      "given_solution": "如图，因为\\(OB=OA=4\\)，D点为线段\\(AO\\)的中点，\n所以\\(\\angle DAQ=\\angle OBQ=45 ^ { \\circ }\\)，\\(DA=DB=2\\)，\\(AB=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n在\\(AB\\)上取一点E，使得\\(AQ=QE\\)，连接\\(OE\\)，\n因为\\(AD=DO\\)，\n所以\\(DQ\\)是中位线，\n所以\\(DQ\\parallel OE\\)，\n所以\\(\\angle DQA=\\angle OEQ\\)，\\(OE=2DQ\\)，\n因为\\(\\angle DQA=\\angle OQB\\)，\n所以\\(\\angle OEQ=\\angle OQB\\)，\n所以\\(OQ=OE=2DQ\\)，\n过点Q作\\(QG\\bot OA\\)于点G，\n则\\(QG=AG\\)，\n设\\(QG=AG=x\\)，则\\(DG=2-x,OG=4-x\\)，\n根据勾股定理，得\\(DQ ^ { 2 } =(2-x) ^ { 2 } +x ^ { 2 } ,OQ ^ { 2 } =(4-x) ^ { 2 } +x ^ { 2 }\\)，\n所以\\((4-x) ^ { 2 } +x ^ { 2 } =4[(2-x) ^ { 2 } +x ^ { 2 } ]\\)，\n解得\\(x=\\frac { 4 } { 3 }\\)，\n所以\\(QG{ \\rm{ = } }AG=\\frac { 4 } { 3 }，OG{ \\rm{ = } }OA-AG=\\frac { 8 } { 3 }\\)，\n〔图3〕\n因为点Q在第二象限，\n所以\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)．",
+      "solution_steps": [
+        "如图，因为\\(OB=OA=4\\)，D点为线段\\(AO\\)的中点，",
+        "所以\\(\\angle DAQ=\\angle OBQ=45 ^ { \\circ }\\)，\\(DA=DB=2\\)，\\(AB=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+        "在\\(AB\\)上取一点E，使得\\(AQ=QE\\)，连接\\(OE\\)，",
+        "因为\\(AD=DO\\)，",
+        "所以\\(DQ\\)是中位线，",
+        "所以\\(DQ\\parallel OE\\)，",
+        "所以\\(\\angle DQA=\\angle OEQ\\)，\\(OE=2DQ\\)，",
+        "因为\\(\\angle DQA=\\angle OQB\\)，",
+        "所以\\(\\angle OEQ=\\angle OQB\\)，",
+        "所以\\(OQ=OE=2DQ\\)，",
+        "过点Q作\\(QG\\bot OA\\)于点G，",
+        "则\\(QG=AG\\)，",
+        "设\\(QG=AG=x\\)，则\\(DG=2-x,OG=4-x\\)，",
+        "根据勾股定理，得\\(DQ ^ { 2 } =(2-x) ^ { 2 } +x ^ { 2 } ,OQ ^ { 2 } =(4-x) ^ { 2 } +x ^ { 2 }\\)，",
+        "所以\\((4-x) ^ { 2 } +x ^ { 2 } =4[(2-x) ^ { 2 } +x ^ { 2 } ]\\)，",
+        "解得\\(x=\\frac { 4 } { 3 }\\)，",
+        "所以\\(QG{ \\rm{ = } }AG=\\frac { 4 } { 3 }，OG{ \\rm{ = } }OA-AG=\\frac { 8 } { 3 }\\)，",
+        "〔图3〕",
+        "因为点Q在第二象限，",
+        "所以\\(Q(-\\frac { 8 } { 3 },\\frac { 4 } { 3 })\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          74
+        ],
+        "solution_block_ids": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      74
+    ],
+    "solution_body_blocks": [
+      363,
+      420
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-0E0EF80A7B/paper-q21-p05.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          551.82,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          134.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q21-p18.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q21-p19.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q21-p20.webp",
+      "assets/SZ-G8-T1-0E0EF80A7B/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          292.27,
+          583.64,
+          738.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          735.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          768.18
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          127.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G09.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 题目涉及“坐标”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

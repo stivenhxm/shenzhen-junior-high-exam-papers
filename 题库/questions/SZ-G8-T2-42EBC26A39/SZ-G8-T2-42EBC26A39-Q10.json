@@ -1,0 +1,142 @@
+{
+  "id": "SZ-G8-T2-42EBC26A39-Q10",
+  "paper_id": "SZ-G8-T2-42EBC26A39",
+  "number": 10,
+  "type": "选择题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，正方形ABCD的边长为4，点E在边CD上，且CE=1，连接AE，点F在边AD上，连接BF，把△ABF沿BF翻折，点A恰好落在AE上的点G处，下列结论：①AE=BF；②AD=2DF；③\\(S_{ 四边形DFHE }\\) =6：④GE=0.2，其中正确的有（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "4个"
+    },
+    {
+      "label": "B",
+      "text": "3个"
+    },
+    {
+      "label": "C",
+      "text": "2个"
+    },
+    {
+      "label": "D",
+      "text": "1个"
+    }
+  ],
+  "figures": [
+    "assets/figures/0f/0ffa83771d14eeee4117299b9e3243e8659d414183fd92d14d5d550e59befc0e.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】先根据正方形的性质和翻折的性质证明△ABF\\(≌\\)△DAE，即可判断①和②，再根据面积法求出AH长，再根据勾股定理求出FH，即可判断③，根据AE和AG的长度，求出GE的长，即可判断④．\n【详解】解：∵四边形ABCD为正方形\n∴AB=AD=CD=4，∠BAD=∠D=90º\n∵CE=1\n∴DE=3\n由折叠的性质可知，△ABF\\(≌\\)△GBF，BF垂直平分AG\n∴BF⊥AE，AH=GH\n∴∠BAH+∠ABH=\\(90{}^\\circ\\)\n∵∠FAH+∠BAH=\\(90{}^\\circ\\)\n∴∠ABH=∠FAH\n在△ABF和△DAE中\n\\(\\begin{cases} \\angle D{ \\rm{ = } }\\angle FAB \\\\ AD{ \\rm{ = } }AB \\\\ \\angle DAE{ \\rm{ = } }\\angle ABF \\end{cases}\\)\n∴△ABF\\(≌\\)△DAE（ASA）\n∴AF=DE=3，BF=AE\n故①正确；\n∵DF=AD-AF=4-3=1\n∴AD=4DF\n故②错误；\n在Rt△ABF中，BF=\\(\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n∴\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AB\\centerdot AF=\\frac { 1 } { 2 }\\times 4\\times 3=6\\)\n∵\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AB\\centerdot AF=\\frac { 1 } { 2 }BF\\centerdot AH\\)\n∴4×3=5AH\n∴AH=\\(\\frac { 12 } { 5 }\\)\n∴AG=2AH=\\(\\frac { 24 } { 5 }\\)，FH=\\(\\sqrt[] { AF ^ { 2 } -AH ^ { 2 } }\\)=\\(\\frac { { \\rm{ 9 } } } { { \\rm{ 5 } } }\\)\n∴\\(S_{ 四边形DFHE } =S_{ \\vartriangle ADE } -S_{ \\vartriangle AFH } =\\frac { 1 } { 2 }\\times 4\\times 3-\\frac { 1 } { 2 }\\times \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 }=\\frac { 96 } { 25 }\\)\n③错误；\n∵AE=BF=5\n∴GE=AE=AG=5-\\(\\frac { 24 } { 5 }\\)=\\({ \\rm{ 0 } }{ \\rm{ . } }{ \\rm{ 2 } }\\)\n④正确；\n综上，正确结论是①④\n故选：C．\n【点睛】本题考查了在正方形背景下的全等和翻折，掌握正方形和翻折的性质是解题关键，翻折总结：翻折得全等、得轴对称．",
+  "given_solution_figures": [
+    "assets/figures/1e/1e3cd654a3a8da23fe3f3783a1b53de71c11e784f1075a9ecd692c84620a2893.png"
+  ],
+  "solution": "解：∵四边形ABCD为正方形\n∴AB=AD=CD=4，∠BAD=∠D=90º\n∵CE=1\n∴DE=3\n由折叠的性质可知，△ABF\\(≌\\)△GBF，BF垂直平分AG\n∴BF⊥AE，AH=GH\n∴∠BAH+∠ABH=\\(90{}^\\circ\\)\n∵∠FAH+∠BAH=\\(90{}^\\circ\\)\n∴∠ABH=∠FAH\n在△ABF和△DAE中\n\\(\\begin{cases} \\angle D{ \\rm{ = } }\\angle FAB \\\\ AD{ \\rm{ = } }AB \\\\ \\angle DAE{ \\rm{ = } }\\angle ABF \\end{cases}\\)\n∴△ABF\\(≌\\)△DAE（ASA）\n∴AF=DE=3，BF=AE\n故①正确；\n∵DF=AD-AF=4-3=1\n∴AD=4DF\n故②错误；\n在Rt△ABF中，BF=\\(\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n∴\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AB\\centerdot AF=\\frac { 1 } { 2 }\\times 4\\times 3=6\\)\n∵\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AB\\centerdot AF=\\frac { 1 } { 2 }BF\\centerdot AH\\)\n∴4×3=5AH\n∴AH=\\(\\frac { 12 } { 5 }\\)\n∴AG=2AH=\\(\\frac { 24 } { 5 }\\)，FH=\\(\\sqrt[] { AF ^ { 2 } -AH ^ { 2 } }\\)=\\(\\frac { { \\rm{ 9 } } } { { \\rm{ 5 } } }\\)\n∴\\(S_{ 四边形DFHE } =S_{ \\vartriangle ADE } -S_{ \\vartriangle AFH } =\\frac { 1 } { 2 }\\times 4\\times 3-\\frac { 1 } { 2 }\\times \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 }=\\frac { 96 } { 25 }\\)\n③错误；\n∵AE=BF=5\n∴GE=AE=AG=5-\\(\\frac { 24 } { 5 }\\)=\\({ \\rm{ 0 } }{ \\rm{ . } }{ \\rm{ 2 } }\\)\n④正确；\n综上，正确结论是①④\n故选：C．",
+  "solution_steps": [
+    "解：∵四边形ABCD为正方形",
+    "∴AB=AD=CD=4，∠BAD=∠D=90º",
+    "∵CE=1",
+    "∴DE=3",
+    "由折叠的性质可知，△ABF\\(≌\\)△GBF，BF垂直平分AG",
+    "∴BF⊥AE，AH=GH",
+    "∴∠BAH+∠ABH=\\(90{}^\\circ\\)",
+    "∵∠FAH+∠BAH=\\(90{}^\\circ\\)",
+    "∴∠ABH=∠FAH",
+    "在△ABF和△DAE中",
+    "\\(\\begin{cases} \\angle D{ \\rm{ = } }\\angle FAB \\\\ AD{ \\rm{ = } }AB \\\\ \\angle DAE{ \\rm{ = } }\\angle ABF \\end{cases}\\)",
+    "∴△ABF\\(≌\\)△DAE（ASA）",
+    "∴AF=DE=3，BF=AE",
+    "故①正确；",
+    "∵DF=AD-AF=4-3=1",
+    "∴AD=4DF",
+    "故②错误；",
+    "在Rt△ABF中，BF=\\(\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+    "∴\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AB\\centerdot AF=\\frac { 1 } { 2 }\\times 4\\times 3=6\\)",
+    "∵\\(S_{ \\vartriangle ABF } =\\frac { 1 } { 2 }AB\\centerdot AF=\\frac { 1 } { 2 }BF\\centerdot AH\\)",
+    "∴4×3=5AH",
+    "∴AH=\\(\\frac { 12 } { 5 }\\)",
+    "∴AG=2AH=\\(\\frac { 24 } { 5 }\\)，FH=\\(\\sqrt[] { AF ^ { 2 } -AH ^ { 2 } }\\)=\\(\\frac { { \\rm{ 9 } } } { { \\rm{ 5 } } }\\)",
+    "∴\\(S_{ 四边形DFHE } =S_{ \\vartriangle ADE } -S_{ \\vartriangle AFH } =\\frac { 1 } { 2 }\\times 4\\times 3-\\frac { 1 } { 2 }\\times \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 }=\\frac { 96 } { 25 }\\)",
+    "③错误；",
+    "∵AE=BF=5",
+    "∴GE=AE=AG=5-\\(\\frac { 24 } { 5 }\\)=\\({ \\rm{ 0 } }{ \\rm{ . } }{ \\rm{ 2 } }\\)",
+    "④正确；",
+    "综上，正确结论是①④",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      30,
+      32
+    ],
+    "solution_body_blocks": [
+      113,
+      149
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-42EBC26A39/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          292.27,
+          583.64,
+          509.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-42EBC26A39/solution-q10-p06.webp",
+      "assets/SZ-G8-T2-42EBC26A39/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          198.64,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          447.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

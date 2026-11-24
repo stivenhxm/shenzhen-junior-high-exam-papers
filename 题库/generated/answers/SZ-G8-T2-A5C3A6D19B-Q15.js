@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q15",{"answer":"3","solution_steps":["把 \\(x=-4\\) 代入 \\(2x+a=x-1\\)，得 \\(-8+a=-5\\)，解得 \\(a=3\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

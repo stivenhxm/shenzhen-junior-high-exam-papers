@@ -1,0 +1,425 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G03.02.02",
+    "E.G09.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-AE6E402BDA-Q22",
+  "number": 22,
+  "paper_id": "SZ-G8-T2-AE6E402BDA",
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "如图1，直线\\(y=-\\frac { 4 } { 3 }x+4\\)与\\(x\\)、\\(y\\)轴分别交于\\(A\\)，以\\(AB\\)为直角边在第一象限内作等腰直角△ABC，\\(\\angle BAC=90{}^\\circ\\)\n〔图1〕\n（1）\\(C\\)点坐标为______；\n（2）如图2，点\\(E\\)为线段\\(OB\\)上的一个动点（\\(E\\)不与\\(B\\)、\\(O\\)重合），连接\\(AE\\)，以\\(AE\\)为直角边作等腰直角△AEF，连接\\(CF\\)交\\(x\\)轴于\\(G\\)，求证：\\(G\\)是\\(FC\\)的中点；\n（3）如图3，将\\(\\vartriangle ABC\\)沿着\\(x\\)轴向左平移得到\\(\\vartriangle A'B'C'\\)，直线\\(A'B'\\)与\\(y\\)轴交于点\\(M\\)，若以\\(A,B,M\\)为顶点的三角形是等腰三角形，请求出点\\(A'\\)的坐标．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，直线\\(y=-\\frac { 4 } { 3 }x+4\\)与\\(x\\)、\\(y\\)轴分别交于\\(A\\)，以\\(AB\\)为直角边在第一象限内作等腰直角△ABC，\\(\\angle BAC=90{}^\\circ\\)\n〔图1〕",
+      "paper_blocks": [
+        58,
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-AE6E402BDA-Q22-P01",
+      "label": "（1）",
+      "prompt": "\\(C\\)点坐标为______；",
+      "stem_text": "\\(C\\)点坐标为______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "（7，3）；",
+      "answer": "（7，3）；",
+      "given_solution": "过点C作CD⊥x轴，交x轴于点D，\n〔图4〕\n∵y＝﹣〔图5〕x+4与x、y轴分别交于A，B两点，\n当x＝0时，y＝4，\n当y＝0时，﹣〔图6〕+4＝0，解得：x＝3，\n∴OA＝3，OB＝4，\n∵∠BAC＝90°，CD⊥x轴，\n∴∠AOB＝∠CDA＝90°，∠BAO+∠CAD＝90°，∠ABO+∠BAO＝90°，\n∴∠CAD＝∠ABO，\n又∵AC＝AB，\n∴△AOB≌△CDA（AAS），\n∴CD＝OA＝3，AD＝OB＝4，\n∴OD＝OA+AD＝7，\n∴C点坐标为（7，3），\n故答案为：（7，3）；",
+      "solution_steps": [
+        "过点C作CD⊥x轴，交x轴于点D，",
+        "〔图4〕",
+        "∵y＝﹣〔图5〕x+4与x、y轴分别交于A，B两点，",
+        "当x＝0时，y＝4，",
+        "当y＝0时，﹣〔图6〕+4＝0，解得：x＝3，",
+        "∴OA＝3，OB＝4，",
+        "∵∠BAC＝90°，CD⊥x轴，",
+        "∴∠AOB＝∠CDA＝90°，∠BAO+∠CAD＝90°，∠ABO+∠BAO＝90°，",
+        "∴∠CAD＝∠ABO，",
+        "又∵AC＝AB，",
+        "∴△AOB≌△CDA（AAS），",
+        "∴CD＝OA＝3，AD＝OB＝4，",
+        "∴OD＝OA+AD＝7，",
+        "∴C点坐标为（7，3），",
+        "故答案为：（7，3）；"
+      ],
+      "solution_figure_ids": [
+        4,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60
+        ],
+        "solution_block_ids": [
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-AE6E402BDA-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，点\\(E\\)为线段\\(OB\\)上的一个动点（\\(E\\)不与\\(B\\)、\\(O\\)重合），连接\\(AE\\)，以\\(AE\\)为直角边作等腰直角△AEF，连接\\(CF\\)交\\(x\\)轴于\\(G\\)，求证：\\(G\\)是\\(FC\\)的中点；",
+      "stem_text": "如图2，点\\(E\\)为线段\\(OB\\)上的一个动点（\\(E\\)不与\\(B\\)、\\(O\\)重合），连接\\(AE\\)，以\\(AE\\)为直角边作等腰直角△AEF，连接\\(CF\\)交\\(x\\)轴于\\(G\\)，求证：\\(G\\)是\\(FC\\)的中点；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "在x轴上截取AH＝BE，连接CH，\n〔图7〕\n在等腰直角△AEF中，AB＝AC，∠BAC＝90°，\n由（1）可得∠CAH＝∠ABE，\n∴△CAH≌△ABE（SAS），\n∴CH＝AE，∠BEA＝∠CHA，\n在等腰直角△AEF中，AE＝AF，∠EAF＝90°，\n∴∠EAO+∠FAO＝90°，\n又∵∠EAO+∠AEO＝90°，\n∴∠AEO＝∠FAO，\n∴∠AEB＝∠FAG，\n∴∠FAG＝∠CHG，\n又∵CH＝AE＝AF，∠CGH＝∠FGA，\n∴△FAG≌△CHG（ASA），\n∴CG＝FG，\n即G是FC的中点；",
+      "solution_steps": [
+        "在x轴上截取AH＝BE，连接CH，",
+        "〔图7〕",
+        "在等腰直角△AEF中，AB＝AC，∠BAC＝90°，",
+        "由（1）可得∠CAH＝∠ABE，",
+        "∴△CAH≌△ABE（SAS），",
+        "∴CH＝AE，∠BEA＝∠CHA，",
+        "在等腰直角△AEF中，AE＝AF，∠EAF＝90°，",
+        "∴∠EAO+∠FAO＝90°，",
+        "又∵∠EAO+∠AEO＝90°，",
+        "∴∠AEO＝∠FAO，",
+        "∴∠AEB＝∠FAG，",
+        "∴∠FAG＝∠CHG，",
+        "又∵CH＝AE＝AF，∠CGH＝∠FGA，",
+        "∴△FAG≌△CHG（ASA），",
+        "∴CG＝FG，",
+        "即G是FC的中点；"
+      ],
+      "solution_figure_ids": [
+        7
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          61
+        ],
+        "solution_block_ids": [
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-AE6E402BDA-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，将\\(\\vartriangle ABC\\)沿着\\(x\\)轴向左平移得到\\(\\vartriangle A'B'C'\\)，直线\\(A'B'\\)与\\(y\\)轴交于点\\(M\\)，若以\\(A,B,M\\)为顶点的三角形是等腰三角形，请求出点\\(A'\\)的坐标．",
+      "stem_text": "如图3，将\\(\\vartriangle ABC\\)沿着\\(x\\)轴向左平移得到\\(\\vartriangle A'B'C'\\)，直线\\(A'B'\\)与\\(y\\)轴交于点\\(M\\)，若以\\(A,B,M\\)为顶点的三角形是等腰三角形，请求出点\\(A'\\)的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "A′点坐标为（〔图1〕，0）或（﹣3，0）或（﹣〔图2〕，0）．",
+      "answer": "A′点坐标为（〔图1〕，0）或（﹣3，0）或（﹣〔图2〕，0）．",
+      "given_solution": "由平移的性质，设直线A′B′的解析式为y＝﹣〔图5〕x+m，\n当x＝0时，y＝m，\n当y＝0时，x＝〔图8〕m，\n∴M点坐标为（0，m），A′点坐标为（〔图8〕m，0），\n又∵OA＝3，OB＝4，\n∴AB＝5，BM＝4﹣m，\n当以A、B、M为顶点的三角形是等腰三角形时，\n①当AM＝BM时，3\\({}^{2}\\)+m\\({}^{2}\\)＝（4﹣m）\\({}^{2}\\)，解得：m＝〔图9〕，\n∴此时A′点坐标为（〔图10〕，0）；\n②当AM＝AB时，3\\({}^{2}\\)+m\\({}^{2}\\)＝5\\({}^{2}\\)，解得：m＝4（与B重合，舍去），m＝﹣4，\n此时A′点坐标为（﹣3，0）；\n③当AB＝BM时，4﹣m＝5，解得：m＝﹣1，\n此时A′点坐标为（﹣〔图8〕，0），\n综上，A′点坐标为（〔图10〕，0）或（﹣3，0）或（﹣〔图8〕，0）．",
+      "solution_steps": [
+        "由平移的性质，设直线A′B′的解析式为y＝﹣〔图5〕x+m，",
+        "当x＝0时，y＝m，",
+        "当y＝0时，x＝〔图8〕m，",
+        "∴M点坐标为（0，m），A′点坐标为（〔图8〕m，0），",
+        "又∵OA＝3，OB＝4，",
+        "∴AB＝5，BM＝4﹣m，",
+        "当以A、B、M为顶点的三角形是等腰三角形时，",
+        "①当AM＝BM时，3\\({}^{2}\\)+m\\({}^{2}\\)＝（4﹣m）\\({}^{2}\\)，解得：m＝〔图9〕，",
+        "∴此时A′点坐标为（〔图10〕，0）；",
+        "②当AM＝AB时，3\\({}^{2}\\)+m\\({}^{2}\\)＝5\\({}^{2}\\)，解得：m＝4（与B重合，舍去），m＝﹣4，",
+        "此时A′点坐标为（﹣3，0）；",
+        "③当AB＝BM时，4﹣m＝5，解得：m＝﹣1，",
+        "此时A′点坐标为（﹣〔图8〕，0），",
+        "综上，A′点坐标为（〔图10〕，0）或（﹣3，0）或（﹣〔图8〕，0）．"
+      ],
+      "solution_figure_ids": [
+        1,
+        2,
+        5,
+        8,
+        9,
+        10
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          62
+        ],
+        "solution_block_ids": [
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/d6/d62197c63ef26a5c546a8d938fda0088db2831270f1bfe76cfbdd22bcceab270.png"
+  ],
+  "tables": [],
+  "answer": "（1）（7，3）；（2）见解析；（3）A′点坐标为（〔图1〕，0）或（﹣3，0）或（﹣〔图2〕，0）．",
+  "given_answer": "（1）（7，3）；（2）见解析；（3）A′点坐标为（〔图1〕，0）或（﹣3，0）或（﹣〔图2〕，0）．",
+  "given_solution": "【分析】（1）过点C作CD⊥x轴，交x轴于点D，利用AAS定理证明△AOB≌△CDA，然后结合一次函数性质求得C点坐标；\n（2）在x轴上截取AH＝BE，连接CH，利用SAS定理证明△CAH≌△ABE，ASA定理证明△FAG≌△CHG，从而求解；\n（3）由平移的性质，设直线A′B′的解析式为y＝﹣〔图3〕x+m，由一次函数的性质求得M点坐标为（0，m），A′点坐标为（〔图2〕m，0），然后分AM＝BM，AM＝AB，AB＝BM三种情况列方程求解．\n【解答】解：（1）过点C作CD⊥x轴，交x轴于点D，\n〔图4〕\n∵y＝﹣〔图5〕x+4与x、y轴分别交于A，B两点，\n当x＝0时，y＝4，\n当y＝0时，﹣〔图6〕+4＝0，解得：x＝3，\n∴OA＝3，OB＝4，\n∵∠BAC＝90°，CD⊥x轴，\n∴∠AOB＝∠CDA＝90°，∠BAO+∠CAD＝90°，∠ABO+∠BAO＝90°，\n∴∠CAD＝∠ABO，\n又∵AC＝AB，\n∴△AOB≌△CDA（AAS），\n∴CD＝OA＝3，AD＝OB＝4，\n∴OD＝OA+AD＝7，\n∴C点坐标为（7，3），\n故答案为：（7，3）；\n（2）在x轴上截取AH＝BE，连接CH，\n〔图7〕\n在等腰直角△AEF中，AB＝AC，∠BAC＝90°，\n由（1）可得∠CAH＝∠ABE，\n∴△CAH≌△ABE（SAS），\n∴CH＝AE，∠BEA＝∠CHA，\n在等腰直角△AEF中，AE＝AF，∠EAF＝90°，\n∴∠EAO+∠FAO＝90°，\n又∵∠EAO+∠AEO＝90°，\n∴∠AEO＝∠FAO，\n∴∠AEB＝∠FAG，\n∴∠FAG＝∠CHG，\n又∵CH＝AE＝AF，∠CGH＝∠FGA，\n∴△FAG≌△CHG（ASA），\n∴CG＝FG，\n即G是FC的中点；\n（3）由平移的性质，设直线A′B′的解析式为y＝﹣〔图5〕x+m，\n当x＝0时，y＝m，\n当y＝0时，x＝〔图8〕m，\n∴M点坐标为（0，m），A′点坐标为（〔图8〕m，0），\n又∵OA＝3，OB＝4，\n∴AB＝5，BM＝4﹣m，\n当以A、B、M为顶点的三角形是等腰三角形时，\n①当AM＝BM时，3\\({}^{2}\\)+m\\({}^{2}\\)＝（4﹣m）\\({}^{2}\\)，解得：m＝〔图9〕，\n∴此时A′点坐标为（〔图10〕，0）；\n②当AM＝AB时，3\\({}^{2}\\)+m\\({}^{2}\\)＝5\\({}^{2}\\)，解得：m＝4（与B重合，舍去），m＝﹣4，\n此时A′点坐标为（﹣3，0）；\n③当AB＝BM时，4﹣m＝5，解得：m＝﹣1，\n此时A′点坐标为（﹣〔图8〕，0），\n综上，A′点坐标为（〔图10〕，0）或（﹣3，0）或（﹣〔图8〕，0）．",
+  "given_solution_figures": [
+    "assets/figures/d5/d5b13eb9af495d4b81780f221fed1e91980d1aeb58c92f6c8d88c174b8d5c7bd.png",
+    "assets/figures/86/867a6650262727a90a7bc63e7831a0af1a141a9e684cf9336c314a2fa975e72d.png",
+    "assets/figures/f3/f338a6c6fd49ee5ff3abfa8e958433e8ecefbf7bc651400baef39594b36ee8d2.png",
+    "assets/figures/1d/1d1920425317ab6e17c8c6b7073a863f307ad8a6ae957be4124ffef97f3f6402.png",
+    "assets/figures/77/77bc5e63dc4817253fac1400d98ffb86d3d0724681f61fd2c69763c7f920e390.png",
+    "assets/figures/53/53231f8a8730398626b9b08b60c062bf446551f8390f1d5f4ddf90ff43c97faf.png",
+    "assets/figures/c5/c5e394ff0733896d794a716ccd7bdfe6d737f25760ba202471688781b697e574.png",
+    "assets/figures/c7/c7d1497af613a4718db3ad19f2303a4d2f5e1a1758654d79bfc88170e981d703.png",
+    "assets/figures/b8/b8cd9f245d395f15f7998c8da8ba260925a9b67f1ddd517dd1fc5689eab629c8.png",
+    "assets/figures/d3/d381d9663ea6b79d194a2e37cfeeb2e01f4bade3a8cf06284a7caf399ade8c09.png"
+  ],
+  "solution_steps": [
+    "解：（1）过点C作CD⊥x轴，交x轴于点D，",
+    "〔图4〕",
+    "∵y＝﹣〔图5〕x+4与x、y轴分别交于A，B两点，",
+    "当x＝0时，y＝4，",
+    "当y＝0时，﹣〔图6〕+4＝0，解得：x＝3，",
+    "∴OA＝3，OB＝4，",
+    "∵∠BAC＝90°，CD⊥x轴，",
+    "∴∠AOB＝∠CDA＝90°，∠BAO+∠CAD＝90°，∠ABO+∠BAO＝90°，",
+    "∴∠CAD＝∠ABO，",
+    "又∵AC＝AB，",
+    "∴△AOB≌△CDA（AAS），",
+    "∴CD＝OA＝3，AD＝OB＝4，",
+    "∴OD＝OA+AD＝7，",
+    "∴C点坐标为（7，3），",
+    "故答案为：（7，3）；",
+    "（2）在x轴上截取AH＝BE，连接CH，",
+    "〔图7〕",
+    "在等腰直角△AEF中，AB＝AC，∠BAC＝90°，",
+    "由（1）可得∠CAH＝∠ABE，",
+    "∴△CAH≌△ABE（SAS），",
+    "∴CH＝AE，∠BEA＝∠CHA，",
+    "在等腰直角△AEF中，AE＝AF，∠EAF＝90°，",
+    "∴∠EAO+∠FAO＝90°，",
+    "又∵∠EAO+∠AEO＝90°，",
+    "∴∠AEO＝∠FAO，",
+    "∴∠AEB＝∠FAG，",
+    "∴∠FAG＝∠CHG，",
+    "又∵CH＝AE＝AF，∠CGH＝∠FGA，",
+    "∴△FAG≌△CHG（ASA），",
+    "∴CG＝FG，",
+    "即G是FC的中点；",
+    "（3）由平移的性质，设直线A′B′的解析式为y＝﹣〔图5〕x+m，",
+    "当x＝0时，y＝m，",
+    "当y＝0时，x＝〔图8〕m，",
+    "∴M点坐标为（0，m），A′点坐标为（〔图8〕m，0），",
+    "又∵OA＝3，OB＝4，",
+    "∴AB＝5，BM＝4﹣m，",
+    "当以A、B、M为顶点的三角形是等腰三角形时，",
+    "①当AM＝BM时，3\\({}^{2}\\)+m\\({}^{2}\\)＝（4﹣m）\\({}^{2}\\)，解得：m＝〔图9〕，",
+    "∴此时A′点坐标为（〔图10〕，0）；",
+    "②当AM＝AB时，3\\({}^{2}\\)+m\\({}^{2}\\)＝5\\({}^{2}\\)，解得：m＝4（与B重合，舍去），m＝﹣4，",
+    "此时A′点坐标为（﹣3，0）；",
+    "③当AB＝BM时，4﹣m＝5，解得：m＝﹣1，",
+    "此时A′点坐标为（﹣〔图8〕，0），",
+    "综上，A′点坐标为（〔图10〕，0）或（﹣3，0）或（﹣〔图8〕，0）．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "解：（1）过点C作CD⊥x轴，交x轴于点D，\n〔图4〕\n∵y＝﹣〔图5〕x+4与x、y轴分别交于A，B两点，\n当x＝0时，y＝4，\n当y＝0时，﹣〔图6〕+4＝0，解得：x＝3，\n∴OA＝3，OB＝4，\n∵∠BAC＝90°，CD⊥x轴，\n∴∠AOB＝∠CDA＝90°，∠BAO+∠CAD＝90°，∠ABO+∠BAO＝90°，\n∴∠CAD＝∠ABO，\n又∵AC＝AB，\n∴△AOB≌△CDA（AAS），\n∴CD＝OA＝3，AD＝OB＝4，\n∴OD＝OA+AD＝7，\n∴C点坐标为（7，3），\n故答案为：（7，3）；\n（2）在x轴上截取AH＝BE，连接CH，\n〔图7〕\n在等腰直角△AEF中，AB＝AC，∠BAC＝90°，\n由（1）可得∠CAH＝∠ABE，\n∴△CAH≌△ABE（SAS），\n∴CH＝AE，∠BEA＝∠CHA，\n在等腰直角△AEF中，AE＝AF，∠EAF＝90°，\n∴∠EAO+∠FAO＝90°，\n又∵∠EAO+∠AEO＝90°，\n∴∠AEO＝∠FAO，\n∴∠AEB＝∠FAG，\n∴∠FAG＝∠CHG，\n又∵CH＝AE＝AF，∠CGH＝∠FGA，\n∴△FAG≌△CHG（ASA），\n∴CG＝FG，\n即G是FC的中点；\n（3）由平移的性质，设直线A′B′的解析式为y＝﹣〔图5〕x+m，\n当x＝0时，y＝m，\n当y＝0时，x＝〔图8〕m，\n∴M点坐标为（0，m），A′点坐标为（〔图8〕m，0），\n又∵OA＝3，OB＝4，\n∴AB＝5，BM＝4﹣m，\n当以A、B、M为顶点的三角形是等腰三角形时，\n①当AM＝BM时，3\\({}^{2}\\)+m\\({}^{2}\\)＝（4﹣m）\\({}^{2}\\)，解得：m＝〔图9〕，\n∴此时A′点坐标为（〔图10〕，0）；\n②当AM＝AB时，3\\({}^{2}\\)+m\\({}^{2}\\)＝5\\({}^{2}\\)，解得：m＝4（与B重合，舍去），m＝﹣4，\n此时A′点坐标为（﹣3，0）；\n③当AB＝BM时，4﹣m＝5，解得：m＝﹣1，\n此时A′点坐标为（﹣〔图8〕，0），\n综上，A′点坐标为（〔图10〕，0）或（﹣3，0）或（﹣〔图8〕，0）．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "source": {
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-AE6E402BDA/single/q22-p05.webp",
+      "assets/SZ-G8-T2-AE6E402BDA/single/q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          553.83,
+          582.2,
+          602.53
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          53.13,
+          582.2,
+          361.39
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-AE6E402BDA/single/s22-p24.webp",
+      "assets/SZ-G8-T2-AE6E402BDA/single/s22-p25.webp",
+      "assets/SZ-G8-T2-AE6E402BDA/single/s22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          13,
+          418.14,
+          582.2,
+          668.57
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          13,
+          74.87,
+          582.2,
+          760.96
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.2,
+          710.52
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

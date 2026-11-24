@@ -1,0 +1,557 @@
+{
+  "id": "SZ-G8-T2-EBAE38A7A1-Q25",
+  "paper_id": "SZ-G8-T2-EBAE38A7A1",
+  "number": 25,
+  "type": "解答题",
+  "points": null,
+  "title": "利用平行线性质求角、选择充分条件证明三角形全等",
+  "stem": "【问题背景】如图1，在\\(▱ABCD\\)中，\\(AB\\bot DB\\)．将\\(\\vartriangle ABD\\)绕点\\(B\\)逆时针旋转至\\(\\vartriangle FBE\\)，记旋转角\\(\\angle ABF=\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 180{}^\\circ } \\right )\\)，当线段\\(FB\\)与\\(DB\\)不共线时，记\\(\\vartriangle ABE\\)的面积为\\(S_{ 1 }\\)，\\(\\vartriangle FBD\\)的面积为\\(S_{ 2 }\\)．\n〔图1〕\n【特例分析】如图2，当\\(EF\\)恰好过点\\(A\\)，且点\\(F\\)，\\(B\\)，\\(C\\)在同一条直线上时．\n（1）\\(\\alpha =\\)______°；\n（2）若\\(AD=4\\sqrt[] { 3 }\\)，则\\(S_{ 1 } =\\)______，\\(S_{ 2 } =\\)______；\n【推广探究】某数学兴趣小组经过交流讨论，猜想：在旋转过程中，\\(S_{ 1 }\\)与\\(S_{ 2 }\\)之间存在一定的等量关系．再经过独立思考，获得了如下一些解决思路：\n思路1：如图1，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，可证一组三角形全等，再根据平行四边形的相关性质解决问题；\n思路2：如图2，过点\\(E\\)作\\(EH\\bot AB\\)于点\\(H\\)，过点\\(D\\)作\\(DG\\bot FB\\)，交\\(FB\\)的延长线于点\\(G\\)，可证一组三角形全等，再根据旋转的相关性质解决问题；\n……\n（3）如图3，请你根据以上思路，并结合你的想法，探究\\(S_{ 1 }\\)与\\(S_{ 2 }\\)之间的等量关系为______，并说明理由．\n【拓展应用】在旋转过程中，当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(\\alpha\\)的值为______\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/16/164df3081aa4f3fc3a7363e5d9979250578a863792df62f956831a60966ec6eb.png",
+    "assets/figures/59/598c7e1f67bbe2a9865634e15667cda76f1ab01b1914e37542d21b5de7a709dd.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）60；（2）\\(3\\sqrt[] { 3 }\\)；\\(3\\sqrt[] { 3 }\\)；（3）\\(S_{ 1 } =S_{ 2 }\\)，理由见解析；拓展应用：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)",
+  "answer": "（1）60；（2）\\(3\\sqrt[] { 3 }\\)；\\(3\\sqrt[] { 3 }\\)；（3）\\(S_{ 1 } =S_{ 2 }\\)，理由见解析；拓展应用：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)",
+  "given_solution": "【分析】（1）由旋转的性质和平行四边形的性质，等角对等边，可得\\(\\vartriangle ABF\\)是等边三角形，即可求解；\n（2）过点F作\\(FM\\bot BD\\)交\\(DB\\)延长线于点\\(M\\)，设\\(AD,BE\\)交于点N，通过证明\\(\\vartriangle ABN≌\\vartriangle FBM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，进而得出\\(s_{ 1 } =s_{ 2 }\\)，再证明\\(AE=AF\\)，可得\\(S_{ \\vartriangle ABE } =\\frac { 1 } { 2 }S_{ \\vartriangle EFB }\\)，仅为求解即可；\n（3）分别根据思路1和2进行推理证明即可；\n拓展应用：先根据面积之间的关系得出\\(BD=2DG\\)，继而得出\\(\\angle DBG=30{}^\\circ =\\angle ABE\\)，分别在图3和图2中进行求解即可．\n【详解】（1）由旋转可得，\\(\\angle F=\\angle BAD,BA=BF\\)，\n∵四边形\\(ABCD\\)为平行四边形，\n∴\\(AD\\parallel BC\\)，\n∴\\(\\angle ABF=\\angle BAD\\)，\n∴\\(\\angle ABF=\\angle F\\)，\n∴\\(BA=AF\\)，\n∴\\(BA=AF=BF\\)，\n∴\\(\\vartriangle ABF\\)是等边三角形，\n∴\\(\\angle ABF=\\alpha =60{}^\\circ\\)，\n故答案为：60；\n（2）如图，过点F作\\(FM\\bot BD\\)交\\(DB\\)延长线于点\\(M\\)，设\\(AD,BE\\)交于点N，\n〔图3〕\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle ANE=\\angle ANB=\\angle EBF=90{}^\\circ =\\angle ABM\\)，\\(\\angle EAN=\\angle AFB\\)，\n∴\\(\\angle MBF=\\angle ABN\\)，\n∵\\(BF=BA\\)，\n∴\\(\\vartriangle ABN≌\\vartriangle FBM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=FM\\)，\n∵\\(BD=BE\\)，\n∴\\(S_{ 1 } =S_{ 2 }\\)，\n∵\\(\\vartriangle ABF\\)是等边三角形，\n∴\\(\\angle AFB=60{}^\\circ =\\angle EAN,AB=AF\\)，\n∴\\(\\angle E=30{}^\\circ =\\angle ABE\\)，\n∴\\(AE=AB\\)，\n∴\\(AE=AF\\)，\n∴\\(S_{ \\vartriangle ABE } =\\frac { 1 } { 2 }S_{ \\vartriangle EFB }\\)，\n∵\\(AD=4\\sqrt[] { 3 }\\)，\n∴\\(AB=2\\sqrt[] { 3 }=BF,BD=6=BE\\)，\n∴\\(S_{ \\vartriangle EFB } =\\frac { 1 } { 2 }\\times 6\\times 2\\sqrt[] { 3 }=6\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ABE } =3\\sqrt[] { 3 }\\)，\n∴\\(s_{ 1 } =s_{ 2 } =3\\sqrt[] { 3 }\\)，\n故答案为：\\(3\\sqrt[] { 3 },3\\sqrt[] { 3 }\\)；\n（3）解：\\(S_{ 1 } =S_{ 2 }\\)，理由如下：\n思路1：如图，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，\n∵\\(AM\\parallel BE,ME\\parallel AB\\)，\n∴四边形\\(ABEM\\)为平行四边形，\n∴\\(AM=BE\\)，\\(\\angle MAB+\\angle ABE=180{}^\\circ\\)，\n∵旋转，\n∴\\(AB=BF\\)，\\(BD=BE\\)，\\(\\angle ABD=\\angle EBF=90{}^\\circ\\)，\n∴\\(BD=AM\\)，\n∵\\(\\angle ABD+\\angle ABE+\\angle EBF+\\angle FBD=360{}^\\circ\\)，\n∴\\(\\angle ABE+\\angle DBF=180{}^\\circ\\)，\n∴\\(\\angle MAB=\\angle DBF\\)，\n在\\(\\vartriangle MAB\\)和\\(\\vartriangle DBF\\)中，\n\\(\\begin{cases} AM=BD \\\\ \\angle MAB=\\angle DBF \\\\ AB=BF \\end{cases}\\)，\n∴\\(\\vartriangle MAB≌\\vartriangle DBF\\)，\n∴\\(S_{ \\vartriangle MAB } =S_{ 2 }\\)，\n∵\\(ME\\parallel AB\\)，\n∴\\(S_{ \\vartriangle MAB } =S_{ 1 }\\)，\n∴\\(S_{ 1 } =S_{ 2 }\\).\n〔图4〕\n思路2：如图，过点\\(E\\)作\\(EH\\bot AB\\)交\\(AB\\)延长线于点\\(H\\)，过点\\(D\\)作\\(DG\\bot BF\\)交\\(BF\\)延长线于点\\(G\\)，\n∵\\(EH\\bot AB\\)，\\(DG\\bot BF\\)，\n∴\\(\\angle H=\\angle G=90{}^\\circ\\)，\n∵旋转，\n∴\\(BD=BE\\)，\\(AB=BF\\)，\\(\\angle DBA=\\angle EBF=90{}^\\circ\\)，\n∴\\(\\angle EBG=90{}^\\circ\\)，\n∴\\(\\angle EBG=\\angle ABD\\)，\n∴\\(\\angle EBG-\\angle ABG=\\angle ABD-\\angle ABG\\)，\n即\\(\\angle EBH=\\angle GBD\\)，\n在\\(\\vartriangle EBH\\)和\\(\\vartriangle DBG\\)中，\n\\(\\begin{cases} \\angle H=\\angle G \\\\ \\angle EBH=\\angle GBD \\\\ BD=BE \\end{cases}\\)，\n∴\\(\\vartriangle EBH≌\\vartriangle DBG\\)，\n∴\\(EH=DG\\)，\n∴\\(S_{ 1 } =\\frac { 1 } { 2 }AB\\cdot EH=\\frac { 1 } { 2 }BF\\cdot DG=S_{ 2 }\\)；\n〔图5〕\n拓展应用：\n∵\\(S_{ 1 } =S_{ 2 }\\)，\n∴当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(S_{ 1 } =S_{ 2 } =\\frac { 1 } { 4 }S_{ 平行四边形ABCD }\\)，\n由（3）思路2得，\\(S_{ 1 } =\\frac { 1 } { 2 }\\cdot AB\\cdot EH,S_{ 平行四边形ABCD } =AB\\cdot BD,EH=DG\\)，\n∴\\(\\frac { 1 } { 2 }\\cdot AB\\cdot EH=\\frac { 1 } { 4 }AB\\cdot BD\\)，\n∴\\(BD=2EH\\)，即\\(BD=2DG\\)，\n∴\\(\\angle DBG=30{}^\\circ =\\angle ABE\\)，\n如图3，\\(\\angle ABF=120{}^\\circ\\)；\n如图2,\\(\\angle DBE=\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n综上，\\(\\alpha\\)的值为\\(60{}^\\circ\\)或\\(120{}^\\circ\\)，\n故答案为：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)．\n【点睛】本题考查了旋转的性质，等边三角形的判定和性质，等腰三角形的判定和性质，全等三角形的判定和性质，平行四边形的性质，直角三角形的性质，熟练掌握知识点是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/16/164df3081aa4f3fc3a7363e5d9979250578a863792df62f956831a60966ec6eb.png",
+    "assets/figures/59/598c7e1f67bbe2a9865634e15667cda76f1ab01b1914e37542d21b5de7a709dd.png",
+    "assets/figures/95/953f7651618defe43cc9f80ce61ea693f96d38c4ef35efb0ff77097e52213329.png",
+    "assets/figures/93/93efeceab7c080f4d69e89ac4ddddaaf4205fa6d4ecd4b8afe5c596659a6f362.png",
+    "assets/figures/16/16c067d40af71fed640514ed12995b891c8fc96dd90d0f278876dc3a53717e5d.png"
+  ],
+  "solution": "（1）由旋转可得，\\(\\angle F=\\angle BAD,BA=BF\\)，\n∵四边形\\(ABCD\\)为平行四边形，\n∴\\(AD\\parallel BC\\)，\n∴\\(\\angle ABF=\\angle BAD\\)，\n∴\\(\\angle ABF=\\angle F\\)，\n∴\\(BA=AF\\)，\n∴\\(BA=AF=BF\\)，\n∴\\(\\vartriangle ABF\\)是等边三角形，\n∴\\(\\angle ABF=\\alpha =60{}^\\circ\\)，\n故答案为：60；\n（2）如图，过点F作\\(FM\\bot BD\\)交\\(DB\\)延长线于点\\(M\\)，设\\(AD,BE\\)交于点N，\n〔图3〕\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle ANE=\\angle ANB=\\angle EBF=90{}^\\circ =\\angle ABM\\)，\\(\\angle EAN=\\angle AFB\\)，\n∴\\(\\angle MBF=\\angle ABN\\)，\n∵\\(BF=BA\\)，\n∴\\(\\vartriangle ABN≌\\vartriangle FBM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=FM\\)，\n∵\\(BD=BE\\)，\n∴\\(S_{ 1 } =S_{ 2 }\\)，\n∵\\(\\vartriangle ABF\\)是等边三角形，\n∴\\(\\angle AFB=60{}^\\circ =\\angle EAN,AB=AF\\)，\n∴\\(\\angle E=30{}^\\circ =\\angle ABE\\)，\n∴\\(AE=AB\\)，\n∴\\(AE=AF\\)，\n∴\\(S_{ \\vartriangle ABE } =\\frac { 1 } { 2 }S_{ \\vartriangle EFB }\\)，\n∵\\(AD=4\\sqrt[] { 3 }\\)，\n∴\\(AB=2\\sqrt[] { 3 }=BF,BD=6=BE\\)，\n∴\\(S_{ \\vartriangle EFB } =\\frac { 1 } { 2 }\\times 6\\times 2\\sqrt[] { 3 }=6\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ABE } =3\\sqrt[] { 3 }\\)，\n∴\\(s_{ 1 } =s_{ 2 } =3\\sqrt[] { 3 }\\)，\n故答案为：\\(3\\sqrt[] { 3 },3\\sqrt[] { 3 }\\)；\n（3）解：\\(S_{ 1 } =S_{ 2 }\\)，理由如下：\n思路1：如图，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，\n∵\\(AM\\parallel BE,ME\\parallel AB\\)，\n∴四边形\\(ABEM\\)为平行四边形，\n∴\\(AM=BE\\)，\\(\\angle MAB+\\angle ABE=180{}^\\circ\\)，\n∵旋转，\n∴\\(AB=BF\\)，\\(BD=BE\\)，\\(\\angle ABD=\\angle EBF=90{}^\\circ\\)，\n∴\\(BD=AM\\)，\n∵\\(\\angle ABD+\\angle ABE+\\angle EBF+\\angle FBD=360{}^\\circ\\)，\n∴\\(\\angle ABE+\\angle DBF=180{}^\\circ\\)，\n∴\\(\\angle MAB=\\angle DBF\\)，\n在\\(\\vartriangle MAB\\)和\\(\\vartriangle DBF\\)中，\n\\(\\begin{cases} AM=BD \\\\ \\angle MAB=\\angle DBF \\\\ AB=BF \\end{cases}\\)，\n∴\\(\\vartriangle MAB≌\\vartriangle DBF\\)，\n∴\\(S_{ \\vartriangle MAB } =S_{ 2 }\\)，\n∵\\(ME\\parallel AB\\)，\n∴\\(S_{ \\vartriangle MAB } =S_{ 1 }\\)，\n∴\\(S_{ 1 } =S_{ 2 }\\).\n〔图4〕\n思路2：如图，过点\\(E\\)作\\(EH\\bot AB\\)交\\(AB\\)延长线于点\\(H\\)，过点\\(D\\)作\\(DG\\bot BF\\)交\\(BF\\)延长线于点\\(G\\)，\n∵\\(EH\\bot AB\\)，\\(DG\\bot BF\\)，\n∴\\(\\angle H=\\angle G=90{}^\\circ\\)，\n∵旋转，\n∴\\(BD=BE\\)，\\(AB=BF\\)，\\(\\angle DBA=\\angle EBF=90{}^\\circ\\)，\n∴\\(\\angle EBG=90{}^\\circ\\)，\n∴\\(\\angle EBG=\\angle ABD\\)，\n∴\\(\\angle EBG-\\angle ABG=\\angle ABD-\\angle ABG\\)，\n即\\(\\angle EBH=\\angle GBD\\)，\n在\\(\\vartriangle EBH\\)和\\(\\vartriangle DBG\\)中，\n\\(\\begin{cases} \\angle H=\\angle G \\\\ \\angle EBH=\\angle GBD \\\\ BD=BE \\end{cases}\\)，\n∴\\(\\vartriangle EBH≌\\vartriangle DBG\\)，\n∴\\(EH=DG\\)，\n∴\\(S_{ 1 } =\\frac { 1 } { 2 }AB\\cdot EH=\\frac { 1 } { 2 }BF\\cdot DG=S_{ 2 }\\)；\n〔图5〕\n拓展应用：\n∵\\(S_{ 1 } =S_{ 2 }\\)，\n∴当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(S_{ 1 } =S_{ 2 } =\\frac { 1 } { 4 }S_{ 平行四边形ABCD }\\)，\n由（3）思路2得，\\(S_{ 1 } =\\frac { 1 } { 2 }\\cdot AB\\cdot EH,S_{ 平行四边形ABCD } =AB\\cdot BD,EH=DG\\)，\n∴\\(\\frac { 1 } { 2 }\\cdot AB\\cdot EH=\\frac { 1 } { 4 }AB\\cdot BD\\)，\n∴\\(BD=2EH\\)，即\\(BD=2DG\\)，\n∴\\(\\angle DBG=30{}^\\circ =\\angle ABE\\)，\n如图3，\\(\\angle ABF=120{}^\\circ\\)；\n如图2,\\(\\angle DBE=\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n综上，\\(\\alpha\\)的值为\\(60{}^\\circ\\)或\\(120{}^\\circ\\)，\n故答案为：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)．",
+  "solution_steps": [
+    "（1）由旋转可得，\\(\\angle F=\\angle BAD,BA=BF\\)，",
+    "∵四边形\\(ABCD\\)为平行四边形，",
+    "∴\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle ABF=\\angle BAD\\)，",
+    "∴\\(\\angle ABF=\\angle F\\)，",
+    "∴\\(BA=AF\\)，",
+    "∴\\(BA=AF=BF\\)，",
+    "∴\\(\\vartriangle ABF\\)是等边三角形，",
+    "∴\\(\\angle ABF=\\alpha =60{}^\\circ\\)，",
+    "故答案为：60；",
+    "（2）如图，过点F作\\(FM\\bot BD\\)交\\(DB\\)延长线于点\\(M\\)，设\\(AD,BE\\)交于点N，",
+    "〔图3〕",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle ANE=\\angle ANB=\\angle EBF=90{}^\\circ =\\angle ABM\\)，\\(\\angle EAN=\\angle AFB\\)，",
+    "∴\\(\\angle MBF=\\angle ABN\\)，",
+    "∵\\(BF=BA\\)，",
+    "∴\\(\\vartriangle ABN≌\\vartriangle FBM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AN=FM\\)，",
+    "∵\\(BD=BE\\)，",
+    "∴\\(S_{ 1 } =S_{ 2 }\\)，",
+    "∵\\(\\vartriangle ABF\\)是等边三角形，",
+    "∴\\(\\angle AFB=60{}^\\circ =\\angle EAN,AB=AF\\)，",
+    "∴\\(\\angle E=30{}^\\circ =\\angle ABE\\)，",
+    "∴\\(AE=AB\\)，",
+    "∴\\(AE=AF\\)，",
+    "∴\\(S_{ \\vartriangle ABE } =\\frac { 1 } { 2 }S_{ \\vartriangle EFB }\\)，",
+    "∵\\(AD=4\\sqrt[] { 3 }\\)，",
+    "∴\\(AB=2\\sqrt[] { 3 }=BF,BD=6=BE\\)，",
+    "∴\\(S_{ \\vartriangle EFB } =\\frac { 1 } { 2 }\\times 6\\times 2\\sqrt[] { 3 }=6\\sqrt[] { 3 }\\)，",
+    "∴\\(S_{ \\vartriangle ABE } =3\\sqrt[] { 3 }\\)，",
+    "∴\\(s_{ 1 } =s_{ 2 } =3\\sqrt[] { 3 }\\)，",
+    "故答案为：\\(3\\sqrt[] { 3 },3\\sqrt[] { 3 }\\)；",
+    "（3）解：\\(S_{ 1 } =S_{ 2 }\\)，理由如下：",
+    "思路1：如图，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，",
+    "∵\\(AM\\parallel BE,ME\\parallel AB\\)，",
+    "∴四边形\\(ABEM\\)为平行四边形，",
+    "∴\\(AM=BE\\)，\\(\\angle MAB+\\angle ABE=180{}^\\circ\\)，",
+    "∵旋转，",
+    "∴\\(AB=BF\\)，\\(BD=BE\\)，\\(\\angle ABD=\\angle EBF=90{}^\\circ\\)，",
+    "∴\\(BD=AM\\)，",
+    "∵\\(\\angle ABD+\\angle ABE+\\angle EBF+\\angle FBD=360{}^\\circ\\)，",
+    "∴\\(\\angle ABE+\\angle DBF=180{}^\\circ\\)，",
+    "∴\\(\\angle MAB=\\angle DBF\\)，",
+    "在\\(\\vartriangle MAB\\)和\\(\\vartriangle DBF\\)中，",
+    "\\(\\begin{cases} AM=BD \\\\ \\angle MAB=\\angle DBF \\\\ AB=BF \\end{cases}\\)，",
+    "∴\\(\\vartriangle MAB≌\\vartriangle DBF\\)，",
+    "∴\\(S_{ \\vartriangle MAB } =S_{ 2 }\\)，",
+    "∵\\(ME\\parallel AB\\)，",
+    "∴\\(S_{ \\vartriangle MAB } =S_{ 1 }\\)，",
+    "∴\\(S_{ 1 } =S_{ 2 }\\).",
+    "〔图4〕",
+    "思路2：如图，过点\\(E\\)作\\(EH\\bot AB\\)交\\(AB\\)延长线于点\\(H\\)，过点\\(D\\)作\\(DG\\bot BF\\)交\\(BF\\)延长线于点\\(G\\)，",
+    "∵\\(EH\\bot AB\\)，\\(DG\\bot BF\\)，",
+    "∴\\(\\angle H=\\angle G=90{}^\\circ\\)，",
+    "∵旋转，",
+    "∴\\(BD=BE\\)，\\(AB=BF\\)，\\(\\angle DBA=\\angle EBF=90{}^\\circ\\)，",
+    "∴\\(\\angle EBG=90{}^\\circ\\)，",
+    "∴\\(\\angle EBG=\\angle ABD\\)，",
+    "∴\\(\\angle EBG-\\angle ABG=\\angle ABD-\\angle ABG\\)，",
+    "即\\(\\angle EBH=\\angle GBD\\)，",
+    "在\\(\\vartriangle EBH\\)和\\(\\vartriangle DBG\\)中，",
+    "\\(\\begin{cases} \\angle H=\\angle G \\\\ \\angle EBH=\\angle GBD \\\\ BD=BE \\end{cases}\\)，",
+    "∴\\(\\vartriangle EBH≌\\vartriangle DBG\\)，",
+    "∴\\(EH=DG\\)，",
+    "∴\\(S_{ 1 } =\\frac { 1 } { 2 }AB\\cdot EH=\\frac { 1 } { 2 }BF\\cdot DG=S_{ 2 }\\)；",
+    "〔图5〕",
+    "拓展应用：",
+    "∵\\(S_{ 1 } =S_{ 2 }\\)，",
+    "∴当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(S_{ 1 } =S_{ 2 } =\\frac { 1 } { 4 }S_{ 平行四边形ABCD }\\)，",
+    "由（3）思路2得，\\(S_{ 1 } =\\frac { 1 } { 2 }\\cdot AB\\cdot EH,S_{ 平行四边形ABCD } =AB\\cdot BD,EH=DG\\)，",
+    "∴\\(\\frac { 1 } { 2 }\\cdot AB\\cdot EH=\\frac { 1 } { 4 }AB\\cdot BD\\)，",
+    "∴\\(BD=2EH\\)，即\\(BD=2DG\\)，",
+    "∴\\(\\angle DBG=30{}^\\circ =\\angle ABE\\)，",
+    "如图3，\\(\\angle ABF=120{}^\\circ\\)；",
+    "如图2,\\(\\angle DBE=\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+    "综上，\\(\\alpha\\)的值为\\(60{}^\\circ\\)或\\(120{}^\\circ\\)，",
+    "故答案为：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题背景】如图1，在\\(▱ABCD\\)中，\\(AB\\bot DB\\)．将\\(\\vartriangle ABD\\)绕点\\(B\\)逆时针旋转至\\(\\vartriangle FBE\\)，记旋转角\\(\\angle ABF=\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 180{}^\\circ } \\right )\\)，当线段\\(FB\\)与\\(DB\\)不共线时，记\\(\\vartriangle ABE\\)的面积为\\(S_{ 1 }\\)，\\(\\vartriangle FBD\\)的面积为\\(S_{ 2 }\\)．\n〔图1〕\n【特例分析】如图2，当\\(EF\\)恰好过点\\(A\\)，且点\\(F\\)，\\(B\\)，\\(C\\)在同一条直线上时．",
+      "paper_blocks": [
+        77,
+        78,
+        79
+      ]
+    },
+    {
+      "id": "fig-88",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        88
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-EBAE38A7A1-Q25-P01",
+      "label": "（1）",
+      "prompt": "\\(\\alpha =\\)______°；",
+      "stem_text": "\\(\\alpha =\\)______°；",
+      "material_ids": [
+        "context",
+        "fig-88"
+      ],
+      "requires": [],
+      "given_answer": "60；",
+      "answer": "60；",
+      "given_solution": "由旋转可得，\\(\\angle F=\\angle BAD,BA=BF\\)，\n∵四边形\\(ABCD\\)为平行四边形，\n∴\\(AD\\parallel BC\\)，\n∴\\(\\angle ABF=\\angle BAD\\)，\n∴\\(\\angle ABF=\\angle F\\)，\n∴\\(BA=AF\\)，\n∴\\(BA=AF=BF\\)，\n∴\\(\\vartriangle ABF\\)是等边三角形，\n∴\\(\\angle ABF=\\alpha =60{}^\\circ\\)，\n故答案为：60；",
+      "solution_steps": [
+        "由旋转可得，\\(\\angle F=\\angle BAD,BA=BF\\)，",
+        "∵四边形\\(ABCD\\)为平行四边形，",
+        "∴\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle ABF=\\angle BAD\\)，",
+        "∴\\(\\angle ABF=\\angle F\\)，",
+        "∴\\(BA=AF\\)，",
+        "∴\\(BA=AF=BF\\)，",
+        "∴\\(\\vartriangle ABF\\)是等边三角形，",
+        "∴\\(\\angle ABF=\\alpha =60{}^\\circ\\)，",
+        "故答案为：60；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          79,
+          80,
+          88
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-EBAE38A7A1-Q25-P02",
+      "label": "（2）",
+      "prompt": "若\\(AD=4\\sqrt[] { 3 }\\)，则\\(S_{ 1 } =\\)______，\\(S_{ 2 } =\\)______；\n【推广探究】某数学兴趣小组经过交流讨论，猜想：在旋转过程中，\\(S_{ 1 }\\)与\\(S_{ 2 }\\)之间存在一定的等量关系．再经过独立思考，获得了如下一些解决思路：\n思路1：如图1，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，可证一组三角形全等，再根据平行四边形的相关性质解决问题；\n思路2：如图2，过点\\(E\\)作\\(EH\\bot AB\\)于点\\(H\\)，过点\\(D\\)作\\(DG\\bot FB\\)，交\\(FB\\)的延长线于点\\(G\\)，可证一组三角形全等，再根据旋转的相关性质解决问题；\n……",
+      "stem_text": "若\\(AD=4\\sqrt[] { 3 }\\)，则\\(S_{ 1 } =\\)______，\\(S_{ 2 } =\\)______；\n【推广探究】某数学兴趣小组经过交流讨论，猜想：在旋转过程中，\\(S_{ 1 }\\)与\\(S_{ 2 }\\)之间存在一定的等量关系．再经过独立思考，获得了如下一些解决思路：\n思路1：如图1，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，可证一组三角形全等，再根据平行四边形的相关性质解决问题；\n思路2：如图2，过点\\(E\\)作\\(EH\\bot AB\\)于点\\(H\\)，过点\\(D\\)作\\(DG\\bot FB\\)，交\\(FB\\)的延长线于点\\(G\\)，可证一组三角形全等，再根据旋转的相关性质解决问题；\n……",
+      "material_ids": [
+        "context",
+        "fig-88"
+      ],
+      "requires": [],
+      "given_answer": "\\(3\\sqrt[] { 3 }\\)；\\(3\\sqrt[] { 3 }\\)；",
+      "answer": "\\(3\\sqrt[] { 3 }\\)；\\(3\\sqrt[] { 3 }\\)；",
+      "given_solution": "如图，过点F作\\(FM\\bot BD\\)交\\(DB\\)延长线于点\\(M\\)，设\\(AD,BE\\)交于点N，\n〔图3〕\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle ANE=\\angle ANB=\\angle EBF=90{}^\\circ =\\angle ABM\\)，\\(\\angle EAN=\\angle AFB\\)，\n∴\\(\\angle MBF=\\angle ABN\\)，\n∵\\(BF=BA\\)，\n∴\\(\\vartriangle ABN≌\\vartriangle FBM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=FM\\)，\n∵\\(BD=BE\\)，\n∴\\(S_{ 1 } =S_{ 2 }\\)，\n∵\\(\\vartriangle ABF\\)是等边三角形，\n∴\\(\\angle AFB=60{}^\\circ =\\angle EAN,AB=AF\\)，\n∴\\(\\angle E=30{}^\\circ =\\angle ABE\\)，\n∴\\(AE=AB\\)，\n∴\\(AE=AF\\)，\n∴\\(S_{ \\vartriangle ABE } =\\frac { 1 } { 2 }S_{ \\vartriangle EFB }\\)，\n∵\\(AD=4\\sqrt[] { 3 }\\)，\n∴\\(AB=2\\sqrt[] { 3 }=BF,BD=6=BE\\)，\n∴\\(S_{ \\vartriangle EFB } =\\frac { 1 } { 2 }\\times 6\\times 2\\sqrt[] { 3 }=6\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ABE } =3\\sqrt[] { 3 }\\)，\n∴\\(s_{ 1 } =s_{ 2 } =3\\sqrt[] { 3 }\\)，\n故答案为：\\(3\\sqrt[] { 3 },3\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "如图，过点F作\\(FM\\bot BD\\)交\\(DB\\)延长线于点\\(M\\)，设\\(AD,BE\\)交于点N，",
+        "〔图3〕",
+        "∵\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle ANE=\\angle ANB=\\angle EBF=90{}^\\circ =\\angle ABM\\)，\\(\\angle EAN=\\angle AFB\\)，",
+        "∴\\(\\angle MBF=\\angle ABN\\)，",
+        "∵\\(BF=BA\\)，",
+        "∴\\(\\vartriangle ABN≌\\vartriangle FBM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AN=FM\\)，",
+        "∵\\(BD=BE\\)，",
+        "∴\\(S_{ 1 } =S_{ 2 }\\)，",
+        "∵\\(\\vartriangle ABF\\)是等边三角形，",
+        "∴\\(\\angle AFB=60{}^\\circ =\\angle EAN,AB=AF\\)，",
+        "∴\\(\\angle E=30{}^\\circ =\\angle ABE\\)，",
+        "∴\\(AE=AB\\)，",
+        "∴\\(AE=AF\\)，",
+        "∴\\(S_{ \\vartriangle ABE } =\\frac { 1 } { 2 }S_{ \\vartriangle EFB }\\)，",
+        "∵\\(AD=4\\sqrt[] { 3 }\\)，",
+        "∴\\(AB=2\\sqrt[] { 3 }=BF,BD=6=BE\\)，",
+        "∴\\(S_{ \\vartriangle EFB } =\\frac { 1 } { 2 }\\times 6\\times 2\\sqrt[] { 3 }=6\\sqrt[] { 3 }\\)，",
+        "∴\\(S_{ \\vartriangle ABE } =3\\sqrt[] { 3 }\\)，",
+        "∴\\(s_{ 1 } =s_{ 2 } =3\\sqrt[] { 3 }\\)，",
+        "故答案为：\\(3\\sqrt[] { 3 },3\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          79,
+          81,
+          82,
+          83,
+          84,
+          85,
+          88
+        ],
+        "solution_block_ids": [
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-EBAE38A7A1-Q25-P03",
+      "label": "（3）",
+      "prompt": "如图3，请你根据以上思路，并结合你的想法，探究\\(S_{ 1 }\\)与\\(S_{ 2 }\\)之间的等量关系为______，并说明理由．\n【拓展应用】在旋转过程中，当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(\\alpha\\)的值为______",
+      "stem_text": "如图3，请你根据以上思路，并结合你的想法，探究\\(S_{ 1 }\\)与\\(S_{ 2 }\\)之间的等量关系为______，并说明理由．\n【拓展应用】在旋转过程中，当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(\\alpha\\)的值为______",
+      "material_ids": [
+        "context",
+        "fig-88"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ 1 } =S_{ 2 }\\)，理由见解析；拓展应用：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)",
+      "answer": "\\(S_{ 1 } =S_{ 2 }\\)，理由见解析；拓展应用：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)",
+      "given_solution": "解：\\(S_{ 1 } =S_{ 2 }\\)，理由如下：\n思路1：如图，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，\n∵\\(AM\\parallel BE,ME\\parallel AB\\)，\n∴四边形\\(ABEM\\)为平行四边形，\n∴\\(AM=BE\\)，\\(\\angle MAB+\\angle ABE=180{}^\\circ\\)，\n∵旋转，\n∴\\(AB=BF\\)，\\(BD=BE\\)，\\(\\angle ABD=\\angle EBF=90{}^\\circ\\)，\n∴\\(BD=AM\\)，\n∵\\(\\angle ABD+\\angle ABE+\\angle EBF+\\angle FBD=360{}^\\circ\\)，\n∴\\(\\angle ABE+\\angle DBF=180{}^\\circ\\)，\n∴\\(\\angle MAB=\\angle DBF\\)，\n在\\(\\vartriangle MAB\\)和\\(\\vartriangle DBF\\)中，\n\\(\\begin{cases} AM=BD \\\\ \\angle MAB=\\angle DBF \\\\ AB=BF \\end{cases}\\)，\n∴\\(\\vartriangle MAB≌\\vartriangle DBF\\)，\n∴\\(S_{ \\vartriangle MAB } =S_{ 2 }\\)，\n∵\\(ME\\parallel AB\\)，\n∴\\(S_{ \\vartriangle MAB } =S_{ 1 }\\)，\n∴\\(S_{ 1 } =S_{ 2 }\\).\n〔图4〕\n思路2：如图，过点\\(E\\)作\\(EH\\bot AB\\)交\\(AB\\)延长线于点\\(H\\)，过点\\(D\\)作\\(DG\\bot BF\\)交\\(BF\\)延长线于点\\(G\\)，\n∵\\(EH\\bot AB\\)，\\(DG\\bot BF\\)，\n∴\\(\\angle H=\\angle G=90{}^\\circ\\)，\n∵旋转，\n∴\\(BD=BE\\)，\\(AB=BF\\)，\\(\\angle DBA=\\angle EBF=90{}^\\circ\\)，\n∴\\(\\angle EBG=90{}^\\circ\\)，\n∴\\(\\angle EBG=\\angle ABD\\)，\n∴\\(\\angle EBG-\\angle ABG=\\angle ABD-\\angle ABG\\)，\n即\\(\\angle EBH=\\angle GBD\\)，\n在\\(\\vartriangle EBH\\)和\\(\\vartriangle DBG\\)中，\n\\(\\begin{cases} \\angle H=\\angle G \\\\ \\angle EBH=\\angle GBD \\\\ BD=BE \\end{cases}\\)，\n∴\\(\\vartriangle EBH≌\\vartriangle DBG\\)，\n∴\\(EH=DG\\)，\n∴\\(S_{ 1 } =\\frac { 1 } { 2 }AB\\cdot EH=\\frac { 1 } { 2 }BF\\cdot DG=S_{ 2 }\\)；\n〔图5〕\n拓展应用：\n∵\\(S_{ 1 } =S_{ 2 }\\)，\n∴当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(S_{ 1 } =S_{ 2 } =\\frac { 1 } { 4 }S_{ 平行四边形ABCD }\\)，\n由（3）思路2得，\\(S_{ 1 } =\\frac { 1 } { 2 }\\cdot AB\\cdot EH,S_{ 平行四边形ABCD } =AB\\cdot BD,EH=DG\\)，\n∴\\(\\frac { 1 } { 2 }\\cdot AB\\cdot EH=\\frac { 1 } { 4 }AB\\cdot BD\\)，\n∴\\(BD=2EH\\)，即\\(BD=2DG\\)，\n∴\\(\\angle DBG=30{}^\\circ =\\angle ABE\\)，\n如图3，\\(\\angle ABF=120{}^\\circ\\)；\n如图2,\\(\\angle DBE=\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n综上，\\(\\alpha\\)的值为\\(60{}^\\circ\\)或\\(120{}^\\circ\\)，\n故答案为：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)．",
+      "solution_steps": [
+        "解：\\(S_{ 1 } =S_{ 2 }\\)，理由如下：",
+        "思路1：如图，过点\\(A\\)，\\(E\\)分别作直线平行于\\(BE\\)，\\(AB\\)，两直线交于点\\(M\\)，连接\\(BM\\)，",
+        "∵\\(AM\\parallel BE,ME\\parallel AB\\)，",
+        "∴四边形\\(ABEM\\)为平行四边形，",
+        "∴\\(AM=BE\\)，\\(\\angle MAB+\\angle ABE=180{}^\\circ\\)，",
+        "∵旋转，",
+        "∴\\(AB=BF\\)，\\(BD=BE\\)，\\(\\angle ABD=\\angle EBF=90{}^\\circ\\)，",
+        "∴\\(BD=AM\\)，",
+        "∵\\(\\angle ABD+\\angle ABE+\\angle EBF+\\angle FBD=360{}^\\circ\\)，",
+        "∴\\(\\angle ABE+\\angle DBF=180{}^\\circ\\)，",
+        "∴\\(\\angle MAB=\\angle DBF\\)，",
+        "在\\(\\vartriangle MAB\\)和\\(\\vartriangle DBF\\)中，",
+        "\\(\\begin{cases} AM=BD \\\\ \\angle MAB=\\angle DBF \\\\ AB=BF \\end{cases}\\)，",
+        "∴\\(\\vartriangle MAB≌\\vartriangle DBF\\)，",
+        "∴\\(S_{ \\vartriangle MAB } =S_{ 2 }\\)，",
+        "∵\\(ME\\parallel AB\\)，",
+        "∴\\(S_{ \\vartriangle MAB } =S_{ 1 }\\)，",
+        "∴\\(S_{ 1 } =S_{ 2 }\\).",
+        "〔图4〕",
+        "思路2：如图，过点\\(E\\)作\\(EH\\bot AB\\)交\\(AB\\)延长线于点\\(H\\)，过点\\(D\\)作\\(DG\\bot BF\\)交\\(BF\\)延长线于点\\(G\\)，",
+        "∵\\(EH\\bot AB\\)，\\(DG\\bot BF\\)，",
+        "∴\\(\\angle H=\\angle G=90{}^\\circ\\)，",
+        "∵旋转，",
+        "∴\\(BD=BE\\)，\\(AB=BF\\)，\\(\\angle DBA=\\angle EBF=90{}^\\circ\\)，",
+        "∴\\(\\angle EBG=90{}^\\circ\\)，",
+        "∴\\(\\angle EBG=\\angle ABD\\)，",
+        "∴\\(\\angle EBG-\\angle ABG=\\angle ABD-\\angle ABG\\)，",
+        "即\\(\\angle EBH=\\angle GBD\\)，",
+        "在\\(\\vartriangle EBH\\)和\\(\\vartriangle DBG\\)中，",
+        "\\(\\begin{cases} \\angle H=\\angle G \\\\ \\angle EBH=\\angle GBD \\\\ BD=BE \\end{cases}\\)，",
+        "∴\\(\\vartriangle EBH≌\\vartriangle DBG\\)，",
+        "∴\\(EH=DG\\)，",
+        "∴\\(S_{ 1 } =\\frac { 1 } { 2 }AB\\cdot EH=\\frac { 1 } { 2 }BF\\cdot DG=S_{ 2 }\\)；",
+        "〔图5〕",
+        "拓展应用：",
+        "∵\\(S_{ 1 } =S_{ 2 }\\)，",
+        "∴当\\(S_{ 1 } +S_{ 2 }\\)为\\(▱ABCD\\)面积的\\(\\frac { 1 } { 2 }\\)时，\\(S_{ 1 } =S_{ 2 } =\\frac { 1 } { 4 }S_{ 平行四边形ABCD }\\)，",
+        "由（3）思路2得，\\(S_{ 1 } =\\frac { 1 } { 2 }\\cdot AB\\cdot EH,S_{ 平行四边形ABCD } =AB\\cdot BD,EH=DG\\)，",
+        "∴\\(\\frac { 1 } { 2 }\\cdot AB\\cdot EH=\\frac { 1 } { 4 }AB\\cdot BD\\)，",
+        "∴\\(BD=2EH\\)，即\\(BD=2DG\\)，",
+        "∴\\(\\angle DBG=30{}^\\circ =\\angle ABE\\)，",
+        "如图3，\\(\\angle ABF=120{}^\\circ\\)；",
+        "如图2,\\(\\angle DBE=\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+        "综上，\\(\\alpha\\)的值为\\(60{}^\\circ\\)或\\(120{}^\\circ\\)，",
+        "故答案为：\\(60{}^\\circ\\)或\\(120{}^\\circ\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          79,
+          86,
+          87,
+          88
+        ],
+        "solution_block_ids": [
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23,
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      77,
+      88
+    ],
+    "solution_body_blocks": [
+      396,
+      491
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-EBAE38A7A1/paper-q25-p06.webp",
+      "assets/SZ-G8-T2-EBAE38A7A1/paper-q25-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          502.73,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          470.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-EBAE38A7A1/solution-q25-p21.webp",
+      "assets/SZ-G8-T2-EBAE38A7A1/solution-q25-p22.webp",
+      "assets/SZ-G8-T2-EBAE38A7A1/solution-q25-p23.webp",
+      "assets/SZ-G8-T2-EBAE38A7A1/solution-q25-p24.webp",
+      "assets/SZ-G8-T2-EBAE38A7A1/solution-q25-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          527.27,
+          583.64,
+          743.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          55.0,
+          583.64,
+          400.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G01.05",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G01.05.01",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G03.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,364 @@
+{
+  "id": "SZ-G8-T1-FCFEEB5116-Q21",
+  "paper_id": "SZ-G8-T1-FCFEEB5116",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、将折叠条件转为可计算的几何关系",
+  "stem": "如图1，在平面直角坐标系中，直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)．\n〔图1〕\n（1）求直线\\(AB\\)的函数解析式；\n（2）将直线\\(AB\\)绕点\\(B\\)顺时针旋转\\(45{}^\\circ\\)交\\(x\\)轴于点\\(C\\)，求点\\(C\\)的坐标；\n（3）如图2，在线段\\(OB\\)上有一点\\(D\\)，将\\(\\vartriangle BCD\\)沿直线\\(CD\\)折叠后，点\\(B\\)恰好落在\\(x\\)轴上的点\\(E\\)处，求点\\(D\\)的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-FCFEEB5116/figures/59fa2fd6717cd93fa781890e31bf5e45d029eeb1b7670f00c93722f4e2f92fbb.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）直线\\(AB\\)的函数解析式为\\(y=3x+3\\)\n（2）点\\(C\\)的坐标为\\((-6,0)\\)\n（3）点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)",
+  "answer": "（1）直线\\(AB\\)的函数解析式为\\(y=3x+3\\)\n（2）点\\(C\\)的坐标为\\((-6,0)\\)\n（3）点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)",
+  "given_solution": "【分析】（1）利用待定系数法求解；\n（2）首先求出\\(AO=1\\)，\\(OB=3\\)，过点\\(A\\)作\\(DA\\bot AB\\)交\\(BC\\)于点\\(D\\)，作\\(DE\\bot x\\)轴于点\\(E\\)，然后证明出\\(\\vartriangle AOB≌\\vartriangle DEA\\)，得到\\(DE=OA=1\\)，\\(AE=OB=3\\)，求出点\\(D\\)的坐标为\\((-4,1)\\)，然后求出直线\\(BC\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)，进而求解；\n（3）设点\\(D\\)的坐标为\\((0,m)\\)，则：\\(BD=3-m\\)，\\(OD=m\\)，根据勾股定理得到\\(CE=CB=3\\sqrt[] { 5 }\\)，\\(DE=BD=3-m\\)，然后在在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOE\\)中，利用勾股定理得到\\(OD ^ { 2 } +OE ^ { 2 } =DE ^ { 2 }\\)，然后代入求解即可．\n【小问1详解】\n解：∵直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)\n设\\(AB\\)的解析式为\\(y=kx+3\\)，\n将\\(A(-1,0)\\)代入\\(y=kx+3\\)中，\n得：\\(-k+3=0\\)，解得：\\(k=3\\)，\n所以直线\\(AB\\)的函数解析式为：\\(y=3x+3\\)；\n【小问2详解】\n解：∵\\(A(-1,0)\\)，\\(B(0,3)\\)\n∴\\(AO=1\\)，\\(OB=3\\)\n如图所示，过点\\(A\\)作\\(DA\\bot AB\\)交\\(BC\\)于点\\(D\\)，作\\(DE\\bot x\\)轴于点\\(E\\)．\n〔图2〕\n\\(\\because \\angle CBA=45{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)为等腰直角三角形，\n∴\\(AD=AB\\)，\n\\(\\because \\angle ABO+\\angle BAO=90{}^\\circ\\)，\\(\\angle DAE+\\angle BAO=90{}^\\circ\\)，\n\\(\\therefore \\angle ABO=\\angle DAE\\)．\n\\(\\because \\angle BOA=\\angle DEA=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AOB≌\\vartriangle DEA{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，\n\\(\\therefore DE=OA=1\\)，\\(AE=OB=3\\)，\n∴\\(OE=AE+AO=4\\)，\n\\(\\therefore\\)点\\(D\\)的坐标为\\((-4,1)\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+3\\)，\n将D\\((-4,1)\\)代入\\(y=kx+3\\)，\n得：\\(-4k+3=1\\)，解得：\\(k=\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)，\n当\\(y=0\\)时，\\(\\frac { 1 } { 2 }x+3=0\\)，解得：\\(x=-6\\)，\n\\(\\therefore\\)点\\(C\\)的坐标为\\((-6,0)\\)；\n【小问3详解】\n解：设点\\(D\\)的坐标为\\((0,m)\\)，则：\\(BD=3-m\\)，\\(OD=m\\)，\n由题意可得：\\(OC=6\\)，\n∴\\(CE=CB=\\sqrt[] { (-6-0) ^ { 2 } +(0-3) ^ { 2 } }=3\\sqrt[] { 5 }\\)，\\(DE=BD=3-m\\)，\n\\(\\therefore OE=CE-CO=3\\sqrt[] { 5 }-6\\)．\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOE\\)中，由勾股定理得：\\(OD ^ { 2 } +OE ^ { 2 } =DE ^ { 2 }\\)，即\\(\\left ( { 3\\sqrt[] { 5 }-6 } \\right ) ^ { 2 } +m ^ { 2 } =(3-m) ^ { 2 }\\)，\n解得：\\(m=6\\sqrt[] { 5 }-12\\)，\n\\(\\therefore\\)点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)．\n【点睛】本题考查的是一次函数综合运用，图形的旋转，折叠的性质，一次函数的性质，等腰直角三角形的性质，全等三角形的性质和判定，勾股定理等知识，待定系数法求出一次函数解析式是解题的关键．勾股定理：两直角边的平方和等于斜边的平方；全等三角形的性质：对应边相等，对应角相等；全等三角形的判定：\\({ \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } }\\)，\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)，\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)，\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)，\\({ \\rm{ H } }{ \\rm{ L } }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-FCFEEB5116/figures/59fa2fd6717cd93fa781890e31bf5e45d029eeb1b7670f00c93722f4e2f92fbb.png",
+    "assets/SZ-G8-T1-FCFEEB5116/figures/afa3aacea8a0b70011517771e073c14d4e0e5a06b8ebae0dd0fd73f690dd3eb7.png"
+  ],
+  "solution": "【小问1详解】\n解：∵直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)\n设\\(AB\\)的解析式为\\(y=kx+3\\)，\n将\\(A(-1,0)\\)代入\\(y=kx+3\\)中，\n得：\\(-k+3=0\\)，解得：\\(k=3\\)，\n所以直线\\(AB\\)的函数解析式为：\\(y=3x+3\\)；\n【小问2详解】\n解：∵\\(A(-1,0)\\)，\\(B(0,3)\\)\n∴\\(AO=1\\)，\\(OB=3\\)\n如图所示，过点\\(A\\)作\\(DA\\bot AB\\)交\\(BC\\)于点\\(D\\)，作\\(DE\\bot x\\)轴于点\\(E\\)．\n〔图2〕\n\\(\\because \\angle CBA=45{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)为等腰直角三角形，\n∴\\(AD=AB\\)，\n\\(\\because \\angle ABO+\\angle BAO=90{}^\\circ\\)，\\(\\angle DAE+\\angle BAO=90{}^\\circ\\)，\n\\(\\therefore \\angle ABO=\\angle DAE\\)．\n\\(\\because \\angle BOA=\\angle DEA=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AOB≌\\vartriangle DEA{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，\n\\(\\therefore DE=OA=1\\)，\\(AE=OB=3\\)，\n∴\\(OE=AE+AO=4\\)，\n\\(\\therefore\\)点\\(D\\)的坐标为\\((-4,1)\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+3\\)，\n将D\\((-4,1)\\)代入\\(y=kx+3\\)，\n得：\\(-4k+3=1\\)，解得：\\(k=\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)，\n当\\(y=0\\)时，\\(\\frac { 1 } { 2 }x+3=0\\)，解得：\\(x=-6\\)，\n\\(\\therefore\\)点\\(C\\)的坐标为\\((-6,0)\\)；\n【小问3详解】\n解：设点\\(D\\)的坐标为\\((0,m)\\)，则：\\(BD=3-m\\)，\\(OD=m\\)，\n由题意可得：\\(OC=6\\)，\n∴\\(CE=CB=\\sqrt[] { (-6-0) ^ { 2 } +(0-3) ^ { 2 } }=3\\sqrt[] { 5 }\\)，\\(DE=BD=3-m\\)，\n\\(\\therefore OE=CE-CO=3\\sqrt[] { 5 }-6\\)．\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOE\\)中，由勾股定理得：\\(OD ^ { 2 } +OE ^ { 2 } =DE ^ { 2 }\\)，即\\(\\left ( { 3\\sqrt[] { 5 }-6 } \\right ) ^ { 2 } +m ^ { 2 } =(3-m) ^ { 2 }\\)，\n解得：\\(m=6\\sqrt[] { 5 }-12\\)，\n\\(\\therefore\\)点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)",
+    "设\\(AB\\)的解析式为\\(y=kx+3\\)，",
+    "将\\(A(-1,0)\\)代入\\(y=kx+3\\)中，",
+    "得：\\(-k+3=0\\)，解得：\\(k=3\\)，",
+    "所以直线\\(AB\\)的函数解析式为：\\(y=3x+3\\)；",
+    "【小问2详解】",
+    "解：∵\\(A(-1,0)\\)，\\(B(0,3)\\)",
+    "∴\\(AO=1\\)，\\(OB=3\\)",
+    "如图所示，过点\\(A\\)作\\(DA\\bot AB\\)交\\(BC\\)于点\\(D\\)，作\\(DE\\bot x\\)轴于点\\(E\\)．",
+    "〔图2〕",
+    "\\(\\because \\angle CBA=45{}^\\circ\\)，",
+    "∴\\(\\vartriangle ABD\\)为等腰直角三角形，",
+    "∴\\(AD=AB\\)，",
+    "\\(\\because \\angle ABO+\\angle BAO=90{}^\\circ\\)，\\(\\angle DAE+\\angle BAO=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABO=\\angle DAE\\)．",
+    "\\(\\because \\angle BOA=\\angle DEA=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle AOB≌\\vartriangle DEA{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，",
+    "\\(\\therefore DE=OA=1\\)，\\(AE=OB=3\\)，",
+    "∴\\(OE=AE+AO=4\\)，",
+    "\\(\\therefore\\)点\\(D\\)的坐标为\\((-4,1)\\)，",
+    "设直线\\(BC\\)的解析式为\\(y=kx+3\\)，",
+    "将D\\((-4,1)\\)代入\\(y=kx+3\\)，",
+    "得：\\(-4k+3=1\\)，解得：\\(k=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)，",
+    "当\\(y=0\\)时，\\(\\frac { 1 } { 2 }x+3=0\\)，解得：\\(x=-6\\)，",
+    "\\(\\therefore\\)点\\(C\\)的坐标为\\((-6,0)\\)；",
+    "【小问3详解】",
+    "解：设点\\(D\\)的坐标为\\((0,m)\\)，则：\\(BD=3-m\\)，\\(OD=m\\)，",
+    "由题意可得：\\(OC=6\\)，",
+    "∴\\(CE=CB=\\sqrt[] { (-6-0) ^ { 2 } +(0-3) ^ { 2 } }=3\\sqrt[] { 5 }\\)，\\(DE=BD=3-m\\)，",
+    "\\(\\therefore OE=CE-CO=3\\sqrt[] { 5 }-6\\)．",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOE\\)中，由勾股定理得：\\(OD ^ { 2 } +OE ^ { 2 } =DE ^ { 2 }\\)，即\\(\\left ( { 3\\sqrt[] { 5 }-6 } \\right ) ^ { 2 } +m ^ { 2 } =(3-m) ^ { 2 }\\)，",
+    "解得：\\(m=6\\sqrt[] { 5 }-12\\)，",
+    "\\(\\therefore\\)点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在平面直角坐标系中，直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)．\n〔图1〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-FCFEEB5116-Q21-P01",
+      "label": "（1）",
+      "prompt": "求直线\\(AB\\)的函数解析式；",
+      "stem_text": "求直线\\(AB\\)的函数解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "直线\\(AB\\)的函数解析式为\\(y=3x+3\\)",
+      "answer": "直线\\(AB\\)的函数解析式为\\(y=3x+3\\)",
+      "given_solution": "解：∵直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)\n设\\(AB\\)的解析式为\\(y=kx+3\\)，\n将\\(A(-1,0)\\)代入\\(y=kx+3\\)中，\n得：\\(-k+3=0\\)，解得：\\(k=3\\)，\n所以直线\\(AB\\)的函数解析式为：\\(y=3x+3\\)；",
+      "solution_steps": [
+        "解：∵直线与\\(x\\)轴交于点\\(A(-1,0)\\)，与\\(y\\)轴交于点\\(B(0,3)\\)",
+        "设\\(AB\\)的解析式为\\(y=kx+3\\)，",
+        "将\\(A(-1,0)\\)代入\\(y=kx+3\\)中，",
+        "得：\\(-k+3=0\\)，解得：\\(k=3\\)，",
+        "所以直线\\(AB\\)的函数解析式为：\\(y=3x+3\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303,
+          304
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-FCFEEB5116-Q21-P02",
+      "label": "（2）",
+      "prompt": "将直线\\(AB\\)绕点\\(B\\)顺时针旋转\\(45{}^\\circ\\)交\\(x\\)轴于点\\(C\\)，求点\\(C\\)的坐标；",
+      "stem_text": "将直线\\(AB\\)绕点\\(B\\)顺时针旋转\\(45{}^\\circ\\)交\\(x\\)轴于点\\(C\\)，求点\\(C\\)的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "点\\(C\\)的坐标为\\((-6,0)\\)",
+      "answer": "点\\(C\\)的坐标为\\((-6,0)\\)",
+      "given_solution": "解：∵\\(A(-1,0)\\)，\\(B(0,3)\\)\n∴\\(AO=1\\)，\\(OB=3\\)\n如图所示，过点\\(A\\)作\\(DA\\bot AB\\)交\\(BC\\)于点\\(D\\)，作\\(DE\\bot x\\)轴于点\\(E\\)．\n〔图2〕\n\\(\\because \\angle CBA=45{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)为等腰直角三角形，\n∴\\(AD=AB\\)，\n\\(\\because \\angle ABO+\\angle BAO=90{}^\\circ\\)，\\(\\angle DAE+\\angle BAO=90{}^\\circ\\)，\n\\(\\therefore \\angle ABO=\\angle DAE\\)．\n\\(\\because \\angle BOA=\\angle DEA=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AOB≌\\vartriangle DEA{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，\n\\(\\therefore DE=OA=1\\)，\\(AE=OB=3\\)，\n∴\\(OE=AE+AO=4\\)，\n\\(\\therefore\\)点\\(D\\)的坐标为\\((-4,1)\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+3\\)，\n将D\\((-4,1)\\)代入\\(y=kx+3\\)，\n得：\\(-4k+3=1\\)，解得：\\(k=\\frac { 1 } { 2 }\\)，\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)，\n当\\(y=0\\)时，\\(\\frac { 1 } { 2 }x+3=0\\)，解得：\\(x=-6\\)，\n\\(\\therefore\\)点\\(C\\)的坐标为\\((-6,0)\\)；",
+      "solution_steps": [
+        "解：∵\\(A(-1,0)\\)，\\(B(0,3)\\)",
+        "∴\\(AO=1\\)，\\(OB=3\\)",
+        "如图所示，过点\\(A\\)作\\(DA\\bot AB\\)交\\(BC\\)于点\\(D\\)，作\\(DE\\bot x\\)轴于点\\(E\\)．",
+        "〔图2〕",
+        "\\(\\because \\angle CBA=45{}^\\circ\\)，",
+        "∴\\(\\vartriangle ABD\\)为等腰直角三角形，",
+        "∴\\(AD=AB\\)，",
+        "\\(\\because \\angle ABO+\\angle BAO=90{}^\\circ\\)，\\(\\angle DAE+\\angle BAO=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABO=\\angle DAE\\)．",
+        "\\(\\because \\angle BOA=\\angle DEA=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle AOB≌\\vartriangle DEA{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ ) } }\\)，",
+        "\\(\\therefore DE=OA=1\\)，\\(AE=OB=3\\)，",
+        "∴\\(OE=AE+AO=4\\)，",
+        "\\(\\therefore\\)点\\(D\\)的坐标为\\((-4,1)\\)，",
+        "设直线\\(BC\\)的解析式为\\(y=kx+3\\)，",
+        "将D\\((-4,1)\\)代入\\(y=kx+3\\)，",
+        "得：\\(-4k+3=1\\)，解得：\\(k=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=\\frac { 1 } { 2 }x+3\\)，",
+        "当\\(y=0\\)时，\\(\\frac { 1 } { 2 }x+3=0\\)，解得：\\(x=-6\\)，",
+        "\\(\\therefore\\)点\\(C\\)的坐标为\\((-6,0)\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-FCFEEB5116-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图2，在线段\\(OB\\)上有一点\\(D\\)，将\\(\\vartriangle BCD\\)沿直线\\(CD\\)折叠后，点\\(B\\)恰好落在\\(x\\)轴上的点\\(E\\)处，求点\\(D\\)的坐标．",
+      "stem_text": "如图2，在线段\\(OB\\)上有一点\\(D\\)，将\\(\\vartriangle BCD\\)沿直线\\(CD\\)折叠后，点\\(B\\)恰好落在\\(x\\)轴上的点\\(E\\)处，求点\\(D\\)的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)",
+      "answer": "点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)",
+      "given_solution": "解：设点\\(D\\)的坐标为\\((0,m)\\)，则：\\(BD=3-m\\)，\\(OD=m\\)，\n由题意可得：\\(OC=6\\)，\n∴\\(CE=CB=\\sqrt[] { (-6-0) ^ { 2 } +(0-3) ^ { 2 } }=3\\sqrt[] { 5 }\\)，\\(DE=BD=3-m\\)，\n\\(\\therefore OE=CE-CO=3\\sqrt[] { 5 }-6\\)．\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOE\\)中，由勾股定理得：\\(OD ^ { 2 } +OE ^ { 2 } =DE ^ { 2 }\\)，即\\(\\left ( { 3\\sqrt[] { 5 }-6 } \\right ) ^ { 2 } +m ^ { 2 } =(3-m) ^ { 2 }\\)，\n解得：\\(m=6\\sqrt[] { 5 }-12\\)，\n\\(\\therefore\\)点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)．",
+      "solution_steps": [
+        "解：设点\\(D\\)的坐标为\\((0,m)\\)，则：\\(BD=3-m\\)，\\(OD=m\\)，",
+        "由题意可得：\\(OC=6\\)，",
+        "∴\\(CE=CB=\\sqrt[] { (-6-0) ^ { 2 } +(0-3) ^ { 2 } }=3\\sqrt[] { 5 }\\)，\\(DE=BD=3-m\\)，",
+        "\\(\\therefore OE=CE-CO=3\\sqrt[] { 5 }-6\\)．",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOE\\)中，由勾股定理得：\\(OD ^ { 2 } +OE ^ { 2 } =DE ^ { 2 }\\)，即\\(\\left ( { 3\\sqrt[] { 5 }-6 } \\right ) ^ { 2 } +m ^ { 2 } =(3-m) ^ { 2 }\\)，",
+        "解得：\\(m=6\\sqrt[] { 5 }-12\\)，",
+        "\\(\\therefore\\)点\\(D\\)的坐标为\\(\\left ( { 0,6\\sqrt[] { 5 }-12 } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          64
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      64
+    ],
+    "solution_body_blocks": [
+      287,
+      334
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-FCFEEB5116/paper-q21-p05.webp",
+      "assets/SZ-G8-T1-FCFEEB5116/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          732.27,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          45.0,
+          583.64,
+          290.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-FCFEEB5116/solution-q21-p17.webp",
+      "assets/SZ-G8-T1-FCFEEB5116/solution-q21-p18.webp",
+      "assets/SZ-G8-T1-FCFEEB5116/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          303.64,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          290.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问解答对应“由两点或表格条件确定一次表达式”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

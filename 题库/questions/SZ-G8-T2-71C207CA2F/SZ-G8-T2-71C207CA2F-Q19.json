@@ -1,0 +1,310 @@
+{
+  "knowledge_ids": [
+    "M.N03.07",
+    "M.N03.08"
+  ],
+  "exam_ids": [
+    "E.N03.07.01",
+    "E.N03.08.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“识别并提取公因式”。 本问的要求和解答步骤对应“识别并提取公因式、用公式将整式分解到要求形式”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-71C207CA2F-Q19",
+  "number": 19,
+  "paper_id": "SZ-G8-T2-71C207CA2F",
+  "title": "识别并提取公因式、用公式将整式分解到要求形式",
+  "stem": "【阅读材料】：将四项及四项以上的多项式进行因式分解，我们一般使用分组分解法，对于四项多项式的分组分解法有两种分法：一是“\\(3+1\\)”分组，二是“\\(2+2\\)”分组．两种分组的主要区别在于多项式中是否存在三项可以构成完全平方，若可以构成完全平方，则采用“\\(3+1\\)”分组；若无法构成，则采用“\\(2+2\\)”分组．\n例如：\n\\(am+bm+an+bn\\)\\(=\\left ( { am+bm } \\right )+\\left ( { an+bn } \\right )\\) \\(=m\\left ( { a+b } \\right )+n\\left ( { a+b } \\right )\\) \\(=\\left ( { a+b } \\right )\\left ( { m+n } \\right )\\)   | \\(x ^ { 2 } +2x+1-4\\)\\(=\\left ( { x ^ { 2 } +2x+1 } \\right )-4\\) \\(=\\left ( { x+1 } \\right ) ^ { 2 } -4\\) \\(=\\left ( { x+1+2 } \\right )\\left ( { x+1-2 } \\right )\\) \\(=\\left ( { x+3 } \\right )\\left ( { x-1 } \\right )\\)\n像这种将一个多项式适当分组后，再分解因式的方法叫做分组分解法．\n【学以致用】：因式分解（1）\\(mp+nq-mq-np\\)；\n（2）\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)．\n【拓展延伸】：对于四项以上的多项式，我们可以据其特征适当地将某一项拆成两项，再进行分组，进而因式分解来解决问题，请你利用这样的思路试一试．\n①已知\\(a,b,c\\)为等腰\\(\\vartriangle ABC\\)的三边长，且满足\\(a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)，求等腰\\(\\vartriangle ABC\\)的面积；\n②如图，长方形\\(ABCD\\)，已知\\(S_{ 长方形ABCD } =x ^ { 2 } -xy-2y ^ { 2 }\\)，其中\\(x>2y\\)，且\\(y>0\\)，求长方形\\(ABCD\\)的边\\(AD,AB\\)的长度．（\\(AD>AB\\)，用含\\(x,y\\)的式子表示）\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【阅读材料】：将四项及四项以上的多项式进行因式分解，我们一般使用分组分解法，对于四项多项式的分组分解法有两种分法：一是“\\(3+1\\)”分组，二是“\\(2+2\\)”分组．两种分组的主要区别在于多项式中是否存在三项可以构成完全平方，若可以构成完全平方，则采用“\\(3+1\\)”分组；若无法构成，则采用“\\(2+2\\)”分组．\n例如：\n\\(am+bm+an+bn\\)\\(=\\left ( { am+bm } \\right )+\\left ( { an+bn } \\right )\\) \\(=m\\left ( { a+b } \\right )+n\\left ( { a+b } \\right )\\) \\(=\\left ( { a+b } \\right )\\left ( { m+n } \\right )\\)   | \\(x ^ { 2 } +2x+1-4\\)\\(=\\left ( { x ^ { 2 } +2x+1 } \\right )-4\\) \\(=\\left ( { x+1 } \\right ) ^ { 2 } -4\\) \\(=\\left ( { x+1+2 } \\right )\\left ( { x+1-2 } \\right )\\) \\(=\\left ( { x+3 } \\right )\\left ( { x-1 } \\right )\\)\n像这种将一个多项式适当分组后，再分解因式的方法叫做分组分解法．\n【学以致用】：因式分解",
+      "paper_blocks": [
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "id": "fig-77",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-71C207CA2F-Q19-P01",
+      "label": "（1）",
+      "prompt": "\\(mp+nq-mq-np\\)；",
+      "stem_text": "\\(mp+nq-mq-np\\)；",
+      "material_ids": [
+        "context",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）",
+      "given_solution": "\\(mp+nq-mq-np\\)\n\\(=\\left ( { mp-mq } \\right )+\\left ( { nq-np } \\right )\\)\n\\(=m\\left ( { p-q } \\right )-n\\left ( { p-q } \\right )\\)\n\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）",
+      "solution_steps": [
+        "\\(mp+nq-mq-np\\)",
+        "\\(=\\left ( { mp-mq } \\right )+\\left ( { nq-np } \\right )\\)",
+        "\\(=m\\left ( { p-q } \\right )-n\\left ( { p-q } \\right )\\)",
+        "\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          77
+        ],
+        "solution_block_ids": [
+          255,
+          256,
+          257,
+          258
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.07"
+      ],
+      "exam_ids": [
+        "E.N03.07.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“识别并提取公因式”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-71C207CA2F-Q19-P02",
+      "label": "（2）",
+      "prompt": "\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)．\n【拓展延伸】：对于四项以上的多项式，我们可以据其特征适当地将某一项拆成两项，再进行分组，进而因式分解来解决问题，请你利用这样的思路试一试．\n①已知\\(a,b,c\\)为等腰\\(\\vartriangle ABC\\)的三边长，且满足\\(a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)，求等腰\\(\\vartriangle ABC\\)的面积；\n②如图，长方形\\(ABCD\\)，已知\\(S_{ 长方形ABCD } =x ^ { 2 } -xy-2y ^ { 2 }\\)，其中\\(x>2y\\)，且\\(y>0\\)，求长方形\\(ABCD\\)的边\\(AD,AB\\)的长度．（\\(AD>AB\\)，用含\\(x,y\\)的式子表示）",
+      "stem_text": "\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)．\n【拓展延伸】：对于四项以上的多项式，我们可以据其特征适当地将某一项拆成两项，再进行分组，进而因式分解来解决问题，请你利用这样的思路试一试．\n①已知\\(a,b,c\\)为等腰\\(\\vartriangle ABC\\)的三边长，且满足\\(a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)，求等腰\\(\\vartriangle ABC\\)的面积；\n②如图，长方形\\(ABCD\\)，已知\\(S_{ 长方形ABCD } =x ^ { 2 } -xy-2y ^ { 2 }\\)，其中\\(x>2y\\)，且\\(y>0\\)，求长方形\\(ABCD\\)的边\\(AD,AB\\)的长度．（\\(AD>AB\\)，用含\\(x,y\\)的式子表示）",
+      "material_ids": [
+        "context",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）",
+      "given_solution": "\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)\n\\(=81-\\left ( { 4x ^ { 2 } -12xy+9y ^ { 2 } } \\right )\\)\n\\(=81-(2x-3y) ^ { 2 }\\)\n\\(=\\left ( { 9+2x-3y } \\right )\\left ( { 9-2x+3y } \\right )\\)(4分）\n[拓展延伸]\n（1）\\(\\because a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)\n\\(\\therefore \\left ( { a ^ { 2 } -20a+100 } \\right )+\\left ( { b ^ { 2 } -24b+144 } \\right )=0\\)\n\\(\\therefore (a-10) ^ { 2 } +(b-12) ^ { 2 } =0\\)(5分）\n\\(\\because (a-10) ^ { 2 } \\ge 0,(b-12) ^ { 2 } \\ge 0\\)\n\\(\\therefore a-10=0,b-12=0\\)\n\\(\\therefore a=10,b=12\\)(6分）\n\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的三边为\\(10,10,12\\)或\\(10,12,12\\)(7分）\n\\(\\therefore S_{ 等腰\\vartriangle ABC } =\\frac { 12\\times \\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } } } { 2 }=48\\)，\n\\(S_{ 等腰\\vartriangle ABC } =\\frac { 10\\times \\sqrt[] { 12 ^ { 2 } -5 ^ { 2 } } } { 2 }=5\\sqrt[] { 119 }\\)，\n\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的面积为48或\\(5\\sqrt[] { 119 }\\)．(8分）\n（2）\\(x ^ { 2 } -xy-2y ^ { 2 }\\)\n\\(=x ^ { 2 } +2xy-3xy+y ^ { 2 } -3y ^ { 2 }\\)\n\\(=x ^ { 2 } +2xy+y ^ { 2 } -3xy-3y ^ { 2 }\\)\n\\(=(x+y) ^ { 2 } -3y\\left ( { x+y } \\right )\\)\n\\(=\\left ( { x+y } \\right )\\left ( { x-2y } \\right )\\)(9分）\n\\(\\because x>2y\\)且\\(y>0\\)\n\\(\\therefore x-2y>0\\)\n\\(\\left ( { x+y } \\right )-\\left ( { x-2y } \\right )=x+y-x+2y=3y>0\\)(10分）\n\\(\\therefore x+y>x-2y\\)\n\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）",
+      "solution_steps": [
+        "\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)",
+        "\\(=81-\\left ( { 4x ^ { 2 } -12xy+9y ^ { 2 } } \\right )\\)",
+        "\\(=81-(2x-3y) ^ { 2 }\\)",
+        "\\(=\\left ( { 9+2x-3y } \\right )\\left ( { 9-2x+3y } \\right )\\)(4分）",
+        "[拓展延伸]",
+        "（1）\\(\\because a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)",
+        "\\(\\therefore \\left ( { a ^ { 2 } -20a+100 } \\right )+\\left ( { b ^ { 2 } -24b+144 } \\right )=0\\)",
+        "\\(\\therefore (a-10) ^ { 2 } +(b-12) ^ { 2 } =0\\)(5分）",
+        "\\(\\because (a-10) ^ { 2 } \\ge 0,(b-12) ^ { 2 } \\ge 0\\)",
+        "\\(\\therefore a-10=0,b-12=0\\)",
+        "\\(\\therefore a=10,b=12\\)(6分）",
+        "\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的三边为\\(10,10,12\\)或\\(10,12,12\\)(7分）",
+        "\\(\\therefore S_{ 等腰\\vartriangle ABC } =\\frac { 12\\times \\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } } } { 2 }=48\\)，",
+        "\\(S_{ 等腰\\vartriangle ABC } =\\frac { 10\\times \\sqrt[] { 12 ^ { 2 } -5 ^ { 2 } } } { 2 }=5\\sqrt[] { 119 }\\)，",
+        "\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的面积为48或\\(5\\sqrt[] { 119 }\\)．(8分）",
+        "（2）\\(x ^ { 2 } -xy-2y ^ { 2 }\\)",
+        "\\(=x ^ { 2 } +2xy-3xy+y ^ { 2 } -3y ^ { 2 }\\)",
+        "\\(=x ^ { 2 } +2xy+y ^ { 2 } -3xy-3y ^ { 2 }\\)",
+        "\\(=(x+y) ^ { 2 } -3y\\left ( { x+y } \\right )\\)",
+        "\\(=\\left ( { x+y } \\right )\\left ( { x-2y } \\right )\\)(9分）",
+        "\\(\\because x>2y\\)且\\(y>0\\)",
+        "\\(\\therefore x-2y>0\\)",
+        "\\(\\left ( { x+y } \\right )-\\left ( { x-2y } \\right )=x+y-x+2y=3y>0\\)(10分）",
+        "\\(\\therefore x+y>x-2y\\)",
+        "\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N03.07",
+        "M.N03.08"
+      ],
+      "exam_ids": [
+        "E.N03.07.01",
+        "E.N03.08.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“识别并提取公因式、用公式将整式分解到要求形式”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/6f/6f5d80ad8ae57ae3507d8dd7e7bb4770212ae754033d1ebff4aebba2f2cda935.png"
+  ],
+  "tables": [
+    {
+      "text": "\\(am+bm+an+bn\\)\\(=\\left ( { am+bm } \\right )+\\left ( { an+bn } \\right )\\) \\(=m\\left ( { a+b } \\right )+n\\left ( { a+b } \\right )\\) \\(=\\left ( { a+b } \\right )\\left ( { m+n } \\right )\\)   | \\(x ^ { 2 } +2x+1-4\\)\\(=\\left ( { x ^ { 2 } +2x+1 } \\right )-4\\) \\(=\\left ( { x+1 } \\right ) ^ { 2 } -4\\) \\(=\\left ( { x+1+2 } \\right )\\left ( { x+1-2 } \\right )\\) \\(=\\left ( { x+3 } \\right )\\left ( { x-1 } \\right )\\)",
+      "rows": [
+        [
+          [
+            "\\(am+bm+an+bn\\)\\(=\\left ( { am+bm } \\right )+\\left ( { an+bn } \\right )\\) \\(=m\\left ( { a+b } \\right )+n\\left ( { a+b } \\right )\\) \\(=\\left ( { a+b } \\right )\\left ( { m+n } \\right )\\)"
+          ],
+          [
+            "\\(x ^ { 2 } +2x+1-4\\)\\(=\\left ( { x ^ { 2 } +2x+1 } \\right )-4\\) \\(=\\left ( { x+1 } \\right ) ^ { 2 } -4\\) \\(=\\left ( { x+1+2 } \\right )\\left ( { x+1-2 } \\right )\\) \\(=\\left ( { x+3 } \\right )\\left ( { x-1 } \\right )\\)"
+          ]
+        ]
+      ]
+    }
+  ],
+  "answer": "（1）\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）\n（2）\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）",
+  "given_answer": "",
+  "given_solution": "【详解】解：[学以致用]\n（1）\\(mp+nq-mq-np\\)\n\\(=\\left ( { mp-mq } \\right )+\\left ( { nq-np } \\right )\\)\n\\(=m\\left ( { p-q } \\right )-n\\left ( { p-q } \\right )\\)\n\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）\n（2）\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)\n\\(=81-\\left ( { 4x ^ { 2 } -12xy+9y ^ { 2 } } \\right )\\)\n\\(=81-(2x-3y) ^ { 2 }\\)\n\\(=\\left ( { 9+2x-3y } \\right )\\left ( { 9-2x+3y } \\right )\\)(4分）\n[拓展延伸]\n（1）\\(\\because a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)\n\\(\\therefore \\left ( { a ^ { 2 } -20a+100 } \\right )+\\left ( { b ^ { 2 } -24b+144 } \\right )=0\\)\n\\(\\therefore (a-10) ^ { 2 } +(b-12) ^ { 2 } =0\\)(5分）\n\\(\\because (a-10) ^ { 2 } \\ge 0,(b-12) ^ { 2 } \\ge 0\\)\n\\(\\therefore a-10=0,b-12=0\\)\n\\(\\therefore a=10,b=12\\)(6分）\n\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的三边为\\(10,10,12\\)或\\(10,12,12\\)(7分）\n\\(\\therefore S_{ 等腰\\vartriangle ABC } =\\frac { 12\\times \\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } } } { 2 }=48\\)，\n\\(S_{ 等腰\\vartriangle ABC } =\\frac { 10\\times \\sqrt[] { 12 ^ { 2 } -5 ^ { 2 } } } { 2 }=5\\sqrt[] { 119 }\\)，\n\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的面积为48或\\(5\\sqrt[] { 119 }\\)．(8分）\n（2）\\(x ^ { 2 } -xy-2y ^ { 2 }\\)\n\\(=x ^ { 2 } +2xy-3xy+y ^ { 2 } -3y ^ { 2 }\\)\n\\(=x ^ { 2 } +2xy+y ^ { 2 } -3xy-3y ^ { 2 }\\)\n\\(=(x+y) ^ { 2 } -3y\\left ( { x+y } \\right )\\)\n\\(=\\left ( { x+y } \\right )\\left ( { x-2y } \\right )\\)(9分）\n\\(\\because x>2y\\)且\\(y>0\\)\n\\(\\therefore x-2y>0\\)\n\\(\\left ( { x+y } \\right )-\\left ( { x-2y } \\right )=x+y-x+2y=3y>0\\)(10分）\n\\(\\therefore x+y>x-2y\\)\n\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "解：[学以致用]",
+    "（1）\\(mp+nq-mq-np\\)",
+    "\\(=\\left ( { mp-mq } \\right )+\\left ( { nq-np } \\right )\\)",
+    "\\(=m\\left ( { p-q } \\right )-n\\left ( { p-q } \\right )\\)",
+    "\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）",
+    "（2）\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)",
+    "\\(=81-\\left ( { 4x ^ { 2 } -12xy+9y ^ { 2 } } \\right )\\)",
+    "\\(=81-(2x-3y) ^ { 2 }\\)",
+    "\\(=\\left ( { 9+2x-3y } \\right )\\left ( { 9-2x+3y } \\right )\\)(4分）",
+    "[拓展延伸]",
+    "（1）\\(\\because a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)",
+    "\\(\\therefore \\left ( { a ^ { 2 } -20a+100 } \\right )+\\left ( { b ^ { 2 } -24b+144 } \\right )=0\\)",
+    "\\(\\therefore (a-10) ^ { 2 } +(b-12) ^ { 2 } =0\\)(5分）",
+    "\\(\\because (a-10) ^ { 2 } \\ge 0,(b-12) ^ { 2 } \\ge 0\\)",
+    "\\(\\therefore a-10=0,b-12=0\\)",
+    "\\(\\therefore a=10,b=12\\)(6分）",
+    "\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的三边为\\(10,10,12\\)或\\(10,12,12\\)(7分）",
+    "\\(\\therefore S_{ 等腰\\vartriangle ABC } =\\frac { 12\\times \\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } } } { 2 }=48\\)，",
+    "\\(S_{ 等腰\\vartriangle ABC } =\\frac { 10\\times \\sqrt[] { 12 ^ { 2 } -5 ^ { 2 } } } { 2 }=5\\sqrt[] { 119 }\\)，",
+    "\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的面积为48或\\(5\\sqrt[] { 119 }\\)．(8分）",
+    "（2）\\(x ^ { 2 } -xy-2y ^ { 2 }\\)",
+    "\\(=x ^ { 2 } +2xy-3xy+y ^ { 2 } -3y ^ { 2 }\\)",
+    "\\(=x ^ { 2 } +2xy+y ^ { 2 } -3xy-3y ^ { 2 }\\)",
+    "\\(=(x+y) ^ { 2 } -3y\\left ( { x+y } \\right )\\)",
+    "\\(=\\left ( { x+y } \\right )\\left ( { x-2y } \\right )\\)(9分）",
+    "\\(\\because x>2y\\)且\\(y>0\\)",
+    "\\(\\therefore x-2y>0\\)",
+    "\\(\\left ( { x+y } \\right )-\\left ( { x-2y } \\right )=x+y-x+2y=3y>0\\)(10分）",
+    "\\(\\therefore x+y>x-2y\\)",
+    "\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "解：[学以致用]\n（1）\\(mp+nq-mq-np\\)\n\\(=\\left ( { mp-mq } \\right )+\\left ( { nq-np } \\right )\\)\n\\(=m\\left ( { p-q } \\right )-n\\left ( { p-q } \\right )\\)\n\\(=\\left ( { p-q } \\right )\\left ( { m-n } \\right )\\)．(2分）\n（2）\\(81-4x ^ { 2 } +12xy-9y ^ { 2 }\\)\n\\(=81-\\left ( { 4x ^ { 2 } -12xy+9y ^ { 2 } } \\right )\\)\n\\(=81-(2x-3y) ^ { 2 }\\)\n\\(=\\left ( { 9+2x-3y } \\right )\\left ( { 9-2x+3y } \\right )\\)(4分）\n[拓展延伸]\n（1）\\(\\because a ^ { 2 } +b ^ { 2 } =20a+24b-244\\)\n\\(\\therefore \\left ( { a ^ { 2 } -20a+100 } \\right )+\\left ( { b ^ { 2 } -24b+144 } \\right )=0\\)\n\\(\\therefore (a-10) ^ { 2 } +(b-12) ^ { 2 } =0\\)(5分）\n\\(\\because (a-10) ^ { 2 } \\ge 0,(b-12) ^ { 2 } \\ge 0\\)\n\\(\\therefore a-10=0,b-12=0\\)\n\\(\\therefore a=10,b=12\\)(6分）\n\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的三边为\\(10,10,12\\)或\\(10,12,12\\)(7分）\n\\(\\therefore S_{ 等腰\\vartriangle ABC } =\\frac { 12\\times \\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } } } { 2 }=48\\)，\n\\(S_{ 等腰\\vartriangle ABC } =\\frac { 10\\times \\sqrt[] { 12 ^ { 2 } -5 ^ { 2 } } } { 2 }=5\\sqrt[] { 119 }\\)，\n\\(\\therefore\\)等腰\\(\\vartriangle ABC\\)的面积为48或\\(5\\sqrt[] { 119 }\\)．(8分）\n（2）\\(x ^ { 2 } -xy-2y ^ { 2 }\\)\n\\(=x ^ { 2 } +2xy-3xy+y ^ { 2 } -3y ^ { 2 }\\)\n\\(=x ^ { 2 } +2xy+y ^ { 2 } -3xy-3y ^ { 2 }\\)\n\\(=(x+y) ^ { 2 } -3y\\left ( { x+y } \\right )\\)\n\\(=\\left ( { x+y } \\right )\\left ( { x-2y } \\right )\\)(9分）\n\\(\\because x>2y\\)且\\(y>0\\)\n\\(\\therefore x-2y>0\\)\n\\(\\left ( { x+y } \\right )-\\left ( { x-2y } \\right )=x+y-x+2y=3y>0\\)(10分）\n\\(\\therefore x+y>x-2y\\)\n\\(\\therefore AD=x+y,AB=x-2y\\)．(11分）",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-71C207CA2F/single/q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          286.75,
+          582.2,
+          766.75
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-71C207CA2F/single/s19-p13.webp",
+      "assets/SZ-G8-T2-71C207CA2F/single/s19-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          514.18,
+          582.2,
+          769.83
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          75.74,
+          582.2,
+          534.87
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

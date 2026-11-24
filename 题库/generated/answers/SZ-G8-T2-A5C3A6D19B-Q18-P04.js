@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q18-P04",{"answer":"\\(100\\le x\\le160\\)（元）。","solution_steps":["由 \\(-2(x-130)^2+9800\\ge8000\\)，得 \\((x-130)^2\\le900\\)，故 \\(100\\le x\\le160\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

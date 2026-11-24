@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q18-P01",{"answer":"甲 3100 元/台，乙 3150 元/台。","solution_steps":["设甲、乙单价分别为 \\(a,b\\) 元，则 \\(3a+2b=15600,\\ a+2b=9400\\)。两式相减得 \\(2a=6200\\)。代回得 \\(b=3150\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

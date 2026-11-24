@@ -1,0 +1,240 @@
+{
+  "id": "SZ-G8-T2-DD96D14C81-Q19",
+  "paper_id": "SZ-G8-T2-DD96D14C81",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，在Rt△ABC中，∠ACB＝90°，AC＝6，BC＝8，AE平分∠CAB，CE⊥AE于点E，延长CE交AB于点D．\n〔图1〕\n（1）求证：CE＝DE；\n（2）若点F为BC的中点，求EF的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/8d/8decf71d476ecd4f90120c38c1460228fdcb86149d7366ad65dc541017142d77.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）2",
+  "answer": "（1）见解析    （2）2",
+  "given_solution": "【分析】（1）由AE平分∠CAB可得∠CAE＝∠BAE，由CE⊥AE可得∠AEC＝∠AED＝90°．然后根据ASA可得△AEC≌△AED，则CE＝DE．\n（2）在Rt△ABC中根据勾股定理可求得AB=10，由△AEC≌△AED可得AD＝AC＝6，则BD=4，由点E为CD中点，点F为BC中点可知EF是△BCD的中位线，因此\\(EF=\\frac { 1 } { 2 }BD=2\\)\n【小问1详解】\n证明：∵AE平分∠CAB，\n∴∠CAE＝∠BAE，\n∵CE⊥AE，\n∴∠AEC＝∠AED＝90°，\n在△AEC和△AED中，\n\\(\\begin{cases} \\angle CAE=\\angle DAE \\\\ AE=AE \\\\ \\angle AEC=\\angle AED \\end{cases}\\)，\n∴△AEC≌△AED（ASA），\n∴CE＝DE；\n【小问2详解】\n在Rt△ABC中，∵AC＝6，BC＝8，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵△AEC≌△AED，\n∴AD＝AC＝6，\n∴BD＝AB－AD＝4，\n∵点E为CD中点，点F为BC中点，\n∴\\(EF=\\frac { 1 } { 2 }BD=2\\)\n【点睛】本题主要考查了勾股定理，全等三角形的判定和性质，三角形中位线的判定和性质．熟练掌握以上知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/55/554730a8adf188d0d3e319aba522d54e07a15b718632c4fc19d991d3af8668e1.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵AE平分∠CAB，\n∴∠CAE＝∠BAE，\n∵CE⊥AE，\n∴∠AEC＝∠AED＝90°，\n在△AEC和△AED中，\n\\(\\begin{cases} \\angle CAE=\\angle DAE \\\\ AE=AE \\\\ \\angle AEC=\\angle AED \\end{cases}\\)，\n∴△AEC≌△AED（ASA），\n∴CE＝DE；\n【小问2详解】\n在Rt△ABC中，∵AC＝6，BC＝8，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵△AEC≌△AED，\n∴AD＝AC＝6，\n∴BD＝AB－AD＝4，\n∵点E为CD中点，点F为BC中点，\n∴\\(EF=\\frac { 1 } { 2 }BD=2\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵AE平分∠CAB，",
+    "∴∠CAE＝∠BAE，",
+    "∵CE⊥AE，",
+    "∴∠AEC＝∠AED＝90°，",
+    "在△AEC和△AED中，",
+    "\\(\\begin{cases} \\angle CAE=\\angle DAE \\\\ AE=AE \\\\ \\angle AEC=\\angle AED \\end{cases}\\)，",
+    "∴△AEC≌△AED（ASA），",
+    "∴CE＝DE；",
+    "【小问2详解】",
+    "在Rt△ABC中，∵AC＝6，BC＝8，",
+    "∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+    "∵△AEC≌△AED，",
+    "∴AD＝AC＝6，",
+    "∴BD＝AB－AD＝4，",
+    "∵点E为CD中点，点F为BC中点，",
+    "∴\\(EF=\\frac { 1 } { 2 }BD=2\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在Rt△ABC中，∠ACB＝90°，AC＝6，BC＝8，AE平分∠CAB，CE⊥AE于点E，延长CE交AB于点D．\n〔图1〕",
+      "paper_blocks": [
+        47,
+        48
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q19-P01",
+      "label": "（1）",
+      "prompt": "求证：CE＝DE；",
+      "stem_text": "求证：CE＝DE；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵AE平分∠CAB，\n∴∠CAE＝∠BAE，\n∵CE⊥AE，\n∴∠AEC＝∠AED＝90°，\n在△AEC和△AED中，\n\\(\\begin{cases} \\angle CAE=\\angle DAE \\\\ AE=AE \\\\ \\angle AEC=\\angle AED \\end{cases}\\)，\n∴△AEC≌△AED（ASA），\n∴CE＝DE；",
+      "solution_steps": [
+        "证明：∵AE平分∠CAB，",
+        "∴∠CAE＝∠BAE，",
+        "∵CE⊥AE，",
+        "∴∠AEC＝∠AED＝90°，",
+        "在△AEC和△AED中，",
+        "\\(\\begin{cases} \\angle CAE=\\angle DAE \\\\ AE=AE \\\\ \\angle AEC=\\angle AED \\end{cases}\\)，",
+        "∴△AEC≌△AED（ASA），",
+        "∴CE＝DE；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          47,
+          48,
+          49
+        ],
+        "solution_block_ids": [
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q19-P02",
+      "label": "（2）",
+      "prompt": "若点F为BC的中点，求EF的长．",
+      "stem_text": "若点F为BC的中点，求EF的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "2",
+      "answer": "2",
+      "given_solution": "在Rt△ABC中，∵AC＝6，BC＝8，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n∵△AEC≌△AED，\n∴AD＝AC＝6，\n∴BD＝AB－AD＝4，\n∵点E为CD中点，点F为BC中点，\n∴\\(EF=\\frac { 1 } { 2 }BD=2\\)",
+      "solution_steps": [
+        "在Rt△ABC中，∵AC＝6，BC＝8，",
+        "∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+        "∵△AEC≌△AED，",
+        "∴AD＝AC＝6，",
+        "∴BD＝AB－AD＝4，",
+        "∵点E为CD中点，点F为BC中点，",
+        "∴\\(EF=\\frac { 1 } { 2 }BD=2\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          47,
+          48,
+          50
+        ],
+        "solution_block_ids": [
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      47,
+      50
+    ],
+    "solution_body_blocks": [
+      229,
+      254
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-DD96D14C81/paper-q19-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          205.91,
+          583.64,
+          415.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-DD96D14C81/solution-q19-p12.webp",
+      "assets/SZ-G8-T2-DD96D14C81/solution-q19-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          502.73,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          423.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

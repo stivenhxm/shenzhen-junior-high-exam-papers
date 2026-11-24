@@ -1,0 +1,111 @@
+{
+  "id": "SZ-G8-T1-FCEC4CAD29-Q10",
+  "paper_id": "SZ-G8-T1-FCEC4CAD29",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图，\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle B=90{}^\\circ\\)，E为\\(AB\\)边上的一点，连接\\(CE\\)并延长，过点A作\\(AD\\bot CE\\)，垂足为D，若\\(AD=7\\)，\\(AB=20\\)，\\(BC=15\\)．记\\(\\vartriangle ADE\\)的面积为\\(S_{ 1 }\\)，\\(\\vartriangle BCE\\)的面积为\\(S_{ 2 }\\)，则\\(S_{ 2 } -S_{ 1 }\\)的值为（   ）．\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "56"
+    },
+    {
+      "label": "B",
+      "text": "66"
+    },
+    {
+      "label": "C",
+      "text": "74"
+    },
+    {
+      "label": "D",
+      "text": "84"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G8-T1-FCEC4CAD29/figures/b05b0ed1b48ef1de02f938af8eb06eb6dc8c2e26d79cb229c50582c21a5a24e1.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】此题考查了勾股定理，直角三角形的面积．解题的关键是利用“割补法”将两三角形的面积差转化为另外两个三角形的面积差．\n先利用勾股定理求得\\(AC\\)的长，然后再求得\\(CD\\)的长，根据题意推出\\(S_{ 2 } -S_{ 1 } =S_{ \\vartriangle ABC } -S_{ \\vartriangle ACD } ,\\)再由三角形面积公式求解即可．\n【详解】解：∵\\(\\angle B=90{}^\\circ ,\\)\\(AB=20,BC=15.\\)\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 20 ^ { 2 } +15 ^ { 2 } }=25\\)，\n由\\(AD\\bot CE\\)知\\(\\angle D=90{}^\\circ\\)，又\\(AD=7,\\)\n∴\\(CD=\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 25 ^ { 2 } -7 ^ { 2 } }=24\\)\n\\(\\because S_{ 1 } +S_{ \\vartriangle ACE } =S_{ \\vartriangle ACD } ,S_{ 2 } +S_{ \\vartriangle ACE } =S_{ \\vartriangle ABC } ,\\)\n\\(\\therefore S_{ 1 } =S_{ \\vartriangle ACD } -S_{ \\vartriangle ACE } ,S_{ 2 } =S_{ \\vartriangle ABC } -S_{ \\vartriangle ACE } ,\\)\n\\(\\therefore S_{ 2 } -S_{ 1 } =(S_{ \\vartriangle ABC } -S_{ \\vartriangle ACE } )-(S_{ \\vartriangle ACD } -S_{ \\vartriangle ACE } )=S_{ \\vartriangle ABC } -S_{ \\vartriangle ACD } ,\\)\n\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AB=\\frac { 1 } { 2 }\\times 15\\times 20=150,\\)\\(S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }AD\\cdot CD=\\frac { 1 } { 2 }\\times 7\\times 24=84,\\)\n\\(\\therefore S_{ 2 } -S_{ 1 } =150-84=66,\\)\n故选：B．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-FCEC4CAD29/figures/b05b0ed1b48ef1de02f938af8eb06eb6dc8c2e26d79cb229c50582c21a5a24e1.png"
+  ],
+  "solution": "解：∵\\(\\angle B=90{}^\\circ ,\\)\\(AB=20,BC=15.\\)\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 20 ^ { 2 } +15 ^ { 2 } }=25\\)，\n由\\(AD\\bot CE\\)知\\(\\angle D=90{}^\\circ\\)，又\\(AD=7,\\)\n∴\\(CD=\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 25 ^ { 2 } -7 ^ { 2 } }=24\\)\n\\(\\because S_{ 1 } +S_{ \\vartriangle ACE } =S_{ \\vartriangle ACD } ,S_{ 2 } +S_{ \\vartriangle ACE } =S_{ \\vartriangle ABC } ,\\)\n\\(\\therefore S_{ 1 } =S_{ \\vartriangle ACD } -S_{ \\vartriangle ACE } ,S_{ 2 } =S_{ \\vartriangle ABC } -S_{ \\vartriangle ACE } ,\\)\n\\(\\therefore S_{ 2 } -S_{ 1 } =(S_{ \\vartriangle ABC } -S_{ \\vartriangle ACE } )-(S_{ \\vartriangle ACD } -S_{ \\vartriangle ACE } )=S_{ \\vartriangle ABC } -S_{ \\vartriangle ACD } ,\\)\n\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AB=\\frac { 1 } { 2 }\\times 15\\times 20=150,\\)\\(S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }AD\\cdot CD=\\frac { 1 } { 2 }\\times 7\\times 24=84,\\)\n\\(\\therefore S_{ 2 } -S_{ 1 } =150-84=66,\\)\n故选：B．",
+  "solution_steps": [
+    "解：∵\\(\\angle B=90{}^\\circ ,\\)\\(AB=20,BC=15.\\)",
+    "∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 20 ^ { 2 } +15 ^ { 2 } }=25\\)，",
+    "由\\(AD\\bot CE\\)知\\(\\angle D=90{}^\\circ\\)，又\\(AD=7,\\)",
+    "∴\\(CD=\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 25 ^ { 2 } -7 ^ { 2 } }=24\\)",
+    "\\(\\because S_{ 1 } +S_{ \\vartriangle ACE } =S_{ \\vartriangle ACD } ,S_{ 2 } +S_{ \\vartriangle ACE } =S_{ \\vartriangle ABC } ,\\)",
+    "\\(\\therefore S_{ 1 } =S_{ \\vartriangle ACD } -S_{ \\vartriangle ACE } ,S_{ 2 } =S_{ \\vartriangle ABC } -S_{ \\vartriangle ACE } ,\\)",
+    "\\(\\therefore S_{ 2 } -S_{ 1 } =(S_{ \\vartriangle ABC } -S_{ \\vartriangle ACE } )-(S_{ \\vartriangle ACD } -S_{ \\vartriangle ACE } )=S_{ \\vartriangle ABC } -S_{ \\vartriangle ACD } ,\\)",
+    "\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\cdot AB=\\frac { 1 } { 2 }\\times 15\\times 20=150,\\)\\(S_{ \\vartriangle ACD } =\\frac { 1 } { 2 }AD\\cdot CD=\\frac { 1 } { 2 }\\times 7\\times 24=84,\\)",
+    "\\(\\therefore S_{ 2 } -S_{ 1 } =150-84=66,\\)",
+    "故选：B．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      29,
+      31
+    ],
+    "solution_body_blocks": [
+      125,
+      141
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-FCEC4CAD29/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          221.36,
+          583.64,
+          438.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-FCEC4CAD29/solution-q10-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          198.64,
+          583.64,
+          626.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

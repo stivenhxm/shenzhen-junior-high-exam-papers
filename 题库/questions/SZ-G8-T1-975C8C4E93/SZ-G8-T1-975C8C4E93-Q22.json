@@ -1,0 +1,368 @@
+{
+  "id": "SZ-G8-T1-975C8C4E93-Q22",
+  "paper_id": "SZ-G8-T1-975C8C4E93",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "如图，\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)中，\\(\\angle ACB=90{}^\\circ ,AC=BC\\)，E点为射线\\(CB\\)上一动点，连接\\(AE\\)，作\\(AF\\bot AE\\)且\\(AF=AE\\)．\n〔图1〕\n（1）如图1，过F点作\\(FD\\bot AC\\)交\\(AC\\)于D点，求证：\\(EC+CD=DF\\)；\n（2）如图2，连接\\(BF\\)交\\(AC\\)于G点，若\\(\\frac { AG } { CG }=3\\)，求证：E点为\\(BC\\)中点；\n（3）当E点在射线\\(CB\\)上，连接\\(BF\\)与直线\\(AC\\)交于G点，若\\(\\frac { BC } { BE }=\\frac { 5 } { 2 }\\)，则\\(\\frac { AG } { CG }=\\)       （直接写出结果）．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-975C8C4E93/figures/521b9370aed9567e7c9cef5f02f4e1ce5e3879a73a924d230311d3e57f4e77ce.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）见解析\n（3）\\(6\\)",
+  "answer": "（1）见解析    （2）见解析\n（3）\\(6\\)",
+  "given_solution": "【分析】（1）证明：\\(\\vartriangle ADF≌\\vartriangle EDA\\)，通过全等三角形的对应边相等得到：\\(AD=CD,FD=AC\\)，利用等量代换和图形中相关线段间的和差关系即可得证；\n（2）过F点作\\(FD\\bot AC\\)交\\(AC\\)于D点，根据（1）中结论可得\\(FD=AC=BC\\)，即可证明\\(\\vartriangle FGD≌\\vartriangle BCD\\)，可得\\(DG=CG\\)，根据\\(\\frac { AG } { CG }=3\\)得到\\(\\frac { AD } { AC }=\\frac { 1 } { 2 }\\)，根据\\(AD=CE，AC=BC\\)，即可解题；\n（3）过F作\\(FD\\bot AG\\)的延长线交于点D，易证\\(\\frac { AC } { CE }=\\frac { 5 } { 7 }\\) ，由（1）（2）可知\\(\\vartriangle ADF≌\\vartriangle ECA\\)，\\(\\vartriangle GDF≌\\vartriangle GCB\\)，可得\\(CG=GD,AD=CE\\)，即可求得\\(\\frac { AG } { CG }\\)的值，即可解题．\n【小问1详解】\n证明：\\(\\because \\angle FAD+\\angle CAE=90{}^\\circ ,\\angle FAD+\\angle F=90{}^\\circ ,\\)\n\\(\\therefore \\angle CAE=\\angle F,\\)\n在\\(\\vartriangle ADF\\)和\\(\\vartriangle ECA\\)中，\n\\(\\begin{cases} \\angle ADF=\\angle ECA \\\\ \\angle DFA=\\angle CAE \\\\ AF=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADF≌\\vartriangle ECA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)\n\\(\\therefore AD=AC,FD,FD=CD=AC,\\)\n\\(\\therefore CE+CD=AD+CD=AC=FD\\)，\n即：\\(EC+CD=DF;\\)\n【小问2详解】\n证明：如图2，过F点作\\(FD\\bot AC\\)交AC于D点，\n\\(\\because \\Delta ADF\\cong \\Delta ECA,\\)\n\\(\\therefore FD=AC=BC,\\)\n在\\(\\vartriangle FDG\\)和\\(\\vartriangle BCG\\)中，\n\\(\\begin{cases} \\angle FGD=\\angle CGB \\\\ \\angle FDG=\\angle C=90{}^\\circ \\\\ FD=BC \\end{cases}\\)，\n\\(\\therefore \\vartriangle FDG≌\\vartriangle BCG({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)\n\\(\\therefore GD=CG\\)，\n\\(\\because \\frac { AG } { CG }=3,\\)\n\\(\\therefore \\frac { AD } { CG }=2,\\)\n\\(\\therefore \\frac { AD } { AC }=\\frac { 1 } { 2 },\\)\n\\(\\because AG=CE,AC=BC\\)\n\\(\\therefore \\frac { CE } { BC }=\\frac { 1 } { 2 },\\)\n∴ \\(E\\)点为\\(BC\\)中点；\n〔图2〕【小问3详解】\n过F作\\(FD\\bot AG\\)的延长线交于点D，如\n\\(\\because \\frac { BC } { BE }=\\frac { 5 } { 2 },BC=AC,\\)\\(CE=CB+BE\\)，\n\\(\\therefore \\frac { AC } { CE }=\\frac { 5 } { 7 },\\)\n由(1)(2)知∶ \\(\\vartriangle ADF≌\\vartriangle ECA,\\vartriangle GDF≌\\vartriangle GCB\\)，\n\\(\\therefore CG=GD,AD=CE.\\)\n\\(\\therefore \\frac { AC } { AD }=\\frac { 5 } { 7 },\\)\n\\(\\therefore \\frac { AC } { CD }=\\frac { 5 } { 2 },\\)\n\\(\\therefore \\frac { AC } { \\frac { 1 } { 2 }CD }=\\frac { AC } { CG }=\\frac { 10 } { 2 },\\)\n\\(\\therefore \\frac { AG } { CG }=\\frac { 12 } { 2 }=6.\\)\n〔图3〕\n【点睛】本题考查了比例线段的性质，全等三角形的判定和性质，需要掌握全等三角形的判定，全等三角形对应边相等的性质，通过已知条件证明三角形全等是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-975C8C4E93/figures/521b9370aed9567e7c9cef5f02f4e1ce5e3879a73a924d230311d3e57f4e77ce.png",
+    "assets/SZ-G8-T1-975C8C4E93/figures/05e5abd66dee9cc67454fbeacd984ab5bb1dd7499e823ad4222f09f3eb7fee93.png",
+    "assets/SZ-G8-T1-975C8C4E93/figures/e13f356fad3047dc2e091a98811d20d385074e8676a284213290f89d9f731037.png"
+  ],
+  "solution": "【小问1详解】\n证明：\\(\\because \\angle FAD+\\angle CAE=90{}^\\circ ,\\angle FAD+\\angle F=90{}^\\circ ,\\)\n\\(\\therefore \\angle CAE=\\angle F,\\)\n在\\(\\vartriangle ADF\\)和\\(\\vartriangle ECA\\)中，\n\\(\\begin{cases} \\angle ADF=\\angle ECA \\\\ \\angle DFA=\\angle CAE \\\\ AF=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADF≌\\vartriangle ECA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)\n\\(\\therefore AD=AC,FD,FD=CD=AC,\\)\n\\(\\therefore CE+CD=AD+CD=AC=FD\\)，\n即：\\(EC+CD=DF;\\)\n【小问2详解】\n证明：如图2，过F点作\\(FD\\bot AC\\)交AC于D点，\n\\(\\because \\Delta ADF\\cong \\Delta ECA,\\)\n\\(\\therefore FD=AC=BC,\\)\n在\\(\\vartriangle FDG\\)和\\(\\vartriangle BCG\\)中，\n\\(\\begin{cases} \\angle FGD=\\angle CGB \\\\ \\angle FDG=\\angle C=90{}^\\circ \\\\ FD=BC \\end{cases}\\)，\n\\(\\therefore \\vartriangle FDG≌\\vartriangle BCG({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)\n\\(\\therefore GD=CG\\)，\n\\(\\because \\frac { AG } { CG }=3,\\)\n\\(\\therefore \\frac { AD } { CG }=2,\\)\n\\(\\therefore \\frac { AD } { AC }=\\frac { 1 } { 2 },\\)\n\\(\\because AG=CE,AC=BC\\)\n\\(\\therefore \\frac { CE } { BC }=\\frac { 1 } { 2 },\\)\n∴ \\(E\\)点为\\(BC\\)中点；\n〔图2〕【小问3详解】\n过F作\\(FD\\bot AG\\)的延长线交于点D，如\n\\(\\because \\frac { BC } { BE }=\\frac { 5 } { 2 },BC=AC,\\)\\(CE=CB+BE\\)，\n\\(\\therefore \\frac { AC } { CE }=\\frac { 5 } { 7 },\\)\n由(1)(2)知∶ \\(\\vartriangle ADF≌\\vartriangle ECA,\\vartriangle GDF≌\\vartriangle GCB\\)，\n\\(\\therefore CG=GD,AD=CE.\\)\n\\(\\therefore \\frac { AC } { AD }=\\frac { 5 } { 7 },\\)\n\\(\\therefore \\frac { AC } { CD }=\\frac { 5 } { 2 },\\)\n\\(\\therefore \\frac { AC } { \\frac { 1 } { 2 }CD }=\\frac { AC } { CG }=\\frac { 10 } { 2 },\\)\n\\(\\therefore \\frac { AG } { CG }=\\frac { 12 } { 2 }=6.\\)\n〔图3〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：\\(\\because \\angle FAD+\\angle CAE=90{}^\\circ ,\\angle FAD+\\angle F=90{}^\\circ ,\\)",
+    "\\(\\therefore \\angle CAE=\\angle F,\\)",
+    "在\\(\\vartriangle ADF\\)和\\(\\vartriangle ECA\\)中，",
+    "\\(\\begin{cases} \\angle ADF=\\angle ECA \\\\ \\angle DFA=\\angle CAE \\\\ AF=AE \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle ADF≌\\vartriangle ECA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)",
+    "\\(\\therefore AD=AC,FD,FD=CD=AC,\\)",
+    "\\(\\therefore CE+CD=AD+CD=AC=FD\\)，",
+    "即：\\(EC+CD=DF;\\)",
+    "【小问2详解】",
+    "证明：如图2，过F点作\\(FD\\bot AC\\)交AC于D点，",
+    "\\(\\because \\Delta ADF\\cong \\Delta ECA,\\)",
+    "\\(\\therefore FD=AC=BC,\\)",
+    "在\\(\\vartriangle FDG\\)和\\(\\vartriangle BCG\\)中，",
+    "\\(\\begin{cases} \\angle FGD=\\angle CGB \\\\ \\angle FDG=\\angle C=90{}^\\circ \\\\ FD=BC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle FDG≌\\vartriangle BCG({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)",
+    "\\(\\therefore GD=CG\\)，",
+    "\\(\\because \\frac { AG } { CG }=3,\\)",
+    "\\(\\therefore \\frac { AD } { CG }=2,\\)",
+    "\\(\\therefore \\frac { AD } { AC }=\\frac { 1 } { 2 },\\)",
+    "\\(\\because AG=CE,AC=BC\\)",
+    "\\(\\therefore \\frac { CE } { BC }=\\frac { 1 } { 2 },\\)",
+    "∴ \\(E\\)点为\\(BC\\)中点；",
+    "〔图2〕【小问3详解】",
+    "过F作\\(FD\\bot AG\\)的延长线交于点D，如",
+    "\\(\\because \\frac { BC } { BE }=\\frac { 5 } { 2 },BC=AC,\\)\\(CE=CB+BE\\)，",
+    "\\(\\therefore \\frac { AC } { CE }=\\frac { 5 } { 7 },\\)",
+    "由(1)(2)知∶ \\(\\vartriangle ADF≌\\vartriangle ECA,\\vartriangle GDF≌\\vartriangle GCB\\)，",
+    "\\(\\therefore CG=GD,AD=CE.\\)",
+    "\\(\\therefore \\frac { AC } { AD }=\\frac { 5 } { 7 },\\)",
+    "\\(\\therefore \\frac { AC } { CD }=\\frac { 5 } { 2 },\\)",
+    "\\(\\therefore \\frac { AC } { \\frac { 1 } { 2 }CD }=\\frac { AC } { CG }=\\frac { 10 } { 2 },\\)",
+    "\\(\\therefore \\frac { AG } { CG }=\\frac { 12 } { 2 }=6.\\)",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)中，\\(\\angle ACB=90{}^\\circ ,AC=BC\\)，E点为射线\\(CB\\)上一动点，连接\\(AE\\)，作\\(AF\\bot AE\\)且\\(AF=AE\\)．\n〔图1〕",
+      "paper_blocks": [
+        88,
+        89
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-975C8C4E93-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，过F点作\\(FD\\bot AC\\)交\\(AC\\)于D点，求证：\\(EC+CD=DF\\)；",
+      "stem_text": "如图1，过F点作\\(FD\\bot AC\\)交\\(AC\\)于D点，求证：\\(EC+CD=DF\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：\\(\\because \\angle FAD+\\angle CAE=90{}^\\circ ,\\angle FAD+\\angle F=90{}^\\circ ,\\)\n\\(\\therefore \\angle CAE=\\angle F,\\)\n在\\(\\vartriangle ADF\\)和\\(\\vartriangle ECA\\)中，\n\\(\\begin{cases} \\angle ADF=\\angle ECA \\\\ \\angle DFA=\\angle CAE \\\\ AF=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADF≌\\vartriangle ECA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)\n\\(\\therefore AD=AC,FD,FD=CD=AC,\\)\n\\(\\therefore CE+CD=AD+CD=AC=FD\\)，\n即：\\(EC+CD=DF;\\)",
+      "solution_steps": [
+        "证明：\\(\\because \\angle FAD+\\angle CAE=90{}^\\circ ,\\angle FAD+\\angle F=90{}^\\circ ,\\)",
+        "\\(\\therefore \\angle CAE=\\angle F,\\)",
+        "在\\(\\vartriangle ADF\\)和\\(\\vartriangle ECA\\)中，",
+        "\\(\\begin{cases} \\angle ADF=\\angle ECA \\\\ \\angle DFA=\\angle CAE \\\\ AF=AE \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle ADF≌\\vartriangle ECA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)",
+        "\\(\\therefore AD=AC,FD,FD=CD=AC,\\)",
+        "\\(\\therefore CE+CD=AD+CD=AC=FD\\)，",
+        "即：\\(EC+CD=DF;\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          88,
+          89,
+          90
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-975C8C4E93-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，连接\\(BF\\)交\\(AC\\)于G点，若\\(\\frac { AG } { CG }=3\\)，求证：E点为\\(BC\\)中点；",
+      "stem_text": "如图2，连接\\(BF\\)交\\(AC\\)于G点，若\\(\\frac { AG } { CG }=3\\)，求证：E点为\\(BC\\)中点；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：如图2，过F点作\\(FD\\bot AC\\)交AC于D点，\n\\(\\because \\Delta ADF\\cong \\Delta ECA,\\)\n\\(\\therefore FD=AC=BC,\\)\n在\\(\\vartriangle FDG\\)和\\(\\vartriangle BCG\\)中，\n\\(\\begin{cases} \\angle FGD=\\angle CGB \\\\ \\angle FDG=\\angle C=90{}^\\circ \\\\ FD=BC \\end{cases}\\)，\n\\(\\therefore \\vartriangle FDG≌\\vartriangle BCG({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)\n\\(\\therefore GD=CG\\)，\n\\(\\because \\frac { AG } { CG }=3,\\)\n\\(\\therefore \\frac { AD } { CG }=2,\\)\n\\(\\therefore \\frac { AD } { AC }=\\frac { 1 } { 2 },\\)\n\\(\\because AG=CE,AC=BC\\)\n\\(\\therefore \\frac { CE } { BC }=\\frac { 1 } { 2 },\\)\n∴ \\(E\\)点为\\(BC\\)中点；\n〔图2〕",
+      "solution_steps": [
+        "证明：如图2，过F点作\\(FD\\bot AC\\)交AC于D点，",
+        "\\(\\because \\Delta ADF\\cong \\Delta ECA,\\)",
+        "\\(\\therefore FD=AC=BC,\\)",
+        "在\\(\\vartriangle FDG\\)和\\(\\vartriangle BCG\\)中，",
+        "\\(\\begin{cases} \\angle FGD=\\angle CGB \\\\ \\angle FDG=\\angle C=90{}^\\circ \\\\ FD=BC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle FDG≌\\vartriangle BCG({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }),\\)",
+        "\\(\\therefore GD=CG\\)，",
+        "\\(\\because \\frac { AG } { CG }=3,\\)",
+        "\\(\\therefore \\frac { AD } { CG }=2,\\)",
+        "\\(\\therefore \\frac { AD } { AC }=\\frac { 1 } { 2 },\\)",
+        "\\(\\because AG=CE,AC=BC\\)",
+        "\\(\\therefore \\frac { CE } { BC }=\\frac { 1 } { 2 },\\)",
+        "∴ \\(E\\)点为\\(BC\\)中点；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          88,
+          89,
+          91
+        ],
+        "solution_block_ids": [
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-975C8C4E93-Q22-P03",
+      "label": "（3）",
+      "prompt": "当E点在射线\\(CB\\)上，连接\\(BF\\)与直线\\(AC\\)交于G点，若\\(\\frac { BC } { BE }=\\frac { 5 } { 2 }\\)，则\\(\\frac { AG } { CG }=\\)       （直接写出结果）．",
+      "stem_text": "当E点在射线\\(CB\\)上，连接\\(BF\\)与直线\\(AC\\)交于G点，若\\(\\frac { BC } { BE }=\\frac { 5 } { 2 }\\)，则\\(\\frac { AG } { CG }=\\)       （直接写出结果）．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(6\\)",
+      "answer": "\\(6\\)",
+      "given_solution": "过F作\\(FD\\bot AG\\)的延长线交于点D，如\n\\(\\because \\frac { BC } { BE }=\\frac { 5 } { 2 },BC=AC,\\)\\(CE=CB+BE\\)，\n\\(\\therefore \\frac { AC } { CE }=\\frac { 5 } { 7 },\\)\n由(1)(2)知∶ \\(\\vartriangle ADF≌\\vartriangle ECA,\\vartriangle GDF≌\\vartriangle GCB\\)，\n\\(\\therefore CG=GD,AD=CE.\\)\n\\(\\therefore \\frac { AC } { AD }=\\frac { 5 } { 7 },\\)\n\\(\\therefore \\frac { AC } { CD }=\\frac { 5 } { 2 },\\)\n\\(\\therefore \\frac { AC } { \\frac { 1 } { 2 }CD }=\\frac { AC } { CG }=\\frac { 10 } { 2 },\\)\n\\(\\therefore \\frac { AG } { CG }=\\frac { 12 } { 2 }=6.\\)\n〔图3〕",
+      "solution_steps": [
+        "过F作\\(FD\\bot AG\\)的延长线交于点D，如",
+        "\\(\\because \\frac { BC } { BE }=\\frac { 5 } { 2 },BC=AC,\\)\\(CE=CB+BE\\)，",
+        "\\(\\therefore \\frac { AC } { CE }=\\frac { 5 } { 7 },\\)",
+        "由(1)(2)知∶ \\(\\vartriangle ADF≌\\vartriangle ECA,\\vartriangle GDF≌\\vartriangle GCB\\)，",
+        "\\(\\therefore CG=GD,AD=CE.\\)",
+        "\\(\\therefore \\frac { AC } { AD }=\\frac { 5 } { 7 },\\)",
+        "\\(\\therefore \\frac { AC } { CD }=\\frac { 5 } { 2 },\\)",
+        "\\(\\therefore \\frac { AC } { \\frac { 1 } { 2 }CD }=\\frac { AC } { CG }=\\frac { 10 } { 2 },\\)",
+        "\\(\\therefore \\frac { AG } { CG }=\\frac { 12 } { 2 }=6.\\)",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          88,
+          89,
+          92
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      88,
+      92
+    ],
+    "solution_body_blocks": [
+      384,
+      429
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-975C8C4E93/paper-q22-p07.webp",
+      "assets/SZ-G8-T1-975C8C4E93/paper-q22-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          505.91,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          95.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-975C8C4E93/solution-q22-p21.webp",
+      "assets/SZ-G8-T1-975C8C4E93/solution-q22-p22.webp",
+      "assets/SZ-G8-T1-975C8C4E93/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          541.82,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          762.27
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          727.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

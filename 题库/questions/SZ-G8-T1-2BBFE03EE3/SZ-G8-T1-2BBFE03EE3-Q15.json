@@ -1,0 +1,114 @@
+{
+  "id": "SZ-G8-T1-2BBFE03EE3-Q15",
+  "paper_id": "SZ-G8-T1-2BBFE03EE3",
+  "number": 15,
+  "type": "填空题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，在\\(\\vartriangle ABC\\)中，\\(AB=AC=6\\)，\\(BC=10\\)，点\\(D\\)是边\\(BC\\)上一点（点\\(D\\)不与点\\(B\\)，\\(C\\)重合），将\\(\\vartriangle ABD\\)沿\\(AD\\)翻折，点\\(B\\)的对应点为点\\(E\\)，\\(AE\\)交\\(BC\\)于点\\(F\\)，若\\(DE\\parallel AC\\)，则点\\(C\\)到线段\\(AD\\)的距离为______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-2BBFE03EE3/figures/d901d3458bf5270a45b090b886836b738bd99718cec8787af62d4f4d6281fc9d.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\sqrt[] { 33 }\\)",
+  "answer": "\\(\\sqrt[] { 33 }\\)",
+  "given_solution": "【分析】过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，由等腰三角形的性质和平行线的性质得出\\(\\angle C=\\angle B\\)，\\(\\angle C=\\angle EDF\\)，由折叠的性质得：\\(\\angle E=\\angle B\\)，\\(ED=BD\\)，得出\\(\\angle CDA=\\angle BAD+\\angle B=\\angle EAD+\\angle E=\\angle CAE+\\angle E=\\angle CAD\\)，证出\\(CD=AC=6\\)，得出\\(DM=1,\\)又由勾股定理得\\(AM=\\)\\(\\sqrt[] { 6 ^ { 2 } -5 ^ { 2 } }=\\sqrt[] { 11 }\\)\\(,\\)利用面积法构造一元一次方程，即可得出结果．\n【详解】解：过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，\n〔图2〕\n∵\\(AB=AC=6\\)，\\(BC=10\\)，\n∴\\(\\angle C=\\angle B\\)，\\(CM=\\)\\(\\frac { 1 } { 2 }BC=5\\)\\(,\\)\n∴\\(AM=\\)\\(\\sqrt[] { 6 ^ { 2 } -5 ^ { 2 } }=\\sqrt[] { 11 }\\)\\(,\\)\n∵\\(DE\\parallel AC\\)，\n∴\\(\\angle CAF=\\angle E\\)，\\(\\angle C=\\angle EDF\\)，\n由折叠的性质得：\\(\\angle E=\\angle B\\)，\\(AE=AB=6\\)，\\(ED=BD\\)，\\(\\angle EAD=\\angle BAD,\\)\n∴\\(\\angle CDA=\\angle BAD+\\angle B=\\angle EAD+\\angle E=\\angle CAE+\\angle E=\\angle CAD,\\)\n∴\\(CD=AC=6,\\)\n∴\\(DM=CD-CM=1,\\)\n∴\\(AD=\\sqrt[] { \\left ( { \\sqrt[] { 11 } } \\right ) ^ { 2 } +1 ^ { 2 } }=2\\sqrt[] { 3 }\\)\\(,\\)\n设点\\(C\\)到\\(AD\\)的距离为\\(h\\)，则\n\\(S\\vartriangle ACD=\\frac { 1 } { 2 }CD\\cdot AM=\\frac { 1 } { 2 }AD\\cdot h\\)即\\(\\frac { 1 } { 2 }\\times 6\\times \\sqrt[] { 11 }=\\frac { 1 } { 2 }\\times 2\\sqrt[] { 3 }h\\)\n解得：\\(h=\\)\\(\\sqrt[] { 33 }\\)；\n故答案为\\(\\sqrt[] { 33 }\\)．\n【点睛】本题考查了翻折变换的性质、三角形的外角性质、等腰三角形的判定与性质，勾股定理，熟练掌握翻折变换和等腰三角形的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-2BBFE03EE3/figures/d901d3458bf5270a45b090b886836b738bd99718cec8787af62d4f4d6281fc9d.png",
+    "assets/SZ-G8-T1-2BBFE03EE3/figures/04d1ab06fc7a280a78646a8f0f85f54815ef04c096abf6d4aca6446d9386a2e0.png"
+  ],
+  "solution": "解：过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，\n〔图2〕\n∵\\(AB=AC=6\\)，\\(BC=10\\)，\n∴\\(\\angle C=\\angle B\\)，\\(CM=\\)\\(\\frac { 1 } { 2 }BC=5\\)\\(,\\)\n∴\\(AM=\\)\\(\\sqrt[] { 6 ^ { 2 } -5 ^ { 2 } }=\\sqrt[] { 11 }\\)\\(,\\)\n∵\\(DE\\parallel AC\\)，\n∴\\(\\angle CAF=\\angle E\\)，\\(\\angle C=\\angle EDF\\)，\n由折叠的性质得：\\(\\angle E=\\angle B\\)，\\(AE=AB=6\\)，\\(ED=BD\\)，\\(\\angle EAD=\\angle BAD,\\)\n∴\\(\\angle CDA=\\angle BAD+\\angle B=\\angle EAD+\\angle E=\\angle CAE+\\angle E=\\angle CAD,\\)\n∴\\(CD=AC=6,\\)\n∴\\(DM=CD-CM=1,\\)\n∴\\(AD=\\sqrt[] { \\left ( { \\sqrt[] { 11 } } \\right ) ^ { 2 } +1 ^ { 2 } }=2\\sqrt[] { 3 }\\)\\(,\\)\n设点\\(C\\)到\\(AD\\)的距离为\\(h\\)，则\n\\(S\\vartriangle ACD=\\frac { 1 } { 2 }CD\\cdot AM=\\frac { 1 } { 2 }AD\\cdot h\\)即\\(\\frac { 1 } { 2 }\\times 6\\times \\sqrt[] { 11 }=\\frac { 1 } { 2 }\\times 2\\sqrt[] { 3 }h\\)\n解得：\\(h=\\)\\(\\sqrt[] { 33 }\\)；\n故答案为\\(\\sqrt[] { 33 }\\)．",
+  "solution_steps": [
+    "解：过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，",
+    "〔图2〕",
+    "∵\\(AB=AC=6\\)，\\(BC=10\\)，",
+    "∴\\(\\angle C=\\angle B\\)，\\(CM=\\)\\(\\frac { 1 } { 2 }BC=5\\)\\(,\\)",
+    "∴\\(AM=\\)\\(\\sqrt[] { 6 ^ { 2 } -5 ^ { 2 } }=\\sqrt[] { 11 }\\)\\(,\\)",
+    "∵\\(DE\\parallel AC\\)，",
+    "∴\\(\\angle CAF=\\angle E\\)，\\(\\angle C=\\angle EDF\\)，",
+    "由折叠的性质得：\\(\\angle E=\\angle B\\)，\\(AE=AB=6\\)，\\(ED=BD\\)，\\(\\angle EAD=\\angle BAD,\\)",
+    "∴\\(\\angle CDA=\\angle BAD+\\angle B=\\angle EAD+\\angle E=\\angle CAE+\\angle E=\\angle CAD,\\)",
+    "∴\\(CD=AC=6,\\)",
+    "∴\\(DM=CD-CM=1,\\)",
+    "∴\\(AD=\\sqrt[] { \\left ( { \\sqrt[] { 11 } } \\right ) ^ { 2 } +1 ^ { 2 } }=2\\sqrt[] { 3 }\\)\\(,\\)",
+    "设点\\(C\\)到\\(AD\\)的距离为\\(h\\)，则",
+    "\\(S\\vartriangle ACD=\\frac { 1 } { 2 }CD\\cdot AM=\\frac { 1 } { 2 }AD\\cdot h\\)即\\(\\frac { 1 } { 2 }\\times 6\\times \\sqrt[] { 11 }=\\frac { 1 } { 2 }\\times 2\\sqrt[] { 3 }h\\)",
+    "解得：\\(h=\\)\\(\\sqrt[] { 33 }\\)；",
+    "故答案为\\(\\sqrt[] { 33 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      40,
+      41
+    ],
+    "solution_body_blocks": [
+      168,
+      189
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-2BBFE03EE3/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          555.45,
+          583.64,
+          723.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-2BBFE03EE3/solution-q15-p09.webp",
+      "assets/SZ-G8-T1-2BBFE03EE3/solution-q15-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          364.09,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          400.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,539 @@
+{
+  "id": "SZ-G8-T1-1D8CB5FFC5-Q21",
+  "paper_id": "SZ-G8-T1-1D8CB5FFC5",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "利用平行线性质求角、用边长平方关系判定直角",
+  "stem": "【项目式学习】\n【项目主题】合理规划，绿色家园\n【项目背景】某小区有4栋住宅楼：\\(B\\)栋，\\(C\\)栋，\\(D\\)栋，\\(E\\)栋，\\(A\\)处为小区入口．为方便小区居民传递爱心，物业管理处准备在小区的一条主干道\\(BE\\)上增设一个“爱心衣物回收箱”（如图1），现需设计“爱心衣物回收箱”的具体位置，使得它到4栋住宅楼的距离之和最短．某数学兴趣小组成员开展了如下探究活动．\n〔图1〕\n任务一实地测绘\n小组成员借助无人机航测技术绘制了小区平面图（如图2），并测量出了某些道路的长度（如表格所示），进一步抽象成几何图形（如图3），其中主干道\\(AC\\)与\\(BE\\)交于点\\(F\\)，\\(BE\\parallel CD\\)．小组成员又借助电子角度仪测得\\(\\angle BCE=90{}^\\circ ,\\angle CEB=\\angle CED\\)．\n道路 | 长度（米）\n\\(AE\\) | 40\n\\(AB\\) | 30\n\\(BC\\) | 30\n\\(BF\\) | 18\n\\(EF\\) | 32\n\\(DE\\) | 25\n〔图2〕\n任务二  数学计算\n根据图3及表格中的相关数据，请完成下列计算：\n（1）求道路\\(CD\\)的长；\n（2）道路\\(AC=\\)__________米；\n（3）任务三方案设计\n①根据以上探究，请你在主干道\\(BE\\)上画出“爱心衣物回收箱”的具体位置（用点\\(G\\)表示），并画出需要增设的小路\\(CG,DG\\)；\n②“爱心衣物回收箱”到4栋住宅楼的距离之和的最小值为_______米．（保留根号）",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-1D8CB5FFC5/figures/e86902ff99ffbf473cbf3576bdee2b5763ef75bb3b8466a739b243c5b21447dc.png",
+    "assets/SZ-G8-T1-1D8CB5FFC5/figures/c924d6695eb64232fbbba9f9624b846852f6643466cf05d54f53bb2431fc31bd.png"
+  ],
+  "tables": [
+    {
+      "text": "道路 | 长度（米）\n\\(AE\\) | 40\n\\(AB\\) | 30\n\\(BC\\) | 30\n\\(BF\\) | 18\n\\(EF\\) | 32\n\\(DE\\) | 25",
+      "rows": [
+        [
+          [
+            "道路"
+          ],
+          [
+            "长度（米）"
+          ]
+        ],
+        [
+          [
+            "\\(AE\\)"
+          ],
+          [
+            "40"
+          ]
+        ],
+        [
+          [
+            "\\(AB\\)"
+          ],
+          [
+            "30"
+          ]
+        ],
+        [
+          [
+            "\\(BC\\)"
+          ],
+          [
+            "30"
+          ]
+        ],
+        [
+          [
+            "\\(BF\\)"
+          ],
+          [
+            "18"
+          ]
+        ],
+        [
+          [
+            "\\(EF\\)"
+          ],
+          [
+            "32"
+          ]
+        ],
+        [
+          [
+            "\\(DE\\)"
+          ],
+          [
+            "25"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）\\(25\\)米\n（2）\\(48\\)\n（3）①见解析；②\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)",
+  "answer": "（1）\\(25\\)米\n（2）\\(48\\)\n（3）①见解析；②\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)",
+  "given_solution": "【分析】（1）根据平行线的性质和已知条件得出\\(\\angle CED=\\angle DCE\\)，进而根据等角对等边，即可求解；\n（2）勾股定理的逆定理证明\\(\\angle EAB=90{}^\\circ\\)，勾股定理求得\\(EC\\)，证明\\(EB\\bot AC\\)，\\(FA=FC\\)，进而根据等面积法，即可求解．\n（3）①由（2）可得\\(EB\\)垂直平分\\(AC\\)，根据两点之间线段最短可得\\(AD,EB\\)的交点到\\(A,E,D,B\\)的距离之和最小，又\\(GA=GC\\)，则到4栋距离最小的点即为点\\(G\\)；\n②先证明\\(AC\\bot DC\\)，根据①的结论可得\\(CG+DG+EG+BG\\)\\(=AD+EB\\)，勾股定理，即可求解．\n【小问1详解】\n解：∵\\(BE\\parallel CD\\)，\n∴\\(\\angle BEC=\\angle DCE.\\)\n∵\\(\\angle CEB=\\angle CED,\\)\n∴\\(\\angle CED=\\angle DCE\\)．\n∴\\(CD=DE=25\\)，\n故道路\\(CD\\)的长为25米；\n【小问2详解】\n解：∵\\(AE=40,AB=30,EF=32,FB=18\\)\n∴\\(EB=32+18=50\\)，\\(AE ^ { 2 } +AB ^ { 2 } =EB ^ { 2 }\\)\n∴\\(\\angle EAB=90{}^\\circ\\)\n又∵\\(\\angle ECB=90{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECB\\)中，\\(EC=\\sqrt[] { EB ^ { 2 } -BC ^ { 2 } }=40\\)\n∵\\(AE=EC,AB=BC\\)\n∴\\(EB\\bot AC\\)，\\(FA=FC\\)，\n∵\\(S_{ \\vartriangle AEB } +S_{ \\vartriangle EBC } =\\frac { 1 } { 2 }\\times AE\\times AB+\\frac { 1 } { 2 }\\times EC\\times BC=\\frac { 1 } { 2 }EB\\times AC\\)\n∴\\(AC=\\frac { \\frac { 1 } { 2 }\\times 30\\times 40+\\frac { 1 } { 2 }\\times 30\\times 40 } { 50 }=48\\)\n故答案为：\\(48\\)；\n【小问3详解】\n①由（2）可得\\(EB\\)垂直平分\\(AC\\)，根据两点之间线段最短可得\\(AD,EB\\)的交点到\\(A,E,D,B\\)的距离之和最小，又\\(GA=GC\\)，则到4栋距离最小的点即为点\\(G\\)，如图所示：\n〔图3〕\n②解：∵\\(DC\\parallel EB\\)，\\(EB\\bot AC\\)\n∴\\(AC\\bot DC\\)\n∴\\(\\angle ADC=90{}^\\circ\\)\n∵\\(G\\)在\\(EB\\)上，即\\(AC\\)的垂直平分线上，\n∴\\(GA=GC\\)，\n∴\\(\\angle GAC=\\angle GCA\\)\n又∵\\(\\angle GAC+\\angle GCD=90{}^\\circ ,\\angle GCA+\\angle GDC=90{}^\\circ\\)，\n∴\\(\\angle GCD=\\angle GDC{}^\\circ\\)\n∴\\(GD=GC\\)\n∴\\(GA=GD\\)\\({ \\rm{ = } }GC\\)\n∴\\(CG+DG+EG+BG\\)\n\\(=AG+GD+EG+GB\\)\n\\(=AD+EB\\)\n\\(=AD+EB\\)\n\\(=\\sqrt[] { DC ^ { 2 } +AC ^ { 2 } }+EB\\)\n\\(=\\sqrt[] { 25 ^ { 2 } +48 ^ { 2 } }+50\\)\n\\(=\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)，\n故答案为：\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)．\n【点睛】本题考查了勾股定理及其逆定理，垂直平分线的性质与判定，等腰三角形的性质与判定，三角形内角和定理，两点之间线段最短，平行线的性质；综合运用以上知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-1D8CB5FFC5/figures/e86902ff99ffbf473cbf3576bdee2b5763ef75bb3b8466a739b243c5b21447dc.png",
+    "assets/SZ-G8-T1-1D8CB5FFC5/figures/c924d6695eb64232fbbba9f9624b846852f6643466cf05d54f53bb2431fc31bd.png",
+    "assets/SZ-G8-T1-1D8CB5FFC5/figures/87e38d91d63ce5b31bf443bdb38f8510be72b0e975fe715eb8a1c534cfbd95f5.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(BE\\parallel CD\\)，\n∴\\(\\angle BEC=\\angle DCE.\\)\n∵\\(\\angle CEB=\\angle CED,\\)\n∴\\(\\angle CED=\\angle DCE\\)．\n∴\\(CD=DE=25\\)，\n故道路\\(CD\\)的长为25米；\n【小问2详解】\n解：∵\\(AE=40,AB=30,EF=32,FB=18\\)\n∴\\(EB=32+18=50\\)，\\(AE ^ { 2 } +AB ^ { 2 } =EB ^ { 2 }\\)\n∴\\(\\angle EAB=90{}^\\circ\\)\n又∵\\(\\angle ECB=90{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECB\\)中，\\(EC=\\sqrt[] { EB ^ { 2 } -BC ^ { 2 } }=40\\)\n∵\\(AE=EC,AB=BC\\)\n∴\\(EB\\bot AC\\)，\\(FA=FC\\)，\n∵\\(S_{ \\vartriangle AEB } +S_{ \\vartriangle EBC } =\\frac { 1 } { 2 }\\times AE\\times AB+\\frac { 1 } { 2 }\\times EC\\times BC=\\frac { 1 } { 2 }EB\\times AC\\)\n∴\\(AC=\\frac { \\frac { 1 } { 2 }\\times 30\\times 40+\\frac { 1 } { 2 }\\times 30\\times 40 } { 50 }=48\\)\n故答案为：\\(48\\)；\n【小问3详解】\n①由（2）可得\\(EB\\)垂直平分\\(AC\\)，根据两点之间线段最短可得\\(AD,EB\\)的交点到\\(A,E,D,B\\)的距离之和最小，又\\(GA=GC\\)，则到4栋距离最小的点即为点\\(G\\)，如图所示：\n〔图3〕\n②解：∵\\(DC\\parallel EB\\)，\\(EB\\bot AC\\)\n∴\\(AC\\bot DC\\)\n∴\\(\\angle ADC=90{}^\\circ\\)\n∵\\(G\\)在\\(EB\\)上，即\\(AC\\)的垂直平分线上，\n∴\\(GA=GC\\)，\n∴\\(\\angle GAC=\\angle GCA\\)\n又∵\\(\\angle GAC+\\angle GCD=90{}^\\circ ,\\angle GCA+\\angle GDC=90{}^\\circ\\)，\n∴\\(\\angle GCD=\\angle GDC{}^\\circ\\)\n∴\\(GD=GC\\)\n∴\\(GA=GD\\)\\({ \\rm{ = } }GC\\)\n∴\\(CG+DG+EG+BG\\)\n\\(=AG+GD+EG+GB\\)\n\\(=AD+EB\\)\n\\(=AD+EB\\)\n\\(=\\sqrt[] { DC ^ { 2 } +AC ^ { 2 } }+EB\\)\n\\(=\\sqrt[] { 25 ^ { 2 } +48 ^ { 2 } }+50\\)\n\\(=\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)，\n故答案为：\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(BE\\parallel CD\\)，",
+    "∴\\(\\angle BEC=\\angle DCE.\\)",
+    "∵\\(\\angle CEB=\\angle CED,\\)",
+    "∴\\(\\angle CED=\\angle DCE\\)．",
+    "∴\\(CD=DE=25\\)，",
+    "故道路\\(CD\\)的长为25米；",
+    "【小问2详解】",
+    "解：∵\\(AE=40,AB=30,EF=32,FB=18\\)",
+    "∴\\(EB=32+18=50\\)，\\(AE ^ { 2 } +AB ^ { 2 } =EB ^ { 2 }\\)",
+    "∴\\(\\angle EAB=90{}^\\circ\\)",
+    "又∵\\(\\angle ECB=90{}^\\circ\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECB\\)中，\\(EC=\\sqrt[] { EB ^ { 2 } -BC ^ { 2 } }=40\\)",
+    "∵\\(AE=EC,AB=BC\\)",
+    "∴\\(EB\\bot AC\\)，\\(FA=FC\\)，",
+    "∵\\(S_{ \\vartriangle AEB } +S_{ \\vartriangle EBC } =\\frac { 1 } { 2 }\\times AE\\times AB+\\frac { 1 } { 2 }\\times EC\\times BC=\\frac { 1 } { 2 }EB\\times AC\\)",
+    "∴\\(AC=\\frac { \\frac { 1 } { 2 }\\times 30\\times 40+\\frac { 1 } { 2 }\\times 30\\times 40 } { 50 }=48\\)",
+    "故答案为：\\(48\\)；",
+    "【小问3详解】",
+    "①由（2）可得\\(EB\\)垂直平分\\(AC\\)，根据两点之间线段最短可得\\(AD,EB\\)的交点到\\(A,E,D,B\\)的距离之和最小，又\\(GA=GC\\)，则到4栋距离最小的点即为点\\(G\\)，如图所示：",
+    "〔图3〕",
+    "②解：∵\\(DC\\parallel EB\\)，\\(EB\\bot AC\\)",
+    "∴\\(AC\\bot DC\\)",
+    "∴\\(\\angle ADC=90{}^\\circ\\)",
+    "∵\\(G\\)在\\(EB\\)上，即\\(AC\\)的垂直平分线上，",
+    "∴\\(GA=GC\\)，",
+    "∴\\(\\angle GAC=\\angle GCA\\)",
+    "又∵\\(\\angle GAC+\\angle GCD=90{}^\\circ ,\\angle GCA+\\angle GDC=90{}^\\circ\\)，",
+    "∴\\(\\angle GCD=\\angle GDC{}^\\circ\\)",
+    "∴\\(GD=GC\\)",
+    "∴\\(GA=GD\\)\\({ \\rm{ = } }GC\\)",
+    "∴\\(CG+DG+EG+BG\\)",
+    "\\(=AG+GD+EG+GB\\)",
+    "\\(=AD+EB\\)",
+    "\\(=AD+EB\\)",
+    "\\(=\\sqrt[] { DC ^ { 2 } +AC ^ { 2 } }+EB\\)",
+    "\\(=\\sqrt[] { 25 ^ { 2 } +48 ^ { 2 } }+50\\)",
+    "\\(=\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)，",
+    "故答案为：\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【项目式学习】\n【项目主题】合理规划，绿色家园\n【项目背景】某小区有4栋住宅楼：\\(B\\)栋，\\(C\\)栋，\\(D\\)栋，\\(E\\)栋，\\(A\\)处为小区入口．为方便小区居民传递爱心，物业管理处准备在小区的一条主干道\\(BE\\)上增设一个“爱心衣物回收箱”（如图1），现需设计“爱心衣物回收箱”的具体位置，使得它到4栋住宅楼的距离之和最短．某数学兴趣小组成员开展了如下探究活动．\n〔图1〕\n任务一实地测绘\n小组成员借助无人机航测技术绘制了小区平面图（如图2），并测量出了某些道路的长度（如表格所示），进一步抽象成几何图形（如图3），其中主干道\\(AC\\)与\\(BE\\)交于点\\(F\\)，\\(BE\\parallel CD\\)．小组成员又借助电子角度仪测得\\(\\angle BCE=90{}^\\circ ,\\angle CEB=\\angle CED\\)．\n道路 | 长度（米）\n\\(AE\\) | 40\n\\(AB\\) | 30\n\\(BC\\) | 30\n\\(BF\\) | 18\n\\(EF\\) | 32\n\\(DE\\) | 25\n〔图2〕\n任务二  数学计算\n根据图3及表格中的相关数据，请完成下列计算：",
+      "paper_blocks": [
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        87,
+        88,
+        89
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "任务三方案设计",
+      "paper_blocks": [
+        92
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-1D8CB5FFC5-Q21-P01",
+      "label": "（1）",
+      "prompt": "求道路\\(CD\\)的长；",
+      "stem_text": "求道路\\(CD\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(25\\)米",
+      "answer": "\\(25\\)米",
+      "given_solution": "解：∵\\(BE\\parallel CD\\)，\n∴\\(\\angle BEC=\\angle DCE.\\)\n∵\\(\\angle CEB=\\angle CED,\\)\n∴\\(\\angle CED=\\angle DCE\\)．\n∴\\(CD=DE=25\\)，\n故道路\\(CD\\)的长为25米；",
+      "solution_steps": [
+        "解：∵\\(BE\\parallel CD\\)，",
+        "∴\\(\\angle BEC=\\angle DCE.\\)",
+        "∵\\(\\angle CEB=\\angle CED,\\)",
+        "∴\\(\\angle CED=\\angle DCE\\)．",
+        "∴\\(CD=DE=25\\)，",
+        "故道路\\(CD\\)的长为25米；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          87,
+          88,
+          89,
+          90
+        ],
+        "solution_block_ids": [
+          345,
+          346,
+          347,
+          348,
+          349,
+          350
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-1D8CB5FFC5-Q21-P02",
+      "label": "（2）",
+      "prompt": "道路\\(AC=\\)__________米；",
+      "stem_text": "道路\\(AC=\\)__________米；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(48\\)",
+      "answer": "\\(48\\)",
+      "given_solution": "解：∵\\(AE=40,AB=30,EF=32,FB=18\\)\n∴\\(EB=32+18=50\\)，\\(AE ^ { 2 } +AB ^ { 2 } =EB ^ { 2 }\\)\n∴\\(\\angle EAB=90{}^\\circ\\)\n又∵\\(\\angle ECB=90{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECB\\)中，\\(EC=\\sqrt[] { EB ^ { 2 } -BC ^ { 2 } }=40\\)\n∵\\(AE=EC,AB=BC\\)\n∴\\(EB\\bot AC\\)，\\(FA=FC\\)，\n∵\\(S_{ \\vartriangle AEB } +S_{ \\vartriangle EBC } =\\frac { 1 } { 2 }\\times AE\\times AB+\\frac { 1 } { 2 }\\times EC\\times BC=\\frac { 1 } { 2 }EB\\times AC\\)\n∴\\(AC=\\frac { \\frac { 1 } { 2 }\\times 30\\times 40+\\frac { 1 } { 2 }\\times 30\\times 40 } { 50 }=48\\)\n故答案为：\\(48\\)；",
+      "solution_steps": [
+        "解：∵\\(AE=40,AB=30,EF=32,FB=18\\)",
+        "∴\\(EB=32+18=50\\)，\\(AE ^ { 2 } +AB ^ { 2 } =EB ^ { 2 }\\)",
+        "∴\\(\\angle EAB=90{}^\\circ\\)",
+        "又∵\\(\\angle ECB=90{}^\\circ\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECB\\)中，\\(EC=\\sqrt[] { EB ^ { 2 } -BC ^ { 2 } }=40\\)",
+        "∵\\(AE=EC,AB=BC\\)",
+        "∴\\(EB\\bot AC\\)，\\(FA=FC\\)，",
+        "∵\\(S_{ \\vartriangle AEB } +S_{ \\vartriangle EBC } =\\frac { 1 } { 2 }\\times AE\\times AB+\\frac { 1 } { 2 }\\times EC\\times BC=\\frac { 1 } { 2 }EB\\times AC\\)",
+        "∴\\(AC=\\frac { \\frac { 1 } { 2 }\\times 30\\times 40+\\frac { 1 } { 2 }\\times 30\\times 40 } { 50 }=48\\)",
+        "故答案为：\\(48\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          87,
+          88,
+          89,
+          91
+        ],
+        "solution_block_ids": [
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.05"
+      ],
+      "exam_ids": [
+        "E.G04.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“用边长平方关系判定直角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-1D8CB5FFC5-Q21-P03",
+      "label": "（3）①",
+      "prompt": "根据以上探究，请你在主干道\\(BE\\)上画出“爱心衣物回收箱”的具体位置（用点\\(G\\)表示），并画出需要增设的小路\\(CG,DG\\)；",
+      "stem_text": "根据以上探究，请你在主干道\\(BE\\)上画出“爱心衣物回收箱”的具体位置（用点\\(G\\)表示），并画出需要增设的小路\\(CG,DG\\)；",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "由（2）可得\\(EB\\)垂直平分\\(AC\\)，根据两点之间线段最短可得\\(AD,EB\\)的交点到\\(A,E,D,B\\)的距离之和最小，又\\(GA=GC\\)，则到4栋距离最小的点即为点\\(G\\)，如图所示：\n〔图3〕",
+      "solution_steps": [
+        "由（2）可得\\(EB\\)垂直平分\\(AC\\)，根据两点之间线段最短可得\\(AD,EB\\)的交点到\\(A,E,D,B\\)的距离之和最小，又\\(GA=GC\\)，则到4栋距离最小的点即为点\\(G\\)，如图所示：",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          87,
+          88,
+          89,
+          92,
+          93
+        ],
+        "solution_block_ids": [
+          363,
+          364
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.01"
+      ],
+      "exam_ids": [
+        "E.G01.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "解法含“两点之间线段最短”。利用线段或直线的基本事实说明理由。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-1D8CB5FFC5-Q21-P04",
+      "label": "（3）②",
+      "prompt": "“爱心衣物回收箱”到4栋住宅楼的距离之和的最小值为_______米．（保留根号）",
+      "stem_text": "“爱心衣物回收箱”到4栋住宅楼的距离之和的最小值为_______米．（保留根号）",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)",
+      "answer": "\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)",
+      "given_solution": "解：∵\\(DC\\parallel EB\\)，\\(EB\\bot AC\\)\n∴\\(AC\\bot DC\\)\n∴\\(\\angle ADC=90{}^\\circ\\)\n∵\\(G\\)在\\(EB\\)上，即\\(AC\\)的垂直平分线上，\n∴\\(GA=GC\\)，\n∴\\(\\angle GAC=\\angle GCA\\)\n又∵\\(\\angle GAC+\\angle GCD=90{}^\\circ ,\\angle GCA+\\angle GDC=90{}^\\circ\\)，\n∴\\(\\angle GCD=\\angle GDC{}^\\circ\\)\n∴\\(GD=GC\\)\n∴\\(GA=GD\\)\\({ \\rm{ = } }GC\\)\n∴\\(CG+DG+EG+BG\\)\n\\(=AG+GD+EG+GB\\)\n\\(=AD+EB\\)\n\\(=AD+EB\\)\n\\(=\\sqrt[] { DC ^ { 2 } +AC ^ { 2 } }+EB\\)\n\\(=\\sqrt[] { 25 ^ { 2 } +48 ^ { 2 } }+50\\)\n\\(=\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)，\n故答案为：\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)．",
+      "solution_steps": [
+        "解：∵\\(DC\\parallel EB\\)，\\(EB\\bot AC\\)",
+        "∴\\(AC\\bot DC\\)",
+        "∴\\(\\angle ADC=90{}^\\circ\\)",
+        "∵\\(G\\)在\\(EB\\)上，即\\(AC\\)的垂直平分线上，",
+        "∴\\(GA=GC\\)，",
+        "∴\\(\\angle GAC=\\angle GCA\\)",
+        "又∵\\(\\angle GAC+\\angle GCD=90{}^\\circ ,\\angle GCA+\\angle GDC=90{}^\\circ\\)，",
+        "∴\\(\\angle GCD=\\angle GDC{}^\\circ\\)",
+        "∴\\(GD=GC\\)",
+        "∴\\(GA=GD\\)\\({ \\rm{ = } }GC\\)",
+        "∴\\(CG+DG+EG+BG\\)",
+        "\\(=AG+GD+EG+GB\\)",
+        "\\(=AD+EB\\)",
+        "\\(=AD+EB\\)",
+        "\\(=\\sqrt[] { DC ^ { 2 } +AC ^ { 2 } }+EB\\)",
+        "\\(=\\sqrt[] { 25 ^ { 2 } +48 ^ { 2 } }+50\\)",
+        "\\(=\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)，",
+        "故答案为：\\(\\left ( { 50+\\sqrt[] { 2929 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          87,
+          88,
+          89,
+          92,
+          94
+        ],
+        "solution_block_ids": [
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      79,
+      94
+    ],
+    "solution_body_blocks": [
+      320,
+      383
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-1D8CB5FFC5/paper-q21-p07.webp",
+      "assets/SZ-G8-T1-1D8CB5FFC5/paper-q21-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          675.91
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          377.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-1D8CB5FFC5/solution-q21-p19.webp",
+      "assets/SZ-G8-T1-1D8CB5FFC5/solution-q21-p20.webp",
+      "assets/SZ-G8-T1-1D8CB5FFC5/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          631.36,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          673.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G01.05",
+    "M.G04.05",
+    "M.G01.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G01.05.01",
+    "E.G04.05.01",
+    "E.G01.01.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。 本问的要求和解答步骤对应“用边长平方关系判定直角”。 解法含“两点之间线段最短”。利用线段或直线的基本事实说明理由。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

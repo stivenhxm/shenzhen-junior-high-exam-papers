@@ -1,0 +1,498 @@
+{
+  "id": "SZ-G8-T2-D6885B7457-Q23",
+  "paper_id": "SZ-G8-T2-D6885B7457",
+  "number": 23,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、构造全等关系证明线段或角关系",
+  "stem": "在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为\\(\\vartriangle ABC\\)外一点，连接\\(BD\\)，连接\\(AD\\)交\\(BC\\)于点\\(G\\)，且满足\\(BD\\bot AB\\)．\n〔图1〕\n（1）如图1，若\\(BG=2\\)，\\(AB=3\\sqrt[] { 2 }\\)，求\\(AG\\)的长．\n（2）如图2，点\\(F\\)为线段\\(BC\\)上一点，连接\\(AF\\)、\\(DF\\)，过点\\(C\\)作\\(CE\\parallel AB\\)交\\(DF\\)的延长线于点\\(E\\)，若\\(AF\\bot DE\\)，\\(DF=EF\\)，求证：\\(AB=\\sqrt[] { 2 }CF+BD\\)；\n（3）如图3，点\\(H\\)为线段\\(AC\\)上一点，\\(AH=2\\)，点\\(K\\)是直线\\(AC\\)上的一个动点，连接\\(GK\\)．将线段\\(GK\\)绕点\\(G\\)顺时针旋转90°得到线段\\(GK'\\)，点\\(P\\)是线段\\(AD\\)上的一个动点，连接\\(HP\\)、\\(PK'\\)，若\\(BG=2\\sqrt[] { 3 }-2\\)，\\(\\angle AGC=4\\angle BAG\\)，请直接写出\\(HP+PK'\\)的最小值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/6a/6ae6d48e52b4eee87dce5a6f68221e4c7cf13e62bc3b49c3c5c3d2e334ff5378.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\sqrt[] { 10 }\\)\n（2）证明见解析    （3）\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)",
+  "answer": "（1）\\(\\sqrt[] { 10 }\\)\n（2）证明见解析    （3）\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)",
+  "given_solution": "【分析】（1）如图所示，过点A作\\(AE\\bot BC\\)于E，证明\\(\\angle EAB=\\angle EBA=45{}^\\circ\\)，据此求出\\(AE=BE=3\\)，求出\\(GE\\)的长即可利用勾股定理求出\\(AG\\)的长；\n（2）如图所示，在\\(BC\\)上取一点H，使得\\(HF=CF\\)，连接\\(DH\\)，证明\\(\\vartriangle HDF≌\\vartriangle CEF\\)，得到\\(\\angle HDF=\\angle E\\)，进而证明\\(CE\\parallel AB\\parallel DH\\)，再证明\\(\\vartriangle BDH\\)是等腰直角三角形，得到\\(BH=\\sqrt[] { 2 }BD\\)，同理可证\\(BC=\\sqrt[] { 2 }AB\\)，即可推出\\(\\sqrt[] { 2 }AB=\\sqrt[] { 2 }BD+2CF\\)，则\\(AB=BD+\\sqrt[] { 2 }CF\\)；\n（3）如图3-1所示，过点G作\\(GT\\bot BC\\)交直线\\(AC\\)于T，连接\\(CK'\\)，则\\(\\vartriangle CGT\\)是等腰直角三角形，证明\\(\\vartriangle TGK≌\\vartriangle CGK'\\)，得到\\(\\angle GCK'=\\angle GTK=45{}^\\circ\\)，则\\(\\angle TCK'=90{}^\\circ\\)，即可推出\\(K'\\)在垂直于\\(AC\\)的直线l上运动；如图3-2所示作H关于直线\\(AG\\)的对称点\\(H'\\)，连接\\(H'P\\)，则\\(HP=H'P\\)，要使\\(HP+PK'\\)最小，即要使\\(H'P+PK'\\)最小，故当\\(H'、P、K'\\)三点共线且\\(H'K'\\bot l\\)时（此时P在\\(P'\\)，\\(K'\\)在N），满足题意；导角求出\\(\\angle AGC=60{}^\\circ\\)，过点A作\\(AQ\\bot BC\\)于Q，过点\\(H\\)作\\(MH\\bot H'N\\)于M，解直角三角形求出\\(GQ=2\\)，则\\(AQ=BQ=2\\sqrt[] { 3 }\\)，即可求出\\(CH=2\\sqrt[] { 6 }-2\\)，则\\(MN=2\\sqrt[] { 6 }-2\\)；证明\\(\\angle HP'A=\\angle HAP'=75{}^\\circ\\)，得到\\(HP'=AH=2，\\angle AHP'=30{}^\\circ\\)，即可求出\\(P'M=\\sqrt[] { 3 }\\)，则\\(H'N=H'P'+P'M+MN=2+\\sqrt[] { 3 }+2\\sqrt[] { 6 }-2=\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)；\n【小问1详解】\n解：如图所示，过点A作\\(AE\\bot BC\\)于E，\n∵在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n∴\\(\\angle ABC=\\angle ACB=45{}^\\circ\\)，\n∴\\(\\angle EAB=\\angle EBA=45{}^\\circ\\)，\n∴\\(AE=BE=\\frac { \\sqrt[] { 2 } } { 2 }AB=3\\)，\n∴\\(GE=BE-BG=1\\)，\n∴\\(AG=\\sqrt[] { AE ^ { 2 } +GE ^ { 2 } }=\\sqrt[] { 10 }\\)\n〔图2〕【小问2详解】\n解：如图所示，在\\(BC\\)上取一点H，使得\\(HF=CF\\)，连接\\(DH\\)，\n在\\(\\vartriangle HDF\\)和\\(\\vartriangle CEF\\)中，\n\\(\\begin{cases} HF=CF \\\\ \\angle HFD=\\angle CFE \\\\ DF=EF \\end{cases}\\)，\n∴\\(\\vartriangle HDF≌\\vartriangle CEF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle HDF=\\angle E\\)，\n∴\\(DH\\parallel CE\\)，\n又∵\\(CE\\parallel AB\\)，\n∴\\(CE\\parallel AB\\parallel DH\\)，\n∵\\(AB\\bot BD\\)，\n∴\\(DH\\bot BD\\)，\\(\\angle ABD=90{}^\\circ\\)，\n又∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DBH=45{}^\\circ\\)，\n∴\\(\\vartriangle BDH\\)是等腰直角三角形，\n∴\\(BH=\\sqrt[] { 2 }BD\\)，\n同理可证\\(BC=\\sqrt[] { 2 }AB\\)，\n∵\\(BC=BH+CH=BH+2CF\\)，\n∴\\(\\sqrt[] { 2 }AB=\\sqrt[] { 2 }BD+2CF\\)，\n∴\\(AB=BD+\\sqrt[] { 2 }CF\\)；\n〔图3〕【小问3详解】\n解：如图3-1所示，过点G作\\(GT\\bot BC\\)交直线\\(AC\\)于T，连接\\(CK'\\)，则\\(\\vartriangle CGT\\)是等腰直角三角形，\n∴\\(GT=GC，\\angle TGC=90{}^\\circ ，\\angle T=\\angle GCT=45{}^\\circ\\)，\n由旋转的性质可知\\(GK=GK'，\\angle KGK'=90{}^\\circ\\)，\n∴\\(\\angle TGK=\\angle CGK'\\)，\n∴\\(\\vartriangle TGK≌\\vartriangle CGK'\\left ( { S{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle GCK'=\\angle GTK=45{}^\\circ\\)，\n∴\\(\\angle TCK'=90{}^\\circ\\)，\n∴\\(K'\\)在垂直于\\(AC\\)的直线l上运动；\n〔图4〕\n如图3-2所示作H关于直线\\(AG\\)的对称点\\(H'\\)，连接\\(H'P\\)，则\\(HP=H'P\\)，\n∴\\(HP+PK'=H'P+PK'\\)，\n∴要使\\(HP+PK'\\)最小，即要使\\(H'P+PK'\\)最小，\n∴当\\(H'、P、K'\\)三点共线且\\(H'K'\\bot l\\)时（此时P在\\(P'\\)，\\(K'\\)在N），满足题意；\n∵\\(\\angle AGC=4\\angle BAG，\\angle AGC=\\angle ABC+\\angle BAG\\)，\n∴\\(\\angle ABC=3\\angle BAG=45{}^\\circ\\)，\n∴\\(\\angle AGC=60{}^\\circ\\)，\n过点A作\\(AQ\\bot BC\\)于Q，过点\\(H\\)作\\(MH\\bot H'N\\)于M，\n∴\\(\\angle QAG=30{}^\\circ\\)，\\(AQ=BQ\\)，\n∴\\(AQ=\\sqrt[] { 3 }QG，\\)\n∵\\(BG=2\\sqrt[] { 3 }-2\\)，\n∴\\(2\\sqrt[] { 3 }-2+GQ=\\sqrt[] { 3 }GQ\\)，\n∴\\(GQ=2\\)，\n∴\\(AQ=BQ=2\\sqrt[] { 3 }\\)，\n∴\\(AC=\\sqrt[] { 2 }AQ=2\\sqrt[] { 6 }\\)，\n∴\\(CH=AC-AH=2\\sqrt[] { 6 }-2\\)，\n∴\\(MN=CH=2\\sqrt[] { 6 }-2\\)（\\(MN\\parallel CN\\)，平行线间间距相等）\n∵\\(AB\\bot AC，CN\\bot AC，H'N\\bot CN\\)，\n∴\\(LN\\bot AB\\)，\n∴\\(\\angle LAP'+\\angle LP'A=90{}^\\circ =\\angle LAP'+\\angle HAP'\\)，\n∴\\(\\angle LP'A=\\angle HAP'\\)，\n由轴对称的性质可知\\(\\angle HP'A=\\angle LP'A\\)，\n∴\\(\\angle HP'A=\\angle HAP'=\\angle BAC-\\angle BAG=75{}^\\circ\\)，\n∴\\(HP'=AH=2，\\angle AHP'=30{}^\\circ\\)，\n∴\\(\\angle HP'M=\\angle AHP'=30{}^\\circ\\)（由于\\(AC\\parallel H'N\\)），\n∴\\(P'M=\\frac { \\sqrt[] { 3 } } { 2 }HP'=\\sqrt[] { 3 }\\)，\n∴\\(H'N=H'P'+P'M+MN=2+\\sqrt[] { 3 }+2\\sqrt[] { 6 }-2=\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)，\n∴\\(HP+PK'\\)的最小值为\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)；\n〔图5〕\n【点睛】本题主要考查了等腰三角形的性质与判定，旋转的性质，全等三角形的性质与判定，勾股定理，含30度角的直角三角形的性质，轴对称最短路径问题，正确作出辅助线，构造直角三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/6a/6ae6d48e52b4eee87dce5a6f68221e4c7cf13e62bc3b49c3c5c3d2e334ff5378.png",
+    "assets/figures/56/56e74ae93c7f812c2ea2253494bb0a135f9ccfefba15e05be97c425ac265cf88.png",
+    "assets/figures/1a/1a8a8c522898a8e461071049ffa104036ec602e43d97d8ee60500676ae764355.png",
+    "assets/figures/ea/eaf72c6cb3b7c2f2279c70cf2f35eff1e2446d1d2256749a9e6ca23aa08234ed.png",
+    "assets/figures/ba/ba4188f225ef7de46fee7e9655b25857c76b045c89bf74bac4cf55b485c54d4a.png"
+  ],
+  "solution": "【小问1详解】\n解：如图所示，过点A作\\(AE\\bot BC\\)于E，\n∵在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n∴\\(\\angle ABC=\\angle ACB=45{}^\\circ\\)，\n∴\\(\\angle EAB=\\angle EBA=45{}^\\circ\\)，\n∴\\(AE=BE=\\frac { \\sqrt[] { 2 } } { 2 }AB=3\\)，\n∴\\(GE=BE-BG=1\\)，\n∴\\(AG=\\sqrt[] { AE ^ { 2 } +GE ^ { 2 } }=\\sqrt[] { 10 }\\)\n〔图2〕【小问2详解】\n解：如图所示，在\\(BC\\)上取一点H，使得\\(HF=CF\\)，连接\\(DH\\)，\n在\\(\\vartriangle HDF\\)和\\(\\vartriangle CEF\\)中，\n\\(\\begin{cases} HF=CF \\\\ \\angle HFD=\\angle CFE \\\\ DF=EF \\end{cases}\\)，\n∴\\(\\vartriangle HDF≌\\vartriangle CEF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle HDF=\\angle E\\)，\n∴\\(DH\\parallel CE\\)，\n又∵\\(CE\\parallel AB\\)，\n∴\\(CE\\parallel AB\\parallel DH\\)，\n∵\\(AB\\bot BD\\)，\n∴\\(DH\\bot BD\\)，\\(\\angle ABD=90{}^\\circ\\)，\n又∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DBH=45{}^\\circ\\)，\n∴\\(\\vartriangle BDH\\)是等腰直角三角形，\n∴\\(BH=\\sqrt[] { 2 }BD\\)，\n同理可证\\(BC=\\sqrt[] { 2 }AB\\)，\n∵\\(BC=BH+CH=BH+2CF\\)，\n∴\\(\\sqrt[] { 2 }AB=\\sqrt[] { 2 }BD+2CF\\)，\n∴\\(AB=BD+\\sqrt[] { 2 }CF\\)；\n〔图3〕【小问3详解】\n解：如图3-1所示，过点G作\\(GT\\bot BC\\)交直线\\(AC\\)于T，连接\\(CK'\\)，则\\(\\vartriangle CGT\\)是等腰直角三角形，\n∴\\(GT=GC，\\angle TGC=90{}^\\circ ，\\angle T=\\angle GCT=45{}^\\circ\\)，\n由旋转的性质可知\\(GK=GK'，\\angle KGK'=90{}^\\circ\\)，\n∴\\(\\angle TGK=\\angle CGK'\\)，\n∴\\(\\vartriangle TGK≌\\vartriangle CGK'\\left ( { S{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle GCK'=\\angle GTK=45{}^\\circ\\)，\n∴\\(\\angle TCK'=90{}^\\circ\\)，\n∴\\(K'\\)在垂直于\\(AC\\)的直线l上运动；\n〔图4〕\n如图3-2所示作H关于直线\\(AG\\)的对称点\\(H'\\)，连接\\(H'P\\)，则\\(HP=H'P\\)，\n∴\\(HP+PK'=H'P+PK'\\)，\n∴要使\\(HP+PK'\\)最小，即要使\\(H'P+PK'\\)最小，\n∴当\\(H'、P、K'\\)三点共线且\\(H'K'\\bot l\\)时（此时P在\\(P'\\)，\\(K'\\)在N），满足题意；\n∵\\(\\angle AGC=4\\angle BAG，\\angle AGC=\\angle ABC+\\angle BAG\\)，\n∴\\(\\angle ABC=3\\angle BAG=45{}^\\circ\\)，\n∴\\(\\angle AGC=60{}^\\circ\\)，\n过点A作\\(AQ\\bot BC\\)于Q，过点\\(H\\)作\\(MH\\bot H'N\\)于M，\n∴\\(\\angle QAG=30{}^\\circ\\)，\\(AQ=BQ\\)，\n∴\\(AQ=\\sqrt[] { 3 }QG，\\)\n∵\\(BG=2\\sqrt[] { 3 }-2\\)，\n∴\\(2\\sqrt[] { 3 }-2+GQ=\\sqrt[] { 3 }GQ\\)，\n∴\\(GQ=2\\)，\n∴\\(AQ=BQ=2\\sqrt[] { 3 }\\)，\n∴\\(AC=\\sqrt[] { 2 }AQ=2\\sqrt[] { 6 }\\)，\n∴\\(CH=AC-AH=2\\sqrt[] { 6 }-2\\)，\n∴\\(MN=CH=2\\sqrt[] { 6 }-2\\)（\\(MN\\parallel CN\\)，平行线间间距相等）\n∵\\(AB\\bot AC，CN\\bot AC，H'N\\bot CN\\)，\n∴\\(LN\\bot AB\\)，\n∴\\(\\angle LAP'+\\angle LP'A=90{}^\\circ =\\angle LAP'+\\angle HAP'\\)，\n∴\\(\\angle LP'A=\\angle HAP'\\)，\n由轴对称的性质可知\\(\\angle HP'A=\\angle LP'A\\)，\n∴\\(\\angle HP'A=\\angle HAP'=\\angle BAC-\\angle BAG=75{}^\\circ\\)，\n∴\\(HP'=AH=2，\\angle AHP'=30{}^\\circ\\)，\n∴\\(\\angle HP'M=\\angle AHP'=30{}^\\circ\\)（由于\\(AC\\parallel H'N\\)），\n∴\\(P'M=\\frac { \\sqrt[] { 3 } } { 2 }HP'=\\sqrt[] { 3 }\\)，\n∴\\(H'N=H'P'+P'M+MN=2+\\sqrt[] { 3 }+2\\sqrt[] { 6 }-2=\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)，\n∴\\(HP+PK'\\)的最小值为\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)；\n〔图5〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：如图所示，过点A作\\(AE\\bot BC\\)于E，",
+    "∵在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，",
+    "∴\\(\\angle ABC=\\angle ACB=45{}^\\circ\\)，",
+    "∴\\(\\angle EAB=\\angle EBA=45{}^\\circ\\)，",
+    "∴\\(AE=BE=\\frac { \\sqrt[] { 2 } } { 2 }AB=3\\)，",
+    "∴\\(GE=BE-BG=1\\)，",
+    "∴\\(AG=\\sqrt[] { AE ^ { 2 } +GE ^ { 2 } }=\\sqrt[] { 10 }\\)",
+    "〔图2〕【小问2详解】",
+    "解：如图所示，在\\(BC\\)上取一点H，使得\\(HF=CF\\)，连接\\(DH\\)，",
+    "在\\(\\vartriangle HDF\\)和\\(\\vartriangle CEF\\)中，",
+    "\\(\\begin{cases} HF=CF \\\\ \\angle HFD=\\angle CFE \\\\ DF=EF \\end{cases}\\)，",
+    "∴\\(\\vartriangle HDF≌\\vartriangle CEF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle HDF=\\angle E\\)，",
+    "∴\\(DH\\parallel CE\\)，",
+    "又∵\\(CE\\parallel AB\\)，",
+    "∴\\(CE\\parallel AB\\parallel DH\\)，",
+    "∵\\(AB\\bot BD\\)，",
+    "∴\\(DH\\bot BD\\)，\\(\\angle ABD=90{}^\\circ\\)，",
+    "又∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+    "∴\\(\\angle DBH=45{}^\\circ\\)，",
+    "∴\\(\\vartriangle BDH\\)是等腰直角三角形，",
+    "∴\\(BH=\\sqrt[] { 2 }BD\\)，",
+    "同理可证\\(BC=\\sqrt[] { 2 }AB\\)，",
+    "∵\\(BC=BH+CH=BH+2CF\\)，",
+    "∴\\(\\sqrt[] { 2 }AB=\\sqrt[] { 2 }BD+2CF\\)，",
+    "∴\\(AB=BD+\\sqrt[] { 2 }CF\\)；",
+    "〔图3〕【小问3详解】",
+    "解：如图3-1所示，过点G作\\(GT\\bot BC\\)交直线\\(AC\\)于T，连接\\(CK'\\)，则\\(\\vartriangle CGT\\)是等腰直角三角形，",
+    "∴\\(GT=GC，\\angle TGC=90{}^\\circ ，\\angle T=\\angle GCT=45{}^\\circ\\)，",
+    "由旋转的性质可知\\(GK=GK'，\\angle KGK'=90{}^\\circ\\)，",
+    "∴\\(\\angle TGK=\\angle CGK'\\)，",
+    "∴\\(\\vartriangle TGK≌\\vartriangle CGK'\\left ( { S{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle GCK'=\\angle GTK=45{}^\\circ\\)，",
+    "∴\\(\\angle TCK'=90{}^\\circ\\)，",
+    "∴\\(K'\\)在垂直于\\(AC\\)的直线l上运动；",
+    "〔图4〕",
+    "如图3-2所示作H关于直线\\(AG\\)的对称点\\(H'\\)，连接\\(H'P\\)，则\\(HP=H'P\\)，",
+    "∴\\(HP+PK'=H'P+PK'\\)，",
+    "∴要使\\(HP+PK'\\)最小，即要使\\(H'P+PK'\\)最小，",
+    "∴当\\(H'、P、K'\\)三点共线且\\(H'K'\\bot l\\)时（此时P在\\(P'\\)，\\(K'\\)在N），满足题意；",
+    "∵\\(\\angle AGC=4\\angle BAG，\\angle AGC=\\angle ABC+\\angle BAG\\)，",
+    "∴\\(\\angle ABC=3\\angle BAG=45{}^\\circ\\)，",
+    "∴\\(\\angle AGC=60{}^\\circ\\)，",
+    "过点A作\\(AQ\\bot BC\\)于Q，过点\\(H\\)作\\(MH\\bot H'N\\)于M，",
+    "∴\\(\\angle QAG=30{}^\\circ\\)，\\(AQ=BQ\\)，",
+    "∴\\(AQ=\\sqrt[] { 3 }QG，\\)",
+    "∵\\(BG=2\\sqrt[] { 3 }-2\\)，",
+    "∴\\(2\\sqrt[] { 3 }-2+GQ=\\sqrt[] { 3 }GQ\\)，",
+    "∴\\(GQ=2\\)，",
+    "∴\\(AQ=BQ=2\\sqrt[] { 3 }\\)，",
+    "∴\\(AC=\\sqrt[] { 2 }AQ=2\\sqrt[] { 6 }\\)，",
+    "∴\\(CH=AC-AH=2\\sqrt[] { 6 }-2\\)，",
+    "∴\\(MN=CH=2\\sqrt[] { 6 }-2\\)（\\(MN\\parallel CN\\)，平行线间间距相等）",
+    "∵\\(AB\\bot AC，CN\\bot AC，H'N\\bot CN\\)，",
+    "∴\\(LN\\bot AB\\)，",
+    "∴\\(\\angle LAP'+\\angle LP'A=90{}^\\circ =\\angle LAP'+\\angle HAP'\\)，",
+    "∴\\(\\angle LP'A=\\angle HAP'\\)，",
+    "由轴对称的性质可知\\(\\angle HP'A=\\angle LP'A\\)，",
+    "∴\\(\\angle HP'A=\\angle HAP'=\\angle BAC-\\angle BAG=75{}^\\circ\\)，",
+    "∴\\(HP'=AH=2，\\angle AHP'=30{}^\\circ\\)，",
+    "∴\\(\\angle HP'M=\\angle AHP'=30{}^\\circ\\)（由于\\(AC\\parallel H'N\\)），",
+    "∴\\(P'M=\\frac { \\sqrt[] { 3 } } { 2 }HP'=\\sqrt[] { 3 }\\)，",
+    "∴\\(H'N=H'P'+P'M+MN=2+\\sqrt[] { 3 }+2\\sqrt[] { 6 }-2=\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)，",
+    "∴\\(HP+PK'\\)的最小值为\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)；",
+    "〔图5〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为\\(\\vartriangle ABC\\)外一点，连接\\(BD\\)，连接\\(AD\\)交\\(BC\\)于点\\(G\\)，且满足\\(BD\\bot AB\\)．\n〔图1〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-D6885B7457-Q23-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(BG=2\\)，\\(AB=3\\sqrt[] { 2 }\\)，求\\(AG\\)的长．",
+      "stem_text": "如图1，若\\(BG=2\\)，\\(AB=3\\sqrt[] { 2 }\\)，求\\(AG\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 10 }\\)",
+      "answer": "\\(\\sqrt[] { 10 }\\)",
+      "given_solution": "解：如图所示，过点A作\\(AE\\bot BC\\)于E，\n∵在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，\n∴\\(\\angle ABC=\\angle ACB=45{}^\\circ\\)，\n∴\\(\\angle EAB=\\angle EBA=45{}^\\circ\\)，\n∴\\(AE=BE=\\frac { \\sqrt[] { 2 } } { 2 }AB=3\\)，\n∴\\(GE=BE-BG=1\\)，\n∴\\(AG=\\sqrt[] { AE ^ { 2 } +GE ^ { 2 } }=\\sqrt[] { 10 }\\)\n〔图2〕",
+      "solution_steps": [
+        "解：如图所示，过点A作\\(AE\\bot BC\\)于E，",
+        "∵在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，",
+        "∴\\(\\angle ABC=\\angle ACB=45{}^\\circ\\)，",
+        "∴\\(\\angle EAB=\\angle EBA=45{}^\\circ\\)，",
+        "∴\\(AE=BE=\\frac { \\sqrt[] { 2 } } { 2 }AB=3\\)，",
+        "∴\\(GE=BE-BG=1\\)，",
+        "∴\\(AG=\\sqrt[] { AE ^ { 2 } +GE ^ { 2 } }=\\sqrt[] { 10 }\\)",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-D6885B7457-Q23-P02",
+      "label": "（2）",
+      "prompt": "如图2，点\\(F\\)为线段\\(BC\\)上一点，连接\\(AF\\)、\\(DF\\)，过点\\(C\\)作\\(CE\\parallel AB\\)交\\(DF\\)的延长线于点\\(E\\)，若\\(AF\\bot DE\\)，\\(DF=EF\\)，求证：\\(AB=\\sqrt[] { 2 }CF+BD\\)；",
+      "stem_text": "如图2，点\\(F\\)为线段\\(BC\\)上一点，连接\\(AF\\)、\\(DF\\)，过点\\(C\\)作\\(CE\\parallel AB\\)交\\(DF\\)的延长线于点\\(E\\)，若\\(AF\\bot DE\\)，\\(DF=EF\\)，求证：\\(AB=\\sqrt[] { 2 }CF+BD\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "解：如图所示，在\\(BC\\)上取一点H，使得\\(HF=CF\\)，连接\\(DH\\)，\n在\\(\\vartriangle HDF\\)和\\(\\vartriangle CEF\\)中，\n\\(\\begin{cases} HF=CF \\\\ \\angle HFD=\\angle CFE \\\\ DF=EF \\end{cases}\\)，\n∴\\(\\vartriangle HDF≌\\vartriangle CEF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle HDF=\\angle E\\)，\n∴\\(DH\\parallel CE\\)，\n又∵\\(CE\\parallel AB\\)，\n∴\\(CE\\parallel AB\\parallel DH\\)，\n∵\\(AB\\bot BD\\)，\n∴\\(DH\\bot BD\\)，\\(\\angle ABD=90{}^\\circ\\)，\n又∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\n∴\\(\\angle DBH=45{}^\\circ\\)，\n∴\\(\\vartriangle BDH\\)是等腰直角三角形，\n∴\\(BH=\\sqrt[] { 2 }BD\\)，\n同理可证\\(BC=\\sqrt[] { 2 }AB\\)，\n∵\\(BC=BH+CH=BH+2CF\\)，\n∴\\(\\sqrt[] { 2 }AB=\\sqrt[] { 2 }BD+2CF\\)，\n∴\\(AB=BD+\\sqrt[] { 2 }CF\\)；\n〔图3〕",
+      "solution_steps": [
+        "解：如图所示，在\\(BC\\)上取一点H，使得\\(HF=CF\\)，连接\\(DH\\)，",
+        "在\\(\\vartriangle HDF\\)和\\(\\vartriangle CEF\\)中，",
+        "\\(\\begin{cases} HF=CF \\\\ \\angle HFD=\\angle CFE \\\\ DF=EF \\end{cases}\\)，",
+        "∴\\(\\vartriangle HDF≌\\vartriangle CEF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle HDF=\\angle E\\)，",
+        "∴\\(DH\\parallel CE\\)，",
+        "又∵\\(CE\\parallel AB\\)，",
+        "∴\\(CE\\parallel AB\\parallel DH\\)，",
+        "∵\\(AB\\bot BD\\)，",
+        "∴\\(DH\\bot BD\\)，\\(\\angle ABD=90{}^\\circ\\)，",
+        "又∵\\(\\angle ABC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，",
+        "∴\\(\\angle DBH=45{}^\\circ\\)，",
+        "∴\\(\\vartriangle BDH\\)是等腰直角三角形，",
+        "∴\\(BH=\\sqrt[] { 2 }BD\\)，",
+        "同理可证\\(BC=\\sqrt[] { 2 }AB\\)，",
+        "∵\\(BC=BH+CH=BH+2CF\\)，",
+        "∴\\(\\sqrt[] { 2 }AB=\\sqrt[] { 2 }BD+2CF\\)，",
+        "∴\\(AB=BD+\\sqrt[] { 2 }CF\\)；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-D6885B7457-Q23-P03",
+      "label": "（3）",
+      "prompt": "如图3，点\\(H\\)为线段\\(AC\\)上一点，\\(AH=2\\)，点\\(K\\)是直线\\(AC\\)上的一个动点，连接\\(GK\\)．将线段\\(GK\\)绕点\\(G\\)顺时针旋转90°得到线段\\(GK'\\)，点\\(P\\)是线段\\(AD\\)上的一个动点，连接\\(HP\\)、\\(PK'\\)，若\\(BG=2\\sqrt[] { 3 }-2\\)，\\(\\angle AGC=4\\angle BAG\\)，请直接写出\\(HP+PK'\\)的最小值．",
+      "stem_text": "如图3，点\\(H\\)为线段\\(AC\\)上一点，\\(AH=2\\)，点\\(K\\)是直线\\(AC\\)上的一个动点，连接\\(GK\\)．将线段\\(GK\\)绕点\\(G\\)顺时针旋转90°得到线段\\(GK'\\)，点\\(P\\)是线段\\(AD\\)上的一个动点，连接\\(HP\\)、\\(PK'\\)，若\\(BG=2\\sqrt[] { 3 }-2\\)，\\(\\angle AGC=4\\angle BAG\\)，请直接写出\\(HP+PK'\\)的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)",
+      "answer": "\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)",
+      "given_solution": "解：如图3-1所示，过点G作\\(GT\\bot BC\\)交直线\\(AC\\)于T，连接\\(CK'\\)，则\\(\\vartriangle CGT\\)是等腰直角三角形，\n∴\\(GT=GC，\\angle TGC=90{}^\\circ ，\\angle T=\\angle GCT=45{}^\\circ\\)，\n由旋转的性质可知\\(GK=GK'，\\angle KGK'=90{}^\\circ\\)，\n∴\\(\\angle TGK=\\angle CGK'\\)，\n∴\\(\\vartriangle TGK≌\\vartriangle CGK'\\left ( { S{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle GCK'=\\angle GTK=45{}^\\circ\\)，\n∴\\(\\angle TCK'=90{}^\\circ\\)，\n∴\\(K'\\)在垂直于\\(AC\\)的直线l上运动；\n〔图4〕\n如图3-2所示作H关于直线\\(AG\\)的对称点\\(H'\\)，连接\\(H'P\\)，则\\(HP=H'P\\)，\n∴\\(HP+PK'=H'P+PK'\\)，\n∴要使\\(HP+PK'\\)最小，即要使\\(H'P+PK'\\)最小，\n∴当\\(H'、P、K'\\)三点共线且\\(H'K'\\bot l\\)时（此时P在\\(P'\\)，\\(K'\\)在N），满足题意；\n∵\\(\\angle AGC=4\\angle BAG，\\angle AGC=\\angle ABC+\\angle BAG\\)，\n∴\\(\\angle ABC=3\\angle BAG=45{}^\\circ\\)，\n∴\\(\\angle AGC=60{}^\\circ\\)，\n过点A作\\(AQ\\bot BC\\)于Q，过点\\(H\\)作\\(MH\\bot H'N\\)于M，\n∴\\(\\angle QAG=30{}^\\circ\\)，\\(AQ=BQ\\)，\n∴\\(AQ=\\sqrt[] { 3 }QG，\\)\n∵\\(BG=2\\sqrt[] { 3 }-2\\)，\n∴\\(2\\sqrt[] { 3 }-2+GQ=\\sqrt[] { 3 }GQ\\)，\n∴\\(GQ=2\\)，\n∴\\(AQ=BQ=2\\sqrt[] { 3 }\\)，\n∴\\(AC=\\sqrt[] { 2 }AQ=2\\sqrt[] { 6 }\\)，\n∴\\(CH=AC-AH=2\\sqrt[] { 6 }-2\\)，\n∴\\(MN=CH=2\\sqrt[] { 6 }-2\\)（\\(MN\\parallel CN\\)，平行线间间距相等）\n∵\\(AB\\bot AC，CN\\bot AC，H'N\\bot CN\\)，\n∴\\(LN\\bot AB\\)，\n∴\\(\\angle LAP'+\\angle LP'A=90{}^\\circ =\\angle LAP'+\\angle HAP'\\)，\n∴\\(\\angle LP'A=\\angle HAP'\\)，\n由轴对称的性质可知\\(\\angle HP'A=\\angle LP'A\\)，\n∴\\(\\angle HP'A=\\angle HAP'=\\angle BAC-\\angle BAG=75{}^\\circ\\)，\n∴\\(HP'=AH=2，\\angle AHP'=30{}^\\circ\\)，\n∴\\(\\angle HP'M=\\angle AHP'=30{}^\\circ\\)（由于\\(AC\\parallel H'N\\)），\n∴\\(P'M=\\frac { \\sqrt[] { 3 } } { 2 }HP'=\\sqrt[] { 3 }\\)，\n∴\\(H'N=H'P'+P'M+MN=2+\\sqrt[] { 3 }+2\\sqrt[] { 6 }-2=\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)，\n∴\\(HP+PK'\\)的最小值为\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)；\n〔图5〕",
+      "solution_steps": [
+        "解：如图3-1所示，过点G作\\(GT\\bot BC\\)交直线\\(AC\\)于T，连接\\(CK'\\)，则\\(\\vartriangle CGT\\)是等腰直角三角形，",
+        "∴\\(GT=GC，\\angle TGC=90{}^\\circ ，\\angle T=\\angle GCT=45{}^\\circ\\)，",
+        "由旋转的性质可知\\(GK=GK'，\\angle KGK'=90{}^\\circ\\)，",
+        "∴\\(\\angle TGK=\\angle CGK'\\)，",
+        "∴\\(\\vartriangle TGK≌\\vartriangle CGK'\\left ( { S{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle GCK'=\\angle GTK=45{}^\\circ\\)，",
+        "∴\\(\\angle TCK'=90{}^\\circ\\)，",
+        "∴\\(K'\\)在垂直于\\(AC\\)的直线l上运动；",
+        "〔图4〕",
+        "如图3-2所示作H关于直线\\(AG\\)的对称点\\(H'\\)，连接\\(H'P\\)，则\\(HP=H'P\\)，",
+        "∴\\(HP+PK'=H'P+PK'\\)，",
+        "∴要使\\(HP+PK'\\)最小，即要使\\(H'P+PK'\\)最小，",
+        "∴当\\(H'、P、K'\\)三点共线且\\(H'K'\\bot l\\)时（此时P在\\(P'\\)，\\(K'\\)在N），满足题意；",
+        "∵\\(\\angle AGC=4\\angle BAG，\\angle AGC=\\angle ABC+\\angle BAG\\)，",
+        "∴\\(\\angle ABC=3\\angle BAG=45{}^\\circ\\)，",
+        "∴\\(\\angle AGC=60{}^\\circ\\)，",
+        "过点A作\\(AQ\\bot BC\\)于Q，过点\\(H\\)作\\(MH\\bot H'N\\)于M，",
+        "∴\\(\\angle QAG=30{}^\\circ\\)，\\(AQ=BQ\\)，",
+        "∴\\(AQ=\\sqrt[] { 3 }QG，\\)",
+        "∵\\(BG=2\\sqrt[] { 3 }-2\\)，",
+        "∴\\(2\\sqrt[] { 3 }-2+GQ=\\sqrt[] { 3 }GQ\\)，",
+        "∴\\(GQ=2\\)，",
+        "∴\\(AQ=BQ=2\\sqrt[] { 3 }\\)，",
+        "∴\\(AC=\\sqrt[] { 2 }AQ=2\\sqrt[] { 6 }\\)，",
+        "∴\\(CH=AC-AH=2\\sqrt[] { 6 }-2\\)，",
+        "∴\\(MN=CH=2\\sqrt[] { 6 }-2\\)（\\(MN\\parallel CN\\)，平行线间间距相等）",
+        "∵\\(AB\\bot AC，CN\\bot AC，H'N\\bot CN\\)，",
+        "∴\\(LN\\bot AB\\)，",
+        "∴\\(\\angle LAP'+\\angle LP'A=90{}^\\circ =\\angle LAP'+\\angle HAP'\\)，",
+        "∴\\(\\angle LP'A=\\angle HAP'\\)，",
+        "由轴对称的性质可知\\(\\angle HP'A=\\angle LP'A\\)，",
+        "∴\\(\\angle HP'A=\\angle HAP'=\\angle BAC-\\angle BAG=75{}^\\circ\\)，",
+        "∴\\(HP'=AH=2，\\angle AHP'=30{}^\\circ\\)，",
+        "∴\\(\\angle HP'M=\\angle AHP'=30{}^\\circ\\)（由于\\(AC\\parallel H'N\\)），",
+        "∴\\(P'M=\\frac { \\sqrt[] { 3 } } { 2 }HP'=\\sqrt[] { 3 }\\)，",
+        "∴\\(H'N=H'P'+P'M+MN=2+\\sqrt[] { 3 }+2\\sqrt[] { 6 }-2=\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)，",
+        "∴\\(HP+PK'\\)的最小值为\\(\\sqrt[] { 3 }+2\\sqrt[] { 6 }\\)；",
+        "〔图5〕"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          64
+        ],
+        "solution_block_ids": [
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          22,
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      64
+    ],
+    "solution_body_blocks": [
+      397,
+      474
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-D6885B7457/paper-q23-p04.webp",
+      "assets/SZ-G8-T2-D6885B7457/paper-q23-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          674.55,
+          583.64,
+          712.27
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          311.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-D6885B7457/solution-q23-p20.webp",
+      "assets/SZ-G8-T2-D6885B7457/solution-q23-p21.webp",
+      "assets/SZ-G8-T2-D6885B7457/solution-q23-p22.webp",
+      "assets/SZ-G8-T2-D6885B7457/solution-q23-p23.webp",
+      "assets/SZ-G8-T2-D6885B7457/solution-q23-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          582.27,
+          583.64,
+          756.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          704.55
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          392.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G03.02",
+    "M.G07.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G03.02.02",
+    "E.G07.03.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问解答对应“利用旋转对应建立全等或角度关系”。",
+  "tag_source": "小问标签汇总"
+}

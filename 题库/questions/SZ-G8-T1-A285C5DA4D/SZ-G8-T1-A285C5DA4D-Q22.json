@@ -1,0 +1,322 @@
+{
+  "id": "SZ-G8-T1-A285C5DA4D-Q22",
+  "paper_id": "SZ-G8-T1-A285C5DA4D",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "（1）如图（1），已知：在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，直线m经过点A，\\(BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线m，垂足分别为点D、E．猜测\\(DE\\)、\\(BD\\)、\\(CE\\)三条线段之间的数量关系（直接写出结果即可）．\n（2）如图（2），将（1）中的条件改为：在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，D、A、E三点都在直线m上，并且有\\(\\angle BDA=\\angle AEC=\\angle BAC=\\alpha\\)，其中\\(\\alpha\\)为任意锐角或钝角．请问第（1）题中\\(DE\\)、\\(BD\\)、\\(CE\\)之间的关系是否仍然成立？如成立，请你给出证明；若不成立，请说明理由．\n（3）拓展与应用：如图（3），D、E是D、A、E三点所在直线m上的两动点（D、A、E三点互不重合），点F为\\(\\angle BAC\\)平分线上的一点，且\\(\\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，连接\\(BD\\)、\\(CE\\)，若\\(\\angle BDA=\\angle AEC=\\angle BAC\\)，试判断线段\\(DF\\)、\\(EF\\)的数量关系，并说明理由．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-A285C5DA4D/figures/57c6a896e128d36e2667b60991d451c48928ca3f8aad444f445f0f3466c9dd9a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(DE=BD+CE\\)；（2）成立，证明见解析；（3）\\(DF=EF\\)，理由见解析",
+  "answer": "（1）\\(DE=BD+CE\\)；（2）成立，证明见解析；（3）\\(DF=EF\\)，理由见解析",
+  "given_solution": "【分析】本题考查的是全等三角形的判定与性质以及等边三角形的性质，掌握全等三角形的判定定理和性质定理是解题的关键．\n（1）根据垂直的定义得到\\(\\angle BDA=\\angle CEA=90{}^\\circ\\)，根据等角的余角相等得到\\(\\angle CAE=\\angle ABD\\)，根据“\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)”证明\\(\\vartriangle ADB≌\\vartriangle CEA\\)，根据全等三角形的性质得到\\(AE=BD\\)，\\(AD=CE\\)，结合图形得到\\(DE=BD+CE\\)；\n（2）根据\\(\\angle BDA=\\angle AEC=\\angle BAC\\)，得到\\(\\angle ABD=\\angle CAE\\)，由\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)定理证明\\(\\vartriangle ADB≌\\vartriangle CEA\\)，根据全等三角形的性质得到\\(BD=AE\\)，\\(DA=CE\\)，得出结论；\n（3）根据\\(\\vartriangle ADB≌\\vartriangle CEA\\)，得到\\(BD=AE\\)，\\(\\angle DBA=\\angle CAE\\)，证明\\(\\vartriangle DBF≌\\vartriangle EAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，得到\\(DF=EF\\)．\n【详解】解：（1）\\(DE=BD+CE\\)．理由：如图1，\n\\(\\because BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线\\(m\\)，\n\\(\\therefore \\angle BDA=\\angle CEA=90{}^\\circ\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD+\\angle CAE=90{}^\\circ\\)，\n\\(\\because \\angle BAD+\\angle ABD=90{}^\\circ\\)，\n\\(\\therefore \\angle CAE=\\angle ABD\\)，\n在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle ABD=\\angle CAE \\\\ \\angle ADB=\\angle CEA=90{}^\\circ \\\\ BA=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AE=BD\\)，\\(AD=CE\\)，\n\\(\\therefore DE=AE+AD=BD+CE\\)；\n（2）（1）中结论成立，\n理由如下：如图2，\\(\\because \\angle BDA=\\angle BAC=\\alpha\\)，\n\\(\\therefore \\angle DBA+\\angle BAD=\\angle BAD+\\angle CAE=180{}^\\circ -\\alpha\\)，\n\\(\\therefore \\angle DBA=\\angle CAE\\)，\n在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle DBA=\\angle CAE \\\\ \\angle BDA=\\angle AEC \\\\ BA=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AE=BD\\)，\\(AD=CE\\)，\n\\(\\therefore DE=AE+AD=BD+CE\\)；\n（3）结论：\\(DF=EF\\)，理由如下：\n如图3，由（2）可知，\\(\\vartriangle ADB≌\\vartriangle CEA\\)，\n\\(\\therefore BD=AE\\)，\\(\\angle DBA=\\angle CAE\\)，\n\\(\\because \\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，\n\\(\\therefore \\angle ABF=\\angle CAF=60{}^\\circ\\)，\\(BF=AF\\)，\n\\(\\therefore \\angle DBA+\\angle ABF=\\angle CAE+\\angle CAF\\)，即\\(\\angle DBF=\\angle EAF\\)，\n在\\(\\vartriangle DBF\\)和\\(\\vartriangle EAF\\)中，\n\\(\\begin{cases} FB=FA \\\\ \\angle DBF=\\angle EAF \\\\ BD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle DBF≌\\vartriangle EAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore DF=EF\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-A285C5DA4D/figures/57c6a896e128d36e2667b60991d451c48928ca3f8aad444f445f0f3466c9dd9a.png"
+  ],
+  "solution": "解：（1）\\(DE=BD+CE\\)．理由：如图1，\n\\(\\because BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线\\(m\\)，\n\\(\\therefore \\angle BDA=\\angle CEA=90{}^\\circ\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD+\\angle CAE=90{}^\\circ\\)，\n\\(\\because \\angle BAD+\\angle ABD=90{}^\\circ\\)，\n\\(\\therefore \\angle CAE=\\angle ABD\\)，\n在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle ABD=\\angle CAE \\\\ \\angle ADB=\\angle CEA=90{}^\\circ \\\\ BA=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AE=BD\\)，\\(AD=CE\\)，\n\\(\\therefore DE=AE+AD=BD+CE\\)；\n（2）（1）中结论成立，\n理由如下：如图2，\\(\\because \\angle BDA=\\angle BAC=\\alpha\\)，\n\\(\\therefore \\angle DBA+\\angle BAD=\\angle BAD+\\angle CAE=180{}^\\circ -\\alpha\\)，\n\\(\\therefore \\angle DBA=\\angle CAE\\)，\n在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle DBA=\\angle CAE \\\\ \\angle BDA=\\angle AEC \\\\ BA=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AE=BD\\)，\\(AD=CE\\)，\n\\(\\therefore DE=AE+AD=BD+CE\\)；\n（3）结论：\\(DF=EF\\)，理由如下：\n如图3，由（2）可知，\\(\\vartriangle ADB≌\\vartriangle CEA\\)，\n\\(\\therefore BD=AE\\)，\\(\\angle DBA=\\angle CAE\\)，\n\\(\\because \\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，\n\\(\\therefore \\angle ABF=\\angle CAF=60{}^\\circ\\)，\\(BF=AF\\)，\n\\(\\therefore \\angle DBA+\\angle ABF=\\angle CAE+\\angle CAF\\)，即\\(\\angle DBF=\\angle EAF\\)，\n在\\(\\vartriangle DBF\\)和\\(\\vartriangle EAF\\)中，\n\\(\\begin{cases} FB=FA \\\\ \\angle DBF=\\angle EAF \\\\ BD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle DBF≌\\vartriangle EAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore DF=EF\\)．",
+  "solution_steps": [
+    "解：（1）\\(DE=BD+CE\\)．理由：如图1，",
+    "\\(\\because BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线\\(m\\)，",
+    "\\(\\therefore \\angle BDA=\\angle CEA=90{}^\\circ\\)，",
+    "\\(\\because \\angle BAC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAD+\\angle CAE=90{}^\\circ\\)，",
+    "\\(\\because \\angle BAD+\\angle ABD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CAE=\\angle ABD\\)，",
+    "在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，",
+    "\\(\\begin{cases} \\angle ABD=\\angle CAE \\\\ \\angle ADB=\\angle CEA=90{}^\\circ \\\\ BA=AC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore AE=BD\\)，\\(AD=CE\\)，",
+    "\\(\\therefore DE=AE+AD=BD+CE\\)；",
+    "（2）（1）中结论成立，",
+    "理由如下：如图2，\\(\\because \\angle BDA=\\angle BAC=\\alpha\\)，",
+    "\\(\\therefore \\angle DBA+\\angle BAD=\\angle BAD+\\angle CAE=180{}^\\circ -\\alpha\\)，",
+    "\\(\\therefore \\angle DBA=\\angle CAE\\)，",
+    "在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，",
+    "\\(\\begin{cases} \\angle DBA=\\angle CAE \\\\ \\angle BDA=\\angle AEC \\\\ BA=AC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore AE=BD\\)，\\(AD=CE\\)，",
+    "\\(\\therefore DE=AE+AD=BD+CE\\)；",
+    "（3）结论：\\(DF=EF\\)，理由如下：",
+    "如图3，由（2）可知，\\(\\vartriangle ADB≌\\vartriangle CEA\\)，",
+    "\\(\\therefore BD=AE\\)，\\(\\angle DBA=\\angle CAE\\)，",
+    "\\(\\because \\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，",
+    "\\(\\therefore \\angle ABF=\\angle CAF=60{}^\\circ\\)，\\(BF=AF\\)，",
+    "\\(\\therefore \\angle DBA+\\angle ABF=\\angle CAE+\\angle CAF\\)，即\\(\\angle DBF=\\angle EAF\\)，",
+    "在\\(\\vartriangle DBF\\)和\\(\\vartriangle EAF\\)中，",
+    "\\(\\begin{cases} FB=FA \\\\ \\angle DBF=\\angle EAF \\\\ BD=AE \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle DBF≌\\vartriangle EAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore DF=EF\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "fig-67",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-A285C5DA4D-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图（1），已知：在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，直线m经过点A，\\(BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线m，垂足分别为点D、E．猜测\\(DE\\)、\\(BD\\)、\\(CE\\)三条线段之间的数量关系（直接写出结果即可）．",
+      "stem_text": "如图（1），已知：在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=AC\\)，直线m经过点A，\\(BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线m，垂足分别为点D、E．猜测\\(DE\\)、\\(BD\\)、\\(CE\\)三条线段之间的数量关系（直接写出结果即可）．",
+      "material_ids": [
+        "fig-67"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE=BD+CE\\)；",
+      "answer": "\\(DE=BD+CE\\)；",
+      "given_solution": "\\(DE=BD+CE\\)．理由：如图1，\n\\(\\because BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线\\(m\\)，\n\\(\\therefore \\angle BDA=\\angle CEA=90{}^\\circ\\)，\n\\(\\because \\angle BAC=90{}^\\circ\\)，\n\\(\\therefore \\angle BAD+\\angle CAE=90{}^\\circ\\)，\n\\(\\because \\angle BAD+\\angle ABD=90{}^\\circ\\)，\n\\(\\therefore \\angle CAE=\\angle ABD\\)，\n在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle ABD=\\angle CAE \\\\ \\angle ADB=\\angle CEA=90{}^\\circ \\\\ BA=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AE=BD\\)，\\(AD=CE\\)，\n\\(\\therefore DE=AE+AD=BD+CE\\)；",
+      "solution_steps": [
+        "\\(DE=BD+CE\\)．理由：如图1，",
+        "\\(\\because BD\\bot\\)直线\\(m\\)，\\(CE\\bot\\)直线\\(m\\)，",
+        "\\(\\therefore \\angle BDA=\\angle CEA=90{}^\\circ\\)，",
+        "\\(\\because \\angle BAC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAD+\\angle CAE=90{}^\\circ\\)，",
+        "\\(\\because \\angle BAD+\\angle ABD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CAE=\\angle ABD\\)，",
+        "在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，",
+        "\\(\\begin{cases} \\angle ABD=\\angle CAE \\\\ \\angle ADB=\\angle CEA=90{}^\\circ \\\\ BA=AC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore AE=BD\\)，\\(AD=CE\\)，",
+        "\\(\\therefore DE=AE+AD=BD+CE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          67
+        ],
+        "solution_block_ids": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-A285C5DA4D-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图（2），将（1）中的条件改为：在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，D、A、E三点都在直线m上，并且有\\(\\angle BDA=\\angle AEC=\\angle BAC=\\alpha\\)，其中\\(\\alpha\\)为任意锐角或钝角．请问第（1）题中\\(DE\\)、\\(BD\\)、\\(CE\\)之间的关系是否仍然成立？如成立，请你给出证明；若不成立，请说明理由．",
+      "stem_text": "如图（2），将（1）中的条件改为：在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，D、A、E三点都在直线m上，并且有\\(\\angle BDA=\\angle AEC=\\angle BAC=\\alpha\\)，其中\\(\\alpha\\)为任意锐角或钝角．请问第（1）题中\\(DE\\)、\\(BD\\)、\\(CE\\)之间的关系是否仍然成立？如成立，请你给出证明；若不成立，请说明理由．",
+      "material_ids": [
+        "fig-67"
+      ],
+      "requires": [],
+      "given_answer": "成立，证明见解析；",
+      "answer": "成立，证明见解析；",
+      "given_solution": "（1）中结论成立，\n理由如下：如图2，\\(\\because \\angle BDA=\\angle BAC=\\alpha\\)，\n\\(\\therefore \\angle DBA+\\angle BAD=\\angle BAD+\\angle CAE=180{}^\\circ -\\alpha\\)，\n\\(\\therefore \\angle DBA=\\angle CAE\\)，\n在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle DBA=\\angle CAE \\\\ \\angle BDA=\\angle AEC \\\\ BA=AC \\end{cases}\\)，\n\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AE=BD\\)，\\(AD=CE\\)，\n\\(\\therefore DE=AE+AD=BD+CE\\)；",
+      "solution_steps": [
+        "（1）中结论成立，",
+        "理由如下：如图2，\\(\\because \\angle BDA=\\angle BAC=\\alpha\\)，",
+        "\\(\\therefore \\angle DBA+\\angle BAD=\\angle BAD+\\angle CAE=180{}^\\circ -\\alpha\\)，",
+        "\\(\\therefore \\angle DBA=\\angle CAE\\)，",
+        "在\\(\\vartriangle ADB\\)和\\(\\vartriangle CEA\\)中，",
+        "\\(\\begin{cases} \\angle DBA=\\angle CAE \\\\ \\angle BDA=\\angle AEC \\\\ BA=AC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle ADB≌\\vartriangle CEA({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore AE=BD\\)，\\(AD=CE\\)，",
+        "\\(\\therefore DE=AE+AD=BD+CE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-A285C5DA4D-Q22-P03",
+      "label": "（3）",
+      "prompt": "拓展与应用：如图（3），D、E是D、A、E三点所在直线m上的两动点（D、A、E三点互不重合），点F为\\(\\angle BAC\\)平分线上的一点，且\\(\\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，连接\\(BD\\)、\\(CE\\)，若\\(\\angle BDA=\\angle AEC=\\angle BAC\\)，试判断线段\\(DF\\)、\\(EF\\)的数量关系，并说明理由．",
+      "stem_text": "拓展与应用：如图（3），D、E是D、A、E三点所在直线m上的两动点（D、A、E三点互不重合），点F为\\(\\angle BAC\\)平分线上的一点，且\\(\\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，连接\\(BD\\)、\\(CE\\)，若\\(\\angle BDA=\\angle AEC=\\angle BAC\\)，试判断线段\\(DF\\)、\\(EF\\)的数量关系，并说明理由．",
+      "material_ids": [
+        "fig-67"
+      ],
+      "requires": [],
+      "given_answer": "\\(DF=EF\\)，理由见解析",
+      "answer": "\\(DF=EF\\)，理由见解析",
+      "given_solution": "结论：\\(DF=EF\\)，理由如下：\n如图3，由（2）可知，\\(\\vartriangle ADB≌\\vartriangle CEA\\)，\n\\(\\therefore BD=AE\\)，\\(\\angle DBA=\\angle CAE\\)，\n\\(\\because \\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，\n\\(\\therefore \\angle ABF=\\angle CAF=60{}^\\circ\\)，\\(BF=AF\\)，\n\\(\\therefore \\angle DBA+\\angle ABF=\\angle CAE+\\angle CAF\\)，即\\(\\angle DBF=\\angle EAF\\)，\n在\\(\\vartriangle DBF\\)和\\(\\vartriangle EAF\\)中，\n\\(\\begin{cases} FB=FA \\\\ \\angle DBF=\\angle EAF \\\\ BD=AE \\end{cases}\\)，\n\\(\\therefore \\vartriangle DBF≌\\vartriangle EAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore DF=EF\\)．",
+      "solution_steps": [
+        "结论：\\(DF=EF\\)，理由如下：",
+        "如图3，由（2）可知，\\(\\vartriangle ADB≌\\vartriangle CEA\\)，",
+        "\\(\\therefore BD=AE\\)，\\(\\angle DBA=\\angle CAE\\)，",
+        "\\(\\because \\vartriangle ABF\\)和\\(\\vartriangle ACF\\)均为等边三角形，",
+        "\\(\\therefore \\angle ABF=\\angle CAF=60{}^\\circ\\)，\\(BF=AF\\)，",
+        "\\(\\therefore \\angle DBA+\\angle ABF=\\angle CAE+\\angle CAF\\)，即\\(\\angle DBF=\\angle EAF\\)，",
+        "在\\(\\vartriangle DBF\\)和\\(\\vartriangle EAF\\)中，",
+        "\\(\\begin{cases} FB=FA \\\\ \\angle DBF=\\angle EAF \\\\ BD=AE \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle DBF≌\\vartriangle EAF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore DF=EF\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      67
+    ],
+    "solution_body_blocks": [
+      323,
+      363
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-A285C5DA4D/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          484.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-A285C5DA4D/solution-q22-p16.webp",
+      "assets/SZ-G8-T1-A285C5DA4D/solution-q22-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          237.73,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          625.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

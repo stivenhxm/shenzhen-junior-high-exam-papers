@@ -1,0 +1,325 @@
+{
+  "id": "SZ-G8-T2-A2E56AEFEE-Q22",
+  "paper_id": "SZ-G8-T2-A2E56AEFEE",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "给出如下定义：有两个相邻内角互余的四边形称为“邻余四边形”，这两个角的夹边称为“邻余线”．\n〔图1〕\n（1）如图1，格点四边形\\(ABCD\\)是“邻余四边形”，指出它的“邻余线”；\n（2）如图2，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，\\(E\\)，\\(F\\)分别是\\(BD\\)，\\(AD\\)上的点．求证：四边形\\(ABEF\\)是“邻余四边形”；\n（3）如图3，四边形\\(ABCD\\)是“邻余四边形”，\\(AB\\)为“邻余线”，\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(CD\\)的中点，连接\\(EF\\)，\\(AD=4\\)，\\(BC=6\\)．求\\(EF\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/35/357da4db2a6ed0783f757f7e6dc0e468616a187436a3d4aa3b1c94e8c20b8e52.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）AB    （2）见解析\n（3）\\(\\sqrt[] { 13 }\\)",
+  "answer": "（1）AB    （2）见解析\n（3）\\(\\sqrt[] { 13 }\\)",
+  "given_solution": "【分析】（1）根据邻余四边形的定义得出答案即可；\n（2）根据邻余四边形的定义证明结论即可；\n（3）连接DE并延长到G，使EG=DE，连接BG，CG，先得出△AED≌△BEG，再利用勾股定理得出GC的长，最后利用三角形中位线定理得出结果．\n【小问1详解】\n解：由图形可知∠E=90°，\n∴∠A+∠B=90°，\n∴它的“邻余线”是AB；\n〔图2〕【小问2详解】\n证明：∵AB=AC，AD是△ABC的角平分线，\n∴AD⊥BC，\n∴∠ADB=90°，\n∴∠DAB+∠DBA=90°，\n∴∠FAB与∠EBA互余，\n∴四边形ABEF是邻余四边形；\n【小问3详解】\n如图，连接DE并延长到G，使EG=DE，连接BG，CG，\n〔图3〕\n在△AED和△BEG中，\n\\(\\begin{cases} DE=EG \\\\ \\angle BEG=\\angle AED \\\\ BE=AE \\end{cases}\\)，\n∴△AED≌△BEG（SAS），\n∴∠A=∠ABG，BG=AD=4，\n∵四边形ABCD是“邻余四边形”，AB为“邻余线”，\n∴∠A+∠ABC=90°，\n∴∠ABG+∠ABC=∠GBC=90°，\n在Rt△GBC中，\nGC=\\(\\sqrt[] { BG ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 13 }\\)，\n∵EG=DE，AE=BE，\n∴EF=\\(\\frac { 1 } { 2 }\\)GC=\\(\\sqrt[] { 13 }\\)．\n【点睛】本题是四边形综合题，考查了勾股定理，全等三角形的判定与性质及三角形的中位线定理，理解邻余线的定义并运用是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/35/357da4db2a6ed0783f757f7e6dc0e468616a187436a3d4aa3b1c94e8c20b8e52.png",
+    "assets/figures/ca/ca44c4ccbdb22d0ddc0c4b7555a67f451a3d60eb58d6c226963c2c128671e3e7.png",
+    "assets/figures/1d/1d4d621bef7d0a555119025adf07b0d2245e460aaf7c60722230a310ec1d1441.png"
+  ],
+  "solution": "【小问1详解】\n解：由图形可知∠E=90°，\n∴∠A+∠B=90°，\n∴它的“邻余线”是AB；\n〔图2〕【小问2详解】\n证明：∵AB=AC，AD是△ABC的角平分线，\n∴AD⊥BC，\n∴∠ADB=90°，\n∴∠DAB+∠DBA=90°，\n∴∠FAB与∠EBA互余，\n∴四边形ABEF是邻余四边形；\n【小问3详解】\n如图，连接DE并延长到G，使EG=DE，连接BG，CG，\n〔图3〕\n在△AED和△BEG中，\n\\(\\begin{cases} DE=EG \\\\ \\angle BEG=\\angle AED \\\\ BE=AE \\end{cases}\\)，\n∴△AED≌△BEG（SAS），\n∴∠A=∠ABG，BG=AD=4，\n∵四边形ABCD是“邻余四边形”，AB为“邻余线”，\n∴∠A+∠ABC=90°，\n∴∠ABG+∠ABC=∠GBC=90°，\n在Rt△GBC中，\nGC=\\(\\sqrt[] { BG ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 13 }\\)，\n∵EG=DE，AE=BE，\n∴EF=\\(\\frac { 1 } { 2 }\\)GC=\\(\\sqrt[] { 13 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由图形可知∠E=90°，",
+    "∴∠A+∠B=90°，",
+    "∴它的“邻余线”是AB；",
+    "〔图2〕【小问2详解】",
+    "证明：∵AB=AC，AD是△ABC的角平分线，",
+    "∴AD⊥BC，",
+    "∴∠ADB=90°，",
+    "∴∠DAB+∠DBA=90°，",
+    "∴∠FAB与∠EBA互余，",
+    "∴四边形ABEF是邻余四边形；",
+    "【小问3详解】",
+    "如图，连接DE并延长到G，使EG=DE，连接BG，CG，",
+    "〔图3〕",
+    "在△AED和△BEG中，",
+    "\\(\\begin{cases} DE=EG \\\\ \\angle BEG=\\angle AED \\\\ BE=AE \\end{cases}\\)，",
+    "∴△AED≌△BEG（SAS），",
+    "∴∠A=∠ABG，BG=AD=4，",
+    "∵四边形ABCD是“邻余四边形”，AB为“邻余线”，",
+    "∴∠A+∠ABC=90°，",
+    "∴∠ABG+∠ABC=∠GBC=90°，",
+    "在Rt△GBC中，",
+    "GC=\\(\\sqrt[] { BG ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 13 }\\)，",
+    "∵EG=DE，AE=BE，",
+    "∴EF=\\(\\frac { 1 } { 2 }\\)GC=\\(\\sqrt[] { 13 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "给出如下定义：有两个相邻内角互余的四边形称为“邻余四边形”，这两个角的夹边称为“邻余线”．\n〔图1〕",
+      "paper_blocks": [
+        55,
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-A2E56AEFEE-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，格点四边形\\(ABCD\\)是“邻余四边形”，指出它的“邻余线”；",
+      "stem_text": "如图1，格点四边形\\(ABCD\\)是“邻余四边形”，指出它的“邻余线”；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "AB",
+      "answer": "AB",
+      "given_solution": "解：由图形可知∠E=90°，\n∴∠A+∠B=90°，\n∴它的“邻余线”是AB；\n〔图2〕",
+      "solution_steps": [
+        "解：由图形可知∠E=90°，",
+        "∴∠A+∠B=90°，",
+        "∴它的“邻余线”是AB；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-A2E56AEFEE-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，\\(E\\)，\\(F\\)分别是\\(BD\\)，\\(AD\\)上的点．求证：四边形\\(ABEF\\)是“邻余四边形”；",
+      "stem_text": "如图2，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，\\(E\\)，\\(F\\)分别是\\(BD\\)，\\(AD\\)上的点．求证：四边形\\(ABEF\\)是“邻余四边形”；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵AB=AC，AD是△ABC的角平分线，\n∴AD⊥BC，\n∴∠ADB=90°，\n∴∠DAB+∠DBA=90°，\n∴∠FAB与∠EBA互余，\n∴四边形ABEF是邻余四边形；",
+      "solution_steps": [
+        "证明：∵AB=AC，AD是△ABC的角平分线，",
+        "∴AD⊥BC，",
+        "∴∠ADB=90°，",
+        "∴∠DAB+∠DBA=90°，",
+        "∴∠FAB与∠EBA互余，",
+        "∴四边形ABEF是邻余四边形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58
+        ],
+        "solution_block_ids": [
+          308,
+          309,
+          310,
+          311,
+          312,
+          313
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-A2E56AEFEE-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，四边形\\(ABCD\\)是“邻余四边形”，\\(AB\\)为“邻余线”，\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(CD\\)的中点，连接\\(EF\\)，\\(AD=4\\)，\\(BC=6\\)．求\\(EF\\)的长．",
+      "stem_text": "如图3，四边形\\(ABCD\\)是“邻余四边形”，\\(AB\\)为“邻余线”，\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(CD\\)的中点，连接\\(EF\\)，\\(AD=4\\)，\\(BC=6\\)．求\\(EF\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 13 }\\)",
+      "answer": "\\(\\sqrt[] { 13 }\\)",
+      "given_solution": "如图，连接DE并延长到G，使EG=DE，连接BG，CG，\n〔图3〕\n在△AED和△BEG中，\n\\(\\begin{cases} DE=EG \\\\ \\angle BEG=\\angle AED \\\\ BE=AE \\end{cases}\\)，\n∴△AED≌△BEG（SAS），\n∴∠A=∠ABG，BG=AD=4，\n∵四边形ABCD是“邻余四边形”，AB为“邻余线”，\n∴∠A+∠ABC=90°，\n∴∠ABG+∠ABC=∠GBC=90°，\n在Rt△GBC中，\nGC=\\(\\sqrt[] { BG ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 13 }\\)，\n∵EG=DE，AE=BE，\n∴EF=\\(\\frac { 1 } { 2 }\\)GC=\\(\\sqrt[] { 13 }\\)．",
+      "solution_steps": [
+        "如图，连接DE并延长到G，使EG=DE，连接BG，CG，",
+        "〔图3〕",
+        "在△AED和△BEG中，",
+        "\\(\\begin{cases} DE=EG \\\\ \\angle BEG=\\angle AED \\\\ BE=AE \\end{cases}\\)，",
+        "∴△AED≌△BEG（SAS），",
+        "∴∠A=∠ABG，BG=AD=4，",
+        "∵四边形ABCD是“邻余四边形”，AB为“邻余线”，",
+        "∴∠A+∠ABC=90°，",
+        "∴∠ABG+∠ABC=∠GBC=90°，",
+        "在Rt△GBC中，",
+        "GC=\\(\\sqrt[] { BG ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 13 }\\)，",
+        "∵EG=DE，AE=BE，",
+        "∴EF=\\(\\frac { 1 } { 2 }\\)GC=\\(\\sqrt[] { 13 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          59
+        ],
+        "solution_block_ids": [
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      55,
+      59
+    ],
+    "solution_body_blocks": [
+      292,
+      328
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-A2E56AEFEE/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-A2E56AEFEE/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          580.0,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          72.27,
+          583.64,
+          170.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-A2E56AEFEE/solution-q22-p14.webp",
+      "assets/SZ-G8-T2-A2E56AEFEE/solution-q22-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          320.91,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          587.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G01.02",
+    "M.G02.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。 该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。 题目涉及“△”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,404 @@
+{
+  "id": "SZ-G8-T2-684ED0716F-Q22",
+  "paper_id": "SZ-G8-T2-684ED0716F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "问题背景\n如图（1），在四边形ABCD中，∠B+∠D＝180°，AB＝AD，∠BAD＝α，以点A为顶点作一个角，角的两边分别交BC，CD于点E，F，且∠EAF\\(=\\frac { 1 } { 2 }\\)α，连接EF，试探究：线段BE，DF，EF之间的数量关系．\n〔图1〕\n（1）特殊情景\n在上述条件下，小明增加条件“当∠BAD＝∠B＝∠D＝90°时”如图（2），小明很快写出了：BE，DF，EF之间的数量关系为______．\n（2）类比猜想\n类比特殊情景，小明猜想：在如图（1）的条件下线段BE，DF，EF之间的数量关系是否仍然成立？若成立，请你帮助小明完成证明；若不成立，请说明理由．\n（3）解决问题\n如图（3），在△ABC中，∠BAC＝90°，AB＝AC＝4，点D，E均在边BC上，且∠DAE＝45°，若BD\\(=\\sqrt[] { 2 }\\)，请直接写出DE的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/e3/e392162a9a82175cffd05ee1606104886eafa245bb6e069d68739e0c1c6b6e22.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）BE+DF＝EF；（2）成立；（3）DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+  "answer": "（1）BE+DF＝EF；（2）成立；（3）DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+  "given_solution": "【分析】（1）将△ABE绕点A逆时针旋转90°，得到△ADG，由旋转的性质可得AE＝AG，BE＝DG，∠BAE＝∠DAG，根据∠EAF=\\(\\frac { 1 } { 2 }\\)∠BAD可得∠BAE+∠DAF＝45°，即可得出∠∠EAF＝∠FAG，利用SAS可证明△AFE≌△AFG，可得EF=FG，进而可得EF=BE+FD；（2）将△ABE绕点A逆时针旋转α得到△ADH，由旋转的性质可得∠ABE＝∠ADH，∠BAE＝∠DAH，AE＝AH，BE＝DH，根据∠BAD＝α，∠EAF\\(=\\frac { 1 } { 2 }\\)α可得∠BAE+∠FAD\\(=\\frac { 1 } { 2 }\\)α，进而可证明∠FAH＝∠EAF，利用SAS可证明△AEF≌△AHF，可得EF=FH=BE+FD；（3）将△AEC绕点A顺时针旋转90°，得到△AE′B，连接DE′，由旋转的性质可得BE′＝EC，AE′＝AE，∠C＝∠ABE′，∠EAC＝∠E′AB，根据等腰直角三角形的性质可得∠ABC＝∠ACB＝45°，BC＝4\\(\\sqrt[] { 2 }\\)，即可求出∠E′BD＝90°，利用SAS可证明△AEF≌△AHF，可得DE＝DE′，利用勾股定理求出DE的长即可的答案.\n【详解】解：（1）BE+DF＝EF，\n如图1，将△ABE绕点A逆时针旋转90°，得到△ADG，\n∵∠ADC＝∠B＝∠ADG＝90°，\n∴∠FDG＝180°，即点F，D，G共线．\n由旋转可得AE＝AG，BE＝DG，∠BAE＝∠DAG．\n∵∠BAE+∠DAF＝∠BAD﹣∠EAF＝90°﹣\\(\\frac { 1 } { 2 }\\)∠BAD=90°-45°＝45°，\n∴∠DAG+∠DAF＝45°，即∠FAG=45°，\n∴∠EAF＝∠FAG，\n∴△AFE≌△AFG（SAS），\n∴EF＝FG．\n又∵FG＝DG+DF＝BE+DF，\n∴BE+DF＝EF，\n〔图2〕\n故答案为BE+DF＝EF．\n（2）成立．\n如图2，将△ABE绕点A逆时针旋转α得到△ADH，\n可得∠ABE＝∠ADH，∠BAE＝∠DAH，AE＝AH，BE＝DH．\n∵∠B+∠ADC＝180°，\n∴∠ADH+∠ADC＝180°，\n∴点C，D，H在同一直线上．\n∵∠BAD＝α，∠EAF\\(=\\frac { 1 } { 2 }\\)α，\n∴∠BAE+∠FAD\\(=\\frac { 1 } { 2 }\\)α，\n∴∠DAH+∠FAD\\(=\\frac { 1 } { 2 }\\)α，\n∴∠FAH＝∠EAF，\n又∵AF＝AF，\n∴△AEF≌△AHF（SAS），\n∴EF＝FH＝DF+DH＝DF+BE；\n〔图3〕\n（3）DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)，\n如图3，将△AEC绕点A顺时针旋转90°，得到△AE′B，连接DE′．\n〔图4〕\n可得BE′＝EC，AE′＝AE，∠C＝∠ABE′，∠EAC＝∠E′AB，\n在Rt△ABC中，∵AB＝AC＝4，∠BAC=90°，\n∴∠ABC＝∠ACB＝45°，BC＝4\\(\\sqrt[] { 2 }\\)，\n∴CD=BC=BD=3\\(\\sqrt[] { 2 }\\)，\n∴∠ABC+∠ABE′＝90°，即∠E′BD＝90°，\n∴E′B\\({}^{2}\\)+BD\\({}^{2}\\)＝E′D\\({}^{2}\\)．\n易证△AE′D≌△AED，\n∴DE＝DE′，\n∴DE\\({}^{2}\\)＝BD\\({}^{2}\\)+EC\\({}^{2}\\)，即DE\\({}^{2}\\)\\(=(\\sqrt[] { 2 }) ^ { 2 } +(3\\sqrt[] { 2 }-DE) ^ { 2 }\\)，\n解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．\n【点睛】本题考查旋转的性质、全等三角形的判定与性质、勾股定理，旋转后不改变图形的大小和形状，并且对应点到旋转中心的距离相等，对应点与旋转中心的连线的夹角等于旋转角，熟练掌握旋转的性质及全等三角形的判定定理是解题关键.",
+  "given_solution_figures": [
+    "assets/figures/80/802fad4669740721f98c4b393bc13eefa8307e765f3d3a81dde86bed2c9f84c7.png",
+    "assets/figures/5d/5d9255476bb04e4cbf02ce23866f96ec7789a21f61361d79ba77e6fcb3e0d591.png",
+    "assets/figures/24/247f8aa2b4263693617f5933830b2211dad1c012da90d3744128f745e655bb76.png",
+    "assets/figures/12/12c4ace177b32a479a4d6a6fadb1a923963ad64d8748ec2fb7222394f71dd9b7.png"
+  ],
+  "solution": "解：（1）BE+DF＝EF，\n如图1，将△ABE绕点A逆时针旋转90°，得到△ADG，\n∵∠ADC＝∠B＝∠ADG＝90°，\n∴∠FDG＝180°，即点F，D，G共线．\n由旋转可得AE＝AG，BE＝DG，∠BAE＝∠DAG．\n∵∠BAE+∠DAF＝∠BAD﹣∠EAF＝90°﹣\\(\\frac { 1 } { 2 }\\)∠BAD=90°-45°＝45°，\n∴∠DAG+∠DAF＝45°，即∠FAG=45°，\n∴∠EAF＝∠FAG，\n∴△AFE≌△AFG（SAS），\n∴EF＝FG．\n又∵FG＝DG+DF＝BE+DF，\n∴BE+DF＝EF，\n〔图2〕\n故答案为BE+DF＝EF．\n（2）成立．\n如图2，将△ABE绕点A逆时针旋转α得到△ADH，\n可得∠ABE＝∠ADH，∠BAE＝∠DAH，AE＝AH，BE＝DH．\n∵∠B+∠ADC＝180°，\n∴∠ADH+∠ADC＝180°，\n∴点C，D，H在同一直线上．\n∵∠BAD＝α，∠EAF\\(=\\frac { 1 } { 2 }\\)α，\n∴∠BAE+∠FAD\\(=\\frac { 1 } { 2 }\\)α，\n∴∠DAH+∠FAD\\(=\\frac { 1 } { 2 }\\)α，\n∴∠FAH＝∠EAF，\n又∵AF＝AF，\n∴△AEF≌△AHF（SAS），\n∴EF＝FH＝DF+DH＝DF+BE；\n〔图3〕\n（3）DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)，\n如图3，将△AEC绕点A顺时针旋转90°，得到△AE′B，连接DE′．\n〔图4〕\n可得BE′＝EC，AE′＝AE，∠C＝∠ABE′，∠EAC＝∠E′AB，\n在Rt△ABC中，∵AB＝AC＝4，∠BAC=90°，\n∴∠ABC＝∠ACB＝45°，BC＝4\\(\\sqrt[] { 2 }\\)，\n∴CD=BC=BD=3\\(\\sqrt[] { 2 }\\)，\n∴∠ABC+∠ABE′＝90°，即∠E′BD＝90°，\n∴E′B\\({}^{2}\\)+BD\\({}^{2}\\)＝E′D\\({}^{2}\\)．\n易证△AE′D≌△AED，\n∴DE＝DE′，\n∴DE\\({}^{2}\\)＝BD\\({}^{2}\\)+EC\\({}^{2}\\)，即DE\\({}^{2}\\)\\(=(\\sqrt[] { 2 }) ^ { 2 } +(3\\sqrt[] { 2 }-DE) ^ { 2 }\\)，\n解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）BE+DF＝EF，",
+    "如图1，将△ABE绕点A逆时针旋转90°，得到△ADG，",
+    "∵∠ADC＝∠B＝∠ADG＝90°，",
+    "∴∠FDG＝180°，即点F，D，G共线．",
+    "由旋转可得AE＝AG，BE＝DG，∠BAE＝∠DAG．",
+    "∵∠BAE+∠DAF＝∠BAD﹣∠EAF＝90°﹣\\(\\frac { 1 } { 2 }\\)∠BAD=90°-45°＝45°，",
+    "∴∠DAG+∠DAF＝45°，即∠FAG=45°，",
+    "∴∠EAF＝∠FAG，",
+    "∴△AFE≌△AFG（SAS），",
+    "∴EF＝FG．",
+    "又∵FG＝DG+DF＝BE+DF，",
+    "∴BE+DF＝EF，",
+    "〔图2〕",
+    "故答案为BE+DF＝EF．",
+    "（2）成立．",
+    "如图2，将△ABE绕点A逆时针旋转α得到△ADH，",
+    "可得∠ABE＝∠ADH，∠BAE＝∠DAH，AE＝AH，BE＝DH．",
+    "∵∠B+∠ADC＝180°，",
+    "∴∠ADH+∠ADC＝180°，",
+    "∴点C，D，H在同一直线上．",
+    "∵∠BAD＝α，∠EAF\\(=\\frac { 1 } { 2 }\\)α，",
+    "∴∠BAE+∠FAD\\(=\\frac { 1 } { 2 }\\)α，",
+    "∴∠DAH+∠FAD\\(=\\frac { 1 } { 2 }\\)α，",
+    "∴∠FAH＝∠EAF，",
+    "又∵AF＝AF，",
+    "∴△AEF≌△AHF（SAS），",
+    "∴EF＝FH＝DF+DH＝DF+BE；",
+    "〔图3〕",
+    "（3）DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)，",
+    "如图3，将△AEC绕点A顺时针旋转90°，得到△AE′B，连接DE′．",
+    "〔图4〕",
+    "可得BE′＝EC，AE′＝AE，∠C＝∠ABE′，∠EAC＝∠E′AB，",
+    "在Rt△ABC中，∵AB＝AC＝4，∠BAC=90°，",
+    "∴∠ABC＝∠ACB＝45°，BC＝4\\(\\sqrt[] { 2 }\\)，",
+    "∴CD=BC=BD=3\\(\\sqrt[] { 2 }\\)，",
+    "∴∠ABC+∠ABE′＝90°，即∠E′BD＝90°，",
+    "∴E′B\\({}^{2}\\)+BD\\({}^{2}\\)＝E′D\\({}^{2}\\)．",
+    "易证△AE′D≌△AED，",
+    "∴DE＝DE′，",
+    "∴DE\\({}^{2}\\)＝BD\\({}^{2}\\)+EC\\({}^{2}\\)，即DE\\({}^{2}\\)\\(=(\\sqrt[] { 2 }) ^ { 2 } +(3\\sqrt[] { 2 }-DE) ^ { 2 }\\)，",
+    "解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "问题背景\n如图（1），在四边形ABCD中，∠B+∠D＝180°，AB＝AD，∠BAD＝α，以点A为顶点作一个角，角的两边分别交BC，CD于点E，F，且∠EAF\\(=\\frac { 1 } { 2 }\\)α，连接EF，试探究：线段BE，DF，EF之间的数量关系．\n〔图1〕",
+      "paper_blocks": [
+        57,
+        58,
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-684ED0716F-Q22-P01",
+      "label": "（1）",
+      "prompt": "特殊情景\n在上述条件下，小明增加条件“当∠BAD＝∠B＝∠D＝90°时”如图（2），小明很快写出了：BE，DF，EF之间的数量关系为______．",
+      "stem_text": "特殊情景\n在上述条件下，小明增加条件“当∠BAD＝∠B＝∠D＝90°时”如图（2），小明很快写出了：BE，DF，EF之间的数量关系为______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "BE+DF＝EF；",
+      "answer": "BE+DF＝EF；",
+      "given_solution": "BE+DF＝EF，\n如图1，将△ABE绕点A逆时针旋转90°，得到△ADG，\n∵∠ADC＝∠B＝∠ADG＝90°，\n∴∠FDG＝180°，即点F，D，G共线．\n由旋转可得AE＝AG，BE＝DG，∠BAE＝∠DAG．\n∵∠BAE+∠DAF＝∠BAD﹣∠EAF＝90°﹣\\(\\frac { 1 } { 2 }\\)∠BAD=90°-45°＝45°，\n∴∠DAG+∠DAF＝45°，即∠FAG=45°，\n∴∠EAF＝∠FAG，\n∴△AFE≌△AFG（SAS），\n∴EF＝FG．\n又∵FG＝DG+DF＝BE+DF，\n∴BE+DF＝EF，\n〔图2〕\n故答案为BE+DF＝EF．",
+      "solution_steps": [
+        "BE+DF＝EF，",
+        "如图1，将△ABE绕点A逆时针旋转90°，得到△ADG，",
+        "∵∠ADC＝∠B＝∠ADG＝90°，",
+        "∴∠FDG＝180°，即点F，D，G共线．",
+        "由旋转可得AE＝AG，BE＝DG，∠BAE＝∠DAG．",
+        "∵∠BAE+∠DAF＝∠BAD﹣∠EAF＝90°﹣\\(\\frac { 1 } { 2 }\\)∠BAD=90°-45°＝45°，",
+        "∴∠DAG+∠DAF＝45°，即∠FAG=45°，",
+        "∴∠EAF＝∠FAG，",
+        "∴△AFE≌△AFG（SAS），",
+        "∴EF＝FG．",
+        "又∵FG＝DG+DF＝BE+DF，",
+        "∴BE+DF＝EF，",
+        "〔图2〕",
+        "故答案为BE+DF＝EF．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          68
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-684ED0716F-Q22-P02",
+      "label": "（2）",
+      "prompt": "类比猜想\n类比特殊情景，小明猜想：在如图（1）的条件下线段BE，DF，EF之间的数量关系是否仍然成立？若成立，请你帮助小明完成证明；若不成立，请说明理由．",
+      "stem_text": "类比猜想\n类比特殊情景，小明猜想：在如图（1）的条件下线段BE，DF，EF之间的数量关系是否仍然成立？若成立，请你帮助小明完成证明；若不成立，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "成立；",
+      "answer": "成立；",
+      "given_solution": "成立．\n如图2，将△ABE绕点A逆时针旋转α得到△ADH，\n可得∠ABE＝∠ADH，∠BAE＝∠DAH，AE＝AH，BE＝DH．\n∵∠B+∠ADC＝180°，\n∴∠ADH+∠ADC＝180°，\n∴点C，D，H在同一直线上．\n∵∠BAD＝α，∠EAF\\(=\\frac { 1 } { 2 }\\)α，\n∴∠BAE+∠FAD\\(=\\frac { 1 } { 2 }\\)α，\n∴∠DAH+∠FAD\\(=\\frac { 1 } { 2 }\\)α，\n∴∠FAH＝∠EAF，\n又∵AF＝AF，\n∴△AEF≌△AHF（SAS），\n∴EF＝FH＝DF+DH＝DF+BE；\n〔图3〕",
+      "solution_steps": [
+        "成立．",
+        "如图2，将△ABE绕点A逆时针旋转α得到△ADH，",
+        "可得∠ABE＝∠ADH，∠BAE＝∠DAH，AE＝AH，BE＝DH．",
+        "∵∠B+∠ADC＝180°，",
+        "∴∠ADH+∠ADC＝180°，",
+        "∴点C，D，H在同一直线上．",
+        "∵∠BAD＝α，∠EAF\\(=\\frac { 1 } { 2 }\\)α，",
+        "∴∠BAE+∠FAD\\(=\\frac { 1 } { 2 }\\)α，",
+        "∴∠DAH+∠FAD\\(=\\frac { 1 } { 2 }\\)α，",
+        "∴∠FAH＝∠EAF，",
+        "又∵AF＝AF，",
+        "∴△AEF≌△AHF（SAS），",
+        "∴EF＝FH＝DF+DH＝DF+BE；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          62,
+          63,
+          68
+        ],
+        "solution_block_ids": [
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-684ED0716F-Q22-P03",
+      "label": "（3）",
+      "prompt": "解决问题\n如图（3），在△ABC中，∠BAC＝90°，AB＝AC＝4，点D，E均在边BC上，且∠DAE＝45°，若BD\\(=\\sqrt[] { 2 }\\)，请直接写出DE的长．",
+      "stem_text": "解决问题\n如图（3），在△ABC中，∠BAC＝90°，AB＝AC＝4，点D，E均在边BC上，且∠DAE＝45°，若BD\\(=\\sqrt[] { 2 }\\)，请直接写出DE的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+      "answer": "DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)",
+      "given_solution": "DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)，\n如图3，将△AEC绕点A顺时针旋转90°，得到△AE′B，连接DE′．\n〔图4〕\n可得BE′＝EC，AE′＝AE，∠C＝∠ABE′，∠EAC＝∠E′AB，\n在Rt△ABC中，∵AB＝AC＝4，∠BAC=90°，\n∴∠ABC＝∠ACB＝45°，BC＝4\\(\\sqrt[] { 2 }\\)，\n∴CD=BC=BD=3\\(\\sqrt[] { 2 }\\)，\n∴∠ABC+∠ABE′＝90°，即∠E′BD＝90°，\n∴E′B\\({}^{2}\\)+BD\\({}^{2}\\)＝E′D\\({}^{2}\\)．\n易证△AE′D≌△AED，\n∴DE＝DE′，\n∴DE\\({}^{2}\\)＝BD\\({}^{2}\\)+EC\\({}^{2}\\)，即DE\\({}^{2}\\)\\(=(\\sqrt[] { 2 }) ^ { 2 } +(3\\sqrt[] { 2 }-DE) ^ { 2 }\\)，\n解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．",
+      "solution_steps": [
+        "DE\\(=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)，",
+        "如图3，将△AEC绕点A顺时针旋转90°，得到△AE′B，连接DE′．",
+        "〔图4〕",
+        "可得BE′＝EC，AE′＝AE，∠C＝∠ABE′，∠EAC＝∠E′AB，",
+        "在Rt△ABC中，∵AB＝AC＝4，∠BAC=90°，",
+        "∴∠ABC＝∠ACB＝45°，BC＝4\\(\\sqrt[] { 2 }\\)，",
+        "∴CD=BC=BD=3\\(\\sqrt[] { 2 }\\)，",
+        "∴∠ABC+∠ABE′＝90°，即∠E′BD＝90°，",
+        "∴E′B\\({}^{2}\\)+BD\\({}^{2}\\)＝E′D\\({}^{2}\\)．",
+        "易证△AE′D≌△AED，",
+        "∴DE＝DE′，",
+        "∴DE\\({}^{2}\\)＝BD\\({}^{2}\\)+EC\\({}^{2}\\)，即DE\\({}^{2}\\)\\(=(\\sqrt[] { 2 }) ^ { 2 } +(3\\sqrt[] { 2 }-DE) ^ { 2 }\\)，",
+        "解得\\(DE=\\frac { 5\\sqrt[] { 2 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          64,
+          65,
+          68
+        ],
+        "solution_block_ids": [
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      57,
+      68
+    ],
+    "solution_body_blocks": [
+      368,
+      424
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-684ED0716F/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          167.27,
+          583.64,
+          600.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-684ED0716F/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-684ED0716F/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-684ED0716F/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-684ED0716F/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          543.64,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          733.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          158.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

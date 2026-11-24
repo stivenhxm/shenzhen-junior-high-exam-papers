@@ -1,0 +1,436 @@
+{
+  "id": "SZ-G8-T2-6CA43CE657-Q21",
+  "paper_id": "SZ-G8-T2-6CA43CE657",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "已知△ABC中，AB=AC，\n〔图1〕〔图2〕〔图3〕\n（1）如图1，在△ADE中，若AD=AE，且∠DAE=∠BAC，求证：CD=BE；\n（2）如图2，在△ADE中，若∠DAE=∠BAC=60°，且CD垂直平分AE，AD=3，CD=4，求BD的长；\n（3）如图3，在△ADE中，当BD垂直平分AE于H，且∠BAC=2∠ADB时，试探究CD\\({}^{2}\\)，BD\\({}^{2}\\)，AH\\({}^{2}\\)之间的数量关系，并证明．",
+  "choices": [],
+  "figures": [
+    "assets/figures/f1/f17aa42a48eca653e621b1be7528b861f9efa197024f44dee76ca19ac9168e33.png",
+    "assets/figures/b6/b654c996cf0033ecaacb387feddcf4e20a5839877460fb21caa23f3c4e524009.png",
+    "assets/figures/52/52d153d64b3a38d39376497c7372944ed13dbdfc028d130a3df598e7151da570.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）5\n（3）CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由见解析",
+  "answer": "（1）见解析    （2）5\n（3）CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由见解析",
+  "given_solution": "【分析】(1) 根据∠DAE=∠BAC，求出∠DAC =∠BAE， 再利用“SAS”证明△DAC和△EAB全等，再根据全等三角形对应边相等即可得证；\n(2)连接BE，根据CD垂直平分AE，得到AD= DE，结合条件∠DAE= 60°，根据有一个内角是60°的等腰三角形是等边三角形，证明△ADE是等边三角形，再根据全等三角形对应边相等可得BE= CD，全等三角形对应角相等可得∠BED=∠CDA= 30°，然后求出∠BED= 90°，在Rt△BED中，再利用勾股定理列式，计算即可求出BD的长度；\n(3)过B作BF⊥BD，且BF= AE，连接DF，先证明四边形ABFE是平行四边形，根据平行四边形对边相等可得AB= EF，设∠AEF=x，∠ADE= y根据平行四边形的邻角互补，得∠BAE= 180°- x，根据等边三角形三边相等，得到∠EAD= AED= y，根据周角等于360°求出∠CAD的度数，从而得到∠CAD=∠FED，然后利用“SAS”证明△ACD和△FED全等，根据全等三角形对应边相等可得CD = DF，在Rt△BDF 中，利用勾股定理结合条件BF= AE= 2AH，列式即可得到答案．\n【小问1详解】\n如图1\n〔图4〕\n∵∠DAE=∠BAC，\n∴∠DAE+∠CAE=∠BAC+ ∠CAE，\n即∠DAC=∠BAE，\n在△ACD与∆ABE中，\n\\(\\begin{cases} AD=AE \\\\ \\angle DAC=\\angle EAB \\\\ AC=AB \\end{cases}\\)\n∴△ACD≌△ABE (SAS)，\n∴CD= BE；\n【小问2详解】\n连接BE，\n〔图5〕\n∵CD垂直平分AE\n∴AD= DE，\n∵∠DAE=60°\n∴△ADE是等边三角形．\n∴DE= AD= 3\n∴∠CDA=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\)∠ADE=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\times { \\rm{ 6 } }{ \\rm{ 0 } }\\)°=30°，\n由(1) 得△ACD≌△ABE，\n∴BE= CD=4，\n∵∠BEA =∠CDA = 30°，\n∵∠BED=∠AED+∠BEA = 60°+ 30°= 90°\n∴ BE⊥DE．\n在Rt△BED中，BD=\\(\\sqrt[] { BE ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)\n∴BD= 5；\n【小问3详解】\n(3) CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由如下：\n如图，过B作BF = AE，且BF⊥BD连接DF，EF\n〔图6〕\n则四边形ABFE是平行四边形，\n∴ AB= AC= EF，\n∴BD垂直平分AE，\n∴AD=DE\n设∠AEF= x，∠AED= y，\n则∠FED= x+ y，\n∠BAE= 180°- x，\n∠EAD=∠AED= y，\n∠BAC = 2∠ADB= 180° - 2y，\n∠CAD= 360°-∠BAC-∠BAE-∠EAD\n= 360° - (180° - 2y)-(180° -x)-y\n= x+y\n∴∠FED=∠CAD，\n在△ACD和△EFD中，\n\\(\\begin{cases} AC=EF \\\\ \\angle FED=\\angle CAD \\\\ AD=ED \\end{cases}\\)\n∴△ACD≌△EFD(SAS)，\n∴CD= FD，\n在Rt△BDF中，根据勾股定理：\nBD\\({}^{2}\\)+ BF\\({}^{2}\\)= DF\\({}^{2}\\)\n∵BF= AE= 2AH，\n∴CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)\n【点睛】本题主要考查了勾股定理的应用及全等三角形的判定与性质，以及等边三角形的判定和性质，平行四边形的性质等，熟悉掌握全等三角形的判定定理以及勾股定理解直角三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/56/567d7b1189f88be2a3007521afeccc8b91c15276a1e711149386dc6ca07f117c.png",
+    "assets/figures/69/69cf449335824aedd9d9c7894d6ae24123225efaa1a26a490b35e442175bcba4.png",
+    "assets/figures/e8/e840c0dbdf92af04d34297c940dfb48a5ca379a14d3bcdd9bdf19603de94aea8.png",
+    "assets/figures/cb/cb1dff33349d57b47dfa42f8623649eea00f2c699696fe4fc5c87452c7258649.png",
+    "assets/figures/df/dfe5e01536b9a69d71743018ad1ab479b4c8269de1043a2f8bbe88440b930f4d.png",
+    "assets/figures/29/2951f872c20ca1d97dcbf37e4bd2c5cfb75ff428347120b010e89dfb294e2c6f.png"
+  ],
+  "solution": "【小问1详解】\n如图1\n〔图4〕\n∵∠DAE=∠BAC，\n∴∠DAE+∠CAE=∠BAC+ ∠CAE，\n即∠DAC=∠BAE，\n在△ACD与∆ABE中，\n\\(\\begin{cases} AD=AE \\\\ \\angle DAC=\\angle EAB \\\\ AC=AB \\end{cases}\\)\n∴△ACD≌△ABE (SAS)，\n∴CD= BE；\n【小问2详解】\n连接BE，\n〔图5〕\n∵CD垂直平分AE\n∴AD= DE，\n∵∠DAE=60°\n∴△ADE是等边三角形．\n∴DE= AD= 3\n∴∠CDA=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\)∠ADE=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\times { \\rm{ 6 } }{ \\rm{ 0 } }\\)°=30°，\n由(1) 得△ACD≌△ABE，\n∴BE= CD=4，\n∵∠BEA =∠CDA = 30°，\n∵∠BED=∠AED+∠BEA = 60°+ 30°= 90°\n∴ BE⊥DE．\n在Rt△BED中，BD=\\(\\sqrt[] { BE ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)\n∴BD= 5；\n【小问3详解】\n(3) CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由如下：\n如图，过B作BF = AE，且BF⊥BD连接DF，EF\n〔图6〕\n则四边形ABFE是平行四边形，\n∴ AB= AC= EF，\n∴BD垂直平分AE，\n∴AD=DE\n设∠AEF= x，∠AED= y，\n则∠FED= x+ y，\n∠BAE= 180°- x，\n∠EAD=∠AED= y，\n∠BAC = 2∠ADB= 180° - 2y，\n∠CAD= 360°-∠BAC-∠BAE-∠EAD\n= 360° - (180° - 2y)-(180° -x)-y\n= x+y\n∴∠FED=∠CAD，\n在△ACD和△EFD中，\n\\(\\begin{cases} AC=EF \\\\ \\angle FED=\\angle CAD \\\\ AD=ED \\end{cases}\\)\n∴△ACD≌△EFD(SAS)，\n∴CD= FD，\n在Rt△BDF中，根据勾股定理：\nBD\\({}^{2}\\)+ BF\\({}^{2}\\)= DF\\({}^{2}\\)\n∵BF= AE= 2AH，\n∴CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "如图1",
+    "〔图4〕",
+    "∵∠DAE=∠BAC，",
+    "∴∠DAE+∠CAE=∠BAC+ ∠CAE，",
+    "即∠DAC=∠BAE，",
+    "在△ACD与∆ABE中，",
+    "\\(\\begin{cases} AD=AE \\\\ \\angle DAC=\\angle EAB \\\\ AC=AB \\end{cases}\\)",
+    "∴△ACD≌△ABE (SAS)，",
+    "∴CD= BE；",
+    "【小问2详解】",
+    "连接BE，",
+    "〔图5〕",
+    "∵CD垂直平分AE",
+    "∴AD= DE，",
+    "∵∠DAE=60°",
+    "∴△ADE是等边三角形．",
+    "∴DE= AD= 3",
+    "∴∠CDA=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\)∠ADE=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\times { \\rm{ 6 } }{ \\rm{ 0 } }\\)°=30°，",
+    "由(1) 得△ACD≌△ABE，",
+    "∴BE= CD=4，",
+    "∵∠BEA =∠CDA = 30°，",
+    "∵∠BED=∠AED+∠BEA = 60°+ 30°= 90°",
+    "∴ BE⊥DE．",
+    "在Rt△BED中，BD=\\(\\sqrt[] { BE ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)",
+    "∴BD= 5；",
+    "【小问3详解】",
+    "(3) CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由如下：",
+    "如图，过B作BF = AE，且BF⊥BD连接DF，EF",
+    "〔图6〕",
+    "则四边形ABFE是平行四边形，",
+    "∴ AB= AC= EF，",
+    "∴BD垂直平分AE，",
+    "∴AD=DE",
+    "设∠AEF= x，∠AED= y，",
+    "则∠FED= x+ y，",
+    "∠BAE= 180°- x，",
+    "∠EAD=∠AED= y，",
+    "∠BAC = 2∠ADB= 180° - 2y，",
+    "∠CAD= 360°-∠BAC-∠BAE-∠EAD",
+    "= 360° - (180° - 2y)-(180° -x)-y",
+    "= x+y",
+    "∴∠FED=∠CAD，",
+    "在△ACD和△EFD中，",
+    "\\(\\begin{cases} AC=EF \\\\ \\angle FED=\\angle CAD \\\\ AD=ED \\end{cases}\\)",
+    "∴△ACD≌△EFD(SAS)，",
+    "∴CD= FD，",
+    "在Rt△BDF中，根据勾股定理：",
+    "BD\\({}^{2}\\)+ BF\\({}^{2}\\)= DF\\({}^{2}\\)",
+    "∵BF= AE= 2AH，",
+    "∴CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知△ABC中，AB=AC，\n〔图1〕〔图2〕〔图3〕",
+      "paper_blocks": [
+        45,
+        46
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-6CA43CE657-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图1，在△ADE中，若AD=AE，且∠DAE=∠BAC，求证：CD=BE；",
+      "stem_text": "如图1，在△ADE中，若AD=AE，且∠DAE=∠BAC，求证：CD=BE；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "如图1\n〔图4〕\n∵∠DAE=∠BAC，\n∴∠DAE+∠CAE=∠BAC+ ∠CAE，\n即∠DAC=∠BAE，\n在△ACD与∆ABE中，\n\\(\\begin{cases} AD=AE \\\\ \\angle DAC=\\angle EAB \\\\ AC=AB \\end{cases}\\)\n∴△ACD≌△ABE (SAS)，\n∴CD= BE；",
+      "solution_steps": [
+        "如图1",
+        "〔图4〕",
+        "∵∠DAE=∠BAC，",
+        "∴∠DAE+∠CAE=∠BAC+ ∠CAE，",
+        "即∠DAC=∠BAE，",
+        "在△ACD与∆ABE中，",
+        "\\(\\begin{cases} AD=AE \\\\ \\angle DAC=\\angle EAB \\\\ AC=AB \\end{cases}\\)",
+        "∴△ACD≌△ABE (SAS)，",
+        "∴CD= BE；"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          45,
+          46,
+          47
+        ],
+        "solution_block_ids": [
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6CA43CE657-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图2，在△ADE中，若∠DAE=∠BAC=60°，且CD垂直平分AE，AD=3，CD=4，求BD的长；",
+      "stem_text": "如图2，在△ADE中，若∠DAE=∠BAC=60°，且CD垂直平分AE，AD=3，CD=4，求BD的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "5",
+      "answer": "5",
+      "given_solution": "连接BE，\n〔图5〕\n∵CD垂直平分AE\n∴AD= DE，\n∵∠DAE=60°\n∴△ADE是等边三角形．\n∴DE= AD= 3\n∴∠CDA=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\)∠ADE=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\times { \\rm{ 6 } }{ \\rm{ 0 } }\\)°=30°，\n由(1) 得△ACD≌△ABE，\n∴BE= CD=4，\n∵∠BEA =∠CDA = 30°，\n∵∠BED=∠AED+∠BEA = 60°+ 30°= 90°\n∴ BE⊥DE．\n在Rt△BED中，BD=\\(\\sqrt[] { BE ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)\n∴BD= 5；",
+      "solution_steps": [
+        "连接BE，",
+        "〔图5〕",
+        "∵CD垂直平分AE",
+        "∴AD= DE，",
+        "∵∠DAE=60°",
+        "∴△ADE是等边三角形．",
+        "∴DE= AD= 3",
+        "∴∠CDA=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\)∠ADE=\\(\\frac { { \\rm{ 1 } } } { { \\rm{ 2 } } }\\times { \\rm{ 6 } }{ \\rm{ 0 } }\\)°=30°，",
+        "由(1) 得△ACD≌△ABE，",
+        "∴BE= CD=4，",
+        "∵∠BEA =∠CDA = 30°，",
+        "∵∠BED=∠AED+∠BEA = 60°+ 30°= 90°",
+        "∴ BE⊥DE．",
+        "在Rt△BED中，BD=\\(\\sqrt[] { BE ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)",
+        "∴BD= 5；"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          45,
+          46,
+          48
+        ],
+        "solution_block_ids": [
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6CA43CE657-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图3，在△ADE中，当BD垂直平分AE于H，且∠BAC=2∠ADB时，试探究CD\\({}^{2}\\)，BD\\({}^{2}\\)，AH\\({}^{2}\\)之间的数量关系，并证明．",
+      "stem_text": "如图3，在△ADE中，当BD垂直平分AE于H，且∠BAC=2∠ADB时，试探究CD\\({}^{2}\\)，BD\\({}^{2}\\)，AH\\({}^{2}\\)之间的数量关系，并证明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由见解析",
+      "answer": "CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由见解析",
+      "given_solution": "(3) CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由如下：\n如图，过B作BF = AE，且BF⊥BD连接DF，EF\n〔图6〕\n则四边形ABFE是平行四边形，\n∴ AB= AC= EF，\n∴BD垂直平分AE，\n∴AD=DE\n设∠AEF= x，∠AED= y，\n则∠FED= x+ y，\n∠BAE= 180°- x，\n∠EAD=∠AED= y，\n∠BAC = 2∠ADB= 180° - 2y，\n∠CAD= 360°-∠BAC-∠BAE-∠EAD\n= 360° - (180° - 2y)-(180° -x)-y\n= x+y\n∴∠FED=∠CAD，\n在△ACD和△EFD中，\n\\(\\begin{cases} AC=EF \\\\ \\angle FED=\\angle CAD \\\\ AD=ED \\end{cases}\\)\n∴△ACD≌△EFD(SAS)，\n∴CD= FD，\n在Rt△BDF中，根据勾股定理：\nBD\\({}^{2}\\)+ BF\\({}^{2}\\)= DF\\({}^{2}\\)\n∵BF= AE= 2AH，\n∴CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)",
+      "solution_steps": [
+        "(3) CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)，理由如下：",
+        "如图，过B作BF = AE，且BF⊥BD连接DF，EF",
+        "〔图6〕",
+        "则四边形ABFE是平行四边形，",
+        "∴ AB= AC= EF，",
+        "∴BD垂直平分AE，",
+        "∴AD=DE",
+        "设∠AEF= x，∠AED= y，",
+        "则∠FED= x+ y，",
+        "∠BAE= 180°- x，",
+        "∠EAD=∠AED= y，",
+        "∠BAC = 2∠ADB= 180° - 2y，",
+        "∠CAD= 360°-∠BAC-∠BAE-∠EAD",
+        "= 360° - (180° - 2y)-(180° -x)-y",
+        "= x+y",
+        "∴∠FED=∠CAD，",
+        "在△ACD和△EFD中，",
+        "\\(\\begin{cases} AC=EF \\\\ \\angle FED=\\angle CAD \\\\ AD=ED \\end{cases}\\)",
+        "∴△ACD≌△EFD(SAS)，",
+        "∴CD= FD，",
+        "在Rt△BDF中，根据勾股定理：",
+        "BD\\({}^{2}\\)+ BF\\({}^{2}\\)= DF\\({}^{2}\\)",
+        "∵BF= AE= 2AH，",
+        "∴CD\\({}^{2}\\)= BD\\({}^{2}\\) + 4AH\\({}^{2}\\)"
+      ],
+      "solution_figure_ids": [
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          45,
+          46,
+          49
+        ],
+        "solution_block_ids": [
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      45,
+      49
+    ],
+    "solution_body_blocks": [
+      236,
+      298
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6CA43CE657/paper-q21-p03.webp",
+      "assets/SZ-G8-T2-6CA43CE657/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          736.82,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          55.91,
+          583.64,
+          275.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6CA43CE657/solution-q21-p12.webp",
+      "assets/SZ-G8-T2-6CA43CE657/solution-q21-p13.webp",
+      "assets/SZ-G8-T2-6CA43CE657/solution-q21-p14.webp",
+      "assets/SZ-G8-T2-6CA43CE657/solution-q21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          697.73,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          720.0
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          548.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

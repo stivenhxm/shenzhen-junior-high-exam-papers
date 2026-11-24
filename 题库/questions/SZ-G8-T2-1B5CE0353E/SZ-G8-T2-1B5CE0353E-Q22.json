@@ -1,0 +1,392 @@
+{
+  "id": "SZ-G8-T2-1B5CE0353E-Q22",
+  "paper_id": "SZ-G8-T2-1B5CE0353E",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、构造全等关系证明线段或角关系",
+  "stem": "已知\\(\\vartriangle ABC\\)是等边三角形，点D是BC边上一动点，连结AD\n（1）如图1，若\\(BD=2\\)，\\(DC=4\\)，求AD的长；\n（2）如图2，以AD为边作\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，分别交AB，AC于点E，F．\n①小明通过观察、实验，提出猜想：在点D运动的过程中，始终有\\(AE=AF\\)，小明把这个猜想与同学们进行交流，通过讨论，形成了证明该猜想的两种想法\n想法1：利用AD是\\(\\angle EDF\\)的角平分线，构造角平分线的性质定理的基本图形，然后通过全等三角形的相关知识获证．\n想法2：利用AD是\\(\\angle EDF\\)的角平分线，构造\\(\\vartriangle ADF\\)的全等三角形，然后通过等腰三角形的相关知识获证．\n请你参考上面的想法，帮助小明证明\\(AE=AF.(\\)一种方法即可\\()\\)\n②小聪在小明的基础上继续进行思考，发现：四边形AEDF的面积与AD长存在很好的关系\\(.\\)若用S表示四边形AEDF的面积，x表示AD的长，请你直接写出S与x之间的关系式．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/48/48b35953eac9ec887d2d13f5dbca234bf0e3b8aacf679a66399b95de56508e0e.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(2\\sqrt[] { 7 }\\)；（2）证明见解析.",
+  "answer": "（1）\\(2\\sqrt[] { 7 }\\)；（2）证明见解析.",
+  "given_solution": "【分析】（1）由等边三角形的性质可求\\(AB=BC=6\\)，\\(BG=\\frac { 1 } { 2 }BC=3\\)，\\(DG=1\\)，由勾股定理可求AG，AD的长；\n\\(\\left ( { 2 } \\right )①\\)想法1：过点A作\\(AM\\bot DF\\)于点M，作\\(AH\\bot DE\\)，交DE的延长线于点H，由角平分线的性质可得\\(AH=AM\\)，由“AAS”可证\\(Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\)，可得\\(AE=AF\\)；\n想法2：延长DE至N，使\\(DN=DF\\)，由“SAS”可证\\(\\vartriangle ADN\\)≌\\(\\vartriangle ADF\\)，可得\\(AN=AF\\)，\\(\\angle AFD=\\angle N\\)，由四边形内角和为\\(360 ^ { \\circ }\\)，可得\\(\\angle AEN=\\angle AFD=\\angle N\\)，可得\\(AN=AE=AF\\)；\n②由想法1可得\\(S_{ 四边形AEDF } =S_{ 四边形AHDM } =2S_{ \\vartriangle ADM } =\\frac { \\sqrt[] { 3 } } { 4 }x ^ { 2 }\\)．\n【详解】（1）如图，过点A作\\(AG\\bot BC\\)于点G，\n〔图2〕\n\\(\\because BD=2\\)，\\(DC=4\\)，\n\\(\\therefore BC=6\\)，\n\\(\\because \\vartriangle ABC\\)是等边三角形，\\(AG\\bot BC\\)，\n\\(\\therefore AB=BC=6\\)，\\(BG=\\frac { 1 } { 2 }BC=3\\)，\n\\(\\therefore DG=BG-BD=3-2=1\\)，\n在\\(Rt\\vartriangle ABG\\)中，\\(AG=\\sqrt[] { AB ^ { 2 } -BG ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n在\\(Rt\\vartriangle ADG\\)中，\\(AD=\\sqrt[] { AG ^ { 2 } +DG ^ { 2 } }=2\\sqrt[] { 7 }\\)\n\\(\\left ( { 2 } \\right )①\\)想法1：如图，过点A作\\(AM\\bot DF\\)于点M，作\\(AH\\bot DE\\)，交DE的延长线于点H，\n〔图3〕\n\\(\\because AD\\)平分\\(\\angle EDF\\)，\\(AH\\bot DE\\)，\\(AM\\bot DF\\)\n\\(\\therefore AH=AM\\)，\n\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，\n\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，\n\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEH=180 ^ { \\circ }\\)，\n\\(\\therefore \\angle AEH=\\angle AFD\\)，且\\(AH=AM\\)，\\(\\angle H=\\angle AMF=90 ^ { \\circ }\\)，\n\\(\\therefore Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\left ( { AAS } \\right )\\)\n\\(\\therefore AE=AF\\)，\n想法2：如图，延长DE至N，使\\(DN=DF\\)，\n〔图4〕\n\\(\\because DN=DF\\)，\\(AD=AD\\)，\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\vartriangle ADN\\)≌\\(\\vartriangle ADF\\left ( { SAS } \\right )\\)\n\\(\\therefore AN=AF\\)，\\(\\angle AFD=\\angle N\\)，\n\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，\n\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，\n\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEN=180 ^ { \\circ }\\)，\n\\(\\therefore \\angle AEN=\\angle AFD\\)，\n\\(\\therefore \\angle AEN=\\angle N\\)，\n\\(\\therefore AN=AE=AF\\)，\n②如图，\n〔图5〕\n由①中想法1可得\\(Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\)，\n\\(\\therefore S_{ \\vartriangle AHE } =S_{ \\vartriangle AMF }\\)，\n\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM }\\)，\n\\(\\because \\angle ADF=60 ^ { \\circ }\\)，\\(AM\\bot DF\\)，\n\\(\\therefore DM=\\frac { 1 } { 2 }AD\\)，\\(AM=\\sqrt[] { 3 }DM=\\frac { \\sqrt[] { 3 } } { 2 }AD\\)，\n\\(\\therefore S_{ \\vartriangle ADM } =\\frac { 1 } { 2 }\\times DM\\times AM=\\frac { \\sqrt[] { 3 } } { 8 }AD ^ { 2 } =\\frac { \\sqrt[] { 3 } } { 8 }x ^ { 2 }\\)，\n\\(\\because AD=AD\\)，\\(AH=AM\\)，\n\\(\\therefore Rt\\vartriangle ADH\\)≌\\(Rt\\vartriangle ADM\\left ( { HL } \\right )\\)\n\\(\\therefore S_{ \\vartriangle ADH } =S_{ \\vartriangle ADM }\\)，\n\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM } =2S_{ \\vartriangle ADM } =\\frac { \\sqrt[] { 3 } } { 4 }x ^ { 2 }\\)．\n【点睛】本题是三角形综合题，考查了等边三角形的性质，全等三角形的判定和性质，勾股定理等知识，添加恰当辅助线构造全等三角形是本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/48/48b35953eac9ec887d2d13f5dbca234bf0e3b8aacf679a66399b95de56508e0e.png",
+    "assets/figures/5e/5e16e08a10e51cdf9286af708f071d1a44514367f4dae3c34cb7ae23f6140127.png",
+    "assets/figures/5e/5eea84b5cc83f6b80df8ef9da1fe072e0e3d63b1e1a2bf034dd4debf06529f99.png",
+    "assets/figures/ba/babcebba7affba0ab9e2969fd41a1c3d7e7d998e89c11cbcee16a25889bae7c8.png",
+    "assets/figures/be/bebe22fc486ad69ab478a5626f6641d91fdf85f2a75934009e8f877e97ef6161.png"
+  ],
+  "solution": "（1）如图，过点A作\\(AG\\bot BC\\)于点G，\n〔图2〕\n\\(\\because BD=2\\)，\\(DC=4\\)，\n\\(\\therefore BC=6\\)，\n\\(\\because \\vartriangle ABC\\)是等边三角形，\\(AG\\bot BC\\)，\n\\(\\therefore AB=BC=6\\)，\\(BG=\\frac { 1 } { 2 }BC=3\\)，\n\\(\\therefore DG=BG-BD=3-2=1\\)，\n在\\(Rt\\vartriangle ABG\\)中，\\(AG=\\sqrt[] { AB ^ { 2 } -BG ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n在\\(Rt\\vartriangle ADG\\)中，\\(AD=\\sqrt[] { AG ^ { 2 } +DG ^ { 2 } }=2\\sqrt[] { 7 }\\)\n\\(\\left ( { 2 } \\right )①\\)想法1：如图，过点A作\\(AM\\bot DF\\)于点M，作\\(AH\\bot DE\\)，交DE的延长线于点H，\n〔图3〕\n\\(\\because AD\\)平分\\(\\angle EDF\\)，\\(AH\\bot DE\\)，\\(AM\\bot DF\\)\n\\(\\therefore AH=AM\\)，\n\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，\n\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，\n\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEH=180 ^ { \\circ }\\)，\n\\(\\therefore \\angle AEH=\\angle AFD\\)，且\\(AH=AM\\)，\\(\\angle H=\\angle AMF=90 ^ { \\circ }\\)，\n\\(\\therefore Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\left ( { AAS } \\right )\\)\n\\(\\therefore AE=AF\\)，\n想法2：如图，延长DE至N，使\\(DN=DF\\)，\n〔图4〕\n\\(\\because DN=DF\\)，\\(AD=AD\\)，\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\vartriangle ADN\\)≌\\(\\vartriangle ADF\\left ( { SAS } \\right )\\)\n\\(\\therefore AN=AF\\)，\\(\\angle AFD=\\angle N\\)，\n\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，\n\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，\n\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEN=180 ^ { \\circ }\\)，\n\\(\\therefore \\angle AEN=\\angle AFD\\)，\n\\(\\therefore \\angle AEN=\\angle N\\)，\n\\(\\therefore AN=AE=AF\\)，\n②如图，\n〔图5〕\n由①中想法1可得\\(Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\)，\n\\(\\therefore S_{ \\vartriangle AHE } =S_{ \\vartriangle AMF }\\)，\n\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM }\\)，\n\\(\\because \\angle ADF=60 ^ { \\circ }\\)，\\(AM\\bot DF\\)，\n\\(\\therefore DM=\\frac { 1 } { 2 }AD\\)，\\(AM=\\sqrt[] { 3 }DM=\\frac { \\sqrt[] { 3 } } { 2 }AD\\)，\n\\(\\therefore S_{ \\vartriangle ADM } =\\frac { 1 } { 2 }\\times DM\\times AM=\\frac { \\sqrt[] { 3 } } { 8 }AD ^ { 2 } =\\frac { \\sqrt[] { 3 } } { 8 }x ^ { 2 }\\)，\n\\(\\because AD=AD\\)，\\(AH=AM\\)，\n\\(\\therefore Rt\\vartriangle ADH\\)≌\\(Rt\\vartriangle ADM\\left ( { HL } \\right )\\)\n\\(\\therefore S_{ \\vartriangle ADH } =S_{ \\vartriangle ADM }\\)，\n\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM } =2S_{ \\vartriangle ADM } =\\frac { \\sqrt[] { 3 } } { 4 }x ^ { 2 }\\)．",
+  "solution_steps": [
+    "（1）如图，过点A作\\(AG\\bot BC\\)于点G，",
+    "〔图2〕",
+    "\\(\\because BD=2\\)，\\(DC=4\\)，",
+    "\\(\\therefore BC=6\\)，",
+    "\\(\\because \\vartriangle ABC\\)是等边三角形，\\(AG\\bot BC\\)，",
+    "\\(\\therefore AB=BC=6\\)，\\(BG=\\frac { 1 } { 2 }BC=3\\)，",
+    "\\(\\therefore DG=BG-BD=3-2=1\\)，",
+    "在\\(Rt\\vartriangle ABG\\)中，\\(AG=\\sqrt[] { AB ^ { 2 } -BG ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+    "在\\(Rt\\vartriangle ADG\\)中，\\(AD=\\sqrt[] { AG ^ { 2 } +DG ^ { 2 } }=2\\sqrt[] { 7 }\\)",
+    "\\(\\left ( { 2 } \\right )①\\)想法1：如图，过点A作\\(AM\\bot DF\\)于点M，作\\(AH\\bot DE\\)，交DE的延长线于点H，",
+    "〔图3〕",
+    "\\(\\because AD\\)平分\\(\\angle EDF\\)，\\(AH\\bot DE\\)，\\(AM\\bot DF\\)",
+    "\\(\\therefore AH=AM\\)，",
+    "\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，",
+    "\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，",
+    "\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，",
+    "\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEH=180 ^ { \\circ }\\)，",
+    "\\(\\therefore \\angle AEH=\\angle AFD\\)，且\\(AH=AM\\)，\\(\\angle H=\\angle AMF=90 ^ { \\circ }\\)，",
+    "\\(\\therefore Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\left ( { AAS } \\right )\\)",
+    "\\(\\therefore AE=AF\\)，",
+    "想法2：如图，延长DE至N，使\\(DN=DF\\)，",
+    "〔图4〕",
+    "\\(\\because DN=DF\\)，\\(AD=AD\\)，\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，",
+    "\\(\\therefore \\vartriangle ADN\\)≌\\(\\vartriangle ADF\\left ( { SAS } \\right )\\)",
+    "\\(\\therefore AN=AF\\)，\\(\\angle AFD=\\angle N\\)，",
+    "\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，",
+    "\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，",
+    "\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，",
+    "\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEN=180 ^ { \\circ }\\)，",
+    "\\(\\therefore \\angle AEN=\\angle AFD\\)，",
+    "\\(\\therefore \\angle AEN=\\angle N\\)，",
+    "\\(\\therefore AN=AE=AF\\)，",
+    "②如图，",
+    "〔图5〕",
+    "由①中想法1可得\\(Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\)，",
+    "\\(\\therefore S_{ \\vartriangle AHE } =S_{ \\vartriangle AMF }\\)，",
+    "\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM }\\)，",
+    "\\(\\because \\angle ADF=60 ^ { \\circ }\\)，\\(AM\\bot DF\\)，",
+    "\\(\\therefore DM=\\frac { 1 } { 2 }AD\\)，\\(AM=\\sqrt[] { 3 }DM=\\frac { \\sqrt[] { 3 } } { 2 }AD\\)，",
+    "\\(\\therefore S_{ \\vartriangle ADM } =\\frac { 1 } { 2 }\\times DM\\times AM=\\frac { \\sqrt[] { 3 } } { 8 }AD ^ { 2 } =\\frac { \\sqrt[] { 3 } } { 8 }x ^ { 2 }\\)，",
+    "\\(\\because AD=AD\\)，\\(AH=AM\\)，",
+    "\\(\\therefore Rt\\vartriangle ADH\\)≌\\(Rt\\vartriangle ADM\\left ( { HL } \\right )\\)",
+    "\\(\\therefore S_{ \\vartriangle ADH } =S_{ \\vartriangle ADM }\\)，",
+    "\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM } =2S_{ \\vartriangle ADM } =\\frac { \\sqrt[] { 3 } } { 4 }x ^ { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(\\vartriangle ABC\\)是等边三角形，点D是BC边上一动点，连结AD",
+      "paper_blocks": [
+        56
+      ]
+    },
+    {
+      "id": "fig-64",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-1B5CE0353E-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(BD=2\\)，\\(DC=4\\)，求AD的长；",
+      "stem_text": "如图1，若\\(BD=2\\)，\\(DC=4\\)，求AD的长；",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 7 }\\)",
+      "answer": "\\(2\\sqrt[] { 7 }\\)",
+      "given_solution": "（1）如图，过点A作\\(AG\\bot BC\\)于点G，\n〔图2〕\n\\(\\because BD=2\\)，\\(DC=4\\)，\n\\(\\therefore BC=6\\)，\n\\(\\because \\vartriangle ABC\\)是等边三角形，\\(AG\\bot BC\\)，\n\\(\\therefore AB=BC=6\\)，\\(BG=\\frac { 1 } { 2 }BC=3\\)，\n\\(\\therefore DG=BG-BD=3-2=1\\)，\n在\\(Rt\\vartriangle ABG\\)中，\\(AG=\\sqrt[] { AB ^ { 2 } -BG ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n在\\(Rt\\vartriangle ADG\\)中，\\(AD=\\sqrt[] { AG ^ { 2 } +DG ^ { 2 } }=2\\sqrt[] { 7 }\\)",
+      "solution_steps": [
+        "（1）如图，过点A作\\(AG\\bot BC\\)于点G，",
+        "〔图2〕",
+        "\\(\\because BD=2\\)，\\(DC=4\\)，",
+        "\\(\\therefore BC=6\\)，",
+        "\\(\\because \\vartriangle ABC\\)是等边三角形，\\(AG\\bot BC\\)，",
+        "\\(\\therefore AB=BC=6\\)，\\(BG=\\frac { 1 } { 2 }BC=3\\)，",
+        "\\(\\therefore DG=BG-BD=3-2=1\\)，",
+        "在\\(Rt\\vartriangle ABG\\)中，\\(AG=\\sqrt[] { AB ^ { 2 } -BG ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+        "在\\(Rt\\vartriangle ADG\\)中，\\(AD=\\sqrt[] { AG ^ { 2 } +DG ^ { 2 } }=2\\sqrt[] { 7 }\\)"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1B5CE0353E-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，以AD为边作\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，分别交AB，AC于点E，F．\n①小明通过观察、实验，提出猜想：在点D运动的过程中，始终有\\(AE=AF\\)，小明把这个猜想与同学们进行交流，通过讨论，形成了证明该猜想的两种想法\n想法1：利用AD是\\(\\angle EDF\\)的角平分线，构造角平分线的性质定理的基本图形，然后通过全等三角形的相关知识获证．\n想法2：利用AD是\\(\\angle EDF\\)的角平分线，构造\\(\\vartriangle ADF\\)的全等三角形，然后通过等腰三角形的相关知识获证．\n请你参考上面的想法，帮助小明证明\\(AE=AF.(\\)一种方法即可\\()\\)\n②小聪在小明的基础上继续进行思考，发现：四边形AEDF的面积与AD长存在很好的关系\\(.\\)若用S表示四边形AEDF的面积，x表示AD的长，请你直接写出S与x之间的关系式．",
+      "stem_text": "如图2，以AD为边作\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，分别交AB，AC于点E，F．\n①小明通过观察、实验，提出猜想：在点D运动的过程中，始终有\\(AE=AF\\)，小明把这个猜想与同学们进行交流，通过讨论，形成了证明该猜想的两种想法\n想法1：利用AD是\\(\\angle EDF\\)的角平分线，构造角平分线的性质定理的基本图形，然后通过全等三角形的相关知识获证．\n想法2：利用AD是\\(\\angle EDF\\)的角平分线，构造\\(\\vartriangle ADF\\)的全等三角形，然后通过等腰三角形的相关知识获证．\n请你参考上面的想法，帮助小明证明\\(AE=AF.(\\)一种方法即可\\()\\)\n②小聪在小明的基础上继续进行思考，发现：四边形AEDF的面积与AD长存在很好的关系\\(.\\)若用S表示四边形AEDF的面积，x表示AD的长，请你直接写出S与x之间的关系式．",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "\\(\\left ( { 2 } \\right )①\\)想法1：如图，过点A作\\(AM\\bot DF\\)于点M，作\\(AH\\bot DE\\)，交DE的延长线于点H，\n〔图3〕\n\\(\\because AD\\)平分\\(\\angle EDF\\)，\\(AH\\bot DE\\)，\\(AM\\bot DF\\)\n\\(\\therefore AH=AM\\)，\n\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，\n\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，\n\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEH=180 ^ { \\circ }\\)，\n\\(\\therefore \\angle AEH=\\angle AFD\\)，且\\(AH=AM\\)，\\(\\angle H=\\angle AMF=90 ^ { \\circ }\\)，\n\\(\\therefore Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\left ( { AAS } \\right )\\)\n\\(\\therefore AE=AF\\)，\n想法2：如图，延长DE至N，使\\(DN=DF\\)，\n〔图4〕\n\\(\\because DN=DF\\)，\\(AD=AD\\)，\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\vartriangle ADN\\)≌\\(\\vartriangle ADF\\left ( { SAS } \\right )\\)\n\\(\\therefore AN=AF\\)，\\(\\angle AFD=\\angle N\\)，\n\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，\n\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，\n\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，\n\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEN=180 ^ { \\circ }\\)，\n\\(\\therefore \\angle AEN=\\angle AFD\\)，\n\\(\\therefore \\angle AEN=\\angle N\\)，\n\\(\\therefore AN=AE=AF\\)，\n②如图，\n〔图5〕\n由①中想法1可得\\(Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\)，\n\\(\\therefore S_{ \\vartriangle AHE } =S_{ \\vartriangle AMF }\\)，\n\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM }\\)，\n\\(\\because \\angle ADF=60 ^ { \\circ }\\)，\\(AM\\bot DF\\)，\n\\(\\therefore DM=\\frac { 1 } { 2 }AD\\)，\\(AM=\\sqrt[] { 3 }DM=\\frac { \\sqrt[] { 3 } } { 2 }AD\\)，\n\\(\\therefore S_{ \\vartriangle ADM } =\\frac { 1 } { 2 }\\times DM\\times AM=\\frac { \\sqrt[] { 3 } } { 8 }AD ^ { 2 } =\\frac { \\sqrt[] { 3 } } { 8 }x ^ { 2 }\\)，\n\\(\\because AD=AD\\)，\\(AH=AM\\)，\n\\(\\therefore Rt\\vartriangle ADH\\)≌\\(Rt\\vartriangle ADM\\left ( { HL } \\right )\\)\n\\(\\therefore S_{ \\vartriangle ADH } =S_{ \\vartriangle ADM }\\)，\n\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM } =2S_{ \\vartriangle ADM } =\\frac { \\sqrt[] { 3 } } { 4 }x ^ { 2 }\\)．",
+      "solution_steps": [
+        "\\(\\left ( { 2 } \\right )①\\)想法1：如图，过点A作\\(AM\\bot DF\\)于点M，作\\(AH\\bot DE\\)，交DE的延长线于点H，",
+        "〔图3〕",
+        "\\(\\because AD\\)平分\\(\\angle EDF\\)，\\(AH\\bot DE\\)，\\(AM\\bot DF\\)",
+        "\\(\\therefore AH=AM\\)，",
+        "\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，",
+        "\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，",
+        "\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，",
+        "\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEH=180 ^ { \\circ }\\)，",
+        "\\(\\therefore \\angle AEH=\\angle AFD\\)，且\\(AH=AM\\)，\\(\\angle H=\\angle AMF=90 ^ { \\circ }\\)，",
+        "\\(\\therefore Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\left ( { AAS } \\right )\\)",
+        "\\(\\therefore AE=AF\\)，",
+        "想法2：如图，延长DE至N，使\\(DN=DF\\)，",
+        "〔图4〕",
+        "\\(\\because DN=DF\\)，\\(AD=AD\\)，\\(\\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，",
+        "\\(\\therefore \\vartriangle ADN\\)≌\\(\\vartriangle ADF\\left ( { SAS } \\right )\\)",
+        "\\(\\therefore AN=AF\\)，\\(\\angle AFD=\\angle N\\)，",
+        "\\(\\because \\angle ADE=\\angle ADF=60 ^ { \\circ }\\)，",
+        "\\(\\therefore \\angle EDF=120 ^ { \\circ }\\)，",
+        "\\(\\because \\angle AED+\\angle AFD+\\angle BAC+\\angle EDF=360 ^ { \\circ }\\)，",
+        "\\(\\therefore \\angle AED+\\angle AFD=180 ^ { \\circ }\\)，且\\(\\angle AED+\\angle AEN=180 ^ { \\circ }\\)，",
+        "\\(\\therefore \\angle AEN=\\angle AFD\\)，",
+        "\\(\\therefore \\angle AEN=\\angle N\\)，",
+        "\\(\\therefore AN=AE=AF\\)，",
+        "②如图，",
+        "〔图5〕",
+        "由①中想法1可得\\(Rt\\vartriangle AHE\\)≌\\(Rt\\vartriangle AMF\\)，",
+        "\\(\\therefore S_{ \\vartriangle AHE } =S_{ \\vartriangle AMF }\\)，",
+        "\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM }\\)，",
+        "\\(\\because \\angle ADF=60 ^ { \\circ }\\)，\\(AM\\bot DF\\)，",
+        "\\(\\therefore DM=\\frac { 1 } { 2 }AD\\)，\\(AM=\\sqrt[] { 3 }DM=\\frac { \\sqrt[] { 3 } } { 2 }AD\\)，",
+        "\\(\\therefore S_{ \\vartriangle ADM } =\\frac { 1 } { 2 }\\times DM\\times AM=\\frac { \\sqrt[] { 3 } } { 8 }AD ^ { 2 } =\\frac { \\sqrt[] { 3 } } { 8 }x ^ { 2 }\\)，",
+        "\\(\\because AD=AD\\)，\\(AH=AM\\)，",
+        "\\(\\therefore Rt\\vartriangle ADH\\)≌\\(Rt\\vartriangle ADM\\left ( { HL } \\right )\\)",
+        "\\(\\therefore S_{ \\vartriangle ADH } =S_{ \\vartriangle ADM }\\)，",
+        "\\(\\therefore S_{ 四边形AEDF } =S_{ 四边形AHDM } =2S_{ \\vartriangle ADM } =\\frac { \\sqrt[] { 3 } } { 4 }x ^ { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      66
+    ],
+    "solution_body_blocks": [
+      320,
+      381
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-1B5CE0353E/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-1B5CE0353E/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          518.64,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          238.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-1B5CE0353E/solution-q22-p16.webp",
+      "assets/SZ-G8-T2-1B5CE0353E/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-1B5CE0353E/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-1B5CE0353E/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          621.36,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          740.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          53.18,
+          583.64,
+          376.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G03.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "tag_source": "小问标签汇总"
+}

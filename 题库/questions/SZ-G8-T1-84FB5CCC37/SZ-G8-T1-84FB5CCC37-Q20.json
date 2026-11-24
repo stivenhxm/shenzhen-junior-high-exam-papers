@@ -1,0 +1,262 @@
+{
+  "id": "SZ-G8-T1-84FB5CCC37-Q20",
+  "paper_id": "SZ-G8-T1-84FB5CCC37",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，在\\(\\vartriangle ABC\\)中，过点B作\\(BD\\bot CA\\)交\\(CA\\)的延长线于点D，过点C作\\(CE\\bot BA\\)交\\(BA\\)的延长线于点E，延长\\(BD，CE\\)相交于点F，\\(BF=AC=\\sqrt[] { 5 }\\)．\n〔图1〕\n（1）求证：\\(\\vartriangle BEF≌\\vartriangle CEA\\)；\n（2）若\\(CE=2\\)，求\\(BD\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-84FB5CCC37/figures/2446978dfee48e4e6c62fa2b34db0eb5c70679ddd167b8e07536c43e9ec50b8f.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)",
+  "answer": "（1）见解析    （2）\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)",
+  "given_solution": "【分析】本题考查全等三角形的判定与性质，勾股定理等知识，解题的关键是利用勾股定理列方程解决问题．\n（1）由\\(CE\\bot BA\\)，证明\\(\\angle ABD=\\angle ACE\\)，根据\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)即可证明\\(\\vartriangle BEF≌\\vartriangle CEA\\)；\n（2）由\\(\\vartriangle BEF≌\\vartriangle CEA\\)，得\\(BE=CE=2\\)，利用勾股定理求出\\(BC\\)的长，然后利用\\(BC ^ { 2 } -BD ^ { 2 } =CD ^ { 2 } =CF ^ { 2 } -DF ^ { 2 }\\)列方程即可解得答案．\n【小问1详解】\n∵\\(CE\\bot BA\\)，\n∴\\(\\angle BEF=90{}^\\circ =\\angle AEC\\)，\n∵\\(BD\\bot CA\\)，\n∴\\(\\angle ADB=90{}^\\circ =\\angle AEC\\)，\n∵\\(\\angle DAB=\\angle EAC\\)，\n∴\\(\\angle ABD=\\angle ACE\\)，即\\(\\angle EBF=\\angle ACE\\)，\n在\\(\\vartriangle BEF\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle BEF=\\angle AEC \\\\ \\angle EBF=\\angle ACE \\\\ BF=AC \\end{cases}\\)，\n∴\\(\\vartriangle BEF≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；\n【小问2详解】\n由（1）知\\(\\vartriangle BEF≌\\vartriangle CEA\\)，\n∴\\(BE=CE=2\\)，\n∴\\(BC=\\sqrt[] { BE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\\(EF=\\sqrt[] { BF ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } -2 ^ { 2 } }=1\\)，\n∴\\(CF=CE+EF=2+1=3\\)；\n∵\\(BC ^ { 2 } -BD ^ { 2 } =CD ^ { 2 } =CF ^ { 2 } -DF ^ { 2 }\\)，\n∴\\(BC ^ { 2 } -BD ^ { 2 } =CF ^ { 2 } -\\left ( { BF-BD } \\right ) ^ { 2 }\\)，\n∴\\(\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } -BD ^ { 2 } =3 ^ { 2 } -\\left ( { \\sqrt[] { 5 }-BD } \\right ) ^ { 2 }\\)，\n解得\\(BD=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．\n∴\\(BD\\)的长为\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-84FB5CCC37/figures/2446978dfee48e4e6c62fa2b34db0eb5c70679ddd167b8e07536c43e9ec50b8f.png"
+  ],
+  "solution": "【小问1详解】\n∵\\(CE\\bot BA\\)，\n∴\\(\\angle BEF=90{}^\\circ =\\angle AEC\\)，\n∵\\(BD\\bot CA\\)，\n∴\\(\\angle ADB=90{}^\\circ =\\angle AEC\\)，\n∵\\(\\angle DAB=\\angle EAC\\)，\n∴\\(\\angle ABD=\\angle ACE\\)，即\\(\\angle EBF=\\angle ACE\\)，\n在\\(\\vartriangle BEF\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle BEF=\\angle AEC \\\\ \\angle EBF=\\angle ACE \\\\ BF=AC \\end{cases}\\)，\n∴\\(\\vartriangle BEF≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；\n【小问2详解】\n由（1）知\\(\\vartriangle BEF≌\\vartriangle CEA\\)，\n∴\\(BE=CE=2\\)，\n∴\\(BC=\\sqrt[] { BE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\\(EF=\\sqrt[] { BF ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } -2 ^ { 2 } }=1\\)，\n∴\\(CF=CE+EF=2+1=3\\)；\n∵\\(BC ^ { 2 } -BD ^ { 2 } =CD ^ { 2 } =CF ^ { 2 } -DF ^ { 2 }\\)，\n∴\\(BC ^ { 2 } -BD ^ { 2 } =CF ^ { 2 } -\\left ( { BF-BD } \\right ) ^ { 2 }\\)，\n∴\\(\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } -BD ^ { 2 } =3 ^ { 2 } -\\left ( { \\sqrt[] { 5 }-BD } \\right ) ^ { 2 }\\)，\n解得\\(BD=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．\n∴\\(BD\\)的长为\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "∵\\(CE\\bot BA\\)，",
+    "∴\\(\\angle BEF=90{}^\\circ =\\angle AEC\\)，",
+    "∵\\(BD\\bot CA\\)，",
+    "∴\\(\\angle ADB=90{}^\\circ =\\angle AEC\\)，",
+    "∵\\(\\angle DAB=\\angle EAC\\)，",
+    "∴\\(\\angle ABD=\\angle ACE\\)，即\\(\\angle EBF=\\angle ACE\\)，",
+    "在\\(\\vartriangle BEF\\)和\\(\\vartriangle CEA\\)中，",
+    "\\(\\begin{cases} \\angle BEF=\\angle AEC \\\\ \\angle EBF=\\angle ACE \\\\ BF=AC \\end{cases}\\)，",
+    "∴\\(\\vartriangle BEF≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；",
+    "【小问2详解】",
+    "由（1）知\\(\\vartriangle BEF≌\\vartriangle CEA\\)，",
+    "∴\\(BE=CE=2\\)，",
+    "∴\\(BC=\\sqrt[] { BE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\\(EF=\\sqrt[] { BF ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } -2 ^ { 2 } }=1\\)，",
+    "∴\\(CF=CE+EF=2+1=3\\)；",
+    "∵\\(BC ^ { 2 } -BD ^ { 2 } =CD ^ { 2 } =CF ^ { 2 } -DF ^ { 2 }\\)，",
+    "∴\\(BC ^ { 2 } -BD ^ { 2 } =CF ^ { 2 } -\\left ( { BF-BD } \\right ) ^ { 2 }\\)，",
+    "∴\\(\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } -BD ^ { 2 } =3 ^ { 2 } -\\left ( { \\sqrt[] { 5 }-BD } \\right ) ^ { 2 }\\)，",
+    "解得\\(BD=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．",
+    "∴\\(BD\\)的长为\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在\\(\\vartriangle ABC\\)中，过点B作\\(BD\\bot CA\\)交\\(CA\\)的延长线于点D，过点C作\\(CE\\bot BA\\)交\\(BA\\)的延长线于点E，延长\\(BD，CE\\)相交于点F，\\(BF=AC=\\sqrt[] { 5 }\\)．\n〔图1〕",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-84FB5CCC37-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(\\vartriangle BEF≌\\vartriangle CEA\\)；",
+      "stem_text": "求证：\\(\\vartriangle BEF≌\\vartriangle CEA\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "∵\\(CE\\bot BA\\)，\n∴\\(\\angle BEF=90{}^\\circ =\\angle AEC\\)，\n∵\\(BD\\bot CA\\)，\n∴\\(\\angle ADB=90{}^\\circ =\\angle AEC\\)，\n∵\\(\\angle DAB=\\angle EAC\\)，\n∴\\(\\angle ABD=\\angle ACE\\)，即\\(\\angle EBF=\\angle ACE\\)，\n在\\(\\vartriangle BEF\\)和\\(\\vartriangle CEA\\)中，\n\\(\\begin{cases} \\angle BEF=\\angle AEC \\\\ \\angle EBF=\\angle ACE \\\\ BF=AC \\end{cases}\\)，\n∴\\(\\vartriangle BEF≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；",
+      "solution_steps": [
+        "∵\\(CE\\bot BA\\)，",
+        "∴\\(\\angle BEF=90{}^\\circ =\\angle AEC\\)，",
+        "∵\\(BD\\bot CA\\)，",
+        "∴\\(\\angle ADB=90{}^\\circ =\\angle AEC\\)，",
+        "∵\\(\\angle DAB=\\angle EAC\\)，",
+        "∴\\(\\angle ABD=\\angle ACE\\)，即\\(\\angle EBF=\\angle ACE\\)，",
+        "在\\(\\vartriangle BEF\\)和\\(\\vartriangle CEA\\)中，",
+        "\\(\\begin{cases} \\angle BEF=\\angle AEC \\\\ \\angle EBF=\\angle ACE \\\\ BF=AC \\end{cases}\\)，",
+        "∴\\(\\vartriangle BEF≌\\vartriangle CEA\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-84FB5CCC37-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(CE=2\\)，求\\(BD\\)的长．",
+      "stem_text": "若\\(CE=2\\)，求\\(BD\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)",
+      "answer": "\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)",
+      "given_solution": "由（1）知\\(\\vartriangle BEF≌\\vartriangle CEA\\)，\n∴\\(BE=CE=2\\)，\n∴\\(BC=\\sqrt[] { BE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\\(EF=\\sqrt[] { BF ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } -2 ^ { 2 } }=1\\)，\n∴\\(CF=CE+EF=2+1=3\\)；\n∵\\(BC ^ { 2 } -BD ^ { 2 } =CD ^ { 2 } =CF ^ { 2 } -DF ^ { 2 }\\)，\n∴\\(BC ^ { 2 } -BD ^ { 2 } =CF ^ { 2 } -\\left ( { BF-BD } \\right ) ^ { 2 }\\)，\n∴\\(\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } -BD ^ { 2 } =3 ^ { 2 } -\\left ( { \\sqrt[] { 5 }-BD } \\right ) ^ { 2 }\\)，\n解得\\(BD=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．\n∴\\(BD\\)的长为\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．",
+      "solution_steps": [
+        "由（1）知\\(\\vartriangle BEF≌\\vartriangle CEA\\)，",
+        "∴\\(BE=CE=2\\)，",
+        "∴\\(BC=\\sqrt[] { BE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 2 }\\)，\\(EF=\\sqrt[] { BF ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } -2 ^ { 2 } }=1\\)，",
+        "∴\\(CF=CE+EF=2+1=3\\)；",
+        "∵\\(BC ^ { 2 } -BD ^ { 2 } =CD ^ { 2 } =CF ^ { 2 } -DF ^ { 2 }\\)，",
+        "∴\\(BC ^ { 2 } -BD ^ { 2 } =CF ^ { 2 } -\\left ( { BF-BD } \\right ) ^ { 2 }\\)，",
+        "∴\\(\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } -BD ^ { 2 } =3 ^ { 2 } -\\left ( { \\sqrt[] { 5 }-BD } \\right ) ^ { 2 }\\)，",
+        "解得\\(BD=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．",
+        "∴\\(BD\\)的长为\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          64
+        ],
+        "solution_block_ids": [
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      64
+    ],
+    "solution_body_blocks": [
+      258,
+      286
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-84FB5CCC37/paper-q20-p04.webp",
+      "assets/SZ-G8-T1-84FB5CCC37/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          660.91,
+          583.64,
+          704.09
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          212.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-84FB5CCC37/solution-q20-p14.webp",
+      "assets/SZ-G8-T1-84FB5CCC37/solution-q20-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          217.73,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          270.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

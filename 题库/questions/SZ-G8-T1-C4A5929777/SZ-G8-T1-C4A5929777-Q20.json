@@ -1,0 +1,391 @@
+{
+  "id": "SZ-G8-T1-C4A5929777-Q20",
+  "paper_id": "SZ-G8-T1-C4A5929777",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、选择充分条件证明三角形全等",
+  "stem": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEF\\)中，\\(DE=DF，\\angle EDF=90{}^\\circ\\)，点\\(E，D\\)分别在长方形\\(ABCO\\)的边\\(BC，CO\\)上．\n〔图1〕\n（1）如图1，当点\\(F\\)在\\(OA\\)上，且\\(CE=3，OF=1\\)时，则点\\(E\\)的坐标为______；\n（2）如图2，若\\(EC=CO\\)，点\\(D\\)为线段\\(CO\\)上一动点（不包括端点），连接\\(OF\\)，求\\(\\angle AOF\\)的度数；\n（3）如图3，若长方形\\(ABCO\\)中，\\(OA=5，OC=4\\)，在（2）的基础上，当\\(BF\\)取值最小时，求点\\(D\\)的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-C4A5929777/figures/5484218b64ee0415e4ebe4a7962ad3cc4ecd1ad860908bd8cf34188be2608fe9.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { -4,3 } \\right )\\)\n（2）\\(45{}^\\circ\\)\n（3）\\(\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)",
+  "answer": "（1）\\(\\left ( { -4,3 } \\right )\\)\n（2）\\(45{}^\\circ\\)\n（3）\\(\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)",
+  "given_solution": "【分析】（1）根据长方形，垂直的性质证明\\(\\vartriangle ECD≌\\vartriangle DOF\\left ( { AAS } \\right )\\)，可得\\(CE=OD=3，CD=OF=1\\)，由此即可求解；\n（2）如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，则\\(\\angle OMF=90{}^\\circ\\)，由（1）的方法可证\\(\\vartriangle ECD≌\\vartriangle DMF\\left ( { AAS } \\right )\\)，得到\\(CD=OM=MF\\)，\\(\\vartriangle OMF\\)是等腰直角三角形，由此即可求解；\n（3）如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，作\\(FN\\bot BC\\)轴于点\\(N\\)，可得\\(EC=CO=DM=4\\)，设\\(OD=x\\)，则\\(CD=MF=OM=NC=4-x\\)，\\(CM=8-x=NF\\)，\\(BN=1+x\\)，在\\(Rt\\vartriangle BNF\\)中，运用勾股定理可得\\(BF=\\sqrt[] { 2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 } }\\)，由此即可求解．\n【小问1详解】\n解：∵\\(\\angle EDF=90{}^\\circ\\)，\n∴\\(\\angle EDC+\\angle ODF=90{}^\\circ\\)，\n∵四边形\\(ABCO\\)是长方形，\n∴\\(\\angle ECD=\\angle DOF=90{}^\\circ\\)，\n∴\\(\\angle CED+\\angle EDC=90{}^\\circ\\)，\n∴\\(\\angle CED=\\angle ODF\\)，\n在\\(\\vartriangle ECD，\\vartriangle DOF\\)中，\n\\(\\begin{cases} \\angle ECD=\\angle DOF \\\\ \\angle CED=\\angle ODF \\\\ DE=DF \\end{cases}\\)，\n∴\\(\\vartriangle ECD≌\\vartriangle DOF\\left ( { AAS } \\right )\\)，\n∴\\(CE=OD=3，CD=OF=1\\)，\n∴\\(OC=3+1=4\\)，\n∴\\(E\\left ( { -4,3 } \\right )\\)，\n故答案为：\\(\\left ( { -4,3 } \\right )\\)；\n【小问2详解】\n解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，则\\(\\angle OMF=90{}^\\circ\\)，\n〔图2〕\n同（1）的证明方法可得，\\(\\vartriangle ECD≌\\vartriangle DMF\\left ( { AAS } \\right )\\)，\n∴\\(EC=DM，CD=MF\\)，\n∵\\(EC=CO\\)，\n∴\\(CO=DM\\)\n∴\\(CO-DO=DM-DO\\)，即\\(CD=OM=MF\\)，\n∴\\(\\vartriangle OMF\\)是等腰直角三角形，\n∴\\(\\angle MOF=\\angle MFO=45{}^\\circ\\)，\n∵\\(\\angle AOM=90{}^\\circ\\)，\n∴\\(\\angle AOF=\\angle AOM-\\angle MOF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)；\n【小问3详解】\n解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，作\\(FN\\bot BC\\)轴于点\\(N\\)，\n〔图3〕\n∴\\(NF=CM\\)，\\(NC=FM，\\angle BNF=90{}^\\circ\\)，\n由（2）可得，\\(EC=DM，CD=MF=OM\\)，\n∵\\(OC=4\\)，\n∴\\(EC=CO=DM=4\\)，\n设\\(OD=x\\)，则\\(CD=MF=OM=NC=4-x\\)，\n∴\\(CM=4-x+4=8-x=NF\\)，\n∵\\(OA=BC=5\\)，\n∴\\(BN=BC-NC=5-\\left ( { 4-x } \\right )=1+x\\)，\n在\\(Rt\\vartriangle BNF\\)中，\\(BF ^ { 2 } =BN ^ { 2 } +NF ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 } =2x ^ { 2 } -14x+65=2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 }\\)，\n∴\\(BF=\\sqrt[] { 2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 } }\\)，\n∴当\\(x=\\frac { 7 } { 2 }\\)时，\\(BF\\)取得最小值，\n∴\\(OD=\\frac { 7 } { 2 }\\)，\n∴\\(D\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)．\n【点睛】本题主要考查长方形的性质，全等三角形的判定和性质，勾股定理，等腰直角三角形的判定和性质，掌握全等三角形的判定和性质，合理作图辅助线，图形结合分析思想是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-C4A5929777/figures/ab236b6de1ea6ec206a3c69cf28153422d847cb281c7300f3f356467e8d560aa.png",
+    "assets/SZ-G8-T1-C4A5929777/figures/8feacfec9b3d5b717ee54ce8de6debaaed76cec486da591b77e39356b2de68d2.png",
+    "assets/SZ-G8-T1-C4A5929777/figures/426ea7200e05bf57b377b90462633dd533f3a613d3a954cfa40771b5b199c6c3.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(\\angle EDF=90{}^\\circ\\)，\n∴\\(\\angle EDC+\\angle ODF=90{}^\\circ\\)，\n∵四边形\\(ABCO\\)是长方形，\n∴\\(\\angle ECD=\\angle DOF=90{}^\\circ\\)，\n∴\\(\\angle CED+\\angle EDC=90{}^\\circ\\)，\n∴\\(\\angle CED=\\angle ODF\\)，\n在\\(\\vartriangle ECD，\\vartriangle DOF\\)中，\n\\(\\begin{cases} \\angle ECD=\\angle DOF \\\\ \\angle CED=\\angle ODF \\\\ DE=DF \\end{cases}\\)，\n∴\\(\\vartriangle ECD≌\\vartriangle DOF\\left ( { AAS } \\right )\\)，\n∴\\(CE=OD=3，CD=OF=1\\)，\n∴\\(OC=3+1=4\\)，\n∴\\(E\\left ( { -4,3 } \\right )\\)，\n故答案为：\\(\\left ( { -4,3 } \\right )\\)；\n【小问2详解】\n解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，则\\(\\angle OMF=90{}^\\circ\\)，\n〔图2〕\n同（1）的证明方法可得，\\(\\vartriangle ECD≌\\vartriangle DMF\\left ( { AAS } \\right )\\)，\n∴\\(EC=DM，CD=MF\\)，\n∵\\(EC=CO\\)，\n∴\\(CO=DM\\)\n∴\\(CO-DO=DM-DO\\)，即\\(CD=OM=MF\\)，\n∴\\(\\vartriangle OMF\\)是等腰直角三角形，\n∴\\(\\angle MOF=\\angle MFO=45{}^\\circ\\)，\n∵\\(\\angle AOM=90{}^\\circ\\)，\n∴\\(\\angle AOF=\\angle AOM-\\angle MOF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)；\n【小问3详解】\n解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，作\\(FN\\bot BC\\)轴于点\\(N\\)，\n〔图3〕\n∴\\(NF=CM\\)，\\(NC=FM，\\angle BNF=90{}^\\circ\\)，\n由（2）可得，\\(EC=DM，CD=MF=OM\\)，\n∵\\(OC=4\\)，\n∴\\(EC=CO=DM=4\\)，\n设\\(OD=x\\)，则\\(CD=MF=OM=NC=4-x\\)，\n∴\\(CM=4-x+4=8-x=NF\\)，\n∵\\(OA=BC=5\\)，\n∴\\(BN=BC-NC=5-\\left ( { 4-x } \\right )=1+x\\)，\n在\\(Rt\\vartriangle BNF\\)中，\\(BF ^ { 2 } =BN ^ { 2 } +NF ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 } =2x ^ { 2 } -14x+65=2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 }\\)，\n∴\\(BF=\\sqrt[] { 2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 } }\\)，\n∴当\\(x=\\frac { 7 } { 2 }\\)时，\\(BF\\)取得最小值，\n∴\\(OD=\\frac { 7 } { 2 }\\)，\n∴\\(D\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(\\angle EDF=90{}^\\circ\\)，",
+    "∴\\(\\angle EDC+\\angle ODF=90{}^\\circ\\)，",
+    "∵四边形\\(ABCO\\)是长方形，",
+    "∴\\(\\angle ECD=\\angle DOF=90{}^\\circ\\)，",
+    "∴\\(\\angle CED+\\angle EDC=90{}^\\circ\\)，",
+    "∴\\(\\angle CED=\\angle ODF\\)，",
+    "在\\(\\vartriangle ECD，\\vartriangle DOF\\)中，",
+    "\\(\\begin{cases} \\angle ECD=\\angle DOF \\\\ \\angle CED=\\angle ODF \\\\ DE=DF \\end{cases}\\)，",
+    "∴\\(\\vartriangle ECD≌\\vartriangle DOF\\left ( { AAS } \\right )\\)，",
+    "∴\\(CE=OD=3，CD=OF=1\\)，",
+    "∴\\(OC=3+1=4\\)，",
+    "∴\\(E\\left ( { -4,3 } \\right )\\)，",
+    "故答案为：\\(\\left ( { -4,3 } \\right )\\)；",
+    "【小问2详解】",
+    "解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，则\\(\\angle OMF=90{}^\\circ\\)，",
+    "〔图2〕",
+    "同（1）的证明方法可得，\\(\\vartriangle ECD≌\\vartriangle DMF\\left ( { AAS } \\right )\\)，",
+    "∴\\(EC=DM，CD=MF\\)，",
+    "∵\\(EC=CO\\)，",
+    "∴\\(CO=DM\\)",
+    "∴\\(CO-DO=DM-DO\\)，即\\(CD=OM=MF\\)，",
+    "∴\\(\\vartriangle OMF\\)是等腰直角三角形，",
+    "∴\\(\\angle MOF=\\angle MFO=45{}^\\circ\\)，",
+    "∵\\(\\angle AOM=90{}^\\circ\\)，",
+    "∴\\(\\angle AOF=\\angle AOM-\\angle MOF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)；",
+    "【小问3详解】",
+    "解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，作\\(FN\\bot BC\\)轴于点\\(N\\)，",
+    "〔图3〕",
+    "∴\\(NF=CM\\)，\\(NC=FM，\\angle BNF=90{}^\\circ\\)，",
+    "由（2）可得，\\(EC=DM，CD=MF=OM\\)，",
+    "∵\\(OC=4\\)，",
+    "∴\\(EC=CO=DM=4\\)，",
+    "设\\(OD=x\\)，则\\(CD=MF=OM=NC=4-x\\)，",
+    "∴\\(CM=4-x+4=8-x=NF\\)，",
+    "∵\\(OA=BC=5\\)，",
+    "∴\\(BN=BC-NC=5-\\left ( { 4-x } \\right )=1+x\\)，",
+    "在\\(Rt\\vartriangle BNF\\)中，\\(BF ^ { 2 } =BN ^ { 2 } +NF ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 } =2x ^ { 2 } -14x+65=2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 }\\)，",
+    "∴\\(BF=\\sqrt[] { 2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 } }\\)，",
+    "∴当\\(x=\\frac { 7 } { 2 }\\)时，\\(BF\\)取得最小值，",
+    "∴\\(OD=\\frac { 7 } { 2 }\\)，",
+    "∴\\(D\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEF\\)中，\\(DE=DF，\\angle EDF=90{}^\\circ\\)，点\\(E，D\\)分别在长方形\\(ABCO\\)的边\\(BC，CO\\)上．\n〔图1〕",
+      "paper_blocks": [
+        65,
+        66
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，若\\(EC=CO\\)，点\\(D\\)为线段\\(CO\\)上一动点（不包括端点），连接\\(OF\\)，求\\(\\angle AOF\\)的度数；",
+      "paper_blocks": [
+        65,
+        66,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-C4A5929777-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点\\(F\\)在\\(OA\\)上，且\\(CE=3，OF=1\\)时，则点\\(E\\)的坐标为______；",
+      "stem_text": "如图1，当点\\(F\\)在\\(OA\\)上，且\\(CE=3，OF=1\\)时，则点\\(E\\)的坐标为______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { -4,3 } \\right )\\)",
+      "answer": "\\(\\left ( { -4,3 } \\right )\\)",
+      "given_solution": "解：∵\\(\\angle EDF=90{}^\\circ\\)，\n∴\\(\\angle EDC+\\angle ODF=90{}^\\circ\\)，\n∵四边形\\(ABCO\\)是长方形，\n∴\\(\\angle ECD=\\angle DOF=90{}^\\circ\\)，\n∴\\(\\angle CED+\\angle EDC=90{}^\\circ\\)，\n∴\\(\\angle CED=\\angle ODF\\)，\n在\\(\\vartriangle ECD，\\vartriangle DOF\\)中，\n\\(\\begin{cases} \\angle ECD=\\angle DOF \\\\ \\angle CED=\\angle ODF \\\\ DE=DF \\end{cases}\\)，\n∴\\(\\vartriangle ECD≌\\vartriangle DOF\\left ( { AAS } \\right )\\)，\n∴\\(CE=OD=3，CD=OF=1\\)，\n∴\\(OC=3+1=4\\)，\n∴\\(E\\left ( { -4,3 } \\right )\\)，\n故答案为：\\(\\left ( { -4,3 } \\right )\\)；",
+      "solution_steps": [
+        "解：∵\\(\\angle EDF=90{}^\\circ\\)，",
+        "∴\\(\\angle EDC+\\angle ODF=90{}^\\circ\\)，",
+        "∵四边形\\(ABCO\\)是长方形，",
+        "∴\\(\\angle ECD=\\angle DOF=90{}^\\circ\\)，",
+        "∴\\(\\angle CED+\\angle EDC=90{}^\\circ\\)，",
+        "∴\\(\\angle CED=\\angle ODF\\)，",
+        "在\\(\\vartriangle ECD，\\vartriangle DOF\\)中，",
+        "\\(\\begin{cases} \\angle ECD=\\angle DOF \\\\ \\angle CED=\\angle ODF \\\\ DE=DF \\end{cases}\\)，",
+        "∴\\(\\vartriangle ECD≌\\vartriangle DOF\\left ( { AAS } \\right )\\)，",
+        "∴\\(CE=OD=3，CD=OF=1\\)，",
+        "∴\\(OC=3+1=4\\)，",
+        "∴\\(E\\left ( { -4,3 } \\right )\\)，",
+        "故答案为：\\(\\left ( { -4,3 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-C4A5929777-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，若\\(EC=CO\\)，点\\(D\\)为线段\\(CO\\)上一动点（不包括端点），连接\\(OF\\)，求\\(\\angle AOF\\)的度数；",
+      "stem_text": "如图2，若\\(EC=CO\\)，点\\(D\\)为线段\\(CO\\)上一动点（不包括端点），连接\\(OF\\)，求\\(\\angle AOF\\)的度数；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(45{}^\\circ\\)",
+      "answer": "\\(45{}^\\circ\\)",
+      "given_solution": "解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，则\\(\\angle OMF=90{}^\\circ\\)，\n〔图2〕\n同（1）的证明方法可得，\\(\\vartriangle ECD≌\\vartriangle DMF\\left ( { AAS } \\right )\\)，\n∴\\(EC=DM，CD=MF\\)，\n∵\\(EC=CO\\)，\n∴\\(CO=DM\\)\n∴\\(CO-DO=DM-DO\\)，即\\(CD=OM=MF\\)，\n∴\\(\\vartriangle OMF\\)是等腰直角三角形，\n∴\\(\\angle MOF=\\angle MFO=45{}^\\circ\\)，\n∵\\(\\angle AOM=90{}^\\circ\\)，\n∴\\(\\angle AOF=\\angle AOM-\\angle MOF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)；",
+      "solution_steps": [
+        "解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，则\\(\\angle OMF=90{}^\\circ\\)，",
+        "〔图2〕",
+        "同（1）的证明方法可得，\\(\\vartriangle ECD≌\\vartriangle DMF\\left ( { AAS } \\right )\\)，",
+        "∴\\(EC=DM，CD=MF\\)，",
+        "∵\\(EC=CO\\)，",
+        "∴\\(CO=DM\\)",
+        "∴\\(CO-DO=DM-DO\\)，即\\(CD=OM=MF\\)，",
+        "∴\\(\\vartriangle OMF\\)是等腰直角三角形，",
+        "∴\\(\\angle MOF=\\angle MFO=45{}^\\circ\\)，",
+        "∵\\(\\angle AOM=90{}^\\circ\\)，",
+        "∴\\(\\angle AOF=\\angle AOM-\\angle MOF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          68
+        ],
+        "solution_block_ids": [
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-C4A5929777-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图3，若长方形\\(ABCO\\)中，\\(OA=5，OC=4\\)，在（2）的基础上，当\\(BF\\)取值最小时，求点\\(D\\)的坐标．",
+      "stem_text": "如图3，若长方形\\(ABCO\\)中，\\(OA=5，OC=4\\)，在（2）的基础上，当\\(BF\\)取值最小时，求点\\(D\\)的坐标．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G8-T1-C4A5929777-Q20-P02"
+      ],
+      "given_answer": "\\(\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)",
+      "answer": "\\(\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)",
+      "given_solution": "解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，作\\(FN\\bot BC\\)轴于点\\(N\\)，\n〔图3〕\n∴\\(NF=CM\\)，\\(NC=FM，\\angle BNF=90{}^\\circ\\)，\n由（2）可得，\\(EC=DM，CD=MF=OM\\)，\n∵\\(OC=4\\)，\n∴\\(EC=CO=DM=4\\)，\n设\\(OD=x\\)，则\\(CD=MF=OM=NC=4-x\\)，\n∴\\(CM=4-x+4=8-x=NF\\)，\n∵\\(OA=BC=5\\)，\n∴\\(BN=BC-NC=5-\\left ( { 4-x } \\right )=1+x\\)，\n在\\(Rt\\vartriangle BNF\\)中，\\(BF ^ { 2 } =BN ^ { 2 } +NF ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 } =2x ^ { 2 } -14x+65=2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 }\\)，\n∴\\(BF=\\sqrt[] { 2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 } }\\)，\n∴当\\(x=\\frac { 7 } { 2 }\\)时，\\(BF\\)取得最小值，\n∴\\(OD=\\frac { 7 } { 2 }\\)，\n∴\\(D\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)．",
+      "solution_steps": [
+        "解：如图所示，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，作\\(FN\\bot BC\\)轴于点\\(N\\)，",
+        "〔图3〕",
+        "∴\\(NF=CM\\)，\\(NC=FM，\\angle BNF=90{}^\\circ\\)，",
+        "由（2）可得，\\(EC=DM，CD=MF=OM\\)，",
+        "∵\\(OC=4\\)，",
+        "∴\\(EC=CO=DM=4\\)，",
+        "设\\(OD=x\\)，则\\(CD=MF=OM=NC=4-x\\)，",
+        "∴\\(CM=4-x+4=8-x=NF\\)，",
+        "∵\\(OA=BC=5\\)，",
+        "∴\\(BN=BC-NC=5-\\left ( { 4-x } \\right )=1+x\\)，",
+        "在\\(Rt\\vartriangle BNF\\)中，\\(BF ^ { 2 } =BN ^ { 2 } +NF ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 } +\\left ( { 8-x } \\right ) ^ { 2 } =2x ^ { 2 } -14x+65=2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 }\\)，",
+        "∴\\(BF=\\sqrt[] { 2\\left ( { x-\\frac { 7 } { 2 } } \\right ) ^ { 2 } +\\frac { 81 } { 2 } }\\)，",
+        "∴当\\(x=\\frac { 7 } { 2 }\\)时，\\(BF\\)取得最小值，",
+        "∴\\(OD=\\frac { 7 } { 2 }\\)，",
+        "∴\\(D\\left ( { -\\frac { 7 } { 2 },0 } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      65,
+      69
+    ],
+    "solution_body_blocks": [
+      325,
+      379
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-C4A5929777/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          409.09,
+          583.64,
+          657.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-C4A5929777/solution-q20-p17.webp",
+      "assets/SZ-G8-T1-C4A5929777/solution-q20-p18.webp",
+      "assets/SZ-G8-T1-C4A5929777/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          473.18,
+          583.64,
+          743.18
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          751.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.G03.02.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 本问解答对应“选择充分条件证明三角形全等”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

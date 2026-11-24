@@ -1,0 +1,345 @@
+{
+  "id": "SZ-G8-T2-E35EC8D7C9-Q22",
+  "paper_id": "SZ-G8-T2-E35EC8D7C9",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "在综合与实践课上，老师让同学们以“图形的旋转”为主题开展数学探索活动．在矩形\\(ABCD\\)中，\\(AB=8\\)，\\(BC=4\\)，以点\\(A\\)为旋转中心，逆时针旋转矩形\\(ABCD\\)，旋转角为\\(\\alpha \\left ( { 0{}^\\circ < \\alpha < 180{}^\\circ } \\right )\\)，得到矩形\\(AEFG\\)，点\\(B\\)，\\(C\\)，\\(D\\)的对应点分别为点\\(E\\)，\\(F\\)，\\(G\\)．\n〔图1〕\n（1）初步感知\n如图①，当点\\(E\\)落在\\(DC\\)边上时，线段\\(DE\\)的长度为___________；\n（2）迁移探究\n如图②，当点\\(E\\)落在线段\\(CF\\)上时，\\(AE\\)与\\(DC\\)相交于点\\(H\\)，连接\\(AC\\)．求线段\\(DH\\)的长度．\n（3）拓展应用\n如图③设点\\(P\\)为边\\(FG\\)的中点，连接\\(PB\\)，\\(PE\\)，在矩形\\(ABCD\\)旋转过程中，\\(\\vartriangle BEP\\)的面积存在最大值，请直接写出这个最大值为___________．",
+  "choices": [],
+  "figures": [
+    "assets/figures/52/52ecaf870b7c5757c47d343f58bdffedcf763631b9504df1685d01fba4680484.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(4\\sqrt[] { 3 }\\)\n（2）3    （3）\\(16+16\\sqrt[] { 2 }\\)",
+  "answer": "（1）\\(4\\sqrt[] { 3 }\\)\n（2）3    （3）\\(16+16\\sqrt[] { 2 }\\)",
+  "given_solution": "【分析】（1）根据旋转得到\\(AE=AB=8\\)，根据矩形得到\\(\\angle D=90{}^\\circ\\)，结合勾股定理即可得到答案；\n（2）首先证明出\\(\\vartriangle ACD≌\\vartriangle CAE\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，得到\\(\\angle ACD=\\angle CAE\\)，从而得到\\(AH=CH\\)，即可得到\\(DH=EH\\)，利用勾股定理求解即可得到答案；\n（3）根据矩形的性质，勾股定理求出\\(PE\\)固定，即可得到高最大，面积最大，结合三角形三边关系得到最大高即可得到答案．\n【小问1详解】\n解：∵四边形\\(ABCD\\)是矩形，\\(BC=4\\)，\n∴\\(AD=BC=4\\)，\\(\\angle D=90{}^\\circ\\)，\n∵\\(AB=8\\)，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，\n∴\\(AE=AB=8\\)，\n∴\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }=4\\sqrt[] { 3 }\\)，\n故答案为：\\(4\\sqrt[] { 3 }\\)；\n【小问2详解】\n∵四边形\\(ABCD\\)是矩形，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，\n∴\\(\\angle D=\\angle AEC=90{}^\\circ\\)，\\(AE=AB=DC\\)，\n在\\(\\vartriangle ACD\\)与\\(\\vartriangle CAE\\)中，\n∵\\(\\begin{cases} CD=AE \\\\ AC=CA \\end{cases}\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle CAE\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)\n∴\\(\\angle ACD=\\angle CAE\\)，\n∴\\(AH=CH\\)，\n∴\\(DH=EH\\)，\n设\\(DH=x\\)，则\\(CH=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，由勾股定理得\\(AH ^ { 2 } =AD ^ { 2 } +DH ^ { 2 }\\)\n∴\\(\\left ( { 8-x } \\right ) ^ { 2 } =x ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(x=3\\)，\n∴\\(DH=3\\)；\n【小问3详解】\n解：∵\\(P\\)为边\\(FG\\)的中点，\n∴\\(PF=\\frac { 1 } { 2 }FG=4\\)，\n∴\\(PE=\\sqrt[] { PF ^ { 2 } +EF ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n过A作\\(AM\\bot PE\\)于E，\n〔图2〕\n∵点B到\\(PE\\)的距离小于\\(BM\\le AB+AM\\)，\n∴当\\(A\\)，\\(M\\)，\\(B\\)三点共线时高最大，\\(\\vartriangle PBE\\)的面积最大如图所示，\n∵\\(S_{ \\vartriangle APE } =\\frac { 1 } { 2 }PE\\cdot AM=\\frac { 1 } { 2 }S_{ 矩形AGFE }\\)，\n∴\\(AM=\\frac { 4\\times 8 } { 4\\sqrt[] { 2 } }=4\\sqrt[] { 2 }\\)，\n∴\\(BM=AM+AB=8+4\\sqrt[] { 2 }\\)，\n∴\\(S_{ \\vartriangle BEP最大 } =\\frac { 1 } { 2 }MB\\cdot PE=\\frac { 1 } { 2 }\\times \\left ( { 8+4\\sqrt[] { 2 } } \\right )\\times 4\\sqrt[] { 2 }=16+16\\sqrt[] { 2 }\\)．\n【点睛】本题考查矩形的性质，旋转的性质与勾股定理，全等三角形的性质和判定等知识，解题的关键是掌握以上知识点．",
+  "given_solution_figures": [
+    "assets/figures/52/52ecaf870b7c5757c47d343f58bdffedcf763631b9504df1685d01fba4680484.png",
+    "assets/figures/30/30a39bc106b894d2d2820761b273ce17c22a59ba10de0949665cbd7ed863df0d.png"
+  ],
+  "solution": "【小问1详解】\n解：∵四边形\\(ABCD\\)是矩形，\\(BC=4\\)，\n∴\\(AD=BC=4\\)，\\(\\angle D=90{}^\\circ\\)，\n∵\\(AB=8\\)，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，\n∴\\(AE=AB=8\\)，\n∴\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }=4\\sqrt[] { 3 }\\)，\n故答案为：\\(4\\sqrt[] { 3 }\\)；\n【小问2详解】\n∵四边形\\(ABCD\\)是矩形，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，\n∴\\(\\angle D=\\angle AEC=90{}^\\circ\\)，\\(AE=AB=DC\\)，\n在\\(\\vartriangle ACD\\)与\\(\\vartriangle CAE\\)中，\n∵\\(\\begin{cases} CD=AE \\\\ AC=CA \\end{cases}\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle CAE\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)\n∴\\(\\angle ACD=\\angle CAE\\)，\n∴\\(AH=CH\\)，\n∴\\(DH=EH\\)，\n设\\(DH=x\\)，则\\(CH=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，由勾股定理得\\(AH ^ { 2 } =AD ^ { 2 } +DH ^ { 2 }\\)\n∴\\(\\left ( { 8-x } \\right ) ^ { 2 } =x ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(x=3\\)，\n∴\\(DH=3\\)；\n【小问3详解】\n解：∵\\(P\\)为边\\(FG\\)的中点，\n∴\\(PF=\\frac { 1 } { 2 }FG=4\\)，\n∴\\(PE=\\sqrt[] { PF ^ { 2 } +EF ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n过A作\\(AM\\bot PE\\)于E，\n〔图2〕\n∵点B到\\(PE\\)的距离小于\\(BM\\le AB+AM\\)，\n∴当\\(A\\)，\\(M\\)，\\(B\\)三点共线时高最大，\\(\\vartriangle PBE\\)的面积最大如图所示，\n∵\\(S_{ \\vartriangle APE } =\\frac { 1 } { 2 }PE\\cdot AM=\\frac { 1 } { 2 }S_{ 矩形AGFE }\\)，\n∴\\(AM=\\frac { 4\\times 8 } { 4\\sqrt[] { 2 } }=4\\sqrt[] { 2 }\\)，\n∴\\(BM=AM+AB=8+4\\sqrt[] { 2 }\\)，\n∴\\(S_{ \\vartriangle BEP最大 } =\\frac { 1 } { 2 }MB\\cdot PE=\\frac { 1 } { 2 }\\times \\left ( { 8+4\\sqrt[] { 2 } } \\right )\\times 4\\sqrt[] { 2 }=16+16\\sqrt[] { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵四边形\\(ABCD\\)是矩形，\\(BC=4\\)，",
+    "∴\\(AD=BC=4\\)，\\(\\angle D=90{}^\\circ\\)，",
+    "∵\\(AB=8\\)，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，",
+    "∴\\(AE=AB=8\\)，",
+    "∴\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }=4\\sqrt[] { 3 }\\)，",
+    "故答案为：\\(4\\sqrt[] { 3 }\\)；",
+    "【小问2详解】",
+    "∵四边形\\(ABCD\\)是矩形，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，",
+    "∴\\(\\angle D=\\angle AEC=90{}^\\circ\\)，\\(AE=AB=DC\\)，",
+    "在\\(\\vartriangle ACD\\)与\\(\\vartriangle CAE\\)中，",
+    "∵\\(\\begin{cases} CD=AE \\\\ AC=CA \\end{cases}\\)，",
+    "∴\\(\\vartriangle ACD≌\\vartriangle CAE\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)",
+    "∴\\(\\angle ACD=\\angle CAE\\)，",
+    "∴\\(AH=CH\\)，",
+    "∴\\(DH=EH\\)，",
+    "设\\(DH=x\\)，则\\(CH=8-x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，由勾股定理得\\(AH ^ { 2 } =AD ^ { 2 } +DH ^ { 2 }\\)",
+    "∴\\(\\left ( { 8-x } \\right ) ^ { 2 } =x ^ { 2 } +4 ^ { 2 }\\)，",
+    "解得：\\(x=3\\)，",
+    "∴\\(DH=3\\)；",
+    "【小问3详解】",
+    "解：∵\\(P\\)为边\\(FG\\)的中点，",
+    "∴\\(PF=\\frac { 1 } { 2 }FG=4\\)，",
+    "∴\\(PE=\\sqrt[] { PF ^ { 2 } +EF ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+    "过A作\\(AM\\bot PE\\)于E，",
+    "〔图2〕",
+    "∵点B到\\(PE\\)的距离小于\\(BM\\le AB+AM\\)，",
+    "∴当\\(A\\)，\\(M\\)，\\(B\\)三点共线时高最大，\\(\\vartriangle PBE\\)的面积最大如图所示，",
+    "∵\\(S_{ \\vartriangle APE } =\\frac { 1 } { 2 }PE\\cdot AM=\\frac { 1 } { 2 }S_{ 矩形AGFE }\\)，",
+    "∴\\(AM=\\frac { 4\\times 8 } { 4\\sqrt[] { 2 } }=4\\sqrt[] { 2 }\\)，",
+    "∴\\(BM=AM+AB=8+4\\sqrt[] { 2 }\\)，",
+    "∴\\(S_{ \\vartriangle BEP最大 } =\\frac { 1 } { 2 }MB\\cdot PE=\\frac { 1 } { 2 }\\times \\left ( { 8+4\\sqrt[] { 2 } } \\right )\\times 4\\sqrt[] { 2 }=16+16\\sqrt[] { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在综合与实践课上，老师让同学们以“图形的旋转”为主题开展数学探索活动．在矩形\\(ABCD\\)中，\\(AB=8\\)，\\(BC=4\\)，以点\\(A\\)为旋转中心，逆时针旋转矩形\\(ABCD\\)，旋转角为\\(\\alpha \\left ( { 0{}^\\circ < \\alpha < 180{}^\\circ } \\right )\\)，得到矩形\\(AEFG\\)，点\\(B\\)，\\(C\\)，\\(D\\)的对应点分别为点\\(E\\)，\\(F\\)，\\(G\\)．\n〔图1〕",
+      "paper_blocks": [
+        58,
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-E35EC8D7C9-Q22-P01",
+      "label": "（1）",
+      "prompt": "初步感知\n如图①，当点\\(E\\)落在\\(DC\\)边上时，线段\\(DE\\)的长度为___________；",
+      "stem_text": "初步感知\n如图①，当点\\(E\\)落在\\(DC\\)边上时，线段\\(DE\\)的长度为___________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 3 }\\)",
+      "answer": "\\(4\\sqrt[] { 3 }\\)",
+      "given_solution": "解：∵四边形\\(ABCD\\)是矩形，\\(BC=4\\)，\n∴\\(AD=BC=4\\)，\\(\\angle D=90{}^\\circ\\)，\n∵\\(AB=8\\)，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，\n∴\\(AE=AB=8\\)，\n∴\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }=4\\sqrt[] { 3 }\\)，\n故答案为：\\(4\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "解：∵四边形\\(ABCD\\)是矩形，\\(BC=4\\)，",
+        "∴\\(AD=BC=4\\)，\\(\\angle D=90{}^\\circ\\)，",
+        "∵\\(AB=8\\)，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，",
+        "∴\\(AE=AB=8\\)，",
+        "∴\\(DE=\\sqrt[] { AE ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }=4\\sqrt[] { 3 }\\)，",
+        "故答案为：\\(4\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          350,
+          351,
+          352,
+          353,
+          354,
+          355
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E35EC8D7C9-Q22-P02",
+      "label": "（2）",
+      "prompt": "迁移探究\n如图②，当点\\(E\\)落在线段\\(CF\\)上时，\\(AE\\)与\\(DC\\)相交于点\\(H\\)，连接\\(AC\\)．求线段\\(DH\\)的长度．",
+      "stem_text": "迁移探究\n如图②，当点\\(E\\)落在线段\\(CF\\)上时，\\(AE\\)与\\(DC\\)相交于点\\(H\\)，连接\\(AC\\)．求线段\\(DH\\)的长度．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "3",
+      "answer": "3",
+      "given_solution": "∵四边形\\(ABCD\\)是矩形，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，\n∴\\(\\angle D=\\angle AEC=90{}^\\circ\\)，\\(AE=AB=DC\\)，\n在\\(\\vartriangle ACD\\)与\\(\\vartriangle CAE\\)中，\n∵\\(\\begin{cases} CD=AE \\\\ AC=CA \\end{cases}\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle CAE\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)\n∴\\(\\angle ACD=\\angle CAE\\)，\n∴\\(AH=CH\\)，\n∴\\(DH=EH\\)，\n设\\(DH=x\\)，则\\(CH=8-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，由勾股定理得\\(AH ^ { 2 } =AD ^ { 2 } +DH ^ { 2 }\\)\n∴\\(\\left ( { 8-x } \\right ) ^ { 2 } =x ^ { 2 } +4 ^ { 2 }\\)，\n解得：\\(x=3\\)，\n∴\\(DH=3\\)；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是矩形，逆时针旋转矩形\\(ABCD\\)得到矩形\\(AEFG\\)，",
+        "∴\\(\\angle D=\\angle AEC=90{}^\\circ\\)，\\(AE=AB=DC\\)，",
+        "在\\(\\vartriangle ACD\\)与\\(\\vartriangle CAE\\)中，",
+        "∵\\(\\begin{cases} CD=AE \\\\ AC=CA \\end{cases}\\)，",
+        "∴\\(\\vartriangle ACD≌\\vartriangle CAE\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)",
+        "∴\\(\\angle ACD=\\angle CAE\\)，",
+        "∴\\(AH=CH\\)，",
+        "∴\\(DH=EH\\)，",
+        "设\\(DH=x\\)，则\\(CH=8-x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，由勾股定理得\\(AH ^ { 2 } =AD ^ { 2 } +DH ^ { 2 }\\)",
+        "∴\\(\\left ( { 8-x } \\right ) ^ { 2 } =x ^ { 2 } +4 ^ { 2 }\\)，",
+        "解得：\\(x=3\\)，",
+        "∴\\(DH=3\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-E35EC8D7C9-Q22-P03",
+      "label": "（3）",
+      "prompt": "拓展应用\n如图③设点\\(P\\)为边\\(FG\\)的中点，连接\\(PB\\)，\\(PE\\)，在矩形\\(ABCD\\)旋转过程中，\\(\\vartriangle BEP\\)的面积存在最大值，请直接写出这个最大值为___________．",
+      "stem_text": "拓展应用\n如图③设点\\(P\\)为边\\(FG\\)的中点，连接\\(PB\\)，\\(PE\\)，在矩形\\(ABCD\\)旋转过程中，\\(\\vartriangle BEP\\)的面积存在最大值，请直接写出这个最大值为___________．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(16+16\\sqrt[] { 2 }\\)",
+      "answer": "\\(16+16\\sqrt[] { 2 }\\)",
+      "given_solution": "解：∵\\(P\\)为边\\(FG\\)的中点，\n∴\\(PF=\\frac { 1 } { 2 }FG=4\\)，\n∴\\(PE=\\sqrt[] { PF ^ { 2 } +EF ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n过A作\\(AM\\bot PE\\)于E，\n〔图2〕\n∵点B到\\(PE\\)的距离小于\\(BM\\le AB+AM\\)，\n∴当\\(A\\)，\\(M\\)，\\(B\\)三点共线时高最大，\\(\\vartriangle PBE\\)的面积最大如图所示，\n∵\\(S_{ \\vartriangle APE } =\\frac { 1 } { 2 }PE\\cdot AM=\\frac { 1 } { 2 }S_{ 矩形AGFE }\\)，\n∴\\(AM=\\frac { 4\\times 8 } { 4\\sqrt[] { 2 } }=4\\sqrt[] { 2 }\\)，\n∴\\(BM=AM+AB=8+4\\sqrt[] { 2 }\\)，\n∴\\(S_{ \\vartriangle BEP最大 } =\\frac { 1 } { 2 }MB\\cdot PE=\\frac { 1 } { 2 }\\times \\left ( { 8+4\\sqrt[] { 2 } } \\right )\\times 4\\sqrt[] { 2 }=16+16\\sqrt[] { 2 }\\)．",
+      "solution_steps": [
+        "解：∵\\(P\\)为边\\(FG\\)的中点，",
+        "∴\\(PF=\\frac { 1 } { 2 }FG=4\\)，",
+        "∴\\(PE=\\sqrt[] { PF ^ { 2 } +EF ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+        "过A作\\(AM\\bot PE\\)于E，",
+        "〔图2〕",
+        "∵点B到\\(PE\\)的距离小于\\(BM\\le AB+AM\\)，",
+        "∴当\\(A\\)，\\(M\\)，\\(B\\)三点共线时高最大，\\(\\vartriangle PBE\\)的面积最大如图所示，",
+        "∵\\(S_{ \\vartriangle APE } =\\frac { 1 } { 2 }PE\\cdot AM=\\frac { 1 } { 2 }S_{ 矩形AGFE }\\)，",
+        "∴\\(AM=\\frac { 4\\times 8 } { 4\\sqrt[] { 2 } }=4\\sqrt[] { 2 }\\)，",
+        "∴\\(BM=AM+AB=8+4\\sqrt[] { 2 }\\)，",
+        "∴\\(S_{ \\vartriangle BEP最大 } =\\frac { 1 } { 2 }MB\\cdot PE=\\frac { 1 } { 2 }\\times \\left ( { 8+4\\sqrt[] { 2 } } \\right )\\times 4\\sqrt[] { 2 }=16+16\\sqrt[] { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      65
+    ],
+    "solution_body_blocks": [
+      335,
+      382
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-E35EC8D7C9/paper-q22-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          385.91,
+          583.64,
+          760.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-E35EC8D7C9/solution-q22-p16.webp",
+      "assets/SZ-G8-T2-E35EC8D7C9/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-E35EC8D7C9/solution-q22-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          636.82,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          533.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,508 @@
+{
+  "id": "SZ-G8-T1-CDCDFFEA94-Q14",
+  "paper_id": "SZ-G8-T1-CDCDFFEA94",
+  "number": 14,
+  "type": "填空题",
+  "points": 3,
+  "title": "由勾股关系求直角三角形边长、选择充分条件证明三角形全等",
+  "stem": "如图，边长为1的正方形\\(ABCD\\)的对角线\\(AC\\)、\\(BD\\)相交于点\\(O\\)，有直角\\(\\angle MPN\\)，使直角顶点P与点O重合，直角边\\(PM\\)、\\(PN\\)分别与\\(OA\\)、\\(OB\\)重合，然后逆时针旋转\\(\\angle MPN\\)，旋转角为\\(\\theta \\left ( { 0{}^\\circ < \\theta < 90{}^\\circ } \\right )\\)，\\(PM\\)、\\(PN\\)分别交\\(AB\\)、\\(BC\\)于E、F两点，连接\\(EF\\)交\\(OB\\)于点G，则下列结论：（1）\\(EF=\\sqrt[] { 2 }OE\\)；（2）\\(S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)；（3）\\(BE+BF=\\sqrt[] { 2 }OA\\)；（4）在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 3 } { 4 }\\)；（5）\\(OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，其中正确的是_________．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-CDCDFFEA94/figures/fe95b599f0bfdf84b12213443c00ff1b1134d0f612583f4158cfd997d8356361.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）（2）（3）（5）",
+  "answer": "（1）（2）（3）（5）",
+  "given_solution": "【分析】（1）由四边形\\(ABCD\\)是正方形，直角\\(\\angle MPN\\)，易证得\\(\\vartriangle BOE≌\\vartriangle COF\\left ( { ASA } \\right )\\)，则可证得结论；\n（2）由（1）易证得\\(S_{ 四边形OEBF } =S_{ \\vartriangle BOC } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，则可证得结论；\n（3）由\\(BE=CF\\)，可得\\(BE+BF=BC\\)，然后由正方形的性质和勾股定理，证得\\(BE+BF=\\sqrt[] { 2 }OA\\)；\n（4）首先设\\(AE=x\\)，则\\(BE=CF=1-x\\)，\\(BF=x\\)，继而表示出\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和，然后利用二次函数的最值问题，求得答案；\n（5）易证得\\(\\vartriangle OEG\\backsim \\vartriangle OBE\\)，然后由相似三角形的对应边成比例，证得\\(OG\\cdot OB=OE ^ { 2 }\\)，再利用\\(OB\\)与\\(BD\\)的关系，\\(OE\\)与\\(EF\\)的关系，即可证得结论．\n【详解】解：（1）\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore OB=OC\\)，\\(\\angle OBE=\\angle OCF=45{}^\\circ\\)，\\(\\angle BOC=90{}^\\circ\\)，\n\\(\\therefore \\angle BOF+\\angle COF=90{}^\\circ\\)，\n\\(\\because \\angle EOF=90{}^\\circ\\)，\n\\(\\therefore \\angle BOF+\\angle BOE=90{}^\\circ\\)，\n\\(\\therefore \\angle BOE=\\angle COF\\)，\n在\\(\\vartriangle BOE\\)和\\(\\vartriangle COF\\)中，\n\\(\\begin{cases} \\angle BOE=\\angle COF \\\\ OB=OC \\\\ \\angle OBE=\\angle OCF \\end{cases}\\)，\n\\(\\therefore \\vartriangle BOE≌\\vartriangle COF\\left ( { ASA } \\right )\\)，\n\\(\\therefore OE=OF\\)，\\(BE=CF\\)，\n\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，故结论正确；\n（2）\\(\\because \\vartriangle BOE≌\\vartriangle COF\\)，\n\\(\\therefore S_{ \\vartriangle BOE } =S_{ \\vartriangle COF }\\)，\n\\(\\therefore S_{ 四边形OEBF } =S_{ \\vartriangle BOE } +S_{ \\vartriangle BOF } =S_{ \\vartriangle COF } +S_{ \\vartriangle BOF } =S_{ \\vartriangle BOC } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，\n\\(\\therefore S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)，故结论正确；\n（3）\\(\\because BE=CF\\)，\n\\(\\therefore BE+BF=CF+BF=BC\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle BOC=90{}^\\circ\\)，\\(OA=OB=OC\\)，\n\\(\\therefore BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 2 }OA\\)，\n\\(\\therefore BE+BF=\\sqrt[] { 2 }OA\\)，故结论正确；\n（4）如图，过点O作\\(OH\\bot BC\\)交\\(BC\\)于点\\(H\\)，\n〔图2〕\n\\(\\because BC=1\\)，\\(OB=OC\\)，\n\\(\\therefore OH=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\)，\n设\\(AE=x\\)，则\\(BE=CF=1-x\\)，\\(BF=x\\)，\n\\(\\therefore S_{ \\vartriangle BEF } +S_{ \\vartriangle COF } =\\frac { 1 } { 2 }BE\\cdot BF+\\frac { 1 } { 2 }CF\\cdot OH=\\frac { 1 } { 2 }x\\left ( { 1-x } \\right )+\\frac { 1 } { 2 }\\left ( { 1-x } \\right )\\times \\frac { 1 } { 2 }=-\\frac { 1 } { 2 }\\left ( { x-\\frac { 1 } { 4 } } \\right ) ^ { 2 } +\\frac { 9 } { 32 }\\)，\n\\(\\because a=-\\frac { 1 } { 2 } < 0\\)，\n\\(\\therefore\\)当\\(x=\\frac { 1 } { 4 }\\)时，\\(S_{ \\vartriangle BEF } +S_{ \\vartriangle COF }\\)最大；\n即在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 1 } { 4 }\\)，故结论错误；\n（5）\\(\\because \\vartriangle EOF\\)是等腰直角三角形，\n\\(\\therefore \\angle OEG=\\angle OBE=45{}^\\circ\\)，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，\n\\(\\therefore OE=\\frac { \\sqrt[] { 2 } } { 2 }EF\\)，\n\\(\\because \\angle EOG=\\angle BOE\\)，\\(\\angle OEG=\\angle OBE\\)，\n\\(\\therefore \\vartriangle OEG\\backsim \\vartriangle OBE\\)，\n\\(\\therefore \\frac { OE } { OB }=\\frac { OG } { OE }\\)，\n\\(\\therefore OG\\cdot OB=OE ^ { 2 }\\)，\n\\(\\because OB=\\frac { 1 } { 2 }BD\\)，\n\\(\\therefore OG\\cdot \\frac { 1 } { 2 }BD=\\left ( { \\frac { \\sqrt[] { 2 } } { 2 }EF } \\right ) ^ { 2 }\\)，\n\\(\\therefore OG\\cdot BD=EF ^ { 2 }\\)，\n在\\(Rt\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，\n\\(\\because BE=CF\\)，\\(AE=BF\\)，\n\\(\\therefore EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，\n\\(\\therefore OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，故结论正确．\n故答案为：（1）（2）（3）（5）．\n【点睛】本题考查了正方形的性质，旋转的性质，等腰直角三角形的判定和性质，勾股定理，全等三角形的判定和性质，相似三角形的判定和性质，二次函数的性质等知识．旋转前后的图象是全等的，综合几何问题经常作为一个隐含条件，解决问题的钥匙．几何中的最值问题，很多题要通过设未知量，建立函数关系，转化成二次函数最值问题，通过研究二次函数的最值，得到几何最值．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-CDCDFFEA94/figures/fe95b599f0bfdf84b12213443c00ff1b1134d0f612583f4158cfd997d8356361.png",
+    "assets/SZ-G8-T1-CDCDFFEA94/figures/1cbb2a7bede816d9b1fcd5367b2b93d86c397e231445baefc8e8c1fd773f2905.png"
+  ],
+  "solution": "解：（1）\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore OB=OC\\)，\\(\\angle OBE=\\angle OCF=45{}^\\circ\\)，\\(\\angle BOC=90{}^\\circ\\)，\n\\(\\therefore \\angle BOF+\\angle COF=90{}^\\circ\\)，\n\\(\\because \\angle EOF=90{}^\\circ\\)，\n\\(\\therefore \\angle BOF+\\angle BOE=90{}^\\circ\\)，\n\\(\\therefore \\angle BOE=\\angle COF\\)，\n在\\(\\vartriangle BOE\\)和\\(\\vartriangle COF\\)中，\n\\(\\begin{cases} \\angle BOE=\\angle COF \\\\ OB=OC \\\\ \\angle OBE=\\angle OCF \\end{cases}\\)，\n\\(\\therefore \\vartriangle BOE≌\\vartriangle COF\\left ( { ASA } \\right )\\)，\n\\(\\therefore OE=OF\\)，\\(BE=CF\\)，\n\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，故结论正确；\n（2）\\(\\because \\vartriangle BOE≌\\vartriangle COF\\)，\n\\(\\therefore S_{ \\vartriangle BOE } =S_{ \\vartriangle COF }\\)，\n\\(\\therefore S_{ 四边形OEBF } =S_{ \\vartriangle BOE } +S_{ \\vartriangle BOF } =S_{ \\vartriangle COF } +S_{ \\vartriangle BOF } =S_{ \\vartriangle BOC } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，\n\\(\\therefore S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)，故结论正确；\n（3）\\(\\because BE=CF\\)，\n\\(\\therefore BE+BF=CF+BF=BC\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle BOC=90{}^\\circ\\)，\\(OA=OB=OC\\)，\n\\(\\therefore BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 2 }OA\\)，\n\\(\\therefore BE+BF=\\sqrt[] { 2 }OA\\)，故结论正确；\n（4）如图，过点O作\\(OH\\bot BC\\)交\\(BC\\)于点\\(H\\)，\n〔图2〕\n\\(\\because BC=1\\)，\\(OB=OC\\)，\n\\(\\therefore OH=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\)，\n设\\(AE=x\\)，则\\(BE=CF=1-x\\)，\\(BF=x\\)，\n\\(\\therefore S_{ \\vartriangle BEF } +S_{ \\vartriangle COF } =\\frac { 1 } { 2 }BE\\cdot BF+\\frac { 1 } { 2 }CF\\cdot OH=\\frac { 1 } { 2 }x\\left ( { 1-x } \\right )+\\frac { 1 } { 2 }\\left ( { 1-x } \\right )\\times \\frac { 1 } { 2 }=-\\frac { 1 } { 2 }\\left ( { x-\\frac { 1 } { 4 } } \\right ) ^ { 2 } +\\frac { 9 } { 32 }\\)，\n\\(\\because a=-\\frac { 1 } { 2 } < 0\\)，\n\\(\\therefore\\)当\\(x=\\frac { 1 } { 4 }\\)时，\\(S_{ \\vartriangle BEF } +S_{ \\vartriangle COF }\\)最大；\n即在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 1 } { 4 }\\)，故结论错误；\n（5）\\(\\because \\vartriangle EOF\\)是等腰直角三角形，\n\\(\\therefore \\angle OEG=\\angle OBE=45{}^\\circ\\)，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，\n\\(\\therefore OE=\\frac { \\sqrt[] { 2 } } { 2 }EF\\)，\n\\(\\because \\angle EOG=\\angle BOE\\)，\\(\\angle OEG=\\angle OBE\\)，\n\\(\\therefore \\vartriangle OEG\\backsim \\vartriangle OBE\\)，\n\\(\\therefore \\frac { OE } { OB }=\\frac { OG } { OE }\\)，\n\\(\\therefore OG\\cdot OB=OE ^ { 2 }\\)，\n\\(\\because OB=\\frac { 1 } { 2 }BD\\)，\n\\(\\therefore OG\\cdot \\frac { 1 } { 2 }BD=\\left ( { \\frac { \\sqrt[] { 2 } } { 2 }EF } \\right ) ^ { 2 }\\)，\n\\(\\therefore OG\\cdot BD=EF ^ { 2 }\\)，\n在\\(Rt\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，\n\\(\\because BE=CF\\)，\\(AE=BF\\)，\n\\(\\therefore EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，\n\\(\\therefore OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，故结论正确．\n故答案为：（1）（2）（3）（5）．",
+  "solution_steps": [
+    "解：（1）\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore OB=OC\\)，\\(\\angle OBE=\\angle OCF=45{}^\\circ\\)，\\(\\angle BOC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BOF+\\angle COF=90{}^\\circ\\)，",
+    "\\(\\because \\angle EOF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BOF+\\angle BOE=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BOE=\\angle COF\\)，",
+    "在\\(\\vartriangle BOE\\)和\\(\\vartriangle COF\\)中，",
+    "\\(\\begin{cases} \\angle BOE=\\angle COF \\\\ OB=OC \\\\ \\angle OBE=\\angle OCF \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BOE≌\\vartriangle COF\\left ( { ASA } \\right )\\)，",
+    "\\(\\therefore OE=OF\\)，\\(BE=CF\\)，",
+    "\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，故结论正确；",
+    "（2）\\(\\because \\vartriangle BOE≌\\vartriangle COF\\)，",
+    "\\(\\therefore S_{ \\vartriangle BOE } =S_{ \\vartriangle COF }\\)，",
+    "\\(\\therefore S_{ 四边形OEBF } =S_{ \\vartriangle BOE } +S_{ \\vartriangle BOF } =S_{ \\vartriangle COF } +S_{ \\vartriangle BOF } =S_{ \\vartriangle BOC } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，",
+    "\\(\\therefore S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)，故结论正确；",
+    "（3）\\(\\because BE=CF\\)，",
+    "\\(\\therefore BE+BF=CF+BF=BC\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore \\angle BOC=90{}^\\circ\\)，\\(OA=OB=OC\\)，",
+    "\\(\\therefore BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 2 }OA\\)，",
+    "\\(\\therefore BE+BF=\\sqrt[] { 2 }OA\\)，故结论正确；",
+    "（4）如图，过点O作\\(OH\\bot BC\\)交\\(BC\\)于点\\(H\\)，",
+    "〔图2〕",
+    "\\(\\because BC=1\\)，\\(OB=OC\\)，",
+    "\\(\\therefore OH=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\)，",
+    "设\\(AE=x\\)，则\\(BE=CF=1-x\\)，\\(BF=x\\)，",
+    "\\(\\therefore S_{ \\vartriangle BEF } +S_{ \\vartriangle COF } =\\frac { 1 } { 2 }BE\\cdot BF+\\frac { 1 } { 2 }CF\\cdot OH=\\frac { 1 } { 2 }x\\left ( { 1-x } \\right )+\\frac { 1 } { 2 }\\left ( { 1-x } \\right )\\times \\frac { 1 } { 2 }=-\\frac { 1 } { 2 }\\left ( { x-\\frac { 1 } { 4 } } \\right ) ^ { 2 } +\\frac { 9 } { 32 }\\)，",
+    "\\(\\because a=-\\frac { 1 } { 2 } < 0\\)，",
+    "\\(\\therefore\\)当\\(x=\\frac { 1 } { 4 }\\)时，\\(S_{ \\vartriangle BEF } +S_{ \\vartriangle COF }\\)最大；",
+    "即在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 1 } { 4 }\\)，故结论错误；",
+    "（5）\\(\\because \\vartriangle EOF\\)是等腰直角三角形，",
+    "\\(\\therefore \\angle OEG=\\angle OBE=45{}^\\circ\\)，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，",
+    "\\(\\therefore OE=\\frac { \\sqrt[] { 2 } } { 2 }EF\\)，",
+    "\\(\\because \\angle EOG=\\angle BOE\\)，\\(\\angle OEG=\\angle OBE\\)，",
+    "\\(\\therefore \\vartriangle OEG\\backsim \\vartriangle OBE\\)，",
+    "\\(\\therefore \\frac { OE } { OB }=\\frac { OG } { OE }\\)，",
+    "\\(\\therefore OG\\cdot OB=OE ^ { 2 }\\)，",
+    "\\(\\because OB=\\frac { 1 } { 2 }BD\\)，",
+    "\\(\\therefore OG\\cdot \\frac { 1 } { 2 }BD=\\left ( { \\frac { \\sqrt[] { 2 } } { 2 }EF } \\right ) ^ { 2 }\\)，",
+    "\\(\\therefore OG\\cdot BD=EF ^ { 2 }\\)，",
+    "在\\(Rt\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，",
+    "\\(\\because BE=CF\\)，\\(AE=BF\\)，",
+    "\\(\\therefore EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，",
+    "\\(\\therefore OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，故结论正确．",
+    "故答案为：（1）（2）（3）（5）．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，边长为1的正方形\\(ABCD\\)的对角线\\(AC\\)、\\(BD\\)相交于点\\(O\\)，有直角\\(\\angle MPN\\)，使直角顶点P与点O重合，直角边\\(PM\\)、\\(PN\\)分别与\\(OA\\)、\\(OB\\)重合，然后逆时针旋转\\(\\angle MPN\\)，旋转角为\\(\\theta \\left ( { 0{}^\\circ < \\theta < 90{}^\\circ } \\right )\\)，\\(PM\\)、\\(PN\\)分别交\\(AB\\)、\\(BC\\)于E、F两点，连接\\(EF\\)交\\(OB\\)于点G，则下列结论：",
+      "paper_blocks": [
+        32
+      ]
+    },
+    {
+      "id": "fig-33",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        33
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-CDCDFFEA94-Q14-P01",
+      "label": "（1）",
+      "prompt": "\\(EF=\\sqrt[] { 2 }OE\\)；",
+      "stem_text": "\\(EF=\\sqrt[] { 2 }OE\\)；",
+      "material_ids": [
+        "context",
+        "fig-33"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，故结论正确；",
+      "given_solution": "\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore OB=OC\\)，\\(\\angle OBE=\\angle OCF=45{}^\\circ\\)，\\(\\angle BOC=90{}^\\circ\\)，\n\\(\\therefore \\angle BOF+\\angle COF=90{}^\\circ\\)，\n\\(\\because \\angle EOF=90{}^\\circ\\)，\n\\(\\therefore \\angle BOF+\\angle BOE=90{}^\\circ\\)，\n\\(\\therefore \\angle BOE=\\angle COF\\)，\n在\\(\\vartriangle BOE\\)和\\(\\vartriangle COF\\)中，\n\\(\\begin{cases} \\angle BOE=\\angle COF \\\\ OB=OC \\\\ \\angle OBE=\\angle OCF \\end{cases}\\)，\n\\(\\therefore \\vartriangle BOE≌\\vartriangle COF\\left ( { ASA } \\right )\\)，\n\\(\\therefore OE=OF\\)，\\(BE=CF\\)，\n\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，故结论正确；",
+      "solution_steps": [
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore OB=OC\\)，\\(\\angle OBE=\\angle OCF=45{}^\\circ\\)，\\(\\angle BOC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BOF+\\angle COF=90{}^\\circ\\)，",
+        "\\(\\because \\angle EOF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BOF+\\angle BOE=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BOE=\\angle COF\\)，",
+        "在\\(\\vartriangle BOE\\)和\\(\\vartriangle COF\\)中，",
+        "\\(\\begin{cases} \\angle BOE=\\angle COF \\\\ OB=OC \\\\ \\angle OBE=\\angle OCF \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle BOE≌\\vartriangle COF\\left ( { ASA } \\right )\\)，",
+        "\\(\\therefore OE=OF\\)，\\(BE=CF\\)，",
+        "\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，故结论正确；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          32,
+          33
+        ],
+        "solution_block_ids": [
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          8
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-CDCDFFEA94-Q14-P02",
+      "label": "（2）",
+      "prompt": "\\(S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)；",
+      "stem_text": "\\(S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)；",
+      "material_ids": [
+        "context",
+        "fig-33"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)，故结论正确；",
+      "given_solution": "\\(\\because \\vartriangle BOE≌\\vartriangle COF\\)，\n\\(\\therefore S_{ \\vartriangle BOE } =S_{ \\vartriangle COF }\\)，\n\\(\\therefore S_{ 四边形OEBF } =S_{ \\vartriangle BOE } +S_{ \\vartriangle BOF } =S_{ \\vartriangle COF } +S_{ \\vartriangle BOF } =S_{ \\vartriangle BOC } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，\n\\(\\therefore S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)，故结论正确；",
+      "solution_steps": [
+        "\\(\\because \\vartriangle BOE≌\\vartriangle COF\\)，",
+        "\\(\\therefore S_{ \\vartriangle BOE } =S_{ \\vartriangle COF }\\)，",
+        "\\(\\therefore S_{ 四边形OEBF } =S_{ \\vartriangle BOE } +S_{ \\vartriangle BOF } =S_{ \\vartriangle COF } +S_{ \\vartriangle BOF } =S_{ \\vartriangle BOC } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，",
+        "\\(\\therefore S_{ 四边形OEBF } :S_{ 正方形ABCD } =1:4\\)，故结论正确；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          32,
+          33
+        ],
+        "solution_block_ids": [
+          159,
+          160,
+          161,
+          162
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          8
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-CDCDFFEA94-Q14-P03",
+      "label": "（3）",
+      "prompt": "\\(BE+BF=\\sqrt[] { 2 }OA\\)；",
+      "stem_text": "\\(BE+BF=\\sqrt[] { 2 }OA\\)；",
+      "material_ids": [
+        "context",
+        "fig-33"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore BE+BF=\\sqrt[] { 2 }OA\\)，故结论正确；",
+      "given_solution": "\\(\\because BE=CF\\)，\n\\(\\therefore BE+BF=CF+BF=BC\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle BOC=90{}^\\circ\\)，\\(OA=OB=OC\\)，\n\\(\\therefore BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 2 }OA\\)，\n\\(\\therefore BE+BF=\\sqrt[] { 2 }OA\\)，故结论正确；",
+      "solution_steps": [
+        "\\(\\because BE=CF\\)，",
+        "\\(\\therefore BE+BF=CF+BF=BC\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore \\angle BOC=90{}^\\circ\\)，\\(OA=OB=OC\\)，",
+        "\\(\\therefore BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 2 }OA\\)，",
+        "\\(\\therefore BE+BF=\\sqrt[] { 2 }OA\\)，故结论正确；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          32,
+          33
+        ],
+        "solution_block_ids": [
+          163,
+          164,
+          165,
+          166,
+          167,
+          168
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          8
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-CDCDFFEA94-Q14-P04",
+      "label": "（4）",
+      "prompt": "在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 3 } { 4 }\\)；",
+      "stem_text": "在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 3 } { 4 }\\)；",
+      "material_ids": [
+        "context",
+        "fig-33"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "即在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 1 } { 4 }\\)，故结论错误；",
+      "given_solution": "如图，过点O作\\(OH\\bot BC\\)交\\(BC\\)于点\\(H\\)，\n〔图2〕\n\\(\\because BC=1\\)，\\(OB=OC\\)，\n\\(\\therefore OH=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\)，\n设\\(AE=x\\)，则\\(BE=CF=1-x\\)，\\(BF=x\\)，\n\\(\\therefore S_{ \\vartriangle BEF } +S_{ \\vartriangle COF } =\\frac { 1 } { 2 }BE\\cdot BF+\\frac { 1 } { 2 }CF\\cdot OH=\\frac { 1 } { 2 }x\\left ( { 1-x } \\right )+\\frac { 1 } { 2 }\\left ( { 1-x } \\right )\\times \\frac { 1 } { 2 }=-\\frac { 1 } { 2 }\\left ( { x-\\frac { 1 } { 4 } } \\right ) ^ { 2 } +\\frac { 9 } { 32 }\\)，\n\\(\\because a=-\\frac { 1 } { 2 } < 0\\)，\n\\(\\therefore\\)当\\(x=\\frac { 1 } { 4 }\\)时，\\(S_{ \\vartriangle BEF } +S_{ \\vartriangle COF }\\)最大；\n即在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 1 } { 4 }\\)，故结论错误；",
+      "solution_steps": [
+        "如图，过点O作\\(OH\\bot BC\\)交\\(BC\\)于点\\(H\\)，",
+        "〔图2〕",
+        "\\(\\because BC=1\\)，\\(OB=OC\\)，",
+        "\\(\\therefore OH=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\)，",
+        "设\\(AE=x\\)，则\\(BE=CF=1-x\\)，\\(BF=x\\)，",
+        "\\(\\therefore S_{ \\vartriangle BEF } +S_{ \\vartriangle COF } =\\frac { 1 } { 2 }BE\\cdot BF+\\frac { 1 } { 2 }CF\\cdot OH=\\frac { 1 } { 2 }x\\left ( { 1-x } \\right )+\\frac { 1 } { 2 }\\left ( { 1-x } \\right )\\times \\frac { 1 } { 2 }=-\\frac { 1 } { 2 }\\left ( { x-\\frac { 1 } { 4 } } \\right ) ^ { 2 } +\\frac { 9 } { 32 }\\)，",
+        "\\(\\because a=-\\frac { 1 } { 2 } < 0\\)，",
+        "\\(\\therefore\\)当\\(x=\\frac { 1 } { 4 }\\)时，\\(S_{ \\vartriangle BEF } +S_{ \\vartriangle COF }\\)最大；",
+        "即在旋转过程中，当\\(\\vartriangle BEF\\)与\\(\\vartriangle COF\\)的面积之和最大时，\\(AE=\\frac { 1 } { 4 }\\)，故结论错误；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          32,
+          33
+        ],
+        "solution_block_ids": [
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          8,
+          9
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“旋转角”。利用旋转前后的对应关系求角。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-CDCDFFEA94-Q14-P05",
+      "label": "（5）",
+      "prompt": "\\(OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，其中正确的是_________．",
+      "stem_text": "\\(OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，其中正确的是_________．",
+      "material_ids": [
+        "context",
+        "fig-33"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "故答案为：（1）（2）（3）（5）．",
+      "given_solution": "\\(\\because \\vartriangle EOF\\)是等腰直角三角形，\n\\(\\therefore \\angle OEG=\\angle OBE=45{}^\\circ\\)，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，\n\\(\\therefore OE=\\frac { \\sqrt[] { 2 } } { 2 }EF\\)，\n\\(\\because \\angle EOG=\\angle BOE\\)，\\(\\angle OEG=\\angle OBE\\)，\n\\(\\therefore \\vartriangle OEG\\backsim \\vartriangle OBE\\)，\n\\(\\therefore \\frac { OE } { OB }=\\frac { OG } { OE }\\)，\n\\(\\therefore OG\\cdot OB=OE ^ { 2 }\\)，\n\\(\\because OB=\\frac { 1 } { 2 }BD\\)，\n\\(\\therefore OG\\cdot \\frac { 1 } { 2 }BD=\\left ( { \\frac { \\sqrt[] { 2 } } { 2 }EF } \\right ) ^ { 2 }\\)，\n\\(\\therefore OG\\cdot BD=EF ^ { 2 }\\)，\n在\\(Rt\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，\n\\(\\because BE=CF\\)，\\(AE=BF\\)，\n\\(\\therefore EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，\n\\(\\therefore OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，故结论正确．\n故答案为：（1）（2）（3）（5）．",
+      "solution_steps": [
+        "\\(\\because \\vartriangle EOF\\)是等腰直角三角形，",
+        "\\(\\therefore \\angle OEG=\\angle OBE=45{}^\\circ\\)，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { 2 }OE\\)，",
+        "\\(\\therefore OE=\\frac { \\sqrt[] { 2 } } { 2 }EF\\)，",
+        "\\(\\because \\angle EOG=\\angle BOE\\)，\\(\\angle OEG=\\angle OBE\\)，",
+        "\\(\\therefore \\vartriangle OEG\\backsim \\vartriangle OBE\\)，",
+        "\\(\\therefore \\frac { OE } { OB }=\\frac { OG } { OE }\\)，",
+        "\\(\\therefore OG\\cdot OB=OE ^ { 2 }\\)，",
+        "\\(\\because OB=\\frac { 1 } { 2 }BD\\)，",
+        "\\(\\therefore OG\\cdot \\frac { 1 } { 2 }BD=\\left ( { \\frac { \\sqrt[] { 2 } } { 2 }EF } \\right ) ^ { 2 }\\)，",
+        "\\(\\therefore OG\\cdot BD=EF ^ { 2 }\\)，",
+        "在\\(Rt\\vartriangle BEF\\)中，\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，",
+        "\\(\\because BE=CF\\)，\\(AE=BF\\)，",
+        "\\(\\therefore EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，",
+        "\\(\\therefore OG\\cdot BD=AE ^ { 2 } +CF ^ { 2 }\\)，故结论正确．",
+        "故答案为：（1）（2）（3）（5）．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          32,
+          33
+        ],
+        "solution_block_ids": [
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          9,
+          10
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      32,
+      33
+    ],
+    "solution_body_blocks": [
+      139,
+      193
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-CDCDFFEA94/paper-q14-p02.webp",
+      "assets/SZ-G8-T1-CDCDFFEA94/paper-q14-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          619.55,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          57.27,
+          583.64,
+          186.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-CDCDFFEA94/solution-q14-p07.webp",
+      "assets/SZ-G8-T1-CDCDFFEA94/solution-q14-p08.webp",
+      "assets/SZ-G8-T1-CDCDFFEA94/solution-q14-p09.webp",
+      "assets/SZ-G8-T1-CDCDFFEA94/solution-q14-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          596.36,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          220.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G03.02",
+    "M.G03.01",
+    "M.G07.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 公共材料含“旋转角”。利用旋转前后的对应关系求角。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

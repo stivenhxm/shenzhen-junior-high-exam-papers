@@ -1,0 +1,331 @@
+{
+  "id": "SZ-G8-T2-2086D61EDB-Q21",
+  "paper_id": "SZ-G8-T2-2086D61EDB",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图1，点C、D是线段AB同侧两点，且AC＝BD，∠CAB＝∠DBA，连接BC，AD交于点 E．\n（1）求证：AE＝BE；\n（2）如图2，△ABF与△ABD关于直线AB对称，连接EF．\n①判断四边形ACBF的形状，并说明理由；\n②若∠DAB＝30°，AE＝5，DE＝3，求线段EF的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/08/08d828ad8526a05f203e3dccd3f303dff71c1d0dfbf1c1381cd6376888347a6c.png"
+  ],
+  "tables": [],
+  "given_answer": "(1)证明见解析；（2）①四边形ACBF为平行四边形，理由见解析；②EF=7.",
+  "answer": "(1)证明见解析；（2）①四边形ACBF为平行四边形，理由见解析；②EF=7.",
+  "given_solution": "【分析】（1）利用SAS证△ABC≌△BAD可得．\n（2）①根据题意知：AC=BD=BF，并由内错角相等可得AC∥BF，所以由一组对边平行且相等的四边形是平行四边形，可得结论；\n②如图2，作辅助线，证明△ADF是等边三角形，得AD=AE+DE=3+5=8，根据等腰三角形三线合一得AM=DM=4，最后利用勾股定理可得FM和EF的长．\n【详解】（1）证明：在△ABC和△BAD中，\n∵\\(\\begin{cases} AC＝BD \\\\ \\angle CAB＝\\angle DBA \\\\ AB＝BA \\end{cases}\\)，\n∴△ABC≌△BAD（SAS），\n∴∠CBA=∠DAB，\n∴AE=BE；\n（2）解：①四边形ACBF为平行四边形；\n理由是：由对称得：△DAB≌△FAB，\n∴∠ABD=∠ABF=∠CAB，BD=BF，\n∴AC∥BF，\n∵AC=BD=BF，\n∴四边形ACBF为平行四边形；\n②如图2，过F作FM⊥AD于，连接DF，\n〔图2〕\n∵△DAB≌△FAB，\n∴∠FAB=∠DAB=30°，AD=AF，\n∴△ADF是等边三角形，\n∴AD=AE+DE=3+5=8，\n∵FM⊥AD，\n∴AM=DM=4，\n∵DE=3，\n∴ME=1，\nRt△AFM中，由勾股定理得：FM=\\(\\sqrt[] { AF ^ { 2 } -AM ^ { 2 } }\\)=\\(\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }\\)=4\\(\\sqrt[] { 3 }\\)，\n∴EF=\\(\\sqrt[] { 1 ^ { 2 } +(4\\sqrt[] { 3 }) ^ { 2 } }\\)=7．\n【点睛】本题是三角形的综合题，考查了全等三角形的判定的性质、等边三角形的性质和判定，勾股定理，本题中最后一问，有难度，恰当地作辅助线是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/8d/8d2c5c8f1e6f61f3975be98d333573a9b5e630e6be239d83fcde22a5f4a2b48c.png",
+    "assets/figures/5d/5d2e649c044ee90963685c7b7e01c40a167a8c06c6aea3d3cd77c00de530c1f0.png"
+  ],
+  "solution": "（1）证明：在△ABC和△BAD中，\n∵\\(\\begin{cases} AC＝BD \\\\ \\angle CAB＝\\angle DBA \\\\ AB＝BA \\end{cases}\\)，\n∴△ABC≌△BAD（SAS），\n∴∠CBA=∠DAB，\n∴AE=BE；\n（2）解：①四边形ACBF为平行四边形；\n理由是：由对称得：△DAB≌△FAB，\n∴∠ABD=∠ABF=∠CAB，BD=BF，\n∴AC∥BF，\n∵AC=BD=BF，\n∴四边形ACBF为平行四边形；\n②如图2，过F作FM⊥AD于，连接DF，\n〔图2〕\n∵△DAB≌△FAB，\n∴∠FAB=∠DAB=30°，AD=AF，\n∴△ADF是等边三角形，\n∴AD=AE+DE=3+5=8，\n∵FM⊥AD，\n∴AM=DM=4，\n∵DE=3，\n∴ME=1，\nRt△AFM中，由勾股定理得：FM=\\(\\sqrt[] { AF ^ { 2 } -AM ^ { 2 } }\\)=\\(\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }\\)=4\\(\\sqrt[] { 3 }\\)，\n∴EF=\\(\\sqrt[] { 1 ^ { 2 } +(4\\sqrt[] { 3 }) ^ { 2 } }\\)=7．",
+  "solution_steps": [
+    "（1）证明：在△ABC和△BAD中，",
+    "∵\\(\\begin{cases} AC＝BD \\\\ \\angle CAB＝\\angle DBA \\\\ AB＝BA \\end{cases}\\)，",
+    "∴△ABC≌△BAD（SAS），",
+    "∴∠CBA=∠DAB，",
+    "∴AE=BE；",
+    "（2）解：①四边形ACBF为平行四边形；",
+    "理由是：由对称得：△DAB≌△FAB，",
+    "∴∠ABD=∠ABF=∠CAB，BD=BF，",
+    "∴AC∥BF，",
+    "∵AC=BD=BF，",
+    "∴四边形ACBF为平行四边形；",
+    "②如图2，过F作FM⊥AD于，连接DF，",
+    "〔图2〕",
+    "∵△DAB≌△FAB，",
+    "∴∠FAB=∠DAB=30°，AD=AF，",
+    "∴△ADF是等边三角形，",
+    "∴AD=AE+DE=3+5=8，",
+    "∵FM⊥AD，",
+    "∴AM=DM=4，",
+    "∵DE=3，",
+    "∴ME=1，",
+    "Rt△AFM中，由勾股定理得：FM=\\(\\sqrt[] { AF ^ { 2 } -AM ^ { 2 } }\\)=\\(\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }\\)=4\\(\\sqrt[] { 3 }\\)，",
+    "∴EF=\\(\\sqrt[] { 1 ^ { 2 } +(4\\sqrt[] { 3 }) ^ { 2 } }\\)=7．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，点C、D是线段AB同侧两点，且AC＝BD，∠CAB＝∠DBA，连接BC，AD交于点 E．",
+      "paper_blocks": [
+        52
+      ]
+    },
+    {
+      "id": "fig-57",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        57
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图2，△ABF与△ABD关于直线AB对称，连接EF．",
+      "paper_blocks": [
+        54
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-2086D61EDB-Q21-P01",
+      "label": "（1）",
+      "prompt": "求证：AE＝BE；",
+      "stem_text": "求证：AE＝BE；",
+      "material_ids": [
+        "context",
+        "fig-57"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "证明：在△ABC和△BAD中，\n∵\\(\\begin{cases} AC＝BD \\\\ \\angle CAB＝\\angle DBA \\\\ AB＝BA \\end{cases}\\)，\n∴△ABC≌△BAD（SAS），\n∴∠CBA=∠DAB，\n∴AE=BE；",
+      "solution_steps": [
+        "证明：在△ABC和△BAD中，",
+        "∵\\(\\begin{cases} AC＝BD \\\\ \\angle CAB＝\\angle DBA \\\\ AB＝BA \\end{cases}\\)，",
+        "∴△ABC≌△BAD（SAS），",
+        "∴∠CBA=∠DAB，",
+        "∴AE=BE；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          57
+        ],
+        "solution_block_ids": [
+          252,
+          253,
+          254,
+          255,
+          256
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2086D61EDB-Q21-P02",
+      "label": "（2）①",
+      "prompt": "判断四边形ACBF的形状，并说明理由；",
+      "stem_text": "判断四边形ACBF的形状，并说明理由；",
+      "material_ids": [
+        "context",
+        "fig-57",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "四边形ACBF为平行四边形，理由见解析；",
+      "answer": "四边形ACBF为平行四边形，理由见解析；",
+      "given_solution": "四边形ACBF为平行四边形；\n理由是：由对称得：△DAB≌△FAB，\n∴∠ABD=∠ABF=∠CAB，BD=BF，\n∴AC∥BF，\n∵AC=BD=BF，\n∴四边形ACBF为平行四边形；",
+      "solution_steps": [
+        "四边形ACBF为平行四边形；",
+        "理由是：由对称得：△DAB≌△FAB，",
+        "∴∠ABD=∠ABF=∠CAB，BD=BF，",
+        "∴AC∥BF，",
+        "∵AC=BD=BF，",
+        "∴四边形ACBF为平行四边形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          54,
+          55,
+          57
+        ],
+        "solution_block_ids": [
+          257,
+          258,
+          259,
+          260,
+          261,
+          262
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2086D61EDB-Q21-P03",
+      "label": "（2）②",
+      "prompt": "若∠DAB＝30°，AE＝5，DE＝3，求线段EF的长．",
+      "stem_text": "若∠DAB＝30°，AE＝5，DE＝3，求线段EF的长．",
+      "material_ids": [
+        "context",
+        "fig-57",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "EF=7.",
+      "answer": "EF=7.",
+      "given_solution": "如图2，过F作FM⊥AD于，连接DF，\n〔图2〕\n∵△DAB≌△FAB，\n∴∠FAB=∠DAB=30°，AD=AF，\n∴△ADF是等边三角形，\n∴AD=AE+DE=3+5=8，\n∵FM⊥AD，\n∴AM=DM=4，\n∵DE=3，\n∴ME=1，\nRt△AFM中，由勾股定理得：FM=\\(\\sqrt[] { AF ^ { 2 } -AM ^ { 2 } }\\)=\\(\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }\\)=4\\(\\sqrt[] { 3 }\\)，\n∴EF=\\(\\sqrt[] { 1 ^ { 2 } +(4\\sqrt[] { 3 }) ^ { 2 } }\\)=7．",
+      "solution_steps": [
+        "如图2，过F作FM⊥AD于，连接DF，",
+        "〔图2〕",
+        "∵△DAB≌△FAB，",
+        "∴∠FAB=∠DAB=30°，AD=AF，",
+        "∴△ADF是等边三角形，",
+        "∴AD=AE+DE=3+5=8，",
+        "∵FM⊥AD，",
+        "∴AM=DM=4，",
+        "∵DE=3，",
+        "∴ME=1，",
+        "Rt△AFM中，由勾股定理得：FM=\\(\\sqrt[] { AF ^ { 2 } -AM ^ { 2 } }\\)=\\(\\sqrt[] { 8 ^ { 2 } -4 ^ { 2 } }\\)=4\\(\\sqrt[] { 3 }\\)，",
+        "∴EF=\\(\\sqrt[] { 1 ^ { 2 } +(4\\sqrt[] { 3 }) ^ { 2 } }\\)=7．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          52,
+          54,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      52,
+      57
+    ],
+    "solution_body_blocks": [
+      241,
+      275
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2086D61EDB/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          370.0,
+          583.64,
+          572.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2086D61EDB/solution-q21-p15.webp",
+      "assets/SZ-G8-T2-2086D61EDB/solution-q21-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          237.27,
+          583.64,
+          712.27
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          431.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q05",{"answer":"C","solution_steps":["方程①已经将 \\(x\\) 写为 \\(2y\\)。将①直接代入②，得到 \\(4y-y=5\\)，一步消去 \\(x\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

@@ -1,0 +1,386 @@
+{
+  "id": "SZ-G8-T1-7A37B188ED-Q20",
+  "paper_id": "SZ-G8-T1-7A37B188ED",
+  "number": 20,
+  "type": "解答题",
+  "points": 12.0,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "（12分）如图１，在△ABC和△ADE中，∠DAE=∠BAC，AD=AE，AB=AC．\n〔图1〕\n（1）求证：△ABD≌△ACE；\n（2）如图2，在△ABC和△ADE中，∠DAE=∠BAC，AD=AE，AB=AC，∠ADB=90°，点E在△ABC内，延长DE交BC于点F，求证：点F是BC中点；\n（3）△ABC为等腰三角形，∠BAC=120°，AB=AC，点P为△ABC所在平面内一点，∠APB=120°，AP=2，BP=4，请直接写出 CP的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-7A37B188ED/figures/fe8f10fb69d496f2215fb7e6f09f84de3fef7cb75e75c6011c12505109f70267.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（12分）如图１，在△ABC和△ADE中，∠DAE=∠BAC，AD=AE，AB=AC．\n〔图1〕",
+      "paper_blocks": [
+        96,
+        97
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-7A37B188ED-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：△ABD≌△ACE；",
+      "stem_text": "求证：△ABD≌△ACE；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴△ABD≌△ACE",
+      "given_solution": "证明：∵∠DAE=∠BAC\n∴∠DAB=∠EAC（1分）\n∵AD=AE，AB=AC\n∴△ABD≌△ACE（2分）",
+      "solution_steps": [
+        "证明：∵∠DAE=∠BAC",
+        "∴∠DAB=∠EAC（1分）",
+        "∵AD=AE，AB=AC",
+        "∴△ABD≌△ACE（2分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          96,
+          97,
+          98
+        ],
+        "solution_block_ids": [
+          230,
+          231,
+          232,
+          233
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-7A37B188ED-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，在△ABC和△ADE中，∠DAE=∠BAC，AD=AE，AB=AC，∠ADB=90°，点E在△ABC内，延长DE交BC于点F，求证：点F是BC中点；",
+      "stem_text": "如图2，在△ABC和△ADE中，∠DAE=∠BAC，AD=AE，AB=AC，∠ADB=90°，点E在△ABC内，延长DE交BC于点F，求证：点F是BC中点；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴点F是BC的中点",
+      "given_solution": "证明：连接CE，延长EF至点H，取CF=CH，连接CH，如图所示：\n〔图1〕\n∵△ADB≌△AEC\n∴BD=EC，∠ADB=∠AEC=90°\n∵AD=AE\n∴∠ADE=∠AED（3分）\n∵∠ADE+∠EDB=∠AED+∠CEH=90°\n∴∠EDB=∠CEH\n∵CF=CH\n∴∠CFH=∠CHF\n∴∠DFB=∠H（4分）\n∵CE=BD\n∴△DBF≌△ECH（5分）\n∴BF=CH\n∴BF=CF\n∴点F是BC的中点（6分）",
+      "solution_steps": [
+        "证明：连接CE，延长EF至点H，取CF=CH，连接CH，如图所示：",
+        "〔图1〕",
+        "∵△ADB≌△AEC",
+        "∴BD=EC，∠ADB=∠AEC=90°",
+        "∵AD=AE",
+        "∴∠ADE=∠AED（3分）",
+        "∵∠ADE+∠EDB=∠AED+∠CEH=90°",
+        "∴∠EDB=∠CEH",
+        "∵CF=CH",
+        "∴∠CFH=∠CHF",
+        "∴∠DFB=∠H（4分）",
+        "∵CE=BD",
+        "∴△DBF≌△ECH（5分）",
+        "∴BF=CH",
+        "∴BF=CF",
+        "∴点F是BC的中点（6分）"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          96,
+          97,
+          99
+        ],
+        "solution_block_ids": [
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-7A37B188ED-Q20-P03",
+      "label": "（3）",
+      "prompt": "△ABC为等腰三角形，∠BAC=120°，AB=AC，点P为△ABC所在平面内一点，∠APB=120°，AP=2，BP=4，请直接写出 CP的长．",
+      "stem_text": "△ABC为等腰三角形，∠BAC=120°，AB=AC，点P为△ABC所在平面内一点，∠APB=120°，AP=2，BP=4，请直接写出 CP的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)",
+      "given_solution": "当点P在△ABC内部，如图所示，将△ABP逆时针旋转120°，得到\\(\\Delta ACP'\\)，连接\\(PP'\\)和PC\n〔图2〕\n∵将△ABP旋转120°得到\\(\\Delta ACP'\\)\n∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4\n∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（7分）\n∵∠\\(AP'C\\)=120°，∠\\(AP'P\\)=30°，\n∴∠\\(PP'C\\)=90°，\n∴PC=\\(\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 7 }\\)．（8分）\n当点P在△ABC外部，如图所示，\n〔图3〕\n将△APB绕点A逆时针旋转120\\({}^\\circ\\)到△\\(AP'C\\)，过点P作PD⊥\\(CP'\\)于点D，连接PD，\n∵将△ABP旋转120°得到\\(\\Delta ACP'\\)\n∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4，\n∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（9分）\n∵∠\\(AP'C\\)=120°,∠\\(AP'P\\)=30°，\n∴∠\\(PP'C\\)=150°，\n∴∠\\(PP'D\\)=30°，（10分）\n在Rt\\(PDP'\\)中，\\(PD=\\frac { 1 } { 2 }PP'=\\sqrt[] { 3 }\\)，\n\\(\\therefore DP'=\\sqrt[] { P{P'}^{2} -PD ^ { 2 } }=3\\)，\n\\(\\therefore DC=DP'+P'C=3+4=7\\)，（11分）\n\\(\\therefore PC=\\sqrt[] { PD ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +7 ^ { 2 } }=2\\sqrt[] { 13 }\\) ．\n综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)（12分）",
+      "solution_steps": [
+        "当点P在△ABC内部，如图所示，将△ABP逆时针旋转120°，得到\\(\\Delta ACP'\\)，连接\\(PP'\\)和PC",
+        "〔图2〕",
+        "∵将△ABP旋转120°得到\\(\\Delta ACP'\\)",
+        "∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4",
+        "∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（7分）",
+        "∵∠\\(AP'C\\)=120°，∠\\(AP'P\\)=30°，",
+        "∴∠\\(PP'C\\)=90°，",
+        "∴PC=\\(\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 7 }\\)．（8分）",
+        "当点P在△ABC外部，如图所示，",
+        "〔图3〕",
+        "将△APB绕点A逆时针旋转120\\({}^\\circ\\)到△\\(AP'C\\)，过点P作PD⊥\\(CP'\\)于点D，连接PD，",
+        "∵将△ABP旋转120°得到\\(\\Delta ACP'\\)",
+        "∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4，",
+        "∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（9分）",
+        "∵∠\\(AP'C\\)=120°,∠\\(AP'P\\)=30°，",
+        "∴∠\\(PP'C\\)=150°，",
+        "∴∠\\(PP'D\\)=30°，（10分）",
+        "在Rt\\(PDP'\\)中，\\(PD=\\frac { 1 } { 2 }PP'=\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore DP'=\\sqrt[] { P{P'}^{2} -PD ^ { 2 } }=3\\)，",
+        "\\(\\therefore DC=DP'+P'C=3+4=7\\)，（11分）",
+        "\\(\\therefore PC=\\sqrt[] { PD ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +7 ^ { 2 } }=2\\sqrt[] { 13 }\\) ．",
+        "综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)（12分）"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          96,
+          97,
+          100
+        ],
+        "solution_block_ids": [
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）∴△ABD≌△ACE\n（2）∴点F是BC的中点\n（3）综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)",
+  "given_solution": "【详解】解：（1）证明：∵∠DAE=∠BAC\n∴∠DAB=∠EAC（1分）\n∵AD=AE，AB=AC\n∴△ABD≌△ACE（2分）\n（2）证明：连接CE，延长EF至点H，取CF=CH，连接CH，如图所示：\n〔图1〕\n∵△ADB≌△AEC\n∴BD=EC，∠ADB=∠AEC=90°\n∵AD=AE\n∴∠ADE=∠AED（3分）\n∵∠ADE+∠EDB=∠AED+∠CEH=90°\n∴∠EDB=∠CEH\n∵CF=CH\n∴∠CFH=∠CHF\n∴∠DFB=∠H（4分）\n∵CE=BD\n∴△DBF≌△ECH（5分）\n∴BF=CH\n∴BF=CF\n∴点F是BC的中点（6分）\n（3）当点P在△ABC内部，如图所示，将△ABP逆时针旋转120°，得到\\(\\Delta ACP'\\)，连接\\(PP'\\)和PC\n〔图2〕\n∵将△ABP旋转120°得到\\(\\Delta ACP'\\)\n∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4\n∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（7分）\n∵∠\\(AP'C\\)=120°，∠\\(AP'P\\)=30°，\n∴∠\\(PP'C\\)=90°，\n∴PC=\\(\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 7 }\\)．（8分）\n当点P在△ABC外部，如图所示，\n〔图3〕\n将△APB绕点A逆时针旋转120\\({}^\\circ\\)到△\\(AP'C\\)，过点P作PD⊥\\(CP'\\)于点D，连接PD，\n∵将△ABP旋转120°得到\\(\\Delta ACP'\\)\n∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4，\n∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（9分）\n∵∠\\(AP'C\\)=120°,∠\\(AP'P\\)=30°，\n∴∠\\(PP'C\\)=150°，\n∴∠\\(PP'D\\)=30°，（10分）\n在Rt\\(PDP'\\)中，\\(PD=\\frac { 1 } { 2 }PP'=\\sqrt[] { 3 }\\)，\n\\(\\therefore DP'=\\sqrt[] { P{P'}^{2} -PD ^ { 2 } }=3\\)，\n\\(\\therefore DC=DP'+P'C=3+4=7\\)，（11分）\n\\(\\therefore PC=\\sqrt[] { PD ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +7 ^ { 2 } }=2\\sqrt[] { 13 }\\) ．\n综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)（12分）",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-7A37B188ED/figures/110610d7a7c03752d479f510a0c60db65a1dc20a0899a775be27635379ad98e5.png",
+    "assets/SZ-G8-T1-7A37B188ED/figures/55f0793f283d263f5dc7dab9997891b7378663b3d342b3598b923b74c02830f6.png",
+    "assets/SZ-G8-T1-7A37B188ED/figures/de52f8a8e0b2c545940baa00cddde1a353e916f52aa75c72df428493116f4435.png"
+  ],
+  "solution_steps": [
+    "解：（1）证明：∵∠DAE=∠BAC",
+    "∴∠DAB=∠EAC（1分）",
+    "∵AD=AE，AB=AC",
+    "∴△ABD≌△ACE（2分）",
+    "（2）证明：连接CE，延长EF至点H，取CF=CH，连接CH，如图所示：",
+    "〔图1〕",
+    "∵△ADB≌△AEC",
+    "∴BD=EC，∠ADB=∠AEC=90°",
+    "∵AD=AE",
+    "∴∠ADE=∠AED（3分）",
+    "∵∠ADE+∠EDB=∠AED+∠CEH=90°",
+    "∴∠EDB=∠CEH",
+    "∵CF=CH",
+    "∴∠CFH=∠CHF",
+    "∴∠DFB=∠H（4分）",
+    "∵CE=BD",
+    "∴△DBF≌△ECH（5分）",
+    "∴BF=CH",
+    "∴BF=CF",
+    "∴点F是BC的中点（6分）",
+    "（3）当点P在△ABC内部，如图所示，将△ABP逆时针旋转120°，得到\\(\\Delta ACP'\\)，连接\\(PP'\\)和PC",
+    "〔图2〕",
+    "∵将△ABP旋转120°得到\\(\\Delta ACP'\\)",
+    "∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4",
+    "∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（7分）",
+    "∵∠\\(AP'C\\)=120°，∠\\(AP'P\\)=30°，",
+    "∴∠\\(PP'C\\)=90°，",
+    "∴PC=\\(\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 7 }\\)．（8分）",
+    "当点P在△ABC外部，如图所示，",
+    "〔图3〕",
+    "将△APB绕点A逆时针旋转120\\({}^\\circ\\)到△\\(AP'C\\)，过点P作PD⊥\\(CP'\\)于点D，连接PD，",
+    "∵将△ABP旋转120°得到\\(\\Delta ACP'\\)",
+    "∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4，",
+    "∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（9分）",
+    "∵∠\\(AP'C\\)=120°,∠\\(AP'P\\)=30°，",
+    "∴∠\\(PP'C\\)=150°，",
+    "∴∠\\(PP'D\\)=30°，（10分）",
+    "在Rt\\(PDP'\\)中，\\(PD=\\frac { 1 } { 2 }PP'=\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore DP'=\\sqrt[] { P{P'}^{2} -PD ^ { 2 } }=3\\)，",
+    "\\(\\therefore DC=DP'+P'C=3+4=7\\)，（11分）",
+    "\\(\\therefore PC=\\sqrt[] { PD ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +7 ^ { 2 } }=2\\sqrt[] { 13 }\\) ．",
+    "综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)（12分）"
+  ],
+  "solution": "解：（1）证明：∵∠DAE=∠BAC\n∴∠DAB=∠EAC（1分）\n∵AD=AE，AB=AC\n∴△ABD≌△ACE（2分）\n（2）证明：连接CE，延长EF至点H，取CF=CH，连接CH，如图所示：\n〔图1〕\n∵△ADB≌△AEC\n∴BD=EC，∠ADB=∠AEC=90°\n∵AD=AE\n∴∠ADE=∠AED（3分）\n∵∠ADE+∠EDB=∠AED+∠CEH=90°\n∴∠EDB=∠CEH\n∵CF=CH\n∴∠CFH=∠CHF\n∴∠DFB=∠H（4分）\n∵CE=BD\n∴△DBF≌△ECH（5分）\n∴BF=CH\n∴BF=CF\n∴点F是BC的中点（6分）\n（3）当点P在△ABC内部，如图所示，将△ABP逆时针旋转120°，得到\\(\\Delta ACP'\\)，连接\\(PP'\\)和PC\n〔图2〕\n∵将△ABP旋转120°得到\\(\\Delta ACP'\\)\n∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4\n∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（7分）\n∵∠\\(AP'C\\)=120°，∠\\(AP'P\\)=30°，\n∴∠\\(PP'C\\)=90°，\n∴PC=\\(\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 7 }\\)．（8分）\n当点P在△ABC外部，如图所示，\n〔图3〕\n将△APB绕点A逆时针旋转120\\({}^\\circ\\)到△\\(AP'C\\)，过点P作PD⊥\\(CP'\\)于点D，连接PD，\n∵将△ABP旋转120°得到\\(\\Delta ACP'\\)\n∴∠\\(PAP'\\)=120°，AP=\\(AP ^ { \\prime }\\)=2，BP=\\(CP'\\)=4，\n∴\\(PP'\\)=2\\(\\sqrt[] { 3 }\\)，（9分）\n∵∠\\(AP'C\\)=120°,∠\\(AP'P\\)=30°，\n∴∠\\(PP'C\\)=150°，\n∴∠\\(PP'D\\)=30°，（10分）\n在Rt\\(PDP'\\)中，\\(PD=\\frac { 1 } { 2 }PP'=\\sqrt[] { 3 }\\)，\n\\(\\therefore DP'=\\sqrt[] { P{P'}^{2} -PD ^ { 2 } }=3\\)，\n\\(\\therefore DC=DP'+P'C=3+4=7\\)，（11分）\n\\(\\therefore PC=\\sqrt[] { PD ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +7 ^ { 2 } }=2\\sqrt[] { 13 }\\) ．\n综上所述，\\(PC=2\\sqrt[] { 7 }或2\\sqrt[] { 13 }\\)（12分）",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "paper_body_blocks": [
+      96,
+      102
+    ],
+    "solution_body_blocks": [
+      230,
+      272
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-7A37B188ED/paper-q20-p05.webp",
+      "assets/SZ-G8-T1-7A37B188ED/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          725.0,
+          583.64,
+          739.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          78.18,
+          583.64,
+          324.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-7A37B188ED/solution-q20-p12.webp",
+      "assets/SZ-G8-T1-7A37B188ED/solution-q20-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          706.36
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          75.0,
+          583.64,
+          730.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

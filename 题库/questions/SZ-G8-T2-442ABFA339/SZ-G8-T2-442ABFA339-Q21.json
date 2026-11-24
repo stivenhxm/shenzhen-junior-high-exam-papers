@@ -1,0 +1,480 @@
+{
+  "knowledge_ids": [
+    "M.G05.04",
+    "M.G03.02",
+    "M.G09.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G09.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“正方形及特殊四边形关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“正方形”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-442ABFA339-Q21",
+  "number": 21,
+  "paper_id": "SZ-G8-T2-442ABFA339",
+  "title": "构造全等关系证明线段或角关系、由平移或对称写出坐标变化",
+  "stem": "（9分）【定义】如图1，在同一平面内，点\\(P、Q\\)在线段\\(MN\\)所在直线的两侧，若\\(MP=NQ\\)，且\\(\\angle PMN=\\angle QNM=90 ^ { \\circ }\\)，则称点\\(P\\)与\\(Q\\)是线段\\(MN\\)的等垂对称点．\n〔图1〕〔图2〕〔图3〕〔图4〕\n(1)【理解】如图2，在正方形网格中，点\\(A、B、C、D、E、F\\)均在格点上，连接\\(AB\\)，则下列各组点是线段\\(AB\\)的等垂对称点的是_______；（填序号）\n①点\\(C\\)与点\\(D\\)        ②点\\(C\\)与点\\(F\\)        ③点\\(D\\)与点\\(E\\)        ④点\\(E\\)与点\\(F\\)\n(2)如图3，在四边形\\(ABCD\\)中，\\(E\\)是边\\(BC\\)上一点，点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，\n①求证：\\(AD\\parallel BC\\)；\n②若\\(DE\\)平分\\(\\angle ADC\\)，试探究\\(\\angle BCD\\)与\\(\\angle B\\)之间的数量关系，并说明理由．\n(3)【拓展】如图4，已知直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，当点\\(A、B、C、D\\)中恰有两点是线段\\(EF\\)的等垂对称点，且\\(EF\\parallel AB\\)时，请直接写出线段\\(EF\\)的长．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）【定义】如图1，在同一平面内，点\\(P、Q\\)在线段\\(MN\\)所在直线的两侧，若\\(MP=NQ\\)，且\\(\\angle PMN=\\angle QNM=90 ^ { \\circ }\\)，则称点\\(P\\)与\\(Q\\)是线段\\(MN\\)的等垂对称点．\n〔图1〕〔图2〕〔图3〕〔图4〕",
+      "paper_blocks": [
+        126,
+        127
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图3，在四边形\\(ABCD\\)中，\\(E\\)是边\\(BC\\)上一点，点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，",
+      "paper_blocks": [
+        130
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-442ABFA339-Q21-P01",
+      "label": "(1)",
+      "prompt": "【理解】如图2，在正方形网格中，点\\(A、B、C、D、E、F\\)均在格点上，连接\\(AB\\)，则下列各组点是线段\\(AB\\)的等垂对称点的是_______；（填序号）\n①点\\(C\\)与点\\(D\\)        ②点\\(C\\)与点\\(F\\)        ③点\\(D\\)与点\\(E\\)        ④点\\(E\\)与点\\(F\\)",
+      "stem_text": "【理解】如图2，在正方形网格中，点\\(A、B、C、D、E、F\\)均在格点上，连接\\(AB\\)，则下列各组点是线段\\(AB\\)的等垂对称点的是_______；（填序号）\n①点\\(C\\)与点\\(D\\)        ②点\\(C\\)与点\\(F\\)        ③点\\(D\\)与点\\(E\\)        ④点\\(E\\)与点\\(F\\)",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "②③；",
+      "answer": "②③；",
+      "given_solution": "解：由图形可得，\n\\(AC=AE=BD=BF\\)，\\(AC\\bot AB\\)，\\(AE\\bot AB\\)，\\(BD\\bot AB\\)，\\(BF\\bot AB\\)，\n∴点\\(C\\)与点\\(F\\)，点\\(D\\)与点\\(E\\)是等垂对称点，\n故答案为：②③；",
+      "solution_steps": [
+        "解：由图形可得，",
+        "\\(AC=AE=BD=BF\\)，\\(AC\\bot AB\\)，\\(AE\\bot AB\\)，\\(BD\\bot AB\\)，\\(BF\\bot AB\\)，",
+        "∴点\\(C\\)与点\\(F\\)，点\\(D\\)与点\\(E\\)是等垂对称点，",
+        "故答案为：②③；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          126,
+          127,
+          128,
+          129
+        ],
+        "solution_block_ids": [
+          279,
+          280,
+          281,
+          282
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.04"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "题目涉及“正方形”，按题面与解答定位知识主题。",
+      "tag_note": "该问涉及“正方形及特殊四边形关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-442ABFA339-Q21-P02",
+      "label": "(2)①",
+      "prompt": "求证：\\(AD\\parallel BC\\)；",
+      "stem_text": "求证：\\(AD\\parallel BC\\)；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：∵点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，\n\\(\\therefore AB=ED\\)，且\\(\\angle BAE=\\angle DEA=90{}^\\circ\\)，\n∴在\\(\\vartriangle ABE\\)与\\(\\vartriangle EDA\\)中，\n∵\\(\\begin{cases} AB=ED \\\\ \\angle BAE=\\angle DEA \\\\ AE=EA \\end{cases}\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle EDA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore \\angle BEA=\\angle DAE\\)，\n\\(\\therefore AD\\parallel BC\\)；",
+      "solution_steps": [
+        "证明：∵点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，",
+        "\\(\\therefore AB=ED\\)，且\\(\\angle BAE=\\angle DEA=90{}^\\circ\\)，",
+        "∴在\\(\\vartriangle ABE\\)与\\(\\vartriangle EDA\\)中，",
+        "∵\\(\\begin{cases} AB=ED \\\\ \\angle BAE=\\angle DEA \\\\ AE=EA \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle ABE≌\\vartriangle EDA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore \\angle BEA=\\angle DAE\\)，",
+        "\\(\\therefore AD\\parallel BC\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          126,
+          127,
+          130,
+          131
+        ],
+        "solution_block_ids": [
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-442ABFA339-Q21-P03",
+      "label": "(2)②",
+      "prompt": "若\\(DE\\)平分\\(\\angle ADC\\)，试探究\\(\\angle BCD\\)与\\(\\angle B\\)之间的数量关系，并说明理由．",
+      "stem_text": "若\\(DE\\)平分\\(\\angle ADC\\)，试探究\\(\\angle BCD\\)与\\(\\angle B\\)之间的数量关系，并说明理由．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle BCD+2\\angle B=180 ^ { \\circ }\\)，理由见解析",
+      "answer": "\\(\\angle BCD+2\\angle B=180 ^ { \\circ }\\)，理由见解析",
+      "given_solution": "解：当\\(DE\\)平分\\(\\angle ADC\\)时，\\(\\angle BCD+2\\angle B=180{}^\\circ\\)，理由如下：\n∵由（1）可知\\(\\vartriangle ABE≌\\vartriangle EDA\\)，\n\\(\\therefore \\angle B=\\angle ADE\\)，\n\\(\\because DE\\)平分\\(\\angle ADC\\)，\n\\(\\therefore \\angle ADC=2\\angle ADE\\)，\n\\(\\therefore \\angle ADC=2\\angle B\\)，\n∵又由（1）可知\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle BCD+\\angle ADC=180 ^ { \\circ }\\)，\n∴\\(\\angle BCD+2\\angle B=180{}^\\circ\\)；",
+      "solution_steps": [
+        "解：当\\(DE\\)平分\\(\\angle ADC\\)时，\\(\\angle BCD+2\\angle B=180{}^\\circ\\)，理由如下：",
+        "∵由（1）可知\\(\\vartriangle ABE≌\\vartriangle EDA\\)，",
+        "\\(\\therefore \\angle B=\\angle ADE\\)，",
+        "\\(\\because DE\\)平分\\(\\angle ADC\\)，",
+        "\\(\\therefore \\angle ADC=2\\angle ADE\\)，",
+        "\\(\\therefore \\angle ADC=2\\angle B\\)，",
+        "∵又由（1）可知\\(AD\\parallel BC\\)，",
+        "\\(\\therefore \\angle BCD+\\angle ADC=180 ^ { \\circ }\\)，",
+        "∴\\(\\angle BCD+2\\angle B=180{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          126,
+          127,
+          130,
+          132
+        ],
+        "solution_block_ids": [
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-442ABFA339-Q21-P04",
+      "label": "(3)",
+      "prompt": "【拓展】如图4，已知直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，当点\\(A、B、C、D\\)中恰有两点是线段\\(EF\\)的等垂对称点，且\\(EF\\parallel AB\\)时，请直接写出线段\\(EF\\)的长．",
+      "stem_text": "【拓展】如图4，已知直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，当点\\(A、B、C、D\\)中恰有两点是线段\\(EF\\)的等垂对称点，且\\(EF\\parallel AB\\)时，请直接写出线段\\(EF\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)；",
+      "answer": "\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)；",
+      "given_solution": "解：由题意可得，\n∵直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，\n∴\\(A(0,4)\\)，\\(B(-4,0)\\)，\n∴\\(\\angle ABD=45{}^\\circ\\)，\n∵直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，\n∴\\(C(0,-2)\\)，\\(D(2,0)\\)，\n∴\\(\\angle BAC=45{}^\\circ\\)，\n①当\\(B\\)，\\(D\\)是等垂对称点时，延长\\(DF\\)交\\(AB\\)于Q，\n∵\\(EF\\parallel AB\\)，\\(B\\)，\\(D\\)是等垂对称，\n∴\\(\\angle BEF=\\angle QFE=\\angle BQF=90{}^\\circ\\)，\\(BE=DF\\)，\n∴四边形\\(BEFQ\\)是矩形，\n∴\\(BQ=EF\\)，\\(BE=QF\\)，\n∵\\(\\angle ABD=45{}^\\circ\\)，\n∴\\(BQ=QD\\)，\n∵\\(B(-4,0)\\)，\\(D(2,0)\\)，\n∴\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n∴\\(EF=3\\sqrt[] { 2 }\\)；\n〔图1〕\n②当\\(A\\)，\\(C\\)是等垂对称点时，\n同理可得，\n\\(EF=AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n〔图2〕\n③当\\(A\\)，\\(D\\)是等垂对称点时，\n同理可得，\n〔图3〕\n\\(AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(EF=BQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)；\n④当\\(B\\)，\\(C\\)是等垂对称点时，\n同理可得，\n\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(EF=AQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\n〔图4〕；\n综上所述\\(EF\\)的长为：\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)．",
+      "solution_steps": [
+        "解：由题意可得，",
+        "∵直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，",
+        "∴\\(A(0,4)\\)，\\(B(-4,0)\\)，",
+        "∴\\(\\angle ABD=45{}^\\circ\\)，",
+        "∵直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，",
+        "∴\\(C(0,-2)\\)，\\(D(2,0)\\)，",
+        "∴\\(\\angle BAC=45{}^\\circ\\)，",
+        "①当\\(B\\)，\\(D\\)是等垂对称点时，延长\\(DF\\)交\\(AB\\)于Q，",
+        "∵\\(EF\\parallel AB\\)，\\(B\\)，\\(D\\)是等垂对称，",
+        "∴\\(\\angle BEF=\\angle QFE=\\angle BQF=90{}^\\circ\\)，\\(BE=DF\\)，",
+        "∴四边形\\(BEFQ\\)是矩形，",
+        "∴\\(BQ=EF\\)，\\(BE=QF\\)，",
+        "∵\\(\\angle ABD=45{}^\\circ\\)，",
+        "∴\\(BQ=QD\\)，",
+        "∵\\(B(-4,0)\\)，\\(D(2,0)\\)，",
+        "∴\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+        "∴\\(EF=3\\sqrt[] { 2 }\\)；",
+        "〔图1〕",
+        "②当\\(A\\)，\\(C\\)是等垂对称点时，",
+        "同理可得，",
+        "\\(EF=AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+        "〔图2〕",
+        "③当\\(A\\)，\\(D\\)是等垂对称点时，",
+        "同理可得，",
+        "〔图3〕",
+        "\\(AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+        "\\(EF=BQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)；",
+        "④当\\(B\\)，\\(C\\)是等垂对称点时，",
+        "同理可得，",
+        "\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+        "\\(EF=AQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，",
+        "〔图4〕；",
+        "综上所述\\(EF\\)的长为：\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          126,
+          127,
+          133
+        ],
+        "solution_block_ids": [
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13,
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“由平移或对称写出坐标变化”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/2b/2bce108872b6604359576058bda41446d100dd632107f03ab832bdab8d0a7d89.png",
+    "assets/figures/1e/1e51f9b0ef79f5c86ac56e20ddd12f12cd3dad947d9f1a9a2113996336c7abe6.png",
+    "assets/figures/3d/3d78e6c115d104d00055f2b5ce3292935cd501e7aacf2c86636efaeacc5e0eb5.png",
+    "assets/figures/2f/2f739ee13ab9deb85ed0cbcc3dee6cec0b7e044c1b7283be3b41d29a8613873c.png"
+  ],
+  "tables": [],
+  "answer": "(1)②③；\n(2)①见解析；②\\(\\angle BCD+2\\angle B=180 ^ { \\circ }\\)，理由见解析\n(3)\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)；",
+  "given_answer": "(1)②③；\n(2)①见解析；②\\(\\angle BCD+2\\angle B=180 ^ { \\circ }\\)，理由见解析\n(3)\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)；",
+  "given_solution": "【分析】（1）本题考查等垂对称点，根据题意结合图形找即可得到答案；\n（2）①本题考查三角形全等的判定与性质，平行线的判定，证明\\(\\vartriangle ABE≌\\vartriangle EDA\\)即可得到答案；②本题考查平行线的性质及等边三角形的性质，根据\\(\\vartriangle ABE≌\\vartriangle EDA\\)，得到\\(\\angle B=\\angle ADE\\)，根据\\(DE\\)平分\\(\\angle ADC\\)得到\\(\\angle ADC=2\\angle ADE\\)，结合平行线的性质即可得到答案；\n（3）本题考查等垂对称点，根据等垂对称点列式求解即可得到答案．\n【详解】（1）解：由图形可得，\n\\(AC=AE=BD=BF\\)，\\(AC\\bot AB\\)，\\(AE\\bot AB\\)，\\(BD\\bot AB\\)，\\(BF\\bot AB\\)，\n∴点\\(C\\)与点\\(F\\)，点\\(D\\)与点\\(E\\)是等垂对称点，\n故答案为：②③；\n（2）解：①证明：∵点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，\n\\(\\therefore AB=ED\\)，且\\(\\angle BAE=\\angle DEA=90{}^\\circ\\)，\n∴在\\(\\vartriangle ABE\\)与\\(\\vartriangle EDA\\)中，\n∵\\(\\begin{cases} AB=ED \\\\ \\angle BAE=\\angle DEA \\\\ AE=EA \\end{cases}\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle EDA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore \\angle BEA=\\angle DAE\\)，\n\\(\\therefore AD\\parallel BC\\)；\n②解：当\\(DE\\)平分\\(\\angle ADC\\)时，\\(\\angle BCD+2\\angle B=180{}^\\circ\\)，理由如下：\n∵由（1）可知\\(\\vartriangle ABE≌\\vartriangle EDA\\)，\n\\(\\therefore \\angle B=\\angle ADE\\)，\n\\(\\because DE\\)平分\\(\\angle ADC\\)，\n\\(\\therefore \\angle ADC=2\\angle ADE\\)，\n\\(\\therefore \\angle ADC=2\\angle B\\)，\n∵又由（1）可知\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle BCD+\\angle ADC=180 ^ { \\circ }\\)，\n∴\\(\\angle BCD+2\\angle B=180{}^\\circ\\)；\n（3）解：由题意可得，\n∵直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，\n∴\\(A(0,4)\\)，\\(B(-4,0)\\)，\n∴\\(\\angle ABD=45{}^\\circ\\)，\n∵直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，\n∴\\(C(0,-2)\\)，\\(D(2,0)\\)，\n∴\\(\\angle BAC=45{}^\\circ\\)，\n①当\\(B\\)，\\(D\\)是等垂对称点时，延长\\(DF\\)交\\(AB\\)于Q，\n∵\\(EF\\parallel AB\\)，\\(B\\)，\\(D\\)是等垂对称，\n∴\\(\\angle BEF=\\angle QFE=\\angle BQF=90{}^\\circ\\)，\\(BE=DF\\)，\n∴四边形\\(BEFQ\\)是矩形，\n∴\\(BQ=EF\\)，\\(BE=QF\\)，\n∵\\(\\angle ABD=45{}^\\circ\\)，\n∴\\(BQ=QD\\)，\n∵\\(B(-4,0)\\)，\\(D(2,0)\\)，\n∴\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n∴\\(EF=3\\sqrt[] { 2 }\\)；\n〔图1〕\n②当\\(A\\)，\\(C\\)是等垂对称点时，\n同理可得，\n\\(EF=AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n〔图2〕\n③当\\(A\\)，\\(D\\)是等垂对称点时，\n同理可得，\n〔图3〕\n\\(AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(EF=BQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)；\n④当\\(B\\)，\\(C\\)是等垂对称点时，\n同理可得，\n\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(EF=AQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\n〔图4〕；\n综上所述\\(EF\\)的长为：\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/19/19cd100c6ec807566c048618423563931eb560cf2f4e6b18b82d66fd4ca86c74.png",
+    "assets/figures/07/07744cd58ed5bd829dd019e018218b700fde3ce9ad32d56df206ec986c4ce604.png",
+    "assets/figures/6a/6a23b61e289325ff8d8e703a3df79778cb0498df8b8d6f656a27e4deceea0d11.png",
+    "assets/figures/01/01e46de63c2e5c2708fb9186ef5c107a65b0f21c86ae80ab37e70b8aba18b3be.png"
+  ],
+  "solution_steps": [
+    "（1）解：由图形可得，",
+    "\\(AC=AE=BD=BF\\)，\\(AC\\bot AB\\)，\\(AE\\bot AB\\)，\\(BD\\bot AB\\)，\\(BF\\bot AB\\)，",
+    "∴点\\(C\\)与点\\(F\\)，点\\(D\\)与点\\(E\\)是等垂对称点，",
+    "故答案为：②③；",
+    "（2）解：①证明：∵点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，",
+    "\\(\\therefore AB=ED\\)，且\\(\\angle BAE=\\angle DEA=90{}^\\circ\\)，",
+    "∴在\\(\\vartriangle ABE\\)与\\(\\vartriangle EDA\\)中，",
+    "∵\\(\\begin{cases} AB=ED \\\\ \\angle BAE=\\angle DEA \\\\ AE=EA \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle ABE≌\\vartriangle EDA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore \\angle BEA=\\angle DAE\\)，",
+    "\\(\\therefore AD\\parallel BC\\)；",
+    "②解：当\\(DE\\)平分\\(\\angle ADC\\)时，\\(\\angle BCD+2\\angle B=180{}^\\circ\\)，理由如下：",
+    "∵由（1）可知\\(\\vartriangle ABE≌\\vartriangle EDA\\)，",
+    "\\(\\therefore \\angle B=\\angle ADE\\)，",
+    "\\(\\because DE\\)平分\\(\\angle ADC\\)，",
+    "\\(\\therefore \\angle ADC=2\\angle ADE\\)，",
+    "\\(\\therefore \\angle ADC=2\\angle B\\)，",
+    "∵又由（1）可知\\(AD\\parallel BC\\)，",
+    "\\(\\therefore \\angle BCD+\\angle ADC=180 ^ { \\circ }\\)，",
+    "∴\\(\\angle BCD+2\\angle B=180{}^\\circ\\)；",
+    "（3）解：由题意可得，",
+    "∵直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，",
+    "∴\\(A(0,4)\\)，\\(B(-4,0)\\)，",
+    "∴\\(\\angle ABD=45{}^\\circ\\)，",
+    "∵直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，",
+    "∴\\(C(0,-2)\\)，\\(D(2,0)\\)，",
+    "∴\\(\\angle BAC=45{}^\\circ\\)，",
+    "①当\\(B\\)，\\(D\\)是等垂对称点时，延长\\(DF\\)交\\(AB\\)于Q，",
+    "∵\\(EF\\parallel AB\\)，\\(B\\)，\\(D\\)是等垂对称，",
+    "∴\\(\\angle BEF=\\angle QFE=\\angle BQF=90{}^\\circ\\)，\\(BE=DF\\)，",
+    "∴四边形\\(BEFQ\\)是矩形，",
+    "∴\\(BQ=EF\\)，\\(BE=QF\\)，",
+    "∵\\(\\angle ABD=45{}^\\circ\\)，",
+    "∴\\(BQ=QD\\)，",
+    "∵\\(B(-4,0)\\)，\\(D(2,0)\\)，",
+    "∴\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+    "∴\\(EF=3\\sqrt[] { 2 }\\)；",
+    "〔图1〕",
+    "②当\\(A\\)，\\(C\\)是等垂对称点时，",
+    "同理可得，",
+    "\\(EF=AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+    "〔图2〕",
+    "③当\\(A\\)，\\(D\\)是等垂对称点时，",
+    "同理可得，",
+    "〔图3〕",
+    "\\(AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+    "\\(EF=BQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)；",
+    "④当\\(B\\)，\\(C\\)是等垂对称点时，",
+    "同理可得，",
+    "\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，",
+    "\\(EF=AQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，",
+    "〔图4〕；",
+    "综上所述\\(EF\\)的长为：\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）解：由图形可得，\n\\(AC=AE=BD=BF\\)，\\(AC\\bot AB\\)，\\(AE\\bot AB\\)，\\(BD\\bot AB\\)，\\(BF\\bot AB\\)，\n∴点\\(C\\)与点\\(F\\)，点\\(D\\)与点\\(E\\)是等垂对称点，\n故答案为：②③；\n（2）解：①证明：∵点\\(B\\)与\\(D\\)是线段\\(AE\\)的等垂对称点，\n\\(\\therefore AB=ED\\)，且\\(\\angle BAE=\\angle DEA=90{}^\\circ\\)，\n∴在\\(\\vartriangle ABE\\)与\\(\\vartriangle EDA\\)中，\n∵\\(\\begin{cases} AB=ED \\\\ \\angle BAE=\\angle DEA \\\\ AE=EA \\end{cases}\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle EDA({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore \\angle BEA=\\angle DAE\\)，\n\\(\\therefore AD\\parallel BC\\)；\n②解：当\\(DE\\)平分\\(\\angle ADC\\)时，\\(\\angle BCD+2\\angle B=180{}^\\circ\\)，理由如下：\n∵由（1）可知\\(\\vartriangle ABE≌\\vartriangle EDA\\)，\n\\(\\therefore \\angle B=\\angle ADE\\)，\n\\(\\because DE\\)平分\\(\\angle ADC\\)，\n\\(\\therefore \\angle ADC=2\\angle ADE\\)，\n\\(\\therefore \\angle ADC=2\\angle B\\)，\n∵又由（1）可知\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle BCD+\\angle ADC=180 ^ { \\circ }\\)，\n∴\\(\\angle BCD+2\\angle B=180{}^\\circ\\)；\n（3）解：由题意可得，\n∵直线\\(y=x+4\\)与坐标轴交于点\\(A、B\\)，\n∴\\(A(0,4)\\)，\\(B(-4,0)\\)，\n∴\\(\\angle ABD=45{}^\\circ\\)，\n∵直线\\(y=x-2\\)与坐标轴交于点\\(C、D\\)，\n∴\\(C(0,-2)\\)，\\(D(2,0)\\)，\n∴\\(\\angle BAC=45{}^\\circ\\)，\n①当\\(B\\)，\\(D\\)是等垂对称点时，延长\\(DF\\)交\\(AB\\)于Q，\n∵\\(EF\\parallel AB\\)，\\(B\\)，\\(D\\)是等垂对称，\n∴\\(\\angle BEF=\\angle QFE=\\angle BQF=90{}^\\circ\\)，\\(BE=DF\\)，\n∴四边形\\(BEFQ\\)是矩形，\n∴\\(BQ=EF\\)，\\(BE=QF\\)，\n∵\\(\\angle ABD=45{}^\\circ\\)，\n∴\\(BQ=QD\\)，\n∵\\(B(-4,0)\\)，\\(D(2,0)\\)，\n∴\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n∴\\(EF=3\\sqrt[] { 2 }\\)；\n〔图1〕\n②当\\(A\\)，\\(C\\)是等垂对称点时，\n同理可得，\n\\(EF=AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n〔图2〕\n③当\\(A\\)，\\(D\\)是等垂对称点时，\n同理可得，\n〔图3〕\n\\(AQ=\\sqrt[] { \\frac { AC ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(EF=BQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)；\n④当\\(B\\)，\\(C\\)是等垂对称点时，\n同理可得，\n\\(BQ=\\sqrt[] { \\frac { BD ^ { 2 } } { 2 } }=\\sqrt[] { \\frac { 6 ^ { 2 } } { 2 } }=3\\sqrt[] { 2 }\\)，\n\\(EF=AQ=\\sqrt[] { 2\\times 4 ^ { 2 } }-3\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\n〔图4〕；\n综上所述\\(EF\\)的长为：\\(\\sqrt[] { 2 }\\)或\\(3\\sqrt[] { 2 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-442ABFA339/single/q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          109.83,
+          582.2,
+          460.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13,
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-442ABFA339/single/s21-p12.webp",
+      "assets/SZ-G8-T2-442ABFA339/single/s21-p13.webp",
+      "assets/SZ-G8-T2-442ABFA339/single/s21-p14.webp",
+      "assets/SZ-G8-T2-442ABFA339/single/s21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          13,
+          531.96,
+          582.2,
+          793.7
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          36.61,
+          582.2,
+          745.3
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          34.87,
+          582.2,
+          774.43
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          34.87,
+          582.2,
+          188.78
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

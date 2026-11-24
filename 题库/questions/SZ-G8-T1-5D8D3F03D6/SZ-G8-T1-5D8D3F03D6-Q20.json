@@ -1,0 +1,292 @@
+{
+  "id": "SZ-G8-T1-5D8D3F03D6-Q20",
+  "paper_id": "SZ-G8-T1-5D8D3F03D6",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "化简并合并同类数值二次根式",
+  "stem": "小明在解决问题：已知 \\(a=\\frac { 1 } { 2+\\sqrt[] { 3 } }\\)，求 \\(2a ^ { 2 } -8a+1\\)的值. 他是这样分析与解的：\n\\(\\because a=\\frac { 1 } { 2+\\sqrt[] { 3 } }=\\frac { 2-\\sqrt[] { 3 } } { \\left ( { 2+\\sqrt[] { 3 } } \\right )\\left ( { 2-\\sqrt[] { 3 } } \\right ) }=2-\\sqrt[] { 3 }\\)，\n\\(\\therefore a-2=-\\sqrt[] { 3 },\\therefore \\left ( { a-2 } \\right ) ^ { 2 } =3,a ^ { 2 } -4a+4=3,\\)\n\\(\\therefore a ^ { 2 } -4a=-1,\\therefore 2a ^ { 2 } -8a+1=2\\left ( { a ^ { 2 } -4a } \\right )+1=2\\times \\left ( { -1 } \\right )+1=-1\\).\n请你根据小明的分析过程，解决如下问题：\n（1）观察上面解答过程，请写出 \\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }=\\)                         ；\n（2）化简\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)；\n（3）若\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，请按照小明的方法求出 \\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)的值．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)\n（2）\\(-1+2\\sqrt[] { 506 }\\)\n（3）\\(0\\)",
+  "answer": "（1）\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)\n（2）\\(-1+2\\sqrt[] { 506 }\\)\n（3）\\(0\\)",
+  "given_solution": "【分析】本题考查了二次根式的化简求值，分母有理化．\n（1）根据例题可得：对式子的分子和分母中同时乘以与分母中的式子相乘符合平方差公式的根式，去掉分母，然后合并同类二次根式即可求解；\n（2）将式子中的每一个分式进行分母有理化，问题随之得解；\n（3）根据小明的分析过程，得\\(a-5=\\sqrt[] { 26 }\\)得\\(a ^ { 2 } -10a=1\\)，\\(a ^ { 3 } =a+10a ^ { 2 }\\)，再整体代入，即可求出代数式的值．\n【小问1详解】\n解：\\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }\\)\n\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { \\left ( { \\sqrt[] { n+1 }+\\sqrt[] { n } } \\right )\\left ( { \\sqrt[] { n+1 }-\\sqrt[] { n } } \\right ) }\\)\n\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { n+1-n }\\)\n\\(=\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；\n故答案为：\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；\n【小问2详解】\n解：\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)\n\\(=\\sqrt[] { 2 }-1+\\sqrt[] { 3 }-\\sqrt[] { 2 }+2-\\sqrt[] { 3 }+\\cdots +\\sqrt[] { 2024 }-\\sqrt[] { 2023 }\\)\n\\(=-1+2\\sqrt[] { 506 }\\)；\n【小问3详解】\n解：\\(\\because\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，\n\\(\\therefore\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }=\\frac { \\sqrt[] { 26 }+5 } { \\left ( { \\sqrt[] { 26 }-5 } \\right )\\left ( { \\sqrt[] { 26 }+5 } \\right ) }=\\sqrt[] { 26 }+5\\)，\n\\(\\therefore\\)\\(a-5=\\sqrt[] { 26 }\\)，即\\(\\left ( { a-5 } \\right ) ^ { 2 } =26\\)，\n\\(\\therefore\\)\\(a ^ { 2 } -10a=1\\)，\\(a ^ { 3 } =a+10a ^ { 2 }\\)，\n\\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)\n\\(=a+10a ^ { 2 } -11a ^ { 2 } +9a+1\\)\n\\(=-a ^ { 2 } +10a+1\\)\n\\(=-\\left ( { a ^ { 2 } -10a } \\right )+1\\)\n\\(=0\\)．",
+  "given_solution_figures": [],
+  "solution": "【小问1详解】\n解：\\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }\\)\n\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { \\left ( { \\sqrt[] { n+1 }+\\sqrt[] { n } } \\right )\\left ( { \\sqrt[] { n+1 }-\\sqrt[] { n } } \\right ) }\\)\n\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { n+1-n }\\)\n\\(=\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；\n故答案为：\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；\n【小问2详解】\n解：\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)\n\\(=\\sqrt[] { 2 }-1+\\sqrt[] { 3 }-\\sqrt[] { 2 }+2-\\sqrt[] { 3 }+\\cdots +\\sqrt[] { 2024 }-\\sqrt[] { 2023 }\\)\n\\(=-1+2\\sqrt[] { 506 }\\)；\n【小问3详解】\n解：\\(\\because\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，\n\\(\\therefore\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }=\\frac { \\sqrt[] { 26 }+5 } { \\left ( { \\sqrt[] { 26 }-5 } \\right )\\left ( { \\sqrt[] { 26 }+5 } \\right ) }=\\sqrt[] { 26 }+5\\)，\n\\(\\therefore\\)\\(a-5=\\sqrt[] { 26 }\\)，即\\(\\left ( { a-5 } \\right ) ^ { 2 } =26\\)，\n\\(\\therefore\\)\\(a ^ { 2 } -10a=1\\)，\\(a ^ { 3 } =a+10a ^ { 2 }\\)，\n\\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)\n\\(=a+10a ^ { 2 } -11a ^ { 2 } +9a+1\\)\n\\(=-a ^ { 2 } +10a+1\\)\n\\(=-\\left ( { a ^ { 2 } -10a } \\right )+1\\)\n\\(=0\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }\\)",
+    "\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { \\left ( { \\sqrt[] { n+1 }+\\sqrt[] { n } } \\right )\\left ( { \\sqrt[] { n+1 }-\\sqrt[] { n } } \\right ) }\\)",
+    "\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { n+1-n }\\)",
+    "\\(=\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；",
+    "故答案为：\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；",
+    "【小问2详解】",
+    "解：\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)",
+    "\\(=\\sqrt[] { 2 }-1+\\sqrt[] { 3 }-\\sqrt[] { 2 }+2-\\sqrt[] { 3 }+\\cdots +\\sqrt[] { 2024 }-\\sqrt[] { 2023 }\\)",
+    "\\(=-1+2\\sqrt[] { 506 }\\)；",
+    "【小问3详解】",
+    "解：\\(\\because\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，",
+    "\\(\\therefore\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }=\\frac { \\sqrt[] { 26 }+5 } { \\left ( { \\sqrt[] { 26 }-5 } \\right )\\left ( { \\sqrt[] { 26 }+5 } \\right ) }=\\sqrt[] { 26 }+5\\)，",
+    "\\(\\therefore\\)\\(a-5=\\sqrt[] { 26 }\\)，即\\(\\left ( { a-5 } \\right ) ^ { 2 } =26\\)，",
+    "\\(\\therefore\\)\\(a ^ { 2 } -10a=1\\)，\\(a ^ { 3 } =a+10a ^ { 2 }\\)，",
+    "\\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)",
+    "\\(=a+10a ^ { 2 } -11a ^ { 2 } +9a+1\\)",
+    "\\(=-a ^ { 2 } +10a+1\\)",
+    "\\(=-\\left ( { a ^ { 2 } -10a } \\right )+1\\)",
+    "\\(=0\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "小明在解决问题：已知 \\(a=\\frac { 1 } { 2+\\sqrt[] { 3 } }\\)，求 \\(2a ^ { 2 } -8a+1\\)的值. 他是这样分析与解的：\n\\(\\because a=\\frac { 1 } { 2+\\sqrt[] { 3 } }=\\frac { 2-\\sqrt[] { 3 } } { \\left ( { 2+\\sqrt[] { 3 } } \\right )\\left ( { 2-\\sqrt[] { 3 } } \\right ) }=2-\\sqrt[] { 3 }\\)，\n\\(\\therefore a-2=-\\sqrt[] { 3 },\\therefore \\left ( { a-2 } \\right ) ^ { 2 } =3,a ^ { 2 } -4a+4=3,\\)\n\\(\\therefore a ^ { 2 } -4a=-1,\\therefore 2a ^ { 2 } -8a+1=2\\left ( { a ^ { 2 } -4a } \\right )+1=2\\times \\left ( { -1 } \\right )+1=-1\\).\n请你根据小明的分析过程，解决如下问题：",
+      "paper_blocks": [
+        51,
+        52,
+        53,
+        54,
+        55
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5D8D3F03D6-Q20-P01",
+      "label": "（1）",
+      "prompt": "观察上面解答过程，请写出 \\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }=\\)                         ；",
+      "stem_text": "观察上面解答过程，请写出 \\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }=\\)                         ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)",
+      "answer": "\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)",
+      "given_solution": "解：\\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }\\)\n\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { \\left ( { \\sqrt[] { n+1 }+\\sqrt[] { n } } \\right )\\left ( { \\sqrt[] { n+1 }-\\sqrt[] { n } } \\right ) }\\)\n\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { n+1-n }\\)\n\\(=\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；\n故答案为：\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；",
+      "solution_steps": [
+        "解：\\(\\frac { 1 } { \\sqrt[] { n+1 }+\\sqrt[] { n } }\\)",
+        "\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { \\left ( { \\sqrt[] { n+1 }+\\sqrt[] { n } } \\right )\\left ( { \\sqrt[] { n+1 }-\\sqrt[] { n } } \\right ) }\\)",
+        "\\(=\\frac { \\sqrt[] { n+1 }-\\sqrt[] { n } } { n+1-n }\\)",
+        "\\(=\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；",
+        "故答案为：\\(\\sqrt[] { n+1 }-\\sqrt[] { n }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          250,
+          251,
+          252,
+          253,
+          254
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N05.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "本题要求分母有理化，已有细目关注化为最简根式及开方的符号条件。",
+      "tag_reason": "本问的要求和解答步骤对应“二次根式性质与化简”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5D8D3F03D6-Q20-P02",
+      "label": "（2）",
+      "prompt": "化简\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)；",
+      "stem_text": "化简\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(-1+2\\sqrt[] { 506 }\\)",
+      "answer": "\\(-1+2\\sqrt[] { 506 }\\)",
+      "given_solution": "解：\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)\n\\(=\\sqrt[] { 2 }-1+\\sqrt[] { 3 }-\\sqrt[] { 2 }+2-\\sqrt[] { 3 }+\\cdots +\\sqrt[] { 2024 }-\\sqrt[] { 2023 }\\)\n\\(=-1+2\\sqrt[] { 506 }\\)；",
+      "solution_steps": [
+        "解：\\(\\frac { 1 } { \\sqrt[] { 2 }+1 }+\\frac { 1 } { \\sqrt[] { 3 }+\\sqrt[] { 2 } }+\\frac { 1 } { 2+\\sqrt[] { 3 } }+\\cdots +\\frac { 1 } { \\sqrt[] { 2024 }+\\sqrt[] { 2023 } }\\)",
+        "\\(=\\sqrt[] { 2 }-1+\\sqrt[] { 3 }-\\sqrt[] { 2 }+2-\\sqrt[] { 3 }+\\cdots +\\sqrt[] { 2024 }-\\sqrt[] { 2023 }\\)",
+        "\\(=-1+2\\sqrt[] { 506 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          57
+        ],
+        "solution_block_ids": [
+          256,
+          257,
+          258
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N05.03"
+      ],
+      "exam_ids": [
+        "E.N05.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“化简并合并同类数值二次根式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5D8D3F03D6-Q20-P03",
+      "label": "（3）",
+      "prompt": "若\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，请按照小明的方法求出 \\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)的值．",
+      "stem_text": "若\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，请按照小明的方法求出 \\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(0\\)",
+      "answer": "\\(0\\)",
+      "given_solution": "解：\\(\\because\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，\n\\(\\therefore\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }=\\frac { \\sqrt[] { 26 }+5 } { \\left ( { \\sqrt[] { 26 }-5 } \\right )\\left ( { \\sqrt[] { 26 }+5 } \\right ) }=\\sqrt[] { 26 }+5\\)，\n\\(\\therefore\\)\\(a-5=\\sqrt[] { 26 }\\)，即\\(\\left ( { a-5 } \\right ) ^ { 2 } =26\\)，\n\\(\\therefore\\)\\(a ^ { 2 } -10a=1\\)，\\(a ^ { 3 } =a+10a ^ { 2 }\\)，\n\\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)\n\\(=a+10a ^ { 2 } -11a ^ { 2 } +9a+1\\)\n\\(=-a ^ { 2 } +10a+1\\)\n\\(=-\\left ( { a ^ { 2 } -10a } \\right )+1\\)\n\\(=0\\)．",
+      "solution_steps": [
+        "解：\\(\\because\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }\\)，",
+        "\\(\\therefore\\)\\(a=\\frac { 1 } { \\sqrt[] { 26 }-5 }=\\frac { \\sqrt[] { 26 }+5 } { \\left ( { \\sqrt[] { 26 }-5 } \\right )\\left ( { \\sqrt[] { 26 }+5 } \\right ) }=\\sqrt[] { 26 }+5\\)，",
+        "\\(\\therefore\\)\\(a-5=\\sqrt[] { 26 }\\)，即\\(\\left ( { a-5 } \\right ) ^ { 2 } =26\\)，",
+        "\\(\\therefore\\)\\(a ^ { 2 } -10a=1\\)，\\(a ^ { 3 } =a+10a ^ { 2 }\\)，",
+        "\\(a ^ { 3 } -11a ^ { 2 } +9a+1\\)",
+        "\\(=a+10a ^ { 2 } -11a ^ { 2 } +9a+1\\)",
+        "\\(=-a ^ { 2 } +10a+1\\)",
+        "\\(=-\\left ( { a ^ { 2 } -10a } \\right )+1\\)",
+        "\\(=0\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          53,
+          54,
+          55,
+          58
+        ],
+        "solution_block_ids": [
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N05.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "本题要求分母有理化，已有细目关注化为最简根式及开方的符号条件。",
+      "tag_reason": "本问的要求和解答步骤对应“二次根式性质与化简”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      51,
+      58
+    ],
+    "solution_body_blocks": [
+      233,
+      268
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5D8D3F03D6/paper-q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          334.55,
+          583.64,
+          639.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5D8D3F03D6/solution-q20-p12.webp",
+      "assets/SZ-G8-T1-5D8D3F03D6/solution-q20-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          395.0,
+          583.64,
+          760.91
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          610.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N05.02",
+    "M.N05.03"
+  ],
+  "exam_ids": [
+    "E.N05.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "本题要求分母有理化，已有细目关注化为最简根式及开方的符号条件。",
+  "tag_reason": "本问的要求和解答步骤对应“二次根式性质与化简”。 本问的式子结构和所求量对应“化简并合并同类数值二次根式”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

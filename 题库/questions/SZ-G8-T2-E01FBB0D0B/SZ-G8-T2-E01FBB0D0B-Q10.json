@@ -1,0 +1,170 @@
+{
+  "id": "SZ-G8-T2-E01FBB0D0B-Q10",
+  "paper_id": "SZ-G8-T2-E01FBB0D0B",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "由坐标定位点并判断位置特征",
+  "stem": "如图，把正方形铁片\\(OABC\\)置于平面直角坐标系中，顶点\\(A\\)的坐标为\\(\\left ( { 3,0 } \\right )\\)，点\\(P\\left ( { 1,2 } \\right )\\)在正方形铁片上，将正方形铁片绕其右下角的顶点按顺时针方向依次旋转\\(90{}^\\circ\\)，第一次旋转至图①位置，第二次旋转至图②位置，…则正方形铁片连续旋转\\(2024\\)次后，点\\(P\\)的坐标为（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(\\left ( { 6070,2 } \\right )\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(\\left ( { 6072,2 } \\right )\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(\\left ( { 6073,2 } \\right )\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(\\left ( { 6074,1 } \\right )\\)"
+    }
+  ],
+  "figures": [
+    "assets/figures/cd/cd002b68f04ddbb3282c38f2ecfc366a590afe340b5f1cf368fab7bf0567c37a.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】按照题意，连接右下角\\(x\\)轴上的点与\\(P\\)，如图所示，由旋转性质逐步求出各个位置时点\\(P\\)的坐标，找到循环规律求解即可得到答案．\n【详解】解：如图所示：\n〔图2〕\n\\(\\because\\)点\\(A\\)\\(\\left ( { 3,0 } \\right )\\)，点\\(P\\left ( { 1,2 } \\right )\\)，\n\\(\\therefore OC=1,PC=2,OA=3\\)，则\\(AC=OA-OC=2\\)，\n由旋转的性质可得\\(AD=AC=2,DP_{ 1 } =PC=2\\)，\n\\(\\therefore\\)第一次\\(P_{ 1 } \\left ( { 5,2 } \\right )\\)；\n如图所示：\n〔图3〕\n\\(\\because\\)\\(P_{ 1 } \\left ( { 5,2 } \\right )\\)，\n\\(\\therefore P_{ 1 } E=2,EF=OF-OE=6-5=1\\)，则由旋转的性质可得\\(FG=FE=1,GP_{ 2 } =EP_{ 1 } =2\\)，\n\\(\\therefore\\)第二次\\(P_{ 2 } \\left ( { 8,1 } \\right )\\)，\n如图所示：\n〔图4〕\n\\(\\because\\)\\(P_{ 2 } \\left ( { 8,1 } \\right )\\)，\n\\(\\therefore P_{ 2 } H=1,HI=OI-OH=9-8=1\\)，则由旋转的性质可得\\(JI=HI=1,JP_{ 3 } =HP_{ 2 } =1\\)，\n\\(\\therefore\\)第三次\\(P_{ 3 } \\left ( { 10,1 } \\right )\\)，\n如图所示：\n〔图5〕\n\\(\\because\\)\\(P_{ 3 } \\left ( { 10,1 } \\right )\\)，\n\\(\\therefore P_{ 3 } K=1,KL=OL-OK=12-10=2\\)，则由旋转性质可得\\(ML=KL=2,MP_{ 4 } =KP_{ 3 } =1\\)，\n\\(\\therefore\\)第四次\\(P_{ 4 } \\left ( { 13,2 } \\right )\\)，\n…\n数形结合，发现点\\(P\\)的位置4次一个循环，\\(P_{ 4n } \\left ( { 12n+1,2 } \\right )\\)，\n∵\\(2024\\div 4=506\\)，\n\\(P_{ 2024 }\\)的纵坐标与\\(P_{ 4 }\\)相同为\\(2\\)，横坐标为\\(1+12\\times 506=6073\\)，\n∴\\(P_{ 2024 } \\left ( { 6073,2 } \\right )\\)，\n故选：C．\n【点睛】本题考查图形与坐标规律，读懂题意，数形结合，找到坐标规律是解决问题的关键．",
+  "given_solution_figures": [
+    "assets/figures/cd/cd002b68f04ddbb3282c38f2ecfc366a590afe340b5f1cf368fab7bf0567c37a.png",
+    "assets/figures/9d/9d52460dd49c03cf0d9e25012f3085697ff0c85b30cbf38c60350d671ddee1dc.png",
+    "assets/figures/8d/8d827f6df197ad1adbc1014425ea665c0a6871a527dccfc348081b379059a127.png",
+    "assets/figures/b2/b2f358eefed021c5dc96bcc21a86813081418169aa358d5528a11a6fe83a9d90.png",
+    "assets/figures/69/697c3732edbddc0655d88a2ba0e91692b36269b4e4328bc82e4bb7e5bc86d79c.png"
+  ],
+  "solution": "解：如图所示：\n〔图2〕\n\\(\\because\\)点\\(A\\)\\(\\left ( { 3,0 } \\right )\\)，点\\(P\\left ( { 1,2 } \\right )\\)，\n\\(\\therefore OC=1,PC=2,OA=3\\)，则\\(AC=OA-OC=2\\)，\n由旋转的性质可得\\(AD=AC=2,DP_{ 1 } =PC=2\\)，\n\\(\\therefore\\)第一次\\(P_{ 1 } \\left ( { 5,2 } \\right )\\)；\n如图所示：\n〔图3〕\n\\(\\because\\)\\(P_{ 1 } \\left ( { 5,2 } \\right )\\)，\n\\(\\therefore P_{ 1 } E=2,EF=OF-OE=6-5=1\\)，则由旋转的性质可得\\(FG=FE=1,GP_{ 2 } =EP_{ 1 } =2\\)，\n\\(\\therefore\\)第二次\\(P_{ 2 } \\left ( { 8,1 } \\right )\\)，\n如图所示：\n〔图4〕\n\\(\\because\\)\\(P_{ 2 } \\left ( { 8,1 } \\right )\\)，\n\\(\\therefore P_{ 2 } H=1,HI=OI-OH=9-8=1\\)，则由旋转的性质可得\\(JI=HI=1,JP_{ 3 } =HP_{ 2 } =1\\)，\n\\(\\therefore\\)第三次\\(P_{ 3 } \\left ( { 10,1 } \\right )\\)，\n如图所示：\n〔图5〕\n\\(\\because\\)\\(P_{ 3 } \\left ( { 10,1 } \\right )\\)，\n\\(\\therefore P_{ 3 } K=1,KL=OL-OK=12-10=2\\)，则由旋转性质可得\\(ML=KL=2,MP_{ 4 } =KP_{ 3 } =1\\)，\n\\(\\therefore\\)第四次\\(P_{ 4 } \\left ( { 13,2 } \\right )\\)，\n…\n数形结合，发现点\\(P\\)的位置4次一个循环，\\(P_{ 4n } \\left ( { 12n+1,2 } \\right )\\)，\n∵\\(2024\\div 4=506\\)，\n\\(P_{ 2024 }\\)的纵坐标与\\(P_{ 4 }\\)相同为\\(2\\)，横坐标为\\(1+12\\times 506=6073\\)，\n∴\\(P_{ 2024 } \\left ( { 6073,2 } \\right )\\)，\n故选：C．",
+  "solution_steps": [
+    "解：如图所示：",
+    "〔图2〕",
+    "\\(\\because\\)点\\(A\\)\\(\\left ( { 3,0 } \\right )\\)，点\\(P\\left ( { 1,2 } \\right )\\)，",
+    "\\(\\therefore OC=1,PC=2,OA=3\\)，则\\(AC=OA-OC=2\\)，",
+    "由旋转的性质可得\\(AD=AC=2,DP_{ 1 } =PC=2\\)，",
+    "\\(\\therefore\\)第一次\\(P_{ 1 } \\left ( { 5,2 } \\right )\\)；",
+    "如图所示：",
+    "〔图3〕",
+    "\\(\\because\\)\\(P_{ 1 } \\left ( { 5,2 } \\right )\\)，",
+    "\\(\\therefore P_{ 1 } E=2,EF=OF-OE=6-5=1\\)，则由旋转的性质可得\\(FG=FE=1,GP_{ 2 } =EP_{ 1 } =2\\)，",
+    "\\(\\therefore\\)第二次\\(P_{ 2 } \\left ( { 8,1 } \\right )\\)，",
+    "如图所示：",
+    "〔图4〕",
+    "\\(\\because\\)\\(P_{ 2 } \\left ( { 8,1 } \\right )\\)，",
+    "\\(\\therefore P_{ 2 } H=1,HI=OI-OH=9-8=1\\)，则由旋转的性质可得\\(JI=HI=1,JP_{ 3 } =HP_{ 2 } =1\\)，",
+    "\\(\\therefore\\)第三次\\(P_{ 3 } \\left ( { 10,1 } \\right )\\)，",
+    "如图所示：",
+    "〔图5〕",
+    "\\(\\because\\)\\(P_{ 3 } \\left ( { 10,1 } \\right )\\)，",
+    "\\(\\therefore P_{ 3 } K=1,KL=OL-OK=12-10=2\\)，则由旋转性质可得\\(ML=KL=2,MP_{ 4 } =KP_{ 3 } =1\\)，",
+    "\\(\\therefore\\)第四次\\(P_{ 4 } \\left ( { 13,2 } \\right )\\)，",
+    "…",
+    "数形结合，发现点\\(P\\)的位置4次一个循环，\\(P_{ 4n } \\left ( { 12n+1,2 } \\right )\\)，",
+    "∵\\(2024\\div 4=506\\)，",
+    "\\(P_{ 2024 }\\)的纵坐标与\\(P_{ 4 }\\)相同为\\(2\\)，横坐标为\\(1+12\\times 506=6073\\)，",
+    "∴\\(P_{ 2024 } \\left ( { 6073,2 } \\right )\\)，",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      29,
+      31
+    ],
+    "solution_body_blocks": [
+      116,
+      149
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-E01FBB0D0B/paper-q10-p02.webp",
+      "assets/SZ-G8-T2-E01FBB0D0B/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          668.18,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          195.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-E01FBB0D0B/solution-q10-p07.webp",
+      "assets/SZ-G8-T2-E01FBB0D0B/solution-q10-p08.webp",
+      "assets/SZ-G8-T2-E01FBB0D0B/solution-q10-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          712.27
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          174.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G09.01"
+  ],
+  "exam_ids": [
+    "E.G09.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+  "tag_source": "题文匹配"
+}

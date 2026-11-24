@@ -1,0 +1,370 @@
+{
+  "id": "SZ-G8-T2-6954CAC5BB-Q22",
+  "paper_id": "SZ-G8-T2-6954CAC5BB",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "如图1，在\\(Rt\\vartriangle ABC\\)中，\\(AB=BC\\)，\\(AC=2\\)，把一块含30°角的三角板\\(DEF\\)的直角顶点\\(D\\)放在\\(AC\\)的中点上（直角三角板的短直角边为\\(DE\\)，长直角边为\\(DF\\)），点\\(C\\)在\\(DE\\)上，点\\(B\\)在\\(DF\\)上．\n〔图1〕\n（1）求重叠部分\\(\\vartriangle BCD\\)的面积；\n（2）如图2，将直角三角板\\(DEF\\)绕\\(D\\)点按顺时针方向旋转30度，\\(DE\\)交\\(BC\\)于点\\(M\\)，\\(DF\\)交\\(AB\\)于点\\(N\\)，①请说明\\(DM=DN\\)；②在此条件下重叠部分的面积会发生变化吗？若发生变化，请求出重叠部分的面积，若不发生变化，请说明理由；\n（3）如图3，将直角三角板\\(DEF\\)绕\\(D\\)点按时针方向旋转\\(\\alpha\\)（\\(0 < \\alpha < 90\\)），\\(DE\\)交\\(BC\\)于点\\(M\\)，\\(DF\\)交\\(AB\\)于点\\(N\\)，则\\(DM=DN\\)的结论仍成立吗？重叠部分\\(\\vartriangle DMN\\)得面积会变吗？（请直接写出结论不需说明理由）",
+  "choices": [],
+  "figures": [
+    "assets/figures/60/6018e715a5eb902efcb24a702b283182e4f13c42269a2c665b6a3ba62e7698f5.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 1 } { 2 }\\)\n（2）①证明过程见详解；②重叠部分面积不变，面积为0.5\n（3）成立，重叠部分面积不变",
+  "answer": "（1）\\(\\frac { 1 } { 2 }\\)\n（2）①证明过程见详解；②重叠部分面积不变，面积为0.5\n（3）成立，重叠部分面积不变",
+  "given_solution": "【分析】（1）重叠部分△BCD是一个等腰直角三角形，求出其直角边，即可求解；\n（2）①连接BD，先证得BD＝CD，∠C＝∠NBD＝45°，进而求出△CDM≌△BDN，即可得到DM＝DN；②利用①中的结论△CDM≌△BDN即可得出答案；\n（3）证明过程类似（2），根据（2）中的结论，可以直接写出．\n【小问1详解】\n∵AB＝BC，AC＝2，D是AC的中点，∠ABC＝90°，\n∴∠BCD＝∠A＝∠CBD＝45°，BD⊥AC，\n∴CD＝BD＝\\(\\frac { 1 } { 2 }\\)AC＝1，\n∴S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)CD·BD＝\\(\\frac { 1 } { 2 }\\)×1×1＝\\(\\frac { 1 } { 2 }\\)；\n【小问2详解】\n①连接BD，\n〔图2〕\n根据题条件有∠EDF=90°，\n∵AB＝BC，D是AC的中点，∠ABC＝90°，\n∴∠C＝∠A＝∠CBD＝∠ABD＝45°，BD⊥AC，\n∴BD＝CD，∠C＝∠NBD＝45°，∠CDB＝90°，\n又∵∠EDF=90°，∠CDB＝90°，\n∴∠EDB+∠BDN=90°，∠CDM+∠EDB=90°，\n∴∠CDM＝∠BDN，\n∴△CDM≌△BDN(ASA)，\n∴DM＝DN；\n②由①知△CDM≌△BDN，\n∴S\\({}_{四边形}\\)\\({}_{BNDM}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)，\n即此条件下重叠部分的面积不变为\\(\\frac { 1 } { 2 }\\)；\n【小问3详解】\nDM＝DN的结论仍成立，重叠部分面积不会变.\n证明过程与（2）相同，连接BD，证明△CDM≌△BDN(ASA)即可．\n【点睛】本题考查等腰直角三角形的性质和三角形全等的判定和性质，正确理解题目中叙述的旋转过程，作出辅助线是解决本题的关键．",
+  "given_solution_figures": [
+    "assets/figures/a9/a93750b89a51959e642c29635bb42dd1c28c57a2b33d63494bca84757612a464.png",
+    "assets/figures/5f/5f5bf82399e2443b683a53dc469b59d33f0b3d10680dc75375131989a96543ca.png"
+  ],
+  "solution": "【小问1详解】\n∵AB＝BC，AC＝2，D是AC的中点，∠ABC＝90°，\n∴∠BCD＝∠A＝∠CBD＝45°，BD⊥AC，\n∴CD＝BD＝\\(\\frac { 1 } { 2 }\\)AC＝1，\n∴S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)CD·BD＝\\(\\frac { 1 } { 2 }\\)×1×1＝\\(\\frac { 1 } { 2 }\\)；\n【小问2详解】\n①连接BD，\n〔图2〕\n根据题条件有∠EDF=90°，\n∵AB＝BC，D是AC的中点，∠ABC＝90°，\n∴∠C＝∠A＝∠CBD＝∠ABD＝45°，BD⊥AC，\n∴BD＝CD，∠C＝∠NBD＝45°，∠CDB＝90°，\n又∵∠EDF=90°，∠CDB＝90°，\n∴∠EDB+∠BDN=90°，∠CDM+∠EDB=90°，\n∴∠CDM＝∠BDN，\n∴△CDM≌△BDN(ASA)，\n∴DM＝DN；\n②由①知△CDM≌△BDN，\n∴S\\({}_{四边形}\\)\\({}_{BNDM}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)，\n即此条件下重叠部分的面积不变为\\(\\frac { 1 } { 2 }\\)；\n【小问3详解】\nDM＝DN的结论仍成立，重叠部分面积不会变.\n证明过程与（2）相同，连接BD，证明△CDM≌△BDN(ASA)即可．",
+  "solution_steps": [
+    "【小问1详解】",
+    "∵AB＝BC，AC＝2，D是AC的中点，∠ABC＝90°，",
+    "∴∠BCD＝∠A＝∠CBD＝45°，BD⊥AC，",
+    "∴CD＝BD＝\\(\\frac { 1 } { 2 }\\)AC＝1，",
+    "∴S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)CD·BD＝\\(\\frac { 1 } { 2 }\\)×1×1＝\\(\\frac { 1 } { 2 }\\)；",
+    "【小问2详解】",
+    "①连接BD，",
+    "〔图2〕",
+    "根据题条件有∠EDF=90°，",
+    "∵AB＝BC，D是AC的中点，∠ABC＝90°，",
+    "∴∠C＝∠A＝∠CBD＝∠ABD＝45°，BD⊥AC，",
+    "∴BD＝CD，∠C＝∠NBD＝45°，∠CDB＝90°，",
+    "又∵∠EDF=90°，∠CDB＝90°，",
+    "∴∠EDB+∠BDN=90°，∠CDM+∠EDB=90°，",
+    "∴∠CDM＝∠BDN，",
+    "∴△CDM≌△BDN(ASA)，",
+    "∴DM＝DN；",
+    "②由①知△CDM≌△BDN，",
+    "∴S\\({}_{四边形}\\)\\({}_{BNDM}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)，",
+    "即此条件下重叠部分的面积不变为\\(\\frac { 1 } { 2 }\\)；",
+    "【小问3详解】",
+    "DM＝DN的结论仍成立，重叠部分面积不会变.",
+    "证明过程与（2）相同，连接BD，证明△CDM≌△BDN(ASA)即可．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在\\(Rt\\vartriangle ABC\\)中，\\(AB=BC\\)，\\(AC=2\\)，把一块含30°角的三角板\\(DEF\\)的直角顶点\\(D\\)放在\\(AC\\)的中点上（直角三角板的短直角边为\\(DE\\)，长直角边为\\(DF\\)），点\\(C\\)在\\(DE\\)上，点\\(B\\)在\\(DF\\)上．\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图2，将直角三角板\\(DEF\\)绕\\(D\\)点按顺时针方向旋转30度，\\(DE\\)交\\(BC\\)于点\\(M\\)，\\(DF\\)交\\(AB\\)于点\\(N\\)，",
+      "paper_blocks": [
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-6954CAC5BB-Q22-P01",
+      "label": "（1）",
+      "prompt": "求重叠部分\\(\\vartriangle BCD\\)的面积；",
+      "stem_text": "求重叠部分\\(\\vartriangle BCD\\)的面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 2 }\\)",
+      "answer": "\\(\\frac { 1 } { 2 }\\)",
+      "given_solution": "∵AB＝BC，AC＝2，D是AC的中点，∠ABC＝90°，\n∴∠BCD＝∠A＝∠CBD＝45°，BD⊥AC，\n∴CD＝BD＝\\(\\frac { 1 } { 2 }\\)AC＝1，\n∴S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)CD·BD＝\\(\\frac { 1 } { 2 }\\)×1×1＝\\(\\frac { 1 } { 2 }\\)；",
+      "solution_steps": [
+        "∵AB＝BC，AC＝2，D是AC的中点，∠ABC＝90°，",
+        "∴∠BCD＝∠A＝∠CBD＝45°，BD⊥AC，",
+        "∴CD＝BD＝\\(\\frac { 1 } { 2 }\\)AC＝1，",
+        "∴S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)CD·BD＝\\(\\frac { 1 } { 2 }\\)×1×1＝\\(\\frac { 1 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          72
+        ],
+        "solution_block_ids": [
+          368,
+          369,
+          370,
+          371
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“图形面积与分割”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6954CAC5BB-Q22-P02",
+      "label": "（2）①",
+      "prompt": "请说明\\(DM=DN\\)；",
+      "stem_text": "请说明\\(DM=DN\\)；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "证明过程见详解；",
+      "answer": "证明过程见详解；",
+      "given_solution": "连接BD，\n〔图2〕\n根据题条件有∠EDF=90°，\n∵AB＝BC，D是AC的中点，∠ABC＝90°，\n∴∠C＝∠A＝∠CBD＝∠ABD＝45°，BD⊥AC，\n∴BD＝CD，∠C＝∠NBD＝45°，∠CDB＝90°，\n又∵∠EDF=90°，∠CDB＝90°，\n∴∠EDB+∠BDN=90°，∠CDM+∠EDB=90°，\n∴∠CDM＝∠BDN，\n∴△CDM≌△BDN(ASA)，\n∴DM＝DN；",
+      "solution_steps": [
+        "连接BD，",
+        "〔图2〕",
+        "根据题条件有∠EDF=90°，",
+        "∵AB＝BC，D是AC的中点，∠ABC＝90°，",
+        "∴∠C＝∠A＝∠CBD＝∠ABD＝45°，BD⊥AC，",
+        "∴BD＝CD，∠C＝∠NBD＝45°，∠CDB＝90°，",
+        "又∵∠EDF=90°，∠CDB＝90°，",
+        "∴∠EDB+∠BDN=90°，∠CDM+∠EDB=90°，",
+        "∴∠CDM＝∠BDN，",
+        "∴△CDM≌△BDN(ASA)，",
+        "∴DM＝DN；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69,
+          72
+        ],
+        "solution_block_ids": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6954CAC5BB-Q22-P03",
+      "label": "（2）②",
+      "prompt": "在此条件下重叠部分的面积会发生变化吗？若发生变化，请求出重叠部分的面积，若不发生变化，请说明理由；",
+      "stem_text": "在此条件下重叠部分的面积会发生变化吗？若发生变化，请求出重叠部分的面积，若不发生变化，请说明理由；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "重叠部分面积不变，面积为0.5",
+      "answer": "重叠部分面积不变，面积为0.5",
+      "given_solution": "由①知△CDM≌△BDN，\n∴S\\({}_{四边形}\\)\\({}_{BNDM}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)，\n即此条件下重叠部分的面积不变为\\(\\frac { 1 } { 2 }\\)；",
+      "solution_steps": [
+        "由①知△CDM≌△BDN，",
+        "∴S\\({}_{四边形}\\)\\({}_{BNDM}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 1 } { 2 }\\)，",
+        "即此条件下重叠部分的面积不变为\\(\\frac { 1 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69,
+          72
+        ],
+        "solution_block_ids": [
+          384,
+          385,
+          386
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“图形面积与分割”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-6954CAC5BB-Q22-P04",
+      "label": "（3）",
+      "prompt": "如图3，将直角三角板\\(DEF\\)绕\\(D\\)点按时针方向旋转\\(\\alpha\\)（\\(0 < \\alpha < 90\\)），\\(DE\\)交\\(BC\\)于点\\(M\\)，\\(DF\\)交\\(AB\\)于点\\(N\\)，则\\(DM=DN\\)的结论仍成立吗？重叠部分\\(\\vartriangle DMN\\)得面积会变吗？（请直接写出结论不需说明理由）",
+      "stem_text": "如图3，将直角三角板\\(DEF\\)绕\\(D\\)点按时针方向旋转\\(\\alpha\\)（\\(0 < \\alpha < 90\\)），\\(DE\\)交\\(BC\\)于点\\(M\\)，\\(DF\\)交\\(AB\\)于点\\(N\\)，则\\(DM=DN\\)的结论仍成立吗？重叠部分\\(\\vartriangle DMN\\)得面积会变吗？（请直接写出结论不需说明理由）",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "成立，重叠部分面积不变",
+      "answer": "成立，重叠部分面积不变",
+      "given_solution": "DM＝DN的结论仍成立，重叠部分面积不会变.\n证明过程与（2）相同，连接BD，证明△CDM≌△BDN(ASA)即可．",
+      "solution_steps": [
+        "DM＝DN的结论仍成立，重叠部分面积不会变.",
+        "证明过程与（2）相同，连接BD，证明△CDM≌△BDN(ASA)即可．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          388,
+          389
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      72
+    ],
+    "solution_body_blocks": [
+      355,
+      392
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-6954CAC5BB/paper-q22-p05.webp",
+      "assets/SZ-G8-T2-6954CAC5BB/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          629.55,
+          583.64,
+          667.73
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          44.09,
+          583.64,
+          314.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-6954CAC5BB/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-6954CAC5BB/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          74.09,
+          583.64,
+          767.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          267.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G02.04",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01"
+  ],
+  "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“图形面积与分割”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问解答对应“选择充分条件证明三角形全等”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q18-P02",{"answer":"\\(400-2x\\) 件。","solution_steps":["售价每升10元，月销量少20件。沿用表中的线性关系，月销量为 \\(200-2(x-100)=400-2x\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

@@ -1,0 +1,104 @@
+{
+  "id": "SZ-G8-T1-5B888747C3-Q15",
+  "paper_id": "SZ-G8-T1-5B888747C3",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "利用直角三角形角与中线关系求值",
+  "stem": "如图，在平面直角坐标系中，将\\(\\vartriangle ABO\\)绕点\\(A\\)顺时针旋转到\\(\\vartriangle AB_{ 1 } C_{ 1 }\\)的位置，点\\(B\\)、\\(O\\)分别落在点\\(B_{ 1 }\\)、\\(C_{ 1 }\\)处，点\\(B_{ 1 }\\)在\\(x\\)轴上，再将\\(\\vartriangle AB_{ 1 } C_{ 1 }\\)绕点\\(B_{ 1 }\\)顺时针旋转到\\(\\vartriangle A_{ 1 } B_{ 1 } C_{ 2 }\\)的位置，点\\(C_{ 2 }\\)在\\(x\\)轴上，将\\(\\vartriangle A_{ 1 } B_{ 1 } C_{ 2 }\\)绕点\\(C_{ 2 }\\)顺时针旋转到\\(\\vartriangle A_{ 2 } B_{ 2 } C_{ 2 }\\)的位置，点\\(A_{ 2 }\\)在\\(x\\)轴上，依次进行下去…若点\\(A\\left ( { \\frac { 3 } { 2 },0 } \\right )\\)，\\(B\\left ( { 0,2 } \\right )\\)，则点\\(A_{ 2023 }\\)的坐标是__________．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-5B888747C3/figures/ae1cbb7f4620f0f4d629098a7def0e75c1d3bcf1d7244d5e22e1c8fdc539e91c.png"
+  ],
+  "tables": [],
+  "given_answer": "\\((6072,\\frac { 3 } { 2 })\\)",
+  "answer": "\\((6072,\\frac { 3 } { 2 })\\)",
+  "given_solution": "【分析】首先根据已知条件三角形的三边长度，然后通过旋转发现\\(A_{ 1 } \\left ( { 6,\\frac { 3 } { 2 } } \\right )，A_{ 3 } \\left ( { 12,\\frac { 3 } { 2 } } \\right )，A_{ 5 } \\left ( { 18,\\frac { 3 } { 2 } } \\right )\\)，…,根据这个规律可得出点\\(A_{ 2023 }\\)的坐标．\n【详解】解：∵\\(A\\left ( { \\frac { 3 } { 2 },0 } \\right )\\)，\\(B\\left ( { 0,2 } \\right )\\)，\n∴\\(OA=\\frac { 3 } { 2 }，OB=2\\)，\n∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\frac { 5 } { 2 }\\)，\n∴\\(OA+AB_{ 1 } +B_{ 1 } C_{ 2 } =\\frac { 3 } { 2 }+\\frac { 5 } { 2 }+2=6\\)，\n∴\\(A_{ 1 } \\left ( { 6,\\frac { 3 } { 2 } } \\right )，A_{ 3 } \\left ( { 12,\\frac { 3 } { 2 } } \\right )，A_{ 5 } \\left ( { 18,\\frac { 3 } { 2 } } \\right )\\)，…,\n\\(\\therefore A_{ n-1 } \\left ( { \\frac { n } { 2 }\\times 6,\\frac { 3 } { 2 } } \\right )\\)（\\(n\\)为偶数）\n∵\\(2024\\div 2=1012\\)，\\(1012\\times 6=6072\\)，\n∴\\(A_{ 2023 } \\left ( { 6072,\\frac { 3 } { 2 } } \\right )\\)，\n故答案为：\\(\\left ( { 6072，\\frac { 3 } { 2 } } \\right )\\)．\n【点睛】本题主要考查旋转的性质和直角三角形的性质，通过给出条件找出题目规律便可求出结果．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-5B888747C3/figures/ae1cbb7f4620f0f4d629098a7def0e75c1d3bcf1d7244d5e22e1c8fdc539e91c.png"
+  ],
+  "solution": "解：∵\\(A\\left ( { \\frac { 3 } { 2 },0 } \\right )\\)，\\(B\\left ( { 0,2 } \\right )\\)，\n∴\\(OA=\\frac { 3 } { 2 }，OB=2\\)，\n∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\frac { 5 } { 2 }\\)，\n∴\\(OA+AB_{ 1 } +B_{ 1 } C_{ 2 } =\\frac { 3 } { 2 }+\\frac { 5 } { 2 }+2=6\\)，\n∴\\(A_{ 1 } \\left ( { 6,\\frac { 3 } { 2 } } \\right )，A_{ 3 } \\left ( { 12,\\frac { 3 } { 2 } } \\right )，A_{ 5 } \\left ( { 18,\\frac { 3 } { 2 } } \\right )\\)，…,\n\\(\\therefore A_{ n-1 } \\left ( { \\frac { n } { 2 }\\times 6,\\frac { 3 } { 2 } } \\right )\\)（\\(n\\)为偶数）\n∵\\(2024\\div 2=1012\\)，\\(1012\\times 6=6072\\)，\n∴\\(A_{ 2023 } \\left ( { 6072,\\frac { 3 } { 2 } } \\right )\\)，\n故答案为：\\(\\left ( { 6072，\\frac { 3 } { 2 } } \\right )\\)．",
+  "solution_steps": [
+    "解：∵\\(A\\left ( { \\frac { 3 } { 2 },0 } \\right )\\)，\\(B\\left ( { 0,2 } \\right )\\)，",
+    "∴\\(OA=\\frac { 3 } { 2 }，OB=2\\)，",
+    "∴\\(AB=\\sqrt[] { OA ^ { 2 } +OB ^ { 2 } }=\\frac { 5 } { 2 }\\)，",
+    "∴\\(OA+AB_{ 1 } +B_{ 1 } C_{ 2 } =\\frac { 3 } { 2 }+\\frac { 5 } { 2 }+2=6\\)，",
+    "∴\\(A_{ 1 } \\left ( { 6,\\frac { 3 } { 2 } } \\right )，A_{ 3 } \\left ( { 12,\\frac { 3 } { 2 } } \\right )，A_{ 5 } \\left ( { 18,\\frac { 3 } { 2 } } \\right )\\)，…,",
+    "\\(\\therefore A_{ n-1 } \\left ( { \\frac { n } { 2 }\\times 6,\\frac { 3 } { 2 } } \\right )\\)（\\(n\\)为偶数）",
+    "∵\\(2024\\div 2=1012\\)，\\(1012\\times 6=6072\\)，",
+    "∴\\(A_{ 2023 } \\left ( { 6072,\\frac { 3 } { 2 } } \\right )\\)，",
+    "故答案为：\\(\\left ( { 6072，\\frac { 3 } { 2 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      41,
+      42
+    ],
+    "solution_body_blocks": [
+      194,
+      208
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5B888747C3/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          520.91,
+          583.64,
+          723.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5B888747C3/solution-q15-p10.webp",
+      "assets/SZ-G8-T1-5B888747C3/solution-q15-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          670.91,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          493.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.03"
+  ],
+  "exam_ids": [
+    "E.G04.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "解析点明的考查内容对应“利用直角三角形角与中线关系求值”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

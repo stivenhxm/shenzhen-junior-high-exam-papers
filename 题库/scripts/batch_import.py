@@ -30,7 +30,7 @@ def pending(root, candidates):
         original = root.parent/row['paper']
         status, match, _ = registry.lookup(entries, original, root.parent)
         if status == '已解析':
-            known_answers = [match['solution']['sha256'], *[s['sha256'] for s in match.get('alternate_sources',[])
+            known_answers = [match.get('solution',{}).get('sha256'), *[s['sha256'] for s in match.get('alternate_sources',[])
                              if '解析' in s['role'] or '评分' in s['role'] or ('答案' in s['role'] and '卡' not in s['role'])]]
             build.require(sources['solution']['sha256'] in known_answers,
                           f"{pid} 原卷已登记为 {match['id']}，但解析版有更新，请先校对版本")
@@ -77,6 +77,8 @@ def assemble(row, work, batch, revision):
     from batch_tags import review_book
     if pid in review_book():
         from batch_tags import apply_tags
+    elif pid.startswith('SZ-G8-'):
+        from g8_tags import apply_tags
     elif pid.startswith('SZ-G7-T2-'):
         from g7t2_tags import apply_tags
     else:
@@ -106,7 +108,8 @@ def assemble(row, work, batch, revision):
         if row.get(field):
             p[field]=row[field]
     p.update(schema_version='1.0', taxonomy_version='0.2', subject='数学', municipality='深圳市',
-             grade=row.get('grade','七年级'), semester=row.get('semester','下学期' if pid.startswith('SZ-G7-T2-') else '上学期'),
+             grade=row.get('grade','八年级' if pid.startswith('SZ-G8-') else '七年级'),
+             semester=row.get('semester','下学期' if '-T2-' in pid else '上学期'),
              question_ids=ids, sources=sources,
              ingestion={'batch':batch, 'answer_origin':'source_transcribed'})
     if revision:

@@ -1,0 +1,312 @@
+{
+  "id": "SZ-G8-T2-7B8498C602-Q21",
+  "paper_id": "SZ-G8-T2-7B8498C602",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，在△ABC中，AB＝BC，BE⊥AC于点E，AD⊥BC于点D，∠BAD＝45°，AD与BE交于点F，连接CF.\n（1）求证△ACD≌△BFD\n（2）求证：BF＝2AE；\n（3）若CD＝\\(\\sqrt[] { 2 }\\)，求AD的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/2e/2e5263292419d2ca8c37f1d1044624e3706b696abacb82c9bf2f8977bd469f9a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）见解析；（3）AD =2+\\(\\sqrt[] { 2 }\\)",
+  "answer": "（1）见解析；（2）见解析；（3）AD =2+\\(\\sqrt[] { 2 }\\)",
+  "given_solution": "【分析】（1）先判定出△ABD是等腰直角三角形，根据等腰直角三角形的性质可得AD=BD，再根据同角的余角相等求出∠CAD=∠CBE，然后利用“角边角”证明△ADC和△BDF全等；\n（2）根据全等三角形对应边相等可得BF=AC，再根据等腰三角形三线合一的性质可得AC=2AE，从而得证；\n（3）根据全等三角形对应边相等可得DF=CD，然后利用勾股定理列式求出CF，再根据线段垂直平分线上的点到线段两端点的距离相等可得AF=CF，然后根据AD=AF+DF代入数据即可得解．\n【详解】（1）∵AD⊥BC，∠BAD=45°，\n∴△ABD是等腰直角三角形，∴AD=BD，\n∵BE⊥AC，AD⊥BC，\n∴∠CAD+∠ACD=90°，∠CBE+∠ACD=90°，\n∴∠CAD=∠CBE，\n在△ADC和△BDF中，\n∠CAD＝∠CBE，AD＝BD，∠ADC＝∠BDF＝90°，\n∴△ACD≌△BFD（ASA）\n（2）由（1）可知：BF=AC\n∵AB=BC，BE⊥AC，\n∴AC=2AE，\n∴BF=2AE；\n(3) ∵△ACD≌△BFD，\n∴DF=CD=\\(\\sqrt[] { 2 }\\)，\n在Rt△CDF中，CF=\\(\\sqrt[] { DF ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (\\sqrt[] { 2 }) ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=2\\)，\n∵BE⊥AC，AE=EC，\n∴AF=CF=2．\n∴AD=AF+DF=2+\\(\\sqrt[] { 2 }\\)\n【点睛】本题考查了全等三角形的判定与性质，等腰直角三角形的判定与性质，等腰三角形三线合一的性质的应用，以及线段垂直平分线上的点到线段两端点的距离相的性质，熟记各性质并准确识图是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/2e/2e5263292419d2ca8c37f1d1044624e3706b696abacb82c9bf2f8977bd469f9a.png"
+  ],
+  "solution": "（1）∵AD⊥BC，∠BAD=45°，\n∴△ABD是等腰直角三角形，∴AD=BD，\n∵BE⊥AC，AD⊥BC，\n∴∠CAD+∠ACD=90°，∠CBE+∠ACD=90°，\n∴∠CAD=∠CBE，\n在△ADC和△BDF中，\n∠CAD＝∠CBE，AD＝BD，∠ADC＝∠BDF＝90°，\n∴△ACD≌△BFD（ASA）\n（2）由（1）可知：BF=AC\n∵AB=BC，BE⊥AC，\n∴AC=2AE，\n∴BF=2AE；\n(3) ∵△ACD≌△BFD，\n∴DF=CD=\\(\\sqrt[] { 2 }\\)，\n在Rt△CDF中，CF=\\(\\sqrt[] { DF ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (\\sqrt[] { 2 }) ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=2\\)，\n∵BE⊥AC，AE=EC，\n∴AF=CF=2．\n∴AD=AF+DF=2+\\(\\sqrt[] { 2 }\\)",
+  "solution_steps": [
+    "（1）∵AD⊥BC，∠BAD=45°，",
+    "∴△ABD是等腰直角三角形，∴AD=BD，",
+    "∵BE⊥AC，AD⊥BC，",
+    "∴∠CAD+∠ACD=90°，∠CBE+∠ACD=90°，",
+    "∴∠CAD=∠CBE，",
+    "在△ADC和△BDF中，",
+    "∠CAD＝∠CBE，AD＝BD，∠ADC＝∠BDF＝90°，",
+    "∴△ACD≌△BFD（ASA）",
+    "（2）由（1）可知：BF=AC",
+    "∵AB=BC，BE⊥AC，",
+    "∴AC=2AE，",
+    "∴BF=2AE；",
+    "(3) ∵△ACD≌△BFD，",
+    "∴DF=CD=\\(\\sqrt[] { 2 }\\)，",
+    "在Rt△CDF中，CF=\\(\\sqrt[] { DF ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (\\sqrt[] { 2 }) ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=2\\)，",
+    "∵BE⊥AC，AE=EC，",
+    "∴AF=CF=2．",
+    "∴AD=AF+DF=2+\\(\\sqrt[] { 2 }\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在△ABC中，AB＝BC，BE⊥AC于点E，AD⊥BC于点D，∠BAD＝45°，AD与BE交于点F，连接CF.",
+      "paper_blocks": [
+        53
+      ]
+    },
+    {
+      "id": "fig-57",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        57
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-7B8498C602-Q21-P01",
+      "label": "（1）",
+      "prompt": "求证△ACD≌△BFD",
+      "stem_text": "求证△ACD≌△BFD",
+      "material_ids": [
+        "context",
+        "fig-57"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵AD⊥BC，∠BAD=45°，\n∴△ABD是等腰直角三角形，∴AD=BD，\n∵BE⊥AC，AD⊥BC，\n∴∠CAD+∠ACD=90°，∠CBE+∠ACD=90°，\n∴∠CAD=∠CBE，\n在△ADC和△BDF中，\n∠CAD＝∠CBE，AD＝BD，∠ADC＝∠BDF＝90°，\n∴△ACD≌△BFD（ASA）",
+      "solution_steps": [
+        "∵AD⊥BC，∠BAD=45°，",
+        "∴△ABD是等腰直角三角形，∴AD=BD，",
+        "∵BE⊥AC，AD⊥BC，",
+        "∴∠CAD+∠ACD=90°，∠CBE+∠ACD=90°，",
+        "∴∠CAD=∠CBE，",
+        "在△ADC和△BDF中，",
+        "∠CAD＝∠CBE，AD＝BD，∠ADC＝∠BDF＝90°，",
+        "∴△ACD≌△BFD（ASA）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          54,
+          57
+        ],
+        "solution_block_ids": [
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7B8498C602-Q21-P02",
+      "label": "（2）",
+      "prompt": "求证：BF＝2AE；",
+      "stem_text": "求证：BF＝2AE；",
+      "material_ids": [
+        "context",
+        "fig-57"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "由（1）可知：BF=AC\n∵AB=BC，BE⊥AC，\n∴AC=2AE，\n∴BF=2AE；",
+      "solution_steps": [
+        "由（1）可知：BF=AC",
+        "∵AB=BC，BE⊥AC，",
+        "∴AC=2AE，",
+        "∴BF=2AE；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          55,
+          57
+        ],
+        "solution_block_ids": [
+          308,
+          309,
+          310,
+          311
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7B8498C602-Q21-P03",
+      "label": "（3）",
+      "prompt": "若CD＝\\(\\sqrt[] { 2 }\\)，求AD的长．",
+      "stem_text": "若CD＝\\(\\sqrt[] { 2 }\\)，求AD的长．",
+      "material_ids": [
+        "context",
+        "fig-57"
+      ],
+      "requires": [],
+      "given_answer": "AD =2+\\(\\sqrt[] { 2 }\\)",
+      "answer": "AD =2+\\(\\sqrt[] { 2 }\\)",
+      "given_solution": "∵△ACD≌△BFD，\n∴DF=CD=\\(\\sqrt[] { 2 }\\)，\n在Rt△CDF中，CF=\\(\\sqrt[] { DF ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (\\sqrt[] { 2 }) ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=2\\)，\n∵BE⊥AC，AE=EC，\n∴AF=CF=2．\n∴AD=AF+DF=2+\\(\\sqrt[] { 2 }\\)",
+      "solution_steps": [
+        "∵△ACD≌△BFD，",
+        "∴DF=CD=\\(\\sqrt[] { 2 }\\)，",
+        "在Rt△CDF中，CF=\\(\\sqrt[] { DF ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (\\sqrt[] { 2 }) ^ { 2 } +(\\sqrt[] { 2 }) ^ { 2 } }=2\\)，",
+        "∵BE⊥AC，AE=EC，",
+        "∴AF=CF=2．",
+        "∴AD=AF+DF=2+\\(\\sqrt[] { 2 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          53,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          317
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      53,
+      57
+    ],
+    "solution_body_blocks": [
+      290,
+      318
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-7B8498C602/paper-q21-p04.webp",
+      "assets/SZ-G8-T2-7B8498C602/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          518.18,
+          583.64,
+          632.27
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          59.55,
+          583.64,
+          175.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-7B8498C602/solution-q21-p14.webp",
+      "assets/SZ-G8-T2-7B8498C602/solution-q21-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          434.09,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          415.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G02.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 题目涉及“△”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

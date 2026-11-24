@@ -1,0 +1,359 @@
+{
+  "id": "SZ-G8-T2-7EDB91129F-Q22",
+  "paper_id": "SZ-G8-T2-7EDB91129F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由两点或表格条件确定一次表达式",
+  "stem": "如图，在平面直角坐标系中，直线\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，点C在线段OA上，将线段CB绕着点C顺时针旋转90°得到线段CD，此时点D恰好落在直线AB上，过点D作\\(DE\\bot x\\)轴于点E．\n〔图1〕\n（1）求证：\\(\\vartriangle BOC≌\\vartriangle CED\\)；\n（2）请直接写出点D的坐标，并求出直线BC的函数关系式；\n（3）若点P是x轴上的一个动点，点Q是线段CB上的点（不与点B、C重合），是否存在以C、D、P、Q为顶点的四边形是平行四边形？若存在，请直接写出所有满足条件的P点坐标．若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/cc/cc221c040dd875ac508e0c08fef22a8bf6cf91365fe106792ae7605806aa6562.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(D\\left ( { 4,1 } \\right )\\)，\\(y=-3x+3\\)\n（3）存在，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)",
+  "answer": "（1）见解析    （2）\\(D\\left ( { 4,1 } \\right )\\)，\\(y=-3x+3\\)\n（3）存在，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)",
+  "given_solution": "【分析】（1）根据旋转的性质可得\\(CB=CD\\)，\\(\\angle BCD=90{}^\\circ\\)，根据等角的余角相等可得，\\(\\angle OBC=\\angle ECD\\)，根据\\(AAS\\)即可证明\\(\\vartriangle BOC≌\\vartriangle CED\\)；\n（2）设直线\\(AB\\)的解析式为\\(y=kx+b\\)，待定系数法即可求得解析式，设\\(CO=DE=m\\)，即可得\\(D\\)\\((m+2,m)\\)的坐标，代入解析式即可求得\\(m\\)，进而求得\\(D\\)的坐标；\n（3）设点P的坐标为（0，m），点Q的坐标为\\(\\left ( { n,-3n+2 } \\right )\\)，分CD为边及CD为对角线两种情况考虑，利用平行四边形的对角线互相平分，根据中点坐标公式，即可得出关于m，n的二元一次方程组，解之即可得出点P的坐标．\n【小问1详解】\n证明：由旋转得\\(CB=CD\\)，\\(\\angle BCD=90{}^\\circ\\).\n又∵\\(\\angle BOC=90{}^\\circ\\)，\n∴\\(\\angle OBC+\\angle OCB=\\angle OCB+\\angle DCE=90{}^\\circ\\).\n∴\\(\\angle OBC=\\angle ECD\\)\n在\\(\\vartriangle OBC\\)与\\(\\vartriangle ECD\\)中\n∵\\(\\begin{cases} \\angle BOC=\\angle DEC \\\\ \\angle OBC=\\angle ECD \\\\ BC=CD \\end{cases}\\)\n∴\\(\\vartriangle OBC≌\\vartriangle ECD\\left ( { AAS } \\right )\\)\n【小问2详解】\n\\(\\because\\)\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，\n令\\(x=0\\)，得\\(y=3\\)，则\\(B\\left ( { 0,3 } \\right )\\)，\n令\\(y=0\\)，得\\(x=6\\)，则\\(A\\left ( { 6,0 } \\right )\\)\n\\(\\because\\)\\(\\vartriangle BOC\\)\\(≌\\)\\(\\vartriangle CED\\)，\n\\(\\therefore CO=DE\\)，\n设\\(CO=DE=m\\)，\n\\(\\because\\)\\(OB=CE=3\\)，\n\\(\\therefore D(m+3,m)\\)，\n\\(\\because\\)\\(D\\)点在直线\\(AB\\)上，将\\(D(m+3,m)\\)代入\\(y=-\\frac { 1 } { 2 }x+3\\)，\n即\\(m=-\\frac { 1 } { 2 }(m+3)+3\\)，\n解得\\(m=1\\)，\n\\(\\therefore D(4,1)\\)，\\(C\\left ( { 1,0 } \\right )\\)\n\\(\\because\\)\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)\n将点\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)代入得：\n\\(\\begin{cases} b=3 \\\\ k+b=0 \\end{cases}\\)\n解得\\(\\begin{cases} k=-3 \\\\ b=3 \\end{cases}\\)\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-3x+3\\)\n【小问3详解】\n设点P的坐标为（m ，0），点Q的坐标为\\(\\left ( { n,-3n+3 } \\right )\\)，分两种情况考虑：\n①若CD为边时，\n∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)\n∴\\(\\begin{cases} m+4=n+1 \\\\ 0+1=0-3n+3 \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { 7 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，\n∴点P的坐标为\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)；\n②若CD为对角线，\n∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)\n∴\\(\\begin{cases} 1+4=m+n \\\\ 0-3n+3=0+1 \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 13 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，\n∴点P的坐标为\\(\\left ( { \\frac { 13 } { 3 }，0 } \\right )\\)；\n综上所述，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\).\n【点睛】本题考查了全等三角形的判定与性质、旋转的性质、一次函数图象上点的坐标特征、待定系数法求一次函数解析式以及平行四边形的性质，解题的关键是掌握利用全等三角形的判定定理AAS；利用一次函数图象上点的坐标特征；利用平行四边形的对角线互相平分的性质．",
+  "given_solution_figures": [
+    "assets/figures/40/406351496dd0695e3b72e71642517d2859bdf59180339830edd2ea2f44f250b5.png"
+  ],
+  "solution": "【小问1详解】\n证明：由旋转得\\(CB=CD\\)，\\(\\angle BCD=90{}^\\circ\\).\n又∵\\(\\angle BOC=90{}^\\circ\\)，\n∴\\(\\angle OBC+\\angle OCB=\\angle OCB+\\angle DCE=90{}^\\circ\\).\n∴\\(\\angle OBC=\\angle ECD\\)\n在\\(\\vartriangle OBC\\)与\\(\\vartriangle ECD\\)中\n∵\\(\\begin{cases} \\angle BOC=\\angle DEC \\\\ \\angle OBC=\\angle ECD \\\\ BC=CD \\end{cases}\\)\n∴\\(\\vartriangle OBC≌\\vartriangle ECD\\left ( { AAS } \\right )\\)\n【小问2详解】\n\\(\\because\\)\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，\n令\\(x=0\\)，得\\(y=3\\)，则\\(B\\left ( { 0,3 } \\right )\\)，\n令\\(y=0\\)，得\\(x=6\\)，则\\(A\\left ( { 6,0 } \\right )\\)\n\\(\\because\\)\\(\\vartriangle BOC\\)\\(≌\\)\\(\\vartriangle CED\\)，\n\\(\\therefore CO=DE\\)，\n设\\(CO=DE=m\\)，\n\\(\\because\\)\\(OB=CE=3\\)，\n\\(\\therefore D(m+3,m)\\)，\n\\(\\because\\)\\(D\\)点在直线\\(AB\\)上，将\\(D(m+3,m)\\)代入\\(y=-\\frac { 1 } { 2 }x+3\\)，\n即\\(m=-\\frac { 1 } { 2 }(m+3)+3\\)，\n解得\\(m=1\\)，\n\\(\\therefore D(4,1)\\)，\\(C\\left ( { 1,0 } \\right )\\)\n\\(\\because\\)\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)\n将点\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)代入得：\n\\(\\begin{cases} b=3 \\\\ k+b=0 \\end{cases}\\)\n解得\\(\\begin{cases} k=-3 \\\\ b=3 \\end{cases}\\)\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-3x+3\\)\n【小问3详解】\n设点P的坐标为（m ，0），点Q的坐标为\\(\\left ( { n,-3n+3 } \\right )\\)，分两种情况考虑：\n①若CD为边时，\n∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)\n∴\\(\\begin{cases} m+4=n+1 \\\\ 0+1=0-3n+3 \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { 7 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，\n∴点P的坐标为\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)；\n②若CD为对角线，\n∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)\n∴\\(\\begin{cases} 1+4=m+n \\\\ 0-3n+3=0+1 \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 13 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，\n∴点P的坐标为\\(\\left ( { \\frac { 13 } { 3 }，0 } \\right )\\)；\n综上所述，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\).",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：由旋转得\\(CB=CD\\)，\\(\\angle BCD=90{}^\\circ\\).",
+    "又∵\\(\\angle BOC=90{}^\\circ\\)，",
+    "∴\\(\\angle OBC+\\angle OCB=\\angle OCB+\\angle DCE=90{}^\\circ\\).",
+    "∴\\(\\angle OBC=\\angle ECD\\)",
+    "在\\(\\vartriangle OBC\\)与\\(\\vartriangle ECD\\)中",
+    "∵\\(\\begin{cases} \\angle BOC=\\angle DEC \\\\ \\angle OBC=\\angle ECD \\\\ BC=CD \\end{cases}\\)",
+    "∴\\(\\vartriangle OBC≌\\vartriangle ECD\\left ( { AAS } \\right )\\)",
+    "【小问2详解】",
+    "\\(\\because\\)\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，",
+    "令\\(x=0\\)，得\\(y=3\\)，则\\(B\\left ( { 0,3 } \\right )\\)，",
+    "令\\(y=0\\)，得\\(x=6\\)，则\\(A\\left ( { 6,0 } \\right )\\)",
+    "\\(\\because\\)\\(\\vartriangle BOC\\)\\(≌\\)\\(\\vartriangle CED\\)，",
+    "\\(\\therefore CO=DE\\)，",
+    "设\\(CO=DE=m\\)，",
+    "\\(\\because\\)\\(OB=CE=3\\)，",
+    "\\(\\therefore D(m+3,m)\\)，",
+    "\\(\\because\\)\\(D\\)点在直线\\(AB\\)上，将\\(D(m+3,m)\\)代入\\(y=-\\frac { 1 } { 2 }x+3\\)，",
+    "即\\(m=-\\frac { 1 } { 2 }(m+3)+3\\)，",
+    "解得\\(m=1\\)，",
+    "\\(\\therefore D(4,1)\\)，\\(C\\left ( { 1,0 } \\right )\\)",
+    "\\(\\because\\)\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)",
+    "设直线\\(BC\\)的解析式为\\(y=kx+b\\)",
+    "将点\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)代入得：",
+    "\\(\\begin{cases} b=3 \\\\ k+b=0 \\end{cases}\\)",
+    "解得\\(\\begin{cases} k=-3 \\\\ b=3 \\end{cases}\\)",
+    "\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-3x+3\\)",
+    "【小问3详解】",
+    "设点P的坐标为（m ，0），点Q的坐标为\\(\\left ( { n,-3n+3 } \\right )\\)，分两种情况考虑：",
+    "①若CD为边时，",
+    "∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)",
+    "∴\\(\\begin{cases} m+4=n+1 \\\\ 0+1=0-3n+3 \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { 7 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，",
+    "∴点P的坐标为\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)；",
+    "②若CD为对角线，",
+    "∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)",
+    "∴\\(\\begin{cases} 1+4=m+n \\\\ 0-3n+3=0+1 \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 13 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，",
+    "∴点P的坐标为\\(\\left ( { \\frac { 13 } { 3 }，0 } \\right )\\)；",
+    "综上所述，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)."
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，点C在线段OA上，将线段CB绕着点C顺时针旋转90°得到线段CD，此时点D恰好落在直线AB上，过点D作\\(DE\\bot x\\)轴于点E．\n〔图1〕",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-7EDB91129F-Q22-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(\\vartriangle BOC≌\\vartriangle CED\\)；",
+      "stem_text": "求证：\\(\\vartriangle BOC≌\\vartriangle CED\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：由旋转得\\(CB=CD\\)，\\(\\angle BCD=90{}^\\circ\\).\n又∵\\(\\angle BOC=90{}^\\circ\\)，\n∴\\(\\angle OBC+\\angle OCB=\\angle OCB+\\angle DCE=90{}^\\circ\\).\n∴\\(\\angle OBC=\\angle ECD\\)\n在\\(\\vartriangle OBC\\)与\\(\\vartriangle ECD\\)中\n∵\\(\\begin{cases} \\angle BOC=\\angle DEC \\\\ \\angle OBC=\\angle ECD \\\\ BC=CD \\end{cases}\\)\n∴\\(\\vartriangle OBC≌\\vartriangle ECD\\left ( { AAS } \\right )\\)",
+      "solution_steps": [
+        "证明：由旋转得\\(CB=CD\\)，\\(\\angle BCD=90{}^\\circ\\).",
+        "又∵\\(\\angle BOC=90{}^\\circ\\)，",
+        "∴\\(\\angle OBC+\\angle OCB=\\angle OCB+\\angle DCE=90{}^\\circ\\).",
+        "∴\\(\\angle OBC=\\angle ECD\\)",
+        "在\\(\\vartriangle OBC\\)与\\(\\vartriangle ECD\\)中",
+        "∵\\(\\begin{cases} \\angle BOC=\\angle DEC \\\\ \\angle OBC=\\angle ECD \\\\ BC=CD \\end{cases}\\)",
+        "∴\\(\\vartriangle OBC≌\\vartriangle ECD\\left ( { AAS } \\right )\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          69
+        ],
+        "solution_block_ids": [
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7EDB91129F-Q22-P02",
+      "label": "（2）",
+      "prompt": "请直接写出点D的坐标，并求出直线BC的函数关系式；",
+      "stem_text": "请直接写出点D的坐标，并求出直线BC的函数关系式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(D\\left ( { 4,1 } \\right )\\)，\\(y=-3x+3\\)",
+      "answer": "\\(D\\left ( { 4,1 } \\right )\\)，\\(y=-3x+3\\)",
+      "given_solution": "\\(\\because\\)\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，\n令\\(x=0\\)，得\\(y=3\\)，则\\(B\\left ( { 0,3 } \\right )\\)，\n令\\(y=0\\)，得\\(x=6\\)，则\\(A\\left ( { 6,0 } \\right )\\)\n\\(\\because\\)\\(\\vartriangle BOC\\)\\(≌\\)\\(\\vartriangle CED\\)，\n\\(\\therefore CO=DE\\)，\n设\\(CO=DE=m\\)，\n\\(\\because\\)\\(OB=CE=3\\)，\n\\(\\therefore D(m+3,m)\\)，\n\\(\\because\\)\\(D\\)点在直线\\(AB\\)上，将\\(D(m+3,m)\\)代入\\(y=-\\frac { 1 } { 2 }x+3\\)，\n即\\(m=-\\frac { 1 } { 2 }(m+3)+3\\)，\n解得\\(m=1\\)，\n\\(\\therefore D(4,1)\\)，\\(C\\left ( { 1,0 } \\right )\\)\n\\(\\because\\)\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)\n将点\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)代入得：\n\\(\\begin{cases} b=3 \\\\ k+b=0 \\end{cases}\\)\n解得\\(\\begin{cases} k=-3 \\\\ b=3 \\end{cases}\\)\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-3x+3\\)",
+      "solution_steps": [
+        "\\(\\because\\)\\(y=-\\frac { 1 } { 2 }x+3\\)与x轴、y轴相交于A、B两点，",
+        "令\\(x=0\\)，得\\(y=3\\)，则\\(B\\left ( { 0,3 } \\right )\\)，",
+        "令\\(y=0\\)，得\\(x=6\\)，则\\(A\\left ( { 6,0 } \\right )\\)",
+        "\\(\\because\\)\\(\\vartriangle BOC\\)\\(≌\\)\\(\\vartriangle CED\\)，",
+        "\\(\\therefore CO=DE\\)，",
+        "设\\(CO=DE=m\\)，",
+        "\\(\\because\\)\\(OB=CE=3\\)，",
+        "\\(\\therefore D(m+3,m)\\)，",
+        "\\(\\because\\)\\(D\\)点在直线\\(AB\\)上，将\\(D(m+3,m)\\)代入\\(y=-\\frac { 1 } { 2 }x+3\\)，",
+        "即\\(m=-\\frac { 1 } { 2 }(m+3)+3\\)，",
+        "解得\\(m=1\\)，",
+        "\\(\\therefore D(4,1)\\)，\\(C\\left ( { 1,0 } \\right )\\)",
+        "\\(\\because\\)\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)",
+        "设直线\\(BC\\)的解析式为\\(y=kx+b\\)",
+        "将点\\(B\\left ( { 0,3 } \\right )\\),\\(C\\left ( { 1,0 } \\right )\\)代入得：",
+        "\\(\\begin{cases} b=3 \\\\ k+b=0 \\end{cases}\\)",
+        "解得\\(\\begin{cases} k=-3 \\\\ b=3 \\end{cases}\\)",
+        "\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-3x+3\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-7EDB91129F-Q22-P03",
+      "label": "（3）",
+      "prompt": "若点P是x轴上的一个动点，点Q是线段CB上的点（不与点B、C重合），是否存在以C、D、P、Q为顶点的四边形是平行四边形？若存在，请直接写出所有满足条件的P点坐标．若不存在，请说明理由．",
+      "stem_text": "若点P是x轴上的一个动点，点Q是线段CB上的点（不与点B、C重合），是否存在以C、D、P、Q为顶点的四边形是平行四边形？若存在，请直接写出所有满足条件的P点坐标．若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)",
+      "answer": "存在，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)",
+      "given_solution": "设点P的坐标为（m ，0），点Q的坐标为\\(\\left ( { n,-3n+3 } \\right )\\)，分两种情况考虑：\n①若CD为边时，\n∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)\n∴\\(\\begin{cases} m+4=n+1 \\\\ 0+1=0-3n+3 \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { 7 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，\n∴点P的坐标为\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)；\n②若CD为对角线，\n∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)\n∴\\(\\begin{cases} 1+4=m+n \\\\ 0-3n+3=0+1 \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 13 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，\n∴点P的坐标为\\(\\left ( { \\frac { 13 } { 3 }，0 } \\right )\\)；\n综上所述，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\).",
+      "solution_steps": [
+        "设点P的坐标为（m ，0），点Q的坐标为\\(\\left ( { n,-3n+3 } \\right )\\)，分两种情况考虑：",
+        "①若CD为边时，",
+        "∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)",
+        "∴\\(\\begin{cases} m+4=n+1 \\\\ 0+1=0-3n+3 \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { 7 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，",
+        "∴点P的坐标为\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)；",
+        "②若CD为对角线，",
+        "∵C（1，0），D（4，1），P（m ，0），Q\\(\\left ( { n,-3n+3 } \\right )\\)",
+        "∴\\(\\begin{cases} 1+4=m+n \\\\ 0-3n+3=0+1 \\end{cases}\\)，解得：\\(\\begin{cases} m=\\frac { 13 } { 3 } \\\\ n=\\frac { 2 } { 3 } \\end{cases}\\)，",
+        "∴点P的坐标为\\(\\left ( { \\frac { 13 } { 3 }，0 } \\right )\\)；",
+        "综上所述，\\(P\\left ( { \\frac { 13 } { 3 },0 } \\right )\\)或\\(\\left ( { -\\frac { 7 } { 3 },0 } \\right )\\)."
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.03"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      69
+    ],
+    "solution_body_blocks": [
+      389,
+      440
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-7EDB91129F/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          265.0,
+          583.64,
+          641.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-7EDB91129F/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-7EDB91129F/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-7EDB91129F/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          379.55,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          548.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.N11.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.N11.02.01",
+    "E.G09.03.03"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+  "tag_source": "小问标签汇总"
+}

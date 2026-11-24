@@ -1,0 +1,314 @@
+{
+  "id": "SZ-G8-T2-3790FAF765-Q18",
+  "paper_id": "SZ-G8-T2-3790FAF765",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，在等腰Rt△ABC中，∠A＝90°，AB＝AC，点D是斜边BC的中点，点E、F分别为AB、AC边上的点，且DE⊥DF．\n〔图1〕\n（1）判断DF与DE的大小关系，并说明理由；\n（2）若BE＝8，CF＝6，求：\n①EF的长；\n②△DEF的面积．",
+  "choices": [],
+  "figures": [
+    "assets/figures/d2/d289a8ce48f237cf103e3de43d302cd9a4b01890ab265bf4d931ce7a4c690a85.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）相等，见解析；（2）①10；②25",
+  "answer": "（1）相等，见解析；（2）①10；②25",
+  "given_solution": "【分析】（1）连接AD，首先利用等腰三角形的性质得到AD⊥BC，AD=CD=BD，从而得到∠CDF=∠ADE，然后利用ASA证得\\(\\vartriangle DCF≌\\vartriangle ADE\\)后即可证得DF=DE；\n（2）①由（1）知：AE=CF，AF=BE，在\\(Rt\\vartriangle AEF\\)中，运用勾股定理可将EF的值求出，②根据DE=DF，即\\(\\vartriangle EDF\\)为等腰直角三角形，运用勾股定理可求出DE、DF的值，即可求解\\(\\vartriangle DEF\\)的面积．\n【详解】解：（1）连接AD，\n〔图2〕\n∵AB＝AC，D为BC的中点，\n∴AD⊥BC，AD＝CD＝BD，\n∵DE⊥DF，\n∴∠CDF+∠ADF＝∠EDA+∠ADF，\n即∠CDF＝∠ADE，\n在△DCF和△ADE中，\n\\(\\begin{cases} \\angle C=\\angle DAE \\\\ \\angle CDF=\\angle ADE \\\\ CD=AD \\end{cases}\\)，\n∴△DCF≌△ADE（ASA），\n∴DF＝DE；\n（2）①解：由（1）知：AE＝CF＝6，同理AF＝BE＝8．\n∵∠EAF＝90°，\n∴EF\\({}^{2}\\)＝AE\\({}^{2}\\)+AF\\({}^{2}\\)＝6\\({}^{2}\\)+8\\({}^{2}\\)＝100．\n∴EF＝10，\n②∵由（1）知：△AED≌△CFD，\n∴DE＝DF，\n∴△DEF为等腰直角三角形，DE\\({}^{2}\\)+DF\\({}^{2}\\)＝EF\\({}^{2}\\)＝100，\n∴DE＝DF＝\\(5\\sqrt[] { 2 }\\)，\n∴S\\({}_{△}\\)\\({}_{DEF}\\)＝\\(\\frac { 1 } { 2 }\\times \\left ( { 5\\sqrt[] { 2 } } \\right ) ^ { 2 } =25\\)．\n【点睛】本题考查了全等三角形的判定定理，等腰直角三角形的性质，勾股定理，熟练掌握全等三角形的判定方法是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/d2/d289a8ce48f237cf103e3de43d302cd9a4b01890ab265bf4d931ce7a4c690a85.png",
+    "assets/figures/2a/2a4ca400b035f0e164784040404bf5a86cf28229f4e0b13f1b63b897e66eb69f.png"
+  ],
+  "solution": "解：（1）连接AD，\n〔图2〕\n∵AB＝AC，D为BC的中点，\n∴AD⊥BC，AD＝CD＝BD，\n∵DE⊥DF，\n∴∠CDF+∠ADF＝∠EDA+∠ADF，\n即∠CDF＝∠ADE，\n在△DCF和△ADE中，\n\\(\\begin{cases} \\angle C=\\angle DAE \\\\ \\angle CDF=\\angle ADE \\\\ CD=AD \\end{cases}\\)，\n∴△DCF≌△ADE（ASA），\n∴DF＝DE；\n（2）①解：由（1）知：AE＝CF＝6，同理AF＝BE＝8．\n∵∠EAF＝90°，\n∴EF\\({}^{2}\\)＝AE\\({}^{2}\\)+AF\\({}^{2}\\)＝6\\({}^{2}\\)+8\\({}^{2}\\)＝100．\n∴EF＝10，\n②∵由（1）知：△AED≌△CFD，\n∴DE＝DF，\n∴△DEF为等腰直角三角形，DE\\({}^{2}\\)+DF\\({}^{2}\\)＝EF\\({}^{2}\\)＝100，\n∴DE＝DF＝\\(5\\sqrt[] { 2 }\\)，\n∴S\\({}_{△}\\)\\({}_{DEF}\\)＝\\(\\frac { 1 } { 2 }\\times \\left ( { 5\\sqrt[] { 2 } } \\right ) ^ { 2 } =25\\)．",
+  "solution_steps": [
+    "解：（1）连接AD，",
+    "〔图2〕",
+    "∵AB＝AC，D为BC的中点，",
+    "∴AD⊥BC，AD＝CD＝BD，",
+    "∵DE⊥DF，",
+    "∴∠CDF+∠ADF＝∠EDA+∠ADF，",
+    "即∠CDF＝∠ADE，",
+    "在△DCF和△ADE中，",
+    "\\(\\begin{cases} \\angle C=\\angle DAE \\\\ \\angle CDF=\\angle ADE \\\\ CD=AD \\end{cases}\\)，",
+    "∴△DCF≌△ADE（ASA），",
+    "∴DF＝DE；",
+    "（2）①解：由（1）知：AE＝CF＝6，同理AF＝BE＝8．",
+    "∵∠EAF＝90°，",
+    "∴EF\\({}^{2}\\)＝AE\\({}^{2}\\)+AF\\({}^{2}\\)＝6\\({}^{2}\\)+8\\({}^{2}\\)＝100．",
+    "∴EF＝10，",
+    "②∵由（1）知：△AED≌△CFD，",
+    "∴DE＝DF，",
+    "∴△DEF为等腰直角三角形，DE\\({}^{2}\\)+DF\\({}^{2}\\)＝EF\\({}^{2}\\)＝100，",
+    "∴DE＝DF＝\\(5\\sqrt[] { 2 }\\)，",
+    "∴S\\({}_{△}\\)\\({}_{DEF}\\)＝\\(\\frac { 1 } { 2 }\\times \\left ( { 5\\sqrt[] { 2 } } \\right ) ^ { 2 } =25\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在等腰Rt△ABC中，∠A＝90°，AB＝AC，点D是斜边BC的中点，点E、F分别为AB、AC边上的点，且DE⊥DF．\n〔图1〕",
+      "paper_blocks": [
+        55,
+        56
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "若BE＝8，CF＝6，求：",
+      "paper_blocks": [
+        58
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3790FAF765-Q18-P01",
+      "label": "（1）",
+      "prompt": "判断DF与DE的大小关系，并说明理由；",
+      "stem_text": "判断DF与DE的大小关系，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "相等，见解析；",
+      "answer": "相等，见解析；",
+      "given_solution": "连接AD，\n〔图2〕\n∵AB＝AC，D为BC的中点，\n∴AD⊥BC，AD＝CD＝BD，\n∵DE⊥DF，\n∴∠CDF+∠ADF＝∠EDA+∠ADF，\n即∠CDF＝∠ADE，\n在△DCF和△ADE中，\n\\(\\begin{cases} \\angle C=\\angle DAE \\\\ \\angle CDF=\\angle ADE \\\\ CD=AD \\end{cases}\\)，\n∴△DCF≌△ADE（ASA），\n∴DF＝DE；",
+      "solution_steps": [
+        "连接AD，",
+        "〔图2〕",
+        "∵AB＝AC，D为BC的中点，",
+        "∴AD⊥BC，AD＝CD＝BD，",
+        "∵DE⊥DF，",
+        "∴∠CDF+∠ADF＝∠EDA+∠ADF，",
+        "即∠CDF＝∠ADE，",
+        "在△DCF和△ADE中，",
+        "\\(\\begin{cases} \\angle C=\\angle DAE \\\\ \\angle CDF=\\angle ADE \\\\ CD=AD \\end{cases}\\)，",
+        "∴△DCF≌△ADE（ASA），",
+        "∴DF＝DE；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          246,
+          247,
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3790FAF765-Q18-P02",
+      "label": "（2）①",
+      "prompt": "EF的长；",
+      "stem_text": "EF的长；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "10；",
+      "answer": "10；",
+      "given_solution": "解：由（1）知：AE＝CF＝6，同理AF＝BE＝8．\n∵∠EAF＝90°，\n∴EF\\({}^{2}\\)＝AE\\({}^{2}\\)+AF\\({}^{2}\\)＝6\\({}^{2}\\)+8\\({}^{2}\\)＝100．\n∴EF＝10，",
+      "solution_steps": [
+        "解：由（1）知：AE＝CF＝6，同理AF＝BE＝8．",
+        "∵∠EAF＝90°，",
+        "∴EF\\({}^{2}\\)＝AE\\({}^{2}\\)+AF\\({}^{2}\\)＝6\\({}^{2}\\)+8\\({}^{2}\\)＝100．",
+        "∴EF＝10，"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          257,
+          258,
+          259,
+          260
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3790FAF765-Q18-P03",
+      "label": "（2）②",
+      "prompt": "△DEF的面积．",
+      "stem_text": "△DEF的面积．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "25",
+      "answer": "25",
+      "given_solution": "∵由（1）知：△AED≌△CFD，\n∴DE＝DF，\n∴△DEF为等腰直角三角形，DE\\({}^{2}\\)+DF\\({}^{2}\\)＝EF\\({}^{2}\\)＝100，\n∴DE＝DF＝\\(5\\sqrt[] { 2 }\\)，\n∴S\\({}_{△}\\)\\({}_{DEF}\\)＝\\(\\frac { 1 } { 2 }\\times \\left ( { 5\\sqrt[] { 2 } } \\right ) ^ { 2 } =25\\)．",
+      "solution_steps": [
+        "∵由（1）知：△AED≌△CFD，",
+        "∴DE＝DF，",
+        "∴△DEF为等腰直角三角形，DE\\({}^{2}\\)+DF\\({}^{2}\\)＝EF\\({}^{2}\\)＝100，",
+        "∴DE＝DF＝\\(5\\sqrt[] { 2 }\\)，",
+        "∴S\\({}_{△}\\)\\({}_{DEF}\\)＝\\(\\frac { 1 } { 2 }\\times \\left ( { 5\\sqrt[] { 2 } } \\right ) ^ { 2 } =25\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58,
+          60
+        ],
+        "solution_block_ids": [
+          261,
+          262,
+          263,
+          264,
+          265
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      55,
+      60
+    ],
+    "solution_body_blocks": [
+      236,
+      266
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3790FAF765/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          526.36,
+          583.64,
+          767.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3790FAF765/solution-q18-p12.webp",
+      "assets/SZ-G8-T2-3790FAF765/solution-q18-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          549.09,
+          583.64,
+          704.09
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          673.64
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的运算或证明步骤对应“从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

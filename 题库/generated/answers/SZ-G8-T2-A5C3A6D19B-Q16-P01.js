@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q16-P01",{"answer":"\\(x=2\\) 或 \\(x=6\\)。","solution_steps":["配方得 \\(x^2-8x+16=4\\)，即 \\((x-4)^2=4\\)。故 \\(x-4=\\pm2\\)，从而 \\(x=2,6\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

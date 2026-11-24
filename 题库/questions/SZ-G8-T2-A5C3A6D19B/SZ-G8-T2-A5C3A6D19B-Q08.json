@@ -1,0 +1,80 @@
+{
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-A5C3A6D19B-Q08",
+  "number": 8,
+  "paper_id": "SZ-G8-T2-A5C3A6D19B",
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，\\(△ABC\\)为等腰直角三角形，\\(∠C=90°\\)，将\\(△ABC\\)按如图方式进行折叠，使点\\(A\\)与\\(BC\\)边上的点\\(F\\)重合，折痕分别与\\(AC\\)、\\(AB\\)交于点\\(D\\)、点\\(E.\\)下列结论：\\(①∠1=∠2\\)；\\(②∠1+∠2=90°\\)；\\(③∠3+∠B=90°\\)；\\(④DF//AB.\\)其中一定正确的结论有(    )\n〔图1〕",
+  "type": "选择题",
+  "points": null,
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(1\\)个"
+    },
+    {
+      "label": "B",
+      "text": "\\(2\\)个"
+    },
+    {
+      "label": "C",
+      "text": "\\(3\\)个"
+    },
+    {
+      "label": "D",
+      "text": "\\(4\\)个"
+    }
+  ],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/20/20c66326465268276f3220c03fda81eb39030d779e402fbb2edd026dd78ffabc.png"
+  ],
+  "tables": [],
+  "answer": "B（②③，共2个）",
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "折叠把 \\(\\angle DAE\\) 映到 \\(\\angle DFE=\\angle3\\)，故 \\(\\angle3=45^\\circ\\)，与 \\(\\angle B\\) 互余，③成立。",
+    "在直角三角形 CDF 中，\\(\\angle DFC=90^\\circ-\\angle1\\)。由 C、F、B 共线得 \\(\\angle EFB=180^\\circ-\\angle DFC-45^\\circ=45^\\circ+\\angle1\\)。在三角形 EFB 中，\\(\\angle2=90^\\circ-\\angle1\\)，②成立。",
+    "F 在 BC 上的位置可变，角1不恒为45°。角1、角2并非恒相等，DF 也并非恒与 AB 平行。"
+  ],
+  "solution_origin": "editorial_answer_and_solution",
+  "solution": "折叠把 \\(\\angle DAE\\) 映到 \\(\\angle DFE=\\angle3\\)，故 \\(\\angle3=45^\\circ\\)，与 \\(\\angle B\\) 互余，③成立。\n在直角三角形 CDF 中，\\(\\angle DFC=90^\\circ-\\angle1\\)。由 C、F、B 共线得 \\(\\angle EFB=180^\\circ-\\angle DFC-45^\\circ=45^\\circ+\\angle1\\)。在三角形 EFB 中，\\(\\angle2=90^\\circ-\\angle1\\)，②成立。\nF 在 BC 上的位置可变，角1不恒为45°。角1、角2并非恒相等，DF 也并非恒与 AB 平行。",
+  "review_note": "原卷未附答案，以下解答按卷面条件推导。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-A5C3A6D19B/single/q08-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          13,
+          211.53,
+          582.2,
+          408.92
+        ]
+      }
+    ],
+    "solution_images": [],
+    "solution_pages": [],
+    "solution_regions": []
+  },
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,337 @@
+{
+  "id": "SZ-G8-T2-744CB3FF11-Q23",
+  "paper_id": "SZ-G8-T2-744CB3FF11",
+  "number": 23,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、由两点或表格条件确定一次表达式",
+  "stem": "如图，已知点A（﹣3，2），点B是x轴正半轴上一个动点，连接AB，以AB为斜边在AB的上方构造等腰直角△ABC，连接DC．\n（1）当点B的坐标为（4，0）时，点C的坐标是_______；\n（2）当点B在x轴正半轴上运动的时候，点C是否在一直线上运动，如果是，请求出点C所在直线的解析式；如果不是，请说明理由；\n（3）在B点的运动过程中，猜想DC与DB有怎样的数量关系，并证明你的结论．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/ef/ef48ca58bc92a429343e6601e1fc70de6ab3cc4e8bdbcd97b8d7d41ac88cce4f.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）（\\(\\frac { 3 } { 2 }\\)，\\(\\frac { 9 } { 2 }\\)）  （2）是；\\(y=x+3\\)  （3）\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)；证明见解析",
+  "answer": "（1）（\\(\\frac { 3 } { 2 }\\)，\\(\\frac { 9 } { 2 }\\)）  （2）是；\\(y=x+3\\)  （3）\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)；证明见解析",
+  "given_solution": "【分析】（1）设C（m，n）后，由题意得\\(\\Delta APC≌\\Delta CQB\\)，根据BO=4可以列出关于n的方程，解方程可以得到n的值，再根据m=n-3可以得到m的值，从而得到C的坐标；\n（2）把上问的BO=4改为BO=t后，可以把C点坐标用含t的代数式表示出来，消去t后即可得到C点坐标的解析式；\n（3）由（2）可以把CD、BD用含t的代数式表示出来，消去t后即可得到BD、CD满足的关系式．\n【详解】解：（1）如图，作DF⊥x轴，BE⊥x轴，过C作CP⊥DF，CQ⊥BE\n〔图2〕\n∵\\(\\angle 1+\\angle 2=90 ^ { \\circ } ，\\angle 2+\\angle 3=90 ^ { \\circ } ，\\therefore \\angle 1=\\angle 3\\)\n又∠APC=∠CQB=90°,AC=BC,\n∴\\(\\Delta APC≌\\Delta CQB\\)\n设C（m，n）\n∴DP=n，AP=n-2\n即CQ=n-2,PC=BQ=n,BO=MQ=CQ+MC=n-2+n-3=4\n∴\\(n=\\frac { 9 } { 2 },m=MC=n-3=\\frac { 9 } { 2 }-3=\\frac { 3 } { 2 },\\therefore C\\left ( { \\frac { 3 } { 2 }，\\frac { 9 } { 2 } } \\right )\\)\n（2）设B：（t,0）C(m,n)时，则由上问\nOB=MQ= CQ+MC=n-2+n-3=t，\n\\(\\therefore n=\\frac { t+5 } { 2 }\\)\nm=MC=n-3=\\(\\frac { { \\rm{ t } }+5 } { 2 }-3=\\frac { { \\rm{ t } }-1 } { 2 }\\)\n令x=\\(\\frac { { \\rm{ t } }-1 } { 2 },y=\\frac { t+5 } { 2 },\\therefore t=2x+1,t=2y-5\\therefore 2x+1=2y-5\\therefore y=x+3\\)\n∴C在直线上运动，直线解析式为：\\(y=x+3\\)\n（3）由上问当B为（t,0）时C（\\(\\frac { { \\rm{ t } }-1 } { 2 },\\frac { t+5 } { 2 }\\)）\n∴BD=t-(-3)=t+3,CD=\\(\\sqrt[] { \\left ( { \\frac { t-1 } { 2 }+3 } \\right ) ^ { 2 } +\\left ( { \\frac { t+5 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { \\frac { \\left ( { t+5 } \\right ) ^ { 2 } } { 2 } }\\)\n即CD=\\(\\sqrt[] { \\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 } }\\),\n∴\\(CD ^ { 2 } =\\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 }\\),\n∴\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)\n【点睛】本题考查利用坐标解决三角形的综合问题，把问题中的点和线段用坐标正确地表示出来是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/ef/ef48ca58bc92a429343e6601e1fc70de6ab3cc4e8bdbcd97b8d7d41ac88cce4f.png",
+    "assets/figures/75/75b7cc077ae8411adfec43295ca44c0e6c8fb181d397736e5eb994a46d14c47d.png"
+  ],
+  "solution": "解：（1）如图，作DF⊥x轴，BE⊥x轴，过C作CP⊥DF，CQ⊥BE\n〔图2〕\n∵\\(\\angle 1+\\angle 2=90 ^ { \\circ } ，\\angle 2+\\angle 3=90 ^ { \\circ } ，\\therefore \\angle 1=\\angle 3\\)\n又∠APC=∠CQB=90°,AC=BC,\n∴\\(\\Delta APC≌\\Delta CQB\\)\n设C（m，n）\n∴DP=n，AP=n-2\n即CQ=n-2,PC=BQ=n,BO=MQ=CQ+MC=n-2+n-3=4\n∴\\(n=\\frac { 9 } { 2 },m=MC=n-3=\\frac { 9 } { 2 }-3=\\frac { 3 } { 2 },\\therefore C\\left ( { \\frac { 3 } { 2 }，\\frac { 9 } { 2 } } \\right )\\)\n（2）设B：（t,0）C(m,n)时，则由上问\nOB=MQ= CQ+MC=n-2+n-3=t，\n\\(\\therefore n=\\frac { t+5 } { 2 }\\)\nm=MC=n-3=\\(\\frac { { \\rm{ t } }+5 } { 2 }-3=\\frac { { \\rm{ t } }-1 } { 2 }\\)\n令x=\\(\\frac { { \\rm{ t } }-1 } { 2 },y=\\frac { t+5 } { 2 },\\therefore t=2x+1,t=2y-5\\therefore 2x+1=2y-5\\therefore y=x+3\\)\n∴C在直线上运动，直线解析式为：\\(y=x+3\\)\n（3）由上问当B为（t,0）时C（\\(\\frac { { \\rm{ t } }-1 } { 2 },\\frac { t+5 } { 2 }\\)）\n∴BD=t-(-3)=t+3,CD=\\(\\sqrt[] { \\left ( { \\frac { t-1 } { 2 }+3 } \\right ) ^ { 2 } +\\left ( { \\frac { t+5 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { \\frac { \\left ( { t+5 } \\right ) ^ { 2 } } { 2 } }\\)\n即CD=\\(\\sqrt[] { \\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 } }\\),\n∴\\(CD ^ { 2 } =\\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 }\\),\n∴\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)",
+  "solution_steps": [
+    "解：（1）如图，作DF⊥x轴，BE⊥x轴，过C作CP⊥DF，CQ⊥BE",
+    "〔图2〕",
+    "∵\\(\\angle 1+\\angle 2=90 ^ { \\circ } ，\\angle 2+\\angle 3=90 ^ { \\circ } ，\\therefore \\angle 1=\\angle 3\\)",
+    "又∠APC=∠CQB=90°,AC=BC,",
+    "∴\\(\\Delta APC≌\\Delta CQB\\)",
+    "设C（m，n）",
+    "∴DP=n，AP=n-2",
+    "即CQ=n-2,PC=BQ=n,BO=MQ=CQ+MC=n-2+n-3=4",
+    "∴\\(n=\\frac { 9 } { 2 },m=MC=n-3=\\frac { 9 } { 2 }-3=\\frac { 3 } { 2 },\\therefore C\\left ( { \\frac { 3 } { 2 }，\\frac { 9 } { 2 } } \\right )\\)",
+    "（2）设B：（t,0）C(m,n)时，则由上问",
+    "OB=MQ= CQ+MC=n-2+n-3=t，",
+    "\\(\\therefore n=\\frac { t+5 } { 2 }\\)",
+    "m=MC=n-3=\\(\\frac { { \\rm{ t } }+5 } { 2 }-3=\\frac { { \\rm{ t } }-1 } { 2 }\\)",
+    "令x=\\(\\frac { { \\rm{ t } }-1 } { 2 },y=\\frac { t+5 } { 2 },\\therefore t=2x+1,t=2y-5\\therefore 2x+1=2y-5\\therefore y=x+3\\)",
+    "∴C在直线上运动，直线解析式为：\\(y=x+3\\)",
+    "（3）由上问当B为（t,0）时C（\\(\\frac { { \\rm{ t } }-1 } { 2 },\\frac { t+5 } { 2 }\\)）",
+    "∴BD=t-(-3)=t+3,CD=\\(\\sqrt[] { \\left ( { \\frac { t-1 } { 2 }+3 } \\right ) ^ { 2 } +\\left ( { \\frac { t+5 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { \\frac { \\left ( { t+5 } \\right ) ^ { 2 } } { 2 } }\\)",
+    "即CD=\\(\\sqrt[] { \\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 } }\\),",
+    "∴\\(CD ^ { 2 } =\\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 }\\),",
+    "∴\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，已知点A（﹣3，2），点B是x轴正半轴上一个动点，连接AB，以AB为斜边在AB的上方构造等腰直角△ABC，连接DC．",
+      "paper_blocks": [
+        59
+      ]
+    },
+    {
+      "id": "fig-63",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-744CB3FF11-Q23-P01",
+      "label": "（1）",
+      "prompt": "当点B的坐标为（4，0）时，点C的坐标是_______；",
+      "stem_text": "当点B的坐标为（4，0）时，点C的坐标是_______；",
+      "material_ids": [
+        "context",
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "（\\(\\frac { 3 } { 2 }\\)，\\(\\frac { 9 } { 2 }\\)）",
+      "answer": "（\\(\\frac { 3 } { 2 }\\)，\\(\\frac { 9 } { 2 }\\)）",
+      "given_solution": "如图，作DF⊥x轴，BE⊥x轴，过C作CP⊥DF，CQ⊥BE\n〔图2〕\n∵\\(\\angle 1+\\angle 2=90 ^ { \\circ } ，\\angle 2+\\angle 3=90 ^ { \\circ } ，\\therefore \\angle 1=\\angle 3\\)\n又∠APC=∠CQB=90°,AC=BC,\n∴\\(\\Delta APC≌\\Delta CQB\\)\n设C（m，n）\n∴DP=n，AP=n-2\n即CQ=n-2,PC=BQ=n,BO=MQ=CQ+MC=n-2+n-3=4\n∴\\(n=\\frac { 9 } { 2 },m=MC=n-3=\\frac { 9 } { 2 }-3=\\frac { 3 } { 2 },\\therefore C\\left ( { \\frac { 3 } { 2 }，\\frac { 9 } { 2 } } \\right )\\)",
+      "solution_steps": [
+        "如图，作DF⊥x轴，BE⊥x轴，过C作CP⊥DF，CQ⊥BE",
+        "〔图2〕",
+        "∵\\(\\angle 1+\\angle 2=90 ^ { \\circ } ，\\angle 2+\\angle 3=90 ^ { \\circ } ，\\therefore \\angle 1=\\angle 3\\)",
+        "又∠APC=∠CQB=90°,AC=BC,",
+        "∴\\(\\Delta APC≌\\Delta CQB\\)",
+        "设C（m，n）",
+        "∴DP=n，AP=n-2",
+        "即CQ=n-2,PC=BQ=n,BO=MQ=CQ+MC=n-2+n-3=4",
+        "∴\\(n=\\frac { 9 } { 2 },m=MC=n-3=\\frac { 9 } { 2 }-3=\\frac { 3 } { 2 },\\therefore C\\left ( { \\frac { 3 } { 2 }，\\frac { 9 } { 2 } } \\right )\\)"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63
+        ],
+        "solution_block_ids": [
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-744CB3FF11-Q23-P02",
+      "label": "（2）",
+      "prompt": "当点B在x轴正半轴上运动的时候，点C是否在一直线上运动，如果是，请求出点C所在直线的解析式；如果不是，请说明理由；",
+      "stem_text": "当点B在x轴正半轴上运动的时候，点C是否在一直线上运动，如果是，请求出点C所在直线的解析式；如果不是，请说明理由；",
+      "material_ids": [
+        "context",
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "是；\\(y=x+3\\)",
+      "answer": "是；\\(y=x+3\\)",
+      "given_solution": "设B：（t,0）C(m,n)时，则由上问\nOB=MQ= CQ+MC=n-2+n-3=t，\n\\(\\therefore n=\\frac { t+5 } { 2 }\\)\nm=MC=n-3=\\(\\frac { { \\rm{ t } }+5 } { 2 }-3=\\frac { { \\rm{ t } }-1 } { 2 }\\)\n令x=\\(\\frac { { \\rm{ t } }-1 } { 2 },y=\\frac { t+5 } { 2 },\\therefore t=2x+1,t=2y-5\\therefore 2x+1=2y-5\\therefore y=x+3\\)\n∴C在直线上运动，直线解析式为：\\(y=x+3\\)",
+      "solution_steps": [
+        "设B：（t,0）C(m,n)时，则由上问",
+        "OB=MQ= CQ+MC=n-2+n-3=t，",
+        "\\(\\therefore n=\\frac { t+5 } { 2 }\\)",
+        "m=MC=n-3=\\(\\frac { { \\rm{ t } }+5 } { 2 }-3=\\frac { { \\rm{ t } }-1 } { 2 }\\)",
+        "令x=\\(\\frac { { \\rm{ t } }-1 } { 2 },y=\\frac { t+5 } { 2 },\\therefore t=2x+1,t=2y-5\\therefore 2x+1=2y-5\\therefore y=x+3\\)",
+        "∴C在直线上运动，直线解析式为：\\(y=x+3\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          340,
+          341,
+          342,
+          343,
+          344,
+          345
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-744CB3FF11-Q23-P03",
+      "label": "（3）",
+      "prompt": "在B点的运动过程中，猜想DC与DB有怎样的数量关系，并证明你的结论．",
+      "stem_text": "在B点的运动过程中，猜想DC与DB有怎样的数量关系，并证明你的结论．",
+      "material_ids": [
+        "context",
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)；证明见解析",
+      "answer": "\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)；证明见解析",
+      "given_solution": "由上问当B为（t,0）时C（\\(\\frac { { \\rm{ t } }-1 } { 2 },\\frac { t+5 } { 2 }\\)）\n∴BD=t-(-3)=t+3,CD=\\(\\sqrt[] { \\left ( { \\frac { t-1 } { 2 }+3 } \\right ) ^ { 2 } +\\left ( { \\frac { t+5 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { \\frac { \\left ( { t+5 } \\right ) ^ { 2 } } { 2 } }\\)\n即CD=\\(\\sqrt[] { \\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 } }\\),\n∴\\(CD ^ { 2 } =\\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 }\\),\n∴\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)",
+      "solution_steps": [
+        "由上问当B为（t,0）时C（\\(\\frac { { \\rm{ t } }-1 } { 2 },\\frac { t+5 } { 2 }\\)）",
+        "∴BD=t-(-3)=t+3,CD=\\(\\sqrt[] { \\left ( { \\frac { t-1 } { 2 }+3 } \\right ) ^ { 2 } +\\left ( { \\frac { t+5 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { \\frac { \\left ( { t+5 } \\right ) ^ { 2 } } { 2 } }\\)",
+        "即CD=\\(\\sqrt[] { \\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 } }\\),",
+        "∴\\(CD ^ { 2 } =\\frac { \\left ( { BD+2 } \\right ) ^ { 2 } } { 2 }\\),",
+        "∴\\(2CD ^ { 2 } =\\left ( { BD+2 } \\right ) ^ { 2 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          346,
+          347,
+          348,
+          349,
+          350
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      63
+    ],
+    "solution_body_blocks": [
+      321,
+      351
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-744CB3FF11/paper-q23-p04.webp",
+      "assets/SZ-G8-T2-744CB3FF11/paper-q23-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          704.55
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          45.0,
+          583.64,
+          178.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-744CB3FF11/solution-q23-p15.webp",
+      "assets/SZ-G8-T2-744CB3FF11/solution-q23-p16.webp",
+      "assets/SZ-G8-T2-744CB3FF11/solution-q23-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          670.45,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          753.18
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          212.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.N11.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.N11.02.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 题面对应“由两点或表格条件确定一次表达式”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

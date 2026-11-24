@@ -1,0 +1,245 @@
+{
+  "id": "SZ-G8-T1-5FF2BB2501-Q16",
+  "paper_id": "SZ-G8-T1-5FF2BB2501",
+  "number": 16,
+  "type": "解答题",
+  "points": 7.0,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "（7分）如图，在等腰直角\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(\\angle BAC=90{}^\\circ\\)，D为边\\(BC\\)上一点，连接\\(AD\\)，\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，连接\\(CE\\)，\\(BE\\).\n〔图1〕\n（1）求证：\\(\\vartriangle AEB\\cong \\vartriangle ADC\\)；\n（2）若\\(AD=5\\sqrt[] { 2 }\\)，\\(BD=8\\)，求\\(CE\\)的长.",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-5FF2BB2501/figures/693899f03eb68858167d1827dc3c4aa561706398c80f6782995999f65901a262.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（7分）如图，在等腰直角\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(\\angle BAC=90{}^\\circ\\)，D为边\\(BC\\)上一点，连接\\(AD\\)，\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，连接\\(CE\\)，\\(BE\\).\n〔图1〕",
+      "paper_blocks": [
+        40,
+        41
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q16-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(\\vartriangle AEB\\cong \\vartriangle ADC\\)；",
+      "stem_text": "求证：\\(\\vartriangle AEB\\cong \\vartriangle ADC\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+      "given_solution": "连接\\(DE\\)，\n〔图1〕\n∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，\n∴\\(\\angle EAB=\\angle DAC\\)，\\(\\angle ABC+\\angle ACD=90{}^\\circ\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)中，\n\\(\\begin{cases} AE=AD \\\\ \\angle EAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，\n∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\).",
+      "solution_steps": [
+        "连接\\(DE\\)，",
+        "〔图1〕",
+        "∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，",
+        "∴\\(\\angle EAB=\\angle DAC\\)，\\(\\angle ABC+\\angle ACD=90{}^\\circ\\)，",
+        "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)中，",
+        "\\(\\begin{cases} AE=AD \\\\ \\angle EAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)."
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41,
+          42
+        ],
+        "solution_block_ids": [
+          195,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-5FF2BB2501-Q16-P02",
+      "label": "（2）",
+      "prompt": "若\\(AD=5\\sqrt[] { 2 }\\)，\\(BD=8\\)，求\\(CE\\)的长.",
+      "stem_text": "若\\(AD=5\\sqrt[] { 2 }\\)，\\(BD=8\\)，求\\(CE\\)的长.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)",
+      "given_solution": "∵\\(\\vartriangle ABE\\cong \\vartriangle ACD\\)，\n∴\\(BE=CD\\)，\\(\\angle ABE=\\angle ACD\\)，\n∴\\(\\angle EBD=\\angle ABD+\\angle ABE=\\angle ABC+\\angle ACD=90{}^\\circ\\)，\n∵\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，\\(AD=5\\sqrt[] { 2 }\\)，\n∴\\(DE=\\sqrt[] { 2 }AD=10\\)，\n∵\\(BD=8\\)，\n∴\\(BE=\\sqrt[] { DE ^ { 2 } -BD ^ { 2 } }=6=CD\\)，\n∴\\(BC=BD+CD=14\\)，\n∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)，",
+      "solution_steps": [
+        "∵\\(\\vartriangle ABE\\cong \\vartriangle ACD\\)，",
+        "∴\\(BE=CD\\)，\\(\\angle ABE=\\angle ACD\\)，",
+        "∴\\(\\angle EBD=\\angle ABD+\\angle ABE=\\angle ABC+\\angle ACD=90{}^\\circ\\)，",
+        "∵\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，\\(AD=5\\sqrt[] { 2 }\\)，",
+        "∴\\(DE=\\sqrt[] { 2 }AD=10\\)，",
+        "∵\\(BD=8\\)，",
+        "∴\\(BE=\\sqrt[] { DE ^ { 2 } -BD ^ { 2 } }=6=CD\\)，",
+        "∴\\(BC=BD+CD=14\\)，",
+        "∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)，"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41,
+          43
+        ],
+        "solution_block_ids": [
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          11,
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n（2）∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)",
+  "given_solution": "解：（1）连接\\(DE\\)，\n〔图1〕\n∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，\n∴\\(\\angle EAB=\\angle DAC\\)，\\(\\angle ABC+\\angle ACD=90{}^\\circ\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)中，\n\\(\\begin{cases} AE=AD \\\\ \\angle EAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，\n∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\).\n（2）∵\\(\\vartriangle ABE\\cong \\vartriangle ACD\\)，\n∴\\(BE=CD\\)，\\(\\angle ABE=\\angle ACD\\)，\n∴\\(\\angle EBD=\\angle ABD+\\angle ABE=\\angle ABC+\\angle ACD=90{}^\\circ\\)，\n∵\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，\\(AD=5\\sqrt[] { 2 }\\)，\n∴\\(DE=\\sqrt[] { 2 }AD=10\\)，\n∵\\(BD=8\\)，\n∴\\(BE=\\sqrt[] { DE ^ { 2 } -BD ^ { 2 } }=6=CD\\)，\n∴\\(BC=BD+CD=14\\)，\n∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)，",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-5FF2BB2501/figures/69f4e46398c97bfa0537d4168a40e5b1e97cf64e548500170e87cb20d315cc6d.png"
+  ],
+  "solution_steps": [
+    "解：（1）连接\\(DE\\)，",
+    "〔图1〕",
+    "∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，",
+    "∴\\(\\angle EAB=\\angle DAC\\)，\\(\\angle ABC+\\angle ACD=90{}^\\circ\\)，",
+    "在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)中，",
+    "\\(\\begin{cases} AE=AD \\\\ \\angle EAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\).",
+    "（2）∵\\(\\vartriangle ABE\\cong \\vartriangle ACD\\)，",
+    "∴\\(BE=CD\\)，\\(\\angle ABE=\\angle ACD\\)，",
+    "∴\\(\\angle EBD=\\angle ABD+\\angle ABE=\\angle ABC+\\angle ACD=90{}^\\circ\\)，",
+    "∵\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，\\(AD=5\\sqrt[] { 2 }\\)，",
+    "∴\\(DE=\\sqrt[] { 2 }AD=10\\)，",
+    "∵\\(BD=8\\)，",
+    "∴\\(BE=\\sqrt[] { DE ^ { 2 } -BD ^ { 2 } }=6=CD\\)，",
+    "∴\\(BC=BD+CD=14\\)，",
+    "∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)，"
+  ],
+  "solution": "解：（1）连接\\(DE\\)，\n〔图1〕\n∵\\(\\angle BAC=\\angle DAE=90{}^\\circ\\)，\n∴\\(\\angle EAB=\\angle DAC\\)，\\(\\angle ABC+\\angle ACD=90{}^\\circ\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle ACD\\)中，\n\\(\\begin{cases} AE=AD \\\\ \\angle EAB=\\angle DAC \\\\ AB=AC \\end{cases}\\)，\n∴\\(\\vartriangle ABE\\cong \\vartriangle ACD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\).\n（2）∵\\(\\vartriangle ABE\\cong \\vartriangle ACD\\)，\n∴\\(BE=CD\\)，\\(\\angle ABE=\\angle ACD\\)，\n∴\\(\\angle EBD=\\angle ABD+\\angle ABE=\\angle ABC+\\angle ACD=90{}^\\circ\\)，\n∵\\(AE=AD\\)且\\(\\angle DAE=90{}^\\circ\\)，\\(AD=5\\sqrt[] { 2 }\\)，\n∴\\(DE=\\sqrt[] { 2 }AD=10\\)，\n∵\\(BD=8\\)，\n∴\\(BE=\\sqrt[] { DE ^ { 2 } -BD ^ { 2 } }=6=CD\\)，\n∴\\(BC=BD+CD=14\\)，\n∴\\(CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 58 }\\)，",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "paper_body_blocks": [
+      40,
+      43
+    ],
+    "solution_body_blocks": [
+      195,
+      210
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-5FF2BB2501/paper-q16-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          470.45,
+          583.64,
+          673.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-5FF2BB2501/solution-q16-p11.webp",
+      "assets/SZ-G8-T1-5FF2BB2501/solution-q16-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          342.27,
+          583.64,
+          768.18
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          140.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

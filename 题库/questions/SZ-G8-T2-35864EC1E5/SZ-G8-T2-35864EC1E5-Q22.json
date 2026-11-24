@@ -1,0 +1,438 @@
+{
+  "id": "SZ-G8-T2-35864EC1E5-Q22",
+  "paper_id": "SZ-G8-T2-35864EC1E5",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用旋转对应建立全等或角度关系、构造全等关系证明线段或角关系",
+  "stem": "【初步感知】\n如图1， 在正方形\\(ABCD\\)中， E、F分别是\\(AB\\)、\\(BC\\)边上的点， 且\\(\\angle EDF=45{}^\\circ\\)， 求出图中线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系．\n〔图1〕\n①小盐同学经过分析后，将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)位置，如图1，根据“旋转的性质”分析\\(CM\\)与\\(AE\\)之间的关系，再通过三角形全等的性质得到线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系；\n②小田同学经过分析后， 将\\(\\angle EDF\\)沿\\(DF\\)进行翻折， 得到\\(\\angle MDF\\)， 射线\\(DM\\)交边\\(BC\\)的延长线于点M，如图2，根据全等的性质也得到了线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系，任选一位同学的分析，可以得到线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系是         ．\n【类比探究】\n如图3， 正方形\\(ABCD\\)中， E、F分别在边\\(BC\\)、\\(CD\\)的延长线上， 且\\(\\angle EAF=45{}^\\circ\\)， 连接\\(EF\\)， 试问线段\\(EF\\)，\\(BE\\)，\\(DF\\)之间具有怎样的数量关系？判断并说明理由．\n【拓展应用】\n如图4，在四边形\\(ABCD\\)中，\\(AB=AD\\)，\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\\(\\angle EAF=45{}^\\circ\\)，且\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，直接写出\\(BE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/5c/5cce0be95bb3f3d18b762fa6e78479ea42928f6734bf14346fbc52736fe0c6eb.png"
+  ],
+  "tables": [],
+  "given_answer": "初步感知：\\(EF=AE+FC\\)，见解析；类比探究：\\(BE=DF+EF\\)，见解析；拓展应用：\\(\\frac { 13 } { 4 }\\)",
+  "answer": "初步感知：\\(EF=AE+FC\\)，见解析；类比探究：\\(BE=DF+EF\\)，见解析；拓展应用：\\(\\frac { 13 } { 4 }\\)",
+  "given_solution": "【分析】初步感知：先证明\\(F\\)、C、M在同一直线上，再证明\\(\\vartriangle EDF≌\\vartriangle MDF\\)，得出\\(FM=EF\\)，根据\\(FM=FC+CM\\)，得出\\(EF=AE+CF\\)；\n类比探究：在\\(BC\\)上截取\\(BG=DF\\)，连接\\(AG\\)，证明\\(\\vartriangle ABG≌\\vartriangle ADF\\)，得出\\(AG=AF\\)，证明\\(\\vartriangle EAG≌\\vartriangle EAF\\)，得出\\(EG=EF\\)，即可得出结论；\n拓展应用：在\\(DF\\)上取点M，连接\\(AM\\)，证明\\(\\vartriangle ABE≌\\vartriangle ADM\\)，得出\\(AE=AM\\)，证明\\(\\vartriangle FAE≌\\vartriangle FAM\\)，得出\\(EF=FM\\)，设\\(BE=DM=x\\)，则\\(FM=EF=16-x\\)，\\(CE=x+8\\)，根据勾股定理得出\\(EF ^ { 2 } =EC ^ { 2 } +CF ^ { 2 }\\)，得出\\(\\left ( { 16-x } \\right ) ^ { 2 } =\\left ( { 8+x } \\right ) ^ { 2 } +6 ^ { 2 }\\)，求出\\(x=\\frac { 13 } { 4 }\\)，即可得出答案．\n【详解】解：初步感知：∵将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)，\n∴\\(DE=DM\\)，\\(\\angle DCM=\\angle A=90{}^\\circ\\)，\\(AE=CM\\)，\\(\\angle ADE=\\angle CDM\\)，\n∵四边形\\(ABCD\\)为正方形，\n∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，\n∴\\(\\angle DCM+\\angle BCD=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，\n∴\\(F\\)、C、M在同一直线上，\n∵\\(\\angle EDF=45{}^\\circ\\)，\n∴\\(\\angle ADE+\\angle CDF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle CDM+\\angle CDF=\\angle ADE+\\angle CDF=45{}^\\circ\\)，\n即\\(\\angle EDF=\\angle FDM\\)，\n∵\\(DE=DM\\)，\\(DF=DF\\)，\n∴\\(\\vartriangle EDF≌\\vartriangle MDF\\)，\n∴\\(FM=EF\\)，\n∵\\(FM=FC+CM\\)，\n∴\\(EF=AE+CF\\)；\n类比探究：\\(BE=DF+EF\\)，理由如下：\n在\\(BC\\)上截取\\(BG=DF\\)，连接\\(AG\\)，如图所示：\n〔图2〕\n∵四边形\\(ABCD\\)为正方形，\n∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，\n∴\\(\\angle ADF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle B=\\angle ADF\\)，\n∴\\(\\vartriangle ABG≌\\vartriangle ADF\\)，\n∴\\(AG=AF\\)，\n∴\\(\\angle BAG=\\angle DAF\\)，\n∵\\(\\angle EAF=\\angle DAE+\\angle FAD=\\angle DAE+\\angle BAG=45{}^\\circ\\)，\n∴\\(\\angle EAG=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle EAG=\\angle EAF\\)，\n∵\\(AE=AE\\)，\n∴\\(\\vartriangle EAG≌\\vartriangle EAF\\)，\n∴\\(EG=EF\\)，\n∴\\(BE=BG+EG=DF+EF\\)，\n即\\(BE=DF+EF\\)；\n拓展应用：在\\(DF\\)上取点M，连接\\(AM\\)，如图所示：\n〔图3〕\n∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\n∴\\(\\angle ABC+\\angle D=360{}^\\circ -90{}^\\circ -90{}^\\circ =180{}^\\circ\\)，\n∵\\(\\angle ABE+\\angle ABC=180{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle D\\)，\n∵\\(AB=AD\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADM\\)，\n∴\\(AE=AM\\)，\n∴\\(\\angle BAE=\\angle DAM\\)，\n∵\\(\\angle EAF=\\angle EAB+\\angle BAF=\\angle BAF+\\angle DAM=45{}^\\circ\\)，\n∴\\(\\angle FAM=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle FAM=\\angle FAE\\)，\n∵\\(AF=AF\\)，\n∴\\(\\vartriangle FAE≌\\vartriangle FAM\\)，\n∴\\(EF=FM\\)，\n∵\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，\n∴\\(DF=DC+CF=16\\)，\n设\\(BE=DM=x\\)，则\\(FM=EF=16-x\\)，\\(CE=x+8\\)，\n∵\\(\\angle ECF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF ^ { 2 } =EC ^ { 2 } +CF ^ { 2 }\\)，\n∴\\(\\left ( { 16-x } \\right ) ^ { 2 } =\\left ( { 8+x } \\right ) ^ { 2 } +6 ^ { 2 }\\)，\n解得：\\(x=\\frac { 13 } { 4 }\\)，\n∴\\(DM=BE=\\frac { 13 } { 4 }\\)．\n【点睛】本题主要考查了正方形的性质，旋转的性质，勾股定理，补角的性质，解题的关键是作出辅助线，熟练掌握三角形全等的判定方法．",
+  "given_solution_figures": [
+    "assets/figures/5c/5cce0be95bb3f3d18b762fa6e78479ea42928f6734bf14346fbc52736fe0c6eb.png",
+    "assets/figures/c5/c5a03dfaf00a592215b01198cdd387c22c9b3e3c73fc95987e53852a9525084b.png",
+    "assets/figures/5a/5acabd3ced269bf28ef0d33d9a756a79fb60d5c0285cda8346238576da365f0c.png"
+  ],
+  "solution": "解：初步感知：∵将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)，\n∴\\(DE=DM\\)，\\(\\angle DCM=\\angle A=90{}^\\circ\\)，\\(AE=CM\\)，\\(\\angle ADE=\\angle CDM\\)，\n∵四边形\\(ABCD\\)为正方形，\n∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，\n∴\\(\\angle DCM+\\angle BCD=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，\n∴\\(F\\)、C、M在同一直线上，\n∵\\(\\angle EDF=45{}^\\circ\\)，\n∴\\(\\angle ADE+\\angle CDF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle CDM+\\angle CDF=\\angle ADE+\\angle CDF=45{}^\\circ\\)，\n即\\(\\angle EDF=\\angle FDM\\)，\n∵\\(DE=DM\\)，\\(DF=DF\\)，\n∴\\(\\vartriangle EDF≌\\vartriangle MDF\\)，\n∴\\(FM=EF\\)，\n∵\\(FM=FC+CM\\)，\n∴\\(EF=AE+CF\\)；\n类比探究：\\(BE=DF+EF\\)，理由如下：\n在\\(BC\\)上截取\\(BG=DF\\)，连接\\(AG\\)，如图所示：\n〔图2〕\n∵四边形\\(ABCD\\)为正方形，\n∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，\n∴\\(\\angle ADF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle B=\\angle ADF\\)，\n∴\\(\\vartriangle ABG≌\\vartriangle ADF\\)，\n∴\\(AG=AF\\)，\n∴\\(\\angle BAG=\\angle DAF\\)，\n∵\\(\\angle EAF=\\angle DAE+\\angle FAD=\\angle DAE+\\angle BAG=45{}^\\circ\\)，\n∴\\(\\angle EAG=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle EAG=\\angle EAF\\)，\n∵\\(AE=AE\\)，\n∴\\(\\vartriangle EAG≌\\vartriangle EAF\\)，\n∴\\(EG=EF\\)，\n∴\\(BE=BG+EG=DF+EF\\)，\n即\\(BE=DF+EF\\)；\n拓展应用：在\\(DF\\)上取点M，连接\\(AM\\)，如图所示：\n〔图3〕\n∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\n∴\\(\\angle ABC+\\angle D=360{}^\\circ -90{}^\\circ -90{}^\\circ =180{}^\\circ\\)，\n∵\\(\\angle ABE+\\angle ABC=180{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle D\\)，\n∵\\(AB=AD\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADM\\)，\n∴\\(AE=AM\\)，\n∴\\(\\angle BAE=\\angle DAM\\)，\n∵\\(\\angle EAF=\\angle EAB+\\angle BAF=\\angle BAF+\\angle DAM=45{}^\\circ\\)，\n∴\\(\\angle FAM=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle FAM=\\angle FAE\\)，\n∵\\(AF=AF\\)，\n∴\\(\\vartriangle FAE≌\\vartriangle FAM\\)，\n∴\\(EF=FM\\)，\n∵\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，\n∴\\(DF=DC+CF=16\\)，\n设\\(BE=DM=x\\)，则\\(FM=EF=16-x\\)，\\(CE=x+8\\)，\n∵\\(\\angle ECF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF ^ { 2 } =EC ^ { 2 } +CF ^ { 2 }\\)，\n∴\\(\\left ( { 16-x } \\right ) ^ { 2 } =\\left ( { 8+x } \\right ) ^ { 2 } +6 ^ { 2 }\\)，\n解得：\\(x=\\frac { 13 } { 4 }\\)，\n∴\\(DM=BE=\\frac { 13 } { 4 }\\)．",
+  "solution_steps": [
+    "解：初步感知：∵将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)，",
+    "∴\\(DE=DM\\)，\\(\\angle DCM=\\angle A=90{}^\\circ\\)，\\(AE=CM\\)，\\(\\angle ADE=\\angle CDM\\)，",
+    "∵四边形\\(ABCD\\)为正方形，",
+    "∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，",
+    "∴\\(\\angle DCM+\\angle BCD=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，",
+    "∴\\(F\\)、C、M在同一直线上，",
+    "∵\\(\\angle EDF=45{}^\\circ\\)，",
+    "∴\\(\\angle ADE+\\angle CDF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle CDM+\\angle CDF=\\angle ADE+\\angle CDF=45{}^\\circ\\)，",
+    "即\\(\\angle EDF=\\angle FDM\\)，",
+    "∵\\(DE=DM\\)，\\(DF=DF\\)，",
+    "∴\\(\\vartriangle EDF≌\\vartriangle MDF\\)，",
+    "∴\\(FM=EF\\)，",
+    "∵\\(FM=FC+CM\\)，",
+    "∴\\(EF=AE+CF\\)；",
+    "类比探究：\\(BE=DF+EF\\)，理由如下：",
+    "在\\(BC\\)上截取\\(BG=DF\\)，连接\\(AG\\)，如图所示：",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)为正方形，",
+    "∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，",
+    "∴\\(\\angle ADF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+    "∴\\(\\angle B=\\angle ADF\\)，",
+    "∴\\(\\vartriangle ABG≌\\vartriangle ADF\\)，",
+    "∴\\(AG=AF\\)，",
+    "∴\\(\\angle BAG=\\angle DAF\\)，",
+    "∵\\(\\angle EAF=\\angle DAE+\\angle FAD=\\angle DAE+\\angle BAG=45{}^\\circ\\)，",
+    "∴\\(\\angle EAG=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle EAG=\\angle EAF\\)，",
+    "∵\\(AE=AE\\)，",
+    "∴\\(\\vartriangle EAG≌\\vartriangle EAF\\)，",
+    "∴\\(EG=EF\\)，",
+    "∴\\(BE=BG+EG=DF+EF\\)，",
+    "即\\(BE=DF+EF\\)；",
+    "拓展应用：在\\(DF\\)上取点M，连接\\(AM\\)，如图所示：",
+    "〔图3〕",
+    "∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，",
+    "∴\\(\\angle ABC+\\angle D=360{}^\\circ -90{}^\\circ -90{}^\\circ =180{}^\\circ\\)，",
+    "∵\\(\\angle ABE+\\angle ABC=180{}^\\circ\\)，",
+    "∴\\(\\angle ABE=\\angle D\\)，",
+    "∵\\(AB=AD\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle ADM\\)，",
+    "∴\\(AE=AM\\)，",
+    "∴\\(\\angle BAE=\\angle DAM\\)，",
+    "∵\\(\\angle EAF=\\angle EAB+\\angle BAF=\\angle BAF+\\angle DAM=45{}^\\circ\\)，",
+    "∴\\(\\angle FAM=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle FAM=\\angle FAE\\)，",
+    "∵\\(AF=AF\\)，",
+    "∴\\(\\vartriangle FAE≌\\vartriangle FAM\\)，",
+    "∴\\(EF=FM\\)，",
+    "∵\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，",
+    "∴\\(DF=DC+CF=16\\)，",
+    "设\\(BE=DM=x\\)，则\\(FM=EF=16-x\\)，\\(CE=x+8\\)，",
+    "∵\\(\\angle ECF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF ^ { 2 } =EC ^ { 2 } +CF ^ { 2 }\\)，",
+    "∴\\(\\left ( { 16-x } \\right ) ^ { 2 } =\\left ( { 8+x } \\right ) ^ { 2 } +6 ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 13 } { 4 }\\)，",
+    "∴\\(DM=BE=\\frac { 13 } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "fig",
+      "kind": "text",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-35864EC1E5-Q22-P01",
+      "label": "初步感知",
+      "prompt": "【初步感知】\n如图1， 在正方形\\(ABCD\\)中， E、F分别是\\(AB\\)、\\(BC\\)边上的点， 且\\(\\angle EDF=45{}^\\circ\\)， 求出图中线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系．\n①小盐同学经过分析后，将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)位置，如图1，根据“旋转的性质”分析\\(CM\\)与\\(AE\\)之间的关系，再通过三角形全等的性质得到线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系；\n②小田同学经过分析后， 将\\(\\angle EDF\\)沿\\(DF\\)进行翻折， 得到\\(\\angle MDF\\)， 射线\\(DM\\)交边\\(BC\\)的延长线于点M，如图2，根据全等的性质也得到了线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系，任选一位同学的分析，可以得到线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系是         ．",
+      "stem_text": "【初步感知】\n如图1， 在正方形\\(ABCD\\)中， E、F分别是\\(AB\\)、\\(BC\\)边上的点， 且\\(\\angle EDF=45{}^\\circ\\)， 求出图中线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系．\n①小盐同学经过分析后，将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)位置，如图1，根据“旋转的性质”分析\\(CM\\)与\\(AE\\)之间的关系，再通过三角形全等的性质得到线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系；\n②小田同学经过分析后， 将\\(\\angle EDF\\)沿\\(DF\\)进行翻折， 得到\\(\\angle MDF\\)， 射线\\(DM\\)交边\\(BC\\)的延长线于点M，如图2，根据全等的性质也得到了线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系，任选一位同学的分析，可以得到线段\\(EF\\)，\\(AE\\)，\\(FC\\)之间的数量关系是         ．",
+      "material_ids": [
+        "fig"
+      ],
+      "requires": [],
+      "answer": "\\(EF=AE+FC\\)，见解析",
+      "given_answer": "\\(EF=AE+FC\\)，见解析",
+      "given_solution": "解：初步感知：∵将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)，\n∴\\(DE=DM\\)，\\(\\angle DCM=\\angle A=90{}^\\circ\\)，\\(AE=CM\\)，\\(\\angle ADE=\\angle CDM\\)，\n∵四边形\\(ABCD\\)为正方形，\n∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，\n∴\\(\\angle DCM+\\angle BCD=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，\n∴\\(F\\)、C、M在同一直线上，\n∵\\(\\angle EDF=45{}^\\circ\\)，\n∴\\(\\angle ADE+\\angle CDF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle CDM+\\angle CDF=\\angle ADE+\\angle CDF=45{}^\\circ\\)，\n即\\(\\angle EDF=\\angle FDM\\)，\n∵\\(DE=DM\\)，\\(DF=DF\\)，\n∴\\(\\vartriangle EDF≌\\vartriangle MDF\\)，\n∴\\(FM=EF\\)，\n∵\\(FM=FC+CM\\)，\n∴\\(EF=AE+CF\\)；",
+      "solution_steps": [
+        "解：初步感知：∵将\\(\\vartriangle ADE\\)绕着点D逆时针旋转\\(90{}^\\circ\\)到\\(\\vartriangle CDM\\)，",
+        "∴\\(DE=DM\\)，\\(\\angle DCM=\\angle A=90{}^\\circ\\)，\\(AE=CM\\)，\\(\\angle ADE=\\angle CDM\\)，",
+        "∵四边形\\(ABCD\\)为正方形，",
+        "∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，",
+        "∴\\(\\angle DCM+\\angle BCD=90{}^\\circ +90{}^\\circ =180{}^\\circ\\)，",
+        "∴\\(F\\)、C、M在同一直线上，",
+        "∵\\(\\angle EDF=45{}^\\circ\\)，",
+        "∴\\(\\angle ADE+\\angle CDF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "∴\\(\\angle CDM+\\angle CDF=\\angle ADE+\\angle CDF=45{}^\\circ\\)，",
+        "即\\(\\angle EDF=\\angle FDM\\)，",
+        "∵\\(DE=DM\\)，\\(DF=DF\\)，",
+        "∴\\(\\vartriangle EDF≌\\vartriangle MDF\\)，",
+        "∴\\(FM=EF\\)，",
+        "∵\\(FM=FC+CM\\)，",
+        "∴\\(EF=AE+CF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-35864EC1E5-Q22-P02",
+      "label": "类比探究",
+      "prompt": "【类比探究】\n如图3， 正方形\\(ABCD\\)中， E、F分别在边\\(BC\\)、\\(CD\\)的延长线上， 且\\(\\angle EAF=45{}^\\circ\\)， 连接\\(EF\\)， 试问线段\\(EF\\)，\\(BE\\)，\\(DF\\)之间具有怎样的数量关系？判断并说明理由．",
+      "stem_text": "【类比探究】\n如图3， 正方形\\(ABCD\\)中， E、F分别在边\\(BC\\)、\\(CD\\)的延长线上， 且\\(\\angle EAF=45{}^\\circ\\)， 连接\\(EF\\)， 试问线段\\(EF\\)，\\(BE\\)，\\(DF\\)之间具有怎样的数量关系？判断并说明理由．",
+      "material_ids": [
+        "fig"
+      ],
+      "requires": [],
+      "answer": "\\(BE=DF+EF\\)，见解析",
+      "given_answer": "\\(BE=DF+EF\\)，见解析",
+      "given_solution": "类比探究：\\(BE=DF+EF\\)，理由如下：\n在\\(BC\\)上截取\\(BG=DF\\)，连接\\(AG\\)，如图所示：\n〔图2〕\n∵四边形\\(ABCD\\)为正方形，\n∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，\n∴\\(\\angle ADF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle B=\\angle ADF\\)，\n∴\\(\\vartriangle ABG≌\\vartriangle ADF\\)，\n∴\\(AG=AF\\)，\n∴\\(\\angle BAG=\\angle DAF\\)，\n∵\\(\\angle EAF=\\angle DAE+\\angle FAD=\\angle DAE+\\angle BAG=45{}^\\circ\\)，\n∴\\(\\angle EAG=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle EAG=\\angle EAF\\)，\n∵\\(AE=AE\\)，\n∴\\(\\vartriangle EAG≌\\vartriangle EAF\\)，\n∴\\(EG=EF\\)，\n∴\\(BE=BG+EG=DF+EF\\)，\n即\\(BE=DF+EF\\)；",
+      "solution_steps": [
+        "类比探究：\\(BE=DF+EF\\)，理由如下：",
+        "在\\(BC\\)上截取\\(BG=DF\\)，连接\\(AG\\)，如图所示：",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)为正方形，",
+        "∴\\(AD=CD=BC=AB\\)，\\(\\angle A=\\angle B=\\angle BCD=\\angle ADC=90{}^\\circ\\)，",
+        "∴\\(\\angle ADF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+        "∴\\(\\angle B=\\angle ADF\\)，",
+        "∴\\(\\vartriangle ABG≌\\vartriangle ADF\\)，",
+        "∴\\(AG=AF\\)，",
+        "∴\\(\\angle BAG=\\angle DAF\\)，",
+        "∵\\(\\angle EAF=\\angle DAE+\\angle FAD=\\angle DAE+\\angle BAG=45{}^\\circ\\)，",
+        "∴\\(\\angle EAG=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "∴\\(\\angle EAG=\\angle EAF\\)，",
+        "∵\\(AE=AE\\)，",
+        "∴\\(\\vartriangle EAG≌\\vartriangle EAF\\)，",
+        "∴\\(EG=EF\\)，",
+        "∴\\(BE=BG+EG=DF+EF\\)，",
+        "即\\(BE=DF+EF\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-35864EC1E5-Q22-P03",
+      "label": "拓展应用",
+      "prompt": "【拓展应用】\n如图4，在四边形\\(ABCD\\)中，\\(AB=AD\\)，\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\\(\\angle EAF=45{}^\\circ\\)，且\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，直接写出\\(BE\\)的长．",
+      "stem_text": "【拓展应用】\n如图4，在四边形\\(ABCD\\)中，\\(AB=AD\\)，\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\\(\\angle EAF=45{}^\\circ\\)，且\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，直接写出\\(BE\\)的长．",
+      "material_ids": [
+        "fig"
+      ],
+      "requires": [],
+      "answer": "\\(\\frac{13}4\\)",
+      "given_answer": "\\(\\frac{13}4\\)",
+      "given_solution": "拓展应用：在\\(DF\\)上取点M，连接\\(AM\\)，如图所示：\n〔图3〕\n∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，\n∴\\(\\angle ABC+\\angle D=360{}^\\circ -90{}^\\circ -90{}^\\circ =180{}^\\circ\\)，\n∵\\(\\angle ABE+\\angle ABC=180{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle D\\)，\n∵\\(AB=AD\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADM\\)，\n∴\\(AE=AM\\)，\n∴\\(\\angle BAE=\\angle DAM\\)，\n∵\\(\\angle EAF=\\angle EAB+\\angle BAF=\\angle BAF+\\angle DAM=45{}^\\circ\\)，\n∴\\(\\angle FAM=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle FAM=\\angle FAE\\)，\n∵\\(AF=AF\\)，\n∴\\(\\vartriangle FAE≌\\vartriangle FAM\\)，\n∴\\(EF=FM\\)，\n∵\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，\n∴\\(DF=DC+CF=16\\)，\n设\\(BE=DM=x\\)，则\\(FM=EF=16-x\\)，\\(CE=x+8\\)，\n∵\\(\\angle ECF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF ^ { 2 } =EC ^ { 2 } +CF ^ { 2 }\\)，\n∴\\(\\left ( { 16-x } \\right ) ^ { 2 } =\\left ( { 8+x } \\right ) ^ { 2 } +6 ^ { 2 }\\)，\n解得：\\(x=\\frac { 13 } { 4 }\\)，\n∴\\(DM=BE=\\frac { 13 } { 4 }\\)．",
+      "solution_steps": [
+        "拓展应用：在\\(DF\\)上取点M，连接\\(AM\\)，如图所示：",
+        "〔图3〕",
+        "∵\\(\\angle BAD=\\angle BCD=90{}^\\circ\\)，",
+        "∴\\(\\angle ABC+\\angle D=360{}^\\circ -90{}^\\circ -90{}^\\circ =180{}^\\circ\\)，",
+        "∵\\(\\angle ABE+\\angle ABC=180{}^\\circ\\)，",
+        "∴\\(\\angle ABE=\\angle D\\)，",
+        "∵\\(AB=AD\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle ADM\\)，",
+        "∴\\(AE=AM\\)，",
+        "∴\\(\\angle BAE=\\angle DAM\\)，",
+        "∵\\(\\angle EAF=\\angle EAB+\\angle BAF=\\angle BAF+\\angle DAM=45{}^\\circ\\)，",
+        "∴\\(\\angle FAM=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "∴\\(\\angle FAM=\\angle FAE\\)，",
+        "∵\\(AF=AF\\)，",
+        "∴\\(\\vartriangle FAE≌\\vartriangle FAM\\)，",
+        "∴\\(EF=FM\\)，",
+        "∵\\(BC=8\\)，\\(DC=10\\)，\\(CF=6\\)，",
+        "∴\\(DF=DC+CF=16\\)，",
+        "设\\(BE=DM=x\\)，则\\(FM=EF=16-x\\)，\\(CE=x+8\\)，",
+        "∵\\(\\angle ECF=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF ^ { 2 } =EC ^ { 2 } +CF ^ { 2 }\\)，",
+        "∴\\(\\left ( { 16-x } \\right ) ^ { 2 } =\\left ( { 8+x } \\right ) ^ { 2 } +6 ^ { 2 }\\)，",
+        "解得：\\(x=\\frac { 13 } { 4 }\\)，",
+        "∴\\(DM=BE=\\frac { 13 } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      76
+    ],
+    "solution_body_blocks": [
+      372,
+      443
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-35864EC1E5/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          231.36,
+          583.64,
+          659.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-35864EC1E5/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-35864EC1E5/solution-q22-p21.webp",
+      "assets/SZ-G8-T2-35864EC1E5/solution-q22-p22.webp",
+      "assets/SZ-G8-T2-35864EC1E5/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          686.36,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          415.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.03",
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G07.03.02",
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“利用旋转对应建立全等或角度关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

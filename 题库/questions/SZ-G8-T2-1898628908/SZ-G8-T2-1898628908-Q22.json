@@ -1,0 +1,454 @@
+{
+  "id": "SZ-G8-T2-1898628908-Q22",
+  "paper_id": "SZ-G8-T2-1898628908",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "正方形\\(ABCD\\)中，对角线AC，BD相交于点\\(O\\)、点\\(E\\)为直线\\(AB\\)上一点、连接\\(OE\\)、绕点\\(O\\)将射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)．\n问题提出：（1）如图1．当点\\(E\\)在线段\\(AB\\)上时，线段\\(OE\\)与\\(OF\\)的数量关系为       ，线段BE，BF，BD之间的数量关系为 ．\n〔图1〕\n深入探究：（2）如图2，当点\\(E\\)在\\(BA\\)延长线上时，（1）的结论是否成立?请说明理由．\n〔图2〕\n拓展延伸：（3）当\\(AD=6，CF=2\\)时，连接\\(EF\\)，请直接写出\\(EF\\)的长．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/c6/c6d399932df65706f8e8995c9221f200e717e4aad3369bc9da35bb25c3ddfc35.png",
+    "assets/figures/d6/d6c701358490e394d68cd5f1b9e55f9802c27aea3cf4ad3c01a2410266cf173a.png",
+    "assets/figures/59/5913fdd69efe24ccf03d84761de7e7b9e17f67539feef75ebb6fd511b002a663.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(OE=OF，BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)；（2）当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由见解析；（3）\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)",
+  "answer": "（1）\\(OE=OF，BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)；（2）当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由见解析；（3）\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)",
+  "given_solution": "【分析】（1）根据正方形的性质，证出△OEB≌△OFC，进而得到线段\\(OE\\)与\\(OF\\)的数量关系及线段BE，BF，BD之间的数量关系；\n（2）与第（1）问同理，根据正方形的性质，证出△\\(AOE\\)≌△\\(BOF\\)，进而得到线段\\(OE\\)与\\(OF\\)的数量关系及线段BE，BF，BD之间的数量关系；\n（3）分点E在线段AB上，点E在线段AB延长线上、点E在线段BA延长线上三种情况讨论，利用（1）和（2）的结论，根据勾股定理求EF的长即可．\n【详解】解：（1）∵四边形ABCD是正方形，\n∴AC⊥BD，OB=OC，∠ABD=∠ACB=45°，BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n∵射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)，\n∴∠EOB+∠BOF=90°，\n∵∠COF+∠BOF=90°，\n∴∠EOB=∠COF，\n在△OEB和△OFC中，\n\\(\\begin{cases} \\angle EBO=\\angle FCO \\\\ OB=OC \\\\ \\angle EOB=\\angle FOC \\end{cases}\\)，\n∴△OEB≌△OFC（ASA），\n∴OE=OF，EB=FC，\n∴BE+BF=FC+BF=BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n∴线段\\(OE\\)与\\(OF\\)的数量关系为\\(OE=OF\\)，线段BE，BF，BD之间的数量关系为\\(BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．\n（2）当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由如下：\n\\(\\because\\)四边形\\(ABCD\\)是正方形\n\\(\\therefore OB=OA,\\angle EAO=\\angle FBO=135{}^\\circ ,\\angle AOB=90{}^\\circ\\)，\n\\(\\because \\angle EOF=90 ^ { {}^\\circ }\\)，\n\\(\\therefore \\angle EOA=\\angle FOB\\)，\n在△\\(AOE\\)与△\\(BOF\\)中，\n\\(\\because \\begin{cases} \\angle EAO=\\angle FBO \\\\ OA=OB \\\\ \\angle EOA=\\angle FOB \\end{cases}\\)，\n∴△\\(AOE\\)≌△\\(BOF\\)（ASA），\n∴OE=OF，\\(AE=BF\\)，\n\\(\\therefore BF=BE-AB\\)，\n即\\(BE-BF=AB\\)；\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore AB=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n故\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．\n（3）如下图1，连接\\(EF\\)，\n〔图4〕\n\\(\\because AD=6\\)，\\(CF=2\\)，\n\\(\\therefore BF=4\\)，\n由题意知，\\(BE=CF=2\\)，\n则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 5 }\\)；\n如下图2，连接\\(EF\\)，\n〔图5〕\n\\(\\because AD=6\\)，\\(CF=2\\)，\n\\(\\therefore BF=8\\)，\n由题意知\\(BE=CF=2\\)，则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 17 }\\)；\n如下图3，\\(CF>BC\\)，显然不成立．\n〔图6〕\n综上所述，\\(EF\\)的长度是\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)．\n【点睛】本题考查正方形的性质、全等三角形的判定及性质，熟练掌握正方形的性质、全等三角形的判定及性质、勾股定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/23/237b15fa502e6ac7beeb9386c93f66bfa987742288a881bae1c9a7194e6a2939.png",
+    "assets/figures/75/758dfc7752459bf4f6b780a1a0399041fce516d3c69c5809f7ea912d9353ce0b.png",
+    "assets/figures/25/258c56f348c9eed5b7fc047033f8fdb471282dc86083f8ff677bbdae484aa193.png",
+    "assets/figures/fb/fb3e3e013ee93f5ab88a0ee8ab6a5ed09dd34e61ffb8271e1b5d4ace579e344e.png",
+    "assets/figures/80/80a3a781dad938cd64a7266a94b22540cecaf0c74afcc9b8b5706cd27787c522.png",
+    "assets/figures/3e/3e89af0096aacccb9bb6394d006d1d40409379c81406019d70cba4ff11e9c930.png"
+  ],
+  "solution": "解：（1）∵四边形ABCD是正方形，\n∴AC⊥BD，OB=OC，∠ABD=∠ACB=45°，BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n∵射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)，\n∴∠EOB+∠BOF=90°，\n∵∠COF+∠BOF=90°，\n∴∠EOB=∠COF，\n在△OEB和△OFC中，\n\\(\\begin{cases} \\angle EBO=\\angle FCO \\\\ OB=OC \\\\ \\angle EOB=\\angle FOC \\end{cases}\\)，\n∴△OEB≌△OFC（ASA），\n∴OE=OF，EB=FC，\n∴BE+BF=FC+BF=BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n∴线段\\(OE\\)与\\(OF\\)的数量关系为\\(OE=OF\\)，线段BE，BF，BD之间的数量关系为\\(BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．\n（2）当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由如下：\n\\(\\because\\)四边形\\(ABCD\\)是正方形\n\\(\\therefore OB=OA,\\angle EAO=\\angle FBO=135{}^\\circ ,\\angle AOB=90{}^\\circ\\)，\n\\(\\because \\angle EOF=90 ^ { {}^\\circ }\\)，\n\\(\\therefore \\angle EOA=\\angle FOB\\)，\n在△\\(AOE\\)与△\\(BOF\\)中，\n\\(\\because \\begin{cases} \\angle EAO=\\angle FBO \\\\ OA=OB \\\\ \\angle EOA=\\angle FOB \\end{cases}\\)，\n∴△\\(AOE\\)≌△\\(BOF\\)（ASA），\n∴OE=OF，\\(AE=BF\\)，\n\\(\\therefore BF=BE-AB\\)，\n即\\(BE-BF=AB\\)；\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore AB=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n故\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．\n（3）如下图1，连接\\(EF\\)，\n〔图4〕\n\\(\\because AD=6\\)，\\(CF=2\\)，\n\\(\\therefore BF=4\\)，\n由题意知，\\(BE=CF=2\\)，\n则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 5 }\\)；\n如下图2，连接\\(EF\\)，\n〔图5〕\n\\(\\because AD=6\\)，\\(CF=2\\)，\n\\(\\therefore BF=8\\)，\n由题意知\\(BE=CF=2\\)，则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 17 }\\)；\n如下图3，\\(CF>BC\\)，显然不成立．\n〔图6〕\n综上所述，\\(EF\\)的长度是\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)．",
+  "solution_steps": [
+    "解：（1）∵四边形ABCD是正方形，",
+    "∴AC⊥BD，OB=OC，∠ABD=∠ACB=45°，BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+    "∵射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)，",
+    "∴∠EOB+∠BOF=90°，",
+    "∵∠COF+∠BOF=90°，",
+    "∴∠EOB=∠COF，",
+    "在△OEB和△OFC中，",
+    "\\(\\begin{cases} \\angle EBO=\\angle FCO \\\\ OB=OC \\\\ \\angle EOB=\\angle FOC \\end{cases}\\)，",
+    "∴△OEB≌△OFC（ASA），",
+    "∴OE=OF，EB=FC，",
+    "∴BE+BF=FC+BF=BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+    "∴线段\\(OE\\)与\\(OF\\)的数量关系为\\(OE=OF\\)，线段BE，BF，BD之间的数量关系为\\(BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．",
+    "（2）当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由如下：",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形",
+    "\\(\\therefore OB=OA,\\angle EAO=\\angle FBO=135{}^\\circ ,\\angle AOB=90{}^\\circ\\)，",
+    "\\(\\because \\angle EOF=90 ^ { {}^\\circ }\\)，",
+    "\\(\\therefore \\angle EOA=\\angle FOB\\)，",
+    "在△\\(AOE\\)与△\\(BOF\\)中，",
+    "\\(\\because \\begin{cases} \\angle EAO=\\angle FBO \\\\ OA=OB \\\\ \\angle EOA=\\angle FOB \\end{cases}\\)，",
+    "∴△\\(AOE\\)≌△\\(BOF\\)（ASA），",
+    "∴OE=OF，\\(AE=BF\\)，",
+    "\\(\\therefore BF=BE-AB\\)，",
+    "即\\(BE-BF=AB\\)；",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore AB=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+    "故\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．",
+    "（3）如下图1，连接\\(EF\\)，",
+    "〔图4〕",
+    "\\(\\because AD=6\\)，\\(CF=2\\)，",
+    "\\(\\therefore BF=4\\)，",
+    "由题意知，\\(BE=CF=2\\)，",
+    "则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 5 }\\)；",
+    "如下图2，连接\\(EF\\)，",
+    "〔图5〕",
+    "\\(\\because AD=6\\)，\\(CF=2\\)，",
+    "\\(\\therefore BF=8\\)，",
+    "由题意知\\(BE=CF=2\\)，则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 17 }\\)；",
+    "如下图3，\\(CF>BC\\)，显然不成立．",
+    "〔图6〕",
+    "综上所述，\\(EF\\)的长度是\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "正方形\\(ABCD\\)中，对角线AC，BD相交于点\\(O\\)、点\\(E\\)为直线\\(AB\\)上一点、连接\\(OE\\)、绕点\\(O\\)将射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)．\n问题提出：",
+      "paper_blocks": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "fig-61",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        61
+      ]
+    },
+    {
+      "id": "fig-63",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        63
+      ]
+    },
+    {
+      "id": "fig-65",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-1898628908-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1．当点\\(E\\)在线段\\(AB\\)上时，线段\\(OE\\)与\\(OF\\)的数量关系为       ，线段BE，BF，BD之间的数量关系为 ．\n\n深入探究：",
+      "stem_text": "如图1．当点\\(E\\)在线段\\(AB\\)上时，线段\\(OE\\)与\\(OF\\)的数量关系为       ，线段BE，BF，BD之间的数量关系为 ．\n\n深入探究：",
+      "material_ids": [
+        "context",
+        "fig-61",
+        "fig-63",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "\\(OE=OF，BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)；",
+      "answer": "\\(OE=OF，BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)；",
+      "given_solution": "∵四边形ABCD是正方形，\n∴AC⊥BD，OB=OC，∠ABD=∠ACB=45°，BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n∵射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)，\n∴∠EOB+∠BOF=90°，\n∵∠COF+∠BOF=90°，\n∴∠EOB=∠COF，\n在△OEB和△OFC中，\n\\(\\begin{cases} \\angle EBO=\\angle FCO \\\\ OB=OC \\\\ \\angle EOB=\\angle FOC \\end{cases}\\)，\n∴△OEB≌△OFC（ASA），\n∴OE=OF，EB=FC，\n∴BE+BF=FC+BF=BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n∴线段\\(OE\\)与\\(OF\\)的数量关系为\\(OE=OF\\)，线段BE，BF，BD之间的数量关系为\\(BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．",
+      "solution_steps": [
+        "∵四边形ABCD是正方形，",
+        "∴AC⊥BD，OB=OC，∠ABD=∠ACB=45°，BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+        "∵射线\\(OE\\)逆时针旋转\\(90 ^ { {}^\\circ }\\)交直线\\(BC\\)于点\\(F\\)，",
+        "∴∠EOB+∠BOF=90°，",
+        "∵∠COF+∠BOF=90°，",
+        "∴∠EOB=∠COF，",
+        "在△OEB和△OFC中，",
+        "\\(\\begin{cases} \\angle EBO=\\angle FCO \\\\ OB=OC \\\\ \\angle EOB=\\angle FOC \\end{cases}\\)，",
+        "∴△OEB≌△OFC（ASA），",
+        "∴OE=OF，EB=FC，",
+        "∴BE+BF=FC+BF=BC=\\(\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+        "∴线段\\(OE\\)与\\(OF\\)的数量关系为\\(OE=OF\\)，线段BE，BF，BD之间的数量关系为\\(BE+BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1898628908-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，当点\\(E\\)在\\(BA\\)延长线上时，（1）的结论是否成立?请说明理由．\n\n拓展延伸：",
+      "stem_text": "如图2，当点\\(E\\)在\\(BA\\)延长线上时，（1）的结论是否成立?请说明理由．\n\n拓展延伸：",
+      "material_ids": [
+        "context",
+        "fig-61",
+        "fig-63",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由见解析；",
+      "answer": "当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由见解析；",
+      "given_solution": "当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由如下：\n\\(\\because\\)四边形\\(ABCD\\)是正方形\n\\(\\therefore OB=OA,\\angle EAO=\\angle FBO=135{}^\\circ ,\\angle AOB=90{}^\\circ\\)，\n\\(\\because \\angle EOF=90 ^ { {}^\\circ }\\)，\n\\(\\therefore \\angle EOA=\\angle FOB\\)，\n在△\\(AOE\\)与△\\(BOF\\)中，\n\\(\\because \\begin{cases} \\angle EAO=\\angle FBO \\\\ OA=OB \\\\ \\angle EOA=\\angle FOB \\end{cases}\\)，\n∴△\\(AOE\\)≌△\\(BOF\\)（ASA），\n∴OE=OF，\\(AE=BF\\)，\n\\(\\therefore BF=BE-AB\\)，\n即\\(BE-BF=AB\\)；\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore AB=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n故\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．",
+      "solution_steps": [
+        "当点\\(E\\)在\\(BA\\)延长线上时，（1）中线段\\(OE\\)与\\(OF\\)的数量关系\\(OE=OF\\)仍然成立，但线段BE，BF，BD之间的数量关系不成立，关系为\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．理由如下：",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形",
+        "\\(\\therefore OB=OA,\\angle EAO=\\angle FBO=135{}^\\circ ,\\angle AOB=90{}^\\circ\\)，",
+        "\\(\\because \\angle EOF=90 ^ { {}^\\circ }\\)，",
+        "\\(\\therefore \\angle EOA=\\angle FOB\\)，",
+        "在△\\(AOE\\)与△\\(BOF\\)中，",
+        "\\(\\because \\begin{cases} \\angle EAO=\\angle FBO \\\\ OA=OB \\\\ \\angle EOA=\\angle FOB \\end{cases}\\)，",
+        "∴△\\(AOE\\)≌△\\(BOF\\)（ASA），",
+        "∴OE=OF，\\(AE=BF\\)，",
+        "\\(\\therefore BF=BE-AB\\)，",
+        "即\\(BE-BF=AB\\)；",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore AB=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+        "故\\(BE-BF=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-1898628908-Q22-P03",
+      "label": "（3）",
+      "prompt": "当\\(AD=6，CF=2\\)时，连接\\(EF\\)，请直接写出\\(EF\\)的长．",
+      "stem_text": "当\\(AD=6，CF=2\\)时，连接\\(EF\\)，请直接写出\\(EF\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-61",
+        "fig-63",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)",
+      "answer": "\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)",
+      "given_solution": "如下图1，连接\\(EF\\)，\n〔图4〕\n\\(\\because AD=6\\)，\\(CF=2\\)，\n\\(\\therefore BF=4\\)，\n由题意知，\\(BE=CF=2\\)，\n则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 5 }\\)；\n如下图2，连接\\(EF\\)，\n〔图5〕\n\\(\\because AD=6\\)，\\(CF=2\\)，\n\\(\\therefore BF=8\\)，\n由题意知\\(BE=CF=2\\)，则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 17 }\\)；\n如下图3，\\(CF>BC\\)，显然不成立．\n〔图6〕\n综上所述，\\(EF\\)的长度是\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)．",
+      "solution_steps": [
+        "如下图1，连接\\(EF\\)，",
+        "〔图4〕",
+        "\\(\\because AD=6\\)，\\(CF=2\\)，",
+        "\\(\\therefore BF=4\\)，",
+        "由题意知，\\(BE=CF=2\\)，",
+        "则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 5 }\\)；",
+        "如下图2，连接\\(EF\\)，",
+        "〔图5〕",
+        "\\(\\because AD=6\\)，\\(CF=2\\)，",
+        "\\(\\therefore BF=8\\)，",
+        "由题意知\\(BE=CF=2\\)，则\\(EF=\\sqrt[] { BF ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } +2 ^ { 2 } }=2\\sqrt[] { 17 }\\)；",
+        "如下图3，\\(CF>BC\\)，显然不成立．",
+        "〔图6〕",
+        "综上所述，\\(EF\\)的长度是\\(2\\sqrt[] { 5 }\\)或\\(2\\sqrt[] { 17 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          63,
+          64,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      66
+    ],
+    "solution_body_blocks": [
+      354,
+      407
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-1898628908/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-1898628908/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          596.36,
+          583.64,
+          689.09
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          44.55,
+          583.64,
+          574.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-1898628908/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-1898628908/solution-q22-p19.webp",
+      "assets/SZ-G8-T2-1898628908/solution-q22-p20.webp",
+      "assets/SZ-G8-T2-1898628908/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          403.18,
+          583.64,
+          748.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          57.27,
+          583.64,
+          290.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

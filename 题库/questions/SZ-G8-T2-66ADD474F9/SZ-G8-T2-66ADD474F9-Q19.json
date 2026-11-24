@@ -1,0 +1,368 @@
+{
+  "knowledge_ids": [
+    "M.N02.03",
+    "M.N09.02",
+    "M.S02.01",
+    "M.N06.02",
+    "M.N02.01",
+    "M.N06.03",
+    "M.N10.02",
+    "M.N11.03"
+  ],
+  "exam_ids": [
+    "E.N02.03.02",
+    "E.N09.02.02",
+    "E.N06.02.01",
+    "E.N02.01.02",
+    "E.N06.03.01",
+    "E.N10.02.03",
+    "E.N11.03.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "本题涉及算术平均数，题面未给出加权或反求缺失值的要求。",
+  "tag_reason": "核对该分问的要求与演算，考查用数轴或已知关系比较实数。 核对该分问的要求与演算，考查求不等式组公共解集及指定整数解。 核对该分问的要求与演算，考查平均数与加权平均数、解含括号或数字分母的一元一次方程。 核对该分问的要求与演算，考查平均数与加权平均数、由非负量和为零确定未知量。 核对该分问的要求与演算，考查用消元求二元一次方程组的解。 核对该分问的要求与演算，考查根据新给函数规则探索并检验性质、依据直线图象求等式或大小关系的范围。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-66ADD474F9-Q19",
+  "number": 19,
+  "paper_id": "SZ-G8-T2-66ADD474F9",
+  "title": "用数轴或已知关系比较实数、求不等式组公共解集及指定整数解",
+  "stem": "对于三个数\\(a、b、c\\) ，\\( M\\{a，b，c\\}\\)表示这三个数的平均数，\\(min\\{a，b，c\\}\\)表示\\(a、b、c\\)这三个数中最小的数，如：\\(M\\{−1，2，3\\}=\\frac{−1+2+3}{3}=\\frac{4}{3}\\) ，\\(min\\{−1，2，3\\}=−1\\) ；\\(M\\{−1，2，a\\}=\\frac{−1+2+a}{3}=\\frac{a+1}{3}\\) ，\\(min\\{−1，2，a\\}=\\{a（a≤−1）−1（a＞−1）\\).\n请根据材料解决下列问题：\n【开胃小菜】\n填空：\\(min\\{\\frac{1}{2}，\\frac{\\sqrt{2}}{2}，\\frac{\\sqrt{3}}{3}\\}\\) =             ；\n若\\(min\\{2，2x+2，4−2x\\}=2\\)，则x的取值范围是              ；\n【解决问题】\n（2） ① 若 \\(M\\{4，x+2，2x\\}=min\\{4，x+2，2x\\}\\)，求x ；\n② 根据①你发现了结论“若〔图1〕，则             .”\n（填\\(a、b、c\\)大小关系）；\n③ 运用②填空：\n若\\(M\\{2x+y+6，x+2y，2x−y\\}=min\\{2x+y+6，x+2y，2x−y\\}\\) ，\n则\\(x+y=\\)             ；\n【拓展延伸】\n（3）在同一直角坐标系中作出函数\\({y}_{1}=x+1 ,  {y}_{2}=\\frac{1}{2}x−1 ,  {y}_{3}=−x+2\\)的图象（不需列表，描点），通过图象，得出\\(min\\{x+1，\\frac{1}{2}x−1，−x+2\\}\\)最大值为              ．\n〔图2〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "对于三个数\\(a、b、c\\) ，\\( M\\{a，b，c\\}\\)表示这三个数的平均数，\\(min\\{a，b，c\\}\\)表示\\(a、b、c\\)这三个数中最小的数，如：\\(M\\{−1，2，3\\}=\\frac{−1+2+3}{3}=\\frac{4}{3}\\) ，\\(min\\{−1，2，3\\}=−1\\) ；\\(M\\{−1，2，a\\}=\\frac{−1+2+a}{3}=\\frac{a+1}{3}\\) ，\\(min\\{−1，2，a\\}=\\{a（a≤−1）−1（a＞−1）\\).\n请根据材料解决下列问题："
+    },
+    {
+      "id": "figure-1",
+      "kind": "figure",
+      "text": "〔图1〕"
+    },
+    {
+      "id": "figure-2",
+      "kind": "figure",
+      "text": "〔图2〕"
+    },
+    {
+      "id": "prior-3",
+      "kind": "text",
+      "text": "前问（2）①：（2） ① 若 \\(M\\{4，x+2，2x\\}=min\\{4，x+2，2x\\}\\)，求x ；\n已得：\\(x=2\\)"
+    },
+    {
+      "id": "prior-4",
+      "kind": "text",
+      "text": "前问（2）②：② 根据①你发现了结论“若〔图1〕，则             .”\n（填\\(a、b、c\\)大小关系）；\n已得：\\(a=b=c\\)"
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q19-P01",
+      "label": "（1）①",
+      "prompt": "填空：\\(min\\{\\frac{1}{2}，\\frac{\\sqrt{2}}{2}，\\frac{\\sqrt{3}}{3}\\}\\) =             ；",
+      "stem_text": "填空：\\(min\\{\\frac{1}{2}，\\frac{\\sqrt{2}}{2}，\\frac{\\sqrt{3}}{3}\\}\\) =             ；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "answer": "\\(\\frac12\\)",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "三个数都是正数，平方后依次为 \\(\\tfrac14,\\tfrac12,\\tfrac13\\)，最小的是第一个。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.N02.03"
+      ],
+      "exam_ids": [
+        "E.N02.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "核对该分问的要求与演算，考查用数轴或已知关系比较实数。",
+      "tag_note": "",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q19-P02",
+      "label": "（1）②",
+      "prompt": "若\\(min\\{2，2x+2，4−2x\\}=2\\)，则x的取值范围是              ；",
+      "stem_text": "若\\(min\\{2，2x+2，4−2x\\}=2\\)，则x的取值范围是              ；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "answer": "\\(0\\le x\\le1\\)",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "需同时满足 \\(2x+2\\ge2,\\ 4-2x\\ge2\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.N09.02"
+      ],
+      "exam_ids": [
+        "E.N09.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "核对该分问的要求与演算，考查求不等式组公共解集及指定整数解。",
+      "tag_note": "",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q19-P03",
+      "label": "（2）①",
+      "prompt": "（2） ① 若 \\(M\\{4，x+2，2x\\}=min\\{4，x+2，2x\\}\\)，求x ；",
+      "stem_text": "（2） ① 若 \\(M\\{4，x+2，2x\\}=min\\{4，x+2，2x\\}\\)，求x ；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "answer": "\\(x=2\\)",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "平均数等于最小数时，三个数必须相等。令 \\(4=x+2=2x\\)，得 \\(x=2\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.S02.01",
+        "M.N06.02"
+      ],
+      "exam_ids": [
+        "E.N06.02.01"
+      ],
+      "coverage": "部分匹配",
+      "tag_reason": "核对该分问的要求与演算，考查平均数与加权平均数、解含括号或数字分母的一元一次方程。",
+      "tag_note": "本题涉及算术平均数，题面未给出加权或反求缺失值的要求。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q19-P04",
+      "label": "（2）②",
+      "prompt": "② 根据①你发现了结论“若〔图1〕，则             .”\n（填\\(a、b、c\\)大小关系）；",
+      "stem_text": "② 根据①你发现了结论“若〔图1〕，则             .”\n（填\\(a、b、c\\)大小关系）；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2",
+        "prior-3"
+      ],
+      "requires": [
+        "SZ-G8-T2-66ADD474F9-Q19-P03"
+      ],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "answer": "\\(a=b=c\\)",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "每项减去最小值后均非负。它们的和为零时，每个差都必须为零。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.S02.01",
+        "M.N02.01"
+      ],
+      "exam_ids": [
+        "E.N02.01.02"
+      ],
+      "coverage": "部分匹配",
+      "tag_reason": "核对该分问的要求与演算，考查平均数与加权平均数、由非负量和为零确定未知量。",
+      "tag_note": "本题涉及算术平均数，题面未给出加权或反求缺失值的要求。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q19-P05",
+      "label": "（2）③",
+      "prompt": "③ 运用②填空：\n若\\(M\\{2x+y+6，x+2y，2x−y\\}=min\\{2x+y+6，x+2y，2x−y\\}\\) ，\n则\\(x+y=\\)             ；",
+      "stem_text": "③ 运用②填空：\n若\\(M\\{2x+y+6，x+2y，2x−y\\}=min\\{2x+y+6，x+2y，2x−y\\}\\) ，\n则\\(x+y=\\)             ；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2",
+        "prior-4"
+      ],
+      "requires": [
+        "SZ-G8-T2-66ADD474F9-Q19-P04"
+      ],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "answer": "\\(x+y=-12\\)",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "令三个式子相等，有 \\(y=x+6,\\ x=3y\\)，于是 \\(y=-3,x=-9\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.N06.03"
+      ],
+      "exam_ids": [
+        "E.N06.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "核对该分问的要求与演算，考查用消元求二元一次方程组的解。",
+      "tag_note": "",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q19-P06",
+      "label": "（3）",
+      "prompt": "（3）在同一直角坐标系中作出函数\\({y}_{1}=x+1 ,  {y}_{2}=\\frac{1}{2}x−1 ,  {y}_{3}=−x+2\\)的图象（不需列表，描点），通过图象，得出\\(min\\{x+1，\\frac{1}{2}x−1，−x+2\\}\\)最大值为              ．",
+      "stem_text": "（3）在同一直角坐标系中作出函数\\({y}_{1}=x+1 ,  {y}_{2}=\\frac{1}{2}x−1 ,  {y}_{3}=−x+2\\)的图象（不需列表，描点），通过图象，得出\\(min\\{x+1，\\frac{1}{2}x−1，−x+2\\}\\)最大值为              ．",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "answer": "0",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "在同一坐标系画出三条直线，取三者中较低的一段。对于 \\(x\\le2\\)，有 \\(\\frac12x-1\\le0\\)；对于 \\(x\\ge2\\)，有 \\(-x+2\\le0\\)。在 \\(x=2\\) 处三值为 3、0、0，故最大值为 0。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.N10.02",
+        "M.N11.03"
+      ],
+      "exam_ids": [
+        "E.N10.02.03",
+        "E.N11.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "核对该分问的要求与演算，考查根据新给函数规则探索并检验性质、依据直线图象求等式或大小关系的范围。",
+      "tag_note": "",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "figures": [
+    "assets/figures/95/9576d449c56e8487d92729710163f1aa5f6a2bd0317725662bfbd6aa698879b9.png",
+    "assets/figures/d5/d56f58f9d1b96ff2f9e3c8b8ac23828bfec6dad87f26d9c3bcc5d205c680d8c1.png"
+  ],
+  "tables": [],
+  "answer": "（1）① \\(\\frac12\\)\n（1）② \\(0\\le x\\le1\\)\n（2）① \\(x=2\\)\n（2）② \\(a=b=c\\)\n（2）③ \\(x+y=-12\\)\n（3） 0",
+  "given_answer": "",
+  "given_solution": "〔图1〕     〔图2〕\na=b=C   -1 2\n0",
+  "given_solution_figures": [
+    "assets/figures/04/04738d36a105a6cff64967089452adb29515ab73d296437c8ccf111683d3db4b.png",
+    "assets/figures/9f/9f4d0e6f7d11c9334501054e9edecfd11624feaf570cdd36a4afdbba4f28b23b.png"
+  ],
+  "solution_steps": [
+    "（1）① 三个数都是正数，平方后依次为 \\(\\tfrac14,\\tfrac12,\\tfrac13\\)，最小的是第一个。",
+    "（1）② 需同时满足 \\(2x+2\\ge2,\\ 4-2x\\ge2\\)。",
+    "（2）① 平均数等于最小数时，三个数必须相等。令 \\(4=x+2=2x\\)，得 \\(x=2\\)。",
+    "（2）② 每项减去最小值后均非负。它们的和为零时，每个差都必须为零。",
+    "（2）③ 令三个式子相等，有 \\(y=x+6,\\ x=3y\\)，于是 \\(y=-3,x=-9\\)。",
+    "（3） 在同一坐标系画出三条直线，取三者中较低的一段。对于 \\(x\\le2\\)，有 \\(\\frac12x-1\\le0\\)；对于 \\(x\\ge2\\)，有 \\(-x+2\\le0\\)。在 \\(x=2\\) 处三值为 3、0、0，故最大值为 0。"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）① 三个数都是正数，平方后依次为 \\(\\tfrac14,\\tfrac12,\\tfrac13\\)，最小的是第一个。\n（1）② 需同时满足 \\(2x+2\\ge2,\\ 4-2x\\ge2\\)。\n（2）① 平均数等于最小数时，三个数必须相等。令 \\(4=x+2=2x\\)，得 \\(x=2\\)。\n（2）② 每项减去最小值后均非负。它们的和为零时，每个差都必须为零。\n（2）③ 令三个式子相等，有 \\(y=x+6,\\ x=3y\\)，于是 \\(y=-3,x=-9\\)。\n（3） 在同一坐标系画出三条直线，取三者中较低的一段。对于 \\(x\\le2\\)，有 \\(\\frac12x-1\\le0\\)；对于 \\(x\\ge2\\)，有 \\(-x+2\\le0\\)。在 \\(x=2\\) 处三值为 3、0、0，故最大值为 0。",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-66ADD474F9/single/q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          63.92,
+          582.2,
+          734.79
+        ]
+      }
+    ],
+    "solution_pages": [
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-66ADD474F9/single/s19-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          13,
+          222.09,
+          582.2,
+          346.01
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

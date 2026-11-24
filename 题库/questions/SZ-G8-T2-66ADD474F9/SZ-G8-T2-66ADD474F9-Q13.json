@@ -1,0 +1,81 @@
+{
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "据原卷问题与计算或证明核定：确认对应关系并证明三角形相似、由勾股关系求直角三角形边长。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-66ADD474F9-Q13",
+  "number": 13,
+  "paper_id": "SZ-G8-T2-66ADD474F9",
+  "title": "确认对应关系并证明三角形相似、由勾股关系求直角三角形边长",
+  "stem": "如图，在\\(△ABC\\)中，AB=7，AC=3，\\(3\\angle B+\\angle C=180{}^\\circ\\)，则\\({S}_{△ABC}\\)的值为            ．\n〔图1〕",
+  "type": "填空题",
+  "points": null,
+  "choices": [],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/cd/cdf3a980243bd810b46e22c17b2c139df82b9ab02c466aa69cdd231c7a11baff.png"
+  ],
+  "tables": [],
+  "answer": "\\(\\frac{7\\sqrt{5}}{2}\\)",
+  "given_answer": "\\(\\frac{7\\sqrt{5}}{2}\\)",
+  "given_solution": "",
+  "given_solution_figures": [
+    "assets/figures/89/898408cd5880f088456b17d3c9ec44a91f894fe15462f31032d7b7afa02f9581.png"
+  ],
+  "solution_steps": [
+    "由三角形内角和与 3∠B+∠C=180°，得 ∠A=2∠B。作角平分线 AD 交 BC 于 D，则 ∠BAD=∠B，故 AD=BD。又 △ADC∽△BAC，因此 AD/7=3/BC=DC/3。",
+    "令 BC=a，便有 BD=AD=21/a，DC=9/a，故 a=30/a，即 BC²=30。过 C 作 CH⊥AB，设 AH=x，则 CH²=9−x²=30−(7−x)²，解得 x=2。",
+    "CH=√5，故 S△ABC=AB×CH/2=7√5/2。"
+  ],
+  "solution_origin": "editorial_solution",
+  "solution": "由三角形内角和与 3∠B+∠C=180°，得 ∠A=2∠B。作角平分线 AD 交 BC 于 D，则 ∠BAD=∠B，故 AD=BD。又 △ADC∽△BAC，因此 AD/7=3/BC=DC/3。\n令 BC=a，便有 BD=AD=21/a，DC=9/a，故 a=30/a，即 BC²=30。过 C 作 CH⊥AB，设 AH=x，则 CH²=9−x²=30−(7−x)²，解得 x=2。\nCH=√5，故 S△ABC=AB×CH/2=7√5/2。",
+  "review_note": "原答案页手写为 7√5/2。已核对原图，按三角形相似与勾股定理复算一致。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-66ADD474F9/single/q13-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          13,
+          606.88,
+          582.2,
+          775.14
+        ]
+      }
+    ],
+    "solution_pages": [
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-66ADD474F9/single/s13-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          13,
+          258.22,
+          582.2,
+          304.75
+        ]
+      }
+    ]
+  },
+  "tag_source": "逐题核对"
+}

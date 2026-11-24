@@ -1,0 +1,144 @@
+{
+  "id": "SZ-G8-T2-110BA1EB11-Q15",
+  "paper_id": "SZ-G8-T2-110BA1EB11",
+  "number": 15,
+  "type": "填空题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，在平行四边形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(AD=4\\)，\\(DC=8\\)，点E为\\(BC\\)的中点，将平行四边形\\(ABCD\\)沿折痕\\(MN\\)翻折，使点D落在点E处，则线段\\(MN\\)的长为______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/80/80f98b2a9597b28ca8283e61f1fa001b52b75da9eb3d923408c856f6b53bf5e3.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\frac { 4\\sqrt[] { 7 } } { 3 }\\)",
+  "answer": "\\(\\frac { 4\\sqrt[] { 7 } } { 3 }\\)",
+  "given_solution": "【分析】先过点\\(E\\)作\\(EG\\bot DC\\)于点G，利用平行四边形的性质得到\\(\\angle CEG=30{}^\\circ\\)，进而利用勾股定理求出\\(CG=1\\)，\\(GE=\\sqrt[] { 3 }\\)，然后再利用勾股定理得到\\(ME=DM=\\frac { 14 } { 3 }\\)，即可得到\\(CM=\\frac { 10 } { 3 }\\)，然后延长\\(ME\\)交\\(AB\\)的延长线于点H，过点A作\\(AP\\bot CD\\)于点P，过点N作\\(NQ\\bot CD\\)于点\\(Q\\)，则\\(\\vartriangle MCE≌\\vartriangle HBE\\)，得到\\(HE=ME=\\frac { 14 } { 3 }\\)，\\(HB=CM=\\frac { 10 } { 3 }\\)，再根据等角对等边得到\\(HN=NM=2ME=\\frac { 28 } { 3 }\\)，进而计算\\(AN=2\\)，继而得到\\(QM=\\frac { 2 } { 3 }\\)，然后根据勾股定求折痕的长度即可．\n【详解】解：过点\\(E\\)作\\(EG\\bot DC\\)于点G，\n∵\\(ABCD\\)是平行四边形，\n∴\\(AD\\parallel BC\\)，\\(AD=BC=4\\)，\n∴\\(\\angle GCE=\\angle D=60{}^\\circ\\)，\n∴\\(\\angle CEG=30{}^\\circ\\)，\n又∵点E为\\(BC\\)的中点，\n∴\\(CE=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(CG=\\frac { 1 } { 2 }EC=1\\)，\\(GE=\\sqrt[] { CE ^ { 2 } -CG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n设\\(DM=ME=x\\)，则\\(GM=8+1-x=9-x\\)，\n∵\\(MG ^ { 2 } +EG ^ { 2 } =ME ^ { 2 }\\)，即\\(\\left ( { 9-x } \\right ) ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } =x ^ { 2 }\\)，\n解得\\(x=\\frac { 14 } { 3 }\\)，即\\(ME=DM=\\frac { 14 } { 3 }\\)，\n∴\\(CM=CD-DM=8-\\frac { 14 } { 3 }=\\frac { 10 } { 3 }\\)，\n〔图2〕\n延长\\(ME\\)交\\(AB\\)的延长线于点H，过点A作\\(AP\\bot CD\\)于点P，过点N作\\(NQ\\bot CD\\)于点\\(Q\\)，\n∵\\(CD\\parallel AB\\)，\n\\(\\therefore \\angle C=\\angle CBH\\)，\\(\\angle CME=\\angle H\\)，\\(\\angle DMN=\\angle MNB\\)，\n又∵\\(CE=BE\\)，\n∴\\(\\vartriangle MCE≌\\vartriangle HBE\\)，\n∴\\(HE=ME=\\frac { 14 } { 3 }\\)，\\(HB=CM=\\frac { 10 } { 3 }\\)，\n由折叠可得\\(\\angle HMN=\\angle DMN\\)，\n∴\\(\\angle HMN=\\angle HNM\\)，\n∴\\(HN=NM=2ME=\\frac { 28 } { 3 }\\)，\n∴\\(NB=NH-BH=\\frac { 28 } { 3 }-\\frac { 10 } { 3 }=6\\)，\n∴\\(AN=AB-BN=8-6=2\\)，\n又∵\\(AP\\bot CD\\)，\\(NQ\\bot CD\\)，\n∴\\(\\angle DPA=\\angle DQN=90{}^\\circ\\)，\n∴\\(AP=NQ\\)，\\(PQ=AN=2\\)，\n又∵\\(\\angle D=60{}^\\circ\\)，\n∴\\(\\angle DAP=30{}^\\circ\\)，\n∴\\(BP=\\frac { 1 } { 2 }AD=2\\)，\\(NQ=AP=\\sqrt[] { AD ^ { 2 } -BP ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∴\\(QM=DM-DP-PQ=\\frac { 14 } { 3 }-2-2=\\frac { 2 } { 3 }\\)，\n∴\\({ \\rm{ M } }{ \\rm{ N } }=\\sqrt[] { MQ ^ { 2 } +QN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 2 } { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 4 } { 3 }\\sqrt[] { 7 }\\)．\n〔图3〕\n【点睛】本题考查平行四边形的性质，勾股定理，全等三角形的判定和性质，等边对等角，作辅助线构造直角三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/80/80f98b2a9597b28ca8283e61f1fa001b52b75da9eb3d923408c856f6b53bf5e3.png",
+    "assets/figures/2b/2bdb6363e9e812b5affc28a26f913be2c6b8a55315531620229de737abe6f555.png",
+    "assets/figures/60/608e323632a9ef079bedb377a937b2d424ae4fa8232a3e7974135e4598c8c651.png"
+  ],
+  "solution": "解：过点\\(E\\)作\\(EG\\bot DC\\)于点G，\n∵\\(ABCD\\)是平行四边形，\n∴\\(AD\\parallel BC\\)，\\(AD=BC=4\\)，\n∴\\(\\angle GCE=\\angle D=60{}^\\circ\\)，\n∴\\(\\angle CEG=30{}^\\circ\\)，\n又∵点E为\\(BC\\)的中点，\n∴\\(CE=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(CG=\\frac { 1 } { 2 }EC=1\\)，\\(GE=\\sqrt[] { CE ^ { 2 } -CG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n设\\(DM=ME=x\\)，则\\(GM=8+1-x=9-x\\)，\n∵\\(MG ^ { 2 } +EG ^ { 2 } =ME ^ { 2 }\\)，即\\(\\left ( { 9-x } \\right ) ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } =x ^ { 2 }\\)，\n解得\\(x=\\frac { 14 } { 3 }\\)，即\\(ME=DM=\\frac { 14 } { 3 }\\)，\n∴\\(CM=CD-DM=8-\\frac { 14 } { 3 }=\\frac { 10 } { 3 }\\)，\n〔图2〕\n延长\\(ME\\)交\\(AB\\)的延长线于点H，过点A作\\(AP\\bot CD\\)于点P，过点N作\\(NQ\\bot CD\\)于点\\(Q\\)，\n∵\\(CD\\parallel AB\\)，\n\\(\\therefore \\angle C=\\angle CBH\\)，\\(\\angle CME=\\angle H\\)，\\(\\angle DMN=\\angle MNB\\)，\n又∵\\(CE=BE\\)，\n∴\\(\\vartriangle MCE≌\\vartriangle HBE\\)，\n∴\\(HE=ME=\\frac { 14 } { 3 }\\)，\\(HB=CM=\\frac { 10 } { 3 }\\)，\n由折叠可得\\(\\angle HMN=\\angle DMN\\)，\n∴\\(\\angle HMN=\\angle HNM\\)，\n∴\\(HN=NM=2ME=\\frac { 28 } { 3 }\\)，\n∴\\(NB=NH-BH=\\frac { 28 } { 3 }-\\frac { 10 } { 3 }=6\\)，\n∴\\(AN=AB-BN=8-6=2\\)，\n又∵\\(AP\\bot CD\\)，\\(NQ\\bot CD\\)，\n∴\\(\\angle DPA=\\angle DQN=90{}^\\circ\\)，\n∴\\(AP=NQ\\)，\\(PQ=AN=2\\)，\n又∵\\(\\angle D=60{}^\\circ\\)，\n∴\\(\\angle DAP=30{}^\\circ\\)，\n∴\\(BP=\\frac { 1 } { 2 }AD=2\\)，\\(NQ=AP=\\sqrt[] { AD ^ { 2 } -BP ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∴\\(QM=DM-DP-PQ=\\frac { 14 } { 3 }-2-2=\\frac { 2 } { 3 }\\)，\n∴\\({ \\rm{ M } }{ \\rm{ N } }=\\sqrt[] { MQ ^ { 2 } +QN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 2 } { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 4 } { 3 }\\sqrt[] { 7 }\\)．\n〔图3〕",
+  "solution_steps": [
+    "解：过点\\(E\\)作\\(EG\\bot DC\\)于点G，",
+    "∵\\(ABCD\\)是平行四边形，",
+    "∴\\(AD\\parallel BC\\)，\\(AD=BC=4\\)，",
+    "∴\\(\\angle GCE=\\angle D=60{}^\\circ\\)，",
+    "∴\\(\\angle CEG=30{}^\\circ\\)，",
+    "又∵点E为\\(BC\\)的中点，",
+    "∴\\(CE=\\frac { 1 } { 2 }BC=2\\)，",
+    "∴\\(CG=\\frac { 1 } { 2 }EC=1\\)，\\(GE=\\sqrt[] { CE ^ { 2 } -CG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+    "设\\(DM=ME=x\\)，则\\(GM=8+1-x=9-x\\)，",
+    "∵\\(MG ^ { 2 } +EG ^ { 2 } =ME ^ { 2 }\\)，即\\(\\left ( { 9-x } \\right ) ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } =x ^ { 2 }\\)，",
+    "解得\\(x=\\frac { 14 } { 3 }\\)，即\\(ME=DM=\\frac { 14 } { 3 }\\)，",
+    "∴\\(CM=CD-DM=8-\\frac { 14 } { 3 }=\\frac { 10 } { 3 }\\)，",
+    "〔图2〕",
+    "延长\\(ME\\)交\\(AB\\)的延长线于点H，过点A作\\(AP\\bot CD\\)于点P，过点N作\\(NQ\\bot CD\\)于点\\(Q\\)，",
+    "∵\\(CD\\parallel AB\\)，",
+    "\\(\\therefore \\angle C=\\angle CBH\\)，\\(\\angle CME=\\angle H\\)，\\(\\angle DMN=\\angle MNB\\)，",
+    "又∵\\(CE=BE\\)，",
+    "∴\\(\\vartriangle MCE≌\\vartriangle HBE\\)，",
+    "∴\\(HE=ME=\\frac { 14 } { 3 }\\)，\\(HB=CM=\\frac { 10 } { 3 }\\)，",
+    "由折叠可得\\(\\angle HMN=\\angle DMN\\)，",
+    "∴\\(\\angle HMN=\\angle HNM\\)，",
+    "∴\\(HN=NM=2ME=\\frac { 28 } { 3 }\\)，",
+    "∴\\(NB=NH-BH=\\frac { 28 } { 3 }-\\frac { 10 } { 3 }=6\\)，",
+    "∴\\(AN=AB-BN=8-6=2\\)，",
+    "又∵\\(AP\\bot CD\\)，\\(NQ\\bot CD\\)，",
+    "∴\\(\\angle DPA=\\angle DQN=90{}^\\circ\\)，",
+    "∴\\(AP=NQ\\)，\\(PQ=AN=2\\)，",
+    "又∵\\(\\angle D=60{}^\\circ\\)，",
+    "∴\\(\\angle DAP=30{}^\\circ\\)，",
+    "∴\\(BP=\\frac { 1 } { 2 }AD=2\\)，\\(NQ=AP=\\sqrt[] { AD ^ { 2 } -BP ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+    "∴\\(QM=DM-DP-PQ=\\frac { 14 } { 3 }-2-2=\\frac { 2 } { 3 }\\)，",
+    "∴\\({ \\rm{ M } }{ \\rm{ N } }=\\sqrt[] { MQ ^ { 2 } +QN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 2 } { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 4 } { 3 }\\sqrt[] { 7 }\\)．",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      50
+    ],
+    "solution_body_blocks": [
+      178,
+      216
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-110BA1EB11/paper-q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          619.55,
+          583.64,
+          753.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-110BA1EB11/solution-q15-p09.webp",
+      "assets/SZ-G8-T2-110BA1EB11/solution-q15-p10.webp",
+      "assets/SZ-G8-T2-110BA1EB11/solution-q15-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          598.18,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          735.0
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          517.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

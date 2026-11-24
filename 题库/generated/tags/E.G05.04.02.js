@@ -1,0 +1,1 @@
+globalThis.BankData.put("tags/E.G05.04.02",{"id":"E.G05.04.02","results":[{"id":"SZ-G8-T2-CCE72126B0-Q06","question_id":"SZ-G8-T2-CCE72126B0-Q06","paper_id":"SZ-G8-T2-CCE72126B0","number":6,"label":"","type":"选择题","title":"选择附加条件完成四边形类型转化","preview":"（3分）下列命题正确的是（　　）","knowledge_ids":["M.G05.04"],"exam_ids":["E.G05.04.02"],"coverage":"完整匹配","has_review_note":false}]});

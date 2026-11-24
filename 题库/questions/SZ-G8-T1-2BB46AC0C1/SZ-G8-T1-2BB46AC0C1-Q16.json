@@ -1,0 +1,297 @@
+{
+  "id": "SZ-G8-T1-2BB46AC0C1-Q16",
+  "paper_id": "SZ-G8-T1-2BB46AC0C1",
+  "number": 16,
+  "type": "解答题",
+  "points": 8.0,
+  "title": "用坐标求线段长度与面积、选择充分条件证明三角形全等",
+  "stem": "（8分）点\\(O\\)是平面直角坐标系的原点，点\\(A\\)、\\(B\\)坐标分别是\\(\\left ( { 1,2 } \\right )\\)、\\(\\left ( { 3,1 } \\right )\\)．\n〔图1〕\n(1)求\\(\\vartriangle ABO\\)的面积；\n(2)在图中画出\\(OB\\)的垂线\\(OC\\)，标出格点\\(C\\)并写出坐标；\n(3)在第一象限内，画出以线段\\(AB\\)为腰的等腰\\(\\vartriangle ABD\\)，标出格点\\(D\\)并写出坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/392b4aac53607e026d31e170802df8a3b4d835926462e8655dfdb82fe4e25c18.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）点\\(O\\)是平面直角坐标系的原点，点\\(A\\)、\\(B\\)坐标分别是\\(\\left ( { 1,2 } \\right )\\)、\\(\\left ( { 3,1 } \\right )\\)．\n〔图1〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q16-P01",
+      "label": "(1)",
+      "prompt": "求\\(\\vartriangle ABO\\)的面积；",
+      "stem_text": "求\\(\\vartriangle ABO\\)的面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)",
+      "given_solution": "解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)；(1分）",
+      "solution_steps": [
+        "解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)；(1分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          168
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q16-P02",
+      "label": "(2)",
+      "prompt": "在图中画出\\(OB\\)的垂线\\(OC\\)，标出格点\\(C\\)并写出坐标；",
+      "stem_text": "在图中画出\\(OB\\)的垂线\\(OC\\)，标出格点\\(C\\)并写出坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "同理可得：\\(OB\\bot OC_{ 2 }\\)",
+      "given_solution": "如图，(2分）\n格点\\(C_{ 1 }\\)，\\(C_{ 2 }\\)即为所求，\\(C_{ 1 } \\left ( { -1,3 } \\right )\\)，\\(C_{ 2 } \\left ( { 1,-3 } \\right )\\)，(3分）\n〔图1〕\n证明：如图，作\\(C_{ 1 } M\\bot x\\)轴于M，\\(BN\\bot x\\)轴于N，\n由网格得：\\(OM=BN\\)，\\(OC_{ 1 } =BO\\)，\\(MC_{ 1 } =NO\\)，\n∴\\(\\vartriangle OMC_{ 1 } ≌\\vartriangle BNO\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle OC_{ 1 } M=\\angle BON\\)，\n∵\\(\\angle C_{ 1 } MO=90{}^\\circ\\)，\n∴\\(\\angle MOC_{ 1 } +\\angle OC_{ 1 } M=90{}^\\circ\\)，\n∴\\(\\angle MOC_{ 1 } +\\angle BON=90{}^\\circ\\)，\n∴\\(\\angle BOC_{ 1 } =90{}^\\circ\\)，即\\(OB\\bot OC_{ 1 }\\)，\n同理可得：\\(OB\\bot OC_{ 2 }\\)；",
+      "solution_steps": [
+        "如图，(2分）",
+        "格点\\(C_{ 1 }\\)，\\(C_{ 2 }\\)即为所求，\\(C_{ 1 } \\left ( { -1,3 } \\right )\\)，\\(C_{ 2 } \\left ( { 1,-3 } \\right )\\)，(3分）",
+        "〔图1〕",
+        "证明：如图，作\\(C_{ 1 } M\\bot x\\)轴于M，\\(BN\\bot x\\)轴于N，",
+        "由网格得：\\(OM=BN\\)，\\(OC_{ 1 } =BO\\)，\\(MC_{ 1 } =NO\\)，",
+        "∴\\(\\vartriangle OMC_{ 1 } ≌\\vartriangle BNO\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle OC_{ 1 } M=\\angle BON\\)，",
+        "∵\\(\\angle C_{ 1 } MO=90{}^\\circ\\)，",
+        "∴\\(\\angle MOC_{ 1 } +\\angle OC_{ 1 } M=90{}^\\circ\\)，",
+        "∴\\(\\angle MOC_{ 1 } +\\angle BON=90{}^\\circ\\)，",
+        "∴\\(\\angle BOC_{ 1 } =90{}^\\circ\\)，即\\(OB\\bot OC_{ 1 }\\)，",
+        "同理可得：\\(OB\\bot OC_{ 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          169,
+          170,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          9,
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-2BB46AC0C1-Q16-P03",
+      "label": "(3)",
+      "prompt": "在第一象限内，画出以线段\\(AB\\)为腰的等腰\\(\\vartriangle ABD\\)，标出格点\\(D\\)并写出坐标．",
+      "stem_text": "在第一象限内，画出以线段\\(AB\\)为腰的等腰\\(\\vartriangle ABD\\)，标出格点\\(D\\)并写出坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)",
+      "given_solution": "如图，格点\\(D_{ 1 }\\)，\\(D_{ 2 }\\)，\\(D_{ 3 }\\)，\\(D_{ 4 }\\)，\\(D_{ 5 }\\)即为所求(5分）\n，\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)．(8分）\n〔图2〕",
+      "solution_steps": [
+        "如图，格点\\(D_{ 1 }\\)，\\(D_{ 2 }\\)，\\(D_{ 3 }\\)，\\(D_{ 4 }\\)，\\(D_{ 5 }\\)即为所求(5分）",
+        "，\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)．(8分）",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          182,
+          183,
+          185
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "answer": "（1）解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)\n（2）同理可得：\\(OB\\bot OC_{ 2 }\\)\n（3）\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)",
+  "given_solution": "【详解】（1）解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)；(1分）\n（2）如图，(2分）\n格点\\(C_{ 1 }\\)，\\(C_{ 2 }\\)即为所求，\\(C_{ 1 } \\left ( { -1,3 } \\right )\\)，\\(C_{ 2 } \\left ( { 1,-3 } \\right )\\)，(3分）\n〔图1〕\n证明：如图，作\\(C_{ 1 } M\\bot x\\)轴于M，\\(BN\\bot x\\)轴于N，\n由网格得：\\(OM=BN\\)，\\(OC_{ 1 } =BO\\)，\\(MC_{ 1 } =NO\\)，\n∴\\(\\vartriangle OMC_{ 1 } ≌\\vartriangle BNO\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle OC_{ 1 } M=\\angle BON\\)，\n∵\\(\\angle C_{ 1 } MO=90{}^\\circ\\)，\n∴\\(\\angle MOC_{ 1 } +\\angle OC_{ 1 } M=90{}^\\circ\\)，\n∴\\(\\angle MOC_{ 1 } +\\angle BON=90{}^\\circ\\)，\n∴\\(\\angle BOC_{ 1 } =90{}^\\circ\\)，即\\(OB\\bot OC_{ 1 }\\)，\n同理可得：\\(OB\\bot OC_{ 2 }\\)；\n（3）如图，格点\\(D_{ 1 }\\)，\\(D_{ 2 }\\)，\\(D_{ 3 }\\)，\\(D_{ 4 }\\)，\\(D_{ 5 }\\)即为所求(5分）\n，\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)．(8分）\n〔图2〕",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/cfa669d08af2e3917703ea1c294dab792165eead1b5f1a0162150bfaef1e4338.png",
+    "assets/SZ-G8-T1-2BB46AC0C1/figures/17cb6e0efeaf1146a1fc88a4156b6c7735a8c3d84f5cf706afa3fd45b7e6041e.png"
+  ],
+  "solution_steps": [
+    "（1）解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)；(1分）",
+    "（2）如图，(2分）",
+    "格点\\(C_{ 1 }\\)，\\(C_{ 2 }\\)即为所求，\\(C_{ 1 } \\left ( { -1,3 } \\right )\\)，\\(C_{ 2 } \\left ( { 1,-3 } \\right )\\)，(3分）",
+    "〔图1〕",
+    "证明：如图，作\\(C_{ 1 } M\\bot x\\)轴于M，\\(BN\\bot x\\)轴于N，",
+    "由网格得：\\(OM=BN\\)，\\(OC_{ 1 } =BO\\)，\\(MC_{ 1 } =NO\\)，",
+    "∴\\(\\vartriangle OMC_{ 1 } ≌\\vartriangle BNO\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle OC_{ 1 } M=\\angle BON\\)，",
+    "∵\\(\\angle C_{ 1 } MO=90{}^\\circ\\)，",
+    "∴\\(\\angle MOC_{ 1 } +\\angle OC_{ 1 } M=90{}^\\circ\\)，",
+    "∴\\(\\angle MOC_{ 1 } +\\angle BON=90{}^\\circ\\)，",
+    "∴\\(\\angle BOC_{ 1 } =90{}^\\circ\\)，即\\(OB\\bot OC_{ 1 }\\)，",
+    "同理可得：\\(OB\\bot OC_{ 2 }\\)；",
+    "（3）如图，格点\\(D_{ 1 }\\)，\\(D_{ 2 }\\)，\\(D_{ 3 }\\)，\\(D_{ 4 }\\)，\\(D_{ 5 }\\)即为所求(5分）",
+    "，\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)．(8分）",
+    "〔图2〕"
+  ],
+  "solution": "（1）解：\\(S_{ \\vartriangle ABO } =2\\times 3-\\frac { 1 } { 2 }\\times 1\\times 3-\\frac { 1 } { 2 }\\times 1\\times 2-\\frac { 1 } { 2 }\\times 1\\times 2=6-\\frac { 3 } { 2 }-1-1=\\frac { 5 } { 2 }\\)；(1分）\n（2）如图，(2分）\n格点\\(C_{ 1 }\\)，\\(C_{ 2 }\\)即为所求，\\(C_{ 1 } \\left ( { -1,3 } \\right )\\)，\\(C_{ 2 } \\left ( { 1,-3 } \\right )\\)，(3分）\n〔图1〕\n证明：如图，作\\(C_{ 1 } M\\bot x\\)轴于M，\\(BN\\bot x\\)轴于N，\n由网格得：\\(OM=BN\\)，\\(OC_{ 1 } =BO\\)，\\(MC_{ 1 } =NO\\)，\n∴\\(\\vartriangle OMC_{ 1 } ≌\\vartriangle BNO\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle OC_{ 1 } M=\\angle BON\\)，\n∵\\(\\angle C_{ 1 } MO=90{}^\\circ\\)，\n∴\\(\\angle MOC_{ 1 } +\\angle OC_{ 1 } M=90{}^\\circ\\)，\n∴\\(\\angle MOC_{ 1 } +\\angle BON=90{}^\\circ\\)，\n∴\\(\\angle BOC_{ 1 } =90{}^\\circ\\)，即\\(OB\\bot OC_{ 1 }\\)，\n同理可得：\\(OB\\bot OC_{ 2 }\\)；\n（3）如图，格点\\(D_{ 1 }\\)，\\(D_{ 2 }\\)，\\(D_{ 3 }\\)，\\(D_{ 4 }\\)，\\(D_{ 5 }\\)即为所求(5分）\n，\\(D_{ 1 } \\left ( { 2,4 } \\right )\\)，\\(D_{ 2 } \\left ( { 3,3 } \\right )\\)，\\(D_{ 3 } \\left ( { 2,3 } \\right )\\)，\\(D_{ 4 } \\left ( { 4,3 } \\right )\\)，\\(D_{ 5 } \\left ( { 5,2 } \\right )\\)．(8分）\n〔图2〕",
+  "solution_origin": "source_solution_summary",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "paper_body_blocks": [
+      69,
+      81
+    ],
+    "solution_body_blocks": [
+      168,
+      185
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-2BB46AC0C1/paper-q16-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          316.36,
+          583.64,
+          558.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-2BB46AC0C1/solution-q16-p09.webp",
+      "assets/SZ-G8-T1-2BB46AC0C1/solution-q16-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          315.0,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          79.55,
+          583.64,
+          420.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.03",
+    "M.G03.02",
+    "M.G03.01",
+    "M.G09.01"
+  ],
+  "exam_ids": [
+    "E.G09.03.01",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G09.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 题面对应“由坐标定位点并判断位置特征”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

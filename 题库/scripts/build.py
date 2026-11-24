@@ -154,6 +154,10 @@ def source_for(q, task, role, paper):
     source = q["source"]
     pages = source[pk]
     images = source[ik]
+    if role == "solution" and role not in paper["sources"]:
+        require(q["solution_origin"] == "editorial_answer_and_solution" and not pages and not images
+                and not task.get("source", {}).get(pk), f"{q['id']} 缺少解析来源或原解析定位有误")
+        return {}
     limits = paper["sources"][role].get("print_page_count")
     require(pages and len(images)==len(pages) and len(set(pages))==len(pages)
             and all(isinstance(n,int) and n>0 and (not limits or n<=limits) for n in pages),
@@ -248,7 +252,8 @@ class Bank:
                     val = (k,row["name"])
                     require(code not in tag_names or tag_names[code]==val, f"跨版本标签语义冲突 {code}")
                     tag_names[code] = val
-            for role in ("paper","solution"):
+            require("paper" in p["sources"],pid+" 缺少原卷")
+            for role in p["sources"]:
                 src = p["sources"][role]
                 relative = src.get("git_path") or src["repo_path"]
                 original = local(root.parent,relative)
@@ -304,11 +309,11 @@ class Bank:
         origin = q["solution_origin"]
         for key in ("stem","title"):
             text(q[key],qid+" "+key)
-        if origin not in {"source_solution_summary","source_checked_with_correction","source_facsimile"}:
+        if origin not in {"source_solution_summary","source_checked_with_correction","source_facsimile","editorial_answer_and_solution"}:
             text(q["given_answer"],qid+" given_answer")
-        if origin not in {"editorial_solution","source_answer_only","source_facsimile"}:
+        if origin not in {"editorial_solution","source_answer_only","source_facsimile","editorial_answer_and_solution"}:
             text(q["given_solution"],qid+" given_solution")
-        if origin == "source_checked_with_correction" or origin == "editorial_solution":
+        if origin in {"source_checked_with_correction","editorial_solution","editorial_answer_and_solution"}:
             text(q.get("review_note"),qid+" 校勘说明")
         for ref in q["figures"]+q["given_solution_figures"]+q["source"]["question_images"]+q["source"]["solution_images"]:
             self.asset(ref)
@@ -373,15 +378,17 @@ class Bank:
                 "review_note":task.get("review_note",""),"source":source_for(q,task,"solution",paper),
                 "solution_figures":[q["given_solution_figures"][n-1] for n in solution_figure_ids]
             }
-            more = task.get("source",{}).get("supplemental_solutions",[])
-            if more:
+            for field,group in (("supplemental_papers","items"),("supplemental_solutions","answers")):
+                more = task.get("source",{}).get(field,[])
+                if not more:
+                    continue
                 for ref in more:
                     target = self.asset(ref["pdf"])
                     require(file_hash(target)==ref["sha256"]==file_hash(local(self.root.parent,ref["git_path"])),
-                            f"{key} 补充解析来源指纹不符")
+                            f"{key} 补充来源指纹不符")
                     require(ref["pages"] and all(type(n) is int and 1 <= n <= ref["print_page_count"] for n in ref["pages"]),
-                            f"{key} 补充解析页码越界")
-                self.shards["answers/"+key]["supplemental_solutions"]=more
+                            f"{key} 补充来源页码越界")
+                self.shards[group+"/"+key][field]=more
             displayed = [task["answer"], *task["solution_steps"], task.get("given_answer", "")]
             cited = sorted({int(n) for line in displayed for n in re.findall(r"〔图(\d+)〕", line)})
             if cited:
@@ -538,6 +545,7 @@ def subset(bank,args):
             paths.update(shard.get("figures",[]))
             paths.update(shard.get("solution_figures",[]))
             paths.update(ref["pdf"] for ref in shard.get("supplemental_solutions",[]))
+            paths.update(ref["pdf"] for ref in shard.get("supplemental_papers",[]))
             paths.update(shard.get("figure_refs",{}).values())
     assets={}
     for rel in sorted(paths):

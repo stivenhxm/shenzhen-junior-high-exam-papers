@@ -1,0 +1,366 @@
+{
+  "id": "SZ-G8-T2-DD96D14C81-Q22",
+  "paper_id": "SZ-G8-T2-DD96D14C81",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、利用旋转对应建立全等或角度关系",
+  "stem": "在△ABC中，∠ACB＝90°，∠ABC＝30°，AC＝2cm，△ABC绕点C顺时针旋转，旋转角为α（0°＜α＜180°），点A、B的对应点分别是D，E．\n（1）如图1，当点D恰好落在边AB上时，旋转角α的度数是　　；\n（2）如图2，当点B，D，E三点恰好在同一直线上时，判断此时直线CE与AB的位置关系，并说明理由；\n（3）如图3，当B，D，E三点不在同一直线上时，连接BD，AE，若△BCD的面积为\\(\\frac { 3 } { 2 }\\sqrt[] { 3 }\\)cm\\({}^{2}\\)，求此时四边形ABDE的面积．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/b5/b51af0b86432854543c0a84d82a1ae323807783918dc09022ea4161c389a32b8.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）60°；（2）CE⊥AB，见解析；（3）\\(7\\sqrt[] { 3 }\\)",
+  "answer": "（1）60°；（2）CE⊥AB，见解析；（3）\\(7\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）由旋转的性质得到AC＝CD，∠CDE＝60°，故此可证明三角形ADC为等边三角形，于是得到∠DCA＝60°，于是可得答案；\n（2）延长EC交AB于点F．由旋转的性质可知：CB＝CE，依据等腰三角形的性质可求得∠CBE＝∠E＝30°，然后依据三角形的内角和定理可得到∠BCE＝120°，接下来，在△FBE中证明∠BFE＝90°，可得到EF与AB的关系；\n（3）过D作DH⊥BC于H，过A作AG⊥EC交EC的延长线于G．先证明△AGC≌△DHC，由全等三角形的性质可得到AG＝DH，然后依据三角形的面积公式可证明△BCD与△ACE面积相等，即可解决问题．\n【详解】解：（1）∵△ABC旋转后与△DCE全等，\n∴∠A＝∠CDE，AC＝DC，\n∵∠BAC＝60°，AC＝DC，\n∴△DAC是等边三角形，\n∴∠DCA＝60°，\n故答案为：60°．\n（2）结论：CE⊥AB．\n理由：如图1所示：延长EC交AB于点F．\n〔图2〕\n∵由旋转的性质可知：CB＝CE，\n∴∠CBE＝∠E＝30°，\n∴∠BCE＝120°，即旋转角α＝120°，\n∵∠ABC＝30°，∠CBE＝30°，\n∴∠FBE＝60°，\n∴∠E+∠FBE＝30°+60°＝90°，\n∴∠BFE＝90°，\n∴EC⊥AB；\n（3）如图3所示：过D作DH⊥BC于H，过A作AG⊥EC交EC的延长线于G．\n〔图3〕\n∵DH⊥BC，AG⊥EC，\n∴∠AGC＝∠DHC＝90°，\n∵△ABC旋转后与△DCE全等，\n∴∠ACB＝∠DCE＝90°，AC＝DC，BC＝CE，\n∵∠ACE+∠BCD＝180°，∠GCA+∠ECA＝180°，\n∴∠ACG＝∠DCH，\n在△AGC和△DHC中，\n\\(\\begin{cases} \\angle AGC=\\angle DHC \\\\ \\angle ACG=\\angle DCH \\\\ AC=DC \\end{cases}\\)，\n∴△AGC≌△DHC（AAS），\n∴AG＝DH，\n∴\\(\\frac { 1 } { 2 }\\)EC•AG＝\\(\\frac { 1 } { 2 }\\)CB•DH，\n∴S\\({}_{△}\\)\\({}_{ACE}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 3\\sqrt[] { 3 } } { 2 }\\)（cm\\({}^{2}\\)），\n∵∠ACB＝90°，AC＝2，∠ABC＝30°，\n∴BC＝\\(\\sqrt[] { 3 }\\)AC＝2\\(\\sqrt[] { 3 }\\)，\n∴S\\({}_{四边形}\\)\\({}_{ABDE}\\)＝2S\\({}_{△}\\)\\({}_{BDC}\\)+2S\\({}_{△}\\)\\({}_{ABC}\\)＝3\\(\\sqrt[] { 3 }\\)+2×\\(\\frac { 1 } { 2 }\\)×2×2\\(\\sqrt[] { 3 }\\)＝7\\(\\sqrt[] { 3 }\\)．\n【点睛】本题是几何变换综合题，解答本题主要应用了旋转的性质、等边三角形的性质与判断、等腰三角形的性质、全等三角形的性质与判断证得△BDC与△AEC是一对等底等高的三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/d3/d3f42ed923ebac4a910002a6bec0c7cadafce9a34b3d543f9d56009823f1fcd0.png",
+    "assets/figures/f7/f7599fbb51c101c635c6dc69b17736c6628d5caceb79028d07fbfabdf4ff4c2b.png",
+    "assets/figures/00/00a8474db010bb5ed69e787b692517e39f8d305625edf016474bc26f95fd263c.png"
+  ],
+  "solution": "解：（1）∵△ABC旋转后与△DCE全等，\n∴∠A＝∠CDE，AC＝DC，\n∵∠BAC＝60°，AC＝DC，\n∴△DAC是等边三角形，\n∴∠DCA＝60°，\n故答案为：60°．\n（2）结论：CE⊥AB．\n理由：如图1所示：延长EC交AB于点F．\n〔图2〕\n∵由旋转的性质可知：CB＝CE，\n∴∠CBE＝∠E＝30°，\n∴∠BCE＝120°，即旋转角α＝120°，\n∵∠ABC＝30°，∠CBE＝30°，\n∴∠FBE＝60°，\n∴∠E+∠FBE＝30°+60°＝90°，\n∴∠BFE＝90°，\n∴EC⊥AB；\n（3）如图3所示：过D作DH⊥BC于H，过A作AG⊥EC交EC的延长线于G．\n〔图3〕\n∵DH⊥BC，AG⊥EC，\n∴∠AGC＝∠DHC＝90°，\n∵△ABC旋转后与△DCE全等，\n∴∠ACB＝∠DCE＝90°，AC＝DC，BC＝CE，\n∵∠ACE+∠BCD＝180°，∠GCA+∠ECA＝180°，\n∴∠ACG＝∠DCH，\n在△AGC和△DHC中，\n\\(\\begin{cases} \\angle AGC=\\angle DHC \\\\ \\angle ACG=\\angle DCH \\\\ AC=DC \\end{cases}\\)，\n∴△AGC≌△DHC（AAS），\n∴AG＝DH，\n∴\\(\\frac { 1 } { 2 }\\)EC•AG＝\\(\\frac { 1 } { 2 }\\)CB•DH，\n∴S\\({}_{△}\\)\\({}_{ACE}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 3\\sqrt[] { 3 } } { 2 }\\)（cm\\({}^{2}\\)），\n∵∠ACB＝90°，AC＝2，∠ABC＝30°，\n∴BC＝\\(\\sqrt[] { 3 }\\)AC＝2\\(\\sqrt[] { 3 }\\)，\n∴S\\({}_{四边形}\\)\\({}_{ABDE}\\)＝2S\\({}_{△}\\)\\({}_{BDC}\\)+2S\\({}_{△}\\)\\({}_{ABC}\\)＝3\\(\\sqrt[] { 3 }\\)+2×\\(\\frac { 1 } { 2 }\\)×2×2\\(\\sqrt[] { 3 }\\)＝7\\(\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）∵△ABC旋转后与△DCE全等，",
+    "∴∠A＝∠CDE，AC＝DC，",
+    "∵∠BAC＝60°，AC＝DC，",
+    "∴△DAC是等边三角形，",
+    "∴∠DCA＝60°，",
+    "故答案为：60°．",
+    "（2）结论：CE⊥AB．",
+    "理由：如图1所示：延长EC交AB于点F．",
+    "〔图2〕",
+    "∵由旋转的性质可知：CB＝CE，",
+    "∴∠CBE＝∠E＝30°，",
+    "∴∠BCE＝120°，即旋转角α＝120°，",
+    "∵∠ABC＝30°，∠CBE＝30°，",
+    "∴∠FBE＝60°，",
+    "∴∠E+∠FBE＝30°+60°＝90°，",
+    "∴∠BFE＝90°，",
+    "∴EC⊥AB；",
+    "（3）如图3所示：过D作DH⊥BC于H，过A作AG⊥EC交EC的延长线于G．",
+    "〔图3〕",
+    "∵DH⊥BC，AG⊥EC，",
+    "∴∠AGC＝∠DHC＝90°，",
+    "∵△ABC旋转后与△DCE全等，",
+    "∴∠ACB＝∠DCE＝90°，AC＝DC，BC＝CE，",
+    "∵∠ACE+∠BCD＝180°，∠GCA+∠ECA＝180°，",
+    "∴∠ACG＝∠DCH，",
+    "在△AGC和△DHC中，",
+    "\\(\\begin{cases} \\angle AGC=\\angle DHC \\\\ \\angle ACG=\\angle DCH \\\\ AC=DC \\end{cases}\\)，",
+    "∴△AGC≌△DHC（AAS），",
+    "∴AG＝DH，",
+    "∴\\(\\frac { 1 } { 2 }\\)EC•AG＝\\(\\frac { 1 } { 2 }\\)CB•DH，",
+    "∴S\\({}_{△}\\)\\({}_{ACE}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 3\\sqrt[] { 3 } } { 2 }\\)（cm\\({}^{2}\\)），",
+    "∵∠ACB＝90°，AC＝2，∠ABC＝30°，",
+    "∴BC＝\\(\\sqrt[] { 3 }\\)AC＝2\\(\\sqrt[] { 3 }\\)，",
+    "∴S\\({}_{四边形}\\)\\({}_{ABDE}\\)＝2S\\({}_{△}\\)\\({}_{BDC}\\)+2S\\({}_{△}\\)\\({}_{ABC}\\)＝3\\(\\sqrt[] { 3 }\\)+2×\\(\\frac { 1 } { 2 }\\)×2×2\\(\\sqrt[] { 3 }\\)＝7\\(\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在△ABC中，∠ACB＝90°，∠ABC＝30°，AC＝2cm，△ABC绕点C顺时针旋转，旋转角为α（0°＜α＜180°），点A、B的对应点分别是D，E．",
+      "paper_blocks": [
+        60
+      ]
+    },
+    {
+      "id": "fig-64",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点D恰好落在边AB上时，旋转角α的度数是　　；",
+      "stem_text": "如图1，当点D恰好落在边AB上时，旋转角α的度数是　　；",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "60°；",
+      "answer": "60°；",
+      "given_solution": "∵△ABC旋转后与△DCE全等，\n∴∠A＝∠CDE，AC＝DC，\n∵∠BAC＝60°，AC＝DC，\n∴△DAC是等边三角形，\n∴∠DCA＝60°，\n故答案为：60°．",
+      "solution_steps": [
+        "∵△ABC旋转后与△DCE全等，",
+        "∴∠A＝∠CDE，AC＝DC，",
+        "∵∠BAC＝60°，AC＝DC，",
+        "∴△DAC是等边三角形，",
+        "∴∠DCA＝60°，",
+        "故答案为：60°．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          64
+        ],
+        "solution_block_ids": [
+          354,
+          355,
+          356,
+          357,
+          358,
+          359
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，当点B，D，E三点恰好在同一直线上时，判断此时直线CE与AB的位置关系，并说明理由；",
+      "stem_text": "如图2，当点B，D，E三点恰好在同一直线上时，判断此时直线CE与AB的位置关系，并说明理由；",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "CE⊥AB，见解析；",
+      "answer": "CE⊥AB，见解析；",
+      "given_solution": "结论：CE⊥AB．\n理由：如图1所示：延长EC交AB于点F．\n〔图2〕\n∵由旋转的性质可知：CB＝CE，\n∴∠CBE＝∠E＝30°，\n∴∠BCE＝120°，即旋转角α＝120°，\n∵∠ABC＝30°，∠CBE＝30°，\n∴∠FBE＝60°，\n∴∠E+∠FBE＝30°+60°＝90°，\n∴∠BFE＝90°，\n∴EC⊥AB；",
+      "solution_steps": [
+        "结论：CE⊥AB．",
+        "理由：如图1所示：延长EC交AB于点F．",
+        "〔图2〕",
+        "∵由旋转的性质可知：CB＝CE，",
+        "∴∠CBE＝∠E＝30°，",
+        "∴∠BCE＝120°，即旋转角α＝120°，",
+        "∵∠ABC＝30°，∠CBE＝30°，",
+        "∴∠FBE＝60°，",
+        "∴∠E+∠FBE＝30°+60°＝90°，",
+        "∴∠BFE＝90°，",
+        "∴EC⊥AB；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          62,
+          64
+        ],
+        "solution_block_ids": [
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-DD96D14C81-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，当B，D，E三点不在同一直线上时，连接BD，AE，若△BCD的面积为\\(\\frac { 3 } { 2 }\\sqrt[] { 3 }\\)cm\\({}^{2}\\)，求此时四边形ABDE的面积．",
+      "stem_text": "如图3，当B，D，E三点不在同一直线上时，连接BD，AE，若△BCD的面积为\\(\\frac { 3 } { 2 }\\sqrt[] { 3 }\\)cm\\({}^{2}\\)，求此时四边形ABDE的面积．",
+      "material_ids": [
+        "context",
+        "fig-64"
+      ],
+      "requires": [],
+      "given_answer": "\\(7\\sqrt[] { 3 }\\)",
+      "answer": "\\(7\\sqrt[] { 3 }\\)",
+      "given_solution": "如图3所示：过D作DH⊥BC于H，过A作AG⊥EC交EC的延长线于G．\n〔图3〕\n∵DH⊥BC，AG⊥EC，\n∴∠AGC＝∠DHC＝90°，\n∵△ABC旋转后与△DCE全等，\n∴∠ACB＝∠DCE＝90°，AC＝DC，BC＝CE，\n∵∠ACE+∠BCD＝180°，∠GCA+∠ECA＝180°，\n∴∠ACG＝∠DCH，\n在△AGC和△DHC中，\n\\(\\begin{cases} \\angle AGC=\\angle DHC \\\\ \\angle ACG=\\angle DCH \\\\ AC=DC \\end{cases}\\)，\n∴△AGC≌△DHC（AAS），\n∴AG＝DH，\n∴\\(\\frac { 1 } { 2 }\\)EC•AG＝\\(\\frac { 1 } { 2 }\\)CB•DH，\n∴S\\({}_{△}\\)\\({}_{ACE}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 3\\sqrt[] { 3 } } { 2 }\\)（cm\\({}^{2}\\)），\n∵∠ACB＝90°，AC＝2，∠ABC＝30°，\n∴BC＝\\(\\sqrt[] { 3 }\\)AC＝2\\(\\sqrt[] { 3 }\\)，\n∴S\\({}_{四边形}\\)\\({}_{ABDE}\\)＝2S\\({}_{△}\\)\\({}_{BDC}\\)+2S\\({}_{△}\\)\\({}_{ABC}\\)＝3\\(\\sqrt[] { 3 }\\)+2×\\(\\frac { 1 } { 2 }\\)×2×2\\(\\sqrt[] { 3 }\\)＝7\\(\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "如图3所示：过D作DH⊥BC于H，过A作AG⊥EC交EC的延长线于G．",
+        "〔图3〕",
+        "∵DH⊥BC，AG⊥EC，",
+        "∴∠AGC＝∠DHC＝90°，",
+        "∵△ABC旋转后与△DCE全等，",
+        "∴∠ACB＝∠DCE＝90°，AC＝DC，BC＝CE，",
+        "∵∠ACE+∠BCD＝180°，∠GCA+∠ECA＝180°，",
+        "∴∠ACG＝∠DCH，",
+        "在△AGC和△DHC中，",
+        "\\(\\begin{cases} \\angle AGC=\\angle DHC \\\\ \\angle ACG=\\angle DCH \\\\ AC=DC \\end{cases}\\)，",
+        "∴△AGC≌△DHC（AAS），",
+        "∴AG＝DH，",
+        "∴\\(\\frac { 1 } { 2 }\\)EC•AG＝\\(\\frac { 1 } { 2 }\\)CB•DH，",
+        "∴S\\({}_{△}\\)\\({}_{ACE}\\)＝S\\({}_{△}\\)\\({}_{BCD}\\)＝\\(\\frac { 3\\sqrt[] { 3 } } { 2 }\\)（cm\\({}^{2}\\)），",
+        "∵∠ACB＝90°，AC＝2，∠ABC＝30°，",
+        "∴BC＝\\(\\sqrt[] { 3 }\\)AC＝2\\(\\sqrt[] { 3 }\\)，",
+        "∴S\\({}_{四边形}\\)\\({}_{ABDE}\\)＝2S\\({}_{△}\\)\\({}_{BDC}\\)+2S\\({}_{△}\\)\\({}_{ABC}\\)＝3\\(\\sqrt[] { 3 }\\)+2×\\(\\frac { 1 } { 2 }\\)×2×2\\(\\sqrt[] { 3 }\\)＝7\\(\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“图形面积与分割”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      64
+    ],
+    "solution_body_blocks": [
+      344,
+      388
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-DD96D14C81/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          128.18,
+          583.64,
+          465.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-DD96D14C81/solution-q22-p17.webp",
+      "assets/SZ-G8-T2-DD96D14C81/solution-q22-p18.webp",
+      "assets/SZ-G8-T2-DD96D14C81/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          598.18,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          753.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          525.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G07.03",
+    "M.G02.04"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G07.03.02"
+  ],
+  "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。 本问解答对应“利用旋转对应建立全等或角度关系”。 本问的要求和解答步骤对应“图形面积与分割”。",
+  "tag_source": "小问标签汇总"
+}

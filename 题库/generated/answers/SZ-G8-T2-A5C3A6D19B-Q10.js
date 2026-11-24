@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q10",{"answer":"A，5 cm。","solution_steps":["两组对边分别平行，两对平行线的距离都等于纸条宽。用两条邻边分别作底表示面积，可得邻边相等，重叠部分是菱形。","对角线垂直平分，半长为3 cm、4 cm，故 \\(AB=\\sqrt{3^2+4^2}=5\\) cm。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

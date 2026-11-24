@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q06",{"answer":"C","solution_steps":["已知 \\(a>b\\) 且 \\(-c>-d\\)，同向不等式相加得 \\(a-c>b-d\\)，故 C 正确。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

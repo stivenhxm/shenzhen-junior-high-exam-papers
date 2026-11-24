@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-B96BF5263F-Q21-P01",{"answer":"6 米，8 小时。","solution_steps":["最低水深应为 \\(2.5+3.5=6\\) 米。从图中读出，当日最后一次达到 6 米是在 15 时。由 7 时至 15 时共 8 小时。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

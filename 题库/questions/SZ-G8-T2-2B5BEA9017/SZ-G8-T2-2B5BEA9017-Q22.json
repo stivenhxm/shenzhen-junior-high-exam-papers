@@ -1,0 +1,489 @@
+{
+  "id": "SZ-G8-T2-2B5BEA9017-Q22",
+  "paper_id": "SZ-G8-T2-2B5BEA9017",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由截线所成角关系证明平行、利用等边性质求边角关系",
+  "stem": "如图1，将两个完全相同的三角形纸片\\(ABC\\)和\\(DEC\\)重合放置，其中\\(\\angle C=90{}^\\circ\\)，\\(\\angle B=\\angle E=30{}^\\circ\\)．\n〔图1〕    〔图2〕\n（1）操作发现：如图2，固定\\(\\vartriangle ABC\\)，使\\(\\vartriangle DEC\\)绕点C旋转，当点D恰好落在\\(AB\\)边上时，填空：\n①线段\\(DE\\)与\\(AC\\)的位置关系是　　；\n②设\\(\\vartriangle BDC\\)的面积为\\(S_{ 1 }\\)，\\(\\vartriangle AEC\\)的面积为\\(S_{ 2 }\\)，则\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的数量关系是　　．\n（2）猜想论证：当\\(\\vartriangle DEC\\)绕点C旋转到如图3所示的位置时，小明猜想（1）中\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的数量关系仍然成立，并尝试分别作出了\\(\\vartriangle BDC\\)和\\(\\vartriangle AEC\\)中\\(BC、CE\\)边上的高，请你证明小明的猜想．\n（3）拓展探究：已知\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(BD=CD=4\\)，\\(DE\\parallel AB\\)交\\(BC\\)于点E（如图4）．若在射线\\(BA\\)上存在点F，使\\(S_{ \\vartriangle DCF } =S_{ \\vartriangle BDE }\\)，请直接写出相应的BF的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/fe/fe8d86a1cfabf2c6e8d8504c50f50d76ebcc1cd31a27a25f880b325e1db2e36d.png",
+    "assets/figures/c2/c20c1c12eb6305e6873bf7221fe64d56b224b799acf0bd34902904ce8a696fa9.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(DE\\parallel AC\\)；②\\(S_{ 1 } =S_{ 2 }\\)\n（2）见解析    （3）\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)",
+  "answer": "（1）①\\(DE\\parallel AC\\)；②\\(S_{ 1 } =S_{ 2 }\\)\n（2）见解析    （3）\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)",
+  "given_solution": "【分析】（1）①证明\\(\\angle ACD=\\angle CDE\\)即可判断；\n②首先证明\\(AD=BD\\)，推出\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等，再证明\\(\\vartriangle ADC\\)与\\(\\vartriangle AEC\\)的面积相等即可；\n（2）证明\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)即可解决问题；\n（3）分两种情形分别求解即可解决问题．\n【小问1详解】\n解：①∵\\(\\vartriangle DEC\\)绕点C旋转点D恰好落在\\(AB\\)边上，\n∴\\(AC=CD\\)，\n∵\\(\\angle BAC=90{}^\\circ -\\angle B=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(\\vartriangle ACD\\)是等边三角形，\n∴\\(\\angle ACD=60{}^\\circ\\)，\n又∵\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，\n∴\\(\\angle ACD=\\angle CDE\\)，\n∴\\(DE\\parallel AC\\)；\n②∵\\(\\angle B=30{}^\\circ ，\\angle C=90{}^\\circ\\)，\n∴\\(CD=AC=\\frac { 1 } { 2 }AB\\)，\n∴\\(BD=AD=AC\\)，\n根据等边三角形的性质，\\(\\vartriangle ACD\\)的边\\(AC、AD\\)上的高相等，\n∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），\n即\\(S_{ 1 } =S_{ 2 }\\)；\n故答案为：\\(DE\\parallel AC\\)；\\(S_{ 1 } =S_{ 2 }\\)；\n【小问2详解】\n解：∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点C旋转得到，\n∴\\(BC=CE，AC=CD\\)，\n∵\\(\\angle ACN+\\angle BCN=90{}^\\circ ，\\angle DCM+\\angle BCN=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle ACN=\\angle DCM\\)，\n∵在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle CMD=\\angle N=90{}^\\circ \\\\ AC=CD \\end{cases}\\)，\n∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=DM\\)，\n∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），\n即\\(S_{ 1 } =S_{ 2 }\\)；\n【小问3详解】\n解：如图，过点D作\\(D_{ 1 } F\\parallel BE\\)，则四边形\\(BEDF_{ 1 }\\)是菱形，\n〔图3〕\n所以\\(BE=DF_{ 1 }\\)，且\\(BE、DF_{ 1 }\\)上的高相等，\n此时\\(S_{ \\vartriangle DCF1 } =S_{ \\vartriangle BDE }\\)；\n过点D作\\(DF_{ 2 } \\bot BD\\)，\n∵\\(\\angle ABC=60{}^\\circ\\)，\\(D_{ 1 } F\\parallel BE\\)，\n∴\\(\\angle F_{ 2 } F_{ 1 } D=\\angle ABC=60{}^\\circ\\)，\n∵\\(BF_{ 1 } =DF_{ 1 } ，\\angle F_{ 1 } BD=\\frac { 1 } { 2 }\\angle ABC=30{}^\\circ ，\\angle F_{ 2 } DB=90{}^\\circ\\)，\n∴\\(\\angle F_{ 1 } DF_{ 2 } =\\angle ABC=60{}^\\circ\\)，\n∴\\(\\vartriangle DF_{ 1 } F_{ 2 }\\)是等边三角形，\n∴\\(DF_{ 1 } =DF_{ 2 }\\)，\n∵\\(BD=CD，\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\n∴\\(\\angle DBC=\\angle DCB=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，\n∴\\(\\angle CDF_{ 1 } =180{}^\\circ -\\angle BCD=180{}^\\circ -30{}^\\circ =150{}^\\circ\\)，\n\\(\\angle CDF_{ 2 } =360{}^\\circ -150{}^\\circ -60{}^\\circ =150{}^\\circ\\)，\n∴\\(\\angle CDF_{ 1 } =\\angle CDF_{ 2 }\\)，\n∵在\\(\\vartriangle CDF_{ 1 }\\)和\\(\\vartriangle CDF_{ 2 }\\)中，\\(\\begin{cases} DF_{ 1 } =DF_{ 2 } \\\\ \\angle CDF_{ 1 } =\\angle CDF_{ 2 } \\\\ CD=CD \\end{cases}\\)，\n∴\\(\\vartriangle CDF_{ 1 } ≌\\vartriangle CDF_{ 2 } \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴点\\(F_{ 2 }\\)也是所求的点，\n∵\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(DE\\parallel AB\\)，\n∴\\(\\angle DBC=\\angle BDE=\\angle ABD=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，\n又∵\\(BD=4\\)，\n∴\\(BE=\\frac { 1 } { 2 }\\times 4\\div \\frac { \\sqrt[] { 3 } } { 2 }=2\\div \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\n∴\\(BF_{ 1 } =\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\\(BF_{ 2 } =BF_{ 1 } +F_{ 1 } F_{ 2 } =\\frac { 4\\sqrt[] { 3 } } { 3 }+\\frac { 4\\sqrt[] { 3 } } { 3 }=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n故BF的长为\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)．\n【点睛】本题属于几何变换综合题，考查了旋转变换，全等三角形的判定和性质，菱形的判定和性质，等边三角形的判定和性质等知识，解题的关键是学会添加常用辅助线，构造特殊四边形解决问题，属于中考压轴．",
+  "given_solution_figures": [
+    "assets/figures/fe/fe8d86a1cfabf2c6e8d8504c50f50d76ebcc1cd31a27a25f880b325e1db2e36d.png",
+    "assets/figures/c2/c20c1c12eb6305e6873bf7221fe64d56b224b799acf0bd34902904ce8a696fa9.png",
+    "assets/figures/e6/e6c2f1ead3e6d63a5270a053c494088db69ab36437af49250a045cea3025f47d.png"
+  ],
+  "solution": "【小问1详解】\n解：①∵\\(\\vartriangle DEC\\)绕点C旋转点D恰好落在\\(AB\\)边上，\n∴\\(AC=CD\\)，\n∵\\(\\angle BAC=90{}^\\circ -\\angle B=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(\\vartriangle ACD\\)是等边三角形，\n∴\\(\\angle ACD=60{}^\\circ\\)，\n又∵\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，\n∴\\(\\angle ACD=\\angle CDE\\)，\n∴\\(DE\\parallel AC\\)；\n②∵\\(\\angle B=30{}^\\circ ，\\angle C=90{}^\\circ\\)，\n∴\\(CD=AC=\\frac { 1 } { 2 }AB\\)，\n∴\\(BD=AD=AC\\)，\n根据等边三角形的性质，\\(\\vartriangle ACD\\)的边\\(AC、AD\\)上的高相等，\n∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），\n即\\(S_{ 1 } =S_{ 2 }\\)；\n故答案为：\\(DE\\parallel AC\\)；\\(S_{ 1 } =S_{ 2 }\\)；\n【小问2详解】\n解：∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点C旋转得到，\n∴\\(BC=CE，AC=CD\\)，\n∵\\(\\angle ACN+\\angle BCN=90{}^\\circ ，\\angle DCM+\\angle BCN=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle ACN=\\angle DCM\\)，\n∵在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle CMD=\\angle N=90{}^\\circ \\\\ AC=CD \\end{cases}\\)，\n∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=DM\\)，\n∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），\n即\\(S_{ 1 } =S_{ 2 }\\)；\n【小问3详解】\n解：如图，过点D作\\(D_{ 1 } F\\parallel BE\\)，则四边形\\(BEDF_{ 1 }\\)是菱形，\n〔图3〕\n所以\\(BE=DF_{ 1 }\\)，且\\(BE、DF_{ 1 }\\)上的高相等，\n此时\\(S_{ \\vartriangle DCF1 } =S_{ \\vartriangle BDE }\\)；\n过点D作\\(DF_{ 2 } \\bot BD\\)，\n∵\\(\\angle ABC=60{}^\\circ\\)，\\(D_{ 1 } F\\parallel BE\\)，\n∴\\(\\angle F_{ 2 } F_{ 1 } D=\\angle ABC=60{}^\\circ\\)，\n∵\\(BF_{ 1 } =DF_{ 1 } ，\\angle F_{ 1 } BD=\\frac { 1 } { 2 }\\angle ABC=30{}^\\circ ，\\angle F_{ 2 } DB=90{}^\\circ\\)，\n∴\\(\\angle F_{ 1 } DF_{ 2 } =\\angle ABC=60{}^\\circ\\)，\n∴\\(\\vartriangle DF_{ 1 } F_{ 2 }\\)是等边三角形，\n∴\\(DF_{ 1 } =DF_{ 2 }\\)，\n∵\\(BD=CD，\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\n∴\\(\\angle DBC=\\angle DCB=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，\n∴\\(\\angle CDF_{ 1 } =180{}^\\circ -\\angle BCD=180{}^\\circ -30{}^\\circ =150{}^\\circ\\)，\n\\(\\angle CDF_{ 2 } =360{}^\\circ -150{}^\\circ -60{}^\\circ =150{}^\\circ\\)，\n∴\\(\\angle CDF_{ 1 } =\\angle CDF_{ 2 }\\)，\n∵在\\(\\vartriangle CDF_{ 1 }\\)和\\(\\vartriangle CDF_{ 2 }\\)中，\\(\\begin{cases} DF_{ 1 } =DF_{ 2 } \\\\ \\angle CDF_{ 1 } =\\angle CDF_{ 2 } \\\\ CD=CD \\end{cases}\\)，\n∴\\(\\vartriangle CDF_{ 1 } ≌\\vartriangle CDF_{ 2 } \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴点\\(F_{ 2 }\\)也是所求的点，\n∵\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(DE\\parallel AB\\)，\n∴\\(\\angle DBC=\\angle BDE=\\angle ABD=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，\n又∵\\(BD=4\\)，\n∴\\(BE=\\frac { 1 } { 2 }\\times 4\\div \\frac { \\sqrt[] { 3 } } { 2 }=2\\div \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\n∴\\(BF_{ 1 } =\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\\(BF_{ 2 } =BF_{ 1 } +F_{ 1 } F_{ 2 } =\\frac { 4\\sqrt[] { 3 } } { 3 }+\\frac { 4\\sqrt[] { 3 } } { 3 }=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n故BF的长为\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①∵\\(\\vartriangle DEC\\)绕点C旋转点D恰好落在\\(AB\\)边上，",
+    "∴\\(AC=CD\\)，",
+    "∵\\(\\angle BAC=90{}^\\circ -\\angle B=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+    "∴\\(\\vartriangle ACD\\)是等边三角形，",
+    "∴\\(\\angle ACD=60{}^\\circ\\)，",
+    "又∵\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，",
+    "∴\\(\\angle ACD=\\angle CDE\\)，",
+    "∴\\(DE\\parallel AC\\)；",
+    "②∵\\(\\angle B=30{}^\\circ ，\\angle C=90{}^\\circ\\)，",
+    "∴\\(CD=AC=\\frac { 1 } { 2 }AB\\)，",
+    "∴\\(BD=AD=AC\\)，",
+    "根据等边三角形的性质，\\(\\vartriangle ACD\\)的边\\(AC、AD\\)上的高相等，",
+    "∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），",
+    "即\\(S_{ 1 } =S_{ 2 }\\)；",
+    "故答案为：\\(DE\\parallel AC\\)；\\(S_{ 1 } =S_{ 2 }\\)；",
+    "【小问2详解】",
+    "解：∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点C旋转得到，",
+    "∴\\(BC=CE，AC=CD\\)，",
+    "∵\\(\\angle ACN+\\angle BCN=90{}^\\circ ，\\angle DCM+\\angle BCN=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+    "∴\\(\\angle ACN=\\angle DCM\\)，",
+    "∵在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle CMD=\\angle N=90{}^\\circ \\\\ AC=CD \\end{cases}\\)，",
+    "∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AN=DM\\)，",
+    "∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），",
+    "即\\(S_{ 1 } =S_{ 2 }\\)；",
+    "【小问3详解】",
+    "解：如图，过点D作\\(D_{ 1 } F\\parallel BE\\)，则四边形\\(BEDF_{ 1 }\\)是菱形，",
+    "〔图3〕",
+    "所以\\(BE=DF_{ 1 }\\)，且\\(BE、DF_{ 1 }\\)上的高相等，",
+    "此时\\(S_{ \\vartriangle DCF1 } =S_{ \\vartriangle BDE }\\)；",
+    "过点D作\\(DF_{ 2 } \\bot BD\\)，",
+    "∵\\(\\angle ABC=60{}^\\circ\\)，\\(D_{ 1 } F\\parallel BE\\)，",
+    "∴\\(\\angle F_{ 2 } F_{ 1 } D=\\angle ABC=60{}^\\circ\\)，",
+    "∵\\(BF_{ 1 } =DF_{ 1 } ，\\angle F_{ 1 } BD=\\frac { 1 } { 2 }\\angle ABC=30{}^\\circ ，\\angle F_{ 2 } DB=90{}^\\circ\\)，",
+    "∴\\(\\angle F_{ 1 } DF_{ 2 } =\\angle ABC=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle DF_{ 1 } F_{ 2 }\\)是等边三角形，",
+    "∴\\(DF_{ 1 } =DF_{ 2 }\\)，",
+    "∵\\(BD=CD，\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，",
+    "∴\\(\\angle DBC=\\angle DCB=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，",
+    "∴\\(\\angle CDF_{ 1 } =180{}^\\circ -\\angle BCD=180{}^\\circ -30{}^\\circ =150{}^\\circ\\)，",
+    "\\(\\angle CDF_{ 2 } =360{}^\\circ -150{}^\\circ -60{}^\\circ =150{}^\\circ\\)，",
+    "∴\\(\\angle CDF_{ 1 } =\\angle CDF_{ 2 }\\)，",
+    "∵在\\(\\vartriangle CDF_{ 1 }\\)和\\(\\vartriangle CDF_{ 2 }\\)中，\\(\\begin{cases} DF_{ 1 } =DF_{ 2 } \\\\ \\angle CDF_{ 1 } =\\angle CDF_{ 2 } \\\\ CD=CD \\end{cases}\\)，",
+    "∴\\(\\vartriangle CDF_{ 1 } ≌\\vartriangle CDF_{ 2 } \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴点\\(F_{ 2 }\\)也是所求的点，",
+    "∵\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(DE\\parallel AB\\)，",
+    "∴\\(\\angle DBC=\\angle BDE=\\angle ABD=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，",
+    "又∵\\(BD=4\\)，",
+    "∴\\(BE=\\frac { 1 } { 2 }\\times 4\\div \\frac { \\sqrt[] { 3 } } { 2 }=2\\div \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，",
+    "∴\\(BF_{ 1 } =\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\\(BF_{ 2 } =BF_{ 1 } +F_{ 1 } F_{ 2 } =\\frac { 4\\sqrt[] { 3 } } { 3 }+\\frac { 4\\sqrt[] { 3 } } { 3 }=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，",
+    "故BF的长为\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，将两个完全相同的三角形纸片\\(ABC\\)和\\(DEC\\)重合放置，其中\\(\\angle C=90{}^\\circ\\)，\\(\\angle B=\\angle E=30{}^\\circ\\)．\n〔图1〕    〔图2〕",
+      "paper_blocks": [
+        52,
+        53
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "操作发现：如图2，固定\\(\\vartriangle ABC\\)，使\\(\\vartriangle DEC\\)绕点C旋转，当点D恰好落在\\(AB\\)边上时，填空：",
+      "paper_blocks": [
+        54
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-2B5BEA9017-Q22-P01",
+      "label": "（1）①",
+      "prompt": "线段\\(DE\\)与\\(AC\\)的位置关系是　　；",
+      "stem_text": "线段\\(DE\\)与\\(AC\\)的位置关系是　　；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE\\parallel AC\\)；",
+      "answer": "\\(DE\\parallel AC\\)；",
+      "given_solution": "∵\\(\\vartriangle DEC\\)绕点C旋转点D恰好落在\\(AB\\)边上，\n∴\\(AC=CD\\)，\n∵\\(\\angle BAC=90{}^\\circ -\\angle B=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(\\vartriangle ACD\\)是等边三角形，\n∴\\(\\angle ACD=60{}^\\circ\\)，\n又∵\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，\n∴\\(\\angle ACD=\\angle CDE\\)，\n∴\\(DE\\parallel AC\\)；",
+      "solution_steps": [
+        "∵\\(\\vartriangle DEC\\)绕点C旋转点D恰好落在\\(AB\\)边上，",
+        "∴\\(AC=CD\\)，",
+        "∵\\(\\angle BAC=90{}^\\circ -\\angle B=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+        "∴\\(\\vartriangle ACD\\)是等边三角形，",
+        "∴\\(\\angle ACD=60{}^\\circ\\)，",
+        "又∵\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，",
+        "∴\\(\\angle ACD=\\angle CDE\\)，",
+        "∴\\(DE\\parallel AC\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          54,
+          55
+        ],
+        "solution_block_ids": [
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.04"
+      ],
+      "exam_ids": [
+        "E.G01.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“由截线所成角关系证明平行”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2B5BEA9017-Q22-P02",
+      "label": "（1）②",
+      "prompt": "设\\(\\vartriangle BDC\\)的面积为\\(S_{ 1 }\\)，\\(\\vartriangle AEC\\)的面积为\\(S_{ 2 }\\)，则\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的数量关系是　　．",
+      "stem_text": "设\\(\\vartriangle BDC\\)的面积为\\(S_{ 1 }\\)，\\(\\vartriangle AEC\\)的面积为\\(S_{ 2 }\\)，则\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的数量关系是　　．",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ 1 } =S_{ 2 }\\)",
+      "answer": "\\(S_{ 1 } =S_{ 2 }\\)",
+      "given_solution": "∵\\(\\angle B=30{}^\\circ ，\\angle C=90{}^\\circ\\)，\n∴\\(CD=AC=\\frac { 1 } { 2 }AB\\)，\n∴\\(BD=AD=AC\\)，\n根据等边三角形的性质，\\(\\vartriangle ACD\\)的边\\(AC、AD\\)上的高相等，\n∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），\n即\\(S_{ 1 } =S_{ 2 }\\)；\n故答案为：\\(DE\\parallel AC\\)；\\(S_{ 1 } =S_{ 2 }\\)；",
+      "solution_steps": [
+        "∵\\(\\angle B=30{}^\\circ ，\\angle C=90{}^\\circ\\)，",
+        "∴\\(CD=AC=\\frac { 1 } { 2 }AB\\)，",
+        "∴\\(BD=AD=AC\\)，",
+        "根据等边三角形的性质，\\(\\vartriangle ACD\\)的边\\(AC、AD\\)上的高相等，",
+        "∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），",
+        "即\\(S_{ 1 } =S_{ 2 }\\)；",
+        "故答案为：\\(DE\\parallel AC\\)；\\(S_{ 1 } =S_{ 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          54,
+          56
+        ],
+        "solution_block_ids": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2B5BEA9017-Q22-P03",
+      "label": "（2）",
+      "prompt": "猜想论证：当\\(\\vartriangle DEC\\)绕点C旋转到如图3所示的位置时，小明猜想（1）中\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的数量关系仍然成立，并尝试分别作出了\\(\\vartriangle BDC\\)和\\(\\vartriangle AEC\\)中\\(BC、CE\\)边上的高，请你证明小明的猜想．",
+      "stem_text": "猜想论证：当\\(\\vartriangle DEC\\)绕点C旋转到如图3所示的位置时，小明猜想（1）中\\(S_{ 1 }\\)与\\(S_{ 2 }\\)的数量关系仍然成立，并尝试分别作出了\\(\\vartriangle BDC\\)和\\(\\vartriangle AEC\\)中\\(BC、CE\\)边上的高，请你证明小明的猜想．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "解：∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点C旋转得到，\n∴\\(BC=CE，AC=CD\\)，\n∵\\(\\angle ACN+\\angle BCN=90{}^\\circ ，\\angle DCM+\\angle BCN=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，\n∴\\(\\angle ACN=\\angle DCM\\)，\n∵在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle CMD=\\angle N=90{}^\\circ \\\\ AC=CD \\end{cases}\\)，\n∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AN=DM\\)，\n∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），\n即\\(S_{ 1 } =S_{ 2 }\\)；",
+      "solution_steps": [
+        "解：∵\\(\\vartriangle DEC\\)是由\\(\\vartriangle ABC\\)绕点C旋转得到，",
+        "∴\\(BC=CE，AC=CD\\)，",
+        "∵\\(\\angle ACN+\\angle BCN=90{}^\\circ ，\\angle DCM+\\angle BCN=180{}^\\circ -90{}^\\circ =90{}^\\circ\\)，",
+        "∴\\(\\angle ACN=\\angle DCM\\)，",
+        "∵在\\(\\vartriangle ACN\\)和\\(\\vartriangle DCM\\)中，\\(\\begin{cases} \\angle ACN=\\angle DCM \\\\ \\angle CMD=\\angle N=90{}^\\circ \\\\ AC=CD \\end{cases}\\)，",
+        "∴\\(\\vartriangle ACN≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AN=DM\\)，",
+        "∴\\(\\vartriangle BDC\\)的面积和\\(\\vartriangle AEC\\)的面积相等（等底等高的三角形的面积相等），",
+        "即\\(S_{ 1 } =S_{ 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          57
+        ],
+        "solution_block_ids": [
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“按旋转或中心对称确定对应图形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-2B5BEA9017-Q22-P04",
+      "label": "（3）",
+      "prompt": "拓展探究：已知\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(BD=CD=4\\)，\\(DE\\parallel AB\\)交\\(BC\\)于点E（如图4）．若在射线\\(BA\\)上存在点F，使\\(S_{ \\vartriangle DCF } =S_{ \\vartriangle BDE }\\)，请直接写出相应的BF的长．",
+      "stem_text": "拓展探究：已知\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(BD=CD=4\\)，\\(DE\\parallel AB\\)交\\(BC\\)于点E（如图4）．若在射线\\(BA\\)上存在点F，使\\(S_{ \\vartriangle DCF } =S_{ \\vartriangle BDE }\\)，请直接写出相应的BF的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)",
+      "answer": "\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)",
+      "given_solution": "解：如图，过点D作\\(D_{ 1 } F\\parallel BE\\)，则四边形\\(BEDF_{ 1 }\\)是菱形，\n〔图3〕\n所以\\(BE=DF_{ 1 }\\)，且\\(BE、DF_{ 1 }\\)上的高相等，\n此时\\(S_{ \\vartriangle DCF1 } =S_{ \\vartriangle BDE }\\)；\n过点D作\\(DF_{ 2 } \\bot BD\\)，\n∵\\(\\angle ABC=60{}^\\circ\\)，\\(D_{ 1 } F\\parallel BE\\)，\n∴\\(\\angle F_{ 2 } F_{ 1 } D=\\angle ABC=60{}^\\circ\\)，\n∵\\(BF_{ 1 } =DF_{ 1 } ，\\angle F_{ 1 } BD=\\frac { 1 } { 2 }\\angle ABC=30{}^\\circ ，\\angle F_{ 2 } DB=90{}^\\circ\\)，\n∴\\(\\angle F_{ 1 } DF_{ 2 } =\\angle ABC=60{}^\\circ\\)，\n∴\\(\\vartriangle DF_{ 1 } F_{ 2 }\\)是等边三角形，\n∴\\(DF_{ 1 } =DF_{ 2 }\\)，\n∵\\(BD=CD，\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\n∴\\(\\angle DBC=\\angle DCB=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，\n∴\\(\\angle CDF_{ 1 } =180{}^\\circ -\\angle BCD=180{}^\\circ -30{}^\\circ =150{}^\\circ\\)，\n\\(\\angle CDF_{ 2 } =360{}^\\circ -150{}^\\circ -60{}^\\circ =150{}^\\circ\\)，\n∴\\(\\angle CDF_{ 1 } =\\angle CDF_{ 2 }\\)，\n∵在\\(\\vartriangle CDF_{ 1 }\\)和\\(\\vartriangle CDF_{ 2 }\\)中，\\(\\begin{cases} DF_{ 1 } =DF_{ 2 } \\\\ \\angle CDF_{ 1 } =\\angle CDF_{ 2 } \\\\ CD=CD \\end{cases}\\)，\n∴\\(\\vartriangle CDF_{ 1 } ≌\\vartriangle CDF_{ 2 } \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴点\\(F_{ 2 }\\)也是所求的点，\n∵\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(DE\\parallel AB\\)，\n∴\\(\\angle DBC=\\angle BDE=\\angle ABD=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，\n又∵\\(BD=4\\)，\n∴\\(BE=\\frac { 1 } { 2 }\\times 4\\div \\frac { \\sqrt[] { 3 } } { 2 }=2\\div \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\n∴\\(BF_{ 1 } =\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\\(BF_{ 2 } =BF_{ 1 } +F_{ 1 } F_{ 2 } =\\frac { 4\\sqrt[] { 3 } } { 3 }+\\frac { 4\\sqrt[] { 3 } } { 3 }=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，\n故BF的长为\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)．",
+      "solution_steps": [
+        "解：如图，过点D作\\(D_{ 1 } F\\parallel BE\\)，则四边形\\(BEDF_{ 1 }\\)是菱形，",
+        "〔图3〕",
+        "所以\\(BE=DF_{ 1 }\\)，且\\(BE、DF_{ 1 }\\)上的高相等，",
+        "此时\\(S_{ \\vartriangle DCF1 } =S_{ \\vartriangle BDE }\\)；",
+        "过点D作\\(DF_{ 2 } \\bot BD\\)，",
+        "∵\\(\\angle ABC=60{}^\\circ\\)，\\(D_{ 1 } F\\parallel BE\\)，",
+        "∴\\(\\angle F_{ 2 } F_{ 1 } D=\\angle ABC=60{}^\\circ\\)，",
+        "∵\\(BF_{ 1 } =DF_{ 1 } ，\\angle F_{ 1 } BD=\\frac { 1 } { 2 }\\angle ABC=30{}^\\circ ，\\angle F_{ 2 } DB=90{}^\\circ\\)，",
+        "∴\\(\\angle F_{ 1 } DF_{ 2 } =\\angle ABC=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle DF_{ 1 } F_{ 2 }\\)是等边三角形，",
+        "∴\\(DF_{ 1 } =DF_{ 2 }\\)，",
+        "∵\\(BD=CD，\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，",
+        "∴\\(\\angle DBC=\\angle DCB=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，",
+        "∴\\(\\angle CDF_{ 1 } =180{}^\\circ -\\angle BCD=180{}^\\circ -30{}^\\circ =150{}^\\circ\\)，",
+        "\\(\\angle CDF_{ 2 } =360{}^\\circ -150{}^\\circ -60{}^\\circ =150{}^\\circ\\)，",
+        "∴\\(\\angle CDF_{ 1 } =\\angle CDF_{ 2 }\\)，",
+        "∵在\\(\\vartriangle CDF_{ 1 }\\)和\\(\\vartriangle CDF_{ 2 }\\)中，\\(\\begin{cases} DF_{ 1 } =DF_{ 2 } \\\\ \\angle CDF_{ 1 } =\\angle CDF_{ 2 } \\\\ CD=CD \\end{cases}\\)，",
+        "∴\\(\\vartriangle CDF_{ 1 } ≌\\vartriangle CDF_{ 2 } \\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴点\\(F_{ 2 }\\)也是所求的点，",
+        "∵\\(\\angle ABC=60{}^\\circ\\)，点D是角平分线上一点，\\(DE\\parallel AB\\)，",
+        "∴\\(\\angle DBC=\\angle BDE=\\angle ABD=\\frac { 1 } { 2 }\\times 60{}^\\circ =30{}^\\circ\\)，",
+        "又∵\\(BD=4\\)，",
+        "∴\\(BE=\\frac { 1 } { 2 }\\times 4\\div \\frac { \\sqrt[] { 3 } } { 2 }=2\\div \\frac { \\sqrt[] { 3 } } { 2 }=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，",
+        "∴\\(BF_{ 1 } =\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\\(BF_{ 2 } =BF_{ 1 } +F_{ 1 } F_{ 2 } =\\frac { 4\\sqrt[] { 3 } } { 3 }+\\frac { 4\\sqrt[] { 3 } } { 3 }=\\frac { 8\\sqrt[] { 3 } } { 3 }\\)，",
+        "故BF的长为\\(\\frac { 4\\sqrt[] { 3 } } { 3 }\\)或\\(\\frac { 8\\sqrt[] { 3 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          58
+        ],
+        "solution_block_ids": [
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      52,
+      58
+    ],
+    "solution_body_blocks": [
+      253,
+      319
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-2B5BEA9017/paper-q22-p04.webp",
+      "assets/SZ-G8-T2-2B5BEA9017/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          339.09,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          116.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-2B5BEA9017/solution-q22-p14.webp",
+      "assets/SZ-G8-T2-2B5BEA9017/solution-q22-p15.webp",
+      "assets/SZ-G8-T2-2B5BEA9017/solution-q22-p16.webp",
+      "assets/SZ-G8-T2-2B5BEA9017/solution-q22-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          537.27,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          53.18,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          376.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G01.04",
+    "M.G04.02",
+    "M.G07.03",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G01.04.01",
+    "E.G04.02.01",
+    "E.G07.03.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“由截线所成角关系证明平行”。 本问解答对应“利用等边性质求边角关系”。 本问的要求和解答步骤对应“按旋转或中心对称确定对应图形”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,292 @@
+{
+  "id": "SZ-G8-T2-3EBECC126F-Q21",
+  "paper_id": "SZ-G8-T2-3EBECC126F",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "识别并提取公因式、用公式将整式分解到要求形式",
+  "stem": "阅读材料：要将多项式\\(am+an+bm+bn\\)分解因式，可以先把它的前两项分成一组，再把它的后两项分成一组，从而得：\\(am+an+bm+bn=\\left ( { am+an } \\right )+\\left ( { bm+bn } \\right )\\) \\(=a\\left ( { m+n } \\right )+b\\left ( { m+n } \\right )=\\left ( { m+n } \\right )\\left ( { a+b } \\right )\\)．这种分解因式的方法称为分组分解法．根据以上方法回答下列问题：\n（1）尝试填空：\\(2x-18+xy-9y=\\)        ；\n（2）解决问题：因式分解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)；\n（3）拓展应用：已知三角形的三边长分别为a，b，c，且满足\\(a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，试判断这个三角形的形状，并说明理由．",
+  "choices": [],
+  "figures": [],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)\n（2）\\(\\left ( { a-b } \\right )\\left ( { a+b+c } \\right )\\)\n（3）这个三角形为等边三角形，理由见解析",
+  "answer": "（1）\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)\n（2）\\(\\left ( { a-b } \\right )\\left ( { a+b+c } \\right )\\)\n（3）这个三角形为等边三角形，理由见解析",
+  "given_solution": "【分析】本题主要考查了因式分解的应用，等边三角形的判定，正确理解题意掌握分组法进行因式分解是解题的关键．\n（1）把\\(\\left ( { 2x-18 } \\right )\\)和\\(\\left ( { xy-9y } \\right )\\)看做一组，分别提取公因数2，公因式y，得到\\(2(x-9)+y(x-9)\\)，再提取公因式\\((x-9)\\)即可得到答案；\n（2）把\\((ac-bc)\\)和\\((a ^ { 2 } -b ^ { 2 } )\\)看做一组，分别提取公因数c和用平方差公式分解因式，得到\\(c(a-b)+(a+b)(a-b)\\)，再提取公因式\\((a-b)\\)即可得到答案；\n（3）把已知条件式左边利用分组法结合完全平方公式进行分解因式推出\\((a-b) ^ { 2 } +(b-c) ^ { 2 } =0\\)，进而根据非负数的性质推出\\(a=b=c\\)，由此可得结论．\n【小问1详解】\n解：\\(2x-18+xy-9y\\)\n〔图1〕\n\\(=2(x-9)+y(x-9)\\)\n\\(=\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)，\n故答案为：\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)；\n【小问2详解】\n解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)\n\\(=\\left ( { ac-bc } \\right )+\\left ( { a ^ { 2 } -b ^ { 2 } } \\right )\\)\n\\(=c(a-b)+(a+b)(a-b)\\)\n〔图2〕；\n【小问3详解】\n解：这个三角形为等边三角形，理由如下：\n\\(\\because a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，\n\\(\\therefore \\left ( { a ^ { 2 } -2ab+b ^ { 2 } } \\right )+\\left ( { b ^ { 2 } -2bc+c ^ { 2 } } \\right )=0\\)，\n\\(\\therefore (a-b) ^ { 2 } +(b-c) ^ { 2 } =0\\)，\n\\(\\because (a-b) ^ { 2 } \\ge 0\\)，\\((b-c) ^ { 2 } \\ge 0\\)，\n\\(\\therefore a-b=0\\)，\\(b-c=0\\)，\n\\(\\therefore\\)，\n\\(\\therefore\\)这个三角形为等边三角形．",
+  "given_solution_figures": [
+    "assets/figures/1f/1fd9d3d3f9c2d9a2c8a3761c23f1ffce74e24285c3e3147786644155301d35ed.png",
+    "assets/figures/a6/a61c6d66cb9e99a9ab653e945254c5078079102baeaaf143756fd88d8c59251d.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(2x-18+xy-9y\\)\n〔图1〕\n\\(=2(x-9)+y(x-9)\\)\n\\(=\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)，\n故答案为：\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)；\n【小问2详解】\n解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)\n\\(=\\left ( { ac-bc } \\right )+\\left ( { a ^ { 2 } -b ^ { 2 } } \\right )\\)\n\\(=c(a-b)+(a+b)(a-b)\\)\n〔图2〕；\n【小问3详解】\n解：这个三角形为等边三角形，理由如下：\n\\(\\because a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，\n\\(\\therefore \\left ( { a ^ { 2 } -2ab+b ^ { 2 } } \\right )+\\left ( { b ^ { 2 } -2bc+c ^ { 2 } } \\right )=0\\)，\n\\(\\therefore (a-b) ^ { 2 } +(b-c) ^ { 2 } =0\\)，\n\\(\\because (a-b) ^ { 2 } \\ge 0\\)，\\((b-c) ^ { 2 } \\ge 0\\)，\n\\(\\therefore a-b=0\\)，\\(b-c=0\\)，\n\\(\\therefore\\)，\n\\(\\therefore\\)这个三角形为等边三角形．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(2x-18+xy-9y\\)",
+    "〔图1〕",
+    "\\(=2(x-9)+y(x-9)\\)",
+    "\\(=\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)，",
+    "故答案为：\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)；",
+    "【小问2详解】",
+    "解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)",
+    "\\(=\\left ( { ac-bc } \\right )+\\left ( { a ^ { 2 } -b ^ { 2 } } \\right )\\)",
+    "\\(=c(a-b)+(a+b)(a-b)\\)",
+    "〔图2〕；",
+    "【小问3详解】",
+    "解：这个三角形为等边三角形，理由如下：",
+    "\\(\\because a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，",
+    "\\(\\therefore \\left ( { a ^ { 2 } -2ab+b ^ { 2 } } \\right )+\\left ( { b ^ { 2 } -2bc+c ^ { 2 } } \\right )=0\\)，",
+    "\\(\\therefore (a-b) ^ { 2 } +(b-c) ^ { 2 } =0\\)，",
+    "\\(\\because (a-b) ^ { 2 } \\ge 0\\)，\\((b-c) ^ { 2 } \\ge 0\\)，",
+    "\\(\\therefore a-b=0\\)，\\(b-c=0\\)，",
+    "\\(\\therefore\\)，",
+    "\\(\\therefore\\)这个三角形为等边三角形．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "阅读材料：要将多项式\\(am+an+bm+bn\\)分解因式，可以先把它的前两项分成一组，再把它的后两项分成一组，从而得：\\(am+an+bm+bn=\\left ( { am+an } \\right )+\\left ( { bm+bn } \\right )\\) \\(=a\\left ( { m+n } \\right )+b\\left ( { m+n } \\right )=\\left ( { m+n } \\right )\\left ( { a+b } \\right )\\)．这种分解因式的方法称为分组分解法．根据以上方法回答下列问题：",
+      "paper_blocks": [
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-3EBECC126F-Q21-P01",
+      "label": "（1）",
+      "prompt": "尝试填空：\\(2x-18+xy-9y=\\)        ；",
+      "stem_text": "尝试填空：\\(2x-18+xy-9y=\\)        ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)",
+      "answer": "\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)",
+      "given_solution": "解：\\(2x-18+xy-9y\\)\n〔图1〕\n\\(=2(x-9)+y(x-9)\\)\n\\(=\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)，\n故答案为：\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)；",
+      "solution_steps": [
+        "解：\\(2x-18+xy-9y\\)",
+        "〔图1〕",
+        "\\(=2(x-9)+y(x-9)\\)",
+        "\\(=\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)，",
+        "故答案为：\\(\\left ( { x-9 } \\right )\\left ( { y+2 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          293,
+          294,
+          295,
+          296,
+          297
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N03.08"
+      ],
+      "exam_ids": [],
+      "tag_note": "本题考查分解形式、概念或其他方法，目录没有完全对应的细目。",
+      "tag_reason": "题目涉及“分解因式”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3EBECC126F-Q21-P02",
+      "label": "（2）",
+      "prompt": "解决问题：因式分解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)；",
+      "stem_text": "解决问题：因式分解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { a-b } \\right )\\left ( { a+b+c } \\right )\\)",
+      "answer": "\\(\\left ( { a-b } \\right )\\left ( { a+b+c } \\right )\\)",
+      "given_solution": "解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)\n\\(=\\left ( { ac-bc } \\right )+\\left ( { a ^ { 2 } -b ^ { 2 } } \\right )\\)\n\\(=c(a-b)+(a+b)(a-b)\\)\n〔图2〕；",
+      "solution_steps": [
+        "解：\\(ac-bc+a ^ { 2 } -b ^ { 2 }\\)",
+        "\\(=\\left ( { ac-bc } \\right )+\\left ( { a ^ { 2 } -b ^ { 2 } } \\right )\\)",
+        "\\(=c(a-b)+(a+b)(a-b)\\)",
+        "〔图2〕；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          58
+        ],
+        "solution_block_ids": [
+          299,
+          300,
+          301,
+          302
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N03.07",
+        "M.N03.08"
+      ],
+      "exam_ids": [
+        "E.N03.07.01",
+        "E.N03.08.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“识别并提取公因式、用公式将整式分解到要求形式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-3EBECC126F-Q21-P03",
+      "label": "（3）",
+      "prompt": "拓展应用：已知三角形的三边长分别为a，b，c，且满足\\(a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，试判断这个三角形的形状，并说明理由．",
+      "stem_text": "拓展应用：已知三角形的三边长分别为a，b，c，且满足\\(a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，试判断这个三角形的形状，并说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "这个三角形为等边三角形，理由见解析",
+      "answer": "这个三角形为等边三角形，理由见解析",
+      "given_solution": "解：这个三角形为等边三角形，理由如下：\n\\(\\because a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，\n\\(\\therefore \\left ( { a ^ { 2 } -2ab+b ^ { 2 } } \\right )+\\left ( { b ^ { 2 } -2bc+c ^ { 2 } } \\right )=0\\)，\n\\(\\therefore (a-b) ^ { 2 } +(b-c) ^ { 2 } =0\\)，\n\\(\\because (a-b) ^ { 2 } \\ge 0\\)，\\((b-c) ^ { 2 } \\ge 0\\)，\n\\(\\therefore a-b=0\\)，\\(b-c=0\\)，\n\\(\\therefore\\)，\n\\(\\therefore\\)这个三角形为等边三角形．",
+      "solution_steps": [
+        "解：这个三角形为等边三角形，理由如下：",
+        "\\(\\because a ^ { 2 } -2ab+2b ^ { 2 } -2bc+c ^ { 2 } =0\\)，",
+        "\\(\\therefore \\left ( { a ^ { 2 } -2ab+b ^ { 2 } } \\right )+\\left ( { b ^ { 2 } -2bc+c ^ { 2 } } \\right )=0\\)，",
+        "\\(\\therefore (a-b) ^ { 2 } +(b-c) ^ { 2 } =0\\)，",
+        "\\(\\because (a-b) ^ { 2 } \\ge 0\\)，\\((b-c) ^ { 2 } \\ge 0\\)，",
+        "\\(\\therefore a-b=0\\)，\\(b-c=0\\)，",
+        "\\(\\therefore\\)，",
+        "\\(\\therefore\\)这个三角形为等边三角形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          59
+        ],
+        "solution_block_ids": [
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [
+        "E.G02.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“由三边关系确定边长范围”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      59
+    ],
+    "solution_body_blocks": [
+      280,
+      311
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-3EBECC126F/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          182.73,
+          583.64,
+          400.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-3EBECC126F/solution-q21-p16.webp",
+      "assets/SZ-G8-T2-3EBECC126F/solution-q21-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          106.36,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          283.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.N03.08",
+    "M.N03.07",
+    "M.G02.01"
+  ],
+  "exam_ids": [
+    "E.N03.07.01",
+    "E.N03.08.01",
+    "E.G02.01.01"
+  ],
+  "tag_note": "本题考查分解形式、概念或其他方法，目录没有完全对应的细目。",
+  "tag_reason": "题目涉及“分解因式”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“识别并提取公因式、用公式将整式分解到要求形式”。 题面对应“由三边关系确定边长范围”。",
+  "tag_source": "小问标签汇总"
+}

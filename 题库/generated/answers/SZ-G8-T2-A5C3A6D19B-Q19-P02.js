@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G8-T2-A5C3A6D19B-Q19-P02",{"answer":"以 C 为原点，水平向右、竖直向上分别为两轴的正方向。","solution_steps":["沿 BC 作水平轴，通过 C 作竖直轴，每一格为1个单位长度。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附答案，以下解答按卷面条件推导。","source":{},"solution_figures":[]});

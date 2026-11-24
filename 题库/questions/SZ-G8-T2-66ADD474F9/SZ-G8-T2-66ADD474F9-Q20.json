@@ -1,0 +1,243 @@
+{
+  "knowledge_ids": [
+    "M.G01.02",
+    "M.G02.01",
+    "M.G07.03"
+  ],
+  "exam_ids": [
+    "E.G07.03.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。 该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。 题目涉及“△”，按题面与解答定位知识主题。 题面含“绕点C转动”。利用旋转前后的对应关系求角。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-66ADD474F9-Q20",
+  "number": 20,
+  "paper_id": "SZ-G8-T2-66ADD474F9",
+  "title": "利用旋转对应建立全等或角度关系",
+  "stem": "如图，在\\(△ABC\\)中，\\(\\angle ACB=90{}^\\circ ，AC=BC\\)．过顶点C作直线CD（不经过点\\(A，B\\)），交线段AB（或AB的延长线）于点D，以直线CD为对称轴，作点\\(B\\)的对称点E，连接AE，射线AE交直线CD于点\\(F\\)．\n(1)如图1：①若∠BCD=26°，则∠CAF的度数为           ；\n②求证：\\( {EF}^{2}+{AF}^{2}={2BC}^{2}\\) ；\n〔图1〕ADCBE〔图2〕F(2)如图2、图3，若直线CD绕点C转动的过程中，设\\(AF=m，EF=n\\)，请用含\\(m，n\\)的式子表示CF的长（请直接写出答案）．\n图1\n〔图1〕ADCBE〔图2〕F\n图2\n〔图3〕BEAFDC\n图3",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在\\(△ABC\\)中，\\(\\angle ACB=90{}^\\circ ，AC=BC\\)．过顶点C作直线CD（不经过点\\(A，B\\)），交线段AB（或AB的延长线）于点D，以直线CD为对称轴，作点\\(B\\)的对称点E，连接AE，射线AE交直线CD于点\\(F\\)．"
+    },
+    {
+      "id": "figure-1",
+      "kind": "figure",
+      "text": "〔图1〕"
+    },
+    {
+      "id": "figure-2",
+      "kind": "figure",
+      "text": "〔图2〕"
+    },
+    {
+      "id": "figure-3",
+      "kind": "figure",
+      "text": "〔图3〕"
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q20-P01",
+      "label": "（1）①",
+      "prompt": "若∠BCD=26°，则∠CAF的度数为           ；",
+      "stem_text": "若∠BCD=26°，则∠CAF的度数为           ；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2",
+        "figure-3"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          9,
+          10
+        ]
+      },
+      "answer": "\\(19^\\circ\\)。",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "图1中 CE 是 CB 关于 CD 的对称射线，所以 \\(\\angle BCE=52^\\circ\\)。从 CA 量到 CE 的内角为 \\(142^\\circ\\)，而 \\(CA=CE\\)，于是 \\(\\angle CAF=(180^\\circ-142^\\circ)/2=19^\\circ\\)。"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q20-P02",
+      "label": "（1）②",
+      "prompt": "求证：\\( {EF}^{2}+{AF}^{2}={2BC}^{2}\\) ；",
+      "stem_text": "求证：\\( {EF}^{2}+{AF}^{2}={2BC}^{2}\\) ；",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2",
+        "figure-3"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          9,
+          10
+        ]
+      },
+      "answer": "\\(EF^2+AF^2=2BC^2\\)。",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "连接 BF。由对称，\\(EF=BF\\)。由 \\(CA=CE\\) 及角的对称关系可得图1中 \\(AF\\perp BF\\)（见评分稿推导〔图1〕），所以 \\(AF^2+EF^2=AB^2=2BC^2\\)。"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "题目涉及“△”，按题面与解答定位知识主题。",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-66ADD474F9-Q20-P03",
+      "label": "（2）",
+      "prompt": "如图2、图3，若直线CD绕点C转动的过程中，设\\(AF=m，EF=n\\)，请用含\\(m，n\\)的式子表示CF的长（请直接写出答案）．",
+      "stem_text": "如图2、图3，若直线CD绕点C转动的过程中，设\\(AF=m，EF=n\\)，请用含\\(m，n\\)的式子表示CF的长（请直接写出答案）．",
+      "material_ids": [
+        "context",
+        "figure-1",
+        "figure-2",
+        "figure-3"
+      ],
+      "requires": [],
+      "source": {
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          9,
+          10
+        ]
+      },
+      "answer": "图2：\\(CF=\\frac{\\sqrt2}{2}(m-n)\\)；图3：\\(CF=\\frac{\\sqrt2}{2}(m+n)\\)。",
+      "given_answer": "",
+      "given_solution": "",
+      "solution_steps": [
+        "在 AE 所在直线上截取点，使图2中的对应段为 \\(m-n\\)，或使图3中的对应段为 \\(m+n\\)。利用关于 CD 的对称和 \\(CA=CB\\)，如评分稿〔图2〕所示得到等腰直角三角形，其斜边分别为上述线段。两直角边之一为 CF。"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "review_note": "",
+      "solution_origin": "source_solution_summary",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“绕点C转动”。利用旋转前后的对应关系求角。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/fb/fb73bb13b2fd298c4b8b501ecb79891eab0c5882e1393be4f9f1fcaa05f8b23f.png",
+    "assets/figures/ac/ac10b91a77402e294ebb03c06b910a34607b79281451779edcf6ed3211ff3dd5.png",
+    "assets/figures/40/406ec7780ee68283b8b0d73cddfa5bcfae795648fd1950da94ca172d09c632f2.png"
+  ],
+  "tables": [],
+  "answer": "（1）① \\(19^\\circ\\)。\n（1）② \\(EF^2+AF^2=2BC^2\\)。\n（2） 图2：\\(CF=\\frac{\\sqrt2}{2}(m-n)\\)；图3：\\(CF=\\frac{\\sqrt2}{2}(m+n)\\)。",
+  "given_answer": "",
+  "given_solution": "①   19\\({}^{。}\\)\n\\({}^{②}\\)〔图1〕\n（2）\n〔图2〕",
+  "given_solution_figures": [
+    "assets/figures/a9/a98547982b4c592f14a4f27d51abe0526a332bf98bb887d611e00481284a82e1.png",
+    "assets/figures/8e/8e52f337af4f7558788d0cd5bad14d729563a1e037894fb07315859475cdde53.png"
+  ],
+  "solution_steps": [
+    "（1）① 图1中 CE 是 CB 关于 CD 的对称射线，所以 \\(\\angle BCE=52^\\circ\\)。从 CA 量到 CE 的内角为 \\(142^\\circ\\)，而 \\(CA=CE\\)，于是 \\(\\angle CAF=(180^\\circ-142^\\circ)/2=19^\\circ\\)。",
+    "（1）② 连接 BF。由对称，\\(EF=BF\\)。由 \\(CA=CE\\) 及角的对称关系可得图1中 \\(AF\\perp BF\\)（见评分稿推导〔图1〕），所以 \\(AF^2+EF^2=AB^2=2BC^2\\)。",
+    "（2） 在 AE 所在直线上截取点，使图2中的对应段为 \\(m-n\\)，或使图3中的对应段为 \\(m+n\\)。利用关于 CD 的对称和 \\(CA=CB\\)，如评分稿〔图2〕所示得到等腰直角三角形，其斜边分别为上述线段。两直角边之一为 CF。"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）① 图1中 CE 是 CB 关于 CD 的对称射线，所以 \\(\\angle BCE=52^\\circ\\)。从 CA 量到 CE 的内角为 \\(142^\\circ\\)，而 \\(CA=CE\\)，于是 \\(\\angle CAF=(180^\\circ-142^\\circ)/2=19^\\circ\\)。\n（1）② 连接 BF。由对称，\\(EF=BF\\)。由 \\(CA=CE\\) 及角的对称关系可得图1中 \\(AF\\perp BF\\)（见评分稿推导〔图1〕），所以 \\(AF^2+EF^2=AB^2=2BC^2\\)。\n（2） 在 AE 所在直线上截取点，使图2中的对应段为 \\(m-n\\)，或使图3中的对应段为 \\(m+n\\)。利用关于 CD 的对称和 \\(CA=CB\\)，如评分稿〔图2〕所示得到等腰直角三角形，其斜边分别为上述线段。两直角边之一为 CF。",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-66ADD474F9/single/q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          60.44,
+          582.2,
+          688.7
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-66ADD474F9/single/s20-p09.webp",
+      "assets/SZ-G8-T2-66ADD474F9/single/s20-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          13,
+          362.22,
+          582.2,
+          563.53
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          13,
+          60.96,
+          582.2,
+          507.48
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

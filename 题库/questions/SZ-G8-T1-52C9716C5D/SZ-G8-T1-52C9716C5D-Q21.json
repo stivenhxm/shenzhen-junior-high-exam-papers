@@ -1,0 +1,440 @@
+{
+  "id": "SZ-G8-T1-52C9716C5D-Q21",
+  "paper_id": "SZ-G8-T1-52C9716C5D",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系、构造全等关系证明线段或角关系",
+  "stem": "已知：如图1，\\(\\vartriangle ABC\\)中，\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，点D是\\(BC\\)上一点，其中\\(\\angle ADC=a\\left ( { 30{}^\\circ < a < 90{}^\\circ } \\right )\\)，将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\\(AE\\)交\\(CB\\)于F，连接\\(CE\\)．\n〔图1〕\n（1）①当\\(a=60{}^\\circ\\)时，\\(\\angle CDE=\\)　　．\n②当\\(\\angle ADC=a\\left ( { 30{}^\\circ < a < 90{}^\\circ } \\right )\\)时，\\(\\angle AEC=\\)　　（用含a的代数式表示）；\n（2）如图2，当\\(a=45{}^\\circ\\)时，解决以下问题：\n①已知\\(AD=2\\)，求\\(CE\\)的值；\n②证明：\\(DC-DE=\\sqrt[] { 2 }AD\\)．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G8-T1-52C9716C5D/figures/154b3dd557e3854b5f2899d169b5fa3fd9bd99e43ef9675ec3a6a95f293d9b84.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(60{}^\\circ\\)；②a\n（2）①4；②见解析",
+  "answer": "（1）①\\(60{}^\\circ\\)；②a\n（2）①4；②见解析",
+  "given_solution": "【分析】（ 1）①②由等腰三角形的性质可得\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，由旋转的性质可得\\(\\angle ADB=\\angle ADE=180{}^\\circ -a，\\angle DAB=\\angle DAE=a-30{}^\\circ ，AB=AE=AC\\)，即可求解；\n（2 ）①由等腰直角三角形的性质可求\\(AH=\\sqrt[] { 2 }\\)，由直角三角形的性质可求\\(AC=2\\sqrt[] { 2 }\\)，由等腰直角三角形的性质可求\\(CE=4\\)；\n②由“\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)”可证\\(\\vartriangle ADE≌\\vartriangle AGC\\)，可得\\(DE=CG\\)，可得结论．\n【小问1详解】\n解：①∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，\n∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，\n∵\\(\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle DAB=\\angle ADC-\\angle B=60{}^\\circ -30{}^\\circ =30{}^\\circ ，\\angle ADB=180{}^\\circ -60{}^\\circ =120{}^\\circ\\)，\n∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\n∴\\(\\angle ADB=\\angle ADE=120{}^\\circ ，\\angle DAB=\\angle DAE=30{}^\\circ ，AB=AE=AC\\)，\n∴\\(\\angle CDE=120{}^\\circ -60{}^\\circ =60{}^\\circ\\)，\n故答案为：\\(60{}^\\circ\\)；\n②∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，\n∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，\n∵\\(\\angle ADC=a\\)，\n∴\\(\\angle DAB=\\angle ADC-\\angle B=a-30{}^\\circ ，\\angle ADB=180{}^\\circ -a\\)，\n∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\n∴\\(\\angle ADB=\\angle ADE=180{}^\\circ -a，\\angle DAB=\\angle DAE=a-30{}^\\circ ，AB=AE=AC\\),\n\\(\\therefore \\angle CDE=180{}^\\circ -a-a=180{}^\\circ -2a，\\angle CAE=120{}^\\circ -2\\left ( { a-30{}^\\circ } \\right )=180{}^\\circ -2a，\\)\n∴\\(\\angle AEC=\\frac { 1 } { 2 }[180{}^\\circ -\\left ( { 180{}^\\circ -2a } \\right )]=a\\)；\n故答案为：a；\n【小问2详解】\n①解：如图2，过点A作\\(AH\\bot BC\\)于H，\n〔图2〕\n∵\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(AH\\bot BC\\)，\n∴\\(\\angle ADC=\\angle DAH=45{}^\\circ ，\\)\n∴\\(AH=HD\\)，\n∵\\(AD=2\\)，\n∴\\(AH=HD=\\sqrt[] { 2 }\\)，\n∵\\(\\angle ACB=30{}^\\circ\\)，\n∴\\(AC=2AH=2\\sqrt[] { 2 }\\)，\n∵\\(\\angle CDE=180{}^\\circ -2\\alpha =90{}^\\circ ，\\angle AEC=\\alpha =45{}^\\circ\\)，\n∴\\(\\angle ACE=\\angle AEC=45{}^\\circ\\)，\n∴\\(AE=AC=2\\sqrt[] { 2 }\\)，\n∴\\(CE=\\sqrt[] { 2 }AC=4\\)；\n②证明：如图3，过点A作\\(AG\\bot AD\\)，交\\(CD\\)于G，\n〔图3〕\n∵\\(\\angle ADC=45{}^\\circ ，AG\\bot AD\\)，\n∴\\(\\angle ADC=\\angle AGD=45{}^\\circ\\)，\n∴\\(AD=AG\\)，\n∴\\(DG=\\sqrt[] { 2 }AD\\)，\n∵\\(\\angle DAG=\\angle CAE=90{}^\\circ\\)，\n∴\\(\\angle CAG=\\angle EAD\\)，\n又∵\\(AC=AE，AD=AG\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle AGC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=CG\\)，\n∵\\(CD=CG+DG\\)，\n∴\\(DC-DE=\\sqrt[] { 2 }AD\\)．\n【点睛】本题是几何变换综合题，考查了全等三角形的判定和性质，等腰直角三角形的性质，折叠的性质，添加恰当辅助线构造全等三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G8-T1-52C9716C5D/figures/154b3dd557e3854b5f2899d169b5fa3fd9bd99e43ef9675ec3a6a95f293d9b84.png",
+    "assets/SZ-G8-T1-52C9716C5D/figures/39e47ea6578887e25dfae510b757b2b3b25cf7fe914554b9ca0156e84cff375b.png",
+    "assets/SZ-G8-T1-52C9716C5D/figures/e8ec3dcfbc07f04d8190ac25f05c2f89e8d6c00005917f64c9db420f85165dd9.png"
+  ],
+  "solution": "【小问1详解】\n解：①∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，\n∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，\n∵\\(\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle DAB=\\angle ADC-\\angle B=60{}^\\circ -30{}^\\circ =30{}^\\circ ，\\angle ADB=180{}^\\circ -60{}^\\circ =120{}^\\circ\\)，\n∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\n∴\\(\\angle ADB=\\angle ADE=120{}^\\circ ，\\angle DAB=\\angle DAE=30{}^\\circ ，AB=AE=AC\\)，\n∴\\(\\angle CDE=120{}^\\circ -60{}^\\circ =60{}^\\circ\\)，\n故答案为：\\(60{}^\\circ\\)；\n②∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，\n∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，\n∵\\(\\angle ADC=a\\)，\n∴\\(\\angle DAB=\\angle ADC-\\angle B=a-30{}^\\circ ，\\angle ADB=180{}^\\circ -a\\)，\n∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\n∴\\(\\angle ADB=\\angle ADE=180{}^\\circ -a，\\angle DAB=\\angle DAE=a-30{}^\\circ ，AB=AE=AC\\),\n\\(\\therefore \\angle CDE=180{}^\\circ -a-a=180{}^\\circ -2a，\\angle CAE=120{}^\\circ -2\\left ( { a-30{}^\\circ } \\right )=180{}^\\circ -2a，\\)\n∴\\(\\angle AEC=\\frac { 1 } { 2 }[180{}^\\circ -\\left ( { 180{}^\\circ -2a } \\right )]=a\\)；\n故答案为：a；\n【小问2详解】\n①解：如图2，过点A作\\(AH\\bot BC\\)于H，\n〔图2〕\n∵\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(AH\\bot BC\\)，\n∴\\(\\angle ADC=\\angle DAH=45{}^\\circ ，\\)\n∴\\(AH=HD\\)，\n∵\\(AD=2\\)，\n∴\\(AH=HD=\\sqrt[] { 2 }\\)，\n∵\\(\\angle ACB=30{}^\\circ\\)，\n∴\\(AC=2AH=2\\sqrt[] { 2 }\\)，\n∵\\(\\angle CDE=180{}^\\circ -2\\alpha =90{}^\\circ ，\\angle AEC=\\alpha =45{}^\\circ\\)，\n∴\\(\\angle ACE=\\angle AEC=45{}^\\circ\\)，\n∴\\(AE=AC=2\\sqrt[] { 2 }\\)，\n∴\\(CE=\\sqrt[] { 2 }AC=4\\)；\n②证明：如图3，过点A作\\(AG\\bot AD\\)，交\\(CD\\)于G，\n〔图3〕\n∵\\(\\angle ADC=45{}^\\circ ，AG\\bot AD\\)，\n∴\\(\\angle ADC=\\angle AGD=45{}^\\circ\\)，\n∴\\(AD=AG\\)，\n∴\\(DG=\\sqrt[] { 2 }AD\\)，\n∵\\(\\angle DAG=\\angle CAE=90{}^\\circ\\)，\n∴\\(\\angle CAG=\\angle EAD\\)，\n又∵\\(AC=AE，AD=AG\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle AGC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=CG\\)，\n∵\\(CD=CG+DG\\)，\n∴\\(DC-DE=\\sqrt[] { 2 }AD\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，",
+    "∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，",
+    "∵\\(\\angle ADC=60{}^\\circ\\)，",
+    "∴\\(\\angle DAB=\\angle ADC-\\angle B=60{}^\\circ -30{}^\\circ =30{}^\\circ ，\\angle ADB=180{}^\\circ -60{}^\\circ =120{}^\\circ\\)，",
+    "∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，",
+    "∴\\(\\angle ADB=\\angle ADE=120{}^\\circ ，\\angle DAB=\\angle DAE=30{}^\\circ ，AB=AE=AC\\)，",
+    "∴\\(\\angle CDE=120{}^\\circ -60{}^\\circ =60{}^\\circ\\)，",
+    "故答案为：\\(60{}^\\circ\\)；",
+    "②∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，",
+    "∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，",
+    "∵\\(\\angle ADC=a\\)，",
+    "∴\\(\\angle DAB=\\angle ADC-\\angle B=a-30{}^\\circ ，\\angle ADB=180{}^\\circ -a\\)，",
+    "∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，",
+    "∴\\(\\angle ADB=\\angle ADE=180{}^\\circ -a，\\angle DAB=\\angle DAE=a-30{}^\\circ ，AB=AE=AC\\),",
+    "\\(\\therefore \\angle CDE=180{}^\\circ -a-a=180{}^\\circ -2a，\\angle CAE=120{}^\\circ -2\\left ( { a-30{}^\\circ } \\right )=180{}^\\circ -2a，\\)",
+    "∴\\(\\angle AEC=\\frac { 1 } { 2 }[180{}^\\circ -\\left ( { 180{}^\\circ -2a } \\right )]=a\\)；",
+    "故答案为：a；",
+    "【小问2详解】",
+    "①解：如图2，过点A作\\(AH\\bot BC\\)于H，",
+    "〔图2〕",
+    "∵\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(AH\\bot BC\\)，",
+    "∴\\(\\angle ADC=\\angle DAH=45{}^\\circ ，\\)",
+    "∴\\(AH=HD\\)，",
+    "∵\\(AD=2\\)，",
+    "∴\\(AH=HD=\\sqrt[] { 2 }\\)，",
+    "∵\\(\\angle ACB=30{}^\\circ\\)，",
+    "∴\\(AC=2AH=2\\sqrt[] { 2 }\\)，",
+    "∵\\(\\angle CDE=180{}^\\circ -2\\alpha =90{}^\\circ ，\\angle AEC=\\alpha =45{}^\\circ\\)，",
+    "∴\\(\\angle ACE=\\angle AEC=45{}^\\circ\\)，",
+    "∴\\(AE=AC=2\\sqrt[] { 2 }\\)，",
+    "∴\\(CE=\\sqrt[] { 2 }AC=4\\)；",
+    "②证明：如图3，过点A作\\(AG\\bot AD\\)，交\\(CD\\)于G，",
+    "〔图3〕",
+    "∵\\(\\angle ADC=45{}^\\circ ，AG\\bot AD\\)，",
+    "∴\\(\\angle ADC=\\angle AGD=45{}^\\circ\\)，",
+    "∴\\(AD=AG\\)，",
+    "∴\\(DG=\\sqrt[] { 2 }AD\\)，",
+    "∵\\(\\angle DAG=\\angle CAE=90{}^\\circ\\)，",
+    "∴\\(\\angle CAG=\\angle EAD\\)，",
+    "又∵\\(AC=AE，AD=AG\\)，",
+    "∴\\(\\vartriangle ADE≌\\vartriangle AGC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(DE=CG\\)，",
+    "∵\\(CD=CG+DG\\)，",
+    "∴\\(DC-DE=\\sqrt[] { 2 }AD\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知：如图1，\\(\\vartriangle ABC\\)中，\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，点D是\\(BC\\)上一点，其中\\(\\angle ADC=a\\left ( { 30{}^\\circ < a < 90{}^\\circ } \\right )\\)，将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\\(AE\\)交\\(CB\\)于F，连接\\(CE\\)．\n〔图1〕",
+      "paper_blocks": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图2，当\\(a=45{}^\\circ\\)时，解决以下问题：",
+      "paper_blocks": [
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T1-52C9716C5D-Q21-P01",
+      "label": "（1）①",
+      "prompt": "当\\(a=60{}^\\circ\\)时，\\(\\angle CDE=\\)　　．",
+      "stem_text": "当\\(a=60{}^\\circ\\)时，\\(\\angle CDE=\\)　　．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(60{}^\\circ\\)；",
+      "answer": "\\(60{}^\\circ\\)；",
+      "given_solution": "∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，\n∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，\n∵\\(\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle DAB=\\angle ADC-\\angle B=60{}^\\circ -30{}^\\circ =30{}^\\circ ，\\angle ADB=180{}^\\circ -60{}^\\circ =120{}^\\circ\\)，\n∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\n∴\\(\\angle ADB=\\angle ADE=120{}^\\circ ，\\angle DAB=\\angle DAE=30{}^\\circ ，AB=AE=AC\\)，\n∴\\(\\angle CDE=120{}^\\circ -60{}^\\circ =60{}^\\circ\\)，\n故答案为：\\(60{}^\\circ\\)；",
+      "solution_steps": [
+        "∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，",
+        "∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，",
+        "∵\\(\\angle ADC=60{}^\\circ\\)，",
+        "∴\\(\\angle DAB=\\angle ADC-\\angle B=60{}^\\circ -30{}^\\circ =30{}^\\circ ，\\angle ADB=180{}^\\circ -60{}^\\circ =120{}^\\circ\\)，",
+        "∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，",
+        "∴\\(\\angle ADB=\\angle ADE=120{}^\\circ ，\\angle DAB=\\angle DAE=30{}^\\circ ，AB=AE=AC\\)，",
+        "∴\\(\\angle CDE=120{}^\\circ -60{}^\\circ =60{}^\\circ\\)，",
+        "故答案为：\\(60{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-52C9716C5D-Q21-P02",
+      "label": "（1）②",
+      "prompt": "当\\(\\angle ADC=a\\left ( { 30{}^\\circ < a < 90{}^\\circ } \\right )\\)时，\\(\\angle AEC=\\)　　（用含a的代数式表示）；",
+      "stem_text": "当\\(\\angle ADC=a\\left ( { 30{}^\\circ < a < 90{}^\\circ } \\right )\\)时，\\(\\angle AEC=\\)　　（用含a的代数式表示）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "a",
+      "answer": "a",
+      "given_solution": "∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，\n∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，\n∵\\(\\angle ADC=a\\)，\n∴\\(\\angle DAB=\\angle ADC-\\angle B=a-30{}^\\circ ，\\angle ADB=180{}^\\circ -a\\)，\n∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，\n∴\\(\\angle ADB=\\angle ADE=180{}^\\circ -a，\\angle DAB=\\angle DAE=a-30{}^\\circ ，AB=AE=AC\\),\n\\(\\therefore \\angle CDE=180{}^\\circ -a-a=180{}^\\circ -2a，\\angle CAE=120{}^\\circ -2\\left ( { a-30{}^\\circ } \\right )=180{}^\\circ -2a，\\)\n∴\\(\\angle AEC=\\frac { 1 } { 2 }[180{}^\\circ -\\left ( { 180{}^\\circ -2a } \\right )]=a\\)；\n故答案为：a；",
+      "solution_steps": [
+        "∵\\(\\angle CAB=120{}^\\circ ，AC=AB\\)，",
+        "∴\\(\\angle ABC=\\angle ACB=30{}^\\circ\\)，",
+        "∵\\(\\angle ADC=a\\)，",
+        "∴\\(\\angle DAB=\\angle ADC-\\angle B=a-30{}^\\circ ，\\angle ADB=180{}^\\circ -a\\)，",
+        "∵将\\(\\vartriangle ABD\\)沿\\(AD\\)所在的直线折叠得到\\(\\vartriangle AED\\)，",
+        "∴\\(\\angle ADB=\\angle ADE=180{}^\\circ -a，\\angle DAB=\\angle DAE=a-30{}^\\circ ，AB=AE=AC\\),",
+        "\\(\\therefore \\angle CDE=180{}^\\circ -a-a=180{}^\\circ -2a，\\angle CAE=120{}^\\circ -2\\left ( { a-30{}^\\circ } \\right )=180{}^\\circ -2a，\\)",
+        "∴\\(\\angle AEC=\\frac { 1 } { 2 }[180{}^\\circ -\\left ( { 180{}^\\circ -2a } \\right )]=a\\)；",
+        "故答案为：a；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          62
+        ],
+        "solution_block_ids": [
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-52C9716C5D-Q21-P03",
+      "label": "（2）①",
+      "prompt": "已知\\(AD=2\\)，求\\(CE\\)的值；",
+      "stem_text": "已知\\(AD=2\\)，求\\(CE\\)的值；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "4；",
+      "answer": "4；",
+      "given_solution": "解：如图2，过点A作\\(AH\\bot BC\\)于H，\n〔图2〕\n∵\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(AH\\bot BC\\)，\n∴\\(\\angle ADC=\\angle DAH=45{}^\\circ ，\\)\n∴\\(AH=HD\\)，\n∵\\(AD=2\\)，\n∴\\(AH=HD=\\sqrt[] { 2 }\\)，\n∵\\(\\angle ACB=30{}^\\circ\\)，\n∴\\(AC=2AH=2\\sqrt[] { 2 }\\)，\n∵\\(\\angle CDE=180{}^\\circ -2\\alpha =90{}^\\circ ，\\angle AEC=\\alpha =45{}^\\circ\\)，\n∴\\(\\angle ACE=\\angle AEC=45{}^\\circ\\)，\n∴\\(AE=AC=2\\sqrt[] { 2 }\\)，\n∴\\(CE=\\sqrt[] { 2 }AC=4\\)；",
+      "solution_steps": [
+        "解：如图2，过点A作\\(AH\\bot BC\\)于H，",
+        "〔图2〕",
+        "∵\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，\\(AH\\bot BC\\)，",
+        "∴\\(\\angle ADC=\\angle DAH=45{}^\\circ ，\\)",
+        "∴\\(AH=HD\\)，",
+        "∵\\(AD=2\\)，",
+        "∴\\(AH=HD=\\sqrt[] { 2 }\\)，",
+        "∵\\(\\angle ACB=30{}^\\circ\\)，",
+        "∴\\(AC=2AH=2\\sqrt[] { 2 }\\)，",
+        "∵\\(\\angle CDE=180{}^\\circ -2\\alpha =90{}^\\circ ，\\angle AEC=\\alpha =45{}^\\circ\\)，",
+        "∴\\(\\angle ACE=\\angle AEC=45{}^\\circ\\)，",
+        "∴\\(AE=AC=2\\sqrt[] { 2 }\\)，",
+        "∴\\(CE=\\sqrt[] { 2 }AC=4\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“∠”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T1-52C9716C5D-Q21-P04",
+      "label": "（2）②",
+      "prompt": "证明：\\(DC-DE=\\sqrt[] { 2 }AD\\)．",
+      "stem_text": "证明：\\(DC-DE=\\sqrt[] { 2 }AD\\)．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：如图3，过点A作\\(AG\\bot AD\\)，交\\(CD\\)于G，\n〔图3〕\n∵\\(\\angle ADC=45{}^\\circ ，AG\\bot AD\\)，\n∴\\(\\angle ADC=\\angle AGD=45{}^\\circ\\)，\n∴\\(AD=AG\\)，\n∴\\(DG=\\sqrt[] { 2 }AD\\)，\n∵\\(\\angle DAG=\\angle CAE=90{}^\\circ\\)，\n∴\\(\\angle CAG=\\angle EAD\\)，\n又∵\\(AC=AE，AD=AG\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle AGC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=CG\\)，\n∵\\(CD=CG+DG\\)，\n∴\\(DC-DE=\\sqrt[] { 2 }AD\\)．",
+      "solution_steps": [
+        "证明：如图3，过点A作\\(AG\\bot AD\\)，交\\(CD\\)于G，",
+        "〔图3〕",
+        "∵\\(\\angle ADC=45{}^\\circ ，AG\\bot AD\\)，",
+        "∴\\(\\angle ADC=\\angle AGD=45{}^\\circ\\)，",
+        "∴\\(AD=AG\\)，",
+        "∴\\(DG=\\sqrt[] { 2 }AD\\)，",
+        "∵\\(\\angle DAG=\\angle CAE=90{}^\\circ\\)，",
+        "∴\\(\\angle CAG=\\angle EAD\\)，",
+        "又∵\\(AC=AE，AD=AG\\)，",
+        "∴\\(\\vartriangle ADE≌\\vartriangle AGC\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(DE=CG\\)，",
+        "∵\\(CD=CG+DG\\)，",
+        "∴\\(DC-DE=\\sqrt[] { 2 }AD\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      65
+    ],
+    "solution_body_blocks": [
+      367,
+      425
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G8-T1-52C9716C5D/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          120.45,
+          583.64,
+          436.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T1-52C9716C5D/solution-q21-p21.webp",
+      "assets/SZ-G8-T1-52C9716C5D/solution-q21-p22.webp",
+      "assets/SZ-G8-T1-52C9716C5D/solution-q21-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          322.73,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          509.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.G01.02",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G03.02.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“角的度量与运算”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。 题目涉及“∠”，按题面与解答定位知识主题。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

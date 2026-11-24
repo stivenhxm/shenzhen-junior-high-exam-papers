@@ -1,0 +1,212 @@
+{
+  "knowledge_ids": [
+    "M.G02.01",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.03.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“三角形”，按题面与解答定位知识主题。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G8-T2-5AE060F59E-Q17",
+  "number": 17,
+  "paper_id": "SZ-G8-T2-5AE060F59E",
+  "title": "将面积条件转为点的位置约束",
+  "stem": "（7分）如图，已知三角形ABC，把三角形ABC先向上平移3个单位长度，再向右平移2个单位长度，得到三角形A′B′C′．\n（1）在图中画出三角形A′B′C′，并写出A′，B′，C′的坐标；\n（2）在y轴上是否存在一点P，使得三角形BCP与三角形ABC面积相等？若存在请直接写出点P的坐标；若不存在，请说明理由．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（7分）如图，已知三角形ABC，把三角形ABC先向上平移3个单位长度，再向右平移2个单位长度，得到三角形A′B′C′．",
+      "paper_blocks": [
+        43
+      ]
+    },
+    {
+      "id": "fig-46",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        46
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G8-T2-5AE060F59E-Q17-P01",
+      "label": "（1）",
+      "prompt": "在图中画出三角形A′B′C′，并写出A′，B′，C′的坐标；",
+      "stem_text": "在图中画出三角形A′B′C′，并写出A′，B′，C′的坐标；",
+      "material_ids": [
+        "context",
+        "fig-46"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）",
+      "given_solution": "如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）；",
+      "solution_steps": [
+        "如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          43,
+          44,
+          46
+        ],
+        "solution_block_ids": [
+          235
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.01"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "题目涉及“三角形”，按题面与解答定位知识主题。",
+      "tag_note": "该问涉及“三角形边与角关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G8-T2-5AE060F59E-Q17-P02",
+      "label": "（2）",
+      "prompt": "在y轴上是否存在一点P，使得三角形BCP与三角形ABC面积相等？若存在请直接写出点P的坐标；若不存在，请说明理由．",
+      "stem_text": "在y轴上是否存在一点P，使得三角形BCP与三角形ABC面积相等？若存在请直接写出点P的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "fig-46"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "〔图2〕",
+      "given_solution": "设点P（0，m），则有〔图1〕×4×|m+2|＝〔图1〕×4×3，\n解得，m＝1或﹣5，\n∴P（0，1）或（0，﹣5）．\n〔图2〕",
+      "solution_steps": [
+        "设点P（0，m），则有〔图1〕×4×|m+2|＝〔图1〕×4×3，",
+        "解得，m＝1或﹣5，",
+        "∴P（0，1）或（0，﹣5）．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2,
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          43,
+          45,
+          46
+        ],
+        "solution_block_ids": [
+          236,
+          237,
+          238,
+          239
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/85/85b13d0efbc5aa8368c462e31e809d51cf4a59c7719cab4e874727cf5772d494.png"
+  ],
+  "tables": [],
+  "answer": "（1）如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）\n（2）〔图2〕",
+  "given_answer": "",
+  "given_solution": "【分析】（1）利用平移变换的性质分别作出A，B，C的对应点A′，B′，C′即可；\n（2）设点P（0，m），构建方程求解即可．\n【解答】解：（1）如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）；\n（2）设点P（0，m），则有〔图1〕×4×|m+2|＝〔图1〕×4×3，\n解得，m＝1或﹣5，\n∴P（0，1）或（0，﹣5）．\n〔图2〕\n【点评】本题考查作图﹣平移变换，三角形的面积等知识，解题的关键是掌握平移变换的性质，学会利用参数构建方程解决问题．",
+  "given_solution_figures": [
+    "assets/figures/af/affc0d4bf3a1f378bad7352fc3cab3d588344779347225982c0a997af2b3e18d.png",
+    "assets/figures/45/45e30405d1009251db2ef986ef55869f46e2cfefc3851248d31ff2d4f99df473.png"
+  ],
+  "solution_steps": [
+    "解：（1）如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）；",
+    "（2）设点P（0，m），则有〔图1〕×4×|m+2|＝〔图1〕×4×3，",
+    "解得，m＝1或﹣5，",
+    "∴P（0，1）或（0，﹣5）．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "解：（1）如图，三角形A′B′C′即为所求．A′（1，4），B′（0，1），C′（4，1）；\n（2）设点P（0，m），则有〔图1〕×4×|m+2|＝〔图1〕×4×3，\n解得，m＝1或﹣5，\n∴P（0，1）或（0，﹣5）．\n〔图2〕",
+  "review_note": "",
+  "solution_figure_ids": [
+    2,
+    1
+  ],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G8-T2-5AE060F59E/single/q17-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          427.92,
+          582.2,
+          733.14
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G8-T2-5AE060F59E/single/s17-p13.webp",
+      "assets/SZ-G8-T2-5AE060F59E/single/s17-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          693.92,
+          582.2,
+          761.75
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          403.13
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}
