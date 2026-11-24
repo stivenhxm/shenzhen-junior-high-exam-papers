@@ -4,9 +4,9 @@
   const data = window.BankData;
   const main = document.getElementById('main');
   const offline = window.BANK_OFFLINE;
-  const facetLabels = {school:'学校', term:'年级学期', year:'学年', knowledge:'知识点', exam:'考点'};
+  const facetLabels = {school:'学校', term:'年级学期', year:'学年', teaching:'教学学期', knowledge:'知识点', exam:'考点'};
   let catalog, papers, tags, generation = 0;
-  let filterBar;
+  let filterBar, teachingFacet;
 
   function route() {
     const hash = location.hash.slice(1);
@@ -65,10 +65,9 @@
     return [...new Set(values.filter(Boolean))].map(v=>[v,v]);
   }
 
-  function facet(key) {
+  function facet(key,options=facetOptions(key)) {
     const label = facetLabels[key];
     const isTag = key==='knowledge' || key==='exam';
-    const options = facetOptions(key);
     const details = element('details','facet');
     details.dataset.facet = key;
     details.setAttribute('name','bank-filters');
@@ -84,7 +83,9 @@
     function update() {
       const selected = boxes.filter(b=>b.checked).map(b=>b.value);
       const noConstraint = isTag ? !selected.length : selected.length===boxes.length;
-      follow(url(route(),{[key]:noConstraint ? null : selected, item:null,paper:null}));
+      const changes = {[key]:noConstraint ? null : selected, item:null,paper:null};
+      if (key==='teaching') changes.module=null;
+      follow(url(route(),changes));
     }
     function checkAll(checked) {
       for (const box of boxes) box.checked = checked;
@@ -137,7 +138,7 @@
       const keys = ['school','term'];
       if (s.mode==='papers') keys.push('year');
       if (s.mode==='tags') keys.push('knowledge','exam');
-      const fields = keys.map(facet);
+      const fields = keys.map(key=>facet(key));
       box.append(...fields.map(f=>f.details));
       filterBar = {box,fields,mode:s.mode};
     }
@@ -219,12 +220,78 @@
       return ids.length===1 ? tags.get(ids[0])?.name || ids[0] : ids.length+' 个'+facetLabels[key];
     }).join(' ∩ ') || '匹配题目';
   }
-  function tagSearch(s) {
-    const box = element('section','sheet');
-    const title = heading('查找知识点或考点');
+  function mapNode(s,kind,node,module,css) {
+    const indexed=tags.has(node.id);
+    const view=indexed ? link(node.name,url(s,{[kind]:node.id,module:module.id,item:null}),css)
+      : element('span',css+' map-unindexed',node.name);
+    view.dataset[kind]=node.id;
+    if (!indexed) view.append(element('small','map-unavailable','暂无题'));
+    return view;
+  }
+  function moduleBranch(s,module,inTerm,searchable) {
+    const contents=element('ul','map-knowledge-list');
+    for (const knowledge of module.knowledge) {
+      const exams=knowledge.exams.filter(inTerm);
+      if (!inTerm(knowledge) && !exams.length) continue;
+      const row=element('li','map-knowledge-row');
+      row.append(mapNode(s,'knowledge',knowledge,module,'map-knowledge'));
+      searchable.push({kind:'knowledge',node:knowledge,module});
+      if (exams.length) {
+        const list=element('ul','map-exams');
+        for (const exam of exams) {
+          const leaf=element('li');
+          leaf.append(mapNode(s,'exam',exam,module,'map-exam'));
+          list.append(leaf);
+          searchable.push({kind:'exam',node:exam,module});
+        }
+        row.append(list);
+      }
+      contents.append(row);
+    }
+    if (!contents.childElementCount) return null;
+    const branch=element('details','map-module');
+    branch.dataset.module=module.id;
+    branch.name='curriculum-modules';
+    branch.open=s.module===module.id;
+    const toggle=element('summary','map-module-toggle',module.name);
+    branch.append(toggle,contents);
+    return branch;
+  }
+  function curriculumMap(s,curriculum) {
+    const box = element('section','sheet curriculum-map');
+    const title = heading('知识点与考点图谱');
+    teachingFacet ||= facet('teaching',curriculum.terms.map(term=>[term,term]));
+    teachingFacet.sync(s);
+    title.append(teachingFacet.details);
+    const tree=element('div','map-domains');
+    const searchable=[];
+    const inTerm=node=>!s.teaching || s.teaching.some(term=>node.terms.includes(term));
+    for (const domain of curriculum.domains) {
+      const section=element('section','map-domain');
+      section.dataset.domain=domain.id;
+      const modules=element('div','map-branches');
+      for (const module of domain.modules) {
+        const branch=moduleBranch(s,module,inTerm,searchable);
+        if (branch) modules.append(branch);
+      }
+      if (modules.childElementCount) {
+        section.append(element('h3','map-domain-title',domain.name),modules);
+        tree.append(section);
+      }
+    }
+    // Keep the open branch in the URL without redrawing the map on every disclosure.
+    let mapHash=location.hash;
+    tree.addEventListener('toggle',()=>{
+      if (!tree.isConnected || location.hash!==mapHash) return;
+      const active=tree.querySelector('.map-module[open]')?.dataset.module;
+      const next=url(s,{module:active});
+      if (next!==mapHash) history.replaceState(history.state,'',next);
+      mapHash=location.hash;
+    },true);
+    const tools=element('div','map-tools');
     const input = element('input','filter-entry');
     input.type = 'search'; input.setAttribute('aria-label','搜索标签名称或编号');
-    input.placeholder = '输入标签名称或编号';
+    input.placeholder = '搜索知识点、考点名称或编号';
     const matches = element('div','filter-tags');
     const report = element('small','muted');
     report.setAttribute('aria-live','polite');
@@ -233,13 +300,26 @@
       const query = input.value.trim().toLocaleLowerCase();
       report.textContent = '';
       if (!query) return;
-      const found = catalog.tags.filter(t=>(t.name+' '+t.id).toLocaleLowerCase().includes(query));
+      const found = searchable.filter(({node})=>(node.name+' '+node.id).toLocaleLowerCase().includes(query));
       report.textContent = '找到 '+found.length+' 个标签';
-      for (const tag of found) matches.append(button(tag.name+' · '+(tag.kind==='exam'?'考点':'知识点'),
-        ()=>follow(url(s,{[tag.kind]:tag.id,item:null}))));
+      for (const {kind,node,module} of found) {
+        const match=mapNode(s,kind,node,module,'map-search-match');
+        match.append(element('small','',facetLabels[kind]));
+        matches.append(match);
+      }
     }
     input.addEventListener('input',search);
-    box.append(title,input,matches,report);
+    tools.append(input,element('small','muted','按北师大版教材编排，展开模块可查看知识点和考点。'),report);
+    box.append(title,tools);
+    if (s.teaching && !curriculum.terms.every(term=>s.teaching.includes(term))) {
+      for (const term of curriculum.terms.filter(term=>s.teaching.includes(term))) {
+        const note=curriculum.term_notes?.[term];
+        if (note) box.append(element('p','map-term-note',term+' · '+note));
+      }
+    }
+    box.append(matches,tree);
+    if (!tree.childElementCount) box.append(element('p','empty',s.teaching?.length===0
+      ? '请选择教学学期以查看图谱。' : '所选教学学期没有可显示的知识点或考点。'));
     return box;
   }
   function sideList(s,results,title,current) {
@@ -318,11 +398,25 @@
         a.id.localeCompare(b.id,'zh',{numeric:true}));
     }
     if (s.item) return read(s,results,'筛选结果',url(s,{item:null}),[banner],turn);
-    if (!groups.length) { showWithFilters(banner,tagSearch(s)); return; }
+    if (!groups.length) {
+      const curriculum=await data.get('curriculum');
+      if (turn!==generation) return;
+      const restoreModule=s.module && !main.querySelector('.curriculum-map');
+      const controls=teachingFacet?.details;
+      const focus=controls?.contains(document.activeElement) ? document.activeElement : null;
+      const map=curriculumMap(s,curriculum);
+      showWithFilters(banner,map);
+      if (focus) focus.focus({preventScroll:true});
+      else if (restoreModule) map.querySelector('.map-module[open] > summary')?.focus();
+      return;
+    }
     const panel=element('section','sheet');
     panel.append(heading(tagResultsText(s),results.length+' 个结果'));
     panel.append(results.length?resultRows(results,s):element('p','empty','当前范围没有匹配的题目或小问。'));
-    showWithFilters(banner,panel);
+    const fromMap=main.querySelector('.curriculum-map')?.contains(document.activeElement);
+    const back=crumb('知识点与考点图谱',url(s,{knowledge:null,exam:null,item:null}));
+    showWithFilters(banner,back,panel);
+    if (fromMap) back.firstElementChild.focus();
   }
   async function practice(s,turn) {
     const results = (offline?.results || catalog.practice_results || [])
@@ -349,7 +443,7 @@
       const tagTab=document.getElementById('tag-tab');
       const tabFilters = {school:s.school,term:s.term,knowledge:s.knowledge,exam:s.exam};
       paperTab.href=url({mode:inPractice?'practice':'papers',...tabFilters,year:s.year});
-      tagTab.href=url({mode:'tags',...tabFilters});
+      tagTab.href=url({mode:'tags',...tabFilters,teaching:s.teaching,module:s.module});
       if (inPractice) paperTab.textContent='专项练习目录';
       document.getElementById('home').href=offline?'#':'#mode=papers';
       tagTab.hidden=!!offline && !Object.keys(offline.data).some(k=>k.startsWith('tags/'));

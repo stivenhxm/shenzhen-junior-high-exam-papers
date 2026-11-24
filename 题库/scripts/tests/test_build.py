@@ -14,6 +14,37 @@ class SeedPapers(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = build.Bank(build.ROOT)
 
+    def test_curriculum_includes_unused_tags_and_exports_only_relevant_branches(self):
+        tax = build.read(build.ROOT/'taxonomy'/'taxonomy.v0.2.json')
+        tree = self.bank.shards['curriculum']
+        points = {k['id']:k for d in tree['domains'] for m in d['modules'] for k in m['knowledge']}
+        self.assertEqual(set(points), {k['id'] for k in tax['knowledge_points']})
+        for k in tax['knowledge_points']:
+            self.assertEqual([e['id'] for e in points[k['id']]['exams']], k['exam_point_ids'])
+        indexed = {t['id'] for t in self.bank.shards['catalog']['tags']}
+        self.assertTrue(set(points)-indexed)
+        self.assertIn('七年级上学期', points['M.N01.01']['terms'])
+        self.assertNotIn('九年级下学期', points['M.N01.01']['terms'])
+        # The revised BNU series teaches quadratic functions in the first semester of grade 9.
+        self.assertEqual(points['M.N13.01']['terms'], ['九年级上学期'])
+        estimates = {e['id']:e['terms'] for e in points['M.S01.04']['exams']}
+        self.assertIn('七年级上学期', estimates['E.S01.04.01'])
+        self.assertIn('八年级上学期', estimates['E.S01.04.03'])
+        self.assertNotIn('七年级上学期', estimates['E.S01.04.03'])
+
+        args = argparse.Namespace(items=['SZ-SY-CZB-2024-25-G7-T1-FINAL-Q16-P04'],
+                                  paper=None,school=None,knowledge=None,exam=None)
+        offline = build.subset(self.bank,args)['data']
+        selected = {t['id'] for t in offline['catalog']['tags']}
+        visible = set()
+        for domain in offline['curriculum']['domains']:
+            for module in domain['modules']:
+                for k in module['knowledge']:
+                    visible.add(k['id'])
+                    visible.update(e['id'] for e in k['exams'])
+        self.assertIn('E.S01.04.01', visible)
+        self.assertEqual(visible, selected)
+
     def test_longhua_spring_scan_and_final_scoring_are_linked_to_their_own_exams(self):
         scan='SZ-G7-T2-9568EFD345'
         mid='SZ-G7-T2-AA58AC3E62'

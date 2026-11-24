@@ -54,6 +54,36 @@ button,a,input,select { -webkit-tap-highlight-color:transparent; }
 .filter-entry { width:min(100%,410px); height:38px; padding-inline:9px; }
 .filter-tags { display:flex; align-items:center; flex-wrap:wrap; gap:7px; margin:12px 0; }
 .filter-tags button { color:var(--green); background:#f4f8f2; font-size:14px; text-align:left; }
+.curriculum-map > .topline { align-items:center; }
+.curriculum-map .facet { position:relative; width:min(100%,195px); }
+.curriculum-map .facet .facet-panel { top:calc(100% + 4px); right:0; left:auto; width:max(100%,13rem); max-width:calc(100vw - 64px); }
+.map-tools { display:flex; align-items:center; flex-wrap:wrap; gap:8px 12px; margin-bottom:15px; }
+.map-term-note { margin:0 0 12px; padding-left:9px; border-left:2px solid #bdcdbd; color:var(--sub); font-size:13px; }
+.curriculum-map .filter-tags:empty { display:none; }
+.map-search-match { display:inline-flex; align-items:baseline; gap:6px; padding:4px 9px; border:1px solid var(--line); border-radius:5px; font-size:14px; }
+.map-search-match small,.map-unavailable { color:var(--sub); font-size:12px; font-weight:400; }
+.map-domains { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); align-items:start; gap:16px; }
+.map-domain { min-width:0; border:1px solid var(--line); border-radius:8px; }
+.map-domain-title { margin:0; padding:9px 15px; border-radius:7px 7px 0 0; background:var(--mint); color:var(--green); font:650 19px/1.45 var(--serif); }
+.map-branches { padding:6px 12px 10px 20px; }
+.map-module,.map-knowledge-row,.map-exams li { position:relative; min-width:0; padding-left:15px; }
+.map-module::before,.map-knowledge-row::before,.map-exams li::before { content:""; position:absolute; top:0; bottom:0; left:0; border-left:1px solid #c5d5c7; }
+.map-module::after,.map-knowledge-row::after,.map-exams li::after { content:""; position:absolute; top:18px; left:0; width:10px; border-top:1px solid #c5d5c7; pointer-events:none; }
+.map-module:last-child::before,.map-knowledge-row:last-child::before,.map-exams li:last-child::before { height:18px; }
+.map-module-toggle { padding:6px 4px; color:var(--ink); font-weight:600; overflow-wrap:anywhere; }
+.map-module-toggle::marker { color:var(--green); font-size:.85em; }
+.map-module[open] > summary,.map-module-toggle:hover { color:var(--green); }
+.map-knowledge-list,.map-exams { list-style:none; padding:0; margin:0 0 5px 8px; }
+.map-knowledge,.map-exam { display:inline-block; padding:5px 3px; overflow-wrap:anywhere; line-height:1.55; }
+.map-knowledge { font-weight:600; }
+.map-exam { font-size:14px; }
+.map-unindexed { color:var(--sub); }
+.map-unavailable { display:inline-block; margin-left:6px; }
+@media(min-width:1180px) {
+  .map-domains { grid-template-columns:repeat(4,minmax(0,1fr)); gap:12px; }
+  .map-branches { padding-left:13px; }
+  .map-knowledge-list,.map-exams { margin-left:3px; }
+}
 .topline { display:flex; align-items:baseline; justify-content:space-between; gap:10px; flex-wrap:wrap; margin:3px 0 14px; }
 .topline h2,.paper-heading { font:650 clamp(22px,2.4vw,29px)/1.45 var(--serif); }
 .topline small,.muted,.metadata,.page-note { color:var(--sub); font-size:13px; }
@@ -142,6 +172,14 @@ dialog::backdrop { background:#14251ee3; }
   .facet .facet-panel,.facet:last-child .facet-panel { top:calc(100% + 3px); left:0; right:0; width:auto; max-width:none; }
 }
 @media(max-width:780px) {
+  .map-domains { grid-template-columns:minmax(0,1fr); gap:12px; }
+  .map-branches { padding-left:13px; }
+  .map-knowledge-list,.map-exams { margin-left:3px; }
+  .curriculum-map .facet { width:100%; }
+  .curriculum-map .facet .facet-panel { width:100%; max-width:none; }
+  .map-module-toggle,.map-knowledge,.map-exam { padding-block:9px; }
+  .map-module::after,.map-knowledge-row::after,.map-exams li::after { top:21px; }
+  .map-module:last-child::before,.map-knowledge-row:last-child::before,.map-exams li:last-child::before { height:21px; }
   .mast-inner { padding-block:15px; }
   .collection-count { font-size:12px; }
   .tab-inner { gap:22px; } .tab { font-size:14px; padding-block:10px 8px; }

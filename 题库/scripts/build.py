@@ -163,6 +163,54 @@ def source_for(q, task, role, paper):
     return {pk:target,ik:[images[pages.index(n)] for n in target],role+"_pdf":paper["sources"][role]["rendered_pdf"]}
 
 
+def curriculum_map(taxonomy, teaching):
+    """Build one teaching hierarchy. Each exam point belongs to its primary knowledge point."""
+    domains = unique_map(taxonomy["domains"], "领域")
+    modules = unique_map(taxonomy["modules"], "模块")
+    knowledge = unique_map(taxonomy["knowledge_points"], "知识点")
+    exams = unique_map(taxonomy["exam_points"], "考点")
+    knowledge_terms = teaching["knowledge"]
+    exam_terms = teaching["exam_overrides"]
+    require(knowledge_terms.keys()==knowledge.keys(), "教学学期表与知识点目录不一致")
+    require(exam_terms.keys()<=exams.keys(), "教学学期表有未知考点")
+    terms = teaching["terms"]
+    term_set = set(strings(terms,"教学学期目录"))
+    require(len(terms)==len(term_set), "教学学期重复")
+    for code,row in (knowledge_terms | exam_terms).items():
+        text(row["basis"],code+" 教学学期归属说明")
+        refs = strings(row["source_refs"],code+" 册次来源")
+        require(set(refs)<=teaching["sources"].keys(), f"{code} 的教学学期来源未登记")
+        values = row["terms"]
+        require(isinstance(values,list) and len(values)==len(set(values)) and set(values)<=term_set,
+                f"{code} 教学学期无效：{values}")
+    notes = teaching.get("term_notes", {})
+    require(notes.keys()<=term_set, "学期说明引用了未知学期")
+
+    domain_nodes = {d["name"]: {"id":d["id"], "name":d["name"], "modules":[]} for d in domains.values()}
+    require(len(domains)==len(domain_nodes), "领域名称重复")
+    module_nodes = {}
+    for mod in modules.values():
+        require(mod["domain"] in domain_nodes, f"模块 {mod['id']} 的领域无效")
+        node = {"id":mod["id"], "name":mod["name"], "knowledge":[]}
+        domain_nodes[mod["domain"]]["modules"].append(node)
+        module_nodes[mod["id"]] = node
+    placed = set()
+    for kid,kp in knowledge.items():
+        mid = kp["module_id"]
+        require(mid in modules and kp["domain"]==modules[mid]["domain"], f"{kid} 的模块或领域无效")
+        children = []
+        for eid in kp["exam_point_ids"]:
+            require(eid not in placed and eid in exams and exams[eid]["primary_knowledge_id"]==kid,
+                    f"{kid} 的考点挂接无效：{eid}")
+            placed.add(eid)
+            assignment = exam_terms.get(eid, knowledge_terms[kid])
+            children.append({"id":eid, "name":exams[eid]["name"], "terms":assignment["terms"]})
+        module_nodes[mid]["knowledge"].append({"id":kid, "name":kp["name"], "terms":knowledge_terms[kid]["terms"], "exams":children})
+    require(placed==exams.keys(),"教学图谱中有未挂接的考点")
+    return {"terms":terms, "term_notes":{term:text(note,term+" 说明") for term,note in notes.items()},
+            "domains":list(domain_nodes.values())}
+
+
 class Bank:
     def __init__(self, root, *, unpublished=()):
         self.root = root
@@ -174,12 +222,16 @@ class Bank:
         self.rows = {}
         tax_files = sorted((root/"taxonomy").glob("taxonomy.v*.json"))
         require(tax_files, "缺少带版本的标签目录")
+        teaching = read(root/"taxonomy"/"teaching-terms.v0.2.json")
         versions = {}
         for path in tax_files:
             tax = read(path)
             version = str(tax["metadata"]["version"])
             require(version not in versions, "重复标签目录版本 "+version)
             versions[version] = (unique_map(tax["knowledge_points"],path.name), unique_map(tax["exam_points"],path.name))
+            if version == teaching["taxonomy_version"]:
+                self.shards["curriculum"] = curriculum_map(tax, teaching)
+        require("curriculum" in self.shards, "教学学期表引用了未知的标签目录版本")
         by_tag, tag_names, used = {}, {}, set()
         manifests = sorted((root/"papers").glob("*.json"))
         require(manifests, "缺少试卷目录")
@@ -417,6 +469,23 @@ def publish(root):
     return bank
 
 
+def curriculum_subset(curriculum, tag_ids):
+    """Keep exported tags and their ancestors, in the same order as the full map."""
+    def branches(nodes, child_fields):
+        selected = []
+        for node in nodes:
+            if child_fields:
+                first, *rest = child_fields
+                children = branches(node[first], rest)
+                if children or node["id"] in tag_ids:
+                    selected.append({**node, first:children})
+            elif node["id"] in tag_ids:
+                selected.append(node)
+        return selected
+
+    return {**curriculum, "domains":branches(curriculum["domains"], ["modules","knowledge","exams"])}
+
+
 def subset(bank,args):
     if args.paper:
         require(args.paper in bank.papers,f"找不到试卷 {args.paper}")
@@ -455,6 +524,7 @@ def subset(bank,args):
             tags.append(dict(t,count=len(filtered)))
             data["tags/"+t["id"]]={"id":t["id"],"results":filtered}
     data["catalog"]={"tags":tags,"papers":covers}
+    data["curriculum"]=curriculum_subset(bank.shards["curriculum"],{t["id"] for t in tags})
     paths=set()
     for key in sorted(available):
         for group in ("items","answers"):
