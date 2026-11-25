@@ -183,6 +183,21 @@
     }
     return wrap;
   }
+  const difficultyStyles = {基础:'basic',进阶:'intermediate',挑战:'challenge'};
+  function difficultyInfo(row,countLabel='小问难度分布') {
+    if (!row.difficulty && !row.difficulty_counts) return null;
+    const group = element('div','difficulty-info');
+    group.append(element('span','difficulty-label',row.difficulty ? '难度' : countLabel));
+    if (row.difficulty) {
+      group.append(element('span','difficulty-level '+difficultyStyles[row.difficulty],row.difficulty));
+    } else {
+      for (const [level,style] of Object.entries(difficultyStyles)) {
+        const count = row.difficulty_counts[level] || 0;
+        if (count) group.append(element('span','difficulty-level '+style,level+' '+count));
+      }
+    }
+    return group;
+  }
   function render(item,ctx) {
     const source = item.source;
     const paper = ctx.papers.get(item.paper_id);
@@ -196,6 +211,12 @@
     pager.append(prev,next); top.append(pager); r.append(top);
     r.append(element('h2','',item.title));
     if (paper) r.append(element('p','metadata',paper.academic_year+' 学年 · '+paper.grade+paper.semester+' · '+paper.exam_type));
+    const difficulty = difficultyInfo(item);
+    if (difficulty) r.append(difficulty);
+    if (item.difficulty_reason) r.append(section('查看难度理由',async body => {
+      body.replaceChildren(texText(item.difficulty_reason));
+      await data.math(body);
+    },'difficulty-reason'));
     const returns = element('div','meta-links');
     if (item.label && data.hasItem(item.question_id)) returns.append(link('查看所属整题',ctx.itemURL(item.question_id)));
     if (ctx.paperURL) returns.append(link('查看本卷目录',ctx.paperURL));
@@ -203,7 +224,9 @@
     if (item.parts?.length) {
       const siblings = element('div','unit-links');
       siblings.append(element('span','muted','单独练习'));
-      for (const p of item.parts) if (data.hasItem(p.id)) siblings.append(link('小问 '+p.label,ctx.itemURL(p.id)));
+      for (const p of item.parts) if (data.hasItem(p.id)) {
+        siblings.append(link('小问 '+p.label+(p.difficulty?' · '+p.difficulty:''),ctx.itemURL(p.id)));
+      }
       if (siblings.children.length>1) r.append(siblings);
     }
     const stem = prepareStem(item.html);
@@ -230,5 +253,5 @@
     }));
     return r;
   }
-  window.BankReader = {element,button,link,texText,render};
+  window.BankReader = {element,button,link,texText,render,difficultyInfo};
 })();

@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "单道大题及其可检索小问",
   "type": "object",
-  "allOf": [{"$ref": "#/$defs/tagged"}],
+  "allOf": [{"$ref": "#/$defs/tagged"}, {"if":{"properties":{"parts":{"minItems":1}}},"then":{"not":{"required":["difficulty"]}}}],
   "required": ["schema_version", "taxonomy_version", "id", "paper_id", "number", "title", "type", "stem", "choices", "figures", "tables", "materials", "parts", "given_answer", "given_solution", "given_solution_figures", "answer", "solution_origin", "solution_steps", "tag_reason", "source"],
   "properties": {
     "schema_version": {"const": "1.0"},
@@ -29,13 +29,17 @@
     "source": {"type": "object", "required": ["question_pages", "solution_pages", "question_images", "solution_images"], "properties": {"question_pages": {"$ref": "#/$defs/pages"}, "solution_pages": {"$ref": "#/$defs/solutionPages"}}}
   },
   "$defs": {
+    "difficulty": {
+      "type": "object", "required": ["level", "reason"],
+      "properties": {"level": {"enum":["基础","进阶","挑战"]}, "reason": {"type":"string","minLength":1}}
+    },
     "list": {"type": "array", "items": {"type": "string"}},
     "steps": {"type": "array", "items": {"type": "string", "minLength": 1}},
     "pages": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
     "solutionPages": {"type": "array", "uniqueItems": true, "items": {"type": "integer", "minimum": 1}},
     "tagged": {
       "type": "object", "required": ["knowledge_ids", "exam_ids", "coverage"],
-      "properties": {"knowledge_ids": {"$ref": "#/$defs/list"}, "exam_ids": {"$ref": "#/$defs/list"}, "coverage": {"enum": ["完整匹配", "部分匹配", "仅知识点", "待标注"]}, "tag_note": {"type": "string"}},
+      "properties": {"knowledge_ids": {"$ref": "#/$defs/list"}, "exam_ids": {"$ref": "#/$defs/list"}, "coverage": {"enum": ["完整匹配", "部分匹配", "仅知识点", "待标注"]}, "tag_note": {"type": "string"}, "difficulty": {"$ref":"#/$defs/difficulty"}},
       "if": {"properties": {"coverage": {"enum": ["部分匹配", "仅知识点", "待标注"]}}},
       "then": {"required": ["tag_note"], "properties": {"tag_note": {"type": "string", "minLength": 1}}}
     },

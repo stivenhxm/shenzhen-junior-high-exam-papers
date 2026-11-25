@@ -14,6 +14,38 @@ class SeedPapers(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = build.Bank(build.ROOT)
 
+    def test_difficulty_splits_a_paper_into_separately_selectable_tasks(self):
+        bank = self.bank
+        pilot = "SZ-SY-CZB-2024-25-G7-T1-FINAL"
+        parent = pilot+"-Q19"
+        parts = bank.shards["items/"+parent]["parts"]
+        levels = ["基础","进阶","挑战"]
+        self.assertEqual([r["difficulty"] for r in parts],levels)
+        self.assertEqual(bank.rows[parent]["difficulty_counts"],dict.fromkeys(levels,1))
+        self.assertNotIn("difficulty",bank.rows[parent])
+        cover = bank.papers[pilot]
+        self.assertEqual(sum(cover["difficulty_counts"].values()),sum(r["paper_id"]==pilot for r in bank.leaves))
+        for row in parts:
+            self.assertTrue(bank.shards["items/"+row["id"]]["difficulty_reason"].strip())
+            self.assertNotIn("difficulty_reason",row)
+        expected = {r["id"] for r in bank.leaves
+                    if (bank.papers[r["paper_id"]]["grade"],bank.papers[r["paper_id"]]["semester"]) == ("七年级","上学期")}
+        indexed = set()
+        for desc in bank.shards["catalog"]["difficulties"]:
+            items = bank.shards[desc["key"]]["results"]
+            self.assertEqual(desc["count"],len(items))
+            self.assertTrue(all(row["difficulty"] == desc["level"] for row in items))
+            ids = {row["id"] for row in items}
+            self.assertEqual(len(ids),len(items))
+            self.assertTrue(indexed.isdisjoint(ids))
+            indexed.update(ids)
+        self.assertTrue(expected.issubset(indexed))
+        selection = argparse.Namespace(exam=None,knowledge=None,paper=None,items=[parts[-1]["id"]],school=None)
+        data = build.subset(bank,selection)["data"]
+        only, = data["catalog"]["difficulties"]
+        self.assertEqual((only["level"],only["count"]),("挑战",1))
+        self.assertEqual([row["id"] for row in data[only["key"]]["results"]],selection.items)
+
     def test_grade_eight_editorial_answer_has_no_spurious_source_page(self):
         paper = 'SZ-G8-T2-A5C3A6D19B'
         item = paper + '-Q16-P02'

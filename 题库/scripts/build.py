@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[1]
 ID = re.compile(r"[A-Za-z0-9][A-Za-z0-9_.-]{0,159}\Z")
 TOKEN = re.compile(r"\\\((?P<inline>[\s\S]*?)\\\)|\\\[(?P<display>[\s\S]*?)\\\]|〔图(?P<figure>\d+)〕")
 COVER = {"完整匹配", "部分匹配", "仅知识点", "待标注"}
+DIFFICULTY_KEYS = {"基础":"difficulty/basic", "进阶":"difficulty/intermediate", "挑战":"difficulty/challenge"}
 
 
 def require(ok, msg):
@@ -215,6 +216,31 @@ def curriculum_map(taxonomy, teaching):
             "domains":list(domain_nodes.values())}
 
 
+def difficulty_indexes(shards, leaves):
+    groups = {level: [] for level in DIFFICULTY_KEYS}
+    for row in leaves:
+        if "difficulty" in row:
+            groups[row["difficulty"]].append(row)
+    catalog = []
+    for level, rows in groups.items():
+        if rows:
+            key = DIFFICULTY_KEYS[level]
+            shards[key] = {"level":level, "results":rows}
+            catalog.append({"level":level, "count":len(rows), "key":key})
+    return catalog
+
+
+def difficulty_counts(rows):
+    counts = dict.fromkeys(DIFFICULTY_KEYS, 0)
+    for row in rows:
+        if "difficulty" in row:
+            counts[row["difficulty"]] += 1
+        else:
+            for level, count in row.get("difficulty_counts", {}).items():
+                counts[level] += count
+    return {level:count for level,count in counts.items() if count}
+
+
 class Bank:
     def __init__(self, root, *, unpublished=()):
         self.root = root
@@ -280,6 +306,9 @@ class Bank:
                 self.add_question(p,q,knowledge,exams,by_tag)
                 total_parts += len(q['parts'])
                 results.append(self.rows[qid])
+            counts = difficulty_counts(results)
+            if counts:
+                cover["difficulty_counts"] = counts
             self.shards["papers/"+pid] = dict(cover,results=results)
             for field in ("metadata_note","edition_note"):
                 if p.get(field):
@@ -292,7 +321,8 @@ class Bank:
             k,title=tag_names[code]
             self.shards["tags/"+code] = {"id":code,"results":rows}
             tags.append({"id":code,"name":title,"kind":k,"count":len(rows)})
-        self.shards["catalog"] = {"papers":list(self.papers.values()),"tags":tags}
+        self.shards["catalog"] = {"papers":list(self.papers.values()),"tags":tags,
+                                  "difficulties":difficulty_indexes(self.shards,self.leaves)}
         registry.attach_inventory(root,self.registered)
         self.registry_json = registry.as_json(self.registered)
 
@@ -350,6 +380,17 @@ class Bank:
                               "type":q["type"],"title":q["title"],"preview":str(task.get("stem_text") or task.get("prompt") or q["stem"])[:180],
                               "knowledge_ids":task["knowledge_ids"],"exam_ids":task["exam_ids"],"coverage":task["coverage"],
                               "has_review_note":bool(task.get("review_note"))}
+            if "difficulty" in task:
+                rating = task["difficulty"]
+                require(key != qid or not q["parts"], key+" 多小问题须逐问标难度")
+                require(isinstance(rating,dict) and isinstance(rating.get("level"),str)
+                        and rating["level"] in DIFFICULTY_KEYS, key+" 难度档位无效")
+                text(rating.get("reason"),key+" 难度理由")
+                self.rows[key]["difficulty"] = rating["level"]
+        if q["parts"]:
+            counts = difficulty_counts(self.rows[part["id"]] for part in q["parts"])
+            if counts:
+                self.rows[qid]["difficulty_counts"] = counts
         for task in [q]+q["parts"]:
             key = task["id"]
             row = self.rows[key]
@@ -367,6 +408,8 @@ class Bank:
                 parts=[self.rows[p["id"]] for p in q["parts"]] if is_whole else [],source=source_for(q,task,"paper",paper),
                 tag_reason=task.get("tag_reason",q["tag_reason"] if is_whole else ""),tag_note=task.get("tag_note",""),
                 points=(q.get("points") if is_whole else task.get("points")))
+            if "difficulty" in task:
+                self.shards["items/"+key]["difficulty_reason"] = task["difficulty"]["reason"]
             solution_figure_ids = task.get("solution_figure_ids", [])
             if is_whole:
                 # Readers opening a complete question also need each worked subquestion's diagram.
@@ -531,7 +574,8 @@ def subset(bank,args):
         if filtered:
             tags.append(dict(t,count=len(filtered)))
             data["tags/"+t["id"]]={"id":t["id"],"results":filtered}
-    data["catalog"]={"tags":tags,"papers":covers}
+    data["catalog"]={"tags":tags,"papers":covers,
+                     "difficulties":difficulty_indexes(data,(r for r in bank.leaves if r["id"] in available))}
     data["curriculum"]=curriculum_subset(bank.shards["curriculum"],{t["id"] for t in tags})
     paths=set()
     for key in sorted(available):

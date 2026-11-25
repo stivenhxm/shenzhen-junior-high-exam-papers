@@ -19,7 +19,7 @@
     values.set(key, payload);
   }
   async function get(key) {
-    if (!/^(?:catalog|curriculum|(?:papers|tags|items|answers)\/[A-Za-z\d._-]+)$/.test(key)) throw new Error('无效的题库编号');
+    if (!/^(?:catalog|curriculum|(?:papers|tags|items|answers|difficulty)\/[A-Za-z\d._-]+)$/.test(key)) throw new Error('无效的题库编号');
     if (values.has(key)) return values.get(key);
     const offline = window.BANK_OFFLINE;
     if (offline) {
