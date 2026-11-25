@@ -216,17 +216,23 @@ def curriculum_map(taxonomy, teaching):
             "domains":list(domain_nodes.values())}
 
 
-def difficulty_indexes(shards, leaves):
-    groups = {level: [] for level in DIFFICULTY_KEYS}
+def difficulty_indexes(shards, leaves, papers):
+    paper_terms = {pid: p["grade"]+p["semester"] for pid,p in papers.items()}
+    term_numbers = {term: i for i,term in enumerate(sorted(set(paper_terms.values())), 1)}
+    groups = {level: {} for level in DIFFICULTY_KEYS}
     for row in leaves:
         if "difficulty" in row:
-            groups[row["difficulty"]].append(row)
+            term = paper_terms[row["paper_id"]]
+            groups[row["difficulty"]].setdefault(term, []).append(row)
     catalog = []
-    for level, rows in groups.items():
-        if rows:
-            key = DIFFICULTY_KEYS[level]
-            shards[key] = {"level":level, "results":rows}
-            catalog.append({"level":level, "count":len(rows), "key":key})
+    for level, by_term in groups.items():
+        parts = []
+        for term,rows in sorted(by_term.items()):
+            key = f"{DIFFICULTY_KEYS[level]}-{term_numbers[term]}"
+            shards[key] = {"level":level, "term":term, "results":rows}
+            parts.append({"term":term, "count":len(rows), "key":key})
+        if parts:
+            catalog.append({"level":level, "count":sum(part["count"] for part in parts), "shards":parts})
     return catalog
 
 
@@ -322,7 +328,7 @@ class Bank:
             self.shards["tags/"+code] = {"id":code,"results":rows}
             tags.append({"id":code,"name":title,"kind":k,"count":len(rows)})
         self.shards["catalog"] = {"papers":list(self.papers.values()),"tags":tags,
-                                  "difficulties":difficulty_indexes(self.shards,self.leaves)}
+                                  "difficulties":difficulty_indexes(self.shards,self.leaves,self.papers)}
         registry.attach_inventory(root,self.registered)
         self.registry_json = registry.as_json(self.registered)
 
@@ -575,7 +581,7 @@ def subset(bank,args):
             tags.append(dict(t,count=len(filtered)))
             data["tags/"+t["id"]]={"id":t["id"],"results":filtered}
     data["catalog"]={"tags":tags,"papers":covers,
-                     "difficulties":difficulty_indexes(data,(r for r in bank.leaves if r["id"] in available))}
+                     "difficulties":difficulty_indexes(data,(r for r in bank.leaves if r["id"] in available),bank.papers)}
     data["curriculum"]=curriculum_subset(bank.shards["curriculum"],{t["id"] for t in tags})
     paths=set()
     for key in sorted(available):

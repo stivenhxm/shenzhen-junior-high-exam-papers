@@ -28,23 +28,39 @@ class SeedPapers(unittest.TestCase):
         for row in parts:
             self.assertTrue(bank.shards["items/"+row["id"]]["difficulty_reason"].strip())
             self.assertNotIn("difficulty_reason",row)
-        expected = {r["id"] for r in bank.leaves
-                    if (bank.papers[r["paper_id"]]["grade"],bank.papers[r["paper_id"]]["semester"]) == ("七年级","上学期")}
+        expected = {r["id"] for r in bank.leaves}
         indexed = set()
         for desc in bank.shards["catalog"]["difficulties"]:
-            items = bank.shards[desc["key"]]["results"]
-            self.assertEqual(desc["count"],len(items))
-            self.assertTrue(all(row["difficulty"] == desc["level"] for row in items))
-            ids = {row["id"] for row in items}
-            self.assertEqual(len(ids),len(items))
-            self.assertTrue(indexed.isdisjoint(ids))
-            indexed.update(ids)
-        self.assertTrue(expected.issubset(indexed))
+            self.assertEqual(desc["count"],sum(part["count"] for part in desc["shards"]))
+            for part in desc["shards"]:
+                items = bank.shards[part["key"]]["results"]
+                self.assertEqual(part["count"],len(items))
+                for row in items:
+                    paper = bank.papers[row["paper_id"]]
+                    self.assertEqual(paper["grade"]+paper["semester"],part["term"])
+                    self.assertEqual(row["difficulty"],desc["level"])
+                    self.assertTrue(bank.shards["items/"+row["id"]]["difficulty_reason"].strip())
+                    self.assertNotIn(row["id"],indexed)
+                    indexed.add(row["id"])
+        self.assertEqual(expected,indexed)
         selection = argparse.Namespace(exam=None,knowledge=None,paper=None,items=[parts[-1]["id"]],school=None)
         data = build.subset(bank,selection)["data"]
         only, = data["catalog"]["difficulties"]
         self.assertEqual((only["level"],only["count"]),("挑战",1))
-        self.assertEqual([row["id"] for row in data[only["key"]]["results"]],selection.items)
+        shard, = only["shards"]
+        self.assertEqual([row["id"] for row in data[shard["key"]]["results"]],selection.items)
+
+    def test_number_line_distance_keeps_printed_solution(self):
+        qid = 'SZ-G7-T1-98172A2C96-Q22'
+        answers = self.bank.shards
+        for suffix in ('','-P02'):
+            answer = answers['answers/'+qid+suffix]
+            self.assertEqual(answer['solution_origin'],'source_checked_with_correction')
+            self.assertIn('(a+4)+(2-a)=6',' '.join(answer['solution_steps']))
+            self.assertIn('=-2',answer['given_solution'])
+            self.assertIn(11,answer['source']['solution_pages'])
+        self.assertEqual(answers['answers/'+qid+'-P02']['given_answer'],'|a+4|；')
+        self.assertEqual(answers['answers/'+qid+'-P01']['solution_origin'],'source_transcribed')
 
     def test_grade_eight_editorial_answer_has_no_spurious_source_page(self):
         paper = 'SZ-G8-T2-A5C3A6D19B'

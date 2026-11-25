@@ -126,8 +126,8 @@
       panel.append(search,actions,list,empty);
     } else {
       if (key==='difficulty') {
-        const terms = [...new Set(catalog.papers.filter(p=>p.difficulty_counts).map(paperTerm))];
-        const note = terms.length ? '已有难度标注的试卷来自'+terms.join('、')+'。' : '按已标注的单题或小问筛选。';
+        const total = catalog.difficulties.reduce((sum,d)=>sum+d.count,0);
+        const note = '共 '+total.toLocaleString('zh-CN')+' 个已标注的单题或小问，可与年级学期、知识点或考点一起筛选。';
         panel.append(element('p','facet-note',note));
       }
       panel.append(actions,list);
@@ -445,10 +445,15 @@
     const banner = filters(s);
     const groups = exerciseFacets.filter(key=>s[key]?.length);
     let results=[];
-    if (groups.length && catalog.papers.some(p=>matchesPaper(p,s))) {
+    const terms = new Set(catalog.papers.filter(p=>matchesPaper(p,s)).map(paperTerm));
+    if (groups.length && terms.size) {
       // Each index has complete leaf summaries, so only the smallest union of shards is needed.
       const choices = groups.map(key=>{
-        const shards = key==='difficulty' ? s[key].map(level=>difficulties.get(level)).filter(Boolean)
+        const shards = key==='difficulty' ? s[key].flatMap(level=>{
+          const entry=difficulties.get(level);
+          if (!entry) return [];
+          return entry.shards ? entry.shards.filter(part=>terms.has(part.term)) : [entry];
+        })
           : s[key].filter(id=>tags.get(id)?.kind===key).map(id=>({key:'tags/'+id,count:tags.get(id).count}));
         return {shards,count:shards.reduce((sum,shard)=>sum+shard.count,0)};
       });

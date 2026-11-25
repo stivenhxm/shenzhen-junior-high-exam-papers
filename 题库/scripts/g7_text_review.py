@@ -54,6 +54,22 @@ def review(q):
         q.update(answer='\n'.join(p['label']+p['answer'] for p in parts),
                  solution_steps=[s for seq in steps for s in seq],solution_origin='source_checked_with_correction',review_note=note)
         q['solution']='\n'.join(q['solution_steps'])
+    if q['id']=='SZ-G7-T1-98172A2C96-Q22':
+        note='资料第 11 页的答案栏只列出第一空，解答中又将正数 a+4 去绝对值时变了号，误得 −2。第二空的距离和应为 6。'
+        for part in q['parts']:
+            part.setdefault('solution_origin','source_transcribed')
+        second=next(p for p in q['parts'] if p['id']==q['id']+'-P02')
+        second.update(answer=r'第一空为 \(\lvert a+4\rvert\)，第二空为 \(6\)。',
+                      solution_steps=[
+                          r'表示 \(a\) 与 \(-4\) 的两点之间的距离为 \(\lvert a-(-4)\rvert=\lvert a+4\rvert\)。',
+                          r'由 \(-4<a<2\)，得 \(a+4>0\)，\(a-2<0\)。',
+                          r'所以 \(\lvert a+4\rvert+\lvert a-2\rvert=(a+4)+(2-a)=6\)。'],
+                      solution_origin='source_checked_with_correction',review_note=note)
+        q.update(answer='\n'.join(p['label']+' '+p['answer'] for p in q['parts']),
+                 solution_steps=[(p['label']+' ' if i==0 else '')+step
+                                 for p in q['parts'] for i,step in enumerate(p['solution_steps'])],
+                 solution_origin='source_checked_with_correction',review_note=note)
+        q['solution']='\n'.join(q['solution_steps'])
     added=supplements().get(q['id'])
     if added and q['solution_origin']=='source_answer_only':
         if isinstance(added,list): added={'steps':added}
