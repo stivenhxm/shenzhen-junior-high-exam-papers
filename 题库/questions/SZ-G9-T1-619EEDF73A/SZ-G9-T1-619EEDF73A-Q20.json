@@ -4,7 +4,7 @@
   "number": 20,
   "type": "解答题",
   "points": null,
-  "title": "完成有理数混合运算并检查步骤、应用等腰三角形性质求边角",
+  "title": "按定义判断图形是否为“共角三角形”，利用三角形相似证明线段间的数量关系，求四边形面积",
   "stem": "阅读理解：两个三角形中有一个角相等或互补，我们称这两个三角形是共角三角形，这个角称为对应角．根据上述定义，判断下列结论，正确的打“\\(\\surd\\)”，错误的打“\\(\\times\\)”．\n（1）三角形一条中线分成的两个三角形是共角三角形．（_____）\n（2）两个等腰三角形是共角三角形．（_____）\n问题提出：小明在研究图\\(1\\)的时发现，因为点\\(D\\)，\\(E\\)分别在\\(AB\\)和\\(AC\\)上，所以\\(\\vartriangle ADE\\)和\\(\\vartriangle ABC\\)是共角三角形，并且还发现\\(\\frac { S_{ \\vartriangle ADE } } { S_{ \\vartriangle ABC } }=\\frac { AD\\cdot AE } { AB\\cdot AC }\\)．以下是小明的证明思路，请帮小明完善证明过程．\n〔图1〕\n证明：分别过点\\(E\\)，\\(C\\)作\\(EG\\bot AB\\)于点\\(G\\)，\\(CF\\bot AB\\)于点\\(F\\)，得到图\\(2\\)，\n\\(\\because \\angle AGE=\\angle AFC\\)，又\\(\\because \\angle A=\\angle A\\)，\n\\(\\therefore \\vartriangle GAE\\backsim\\)（_____），\\(\\therefore \\frac { EG } { CF }=\\frac { AE } { \\left ( { \\_\\_②\\_\\_\\_ } \\right ) }\\)．\n\\(\\because \\frac { S_{ \\vartriangle ADE } } { S_{ \\vartriangle ABC } }=\\frac { \\frac { 1 } { 2 }AD\\cdot EG } { \\frac { 1 } { 2 }AB\\cdot CF }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ADE } } { S_{ \\vartriangle ABC } }=\\frac { AD\\cdot EG } { AB\\cdot CF }=\\frac { AD } { AB }\\cdot \\frac { AE } { AC }\\)，\n即\\(\\frac { S_{ \\vartriangle ADE } } { S_{ \\vartriangle ABC } }=\\frac { AD\\cdot AE } { AB\\cdot AC }\\)．\n延伸探究：如图\\(3\\)，已知\\(\\angle BAC+\\angle DAE=180{}^\\circ\\)，请你参照小明的证明方法，求证：\\(\\frac { S_{ \\vartriangle ADE } } { S_{ \\vartriangle ABC } }=\\frac { AD\\cdot AE } { AB\\cdot AC }\\)．\n〔图2〕\n结论应用：\n（1）如图\\(4\\)，在平行四边形\\(ABCD\\)中，\\(G\\)是\\(BC\\)边上的点且满足\\(2BG=GC\\)，延长\\(GA\\)到\\(E\\)，连接\\(DE\\)交\\(BA\\)的延长线于\\(F\\)，若\\(AB=6\\)，\\(AG=5\\)，\\(AE=2.5\\)，\\(▱ABCD\\)的面积为\\(60\\)，则\\(\\vartriangle AEF\\)的面积是          ．\n（2）如图\\(5\\)，\\(▱ABCD\\)的面积为\\(2\\)，延长\\(▱ABCD\\)的各边，使\\(BE=AB\\)，\\(CF=2BC\\)，\\(DG=3CD\\)，\\(AH=4AD\\)，则四边形\\(EFGH\\)的面积为           ．",
   "choices": [],
   "figures": [
@@ -143,7 +143,8 @@
       "difficulty": {
         "level": "基础",
         "reason": "直接按共角三角形的定义检查所给条件是否能保证存在一对相等角。"
-      }
+      },
+      "title": "按定义判断图形是否为“共角三角形”"
     },
     {
       "id": "SZ-G9-T1-619EEDF73A-Q20-P02",
@@ -192,7 +193,8 @@
       "difficulty": {
         "level": "基础",
         "reason": "直接按共角三角形的定义检查所给条件是否能保证存在一对相等角。"
-      }
+      },
+      "title": "按定义判断图形是否为“共角三角形”"
     },
     {
       "id": "SZ-G9-T1-619EEDF73A-Q20-P03",
@@ -270,7 +272,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "要找出待证两三角形中成对相等的角或成比例的边，并核对它们的对应顺序。"
-      }
+      },
+      "title": "按定义判断图形是否为“共角三角形”"
     },
     {
       "id": "SZ-G9-T1-619EEDF73A-Q20-P04",
@@ -342,7 +345,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "需补出或连接图中有关线段，辨认相等的角，再将相似三角形的对应边列成比例。"
-      }
+      },
+      "title": "利用三角形相似证明线段间的数量关系"
     },
     {
       "id": "SZ-G9-T1-619EEDF73A-Q20-P05",
@@ -420,7 +424,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "需要辨清所求区域与已知图形的关系，选择合适的底、高或分割方式表示面积。"
-      }
+      },
+      "title": "在平行四边形中求三角形面积"
     },
     {
       "id": "SZ-G9-T1-619EEDF73A-Q20-P06",
@@ -493,7 +498,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "用对角线分割平行四边形，依同高三角形的底比算出四个外围三角形面积。"
-      }
+      },
+      "title": "求四边形面积"
     }
   ],
   "review_note": "",

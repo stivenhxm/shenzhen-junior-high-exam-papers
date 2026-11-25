@@ -4,7 +4,7 @@
   "number": 21,
   "type": "解答题",
   "points": null,
-  "title": "利用平行条件建立分线段比例、由勾股关系求直角三角形边长",
+  "title": "用相似三角形证明梅涅劳斯定理中的线段乘积关系，利用勾股定理求线段长度，在平行线中求四边形面积",
   "stem": "梅涅劳斯（Menelaus）是古希腊数学家，他首先证明了梅涅劳斯定理，定理的内容是：如图1，如果一条直线与\\(\\vartriangle ABC\\)的三边\\(AB,BC,CA\\)或它们的延长线交于\\(F、D、E\\)三点，那么一定有\\(\\frac { AF } { FB }\\cdot \\frac { BD } { DC }\\cdot \\frac { CE } { EA }=1\\)．\n下面是利用相似三角形的有关知识证明该定理的部分过程：\n证明：如图2，过点\\(A\\)作\\(AG\\parallel BC\\)，交\\(DF\\)的延长线于点\\(G\\)，则有\\(\\frac { AF } { FB }=\\frac { AG } { BD }\\)，\\(\\frac { CE } { EA }=\\frac { CD } { AG }\\)，\n∴\\(\\vartriangle AGF\\backsim \\vartriangle BDF，\\vartriangle AGE\\backsim \\vartriangle CDE\\)，\n\\(\\therefore \\frac { AF } { FB }\\cdot \\frac { BD } { DC }\\cdot \\frac { CE } { EA }=\\frac { AG } { BD }\\cdot \\frac { BD } { DC }\\cdot \\frac { CD } { AG }=1\\)．\n请用上述定理的证明方法解决以下问题：\n〔图1〕\n〔图2〕\n（1）如图3，\\(\\vartriangle ABC\\)三边\\(CB,AB,AC\\)的延长线分别交直线\\(l\\)于\\(X,Y,Z\\)三点，证明：\\(\\frac { BX } { XC }\\cdot \\frac { CZ } { ZA }\\cdot \\frac { AY } { YB }=1\\)．\n请用上述定理的证明方法或结论解决以下问题：\n（2）如图4，等边\\(\\vartriangle ABC\\)的边长为3，点\\(D\\)为\\(BC\\)的中点，点\\(F\\)在\\(AB\\)上，且\\(BF=2AF,CF\\)与\\(AD\\)交于点\\(E\\)，试求\\(AE\\)的长．\n（3）如图5，\\(\\vartriangle ABC\\)的面积为4，F为\\(AB\\)中点，延长\\(BC\\)至\\(D\\)，使\\(CD=BC\\)，连接\\(FD\\)交\\(AC\\)于\\(E\\)，求四边形\\(BCEF\\)的面积．",
   "choices": [],
   "figures": [
@@ -135,7 +135,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "需要借助补出的线段，把图中分散的边角条件转到待证关系上。"
-      }
+      },
+      "title": "用相似三角形证明梅涅劳斯定理中的线段乘积关系"
     },
     {
       "id": "SZ-G9-T1-A67E1733D4-Q21-P02",
@@ -208,7 +209,8 @@
       "difficulty": {
         "level": "基础",
         "reason": "在已知直角三角形中分清斜边与两直角边，按勾股关系即可换算边长。"
-      }
+      },
+      "title": "利用勾股定理求线段长度"
     },
     {
       "id": "SZ-G9-T1-A67E1733D4-Q21-P03",
@@ -282,7 +284,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "需要辨清所求区域与已知图形的关系，选择合适的底、高或分割方式表示面积。"
-      }
+      },
+      "title": "在平行线中求四边形面积"
     }
   ],
   "review_note": "",

@@ -4,7 +4,7 @@
   "number": 25,
   "type": "解答题",
   "points": null,
-  "title": "用内角和与外角关系求角或比较角、应用等腰三角形性质求边角",
+  "title": "证明三角形全等并求线段长度",
   "stem": "【问题背景】\\(\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，\\(AB=BC\\)，点D为直线\\(BC\\)上一点．\n【初步探究】\n（1）如图，当点D在线段\\(BC\\)上时，连接\\(AD\\)，过点A作\\(AE\\bot AD\\)于点A，且\\(AD=AE\\)，过点E作\\(EH\\bot AC\\)于H点，交\\(AB\\)于F点．\n求证：\\(EF=AC\\)．\n请将证明过程补充完整：\n〔图1〕\n证明：\\(\\because AE\\bot AD\\)，\\(\\therefore \\angle EAD=90{}^\\circ\\)，即\\(\\angle EAH+\\angle CAD=90{}^\\circ\\)．\n\\(\\because EH\\bot AC\\)，\\(\\therefore \\angle AHE=90{}^\\circ\\)，\n\\(\\therefore \\angle EAH+\\angle AEH=90{}^\\circ\\)（________________________），\n\\(\\therefore \\angle AEH=\\)______（________________________）．\n\\(\\because \\vartriangle ABC\\)为等腰直角三角形，\\(\\angle ABC=90{}^\\circ\\)，\\(\\therefore \\angle BAC=\\angle ACB=45{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AHF\\)中，\n\\(\\angle AFE=180{}^\\circ -\\angle AHF-\\angle HAF=180{}^\\circ -90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore \\angle AFE=\\angle DCA=45{}^\\circ\\)．\n在\\(\\vartriangle AEF\\)与\\(\\vartriangle DAC\\)中，〔图2〕\n\\(\\therefore \\vartriangle AEF≌\\vartriangle DAC\\)，\\(\\therefore EF=AC\\)（________________________）．\n【推广探究】\n（2）如图，若点D为边BC延长线上一点，其他条件不变，则（1）中的结论是否仍然成立？若成立，请加以证明；若不成立，请说明理由．\n〔图3〕\n【拓展应用】\n（3）若\\(AC=6\\)，\\(AH=2\\)，其它条件不变时，\\(EH=\\)______．",
   "choices": [],
   "figures": [
@@ -197,7 +197,8 @@
       "difficulty": {
         "level": "基础",
         "reason": "题中列出了证明的中间结论，只需辨认角的对应关系和全等的依据。"
-      }
+      },
+      "title": "证明两条线段相等"
     },
     {
       "id": "SZ-G7-T2-ECE61A19B5-Q25-P02",
@@ -288,7 +289,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "须在D移至延长线的图中重新辨认互余角，沿前问的全等思路验证对应边仍相等。"
-      }
+      },
+      "title": "利用三角形全等证明延长线情形的对应边相等"
     },
     {
       "id": "SZ-G7-T2-ECE61A19B5-Q25-P03",
@@ -375,7 +377,8 @@
       "difficulty": {
         "level": "挑战",
         "reason": "D在边上或延长线上时，EH分别对应两段之差或和，须保留两种可能长度。"
-      }
+      },
+      "title": "按点在边上或延长线分类求线段长度"
     }
   ],
   "review_note": "",

@@ -4,7 +4,7 @@
   "number": 22,
   "type": "解答题",
   "points": null,
-  "title": "按运算顺序计算有理数",
+  "title": "用裂项相消求和，调整裂项系数并相消求和",
   "stem": "请先阅读下列一组内容，然后解答问题：\n因为：\\(\\frac { 1 } { 1\\times 2 }=1-\\frac { 1 } { 2 },\\frac { 1 } { 2\\times 3 }=\\frac { 1 } { 2 }-\\frac { 1 } { 3 },\\frac { 1 } { 3\\times 4 }=\\frac { 1 } { 3 }-\\frac { 1 } { 4 }\\ldots \\frac { 1 } { 9\\times 10 }=\\frac { 1 } { 9 }-\\frac { 1 } { 10 }\\)\n所以：\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+\\ldots +\\frac { 1 } { 9\\times 10 }\\)\n\\(=\\left ( { 1-\\frac { 1 } { 2 } } \\right )+\\left ( { \\frac { 1 } { 2 }-\\frac { 1 } { 3 } } \\right )+\\left ( { \\frac { 1 } { 3 }-\\frac { 1 } { 4 } } \\right )+\\ldots +\\left ( { \\frac { 1 } { 9 }-\\frac { 1 } { 10 } } \\right )\\)\n\\(=1-\\frac { 1 } { 2 }+\\frac { 1 } { 2 }-\\frac { 1 } { 3 }+\\frac { 1 } { 3 }-\\frac { 1 } { 4 }+\\ldots +\\frac { 1 } { 9 }-\\frac { 1 } { 10 }\\)\n\\(=1-\\frac { 1 } { 10 }=\\frac { 9 } { 10 }\\)\n计算：\n（1）\\(\\frac { 1 } { 1\\times 2 }+\\frac { 1 } { 2\\times 3 }+\\frac { 1 } { 3\\times 4 }+...+\\frac { 1 } { 2022\\times 2023 }\\)\n（2）\\(\\frac { 1 } { 1\\times 3 }+\\frac { 1 } { 3\\times 5 }+\\frac { 1 } { 5\\times 7 }+...+\\frac { 1 } { 49\\times 51 }\\)",
   "choices": [],
   "figures": [],
@@ -106,7 +106,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "需用前面得到的拆项规律改写各项，再辨认中间相消后的首尾项。"
-      }
+      },
+      "title": "用裂项相消求和"
     },
     {
       "id": "SZ-G7-T1-544BE61CA8-Q22-P02",
@@ -173,7 +174,8 @@
       "difficulty": {
         "level": "进阶",
         "reason": "分母的两个数间隔为二，需要调整拆分系数，再利用中间项相消。"
-      }
+      },
+      "title": "调整裂项系数并相消求和"
     }
   ],
   "review_note": "",
