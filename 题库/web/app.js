@@ -9,6 +9,7 @@
   const pageSize = 60;
   let catalog, papers, tags, difficulties, generation = 0;
   let filterBar, teachingFacet;
+  let disclosureRoute, titleDisclosures = new Map();
 
   function route() {
     const hash = location.hash.slice(1);
@@ -207,27 +208,95 @@
     showWithFilters(filters(s),heading('试卷目录',visible.length+' 份试卷'),grid);
     if (!visible.length) grid.append(element('p','empty','当前筛选范围没有试卷。'));
   }
-  function resultRows(results,s,compact=false,current=s.item) {
-    const wrap = element('div',compact?'side-list':'result-list');
-    for (const q of results) {
-      const row = link('',url(s,{item:q.id}),'result-row');
-      if (q.id===current) row.setAttribute('aria-current','true');
-      const school = papers.get(q.paper_id)?.school || '';
-      row.append(element('small','', [s.mode==='papers'?'':school,label(q)].filter(Boolean).join(' · ')),
-        element('strong','',q.title || label(q)));
-      const difficulty = difficultyInfo(q);
-      if (difficulty) row.append(difficulty);
-      if (q.preview && !compact) {
-        const preview = texText(q.preview.replace(/\\\((?:(?!\\\))[\s\S])*$/u,'…'),'preview');
-        row.append(preview);
-      }
-      wrap.append(row);
+  function groupResults(rows,s) {
+    if (s.mode==='papers') return rows.map(row=>[row]);
+    const key=url(s,{item:null,page:null});
+    if (key!==disclosureRoute) {
+      disclosureRoute=key;
+      titleDisclosures=new Map();
     }
-    if (!compact) data.math(wrap).catch(error=>wrap.append(element('p','status error',error.message)));
+    const byTitle=new Map();
+    for (const row of rows) {
+      const title=row.title?.trim() || row;
+      if (!byTitle.has(title)) byTitle.set(title,[]);
+      byTitle.get(title).push(row);
+    }
+    return [...byTitle.values()];
+  }
+  function resultRow(q,s,compact,current,inGroup) {
+    const row=link('',url(s,{item:q.id}),'result-row');
+    if (q.id===current) row.setAttribute('aria-current','true');
+    const paper=papers.get(q.paper_id);
+    const source=[s.mode==='papers'?'':paper?.school,label(q)].filter(Boolean).join(' · ');
+    if (inGroup) {
+      row.append(element('strong','',source));
+      if (paper) row.append(element('small','',paperMeta(paper)));
+    } else {
+      row.append(element('small','',source),element('strong','',q.title || label(q)));
+    }
+    const difficulty=difficultyInfo(q);
+    if (difficulty) row.append(difficulty);
+    if (q.preview && !compact) row.append(texText(q.preview.replace(/\\\((?:(?!\\\))[\s\S])*$/u,'…'),'preview'));
+    return row;
+  }
+  function renderResultMath(host) {
+    data.math(host).catch(error=>host.append(element('p','status error',error.message)));
+  }
+  function resultRows(groups,s,compact=false,current=s.item) {
+    const wrap=element('div',compact?'side-list':'result-list');
+    for (const members of groups) {
+      if (members.length===1) {
+        wrap.append(resultRow(members[0],s,compact,current,false));
+        continue;
+      }
+      const title=members[0].title.trim();
+      const details=element('details','result-group');
+      const summary=element('summary','result-group-toggle');
+      summary.append(element('strong','',title),element('small','',members.length+' 项'));
+      const body=element('div','result-members');
+      details.append(summary,body);
+      const state=titleDisclosures.get(title) || {open:members.length<=3,limit:pageSize};
+      titleDisclosures.set(title,state);
+      const active=members.findIndex(row=>row.id===current);
+      if (active>=0) state.limit=Math.max(state.limit,(Math.floor(active/pageSize)+1)*pageSize);
+      details.open=active>=0 || state.open;
+      let shown=0;
+      const more=members.length>pageSize ? button('',()=>{
+        const batch=appendMembers(shown+pageSize);
+        batch.firstElementChild.focus({preventScroll:true});
+      },'group-more') : null;
+      if (more) body.append(more);
+      function appendMembers(limit) {
+        const batch=element('div','result-batch');
+        for (const q of members.slice(shown,limit)) batch.append(resultRow(q,s,compact,current,true));
+        body.insertBefore(batch,more);
+        shown=Math.min(members.length,limit);
+        state.limit=shown;
+        if (more) {
+          more.hidden=shown===members.length;
+          more.textContent='再显示 '+Math.min(pageSize,members.length-shown)+' 项（已显示 '+shown+' / '+members.length+'）';
+        }
+        if (!compact && details.isConnected) renderResultMath(batch);
+        return batch;
+      }
+      if (details.open) appendMembers(state.limit);
+      details.addEventListener('toggle',()=>{
+        if (!details.isConnected) return;
+        state.open=details.open;
+        if (details.open && !shown) appendMembers(state.limit);
+      });
+      wrap.append(details);
+    }
+    if (!compact) renderResultMath(wrap);
     return wrap;
   }
-  function hasPages(s,results) { return s.mode!=='papers' && results.length>pageSize; }
-  function pageOf(index) { return Math.floor(index/pageSize)+1; }
+  function groupPage(groups,id) {
+    const index=groups.findIndex(group=>group.some(row=>row.id===id));
+    return index<0 ? 0 : Math.floor(index/pageSize)+1;
+  }
+  function resultCount(rows,groups) {
+    return rows.length+' 个结果'+(groups.length<rows.length ? ' · '+groups.length+' 个标题' : '');
+  }
   function pageControls(page,total,change) {
     const nav=element('nav','result-pages');
     nav.setAttribute('aria-label','题目分页');
@@ -238,12 +307,11 @@
     nav.append(previous,element('span','','第 '+page+' / '+total+' 页'),next);
     return nav;
   }
-  function pagedRows(results,s,compact=false,current=s.item) {
-    if (!hasPages(s,results)) return resultRows(results,s,compact,current);
-    const total=Math.ceil(results.length/pageSize);
-    const index=compact ? results.findIndex(row=>row.id===current) : -1;
+  function pagedRows(groups,s,compact=false,current=s.item) {
+    if (s.mode==='papers' || groups.length<=pageSize) return resultRows(groups,s,compact,current);
+    const total=Math.ceil(groups.length/pageSize);
     const requested=Number(s.page);
-    const page=index>=0 ? pageOf(index) : Math.min(total,Math.max(1,Number.isInteger(requested)?requested:1));
+    const page=(compact && groupPage(groups,current)) || Math.min(total,Math.max(1,Number.isInteger(requested)?requested:1));
     const box=element('div',compact?'paged-side':'paged-results');
     function change(next) {
       if (compact) display(next);
@@ -254,7 +322,7 @@
     }
     function display(number) {
       const start=(number-1)*pageSize;
-      const slice=results.slice(start,start+pageSize);
+      const slice=groups.slice(start,start+pageSize);
       const rows=resultRows(slice,{...s,page:number>1?number:null},compact,current);
       box.replaceChildren(pageControls(number,total,change),rows);
       if (!compact) box.append(pageControls(number,total,change));
@@ -377,31 +445,40 @@
       ? '请选择教学学期以查看图谱。' : '所选教学学期没有可显示的知识点或考点。'));
     return box;
   }
-  function sideList(s,results,title,current) {
+  function sideList(s,groups,title,current,count) {
     const side = element('aside','side');
     const bar = element('div','side-bar');
-    bar.append(element('h2','',title+' · '+results.length));
+    bar.append(element('h2','',title+' · '+count));
+    function revealCurrent() {
+      const list=side.querySelector('.side-list');
+      const row=list?.querySelector('[aria-current=true]');
+      if (!list?.clientHeight || !row) return;
+      const top=row.getBoundingClientRect().top-list.getBoundingClientRect().top;
+      if (top<0 || top+row.offsetHeight>list.clientHeight) list.scrollTop+=top-(list.clientHeight-row.offsetHeight)/2;
+    }
     const toggle = button('展开目录',() => {
       const open = side.classList.toggle('expanded');
       toggle.textContent=open?'收起目录':'展开目录';
       toggle.setAttribute('aria-expanded',String(open));
+      if (open) revealCurrent();
     },'side-toggle');
     toggle.setAttribute('aria-expanded','false');
     bar.append(toggle);
-    side.append(bar,pagedRows(results,s,true,current));
+    side.append(bar,pagedRows(groups,s,true,current));
+    requestAnimationFrame(revealCurrent);
     return side;
   }
-  async function read(s,results,title,extra,turn,item) {
+  async function read(s,groups,title,extra,turn,item) {
     item ||= await data.get('items/'+s.item);
     if (turn!==generation) return;
     const current=s.mode==='papers'?item.question_id:item.id;
+    const results=groups.flat();
     const index=results.findIndex(r=>r.id===current);
-    const paged=hasPages(s,results);
-    const currentPage=paged && index>=0 ? pageOf(index) : Number(s.page);
+    const paged=s.mode!=='papers' && groups.length>pageSize;
+    const currentPage=paged ? groupPage(groups,current) || Number(s.page) : 1;
     const back=url(s,{item:null,page:currentPage>1?currentPage:null});
     const itemURL = id => {
-      const target=paged ? results.findIndex(row=>row.id===id) : -1;
-      const page=target>=0 ? pageOf(target) : currentPage;
+      const page=paged ? groupPage(groups,id) || currentPage : 1;
       return url(s,{item:id,page:page>1?page:null});
     };
     const paperURL=s.mode!=='papers' && (!offline || Object.hasOwn(offline.data,'papers/'+item.paper_id))
@@ -412,7 +489,7 @@
     }, previous:index>0, next:index>=0 && index+1<results.length,
     step:delta=>{ const q=results[index+delta]; if(q) follow(itemURL(q.id)); }};
     const layout=element('div','workspace');
-    layout.append(sideList(s,results,title,current),render(item,ctx));
+    layout.append(sideList(s,groups,title,current,results.length),render(item,ctx));
     if (extra.length) showWithFilters(extra[0],crumb(title,back),layout);
     else main.replaceChildren(crumb(title,back),layout);
     document.title=item.title+' · 深圳初中数学题库';
@@ -428,7 +505,8 @@
     if (!s.paper) { cardList(s); return; }
     const p = await data.get('papers/'+s.paper);
     if (turn!==generation) return;
-    if (s.item) return read(s,p.results,'本卷目录',[],turn,direct);
+    const groups=groupResults(p.results,s);
+    if (s.item) return read(s,groups,'本卷目录',[],turn,direct);
     const box = element('section','sheet');
     box.append(heading(p.school,p.count+' 道大题'),element('p','paper-name',p.title),
       element('p','metadata',paperMeta(p)));
@@ -437,7 +515,7 @@
     }
     const distribution = difficultyInfo(p,'难度分布（按单题及小问计）');
     if (distribution) box.append(distribution);
-    box.append(resultRows(p.results,s));
+    box.append(resultRows(groups,s));
     main.replaceChildren(crumb('全部试卷',url(s,{paper:null})),box);
     document.title=p.school+' · 深圳初中数学题库';
   }
@@ -469,7 +547,8 @@
         String(a.number).localeCompare(String(b.number),'zh',{numeric:true}) ||
         a.id.localeCompare(b.id,'zh',{numeric:true}));
     }
-    if (s.item) return read(s,results,'筛选结果',[banner],turn);
+    const titleGroups=groupResults(results,s);
+    if (s.item) return read(s,titleGroups,'筛选结果',[banner],turn);
     if (!groups.length) {
       const curriculum=await data.get('curriculum');
       if (turn!==generation) return;
@@ -483,8 +562,8 @@
       return;
     }
     const panel=element('section','sheet');
-    panel.append(heading(tagResultsText(s),results.length+' 个结果'));
-    panel.append(results.length?pagedRows(results,s):element('p','empty','当前范围没有匹配的题目或小问。'));
+    panel.append(heading(tagResultsText(s),resultCount(results,titleGroups)));
+    panel.append(results.length?pagedRows(titleGroups,s):element('p','empty','当前范围没有匹配的题目或小问。'));
     const fromMap=main.querySelector('.curriculum-map')?.contains(document.activeElement);
     const back=crumb('知识点与考点图谱',url(s,{knowledge:null,exam:null,difficulty:null,item:null,page:null}));
     showWithFilters(banner,back,panel);
@@ -493,10 +572,11 @@
   async function practice(s,turn) {
     const results = (offline?.results || catalog.practice_results || [])
       .filter(row=>matchesPaper(papers.get(row.paper_id),s));
+    const groups=groupResults(results,s);
     const chosen = tags.get(offline?.start.key)?.name || '专项练习';
-    if (s.item) return read(s,results,'专项练习目录',[],turn);
+    if (s.item) return read(s,groups,'专项练习目录',[],turn);
     const box=element('section','sheet');
-    box.append(heading(chosen,results.length+' 项'),results.length?pagedRows(results,s):
+    box.append(heading(chosen,resultCount(results,groups)),results.length?pagedRows(groups,s):
       element('p','empty','当前筛选范围没有练习。'));
     showWithFilters(filters(s),box);
   }

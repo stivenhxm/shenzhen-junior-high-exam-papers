@@ -48,6 +48,7 @@
       "required": ["id", "label", "prompt", "material_ids", "requires", "given_answer", "answer", "solution_steps", "source"],
       "properties": {
         "id": {"type": "string", "minLength": 1}, "label": {"type": "string"},
+        "title": {"type": "string", "minLength": 1, "pattern": "\\S", "description": "可选的小问题名，省略时沿用大题题名。"},
         "prompt": {"type": "string", "minLength": 1}, "material_ids": {"$ref": "#/$defs/list"},
         "requires": {"$ref": "#/$defs/list"}, "given_answer": {"type": "string"},
         "answer": {"type": "string", "minLength": 1}, "solution_steps": {"$ref": "#/$defs/steps"},

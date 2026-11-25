@@ -14,6 +14,25 @@ class SeedPapers(unittest.TestCase):
     def setUpClass(cls):
         cls.bank = build.Bank(build.ROOT)
 
+    def test_part_titles_follow_exercises_into_tag_search_and_exports(self):
+        paper = 'SZ-G7-T1-A42768EACC'
+        parent = paper+'-Q22'
+        source = build.read(build.ROOT/'questions'/paper/(parent+'.json'))
+        parts = source['parts']
+        self.assertNotEqual(parts[0]['title'], source['title'])
+        expected = {p['id']:p.get('title', source['title']) for p in parts}
+        args = argparse.Namespace(exam=None, knowledge=None, paper=None, items=[parent], school=None)
+        data = build.subset(self.bank, args)['data']
+        whole = data['items/'+parent]
+        self.assertEqual(whole['title'], source['title'])
+        self.assertEqual({p['id']:p['title'] for p in whole['parts']}, expected)
+        for p in parts:
+            child = p['id']
+            self.assertEqual(data['items/'+child]['title'], expected[child])
+            for tag in p['exam_ids']:
+                rows = data['tags/'+tag]['results']
+                self.assertEqual(next(r['title'] for r in rows if r['id']==child), expected[child])
+
     def test_difficulty_splits_a_paper_into_separately_selectable_tasks(self):
         bank = self.bank
         pilot = "SZ-SY-CZB-2024-25-G7-T1-FINAL"

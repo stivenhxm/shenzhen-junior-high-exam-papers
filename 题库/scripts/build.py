@@ -343,8 +343,7 @@ class Bank:
     def add_question(self, paper, q, knowledge, exams, by_tag):
         qid = q["id"]
         origin = q["solution_origin"]
-        for key in ("stem","title"):
-            text(q[key],qid+" "+key)
+        text(q["stem"],qid+" stem")
         if origin not in {"source_solution_summary","source_checked_with_correction","source_facsimile","editorial_answer_and_solution"}:
             text(q["given_answer"],qid+" given_answer")
         if origin not in {"editorial_solution","source_answer_only","source_facsimile","editorial_answer_and_solution"}:
@@ -364,6 +363,7 @@ class Bank:
         for task in [q]+q["parts"]:
             key=stable_id(task["id"])
             require(key not in self.rows,f"题或小问 ID 重复 {key}")
+            title = text(task.get("title", q["title"]), key+" 题名")
             text(task["answer"],key+" 答案")
             task_origin = task.get("solution_origin",origin)
             if task_origin in {"source_answer_only","source_facsimile"} and not task["solution_steps"]:
@@ -383,7 +383,7 @@ class Bank:
             for field in ("knowledge_ids","exam_ids"):
                 require(len(set(task[field]))==len(task[field]),f"{key} 有重复的 {field}")
             self.rows[key] = {"id":key,"question_id":qid,"paper_id":q["paper_id"],"number":q["number"],"label":task.get("label",""),
-                              "type":q["type"],"title":q["title"],"preview":str(task.get("stem_text") or task.get("prompt") or q["stem"])[:180],
+                              "type":q["type"],"title":title,"preview":str(task.get("stem_text") or task.get("prompt") or q["stem"])[:180],
                               "knowledge_ids":task["knowledge_ids"],"exam_ids":task["exam_ids"],"coverage":task["coverage"],
                               "has_review_note":bool(task.get("review_note"))}
             if "difficulty" in task:
