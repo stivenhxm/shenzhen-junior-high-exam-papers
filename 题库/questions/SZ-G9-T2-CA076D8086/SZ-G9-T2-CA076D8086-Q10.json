@@ -1,0 +1,129 @@
+{
+  "id": "SZ-G9-T2-CA076D8086-Q10",
+  "paper_id": "SZ-G9-T2-CA076D8086",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，矩形\\(ABCD\\)中，\\(AB=2\\)，\\(BC=4\\)，\\(P\\)，\\(Q\\)分别是\\(BC\\)，\\(AB\\)上的两个动点，\\(AE=1\\)，\\(\\vartriangle AEQ\\)沿\\(EQ\\)翻折形成\\(\\vartriangle FEQ\\)，连接\\(PF\\)，\\(PD\\)，则\\(PF+PD\\)的最小值是（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(5\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(4\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(2\\sqrt[] { 2 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(2\\sqrt[] { 5 }\\)\n第Ⅱ卷 （本卷共计70 分）"
+    }
+  ],
+  "figures": [
+    "assets/figures/64/64cf73c4f953e3734ba3af22c3dfac304690809185e3b0ecbb9a50d907161d6d.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】作点D关于BC的对称点D′，连接PD′，ED′，证得DP=PD′，推出PD+PF=PD′+PF，又EF=EA=2是定值，即可推出当E、F、P、D′四点共线时，PF+PD′定值最小，最小值=ED′-EF即可得出结果．\n【详解】解：作点\\(D\\)关于\\(BC\\)的对称点\\(D'\\)，连接\\(PD'\\)，\\(ED'\\)，如图所示：\n〔图2〕\n\\(\\because\\)矩形\\(ABCD\\)中，\\(AB=2\\)，\\(BC=4\\)，\\(AE=1\\)，\n\\(\\therefore DE=AD-AE=BC-AE=3\\)，\\(DD'=2DC=2AB=4\\)，\n\\(\\therefore ED'=\\sqrt[] { DE ^ { 2 } +{DD'}^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n在\\(\\vartriangle PCD\\)和\\(\\vartriangle PCD'\\)中，\n\\(\\begin{cases} CD=CD' \\\\ \\angle PCD=\\angle PCD'=90{}^\\circ \\\\ PC=PC \\end{cases}\\)，\n\\(\\therefore \\vartriangle PCD\\)≌\\(\\vartriangle PCD'\\left ( { SAS } \\right )\\)，\n\\(\\therefore DP=PD'\\)，\n\\(\\therefore PD+PF=PD'+PF\\)，\n\\(\\because EF=EA=1\\)是定值，\n\\(\\therefore\\)当\\(E\\)、\\(F\\)、\\(P\\)、\\(D'\\)四点共线时，\\(PF+PD'\\)定值最小，最小值\\(=5-1=4\\)，\n\\(\\therefore PF+PD\\)的最小值为\\(4\\)，\n故选：B\n【点睛】本题考查翻折变换、矩形的性质、全等三角形的判定与性质、勾股定理等知识，解题的关键是学会利用轴对称，根据两点之间线段最短解决最短问题．\n第Ⅱ卷 （本卷共计70 分）",
+  "given_solution_figures": [
+    "assets/figures/87/870bd9375cee22dac17c96ade7d4c1367e7c8d95b824b174ca04f94d955f60b5.png",
+    "assets/figures/3d/3da7f5aa4fd12dca6e915648aab63b732b9410c553a82a8922c761a7c8ae1a43.png"
+  ],
+  "solution": "解：作点\\(D\\)关于\\(BC\\)的对称点\\(D'\\)，连接\\(PD'\\)，\\(ED'\\)，如图所示：\n〔图2〕\n\\(\\because\\)矩形\\(ABCD\\)中，\\(AB=2\\)，\\(BC=4\\)，\\(AE=1\\)，\n\\(\\therefore DE=AD-AE=BC-AE=3\\)，\\(DD'=2DC=2AB=4\\)，\n\\(\\therefore ED'=\\sqrt[] { DE ^ { 2 } +{DD'}^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n在\\(\\vartriangle PCD\\)和\\(\\vartriangle PCD'\\)中，\n\\(\\begin{cases} CD=CD' \\\\ \\angle PCD=\\angle PCD'=90{}^\\circ \\\\ PC=PC \\end{cases}\\)，\n\\(\\therefore \\vartriangle PCD\\)≌\\(\\vartriangle PCD'\\left ( { SAS } \\right )\\)，\n\\(\\therefore DP=PD'\\)，\n\\(\\therefore PD+PF=PD'+PF\\)，\n\\(\\because EF=EA=1\\)是定值，\n\\(\\therefore\\)当\\(E\\)、\\(F\\)、\\(P\\)、\\(D'\\)四点共线时，\\(PF+PD'\\)定值最小，最小值\\(=5-1=4\\)，\n\\(\\therefore PF+PD\\)的最小值为\\(4\\)，\n故选：B",
+  "solution_steps": [
+    "解：作点\\(D\\)关于\\(BC\\)的对称点\\(D'\\)，连接\\(PD'\\)，\\(ED'\\)，如图所示：",
+    "〔图2〕",
+    "\\(\\because\\)矩形\\(ABCD\\)中，\\(AB=2\\)，\\(BC=4\\)，\\(AE=1\\)，",
+    "\\(\\therefore DE=AD-AE=BC-AE=3\\)，\\(DD'=2DC=2AB=4\\)，",
+    "\\(\\therefore ED'=\\sqrt[] { DE ^ { 2 } +{DD'}^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+    "在\\(\\vartriangle PCD\\)和\\(\\vartriangle PCD'\\)中，",
+    "\\(\\begin{cases} CD=CD' \\\\ \\angle PCD=\\angle PCD'=90{}^\\circ \\\\ PC=PC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle PCD\\)≌\\(\\vartriangle PCD'\\left ( { SAS } \\right )\\)，",
+    "\\(\\therefore DP=PD'\\)，",
+    "\\(\\therefore PD+PF=PD'+PF\\)，",
+    "\\(\\because EF=EA=1\\)是定值，",
+    "\\(\\therefore\\)当\\(E\\)、\\(F\\)、\\(P\\)、\\(D'\\)四点共线时，\\(PF+PD'\\)定值最小，最小值\\(=5-1=4\\)，",
+    "\\(\\therefore PF+PD\\)的最小值为\\(4\\)，",
+    "故选：B"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      35,
+      38
+    ],
+    "solution_body_blocks": [
+      111,
+      121
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-CA076D8086/paper-q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          568.64,
+          583.64,
+          752.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-CA076D8086/solution-q10-p06.webp",
+      "assets/SZ-G9-T2-CA076D8086/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          221.82,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          159.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,223 @@
+{
+  "id": "SZ-G9-T2-D7C32A47BC-Q20",
+  "paper_id": "SZ-G9-T2-D7C32A47BC",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征",
+  "stem": "如图，在平面直角坐标系\\(xOy\\)中，反比例函数\\(y=\\frac { m } { x }(x>0)\\)的图像经过点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，点\\(B\\)在\\(y\\)轴的负半轴上，\\(AB\\)交\\(x\\)轴于点\\(C\\)，\\(C\\)为线段\\(AB\\)的中点．\n〔图1〕\n（1）\\(m=\\)________，点\\(C\\)的坐标为________；\n（2）若点\\(D\\)为线段\\(AB\\)上的一个动点，过点\\(D\\)作\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)，求\\(\\vartriangle ODE\\)面积的最大值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/fc/fcbfc318576d41c47beee19c19a68f785ce8545bc7949d69d9ecd2cc38dddf93.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）m=6，\\(\\left ( { 2,0 } \\right )\\)；（2）当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)",
+  "answer": "（1）m=6，\\(\\left ( { 2,0 } \\right )\\)；（2）当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)",
+  "given_solution": "【分析】（1）将点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)代入反比例函数解析式求出m，根据坐标中点公式求出点C的横坐标即可；\n（2）由AC两点坐标求出直线AB的解析式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 2 }\\)，设D坐标为\\(D\\left ( { a,\\frac { 3 } { 4 }a-\\frac { 3 } { 2 } } \\right )(0 < a\\le 4)\\)，则\\(E\\left ( { a,\\frac { 6 } { a } } \\right )\\)，进而得到\\(S_{ \\vartriangle ODE } =-\\frac { 3 } { 8 }(a-1) ^ { 2 } +\\frac { 27 } { 8 }\\)，即可解答\n【详解】解：（1）把点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)代入反比例函数\\(y=\\frac { m } { x }(x>0)\\)，得：\\(\\frac { 3 } { 2 }=\\frac { m } { 4 }\\)，\n解得：m=6，\n∵A点横坐标为：4，B点横坐标为0，故C点横坐标为：\\(\\frac { 4+0 } { 2 }=2\\)，\n故答案为：6，\\((2,0)\\)；\n（2）设直线\\(AB\\)对应的函数表达式为\\(y=kx+b\\)．\n将\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，\\(C(2,0)\\)代入得\\(\\begin{cases} 4k+b=\\frac { 3 } { 2 } \\\\ 2k+b=0 \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 2 } \\end{cases}\\)．\n所以直线\\(AB\\)对应的函数表达式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 2 }\\)．\n因为点\\(D\\)在线段\\(AB\\)上，可设\\(D\\left ( { a,\\frac { 3 } { 4 }a-\\frac { 3 } { 2 } } \\right )(0 < a\\le 4)\\)，\n因为\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)．所以\\(E\\left ( { a,\\frac { 6 } { a } } \\right )\\)．\n所以\\(S_{ \\vartriangle ODE } =\\frac { 1 } { 2 }\\cdot a\\cdot \\left ( { \\frac { 6 } { a }-\\frac { 3 } { 4 }a+\\frac { 3 } { 2 } } \\right )=-\\frac { 3 } { 8 }a ^ { 2 } +\\frac { 3 } { 4 }a+3=-\\frac { 3 } { 8 }(a-1) ^ { 2 } +\\frac { 27 } { 8 }\\)．\n所以当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)．\n【点睛】本题考查了函数与几何综合，涉及了待定系数法求函数解析式、三角形面积、坐标中点求法、二次函数的应用等知识点，解题关键是用函数解析式表示三角形面积．",
+  "given_solution_figures": [
+    "assets/figures/fc/fcbfc318576d41c47beee19c19a68f785ce8545bc7949d69d9ecd2cc38dddf93.png"
+  ],
+  "solution": "解：（1）把点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)代入反比例函数\\(y=\\frac { m } { x }(x>0)\\)，得：\\(\\frac { 3 } { 2 }=\\frac { m } { 4 }\\)，\n解得：m=6，\n∵A点横坐标为：4，B点横坐标为0，故C点横坐标为：\\(\\frac { 4+0 } { 2 }=2\\)，\n故答案为：6，\\((2,0)\\)；\n（2）设直线\\(AB\\)对应的函数表达式为\\(y=kx+b\\)．\n将\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，\\(C(2,0)\\)代入得\\(\\begin{cases} 4k+b=\\frac { 3 } { 2 } \\\\ 2k+b=0 \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 2 } \\end{cases}\\)．\n所以直线\\(AB\\)对应的函数表达式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 2 }\\)．\n因为点\\(D\\)在线段\\(AB\\)上，可设\\(D\\left ( { a,\\frac { 3 } { 4 }a-\\frac { 3 } { 2 } } \\right )(0 < a\\le 4)\\)，\n因为\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)．所以\\(E\\left ( { a,\\frac { 6 } { a } } \\right )\\)．\n所以\\(S_{ \\vartriangle ODE } =\\frac { 1 } { 2 }\\cdot a\\cdot \\left ( { \\frac { 6 } { a }-\\frac { 3 } { 4 }a+\\frac { 3 } { 2 } } \\right )=-\\frac { 3 } { 8 }a ^ { 2 } +\\frac { 3 } { 4 }a+3=-\\frac { 3 } { 8 }(a-1) ^ { 2 } +\\frac { 27 } { 8 }\\)．\n所以当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)．",
+  "solution_steps": [
+    "解：（1）把点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)代入反比例函数\\(y=\\frac { m } { x }(x>0)\\)，得：\\(\\frac { 3 } { 2 }=\\frac { m } { 4 }\\)，",
+    "解得：m=6，",
+    "∵A点横坐标为：4，B点横坐标为0，故C点横坐标为：\\(\\frac { 4+0 } { 2 }=2\\)，",
+    "故答案为：6，\\((2,0)\\)；",
+    "（2）设直线\\(AB\\)对应的函数表达式为\\(y=kx+b\\)．",
+    "将\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，\\(C(2,0)\\)代入得\\(\\begin{cases} 4k+b=\\frac { 3 } { 2 } \\\\ 2k+b=0 \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 2 } \\end{cases}\\)．",
+    "所以直线\\(AB\\)对应的函数表达式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 2 }\\)．",
+    "因为点\\(D\\)在线段\\(AB\\)上，可设\\(D\\left ( { a,\\frac { 3 } { 4 }a-\\frac { 3 } { 2 } } \\right )(0 < a\\le 4)\\)，",
+    "因为\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)．所以\\(E\\left ( { a,\\frac { 6 } { a } } \\right )\\)．",
+    "所以\\(S_{ \\vartriangle ODE } =\\frac { 1 } { 2 }\\cdot a\\cdot \\left ( { \\frac { 6 } { a }-\\frac { 3 } { 4 }a+\\frac { 3 } { 2 } } \\right )=-\\frac { 3 } { 8 }a ^ { 2 } +\\frac { 3 } { 4 }a+3=-\\frac { 3 } { 8 }(a-1) ^ { 2 } +\\frac { 27 } { 8 }\\)．",
+    "所以当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系\\(xOy\\)中，反比例函数\\(y=\\frac { m } { x }(x>0)\\)的图像经过点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，点\\(B\\)在\\(y\\)轴的负半轴上，\\(AB\\)交\\(x\\)轴于点\\(C\\)，\\(C\\)为线段\\(AB\\)的中点．\n〔图1〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-D7C32A47BC-Q20-P01",
+      "label": "（1）",
+      "prompt": "\\(m=\\)________，点\\(C\\)的坐标为________；",
+      "stem_text": "\\(m=\\)________，点\\(C\\)的坐标为________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "m=6，\\(\\left ( { 2,0 } \\right )\\)；",
+      "answer": "m=6，\\(\\left ( { 2,0 } \\right )\\)；",
+      "given_solution": "把点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)代入反比例函数\\(y=\\frac { m } { x }(x>0)\\)，得：\\(\\frac { 3 } { 2 }=\\frac { m } { 4 }\\)，\n解得：m=6，\n∵A点横坐标为：4，B点横坐标为0，故C点横坐标为：\\(\\frac { 4+0 } { 2 }=2\\)，\n故答案为：6，\\((2,0)\\)；",
+      "solution_steps": [
+        "把点\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)代入反比例函数\\(y=\\frac { m } { x }(x>0)\\)，得：\\(\\frac { 3 } { 2 }=\\frac { m } { 4 }\\)，",
+        "解得：m=6，",
+        "∵A点横坐标为：4，B点横坐标为0，故C点横坐标为：\\(\\frac { 4+0 } { 2 }=2\\)，",
+        "故答案为：6，\\((2,0)\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          343,
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-D7C32A47BC-Q20-P02",
+      "label": "（2）",
+      "prompt": "若点\\(D\\)为线段\\(AB\\)上的一个动点，过点\\(D\\)作\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)，求\\(\\vartriangle ODE\\)面积的最大值．",
+      "stem_text": "若点\\(D\\)为线段\\(AB\\)上的一个动点，过点\\(D\\)作\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)，求\\(\\vartriangle ODE\\)面积的最大值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)",
+      "answer": "当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)",
+      "given_solution": "设直线\\(AB\\)对应的函数表达式为\\(y=kx+b\\)．\n将\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，\\(C(2,0)\\)代入得\\(\\begin{cases} 4k+b=\\frac { 3 } { 2 } \\\\ 2k+b=0 \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 2 } \\end{cases}\\)．\n所以直线\\(AB\\)对应的函数表达式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 2 }\\)．\n因为点\\(D\\)在线段\\(AB\\)上，可设\\(D\\left ( { a,\\frac { 3 } { 4 }a-\\frac { 3 } { 2 } } \\right )(0 < a\\le 4)\\)，\n因为\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)．所以\\(E\\left ( { a,\\frac { 6 } { a } } \\right )\\)．\n所以\\(S_{ \\vartriangle ODE } =\\frac { 1 } { 2 }\\cdot a\\cdot \\left ( { \\frac { 6 } { a }-\\frac { 3 } { 4 }a+\\frac { 3 } { 2 } } \\right )=-\\frac { 3 } { 8 }a ^ { 2 } +\\frac { 3 } { 4 }a+3=-\\frac { 3 } { 8 }(a-1) ^ { 2 } +\\frac { 27 } { 8 }\\)．\n所以当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)．",
+      "solution_steps": [
+        "设直线\\(AB\\)对应的函数表达式为\\(y=kx+b\\)．",
+        "将\\(A\\left ( { 4,\\frac { 3 } { 2 } } \\right )\\)，\\(C(2,0)\\)代入得\\(\\begin{cases} 4k+b=\\frac { 3 } { 2 } \\\\ 2k+b=0 \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=-\\frac { 3 } { 2 } \\end{cases}\\)．",
+        "所以直线\\(AB\\)对应的函数表达式为\\(y=\\frac { 3 } { 4 }x-\\frac { 3 } { 2 }\\)．",
+        "因为点\\(D\\)在线段\\(AB\\)上，可设\\(D\\left ( { a,\\frac { 3 } { 4 }a-\\frac { 3 } { 2 } } \\right )(0 < a\\le 4)\\)，",
+        "因为\\(DE{ \\rm{ / } }{ \\rm{ / } }y\\)轴，交反比例函数图像于点\\(E\\)．所以\\(E\\left ( { a,\\frac { 6 } { a } } \\right )\\)．",
+        "所以\\(S_{ \\vartriangle ODE } =\\frac { 1 } { 2 }\\cdot a\\cdot \\left ( { \\frac { 6 } { a }-\\frac { 3 } { 4 }a+\\frac { 3 } { 2 } } \\right )=-\\frac { 3 } { 8 }a ^ { 2 } +\\frac { 3 } { 4 }a+3=-\\frac { 3 } { 8 }(a-1) ^ { 2 } +\\frac { 27 } { 8 }\\)．",
+        "所以当a=1时，\\(\\vartriangle ODE\\)面积的最大值为\\(\\frac { 27 } { 8 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N12.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“确定反比例函数表达式”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“确定反比例函数表达式”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      63
+    ],
+    "solution_body_blocks": [
+      335,
+      354
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-D7C32A47BC/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          355.91,
+          583.64,
+          634.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q20-p18.webp",
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          343.18,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          306.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.N12.02"
+  ],
+  "exam_ids": [
+    "E.G09.01.01"
+  ],
+  "tag_note": "该问涉及“确定反比例函数表达式”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 本问题面与解答对应“确定反比例函数表达式”。",
+  "tag_source": "小问标签汇总"
+}

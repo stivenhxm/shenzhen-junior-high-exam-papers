@@ -1,0 +1,359 @@
+{
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G01.05",
+    "M.G03.02",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G01.05.01",
+    "E.G03.02.01",
+    "E.N06.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。 本问的运算或证明步骤对应“利用平行线性质求角”。 本问题面与解答对应“选择充分条件证明三角形全等”。 本问题面与解答对应“由总量与部分量关系建立一次模型”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-15FCEF5A86-Q22",
+  "number": 22,
+  "paper_id": "SZ-G9-T2-15FCEF5A86",
+  "title": "应用等腰三角形性质求边角、利用平行线性质求角",
+  "stem": "（13分）定义：我们把被三角形的一条角平分线分成的两个三角形叫做“友好三角形〔图1〕\n（1）如图1，在\\(\\Delta ABC\\)中，若\\(AB=4\\)，\\(\\angle A=\\angle B=45{}^\\circ\\)，\\(D\\)为\\(AB\\)上一点，且\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形，则\\(CD=\\)__________.\n（2）如图2，已知\\(AB=AD\\)，\\(AD//BC\\)，\\(BD\\)与\\(AC\\)相交于点\\(E\\)，求证：\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形.\n（3）如图3，在\\(\\Delta ABD\\)中，\\(M\\)为\\(BD\\)上一点，且\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，\\(C\\)为\\(AM\\)延长线上一点，且\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)的延长线于点\\(F\\)，\\(BC=CD\\).\n①求证：\\(\\Delta BCE\\cong \\Delta DCF\\).\n②若\\(AB=21\\)，\\(AD=9\\)，求\\(AE\\)的长.",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（13分）定义：我们把被三角形的一条角平分线分成的两个三角形叫做“友好三角形〔图1〕",
+      "paper_blocks": [
+        860
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "如图3，在\\(\\Delta ABD\\)中，\\(M\\)为\\(BD\\)上一点，且\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，\\(C\\)为\\(AM\\)延长线上一点，且\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)的延长线于点\\(F\\)，\\(BC=CD\\).",
+      "paper_blocks": [
+        890
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，在\\(\\Delta ABC\\)中，若\\(AB=4\\)，\\(\\angle A=\\angle B=45{}^\\circ\\)，\\(D\\)为\\(AB\\)上一点，且\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形，则\\(CD=\\)__________.",
+      "stem_text": "如图1，在\\(\\Delta ABC\\)中，若\\(AB=4\\)，\\(\\angle A=\\angle B=45{}^\\circ\\)，\\(D\\)为\\(AB\\)上一点，且\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形，则\\(CD=\\)__________.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)",
+      "given_solution": "∵\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形\n∴\\(CD\\)平分\\(\\angle ACB\\)\n\\(\\because \\angle A=\\angle B=45{}^\\circ\\)\n\\(\\therefore AC=BC\\)\n\\(\\therefore \\vartriangle ACB\\)为等腰直角三角形\n\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)",
+      "solution_steps": [
+        "∵\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形",
+        "∴\\(CD\\)平分\\(\\angle ACB\\)",
+        "\\(\\because \\angle A=\\angle B=45{}^\\circ\\)",
+        "\\(\\therefore AC=BC\\)",
+        "\\(\\therefore \\vartriangle ACB\\)为等腰直角三角形",
+        "\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          860,
+          870
+        ],
+        "solution_block_ids": [
+          890,
+          900,
+          910,
+          920,
+          930,
+          940
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          5,
+          6
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，已知\\(AB=AD\\)，\\(AD//BC\\)，\\(BD\\)与\\(AC\\)相交于点\\(E\\)，求证：\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形.",
+      "stem_text": "如图2，已知\\(AB=AD\\)，\\(AD//BC\\)，\\(BD\\)与\\(AC\\)相交于点\\(E\\)，求证：\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形",
+      "given_solution": "∵\\(AB=AD\\)，∴\\(\\angle ADB=\\angle ABD\\).\n又∵\\(AD//BC\\)，∴\\(\\angle ADB=\\angle DBC\\)，\n∴\\(\\angle ABD=\\angle DBC\\)，\n∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形",
+      "solution_steps": [
+        "∵\\(AB=AD\\)，∴\\(\\angle ADB=\\angle ABD\\).",
+        "又∵\\(AD//BC\\)，∴\\(\\angle ADB=\\angle DBC\\)，",
+        "∴\\(\\angle ABD=\\angle DBC\\)，",
+        "∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          860,
+          880
+        ],
+        "solution_block_ids": [
+          950,
+          960,
+          970,
+          980
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          6
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q22-P03",
+      "label": "（3）①",
+      "prompt": "求证：\\(\\Delta BCE\\cong \\Delta DCF\\).",
+      "stem_text": "求证：\\(\\Delta BCE\\cong \\Delta DCF\\).",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(Rt\\Delta CFD\\cong Rt\\Delta CEB\\left ( { HL } \\right )\\)",
+      "given_solution": "∵\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，\n∴\\(AC\\)平分\\(\\angle BAD\\)，\n又\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)于点\\(F\\)，\n∴\\(CE=CF\\)，\n\\(\\angle F=\\angle CEB=90{}^\\circ\\).\n在\\(Rt\\Delta CFD\\)和\\(Rt\\Delta CEB\\)中，\\(\\begin{cases} CF=CE, \\\\ CD=BC, \\end{cases}\\)\n∴\\(Rt\\Delta CFD\\cong Rt\\Delta CEB\\left ( { HL } \\right )\\)",
+      "solution_steps": [
+        "∵\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，",
+        "∴\\(AC\\)平分\\(\\angle BAD\\)，",
+        "又\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)于点\\(F\\)，",
+        "∴\\(CE=CF\\)，",
+        "\\(\\angle F=\\angle CEB=90{}^\\circ\\).",
+        "在\\(Rt\\Delta CFD\\)和\\(Rt\\Delta CEB\\)中，\\(\\begin{cases} CF=CE, \\\\ CD=BC, \\end{cases}\\)",
+        "∴\\(Rt\\Delta CFD\\cong Rt\\Delta CEB\\left ( { HL } \\right )\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          860,
+          890,
+          900
+        ],
+        "solution_block_ids": [
+          990,
+          1000,
+          1010,
+          1020,
+          1030,
+          1040,
+          1050
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          6
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q22-P04",
+      "label": "（3）②",
+      "prompt": "若\\(AB=21\\)，\\(AD=9\\)，求\\(AE\\)的长.",
+      "stem_text": "若\\(AB=21\\)，\\(AD=9\\)，求\\(AE\\)的长.",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)",
+      "given_solution": "∵在\\(Rt\\Delta CFA\\)和\\(Rt\\Delta CEA\\)中，\\(\\begin{cases} AC=AC, \\\\ CF=CE, \\end{cases}\\)\n∴\\(Rt\\Delta CFA\\cong Rt\\Delta CEA\\left ( { HL } \\right )\\)，\n∴\\(AF=AE\\)，设\\(DF=x\\)，则\\(9+x=21-x\\)，\n解得\\(x=6\\)，\n\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)",
+      "solution_steps": [
+        "∵在\\(Rt\\Delta CFA\\)和\\(Rt\\Delta CEA\\)中，\\(\\begin{cases} AC=AC, \\\\ CF=CE, \\end{cases}\\)",
+        "∴\\(Rt\\Delta CFA\\cong Rt\\Delta CEA\\left ( { HL } \\right )\\)，",
+        "∴\\(AF=AE\\)，设\\(DF=x\\)，则\\(9+x=21-x\\)，",
+        "解得\\(x=6\\)，",
+        "\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          860,
+          890,
+          910
+        ],
+        "solution_block_ids": [
+          1060,
+          1070,
+          1080,
+          1090,
+          1100
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          6
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由总量与部分量关系建立一次模型”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/88/88abbe3d7a221fa0f56db863091c10dcddc2f0e634c753142d8b43d5e1dee1ae.png"
+  ],
+  "tables": [],
+  "answer": "（1）\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)\n（2）∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形\n（3）\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)",
+  "given_answer": "",
+  "given_solution": "解：（1）∵\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形\n∴\\(CD\\)平分\\(\\angle ACB\\)\n\\(\\because \\angle A=\\angle B=45{}^\\circ\\)\n\\(\\therefore AC=BC\\)\n\\(\\therefore \\vartriangle ACB\\)为等腰直角三角形\n\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)\n（2）∵\\(AB=AD\\)，∴\\(\\angle ADB=\\angle ABD\\).\n又∵\\(AD//BC\\)，∴\\(\\angle ADB=\\angle DBC\\)，\n∴\\(\\angle ABD=\\angle DBC\\)，\n∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形\n（3）①∵\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，\n∴\\(AC\\)平分\\(\\angle BAD\\)，\n又\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)于点\\(F\\)，\n∴\\(CE=CF\\)，\n\\(\\angle F=\\angle CEB=90{}^\\circ\\).\n在\\(Rt\\Delta CFD\\)和\\(Rt\\Delta CEB\\)中，\\(\\begin{cases} CF=CE, \\\\ CD=BC, \\end{cases}\\)\n∴\\(Rt\\Delta CFD\\cong Rt\\Delta CEB\\left ( { HL } \\right )\\)\n②∵在\\(Rt\\Delta CFA\\)和\\(Rt\\Delta CEA\\)中，\\(\\begin{cases} AC=AC, \\\\ CF=CE, \\end{cases}\\)\n∴\\(Rt\\Delta CFA\\cong Rt\\Delta CEA\\left ( { HL } \\right )\\)，\n∴\\(AF=AE\\)，设\\(DF=x\\)，则\\(9+x=21-x\\)，\n解得\\(x=6\\)，\n\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "解：（1）∵\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形",
+    "∴\\(CD\\)平分\\(\\angle ACB\\)",
+    "\\(\\because \\angle A=\\angle B=45{}^\\circ\\)",
+    "\\(\\therefore AC=BC\\)",
+    "\\(\\therefore \\vartriangle ACB\\)为等腰直角三角形",
+    "\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)",
+    "（2）∵\\(AB=AD\\)，∴\\(\\angle ADB=\\angle ABD\\).",
+    "又∵\\(AD//BC\\)，∴\\(\\angle ADB=\\angle DBC\\)，",
+    "∴\\(\\angle ABD=\\angle DBC\\)，",
+    "∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形",
+    "（3）①∵\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，",
+    "∴\\(AC\\)平分\\(\\angle BAD\\)，",
+    "又\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)于点\\(F\\)，",
+    "∴\\(CE=CF\\)，",
+    "\\(\\angle F=\\angle CEB=90{}^\\circ\\).",
+    "在\\(Rt\\Delta CFD\\)和\\(Rt\\Delta CEB\\)中，\\(\\begin{cases} CF=CE, \\\\ CD=BC, \\end{cases}\\)",
+    "∴\\(Rt\\Delta CFD\\cong Rt\\Delta CEB\\left ( { HL } \\right )\\)",
+    "②∵在\\(Rt\\Delta CFA\\)和\\(Rt\\Delta CEA\\)中，\\(\\begin{cases} AC=AC, \\\\ CF=CE, \\end{cases}\\)",
+    "∴\\(Rt\\Delta CFA\\cong Rt\\Delta CEA\\left ( { HL } \\right )\\)，",
+    "∴\\(AF=AE\\)，设\\(DF=x\\)，则\\(9+x=21-x\\)，",
+    "解得\\(x=6\\)，",
+    "\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "解：（1）∵\\(\\Delta ACD\\)与\\(\\Delta BCD\\)互为友好三角形\n∴\\(CD\\)平分\\(\\angle ACB\\)\n\\(\\because \\angle A=\\angle B=45{}^\\circ\\)\n\\(\\therefore AC=BC\\)\n\\(\\therefore \\vartriangle ACB\\)为等腰直角三角形\n\\(\\therefore CD=AD=DB=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)\n（2）∵\\(AB=AD\\)，∴\\(\\angle ADB=\\angle ABD\\).\n又∵\\(AD//BC\\)，∴\\(\\angle ADB=\\angle DBC\\)，\n∴\\(\\angle ABD=\\angle DBC\\)，\n∴\\(\\Delta ABE\\)与\\(\\Delta BCE\\)互为友好三角形\n（3）①∵\\(\\Delta ABM\\)与\\(\\Delta ADM\\)互为友好三角形，\n∴\\(AC\\)平分\\(\\angle BAD\\)，\n又\\(CE\\bot AB\\)于点\\(E\\)，\\(CF\\bot AD\\)于点\\(F\\)，\n∴\\(CE=CF\\)，\n\\(\\angle F=\\angle CEB=90{}^\\circ\\).\n在\\(Rt\\Delta CFD\\)和\\(Rt\\Delta CEB\\)中，\\(\\begin{cases} CF=CE, \\\\ CD=BC, \\end{cases}\\)\n∴\\(Rt\\Delta CFD\\cong Rt\\Delta CEB\\left ( { HL } \\right )\\)\n②∵在\\(Rt\\Delta CFA\\)和\\(Rt\\Delta CEA\\)中，\\(\\begin{cases} AC=AC, \\\\ CF=CE, \\end{cases}\\)\n∴\\(Rt\\Delta CFA\\cong Rt\\Delta CEA\\left ( { HL } \\right )\\)，\n∴\\(AF=AE\\)，设\\(DF=x\\)，则\\(9+x=21-x\\)，\n解得\\(x=6\\)，\n\\(\\therefore AE=AB-EB=AB-DF=21-6=15\\)",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/q22-p05.webp",
+      "assets/SZ-G9-T2-15FCEF5A86/single/q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          726.31,
+          582.2,
+          740.66
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          79.65,
+          582.2,
+          420.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/s22-p05.webp",
+      "assets/SZ-G9-T2-15FCEF5A86/single/s22-p06.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          700.88,
+          582.2,
+          760.88
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.2,
+          581.39
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

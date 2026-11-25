@@ -1,0 +1,417 @@
+{
+  "id": "SZ-G9-T2-B564ED06D9-Q22",
+  "paper_id": "SZ-G9-T2-B564ED06D9",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长、由勾股关系求直角三角形边长",
+  "stem": "（1）问题呈现：如图1，\\(\\vartriangle ABC\\) 和\\(\\vartriangle ADE\\)都是直角三角形，\\(\\angle ABC=\\angle ADE=90{}^\\circ\\)且\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，连接\\(BD，CE\\)，求\\(\\frac { BD } { CE }\\)的值；\n（2）类比探究：如图2，\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，将\\(\\vartriangle ABC\\)绕点A逆时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle ADE\\)，连接\\(BD，EC\\)，延长\\(EC\\)交\\(BD\\)于点F，设\\(AB=6\\)，求\\(EF\\)的长；\n（3）拓展提升：如图3，在等边\\(\\vartriangle ABC\\)中，\\(AB=6，AD\\)是\\(BC\\)边上的中线，点M从点A移动到点D，连接\\(MC\\)，以\\(MC\\)为边长，在\\(MC\\)的上方作等边\\(\\vartriangle MNC\\)，求点N经过的路径长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/b8/b8b24ed97ca1458bd5c5e9ca67b60ae89214a843af0917ab719fa31a5706539a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 3 } { 5 }\\)；（2）\\(\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)，（3）\\(3\\sqrt[] { 3 }\\)．",
+  "answer": "（1）\\(\\frac { 3 } { 5 }\\)；（2）\\(\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)，（3）\\(3\\sqrt[] { 3 }\\)．",
+  "given_solution": "【分析】（1）先证明\\(\\vartriangle ABC\\backsim \\vartriangle ADE\\)，再根据勾股定理证得\\(\\frac { AD } { AE }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\)，进一步证明\\(\\vartriangle ADB\\backsim \\vartriangle AEC\\)，最后根据相似比即可求得答案；\n（2）过D作\\(DH\\parallel BC\\)，交\\(EF\\)的延长线于H，作\\(DN\\bot EF\\)于N，根据旋转的性质和等边三角形的性质证明\\(\\vartriangle BCF≌\\vartriangle DHF\\)，求出\\(BF=DF=3\\)，通过勾股定理求出\\(FN\\)，即可得到答案；\n（3）过点N作\\(NH\\bot AC\\)于点H，先证明\\(\\vartriangle MCD≌\\vartriangle NCH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，由全等三角形的性质可得\\(MD=NH,CH=CD\\)，即点N总在直线\\(NH\\)上，\\(NH\\)垂直平分\\(AC\\)，所以点N经过的路径为一条线段，起点为点M、A重合时点N的位置，终点为\\(AC\\)的中点H，然后求解即可获得答案．\n【详解】解：（1）在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，\n∴\\(\\frac { AB } { AD }=\\frac { BC } { DE }\\)，\n∵\\(\\angle ADE=\\angle ABC\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle ADE\\)，\n∴\\(\\angle DAE=\\angle BAC\\),\n∴\\(\\angle DAB=\\angle EAC\\)，\n设．\\(AB=3x\\)，则\\(BC=4x\\)，\n∵\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }\\)，\n∴\\(AC=5x\\)，\n设\\(AD=3y\\)，同理可得\\(DE=4y\\)，\\(AE=5y\\)，\n∴\\(\\frac { AD } { AE }=\\frac { 3y } { 5y }=\\frac { 3 } { 5 }\\)，\\(\\frac { AB } { AC }=\\frac { 3x } { 5x }=\\frac { 3 } { 5 }\\)，\n∴\\(\\frac { AD } { AE }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\)\n∴\\(\\vartriangle ADB\\backsim \\vartriangle AEC\\)，\n∴\\(\\frac { BD } { EC }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\),\n∴\\(\\frac { BD } { EC }=\\frac { 3 } { 5 }\\)；\n（2）过D作\\(DH\\parallel BC\\)，交\\(EF\\)的延长线于H，作\\(DN\\bot EF\\)于N，如图：\n〔图2〕\n∴\\(\\angle BCF=\\angle H\\)\n∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=6\\)\n\\(AC=BC=3\\sqrt[] { 2 }\\)\n由旋转的性质可知：\\(\\angle BAD=\\angle CAE=60{}^\\circ ，AB=AD\\)，\\(AC=AE\\)，\\(BC=DE\\)\n∴\\(\\vartriangle ABD\\)和\\(\\vartriangle ACE\\)是等边三角形，\n∴\\(\\angle ACE=\\angle AEC=60{}^\\circ\\)， \\(AB=DB=6\\)\n∵ \\(\\angle AED=\\angle ACB=90{}^\\circ\\)\n∴\\(\\angle BCF=180{}^\\circ -\\angle ACB-\\angle ACE=30{}^\\circ\\)，\n∴\\(\\angle DEF=90{}^\\circ -\\angle AEC=30{}^\\circ\\)，\n∴\\(\\angle H=\\angle DEF=30{}^\\circ\\)，\n∴\\(DH=DE=BC=3\\sqrt[] { 2 }\\)，\n∴\\(DN=\\frac { 1 } { 2 }HD=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\\(EN=\\frac { \\sqrt[] { 3 } } { 2 }HD=\\frac { 3\\sqrt[] { 6 } } { 2 }\\)，\n∵\\(\\begin{cases} \\angle BFC=\\angle DFH \\\\ \\angle BCF=\\angle H \\\\ BC=HD \\end{cases}\\)，\n∴\\(\\vartriangle BCF≌\\vartriangle DHF\\)，\n∴\\(BF=DF=\\frac { 1 } { 2 }BD=3\\)，\n∴\\(FN=\\sqrt[] { FD ^ { 2 } -ND ^ { 2 } }=\\frac { 3\\sqrt[] { 2 } } { 2 }\\),\n∴\\(EF=EN+FN=\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)；\n（3）过点N作\\(NH\\bot AC\\)于点H，如下图，\n〔图3〕\n在等边\\(\\vartriangle MNC\\)中，\\(MN=NC,\\angle MCN=60{}^\\circ\\)，\n在等边\\(\\vartriangle ABC\\)中，\\(\\angle BCA=60{}^\\circ ,DC=\\frac { 1 } { 2 }BC=3\\)，\n∴\\(\\angle MCN=\\angle BCA=60{}^\\circ\\)，\n∴\\(\\angle MCN-\\angle MCH=\\angle BCA-\\angle MCH\\)，即\\(\\angle MCD=\\angle NCH\\),\n∵\\(\\begin{cases} \\angle MDC=\\angle NHC=90{}^\\circ \\\\ \\angle MCD=\\angle NCH \\\\ MC=NC \\end{cases}\\)，\n∴\\(\\vartriangle MCD≌\\vartriangle NCH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(MD=NH,CH=CD=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }AC\\)，\n∴点N总在直线\\(NH\\)上，即\\(NH\\)垂直平分\\(AC\\)，\n点N总过的路径为一条线段，起点为M、A重合时点N的位置，终点为\\(AC\\)的中点H，\n如图所示，\n〔图4〕\n在等边\\(\\vartriangle MNC\\)中，点M、A重合时，\\(MC=AC=6\\)，\n此时等边三角形“三线合一”的性质可得\\(NH=\\sqrt[] { AN ^ { 2 } -AH ^ { 2 } }=3\\sqrt[] { 3 }\\),\n∴点N经过的路径长为：\\(3\\sqrt[] { 3 }\\)．\n【点睛】本题主要考查了相似三角形的判定与性质、勾股定理、旋转的性质、等边三角形的判定与性质、等腰三角的判定与性质、含30度角的直角三角形的性质等知识，熟练掌握相关知识并灵活运用是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/b8/b8b24ed97ca1458bd5c5e9ca67b60ae89214a843af0917ab719fa31a5706539a.png",
+    "assets/figures/d2/d2472ea62ab8ff99c57d1c4d85132bda7c840a31e1ab6fb2377d77ee5a364822.png",
+    "assets/figures/3e/3e74f53f64219f096525fc54961b9fc0eb52fb7e8e083334501a9f47f30dd7f5.png",
+    "assets/figures/de/de3e3ebd230a8318b536f1410786d2ee4a47f8dc59c1b060623308b309ba8cf5.png"
+  ],
+  "solution": "解：（1）在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，\n∴\\(\\frac { AB } { AD }=\\frac { BC } { DE }\\)，\n∵\\(\\angle ADE=\\angle ABC\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle ADE\\)，\n∴\\(\\angle DAE=\\angle BAC\\),\n∴\\(\\angle DAB=\\angle EAC\\)，\n设．\\(AB=3x\\)，则\\(BC=4x\\)，\n∵\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }\\)，\n∴\\(AC=5x\\)，\n设\\(AD=3y\\)，同理可得\\(DE=4y\\)，\\(AE=5y\\)，\n∴\\(\\frac { AD } { AE }=\\frac { 3y } { 5y }=\\frac { 3 } { 5 }\\)，\\(\\frac { AB } { AC }=\\frac { 3x } { 5x }=\\frac { 3 } { 5 }\\)，\n∴\\(\\frac { AD } { AE }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\)\n∴\\(\\vartriangle ADB\\backsim \\vartriangle AEC\\)，\n∴\\(\\frac { BD } { EC }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\),\n∴\\(\\frac { BD } { EC }=\\frac { 3 } { 5 }\\)；\n（2）过D作\\(DH\\parallel BC\\)，交\\(EF\\)的延长线于H，作\\(DN\\bot EF\\)于N，如图：\n〔图2〕\n∴\\(\\angle BCF=\\angle H\\)\n∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=6\\)\n\\(AC=BC=3\\sqrt[] { 2 }\\)\n由旋转的性质可知：\\(\\angle BAD=\\angle CAE=60{}^\\circ ，AB=AD\\)，\\(AC=AE\\)，\\(BC=DE\\)\n∴\\(\\vartriangle ABD\\)和\\(\\vartriangle ACE\\)是等边三角形，\n∴\\(\\angle ACE=\\angle AEC=60{}^\\circ\\)， \\(AB=DB=6\\)\n∵ \\(\\angle AED=\\angle ACB=90{}^\\circ\\)\n∴\\(\\angle BCF=180{}^\\circ -\\angle ACB-\\angle ACE=30{}^\\circ\\)，\n∴\\(\\angle DEF=90{}^\\circ -\\angle AEC=30{}^\\circ\\)，\n∴\\(\\angle H=\\angle DEF=30{}^\\circ\\)，\n∴\\(DH=DE=BC=3\\sqrt[] { 2 }\\)，\n∴\\(DN=\\frac { 1 } { 2 }HD=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\\(EN=\\frac { \\sqrt[] { 3 } } { 2 }HD=\\frac { 3\\sqrt[] { 6 } } { 2 }\\)，\n∵\\(\\begin{cases} \\angle BFC=\\angle DFH \\\\ \\angle BCF=\\angle H \\\\ BC=HD \\end{cases}\\)，\n∴\\(\\vartriangle BCF≌\\vartriangle DHF\\)，\n∴\\(BF=DF=\\frac { 1 } { 2 }BD=3\\)，\n∴\\(FN=\\sqrt[] { FD ^ { 2 } -ND ^ { 2 } }=\\frac { 3\\sqrt[] { 2 } } { 2 }\\),\n∴\\(EF=EN+FN=\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)；\n（3）过点N作\\(NH\\bot AC\\)于点H，如下图，\n〔图3〕\n在等边\\(\\vartriangle MNC\\)中，\\(MN=NC,\\angle MCN=60{}^\\circ\\)，\n在等边\\(\\vartriangle ABC\\)中，\\(\\angle BCA=60{}^\\circ ,DC=\\frac { 1 } { 2 }BC=3\\)，\n∴\\(\\angle MCN=\\angle BCA=60{}^\\circ\\)，\n∴\\(\\angle MCN-\\angle MCH=\\angle BCA-\\angle MCH\\)，即\\(\\angle MCD=\\angle NCH\\),\n∵\\(\\begin{cases} \\angle MDC=\\angle NHC=90{}^\\circ \\\\ \\angle MCD=\\angle NCH \\\\ MC=NC \\end{cases}\\)，\n∴\\(\\vartriangle MCD≌\\vartriangle NCH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(MD=NH,CH=CD=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }AC\\)，\n∴点N总在直线\\(NH\\)上，即\\(NH\\)垂直平分\\(AC\\)，\n点N总过的路径为一条线段，起点为M、A重合时点N的位置，终点为\\(AC\\)的中点H，\n如图所示，\n〔图4〕\n在等边\\(\\vartriangle MNC\\)中，点M、A重合时，\\(MC=AC=6\\)，\n此时等边三角形“三线合一”的性质可得\\(NH=\\sqrt[] { AN ^ { 2 } -AH ^ { 2 } }=3\\sqrt[] { 3 }\\),\n∴点N经过的路径长为：\\(3\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，",
+    "∴\\(\\frac { AB } { AD }=\\frac { BC } { DE }\\)，",
+    "∵\\(\\angle ADE=\\angle ABC\\)，",
+    "∴\\(\\vartriangle ABC\\backsim \\vartriangle ADE\\)，",
+    "∴\\(\\angle DAE=\\angle BAC\\),",
+    "∴\\(\\angle DAB=\\angle EAC\\)，",
+    "设．\\(AB=3x\\)，则\\(BC=4x\\)，",
+    "∵\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }\\)，",
+    "∴\\(AC=5x\\)，",
+    "设\\(AD=3y\\)，同理可得\\(DE=4y\\)，\\(AE=5y\\)，",
+    "∴\\(\\frac { AD } { AE }=\\frac { 3y } { 5y }=\\frac { 3 } { 5 }\\)，\\(\\frac { AB } { AC }=\\frac { 3x } { 5x }=\\frac { 3 } { 5 }\\)，",
+    "∴\\(\\frac { AD } { AE }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\)",
+    "∴\\(\\vartriangle ADB\\backsim \\vartriangle AEC\\)，",
+    "∴\\(\\frac { BD } { EC }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\),",
+    "∴\\(\\frac { BD } { EC }=\\frac { 3 } { 5 }\\)；",
+    "（2）过D作\\(DH\\parallel BC\\)，交\\(EF\\)的延长线于H，作\\(DN\\bot EF\\)于N，如图：",
+    "〔图2〕",
+    "∴\\(\\angle BCF=\\angle H\\)",
+    "∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=6\\)",
+    "\\(AC=BC=3\\sqrt[] { 2 }\\)",
+    "由旋转的性质可知：\\(\\angle BAD=\\angle CAE=60{}^\\circ ，AB=AD\\)，\\(AC=AE\\)，\\(BC=DE\\)",
+    "∴\\(\\vartriangle ABD\\)和\\(\\vartriangle ACE\\)是等边三角形，",
+    "∴\\(\\angle ACE=\\angle AEC=60{}^\\circ\\)， \\(AB=DB=6\\)",
+    "∵ \\(\\angle AED=\\angle ACB=90{}^\\circ\\)",
+    "∴\\(\\angle BCF=180{}^\\circ -\\angle ACB-\\angle ACE=30{}^\\circ\\)，",
+    "∴\\(\\angle DEF=90{}^\\circ -\\angle AEC=30{}^\\circ\\)，",
+    "∴\\(\\angle H=\\angle DEF=30{}^\\circ\\)，",
+    "∴\\(DH=DE=BC=3\\sqrt[] { 2 }\\)，",
+    "∴\\(DN=\\frac { 1 } { 2 }HD=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\\(EN=\\frac { \\sqrt[] { 3 } } { 2 }HD=\\frac { 3\\sqrt[] { 6 } } { 2 }\\)，",
+    "∵\\(\\begin{cases} \\angle BFC=\\angle DFH \\\\ \\angle BCF=\\angle H \\\\ BC=HD \\end{cases}\\)，",
+    "∴\\(\\vartriangle BCF≌\\vartriangle DHF\\)，",
+    "∴\\(BF=DF=\\frac { 1 } { 2 }BD=3\\)，",
+    "∴\\(FN=\\sqrt[] { FD ^ { 2 } -ND ^ { 2 } }=\\frac { 3\\sqrt[] { 2 } } { 2 }\\),",
+    "∴\\(EF=EN+FN=\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)；",
+    "（3）过点N作\\(NH\\bot AC\\)于点H，如下图，",
+    "〔图3〕",
+    "在等边\\(\\vartriangle MNC\\)中，\\(MN=NC,\\angle MCN=60{}^\\circ\\)，",
+    "在等边\\(\\vartriangle ABC\\)中，\\(\\angle BCA=60{}^\\circ ,DC=\\frac { 1 } { 2 }BC=3\\)，",
+    "∴\\(\\angle MCN=\\angle BCA=60{}^\\circ\\)，",
+    "∴\\(\\angle MCN-\\angle MCH=\\angle BCA-\\angle MCH\\)，即\\(\\angle MCD=\\angle NCH\\),",
+    "∵\\(\\begin{cases} \\angle MDC=\\angle NHC=90{}^\\circ \\\\ \\angle MCD=\\angle NCH \\\\ MC=NC \\end{cases}\\)，",
+    "∴\\(\\vartriangle MCD≌\\vartriangle NCH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(MD=NH,CH=CD=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }AC\\)，",
+    "∴点N总在直线\\(NH\\)上，即\\(NH\\)垂直平分\\(AC\\)，",
+    "点N总过的路径为一条线段，起点为M、A重合时点N的位置，终点为\\(AC\\)的中点H，",
+    "如图所示，",
+    "〔图4〕",
+    "在等边\\(\\vartriangle MNC\\)中，点M、A重合时，\\(MC=AC=6\\)，",
+    "此时等边三角形“三线合一”的性质可得\\(NH=\\sqrt[] { AN ^ { 2 } -AH ^ { 2 } }=3\\sqrt[] { 3 }\\),",
+    "∴点N经过的路径长为：\\(3\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "fig-66",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-B564ED06D9-Q22-P01",
+      "label": "（1）",
+      "prompt": "问题呈现：如图1，\\(\\vartriangle ABC\\) 和\\(\\vartriangle ADE\\)都是直角三角形，\\(\\angle ABC=\\angle ADE=90{}^\\circ\\)且\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，连接\\(BD，CE\\)，求\\(\\frac { BD } { CE }\\)的值；",
+      "stem_text": "问题呈现：如图1，\\(\\vartriangle ABC\\) 和\\(\\vartriangle ADE\\)都是直角三角形，\\(\\angle ABC=\\angle ADE=90{}^\\circ\\)且\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，连接\\(BD，CE\\)，求\\(\\frac { BD } { CE }\\)的值；",
+      "material_ids": [
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { 5 }\\)；",
+      "answer": "\\(\\frac { 3 } { 5 }\\)；",
+      "given_solution": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，\n∴\\(\\frac { AB } { AD }=\\frac { BC } { DE }\\)，\n∵\\(\\angle ADE=\\angle ABC\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle ADE\\)，\n∴\\(\\angle DAE=\\angle BAC\\),\n∴\\(\\angle DAB=\\angle EAC\\)，\n设．\\(AB=3x\\)，则\\(BC=4x\\)，\n∵\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }\\)，\n∴\\(AC=5x\\)，\n设\\(AD=3y\\)，同理可得\\(DE=4y\\)，\\(AE=5y\\)，\n∴\\(\\frac { AD } { AE }=\\frac { 3y } { 5y }=\\frac { 3 } { 5 }\\)，\\(\\frac { AB } { AC }=\\frac { 3x } { 5x }=\\frac { 3 } { 5 }\\)，\n∴\\(\\frac { AD } { AE }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\)\n∴\\(\\vartriangle ADB\\backsim \\vartriangle AEC\\)，\n∴\\(\\frac { BD } { EC }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\),\n∴\\(\\frac { BD } { EC }=\\frac { 3 } { 5 }\\)；",
+      "solution_steps": [
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)中，\\(\\frac { AB } { BC }=\\frac { AD } { DE }=\\frac { 3 } { 4 }\\)，",
+        "∴\\(\\frac { AB } { AD }=\\frac { BC } { DE }\\)，",
+        "∵\\(\\angle ADE=\\angle ABC\\)，",
+        "∴\\(\\vartriangle ABC\\backsim \\vartriangle ADE\\)，",
+        "∴\\(\\angle DAE=\\angle BAC\\),",
+        "∴\\(\\angle DAB=\\angle EAC\\)，",
+        "设．\\(AB=3x\\)，则\\(BC=4x\\)，",
+        "∵\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }\\)，",
+        "∴\\(AC=5x\\)，",
+        "设\\(AD=3y\\)，同理可得\\(DE=4y\\)，\\(AE=5y\\)，",
+        "∴\\(\\frac { AD } { AE }=\\frac { 3y } { 5y }=\\frac { 3 } { 5 }\\)，\\(\\frac { AB } { AC }=\\frac { 3x } { 5x }=\\frac { 3 } { 5 }\\)，",
+        "∴\\(\\frac { AD } { AE }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\)",
+        "∴\\(\\vartriangle ADB\\backsim \\vartriangle AEC\\)，",
+        "∴\\(\\frac { BD } { EC }=\\frac { AB } { AC }=\\frac { 3 } { 5 }\\),",
+        "∴\\(\\frac { BD } { EC }=\\frac { 3 } { 5 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          63,
+          66
+        ],
+        "solution_block_ids": [
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-B564ED06D9-Q22-P02",
+      "label": "（2）",
+      "prompt": "类比探究：如图2，\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，将\\(\\vartriangle ABC\\)绕点A逆时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle ADE\\)，连接\\(BD，EC\\)，延长\\(EC\\)交\\(BD\\)于点F，设\\(AB=6\\)，求\\(EF\\)的长；",
+      "stem_text": "类比探究：如图2，\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，将\\(\\vartriangle ABC\\)绕点A逆时针旋转\\(60{}^\\circ\\)得到\\(\\vartriangle ADE\\)，连接\\(BD，EC\\)，延长\\(EC\\)交\\(BD\\)于点F，设\\(AB=6\\)，求\\(EF\\)的长；",
+      "material_ids": [
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)，",
+      "answer": "\\(\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)，",
+      "given_solution": "过D作\\(DH\\parallel BC\\)，交\\(EF\\)的延长线于H，作\\(DN\\bot EF\\)于N，如图：\n〔图2〕\n∴\\(\\angle BCF=\\angle H\\)\n∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=6\\)\n\\(AC=BC=3\\sqrt[] { 2 }\\)\n由旋转的性质可知：\\(\\angle BAD=\\angle CAE=60{}^\\circ ，AB=AD\\)，\\(AC=AE\\)，\\(BC=DE\\)\n∴\\(\\vartriangle ABD\\)和\\(\\vartriangle ACE\\)是等边三角形，\n∴\\(\\angle ACE=\\angle AEC=60{}^\\circ\\)， \\(AB=DB=6\\)\n∵ \\(\\angle AED=\\angle ACB=90{}^\\circ\\)\n∴\\(\\angle BCF=180{}^\\circ -\\angle ACB-\\angle ACE=30{}^\\circ\\)，\n∴\\(\\angle DEF=90{}^\\circ -\\angle AEC=30{}^\\circ\\)，\n∴\\(\\angle H=\\angle DEF=30{}^\\circ\\)，\n∴\\(DH=DE=BC=3\\sqrt[] { 2 }\\)，\n∴\\(DN=\\frac { 1 } { 2 }HD=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\\(EN=\\frac { \\sqrt[] { 3 } } { 2 }HD=\\frac { 3\\sqrt[] { 6 } } { 2 }\\)，\n∵\\(\\begin{cases} \\angle BFC=\\angle DFH \\\\ \\angle BCF=\\angle H \\\\ BC=HD \\end{cases}\\)，\n∴\\(\\vartriangle BCF≌\\vartriangle DHF\\)，\n∴\\(BF=DF=\\frac { 1 } { 2 }BD=3\\)，\n∴\\(FN=\\sqrt[] { FD ^ { 2 } -ND ^ { 2 } }=\\frac { 3\\sqrt[] { 2 } } { 2 }\\),\n∴\\(EF=EN+FN=\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)；",
+      "solution_steps": [
+        "过D作\\(DH\\parallel BC\\)，交\\(EF\\)的延长线于H，作\\(DN\\bot EF\\)于N，如图：",
+        "〔图2〕",
+        "∴\\(\\angle BCF=\\angle H\\)",
+        "∵\\(\\vartriangle ABC\\)是等腰直角三角形，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=6\\)",
+        "\\(AC=BC=3\\sqrt[] { 2 }\\)",
+        "由旋转的性质可知：\\(\\angle BAD=\\angle CAE=60{}^\\circ ，AB=AD\\)，\\(AC=AE\\)，\\(BC=DE\\)",
+        "∴\\(\\vartriangle ABD\\)和\\(\\vartriangle ACE\\)是等边三角形，",
+        "∴\\(\\angle ACE=\\angle AEC=60{}^\\circ\\)， \\(AB=DB=6\\)",
+        "∵ \\(\\angle AED=\\angle ACB=90{}^\\circ\\)",
+        "∴\\(\\angle BCF=180{}^\\circ -\\angle ACB-\\angle ACE=30{}^\\circ\\)，",
+        "∴\\(\\angle DEF=90{}^\\circ -\\angle AEC=30{}^\\circ\\)，",
+        "∴\\(\\angle H=\\angle DEF=30{}^\\circ\\)，",
+        "∴\\(DH=DE=BC=3\\sqrt[] { 2 }\\)，",
+        "∴\\(DN=\\frac { 1 } { 2 }HD=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)，\\(EN=\\frac { \\sqrt[] { 3 } } { 2 }HD=\\frac { 3\\sqrt[] { 6 } } { 2 }\\)，",
+        "∵\\(\\begin{cases} \\angle BFC=\\angle DFH \\\\ \\angle BCF=\\angle H \\\\ BC=HD \\end{cases}\\)，",
+        "∴\\(\\vartriangle BCF≌\\vartriangle DHF\\)，",
+        "∴\\(BF=DF=\\frac { 1 } { 2 }BD=3\\)，",
+        "∴\\(FN=\\sqrt[] { FD ^ { 2 } -ND ^ { 2 } }=\\frac { 3\\sqrt[] { 2 } } { 2 }\\),",
+        "∴\\(EF=EN+FN=\\frac { 3\\sqrt[] { 6 }+3\\sqrt[] { 2 } } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-B564ED06D9-Q22-P03",
+      "label": "（3）",
+      "prompt": "拓展提升：如图3，在等边\\(\\vartriangle ABC\\)中，\\(AB=6，AD\\)是\\(BC\\)边上的中线，点M从点A移动到点D，连接\\(MC\\)，以\\(MC\\)为边长，在\\(MC\\)的上方作等边\\(\\vartriangle MNC\\)，求点N经过的路径长．",
+      "stem_text": "拓展提升：如图3，在等边\\(\\vartriangle ABC\\)中，\\(AB=6，AD\\)是\\(BC\\)边上的中线，点M从点A移动到点D，连接\\(MC\\)，以\\(MC\\)为边长，在\\(MC\\)的上方作等边\\(\\vartriangle MNC\\)，求点N经过的路径长．",
+      "material_ids": [
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "\\(3\\sqrt[] { 3 }\\)．",
+      "answer": "\\(3\\sqrt[] { 3 }\\)．",
+      "given_solution": "过点N作\\(NH\\bot AC\\)于点H，如下图，\n〔图3〕\n在等边\\(\\vartriangle MNC\\)中，\\(MN=NC,\\angle MCN=60{}^\\circ\\)，\n在等边\\(\\vartriangle ABC\\)中，\\(\\angle BCA=60{}^\\circ ,DC=\\frac { 1 } { 2 }BC=3\\)，\n∴\\(\\angle MCN=\\angle BCA=60{}^\\circ\\)，\n∴\\(\\angle MCN-\\angle MCH=\\angle BCA-\\angle MCH\\)，即\\(\\angle MCD=\\angle NCH\\),\n∵\\(\\begin{cases} \\angle MDC=\\angle NHC=90{}^\\circ \\\\ \\angle MCD=\\angle NCH \\\\ MC=NC \\end{cases}\\)，\n∴\\(\\vartriangle MCD≌\\vartriangle NCH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(MD=NH,CH=CD=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }AC\\)，\n∴点N总在直线\\(NH\\)上，即\\(NH\\)垂直平分\\(AC\\)，\n点N总过的路径为一条线段，起点为M、A重合时点N的位置，终点为\\(AC\\)的中点H，\n如图所示，\n〔图4〕\n在等边\\(\\vartriangle MNC\\)中，点M、A重合时，\\(MC=AC=6\\)，\n此时等边三角形“三线合一”的性质可得\\(NH=\\sqrt[] { AN ^ { 2 } -AH ^ { 2 } }=3\\sqrt[] { 3 }\\),\n∴点N经过的路径长为：\\(3\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "过点N作\\(NH\\bot AC\\)于点H，如下图，",
+        "〔图3〕",
+        "在等边\\(\\vartriangle MNC\\)中，\\(MN=NC,\\angle MCN=60{}^\\circ\\)，",
+        "在等边\\(\\vartriangle ABC\\)中，\\(\\angle BCA=60{}^\\circ ,DC=\\frac { 1 } { 2 }BC=3\\)，",
+        "∴\\(\\angle MCN=\\angle BCA=60{}^\\circ\\)，",
+        "∴\\(\\angle MCN-\\angle MCH=\\angle BCA-\\angle MCH\\)，即\\(\\angle MCD=\\angle NCH\\),",
+        "∵\\(\\begin{cases} \\angle MDC=\\angle NHC=90{}^\\circ \\\\ \\angle MCD=\\angle NCH \\\\ MC=NC \\end{cases}\\)，",
+        "∴\\(\\vartriangle MCD≌\\vartriangle NCH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(MD=NH,CH=CD=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }AC\\)，",
+        "∴点N总在直线\\(NH\\)上，即\\(NH\\)垂直平分\\(AC\\)，",
+        "点N总过的路径为一条线段，起点为M、A重合时点N的位置，终点为\\(AC\\)的中点H，",
+        "如图所示，",
+        "〔图4〕",
+        "在等边\\(\\vartriangle MNC\\)中，点M、A重合时，\\(MC=AC=6\\)，",
+        "此时等边三角形“三线合一”的性质可得\\(NH=\\sqrt[] { AN ^ { 2 } -AH ^ { 2 } }=3\\sqrt[] { 3 }\\),",
+        "∴点N经过的路径长为：\\(3\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      63,
+      66
+    ],
+    "solution_body_blocks": [
+      352,
+      411
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-B564ED06D9/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          344.55,
+          583.64,
+          633.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-B564ED06D9/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-B564ED06D9/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-B564ED06D9/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-B564ED06D9/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          457.27,
+          583.64,
+          739.55
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          734.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          392.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G08.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G08.03.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

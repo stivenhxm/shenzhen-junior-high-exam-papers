@@ -1,0 +1,502 @@
+{
+  "id": "SZ-G9-T1-FEFB89DFE9-Q21",
+  "paper_id": "SZ-G9-T1-FEFB89DFE9",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "定义：在平行四边形中，若有一条对角线长是一边长的两倍，则称这个平行四边形叫做和谐四边形，其中这条对角线叫做和谐对角线，这条边叫做和谐边．\n〔图1〕\n【概念理解】\n（1）如图1，四边形\\(ABCD\\)是和谐四边形，对角线\\(AC\\)与\\(BD\\)交于点\\(G\\)，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边．\n①\\(\\vartriangle BCG\\)是________三角形．\n②若\\(AD=4\\)，则\\(BD=\\)________．\n【问题探究】\n（2）如图2，四边形\\(ABCD\\)是矩形，过点\\(B\\)作\\(BE\\parallel AC\\)交\\(DC\\)的延长线于点\\(E\\)，连接\\(AE\\)交\\(BC\\)于点\\(F\\)，\\(AD=4\\)，\\(AB=k\\)，是否存在实数\\(k\\)，使得四边形\\(ABEC\\)是和谐四边形，若存在，求出\\(k\\)的值，若不存在，请说明理由．\n【应用拓展】\n（3）如图3，四边形\\(ABCD\\)与四边形\\(ABEC\\)都是和谐四边形，其中\\(BD\\)与\\(AE\\)分别是和谐对角线，\\(AD\\)与\\(AC\\)分别是和谐边，\\(AB=4\\)，\\(AD=k\\)，请求出\\(k\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-FEFB89DFE9/figures/f1025422a65645e82c5c9eee3885131a6ef2b29aa173d08159ed59c457effbb4.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①等腰；②8\n（2）存在，\\(k=2\\)\n（3）\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)",
+  "answer": "（1）①等腰；②8\n（2）存在，\\(k=2\\)\n（3）\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)",
+  "given_solution": "【分析】（1）①根据和谐四边形的定义，得到\\(BG=DG=AD=BC\\)，即可得到结论；②根据\\(BD=2AD\\)即可得出结论．\n（2）分\\(BC=2AB\\)，\\(BC=2AC\\)，\\(AE=2AB\\)，\\(AE=2AC\\)四种情况，分类讨论，进行判断即可；\n（3）根据和谐四边形的定义，推出\\(\\vartriangle ADB\\cong \\vartriangle ACE\\)，作\\(DM\\bot AC\\)于\\(M\\)，设\\(AM=x\\)，则\\(AG=2x\\)，利用勾股定理求出\\(DM,CD\\)的长，根据\\(CD=AB=4\\)，求出\\(x\\)的值，即可得解．\n【小问1详解】\n解：①∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边，\n∴\\(BG=DG=AD=BC\\)，\n∴\\(\\vartriangle ADG\\)与\\(\\vartriangle BCG\\)的形状是等腰三角形；\n②∵\\(AD=4\\)，\n∴\\(BD=2AD=8\\)，\n故答案为：等腰；8；\n【小问2详解】\n存在，理由如下：\n∵\\(AB\\parallel CD，BE\\parallel AC\\)，\n∴四边形\\(ABEC\\)是平行四边形；\n当\\(BC=2AB\\)时，四边形\\(ABEC\\)是和谐四边形，\n∵\\(BC=AD=4\\)，\\(AB=k\\)，\n∴\\(BC=2k\\)，\n∴\\(k=2\\)；\n当\\(BC=2AC\\)时，不满足直角三角形的斜边大于直角边．\n当\\(AE=2AB\\)时，\n∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2k\\)，无解．\n当\\(AE=2AC\\)时，\n∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2\\sqrt[] { 4 ^ { 2 } +k ^ { 2 } }\\)，无解．\n∴\\(k=2\\)；\n∴\\(k\\)的值为2时，四边形\\(ABEC\\)是和谐四边形；\n〔图2〕【小问3详解】\n∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)为和谐对角线，\\(AD\\)为和谐边，\n∴\\(AD=DG\\)，\n∴\\(\\angle DAG=\\angle AGD\\)，\n∵四边形\\(ABEC\\)是和谐四边形，\\(AE\\)为和谐对角线，\\(AC\\)为和谐边，\n∴\\(AC=AF\\)，\n∴\\(\\angle ACF=\\angle AFC\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle DAG=\\angle ACF\\)，\n∴\\(\\angle DAG=\\angle AGD=\\angle ACF=\\angle AFC\\)，\n∴\\(\\angle ADG=\\angle CAF\\)，\n∵\\(\\frac { AD } { BD }=\\frac { 1 } { 2 }\\)，\\(\\frac { AC } { AE }=\\frac { 1 } { 2 }\\)，\n∴\\(\\frac { AD } { BD }=\\frac { AC } { AE }\\)，\n∴\\(\\vartriangle ADB\\tilde{\\ }\\vartriangle CAE\\)，\n∵\\(AB=CE\\)，\n∴相似比为1，\n∴\\(\\vartriangle ADB\\cong \\vartriangle ACE\\)，\n∴\\(AC=AD\\)，\n作\\(DM\\bot AC\\)于\\(M\\)，如图所示：\n〔图3〕\n∵\\(AD=DG\\)，\n∴\\(AM=GM\\)，\n设\\(AM=x\\)，则\\(AG=2x\\)，\n∴\\(AC=2AG=AD=4x\\)，\n∴\\(CM=3x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADM\\)中，由勾股定理得：\n\\(DM=\\sqrt[] { AD ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 15 }x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DMC\\)中，由勾股定理得：\n\\(CD=\\sqrt[] { DM ^ { 2 } +CM ^ { 2 } }=\\sqrt[] { 15x ^ { 2 } +9x ^ { 2 } }=2\\sqrt[] { 6x }\\)，\n∵\\(CD=AB=4\\)，\n∴\\(2\\sqrt[] { 6 }x=4\\)，\n∴\\(x=\\frac { \\sqrt[] { 6 } } { 3 }\\)，\n∴\\(AD=4x=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)，\n∴\\(AD=k=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．\n故答案为：\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．\n【点睛】本题考查平行四边形的性质，等腰三角形的判定，相似三角形的判定，全等三角形的判定和性质，勾股定理．本题的综合性较强，解题的关键是理解并掌握和谐四边形的定义．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-FEFB89DFE9/figures/f1025422a65645e82c5c9eee3885131a6ef2b29aa173d08159ed59c457effbb4.png",
+    "assets/SZ-G9-T1-FEFB89DFE9/figures/19165ff689ec546b3d462651f1484e912ca8bfefd2e4a1c7c597462e7ad28e03.png",
+    "assets/SZ-G9-T1-FEFB89DFE9/figures/361fd10c17b788c79707f478f555e67e4c7273cbb7a397a49ceda74f541f7675.png"
+  ],
+  "solution": "【小问1详解】\n解：①∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边，\n∴\\(BG=DG=AD=BC\\)，\n∴\\(\\vartriangle ADG\\)与\\(\\vartriangle BCG\\)的形状是等腰三角形；\n②∵\\(AD=4\\)，\n∴\\(BD=2AD=8\\)，\n故答案为：等腰；8；\n【小问2详解】\n存在，理由如下：\n∵\\(AB\\parallel CD，BE\\parallel AC\\)，\n∴四边形\\(ABEC\\)是平行四边形；\n当\\(BC=2AB\\)时，四边形\\(ABEC\\)是和谐四边形，\n∵\\(BC=AD=4\\)，\\(AB=k\\)，\n∴\\(BC=2k\\)，\n∴\\(k=2\\)；\n当\\(BC=2AC\\)时，不满足直角三角形的斜边大于直角边．\n当\\(AE=2AB\\)时，\n∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2k\\)，无解．\n当\\(AE=2AC\\)时，\n∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2\\sqrt[] { 4 ^ { 2 } +k ^ { 2 } }\\)，无解．\n∴\\(k=2\\)；\n∴\\(k\\)的值为2时，四边形\\(ABEC\\)是和谐四边形；\n〔图2〕【小问3详解】\n∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)为和谐对角线，\\(AD\\)为和谐边，\n∴\\(AD=DG\\)，\n∴\\(\\angle DAG=\\angle AGD\\)，\n∵四边形\\(ABEC\\)是和谐四边形，\\(AE\\)为和谐对角线，\\(AC\\)为和谐边，\n∴\\(AC=AF\\)，\n∴\\(\\angle ACF=\\angle AFC\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle DAG=\\angle ACF\\)，\n∴\\(\\angle DAG=\\angle AGD=\\angle ACF=\\angle AFC\\)，\n∴\\(\\angle ADG=\\angle CAF\\)，\n∵\\(\\frac { AD } { BD }=\\frac { 1 } { 2 }\\)，\\(\\frac { AC } { AE }=\\frac { 1 } { 2 }\\)，\n∴\\(\\frac { AD } { BD }=\\frac { AC } { AE }\\)，\n∴\\(\\vartriangle ADB\\tilde{\\ }\\vartriangle CAE\\)，\n∵\\(AB=CE\\)，\n∴相似比为1，\n∴\\(\\vartriangle ADB\\cong \\vartriangle ACE\\)，\n∴\\(AC=AD\\)，\n作\\(DM\\bot AC\\)于\\(M\\)，如图所示：\n〔图3〕\n∵\\(AD=DG\\)，\n∴\\(AM=GM\\)，\n设\\(AM=x\\)，则\\(AG=2x\\)，\n∴\\(AC=2AG=AD=4x\\)，\n∴\\(CM=3x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADM\\)中，由勾股定理得：\n\\(DM=\\sqrt[] { AD ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 15 }x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DMC\\)中，由勾股定理得：\n\\(CD=\\sqrt[] { DM ^ { 2 } +CM ^ { 2 } }=\\sqrt[] { 15x ^ { 2 } +9x ^ { 2 } }=2\\sqrt[] { 6x }\\)，\n∵\\(CD=AB=4\\)，\n∴\\(2\\sqrt[] { 6 }x=4\\)，\n∴\\(x=\\frac { \\sqrt[] { 6 } } { 3 }\\)，\n∴\\(AD=4x=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)，\n∴\\(AD=k=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．\n故答案为：\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边，",
+    "∴\\(BG=DG=AD=BC\\)，",
+    "∴\\(\\vartriangle ADG\\)与\\(\\vartriangle BCG\\)的形状是等腰三角形；",
+    "②∵\\(AD=4\\)，",
+    "∴\\(BD=2AD=8\\)，",
+    "故答案为：等腰；8；",
+    "【小问2详解】",
+    "存在，理由如下：",
+    "∵\\(AB\\parallel CD，BE\\parallel AC\\)，",
+    "∴四边形\\(ABEC\\)是平行四边形；",
+    "当\\(BC=2AB\\)时，四边形\\(ABEC\\)是和谐四边形，",
+    "∵\\(BC=AD=4\\)，\\(AB=k\\)，",
+    "∴\\(BC=2k\\)，",
+    "∴\\(k=2\\)；",
+    "当\\(BC=2AC\\)时，不满足直角三角形的斜边大于直角边．",
+    "当\\(AE=2AB\\)时，",
+    "∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2k\\)，无解．",
+    "当\\(AE=2AC\\)时，",
+    "∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2\\sqrt[] { 4 ^ { 2 } +k ^ { 2 } }\\)，无解．",
+    "∴\\(k=2\\)；",
+    "∴\\(k\\)的值为2时，四边形\\(ABEC\\)是和谐四边形；",
+    "〔图2〕【小问3详解】",
+    "∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)为和谐对角线，\\(AD\\)为和谐边，",
+    "∴\\(AD=DG\\)，",
+    "∴\\(\\angle DAG=\\angle AGD\\)，",
+    "∵四边形\\(ABEC\\)是和谐四边形，\\(AE\\)为和谐对角线，\\(AC\\)为和谐边，",
+    "∴\\(AC=AF\\)，",
+    "∴\\(\\angle ACF=\\angle AFC\\)，",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle DAG=\\angle ACF\\)，",
+    "∴\\(\\angle DAG=\\angle AGD=\\angle ACF=\\angle AFC\\)，",
+    "∴\\(\\angle ADG=\\angle CAF\\)，",
+    "∵\\(\\frac { AD } { BD }=\\frac { 1 } { 2 }\\)，\\(\\frac { AC } { AE }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(\\frac { AD } { BD }=\\frac { AC } { AE }\\)，",
+    "∴\\(\\vartriangle ADB\\tilde{\\ }\\vartriangle CAE\\)，",
+    "∵\\(AB=CE\\)，",
+    "∴相似比为1，",
+    "∴\\(\\vartriangle ADB\\cong \\vartriangle ACE\\)，",
+    "∴\\(AC=AD\\)，",
+    "作\\(DM\\bot AC\\)于\\(M\\)，如图所示：",
+    "〔图3〕",
+    "∵\\(AD=DG\\)，",
+    "∴\\(AM=GM\\)，",
+    "设\\(AM=x\\)，则\\(AG=2x\\)，",
+    "∴\\(AC=2AG=AD=4x\\)，",
+    "∴\\(CM=3x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADM\\)中，由勾股定理得：",
+    "\\(DM=\\sqrt[] { AD ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 15 }x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DMC\\)中，由勾股定理得：",
+    "\\(CD=\\sqrt[] { DM ^ { 2 } +CM ^ { 2 } }=\\sqrt[] { 15x ^ { 2 } +9x ^ { 2 } }=2\\sqrt[] { 6x }\\)，",
+    "∵\\(CD=AB=4\\)，",
+    "∴\\(2\\sqrt[] { 6 }x=4\\)，",
+    "∴\\(x=\\frac { \\sqrt[] { 6 } } { 3 }\\)，",
+    "∴\\(AD=4x=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)，",
+    "∴\\(AD=k=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．",
+    "故答案为：\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "定义：在平行四边形中，若有一条对角线长是一边长的两倍，则称这个平行四边形叫做和谐四边形，其中这条对角线叫做和谐对角线，这条边叫做和谐边．\n〔图1〕\n【概念理解】",
+      "paper_blocks": [
+        61,
+        62,
+        63
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图1，四边形\\(ABCD\\)是和谐四边形，对角线\\(AC\\)与\\(BD\\)交于点\\(G\\)，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边．",
+      "paper_blocks": [
+        64
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-FEFB89DFE9-Q21-P01",
+      "label": "（1）①",
+      "prompt": "\\(\\vartriangle BCG\\)是________三角形．",
+      "stem_text": "\\(\\vartriangle BCG\\)是________三角形．",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "等腰；",
+      "answer": "等腰；",
+      "given_solution": "∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边，\n∴\\(BG=DG=AD=BC\\)，\n∴\\(\\vartriangle ADG\\)与\\(\\vartriangle BCG\\)的形状是等腰三角形；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)是和谐对角线，\\(AD\\)是和谐边，",
+        "∴\\(BG=DG=AD=BC\\)，",
+        "∴\\(\\vartriangle ADG\\)与\\(\\vartriangle BCG\\)的形状是等腰三角形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "本题计算对角线或分割数量，现有考点聚焦内外角和。",
+      "tag_reason": "解法含“对角线”。由多边形的结构计算对角线或分割数量。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-FEFB89DFE9-Q21-P02",
+      "label": "（1）②",
+      "prompt": "若\\(AD=4\\)，则\\(BD=\\)________．\n【问题探究】",
+      "stem_text": "若\\(AD=4\\)，则\\(BD=\\)________．\n【问题探究】",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "8",
+      "answer": "8",
+      "given_solution": "∵\\(AD=4\\)，\n∴\\(BD=2AD=8\\)，\n故答案为：等腰；8；",
+      "solution_steps": [
+        "∵\\(AD=4\\)，",
+        "∴\\(BD=2AD=8\\)，",
+        "故答案为：等腰；8；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-FEFB89DFE9-Q21-P03",
+      "label": "（2）",
+      "prompt": "如图2，四边形\\(ABCD\\)是矩形，过点\\(B\\)作\\(BE\\parallel AC\\)交\\(DC\\)的延长线于点\\(E\\)，连接\\(AE\\)交\\(BC\\)于点\\(F\\)，\\(AD=4\\)，\\(AB=k\\)，是否存在实数\\(k\\)，使得四边形\\(ABEC\\)是和谐四边形，若存在，求出\\(k\\)的值，若不存在，请说明理由．\n【应用拓展】",
+      "stem_text": "如图2，四边形\\(ABCD\\)是矩形，过点\\(B\\)作\\(BE\\parallel AC\\)交\\(DC\\)的延长线于点\\(E\\)，连接\\(AE\\)交\\(BC\\)于点\\(F\\)，\\(AD=4\\)，\\(AB=k\\)，是否存在实数\\(k\\)，使得四边形\\(ABEC\\)是和谐四边形，若存在，求出\\(k\\)的值，若不存在，请说明理由．\n【应用拓展】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在，\\(k=2\\)",
+      "answer": "存在，\\(k=2\\)",
+      "given_solution": "存在，理由如下：\n∵\\(AB\\parallel CD，BE\\parallel AC\\)，\n∴四边形\\(ABEC\\)是平行四边形；\n当\\(BC=2AB\\)时，四边形\\(ABEC\\)是和谐四边形，\n∵\\(BC=AD=4\\)，\\(AB=k\\)，\n∴\\(BC=2k\\)，\n∴\\(k=2\\)；\n当\\(BC=2AC\\)时，不满足直角三角形的斜边大于直角边．\n当\\(AE=2AB\\)时，\n∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2k\\)，无解．\n当\\(AE=2AC\\)时，\n∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2\\sqrt[] { 4 ^ { 2 } +k ^ { 2 } }\\)，无解．\n∴\\(k=2\\)；\n∴\\(k\\)的值为2时，四边形\\(ABEC\\)是和谐四边形；\n〔图2〕",
+      "solution_steps": [
+        "存在，理由如下：",
+        "∵\\(AB\\parallel CD，BE\\parallel AC\\)，",
+        "∴四边形\\(ABEC\\)是平行四边形；",
+        "当\\(BC=2AB\\)时，四边形\\(ABEC\\)是和谐四边形，",
+        "∵\\(BC=AD=4\\)，\\(AB=k\\)，",
+        "∴\\(BC=2k\\)，",
+        "∴\\(k=2\\)；",
+        "当\\(BC=2AC\\)时，不满足直角三角形的斜边大于直角边．",
+        "当\\(AE=2AB\\)时，",
+        "∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2k\\)，无解．",
+        "当\\(AE=2AC\\)时，",
+        "∵\\(\\sqrt[] { 4 ^ { 2 } +\\left ( { 2k } \\right ) ^ { 2 } }=2\\sqrt[] { 4 ^ { 2 } +k ^ { 2 } }\\)，无解．",
+        "∴\\(k=2\\)；",
+        "∴\\(k\\)的值为2时，四边形\\(ABEC\\)是和谐四边形；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-FEFB89DFE9-Q21-P04",
+      "label": "（3）",
+      "prompt": "如图3，四边形\\(ABCD\\)与四边形\\(ABEC\\)都是和谐四边形，其中\\(BD\\)与\\(AE\\)分别是和谐对角线，\\(AD\\)与\\(AC\\)分别是和谐边，\\(AB=4\\)，\\(AD=k\\)，请求出\\(k\\)的值．",
+      "stem_text": "如图3，四边形\\(ABCD\\)与四边形\\(ABEC\\)都是和谐四边形，其中\\(BD\\)与\\(AE\\)分别是和谐对角线，\\(AD\\)与\\(AC\\)分别是和谐边，\\(AB=4\\)，\\(AD=k\\)，请求出\\(k\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)",
+      "answer": "\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)",
+      "given_solution": "∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)为和谐对角线，\\(AD\\)为和谐边，\n∴\\(AD=DG\\)，\n∴\\(\\angle DAG=\\angle AGD\\)，\n∵四边形\\(ABEC\\)是和谐四边形，\\(AE\\)为和谐对角线，\\(AC\\)为和谐边，\n∴\\(AC=AF\\)，\n∴\\(\\angle ACF=\\angle AFC\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle DAG=\\angle ACF\\)，\n∴\\(\\angle DAG=\\angle AGD=\\angle ACF=\\angle AFC\\)，\n∴\\(\\angle ADG=\\angle CAF\\)，\n∵\\(\\frac { AD } { BD }=\\frac { 1 } { 2 }\\)，\\(\\frac { AC } { AE }=\\frac { 1 } { 2 }\\)，\n∴\\(\\frac { AD } { BD }=\\frac { AC } { AE }\\)，\n∴\\(\\vartriangle ADB\\tilde{\\ }\\vartriangle CAE\\)，\n∵\\(AB=CE\\)，\n∴相似比为1，\n∴\\(\\vartriangle ADB\\cong \\vartriangle ACE\\)，\n∴\\(AC=AD\\)，\n作\\(DM\\bot AC\\)于\\(M\\)，如图所示：\n〔图3〕\n∵\\(AD=DG\\)，\n∴\\(AM=GM\\)，\n设\\(AM=x\\)，则\\(AG=2x\\)，\n∴\\(AC=2AG=AD=4x\\)，\n∴\\(CM=3x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADM\\)中，由勾股定理得：\n\\(DM=\\sqrt[] { AD ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 15 }x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DMC\\)中，由勾股定理得：\n\\(CD=\\sqrt[] { DM ^ { 2 } +CM ^ { 2 } }=\\sqrt[] { 15x ^ { 2 } +9x ^ { 2 } }=2\\sqrt[] { 6x }\\)，\n∵\\(CD=AB=4\\)，\n∴\\(2\\sqrt[] { 6 }x=4\\)，\n∴\\(x=\\frac { \\sqrt[] { 6 } } { 3 }\\)，\n∴\\(AD=4x=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)，\n∴\\(AD=k=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．\n故答案为：\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是和谐四边形，\\(BD\\)为和谐对角线，\\(AD\\)为和谐边，",
+        "∴\\(AD=DG\\)，",
+        "∴\\(\\angle DAG=\\angle AGD\\)，",
+        "∵四边形\\(ABEC\\)是和谐四边形，\\(AE\\)为和谐对角线，\\(AC\\)为和谐边，",
+        "∴\\(AC=AF\\)，",
+        "∴\\(\\angle ACF=\\angle AFC\\)，",
+        "∵\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle DAG=\\angle ACF\\)，",
+        "∴\\(\\angle DAG=\\angle AGD=\\angle ACF=\\angle AFC\\)，",
+        "∴\\(\\angle ADG=\\angle CAF\\)，",
+        "∵\\(\\frac { AD } { BD }=\\frac { 1 } { 2 }\\)，\\(\\frac { AC } { AE }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(\\frac { AD } { BD }=\\frac { AC } { AE }\\)，",
+        "∴\\(\\vartriangle ADB\\tilde{\\ }\\vartriangle CAE\\)，",
+        "∵\\(AB=CE\\)，",
+        "∴相似比为1，",
+        "∴\\(\\vartriangle ADB\\cong \\vartriangle ACE\\)，",
+        "∴\\(AC=AD\\)，",
+        "作\\(DM\\bot AC\\)于\\(M\\)，如图所示：",
+        "〔图3〕",
+        "∵\\(AD=DG\\)，",
+        "∴\\(AM=GM\\)，",
+        "设\\(AM=x\\)，则\\(AG=2x\\)，",
+        "∴\\(AC=2AG=AD=4x\\)，",
+        "∴\\(CM=3x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADM\\)中，由勾股定理得：",
+        "\\(DM=\\sqrt[] { AD ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 15 }x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DMC\\)中，由勾股定理得：",
+        "\\(CD=\\sqrt[] { DM ^ { 2 } +CM ^ { 2 } }=\\sqrt[] { 15x ^ { 2 } +9x ^ { 2 } }=2\\sqrt[] { 6x }\\)，",
+        "∵\\(CD=AB=4\\)，",
+        "∴\\(2\\sqrt[] { 6 }x=4\\)，",
+        "∴\\(x=\\frac { \\sqrt[] { 6 } } { 3 }\\)，",
+        "∴\\(AD=4x=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)，",
+        "∴\\(AD=k=\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．",
+        "故答案为：\\(\\frac { 4\\sqrt[] { 6 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          70
+        ],
+        "solution_block_ids": [
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      70
+    ],
+    "solution_body_blocks": [
+      337,
+      411
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-FEFB89DFE9/paper-q21-p05.webp",
+      "assets/SZ-G9-T1-FEFB89DFE9/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          457.73,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          228.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-FEFB89DFE9/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-FEFB89DFE9/solution-q21-p19.webp",
+      "assets/SZ-G9-T1-FEFB89DFE9/solution-q21-p20.webp",
+      "assets/SZ-G9-T1-FEFB89DFE9/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          502.27,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          361.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G02.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "本题计算对角线或分割数量，现有考点聚焦内外角和。 公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "解法含“对角线”。由多边形的结构计算对角线或分割数量。 公共材料含“对角线”。由多边形的结构计算对角线或分割数量。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

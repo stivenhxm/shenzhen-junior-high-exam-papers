@@ -1,0 +1,240 @@
+{
+  "id": "SZ-G9-T1-1454AC41B3-Q17",
+  "paper_id": "SZ-G9-T1-1454AC41B3",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "补足条件判定矩形、由勾股关系求直角三角形边长",
+  "stem": "在菱形\\(ABCD\\)中，过点\\(B\\)作\\(BE\\bot CD\\)于点\\(E\\)，点\\(F\\)在边\\(AB\\)上，\\(CD-AF=DE\\)，连接\\(BD\\)、\\(DF\\)．\n〔图1〕\n（1）求证：四边形\\(BFDE\\)是矩形；\n（2）若\\(BD=2\\sqrt[] { 5 }\\)，\\(BE=4\\)，求\\(BC\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-1454AC41B3/figures/ce186a7ced2dcc5bb4a62aa516e4402cad088d5f3e637c735f62b28d7fb70c9c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(BC={ \\rm{ 5 } }\\)．",
+  "answer": "（1）见解析    （2）\\(BC={ \\rm{ 5 } }\\)．",
+  "given_solution": "【分析】本题考查菱形的性质，矩形的判定，以及利用勾股定理求边长．\n（1）根据菱形的性质，结合已知求出\\(DE=BF\\)，利用有一个角是\\(90{}^\\circ\\)的平行四边形是矩形即可得证；\n（2）利用勾股定理求出\\(DE\\)，再根据菱形的性质和勾股定理求出\\(BC\\)即可．\n【小问1详解】\n证明：∵四边形\\(ABCD\\)为菱形，\n∴\\(AB\\parallel CD，AB=CD\\)，\n∵\\(CD-AF=DE\\)，\\(AB-AF=BF\\)，\n∴\\(DE=BF\\)，\n∴四边形\\(BFDE\\)为平行四边形，\n又∵\\(BE\\bot CD\\)，\n∴\\(\\angle BED=90{}^\\circ\\)，\n∴四边形\\(BFDE\\)为矩形；\n【小问2详解】\n解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDE\\)中：\n\\(DE=\\sqrt[] { BD ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { 20-16 }=2\\)，\n设\\(BC\\)的长为\\(x\\)，则\\(CD=x\\)，\\(CE=x-2\\)，\n由勾股定理得：\\(BC ^ { 2 } =BE ^ { 2 } +CE ^ { 2 }\\)，\n即：\\(x ^ { 2 } =4 ^ { 2 } +\\left ( { x-2 } \\right ) ^ { 2 }\\)，\n解得：\\(x={ \\rm{ 5 } }\\)，\n∴\\(BC={ \\rm{ 5 } }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-1454AC41B3/figures/ce186a7ced2dcc5bb4a62aa516e4402cad088d5f3e637c735f62b28d7fb70c9c.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵四边形\\(ABCD\\)为菱形，\n∴\\(AB\\parallel CD，AB=CD\\)，\n∵\\(CD-AF=DE\\)，\\(AB-AF=BF\\)，\n∴\\(DE=BF\\)，\n∴四边形\\(BFDE\\)为平行四边形，\n又∵\\(BE\\bot CD\\)，\n∴\\(\\angle BED=90{}^\\circ\\)，\n∴四边形\\(BFDE\\)为矩形；\n【小问2详解】\n解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDE\\)中：\n\\(DE=\\sqrt[] { BD ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { 20-16 }=2\\)，\n设\\(BC\\)的长为\\(x\\)，则\\(CD=x\\)，\\(CE=x-2\\)，\n由勾股定理得：\\(BC ^ { 2 } =BE ^ { 2 } +CE ^ { 2 }\\)，\n即：\\(x ^ { 2 } =4 ^ { 2 } +\\left ( { x-2 } \\right ) ^ { 2 }\\)，\n解得：\\(x={ \\rm{ 5 } }\\)，\n∴\\(BC={ \\rm{ 5 } }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵四边形\\(ABCD\\)为菱形，",
+    "∴\\(AB\\parallel CD，AB=CD\\)，",
+    "∵\\(CD-AF=DE\\)，\\(AB-AF=BF\\)，",
+    "∴\\(DE=BF\\)，",
+    "∴四边形\\(BFDE\\)为平行四边形，",
+    "又∵\\(BE\\bot CD\\)，",
+    "∴\\(\\angle BED=90{}^\\circ\\)，",
+    "∴四边形\\(BFDE\\)为矩形；",
+    "【小问2详解】",
+    "解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDE\\)中：",
+    "\\(DE=\\sqrt[] { BD ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { 20-16 }=2\\)，",
+    "设\\(BC\\)的长为\\(x\\)，则\\(CD=x\\)，\\(CE=x-2\\)，",
+    "由勾股定理得：\\(BC ^ { 2 } =BE ^ { 2 } +CE ^ { 2 }\\)，",
+    "即：\\(x ^ { 2 } =4 ^ { 2 } +\\left ( { x-2 } \\right ) ^ { 2 }\\)，",
+    "解得：\\(x={ \\rm{ 5 } }\\)，",
+    "∴\\(BC={ \\rm{ 5 } }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在菱形\\(ABCD\\)中，过点\\(B\\)作\\(BE\\bot CD\\)于点\\(E\\)，点\\(F\\)在边\\(AB\\)上，\\(CD-AF=DE\\)，连接\\(BD\\)、\\(DF\\)．\n〔图1〕",
+      "paper_blocks": [
+        49,
+        50
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-1454AC41B3-Q17-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(BFDE\\)是矩形；",
+      "stem_text": "求证：四边形\\(BFDE\\)是矩形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵四边形\\(ABCD\\)为菱形，\n∴\\(AB\\parallel CD，AB=CD\\)，\n∵\\(CD-AF=DE\\)，\\(AB-AF=BF\\)，\n∴\\(DE=BF\\)，\n∴四边形\\(BFDE\\)为平行四边形，\n又∵\\(BE\\bot CD\\)，\n∴\\(\\angle BED=90{}^\\circ\\)，\n∴四边形\\(BFDE\\)为矩形；",
+      "solution_steps": [
+        "证明：∵四边形\\(ABCD\\)为菱形，",
+        "∴\\(AB\\parallel CD，AB=CD\\)，",
+        "∵\\(CD-AF=DE\\)，\\(AB-AF=BF\\)，",
+        "∴\\(DE=BF\\)，",
+        "∴四边形\\(BFDE\\)为平行四边形，",
+        "又∵\\(BE\\bot CD\\)，",
+        "∴\\(\\angle BED=90{}^\\circ\\)，",
+        "∴四边形\\(BFDE\\)为矩形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          51
+        ],
+        "solution_block_ids": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-1454AC41B3-Q17-P02",
+      "label": "（2）",
+      "prompt": "若\\(BD=2\\sqrt[] { 5 }\\)，\\(BE=4\\)，求\\(BC\\)的长．",
+      "stem_text": "若\\(BD=2\\sqrt[] { 5 }\\)，\\(BE=4\\)，求\\(BC\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BC={ \\rm{ 5 } }\\)．",
+      "answer": "\\(BC={ \\rm{ 5 } }\\)．",
+      "given_solution": "解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDE\\)中：\n\\(DE=\\sqrt[] { BD ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { 20-16 }=2\\)，\n设\\(BC\\)的长为\\(x\\)，则\\(CD=x\\)，\\(CE=x-2\\)，\n由勾股定理得：\\(BC ^ { 2 } =BE ^ { 2 } +CE ^ { 2 }\\)，\n即：\\(x ^ { 2 } =4 ^ { 2 } +\\left ( { x-2 } \\right ) ^ { 2 }\\)，\n解得：\\(x={ \\rm{ 5 } }\\)，\n∴\\(BC={ \\rm{ 5 } }\\)．",
+      "solution_steps": [
+        "解：在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BDE\\)中：",
+        "\\(DE=\\sqrt[] { BD ^ { 2 } -BE ^ { 2 } }=\\sqrt[] { 20-16 }=2\\)，",
+        "设\\(BC\\)的长为\\(x\\)，则\\(CD=x\\)，\\(CE=x-2\\)，",
+        "由勾股定理得：\\(BC ^ { 2 } =BE ^ { 2 } +CE ^ { 2 }\\)，",
+        "即：\\(x ^ { 2 } =4 ^ { 2 } +\\left ( { x-2 } \\right ) ^ { 2 }\\)，",
+        "解得：\\(x={ \\rm{ 5 } }\\)，",
+        "∴\\(BC={ \\rm{ 5 } }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          52
+        ],
+        "solution_block_ids": [
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      52
+    ],
+    "solution_body_blocks": [
+      263,
+      288
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-1454AC41B3/paper-q17-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          435.0,
+          583.64,
+          595.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-1454AC41B3/solution-q17-p15.webp",
+      "assets/SZ-G9-T1-1454AC41B3/solution-q17-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          384.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

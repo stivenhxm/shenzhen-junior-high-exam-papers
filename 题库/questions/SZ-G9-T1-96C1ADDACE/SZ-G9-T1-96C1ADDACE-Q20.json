@@ -1,0 +1,369 @@
+{
+  "id": "SZ-G9-T1-96C1ADDACE-Q20",
+  "paper_id": "SZ-G9-T1-96C1ADDACE",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、分解组合图形求边角",
+  "stem": "如图1，在\\(\\vartriangle ABC\\)中，\\(\\angle CAB\\)的角平分线交边\\(BC\\)于点D，甲、乙两人想作菱形\\(AEDF\\)，使得E、F两点分别在边\\(AB\\)和边\\(AC\\)上，他们的作法如下：甲：作\\(AD\\)的中垂线分别交\\(AB\\)、\\(AC\\)于点E、F，连接\\(DE\\)、\\(DF\\)，则四边形\\(AEDF\\)即为所求；乙：分别作\\(DE\\parallel AC\\)交边\\(AB\\)于点E，\\(DF\\parallel AB\\)交\\(AC\\)于点F，则四边形\\(AEDF\\)即为所求；\n〔图1〕  〔图2〕\n（1）对于两人的作法，你认为：______\nA．甲、乙都对；    B．甲、乙都错；    C．甲正确，乙错误；    D．甲错误、乙正确；\n请你选择一种甲或乙中你认为正确的作法进行证明（作图无须用尺规）；\n（2）如图2，菱形\\(AEDF\\)中，过点F作\\(FG\\bot AB\\)，垂足为点G，若点G是\\(AE\\)的中点，\\(AF=4\\)，求\\(AD\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-96C1ADDACE/figures/6f3c8a52f3ecb37b29de59c6405920a31134ab1703f6e9ff67988074c2f665be.png",
+    "assets/SZ-G9-T1-96C1ADDACE/figures/2a1ba698cc179c25ef03d8f3c332cd9c06ef3965d5b7e2820219b2b0ba713438.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）A    （2）\\(4\\sqrt[] { 3 }\\)",
+  "answer": "（1）A    （2）\\(4\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）运用菱形的判定定理分别对甲、乙的作法进行判断即可；\n（2）由题意和菱形的性质可知\\(AG=2\\)，利用三角函数得出\\(\\angle FAG=60{}^\\circ\\)，再根据角平分线得到\\(\\angle FAD=30{}^\\circ\\)，作\\(FH\\bot AD\\)于点\\(H\\)，利用三角函数得出\\(AH\\)，进而得出答案．\n【小问1详解】\n①甲的作法：\n证明：如图，\n〔图3〕\n\\(\\because EF\\)垂直平分\\(AD\\)，\n\\(\\therefore AF=DF\\)，\\(AE=DE\\)，\\(\\angle AGF=\\angle AGE=90{}^\\circ\\)，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAG=\\angle EAG\\)，\n在\\(\\vartriangle AFG\\)和\\(\\vartriangle AEG\\)中，\n\\(\\begin{cases} \\angle FAG=\\angle EAG \\\\ AG=AG \\\\ \\angle AGF=\\angle AGE \\end{cases}\\)，\n\\(\\therefore \\vartriangle AFG≌\\vartriangle AEG(ASA)\\)，\n\\(\\therefore AE=AF\\)，\n\\(\\therefore AE=AF=FD=DE\\)，\n\\(\\therefore\\)四边形\\(AEDF\\)为菱形，\n所以甲的作法正确；\n②乙的作法：\n证明：如图，\n〔图4〕\n\\(\\because DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n\\(\\therefore\\)四边形\\(AEDF\\)是平行四边形，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAD=\\angle EAD\\)，\n\\(\\because DF\\parallel AB\\)，\n\\(\\therefore \\angle FDA=\\angle EAD\\)，\n\\(\\therefore \\angle FDA=\\angle FAD\\)，\n\\(\\therefore AF=FD\\)，\n\\(\\therefore\\)\\(▱AEDF\\)为菱形，\n所以乙的作法正确；\n综上所述，甲、乙都对，故选A．\n【小问2详解】\n解：如图，\n〔图5〕\n\\(\\because\\)四边形\\(AEDF\\)为菱形，\n\\(\\therefore AE=AF=4\\)，\n\\(\\because G\\)为\\(AE\\)中点，\n\\(\\therefore AG=2\\)，\n\\(\\because FG\\bot AB\\)，\n\\(\\therefore cos\\angle FAG=\\frac { AG } { AF }=\\frac { 2 } { 4 }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore \\angle FAG=60{}^\\circ\\)，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAD=30{}^\\circ\\)，\n作\\(FH\\bot AD\\)于点\\(H\\)，\n\\(\\therefore cos\\angle FAH=\\frac { AH } { AF }\\)，\n\\(\\therefore cos30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }=\\frac { AH } { 4 }\\)，\n\\(\\therefore AH=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)四边形\\(AEDF\\)为菱形，\n\\(\\therefore AD=2AH=4\\sqrt[] { 3 }\\)．\n【点睛】本题考查了菱形的判定和性质定理、垂直平分线的性质、全等三角形的判定、平行线的性质、三角函数等知识点，属于综合题，熟练掌握各个定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-96C1ADDACE/figures/6f3c8a52f3ecb37b29de59c6405920a31134ab1703f6e9ff67988074c2f665be.png",
+    "assets/SZ-G9-T1-96C1ADDACE/figures/2a1ba698cc179c25ef03d8f3c332cd9c06ef3965d5b7e2820219b2b0ba713438.png",
+    "assets/SZ-G9-T1-96C1ADDACE/figures/3deaad5454aec784388df33b9f4e5d201298db9a37626a231dd8188b71a707a9.png",
+    "assets/SZ-G9-T1-96C1ADDACE/figures/d16a93451ebbd0fb4a3e803b25fc4cad4a54023f73caef84cead496f654db82a.png",
+    "assets/SZ-G9-T1-96C1ADDACE/figures/491297206a618a1915a8f5eaf3a5b609d693c1d650070de2a1dfc969d8641a12.png"
+  ],
+  "solution": "【小问1详解】\n①甲的作法：\n证明：如图，\n〔图3〕\n\\(\\because EF\\)垂直平分\\(AD\\)，\n\\(\\therefore AF=DF\\)，\\(AE=DE\\)，\\(\\angle AGF=\\angle AGE=90{}^\\circ\\)，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAG=\\angle EAG\\)，\n在\\(\\vartriangle AFG\\)和\\(\\vartriangle AEG\\)中，\n\\(\\begin{cases} \\angle FAG=\\angle EAG \\\\ AG=AG \\\\ \\angle AGF=\\angle AGE \\end{cases}\\)，\n\\(\\therefore \\vartriangle AFG≌\\vartriangle AEG(ASA)\\)，\n\\(\\therefore AE=AF\\)，\n\\(\\therefore AE=AF=FD=DE\\)，\n\\(\\therefore\\)四边形\\(AEDF\\)为菱形，\n所以甲的作法正确；\n②乙的作法：\n证明：如图，\n〔图4〕\n\\(\\because DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n\\(\\therefore\\)四边形\\(AEDF\\)是平行四边形，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAD=\\angle EAD\\)，\n\\(\\because DF\\parallel AB\\)，\n\\(\\therefore \\angle FDA=\\angle EAD\\)，\n\\(\\therefore \\angle FDA=\\angle FAD\\)，\n\\(\\therefore AF=FD\\)，\n\\(\\therefore\\)\\(▱AEDF\\)为菱形，\n所以乙的作法正确；\n综上所述，甲、乙都对，故选A．\n【小问2详解】\n解：如图，\n〔图5〕\n\\(\\because\\)四边形\\(AEDF\\)为菱形，\n\\(\\therefore AE=AF=4\\)，\n\\(\\because G\\)为\\(AE\\)中点，\n\\(\\therefore AG=2\\)，\n\\(\\because FG\\bot AB\\)，\n\\(\\therefore cos\\angle FAG=\\frac { AG } { AF }=\\frac { 2 } { 4 }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore \\angle FAG=60{}^\\circ\\)，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAD=30{}^\\circ\\)，\n作\\(FH\\bot AD\\)于点\\(H\\)，\n\\(\\therefore cos\\angle FAH=\\frac { AH } { AF }\\)，\n\\(\\therefore cos30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }=\\frac { AH } { 4 }\\)，\n\\(\\therefore AH=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)四边形\\(AEDF\\)为菱形，\n\\(\\therefore AD=2AH=4\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①甲的作法：",
+    "证明：如图，",
+    "〔图3〕",
+    "\\(\\because EF\\)垂直平分\\(AD\\)，",
+    "\\(\\therefore AF=DF\\)，\\(AE=DE\\)，\\(\\angle AGF=\\angle AGE=90{}^\\circ\\)，",
+    "\\(\\because AD\\)平分\\(\\angle CAB\\)，",
+    "\\(\\therefore \\angle FAG=\\angle EAG\\)，",
+    "在\\(\\vartriangle AFG\\)和\\(\\vartriangle AEG\\)中，",
+    "\\(\\begin{cases} \\angle FAG=\\angle EAG \\\\ AG=AG \\\\ \\angle AGF=\\angle AGE \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle AFG≌\\vartriangle AEG(ASA)\\)，",
+    "\\(\\therefore AE=AF\\)，",
+    "\\(\\therefore AE=AF=FD=DE\\)，",
+    "\\(\\therefore\\)四边形\\(AEDF\\)为菱形，",
+    "所以甲的作法正确；",
+    "②乙的作法：",
+    "证明：如图，",
+    "〔图4〕",
+    "\\(\\because DE\\parallel AC\\)，\\(DF\\parallel AB\\)，",
+    "\\(\\therefore\\)四边形\\(AEDF\\)是平行四边形，",
+    "\\(\\because AD\\)平分\\(\\angle CAB\\)，",
+    "\\(\\therefore \\angle FAD=\\angle EAD\\)，",
+    "\\(\\because DF\\parallel AB\\)，",
+    "\\(\\therefore \\angle FDA=\\angle EAD\\)，",
+    "\\(\\therefore \\angle FDA=\\angle FAD\\)，",
+    "\\(\\therefore AF=FD\\)，",
+    "\\(\\therefore\\)\\(▱AEDF\\)为菱形，",
+    "所以乙的作法正确；",
+    "综上所述，甲、乙都对，故选A．",
+    "【小问2详解】",
+    "解：如图，",
+    "〔图5〕",
+    "\\(\\because\\)四边形\\(AEDF\\)为菱形，",
+    "\\(\\therefore AE=AF=4\\)，",
+    "\\(\\because G\\)为\\(AE\\)中点，",
+    "\\(\\therefore AG=2\\)，",
+    "\\(\\because FG\\bot AB\\)，",
+    "\\(\\therefore cos\\angle FAG=\\frac { AG } { AF }=\\frac { 2 } { 4 }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore \\angle FAG=60{}^\\circ\\)，",
+    "\\(\\because AD\\)平分\\(\\angle CAB\\)，",
+    "\\(\\therefore \\angle FAD=30{}^\\circ\\)，",
+    "作\\(FH\\bot AD\\)于点\\(H\\)，",
+    "\\(\\therefore cos\\angle FAH=\\frac { AH } { AF }\\)，",
+    "\\(\\therefore cos30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }=\\frac { AH } { 4 }\\)，",
+    "\\(\\therefore AH=2\\sqrt[] { 3 }\\)，",
+    "\\(\\because\\)四边形\\(AEDF\\)为菱形，",
+    "\\(\\therefore AD=2AH=4\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在\\(\\vartriangle ABC\\)中，\\(\\angle CAB\\)的角平分线交边\\(BC\\)于点D，甲、乙两人想作菱形\\(AEDF\\)，使得E、F两点分别在边\\(AB\\)和边\\(AC\\)上，他们的作法如下：甲：作\\(AD\\)的中垂线分别交\\(AB\\)、\\(AC\\)于点E、F，连接\\(DE\\)、\\(DF\\)，则四边形\\(AEDF\\)即为所求；乙：分别作\\(DE\\parallel AC\\)交边\\(AB\\)于点E，\\(DF\\parallel AB\\)交\\(AC\\)于点F，则四边形\\(AEDF\\)即为所求；\n〔图1〕  〔图2〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-96C1ADDACE-Q20-P01",
+      "label": "（1）",
+      "prompt": "对于两人的作法，你认为：______\nA．甲、乙都对；    B．甲、乙都错；    C．甲正确，乙错误；    D．甲错误、乙正确；\n请你选择一种甲或乙中你认为正确的作法进行证明（作图无须用尺规）；",
+      "stem_text": "对于两人的作法，你认为：______\nA．甲、乙都对；    B．甲、乙都错；    C．甲正确，乙错误；    D．甲错误、乙正确；\n请你选择一种甲或乙中你认为正确的作法进行证明（作图无须用尺规）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "A",
+      "answer": "A",
+      "given_solution": "①甲的作法：\n证明：如图，\n〔图3〕\n\\(\\because EF\\)垂直平分\\(AD\\)，\n\\(\\therefore AF=DF\\)，\\(AE=DE\\)，\\(\\angle AGF=\\angle AGE=90{}^\\circ\\)，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAG=\\angle EAG\\)，\n在\\(\\vartriangle AFG\\)和\\(\\vartriangle AEG\\)中，\n\\(\\begin{cases} \\angle FAG=\\angle EAG \\\\ AG=AG \\\\ \\angle AGF=\\angle AGE \\end{cases}\\)，\n\\(\\therefore \\vartriangle AFG≌\\vartriangle AEG(ASA)\\)，\n\\(\\therefore AE=AF\\)，\n\\(\\therefore AE=AF=FD=DE\\)，\n\\(\\therefore\\)四边形\\(AEDF\\)为菱形，\n所以甲的作法正确；\n②乙的作法：\n证明：如图，\n〔图4〕\n\\(\\because DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n\\(\\therefore\\)四边形\\(AEDF\\)是平行四边形，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAD=\\angle EAD\\)，\n\\(\\because DF\\parallel AB\\)，\n\\(\\therefore \\angle FDA=\\angle EAD\\)，\n\\(\\therefore \\angle FDA=\\angle FAD\\)，\n\\(\\therefore AF=FD\\)，\n\\(\\therefore\\)\\(▱AEDF\\)为菱形，\n所以乙的作法正确；\n综上所述，甲、乙都对，故选A．",
+      "solution_steps": [
+        "①甲的作法：",
+        "证明：如图，",
+        "〔图3〕",
+        "\\(\\because EF\\)垂直平分\\(AD\\)，",
+        "\\(\\therefore AF=DF\\)，\\(AE=DE\\)，\\(\\angle AGF=\\angle AGE=90{}^\\circ\\)，",
+        "\\(\\because AD\\)平分\\(\\angle CAB\\)，",
+        "\\(\\therefore \\angle FAG=\\angle EAG\\)，",
+        "在\\(\\vartriangle AFG\\)和\\(\\vartriangle AEG\\)中，",
+        "\\(\\begin{cases} \\angle FAG=\\angle EAG \\\\ AG=AG \\\\ \\angle AGF=\\angle AGE \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle AFG≌\\vartriangle AEG(ASA)\\)，",
+        "\\(\\therefore AE=AF\\)，",
+        "\\(\\therefore AE=AF=FD=DE\\)，",
+        "\\(\\therefore\\)四边形\\(AEDF\\)为菱形，",
+        "所以甲的作法正确；",
+        "②乙的作法：",
+        "证明：如图，",
+        "〔图4〕",
+        "\\(\\because DE\\parallel AC\\)，\\(DF\\parallel AB\\)，",
+        "\\(\\therefore\\)四边形\\(AEDF\\)是平行四边形，",
+        "\\(\\because AD\\)平分\\(\\angle CAB\\)，",
+        "\\(\\therefore \\angle FAD=\\angle EAD\\)，",
+        "\\(\\because DF\\parallel AB\\)，",
+        "\\(\\therefore \\angle FDA=\\angle EAD\\)，",
+        "\\(\\therefore \\angle FDA=\\angle FAD\\)，",
+        "\\(\\therefore AF=FD\\)，",
+        "\\(\\therefore\\)\\(▱AEDF\\)为菱形，",
+        "所以乙的作法正确；",
+        "综上所述，甲、乙都对，故选A．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-96C1ADDACE-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，菱形\\(AEDF\\)中，过点F作\\(FG\\bot AB\\)，垂足为点G，若点G是\\(AE\\)的中点，\\(AF=4\\)，求\\(AD\\)的长．",
+      "stem_text": "如图2，菱形\\(AEDF\\)中，过点F作\\(FG\\bot AB\\)，垂足为点G，若点G是\\(AE\\)的中点，\\(AF=4\\)，求\\(AD\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 3 }\\)",
+      "answer": "\\(4\\sqrt[] { 3 }\\)",
+      "given_solution": "解：如图，\n〔图5〕\n\\(\\because\\)四边形\\(AEDF\\)为菱形，\n\\(\\therefore AE=AF=4\\)，\n\\(\\because G\\)为\\(AE\\)中点，\n\\(\\therefore AG=2\\)，\n\\(\\because FG\\bot AB\\)，\n\\(\\therefore cos\\angle FAG=\\frac { AG } { AF }=\\frac { 2 } { 4 }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore \\angle FAG=60{}^\\circ\\)，\n\\(\\because AD\\)平分\\(\\angle CAB\\)，\n\\(\\therefore \\angle FAD=30{}^\\circ\\)，\n作\\(FH\\bot AD\\)于点\\(H\\)，\n\\(\\therefore cos\\angle FAH=\\frac { AH } { AF }\\)，\n\\(\\therefore cos30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }=\\frac { AH } { 4 }\\)，\n\\(\\therefore AH=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)四边形\\(AEDF\\)为菱形，\n\\(\\therefore AD=2AH=4\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：如图，",
+        "〔图5〕",
+        "\\(\\because\\)四边形\\(AEDF\\)为菱形，",
+        "\\(\\therefore AE=AF=4\\)，",
+        "\\(\\because G\\)为\\(AE\\)中点，",
+        "\\(\\therefore AG=2\\)，",
+        "\\(\\because FG\\bot AB\\)，",
+        "\\(\\therefore cos\\angle FAG=\\frac { AG } { AF }=\\frac { 2 } { 4 }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore \\angle FAG=60{}^\\circ\\)，",
+        "\\(\\because AD\\)平分\\(\\angle CAB\\)，",
+        "\\(\\therefore \\angle FAD=30{}^\\circ\\)，",
+        "作\\(FH\\bot AD\\)于点\\(H\\)，",
+        "\\(\\therefore cos\\angle FAH=\\frac { AH } { AF }\\)，",
+        "\\(\\therefore cos30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }=\\frac { AH } { 4 }\\)，",
+        "\\(\\therefore AH=2\\sqrt[] { 3 }\\)，",
+        "\\(\\because\\)四边形\\(AEDF\\)为菱形，",
+        "\\(\\therefore AD=2AH=4\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          65
+        ],
+        "solution_block_ids": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      65
+    ],
+    "solution_body_blocks": [
+      333,
+      390
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-96C1ADDACE/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          284.55,
+          583.64,
+          610.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-96C1ADDACE/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-96C1ADDACE/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-96C1ADDACE/solution-q20-p19.webp",
+      "assets/SZ-G9-T1-96C1ADDACE/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          738.18,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          680.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          345.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G10.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“分解组合图形求边角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

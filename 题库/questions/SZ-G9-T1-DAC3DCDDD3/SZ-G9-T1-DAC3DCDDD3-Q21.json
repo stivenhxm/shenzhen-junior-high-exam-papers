@@ -1,0 +1,412 @@
+{
+  "id": "SZ-G9-T1-DAC3DCDDD3-Q21",
+  "paper_id": "SZ-G9-T1-DAC3DCDDD3",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、由相似比求对应线段或周长",
+  "stem": "如图，在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，点\\(E\\)是\\(AD\\)边上一动点，连接\\(BE\\)，将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，分别交边\\(CD\\)于点\\(F\\)，交对角线\\(BD\\)于点\\(G\\).\n〔图1〕\n（1）试判断\\(\\vartriangle ABD\\)的形状，并说明理由；\n（2）若\\(AB=3\\)，\\(AE=1\\)，求\\(DG\\)及\\(EG\\)的长；\n（3）若\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，求\\(\\frac { EG } { GF }\\)的值.",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-DAC3DCDDD3/figures/09b08a6408a831ad3f32eb2168c8c95f4ffe0f33dad305378d0e52f040faa647.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）等边三角形，理由见解析\n（2）\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)\n（3）\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)",
+  "answer": "（1）等边三角形，理由见解析\n（2）\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)\n（3）\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)",
+  "given_solution": "【分析】（1）根据有一个角是\\(60{}^\\circ\\)的等腰三角形是等边三角形判定即可；\n（2）先构造直角三角形求出\\(BE\\)，再证明\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，利用相似三角形的性质计算即可；\n（3）先设\\(AB=m\\)，\\(AE=n\\)，利用\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)得到\\(n=\\frac { 4m } { 5 }\\)或\\(n=\\frac { m } { 5 }\\)，再利用平行线分线段成比例的推论进行计算即可．\n【小问1详解】\n在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，\n∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\\(AB=AD\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形．\n【小问2详解】\n过B点作\\(BP\\bot AD\\)，垂足为P，\n∴\\(\\angle ABP=30{}^\\circ\\)，\n∴\\(AP=\\frac { 1 } { 2 }AB=\\frac { 3 } { 2 }\\)\n∴\\(BP=\\sqrt[] { AB ^ { 2 } -AP ^ { 2 } }=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，\n∵\\(AE=1\\)，\n∴\\(PE=\\frac { 1 } { 2 }\\)，\n∴\\(BE=\\sqrt[] { BP ^ { 2 } +PE ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 3\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，\n∵将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，得到线段\\(EF\\)，\n∴\\(\\angle BEF=60{}^\\circ\\)，\n∴\\(\\angle AEB+\\angle DEF=120{}^\\circ\\)，\n又∵\\(\\angle AEB+\\angle ABE=120{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle DEF\\)\n∵\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(\\angle A=\\angle ADB=60{}^\\circ\\)，\n∴\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，\n∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }=\\frac { EG } { BE }\\)，\n∴\\(\\frac { DG } { 1 }=\\frac { 2 } { 3 }=\\frac { EG } { \\sqrt[] { 7 } }\\)，\n∴\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)．\n〔图2〕【小问3详解】\n设\\(AB=m\\)，\\(AE=n\\)，\n如图，过E点作\\(EH\\parallel AB\\)交\\(DB\\)于H，\n∴\\(\\angle A=DEH=60{}^\\circ\\)，\n∴\\(\\vartriangle DEH\\)是等边三角形，\n∴\\(DH=EH=DE=m-n\\)，\n由（2）知\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，\n∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }\\)，\n∴\\(\\frac { DG } { n }=\\frac { m-n } { m }\\)，\n∴\\(DG=\\frac { n\\left ( { m-n } \\right ) } { m }\\)，\n∵\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，\n∴\\(\\frac { DG } { BD }=\\frac { 4 } { 25 }\\)，\n∴\\(DG=\\frac { 4 } { 25 }m\\)，\n∴\\(\\frac { n\\left ( { m-n } \\right ) } { m }=\\frac { 4 } { 25 }m\\)，\n∴\\(n=\\frac { 4m } { 5 }\\)或\\(n=\\frac { m } { 5 }\\)，\n∵\\(EH\\parallel AB\\)，\n∴\\(EH\\parallel DF\\)，\n∴\\(\\frac { EG } { GF }=\\frac { HG } { DG }=\\frac { DH-DG } { DG }=\\frac { m-n-\\frac { 4m } { 25 } } { \\frac { 4m } { 25 } }=\\frac { 21m-25n } { 4m }\\)，\n当\\(n=\\frac { 4m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=\\frac { 1 } { 4 }\\)，\n当\\(n=\\frac { m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=4\\)，\n∴\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)．\n〔图3〕\n【点睛】本题考查了菱形的性质、等边三角形的判定与性质、勾股定理、相似三角形的判定与性质等内容，解题关键是能通过构造直角三角形与相似三角形，表示出各线段之间的关系，再来计算，本题较综合，考查了学生分析问题的能力．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-DAC3DCDDD3/figures/09b08a6408a831ad3f32eb2168c8c95f4ffe0f33dad305378d0e52f040faa647.png",
+    "assets/SZ-G9-T1-DAC3DCDDD3/figures/7ad3f06a3c11c4d89e8ab317814e100807d3b79022c720814c319f82c6486cf7.png",
+    "assets/SZ-G9-T1-DAC3DCDDD3/figures/95162132b2ea2f9aae40c988addfb58da6a57ddc4980ee3ab59f8d0da461a406.png"
+  ],
+  "solution": "【小问1详解】\n在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，\n∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\\(AB=AD\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形．\n【小问2详解】\n过B点作\\(BP\\bot AD\\)，垂足为P，\n∴\\(\\angle ABP=30{}^\\circ\\)，\n∴\\(AP=\\frac { 1 } { 2 }AB=\\frac { 3 } { 2 }\\)\n∴\\(BP=\\sqrt[] { AB ^ { 2 } -AP ^ { 2 } }=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，\n∵\\(AE=1\\)，\n∴\\(PE=\\frac { 1 } { 2 }\\)，\n∴\\(BE=\\sqrt[] { BP ^ { 2 } +PE ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 3\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，\n∵将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，得到线段\\(EF\\)，\n∴\\(\\angle BEF=60{}^\\circ\\)，\n∴\\(\\angle AEB+\\angle DEF=120{}^\\circ\\)，\n又∵\\(\\angle AEB+\\angle ABE=120{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle DEF\\)\n∵\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(\\angle A=\\angle ADB=60{}^\\circ\\)，\n∴\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，\n∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }=\\frac { EG } { BE }\\)，\n∴\\(\\frac { DG } { 1 }=\\frac { 2 } { 3 }=\\frac { EG } { \\sqrt[] { 7 } }\\)，\n∴\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)．\n〔图2〕【小问3详解】\n设\\(AB=m\\)，\\(AE=n\\)，\n如图，过E点作\\(EH\\parallel AB\\)交\\(DB\\)于H，\n∴\\(\\angle A=DEH=60{}^\\circ\\)，\n∴\\(\\vartriangle DEH\\)是等边三角形，\n∴\\(DH=EH=DE=m-n\\)，\n由（2）知\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，\n∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }\\)，\n∴\\(\\frac { DG } { n }=\\frac { m-n } { m }\\)，\n∴\\(DG=\\frac { n\\left ( { m-n } \\right ) } { m }\\)，\n∵\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，\n∴\\(\\frac { DG } { BD }=\\frac { 4 } { 25 }\\)，\n∴\\(DG=\\frac { 4 } { 25 }m\\)，\n∴\\(\\frac { n\\left ( { m-n } \\right ) } { m }=\\frac { 4 } { 25 }m\\)，\n∴\\(n=\\frac { 4m } { 5 }\\)或\\(n=\\frac { m } { 5 }\\)，\n∵\\(EH\\parallel AB\\)，\n∴\\(EH\\parallel DF\\)，\n∴\\(\\frac { EG } { GF }=\\frac { HG } { DG }=\\frac { DH-DG } { DG }=\\frac { m-n-\\frac { 4m } { 25 } } { \\frac { 4m } { 25 } }=\\frac { 21m-25n } { 4m }\\)，\n当\\(n=\\frac { 4m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=\\frac { 1 } { 4 }\\)，\n当\\(n=\\frac { m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=4\\)，\n∴\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)．\n〔图3〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，",
+    "∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\\(AB=AD\\)，",
+    "∴\\(\\vartriangle ABD\\)是等边三角形．",
+    "【小问2详解】",
+    "过B点作\\(BP\\bot AD\\)，垂足为P，",
+    "∴\\(\\angle ABP=30{}^\\circ\\)，",
+    "∴\\(AP=\\frac { 1 } { 2 }AB=\\frac { 3 } { 2 }\\)",
+    "∴\\(BP=\\sqrt[] { AB ^ { 2 } -AP ^ { 2 } }=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，",
+    "∵\\(AE=1\\)，",
+    "∴\\(PE=\\frac { 1 } { 2 }\\)，",
+    "∴\\(BE=\\sqrt[] { BP ^ { 2 } +PE ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 3\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，",
+    "∵将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，得到线段\\(EF\\)，",
+    "∴\\(\\angle BEF=60{}^\\circ\\)，",
+    "∴\\(\\angle AEB+\\angle DEF=120{}^\\circ\\)，",
+    "又∵\\(\\angle AEB+\\angle ABE=120{}^\\circ\\)，",
+    "∴\\(\\angle ABE=\\angle DEF\\)",
+    "∵\\(\\vartriangle ABD\\)是等边三角形，",
+    "∴\\(\\angle A=\\angle ADB=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，",
+    "∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }=\\frac { EG } { BE }\\)，",
+    "∴\\(\\frac { DG } { 1 }=\\frac { 2 } { 3 }=\\frac { EG } { \\sqrt[] { 7 } }\\)，",
+    "∴\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)．",
+    "〔图2〕【小问3详解】",
+    "设\\(AB=m\\)，\\(AE=n\\)，",
+    "如图，过E点作\\(EH\\parallel AB\\)交\\(DB\\)于H，",
+    "∴\\(\\angle A=DEH=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle DEH\\)是等边三角形，",
+    "∴\\(DH=EH=DE=m-n\\)，",
+    "由（2）知\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，",
+    "∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }\\)，",
+    "∴\\(\\frac { DG } { n }=\\frac { m-n } { m }\\)，",
+    "∴\\(DG=\\frac { n\\left ( { m-n } \\right ) } { m }\\)，",
+    "∵\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，",
+    "∴\\(\\frac { DG } { BD }=\\frac { 4 } { 25 }\\)，",
+    "∴\\(DG=\\frac { 4 } { 25 }m\\)，",
+    "∴\\(\\frac { n\\left ( { m-n } \\right ) } { m }=\\frac { 4 } { 25 }m\\)，",
+    "∴\\(n=\\frac { 4m } { 5 }\\)或\\(n=\\frac { m } { 5 }\\)，",
+    "∵\\(EH\\parallel AB\\)，",
+    "∴\\(EH\\parallel DF\\)，",
+    "∴\\(\\frac { EG } { GF }=\\frac { HG } { DG }=\\frac { DH-DG } { DG }=\\frac { m-n-\\frac { 4m } { 25 } } { \\frac { 4m } { 25 } }=\\frac { 21m-25n } { 4m }\\)，",
+    "当\\(n=\\frac { 4m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=\\frac { 1 } { 4 }\\)，",
+    "当\\(n=\\frac { m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=4\\)，",
+    "∴\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)．",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，点\\(E\\)是\\(AD\\)边上一动点，连接\\(BE\\)，将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，分别交边\\(CD\\)于点\\(F\\)，交对角线\\(BD\\)于点\\(G\\).\n〔图1〕",
+      "paper_blocks": [
+        73,
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-DAC3DCDDD3-Q21-P01",
+      "label": "（1）",
+      "prompt": "试判断\\(\\vartriangle ABD\\)的形状，并说明理由；",
+      "stem_text": "试判断\\(\\vartriangle ABD\\)的形状，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "等边三角形，理由见解析",
+      "answer": "等边三角形，理由见解析",
+      "given_solution": "在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，\n∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\\(AB=AD\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形．",
+      "solution_steps": [
+        "在菱形\\(ABCD\\)中，\\(\\angle ABC=120{}^\\circ\\)，",
+        "∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\\(AB=AD\\)，",
+        "∴\\(\\vartriangle ABD\\)是等边三角形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          451,
+          452,
+          453
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DAC3DCDDD3-Q21-P02",
+      "label": "（2）",
+      "prompt": "若\\(AB=3\\)，\\(AE=1\\)，求\\(DG\\)及\\(EG\\)的长；",
+      "stem_text": "若\\(AB=3\\)，\\(AE=1\\)，求\\(DG\\)及\\(EG\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)",
+      "answer": "\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)",
+      "given_solution": "过B点作\\(BP\\bot AD\\)，垂足为P，\n∴\\(\\angle ABP=30{}^\\circ\\)，\n∴\\(AP=\\frac { 1 } { 2 }AB=\\frac { 3 } { 2 }\\)\n∴\\(BP=\\sqrt[] { AB ^ { 2 } -AP ^ { 2 } }=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，\n∵\\(AE=1\\)，\n∴\\(PE=\\frac { 1 } { 2 }\\)，\n∴\\(BE=\\sqrt[] { BP ^ { 2 } +PE ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 3\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，\n∵将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，得到线段\\(EF\\)，\n∴\\(\\angle BEF=60{}^\\circ\\)，\n∴\\(\\angle AEB+\\angle DEF=120{}^\\circ\\)，\n又∵\\(\\angle AEB+\\angle ABE=120{}^\\circ\\)，\n∴\\(\\angle ABE=\\angle DEF\\)\n∵\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(\\angle A=\\angle ADB=60{}^\\circ\\)，\n∴\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，\n∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }=\\frac { EG } { BE }\\)，\n∴\\(\\frac { DG } { 1 }=\\frac { 2 } { 3 }=\\frac { EG } { \\sqrt[] { 7 } }\\)，\n∴\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)．\n〔图2〕",
+      "solution_steps": [
+        "过B点作\\(BP\\bot AD\\)，垂足为P，",
+        "∴\\(\\angle ABP=30{}^\\circ\\)，",
+        "∴\\(AP=\\frac { 1 } { 2 }AB=\\frac { 3 } { 2 }\\)",
+        "∴\\(BP=\\sqrt[] { AB ^ { 2 } -AP ^ { 2 } }=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，",
+        "∵\\(AE=1\\)，",
+        "∴\\(PE=\\frac { 1 } { 2 }\\)，",
+        "∴\\(BE=\\sqrt[] { BP ^ { 2 } +PE ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 3\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 1 } { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，",
+        "∵将射线\\(EB\\)绕点\\(E\\)逆时针旋转60°，得到线段\\(EF\\)，",
+        "∴\\(\\angle BEF=60{}^\\circ\\)，",
+        "∴\\(\\angle AEB+\\angle DEF=120{}^\\circ\\)，",
+        "又∵\\(\\angle AEB+\\angle ABE=120{}^\\circ\\)，",
+        "∴\\(\\angle ABE=\\angle DEF\\)",
+        "∵\\(\\vartriangle ABD\\)是等边三角形，",
+        "∴\\(\\angle A=\\angle ADB=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，",
+        "∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }=\\frac { EG } { BE }\\)，",
+        "∴\\(\\frac { DG } { 1 }=\\frac { 2 } { 3 }=\\frac { EG } { \\sqrt[] { 7 } }\\)，",
+        "∴\\(DG=\\frac { 2 } { 3 }\\)，\\(EG=\\frac { 2\\sqrt[] { 7 } } { 3 }\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          76
+        ],
+        "solution_block_ids": [
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DAC3DCDDD3-Q21-P03",
+      "label": "（3）",
+      "prompt": "若\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，求\\(\\frac { EG } { GF }\\)的值.",
+      "stem_text": "若\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，求\\(\\frac { EG } { GF }\\)的值.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)",
+      "answer": "\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)",
+      "given_solution": "设\\(AB=m\\)，\\(AE=n\\)，\n如图，过E点作\\(EH\\parallel AB\\)交\\(DB\\)于H，\n∴\\(\\angle A=DEH=60{}^\\circ\\)，\n∴\\(\\vartriangle DEH\\)是等边三角形，\n∴\\(DH=EH=DE=m-n\\)，\n由（2）知\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，\n∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }\\)，\n∴\\(\\frac { DG } { n }=\\frac { m-n } { m }\\)，\n∴\\(DG=\\frac { n\\left ( { m-n } \\right ) } { m }\\)，\n∵\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，\n∴\\(\\frac { DG } { BD }=\\frac { 4 } { 25 }\\)，\n∴\\(DG=\\frac { 4 } { 25 }m\\)，\n∴\\(\\frac { n\\left ( { m-n } \\right ) } { m }=\\frac { 4 } { 25 }m\\)，\n∴\\(n=\\frac { 4m } { 5 }\\)或\\(n=\\frac { m } { 5 }\\)，\n∵\\(EH\\parallel AB\\)，\n∴\\(EH\\parallel DF\\)，\n∴\\(\\frac { EG } { GF }=\\frac { HG } { DG }=\\frac { DH-DG } { DG }=\\frac { m-n-\\frac { 4m } { 25 } } { \\frac { 4m } { 25 } }=\\frac { 21m-25n } { 4m }\\)，\n当\\(n=\\frac { 4m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=\\frac { 1 } { 4 }\\)，\n当\\(n=\\frac { m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=4\\)，\n∴\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)．\n〔图3〕",
+      "solution_steps": [
+        "设\\(AB=m\\)，\\(AE=n\\)，",
+        "如图，过E点作\\(EH\\parallel AB\\)交\\(DB\\)于H，",
+        "∴\\(\\angle A=DEH=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle DEH\\)是等边三角形，",
+        "∴\\(DH=EH=DE=m-n\\)，",
+        "由（2）知\\(\\vartriangle DEG\\backsim \\vartriangle ABE\\)，",
+        "∴\\(\\frac { DG } { AE }=\\frac { DE } { AB }\\)，",
+        "∴\\(\\frac { DG } { n }=\\frac { m-n } { m }\\)，",
+        "∴\\(DG=\\frac { n\\left ( { m-n } \\right ) } { m }\\)，",
+        "∵\\(\\frac { DG } { BG }=\\frac { 4 } { 21 }\\)，",
+        "∴\\(\\frac { DG } { BD }=\\frac { 4 } { 25 }\\)，",
+        "∴\\(DG=\\frac { 4 } { 25 }m\\)，",
+        "∴\\(\\frac { n\\left ( { m-n } \\right ) } { m }=\\frac { 4 } { 25 }m\\)，",
+        "∴\\(n=\\frac { 4m } { 5 }\\)或\\(n=\\frac { m } { 5 }\\)，",
+        "∵\\(EH\\parallel AB\\)，",
+        "∴\\(EH\\parallel DF\\)，",
+        "∴\\(\\frac { EG } { GF }=\\frac { HG } { DG }=\\frac { DH-DG } { DG }=\\frac { m-n-\\frac { 4m } { 25 } } { \\frac { 4m } { 25 } }=\\frac { 21m-25n } { 4m }\\)，",
+        "当\\(n=\\frac { 4m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=\\frac { 1 } { 4 }\\)，",
+        "当\\(n=\\frac { m } { 5 }\\)时，\\(\\frac { EG } { GF }=\\frac { 21m-25n } { 4m }=4\\)，",
+        "∴\\(\\frac { EG } { GF }\\)的值为\\(\\frac { 1 } { 4 }\\)或\\(4\\)．",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          77
+        ],
+        "solution_block_ids": [
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          26,
+          27
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      73,
+      77
+    ],
+    "solution_body_blocks": [
+      438,
+      495
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-DAC3DCDDD3/paper-q21-p06.webp",
+      "assets/SZ-G9-T1-DAC3DCDDD3/paper-q21-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          674.55,
+          583.64,
+          712.27
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          225.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-DAC3DCDDD3/solution-q21-p24.webp",
+      "assets/SZ-G9-T1-DAC3DCDDD3/solution-q21-p25.webp",
+      "assets/SZ-G9-T1-DAC3DCDDD3/solution-q21-p26.webp",
+      "assets/SZ-G9-T1-DAC3DCDDD3/solution-q21-p27.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          729.09,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          724.09
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          548.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

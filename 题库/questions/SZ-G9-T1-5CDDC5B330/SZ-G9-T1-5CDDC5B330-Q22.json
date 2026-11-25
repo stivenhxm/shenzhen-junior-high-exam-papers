@@ -1,0 +1,433 @@
+{
+  "id": "SZ-G9-T1-5CDDC5B330-Q22",
+  "paper_id": "SZ-G9-T1-5CDDC5B330",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、构造全等关系证明线段或角关系",
+  "stem": "已知\\(\\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，\\(AB=AC,DE=DC,\\angle BAC=\\angle EDC=n{}^\\circ\\)．\n〔图1〕\n（1）当\\(n=60\\)时，\n①如图1，当点D在\\(AC\\)上时，请直接写出\\(BE\\)与\\(AD\\)的数量关系；_________；\n②如图2，当点D不在\\(AC\\)上时，判断线段\\(BE\\)与\\(AD\\)的数量关系，并说明理由；\n（2）当\\(n=90\\)时，\n①如图3，探究线段\\(BE\\)与\\(AD\\)的数量关系，并说明理由；\n②当\\(BE//AC,AB=3\\sqrt[] { 2 },AD=1\\)时，请直接写出\\(DC\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-5CDDC5B330/figures/85b9d5f8b2736bdf1024dfe06283a6bf3eea6ed80856a16c427c71567e347b86.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(BE=AD\\)；②\\(BE=AD\\)，理由见解析；（2）①\\(BE=\\sqrt[] { 2 }AD\\)，理由见解析；②5．",
+  "answer": "（1）①\\(BE=AD\\)；②\\(BE=AD\\)，理由见解析；（2）①\\(BE=\\sqrt[] { 2 }AD\\)，理由见解析；②5．",
+  "given_solution": "【分析】（1）①先根据等边三角形的判定与性质可得\\(AC=BC,EC=DC\\)，再根据线段的和差即可得；\n②先根据等边三角形的性质可得\\(\\angle ACB=\\angle DCE=60{}^\\circ\\)，从而可得\\(\\angle BCE=\\angle ACD\\)，再根据三角形全等的判定定理与性质即可得出结论；\n（2）①先根据等腰直角三角形的判定与性质可得\\(\\angle ACB=\\angle DCE=45{}^\\circ ,\\frac { BC } { EC }=\\frac { AC } { DC }\\)，从而可得\\(\\angle BCE=\\angle ACD\\)，再根据相似三角形的判定可得\\(\\vartriangle BCE\\sim \\vartriangle ACD\\)，然后根据相似三角形的性质即可得出结论；\n②设\\(AB\\)与\\(EC\\)交于点\\(O\\)，先根据（2）①的结论可得\\(AC=3\\sqrt[] { 2 },BE=\\sqrt[] { 2 }\\)，再根据相似三角形的判定与性质可得\\(\\frac { OA } { OB }=\\frac { AC } { BE }\\)，从而可得\\(OB=\\frac { 3\\sqrt[] { 2 } } { 4 },OA=\\frac { 9\\sqrt[] { 2 } } { 4 }\\)，然后利用勾股定理、线段的和差可得\\(EC=OC+OE=5\\sqrt[] { 2 }\\)，最后在\\(Rt\\vartriangle DEC\\)中，解直角三角形即可得．\n【详解】解：（1）①当\\(n=60\\)时，\\(\\angle BAC=\\angle EDC=60{}^\\circ\\)，\n\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，\n\\(\\therefore AC=BC,EC=DC\\)，\n\\(\\therefore AC-DC=BC-EC\\)，即\\(BE=AD\\)，\n故答案为：\\(BE=AD\\)；\n②\\(BE=AD\\)，理由如下：\n\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，\n\\(\\therefore AC=BC,EC=DC,\\angle ACB=\\angle DCE=60{}^\\circ\\)，\n\\(\\therefore \\angle ACB-\\angle BCD=\\angle DCE-\\angle BCD\\)，即\\(\\angle ACD=\\angle BCE\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} BC=AC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE\\cong \\vartriangle ACD(SAS)\\)，\n\\(\\therefore BE=AD\\)；\n（2）①当\\(n=90\\)时，\\(\\angle BAC=\\angle EDC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰直角三角形，\n\\(\\therefore \\angle ACB=\\angle DCE=45{}^\\circ\\)，\n\\(\\therefore \\angle ACB-\\angle ACE=\\angle DCE-\\angle ACE\\)，即\\(\\angle BCE=\\angle ACD\\)，\n设\\(AB=AC=a(a>0),DE=DC=b(b>0)\\)，\n则\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 2 }a,EC=\\sqrt[] { DE ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 2 }b\\)，\n\\(\\therefore \\frac { BC } { EC }=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 }b }=\\frac { a } { b }=\\frac { AC } { DC }\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} \\frac { BC } { EC }=\\frac { AC } { DC } \\\\ \\angle BCE=\\angle ACD \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE\\sim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { BE } { AD }=\\frac { BC } { AC }=\\frac { \\sqrt[] { 2 }a } { a }=\\sqrt[] { 2 }\\)，\n即\\(BE=\\sqrt[] { 2 }AD\\)；\n②如图，设\\(AB\\)与\\(EC\\)交于点\\(O\\)，\n〔图2〕\n\\(\\because AB=3\\sqrt[] { 2 },AD=1\\)，\n\\(\\therefore AC=AB=3\\sqrt[] { 2 },BE=\\sqrt[] { 2 }AD=\\sqrt[] { 2 }\\)，\n设\\(OB=x(x>0)\\)，则\\(OA=AB-OB=3\\sqrt[] { 2 }-x\\)，\n\\(\\because BE{ \\rm{ / } }{ \\rm{ / } }AC\\)，\n\\(\\therefore \\vartriangle AOC\\sim \\vartriangle BOE\\)，\\(\\angle OBE=\\angle OAC=90{}^\\circ\\)，\n\\(\\therefore \\frac { OA } { OB }=\\frac { AC } { BE }\\)，即\\(\\frac { 3\\sqrt[] { 2 }-x } { x }=\\frac { 3\\sqrt[] { 2 } } { \\sqrt[] { 2 } }\\)，\n解得\\(x=\\frac { 3\\sqrt[] { 2 } } { 4 }\\)，\n\\(\\therefore OB=\\frac { 3\\sqrt[] { 2 } } { 4 },OA=\\frac { 9\\sqrt[] { 2 } } { 4 }\\)，\n在\\(Rt\\vartriangle AOC\\)中，\\(OC=\\sqrt[] { AC ^ { 2 } +OA ^ { 2 } }=\\frac { 15\\sqrt[] { 2 } } { 4 }\\)，\n在\\(Rt\\vartriangle BOE\\)中，\\(OE=\\sqrt[] { BE ^ { 2 } +OB ^ { 2 } }=\\frac { 5\\sqrt[] { 2 } } { 4 }\\)，\n\\(\\therefore EC=OC+OE=5\\sqrt[] { 2 }\\)，\n则在\\(Rt\\vartriangle DEC\\)中，\\(DC=EC\\cdot cos\\angle DCE=5\\sqrt[] { 2 }\\times \\frac { \\sqrt[] { 2 } } { 2 }=5\\)．\n【点睛】本题考查了等边三角形的判定与性质、相似三角形的判定与性质、解直角三角形等知识点，较难的是题（2），正确找出相似三角形是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-5CDDC5B330/figures/85b9d5f8b2736bdf1024dfe06283a6bf3eea6ed80856a16c427c71567e347b86.png",
+    "assets/SZ-G9-T1-5CDDC5B330/figures/484b33cb28e969fa3259a177341efdc0d709c9e70599d69ef836761966eaee88.png"
+  ],
+  "solution": "解：（1）①当\\(n=60\\)时，\\(\\angle BAC=\\angle EDC=60{}^\\circ\\)，\n\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，\n\\(\\therefore AC=BC,EC=DC\\)，\n\\(\\therefore AC-DC=BC-EC\\)，即\\(BE=AD\\)，\n故答案为：\\(BE=AD\\)；\n②\\(BE=AD\\)，理由如下：\n\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，\n\\(\\therefore AC=BC,EC=DC,\\angle ACB=\\angle DCE=60{}^\\circ\\)，\n\\(\\therefore \\angle ACB-\\angle BCD=\\angle DCE-\\angle BCD\\)，即\\(\\angle ACD=\\angle BCE\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} BC=AC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE\\cong \\vartriangle ACD(SAS)\\)，\n\\(\\therefore BE=AD\\)；\n（2）①当\\(n=90\\)时，\\(\\angle BAC=\\angle EDC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰直角三角形，\n\\(\\therefore \\angle ACB=\\angle DCE=45{}^\\circ\\)，\n\\(\\therefore \\angle ACB-\\angle ACE=\\angle DCE-\\angle ACE\\)，即\\(\\angle BCE=\\angle ACD\\)，\n设\\(AB=AC=a(a>0),DE=DC=b(b>0)\\)，\n则\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 2 }a,EC=\\sqrt[] { DE ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 2 }b\\)，\n\\(\\therefore \\frac { BC } { EC }=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 }b }=\\frac { a } { b }=\\frac { AC } { DC }\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} \\frac { BC } { EC }=\\frac { AC } { DC } \\\\ \\angle BCE=\\angle ACD \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE\\sim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { BE } { AD }=\\frac { BC } { AC }=\\frac { \\sqrt[] { 2 }a } { a }=\\sqrt[] { 2 }\\)，\n即\\(BE=\\sqrt[] { 2 }AD\\)；\n②如图，设\\(AB\\)与\\(EC\\)交于点\\(O\\)，\n〔图2〕\n\\(\\because AB=3\\sqrt[] { 2 },AD=1\\)，\n\\(\\therefore AC=AB=3\\sqrt[] { 2 },BE=\\sqrt[] { 2 }AD=\\sqrt[] { 2 }\\)，\n设\\(OB=x(x>0)\\)，则\\(OA=AB-OB=3\\sqrt[] { 2 }-x\\)，\n\\(\\because BE{ \\rm{ / } }{ \\rm{ / } }AC\\)，\n\\(\\therefore \\vartriangle AOC\\sim \\vartriangle BOE\\)，\\(\\angle OBE=\\angle OAC=90{}^\\circ\\)，\n\\(\\therefore \\frac { OA } { OB }=\\frac { AC } { BE }\\)，即\\(\\frac { 3\\sqrt[] { 2 }-x } { x }=\\frac { 3\\sqrt[] { 2 } } { \\sqrt[] { 2 } }\\)，\n解得\\(x=\\frac { 3\\sqrt[] { 2 } } { 4 }\\)，\n\\(\\therefore OB=\\frac { 3\\sqrt[] { 2 } } { 4 },OA=\\frac { 9\\sqrt[] { 2 } } { 4 }\\)，\n在\\(Rt\\vartriangle AOC\\)中，\\(OC=\\sqrt[] { AC ^ { 2 } +OA ^ { 2 } }=\\frac { 15\\sqrt[] { 2 } } { 4 }\\)，\n在\\(Rt\\vartriangle BOE\\)中，\\(OE=\\sqrt[] { BE ^ { 2 } +OB ^ { 2 } }=\\frac { 5\\sqrt[] { 2 } } { 4 }\\)，\n\\(\\therefore EC=OC+OE=5\\sqrt[] { 2 }\\)，\n则在\\(Rt\\vartriangle DEC\\)中，\\(DC=EC\\cdot cos\\angle DCE=5\\sqrt[] { 2 }\\times \\frac { \\sqrt[] { 2 } } { 2 }=5\\)．",
+  "solution_steps": [
+    "解：（1）①当\\(n=60\\)时，\\(\\angle BAC=\\angle EDC=60{}^\\circ\\)，",
+    "\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，",
+    "\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，",
+    "\\(\\therefore AC=BC,EC=DC\\)，",
+    "\\(\\therefore AC-DC=BC-EC\\)，即\\(BE=AD\\)，",
+    "故答案为：\\(BE=AD\\)；",
+    "②\\(BE=AD\\)，理由如下：",
+    "\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，",
+    "\\(\\therefore AC=BC,EC=DC,\\angle ACB=\\angle DCE=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle ACB-\\angle BCD=\\angle DCE-\\angle BCD\\)，即\\(\\angle ACD=\\angle BCE\\)，",
+    "在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} BC=AC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BCE\\cong \\vartriangle ACD(SAS)\\)，",
+    "\\(\\therefore BE=AD\\)；",
+    "（2）①当\\(n=90\\)时，\\(\\angle BAC=\\angle EDC=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰直角三角形，",
+    "\\(\\therefore \\angle ACB=\\angle DCE=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle ACB-\\angle ACE=\\angle DCE-\\angle ACE\\)，即\\(\\angle BCE=\\angle ACD\\)，",
+    "设\\(AB=AC=a(a>0),DE=DC=b(b>0)\\)，",
+    "则\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 2 }a,EC=\\sqrt[] { DE ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 2 }b\\)，",
+    "\\(\\therefore \\frac { BC } { EC }=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 }b }=\\frac { a } { b }=\\frac { AC } { DC }\\)，",
+    "在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} \\frac { BC } { EC }=\\frac { AC } { DC } \\\\ \\angle BCE=\\angle ACD \\end{cases}\\)，",
+    "\\(\\therefore \\vartriangle BCE\\sim \\vartriangle ACD\\)，",
+    "\\(\\therefore \\frac { BE } { AD }=\\frac { BC } { AC }=\\frac { \\sqrt[] { 2 }a } { a }=\\sqrt[] { 2 }\\)，",
+    "即\\(BE=\\sqrt[] { 2 }AD\\)；",
+    "②如图，设\\(AB\\)与\\(EC\\)交于点\\(O\\)，",
+    "〔图2〕",
+    "\\(\\because AB=3\\sqrt[] { 2 },AD=1\\)，",
+    "\\(\\therefore AC=AB=3\\sqrt[] { 2 },BE=\\sqrt[] { 2 }AD=\\sqrt[] { 2 }\\)，",
+    "设\\(OB=x(x>0)\\)，则\\(OA=AB-OB=3\\sqrt[] { 2 }-x\\)，",
+    "\\(\\because BE{ \\rm{ / } }{ \\rm{ / } }AC\\)，",
+    "\\(\\therefore \\vartriangle AOC\\sim \\vartriangle BOE\\)，\\(\\angle OBE=\\angle OAC=90{}^\\circ\\)，",
+    "\\(\\therefore \\frac { OA } { OB }=\\frac { AC } { BE }\\)，即\\(\\frac { 3\\sqrt[] { 2 }-x } { x }=\\frac { 3\\sqrt[] { 2 } } { \\sqrt[] { 2 } }\\)，",
+    "解得\\(x=\\frac { 3\\sqrt[] { 2 } } { 4 }\\)，",
+    "\\(\\therefore OB=\\frac { 3\\sqrt[] { 2 } } { 4 },OA=\\frac { 9\\sqrt[] { 2 } } { 4 }\\)，",
+    "在\\(Rt\\vartriangle AOC\\)中，\\(OC=\\sqrt[] { AC ^ { 2 } +OA ^ { 2 } }=\\frac { 15\\sqrt[] { 2 } } { 4 }\\)，",
+    "在\\(Rt\\vartriangle BOE\\)中，\\(OE=\\sqrt[] { BE ^ { 2 } +OB ^ { 2 } }=\\frac { 5\\sqrt[] { 2 } } { 4 }\\)，",
+    "\\(\\therefore EC=OC+OE=5\\sqrt[] { 2 }\\)，",
+    "则在\\(Rt\\vartriangle DEC\\)中，\\(DC=EC\\cdot cos\\angle DCE=5\\sqrt[] { 2 }\\times \\frac { \\sqrt[] { 2 } } { 2 }=5\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(\\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，\\(AB=AC,DE=DC,\\angle BAC=\\angle EDC=n{}^\\circ\\)．\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "当\\(n=60\\)时，",
+      "paper_blocks": [
+        68
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "当\\(n=90\\)时，",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-5CDDC5B330-Q22-P01",
+      "label": "（1）①",
+      "prompt": "如图1，当点D在\\(AC\\)上时，请直接写出\\(BE\\)与\\(AD\\)的数量关系；_________；",
+      "stem_text": "如图1，当点D在\\(AC\\)上时，请直接写出\\(BE\\)与\\(AD\\)的数量关系；_________；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=AD\\)；",
+      "answer": "\\(BE=AD\\)；",
+      "given_solution": "当\\(n=60\\)时，\\(\\angle BAC=\\angle EDC=60{}^\\circ\\)，\n\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，\n\\(\\therefore AC=BC,EC=DC\\)，\n\\(\\therefore AC-DC=BC-EC\\)，即\\(BE=AD\\)，\n故答案为：\\(BE=AD\\)；",
+      "solution_steps": [
+        "当\\(n=60\\)时，\\(\\angle BAC=\\angle EDC=60{}^\\circ\\)，",
+        "\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰三角形，",
+        "\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，",
+        "\\(\\therefore AC=BC,EC=DC\\)，",
+        "\\(\\therefore AC-DC=BC-EC\\)，即\\(BE=AD\\)，",
+        "故答案为：\\(BE=AD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5CDDC5B330-Q22-P02",
+      "label": "（1）②",
+      "prompt": "如图2，当点D不在\\(AC\\)上时，判断线段\\(BE\\)与\\(AD\\)的数量关系，并说明理由；",
+      "stem_text": "如图2，当点D不在\\(AC\\)上时，判断线段\\(BE\\)与\\(AD\\)的数量关系，并说明理由；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=AD\\)，理由见解析；",
+      "answer": "\\(BE=AD\\)，理由见解析；",
+      "given_solution": "\\(BE=AD\\)，理由如下：\n\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，\n\\(\\therefore AC=BC,EC=DC,\\angle ACB=\\angle DCE=60{}^\\circ\\)，\n\\(\\therefore \\angle ACB-\\angle BCD=\\angle DCE-\\angle BCD\\)，即\\(\\angle ACD=\\angle BCE\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} BC=AC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE\\cong \\vartriangle ACD(SAS)\\)，\n\\(\\therefore BE=AD\\)；",
+      "solution_steps": [
+        "\\(BE=AD\\)，理由如下：",
+        "\\(\\because \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等边三角形，",
+        "\\(\\therefore AC=BC,EC=DC,\\angle ACB=\\angle DCE=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle ACB-\\angle BCD=\\angle DCE-\\angle BCD\\)，即\\(\\angle ACD=\\angle BCE\\)，",
+        "在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} BC=AC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle BCE\\cong \\vartriangle ACD(SAS)\\)，",
+        "\\(\\therefore BE=AD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5CDDC5B330-Q22-P03",
+      "label": "（2）①",
+      "prompt": "如图3，探究线段\\(BE\\)与\\(AD\\)的数量关系，并说明理由；",
+      "stem_text": "如图3，探究线段\\(BE\\)与\\(AD\\)的数量关系，并说明理由；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=\\sqrt[] { 2 }AD\\)，理由见解析；",
+      "answer": "\\(BE=\\sqrt[] { 2 }AD\\)，理由见解析；",
+      "given_solution": "当\\(n=90\\)时，\\(\\angle BAC=\\angle EDC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰直角三角形，\n\\(\\therefore \\angle ACB=\\angle DCE=45{}^\\circ\\)，\n\\(\\therefore \\angle ACB-\\angle ACE=\\angle DCE-\\angle ACE\\)，即\\(\\angle BCE=\\angle ACD\\)，\n设\\(AB=AC=a(a>0),DE=DC=b(b>0)\\)，\n则\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 2 }a,EC=\\sqrt[] { DE ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 2 }b\\)，\n\\(\\therefore \\frac { BC } { EC }=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 }b }=\\frac { a } { b }=\\frac { AC } { DC }\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} \\frac { BC } { EC }=\\frac { AC } { DC } \\\\ \\angle BCE=\\angle ACD \\end{cases}\\)，\n\\(\\therefore \\vartriangle BCE\\sim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { BE } { AD }=\\frac { BC } { AC }=\\frac { \\sqrt[] { 2 }a } { a }=\\sqrt[] { 2 }\\)，\n即\\(BE=\\sqrt[] { 2 }AD\\)；",
+      "solution_steps": [
+        "当\\(n=90\\)时，\\(\\angle BAC=\\angle EDC=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle DEC\\)都为等腰直角三角形，",
+        "\\(\\therefore \\angle ACB=\\angle DCE=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle ACB-\\angle ACE=\\angle DCE-\\angle ACE\\)，即\\(\\angle BCE=\\angle ACD\\)，",
+        "设\\(AB=AC=a(a>0),DE=DC=b(b>0)\\)，",
+        "则\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 2 }a,EC=\\sqrt[] { DE ^ { 2 } +DC ^ { 2 } }=\\sqrt[] { 2 }b\\)，",
+        "\\(\\therefore \\frac { BC } { EC }=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 }b }=\\frac { a } { b }=\\frac { AC } { DC }\\)，",
+        "在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中，\\(\\begin{cases} \\frac { BC } { EC }=\\frac { AC } { DC } \\\\ \\angle BCE=\\angle ACD \\end{cases}\\)，",
+        "\\(\\therefore \\vartriangle BCE\\sim \\vartriangle ACD\\)，",
+        "\\(\\therefore \\frac { BE } { AD }=\\frac { BC } { AC }=\\frac { \\sqrt[] { 2 }a } { a }=\\sqrt[] { 2 }\\)，",
+        "即\\(BE=\\sqrt[] { 2 }AD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5CDDC5B330-Q22-P04",
+      "label": "（2）②",
+      "prompt": "当\\(BE//AC,AB=3\\sqrt[] { 2 },AD=1\\)时，请直接写出\\(DC\\)的长．",
+      "stem_text": "当\\(BE//AC,AB=3\\sqrt[] { 2 },AD=1\\)时，请直接写出\\(DC\\)的长．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "5．",
+      "answer": "5．",
+      "given_solution": "如图，设\\(AB\\)与\\(EC\\)交于点\\(O\\)，\n〔图2〕\n\\(\\because AB=3\\sqrt[] { 2 },AD=1\\)，\n\\(\\therefore AC=AB=3\\sqrt[] { 2 },BE=\\sqrt[] { 2 }AD=\\sqrt[] { 2 }\\)，\n设\\(OB=x(x>0)\\)，则\\(OA=AB-OB=3\\sqrt[] { 2 }-x\\)，\n\\(\\because BE{ \\rm{ / } }{ \\rm{ / } }AC\\)，\n\\(\\therefore \\vartriangle AOC\\sim \\vartriangle BOE\\)，\\(\\angle OBE=\\angle OAC=90{}^\\circ\\)，\n\\(\\therefore \\frac { OA } { OB }=\\frac { AC } { BE }\\)，即\\(\\frac { 3\\sqrt[] { 2 }-x } { x }=\\frac { 3\\sqrt[] { 2 } } { \\sqrt[] { 2 } }\\)，\n解得\\(x=\\frac { 3\\sqrt[] { 2 } } { 4 }\\)，\n\\(\\therefore OB=\\frac { 3\\sqrt[] { 2 } } { 4 },OA=\\frac { 9\\sqrt[] { 2 } } { 4 }\\)，\n在\\(Rt\\vartriangle AOC\\)中，\\(OC=\\sqrt[] { AC ^ { 2 } +OA ^ { 2 } }=\\frac { 15\\sqrt[] { 2 } } { 4 }\\)，\n在\\(Rt\\vartriangle BOE\\)中，\\(OE=\\sqrt[] { BE ^ { 2 } +OB ^ { 2 } }=\\frac { 5\\sqrt[] { 2 } } { 4 }\\)，\n\\(\\therefore EC=OC+OE=5\\sqrt[] { 2 }\\)，\n则在\\(Rt\\vartriangle DEC\\)中，\\(DC=EC\\cdot cos\\angle DCE=5\\sqrt[] { 2 }\\times \\frac { \\sqrt[] { 2 } } { 2 }=5\\)．",
+      "solution_steps": [
+        "如图，设\\(AB\\)与\\(EC\\)交于点\\(O\\)，",
+        "〔图2〕",
+        "\\(\\because AB=3\\sqrt[] { 2 },AD=1\\)，",
+        "\\(\\therefore AC=AB=3\\sqrt[] { 2 },BE=\\sqrt[] { 2 }AD=\\sqrt[] { 2 }\\)，",
+        "设\\(OB=x(x>0)\\)，则\\(OA=AB-OB=3\\sqrt[] { 2 }-x\\)，",
+        "\\(\\because BE{ \\rm{ / } }{ \\rm{ / } }AC\\)，",
+        "\\(\\therefore \\vartriangle AOC\\sim \\vartriangle BOE\\)，\\(\\angle OBE=\\angle OAC=90{}^\\circ\\)，",
+        "\\(\\therefore \\frac { OA } { OB }=\\frac { AC } { BE }\\)，即\\(\\frac { 3\\sqrt[] { 2 }-x } { x }=\\frac { 3\\sqrt[] { 2 } } { \\sqrt[] { 2 } }\\)，",
+        "解得\\(x=\\frac { 3\\sqrt[] { 2 } } { 4 }\\)，",
+        "\\(\\therefore OB=\\frac { 3\\sqrt[] { 2 } } { 4 },OA=\\frac { 9\\sqrt[] { 2 } } { 4 }\\)，",
+        "在\\(Rt\\vartriangle AOC\\)中，\\(OC=\\sqrt[] { AC ^ { 2 } +OA ^ { 2 } }=\\frac { 15\\sqrt[] { 2 } } { 4 }\\)，",
+        "在\\(Rt\\vartriangle BOE\\)中，\\(OE=\\sqrt[] { BE ^ { 2 } +OB ^ { 2 } }=\\frac { 5\\sqrt[] { 2 } } { 4 }\\)，",
+        "\\(\\therefore EC=OC+OE=5\\sqrt[] { 2 }\\)，",
+        "则在\\(Rt\\vartriangle DEC\\)中，\\(DC=EC\\cdot cos\\angle DCE=5\\sqrt[] { 2 }\\times \\frac { \\sqrt[] { 2 } } { 2 }=5\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由边角条件解直角三角形”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      73
+    ],
+    "solution_body_blocks": [
+      355,
+      407
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-5CDDC5B330/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          432.27,
+          583.64,
+          730.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-5CDDC5B330/solution-q22-p19.webp",
+      "assets/SZ-G9-T1-5CDDC5B330/solution-q22-p20.webp",
+      "assets/SZ-G9-T1-5CDDC5B330/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          341.36,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          673.64
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          56.36,
+          583.64,
+          665.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G03.02",
+    "M.G08.02",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G03.02.02",
+    "E.G10.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。 本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由边角条件解直角三角形”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

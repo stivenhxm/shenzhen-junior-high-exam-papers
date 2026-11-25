@@ -1,0 +1,243 @@
+{
+  "id": "SZ-G9-T1-15F51C2F11-Q18",
+  "paper_id": "SZ-G9-T1-15F51C2F11",
+  "number": 18,
+  "type": "解答题",
+  "points": 8,
+  "title": "补足条件判定矩形、由相似比求对应线段或周长",
+  "stem": "（8分）如图，菱形\\(ABCD\\)的对角线\\(AC\\)、\\(BD\\)相交于点\\(O\\)，过点\\(D\\)作\\(DE\\parallel AC\\)，且\\(DE=\\frac { 1 } { 2 }AC\\)，连接\\(AE\\)、\\(CE\\)．\n〔图1〕\n(1)求证：四边形\\(OCED\\)为矩形．\n(2)若菱形\\(ABCD\\)中，\\(DB=6\\)，\\(AC=8\\)，求\\(EF\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-15F51C2F11/figures/e8ac8e60bfd563b1d8bea42be9e7649a7389e6aa822e0a7e245bd0fbc5698bf2.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）如图，菱形\\(ABCD\\)的对角线\\(AC\\)、\\(BD\\)相交于点\\(O\\)，过点\\(D\\)作\\(DE\\parallel AC\\)，且\\(DE=\\frac { 1 } { 2 }AC\\)，连接\\(AE\\)、\\(CE\\)．\n〔图1〕",
+      "paper_blocks": [
+        90,
+        91
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-15F51C2F11-Q18-P01",
+      "label": "(1)",
+      "prompt": "求证：四边形\\(OCED\\)为矩形．",
+      "stem_text": "求证：四边形\\(OCED\\)为矩形．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "∴平行四边形\\(OCED\\)是矩形",
+      "answer": "∴平行四边形\\(OCED\\)是矩形",
+      "given_solution": "证明：∵四边形\\(ABCD\\)是菱形，\n∴\\(AC\\bot BD,AO=OC=\\frac { 1 } { 2 }AC\\)，\n∴\\(\\angle DOC=90{}^\\circ\\)， （1分）\n∵\\(DE\\parallel AC,DE=\\frac { 1 } { 2 }AC\\)，\n∴\\(DE=OC.DE\\parallel OC\\)， （2分）\n∴四边形\\(OCED\\)是平行四边形， （3分）\n又∵\\(\\angle DOC=90{}^\\circ\\)，\n∴平行四边形\\(OCED\\)是矩形；（4分）",
+      "solution_steps": [
+        "证明：∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(AC\\bot BD,AO=OC=\\frac { 1 } { 2 }AC\\)，",
+        "∴\\(\\angle DOC=90{}^\\circ\\)， （1分）",
+        "∵\\(DE\\parallel AC,DE=\\frac { 1 } { 2 }AC\\)，",
+        "∴\\(DE=OC.DE\\parallel OC\\)， （2分）",
+        "∴四边形\\(OCED\\)是平行四边形， （3分）",
+        "又∵\\(\\angle DOC=90{}^\\circ\\)，",
+        "∴平行四边形\\(OCED\\)是矩形；（4分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          90,
+          91,
+          92
+        ],
+        "solution_block_ids": [
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-15F51C2F11-Q18-P02",
+      "label": "(2)",
+      "prompt": "若菱形\\(ABCD\\)中，\\(DB=6\\)，\\(AC=8\\)，求\\(EF\\)的长．",
+      "stem_text": "若菱形\\(ABCD\\)中，\\(DB=6\\)，\\(AC=8\\)，求\\(EF\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)",
+      "answer": "∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)",
+      "given_solution": "解：∵四边形\\(ABCD\\)是菱形，\\(DB=6\\)，\\(AC=8\\)，\n∴\\(AC\\bot BD,OB=OD=3,OA=OC=4\\)， （5分）\n∵平行四边形\\(OCED\\)是矩形；\n∴\\(CE=OD=3,DE=OC=4\\)，\n∴\\(AE=\\sqrt[] { CE ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +8 ^ { 2 } }=\\sqrt[] { 73 }\\)，（6分）\n∵\\(DE\\parallel AC\\)，\n∴\\(\\vartriangle DEF\\backsim \\vartriangle CAF\\)，（7分）\n∴\\(\\frac { EF } { AF }=\\frac { DE } { AC }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，\n∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)．（8分）",
+      "solution_steps": [
+        "解：∵四边形\\(ABCD\\)是菱形，\\(DB=6\\)，\\(AC=8\\)，",
+        "∴\\(AC\\bot BD,OB=OD=3,OA=OC=4\\)， （5分）",
+        "∵平行四边形\\(OCED\\)是矩形；",
+        "∴\\(CE=OD=3,DE=OC=4\\)，",
+        "∴\\(AE=\\sqrt[] { CE ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +8 ^ { 2 } }=\\sqrt[] { 73 }\\)，（6分）",
+        "∵\\(DE\\parallel AC\\)，",
+        "∴\\(\\vartriangle DEF\\backsim \\vartriangle CAF\\)，（7分）",
+        "∴\\(\\frac { EF } { AF }=\\frac { DE } { AC }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)．（8分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          90,
+          91,
+          93
+        ],
+        "solution_block_ids": [
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【详解】（1）证明：∵四边形\\(ABCD\\)是菱形，\n∴\\(AC\\bot BD,AO=OC=\\frac { 1 } { 2 }AC\\)，\n∴\\(\\angle DOC=90{}^\\circ\\)， （1分）\n∵\\(DE\\parallel AC,DE=\\frac { 1 } { 2 }AC\\)，\n∴\\(DE=OC.DE\\parallel OC\\)， （2分）\n∴四边形\\(OCED\\)是平行四边形， （3分）\n又∵\\(\\angle DOC=90{}^\\circ\\)，\n∴平行四边形\\(OCED\\)是矩形；（4分）\n（2）解：∵四边形\\(ABCD\\)是菱形，\\(DB=6\\)，\\(AC=8\\)，\n∴\\(AC\\bot BD,OB=OD=3,OA=OC=4\\)， （5分）\n∵平行四边形\\(OCED\\)是矩形；\n∴\\(CE=OD=3,DE=OC=4\\)，\n∴\\(AE=\\sqrt[] { CE ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +8 ^ { 2 } }=\\sqrt[] { 73 }\\)，（6分）\n∵\\(DE\\parallel AC\\)，\n∴\\(\\vartriangle DEF\\backsim \\vartriangle CAF\\)，（7分）\n∴\\(\\frac { EF } { AF }=\\frac { DE } { AC }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，\n∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)．（8分）",
+  "given_solution_figures": [],
+  "answer": "（1）∴平行四边形\\(OCED\\)是矩形\n（2）∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)",
+  "solution_steps": [
+    "（1）证明：∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(AC\\bot BD,AO=OC=\\frac { 1 } { 2 }AC\\)，",
+    "∴\\(\\angle DOC=90{}^\\circ\\)， （1分）",
+    "∵\\(DE\\parallel AC,DE=\\frac { 1 } { 2 }AC\\)，",
+    "∴\\(DE=OC.DE\\parallel OC\\)， （2分）",
+    "∴四边形\\(OCED\\)是平行四边形， （3分）",
+    "又∵\\(\\angle DOC=90{}^\\circ\\)，",
+    "∴平行四边形\\(OCED\\)是矩形；（4分）",
+    "（2）解：∵四边形\\(ABCD\\)是菱形，\\(DB=6\\)，\\(AC=8\\)，",
+    "∴\\(AC\\bot BD,OB=OD=3,OA=OC=4\\)， （5分）",
+    "∵平行四边形\\(OCED\\)是矩形；",
+    "∴\\(CE=OD=3,DE=OC=4\\)，",
+    "∴\\(AE=\\sqrt[] { CE ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +8 ^ { 2 } }=\\sqrt[] { 73 }\\)，（6分）",
+    "∵\\(DE\\parallel AC\\)，",
+    "∴\\(\\vartriangle DEF\\backsim \\vartriangle CAF\\)，（7分）",
+    "∴\\(\\frac { EF } { AF }=\\frac { DE } { AC }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)．（8分）"
+  ],
+  "solution": "（1）证明：∵四边形\\(ABCD\\)是菱形，\n∴\\(AC\\bot BD,AO=OC=\\frac { 1 } { 2 }AC\\)，\n∴\\(\\angle DOC=90{}^\\circ\\)， （1分）\n∵\\(DE\\parallel AC,DE=\\frac { 1 } { 2 }AC\\)，\n∴\\(DE=OC.DE\\parallel OC\\)， （2分）\n∴四边形\\(OCED\\)是平行四边形， （3分）\n又∵\\(\\angle DOC=90{}^\\circ\\)，\n∴平行四边形\\(OCED\\)是矩形；（4分）\n（2）解：∵四边形\\(ABCD\\)是菱形，\\(DB=6\\)，\\(AC=8\\)，\n∴\\(AC\\bot BD,OB=OD=3,OA=OC=4\\)， （5分）\n∵平行四边形\\(OCED\\)是矩形；\n∴\\(CE=OD=3,DE=OC=4\\)，\n∴\\(AE=\\sqrt[] { CE ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +8 ^ { 2 } }=\\sqrt[] { 73 }\\)，（6分）\n∵\\(DE\\parallel AC\\)，\n∴\\(\\vartriangle DEF\\backsim \\vartriangle CAF\\)，（7分）\n∴\\(\\frac { EF } { AF }=\\frac { DE } { AC }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，\n∴\\(EF=\\frac { \\sqrt[] { 73 } } { 3 }\\)．（8分）",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      90,
+      105
+    ],
+    "solution_body_blocks": [
+      240,
+      256
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-15F51C2F11/paper-q18-p05.webp",
+      "assets/SZ-G9-T1-15F51C2F11/paper-q18-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          718.64,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          70.0,
+          583.64,
+          201.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-15F51C2F11/solution-q18-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          215.91,
+          583.64,
+          647.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

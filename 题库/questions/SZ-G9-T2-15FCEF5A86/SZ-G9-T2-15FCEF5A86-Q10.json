@@ -1,0 +1,93 @@
+{
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-15FCEF5A86-Q10",
+  "number": 10,
+  "paper_id": "SZ-G9-T2-15FCEF5A86",
+  "title": "是斜边上一点",
+  "stem": "如图，\\({ \\rm{ R } }{ \\rm{ t } }\\Delta ABC\\)中，\\(BC=AC=2\\)，\\(D\\)是斜边\\(AB\\)上一点，把\\(\\Delta ACD\\)沿直线\\(CD\\)折叠，点\\(A\\)落在同一平面内的\\(A'\\)处，当\\(A'D\\)//BC时，线段\\(BD\\)的长为（   ）\n〔图1〕",
+  "type": "选择题",
+  "points": null,
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(3\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(\\sqrt2+1\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(2\\sqrt2-1\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(2\\)"
+    }
+  ],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/11/113de3c5b57e13eaee6d666f60f117d0f62d2ecb37092eb12c6831b9b6b1081c.png"
+  ],
+  "tables": [],
+  "answer": "D",
+  "given_answer": "D",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "取 \\(C(0,0), A(0,2), B(-2,0)\\)。设 \\(D(-t,2-t)\\)，则 \\(AD=\\sqrt2t\\)。折叠后 \\(DA′=DA\\)，且图中 DA′ 水平向左，故 \\(A′(-(1+\\sqrt2)t,2-t)\\)。",
+    "由 \\(CA′=2\\) 得 \\((1+\\sqrt2)^2t^2+(2-t)^2=4\\)，取非退化解 \\(t=2-\\sqrt2\\)，故 \\(BD=\\sqrt2(2-t)=2\\)。"
+  ],
+  "solution_origin": "editorial_solution",
+  "solution": "取 \\(C(0,0), A(0,2), B(-2,0)\\)。设 \\(D(-t,2-t)\\)，则 \\(AD=\\sqrt2t\\)。折叠后 \\(DA′=DA\\)，且图中 DA′ 水平向左，故 \\(A′(-(1+\\sqrt2)t,2-t)\\)。\n由 \\(CA′=2\\) 得 \\((1+\\sqrt2)^2t^2+(2-t)^2=4\\)，取非退化解 \\(t=2-\\sqrt2\\)，故 \\(BD=\\sqrt2(2-t)=2\\)。",
+  "review_note": "资料仅列答案，参考步骤按题面和原图补写。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          13,
+          427.88,
+          582.2,
+          489.62
+        ]
+      }
+    ],
+    "solution_pages": [
+      1
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/s10-p01.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          13,
+          146.92,
+          582.2,
+          195.62
+        ]
+      }
+    ]
+  },
+  "tag_source": "题文匹配"
+}

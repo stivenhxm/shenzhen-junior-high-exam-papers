@@ -1,0 +1,412 @@
+{
+  "id": "SZ-G9-T2-5395F9E14C-Q22",
+  "paper_id": "SZ-G9-T2-5395F9E14C",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "综合与实践\n综合与实践课上，老师让同学们以“两个相似矩形的平移”为主题探究线段之间的数量关系：如图，矩形\\(ABCD\\)与矩形\\(EFGH\\)相似，其中\\(\\frac { AB } { AD }=\\frac { EF } { EH }=k\\)，\\(AD>EH\\)，点E、F在直线\\(AB\\)上，且点C、D、G、H在直线\\(AB\\)的同侧，矩形\\(EFGH\\)沿直线\\(AB\\)左右平移，O为\\(EF\\)的中点，直线\\(OH\\)与直线\\(AD\\)相交于点P（点P、D不重合），直线\\(OG\\)与直线\\(BC\\)相交于点Q（点Q、C不重合），试探究\\(DP\\)与\\(CQ\\)之间的数量关系．\n〔图1〕\n【操作判断】\n（1）如图1，平移矩形\\(EFGH\\)，当\\(k=2\\)，点A、E重合时，线段\\(DP\\)与\\(CQ\\)之间的数量关系是               ；\n【迁移探究】\n（2）继续平移矩形\\(EFGH\\)，对任意正数k，（1）中的判断是否都成立，请就图2的情形说明理由；\n【拓展应用】\n（3）如图3，若\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，平移矩形\\(EFGH\\)，连接\\(PQ\\)交\\(CD\\)于点M，当\\(\\vartriangle OPQ\\)是直角三角形时，请直接写出OA的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/21/2101fc4f8c4ffdd224913ad2446f88d6069f8e392d836f138605177b9c42c038.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）相等，（2）成立，见解析；（3）\\(OA=5\\)或\\(OA=3\\)",
+  "answer": "（1）相等，（2）成立，见解析；（3）\\(OA=5\\)或\\(OA=3\\)",
+  "given_solution": "【分析】（1）设\\(EP=a,AD=b,\\)根据中点列出比例式，表示出\\(DP\\)与\\(CQ\\)的长度即可,\n（2）设\\(AD=m,EH=n,\\)根据相似列出比例式，表示出\\(DP\\)与\\(CQ\\)的长度即可,\n（3）证\\(\\vartriangle DMP\\cong \\vartriangle CMQ\\)，得出\\(DM=CM=4\\)，再根据\\(\\vartriangle OPQ\\)是直角三角形，分类讨论，利用相似三角形的性质求解即可．\n【详解】解：（1）设\\(EP=a,AD=b,\\)则\\(EF=2a,AB=2b,\\)\n∵O为\\(EF\\)的中点，\n∴\\(EP=OE=a,OF=FG=a,\\)\n∴\\(\\angle QOB=45{}^\\circ\\)，\n∴\\(OB=BQ=2b-a\\)，\n\\(DP=b-a\\)，\\(CQ=2b-a-b=b-a\\)，\n∴\\(DP=CQ\\)，\n故答案为：相等；\n（2）成立．\n设\\(AD=m,EH=n,\\)则\\(AB=km,EF=kn,\\)\n∵O为\\(EF\\)的中点，\n∴\\(OF=OE=\\frac { 1 } { 2 }kn\\)，\n∵\\(EH\\parallel AP\\)，\n∴\\(\\vartriangle OEH\\sim \\vartriangle OAP\\)，\n∴\\(\\frac { OE } { OA }=\\frac { EH } { AP }\\)，\n则\\(\\frac { OA } { AP }=\\frac { k } { 2 }\\)，\n同理\\(\\frac { OB } { BQ }=\\frac { k } { 2 }\\)，\n设\\(AO=x\\)，则\\(BO=km-x\\)，\\(AP=\\frac { 2x } { k }\\)，\n\\(DP=m-\\frac { 2x } { k }\\)\n∵\\(\\frac { km-x } { BQ }=\\frac { k } { 2 }\\)，\n∴\\(BQ=2m-\\frac { 2x } { k }\\)\n\\(CQ=2m-\\frac { 2x } { k }-m=m-\\frac { 2x } { k }\\)，\n∴\\(DP=CQ\\)；\n（3）∵\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，\n∴\\(AD=AB=CD=BC=8\\)，\\(EH=EF=FG=GH=4\\)，\\(EO=OF=2\\)，\n由（2）得\\(DP=CQ\\)，\\(\\frac { OA } { AP }=\\frac { OB } { BQ }=\\frac { 1 } { 2 }\\)\n∵\\(\\angle D=\\angle QCM=90{}^\\circ\\)，\\(\\angle DMP=\\angle CMQ\\)，\n∴\\(\\vartriangle DMP\\cong \\vartriangle CMQ\\)，\n∴\\(DM=CM=4\\)，\n如图，当\\(\\angle QPO=90{}^\\circ\\)时，\n∵\\(\\angle DMP+\\angle DPM=90{}^\\circ\\)，\\(\\angle APO+\\angle DPM=90{}^\\circ\\)，\n∴\\(\\angle APO=\\angle DMP\\)，\n∵\\(\\angle D=\\angle A=90{}^\\circ\\)，\n∴\\(\\vartriangle APO\\sim \\vartriangle DMP\\)，\n∴\\(\\frac { DP } { OA }=\\frac { DM } { AP }\\)，\n则\\(\\frac { 8-2OA } { OA }=\\frac { 4 } { 2OA }\\)，\n解得，\\(OA=3\\)或\\(OA=0\\)（舍去）\n〔图2〕\n如图，当\\(\\angle PQO=90{}^\\circ\\)时，\n同理可得\\(\\vartriangle BQO\\sim \\vartriangle CMQ\\)，\n∴\\(\\frac { CQ } { OB }=\\frac { CM } { BQ }\\)，\n则\\(\\frac { 8-2OB } { OB }=\\frac { 4 } { 2OB }\\)，\n解得，\\(OB=3\\)或\\(OB=0\\)（舍去），\n\\(OA=5\\)，\n综上，\\(OA=5\\)或\\(OA=3\\)．\n〔图3〕\n【点睛】本题考查了相似三角形的判定与性质、全等三角形的判定与性质，解题关键是准确证明三角形相似，利用相似三角形的性质进行推理证明．",
+  "given_solution_figures": [
+    "assets/figures/21/2101fc4f8c4ffdd224913ad2446f88d6069f8e392d836f138605177b9c42c038.png",
+    "assets/figures/bb/bb22e1f38d58370e3591c6cd5bacb84bc33fe7fc36a72eb34341279c06293f9d.png",
+    "assets/figures/1c/1cd3dac3dd0a26e55f2613a2c67df92643c11b78438da0b1658c6c81dc039eb8.png"
+  ],
+  "solution": "解：（1）设\\(EP=a,AD=b,\\)则\\(EF=2a,AB=2b,\\)\n∵O为\\(EF\\)的中点，\n∴\\(EP=OE=a,OF=FG=a,\\)\n∴\\(\\angle QOB=45{}^\\circ\\)，\n∴\\(OB=BQ=2b-a\\)，\n\\(DP=b-a\\)，\\(CQ=2b-a-b=b-a\\)，\n∴\\(DP=CQ\\)，\n故答案为：相等；\n（2）成立．\n设\\(AD=m,EH=n,\\)则\\(AB=km,EF=kn,\\)\n∵O为\\(EF\\)的中点，\n∴\\(OF=OE=\\frac { 1 } { 2 }kn\\)，\n∵\\(EH\\parallel AP\\)，\n∴\\(\\vartriangle OEH\\sim \\vartriangle OAP\\)，\n∴\\(\\frac { OE } { OA }=\\frac { EH } { AP }\\)，\n则\\(\\frac { OA } { AP }=\\frac { k } { 2 }\\)，\n同理\\(\\frac { OB } { BQ }=\\frac { k } { 2 }\\)，\n设\\(AO=x\\)，则\\(BO=km-x\\)，\\(AP=\\frac { 2x } { k }\\)，\n\\(DP=m-\\frac { 2x } { k }\\)\n∵\\(\\frac { km-x } { BQ }=\\frac { k } { 2 }\\)，\n∴\\(BQ=2m-\\frac { 2x } { k }\\)\n\\(CQ=2m-\\frac { 2x } { k }-m=m-\\frac { 2x } { k }\\)，\n∴\\(DP=CQ\\)；\n（3）∵\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，\n∴\\(AD=AB=CD=BC=8\\)，\\(EH=EF=FG=GH=4\\)，\\(EO=OF=2\\)，\n由（2）得\\(DP=CQ\\)，\\(\\frac { OA } { AP }=\\frac { OB } { BQ }=\\frac { 1 } { 2 }\\)\n∵\\(\\angle D=\\angle QCM=90{}^\\circ\\)，\\(\\angle DMP=\\angle CMQ\\)，\n∴\\(\\vartriangle DMP\\cong \\vartriangle CMQ\\)，\n∴\\(DM=CM=4\\)，\n如图，当\\(\\angle QPO=90{}^\\circ\\)时，\n∵\\(\\angle DMP+\\angle DPM=90{}^\\circ\\)，\\(\\angle APO+\\angle DPM=90{}^\\circ\\)，\n∴\\(\\angle APO=\\angle DMP\\)，\n∵\\(\\angle D=\\angle A=90{}^\\circ\\)，\n∴\\(\\vartriangle APO\\sim \\vartriangle DMP\\)，\n∴\\(\\frac { DP } { OA }=\\frac { DM } { AP }\\)，\n则\\(\\frac { 8-2OA } { OA }=\\frac { 4 } { 2OA }\\)，\n解得，\\(OA=3\\)或\\(OA=0\\)（舍去）\n〔图2〕\n如图，当\\(\\angle PQO=90{}^\\circ\\)时，\n同理可得\\(\\vartriangle BQO\\sim \\vartriangle CMQ\\)，\n∴\\(\\frac { CQ } { OB }=\\frac { CM } { BQ }\\)，\n则\\(\\frac { 8-2OB } { OB }=\\frac { 4 } { 2OB }\\)，\n解得，\\(OB=3\\)或\\(OB=0\\)（舍去），\n\\(OA=5\\)，\n综上，\\(OA=5\\)或\\(OA=3\\)．\n〔图3〕",
+  "solution_steps": [
+    "解：（1）设\\(EP=a,AD=b,\\)则\\(EF=2a,AB=2b,\\)",
+    "∵O为\\(EF\\)的中点，",
+    "∴\\(EP=OE=a,OF=FG=a,\\)",
+    "∴\\(\\angle QOB=45{}^\\circ\\)，",
+    "∴\\(OB=BQ=2b-a\\)，",
+    "\\(DP=b-a\\)，\\(CQ=2b-a-b=b-a\\)，",
+    "∴\\(DP=CQ\\)，",
+    "故答案为：相等；",
+    "（2）成立．",
+    "设\\(AD=m,EH=n,\\)则\\(AB=km,EF=kn,\\)",
+    "∵O为\\(EF\\)的中点，",
+    "∴\\(OF=OE=\\frac { 1 } { 2 }kn\\)，",
+    "∵\\(EH\\parallel AP\\)，",
+    "∴\\(\\vartriangle OEH\\sim \\vartriangle OAP\\)，",
+    "∴\\(\\frac { OE } { OA }=\\frac { EH } { AP }\\)，",
+    "则\\(\\frac { OA } { AP }=\\frac { k } { 2 }\\)，",
+    "同理\\(\\frac { OB } { BQ }=\\frac { k } { 2 }\\)，",
+    "设\\(AO=x\\)，则\\(BO=km-x\\)，\\(AP=\\frac { 2x } { k }\\)，",
+    "\\(DP=m-\\frac { 2x } { k }\\)",
+    "∵\\(\\frac { km-x } { BQ }=\\frac { k } { 2 }\\)，",
+    "∴\\(BQ=2m-\\frac { 2x } { k }\\)",
+    "\\(CQ=2m-\\frac { 2x } { k }-m=m-\\frac { 2x } { k }\\)，",
+    "∴\\(DP=CQ\\)；",
+    "（3）∵\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，",
+    "∴\\(AD=AB=CD=BC=8\\)，\\(EH=EF=FG=GH=4\\)，\\(EO=OF=2\\)，",
+    "由（2）得\\(DP=CQ\\)，\\(\\frac { OA } { AP }=\\frac { OB } { BQ }=\\frac { 1 } { 2 }\\)",
+    "∵\\(\\angle D=\\angle QCM=90{}^\\circ\\)，\\(\\angle DMP=\\angle CMQ\\)，",
+    "∴\\(\\vartriangle DMP\\cong \\vartriangle CMQ\\)，",
+    "∴\\(DM=CM=4\\)，",
+    "如图，当\\(\\angle QPO=90{}^\\circ\\)时，",
+    "∵\\(\\angle DMP+\\angle DPM=90{}^\\circ\\)，\\(\\angle APO+\\angle DPM=90{}^\\circ\\)，",
+    "∴\\(\\angle APO=\\angle DMP\\)，",
+    "∵\\(\\angle D=\\angle A=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle APO\\sim \\vartriangle DMP\\)，",
+    "∴\\(\\frac { DP } { OA }=\\frac { DM } { AP }\\)，",
+    "则\\(\\frac { 8-2OA } { OA }=\\frac { 4 } { 2OA }\\)，",
+    "解得，\\(OA=3\\)或\\(OA=0\\)（舍去）",
+    "〔图2〕",
+    "如图，当\\(\\angle PQO=90{}^\\circ\\)时，",
+    "同理可得\\(\\vartriangle BQO\\sim \\vartriangle CMQ\\)，",
+    "∴\\(\\frac { CQ } { OB }=\\frac { CM } { BQ }\\)，",
+    "则\\(\\frac { 8-2OB } { OB }=\\frac { 4 } { 2OB }\\)，",
+    "解得，\\(OB=3\\)或\\(OB=0\\)（舍去），",
+    "\\(OA=5\\)，",
+    "综上，\\(OA=5\\)或\\(OA=3\\)．",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与实践\n综合与实践课上，老师让同学们以“两个相似矩形的平移”为主题探究线段之间的数量关系：如图，矩形\\(ABCD\\)与矩形\\(EFGH\\)相似，其中\\(\\frac { AB } { AD }=\\frac { EF } { EH }=k\\)，\\(AD>EH\\)，点E、F在直线\\(AB\\)上，且点C、D、G、H在直线\\(AB\\)的同侧，矩形\\(EFGH\\)沿直线\\(AB\\)左右平移，O为\\(EF\\)的中点，直线\\(OH\\)与直线\\(AD\\)相交于点P（点P、D不重合），直线\\(OG\\)与直线\\(BC\\)相交于点Q（点Q、C不重合），试探究\\(DP\\)与\\(CQ\\)之间的数量关系．\n〔图1〕\n【操作判断】",
+      "paper_blocks": [
+        76,
+        77,
+        78,
+        79
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-5395F9E14C-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，平移矩形\\(EFGH\\)，当\\(k=2\\)，点A、E重合时，线段\\(DP\\)与\\(CQ\\)之间的数量关系是               ；\n【迁移探究】",
+      "stem_text": "如图1，平移矩形\\(EFGH\\)，当\\(k=2\\)，点A、E重合时，线段\\(DP\\)与\\(CQ\\)之间的数量关系是               ；\n【迁移探究】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "相等，",
+      "answer": "相等，",
+      "given_solution": "设\\(EP=a,AD=b,\\)则\\(EF=2a,AB=2b,\\)\n∵O为\\(EF\\)的中点，\n∴\\(EP=OE=a,OF=FG=a,\\)\n∴\\(\\angle QOB=45{}^\\circ\\)，\n∴\\(OB=BQ=2b-a\\)，\n\\(DP=b-a\\)，\\(CQ=2b-a-b=b-a\\)，\n∴\\(DP=CQ\\)，\n故答案为：相等；",
+      "solution_steps": [
+        "设\\(EP=a,AD=b,\\)则\\(EF=2a,AB=2b,\\)",
+        "∵O为\\(EF\\)的中点，",
+        "∴\\(EP=OE=a,OF=FG=a,\\)",
+        "∴\\(\\angle QOB=45{}^\\circ\\)，",
+        "∴\\(OB=BQ=2b-a\\)，",
+        "\\(DP=b-a\\)，\\(CQ=2b-a-b=b-a\\)，",
+        "∴\\(DP=CQ\\)，",
+        "故答案为：相等；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          79,
+          80,
+          81
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G07.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“平移”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“平移”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-5395F9E14C-Q22-P02",
+      "label": "（2）",
+      "prompt": "继续平移矩形\\(EFGH\\)，对任意正数k，（1）中的判断是否都成立，请就图2的情形说明理由；\n【拓展应用】",
+      "stem_text": "继续平移矩形\\(EFGH\\)，对任意正数k，（1）中的判断是否都成立，请就图2的情形说明理由；\n【拓展应用】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "成立，见解析；",
+      "answer": "成立，见解析；",
+      "given_solution": "成立．\n设\\(AD=m,EH=n,\\)则\\(AB=km,EF=kn,\\)\n∵O为\\(EF\\)的中点，\n∴\\(OF=OE=\\frac { 1 } { 2 }kn\\)，\n∵\\(EH\\parallel AP\\)，\n∴\\(\\vartriangle OEH\\sim \\vartriangle OAP\\)，\n∴\\(\\frac { OE } { OA }=\\frac { EH } { AP }\\)，\n则\\(\\frac { OA } { AP }=\\frac { k } { 2 }\\)，\n同理\\(\\frac { OB } { BQ }=\\frac { k } { 2 }\\)，\n设\\(AO=x\\)，则\\(BO=km-x\\)，\\(AP=\\frac { 2x } { k }\\)，\n\\(DP=m-\\frac { 2x } { k }\\)\n∵\\(\\frac { km-x } { BQ }=\\frac { k } { 2 }\\)，\n∴\\(BQ=2m-\\frac { 2x } { k }\\)\n\\(CQ=2m-\\frac { 2x } { k }-m=m-\\frac { 2x } { k }\\)，\n∴\\(DP=CQ\\)；",
+      "solution_steps": [
+        "成立．",
+        "设\\(AD=m,EH=n,\\)则\\(AB=km,EF=kn,\\)",
+        "∵O为\\(EF\\)的中点，",
+        "∴\\(OF=OE=\\frac { 1 } { 2 }kn\\)，",
+        "∵\\(EH\\parallel AP\\)，",
+        "∴\\(\\vartriangle OEH\\sim \\vartriangle OAP\\)，",
+        "∴\\(\\frac { OE } { OA }=\\frac { EH } { AP }\\)，",
+        "则\\(\\frac { OA } { AP }=\\frac { k } { 2 }\\)，",
+        "同理\\(\\frac { OB } { BQ }=\\frac { k } { 2 }\\)，",
+        "设\\(AO=x\\)，则\\(BO=km-x\\)，\\(AP=\\frac { 2x } { k }\\)，",
+        "\\(DP=m-\\frac { 2x } { k }\\)",
+        "∵\\(\\frac { km-x } { BQ }=\\frac { k } { 2 }\\)，",
+        "∴\\(BQ=2m-\\frac { 2x } { k }\\)",
+        "\\(CQ=2m-\\frac { 2x } { k }-m=m-\\frac { 2x } { k }\\)，",
+        "∴\\(DP=CQ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          79,
+          82,
+          83
+        ],
+        "solution_block_ids": [
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-5395F9E14C-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，若\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，平移矩形\\(EFGH\\)，连接\\(PQ\\)交\\(CD\\)于点M，当\\(\\vartriangle OPQ\\)是直角三角形时，请直接写出OA的长．",
+      "stem_text": "如图3，若\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，平移矩形\\(EFGH\\)，连接\\(PQ\\)交\\(CD\\)于点M，当\\(\\vartriangle OPQ\\)是直角三角形时，请直接写出OA的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(OA=5\\)或\\(OA=3\\)",
+      "answer": "\\(OA=5\\)或\\(OA=3\\)",
+      "given_solution": "∵\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，\n∴\\(AD=AB=CD=BC=8\\)，\\(EH=EF=FG=GH=4\\)，\\(EO=OF=2\\)，\n由（2）得\\(DP=CQ\\)，\\(\\frac { OA } { AP }=\\frac { OB } { BQ }=\\frac { 1 } { 2 }\\)\n∵\\(\\angle D=\\angle QCM=90{}^\\circ\\)，\\(\\angle DMP=\\angle CMQ\\)，\n∴\\(\\vartriangle DMP\\cong \\vartriangle CMQ\\)，\n∴\\(DM=CM=4\\)，\n如图，当\\(\\angle QPO=90{}^\\circ\\)时，\n∵\\(\\angle DMP+\\angle DPM=90{}^\\circ\\)，\\(\\angle APO+\\angle DPM=90{}^\\circ\\)，\n∴\\(\\angle APO=\\angle DMP\\)，\n∵\\(\\angle D=\\angle A=90{}^\\circ\\)，\n∴\\(\\vartriangle APO\\sim \\vartriangle DMP\\)，\n∴\\(\\frac { DP } { OA }=\\frac { DM } { AP }\\)，\n则\\(\\frac { 8-2OA } { OA }=\\frac { 4 } { 2OA }\\)，\n解得，\\(OA=3\\)或\\(OA=0\\)（舍去）\n〔图2〕\n如图，当\\(\\angle PQO=90{}^\\circ\\)时，\n同理可得\\(\\vartriangle BQO\\sim \\vartriangle CMQ\\)，\n∴\\(\\frac { CQ } { OB }=\\frac { CM } { BQ }\\)，\n则\\(\\frac { 8-2OB } { OB }=\\frac { 4 } { 2OB }\\)，\n解得，\\(OB=3\\)或\\(OB=0\\)（舍去），\n\\(OA=5\\)，\n综上，\\(OA=5\\)或\\(OA=3\\)．\n〔图3〕",
+      "solution_steps": [
+        "∵\\(k=1\\)，\\(AD=8\\)，\\(EH=4\\)，",
+        "∴\\(AD=AB=CD=BC=8\\)，\\(EH=EF=FG=GH=4\\)，\\(EO=OF=2\\)，",
+        "由（2）得\\(DP=CQ\\)，\\(\\frac { OA } { AP }=\\frac { OB } { BQ }=\\frac { 1 } { 2 }\\)",
+        "∵\\(\\angle D=\\angle QCM=90{}^\\circ\\)，\\(\\angle DMP=\\angle CMQ\\)，",
+        "∴\\(\\vartriangle DMP\\cong \\vartriangle CMQ\\)，",
+        "∴\\(DM=CM=4\\)，",
+        "如图，当\\(\\angle QPO=90{}^\\circ\\)时，",
+        "∵\\(\\angle DMP+\\angle DPM=90{}^\\circ\\)，\\(\\angle APO+\\angle DPM=90{}^\\circ\\)，",
+        "∴\\(\\angle APO=\\angle DMP\\)，",
+        "∵\\(\\angle D=\\angle A=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle APO\\sim \\vartriangle DMP\\)，",
+        "∴\\(\\frac { DP } { OA }=\\frac { DM } { AP }\\)，",
+        "则\\(\\frac { 8-2OA } { OA }=\\frac { 4 } { 2OA }\\)，",
+        "解得，\\(OA=3\\)或\\(OA=0\\)（舍去）",
+        "〔图2〕",
+        "如图，当\\(\\angle PQO=90{}^\\circ\\)时，",
+        "同理可得\\(\\vartriangle BQO\\sim \\vartriangle CMQ\\)，",
+        "∴\\(\\frac { CQ } { OB }=\\frac { CM } { BQ }\\)，",
+        "则\\(\\frac { 8-2OB } { OB }=\\frac { 4 } { 2OB }\\)，",
+        "解得，\\(OB=3\\)或\\(OB=0\\)（舍去），",
+        "\\(OA=5\\)，",
+        "综上，\\(OA=5\\)或\\(OA=3\\)．",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          79,
+          84
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      76,
+      84
+    ],
+    "solution_body_blocks": [
+      341,
+      401
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-5395F9E14C/paper-q22-p06.webp",
+      "assets/SZ-G9-T2-5395F9E14C/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          323.18,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          119.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-5395F9E14C/solution-q22-p19.webp",
+      "assets/SZ-G9-T2-5395F9E14C/solution-q22-p20.webp",
+      "assets/SZ-G9-T2-5395F9E14C/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          711.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          580.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G07.02",
+    "M.G08.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "tag_note": "该问涉及“平移”，现有细分考点仅能覆盖部分要求。 该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“平移”，按题面与解答定位知识主题。 本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "小问标签汇总"
+}

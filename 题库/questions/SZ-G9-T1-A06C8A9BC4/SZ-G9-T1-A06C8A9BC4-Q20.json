@@ -1,0 +1,489 @@
+{
+  "id": "SZ-G9-T1-A06C8A9BC4-Q20",
+  "paper_id": "SZ-G9-T1-A06C8A9BC4",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、由边角条件解直角三角形",
+  "stem": "折纸是富有趣味和有意义的一项活动，折纸中隐含着数学知识与思想方法，深入探究折纸，可以用数学的眼光发现，用数学的思维思考，用数学的语言描述，提升同学们的综合素养．\n〔图1〕\n（1）如图1，一张等边三角形\\(\\vartriangle ABC\\)纸片，点D是边\\(AC\\)上一动点，将\\(\\vartriangle BCD\\)沿\\(BD\\)翻折，点C的对应点为E．若\\(BE\\bot BC\\)，\\(CD=2\\)，求线段\\(BE\\)的长；\n（2）如图2，一张正方形\\(ABCD\\)纸片，\\(AB=2\\)，M是\\(AD\\)的中点，将四边形\\(ABCM\\)沿\\(CM\\)翻折得到四边形\\(EFCM\\)，连接\\(DF\\)，求线段\\(DF\\)的长；\n（3）如图3，一张菱形\\(ABCD\\)纸片，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点E是边\\(AB\\)上一动点，将\\(\\vartriangle BCE\\)沿\\(CE\\)翻折得到\\(\\vartriangle CEF\\)，射线\\(EF\\)与直线\\(AD\\)交于点M，若\\(AB=6\\)，\\(FM=1\\)，请直接写出线段\\(BE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-A06C8A9BC4/figures/26b9eb5c4c34327d25229a043a72b2e598ea3cbecdd96dfe5bdbdf6557ba3b1d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\sqrt[] { 3 }+1\\)\n（2）\\(\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)\n（3）\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)",
+  "answer": "（1）\\(\\sqrt[] { 3 }+1\\)\n（2）\\(\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)\n（3）\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)",
+  "given_solution": "【分析】（1）过点\\(D\\)作\\(DQ\\bot BC\\)于点\\(Q\\)，由折叠知\\(BE=BC,\\angle DBC=\\angle DBE\\)，\\(\\angle EBC=90{}^\\circ\\)，则\\(\\angle DBC=45{}^\\circ\\)，由\\(\\vartriangle ABC\\)为等边三角形得\\(\\angle C=60{}^\\circ\\)，解\\(\\vartriangle DBC\\)即可；\n（2）过点\\(F\\)作\\(FG\\parallel BC\\)交\\(CD,CM\\)于点\\(O,G\\)，可证明\\(FG=FC=2\\)，而\\(MD=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DC\\)，则\\(tan\\angle MCD=\\frac { MD } { CD }=\\frac { OG } { OC }=\\frac { 1 } { 2 }\\)，设\\(OG=a\\)，则\\(OC=2a\\)，\\(FO=2-a\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FOC\\)中，由勾股定理得，\\(\\left ( { 2a } \\right ) ^ { 2 } +\\left ( { 2-a } \\right ) ^ { 2 } =2 ^ { 2 }\\)，解得：\\(a=\\frac { 4 } { 5 }\\)，则\\(FO=\\frac { 6 } { 5 },DO=\\frac { 2 } { 5 }\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOF\\)中，由勾股定理得\\(FD=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)；\n（3）当点\\(M\\)在\\(DA\\)延长线上时，连接\\(MC,AC\\)，过点\\(C\\)作\\(MD,ME\\)的垂线，垂足为\\(K,P\\)，过点\\(M\\)作\\(MH\\bot AB\\)于点\\(H\\)，则\\(\\angle CPF=\\angle CKA=90{}^\\circ\\)，先证明\\(\\vartriangle CPF≌\\vartriangle CKA\\)，再证明\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CPM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle CKM\\)，最后证明\\(\\vartriangle CFM≌\\vartriangle CAM\\)，则\\(AM=FM=1\\)，设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=1+x\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MHA\\)中，\\(\\angle 3=60{}^\\circ\\)，\\(AH=\\frac { 1 } { 2 }\\)，\\(EH=\\frac { 11 } { 2 }-x\\)，由勾股定理得，\\(MH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 11 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 }\\)，解得：\\(x=\\frac { 30 } { 13 }\\)；当点\\(M\\)在线段\\(AD\\)上时，同理\\(x=\\frac { 42 } { 11 }\\)．\n【小问1详解】\n解：过点\\(D\\)作\\(DQ\\bot BC\\)于点\\(Q\\)，\n〔图2〕\n由折叠知\\(BE=BC,\\angle DBC=\\angle DBE\\)，\n∵\\(BE\\bot BC\\)，\n∴\\(\\angle EBC=90{}^\\circ\\)，\n∴\\(\\angle DBC=45{}^\\circ\\)，\n∵\\(\\vartriangle ABC\\)为等边三角形，\n∴\\(\\angle C=60{}^\\circ\\)，\n∵\\(DQ\\bot BC\\)，\n∴\\(\\angle QDC=30{}^\\circ\\)，\n∴\\(CQ=\\frac { 1 } { 2 }CD=1\\)，由勾股定理得\\(DQ=\\sqrt[] { 3 }\\)，\\(\\vartriangle DQB\\)为等腰直角三角形，\n∴\\(BQ=DQ=\\sqrt[] { 3 }\\)，\n∴\\(BE=BC=\\sqrt[] { 3 }+1\\)；\n【小问2详解】\n解：过点\\(F\\)作\\(FG\\parallel BC\\)交\\(CD,CM\\)于点\\(O,G\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AB=BC=CD=AD=2\\)，\\(\\angle BCD=\\angle ADC=90{}^\\circ\\)\n由折叠得，\\(\\angle BCM=\\angle FCM\\)，\\(CF=BC=2\\)，\n∵\\(FG\\parallel BC\\)，\n∴\\(\\angle FGC=\\angle BCM\\)，\n∴\\(\\angle FGC=\\angle FCM\\)，\n∴\\(FG=FC=2\\)，\n∵点\\(M\\)为\\(AD\\)中点，\n∴\\(MD=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DC\\)，\n∴\\(tan\\angle MCD=\\frac { MD } { CD }=\\frac { OG } { OC }=\\frac { 1 } { 2 }\\)，\n设\\(OG=a\\)，则\\(OC=2a\\)，\\(FO=2-a\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FOC\\)中，由勾股定理得，\\(\\left ( { 2a } \\right ) ^ { 2 } +\\left ( { 2-a } \\right ) ^ { 2 } =2 ^ { 2 }\\)，\n解得：\\(a=\\frac { 4 } { 5 }\\)，\n∴\\(FO=\\frac { 6 } { 5 },DO=2-OC=\\frac { 2 } { 5 }\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOF\\)中，由勾股定理得，\\(FD=\\sqrt[] { DO ^ { 2 } +OF ^ { 2 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)；\n【小问3详解】\n解：当点\\(M\\)在\\(DA\\)延长线上时，\n〔图4〕\n连接\\(MC,AC\\)，过点\\(C\\)作\\(MD,ME\\)的垂线，垂足为\\(K,P\\)，过点\\(M\\)作\\(MH\\bot AB\\)于点\\(H\\)，则\\(\\angle CPF=\\angle CKA=90{}^\\circ\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(BA=BC\\)，\\(AD\\parallel BC\\)\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\)为等边三角形，\\(\\angle 3=\\angle B=60{}^\\circ\\)，\n∴\\(AC=BC\\)，\\(\\angle ACB=60{}^\\circ\\)，\n由翻折得，\\(CB=CF\\)，\\(\\angle 1=\\angle B=60{}^\\circ\\)，\\(BE=FE\\)\n∴\\(CA=CF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle 2=\\angle ACB=60{}^\\circ\\)，\n∴\\(\\angle 1=\\angle 2\\)，\n∴\\(\\vartriangle CPF≌\\vartriangle CKA\\)，\n∴\\(CP=CK\\)，\n∵\\(CM=CM\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CPM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle CKM\\)，\n∴\\(\\angle FMC=\\angle AMC\\)，\n∵\\(\\angle 1=\\angle 2\\)，\n∴\\(\\angle CFM=\\angle CAM\\)\n∴\\(\\vartriangle CFM≌\\vartriangle CAM\\)，\n∴\\(AM=FM=1\\)，\n设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=1+x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MHA\\)中，\\(\\angle 3=60{}^\\circ\\)，\n∴\\(\\angle AMH=30{}^\\circ\\)，\n∴同上可求\\(AH=\\frac { 1 } { 2 }\\)，\\(EH=6-\\frac { 1 } { 2 }-x=\\frac { 11 } { 2 }-x\\)，\n由勾股定理得，\\(MH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 11 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 }\\)\n解得：\\(x=\\frac { 30 } { 13 }\\)；\n当点\\(M\\)在线段\\(AD\\)上时，\n〔图5〕\n同上可得：\\(MA=MF=1\\)，\n设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=x-1\\)，\\(HE=\\frac { 1 } { 2 }+6-x=\\frac { 13 } { 2 }-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 13 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { x-1 } \\right ) ^ { 2 }\\)\n解得：\\(x=\\frac { 42 } { 11 }\\)．\n综上所述，线段\\(BE\\)的长为\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)．\n【点睛】本题考查了正方形的性质，等边三角形的判定与性质，解直角三角形，勾股定理，菱形的性质，全等三角形的判定与性质，熟练掌握知识点，正确添加辅助线是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-A06C8A9BC4/figures/26b9eb5c4c34327d25229a043a72b2e598ea3cbecdd96dfe5bdbdf6557ba3b1d.png",
+    "assets/SZ-G9-T1-A06C8A9BC4/figures/8f491a03a3986226de00f936547413fc45a5201de6c644148cb25f667749fbd3.png",
+    "assets/SZ-G9-T1-A06C8A9BC4/figures/64ef4495c986e6eb041ea72d20715a2f26a6377903c4903807b1078a23fa899e.png",
+    "assets/SZ-G9-T1-A06C8A9BC4/figures/340fa8a02925a20fd48fad83addb2c909eb4bf34d58336d110d3e0bf01166029.png",
+    "assets/SZ-G9-T1-A06C8A9BC4/figures/7622d55c7db672380a35d992501f642b53cef49c95d90727d30695805284f3f8.png"
+  ],
+  "solution": "【小问1详解】\n解：过点\\(D\\)作\\(DQ\\bot BC\\)于点\\(Q\\)，\n〔图2〕\n由折叠知\\(BE=BC,\\angle DBC=\\angle DBE\\)，\n∵\\(BE\\bot BC\\)，\n∴\\(\\angle EBC=90{}^\\circ\\)，\n∴\\(\\angle DBC=45{}^\\circ\\)，\n∵\\(\\vartriangle ABC\\)为等边三角形，\n∴\\(\\angle C=60{}^\\circ\\)，\n∵\\(DQ\\bot BC\\)，\n∴\\(\\angle QDC=30{}^\\circ\\)，\n∴\\(CQ=\\frac { 1 } { 2 }CD=1\\)，由勾股定理得\\(DQ=\\sqrt[] { 3 }\\)，\\(\\vartriangle DQB\\)为等腰直角三角形，\n∴\\(BQ=DQ=\\sqrt[] { 3 }\\)，\n∴\\(BE=BC=\\sqrt[] { 3 }+1\\)；\n【小问2详解】\n解：过点\\(F\\)作\\(FG\\parallel BC\\)交\\(CD,CM\\)于点\\(O,G\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AB=BC=CD=AD=2\\)，\\(\\angle BCD=\\angle ADC=90{}^\\circ\\)\n由折叠得，\\(\\angle BCM=\\angle FCM\\)，\\(CF=BC=2\\)，\n∵\\(FG\\parallel BC\\)，\n∴\\(\\angle FGC=\\angle BCM\\)，\n∴\\(\\angle FGC=\\angle FCM\\)，\n∴\\(FG=FC=2\\)，\n∵点\\(M\\)为\\(AD\\)中点，\n∴\\(MD=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DC\\)，\n∴\\(tan\\angle MCD=\\frac { MD } { CD }=\\frac { OG } { OC }=\\frac { 1 } { 2 }\\)，\n设\\(OG=a\\)，则\\(OC=2a\\)，\\(FO=2-a\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FOC\\)中，由勾股定理得，\\(\\left ( { 2a } \\right ) ^ { 2 } +\\left ( { 2-a } \\right ) ^ { 2 } =2 ^ { 2 }\\)，\n解得：\\(a=\\frac { 4 } { 5 }\\)，\n∴\\(FO=\\frac { 6 } { 5 },DO=2-OC=\\frac { 2 } { 5 }\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOF\\)中，由勾股定理得，\\(FD=\\sqrt[] { DO ^ { 2 } +OF ^ { 2 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)；\n【小问3详解】\n解：当点\\(M\\)在\\(DA\\)延长线上时，\n〔图4〕\n连接\\(MC,AC\\)，过点\\(C\\)作\\(MD,ME\\)的垂线，垂足为\\(K,P\\)，过点\\(M\\)作\\(MH\\bot AB\\)于点\\(H\\)，则\\(\\angle CPF=\\angle CKA=90{}^\\circ\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(BA=BC\\)，\\(AD\\parallel BC\\)\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\)为等边三角形，\\(\\angle 3=\\angle B=60{}^\\circ\\)，\n∴\\(AC=BC\\)，\\(\\angle ACB=60{}^\\circ\\)，\n由翻折得，\\(CB=CF\\)，\\(\\angle 1=\\angle B=60{}^\\circ\\)，\\(BE=FE\\)\n∴\\(CA=CF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle 2=\\angle ACB=60{}^\\circ\\)，\n∴\\(\\angle 1=\\angle 2\\)，\n∴\\(\\vartriangle CPF≌\\vartriangle CKA\\)，\n∴\\(CP=CK\\)，\n∵\\(CM=CM\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CPM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle CKM\\)，\n∴\\(\\angle FMC=\\angle AMC\\)，\n∵\\(\\angle 1=\\angle 2\\)，\n∴\\(\\angle CFM=\\angle CAM\\)\n∴\\(\\vartriangle CFM≌\\vartriangle CAM\\)，\n∴\\(AM=FM=1\\)，\n设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=1+x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MHA\\)中，\\(\\angle 3=60{}^\\circ\\)，\n∴\\(\\angle AMH=30{}^\\circ\\)，\n∴同上可求\\(AH=\\frac { 1 } { 2 }\\)，\\(EH=6-\\frac { 1 } { 2 }-x=\\frac { 11 } { 2 }-x\\)，\n由勾股定理得，\\(MH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 11 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 }\\)\n解得：\\(x=\\frac { 30 } { 13 }\\)；\n当点\\(M\\)在线段\\(AD\\)上时，\n〔图5〕\n同上可得：\\(MA=MF=1\\)，\n设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=x-1\\)，\\(HE=\\frac { 1 } { 2 }+6-x=\\frac { 13 } { 2 }-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 13 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { x-1 } \\right ) ^ { 2 }\\)\n解得：\\(x=\\frac { 42 } { 11 }\\)．\n综上所述，线段\\(BE\\)的长为\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：过点\\(D\\)作\\(DQ\\bot BC\\)于点\\(Q\\)，",
+    "〔图2〕",
+    "由折叠知\\(BE=BC,\\angle DBC=\\angle DBE\\)，",
+    "∵\\(BE\\bot BC\\)，",
+    "∴\\(\\angle EBC=90{}^\\circ\\)，",
+    "∴\\(\\angle DBC=45{}^\\circ\\)，",
+    "∵\\(\\vartriangle ABC\\)为等边三角形，",
+    "∴\\(\\angle C=60{}^\\circ\\)，",
+    "∵\\(DQ\\bot BC\\)，",
+    "∴\\(\\angle QDC=30{}^\\circ\\)，",
+    "∴\\(CQ=\\frac { 1 } { 2 }CD=1\\)，由勾股定理得\\(DQ=\\sqrt[] { 3 }\\)，\\(\\vartriangle DQB\\)为等腰直角三角形，",
+    "∴\\(BQ=DQ=\\sqrt[] { 3 }\\)，",
+    "∴\\(BE=BC=\\sqrt[] { 3 }+1\\)；",
+    "【小问2详解】",
+    "解：过点\\(F\\)作\\(FG\\parallel BC\\)交\\(CD,CM\\)于点\\(O,G\\)，",
+    "〔图3〕",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(AB=BC=CD=AD=2\\)，\\(\\angle BCD=\\angle ADC=90{}^\\circ\\)",
+    "由折叠得，\\(\\angle BCM=\\angle FCM\\)，\\(CF=BC=2\\)，",
+    "∵\\(FG\\parallel BC\\)，",
+    "∴\\(\\angle FGC=\\angle BCM\\)，",
+    "∴\\(\\angle FGC=\\angle FCM\\)，",
+    "∴\\(FG=FC=2\\)，",
+    "∵点\\(M\\)为\\(AD\\)中点，",
+    "∴\\(MD=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DC\\)，",
+    "∴\\(tan\\angle MCD=\\frac { MD } { CD }=\\frac { OG } { OC }=\\frac { 1 } { 2 }\\)，",
+    "设\\(OG=a\\)，则\\(OC=2a\\)，\\(FO=2-a\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FOC\\)中，由勾股定理得，\\(\\left ( { 2a } \\right ) ^ { 2 } +\\left ( { 2-a } \\right ) ^ { 2 } =2 ^ { 2 }\\)，",
+    "解得：\\(a=\\frac { 4 } { 5 }\\)，",
+    "∴\\(FO=\\frac { 6 } { 5 },DO=2-OC=\\frac { 2 } { 5 }\\)，",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOF\\)中，由勾股定理得，\\(FD=\\sqrt[] { DO ^ { 2 } +OF ^ { 2 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)；",
+    "【小问3详解】",
+    "解：当点\\(M\\)在\\(DA\\)延长线上时，",
+    "〔图4〕",
+    "连接\\(MC,AC\\)，过点\\(C\\)作\\(MD,ME\\)的垂线，垂足为\\(K,P\\)，过点\\(M\\)作\\(MH\\bot AB\\)于点\\(H\\)，则\\(\\angle CPF=\\angle CKA=90{}^\\circ\\)，",
+    "∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(BA=BC\\)，\\(AD\\parallel BC\\)",
+    "∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(\\vartriangle ABC\\)为等边三角形，\\(\\angle 3=\\angle B=60{}^\\circ\\)，",
+    "∴\\(AC=BC\\)，\\(\\angle ACB=60{}^\\circ\\)，",
+    "由翻折得，\\(CB=CF\\)，\\(\\angle 1=\\angle B=60{}^\\circ\\)，\\(BE=FE\\)",
+    "∴\\(CA=CF\\)，",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle 2=\\angle ACB=60{}^\\circ\\)，",
+    "∴\\(\\angle 1=\\angle 2\\)，",
+    "∴\\(\\vartriangle CPF≌\\vartriangle CKA\\)，",
+    "∴\\(CP=CK\\)，",
+    "∵\\(CM=CM\\)，",
+    "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CPM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle CKM\\)，",
+    "∴\\(\\angle FMC=\\angle AMC\\)，",
+    "∵\\(\\angle 1=\\angle 2\\)，",
+    "∴\\(\\angle CFM=\\angle CAM\\)",
+    "∴\\(\\vartriangle CFM≌\\vartriangle CAM\\)，",
+    "∴\\(AM=FM=1\\)，",
+    "设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=1+x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MHA\\)中，\\(\\angle 3=60{}^\\circ\\)，",
+    "∴\\(\\angle AMH=30{}^\\circ\\)，",
+    "∴同上可求\\(AH=\\frac { 1 } { 2 }\\)，\\(EH=6-\\frac { 1 } { 2 }-x=\\frac { 11 } { 2 }-x\\)，",
+    "由勾股定理得，\\(MH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 11 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 }\\)",
+    "解得：\\(x=\\frac { 30 } { 13 }\\)；",
+    "当点\\(M\\)在线段\\(AD\\)上时，",
+    "〔图5〕",
+    "同上可得：\\(MA=MF=1\\)，",
+    "设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=x-1\\)，\\(HE=\\frac { 1 } { 2 }+6-x=\\frac { 13 } { 2 }-x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 13 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { x-1 } \\right ) ^ { 2 }\\)",
+    "解得：\\(x=\\frac { 42 } { 11 }\\)．",
+    "综上所述，线段\\(BE\\)的长为\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "折纸是富有趣味和有意义的一项活动，折纸中隐含着数学知识与思想方法，深入探究折纸，可以用数学的眼光发现，用数学的思维思考，用数学的语言描述，提升同学们的综合素养．\n〔图1〕",
+      "paper_blocks": [
+        58,
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-A06C8A9BC4-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，一张等边三角形\\(\\vartriangle ABC\\)纸片，点D是边\\(AC\\)上一动点，将\\(\\vartriangle BCD\\)沿\\(BD\\)翻折，点C的对应点为E．若\\(BE\\bot BC\\)，\\(CD=2\\)，求线段\\(BE\\)的长；",
+      "stem_text": "如图1，一张等边三角形\\(\\vartriangle ABC\\)纸片，点D是边\\(AC\\)上一动点，将\\(\\vartriangle BCD\\)沿\\(BD\\)翻折，点C的对应点为E．若\\(BE\\bot BC\\)，\\(CD=2\\)，求线段\\(BE\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 3 }+1\\)",
+      "answer": "\\(\\sqrt[] { 3 }+1\\)",
+      "given_solution": "解：过点\\(D\\)作\\(DQ\\bot BC\\)于点\\(Q\\)，\n〔图2〕\n由折叠知\\(BE=BC,\\angle DBC=\\angle DBE\\)，\n∵\\(BE\\bot BC\\)，\n∴\\(\\angle EBC=90{}^\\circ\\)，\n∴\\(\\angle DBC=45{}^\\circ\\)，\n∵\\(\\vartriangle ABC\\)为等边三角形，\n∴\\(\\angle C=60{}^\\circ\\)，\n∵\\(DQ\\bot BC\\)，\n∴\\(\\angle QDC=30{}^\\circ\\)，\n∴\\(CQ=\\frac { 1 } { 2 }CD=1\\)，由勾股定理得\\(DQ=\\sqrt[] { 3 }\\)，\\(\\vartriangle DQB\\)为等腰直角三角形，\n∴\\(BQ=DQ=\\sqrt[] { 3 }\\)，\n∴\\(BE=BC=\\sqrt[] { 3 }+1\\)；",
+      "solution_steps": [
+        "解：过点\\(D\\)作\\(DQ\\bot BC\\)于点\\(Q\\)，",
+        "〔图2〕",
+        "由折叠知\\(BE=BC,\\angle DBC=\\angle DBE\\)，",
+        "∵\\(BE\\bot BC\\)，",
+        "∴\\(\\angle EBC=90{}^\\circ\\)，",
+        "∴\\(\\angle DBC=45{}^\\circ\\)，",
+        "∵\\(\\vartriangle ABC\\)为等边三角形，",
+        "∴\\(\\angle C=60{}^\\circ\\)，",
+        "∵\\(DQ\\bot BC\\)，",
+        "∴\\(\\angle QDC=30{}^\\circ\\)，",
+        "∴\\(CQ=\\frac { 1 } { 2 }CD=1\\)，由勾股定理得\\(DQ=\\sqrt[] { 3 }\\)，\\(\\vartriangle DQB\\)为等腰直角三角形，",
+        "∴\\(BQ=DQ=\\sqrt[] { 3 }\\)，",
+        "∴\\(BE=BC=\\sqrt[] { 3 }+1\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60
+        ],
+        "solution_block_ids": [
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-A06C8A9BC4-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，一张正方形\\(ABCD\\)纸片，\\(AB=2\\)，M是\\(AD\\)的中点，将四边形\\(ABCM\\)沿\\(CM\\)翻折得到四边形\\(EFCM\\)，连接\\(DF\\)，求线段\\(DF\\)的长；",
+      "stem_text": "如图2，一张正方形\\(ABCD\\)纸片，\\(AB=2\\)，M是\\(AD\\)的中点，将四边形\\(ABCM\\)沿\\(CM\\)翻折得到四边形\\(EFCM\\)，连接\\(DF\\)，求线段\\(DF\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)",
+      "answer": "\\(\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)",
+      "given_solution": "解：过点\\(F\\)作\\(FG\\parallel BC\\)交\\(CD,CM\\)于点\\(O,G\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AB=BC=CD=AD=2\\)，\\(\\angle BCD=\\angle ADC=90{}^\\circ\\)\n由折叠得，\\(\\angle BCM=\\angle FCM\\)，\\(CF=BC=2\\)，\n∵\\(FG\\parallel BC\\)，\n∴\\(\\angle FGC=\\angle BCM\\)，\n∴\\(\\angle FGC=\\angle FCM\\)，\n∴\\(FG=FC=2\\)，\n∵点\\(M\\)为\\(AD\\)中点，\n∴\\(MD=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DC\\)，\n∴\\(tan\\angle MCD=\\frac { MD } { CD }=\\frac { OG } { OC }=\\frac { 1 } { 2 }\\)，\n设\\(OG=a\\)，则\\(OC=2a\\)，\\(FO=2-a\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FOC\\)中，由勾股定理得，\\(\\left ( { 2a } \\right ) ^ { 2 } +\\left ( { 2-a } \\right ) ^ { 2 } =2 ^ { 2 }\\)，\n解得：\\(a=\\frac { 4 } { 5 }\\)，\n∴\\(FO=\\frac { 6 } { 5 },DO=2-OC=\\frac { 2 } { 5 }\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOF\\)中，由勾股定理得，\\(FD=\\sqrt[] { DO ^ { 2 } +OF ^ { 2 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)；",
+      "solution_steps": [
+        "解：过点\\(F\\)作\\(FG\\parallel BC\\)交\\(CD,CM\\)于点\\(O,G\\)，",
+        "〔图3〕",
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(AB=BC=CD=AD=2\\)，\\(\\angle BCD=\\angle ADC=90{}^\\circ\\)",
+        "由折叠得，\\(\\angle BCM=\\angle FCM\\)，\\(CF=BC=2\\)，",
+        "∵\\(FG\\parallel BC\\)，",
+        "∴\\(\\angle FGC=\\angle BCM\\)，",
+        "∴\\(\\angle FGC=\\angle FCM\\)，",
+        "∴\\(FG=FC=2\\)，",
+        "∵点\\(M\\)为\\(AD\\)中点，",
+        "∴\\(MD=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DC\\)，",
+        "∴\\(tan\\angle MCD=\\frac { MD } { CD }=\\frac { OG } { OC }=\\frac { 1 } { 2 }\\)，",
+        "设\\(OG=a\\)，则\\(OC=2a\\)，\\(FO=2-a\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FOC\\)中，由勾股定理得，\\(\\left ( { 2a } \\right ) ^ { 2 } +\\left ( { 2-a } \\right ) ^ { 2 } =2 ^ { 2 }\\)，",
+        "解得：\\(a=\\frac { 4 } { 5 }\\)，",
+        "∴\\(FO=\\frac { 6 } { 5 },DO=2-OC=\\frac { 2 } { 5 }\\)，",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DOF\\)中，由勾股定理得，\\(FD=\\sqrt[] { DO ^ { 2 } +OF ^ { 2 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          61
+        ],
+        "solution_block_ids": [
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由边角条件解直角三角形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-A06C8A9BC4-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图3，一张菱形\\(ABCD\\)纸片，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点E是边\\(AB\\)上一动点，将\\(\\vartriangle BCE\\)沿\\(CE\\)翻折得到\\(\\vartriangle CEF\\)，射线\\(EF\\)与直线\\(AD\\)交于点M，若\\(AB=6\\)，\\(FM=1\\)，请直接写出线段\\(BE\\)的长．",
+      "stem_text": "如图3，一张菱形\\(ABCD\\)纸片，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点E是边\\(AB\\)上一动点，将\\(\\vartriangle BCE\\)沿\\(CE\\)翻折得到\\(\\vartriangle CEF\\)，射线\\(EF\\)与直线\\(AD\\)交于点M，若\\(AB=6\\)，\\(FM=1\\)，请直接写出线段\\(BE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)",
+      "answer": "\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)",
+      "given_solution": "解：当点\\(M\\)在\\(DA\\)延长线上时，\n〔图4〕\n连接\\(MC,AC\\)，过点\\(C\\)作\\(MD,ME\\)的垂线，垂足为\\(K,P\\)，过点\\(M\\)作\\(MH\\bot AB\\)于点\\(H\\)，则\\(\\angle CPF=\\angle CKA=90{}^\\circ\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(BA=BC\\)，\\(AD\\parallel BC\\)\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\)为等边三角形，\\(\\angle 3=\\angle B=60{}^\\circ\\)，\n∴\\(AC=BC\\)，\\(\\angle ACB=60{}^\\circ\\)，\n由翻折得，\\(CB=CF\\)，\\(\\angle 1=\\angle B=60{}^\\circ\\)，\\(BE=FE\\)\n∴\\(CA=CF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\angle 2=\\angle ACB=60{}^\\circ\\)，\n∴\\(\\angle 1=\\angle 2\\)，\n∴\\(\\vartriangle CPF≌\\vartriangle CKA\\)，\n∴\\(CP=CK\\)，\n∵\\(CM=CM\\)，\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CPM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle CKM\\)，\n∴\\(\\angle FMC=\\angle AMC\\)，\n∵\\(\\angle 1=\\angle 2\\)，\n∴\\(\\angle CFM=\\angle CAM\\)\n∴\\(\\vartriangle CFM≌\\vartriangle CAM\\)，\n∴\\(AM=FM=1\\)，\n设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=1+x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MHA\\)中，\\(\\angle 3=60{}^\\circ\\)，\n∴\\(\\angle AMH=30{}^\\circ\\)，\n∴同上可求\\(AH=\\frac { 1 } { 2 }\\)，\\(EH=6-\\frac { 1 } { 2 }-x=\\frac { 11 } { 2 }-x\\)，\n由勾股定理得，\\(MH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 11 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 }\\)\n解得：\\(x=\\frac { 30 } { 13 }\\)；\n当点\\(M\\)在线段\\(AD\\)上时，\n〔图5〕\n同上可得：\\(MA=MF=1\\)，\n设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=x-1\\)，\\(HE=\\frac { 1 } { 2 }+6-x=\\frac { 13 } { 2 }-x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 13 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { x-1 } \\right ) ^ { 2 }\\)\n解得：\\(x=\\frac { 42 } { 11 }\\)．\n综上所述，线段\\(BE\\)的长为\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)．",
+      "solution_steps": [
+        "解：当点\\(M\\)在\\(DA\\)延长线上时，",
+        "〔图4〕",
+        "连接\\(MC,AC\\)，过点\\(C\\)作\\(MD,ME\\)的垂线，垂足为\\(K,P\\)，过点\\(M\\)作\\(MH\\bot AB\\)于点\\(H\\)，则\\(\\angle CPF=\\angle CKA=90{}^\\circ\\)，",
+        "∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(BA=BC\\)，\\(AD\\parallel BC\\)",
+        "∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴\\(\\vartriangle ABC\\)为等边三角形，\\(\\angle 3=\\angle B=60{}^\\circ\\)，",
+        "∴\\(AC=BC\\)，\\(\\angle ACB=60{}^\\circ\\)，",
+        "由翻折得，\\(CB=CF\\)，\\(\\angle 1=\\angle B=60{}^\\circ\\)，\\(BE=FE\\)",
+        "∴\\(CA=CF\\)，",
+        "∵\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle 2=\\angle ACB=60{}^\\circ\\)，",
+        "∴\\(\\angle 1=\\angle 2\\)，",
+        "∴\\(\\vartriangle CPF≌\\vartriangle CKA\\)，",
+        "∴\\(CP=CK\\)，",
+        "∵\\(CM=CM\\)，",
+        "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CPM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle CKM\\)，",
+        "∴\\(\\angle FMC=\\angle AMC\\)，",
+        "∵\\(\\angle 1=\\angle 2\\)，",
+        "∴\\(\\angle CFM=\\angle CAM\\)",
+        "∴\\(\\vartriangle CFM≌\\vartriangle CAM\\)，",
+        "∴\\(AM=FM=1\\)，",
+        "设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=1+x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MHA\\)中，\\(\\angle 3=60{}^\\circ\\)，",
+        "∴\\(\\angle AMH=30{}^\\circ\\)，",
+        "∴同上可求\\(AH=\\frac { 1 } { 2 }\\)，\\(EH=6-\\frac { 1 } { 2 }-x=\\frac { 11 } { 2 }-x\\)，",
+        "由勾股定理得，\\(MH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 11 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { 1+x } \\right ) ^ { 2 }\\)",
+        "解得：\\(x=\\frac { 30 } { 13 }\\)；",
+        "当点\\(M\\)在线段\\(AD\\)上时，",
+        "〔图5〕",
+        "同上可得：\\(MA=MF=1\\)，",
+        "设\\(BE=FE=x\\)，则\\(AE=6-x\\)，\\(ME=x-1\\)，\\(HE=\\frac { 1 } { 2 }+6-x=\\frac { 13 } { 2 }-x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MEH\\)中，由勾股定理得，\\(\\left ( { \\frac { 13 } { 2 }-x } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } =\\left ( { x-1 } \\right ) ^ { 2 }\\)",
+        "解得：\\(x=\\frac { 42 } { 11 }\\)．",
+        "综上所述，线段\\(BE\\)的长为\\(\\frac { 30 } { 13 }\\)或\\(\\frac { 42 } { 11 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          62
+        ],
+        "solution_block_ids": [
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      62
+    ],
+    "solution_body_blocks": [
+      386,
+      467
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-A06C8A9BC4/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          120.45,
+          583.64,
+          423.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-A06C8A9BC4/solution-q20-p20.webp",
+      "assets/SZ-G9-T1-A06C8A9BC4/solution-q20-p21.webp",
+      "assets/SZ-G9-T1-A06C8A9BC4/solution-q20-p22.webp",
+      "assets/SZ-G9-T1-A06C8A9BC4/solution-q20-p23.webp",
+      "assets/SZ-G9-T1-A06C8A9BC4/solution-q20-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          598.18,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          731.36
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          704.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G10.02",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G10.02.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“由边角条件解直角三角形”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

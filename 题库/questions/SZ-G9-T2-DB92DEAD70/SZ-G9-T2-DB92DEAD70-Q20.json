@@ -1,0 +1,359 @@
+{
+  "id": "SZ-G9-T2-DB92DEAD70-Q20",
+  "paper_id": "SZ-G9-T2-DB92DEAD70",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "证明指定直线与圆相切、由相似比求对应线段或周长",
+  "stem": "如图，以\\(\\vartriangle ABC\\)的边\\(AB\\)为直径作\\(\\odot O\\)分别交\\(AC\\)，\\(BC\\)于点D，E，过点E作\\(EF\\bot AC\\)，垂足为F，\\(EF\\)与\\(AB\\)的延长线交于点G．\n〔图1〕\n（1）以下条件：\n①E是劣弧\\(BD\\)的中点：\n②\\(CF=DF\\)；\n③\\(AD=DF\\)．\n请从中选择一个能证明\\(EF\\)是\\(\\odot O\\)的切线的条件，并写出证明过程：\n（2）若\\(EF\\)是是\\(\\odot O\\)的切线，且\\(AF=4，AB=6\\)，求\\(BG\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/91/91c133ddab1765679ab604a0c2837834678cee0d66b3e187fee0d2c361d68c56.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）详见解析\n（2）\\(BG=6\\)",
+  "answer": "（1）详见解析\n（2）\\(BG=6\\)",
+  "given_solution": "【分析】（1）选择：①连接\\(OD,OE\\)，根据圆周角定理求得\\(OE\\parallel AC\\)，再根据垂径定理得\\(EF\\bot OE\\)，即可证明．\n（2）先证明\\(\\vartriangle GOE\\backsim \\vartriangle GAF\\)，再根据相似三角形的性质得到\\(\\frac { OE } { AF }=\\frac { OG } { AG }\\)，即可解答．\n【小问1详解】\n我选择的条件是第①个；\n证明：连接\\(OD,OE\\)，\n〔图2〕\n\\(\\because\\)\\(\\overset \\frown { BE }=\\overset \\frown { DE }\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\because OA=OD\\)，\n\\(\\because \\angle 1+\\angle 2=\\angle A+\\angle 3\\)，\n\\(\\therefore \\angle 1=\\angle 2=\\angle A=\\angle 3\\)，\n\\(\\therefore OE\\parallel\\)，\n\\(\\because EF\\bot AC\\)，\n\\(\\therefore EF\\bot OE\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n或（1）我选择的条件是第②个；\n方法1：证明：连接BD，OE，\n\\(\\because AB\\)是直径，\n\\(\\therefore \\angle ADB=90{}^\\circ\\)\n\\(\\because EF\\bot AC\\)，即\\(\\angle ADB=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore BD\\parallel EF\\)，\n\\(\\because CF=DF\\)，\n∴\\(CE=BE\\)，\n又\\(\\because OA=OB\\)，\n\\(\\therefore OE\\)是\\(\\vartriangle ABC\\)的中位线，\n\\(\\therefore OE\\parallel\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n〔图3〕\n方法2：证明：连接\\(DE,OE\\)，\n\\(\\because CF=DF,EF\\bot AC\\)，\n\\(\\therefore EF\\)垂直平分线段\\(CD\\)，\n\\(\\therefore CE=DE\\)，\n\\(\\because\\)四边形\\(ADEB\\)为圆内接四边形，\n\\(\\therefore \\angle CDE=\\angle 1\\)，\n\\(\\because OB=OE\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\therefore \\angle C=\\angle 2\\)，\n\\(\\therefore OE\\parallel\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n〔图4〕【小问2详解】\n由（1）可知\\(OE\\parallel AC\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ ,\\angle GOE=\\angle GAF\\)，\n\\(\\therefore \\vartriangle GOE\\backsim \\vartriangle GAF\\)，\n\\(\\because AB{ \\rm{ = } }{ \\rm{ 6 } }\\)，\n\\(\\therefore OA=OB=OE=3\\)，\n\\(\\because \\frac { OE } { AF }=\\frac { OG } { AG }\\)，即\\(\\frac { 3 } { 4 }=\\frac { 3+BG } { 6+BG }\\)．\n解得：\\(BG=6\\)．\n【点睛】本题考查了圆的性质，圆周角定理，垂径定理，圆的切线的判定与性质，平行线的性质，相似三角形的判定与性质．",
+  "given_solution_figures": [
+    "assets/figures/91/91c133ddab1765679ab604a0c2837834678cee0d66b3e187fee0d2c361d68c56.png",
+    "assets/figures/12/1265e495cdf7aa5df4e9e96336907126b653b8bf8e17d793711ba22a19428fc3.png",
+    "assets/figures/a9/a9db0d06af670764126aa1c8d02cef39b13e200a06632d9b1d95d00610d4f472.png",
+    "assets/figures/e1/e1b6bca58cc5a191f32938f8065d2135f0991920da397d7e7b4acf1d0f7b514c.png"
+  ],
+  "solution": "【小问1详解】\n我选择的条件是第①个；\n证明：连接\\(OD,OE\\)，\n〔图2〕\n\\(\\because\\)\\(\\overset \\frown { BE }=\\overset \\frown { DE }\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\because OA=OD\\)，\n\\(\\because \\angle 1+\\angle 2=\\angle A+\\angle 3\\)，\n\\(\\therefore \\angle 1=\\angle 2=\\angle A=\\angle 3\\)，\n\\(\\therefore OE\\parallel\\)，\n\\(\\because EF\\bot AC\\)，\n\\(\\therefore EF\\bot OE\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n或（1）我选择的条件是第②个；\n方法1：证明：连接BD，OE，\n\\(\\because AB\\)是直径，\n\\(\\therefore \\angle ADB=90{}^\\circ\\)\n\\(\\because EF\\bot AC\\)，即\\(\\angle ADB=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore BD\\parallel EF\\)，\n\\(\\because CF=DF\\)，\n∴\\(CE=BE\\)，\n又\\(\\because OA=OB\\)，\n\\(\\therefore OE\\)是\\(\\vartriangle ABC\\)的中位线，\n\\(\\therefore OE\\parallel\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n〔图3〕\n方法2：证明：连接\\(DE,OE\\)，\n\\(\\because CF=DF,EF\\bot AC\\)，\n\\(\\therefore EF\\)垂直平分线段\\(CD\\)，\n\\(\\therefore CE=DE\\)，\n\\(\\because\\)四边形\\(ADEB\\)为圆内接四边形，\n\\(\\therefore \\angle CDE=\\angle 1\\)，\n\\(\\because OB=OE\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\therefore \\angle C=\\angle 2\\)，\n\\(\\therefore OE\\parallel\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n〔图4〕【小问2详解】\n由（1）可知\\(OE\\parallel AC\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ ,\\angle GOE=\\angle GAF\\)，\n\\(\\therefore \\vartriangle GOE\\backsim \\vartriangle GAF\\)，\n\\(\\because AB{ \\rm{ = } }{ \\rm{ 6 } }\\)，\n\\(\\therefore OA=OB=OE=3\\)，\n\\(\\because \\frac { OE } { AF }=\\frac { OG } { AG }\\)，即\\(\\frac { 3 } { 4 }=\\frac { 3+BG } { 6+BG }\\)．\n解得：\\(BG=6\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "我选择的条件是第①个；",
+    "证明：连接\\(OD,OE\\)，",
+    "〔图2〕",
+    "\\(\\because\\)\\(\\overset \\frown { BE }=\\overset \\frown { DE }\\)，",
+    "\\(\\therefore \\angle 1=\\angle 2\\)，",
+    "\\(\\because OA=OD\\)，",
+    "\\(\\because \\angle 1+\\angle 2=\\angle A+\\angle 3\\)，",
+    "\\(\\therefore \\angle 1=\\angle 2=\\angle A=\\angle 3\\)，",
+    "\\(\\therefore OE\\parallel\\)，",
+    "\\(\\because EF\\bot AC\\)，",
+    "\\(\\therefore EF\\bot OE\\)，",
+    "\\(\\therefore EF\\)是\\(\\odot O\\)的切线．",
+    "或（1）我选择的条件是第②个；",
+    "方法1：证明：连接BD，OE，",
+    "\\(\\because AB\\)是直径，",
+    "\\(\\therefore \\angle ADB=90{}^\\circ\\)",
+    "\\(\\because EF\\bot AC\\)，即\\(\\angle ADB=\\angle AFE=90{}^\\circ\\)，",
+    "\\(\\therefore BD\\parallel EF\\)，",
+    "\\(\\because CF=DF\\)，",
+    "∴\\(CE=BE\\)，",
+    "又\\(\\because OA=OB\\)，",
+    "\\(\\therefore OE\\)是\\(\\vartriangle ABC\\)的中位线，",
+    "\\(\\therefore OE\\parallel\\)，",
+    "\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，",
+    "\\(\\therefore EF\\)是\\(\\odot O\\)的切线．",
+    "〔图3〕",
+    "方法2：证明：连接\\(DE,OE\\)，",
+    "\\(\\because CF=DF,EF\\bot AC\\)，",
+    "\\(\\therefore EF\\)垂直平分线段\\(CD\\)，",
+    "\\(\\therefore CE=DE\\)，",
+    "\\(\\because\\)四边形\\(ADEB\\)为圆内接四边形，",
+    "\\(\\therefore \\angle CDE=\\angle 1\\)，",
+    "\\(\\because OB=OE\\)，",
+    "\\(\\therefore \\angle 1=\\angle 2\\)，",
+    "\\(\\therefore \\angle C=\\angle 2\\)，",
+    "\\(\\therefore OE\\parallel\\)，",
+    "\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，",
+    "\\(\\therefore EF\\)是\\(\\odot O\\)的切线．",
+    "〔图4〕【小问2详解】",
+    "由（1）可知\\(OE\\parallel AC\\)，",
+    "\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ ,\\angle GOE=\\angle GAF\\)，",
+    "\\(\\therefore \\vartriangle GOE\\backsim \\vartriangle GAF\\)，",
+    "\\(\\because AB{ \\rm{ = } }{ \\rm{ 6 } }\\)，",
+    "\\(\\therefore OA=OB=OE=3\\)，",
+    "\\(\\because \\frac { OE } { AF }=\\frac { OG } { AG }\\)，即\\(\\frac { 3 } { 4 }=\\frac { 3+BG } { 6+BG }\\)．",
+    "解得：\\(BG=6\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，以\\(\\vartriangle ABC\\)的边\\(AB\\)为直径作\\(\\odot O\\)分别交\\(AC\\)，\\(BC\\)于点D，E，过点E作\\(EF\\bot AC\\)，垂足为F，\\(EF\\)与\\(AB\\)的延长线交于点G．\n〔图1〕",
+      "paper_blocks": [
+        68,
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-DB92DEAD70-Q20-P01",
+      "label": "（1）",
+      "prompt": "以下条件：\n①E是劣弧\\(BD\\)的中点：\n②\\(CF=DF\\)；\n③\\(AD=DF\\)．\n请从中选择一个能证明\\(EF\\)是\\(\\odot O\\)的切线的条件，并写出证明过程：",
+      "stem_text": "以下条件：\n①E是劣弧\\(BD\\)的中点：\n②\\(CF=DF\\)；\n③\\(AD=DF\\)．\n请从中选择一个能证明\\(EF\\)是\\(\\odot O\\)的切线的条件，并写出证明过程：",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "详见解析",
+      "answer": "详见解析",
+      "given_solution": "我选择的条件是第①个；\n证明：连接\\(OD,OE\\)，\n〔图2〕\n\\(\\because\\)\\(\\overset \\frown { BE }=\\overset \\frown { DE }\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\because OA=OD\\)，\n\\(\\because \\angle 1+\\angle 2=\\angle A+\\angle 3\\)，\n\\(\\therefore \\angle 1=\\angle 2=\\angle A=\\angle 3\\)，\n\\(\\therefore OE\\parallel\\)，\n\\(\\because EF\\bot AC\\)，\n\\(\\therefore EF\\bot OE\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n或（1）我选择的条件是第②个；\n方法1：证明：连接BD，OE，\n\\(\\because AB\\)是直径，\n\\(\\therefore \\angle ADB=90{}^\\circ\\)\n\\(\\because EF\\bot AC\\)，即\\(\\angle ADB=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore BD\\parallel EF\\)，\n\\(\\because CF=DF\\)，\n∴\\(CE=BE\\)，\n又\\(\\because OA=OB\\)，\n\\(\\therefore OE\\)是\\(\\vartriangle ABC\\)的中位线，\n\\(\\therefore OE\\parallel\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n〔图3〕\n方法2：证明：连接\\(DE,OE\\)，\n\\(\\because CF=DF,EF\\bot AC\\)，\n\\(\\therefore EF\\)垂直平分线段\\(CD\\)，\n\\(\\therefore CE=DE\\)，\n\\(\\because\\)四边形\\(ADEB\\)为圆内接四边形，\n\\(\\therefore \\angle CDE=\\angle 1\\)，\n\\(\\because OB=OE\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\therefore \\angle C=\\angle 2\\)，\n\\(\\therefore OE\\parallel\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，\n\\(\\therefore EF\\)是\\(\\odot O\\)的切线．\n〔图4〕",
+      "solution_steps": [
+        "我选择的条件是第①个；",
+        "证明：连接\\(OD,OE\\)，",
+        "〔图2〕",
+        "\\(\\because\\)\\(\\overset \\frown { BE }=\\overset \\frown { DE }\\)，",
+        "\\(\\therefore \\angle 1=\\angle 2\\)，",
+        "\\(\\because OA=OD\\)，",
+        "\\(\\because \\angle 1+\\angle 2=\\angle A+\\angle 3\\)，",
+        "\\(\\therefore \\angle 1=\\angle 2=\\angle A=\\angle 3\\)，",
+        "\\(\\therefore OE\\parallel\\)，",
+        "\\(\\because EF\\bot AC\\)，",
+        "\\(\\therefore EF\\bot OE\\)，",
+        "\\(\\therefore EF\\)是\\(\\odot O\\)的切线．",
+        "或（1）我选择的条件是第②个；",
+        "方法1：证明：连接BD，OE，",
+        "\\(\\because AB\\)是直径，",
+        "\\(\\therefore \\angle ADB=90{}^\\circ\\)",
+        "\\(\\because EF\\bot AC\\)，即\\(\\angle ADB=\\angle AFE=90{}^\\circ\\)，",
+        "\\(\\therefore BD\\parallel EF\\)，",
+        "\\(\\because CF=DF\\)，",
+        "∴\\(CE=BE\\)，",
+        "又\\(\\because OA=OB\\)，",
+        "\\(\\therefore OE\\)是\\(\\vartriangle ABC\\)的中位线，",
+        "\\(\\therefore OE\\parallel\\)，",
+        "\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，",
+        "\\(\\therefore EF\\)是\\(\\odot O\\)的切线．",
+        "〔图3〕",
+        "方法2：证明：连接\\(DE,OE\\)，",
+        "\\(\\because CF=DF,EF\\bot AC\\)，",
+        "\\(\\therefore EF\\)垂直平分线段\\(CD\\)，",
+        "\\(\\therefore CE=DE\\)，",
+        "\\(\\because\\)四边形\\(ADEB\\)为圆内接四边形，",
+        "\\(\\therefore \\angle CDE=\\angle 1\\)，",
+        "\\(\\because OB=OE\\)，",
+        "\\(\\therefore \\angle 1=\\angle 2\\)，",
+        "\\(\\therefore \\angle C=\\angle 2\\)，",
+        "\\(\\therefore OE\\parallel\\)，",
+        "\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ\\)，",
+        "\\(\\therefore EF\\)是\\(\\odot O\\)的切线．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“证明指定直线与圆相切”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-DB92DEAD70-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(EF\\)是是\\(\\odot O\\)的切线，且\\(AF=4，AB=6\\)，求\\(BG\\)的长．",
+      "stem_text": "若\\(EF\\)是是\\(\\odot O\\)的切线，且\\(AF=4，AB=6\\)，求\\(BG\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BG=6\\)",
+      "answer": "\\(BG=6\\)",
+      "given_solution": "由（1）可知\\(OE\\parallel AC\\)，\n\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ ,\\angle GOE=\\angle GAF\\)，\n\\(\\therefore \\vartriangle GOE\\backsim \\vartriangle GAF\\)，\n\\(\\because AB{ \\rm{ = } }{ \\rm{ 6 } }\\)，\n\\(\\therefore OA=OB=OE=3\\)，\n\\(\\because \\frac { OE } { AF }=\\frac { OG } { AG }\\)，即\\(\\frac { 3 } { 4 }=\\frac { 3+BG } { 6+BG }\\)．\n解得：\\(BG=6\\)．",
+      "solution_steps": [
+        "由（1）可知\\(OE\\parallel AC\\)，",
+        "\\(\\therefore \\angle OEG=\\angle AFE=90{}^\\circ ,\\angle GOE=\\angle GAF\\)，",
+        "\\(\\therefore \\vartriangle GOE\\backsim \\vartriangle GAF\\)，",
+        "\\(\\because AB{ \\rm{ = } }{ \\rm{ 6 } }\\)，",
+        "\\(\\therefore OA=OB=OE=3\\)，",
+        "\\(\\because \\frac { OE } { AF }=\\frac { OG } { AG }\\)，即\\(\\frac { 3 } { 4 }=\\frac { 3+BG } { 6+BG }\\)．",
+        "解得：\\(BG=6\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          75
+        ],
+        "solution_block_ids": [
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      75
+    ],
+    "solution_body_blocks": [
+      319,
+      379
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-DB92DEAD70/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          190.45,
+          583.64,
+          509.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-DB92DEAD70/solution-q20-p18.webp",
+      "assets/SZ-G9-T2-DB92DEAD70/solution-q20-p19.webp",
+      "assets/SZ-G9-T2-DB92DEAD70/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          470.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“证明指定直线与圆相切”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "小问标签汇总"
+}

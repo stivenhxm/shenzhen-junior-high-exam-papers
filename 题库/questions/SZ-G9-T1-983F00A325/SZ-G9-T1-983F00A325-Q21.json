@@ -1,0 +1,132 @@
+{
+  "id": "SZ-G9-T1-983F00A325-Q21",
+  "paper_id": "SZ-G9-T1-983F00A325",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由实根条件确定参数的允许范围",
+  "stem": "材料：对于一个关于\\(x\\)的二次三项式\\(ax ^ { 2 } +bx+c\\)（\\(a\\ne 0\\)），除了可以利用配方法求该多项式的取值范围外，爱思考的小宁同学还想到了利用根的判别式的方法，如下例：\n例：求\\(x ^ { 2 } +2x+5\\)的最小值；\n解：令\\(x ^ { 2 } +2x+5=y\\)\n\\(\\therefore x ^ { 2 } +2x+\\left ( { 5-y } \\right )=0\\)\n\\(\\therefore \\Delta =4-4\\times \\left ( { 5-y } \\right )\\ge 0\\)\n\\(\\therefore y\\ge 4\\)，\\(\\therefore x ^ { 2 } +2x+5\\)的最小值为\\(4\\)．\n请利用上述方法解决下列问题：\n题一：如图1，在\\(\\vartriangle ABC\\)中，\\(BC=10\\)，高\\(AD=8\\)，矩形\\(EFPQ\\)的一边\\(QP\\)在边上，\\(E\\)、\\(F\\)两点分别在\\(AB\\)、\\(AC\\)上，\\(AD\\)交\\(EF\\)于点\\(H\\)．设\\(EQ=x\\)．\n①用含\\(x\\)的代数式表示\\(EF\\)的长为________；\n②求矩形\\(EFPQ\\)的面积最大值．\n题二：如图2，有一老板打算利用一些篱笆，一面利用墙，围成中间隔有一道篱笆的长方形花圃．若要围成面积为\\(300\\)平方米的花圃，需要用的篱笆最少是多少米？\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-983F00A325/figures/d4a1ad6ca8456d58fcff98e34553fe8baeb2af257eaf6f9a2600354835cb0679.png"
+  ],
+  "tables": [],
+  "given_answer": "题一：①\\(10-\\frac { 5 } { 4 }x\\)；②最大值为\\(20\\)；题二：\\(60\\)米",
+  "answer": "题一：①\\(10-\\frac { 5 } { 4 }x\\)；②最大值为\\(20\\)；题二：\\(60\\)米",
+  "given_solution": "【分析】题一：①运用矩形的性质，证明△AEF∽△ABC，用相似三角形的相似比等于对应高的比列式计算即可；\n②设矩形的面积为S，建立等式，转化为给出的方法计算即可．\n题二：设\\(AD\\)的长为\\(x\\)米，则\\(AB=\\frac { 300 } { x }\\)米，需要用的篱笆长为\\(l\\)米，则\\(l=3x+\\frac { 300 } { x }\\)，转化为给出的方法计算即可．\n【详解】（1）∵四边形EFPQ是矩形,\n∴EQ=DH=PF，EF∥BC，\n∴△AEF∽△ABC，\n∴\\(\\frac { AH } { AD }=\\frac { EF } { BC }\\)，\n∴\\(\\frac { 8-x } { 8 }=\\frac { EF } { 10 }\\)，\n∴\\(EF=10-\\frac { 5 } { 4 }x\\)，\n故答案为：\\(10-\\frac { 5 } { 4 }x\\)；\n（2）∵四边形EFPQ是矩形,\n∴EQ=DH=PF，EF∥BC，\n∴△AEF∽△ABC，\n∴\\(\\frac { AH } { AD }=\\frac { EF } { BC }\\)，\n∴\\(\\frac { 8-x } { 8 }=\\frac { EF } { 10 }\\)，\n∴\\(EF=10-\\frac { 5 } { 4 }x\\)，\n\\(\\therefore S=EF\\cdot EQ=x\\left ( { 10-\\frac { 5 } { 4 }x } \\right )=-\\frac { 5 } { 4 }x ^ { 2 } +10x\\)，\n\\(\\therefore \\frac { 5 } { 4 }x ^ { 2 } -10x+S=0\\)，\n\\(\\therefore \\Delta =100-5S\\ge 0\\)，\n\\(\\therefore S\\le 20\\)，\n\\(\\therefore S_{ 矩形EFPQ }\\)有最大值，最大值为\\(20\\)．\n题二：设\\(AD\\)的长为\\(x\\)米，则\\(AB=\\frac { 300 } { x }\\)米，需要用的篱笆长为\\(l\\)米，\n\\(\\therefore l=3x+\\frac { 300 } { x }\\)，\n整理，得\\(3x ^ { 2 } -lx+300=0\\)，\n\\(\\therefore \\Delta =l ^ { 2 } -3600=\\left ( { l+60 } \\right )\\left ( { l-60 } \\right )\\ge 0\\)，\n\\(\\because l+60>0\\)，\n∴\\(l-60\\ge 0\\)\n\\(\\therefore l\\ge 60\\)，\n\\(\\therefore\\)需要用的篱笆最少是\\(60\\)米．\n【点睛】本题考查了一元二次方程根的判别式的应用，相似三角形的判定与性质，能准确理解新方法，并运用新方法是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-983F00A325/figures/d4a1ad6ca8456d58fcff98e34553fe8baeb2af257eaf6f9a2600354835cb0679.png"
+  ],
+  "solution": "（1）∵四边形EFPQ是矩形,\n∴EQ=DH=PF，EF∥BC，\n∴△AEF∽△ABC，\n∴\\(\\frac { AH } { AD }=\\frac { EF } { BC }\\)，\n∴\\(\\frac { 8-x } { 8 }=\\frac { EF } { 10 }\\)，\n∴\\(EF=10-\\frac { 5 } { 4 }x\\)，\n故答案为：\\(10-\\frac { 5 } { 4 }x\\)；\n（2）∵四边形EFPQ是矩形,\n∴EQ=DH=PF，EF∥BC，\n∴△AEF∽△ABC，\n∴\\(\\frac { AH } { AD }=\\frac { EF } { BC }\\)，\n∴\\(\\frac { 8-x } { 8 }=\\frac { EF } { 10 }\\)，\n∴\\(EF=10-\\frac { 5 } { 4 }x\\)，\n\\(\\therefore S=EF\\cdot EQ=x\\left ( { 10-\\frac { 5 } { 4 }x } \\right )=-\\frac { 5 } { 4 }x ^ { 2 } +10x\\)，\n\\(\\therefore \\frac { 5 } { 4 }x ^ { 2 } -10x+S=0\\)，\n\\(\\therefore \\Delta =100-5S\\ge 0\\)，\n\\(\\therefore S\\le 20\\)，\n\\(\\therefore S_{ 矩形EFPQ }\\)有最大值，最大值为\\(20\\)．\n题二：设\\(AD\\)的长为\\(x\\)米，则\\(AB=\\frac { 300 } { x }\\)米，需要用的篱笆长为\\(l\\)米，\n\\(\\therefore l=3x+\\frac { 300 } { x }\\)，\n整理，得\\(3x ^ { 2 } -lx+300=0\\)，\n\\(\\therefore \\Delta =l ^ { 2 } -3600=\\left ( { l+60 } \\right )\\left ( { l-60 } \\right )\\ge 0\\)，\n\\(\\because l+60>0\\)，\n∴\\(l-60\\ge 0\\)\n\\(\\therefore l\\ge 60\\)，\n\\(\\therefore\\)需要用的篱笆最少是\\(60\\)米．",
+  "solution_steps": [
+    "（1）∵四边形EFPQ是矩形,",
+    "∴EQ=DH=PF，EF∥BC，",
+    "∴△AEF∽△ABC，",
+    "∴\\(\\frac { AH } { AD }=\\frac { EF } { BC }\\)，",
+    "∴\\(\\frac { 8-x } { 8 }=\\frac { EF } { 10 }\\)，",
+    "∴\\(EF=10-\\frac { 5 } { 4 }x\\)，",
+    "故答案为：\\(10-\\frac { 5 } { 4 }x\\)；",
+    "（2）∵四边形EFPQ是矩形,",
+    "∴EQ=DH=PF，EF∥BC，",
+    "∴△AEF∽△ABC，",
+    "∴\\(\\frac { AH } { AD }=\\frac { EF } { BC }\\)，",
+    "∴\\(\\frac { 8-x } { 8 }=\\frac { EF } { 10 }\\)，",
+    "∴\\(EF=10-\\frac { 5 } { 4 }x\\)，",
+    "\\(\\therefore S=EF\\cdot EQ=x\\left ( { 10-\\frac { 5 } { 4 }x } \\right )=-\\frac { 5 } { 4 }x ^ { 2 } +10x\\)，",
+    "\\(\\therefore \\frac { 5 } { 4 }x ^ { 2 } -10x+S=0\\)，",
+    "\\(\\therefore \\Delta =100-5S\\ge 0\\)，",
+    "\\(\\therefore S\\le 20\\)，",
+    "\\(\\therefore S_{ 矩形EFPQ }\\)有最大值，最大值为\\(20\\)．",
+    "题二：设\\(AD\\)的长为\\(x\\)米，则\\(AB=\\frac { 300 } { x }\\)米，需要用的篱笆长为\\(l\\)米，",
+    "\\(\\therefore l=3x+\\frac { 300 } { x }\\)，",
+    "整理，得\\(3x ^ { 2 } -lx+300=0\\)，",
+    "\\(\\therefore \\Delta =l ^ { 2 } -3600=\\left ( { l+60 } \\right )\\left ( { l-60 } \\right )\\ge 0\\)，",
+    "\\(\\because l+60>0\\)，",
+    "∴\\(l-60\\ge 0\\)",
+    "\\(\\therefore l\\ge 60\\)，",
+    "\\(\\therefore\\)需要用的篱笆最少是\\(60\\)米．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      57,
+      68
+    ],
+    "solution_body_blocks": [
+      328,
+      371
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-983F00A325/paper-q21-p05.webp",
+      "assets/SZ-G9-T1-983F00A325/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          310.91,
+          583.64,
+          696.82
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          176.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-983F00A325/solution-q21-p19.webp",
+      "assets/SZ-G9-T1-983F00A325/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          186.82,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          415.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N07.03"
+  ],
+  "exam_ids": [
+    "E.N07.03.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由实根条件确定参数的允许范围”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

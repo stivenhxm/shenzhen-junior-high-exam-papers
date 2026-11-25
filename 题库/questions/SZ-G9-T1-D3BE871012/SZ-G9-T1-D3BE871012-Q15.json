@@ -1,0 +1,295 @@
+{
+  "id": "SZ-G9-T1-D3BE871012-Q15",
+  "paper_id": "SZ-G9-T1-D3BE871012",
+  "number": 15,
+  "type": "解答题",
+  "points": null,
+  "title": "列全等可能结果计算概率",
+  "stem": "2024年夏季奥运会在法国巴黎举行，某4档电视台A、B、C、D在同一时间进行了现场直播，直播节目表如下表所示．小夏和小王都是体育迷，他们在各自家里同一时间观看了直播节目．\n电视台 | A | B | C | D\n直播节目 | 〔图1〕 | 〔图2〕 | 〔图3〕 | 〔图4〕\n | 乒乓球 | 篮球 | 射击 | 网球\n（1）小夏收看了乒乓球直播的概率为________；\n（2）请用列表或画树状图的方法求小夏和小王收看同一个直播节目的概率．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-D3BE871012/figures/41ad3227795dbb87aafcfe23a6e5113c9b0c2de65f60a03629ed686df06ff3e6.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/2edcaade944fe9db6b8c526c204972e399ab2747ded58a27e3382af1b84e1849.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/20d4f66c2e0e27b9889aac4a7b5030fdc6b4ef2c86d0637867ed1c3c5ee2edff.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/e71b488d2a2d9d0866309b3c5195a0ccd77c31f7e83dd91948eec234b2c5c141.png"
+  ],
+  "tables": [
+    {
+      "text": "电视台 | A | B | C | D\n直播节目 | 〔图1〕 | 〔图2〕 | 〔图3〕 | 〔图4〕\n | 乒乓球 | 篮球 | 射击 | 网球",
+      "rows": [
+        [
+          [
+            "电视台"
+          ],
+          [
+            "A"
+          ],
+          [
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "D"
+          ]
+        ],
+        [
+          [
+            "直播节目"
+          ],
+          [
+            "〔图1〕"
+          ],
+          [
+            "〔图2〕"
+          ],
+          [
+            "〔图3〕"
+          ],
+          [
+            "〔图4〕"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "乒乓球"
+          ],
+          [
+            "篮球"
+          ],
+          [
+            "射击"
+          ],
+          [
+            "网球"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）\\(\\frac { 1 } { 4 }\\)\n（2）\\(\\frac { 1 } { 4 }\\)",
+  "answer": "（1）\\(\\frac { 1 } { 4 }\\)\n（2）\\(\\frac { 1 } { 4 }\\)",
+  "given_solution": "【分析】本题考查的是用列表法或画树状图法求概率．列表法或画树状图法可以不重复不遗漏的列出所有可能的结果，列表法适合于两步完成的事件，树状图法适合两步或两步以上完成的事件．用到的知识点为：概率=所求情况数与总情况数之比．\n（1）根据概率公式即可得；\n（2）列表得出所有等可能的情况数，找出小夏和小王收看同一个直播节目的情况数，即可求出所求概率．\n【小问1详解】\n解：小夏收看了乒乓球直播的概率为\\(\\frac { 1 } { 4 }\\)，\n故答案为：\\(\\frac { 1 } { 4 }\\)；\n【小问2详解】\n解：列表如下：\n小夏 小王 | A | B | C | D\nA | \\(\\left ( { A,A } \\right )\\) | \\(\\left ( { A,B } \\right )\\) | \\(\\left ( { A,C } \\right )\\) | \\(\\left ( { A,D } \\right )\\)\nB | \\(\\left ( { B,A } \\right )\\) | \\(\\left ( { B,B } \\right )\\) | \\(\\left ( { B,C } \\right )\\) | \\(\\left ( { B,D } \\right )\\)\nC | \\(\\left ( { C,A } \\right )\\) | \\(\\left ( { C,B } \\right )\\) | \\(\\left ( { C,C } \\right )\\) | \\(\\left ( { C,D } \\right )\\)\nD | \\(\\left ( { D,A } \\right )\\) | \\(\\left ( { D,B } \\right )\\) | \\(\\left ( { D,C } \\right )\\) | \\(\\left ( { D,D } \\right )\\)\n∴共有16种等可能的结果，其中能同时看同一个直播节目的有4种，\n∴P（两人同时看同一个直播节目）\\(=\\frac { 4 } { 16 }=\\frac { 1 } { 4 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-D3BE871012/figures/41ad3227795dbb87aafcfe23a6e5113c9b0c2de65f60a03629ed686df06ff3e6.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/2edcaade944fe9db6b8c526c204972e399ab2747ded58a27e3382af1b84e1849.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/20d4f66c2e0e27b9889aac4a7b5030fdc6b4ef2c86d0637867ed1c3c5ee2edff.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/e71b488d2a2d9d0866309b3c5195a0ccd77c31f7e83dd91948eec234b2c5c141.png"
+  ],
+  "solution": "【小问1详解】\n解：小夏收看了乒乓球直播的概率为\\(\\frac { 1 } { 4 }\\)，\n故答案为：\\(\\frac { 1 } { 4 }\\)；\n【小问2详解】\n解：列表如下：\n小夏 小王 | A | B | C | D\nA | \\(\\left ( { A,A } \\right )\\) | \\(\\left ( { A,B } \\right )\\) | \\(\\left ( { A,C } \\right )\\) | \\(\\left ( { A,D } \\right )\\)\nB | \\(\\left ( { B,A } \\right )\\) | \\(\\left ( { B,B } \\right )\\) | \\(\\left ( { B,C } \\right )\\) | \\(\\left ( { B,D } \\right )\\)\nC | \\(\\left ( { C,A } \\right )\\) | \\(\\left ( { C,B } \\right )\\) | \\(\\left ( { C,C } \\right )\\) | \\(\\left ( { C,D } \\right )\\)\nD | \\(\\left ( { D,A } \\right )\\) | \\(\\left ( { D,B } \\right )\\) | \\(\\left ( { D,C } \\right )\\) | \\(\\left ( { D,D } \\right )\\)\n∴共有16种等可能的结果，其中能同时看同一个直播节目的有4种，\n∴P（两人同时看同一个直播节目）\\(=\\frac { 4 } { 16 }=\\frac { 1 } { 4 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：小夏收看了乒乓球直播的概率为\\(\\frac { 1 } { 4 }\\)，",
+    "故答案为：\\(\\frac { 1 } { 4 }\\)；",
+    "【小问2详解】",
+    "解：列表如下：",
+    "小夏 小王 | A | B | C | D",
+    "A | \\(\\left ( { A,A } \\right )\\) | \\(\\left ( { A,B } \\right )\\) | \\(\\left ( { A,C } \\right )\\) | \\(\\left ( { A,D } \\right )\\)",
+    "B | \\(\\left ( { B,A } \\right )\\) | \\(\\left ( { B,B } \\right )\\) | \\(\\left ( { B,C } \\right )\\) | \\(\\left ( { B,D } \\right )\\)",
+    "C | \\(\\left ( { C,A } \\right )\\) | \\(\\left ( { C,B } \\right )\\) | \\(\\left ( { C,C } \\right )\\) | \\(\\left ( { C,D } \\right )\\)",
+    "D | \\(\\left ( { D,A } \\right )\\) | \\(\\left ( { D,B } \\right )\\) | \\(\\left ( { D,C } \\right )\\) | \\(\\left ( { D,D } \\right )\\)",
+    "∴共有16种等可能的结果，其中能同时看同一个直播节目的有4种，",
+    "∴P（两人同时看同一个直播节目）\\(=\\frac { 4 } { 16 }=\\frac { 1 } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "2024年夏季奥运会在法国巴黎举行，某4档电视台A、B、C、D在同一时间进行了现场直播，直播节目表如下表所示．小夏和小王都是体育迷，他们在各自家里同一时间观看了直播节目．\n电视台 | A | B | C | D\n直播节目 | 〔图1〕 | 〔图2〕 | 〔图3〕 | 〔图4〕\n | 乒乓球 | 篮球 | 射击 | 网球",
+      "paper_blocks": [
+        52,
+        53
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-D3BE871012-Q15-P01",
+      "label": "（1）",
+      "prompt": "小夏收看了乒乓球直播的概率为________；",
+      "stem_text": "小夏收看了乒乓球直播的概率为________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 4 }\\)",
+      "answer": "\\(\\frac { 1 } { 4 }\\)",
+      "given_solution": "解：小夏收看了乒乓球直播的概率为\\(\\frac { 1 } { 4 }\\)，\n故答案为：\\(\\frac { 1 } { 4 }\\)；",
+      "solution_steps": [
+        "解：小夏收看了乒乓球直播的概率为\\(\\frac { 1 } { 4 }\\)，",
+        "故答案为：\\(\\frac { 1 } { 4 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          55
+        ],
+        "solution_block_ids": [
+          227,
+          228
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面含“概率”。列出等可能结果并计算概率。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-D3BE871012-Q15-P02",
+      "label": "（2）",
+      "prompt": "请用列表或画树状图的方法求小夏和小王收看同一个直播节目的概率．",
+      "stem_text": "请用列表或画树状图的方法求小夏和小王收看同一个直播节目的概率．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 4 }\\)",
+      "answer": "\\(\\frac { 1 } { 4 }\\)",
+      "given_solution": "解：列表如下：\n小夏 小王 | A | B | C | D\nA | \\(\\left ( { A,A } \\right )\\) | \\(\\left ( { A,B } \\right )\\) | \\(\\left ( { A,C } \\right )\\) | \\(\\left ( { A,D } \\right )\\)\nB | \\(\\left ( { B,A } \\right )\\) | \\(\\left ( { B,B } \\right )\\) | \\(\\left ( { B,C } \\right )\\) | \\(\\left ( { B,D } \\right )\\)\nC | \\(\\left ( { C,A } \\right )\\) | \\(\\left ( { C,B } \\right )\\) | \\(\\left ( { C,C } \\right )\\) | \\(\\left ( { C,D } \\right )\\)\nD | \\(\\left ( { D,A } \\right )\\) | \\(\\left ( { D,B } \\right )\\) | \\(\\left ( { D,C } \\right )\\) | \\(\\left ( { D,D } \\right )\\)\n∴共有16种等可能的结果，其中能同时看同一个直播节目的有4种，\n∴P（两人同时看同一个直播节目）\\(=\\frac { 4 } { 16 }=\\frac { 1 } { 4 }\\)．",
+      "solution_steps": [
+        "解：列表如下：",
+        "小夏 小王 | A | B | C | D",
+        "A | \\(\\left ( { A,A } \\right )\\) | \\(\\left ( { A,B } \\right )\\) | \\(\\left ( { A,C } \\right )\\) | \\(\\left ( { A,D } \\right )\\)",
+        "B | \\(\\left ( { B,A } \\right )\\) | \\(\\left ( { B,B } \\right )\\) | \\(\\left ( { B,C } \\right )\\) | \\(\\left ( { B,D } \\right )\\)",
+        "C | \\(\\left ( { C,A } \\right )\\) | \\(\\left ( { C,B } \\right )\\) | \\(\\left ( { C,C } \\right )\\) | \\(\\left ( { C,D } \\right )\\)",
+        "D | \\(\\left ( { D,A } \\right )\\) | \\(\\left ( { D,B } \\right )\\) | \\(\\left ( { D,C } \\right )\\) | \\(\\left ( { D,D } \\right )\\)",
+        "∴共有16种等可能的结果，其中能同时看同一个直播节目的有4种，",
+        "∴P（两人同时看同一个直播节目）\\(=\\frac { 4 } { 16 }=\\frac { 1 } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          56
+        ],
+        "solution_block_ids": [
+          230,
+          231,
+          232,
+          233
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          12,
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“列全等可能结果计算概率”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      52,
+      56
+    ],
+    "solution_body_blocks": [
+      215,
+      233
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-D3BE871012/paper-q15-p04.webp",
+      "assets/SZ-G9-T1-D3BE871012/paper-q15-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          541.82,
+          583.64,
+          741.36
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-D3BE871012/solution-q15-p12.webp",
+      "assets/SZ-G9-T1-D3BE871012/solution-q15-p13.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          155.45,
+          583.64,
+          744.55
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          76.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.S03.02"
+  ],
+  "exam_ids": [
+    "E.S03.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面含“概率”。列出等可能结果并计算概率。 本问题面与解答对应“列全等可能结果计算概率”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

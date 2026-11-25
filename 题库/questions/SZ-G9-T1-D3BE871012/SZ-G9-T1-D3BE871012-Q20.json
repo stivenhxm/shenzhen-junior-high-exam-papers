@@ -1,0 +1,381 @@
+{
+  "id": "SZ-G9-T1-D3BE871012-Q20",
+  "paper_id": "SZ-G9-T1-D3BE871012",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "（1）在菱形\\(ABCD\\)中，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点P在边\\(CD\\)边上，连接\\(AP\\)，点Q在\\(BC\\)的延长线上，连接\\(DQ\\)，\\(CP=CQ\\)，求证：\\(\\angle APC=\\angle DQC\\)；\n（2）菱形\\(ABCD\\)中，点P、Q分别是\\(CD\\),\\(BC\\)上的动点，且满足\\(AP=DQ=8\\)，当\\(\\angle APD=60{}^\\circ\\)时，求\\(\\vartriangle ADP\\)与\\(\\vartriangle DQC\\)的面积之和．\n（3）平行四边形\\(ABCD\\)中，\\(AD=2CD\\)，P是\\(CD\\)上一动点，Q是\\(BC\\)上一动点，且满足\\(AP=2DQ\\)，\\(AP=10\\)，\\(DP=2\\)，当\\(\\angle APD=60{}^\\circ\\)时，求\\(CQ\\)的长度．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-D3BE871012/figures/c7fcd3e4ed3ec6e89cf5317c7bf17039c2be279ecc02182abb784271545d65cb.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(16\\sqrt[] { 3 }\\)；（3）4",
+  "answer": "（1）见解析；（2）\\(16\\sqrt[] { 3 }\\)；（3）4",
+  "given_solution": "【分析】（1）连接\\(AC\\)，证明\\(\\vartriangle ACP≌\\vartriangle DCQ\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)即可得证\\(\\angle APC=\\angle DQC\\)．\n（2）延长\\(BC\\)到H使得\\(CH=DP\\)，连接\\(DH\\)，证明\\(\\vartriangle ADP≌\\vartriangle DCH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，判定三角形\\(\\vartriangle DHQ\\)是等边三角形，得到\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =S_{ \\vartriangle DQH }\\)，计算即可．\n（3）延长\\(BC\\)到H使得\\(CH=\\frac { 1 } { 2 }DP\\)，证明\\(\\vartriangle ADP\\backsim \\vartriangle DCH\\)，再证明\\(\\vartriangle DHQ\\)是等边三角形，解答即可．\n【详解】（1）证明：连接\\(AC\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD，AB\\parallel CD\\)，\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle ADC=60{}^\\circ\\)，\\(\\angle DCQ=60{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\)，\\(\\vartriangle ADC\\)都是等边三角形，\n∴\\(AC=BC=AB\\)，\n∴\\(AC=CD=AD\\)，\n∴\\(\\angle ACP=60{}^\\circ\\)，\n∴\\(\\angle ACP=\\angle DCQ\\)，\n∵\\(\\begin{cases} AC=DC \\\\ \\angle ACP=\\angle DCQ \\\\ CP=CQ \\end{cases}\\)\n〔图2〕\n∴\\(\\vartriangle ACP≌\\vartriangle DCQ\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle APC=\\angle DQC\\)．\n（2）解：延长\\(BC\\)到H使得\\(CH=DP\\)，连接\\(DH\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD，AD\\parallel BC\\)，\n∴\\(\\angle ADP=\\angle DCH\\)，\n∵\\(\\begin{cases} AD=DC \\\\ \\angle ADP=\\angle DCH \\\\ DP=CH \\end{cases}\\)\n〔图3〕\n∴\\(\\vartriangle ADP≌\\vartriangle DCH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle APD=\\angle DHC\\)，\\(AP=DH\\)，\\(S_{ \\vartriangle ADP } =S_{ \\vartriangle DCH }\\)．\n∵\\(AP=DQ=8\\)，\\(\\angle APD=60{}^\\circ\\)，\n∴\\(AP=DQ=DH=8\\)，\\(\\angle DHC=60{}^\\circ\\)，\n∴\\(\\vartriangle DHQ\\)是等边三角形，\n∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =S_{ \\vartriangle DQH }\\)，\n∵\\(S_{ \\vartriangle DQH } =\\frac { \\sqrt[] { 3 } } { 4 }\\times 8 ^ { 2 } =16\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =16\\sqrt[] { 3 }\\)．\n（3）解：延长\\(BC\\)到H使得\\(CH=\\frac { 1 } { 2 }DP\\)，\n∵\\(AD=2CD\\)， \\(DP=2\\)，\n∴\\(CH=1\\)，\\(\\frac { AD } { CD }=\\frac { DP } { CH }=\\frac { 2 } { 1 }\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(AD\\parallel BC\\)，\n∴\\(\\angle ADP=\\angle DCH\\)，\n〔图4〕\n∴\\(\\vartriangle ADP\\backsim \\vartriangle DCH\\)，\n∴\\(\\frac { AP } { DH }=2\\)，\\(\\angle APD=\\angle DHC=60{}^\\circ\\)．\n∵\\(AP=2DQ\\)，\\(AP=10\\)，\n∴\\(DQ=DH=5\\)，\n∴\\(\\vartriangle DHQ\\)是等边三角形，\n∴\\(QH=5\\)，\n∴\\(CQ=QH-CH=5-1=4\\)．\n【点睛】本题考查了菱形的性质，平行四边形的性质，三角形全等的判定和性质，等边三角形的判定和性质，三角形相似的判定和性质，熟练掌握性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-D3BE871012/figures/c7fcd3e4ed3ec6e89cf5317c7bf17039c2be279ecc02182abb784271545d65cb.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/b11e1770e1e3473683a59b1586a6c6148a26057b7ce2371852600e9b239c155c.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/e7719d0d621aa57e72cde101997e5b75fffa832572090ef0d61e2c5a30e5b106.png",
+    "assets/SZ-G9-T1-D3BE871012/figures/3f53be694aa756eb46c2d9118032babf7f5d6087ecab23bd25897d673f2f6b0c.png"
+  ],
+  "solution": "（1）证明：连接\\(AC\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD，AB\\parallel CD\\)，\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle ADC=60{}^\\circ\\)，\\(\\angle DCQ=60{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\)，\\(\\vartriangle ADC\\)都是等边三角形，\n∴\\(AC=BC=AB\\)，\n∴\\(AC=CD=AD\\)，\n∴\\(\\angle ACP=60{}^\\circ\\)，\n∴\\(\\angle ACP=\\angle DCQ\\)，\n∵\\(\\begin{cases} AC=DC \\\\ \\angle ACP=\\angle DCQ \\\\ CP=CQ \\end{cases}\\)\n〔图2〕\n∴\\(\\vartriangle ACP≌\\vartriangle DCQ\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle APC=\\angle DQC\\)．\n（2）解：延长\\(BC\\)到H使得\\(CH=DP\\)，连接\\(DH\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD，AD\\parallel BC\\)，\n∴\\(\\angle ADP=\\angle DCH\\)，\n∵\\(\\begin{cases} AD=DC \\\\ \\angle ADP=\\angle DCH \\\\ DP=CH \\end{cases}\\)\n〔图3〕\n∴\\(\\vartriangle ADP≌\\vartriangle DCH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle APD=\\angle DHC\\)，\\(AP=DH\\)，\\(S_{ \\vartriangle ADP } =S_{ \\vartriangle DCH }\\)．\n∵\\(AP=DQ=8\\)，\\(\\angle APD=60{}^\\circ\\)，\n∴\\(AP=DQ=DH=8\\)，\\(\\angle DHC=60{}^\\circ\\)，\n∴\\(\\vartriangle DHQ\\)是等边三角形，\n∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =S_{ \\vartriangle DQH }\\)，\n∵\\(S_{ \\vartriangle DQH } =\\frac { \\sqrt[] { 3 } } { 4 }\\times 8 ^ { 2 } =16\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =16\\sqrt[] { 3 }\\)．\n（3）解：延长\\(BC\\)到H使得\\(CH=\\frac { 1 } { 2 }DP\\)，\n∵\\(AD=2CD\\)， \\(DP=2\\)，\n∴\\(CH=1\\)，\\(\\frac { AD } { CD }=\\frac { DP } { CH }=\\frac { 2 } { 1 }\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(AD\\parallel BC\\)，\n∴\\(\\angle ADP=\\angle DCH\\)，\n〔图4〕\n∴\\(\\vartriangle ADP\\backsim \\vartriangle DCH\\)，\n∴\\(\\frac { AP } { DH }=2\\)，\\(\\angle APD=\\angle DHC=60{}^\\circ\\)．\n∵\\(AP=2DQ\\)，\\(AP=10\\)，\n∴\\(DQ=DH=5\\)，\n∴\\(\\vartriangle DHQ\\)是等边三角形，\n∴\\(QH=5\\)，\n∴\\(CQ=QH-CH=5-1=4\\)．",
+  "solution_steps": [
+    "（1）证明：连接\\(AC\\)，",
+    "∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(AB=BC=CD=AD，AB\\parallel CD\\)，",
+    "∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(\\angle ADC=60{}^\\circ\\)，\\(\\angle DCQ=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle ABC\\)，\\(\\vartriangle ADC\\)都是等边三角形，",
+    "∴\\(AC=BC=AB\\)，",
+    "∴\\(AC=CD=AD\\)，",
+    "∴\\(\\angle ACP=60{}^\\circ\\)，",
+    "∴\\(\\angle ACP=\\angle DCQ\\)，",
+    "∵\\(\\begin{cases} AC=DC \\\\ \\angle ACP=\\angle DCQ \\\\ CP=CQ \\end{cases}\\)",
+    "〔图2〕",
+    "∴\\(\\vartriangle ACP≌\\vartriangle DCQ\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle APC=\\angle DQC\\)．",
+    "（2）解：延长\\(BC\\)到H使得\\(CH=DP\\)，连接\\(DH\\)，",
+    "∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(AB=BC=CD=AD，AD\\parallel BC\\)，",
+    "∴\\(\\angle ADP=\\angle DCH\\)，",
+    "∵\\(\\begin{cases} AD=DC \\\\ \\angle ADP=\\angle DCH \\\\ DP=CH \\end{cases}\\)",
+    "〔图3〕",
+    "∴\\(\\vartriangle ADP≌\\vartriangle DCH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle APD=\\angle DHC\\)，\\(AP=DH\\)，\\(S_{ \\vartriangle ADP } =S_{ \\vartriangle DCH }\\)．",
+    "∵\\(AP=DQ=8\\)，\\(\\angle APD=60{}^\\circ\\)，",
+    "∴\\(AP=DQ=DH=8\\)，\\(\\angle DHC=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle DHQ\\)是等边三角形，",
+    "∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =S_{ \\vartriangle DQH }\\)，",
+    "∵\\(S_{ \\vartriangle DQH } =\\frac { \\sqrt[] { 3 } } { 4 }\\times 8 ^ { 2 } =16\\sqrt[] { 3 }\\)，",
+    "∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =16\\sqrt[] { 3 }\\)．",
+    "（3）解：延长\\(BC\\)到H使得\\(CH=\\frac { 1 } { 2 }DP\\)，",
+    "∵\\(AD=2CD\\)， \\(DP=2\\)，",
+    "∴\\(CH=1\\)，\\(\\frac { AD } { CD }=\\frac { DP } { CH }=\\frac { 2 } { 1 }\\)，",
+    "∵四边形\\(ABCD\\)是平行四边形，",
+    "∴\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle ADP=\\angle DCH\\)，",
+    "〔图4〕",
+    "∴\\(\\vartriangle ADP\\backsim \\vartriangle DCH\\)，",
+    "∴\\(\\frac { AP } { DH }=2\\)，\\(\\angle APD=\\angle DHC=60{}^\\circ\\)．",
+    "∵\\(AP=2DQ\\)，\\(AP=10\\)，",
+    "∴\\(DQ=DH=5\\)，",
+    "∴\\(\\vartriangle DHQ\\)是等边三角形，",
+    "∴\\(QH=5\\)，",
+    "∴\\(CQ=QH-CH=5-1=4\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "fig-77",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-D3BE871012-Q20-P01",
+      "label": "（1）",
+      "prompt": "在菱形\\(ABCD\\)中，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点P在边\\(CD\\)边上，连接\\(AP\\)，点Q在\\(BC\\)的延长线上，连接\\(DQ\\)，\\(CP=CQ\\)，求证：\\(\\angle APC=\\angle DQC\\)；",
+      "stem_text": "在菱形\\(ABCD\\)中，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，点P在边\\(CD\\)边上，连接\\(AP\\)，点Q在\\(BC\\)的延长线上，连接\\(DQ\\)，\\(CP=CQ\\)，求证：\\(\\angle APC=\\angle DQC\\)；",
+      "material_ids": [
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：连接\\(AC\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD，AB\\parallel CD\\)，\n∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(\\angle ADC=60{}^\\circ\\)，\\(\\angle DCQ=60{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\)，\\(\\vartriangle ADC\\)都是等边三角形，\n∴\\(AC=BC=AB\\)，\n∴\\(AC=CD=AD\\)，\n∴\\(\\angle ACP=60{}^\\circ\\)，\n∴\\(\\angle ACP=\\angle DCQ\\)，\n∵\\(\\begin{cases} AC=DC \\\\ \\angle ACP=\\angle DCQ \\\\ CP=CQ \\end{cases}\\)\n〔图2〕\n∴\\(\\vartriangle ACP≌\\vartriangle DCQ\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle APC=\\angle DQC\\)．",
+      "solution_steps": [
+        "证明：连接\\(AC\\)，",
+        "∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(AB=BC=CD=AD，AB\\parallel CD\\)，",
+        "∵\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴\\(\\angle ADC=60{}^\\circ\\)，\\(\\angle DCQ=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle ABC\\)，\\(\\vartriangle ADC\\)都是等边三角形，",
+        "∴\\(AC=BC=AB\\)，",
+        "∴\\(AC=CD=AD\\)，",
+        "∴\\(\\angle ACP=60{}^\\circ\\)，",
+        "∴\\(\\angle ACP=\\angle DCQ\\)，",
+        "∵\\(\\begin{cases} AC=DC \\\\ \\angle ACP=\\angle DCQ \\\\ CP=CQ \\end{cases}\\)",
+        "〔图2〕",
+        "∴\\(\\vartriangle ACP≌\\vartriangle DCQ\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle APC=\\angle DQC\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          74,
+          77
+        ],
+        "solution_block_ids": [
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-D3BE871012-Q20-P02",
+      "label": "（2）",
+      "prompt": "菱形\\(ABCD\\)中，点P、Q分别是\\(CD\\),\\(BC\\)上的动点，且满足\\(AP=DQ=8\\)，当\\(\\angle APD=60{}^\\circ\\)时，求\\(\\vartriangle ADP\\)与\\(\\vartriangle DQC\\)的面积之和．",
+      "stem_text": "菱形\\(ABCD\\)中，点P、Q分别是\\(CD\\),\\(BC\\)上的动点，且满足\\(AP=DQ=8\\)，当\\(\\angle APD=60{}^\\circ\\)时，求\\(\\vartriangle ADP\\)与\\(\\vartriangle DQC\\)的面积之和．",
+      "material_ids": [
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(16\\sqrt[] { 3 }\\)；",
+      "answer": "\\(16\\sqrt[] { 3 }\\)；",
+      "given_solution": "解：延长\\(BC\\)到H使得\\(CH=DP\\)，连接\\(DH\\)，\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD，AD\\parallel BC\\)，\n∴\\(\\angle ADP=\\angle DCH\\)，\n∵\\(\\begin{cases} AD=DC \\\\ \\angle ADP=\\angle DCH \\\\ DP=CH \\end{cases}\\)\n〔图3〕\n∴\\(\\vartriangle ADP≌\\vartriangle DCH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle APD=\\angle DHC\\)，\\(AP=DH\\)，\\(S_{ \\vartriangle ADP } =S_{ \\vartriangle DCH }\\)．\n∵\\(AP=DQ=8\\)，\\(\\angle APD=60{}^\\circ\\)，\n∴\\(AP=DQ=DH=8\\)，\\(\\angle DHC=60{}^\\circ\\)，\n∴\\(\\vartriangle DHQ\\)是等边三角形，\n∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =S_{ \\vartriangle DQH }\\)，\n∵\\(S_{ \\vartriangle DQH } =\\frac { \\sqrt[] { 3 } } { 4 }\\times 8 ^ { 2 } =16\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =16\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：延长\\(BC\\)到H使得\\(CH=DP\\)，连接\\(DH\\)，",
+        "∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(AB=BC=CD=AD，AD\\parallel BC\\)，",
+        "∴\\(\\angle ADP=\\angle DCH\\)，",
+        "∵\\(\\begin{cases} AD=DC \\\\ \\angle ADP=\\angle DCH \\\\ DP=CH \\end{cases}\\)",
+        "〔图3〕",
+        "∴\\(\\vartriangle ADP≌\\vartriangle DCH\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle APD=\\angle DHC\\)，\\(AP=DH\\)，\\(S_{ \\vartriangle ADP } =S_{ \\vartriangle DCH }\\)．",
+        "∵\\(AP=DQ=8\\)，\\(\\angle APD=60{}^\\circ\\)，",
+        "∴\\(AP=DQ=DH=8\\)，\\(\\angle DHC=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle DHQ\\)是等边三角形，",
+        "∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =S_{ \\vartriangle DQH }\\)，",
+        "∵\\(S_{ \\vartriangle DQH } =\\frac { \\sqrt[] { 3 } } { 4 }\\times 8 ^ { 2 } =16\\sqrt[] { 3 }\\)，",
+        "∴\\(S_{ \\vartriangle ADP } +S_{ \\vartriangle DQC } =16\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“图形面积与分割”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-D3BE871012-Q20-P03",
+      "label": "（3）",
+      "prompt": "平行四边形\\(ABCD\\)中，\\(AD=2CD\\)，P是\\(CD\\)上一动点，Q是\\(BC\\)上一动点，且满足\\(AP=2DQ\\)，\\(AP=10\\)，\\(DP=2\\)，当\\(\\angle APD=60{}^\\circ\\)时，求\\(CQ\\)的长度．",
+      "stem_text": "平行四边形\\(ABCD\\)中，\\(AD=2CD\\)，P是\\(CD\\)上一动点，Q是\\(BC\\)上一动点，且满足\\(AP=2DQ\\)，\\(AP=10\\)，\\(DP=2\\)，当\\(\\angle APD=60{}^\\circ\\)时，求\\(CQ\\)的长度．",
+      "material_ids": [
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "4",
+      "answer": "4",
+      "given_solution": "解：延长\\(BC\\)到H使得\\(CH=\\frac { 1 } { 2 }DP\\)，\n∵\\(AD=2CD\\)， \\(DP=2\\)，\n∴\\(CH=1\\)，\\(\\frac { AD } { CD }=\\frac { DP } { CH }=\\frac { 2 } { 1 }\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(AD\\parallel BC\\)，\n∴\\(\\angle ADP=\\angle DCH\\)，\n〔图4〕\n∴\\(\\vartriangle ADP\\backsim \\vartriangle DCH\\)，\n∴\\(\\frac { AP } { DH }=2\\)，\\(\\angle APD=\\angle DHC=60{}^\\circ\\)．\n∵\\(AP=2DQ\\)，\\(AP=10\\)，\n∴\\(DQ=DH=5\\)，\n∴\\(\\vartriangle DHQ\\)是等边三角形，\n∴\\(QH=5\\)，\n∴\\(CQ=QH-CH=5-1=4\\)．",
+      "solution_steps": [
+        "解：延长\\(BC\\)到H使得\\(CH=\\frac { 1 } { 2 }DP\\)，",
+        "∵\\(AD=2CD\\)， \\(DP=2\\)，",
+        "∴\\(CH=1\\)，\\(\\frac { AD } { CD }=\\frac { DP } { CH }=\\frac { 2 } { 1 }\\)，",
+        "∵四边形\\(ABCD\\)是平行四边形，",
+        "∴\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle ADP=\\angle DCH\\)，",
+        "〔图4〕",
+        "∴\\(\\vartriangle ADP\\backsim \\vartriangle DCH\\)，",
+        "∴\\(\\frac { AP } { DH }=2\\)，\\(\\angle APD=\\angle DHC=60{}^\\circ\\)．",
+        "∵\\(AP=2DQ\\)，\\(AP=10\\)，",
+        "∴\\(DQ=DH=5\\)，",
+        "∴\\(\\vartriangle DHQ\\)是等边三角形，",
+        "∴\\(QH=5\\)，",
+        "∴\\(CQ=QH-CH=5-1=4\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      74,
+      77
+    ],
+    "solution_body_blocks": [
+      350,
+      401
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-D3BE871012/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          385.91,
+          583.64,
+          667.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-D3BE871012/solution-q20-p19.webp",
+      "assets/SZ-G9-T1-D3BE871012/solution-q20-p20.webp",
+      "assets/SZ-G9-T1-D3BE871012/solution-q20-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          192.27,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          439.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G02.04",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“图形面积与分割”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

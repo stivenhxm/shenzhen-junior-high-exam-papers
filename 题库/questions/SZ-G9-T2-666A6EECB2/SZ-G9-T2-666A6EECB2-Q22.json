@@ -1,0 +1,355 @@
+{
+  "id": "SZ-G9-T2-666A6EECB2-Q22",
+  "paper_id": "SZ-G9-T2-666A6EECB2",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用旋转对应建立全等或角度关系、选择充分条件证明三角形全等",
+  "stem": "问题背景：如图（1），△ABD，△AEC都是等边三角形，△ACD可以由△AEB通过旋转变换得到，请写出旋转中心、旋转方向及旋转角的大小．\n尝试应用：如图（2），在Rt△ABC中，∠ACB＝90°，分别以AC，AB为边，作等边△ACD和等边△ABE，连接ED，并延长交BC于点F，连接BD．若BD⊥BC，求DF：DE的值．\n拓展创新：如图（3），在Rt△ABC中，∠ACB＝90°，AB＝2，将线段AC绕点A顺时针旋转90°得到线段AP，连接PB，直接写出PB的最大值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/ea/eac495df13965306bf4cc020e1b9052e5ca663c4ff81f0f3da0cd597fb7ee4ac.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；（2）\\(\\frac { 2 } { 3 }\\)；（3）\\(\\sqrt[] { 5 }\\)+1",
+  "answer": "（1）旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；（2）\\(\\frac { 2 } { 3 }\\)；（3）\\(\\sqrt[] { 5 }\\)+1",
+  "given_solution": "【分析】（1）由等边三角形得出\\(\\angle BAD=60{}^\\circ\\)，\\(\\angle CAE=60{}^\\circ\\)，\\(AD=AB\\)，\\(AC=AE\\)，证明\\(\\Delta ACD≌\\Delta AEB\\left ( { SAS } \\right )\\)，由旋转性质即可得出答案；\n（2）证明\\(\\Delta ADE≌\\Delta ACB\\left ( { SAS } \\right )\\)，由全等三角形的性质得\\(\\angle ADE=\\angle ACB=90{}^\\circ\\)，\\(DE=CB\\)，得出\\(\\angle BDF=30{}^\\circ\\)，由\\(30{}^\\circ\\)直角三角形性质得\\(BF=\\frac { 1 } { 2 }DF\\)，则可计算出答案；\n（3）过点A作\\(AE\\bot AB\\)，且使AE=AD，连接PE，BE，由直角三角形的性质求出BE、PE的长即可得解．\n【详解】解：（1）∵\\(\\vartriangle ABD\\)，\\(\\vartriangle AEC\\)都是等边三角形，\n∴\\(\\angle BAD=60{}^\\circ\\)，\\(\\angle CAE=60{}^\\circ\\)，\\(AD=AB\\)，\\(AC=AE\\)，\\(\\therefore \\angle BAD+\\angle BAC=\\angle CAE+\\angle BAC\\)，\n\\(\\therefore \\angle DAC=\\angle BAE\\)，\n\\(\\therefore \\Delta ACD≌\\Delta AEB\\left ( { SAS } \\right )\\)，\n\\(\\therefore \\Delta ACD\\)可以由\\(\\Delta AEB\\)绕点A顺时针旋转\\(60{}^\\circ\\)得到，\n即旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；\n（2）\\(\\because \\Delta ACD\\)和\\(\\Delta ABE\\)都是等边三角形，\n\\(\\therefore AC=AD\\)，\\(AB=AE\\)，\\(\\angle CAD=\\angle BAE=60{}^\\circ\\)，\n\\(\\therefore \\angle CAB=\\angle DAE\\)，\n\\(\\therefore \\Delta ADE≌\\Delta ACB\\left ( { SAS } \\right )\\)，\n\\(\\therefore \\angle ADE=\\angle ACB=90{}^\\circ\\)，\\(DE=CB\\)，\n\\(\\because \\angle ADE=90{}^\\circ\\)，\n\\(\\therefore \\angle ADF=90{}^\\circ\\)，\n\\(\\because \\angle ADC=\\angle ACD=60{}^\\circ\\)，\n\\(\\therefore \\angle DCF=\\angle CDF=30{}^\\circ\\)，\n\\(\\therefore CF=DF\\)，\n\\(\\because BD\\bot BC\\)，\n\\(\\therefore \\angle BDF=30{}^\\circ\\)，\n设BF=x，则CF=DF=2x，DE=3x，\n∴\\(\\frac { DF } { DE }=\\frac { 2x } { 3x }=\\frac { 2 } { 3 }\\)；\n（3）\\(\\because \\angle ACB=90{}^\\circ\\)，\n∴ 点C在以AB为直径的圆上运动，取AB的中点D，连接CD，\n\\(\\therefore CD=\\frac { 1 } { 2 }AB=1\\)，\n如图，过点A作\\(AE\\bot AB\\)，且使AE=AD，连接PE，BE，\n〔图2〕\n∵ 将线段AC绕点A顺时针旋转\\(90{}^\\circ\\)得到线段AP，\n\\(\\therefore \\angle PAC=90{}^\\circ\\)，PA=AC．\n\\(\\because \\angle EAD=90{}^\\circ\\)，\n\\(\\therefore \\angle PAE=\\angle CAD\\)，\n\\(\\therefore \\Delta CAD≌\\Delta PAE\\left ( { SAS } \\right )\\)，\n∴ PE=CD=1．\n∵ AB=2，AE=AD=1，\n∴ BE=\\(\\sqrt[] { AE ^ { 2 } +AB ^ { 2 } }\\)=\\(\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }\\)=\\(\\sqrt[] { 5 }\\)，\n\\(\\therefore BP\\le BE+PE=\\sqrt[] { 5 }+1\\)，\n∴ BP的最大值为\\(\\sqrt[] { 5 }\\)+1．\n【点睛】本题是几何变换综合题，考查了旋转的性质、等边三角形的性质、全等三角形的判定与性质、勾股定理、直角三角形的性质、圆周角定理；熟练掌握旋转的性质是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/ea/eac495df13965306bf4cc020e1b9052e5ca663c4ff81f0f3da0cd597fb7ee4ac.png",
+    "assets/figures/a8/a8f332a0ec3f5763247925938836d1c34cd70908db7faa5abcd9104b0b9f9c2c.png"
+  ],
+  "solution": "解：（1）∵\\(\\vartriangle ABD\\)，\\(\\vartriangle AEC\\)都是等边三角形，\n∴\\(\\angle BAD=60{}^\\circ\\)，\\(\\angle CAE=60{}^\\circ\\)，\\(AD=AB\\)，\\(AC=AE\\)，\\(\\therefore \\angle BAD+\\angle BAC=\\angle CAE+\\angle BAC\\)，\n\\(\\therefore \\angle DAC=\\angle BAE\\)，\n\\(\\therefore \\Delta ACD≌\\Delta AEB\\left ( { SAS } \\right )\\)，\n\\(\\therefore \\Delta ACD\\)可以由\\(\\Delta AEB\\)绕点A顺时针旋转\\(60{}^\\circ\\)得到，\n即旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；\n（2）\\(\\because \\Delta ACD\\)和\\(\\Delta ABE\\)都是等边三角形，\n\\(\\therefore AC=AD\\)，\\(AB=AE\\)，\\(\\angle CAD=\\angle BAE=60{}^\\circ\\)，\n\\(\\therefore \\angle CAB=\\angle DAE\\)，\n\\(\\therefore \\Delta ADE≌\\Delta ACB\\left ( { SAS } \\right )\\)，\n\\(\\therefore \\angle ADE=\\angle ACB=90{}^\\circ\\)，\\(DE=CB\\)，\n\\(\\because \\angle ADE=90{}^\\circ\\)，\n\\(\\therefore \\angle ADF=90{}^\\circ\\)，\n\\(\\because \\angle ADC=\\angle ACD=60{}^\\circ\\)，\n\\(\\therefore \\angle DCF=\\angle CDF=30{}^\\circ\\)，\n\\(\\therefore CF=DF\\)，\n\\(\\because BD\\bot BC\\)，\n\\(\\therefore \\angle BDF=30{}^\\circ\\)，\n设BF=x，则CF=DF=2x，DE=3x，\n∴\\(\\frac { DF } { DE }=\\frac { 2x } { 3x }=\\frac { 2 } { 3 }\\)；\n（3）\\(\\because \\angle ACB=90{}^\\circ\\)，\n∴ 点C在以AB为直径的圆上运动，取AB的中点D，连接CD，\n\\(\\therefore CD=\\frac { 1 } { 2 }AB=1\\)，\n如图，过点A作\\(AE\\bot AB\\)，且使AE=AD，连接PE，BE，\n〔图2〕\n∵ 将线段AC绕点A顺时针旋转\\(90{}^\\circ\\)得到线段AP，\n\\(\\therefore \\angle PAC=90{}^\\circ\\)，PA=AC．\n\\(\\because \\angle EAD=90{}^\\circ\\)，\n\\(\\therefore \\angle PAE=\\angle CAD\\)，\n\\(\\therefore \\Delta CAD≌\\Delta PAE\\left ( { SAS } \\right )\\)，\n∴ PE=CD=1．\n∵ AB=2，AE=AD=1，\n∴ BE=\\(\\sqrt[] { AE ^ { 2 } +AB ^ { 2 } }\\)=\\(\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }\\)=\\(\\sqrt[] { 5 }\\)，\n\\(\\therefore BP\\le BE+PE=\\sqrt[] { 5 }+1\\)，\n∴ BP的最大值为\\(\\sqrt[] { 5 }\\)+1．",
+  "solution_steps": [
+    "解：（1）∵\\(\\vartriangle ABD\\)，\\(\\vartriangle AEC\\)都是等边三角形，",
+    "∴\\(\\angle BAD=60{}^\\circ\\)，\\(\\angle CAE=60{}^\\circ\\)，\\(AD=AB\\)，\\(AC=AE\\)，\\(\\therefore \\angle BAD+\\angle BAC=\\angle CAE+\\angle BAC\\)，",
+    "\\(\\therefore \\angle DAC=\\angle BAE\\)，",
+    "\\(\\therefore \\Delta ACD≌\\Delta AEB\\left ( { SAS } \\right )\\)，",
+    "\\(\\therefore \\Delta ACD\\)可以由\\(\\Delta AEB\\)绕点A顺时针旋转\\(60{}^\\circ\\)得到，",
+    "即旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；",
+    "（2）\\(\\because \\Delta ACD\\)和\\(\\Delta ABE\\)都是等边三角形，",
+    "\\(\\therefore AC=AD\\)，\\(AB=AE\\)，\\(\\angle CAD=\\angle BAE=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle CAB=\\angle DAE\\)，",
+    "\\(\\therefore \\Delta ADE≌\\Delta ACB\\left ( { SAS } \\right )\\)，",
+    "\\(\\therefore \\angle ADE=\\angle ACB=90{}^\\circ\\)，\\(DE=CB\\)，",
+    "\\(\\because \\angle ADE=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ADF=90{}^\\circ\\)，",
+    "\\(\\because \\angle ADC=\\angle ACD=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle DCF=\\angle CDF=30{}^\\circ\\)，",
+    "\\(\\therefore CF=DF\\)，",
+    "\\(\\because BD\\bot BC\\)，",
+    "\\(\\therefore \\angle BDF=30{}^\\circ\\)，",
+    "设BF=x，则CF=DF=2x，DE=3x，",
+    "∴\\(\\frac { DF } { DE }=\\frac { 2x } { 3x }=\\frac { 2 } { 3 }\\)；",
+    "（3）\\(\\because \\angle ACB=90{}^\\circ\\)，",
+    "∴ 点C在以AB为直径的圆上运动，取AB的中点D，连接CD，",
+    "\\(\\therefore CD=\\frac { 1 } { 2 }AB=1\\)，",
+    "如图，过点A作\\(AE\\bot AB\\)，且使AE=AD，连接PE，BE，",
+    "〔图2〕",
+    "∵ 将线段AC绕点A顺时针旋转\\(90{}^\\circ\\)得到线段AP，",
+    "\\(\\therefore \\angle PAC=90{}^\\circ\\)，PA=AC．",
+    "\\(\\because \\angle EAD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle PAE=\\angle CAD\\)，",
+    "\\(\\therefore \\Delta CAD≌\\Delta PAE\\left ( { SAS } \\right )\\)，",
+    "∴ PE=CD=1．",
+    "∵ AB=2，AE=AD=1，",
+    "∴ BE=\\(\\sqrt[] { AE ^ { 2 } +AB ^ { 2 } }\\)=\\(\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }\\)=\\(\\sqrt[] { 5 }\\)，",
+    "\\(\\therefore BP\\le BE+PE=\\sqrt[] { 5 }+1\\)，",
+    "∴ BP的最大值为\\(\\sqrt[] { 5 }\\)+1．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-666A6EECB2-Q22-P01",
+      "label": "问题背景",
+      "prompt": "问题背景：如图（1），△ABD，△AEC都是等边三角形，△ACD可以由△AEB通过旋转变换得到，请写出旋转中心、旋转方向及旋转角的大小．",
+      "stem_text": "问题背景：如图（1），△ABD，△AEC都是等边三角形，△ACD可以由△AEB通过旋转变换得到，请写出旋转中心、旋转方向及旋转角的大小．",
+      "source": {
+        "paper_block_ids": [
+          65
+        ],
+        "solution_block_ids": [
+          335,
+          336,
+          337,
+          338,
+          339,
+          340
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；",
+      "given_answer": "旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；",
+      "given_solution": "【详解】解：（1）∵\\(\\vartriangle ABD\\)，\\(\\vartriangle AEC\\)都是等边三角形，\n∴\\(\\angle BAD=60{}^\\circ\\)，\\(\\angle CAE=60{}^\\circ\\)，\\(AD=AB\\)，\\(AC=AE\\)，\\(\\therefore \\angle BAD+\\angle BAC=\\angle CAE+\\angle BAC\\)，\n\\(\\therefore \\angle DAC=\\angle BAE\\)，\n\\(\\therefore \\Delta ACD≌\\Delta AEB\\left ( { SAS } \\right )\\)，\n\\(\\therefore \\Delta ACD\\)可以由\\(\\Delta AEB\\)绕点A顺时针旋转\\(60{}^\\circ\\)得到，\n即旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；",
+      "solution_steps": [
+        "解：（1）∵\\(\\vartriangle ABD\\)，\\(\\vartriangle AEC\\)都是等边三角形，",
+        "∴\\(\\angle BAD=60{}^\\circ\\)，\\(\\angle CAE=60{}^\\circ\\)，\\(AD=AB\\)，\\(AC=AE\\)，\\(\\therefore \\angle BAD+\\angle BAC=\\angle CAE+\\angle BAC\\)，",
+        "\\(\\therefore \\angle DAC=\\angle BAE\\)，",
+        "\\(\\therefore \\Delta ACD≌\\Delta AEB\\left ( { SAS } \\right )\\)，",
+        "\\(\\therefore \\Delta ACD\\)可以由\\(\\Delta AEB\\)绕点A顺时针旋转\\(60{}^\\circ\\)得到，",
+        "即旋转中心是点A，旋转方向是顺时针，旋转角是\\(60{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-666A6EECB2-Q22-P02",
+      "label": "尝试应用",
+      "prompt": "尝试应用：如图（2），在Rt△ABC中，∠ACB＝90°，分别以AC，AB为边，作等边△ACD和等边△ABE，连接ED，并延长交BC于点F，连接BD．若BD⊥BC，求DF：DE的值．",
+      "stem_text": "尝试应用：如图（2），在Rt△ABC中，∠ACB＝90°，分别以AC，AB为边，作等边△ACD和等边△ABE，连接ED，并延长交BC于点F，连接BD．若BD⊥BC，求DF：DE的值．",
+      "source": {
+        "paper_block_ids": [
+          66
+        ],
+        "solution_block_ids": [
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "\\(\\frac { 2 } { 3 }\\)；",
+      "given_answer": "\\(\\frac { 2 } { 3 }\\)；",
+      "given_solution": "（2）\\(\\because \\Delta ACD\\)和\\(\\Delta ABE\\)都是等边三角形，\n\\(\\therefore AC=AD\\)，\\(AB=AE\\)，\\(\\angle CAD=\\angle BAE=60{}^\\circ\\)，\n\\(\\therefore \\angle CAB=\\angle DAE\\)，\n\\(\\therefore \\Delta ADE≌\\Delta ACB\\left ( { SAS } \\right )\\)，\n\\(\\therefore \\angle ADE=\\angle ACB=90{}^\\circ\\)，\\(DE=CB\\)，\n\\(\\because \\angle ADE=90{}^\\circ\\)，\n\\(\\therefore \\angle ADF=90{}^\\circ\\)，\n\\(\\because \\angle ADC=\\angle ACD=60{}^\\circ\\)，\n\\(\\therefore \\angle DCF=\\angle CDF=30{}^\\circ\\)，\n\\(\\therefore CF=DF\\)，\n\\(\\because BD\\bot BC\\)，\n\\(\\therefore \\angle BDF=30{}^\\circ\\)，\n设BF=x，则CF=DF=2x，DE=3x，\n∴\\(\\frac { DF } { DE }=\\frac { 2x } { 3x }=\\frac { 2 } { 3 }\\)；",
+      "solution_steps": [
+        "（2）\\(\\because \\Delta ACD\\)和\\(\\Delta ABE\\)都是等边三角形，",
+        "\\(\\therefore AC=AD\\)，\\(AB=AE\\)，\\(\\angle CAD=\\angle BAE=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle CAB=\\angle DAE\\)，",
+        "\\(\\therefore \\Delta ADE≌\\Delta ACB\\left ( { SAS } \\right )\\)，",
+        "\\(\\therefore \\angle ADE=\\angle ACB=90{}^\\circ\\)，\\(DE=CB\\)，",
+        "\\(\\because \\angle ADE=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ADF=90{}^\\circ\\)，",
+        "\\(\\because \\angle ADC=\\angle ACD=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle DCF=\\angle CDF=30{}^\\circ\\)，",
+        "\\(\\therefore CF=DF\\)，",
+        "\\(\\because BD\\bot BC\\)，",
+        "\\(\\therefore \\angle BDF=30{}^\\circ\\)，",
+        "设BF=x，则CF=DF=2x，DE=3x，",
+        "∴\\(\\frac { DF } { DE }=\\frac { 2x } { 3x }=\\frac { 2 } { 3 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-666A6EECB2-Q22-P03",
+      "label": "拓展创新",
+      "prompt": "拓展创新：如图（3），在Rt△ABC中，∠ACB＝90°，AB＝2，将线段AC绕点A顺时针旋转90°得到线段AP，连接PB，直接写出PB的最大值．",
+      "stem_text": "拓展创新：如图（3），在Rt△ABC中，∠ACB＝90°，AB＝2，将线段AC绕点A顺时针旋转90°得到线段AP，连接PB，直接写出PB的最大值．",
+      "source": {
+        "paper_block_ids": [
+          67
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "\\(\\sqrt[] { 5 }\\)+1",
+      "given_answer": "\\(\\sqrt[] { 5 }\\)+1",
+      "given_solution": "（3）\\(\\because \\angle ACB=90{}^\\circ\\)，\n∴ 点C在以AB为直径的圆上运动，取AB的中点D，连接CD，\n\\(\\therefore CD=\\frac { 1 } { 2 }AB=1\\)，\n如图，过点A作\\(AE\\bot AB\\)，且使AE=AD，连接PE，BE，\n〔图2〕\n∵ 将线段AC绕点A顺时针旋转\\(90{}^\\circ\\)得到线段AP，\n\\(\\therefore \\angle PAC=90{}^\\circ\\)，PA=AC．\n\\(\\because \\angle EAD=90{}^\\circ\\)，\n\\(\\therefore \\angle PAE=\\angle CAD\\)，\n\\(\\therefore \\Delta CAD≌\\Delta PAE\\left ( { SAS } \\right )\\)，\n∴ PE=CD=1．\n∵ AB=2，AE=AD=1，\n∴ BE=\\(\\sqrt[] { AE ^ { 2 } +AB ^ { 2 } }\\)=\\(\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }\\)=\\(\\sqrt[] { 5 }\\)，\n\\(\\therefore BP\\le BE+PE=\\sqrt[] { 5 }+1\\)，\n∴ BP的最大值为\\(\\sqrt[] { 5 }\\)+1．",
+      "solution_steps": [
+        "（3）\\(\\because \\angle ACB=90{}^\\circ\\)，",
+        "∴ 点C在以AB为直径的圆上运动，取AB的中点D，连接CD，",
+        "\\(\\therefore CD=\\frac { 1 } { 2 }AB=1\\)，",
+        "如图，过点A作\\(AE\\bot AB\\)，且使AE=AD，连接PE，BE，",
+        "〔图2〕",
+        "∵ 将线段AC绕点A顺时针旋转\\(90{}^\\circ\\)得到线段AP，",
+        "\\(\\therefore \\angle PAC=90{}^\\circ\\)，PA=AC．",
+        "\\(\\because \\angle EAD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle PAE=\\angle CAD\\)，",
+        "\\(\\therefore \\Delta CAD≌\\Delta PAE\\left ( { SAS } \\right )\\)，",
+        "∴ PE=CD=1．",
+        "∵ AB=2，AE=AD=1，",
+        "∴ BE=\\(\\sqrt[] { AE ^ { 2 } +AB ^ { 2 } }\\)=\\(\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }\\)=\\(\\sqrt[] { 5 }\\)，",
+        "\\(\\therefore BP\\le BE+PE=\\sqrt[] { 5 }+1\\)，",
+        "∴ BP的最大值为\\(\\sqrt[] { 5 }\\)+1．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      65,
+      68
+    ],
+    "solution_body_blocks": [
+      326,
+      370
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-666A6EECB2/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          425.0,
+          583.64,
+          676.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-666A6EECB2/solution-q22-p17.webp",
+      "assets/SZ-G9-T2-666A6EECB2/solution-q22-p18.webp",
+      "assets/SZ-G9-T2-666A6EECB2/solution-q22-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          672.27,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          753.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          455.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.03",
+    "M.G03.02",
+    "M.G03.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G07.03.02",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“利用旋转对应建立全等或角度关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

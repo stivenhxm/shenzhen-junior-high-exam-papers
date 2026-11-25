@@ -1,0 +1,273 @@
+{
+  "id": "SZ-G9-T2-A341417951-Q20",
+  "paper_id": "SZ-G9-T2-A341417951",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "证明指定直线与圆相切、利用扇形割补求组合图形面积",
+  "stem": "如图，等腰三角形\\(OAB\\)的顶角\\(\\angle AOB=120{}^\\circ\\)，\\(\\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，并与两腰\\(OA\\)，\\(OB\\)分别相交于\\(D\\)，\\(E\\)两点，连接\\(CD\\)，\\(CE\\)．\n〔图1〕\n（1）求证：四边形\\(ODCE\\)是菱形；\n（2）若\\(\\odot O\\)的半径为2，求图中阴影部分的面积．",
+  "choices": [],
+  "figures": [
+    "assets/figures/c7/c734d6291c73535eff46272e424ec5574a4246d7d27de39de59e832216f8cd65.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(S_{ 阴影 } =\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)",
+  "answer": "（1）见解析    （2）\\(S_{ 阴影 } =\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）连接\\(OC\\)，根据切线的性质可得\\(OC\\bot AB\\)，然后利用等腰三角形的三线合一性质可得\\(\\angle AOC=\\angle BOC=60{}^\\circ\\)，从而可得\\(\\vartriangle ODC\\)和\\(\\vartriangle OCE\\)都是等边三角形，最后利用等边三角形的性质可得\\(OD=CD=CE=OE\\)，即可解答；\n（2）连接\\(DE\\)交\\(OC\\)于点\\(F\\)，利用菱形的性质可得\\(OF=1\\)，\\(DE=2DF\\)，\\(\\angle OFD=90{}^\\circ\\)，然后在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ O } }{ \\rm{ D } }{ \\rm{ F } }\\)中，利用勾股定理求出\\(DF\\)的长，从而求出\\(DE\\)的长，最后根据图中阴影部分的面积\\(=\\)扇形\\(ODE\\)的面积\\(-\\)菱形\\(ODCE\\)的面积，进行计算即可解答．\n【小问1详解】\n证明：连接\\(OC\\)，\n〔图2〕\n\\(\\because \\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，\n\\(\\therefore OC\\bot AB\\)，\n\\(\\because OA=OB\\)，\\(\\angle AOB=120{}^\\circ\\)，\n\\(\\therefore \\angle AOC=\\angle BOC=\\frac { 1 } { 2 }\\angle AOB=60{}^\\circ\\)，\n\\(\\because OD=OC\\)，\\(OC=OE\\)，\n\\(\\therefore \\vartriangle ODC\\)和\\(\\vartriangle OCE\\)都是等边三角形，\n\\(\\therefore OD=OC=DC\\)，\\(OC=OE=CE\\)，\n\\(\\therefore OD=CD=CE=OE\\)，\n\\(\\therefore\\)四边形\\(ODCE\\)是菱形；\n【小问2详解】\n解：连接\\(DE\\)交\\(OC\\)于点\\(F\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ODCE\\)是菱形，\n\\(\\therefore OF=\\frac { 1 } { 2 }OC=1\\)，\\(DE=2DF\\)，\\(\\angle OFD=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OD=2\\)，\n\\(\\therefore DF=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=2DF=2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)图中阴影部分的面积\\(=\\)扇形\\(ODE\\)的面积\\(-\\)菱形\\(ODCE\\)的面积\n\\(=\\frac { 120\\pi \\times 2 ^ { 2 } } { 360 }-\\frac { 1 } { 2 }OC\\cdot DE\\)\n\\(=\\frac { 4\\pi } { 3 }-\\frac { 1 } { 2 }\\times 2\\times 2\\sqrt[] { 3 }\\)\n\\(=\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)图中阴影部分的面积为\\(\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)．\n【点睛】本题考查了切线的性质，扇形面积的计算，等腰三角形的性质，菱形的判定与性质，根据题目的已知条件并结合图形添加适当的辅助线是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/c7/c734d6291c73535eff46272e424ec5574a4246d7d27de39de59e832216f8cd65.png",
+    "assets/figures/e0/e0ede80eee80104942dafd34d1a562e8bb928e7f718825c185a1caed7498be39.png",
+    "assets/figures/27/277e7e8d6034d0c8bb4a18431835cfca60a65e23074db46ff8b428670903dd01.png"
+  ],
+  "solution": "【小问1详解】\n证明：连接\\(OC\\)，\n〔图2〕\n\\(\\because \\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，\n\\(\\therefore OC\\bot AB\\)，\n\\(\\because OA=OB\\)，\\(\\angle AOB=120{}^\\circ\\)，\n\\(\\therefore \\angle AOC=\\angle BOC=\\frac { 1 } { 2 }\\angle AOB=60{}^\\circ\\)，\n\\(\\because OD=OC\\)，\\(OC=OE\\)，\n\\(\\therefore \\vartriangle ODC\\)和\\(\\vartriangle OCE\\)都是等边三角形，\n\\(\\therefore OD=OC=DC\\)，\\(OC=OE=CE\\)，\n\\(\\therefore OD=CD=CE=OE\\)，\n\\(\\therefore\\)四边形\\(ODCE\\)是菱形；\n【小问2详解】\n解：连接\\(DE\\)交\\(OC\\)于点\\(F\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ODCE\\)是菱形，\n\\(\\therefore OF=\\frac { 1 } { 2 }OC=1\\)，\\(DE=2DF\\)，\\(\\angle OFD=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OD=2\\)，\n\\(\\therefore DF=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=2DF=2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)图中阴影部分的面积\\(=\\)扇形\\(ODE\\)的面积\\(-\\)菱形\\(ODCE\\)的面积\n\\(=\\frac { 120\\pi \\times 2 ^ { 2 } } { 360 }-\\frac { 1 } { 2 }OC\\cdot DE\\)\n\\(=\\frac { 4\\pi } { 3 }-\\frac { 1 } { 2 }\\times 2\\times 2\\sqrt[] { 3 }\\)\n\\(=\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)图中阴影部分的面积为\\(\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：连接\\(OC\\)，",
+    "〔图2〕",
+    "\\(\\because \\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，",
+    "\\(\\therefore OC\\bot AB\\)，",
+    "\\(\\because OA=OB\\)，\\(\\angle AOB=120{}^\\circ\\)，",
+    "\\(\\therefore \\angle AOC=\\angle BOC=\\frac { 1 } { 2 }\\angle AOB=60{}^\\circ\\)，",
+    "\\(\\because OD=OC\\)，\\(OC=OE\\)，",
+    "\\(\\therefore \\vartriangle ODC\\)和\\(\\vartriangle OCE\\)都是等边三角形，",
+    "\\(\\therefore OD=OC=DC\\)，\\(OC=OE=CE\\)，",
+    "\\(\\therefore OD=CD=CE=OE\\)，",
+    "\\(\\therefore\\)四边形\\(ODCE\\)是菱形；",
+    "【小问2详解】",
+    "解：连接\\(DE\\)交\\(OC\\)于点\\(F\\)，",
+    "〔图3〕",
+    "\\(\\because\\)四边形\\(ODCE\\)是菱形，",
+    "\\(\\therefore OF=\\frac { 1 } { 2 }OC=1\\)，\\(DE=2DF\\)，\\(\\angle OFD=90{}^\\circ\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OD=2\\)，",
+    "\\(\\therefore DF=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore DE=2DF=2\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore\\)图中阴影部分的面积\\(=\\)扇形\\(ODE\\)的面积\\(-\\)菱形\\(ODCE\\)的面积",
+    "\\(=\\frac { 120\\pi \\times 2 ^ { 2 } } { 360 }-\\frac { 1 } { 2 }OC\\cdot DE\\)",
+    "\\(=\\frac { 4\\pi } { 3 }-\\frac { 1 } { 2 }\\times 2\\times 2\\sqrt[] { 3 }\\)",
+    "\\(=\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore\\)图中阴影部分的面积为\\(\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，等腰三角形\\(OAB\\)的顶角\\(\\angle AOB=120{}^\\circ\\)，\\(\\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，并与两腰\\(OA\\)，\\(OB\\)分别相交于\\(D\\)，\\(E\\)两点，连接\\(CD\\)，\\(CE\\)．\n〔图1〕",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-A341417951-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(ODCE\\)是菱形；",
+      "stem_text": "求证：四边形\\(ODCE\\)是菱形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：连接\\(OC\\)，\n〔图2〕\n\\(\\because \\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，\n\\(\\therefore OC\\bot AB\\)，\n\\(\\because OA=OB\\)，\\(\\angle AOB=120{}^\\circ\\)，\n\\(\\therefore \\angle AOC=\\angle BOC=\\frac { 1 } { 2 }\\angle AOB=60{}^\\circ\\)，\n\\(\\because OD=OC\\)，\\(OC=OE\\)，\n\\(\\therefore \\vartriangle ODC\\)和\\(\\vartriangle OCE\\)都是等边三角形，\n\\(\\therefore OD=OC=DC\\)，\\(OC=OE=CE\\)，\n\\(\\therefore OD=CD=CE=OE\\)，\n\\(\\therefore\\)四边形\\(ODCE\\)是菱形；",
+      "solution_steps": [
+        "证明：连接\\(OC\\)，",
+        "〔图2〕",
+        "\\(\\because \\odot O\\)和底边\\(AB\\)相切于点\\(C\\)，",
+        "\\(\\therefore OC\\bot AB\\)，",
+        "\\(\\because OA=OB\\)，\\(\\angle AOB=120{}^\\circ\\)，",
+        "\\(\\therefore \\angle AOC=\\angle BOC=\\frac { 1 } { 2 }\\angle AOB=60{}^\\circ\\)，",
+        "\\(\\because OD=OC\\)，\\(OC=OE\\)，",
+        "\\(\\therefore \\vartriangle ODC\\)和\\(\\vartriangle OCE\\)都是等边三角形，",
+        "\\(\\therefore OD=OC=DC\\)，\\(OC=OE=CE\\)，",
+        "\\(\\therefore OD=CD=CE=OE\\)，",
+        "\\(\\therefore\\)四边形\\(ODCE\\)是菱形；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“证明指定直线与圆相切”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-A341417951-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(\\odot O\\)的半径为2，求图中阴影部分的面积．",
+      "stem_text": "若\\(\\odot O\\)的半径为2，求图中阴影部分的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ 阴影 } =\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)",
+      "answer": "\\(S_{ 阴影 } =\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)",
+      "given_solution": "解：连接\\(DE\\)交\\(OC\\)于点\\(F\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ODCE\\)是菱形，\n\\(\\therefore OF=\\frac { 1 } { 2 }OC=1\\)，\\(DE=2DF\\)，\\(\\angle OFD=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OD=2\\)，\n\\(\\therefore DF=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=2DF=2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)图中阴影部分的面积\\(=\\)扇形\\(ODE\\)的面积\\(-\\)菱形\\(ODCE\\)的面积\n\\(=\\frac { 120\\pi \\times 2 ^ { 2 } } { 360 }-\\frac { 1 } { 2 }OC\\cdot DE\\)\n\\(=\\frac { 4\\pi } { 3 }-\\frac { 1 } { 2 }\\times 2\\times 2\\sqrt[] { 3 }\\)\n\\(=\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)图中阴影部分的面积为\\(\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：连接\\(DE\\)交\\(OC\\)于点\\(F\\)，",
+        "〔图3〕",
+        "\\(\\because\\)四边形\\(ODCE\\)是菱形，",
+        "\\(\\therefore OF=\\frac { 1 } { 2 }OC=1\\)，\\(DE=2DF\\)，\\(\\angle OFD=90{}^\\circ\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OD=2\\)，",
+        "\\(\\therefore DF=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore DE=2DF=2\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore\\)图中阴影部分的面积\\(=\\)扇形\\(ODE\\)的面积\\(-\\)菱形\\(ODCE\\)的面积",
+        "\\(=\\frac { 120\\pi \\times 2 ^ { 2 } } { 360 }-\\frac { 1 } { 2 }OC\\cdot DE\\)",
+        "\\(=\\frac { 4\\pi } { 3 }-\\frac { 1 } { 2 }\\times 2\\times 2\\sqrt[] { 3 }\\)",
+        "\\(=\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore\\)图中阴影部分的面积为\\(\\frac { 4\\pi } { 3 }-2\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G06.08"
+      ],
+      "exam_ids": [
+        "E.G06.08.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“利用扇形割补求组合图形面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      67
+    ],
+    "solution_body_blocks": [
+      309,
+      342
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-A341417951/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          479.09,
+          583.64,
+          689.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-A341417951/solution-q20-p17.webp",
+      "assets/SZ-G9-T2-A341417951/solution-q20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          93.18,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G06.08"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G06.08.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问解答对应“证明指定直线与圆相切”。 本问题面与解答对应“利用扇形割补求组合图形面积”。",
+  "tag_source": "小问标签汇总"
+}

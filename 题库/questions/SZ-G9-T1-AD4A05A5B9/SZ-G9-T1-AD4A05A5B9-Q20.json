@@ -1,0 +1,285 @@
+{
+  "id": "SZ-G9-T1-AD4A05A5B9-Q20",
+  "paper_id": "SZ-G9-T1-AD4A05A5B9",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由边角条件解直角三角形",
+  "stem": "如图，四边形\\(ABCD\\)中，对角线\\(AC\\)与\\(BD\\)相交于点O，\\(AB=AD\\)，\\(OB=OD\\)，点E在\\(AC\\)上．\n〔图1〕\n（1）下列条件：①\\(\\angle DCE=\\angle BEC\\)；②点E与点C关于直线\\(BD\\)对称；③E为\\(AO\\)中点．\n请从中选择一个能证明四边形\\(EBCD\\)是菱形的条件，并写出证明过程．\n（2）若四边形\\(EBCD\\)是菱形，且\\(BC=5\\)，\\(EC=8\\)，\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，求\\(AE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-AD4A05A5B9/figures/78a8edee0962514cba7ab6d893ed9b15a3b52252f500e766e21097816c5e4439.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(AE=5\\)",
+  "answer": "（1）见解析    （2）\\(AE=5\\)",
+  "given_solution": "【分析】本题考查了菱形的判定和性质，全等三角形的判定和性质，勾股定理，锐角三角函数等知识，\n（1）选择①，先证明\\(\\vartriangle DOC≌\\vartriangle BOE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得\\(OC=OE\\)，进而证明四边形\\(EBCD\\)是平行四边形，再由等腰三角形的性质可得\\(AO\\bot BD\\)，即\\(CE\\bot BD\\)，即可证明四边形\\(EBCD\\)是菱形；\n选择②，由\\(AB=AD\\)，\\(OB=OD\\)，可知\\(AO\\)为线段\\(BD\\)的垂直平分线，再结合点E与点C关于直线\\(BD\\)对称，可证得\\(ED=EB=CD=CB\\)，即可证明四边形\\(EBCD\\)是菱形；\n（2）根据菱形的性质，得到\\(OE=OC=4\\)，\\(BE=5\\)，，再利用勾股定理，求得\\(OD=OB=3\\)，然后根据正弦值值，求得\\(AD=3\\sqrt[] { 10 }\\)，最后利用勾股定理，得到\\(OA=9\\)，即可求出\\(AE\\)的长．\n熟练掌握菱形的判定和性质是解题关键．\n【小问1详解】\n解：选择①\\(\\angle DCE=\\angle BEC\\)；\n证明：在\\(\\vartriangle DOC\\)和\\(\\vartriangle BOE\\)中，\\(\\begin{cases} \\angle DCO=\\angle BEO \\\\ \\angle COD=\\angle BOE \\\\ OD=OB \\end{cases}\\)，\n∴\\(\\vartriangle DOC≌\\vartriangle BOE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(OC=OE\\)，\n又∵\\(OD=OB\\)，\n∴四边形\\(EBCD\\)是平行四边形，\n∵\\(AB=AD\\)，\\(OB=OD\\)，\n∴\\(\\vartriangle ABD\\)是等腰三角形，\\(O\\)为\\(BD\\)中点，\n∴\\(AO\\bot BD\\)，即\\(CE\\bot BD\\)，\n∴平行四边形\\(EBCD\\)是菱形；\n选择②点E与点C关于直线\\(BD\\)对称，\n证明：∵\\(AB=AD\\)，\\(OB=OD\\)，\n∴\\(AO\\)为线段\\(BD\\)的垂直平分线，\n∴\\(ED=EB\\)，\\(CD=CB\\)，\n∵点E与点C关于直线\\(BD\\)对称，\n∴\\(EB=CB\\)，\n∴\\(ED=EB=CD=CB\\)，\n∴四边形\\(EBCD\\)是菱形；\n【小问2详解】\n∵四边形\\(EBCD\\)是菱形，\\(BC=5\\)，\\(EC=8\\)，\n∴\\(OE=OC=\\frac { 1 } { 2 }EC=4\\)，\\(BE=BC=5\\)，\\(\\angle BOE=90{}^\\circ\\)，\\(OD=OB\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOE\\)中，\\(OB=\\sqrt[] { BE ^ { 2 } -OE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∴\\(OD=OB=3\\)，\n∵\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，即\\(\\frac { OD } { AD }=\\frac { \\sqrt[] { 10 } } { 10 }\\)，\n∴\\(AD=\\sqrt[] { 10 }OD=3\\sqrt[] { 10 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中，\\(OA=\\sqrt[] { AD ^ { 2 } -OD ^ { 2 } }=9\\)，\n∴\\(AE=OA-OE=9-4=5\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-AD4A05A5B9/figures/78a8edee0962514cba7ab6d893ed9b15a3b52252f500e766e21097816c5e4439.png"
+  ],
+  "solution": "【小问1详解】\n解：选择①\\(\\angle DCE=\\angle BEC\\)；\n证明：在\\(\\vartriangle DOC\\)和\\(\\vartriangle BOE\\)中，\\(\\begin{cases} \\angle DCO=\\angle BEO \\\\ \\angle COD=\\angle BOE \\\\ OD=OB \\end{cases}\\)，\n∴\\(\\vartriangle DOC≌\\vartriangle BOE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(OC=OE\\)，\n又∵\\(OD=OB\\)，\n∴四边形\\(EBCD\\)是平行四边形，\n∵\\(AB=AD\\)，\\(OB=OD\\)，\n∴\\(\\vartriangle ABD\\)是等腰三角形，\\(O\\)为\\(BD\\)中点，\n∴\\(AO\\bot BD\\)，即\\(CE\\bot BD\\)，\n∴平行四边形\\(EBCD\\)是菱形；\n选择②点E与点C关于直线\\(BD\\)对称，\n证明：∵\\(AB=AD\\)，\\(OB=OD\\)，\n∴\\(AO\\)为线段\\(BD\\)的垂直平分线，\n∴\\(ED=EB\\)，\\(CD=CB\\)，\n∵点E与点C关于直线\\(BD\\)对称，\n∴\\(EB=CB\\)，\n∴\\(ED=EB=CD=CB\\)，\n∴四边形\\(EBCD\\)是菱形；\n【小问2详解】\n∵四边形\\(EBCD\\)是菱形，\\(BC=5\\)，\\(EC=8\\)，\n∴\\(OE=OC=\\frac { 1 } { 2 }EC=4\\)，\\(BE=BC=5\\)，\\(\\angle BOE=90{}^\\circ\\)，\\(OD=OB\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOE\\)中，\\(OB=\\sqrt[] { BE ^ { 2 } -OE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∴\\(OD=OB=3\\)，\n∵\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，即\\(\\frac { OD } { AD }=\\frac { \\sqrt[] { 10 } } { 10 }\\)，\n∴\\(AD=\\sqrt[] { 10 }OD=3\\sqrt[] { 10 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中，\\(OA=\\sqrt[] { AD ^ { 2 } -OD ^ { 2 } }=9\\)，\n∴\\(AE=OA-OE=9-4=5\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：选择①\\(\\angle DCE=\\angle BEC\\)；",
+    "证明：在\\(\\vartriangle DOC\\)和\\(\\vartriangle BOE\\)中，\\(\\begin{cases} \\angle DCO=\\angle BEO \\\\ \\angle COD=\\angle BOE \\\\ OD=OB \\end{cases}\\)，",
+    "∴\\(\\vartriangle DOC≌\\vartriangle BOE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(OC=OE\\)，",
+    "又∵\\(OD=OB\\)，",
+    "∴四边形\\(EBCD\\)是平行四边形，",
+    "∵\\(AB=AD\\)，\\(OB=OD\\)，",
+    "∴\\(\\vartriangle ABD\\)是等腰三角形，\\(O\\)为\\(BD\\)中点，",
+    "∴\\(AO\\bot BD\\)，即\\(CE\\bot BD\\)，",
+    "∴平行四边形\\(EBCD\\)是菱形；",
+    "选择②点E与点C关于直线\\(BD\\)对称，",
+    "证明：∵\\(AB=AD\\)，\\(OB=OD\\)，",
+    "∴\\(AO\\)为线段\\(BD\\)的垂直平分线，",
+    "∴\\(ED=EB\\)，\\(CD=CB\\)，",
+    "∵点E与点C关于直线\\(BD\\)对称，",
+    "∴\\(EB=CB\\)，",
+    "∴\\(ED=EB=CD=CB\\)，",
+    "∴四边形\\(EBCD\\)是菱形；",
+    "【小问2详解】",
+    "∵四边形\\(EBCD\\)是菱形，\\(BC=5\\)，\\(EC=8\\)，",
+    "∴\\(OE=OC=\\frac { 1 } { 2 }EC=4\\)，\\(BE=BC=5\\)，\\(\\angle BOE=90{}^\\circ\\)，\\(OD=OB\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOE\\)中，\\(OB=\\sqrt[] { BE ^ { 2 } -OE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，",
+    "∴\\(OD=OB=3\\)，",
+    "∵\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，即\\(\\frac { OD } { AD }=\\frac { \\sqrt[] { 10 } } { 10 }\\)，",
+    "∴\\(AD=\\sqrt[] { 10 }OD=3\\sqrt[] { 10 }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中，\\(OA=\\sqrt[] { AD ^ { 2 } -OD ^ { 2 } }=9\\)，",
+    "∴\\(AE=OA-OE=9-4=5\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，四边形\\(ABCD\\)中，对角线\\(AC\\)与\\(BD\\)相交于点O，\\(AB=AD\\)，\\(OB=OD\\)，点E在\\(AC\\)上．\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-AD4A05A5B9-Q20-P01",
+      "label": "（1）",
+      "prompt": "下列条件：①\\(\\angle DCE=\\angle BEC\\)；②点E与点C关于直线\\(BD\\)对称；③E为\\(AO\\)中点．\n请从中选择一个能证明四边形\\(EBCD\\)是菱形的条件，并写出证明过程．",
+      "stem_text": "下列条件：①\\(\\angle DCE=\\angle BEC\\)；②点E与点C关于直线\\(BD\\)对称；③E为\\(AO\\)中点．\n请从中选择一个能证明四边形\\(EBCD\\)是菱形的条件，并写出证明过程．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "解：选择①\\(\\angle DCE=\\angle BEC\\)；\n证明：在\\(\\vartriangle DOC\\)和\\(\\vartriangle BOE\\)中，\\(\\begin{cases} \\angle DCO=\\angle BEO \\\\ \\angle COD=\\angle BOE \\\\ OD=OB \\end{cases}\\)，\n∴\\(\\vartriangle DOC≌\\vartriangle BOE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(OC=OE\\)，\n又∵\\(OD=OB\\)，\n∴四边形\\(EBCD\\)是平行四边形，\n∵\\(AB=AD\\)，\\(OB=OD\\)，\n∴\\(\\vartriangle ABD\\)是等腰三角形，\\(O\\)为\\(BD\\)中点，\n∴\\(AO\\bot BD\\)，即\\(CE\\bot BD\\)，\n∴平行四边形\\(EBCD\\)是菱形；\n选择②点E与点C关于直线\\(BD\\)对称，\n证明：∵\\(AB=AD\\)，\\(OB=OD\\)，\n∴\\(AO\\)为线段\\(BD\\)的垂直平分线，\n∴\\(ED=EB\\)，\\(CD=CB\\)，\n∵点E与点C关于直线\\(BD\\)对称，\n∴\\(EB=CB\\)，\n∴\\(ED=EB=CD=CB\\)，\n∴四边形\\(EBCD\\)是菱形；",
+      "solution_steps": [
+        "解：选择①\\(\\angle DCE=\\angle BEC\\)；",
+        "证明：在\\(\\vartriangle DOC\\)和\\(\\vartriangle BOE\\)中，\\(\\begin{cases} \\angle DCO=\\angle BEO \\\\ \\angle COD=\\angle BOE \\\\ OD=OB \\end{cases}\\)，",
+        "∴\\(\\vartriangle DOC≌\\vartriangle BOE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(OC=OE\\)，",
+        "又∵\\(OD=OB\\)，",
+        "∴四边形\\(EBCD\\)是平行四边形，",
+        "∵\\(AB=AD\\)，\\(OB=OD\\)，",
+        "∴\\(\\vartriangle ABD\\)是等腰三角形，\\(O\\)为\\(BD\\)中点，",
+        "∴\\(AO\\bot BD\\)，即\\(CE\\bot BD\\)，",
+        "∴平行四边形\\(EBCD\\)是菱形；",
+        "选择②点E与点C关于直线\\(BD\\)对称，",
+        "证明：∵\\(AB=AD\\)，\\(OB=OD\\)，",
+        "∴\\(AO\\)为线段\\(BD\\)的垂直平分线，",
+        "∴\\(ED=EB\\)，\\(CD=CB\\)，",
+        "∵点E与点C关于直线\\(BD\\)对称，",
+        "∴\\(EB=CB\\)，",
+        "∴\\(ED=EB=CD=CB\\)，",
+        "∴四边形\\(EBCD\\)是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-AD4A05A5B9-Q20-P02",
+      "label": "（2）",
+      "prompt": "若四边形\\(EBCD\\)是菱形，且\\(BC=5\\)，\\(EC=8\\)，\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，求\\(AE\\)的长．",
+      "stem_text": "若四边形\\(EBCD\\)是菱形，且\\(BC=5\\)，\\(EC=8\\)，\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，求\\(AE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AE=5\\)",
+      "answer": "\\(AE=5\\)",
+      "given_solution": "∵四边形\\(EBCD\\)是菱形，\\(BC=5\\)，\\(EC=8\\)，\n∴\\(OE=OC=\\frac { 1 } { 2 }EC=4\\)，\\(BE=BC=5\\)，\\(\\angle BOE=90{}^\\circ\\)，\\(OD=OB\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOE\\)中，\\(OB=\\sqrt[] { BE ^ { 2 } -OE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∴\\(OD=OB=3\\)，\n∵\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，即\\(\\frac { OD } { AD }=\\frac { \\sqrt[] { 10 } } { 10 }\\)，\n∴\\(AD=\\sqrt[] { 10 }OD=3\\sqrt[] { 10 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中，\\(OA=\\sqrt[] { AD ^ { 2 } -OD ^ { 2 } }=9\\)，\n∴\\(AE=OA-OE=9-4=5\\)．",
+      "solution_steps": [
+        "∵四边形\\(EBCD\\)是菱形，\\(BC=5\\)，\\(EC=8\\)，",
+        "∴\\(OE=OC=\\frac { 1 } { 2 }EC=4\\)，\\(BE=BC=5\\)，\\(\\angle BOE=90{}^\\circ\\)，\\(OD=OB\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOE\\)中，\\(OB=\\sqrt[] { BE ^ { 2 } -OE ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，",
+        "∴\\(OD=OB=3\\)，",
+        "∵\\(sin\\angle DAE=\\frac { \\sqrt[] { 10 } } { 10 }\\)，即\\(\\frac { OD } { AD }=\\frac { \\sqrt[] { 10 } } { 10 }\\)，",
+        "∴\\(AD=\\sqrt[] { 10 }OD=3\\sqrt[] { 10 }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOD\\)中，\\(OA=\\sqrt[] { AD ^ { 2 } -OD ^ { 2 } }=9\\)，",
+        "∴\\(AE=OA-OE=9-4=5\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          75
+        ],
+        "solution_block_ids": [
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由边角条件解直角三角形”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      75
+    ],
+    "solution_body_blocks": [
+      324,
+      363
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-AD4A05A5B9/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          260.91,
+          583.64,
+          445.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-AD4A05A5B9/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-AD4A05A5B9/solution-q20-p19.webp",
+      "assets/SZ-G9-T1-AD4A05A5B9/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          682.27,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          258.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G10.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由边角条件解直角三角形”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

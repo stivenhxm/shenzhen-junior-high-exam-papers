@@ -1,0 +1,540 @@
+{
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G08.03",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G08.03.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。 本问题面与解答对应“由相似比求对应线段或周长”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-A97BDBFAD3-Q20",
+  "number": 20,
+  "paper_id": "SZ-G9-T2-A97BDBFAD3",
+  "title": "选择附加条件完成四边形类型转化、由相似比求对应线段或周长",
+  "stem": "综合与探究\n在正方形\\(ABCD\\)中，\\(AB=4\\)，点\\(E\\)是\\(AB\\)边上的动点，连接\\(CE\\)．\n〔图1〕\n(1)【探索发现】如图1，过点\\(D\\)作\\(DF\\bot CE\\)，求证：\\(\\vartriangle CFD\\backsim \\vartriangle EBC\\)；\n(2)【类比探究】如图2，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，连接\\(DF\\)，当\\(\\vartriangle CFD\\)是等腰三角形时，求此时\\(AE\\)的长度与\\(\\vartriangle CFD\\)的面积；\n(3)【拓展延伸】如图3，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，连接\\(DF\\)，将\\(\\vartriangle CFD\\)沿\\(CE\\)翻折得到\\(\\vartriangle CFG\\)，\\(FG\\)交\\(BC\\)于点\\(H\\)，请直接写出线段\\(CH\\)的最小值．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与探究\n在正方形\\(ABCD\\)中，\\(AB=4\\)，点\\(E\\)是\\(AB\\)边上的动点，连接\\(CE\\)．\n〔图1〕",
+      "paper_blocks": [
+        700,
+        710,
+        720
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-A97BDBFAD3-Q20-P01",
+      "label": "(1)",
+      "prompt": "【探索发现】如图1，过点\\(D\\)作\\(DF\\bot CE\\)，求证：\\(\\vartriangle CFD\\backsim \\vartriangle EBC\\)；",
+      "stem_text": "【探索发现】如图1，过点\\(D\\)作\\(DF\\bot CE\\)，求证：\\(\\vartriangle CFD\\backsim \\vartriangle EBC\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle ABC=\\angle DCB=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle ECB=90{}^\\circ\\)，\n\\(\\because DF\\bot CE\\)，\n\\(\\therefore \\angle DFC=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle CDF=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle CDF=\\angle DCF+\\angle ECB\\)，\n\\(\\therefore \\angle CDF=\\angle ECB\\)，\n又\\(\\because\\)\\(\\angle DFC=\\angle B=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle CFD\\backsim \\vartriangle EBC\\)．",
+      "solution_steps": [
+        "证明：\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore \\angle ABC=\\angle DCB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DCF+\\angle ECB=90{}^\\circ\\)，",
+        "\\(\\because DF\\bot CE\\)，",
+        "\\(\\therefore \\angle DFC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DCF+\\angle CDF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DCF+\\angle CDF=\\angle DCF+\\angle ECB\\)，",
+        "\\(\\therefore \\angle CDF=\\angle ECB\\)，",
+        "又\\(\\because\\)\\(\\angle DFC=\\angle B=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle CFD\\backsim \\vartriangle EBC\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          700,
+          710,
+          720,
+          730
+        ],
+        "solution_block_ids": [
+          2880,
+          2890,
+          2900,
+          2910,
+          2920,
+          2930,
+          2940,
+          2950,
+          2960,
+          2970
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [
+        "E.G08.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-A97BDBFAD3-Q20-P02",
+      "label": "(2)",
+      "prompt": "【类比探究】如图2，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，连接\\(DF\\)，当\\(\\vartriangle CFD\\)是等腰三角形时，求此时\\(AE\\)的长度与\\(\\vartriangle CFD\\)的面积；",
+      "stem_text": "【类比探究】如图2，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，连接\\(DF\\)，当\\(\\vartriangle CFD\\)是等腰三角形时，求此时\\(AE\\)的长度与\\(\\vartriangle CFD\\)的面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)",
+      "answer": "当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)",
+      "given_solution": "解：\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore CD=BC=AB=4\\)，\\(\\angle BCD=90{}^\\circ\\)，\\(\\angle DCA=45{}^\\circ\\)，\n\\(\\because BF\\bot CE\\)，\n\\(\\therefore \\angle BFC=90{}^\\circ\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCF\\)中，\\(BC>CF\\)，\n\\(\\therefore CD>CF\\)，\n\\(\\because \\vartriangle CFD\\)为等腰三角形，\n\\(\\therefore CF=DF\\)或\\(DF=CD\\)；\n①当\\(CF=DF\\)时，如图，作\\(FH\\bot CD\\)于点H，\n〔图1〕\\(\\because FH\\bot CD\\)，\\(CF=DF\\)，\n\\(\\therefore DH=CH=\\frac { 1 } { 2 }CD=2\\)，\\(\\angle FHC=90{}^\\circ\\)，\n\\(\\because BF\\bot CE\\)，\n\\(\\therefore \\angle CFB=90{}^\\circ\\)，\n\\(\\therefore \\angle FCB+\\angle CBF=90{}^\\circ\\)，\n\\(\\because \\angle FCB+\\angle FCH=\\angle BCD=90{}^\\circ\\)，\n\\(\\therefore \\angle FCB+\\angle FCH=\\angle FCB+\\angle CBF\\)，即\\(\\angle FCH=\\angle CBF\\)，\n又\\(\\because \\angle FHC=\\angle CFB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle CFH\\backsim \\vartriangle BCF\\)，\n\\(\\therefore \\frac { HF } { CF }=\\frac { CF } { BC }\\)，\n\\(\\therefore CF ^ { 2 } =BC\\cdot HF=4HF\\)，\n设\\(HF=a\\)，则\\(CF ^ { 2 } =4a\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFH\\)中，\\(HF ^ { 2 } +CH ^ { 2 } =CF ^ { 2 }\\)，\n\\(\\therefore a ^ { 2 } +2 ^ { 2 } =4a\\)，\n解得：\\(a=2\\)，即\\(HF=2\\)，\n\\(\\therefore HF=CH=2\\)，\\(S_{ \\vartriangle CFD } =\\frac { 1 } { 2 }CD\\cdot FH=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，\n\\(\\therefore \\vartriangle CFH\\)是等腰直角三角形，\n\\(\\therefore \\angle HCF=45{}^\\circ\\)，\n\\(\\therefore \\angle HCF=\\angle DCA=45{}^\\circ\\)，\n\\(\\therefore A,F,C\\)三点共线，\n\\(\\therefore\\)点\\(A\\)和点\\(E\\)重合，\n\\(\\therefore AE=0\\)；\n②当\\(DF=CD\\)时，如图，作\\(DH\\bot CE\\)于点H，\n〔图2〕\\(\\because DF=DC\\)，\\(DH\\bot CE\\)，\n\\(\\therefore FH=CH\\)，\\(\\angle DHC=90{}^\\circ\\)，\n\\(\\therefore \\angle DHC=\\angle CFB=90{}^\\circ\\)，\n由①中的结论得，\\(\\angle DCF=\\angle CBF\\)，\n又\\(\\because CD=BC\\)，\n\\(\\therefore \\vartriangle CDH≌\\vartriangle BCF\\)，\n\\(\\therefore CH=BF\\)，\\(DH=CF\\)，\n设\\(CH=BF=a\\)，则\\(FH=a\\)，\n\\(\\therefore CF=CH+FH=2a\\)，\n在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFB\\)中，\\(CF ^ { 2 } +BF ^ { 2 } =BC ^ { 2 }\\)，\n\\(\\therefore \\left ( { 2a } \\right ) ^ { 2 } +a ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(a=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore DH=CF=2a=\\frac { 8\\sqrt[] { 5 } } { 5 }\\) ，\n\\(\\therefore S_{ \\vartriangle CDF } =\\frac { 1 } { 2 }CF\\cdot DH=\\frac { 1 } { 2 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 32 } { 5 }\\)，\n\\(\\because \\angle CFB=\\angle CBE=90{}^\\circ\\)，\\(\\angle BCF=\\angle ECB\\)，\n\\(\\therefore \\vartriangle CFB\\backsim \\vartriangle CBE\\)，\n\\(\\therefore \\frac { BF } { BE }=\\frac { CF } { BC }\\)，即\\(\\frac { \\frac { 4\\sqrt[] { 5 } } { 5 } } { BE }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { 4 }\\)，\n解得：\\(BE=2\\)，\n\\(\\therefore AE=AB-BE=2\\)；\n\\(\\therefore\\)综上所述，当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)．",
+      "solution_steps": [
+        "解：\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore CD=BC=AB=4\\)，\\(\\angle BCD=90{}^\\circ\\)，\\(\\angle DCA=45{}^\\circ\\)，",
+        "\\(\\because BF\\bot CE\\)，",
+        "\\(\\therefore \\angle BFC=90{}^\\circ\\)，",
+        "\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCF\\)中，\\(BC>CF\\)，",
+        "\\(\\therefore CD>CF\\)，",
+        "\\(\\because \\vartriangle CFD\\)为等腰三角形，",
+        "\\(\\therefore CF=DF\\)或\\(DF=CD\\)；",
+        "①当\\(CF=DF\\)时，如图，作\\(FH\\bot CD\\)于点H，",
+        "〔图1〕\\(\\because FH\\bot CD\\)，\\(CF=DF\\)，",
+        "\\(\\therefore DH=CH=\\frac { 1 } { 2 }CD=2\\)，\\(\\angle FHC=90{}^\\circ\\)，",
+        "\\(\\because BF\\bot CE\\)，",
+        "\\(\\therefore \\angle CFB=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle FCB+\\angle CBF=90{}^\\circ\\)，",
+        "\\(\\because \\angle FCB+\\angle FCH=\\angle BCD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle FCB+\\angle FCH=\\angle FCB+\\angle CBF\\)，即\\(\\angle FCH=\\angle CBF\\)，",
+        "又\\(\\because \\angle FHC=\\angle CFB=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle CFH\\backsim \\vartriangle BCF\\)，",
+        "\\(\\therefore \\frac { HF } { CF }=\\frac { CF } { BC }\\)，",
+        "\\(\\therefore CF ^ { 2 } =BC\\cdot HF=4HF\\)，",
+        "设\\(HF=a\\)，则\\(CF ^ { 2 } =4a\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFH\\)中，\\(HF ^ { 2 } +CH ^ { 2 } =CF ^ { 2 }\\)，",
+        "\\(\\therefore a ^ { 2 } +2 ^ { 2 } =4a\\)，",
+        "解得：\\(a=2\\)，即\\(HF=2\\)，",
+        "\\(\\therefore HF=CH=2\\)，\\(S_{ \\vartriangle CFD } =\\frac { 1 } { 2 }CD\\cdot FH=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，",
+        "\\(\\therefore \\vartriangle CFH\\)是等腰直角三角形，",
+        "\\(\\therefore \\angle HCF=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle HCF=\\angle DCA=45{}^\\circ\\)，",
+        "\\(\\therefore A,F,C\\)三点共线，",
+        "\\(\\therefore\\)点\\(A\\)和点\\(E\\)重合，",
+        "\\(\\therefore AE=0\\)；",
+        "②当\\(DF=CD\\)时，如图，作\\(DH\\bot CE\\)于点H，",
+        "〔图2〕\\(\\because DF=DC\\)，\\(DH\\bot CE\\)，",
+        "\\(\\therefore FH=CH\\)，\\(\\angle DHC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle DHC=\\angle CFB=90{}^\\circ\\)，",
+        "由①中的结论得，\\(\\angle DCF=\\angle CBF\\)，",
+        "又\\(\\because CD=BC\\)，",
+        "\\(\\therefore \\vartriangle CDH≌\\vartriangle BCF\\)，",
+        "\\(\\therefore CH=BF\\)，\\(DH=CF\\)，",
+        "设\\(CH=BF=a\\)，则\\(FH=a\\)，",
+        "\\(\\therefore CF=CH+FH=2a\\)，",
+        "在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFB\\)中，\\(CF ^ { 2 } +BF ^ { 2 } =BC ^ { 2 }\\)，",
+        "\\(\\therefore \\left ( { 2a } \\right ) ^ { 2 } +a ^ { 2 } =4 ^ { 2 }\\)，",
+        "解得：\\(a=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\therefore DH=CF=2a=\\frac { 8\\sqrt[] { 5 } } { 5 }\\) ，",
+        "\\(\\therefore S_{ \\vartriangle CDF } =\\frac { 1 } { 2 }CF\\cdot DH=\\frac { 1 } { 2 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 32 } { 5 }\\)，",
+        "\\(\\because \\angle CFB=\\angle CBE=90{}^\\circ\\)，\\(\\angle BCF=\\angle ECB\\)，",
+        "\\(\\therefore \\vartriangle CFB\\backsim \\vartriangle CBE\\)，",
+        "\\(\\therefore \\frac { BF } { BE }=\\frac { CF } { BC }\\)，即\\(\\frac { \\frac { 4\\sqrt[] { 5 } } { 5 } } { BE }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { 4 }\\)，",
+        "解得：\\(BE=2\\)，",
+        "\\(\\therefore AE=AB-BE=2\\)；",
+        "\\(\\therefore\\)综上所述，当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        1,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          700,
+          710,
+          720,
+          740
+        ],
+        "solution_block_ids": [
+          2980,
+          2990,
+          3000,
+          3010,
+          3020,
+          3030,
+          3040,
+          3050,
+          3060,
+          3070,
+          3080,
+          3090,
+          3100,
+          3110,
+          3120,
+          3130,
+          3140,
+          3150,
+          3160,
+          3170,
+          3180,
+          3190,
+          3200,
+          3210,
+          3220,
+          3230,
+          3240,
+          3250,
+          3260,
+          3270,
+          3280,
+          3290,
+          3300,
+          3310,
+          3320,
+          3330,
+          3340,
+          3350,
+          3360,
+          3370,
+          3380,
+          3390,
+          3400,
+          3410,
+          3420,
+          3430,
+          3440,
+          3450,
+          3460,
+          3470,
+          3480,
+          3490
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          16,
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-A97BDBFAD3-Q20-P03",
+      "label": "(3)",
+      "prompt": "【拓展延伸】如图3，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，连接\\(DF\\)，将\\(\\vartriangle CFD\\)沿\\(CE\\)翻折得到\\(\\vartriangle CFG\\)，\\(FG\\)交\\(BC\\)于点\\(H\\)，请直接写出线段\\(CH\\)的最小值．",
+      "stem_text": "【拓展延伸】如图3，过点\\(B\\)作\\(BF\\bot CE\\)于点\\(F\\)，连接\\(DF\\)，将\\(\\vartriangle CFD\\)沿\\(CE\\)翻折得到\\(\\vartriangle CFG\\)，\\(FG\\)交\\(BC\\)于点\\(H\\)，请直接写出线段\\(CH\\)的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 16 } { 5 }\\)",
+      "answer": "\\(\\frac { 16 } { 5 }\\)",
+      "given_solution": "解：如图，连接\\(DG\\)交\\(EC\\)于点K，交\\(BC\\)于点L，\n〔图3〕\n由翻折的性质得，\\(CD=CG\\)，\\(FD=FG\\)，\n\\(\\therefore CF\\)是\\(DG\\)的垂直平分线，\n\\(\\therefore DK=KG\\)，\\(CF\\bot DG\\)，\n\\(\\therefore \\angle DKC=90{}^\\circ\\)，\n同理（2）的方法可得，\\(\\vartriangle CDK≌\\vartriangle BCF\\)，\\(\\vartriangle CDL≌\\vartriangle BCE\\)，\n\\(\\therefore DK=CF\\)，\\(CK=BF\\)，\\(DL=CE\\)，\\(CL=BE\\)，\n设\\(CL=BE=x\\)，则\\(DL=CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { x ^ { 2 } +16 }\\)，\\(BL=4-x\\)，\n由（2）得，\\(\\vartriangle CFB\\backsim \\vartriangle CBE\\)，\n\\(\\therefore \\frac { CF } { CB }=\\frac { BF } { BE }=\\frac { BC } { CE }=\\frac { 4 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore CF=\\frac { 16 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\\(BF=\\frac { 4x } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore DG=2DK=2CF=\\frac { 32 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore LG=DG-DL=\\frac { 16-x ^ { 2 } } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\because CF\\bot BF\\)，\\(CF\\bot DG\\)，\n\\(\\therefore BF\\parallel DG\\)，\n\\(\\therefore \\vartriangle BFH\\backsim \\vartriangle LGH\\)，\n\\(\\therefore \\frac { BH } { LH }=\\frac { BF } { LG }=\\frac { 4x } { 16-x ^ { 2 } }\\)，\n\\(\\therefore \\frac { BH } { BL }=\\frac { BH } { BH+LH }=\\frac { 4x } { 4x+16-x ^ { 2 } }\\)，\n又\\(\\because BL=4-x\\)，\n\\(\\therefore BH=\\frac { 4x\\left ( { 4-x } \\right ) } { 4x+16-x ^ { 2 } }=4-\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，\n\\(\\therefore CH=BC-BH=\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，\n又\\(\\because 0\\le x\\le 4\\)，\n\\(\\therefore\\)当\\(x=2\\)时，\\(20-\\left ( { x-2 } \\right ) ^ { 2 }\\)有最大值20，此时\\(CH\\)有最小值\\(\\frac { 64 } { 20 }=\\frac { 16 } { 5 }\\)，\n\\(\\therefore\\)线段\\(CH\\)的最小值为\\(\\frac { 16 } { 5 }\\)．",
+      "solution_steps": [
+        "解：如图，连接\\(DG\\)交\\(EC\\)于点K，交\\(BC\\)于点L，",
+        "〔图3〕",
+        "由翻折的性质得，\\(CD=CG\\)，\\(FD=FG\\)，",
+        "\\(\\therefore CF\\)是\\(DG\\)的垂直平分线，",
+        "\\(\\therefore DK=KG\\)，\\(CF\\bot DG\\)，",
+        "\\(\\therefore \\angle DKC=90{}^\\circ\\)，",
+        "同理（2）的方法可得，\\(\\vartriangle CDK≌\\vartriangle BCF\\)，\\(\\vartriangle CDL≌\\vartriangle BCE\\)，",
+        "\\(\\therefore DK=CF\\)，\\(CK=BF\\)，\\(DL=CE\\)，\\(CL=BE\\)，",
+        "设\\(CL=BE=x\\)，则\\(DL=CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { x ^ { 2 } +16 }\\)，\\(BL=4-x\\)，",
+        "由（2）得，\\(\\vartriangle CFB\\backsim \\vartriangle CBE\\)，",
+        "\\(\\therefore \\frac { CF } { CB }=\\frac { BF } { BE }=\\frac { BC } { CE }=\\frac { 4 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+        "\\(\\therefore CF=\\frac { 16 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\\(BF=\\frac { 4x } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+        "\\(\\therefore DG=2DK=2CF=\\frac { 32 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+        "\\(\\therefore LG=DG-DL=\\frac { 16-x ^ { 2 } } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+        "\\(\\because CF\\bot BF\\)，\\(CF\\bot DG\\)，",
+        "\\(\\therefore BF\\parallel DG\\)，",
+        "\\(\\therefore \\vartriangle BFH\\backsim \\vartriangle LGH\\)，",
+        "\\(\\therefore \\frac { BH } { LH }=\\frac { BF } { LG }=\\frac { 4x } { 16-x ^ { 2 } }\\)，",
+        "\\(\\therefore \\frac { BH } { BL }=\\frac { BH } { BH+LH }=\\frac { 4x } { 4x+16-x ^ { 2 } }\\)，",
+        "又\\(\\because BL=4-x\\)，",
+        "\\(\\therefore BH=\\frac { 4x\\left ( { 4-x } \\right ) } { 4x+16-x ^ { 2 } }=4-\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，",
+        "\\(\\therefore CH=BC-BH=\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，",
+        "又\\(\\because 0\\le x\\le 4\\)，",
+        "\\(\\therefore\\)当\\(x=2\\)时，\\(20-\\left ( { x-2 } \\right ) ^ { 2 }\\)有最大值20，此时\\(CH\\)有最小值\\(\\frac { 64 } { 20 }=\\frac { 16 } { 5 }\\)，",
+        "\\(\\therefore\\)线段\\(CH\\)的最小值为\\(\\frac { 16 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          700,
+          710,
+          720,
+          750
+        ],
+        "solution_block_ids": [
+          3500,
+          3510,
+          3520,
+          3530,
+          3540,
+          3550,
+          3560,
+          3570,
+          3580,
+          3590,
+          3600,
+          3610,
+          3620,
+          3630,
+          3640,
+          3650,
+          3660,
+          3670,
+          3680,
+          3690,
+          3700,
+          3710,
+          3720,
+          3730,
+          3740
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/68/68c797ba1f43fb7521e6b599178d17f4302426ab72656858b1f6edc71ce14e92.png"
+  ],
+  "tables": [],
+  "answer": "(1)见解析\n(2)当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)\n(3)\\(\\frac { 16 } { 5 }\\)",
+  "given_answer": "(1)见解析\n(2)当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)\n(3)\\(\\frac { 16 } { 5 }\\)",
+  "given_solution": "【分析】（1）利用正方形的性质，结合相似三角形的判定即可证明；\n（2）由正方形和直角三角形的性质得到\\(CD>CF\\)，再根据\\(\\vartriangle CFD\\)是等腰三角形得出\\(CF=DF\\)或\\(DF=CD\\)，则分两种情况进行讨论，根据相似三角形的判定与性质、等腰三角形三线合一性质以及三角形的面积公式分别求解即可；\n（3）连接\\(DG\\)交\\(EC\\)于点K，交\\(BC\\)于点L，由翻折的性质得，\\(CD=CG\\)，\\(FD=FG\\)，得出\\(CF\\)是\\(DG\\)的垂直平分线，同理（2）的方法证出\\(\\vartriangle CDK≌\\vartriangle BCF\\)，\\(\\vartriangle CDL≌\\vartriangle BCE\\)，得到\\(DK=CF\\)，\\(CK=BF\\)，\\(DL=CE\\)，\\(CL=BE\\)，设\\(CL=BE=x\\)，利用相似三角形的性质表示出\\(BH\\)的长，进而得出\\(CH=BC-BH=\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，结合\\(x\\)的范围即可求出线段\\(CH\\)的最小值．\n【详解】（1）证明：\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle ABC=\\angle DCB=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle ECB=90{}^\\circ\\)，\n\\(\\because DF\\bot CE\\)，\n\\(\\therefore \\angle DFC=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle CDF=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle CDF=\\angle DCF+\\angle ECB\\)，\n\\(\\therefore \\angle CDF=\\angle ECB\\)，\n又\\(\\because\\)\\(\\angle DFC=\\angle B=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle CFD\\backsim \\vartriangle EBC\\)．\n（2）解：\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore CD=BC=AB=4\\)，\\(\\angle BCD=90{}^\\circ\\)，\\(\\angle DCA=45{}^\\circ\\)，\n\\(\\because BF\\bot CE\\)，\n\\(\\therefore \\angle BFC=90{}^\\circ\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCF\\)中，\\(BC>CF\\)，\n\\(\\therefore CD>CF\\)，\n\\(\\because \\vartriangle CFD\\)为等腰三角形，\n\\(\\therefore CF=DF\\)或\\(DF=CD\\)；\n①当\\(CF=DF\\)时，如图，作\\(FH\\bot CD\\)于点H，\n〔图1〕\\(\\because FH\\bot CD\\)，\\(CF=DF\\)，\n\\(\\therefore DH=CH=\\frac { 1 } { 2 }CD=2\\)，\\(\\angle FHC=90{}^\\circ\\)，\n\\(\\because BF\\bot CE\\)，\n\\(\\therefore \\angle CFB=90{}^\\circ\\)，\n\\(\\therefore \\angle FCB+\\angle CBF=90{}^\\circ\\)，\n\\(\\because \\angle FCB+\\angle FCH=\\angle BCD=90{}^\\circ\\)，\n\\(\\therefore \\angle FCB+\\angle FCH=\\angle FCB+\\angle CBF\\)，即\\(\\angle FCH=\\angle CBF\\)，\n又\\(\\because \\angle FHC=\\angle CFB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle CFH\\backsim \\vartriangle BCF\\)，\n\\(\\therefore \\frac { HF } { CF }=\\frac { CF } { BC }\\)，\n\\(\\therefore CF ^ { 2 } =BC\\cdot HF=4HF\\)，\n设\\(HF=a\\)，则\\(CF ^ { 2 } =4a\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFH\\)中，\\(HF ^ { 2 } +CH ^ { 2 } =CF ^ { 2 }\\)，\n\\(\\therefore a ^ { 2 } +2 ^ { 2 } =4a\\)，\n解得：\\(a=2\\)，即\\(HF=2\\)，\n\\(\\therefore HF=CH=2\\)，\\(S_{ \\vartriangle CFD } =\\frac { 1 } { 2 }CD\\cdot FH=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，\n\\(\\therefore \\vartriangle CFH\\)是等腰直角三角形，\n\\(\\therefore \\angle HCF=45{}^\\circ\\)，\n\\(\\therefore \\angle HCF=\\angle DCA=45{}^\\circ\\)，\n\\(\\therefore A,F,C\\)三点共线，\n\\(\\therefore\\)点\\(A\\)和点\\(E\\)重合，\n\\(\\therefore AE=0\\)；\n②当\\(DF=CD\\)时，如图，作\\(DH\\bot CE\\)于点H，\n〔图2〕\\(\\because DF=DC\\)，\\(DH\\bot CE\\)，\n\\(\\therefore FH=CH\\)，\\(\\angle DHC=90{}^\\circ\\)，\n\\(\\therefore \\angle DHC=\\angle CFB=90{}^\\circ\\)，\n由①中的结论得，\\(\\angle DCF=\\angle CBF\\)，\n又\\(\\because CD=BC\\)，\n\\(\\therefore \\vartriangle CDH≌\\vartriangle BCF\\)，\n\\(\\therefore CH=BF\\)，\\(DH=CF\\)，\n设\\(CH=BF=a\\)，则\\(FH=a\\)，\n\\(\\therefore CF=CH+FH=2a\\)，\n在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFB\\)中，\\(CF ^ { 2 } +BF ^ { 2 } =BC ^ { 2 }\\)，\n\\(\\therefore \\left ( { 2a } \\right ) ^ { 2 } +a ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(a=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore DH=CF=2a=\\frac { 8\\sqrt[] { 5 } } { 5 }\\) ，\n\\(\\therefore S_{ \\vartriangle CDF } =\\frac { 1 } { 2 }CF\\cdot DH=\\frac { 1 } { 2 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 32 } { 5 }\\)，\n\\(\\because \\angle CFB=\\angle CBE=90{}^\\circ\\)，\\(\\angle BCF=\\angle ECB\\)，\n\\(\\therefore \\vartriangle CFB\\backsim \\vartriangle CBE\\)，\n\\(\\therefore \\frac { BF } { BE }=\\frac { CF } { BC }\\)，即\\(\\frac { \\frac { 4\\sqrt[] { 5 } } { 5 } } { BE }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { 4 }\\)，\n解得：\\(BE=2\\)，\n\\(\\therefore AE=AB-BE=2\\)；\n\\(\\therefore\\)综上所述，当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)．\n（3）解：如图，连接\\(DG\\)交\\(EC\\)于点K，交\\(BC\\)于点L，\n〔图3〕\n由翻折的性质得，\\(CD=CG\\)，\\(FD=FG\\)，\n\\(\\therefore CF\\)是\\(DG\\)的垂直平分线，\n\\(\\therefore DK=KG\\)，\\(CF\\bot DG\\)，\n\\(\\therefore \\angle DKC=90{}^\\circ\\)，\n同理（2）的方法可得，\\(\\vartriangle CDK≌\\vartriangle BCF\\)，\\(\\vartriangle CDL≌\\vartriangle BCE\\)，\n\\(\\therefore DK=CF\\)，\\(CK=BF\\)，\\(DL=CE\\)，\\(CL=BE\\)，\n设\\(CL=BE=x\\)，则\\(DL=CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { x ^ { 2 } +16 }\\)，\\(BL=4-x\\)，\n由（2）得，\\(\\vartriangle CFB\\backsim \\vartriangle CBE\\)，\n\\(\\therefore \\frac { CF } { CB }=\\frac { BF } { BE }=\\frac { BC } { CE }=\\frac { 4 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore CF=\\frac { 16 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\\(BF=\\frac { 4x } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore DG=2DK=2CF=\\frac { 32 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore LG=DG-DL=\\frac { 16-x ^ { 2 } } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\because CF\\bot BF\\)，\\(CF\\bot DG\\)，\n\\(\\therefore BF\\parallel DG\\)，\n\\(\\therefore \\vartriangle BFH\\backsim \\vartriangle LGH\\)，\n\\(\\therefore \\frac { BH } { LH }=\\frac { BF } { LG }=\\frac { 4x } { 16-x ^ { 2 } }\\)，\n\\(\\therefore \\frac { BH } { BL }=\\frac { BH } { BH+LH }=\\frac { 4x } { 4x+16-x ^ { 2 } }\\)，\n又\\(\\because BL=4-x\\)，\n\\(\\therefore BH=\\frac { 4x\\left ( { 4-x } \\right ) } { 4x+16-x ^ { 2 } }=4-\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，\n\\(\\therefore CH=BC-BH=\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，\n又\\(\\because 0\\le x\\le 4\\)，\n\\(\\therefore\\)当\\(x=2\\)时，\\(20-\\left ( { x-2 } \\right ) ^ { 2 }\\)有最大值20，此时\\(CH\\)有最小值\\(\\frac { 64 } { 20 }=\\frac { 16 } { 5 }\\)，\n\\(\\therefore\\)线段\\(CH\\)的最小值为\\(\\frac { 16 } { 5 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/8c/8c5b185ae76a92437e9e9ff3d82c069ee739f512823a9a9c1d2a52b1462db726.png",
+    "assets/figures/2c/2cfdc6b9769749899640e9f02a9c80e96956ec16113fc72c7d64353fcc8d94fb.png",
+    "assets/figures/5b/5bb71ca711106185de4f4a4a2375e7105a5d3a1a8482e26bafb6d1e61bb79381.png"
+  ],
+  "solution_steps": [
+    "（1）证明：\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore \\angle ABC=\\angle DCB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DCF+\\angle ECB=90{}^\\circ\\)，",
+    "\\(\\because DF\\bot CE\\)，",
+    "\\(\\therefore \\angle DFC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DCF+\\angle CDF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DCF+\\angle CDF=\\angle DCF+\\angle ECB\\)，",
+    "\\(\\therefore \\angle CDF=\\angle ECB\\)，",
+    "又\\(\\because\\)\\(\\angle DFC=\\angle B=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle CFD\\backsim \\vartriangle EBC\\)．",
+    "（2）解：\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore CD=BC=AB=4\\)，\\(\\angle BCD=90{}^\\circ\\)，\\(\\angle DCA=45{}^\\circ\\)，",
+    "\\(\\because BF\\bot CE\\)，",
+    "\\(\\therefore \\angle BFC=90{}^\\circ\\)，",
+    "\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCF\\)中，\\(BC>CF\\)，",
+    "\\(\\therefore CD>CF\\)，",
+    "\\(\\because \\vartriangle CFD\\)为等腰三角形，",
+    "\\(\\therefore CF=DF\\)或\\(DF=CD\\)；",
+    "①当\\(CF=DF\\)时，如图，作\\(FH\\bot CD\\)于点H，",
+    "〔图1〕\\(\\because FH\\bot CD\\)，\\(CF=DF\\)，",
+    "\\(\\therefore DH=CH=\\frac { 1 } { 2 }CD=2\\)，\\(\\angle FHC=90{}^\\circ\\)，",
+    "\\(\\because BF\\bot CE\\)，",
+    "\\(\\therefore \\angle CFB=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle FCB+\\angle CBF=90{}^\\circ\\)，",
+    "\\(\\because \\angle FCB+\\angle FCH=\\angle BCD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle FCB+\\angle FCH=\\angle FCB+\\angle CBF\\)，即\\(\\angle FCH=\\angle CBF\\)，",
+    "又\\(\\because \\angle FHC=\\angle CFB=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle CFH\\backsim \\vartriangle BCF\\)，",
+    "\\(\\therefore \\frac { HF } { CF }=\\frac { CF } { BC }\\)，",
+    "\\(\\therefore CF ^ { 2 } =BC\\cdot HF=4HF\\)，",
+    "设\\(HF=a\\)，则\\(CF ^ { 2 } =4a\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFH\\)中，\\(HF ^ { 2 } +CH ^ { 2 } =CF ^ { 2 }\\)，",
+    "\\(\\therefore a ^ { 2 } +2 ^ { 2 } =4a\\)，",
+    "解得：\\(a=2\\)，即\\(HF=2\\)，",
+    "\\(\\therefore HF=CH=2\\)，\\(S_{ \\vartriangle CFD } =\\frac { 1 } { 2 }CD\\cdot FH=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，",
+    "\\(\\therefore \\vartriangle CFH\\)是等腰直角三角形，",
+    "\\(\\therefore \\angle HCF=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle HCF=\\angle DCA=45{}^\\circ\\)，",
+    "\\(\\therefore A,F,C\\)三点共线，",
+    "\\(\\therefore\\)点\\(A\\)和点\\(E\\)重合，",
+    "\\(\\therefore AE=0\\)；",
+    "②当\\(DF=CD\\)时，如图，作\\(DH\\bot CE\\)于点H，",
+    "〔图2〕\\(\\because DF=DC\\)，\\(DH\\bot CE\\)，",
+    "\\(\\therefore FH=CH\\)，\\(\\angle DHC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle DHC=\\angle CFB=90{}^\\circ\\)，",
+    "由①中的结论得，\\(\\angle DCF=\\angle CBF\\)，",
+    "又\\(\\because CD=BC\\)，",
+    "\\(\\therefore \\vartriangle CDH≌\\vartriangle BCF\\)，",
+    "\\(\\therefore CH=BF\\)，\\(DH=CF\\)，",
+    "设\\(CH=BF=a\\)，则\\(FH=a\\)，",
+    "\\(\\therefore CF=CH+FH=2a\\)，",
+    "在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFB\\)中，\\(CF ^ { 2 } +BF ^ { 2 } =BC ^ { 2 }\\)，",
+    "\\(\\therefore \\left ( { 2a } \\right ) ^ { 2 } +a ^ { 2 } =4 ^ { 2 }\\)，",
+    "解得：\\(a=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\therefore DH=CF=2a=\\frac { 8\\sqrt[] { 5 } } { 5 }\\) ，",
+    "\\(\\therefore S_{ \\vartriangle CDF } =\\frac { 1 } { 2 }CF\\cdot DH=\\frac { 1 } { 2 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 32 } { 5 }\\)，",
+    "\\(\\because \\angle CFB=\\angle CBE=90{}^\\circ\\)，\\(\\angle BCF=\\angle ECB\\)，",
+    "\\(\\therefore \\vartriangle CFB\\backsim \\vartriangle CBE\\)，",
+    "\\(\\therefore \\frac { BF } { BE }=\\frac { CF } { BC }\\)，即\\(\\frac { \\frac { 4\\sqrt[] { 5 } } { 5 } } { BE }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { 4 }\\)，",
+    "解得：\\(BE=2\\)，",
+    "\\(\\therefore AE=AB-BE=2\\)；",
+    "\\(\\therefore\\)综上所述，当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)．",
+    "（3）解：如图，连接\\(DG\\)交\\(EC\\)于点K，交\\(BC\\)于点L，",
+    "〔图3〕",
+    "由翻折的性质得，\\(CD=CG\\)，\\(FD=FG\\)，",
+    "\\(\\therefore CF\\)是\\(DG\\)的垂直平分线，",
+    "\\(\\therefore DK=KG\\)，\\(CF\\bot DG\\)，",
+    "\\(\\therefore \\angle DKC=90{}^\\circ\\)，",
+    "同理（2）的方法可得，\\(\\vartriangle CDK≌\\vartriangle BCF\\)，\\(\\vartriangle CDL≌\\vartriangle BCE\\)，",
+    "\\(\\therefore DK=CF\\)，\\(CK=BF\\)，\\(DL=CE\\)，\\(CL=BE\\)，",
+    "设\\(CL=BE=x\\)，则\\(DL=CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { x ^ { 2 } +16 }\\)，\\(BL=4-x\\)，",
+    "由（2）得，\\(\\vartriangle CFB\\backsim \\vartriangle CBE\\)，",
+    "\\(\\therefore \\frac { CF } { CB }=\\frac { BF } { BE }=\\frac { BC } { CE }=\\frac { 4 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+    "\\(\\therefore CF=\\frac { 16 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\\(BF=\\frac { 4x } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+    "\\(\\therefore DG=2DK=2CF=\\frac { 32 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+    "\\(\\therefore LG=DG-DL=\\frac { 16-x ^ { 2 } } { \\sqrt[] { x ^ { 2 } +16 } }\\)，",
+    "\\(\\because CF\\bot BF\\)，\\(CF\\bot DG\\)，",
+    "\\(\\therefore BF\\parallel DG\\)，",
+    "\\(\\therefore \\vartriangle BFH\\backsim \\vartriangle LGH\\)，",
+    "\\(\\therefore \\frac { BH } { LH }=\\frac { BF } { LG }=\\frac { 4x } { 16-x ^ { 2 } }\\)，",
+    "\\(\\therefore \\frac { BH } { BL }=\\frac { BH } { BH+LH }=\\frac { 4x } { 4x+16-x ^ { 2 } }\\)，",
+    "又\\(\\because BL=4-x\\)，",
+    "\\(\\therefore BH=\\frac { 4x\\left ( { 4-x } \\right ) } { 4x+16-x ^ { 2 } }=4-\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，",
+    "\\(\\therefore CH=BC-BH=\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，",
+    "又\\(\\because 0\\le x\\le 4\\)，",
+    "\\(\\therefore\\)当\\(x=2\\)时，\\(20-\\left ( { x-2 } \\right ) ^ { 2 }\\)有最大值20，此时\\(CH\\)有最小值\\(\\frac { 64 } { 20 }=\\frac { 16 } { 5 }\\)，",
+    "\\(\\therefore\\)线段\\(CH\\)的最小值为\\(\\frac { 16 } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）证明：\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle ABC=\\angle DCB=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle ECB=90{}^\\circ\\)，\n\\(\\because DF\\bot CE\\)，\n\\(\\therefore \\angle DFC=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle CDF=90{}^\\circ\\)，\n\\(\\therefore \\angle DCF+\\angle CDF=\\angle DCF+\\angle ECB\\)，\n\\(\\therefore \\angle CDF=\\angle ECB\\)，\n又\\(\\because\\)\\(\\angle DFC=\\angle B=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle CFD\\backsim \\vartriangle EBC\\)．\n（2）解：\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore CD=BC=AB=4\\)，\\(\\angle BCD=90{}^\\circ\\)，\\(\\angle DCA=45{}^\\circ\\)，\n\\(\\because BF\\bot CE\\)，\n\\(\\therefore \\angle BFC=90{}^\\circ\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCF\\)中，\\(BC>CF\\)，\n\\(\\therefore CD>CF\\)，\n\\(\\because \\vartriangle CFD\\)为等腰三角形，\n\\(\\therefore CF=DF\\)或\\(DF=CD\\)；\n①当\\(CF=DF\\)时，如图，作\\(FH\\bot CD\\)于点H，\n〔图1〕\\(\\because FH\\bot CD\\)，\\(CF=DF\\)，\n\\(\\therefore DH=CH=\\frac { 1 } { 2 }CD=2\\)，\\(\\angle FHC=90{}^\\circ\\)，\n\\(\\because BF\\bot CE\\)，\n\\(\\therefore \\angle CFB=90{}^\\circ\\)，\n\\(\\therefore \\angle FCB+\\angle CBF=90{}^\\circ\\)，\n\\(\\because \\angle FCB+\\angle FCH=\\angle BCD=90{}^\\circ\\)，\n\\(\\therefore \\angle FCB+\\angle FCH=\\angle FCB+\\angle CBF\\)，即\\(\\angle FCH=\\angle CBF\\)，\n又\\(\\because \\angle FHC=\\angle CFB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle CFH\\backsim \\vartriangle BCF\\)，\n\\(\\therefore \\frac { HF } { CF }=\\frac { CF } { BC }\\)，\n\\(\\therefore CF ^ { 2 } =BC\\cdot HF=4HF\\)，\n设\\(HF=a\\)，则\\(CF ^ { 2 } =4a\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFH\\)中，\\(HF ^ { 2 } +CH ^ { 2 } =CF ^ { 2 }\\)，\n\\(\\therefore a ^ { 2 } +2 ^ { 2 } =4a\\)，\n解得：\\(a=2\\)，即\\(HF=2\\)，\n\\(\\therefore HF=CH=2\\)，\\(S_{ \\vartriangle CFD } =\\frac { 1 } { 2 }CD\\cdot FH=\\frac { 1 } { 2 }\\times 4\\times 2=4\\)，\n\\(\\therefore \\vartriangle CFH\\)是等腰直角三角形，\n\\(\\therefore \\angle HCF=45{}^\\circ\\)，\n\\(\\therefore \\angle HCF=\\angle DCA=45{}^\\circ\\)，\n\\(\\therefore A,F,C\\)三点共线，\n\\(\\therefore\\)点\\(A\\)和点\\(E\\)重合，\n\\(\\therefore AE=0\\)；\n②当\\(DF=CD\\)时，如图，作\\(DH\\bot CE\\)于点H，\n〔图2〕\\(\\because DF=DC\\)，\\(DH\\bot CE\\)，\n\\(\\therefore FH=CH\\)，\\(\\angle DHC=90{}^\\circ\\)，\n\\(\\therefore \\angle DHC=\\angle CFB=90{}^\\circ\\)，\n由①中的结论得，\\(\\angle DCF=\\angle CBF\\)，\n又\\(\\because CD=BC\\)，\n\\(\\therefore \\vartriangle CDH≌\\vartriangle BCF\\)，\n\\(\\therefore CH=BF\\)，\\(DH=CF\\)，\n设\\(CH=BF=a\\)，则\\(FH=a\\)，\n\\(\\therefore CF=CH+FH=2a\\)，\n在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CFB\\)中，\\(CF ^ { 2 } +BF ^ { 2 } =BC ^ { 2 }\\)，\n\\(\\therefore \\left ( { 2a } \\right ) ^ { 2 } +a ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(a=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore DH=CF=2a=\\frac { 8\\sqrt[] { 5 } } { 5 }\\) ，\n\\(\\therefore S_{ \\vartriangle CDF } =\\frac { 1 } { 2 }CF\\cdot DH=\\frac { 1 } { 2 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 32 } { 5 }\\)，\n\\(\\because \\angle CFB=\\angle CBE=90{}^\\circ\\)，\\(\\angle BCF=\\angle ECB\\)，\n\\(\\therefore \\vartriangle CFB\\backsim \\vartriangle CBE\\)，\n\\(\\therefore \\frac { BF } { BE }=\\frac { CF } { BC }\\)，即\\(\\frac { \\frac { 4\\sqrt[] { 5 } } { 5 } } { BE }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { 4 }\\)，\n解得：\\(BE=2\\)，\n\\(\\therefore AE=AB-BE=2\\)；\n\\(\\therefore\\)综上所述，当\\(CF=DF\\)时，\\(AE=0\\)，\\(S_{ \\vartriangle CDF } =4\\)；当\\(DF=CD\\)时，\\(AE=2\\)，\\(S_{ \\vartriangle CDF } =\\frac { 32 } { 5 }\\)．\n（3）解：如图，连接\\(DG\\)交\\(EC\\)于点K，交\\(BC\\)于点L，\n〔图3〕\n由翻折的性质得，\\(CD=CG\\)，\\(FD=FG\\)，\n\\(\\therefore CF\\)是\\(DG\\)的垂直平分线，\n\\(\\therefore DK=KG\\)，\\(CF\\bot DG\\)，\n\\(\\therefore \\angle DKC=90{}^\\circ\\)，\n同理（2）的方法可得，\\(\\vartriangle CDK≌\\vartriangle BCF\\)，\\(\\vartriangle CDL≌\\vartriangle BCE\\)，\n\\(\\therefore DK=CF\\)，\\(CK=BF\\)，\\(DL=CE\\)，\\(CL=BE\\)，\n设\\(CL=BE=x\\)，则\\(DL=CE=\\sqrt[] { BE ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { x ^ { 2 } +16 }\\)，\\(BL=4-x\\)，\n由（2）得，\\(\\vartriangle CFB\\backsim \\vartriangle CBE\\)，\n\\(\\therefore \\frac { CF } { CB }=\\frac { BF } { BE }=\\frac { BC } { CE }=\\frac { 4 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore CF=\\frac { 16 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\\(BF=\\frac { 4x } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore DG=2DK=2CF=\\frac { 32 } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\therefore LG=DG-DL=\\frac { 16-x ^ { 2 } } { \\sqrt[] { x ^ { 2 } +16 } }\\)，\n\\(\\because CF\\bot BF\\)，\\(CF\\bot DG\\)，\n\\(\\therefore BF\\parallel DG\\)，\n\\(\\therefore \\vartriangle BFH\\backsim \\vartriangle LGH\\)，\n\\(\\therefore \\frac { BH } { LH }=\\frac { BF } { LG }=\\frac { 4x } { 16-x ^ { 2 } }\\)，\n\\(\\therefore \\frac { BH } { BL }=\\frac { BH } { BH+LH }=\\frac { 4x } { 4x+16-x ^ { 2 } }\\)，\n又\\(\\because BL=4-x\\)，\n\\(\\therefore BH=\\frac { 4x\\left ( { 4-x } \\right ) } { 4x+16-x ^ { 2 } }=4-\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，\n\\(\\therefore CH=BC-BH=\\frac { 64 } { 20-\\left ( { x-2 } \\right ) ^ { 2 } }\\)，\n又\\(\\because 0\\le x\\le 4\\)，\n\\(\\therefore\\)当\\(x=2\\)时，\\(20-\\left ( { x-2 } \\right ) ^ { 2 }\\)有最大值20，此时\\(CH\\)有最小值\\(\\frac { 64 } { 20 }=\\frac { 16 } { 5 }\\)，\n\\(\\therefore\\)线段\\(CH\\)的最小值为\\(\\frac { 16 } { 5 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-A97BDBFAD3/single/q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          13,
+          131.31,
+          582.2,
+          376.96
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s20-p15.webp",
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s20-p16.webp",
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s20-p17.webp",
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s20-p18.webp",
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          552.75,
+          582.2,
+          770.14
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          753.57
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.2,
+          761.39
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          746.17
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          13,
+          73.13,
+          582.2,
+          545.74
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,302 @@
+{
+  "id": "SZ-G9-T2-CFB395958E-Q20",
+  "paper_id": "SZ-G9-T2-CFB395958E",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "补足条件判定矩形、按指定锐角选择三角函数比",
+  "stem": "如图，在菱形\\(ABCD\\)中，对角线\\(AC\\)，\\(BD\\)交于点\\(O\\)，过点\\(A\\)作\\(BC\\)的垂线，垂足为点\\(E\\)，延长\\(BC\\)到点\\(F\\)，使\\(CF=BE\\)，连接\\(DF\\)．\n〔图1〕\n（1）求证：四边形\\(AEFD\\)是矩形；\n（2）连接\\(OE\\)，若\\(BD=8\\)，\\(AC=4\\)，求\\(cos\\angle BOE\\)．",
+  "choices": [],
+  "figures": [
+    "assets/figures/d9/d978e07e0945f8aab2cb623408760e0ad8446c1163bf0b5a2c042cbfd274ebec.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见解析\n（2）\\(\\frac { 4 } { 5 }\\)",
+  "answer": "（1）证明见解析\n（2）\\(\\frac { 4 } { 5 }\\)",
+  "given_solution": "【分析】（1）由菱形的性质得\\(AD\\parallel BC\\)且\\(AD=BC\\)，再证明\\(AD=EF,BC=EF\\)，则四边形\\(AEFD\\)是平行四边形，然后证明\\(\\angle AEF=90{}^\\circ\\)，即可得出结论．\n（2）过点\\(E\\)作\\(EG\\bot AC\\)于点\\(G\\)，则\\(EG\\parallel BD\\)，得\\(\\angle BOE=\\angle OEG\\)，由菱形的性质和勾股定理得\\(BC=2\\sqrt[] { 5 }\\)，再由菱形面积求出\\(AE\\)的长，进而由勾股定理求出\\(CE\\)的长，然后由三角形面积求出\\(EG\\)的长，即可解决问题．\n【小问1详解】\n证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore AD\\parallel BC\\)且\\(AD=BC\\)，\n\\(\\because CF=BE\\)，\n\\(\\therefore CF+CE=BE+CE\\)，\n即\\(EF=BC\\)，\n\\(\\therefore AD=EF\\)，\n\\(\\because AD\\parallel EF\\)，\n\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore \\angle AEF=90{}^\\circ\\)，\n\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；\n【小问2详解】\n解：如图，过点\\(E\\)作\\(EG\\bot AC\\)于点\\(G\\)，\n〔图2〕\n则\\(EG\\parallel BD\\)，\n\\(\\therefore \\angle BOE=\\angle OEG\\)，\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(BD=8\\)，\\(AC=4\\)，\n\\(\\therefore AC\\bot BD\\)，\\(AO=CO=2\\)，\\(BO=DO=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，由勾股定理得：\\(BC=\\sqrt[] { CO ^ { 2 } +BO ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore S_{ 菱形ABCD } =BC\\cdot AE=\\frac { 1 } { 2 }AC\\cdot BD=\\frac { 1 } { 2 }\\times 4\\times 8=16\\)，\\(\\angle AEC=90{}^\\circ\\)，\n\\(\\therefore AE=\\frac { 16 } { 2\\sqrt[] { 5 } }=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\\(OE=\\frac { 1 } { 2 }AC=AO=2\\)，\n\\(\\therefore CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 8\\sqrt[] { 5 } } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\because S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AC\\cdot EG=\\frac { 1 } { 2 }AE\\cdot CE\\)，\n\\(\\therefore AC\\cdot EG=AE\\cdot CE\\)，\n\\(\\therefore EG=\\frac { AE\\cdot CE } { AC }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 } } { 4 }=\\frac { 8 } { 5 }\\)，\n\\(\\therefore cos\\angle BOE=cos\\angle OEG=\\frac { EG } { OE }=\\frac { \\frac { 8 } { 5 } } { 2 }=\\frac { 4 } { 5 }\\)．\n【点睛】本题考查了矩形的性质、菱形的性质、平行四边形的判定与性质、勾股定理以及锐角三角函数定义等知识，熟练掌握矩形的判定和菱形的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/d9/d978e07e0945f8aab2cb623408760e0ad8446c1163bf0b5a2c042cbfd274ebec.png",
+    "assets/figures/02/02d8640ee66c081aaf0d97f79a44cb9ab98ee8da95c6cbce713cb8264b443406.png"
+  ],
+  "solution": "【小问1详解】\n证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore AD\\parallel BC\\)且\\(AD=BC\\)，\n\\(\\because CF=BE\\)，\n\\(\\therefore CF+CE=BE+CE\\)，\n即\\(EF=BC\\)，\n\\(\\therefore AD=EF\\)，\n\\(\\because AD\\parallel EF\\)，\n\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore \\angle AEF=90{}^\\circ\\)，\n\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；\n【小问2详解】\n解：如图，过点\\(E\\)作\\(EG\\bot AC\\)于点\\(G\\)，\n〔图2〕\n则\\(EG\\parallel BD\\)，\n\\(\\therefore \\angle BOE=\\angle OEG\\)，\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(BD=8\\)，\\(AC=4\\)，\n\\(\\therefore AC\\bot BD\\)，\\(AO=CO=2\\)，\\(BO=DO=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，由勾股定理得：\\(BC=\\sqrt[] { CO ^ { 2 } +BO ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore S_{ 菱形ABCD } =BC\\cdot AE=\\frac { 1 } { 2 }AC\\cdot BD=\\frac { 1 } { 2 }\\times 4\\times 8=16\\)，\\(\\angle AEC=90{}^\\circ\\)，\n\\(\\therefore AE=\\frac { 16 } { 2\\sqrt[] { 5 } }=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\\(OE=\\frac { 1 } { 2 }AC=AO=2\\)，\n\\(\\therefore CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 8\\sqrt[] { 5 } } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\because S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AC\\cdot EG=\\frac { 1 } { 2 }AE\\cdot CE\\)，\n\\(\\therefore AC\\cdot EG=AE\\cdot CE\\)，\n\\(\\therefore EG=\\frac { AE\\cdot CE } { AC }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 } } { 4 }=\\frac { 8 } { 5 }\\)，\n\\(\\therefore cos\\angle BOE=cos\\angle OEG=\\frac { EG } { OE }=\\frac { \\frac { 8 } { 5 } } { 2 }=\\frac { 4 } { 5 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+    "\\(\\therefore AD\\parallel BC\\)且\\(AD=BC\\)，",
+    "\\(\\because CF=BE\\)，",
+    "\\(\\therefore CF+CE=BE+CE\\)，",
+    "即\\(EF=BC\\)，",
+    "\\(\\therefore AD=EF\\)，",
+    "\\(\\because AD\\parallel EF\\)，",
+    "\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，",
+    "\\(\\because AE\\bot BC\\)，",
+    "\\(\\therefore \\angle AEF=90{}^\\circ\\)，",
+    "\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；",
+    "【小问2详解】",
+    "解：如图，过点\\(E\\)作\\(EG\\bot AC\\)于点\\(G\\)，",
+    "〔图2〕",
+    "则\\(EG\\parallel BD\\)，",
+    "\\(\\therefore \\angle BOE=\\angle OEG\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(BD=8\\)，\\(AC=4\\)，",
+    "\\(\\therefore AC\\bot BD\\)，\\(AO=CO=2\\)，\\(BO=DO=4\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，由勾股定理得：\\(BC=\\sqrt[] { CO ^ { 2 } +BO ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+    "\\(\\because AE\\bot BC\\)，",
+    "\\(\\therefore S_{ 菱形ABCD } =BC\\cdot AE=\\frac { 1 } { 2 }AC\\cdot BD=\\frac { 1 } { 2 }\\times 4\\times 8=16\\)，\\(\\angle AEC=90{}^\\circ\\)，",
+    "\\(\\therefore AE=\\frac { 16 } { 2\\sqrt[] { 5 } }=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\\(OE=\\frac { 1 } { 2 }AC=AO=2\\)，",
+    "\\(\\therefore CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 8\\sqrt[] { 5 } } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\because S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AC\\cdot EG=\\frac { 1 } { 2 }AE\\cdot CE\\)，",
+    "\\(\\therefore AC\\cdot EG=AE\\cdot CE\\)，",
+    "\\(\\therefore EG=\\frac { AE\\cdot CE } { AC }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 } } { 4 }=\\frac { 8 } { 5 }\\)，",
+    "\\(\\therefore cos\\angle BOE=cos\\angle OEG=\\frac { EG } { OE }=\\frac { \\frac { 8 } { 5 } } { 2 }=\\frac { 4 } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在菱形\\(ABCD\\)中，对角线\\(AC\\)，\\(BD\\)交于点\\(O\\)，过点\\(A\\)作\\(BC\\)的垂线，垂足为点\\(E\\)，延长\\(BC\\)到点\\(F\\)，使\\(CF=BE\\)，连接\\(DF\\)．\n〔图1〕",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-CFB395958E-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(AEFD\\)是矩形；",
+      "stem_text": "求证：四边形\\(AEFD\\)是矩形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore AD\\parallel BC\\)且\\(AD=BC\\)，\n\\(\\because CF=BE\\)，\n\\(\\therefore CF+CE=BE+CE\\)，\n即\\(EF=BC\\)，\n\\(\\therefore AD=EF\\)，\n\\(\\because AD\\parallel EF\\)，\n\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore \\angle AEF=90{}^\\circ\\)，\n\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；",
+      "solution_steps": [
+        "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+        "\\(\\therefore AD\\parallel BC\\)且\\(AD=BC\\)，",
+        "\\(\\because CF=BE\\)，",
+        "\\(\\therefore CF+CE=BE+CE\\)，",
+        "即\\(EF=BC\\)，",
+        "\\(\\therefore AD=EF\\)，",
+        "\\(\\because AD\\parallel EF\\)，",
+        "\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，",
+        "\\(\\because AE\\bot BC\\)，",
+        "\\(\\therefore \\angle AEF=90{}^\\circ\\)，",
+        "\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-CFB395958E-Q20-P02",
+      "label": "（2）",
+      "prompt": "连接\\(OE\\)，若\\(BD=8\\)，\\(AC=4\\)，求\\(cos\\angle BOE\\)．",
+      "stem_text": "连接\\(OE\\)，若\\(BD=8\\)，\\(AC=4\\)，求\\(cos\\angle BOE\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4 } { 5 }\\)",
+      "answer": "\\(\\frac { 4 } { 5 }\\)",
+      "given_solution": "解：如图，过点\\(E\\)作\\(EG\\bot AC\\)于点\\(G\\)，\n〔图2〕\n则\\(EG\\parallel BD\\)，\n\\(\\therefore \\angle BOE=\\angle OEG\\)，\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(BD=8\\)，\\(AC=4\\)，\n\\(\\therefore AC\\bot BD\\)，\\(AO=CO=2\\)，\\(BO=DO=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，由勾股定理得：\\(BC=\\sqrt[] { CO ^ { 2 } +BO ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore S_{ 菱形ABCD } =BC\\cdot AE=\\frac { 1 } { 2 }AC\\cdot BD=\\frac { 1 } { 2 }\\times 4\\times 8=16\\)，\\(\\angle AEC=90{}^\\circ\\)，\n\\(\\therefore AE=\\frac { 16 } { 2\\sqrt[] { 5 } }=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\\(OE=\\frac { 1 } { 2 }AC=AO=2\\)，\n\\(\\therefore CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 8\\sqrt[] { 5 } } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\because S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AC\\cdot EG=\\frac { 1 } { 2 }AE\\cdot CE\\)，\n\\(\\therefore AC\\cdot EG=AE\\cdot CE\\)，\n\\(\\therefore EG=\\frac { AE\\cdot CE } { AC }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 } } { 4 }=\\frac { 8 } { 5 }\\)，\n\\(\\therefore cos\\angle BOE=cos\\angle OEG=\\frac { EG } { OE }=\\frac { \\frac { 8 } { 5 } } { 2 }=\\frac { 4 } { 5 }\\)．",
+      "solution_steps": [
+        "解：如图，过点\\(E\\)作\\(EG\\bot AC\\)于点\\(G\\)，",
+        "〔图2〕",
+        "则\\(EG\\parallel BD\\)，",
+        "\\(\\therefore \\angle BOE=\\angle OEG\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(BD=8\\)，\\(AC=4\\)，",
+        "\\(\\therefore AC\\bot BD\\)，\\(AO=CO=2\\)，\\(BO=DO=4\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，由勾股定理得：\\(BC=\\sqrt[] { CO ^ { 2 } +BO ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+        "\\(\\because AE\\bot BC\\)，",
+        "\\(\\therefore S_{ 菱形ABCD } =BC\\cdot AE=\\frac { 1 } { 2 }AC\\cdot BD=\\frac { 1 } { 2 }\\times 4\\times 8=16\\)，\\(\\angle AEC=90{}^\\circ\\)，",
+        "\\(\\therefore AE=\\frac { 16 } { 2\\sqrt[] { 5 } }=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\\(OE=\\frac { 1 } { 2 }AC=AO=2\\)，",
+        "\\(\\therefore CE=\\sqrt[] { AC ^ { 2 } -AE ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 8\\sqrt[] { 5 } } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\because S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AC\\cdot EG=\\frac { 1 } { 2 }AE\\cdot CE\\)，",
+        "\\(\\therefore AC\\cdot EG=AE\\cdot CE\\)，",
+        "\\(\\therefore EG=\\frac { AE\\cdot CE } { AC }=\\frac { \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 } } { 4 }=\\frac { 8 } { 5 }\\)，",
+        "\\(\\therefore cos\\angle BOE=cos\\angle OEG=\\frac { EG } { OE }=\\frac { \\frac { 8 } { 5 } } { 2 }=\\frac { 4 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          64
+        ],
+        "solution_block_ids": [
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      64
+    ],
+    "solution_body_blocks": [
+      310,
+      347
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-CFB395958E/paper-q20-p05.webp",
+      "assets/SZ-G9-T2-CFB395958E/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          629.55,
+          583.64,
+          768.64
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-CFB395958E/solution-q20-p17.webp",
+      "assets/SZ-G9-T2-CFB395958E/solution-q20-p18.webp",
+      "assets/SZ-G9-T2-CFB395958E/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          455.91,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          717.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          135.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G10.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 本问题面与解答对应“按指定锐角选择三角函数比”。",
+  "tag_source": "小问标签汇总"
+}

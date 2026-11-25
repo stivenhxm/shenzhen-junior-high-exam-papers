@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q12",{"answer":"\\(10\\text{ m}\\)","solution_steps":["落地时 \\(y=0\\)，故 \\((x-10)(x+4)=0\\)，得到 \\(x=10\\) 或 \\(x=-4\\)。","取实际飞行方向的正值，推出距离为 \\(10\\text{ m}\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

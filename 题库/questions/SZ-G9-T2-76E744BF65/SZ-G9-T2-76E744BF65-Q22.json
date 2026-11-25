@@ -1,0 +1,402 @@
+{
+  "knowledge_ids": [
+    "M.G01.04",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G01.04.01",
+    "E.G01.05.02",
+    "E.G01.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“由截线所成角关系证明平行”。 本问的运算或证明步骤对应“在折线或辅助线图形中传递角关系”。 本问解答对应“利用平行线性质求角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-76E744BF65-Q22",
+  "number": 22,
+  "paper_id": "SZ-G9-T2-76E744BF65",
+  "title": "由截线所成角关系证明平行、在折线或辅助线图形中传递角关系",
+  "stem": "（9分）已知：直线AB∥CD，M，N分别在直线AB，CD上，H为平面内一点，连HM，HN．\n（1）如图1，延长HN至G，∠BMH和∠GND的角平分线相交于点E．求证：2∠MEN﹣∠MHN＝180°；\n（2）如图2，∠BMH和∠HND的角平分线相交于点E．\n①请直接写出∠MEN与∠MHN的数量关系：　 　；\n②作MP平分∠AMH，NQ∥MP交ME的延长线于点Q，若∠H＝140°，求∠ENQ的度数．（可直接运用①中的结论）\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）已知：直线AB∥CD，M，N分别在直线AB，CD上，H为平面内一点，连HM，HN．",
+      "paper_blocks": [
+        890
+      ]
+    },
+    {
+      "id": "fig-940",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        940
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图2，∠BMH和∠HND的角平分线相交于点E．",
+      "paper_blocks": [
+        910
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-76E744BF65-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，延长HN至G，∠BMH和∠GND的角平分线相交于点E．求证：2∠MEN﹣∠MHN＝180°；",
+      "stem_text": "如图1，延长HN至G，∠BMH和∠GND的角平分线相交于点E．求证：2∠MEN﹣∠MHN＝180°；",
+      "material_ids": [
+        "context",
+        "fig-940"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：过点E作EP∥AB交MH于点Q．如答图1\n〔图1〕\n∵EP∥AB且ME平分∠BMH，\n∴∠MEQ＝∠BME＝\\(\\frac { 1 } { 2 }\\)∠BMH．\n∵EP∥AB，AB∥CD，\n∴EP∥CD，又NE平分∠GND，\n∴∠QEN＝∠DNE＝\\(\\frac { 1 } { 2 }\\)∠GND．（两直线平行，内错角相等）\n∴∠MEN＝∠MEQ＋∠QEN＝\\(\\frac { 1 } { 2 }\\)∠BMH＋\\(\\frac { 1 } { 2 }\\)∠GND＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠GND）．\n∴2∠MEN＝∠BMH＋∠GND．\n∵∠GND＋∠DNH＝180°，∠DNH＋∠MHN＝∠MON＝∠BMH．\n∴∠DHN＝∠BMH﹣∠MHN．\n∴∠GND＋∠BMH﹣∠MHN＝180°，\n即2∠MEN﹣∠MHN＝180°．",
+      "solution_steps": [
+        "证明：过点E作EP∥AB交MH于点Q．如答图1",
+        "〔图1〕",
+        "∵EP∥AB且ME平分∠BMH，",
+        "∴∠MEQ＝∠BME＝\\(\\frac { 1 } { 2 }\\)∠BMH．",
+        "∵EP∥AB，AB∥CD，",
+        "∴EP∥CD，又NE平分∠GND，",
+        "∴∠QEN＝∠DNE＝\\(\\frac { 1 } { 2 }\\)∠GND．（两直线平行，内错角相等）",
+        "∴∠MEN＝∠MEQ＋∠QEN＝\\(\\frac { 1 } { 2 }\\)∠BMH＋\\(\\frac { 1 } { 2 }\\)∠GND＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠GND）．",
+        "∴2∠MEN＝∠BMH＋∠GND．",
+        "∵∠GND＋∠DNH＝180°，∠DNH＋∠MHN＝∠MON＝∠BMH．",
+        "∴∠DHN＝∠BMH﹣∠MHN．",
+        "∴∠GND＋∠BMH﹣∠MHN＝180°，",
+        "即2∠MEN﹣∠MHN＝180°．"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          890,
+          900,
+          940
+        ],
+        "solution_block_ids": [
+          2810,
+          2820,
+          2830,
+          2840,
+          2850,
+          2860,
+          2870,
+          2880,
+          2890,
+          2900,
+          2910,
+          2920,
+          2930
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.04"
+      ],
+      "exam_ids": [
+        "E.G01.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问解答对应“由截线所成角关系证明平行”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-76E744BF65-Q22-P02",
+      "label": "（2）①",
+      "prompt": "请直接写出∠MEN与∠MHN的数量关系：　 　；",
+      "stem_text": "请直接写出∠MEN与∠MHN的数量关系：　 　；",
+      "material_ids": [
+        "context",
+        "fig-940",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "2∠MEN＋∠MHN＝360°；",
+      "answer": "2∠MEN＋∠MHN＝360°；",
+      "given_solution": "：过点H作GI∥AB．如答图2\n〔图2〕\n由（1）可得∠MEN＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠HND），\n由图可知∠MHN＝∠MHI＋∠NHI，\n∵GI∥AB，\n∴∠AMH＝∠MHI＝180°﹣∠BMH，\n∵GI∥AB，AB∥CD，\n∴GI∥CD．\n∴∠HNC＝∠NHI＝180°﹣∠HND．\n∴∠AMH＋∠HNC＝180°﹣∠BMH＋180°﹣∠HND＝360°﹣（∠BMH＋∠HND）．\n又∵∠AMH＋∠HNC＝∠MHI＋∠NHI＝∠MHN，\n∴∠BMH＋∠HND＝360°﹣∠MHN．\n即2∠MEN＋∠MHN＝360°．\n故答案为：2∠MEN＋∠MHN＝360°．",
+      "solution_steps": [
+        "：过点H作GI∥AB．如答图2",
+        "〔图2〕",
+        "由（1）可得∠MEN＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠HND），",
+        "由图可知∠MHN＝∠MHI＋∠NHI，",
+        "∵GI∥AB，",
+        "∴∠AMH＝∠MHI＝180°﹣∠BMH，",
+        "∵GI∥AB，AB∥CD，",
+        "∴GI∥CD．",
+        "∴∠HNC＝∠NHI＝180°﹣∠HND．",
+        "∴∠AMH＋∠HNC＝180°﹣∠BMH＋180°﹣∠HND＝360°﹣（∠BMH＋∠HND）．",
+        "又∵∠AMH＋∠HNC＝∠MHI＋∠NHI＝∠MHN，",
+        "∴∠BMH＋∠HND＝360°﹣∠MHN．",
+        "即2∠MEN＋∠MHN＝360°．",
+        "故答案为：2∠MEN＋∠MHN＝360°．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          890,
+          910,
+          920,
+          940
+        ],
+        "solution_block_ids": [
+          2940,
+          2950,
+          2960,
+          2970,
+          2980,
+          2990,
+          3000,
+          3010,
+          3020,
+          3030,
+          3040,
+          3050,
+          3060,
+          3070
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“在折线或辅助线图形中传递角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-76E744BF65-Q22-P03",
+      "label": "（2）②",
+      "prompt": "作MP平分∠AMH，NQ∥MP交ME的延长线于点Q，若∠H＝140°，求∠ENQ的度数．（可直接运用①中的结论）",
+      "stem_text": "作MP平分∠AMH，NQ∥MP交ME的延长线于点Q，若∠H＝140°，求∠ENQ的度数．（可直接运用①中的结论）",
+      "material_ids": [
+        "context",
+        "fig-940",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "20°",
+      "answer": "20°",
+      "given_solution": "：由①的结论得2∠MEN＋∠MHN＝360°，\n∵∠H＝∠MHN＝140°，\n∴2∠MEN＝360°﹣140°＝220°．\n∴∠MEN＝110°．\n过点H作HT∥MP．如答图2\n∵MP∥NQ，\n∴HT∥NQ．\n∴∠ENQ＋∠ENH＋∠NHT＝180°（两直线平行，同旁内角互补）．\n∵MP平分∠AMH，\n∴∠PMH＝\\(\\frac { 1 } { 2 }\\)∠AMH＝\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）．\n∵∠NHT＝∠MHN﹣∠MHT＝140°﹣∠PMH．\n∴∠ENQ＋∠ENH＋140°﹣\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）＝180°．\n∵∠ENH＝\\(\\frac { 1 } { 2 }\\)∠HND．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠HND＋140°﹣90°＋\\(\\frac { 1 } { 2 }\\)∠BMH＝180°．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)（HND＋∠BMH）＝130°．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠MEN＝130°．\n∴∠ENQ＝130°﹣110°＝20°．",
+      "solution_steps": [
+        "：由①的结论得2∠MEN＋∠MHN＝360°，",
+        "∵∠H＝∠MHN＝140°，",
+        "∴2∠MEN＝360°﹣140°＝220°．",
+        "∴∠MEN＝110°．",
+        "过点H作HT∥MP．如答图2",
+        "∵MP∥NQ，",
+        "∴HT∥NQ．",
+        "∴∠ENQ＋∠ENH＋∠NHT＝180°（两直线平行，同旁内角互补）．",
+        "∵MP平分∠AMH，",
+        "∴∠PMH＝\\(\\frac { 1 } { 2 }\\)∠AMH＝\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）．",
+        "∵∠NHT＝∠MHN﹣∠MHT＝140°﹣∠PMH．",
+        "∴∠ENQ＋∠ENH＋140°﹣\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）＝180°．",
+        "∵∠ENH＝\\(\\frac { 1 } { 2 }\\)∠HND．",
+        "∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠HND＋140°﹣90°＋\\(\\frac { 1 } { 2 }\\)∠BMH＝180°．",
+        "∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)（HND＋∠BMH）＝130°．",
+        "∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠MEN＝130°．",
+        "∴∠ENQ＝130°﹣110°＝20°．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          890,
+          910,
+          930,
+          940
+        ],
+        "solution_block_ids": [
+          3080,
+          3090,
+          3100,
+          3110,
+          3120,
+          3130,
+          3140,
+          3150,
+          3160,
+          3170,
+          3180,
+          3190,
+          3200,
+          3210,
+          3220,
+          3230,
+          3240
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问解答对应“利用平行线性质求角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/37/37694359581213e7cc24a26ccded9f1d6d78a0493fc2433706d4178b1ff1de25.png"
+  ],
+  "tables": [],
+  "answer": "（1）见解析；（2）①2∠MEN＋∠MHN＝360°；②20°",
+  "given_answer": "（1）见解析；（2）①2∠MEN＋∠MHN＝360°；②20°",
+  "given_solution": "【分析】（1）过点E作EP∥AB交MH于点Q，利用平行线的性质、角平分线性质、邻补角和为180°，角与角之间的基本运算、等量代换等即可得证．\n（2）①过点H作GI∥AB，利用（1）中结论2∠MEN﹣∠MHN＝180°，利用平行线的性质、角平分线性质、邻补角和为180°，角与角之间的基本运算、等量代换等得出∠AMH＋∠HNC＝360°﹣（∠BMH＋∠HND），进而用等量代换得出2∠MEN＋∠MHN＝360°．\n②过点H作HT∥MP，由①的结论得2∠MEN＋∠MHN＝360°，∠H＝140°，∠MEN＝110°．利用平行线性质得∠ENQ＋∠ENH＋∠NHT＝180°，由角平分线性质及邻补角可得∠ENQ＋∠ENH＋140°﹣\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）＝180°．继续使用等量代换可得∠ENQ度数．\n【详解】解：（1）证明：过点E作EP∥AB交MH于点Q．如答图1\n〔图1〕\n∵EP∥AB且ME平分∠BMH，\n∴∠MEQ＝∠BME＝\\(\\frac { 1 } { 2 }\\)∠BMH．\n∵EP∥AB，AB∥CD，\n∴EP∥CD，又NE平分∠GND，\n∴∠QEN＝∠DNE＝\\(\\frac { 1 } { 2 }\\)∠GND．（两直线平行，内错角相等）\n∴∠MEN＝∠MEQ＋∠QEN＝\\(\\frac { 1 } { 2 }\\)∠BMH＋\\(\\frac { 1 } { 2 }\\)∠GND＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠GND）．\n∴2∠MEN＝∠BMH＋∠GND．\n∵∠GND＋∠DNH＝180°，∠DNH＋∠MHN＝∠MON＝∠BMH．\n∴∠DHN＝∠BMH﹣∠MHN．\n∴∠GND＋∠BMH﹣∠MHN＝180°，\n即2∠MEN﹣∠MHN＝180°．\n（2）①：过点H作GI∥AB．如答图2\n〔图2〕\n由（1）可得∠MEN＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠HND），\n由图可知∠MHN＝∠MHI＋∠NHI，\n∵GI∥AB，\n∴∠AMH＝∠MHI＝180°﹣∠BMH，\n∵GI∥AB，AB∥CD，\n∴GI∥CD．\n∴∠HNC＝∠NHI＝180°﹣∠HND．\n∴∠AMH＋∠HNC＝180°﹣∠BMH＋180°﹣∠HND＝360°﹣（∠BMH＋∠HND）．\n又∵∠AMH＋∠HNC＝∠MHI＋∠NHI＝∠MHN，\n∴∠BMH＋∠HND＝360°﹣∠MHN．\n即2∠MEN＋∠MHN＝360°．\n故答案为：2∠MEN＋∠MHN＝360°．\n②：由①的结论得2∠MEN＋∠MHN＝360°，\n∵∠H＝∠MHN＝140°，\n∴2∠MEN＝360°﹣140°＝220°．\n∴∠MEN＝110°．\n过点H作HT∥MP．如答图2\n∵MP∥NQ，\n∴HT∥NQ．\n∴∠ENQ＋∠ENH＋∠NHT＝180°（两直线平行，同旁内角互补）．\n∵MP平分∠AMH，\n∴∠PMH＝\\(\\frac { 1 } { 2 }\\)∠AMH＝\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）．\n∵∠NHT＝∠MHN﹣∠MHT＝140°﹣∠PMH．\n∴∠ENQ＋∠ENH＋140°﹣\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）＝180°．\n∵∠ENH＝\\(\\frac { 1 } { 2 }\\)∠HND．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠HND＋140°﹣90°＋\\(\\frac { 1 } { 2 }\\)∠BMH＝180°．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)（HND＋∠BMH）＝130°．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠MEN＝130°．\n∴∠ENQ＝130°﹣110°＝20°．\n【点睛】本题考查了平行线的性质，角平分线的性质，邻补角，等量代换，角之间的数量关系运算，辅助线的作法，正确作出辅助线是解题的关键，本题综合性较强．",
+  "given_solution_figures": [
+    "assets/figures/67/677161c15eede5962c64566f12dda64cfa2461a9ee7bfcfb1248f14add1b4ae2.png",
+    "assets/figures/6b/6b05067be0a79f42978b89914239bd0f2de1e68c3653f8e4759df04bfa5ed314.png"
+  ],
+  "solution_steps": [
+    "解：（1）证明：过点E作EP∥AB交MH于点Q．如答图1",
+    "〔图1〕",
+    "∵EP∥AB且ME平分∠BMH，",
+    "∴∠MEQ＝∠BME＝\\(\\frac { 1 } { 2 }\\)∠BMH．",
+    "∵EP∥AB，AB∥CD，",
+    "∴EP∥CD，又NE平分∠GND，",
+    "∴∠QEN＝∠DNE＝\\(\\frac { 1 } { 2 }\\)∠GND．（两直线平行，内错角相等）",
+    "∴∠MEN＝∠MEQ＋∠QEN＝\\(\\frac { 1 } { 2 }\\)∠BMH＋\\(\\frac { 1 } { 2 }\\)∠GND＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠GND）．",
+    "∴2∠MEN＝∠BMH＋∠GND．",
+    "∵∠GND＋∠DNH＝180°，∠DNH＋∠MHN＝∠MON＝∠BMH．",
+    "∴∠DHN＝∠BMH﹣∠MHN．",
+    "∴∠GND＋∠BMH﹣∠MHN＝180°，",
+    "即2∠MEN﹣∠MHN＝180°．",
+    "（2）①：过点H作GI∥AB．如答图2",
+    "〔图2〕",
+    "由（1）可得∠MEN＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠HND），",
+    "由图可知∠MHN＝∠MHI＋∠NHI，",
+    "∵GI∥AB，",
+    "∴∠AMH＝∠MHI＝180°﹣∠BMH，",
+    "∵GI∥AB，AB∥CD，",
+    "∴GI∥CD．",
+    "∴∠HNC＝∠NHI＝180°﹣∠HND．",
+    "∴∠AMH＋∠HNC＝180°﹣∠BMH＋180°﹣∠HND＝360°﹣（∠BMH＋∠HND）．",
+    "又∵∠AMH＋∠HNC＝∠MHI＋∠NHI＝∠MHN，",
+    "∴∠BMH＋∠HND＝360°﹣∠MHN．",
+    "即2∠MEN＋∠MHN＝360°．",
+    "故答案为：2∠MEN＋∠MHN＝360°．",
+    "②：由①的结论得2∠MEN＋∠MHN＝360°，",
+    "∵∠H＝∠MHN＝140°，",
+    "∴2∠MEN＝360°﹣140°＝220°．",
+    "∴∠MEN＝110°．",
+    "过点H作HT∥MP．如答图2",
+    "∵MP∥NQ，",
+    "∴HT∥NQ．",
+    "∴∠ENQ＋∠ENH＋∠NHT＝180°（两直线平行，同旁内角互补）．",
+    "∵MP平分∠AMH，",
+    "∴∠PMH＝\\(\\frac { 1 } { 2 }\\)∠AMH＝\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）．",
+    "∵∠NHT＝∠MHN﹣∠MHT＝140°﹣∠PMH．",
+    "∴∠ENQ＋∠ENH＋140°﹣\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）＝180°．",
+    "∵∠ENH＝\\(\\frac { 1 } { 2 }\\)∠HND．",
+    "∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠HND＋140°﹣90°＋\\(\\frac { 1 } { 2 }\\)∠BMH＝180°．",
+    "∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)（HND＋∠BMH）＝130°．",
+    "∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠MEN＝130°．",
+    "∴∠ENQ＝130°﹣110°＝20°．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "解：（1）证明：过点E作EP∥AB交MH于点Q．如答图1\n〔图1〕\n∵EP∥AB且ME平分∠BMH，\n∴∠MEQ＝∠BME＝\\(\\frac { 1 } { 2 }\\)∠BMH．\n∵EP∥AB，AB∥CD，\n∴EP∥CD，又NE平分∠GND，\n∴∠QEN＝∠DNE＝\\(\\frac { 1 } { 2 }\\)∠GND．（两直线平行，内错角相等）\n∴∠MEN＝∠MEQ＋∠QEN＝\\(\\frac { 1 } { 2 }\\)∠BMH＋\\(\\frac { 1 } { 2 }\\)∠GND＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠GND）．\n∴2∠MEN＝∠BMH＋∠GND．\n∵∠GND＋∠DNH＝180°，∠DNH＋∠MHN＝∠MON＝∠BMH．\n∴∠DHN＝∠BMH﹣∠MHN．\n∴∠GND＋∠BMH﹣∠MHN＝180°，\n即2∠MEN﹣∠MHN＝180°．\n（2）①：过点H作GI∥AB．如答图2\n〔图2〕\n由（1）可得∠MEN＝\\(\\frac { 1 } { 2 }\\)（∠BMH＋∠HND），\n由图可知∠MHN＝∠MHI＋∠NHI，\n∵GI∥AB，\n∴∠AMH＝∠MHI＝180°﹣∠BMH，\n∵GI∥AB，AB∥CD，\n∴GI∥CD．\n∴∠HNC＝∠NHI＝180°﹣∠HND．\n∴∠AMH＋∠HNC＝180°﹣∠BMH＋180°﹣∠HND＝360°﹣（∠BMH＋∠HND）．\n又∵∠AMH＋∠HNC＝∠MHI＋∠NHI＝∠MHN，\n∴∠BMH＋∠HND＝360°﹣∠MHN．\n即2∠MEN＋∠MHN＝360°．\n故答案为：2∠MEN＋∠MHN＝360°．\n②：由①的结论得2∠MEN＋∠MHN＝360°，\n∵∠H＝∠MHN＝140°，\n∴2∠MEN＝360°﹣140°＝220°．\n∴∠MEN＝110°．\n过点H作HT∥MP．如答图2\n∵MP∥NQ，\n∴HT∥NQ．\n∴∠ENQ＋∠ENH＋∠NHT＝180°（两直线平行，同旁内角互补）．\n∵MP平分∠AMH，\n∴∠PMH＝\\(\\frac { 1 } { 2 }\\)∠AMH＝\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）．\n∵∠NHT＝∠MHN﹣∠MHT＝140°﹣∠PMH．\n∴∠ENQ＋∠ENH＋140°﹣\\(\\frac { 1 } { 2 }\\)（180°﹣∠BMH）＝180°．\n∵∠ENH＝\\(\\frac { 1 } { 2 }\\)∠HND．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠HND＋140°﹣90°＋\\(\\frac { 1 } { 2 }\\)∠BMH＝180°．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)（HND＋∠BMH）＝130°．\n∴∠ENQ＋\\(\\frac { 1 } { 2 }\\)∠MEN＝130°．\n∴∠ENQ＝130°﹣110°＝20°．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-76E744BF65/single/q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          240.75,
+          582.2,
+          546.4
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-76E744BF65/single/s22-p13.webp",
+      "assets/SZ-G9-T2-76E744BF65/single/s22-p14.webp",
+      "assets/SZ-G9-T2-76E744BF65/single/s22-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          365.31,
+          582.2,
+          746.62
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          770.09
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.2,
+          535.74
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

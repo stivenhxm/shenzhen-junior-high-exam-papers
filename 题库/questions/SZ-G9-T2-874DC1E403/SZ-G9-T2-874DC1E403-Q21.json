@@ -1,0 +1,131 @@
+{
+  "id": "SZ-G9-T2-874DC1E403-Q21",
+  "paper_id": "SZ-G9-T2-874DC1E403",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "分解组合图形求边角",
+  "stem": "项目化学习\n项目主题：为学校图书馆设计无障碍通道．\n项目背景：2023年6月28日，我国颁布《中华人民共和国无障碍环境建设法》．某校“综合与实践”小组以“为学校图书馆设计无障碍通道”为主题展开项目学习．\n〔图1〕\n研究步骤：（1）查阅资料得知，无障碍通道有三种类型：直线形、直角形、折返形；\n（2）实地测量图书馆门口场地的大小；\n（3）为了方便师生出入图书馆，并尽量减少通道对师生其它通行的影响，研讨认为设计折返形无障碍通道比较合适．\n设计方案：“综合与实践”小组为该校图书馆设计的无障碍通道如图2所示，其中\\(MN\\)为地面所在水平线，\\(CD\\)和\\(DF\\)是无障碍通道，并且\\(\\angle CDF=2\\angle DFE\\)，立柱\\(CG\\)，\\(DE\\)均垂直于地面，\\(GE=6\\)米，\\(FE=4\\)米．\n解决问题：若原台阶坡道的长度（线段\\(AB\\)的长度）为5米，坡角\\(\\alpha\\)的度数为\\(23{}^\\circ\\)，\\(BC\\parallel MN\\)，求出无障碍通道的总长（线段\\(CD\\)和\\(DF\\)的和）为多少米？（结果保留根号．参考数据：\\(sin23{}^\\circ \\approx 0.40\\)，\\(cos23{}^\\circ \\approx 0.92\\)，\\(tan23{}^\\circ \\approx 0.42\\)）",
+  "choices": [],
+  "figures": [
+    "assets/figures/42/427c155b6e8083d5b918aa456354f892eaad51b51ed2951e616b24a5703b98ac.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(2\\sqrt[] { 26 }\\)米",
+  "answer": "\\(2\\sqrt[] { 26 }\\)米",
+  "given_solution": "【分析】延长\\(MN\\)，\\(CD\\)，交于点H，过点B作\\(BK\\bot MN\\)于点K，证明四边形\\(BCGK\\)为矩形，得出\\(BK=CG\\)，解直角三角形求出\\(BK=AB\\times sin\\alpha =5\\times sin23{}^\\circ \\approx 2\\)（米），得出\\(DF=DH\\)，根据等腰三角形的性质得出\\(EH=EF=4\\)米，根据勾股定理求出\\(CH=\\sqrt[] { CG ^ { 2 } +GH ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +10 ^ { 2 } }=2\\sqrt[] { 26 }\\)（米），得出结果即可．\n【详解】解：延长\\(MN\\)，\\(CD\\)，交于点H，过点B作\\(BK\\bot MN\\)于点K，如图所示：\n〔图2〕\n则\\(\\angle BKG=\\angle BKA=90{}^\\circ\\)，\n∵\\(BC\\parallel MN\\)，\n∴\\(\\angle KBC=180{}^\\circ -\\angle BKG=90{}^\\circ\\)，\n∵\\(CG\\bot MN\\)，\n∴\\(\\angle CGK=\\angle CGH=90{}^\\circ\\)，\n∴\\(\\angle BKG=\\angle CGK=\\angle CBK=90{}^\\circ\\)，\n∴四边形\\(BCGK\\)为矩形，\n∴\\(BK=CG\\)，\n∵\\(AB=5\\)米，\\(\\alpha =23{}^\\circ\\)，\n∴\\(BK=AB\\times sin\\alpha =5\\times sin23{}^\\circ \\approx 2\\)（米），\n∴\\(CG=2\\)米，\n∵\\(\\angle CDF=2\\angle DFE\\)，\\(\\angle CDF=\\angle DFE+\\angle DHE\\)，\n∴\\(\\angle DFE=\\angle DHE\\)，\n∴\\(DF=DH\\)，\n∵\\(DE\\bot FH\\)，\n∴\\(EH=EF=4\\)米，\n∴\\(GH=GE+EH=6+4=10\\)（米），\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CGH\\)中，根据勾股定理得：\n\\(CH=\\sqrt[] { CG ^ { 2 } +GH ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +10 ^ { 2 } }=2\\sqrt[] { 26 }\\)（米），\n∴\\(CD+DF=CD+DH=CH=2\\sqrt[] { 26 }\\)米．\n【点睛】本题主要考查了矩形的判定和性质，解直角三角形，勾股定理，等腰三角形的判定和性质，平行线的性质，解题的关键是作出辅助线，熟练掌握相关的判定和性质．",
+  "given_solution_figures": [
+    "assets/figures/42/427c155b6e8083d5b918aa456354f892eaad51b51ed2951e616b24a5703b98ac.png",
+    "assets/figures/b5/b521bc81b9185be5f72a1a888e9c632dd427b218b7317f3c0b7222d7947fb5b8.png"
+  ],
+  "solution": "解：延长\\(MN\\)，\\(CD\\)，交于点H，过点B作\\(BK\\bot MN\\)于点K，如图所示：\n〔图2〕\n则\\(\\angle BKG=\\angle BKA=90{}^\\circ\\)，\n∵\\(BC\\parallel MN\\)，\n∴\\(\\angle KBC=180{}^\\circ -\\angle BKG=90{}^\\circ\\)，\n∵\\(CG\\bot MN\\)，\n∴\\(\\angle CGK=\\angle CGH=90{}^\\circ\\)，\n∴\\(\\angle BKG=\\angle CGK=\\angle CBK=90{}^\\circ\\)，\n∴四边形\\(BCGK\\)为矩形，\n∴\\(BK=CG\\)，\n∵\\(AB=5\\)米，\\(\\alpha =23{}^\\circ\\)，\n∴\\(BK=AB\\times sin\\alpha =5\\times sin23{}^\\circ \\approx 2\\)（米），\n∴\\(CG=2\\)米，\n∵\\(\\angle CDF=2\\angle DFE\\)，\\(\\angle CDF=\\angle DFE+\\angle DHE\\)，\n∴\\(\\angle DFE=\\angle DHE\\)，\n∴\\(DF=DH\\)，\n∵\\(DE\\bot FH\\)，\n∴\\(EH=EF=4\\)米，\n∴\\(GH=GE+EH=6+4=10\\)（米），\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CGH\\)中，根据勾股定理得：\n\\(CH=\\sqrt[] { CG ^ { 2 } +GH ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +10 ^ { 2 } }=2\\sqrt[] { 26 }\\)（米），\n∴\\(CD+DF=CD+DH=CH=2\\sqrt[] { 26 }\\)米．",
+  "solution_steps": [
+    "解：延长\\(MN\\)，\\(CD\\)，交于点H，过点B作\\(BK\\bot MN\\)于点K，如图所示：",
+    "〔图2〕",
+    "则\\(\\angle BKG=\\angle BKA=90{}^\\circ\\)，",
+    "∵\\(BC\\parallel MN\\)，",
+    "∴\\(\\angle KBC=180{}^\\circ -\\angle BKG=90{}^\\circ\\)，",
+    "∵\\(CG\\bot MN\\)，",
+    "∴\\(\\angle CGK=\\angle CGH=90{}^\\circ\\)，",
+    "∴\\(\\angle BKG=\\angle CGK=\\angle CBK=90{}^\\circ\\)，",
+    "∴四边形\\(BCGK\\)为矩形，",
+    "∴\\(BK=CG\\)，",
+    "∵\\(AB=5\\)米，\\(\\alpha =23{}^\\circ\\)，",
+    "∴\\(BK=AB\\times sin\\alpha =5\\times sin23{}^\\circ \\approx 2\\)（米），",
+    "∴\\(CG=2\\)米，",
+    "∵\\(\\angle CDF=2\\angle DFE\\)，\\(\\angle CDF=\\angle DFE+\\angle DHE\\)，",
+    "∴\\(\\angle DFE=\\angle DHE\\)，",
+    "∴\\(DF=DH\\)，",
+    "∵\\(DE\\bot FH\\)，",
+    "∴\\(EH=EF=4\\)米，",
+    "∴\\(GH=GE+EH=6+4=10\\)（米），",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CGH\\)中，根据勾股定理得：",
+    "\\(CH=\\sqrt[] { CG ^ { 2 } +GH ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +10 ^ { 2 } }=2\\sqrt[] { 26 }\\)（米），",
+    "∴\\(CD+DF=CD+DH=CH=2\\sqrt[] { 26 }\\)米．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      75,
+      83
+    ],
+    "solution_body_blocks": [
+      340,
+      374
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-874DC1E403/paper-q21-p06.webp",
+      "assets/SZ-G9-T2-874DC1E403/paper-q21-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          666.36,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          399.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-874DC1E403/solution-q21-p20.webp",
+      "assets/SZ-G9-T2-874DC1E403/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          434.09,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          455.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G10.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,426 @@
+{
+  "id": "SZ-G9-T1-7D81B88BCD-Q20",
+  "paper_id": "SZ-G9-T1-7D81B88BCD",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、由相似比求对应线段或周长",
+  "stem": "【特例感知】\n（1）如图1，在正方形\\(ABCD\\)中，点P在边\\(AB\\)的延长线上，连接\\(PD\\)，过点D作\\(DM\\bot PD\\)，交\\(BC\\)的延长线于点M．求证：\\(\\vartriangle DAP≌\\vartriangle DCM\\)．\n【变式求异】\n（2）如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，点D在边\\(AB\\)上，过点D作\\(DQ\\bot AB\\)，交\\(AC\\)于点Q，点P在边\\(AB\\)的延长线上，连接\\(PQ\\)，过点Q作\\(QM\\bot PQ\\)，交射线\\(BC\\)于点M．已知\\(BC=8\\)，\\(AC=10\\)，\\(AD=2DB\\)，求\\(\\frac { PQ } { QM }\\)的值．\n【拓展应用】\n（3）如图3，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，点P在边\\(AB\\)的延长线上，点Q在边\\(AC\\)上（不与点A，C重合），连接\\(PQ\\)，以Q为顶点作\\(\\angle PQM=\\angle PBC\\)，\\(\\angle PQM\\)的边\\(QM\\)交射线\\(BC\\)于点M．若\\(AC=mAB\\)，\\(CQ=nAC\\)（m，n是常数），求\\(\\frac { PQ } { QM }\\)的值（用含m，n的代数式表示）．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7D81B88BCD/figures/91ed3f804d53d4d6212a7c1b4a384f51df5f7343edfa3c61ad471f35cbba86c7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(\\frac { 8 } { 3 }\\)；（3）\\(\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)",
+  "answer": "（1）见解析；（2）\\(\\frac { 8 } { 3 }\\)；（3）\\(\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)",
+  "given_solution": "【分析】（1）根据\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)证明\\(\\vartriangle DAP≌\\vartriangle DCM\\)即可；\n（2）证明\\(\\vartriangle DQP\\backsim \\vartriangle NQM\\)，得出\\(\\frac { PQ } { QM }=\\frac { DQ } { QN }=\\frac { DQ } { DB }\\)，根据勾股定理\\(AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=6\\)，根据\\(DQ\\parallel BC\\)，得出\\(\\vartriangle ADQ\\backsim \\vartriangle ABC\\)，求出\\(\\frac { DQ } { BC }=\\frac { AD } { AB }=\\frac { 2 } { 3 }\\)，得出\\(DQ=\\frac { 16 } { 3 }\\)，求出\\(\\frac { PQ } { QM }=\\frac { DQ } { DB }=\\frac { 8 } { 3 }\\)；\n（3）\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 1+m ^ { 2 } }AB\\)，作\\(QN\\bot BC\\)于点N，证明\\(\\vartriangle QAP\\backsim \\vartriangle QNM\\)，得出\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }\\)．证明\\(\\vartriangle QCN\\backsim \\vartriangle BCA\\)，得出\\(\\frac { QN } { BA }=\\frac { CQ } { CB }=\\frac { mnAB } { \\sqrt[] { 1+m ^ { 2 } }AB }=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }\\)，求出\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }=\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)．\n【详解】（1）证明：在正方形\\(ABCD\\)中，\n\\(\\angle A=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\\(AD=DC\\)，\n∴\\(\\angle A=\\angle DCM=90{}^\\circ\\)，\n∵\\(DM\\bot PD\\)，\n∴\\(\\angle ADP+\\angle PDC=\\angle CDM+\\angle PDC=90{}^\\circ\\)，\n∴\\(\\angle ADP=\\angle CDM\\)，\n∴\\(\\vartriangle DAP≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)．\n（2）如图1，作\\(QN\\bot BC\\)于点N，如图所示：\n〔图2〕\n∵\\(\\angle ABC=90{}^\\circ\\)，\\(DQ\\bot AB\\)，\n∴四边形\\(DBNQ\\)是矩形，\n∴\\(\\angle DQN=90{}^\\circ\\)，\\(QN=DB\\)，\n∵\\(QM\\bot PQ\\)，\n∴\\(\\angle DQP+\\angle PQN=\\angle MQN+\\angle PQN=90{}^\\circ\\)，\n∴\\(\\angle DQP=\\angle MQN\\)，\n∵\\(\\angle QDP=\\angle QNM=90{}^\\circ\\)，\n∴\\(\\vartriangle DQP\\backsim \\vartriangle NQM\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { DQ } { QN }=\\frac { DQ } { DB }\\)，\n∵\\(BC=8\\)，\\(AC=10\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=6\\)，\n∵\\(AD=2DB\\)，\n∴\\(DB=2\\)，\n∵\\(\\angle ADQ=\\angle ABC=90{}^\\circ\\)，\n∴\\(DQ\\parallel BC\\)，\n∴\\(\\vartriangle ADQ\\backsim \\vartriangle ABC\\)，\n∴\\(\\frac { DQ } { BC }=\\frac { AD } { AB }=\\frac { 2 } { 3 }\\)，\n∴\\(DQ=\\frac { 16 } { 3 }\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { DQ } { DB }=\\frac { 8 } { 3 }\\)；\n（3）∵\\(AC=mAB\\)，\\(CO=nAC\\) ，\n∴\\(CQ=mnAB\\)，\n∴\\(AQ=AC-CQ=\\left ( { m-mn } \\right )AB\\)．\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 1+m ^ { 2 } }AB\\)，\n如图2，作\\(QN\\bot BC\\)于点N，\n〔图3〕\n∵\\(\\angle A+\\angle ABN+\\angle BNQ+\\angle AQN=360{}^\\circ\\)，\n∴\\(\\angle ABN+\\angle AQN=180{}^\\circ\\)，\n∴\\(\\angle AQN=\\angle PBN\\)．\n∵\\(\\angle PQM=\\angle PBC\\)，\n∴\\(\\angle PQM=\\angle AQN\\)，\n∴\\(\\angle AQP=\\angle NQM\\)，\n∵\\(\\angle A=\\angle QNM=90{}^\\circ\\)，\n∴\\(\\vartriangle QAP\\backsim \\vartriangle QNM\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }\\)．\n∵\\(\\angle A=\\angle QNC=90{}^\\circ\\)，\\(\\angle QCN=\\angle BCA\\)，\n∴\\(\\vartriangle QCN\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { QN } { BA }=\\frac { CQ } { CB }=\\frac { mnAB } { \\sqrt[] { 1+m ^ { 2 } }AB }=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }\\)，\n∴\\(QN=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }AB\\)\n∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }=\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)．\n【点睛】本题主要考查了三角形全等和三角形相似的判定和性质，勾股定理，矩形的判定和性质，平行线的判定和性质，解题的关键是作出辅助线，熟练掌握三角形相似的判定方法．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7D81B88BCD/figures/91ed3f804d53d4d6212a7c1b4a384f51df5f7343edfa3c61ad471f35cbba86c7.png",
+    "assets/SZ-G9-T1-7D81B88BCD/figures/1d2c29f205ae6093d9b4761733bb0566524f3ea8b56bce009d6781cb88ba73f5.png",
+    "assets/SZ-G9-T1-7D81B88BCD/figures/8091ff4a9f1b7264cfc0bc314d58d27dffab76f92e7a2078bef29490eec9307b.png"
+  ],
+  "solution": "（1）证明：在正方形\\(ABCD\\)中，\n\\(\\angle A=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\\(AD=DC\\)，\n∴\\(\\angle A=\\angle DCM=90{}^\\circ\\)，\n∵\\(DM\\bot PD\\)，\n∴\\(\\angle ADP+\\angle PDC=\\angle CDM+\\angle PDC=90{}^\\circ\\)，\n∴\\(\\angle ADP=\\angle CDM\\)，\n∴\\(\\vartriangle DAP≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)．\n（2）如图1，作\\(QN\\bot BC\\)于点N，如图所示：\n〔图2〕\n∵\\(\\angle ABC=90{}^\\circ\\)，\\(DQ\\bot AB\\)，\n∴四边形\\(DBNQ\\)是矩形，\n∴\\(\\angle DQN=90{}^\\circ\\)，\\(QN=DB\\)，\n∵\\(QM\\bot PQ\\)，\n∴\\(\\angle DQP+\\angle PQN=\\angle MQN+\\angle PQN=90{}^\\circ\\)，\n∴\\(\\angle DQP=\\angle MQN\\)，\n∵\\(\\angle QDP=\\angle QNM=90{}^\\circ\\)，\n∴\\(\\vartriangle DQP\\backsim \\vartriangle NQM\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { DQ } { QN }=\\frac { DQ } { DB }\\)，\n∵\\(BC=8\\)，\\(AC=10\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=6\\)，\n∵\\(AD=2DB\\)，\n∴\\(DB=2\\)，\n∵\\(\\angle ADQ=\\angle ABC=90{}^\\circ\\)，\n∴\\(DQ\\parallel BC\\)，\n∴\\(\\vartriangle ADQ\\backsim \\vartriangle ABC\\)，\n∴\\(\\frac { DQ } { BC }=\\frac { AD } { AB }=\\frac { 2 } { 3 }\\)，\n∴\\(DQ=\\frac { 16 } { 3 }\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { DQ } { DB }=\\frac { 8 } { 3 }\\)；\n（3）∵\\(AC=mAB\\)，\\(CO=nAC\\) ，\n∴\\(CQ=mnAB\\)，\n∴\\(AQ=AC-CQ=\\left ( { m-mn } \\right )AB\\)．\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 1+m ^ { 2 } }AB\\)，\n如图2，作\\(QN\\bot BC\\)于点N，\n〔图3〕\n∵\\(\\angle A+\\angle ABN+\\angle BNQ+\\angle AQN=360{}^\\circ\\)，\n∴\\(\\angle ABN+\\angle AQN=180{}^\\circ\\)，\n∴\\(\\angle AQN=\\angle PBN\\)．\n∵\\(\\angle PQM=\\angle PBC\\)，\n∴\\(\\angle PQM=\\angle AQN\\)，\n∴\\(\\angle AQP=\\angle NQM\\)，\n∵\\(\\angle A=\\angle QNM=90{}^\\circ\\)，\n∴\\(\\vartriangle QAP\\backsim \\vartriangle QNM\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }\\)．\n∵\\(\\angle A=\\angle QNC=90{}^\\circ\\)，\\(\\angle QCN=\\angle BCA\\)，\n∴\\(\\vartriangle QCN\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { QN } { BA }=\\frac { CQ } { CB }=\\frac { mnAB } { \\sqrt[] { 1+m ^ { 2 } }AB }=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }\\)，\n∴\\(QN=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }AB\\)\n∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }=\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)．",
+  "solution_steps": [
+    "（1）证明：在正方形\\(ABCD\\)中，",
+    "\\(\\angle A=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\\(AD=DC\\)，",
+    "∴\\(\\angle A=\\angle DCM=90{}^\\circ\\)，",
+    "∵\\(DM\\bot PD\\)，",
+    "∴\\(\\angle ADP+\\angle PDC=\\angle CDM+\\angle PDC=90{}^\\circ\\)，",
+    "∴\\(\\angle ADP=\\angle CDM\\)，",
+    "∴\\(\\vartriangle DAP≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)．",
+    "（2）如图1，作\\(QN\\bot BC\\)于点N，如图所示：",
+    "〔图2〕",
+    "∵\\(\\angle ABC=90{}^\\circ\\)，\\(DQ\\bot AB\\)，",
+    "∴四边形\\(DBNQ\\)是矩形，",
+    "∴\\(\\angle DQN=90{}^\\circ\\)，\\(QN=DB\\)，",
+    "∵\\(QM\\bot PQ\\)，",
+    "∴\\(\\angle DQP+\\angle PQN=\\angle MQN+\\angle PQN=90{}^\\circ\\)，",
+    "∴\\(\\angle DQP=\\angle MQN\\)，",
+    "∵\\(\\angle QDP=\\angle QNM=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle DQP\\backsim \\vartriangle NQM\\)，",
+    "∴\\(\\frac { PQ } { QM }=\\frac { DQ } { QN }=\\frac { DQ } { DB }\\)，",
+    "∵\\(BC=8\\)，\\(AC=10\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=6\\)，",
+    "∵\\(AD=2DB\\)，",
+    "∴\\(DB=2\\)，",
+    "∵\\(\\angle ADQ=\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(DQ\\parallel BC\\)，",
+    "∴\\(\\vartriangle ADQ\\backsim \\vartriangle ABC\\)，",
+    "∴\\(\\frac { DQ } { BC }=\\frac { AD } { AB }=\\frac { 2 } { 3 }\\)，",
+    "∴\\(DQ=\\frac { 16 } { 3 }\\)，",
+    "∴\\(\\frac { PQ } { QM }=\\frac { DQ } { DB }=\\frac { 8 } { 3 }\\)；",
+    "（3）∵\\(AC=mAB\\)，\\(CO=nAC\\) ，",
+    "∴\\(CQ=mnAB\\)，",
+    "∴\\(AQ=AC-CQ=\\left ( { m-mn } \\right )AB\\)．",
+    "∵\\(\\angle BAC=90{}^\\circ\\)，",
+    "∴\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 1+m ^ { 2 } }AB\\)，",
+    "如图2，作\\(QN\\bot BC\\)于点N，",
+    "〔图3〕",
+    "∵\\(\\angle A+\\angle ABN+\\angle BNQ+\\angle AQN=360{}^\\circ\\)，",
+    "∴\\(\\angle ABN+\\angle AQN=180{}^\\circ\\)，",
+    "∴\\(\\angle AQN=\\angle PBN\\)．",
+    "∵\\(\\angle PQM=\\angle PBC\\)，",
+    "∴\\(\\angle PQM=\\angle AQN\\)，",
+    "∴\\(\\angle AQP=\\angle NQM\\)，",
+    "∵\\(\\angle A=\\angle QNM=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle QAP\\backsim \\vartriangle QNM\\)，",
+    "∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }\\)．",
+    "∵\\(\\angle A=\\angle QNC=90{}^\\circ\\)，\\(\\angle QCN=\\angle BCA\\)，",
+    "∴\\(\\vartriangle QCN\\backsim \\vartriangle BCA\\)，",
+    "∴\\(\\frac { QN } { BA }=\\frac { CQ } { CB }=\\frac { mnAB } { \\sqrt[] { 1+m ^ { 2 } }AB }=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }\\)，",
+    "∴\\(QN=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }AB\\)",
+    "∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }=\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【特例感知】",
+      "paper_blocks": [
+        70
+      ]
+    },
+    {
+      "id": "fig-76",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        76
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7D81B88BCD-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，在正方形\\(ABCD\\)中，点P在边\\(AB\\)的延长线上，连接\\(PD\\)，过点D作\\(DM\\bot PD\\)，交\\(BC\\)的延长线于点M．求证：\\(\\vartriangle DAP≌\\vartriangle DCM\\)．\n【变式求异】",
+      "stem_text": "如图1，在正方形\\(ABCD\\)中，点P在边\\(AB\\)的延长线上，连接\\(PD\\)，过点D作\\(DM\\bot PD\\)，交\\(BC\\)的延长线于点M．求证：\\(\\vartriangle DAP≌\\vartriangle DCM\\)．\n【变式求异】",
+      "material_ids": [
+        "context",
+        "fig-76"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：在正方形\\(ABCD\\)中，\n\\(\\angle A=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\\(AD=DC\\)，\n∴\\(\\angle A=\\angle DCM=90{}^\\circ\\)，\n∵\\(DM\\bot PD\\)，\n∴\\(\\angle ADP+\\angle PDC=\\angle CDM+\\angle PDC=90{}^\\circ\\)，\n∴\\(\\angle ADP=\\angle CDM\\)，\n∴\\(\\vartriangle DAP≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)．",
+      "solution_steps": [
+        "证明：在正方形\\(ABCD\\)中，",
+        "\\(\\angle A=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\\(AD=DC\\)，",
+        "∴\\(\\angle A=\\angle DCM=90{}^\\circ\\)，",
+        "∵\\(DM\\bot PD\\)，",
+        "∴\\(\\angle ADP+\\angle PDC=\\angle CDM+\\angle PDC=90{}^\\circ\\)，",
+        "∴\\(\\angle ADP=\\angle CDM\\)，",
+        "∴\\(\\vartriangle DAP≌\\vartriangle DCM\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72,
+          76
+        ],
+        "solution_block_ids": [
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7D81B88BCD-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，点D在边\\(AB\\)上，过点D作\\(DQ\\bot AB\\)，交\\(AC\\)于点Q，点P在边\\(AB\\)的延长线上，连接\\(PQ\\)，过点Q作\\(QM\\bot PQ\\)，交射线\\(BC\\)于点M．已知\\(BC=8\\)，\\(AC=10\\)，\\(AD=2DB\\)，求\\(\\frac { PQ } { QM }\\)的值．\n【拓展应用】",
+      "stem_text": "如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，点D在边\\(AB\\)上，过点D作\\(DQ\\bot AB\\)，交\\(AC\\)于点Q，点P在边\\(AB\\)的延长线上，连接\\(PQ\\)，过点Q作\\(QM\\bot PQ\\)，交射线\\(BC\\)于点M．已知\\(BC=8\\)，\\(AC=10\\)，\\(AD=2DB\\)，求\\(\\frac { PQ } { QM }\\)的值．\n【拓展应用】",
+      "material_ids": [
+        "context",
+        "fig-76"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 8 } { 3 }\\)；",
+      "answer": "\\(\\frac { 8 } { 3 }\\)；",
+      "given_solution": "如图1，作\\(QN\\bot BC\\)于点N，如图所示：\n〔图2〕\n∵\\(\\angle ABC=90{}^\\circ\\)，\\(DQ\\bot AB\\)，\n∴四边形\\(DBNQ\\)是矩形，\n∴\\(\\angle DQN=90{}^\\circ\\)，\\(QN=DB\\)，\n∵\\(QM\\bot PQ\\)，\n∴\\(\\angle DQP+\\angle PQN=\\angle MQN+\\angle PQN=90{}^\\circ\\)，\n∴\\(\\angle DQP=\\angle MQN\\)，\n∵\\(\\angle QDP=\\angle QNM=90{}^\\circ\\)，\n∴\\(\\vartriangle DQP\\backsim \\vartriangle NQM\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { DQ } { QN }=\\frac { DQ } { DB }\\)，\n∵\\(BC=8\\)，\\(AC=10\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=6\\)，\n∵\\(AD=2DB\\)，\n∴\\(DB=2\\)，\n∵\\(\\angle ADQ=\\angle ABC=90{}^\\circ\\)，\n∴\\(DQ\\parallel BC\\)，\n∴\\(\\vartriangle ADQ\\backsim \\vartriangle ABC\\)，\n∴\\(\\frac { DQ } { BC }=\\frac { AD } { AB }=\\frac { 2 } { 3 }\\)，\n∴\\(DQ=\\frac { 16 } { 3 }\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { DQ } { DB }=\\frac { 8 } { 3 }\\)；",
+      "solution_steps": [
+        "如图1，作\\(QN\\bot BC\\)于点N，如图所示：",
+        "〔图2〕",
+        "∵\\(\\angle ABC=90{}^\\circ\\)，\\(DQ\\bot AB\\)，",
+        "∴四边形\\(DBNQ\\)是矩形，",
+        "∴\\(\\angle DQN=90{}^\\circ\\)，\\(QN=DB\\)，",
+        "∵\\(QM\\bot PQ\\)，",
+        "∴\\(\\angle DQP+\\angle PQN=\\angle MQN+\\angle PQN=90{}^\\circ\\)，",
+        "∴\\(\\angle DQP=\\angle MQN\\)，",
+        "∵\\(\\angle QDP=\\angle QNM=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle DQP\\backsim \\vartriangle NQM\\)，",
+        "∴\\(\\frac { PQ } { QM }=\\frac { DQ } { QN }=\\frac { DQ } { DB }\\)，",
+        "∵\\(BC=8\\)，\\(AC=10\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=6\\)，",
+        "∵\\(AD=2DB\\)，",
+        "∴\\(DB=2\\)，",
+        "∵\\(\\angle ADQ=\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(DQ\\parallel BC\\)，",
+        "∴\\(\\vartriangle ADQ\\backsim \\vartriangle ABC\\)，",
+        "∴\\(\\frac { DQ } { BC }=\\frac { AD } { AB }=\\frac { 2 } { 3 }\\)，",
+        "∴\\(DQ=\\frac { 16 } { 3 }\\)，",
+        "∴\\(\\frac { PQ } { QM }=\\frac { DQ } { DB }=\\frac { 8 } { 3 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          73,
+          74,
+          76
+        ],
+        "solution_block_ids": [
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7D81B88BCD-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图3，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，点P在边\\(AB\\)的延长线上，点Q在边\\(AC\\)上（不与点A，C重合），连接\\(PQ\\)，以Q为顶点作\\(\\angle PQM=\\angle PBC\\)，\\(\\angle PQM\\)的边\\(QM\\)交射线\\(BC\\)于点M．若\\(AC=mAB\\)，\\(CQ=nAC\\)（m，n是常数），求\\(\\frac { PQ } { QM }\\)的值（用含m，n的代数式表示）．",
+      "stem_text": "如图3，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，点P在边\\(AB\\)的延长线上，点Q在边\\(AC\\)上（不与点A，C重合），连接\\(PQ\\)，以Q为顶点作\\(\\angle PQM=\\angle PBC\\)，\\(\\angle PQM\\)的边\\(QM\\)交射线\\(BC\\)于点M．若\\(AC=mAB\\)，\\(CQ=nAC\\)（m，n是常数），求\\(\\frac { PQ } { QM }\\)的值（用含m，n的代数式表示）．",
+      "material_ids": [
+        "context",
+        "fig-76"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)",
+      "answer": "\\(\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)",
+      "given_solution": "∵\\(AC=mAB\\)，\\(CO=nAC\\) ，\n∴\\(CQ=mnAB\\)，\n∴\\(AQ=AC-CQ=\\left ( { m-mn } \\right )AB\\)．\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 1+m ^ { 2 } }AB\\)，\n如图2，作\\(QN\\bot BC\\)于点N，\n〔图3〕\n∵\\(\\angle A+\\angle ABN+\\angle BNQ+\\angle AQN=360{}^\\circ\\)，\n∴\\(\\angle ABN+\\angle AQN=180{}^\\circ\\)，\n∴\\(\\angle AQN=\\angle PBN\\)．\n∵\\(\\angle PQM=\\angle PBC\\)，\n∴\\(\\angle PQM=\\angle AQN\\)，\n∴\\(\\angle AQP=\\angle NQM\\)，\n∵\\(\\angle A=\\angle QNM=90{}^\\circ\\)，\n∴\\(\\vartriangle QAP\\backsim \\vartriangle QNM\\)，\n∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }\\)．\n∵\\(\\angle A=\\angle QNC=90{}^\\circ\\)，\\(\\angle QCN=\\angle BCA\\)，\n∴\\(\\vartriangle QCN\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { QN } { BA }=\\frac { CQ } { CB }=\\frac { mnAB } { \\sqrt[] { 1+m ^ { 2 } }AB }=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }\\)，\n∴\\(QN=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }AB\\)\n∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }=\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)．",
+      "solution_steps": [
+        "∵\\(AC=mAB\\)，\\(CO=nAC\\) ，",
+        "∴\\(CQ=mnAB\\)，",
+        "∴\\(AQ=AC-CQ=\\left ( { m-mn } \\right )AB\\)．",
+        "∵\\(\\angle BAC=90{}^\\circ\\)，",
+        "∴\\(BC=\\sqrt[] { AB ^ { 2 } +AC ^ { 2 } }=\\sqrt[] { 1+m ^ { 2 } }AB\\)，",
+        "如图2，作\\(QN\\bot BC\\)于点N，",
+        "〔图3〕",
+        "∵\\(\\angle A+\\angle ABN+\\angle BNQ+\\angle AQN=360{}^\\circ\\)，",
+        "∴\\(\\angle ABN+\\angle AQN=180{}^\\circ\\)，",
+        "∴\\(\\angle AQN=\\angle PBN\\)．",
+        "∵\\(\\angle PQM=\\angle PBC\\)，",
+        "∴\\(\\angle PQM=\\angle AQN\\)，",
+        "∴\\(\\angle AQP=\\angle NQM\\)，",
+        "∵\\(\\angle A=\\angle QNM=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle QAP\\backsim \\vartriangle QNM\\)，",
+        "∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }\\)．",
+        "∵\\(\\angle A=\\angle QNC=90{}^\\circ\\)，\\(\\angle QCN=\\angle BCA\\)，",
+        "∴\\(\\vartriangle QCN\\backsim \\vartriangle BCA\\)，",
+        "∴\\(\\frac { QN } { BA }=\\frac { CQ } { CB }=\\frac { mnAB } { \\sqrt[] { 1+m ^ { 2 } }AB }=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }\\)，",
+        "∴\\(QN=\\frac { mn } { \\sqrt[] { 1+m ^ { 2 } } }AB\\)",
+        "∴\\(\\frac { PQ } { QM }=\\frac { AQ } { NQ }=\\frac { 1-n } { n }\\sqrt[] { 1+m ^ { 2 } }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      76
+    ],
+    "solution_body_blocks": [
+      382,
+      443
+    ],
+    "question_pages": [
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7D81B88BCD/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          105.91,
+          583.64,
+          510.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7D81B88BCD/solution-q20-p23.webp",
+      "assets/SZ-G9-T1-7D81B88BCD/solution-q20-p24.webp",
+      "assets/SZ-G9-T1-7D81B88BCD/solution-q20-p25.webp",
+      "assets/SZ-G9-T1-7D81B88BCD/solution-q20-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          624.09,
+          583.64,
+          740.91
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          525.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

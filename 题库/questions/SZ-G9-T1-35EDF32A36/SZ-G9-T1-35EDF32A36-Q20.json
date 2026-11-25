@@ -1,0 +1,370 @@
+{
+  "id": "SZ-G9-T1-35EDF32A36-Q20",
+  "paper_id": "SZ-G9-T1-35EDF32A36",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由坐标定位点并判断位置特征、用坐标求线段长度与面积",
+  "stem": "如图①，四边形OABC是一张放在平面直角坐标系中的正方形纸片，点O与坐标原点重合，点A在x轴上，点C在y轴上，OC＝5，点E在边BC上，点N的坐标为（3，0），过点N且平行于y轴的直线MN与EB交于点M．现将纸片折叠，使顶点C落在MN上，并与MN上的点G重合，折痕为OE．\n（1）点G的坐标为 　      　；点E的坐标为 　      　；\n（2）如图②，若OG上有一动点P（不与O，G重合），从点O出发，以每秒1个单位的速度沿OG方向向点G匀速运动，设运动时间为t秒（0＜t＜5），过点P作PH⊥OG交OE于点H，连接HG，求出△PHG的面积s与t的函数关系式；\n（3）在（2）的条件下，求当t为何值时，以点P、H、G为顶点的三角形与△OEG相似？\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-35EDF32A36/figures/a868003d0495ba1bffbc73b74880c7330d3b1e60c0c845790ce01428a9366205.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）（3，4），（\\(\\frac { 5 } { 3 }\\)，5）；（2）\\(S=-\\frac { 1 } { 6 }t ^ { 2 } +\\frac { 5 } { 6 }t\\left ( { 0 < t < 5 } \\right )\\) ；（3）\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)",
+  "answer": "（1）（3，4），（\\(\\frac { 5 } { 3 }\\)，5）；（2）\\(S=-\\frac { 1 } { 6 }t ^ { 2 } +\\frac { 5 } { 6 }t\\left ( { 0 < t < 5 } \\right )\\) ；（3）\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)",
+  "given_solution": "【分析】（1）利用翻折变换的性质以及勾股定理解决问题即可；\n（2）由△OPH∽△OGE，可得\\(\\frac { OP } { OG }\\)＝\\(\\frac { PH } { EG }\\)，可得\\(\\frac { t } { 5 }=\\frac { PH } { \\frac { 5 } { 3 } }\\)，推出PH＝\\(\\frac { t } { 3 }\\)，可得结论；\n（3）分两种情形：当\\(\\frac { PH } { EG }\\)＝\\(\\frac { PG } { OP }\\)时，△GPH∽△OGE，当\\(\\frac { PH } { OG }\\)＝\\(\\frac { PG } { EG }\\)时，△GPH∽△EGO，分别构建方程求出t即可．\n【详解】解：（1）由翻折的性质可知，OC＝OG＝5，CE＝EG，\n∵N(3，0)，NM//OC，\n∴∠ONG＝90°，\n∴GN＝\\(\\sqrt[] { OG ^ { 2 } -ON ^ { 2 } }\\)＝\\(\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }\\)＝4．\n∴G(3，4)，\n∵MN//OC，CM//ON，\n∴四边形OCMN是平行四边形，\n∵∠CON＝90°，\n∴四边形OCMN是矩形，\n∴CM＝ON＝3，\n设EC＝EG＝x，\n在Rt△EMG中，则有x\\({}^{2}\\)＝1\\({}^{2}\\)+(3﹣x)\\({}^{2}\\)，\n解得x＝\\(\\frac { 5 } { 3 }\\)，\n∴E(\\(\\frac { 5 } { 3 }\\)，5)，\n故答案为：(3，4)，(\\(\\frac { 5 } { 3 }\\)，5)；\n（2）∵∠OPH＝∠OGE＝90°，∠POH＝∠GOE，\n∴△OPH∽△OGE，\n∴\\(\\frac { OP } { OG }\\)＝\\(\\frac { PH } { EG }\\)，\n∴\\(\\frac { t } { 5 }=\\frac { PH } { \\frac { 5 } { 3 } }\\)，\n∴PH＝\\(\\frac { t } { 3 }\\)，\n∴S＝\\(\\frac { 1 } { 2 }\\)•PG•PH＝\\(\\frac { 1 } { 2 }\\)×(5﹣t)×\\(\\frac { t } { 3 }\\)＝﹣\\(\\frac { 1 } { 6 }\\)t\\({}^{2}\\)+\\(\\frac { 5 } { 6 }\\)t（0＜t＜5）；\n（3）∵∠GPH＝∠EGO＝90°，\n∴当\\(\\frac { PH } { EG }\\)＝\\(\\frac { PG } { OP }\\)时，△GPH∽△OGE，\n∴\\(\\frac { \\frac { 1 } { 3 }t } { \\frac { 5 } { 3 } }\\)＝\\(\\frac { 5-t } { 5 }\\)，\n解得t＝\\(\\frac { 5 } { 2 }\\)．\n当\\(\\frac { PH } { OG }\\)＝\\(\\frac { PG } { EG }\\)时，△GPH∽△EGO，\n∴\\(\\frac { \\frac { 1 } { 3 }t } { 5 }\\)＝\\(\\frac { 5-t } { \\frac { 5 } { 3 } }\\)，\n解得t＝\\(\\frac { 9 } { 2 }\\)，\n综上所述，满足条件的t的值为\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)．\n【点睛】本题考查了矩形的判定和性质，相似三角形的判定和性质，勾股定理等知识，解题的关键是学会利用参数构建方程解决问题，学会用分类讨论的思想思考问题，属于中考常考题型．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-35EDF32A36/figures/169c40a9a797e282cb0c004dd4b74924cdb7cbee6e19bad1fa6ad381aa0d15f6.png"
+  ],
+  "solution": "解：（1）由翻折的性质可知，OC＝OG＝5，CE＝EG，\n∵N(3，0)，NM//OC，\n∴∠ONG＝90°，\n∴GN＝\\(\\sqrt[] { OG ^ { 2 } -ON ^ { 2 } }\\)＝\\(\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }\\)＝4．\n∴G(3，4)，\n∵MN//OC，CM//ON，\n∴四边形OCMN是平行四边形，\n∵∠CON＝90°，\n∴四边形OCMN是矩形，\n∴CM＝ON＝3，\n设EC＝EG＝x，\n在Rt△EMG中，则有x\\({}^{2}\\)＝1\\({}^{2}\\)+(3﹣x)\\({}^{2}\\)，\n解得x＝\\(\\frac { 5 } { 3 }\\)，\n∴E(\\(\\frac { 5 } { 3 }\\)，5)，\n故答案为：(3，4)，(\\(\\frac { 5 } { 3 }\\)，5)；\n（2）∵∠OPH＝∠OGE＝90°，∠POH＝∠GOE，\n∴△OPH∽△OGE，\n∴\\(\\frac { OP } { OG }\\)＝\\(\\frac { PH } { EG }\\)，\n∴\\(\\frac { t } { 5 }=\\frac { PH } { \\frac { 5 } { 3 } }\\)，\n∴PH＝\\(\\frac { t } { 3 }\\)，\n∴S＝\\(\\frac { 1 } { 2 }\\)•PG•PH＝\\(\\frac { 1 } { 2 }\\)×(5﹣t)×\\(\\frac { t } { 3 }\\)＝﹣\\(\\frac { 1 } { 6 }\\)t\\({}^{2}\\)+\\(\\frac { 5 } { 6 }\\)t（0＜t＜5）；\n（3）∵∠GPH＝∠EGO＝90°，\n∴当\\(\\frac { PH } { EG }\\)＝\\(\\frac { PG } { OP }\\)时，△GPH∽△OGE，\n∴\\(\\frac { \\frac { 1 } { 3 }t } { \\frac { 5 } { 3 } }\\)＝\\(\\frac { 5-t } { 5 }\\)，\n解得t＝\\(\\frac { 5 } { 2 }\\)．\n当\\(\\frac { PH } { OG }\\)＝\\(\\frac { PG } { EG }\\)时，△GPH∽△EGO，\n∴\\(\\frac { \\frac { 1 } { 3 }t } { 5 }\\)＝\\(\\frac { 5-t } { \\frac { 5 } { 3 } }\\)，\n解得t＝\\(\\frac { 9 } { 2 }\\)，\n综上所述，满足条件的t的值为\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)．",
+  "solution_steps": [
+    "解：（1）由翻折的性质可知，OC＝OG＝5，CE＝EG，",
+    "∵N(3，0)，NM//OC，",
+    "∴∠ONG＝90°，",
+    "∴GN＝\\(\\sqrt[] { OG ^ { 2 } -ON ^ { 2 } }\\)＝\\(\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }\\)＝4．",
+    "∴G(3，4)，",
+    "∵MN//OC，CM//ON，",
+    "∴四边形OCMN是平行四边形，",
+    "∵∠CON＝90°，",
+    "∴四边形OCMN是矩形，",
+    "∴CM＝ON＝3，",
+    "设EC＝EG＝x，",
+    "在Rt△EMG中，则有x\\({}^{2}\\)＝1\\({}^{2}\\)+(3﹣x)\\({}^{2}\\)，",
+    "解得x＝\\(\\frac { 5 } { 3 }\\)，",
+    "∴E(\\(\\frac { 5 } { 3 }\\)，5)，",
+    "故答案为：(3，4)，(\\(\\frac { 5 } { 3 }\\)，5)；",
+    "（2）∵∠OPH＝∠OGE＝90°，∠POH＝∠GOE，",
+    "∴△OPH∽△OGE，",
+    "∴\\(\\frac { OP } { OG }\\)＝\\(\\frac { PH } { EG }\\)，",
+    "∴\\(\\frac { t } { 5 }=\\frac { PH } { \\frac { 5 } { 3 } }\\)，",
+    "∴PH＝\\(\\frac { t } { 3 }\\)，",
+    "∴S＝\\(\\frac { 1 } { 2 }\\)•PG•PH＝\\(\\frac { 1 } { 2 }\\)×(5﹣t)×\\(\\frac { t } { 3 }\\)＝﹣\\(\\frac { 1 } { 6 }\\)t\\({}^{2}\\)+\\(\\frac { 5 } { 6 }\\)t（0＜t＜5）；",
+    "（3）∵∠GPH＝∠EGO＝90°，",
+    "∴当\\(\\frac { PH } { EG }\\)＝\\(\\frac { PG } { OP }\\)时，△GPH∽△OGE，",
+    "∴\\(\\frac { \\frac { 1 } { 3 }t } { \\frac { 5 } { 3 } }\\)＝\\(\\frac { 5-t } { 5 }\\)，",
+    "解得t＝\\(\\frac { 5 } { 2 }\\)．",
+    "当\\(\\frac { PH } { OG }\\)＝\\(\\frac { PG } { EG }\\)时，△GPH∽△EGO，",
+    "∴\\(\\frac { \\frac { 1 } { 3 }t } { 5 }\\)＝\\(\\frac { 5-t } { \\frac { 5 } { 3 } }\\)，",
+    "解得t＝\\(\\frac { 9 } { 2 }\\)，",
+    "综上所述，满足条件的t的值为\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图①，四边形OABC是一张放在平面直角坐标系中的正方形纸片，点O与坐标原点重合，点A在x轴上，点C在y轴上，OC＝5，点E在边BC上，点N的坐标为（3，0），过点N且平行于y轴的直线MN与EB交于点M．现将纸片折叠，使顶点C落在MN上，并与MN上的点G重合，折痕为OE．",
+      "paper_blocks": [
+        61
+      ]
+    },
+    {
+      "id": "fig-65",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        65
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图②，若OG上有一动点P（不与O，G重合），从点O出发，以每秒1个单位的速度沿OG方向向点G匀速运动，设运动时间为t秒（0＜t＜5），过点P作PH⊥OG交OE于点H，连接HG，求出△PHG的面积s与t的函数关系式；",
+      "paper_blocks": [
+        61,
+        63,
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-35EDF32A36-Q20-P01",
+      "label": "（1）",
+      "prompt": "点G的坐标为 　      　；点E的坐标为 　      　；",
+      "stem_text": "点G的坐标为 　      　；点E的坐标为 　      　；",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "（3，4），（\\(\\frac { 5 } { 3 }\\)，5）；",
+      "answer": "（3，4），（\\(\\frac { 5 } { 3 }\\)，5）；",
+      "given_solution": "由翻折的性质可知，OC＝OG＝5，CE＝EG，\n∵N(3，0)，NM//OC，\n∴∠ONG＝90°，\n∴GN＝\\(\\sqrt[] { OG ^ { 2 } -ON ^ { 2 } }\\)＝\\(\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }\\)＝4．\n∴G(3，4)，\n∵MN//OC，CM//ON，\n∴四边形OCMN是平行四边形，\n∵∠CON＝90°，\n∴四边形OCMN是矩形，\n∴CM＝ON＝3，\n设EC＝EG＝x，\n在Rt△EMG中，则有x\\({}^{2}\\)＝1\\({}^{2}\\)+(3﹣x)\\({}^{2}\\)，\n解得x＝\\(\\frac { 5 } { 3 }\\)，\n∴E(\\(\\frac { 5 } { 3 }\\)，5)，\n故答案为：(3，4)，(\\(\\frac { 5 } { 3 }\\)，5)；",
+      "solution_steps": [
+        "由翻折的性质可知，OC＝OG＝5，CE＝EG，",
+        "∵N(3，0)，NM//OC，",
+        "∴∠ONG＝90°，",
+        "∴GN＝\\(\\sqrt[] { OG ^ { 2 } -ON ^ { 2 } }\\)＝\\(\\sqrt[] { 5 ^ { 2 } -3 ^ { 2 } }\\)＝4．",
+        "∴G(3，4)，",
+        "∵MN//OC，CM//ON，",
+        "∴四边形OCMN是平行四边形，",
+        "∵∠CON＝90°，",
+        "∴四边形OCMN是矩形，",
+        "∴CM＝ON＝3，",
+        "设EC＝EG＝x，",
+        "在Rt△EMG中，则有x\\({}^{2}\\)＝1\\({}^{2}\\)+(3﹣x)\\({}^{2}\\)，",
+        "解得x＝\\(\\frac { 5 } { 3 }\\)，",
+        "∴E(\\(\\frac { 5 } { 3 }\\)，5)，",
+        "故答案为：(3，4)，(\\(\\frac { 5 } { 3 }\\)，5)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          65
+        ],
+        "solution_block_ids": [
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [
+        "E.G09.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-35EDF32A36-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图②，若OG上有一动点P（不与O，G重合），从点O出发，以每秒1个单位的速度沿OG方向向点G匀速运动，设运动时间为t秒（0＜t＜5），过点P作PH⊥OG交OE于点H，连接HG，求出△PHG的面积s与t的函数关系式；",
+      "stem_text": "如图②，若OG上有一动点P（不与O，G重合），从点O出发，以每秒1个单位的速度沿OG方向向点G匀速运动，设运动时间为t秒（0＜t＜5），过点P作PH⊥OG交OE于点H，连接HG，求出△PHG的面积s与t的函数关系式；",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "\\(S=-\\frac { 1 } { 6 }t ^ { 2 } +\\frac { 5 } { 6 }t\\left ( { 0 < t < 5 } \\right )\\) ；",
+      "answer": "\\(S=-\\frac { 1 } { 6 }t ^ { 2 } +\\frac { 5 } { 6 }t\\left ( { 0 < t < 5 } \\right )\\) ；",
+      "given_solution": "∵∠OPH＝∠OGE＝90°，∠POH＝∠GOE，\n∴△OPH∽△OGE，\n∴\\(\\frac { OP } { OG }\\)＝\\(\\frac { PH } { EG }\\)，\n∴\\(\\frac { t } { 5 }=\\frac { PH } { \\frac { 5 } { 3 } }\\)，\n∴PH＝\\(\\frac { t } { 3 }\\)，\n∴S＝\\(\\frac { 1 } { 2 }\\)•PG•PH＝\\(\\frac { 1 } { 2 }\\)×(5﹣t)×\\(\\frac { t } { 3 }\\)＝﹣\\(\\frac { 1 } { 6 }\\)t\\({}^{2}\\)+\\(\\frac { 5 } { 6 }\\)t（0＜t＜5）；",
+      "solution_steps": [
+        "∵∠OPH＝∠OGE＝90°，∠POH＝∠GOE，",
+        "∴△OPH∽△OGE，",
+        "∴\\(\\frac { OP } { OG }\\)＝\\(\\frac { PH } { EG }\\)，",
+        "∴\\(\\frac { t } { 5 }=\\frac { PH } { \\frac { 5 } { 3 } }\\)，",
+        "∴PH＝\\(\\frac { t } { 3 }\\)，",
+        "∴S＝\\(\\frac { 1 } { 2 }\\)•PG•PH＝\\(\\frac { 1 } { 2 }\\)×(5﹣t)×\\(\\frac { t } { 3 }\\)＝﹣\\(\\frac { 1 } { 6 }\\)t\\({}^{2}\\)+\\(\\frac { 5 } { 6 }\\)t（0＜t＜5）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-35EDF32A36-Q20-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，求当t为何值时，以点P、H、G为顶点的三角形与△OEG相似？",
+      "stem_text": "在（2）的条件下，求当t为何值时，以点P、H、G为顶点的三角形与△OEG相似？",
+      "material_ids": [
+        "context",
+        "fig-65",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G9-T1-35EDF32A36-Q20-P02"
+      ],
+      "given_answer": "\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)",
+      "answer": "\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)",
+      "given_solution": "∵∠GPH＝∠EGO＝90°，\n∴当\\(\\frac { PH } { EG }\\)＝\\(\\frac { PG } { OP }\\)时，△GPH∽△OGE，\n∴\\(\\frac { \\frac { 1 } { 3 }t } { \\frac { 5 } { 3 } }\\)＝\\(\\frac { 5-t } { 5 }\\)，\n解得t＝\\(\\frac { 5 } { 2 }\\)．\n当\\(\\frac { PH } { OG }\\)＝\\(\\frac { PG } { EG }\\)时，△GPH∽△EGO，\n∴\\(\\frac { \\frac { 1 } { 3 }t } { 5 }\\)＝\\(\\frac { 5-t } { \\frac { 5 } { 3 } }\\)，\n解得t＝\\(\\frac { 9 } { 2 }\\)，\n综上所述，满足条件的t的值为\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)．",
+      "solution_steps": [
+        "∵∠GPH＝∠EGO＝90°，",
+        "∴当\\(\\frac { PH } { EG }\\)＝\\(\\frac { PG } { OP }\\)时，△GPH∽△OGE，",
+        "∴\\(\\frac { \\frac { 1 } { 3 }t } { \\frac { 5 } { 3 } }\\)＝\\(\\frac { 5-t } { 5 }\\)，",
+        "解得t＝\\(\\frac { 5 } { 2 }\\)．",
+        "当\\(\\frac { PH } { OG }\\)＝\\(\\frac { PG } { EG }\\)时，△GPH∽△EGO，",
+        "∴\\(\\frac { \\frac { 1 } { 3 }t } { 5 }\\)＝\\(\\frac { 5-t } { \\frac { 5 } { 3 } }\\)，",
+        "解得t＝\\(\\frac { 9 } { 2 }\\)，",
+        "综上所述，满足条件的t的值为\\(\\frac { 5 } { 2 }\\)或\\(\\frac { 9 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      65
+    ],
+    "solution_body_blocks": [
+      351,
+      390
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-35EDF32A36/paper-q20-p04.webp",
+      "assets/SZ-G9-T1-35EDF32A36/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          478.64,
+          583.64,
+          657.73
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          195.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-35EDF32A36/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-35EDF32A36/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-35EDF32A36/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          717.27,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          470.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G09.03",
+    "M.G08.02"
+  ],
+  "exam_ids": [
+    "E.G09.01.01",
+    "E.G09.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由坐标定位点并判断位置特征”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问题面与解答对应“相似图形及三角形判定”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

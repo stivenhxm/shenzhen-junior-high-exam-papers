@@ -1,0 +1,480 @@
+{
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G10.02",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G10.02.02",
+    "E.G10.01.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“分解组合图形求边角”。 本问题面与解答对应“按指定锐角选择三角函数比”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-665AD9F130-Q20",
+  "number": 20,
+  "paper_id": "SZ-G9-T2-665AD9F130",
+  "title": "分解组合图形求边角、按指定锐角选择三角函数比",
+  "stem": "综合与探究\n【定义】三角形一边上的点将该边分为两条线段，若这两条线段长度的乘积等于这个点与该边所对顶点距离的平方，则称这个点为三角形中该边上的“亮点”．如图（a），在\\(\\vartriangle ABC\\)中，\\(D\\)是\\(BC\\)边上一点，连接\\(AD\\)，若\\(AD ^ { 2 } =BD\\cdot CD\\)，则称点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”．\n〔图1〕\n【概念理解】\n（1）如图（b），在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AD\\)，\\(AE\\)，\\(AF\\)分别是\\(\\vartriangle ABC\\)的高线，角平分线，中线．请判断\\(D\\)，\\(E\\)，\\(F\\)三点中哪些是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，并说明理由．\n【性质应用】\n（2）如图（c），在\\(\\vartriangle ABC\\)中，\\(\\angle B=45{}^\\circ\\)，\\(tanC=\\frac { 3 } { 4 }\\)，\\(AC=10\\)．若\\(D\\)是\\(BC\\)边上的“亮点”，求\\(BD\\)的长．\n【拓展提升】\n（3）如图（d），\\(\\vartriangle ABC\\)内接于⊙\\(O\\)，\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”且\\(AD\\bot AC\\)．若\\(sinB=\\frac { 1 } { 3 }\\)，求\\(\\frac { CD } { BD }\\)的值．\n〔图2〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与探究\n【定义】三角形一边上的点将该边分为两条线段，若这两条线段长度的乘积等于这个点与该边所对顶点距离的平方，则称这个点为三角形中该边上的“亮点”．如图（a），在\\(\\vartriangle ABC\\)中，\\(D\\)是\\(BC\\)边上一点，连接\\(AD\\)，若\\(AD ^ { 2 } =BD\\cdot CD\\)，则称点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”．\n〔图1〕\n【概念理解】",
+      "paper_blocks": [
+        1160,
+        1170,
+        1180,
+        1190
+      ]
+    },
+    {
+      "id": "fig-1250",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        1250
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-665AD9F130-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图（b），在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AD\\)，\\(AE\\)，\\(AF\\)分别是\\(\\vartriangle ABC\\)的高线，角平分线，中线．请判断\\(D\\)，\\(E\\)，\\(F\\)三点中哪些是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，并说明理由．\n【性质应用】",
+      "stem_text": "如图（b），在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AD\\)，\\(AE\\)，\\(AF\\)分别是\\(\\vartriangle ABC\\)的高线，角平分线，中线．请判断\\(D\\)，\\(E\\)，\\(F\\)三点中哪些是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，并说明理由．\n【性质应用】",
+      "material_ids": [
+        "context",
+        "fig-1250"
+      ],
+      "requires": [],
+      "given_answer": "\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由见解析；",
+      "answer": "\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由见解析；",
+      "given_solution": "\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由如下：\n\\(\\because\\)\\(AD\\)是\\(\\vartriangle ABC\\)的高线，\n\\(\\therefore\\)\\(\\angle ADB=\\angle ADC=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle B+\\angle BAD=90{}^\\circ\\)，\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle BAD+\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle B{ \\rm{ = } }\\angle CAD\\)\n\\(\\therefore\\)\\(\\vartriangle BDA\\backsim \\vartriangle ADC\\)，\n\\(\\therefore\\)\\(\\frac { BD } { DA }=\\frac { DA } { CD }\\)，\n\\(\\therefore\\)\\(DA ^ { 2 } =BD\\cdot DC\\)\n\\(\\therefore\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点\n\\(\\because\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AF\\)是中线，\n\\(\\therefore\\)\\(AF=\\frac { 1 } { 2 }BC=BF=CF\\)，\n\\(\\therefore\\)\\(AF ^ { 2 } =BF\\cdot CF\\)\n\\(\\therefore\\)点\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点．",
+      "solution_steps": [
+        "\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由如下：",
+        "\\(\\because\\)\\(AD\\)是\\(\\vartriangle ABC\\)的高线，",
+        "\\(\\therefore\\)\\(\\angle ADB=\\angle ADC=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle B+\\angle BAD=90{}^\\circ\\)，",
+        "∵\\(\\angle BAC=90{}^\\circ\\)，",
+        "∴\\(\\angle BAD+\\angle CAD=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle B{ \\rm{ = } }\\angle CAD\\)",
+        "\\(\\therefore\\)\\(\\vartriangle BDA\\backsim \\vartriangle ADC\\)，",
+        "\\(\\therefore\\)\\(\\frac { BD } { DA }=\\frac { DA } { CD }\\)，",
+        "\\(\\therefore\\)\\(DA ^ { 2 } =BD\\cdot DC\\)",
+        "\\(\\therefore\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点",
+        "\\(\\because\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AF\\)是中线，",
+        "\\(\\therefore\\)\\(AF=\\frac { 1 } { 2 }BC=BF=CF\\)，",
+        "\\(\\therefore\\)\\(AF ^ { 2 } =BF\\cdot CF\\)",
+        "\\(\\therefore\\)点\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          1160,
+          1170,
+          1180,
+          1190,
+          1200,
+          1210,
+          1250
+        ],
+        "solution_block_ids": [
+          3970,
+          3980,
+          3990,
+          4000,
+          4010,
+          4020,
+          4030,
+          4040,
+          4050,
+          4060,
+          4070,
+          4080,
+          4090,
+          4100,
+          4110
+        ],
+        "question_pages": [
+          8,
+          9
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-665AD9F130-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图（c），在\\(\\vartriangle ABC\\)中，\\(\\angle B=45{}^\\circ\\)，\\(tanC=\\frac { 3 } { 4 }\\)，\\(AC=10\\)．若\\(D\\)是\\(BC\\)边上的“亮点”，求\\(BD\\)的长．\n【拓展提升】",
+      "stem_text": "如图（c），在\\(\\vartriangle ABC\\)中，\\(\\angle B=45{}^\\circ\\)，\\(tanC=\\frac { 3 } { 4 }\\)，\\(AC=10\\)．若\\(D\\)是\\(BC\\)边上的“亮点”，求\\(BD\\)的长．\n【拓展提升】",
+      "material_ids": [
+        "context",
+        "fig-1250"
+      ],
+      "requires": [],
+      "given_answer": "\\(BD=4\\)或9；",
+      "answer": "\\(BD=4\\)或9；",
+      "given_solution": "①当\\(BD < CD\\)时，如图，作\\(AE\\bot BC\\)于点\\(E\\)，\n〔图1〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(tanC=\\frac { AE } { CE }=\\frac { 3 } { 4 }\\)，\n∴可设\\(AE=3x，CE=4x\\)，\n∴\\(AC=\\sqrt[] { AE ^ { 2 } +CE ^ { 2 } }=5x\\)，\n∵\\(AC=10\\)，\n∴\\(5x=10\\)，\n∴\\(x=2\\)\n∴\\(AE=6\\)，\\(CE=8\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(\\angle B=45{}^\\circ\\)，\n∴\\(DE=\\frac { AE } { tanB }=6\\)\n设\\(DE=y\\)，则\\(BD=6-y，CD=8+y\\)，\n∵\\(D\\)是\\(BC\\)边上的“亮点”，\n∴\\(AD ^ { 2 } =BD\\cdot CD\\)，\n∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，\n∴\\(y ^ { 2 } +6 ^ { 2 } =\\left ( { 6-y } \\right )\\left ( { 8+y } \\right )\\)\n解得\\(y_{ 1 } =2\\)，\\(y_{ 2 } =-3\\)（舍）\n∴\\(BD=6-2=4\\)；\n②当\\(BD>CD\\)时，由①可知\\(AE=BE=6\\)，\\(CE=8\\)，\n设\\(DE=a\\)，则\\(BD=6+a，CD=8-a\\)，\n∵\\(D\\)是\\(BC\\)边上的“亮点”，\n∴\\(AD ^ { 2 } =BD\\cdot CD\\)，\n∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，\n∴\\(a ^ { 2 } +6 ^ { 2 } =\\left ( { 6+a } \\right )\\left ( { 8-a } \\right )\\)，\n解得\\(a_{ 1 } =3\\)，\\(a_{ 2 } =-2\\)（舍）\n即\\(BD=6+3=9\\)．\n综上所述，\\(BD\\)的长为4或9．\n〔图2〕",
+      "solution_steps": [
+        "①当\\(BD < CD\\)时，如图，作\\(AE\\bot BC\\)于点\\(E\\)，",
+        "〔图1〕",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(tanC=\\frac { AE } { CE }=\\frac { 3 } { 4 }\\)，",
+        "∴可设\\(AE=3x，CE=4x\\)，",
+        "∴\\(AC=\\sqrt[] { AE ^ { 2 } +CE ^ { 2 } }=5x\\)，",
+        "∵\\(AC=10\\)，",
+        "∴\\(5x=10\\)，",
+        "∴\\(x=2\\)",
+        "∴\\(AE=6\\)，\\(CE=8\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(\\angle B=45{}^\\circ\\)，",
+        "∴\\(DE=\\frac { AE } { tanB }=6\\)",
+        "设\\(DE=y\\)，则\\(BD=6-y，CD=8+y\\)，",
+        "∵\\(D\\)是\\(BC\\)边上的“亮点”，",
+        "∴\\(AD ^ { 2 } =BD\\cdot CD\\)，",
+        "∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，",
+        "∴\\(y ^ { 2 } +6 ^ { 2 } =\\left ( { 6-y } \\right )\\left ( { 8+y } \\right )\\)",
+        "解得\\(y_{ 1 } =2\\)，\\(y_{ 2 } =-3\\)（舍）",
+        "∴\\(BD=6-2=4\\)；",
+        "②当\\(BD>CD\\)时，由①可知\\(AE=BE=6\\)，\\(CE=8\\)，",
+        "设\\(DE=a\\)，则\\(BD=6+a，CD=8-a\\)，",
+        "∵\\(D\\)是\\(BC\\)边上的“亮点”，",
+        "∴\\(AD ^ { 2 } =BD\\cdot CD\\)，",
+        "∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，",
+        "∴\\(a ^ { 2 } +6 ^ { 2 } =\\left ( { 6+a } \\right )\\left ( { 8-a } \\right )\\)，",
+        "解得\\(a_{ 1 } =3\\)，\\(a_{ 2 } =-2\\)（舍）",
+        "即\\(BD=6+3=9\\)．",
+        "综上所述，\\(BD\\)的长为4或9．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        1,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          1160,
+          1170,
+          1180,
+          1190,
+          1220,
+          1230,
+          1250
+        ],
+        "solution_block_ids": [
+          4120,
+          4130,
+          4140,
+          4150,
+          4160,
+          4170,
+          4180,
+          4190,
+          4200,
+          4210,
+          4220,
+          4230,
+          4240,
+          4250,
+          4260,
+          4270,
+          4280,
+          4290,
+          4300,
+          4310,
+          4320,
+          4330,
+          4340,
+          4350,
+          4360,
+          4370,
+          4380,
+          4390
+        ],
+        "question_pages": [
+          8,
+          9
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-665AD9F130-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图（d），\\(\\vartriangle ABC\\)内接于⊙\\(O\\)，\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”且\\(AD\\bot AC\\)．若\\(sinB=\\frac { 1 } { 3 }\\)，求\\(\\frac { CD } { BD }\\)的值．",
+      "stem_text": "如图（d），\\(\\vartriangle ABC\\)内接于⊙\\(O\\)，\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”且\\(AD\\bot AC\\)．若\\(sinB=\\frac { 1 } { 3 }\\)，求\\(\\frac { CD } { BD }\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-1250"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { 2 }\\)",
+      "answer": "\\(\\frac { 3 } { 2 }\\)",
+      "given_solution": "延长\\(AD\\)交\\(\\odot O\\)于点\\(E\\)，连接\\(BE\\)、\\(CE\\)，\n〔图3〕\\(\\because\\)\\(\\angle ADC=\\angle BDE\\)，\\(\\angle ACD=\\angle BED\\)，\n\\(\\therefore\\)\\(\\vartriangle ADC\\backsim \\vartriangle BDE\\)，\n\\(\\therefore\\)\\(\\frac { CD } { AD }=\\frac { ED } { BD }\\)，\n\\(\\therefore\\)\\(CD\\cdot BD=AD\\cdot ED\\)．\n\\(\\because\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点，\n\\(\\therefore\\)\\(AD ^ { 2 } =CD\\cdot BD=AD\\cdot ED\\)，\n\\(\\therefore\\)\\(AD=ED\\)．\n∵\\(AC\\bot AD\\)，\n∴\\(\\angle CAD=90{}^\\circ\\)\n\\(\\therefore\\)\\(sin\\angle CEA=sin\\angle ABC=\\frac { 1 } { 3 }=\\frac { AC } { CE }\\)，\n\\(\\therefore\\)设\\(AC=b\\)，则\\(CE=3b\\)，\\(AE=\\sqrt[] { CE ^ { 2 } -AC ^ { 2 } }=2\\sqrt[] { 2 }b\\)．\n\\(\\therefore\\)\\(AD=ED=\\sqrt[] { 2 }b\\)．\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 3 }b\\)．\n又\\(\\because\\)\\(AD ^ { 2 } =CD\\cdot BD\\)，\n\\(\\therefore\\)\\(\\left ( { \\sqrt[] { 2 }b } \\right ) ^ { 2 } =\\sqrt[] { 3 }b\\cdot BD\\)．解得\\(BD=\\frac { 2\\sqrt[] { 3 } } { 3 }b\\)．\n\\(\\therefore\\)\\(\\frac { CD } { BD }=\\frac { \\sqrt[] { 3 } } { \\frac { 2\\sqrt[] { 3 } } { 3 } }=\\frac { 3 } { 2 }\\)．",
+      "solution_steps": [
+        "延长\\(AD\\)交\\(\\odot O\\)于点\\(E\\)，连接\\(BE\\)、\\(CE\\)，",
+        "〔图3〕\\(\\because\\)\\(\\angle ADC=\\angle BDE\\)，\\(\\angle ACD=\\angle BED\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle ADC\\backsim \\vartriangle BDE\\)，",
+        "\\(\\therefore\\)\\(\\frac { CD } { AD }=\\frac { ED } { BD }\\)，",
+        "\\(\\therefore\\)\\(CD\\cdot BD=AD\\cdot ED\\)．",
+        "\\(\\because\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点，",
+        "\\(\\therefore\\)\\(AD ^ { 2 } =CD\\cdot BD=AD\\cdot ED\\)，",
+        "\\(\\therefore\\)\\(AD=ED\\)．",
+        "∵\\(AC\\bot AD\\)，",
+        "∴\\(\\angle CAD=90{}^\\circ\\)",
+        "\\(\\therefore\\)\\(sin\\angle CEA=sin\\angle ABC=\\frac { 1 } { 3 }=\\frac { AC } { CE }\\)，",
+        "\\(\\therefore\\)设\\(AC=b\\)，则\\(CE=3b\\)，\\(AE=\\sqrt[] { CE ^ { 2 } -AC ^ { 2 } }=2\\sqrt[] { 2 }b\\)．",
+        "\\(\\therefore\\)\\(AD=ED=\\sqrt[] { 2 }b\\)．",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 3 }b\\)．",
+        "又\\(\\because\\)\\(AD ^ { 2 } =CD\\cdot BD\\)，",
+        "\\(\\therefore\\)\\(\\left ( { \\sqrt[] { 2 }b } \\right ) ^ { 2 } =\\sqrt[] { 3 }b\\cdot BD\\)．解得\\(BD=\\frac { 2\\sqrt[] { 3 } } { 3 }b\\)．",
+        "\\(\\therefore\\)\\(\\frac { CD } { BD }=\\frac { \\sqrt[] { 3 } } { \\frac { 2\\sqrt[] { 3 } } { 3 } }=\\frac { 3 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          1160,
+          1170,
+          1180,
+          1190,
+          1240,
+          1250
+        ],
+        "solution_block_ids": [
+          4400,
+          4410,
+          4420,
+          4430,
+          4440,
+          4450,
+          4460,
+          4470,
+          4480,
+          4490,
+          4500,
+          4510,
+          4520,
+          4530,
+          4540,
+          4550,
+          4560
+        ],
+        "question_pages": [
+          8,
+          9
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/48/48481052afd644c342932880c27599f2d25f573ceec01f546930f6b6949bfc85.png",
+    "assets/figures/07/07646cbaa03e9511f92920c6ba92f205957e0fdaa450abd6943a4b3c971f60b5.png"
+  ],
+  "tables": [],
+  "answer": "（1）\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由见解析；（2）\\(BD=4\\)或9；（3）\\(\\frac { 3 } { 2 }\\)",
+  "given_answer": "（1）\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由见解析；（2）\\(BD=4\\)或9；（3）\\(\\frac { 3 } { 2 }\\)",
+  "given_solution": "【分析】本题主要考查了相似三角形的性质与判定，同弧所对的圆周角相等，解直角三角形，勾股定理，直角三角形的性质等等，正确理解“亮点”的定义是解题的关键．\n（1）证明\\(\\vartriangle BDA\\backsim \\vartriangle ADC\\)，根据相似三角形的性质可得\\(DA ^ { 2 } =BD\\cdot DC\\)，由直角三角形的性质可得\\(AF=\\frac { 1 } { 2 }BC=BF=CF\\)，则\\(AF ^ { 2 } =BF\\cdot CF\\)，据此可得答案；\n（2）分当\\(BD < CD\\)和当\\(BD>CD\\)两种情况，作\\(AE\\bot BC\\)于点\\(E\\)，解直角三角形求出\\(AE，DE，CE\\)的长，设出\\(DE\\)的长，表示出\\(BE，CE\\)的长，根据\\(AD ^ { 2 } =BD\\cdot CD\\)，\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，建立方程讨论求解即可；\n（3）延长\\(AD\\)交\\(\\odot O\\)于点\\(E\\)，连接\\(BE\\)、\\(CE\\)，证明\\(\\vartriangle ADC\\backsim \\vartriangle BDE\\)，推出\\(AD ^ { 2 } =CD\\cdot BD=AD\\cdot ED\\)，即可得到\\(AD=ED\\)，解直角三角形得到\\(\\frac { AC } { CE }=\\frac { 1 } { 3 }\\)；设\\(AC=b\\)，则\\(CE=3b\\)，\\(AE=2\\sqrt[] { 2 }b\\)，进而得\\(AD=ED=\\sqrt[] { 2 }b\\)．求出\\(CD=\\sqrt[] { 3 }b\\)．则\\(BD=\\frac { 2\\sqrt[] { 3 } } { 3 }b\\)，据此可得答案．\n【详解】解：（1）\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由如下：\n\\(\\because\\)\\(AD\\)是\\(\\vartriangle ABC\\)的高线，\n\\(\\therefore\\)\\(\\angle ADB=\\angle ADC=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle B+\\angle BAD=90{}^\\circ\\)，\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle BAD+\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle B{ \\rm{ = } }\\angle CAD\\)\n\\(\\therefore\\)\\(\\vartriangle BDA\\backsim \\vartriangle ADC\\)，\n\\(\\therefore\\)\\(\\frac { BD } { DA }=\\frac { DA } { CD }\\)，\n\\(\\therefore\\)\\(DA ^ { 2 } =BD\\cdot DC\\)\n\\(\\therefore\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点\n\\(\\because\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AF\\)是中线，\n\\(\\therefore\\)\\(AF=\\frac { 1 } { 2 }BC=BF=CF\\)，\n\\(\\therefore\\)\\(AF ^ { 2 } =BF\\cdot CF\\)\n\\(\\therefore\\)点\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点．\n（2）①当\\(BD < CD\\)时，如图，作\\(AE\\bot BC\\)于点\\(E\\)，\n〔图1〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(tanC=\\frac { AE } { CE }=\\frac { 3 } { 4 }\\)，\n∴可设\\(AE=3x，CE=4x\\)，\n∴\\(AC=\\sqrt[] { AE ^ { 2 } +CE ^ { 2 } }=5x\\)，\n∵\\(AC=10\\)，\n∴\\(5x=10\\)，\n∴\\(x=2\\)\n∴\\(AE=6\\)，\\(CE=8\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(\\angle B=45{}^\\circ\\)，\n∴\\(DE=\\frac { AE } { tanB }=6\\)\n设\\(DE=y\\)，则\\(BD=6-y，CD=8+y\\)，\n∵\\(D\\)是\\(BC\\)边上的“亮点”，\n∴\\(AD ^ { 2 } =BD\\cdot CD\\)，\n∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，\n∴\\(y ^ { 2 } +6 ^ { 2 } =\\left ( { 6-y } \\right )\\left ( { 8+y } \\right )\\)\n解得\\(y_{ 1 } =2\\)，\\(y_{ 2 } =-3\\)（舍）\n∴\\(BD=6-2=4\\)；\n②当\\(BD>CD\\)时，由①可知\\(AE=BE=6\\)，\\(CE=8\\)，\n设\\(DE=a\\)，则\\(BD=6+a，CD=8-a\\)，\n∵\\(D\\)是\\(BC\\)边上的“亮点”，\n∴\\(AD ^ { 2 } =BD\\cdot CD\\)，\n∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，\n∴\\(a ^ { 2 } +6 ^ { 2 } =\\left ( { 6+a } \\right )\\left ( { 8-a } \\right )\\)，\n解得\\(a_{ 1 } =3\\)，\\(a_{ 2 } =-2\\)（舍）\n即\\(BD=6+3=9\\)．\n综上所述，\\(BD\\)的长为4或9．\n〔图2〕\n（3）延长\\(AD\\)交\\(\\odot O\\)于点\\(E\\)，连接\\(BE\\)、\\(CE\\)，\n〔图3〕\\(\\because\\)\\(\\angle ADC=\\angle BDE\\)，\\(\\angle ACD=\\angle BED\\)，\n\\(\\therefore\\)\\(\\vartriangle ADC\\backsim \\vartriangle BDE\\)，\n\\(\\therefore\\)\\(\\frac { CD } { AD }=\\frac { ED } { BD }\\)，\n\\(\\therefore\\)\\(CD\\cdot BD=AD\\cdot ED\\)．\n\\(\\because\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点，\n\\(\\therefore\\)\\(AD ^ { 2 } =CD\\cdot BD=AD\\cdot ED\\)，\n\\(\\therefore\\)\\(AD=ED\\)．\n∵\\(AC\\bot AD\\)，\n∴\\(\\angle CAD=90{}^\\circ\\)\n\\(\\therefore\\)\\(sin\\angle CEA=sin\\angle ABC=\\frac { 1 } { 3 }=\\frac { AC } { CE }\\)，\n\\(\\therefore\\)设\\(AC=b\\)，则\\(CE=3b\\)，\\(AE=\\sqrt[] { CE ^ { 2 } -AC ^ { 2 } }=2\\sqrt[] { 2 }b\\)．\n\\(\\therefore\\)\\(AD=ED=\\sqrt[] { 2 }b\\)．\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 3 }b\\)．\n又\\(\\because\\)\\(AD ^ { 2 } =CD\\cdot BD\\)，\n\\(\\therefore\\)\\(\\left ( { \\sqrt[] { 2 }b } \\right ) ^ { 2 } =\\sqrt[] { 3 }b\\cdot BD\\)．解得\\(BD=\\frac { 2\\sqrt[] { 3 } } { 3 }b\\)．\n\\(\\therefore\\)\\(\\frac { CD } { BD }=\\frac { \\sqrt[] { 3 } } { \\frac { 2\\sqrt[] { 3 } } { 3 } }=\\frac { 3 } { 2 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/e7/e7e6a6505326d31f7552dc33f59dc25447f405bc00559e541be0c2e1099b1946.png",
+    "assets/figures/15/15b0154e44a33c461fa81b67569caaff5fa6b9694337520bc59dbefc2daac8f5.png",
+    "assets/figures/ac/acdc2e8ba80c8a31bf752aff6706b0d6343ec55606f7199978cce899c07c5052.png"
+  ],
+  "solution_steps": [
+    "解：（1）\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由如下：",
+    "\\(\\because\\)\\(AD\\)是\\(\\vartriangle ABC\\)的高线，",
+    "\\(\\therefore\\)\\(\\angle ADB=\\angle ADC=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle B+\\angle BAD=90{}^\\circ\\)，",
+    "∵\\(\\angle BAC=90{}^\\circ\\)，",
+    "∴\\(\\angle BAD+\\angle CAD=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle B{ \\rm{ = } }\\angle CAD\\)",
+    "\\(\\therefore\\)\\(\\vartriangle BDA\\backsim \\vartriangle ADC\\)，",
+    "\\(\\therefore\\)\\(\\frac { BD } { DA }=\\frac { DA } { CD }\\)，",
+    "\\(\\therefore\\)\\(DA ^ { 2 } =BD\\cdot DC\\)",
+    "\\(\\therefore\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点",
+    "\\(\\because\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AF\\)是中线，",
+    "\\(\\therefore\\)\\(AF=\\frac { 1 } { 2 }BC=BF=CF\\)，",
+    "\\(\\therefore\\)\\(AF ^ { 2 } =BF\\cdot CF\\)",
+    "\\(\\therefore\\)点\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点．",
+    "（2）①当\\(BD < CD\\)时，如图，作\\(AE\\bot BC\\)于点\\(E\\)，",
+    "〔图1〕",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(tanC=\\frac { AE } { CE }=\\frac { 3 } { 4 }\\)，",
+    "∴可设\\(AE=3x，CE=4x\\)，",
+    "∴\\(AC=\\sqrt[] { AE ^ { 2 } +CE ^ { 2 } }=5x\\)，",
+    "∵\\(AC=10\\)，",
+    "∴\\(5x=10\\)，",
+    "∴\\(x=2\\)",
+    "∴\\(AE=6\\)，\\(CE=8\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(\\angle B=45{}^\\circ\\)，",
+    "∴\\(DE=\\frac { AE } { tanB }=6\\)",
+    "设\\(DE=y\\)，则\\(BD=6-y，CD=8+y\\)，",
+    "∵\\(D\\)是\\(BC\\)边上的“亮点”，",
+    "∴\\(AD ^ { 2 } =BD\\cdot CD\\)，",
+    "∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，",
+    "∴\\(y ^ { 2 } +6 ^ { 2 } =\\left ( { 6-y } \\right )\\left ( { 8+y } \\right )\\)",
+    "解得\\(y_{ 1 } =2\\)，\\(y_{ 2 } =-3\\)（舍）",
+    "∴\\(BD=6-2=4\\)；",
+    "②当\\(BD>CD\\)时，由①可知\\(AE=BE=6\\)，\\(CE=8\\)，",
+    "设\\(DE=a\\)，则\\(BD=6+a，CD=8-a\\)，",
+    "∵\\(D\\)是\\(BC\\)边上的“亮点”，",
+    "∴\\(AD ^ { 2 } =BD\\cdot CD\\)，",
+    "∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，",
+    "∴\\(a ^ { 2 } +6 ^ { 2 } =\\left ( { 6+a } \\right )\\left ( { 8-a } \\right )\\)，",
+    "解得\\(a_{ 1 } =3\\)，\\(a_{ 2 } =-2\\)（舍）",
+    "即\\(BD=6+3=9\\)．",
+    "综上所述，\\(BD\\)的长为4或9．",
+    "〔图2〕",
+    "（3）延长\\(AD\\)交\\(\\odot O\\)于点\\(E\\)，连接\\(BE\\)、\\(CE\\)，",
+    "〔图3〕\\(\\because\\)\\(\\angle ADC=\\angle BDE\\)，\\(\\angle ACD=\\angle BED\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle ADC\\backsim \\vartriangle BDE\\)，",
+    "\\(\\therefore\\)\\(\\frac { CD } { AD }=\\frac { ED } { BD }\\)，",
+    "\\(\\therefore\\)\\(CD\\cdot BD=AD\\cdot ED\\)．",
+    "\\(\\because\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点，",
+    "\\(\\therefore\\)\\(AD ^ { 2 } =CD\\cdot BD=AD\\cdot ED\\)，",
+    "\\(\\therefore\\)\\(AD=ED\\)．",
+    "∵\\(AC\\bot AD\\)，",
+    "∴\\(\\angle CAD=90{}^\\circ\\)",
+    "\\(\\therefore\\)\\(sin\\angle CEA=sin\\angle ABC=\\frac { 1 } { 3 }=\\frac { AC } { CE }\\)，",
+    "\\(\\therefore\\)设\\(AC=b\\)，则\\(CE=3b\\)，\\(AE=\\sqrt[] { CE ^ { 2 } -AC ^ { 2 } }=2\\sqrt[] { 2 }b\\)．",
+    "\\(\\therefore\\)\\(AD=ED=\\sqrt[] { 2 }b\\)．",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 3 }b\\)．",
+    "又\\(\\because\\)\\(AD ^ { 2 } =CD\\cdot BD\\)，",
+    "\\(\\therefore\\)\\(\\left ( { \\sqrt[] { 2 }b } \\right ) ^ { 2 } =\\sqrt[] { 3 }b\\cdot BD\\)．解得\\(BD=\\frac { 2\\sqrt[] { 3 } } { 3 }b\\)．",
+    "\\(\\therefore\\)\\(\\frac { CD } { BD }=\\frac { \\sqrt[] { 3 } } { \\frac { 2\\sqrt[] { 3 } } { 3 } }=\\frac { 3 } { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "解：（1）\\(D\\)，\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“亮点”，理由如下：\n\\(\\because\\)\\(AD\\)是\\(\\vartriangle ABC\\)的高线，\n\\(\\therefore\\)\\(\\angle ADB=\\angle ADC=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle B+\\angle BAD=90{}^\\circ\\)，\n∵\\(\\angle BAC=90{}^\\circ\\)，\n∴\\(\\angle BAD+\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle B{ \\rm{ = } }\\angle CAD\\)\n\\(\\therefore\\)\\(\\vartriangle BDA\\backsim \\vartriangle ADC\\)，\n\\(\\therefore\\)\\(\\frac { BD } { DA }=\\frac { DA } { CD }\\)，\n\\(\\therefore\\)\\(DA ^ { 2 } =BD\\cdot DC\\)\n\\(\\therefore\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点\n\\(\\because\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AF\\)是中线，\n\\(\\therefore\\)\\(AF=\\frac { 1 } { 2 }BC=BF=CF\\)，\n\\(\\therefore\\)\\(AF ^ { 2 } =BF\\cdot CF\\)\n\\(\\therefore\\)点\\(F\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点．\n（2）①当\\(BD < CD\\)时，如图，作\\(AE\\bot BC\\)于点\\(E\\)，\n〔图1〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACE\\)中，\\(tanC=\\frac { AE } { CE }=\\frac { 3 } { 4 }\\)，\n∴可设\\(AE=3x，CE=4x\\)，\n∴\\(AC=\\sqrt[] { AE ^ { 2 } +CE ^ { 2 } }=5x\\)，\n∵\\(AC=10\\)，\n∴\\(5x=10\\)，\n∴\\(x=2\\)\n∴\\(AE=6\\)，\\(CE=8\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\\(\\angle B=45{}^\\circ\\)，\n∴\\(DE=\\frac { AE } { tanB }=6\\)\n设\\(DE=y\\)，则\\(BD=6-y，CD=8+y\\)，\n∵\\(D\\)是\\(BC\\)边上的“亮点”，\n∴\\(AD ^ { 2 } =BD\\cdot CD\\)，\n∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，\n∴\\(y ^ { 2 } +6 ^ { 2 } =\\left ( { 6-y } \\right )\\left ( { 8+y } \\right )\\)\n解得\\(y_{ 1 } =2\\)，\\(y_{ 2 } =-3\\)（舍）\n∴\\(BD=6-2=4\\)；\n②当\\(BD>CD\\)时，由①可知\\(AE=BE=6\\)，\\(CE=8\\)，\n设\\(DE=a\\)，则\\(BD=6+a，CD=8-a\\)，\n∵\\(D\\)是\\(BC\\)边上的“亮点”，\n∴\\(AD ^ { 2 } =BD\\cdot CD\\)，\n∵\\(AD ^ { 2 } =AE ^ { 2 } +DE ^ { 2 }\\)，\n∴\\(a ^ { 2 } +6 ^ { 2 } =\\left ( { 6+a } \\right )\\left ( { 8-a } \\right )\\)，\n解得\\(a_{ 1 } =3\\)，\\(a_{ 2 } =-2\\)（舍）\n即\\(BD=6+3=9\\)．\n综上所述，\\(BD\\)的长为4或9．\n〔图2〕\n（3）延长\\(AD\\)交\\(\\odot O\\)于点\\(E\\)，连接\\(BE\\)、\\(CE\\)，\n〔图3〕\\(\\because\\)\\(\\angle ADC=\\angle BDE\\)，\\(\\angle ACD=\\angle BED\\)，\n\\(\\therefore\\)\\(\\vartriangle ADC\\backsim \\vartriangle BDE\\)，\n\\(\\therefore\\)\\(\\frac { CD } { AD }=\\frac { ED } { BD }\\)，\n\\(\\therefore\\)\\(CD\\cdot BD=AD\\cdot ED\\)．\n\\(\\because\\)点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的亮点，\n\\(\\therefore\\)\\(AD ^ { 2 } =CD\\cdot BD=AD\\cdot ED\\)，\n\\(\\therefore\\)\\(AD=ED\\)．\n∵\\(AC\\bot AD\\)，\n∴\\(\\angle CAD=90{}^\\circ\\)\n\\(\\therefore\\)\\(sin\\angle CEA=sin\\angle ABC=\\frac { 1 } { 3 }=\\frac { AC } { CE }\\)，\n\\(\\therefore\\)设\\(AC=b\\)，则\\(CE=3b\\)，\\(AE=\\sqrt[] { CE ^ { 2 } -AC ^ { 2 } }=2\\sqrt[] { 2 }b\\)．\n\\(\\therefore\\)\\(AD=ED=\\sqrt[] { 2 }b\\)．\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACD\\)中，\\(CD=\\sqrt[] { AC ^ { 2 } +AD ^ { 2 } }=\\sqrt[] { 3 }b\\)．\n又\\(\\because\\)\\(AD ^ { 2 } =CD\\cdot BD\\)，\n\\(\\therefore\\)\\(\\left ( { \\sqrt[] { 2 }b } \\right ) ^ { 2 } =\\sqrt[] { 3 }b\\cdot BD\\)．解得\\(BD=\\frac { 2\\sqrt[] { 3 } } { 3 }b\\)．\n\\(\\therefore\\)\\(\\frac { CD } { BD }=\\frac { \\sqrt[] { 3 } } { \\frac { 2\\sqrt[] { 3 } } { 3 } }=\\frac { 3 } { 2 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "question_pages": [
+      8,
+      9
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-665AD9F130/single/q20-p08.webp",
+      "assets/SZ-G9-T2-665AD9F130/single/q20-p09.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          13,
+          404.75,
+          582.44,
+          754.31
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          13,
+          74.87,
+          582.44,
+          242.7
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-665AD9F130/single/s20-p23.webp",
+      "assets/SZ-G9-T2-665AD9F130/single/s20-p24.webp",
+      "assets/SZ-G9-T2-665AD9F130/single/s20-p25.webp",
+      "assets/SZ-G9-T2-665AD9F130/single/s20-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          13,
+          184.14,
+          582.44,
+          754.57
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.44,
+          754.43
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          13,
+          77.48,
+          582.44,
+          769.65
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          13,
+          72.7,
+          582.44,
+          149.65
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

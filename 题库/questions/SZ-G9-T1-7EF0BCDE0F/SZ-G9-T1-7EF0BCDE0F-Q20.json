@@ -1,0 +1,597 @@
+{
+  "id": "SZ-G9-T1-7EF0BCDE0F-Q20",
+  "paper_id": "SZ-G9-T1-7EF0BCDE0F",
+  "number": 20,
+  "type": "解答题",
+  "points": 12,
+  "title": "应用等腰三角形性质求边角、用边长平方关系判定直角",
+  "stem": "（12分）在正方形ABCD中，AB＝10，AC是对角线，点O是AC的中点，点E在AC上，连接DE，点C关于DE的对称点是C′，连接DC′，EC′．\n（1）如图1，若DC′经过点O，求证：〔图1〕；\n（2）如图2，连接CC′，BC′，若∠ADC′＝2∠CBC′，求CC′的长；\n（3）当点B，C′，E三点共线时，直接写出CE的长．\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/c2b1807d06c7313728d6d05926ba0c03b76abccf5e888bc91e3a0cc966055b7f.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/ebce4b6eaa02434b5262c422976598f028ea6970b566b1771a7c4ee67c1f2420.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（12分）在正方形ABCD中，AB＝10，AC是对角线，点O是AC的中点，点E在AC上，连接DE，点C关于DE的对称点是C′，连接DC′，EC′．",
+      "paper_blocks": [
+        67
+      ]
+    },
+    {
+      "id": "fig-71",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，若DC′经过点O，求证：〔图1〕；",
+      "stem_text": "如图1，若DC′经过点O，求证：〔图1〕；",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "∴〔图2〕",
+      "answer": "∴〔图2〕",
+      "given_solution": "证明：∵四边形ABCD是正方形，点O是对角线AC的中点，\n∴OC′⊥AC，∠C′＝∠ACD＝45°，\n∴△OEC′是等腰直角三角形．\n由对称的性质得：CE＝C′E，\n∴〔图2〕；",
+      "solution_steps": [
+        "证明：∵四边形ABCD是正方形，点O是对角线AC的中点，",
+        "∴OC′⊥AC，∠C′＝∠ACD＝45°，",
+        "∴△OEC′是等腰直角三角形．",
+        "由对称的性质得：CE＝C′E，",
+        "∴〔图2〕；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          445,
+          446,
+          447,
+          448,
+          449
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，连接CC′，BC′，若∠ADC′＝2∠CBC′，求CC′的长；",
+      "stem_text": "如图2，连接CC′，BC′，若∠ADC′＝2∠CBC′，求CC′的长；",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "∴〔图6〕",
+      "answer": "∴〔图6〕",
+      "given_solution": "解：如图1，过点B作BN⊥CN交CC′的延长线于点N，延长DE交CC′于点M，\n〔图3〕\n由对称的性质得：∠CDM＝∠C′DM，DM⊥CC′，DC＝DC′，CM＝C′M\n∴∠CDM+∠DCM＝90°．\n∵∠DCM+∠BCN＝90°，\n∴∠CDM＝∠BCN．\n∵BC＝DC，∠N＝∠DMC＝90°，\n∴△CDM≌△BCN（AAS），\n∴BN＝CM．\n设则∠CBC′＝α，∠ADC′＝2α，\n∴∠CDC′＝90°﹣2α，\n∴〔图4〕，\n∴∠NC′B＝∠C′CB+∠CBC′＝45°，\n∴△NC′B是等腰直角三角形，\n∴C′N＝BN，\n∴BN＝C′N＝C′M＝CM，\n∴CN\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，\n∴（3BN）\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，\n∴〔图5〕，\n∴〔图6〕．",
+      "solution_steps": [
+        "解：如图1，过点B作BN⊥CN交CC′的延长线于点N，延长DE交CC′于点M，",
+        "〔图3〕",
+        "由对称的性质得：∠CDM＝∠C′DM，DM⊥CC′，DC＝DC′，CM＝C′M",
+        "∴∠CDM+∠DCM＝90°．",
+        "∵∠DCM+∠BCN＝90°，",
+        "∴∠CDM＝∠BCN．",
+        "∵BC＝DC，∠N＝∠DMC＝90°，",
+        "∴△CDM≌△BCN（AAS），",
+        "∴BN＝CM．",
+        "设则∠CBC′＝α，∠ADC′＝2α，",
+        "∴∠CDC′＝90°﹣2α，",
+        "∴〔图4〕，",
+        "∴∠NC′B＝∠C′CB+∠CBC′＝45°，",
+        "∴△NC′B是等腰直角三角形，",
+        "∴C′N＝BN，",
+        "∴BN＝C′N＝C′M＝CM，",
+        "∴CN\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，",
+        "∴（3BN）\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，",
+        "∴〔图5〕，",
+        "∴〔图6〕．"
+      ],
+      "solution_figure_ids": [
+        6,
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          26,
+          27
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.05"
+      ],
+      "exam_ids": [
+        "E.G04.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“用边长平方关系判定直角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q20-P03",
+      "label": "（3）",
+      "prompt": "当点B，C′，E三点共线时，直接写出CE的长．",
+      "stem_text": "当点B，C′，E三点共线时，直接写出CE的长．",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕",
+      "answer": "综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕",
+      "given_solution": "解：如图2，连接BD交AC于点H，则∠CDB＝45°，〔图7〕，\n当点E在CH上时，延长DE交CC′于点G，过点C′作FC′⊥BC于点F，连接AC′，则DG垂直平分CC′，\n〔图8〕\n∴∠CDG+∠DCC′＝90°，\n∵∠C′CB+∠DCC′＝90°，\n∴∠C′CB＝∠CDG，\n在正方形ABCD中，CD＝CB，∠BCE＝∠DCE，∠ABC＝∠BCD＝90°，AD＝BC，\n∵CE＝CE，\n∴△BCE≌△DCE（SAS），\n∴∠CBE＝∠CDG，\n∴∠C′CB＝∠CBE，\n∴∠DCC′＝∠ABC′，\n∴△DCC′≌△ABC′（SAS），\n∴DC′＝AC′，\n由对称的性质得：DC′＝DC，∠CDG＝∠C′DG，\n∴DC′＝AC′＝DC，\n∴△AC′D是等边三角形，\n∴∠ADC′＝60°，\n∴∠CDC′＝30°，\n∴∠CDG＝∠C′DG＝15°，\n∴∠GDH＝30°，\n∴DE＝2EH，\n∵AB＝AD＝10，\n∴〔图9〕，\n∴〔图10〕，\n∵EH\\({}^{2}\\)+DH\\({}^{2}\\)＝DE\\({}^{2}\\)＝2EH\\({}^{2}\\)，\n∴〔图11〕，\n∴〔图12〕，\n∴CE＝CH﹣EH＝5〔图13〕﹣〔图14〕；\n如图3，当点E在AH上时，\n〔图15〕\n同理CE＝5〔图16〕+〔图17〕；\n综上所述，CE的长为5〔图16〕﹣〔图17〕或5〔图16〕+〔图17〕；\n方法二：\n如图4，\n〔图18〕\n∵E在正方形的对角线上，\n∴DC＝BC，∠DCE＝∠BCE，CE＝CE，\n∴△DEC≌△BEC（SAS），\n∴∠1＝∠2，\n由折叠的性质得：∠1＝∠DEC′，\n∵∠1+∠2+∠DEC′＝360°，\n∴∠1＝∠2＝∠DEC′＝120°，\n∴∠OEB＝60°，\n作BO⊥AC交AC于点O，\n∵BC＝10，\n∴BO＝CO＝5〔图19〕，\n∴DE＝cot60°×BO＝〔图20〕°×5〔图19〕＝〔图21〕，\n∴CE＝5〔图19〕﹣〔图21〕；\n如图5，\n〔图22〕\n同理得：∠1＝∠2＝∠3＝60°，\n解得：OE＝〔图23〕，OC＝OB＝5〔图24〕，\n∴CE＝CO+OE＝5〔图24〕+〔图23〕．\n综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕．",
+      "solution_steps": [
+        "解：如图2，连接BD交AC于点H，则∠CDB＝45°，〔图7〕，",
+        "当点E在CH上时，延长DE交CC′于点G，过点C′作FC′⊥BC于点F，连接AC′，则DG垂直平分CC′，",
+        "〔图8〕",
+        "∴∠CDG+∠DCC′＝90°，",
+        "∵∠C′CB+∠DCC′＝90°，",
+        "∴∠C′CB＝∠CDG，",
+        "在正方形ABCD中，CD＝CB，∠BCE＝∠DCE，∠ABC＝∠BCD＝90°，AD＝BC，",
+        "∵CE＝CE，",
+        "∴△BCE≌△DCE（SAS），",
+        "∴∠CBE＝∠CDG，",
+        "∴∠C′CB＝∠CBE，",
+        "∴∠DCC′＝∠ABC′，",
+        "∴△DCC′≌△ABC′（SAS），",
+        "∴DC′＝AC′，",
+        "由对称的性质得：DC′＝DC，∠CDG＝∠C′DG，",
+        "∴DC′＝AC′＝DC，",
+        "∴△AC′D是等边三角形，",
+        "∴∠ADC′＝60°，",
+        "∴∠CDC′＝30°，",
+        "∴∠CDG＝∠C′DG＝15°，",
+        "∴∠GDH＝30°，",
+        "∴DE＝2EH，",
+        "∵AB＝AD＝10，",
+        "∴〔图9〕，",
+        "∴〔图10〕，",
+        "∵EH\\({}^{2}\\)+DH\\({}^{2}\\)＝DE\\({}^{2}\\)＝2EH\\({}^{2}\\)，",
+        "∴〔图11〕，",
+        "∴〔图12〕，",
+        "∴CE＝CH﹣EH＝5〔图13〕﹣〔图14〕；",
+        "如图3，当点E在AH上时，",
+        "〔图15〕",
+        "同理CE＝5〔图16〕+〔图17〕；",
+        "综上所述，CE的长为5〔图16〕﹣〔图17〕或5〔图16〕+〔图17〕；",
+        "方法二：",
+        "如图4，",
+        "〔图18〕",
+        "∵E在正方形的对角线上，",
+        "∴DC＝BC，∠DCE＝∠BCE，CE＝CE，",
+        "∴△DEC≌△BEC（SAS），",
+        "∴∠1＝∠2，",
+        "由折叠的性质得：∠1＝∠DEC′，",
+        "∵∠1+∠2+∠DEC′＝360°，",
+        "∴∠1＝∠2＝∠DEC′＝120°，",
+        "∴∠OEB＝60°，",
+        "作BO⊥AC交AC于点O，",
+        "∵BC＝10，",
+        "∴BO＝CO＝5〔图19〕，",
+        "∴DE＝cot60°×BO＝〔图20〕°×5〔图19〕＝〔图21〕，",
+        "∴CE＝5〔图19〕﹣〔图21〕；",
+        "如图5，",
+        "〔图22〕",
+        "同理得：∠1＝∠2＝∠3＝60°，",
+        "解得：OE＝〔图23〕，OC＝OB＝5〔图24〕，",
+        "∴CE＝CO+OE＝5〔图24〕+〔图23〕．",
+        "综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕．"
+      ],
+      "solution_figure_ids": [
+        24,
+        23,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          521,
+          522,
+          523,
+          524
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          27,
+          28,
+          29
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】（1）证明△OEC′是等腰直角三角形，再由对称的性质可得：CE＝C′E，即可；\n（2）过点B作BN⊥CN交CC′的延长线于点N，延长DE交CC′于点M，证明△CDM≌△BCN，可得BN＝CM，设则∠CBC′＝α，∠ADC′＝2α，证明△NC′B是等腰直角三角形，可得C′N＝BN，从而得到BN＝C′N＝C′M＝CM，然后根据勾股定理，即可求解；\n（3）连接BD交AC于点H，则∠CDB＝45°，〔图1〕，分两种情况讨论：当点E在CH上时，当点E在AH上时，即可求解．\n【解答】（1）证明：∵四边形ABCD是正方形，点O是对角线AC的中点，\n∴OC′⊥AC，∠C′＝∠ACD＝45°，\n∴△OEC′是等腰直角三角形．\n由对称的性质得：CE＝C′E，\n∴〔图2〕；\n（2）解：如图1，过点B作BN⊥CN交CC′的延长线于点N，延长DE交CC′于点M，\n〔图3〕\n由对称的性质得：∠CDM＝∠C′DM，DM⊥CC′，DC＝DC′，CM＝C′M\n∴∠CDM+∠DCM＝90°．\n∵∠DCM+∠BCN＝90°，\n∴∠CDM＝∠BCN．\n∵BC＝DC，∠N＝∠DMC＝90°，\n∴△CDM≌△BCN（AAS），\n∴BN＝CM．\n设则∠CBC′＝α，∠ADC′＝2α，\n∴∠CDC′＝90°﹣2α，\n∴〔图4〕，\n∴∠NC′B＝∠C′CB+∠CBC′＝45°，\n∴△NC′B是等腰直角三角形，\n∴C′N＝BN，\n∴BN＝C′N＝C′M＝CM，\n∴CN\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，\n∴（3BN）\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，\n∴〔图5〕，\n∴〔图6〕．\n（3）解：如图2，连接BD交AC于点H，则∠CDB＝45°，〔图7〕，\n当点E在CH上时，延长DE交CC′于点G，过点C′作FC′⊥BC于点F，连接AC′，则DG垂直平分CC′，\n〔图8〕\n∴∠CDG+∠DCC′＝90°，\n∵∠C′CB+∠DCC′＝90°，\n∴∠C′CB＝∠CDG，\n在正方形ABCD中，CD＝CB，∠BCE＝∠DCE，∠ABC＝∠BCD＝90°，AD＝BC，\n∵CE＝CE，\n∴△BCE≌△DCE（SAS），\n∴∠CBE＝∠CDG，\n∴∠C′CB＝∠CBE，\n∴∠DCC′＝∠ABC′，\n∴△DCC′≌△ABC′（SAS），\n∴DC′＝AC′，\n由对称的性质得：DC′＝DC，∠CDG＝∠C′DG，\n∴DC′＝AC′＝DC，\n∴△AC′D是等边三角形，\n∴∠ADC′＝60°，\n∴∠CDC′＝30°，\n∴∠CDG＝∠C′DG＝15°，\n∴∠GDH＝30°，\n∴DE＝2EH，\n∵AB＝AD＝10，\n∴〔图9〕，\n∴〔图10〕，\n∵EH\\({}^{2}\\)+DH\\({}^{2}\\)＝DE\\({}^{2}\\)＝2EH\\({}^{2}\\)，\n∴〔图11〕，\n∴〔图12〕，\n∴CE＝CH﹣EH＝5〔图13〕﹣〔图14〕；\n如图3，当点E在AH上时，\n〔图15〕\n同理CE＝5〔图16〕+〔图17〕；\n综上所述，CE的长为5〔图16〕﹣〔图17〕或5〔图16〕+〔图17〕；\n方法二：\n如图4，\n〔图18〕\n∵E在正方形的对角线上，\n∴DC＝BC，∠DCE＝∠BCE，CE＝CE，\n∴△DEC≌△BEC（SAS），\n∴∠1＝∠2，\n由折叠的性质得：∠1＝∠DEC′，\n∵∠1+∠2+∠DEC′＝360°，\n∴∠1＝∠2＝∠DEC′＝120°，\n∴∠OEB＝60°，\n作BO⊥AC交AC于点O，\n∵BC＝10，\n∴BO＝CO＝5〔图19〕，\n∴DE＝cot60°×BO＝〔图20〕°×5〔图19〕＝〔图21〕，\n∴CE＝5〔图19〕﹣〔图21〕；\n如图5，\n〔图22〕\n同理得：∠1＝∠2＝∠3＝60°，\n解得：OE＝〔图23〕，OC＝OB＝5〔图24〕，\n∴CE＝CO+OE＝5〔图24〕+〔图23〕．\n综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/96c9180a140c7fd14c97ad302e0fa2527280b9aa39c5f0a5d5747e901c97fe2d.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/bc177159c3048eb5ebb0c992032ffc2deabecf8886adbe1b02464615ef4bf706.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/73c275a5b34ec91af68bc93650654872ef4cac588b25fd30a7e0428279821063.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/6ade4a474b1873eb027e539b8b342f166bf9466969def8a07e7cbd9d4ea7e20b.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/fb2ba4d4b7d44037c6aac68794b899a7b18cc14c22de0840247bd7c11b8eebf4.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/22e4b4dc7235a09ce5352b79175bd7e54e77f0a7041438aef69f69c2e08d9357.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/2cf7f8633ce7480ef54dc25b36f080fb7fe78a5cb2d7aa903acab8e78095a8d4.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/6507d45aeba311592a96ed7f53e8cd384d2949c0831c33b386c86c673632be8b.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/624e42b0cf31ba1f0f1e62532b831e6eb08518c39de25ed4f77619c0c1326169.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/7dadd04c419538f0bf29715c36c875049bc746ee1194a97c161a2e31943271b7.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/9745f86bf578cd5af8aed99510e42abe4d47ab7f5562bb1952cc13f753f3b36e.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/fb8d112939c6cc4806ff27f3d22568c2bb81f452959e1ef862a9ed52ec2a8763.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/d07be4ab243d38003b6ef0c5bee7caca948ebb3e18d11966518cea21b843bed9.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/4c2ec546c15105e8884ded2327750c6a136bd95a61d8bca296dd691a23e5882e.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/416bf9fa3372e642cc5a17fffda3351df2156a9564e95d1d36acf2d15150ada6.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/1dfc5c9973e00ba40395a2e054b9564596327157e4132fa5a3517ebc8145c1df.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/c6e9c0957d2cc22ec9fd35ee6a6360f44e8e812f67e0cd139e3e25b62d6cb32c.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/71d60bb0b4b5242475ee67d670c60111c947c2a4bd73555ca4e3c3d6ed0f8efb.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/424ba716850c480adbf66430f5049a74e8ca6e8f400eeed3d80e4f0ab1a1f11d.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/01a8e11c29ef1b11022db94cc40d05fbc3b9e23c813b1413103036468616a714.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/06f2174af176cc55052c8aa329009947f96d9a375c676eb01e50100f393a84c6.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/29853abba8e0014ec5a7988b57ce39ea85de390d1fc9fba3f3d83750796f4d27.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/94bc376f35e8548d7ea89dd2b4aba2f0711881c398b11cb4d7ebfc1d99996622.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/55d1544c08f21f93c7a64e978a6914004825edaf4134de4afd8d53478b8c7c14.png"
+  ],
+  "answer": "（1）∴〔图2〕\n（2）∴〔图6〕\n（3）综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕",
+  "solution_steps": [
+    "（1）证明：∵四边形ABCD是正方形，点O是对角线AC的中点，",
+    "∴OC′⊥AC，∠C′＝∠ACD＝45°，",
+    "∴△OEC′是等腰直角三角形．",
+    "由对称的性质得：CE＝C′E，",
+    "∴〔图2〕；",
+    "（2）解：如图1，过点B作BN⊥CN交CC′的延长线于点N，延长DE交CC′于点M，",
+    "〔图3〕",
+    "由对称的性质得：∠CDM＝∠C′DM，DM⊥CC′，DC＝DC′，CM＝C′M",
+    "∴∠CDM+∠DCM＝90°．",
+    "∵∠DCM+∠BCN＝90°，",
+    "∴∠CDM＝∠BCN．",
+    "∵BC＝DC，∠N＝∠DMC＝90°，",
+    "∴△CDM≌△BCN（AAS），",
+    "∴BN＝CM．",
+    "设则∠CBC′＝α，∠ADC′＝2α，",
+    "∴∠CDC′＝90°﹣2α，",
+    "∴〔图4〕，",
+    "∴∠NC′B＝∠C′CB+∠CBC′＝45°，",
+    "∴△NC′B是等腰直角三角形，",
+    "∴C′N＝BN，",
+    "∴BN＝C′N＝C′M＝CM，",
+    "∴CN\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，",
+    "∴（3BN）\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，",
+    "∴〔图5〕，",
+    "∴〔图6〕．",
+    "（3）解：如图2，连接BD交AC于点H，则∠CDB＝45°，〔图7〕，",
+    "当点E在CH上时，延长DE交CC′于点G，过点C′作FC′⊥BC于点F，连接AC′，则DG垂直平分CC′，",
+    "〔图8〕",
+    "∴∠CDG+∠DCC′＝90°，",
+    "∵∠C′CB+∠DCC′＝90°，",
+    "∴∠C′CB＝∠CDG，",
+    "在正方形ABCD中，CD＝CB，∠BCE＝∠DCE，∠ABC＝∠BCD＝90°，AD＝BC，",
+    "∵CE＝CE，",
+    "∴△BCE≌△DCE（SAS），",
+    "∴∠CBE＝∠CDG，",
+    "∴∠C′CB＝∠CBE，",
+    "∴∠DCC′＝∠ABC′，",
+    "∴△DCC′≌△ABC′（SAS），",
+    "∴DC′＝AC′，",
+    "由对称的性质得：DC′＝DC，∠CDG＝∠C′DG，",
+    "∴DC′＝AC′＝DC，",
+    "∴△AC′D是等边三角形，",
+    "∴∠ADC′＝60°，",
+    "∴∠CDC′＝30°，",
+    "∴∠CDG＝∠C′DG＝15°，",
+    "∴∠GDH＝30°，",
+    "∴DE＝2EH，",
+    "∵AB＝AD＝10，",
+    "∴〔图9〕，",
+    "∴〔图10〕，",
+    "∵EH\\({}^{2}\\)+DH\\({}^{2}\\)＝DE\\({}^{2}\\)＝2EH\\({}^{2}\\)，",
+    "∴〔图11〕，",
+    "∴〔图12〕，",
+    "∴CE＝CH﹣EH＝5〔图13〕﹣〔图14〕；",
+    "如图3，当点E在AH上时，",
+    "〔图15〕",
+    "同理CE＝5〔图16〕+〔图17〕；",
+    "综上所述，CE的长为5〔图16〕﹣〔图17〕或5〔图16〕+〔图17〕；",
+    "方法二：",
+    "如图4，",
+    "〔图18〕",
+    "∵E在正方形的对角线上，",
+    "∴DC＝BC，∠DCE＝∠BCE，CE＝CE，",
+    "∴△DEC≌△BEC（SAS），",
+    "∴∠1＝∠2，",
+    "由折叠的性质得：∠1＝∠DEC′，",
+    "∵∠1+∠2+∠DEC′＝360°，",
+    "∴∠1＝∠2＝∠DEC′＝120°，",
+    "∴∠OEB＝60°，",
+    "作BO⊥AC交AC于点O，",
+    "∵BC＝10，",
+    "∴BO＝CO＝5〔图19〕，",
+    "∴DE＝cot60°×BO＝〔图20〕°×5〔图19〕＝〔图21〕，",
+    "∴CE＝5〔图19〕﹣〔图21〕；",
+    "如图5，",
+    "〔图22〕",
+    "同理得：∠1＝∠2＝∠3＝60°，",
+    "解得：OE＝〔图23〕，OC＝OB＝5〔图24〕，",
+    "∴CE＝CO+OE＝5〔图24〕+〔图23〕．",
+    "综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕．"
+  ],
+  "solution": "（1）证明：∵四边形ABCD是正方形，点O是对角线AC的中点，\n∴OC′⊥AC，∠C′＝∠ACD＝45°，\n∴△OEC′是等腰直角三角形．\n由对称的性质得：CE＝C′E，\n∴〔图2〕；\n（2）解：如图1，过点B作BN⊥CN交CC′的延长线于点N，延长DE交CC′于点M，\n〔图3〕\n由对称的性质得：∠CDM＝∠C′DM，DM⊥CC′，DC＝DC′，CM＝C′M\n∴∠CDM+∠DCM＝90°．\n∵∠DCM+∠BCN＝90°，\n∴∠CDM＝∠BCN．\n∵BC＝DC，∠N＝∠DMC＝90°，\n∴△CDM≌△BCN（AAS），\n∴BN＝CM．\n设则∠CBC′＝α，∠ADC′＝2α，\n∴∠CDC′＝90°﹣2α，\n∴〔图4〕，\n∴∠NC′B＝∠C′CB+∠CBC′＝45°，\n∴△NC′B是等腰直角三角形，\n∴C′N＝BN，\n∴BN＝C′N＝C′M＝CM，\n∴CN\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，\n∴（3BN）\\({}^{2}\\)+BN\\({}^{2}\\)＝CB\\({}^{2}\\)＝100，\n∴〔图5〕，\n∴〔图6〕．\n（3）解：如图2，连接BD交AC于点H，则∠CDB＝45°，〔图7〕，\n当点E在CH上时，延长DE交CC′于点G，过点C′作FC′⊥BC于点F，连接AC′，则DG垂直平分CC′，\n〔图8〕\n∴∠CDG+∠DCC′＝90°，\n∵∠C′CB+∠DCC′＝90°，\n∴∠C′CB＝∠CDG，\n在正方形ABCD中，CD＝CB，∠BCE＝∠DCE，∠ABC＝∠BCD＝90°，AD＝BC，\n∵CE＝CE，\n∴△BCE≌△DCE（SAS），\n∴∠CBE＝∠CDG，\n∴∠C′CB＝∠CBE，\n∴∠DCC′＝∠ABC′，\n∴△DCC′≌△ABC′（SAS），\n∴DC′＝AC′，\n由对称的性质得：DC′＝DC，∠CDG＝∠C′DG，\n∴DC′＝AC′＝DC，\n∴△AC′D是等边三角形，\n∴∠ADC′＝60°，\n∴∠CDC′＝30°，\n∴∠CDG＝∠C′DG＝15°，\n∴∠GDH＝30°，\n∴DE＝2EH，\n∵AB＝AD＝10，\n∴〔图9〕，\n∴〔图10〕，\n∵EH\\({}^{2}\\)+DH\\({}^{2}\\)＝DE\\({}^{2}\\)＝2EH\\({}^{2}\\)，\n∴〔图11〕，\n∴〔图12〕，\n∴CE＝CH﹣EH＝5〔图13〕﹣〔图14〕；\n如图3，当点E在AH上时，\n〔图15〕\n同理CE＝5〔图16〕+〔图17〕；\n综上所述，CE的长为5〔图16〕﹣〔图17〕或5〔图16〕+〔图17〕；\n方法二：\n如图4，\n〔图18〕\n∵E在正方形的对角线上，\n∴DC＝BC，∠DCE＝∠BCE，CE＝CE，\n∴△DEC≌△BEC（SAS），\n∴∠1＝∠2，\n由折叠的性质得：∠1＝∠DEC′，\n∵∠1+∠2+∠DEC′＝360°，\n∴∠1＝∠2＝∠DEC′＝120°，\n∴∠OEB＝60°，\n作BO⊥AC交AC于点O，\n∵BC＝10，\n∴BO＝CO＝5〔图19〕，\n∴DE＝cot60°×BO＝〔图20〕°×5〔图19〕＝〔图21〕，\n∴CE＝5〔图19〕﹣〔图21〕；\n如图5，\n〔图22〕\n同理得：∠1＝∠2＝∠3＝60°，\n解得：OE＝〔图23〕，OC＝OB＝5〔图24〕，\n∴CE＝CO+OE＝5〔图24〕+〔图23〕．\n综上所述，CE的长为5〔图24〕﹣〔图23〕或5〔图24〕+〔图23〕．",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    2,
+    6,
+    24,
+    23,
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      72
+    ],
+    "solution_body_blocks": [
+      442,
+      525
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7EF0BCDE0F/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          371.82,
+          583.64,
+          627.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      25,
+      26,
+      27,
+      28,
+      29
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q20-p25.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q20-p26.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q20-p27.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q20-p28.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q20-p29.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          629.55,
+          583.64,
+          768.18
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          752.73
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 28,
+        "bbox_pt": [
+          11.82,
+          76.36,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 29,
+        "bbox_pt": [
+          11.82,
+          75.91,
+          583.64,
+          593.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G04.05",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G04.05.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。 本问的要求和解答步骤对应“用边长平方关系判定直角”。 本问解答对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

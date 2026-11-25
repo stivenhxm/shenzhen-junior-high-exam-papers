@@ -1,0 +1,469 @@
+{
+  "id": "SZ-G9-T2-6077A9B8E3-Q22",
+  "paper_id": "SZ-G9-T2-6077A9B8E3",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "根据独立条件确定二次函数表达式、由二次表达式读取图象关键性质",
+  "stem": "如图，抛物线y＝ax\\({}^{2}\\)﹣2x＋c与x轴相交于A(﹣1，0)，B(3，0)两点．\n（1）求抛物线的函数表达式；\n（2）点C在抛物线的对称轴上，且位于x轴的上方，将\\(\\vartriangle\\)ABC沿直线AC翻折得到\\(\\vartriangle AB ^ { \\prime } C\\)，点\\(B'\\)恰好落在抛物线的对称轴上．若点G为直线AC下方抛物线上的一点，求当\\(\\vartriangle AB'G\\)面积最大时点G的横坐标；\n（3）点P是抛物线上位于对称轴右侧的一点，在抛物线的对称轴上存在一点Q使得\\(\\vartriangle BPQ\\)为等边三角形，请直接写出此时直线AP的函数表达式．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/e5/e5a2a9cae9f4069037a9d9f0d543b3d2884dc6f6766380f72ade8ec1c566d961.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）y＝x\\({}^{2}\\)﹣2x﹣3；（2）\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)；（3）y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+  "answer": "（1）y＝x\\({}^{2}\\)﹣2x﹣3；（2）\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)；（3）y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+  "given_solution": "【分析】（1）根据待定系数法，把点A（﹣1，0），C（3，0）的坐标代入y＝ax\\({}^{2}\\)﹣2x＋c得到方程组求解即可；\n（2）设抛物线的对称轴与x轴交于点H，则H点的坐标为（1，0），AH＝2，由翻折得AB′＝AB＝4，求出B′H的长，可得点B′的坐标，设点G（t，r），且r＝t\\({}^{2}\\)﹣2t﹣3，设直线AG解析式为y＝kx＋b，对称轴与AG交于点D，先求得AG解析式，再求得点D的坐标，将△AB'G面积表示成关于t的函数，利用二次函数的最值即可．\n（3）由题意可知△B′BA为等边三角形，分两种情况讨论：①当点P在x轴的上方时，点Q在x轴上方，连接BQ，B′P．证出△BAQ≌△BB′P，可得AP垂直平分BB′，则C点在直线AP上，可求出直线AP的解析式，②当点P在x轴的下方时，点Q在x轴下方．同理可求出另一直线解析式．\n【详解】解：（1）由题意得：\\(\\begin{cases} 0=a+2+c \\\\ 0=9a-6+c \\end{cases}\\)，解得：\\(\\begin{cases} a=1 \\\\ c=-3 \\end{cases}\\)，\n∴抛物线的函数表达式为y＝x\\({}^{2}\\)﹣2x﹣3．\n（2）∵抛物线与x轴交于A（﹣1，0），B（3，0），\n∴AB＝4，抛物线的对称轴为直线x＝1，\n如图，设抛物线的对称轴与x轴交于点H，则H点的坐标为（1，0），AH＝2，\n由翻折得AB′＝AB＝4，\n在Rt△AB′H中，由勾股定理，得B′H＝\\(\\sqrt[] { {AB^{\\prime}}^{2} -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∴点B′的坐标为（1，2\\(\\sqrt[] { 3 }\\)），\n设点G（t，r），且r＝t\\({}^{2}\\)﹣2t﹣3，设直线AG解析式为y＝kx＋b，对称轴与AG交于点D，\n则：\\(\\begin{cases} tk+b=r \\\\ -k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { r } { t+1 } \\\\ b=\\frac { r } { t+1 } \\end{cases}\\)，\n∴直线AG解析式为y＝\\(\\frac { r } { t+1 }x+\\frac { r } { t+1 }\\)，\n∴D（1，\\(\\frac { 2r } { t+1 }\\)），\n∴B′D＝2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)，\n∴\\(S_{\\vartriangle AB' G} =S_{\\vartriangle AB' D} + S_{\\vartriangle GB' D}\\)\n＝\\(\\frac { 1 } { 2 }\\)•B′D•2＋\\(\\frac { 1 } { 2 }\\)•B′D•（t﹣1）\n＝\\(\\frac { 1 } { 2 }\\)•B′D•（t＋1）\n＝\\(\\frac { 1 } { 2 }\\)（2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)）（t＋1）\n＝\\(\\sqrt[] { 3 }\\)（t＋1）﹣（t2﹣2t﹣3）\n＝﹣t\\({}^{2}\\)＋（2＋\\(\\sqrt[] { 3 }\\)）t＋3＋\\(\\sqrt[] { 3 }\\)，\n∵﹣1＜0，\n∴当t＝﹣\\(\\frac { 2+\\sqrt[] { 3 } } { 2\\times (-1) }\\)＝\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)时，S\\({}_{△}\\)\\({}_{AB}\\)\\({}_{′}\\)\\({}_{G}\\)的值最大，此时点G坐标为（\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)，\\(-\\frac { 13 } { 4 }\\)）；\n（3）取（2）中的点B′，B，连接BB′，\n∵AB′＝AB，∠B′AB＝60°，\n∴△ABB′为等边三角形．分类讨论如下：\n①当点P在x轴的上方时，点Q在x轴上方，连接BQ，B′P．\n∵△PBQ，△ABB′为等边三角形，\n∴BQ＝BP，AB＝BB′，∠PBQ＝∠B′BA＝60°，\n∴∠ABQ＝∠B′BP，\n∴△ABQ≌△B′BP（SAS），\n∴AQ＝B′P．\n∵点Q在抛物线的对称轴上，\n∴AQ＝BQ，\n∴B′P＝BQ＝BP，\n又∵AB′＝AB，\n∴AP垂直平分BB′，\n由翻折可知AC垂直平分BB′，\n∴点C在直线AP上，\n设直线AP的函数表达式为y＝k\\({}_{1}\\)x＋b\\({}_{1}\\)，\n则\\(\\begin{cases} -k_{ 1 } +b_{ 1 } =0 \\\\ k_{ 1 } +b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)x＋\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n②当点P在x轴的下方时，点Q在x轴下方．\n∵△PBQ，△ABB′为等边三角形，\n∴BP＝BQ，AB＝BB′，∠BB′A＝∠QBP＝∠B′BA＝60°．\n∴∠ABP＝∠B′BQ，\n∴△ABP≌△B′BQ（SAS），\n∴∠BAP＝∠BB′Q，\n∵AB′＝BB′，B′H⊥AB，\n∴∠BB′Q＝\\(\\frac { 1 } { 2 }\\)∠BB′A＝30°，\n∴∠BAP＝30°，\n设AP与y轴相交于点E，\n在Rt△AOE中，OE＝OA•tan∠BAP＝OA•tan30°＝1×\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴点E的坐标为（0，﹣\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)）．\n设直线AP的函数表达式为y＝mx＋n，\n则\\(\\begin{cases} 0=-m+n \\\\ -\\frac { \\sqrt[] { 3 } } { 3 }=n \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { \\sqrt[] { 3 } } { 3 } \\\\ n=-\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线AP的函数表达式为y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n综上所述，直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n〔图2〕\n【点睛】本题考查了二次函数的综合题，涉及的知识点有：待定系数法求二次函数解析式，待定系数法求一次函数解析式，二次函数最值的应用，轴对称的性质，全等三角形的判定和性质，等边三角形的判定与性质，锐角三角函数等知识，综合性较强，有一定的难度．",
+  "given_solution_figures": [
+    "assets/figures/e5/e5a2a9cae9f4069037a9d9f0d543b3d2884dc6f6766380f72ade8ec1c566d961.png",
+    "assets/figures/23/235af16bf6c8bfcbee44a85e1a7119f627b17ec5d3f7323bf30e48263cde27e9.png"
+  ],
+  "solution": "解：（1）由题意得：\\(\\begin{cases} 0=a+2+c \\\\ 0=9a-6+c \\end{cases}\\)，解得：\\(\\begin{cases} a=1 \\\\ c=-3 \\end{cases}\\)，\n∴抛物线的函数表达式为y＝x\\({}^{2}\\)﹣2x﹣3．\n（2）∵抛物线与x轴交于A（﹣1，0），B（3，0），\n∴AB＝4，抛物线的对称轴为直线x＝1，\n如图，设抛物线的对称轴与x轴交于点H，则H点的坐标为（1，0），AH＝2，\n由翻折得AB′＝AB＝4，\n在Rt△AB′H中，由勾股定理，得B′H＝\\(\\sqrt[] { {AB^{\\prime}}^{2} -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∴点B′的坐标为（1，2\\(\\sqrt[] { 3 }\\)），\n设点G（t，r），且r＝t\\({}^{2}\\)﹣2t﹣3，设直线AG解析式为y＝kx＋b，对称轴与AG交于点D，\n则：\\(\\begin{cases} tk+b=r \\\\ -k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { r } { t+1 } \\\\ b=\\frac { r } { t+1 } \\end{cases}\\)，\n∴直线AG解析式为y＝\\(\\frac { r } { t+1 }x+\\frac { r } { t+1 }\\)，\n∴D（1，\\(\\frac { 2r } { t+1 }\\)），\n∴B′D＝2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)，\n∴\\(S_{\\vartriangle AB' G} =S_{\\vartriangle AB' D} + S_{\\vartriangle GB' D}\\)\n＝\\(\\frac { 1 } { 2 }\\)•B′D•2＋\\(\\frac { 1 } { 2 }\\)•B′D•（t﹣1）\n＝\\(\\frac { 1 } { 2 }\\)•B′D•（t＋1）\n＝\\(\\frac { 1 } { 2 }\\)（2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)）（t＋1）\n＝\\(\\sqrt[] { 3 }\\)（t＋1）﹣（t2﹣2t﹣3）\n＝﹣t\\({}^{2}\\)＋（2＋\\(\\sqrt[] { 3 }\\)）t＋3＋\\(\\sqrt[] { 3 }\\)，\n∵﹣1＜0，\n∴当t＝﹣\\(\\frac { 2+\\sqrt[] { 3 } } { 2\\times (-1) }\\)＝\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)时，S\\({}_{△}\\)\\({}_{AB}\\)\\({}_{′}\\)\\({}_{G}\\)的值最大，此时点G坐标为（\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)，\\(-\\frac { 13 } { 4 }\\)）；\n（3）取（2）中的点B′，B，连接BB′，\n∵AB′＝AB，∠B′AB＝60°，\n∴△ABB′为等边三角形．分类讨论如下：\n①当点P在x轴的上方时，点Q在x轴上方，连接BQ，B′P．\n∵△PBQ，△ABB′为等边三角形，\n∴BQ＝BP，AB＝BB′，∠PBQ＝∠B′BA＝60°，\n∴∠ABQ＝∠B′BP，\n∴△ABQ≌△B′BP（SAS），\n∴AQ＝B′P．\n∵点Q在抛物线的对称轴上，\n∴AQ＝BQ，\n∴B′P＝BQ＝BP，\n又∵AB′＝AB，\n∴AP垂直平分BB′，\n由翻折可知AC垂直平分BB′，\n∴点C在直线AP上，\n设直线AP的函数表达式为y＝k\\({}_{1}\\)x＋b\\({}_{1}\\)，\n则\\(\\begin{cases} -k_{ 1 } +b_{ 1 } =0 \\\\ k_{ 1 } +b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)x＋\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n②当点P在x轴的下方时，点Q在x轴下方．\n∵△PBQ，△ABB′为等边三角形，\n∴BP＝BQ，AB＝BB′，∠BB′A＝∠QBP＝∠B′BA＝60°．\n∴∠ABP＝∠B′BQ，\n∴△ABP≌△B′BQ（SAS），\n∴∠BAP＝∠BB′Q，\n∵AB′＝BB′，B′H⊥AB，\n∴∠BB′Q＝\\(\\frac { 1 } { 2 }\\)∠BB′A＝30°，\n∴∠BAP＝30°，\n设AP与y轴相交于点E，\n在Rt△AOE中，OE＝OA•tan∠BAP＝OA•tan30°＝1×\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴点E的坐标为（0，﹣\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)）．\n设直线AP的函数表达式为y＝mx＋n，\n则\\(\\begin{cases} 0=-m+n \\\\ -\\frac { \\sqrt[] { 3 } } { 3 }=n \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { \\sqrt[] { 3 } } { 3 } \\\\ n=-\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线AP的函数表达式为y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n综上所述，直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n〔图2〕",
+  "solution_steps": [
+    "解：（1）由题意得：\\(\\begin{cases} 0=a+2+c \\\\ 0=9a-6+c \\end{cases}\\)，解得：\\(\\begin{cases} a=1 \\\\ c=-3 \\end{cases}\\)，",
+    "∴抛物线的函数表达式为y＝x\\({}^{2}\\)﹣2x﹣3．",
+    "（2）∵抛物线与x轴交于A（﹣1，0），B（3，0），",
+    "∴AB＝4，抛物线的对称轴为直线x＝1，",
+    "如图，设抛物线的对称轴与x轴交于点H，则H点的坐标为（1，0），AH＝2，",
+    "由翻折得AB′＝AB＝4，",
+    "在Rt△AB′H中，由勾股定理，得B′H＝\\(\\sqrt[] { {AB^{\\prime}}^{2} -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+    "∴点B′的坐标为（1，2\\(\\sqrt[] { 3 }\\)），",
+    "设点G（t，r），且r＝t\\({}^{2}\\)﹣2t﹣3，设直线AG解析式为y＝kx＋b，对称轴与AG交于点D，",
+    "则：\\(\\begin{cases} tk+b=r \\\\ -k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { r } { t+1 } \\\\ b=\\frac { r } { t+1 } \\end{cases}\\)，",
+    "∴直线AG解析式为y＝\\(\\frac { r } { t+1 }x+\\frac { r } { t+1 }\\)，",
+    "∴D（1，\\(\\frac { 2r } { t+1 }\\)），",
+    "∴B′D＝2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)，",
+    "∴\\(S_{\\vartriangle AB' G} =S_{\\vartriangle AB' D} + S_{\\vartriangle GB' D}\\)",
+    "＝\\(\\frac { 1 } { 2 }\\)•B′D•2＋\\(\\frac { 1 } { 2 }\\)•B′D•（t﹣1）",
+    "＝\\(\\frac { 1 } { 2 }\\)•B′D•（t＋1）",
+    "＝\\(\\frac { 1 } { 2 }\\)（2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)）（t＋1）",
+    "＝\\(\\sqrt[] { 3 }\\)（t＋1）﹣（t2﹣2t﹣3）",
+    "＝﹣t\\({}^{2}\\)＋（2＋\\(\\sqrt[] { 3 }\\)）t＋3＋\\(\\sqrt[] { 3 }\\)，",
+    "∵﹣1＜0，",
+    "∴当t＝﹣\\(\\frac { 2+\\sqrt[] { 3 } } { 2\\times (-1) }\\)＝\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)时，S\\({}_{△}\\)\\({}_{AB}\\)\\({}_{′}\\)\\({}_{G}\\)的值最大，此时点G坐标为（\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)，\\(-\\frac { 13 } { 4 }\\)）；",
+    "（3）取（2）中的点B′，B，连接BB′，",
+    "∵AB′＝AB，∠B′AB＝60°，",
+    "∴△ABB′为等边三角形．分类讨论如下：",
+    "①当点P在x轴的上方时，点Q在x轴上方，连接BQ，B′P．",
+    "∵△PBQ，△ABB′为等边三角形，",
+    "∴BQ＝BP，AB＝BB′，∠PBQ＝∠B′BA＝60°，",
+    "∴∠ABQ＝∠B′BP，",
+    "∴△ABQ≌△B′BP（SAS），",
+    "∴AQ＝B′P．",
+    "∵点Q在抛物线的对称轴上，",
+    "∴AQ＝BQ，",
+    "∴B′P＝BQ＝BP，",
+    "又∵AB′＝AB，",
+    "∴AP垂直平分BB′，",
+    "由翻折可知AC垂直平分BB′，",
+    "∴点C在直线AP上，",
+    "设直线AP的函数表达式为y＝k\\({}_{1}\\)x＋b\\({}_{1}\\)，",
+    "则\\(\\begin{cases} -k_{ 1 } +b_{ 1 } =0 \\\\ k_{ 1 } +b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+    "∴直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)x＋\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+    "②当点P在x轴的下方时，点Q在x轴下方．",
+    "∵△PBQ，△ABB′为等边三角形，",
+    "∴BP＝BQ，AB＝BB′，∠BB′A＝∠QBP＝∠B′BA＝60°．",
+    "∴∠ABP＝∠B′BQ，",
+    "∴△ABP≌△B′BQ（SAS），",
+    "∴∠BAP＝∠BB′Q，",
+    "∵AB′＝BB′，B′H⊥AB，",
+    "∴∠BB′Q＝\\(\\frac { 1 } { 2 }\\)∠BB′A＝30°，",
+    "∴∠BAP＝30°，",
+    "设AP与y轴相交于点E，",
+    "在Rt△AOE中，OE＝OA•tan∠BAP＝OA•tan30°＝1×\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+    "∴点E的坐标为（0，﹣\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)）．",
+    "设直线AP的函数表达式为y＝mx＋n，",
+    "则\\(\\begin{cases} 0=-m+n \\\\ -\\frac { \\sqrt[] { 3 } } { 3 }=n \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { \\sqrt[] { 3 } } { 3 } \\\\ n=-\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+    "∴直线AP的函数表达式为y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+    "综上所述，直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，抛物线y＝ax\\({}^{2}\\)﹣2x＋c与x轴相交于A(﹣1，0)，B(3，0)两点．",
+      "paper_blocks": [
+        56
+      ]
+    },
+    {
+      "id": "fig-60",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        60
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-6077A9B8E3-Q22-P01",
+      "label": "（1）",
+      "prompt": "求抛物线的函数表达式；",
+      "stem_text": "求抛物线的函数表达式；",
+      "material_ids": [
+        "context",
+        "fig-60"
+      ],
+      "requires": [],
+      "given_answer": "y＝x\\({}^{2}\\)﹣2x﹣3；",
+      "answer": "y＝x\\({}^{2}\\)﹣2x﹣3；",
+      "given_solution": "由题意得：\\(\\begin{cases} 0=a+2+c \\\\ 0=9a-6+c \\end{cases}\\)，解得：\\(\\begin{cases} a=1 \\\\ c=-3 \\end{cases}\\)，\n∴抛物线的函数表达式为y＝x\\({}^{2}\\)﹣2x﹣3．",
+      "solution_steps": [
+        "由题意得：\\(\\begin{cases} 0=a+2+c \\\\ 0=9a-6+c \\end{cases}\\)，解得：\\(\\begin{cases} a=1 \\\\ c=-3 \\end{cases}\\)，",
+        "∴抛物线的函数表达式为y＝x\\({}^{2}\\)﹣2x﹣3．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          60
+        ],
+        "solution_block_ids": [
+          328,
+          329
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-6077A9B8E3-Q22-P02",
+      "label": "（2）",
+      "prompt": "点C在抛物线的对称轴上，且位于x轴的上方，将\\(\\vartriangle\\)ABC沿直线AC翻折得到\\(\\vartriangle AB ^ { \\prime } C\\)，点\\(B'\\)恰好落在抛物线的对称轴上．若点G为直线AC下方抛物线上的一点，求当\\(\\vartriangle AB'G\\)面积最大时点G的横坐标；",
+      "stem_text": "点C在抛物线的对称轴上，且位于x轴的上方，将\\(\\vartriangle\\)ABC沿直线AC翻折得到\\(\\vartriangle AB ^ { \\prime } C\\)，点\\(B'\\)恰好落在抛物线的对称轴上．若点G为直线AC下方抛物线上的一点，求当\\(\\vartriangle AB'G\\)面积最大时点G的横坐标；",
+      "material_ids": [
+        "context",
+        "fig-60"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)；",
+      "answer": "\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)；",
+      "given_solution": "∵抛物线与x轴交于A（﹣1，0），B（3，0），\n∴AB＝4，抛物线的对称轴为直线x＝1，\n如图，设抛物线的对称轴与x轴交于点H，则H点的坐标为（1，0），AH＝2，\n由翻折得AB′＝AB＝4，\n在Rt△AB′H中，由勾股定理，得B′H＝\\(\\sqrt[] { {AB^{\\prime}}^{2} -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∴点B′的坐标为（1，2\\(\\sqrt[] { 3 }\\)），\n设点G（t，r），且r＝t\\({}^{2}\\)﹣2t﹣3，设直线AG解析式为y＝kx＋b，对称轴与AG交于点D，\n则：\\(\\begin{cases} tk+b=r \\\\ -k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { r } { t+1 } \\\\ b=\\frac { r } { t+1 } \\end{cases}\\)，\n∴直线AG解析式为y＝\\(\\frac { r } { t+1 }x+\\frac { r } { t+1 }\\)，\n∴D（1，\\(\\frac { 2r } { t+1 }\\)），\n∴B′D＝2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)，\n∴\\(S_{\\vartriangle AB' G} =S_{\\vartriangle AB' D} + S_{\\vartriangle GB' D}\\)\n＝\\(\\frac { 1 } { 2 }\\)•B′D•2＋\\(\\frac { 1 } { 2 }\\)•B′D•（t﹣1）\n＝\\(\\frac { 1 } { 2 }\\)•B′D•（t＋1）\n＝\\(\\frac { 1 } { 2 }\\)（2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)）（t＋1）\n＝\\(\\sqrt[] { 3 }\\)（t＋1）﹣（t2﹣2t﹣3）\n＝﹣t\\({}^{2}\\)＋（2＋\\(\\sqrt[] { 3 }\\)）t＋3＋\\(\\sqrt[] { 3 }\\)，\n∵﹣1＜0，\n∴当t＝﹣\\(\\frac { 2+\\sqrt[] { 3 } } { 2\\times (-1) }\\)＝\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)时，S\\({}_{△}\\)\\({}_{AB}\\)\\({}_{′}\\)\\({}_{G}\\)的值最大，此时点G坐标为（\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)，\\(-\\frac { 13 } { 4 }\\)）；",
+      "solution_steps": [
+        "∵抛物线与x轴交于A（﹣1，0），B（3，0），",
+        "∴AB＝4，抛物线的对称轴为直线x＝1，",
+        "如图，设抛物线的对称轴与x轴交于点H，则H点的坐标为（1，0），AH＝2，",
+        "由翻折得AB′＝AB＝4，",
+        "在Rt△AB′H中，由勾股定理，得B′H＝\\(\\sqrt[] { {AB^{\\prime}}^{2} -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -2 ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+        "∴点B′的坐标为（1，2\\(\\sqrt[] { 3 }\\)），",
+        "设点G（t，r），且r＝t\\({}^{2}\\)﹣2t﹣3，设直线AG解析式为y＝kx＋b，对称轴与AG交于点D，",
+        "则：\\(\\begin{cases} tk+b=r \\\\ -k+b=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { r } { t+1 } \\\\ b=\\frac { r } { t+1 } \\end{cases}\\)，",
+        "∴直线AG解析式为y＝\\(\\frac { r } { t+1 }x+\\frac { r } { t+1 }\\)，",
+        "∴D（1，\\(\\frac { 2r } { t+1 }\\)），",
+        "∴B′D＝2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)，",
+        "∴\\(S_{\\vartriangle AB' G} =S_{\\vartriangle AB' D} + S_{\\vartriangle GB' D}\\)",
+        "＝\\(\\frac { 1 } { 2 }\\)•B′D•2＋\\(\\frac { 1 } { 2 }\\)•B′D•（t﹣1）",
+        "＝\\(\\frac { 1 } { 2 }\\)•B′D•（t＋1）",
+        "＝\\(\\frac { 1 } { 2 }\\)（2\\(\\sqrt[] { 3 }\\)﹣\\(\\frac { 2r } { t+1 }\\)）（t＋1）",
+        "＝\\(\\sqrt[] { 3 }\\)（t＋1）﹣（t2﹣2t﹣3）",
+        "＝﹣t\\({}^{2}\\)＋（2＋\\(\\sqrt[] { 3 }\\)）t＋3＋\\(\\sqrt[] { 3 }\\)，",
+        "∵﹣1＜0，",
+        "∴当t＝﹣\\(\\frac { 2+\\sqrt[] { 3 } } { 2\\times (-1) }\\)＝\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)时，S\\({}_{△}\\)\\({}_{AB}\\)\\({}_{′}\\)\\({}_{G}\\)的值最大，此时点G坐标为（\\(\\frac { 2+\\sqrt[] { 3 } } { 2 }\\)，\\(-\\frac { 13 } { 4 }\\)）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          58,
+          60
+        ],
+        "solution_block_ids": [
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [
+        "E.N13.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由二次表达式读取图象关键性质”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-6077A9B8E3-Q22-P03",
+      "label": "（3）",
+      "prompt": "点P是抛物线上位于对称轴右侧的一点，在抛物线的对称轴上存在一点Q使得\\(\\vartriangle BPQ\\)为等边三角形，请直接写出此时直线AP的函数表达式．",
+      "stem_text": "点P是抛物线上位于对称轴右侧的一点，在抛物线的对称轴上存在一点Q使得\\(\\vartriangle BPQ\\)为等边三角形，请直接写出此时直线AP的函数表达式．",
+      "material_ids": [
+        "context",
+        "fig-60"
+      ],
+      "requires": [],
+      "given_answer": "y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+      "answer": "y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+      "given_solution": "取（2）中的点B′，B，连接BB′，\n∵AB′＝AB，∠B′AB＝60°，\n∴△ABB′为等边三角形．分类讨论如下：\n①当点P在x轴的上方时，点Q在x轴上方，连接BQ，B′P．\n∵△PBQ，△ABB′为等边三角形，\n∴BQ＝BP，AB＝BB′，∠PBQ＝∠B′BA＝60°，\n∴∠ABQ＝∠B′BP，\n∴△ABQ≌△B′BP（SAS），\n∴AQ＝B′P．\n∵点Q在抛物线的对称轴上，\n∴AQ＝BQ，\n∴B′P＝BQ＝BP，\n又∵AB′＝AB，\n∴AP垂直平分BB′，\n由翻折可知AC垂直平分BB′，\n∴点C在直线AP上，\n设直线AP的函数表达式为y＝k\\({}_{1}\\)x＋b\\({}_{1}\\)，\n则\\(\\begin{cases} -k_{ 1 } +b_{ 1 } =0 \\\\ k_{ 1 } +b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)x＋\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n②当点P在x轴的下方时，点Q在x轴下方．\n∵△PBQ，△ABB′为等边三角形，\n∴BP＝BQ，AB＝BB′，∠BB′A＝∠QBP＝∠B′BA＝60°．\n∴∠ABP＝∠B′BQ，\n∴△ABP≌△B′BQ（SAS），\n∴∠BAP＝∠BB′Q，\n∵AB′＝BB′，B′H⊥AB，\n∴∠BB′Q＝\\(\\frac { 1 } { 2 }\\)∠BB′A＝30°，\n∴∠BAP＝30°，\n设AP与y轴相交于点E，\n在Rt△AOE中，OE＝OA•tan∠BAP＝OA•tan30°＝1×\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴点E的坐标为（0，﹣\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)）．\n设直线AP的函数表达式为y＝mx＋n，\n则\\(\\begin{cases} 0=-m+n \\\\ -\\frac { \\sqrt[] { 3 } } { 3 }=n \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { \\sqrt[] { 3 } } { 3 } \\\\ n=-\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴直线AP的函数表达式为y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n综上所述，直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．\n〔图2〕",
+      "solution_steps": [
+        "取（2）中的点B′，B，连接BB′，",
+        "∵AB′＝AB，∠B′AB＝60°，",
+        "∴△ABB′为等边三角形．分类讨论如下：",
+        "①当点P在x轴的上方时，点Q在x轴上方，连接BQ，B′P．",
+        "∵△PBQ，△ABB′为等边三角形，",
+        "∴BQ＝BP，AB＝BB′，∠PBQ＝∠B′BA＝60°，",
+        "∴∠ABQ＝∠B′BP，",
+        "∴△ABQ≌△B′BP（SAS），",
+        "∴AQ＝B′P．",
+        "∵点Q在抛物线的对称轴上，",
+        "∴AQ＝BQ，",
+        "∴B′P＝BQ＝BP，",
+        "又∵AB′＝AB，",
+        "∴AP垂直平分BB′，",
+        "由翻折可知AC垂直平分BB′，",
+        "∴点C在直线AP上，",
+        "设直线AP的函数表达式为y＝k\\({}_{1}\\)x＋b\\({}_{1}\\)，",
+        "则\\(\\begin{cases} -k_{ 1 } +b_{ 1 } =0 \\\\ k_{ 1 } +b=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\\\ b_{ 1 } =\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+        "∴直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)x＋\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+        "②当点P在x轴的下方时，点Q在x轴下方．",
+        "∵△PBQ，△ABB′为等边三角形，",
+        "∴BP＝BQ，AB＝BB′，∠BB′A＝∠QBP＝∠B′BA＝60°．",
+        "∴∠ABP＝∠B′BQ，",
+        "∴△ABP≌△B′BQ（SAS），",
+        "∴∠BAP＝∠BB′Q，",
+        "∵AB′＝BB′，B′H⊥AB，",
+        "∴∠BB′Q＝\\(\\frac { 1 } { 2 }\\)∠BB′A＝30°，",
+        "∴∠BAP＝30°，",
+        "设AP与y轴相交于点E，",
+        "在Rt△AOE中，OE＝OA•tan∠BAP＝OA•tan30°＝1×\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)＝\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+        "∴点E的坐标为（0，﹣\\(\\frac { \\sqrt[] { 3 } } { 3 }\\)）．",
+        "设直线AP的函数表达式为y＝mx＋n，",
+        "则\\(\\begin{cases} 0=-m+n \\\\ -\\frac { \\sqrt[] { 3 } } { 3 }=n \\end{cases}\\)，解得：\\(\\begin{cases} m=-\\frac { \\sqrt[] { 3 } } { 3 } \\\\ n=-\\frac { \\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+        "∴直线AP的函数表达式为y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+        "综上所述，直线AP的函数表达式为y＝\\(\\frac { \\sqrt[] { 3 } } { 3 }x+\\frac { \\sqrt[] { 3 } } { 3 }\\)或y＝\\(-\\frac { \\sqrt[] { 3 } } { 3 }x-\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          59,
+          60
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [
+        "E.N13.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由二次表达式读取图象关键性质”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      60
+    ],
+    "solution_body_blocks": [
+      318,
+      385
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-6077A9B8E3/paper-q22-p04.webp",
+      "assets/SZ-G9-T2-6077A9B8E3/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          292.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q22-p16.webp",
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q22-p17.webp",
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q22-p18.webp",
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q22-p19.webp",
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          706.82,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N13.02",
+    "M.N13.01"
+  ],
+  "exam_ids": [
+    "E.N13.02.01",
+    "E.N13.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。 本问题面与解答对应“由二次表达式读取图象关键性质”。",
+  "tag_source": "小问标签汇总"
+}

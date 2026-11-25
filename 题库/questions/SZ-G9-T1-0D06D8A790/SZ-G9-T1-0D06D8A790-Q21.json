@@ -1,0 +1,364 @@
+{
+  "id": "SZ-G9-T1-0D06D8A790-Q21",
+  "paper_id": "SZ-G9-T1-0D06D8A790",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "确认对应关系并证明三角形相似、由相似比求对应线段或周长",
+  "stem": "（1）问题\n如图1，在四边形\\(ABCD\\)中，点P为\\(AB\\)上一点，当\\(\\angle DPC=\\angle A=\\angle B=90{}^\\circ\\)时，求证：\\(AD\\cdot BC=AP\\cdot BP\\)．\n（2）探究\n若将\\(90{}^\\circ\\)角改为锐角（如图2），其他条件不变，上述结论还成立吗？说明理由．\n（3）应用\n如图3，在\\(\\vartriangle ABC\\)中，\\(AB=2\\sqrt[] { 2 }\\)，\\(\\angle B=45{}^\\circ\\)，以点A为直角顶点作等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)．点D在\\(BC\\)上，点E在\\(AC\\)上，点F在\\(BC\\)上，且\\(\\angle EFD=45{}^\\circ\\)，若\\(CE=\\sqrt[] { 5 }\\)，求\\(CD\\)的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-0D06D8A790/figures/2c37642c9a03aa9101463da676580f64c0a5e95da033cda9259085492cb7a637.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）成立；理由见解析；（3）5",
+  "answer": "（1）见解析；（2）成立；理由见解析；（3）5",
+  "given_solution": "【分析】（1）由\\(\\angle DPC=\\angle A=\\angle B=90{}^\\circ\\)可得\\(\\angle ADP=\\angle BPC\\),即可证到\\(\\vartriangle ADP\\backsim \\vartriangle BPC\\)，然后运用相似三角形的性质即可解决问题；\n（2）由\\(\\angle DPC=\\angle A=\\angle B=\\alpha\\)可得\\(\\angle ADP=\\angle BPC\\),即可证到\\(\\vartriangle ADP\\backsim \\vartriangle BPC\\)，然后运用相似三角形的性质即可解决问题；\n（3）证明\\(\\vartriangle ABD\\backsim \\vartriangle DFE\\),求出\\(DF=4\\)，再证\\(\\vartriangle EFC\\backsim \\vartriangle DEC\\),可求\\(FC=1\\),进而解答即可．\n【详解】解：（1）证明：如图1，\n\\(\\because \\angle DPC=90{}^\\circ\\)\n\\(\\therefore \\angle BPC+\\angle APD=90{}^\\circ\\)，\n\\(\\because \\angle A=90{}^\\circ\\)，\n\\(\\therefore \\angle ADP+\\angle APD=90{}^\\circ\\)\n\\(\\therefore \\angle APD=\\angle BPC\\)，\n又\\(\\because \\angle A=\\angle B=90{}^\\circ\\)\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore AD:BP=AP:BC\\)\n\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；\n（2）结论\\(AD\\cdot BC=AP\\cdot BP\\)仍成立；\n理由：如图2，\n\\(\\because \\angle BPD=\\angle DPC+\\angle BPC\\)，\n又\\(\\because \\angle BPD=\\angle A+\\angle APD\\)，\n\\(\\therefore \\angle DPC+\\angle BPC=\\angle A+\\angle APD\\)，\n\\(\\because \\angle DPC=\\angle A=\\alpha\\)，\n\\(\\therefore \\angle BPC=\\angle APD\\)，\n又\\(\\because \\angle A=\\angle B=\\alpha\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore AD:BP=AP:BC\\)\n\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；\n（3）\\(\\because \\angle EFD=45{}^\\circ\\),\n\\(\\therefore \\angle B=\\angle ADE=45{}^\\circ\\),\n\\(\\therefore \\angle BAD=\\angle EDF\\),\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)\n\\(\\therefore AB:DF=AD:DE\\)\n\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形\n\\(\\therefore AD:DE=1:\\sqrt[] { 2 }\\)\n\\(\\therefore AB:DF=1:\\sqrt[] { 2 }\\)\n\\(\\because\\)\\(AB=2\\sqrt[] { 2 }\\)\n\\(\\therefore DF=4\\)\n\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形\n\\(\\therefore \\angle AED=45{}^\\circ\\)\n\\(\\because\\)\\(\\angle EFD=45{}^\\circ\\)\n\\(\\therefore \\angle DEC=\\angle EFC=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)\n又\\(\\because \\angle C=\\angle C\\)\n\\(\\therefore \\vartriangle DEC\\backsim \\vartriangle EFC\\)\n\\(\\therefore DC:EC=EC:CF\\)即\\(EC ^ { 2 } =FC\\cdot (4+FC)\\)\n\\(\\because EC=\\sqrt[] { 5 }\\)\n\\(\\therefore\\)\\(5=FC(4+FC)\\)\n\\(\\therefore FC=1\\)\n解得\\(CD=5\\)．\n【点睛】本题考查相似三角形的综合题，三角形的相似，正切值的求法，能够通过构造\\(45{}^\\circ\\)角将问题转化为一线三角是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-0D06D8A790/figures/1caeddb4886a5f8fea32e12d0e9051a37c5b507036e3f6fd5c463a7edbe9d44a.png"
+  ],
+  "solution": "解：（1）证明：如图1，\n\\(\\because \\angle DPC=90{}^\\circ\\)\n\\(\\therefore \\angle BPC+\\angle APD=90{}^\\circ\\)，\n\\(\\because \\angle A=90{}^\\circ\\)，\n\\(\\therefore \\angle ADP+\\angle APD=90{}^\\circ\\)\n\\(\\therefore \\angle APD=\\angle BPC\\)，\n又\\(\\because \\angle A=\\angle B=90{}^\\circ\\)\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore AD:BP=AP:BC\\)\n\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；\n（2）结论\\(AD\\cdot BC=AP\\cdot BP\\)仍成立；\n理由：如图2，\n\\(\\because \\angle BPD=\\angle DPC+\\angle BPC\\)，\n又\\(\\because \\angle BPD=\\angle A+\\angle APD\\)，\n\\(\\therefore \\angle DPC+\\angle BPC=\\angle A+\\angle APD\\)，\n\\(\\because \\angle DPC=\\angle A=\\alpha\\)，\n\\(\\therefore \\angle BPC=\\angle APD\\)，\n又\\(\\because \\angle A=\\angle B=\\alpha\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore AD:BP=AP:BC\\)\n\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；\n（3）\\(\\because \\angle EFD=45{}^\\circ\\),\n\\(\\therefore \\angle B=\\angle ADE=45{}^\\circ\\),\n\\(\\therefore \\angle BAD=\\angle EDF\\),\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)\n\\(\\therefore AB:DF=AD:DE\\)\n\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形\n\\(\\therefore AD:DE=1:\\sqrt[] { 2 }\\)\n\\(\\therefore AB:DF=1:\\sqrt[] { 2 }\\)\n\\(\\because\\)\\(AB=2\\sqrt[] { 2 }\\)\n\\(\\therefore DF=4\\)\n\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形\n\\(\\therefore \\angle AED=45{}^\\circ\\)\n\\(\\because\\)\\(\\angle EFD=45{}^\\circ\\)\n\\(\\therefore \\angle DEC=\\angle EFC=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)\n又\\(\\because \\angle C=\\angle C\\)\n\\(\\therefore \\vartriangle DEC\\backsim \\vartriangle EFC\\)\n\\(\\therefore DC:EC=EC:CF\\)即\\(EC ^ { 2 } =FC\\cdot (4+FC)\\)\n\\(\\because EC=\\sqrt[] { 5 }\\)\n\\(\\therefore\\)\\(5=FC(4+FC)\\)\n\\(\\therefore FC=1\\)\n解得\\(CD=5\\)．",
+  "solution_steps": [
+    "解：（1）证明：如图1，",
+    "\\(\\because \\angle DPC=90{}^\\circ\\)",
+    "\\(\\therefore \\angle BPC+\\angle APD=90{}^\\circ\\)，",
+    "\\(\\because \\angle A=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ADP+\\angle APD=90{}^\\circ\\)",
+    "\\(\\therefore \\angle APD=\\angle BPC\\)，",
+    "又\\(\\because \\angle A=\\angle B=90{}^\\circ\\)",
+    "\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，",
+    "\\(\\therefore AD:BP=AP:BC\\)",
+    "\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；",
+    "（2）结论\\(AD\\cdot BC=AP\\cdot BP\\)仍成立；",
+    "理由：如图2，",
+    "\\(\\because \\angle BPD=\\angle DPC+\\angle BPC\\)，",
+    "又\\(\\because \\angle BPD=\\angle A+\\angle APD\\)，",
+    "\\(\\therefore \\angle DPC+\\angle BPC=\\angle A+\\angle APD\\)，",
+    "\\(\\because \\angle DPC=\\angle A=\\alpha\\)，",
+    "\\(\\therefore \\angle BPC=\\angle APD\\)，",
+    "又\\(\\because \\angle A=\\angle B=\\alpha\\)，",
+    "\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，",
+    "\\(\\therefore AD:BP=AP:BC\\)",
+    "\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；",
+    "（3）\\(\\because \\angle EFD=45{}^\\circ\\),",
+    "\\(\\therefore \\angle B=\\angle ADE=45{}^\\circ\\),",
+    "\\(\\therefore \\angle BAD=\\angle EDF\\),",
+    "\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)",
+    "\\(\\therefore AB:DF=AD:DE\\)",
+    "\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形",
+    "\\(\\therefore AD:DE=1:\\sqrt[] { 2 }\\)",
+    "\\(\\therefore AB:DF=1:\\sqrt[] { 2 }\\)",
+    "\\(\\because\\)\\(AB=2\\sqrt[] { 2 }\\)",
+    "\\(\\therefore DF=4\\)",
+    "\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形",
+    "\\(\\therefore \\angle AED=45{}^\\circ\\)",
+    "\\(\\because\\)\\(\\angle EFD=45{}^\\circ\\)",
+    "\\(\\therefore \\angle DEC=\\angle EFC=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)",
+    "又\\(\\because \\angle C=\\angle C\\)",
+    "\\(\\therefore \\vartriangle DEC\\backsim \\vartriangle EFC\\)",
+    "\\(\\therefore DC:EC=EC:CF\\)即\\(EC ^ { 2 } =FC\\cdot (4+FC)\\)",
+    "\\(\\because EC=\\sqrt[] { 5 }\\)",
+    "\\(\\therefore\\)\\(5=FC(4+FC)\\)",
+    "\\(\\therefore FC=1\\)",
+    "解得\\(CD=5\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "fig-63",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-0D06D8A790-Q21-P01",
+      "label": "（1）",
+      "prompt": "问题\n如图1，在四边形\\(ABCD\\)中，点P为\\(AB\\)上一点，当\\(\\angle DPC=\\angle A=\\angle B=90{}^\\circ\\)时，求证：\\(AD\\cdot BC=AP\\cdot BP\\)．",
+      "stem_text": "问题\n如图1，在四边形\\(ABCD\\)中，点P为\\(AB\\)上一点，当\\(\\angle DPC=\\angle A=\\angle B=90{}^\\circ\\)时，求证：\\(AD\\cdot BC=AP\\cdot BP\\)．",
+      "material_ids": [
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：如图1，\n\\(\\because \\angle DPC=90{}^\\circ\\)\n\\(\\therefore \\angle BPC+\\angle APD=90{}^\\circ\\)，\n\\(\\because \\angle A=90{}^\\circ\\)，\n\\(\\therefore \\angle ADP+\\angle APD=90{}^\\circ\\)\n\\(\\therefore \\angle APD=\\angle BPC\\)，\n又\\(\\because \\angle A=\\angle B=90{}^\\circ\\)\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore AD:BP=AP:BC\\)\n\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；",
+      "solution_steps": [
+        "证明：如图1，",
+        "\\(\\because \\angle DPC=90{}^\\circ\\)",
+        "\\(\\therefore \\angle BPC+\\angle APD=90{}^\\circ\\)，",
+        "\\(\\because \\angle A=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ADP+\\angle APD=90{}^\\circ\\)",
+        "\\(\\therefore \\angle APD=\\angle BPC\\)，",
+        "又\\(\\because \\angle A=\\angle B=90{}^\\circ\\)",
+        "\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，",
+        "\\(\\therefore AD:BP=AP:BC\\)",
+        "\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          63
+        ],
+        "solution_block_ids": [
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02",
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.02.01",
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "先证两三角形相似，再由对应边成比例推出乘积相等。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-0D06D8A790-Q21-P02",
+      "label": "（2）",
+      "prompt": "探究\n若将\\(90{}^\\circ\\)角改为锐角（如图2），其他条件不变，上述结论还成立吗？说明理由．",
+      "stem_text": "探究\n若将\\(90{}^\\circ\\)角改为锐角（如图2），其他条件不变，上述结论还成立吗？说明理由．",
+      "material_ids": [
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "成立；理由见解析；",
+      "answer": "成立；理由见解析；",
+      "given_solution": "结论\\(AD\\cdot BC=AP\\cdot BP\\)仍成立；\n理由：如图2，\n\\(\\because \\angle BPD=\\angle DPC+\\angle BPC\\)，\n又\\(\\because \\angle BPD=\\angle A+\\angle APD\\)，\n\\(\\therefore \\angle DPC+\\angle BPC=\\angle A+\\angle APD\\)，\n\\(\\because \\angle DPC=\\angle A=\\alpha\\)，\n\\(\\therefore \\angle BPC=\\angle APD\\)，\n又\\(\\because \\angle A=\\angle B=\\alpha\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore AD:BP=AP:BC\\)\n\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；",
+      "solution_steps": [
+        "结论\\(AD\\cdot BC=AP\\cdot BP\\)仍成立；",
+        "理由：如图2，",
+        "\\(\\because \\angle BPD=\\angle DPC+\\angle BPC\\)，",
+        "又\\(\\because \\angle BPD=\\angle A+\\angle APD\\)，",
+        "\\(\\therefore \\angle DPC+\\angle BPC=\\angle A+\\angle APD\\)，",
+        "\\(\\because \\angle DPC=\\angle A=\\alpha\\)，",
+        "\\(\\therefore \\angle BPC=\\angle APD\\)，",
+        "又\\(\\because \\angle A=\\angle B=\\alpha\\)，",
+        "\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle BPC\\)，",
+        "\\(\\therefore AD:BP=AP:BC\\)",
+        "\\(\\therefore AD\\cdot BC=AP\\cdot BP\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          63
+        ],
+        "solution_block_ids": [
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.04"
+      ],
+      "exam_ids": [
+        "E.G08.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "证明改成锐角后相似关系和边长乘积等式仍成立。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-0D06D8A790-Q21-P03",
+      "label": "（3）",
+      "prompt": "应用\n如图3，在\\(\\vartriangle ABC\\)中，\\(AB=2\\sqrt[] { 2 }\\)，\\(\\angle B=45{}^\\circ\\)，以点A为直角顶点作等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)．点D在\\(BC\\)上，点E在\\(AC\\)上，点F在\\(BC\\)上，且\\(\\angle EFD=45{}^\\circ\\)，若\\(CE=\\sqrt[] { 5 }\\)，求\\(CD\\)的长．",
+      "stem_text": "应用\n如图3，在\\(\\vartriangle ABC\\)中，\\(AB=2\\sqrt[] { 2 }\\)，\\(\\angle B=45{}^\\circ\\)，以点A为直角顶点作等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADE\\)．点D在\\(BC\\)上，点E在\\(AC\\)上，点F在\\(BC\\)上，且\\(\\angle EFD=45{}^\\circ\\)，若\\(CE=\\sqrt[] { 5 }\\)，求\\(CD\\)的长．",
+      "material_ids": [
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "5",
+      "answer": "5",
+      "given_solution": "\\(\\because \\angle EFD=45{}^\\circ\\),\n\\(\\therefore \\angle B=\\angle ADE=45{}^\\circ\\),\n\\(\\therefore \\angle BAD=\\angle EDF\\),\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)\n\\(\\therefore AB:DF=AD:DE\\)\n\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形\n\\(\\therefore AD:DE=1:\\sqrt[] { 2 }\\)\n\\(\\therefore AB:DF=1:\\sqrt[] { 2 }\\)\n\\(\\because\\)\\(AB=2\\sqrt[] { 2 }\\)\n\\(\\therefore DF=4\\)\n\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形\n\\(\\therefore \\angle AED=45{}^\\circ\\)\n\\(\\because\\)\\(\\angle EFD=45{}^\\circ\\)\n\\(\\therefore \\angle DEC=\\angle EFC=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)\n又\\(\\because \\angle C=\\angle C\\)\n\\(\\therefore \\vartriangle DEC\\backsim \\vartriangle EFC\\)\n\\(\\therefore DC:EC=EC:CF\\)即\\(EC ^ { 2 } =FC\\cdot (4+FC)\\)\n\\(\\because EC=\\sqrt[] { 5 }\\)\n\\(\\therefore\\)\\(5=FC(4+FC)\\)\n\\(\\therefore FC=1\\)\n解得\\(CD=5\\)．",
+      "solution_steps": [
+        "\\(\\because \\angle EFD=45{}^\\circ\\),",
+        "\\(\\therefore \\angle B=\\angle ADE=45{}^\\circ\\),",
+        "\\(\\therefore \\angle BAD=\\angle EDF\\),",
+        "\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)",
+        "\\(\\therefore AB:DF=AD:DE\\)",
+        "\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形",
+        "\\(\\therefore AD:DE=1:\\sqrt[] { 2 }\\)",
+        "\\(\\therefore AB:DF=1:\\sqrt[] { 2 }\\)",
+        "\\(\\because\\)\\(AB=2\\sqrt[] { 2 }\\)",
+        "\\(\\therefore DF=4\\)",
+        "\\(\\because Rt\\vartriangle ADE\\)是等腰直角三角形",
+        "\\(\\therefore \\angle AED=45{}^\\circ\\)",
+        "\\(\\because\\)\\(\\angle EFD=45{}^\\circ\\)",
+        "\\(\\therefore \\angle DEC=\\angle EFC=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)",
+        "又\\(\\because \\angle C=\\angle C\\)",
+        "\\(\\therefore \\vartriangle DEC\\backsim \\vartriangle EFC\\)",
+        "\\(\\therefore DC:EC=EC:CF\\)即\\(EC ^ { 2 } =FC\\cdot (4+FC)\\)",
+        "\\(\\because EC=\\sqrt[] { 5 }\\)",
+        "\\(\\therefore\\)\\(5=FC(4+FC)\\)",
+        "\\(\\therefore FC=1\\)",
+        "解得\\(CD=5\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      57,
+      63
+    ],
+    "solution_body_blocks": [
+      318,
+      372
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-0D06D8A790/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          348.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-0D06D8A790/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-0D06D8A790/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          144.09,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          650.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G08.03",
+    "M.G08.04"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G08.03.01",
+    "E.G08.04.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "先证两三角形相似，再由对应边成比例推出乘积相等。 证明改成锐角后相似关系和边长乘积等式仍成立。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

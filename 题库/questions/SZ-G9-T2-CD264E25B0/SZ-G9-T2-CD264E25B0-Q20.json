@@ -1,0 +1,521 @@
+{
+  "id": "SZ-G9-T2-CD264E25B0-Q20",
+  "paper_id": "SZ-G9-T2-CD264E25B0",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "【问题发现】\n（1）如图1，将正方形\\(ABCD\\)和正方形\\(AEFG\\)按如图所示的位置摆放，连接\\(BE\\)和\\(DG\\)，则\\(BE\\)与\\(DG\\)的数量关系是______，请说明理由．\n【类比探究】\n（2）若将“正方形\\(ABCD\\)和正方形\\(AEFG\\)”改成“矩形\\(ABCD\\)和矩形\\(AEFG\\)，且矩形\\(ABCD\\)\\(\\backsim\\)矩形\\(AEFG\\)，\\(AE=3,AG=4\\)”，如图，点E、D、G三点共线，点G在线段\\(DE\\)上时，若\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，求\\(BE\\)的长．\n【拓展延伸】\n（3）若将“正方形\\(ABCD\\)和正方形\\(AEFG\\)改成“菱形\\(ABCD\\)和菱形\\(AEFG\\)，且菱形\\(ABCD\\)\\(\\backsim\\)菱形\\(AEFG\\)，如图3，\\(AD=5,AC=8,AG\\)平分\\(\\angle DAC\\)，点P在射线\\(AG\\)上，在射线\\(AF\\)上截取\\(AQ\\)，使得\\(AQ=\\frac { 4 } { 5 }AP\\)，连接\\(PQ,QC\\)，当\\(tan\\angle PQC=\\frac { 3 } { 4 }\\)时，直接写出\\(AP\\)的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/42/422ca54537f1e21d47c359d74d47fad58fef67017f4e4ca2cc800355d75f26b0.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BE=DG\\)，理由见解析；（2）\\(3\\)；（3）\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．",
+  "answer": "（1）\\(BE=DG\\)，理由见解析；（2）\\(3\\)；（3）\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．",
+  "given_solution": "【分析】（1）可证明\\(\\vartriangle BAE≌\\vartriangle DAG\\)，从而\\(BE=DG\\)，进一步得出结论；\n（2）作\\(AH\\bot DE\\)于\\(H\\)，可依次求得\\(EG=5\\)，\\(AH=\\frac { 12 } { 5 }\\)，\\(GH=\\frac { 16 } { 5 }\\)，解直角三角形\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)求得\\(DH=\\frac { 36 } { 5 }\\)，\\(DG=4\\)，可证明\\(\\vartriangle ABE\\backsim \\vartriangle ADG\\)，从而\\(\\frac { BE } { GD }=\\frac { AE } { AG }=\\frac { 3 } { 4 }\\)，从而得出\\(BE=\\frac { 3 } { 4 }GD=3\\)；\n（3）分为两种情形：当\\(Q\\)在\\(AF\\)上时，连接\\(BD\\)，交\\(AC\\)于\\(T\\)，作\\(CH\\bot AF\\)，交\\(AF\\)的延长线于\\(H\\)，可证得\\(\\angle DAC=\\angle GAF\\)，\\(\\frac { \\ AD } { AT }=\\frac { AP } { AQ }=\\frac { 5 } { 4 }\\)，从而得出\\(\\vartriangle DAT\\backsim \\vartriangle PAQ\\)，从而\\(\\angle PQA=\\angle ATD=90{}^\\circ\\)，可推出\\(\\angle CQH=\\angle APQ\\)，从而\\(tan\\angle CQH=tan\\angle APQ\\)，从而得出\\(\\frac { CH } { QH }=\\frac { 4 } { 3 }\\)，设\\(CH=4x\\)，\\(QH=3x\\)，可求得\\(tan\\angle CAH=\\frac { 1 } { 3 }\\)，从而\\(\\frac { CH } { AH }=\\frac { 1 } { 3 }\\)，从而得出\\(AH=3CH=12x\\)，根据勾股定理得\\((12x) ^ { 2 } +(4x) ^ { 2 } =8 ^ { 2 }\\)，得出\\(x=\\frac { \\sqrt[] { 10 } } { 5 }\\)，进而得出结果；当\\(Q\\)在\\(AF\\)的延长线上时，同样方法得出结果．\n【详解】解：（1）\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AEFG\\)是正方形，\n\\(\\therefore AD=AB\\)，\\(AG=AE\\)，\\(\\angle BAD=\\angle EAG=90{}^\\circ\\)，\n\\(\\therefore \\angle BAE=\\angle DAG\\)，\n\\(\\therefore \\vartriangle BAE≌\\vartriangle DAG({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore BE=DG\\)\n故答案为：\\(BE=DG\\)；\n（2）如图2，作\\(AH\\bot DE\\)于\\(H\\)，\n〔图2〕\n\\(\\because\\)四边形\\(AEFG\\)是矩形，\n\\(\\therefore \\angle EAG=90{}^\\circ\\)，\n\\(\\because AE=3\\)，\\(AG=4\\)，\n\\(\\therefore EG=\\sqrt[] { AE ^ { 2 } +AG ^ { 2 } }=5\\)，\n由\\(S_{ \\vartriangle EAG } =\\frac { 1 } { 2 }EG\\cdot AH=\\frac { 1 } { 2 }AE\\cdot AG\\)得，\\(5AH=12\\)，\n\\(\\therefore AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore GH=\\sqrt[] { AG ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 16 } { 5 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，\\(AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore DH=\\sqrt[] { \\left ( { \\frac { 12\\sqrt[] { 10 } } { 5 } } \\right ) ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 36 } { 5 }\\)，\n\\(\\therefore DG=DH-GH=\\frac { 36 } { 5 }-\\frac { 16 } { 5 }=4\\)，\n\\(\\because\\)矩形\\(ABCD\\backsim\\)矩形\\(AEFG\\)，\n\\(\\therefore \\angle EAG=\\angle BAD\\)，\\(\\frac { AE } { AG }=\\frac { AB } { AD }\\)，\n\\(\\therefore \\angle BAE=\\angle DAG\\)，\n\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle ADG\\)，\n\\(\\therefore\\)\\(\\frac { BE } { GD }=\\frac { AE } { AG }=\\frac { 3 } { 4 }\\)，\n\\(\\therefore BE=\\frac { 3 } { 4 }GD=3\\)；\n（3）如图3，当\\(Q\\)在\\(AF\\)上时，连接\\(BD\\)，交\\(AC\\)于\\(T\\)，作\\(CH\\bot AF\\)，交\\(AF\\)的延长线于\\(H\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore BD\\bot AC\\)，\\(AT=\\frac { 1 } { 2 }AC=4\\)，\n\\(\\because\\)菱形\\(ABCD\\backsim\\)菱形\\(AEFG\\)，\n\\(\\therefore \\angle DAB=\\angle GAE\\)，\\(\\angle DAC=\\frac { 1 } { 2 }\\angle DAB\\)，\\(\\angle GAF=\\frac { 1 } { 2 }\\angle GAE\\)，\n\\(\\therefore \\angle DAC=\\angle GAF\\)，\n\\(\\therefore \\angle DAG=\\angle CAF\\)，\n\\(\\because AG\\)平分\\(\\angle DAC\\)，\n\\(\\therefore \\angle DAG=\\angle CAG\\)，\n\\(\\therefore \\angle CAF=\\angle CAG=\\angle DAG\\)；\n\\(\\because\\)\\(\\frac { \\ AD } { AT }=\\frac { AP } { AQ }=\\frac { 5 } { 4 }\\)，\\(\\angle DAC=\\angle GAF\\)，\n\\(\\therefore \\vartriangle DAT\\backsim \\vartriangle PAQ\\)，\n\\(\\therefore \\angle PQA=\\angle ATD=90{}^\\circ\\)，\n∵\\(AQ=\\frac { 4 } { 5 }AP\\)，\n∴\\(PQ=\\sqrt[] { AP ^ { 2 } -AQ ^ { 2 } }=\\sqrt[] { AP ^ { 2 } -\\left ( { \\frac { 4 } { 5 }AP } \\right ) ^ { 2 } }=\\frac { 3 } { 5 }AP\\)，\n\\(\\therefore tan\\angle PAQ=\\frac { PQ } { AQ }=\\frac { \\frac { 3 } { 5 }AP } { \\frac { 4 } { 5 }AP }=\\frac { 3 } { 4 }\\)，\\(\\angle PAQ+\\angle APQ=90{}^\\circ\\)，\n\\(\\because tan\\angle PQC=\\frac { 3 } { 4 }\\)，\n\\(\\therefore \\angle PAQ=\\angle PQC\\)，\n\\(\\therefore \\angle CQH=\\angle APQ\\)，\n\\(\\therefore tan\\angle CQH=tan\\angle APQ=\\frac { 4 } { 3 }\\)，\n\\(\\therefore\\)\\(\\frac { CH } { QH }=\\frac { 4 } { 3 }\\)，\n设\\(CH=4x\\)，\\(QH=3x\\)，\n如图4，过I作\\(IM\\bot AD\\)于M，\n〔图4〕\n∵\\(AD=5\\)，\\(AT=4\\)，\\(\\angle ATD=90{}^\\circ\\)，\n∴\\(DT=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∵\\(\\angle DAI=\\angle TAI\\)，\\(DT\\bot AT\\)，\\(\\angle ATD=90{}^\\circ\\)，\n∴\\(IM=IT\\)\n∴\\(S_{ \\vartriangle ADT } =\\frac { 1 } { 2 }AT\\cdot DT=\\frac { 1 } { 2 }AD\\cdot IM+\\frac { 1 } { 2 }AT\\cdot TI=\\frac { 1 } { 2 }\\left ( { AD+AT } \\right )\\cdot TI\\)，\n∴\\(\\frac { 1 } { 2 }\\times 3\\times 4=\\frac { 1 } { 2 }\\times \\left ( { 5+4 } \\right )\\times TI\\)，\n∴\\(TI=\\frac { 4 } { 3 }\\)，\n∴\\(tan\\angle CAG=\\frac { TI } { AT }=\\frac { 1 } { 3 }=tan\\angle CAH\\)，\n\\(\\therefore\\)\\(\\frac { CH } { AH }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore AH=3CH=12x\\)，\n\\(\\therefore \\left ( { 12x } \\right ) ^ { 2 } +\\left ( { 4x } \\right ) ^ { 2 } =8 ^ { 2 }\\)，\n\\(\\therefore x=\\frac { \\sqrt[] { 10 } } { 5 }\\)，\n\\(\\therefore AQ=AH-QH=9x=\\frac { 9\\sqrt[] { 10 } } { 5 }\\)，\n∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)；\n如图5，当\\(Q\\)在\\(AF\\)的延长线上时，\n〔图5〕\n由上可知：\\(AQ=3x+12x=15x\\)，\n\\(\\therefore AQ=15\\times \\frac { \\sqrt[] { 10 } } { 5 }=3\\sqrt[] { 10 }\\)，\n∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 15\\sqrt[] { 10 } } { 4 }\\)；\n综上所述：\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．\n【点睛】本题考查了正方形、矩形的性质，全等三角形的判定和性质，相似三角形的判定和性质，解直角三角形等知识，解决问题的关键是正确分类，作辅助线，构造直角三角形．",
+  "given_solution_figures": [
+    "assets/figures/9e/9e1eec95afcb7d8acf95519eab1a15ff09d6a3b4c88663011f3fc0ff3e2c1048.png",
+    "assets/figures/eb/ebefa6dac3bb0cf75f78bf05753b233be911aa5279f5aff9adadda72cc888d08.png",
+    "assets/figures/d5/d54d41587bea93150317d6e3aed39caa2f388aeac8396dc3ee5495bee53a25fd.png",
+    "assets/figures/0f/0fee155a67cb040a9783dc08308cc132c4cd81261f78e3667a68c5b8445e7e55.png",
+    "assets/figures/34/3453bd6790a9799a18fe08cf8689754fc4091ca3ecc7bbe5477f96d7fb10edd2.png"
+  ],
+  "solution": "解：（1）\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AEFG\\)是正方形，\n\\(\\therefore AD=AB\\)，\\(AG=AE\\)，\\(\\angle BAD=\\angle EAG=90{}^\\circ\\)，\n\\(\\therefore \\angle BAE=\\angle DAG\\)，\n\\(\\therefore \\vartriangle BAE≌\\vartriangle DAG({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore BE=DG\\)\n故答案为：\\(BE=DG\\)；\n（2）如图2，作\\(AH\\bot DE\\)于\\(H\\)，\n〔图2〕\n\\(\\because\\)四边形\\(AEFG\\)是矩形，\n\\(\\therefore \\angle EAG=90{}^\\circ\\)，\n\\(\\because AE=3\\)，\\(AG=4\\)，\n\\(\\therefore EG=\\sqrt[] { AE ^ { 2 } +AG ^ { 2 } }=5\\)，\n由\\(S_{ \\vartriangle EAG } =\\frac { 1 } { 2 }EG\\cdot AH=\\frac { 1 } { 2 }AE\\cdot AG\\)得，\\(5AH=12\\)，\n\\(\\therefore AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore GH=\\sqrt[] { AG ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 16 } { 5 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，\\(AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore DH=\\sqrt[] { \\left ( { \\frac { 12\\sqrt[] { 10 } } { 5 } } \\right ) ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 36 } { 5 }\\)，\n\\(\\therefore DG=DH-GH=\\frac { 36 } { 5 }-\\frac { 16 } { 5 }=4\\)，\n\\(\\because\\)矩形\\(ABCD\\backsim\\)矩形\\(AEFG\\)，\n\\(\\therefore \\angle EAG=\\angle BAD\\)，\\(\\frac { AE } { AG }=\\frac { AB } { AD }\\)，\n\\(\\therefore \\angle BAE=\\angle DAG\\)，\n\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle ADG\\)，\n\\(\\therefore\\)\\(\\frac { BE } { GD }=\\frac { AE } { AG }=\\frac { 3 } { 4 }\\)，\n\\(\\therefore BE=\\frac { 3 } { 4 }GD=3\\)；\n（3）如图3，当\\(Q\\)在\\(AF\\)上时，连接\\(BD\\)，交\\(AC\\)于\\(T\\)，作\\(CH\\bot AF\\)，交\\(AF\\)的延长线于\\(H\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore BD\\bot AC\\)，\\(AT=\\frac { 1 } { 2 }AC=4\\)，\n\\(\\because\\)菱形\\(ABCD\\backsim\\)菱形\\(AEFG\\)，\n\\(\\therefore \\angle DAB=\\angle GAE\\)，\\(\\angle DAC=\\frac { 1 } { 2 }\\angle DAB\\)，\\(\\angle GAF=\\frac { 1 } { 2 }\\angle GAE\\)，\n\\(\\therefore \\angle DAC=\\angle GAF\\)，\n\\(\\therefore \\angle DAG=\\angle CAF\\)，\n\\(\\because AG\\)平分\\(\\angle DAC\\)，\n\\(\\therefore \\angle DAG=\\angle CAG\\)，\n\\(\\therefore \\angle CAF=\\angle CAG=\\angle DAG\\)；\n\\(\\because\\)\\(\\frac { \\ AD } { AT }=\\frac { AP } { AQ }=\\frac { 5 } { 4 }\\)，\\(\\angle DAC=\\angle GAF\\)，\n\\(\\therefore \\vartriangle DAT\\backsim \\vartriangle PAQ\\)，\n\\(\\therefore \\angle PQA=\\angle ATD=90{}^\\circ\\)，\n∵\\(AQ=\\frac { 4 } { 5 }AP\\)，\n∴\\(PQ=\\sqrt[] { AP ^ { 2 } -AQ ^ { 2 } }=\\sqrt[] { AP ^ { 2 } -\\left ( { \\frac { 4 } { 5 }AP } \\right ) ^ { 2 } }=\\frac { 3 } { 5 }AP\\)，\n\\(\\therefore tan\\angle PAQ=\\frac { PQ } { AQ }=\\frac { \\frac { 3 } { 5 }AP } { \\frac { 4 } { 5 }AP }=\\frac { 3 } { 4 }\\)，\\(\\angle PAQ+\\angle APQ=90{}^\\circ\\)，\n\\(\\because tan\\angle PQC=\\frac { 3 } { 4 }\\)，\n\\(\\therefore \\angle PAQ=\\angle PQC\\)，\n\\(\\therefore \\angle CQH=\\angle APQ\\)，\n\\(\\therefore tan\\angle CQH=tan\\angle APQ=\\frac { 4 } { 3 }\\)，\n\\(\\therefore\\)\\(\\frac { CH } { QH }=\\frac { 4 } { 3 }\\)，\n设\\(CH=4x\\)，\\(QH=3x\\)，\n如图4，过I作\\(IM\\bot AD\\)于M，\n〔图4〕\n∵\\(AD=5\\)，\\(AT=4\\)，\\(\\angle ATD=90{}^\\circ\\)，\n∴\\(DT=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∵\\(\\angle DAI=\\angle TAI\\)，\\(DT\\bot AT\\)，\\(\\angle ATD=90{}^\\circ\\)，\n∴\\(IM=IT\\)\n∴\\(S_{ \\vartriangle ADT } =\\frac { 1 } { 2 }AT\\cdot DT=\\frac { 1 } { 2 }AD\\cdot IM+\\frac { 1 } { 2 }AT\\cdot TI=\\frac { 1 } { 2 }\\left ( { AD+AT } \\right )\\cdot TI\\)，\n∴\\(\\frac { 1 } { 2 }\\times 3\\times 4=\\frac { 1 } { 2 }\\times \\left ( { 5+4 } \\right )\\times TI\\)，\n∴\\(TI=\\frac { 4 } { 3 }\\)，\n∴\\(tan\\angle CAG=\\frac { TI } { AT }=\\frac { 1 } { 3 }=tan\\angle CAH\\)，\n\\(\\therefore\\)\\(\\frac { CH } { AH }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore AH=3CH=12x\\)，\n\\(\\therefore \\left ( { 12x } \\right ) ^ { 2 } +\\left ( { 4x } \\right ) ^ { 2 } =8 ^ { 2 }\\)，\n\\(\\therefore x=\\frac { \\sqrt[] { 10 } } { 5 }\\)，\n\\(\\therefore AQ=AH-QH=9x=\\frac { 9\\sqrt[] { 10 } } { 5 }\\)，\n∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)；\n如图5，当\\(Q\\)在\\(AF\\)的延长线上时，\n〔图5〕\n由上可知：\\(AQ=3x+12x=15x\\)，\n\\(\\therefore AQ=15\\times \\frac { \\sqrt[] { 10 } } { 5 }=3\\sqrt[] { 10 }\\)，\n∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 15\\sqrt[] { 10 } } { 4 }\\)；\n综上所述：\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．",
+  "solution_steps": [
+    "解：（1）\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AEFG\\)是正方形，",
+    "\\(\\therefore AD=AB\\)，\\(AG=AE\\)，\\(\\angle BAD=\\angle EAG=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAE=\\angle DAG\\)，",
+    "\\(\\therefore \\vartriangle BAE≌\\vartriangle DAG({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore BE=DG\\)",
+    "故答案为：\\(BE=DG\\)；",
+    "（2）如图2，作\\(AH\\bot DE\\)于\\(H\\)，",
+    "〔图2〕",
+    "\\(\\because\\)四边形\\(AEFG\\)是矩形，",
+    "\\(\\therefore \\angle EAG=90{}^\\circ\\)，",
+    "\\(\\because AE=3\\)，\\(AG=4\\)，",
+    "\\(\\therefore EG=\\sqrt[] { AE ^ { 2 } +AG ^ { 2 } }=5\\)，",
+    "由\\(S_{ \\vartriangle EAG } =\\frac { 1 } { 2 }EG\\cdot AH=\\frac { 1 } { 2 }AE\\cdot AG\\)得，\\(5AH=12\\)，",
+    "\\(\\therefore AH=\\frac { 12 } { 5 }\\)，",
+    "\\(\\therefore GH=\\sqrt[] { AG ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 16 } { 5 }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，\\(AH=\\frac { 12 } { 5 }\\)，",
+    "\\(\\therefore DH=\\sqrt[] { \\left ( { \\frac { 12\\sqrt[] { 10 } } { 5 } } \\right ) ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 36 } { 5 }\\)，",
+    "\\(\\therefore DG=DH-GH=\\frac { 36 } { 5 }-\\frac { 16 } { 5 }=4\\)，",
+    "\\(\\because\\)矩形\\(ABCD\\backsim\\)矩形\\(AEFG\\)，",
+    "\\(\\therefore \\angle EAG=\\angle BAD\\)，\\(\\frac { AE } { AG }=\\frac { AB } { AD }\\)，",
+    "\\(\\therefore \\angle BAE=\\angle DAG\\)，",
+    "\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle ADG\\)，",
+    "\\(\\therefore\\)\\(\\frac { BE } { GD }=\\frac { AE } { AG }=\\frac { 3 } { 4 }\\)，",
+    "\\(\\therefore BE=\\frac { 3 } { 4 }GD=3\\)；",
+    "（3）如图3，当\\(Q\\)在\\(AF\\)上时，连接\\(BD\\)，交\\(AC\\)于\\(T\\)，作\\(CH\\bot AF\\)，交\\(AF\\)的延长线于\\(H\\)，",
+    "〔图3〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+    "\\(\\therefore BD\\bot AC\\)，\\(AT=\\frac { 1 } { 2 }AC=4\\)，",
+    "\\(\\because\\)菱形\\(ABCD\\backsim\\)菱形\\(AEFG\\)，",
+    "\\(\\therefore \\angle DAB=\\angle GAE\\)，\\(\\angle DAC=\\frac { 1 } { 2 }\\angle DAB\\)，\\(\\angle GAF=\\frac { 1 } { 2 }\\angle GAE\\)，",
+    "\\(\\therefore \\angle DAC=\\angle GAF\\)，",
+    "\\(\\therefore \\angle DAG=\\angle CAF\\)，",
+    "\\(\\because AG\\)平分\\(\\angle DAC\\)，",
+    "\\(\\therefore \\angle DAG=\\angle CAG\\)，",
+    "\\(\\therefore \\angle CAF=\\angle CAG=\\angle DAG\\)；",
+    "\\(\\because\\)\\(\\frac { \\ AD } { AT }=\\frac { AP } { AQ }=\\frac { 5 } { 4 }\\)，\\(\\angle DAC=\\angle GAF\\)，",
+    "\\(\\therefore \\vartriangle DAT\\backsim \\vartriangle PAQ\\)，",
+    "\\(\\therefore \\angle PQA=\\angle ATD=90{}^\\circ\\)，",
+    "∵\\(AQ=\\frac { 4 } { 5 }AP\\)，",
+    "∴\\(PQ=\\sqrt[] { AP ^ { 2 } -AQ ^ { 2 } }=\\sqrt[] { AP ^ { 2 } -\\left ( { \\frac { 4 } { 5 }AP } \\right ) ^ { 2 } }=\\frac { 3 } { 5 }AP\\)，",
+    "\\(\\therefore tan\\angle PAQ=\\frac { PQ } { AQ }=\\frac { \\frac { 3 } { 5 }AP } { \\frac { 4 } { 5 }AP }=\\frac { 3 } { 4 }\\)，\\(\\angle PAQ+\\angle APQ=90{}^\\circ\\)，",
+    "\\(\\because tan\\angle PQC=\\frac { 3 } { 4 }\\)，",
+    "\\(\\therefore \\angle PAQ=\\angle PQC\\)，",
+    "\\(\\therefore \\angle CQH=\\angle APQ\\)，",
+    "\\(\\therefore tan\\angle CQH=tan\\angle APQ=\\frac { 4 } { 3 }\\)，",
+    "\\(\\therefore\\)\\(\\frac { CH } { QH }=\\frac { 4 } { 3 }\\)，",
+    "设\\(CH=4x\\)，\\(QH=3x\\)，",
+    "如图4，过I作\\(IM\\bot AD\\)于M，",
+    "〔图4〕",
+    "∵\\(AD=5\\)，\\(AT=4\\)，\\(\\angle ATD=90{}^\\circ\\)，",
+    "∴\\(DT=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，",
+    "∵\\(\\angle DAI=\\angle TAI\\)，\\(DT\\bot AT\\)，\\(\\angle ATD=90{}^\\circ\\)，",
+    "∴\\(IM=IT\\)",
+    "∴\\(S_{ \\vartriangle ADT } =\\frac { 1 } { 2 }AT\\cdot DT=\\frac { 1 } { 2 }AD\\cdot IM+\\frac { 1 } { 2 }AT\\cdot TI=\\frac { 1 } { 2 }\\left ( { AD+AT } \\right )\\cdot TI\\)，",
+    "∴\\(\\frac { 1 } { 2 }\\times 3\\times 4=\\frac { 1 } { 2 }\\times \\left ( { 5+4 } \\right )\\times TI\\)，",
+    "∴\\(TI=\\frac { 4 } { 3 }\\)，",
+    "∴\\(tan\\angle CAG=\\frac { TI } { AT }=\\frac { 1 } { 3 }=tan\\angle CAH\\)，",
+    "\\(\\therefore\\)\\(\\frac { CH } { AH }=\\frac { 1 } { 3 }\\)，",
+    "\\(\\therefore AH=3CH=12x\\)，",
+    "\\(\\therefore \\left ( { 12x } \\right ) ^ { 2 } +\\left ( { 4x } \\right ) ^ { 2 } =8 ^ { 2 }\\)，",
+    "\\(\\therefore x=\\frac { \\sqrt[] { 10 } } { 5 }\\)，",
+    "\\(\\therefore AQ=AH-QH=9x=\\frac { 9\\sqrt[] { 10 } } { 5 }\\)，",
+    "∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)；",
+    "如图5，当\\(Q\\)在\\(AF\\)的延长线上时，",
+    "〔图5〕",
+    "由上可知：\\(AQ=3x+12x=15x\\)，",
+    "\\(\\therefore AQ=15\\times \\frac { \\sqrt[] { 10 } } { 5 }=3\\sqrt[] { 10 }\\)，",
+    "∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 15\\sqrt[] { 10 } } { 4 }\\)；",
+    "综上所述：\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题发现】",
+      "paper_blocks": [
+        65
+      ]
+    },
+    {
+      "id": "fig-71",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-CD264E25B0-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，将正方形\\(ABCD\\)和正方形\\(AEFG\\)按如图所示的位置摆放，连接\\(BE\\)和\\(DG\\)，则\\(BE\\)与\\(DG\\)的数量关系是______，请说明理由．\n【类比探究】",
+      "stem_text": "如图1，将正方形\\(ABCD\\)和正方形\\(AEFG\\)按如图所示的位置摆放，连接\\(BE\\)和\\(DG\\)，则\\(BE\\)与\\(DG\\)的数量关系是______，请说明理由．\n【类比探究】",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=DG\\)，理由见解析；",
+      "answer": "\\(BE=DG\\)，理由见解析；",
+      "given_solution": "\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AEFG\\)是正方形，\n\\(\\therefore AD=AB\\)，\\(AG=AE\\)，\\(\\angle BAD=\\angle EAG=90{}^\\circ\\)，\n\\(\\therefore \\angle BAE=\\angle DAG\\)，\n\\(\\therefore \\vartriangle BAE≌\\vartriangle DAG({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore BE=DG\\)\n故答案为：\\(BE=DG\\)；",
+      "solution_steps": [
+        "\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AEFG\\)是正方形，",
+        "\\(\\therefore AD=AB\\)，\\(AG=AE\\)，\\(\\angle BAD=\\angle EAG=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAE=\\angle DAG\\)，",
+        "\\(\\therefore \\vartriangle BAE≌\\vartriangle DAG({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore BE=DG\\)",
+        "故答案为：\\(BE=DG\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          65,
+          66,
+          67,
+          71
+        ],
+        "solution_block_ids": [
+          429,
+          430,
+          431,
+          432,
+          433,
+          434
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-CD264E25B0-Q20-P02",
+      "label": "（2）",
+      "prompt": "若将“正方形\\(ABCD\\)和正方形\\(AEFG\\)”改成“矩形\\(ABCD\\)和矩形\\(AEFG\\)，且矩形\\(ABCD\\)\\(\\backsim\\)矩形\\(AEFG\\)，\\(AE=3,AG=4\\)”，如图，点E、D、G三点共线，点G在线段\\(DE\\)上时，若\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，求\\(BE\\)的长．\n【拓展延伸】",
+      "stem_text": "若将“正方形\\(ABCD\\)和正方形\\(AEFG\\)”改成“矩形\\(ABCD\\)和矩形\\(AEFG\\)，且矩形\\(ABCD\\)\\(\\backsim\\)矩形\\(AEFG\\)，\\(AE=3,AG=4\\)”，如图，点E、D、G三点共线，点G在线段\\(DE\\)上时，若\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，求\\(BE\\)的长．\n【拓展延伸】",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(3\\)；",
+      "answer": "\\(3\\)；",
+      "given_solution": "如图2，作\\(AH\\bot DE\\)于\\(H\\)，\n〔图2〕\n\\(\\because\\)四边形\\(AEFG\\)是矩形，\n\\(\\therefore \\angle EAG=90{}^\\circ\\)，\n\\(\\because AE=3\\)，\\(AG=4\\)，\n\\(\\therefore EG=\\sqrt[] { AE ^ { 2 } +AG ^ { 2 } }=5\\)，\n由\\(S_{ \\vartriangle EAG } =\\frac { 1 } { 2 }EG\\cdot AH=\\frac { 1 } { 2 }AE\\cdot AG\\)得，\\(5AH=12\\)，\n\\(\\therefore AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore GH=\\sqrt[] { AG ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 16 } { 5 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，\\(AH=\\frac { 12 } { 5 }\\)，\n\\(\\therefore DH=\\sqrt[] { \\left ( { \\frac { 12\\sqrt[] { 10 } } { 5 } } \\right ) ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 36 } { 5 }\\)，\n\\(\\therefore DG=DH-GH=\\frac { 36 } { 5 }-\\frac { 16 } { 5 }=4\\)，\n\\(\\because\\)矩形\\(ABCD\\backsim\\)矩形\\(AEFG\\)，\n\\(\\therefore \\angle EAG=\\angle BAD\\)，\\(\\frac { AE } { AG }=\\frac { AB } { AD }\\)，\n\\(\\therefore \\angle BAE=\\angle DAG\\)，\n\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle ADG\\)，\n\\(\\therefore\\)\\(\\frac { BE } { GD }=\\frac { AE } { AG }=\\frac { 3 } { 4 }\\)，\n\\(\\therefore BE=\\frac { 3 } { 4 }GD=3\\)；",
+      "solution_steps": [
+        "如图2，作\\(AH\\bot DE\\)于\\(H\\)，",
+        "〔图2〕",
+        "\\(\\because\\)四边形\\(AEFG\\)是矩形，",
+        "\\(\\therefore \\angle EAG=90{}^\\circ\\)，",
+        "\\(\\because AE=3\\)，\\(AG=4\\)，",
+        "\\(\\therefore EG=\\sqrt[] { AE ^ { 2 } +AG ^ { 2 } }=5\\)，",
+        "由\\(S_{ \\vartriangle EAG } =\\frac { 1 } { 2 }EG\\cdot AH=\\frac { 1 } { 2 }AE\\cdot AG\\)得，\\(5AH=12\\)，",
+        "\\(\\therefore AH=\\frac { 12 } { 5 }\\)，",
+        "\\(\\therefore GH=\\sqrt[] { AG ^ { 2 } -AH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 16 } { 5 }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADH\\)中，\\(AD=\\frac { 12\\sqrt[] { 10 } } { 5 }\\)，\\(AH=\\frac { 12 } { 5 }\\)，",
+        "\\(\\therefore DH=\\sqrt[] { \\left ( { \\frac { 12\\sqrt[] { 10 } } { 5 } } \\right ) ^ { 2 } -\\left ( { \\frac { 12 } { 5 } } \\right ) ^ { 2 } }=\\frac { 36 } { 5 }\\)，",
+        "\\(\\therefore DG=DH-GH=\\frac { 36 } { 5 }-\\frac { 16 } { 5 }=4\\)，",
+        "\\(\\because\\)矩形\\(ABCD\\backsim\\)矩形\\(AEFG\\)，",
+        "\\(\\therefore \\angle EAG=\\angle BAD\\)，\\(\\frac { AE } { AG }=\\frac { AB } { AD }\\)，",
+        "\\(\\therefore \\angle BAE=\\angle DAG\\)，",
+        "\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle ADG\\)，",
+        "\\(\\therefore\\)\\(\\frac { BE } { GD }=\\frac { AE } { AG }=\\frac { 3 } { 4 }\\)，",
+        "\\(\\therefore BE=\\frac { 3 } { 4 }GD=3\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          68,
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-CD264E25B0-Q20-P03",
+      "label": "（3）",
+      "prompt": "若将“正方形\\(ABCD\\)和正方形\\(AEFG\\)改成“菱形\\(ABCD\\)和菱形\\(AEFG\\)，且菱形\\(ABCD\\)\\(\\backsim\\)菱形\\(AEFG\\)，如图3，\\(AD=5,AC=8,AG\\)平分\\(\\angle DAC\\)，点P在射线\\(AG\\)上，在射线\\(AF\\)上截取\\(AQ\\)，使得\\(AQ=\\frac { 4 } { 5 }AP\\)，连接\\(PQ,QC\\)，当\\(tan\\angle PQC=\\frac { 3 } { 4 }\\)时，直接写出\\(AP\\)的长．",
+      "stem_text": "若将“正方形\\(ABCD\\)和正方形\\(AEFG\\)改成“菱形\\(ABCD\\)和菱形\\(AEFG\\)，且菱形\\(ABCD\\)\\(\\backsim\\)菱形\\(AEFG\\)，如图3，\\(AD=5,AC=8,AG\\)平分\\(\\angle DAC\\)，点P在射线\\(AG\\)上，在射线\\(AF\\)上截取\\(AQ\\)，使得\\(AQ=\\frac { 4 } { 5 }AP\\)，连接\\(PQ,QC\\)，当\\(tan\\angle PQC=\\frac { 3 } { 4 }\\)时，直接写出\\(AP\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．",
+      "answer": "\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．",
+      "given_solution": "如图3，当\\(Q\\)在\\(AF\\)上时，连接\\(BD\\)，交\\(AC\\)于\\(T\\)，作\\(CH\\bot AF\\)，交\\(AF\\)的延长线于\\(H\\)，\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore BD\\bot AC\\)，\\(AT=\\frac { 1 } { 2 }AC=4\\)，\n\\(\\because\\)菱形\\(ABCD\\backsim\\)菱形\\(AEFG\\)，\n\\(\\therefore \\angle DAB=\\angle GAE\\)，\\(\\angle DAC=\\frac { 1 } { 2 }\\angle DAB\\)，\\(\\angle GAF=\\frac { 1 } { 2 }\\angle GAE\\)，\n\\(\\therefore \\angle DAC=\\angle GAF\\)，\n\\(\\therefore \\angle DAG=\\angle CAF\\)，\n\\(\\because AG\\)平分\\(\\angle DAC\\)，\n\\(\\therefore \\angle DAG=\\angle CAG\\)，\n\\(\\therefore \\angle CAF=\\angle CAG=\\angle DAG\\)；\n\\(\\because\\)\\(\\frac { \\ AD } { AT }=\\frac { AP } { AQ }=\\frac { 5 } { 4 }\\)，\\(\\angle DAC=\\angle GAF\\)，\n\\(\\therefore \\vartriangle DAT\\backsim \\vartriangle PAQ\\)，\n\\(\\therefore \\angle PQA=\\angle ATD=90{}^\\circ\\)，\n∵\\(AQ=\\frac { 4 } { 5 }AP\\)，\n∴\\(PQ=\\sqrt[] { AP ^ { 2 } -AQ ^ { 2 } }=\\sqrt[] { AP ^ { 2 } -\\left ( { \\frac { 4 } { 5 }AP } \\right ) ^ { 2 } }=\\frac { 3 } { 5 }AP\\)，\n\\(\\therefore tan\\angle PAQ=\\frac { PQ } { AQ }=\\frac { \\frac { 3 } { 5 }AP } { \\frac { 4 } { 5 }AP }=\\frac { 3 } { 4 }\\)，\\(\\angle PAQ+\\angle APQ=90{}^\\circ\\)，\n\\(\\because tan\\angle PQC=\\frac { 3 } { 4 }\\)，\n\\(\\therefore \\angle PAQ=\\angle PQC\\)，\n\\(\\therefore \\angle CQH=\\angle APQ\\)，\n\\(\\therefore tan\\angle CQH=tan\\angle APQ=\\frac { 4 } { 3 }\\)，\n\\(\\therefore\\)\\(\\frac { CH } { QH }=\\frac { 4 } { 3 }\\)，\n设\\(CH=4x\\)，\\(QH=3x\\)，\n如图4，过I作\\(IM\\bot AD\\)于M，\n〔图4〕\n∵\\(AD=5\\)，\\(AT=4\\)，\\(\\angle ATD=90{}^\\circ\\)，\n∴\\(DT=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，\n∵\\(\\angle DAI=\\angle TAI\\)，\\(DT\\bot AT\\)，\\(\\angle ATD=90{}^\\circ\\)，\n∴\\(IM=IT\\)\n∴\\(S_{ \\vartriangle ADT } =\\frac { 1 } { 2 }AT\\cdot DT=\\frac { 1 } { 2 }AD\\cdot IM+\\frac { 1 } { 2 }AT\\cdot TI=\\frac { 1 } { 2 }\\left ( { AD+AT } \\right )\\cdot TI\\)，\n∴\\(\\frac { 1 } { 2 }\\times 3\\times 4=\\frac { 1 } { 2 }\\times \\left ( { 5+4 } \\right )\\times TI\\)，\n∴\\(TI=\\frac { 4 } { 3 }\\)，\n∴\\(tan\\angle CAG=\\frac { TI } { AT }=\\frac { 1 } { 3 }=tan\\angle CAH\\)，\n\\(\\therefore\\)\\(\\frac { CH } { AH }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore AH=3CH=12x\\)，\n\\(\\therefore \\left ( { 12x } \\right ) ^ { 2 } +\\left ( { 4x } \\right ) ^ { 2 } =8 ^ { 2 }\\)，\n\\(\\therefore x=\\frac { \\sqrt[] { 10 } } { 5 }\\)，\n\\(\\therefore AQ=AH-QH=9x=\\frac { 9\\sqrt[] { 10 } } { 5 }\\)，\n∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)；\n如图5，当\\(Q\\)在\\(AF\\)的延长线上时，\n〔图5〕\n由上可知：\\(AQ=3x+12x=15x\\)，\n\\(\\therefore AQ=15\\times \\frac { \\sqrt[] { 10 } } { 5 }=3\\sqrt[] { 10 }\\)，\n∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 15\\sqrt[] { 10 } } { 4 }\\)；\n综上所述：\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．",
+      "solution_steps": [
+        "如图3，当\\(Q\\)在\\(AF\\)上时，连接\\(BD\\)，交\\(AC\\)于\\(T\\)，作\\(CH\\bot AF\\)，交\\(AF\\)的延长线于\\(H\\)，",
+        "〔图3〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+        "\\(\\therefore BD\\bot AC\\)，\\(AT=\\frac { 1 } { 2 }AC=4\\)，",
+        "\\(\\because\\)菱形\\(ABCD\\backsim\\)菱形\\(AEFG\\)，",
+        "\\(\\therefore \\angle DAB=\\angle GAE\\)，\\(\\angle DAC=\\frac { 1 } { 2 }\\angle DAB\\)，\\(\\angle GAF=\\frac { 1 } { 2 }\\angle GAE\\)，",
+        "\\(\\therefore \\angle DAC=\\angle GAF\\)，",
+        "\\(\\therefore \\angle DAG=\\angle CAF\\)，",
+        "\\(\\because AG\\)平分\\(\\angle DAC\\)，",
+        "\\(\\therefore \\angle DAG=\\angle CAG\\)，",
+        "\\(\\therefore \\angle CAF=\\angle CAG=\\angle DAG\\)；",
+        "\\(\\because\\)\\(\\frac { \\ AD } { AT }=\\frac { AP } { AQ }=\\frac { 5 } { 4 }\\)，\\(\\angle DAC=\\angle GAF\\)，",
+        "\\(\\therefore \\vartriangle DAT\\backsim \\vartriangle PAQ\\)，",
+        "\\(\\therefore \\angle PQA=\\angle ATD=90{}^\\circ\\)，",
+        "∵\\(AQ=\\frac { 4 } { 5 }AP\\)，",
+        "∴\\(PQ=\\sqrt[] { AP ^ { 2 } -AQ ^ { 2 } }=\\sqrt[] { AP ^ { 2 } -\\left ( { \\frac { 4 } { 5 }AP } \\right ) ^ { 2 } }=\\frac { 3 } { 5 }AP\\)，",
+        "\\(\\therefore tan\\angle PAQ=\\frac { PQ } { AQ }=\\frac { \\frac { 3 } { 5 }AP } { \\frac { 4 } { 5 }AP }=\\frac { 3 } { 4 }\\)，\\(\\angle PAQ+\\angle APQ=90{}^\\circ\\)，",
+        "\\(\\because tan\\angle PQC=\\frac { 3 } { 4 }\\)，",
+        "\\(\\therefore \\angle PAQ=\\angle PQC\\)，",
+        "\\(\\therefore \\angle CQH=\\angle APQ\\)，",
+        "\\(\\therefore tan\\angle CQH=tan\\angle APQ=\\frac { 4 } { 3 }\\)，",
+        "\\(\\therefore\\)\\(\\frac { CH } { QH }=\\frac { 4 } { 3 }\\)，",
+        "设\\(CH=4x\\)，\\(QH=3x\\)，",
+        "如图4，过I作\\(IM\\bot AD\\)于M，",
+        "〔图4〕",
+        "∵\\(AD=5\\)，\\(AT=4\\)，\\(\\angle ATD=90{}^\\circ\\)，",
+        "∴\\(DT=\\sqrt[] { 5 ^ { 2 } -4 ^ { 2 } }=3\\)，",
+        "∵\\(\\angle DAI=\\angle TAI\\)，\\(DT\\bot AT\\)，\\(\\angle ATD=90{}^\\circ\\)，",
+        "∴\\(IM=IT\\)",
+        "∴\\(S_{ \\vartriangle ADT } =\\frac { 1 } { 2 }AT\\cdot DT=\\frac { 1 } { 2 }AD\\cdot IM+\\frac { 1 } { 2 }AT\\cdot TI=\\frac { 1 } { 2 }\\left ( { AD+AT } \\right )\\cdot TI\\)，",
+        "∴\\(\\frac { 1 } { 2 }\\times 3\\times 4=\\frac { 1 } { 2 }\\times \\left ( { 5+4 } \\right )\\times TI\\)，",
+        "∴\\(TI=\\frac { 4 } { 3 }\\)，",
+        "∴\\(tan\\angle CAG=\\frac { TI } { AT }=\\frac { 1 } { 3 }=tan\\angle CAH\\)，",
+        "\\(\\therefore\\)\\(\\frac { CH } { AH }=\\frac { 1 } { 3 }\\)，",
+        "\\(\\therefore AH=3CH=12x\\)，",
+        "\\(\\therefore \\left ( { 12x } \\right ) ^ { 2 } +\\left ( { 4x } \\right ) ^ { 2 } =8 ^ { 2 }\\)，",
+        "\\(\\therefore x=\\frac { \\sqrt[] { 10 } } { 5 }\\)，",
+        "\\(\\therefore AQ=AH-QH=9x=\\frac { 9\\sqrt[] { 10 } } { 5 }\\)，",
+        "∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)；",
+        "如图5，当\\(Q\\)在\\(AF\\)的延长线上时，",
+        "〔图5〕",
+        "由上可知：\\(AQ=3x+12x=15x\\)，",
+        "\\(\\therefore AQ=15\\times \\frac { \\sqrt[] { 10 } } { 5 }=3\\sqrt[] { 10 }\\)，",
+        "∴\\(AP=\\frac { 5 } { 4 }AQ=\\frac { 15\\sqrt[] { 10 } } { 4 }\\)；",
+        "综上所述：\\(AP=\\frac { 9\\sqrt[] { 10 } } { 4 }\\)或\\(\\frac { 15\\sqrt[] { 10 } } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          65,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      65,
+      71
+    ],
+    "solution_body_blocks": [
+      417,
+      498
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-CD264E25B0/paper-q20-p06.webp",
+      "assets/SZ-G9-T2-CD264E25B0/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          646.82,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          361.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-CD264E25B0/solution-q20-p24.webp",
+      "assets/SZ-G9-T2-CD264E25B0/solution-q20-p25.webp",
+      "assets/SZ-G9-T2-CD264E25B0/solution-q20-p26.webp",
+      "assets/SZ-G9-T2-CD264E25B0/solution-q20-p27.webp",
+      "assets/SZ-G9-T2-CD264E25B0/solution-q20-p28.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          224.09,
+          583.64,
+          704.55
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          55.45,
+          583.64,
+          704.55
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 28,
+        "bbox_pt": [
+          11.82,
+          55.91,
+          583.64,
+          439.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01",
+    "E.G10.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。 本问题面与解答对应“按指定锐角选择三角函数比”。",
+  "tag_source": "小问标签汇总"
+}

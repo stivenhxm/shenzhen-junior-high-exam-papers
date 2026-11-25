@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q04",{"answer":"B","solution_steps":["由两个角都是锐角，得 \\(A=30^\\circ,\\ B=30^\\circ\\)。","所以 \\(C=180^\\circ-30^\\circ-30^\\circ=120^\\circ\\)，是钝角三角形。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

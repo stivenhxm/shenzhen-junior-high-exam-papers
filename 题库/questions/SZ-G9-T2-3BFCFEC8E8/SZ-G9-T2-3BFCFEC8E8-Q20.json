@@ -1,0 +1,580 @@
+{
+  "id": "SZ-G9-T2-3BFCFEC8E8-Q20",
+  "paper_id": "SZ-G9-T2-3BFCFEC8E8",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "【性质探究】\n如图，在矩形ABCD中，对角线AC，BD相交于点O，AE平分∠BAC，交BC于点E．作DF⊥AE于点H，分别交AB，AC于点F，G．\n（1）判断△AFG的形状并说明理由．\n（2）求证：BF=2OG．\n【迁移应用】\n（3）记△DGO的面积为S\\({}_{1}\\)，△DBF的面积为S\\({}_{2}\\)，当\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { 1 } { 3 }\\)时，求\\(\\frac { AD } { AB }\\)的值．\n【拓展延伸】\n（4）若DF交射线AB于点F，【性质探究】中的其余条件不变，连结EF，当△BEF的面积为矩形ABCD面积的\\(\\frac { 1 } { 10 }\\)时，请直接写出tan∠BAE的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/6c/6cf4bf01f5f40495f43ad552246525596e349679cf2a5503e6950ee4800a42ea.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）等腰三角形，理由见解析；（2）见解析；（3）\\(\\frac { \\sqrt[] { 5 } } { 2 }\\)；（4）\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)",
+  "answer": "（1）等腰三角形，理由见解析；（2）见解析；（3）\\(\\frac { \\sqrt[] { 5 } } { 2 }\\)；（4）\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)",
+  "given_solution": "【分析】（1）如图1中，△AFG是等腰三角形，利用全等三角形的性质证明即可．\n（2）如图2中，过点O作OL∥AB交DF于L，则∠AFG=∠OLG．首先证明OG=OL，再证明BF=2OL即可解决问题．\n（3）如图3中，过点D作DK⊥AC于K，则∠DKA=∠CDA=90°，利用相似三角形的性质解决问题即可．\n（4）设OG=a，AG=k．分两种情形：①如图4中，连接EF，当点F在线段AB上时，点G在OA上．②如图5中，当点F在AB的延长线上时，点G在线段OC上，连接EF．分别求解即可解决问题．\n【详解】（1）解：如图1中，△AFG是等腰三角形．\n〔图2〕\n理由：∵AE平分∠BAC，\n∴∠1=∠2，\n∵DF⊥AE，\n∴∠AHF=∠AHG=90°，\n∵AH=AH，\n∴△AHF≌△AHG（ASA），\n∴AF=AG，\n∴△AFG是等腰三角形．\n（2）证明：如图2中，过点O作OL∥AB交DF于L，则∠AFG=∠OLG．\n〔图3〕\n∵AF=AG，\n∴∠AFG=∠AGF，\n∵∠AGF=∠OGL，\n∴∠OGL=∠OLG，\n∴OG=OL，\n∵OL∥AB，\n∴△DLO∽△DFB，\n∴\\(\\frac { OL } { BF }{ \\rm{ = } }\\frac { DO } { BD }\\)，\n∵四边形ABCD是矩形，\n∴BD=2OD，\n∴BF=2OL，\n∴BF=2OG．\n（3）解：如图3中，过点D作DK⊥AC于K，则∠DKA=∠CDA=90°，\n〔图4〕\n∵∠DAK=∠CAD，\n∴△ADK∽△ACD，\n∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { CD } { AC }\\)，\n∵S\\({}_{1}\\)=\\(\\frac { 1 } { 2 }\\)•OG•DK，S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)•BF•AD，\n又∵BF=2OG，\\(\\frac { S_{ 1 } } { S_{ 2 } }{ \\rm{ = } }\\frac { 1 } { 3 }\\)，\n∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { 2 } { 3 }{ \\rm{ = } }\\frac { CD } { AC }\\)，设CD=2x，AC=3x，则AD= \\(2\\sqrt[] { 5 }x\\)，\n∴\\(\\frac { AD } { AB }{ \\rm{ = } }\\frac { AD } { CD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 } } { 2 }\\)．\n（4）解：设OG=a，AG=k．\n①如图4中，连接EF，当点F在线段AB上时，点G在OA上．\n〔图5〕\n∵AF=AG，BF=2OG，\n∴AF=AG=k，BF=2a，\n∴AB=k+2a，AC=2（k+a），\n∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k+a）]\\({}^{2}\\)﹣（k+2a）\\({}^{2}\\)=3k\\({}^{2}\\)+4ka，\n∵∠ABE=∠DAF=90°，∠BAE=∠ADF，\n∴△ABE∽△DAF，\n∴\\(\\frac { BE } { AB }{ \\rm{ = } }\\frac { AE } { AD }\\)，\n∴\\(\\frac { BE } { k+2a }{ \\rm{ = } }\\frac { k } { AD }\\)，\n∴\\(BE{ \\rm{ = } }\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)，\n由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k+2a } \\right ) } { AD }\\)=AD•（k+2a），\n∴AD\\({}^{2}\\)=10ka，\n即10ka=3k\\({}^{2}\\)+4ka，\n∴k=2a，\n∴AD= \\(2\\sqrt[] { 5 }a\\)，\n∴BE= \\(\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)= \\(\\frac { 4\\sqrt[] { 5 }a } { 5 }\\)，AB=4a，\n∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．\n②如图5中，当点F在AB的延长线上时，点G在线段OC上，连接EF．\n〔图6〕\n∵AF=AG，BF=2OG，\n∴AF=AG=k，BF=2a，\n∴AB=k﹣2a，AC=2（k﹣a），\n∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k﹣a）]\\({}^{2}\\)﹣（k﹣2a）\\({}^{2}\\)=3k\\({}^{2}\\)﹣4ka，\n∵∠ABE=∠DAF=90°，∠BAE=∠ADF，\n∴△ABE∽△DAF，\n∴\\(\\frac { BE } { AB }=\\frac { AE } { AD }\\)，\n∴\\(\\frac { BE } { k-2a }=\\frac { k } { AD }\\)，\n∴ \\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }\\)，\n由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k-2a } \\right ) } { AD }\\)=AD•（k﹣2a），\n∴AD\\({}^{2}\\)=10ka，\n即10ka=3k\\({}^{2}\\)﹣4ka，\n∴k= \\(\\frac { 14 } { 3 }a\\)，\n∴AD= \\(\\frac { 2\\sqrt[] { 105 } } { 3 }a\\)，\n∴\\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }=\\frac { 8\\sqrt[] { 105 } } { 45 }a\\)，AB= \\(\\frac { 8 } { 3 }a\\)，\n∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 105 } } { 15 }\\)，\n综上所述，tan∠BAE的值为\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)．\n【点睛】本题是一道综合题，主要涉及到等腰三角形的判定及其性质、全等三角形的判定和性质、三角形中位线定理、相似三角形的判定及其性质、勾股定理的应用等知识点，解题的关键是综合运用所学到的相关知识．",
+  "given_solution_figures": [
+    "assets/figures/6c/6cf4bf01f5f40495f43ad552246525596e349679cf2a5503e6950ee4800a42ea.png",
+    "assets/figures/34/340d130d0f6fd587f10abd1158868c6000ab3fbb237e415e74668ab7b7367a44.png",
+    "assets/figures/11/11f8e4b6ee56820def6361bbab6e17100e8423aa861cdc4f3f79faee4c0062dc.png",
+    "assets/figures/45/4506a970cd3c822e02c30fda737be1e20b611ced7bce551de0e0d364e04302a3.png",
+    "assets/figures/26/2627830c3cdf514ee26fca92467a4a7758e4ea749efc83cb37608c71dc827895.png",
+    "assets/figures/fb/fb6c39c3a36c0b492d39f36be1552f83bc3d74345cd356cdcb6e4d1faa0a3e3c.png"
+  ],
+  "solution": "（1）解：如图1中，△AFG是等腰三角形．\n〔图2〕\n理由：∵AE平分∠BAC，\n∴∠1=∠2，\n∵DF⊥AE，\n∴∠AHF=∠AHG=90°，\n∵AH=AH，\n∴△AHF≌△AHG（ASA），\n∴AF=AG，\n∴△AFG是等腰三角形．\n（2）证明：如图2中，过点O作OL∥AB交DF于L，则∠AFG=∠OLG．\n〔图3〕\n∵AF=AG，\n∴∠AFG=∠AGF，\n∵∠AGF=∠OGL，\n∴∠OGL=∠OLG，\n∴OG=OL，\n∵OL∥AB，\n∴△DLO∽△DFB，\n∴\\(\\frac { OL } { BF }{ \\rm{ = } }\\frac { DO } { BD }\\)，\n∵四边形ABCD是矩形，\n∴BD=2OD，\n∴BF=2OL，\n∴BF=2OG．\n（3）解：如图3中，过点D作DK⊥AC于K，则∠DKA=∠CDA=90°，\n〔图4〕\n∵∠DAK=∠CAD，\n∴△ADK∽△ACD，\n∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { CD } { AC }\\)，\n∵S\\({}_{1}\\)=\\(\\frac { 1 } { 2 }\\)•OG•DK，S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)•BF•AD，\n又∵BF=2OG，\\(\\frac { S_{ 1 } } { S_{ 2 } }{ \\rm{ = } }\\frac { 1 } { 3 }\\)，\n∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { 2 } { 3 }{ \\rm{ = } }\\frac { CD } { AC }\\)，设CD=2x，AC=3x，则AD= \\(2\\sqrt[] { 5 }x\\)，\n∴\\(\\frac { AD } { AB }{ \\rm{ = } }\\frac { AD } { CD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 } } { 2 }\\)．\n（4）解：设OG=a，AG=k．\n①如图4中，连接EF，当点F在线段AB上时，点G在OA上．\n〔图5〕\n∵AF=AG，BF=2OG，\n∴AF=AG=k，BF=2a，\n∴AB=k+2a，AC=2（k+a），\n∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k+a）]\\({}^{2}\\)﹣（k+2a）\\({}^{2}\\)=3k\\({}^{2}\\)+4ka，\n∵∠ABE=∠DAF=90°，∠BAE=∠ADF，\n∴△ABE∽△DAF，\n∴\\(\\frac { BE } { AB }{ \\rm{ = } }\\frac { AE } { AD }\\)，\n∴\\(\\frac { BE } { k+2a }{ \\rm{ = } }\\frac { k } { AD }\\)，\n∴\\(BE{ \\rm{ = } }\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)，\n由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k+2a } \\right ) } { AD }\\)=AD•（k+2a），\n∴AD\\({}^{2}\\)=10ka，\n即10ka=3k\\({}^{2}\\)+4ka，\n∴k=2a，\n∴AD= \\(2\\sqrt[] { 5 }a\\)，\n∴BE= \\(\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)= \\(\\frac { 4\\sqrt[] { 5 }a } { 5 }\\)，AB=4a，\n∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．\n②如图5中，当点F在AB的延长线上时，点G在线段OC上，连接EF．\n〔图6〕\n∵AF=AG，BF=2OG，\n∴AF=AG=k，BF=2a，\n∴AB=k﹣2a，AC=2（k﹣a），\n∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k﹣a）]\\({}^{2}\\)﹣（k﹣2a）\\({}^{2}\\)=3k\\({}^{2}\\)﹣4ka，\n∵∠ABE=∠DAF=90°，∠BAE=∠ADF，\n∴△ABE∽△DAF，\n∴\\(\\frac { BE } { AB }=\\frac { AE } { AD }\\)，\n∴\\(\\frac { BE } { k-2a }=\\frac { k } { AD }\\)，\n∴ \\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }\\)，\n由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k-2a } \\right ) } { AD }\\)=AD•（k﹣2a），\n∴AD\\({}^{2}\\)=10ka，\n即10ka=3k\\({}^{2}\\)﹣4ka，\n∴k= \\(\\frac { 14 } { 3 }a\\)，\n∴AD= \\(\\frac { 2\\sqrt[] { 105 } } { 3 }a\\)，\n∴\\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }=\\frac { 8\\sqrt[] { 105 } } { 45 }a\\)，AB= \\(\\frac { 8 } { 3 }a\\)，\n∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 105 } } { 15 }\\)，\n综上所述，tan∠BAE的值为\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)．",
+  "solution_steps": [
+    "（1）解：如图1中，△AFG是等腰三角形．",
+    "〔图2〕",
+    "理由：∵AE平分∠BAC，",
+    "∴∠1=∠2，",
+    "∵DF⊥AE，",
+    "∴∠AHF=∠AHG=90°，",
+    "∵AH=AH，",
+    "∴△AHF≌△AHG（ASA），",
+    "∴AF=AG，",
+    "∴△AFG是等腰三角形．",
+    "（2）证明：如图2中，过点O作OL∥AB交DF于L，则∠AFG=∠OLG．",
+    "〔图3〕",
+    "∵AF=AG，",
+    "∴∠AFG=∠AGF，",
+    "∵∠AGF=∠OGL，",
+    "∴∠OGL=∠OLG，",
+    "∴OG=OL，",
+    "∵OL∥AB，",
+    "∴△DLO∽△DFB，",
+    "∴\\(\\frac { OL } { BF }{ \\rm{ = } }\\frac { DO } { BD }\\)，",
+    "∵四边形ABCD是矩形，",
+    "∴BD=2OD，",
+    "∴BF=2OL，",
+    "∴BF=2OG．",
+    "（3）解：如图3中，过点D作DK⊥AC于K，则∠DKA=∠CDA=90°，",
+    "〔图4〕",
+    "∵∠DAK=∠CAD，",
+    "∴△ADK∽△ACD，",
+    "∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { CD } { AC }\\)，",
+    "∵S\\({}_{1}\\)=\\(\\frac { 1 } { 2 }\\)•OG•DK，S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)•BF•AD，",
+    "又∵BF=2OG，\\(\\frac { S_{ 1 } } { S_{ 2 } }{ \\rm{ = } }\\frac { 1 } { 3 }\\)，",
+    "∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { 2 } { 3 }{ \\rm{ = } }\\frac { CD } { AC }\\)，设CD=2x，AC=3x，则AD= \\(2\\sqrt[] { 5 }x\\)，",
+    "∴\\(\\frac { AD } { AB }{ \\rm{ = } }\\frac { AD } { CD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 } } { 2 }\\)．",
+    "（4）解：设OG=a，AG=k．",
+    "①如图4中，连接EF，当点F在线段AB上时，点G在OA上．",
+    "〔图5〕",
+    "∵AF=AG，BF=2OG，",
+    "∴AF=AG=k，BF=2a，",
+    "∴AB=k+2a，AC=2（k+a），",
+    "∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k+a）]\\({}^{2}\\)﹣（k+2a）\\({}^{2}\\)=3k\\({}^{2}\\)+4ka，",
+    "∵∠ABE=∠DAF=90°，∠BAE=∠ADF，",
+    "∴△ABE∽△DAF，",
+    "∴\\(\\frac { BE } { AB }{ \\rm{ = } }\\frac { AE } { AD }\\)，",
+    "∴\\(\\frac { BE } { k+2a }{ \\rm{ = } }\\frac { k } { AD }\\)，",
+    "∴\\(BE{ \\rm{ = } }\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)，",
+    "由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k+2a } \\right ) } { AD }\\)=AD•（k+2a），",
+    "∴AD\\({}^{2}\\)=10ka，",
+    "即10ka=3k\\({}^{2}\\)+4ka，",
+    "∴k=2a，",
+    "∴AD= \\(2\\sqrt[] { 5 }a\\)，",
+    "∴BE= \\(\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)= \\(\\frac { 4\\sqrt[] { 5 }a } { 5 }\\)，AB=4a，",
+    "∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．",
+    "②如图5中，当点F在AB的延长线上时，点G在线段OC上，连接EF．",
+    "〔图6〕",
+    "∵AF=AG，BF=2OG，",
+    "∴AF=AG=k，BF=2a，",
+    "∴AB=k﹣2a，AC=2（k﹣a），",
+    "∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k﹣a）]\\({}^{2}\\)﹣（k﹣2a）\\({}^{2}\\)=3k\\({}^{2}\\)﹣4ka，",
+    "∵∠ABE=∠DAF=90°，∠BAE=∠ADF，",
+    "∴△ABE∽△DAF，",
+    "∴\\(\\frac { BE } { AB }=\\frac { AE } { AD }\\)，",
+    "∴\\(\\frac { BE } { k-2a }=\\frac { k } { AD }\\)，",
+    "∴ \\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }\\)，",
+    "由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k-2a } \\right ) } { AD }\\)=AD•（k﹣2a），",
+    "∴AD\\({}^{2}\\)=10ka，",
+    "即10ka=3k\\({}^{2}\\)﹣4ka，",
+    "∴k= \\(\\frac { 14 } { 3 }a\\)，",
+    "∴AD= \\(\\frac { 2\\sqrt[] { 105 } } { 3 }a\\)，",
+    "∴\\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }=\\frac { 8\\sqrt[] { 105 } } { 45 }a\\)，AB= \\(\\frac { 8 } { 3 }a\\)，",
+    "∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 105 } } { 15 }\\)，",
+    "综上所述，tan∠BAE的值为\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【性质探究】\n如图，在矩形ABCD中，对角线AC，BD相交于点O，AE平分∠BAC，交BC于点E．作DF⊥AE于点H，分别交AB，AC于点F，G．",
+      "paper_blocks": [
+        62,
+        63
+      ]
+    },
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-3BFCFEC8E8-Q20-P01",
+      "label": "（1）",
+      "prompt": "判断△AFG的形状并说明理由．",
+      "stem_text": "判断△AFG的形状并说明理由．",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "等腰三角形，理由见解析；",
+      "answer": "等腰三角形，理由见解析；",
+      "given_solution": "解：如图1中，△AFG是等腰三角形．\n〔图2〕\n理由：∵AE平分∠BAC，\n∴∠1=∠2，\n∵DF⊥AE，\n∴∠AHF=∠AHG=90°，\n∵AH=AH，\n∴△AHF≌△AHG（ASA），\n∴AF=AG，\n∴△AFG是等腰三角形．",
+      "solution_steps": [
+        "解：如图1中，△AFG是等腰三角形．",
+        "〔图2〕",
+        "理由：∵AE平分∠BAC，",
+        "∴∠1=∠2，",
+        "∵DF⊥AE，",
+        "∴∠AHF=∠AHG=90°，",
+        "∵AH=AH，",
+        "∴△AHF≌△AHG（ASA），",
+        "∴AF=AG，",
+        "∴△AFG是等腰三角形．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64,
+          70
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-3BFCFEC8E8-Q20-P02",
+      "label": "（2）",
+      "prompt": "求证：BF=2OG．\n【迁移应用】",
+      "stem_text": "求证：BF=2OG．\n【迁移应用】",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：如图2中，过点O作OL∥AB交DF于L，则∠AFG=∠OLG．\n〔图3〕\n∵AF=AG，\n∴∠AFG=∠AGF，\n∵∠AGF=∠OGL，\n∴∠OGL=∠OLG，\n∴OG=OL，\n∵OL∥AB，\n∴△DLO∽△DFB，\n∴\\(\\frac { OL } { BF }{ \\rm{ = } }\\frac { DO } { BD }\\)，\n∵四边形ABCD是矩形，\n∴BD=2OD，\n∴BF=2OL，\n∴BF=2OG．",
+      "solution_steps": [
+        "证明：如图2中，过点O作OL∥AB交DF于L，则∠AFG=∠OLG．",
+        "〔图3〕",
+        "∵AF=AG，",
+        "∴∠AFG=∠AGF，",
+        "∵∠AGF=∠OGL，",
+        "∴∠OGL=∠OLG，",
+        "∴OG=OL，",
+        "∵OL∥AB，",
+        "∴△DLO∽△DFB，",
+        "∴\\(\\frac { OL } { BF }{ \\rm{ = } }\\frac { DO } { BD }\\)，",
+        "∵四边形ABCD是矩形，",
+        "∴BD=2OD，",
+        "∴BF=2OL，",
+        "∴BF=2OG．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          65,
+          66,
+          70
+        ],
+        "solution_block_ids": [
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-3BFCFEC8E8-Q20-P03",
+      "label": "（3）",
+      "prompt": "记△DGO的面积为S\\({}_{1}\\)，△DBF的面积为S\\({}_{2}\\)，当\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { 1 } { 3 }\\)时，求\\(\\frac { AD } { AB }\\)的值．\n【拓展延伸】",
+      "stem_text": "记△DGO的面积为S\\({}_{1}\\)，△DBF的面积为S\\({}_{2}\\)，当\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { 1 } { 3 }\\)时，求\\(\\frac { AD } { AB }\\)的值．\n【拓展延伸】",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 5 } } { 2 }\\)；",
+      "answer": "\\(\\frac { \\sqrt[] { 5 } } { 2 }\\)；",
+      "given_solution": "解：如图3中，过点D作DK⊥AC于K，则∠DKA=∠CDA=90°，\n〔图4〕\n∵∠DAK=∠CAD，\n∴△ADK∽△ACD，\n∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { CD } { AC }\\)，\n∵S\\({}_{1}\\)=\\(\\frac { 1 } { 2 }\\)•OG•DK，S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)•BF•AD，\n又∵BF=2OG，\\(\\frac { S_{ 1 } } { S_{ 2 } }{ \\rm{ = } }\\frac { 1 } { 3 }\\)，\n∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { 2 } { 3 }{ \\rm{ = } }\\frac { CD } { AC }\\)，设CD=2x，AC=3x，则AD= \\(2\\sqrt[] { 5 }x\\)，\n∴\\(\\frac { AD } { AB }{ \\rm{ = } }\\frac { AD } { CD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 } } { 2 }\\)．",
+      "solution_steps": [
+        "解：如图3中，过点D作DK⊥AC于K，则∠DKA=∠CDA=90°，",
+        "〔图4〕",
+        "∵∠DAK=∠CAD，",
+        "∴△ADK∽△ACD，",
+        "∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { CD } { AC }\\)，",
+        "∵S\\({}_{1}\\)=\\(\\frac { 1 } { 2 }\\)•OG•DK，S\\({}_{2}\\)=\\(\\frac { 1 } { 2 }\\)•BF•AD，",
+        "又∵BF=2OG，\\(\\frac { S_{ 1 } } { S_{ 2 } }{ \\rm{ = } }\\frac { 1 } { 3 }\\)，",
+        "∴\\(\\frac { DK } { AD }{ \\rm{ = } }\\frac { 2 } { 3 }{ \\rm{ = } }\\frac { CD } { AC }\\)，设CD=2x，AC=3x，则AD= \\(2\\sqrt[] { 5 }x\\)，",
+        "∴\\(\\frac { AD } { AB }{ \\rm{ = } }\\frac { AD } { CD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 } } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-3BFCFEC8E8-Q20-P04",
+      "label": "（4）",
+      "prompt": "若DF交射线AB于点F，【性质探究】中的其余条件不变，连结EF，当△BEF的面积为矩形ABCD面积的\\(\\frac { 1 } { 10 }\\)时，请直接写出tan∠BAE的值．",
+      "stem_text": "若DF交射线AB于点F，【性质探究】中的其余条件不变，连结EF，当△BEF的面积为矩形ABCD面积的\\(\\frac { 1 } { 10 }\\)时，请直接写出tan∠BAE的值．",
+      "material_ids": [
+        "context",
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)",
+      "answer": "\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)",
+      "given_solution": "解：设OG=a，AG=k．\n①如图4中，连接EF，当点F在线段AB上时，点G在OA上．\n〔图5〕\n∵AF=AG，BF=2OG，\n∴AF=AG=k，BF=2a，\n∴AB=k+2a，AC=2（k+a），\n∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k+a）]\\({}^{2}\\)﹣（k+2a）\\({}^{2}\\)=3k\\({}^{2}\\)+4ka，\n∵∠ABE=∠DAF=90°，∠BAE=∠ADF，\n∴△ABE∽△DAF，\n∴\\(\\frac { BE } { AB }{ \\rm{ = } }\\frac { AE } { AD }\\)，\n∴\\(\\frac { BE } { k+2a }{ \\rm{ = } }\\frac { k } { AD }\\)，\n∴\\(BE{ \\rm{ = } }\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)，\n由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k+2a } \\right ) } { AD }\\)=AD•（k+2a），\n∴AD\\({}^{2}\\)=10ka，\n即10ka=3k\\({}^{2}\\)+4ka，\n∴k=2a，\n∴AD= \\(2\\sqrt[] { 5 }a\\)，\n∴BE= \\(\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)= \\(\\frac { 4\\sqrt[] { 5 }a } { 5 }\\)，AB=4a，\n∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．\n②如图5中，当点F在AB的延长线上时，点G在线段OC上，连接EF．\n〔图6〕\n∵AF=AG，BF=2OG，\n∴AF=AG=k，BF=2a，\n∴AB=k﹣2a，AC=2（k﹣a），\n∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k﹣a）]\\({}^{2}\\)﹣（k﹣2a）\\({}^{2}\\)=3k\\({}^{2}\\)﹣4ka，\n∵∠ABE=∠DAF=90°，∠BAE=∠ADF，\n∴△ABE∽△DAF，\n∴\\(\\frac { BE } { AB }=\\frac { AE } { AD }\\)，\n∴\\(\\frac { BE } { k-2a }=\\frac { k } { AD }\\)，\n∴ \\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }\\)，\n由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k-2a } \\right ) } { AD }\\)=AD•（k﹣2a），\n∴AD\\({}^{2}\\)=10ka，\n即10ka=3k\\({}^{2}\\)﹣4ka，\n∴k= \\(\\frac { 14 } { 3 }a\\)，\n∴AD= \\(\\frac { 2\\sqrt[] { 105 } } { 3 }a\\)，\n∴\\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }=\\frac { 8\\sqrt[] { 105 } } { 45 }a\\)，AB= \\(\\frac { 8 } { 3 }a\\)，\n∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 105 } } { 15 }\\)，\n综上所述，tan∠BAE的值为\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)．",
+      "solution_steps": [
+        "解：设OG=a，AG=k．",
+        "①如图4中，连接EF，当点F在线段AB上时，点G在OA上．",
+        "〔图5〕",
+        "∵AF=AG，BF=2OG，",
+        "∴AF=AG=k，BF=2a，",
+        "∴AB=k+2a，AC=2（k+a），",
+        "∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k+a）]\\({}^{2}\\)﹣（k+2a）\\({}^{2}\\)=3k\\({}^{2}\\)+4ka，",
+        "∵∠ABE=∠DAF=90°，∠BAE=∠ADF，",
+        "∴△ABE∽△DAF，",
+        "∴\\(\\frac { BE } { AB }{ \\rm{ = } }\\frac { AE } { AD }\\)，",
+        "∴\\(\\frac { BE } { k+2a }{ \\rm{ = } }\\frac { k } { AD }\\)，",
+        "∴\\(BE{ \\rm{ = } }\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)，",
+        "由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k+2a } \\right ) } { AD }\\)=AD•（k+2a），",
+        "∴AD\\({}^{2}\\)=10ka，",
+        "即10ka=3k\\({}^{2}\\)+4ka，",
+        "∴k=2a，",
+        "∴AD= \\(2\\sqrt[] { 5 }a\\)，",
+        "∴BE= \\(\\frac { k\\left ( { k+2a } \\right ) } { AD }\\)= \\(\\frac { 4\\sqrt[] { 5 }a } { 5 }\\)，AB=4a，",
+        "∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．",
+        "②如图5中，当点F在AB的延长线上时，点G在线段OC上，连接EF．",
+        "〔图6〕",
+        "∵AF=AG，BF=2OG，",
+        "∴AF=AG=k，BF=2a，",
+        "∴AB=k﹣2a，AC=2（k﹣a），",
+        "∴AD\\({}^{2}\\)=AC\\({}^{2}\\)﹣CD\\({}^{2}\\)=[2（k﹣a）]\\({}^{2}\\)﹣（k﹣2a）\\({}^{2}\\)=3k\\({}^{2}\\)﹣4ka，",
+        "∵∠ABE=∠DAF=90°，∠BAE=∠ADF，",
+        "∴△ABE∽△DAF，",
+        "∴\\(\\frac { BE } { AB }=\\frac { AE } { AD }\\)，",
+        "∴\\(\\frac { BE } { k-2a }=\\frac { k } { AD }\\)，",
+        "∴ \\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }\\)，",
+        "由题意：\\(10\\times \\frac { 1 } { 2 }\\times 2a\\times \\frac { k\\left ( { k-2a } \\right ) } { AD }\\)=AD•（k﹣2a），",
+        "∴AD\\({}^{2}\\)=10ka，",
+        "即10ka=3k\\({}^{2}\\)﹣4ka，",
+        "∴k= \\(\\frac { 14 } { 3 }a\\)，",
+        "∴AD= \\(\\frac { 2\\sqrt[] { 105 } } { 3 }a\\)，",
+        "∴\\(BE=\\frac { k\\left ( { k-2a } \\right ) } { AD }=\\frac { 8\\sqrt[] { 105 } } { 45 }a\\)，AB= \\(\\frac { 8 } { 3 }a\\)，",
+        "∴tan∠BAE= \\(\\frac { BE } { AB }=\\frac { \\sqrt[] { 105 } } { 15 }\\)，",
+        "综上所述，tan∠BAE的值为\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)或\\(\\frac { \\sqrt[] { 105 } } { 15 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23,
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      70
+    ],
+    "solution_body_blocks": [
+      356,
+      442
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-3BFCFEC8E8/paper-q20-p06.webp",
+      "assets/SZ-G9-T2-3BFCFEC8E8/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          736.82,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          387.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-3BFCFEC8E8/solution-q20-p21.webp",
+      "assets/SZ-G9-T2-3BFCFEC8E8/solution-q20-p22.webp",
+      "assets/SZ-G9-T2-3BFCFEC8E8/solution-q20-p23.webp",
+      "assets/SZ-G9-T2-3BFCFEC8E8/solution-q20-p24.webp",
+      "assets/SZ-G9-T2-3BFCFEC8E8/solution-q20-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          161.36,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          252.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.02",
+    "M.G08.03",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01",
+    "E.G10.01.01"
+  ],
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由相似比求对应线段或周长”。 本问题面与解答对应“按指定锐角选择三角函数比”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,405 @@
+{
+  "id": "SZ-G9-T1-BB4E16B6E9-Q21",
+  "paper_id": "SZ-G9-T1-BB4E16B6E9",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "把题给几何新定义转成检验条件、由角平分关系确定角度",
+  "stem": "定义：只有一组对角是直角的四边形叫做损矩形，连接它的两个非直角顶点的线段叫做这个损矩形的直径．如图，\\(\\angle ABC=\\angle ADC=90{}^\\circ\\)，四边形\\(ABCD\\)是损矩形，则该损矩形的直径是线段\\(AC\\)．同时我们还发现损矩形中有公共边的两个三角形角的特点：在公共边的同侧的两个角是相等的．如图中：\\(\\vartriangle ABC\\)和\\(\\vartriangle ABD\\)有公共边\\(AB\\)，在\\(AB\\)同侧有\\(\\angle ADB\\)和\\(\\angle ACB\\)，此时\\(\\angle ADB=\\angle ACB\\)；再比如\\(\\vartriangle ABC\\)和\\(\\vartriangle BCD\\)有公共边\\(BC\\)，在\\(CB\\)同侧有\\(\\angle BAC\\)和\\(\\angle BDC\\)，此时\\(\\angle BAC=\\angle BDC\\)．\n（1）请在图中找出一对这样的角来：\\(\\angle ABD=\\)___________；\n（2）如图，\\(\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，以\\(AC\\)为一边向外作菱形\\(ACEF\\)，D为菱形\\(ACEF\\)对角线的交点，连接\\(BD\\)．\n〔图1〕\n①四边形\\(ABCD\\)___________损矩形（填“是”或“不是”）；\n②当\\(BD\\)平分\\(\\angle ABC\\)时，判断四边形\\(ACEF\\)为何种特殊的四边形？请说明理由；\n③若\\(\\angle ACE=60{}^\\circ ，AB=4，BD=5\\sqrt[] { 3 }\\)，求\\(BC\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-BB4E16B6E9/figures/de57357cf1aeebb93af9b1e8525b7eaeab72f11250d5449f91f6183603b3e841.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\angle ACD\\)\n（2）①是，②正方形，见解析，③\\(6\\sqrt[] { 3 }\\)",
+  "answer": "（1）\\(\\angle ACD\\)\n（2）①是，②正方形，见解析，③\\(6\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）根据题意给出的性质即可得出一组角相等；\n（2）①根据菱形的性质即可证明，\n②根据损矩形的性质即可求出四边形ACEF是正方形；\n③过点D作\\(DH\\bot AB\\)，交\\(BA\\)的延长线于H，根据四边形\\(ACEF\\)是菱形可得\\(AC=CE，\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，根据四边形\\(ABCD\\)为损矩形可得\\(\\angle ACD=\\angle ABD=30{}^\\circ\\)，最后结合含\\(30{}^\\circ\\)的直角三角形的性质和勾股定理即可求出解答．\n【小问1详解】\n由图1得：\\(\\vartriangle ABD\\)和\\(\\vartriangle ADC\\)有公共边\\(AD\\)，在\\(AD\\)同侧有\\(\\angle ABD\\)和\\(\\angle ACD\\)，此时\\(\\angle ABD=\\angle ACD\\)；\n〔图2〕\n故答案为：\\(\\angle ACD\\)；\n【小问2详解】\n①∵四边形\\(ACEF\\)为菱形，\n∴\\(AE\\bot CF\\)，即\\(\\angle ADC=90{}^\\circ\\)，\n∵\\(\\angle ABC=90{}^\\circ\\)，\n∴四边形\\(ABCD\\)为损矩形；\n②四边形\\(ACEF\\)为正方形，理由如下：\n证明：∵\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle ABD=\\angle CBD=45{}^\\circ\\)，\n∵四边形\\(ABCD\\)为损矩形，\n∴\\(\\angle ACD=\\angle ABD=45{}^\\circ\\)，\n∴\\(\\angle ACE=2\\angle ACD=90{}^\\circ\\)，\n∴菱形\\(ACEF\\)为正方形；\n③过点D作\\(DH\\bot AB\\)，交\\(BA\\)的延长线于H，\n〔图3〕\n∵四边形\\(ACEF\\)是菱形，\\(\\angle ACE=60{}^\\circ\\)，\n∴\\(AC=CE，\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，\n∵四边形\\(ABCD\\)为损矩形，\n∴\\(\\angle ACD=\\angle ABD=30{}^\\circ\\)，\n∴\\(HD=\\frac { 1 } { 2 }BD=\\frac { 5\\sqrt[] { 3 } } { 2 }，BH=\\sqrt[] { 3 }HD=\\frac { 15 } { 2 }\\)，\n∴\\(AH=BH-AB=\\frac { 7 } { 2 }\\)，\n∴\\(AD=\\sqrt[] { HD ^ { 2 } +AH ^ { 2 } }=\\sqrt[] { 31 }\\)，\n∵\\(\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，\n∴\\(AC=2\\sqrt[] { 31 }\\)，\n∴\\(BC=\\sqrt[] { AC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 124-16 }=6\\sqrt[] { 3 }\\)．\n【点睛】本题考查新定义下的图形计算，主要运用到菱形、正方形的性质，含\\(30{}^\\circ\\)的直角三角形的性质和勾股定理，关键在于熟练掌握基础知识，合理利用辅助线得出条件计算．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-BB4E16B6E9/figures/de57357cf1aeebb93af9b1e8525b7eaeab72f11250d5449f91f6183603b3e841.png",
+    "assets/SZ-G9-T1-BB4E16B6E9/figures/090b914b91e50fc713ad9c5e5b1247d031f8d11d44a4a8d10326398e452d2d0f.png",
+    "assets/SZ-G9-T1-BB4E16B6E9/figures/1954ba3d6547e5dea2b17da6acff34530be57c4376f4abd75463fa8f192c7cab.png"
+  ],
+  "solution": "【小问1详解】\n由图1得：\\(\\vartriangle ABD\\)和\\(\\vartriangle ADC\\)有公共边\\(AD\\)，在\\(AD\\)同侧有\\(\\angle ABD\\)和\\(\\angle ACD\\)，此时\\(\\angle ABD=\\angle ACD\\)；\n〔图2〕\n故答案为：\\(\\angle ACD\\)；\n【小问2详解】\n①∵四边形\\(ACEF\\)为菱形，\n∴\\(AE\\bot CF\\)，即\\(\\angle ADC=90{}^\\circ\\)，\n∵\\(\\angle ABC=90{}^\\circ\\)，\n∴四边形\\(ABCD\\)为损矩形；\n②四边形\\(ACEF\\)为正方形，理由如下：\n证明：∵\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle ABD=\\angle CBD=45{}^\\circ\\)，\n∵四边形\\(ABCD\\)为损矩形，\n∴\\(\\angle ACD=\\angle ABD=45{}^\\circ\\)，\n∴\\(\\angle ACE=2\\angle ACD=90{}^\\circ\\)，\n∴菱形\\(ACEF\\)为正方形；\n③过点D作\\(DH\\bot AB\\)，交\\(BA\\)的延长线于H，\n〔图3〕\n∵四边形\\(ACEF\\)是菱形，\\(\\angle ACE=60{}^\\circ\\)，\n∴\\(AC=CE，\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，\n∵四边形\\(ABCD\\)为损矩形，\n∴\\(\\angle ACD=\\angle ABD=30{}^\\circ\\)，\n∴\\(HD=\\frac { 1 } { 2 }BD=\\frac { 5\\sqrt[] { 3 } } { 2 }，BH=\\sqrt[] { 3 }HD=\\frac { 15 } { 2 }\\)，\n∴\\(AH=BH-AB=\\frac { 7 } { 2 }\\)，\n∴\\(AD=\\sqrt[] { HD ^ { 2 } +AH ^ { 2 } }=\\sqrt[] { 31 }\\)，\n∵\\(\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，\n∴\\(AC=2\\sqrt[] { 31 }\\)，\n∴\\(BC=\\sqrt[] { AC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 124-16 }=6\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "由图1得：\\(\\vartriangle ABD\\)和\\(\\vartriangle ADC\\)有公共边\\(AD\\)，在\\(AD\\)同侧有\\(\\angle ABD\\)和\\(\\angle ACD\\)，此时\\(\\angle ABD=\\angle ACD\\)；",
+    "〔图2〕",
+    "故答案为：\\(\\angle ACD\\)；",
+    "【小问2详解】",
+    "①∵四边形\\(ACEF\\)为菱形，",
+    "∴\\(AE\\bot CF\\)，即\\(\\angle ADC=90{}^\\circ\\)，",
+    "∵\\(\\angle ABC=90{}^\\circ\\)，",
+    "∴四边形\\(ABCD\\)为损矩形；",
+    "②四边形\\(ACEF\\)为正方形，理由如下：",
+    "证明：∵\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)平分\\(\\angle ABC\\)，",
+    "∴\\(\\angle ABD=\\angle CBD=45{}^\\circ\\)，",
+    "∵四边形\\(ABCD\\)为损矩形，",
+    "∴\\(\\angle ACD=\\angle ABD=45{}^\\circ\\)，",
+    "∴\\(\\angle ACE=2\\angle ACD=90{}^\\circ\\)，",
+    "∴菱形\\(ACEF\\)为正方形；",
+    "③过点D作\\(DH\\bot AB\\)，交\\(BA\\)的延长线于H，",
+    "〔图3〕",
+    "∵四边形\\(ACEF\\)是菱形，\\(\\angle ACE=60{}^\\circ\\)，",
+    "∴\\(AC=CE，\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，",
+    "∵四边形\\(ABCD\\)为损矩形，",
+    "∴\\(\\angle ACD=\\angle ABD=30{}^\\circ\\)，",
+    "∴\\(HD=\\frac { 1 } { 2 }BD=\\frac { 5\\sqrt[] { 3 } } { 2 }，BH=\\sqrt[] { 3 }HD=\\frac { 15 } { 2 }\\)，",
+    "∴\\(AH=BH-AB=\\frac { 7 } { 2 }\\)，",
+    "∴\\(AD=\\sqrt[] { HD ^ { 2 } +AH ^ { 2 } }=\\sqrt[] { 31 }\\)，",
+    "∵\\(\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，",
+    "∴\\(AC=2\\sqrt[] { 31 }\\)，",
+    "∴\\(BC=\\sqrt[] { AC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 124-16 }=6\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "定义：只有一组对角是直角的四边形叫做损矩形，连接它的两个非直角顶点的线段叫做这个损矩形的直径．如图，\\(\\angle ABC=\\angle ADC=90{}^\\circ\\)，四边形\\(ABCD\\)是损矩形，则该损矩形的直径是线段\\(AC\\)．同时我们还发现损矩形中有公共边的两个三角形角的特点：在公共边的同侧的两个角是相等的．如图中：\\(\\vartriangle ABC\\)和\\(\\vartriangle ABD\\)有公共边\\(AB\\)，在\\(AB\\)同侧有\\(\\angle ADB\\)和\\(\\angle ACB\\)，此时\\(\\angle ADB=\\angle ACB\\)；再比如\\(\\vartriangle ABC\\)和\\(\\vartriangle BCD\\)有公共边\\(BC\\)，在\\(CB\\)同侧有\\(\\angle BAC\\)和\\(\\angle BDC\\)，此时\\(\\angle BAC=\\angle BDC\\)．",
+      "paper_blocks": [
+        60
+      ]
+    },
+    {
+      "id": "fig-63",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        63
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "如图，\\(\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，以\\(AC\\)为一边向外作菱形\\(ACEF\\)，D为菱形\\(ACEF\\)对角线的交点，连接\\(BD\\)．\n〔图1〕",
+      "paper_blocks": [
+        62,
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-BB4E16B6E9-Q21-P01",
+      "label": "（1）",
+      "prompt": "请在图中找出一对这样的角来：\\(\\angle ABD=\\)___________；",
+      "stem_text": "请在图中找出一对这样的角来：\\(\\angle ABD=\\)___________；",
+      "material_ids": [
+        "context",
+        "fig-63"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle ACD\\)",
+      "answer": "\\(\\angle ACD\\)",
+      "given_solution": "由图1得：\\(\\vartriangle ABD\\)和\\(\\vartriangle ADC\\)有公共边\\(AD\\)，在\\(AD\\)同侧有\\(\\angle ABD\\)和\\(\\angle ACD\\)，此时\\(\\angle ABD=\\angle ACD\\)；\n〔图2〕\n故答案为：\\(\\angle ACD\\)；",
+      "solution_steps": [
+        "由图1得：\\(\\vartriangle ABD\\)和\\(\\vartriangle ADC\\)有公共边\\(AD\\)，在\\(AD\\)同侧有\\(\\angle ABD\\)和\\(\\angle ACD\\)，此时\\(\\angle ABD=\\angle ACD\\)；",
+        "〔图2〕",
+        "故答案为：\\(\\angle ACD\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          373,
+          374,
+          375
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G13.01"
+      ],
+      "exam_ids": [
+        "E.G13.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "从题给“损矩形”的性质中识别公共边同侧的一对等角。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-BB4E16B6E9-Q21-P02",
+      "label": "（2）①",
+      "prompt": "四边形\\(ABCD\\)___________损矩形（填“是”或“不是”）；",
+      "stem_text": "四边形\\(ABCD\\)___________损矩形（填“是”或“不是”）；",
+      "material_ids": [
+        "context",
+        "fig-63",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "是，",
+      "answer": "是，",
+      "given_solution": "∵四边形\\(ACEF\\)为菱形，\n∴\\(AE\\bot CF\\)，即\\(\\angle ADC=90{}^\\circ\\)，\n∵\\(\\angle ABC=90{}^\\circ\\)，\n∴四边形\\(ABCD\\)为损矩形；",
+      "solution_steps": [
+        "∵四边形\\(ACEF\\)为菱形，",
+        "∴\\(AE\\bot CF\\)，即\\(\\angle ADC=90{}^\\circ\\)，",
+        "∵\\(\\angle ABC=90{}^\\circ\\)，",
+        "∴四边形\\(ABCD\\)为损矩形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          62,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          377,
+          378,
+          379,
+          380
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“矩形性质与判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“矩形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-BB4E16B6E9-Q21-P03",
+      "label": "（2）②",
+      "prompt": "当\\(BD\\)平分\\(\\angle ABC\\)时，判断四边形\\(ACEF\\)为何种特殊的四边形？请说明理由；",
+      "stem_text": "当\\(BD\\)平分\\(\\angle ABC\\)时，判断四边形\\(ACEF\\)为何种特殊的四边形？请说明理由；",
+      "material_ids": [
+        "context",
+        "fig-63",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "正方形，见解析，",
+      "answer": "正方形，见解析，",
+      "given_solution": "四边形\\(ACEF\\)为正方形，理由如下：\n证明：∵\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle ABD=\\angle CBD=45{}^\\circ\\)，\n∵四边形\\(ABCD\\)为损矩形，\n∴\\(\\angle ACD=\\angle ABD=45{}^\\circ\\)，\n∴\\(\\angle ACE=2\\angle ACD=90{}^\\circ\\)，\n∴菱形\\(ACEF\\)为正方形；",
+      "solution_steps": [
+        "四边形\\(ACEF\\)为正方形，理由如下：",
+        "证明：∵\\(\\angle ABC=90{}^\\circ\\)，\\(BD\\)平分\\(\\angle ABC\\)，",
+        "∴\\(\\angle ABD=\\angle CBD=45{}^\\circ\\)，",
+        "∵四边形\\(ABCD\\)为损矩形，",
+        "∴\\(\\angle ACD=\\angle ABD=45{}^\\circ\\)，",
+        "∴\\(\\angle ACE=2\\angle ACD=90{}^\\circ\\)，",
+        "∴菱形\\(ACEF\\)为正方形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          62,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.02"
+      ],
+      "exam_ids": [
+        "E.G01.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“由角平分关系确定角度”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-BB4E16B6E9-Q21-P04",
+      "label": "（2）③",
+      "prompt": "若\\(\\angle ACE=60{}^\\circ ，AB=4，BD=5\\sqrt[] { 3 }\\)，求\\(BC\\)的长．",
+      "stem_text": "若\\(\\angle ACE=60{}^\\circ ，AB=4，BD=5\\sqrt[] { 3 }\\)，求\\(BC\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-63",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(6\\sqrt[] { 3 }\\)",
+      "answer": "\\(6\\sqrt[] { 3 }\\)",
+      "given_solution": "过点D作\\(DH\\bot AB\\)，交\\(BA\\)的延长线于H，\n〔图3〕\n∵四边形\\(ACEF\\)是菱形，\\(\\angle ACE=60{}^\\circ\\)，\n∴\\(AC=CE，\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，\n∵四边形\\(ABCD\\)为损矩形，\n∴\\(\\angle ACD=\\angle ABD=30{}^\\circ\\)，\n∴\\(HD=\\frac { 1 } { 2 }BD=\\frac { 5\\sqrt[] { 3 } } { 2 }，BH=\\sqrt[] { 3 }HD=\\frac { 15 } { 2 }\\)，\n∴\\(AH=BH-AB=\\frac { 7 } { 2 }\\)，\n∴\\(AD=\\sqrt[] { HD ^ { 2 } +AH ^ { 2 } }=\\sqrt[] { 31 }\\)，\n∵\\(\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，\n∴\\(AC=2\\sqrt[] { 31 }\\)，\n∴\\(BC=\\sqrt[] { AC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 124-16 }=6\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "过点D作\\(DH\\bot AB\\)，交\\(BA\\)的延长线于H，",
+        "〔图3〕",
+        "∵四边形\\(ACEF\\)是菱形，\\(\\angle ACE=60{}^\\circ\\)，",
+        "∴\\(AC=CE，\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，",
+        "∵四边形\\(ABCD\\)为损矩形，",
+        "∴\\(\\angle ACD=\\angle ABD=30{}^\\circ\\)，",
+        "∴\\(HD=\\frac { 1 } { 2 }BD=\\frac { 5\\sqrt[] { 3 } } { 2 }，BH=\\sqrt[] { 3 }HD=\\frac { 15 } { 2 }\\)，",
+        "∴\\(AH=BH-AB=\\frac { 7 } { 2 }\\)，",
+        "∴\\(AD=\\sqrt[] { HD ^ { 2 } +AH ^ { 2 } }=\\sqrt[] { 31 }\\)，",
+        "∵\\(\\angle ACF=30{}^\\circ ，AE\\bot CF\\)，",
+        "∴\\(AC=2\\sqrt[] { 31 }\\)，",
+        "∴\\(BC=\\sqrt[] { AC ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 124-16 }=6\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          62,
+          63,
+          66
+        ],
+        "solution_block_ids": [
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      66
+    ],
+    "solution_body_blocks": [
+      358,
+      400
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-BB4E16B6E9/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          503.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-BB4E16B6E9/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-BB4E16B6E9/solution-q21-p19.webp",
+      "assets/SZ-G9-T1-BB4E16B6E9/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          445.0,
+          583.64,
+          692.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          81.36,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          72.27,
+          583.64,
+          286.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G13.01",
+    "M.G05.02",
+    "M.G01.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G13.01.02",
+    "E.G01.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“矩形性质与判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "从题给“损矩形”的性质中识别公共边同侧的一对等角。 题目涉及“矩形”，按题面与解答定位知识主题。 本问的运算或证明步骤对应“由角平分关系确定角度”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

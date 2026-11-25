@@ -1,0 +1,203 @@
+{
+  "knowledge_ids": [
+    "M.N04.04"
+  ],
+  "exam_ids": [
+    "E.N04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“完成分式加减与混合化简”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-76E744BF65-Q16",
+  "number": 16,
+  "paper_id": "SZ-G9-T2-76E744BF65",
+  "title": "完成分式加减与混合化简",
+  "stem": "（3分）（1）计算：\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)．\n（3分）（2）先化简，再求值：\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)，其中\\(x=\\frac { 3 } { 2 }\\)．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（3分）",
+      "paper_blocks": [
+        450
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-76E744BF65-Q16-P01",
+      "label": "（1）",
+      "prompt": "计算：\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)．\n（3分）",
+      "stem_text": "计算：\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)．\n（3分）",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(a+1\\)；",
+      "answer": "\\(a+1\\)；",
+      "given_solution": "\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)\n\\(=\\frac { a ^ { 2 } -1 } { a-1 }\\).\n\\(=\\frac { (a+1)(a-1) } { a+1 }\\)\n\\(=a+1\\)",
+      "solution_steps": [
+        "\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)",
+        "\\(=\\frac { a ^ { 2 } -1 } { a-1 }\\).",
+        "\\(=\\frac { (a+1)(a-1) } { a+1 }\\)",
+        "\\(=a+1\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          450,
+          480
+        ],
+        "solution_block_ids": [
+          1560,
+          1570,
+          1580,
+          1590
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          7
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N04.04"
+      ],
+      "exam_ids": [
+        "E.N04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“完成分式加减与混合化简”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-76E744BF65-Q16-P02",
+      "label": "（2）",
+      "prompt": "先化简，再求值：\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)，其中\\(x=\\frac { 3 } { 2 }\\)．",
+      "stem_text": "先化简，再求值：\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)，其中\\(x=\\frac { 3 } { 2 }\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { x }\\)，2",
+      "answer": "\\(\\frac { 3 } { x }\\)，2",
+      "given_solution": "\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)\n\\(=\\frac { 3 } { x-2 }\\div \\frac { x\\left ( { x-2 } \\right ) } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)\n\\(=\\frac { 3 } { x-2 }\\times \\frac { (x-2) ^ { 2 } } { x(x-2) }\\)\n\\(=\\frac { 3 } { x }\\).\n当\\(x=\\frac { 3 } { 2 }\\)时，原式=\\(\\frac { 3 } { \\frac { 3 } { 2 } }{ \\rm{ = } }3\\times \\frac { 2 } { 3 }\\)=2",
+      "solution_steps": [
+        "\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)",
+        "\\(=\\frac { 3 } { x-2 }\\div \\frac { x\\left ( { x-2 } \\right ) } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)",
+        "\\(=\\frac { 3 } { x-2 }\\times \\frac { (x-2) ^ { 2 } } { x(x-2) }\\)",
+        "\\(=\\frac { 3 } { x }\\).",
+        "当\\(x=\\frac { 3 } { 2 }\\)时，原式=\\(\\frac { 3 } { \\frac { 3 } { 2 } }{ \\rm{ = } }3\\times \\frac { 2 } { 3 }\\)=2"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          450,
+          480
+        ],
+        "solution_block_ids": [
+          1600,
+          1610,
+          1620,
+          1630,
+          1640
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          7,
+          8
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N04.04"
+      ],
+      "exam_ids": [
+        "E.N04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的式子结构和所求量对应“完成分式加减与混合化简”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [],
+  "tables": [],
+  "answer": "（1）\\(a+1\\)；（2）\\(\\frac { 3 } { x }\\)，2",
+  "given_answer": "（1）\\(a+1\\)；（2）\\(\\frac { 3 } { x }\\)，2",
+  "given_solution": "【分析】（1）原式利用同分母的分式的减法法则进行通分后，再将分子分解因式进行约分即可求解；\n（2）首先把除法转化为乘法，计算乘法即可化简，然后代入数值计算即可．\n【详解】解：（1）\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)\n\\(=\\frac { a ^ { 2 } -1 } { a-1 }\\).\n\\(=\\frac { (a+1)(a-1) } { a+1 }\\)\n\\(=a+1\\)\n（2）\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)\n\\(=\\frac { 3 } { x-2 }\\div \\frac { x\\left ( { x-2 } \\right ) } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)\n\\(=\\frac { 3 } { x-2 }\\times \\frac { (x-2) ^ { 2 } } { x(x-2) }\\)\n\\(=\\frac { 3 } { x }\\).\n当\\(x=\\frac { 3 } { 2 }\\)时，原式=\\(\\frac { 3 } { \\frac { 3 } { 2 } }{ \\rm{ = } }3\\times \\frac { 2 } { 3 }\\)=2\n【点睛】本题考查了分式的化简求值，正确对分式进行通分、约分是关键．",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "解：（1）\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)",
+    "\\(=\\frac { a ^ { 2 } -1 } { a-1 }\\).",
+    "\\(=\\frac { (a+1)(a-1) } { a+1 }\\)",
+    "\\(=a+1\\)",
+    "（2）\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)",
+    "\\(=\\frac { 3 } { x-2 }\\div \\frac { x\\left ( { x-2 } \\right ) } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)",
+    "\\(=\\frac { 3 } { x-2 }\\times \\frac { (x-2) ^ { 2 } } { x(x-2) }\\)",
+    "\\(=\\frac { 3 } { x }\\).",
+    "当\\(x=\\frac { 3 } { 2 }\\)时，原式=\\(\\frac { 3 } { \\frac { 3 } { 2 } }{ \\rm{ = } }3\\times \\frac { 2 } { 3 }\\)=2"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "解：（1）\\(\\frac { a ^ { 2 } } { a-1 }-\\frac { 1 } { a-1 }\\)\n\\(=\\frac { a ^ { 2 } -1 } { a-1 }\\).\n\\(=\\frac { (a+1)(a-1) } { a+1 }\\)\n\\(=a+1\\)\n（2）\\(\\frac { 3 } { x-2 }\\div \\frac { x ^ { 2 } -2x } { x ^ { 2 } -4x+4 }\\)\n\\(=\\frac { 3 } { x-2 }\\div \\frac { x\\left ( { x-2 } \\right ) } { \\left ( { x-2 } \\right ) ^ { 2 } }\\)\n\\(=\\frac { 3 } { x-2 }\\times \\frac { (x-2) ^ { 2 } } { x(x-2) }\\)\n\\(=\\frac { 3 } { x }\\).\n当\\(x=\\frac { 3 } { 2 }\\)时，原式=\\(\\frac { 3 } { \\frac { 3 } { 2 } }{ \\rm{ = } }3\\times \\frac { 2 } { 3 }\\)=2",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-76E744BF65/single/q16-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          607.27,
+          582.2,
+          713.79
+        ]
+      }
+    ],
+    "solution_pages": [
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-76E744BF65/single/s16-p07.webp",
+      "assets/SZ-G9-T2-76E744BF65/single/s16-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          13,
+          503.7,
+          582.2,
+          749.79
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          13,
+          78.35,
+          582.2,
+          247.04
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

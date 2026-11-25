@@ -1,0 +1,266 @@
+{
+  "id": "SZ-G9-T1-41C49759C2-Q18",
+  "paper_id": "SZ-G9-T1-41C49759C2",
+  "number": 18,
+  "type": "解答题",
+  "points": 9,
+  "title": "由相似比求对应线段或周长",
+  "stem": "（9分）如图，在菱形\\(ABCD\\)中，点G在边\\(CD\\)上，连线\\(AG\\)并延长交\\(BC\\)的延长线于点F，连结\\(BD\\)交\\(AF\\)于点E，连结\\(CE\\)．\n〔图1〕\n(1)求证：\\(EC ^ { 2 } =EF\\cdot EG\\)；\n(2)若\\(AB=6\\)，\\(\\frac { CE } { EG }=3\\)，求\\(CF\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-41C49759C2/figures/dc54c605a99e4bfb0a05ff9a0ff697090accf0900998f05d03f5f7f9a37e4148.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）如图，在菱形\\(ABCD\\)中，点G在边\\(CD\\)上，连线\\(AG\\)并延长交\\(BC\\)的延长线于点F，连结\\(BD\\)交\\(AF\\)于点E，连结\\(CE\\)．\n〔图1〕",
+      "paper_blocks": [
+        82,
+        83
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-41C49759C2-Q18-P01",
+      "label": "(1)",
+      "prompt": "求证：\\(EC ^ { 2 } =EF\\cdot EG\\)；",
+      "stem_text": "求证：\\(EC ^ { 2 } =EF\\cdot EG\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)",
+      "answer": "\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)",
+      "given_solution": "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n∴\\(\\angle ADE=\\angle CDE\\)，\\(AD=CD\\)，\\(AD\\parallel BC\\)，（1分）\n∵\\(DE=DE\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle CDE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（2分）\n\\(\\therefore\\)\\(\\angle DAE=\\angle DCE\\)．\n∵\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle DAE=\\angle F\\)，\n\\(\\therefore \\angle DAE=\\angle DCE=\\angle F\\)，\n\\(\\because \\angle FEC=\\angle CEG\\)，\n\\(\\therefore\\)\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，（3分）\n\\(\\therefore\\)\\(\\frac { EC } { EG }=\\frac { EF } { EC }\\)，\n\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)；（4分）",
+      "solution_steps": [
+        "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+        "∴\\(\\angle ADE=\\angle CDE\\)，\\(AD=CD\\)，\\(AD\\parallel BC\\)，（1分）",
+        "∵\\(DE=DE\\)，",
+        "∴\\(\\vartriangle ADE≌\\vartriangle CDE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（2分）",
+        "\\(\\therefore\\)\\(\\angle DAE=\\angle DCE\\)．",
+        "∵\\(AD\\parallel BC\\)，",
+        "\\(\\therefore \\angle DAE=\\angle F\\)，",
+        "\\(\\therefore \\angle DAE=\\angle DCE=\\angle F\\)，",
+        "\\(\\because \\angle FEC=\\angle CEG\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，（3分）",
+        "\\(\\therefore\\)\\(\\frac { EC } { EG }=\\frac { EF } { EC }\\)，",
+        "\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)；（4分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-41C49759C2-Q18-P02",
+      "label": "(2)",
+      "prompt": "若\\(AB=6\\)，\\(\\frac { CE } { EG }=3\\)，求\\(CF\\)的长．",
+      "stem_text": "若\\(AB=6\\)，\\(\\frac { CE } { EG }=3\\)，求\\(CF\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\therefore CF=3x=12\\)",
+      "answer": "\\(\\therefore CF=3x=12\\)",
+      "given_solution": "解：\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(AB=6\\)，\n∴\\(AB=AD=CD=BC=6\\)，（5分）\n由（1）可知\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，\n∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }\\)，\n∵\\(\\frac { CE } { EG }=3\\)，\n∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }=3\\)，\n设\\(GC=x\\)，则\\(CF=3x\\)，\\(DG=DC-CG=6-x\\)，\n又∵\\(\\angle DAE=\\angle F\\)，\\(\\angle DGA=\\angle CGF\\)，\n\\(\\therefore\\)\\(\\vartriangle ADG\\backsim \\vartriangle FCG\\)，（6分）\n\\(\\therefore\\)\\(\\frac { AD } { FC }=\\frac { DG } { CG }\\)，\n\\(\\therefore\\)\\(\\frac { 6 } { 3x }=\\frac { 6-x } { x }\\)，\n解得\\(x=4\\)，（7分）\n经检验，\\(x=4\\)是分式方程的解，（8分）\n\\(\\therefore CF=3x=12\\)．（9分）",
+      "solution_steps": [
+        "解：\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(AB=6\\)，",
+        "∴\\(AB=AD=CD=BC=6\\)，（5分）",
+        "由（1）可知\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，",
+        "∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }\\)，",
+        "∵\\(\\frac { CE } { EG }=3\\)，",
+        "∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }=3\\)，",
+        "设\\(GC=x\\)，则\\(CF=3x\\)，\\(DG=DC-CG=6-x\\)，",
+        "又∵\\(\\angle DAE=\\angle F\\)，\\(\\angle DGA=\\angle CGF\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle ADG\\backsim \\vartriangle FCG\\)，（6分）",
+        "\\(\\therefore\\)\\(\\frac { AD } { FC }=\\frac { DG } { CG }\\)，",
+        "\\(\\therefore\\)\\(\\frac { 6 } { 3x }=\\frac { 6-x } { x }\\)，",
+        "解得\\(x=4\\)，（7分）",
+        "经检验，\\(x=4\\)是分式方程的解，（8分）",
+        "\\(\\therefore CF=3x=12\\)．（9分）"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85
+        ],
+        "solution_block_ids": [
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          11,
+          12
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【详解】（1）证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n∴\\(\\angle ADE=\\angle CDE\\)，\\(AD=CD\\)，\\(AD\\parallel BC\\)，（1分）\n∵\\(DE=DE\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle CDE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（2分）\n\\(\\therefore\\)\\(\\angle DAE=\\angle DCE\\)．\n∵\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle DAE=\\angle F\\)，\n\\(\\therefore \\angle DAE=\\angle DCE=\\angle F\\)，\n\\(\\because \\angle FEC=\\angle CEG\\)，\n\\(\\therefore\\)\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，（3分）\n\\(\\therefore\\)\\(\\frac { EC } { EG }=\\frac { EF } { EC }\\)，\n\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)；（4分）\n（2）解：\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(AB=6\\)，\n∴\\(AB=AD=CD=BC=6\\)，（5分）\n由（1）可知\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，\n∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }\\)，\n∵\\(\\frac { CE } { EG }=3\\)，\n∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }=3\\)，\n设\\(GC=x\\)，则\\(CF=3x\\)，\\(DG=DC-CG=6-x\\)，\n又∵\\(\\angle DAE=\\angle F\\)，\\(\\angle DGA=\\angle CGF\\)，\n\\(\\therefore\\)\\(\\vartriangle ADG\\backsim \\vartriangle FCG\\)，（6分）\n\\(\\therefore\\)\\(\\frac { AD } { FC }=\\frac { DG } { CG }\\)，\n\\(\\therefore\\)\\(\\frac { 6 } { 3x }=\\frac { 6-x } { x }\\)，\n解得\\(x=4\\)，（7分）\n经检验，\\(x=4\\)是分式方程的解，（8分）\n\\(\\therefore CF=3x=12\\)．（9分）",
+  "given_solution_figures": [],
+  "answer": "（1）\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)\n（2）\\(\\therefore CF=3x=12\\)",
+  "solution_steps": [
+    "（1）证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+    "∴\\(\\angle ADE=\\angle CDE\\)，\\(AD=CD\\)，\\(AD\\parallel BC\\)，（1分）",
+    "∵\\(DE=DE\\)，",
+    "∴\\(\\vartriangle ADE≌\\vartriangle CDE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（2分）",
+    "\\(\\therefore\\)\\(\\angle DAE=\\angle DCE\\)．",
+    "∵\\(AD\\parallel BC\\)，",
+    "\\(\\therefore \\angle DAE=\\angle F\\)，",
+    "\\(\\therefore \\angle DAE=\\angle DCE=\\angle F\\)，",
+    "\\(\\because \\angle FEC=\\angle CEG\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，（3分）",
+    "\\(\\therefore\\)\\(\\frac { EC } { EG }=\\frac { EF } { EC }\\)，",
+    "\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)；（4分）",
+    "（2）解：\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(AB=6\\)，",
+    "∴\\(AB=AD=CD=BC=6\\)，（5分）",
+    "由（1）可知\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，",
+    "∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }\\)，",
+    "∵\\(\\frac { CE } { EG }=3\\)，",
+    "∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }=3\\)，",
+    "设\\(GC=x\\)，则\\(CF=3x\\)，\\(DG=DC-CG=6-x\\)，",
+    "又∵\\(\\angle DAE=\\angle F\\)，\\(\\angle DGA=\\angle CGF\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle ADG\\backsim \\vartriangle FCG\\)，（6分）",
+    "\\(\\therefore\\)\\(\\frac { AD } { FC }=\\frac { DG } { CG }\\)，",
+    "\\(\\therefore\\)\\(\\frac { 6 } { 3x }=\\frac { 6-x } { x }\\)，",
+    "解得\\(x=4\\)，（7分）",
+    "经检验，\\(x=4\\)是分式方程的解，（8分）",
+    "\\(\\therefore CF=3x=12\\)．（9分）"
+  ],
+  "solution": "（1）证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n∴\\(\\angle ADE=\\angle CDE\\)，\\(AD=CD\\)，\\(AD\\parallel BC\\)，（1分）\n∵\\(DE=DE\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle CDE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，（2分）\n\\(\\therefore\\)\\(\\angle DAE=\\angle DCE\\)．\n∵\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle DAE=\\angle F\\)，\n\\(\\therefore \\angle DAE=\\angle DCE=\\angle F\\)，\n\\(\\because \\angle FEC=\\angle CEG\\)，\n\\(\\therefore\\)\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，（3分）\n\\(\\therefore\\)\\(\\frac { EC } { EG }=\\frac { EF } { EC }\\)，\n\\(\\therefore EC ^ { 2 } =EF\\cdot EG\\)；（4分）\n（2）解：\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(AB=6\\)，\n∴\\(AB=AD=CD=BC=6\\)，（5分）\n由（1）可知\\(\\vartriangle FEC\\backsim \\vartriangle CEG\\)，\n∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }\\)，\n∵\\(\\frac { CE } { EG }=3\\)，\n∴\\(\\frac { EC } { EG }=\\frac { EF } { EC }=\\frac { CG } { CF }=3\\)，\n设\\(GC=x\\)，则\\(CF=3x\\)，\\(DG=DC-CG=6-x\\)，\n又∵\\(\\angle DAE=\\angle F\\)，\\(\\angle DGA=\\angle CGF\\)，\n\\(\\therefore\\)\\(\\vartriangle ADG\\backsim \\vartriangle FCG\\)，（6分）\n\\(\\therefore\\)\\(\\frac { AD } { FC }=\\frac { DG } { CG }\\)，\n\\(\\therefore\\)\\(\\frac { 6 } { 3x }=\\frac { 6-x } { x }\\)，\n解得\\(x=4\\)，（7分）\n经检验，\\(x=4\\)是分式方程的解，（8分）\n\\(\\therefore CF=3x=12\\)．（9分）",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      82,
+      92
+    ],
+    "solution_body_blocks": [
+      210,
+      235
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-41C49759C2/paper-q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          403.18,
+          583.64,
+          592.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-41C49759C2/solution-q18-p11.webp",
+      "assets/SZ-G9-T1-41C49759C2/solution-q18-p12.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          371.82,
+          583.64,
+          763.64
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          73.18,
+          583.64,
+          332.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

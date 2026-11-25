@@ -1,0 +1,423 @@
+{
+  "id": "SZ-G9-T2-E10DE7245C-Q20",
+  "paper_id": "SZ-G9-T2-E10DE7245C",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "分解组合图形求边角",
+  "stem": "如图1，在Rt△ABC中，∠ACB＝90°，AB＝10，BC＝6．D、E分别是AB、AC边的中点，连接DE．现将△ADE绕A点逆时针旋转，连接BD，CE并延长交于点F．\n〔图1〕\n（1）如图2，点E正好落在AB边上，CF与AD交于点P．\n①求证：AE•AB＝AD•AC；\n②求BF的长；\n（2）如图3，若AF恰好平分∠DAE，直接写出CE的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/27/27886b5d8189bb4f00272d24b47f952ae539851d54e0544b81e1fad24ed2a98f.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①证明见解析；②4\\(\\sqrt[] { 5 }\\)\n（2）\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)",
+  "answer": "（1）①证明见解析；②4\\(\\sqrt[] { 5 }\\)\n（2）\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)",
+  "given_solution": "【分析】(1)①可证得△ADE∽△ABC，进而命题得证；②作CG⊥AB于G，作FH⊥AB于H，可得BE＝6，解Rt△BCG求得BG，CG，进而求得EG，从而得出tan∠CEG，于是设EH＝a，FH＝2a，BH＝4a，由BE＝6可求得a，进而求得BF；\n(2)当AF平分∠DAE时，AF⊥BD，可证得∠EAH＝∠DEF＝∠DAF，设AF与DE的交点为O，作OG⊥AD于G，作AH⊥CF于H，设OG＝OE，在Rt△DOG求得a，然后解斜三角形ACE，进而求得结果．\n【小问1详解】\n①证明：∵D、E分别是AB、AC边的中点，\n∴DE∥BC，\n∴△ADE∽△ABC，\n∴\\(\\frac { AE } { AC }\\)＝\\(\\frac { AD } { AB }\\)，\n∴AE•AB＝AD•AC；\n②解：如图1，\n〔图2〕\n作CG⊥AB于G，作FH⊥AB于H，\n在Rt△ABC中，AB＝10，BC＝6，\n∴AC＝8，\n∴AE＝4，\n∴BE＝AB﹣AE＝6，\n∵BG＝BC•cos∠ABC＝6•\\(\\frac { BC } { AB }\\)＝6×\\(\\frac { 6 } { 10 }\\)＝\\(\\frac { 18 } { 5 }\\)，\nCG＝BC•sin∠ABC＝6×\\(\\frac { 8 } { 10 }\\)＝\\(\\frac { 24 } { 5 }\\)，\n∴EG＝BE﹣BG＝6﹣\\(\\frac { 18 } { 5 }\\)＝\\(\\frac { 12 } { 5 }\\)，\n∴tan∠FEH＝tan∠CEG＝\\(\\frac { CG } { EG }=2\\)，\n∴tan∠FEH＝\\(\\frac { FH } { EH }=2\\)，\n设EH＝a，FH＝2a，\n∵tan∠FBE＝\\(\\frac { FH } { BH }=\\frac { DE } { BE }=2\\)，\n∴BH＝4a，\n∵BH﹣EH＝BE，\n∴4a﹣a＝6，\n∴a＝2，\n∴FH＝4，BH＝8，\n∴BF＝\\(\\sqrt[] { FH ^ { 2 } +BH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } +8 ^ { 2 } }\\)＝4\\(\\sqrt[] { 5 }\\)；\n故答案为：\\(4\\sqrt[] { 5 }\\)．\n【小问2详解】\n如图2，\n〔图3〕\n当AF平分∠DAE时，AF⊥BD，\n∴∠AFD＝∠AED＝90°，\n∴点A、E、F、D共圆，\n∴∠DEF＝∠DAF，\n设AF与DE的交点为O，作OG⊥AD于G，作AH⊥CF于H，\n∵AF平分∠DAE，\n∴OG＝OE，AG＝AF＝4，\n∴DG＝AD﹣AG＝1，\n设OG＝OE＝x，\n∴OD＝3﹣x，\n在Rt△DOG中，\n（3﹣x）\\({}^{2}\\)﹣x\\({}^{2}\\)＝1\\({}^{2}\\)，\n∴x＝\\(\\frac { 4 } { 3 }\\)，\n∴OG＝OE＝\\(\\frac { 4 } { 3 }\\)，\n∴tan∠DAF＝\\(\\frac { OG } { AG }=\\frac { \\frac { 4 } { 3 } } { 4 }=\\frac { 1 } { 3 }\\)，sin∠DAF＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)，cos∠DAF＝\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)，\n∵∠AED＝90°，\n∴∠AEH+∠DEF＝90°，\n∵∠AEH+∠EAH＝90°，\n∴∠EAH＝∠DEF＝∠DAF，\n∴EH＝AE•sin∠EAH＝4×\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 2\\sqrt[] { 10 } } { 5 }\\)，\nAH＝AE•cos∠EAH＝4×\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 6\\sqrt[] { 10 } } { 5 }\\)，\n∴CH＝\\(\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 8 ^ { 2 } -(\\frac { 6\\sqrt[] { 10 } } { 5 }) ^ { 2 } }\\)＝\\(\\frac { 2\\sqrt[] { 310 } } { 5 }\\)，\n∴CE＝EH+CH＝\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)，\n故答案为：\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)．\n【点睛】本题是几何变换综合题，考查了相似三角形的判定和性质，勾股定理，旋转的性质，锐角三角函数等知识，解题的关键是正确寻找相似三角形，直角三角形中勾股定理和锐角三角函数的综合熟练运用．",
+  "given_solution_figures": [
+    "assets/figures/27/27886b5d8189bb4f00272d24b47f952ae539851d54e0544b81e1fad24ed2a98f.png",
+    "assets/figures/f0/f01d0554841a1e3290deaedf684aac9ec99ccc27925662a6d5c340388adfeba8.png",
+    "assets/figures/bb/bbe6597feeb55d94f4c4bfc55682615d256e24346c3b50995d3d957ee0c1c425.png"
+  ],
+  "solution": "【小问1详解】\n①证明：∵D、E分别是AB、AC边的中点，\n∴DE∥BC，\n∴△ADE∽△ABC，\n∴\\(\\frac { AE } { AC }\\)＝\\(\\frac { AD } { AB }\\)，\n∴AE•AB＝AD•AC；\n②解：如图1，\n〔图2〕\n作CG⊥AB于G，作FH⊥AB于H，\n在Rt△ABC中，AB＝10，BC＝6，\n∴AC＝8，\n∴AE＝4，\n∴BE＝AB﹣AE＝6，\n∵BG＝BC•cos∠ABC＝6•\\(\\frac { BC } { AB }\\)＝6×\\(\\frac { 6 } { 10 }\\)＝\\(\\frac { 18 } { 5 }\\)，\nCG＝BC•sin∠ABC＝6×\\(\\frac { 8 } { 10 }\\)＝\\(\\frac { 24 } { 5 }\\)，\n∴EG＝BE﹣BG＝6﹣\\(\\frac { 18 } { 5 }\\)＝\\(\\frac { 12 } { 5 }\\)，\n∴tan∠FEH＝tan∠CEG＝\\(\\frac { CG } { EG }=2\\)，\n∴tan∠FEH＝\\(\\frac { FH } { EH }=2\\)，\n设EH＝a，FH＝2a，\n∵tan∠FBE＝\\(\\frac { FH } { BH }=\\frac { DE } { BE }=2\\)，\n∴BH＝4a，\n∵BH﹣EH＝BE，\n∴4a﹣a＝6，\n∴a＝2，\n∴FH＝4，BH＝8，\n∴BF＝\\(\\sqrt[] { FH ^ { 2 } +BH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } +8 ^ { 2 } }\\)＝4\\(\\sqrt[] { 5 }\\)；\n故答案为：\\(4\\sqrt[] { 5 }\\)．\n【小问2详解】\n如图2，\n〔图3〕\n当AF平分∠DAE时，AF⊥BD，\n∴∠AFD＝∠AED＝90°，\n∴点A、E、F、D共圆，\n∴∠DEF＝∠DAF，\n设AF与DE的交点为O，作OG⊥AD于G，作AH⊥CF于H，\n∵AF平分∠DAE，\n∴OG＝OE，AG＝AF＝4，\n∴DG＝AD﹣AG＝1，\n设OG＝OE＝x，\n∴OD＝3﹣x，\n在Rt△DOG中，\n（3﹣x）\\({}^{2}\\)﹣x\\({}^{2}\\)＝1\\({}^{2}\\)，\n∴x＝\\(\\frac { 4 } { 3 }\\)，\n∴OG＝OE＝\\(\\frac { 4 } { 3 }\\)，\n∴tan∠DAF＝\\(\\frac { OG } { AG }=\\frac { \\frac { 4 } { 3 } } { 4 }=\\frac { 1 } { 3 }\\)，sin∠DAF＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)，cos∠DAF＝\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)，\n∵∠AED＝90°，\n∴∠AEH+∠DEF＝90°，\n∵∠AEH+∠EAH＝90°，\n∴∠EAH＝∠DEF＝∠DAF，\n∴EH＝AE•sin∠EAH＝4×\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 2\\sqrt[] { 10 } } { 5 }\\)，\nAH＝AE•cos∠EAH＝4×\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 6\\sqrt[] { 10 } } { 5 }\\)，\n∴CH＝\\(\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 8 ^ { 2 } -(\\frac { 6\\sqrt[] { 10 } } { 5 }) ^ { 2 } }\\)＝\\(\\frac { 2\\sqrt[] { 310 } } { 5 }\\)，\n∴CE＝EH+CH＝\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)，\n故答案为：\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①证明：∵D、E分别是AB、AC边的中点，",
+    "∴DE∥BC，",
+    "∴△ADE∽△ABC，",
+    "∴\\(\\frac { AE } { AC }\\)＝\\(\\frac { AD } { AB }\\)，",
+    "∴AE•AB＝AD•AC；",
+    "②解：如图1，",
+    "〔图2〕",
+    "作CG⊥AB于G，作FH⊥AB于H，",
+    "在Rt△ABC中，AB＝10，BC＝6，",
+    "∴AC＝8，",
+    "∴AE＝4，",
+    "∴BE＝AB﹣AE＝6，",
+    "∵BG＝BC•cos∠ABC＝6•\\(\\frac { BC } { AB }\\)＝6×\\(\\frac { 6 } { 10 }\\)＝\\(\\frac { 18 } { 5 }\\)，",
+    "CG＝BC•sin∠ABC＝6×\\(\\frac { 8 } { 10 }\\)＝\\(\\frac { 24 } { 5 }\\)，",
+    "∴EG＝BE﹣BG＝6﹣\\(\\frac { 18 } { 5 }\\)＝\\(\\frac { 12 } { 5 }\\)，",
+    "∴tan∠FEH＝tan∠CEG＝\\(\\frac { CG } { EG }=2\\)，",
+    "∴tan∠FEH＝\\(\\frac { FH } { EH }=2\\)，",
+    "设EH＝a，FH＝2a，",
+    "∵tan∠FBE＝\\(\\frac { FH } { BH }=\\frac { DE } { BE }=2\\)，",
+    "∴BH＝4a，",
+    "∵BH﹣EH＝BE，",
+    "∴4a﹣a＝6，",
+    "∴a＝2，",
+    "∴FH＝4，BH＝8，",
+    "∴BF＝\\(\\sqrt[] { FH ^ { 2 } +BH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } +8 ^ { 2 } }\\)＝4\\(\\sqrt[] { 5 }\\)；",
+    "故答案为：\\(4\\sqrt[] { 5 }\\)．",
+    "【小问2详解】",
+    "如图2，",
+    "〔图3〕",
+    "当AF平分∠DAE时，AF⊥BD，",
+    "∴∠AFD＝∠AED＝90°，",
+    "∴点A、E、F、D共圆，",
+    "∴∠DEF＝∠DAF，",
+    "设AF与DE的交点为O，作OG⊥AD于G，作AH⊥CF于H，",
+    "∵AF平分∠DAE，",
+    "∴OG＝OE，AG＝AF＝4，",
+    "∴DG＝AD﹣AG＝1，",
+    "设OG＝OE＝x，",
+    "∴OD＝3﹣x，",
+    "在Rt△DOG中，",
+    "（3﹣x）\\({}^{2}\\)﹣x\\({}^{2}\\)＝1\\({}^{2}\\)，",
+    "∴x＝\\(\\frac { 4 } { 3 }\\)，",
+    "∴OG＝OE＝\\(\\frac { 4 } { 3 }\\)，",
+    "∴tan∠DAF＝\\(\\frac { OG } { AG }=\\frac { \\frac { 4 } { 3 } } { 4 }=\\frac { 1 } { 3 }\\)，sin∠DAF＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)，cos∠DAF＝\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)，",
+    "∵∠AED＝90°，",
+    "∴∠AEH+∠DEF＝90°，",
+    "∵∠AEH+∠EAH＝90°，",
+    "∴∠EAH＝∠DEF＝∠DAF，",
+    "∴EH＝AE•sin∠EAH＝4×\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 2\\sqrt[] { 10 } } { 5 }\\)，",
+    "AH＝AE•cos∠EAH＝4×\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 6\\sqrt[] { 10 } } { 5 }\\)，",
+    "∴CH＝\\(\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 8 ^ { 2 } -(\\frac { 6\\sqrt[] { 10 } } { 5 }) ^ { 2 } }\\)＝\\(\\frac { 2\\sqrt[] { 310 } } { 5 }\\)，",
+    "∴CE＝EH+CH＝\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)，",
+    "故答案为：\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在Rt△ABC中，∠ACB＝90°，AB＝10，BC＝6．D、E分别是AB、AC边的中点，连接DE．现将△ADE绕A点逆时针旋转，连接BD，CE并延长交于点F．\n〔图1〕",
+      "paper_blocks": [
+        72,
+        73
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图2，点E正好落在AB边上，CF与AD交于点P．",
+      "paper_blocks": [
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-E10DE7245C-Q20-P01",
+      "label": "（1）①",
+      "prompt": "求证：AE•AB＝AD•AC；",
+      "stem_text": "求证：AE•AB＝AD•AC；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "证明：∵D、E分别是AB、AC边的中点，\n∴DE∥BC，\n∴△ADE∽△ABC，\n∴\\(\\frac { AE } { AC }\\)＝\\(\\frac { AD } { AB }\\)，\n∴AE•AB＝AD•AC；",
+      "solution_steps": [
+        "证明：∵D、E分别是AB、AC边的中点，",
+        "∴DE∥BC，",
+        "∴△ADE∽△ABC，",
+        "∴\\(\\frac { AE } { AC }\\)＝\\(\\frac { AD } { AB }\\)，",
+        "∴AE•AB＝AD•AC；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-E10DE7245C-Q20-P02",
+      "label": "（1）②",
+      "prompt": "求BF的长；",
+      "stem_text": "求BF的长；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "4\\(\\sqrt[] { 5 }\\)",
+      "answer": "4\\(\\sqrt[] { 5 }\\)",
+      "given_solution": "解：如图1，\n〔图2〕\n作CG⊥AB于G，作FH⊥AB于H，\n在Rt△ABC中，AB＝10，BC＝6，\n∴AC＝8，\n∴AE＝4，\n∴BE＝AB﹣AE＝6，\n∵BG＝BC•cos∠ABC＝6•\\(\\frac { BC } { AB }\\)＝6×\\(\\frac { 6 } { 10 }\\)＝\\(\\frac { 18 } { 5 }\\)，\nCG＝BC•sin∠ABC＝6×\\(\\frac { 8 } { 10 }\\)＝\\(\\frac { 24 } { 5 }\\)，\n∴EG＝BE﹣BG＝6﹣\\(\\frac { 18 } { 5 }\\)＝\\(\\frac { 12 } { 5 }\\)，\n∴tan∠FEH＝tan∠CEG＝\\(\\frac { CG } { EG }=2\\)，\n∴tan∠FEH＝\\(\\frac { FH } { EH }=2\\)，\n设EH＝a，FH＝2a，\n∵tan∠FBE＝\\(\\frac { FH } { BH }=\\frac { DE } { BE }=2\\)，\n∴BH＝4a，\n∵BH﹣EH＝BE，\n∴4a﹣a＝6，\n∴a＝2，\n∴FH＝4，BH＝8，\n∴BF＝\\(\\sqrt[] { FH ^ { 2 } +BH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } +8 ^ { 2 } }\\)＝4\\(\\sqrt[] { 5 }\\)；\n故答案为：\\(4\\sqrt[] { 5 }\\)．",
+      "solution_steps": [
+        "解：如图1，",
+        "〔图2〕",
+        "作CG⊥AB于G，作FH⊥AB于H，",
+        "在Rt△ABC中，AB＝10，BC＝6，",
+        "∴AC＝8，",
+        "∴AE＝4，",
+        "∴BE＝AB﹣AE＝6，",
+        "∵BG＝BC•cos∠ABC＝6•\\(\\frac { BC } { AB }\\)＝6×\\(\\frac { 6 } { 10 }\\)＝\\(\\frac { 18 } { 5 }\\)，",
+        "CG＝BC•sin∠ABC＝6×\\(\\frac { 8 } { 10 }\\)＝\\(\\frac { 24 } { 5 }\\)，",
+        "∴EG＝BE﹣BG＝6﹣\\(\\frac { 18 } { 5 }\\)＝\\(\\frac { 12 } { 5 }\\)，",
+        "∴tan∠FEH＝tan∠CEG＝\\(\\frac { CG } { EG }=2\\)，",
+        "∴tan∠FEH＝\\(\\frac { FH } { EH }=2\\)，",
+        "设EH＝a，FH＝2a，",
+        "∵tan∠FBE＝\\(\\frac { FH } { BH }=\\frac { DE } { BE }=2\\)，",
+        "∴BH＝4a，",
+        "∵BH﹣EH＝BE，",
+        "∴4a﹣a＝6，",
+        "∴a＝2，",
+        "∴FH＝4，BH＝8，",
+        "∴BF＝\\(\\sqrt[] { FH ^ { 2 } +BH ^ { 2 } }\\)＝\\(\\sqrt[] { 4 ^ { 2 } +8 ^ { 2 } }\\)＝4\\(\\sqrt[] { 5 }\\)；",
+        "故答案为：\\(4\\sqrt[] { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          74,
+          76
+        ],
+        "solution_block_ids": [
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-E10DE7245C-Q20-P03",
+      "label": "（2）",
+      "prompt": "如图3，若AF恰好平分∠DAE，直接写出CE的长．",
+      "stem_text": "如图3，若AF恰好平分∠DAE，直接写出CE的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)",
+      "answer": "\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)",
+      "given_solution": "如图2，\n〔图3〕\n当AF平分∠DAE时，AF⊥BD，\n∴∠AFD＝∠AED＝90°，\n∴点A、E、F、D共圆，\n∴∠DEF＝∠DAF，\n设AF与DE的交点为O，作OG⊥AD于G，作AH⊥CF于H，\n∵AF平分∠DAE，\n∴OG＝OE，AG＝AF＝4，\n∴DG＝AD﹣AG＝1，\n设OG＝OE＝x，\n∴OD＝3﹣x，\n在Rt△DOG中，\n（3﹣x）\\({}^{2}\\)﹣x\\({}^{2}\\)＝1\\({}^{2}\\)，\n∴x＝\\(\\frac { 4 } { 3 }\\)，\n∴OG＝OE＝\\(\\frac { 4 } { 3 }\\)，\n∴tan∠DAF＝\\(\\frac { OG } { AG }=\\frac { \\frac { 4 } { 3 } } { 4 }=\\frac { 1 } { 3 }\\)，sin∠DAF＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)，cos∠DAF＝\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)，\n∵∠AED＝90°，\n∴∠AEH+∠DEF＝90°，\n∵∠AEH+∠EAH＝90°，\n∴∠EAH＝∠DEF＝∠DAF，\n∴EH＝AE•sin∠EAH＝4×\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 2\\sqrt[] { 10 } } { 5 }\\)，\nAH＝AE•cos∠EAH＝4×\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 6\\sqrt[] { 10 } } { 5 }\\)，\n∴CH＝\\(\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 8 ^ { 2 } -(\\frac { 6\\sqrt[] { 10 } } { 5 }) ^ { 2 } }\\)＝\\(\\frac { 2\\sqrt[] { 310 } } { 5 }\\)，\n∴CE＝EH+CH＝\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)，\n故答案为：\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)．",
+      "solution_steps": [
+        "如图2，",
+        "〔图3〕",
+        "当AF平分∠DAE时，AF⊥BD，",
+        "∴∠AFD＝∠AED＝90°，",
+        "∴点A、E、F、D共圆，",
+        "∴∠DEF＝∠DAF，",
+        "设AF与DE的交点为O，作OG⊥AD于G，作AH⊥CF于H，",
+        "∵AF平分∠DAE，",
+        "∴OG＝OE，AG＝AF＝4，",
+        "∴DG＝AD﹣AG＝1，",
+        "设OG＝OE＝x，",
+        "∴OD＝3﹣x，",
+        "在Rt△DOG中，",
+        "（3﹣x）\\({}^{2}\\)﹣x\\({}^{2}\\)＝1\\({}^{2}\\)，",
+        "∴x＝\\(\\frac { 4 } { 3 }\\)，",
+        "∴OG＝OE＝\\(\\frac { 4 } { 3 }\\)，",
+        "∴tan∠DAF＝\\(\\frac { OG } { AG }=\\frac { \\frac { 4 } { 3 } } { 4 }=\\frac { 1 } { 3 }\\)，sin∠DAF＝\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)，cos∠DAF＝\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)，",
+        "∵∠AED＝90°，",
+        "∴∠AEH+∠DEF＝90°，",
+        "∵∠AEH+∠EAH＝90°，",
+        "∴∠EAH＝∠DEF＝∠DAF，",
+        "∴EH＝AE•sin∠EAH＝4×\\(\\frac { \\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 2\\sqrt[] { 10 } } { 5 }\\)，",
+        "AH＝AE•cos∠EAH＝4×\\(\\frac { 3\\sqrt[] { 10 } } { 10 }\\)＝\\(\\frac { 6\\sqrt[] { 10 } } { 5 }\\)，",
+        "∴CH＝\\(\\sqrt[] { AC ^ { 2 } -AH ^ { 2 } }\\)＝\\(\\sqrt[] { 8 ^ { 2 } -(\\frac { 6\\sqrt[] { 10 } } { 5 }) ^ { 2 } }\\)＝\\(\\frac { 2\\sqrt[] { 310 } } { 5 }\\)，",
+        "∴CE＝EH+CH＝\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)，",
+        "故答案为：\\(\\frac { 2\\sqrt[] { 10 }+2\\sqrt[] { 310 } } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          77
+        ],
+        "solution_block_ids": [
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      72,
+      77
+    ],
+    "solution_body_blocks": [
+      409,
+      474
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-E10DE7245C/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          393.64,
+          583.64,
+          650.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-E10DE7245C/solution-q20-p23.webp",
+      "assets/SZ-G9-T2-E10DE7245C/solution-q20-p24.webp",
+      "assets/SZ-G9-T2-E10DE7245C/solution-q20-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          123.64,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          665.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G10.02.02"
+  ],
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“分解组合图形求边角”。",
+  "tag_source": "小问标签汇总"
+}

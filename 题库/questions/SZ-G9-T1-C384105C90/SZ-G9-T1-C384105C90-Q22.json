@@ -1,0 +1,491 @@
+{
+  "id": "SZ-G9-T1-C384105C90-Q22",
+  "paper_id": "SZ-G9-T1-C384105C90",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两边中点使用三角形中位线、由相似比求对应线段或周长",
+  "stem": "问题情景：\n我们知道，如图（a），在\\(\\vartriangle ABC\\)中，若D，E分别是\\(AB\\)，\\(AC\\)的中点，则\\(DE\\parallel BC\\)，且\\(DE=\\frac { 1 } { 2 }BC\\).\n〔图1〕\n问题发现：（1）如图（b），在\\(\\vartriangle ABC\\)中，D，E分别是\\(AB\\)，\\(AC\\)的中点，若F为\\(DE\\)的中点，\\(BF\\)的延长线交\\(AC\\)于点G.\n①若\\(BC=8\\)，则\\(EF=\\)______；            ②\\(\\frac { AG } { AC }=\\)______.\n问题拓展：（2）如图（c），在（1）的条件下，若H为\\(CE\\)的中点，BH交\\(CD\\)于点M.若\\(BC=8\\)，\\(CD=6\\)，求\\(CM\\)的长.\n变式探究：若将问题（2）中的\\(BH\\)改为\\(\\angle FBC\\)的平分线呢？\n（3）如图（d），在\\(\\vartriangle ABC\\)中，D，E分别是\\(AB\\)，\\(AC\\)的中点，若F为\\(DE\\)的中点，\\(BH\\)为\\(\\angle FBC\\)的平分线交\\(CD\\)于点M.若\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，\\(CD=6\\)，请直接写出此时\\(CM\\)的长.",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-C384105C90/figures/6917043952a535419b73aa2704c4eecf9a404f2df9a5278f745188e00623b436.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①2    ②\\(\\frac { 1 } { 3 }\\)；（2）\\(CM=\\frac { 12 } { 5 }\\)；（3）\\(CM=\\frac { 16 } { 5 }\\)",
+  "answer": "（1）①2    ②\\(\\frac { 1 } { 3 }\\)；（2）\\(CM=\\frac { 12 } { 5 }\\)；（3）\\(CM=\\frac { 16 } { 5 }\\)",
+  "given_solution": "【分析】（1）①根据中位线定理得到\\(DE\\)，再根据中点求解即可得到答案；②根据①得到\\(\\vartriangle GFE\\backsim \\vartriangle GBC\\)即可得到答案；\n（2）设\\(CM=x\\)，延长\\(BH\\)交\\(DE\\)的延长线于点P，先证\\(\\vartriangle BCH≌\\vartriangle PEH\\)，再证\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)即可得到答案；\n（3）证明\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)结合性质即可得到答案；\n【详解】解：（1）① ∵D，E分别是\\(AB\\)，\\(AC\\)的中点，\\(BC=8\\)，\n∴\\(DE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 8=4\\)，\\(DE\\parallel BC\\)，\n∵若F为\\(DE\\)的中点，\n∴\\(EF=\\frac { 1 } { 2 }DE=2\\)，\n故答案为：\\(2\\)；\n②由①得，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle GFE\\backsim \\vartriangle GBC\\)，\n∴\\(\\frac { CE } { CG }=\\frac { EF } { BC }=\\frac { 2 } { 8 }=\\frac { 1 } { 4 }\\)，\n∴\\(\\frac { AG } { AC }=\\frac { 6GE-4GE } { 6GE }=\\frac { 1 } { 3 }\\)，\n故答案为：\\(\\frac { 1 } { 3 }\\)；\n（2）设\\(CM=x\\)，延长\\(BH\\)交\\(DE\\)的延长线于点P，\n〔图2〕\n∵H为\\(CE\\)的中点，\n∴\\(EH=CH\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\angle P=\\angle HBC\\)，\\(\\angle PEH=\\angle BCH\\)，\n在\\(\\vartriangle BCH\\)与\\(\\vartriangle PEH\\)上，\n∵\\(\\begin{cases} \\angle P=\\angle HBC \\\\ \\angle PEH=\\angle BCH \\\\ EH=CH \\end{cases}\\)，\n∴\\(\\vartriangle BCH≌\\vartriangle PEH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(PH=BH\\)，\\(PE=BC\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，\n∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，\n∴\\(\\frac { 8 } { 12 }=\\frac { x } { 6-x }\\)，\n解得：\\(CM=x=\\frac { 12 } { 5 }\\)；\n（3）延长\\(BH\\)交\\(DE\\)的延长线于点P，\n〔图3〕\n∵\\(DE\\parallel BC\\)，\n∴\\(\\angle P=\\angle PBC\\)，\n∵\\(BH\\)为\\(\\angle FBC\\)的平分线，\n∴\\(\\angle PBC=\\angle PBD\\)，\n∴\\(\\angle P=\\angle PBD\\)，\n∴\\(PF=BF\\)，\n∵\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，\n设\\(PF=BF=5x\\)，则有\\(BC=8x\\)，\\(PD=7x\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，\n∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，\n∴\\(\\frac { 8x } { 7x }{ \\rm{ = } }\\frac { CM } { 6-CM }\\)，\n解得：\\(CM=\\frac { 16 } { 5 }\\)．\n【点睛】本题主要考查三角形的中位线定理，相似三角形的判定与性质，三角形全等的性质与判定，等腰三角形的性质，解题的关键是作出辅助线，根据三角形中位线定理中位线平行且等于底边的一半得到三角形全等及相似的条件．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-C384105C90/figures/6a9460334bbd7ad2e912835901c419156bcdecec5db09a4a3253fc0a6b4be9a6.png",
+    "assets/SZ-G9-T1-C384105C90/figures/e3c9a7e373f2afa855db7f0eeb6f67a60b7e6682a597f3eafd3a94d5386ebc9d.png",
+    "assets/SZ-G9-T1-C384105C90/figures/18df660a2d3c403f3c41f0d4b7fce9cedbcd9e9c32e20d1557ddb743a4dc7e9c.png"
+  ],
+  "solution": "解：（1）① ∵D，E分别是\\(AB\\)，\\(AC\\)的中点，\\(BC=8\\)，\n∴\\(DE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 8=4\\)，\\(DE\\parallel BC\\)，\n∵若F为\\(DE\\)的中点，\n∴\\(EF=\\frac { 1 } { 2 }DE=2\\)，\n故答案为：\\(2\\)；\n②由①得，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle GFE\\backsim \\vartriangle GBC\\)，\n∴\\(\\frac { CE } { CG }=\\frac { EF } { BC }=\\frac { 2 } { 8 }=\\frac { 1 } { 4 }\\)，\n∴\\(\\frac { AG } { AC }=\\frac { 6GE-4GE } { 6GE }=\\frac { 1 } { 3 }\\)，\n故答案为：\\(\\frac { 1 } { 3 }\\)；\n（2）设\\(CM=x\\)，延长\\(BH\\)交\\(DE\\)的延长线于点P，\n〔图2〕\n∵H为\\(CE\\)的中点，\n∴\\(EH=CH\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\angle P=\\angle HBC\\)，\\(\\angle PEH=\\angle BCH\\)，\n在\\(\\vartriangle BCH\\)与\\(\\vartriangle PEH\\)上，\n∵\\(\\begin{cases} \\angle P=\\angle HBC \\\\ \\angle PEH=\\angle BCH \\\\ EH=CH \\end{cases}\\)，\n∴\\(\\vartriangle BCH≌\\vartriangle PEH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(PH=BH\\)，\\(PE=BC\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，\n∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，\n∴\\(\\frac { 8 } { 12 }=\\frac { x } { 6-x }\\)，\n解得：\\(CM=x=\\frac { 12 } { 5 }\\)；\n（3）延长\\(BH\\)交\\(DE\\)的延长线于点P，\n〔图3〕\n∵\\(DE\\parallel BC\\)，\n∴\\(\\angle P=\\angle PBC\\)，\n∵\\(BH\\)为\\(\\angle FBC\\)的平分线，\n∴\\(\\angle PBC=\\angle PBD\\)，\n∴\\(\\angle P=\\angle PBD\\)，\n∴\\(PF=BF\\)，\n∵\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，\n设\\(PF=BF=5x\\)，则有\\(BC=8x\\)，\\(PD=7x\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，\n∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，\n∴\\(\\frac { 8x } { 7x }{ \\rm{ = } }\\frac { CM } { 6-CM }\\)，\n解得：\\(CM=\\frac { 16 } { 5 }\\)．",
+  "solution_steps": [
+    "解：（1）① ∵D，E分别是\\(AB\\)，\\(AC\\)的中点，\\(BC=8\\)，",
+    "∴\\(DE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 8=4\\)，\\(DE\\parallel BC\\)，",
+    "∵若F为\\(DE\\)的中点，",
+    "∴\\(EF=\\frac { 1 } { 2 }DE=2\\)，",
+    "故答案为：\\(2\\)；",
+    "②由①得，",
+    "∵\\(DE\\parallel BC\\)，",
+    "∴\\(\\vartriangle GFE\\backsim \\vartriangle GBC\\)，",
+    "∴\\(\\frac { CE } { CG }=\\frac { EF } { BC }=\\frac { 2 } { 8 }=\\frac { 1 } { 4 }\\)，",
+    "∴\\(\\frac { AG } { AC }=\\frac { 6GE-4GE } { 6GE }=\\frac { 1 } { 3 }\\)，",
+    "故答案为：\\(\\frac { 1 } { 3 }\\)；",
+    "（2）设\\(CM=x\\)，延长\\(BH\\)交\\(DE\\)的延长线于点P，",
+    "〔图2〕",
+    "∵H为\\(CE\\)的中点，",
+    "∴\\(EH=CH\\)，",
+    "∵\\(DE\\parallel BC\\)，",
+    "∴\\(\\angle P=\\angle HBC\\)，\\(\\angle PEH=\\angle BCH\\)，",
+    "在\\(\\vartriangle BCH\\)与\\(\\vartriangle PEH\\)上，",
+    "∵\\(\\begin{cases} \\angle P=\\angle HBC \\\\ \\angle PEH=\\angle BCH \\\\ EH=CH \\end{cases}\\)，",
+    "∴\\(\\vartriangle BCH≌\\vartriangle PEH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "∴\\(PH=BH\\)，\\(PE=BC\\)，",
+    "∵\\(DE\\parallel BC\\)，",
+    "∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，",
+    "∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，",
+    "∴\\(\\frac { 8 } { 12 }=\\frac { x } { 6-x }\\)，",
+    "解得：\\(CM=x=\\frac { 12 } { 5 }\\)；",
+    "（3）延长\\(BH\\)交\\(DE\\)的延长线于点P，",
+    "〔图3〕",
+    "∵\\(DE\\parallel BC\\)，",
+    "∴\\(\\angle P=\\angle PBC\\)，",
+    "∵\\(BH\\)为\\(\\angle FBC\\)的平分线，",
+    "∴\\(\\angle PBC=\\angle PBD\\)，",
+    "∴\\(\\angle P=\\angle PBD\\)，",
+    "∴\\(PF=BF\\)，",
+    "∵\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，",
+    "设\\(PF=BF=5x\\)，则有\\(BC=8x\\)，\\(PD=7x\\)，",
+    "∵\\(DE\\parallel BC\\)，",
+    "∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，",
+    "∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，",
+    "∴\\(\\frac { 8x } { 7x }{ \\rm{ = } }\\frac { CM } { 6-CM }\\)，",
+    "解得：\\(CM=\\frac { 16 } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "问题情景：\n我们知道，如图（a），在\\(\\vartriangle ABC\\)中，若D，E分别是\\(AB\\)，\\(AC\\)的中点，则\\(DE\\parallel BC\\)，且\\(DE=\\frac { 1 } { 2 }BC\\).\n〔图1〕\n问题发现：",
+      "paper_blocks": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图（b），在\\(\\vartriangle ABC\\)中，D，E分别是\\(AB\\)，\\(AC\\)的中点，若F为\\(DE\\)的中点，\\(BF\\)的延长线交\\(AC\\)于点G.",
+      "paper_blocks": [
+        72
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）①的题面：若\\(BC=8\\)，则\\(EF=\\)______；",
+      "paper_blocks": [
+        69,
+        70,
+        71,
+        72,
+        73
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（1）②的题面：\\(\\frac { AG } { AC }=\\)______.\n问题拓展：",
+      "paper_blocks": [
+        69,
+        70,
+        71,
+        72,
+        73,
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-C384105C90-Q22-P01",
+      "label": "（1）①",
+      "prompt": "若\\(BC=8\\)，则\\(EF=\\)______；",
+      "stem_text": "若\\(BC=8\\)，则\\(EF=\\)______；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "2",
+      "answer": "2",
+      "given_solution": "∵D，E分别是\\(AB\\)，\\(AC\\)的中点，\\(BC=8\\)，\n∴\\(DE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 8=4\\)，\\(DE\\parallel BC\\)，\n∵若F为\\(DE\\)的中点，\n∴\\(EF=\\frac { 1 } { 2 }DE=2\\)，\n故答案为：\\(2\\)；",
+      "solution_steps": [
+        "∵D，E分别是\\(AB\\)，\\(AC\\)的中点，\\(BC=8\\)，",
+        "∴\\(DE=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 8=4\\)，\\(DE\\parallel BC\\)，",
+        "∵若F为\\(DE\\)的中点，",
+        "∴\\(EF=\\frac { 1 } { 2 }DE=2\\)，",
+        "故答案为：\\(2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          385,
+          386,
+          387,
+          388,
+          389
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.05"
+      ],
+      "exam_ids": [
+        "E.G05.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "先由三角形中位线求出平行边的一半，再利用线段中点求目标长度。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-C384105C90-Q22-P02",
+      "label": "（1）②",
+      "prompt": "\\(\\frac { AG } { AC }=\\)______.\n问题拓展：",
+      "stem_text": "\\(\\frac { AG } { AC }=\\)______.\n问题拓展：",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 3 }\\)；",
+      "answer": "\\(\\frac { 1 } { 3 }\\)；",
+      "given_solution": "由①得，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle GFE\\backsim \\vartriangle GBC\\)，\n∴\\(\\frac { CE } { CG }=\\frac { EF } { BC }=\\frac { 2 } { 8 }=\\frac { 1 } { 4 }\\)，\n∴\\(\\frac { AG } { AC }=\\frac { 6GE-4GE } { 6GE }=\\frac { 1 } { 3 }\\)，\n故答案为：\\(\\frac { 1 } { 3 }\\)；",
+      "solution_steps": [
+        "由①得，",
+        "∵\\(DE\\parallel BC\\)，",
+        "∴\\(\\vartriangle GFE\\backsim \\vartriangle GBC\\)，",
+        "∴\\(\\frac { CE } { CG }=\\frac { EF } { BC }=\\frac { 2 } { 8 }=\\frac { 1 } { 4 }\\)，",
+        "∴\\(\\frac { AG } { AC }=\\frac { 6GE-4GE } { 6GE }=\\frac { 1 } { 3 }\\)，",
+        "故答案为：\\(\\frac { 1 } { 3 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          390,
+          391,
+          392,
+          393,
+          394,
+          395
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "由平行线产生的相似三角形得到对应线段比，进而求整体与部分的比。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-C384105C90-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图（c），在（1）的条件下，若H为\\(CE\\)的中点，BH交\\(CD\\)于点M.若\\(BC=8\\)，\\(CD=6\\)，求\\(CM\\)的长.\n变式探究：若将问题（2）中的\\(BH\\)改为\\(\\angle FBC\\)的平分线呢？",
+      "stem_text": "如图（c），在（1）的条件下，若H为\\(CE\\)的中点，BH交\\(CD\\)于点M.若\\(BC=8\\)，\\(CD=6\\)，求\\(CM\\)的长.\n变式探究：若将问题（2）中的\\(BH\\)改为\\(\\angle FBC\\)的平分线呢？",
+      "material_ids": [
+        "context",
+        "prior-P01",
+        "condition-1",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G9-T1-C384105C90-Q22-P01",
+        "SZ-G9-T1-C384105C90-Q22-P02"
+      ],
+      "given_answer": "\\(CM=\\frac { 12 } { 5 }\\)；",
+      "answer": "\\(CM=\\frac { 12 } { 5 }\\)；",
+      "given_solution": "设\\(CM=x\\)，延长\\(BH\\)交\\(DE\\)的延长线于点P，\n〔图2〕\n∵H为\\(CE\\)的中点，\n∴\\(EH=CH\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\angle P=\\angle HBC\\)，\\(\\angle PEH=\\angle BCH\\)，\n在\\(\\vartriangle BCH\\)与\\(\\vartriangle PEH\\)上，\n∵\\(\\begin{cases} \\angle P=\\angle HBC \\\\ \\angle PEH=\\angle BCH \\\\ EH=CH \\end{cases}\\)，\n∴\\(\\vartriangle BCH≌\\vartriangle PEH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n∴\\(PH=BH\\)，\\(PE=BC\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，\n∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，\n∴\\(\\frac { 8 } { 12 }=\\frac { x } { 6-x }\\)，\n解得：\\(CM=x=\\frac { 12 } { 5 }\\)；",
+      "solution_steps": [
+        "设\\(CM=x\\)，延长\\(BH\\)交\\(DE\\)的延长线于点P，",
+        "〔图2〕",
+        "∵H为\\(CE\\)的中点，",
+        "∴\\(EH=CH\\)，",
+        "∵\\(DE\\parallel BC\\)，",
+        "∴\\(\\angle P=\\angle HBC\\)，\\(\\angle PEH=\\angle BCH\\)，",
+        "在\\(\\vartriangle BCH\\)与\\(\\vartriangle PEH\\)上，",
+        "∵\\(\\begin{cases} \\angle P=\\angle HBC \\\\ \\angle PEH=\\angle BCH \\\\ EH=CH \\end{cases}\\)，",
+        "∴\\(\\vartriangle BCH≌\\vartriangle PEH({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "∴\\(PH=BH\\)，\\(PE=BC\\)，",
+        "∵\\(DE\\parallel BC\\)，",
+        "∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，",
+        "∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，",
+        "∴\\(\\frac { 8 } { 12 }=\\frac { x } { 6-x }\\)，",
+        "解得：\\(CM=x=\\frac { 12 } { 5 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由总量与部分量关系建立一次模型”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C384105C90-Q22-P04",
+      "label": "（3）",
+      "prompt": "如图（d），在\\(\\vartriangle ABC\\)中，D，E分别是\\(AB\\)，\\(AC\\)的中点，若F为\\(DE\\)的中点，\\(BH\\)为\\(\\angle FBC\\)的平分线交\\(CD\\)于点M.若\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，\\(CD=6\\)，请直接写出此时\\(CM\\)的长.",
+      "stem_text": "如图（d），在\\(\\vartriangle ABC\\)中，D，E分别是\\(AB\\)，\\(AC\\)的中点，若F为\\(DE\\)的中点，\\(BH\\)为\\(\\angle FBC\\)的平分线交\\(CD\\)于点M.若\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，\\(CD=6\\)，请直接写出此时\\(CM\\)的长.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(CM=\\frac { 16 } { 5 }\\)",
+      "answer": "\\(CM=\\frac { 16 } { 5 }\\)",
+      "given_solution": "延长\\(BH\\)交\\(DE\\)的延长线于点P，\n〔图3〕\n∵\\(DE\\parallel BC\\)，\n∴\\(\\angle P=\\angle PBC\\)，\n∵\\(BH\\)为\\(\\angle FBC\\)的平分线，\n∴\\(\\angle PBC=\\angle PBD\\)，\n∴\\(\\angle P=\\angle PBD\\)，\n∴\\(PF=BF\\)，\n∵\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，\n设\\(PF=BF=5x\\)，则有\\(BC=8x\\)，\\(PD=7x\\)，\n∵\\(DE\\parallel BC\\)，\n∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，\n∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，\n∴\\(\\frac { 8x } { 7x }{ \\rm{ = } }\\frac { CM } { 6-CM }\\)，\n解得：\\(CM=\\frac { 16 } { 5 }\\)．",
+      "solution_steps": [
+        "延长\\(BH\\)交\\(DE\\)的延长线于点P，",
+        "〔图3〕",
+        "∵\\(DE\\parallel BC\\)，",
+        "∴\\(\\angle P=\\angle PBC\\)，",
+        "∵\\(BH\\)为\\(\\angle FBC\\)的平分线，",
+        "∴\\(\\angle PBC=\\angle PBD\\)，",
+        "∴\\(\\angle P=\\angle PBD\\)，",
+        "∴\\(PF=BF\\)，",
+        "∵\\(\\frac { BF } { BC }=\\frac { 5 } { 8 }\\)，",
+        "设\\(PF=BF=5x\\)，则有\\(BC=8x\\)，\\(PD=7x\\)，",
+        "∵\\(DE\\parallel BC\\)，",
+        "∴\\(\\vartriangle BCM\\backsim \\vartriangle PDM\\)，",
+        "∴\\(\\frac { CM } { MD }=\\frac { BC } { PD }\\)，",
+        "∴\\(\\frac { 8x } { 7x }{ \\rm{ = } }\\frac { CM } { 6-CM }\\)，",
+        "解得：\\(CM=\\frac { 16 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          76
+        ],
+        "solution_block_ids": [
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      76
+    ],
+    "solution_body_blocks": [
+      372,
+      426
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-C384105C90/paper-q22-p05.webp",
+      "assets/SZ-G9-T1-C384105C90/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          596.36,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          256.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-C384105C90/solution-q22-p19.webp",
+      "assets/SZ-G9-T1-C384105C90/solution-q22-p20.webp",
+      "assets/SZ-G9-T1-C384105C90/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          428.64,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          626.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.05",
+    "M.G08.03",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.G05.05.01",
+    "E.G08.03.01",
+    "E.N06.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "先由三角形中位线求出平行边的一半，再利用线段中点求目标长度。 由平行线产生的相似三角形得到对应线段比，进而求整体与部分的比。 本问题面与解答对应“由总量与部分量关系建立一次模型”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

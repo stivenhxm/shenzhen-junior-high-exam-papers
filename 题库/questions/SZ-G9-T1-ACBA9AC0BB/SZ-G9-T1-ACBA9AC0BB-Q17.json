@@ -1,0 +1,254 @@
+{
+  "id": "SZ-G9-T1-ACBA9AC0BB-Q17",
+  "paper_id": "SZ-G9-T1-ACBA9AC0BB",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "由边或对角线条件证明菱形",
+  "stem": "如图，点E、F、G、H分别是\\(▱ABCD\\)各边的中点，连接\\(AF、CE\\)相交于点M，连接\\(AG、CH\\)相交于点N，且\\(AM=AN\\)．\n〔图1〕\n（1）求证：四边形\\(AMCN\\)是菱形；\n（2）若\\(\\vartriangle AEM\\)的面积为2，求四边形\\(AMCN\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-ACBA9AC0BB/figures/ea57018a29d16f33c574a7859f5d3203f0270786a78df94cbd4c2f0814452566.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）8",
+  "answer": "（1）见解析    （2）8",
+  "given_solution": "【分析】（1）根据平行四边形的性质，线段的中点平分线段，推出四边形\\(AECG\\)，四边形\\(AFCH\\)均为平行四边形，进而得到：\\(AM\\parallel CN,AN\\parallel CM\\)，推出四边形\\(AMCN\\)是平行四边形，结合\\(AM=AN\\)，即可得证；\n（2）连接\\(AC,EF\\)，推出\\(EF\\parallel AC\\)且\\(\\frac { EF } { AC }=\\frac { 1 } { 2 }\\)，进而得到\\(\\vartriangle EMF\\backsim \\vartriangle CMA\\)，求出\\(\\frac { EF } { AC }=\\frac { EM } { MC }=\\frac { 1 } { 2 }\\)，推出\\(S_{ \\vartriangle CMA } =2S_{ \\vartriangle AEM } =4\\)，再根据\\(S_{ 四边形AMCN } =2S_{ \\vartriangle CMA } =8\\)，即可得解．\n【小问1详解】\n证明：∵H，F分别是\\(AD,BC\\)的中点，\n∴\\(AH\\parallel FC\\)且\\(AH=FC\\)，\n∴四边形\\(AFCH\\)是平行四边形，\n∴\\(AF\\parallel CH\\)，\n∵E，G分别是\\(AB,CD\\)的中点，\n∴\\(AE\\parallel CG\\)且\\(AE=CG\\)，\n∴四边形\\(AECG\\)是平行四边形，\n∴\\(AG\\parallel CE\\)，\n∴四边形\\(AMCN\\)是平行四边形，\n∵\\(AM=AN\\)，\n∴四边形\\(AMCN\\)是菱形；\n【小问2详解】\n解：连接\\(AC,EF\\)，如图所示：\n〔图2〕\n∵E，F分别是\\(AB,BC\\)中点，\n∴\\(EF\\parallel AC\\)且\\(\\frac { EF } { AC }=\\frac { 1 } { 2 }\\)，\n∵\\(\\vartriangle EMF\\backsim \\vartriangle CMA\\)，\n∴\\(\\frac { EF } { AC }=\\frac { EM } { MC }=\\frac { 1 } { 2 }\\)，\n∴\\(S_{ \\vartriangle CMA } =2S_{ \\vartriangle AEM } =4\\)，\n∴\\(S_{ 四边形AMCN } =2S_{ \\vartriangle CMA } =8\\)．\n【点睛】本题考查平行四边形的判定和性质，菱形的判定与性质，三角形的中位线定理，相似三角形的判定和性质，熟练掌握平行四边形的性质，以及三角形的中位线定理，证明三角形相似，是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-ACBA9AC0BB/figures/ea57018a29d16f33c574a7859f5d3203f0270786a78df94cbd4c2f0814452566.png",
+    "assets/SZ-G9-T1-ACBA9AC0BB/figures/f7c710a0b3f6ff62cdbba78588848d0f720a9c6eeb53f03e197bef5453985016.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵H，F分别是\\(AD,BC\\)的中点，\n∴\\(AH\\parallel FC\\)且\\(AH=FC\\)，\n∴四边形\\(AFCH\\)是平行四边形，\n∴\\(AF\\parallel CH\\)，\n∵E，G分别是\\(AB,CD\\)的中点，\n∴\\(AE\\parallel CG\\)且\\(AE=CG\\)，\n∴四边形\\(AECG\\)是平行四边形，\n∴\\(AG\\parallel CE\\)，\n∴四边形\\(AMCN\\)是平行四边形，\n∵\\(AM=AN\\)，\n∴四边形\\(AMCN\\)是菱形；\n【小问2详解】\n解：连接\\(AC,EF\\)，如图所示：\n〔图2〕\n∵E，F分别是\\(AB,BC\\)中点，\n∴\\(EF\\parallel AC\\)且\\(\\frac { EF } { AC }=\\frac { 1 } { 2 }\\)，\n∵\\(\\vartriangle EMF\\backsim \\vartriangle CMA\\)，\n∴\\(\\frac { EF } { AC }=\\frac { EM } { MC }=\\frac { 1 } { 2 }\\)，\n∴\\(S_{ \\vartriangle CMA } =2S_{ \\vartriangle AEM } =4\\)，\n∴\\(S_{ 四边形AMCN } =2S_{ \\vartriangle CMA } =8\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵H，F分别是\\(AD,BC\\)的中点，",
+    "∴\\(AH\\parallel FC\\)且\\(AH=FC\\)，",
+    "∴四边形\\(AFCH\\)是平行四边形，",
+    "∴\\(AF\\parallel CH\\)，",
+    "∵E，G分别是\\(AB,CD\\)的中点，",
+    "∴\\(AE\\parallel CG\\)且\\(AE=CG\\)，",
+    "∴四边形\\(AECG\\)是平行四边形，",
+    "∴\\(AG\\parallel CE\\)，",
+    "∴四边形\\(AMCN\\)是平行四边形，",
+    "∵\\(AM=AN\\)，",
+    "∴四边形\\(AMCN\\)是菱形；",
+    "【小问2详解】",
+    "解：连接\\(AC,EF\\)，如图所示：",
+    "〔图2〕",
+    "∵E，F分别是\\(AB,BC\\)中点，",
+    "∴\\(EF\\parallel AC\\)且\\(\\frac { EF } { AC }=\\frac { 1 } { 2 }\\)，",
+    "∵\\(\\vartriangle EMF\\backsim \\vartriangle CMA\\)，",
+    "∴\\(\\frac { EF } { AC }=\\frac { EM } { MC }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(S_{ \\vartriangle CMA } =2S_{ \\vartriangle AEM } =4\\)，",
+    "∴\\(S_{ 四边形AMCN } =2S_{ \\vartriangle CMA } =8\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，点E、F、G、H分别是\\(▱ABCD\\)各边的中点，连接\\(AF、CE\\)相交于点M，连接\\(AG、CH\\)相交于点N，且\\(AM=AN\\)．\n〔图1〕",
+      "paper_blocks": [
+        44,
+        45
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-ACBA9AC0BB-Q17-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(AMCN\\)是菱形；",
+      "stem_text": "求证：四边形\\(AMCN\\)是菱形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵H，F分别是\\(AD,BC\\)的中点，\n∴\\(AH\\parallel FC\\)且\\(AH=FC\\)，\n∴四边形\\(AFCH\\)是平行四边形，\n∴\\(AF\\parallel CH\\)，\n∵E，G分别是\\(AB,CD\\)的中点，\n∴\\(AE\\parallel CG\\)且\\(AE=CG\\)，\n∴四边形\\(AECG\\)是平行四边形，\n∴\\(AG\\parallel CE\\)，\n∴四边形\\(AMCN\\)是平行四边形，\n∵\\(AM=AN\\)，\n∴四边形\\(AMCN\\)是菱形；",
+      "solution_steps": [
+        "证明：∵H，F分别是\\(AD,BC\\)的中点，",
+        "∴\\(AH\\parallel FC\\)且\\(AH=FC\\)，",
+        "∴四边形\\(AFCH\\)是平行四边形，",
+        "∴\\(AF\\parallel CH\\)，",
+        "∵E，G分别是\\(AB,CD\\)的中点，",
+        "∴\\(AE\\parallel CG\\)且\\(AE=CG\\)，",
+        "∴四边形\\(AECG\\)是平行四边形，",
+        "∴\\(AG\\parallel CE\\)，",
+        "∴四边形\\(AMCN\\)是平行四边形，",
+        "∵\\(AM=AN\\)，",
+        "∴四边形\\(AMCN\\)是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          44,
+          45,
+          46
+        ],
+        "solution_block_ids": [
+          248,
+          249,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-ACBA9AC0BB-Q17-P02",
+      "label": "（2）",
+      "prompt": "若\\(\\vartriangle AEM\\)的面积为2，求四边形\\(AMCN\\)的面积．",
+      "stem_text": "若\\(\\vartriangle AEM\\)的面积为2，求四边形\\(AMCN\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "8",
+      "answer": "8",
+      "given_solution": "解：连接\\(AC,EF\\)，如图所示：\n〔图2〕\n∵E，F分别是\\(AB,BC\\)中点，\n∴\\(EF\\parallel AC\\)且\\(\\frac { EF } { AC }=\\frac { 1 } { 2 }\\)，\n∵\\(\\vartriangle EMF\\backsim \\vartriangle CMA\\)，\n∴\\(\\frac { EF } { AC }=\\frac { EM } { MC }=\\frac { 1 } { 2 }\\)，\n∴\\(S_{ \\vartriangle CMA } =2S_{ \\vartriangle AEM } =4\\)，\n∴\\(S_{ 四边形AMCN } =2S_{ \\vartriangle CMA } =8\\)．",
+      "solution_steps": [
+        "解：连接\\(AC,EF\\)，如图所示：",
+        "〔图2〕",
+        "∵E，F分别是\\(AB,BC\\)中点，",
+        "∴\\(EF\\parallel AC\\)且\\(\\frac { EF } { AC }=\\frac { 1 } { 2 }\\)，",
+        "∵\\(\\vartriangle EMF\\backsim \\vartriangle CMA\\)，",
+        "∴\\(\\frac { EF } { AC }=\\frac { EM } { MC }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(S_{ \\vartriangle CMA } =2S_{ \\vartriangle AEM } =4\\)，",
+        "∴\\(S_{ 四边形AMCN } =2S_{ \\vartriangle CMA } =8\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          44,
+          45,
+          47
+        ],
+        "solution_block_ids": [
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.04"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问的要求和解答步骤对应“图形面积与分割”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      44,
+      47
+    ],
+    "solution_body_blocks": [
+      239,
+      268
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-ACBA9AC0BB/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          97.27,
+          583.64,
+          259.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-ACBA9AC0BB/solution-q17-p13.webp",
+      "assets/SZ-G9-T1-ACBA9AC0BB/solution-q17-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          518.64,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          634.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.03",
+    "M.G02.04"
+  ],
+  "exam_ids": [
+    "E.G05.03.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“图形面积与分割”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。 本问的要求和解答步骤对应“图形面积与分割”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

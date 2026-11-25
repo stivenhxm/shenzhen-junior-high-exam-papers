@@ -1,0 +1,334 @@
+{
+  "knowledge_ids": [
+    "M.N13.02",
+    "M.N13.04",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.N13.02.01",
+    "E.N13.04.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。 本问题面与解答对应“在给定区间内确定二次函数最值”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-73E0ED6BB4-Q21",
+  "number": 21,
+  "paper_id": "SZ-G9-T2-73E0ED6BB4",
+  "title": "根据独立条件确定二次函数表达式、在给定区间内确定二次函数最值",
+  "stem": "（9分）如图，在平面直角坐标系中，二次函数\\(y=-x ^ { 2 } +bx+c\\)的图象与轴交于A，B点，与y轴交于点\\(C\\left ( { 0,3 } \\right )\\)，点B的坐标为\\(\\left ( { 3,0 } \\right )\\)，点P是抛物线上一个动点．\n(1)求二次函数解析式；\n(2)若P点在第一象限运动，当P运动到什么位置时，\\(\\vartriangle BPC\\)的面积最大？请求出点P的坐标和\\(\\vartriangle BPC\\)面积的最大值；\n(3)连接\\(PO，PC\\)，并把\\(\\vartriangle POC\\)沿\\({ \\rm{ C } }{ \\rm{ O } }\\)翻折，那么是否存在点P，使四边形\\(POP'C\\)为菱形；若不存在，请说明理由．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）如图，在平面直角坐标系中，二次函数\\(y=-x ^ { 2 } +bx+c\\)的图象与轴交于A，B点，与y轴交于点\\(C\\left ( { 0,3 } \\right )\\)，点B的坐标为\\(\\left ( { 3,0 } \\right )\\)，点P是抛物线上一个动点．",
+      "paper_blocks": [
+        680
+      ]
+    },
+    {
+      "id": "fig-720",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        720
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-73E0ED6BB4-Q21-P01",
+      "label": "(1)",
+      "prompt": "求二次函数解析式；",
+      "stem_text": "求二次函数解析式；",
+      "material_ids": [
+        "context",
+        "fig-720"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-x ^ { 2 } +2x+3\\)",
+      "answer": "\\(y=-x ^ { 2 } +2x+3\\)",
+      "given_solution": "解：将\\(B(3,0)\\)，\\(C(0,3)\\)代入\\(y=-x ^ { 2 } +bx+c\\)，\n得〔图1〕，\n解得〔图2〕，\n∴二次函数的解析式为\\(y=-x ^ { 2 } +2x+3\\)．",
+      "solution_steps": [
+        "解：将\\(B(3,0)\\)，\\(C(0,3)\\)代入\\(y=-x ^ { 2 } +bx+c\\)，",
+        "得〔图1〕，",
+        "解得〔图2〕，",
+        "∴二次函数的解析式为\\(y=-x ^ { 2 } +2x+3\\)．"
+      ],
+      "solution_figure_ids": [
+        1,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          680,
+          690,
+          720
+        ],
+        "solution_block_ids": [
+          3450,
+          3460,
+          3470,
+          3480
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-73E0ED6BB4-Q21-P02",
+      "label": "(2)",
+      "prompt": "若P点在第一象限运动，当P运动到什么位置时，\\(\\vartriangle BPC\\)的面积最大？请求出点P的坐标和\\(\\vartriangle BPC\\)面积的最大值；",
+      "stem_text": "若P点在第一象限运动，当P运动到什么位置时，\\(\\vartriangle BPC\\)的面积最大？请求出点P的坐标和\\(\\vartriangle BPC\\)面积的最大值；",
+      "material_ids": [
+        "context",
+        "fig-720"
+      ],
+      "requires": [],
+      "given_answer": "点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大\\(\\frac { 27 } { 8 }\\)．",
+      "answer": "点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大\\(\\frac { 27 } { 8 }\\)．",
+      "given_solution": "设\\(P(x,-x ^ { 2 } +2x+3)\\)，\n〔图3〕\n设直线\\(BC\\)的解析式为\\(y=mx+n\\)，\n则〔图4〕，\n解得〔图5〕，\n∴直线\\(BC\\)的解析式为\\(y=-x+3\\)，\n设\\(Q(x,-x+3)\\)，\n∴\\(S_{ \\vartriangle CPB } =S_{ \\vartriangle BPQ } +S_{ \\vartriangle CPQ } =\\frac { 1 } { 2 }QP\\cdot OB=\\frac { 1 } { 2 }(-x ^ { 2 } +3x)\\times 3=-\\frac { 3 } { 2 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +\\frac { 27 } { 8 }\\)\n当\\(x=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle CPB\\)的面积最大，\n\\(-x ^ { 2 } +2x+3=-\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } +2\\times \\frac { 3 } { 2 }+3=\\frac { 15 } { 4 }\\)，\n此时，点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大值为\\(\\frac { 27 } { 8 }\\)．",
+      "solution_steps": [
+        "设\\(P(x,-x ^ { 2 } +2x+3)\\)，",
+        "〔图3〕",
+        "设直线\\(BC\\)的解析式为\\(y=mx+n\\)，",
+        "则〔图4〕，",
+        "解得〔图5〕，",
+        "∴直线\\(BC\\)的解析式为\\(y=-x+3\\)，",
+        "设\\(Q(x,-x+3)\\)，",
+        "∴\\(S_{ \\vartriangle CPB } =S_{ \\vartriangle BPQ } +S_{ \\vartriangle CPQ } =\\frac { 1 } { 2 }QP\\cdot OB=\\frac { 1 } { 2 }(-x ^ { 2 } +3x)\\times 3=-\\frac { 3 } { 2 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +\\frac { 27 } { 8 }\\)",
+        "当\\(x=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle CPB\\)的面积最大，",
+        "\\(-x ^ { 2 } +2x+3=-\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } +2\\times \\frac { 3 } { 2 }+3=\\frac { 15 } { 4 }\\)，",
+        "此时，点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大值为\\(\\frac { 27 } { 8 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          680,
+          700,
+          720
+        ],
+        "solution_block_ids": [
+          3490,
+          3500,
+          3510,
+          3520,
+          3530,
+          3540,
+          3550,
+          3560,
+          3570,
+          3580,
+          3590
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N13.04"
+      ],
+      "exam_ids": [
+        "E.N13.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“在给定区间内确定二次函数最值”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-73E0ED6BB4-Q21-P03",
+      "label": "(3)",
+      "prompt": "连接\\(PO，PC\\)，并把\\(\\vartriangle POC\\)沿\\({ \\rm{ C } }{ \\rm{ O } }\\)翻折，那么是否存在点P，使四边形\\(POP'C\\)为菱形；若不存在，请说明理由．",
+      "stem_text": "连接\\(PO，PC\\)，并把\\(\\vartriangle POC\\)沿\\({ \\rm{ C } }{ \\rm{ O } }\\)翻折，那么是否存在点P，使四边形\\(POP'C\\)为菱形；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "fig-720"
+      ],
+      "requires": [],
+      "given_answer": "存在，\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\)",
+      "answer": "存在，\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\)",
+      "given_solution": "存在．如图，设点\\(P\\left ( { x,-x ^ { 2 } +2x+3 } \\right )\\)，\\(PP'\\)交\\({ \\rm{ C } }{ \\rm{ O } }\\)于点E，\n〔图6〕\n若四边形\\(POP'C\\)是菱形，连接\\(PP'\\)，则\\(PE\\bot OC\\)，\\(OE=CE=\\frac { 3 } { 2 }\\)，\n∴\\(-x ^ { 2 } +2x+3=\\frac { 3 } { 2 }\\)，\n解得\\(x_{ 1 } =\\frac { 2+\\sqrt[] { 10 } } { 2 }\\)，\\(x_{ 2 } =\\frac { 2-\\sqrt[] { 10 } } { 2 }\\)\n∴\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\).",
+      "solution_steps": [
+        "存在．如图，设点\\(P\\left ( { x,-x ^ { 2 } +2x+3 } \\right )\\)，\\(PP'\\)交\\({ \\rm{ C } }{ \\rm{ O } }\\)于点E，",
+        "〔图6〕",
+        "若四边形\\(POP'C\\)是菱形，连接\\(PP'\\)，则\\(PE\\bot OC\\)，\\(OE=CE=\\frac { 3 } { 2 }\\)，",
+        "∴\\(-x ^ { 2 } +2x+3=\\frac { 3 } { 2 }\\)，",
+        "解得\\(x_{ 1 } =\\frac { 2+\\sqrt[] { 10 } } { 2 }\\)，\\(x_{ 2 } =\\frac { 2-\\sqrt[] { 10 } } { 2 }\\)",
+        "∴\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\)."
+      ],
+      "solution_figure_ids": [
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          680,
+          710,
+          720
+        ],
+        "solution_block_ids": [
+          3600,
+          3610,
+          3620,
+          3630,
+          3640,
+          3650
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/9f/9f48e80457f3a8f96a4340036f2aa2b17c6b2dbf8fbe85f34f28ce187f28e0b2.png"
+  ],
+  "tables": [],
+  "answer": "(1)\\(y=-x ^ { 2 } +2x+3\\)\n(2)点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大\\(\\frac { 27 } { 8 }\\)．\n(3)存在，\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\)",
+  "given_answer": "(1)\\(y=-x ^ { 2 } +2x+3\\)\n(2)点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大\\(\\frac { 27 } { 8 }\\)．\n(3)存在，\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\)",
+  "given_solution": "【分析】此题是二次函数综合题，考查了待定系数法、二次函数图象与面积问题、二次函数与特殊四边形等知识，数形结合是解题的关键．\n（1）利用待定系数法求出函数解析式即可；\n（2）设\\(P(x,-x ^ { 2 } +2x+3)\\)，求出直线\\(BC\\)的解析式为\\(y=-x+3\\)，设\\(Q(x,-x+3)\\)，得到\\(S_{ \\vartriangle CPB } =-\\frac { 3 } { 2 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +\\frac { 27 } { 8 }\\)，根据二次函数的性质解答即可；\n（3）设点\\(P\\left ( { x,-x ^ { 2 } +2x+3 } \\right )\\)，\\(PP'\\)交\\({ \\rm{ C } }{ \\rm{ O } }\\)于点E，若四边形\\(POP'C\\)是菱形，连接\\(PP'\\)，则\\(PE\\bot OC\\)，\\(OE=CE=\\frac { 3 } { 2 }\\)，得到方程\\(-x ^ { 2 } +2x+3=\\frac { 3 } { 2 }\\)，解方程即可得到答案．\n【详解】（1）解：将\\(B(3,0)\\)，\\(C(0,3)\\)代入\\(y=-x ^ { 2 } +bx+c\\)，\n得〔图1〕，\n解得〔图2〕，\n∴二次函数的解析式为\\(y=-x ^ { 2 } +2x+3\\)．\n（2）设\\(P(x,-x ^ { 2 } +2x+3)\\)，\n〔图3〕\n设直线\\(BC\\)的解析式为\\(y=mx+n\\)，\n则〔图4〕，\n解得〔图5〕，\n∴直线\\(BC\\)的解析式为\\(y=-x+3\\)，\n设\\(Q(x,-x+3)\\)，\n∴\\(S_{ \\vartriangle CPB } =S_{ \\vartriangle BPQ } +S_{ \\vartriangle CPQ } =\\frac { 1 } { 2 }QP\\cdot OB=\\frac { 1 } { 2 }(-x ^ { 2 } +3x)\\times 3=-\\frac { 3 } { 2 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +\\frac { 27 } { 8 }\\)\n当\\(x=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle CPB\\)的面积最大，\n\\(-x ^ { 2 } +2x+3=-\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } +2\\times \\frac { 3 } { 2 }+3=\\frac { 15 } { 4 }\\)，\n此时，点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大值为\\(\\frac { 27 } { 8 }\\)．\n（3）存在．如图，设点\\(P\\left ( { x,-x ^ { 2 } +2x+3 } \\right )\\)，\\(PP'\\)交\\({ \\rm{ C } }{ \\rm{ O } }\\)于点E，\n〔图6〕\n若四边形\\(POP'C\\)是菱形，连接\\(PP'\\)，则\\(PE\\bot OC\\)，\\(OE=CE=\\frac { 3 } { 2 }\\)，\n∴\\(-x ^ { 2 } +2x+3=\\frac { 3 } { 2 }\\)，\n解得\\(x_{ 1 } =\\frac { 2+\\sqrt[] { 10 } } { 2 }\\)，\\(x_{ 2 } =\\frac { 2-\\sqrt[] { 10 } } { 2 }\\)\n∴\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\).",
+  "given_solution_figures": [
+    "assets/figures/b9/b98f093d65ad1f77dbfc2a8498d55ffb2ecf9fba61cc103ebd1130788c7fc873.png",
+    "assets/figures/97/97ba298edd0542fd425690b9f085b41de58e8405ea541fd739094ef1d823373b.png",
+    "assets/figures/cd/cd0c75252253c4ab18dd2dbcbc2b2717d7ab59553763e4312675e505f18370ed.png",
+    "assets/figures/e9/e974681fad0162536c5164985d32c8c927a0ec6abb922900f50093d4c3cffcb7.png",
+    "assets/figures/2c/2cb1c29881648f75b503a2a7b44759246eb4daf00f2911a6f4a66264c8d92455.png",
+    "assets/figures/b3/b3b53ca78eadad7eb7e62d7bc9a997c38929e26c4f28b2d836c045b9bf979fb0.png"
+  ],
+  "solution_steps": [
+    "（1）解：将\\(B(3,0)\\)，\\(C(0,3)\\)代入\\(y=-x ^ { 2 } +bx+c\\)，",
+    "得〔图1〕，",
+    "解得〔图2〕，",
+    "∴二次函数的解析式为\\(y=-x ^ { 2 } +2x+3\\)．",
+    "（2）设\\(P(x,-x ^ { 2 } +2x+3)\\)，",
+    "〔图3〕",
+    "设直线\\(BC\\)的解析式为\\(y=mx+n\\)，",
+    "则〔图4〕，",
+    "解得〔图5〕，",
+    "∴直线\\(BC\\)的解析式为\\(y=-x+3\\)，",
+    "设\\(Q(x,-x+3)\\)，",
+    "∴\\(S_{ \\vartriangle CPB } =S_{ \\vartriangle BPQ } +S_{ \\vartriangle CPQ } =\\frac { 1 } { 2 }QP\\cdot OB=\\frac { 1 } { 2 }(-x ^ { 2 } +3x)\\times 3=-\\frac { 3 } { 2 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +\\frac { 27 } { 8 }\\)",
+    "当\\(x=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle CPB\\)的面积最大，",
+    "\\(-x ^ { 2 } +2x+3=-\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } +2\\times \\frac { 3 } { 2 }+3=\\frac { 15 } { 4 }\\)，",
+    "此时，点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大值为\\(\\frac { 27 } { 8 }\\)．",
+    "（3）存在．如图，设点\\(P\\left ( { x,-x ^ { 2 } +2x+3 } \\right )\\)，\\(PP'\\)交\\({ \\rm{ C } }{ \\rm{ O } }\\)于点E，",
+    "〔图6〕",
+    "若四边形\\(POP'C\\)是菱形，连接\\(PP'\\)，则\\(PE\\bot OC\\)，\\(OE=CE=\\frac { 3 } { 2 }\\)，",
+    "∴\\(-x ^ { 2 } +2x+3=\\frac { 3 } { 2 }\\)，",
+    "解得\\(x_{ 1 } =\\frac { 2+\\sqrt[] { 10 } } { 2 }\\)，\\(x_{ 2 } =\\frac { 2-\\sqrt[] { 10 } } { 2 }\\)",
+    "∴\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\)."
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）解：将\\(B(3,0)\\)，\\(C(0,3)\\)代入\\(y=-x ^ { 2 } +bx+c\\)，\n得〔图1〕，\n解得〔图2〕，\n∴二次函数的解析式为\\(y=-x ^ { 2 } +2x+3\\)．\n（2）设\\(P(x,-x ^ { 2 } +2x+3)\\)，\n〔图3〕\n设直线\\(BC\\)的解析式为\\(y=mx+n\\)，\n则〔图4〕，\n解得〔图5〕，\n∴直线\\(BC\\)的解析式为\\(y=-x+3\\)，\n设\\(Q(x,-x+3)\\)，\n∴\\(S_{ \\vartriangle CPB } =S_{ \\vartriangle BPQ } +S_{ \\vartriangle CPQ } =\\frac { 1 } { 2 }QP\\cdot OB=\\frac { 1 } { 2 }(-x ^ { 2 } +3x)\\times 3=-\\frac { 3 } { 2 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +\\frac { 27 } { 8 }\\)\n当\\(x=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle CPB\\)的面积最大，\n\\(-x ^ { 2 } +2x+3=-\\left ( { \\frac { 3 } { 2 } } \\right ) ^ { 2 } +2\\times \\frac { 3 } { 2 }+3=\\frac { 15 } { 4 }\\)，\n此时，点的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 15 } { 4 } } \\right )\\)，\\(\\vartriangle CPB\\)的面积最大值为\\(\\frac { 27 } { 8 }\\)．\n（3）存在．如图，设点\\(P\\left ( { x,-x ^ { 2 } +2x+3 } \\right )\\)，\\(PP'\\)交\\({ \\rm{ C } }{ \\rm{ O } }\\)于点E，\n〔图6〕\n若四边形\\(POP'C\\)是菱形，连接\\(PP'\\)，则\\(PE\\bot OC\\)，\\(OE=CE=\\frac { 3 } { 2 }\\)，\n∴\\(-x ^ { 2 } +2x+3=\\frac { 3 } { 2 }\\)，\n解得\\(x_{ 1 } =\\frac { 2+\\sqrt[] { 10 } } { 2 }\\)，\\(x_{ 2 } =\\frac { 2-\\sqrt[] { 10 } } { 2 }\\)\n∴\\(P\\left ( { \\frac { 2+\\sqrt[] { 10 } } { 6 },\\frac { 3 } { 2 } } \\right )\\)或\\(P\\left ( { \\frac { 2-\\sqrt[] { 10 } } { 2 },\\frac { 3 } { 2 } } \\right )\\).",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-73E0ED6BB4/single/q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          180.4,
+          582.2,
+          441.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s21-p15.webp",
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s21-p16.webp",
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s21-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          634.96,
+          582.2,
+          789.31
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          37.04,
+          582.2,
+          706.17
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          37.04,
+          582.2,
+          276.61
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

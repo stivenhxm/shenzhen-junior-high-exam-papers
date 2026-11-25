@@ -1,0 +1,75 @@
+{
+  "knowledge_ids": [
+    "M.G07.03"
+  ],
+  "exam_ids": [],
+  "coverage": "仅知识点",
+  "tag_note": "题目要求识别中心对称图形，细目要求确定变换的对应图形或由旋转建立关系。",
+  "tag_reason": "将两等边三角形的边绕公共顶点旋转对应，比较相交线段。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-15FCEF5A86-Q15",
+  "number": 15,
+  "paper_id": "SZ-G9-T2-15FCEF5A86",
+  "title": "三点在一条直线上",
+  "stem": "如图，\\(B、C、E\\)三点在一条直线上，\\(\\vartriangle ABC\\)和\\(\\vartriangle DCE\\)均为正三角形，\\(BD\\)与\\(AC\\)交于点\\(M，BD\\)与\\(AE\\)交于点\\(O\\)，\\(AE\\)与\\(CD\\)交于点\\(N\\)，连接\\(MN、OC\\)，以下结论正确的序号是          ．\n〔图1〕\n①\\(MN\\parallel BE\\)；②\\(\\frac { AC } { CE }=\\frac { OB } { OD }\\)；③\\(\\frac { BC } { CE }=\\frac { OB } { OE }\\)；④\\(OA+OC=OB\\)．",
+  "type": "填空题",
+  "points": null,
+  "choices": [],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/aa/aad2be0338c237b766355deebef28b8e19b2297d962cb6a1192b22769d7a0797.png"
+  ],
+  "tables": [],
+  "answer": "①③④",
+  "given_answer": "①③④",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "设 \\(BC=a,\\ CE=b\\)，以 B 为原点、BE 为 x 轴。则 \\(C(a,0), E(a+b,0), A(a/2,\\sqrt3a/2), D(a+b/2,\\sqrt3b/2)\\)。联立交线，得 M、N 的纵坐标均为 \\(\\sqrt3ab/[2(a+b)]\\)，故①正确。",
+    "绕 C 顺时针旋转 \\(60^\\circ\\)，B、D 分别变为 A、E，故 \\(BD=AE\\)。令 \\(t=OB/BD,\\ u=OE/EA\\)；O 的纵坐标给出 \\(tb=ua\\)，故③正确。其横坐标给出 \\(t=a(a+b)/(a^2+ab+b^2),\\ u=b(a+b)/(a^2+ab+b^2)\\)。",
+    "O 的旋转像 O′ 落在 AE 上，\\(AO′=OB,\\ OO′=OC\\)。因 \\(t+u>1\\)，故 O′ 在 O 与 E 之间，\\(OA+OC=AO′=OB\\)，④正确。取 \\(a=b\\)，此时 \\(OB/OD=2\\)，而 \\(AC/CE=1\\)，②错误。"
+  ],
+  "solution_origin": "editorial_solution",
+  "solution": "设 \\(BC=a,\\ CE=b\\)，以 B 为原点、BE 为 x 轴。则 \\(C(a,0), E(a+b,0), A(a/2,\\sqrt3a/2), D(a+b/2,\\sqrt3b/2)\\)。联立交线，得 M、N 的纵坐标均为 \\(\\sqrt3ab/[2(a+b)]\\)，故①正确。\n绕 C 顺时针旋转 \\(60^\\circ\\)，B、D 分别变为 A、E，故 \\(BD=AE\\)。令 \\(t=OB/BD,\\ u=OE/EA\\)；O 的纵坐标给出 \\(tb=ua\\)，故③正确。其横坐标给出 \\(t=a(a+b)/(a^2+ab+b^2),\\ u=b(a+b)/(a^2+ab+b^2)\\)。\nO 的旋转像 O′ 落在 AE 上，\\(AO′=OB,\\ OO′=OC\\)。因 \\(t+u>1\\)，故 O′ 在 O 与 E 之间，\\(OA+OC=AO′=OB\\)，④正确。取 \\(a=b\\)，此时 \\(OB/OD=2\\)，而 \\(AC/CE=1\\)，②错误。",
+  "review_note": "资料仅列答案，参考步骤按题面和原图补写。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/q15-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          264.31,
+          582.2,
+          466.92
+        ]
+      }
+    ],
+    "solution_pages": [
+      1
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/s15-p01.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          13,
+          226.92,
+          582.2,
+          282.57
+        ]
+      }
+    ]
+  },
+  "tag_source": "逐题核对"
+}

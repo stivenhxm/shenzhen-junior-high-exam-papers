@@ -1,0 +1,130 @@
+{
+  "id": "SZ-G9-T1-7F5E5AC7C5-Q03",
+  "paper_id": "SZ-G9-T1-7F5E5AC7C5",
+  "number": 3,
+  "type": "选择题",
+  "points": 3,
+  "title": "利用扇形割补求组合图形面积",
+  "stem": "如图，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ ，AC=8，BC=6\\)，\\(\\odot O\\)是\\(\\vartriangle ABC\\)的内切圆，则阴影部分面积是（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "2"
+    },
+    {
+      "label": "B",
+      "text": "π"
+    },
+    {
+      "label": "C",
+      "text": "\\(4-\\pi\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(\\pi -2\\)"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G9-T1-7F5E5AC7C5/figures/c346e315d65fc5251a70dee23bec81fcbf1745042d80349c76f6f105fde14d38.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】先利用勾股定理求出\\(AB=10\\)，设\\(\\odot O\\)与\\(AB，AC，BC\\)分别相切于\\(D、E、F\\)，连接\\(OA、OB、OC、OD、OE、OF\\)，利用切线的性质和等面积法求出\\(OE=OF=2\\)，再证明四边形\\(OECF\\)是正方形，得到\\(\\angle EOF=90{}^\\circ\\)，最后根据\\(S_{ 阴影 } =S_{ 正方形OECF } -S_{ 扇形OEF }\\)进行求解即可．\n【详解】解：∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ ，AC=8，BC=6\\)，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=10\\)，\n如图所示，设\\(\\odot O\\)与\\(AB，AC，BC\\)分别相切于\\(D、E、F\\)，连接\\(OA、OB、OC、OD、OE、OF\\)，\n∴\\(OE\\bot AC，OD\\bot AB，OF\\bot BC，OE=OD=OF\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle AOB } +S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC }\\)，\n∴\\(\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AC\\cdot OE+\\frac { 1 } { 2 }AB\\cdot OD+\\frac { 1 } { 2 }BC\\cdot OF\\)，\n∴\\(\\frac { 1 } { 2 }\\times 6\\times 8=\\frac { 1 } { 2 }\\times 8OE+\\frac { 1 } { 2 }\\times 6OF+\\frac { 1 } { 2 }\\times 10OD\\)，\n∴\\(3OE+4OE+5OE=24\\)，\n∴\\(OE=OF=2\\)，\n∵\\(OE\\bot AC，OF\\bot BC，\\angle ECF=90{}^\\circ\\)，\n∴四边形\\(OECF\\)是正方形，\n∴\\(\\angle EOF=90{}^\\circ\\)，\n∴\\(S_{ 阴影 } =S_{ 正方形OECF } -S_{ 扇形OEF } =2\\times 2-\\frac { 90\\pi \\times 2 ^ { 2 } } { 360 }=4-\\pi\\)，\n故选C．\n〔图2〕\n【点睛】本题主要考查了直角三角形内切圆半径与直角三角形三边的关系，勾股定理，正方形的性质与判定，求不规则图形面积，正确求出圆O的半径长是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7F5E5AC7C5/figures/c346e315d65fc5251a70dee23bec81fcbf1745042d80349c76f6f105fde14d38.png",
+    "assets/SZ-G9-T1-7F5E5AC7C5/figures/e29828d66dadfc4eac3c89ddafedc2720facad051631340bdaa86ddbcb7a23a8.png"
+  ],
+  "solution": "解：∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ ，AC=8，BC=6\\)，\n∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=10\\)，\n如图所示，设\\(\\odot O\\)与\\(AB，AC，BC\\)分别相切于\\(D、E、F\\)，连接\\(OA、OB、OC、OD、OE、OF\\)，\n∴\\(OE\\bot AC，OD\\bot AB，OF\\bot BC，OE=OD=OF\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle AOB } +S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC }\\)，\n∴\\(\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AC\\cdot OE+\\frac { 1 } { 2 }AB\\cdot OD+\\frac { 1 } { 2 }BC\\cdot OF\\)，\n∴\\(\\frac { 1 } { 2 }\\times 6\\times 8=\\frac { 1 } { 2 }\\times 8OE+\\frac { 1 } { 2 }\\times 6OF+\\frac { 1 } { 2 }\\times 10OD\\)，\n∴\\(3OE+4OE+5OE=24\\)，\n∴\\(OE=OF=2\\)，\n∵\\(OE\\bot AC，OF\\bot BC，\\angle ECF=90{}^\\circ\\)，\n∴四边形\\(OECF\\)是正方形，\n∴\\(\\angle EOF=90{}^\\circ\\)，\n∴\\(S_{ 阴影 } =S_{ 正方形OECF } -S_{ 扇形OEF } =2\\times 2-\\frac { 90\\pi \\times 2 ^ { 2 } } { 360 }=4-\\pi\\)，\n故选C．\n〔图2〕",
+  "solution_steps": [
+    "解：∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ ，AC=8，BC=6\\)，",
+    "∴\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=10\\)，",
+    "如图所示，设\\(\\odot O\\)与\\(AB，AC，BC\\)分别相切于\\(D、E、F\\)，连接\\(OA、OB、OC、OD、OE、OF\\)，",
+    "∴\\(OE\\bot AC，OD\\bot AB，OF\\bot BC，OE=OD=OF\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle AOB } +S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC }\\)，",
+    "∴\\(\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AC\\cdot OE+\\frac { 1 } { 2 }AB\\cdot OD+\\frac { 1 } { 2 }BC\\cdot OF\\)，",
+    "∴\\(\\frac { 1 } { 2 }\\times 6\\times 8=\\frac { 1 } { 2 }\\times 8OE+\\frac { 1 } { 2 }\\times 6OF+\\frac { 1 } { 2 }\\times 10OD\\)，",
+    "∴\\(3OE+4OE+5OE=24\\)，",
+    "∴\\(OE=OF=2\\)，",
+    "∵\\(OE\\bot AC，OF\\bot BC，\\angle ECF=90{}^\\circ\\)，",
+    "∴四边形\\(OECF\\)是正方形，",
+    "∴\\(\\angle EOF=90{}^\\circ\\)，",
+    "∴\\(S_{ 阴影 } =S_{ 正方形OECF } -S_{ 扇形OEF } =2\\times 2-\\frac { 90\\pi \\times 2 ^ { 2 } } { 360 }=4-\\pi\\)，",
+    "故选C．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      10,
+      12
+    ],
+    "solution_body_blocks": [
+      30,
+      51
+    ],
+    "question_pages": [
+      1
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7F5E5AC7C5/paper-q03-p01.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          11.82,
+          427.27,
+          583.64,
+          589.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      2,
+      3
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7F5E5AC7C5/solution-q03-p02.webp",
+      "assets/SZ-G9-T1-7F5E5AC7C5/solution-q03-p03.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          526.36,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          556.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G06.08"
+  ],
+  "exam_ids": [
+    "E.G06.08.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“利用扇形割补求组合图形面积”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

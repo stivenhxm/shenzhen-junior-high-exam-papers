@@ -1,0 +1,427 @@
+{
+  "id": "SZ-G9-T2-349D5B5203-Q12",
+  "paper_id": "SZ-G9-T2-349D5B5203",
+  "number": 12,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、根据独立条件确定二次函数表达式",
+  "stem": "已知\\(\\vartriangle ABC\\)是边长为4的等边三角形，\\(BC\\)在x轴上，点D为\\(BC\\)的中点，点A在第一象限内，\\(AB\\)与y轴的正半轴相交于点E，点\\(B\\left ( { -1,0 } \\right )\\)，P是\\(AC\\)上的一个动点（P与点A、C不重合）\n〔图1〕\n（1）求点A、E的坐标；\n（2）若\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)求过点A、E，求抛物线的解析式．\n（3）连结\\(PB、PD\\)，设L为△PBD的周长，当L取最小值时，求点P的坐标及L的最小值，并判断此时点P是否在（2）中所求的抛物线上，请充分说明你的判断理由",
+  "choices": [],
+  "figures": [
+    "assets/figures/18/18944e76758c0164ec8e436eaf8da13d62e0b05ee2ab339cc08ec783cf436d51.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)；\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)\n（2）\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)\n（3）在，理由见解析",
+  "answer": "（1）\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)；\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)\n（2）\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)\n（3）在，理由见解析",
+  "given_solution": "【分析】（1）连结\\(AD\\)，根据等边三角形的性质可得\\(BC=AB=4\\)，\\(BD=\\frac { 1 } { 2 }BC=2,AD\\bot BC\\)，再由勾股定理求出\\(AD\\)的长可得点A的坐标；再证明\\(\\vartriangle OBE\\backsim \\vartriangle DBA\\)，可得点E的坐标；\n（2）利用待定系数法解答，即可求解；\n（3）作点D关于\\(AC\\)的对称点\\(D'\\)，连结\\(BD'\\)交\\(AC\\)于点P，则\\(PB+PD\\)取最小值，此时\\(\\vartriangle PBD\\)的周长L取最小值．根据作法得：\\(DD'\\bot AC\\)，\\(DD'=2DF\\)，再由直角三角形的性质可得求出点\\(D'\\)的坐标，再分别求出直线\\(BD'\\)和\\(AC\\)的解析式，可得到点P的坐标，即可求解．\n【小问1详解】\n解：连结\\(AD\\)，\n〔图1〕\n∵\\(\\vartriangle ABC\\)是边长为4的等边三角形，\n∴\\(BC=AB=4\\)，\n∵点D为\\(BC\\)的中点，\n∴\\(BD=\\frac { 1 } { 2 }BC=2,AD\\bot BC\\)，\n∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∵点\\(B\\left ( { -1,0 } \\right )\\)，\n∴\\(OB=1\\)，\n∴\\(OD=1\\)，\n∴点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)，\n∵\\(AD\\bot BC\\)，\n∴\\(OE\\parallel AD\\)，\n∴\\(\\vartriangle OBE\\backsim \\vartriangle DBA\\)，\n∴\\(\\frac { OE } { AD }=\\frac { OB } { BD }=\\frac { 1 } { 2 }\\)，\n∴\\(OE=\\sqrt[] { 3 }\\)，\n∴\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)；\n【小问2详解】\n解：把点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)代入\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)得：\n\\(\\begin{cases} 2\\sqrt[] { 3 }=-\\frac { 6\\sqrt[] { 3 } } { 7 }+b+c \\\\ \\sqrt[] { 3 }=c \\end{cases}\\)，\n解得：\\(\\begin{cases} b=\\frac { 13\\sqrt[] { 3 } } { 7 } \\\\ c=\\sqrt[] { 3 } \\end{cases}\\)，\n∴抛物线的解析式为\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)；\n【小问3详解】\n解：作点D关于\\(AC\\)的对称点\\(D'\\)，连结\\(BD'\\)交\\(AC\\)于点P，则\\(PB+PD\\)取最小值，此时\\(\\vartriangle PBD\\)的周长L取最小值．\n〔图2〕\n根据作法得：\\(DD'\\bot AC\\)，\\(DD'=2DF\\)，即\\(\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle D'DC=30{}^\\circ\\)\n∴\\(CF=\\frac { 1 } { 2 }CD=1\\)，\n∴\\(DF=\\sqrt[] { 3 }\\)，\n∴\\(DD'=2\\sqrt[] { 3 }\\)，\n∴\\(D'G=\\frac { 1 } { 2 }DD'=\\sqrt[] { 3 }\\)，\n∴\\(DG=3\\)，\n∴\\(OG=4\\)，\n∴点\\(D'\\)的坐标为\\(\\left ( { 4,\\sqrt[] { 3 } } \\right )\\)，\n设直线\\(BD'\\)的解析式为\\(y=kx+m\\)，\n∴\\(\\begin{cases} -k+m=0 \\\\ 4k+m=\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 5 } \\\\ m=\\frac { \\sqrt[] { 3 } } { 5 } \\end{cases}\\)\n∴直线\\(BD'\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 }\\)，\n同理直线\\(AC\\)的解析式为：\\(y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 }\\)\n联立得：\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 } \\\\ y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 7 } { 3 } \\\\ y=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴交点P的坐标为\\(\\left ( { \\frac { 7 } { 3 },\\frac { 2\\sqrt[] { 3 } } { 3 } } \\right )\\)，\n此时\\(BD'=\\sqrt[] { BG ^ { 2 } +D'G ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)，\n所以\\(\\vartriangle PBD\\)的最小周长L为\\(2\\sqrt[] { 7 }+2\\)\n对于\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)，\n当\\(x=\\frac { 7 } { 3 }\\)时，\\(y=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n∴点P在抛物线\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)上．\n【点睛】本题主要考查了求二次函数的解析式，等边三角形的性质，直角三角形的性质，相似三角形的判定和性质，熟练掌握相关知识点是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/90/906ef191882d5838537a054c420f9832096f6b176c6c56cf2f57c09451c76cb9.png",
+    "assets/figures/b7/b76d387b7245143ab6fb25eed4facd3e80e5ad1ff51534db23f6913ba268c947.png"
+  ],
+  "solution": "【小问1详解】\n解：连结\\(AD\\)，\n〔图1〕\n∵\\(\\vartriangle ABC\\)是边长为4的等边三角形，\n∴\\(BC=AB=4\\)，\n∵点D为\\(BC\\)的中点，\n∴\\(BD=\\frac { 1 } { 2 }BC=2,AD\\bot BC\\)，\n∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∵点\\(B\\left ( { -1,0 } \\right )\\)，\n∴\\(OB=1\\)，\n∴\\(OD=1\\)，\n∴点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)，\n∵\\(AD\\bot BC\\)，\n∴\\(OE\\parallel AD\\)，\n∴\\(\\vartriangle OBE\\backsim \\vartriangle DBA\\)，\n∴\\(\\frac { OE } { AD }=\\frac { OB } { BD }=\\frac { 1 } { 2 }\\)，\n∴\\(OE=\\sqrt[] { 3 }\\)，\n∴\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)；\n【小问2详解】\n解：把点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)代入\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)得：\n\\(\\begin{cases} 2\\sqrt[] { 3 }=-\\frac { 6\\sqrt[] { 3 } } { 7 }+b+c \\\\ \\sqrt[] { 3 }=c \\end{cases}\\)，\n解得：\\(\\begin{cases} b=\\frac { 13\\sqrt[] { 3 } } { 7 } \\\\ c=\\sqrt[] { 3 } \\end{cases}\\)，\n∴抛物线的解析式为\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)；\n【小问3详解】\n解：作点D关于\\(AC\\)的对称点\\(D'\\)，连结\\(BD'\\)交\\(AC\\)于点P，则\\(PB+PD\\)取最小值，此时\\(\\vartriangle PBD\\)的周长L取最小值．\n〔图2〕\n根据作法得：\\(DD'\\bot AC\\)，\\(DD'=2DF\\)，即\\(\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle D'DC=30{}^\\circ\\)\n∴\\(CF=\\frac { 1 } { 2 }CD=1\\)，\n∴\\(DF=\\sqrt[] { 3 }\\)，\n∴\\(DD'=2\\sqrt[] { 3 }\\)，\n∴\\(D'G=\\frac { 1 } { 2 }DD'=\\sqrt[] { 3 }\\)，\n∴\\(DG=3\\)，\n∴\\(OG=4\\)，\n∴点\\(D'\\)的坐标为\\(\\left ( { 4,\\sqrt[] { 3 } } \\right )\\)，\n设直线\\(BD'\\)的解析式为\\(y=kx+m\\)，\n∴\\(\\begin{cases} -k+m=0 \\\\ 4k+m=\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 5 } \\\\ m=\\frac { \\sqrt[] { 3 } } { 5 } \\end{cases}\\)\n∴直线\\(BD'\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 }\\)，\n同理直线\\(AC\\)的解析式为：\\(y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 }\\)\n联立得：\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 } \\\\ y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 7 } { 3 } \\\\ y=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴交点P的坐标为\\(\\left ( { \\frac { 7 } { 3 },\\frac { 2\\sqrt[] { 3 } } { 3 } } \\right )\\)，\n此时\\(BD'=\\sqrt[] { BG ^ { 2 } +D'G ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)，\n所以\\(\\vartriangle PBD\\)的最小周长L为\\(2\\sqrt[] { 7 }+2\\)\n对于\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)，\n当\\(x=\\frac { 7 } { 3 }\\)时，\\(y=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n∴点P在抛物线\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)上．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：连结\\(AD\\)，",
+    "〔图1〕",
+    "∵\\(\\vartriangle ABC\\)是边长为4的等边三角形，",
+    "∴\\(BC=AB=4\\)，",
+    "∵点D为\\(BC\\)的中点，",
+    "∴\\(BD=\\frac { 1 } { 2 }BC=2,AD\\bot BC\\)，",
+    "∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+    "∵点\\(B\\left ( { -1,0 } \\right )\\)，",
+    "∴\\(OB=1\\)，",
+    "∴\\(OD=1\\)，",
+    "∴点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)，",
+    "∵\\(AD\\bot BC\\)，",
+    "∴\\(OE\\parallel AD\\)，",
+    "∴\\(\\vartriangle OBE\\backsim \\vartriangle DBA\\)，",
+    "∴\\(\\frac { OE } { AD }=\\frac { OB } { BD }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(OE=\\sqrt[] { 3 }\\)，",
+    "∴\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)；",
+    "【小问2详解】",
+    "解：把点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)代入\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)得：",
+    "\\(\\begin{cases} 2\\sqrt[] { 3 }=-\\frac { 6\\sqrt[] { 3 } } { 7 }+b+c \\\\ \\sqrt[] { 3 }=c \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} b=\\frac { 13\\sqrt[] { 3 } } { 7 } \\\\ c=\\sqrt[] { 3 } \\end{cases}\\)，",
+    "∴抛物线的解析式为\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)；",
+    "【小问3详解】",
+    "解：作点D关于\\(AC\\)的对称点\\(D'\\)，连结\\(BD'\\)交\\(AC\\)于点P，则\\(PB+PD\\)取最小值，此时\\(\\vartriangle PBD\\)的周长L取最小值．",
+    "〔图2〕",
+    "根据作法得：\\(DD'\\bot AC\\)，\\(DD'=2DF\\)，即\\(\\angle CFD=90{}^\\circ\\)，",
+    "∴\\(\\angle D'DC=30{}^\\circ\\)",
+    "∴\\(CF=\\frac { 1 } { 2 }CD=1\\)，",
+    "∴\\(DF=\\sqrt[] { 3 }\\)，",
+    "∴\\(DD'=2\\sqrt[] { 3 }\\)，",
+    "∴\\(D'G=\\frac { 1 } { 2 }DD'=\\sqrt[] { 3 }\\)，",
+    "∴\\(DG=3\\)，",
+    "∴\\(OG=4\\)，",
+    "∴点\\(D'\\)的坐标为\\(\\left ( { 4,\\sqrt[] { 3 } } \\right )\\)，",
+    "设直线\\(BD'\\)的解析式为\\(y=kx+m\\)，",
+    "∴\\(\\begin{cases} -k+m=0 \\\\ 4k+m=\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 5 } \\\\ m=\\frac { \\sqrt[] { 3 } } { 5 } \\end{cases}\\)",
+    "∴直线\\(BD'\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 }\\)，",
+    "同理直线\\(AC\\)的解析式为：\\(y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 }\\)",
+    "联立得：\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 } \\\\ y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 7 } { 3 } \\\\ y=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+    "∴交点P的坐标为\\(\\left ( { \\frac { 7 } { 3 },\\frac { 2\\sqrt[] { 3 } } { 3 } } \\right )\\)，",
+    "此时\\(BD'=\\sqrt[] { BG ^ { 2 } +D'G ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)，",
+    "所以\\(\\vartriangle PBD\\)的最小周长L为\\(2\\sqrt[] { 7 }+2\\)",
+    "对于\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)，",
+    "当\\(x=\\frac { 7 } { 3 }\\)时，\\(y=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+    "∴点P在抛物线\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)上．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(\\vartriangle ABC\\)是边长为4的等边三角形，\\(BC\\)在x轴上，点D为\\(BC\\)的中点，点A在第一象限内，\\(AB\\)与y轴的正半轴相交于点E，点\\(B\\left ( { -1,0 } \\right )\\)，P是\\(AC\\)上的一个动点（P与点A、C不重合）\n〔图1〕",
+      "paper_blocks": [
+        40,
+        41
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：若\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)求过点A、E，求抛物线的解析式．",
+      "paper_blocks": [
+        40,
+        41,
+        43
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-349D5B5203-Q12-P01",
+      "label": "（1）",
+      "prompt": "求点A、E的坐标；",
+      "stem_text": "求点A、E的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)；\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)",
+      "answer": "\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)；\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)",
+      "given_solution": "解：连结\\(AD\\)，\n〔图1〕\n∵\\(\\vartriangle ABC\\)是边长为4的等边三角形，\n∴\\(BC=AB=4\\)，\n∵点D为\\(BC\\)的中点，\n∴\\(BD=\\frac { 1 } { 2 }BC=2,AD\\bot BC\\)，\n∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∵点\\(B\\left ( { -1,0 } \\right )\\)，\n∴\\(OB=1\\)，\n∴\\(OD=1\\)，\n∴点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)，\n∵\\(AD\\bot BC\\)，\n∴\\(OE\\parallel AD\\)，\n∴\\(\\vartriangle OBE\\backsim \\vartriangle DBA\\)，\n∴\\(\\frac { OE } { AD }=\\frac { OB } { BD }=\\frac { 1 } { 2 }\\)，\n∴\\(OE=\\sqrt[] { 3 }\\)，\n∴\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)；",
+      "solution_steps": [
+        "解：连结\\(AD\\)，",
+        "〔图1〕",
+        "∵\\(\\vartriangle ABC\\)是边长为4的等边三角形，",
+        "∴\\(BC=AB=4\\)，",
+        "∵点D为\\(BC\\)的中点，",
+        "∴\\(BD=\\frac { 1 } { 2 }BC=2,AD\\bot BC\\)，",
+        "∴\\(AD=\\sqrt[] { AB ^ { 2 } -BD ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+        "∵点\\(B\\left ( { -1,0 } \\right )\\)，",
+        "∴\\(OB=1\\)，",
+        "∴\\(OD=1\\)，",
+        "∴点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)，",
+        "∵\\(AD\\bot BC\\)，",
+        "∴\\(OE\\parallel AD\\)，",
+        "∴\\(\\vartriangle OBE\\backsim \\vartriangle DBA\\)，",
+        "∴\\(\\frac { OE } { AD }=\\frac { OB } { BD }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(OE=\\sqrt[] { 3 }\\)，",
+        "∴\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41,
+          42
+        ],
+        "solution_block_ids": [
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          11,
+          12
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-349D5B5203-Q12-P02",
+      "label": "（2）",
+      "prompt": "若\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)求过点A、E，求抛物线的解析式．",
+      "stem_text": "若\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)求过点A、E，求抛物线的解析式．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)",
+      "answer": "\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)",
+      "given_solution": "解：把点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)代入\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)得：\n\\(\\begin{cases} 2\\sqrt[] { 3 }=-\\frac { 6\\sqrt[] { 3 } } { 7 }+b+c \\\\ \\sqrt[] { 3 }=c \\end{cases}\\)，\n解得：\\(\\begin{cases} b=\\frac { 13\\sqrt[] { 3 } } { 7 } \\\\ c=\\sqrt[] { 3 } \\end{cases}\\)，\n∴抛物线的解析式为\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "解：把点\\(A\\left ( { 1,2\\sqrt[] { 3 } } \\right )\\)\\(E\\left ( { 0,\\sqrt[] { 3 } } \\right )\\)代入\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +bx+c\\)得：",
+        "\\(\\begin{cases} 2\\sqrt[] { 3 }=-\\frac { 6\\sqrt[] { 3 } } { 7 }+b+c \\\\ \\sqrt[] { 3 }=c \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} b=\\frac { 13\\sqrt[] { 3 } } { 7 } \\\\ c=\\sqrt[] { 3 } \\end{cases}\\)，",
+        "∴抛物线的解析式为\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41,
+          43
+        ],
+        "solution_block_ids": [
+          217,
+          218,
+          219,
+          220
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          12
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-349D5B5203-Q12-P03",
+      "label": "（3）",
+      "prompt": "连结\\(PB、PD\\)，设L为△PBD的周长，当L取最小值时，求点P的坐标及L的最小值，并判断此时点P是否在（2）中所求的抛物线上，请充分说明你的判断理由",
+      "stem_text": "连结\\(PB、PD\\)，设L为△PBD的周长，当L取最小值时，求点P的坐标及L的最小值，并判断此时点P是否在（2）中所求的抛物线上，请充分说明你的判断理由",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G9-T2-349D5B5203-Q12-P02"
+      ],
+      "given_answer": "在，理由见解析",
+      "answer": "在，理由见解析",
+      "given_solution": "解：作点D关于\\(AC\\)的对称点\\(D'\\)，连结\\(BD'\\)交\\(AC\\)于点P，则\\(PB+PD\\)取最小值，此时\\(\\vartriangle PBD\\)的周长L取最小值．\n〔图2〕\n根据作法得：\\(DD'\\bot AC\\)，\\(DD'=2DF\\)，即\\(\\angle CFD=90{}^\\circ\\)，\n∴\\(\\angle D'DC=30{}^\\circ\\)\n∴\\(CF=\\frac { 1 } { 2 }CD=1\\)，\n∴\\(DF=\\sqrt[] { 3 }\\)，\n∴\\(DD'=2\\sqrt[] { 3 }\\)，\n∴\\(D'G=\\frac { 1 } { 2 }DD'=\\sqrt[] { 3 }\\)，\n∴\\(DG=3\\)，\n∴\\(OG=4\\)，\n∴点\\(D'\\)的坐标为\\(\\left ( { 4,\\sqrt[] { 3 } } \\right )\\)，\n设直线\\(BD'\\)的解析式为\\(y=kx+m\\)，\n∴\\(\\begin{cases} -k+m=0 \\\\ 4k+m=\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 5 } \\\\ m=\\frac { \\sqrt[] { 3 } } { 5 } \\end{cases}\\)\n∴直线\\(BD'\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 }\\)，\n同理直线\\(AC\\)的解析式为：\\(y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 }\\)\n联立得：\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 } \\\\ y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 7 } { 3 } \\\\ y=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，\n∴交点P的坐标为\\(\\left ( { \\frac { 7 } { 3 },\\frac { 2\\sqrt[] { 3 } } { 3 } } \\right )\\)，\n此时\\(BD'=\\sqrt[] { BG ^ { 2 } +D'G ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)，\n所以\\(\\vartriangle PBD\\)的最小周长L为\\(2\\sqrt[] { 7 }+2\\)\n对于\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)，\n当\\(x=\\frac { 7 } { 3 }\\)时，\\(y=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n∴点P在抛物线\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)上．",
+      "solution_steps": [
+        "解：作点D关于\\(AC\\)的对称点\\(D'\\)，连结\\(BD'\\)交\\(AC\\)于点P，则\\(PB+PD\\)取最小值，此时\\(\\vartriangle PBD\\)的周长L取最小值．",
+        "〔图2〕",
+        "根据作法得：\\(DD'\\bot AC\\)，\\(DD'=2DF\\)，即\\(\\angle CFD=90{}^\\circ\\)，",
+        "∴\\(\\angle D'DC=30{}^\\circ\\)",
+        "∴\\(CF=\\frac { 1 } { 2 }CD=1\\)，",
+        "∴\\(DF=\\sqrt[] { 3 }\\)，",
+        "∴\\(DD'=2\\sqrt[] { 3 }\\)，",
+        "∴\\(D'G=\\frac { 1 } { 2 }DD'=\\sqrt[] { 3 }\\)，",
+        "∴\\(DG=3\\)，",
+        "∴\\(OG=4\\)，",
+        "∴点\\(D'\\)的坐标为\\(\\left ( { 4,\\sqrt[] { 3 } } \\right )\\)，",
+        "设直线\\(BD'\\)的解析式为\\(y=kx+m\\)，",
+        "∴\\(\\begin{cases} -k+m=0 \\\\ 4k+m=\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} k=\\frac { \\sqrt[] { 3 } } { 5 } \\\\ m=\\frac { \\sqrt[] { 3 } } { 5 } \\end{cases}\\)",
+        "∴直线\\(BD'\\)的解析式为\\(y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 }\\)，",
+        "同理直线\\(AC\\)的解析式为：\\(y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 }\\)",
+        "联立得：\\(\\begin{cases} y=\\frac { \\sqrt[] { 3 } } { 5 }x+\\frac { \\sqrt[] { 3 } } { 5 } \\\\ y=-\\sqrt[] { 3 }x+3\\sqrt[] { 3 } \\end{cases}\\)，解得：\\(\\begin{cases} x=\\frac { 7 } { 3 } \\\\ y=\\frac { 2\\sqrt[] { 3 } } { 3 } \\end{cases}\\)，",
+        "∴交点P的坐标为\\(\\left ( { \\frac { 7 } { 3 },\\frac { 2\\sqrt[] { 3 } } { 3 } } \\right )\\)，",
+        "此时\\(BD'=\\sqrt[] { BG ^ { 2 } +D'G ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)，",
+        "所以\\(\\vartriangle PBD\\)的最小周长L为\\(2\\sqrt[] { 7 }+2\\)",
+        "对于\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)，",
+        "当\\(x=\\frac { 7 } { 3 }\\)时，\\(y=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+        "∴点P在抛物线\\(y=-\\frac { 6\\sqrt[] { 3 } } { 7 }x ^ { 2 } +\\frac { 13\\sqrt[] { 3 } } { 7 }x+\\sqrt[] { 3 }\\)上．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          40,
+          41,
+          43,
+          44
+        ],
+        "solution_block_ids": [
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243
+        ],
+        "question_pages": [
+          3,
+          4
+        ],
+        "solution_pages": [
+          12,
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.04"
+      ],
+      "exam_ids": [
+        "E.N13.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“在给定区间内确定二次函数最值”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      40,
+      44
+    ],
+    "solution_body_blocks": [
+      186,
+      244
+    ],
+    "question_pages": [
+      3,
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-349D5B5203/paper-q12-p03.webp",
+      "assets/SZ-G9-T2-349D5B5203/paper-q12-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          512.73,
+          583.64,
+          761.36
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-349D5B5203/solution-q12-p11.webp",
+      "assets/SZ-G9-T2-349D5B5203/solution-q12-p12.webp",
+      "assets/SZ-G9-T2-349D5B5203/solution-q12-p13.webp",
+      "assets/SZ-G9-T2-349D5B5203/solution-q12-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          275.45,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          689.09
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          260.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.N13.02",
+    "M.N13.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.N13.02.01",
+    "E.N13.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“根据独立条件确定二次函数表达式”。 本问题面与解答对应“在给定区间内确定二次函数最值”。",
+  "tag_source": "小问标签汇总"
+}

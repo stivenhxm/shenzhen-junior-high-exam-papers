@@ -1,0 +1,452 @@
+{
+  "id": "SZ-G9-T1-CF1D35CA1B-Q19",
+  "paper_id": "SZ-G9-T1-CF1D35CA1B",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、用坐标求线段长度与面积",
+  "stem": "数学课上，李老师提出问题：如图1，在正方形\\(ABCD\\)中，点E是边\\(BC\\)的中点，\\(\\angle AEF=90{}^\\circ\\)，且\\(EF\\)交正方形外角的平分线\\(CF\\)于点F．求证：\\(AE=EF\\)．（不需要证明）\n〔图1〕\n经过思考，小聪展示了一种正确的解题思路：如图5，取\\(AB\\)的中点H，连接\\(HE\\)，则\\(BH=BE\\)，则\\(\\vartriangle BHE\\)为等腰直角三角形，这时只需证\\(\\vartriangle AHE\\)与\\(\\vartriangle ECF\\)全等即可，在此基础上，同学们进行了进一步的探究：\n（1）小颖提出：如图2，如果把“点E是边\\(BC\\)的中点”改为“点E是边\\(BC\\)上（不含点B，C）的任意一点”，其他条件不变，那么结论“\\(AE=EF\\)”仍然成立，你认为小颖的观点正确吗？如果正确，写出证明过程，如果不正确，请说明理由；\n（2）小华提出：如图3，如果点E是边BC延长线上的任意一点，其他条件不变，那么结论“\\(AE=EF\\)”是否成立：______（填“是”或“否”）；\n（3）小丽提出：如图4，在平面直角坐标系\\(xOy\\)中，点O与点B重合，正方形的边长为1，当E为\\(BC\\)边上（不含点B，C）的某一点时，\\(\\angle AEF=90{}^\\circ\\)，点F恰好落在直线\\(y=-2x+3\\)上，请直接写出此时点E的坐标______，以及\\(\\vartriangle AEF\\)的面积______．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-CF1D35CA1B/figures/2c4afffe0165db6281d75ad3656377686aad7555abd159a8d738c66ba524c8b7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）正确，证明见解释\n（2）是    （3）\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)",
+  "answer": "（1）正确，证明见解释\n（2）是    （3）\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)",
+  "given_solution": "【分析】本题是一次函数综合题，考查了全等三角形的判定与性质、等腰直角三角形的性质、正方形的性质、一次函数的性质、勾股定理等知识．添加恰当辅助线构造全等三角形是解题的关键．\n（1）在\\(AB\\)上截取\\(BH=BE\\)，连接\\(HE\\)，利用“角边角”证明\\(\\vartriangle AHE≌\\vartriangle ECF\\)即可得到结论；\n（2）在\\(BA\\)的延长线上取一点\\(N\\)，使\\(AN=CE\\)，连接\\(NE\\)，利用“角边角”证明\\(\\vartriangle AHE≌\\vartriangle ECF\\)即可得到结论；\n（3）在\\(BA\\)上截取\\(BH=BE\\)，连接\\(HE\\)，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，设点\\(E\\left ( { a,0 } \\right )\\)，由等腰直角三角形的性质可得\\(HE=\\sqrt[] { 2 }a\\)，由全等三角形的性质、等腰三角形的性质可求得点\\(F\\)坐标，代入解析式可求出\\(a\\)的值，即可求解．\n【小问1详解】\n证明：如图2，在\\(AB\\)上截取\\(BH=BE\\)，连接\\(HE\\)，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ =\\angle BCD\\)，\n\\(\\because\\)\\(CF\\)平分\\(\\angle DCG\\)，\n\\(\\therefore\\)\\(\\angle DCF=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ECF=135{}^\\circ\\)，\n\\(\\because\\)\\(BH=BE\\)，\\(AB=BC\\)，\n\\(\\therefore\\)\\(\\angle BHE=\\angle BEH=45{}^\\circ\\)，\\(AH=CE\\)，\n\\(\\therefore\\)\\(\\angle AHE=\\angle ECF=135{}^\\circ\\)，\n\\(\\because\\)\\(AE\\bot EF\\)，\n\\(\\therefore\\)\\(\\angle AEB+\\angle FEC=90{}^\\circ\\)，\n\\(\\because\\)\\(\\angle AEB+\\angle BAE=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle FEC=\\angle BAE\\)，\n\\(\\therefore\\)\\(\\vartriangle AHE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(AE=EF\\)．\n【小问2详解】\n解：如图3，在\\(BA\\)的延长线上取一点\\(N\\)，使\\(AN=CE\\)，连接\\(NE\\)．\n〔图3〕\n\\(\\because\\)\\(AB=BC\\)，\\(AN=CE\\)，\n\\(\\therefore\\)\\(BN=BE\\)，\n\\(\\therefore\\)\\(\\angle N=\\angle FCE=45{}^\\circ\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(AD\\parallel BE\\)，\n\\(\\therefore\\)\\(\\angle DAE=\\angle BEA\\)，\n\\(\\therefore\\)\\(\\angle NAE=\\angle CEF\\)，\n在\\(\\vartriangle ANE\\)和\\(\\vartriangle ECF\\)中，\n\\(\\begin{cases} \\angle N=\\angle FCE \\\\ AN=CE \\\\ \\angle ANE=\\angle CEF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle ANE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(AE=EF\\)．\n故答案为：是．\n【小问3详解】\n解：如图4，在\\(BA\\)上截取\\(BH=BE\\)，连接\\(HE\\)，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，\n〔图4〕\n设点\\(E\\left ( { a,0 } \\right )\\)，\n\\(\\therefore\\)\\(BE=a=BH\\)，\n\\(\\therefore\\)\\(HE=\\sqrt[] { 2 }a\\)，\n由（1）可得\\(\\vartriangle ANE≌\\vartriangle ECF\\)，\n\\(\\therefore\\)\\(CF=HE=\\sqrt[] { 2 }a\\)，\n\\(\\because\\)\\(CF\\)平分\\(\\angle DCM\\)，\n\\(\\therefore\\)\\(\\angle DCF=\\angle FCM=45{}^\\circ\\)，\n\\(\\because\\)\\(FM\\bot CM\\)，\n\\(\\therefore\\)\\(\\angle CFM=\\angle FCM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(CM=FM=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 } }=a\\)，\n\\(\\therefore\\)\\(BM=1+a\\)，\n\\(\\therefore\\)点\\(F\\left ( { 1+a,a } \\right )\\)，\n\\(\\because\\)点F恰好落在直线\\(y=-2x+3\\)上，\n\\(\\therefore\\)\\(a=-2\\left ( { 1+a } \\right )+3\\)，\n\\(\\therefore\\)\\(a=\\frac { 1 } { 3 }\\)，\n\\(\\therefore\\)点\\(E\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，点\\(F\\left ( { \\frac { 4 } { 3 },\\frac { 1 } { 3 } } \\right )\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\n\\(AE=\\sqrt[] { AB ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 3 } } }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EMF\\)中，\n\\(EF=\\sqrt[] { EM ^ { 2 } +MF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4 } { 3 } } \\right ) ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 7 } } } } { { \\rm{ 3 } } }\\)，\n\\(\\therefore\\)\\(S_{ \\vartriangle AEF } =\\frac { 1 } { 2 }\\cdot AE\\cdot EF=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 10 } } { 3 }\\times \\frac { \\sqrt[] { 17 } } { 3 }=\\frac { \\sqrt[] { 170 } } { 18 }\\)．\n故答案为：\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-CF1D35CA1B/figures/2c4afffe0165db6281d75ad3656377686aad7555abd159a8d738c66ba524c8b7.png",
+    "assets/SZ-G9-T1-CF1D35CA1B/figures/a133b6fbd1cab7a3816f2ae901669463e689fc9eb1dd37cc3466f1a04f5d3a43.png",
+    "assets/SZ-G9-T1-CF1D35CA1B/figures/92bdcc7316e8a57df52b29ade16be7cd5348318d9068a9d5f04c41b7f4784b84.png",
+    "assets/SZ-G9-T1-CF1D35CA1B/figures/772b977f812bce2ce4c2959a2a6bafd9e9b912593569a435033574dfa9146eeb.png"
+  ],
+  "solution": "【小问1详解】\n证明：如图2，在\\(AB\\)上截取\\(BH=BE\\)，连接\\(HE\\)，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ =\\angle BCD\\)，\n\\(\\because\\)\\(CF\\)平分\\(\\angle DCG\\)，\n\\(\\therefore\\)\\(\\angle DCF=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ECF=135{}^\\circ\\)，\n\\(\\because\\)\\(BH=BE\\)，\\(AB=BC\\)，\n\\(\\therefore\\)\\(\\angle BHE=\\angle BEH=45{}^\\circ\\)，\\(AH=CE\\)，\n\\(\\therefore\\)\\(\\angle AHE=\\angle ECF=135{}^\\circ\\)，\n\\(\\because\\)\\(AE\\bot EF\\)，\n\\(\\therefore\\)\\(\\angle AEB+\\angle FEC=90{}^\\circ\\)，\n\\(\\because\\)\\(\\angle AEB+\\angle BAE=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle FEC=\\angle BAE\\)，\n\\(\\therefore\\)\\(\\vartriangle AHE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(AE=EF\\)．\n【小问2详解】\n解：如图3，在\\(BA\\)的延长线上取一点\\(N\\)，使\\(AN=CE\\)，连接\\(NE\\)．\n〔图3〕\n\\(\\because\\)\\(AB=BC\\)，\\(AN=CE\\)，\n\\(\\therefore\\)\\(BN=BE\\)，\n\\(\\therefore\\)\\(\\angle N=\\angle FCE=45{}^\\circ\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(AD\\parallel BE\\)，\n\\(\\therefore\\)\\(\\angle DAE=\\angle BEA\\)，\n\\(\\therefore\\)\\(\\angle NAE=\\angle CEF\\)，\n在\\(\\vartriangle ANE\\)和\\(\\vartriangle ECF\\)中，\n\\(\\begin{cases} \\angle N=\\angle FCE \\\\ AN=CE \\\\ \\angle ANE=\\angle CEF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle ANE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(AE=EF\\)．\n故答案为：是．\n【小问3详解】\n解：如图4，在\\(BA\\)上截取\\(BH=BE\\)，连接\\(HE\\)，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，\n〔图4〕\n设点\\(E\\left ( { a,0 } \\right )\\)，\n\\(\\therefore\\)\\(BE=a=BH\\)，\n\\(\\therefore\\)\\(HE=\\sqrt[] { 2 }a\\)，\n由（1）可得\\(\\vartriangle ANE≌\\vartriangle ECF\\)，\n\\(\\therefore\\)\\(CF=HE=\\sqrt[] { 2 }a\\)，\n\\(\\because\\)\\(CF\\)平分\\(\\angle DCM\\)，\n\\(\\therefore\\)\\(\\angle DCF=\\angle FCM=45{}^\\circ\\)，\n\\(\\because\\)\\(FM\\bot CM\\)，\n\\(\\therefore\\)\\(\\angle CFM=\\angle FCM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(CM=FM=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 } }=a\\)，\n\\(\\therefore\\)\\(BM=1+a\\)，\n\\(\\therefore\\)点\\(F\\left ( { 1+a,a } \\right )\\)，\n\\(\\because\\)点F恰好落在直线\\(y=-2x+3\\)上，\n\\(\\therefore\\)\\(a=-2\\left ( { 1+a } \\right )+3\\)，\n\\(\\therefore\\)\\(a=\\frac { 1 } { 3 }\\)，\n\\(\\therefore\\)点\\(E\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，点\\(F\\left ( { \\frac { 4 } { 3 },\\frac { 1 } { 3 } } \\right )\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\n\\(AE=\\sqrt[] { AB ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 3 } } }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EMF\\)中，\n\\(EF=\\sqrt[] { EM ^ { 2 } +MF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4 } { 3 } } \\right ) ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 7 } } } } { { \\rm{ 3 } } }\\)，\n\\(\\therefore\\)\\(S_{ \\vartriangle AEF } =\\frac { 1 } { 2 }\\cdot AE\\cdot EF=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 10 } } { 3 }\\times \\frac { \\sqrt[] { 17 } } { 3 }=\\frac { \\sqrt[] { 170 } } { 18 }\\)．\n故答案为：\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：如图2，在\\(AB\\)上截取\\(BH=BE\\)，连接\\(HE\\)，",
+    "〔图2〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore\\)\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ =\\angle BCD\\)，",
+    "\\(\\because\\)\\(CF\\)平分\\(\\angle DCG\\)，",
+    "\\(\\therefore\\)\\(\\angle DCF=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle ECF=135{}^\\circ\\)，",
+    "\\(\\because\\)\\(BH=BE\\)，\\(AB=BC\\)，",
+    "\\(\\therefore\\)\\(\\angle BHE=\\angle BEH=45{}^\\circ\\)，\\(AH=CE\\)，",
+    "\\(\\therefore\\)\\(\\angle AHE=\\angle ECF=135{}^\\circ\\)，",
+    "\\(\\because\\)\\(AE\\bot EF\\)，",
+    "\\(\\therefore\\)\\(\\angle AEB+\\angle FEC=90{}^\\circ\\)，",
+    "\\(\\because\\)\\(\\angle AEB+\\angle BAE=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle FEC=\\angle BAE\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle AHE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(AE=EF\\)．",
+    "【小问2详解】",
+    "解：如图3，在\\(BA\\)的延长线上取一点\\(N\\)，使\\(AN=CE\\)，连接\\(NE\\)．",
+    "〔图3〕",
+    "\\(\\because\\)\\(AB=BC\\)，\\(AN=CE\\)，",
+    "\\(\\therefore\\)\\(BN=BE\\)，",
+    "\\(\\therefore\\)\\(\\angle N=\\angle FCE=45{}^\\circ\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore\\)\\(AD\\parallel BE\\)，",
+    "\\(\\therefore\\)\\(\\angle DAE=\\angle BEA\\)，",
+    "\\(\\therefore\\)\\(\\angle NAE=\\angle CEF\\)，",
+    "在\\(\\vartriangle ANE\\)和\\(\\vartriangle ECF\\)中，",
+    "\\(\\begin{cases} \\angle N=\\angle FCE \\\\ AN=CE \\\\ \\angle ANE=\\angle CEF \\end{cases}\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle ANE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(AE=EF\\)．",
+    "故答案为：是．",
+    "【小问3详解】",
+    "解：如图4，在\\(BA\\)上截取\\(BH=BE\\)，连接\\(HE\\)，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，",
+    "〔图4〕",
+    "设点\\(E\\left ( { a,0 } \\right )\\)，",
+    "\\(\\therefore\\)\\(BE=a=BH\\)，",
+    "\\(\\therefore\\)\\(HE=\\sqrt[] { 2 }a\\)，",
+    "由（1）可得\\(\\vartriangle ANE≌\\vartriangle ECF\\)，",
+    "\\(\\therefore\\)\\(CF=HE=\\sqrt[] { 2 }a\\)，",
+    "\\(\\because\\)\\(CF\\)平分\\(\\angle DCM\\)，",
+    "\\(\\therefore\\)\\(\\angle DCF=\\angle FCM=45{}^\\circ\\)，",
+    "\\(\\because\\)\\(FM\\bot CM\\)，",
+    "\\(\\therefore\\)\\(\\angle CFM=\\angle FCM=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(CM=FM=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 } }=a\\)，",
+    "\\(\\therefore\\)\\(BM=1+a\\)，",
+    "\\(\\therefore\\)点\\(F\\left ( { 1+a,a } \\right )\\)，",
+    "\\(\\because\\)点F恰好落在直线\\(y=-2x+3\\)上，",
+    "\\(\\therefore\\)\\(a=-2\\left ( { 1+a } \\right )+3\\)，",
+    "\\(\\therefore\\)\\(a=\\frac { 1 } { 3 }\\)，",
+    "\\(\\therefore\\)点\\(E\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，点\\(F\\left ( { \\frac { 4 } { 3 },\\frac { 1 } { 3 } } \\right )\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，",
+    "\\(AE=\\sqrt[] { AB ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 3 } } }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EMF\\)中，",
+    "\\(EF=\\sqrt[] { EM ^ { 2 } +MF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4 } { 3 } } \\right ) ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 7 } } } } { { \\rm{ 3 } } }\\)，",
+    "\\(\\therefore\\)\\(S_{ \\vartriangle AEF } =\\frac { 1 } { 2 }\\cdot AE\\cdot EF=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 10 } } { 3 }\\times \\frac { \\sqrt[] { 17 } } { 3 }=\\frac { \\sqrt[] { 170 } } { 18 }\\)．",
+    "故答案为：\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "数学课上，李老师提出问题：如图1，在正方形\\(ABCD\\)中，点E是边\\(BC\\)的中点，\\(\\angle AEF=90{}^\\circ\\)，且\\(EF\\)交正方形外角的平分线\\(CF\\)于点F．求证：\\(AE=EF\\)．（不需要证明）\n〔图1〕\n经过思考，小聪展示了一种正确的解题思路：如图5，取\\(AB\\)的中点H，连接\\(HE\\)，则\\(BH=BE\\)，则\\(\\vartriangle BHE\\)为等腰直角三角形，这时只需证\\(\\vartriangle AHE\\)与\\(\\vartriangle ECF\\)全等即可，在此基础上，同学们进行了进一步的探究：",
+      "paper_blocks": [
+        58,
+        59,
+        60
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-CF1D35CA1B-Q19-P01",
+      "label": "（1）",
+      "prompt": "小颖提出：如图2，如果把“点E是边\\(BC\\)的中点”改为“点E是边\\(BC\\)上（不含点B，C）的任意一点”，其他条件不变，那么结论“\\(AE=EF\\)”仍然成立，你认为小颖的观点正确吗？如果正确，写出证明过程，如果不正确，请说明理由；",
+      "stem_text": "小颖提出：如图2，如果把“点E是边\\(BC\\)的中点”改为“点E是边\\(BC\\)上（不含点B，C）的任意一点”，其他条件不变，那么结论“\\(AE=EF\\)”仍然成立，你认为小颖的观点正确吗？如果正确，写出证明过程，如果不正确，请说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "正确，证明见解释",
+      "answer": "正确，证明见解释",
+      "given_solution": "证明：如图2，在\\(AB\\)上截取\\(BH=BE\\)，连接\\(HE\\)，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ =\\angle BCD\\)，\n\\(\\because\\)\\(CF\\)平分\\(\\angle DCG\\)，\n\\(\\therefore\\)\\(\\angle DCF=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ECF=135{}^\\circ\\)，\n\\(\\because\\)\\(BH=BE\\)，\\(AB=BC\\)，\n\\(\\therefore\\)\\(\\angle BHE=\\angle BEH=45{}^\\circ\\)，\\(AH=CE\\)，\n\\(\\therefore\\)\\(\\angle AHE=\\angle ECF=135{}^\\circ\\)，\n\\(\\because\\)\\(AE\\bot EF\\)，\n\\(\\therefore\\)\\(\\angle AEB+\\angle FEC=90{}^\\circ\\)，\n\\(\\because\\)\\(\\angle AEB+\\angle BAE=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle FEC=\\angle BAE\\)，\n\\(\\therefore\\)\\(\\vartriangle AHE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(AE=EF\\)．",
+      "solution_steps": [
+        "证明：如图2，在\\(AB\\)上截取\\(BH=BE\\)，连接\\(HE\\)，",
+        "〔图2〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore\\)\\(AB=BC\\)，\\(\\angle ABC=90{}^\\circ =\\angle BCD\\)，",
+        "\\(\\because\\)\\(CF\\)平分\\(\\angle DCG\\)，",
+        "\\(\\therefore\\)\\(\\angle DCF=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle ECF=135{}^\\circ\\)，",
+        "\\(\\because\\)\\(BH=BE\\)，\\(AB=BC\\)，",
+        "\\(\\therefore\\)\\(\\angle BHE=\\angle BEH=45{}^\\circ\\)，\\(AH=CE\\)，",
+        "\\(\\therefore\\)\\(\\angle AHE=\\angle ECF=135{}^\\circ\\)，",
+        "\\(\\because\\)\\(AE\\bot EF\\)，",
+        "\\(\\therefore\\)\\(\\angle AEB+\\angle FEC=90{}^\\circ\\)，",
+        "\\(\\because\\)\\(\\angle AEB+\\angle BAE=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle FEC=\\angle BAE\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle AHE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore\\)\\(AE=EF\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CF1D35CA1B-Q19-P02",
+      "label": "（2）",
+      "prompt": "小华提出：如图3，如果点E是边BC延长线上的任意一点，其他条件不变，那么结论“\\(AE=EF\\)”是否成立：______（填“是”或“否”）；",
+      "stem_text": "小华提出：如图3，如果点E是边BC延长线上的任意一点，其他条件不变，那么结论“\\(AE=EF\\)”是否成立：______（填“是”或“否”）；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "是",
+      "answer": "是",
+      "given_solution": "解：如图3，在\\(BA\\)的延长线上取一点\\(N\\)，使\\(AN=CE\\)，连接\\(NE\\)．\n〔图3〕\n\\(\\because\\)\\(AB=BC\\)，\\(AN=CE\\)，\n\\(\\therefore\\)\\(BN=BE\\)，\n\\(\\therefore\\)\\(\\angle N=\\angle FCE=45{}^\\circ\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore\\)\\(AD\\parallel BE\\)，\n\\(\\therefore\\)\\(\\angle DAE=\\angle BEA\\)，\n\\(\\therefore\\)\\(\\angle NAE=\\angle CEF\\)，\n在\\(\\vartriangle ANE\\)和\\(\\vartriangle ECF\\)中，\n\\(\\begin{cases} \\angle N=\\angle FCE \\\\ AN=CE \\\\ \\angle ANE=\\angle CEF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle ANE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(AE=EF\\)．\n故答案为：是．",
+      "solution_steps": [
+        "解：如图3，在\\(BA\\)的延长线上取一点\\(N\\)，使\\(AN=CE\\)，连接\\(NE\\)．",
+        "〔图3〕",
+        "\\(\\because\\)\\(AB=BC\\)，\\(AN=CE\\)，",
+        "\\(\\therefore\\)\\(BN=BE\\)，",
+        "\\(\\therefore\\)\\(\\angle N=\\angle FCE=45{}^\\circ\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore\\)\\(AD\\parallel BE\\)，",
+        "\\(\\therefore\\)\\(\\angle DAE=\\angle BEA\\)，",
+        "\\(\\therefore\\)\\(\\angle NAE=\\angle CEF\\)，",
+        "在\\(\\vartriangle ANE\\)和\\(\\vartriangle ECF\\)中，",
+        "\\(\\begin{cases} \\angle N=\\angle FCE \\\\ AN=CE \\\\ \\angle ANE=\\angle CEF \\end{cases}\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle ANE≌\\vartriangle ECF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore\\)\\(AE=EF\\)．",
+        "故答案为：是．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          62
+        ],
+        "solution_block_ids": [
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CF1D35CA1B-Q19-P03",
+      "label": "（3）",
+      "prompt": "小丽提出：如图4，在平面直角坐标系\\(xOy\\)中，点O与点B重合，正方形的边长为1，当E为\\(BC\\)边上（不含点B，C）的某一点时，\\(\\angle AEF=90{}^\\circ\\)，点F恰好落在直线\\(y=-2x+3\\)上，请直接写出此时点E的坐标______，以及\\(\\vartriangle AEF\\)的面积______．",
+      "stem_text": "小丽提出：如图4，在平面直角坐标系\\(xOy\\)中，点O与点B重合，正方形的边长为1，当E为\\(BC\\)边上（不含点B，C）的某一点时，\\(\\angle AEF=90{}^\\circ\\)，点F恰好落在直线\\(y=-2x+3\\)上，请直接写出此时点E的坐标______，以及\\(\\vartriangle AEF\\)的面积______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)",
+      "answer": "\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)",
+      "given_solution": "解：如图4，在\\(BA\\)上截取\\(BH=BE\\)，连接\\(HE\\)，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，\n〔图4〕\n设点\\(E\\left ( { a,0 } \\right )\\)，\n\\(\\therefore\\)\\(BE=a=BH\\)，\n\\(\\therefore\\)\\(HE=\\sqrt[] { 2 }a\\)，\n由（1）可得\\(\\vartriangle ANE≌\\vartriangle ECF\\)，\n\\(\\therefore\\)\\(CF=HE=\\sqrt[] { 2 }a\\)，\n\\(\\because\\)\\(CF\\)平分\\(\\angle DCM\\)，\n\\(\\therefore\\)\\(\\angle DCF=\\angle FCM=45{}^\\circ\\)，\n\\(\\because\\)\\(FM\\bot CM\\)，\n\\(\\therefore\\)\\(\\angle CFM=\\angle FCM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(CM=FM=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 } }=a\\)，\n\\(\\therefore\\)\\(BM=1+a\\)，\n\\(\\therefore\\)点\\(F\\left ( { 1+a,a } \\right )\\)，\n\\(\\because\\)点F恰好落在直线\\(y=-2x+3\\)上，\n\\(\\therefore\\)\\(a=-2\\left ( { 1+a } \\right )+3\\)，\n\\(\\therefore\\)\\(a=\\frac { 1 } { 3 }\\)，\n\\(\\therefore\\)点\\(E\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，点\\(F\\left ( { \\frac { 4 } { 3 },\\frac { 1 } { 3 } } \\right )\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，\n\\(AE=\\sqrt[] { AB ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 3 } } }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EMF\\)中，\n\\(EF=\\sqrt[] { EM ^ { 2 } +MF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4 } { 3 } } \\right ) ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 7 } } } } { { \\rm{ 3 } } }\\)，\n\\(\\therefore\\)\\(S_{ \\vartriangle AEF } =\\frac { 1 } { 2 }\\cdot AE\\cdot EF=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 10 } } { 3 }\\times \\frac { \\sqrt[] { 17 } } { 3 }=\\frac { \\sqrt[] { 170 } } { 18 }\\)．\n故答案为：\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)．",
+      "solution_steps": [
+        "解：如图4，在\\(BA\\)上截取\\(BH=BE\\)，连接\\(HE\\)，过点\\(F\\)作\\(FM\\bot x\\)轴于点\\(M\\)，",
+        "〔图4〕",
+        "设点\\(E\\left ( { a,0 } \\right )\\)，",
+        "\\(\\therefore\\)\\(BE=a=BH\\)，",
+        "\\(\\therefore\\)\\(HE=\\sqrt[] { 2 }a\\)，",
+        "由（1）可得\\(\\vartriangle ANE≌\\vartriangle ECF\\)，",
+        "\\(\\therefore\\)\\(CF=HE=\\sqrt[] { 2 }a\\)，",
+        "\\(\\because\\)\\(CF\\)平分\\(\\angle DCM\\)，",
+        "\\(\\therefore\\)\\(\\angle DCF=\\angle FCM=45{}^\\circ\\)，",
+        "\\(\\because\\)\\(FM\\bot CM\\)，",
+        "\\(\\therefore\\)\\(\\angle CFM=\\angle FCM=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(CM=FM=\\frac { \\sqrt[] { 2 }a } { \\sqrt[] { 2 } }=a\\)，",
+        "\\(\\therefore\\)\\(BM=1+a\\)，",
+        "\\(\\therefore\\)点\\(F\\left ( { 1+a,a } \\right )\\)，",
+        "\\(\\because\\)点F恰好落在直线\\(y=-2x+3\\)上，",
+        "\\(\\therefore\\)\\(a=-2\\left ( { 1+a } \\right )+3\\)，",
+        "\\(\\therefore\\)\\(a=\\frac { 1 } { 3 }\\)，",
+        "\\(\\therefore\\)点\\(E\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，点\\(F\\left ( { \\frac { 4 } { 3 },\\frac { 1 } { 3 } } \\right )\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABE\\)中，",
+        "\\(AE=\\sqrt[] { AB ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 3 } } }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EMF\\)中，",
+        "\\(EF=\\sqrt[] { EM ^ { 2 } +MF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4 } { 3 } } \\right ) ^ { 2 } { \\rm{ + } }\\left ( { \\frac { 1 } { { \\rm{ 3 } } } } \\right ) ^ { { \\rm{ 2 } } } }{ \\rm{ = } }\\frac { \\sqrt[] { { \\rm{ 1 } }{ \\rm{ 7 } } } } { { \\rm{ 3 } } }\\)，",
+        "\\(\\therefore\\)\\(S_{ \\vartriangle AEF } =\\frac { 1 } { 2 }\\cdot AE\\cdot EF=\\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 10 } } { 3 }\\times \\frac { \\sqrt[] { 17 } } { 3 }=\\frac { \\sqrt[] { 170 } } { 18 }\\)．",
+        "故答案为：\\(\\left ( { \\frac { 1 } { 3 },0 } \\right )\\)，\\(\\frac { \\sqrt[] { 170 } } { 18 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          63
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      63
+    ],
+    "solution_body_blocks": [
+      291,
+      360
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-CF1D35CA1B/paper-q19-p05.webp",
+      "assets/SZ-G9-T1-CF1D35CA1B/paper-q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          396.36,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          65.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-CF1D35CA1B/solution-q19-p16.webp",
+      "assets/SZ-G9-T1-CF1D35CA1B/solution-q19-p17.webp",
+      "assets/SZ-G9-T1-CF1D35CA1B/solution-q19-p18.webp",
+      "assets/SZ-G9-T1-CF1D35CA1B/solution-q19-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          455.91,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          484.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G09.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

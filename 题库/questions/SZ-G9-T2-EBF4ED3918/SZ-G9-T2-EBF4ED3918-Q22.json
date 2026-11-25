@@ -1,0 +1,517 @@
+{
+  "id": "SZ-G9-T2-EBF4ED3918-Q22",
+  "paper_id": "SZ-G9-T2-EBF4ED3918",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用平行线性质求角、由勾股关系求直角三角形边长",
+  "stem": "如图，在平面直角坐标系中，四边形\\(OABC\\)是矩形，点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right ).\\)平行于对角线\\(AC\\)的直线\\(m\\)从原点\\(O\\)出发，沿\\(x\\)轴正方向以每秒\\(1\\)个单位长度的速度运动，设直线\\(m\\)与矩形\\(OABC\\)的两边分别交于点\\(M\\)、\\(N\\)，直线\\(m\\)运动的时间为\\(t(\\)秒\\()\\)．\n〔图1〕\n（1）点\\(A\\)坐标是______，点\\(C\\)坐标是______；当\\(t=\\)______秒或______秒时，\\(AC=2MN\\)；\n（2）\\(Q\\)为线段\\(AC\\)上的点，当以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形时，\\(t=\\)______；\n（3）设\\(\\vartriangle OMN\\)的面积为\\(S\\)，\\(S\\)与\\(t\\)的函数关系式：______；函数\\(S\\)的最大值为：______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/39/39f4b08f9ddcc1a4c748f9a622122b0dad81b2579a07e1437dd6324e772b226b.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)\n（2）\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)\n（3）\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }\\,t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)",
+  "answer": "（1）\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)\n（2）\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)\n（3）\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }\\,t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)",
+  "given_solution": "【分析】（1）分两种情况讨论，由三角形的中位线的性质可求解；\n（2）分两种情况讨论，由相似三角形的性质分别求出\\(AM\\)，\\(MN\\)的长，由菱形的性质\\(AM=MN\\)，列出等式可求解；\n（3）求得\\(AC\\)的函数解析式，\\(E\\)的坐标是\\(\\left ( { t,0 } \\right )\\)，则直线\\(MN\\)的解析式即可求得，则\\(M\\)和\\(N\\)的坐标即可求得，然后根据\\(S_{ \\vartriangle OMN } =S_{ 矩形OABC } -S_{ \\vartriangle OCN } -S_{ \\vartriangle OAM } -S_{ \\vartriangle BMN }\\)即可求得．\n【小问1详解】\n\\(\\because\\)点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right )\\)，\n\\(\\therefore\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，\n当\\(MN\\)是\\(\\vartriangle OAC\\)的中位线时，\\(AC=2MN\\)，\n\\(\\therefore M\\)是\\(OA\\)的中点，\n\\(\\therefore \\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\therefore t=\\frac { 2 } { 1 }=2\\)，\n当\\(MN\\)是\\(\\vartriangle ABC\\)的中位线时，\\(AC=2MN\\)，\n如图\\(1\\)，\n〔图2〕\n\\(\\because AC//MN\\)，\n\\(\\therefore \\angle CAO=\\angle NEO\\)，\n又\\(\\because \\angle MAE=\\angle AOC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，\n\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AE=\\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\therefore E\\)的坐标是\\(\\left ( { 6,0 } \\right )\\)，即平移了\\(6\\)个单位长度，\n\\(\\therefore t=\\frac { 6 } { 1 }=6\\)，\n故答案是：\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)；\n【小问2详解】\n当点\\(M\\)在线段\\(OA\\)上时，\n\\(\\because\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，\n\\(\\therefore OA=4\\)，\\(OC=3\\)，\n\\(\\therefore AC=\\sqrt[] { OA ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 16+9 }=5\\)，\n\\(\\because MN//AC\\)，\n\\(\\therefore \\vartriangle OMN\\)∽\\(\\vartriangle OAC\\)，\n\\(\\therefore \\frac { MN } { AC }=\\frac { OM } { OA }\\)，\n\\(\\therefore MN=\\frac { 5 } { 4 }t\\)，\n\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，\n\\(\\therefore AM=MN\\)，\n\\(\\therefore 4-t=\\frac { 5 } { 4 }t\\)，\n\\(\\therefore t=\\frac { 16 } { 9 }\\)，\n当点\\(M\\)在线段\\(AB\\)上时，如图\\(1\\)，\n〔图3〕\n\\(\\because \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，\n\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }\\)，\n\\(\\therefore \\frac { t-4 } { 4 }=\\frac { AM } { 3 }\\)，\n\\(\\therefore AM=\\frac { 3 } { 4 }\\left ( { t-3 } \\right )\\)，\n\\(\\therefore BM=\\frac { 21 } { 4 }-\\frac { 3 } { 4 }t\\)，\n\\(\\because MN//AC\\)，\n\\(\\therefore \\vartriangle BMN\\)∽\\(\\vartriangle BAC\\)，\n\\(\\therefore \\frac { MN } { AC }=\\frac { BM } { AB }\\)，\n\\(\\therefore MN=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，\n\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，\n\\(\\therefore AM=MN\\)，\n\\(\\therefore \\frac { 3 } { 4 }\\left ( { t-3 } \\right )=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，\n\\(\\therefore t=\\frac { 11 } { 2 }\\)，\n故答案为：\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)；\n【小问3详解】\n当\\(0 < t\\le 4\\)时，\\(OM=t\\)，则\\(ON=\\frac { 3 } { 4 }t\\)，\n则\\(S_{ \\vartriangle OMN } =\\frac { 1 } { 2 }\\times t\\times \\frac { 3 } { 4 }t\\)，\n\\(\\therefore S=\\frac { 3 } { 8 }t ^ { 2 }\\)，\n即当\\(4 < t < 8\\)时，如图\\(1\\)．\n〔图3〕\n设直线\\(AC\\)的解析式是\\(y=kx+b\\)，根据题意得\\(\\begin{cases} b=3 \\\\ 4k+b=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} b=3 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，\n则直线\\(AC\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+3\\)．\n设\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+c\\)，\\(E\\)的坐标是\\(\\left ( { t,0 } \\right )\\)，代入解析式得：\\(c=\\frac { 3 } { 4 }t\\)，\n则直线\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+\\frac { 3 } { 4 }t.\\)\n令\\(x=4\\)，解得\\(y=-3+\\frac { 3 } { 4 }t\\)，即\\(M\\)的坐标是\\(\\left ( { 4,-3+\\frac { 3 } { 4 }t } \\right )\\)．\n令\\(y=3\\)，解得：\\(x=t-4\\)，则\\(N\\)的坐标是\\(\\left ( { t-4,3 } \\right )\\)．\n则\\(S_{ 矩形OABC } =3\\times 4=12\\)，\n\\(S_{ \\vartriangle OCN } =\\frac { 1 } { 2 }OC\\cdot CN=\\frac { 1 } { 2 }\\times 3\\cdot \\left ( { t-4 } \\right )=\\frac { 3 } { 2 }t-6\\)，\n\\(S_{ \\vartriangle OAM } =\\frac { 1 } { 2 }OA\\cdot AM=\\frac { 1 } { 2 }\\times 4\\cdot \\left ( { -3+\\frac { 3 } { 4 }t } \\right )=\\frac { 3 } { 2 }t-6\\)．\n\\(S_{ \\vartriangle BMN } =\\frac { 1 } { 2 }BN\\cdot BM=\\frac { 1 } { 2 }\\left[ 4-\\left ( { t-4 } \\right ) \\right]\\left[ 3-\\left ( { -3+\\frac { 3 } { 4 }t } \\right ) \\right]=\\frac { 3 } { 8 }t ^ { 2 } -6t+24\\)．\n则\\(S=12-\\left ( { \\frac { 3 } { 2 }t-\\frac { 9 } { 2 } } \\right )-\\left ( { \\frac { 3 } { 2 }t-6 } \\right )-\\left ( { \\frac { 3 } { 8 }t ^ { 2 } -6t+24 } \\right )\\)，\n即\\(S=-\\frac { 3 } { 8 }t ^ { 2 } +3t\\)，\n\\(\\therefore S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\n当\\(0 < t\\le 4\\)时，\n\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 }\\)的开口向上，在对称轴\\(t=0\\)的右边，\\(S\\)随\\(t\\)的增大而增大，\n\\(\\therefore\\)当\\(t=4\\)时，\\(S\\)可取到最大值\\(\\frac { 3 } { 8 }\\times 4 ^ { 2 } =6\\)；\n当\\(4 < t < 8\\)时，\n\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 } +3t\\)的开口向下，它的顶点是\\(\\left ( { 4,6 } \\right )\\)，\n\\(\\therefore S\\le 6\\)，\n综上，当\\(t=4\\)时，\\(S\\)有最大值\\(6\\)．\n故答案为：\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)．\n【点睛】本题主要考查了矩形的性质，菱形的性质，相似三角形的判定和性质，一次函数的性质，二次函数的性质等知识，利用分类讨论思想解决问题是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/39/39f4b08f9ddcc1a4c748f9a622122b0dad81b2579a07e1437dd6324e772b226b.png",
+    "assets/figures/78/784dfb7130f666699d646e48581a442ce6af0a7b045bc8eab00094087e467934.png",
+    "assets/figures/16/16ac09204a5ede65f8983690b4e4e06d467becfd1a7b3f30c00f27a2372dc621.png"
+  ],
+  "solution": "【小问1详解】\n\\(\\because\\)点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right )\\)，\n\\(\\therefore\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，\n当\\(MN\\)是\\(\\vartriangle OAC\\)的中位线时，\\(AC=2MN\\)，\n\\(\\therefore M\\)是\\(OA\\)的中点，\n\\(\\therefore \\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\therefore t=\\frac { 2 } { 1 }=2\\)，\n当\\(MN\\)是\\(\\vartriangle ABC\\)的中位线时，\\(AC=2MN\\)，\n如图\\(1\\)，\n〔图2〕\n\\(\\because AC//MN\\)，\n\\(\\therefore \\angle CAO=\\angle NEO\\)，\n又\\(\\because \\angle MAE=\\angle AOC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，\n\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AE=\\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\therefore E\\)的坐标是\\(\\left ( { 6,0 } \\right )\\)，即平移了\\(6\\)个单位长度，\n\\(\\therefore t=\\frac { 6 } { 1 }=6\\)，\n故答案是：\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)；\n【小问2详解】\n当点\\(M\\)在线段\\(OA\\)上时，\n\\(\\because\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，\n\\(\\therefore OA=4\\)，\\(OC=3\\)，\n\\(\\therefore AC=\\sqrt[] { OA ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 16+9 }=5\\)，\n\\(\\because MN//AC\\)，\n\\(\\therefore \\vartriangle OMN\\)∽\\(\\vartriangle OAC\\)，\n\\(\\therefore \\frac { MN } { AC }=\\frac { OM } { OA }\\)，\n\\(\\therefore MN=\\frac { 5 } { 4 }t\\)，\n\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，\n\\(\\therefore AM=MN\\)，\n\\(\\therefore 4-t=\\frac { 5 } { 4 }t\\)，\n\\(\\therefore t=\\frac { 16 } { 9 }\\)，\n当点\\(M\\)在线段\\(AB\\)上时，如图\\(1\\)，\n〔图3〕\n\\(\\because \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，\n\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }\\)，\n\\(\\therefore \\frac { t-4 } { 4 }=\\frac { AM } { 3 }\\)，\n\\(\\therefore AM=\\frac { 3 } { 4 }\\left ( { t-3 } \\right )\\)，\n\\(\\therefore BM=\\frac { 21 } { 4 }-\\frac { 3 } { 4 }t\\)，\n\\(\\because MN//AC\\)，\n\\(\\therefore \\vartriangle BMN\\)∽\\(\\vartriangle BAC\\)，\n\\(\\therefore \\frac { MN } { AC }=\\frac { BM } { AB }\\)，\n\\(\\therefore MN=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，\n\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，\n\\(\\therefore AM=MN\\)，\n\\(\\therefore \\frac { 3 } { 4 }\\left ( { t-3 } \\right )=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，\n\\(\\therefore t=\\frac { 11 } { 2 }\\)，\n故答案为：\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)；\n【小问3详解】\n当\\(0 < t\\le 4\\)时，\\(OM=t\\)，则\\(ON=\\frac { 3 } { 4 }t\\)，\n则\\(S_{ \\vartriangle OMN } =\\frac { 1 } { 2 }\\times t\\times \\frac { 3 } { 4 }t\\)，\n\\(\\therefore S=\\frac { 3 } { 8 }t ^ { 2 }\\)，\n即当\\(4 < t < 8\\)时，如图\\(1\\)．\n〔图3〕\n设直线\\(AC\\)的解析式是\\(y=kx+b\\)，根据题意得\\(\\begin{cases} b=3 \\\\ 4k+b=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} b=3 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，\n则直线\\(AC\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+3\\)．\n设\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+c\\)，\\(E\\)的坐标是\\(\\left ( { t,0 } \\right )\\)，代入解析式得：\\(c=\\frac { 3 } { 4 }t\\)，\n则直线\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+\\frac { 3 } { 4 }t.\\)\n令\\(x=4\\)，解得\\(y=-3+\\frac { 3 } { 4 }t\\)，即\\(M\\)的坐标是\\(\\left ( { 4,-3+\\frac { 3 } { 4 }t } \\right )\\)．\n令\\(y=3\\)，解得：\\(x=t-4\\)，则\\(N\\)的坐标是\\(\\left ( { t-4,3 } \\right )\\)．\n则\\(S_{ 矩形OABC } =3\\times 4=12\\)，\n\\(S_{ \\vartriangle OCN } =\\frac { 1 } { 2 }OC\\cdot CN=\\frac { 1 } { 2 }\\times 3\\cdot \\left ( { t-4 } \\right )=\\frac { 3 } { 2 }t-6\\)，\n\\(S_{ \\vartriangle OAM } =\\frac { 1 } { 2 }OA\\cdot AM=\\frac { 1 } { 2 }\\times 4\\cdot \\left ( { -3+\\frac { 3 } { 4 }t } \\right )=\\frac { 3 } { 2 }t-6\\)．\n\\(S_{ \\vartriangle BMN } =\\frac { 1 } { 2 }BN\\cdot BM=\\frac { 1 } { 2 }\\left[ 4-\\left ( { t-4 } \\right ) \\right]\\left[ 3-\\left ( { -3+\\frac { 3 } { 4 }t } \\right ) \\right]=\\frac { 3 } { 8 }t ^ { 2 } -6t+24\\)．\n则\\(S=12-\\left ( { \\frac { 3 } { 2 }t-\\frac { 9 } { 2 } } \\right )-\\left ( { \\frac { 3 } { 2 }t-6 } \\right )-\\left ( { \\frac { 3 } { 8 }t ^ { 2 } -6t+24 } \\right )\\)，\n即\\(S=-\\frac { 3 } { 8 }t ^ { 2 } +3t\\)，\n\\(\\therefore S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\n当\\(0 < t\\le 4\\)时，\n\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 }\\)的开口向上，在对称轴\\(t=0\\)的右边，\\(S\\)随\\(t\\)的增大而增大，\n\\(\\therefore\\)当\\(t=4\\)时，\\(S\\)可取到最大值\\(\\frac { 3 } { 8 }\\times 4 ^ { 2 } =6\\)；\n当\\(4 < t < 8\\)时，\n\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 } +3t\\)的开口向下，它的顶点是\\(\\left ( { 4,6 } \\right )\\)，\n\\(\\therefore S\\le 6\\)，\n综上，当\\(t=4\\)时，\\(S\\)有最大值\\(6\\)．\n故答案为：\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "\\(\\because\\)点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right )\\)，",
+    "\\(\\therefore\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，",
+    "当\\(MN\\)是\\(\\vartriangle OAC\\)的中位线时，\\(AC=2MN\\)，",
+    "\\(\\therefore M\\)是\\(OA\\)的中点，",
+    "\\(\\therefore \\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，",
+    "\\(\\therefore t=\\frac { 2 } { 1 }=2\\)，",
+    "当\\(MN\\)是\\(\\vartriangle ABC\\)的中位线时，\\(AC=2MN\\)，",
+    "如图\\(1\\)，",
+    "〔图2〕",
+    "\\(\\because AC//MN\\)，",
+    "\\(\\therefore \\angle CAO=\\angle NEO\\)，",
+    "又\\(\\because \\angle MAE=\\angle AOC=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，",
+    "\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore AE=\\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，",
+    "\\(\\therefore E\\)的坐标是\\(\\left ( { 6,0 } \\right )\\)，即平移了\\(6\\)个单位长度，",
+    "\\(\\therefore t=\\frac { 6 } { 1 }=6\\)，",
+    "故答案是：\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)；",
+    "【小问2详解】",
+    "当点\\(M\\)在线段\\(OA\\)上时，",
+    "\\(\\because\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，",
+    "\\(\\therefore OA=4\\)，\\(OC=3\\)，",
+    "\\(\\therefore AC=\\sqrt[] { OA ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 16+9 }=5\\)，",
+    "\\(\\because MN//AC\\)，",
+    "\\(\\therefore \\vartriangle OMN\\)∽\\(\\vartriangle OAC\\)，",
+    "\\(\\therefore \\frac { MN } { AC }=\\frac { OM } { OA }\\)，",
+    "\\(\\therefore MN=\\frac { 5 } { 4 }t\\)，",
+    "\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，",
+    "\\(\\therefore AM=MN\\)，",
+    "\\(\\therefore 4-t=\\frac { 5 } { 4 }t\\)，",
+    "\\(\\therefore t=\\frac { 16 } { 9 }\\)，",
+    "当点\\(M\\)在线段\\(AB\\)上时，如图\\(1\\)，",
+    "〔图3〕",
+    "\\(\\because \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，",
+    "\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }\\)，",
+    "\\(\\therefore \\frac { t-4 } { 4 }=\\frac { AM } { 3 }\\)，",
+    "\\(\\therefore AM=\\frac { 3 } { 4 }\\left ( { t-3 } \\right )\\)，",
+    "\\(\\therefore BM=\\frac { 21 } { 4 }-\\frac { 3 } { 4 }t\\)，",
+    "\\(\\because MN//AC\\)，",
+    "\\(\\therefore \\vartriangle BMN\\)∽\\(\\vartriangle BAC\\)，",
+    "\\(\\therefore \\frac { MN } { AC }=\\frac { BM } { AB }\\)，",
+    "\\(\\therefore MN=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，",
+    "\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，",
+    "\\(\\therefore AM=MN\\)，",
+    "\\(\\therefore \\frac { 3 } { 4 }\\left ( { t-3 } \\right )=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，",
+    "\\(\\therefore t=\\frac { 11 } { 2 }\\)，",
+    "故答案为：\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)；",
+    "【小问3详解】",
+    "当\\(0 < t\\le 4\\)时，\\(OM=t\\)，则\\(ON=\\frac { 3 } { 4 }t\\)，",
+    "则\\(S_{ \\vartriangle OMN } =\\frac { 1 } { 2 }\\times t\\times \\frac { 3 } { 4 }t\\)，",
+    "\\(\\therefore S=\\frac { 3 } { 8 }t ^ { 2 }\\)，",
+    "即当\\(4 < t < 8\\)时，如图\\(1\\)．",
+    "〔图3〕",
+    "设直线\\(AC\\)的解析式是\\(y=kx+b\\)，根据题意得\\(\\begin{cases} b=3 \\\\ 4k+b=0 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} b=3 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，",
+    "则直线\\(AC\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+3\\)．",
+    "设\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+c\\)，\\(E\\)的坐标是\\(\\left ( { t,0 } \\right )\\)，代入解析式得：\\(c=\\frac { 3 } { 4 }t\\)，",
+    "则直线\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+\\frac { 3 } { 4 }t.\\)",
+    "令\\(x=4\\)，解得\\(y=-3+\\frac { 3 } { 4 }t\\)，即\\(M\\)的坐标是\\(\\left ( { 4,-3+\\frac { 3 } { 4 }t } \\right )\\)．",
+    "令\\(y=3\\)，解得：\\(x=t-4\\)，则\\(N\\)的坐标是\\(\\left ( { t-4,3 } \\right )\\)．",
+    "则\\(S_{ 矩形OABC } =3\\times 4=12\\)，",
+    "\\(S_{ \\vartriangle OCN } =\\frac { 1 } { 2 }OC\\cdot CN=\\frac { 1 } { 2 }\\times 3\\cdot \\left ( { t-4 } \\right )=\\frac { 3 } { 2 }t-6\\)，",
+    "\\(S_{ \\vartriangle OAM } =\\frac { 1 } { 2 }OA\\cdot AM=\\frac { 1 } { 2 }\\times 4\\cdot \\left ( { -3+\\frac { 3 } { 4 }t } \\right )=\\frac { 3 } { 2 }t-6\\)．",
+    "\\(S_{ \\vartriangle BMN } =\\frac { 1 } { 2 }BN\\cdot BM=\\frac { 1 } { 2 }\\left[ 4-\\left ( { t-4 } \\right ) \\right]\\left[ 3-\\left ( { -3+\\frac { 3 } { 4 }t } \\right ) \\right]=\\frac { 3 } { 8 }t ^ { 2 } -6t+24\\)．",
+    "则\\(S=12-\\left ( { \\frac { 3 } { 2 }t-\\frac { 9 } { 2 } } \\right )-\\left ( { \\frac { 3 } { 2 }t-6 } \\right )-\\left ( { \\frac { 3 } { 8 }t ^ { 2 } -6t+24 } \\right )\\)，",
+    "即\\(S=-\\frac { 3 } { 8 }t ^ { 2 } +3t\\)，",
+    "\\(\\therefore S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，",
+    "当\\(0 < t\\le 4\\)时，",
+    "\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 }\\)的开口向上，在对称轴\\(t=0\\)的右边，\\(S\\)随\\(t\\)的增大而增大，",
+    "\\(\\therefore\\)当\\(t=4\\)时，\\(S\\)可取到最大值\\(\\frac { 3 } { 8 }\\times 4 ^ { 2 } =6\\)；",
+    "当\\(4 < t < 8\\)时，",
+    "\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 } +3t\\)的开口向下，它的顶点是\\(\\left ( { 4,6 } \\right )\\)，",
+    "\\(\\therefore S\\le 6\\)，",
+    "综上，当\\(t=4\\)时，\\(S\\)有最大值\\(6\\)．",
+    "故答案为：\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，四边形\\(OABC\\)是矩形，点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right ).\\)平行于对角线\\(AC\\)的直线\\(m\\)从原点\\(O\\)出发，沿\\(x\\)轴正方向以每秒\\(1\\)个单位长度的速度运动，设直线\\(m\\)与矩形\\(OABC\\)的两边分别交于点\\(M\\)、\\(N\\)，直线\\(m\\)运动的时间为\\(t(\\)秒\\()\\)．\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-EBF4ED3918-Q22-P01",
+      "label": "（1）",
+      "prompt": "点\\(A\\)坐标是______，点\\(C\\)坐标是______；当\\(t=\\)______秒或______秒时，\\(AC=2MN\\)；",
+      "stem_text": "点\\(A\\)坐标是______，点\\(C\\)坐标是______；当\\(t=\\)______秒或______秒时，\\(AC=2MN\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)",
+      "answer": "\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)",
+      "given_solution": "\\(\\because\\)点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right )\\)，\n\\(\\therefore\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，\n当\\(MN\\)是\\(\\vartriangle OAC\\)的中位线时，\\(AC=2MN\\)，\n\\(\\therefore M\\)是\\(OA\\)的中点，\n\\(\\therefore \\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\therefore t=\\frac { 2 } { 1 }=2\\)，\n当\\(MN\\)是\\(\\vartriangle ABC\\)的中位线时，\\(AC=2MN\\)，\n如图\\(1\\)，\n〔图2〕\n\\(\\because AC//MN\\)，\n\\(\\therefore \\angle CAO=\\angle NEO\\)，\n又\\(\\because \\angle MAE=\\angle AOC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，\n\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AE=\\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，\n\\(\\therefore E\\)的坐标是\\(\\left ( { 6,0 } \\right )\\)，即平移了\\(6\\)个单位长度，\n\\(\\therefore t=\\frac { 6 } { 1 }=6\\)，\n故答案是：\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)；",
+      "solution_steps": [
+        "\\(\\because\\)点\\(B\\)的坐标为\\(\\left ( { 4,3 } \\right )\\)，",
+        "\\(\\therefore\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，",
+        "当\\(MN\\)是\\(\\vartriangle OAC\\)的中位线时，\\(AC=2MN\\)，",
+        "\\(\\therefore M\\)是\\(OA\\)的中点，",
+        "\\(\\therefore \\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，",
+        "\\(\\therefore t=\\frac { 2 } { 1 }=2\\)，",
+        "当\\(MN\\)是\\(\\vartriangle ABC\\)的中位线时，\\(AC=2MN\\)，",
+        "如图\\(1\\)，",
+        "〔图2〕",
+        "\\(\\because AC//MN\\)，",
+        "\\(\\therefore \\angle CAO=\\angle NEO\\)，",
+        "又\\(\\because \\angle MAE=\\angle AOC=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，",
+        "\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore AE=\\frac { 1 } { 2 }OA=\\frac { 1 } { 2 }\\times 4=2\\)，",
+        "\\(\\therefore E\\)的坐标是\\(\\left ( { 6,0 } \\right )\\)，即平移了\\(6\\)个单位长度，",
+        "\\(\\therefore t=\\frac { 6 } { 1 }=6\\)，",
+        "故答案是：\\(\\left ( { 4,0 } \\right )\\)；\\(\\left ( { 0,3 } \\right )\\)；\\(2\\)；\\(6\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-EBF4ED3918-Q22-P02",
+      "label": "（2）",
+      "prompt": "\\(Q\\)为线段\\(AC\\)上的点，当以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形时，\\(t=\\)______；",
+      "stem_text": "\\(Q\\)为线段\\(AC\\)上的点，当以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形时，\\(t=\\)______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)",
+      "answer": "\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)",
+      "given_solution": "当点\\(M\\)在线段\\(OA\\)上时，\n\\(\\because\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，\n\\(\\therefore OA=4\\)，\\(OC=3\\)，\n\\(\\therefore AC=\\sqrt[] { OA ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 16+9 }=5\\)，\n\\(\\because MN//AC\\)，\n\\(\\therefore \\vartriangle OMN\\)∽\\(\\vartriangle OAC\\)，\n\\(\\therefore \\frac { MN } { AC }=\\frac { OM } { OA }\\)，\n\\(\\therefore MN=\\frac { 5 } { 4 }t\\)，\n\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，\n\\(\\therefore AM=MN\\)，\n\\(\\therefore 4-t=\\frac { 5 } { 4 }t\\)，\n\\(\\therefore t=\\frac { 16 } { 9 }\\)，\n当点\\(M\\)在线段\\(AB\\)上时，如图\\(1\\)，\n〔图3〕\n\\(\\because \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，\n\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }\\)，\n\\(\\therefore \\frac { t-4 } { 4 }=\\frac { AM } { 3 }\\)，\n\\(\\therefore AM=\\frac { 3 } { 4 }\\left ( { t-3 } \\right )\\)，\n\\(\\therefore BM=\\frac { 21 } { 4 }-\\frac { 3 } { 4 }t\\)，\n\\(\\because MN//AC\\)，\n\\(\\therefore \\vartriangle BMN\\)∽\\(\\vartriangle BAC\\)，\n\\(\\therefore \\frac { MN } { AC }=\\frac { BM } { AB }\\)，\n\\(\\therefore MN=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，\n\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，\n\\(\\therefore AM=MN\\)，\n\\(\\therefore \\frac { 3 } { 4 }\\left ( { t-3 } \\right )=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，\n\\(\\therefore t=\\frac { 11 } { 2 }\\)，\n故答案为：\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)；",
+      "solution_steps": [
+        "当点\\(M\\)在线段\\(OA\\)上时，",
+        "\\(\\because\\)点\\(A\\)的坐标是\\(\\left ( { 4,0 } \\right )\\)，点\\(C\\)的坐标是\\(\\left ( { 0,3 } \\right )\\)，",
+        "\\(\\therefore OA=4\\)，\\(OC=3\\)，",
+        "\\(\\therefore AC=\\sqrt[] { OA ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 16+9 }=5\\)，",
+        "\\(\\because MN//AC\\)，",
+        "\\(\\therefore \\vartriangle OMN\\)∽\\(\\vartriangle OAC\\)，",
+        "\\(\\therefore \\frac { MN } { AC }=\\frac { OM } { OA }\\)，",
+        "\\(\\therefore MN=\\frac { 5 } { 4 }t\\)，",
+        "\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，",
+        "\\(\\therefore AM=MN\\)，",
+        "\\(\\therefore 4-t=\\frac { 5 } { 4 }t\\)，",
+        "\\(\\therefore t=\\frac { 16 } { 9 }\\)，",
+        "当点\\(M\\)在线段\\(AB\\)上时，如图\\(1\\)，",
+        "〔图3〕",
+        "\\(\\because \\vartriangle AME\\)∽\\(\\vartriangle OCA\\)，",
+        "\\(\\therefore \\frac { AE } { AO }=\\frac { AM } { CO }\\)，",
+        "\\(\\therefore \\frac { t-4 } { 4 }=\\frac { AM } { 3 }\\)，",
+        "\\(\\therefore AM=\\frac { 3 } { 4 }\\left ( { t-3 } \\right )\\)，",
+        "\\(\\therefore BM=\\frac { 21 } { 4 }-\\frac { 3 } { 4 }t\\)，",
+        "\\(\\because MN//AC\\)，",
+        "\\(\\therefore \\vartriangle BMN\\)∽\\(\\vartriangle BAC\\)，",
+        "\\(\\therefore \\frac { MN } { AC }=\\frac { BM } { AB }\\)，",
+        "\\(\\therefore MN=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，",
+        "\\(\\because\\)以\\(M\\)、\\(N\\)、\\(A\\)、\\(Q\\)为顶点的四边形为菱形，",
+        "\\(\\therefore AM=MN\\)，",
+        "\\(\\therefore \\frac { 3 } { 4 }\\left ( { t-3 } \\right )=\\frac { 35 } { 4 }-\\frac { 5 } { 4 }t\\)，",
+        "\\(\\therefore t=\\frac { 11 } { 2 }\\)，",
+        "故答案为：\\(\\frac { 16 } { 9 }\\)或\\(\\frac { 11 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-EBF4ED3918-Q22-P03",
+      "label": "（3）",
+      "prompt": "设\\(\\vartriangle OMN\\)的面积为\\(S\\)，\\(S\\)与\\(t\\)的函数关系式：______；函数\\(S\\)的最大值为：______．",
+      "stem_text": "设\\(\\vartriangle OMN\\)的面积为\\(S\\)，\\(S\\)与\\(t\\)的函数关系式：______；函数\\(S\\)的最大值为：______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }\\,t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)",
+      "answer": "\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }\\,t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)",
+      "given_solution": "当\\(0 < t\\le 4\\)时，\\(OM=t\\)，则\\(ON=\\frac { 3 } { 4 }t\\)，\n则\\(S_{ \\vartriangle OMN } =\\frac { 1 } { 2 }\\times t\\times \\frac { 3 } { 4 }t\\)，\n\\(\\therefore S=\\frac { 3 } { 8 }t ^ { 2 }\\)，\n即当\\(4 < t < 8\\)时，如图\\(1\\)．\n〔图3〕\n设直线\\(AC\\)的解析式是\\(y=kx+b\\)，根据题意得\\(\\begin{cases} b=3 \\\\ 4k+b=0 \\end{cases}\\)，\n解得：\\(\\begin{cases} b=3 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，\n则直线\\(AC\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+3\\)．\n设\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+c\\)，\\(E\\)的坐标是\\(\\left ( { t,0 } \\right )\\)，代入解析式得：\\(c=\\frac { 3 } { 4 }t\\)，\n则直线\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+\\frac { 3 } { 4 }t.\\)\n令\\(x=4\\)，解得\\(y=-3+\\frac { 3 } { 4 }t\\)，即\\(M\\)的坐标是\\(\\left ( { 4,-3+\\frac { 3 } { 4 }t } \\right )\\)．\n令\\(y=3\\)，解得：\\(x=t-4\\)，则\\(N\\)的坐标是\\(\\left ( { t-4,3 } \\right )\\)．\n则\\(S_{ 矩形OABC } =3\\times 4=12\\)，\n\\(S_{ \\vartriangle OCN } =\\frac { 1 } { 2 }OC\\cdot CN=\\frac { 1 } { 2 }\\times 3\\cdot \\left ( { t-4 } \\right )=\\frac { 3 } { 2 }t-6\\)，\n\\(S_{ \\vartriangle OAM } =\\frac { 1 } { 2 }OA\\cdot AM=\\frac { 1 } { 2 }\\times 4\\cdot \\left ( { -3+\\frac { 3 } { 4 }t } \\right )=\\frac { 3 } { 2 }t-6\\)．\n\\(S_{ \\vartriangle BMN } =\\frac { 1 } { 2 }BN\\cdot BM=\\frac { 1 } { 2 }\\left[ 4-\\left ( { t-4 } \\right ) \\right]\\left[ 3-\\left ( { -3+\\frac { 3 } { 4 }t } \\right ) \\right]=\\frac { 3 } { 8 }t ^ { 2 } -6t+24\\)．\n则\\(S=12-\\left ( { \\frac { 3 } { 2 }t-\\frac { 9 } { 2 } } \\right )-\\left ( { \\frac { 3 } { 2 }t-6 } \\right )-\\left ( { \\frac { 3 } { 8 }t ^ { 2 } -6t+24 } \\right )\\)，\n即\\(S=-\\frac { 3 } { 8 }t ^ { 2 } +3t\\)，\n\\(\\therefore S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\n当\\(0 < t\\le 4\\)时，\n\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 }\\)的开口向上，在对称轴\\(t=0\\)的右边，\\(S\\)随\\(t\\)的增大而增大，\n\\(\\therefore\\)当\\(t=4\\)时，\\(S\\)可取到最大值\\(\\frac { 3 } { 8 }\\times 4 ^ { 2 } =6\\)；\n当\\(4 < t < 8\\)时，\n\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 } +3t\\)的开口向下，它的顶点是\\(\\left ( { 4,6 } \\right )\\)，\n\\(\\therefore S\\le 6\\)，\n综上，当\\(t=4\\)时，\\(S\\)有最大值\\(6\\)．\n故答案为：\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)．",
+      "solution_steps": [
+        "当\\(0 < t\\le 4\\)时，\\(OM=t\\)，则\\(ON=\\frac { 3 } { 4 }t\\)，",
+        "则\\(S_{ \\vartriangle OMN } =\\frac { 1 } { 2 }\\times t\\times \\frac { 3 } { 4 }t\\)，",
+        "\\(\\therefore S=\\frac { 3 } { 8 }t ^ { 2 }\\)，",
+        "即当\\(4 < t < 8\\)时，如图\\(1\\)．",
+        "〔图3〕",
+        "设直线\\(AC\\)的解析式是\\(y=kx+b\\)，根据题意得\\(\\begin{cases} b=3 \\\\ 4k+b=0 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} b=3 \\\\ k=-\\frac { 3 } { 4 } \\end{cases}\\)，",
+        "则直线\\(AC\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+3\\)．",
+        "设\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+c\\)，\\(E\\)的坐标是\\(\\left ( { t,0 } \\right )\\)，代入解析式得：\\(c=\\frac { 3 } { 4 }t\\)，",
+        "则直线\\(MN\\)的解析式是\\(y=-\\frac { 3 } { 4 }x+\\frac { 3 } { 4 }t.\\)",
+        "令\\(x=4\\)，解得\\(y=-3+\\frac { 3 } { 4 }t\\)，即\\(M\\)的坐标是\\(\\left ( { 4,-3+\\frac { 3 } { 4 }t } \\right )\\)．",
+        "令\\(y=3\\)，解得：\\(x=t-4\\)，则\\(N\\)的坐标是\\(\\left ( { t-4,3 } \\right )\\)．",
+        "则\\(S_{ 矩形OABC } =3\\times 4=12\\)，",
+        "\\(S_{ \\vartriangle OCN } =\\frac { 1 } { 2 }OC\\cdot CN=\\frac { 1 } { 2 }\\times 3\\cdot \\left ( { t-4 } \\right )=\\frac { 3 } { 2 }t-6\\)，",
+        "\\(S_{ \\vartriangle OAM } =\\frac { 1 } { 2 }OA\\cdot AM=\\frac { 1 } { 2 }\\times 4\\cdot \\left ( { -3+\\frac { 3 } { 4 }t } \\right )=\\frac { 3 } { 2 }t-6\\)．",
+        "\\(S_{ \\vartriangle BMN } =\\frac { 1 } { 2 }BN\\cdot BM=\\frac { 1 } { 2 }\\left[ 4-\\left ( { t-4 } \\right ) \\right]\\left[ 3-\\left ( { -3+\\frac { 3 } { 4 }t } \\right ) \\right]=\\frac { 3 } { 8 }t ^ { 2 } -6t+24\\)．",
+        "则\\(S=12-\\left ( { \\frac { 3 } { 2 }t-\\frac { 9 } { 2 } } \\right )-\\left ( { \\frac { 3 } { 2 }t-6 } \\right )-\\left ( { \\frac { 3 } { 8 }t ^ { 2 } -6t+24 } \\right )\\)，",
+        "即\\(S=-\\frac { 3 } { 8 }t ^ { 2 } +3t\\)，",
+        "\\(\\therefore S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，",
+        "当\\(0 < t\\le 4\\)时，",
+        "\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 }\\)的开口向上，在对称轴\\(t=0\\)的右边，\\(S\\)随\\(t\\)的增大而增大，",
+        "\\(\\therefore\\)当\\(t=4\\)时，\\(S\\)可取到最大值\\(\\frac { 3 } { 8 }\\times 4 ^ { 2 } =6\\)；",
+        "当\\(4 < t < 8\\)时，",
+        "\\(\\because\\)抛物线\\(S=\\frac { 3 } { 8 }t ^ { 2 } +3t\\)的开口向下，它的顶点是\\(\\left ( { 4,6 } \\right )\\)，",
+        "\\(\\therefore S\\le 6\\)，",
+        "综上，当\\(t=4\\)时，\\(S\\)有最大值\\(6\\)．",
+        "故答案为：\\(S=\\begin{cases} \\frac { 3 } { 8 }t ^ { 2 } (0 < t\\le 4) \\\\ -\\frac { 3 } { 8 }t ^ { 2 } +3t(4 < t < 8) \\end{cases}\\)，\\(6\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          26,
+          27,
+          28
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      70
+    ],
+    "solution_body_blocks": [
+      410,
+      498
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-EBF4ED3918/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          324.55,
+          583.64,
+          603.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-EBF4ED3918/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-EBF4ED3918/solution-q22-p24.webp",
+      "assets/SZ-G9-T2-EBF4ED3918/solution-q22-p25.webp",
+      "assets/SZ-G9-T2-EBF4ED3918/solution-q22-p26.webp",
+      "assets/SZ-G9-T2-EBF4ED3918/solution-q22-p27.webp",
+      "assets/SZ-G9-T2-EBF4ED3918/solution-q22-p28.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          636.82,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          749.55
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          746.82
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          754.55
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 28,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          166.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G01.05",
+    "M.G04.04",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G01.05.01",
+    "E.G04.04.01",
+    "E.G09.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+  "tag_source": "小问标签汇总"
+}

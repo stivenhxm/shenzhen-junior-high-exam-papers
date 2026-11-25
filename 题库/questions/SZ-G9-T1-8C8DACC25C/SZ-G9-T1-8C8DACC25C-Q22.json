@@ -1,0 +1,453 @@
+{
+  "id": "SZ-G9-T1-8C8DACC25C-Q22",
+  "paper_id": "SZ-G9-T1-8C8DACC25C",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由点或乘积关系确定反比例表达式、用坐标求线段长度与面积",
+  "stem": "在平面直角坐标系xOy中，已知反比例函数\\(y_{ 1 } =\\frac { k } { x }(k>0)\\)的图像与正比例函数\\(y_{ 2 } =mx(m>0)\\)的图像交于点A、点C，与正比例函数\\(y_{ 3 } =nx(n>0)\\)的图像交于点B、点D，设点A、D的横坐标分别为s，t(\\(0 < s < t\\))．\n〔图1〕\n（1）如图1，若点A坐标为(2，4)．\n①求m，k的值；\n②若点D的横坐标为4，连接AD，求△AOD的面积．\n（2）如图2，依次连接AB，BC，CD，DA，若四边形ABCD为矩形，求mn的值．\n（3）如图3，过点A作\\(AE\\bot x\\)轴交CD于点E，以AE为一边向右侧作矩形AEFG，若点D在边GF上，试判断点D是否为线段GF的中点？并说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-8C8DACC25C/figures/718ee9884393bae2a1c4dc6185f80f9ce4ed9fa67e83f2d39320fbc30defb7ba.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(m=2\\)，\\(k=8\\)；②6\n（2）1    （3）D为线段GF的中点，理由见解析",
+  "answer": "（1）①\\(m=2\\)，\\(k=8\\)；②6\n（2）1    （3）D为线段GF的中点，理由见解析",
+  "given_solution": "【分析】(1)①把A(2,4)分别代入入y\\({}_{1}\\)=\\(\\frac { k } { x }\\)(k＞0)和y\\({}_{2}\\)=mx，即可求得答案；\n②如图1，延长DA交y轴于点K，利用待定系数法求得直线AD的解析式为y=-x+6，得出K(0,6)，再由S\\({}_{△}\\)\\({}_{AOD}\\)=S\\({}_{△}\\)\\({}_{DOK}\\)-S\\({}_{△}\\)\\({}_{AOK}\\)，即可求得答案；\n(2)由题意得：A(s,ms)，D(t，nt)，k=ms\\({}^{2}\\)=nt\\({}^{2}\\)①，再根据矩形性质可得OA=OD，即s\\({}^{2}\\)+m\\({}^{2}\\)s\\({}^{2}\\)=t\\({}^{2}\\)+n\\({}^{2}\\)t\\({}^{2}\\)②，①②联立即可求得答案；\n(3)由题意得：A(s,\\(\\frac { k } { s }\\))，D(t,\\(\\frac { k } { t }\\))，C(-s,-\\(\\frac { k } { s }\\))，运用待定系数法可得直线CD的解析式为y=\\(\\frac { k } { st }\\)x+\\(\\frac { k } { t }\\)-\\(\\frac { k } { s }\\)，得出E(s,\\(\\frac { 2k } { t }\\)-\\(\\frac { k } { s }\\))，再由矩形性质可得：FG∥AE∥y轴，EF\\(\\parallel\\)AG\\(\\parallel\\)x轴，进而得出F(t,\\(\\frac { 2k } { t }\\)-\\(\\frac { k } { s }\\))，G(t,\\(\\frac { k } { s }\\))，即可得出结论．\n【小问1详解】\n解：①∵点A(2，4)在\\(y_{ 1 } =\\frac { k } { x }\\)上，\n∴\\(4=\\frac { k } { 2 }\\)，\\(k=8\\)；\n∵点A(2,4)在\\(y_{ 2 } =mx\\)上，\n∴\\(4=2m\\)，\\(m=2\\)\n②∵点D的横坐标为4，\n∴当\\(x=4\\)时，\\(y=\\frac { 8 } { 4 }=2\\)，\n∴D(4,2)\n分别过点A、D作x轴的垂线交x轴于点H、K，\n∵\\(S_{ 四边形OADK } =S_{ \\Delta OHA } +S_{ 梯形AHKD }\\)，\\(S_{ 四边形\\Delta OADK } =S_{ \\Delta ODA } +S_{ \\Delta ODK }\\)，\\(S_{ \\Delta OHA } =S_{ \\Delta ODK }\\)\n∴\\(S_{ \\Delta ODA } =S_{ 梯形AHKD } =\\frac { 1 } { 2 }\\left ( { DK+AH } \\right )\\left ( { OK-OH } \\right )=\\frac { 1 } { 2 }\\left ( { 2+4 } \\right )\\left ( { 4-2 } \\right )=6\\)；\n〔图2〕【小问2详解】\n解：∵直线AC，BD经过原点且与反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)分别交于点A，C，B，D，反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)的图像关于原点中心对称，\n∴点A，C关于原点对称，点B、D关于原点对称，\n∴\\(OA=OC\\)，\\(OB=OD\\)，\n∴四边形ABCD为平行四边形．\n当\\(OA=OD\\)时，四边形ABCD是矩形．\n∵点A，D的横坐标分别为s，t(\\(0 < s < t\\))，\n∴点A的坐标为(s,\\(\\frac { k } { s }\\))，点D的坐标为(t,\\(\\frac { k } { t }\\))，\n∴\\(OA ^ { 2 } =OD ^ { 2 }\\)，\n∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }=t ^ { 2 } +\\frac { k ^ { 2 } } { t ^ { 2 } }\\)，\n∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-t ^ { 2 } -\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)，\n∴\\(s ^ { 2 } -t ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)\n∴\\(s ^ { 2 } -t ^ { 2 } -\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }=0\\)，\n∴\\(s ^ { 2 } -t ^ { 2 } =\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }\\)\n∴\\(s ^ { 2 } t ^ { 2 } =k ^ { 2 }\\)\n又∵A(s,\\(\\frac { k } { s }\\))在\\(y_{ 2 } =mx\\)上，\n∴\\(\\frac { k } { s }=ms\\)，\n∴\\(m=\\frac { k } { s ^ { 2 } }\\)\nD(t，\\(\\frac { k } { t }\\)在\\(y_{ 3 } =nx\\)上，\n∴\\(\\frac { k } { t }=nt\\)，\\(n=\\frac { k } { t ^ { 2 } }\\)\n∴\\(mn=\\frac { k } { s ^ { 2 } }\\cdot \\frac { k } { t ^ { 2 } }=\\frac { k ^ { 2 } } { s ^ { 2 } t ^ { 2 } }=1\\)．\n【小问3详解】\n解：由(2)知，\\(A\\left ( { s{ \\rm{ , } }\\frac { k } { s } } \\right )\\)，\\(D\\left ( { t{ \\rm{ , } }\\frac { k } { t } } \\right )\\)，则\\(C\\left ( { -s{ \\rm{ , } }-\\frac { k } { s } } \\right )\\)\n设CD的表达式为\\(y=ax+b\\)\n\\(\\begin{cases} \\frac { k } { t }=at+b \\\\ -\\frac { k } { s }=-as+b \\end{cases}\\)，解得\\(\\begin{cases} a=\\frac { k } { ts } \\\\ b=\\frac { k\\left ( { s-t } \\right ) } { ts } \\end{cases}\\)，\n∴CD的表达式为\\(y=\\frac { kx } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }\\)，\n∵\\(AE\\bot x\\)轴交CD于点E，\n∴当\\(x=s\\)时，\\(y=\\frac { ks } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }=\\frac { k\\left ( { 2s-t } \\right ) } { ts }\\)\n∴E(s，\\(\\frac { k\\left ( { 2s-t } \\right ) } { st }\\))，\n∵四边形AEFG是矩形\n∴\\(G\\left ( { t,\\frac { k } { s } } \\right ),F\\left ( { t,\\frac { k(2s-t) } { st } } \\right )\\)\n∴\\(GD=\\frac { k } { s }-\\frac { k } { t }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)，\\(DF=\\frac { k } { t }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { ks } { ts }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)\n∴\\(GD=DF\\)\n∴D为线段GF的中点．\n【点睛】本题是反比例函数综合题，考查了反比例函数的图像和性质，待定系数法，三角形面积，矩形的判定和性质，线段的中点坐标，反比例函数与正比例函数图像交点问题等，掌握反比例函数的图像及其性质是解题的关键.",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-8C8DACC25C/figures/718ee9884393bae2a1c4dc6185f80f9ce4ed9fa67e83f2d39320fbc30defb7ba.png",
+    "assets/SZ-G9-T1-8C8DACC25C/figures/09177dfbbf859e2b979d43a41555eef7b3b523610c7125540ef23e6a47d2f751.png"
+  ],
+  "solution": "【小问1详解】\n解：①∵点A(2，4)在\\(y_{ 1 } =\\frac { k } { x }\\)上，\n∴\\(4=\\frac { k } { 2 }\\)，\\(k=8\\)；\n∵点A(2,4)在\\(y_{ 2 } =mx\\)上，\n∴\\(4=2m\\)，\\(m=2\\)\n②∵点D的横坐标为4，\n∴当\\(x=4\\)时，\\(y=\\frac { 8 } { 4 }=2\\)，\n∴D(4,2)\n分别过点A、D作x轴的垂线交x轴于点H、K，\n∵\\(S_{ 四边形OADK } =S_{ \\Delta OHA } +S_{ 梯形AHKD }\\)，\\(S_{ 四边形\\Delta OADK } =S_{ \\Delta ODA } +S_{ \\Delta ODK }\\)，\\(S_{ \\Delta OHA } =S_{ \\Delta ODK }\\)\n∴\\(S_{ \\Delta ODA } =S_{ 梯形AHKD } =\\frac { 1 } { 2 }\\left ( { DK+AH } \\right )\\left ( { OK-OH } \\right )=\\frac { 1 } { 2 }\\left ( { 2+4 } \\right )\\left ( { 4-2 } \\right )=6\\)；\n〔图2〕【小问2详解】\n解：∵直线AC，BD经过原点且与反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)分别交于点A，C，B，D，反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)的图像关于原点中心对称，\n∴点A，C关于原点对称，点B、D关于原点对称，\n∴\\(OA=OC\\)，\\(OB=OD\\)，\n∴四边形ABCD为平行四边形．\n当\\(OA=OD\\)时，四边形ABCD是矩形．\n∵点A，D的横坐标分别为s，t(\\(0 < s < t\\))，\n∴点A的坐标为(s,\\(\\frac { k } { s }\\))，点D的坐标为(t,\\(\\frac { k } { t }\\))，\n∴\\(OA ^ { 2 } =OD ^ { 2 }\\)，\n∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }=t ^ { 2 } +\\frac { k ^ { 2 } } { t ^ { 2 } }\\)，\n∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-t ^ { 2 } -\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)，\n∴\\(s ^ { 2 } -t ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)\n∴\\(s ^ { 2 } -t ^ { 2 } -\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }=0\\)，\n∴\\(s ^ { 2 } -t ^ { 2 } =\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }\\)\n∴\\(s ^ { 2 } t ^ { 2 } =k ^ { 2 }\\)\n又∵A(s,\\(\\frac { k } { s }\\))在\\(y_{ 2 } =mx\\)上，\n∴\\(\\frac { k } { s }=ms\\)，\n∴\\(m=\\frac { k } { s ^ { 2 } }\\)\nD(t，\\(\\frac { k } { t }\\)在\\(y_{ 3 } =nx\\)上，\n∴\\(\\frac { k } { t }=nt\\)，\\(n=\\frac { k } { t ^ { 2 } }\\)\n∴\\(mn=\\frac { k } { s ^ { 2 } }\\cdot \\frac { k } { t ^ { 2 } }=\\frac { k ^ { 2 } } { s ^ { 2 } t ^ { 2 } }=1\\)．\n【小问3详解】\n解：由(2)知，\\(A\\left ( { s{ \\rm{ , } }\\frac { k } { s } } \\right )\\)，\\(D\\left ( { t{ \\rm{ , } }\\frac { k } { t } } \\right )\\)，则\\(C\\left ( { -s{ \\rm{ , } }-\\frac { k } { s } } \\right )\\)\n设CD的表达式为\\(y=ax+b\\)\n\\(\\begin{cases} \\frac { k } { t }=at+b \\\\ -\\frac { k } { s }=-as+b \\end{cases}\\)，解得\\(\\begin{cases} a=\\frac { k } { ts } \\\\ b=\\frac { k\\left ( { s-t } \\right ) } { ts } \\end{cases}\\)，\n∴CD的表达式为\\(y=\\frac { kx } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }\\)，\n∵\\(AE\\bot x\\)轴交CD于点E，\n∴当\\(x=s\\)时，\\(y=\\frac { ks } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }=\\frac { k\\left ( { 2s-t } \\right ) } { ts }\\)\n∴E(s，\\(\\frac { k\\left ( { 2s-t } \\right ) } { st }\\))，\n∵四边形AEFG是矩形\n∴\\(G\\left ( { t,\\frac { k } { s } } \\right ),F\\left ( { t,\\frac { k(2s-t) } { st } } \\right )\\)\n∴\\(GD=\\frac { k } { s }-\\frac { k } { t }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)，\\(DF=\\frac { k } { t }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { ks } { ts }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)\n∴\\(GD=DF\\)\n∴D为线段GF的中点．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①∵点A(2，4)在\\(y_{ 1 } =\\frac { k } { x }\\)上，",
+    "∴\\(4=\\frac { k } { 2 }\\)，\\(k=8\\)；",
+    "∵点A(2,4)在\\(y_{ 2 } =mx\\)上，",
+    "∴\\(4=2m\\)，\\(m=2\\)",
+    "②∵点D的横坐标为4，",
+    "∴当\\(x=4\\)时，\\(y=\\frac { 8 } { 4 }=2\\)，",
+    "∴D(4,2)",
+    "分别过点A、D作x轴的垂线交x轴于点H、K，",
+    "∵\\(S_{ 四边形OADK } =S_{ \\Delta OHA } +S_{ 梯形AHKD }\\)，\\(S_{ 四边形\\Delta OADK } =S_{ \\Delta ODA } +S_{ \\Delta ODK }\\)，\\(S_{ \\Delta OHA } =S_{ \\Delta ODK }\\)",
+    "∴\\(S_{ \\Delta ODA } =S_{ 梯形AHKD } =\\frac { 1 } { 2 }\\left ( { DK+AH } \\right )\\left ( { OK-OH } \\right )=\\frac { 1 } { 2 }\\left ( { 2+4 } \\right )\\left ( { 4-2 } \\right )=6\\)；",
+    "〔图2〕【小问2详解】",
+    "解：∵直线AC，BD经过原点且与反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)分别交于点A，C，B，D，反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)的图像关于原点中心对称，",
+    "∴点A，C关于原点对称，点B、D关于原点对称，",
+    "∴\\(OA=OC\\)，\\(OB=OD\\)，",
+    "∴四边形ABCD为平行四边形．",
+    "当\\(OA=OD\\)时，四边形ABCD是矩形．",
+    "∵点A，D的横坐标分别为s，t(\\(0 < s < t\\))，",
+    "∴点A的坐标为(s,\\(\\frac { k } { s }\\))，点D的坐标为(t,\\(\\frac { k } { t }\\))，",
+    "∴\\(OA ^ { 2 } =OD ^ { 2 }\\)，",
+    "∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }=t ^ { 2 } +\\frac { k ^ { 2 } } { t ^ { 2 } }\\)，",
+    "∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-t ^ { 2 } -\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)，",
+    "∴\\(s ^ { 2 } -t ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)",
+    "∴\\(s ^ { 2 } -t ^ { 2 } -\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }=0\\)，",
+    "∴\\(s ^ { 2 } -t ^ { 2 } =\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }\\)",
+    "∴\\(s ^ { 2 } t ^ { 2 } =k ^ { 2 }\\)",
+    "又∵A(s,\\(\\frac { k } { s }\\))在\\(y_{ 2 } =mx\\)上，",
+    "∴\\(\\frac { k } { s }=ms\\)，",
+    "∴\\(m=\\frac { k } { s ^ { 2 } }\\)",
+    "D(t，\\(\\frac { k } { t }\\)在\\(y_{ 3 } =nx\\)上，",
+    "∴\\(\\frac { k } { t }=nt\\)，\\(n=\\frac { k } { t ^ { 2 } }\\)",
+    "∴\\(mn=\\frac { k } { s ^ { 2 } }\\cdot \\frac { k } { t ^ { 2 } }=\\frac { k ^ { 2 } } { s ^ { 2 } t ^ { 2 } }=1\\)．",
+    "【小问3详解】",
+    "解：由(2)知，\\(A\\left ( { s{ \\rm{ , } }\\frac { k } { s } } \\right )\\)，\\(D\\left ( { t{ \\rm{ , } }\\frac { k } { t } } \\right )\\)，则\\(C\\left ( { -s{ \\rm{ , } }-\\frac { k } { s } } \\right )\\)",
+    "设CD的表达式为\\(y=ax+b\\)",
+    "\\(\\begin{cases} \\frac { k } { t }=at+b \\\\ -\\frac { k } { s }=-as+b \\end{cases}\\)，解得\\(\\begin{cases} a=\\frac { k } { ts } \\\\ b=\\frac { k\\left ( { s-t } \\right ) } { ts } \\end{cases}\\)，",
+    "∴CD的表达式为\\(y=\\frac { kx } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }\\)，",
+    "∵\\(AE\\bot x\\)轴交CD于点E，",
+    "∴当\\(x=s\\)时，\\(y=\\frac { ks } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }=\\frac { k\\left ( { 2s-t } \\right ) } { ts }\\)",
+    "∴E(s，\\(\\frac { k\\left ( { 2s-t } \\right ) } { st }\\))，",
+    "∵四边形AEFG是矩形",
+    "∴\\(G\\left ( { t,\\frac { k } { s } } \\right ),F\\left ( { t,\\frac { k(2s-t) } { st } } \\right )\\)",
+    "∴\\(GD=\\frac { k } { s }-\\frac { k } { t }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)，\\(DF=\\frac { k } { t }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { ks } { ts }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)",
+    "∴\\(GD=DF\\)",
+    "∴D为线段GF的中点．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系xOy中，已知反比例函数\\(y_{ 1 } =\\frac { k } { x }(k>0)\\)的图像与正比例函数\\(y_{ 2 } =mx(m>0)\\)的图像交于点A、点C，与正比例函数\\(y_{ 3 } =nx(n>0)\\)的图像交于点B、点D，设点A、D的横坐标分别为s，t(\\(0 < s < t\\))．\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图1，若点A坐标为(2，4)．",
+      "paper_blocks": [
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-8C8DACC25C-Q22-P01",
+      "label": "（1）①",
+      "prompt": "求m，k的值；",
+      "stem_text": "求m，k的值；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(m=2\\)，\\(k=8\\)；",
+      "answer": "\\(m=2\\)，\\(k=8\\)；",
+      "given_solution": "∵点A(2，4)在\\(y_{ 1 } =\\frac { k } { x }\\)上，\n∴\\(4=\\frac { k } { 2 }\\)，\\(k=8\\)；\n∵点A(2,4)在\\(y_{ 2 } =mx\\)上，\n∴\\(4=2m\\)，\\(m=2\\)",
+      "solution_steps": [
+        "∵点A(2，4)在\\(y_{ 1 } =\\frac { k } { x }\\)上，",
+        "∴\\(4=\\frac { k } { 2 }\\)，\\(k=8\\)；",
+        "∵点A(2,4)在\\(y_{ 2 } =mx\\)上，",
+        "∴\\(4=2m\\)，\\(m=2\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N12.02"
+      ],
+      "exam_ids": [
+        "E.N12.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8C8DACC25C-Q22-P02",
+      "label": "（1）②",
+      "prompt": "若点D的横坐标为4，连接AD，求△AOD的面积．",
+      "stem_text": "若点D的横坐标为4，连接AD，求△AOD的面积．",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "6",
+      "answer": "6",
+      "given_solution": "∵点D的横坐标为4，\n∴当\\(x=4\\)时，\\(y=\\frac { 8 } { 4 }=2\\)，\n∴D(4,2)\n分别过点A、D作x轴的垂线交x轴于点H、K，\n∵\\(S_{ 四边形OADK } =S_{ \\Delta OHA } +S_{ 梯形AHKD }\\)，\\(S_{ 四边形\\Delta OADK } =S_{ \\Delta ODA } +S_{ \\Delta ODK }\\)，\\(S_{ \\Delta OHA } =S_{ \\Delta ODK }\\)\n∴\\(S_{ \\Delta ODA } =S_{ 梯形AHKD } =\\frac { 1 } { 2 }\\left ( { DK+AH } \\right )\\left ( { OK-OH } \\right )=\\frac { 1 } { 2 }\\left ( { 2+4 } \\right )\\left ( { 4-2 } \\right )=6\\)；\n〔图2〕",
+      "solution_steps": [
+        "∵点D的横坐标为4，",
+        "∴当\\(x=4\\)时，\\(y=\\frac { 8 } { 4 }=2\\)，",
+        "∴D(4,2)",
+        "分别过点A、D作x轴的垂线交x轴于点H、K，",
+        "∵\\(S_{ 四边形OADK } =S_{ \\Delta OHA } +S_{ 梯形AHKD }\\)，\\(S_{ 四边形\\Delta OADK } =S_{ \\Delta ODA } +S_{ \\Delta ODK }\\)，\\(S_{ \\Delta OHA } =S_{ \\Delta ODK }\\)",
+        "∴\\(S_{ \\Delta ODA } =S_{ 梯形AHKD } =\\frac { 1 } { 2 }\\left ( { DK+AH } \\right )\\left ( { OK-OH } \\right )=\\frac { 1 } { 2 }\\left ( { 2+4 } \\right )\\left ( { 4-2 } \\right )=6\\)；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8C8DACC25C-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图2，依次连接AB，BC，CD，DA，若四边形ABCD为矩形，求mn的值．",
+      "stem_text": "如图2，依次连接AB，BC，CD，DA，若四边形ABCD为矩形，求mn的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "1",
+      "answer": "1",
+      "given_solution": "解：∵直线AC，BD经过原点且与反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)分别交于点A，C，B，D，反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)的图像关于原点中心对称，\n∴点A，C关于原点对称，点B、D关于原点对称，\n∴\\(OA=OC\\)，\\(OB=OD\\)，\n∴四边形ABCD为平行四边形．\n当\\(OA=OD\\)时，四边形ABCD是矩形．\n∵点A，D的横坐标分别为s，t(\\(0 < s < t\\))，\n∴点A的坐标为(s,\\(\\frac { k } { s }\\))，点D的坐标为(t,\\(\\frac { k } { t }\\))，\n∴\\(OA ^ { 2 } =OD ^ { 2 }\\)，\n∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }=t ^ { 2 } +\\frac { k ^ { 2 } } { t ^ { 2 } }\\)，\n∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-t ^ { 2 } -\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)，\n∴\\(s ^ { 2 } -t ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)\n∴\\(s ^ { 2 } -t ^ { 2 } -\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }=0\\)，\n∴\\(s ^ { 2 } -t ^ { 2 } =\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }\\)\n∴\\(s ^ { 2 } t ^ { 2 } =k ^ { 2 }\\)\n又∵A(s,\\(\\frac { k } { s }\\))在\\(y_{ 2 } =mx\\)上，\n∴\\(\\frac { k } { s }=ms\\)，\n∴\\(m=\\frac { k } { s ^ { 2 } }\\)\nD(t，\\(\\frac { k } { t }\\)在\\(y_{ 3 } =nx\\)上，\n∴\\(\\frac { k } { t }=nt\\)，\\(n=\\frac { k } { t ^ { 2 } }\\)\n∴\\(mn=\\frac { k } { s ^ { 2 } }\\cdot \\frac { k } { t ^ { 2 } }=\\frac { k ^ { 2 } } { s ^ { 2 } t ^ { 2 } }=1\\)．",
+      "solution_steps": [
+        "解：∵直线AC，BD经过原点且与反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)分别交于点A，C，B，D，反比例函数\\(y_{ 1 } =\\frac { k } { x }\\)的图像关于原点中心对称，",
+        "∴点A，C关于原点对称，点B、D关于原点对称，",
+        "∴\\(OA=OC\\)，\\(OB=OD\\)，",
+        "∴四边形ABCD为平行四边形．",
+        "当\\(OA=OD\\)时，四边形ABCD是矩形．",
+        "∵点A，D的横坐标分别为s，t(\\(0 < s < t\\))，",
+        "∴点A的坐标为(s,\\(\\frac { k } { s }\\))，点D的坐标为(t,\\(\\frac { k } { t }\\))，",
+        "∴\\(OA ^ { 2 } =OD ^ { 2 }\\)，",
+        "∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }=t ^ { 2 } +\\frac { k ^ { 2 } } { t ^ { 2 } }\\)，",
+        "∴\\(s ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-t ^ { 2 } -\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)，",
+        "∴\\(s ^ { 2 } -t ^ { 2 } +\\frac { k ^ { 2 } } { s ^ { 2 } }-\\frac { k ^ { 2 } } { t ^ { 2 } }=0\\)",
+        "∴\\(s ^ { 2 } -t ^ { 2 } -\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }=0\\)，",
+        "∴\\(s ^ { 2 } -t ^ { 2 } =\\frac { k ^ { 2 } \\left ( { s ^ { 2 } -t ^ { 2 } } \\right ) } { s ^ { 2 } t ^ { 2 } }\\)",
+        "∴\\(s ^ { 2 } t ^ { 2 } =k ^ { 2 }\\)",
+        "又∵A(s,\\(\\frac { k } { s }\\))在\\(y_{ 2 } =mx\\)上，",
+        "∴\\(\\frac { k } { s }=ms\\)，",
+        "∴\\(m=\\frac { k } { s ^ { 2 } }\\)",
+        "D(t，\\(\\frac { k } { t }\\)在\\(y_{ 3 } =nx\\)上，",
+        "∴\\(\\frac { k } { t }=nt\\)，\\(n=\\frac { k } { t ^ { 2 } }\\)",
+        "∴\\(mn=\\frac { k } { s ^ { 2 } }\\cdot \\frac { k } { t ^ { 2 } }=\\frac { k ^ { 2 } } { s ^ { 2 } t ^ { 2 } }=1\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          76
+        ],
+        "solution_block_ids": [
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.02"
+      ],
+      "exam_ids": [
+        "E.G09.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由平移或对称写出坐标变化”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8C8DACC25C-Q22-P04",
+      "label": "（3）",
+      "prompt": "如图3，过点A作\\(AE\\bot x\\)轴交CD于点E，以AE为一边向右侧作矩形AEFG，若点D在边GF上，试判断点D是否为线段GF的中点？并说明理由．",
+      "stem_text": "如图3，过点A作\\(AE\\bot x\\)轴交CD于点E，以AE为一边向右侧作矩形AEFG，若点D在边GF上，试判断点D是否为线段GF的中点？并说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "D为线段GF的中点，理由见解析",
+      "answer": "D为线段GF的中点，理由见解析",
+      "given_solution": "解：由(2)知，\\(A\\left ( { s{ \\rm{ , } }\\frac { k } { s } } \\right )\\)，\\(D\\left ( { t{ \\rm{ , } }\\frac { k } { t } } \\right )\\)，则\\(C\\left ( { -s{ \\rm{ , } }-\\frac { k } { s } } \\right )\\)\n设CD的表达式为\\(y=ax+b\\)\n\\(\\begin{cases} \\frac { k } { t }=at+b \\\\ -\\frac { k } { s }=-as+b \\end{cases}\\)，解得\\(\\begin{cases} a=\\frac { k } { ts } \\\\ b=\\frac { k\\left ( { s-t } \\right ) } { ts } \\end{cases}\\)，\n∴CD的表达式为\\(y=\\frac { kx } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }\\)，\n∵\\(AE\\bot x\\)轴交CD于点E，\n∴当\\(x=s\\)时，\\(y=\\frac { ks } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }=\\frac { k\\left ( { 2s-t } \\right ) } { ts }\\)\n∴E(s，\\(\\frac { k\\left ( { 2s-t } \\right ) } { st }\\))，\n∵四边形AEFG是矩形\n∴\\(G\\left ( { t,\\frac { k } { s } } \\right ),F\\left ( { t,\\frac { k(2s-t) } { st } } \\right )\\)\n∴\\(GD=\\frac { k } { s }-\\frac { k } { t }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)，\\(DF=\\frac { k } { t }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { ks } { ts }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)\n∴\\(GD=DF\\)\n∴D为线段GF的中点．",
+      "solution_steps": [
+        "解：由(2)知，\\(A\\left ( { s{ \\rm{ , } }\\frac { k } { s } } \\right )\\)，\\(D\\left ( { t{ \\rm{ , } }\\frac { k } { t } } \\right )\\)，则\\(C\\left ( { -s{ \\rm{ , } }-\\frac { k } { s } } \\right )\\)",
+        "设CD的表达式为\\(y=ax+b\\)",
+        "\\(\\begin{cases} \\frac { k } { t }=at+b \\\\ -\\frac { k } { s }=-as+b \\end{cases}\\)，解得\\(\\begin{cases} a=\\frac { k } { ts } \\\\ b=\\frac { k\\left ( { s-t } \\right ) } { ts } \\end{cases}\\)，",
+        "∴CD的表达式为\\(y=\\frac { kx } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }\\)，",
+        "∵\\(AE\\bot x\\)轴交CD于点E，",
+        "∴当\\(x=s\\)时，\\(y=\\frac { ks } { ts }+\\frac { k\\left ( { s-t } \\right ) } { ts }=\\frac { k\\left ( { 2s-t } \\right ) } { ts }\\)",
+        "∴E(s，\\(\\frac { k\\left ( { 2s-t } \\right ) } { st }\\))，",
+        "∵四边形AEFG是矩形",
+        "∴\\(G\\left ( { t,\\frac { k } { s } } \\right ),F\\left ( { t,\\frac { k(2s-t) } { st } } \\right )\\)",
+        "∴\\(GD=\\frac { k } { s }-\\frac { k } { t }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)，\\(DF=\\frac { k } { t }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { ks } { ts }-\\frac { k\\left ( { 2s-t } \\right ) } { ts }=\\frac { k\\left ( { t-s } \\right ) } { ts }\\)",
+        "∴\\(GD=DF\\)",
+        "∴D为线段GF的中点．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          77
+        ],
+        "solution_block_ids": [
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“矩形性质与判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“矩形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      77
+    ],
+    "solution_body_blocks": [
+      405,
+      463
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-8C8DACC25C/paper-q22-p06.webp",
+      "assets/SZ-G9-T1-8C8DACC25C/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          491.36,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          158.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-8C8DACC25C/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-8C8DACC25C/solution-q22-p25.webp",
+      "assets/SZ-G9-T1-8C8DACC25C/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          120.0,
+          583.64,
+          715.91
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          57.73,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          759.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N12.02",
+    "M.G09.03",
+    "M.G09.02",
+    "M.G05.02"
+  ],
+  "exam_ids": [
+    "E.N12.02.01",
+    "E.G09.03.01",
+    "E.G09.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“矩形性质与判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问解答对应“由平移或对称写出坐标变化”。 题目涉及“矩形”，按题面与解答定位知识主题。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,237 @@
+{
+  "id": "SZ-G9-T1-DEC11E1474-Q19",
+  "paper_id": "SZ-G9-T1-DEC11E1474",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "用相似模型解决测高测距",
+  "stem": "【项目式学习】制作“E”形视力表，\n【课题实施】根据标准对数视力表(测试距离为5米)，以小组合作方式，制作变更测试距离的视力表.\n【课题结论】\n(1) 如图1，利用“E”的高度b与它到眼睛的水平距离l之比 (即\\(\\frac{b}{l}\\))来刻画视力.\n(2) 大小不同的“E”，只要它们这一比值 (即\\(\\frac{b}{l}\\))相同，那么用他们测得的视力就相同.\n【课题应用】\n问题1：根据图2所示，水平桌面上依次放着①号和②号大小不一样的两个“E”字，将②号“E”沿水平桌面向右移动，直至从观测点O看去，对应顶点A，C，O在同一直线上为止，其中AB是①号“E”字的高度，CD是②号“E”字的高度，请用所学知识证明：此时①号字“E”与②号“E”字测试的视力相同.\n问题2：小明想制作一张测试距离为3米的“E”形视力表. 以图2所示，①号“E”是标准对数视力表中视力为4.2的“E”字, 其高度AB为45mm, 求小明在制作视力为4.2的②号“E”字时, ②号“E”的高度CD应为多少 mm? (A、C、 O在一条直线上, B、D、 O在一条直线上)\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-DEC11E1474/figures/554775bab4a51be051949541691c39758342aaae10cb2d7aa4ddbdcde88f6db7.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【项目式学习】制作“E”形视力表，\n【课题实施】根据标准对数视力表(测试距离为5米)，以小组合作方式，制作变更测试距离的视力表.\n【课题结论】\n(1) 如图1，利用“E”的高度b与它到眼睛的水平距离l之比 (即\\(\\frac{b}{l}\\))来刻画视力.\n(2) 大小不同的“E”，只要它们这一比值 (即\\(\\frac{b}{l}\\))相同，那么用他们测得的视力就相同.\n【课题应用】",
+      "paper_blocks": [
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "id": "fig-90",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        90
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-DEC11E1474-Q19-P01",
+      "label": "问题1",
+      "prompt": "根据图2所示，水平桌面上依次放着①号和②号大小不一样的两个“E”字，将②号“E”沿水平桌面向右移动，直至从观测点O看去，对应顶点A，C，O在同一直线上为止，其中AB是①号“E”字的高度，CD是②号“E”字的高度，请用所学知识证明：此时①号字“E”与②号“E”字测试的视力相同.",
+      "stem_text": "根据图2所示，水平桌面上依次放着①号和②号大小不一样的两个“E”字，将②号“E”沿水平桌面向右移动，直至从观测点O看去，对应顶点A，C，O在同一直线上为止，其中AB是①号“E”字的高度，CD是②号“E”字的高度，请用所学知识证明：此时①号字“E”与②号“E”字测试的视力相同.",
+      "material_ids": [
+        "context",
+        "fig-90"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "由题可得\\(AB\\parallel CD\\)\n∴\\(\\angle ABO=\\angle CDO，\\angle BAO=\\angle DCO\\)\n∴\\(\\vartriangle ABO\\backsim \\vartriangle CDO\\)\n∴\\(\\frac { CD } { AB }=\\frac { OD } { OB }\\)\n∴\\(\\frac { CD } { OD }=\\frac { AB } { OB }=\\frac { b } { l }\\)\n∴①号“\\(E\\)”字与②号“\\(E\\)字”测试的视力相同",
+      "solution_steps": [
+        "由题可得\\(AB\\parallel CD\\)",
+        "∴\\(\\angle ABO=\\angle CDO，\\angle BAO=\\angle DCO\\)",
+        "∴\\(\\vartriangle ABO\\backsim \\vartriangle CDO\\)",
+        "∴\\(\\frac { CD } { AB }=\\frac { OD } { OB }\\)",
+        "∴\\(\\frac { CD } { OD }=\\frac { AB } { OB }=\\frac { b } { l }\\)",
+        "∴①号“\\(E\\)”字与②号“\\(E\\)字”测试的视力相同"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          90
+        ],
+        "solution_block_ids": [
+          323,
+          324,
+          325,
+          326,
+          327,
+          328
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.04"
+      ],
+      "exam_ids": [
+        "E.G08.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“用相似模型解决测高测距”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DEC11E1474-Q19-P02",
+      "label": "问题2",
+      "prompt": "小明想制作一张测试距离为3米的“E”形视力表. 以图2所示，①号“E”是标准对数视力表中视力为4.2的“E”字, 其高度AB为45mm, 求小明在制作视力为4.2的②号“E”字时, ②号“E”的高度CD应为多少 mm? (A、C、 O在一条直线上, B、D、 O在一条直线上)",
+      "stem_text": "小明想制作一张测试距离为3米的“E”形视力表. 以图2所示，①号“E”是标准对数视力表中视力为4.2的“E”字, 其高度AB为45mm, 求小明在制作视力为4.2的②号“E”字时, ②号“E”的高度CD应为多少 mm? (A、C、 O在一条直线上, B、D、 O在一条直线上)",
+      "material_ids": [
+        "context",
+        "fig-90"
+      ],
+      "requires": [],
+      "given_answer": "\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+      "answer": "\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+      "given_solution": "由（1）可得\n\\(\\frac { CD } { OD }=\\frac { AB } { OB }\\)\n∵\\(AB=45，OB=5，OD=3\\)\n∴\\(\\frac { CD } { 3 }\\)\\(=\\frac { 45 } { 5 }\\)\n∴\\(CD=27\\)\n答：②号“\\(E\\)”的高度\\(CD\\)应为\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+      "solution_steps": [
+        "由（1）可得",
+        "\\(\\frac { CD } { OD }=\\frac { AB } { OB }\\)",
+        "∵\\(AB=45，OB=5，OD=3\\)",
+        "∴\\(\\frac { CD } { 3 }\\)\\(=\\frac { 45 } { 5 }\\)",
+        "∴\\(CD=27\\)",
+        "答：②号“\\(E\\)”的高度\\(CD\\)应为\\(27{ \\rm{ m } }{ \\rm{ m } }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          89,
+          90
+        ],
+        "solution_block_ids": [
+          329,
+          330,
+          331,
+          332,
+          333,
+          334
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.04"
+      ],
+      "exam_ids": [
+        "E.G08.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "在对应三角形中利用物高、影长或观察距离的比例求实际长度。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "given_answer": "问题1：证明见解析；问题2：\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+  "given_solution": "【解析】\n【分析】本题考查了相似三角形的应用；问题1：证明\\(\\vartriangle ABO\\backsim \\vartriangle CDO\\)，根据相似三角形的性质可得\\(\\frac { CD } { OD }=\\frac { AB } { OB }=\\frac { b } { l }\\)；\n问题2：根据相似三角形的性质，将数据代入比例式，即可求解．\n【详解】问题1：由题可得\\(AB\\parallel CD\\)\n∴\\(\\angle ABO=\\angle CDO，\\angle BAO=\\angle DCO\\)\n∴\\(\\vartriangle ABO\\backsim \\vartriangle CDO\\)\n∴\\(\\frac { CD } { AB }=\\frac { OD } { OB }\\)\n∴\\(\\frac { CD } { OD }=\\frac { AB } { OB }=\\frac { b } { l }\\)\n∴①号“\\(E\\)”字与②号“\\(E\\)字”测试的视力相同\n问题2：由（1）可得\n\\(\\frac { CD } { OD }=\\frac { AB } { OB }\\)\n∵\\(AB=45，OB=5，OD=3\\)\n∴\\(\\frac { CD } { 3 }\\)\\(=\\frac { 45 } { 5 }\\)\n∴\\(CD=27\\)\n答：②号“\\(E\\)”的高度\\(CD\\)应为\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+  "given_solution_figures": [],
+  "answer": "问题1：证明见解析；问题2：\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+  "solution_steps": [
+    "问题1：由题可得\\(AB\\parallel CD\\)",
+    "∴\\(\\angle ABO=\\angle CDO，\\angle BAO=\\angle DCO\\)",
+    "∴\\(\\vartriangle ABO\\backsim \\vartriangle CDO\\)",
+    "∴\\(\\frac { CD } { AB }=\\frac { OD } { OB }\\)",
+    "∴\\(\\frac { CD } { OD }=\\frac { AB } { OB }=\\frac { b } { l }\\)",
+    "∴①号“\\(E\\)”字与②号“\\(E\\)字”测试的视力相同",
+    "问题2：由（1）可得",
+    "\\(\\frac { CD } { OD }=\\frac { AB } { OB }\\)",
+    "∵\\(AB=45，OB=5，OD=3\\)",
+    "∴\\(\\frac { CD } { 3 }\\)\\(=\\frac { 45 } { 5 }\\)",
+    "∴\\(CD=27\\)",
+    "答：②号“\\(E\\)”的高度\\(CD\\)应为\\(27{ \\rm{ m } }{ \\rm{ m } }\\)"
+  ],
+  "solution": "问题1：由题可得\\(AB\\parallel CD\\)\n∴\\(\\angle ABO=\\angle CDO，\\angle BAO=\\angle DCO\\)\n∴\\(\\vartriangle ABO\\backsim \\vartriangle CDO\\)\n∴\\(\\frac { CD } { AB }=\\frac { OD } { OB }\\)\n∴\\(\\frac { CD } { OD }=\\frac { AB } { OB }=\\frac { b } { l }\\)\n∴①号“\\(E\\)”字与②号“\\(E\\)字”测试的视力相同\n问题2：由（1）可得\n\\(\\frac { CD } { OD }=\\frac { AB } { OB }\\)\n∵\\(AB=45，OB=5，OD=3\\)\n∴\\(\\frac { CD } { 3 }\\)\\(=\\frac { 45 } { 5 }\\)\n∴\\(CD=27\\)\n答：②号“\\(E\\)”的高度\\(CD\\)应为\\(27{ \\rm{ m } }{ \\rm{ m } }\\)",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "review_note": "学校原卷未附答案。逐题对照南山外国语集团滨海学校同场整理版的配套详解。",
+  "source": {
+    "paper_body_blocks": [
+      82,
+      90
+    ],
+    "solution_body_blocks": [
+      319,
+      334
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-DEC11E1474/paper-q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          110.0,
+          583.18,
+          588.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-DEC11E1474/solution-q19-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          276.36,
+          583.64,
+          704.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.04"
+  ],
+  "exam_ids": [
+    "E.G08.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“用相似模型解决测高测距”。 在对应三角形中利用物高、影长或观察距离的比例求实际长度。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

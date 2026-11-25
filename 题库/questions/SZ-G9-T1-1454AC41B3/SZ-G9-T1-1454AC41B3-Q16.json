@@ -1,0 +1,165 @@
+{
+  "id": "SZ-G9-T1-1454AC41B3-Q16",
+  "paper_id": "SZ-G9-T1-1454AC41B3",
+  "number": 16,
+  "type": "解答题",
+  "points": null,
+  "title": "用相似模型解决测高测距",
+  "stem": "张老师周末给学生们布置了一项实践作业：应用学过的数学知识实地测量周边某物体(高楼、路灯、大树等)的高度．\n善思小组决定测量人民公园一棵高大的柿子树的高度，下面是该小组的部分测量方案及测量数据：\n测量工具 | 标杆，皮尺\n测量方案 | 选一名同学作为观测者，在观测者与树之间的地面直立一根标杆．观测者调整自己的位置，使树的顶端、标杆的顶端与自己的眼睛恰好在一条直线上．这时其他同学测出观测者的脚到树底端的距离，以及观测者的脚到标杆底端的距离，然后测出标杆的高．\n测量示意图 | 〔图1〕\n测量数据 | 线段\\(AB\\)表示树，标杆\\(EF=2.5\\) \\(m\\)，观测者的眼睛到地面的距离\\(CD=1.6\\) \\(m\\)，观测者的脚到树底端的距离\\(DB=18\\) \\(m\\)，观测者的脚到标杆底端的距离\\(DF=2\\) \\(m\\)．\n… |\n请你根据上述信息，帮善思小组求出树AB的高度．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-1454AC41B3/figures/c2899717337130bebcc6dccab4250c5eca78130425987818ec338a839c71e0e4.png"
+  ],
+  "tables": [
+    {
+      "text": "测量工具 | 标杆，皮尺\n测量方案 | 选一名同学作为观测者，在观测者与树之间的地面直立一根标杆．观测者调整自己的位置，使树的顶端、标杆的顶端与自己的眼睛恰好在一条直线上．这时其他同学测出观测者的脚到树底端的距离，以及观测者的脚到标杆底端的距离，然后测出标杆的高．\n测量示意图 | 〔图1〕\n测量数据 | 线段\\(AB\\)表示树，标杆\\(EF=2.5\\) \\(m\\)，观测者的眼睛到地面的距离\\(CD=1.6\\) \\(m\\)，观测者的脚到树底端的距离\\(DB=18\\) \\(m\\)，观测者的脚到标杆底端的距离\\(DF=2\\) \\(m\\)．\n… | ",
+      "rows": [
+        [
+          [
+            "测量工具"
+          ],
+          [
+            "标杆，皮尺"
+          ]
+        ],
+        [
+          [
+            "测量方案"
+          ],
+          [
+            "选一名同学作为观测者，在观测者与树之间的地面直立一根标杆．观测者调整自己的位置，使树的顶端、标杆的顶端与自己的眼睛恰好在一条直线上．这时其他同学测出观测者的脚到树底端的距离，以及观测者的脚到标杆底端的距离，然后测出标杆的高．"
+          ]
+        ],
+        [
+          [
+            "测量示意图"
+          ],
+          [
+            "〔图1〕"
+          ]
+        ],
+        [
+          [
+            "测量数据"
+          ],
+          [
+            "线段\\(AB\\)表示树，标杆\\(EF=2.5\\) \\(m\\)，观测者的眼睛到地面的距离\\(CD=1.6\\) \\(m\\)，观测者的脚到树底端的距离\\(DB=18\\) \\(m\\)，观测者的脚到标杆底端的距离\\(DF=2\\) \\(m\\)．"
+          ]
+        ],
+        [
+          [
+            "…"
+          ],
+          [
+            ""
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "\\(9.7{ \\rm{ ~ } }{ \\rm{ m } }\\)",
+  "answer": "\\(9.7{ \\rm{ ~ } }{ \\rm{ m } }\\)",
+  "given_solution": "【分析】本题主要考查了相似三角形的性质与判定，矩形的性质与判定，平行线的性质：过点\\(C\\)作\\(CG\\bot AB\\)于点\\(G\\)，交\\(EF\\)于点\\(H\\)，则四边形\\(CDBG\\)与四边形\\(CDFH\\)是矩形，证明\\(\\vartriangle CEH\\backsim \\vartriangle CAG\\)，根据相似三角形的性质，即可求解．\n【详解】解：如图，过点\\(C\\)作\\(CG\\bot AB\\)于点\\(G\\)，交\\(EF\\)于点\\(H\\)，则四边形\\(CDBG\\)与四边形\\(CDFH\\)是矩形，\n〔图2〕\n\\(\\therefore CH=DF=2\\) \\(m\\)，\\(CG=BD=18\\) \\(m\\)，\\(CD=HF=GB=1.6\\) \\(m\\)，\n\\(\\therefore EH=EF-HF=2.5-1.6=0.9\\) \\(m\\)，\n由题意得\\(EF\\parallel AB\\)，\n\\(\\therefore \\vartriangle CEH\\backsim \\vartriangle CAG\\)，\n\\(\\therefore\\)\\(\\frac { CH } { CG }=\\frac { EH } { AG }\\)，即\\(\\frac { 2 } { 18 }=\\frac { 0.9 } { AG }\\)，\n\\(\\therefore AG=8.1\\) \\(m\\)，\n\\(\\therefore AB=AG+BG=8.1+1.6=9.7\\) \\(m\\)，\n答：树\\(AB\\)的高度为\\(9.7\\) \\(m\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-1454AC41B3/figures/ee95f4065eb94bf14a5c3180003b1214607b892405e2278809747b65a7784999.png",
+    "assets/SZ-G9-T1-1454AC41B3/figures/42707cf5a0e8a1c29a8fe72c550c4ebcfe6227a9f1384969a9d90f42d0fd2dd0.png"
+  ],
+  "solution": "解：如图，过点\\(C\\)作\\(CG\\bot AB\\)于点\\(G\\)，交\\(EF\\)于点\\(H\\)，则四边形\\(CDBG\\)与四边形\\(CDFH\\)是矩形，\n〔图2〕\n\\(\\therefore CH=DF=2\\) \\(m\\)，\\(CG=BD=18\\) \\(m\\)，\\(CD=HF=GB=1.6\\) \\(m\\)，\n\\(\\therefore EH=EF-HF=2.5-1.6=0.9\\) \\(m\\)，\n由题意得\\(EF\\parallel AB\\)，\n\\(\\therefore \\vartriangle CEH\\backsim \\vartriangle CAG\\)，\n\\(\\therefore\\)\\(\\frac { CH } { CG }=\\frac { EH } { AG }\\)，即\\(\\frac { 2 } { 18 }=\\frac { 0.9 } { AG }\\)，\n\\(\\therefore AG=8.1\\) \\(m\\)，\n\\(\\therefore AB=AG+BG=8.1+1.6=9.7\\) \\(m\\)，\n答：树\\(AB\\)的高度为\\(9.7\\) \\(m\\)．",
+  "solution_steps": [
+    "解：如图，过点\\(C\\)作\\(CG\\bot AB\\)于点\\(G\\)，交\\(EF\\)于点\\(H\\)，则四边形\\(CDBG\\)与四边形\\(CDFH\\)是矩形，",
+    "〔图2〕",
+    "\\(\\therefore CH=DF=2\\) \\(m\\)，\\(CG=BD=18\\) \\(m\\)，\\(CD=HF=GB=1.6\\) \\(m\\)，",
+    "\\(\\therefore EH=EF-HF=2.5-1.6=0.9\\) \\(m\\)，",
+    "由题意得\\(EF\\parallel AB\\)，",
+    "\\(\\therefore \\vartriangle CEH\\backsim \\vartriangle CAG\\)，",
+    "\\(\\therefore\\)\\(\\frac { CH } { CG }=\\frac { EH } { AG }\\)，即\\(\\frac { 2 } { 18 }=\\frac { 0.9 } { AG }\\)，",
+    "\\(\\therefore AG=8.1\\) \\(m\\)，",
+    "\\(\\therefore AB=AG+BG=8.1+1.6=9.7\\) \\(m\\)，",
+    "答：树\\(AB\\)的高度为\\(9.7\\) \\(m\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      45,
+      48
+    ],
+    "solution_body_blocks": [
+      246,
+      262
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-1454AC41B3/paper-q16-p04.webp",
+      "assets/SZ-G9-T1-1454AC41B3/paper-q16-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          526.36,
+          583.64,
+          751.82
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          43.18,
+          583.64,
+          426.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-1454AC41B3/solution-q16-p14.webp",
+      "assets/SZ-G9-T1-1454AC41B3/solution-q16-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          513.64,
+          583.64,
+          668.18
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          45.0,
+          583.64,
+          392.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.04"
+  ],
+  "exam_ids": [
+    "E.G08.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“用相似模型解决测高测距”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

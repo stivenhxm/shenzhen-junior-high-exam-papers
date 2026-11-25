@@ -1,0 +1,500 @@
+{
+  "id": "SZ-G9-T1-198A193CBF-Q20",
+  "paper_id": "SZ-G9-T1-198A193CBF",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长、利用相似证明变化过程中的不变量",
+  "stem": "【问题初探】\n数学课上，老师提出如下问题：\n如图1，在矩形\\(ABCD\\)中，点E，F分别是\\(AD\\)，\\(CD\\)的中点，\\(AF\\)与\\(BE\\)相交于点G，求\\(AG\\)的值．\n经过思考，小明同学和小慧同学分别给出如下解题思路：\n小明：可以过中点作平行线，过点E作\\(EH\\parallel AB\\)交\\(AF\\)于点H，如图2所示，或者过点F作\\(FK\\parallel AD\\)交\\(AB\\)于点K，交BE于点Q，如图3所示……\n小慧：还可以延长中点所在的线段，如图4，延长\\(BE\\)交\\(CD\\)的延长线于点P……\n〔图1〕\n（1）请根据上述两位同学的思路，直接写出\\(\\frac { AG } { GF }\\)的值：__________．\n【类比分析】\n（2）老师发现两位同学都利用了转化思想，为了帮助同学们更好地利用转化思想解决问题，老师改变题中的条件，如图5，将图1中的矩形\\(ABCD\\)改成菱形\\(ABCD\\)，其余条件不变，那么\\(\\frac { AG } { GF }\\)的值是否改变？请说明理由．\n【学以致用】\n（3）如图6，已知正方形\\(ABCD\\)中心为点O，边长为4，另一边长为\\(\\sqrt[] { 6 }\\)的正方形\\(EFGH\\)的中心与点B重合，连接\\(CE\\)，设\\(CE\\)的中点为M，将正方形\\(EFGH\\)绕点B旋转，当A，E，F三点恰好在同一直线上时，请直接写出\\(OM\\)的长．\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-198A193CBF/figures/e284bea597949d39fd2e9303622dfe1f9b26d476f0264b9cbb42b67d76c8325b.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/cd52f9f5d991e9ae6222e519935b72477c00700459bda40a4d09cfb4027df62a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 2 } { 3 }\\)；（2）不变，理由见解析；（3）\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)",
+  "answer": "（1）\\(\\frac { 2 } { 3 }\\)；（2）不变，理由见解析；（3）\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)",
+  "given_solution": "【分析】（1）延长\\(BE\\)交\\(CD\\)的延长线于点P，利用矩形的性质以及线段中点可证得\\(\\vartriangle ABE≌\\vartriangle DPE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，由全等的性质可得出\\(AB=PD\\)，再证明\\(\\vartriangle AGB\\backsim \\vartriangle FGP\\)即可得出\\(\\frac { AG } { FG }=\\frac { AB } { FP }\\)，由线段的中点可得出\\(\\frac { AB } { PF }=\\frac { 2 } { 3 }\\)，即可得出\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)．\n（2）设\\(AF\\)的中点为\\(O\\)，连接\\(OE\\)，由三角形中位线的判定以及性质得出\\(EO\\parallel DF\\parallel AB\\)，进而得出\\(\\vartriangle ABG\\backsim \\vartriangle OEG,\\frac { EO } { DF }=\\frac { 1 } { 2 }\\)，由相似三角形的性质进而得出\\(\\frac { AG } { GO }=4\\)，再结合\\(AO=FO\\)即可得出\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)．\n（3）连接\\(AC\\)，\\(AE\\)先证明\\(OM\\)是\\(\\vartriangle ACE\\)的中位线，\\(OM=\\frac { 1 } { 2 }AE\\)，根据题意可得点\\(E\\)的运动路径是以点\\(B\\)为圆心，以\\(BE\\)的长为半径的圆．当\\(A,E,F\\)三点共线时，分以下两种情况进行讨论．画出图形结合正方形的性质以及勾股定理即可求解．\n【详解】解：（1）\\(\\frac { 2 } { 3 }\\)．\n理由∶如下图，延长\\(BE\\)交\\(CD\\)的延长线于点P，\n〔图3〕\n图4\n∵矩形\\(ABCD\\)，\n∴\\(AB\\parallel PC\\)，\\(AB=DC\\)，\n∴\\(\\angle ABE=\\angle P\\)，\\(\\angle BAE=\\angle PDA\\)，\n∵点E为\\(AD\\)的中点，\n∴\\(AE=DE\\)\n∴\\(\\vartriangle ABE≌\\vartriangle DPE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AB=PD\\)，\n∵\\(AB\\parallel PC\\)，\n∴\\(\\vartriangle AGB\\backsim \\vartriangle FGP\\)\n∴\\(\\frac { AG } { FG }=\\frac { AB } { FP }\\)，\n∵F为\\(CD\\)的中点，\n∴\\(\\frac { AB } { PF }=\\frac { 2 } { 3 }\\)，\n∴\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)\n（2）不变．\n理由如下：设\\(AF\\)的中点为\\(O\\)，连接\\(OE\\)，如下图所示．\n〔图4〕\n\\(\\because E\\)是\\(AD\\)的中点，\n\\(\\therefore EO\\)是\\(\\vartriangle ADF\\)的中位线．\n\\(\\therefore EO\\parallel DF\\parallel AB\\)．\n\\(\\therefore \\vartriangle ABG\\backsim \\vartriangle OEG,\\frac { EO } { DF }=\\frac { 1 } { 2 }\\)．\n\\(\\therefore \\frac { EO } { AB }=\\frac { 1 } { 4 }\\)．\n\\(\\therefore \\frac { AG } { GO }=4\\)\n\\(\\because AO=FO\\)，\n\\(\\therefore \\frac { AG } { GF }=\\frac { 4 } { 1+5 }=\\frac { 2 } { 3 }\\)．\n（3）\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n理由如下：\n连接\\(AC\\)，\\(AE\\) 如下图\n\\(\\because O,M\\)分别是\\(AC\\)，\\(EC\\)的中点，\n\\(\\therefore OM\\)是\\(\\vartriangle ACE\\)的中位线，\n∴\\(OM=\\frac { 1 } { 2 }AE\\)．\n由题意，可得点\\(E\\)的运动路径是以点\\(B\\)为圆心，以\\(BE\\)的长为半径的圆．\n当\\(A,E,F\\)三点共线时，分以下两种情况进行讨论．\n①当点\\(E\\)在线段\\(AF\\)上时，连接\\(BE\\)，\n过点\\(B\\)作\\(BN\\bot EF\\)于点\\(N\\)，如下图所示，\n〔图5〕\n∵\\(EFGH\\)为正方形，B为中心，\n∴\\(\\angle BEN=45{}^\\circ ,\\)\n\\(\\therefore BN=EN=\\frac { \\sqrt[] { 6 } } { 2 }\\) ，\n\\(\\because AB=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)，\n\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．\n\\(\\therefore AE=AN-EN=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 2 }\\)．\n\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)．\n②当点\\(F\\)在线段\\(AE\\)上时，连接\\(BE\\)，过点\\(B\\)作\\(BN\\bot EF\\)，如下图所示，\n〔图6〕\n同理\\(\\angle BEN=45{}^\\circ ,\\)\n∴\\(BN=\\frac { \\sqrt[] { 6 } } { 2 }\\)\n\\(\\because AB=4\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)\n\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．\n\\(\\therefore AE=AN+AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 2 }\\)，\n\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n综上所述，\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n【点睛】本题考查三角形的中位线定理，相似三角形的判定与性质，全等三角形的判定以及性质，勾股定理，矩形的性质、菱形的性质、正方形的性质等知识，熟虑掌握以上知识是解题的关键，",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-198A193CBF/figures/e284bea597949d39fd2e9303622dfe1f9b26d476f0264b9cbb42b67d76c8325b.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/cd52f9f5d991e9ae6222e519935b72477c00700459bda40a4d09cfb4027df62a.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/a539e276463a7fd40fb816a5fd6b490acce9c5e34aeccbbf1916f48671b6da4b.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/24ca0c5fd00956c9698d2a22695770b4c33a2fb09e6068e906b2bcc5d966b739.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/dded786375b88a3ad7ef9f0c44ce2d4a8a5e1f4ee57138736cb3aaee92db8748.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/4bbfbaccb63a68aee39ee78fb2379b97780c576777cf9c800666a0087f06bf80.png"
+  ],
+  "solution": "解：（1）\\(\\frac { 2 } { 3 }\\)．\n理由∶如下图，延长\\(BE\\)交\\(CD\\)的延长线于点P，\n〔图3〕\n图4\n∵矩形\\(ABCD\\)，\n∴\\(AB\\parallel PC\\)，\\(AB=DC\\)，\n∴\\(\\angle ABE=\\angle P\\)，\\(\\angle BAE=\\angle PDA\\)，\n∵点E为\\(AD\\)的中点，\n∴\\(AE=DE\\)\n∴\\(\\vartriangle ABE≌\\vartriangle DPE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AB=PD\\)，\n∵\\(AB\\parallel PC\\)，\n∴\\(\\vartriangle AGB\\backsim \\vartriangle FGP\\)\n∴\\(\\frac { AG } { FG }=\\frac { AB } { FP }\\)，\n∵F为\\(CD\\)的中点，\n∴\\(\\frac { AB } { PF }=\\frac { 2 } { 3 }\\)，\n∴\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)\n（2）不变．\n理由如下：设\\(AF\\)的中点为\\(O\\)，连接\\(OE\\)，如下图所示．\n〔图4〕\n\\(\\because E\\)是\\(AD\\)的中点，\n\\(\\therefore EO\\)是\\(\\vartriangle ADF\\)的中位线．\n\\(\\therefore EO\\parallel DF\\parallel AB\\)．\n\\(\\therefore \\vartriangle ABG\\backsim \\vartriangle OEG,\\frac { EO } { DF }=\\frac { 1 } { 2 }\\)．\n\\(\\therefore \\frac { EO } { AB }=\\frac { 1 } { 4 }\\)．\n\\(\\therefore \\frac { AG } { GO }=4\\)\n\\(\\because AO=FO\\)，\n\\(\\therefore \\frac { AG } { GF }=\\frac { 4 } { 1+5 }=\\frac { 2 } { 3 }\\)．\n（3）\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n理由如下：\n连接\\(AC\\)，\\(AE\\) 如下图\n\\(\\because O,M\\)分别是\\(AC\\)，\\(EC\\)的中点，\n\\(\\therefore OM\\)是\\(\\vartriangle ACE\\)的中位线，\n∴\\(OM=\\frac { 1 } { 2 }AE\\)．\n由题意，可得点\\(E\\)的运动路径是以点\\(B\\)为圆心，以\\(BE\\)的长为半径的圆．\n当\\(A,E,F\\)三点共线时，分以下两种情况进行讨论．\n①当点\\(E\\)在线段\\(AF\\)上时，连接\\(BE\\)，\n过点\\(B\\)作\\(BN\\bot EF\\)于点\\(N\\)，如下图所示，\n〔图5〕\n∵\\(EFGH\\)为正方形，B为中心，\n∴\\(\\angle BEN=45{}^\\circ ,\\)\n\\(\\therefore BN=EN=\\frac { \\sqrt[] { 6 } } { 2 }\\) ，\n\\(\\because AB=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)，\n\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．\n\\(\\therefore AE=AN-EN=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 2 }\\)．\n\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)．\n②当点\\(F\\)在线段\\(AE\\)上时，连接\\(BE\\)，过点\\(B\\)作\\(BN\\bot EF\\)，如下图所示，\n〔图6〕\n同理\\(\\angle BEN=45{}^\\circ ,\\)\n∴\\(BN=\\frac { \\sqrt[] { 6 } } { 2 }\\)\n\\(\\because AB=4\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)\n\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．\n\\(\\therefore AE=AN+AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 2 }\\)，\n\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n综上所述，\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．",
+  "solution_steps": [
+    "解：（1）\\(\\frac { 2 } { 3 }\\)．",
+    "理由∶如下图，延长\\(BE\\)交\\(CD\\)的延长线于点P，",
+    "〔图3〕",
+    "图4",
+    "∵矩形\\(ABCD\\)，",
+    "∴\\(AB\\parallel PC\\)，\\(AB=DC\\)，",
+    "∴\\(\\angle ABE=\\angle P\\)，\\(\\angle BAE=\\angle PDA\\)，",
+    "∵点E为\\(AD\\)的中点，",
+    "∴\\(AE=DE\\)",
+    "∴\\(\\vartriangle ABE≌\\vartriangle DPE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AB=PD\\)，",
+    "∵\\(AB\\parallel PC\\)，",
+    "∴\\(\\vartriangle AGB\\backsim \\vartriangle FGP\\)",
+    "∴\\(\\frac { AG } { FG }=\\frac { AB } { FP }\\)，",
+    "∵F为\\(CD\\)的中点，",
+    "∴\\(\\frac { AB } { PF }=\\frac { 2 } { 3 }\\)，",
+    "∴\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)",
+    "（2）不变．",
+    "理由如下：设\\(AF\\)的中点为\\(O\\)，连接\\(OE\\)，如下图所示．",
+    "〔图4〕",
+    "\\(\\because E\\)是\\(AD\\)的中点，",
+    "\\(\\therefore EO\\)是\\(\\vartriangle ADF\\)的中位线．",
+    "\\(\\therefore EO\\parallel DF\\parallel AB\\)．",
+    "\\(\\therefore \\vartriangle ABG\\backsim \\vartriangle OEG,\\frac { EO } { DF }=\\frac { 1 } { 2 }\\)．",
+    "\\(\\therefore \\frac { EO } { AB }=\\frac { 1 } { 4 }\\)．",
+    "\\(\\therefore \\frac { AG } { GO }=4\\)",
+    "\\(\\because AO=FO\\)，",
+    "\\(\\therefore \\frac { AG } { GF }=\\frac { 4 } { 1+5 }=\\frac { 2 } { 3 }\\)．",
+    "（3）\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．",
+    "理由如下：",
+    "连接\\(AC\\)，\\(AE\\) 如下图",
+    "\\(\\because O,M\\)分别是\\(AC\\)，\\(EC\\)的中点，",
+    "\\(\\therefore OM\\)是\\(\\vartriangle ACE\\)的中位线，",
+    "∴\\(OM=\\frac { 1 } { 2 }AE\\)．",
+    "由题意，可得点\\(E\\)的运动路径是以点\\(B\\)为圆心，以\\(BE\\)的长为半径的圆．",
+    "当\\(A,E,F\\)三点共线时，分以下两种情况进行讨论．",
+    "①当点\\(E\\)在线段\\(AF\\)上时，连接\\(BE\\)，",
+    "过点\\(B\\)作\\(BN\\bot EF\\)于点\\(N\\)，如下图所示，",
+    "〔图5〕",
+    "∵\\(EFGH\\)为正方形，B为中心，",
+    "∴\\(\\angle BEN=45{}^\\circ ,\\)",
+    "\\(\\therefore BN=EN=\\frac { \\sqrt[] { 6 } } { 2 }\\) ，",
+    "\\(\\because AB=4\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)，",
+    "\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．",
+    "\\(\\therefore AE=AN-EN=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 2 }\\)．",
+    "\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)．",
+    "②当点\\(F\\)在线段\\(AE\\)上时，连接\\(BE\\)，过点\\(B\\)作\\(BN\\bot EF\\)，如下图所示，",
+    "〔图6〕",
+    "同理\\(\\angle BEN=45{}^\\circ ,\\)",
+    "∴\\(BN=\\frac { \\sqrt[] { 6 } } { 2 }\\)",
+    "\\(\\because AB=4\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)",
+    "\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．",
+    "\\(\\therefore AE=AN+AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 2 }\\)，",
+    "\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．",
+    "综上所述，\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题初探】\n数学课上，老师提出如下问题：\n如图1，在矩形\\(ABCD\\)中，点E，F分别是\\(AD\\)，\\(CD\\)的中点，\\(AF\\)与\\(BE\\)相交于点G，求\\(AG\\)的值．\n经过思考，小明同学和小慧同学分别给出如下解题思路：\n小明：可以过中点作平行线，过点E作\\(EH\\parallel AB\\)交\\(AF\\)于点H，如图2所示，或者过点F作\\(FK\\parallel AD\\)交\\(AB\\)于点K，交BE于点Q，如图3所示……\n小慧：还可以延长中点所在的线段，如图4，延长\\(BE\\)交\\(CD\\)的延长线于点P……\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "id": "fig-78",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        78
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-198A193CBF-Q20-P01",
+      "label": "（1）",
+      "prompt": "请根据上述两位同学的思路，直接写出\\(\\frac { AG } { GF }\\)的值：__________．\n【类比分析】",
+      "stem_text": "请根据上述两位同学的思路，直接写出\\(\\frac { AG } { GF }\\)的值：__________．\n【类比分析】",
+      "material_ids": [
+        "context",
+        "fig-78"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2 } { 3 }\\)；",
+      "answer": "\\(\\frac { 2 } { 3 }\\)；",
+      "given_solution": "\\(\\frac { 2 } { 3 }\\)．\n理由∶如下图，延长\\(BE\\)交\\(CD\\)的延长线于点P，\n〔图3〕\n图4\n∵矩形\\(ABCD\\)，\n∴\\(AB\\parallel PC\\)，\\(AB=DC\\)，\n∴\\(\\angle ABE=\\angle P\\)，\\(\\angle BAE=\\angle PDA\\)，\n∵点E为\\(AD\\)的中点，\n∴\\(AE=DE\\)\n∴\\(\\vartriangle ABE≌\\vartriangle DPE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AB=PD\\)，\n∵\\(AB\\parallel PC\\)，\n∴\\(\\vartriangle AGB\\backsim \\vartriangle FGP\\)\n∴\\(\\frac { AG } { FG }=\\frac { AB } { FP }\\)，\n∵F为\\(CD\\)的中点，\n∴\\(\\frac { AB } { PF }=\\frac { 2 } { 3 }\\)，\n∴\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)",
+      "solution_steps": [
+        "\\(\\frac { 2 } { 3 }\\)．",
+        "理由∶如下图，延长\\(BE\\)交\\(CD\\)的延长线于点P，",
+        "〔图3〕",
+        "图4",
+        "∵矩形\\(ABCD\\)，",
+        "∴\\(AB\\parallel PC\\)，\\(AB=DC\\)，",
+        "∴\\(\\angle ABE=\\angle P\\)，\\(\\angle BAE=\\angle PDA\\)，",
+        "∵点E为\\(AD\\)的中点，",
+        "∴\\(AE=DE\\)",
+        "∴\\(\\vartriangle ABE≌\\vartriangle DPE\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AB=PD\\)，",
+        "∵\\(AB\\parallel PC\\)，",
+        "∴\\(\\vartriangle AGB\\backsim \\vartriangle FGP\\)",
+        "∴\\(\\frac { AG } { FG }=\\frac { AB } { FP }\\)，",
+        "∵F为\\(CD\\)的中点，",
+        "∴\\(\\frac { AB } { PF }=\\frac { 2 } { 3 }\\)，",
+        "∴\\(\\frac { AG } { GF }=\\frac { 2 } { 3 }\\)"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          78
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-198A193CBF-Q20-P02",
+      "label": "（2）",
+      "prompt": "老师发现两位同学都利用了转化思想，为了帮助同学们更好地利用转化思想解决问题，老师改变题中的条件，如图5，将图1中的矩形\\(ABCD\\)改成菱形\\(ABCD\\)，其余条件不变，那么\\(\\frac { AG } { GF }\\)的值是否改变？请说明理由．\n【学以致用】",
+      "stem_text": "老师发现两位同学都利用了转化思想，为了帮助同学们更好地利用转化思想解决问题，老师改变题中的条件，如图5，将图1中的矩形\\(ABCD\\)改成菱形\\(ABCD\\)，其余条件不变，那么\\(\\frac { AG } { GF }\\)的值是否改变？请说明理由．\n【学以致用】",
+      "material_ids": [
+        "context",
+        "fig-78"
+      ],
+      "requires": [],
+      "given_answer": "不变，理由见解析；",
+      "answer": "不变，理由见解析；",
+      "given_solution": "不变．\n理由如下：设\\(AF\\)的中点为\\(O\\)，连接\\(OE\\)，如下图所示．\n〔图4〕\n\\(\\because E\\)是\\(AD\\)的中点，\n\\(\\therefore EO\\)是\\(\\vartriangle ADF\\)的中位线．\n\\(\\therefore EO\\parallel DF\\parallel AB\\)．\n\\(\\therefore \\vartriangle ABG\\backsim \\vartriangle OEG,\\frac { EO } { DF }=\\frac { 1 } { 2 }\\)．\n\\(\\therefore \\frac { EO } { AB }=\\frac { 1 } { 4 }\\)．\n\\(\\therefore \\frac { AG } { GO }=4\\)\n\\(\\because AO=FO\\)，\n\\(\\therefore \\frac { AG } { GF }=\\frac { 4 } { 1+5 }=\\frac { 2 } { 3 }\\)．",
+      "solution_steps": [
+        "不变．",
+        "理由如下：设\\(AF\\)的中点为\\(O\\)，连接\\(OE\\)，如下图所示．",
+        "〔图4〕",
+        "\\(\\because E\\)是\\(AD\\)的中点，",
+        "\\(\\therefore EO\\)是\\(\\vartriangle ADF\\)的中位线．",
+        "\\(\\therefore EO\\parallel DF\\parallel AB\\)．",
+        "\\(\\therefore \\vartriangle ABG\\backsim \\vartriangle OEG,\\frac { EO } { DF }=\\frac { 1 } { 2 }\\)．",
+        "\\(\\therefore \\frac { EO } { AB }=\\frac { 1 } { 4 }\\)．",
+        "\\(\\therefore \\frac { AG } { GO }=4\\)",
+        "\\(\\because AO=FO\\)，",
+        "\\(\\therefore \\frac { AG } { GF }=\\frac { 4 } { 1+5 }=\\frac { 2 } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          75,
+          76,
+          78
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.04"
+      ],
+      "exam_ids": [
+        "E.G08.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“利用相似证明变化过程中的不变量”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-198A193CBF-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图6，已知正方形\\(ABCD\\)中心为点O，边长为4，另一边长为\\(\\sqrt[] { 6 }\\)的正方形\\(EFGH\\)的中心与点B重合，连接\\(CE\\)，设\\(CE\\)的中点为M，将正方形\\(EFGH\\)绕点B旋转，当A，E，F三点恰好在同一直线上时，请直接写出\\(OM\\)的长．",
+      "stem_text": "如图6，已知正方形\\(ABCD\\)中心为点O，边长为4，另一边长为\\(\\sqrt[] { 6 }\\)的正方形\\(EFGH\\)的中心与点B重合，连接\\(CE\\)，设\\(CE\\)的中点为M，将正方形\\(EFGH\\)绕点B旋转，当A，E，F三点恰好在同一直线上时，请直接写出\\(OM\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-78"
+      ],
+      "requires": [],
+      "given_answer": "\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)",
+      "answer": "\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)",
+      "given_solution": "\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n理由如下：\n连接\\(AC\\)，\\(AE\\) 如下图\n\\(\\because O,M\\)分别是\\(AC\\)，\\(EC\\)的中点，\n\\(\\therefore OM\\)是\\(\\vartriangle ACE\\)的中位线，\n∴\\(OM=\\frac { 1 } { 2 }AE\\)．\n由题意，可得点\\(E\\)的运动路径是以点\\(B\\)为圆心，以\\(BE\\)的长为半径的圆．\n当\\(A,E,F\\)三点共线时，分以下两种情况进行讨论．\n①当点\\(E\\)在线段\\(AF\\)上时，连接\\(BE\\)，\n过点\\(B\\)作\\(BN\\bot EF\\)于点\\(N\\)，如下图所示，\n〔图5〕\n∵\\(EFGH\\)为正方形，B为中心，\n∴\\(\\angle BEN=45{}^\\circ ,\\)\n\\(\\therefore BN=EN=\\frac { \\sqrt[] { 6 } } { 2 }\\) ，\n\\(\\because AB=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)，\n\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．\n\\(\\therefore AE=AN-EN=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 2 }\\)．\n\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)．\n②当点\\(F\\)在线段\\(AE\\)上时，连接\\(BE\\)，过点\\(B\\)作\\(BN\\bot EF\\)，如下图所示，\n〔图6〕\n同理\\(\\angle BEN=45{}^\\circ ,\\)\n∴\\(BN=\\frac { \\sqrt[] { 6 } } { 2 }\\)\n\\(\\because AB=4\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)\n\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．\n\\(\\therefore AE=AN+AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 2 }\\)，\n\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．\n综上所述，\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．",
+      "solution_steps": [
+        "\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．",
+        "理由如下：",
+        "连接\\(AC\\)，\\(AE\\) 如下图",
+        "\\(\\because O,M\\)分别是\\(AC\\)，\\(EC\\)的中点，",
+        "\\(\\therefore OM\\)是\\(\\vartriangle ACE\\)的中位线，",
+        "∴\\(OM=\\frac { 1 } { 2 }AE\\)．",
+        "由题意，可得点\\(E\\)的运动路径是以点\\(B\\)为圆心，以\\(BE\\)的长为半径的圆．",
+        "当\\(A,E,F\\)三点共线时，分以下两种情况进行讨论．",
+        "①当点\\(E\\)在线段\\(AF\\)上时，连接\\(BE\\)，",
+        "过点\\(B\\)作\\(BN\\bot EF\\)于点\\(N\\)，如下图所示，",
+        "〔图5〕",
+        "∵\\(EFGH\\)为正方形，B为中心，",
+        "∴\\(\\angle BEN=45{}^\\circ ,\\)",
+        "\\(\\therefore BN=EN=\\frac { \\sqrt[] { 6 } } { 2 }\\) ，",
+        "\\(\\because AB=4\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)，",
+        "\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．",
+        "\\(\\therefore AE=AN-EN=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 2 }\\)．",
+        "\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)．",
+        "②当点\\(F\\)在线段\\(AE\\)上时，连接\\(BE\\)，过点\\(B\\)作\\(BN\\bot EF\\)，如下图所示，",
+        "〔图6〕",
+        "同理\\(\\angle BEN=45{}^\\circ ,\\)",
+        "∴\\(BN=\\frac { \\sqrt[] { 6 } } { 2 }\\)",
+        "\\(\\because AB=4\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } -BN ^ { 2 }\\)",
+        "\\(\\therefore AN=\\frac { \\sqrt[] { 58 } } { 2 }\\)．",
+        "\\(\\therefore AE=AN+AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 2 }\\)，",
+        "\\(\\therefore OM=\\frac { 1 } { 2 }AE=\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．",
+        "综上所述，\\(OM\\)的长为\\(\\frac { \\sqrt[] { 58 }-\\sqrt[] { 6 } } { 4 }\\)或\\(\\frac { \\sqrt[] { 58 }+\\sqrt[] { 6 } } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      78
+    ],
+    "solution_body_blocks": [
+      378,
+      457
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-198A193CBF/paper-q20-p06.webp",
+      "assets/SZ-G9-T1-198A193CBF/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          370.0,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          373.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-198A193CBF/solution-q20-p22.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q20-p23.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q20-p24.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q20-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          310.0,
+          583.64,
+          657.73
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          751.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.03",
+    "M.G08.04",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G08.03.01",
+    "E.G08.04.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。 本问题面与解答对应“利用相似证明变化过程中的不变量”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

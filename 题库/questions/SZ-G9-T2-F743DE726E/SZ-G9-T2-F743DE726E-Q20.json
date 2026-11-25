@@ -1,0 +1,342 @@
+{
+  "id": "SZ-G9-T2-F743DE726E-Q20",
+  "paper_id": "SZ-G9-T2-F743DE726E",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "如图，以平行四边形\\(ABCD\\)的一边\\(AB\\)为直径的圆交边\\(BC\\)于点E，交对角线\\(AC\\)于点F，G是边\\(CD\\)上的一点，连接\\(AG\\)，且\\(BE=DG\\)．\n〔图1〕\n（1）请在以下三个条件中任选一个：________，证明：直线\\(AG\\)是圆M的切线．\n①\\(\\angle AGD=\\angle ACB\\)：②F是弧\\(AE\\)的中点：③E是\\(BC\\)的中点．\n（2）在第（1）问的条件下，若直径为4，连接\\(BF\\)并延长交\\(AG\\)于点N，\\(AN=3\\)，求四边形\\(ABCD\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/figures/3e/3e24e168474924c1ab8ed83fd3c49246d5638a8b3473e9150c3546ff57bdad79.png",
+    "assets/figures/da/da257b12bcc130da26269fde05b49947684c564b57dee96cc9d8927d5a7eaa02.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）②，证明见解析\n（2）\\(\\frac { 384 } { 25 }\\)",
+  "answer": "（1）②，证明见解析\n（2）\\(\\frac { 384 } { 25 }\\)",
+  "given_solution": "【分析】此题考查了切线的判定、圆周角定理、菱形的判定和性质等知识，证明四边形\\(ABCD\\)是菱形是解题的关键．\n（1）选择②F是弧\\(AE\\)的中点，连接\\(AE,BF\\)，证明\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，得到\\(AB=BC\\)，再证明\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得到\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)，\\(AB\\)为直径，即可得到结论；\n（2）由勾股定理得到\\(BN=\\sqrt[] { AB ^ { 2 } +AN ^ { 2 } }=5\\)，由等积法求出\\(AF=\\frac { AB\\cdot AN } { BN }=\\frac { 12 } { 5 }\\)，则\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=\\frac { 16 } { 5 }\\)，得到\\(AC=2AF=\\frac { 24 } { 5 }\\)，求出\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BF=\\frac { 192 } { 25 }\\)，即可得到答案．\n【小问1详解】\n解：选择②，\n证明：连接\\(AE,BF\\)，\n〔图2〕\n∵F是弧\\(AE\\)的中点，\n∴\\(\\angle ABF=\\angle CBF\\)，\n∵\\(AB\\)为直径，\n∴\\(\\angle AFB=\\angle AEB=\\angle BFC=\\angle AEC=90{}^\\circ\\)，\n∵\\(BF=BF\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n∴\\(AB=BC\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴四边形\\(ABCD\\)是菱形，\\(AB\\parallel CD\\)\n∴\\(BC=CD\\)， \\(\\angle BAF=\\angle ACG\\)，\n∵\\(BE=DG\\)．\n∴\\(CE=CG\\)，\n∴\\(\\angle BAF+\\angle ABF=\\angle CBF+\\angle ACE=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle ACE\\)，\n∴\\(\\angle ACG=\\angle ACE\\)，\n又∵\\(AC=AC\\)\n∴\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)\n∵\\(AB\\parallel CD\\)\n∴\\(\\angle BAG=180{}^\\circ -\\angle AGC=90{}^\\circ\\)\n∴\\(AB\\bot AG\\)\n∵\\(AB\\)为直径，\n∴直线\\(AG\\)是圆M的切线．\n【小问2详解】\n如图，\n〔图3〕\n由勾股定理得到\\(BN=\\sqrt[] { AB ^ { 2 } +AN ^ { 2 } }=5\\)，\n∵\\(S_{ \\vartriangle ABN } =\\frac { 1 } { 2 }AF\\cdot BN=\\frac { 1 } { 2 }AB\\cdot AN\\)\n∴\\(AF=\\frac { AB\\cdot AN } { BN }=\\frac { 12 } { 5 }\\)\n∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=\\frac { 16 } { 5 }\\)\n∵\\(AB=BC\\)，\n∴\\(AC=2AF=\\frac { 24 } { 5 }\\)\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BF=\\frac { 1 } { 2 }\\times \\frac { 24 } { 5 }\\times \\frac { 16 } { 5 }=\\frac { 192 } { 25 }\\)，\n∴四边形\\(ABCD\\)的面积为\\(2S_{ \\vartriangle ABC } =\\frac { 192 } { 25 }\\times 2=\\frac { 384 } { 25 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/3e/3e24e168474924c1ab8ed83fd3c49246d5638a8b3473e9150c3546ff57bdad79.png",
+    "assets/figures/da/da257b12bcc130da26269fde05b49947684c564b57dee96cc9d8927d5a7eaa02.png",
+    "assets/figures/dd/dd278e1396601ba720397694b080b39ae144c37412cace1d8c9b33815b53c970.png"
+  ],
+  "solution": "【小问1详解】\n解：选择②，\n证明：连接\\(AE,BF\\)，\n〔图2〕\n∵F是弧\\(AE\\)的中点，\n∴\\(\\angle ABF=\\angle CBF\\)，\n∵\\(AB\\)为直径，\n∴\\(\\angle AFB=\\angle AEB=\\angle BFC=\\angle AEC=90{}^\\circ\\)，\n∵\\(BF=BF\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n∴\\(AB=BC\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴四边形\\(ABCD\\)是菱形，\\(AB\\parallel CD\\)\n∴\\(BC=CD\\)， \\(\\angle BAF=\\angle ACG\\)，\n∵\\(BE=DG\\)．\n∴\\(CE=CG\\)，\n∴\\(\\angle BAF+\\angle ABF=\\angle CBF+\\angle ACE=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle ACE\\)，\n∴\\(\\angle ACG=\\angle ACE\\)，\n又∵\\(AC=AC\\)\n∴\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)\n∵\\(AB\\parallel CD\\)\n∴\\(\\angle BAG=180{}^\\circ -\\angle AGC=90{}^\\circ\\)\n∴\\(AB\\bot AG\\)\n∵\\(AB\\)为直径，\n∴直线\\(AG\\)是圆M的切线．\n【小问2详解】\n如图，\n〔图3〕\n由勾股定理得到\\(BN=\\sqrt[] { AB ^ { 2 } +AN ^ { 2 } }=5\\)，\n∵\\(S_{ \\vartriangle ABN } =\\frac { 1 } { 2 }AF\\cdot BN=\\frac { 1 } { 2 }AB\\cdot AN\\)\n∴\\(AF=\\frac { AB\\cdot AN } { BN }=\\frac { 12 } { 5 }\\)\n∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=\\frac { 16 } { 5 }\\)\n∵\\(AB=BC\\)，\n∴\\(AC=2AF=\\frac { 24 } { 5 }\\)\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BF=\\frac { 1 } { 2 }\\times \\frac { 24 } { 5 }\\times \\frac { 16 } { 5 }=\\frac { 192 } { 25 }\\)，\n∴四边形\\(ABCD\\)的面积为\\(2S_{ \\vartriangle ABC } =\\frac { 192 } { 25 }\\times 2=\\frac { 384 } { 25 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：选择②，",
+    "证明：连接\\(AE,BF\\)，",
+    "〔图2〕",
+    "∵F是弧\\(AE\\)的中点，",
+    "∴\\(\\angle ABF=\\angle CBF\\)，",
+    "∵\\(AB\\)为直径，",
+    "∴\\(\\angle AFB=\\angle AEB=\\angle BFC=\\angle AEC=90{}^\\circ\\)，",
+    "∵\\(BF=BF\\)，",
+    "∴\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)",
+    "∴\\(AB=BC\\)，",
+    "∵四边形\\(ABCD\\)是平行四边形，",
+    "∴四边形\\(ABCD\\)是菱形，\\(AB\\parallel CD\\)",
+    "∴\\(BC=CD\\)， \\(\\angle BAF=\\angle ACG\\)，",
+    "∵\\(BE=DG\\)．",
+    "∴\\(CE=CG\\)，",
+    "∴\\(\\angle BAF+\\angle ABF=\\angle CBF+\\angle ACE=90{}^\\circ\\)，",
+    "∴\\(\\angle BAF=\\angle ACE\\)，",
+    "∴\\(\\angle ACG=\\angle ACE\\)，",
+    "又∵\\(AC=AC\\)",
+    "∴\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)",
+    "∵\\(AB\\parallel CD\\)",
+    "∴\\(\\angle BAG=180{}^\\circ -\\angle AGC=90{}^\\circ\\)",
+    "∴\\(AB\\bot AG\\)",
+    "∵\\(AB\\)为直径，",
+    "∴直线\\(AG\\)是圆M的切线．",
+    "【小问2详解】",
+    "如图，",
+    "〔图3〕",
+    "由勾股定理得到\\(BN=\\sqrt[] { AB ^ { 2 } +AN ^ { 2 } }=5\\)，",
+    "∵\\(S_{ \\vartriangle ABN } =\\frac { 1 } { 2 }AF\\cdot BN=\\frac { 1 } { 2 }AB\\cdot AN\\)",
+    "∴\\(AF=\\frac { AB\\cdot AN } { BN }=\\frac { 12 } { 5 }\\)",
+    "∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=\\frac { 16 } { 5 }\\)",
+    "∵\\(AB=BC\\)，",
+    "∴\\(AC=2AF=\\frac { 24 } { 5 }\\)",
+    "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BF=\\frac { 1 } { 2 }\\times \\frac { 24 } { 5 }\\times \\frac { 16 } { 5 }=\\frac { 192 } { 25 }\\)，",
+    "∴四边形\\(ABCD\\)的面积为\\(2S_{ \\vartriangle ABC } =\\frac { 192 } { 25 }\\times 2=\\frac { 384 } { 25 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，以平行四边形\\(ABCD\\)的一边\\(AB\\)为直径的圆交边\\(BC\\)于点E，交对角线\\(AC\\)于点F，G是边\\(CD\\)上的一点，连接\\(AG\\)，且\\(BE=DG\\)．\n〔图1〕",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：请在以下三个条件中任选一个：________，证明：直线\\(AG\\)是圆M的切线．\n①\\(\\angle AGD=\\angle ACB\\)：②F是弧\\(AE\\)的中点：③E是\\(BC\\)的中点．\n前问作答依据：解：选择②，\n证明：连接\\(AE,BF\\)，\n〔图2〕\n∵F是弧\\(AE\\)的中点，\n∴\\(\\angle ABF=\\angle CBF\\)，\n∵\\(AB\\)为直径，\n∴\\(\\angle AFB=\\angle AEB=\\angle BFC=\\angle AEC=90{}^\\circ\\)，\n∵\\(BF=BF\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n∴\\(AB=BC\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴四边形\\(ABCD\\)是菱形，\\(AB\\parallel CD\\)\n∴\\(BC=CD\\)， \\(\\angle BAF=\\angle ACG\\)，\n∵\\(BE=DG\\)．\n∴\\(CE=CG\\)，\n∴\\(\\angle BAF+\\angle ABF=\\angle CBF+\\angle ACE=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle ACE\\)，\n∴\\(\\angle ACG=\\angle ACE\\)，\n又∵\\(AC=AC\\)\n∴\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)\n∵\\(AB\\parallel CD\\)\n∴\\(\\angle BAG=180{}^\\circ -\\angle AGC=90{}^\\circ\\)\n∴\\(AB\\bot AG\\)\n∵\\(AB\\)为直径，\n∴直线\\(AG\\)是圆M的切线．",
+      "paper_blocks": [
+        64,
+        65,
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-F743DE726E-Q20-P01",
+      "label": "（1）",
+      "prompt": "请在以下三个条件中任选一个：________，证明：直线\\(AG\\)是圆M的切线．\n①\\(\\angle AGD=\\angle ACB\\)：②F是弧\\(AE\\)的中点：③E是\\(BC\\)的中点．",
+      "stem_text": "请在以下三个条件中任选一个：________，证明：直线\\(AG\\)是圆M的切线．\n①\\(\\angle AGD=\\angle ACB\\)：②F是弧\\(AE\\)的中点：③E是\\(BC\\)的中点．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "②，证明见解析",
+      "answer": "②，证明见解析",
+      "given_solution": "解：选择②，\n证明：连接\\(AE,BF\\)，\n〔图2〕\n∵F是弧\\(AE\\)的中点，\n∴\\(\\angle ABF=\\angle CBF\\)，\n∵\\(AB\\)为直径，\n∴\\(\\angle AFB=\\angle AEB=\\angle BFC=\\angle AEC=90{}^\\circ\\)，\n∵\\(BF=BF\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n∴\\(AB=BC\\)，\n∵四边形\\(ABCD\\)是平行四边形，\n∴四边形\\(ABCD\\)是菱形，\\(AB\\parallel CD\\)\n∴\\(BC=CD\\)， \\(\\angle BAF=\\angle ACG\\)，\n∵\\(BE=DG\\)．\n∴\\(CE=CG\\)，\n∴\\(\\angle BAF+\\angle ABF=\\angle CBF+\\angle ACE=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle ACE\\)，\n∴\\(\\angle ACG=\\angle ACE\\)，\n又∵\\(AC=AC\\)\n∴\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)\n∵\\(AB\\parallel CD\\)\n∴\\(\\angle BAG=180{}^\\circ -\\angle AGC=90{}^\\circ\\)\n∴\\(AB\\bot AG\\)\n∵\\(AB\\)为直径，\n∴直线\\(AG\\)是圆M的切线．",
+      "solution_steps": [
+        "解：选择②，",
+        "证明：连接\\(AE,BF\\)，",
+        "〔图2〕",
+        "∵F是弧\\(AE\\)的中点，",
+        "∴\\(\\angle ABF=\\angle CBF\\)，",
+        "∵\\(AB\\)为直径，",
+        "∴\\(\\angle AFB=\\angle AEB=\\angle BFC=\\angle AEC=90{}^\\circ\\)，",
+        "∵\\(BF=BF\\)，",
+        "∴\\(\\vartriangle ABF≌\\vartriangle CBF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)",
+        "∴\\(AB=BC\\)，",
+        "∵四边形\\(ABCD\\)是平行四边形，",
+        "∴四边形\\(ABCD\\)是菱形，\\(AB\\parallel CD\\)",
+        "∴\\(BC=CD\\)， \\(\\angle BAF=\\angle ACG\\)，",
+        "∵\\(BE=DG\\)．",
+        "∴\\(CE=CG\\)，",
+        "∴\\(\\angle BAF+\\angle ABF=\\angle CBF+\\angle ACE=90{}^\\circ\\)，",
+        "∴\\(\\angle BAF=\\angle ACE\\)，",
+        "∴\\(\\angle ACG=\\angle ACE\\)，",
+        "又∵\\(AC=AC\\)",
+        "∴\\(\\vartriangle ACE≌\\vartriangle ACG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle AGC=\\angle AEC=90{}^\\circ\\)",
+        "∵\\(AB\\parallel CD\\)",
+        "∴\\(\\angle BAG=180{}^\\circ -\\angle AGC=90{}^\\circ\\)",
+        "∴\\(AB\\bot AG\\)",
+        "∵\\(AB\\)为直径，",
+        "∴直线\\(AG\\)是圆M的切线．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-F743DE726E-Q20-P02",
+      "label": "（2）",
+      "prompt": "在第（1）问的条件下，若直径为4，连接\\(BF\\)并延长交\\(AG\\)于点N，\\(AN=3\\)，求四边形\\(ABCD\\)的面积．",
+      "stem_text": "在第（1）问的条件下，若直径为4，连接\\(BF\\)并延长交\\(AG\\)于点N，\\(AN=3\\)，求四边形\\(ABCD\\)的面积．",
+      "material_ids": [
+        "context",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G9-T2-F743DE726E-Q20-P01"
+      ],
+      "given_answer": "\\(\\frac { 384 } { 25 }\\)",
+      "answer": "\\(\\frac { 384 } { 25 }\\)",
+      "given_solution": "如图，\n〔图3〕\n由勾股定理得到\\(BN=\\sqrt[] { AB ^ { 2 } +AN ^ { 2 } }=5\\)，\n∵\\(S_{ \\vartriangle ABN } =\\frac { 1 } { 2 }AF\\cdot BN=\\frac { 1 } { 2 }AB\\cdot AN\\)\n∴\\(AF=\\frac { AB\\cdot AN } { BN }=\\frac { 12 } { 5 }\\)\n∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=\\frac { 16 } { 5 }\\)\n∵\\(AB=BC\\)，\n∴\\(AC=2AF=\\frac { 24 } { 5 }\\)\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BF=\\frac { 1 } { 2 }\\times \\frac { 24 } { 5 }\\times \\frac { 16 } { 5 }=\\frac { 192 } { 25 }\\)，\n∴四边形\\(ABCD\\)的面积为\\(2S_{ \\vartriangle ABC } =\\frac { 192 } { 25 }\\times 2=\\frac { 384 } { 25 }\\)．",
+      "solution_steps": [
+        "如图，",
+        "〔图3〕",
+        "由勾股定理得到\\(BN=\\sqrt[] { AB ^ { 2 } +AN ^ { 2 } }=5\\)，",
+        "∵\\(S_{ \\vartriangle ABN } =\\frac { 1 } { 2 }AF\\cdot BN=\\frac { 1 } { 2 }AB\\cdot AN\\)",
+        "∴\\(AF=\\frac { AB\\cdot AN } { BN }=\\frac { 12 } { 5 }\\)",
+        "∴\\(BF=\\sqrt[] { AB ^ { 2 } -AF ^ { 2 } }=\\frac { 16 } { 5 }\\)",
+        "∵\\(AB=BC\\)，",
+        "∴\\(AC=2AF=\\frac { 24 } { 5 }\\)",
+        "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BF=\\frac { 1 } { 2 }\\times \\frac { 24 } { 5 }\\times \\frac { 16 } { 5 }=\\frac { 192 } { 25 }\\)，",
+        "∴四边形\\(ABCD\\)的面积为\\(2S_{ \\vartriangle ABC } =\\frac { 192 } { 25 }\\times 2=\\frac { 384 } { 25 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      68
+    ],
+    "solution_body_blocks": [
+      281,
+      329
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-F743DE726E/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          310.0,
+          583.64,
+          558.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-F743DE726E/solution-q20-p16.webp",
+      "assets/SZ-G9-T2-F743DE726E/solution-q20-p17.webp",
+      "assets/SZ-G9-T2-F743DE726E/solution-q20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          385.45,
+          583.64,
+          731.82
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          466.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

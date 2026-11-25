@@ -1,0 +1,342 @@
+{
+  "id": "SZ-G9-T1-EE63DEAA3F-Q17",
+  "paper_id": "SZ-G9-T1-EE63DEAA3F",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "由仰俯角建立测高测距模型",
+  "stem": "贵州遵义“公馆桥”被誉为“黔北第一古石桥”．某数学小组利用无人机测量公馆桥的高度，如下是两种测量方案．\n实物图 | 课题 | 测量公馆桥的高度\n〔图1〕 | 测量示意图 | 方案一 | 方案二\n |  | 〔图2〕 | 〔图3〕\n | 方案说明 | 无人机位于水面上方62米的P处，测得A的俯角为\\(45{}^\\circ\\)，C的俯角为\\(37{}^\\circ\\)（A，C在桥面上）． | 无人机位于水面上方62米的N处，测得桥面正中心A的俯角为\\(45{}^\\circ\\)，将无人机水平向左移动91米到达M处，测得点A的俯角为\\(37{}^\\circ\\)．\n（1）根据以上数据判断，方案______不能求公馆桥的高度；\n（2）利用以上可行方案求公馆桥的高度（参考数据\\(tan37{}^\\circ \\approx \\frac { 3 } { 4 }\\)，\\(sin37{}^\\circ \\approx \\frac { 3 } { 5 }\\)，\\(cos37{}^\\circ \\approx \\frac { 4 } { 5 }\\)）．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/98876af44cdc4015fbe5548f24310eb56f60f9bed4d4f18b9844b4d0a4673734.png",
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/9d0a237b844a7a3eec3f25882766c59c2d7ea5b51a90f4aefb727ea913423bde.png",
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/f0225d9d01ca78c63f4a7c63f4393472172c6dbca5d94b9cef69f317dd5722ee.png"
+  ],
+  "tables": [
+    {
+      "text": "实物图 | 课题 | 测量公馆桥的高度\n〔图1〕 | 测量示意图 | 方案一 | 方案二\n |  | 〔图2〕 | 〔图3〕\n | 方案说明 | 无人机位于水面上方62米的P处，测得A的俯角为\\(45{}^\\circ\\)，C的俯角为\\(37{}^\\circ\\)（A，C在桥面上）． | 无人机位于水面上方62米的N处，测得桥面正中心A的俯角为\\(45{}^\\circ\\)，将无人机水平向左移动91米到达M处，测得点A的俯角为\\(37{}^\\circ\\)．",
+      "rows": [
+        [
+          [
+            "实物图"
+          ],
+          [
+            "课题"
+          ],
+          [
+            "测量公馆桥的高度"
+          ]
+        ],
+        [
+          [
+            "〔图1〕"
+          ],
+          [
+            "测量示意图"
+          ],
+          [
+            "方案一"
+          ],
+          [
+            "方案二"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            ""
+          ],
+          [
+            "〔图2〕"
+          ],
+          [
+            "〔图3〕"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "方案说明"
+          ],
+          [
+            "无人机位于水面上方62米的P处，测得A的俯角为\\(45{}^\\circ\\)，C的俯角为\\(37{}^\\circ\\)（A，C在桥面上）．"
+          ],
+          [
+            "无人机位于水面上方62米的N处，测得桥面正中心A的俯角为\\(45{}^\\circ\\)，将无人机水平向左移动91米到达M处，测得点A的俯角为\\(37{}^\\circ\\)．"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）一    （2）23米",
+  "answer": "（1）一    （2）23米",
+  "given_solution": "【分析】本题考查了解直角三角形的实际应用，解题的关键是正确作出辅助线，构造直角三角形求解．\n（1）方案一中延长\\(BA\\)交P所在水平线于点D，过点C作\\(CE\\bot PD\\)于点E，设\\(AB=x\\)，则\\(PD=AD=CE=62-x\\)，得出\\(PE=\\frac { 62-x } { tan37{}^\\circ }\\)，根据\\(PD=PE-DE\\)，得出\\(x=\\frac { 62-x } { tan37{}^\\circ }-DE\\)，由于\\(DE\\)的值不知，故无法求解，即可得出结论；\n（2）利用方案二求公馆桥的高度，延长\\(BA\\)交\\(MN\\)于点C， 设\\(MC=x\\)米，则\\(CN=\\left ( { 91-x } \\right )\\)米，则\\(AC=MC\\cdot tan37{}^\\circ =\\frac { 3 } { 4 }x\\)，\\(AC=CN\\)，列出方程求出x的值，即可解答．\n【小问1详解】\n解：方案一：\n延长\\(BA\\)交P所在水平线于点D，过点C作\\(CE\\bot PD\\)于点E，\n根据题意可得：\\(CD=62,\\angle APD=45{}^\\circ ,\\angle CPE=37{}^\\circ\\)，\n∴\\(AD=PD\\)，\n易得四边形\\(ADEC\\)为矩形，则\\(DE=AC,AD=CE\\)，\n设\\(AB=x\\)，则\\(PD=AD=CE=62-x\\)，\n∴\\(PE=\\frac { CE } { tan37{}^\\circ }=\\frac { 62-x } { tan37{}^\\circ }\\)，\n∵\\(PD=PE-DE\\)，\n∴\\(x=\\frac { 62-x } { tan37{}^\\circ }-DE\\)，\n由于\\(DE\\)的值不知，故无法求解，\n∴方案一不能求公馆桥的高度，\n故答案为：一；\n〔图4〕【小问2详解】\n解：利用方案二求公馆桥的高度\n延长\\(BA\\)交\\(MN\\)于点C，如图\n〔图5〕\n由题意得\\(AC\\bot MN\\)\n设\\(MC=x\\)米，则\\(CN=\\left ( { 91-x } \\right )\\)米\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACM\\)中\\(tan\\angle AMC=\\frac { AC } { MC }\\)\n∴\\(AC=MC\\cdot tan37{}^\\circ =\\frac { 3 } { 4 }x\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACN\\)中，∵\\(\\angle ANC=45{}^\\circ\\)，\n∴\\(AC=CN\\)\n∴\\(\\frac { 3 } { 4 }x=91-x\\)\n解得：\\(x=52\\)\n∴\\(AC=39\\)米，\\(AB=BC-AC=23\\)米\n答：公馆桥的高度为23米．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/98876af44cdc4015fbe5548f24310eb56f60f9bed4d4f18b9844b4d0a4673734.png",
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/9d0a237b844a7a3eec3f25882766c59c2d7ea5b51a90f4aefb727ea913423bde.png",
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/f0225d9d01ca78c63f4a7c63f4393472172c6dbca5d94b9cef69f317dd5722ee.png",
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/2c91afd73ca14fb3299ca6aa57537ed4fcebd6cbbd5992416f54057e228a9b58.png",
+    "assets/SZ-G9-T1-EE63DEAA3F/figures/ec686a20b457f8619074f549a7cd9baf451b50c43b90de6b00a879013458f07c.png"
+  ],
+  "solution": "【小问1详解】\n解：方案一：\n延长\\(BA\\)交P所在水平线于点D，过点C作\\(CE\\bot PD\\)于点E，\n根据题意可得：\\(CD=62,\\angle APD=45{}^\\circ ,\\angle CPE=37{}^\\circ\\)，\n∴\\(AD=PD\\)，\n易得四边形\\(ADEC\\)为矩形，则\\(DE=AC,AD=CE\\)，\n设\\(AB=x\\)，则\\(PD=AD=CE=62-x\\)，\n∴\\(PE=\\frac { CE } { tan37{}^\\circ }=\\frac { 62-x } { tan37{}^\\circ }\\)，\n∵\\(PD=PE-DE\\)，\n∴\\(x=\\frac { 62-x } { tan37{}^\\circ }-DE\\)，\n由于\\(DE\\)的值不知，故无法求解，\n∴方案一不能求公馆桥的高度，\n故答案为：一；\n〔图4〕【小问2详解】\n解：利用方案二求公馆桥的高度\n延长\\(BA\\)交\\(MN\\)于点C，如图\n〔图5〕\n由题意得\\(AC\\bot MN\\)\n设\\(MC=x\\)米，则\\(CN=\\left ( { 91-x } \\right )\\)米\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACM\\)中\\(tan\\angle AMC=\\frac { AC } { MC }\\)\n∴\\(AC=MC\\cdot tan37{}^\\circ =\\frac { 3 } { 4 }x\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACN\\)中，∵\\(\\angle ANC=45{}^\\circ\\)，\n∴\\(AC=CN\\)\n∴\\(\\frac { 3 } { 4 }x=91-x\\)\n解得：\\(x=52\\)\n∴\\(AC=39\\)米，\\(AB=BC-AC=23\\)米\n答：公馆桥的高度为23米．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：方案一：",
+    "延长\\(BA\\)交P所在水平线于点D，过点C作\\(CE\\bot PD\\)于点E，",
+    "根据题意可得：\\(CD=62,\\angle APD=45{}^\\circ ,\\angle CPE=37{}^\\circ\\)，",
+    "∴\\(AD=PD\\)，",
+    "易得四边形\\(ADEC\\)为矩形，则\\(DE=AC,AD=CE\\)，",
+    "设\\(AB=x\\)，则\\(PD=AD=CE=62-x\\)，",
+    "∴\\(PE=\\frac { CE } { tan37{}^\\circ }=\\frac { 62-x } { tan37{}^\\circ }\\)，",
+    "∵\\(PD=PE-DE\\)，",
+    "∴\\(x=\\frac { 62-x } { tan37{}^\\circ }-DE\\)，",
+    "由于\\(DE\\)的值不知，故无法求解，",
+    "∴方案一不能求公馆桥的高度，",
+    "故答案为：一；",
+    "〔图4〕【小问2详解】",
+    "解：利用方案二求公馆桥的高度",
+    "延长\\(BA\\)交\\(MN\\)于点C，如图",
+    "〔图5〕",
+    "由题意得\\(AC\\bot MN\\)",
+    "设\\(MC=x\\)米，则\\(CN=\\left ( { 91-x } \\right )\\)米",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACM\\)中\\(tan\\angle AMC=\\frac { AC } { MC }\\)",
+    "∴\\(AC=MC\\cdot tan37{}^\\circ =\\frac { 3 } { 4 }x\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACN\\)中，∵\\(\\angle ANC=45{}^\\circ\\)，",
+    "∴\\(AC=CN\\)",
+    "∴\\(\\frac { 3 } { 4 }x=91-x\\)",
+    "解得：\\(x=52\\)",
+    "∴\\(AC=39\\)米，\\(AB=BC-AC=23\\)米",
+    "答：公馆桥的高度为23米．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "贵州遵义“公馆桥”被誉为“黔北第一古石桥”．某数学小组利用无人机测量公馆桥的高度，如下是两种测量方案．\n实物图 | 课题 | 测量公馆桥的高度\n〔图1〕 | 测量示意图 | 方案一 | 方案二\n |  | 〔图2〕 | 〔图3〕\n | 方案说明 | 无人机位于水面上方62米的P处，测得A的俯角为\\(45{}^\\circ\\)，C的俯角为\\(37{}^\\circ\\)（A，C在桥面上）． | 无人机位于水面上方62米的N处，测得桥面正中心A的俯角为\\(45{}^\\circ\\)，将无人机水平向左移动91米到达M处，测得点A的俯角为\\(37{}^\\circ\\)．",
+      "paper_blocks": [
+        47,
+        48
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-EE63DEAA3F-Q17-P01",
+      "label": "（1）",
+      "prompt": "根据以上数据判断，方案______不能求公馆桥的高度；",
+      "stem_text": "根据以上数据判断，方案______不能求公馆桥的高度；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "一",
+      "answer": "一",
+      "given_solution": "解：方案一：\n延长\\(BA\\)交P所在水平线于点D，过点C作\\(CE\\bot PD\\)于点E，\n根据题意可得：\\(CD=62,\\angle APD=45{}^\\circ ,\\angle CPE=37{}^\\circ\\)，\n∴\\(AD=PD\\)，\n易得四边形\\(ADEC\\)为矩形，则\\(DE=AC,AD=CE\\)，\n设\\(AB=x\\)，则\\(PD=AD=CE=62-x\\)，\n∴\\(PE=\\frac { CE } { tan37{}^\\circ }=\\frac { 62-x } { tan37{}^\\circ }\\)，\n∵\\(PD=PE-DE\\)，\n∴\\(x=\\frac { 62-x } { tan37{}^\\circ }-DE\\)，\n由于\\(DE\\)的值不知，故无法求解，\n∴方案一不能求公馆桥的高度，\n故答案为：一；\n〔图4〕",
+      "solution_steps": [
+        "解：方案一：",
+        "延长\\(BA\\)交P所在水平线于点D，过点C作\\(CE\\bot PD\\)于点E，",
+        "根据题意可得：\\(CD=62,\\angle APD=45{}^\\circ ,\\angle CPE=37{}^\\circ\\)，",
+        "∴\\(AD=PD\\)，",
+        "易得四边形\\(ADEC\\)为矩形，则\\(DE=AC,AD=CE\\)，",
+        "设\\(AB=x\\)，则\\(PD=AD=CE=62-x\\)，",
+        "∴\\(PE=\\frac { CE } { tan37{}^\\circ }=\\frac { 62-x } { tan37{}^\\circ }\\)，",
+        "∵\\(PD=PE-DE\\)，",
+        "∴\\(x=\\frac { 62-x } { tan37{}^\\circ }-DE\\)，",
+        "由于\\(DE\\)的值不知，故无法求解，",
+        "∴方案一不能求公馆桥的高度，",
+        "故答案为：一；",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          47,
+          48,
+          50
+        ],
+        "solution_block_ids": [
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.03"
+      ],
+      "exam_ids": [
+        "E.G10.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由仰俯角建立测高测距模型”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-EE63DEAA3F-Q17-P02",
+      "label": "（2）",
+      "prompt": "利用以上可行方案求公馆桥的高度（参考数据\\(tan37{}^\\circ \\approx \\frac { 3 } { 4 }\\)，\\(sin37{}^\\circ \\approx \\frac { 3 } { 5 }\\)，\\(cos37{}^\\circ \\approx \\frac { 4 } { 5 }\\)）．",
+      "stem_text": "利用以上可行方案求公馆桥的高度（参考数据\\(tan37{}^\\circ \\approx \\frac { 3 } { 4 }\\)，\\(sin37{}^\\circ \\approx \\frac { 3 } { 5 }\\)，\\(cos37{}^\\circ \\approx \\frac { 4 } { 5 }\\)）．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "23米",
+      "answer": "23米",
+      "given_solution": "解：利用方案二求公馆桥的高度\n延长\\(BA\\)交\\(MN\\)于点C，如图\n〔图5〕\n由题意得\\(AC\\bot MN\\)\n设\\(MC=x\\)米，则\\(CN=\\left ( { 91-x } \\right )\\)米\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACM\\)中\\(tan\\angle AMC=\\frac { AC } { MC }\\)\n∴\\(AC=MC\\cdot tan37{}^\\circ =\\frac { 3 } { 4 }x\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACN\\)中，∵\\(\\angle ANC=45{}^\\circ\\)，\n∴\\(AC=CN\\)\n∴\\(\\frac { 3 } { 4 }x=91-x\\)\n解得：\\(x=52\\)\n∴\\(AC=39\\)米，\\(AB=BC-AC=23\\)米\n答：公馆桥的高度为23米．",
+      "solution_steps": [
+        "解：利用方案二求公馆桥的高度",
+        "延长\\(BA\\)交\\(MN\\)于点C，如图",
+        "〔图5〕",
+        "由题意得\\(AC\\bot MN\\)",
+        "设\\(MC=x\\)米，则\\(CN=\\left ( { 91-x } \\right )\\)米",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACM\\)中\\(tan\\angle AMC=\\frac { AC } { MC }\\)",
+        "∴\\(AC=MC\\cdot tan37{}^\\circ =\\frac { 3 } { 4 }x\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACN\\)中，∵\\(\\angle ANC=45{}^\\circ\\)，",
+        "∴\\(AC=CN\\)",
+        "∴\\(\\frac { 3 } { 4 }x=91-x\\)",
+        "解得：\\(x=52\\)",
+        "∴\\(AC=39\\)米，\\(AB=BC-AC=23\\)米",
+        "答：公馆桥的高度为23米．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          47,
+          48,
+          51
+        ],
+        "solution_block_ids": [
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.03"
+      ],
+      "exam_ids": [
+        "E.G10.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由仰俯角建立测高测距模型”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      47,
+      51
+    ],
+    "solution_body_blocks": [
+      294,
+      330
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-EE63DEAA3F/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          253.18,
+          583.64,
+          704.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-EE63DEAA3F/solution-q17-p16.webp",
+      "assets/SZ-G9-T1-EE63DEAA3F/solution-q17-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          97.27,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          439.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G10.03"
+  ],
+  "exam_ids": [
+    "E.G10.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由仰俯角建立测高测距模型”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

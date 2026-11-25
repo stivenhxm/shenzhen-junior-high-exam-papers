@@ -1,0 +1,438 @@
+{
+  "id": "SZ-G9-T1-E6260FB78D-Q20",
+  "paper_id": "SZ-G9-T1-E6260FB78D",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长、利用平行线性质求角",
+  "stem": "（本题11分）如图1，已知正方形\\(~ABCD\\)，点\\(~P\\)是边\\(~BC\\)上的一个动点（不与点\\(~B\\)、\\(C\\)重合），点\\(~E\\)在\\(DP\\)上，满足\\(AE=AB=2\\)，延长\\(~BE\\)交\\(CD\\)于点\\(F\\)。\n〔图1〕\n（1）求\\(BED\\)的度数；\n（2）连接\\(CE\\)，\n①如图2，当\\(CE\\bot BF\\)时，求\\(PB\\)的长；\n②当\\(\\vartriangle CEF\\)是以\\(CE\\)为腰的等腰三角形时，直接写出此时\\(\\vartriangle AED\\)的面积.\n深圳市南山区2024-2025学年第一学期九年级期末试题",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-E6260FB78D/figures/0dc70dc42b96b9968ee521d70cb45c1f7545187f75b6c43a8b14bbc5d1450504.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（本题11分）如图1，已知正方形\\(~ABCD\\)，点\\(~P\\)是边\\(~BC\\)上的一个动点（不与点\\(~B\\)、\\(C\\)重合），点\\(~E\\)在\\(DP\\)上，满足\\(AE=AB=2\\)，延长\\(~BE\\)交\\(CD\\)于点\\(F\\)。\n〔图1〕",
+      "paper_blocks": [
+        86,
+        87
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "连接\\(CE\\)，",
+      "paper_blocks": [
+        89
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q20-P01",
+      "label": "（1）",
+      "prompt": "求\\(BED\\)的度数；",
+      "stem_text": "求\\(BED\\)的度数；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分",
+      "answer": "\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分",
+      "given_solution": "\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AE=AB\\)，\n\\(\\therefore AB=AD\\)，\\(\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore AE=AD\\)，\n\\(\\therefore \\angle AEB=\\angle ABE\\)，\\(\\angle AED=\\angle ADE\\)，                 1分\n\\(\\because \\angle AEB+\\angle ABE+\\angle AED+\\angle ADE+\\angle BAD=360{}^\\circ\\)，\n\\(\\therefore 2\\angle AEB+2\\angle AED+90{}^\\circ =360{}^\\circ\\)，\n\\(\\therefore \\angle AEB+\\angle AED=135{}^\\circ\\)，\n\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分",
+      "solution_steps": [
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AE=AB\\)，",
+        "\\(\\therefore AB=AD\\)，\\(\\angle BAD=90{}^\\circ\\)，",
+        "\\(\\therefore AE=AD\\)，",
+        "\\(\\therefore \\angle AEB=\\angle ABE\\)，\\(\\angle AED=\\angle ADE\\)，                 1分",
+        "\\(\\because \\angle AEB+\\angle ABE+\\angle AED+\\angle ADE+\\angle BAD=360{}^\\circ\\)，",
+        "\\(\\therefore 2\\angle AEB+2\\angle AED+90{}^\\circ =360{}^\\circ\\)，",
+        "\\(\\therefore \\angle AEB+\\angle AED=135{}^\\circ\\)，",
+        "\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          86,
+          87,
+          88
+        ],
+        "solution_block_ids": [
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.04"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“正方形及特殊四边形关系”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“正方形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q20-P02",
+      "label": "（2）①",
+      "prompt": "如图2，当\\(CE\\bot BF\\)时，求\\(PB\\)的长；",
+      "stem_text": "如图2，当\\(CE\\bot BF\\)时，求\\(PB\\)的长；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "〔图1〕",
+      "given_solution": "如图1，作\\(AG\\bot BE\\)于点\\(G\\)，则\\(GB=GE\\)，\n\\(\\because CD\\bot BF\\)，\n\\(\\therefore \\angle BEC=\\angle AGB=\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle CBE=\\angle BAG=90{}^\\circ -\\angle ABG\\)，\n\\(\\because BC=AB\\)，\n\\(\\therefore \\vartriangle BEC≌\\vartriangle AGB\\left ( { AAS } \\right )\\)，\n\\(\\therefore EC=GB=\\frac { 1 } { 2 }BE\\)，                                  4分\n作\\(PH\\bot BE\\)于点\\(H\\)，则\\(\\angle PHB=\\angle PHE=90{}^\\circ\\)，\n\\(\\because \\angle HEP=180{}^\\circ -\\angle BED=180{}^\\circ -135{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore \\angle HPE=\\angle HEP=45{}^\\circ\\)，\n\\(\\therefore HE=HP\\)，                                          5分\n\\(\\because PH\\parallel CE\\)，\n\\(\\therefore \\vartriangle HPB\\backsim \\vartriangle EBC\\)\n\\(\\therefore \\frac { PH } { PB }=\\frac { EC } { BE }=\\frac { 1 } { 2 }=\\frac { EH } { BH }\\)\n\\(\\therefore \\frac { PC } { PB }=\\frac { EH } { BH }=\\frac { 1 } { 2 }\\)                                       6分\n又\\(\\because BC=2\\)\n\\(\\therefore BP=\\frac { 2 } { 3 }BC=\\frac { 4 } { 3 }\\)                                      7分\n〔图1〕",
+      "solution_steps": [
+        "如图1，作\\(AG\\bot BE\\)于点\\(G\\)，则\\(GB=GE\\)，",
+        "\\(\\because CD\\bot BF\\)，",
+        "\\(\\therefore \\angle BEC=\\angle AGB=\\angle ABC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CBE=\\angle BAG=90{}^\\circ -\\angle ABG\\)，",
+        "\\(\\because BC=AB\\)，",
+        "\\(\\therefore \\vartriangle BEC≌\\vartriangle AGB\\left ( { AAS } \\right )\\)，",
+        "\\(\\therefore EC=GB=\\frac { 1 } { 2 }BE\\)，                                  4分",
+        "作\\(PH\\bot BE\\)于点\\(H\\)，则\\(\\angle PHB=\\angle PHE=90{}^\\circ\\)，",
+        "\\(\\because \\angle HEP=180{}^\\circ -\\angle BED=180{}^\\circ -135{}^\\circ =45{}^\\circ\\)，",
+        "\\(\\therefore \\angle HPE=\\angle HEP=45{}^\\circ\\)，",
+        "\\(\\therefore HE=HP\\)，                                          5分",
+        "\\(\\because PH\\parallel CE\\)，",
+        "\\(\\therefore \\vartriangle HPB\\backsim \\vartriangle EBC\\)",
+        "\\(\\therefore \\frac { PH } { PB }=\\frac { EC } { BE }=\\frac { 1 } { 2 }=\\frac { EH } { BH }\\)",
+        "\\(\\therefore \\frac { PC } { PB }=\\frac { EH } { BH }=\\frac { 1 } { 2 }\\)                                       6分",
+        "又\\(\\because BC=2\\)",
+        "\\(\\therefore BP=\\frac { 2 } { 3 }BC=\\frac { 4 } { 3 }\\)                                      7分",
+        "〔图1〕"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          86,
+          87,
+          89,
+          90
+        ],
+        "solution_block_ids": [
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q20-P03",
+      "label": "（2）②",
+      "prompt": "当\\(\\vartriangle CEF\\)是以\\(CE\\)为腰的等腰三角形时，直接写出此时\\(\\vartriangle AED\\)的面积.\n深圳市南山区2024-2025学年第一学期九年级期末试题",
+      "stem_text": "当\\(\\vartriangle CEF\\)是以\\(CE\\)为腰的等腰三角形时，直接写出此时\\(\\vartriangle AED\\)的面积.\n深圳市南山区2024-2025学年第一学期九年级期末试题",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "〔图3〕",
+      "given_solution": "如图2，\\(\\vartriangle CEF\\)是等腰三角形，且\\(FE=CE\\)，则\\(\\angle EFC=\\angle ECF\\)，\n\\(\\because \\angle BCF=90{}^\\circ\\)，\n\\(\\therefore \\angle EBC+\\angle EFC=90{}^\\circ\\)，\\(\\angle ECB+\\angle ECF=90{}^\\circ\\)，\n\\(\\therefore \\angle EBC=\\angle ECB\\)，\n\\(\\therefore BE=CE=FE\\)，\n作\\(EL\\bot AD\\)于点\\(L\\)，则\\(\\angle ELD=\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore EL\\parallel AB\\parallel CD\\)，\n\\(\\therefore \\frac { AL } { DL }=\\frac { BE } { FE }=1\\)，\n\\(\\therefore AL=DL\\)，\n\\(\\therefore AE=DE=AD\\)，\n\\(\\therefore \\vartriangle AED\\)是等边三角形，\n\\(\\therefore EL=\\sqrt[] { 3 }\\)\n\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 3 }=\\sqrt[] { 3 }\\)                           9分\n〔图2〕\n如图3，\\(\\vartriangle CEF\\)是等腰三角形，且\\(CF=CE\\)，则\\(\\angle CEF=\\angle CFE\\)，\n\\(\\because CD\\parallel AB\\)，\n\\(\\therefore \\angle CFE=\\angle ABE=\\angle AEB\\)，\n\\(\\therefore \\angle CEF=\\angle AEB\\)，\n\\(\\therefore \\angle CEB+\\angle AEB=\\angle CEB+\\angle CEF=180{}^\\circ\\)，\n\\(\\therefore\\)点\\(E\\)在正方形\\(ABCD\\)的对角线\\(AC\\)上，\n\\(\\because AB=AD=CB=CD\\)，\\(\\angle ABC=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\n\\(\\therefore \\angle BAE=\\angle DAE=\\angle BCA=\\angle DCA=45{}^\\circ\\)，\n作\\(EM\\bot AD\\)于点\\(M\\)，则\\(EM=\\sqrt[] { 2 }\\)\n\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 2 }=\\sqrt[] { 2 }\\)\n综上，\\(\\vartriangle AED\\)的面积为\\(\\sqrt[] { 3 }\\)或\\(\\sqrt[] { 2 }\\)                            11分\n〔图3〕",
+      "solution_steps": [
+        "如图2，\\(\\vartriangle CEF\\)是等腰三角形，且\\(FE=CE\\)，则\\(\\angle EFC=\\angle ECF\\)，",
+        "\\(\\because \\angle BCF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle EBC+\\angle EFC=90{}^\\circ\\)，\\(\\angle ECB+\\angle ECF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle EBC=\\angle ECB\\)，",
+        "\\(\\therefore BE=CE=FE\\)，",
+        "作\\(EL\\bot AD\\)于点\\(L\\)，则\\(\\angle ELD=\\angle BAD=90{}^\\circ\\)，",
+        "\\(\\therefore EL\\parallel AB\\parallel CD\\)，",
+        "\\(\\therefore \\frac { AL } { DL }=\\frac { BE } { FE }=1\\)，",
+        "\\(\\therefore AL=DL\\)，",
+        "\\(\\therefore AE=DE=AD\\)，",
+        "\\(\\therefore \\vartriangle AED\\)是等边三角形，",
+        "\\(\\therefore EL=\\sqrt[] { 3 }\\)",
+        "\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 3 }=\\sqrt[] { 3 }\\)                           9分",
+        "〔图2〕",
+        "如图3，\\(\\vartriangle CEF\\)是等腰三角形，且\\(CF=CE\\)，则\\(\\angle CEF=\\angle CFE\\)，",
+        "\\(\\because CD\\parallel AB\\)，",
+        "\\(\\therefore \\angle CFE=\\angle ABE=\\angle AEB\\)，",
+        "\\(\\therefore \\angle CEF=\\angle AEB\\)，",
+        "\\(\\therefore \\angle CEB+\\angle AEB=\\angle CEB+\\angle CEF=180{}^\\circ\\)，",
+        "\\(\\therefore\\)点\\(E\\)在正方形\\(ABCD\\)的对角线\\(AC\\)上，",
+        "\\(\\because AB=AD=CB=CD\\)，\\(\\angle ABC=\\angle ADC=\\angle BCD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAE=\\angle DAE=\\angle BCA=\\angle DCA=45{}^\\circ\\)，",
+        "作\\(EM\\bot AD\\)于点\\(M\\)，则\\(EM=\\sqrt[] { 2 }\\)",
+        "\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 2 }=\\sqrt[] { 2 }\\)",
+        "综上，\\(\\vartriangle AED\\)的面积为\\(\\sqrt[] { 3 }\\)或\\(\\sqrt[] { 2 }\\)                            11分",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          86,
+          87,
+          89,
+          91,
+          93
+        ],
+        "solution_block_ids": [
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249
+        ],
+        "question_pages": [
+          8,
+          9
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "20．（1）\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AE=AB\\)，\n\\(\\therefore AB=AD\\)，\\(\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore AE=AD\\)，\n\\(\\therefore \\angle AEB=\\angle ABE\\)，\\(\\angle AED=\\angle ADE\\)，                 1分\n\\(\\because \\angle AEB+\\angle ABE+\\angle AED+\\angle ADE+\\angle BAD=360{}^\\circ\\)，\n\\(\\therefore 2\\angle AEB+2\\angle AED+90{}^\\circ =360{}^\\circ\\)，\n\\(\\therefore \\angle AEB+\\angle AED=135{}^\\circ\\)，\n\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分\n（2）①如图1，作\\(AG\\bot BE\\)于点\\(G\\)，则\\(GB=GE\\)，\n\\(\\because CD\\bot BF\\)，\n\\(\\therefore \\angle BEC=\\angle AGB=\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle CBE=\\angle BAG=90{}^\\circ -\\angle ABG\\)，\n\\(\\because BC=AB\\)，\n\\(\\therefore \\vartriangle BEC≌\\vartriangle AGB\\left ( { AAS } \\right )\\)，\n\\(\\therefore EC=GB=\\frac { 1 } { 2 }BE\\)，                                  4分\n作\\(PH\\bot BE\\)于点\\(H\\)，则\\(\\angle PHB=\\angle PHE=90{}^\\circ\\)，\n\\(\\because \\angle HEP=180{}^\\circ -\\angle BED=180{}^\\circ -135{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore \\angle HPE=\\angle HEP=45{}^\\circ\\)，\n\\(\\therefore HE=HP\\)，                                          5分\n\\(\\because PH\\parallel CE\\)，\n\\(\\therefore \\vartriangle HPB\\backsim \\vartriangle EBC\\)\n\\(\\therefore \\frac { PH } { PB }=\\frac { EC } { BE }=\\frac { 1 } { 2 }=\\frac { EH } { BH }\\)\n\\(\\therefore \\frac { PC } { PB }=\\frac { EH } { BH }=\\frac { 1 } { 2 }\\)                                       6分\n又\\(\\because BC=2\\)\n\\(\\therefore BP=\\frac { 2 } { 3 }BC=\\frac { 4 } { 3 }\\)                                      7分\n〔图1〕\n②如图2，\\(\\vartriangle CEF\\)是等腰三角形，且\\(FE=CE\\)，则\\(\\angle EFC=\\angle ECF\\)，\n\\(\\because \\angle BCF=90{}^\\circ\\)，\n\\(\\therefore \\angle EBC+\\angle EFC=90{}^\\circ\\)，\\(\\angle ECB+\\angle ECF=90{}^\\circ\\)，\n\\(\\therefore \\angle EBC=\\angle ECB\\)，\n\\(\\therefore BE=CE=FE\\)，\n作\\(EL\\bot AD\\)于点\\(L\\)，则\\(\\angle ELD=\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore EL\\parallel AB\\parallel CD\\)，\n\\(\\therefore \\frac { AL } { DL }=\\frac { BE } { FE }=1\\)，\n\\(\\therefore AL=DL\\)，\n\\(\\therefore AE=DE=AD\\)，\n\\(\\therefore \\vartriangle AED\\)是等边三角形，\n\\(\\therefore EL=\\sqrt[] { 3 }\\)\n\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 3 }=\\sqrt[] { 3 }\\)                           9分\n〔图2〕\n如图3，\\(\\vartriangle CEF\\)是等腰三角形，且\\(CF=CE\\)，则\\(\\angle CEF=\\angle CFE\\)，\n\\(\\because CD\\parallel AB\\)，\n\\(\\therefore \\angle CFE=\\angle ABE=\\angle AEB\\)，\n\\(\\therefore \\angle CEF=\\angle AEB\\)，\n\\(\\therefore \\angle CEB+\\angle AEB=\\angle CEB+\\angle CEF=180{}^\\circ\\)，\n\\(\\therefore\\)点\\(E\\)在正方形\\(ABCD\\)的对角线\\(AC\\)上，\n\\(\\because AB=AD=CB=CD\\)，\\(\\angle ABC=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\n\\(\\therefore \\angle BAE=\\angle DAE=\\angle BCA=\\angle DCA=45{}^\\circ\\)，\n作\\(EM\\bot AD\\)于点\\(M\\)，则\\(EM=\\sqrt[] { 2 }\\)\n\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 2 }=\\sqrt[] { 2 }\\)\n综上，\\(\\vartriangle AED\\)的面积为\\(\\sqrt[] { 3 }\\)或\\(\\sqrt[] { 2 }\\)                            11分\n〔图3〕",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-E6260FB78D/figures/778f4399c12578922ee5693d11ad05baff0bb3469300efa7b36c3257de6b2946.png",
+    "assets/SZ-G9-T1-E6260FB78D/figures/62b8d56a5207ee7f6df3a06992808ae3ab20a38cfd9973c5d0d7f977f995c03f.png",
+    "assets/SZ-G9-T1-E6260FB78D/figures/baa93e629c0e205e1bcdb00d6b245937435908ca40b6acd9054383206aded9e7.png"
+  ],
+  "answer": "（1）\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分\n（2）综上，\\(\\vartriangle AED\\)的面积为\\(\\sqrt[] { 3 }\\)或\\(\\sqrt[] { 2 }\\)                            11分",
+  "solution_steps": [
+    "20．（1）\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AE=AB\\)，",
+    "\\(\\therefore AB=AD\\)，\\(\\angle BAD=90{}^\\circ\\)，",
+    "\\(\\therefore AE=AD\\)，",
+    "\\(\\therefore \\angle AEB=\\angle ABE\\)，\\(\\angle AED=\\angle ADE\\)，                 1分",
+    "\\(\\because \\angle AEB+\\angle ABE+\\angle AED+\\angle ADE+\\angle BAD=360{}^\\circ\\)，",
+    "\\(\\therefore 2\\angle AEB+2\\angle AED+90{}^\\circ =360{}^\\circ\\)，",
+    "\\(\\therefore \\angle AEB+\\angle AED=135{}^\\circ\\)，",
+    "\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分",
+    "（2）①如图1，作\\(AG\\bot BE\\)于点\\(G\\)，则\\(GB=GE\\)，",
+    "\\(\\because CD\\bot BF\\)，",
+    "\\(\\therefore \\angle BEC=\\angle AGB=\\angle ABC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CBE=\\angle BAG=90{}^\\circ -\\angle ABG\\)，",
+    "\\(\\because BC=AB\\)，",
+    "\\(\\therefore \\vartriangle BEC≌\\vartriangle AGB\\left ( { AAS } \\right )\\)，",
+    "\\(\\therefore EC=GB=\\frac { 1 } { 2 }BE\\)，                                  4分",
+    "作\\(PH\\bot BE\\)于点\\(H\\)，则\\(\\angle PHB=\\angle PHE=90{}^\\circ\\)，",
+    "\\(\\because \\angle HEP=180{}^\\circ -\\angle BED=180{}^\\circ -135{}^\\circ =45{}^\\circ\\)，",
+    "\\(\\therefore \\angle HPE=\\angle HEP=45{}^\\circ\\)，",
+    "\\(\\therefore HE=HP\\)，                                          5分",
+    "\\(\\because PH\\parallel CE\\)，",
+    "\\(\\therefore \\vartriangle HPB\\backsim \\vartriangle EBC\\)",
+    "\\(\\therefore \\frac { PH } { PB }=\\frac { EC } { BE }=\\frac { 1 } { 2 }=\\frac { EH } { BH }\\)",
+    "\\(\\therefore \\frac { PC } { PB }=\\frac { EH } { BH }=\\frac { 1 } { 2 }\\)                                       6分",
+    "又\\(\\because BC=2\\)",
+    "\\(\\therefore BP=\\frac { 2 } { 3 }BC=\\frac { 4 } { 3 }\\)                                      7分",
+    "〔图1〕",
+    "②如图2，\\(\\vartriangle CEF\\)是等腰三角形，且\\(FE=CE\\)，则\\(\\angle EFC=\\angle ECF\\)，",
+    "\\(\\because \\angle BCF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle EBC+\\angle EFC=90{}^\\circ\\)，\\(\\angle ECB+\\angle ECF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle EBC=\\angle ECB\\)，",
+    "\\(\\therefore BE=CE=FE\\)，",
+    "作\\(EL\\bot AD\\)于点\\(L\\)，则\\(\\angle ELD=\\angle BAD=90{}^\\circ\\)，",
+    "\\(\\therefore EL\\parallel AB\\parallel CD\\)，",
+    "\\(\\therefore \\frac { AL } { DL }=\\frac { BE } { FE }=1\\)，",
+    "\\(\\therefore AL=DL\\)，",
+    "\\(\\therefore AE=DE=AD\\)，",
+    "\\(\\therefore \\vartriangle AED\\)是等边三角形，",
+    "\\(\\therefore EL=\\sqrt[] { 3 }\\)",
+    "\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 3 }=\\sqrt[] { 3 }\\)                           9分",
+    "〔图2〕",
+    "如图3，\\(\\vartriangle CEF\\)是等腰三角形，且\\(CF=CE\\)，则\\(\\angle CEF=\\angle CFE\\)，",
+    "\\(\\because CD\\parallel AB\\)，",
+    "\\(\\therefore \\angle CFE=\\angle ABE=\\angle AEB\\)，",
+    "\\(\\therefore \\angle CEF=\\angle AEB\\)，",
+    "\\(\\therefore \\angle CEB+\\angle AEB=\\angle CEB+\\angle CEF=180{}^\\circ\\)，",
+    "\\(\\therefore\\)点\\(E\\)在正方形\\(ABCD\\)的对角线\\(AC\\)上，",
+    "\\(\\because AB=AD=CB=CD\\)，\\(\\angle ABC=\\angle ADC=\\angle BCD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAE=\\angle DAE=\\angle BCA=\\angle DCA=45{}^\\circ\\)，",
+    "作\\(EM\\bot AD\\)于点\\(M\\)，则\\(EM=\\sqrt[] { 2 }\\)",
+    "\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 2 }=\\sqrt[] { 2 }\\)",
+    "综上，\\(\\vartriangle AED\\)的面积为\\(\\sqrt[] { 3 }\\)或\\(\\sqrt[] { 2 }\\)                            11分",
+    "〔图3〕"
+  ],
+  "solution": "20．（1）\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AE=AB\\)，\n\\(\\therefore AB=AD\\)，\\(\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore AE=AD\\)，\n\\(\\therefore \\angle AEB=\\angle ABE\\)，\\(\\angle AED=\\angle ADE\\)，                 1分\n\\(\\because \\angle AEB+\\angle ABE+\\angle AED+\\angle ADE+\\angle BAD=360{}^\\circ\\)，\n\\(\\therefore 2\\angle AEB+2\\angle AED+90{}^\\circ =360{}^\\circ\\)，\n\\(\\therefore \\angle AEB+\\angle AED=135{}^\\circ\\)，\n\\(\\therefore \\angle BED=\\angle AEB+\\angle AED=135{}^\\circ\\)                      3分\n（2）①如图1，作\\(AG\\bot BE\\)于点\\(G\\)，则\\(GB=GE\\)，\n\\(\\because CD\\bot BF\\)，\n\\(\\therefore \\angle BEC=\\angle AGB=\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle CBE=\\angle BAG=90{}^\\circ -\\angle ABG\\)，\n\\(\\because BC=AB\\)，\n\\(\\therefore \\vartriangle BEC≌\\vartriangle AGB\\left ( { AAS } \\right )\\)，\n\\(\\therefore EC=GB=\\frac { 1 } { 2 }BE\\)，                                  4分\n作\\(PH\\bot BE\\)于点\\(H\\)，则\\(\\angle PHB=\\angle PHE=90{}^\\circ\\)，\n\\(\\because \\angle HEP=180{}^\\circ -\\angle BED=180{}^\\circ -135{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore \\angle HPE=\\angle HEP=45{}^\\circ\\)，\n\\(\\therefore HE=HP\\)，                                          5分\n\\(\\because PH\\parallel CE\\)，\n\\(\\therefore \\vartriangle HPB\\backsim \\vartriangle EBC\\)\n\\(\\therefore \\frac { PH } { PB }=\\frac { EC } { BE }=\\frac { 1 } { 2 }=\\frac { EH } { BH }\\)\n\\(\\therefore \\frac { PC } { PB }=\\frac { EH } { BH }=\\frac { 1 } { 2 }\\)                                       6分\n又\\(\\because BC=2\\)\n\\(\\therefore BP=\\frac { 2 } { 3 }BC=\\frac { 4 } { 3 }\\)                                      7分\n〔图1〕\n②如图2，\\(\\vartriangle CEF\\)是等腰三角形，且\\(FE=CE\\)，则\\(\\angle EFC=\\angle ECF\\)，\n\\(\\because \\angle BCF=90{}^\\circ\\)，\n\\(\\therefore \\angle EBC+\\angle EFC=90{}^\\circ\\)，\\(\\angle ECB+\\angle ECF=90{}^\\circ\\)，\n\\(\\therefore \\angle EBC=\\angle ECB\\)，\n\\(\\therefore BE=CE=FE\\)，\n作\\(EL\\bot AD\\)于点\\(L\\)，则\\(\\angle ELD=\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore EL\\parallel AB\\parallel CD\\)，\n\\(\\therefore \\frac { AL } { DL }=\\frac { BE } { FE }=1\\)，\n\\(\\therefore AL=DL\\)，\n\\(\\therefore AE=DE=AD\\)，\n\\(\\therefore \\vartriangle AED\\)是等边三角形，\n\\(\\therefore EL=\\sqrt[] { 3 }\\)\n\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 3 }=\\sqrt[] { 3 }\\)                           9分\n〔图2〕\n如图3，\\(\\vartriangle CEF\\)是等腰三角形，且\\(CF=CE\\)，则\\(\\angle CEF=\\angle CFE\\)，\n\\(\\because CD\\parallel AB\\)，\n\\(\\therefore \\angle CFE=\\angle ABE=\\angle AEB\\)，\n\\(\\therefore \\angle CEF=\\angle AEB\\)，\n\\(\\therefore \\angle CEB+\\angle AEB=\\angle CEB+\\angle CEF=180{}^\\circ\\)，\n\\(\\therefore\\)点\\(E\\)在正方形\\(ABCD\\)的对角线\\(AC\\)上，\n\\(\\because AB=AD=CB=CD\\)，\\(\\angle ABC=\\angle ADC=\\angle BCD=90{}^\\circ\\)，\n\\(\\therefore \\angle BAE=\\angle DAE=\\angle BCA=\\angle DCA=45{}^\\circ\\)，\n作\\(EM\\bot AD\\)于点\\(M\\)，则\\(EM=\\sqrt[] { 2 }\\)\n\\(\\therefore S_{ \\vartriangle AED } =\\frac { 1 } { 2 }\\times 2\\times \\sqrt[] { 2 }=\\sqrt[] { 2 }\\)\n综上，\\(\\vartriangle AED\\)的面积为\\(\\sqrt[] { 3 }\\)或\\(\\sqrt[] { 2 }\\)                            11分\n〔图3〕",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      86,
+      93
+    ],
+    "solution_body_blocks": [
+      198,
+      251
+    ],
+    "question_pages": [
+      8,
+      9
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-E6260FB78D/paper-q20-p08.webp",
+      "assets/SZ-G9-T1-E6260FB78D/paper-q20-p09.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          303.64,
+          583.64,
+          583.64
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          71.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-E6260FB78D/solution-q20-p15.webp",
+      "assets/SZ-G9-T1-E6260FB78D/solution-q20-p16.webp",
+      "assets/SZ-G9-T1-E6260FB78D/solution-q20-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          413.18,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          709.55
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          59.55,
+          583.64,
+          621.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.04",
+    "M.G08.03",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G08.03.01",
+    "E.G01.05.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“正方形及特殊四边形关系”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“正方形”，按题面与解答定位知识主题。 本问题面与解答对应“由相似比求对应线段或周长”。 本问的运算或证明步骤对应“利用平行线性质求角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

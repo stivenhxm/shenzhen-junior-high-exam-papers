@@ -1,0 +1,318 @@
+{
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G10.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“证明指定直线与圆相切”。 本问题面与解答对应“分解组合图形求边角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-C4F21DABD2-Q20",
+  "number": 20,
+  "paper_id": "SZ-G9-T2-C4F21DABD2",
+  "title": "在△ABC中",
+  "stem": "〔图1〕如图，在△ABC中，AB＝AC，以AB为直径的⊙O分别交AC、BC于点D、E．点F在AC的延长线上，且∠CBF＝〔图2〕∠CAB．\n（1）求证：直线BF是⊙O的切线；\n（2）若AB＝3，sin∠CBF＝〔图3〕，求BF的长．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "〔图1〕如图，在△ABC中，AB＝AC，以AB为直径的⊙O分别交AC、BC于点D、E．点F在AC的延长线上，且∠CBF＝〔图2〕∠CAB．",
+      "paper_blocks": [
+        630
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-C4F21DABD2-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：直线BF是⊙O的切线；",
+      "stem_text": "求证：直线BF是⊙O的切线；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴BF是⊙O的切线",
+      "given_solution": "证明：如图，连接AE，\n∵AB是⊙O的直径，\n∴∠AEB＝90°，\n即AE⊥BC，\n∴∠BAE+∠ABE＝90°，\n∵AB＝AC，\n∴∠BAE＝∠CAE＝〔图1〕∠BAC，\n∵∠CBF＝〔图1〕∠CAB，\n∴∠CBF＝∠BAE，\n∴∠ABE+∠CBF＝90°，\n即AB⊥BF，\n∵AB是⊙O的直径，\n∴BF是⊙O的切线；",
+      "solution_steps": [
+        "证明：如图，连接AE，",
+        "∵AB是⊙O的直径，",
+        "∴∠AEB＝90°，",
+        "即AE⊥BC，",
+        "∴∠BAE+∠ABE＝90°，",
+        "∵AB＝AC，",
+        "∴∠BAE＝∠CAE＝〔图1〕∠BAC，",
+        "∵∠CBF＝〔图1〕∠CAB，",
+        "∴∠CBF＝∠BAE，",
+        "∴∠ABE+∠CBF＝90°，",
+        "即AB⊥BF，",
+        "∵AB是⊙O的直径，",
+        "∴BF是⊙O的切线；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          630,
+          640
+        ],
+        "solution_block_ids": [
+          3180,
+          3190,
+          3200,
+          3210,
+          3220,
+          3230,
+          3240,
+          3250,
+          3260,
+          3270,
+          3280,
+          3290,
+          3300
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "题面对应“证明指定直线与圆相切”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-C4F21DABD2-Q20-P02",
+      "label": "（2）",
+      "prompt": "若AB＝3，sin∠CBF＝〔图3〕，求BF的长．",
+      "stem_text": "若AB＝3，sin∠CBF＝〔图3〕，求BF的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "〔图14〕",
+      "given_solution": "解：过点C作CG⊥BF于点G，\n在Rt△ABE中，AB＝3，sin∠BAE＝sin∠CBF＝〔图2〕，\n∴BE＝〔图2〕AB＝〔图3〕，AE＝〔图4〕＝〔图5〕，\n∵AB＝AC，AE⊥BC，\n∴BC＝2BE＝〔图5〕，\n在Rt△BCG中，BC＝〔图5〕，sin∠CFB＝〔图2〕，\n∴CG＝〔图2〕BC＝〔图6〕，BG＝〔图7〕＝〔图8〕，\n∵AB∥CG，\n∴△ABF∽△CGF，\n∴〔图9〕＝〔图10〕，\n即〔图11〕＝〔图12〕，\n解得FG＝〔图13〕，\n经检验FG＝〔图13〕是原方程的解，\n∴BF＝BG+FG\n＝〔图8〕+〔图13〕\n＝4．\n〔图14〕",
+      "solution_steps": [
+        "解：过点C作CG⊥BF于点G，",
+        "在Rt△ABE中，AB＝3，sin∠BAE＝sin∠CBF＝〔图2〕，",
+        "∴BE＝〔图2〕AB＝〔图3〕，AE＝〔图4〕＝〔图5〕，",
+        "∵AB＝AC，AE⊥BC，",
+        "∴BC＝2BE＝〔图5〕，",
+        "在Rt△BCG中，BC＝〔图5〕，sin∠CFB＝〔图2〕，",
+        "∴CG＝〔图2〕BC＝〔图6〕，BG＝〔图7〕＝〔图8〕，",
+        "∵AB∥CG，",
+        "∴△ABF∽△CGF，",
+        "∴〔图9〕＝〔图10〕，",
+        "即〔图11〕＝〔图12〕，",
+        "解得FG＝〔图13〕，",
+        "经检验FG＝〔图13〕是原方程的解，",
+        "∴BF＝BG+FG",
+        "＝〔图8〕+〔图13〕",
+        "＝4．",
+        "〔图14〕"
+      ],
+      "solution_figure_ids": [
+        14,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "source": {
+        "paper_block_ids": [
+          630,
+          650
+        ],
+        "solution_block_ids": [
+          3310,
+          3320,
+          3330,
+          3340,
+          3350,
+          3360,
+          3370,
+          3380,
+          3390,
+          3400,
+          3410,
+          3420,
+          3430,
+          3440,
+          3450,
+          3460,
+          3470
+        ],
+        "question_pages": [
+          3
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/86/8654819c58f4c76d0d0f8ad9efd274f6ea85d4c8c93d390c50575b9b803091ca.png",
+    "assets/figures/2a/2a3f6f8f3a261725b31a05447e76dd768239b8d66206a95c73df4a0ecdbd8bde.png",
+    "assets/figures/fa/fa69a4a588d31719128c37dd1e2df8633f88eda7eb56c5526e633259a5b6c515.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴BF是⊙O的切线\n（2）〔图14〕",
+  "given_answer": "",
+  "given_solution": "【解答】（1）证明：如图，连接AE，\n∵AB是⊙O的直径，\n∴∠AEB＝90°，\n即AE⊥BC，\n∴∠BAE+∠ABE＝90°，\n∵AB＝AC，\n∴∠BAE＝∠CAE＝〔图1〕∠BAC，\n∵∠CBF＝〔图1〕∠CAB，\n∴∠CBF＝∠BAE，\n∴∠ABE+∠CBF＝90°，\n即AB⊥BF，\n∵AB是⊙O的直径，\n∴BF是⊙O的切线；\n（2）解：过点C作CG⊥BF于点G，\n在Rt△ABE中，AB＝3，sin∠BAE＝sin∠CBF＝〔图2〕，\n∴BE＝〔图2〕AB＝〔图3〕，AE＝〔图4〕＝〔图5〕，\n∵AB＝AC，AE⊥BC，\n∴BC＝2BE＝〔图5〕，\n在Rt△BCG中，BC＝〔图5〕，sin∠CFB＝〔图2〕，\n∴CG＝〔图2〕BC＝〔图6〕，BG＝〔图7〕＝〔图8〕，\n∵AB∥CG，\n∴△ABF∽△CGF，\n∴〔图9〕＝〔图10〕，\n即〔图11〕＝〔图12〕，\n解得FG＝〔图13〕，\n经检验FG＝〔图13〕是原方程的解，\n∴BF＝BG+FG\n＝〔图8〕+〔图13〕\n＝4．\n〔图14〕",
+  "given_solution_figures": [
+    "assets/figures/29/298095b1af58c71e8eccb4bc88d2610753a471d3ce4abf5c7bd1e8f84d22369d.png",
+    "assets/figures/d5/d5a37780efbf273b23567c46d2cd2193c5a35e980622f3b36dcc4e68aaa76691.png",
+    "assets/figures/72/72a2f2bcca9a6e82297b42e0b5deb1d24750698644155a9f232ca3c0909cc9d1.png",
+    "assets/figures/db/db2fb277df2d9ab2c299e94af8fb2742c5b40712e0d138f7fefd94016a8bded3.png",
+    "assets/figures/50/504f46fe99731330cf65d18a81fa5f662e1643ad441887365eb8e230809f50ba.png",
+    "assets/figures/45/450cd3e2ae50a92031216d4720607b033eaa0ccceb3d5aeb3f3d48e6c0707076.png",
+    "assets/figures/90/902ed4cf7669d078a16c0c9f8891e54ac13bceb50e3a61819cd97e9068cbe0c7.png",
+    "assets/figures/b7/b7336dfd0e8e122181ca073d9bc62115b43670b6fb40ee2c5b0438df2ad0c5f7.png",
+    "assets/figures/26/261b040c61f34358bacb24aee1607f2b41a63cf1ac605cf09a0c6bf6d1f18af4.png",
+    "assets/figures/4d/4d248bc69c68a21bce0c7dd3d11e76690bb320c02420b007ebe850791c48907d.png",
+    "assets/figures/ba/ba7ef380f5f9152ecc5fa821bf6a0c62a31b41543191be0138d1df3e863e748f.png",
+    "assets/figures/19/1953214b512570c3ff8da4e83178b41a67d11fe132c25104f1e87178935bb742.png",
+    "assets/figures/16/162d824eb9736011d6c2075a7882b8b1e4130ef4a6a9b0f2bad7ced3be725efd.png",
+    "assets/figures/5c/5ca40957e97ff0fd1e36cfd7ee5006de374a66d06b68d9ff4f41561ed2a03c31.png"
+  ],
+  "solution_steps": [
+    "（1）证明：如图，连接AE，",
+    "∵AB是⊙O的直径，",
+    "∴∠AEB＝90°，",
+    "即AE⊥BC，",
+    "∴∠BAE+∠ABE＝90°，",
+    "∵AB＝AC，",
+    "∴∠BAE＝∠CAE＝〔图1〕∠BAC，",
+    "∵∠CBF＝〔图1〕∠CAB，",
+    "∴∠CBF＝∠BAE，",
+    "∴∠ABE+∠CBF＝90°，",
+    "即AB⊥BF，",
+    "∵AB是⊙O的直径，",
+    "∴BF是⊙O的切线；",
+    "（2）解：过点C作CG⊥BF于点G，",
+    "在Rt△ABE中，AB＝3，sin∠BAE＝sin∠CBF＝〔图2〕，",
+    "∴BE＝〔图2〕AB＝〔图3〕，AE＝〔图4〕＝〔图5〕，",
+    "∵AB＝AC，AE⊥BC，",
+    "∴BC＝2BE＝〔图5〕，",
+    "在Rt△BCG中，BC＝〔图5〕，sin∠CFB＝〔图2〕，",
+    "∴CG＝〔图2〕BC＝〔图6〕，BG＝〔图7〕＝〔图8〕，",
+    "∵AB∥CG，",
+    "∴△ABF∽△CGF，",
+    "∴〔图9〕＝〔图10〕，",
+    "即〔图11〕＝〔图12〕，",
+    "解得FG＝〔图13〕，",
+    "经检验FG＝〔图13〕是原方程的解，",
+    "∴BF＝BG+FG",
+    "＝〔图8〕+〔图13〕",
+    "＝4．",
+    "〔图14〕"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）证明：如图，连接AE，\n∵AB是⊙O的直径，\n∴∠AEB＝90°，\n即AE⊥BC，\n∴∠BAE+∠ABE＝90°，\n∵AB＝AC，\n∴∠BAE＝∠CAE＝〔图1〕∠BAC，\n∵∠CBF＝〔图1〕∠CAB，\n∴∠CBF＝∠BAE，\n∴∠ABE+∠CBF＝90°，\n即AB⊥BF，\n∵AB是⊙O的直径，\n∴BF是⊙O的切线；\n（2）解：过点C作CG⊥BF于点G，\n在Rt△ABE中，AB＝3，sin∠BAE＝sin∠CBF＝〔图2〕，\n∴BE＝〔图2〕AB＝〔图3〕，AE＝〔图4〕＝〔图5〕，\n∵AB＝AC，AE⊥BC，\n∴BC＝2BE＝〔图5〕，\n在Rt△BCG中，BC＝〔图5〕，sin∠CFB＝〔图2〕，\n∴CG＝〔图2〕BC＝〔图6〕，BG＝〔图7〕＝〔图8〕，\n∵AB∥CG，\n∴△ABF∽△CGF，\n∴〔图9〕＝〔图10〕，\n即〔图11〕＝〔图12〕，\n解得FG＝〔图13〕，\n经检验FG＝〔图13〕是原方程的解，\n∴BF＝BG+FG\n＝〔图8〕+〔图13〕\n＝4．\n〔图14〕",
+  "review_note": "",
+  "solution_figure_ids": [
+    14,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "source": {
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-C4F21DABD2/single/q20-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          654.44,
+          582.2,
+          758.79
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-C4F21DABD2/single/s20-p15.webp",
+      "assets/SZ-G9-T2-C4F21DABD2/single/s20-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          391.44,
+          582.2,
+          791.88
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          13,
+          41.39,
+          582.2,
+          554.43
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

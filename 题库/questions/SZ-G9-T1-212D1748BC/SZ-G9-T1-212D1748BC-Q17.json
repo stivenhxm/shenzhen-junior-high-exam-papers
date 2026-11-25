@@ -1,0 +1,238 @@
+{
+  "id": "SZ-G9-T1-212D1748BC-Q17",
+  "paper_id": "SZ-G9-T1-212D1748BC",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "补足条件判定矩形、利用菱形对角线关系求边与面积",
+  "stem": "如图，在菱形ABCD中，对角线AC，BD相交于点O，延长CB到点E，使得BE＝BC．连接AE．过点B作BF∥AC，交AE于点F，连接OF．\n（1）求证：四边形AFBO是矩形；\n（2）若∠E＝30°，OF＝2，求菱形ABCD的面积．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-212D1748BC/figures/91e31179072fe2b3296e0df13ffb43e098b2533d8bf0565ffaa4781bdf7ba45f.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在菱形ABCD中，对角线AC，BD相交于点O，延长CB到点E，使得BE＝BC．连接AE．过点B作BF∥AC，交AE于点F，连接OF．",
+      "paper_blocks": [
+        52
+      ]
+    },
+    {
+      "id": "fig-55",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        55
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-212D1748BC-Q17-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形AFBO是矩形；",
+      "stem_text": "求证：四边形AFBO是矩形；",
+      "material_ids": [
+        "context",
+        "fig-55"
+      ],
+      "requires": [],
+      "given_answer": "∴平行四边形AFBO是矩形",
+      "answer": "∴平行四边形AFBO是矩形",
+      "given_solution": "证明：∵四边形ABCD是菱形，\n∴AD∥BC，AC⊥BD，AD＝BC，\n∵BE＝BC，\n∴AD＝BE，\n∴四边形AEBD是平行四边形，\n∴AE∥BD．\n∵BF∥AC，\n∴四边形AFBO是平行四边形．\n∵AC⊥BD，AE∥BD\n∴AE⊥AC，\n∴∠OAF＝90°，\n∴平行四边形AFBO是矩形．",
+      "solution_steps": [
+        "证明：∵四边形ABCD是菱形，",
+        "∴AD∥BC，AC⊥BD，AD＝BC，",
+        "∵BE＝BC，",
+        "∴AD＝BE，",
+        "∴四边形AEBD是平行四边形，",
+        "∴AE∥BD．",
+        "∵BF∥AC，",
+        "∴四边形AFBO是平行四边形．",
+        "∵AC⊥BD，AE∥BD",
+        "∴AE⊥AC，",
+        "∴∠OAF＝90°，",
+        "∴平行四边形AFBO是矩形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          53,
+          55
+        ],
+        "solution_block_ids": [
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-212D1748BC-Q17-P02",
+      "label": "（2）",
+      "prompt": "若∠E＝30°，OF＝2，求菱形ABCD的面积．",
+      "stem_text": "若∠E＝30°，OF＝2，求菱形ABCD的面积．",
+      "material_ids": [
+        "context",
+        "fig-55"
+      ],
+      "requires": [],
+      "given_answer": "∴OF＝2",
+      "answer": "2√3",
+      "given_solution": "解：由（1）知四边形AFBO是矩形，\n∴∠AFB＝90°，OF＝AB，\n∴∠BFE＝90°．\n又∵∠E＝30°，BF＝1，\n∴BE＝2BF＝2．\n在Rt△AEC中，BE＝BC，\n∴AB＝BE＝2，\n∴OF＝2．",
+      "solution_steps": [
+        "矩形 AFBO 的对角线相等，所以 AB=OF=2。菱形边长为 2，故 BE=BC=2，EC=4。",
+        "由 AE∥BD、BD⊥AC，△AEC 在 A 处为直角。∠E=30°，故 AC=EC/2=2，AE=2√3。",
+        "在平行四边形 AEBD 中，BD=AE=2√3。菱形面积为 AC×BD/2=2√3。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          52,
+          54,
+          55
+        ],
+        "solution_block_ids": [
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "原卷第17题第（2）问已知 OF=2，求菱形面积；配套解析用另一版本的 BF=1 求 OF。依本卷条件重新计算。",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用矩形对角线求菱形边长，结合角度确定对角线长度及面积。",
+      "solution_origin": "source_checked_with_correction",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】（1）证四边形ADBE是平行四边形，再证AE⊥AC，则∠OAF＝90°，然后由矩形的判定即可得出结论；\n（2）由矩形的性质得∠AFB＝90°，OF＝AB，所以∠BFE＝90°．又由∠E＝30°，BF＝1，由直角三角形性质得BE＝2BF＝2．在Rt△AEC中，BE＝BC，由直角三角形性质得AB＝BE＝2，即可得出结论．\n【解答】（1）证明：∵四边形ABCD是菱形，\n∴AD∥BC，AC⊥BD，AD＝BC，\n∵BE＝BC，\n∴AD＝BE，\n∴四边形AEBD是平行四边形，\n∴AE∥BD．\n∵BF∥AC，\n∴四边形AFBO是平行四边形．\n∵AC⊥BD，AE∥BD\n∴AE⊥AC，\n∴∠OAF＝90°，\n∴平行四边形AFBO是矩形．\n（2）解：由（1）知四边形AFBO是矩形，\n∴∠AFB＝90°，OF＝AB，\n∴∠BFE＝90°．\n又∵∠E＝30°，BF＝1，\n∴BE＝2BF＝2．\n在Rt△AEC中，BE＝BC，\n∴AB＝BE＝2，\n∴OF＝2．\n【点评】本题考查了矩形的判定与性质、菱形的性质、平行四边形的判定与性质、直角三角形的性质，熟练掌握矩形的判定与性质，菱形的性质、直角三角形的性质是解题的关键．",
+  "given_solution_figures": [],
+  "answer": "（1）∴平行四边形AFBO是矩形\n（2）2√3",
+  "solution_steps": [
+    "（1） 证明：∵四边形ABCD是菱形，\n∴AD∥BC，AC⊥BD，AD＝BC，\n∵BE＝BC，\n∴AD＝BE，\n∴四边形AEBD是平行四边形，\n∴AE∥BD．\n∵BF∥AC，\n∴四边形AFBO是平行四边形．\n∵AC⊥BD，AE∥BD\n∴AE⊥AC，\n∴∠OAF＝90°，\n∴平行四边形AFBO是矩形．",
+    "（2） 矩形 AFBO 的对角线相等，所以 AB=OF=2。菱形边长为 2，故 BE=BC=2，EC=4。\n由 AE∥BD、BD⊥AC，△AEC 在 A 处为直角。∠E=30°，故 AC=EC/2=2，AE=2√3。\n在平行四边形 AEBD 中，BD=AE=2√3。菱形面积为 AC×BD/2=2√3。"
+  ],
+  "solution": "（1） 证明：∵四边形ABCD是菱形，\n∴AD∥BC，AC⊥BD，AD＝BC，\n∵BE＝BC，\n∴AD＝BE，\n∴四边形AEBD是平行四边形，\n∴AE∥BD．\n∵BF∥AC，\n∴四边形AFBO是平行四边形．\n∵AC⊥BD，AE∥BD\n∴AE⊥AC，\n∴∠OAF＝90°，\n∴平行四边形AFBO是矩形．\n（2） 矩形 AFBO 的对角线相等，所以 AB=OF=2。菱形边长为 2，故 BE=BC=2，EC=4。\n由 AE∥BD、BD⊥AC，△AEC 在 A 处为直角。∠E=30°，故 AC=EC/2=2，AE=2√3。\n在平行四边形 AEBD 中，BD=AE=2√3。菱形面积为 AC×BD/2=2√3。",
+  "solution_origin": "source_checked_with_correction",
+  "solution_figure_ids": [],
+  "review_note": "原卷第17题第（2）问已知 OF=2，求菱形面积；配套解析用另一版本的 BF=1 求 OF。依本卷条件重新计算。",
+  "source": {
+    "paper_body_blocks": [
+      52,
+      55
+    ],
+    "solution_body_blocks": [
+      375,
+      397
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-212D1748BC/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          568.18,
+          583.64,
+          746.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-212D1748BC/solution-q17-p21.webp",
+      "assets/SZ-G9-T1-212D1748BC/solution-q17-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          356.36,
+          583.64,
+          767.73
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          76.36,
+          583.64,
+          253.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G05.03"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G05.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 用矩形对角线求菱形边长，结合角度确定对角线长度及面积。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

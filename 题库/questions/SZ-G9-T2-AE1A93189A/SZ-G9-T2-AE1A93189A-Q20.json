@@ -1,0 +1,325 @@
+{
+  "id": "SZ-G9-T2-AE1A93189A-Q20",
+  "paper_id": "SZ-G9-T2-AE1A93189A",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "证明指定直线与圆相切、由勾股关系求直角三角形边长",
+  "stem": "如图，\\(AB\\)是\\(\\odot O\\)的直径，点\\(C\\)在\\(\\odot O\\)上；按下列步完成作图，并回答问题：\n〔图1〕\n①作\\(\\angle BAC\\)的平分线\\(AD\\)交\\(\\odot O\\)于点\\(D\\)，\n②过点\\(D\\)作直线\\(AC\\)的垂线，交\\(AC\\)的延长线于点\\(E\\)，\n③连接\\(BD，CD\\)，\n（1）求证：直线\\(DE\\)是\\(\\odot O\\)的切线；\n（2）若\\(DE=\\sqrt[] { 3 }\\)，\\(AB=4\\)，求\\(AD\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/45/45f7463f6182f0eec19ee5f9009b0c8f4542bc37d0498aa802ef6f72a49f23ed.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）作图见解析，证明见解析；\n（2）\\(2\\sqrt[] { 3 }\\)",
+  "answer": "（1）作图见解析，证明见解析；\n（2）\\(2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）取\\(BC\\)中点\\(Z\\)，作射线\\(OZ\\)交\\(\\odot O\\)于点\\(D\\)，连接\\(AD\\)，由\\(\\overset \\frown { BD }=\\overset \\frown { BC }\\)可得\\(AD\\)平分\\(\\angle BAC\\)，延长\\(BD\\)交于格点\\(X\\)，由中位线性质可知，取\\(CX\\)中点\\(E\\)即可得到\\(DY\\bot AC\\)，由矩形对角线性质即可得到点\\(E\\)，如图所示，按照要求作出图形后，连接\\(OD\\)，如图所示，由圆的性质、角平分线定义得到\\(\\angle ODA=\\angle CAD\\)，再由平行线的判定确定\\(OD\\parallel AE\\)，再由平行线性质即可得证；\n（2）过点\\(D\\)作\\(DF\\bot AB\\)于\\(F\\)，如图所示，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，由勾股定理得到\\(OF\\)长，从而求出角度得到\\(\\vartriangle OBD\\)是等边三角形，由等腰三角形性质及勾股定理求解即可得到答案．\n【小问1详解】\n根据题意，如图所示：\n〔图2〕\n证明：连接\\(OD\\)，如图所示：\n〔图3〕\n\\(\\because OA=OD\\)，\n\\(\\therefore \\angle OAD=\\angle ODA\\)，\n\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\n\\(\\therefore \\angle OAD=\\angle CAD\\)，\n\\(\\therefore \\angle ODA=\\angle CAD\\)，\n\\(\\therefore OD\\parallel AE\\)，\n\\(\\because DE\\bot AE\\)，\n\\(\\therefore DE\\bot OD\\)，\n\\(\\therefore\\)直线\\(DE\\)是\\(\\odot O\\)的切线；\n【小问2详解】\n解：过点\\(D\\)作\\(DF\\bot AB\\)于\\(F\\)，如图所示：\n〔图4〕\n\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\\(DE\\bot AE\\)，\\(DF\\bot AB\\)，\n\\(\\therefore DF=DE=\\sqrt[] { 3 }\\)，\n\\(\\because AB=4\\)，\n∴半径\\(OD=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OF=\\sqrt[] { OD ^ { 2 } -DF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=1\\)，\n\\(\\therefore \\angle ODF=30{}^\\circ\\)，\n\\(\\therefore \\angle DOB=60{}^\\circ\\)，\n\\(\\because OD=OB\\)，\n\\(\\therefore\\)\\(\\vartriangle OBD\\)是等边三角形，\n又\\(\\because DF\\bot AB\\)，\n\\(\\therefore OF=FB=\\frac { 1 } { 2 }OB=1\\)，\n\\(\\therefore AF=AB-FB=4-1=3\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 3 }\\)．\n【点睛】本题考查在网格中作图，涉及垂径定理、圆周角定理、三角形中位线性质、矩形性质、圆的性质、角平分线定义、平行线的判定与性质、圆的切线的判定、勾股定理、直角三角形性质、勾股定理、等边三角形的判定与性质等知识，根据题意，作出图形，灵活运用相关几何性质求解是解决问题的关键．",
+  "given_solution_figures": [
+    "assets/figures/45/45f7463f6182f0eec19ee5f9009b0c8f4542bc37d0498aa802ef6f72a49f23ed.png",
+    "assets/figures/77/77013c91d361906999c42effe25bdefc76aa0121e852b6be9d01d2de70d8eec5.png",
+    "assets/figures/25/25f6cd50583db25495a4a4e5a81c373a8619a36d98dbb27f45acde1e436c6b32.png",
+    "assets/figures/1f/1fe0498a54019dac2ba4822767c8fd23ed970505edb263ccdc6b246ac2554a35.png"
+  ],
+  "solution": "【小问1详解】\n根据题意，如图所示：\n〔图2〕\n证明：连接\\(OD\\)，如图所示：\n〔图3〕\n\\(\\because OA=OD\\)，\n\\(\\therefore \\angle OAD=\\angle ODA\\)，\n\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\n\\(\\therefore \\angle OAD=\\angle CAD\\)，\n\\(\\therefore \\angle ODA=\\angle CAD\\)，\n\\(\\therefore OD\\parallel AE\\)，\n\\(\\because DE\\bot AE\\)，\n\\(\\therefore DE\\bot OD\\)，\n\\(\\therefore\\)直线\\(DE\\)是\\(\\odot O\\)的切线；\n【小问2详解】\n解：过点\\(D\\)作\\(DF\\bot AB\\)于\\(F\\)，如图所示：\n〔图4〕\n\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\\(DE\\bot AE\\)，\\(DF\\bot AB\\)，\n\\(\\therefore DF=DE=\\sqrt[] { 3 }\\)，\n\\(\\because AB=4\\)，\n∴半径\\(OD=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OF=\\sqrt[] { OD ^ { 2 } -DF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=1\\)，\n\\(\\therefore \\angle ODF=30{}^\\circ\\)，\n\\(\\therefore \\angle DOB=60{}^\\circ\\)，\n\\(\\because OD=OB\\)，\n\\(\\therefore\\)\\(\\vartriangle OBD\\)是等边三角形，\n又\\(\\because DF\\bot AB\\)，\n\\(\\therefore OF=FB=\\frac { 1 } { 2 }OB=1\\)，\n\\(\\therefore AF=AB-FB=4-1=3\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "根据题意，如图所示：",
+    "〔图2〕",
+    "证明：连接\\(OD\\)，如图所示：",
+    "〔图3〕",
+    "\\(\\because OA=OD\\)，",
+    "\\(\\therefore \\angle OAD=\\angle ODA\\)，",
+    "\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，",
+    "\\(\\therefore \\angle OAD=\\angle CAD\\)，",
+    "\\(\\therefore \\angle ODA=\\angle CAD\\)，",
+    "\\(\\therefore OD\\parallel AE\\)，",
+    "\\(\\because DE\\bot AE\\)，",
+    "\\(\\therefore DE\\bot OD\\)，",
+    "\\(\\therefore\\)直线\\(DE\\)是\\(\\odot O\\)的切线；",
+    "【小问2详解】",
+    "解：过点\\(D\\)作\\(DF\\bot AB\\)于\\(F\\)，如图所示：",
+    "〔图4〕",
+    "\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\\(DE\\bot AE\\)，\\(DF\\bot AB\\)，",
+    "\\(\\therefore DF=DE=\\sqrt[] { 3 }\\)，",
+    "\\(\\because AB=4\\)，",
+    "∴半径\\(OD=2\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OF=\\sqrt[] { OD ^ { 2 } -DF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=1\\)，",
+    "\\(\\therefore \\angle ODF=30{}^\\circ\\)，",
+    "\\(\\therefore \\angle DOB=60{}^\\circ\\)，",
+    "\\(\\because OD=OB\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle OBD\\)是等边三角形，",
+    "又\\(\\because DF\\bot AB\\)，",
+    "\\(\\therefore OF=FB=\\frac { 1 } { 2 }OB=1\\)，",
+    "\\(\\therefore AF=AB-FB=4-1=3\\)，",
+    "\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，\\(AB\\)是\\(\\odot O\\)的直径，点\\(C\\)在\\(\\odot O\\)上；按下列步完成作图，并回答问题：\n〔图1〕\n①作\\(\\angle BAC\\)的平分线\\(AD\\)交\\(\\odot O\\)于点\\(D\\)，\n②过点\\(D\\)作直线\\(AC\\)的垂线，交\\(AC\\)的延长线于点\\(E\\)，\n③连接\\(BD，CD\\)，",
+      "paper_blocks": [
+        61,
+        62,
+        63,
+        64,
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-AE1A93189A-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：直线\\(DE\\)是\\(\\odot O\\)的切线；",
+      "stem_text": "求证：直线\\(DE\\)是\\(\\odot O\\)的切线；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "作图见解析，证明见解析；",
+      "answer": "作图见解析，证明见解析；",
+      "given_solution": "根据题意，如图所示：\n〔图2〕\n证明：连接\\(OD\\)，如图所示：\n〔图3〕\n\\(\\because OA=OD\\)，\n\\(\\therefore \\angle OAD=\\angle ODA\\)，\n\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\n\\(\\therefore \\angle OAD=\\angle CAD\\)，\n\\(\\therefore \\angle ODA=\\angle CAD\\)，\n\\(\\therefore OD\\parallel AE\\)，\n\\(\\because DE\\bot AE\\)，\n\\(\\therefore DE\\bot OD\\)，\n\\(\\therefore\\)直线\\(DE\\)是\\(\\odot O\\)的切线；",
+      "solution_steps": [
+        "根据题意，如图所示：",
+        "〔图2〕",
+        "证明：连接\\(OD\\)，如图所示：",
+        "〔图3〕",
+        "\\(\\because OA=OD\\)，",
+        "\\(\\therefore \\angle OAD=\\angle ODA\\)，",
+        "\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，",
+        "\\(\\therefore \\angle OAD=\\angle CAD\\)，",
+        "\\(\\therefore \\angle ODA=\\angle CAD\\)，",
+        "\\(\\therefore OD\\parallel AE\\)，",
+        "\\(\\because DE\\bot AE\\)，",
+        "\\(\\therefore DE\\bot OD\\)，",
+        "\\(\\therefore\\)直线\\(DE\\)是\\(\\odot O\\)的切线；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“证明指定直线与圆相切”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-AE1A93189A-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(DE=\\sqrt[] { 3 }\\)，\\(AB=4\\)，求\\(AD\\)的长．",
+      "stem_text": "若\\(DE=\\sqrt[] { 3 }\\)，\\(AB=4\\)，求\\(AD\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }\\)",
+      "answer": "\\(2\\sqrt[] { 3 }\\)",
+      "given_solution": "解：过点\\(D\\)作\\(DF\\bot AB\\)于\\(F\\)，如图所示：\n〔图4〕\n\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\\(DE\\bot AE\\)，\\(DF\\bot AB\\)，\n\\(\\therefore DF=DE=\\sqrt[] { 3 }\\)，\n\\(\\because AB=4\\)，\n∴半径\\(OD=2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OF=\\sqrt[] { OD ^ { 2 } -DF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=1\\)，\n\\(\\therefore \\angle ODF=30{}^\\circ\\)，\n\\(\\therefore \\angle DOB=60{}^\\circ\\)，\n\\(\\because OD=OB\\)，\n\\(\\therefore\\)\\(\\vartriangle OBD\\)是等边三角形，\n又\\(\\because DF\\bot AB\\)，\n\\(\\therefore OF=FB=\\frac { 1 } { 2 }OB=1\\)，\n\\(\\therefore AF=AB-FB=4-1=3\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：过点\\(D\\)作\\(DF\\bot AB\\)于\\(F\\)，如图所示：",
+        "〔图4〕",
+        "\\(\\because\\)\\(AD\\)平分角\\(\\angle BAC\\)，\\(DE\\bot AE\\)，\\(DF\\bot AB\\)，",
+        "\\(\\therefore DF=DE=\\sqrt[] { 3 }\\)，",
+        "\\(\\because AB=4\\)，",
+        "∴半径\\(OD=2\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ODF\\)中，\\(OF=\\sqrt[] { OD ^ { 2 } -DF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=1\\)，",
+        "\\(\\therefore \\angle ODF=30{}^\\circ\\)，",
+        "\\(\\therefore \\angle DOB=60{}^\\circ\\)，",
+        "\\(\\because OD=OB\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle OBD\\)是等边三角形，",
+        "又\\(\\because DF\\bot AB\\)，",
+        "\\(\\therefore OF=FB=\\frac { 1 } { 2 }OB=1\\)，",
+        "\\(\\therefore AF=AB-FB=4-1=3\\)，",
+        "\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADF\\)中，\\(AD=\\sqrt[] { AF ^ { 2 } +DF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      67
+    ],
+    "solution_body_blocks": [
+      315,
+      357
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-AE1A93189A/paper-q20-p05.webp",
+      "assets/SZ-G9-T2-AE1A93189A/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          685.91,
+          583.64,
+          700.45
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          272.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-AE1A93189A/solution-q20-p18.webp",
+      "assets/SZ-G9-T2-AE1A93189A/solution-q20-p19.webp",
+      "assets/SZ-G9-T2-AE1A93189A/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          284.55,
+          583.64,
+          696.82
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          197.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“证明指定直线与圆相切”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

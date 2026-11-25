@@ -1,0 +1,247 @@
+{
+  "id": "SZ-G9-T1-CB94B97422-Q20",
+  "paper_id": "SZ-G9-T1-CB94B97422",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系",
+  "stem": "在Rt△ABC中，∠BAC＝90°，D是BC的中点，E是AD的中点，过点A作AF∥BC交BE的延长线于点F．\n（1）求证：四边形ADCF是菱形；\n（2）若AC＝4，AB＝5，求菱形ADCF的面积．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-CB94B97422/figures/edbf0f1c01f9a38ae2c493739c7b40eacea88af4a09962bdf30638b3fb17886c.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在Rt△ABC中，∠BAC＝90°，D是BC的中点，E是AD的中点，过点A作AF∥BC交BE的延长线于点F．",
+      "paper_blocks": [
+        69
+      ]
+    },
+    {
+      "id": "fig-72",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-CB94B97422-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形ADCF是菱形；",
+      "stem_text": "求证：四边形ADCF是菱形；",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：如图，∵AF∥BC，\n∴∠AFE＝∠DBE，\n∵E是AD的中点，AD是BC边上的中线， \n∴AE＝DE，BD＝CD，\n在△AFE和△DBE中，\n\\(\\begin{cases} \\angle AFE＝\\angle DBE \\\\ \\angle FEA＝\\angle BED \\\\ AE＝DE \\end{cases}\\)，\n∴△AFE≌△DBE（AAS）；\n∴AF＝DB．\n∵DB＝DC，\n∴AF＝CD，\n∴四边形ADCF是平行四边形，\n∵∠BAC＝90°，D是BC的中点，\n∴AD＝DC＝\\(\\frac { 1 } { 2 }\\)BC，\n∴四边形ADCF是菱形；",
+      "solution_steps": [
+        "证明：如图，∵AF∥BC，",
+        "∴∠AFE＝∠DBE，",
+        "∵E是AD的中点，AD是BC边上的中线，",
+        "∴AE＝DE，BD＝CD，",
+        "在△AFE和△DBE中，",
+        "\\(\\begin{cases} \\angle AFE＝\\angle DBE \\\\ \\angle FEA＝\\angle BED \\\\ AE＝DE \\end{cases}\\)，",
+        "∴△AFE≌△DBE（AAS）；",
+        "∴AF＝DB．",
+        "∵DB＝DC，",
+        "∴AF＝CD，",
+        "∴四边形ADCF是平行四边形，",
+        "∵∠BAC＝90°，D是BC的中点，",
+        "∴AD＝DC＝\\(\\frac { 1 } { 2 }\\)BC，",
+        "∴四边形ADCF是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          365
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CB94B97422-Q20-P02",
+      "label": "（2）",
+      "prompt": "若AC＝4，AB＝5，求菱形ADCF的面积．",
+      "stem_text": "若AC＝4，AB＝5，求菱形ADCF的面积．",
+      "material_ids": [
+        "context",
+        "fig-72"
+      ],
+      "requires": [],
+      "given_answer": "\\(10\\)",
+      "answer": "\\(10\\)",
+      "given_solution": "解：连接DF，\n〔图1〕\n∵AF∥BC，AF＝BD，\n∴四边形ABDF是平行四边形，\n∴DF＝AB＝5，\n∵四边形ADCF是菱形，\n∴S＝\\(\\frac { 1 } { 2 }\\)AC•DF＝10．",
+      "solution_steps": [
+        "解：连接DF，",
+        "〔图1〕",
+        "∵AF∥BC，AF＝BD，",
+        "∴四边形ABDF是平行四边形，",
+        "∴DF＝AB＝5，",
+        "∵四边形ADCF是菱形，",
+        "∴S＝\\(\\frac { 1 } { 2 }\\)AC•DF＝10．"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          365,
+          366
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“菱形性质与判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“菱形”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "（1）见解析；（2）\\(10\\)",
+  "given_solution": "【解析】\n【分析】（1）由E是AD的中点，AF∥BC，易证得△AFE≌△DBE，即可得AF＝BD，又由在Rt△ABC中，∠BAC＝90°，D是BC的中点，可得AD＝BD＝CD＝AF，证得四边形ADCF是平行四边形，继而判定四边形ADCF是菱形；\n（2）首先连接DF，易得四边形ABDF是平行四边形，即可求得DF的长，然后由菱形的面积等于其对角线积的一半，求得答案．\n【详解】（1）证明：如图，∵AF∥BC，\n∴∠AFE＝∠DBE，\n∵E是AD的中点，AD是BC边上的中线， \n∴AE＝DE，BD＝CD，\n在△AFE和△DBE中，\n\\(\\begin{cases} \\angle AFE＝\\angle DBE \\\\ \\angle FEA＝\\angle BED \\\\ AE＝DE \\end{cases}\\)，\n∴△AFE≌△DBE（AAS）；\n∴AF＝DB．\n∵DB＝DC，\n∴AF＝CD，\n∴四边形ADCF是平行四边形，\n∵∠BAC＝90°，D是BC的中点，\n∴AD＝DC＝\\(\\frac { 1 } { 2 }\\)BC，\n∴四边形ADCF是菱形；\n（2）解：连接DF，\n〔图1〕\n∵AF∥BC，AF＝BD，\n∴四边形ABDF是平行四边形，\n∴DF＝AB＝5，\n∵四边形ADCF是菱形，\n∴S＝\\(\\frac { 1 } { 2 }\\)AC•DF＝10．\n【点睛】此题考查了菱形的判定与性质以及全等三角形的判定与性质．注意根据题意画出图形，结合图形求解是关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-CB94B97422/figures/ca15dbe19e7b201520a2f9d617e84c6e920ccdadd125f851b0f6cd422e53ad1f.png"
+  ],
+  "answer": "（1）见解析；（2）\\(10\\)",
+  "solution_steps": [
+    "（1）证明：如图，∵AF∥BC，",
+    "∴∠AFE＝∠DBE，",
+    "∵E是AD的中点，AD是BC边上的中线，",
+    "∴AE＝DE，BD＝CD，",
+    "在△AFE和△DBE中，",
+    "\\(\\begin{cases} \\angle AFE＝\\angle DBE \\\\ \\angle FEA＝\\angle BED \\\\ AE＝DE \\end{cases}\\)，",
+    "∴△AFE≌△DBE（AAS）；",
+    "∴AF＝DB．",
+    "∵DB＝DC，",
+    "∴AF＝CD，",
+    "∴四边形ADCF是平行四边形，",
+    "∵∠BAC＝90°，D是BC的中点，",
+    "∴AD＝DC＝\\(\\frac { 1 } { 2 }\\)BC，",
+    "∴四边形ADCF是菱形；",
+    "（2）解：连接DF，",
+    "〔图1〕",
+    "∵AF∥BC，AF＝BD，",
+    "∴四边形ABDF是平行四边形，",
+    "∴DF＝AB＝5，",
+    "∵四边形ADCF是菱形，",
+    "∴S＝\\(\\frac { 1 } { 2 }\\)AC•DF＝10．"
+  ],
+  "solution": "（1）证明：如图，∵AF∥BC，\n∴∠AFE＝∠DBE，\n∵E是AD的中点，AD是BC边上的中线，\n∴AE＝DE，BD＝CD，\n在△AFE和△DBE中，\n\\(\\begin{cases} \\angle AFE＝\\angle DBE \\\\ \\angle FEA＝\\angle BED \\\\ AE＝DE \\end{cases}\\)，\n∴△AFE≌△DBE（AAS）；\n∴AF＝DB．\n∵DB＝DC，\n∴AF＝CD，\n∴四边形ADCF是平行四边形，\n∵∠BAC＝90°，D是BC的中点，\n∴AD＝DC＝\\(\\frac { 1 } { 2 }\\)BC，\n∴四边形ADCF是菱形；\n（2）解：连接DF，\n〔图1〕\n∵AF∥BC，AF＝BD，\n∴四边形ABDF是平行四边形，\n∴DF＝AB＝5，\n∵四边形ADCF是菱形，\n∴S＝\\(\\frac { 1 } { 2 }\\)AC•DF＝10．",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      72
+    ],
+    "solution_body_blocks": [
+      362,
+      368
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-CB94B97422/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          540.91,
+          583.64,
+          705.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-CB94B97422/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-CB94B97422/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          710.0,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          743.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G05.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“菱形性质与判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 题目涉及“菱形”，按题面与解答定位知识主题。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

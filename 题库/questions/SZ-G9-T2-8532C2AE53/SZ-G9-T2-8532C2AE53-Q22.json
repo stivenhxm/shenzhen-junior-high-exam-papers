@@ -1,0 +1,331 @@
+{
+  "id": "SZ-G9-T2-8532C2AE53-Q22",
+  "paper_id": "SZ-G9-T2-8532C2AE53",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、选择充分条件证明三角形全等",
+  "stem": "如下图，反比例函数\\(y_{ 1 } =\\frac { k_{ 1 } } { x }\\left ( { k_{ 1 } \\ne 0 } \\right )\\)与一次函数\\(y_{ 2 } =k_{ 2 } x+b\\left ( { k_{ 2 } \\ne 0 } \\right )\\)的图象都经过点\\(A(1,m)\\)和点\\(B(-2,-2)\\)，以\\(AB\\)为边作正方形\\(ABCD\\)（点A、B、C、D逆时针排列）．\n〔图1〕\n（1）求m的值和一次函数\\(y_{ 2 }\\)的解析式．\n（2）求点C的坐标．\n（3）将正方形\\(ABCD\\)平移得到正方形\\(MNPQ\\)，在平移过程中，使点A的对应顶点M始终在第一象限内且在反比例函数\\(y_{ 1 }\\)的图象上（点M与点A不重合），当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时，求重叠正方形的边长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/54/54fb0983cfde5cb2876361f2cc0fd4931ddf4b0c9726281d0d67663d32eb28db.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(m=4\\)，\\(y=2x+2\\)\n（2）\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)\n（3）\\(\\frac { 8\\sqrt[] { 5 } } { 3 }\\)",
+  "answer": "（1）\\(m=4\\)，\\(y=2x+2\\)\n（2）\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)\n（3）\\(\\frac { 8\\sqrt[] { 5 } } { 3 }\\)",
+  "given_solution": "【分析】本题考查的是反比例函数综合运用，涉及到正方形的性质、图象的平移等，其中，确定点\\(M\\)在\\(AC\\)上是解题的关键.\n（1）由待定系数法即可求解；\n（2）证明\\(\\vartriangle BGA≌\\vartriangle CHB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right ),\\)即可求解；\n（3）当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时，则点\\(M\\)在\\(AC\\)上，进而求解.\n【小问1详解】\n将点\\(A、B\\)的坐标代入反比例函数表达式得：\\(k_{ 1 } =-2\\times \\left ( { -2 } \\right )=1\\times m\\)，\n解得： \\(m=4,\\)\n将点\\(A\\left ( { 1,4 } \\right )\\)、B的坐标代入函数表达式得：\n\\(\\begin{cases} 4=k_{ 2 } +b \\\\ -2=-2k_{ 2 } +b \\end{cases},\\) 解得： \\(\\begin{cases} k_{ 2 } =2 \\\\ b=2 \\end{cases},\\)\n则一次函数的表达式为：\\(y=2x+2\\)；\n【小问2详解】\n过点\\(B\\)作\\(y\\)轴的平行线交过点\\(A\\)和\\(x\\)轴的平行线于点\\(G\\)，交故点\\(C\\)和\\(x\\)轴的平行线于点\\(H\\)，\n〔图2〕\n\\(\\because \\angle GBA+\\angle CBH=90{}^\\circ ,\\angle CBH+\\angle HBC=90{}^\\circ\\)，\n\\(\\therefore \\angle GAB=\\angle HBC\\)，\n\\(\\because \\angle BGA=\\angle CHB=90{}^\\circ ,AB=CB\\)，\n\\(\\therefore \\vartriangle BGA≌\\vartriangle CHB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CH=GB=4-\\left ( { -2 } \\right )=6,\\) \\(BH=GA=1-\\left ( { -2 } \\right )=3,\\)\n∴点\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)；\n【小问3详解】\n当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时, 则点\\(M\\)在\\(AC\\)上,\n〔图3〕\n由点\\(A、C\\)的坐标得，直线\\(AC\\)的表达式为：\\(y=-3x+7,\\)\n由（1）知，反比例函数表达式为：\\(y=\\frac { 4 } { x }\\)，\n联立上述两个函数表达式得： \\(-3x+7=\\frac { 4 } { x }\\)，\n解得：\\(x=1\\)(舍去)或 \\(\\frac { 4 } { 3 }\\)，\n即点\\(M\\left ( { \\frac { 4 } { 3 }{ \\rm{ , } }3 } \\right )\\)，\n由点\\(C、M\\)的坐标得，\\(CM=\\frac { 8\\sqrt[] { 10 } } { 3 },\\)\n则重叠正方形的边长为\\(\\frac { \\sqrt[] { 2 } } { 2 }CM=\\frac { 8\\sqrt[] { 5 } } { 3 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/54/54fb0983cfde5cb2876361f2cc0fd4931ddf4b0c9726281d0d67663d32eb28db.png",
+    "assets/figures/50/501e7f995ab9c5a4fe3fb2d80f36e2182c0b354c9afec8b0aed5dd03e194f634.png",
+    "assets/figures/e0/e0151142eb0cf5d57f72e3feaa2f9b2e6b77f0b5843c992a8d156bc6c0d72cc0.png"
+  ],
+  "solution": "【小问1详解】\n将点\\(A、B\\)的坐标代入反比例函数表达式得：\\(k_{ 1 } =-2\\times \\left ( { -2 } \\right )=1\\times m\\)，\n解得： \\(m=4,\\)\n将点\\(A\\left ( { 1,4 } \\right )\\)、B的坐标代入函数表达式得：\n\\(\\begin{cases} 4=k_{ 2 } +b \\\\ -2=-2k_{ 2 } +b \\end{cases},\\) 解得： \\(\\begin{cases} k_{ 2 } =2 \\\\ b=2 \\end{cases},\\)\n则一次函数的表达式为：\\(y=2x+2\\)；\n【小问2详解】\n过点\\(B\\)作\\(y\\)轴的平行线交过点\\(A\\)和\\(x\\)轴的平行线于点\\(G\\)，交故点\\(C\\)和\\(x\\)轴的平行线于点\\(H\\)，\n〔图2〕\n\\(\\because \\angle GBA+\\angle CBH=90{}^\\circ ,\\angle CBH+\\angle HBC=90{}^\\circ\\)，\n\\(\\therefore \\angle GAB=\\angle HBC\\)，\n\\(\\because \\angle BGA=\\angle CHB=90{}^\\circ ,AB=CB\\)，\n\\(\\therefore \\vartriangle BGA≌\\vartriangle CHB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CH=GB=4-\\left ( { -2 } \\right )=6,\\) \\(BH=GA=1-\\left ( { -2 } \\right )=3,\\)\n∴点\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)；\n【小问3详解】\n当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时, 则点\\(M\\)在\\(AC\\)上,\n〔图3〕\n由点\\(A、C\\)的坐标得，直线\\(AC\\)的表达式为：\\(y=-3x+7,\\)\n由（1）知，反比例函数表达式为：\\(y=\\frac { 4 } { x }\\)，\n联立上述两个函数表达式得： \\(-3x+7=\\frac { 4 } { x }\\)，\n解得：\\(x=1\\)(舍去)或 \\(\\frac { 4 } { 3 }\\)，\n即点\\(M\\left ( { \\frac { 4 } { 3 }{ \\rm{ , } }3 } \\right )\\)，\n由点\\(C、M\\)的坐标得，\\(CM=\\frac { 8\\sqrt[] { 10 } } { 3 },\\)\n则重叠正方形的边长为\\(\\frac { \\sqrt[] { 2 } } { 2 }CM=\\frac { 8\\sqrt[] { 5 } } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "将点\\(A、B\\)的坐标代入反比例函数表达式得：\\(k_{ 1 } =-2\\times \\left ( { -2 } \\right )=1\\times m\\)，",
+    "解得： \\(m=4,\\)",
+    "将点\\(A\\left ( { 1,4 } \\right )\\)、B的坐标代入函数表达式得：",
+    "\\(\\begin{cases} 4=k_{ 2 } +b \\\\ -2=-2k_{ 2 } +b \\end{cases},\\) 解得： \\(\\begin{cases} k_{ 2 } =2 \\\\ b=2 \\end{cases},\\)",
+    "则一次函数的表达式为：\\(y=2x+2\\)；",
+    "【小问2详解】",
+    "过点\\(B\\)作\\(y\\)轴的平行线交过点\\(A\\)和\\(x\\)轴的平行线于点\\(G\\)，交故点\\(C\\)和\\(x\\)轴的平行线于点\\(H\\)，",
+    "〔图2〕",
+    "\\(\\because \\angle GBA+\\angle CBH=90{}^\\circ ,\\angle CBH+\\angle HBC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle GAB=\\angle HBC\\)，",
+    "\\(\\because \\angle BGA=\\angle CHB=90{}^\\circ ,AB=CB\\)，",
+    "\\(\\therefore \\vartriangle BGA≌\\vartriangle CHB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(CH=GB=4-\\left ( { -2 } \\right )=6,\\) \\(BH=GA=1-\\left ( { -2 } \\right )=3,\\)",
+    "∴点\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)；",
+    "【小问3详解】",
+    "当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时, 则点\\(M\\)在\\(AC\\)上,",
+    "〔图3〕",
+    "由点\\(A、C\\)的坐标得，直线\\(AC\\)的表达式为：\\(y=-3x+7,\\)",
+    "由（1）知，反比例函数表达式为：\\(y=\\frac { 4 } { x }\\)，",
+    "联立上述两个函数表达式得： \\(-3x+7=\\frac { 4 } { x }\\)，",
+    "解得：\\(x=1\\)(舍去)或 \\(\\frac { 4 } { 3 }\\)，",
+    "即点\\(M\\left ( { \\frac { 4 } { 3 }{ \\rm{ , } }3 } \\right )\\)，",
+    "由点\\(C、M\\)的坐标得，\\(CM=\\frac { 8\\sqrt[] { 10 } } { 3 },\\)",
+    "则重叠正方形的边长为\\(\\frac { \\sqrt[] { 2 } } { 2 }CM=\\frac { 8\\sqrt[] { 5 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如下图，反比例函数\\(y_{ 1 } =\\frac { k_{ 1 } } { x }\\left ( { k_{ 1 } \\ne 0 } \\right )\\)与一次函数\\(y_{ 2 } =k_{ 2 } x+b\\left ( { k_{ 2 } \\ne 0 } \\right )\\)的图象都经过点\\(A(1,m)\\)和点\\(B(-2,-2)\\)，以\\(AB\\)为边作正方形\\(ABCD\\)（点A、B、C、D逆时针排列）．\n〔图1〕",
+      "paper_blocks": [
+        72,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-8532C2AE53-Q22-P01",
+      "label": "（1）",
+      "prompt": "求m的值和一次函数\\(y_{ 2 }\\)的解析式．",
+      "stem_text": "求m的值和一次函数\\(y_{ 2 }\\)的解析式．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(m=4\\)，\\(y=2x+2\\)",
+      "answer": "\\(m=4\\)，\\(y=2x+2\\)",
+      "given_solution": "将点\\(A、B\\)的坐标代入反比例函数表达式得：\\(k_{ 1 } =-2\\times \\left ( { -2 } \\right )=1\\times m\\)，\n解得： \\(m=4,\\)\n将点\\(A\\left ( { 1,4 } \\right )\\)、B的坐标代入函数表达式得：\n\\(\\begin{cases} 4=k_{ 2 } +b \\\\ -2=-2k_{ 2 } +b \\end{cases},\\) 解得： \\(\\begin{cases} k_{ 2 } =2 \\\\ b=2 \\end{cases},\\)\n则一次函数的表达式为：\\(y=2x+2\\)；",
+      "solution_steps": [
+        "将点\\(A、B\\)的坐标代入反比例函数表达式得：\\(k_{ 1 } =-2\\times \\left ( { -2 } \\right )=1\\times m\\)，",
+        "解得： \\(m=4,\\)",
+        "将点\\(A\\left ( { 1,4 } \\right )\\)、B的坐标代入函数表达式得：",
+        "\\(\\begin{cases} 4=k_{ 2 } +b \\\\ -2=-2k_{ 2 } +b \\end{cases},\\) 解得： \\(\\begin{cases} k_{ 2 } =2 \\\\ b=2 \\end{cases},\\)",
+        "则一次函数的表达式为：\\(y=2x+2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          426,
+          427,
+          428,
+          429,
+          430
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-8532C2AE53-Q22-P02",
+      "label": "（2）",
+      "prompt": "求点C的坐标．",
+      "stem_text": "求点C的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)",
+      "answer": "\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)",
+      "given_solution": "过点\\(B\\)作\\(y\\)轴的平行线交过点\\(A\\)和\\(x\\)轴的平行线于点\\(G\\)，交故点\\(C\\)和\\(x\\)轴的平行线于点\\(H\\)，\n〔图2〕\n\\(\\because \\angle GBA+\\angle CBH=90{}^\\circ ,\\angle CBH+\\angle HBC=90{}^\\circ\\)，\n\\(\\therefore \\angle GAB=\\angle HBC\\)，\n\\(\\because \\angle BGA=\\angle CHB=90{}^\\circ ,AB=CB\\)，\n\\(\\therefore \\vartriangle BGA≌\\vartriangle CHB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CH=GB=4-\\left ( { -2 } \\right )=6,\\) \\(BH=GA=1-\\left ( { -2 } \\right )=3,\\)\n∴点\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)；",
+      "solution_steps": [
+        "过点\\(B\\)作\\(y\\)轴的平行线交过点\\(A\\)和\\(x\\)轴的平行线于点\\(G\\)，交故点\\(C\\)和\\(x\\)轴的平行线于点\\(H\\)，",
+        "〔图2〕",
+        "\\(\\because \\angle GBA+\\angle CBH=90{}^\\circ ,\\angle CBH+\\angle HBC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle GAB=\\angle HBC\\)，",
+        "\\(\\because \\angle BGA=\\angle CHB=90{}^\\circ ,AB=CB\\)，",
+        "\\(\\therefore \\vartriangle BGA≌\\vartriangle CHB\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(CH=GB=4-\\left ( { -2 } \\right )=6,\\) \\(BH=GA=1-\\left ( { -2 } \\right )=3,\\)",
+        "∴点\\(C\\left ( { 4{ \\rm{ , } }-5 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-8532C2AE53-Q22-P03",
+      "label": "（3）",
+      "prompt": "将正方形\\(ABCD\\)平移得到正方形\\(MNPQ\\)，在平移过程中，使点A的对应顶点M始终在第一象限内且在反比例函数\\(y_{ 1 }\\)的图象上（点M与点A不重合），当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时，求重叠正方形的边长．",
+      "stem_text": "将正方形\\(ABCD\\)平移得到正方形\\(MNPQ\\)，在平移过程中，使点A的对应顶点M始终在第一象限内且在反比例函数\\(y_{ 1 }\\)的图象上（点M与点A不重合），当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时，求重叠正方形的边长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 8\\sqrt[] { 5 } } { 3 }\\)",
+      "answer": "\\(\\frac { 8\\sqrt[] { 5 } } { 3 }\\)",
+      "given_solution": "当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时, 则点\\(M\\)在\\(AC\\)上,\n〔图3〕\n由点\\(A、C\\)的坐标得，直线\\(AC\\)的表达式为：\\(y=-3x+7,\\)\n由（1）知，反比例函数表达式为：\\(y=\\frac { 4 } { x }\\)，\n联立上述两个函数表达式得： \\(-3x+7=\\frac { 4 } { x }\\)，\n解得：\\(x=1\\)(舍去)或 \\(\\frac { 4 } { 3 }\\)，\n即点\\(M\\left ( { \\frac { 4 } { 3 }{ \\rm{ , } }3 } \\right )\\)，\n由点\\(C、M\\)的坐标得，\\(CM=\\frac { 8\\sqrt[] { 10 } } { 3 },\\)\n则重叠正方形的边长为\\(\\frac { \\sqrt[] { 2 } } { 2 }CM=\\frac { 8\\sqrt[] { 5 } } { 3 }\\)．",
+      "solution_steps": [
+        "当正方形\\(MNPQ\\)与正方形\\(ABCD\\)的重叠部分为正方形时, 则点\\(M\\)在\\(AC\\)上,",
+        "〔图3〕",
+        "由点\\(A、C\\)的坐标得，直线\\(AC\\)的表达式为：\\(y=-3x+7,\\)",
+        "由（1）知，反比例函数表达式为：\\(y=\\frac { 4 } { x }\\)，",
+        "联立上述两个函数表达式得： \\(-3x+7=\\frac { 4 } { x }\\)，",
+        "解得：\\(x=1\\)(舍去)或 \\(\\frac { 4 } { 3 }\\)，",
+        "即点\\(M\\left ( { \\frac { 4 } { 3 }{ \\rm{ , } }3 } \\right )\\)，",
+        "由点\\(C、M\\)的坐标得，\\(CM=\\frac { 8\\sqrt[] { 10 } } { 3 },\\)",
+        "则重叠正方形的边长为\\(\\frac { \\sqrt[] { 2 } } { 2 }CM=\\frac { 8\\sqrt[] { 5 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73,
+          76
+        ],
+        "solution_block_ids": [
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N12.01"
+      ],
+      "exam_ids": [
+        "E.N12.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“依据反比例系数判断分支与增减性”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      72,
+      76
+    ],
+    "solution_body_blocks": [
+      412,
+      449
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-8532C2AE53/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          374.09,
+          583.64,
+          696.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-8532C2AE53/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-8532C2AE53/solution-q22-p24.webp",
+      "assets/SZ-G9-T2-8532C2AE53/solution-q22-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          194.09,
+          583.64,
+          689.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          741.36
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          85.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G03.02",
+    "M.G03.01",
+    "M.N12.01"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.N12.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由两点或表格条件确定一次表达式”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问题面与解答对应“依据反比例系数判断分支与增减性”。",
+  "tag_source": "小问标签汇总"
+}

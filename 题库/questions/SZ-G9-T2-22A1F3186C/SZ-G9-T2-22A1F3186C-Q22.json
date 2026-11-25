@@ -1,0 +1,475 @@
+{
+  "id": "SZ-G9-T2-22A1F3186C-Q22",
+  "paper_id": "SZ-G9-T2-22A1F3186C",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、由相似比求对应线段或周长",
+  "stem": "【问题背景】如图1，两条相等的线段\\(AB\\)，\\(CD\\)交于点O，\\(\\angle AOC=60{}^\\circ\\)，连接\\(AC\\)，\\(BD\\)，求证：\\(AC+BD\\ge CD\\)．\n证明：过点C作\\(AB\\)的平行线，过点B作\\(AC\\)的平行线，两平行线交于点E，连接\\(DE\\)．\n\\(\\because AB\\parallel CE\\)，\\(AC\\parallel BE\\)．\n\\(\\therefore\\)四边形\\(ABEC\\)为平行四边形，则\\(AC=\\)__________，\\(AB=CE\\)．\n\\(\\because AB\\parallel CE\\)，\n\\(\\therefore \\angle DCE=\\angle AOC=60{}^\\circ\\)．\n又\\(\\because CD=AB=CE\\)，\n\\(\\therefore \\vartriangle DCE\\)为等边三角形，\\(CD=\\)__________．\n\\(\\therefore AC+BD=BE+BD\\ge DE=CD\\)，即\\(AC+BD\\ge CD\\)．\n〔图1〕\n（1）请完成证明中的两个填空．\n（2）【迁移应用】如图2，矩形\\(ABCD\\)中，\\(AB=4\\)，\\(AD=3\\)，点M在边\\(AB\\)上，点\\(N\\)在边\\(CD\\)上，点O在\\(MN\\)上，过点O作\\(MN\\)的垂线，交\\(AD\\)于点F，交\\(BC\\)于点E．\n①求出\\(\\frac { MN } { EF }\\)的值；\n②求\\(FM+NE\\)的最小值．\n（3）【联系拓展】如图3，\\(\\vartriangle ABC\\)为等腰三角形，\\(AB=AC\\)，过点A作\\(BC\\)的平行线l，点D在直线\\(l\\)上，点A到\\(BD\\)的距离为2，求线段\\(CD\\)的最小值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/b6/b622b3c21e2ddd03e44e7b267702ebb8b9963f7c0effd444407ab45f46b1e05c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BE\\)，\\(DE\\)\n（2）①\\(\\frac { 3 } { 4 }\\)，②5\n（3）4",
+  "answer": "（1）\\(BE\\)，\\(DE\\)\n（2）①\\(\\frac { 3 } { 4 }\\)，②5\n（3）4",
+  "given_solution": "【分析】（1）利用平行四边形的性质以及等边三角形的性质即可解答\n（2）①作\\(NH\\bot AB\\)，\\(FI\\bot BC\\)，证明\\(\\vartriangle FIE\\backsim \\vartriangle NHM\\)可得结论；②以\\(EF，FM\\)为邻边作平行四边形\\(FMGE\\)，连接NG，利用平行四边形的性质与\\(\\frac { MN } { EF }=\\frac { 3 } { 4 }\\)，得到\\(FM+NE=EG+EN\\ge NG=\\frac { 5 } { 3 }MN\\)，从而可得答案；\n（3）以\\(AD\\)，\\(AB\\)为邻边作平行四边形\\(ADPB\\)，连接\\(PA\\)交\\(BD\\)于O，证明\\(\\vartriangle DPC≌\\vartriangle ACP\\)，得\\(DC=AP\\)，求出的\\(PA\\)最小值即可．\n【小问1详解】\n问题背景：根据平行四边形的性质可知\\(AC=BE\\)，根据等边三角形的性质可知\\(CD=DE\\)，\n故答案为\\(BE\\)，\\(DE\\)．\n【小问2详解】\n①如图2中，作\\(NH\\bot AB\\)于H，\\(FI\\bot BC\\)于I\n〔图2〕\n在矩形\\(ABCD\\)中，\\(\\angle A=\\angle B=\\angle D=\\angle AHN=\\angle BIF=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AFIB\\)，四边形\\(ADNH\\)是矩形，\n\\(\\therefore FI=AB\\)，\\(NH=AD\\)，\n\\(\\because MN\\bot EF\\)，\n\\(\\therefore \\angle EON=\\angle ECN=90{}^\\circ\\)，\n\\(\\therefore \\angle MNC+\\angle CEO=180{}^\\circ\\)，\n\\(\\because \\angle FEI+\\angle CEO=180{}^\\circ\\)，\n\\(\\therefore \\angle MNC=\\angle FEI\\)，\n\\(\\because AB\\parallel CD\\)，\n\\(\\therefore \\angle MNC=\\angle NMH=\\angle FEI\\)，\n\\(\\because \\angle NHM=\\angle FIE=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle FIE\\backsim \\vartriangle NHM\\)，\n\\(\\therefore \\frac { MN } { EF }=\\frac { NH } { FI }=\\frac { AD } { AB }=\\frac { 3 } { 4 }\\)．\n②如图2中，以\\(EF\\)，\\(FM\\)为邻边作平行四边形\\(FMGE\\)，连接NG．\n\\(\\therefore FM=EG\\)，\\(FM\\parallel EG\\)，\\(EF=MG\\)，\\(EF\\parallel MG\\)，\n\\(\\therefore \\angle NOE=\\angle NMG=90{}^\\circ\\)，\n\\(\\because \\frac { MN } { EF }=\\frac { 3 } { 4 }\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MNG\\)中，\\(\\frac { MN } { MG }=\\frac { 3 } { 4 }\\)，\n\\(\\frac { MN } { NG }=\\frac { 3 } { \\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } } }=\\frac { 3 } { 5 }\\)，\\(NG=\\frac { 5 } { 3 }MN\\)，\n\\(\\because FM+NE=EG+EN\\ge NG=\\frac { 5 } { 3 }MN\\)，\n又\\(MN\\ge AD=3\\)，\n\\(\\therefore FM+NE\\ge \\frac { 5 } { 3 }AD=5\\)，\n即\\(FM+NE\\)的最小值为5．\n【小问3详解】\n如图3中，以\\(AD\\)，\\(AB\\)为邻边作平行四边形\\(ADPB\\)，连接\\(PA\\)交\\(BD\\)于O．\n〔图3〕\n\\(\\therefore DP=AB=AC\\)，\n\\(\\therefore \\angle DPB=\\angle ABC=\\angle ACB\\)，\n\\(\\because DP=AC\\)，\\(\\angle DPB=\\angle ACB\\)，\n\\(\\therefore \\vartriangle DPC≌\\vartriangle ACP({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore DC=AP\\)，\n\\(\\because\\)A到\\(DB\\)的距离为2，\n\\(\\therefore AO\\ge 2\\)，\n\\(\\therefore DC=AP=2AO\\ge 4\\)，\n\\(\\therefore CD\\)的最小值为4．\n【点睛】本题属于四边形综合题，考查了正方形的性质，平行四边形的性质，全等三角形的判定和性质，相似三角形的判定和性质，学会添加辅助线，构造平行四边形是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/b6/b622b3c21e2ddd03e44e7b267702ebb8b9963f7c0effd444407ab45f46b1e05c.png",
+    "assets/figures/63/6301e5ae25470f50a483db91eab01f7eb1693da6df4874675b6785abfd3ed264.png",
+    "assets/figures/d6/d634dfdf85deb1dcacef08d09663d5f6f4bbad748aec96a2839b79e879a19fb0.png"
+  ],
+  "solution": "【小问1详解】\n问题背景：根据平行四边形的性质可知\\(AC=BE\\)，根据等边三角形的性质可知\\(CD=DE\\)，\n故答案为\\(BE\\)，\\(DE\\)．\n【小问2详解】\n①如图2中，作\\(NH\\bot AB\\)于H，\\(FI\\bot BC\\)于I\n〔图2〕\n在矩形\\(ABCD\\)中，\\(\\angle A=\\angle B=\\angle D=\\angle AHN=\\angle BIF=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AFIB\\)，四边形\\(ADNH\\)是矩形，\n\\(\\therefore FI=AB\\)，\\(NH=AD\\)，\n\\(\\because MN\\bot EF\\)，\n\\(\\therefore \\angle EON=\\angle ECN=90{}^\\circ\\)，\n\\(\\therefore \\angle MNC+\\angle CEO=180{}^\\circ\\)，\n\\(\\because \\angle FEI+\\angle CEO=180{}^\\circ\\)，\n\\(\\therefore \\angle MNC=\\angle FEI\\)，\n\\(\\because AB\\parallel CD\\)，\n\\(\\therefore \\angle MNC=\\angle NMH=\\angle FEI\\)，\n\\(\\because \\angle NHM=\\angle FIE=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle FIE\\backsim \\vartriangle NHM\\)，\n\\(\\therefore \\frac { MN } { EF }=\\frac { NH } { FI }=\\frac { AD } { AB }=\\frac { 3 } { 4 }\\)．\n②如图2中，以\\(EF\\)，\\(FM\\)为邻边作平行四边形\\(FMGE\\)，连接NG．\n\\(\\therefore FM=EG\\)，\\(FM\\parallel EG\\)，\\(EF=MG\\)，\\(EF\\parallel MG\\)，\n\\(\\therefore \\angle NOE=\\angle NMG=90{}^\\circ\\)，\n\\(\\because \\frac { MN } { EF }=\\frac { 3 } { 4 }\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MNG\\)中，\\(\\frac { MN } { MG }=\\frac { 3 } { 4 }\\)，\n\\(\\frac { MN } { NG }=\\frac { 3 } { \\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } } }=\\frac { 3 } { 5 }\\)，\\(NG=\\frac { 5 } { 3 }MN\\)，\n\\(\\because FM+NE=EG+EN\\ge NG=\\frac { 5 } { 3 }MN\\)，\n又\\(MN\\ge AD=3\\)，\n\\(\\therefore FM+NE\\ge \\frac { 5 } { 3 }AD=5\\)，\n即\\(FM+NE\\)的最小值为5．\n【小问3详解】\n如图3中，以\\(AD\\)，\\(AB\\)为邻边作平行四边形\\(ADPB\\)，连接\\(PA\\)交\\(BD\\)于O．\n〔图3〕\n\\(\\therefore DP=AB=AC\\)，\n\\(\\therefore \\angle DPB=\\angle ABC=\\angle ACB\\)，\n\\(\\because DP=AC\\)，\\(\\angle DPB=\\angle ACB\\)，\n\\(\\therefore \\vartriangle DPC≌\\vartriangle ACP({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore DC=AP\\)，\n\\(\\because\\)A到\\(DB\\)的距离为2，\n\\(\\therefore AO\\ge 2\\)，\n\\(\\therefore DC=AP=2AO\\ge 4\\)，\n\\(\\therefore CD\\)的最小值为4．",
+  "solution_steps": [
+    "【小问1详解】",
+    "问题背景：根据平行四边形的性质可知\\(AC=BE\\)，根据等边三角形的性质可知\\(CD=DE\\)，",
+    "故答案为\\(BE\\)，\\(DE\\)．",
+    "【小问2详解】",
+    "①如图2中，作\\(NH\\bot AB\\)于H，\\(FI\\bot BC\\)于I",
+    "〔图2〕",
+    "在矩形\\(ABCD\\)中，\\(\\angle A=\\angle B=\\angle D=\\angle AHN=\\angle BIF=90{}^\\circ\\)，",
+    "\\(\\therefore\\)四边形\\(AFIB\\)，四边形\\(ADNH\\)是矩形，",
+    "\\(\\therefore FI=AB\\)，\\(NH=AD\\)，",
+    "\\(\\because MN\\bot EF\\)，",
+    "\\(\\therefore \\angle EON=\\angle ECN=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle MNC+\\angle CEO=180{}^\\circ\\)，",
+    "\\(\\because \\angle FEI+\\angle CEO=180{}^\\circ\\)，",
+    "\\(\\therefore \\angle MNC=\\angle FEI\\)，",
+    "\\(\\because AB\\parallel CD\\)，",
+    "\\(\\therefore \\angle MNC=\\angle NMH=\\angle FEI\\)，",
+    "\\(\\because \\angle NHM=\\angle FIE=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle FIE\\backsim \\vartriangle NHM\\)，",
+    "\\(\\therefore \\frac { MN } { EF }=\\frac { NH } { FI }=\\frac { AD } { AB }=\\frac { 3 } { 4 }\\)．",
+    "②如图2中，以\\(EF\\)，\\(FM\\)为邻边作平行四边形\\(FMGE\\)，连接NG．",
+    "\\(\\therefore FM=EG\\)，\\(FM\\parallel EG\\)，\\(EF=MG\\)，\\(EF\\parallel MG\\)，",
+    "\\(\\therefore \\angle NOE=\\angle NMG=90{}^\\circ\\)，",
+    "\\(\\because \\frac { MN } { EF }=\\frac { 3 } { 4 }\\)，",
+    "\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MNG\\)中，\\(\\frac { MN } { MG }=\\frac { 3 } { 4 }\\)，",
+    "\\(\\frac { MN } { NG }=\\frac { 3 } { \\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } } }=\\frac { 3 } { 5 }\\)，\\(NG=\\frac { 5 } { 3 }MN\\)，",
+    "\\(\\because FM+NE=EG+EN\\ge NG=\\frac { 5 } { 3 }MN\\)，",
+    "又\\(MN\\ge AD=3\\)，",
+    "\\(\\therefore FM+NE\\ge \\frac { 5 } { 3 }AD=5\\)，",
+    "即\\(FM+NE\\)的最小值为5．",
+    "【小问3详解】",
+    "如图3中，以\\(AD\\)，\\(AB\\)为邻边作平行四边形\\(ADPB\\)，连接\\(PA\\)交\\(BD\\)于O．",
+    "〔图3〕",
+    "\\(\\therefore DP=AB=AC\\)，",
+    "\\(\\therefore \\angle DPB=\\angle ABC=\\angle ACB\\)，",
+    "\\(\\because DP=AC\\)，\\(\\angle DPB=\\angle ACB\\)，",
+    "\\(\\therefore \\vartriangle DPC≌\\vartriangle ACP({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore DC=AP\\)，",
+    "\\(\\because\\)A到\\(DB\\)的距离为2，",
+    "\\(\\therefore AO\\ge 2\\)，",
+    "\\(\\therefore DC=AP=2AO\\ge 4\\)，",
+    "\\(\\therefore CD\\)的最小值为4．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题背景】如图1，两条相等的线段\\(AB\\)，\\(CD\\)交于点O，\\(\\angle AOC=60{}^\\circ\\)，连接\\(AC\\)，\\(BD\\)，求证：\\(AC+BD\\ge CD\\)．\n证明：过点C作\\(AB\\)的平行线，过点B作\\(AC\\)的平行线，两平行线交于点E，连接\\(DE\\)．\n\\(\\because AB\\parallel CE\\)，\\(AC\\parallel BE\\)．\n\\(\\therefore\\)四边形\\(ABEC\\)为平行四边形，则\\(AC=\\)__________，\\(AB=CE\\)．\n\\(\\because AB\\parallel CE\\)，\n\\(\\therefore \\angle DCE=\\angle AOC=60{}^\\circ\\)．\n又\\(\\because CD=AB=CE\\)，\n\\(\\therefore \\vartriangle DCE\\)为等边三角形，\\(CD=\\)__________．\n\\(\\therefore AC+BD=BE+BD\\ge DE=CD\\)，即\\(AC+BD\\ge CD\\)．\n〔图1〕",
+      "paper_blocks": [
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "【迁移应用】如图2，矩形\\(ABCD\\)中，\\(AB=4\\)，\\(AD=3\\)，点M在边\\(AB\\)上，点\\(N\\)在边\\(CD\\)上，点O在\\(MN\\)上，过点O作\\(MN\\)的垂线，交\\(AD\\)于点F，交\\(BC\\)于点E．",
+      "paper_blocks": [
+        89
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-22A1F3186C-Q22-P01",
+      "label": "（1）",
+      "prompt": "请完成证明中的两个填空．",
+      "stem_text": "请完成证明中的两个填空．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE\\)，\\(DE\\)",
+      "answer": "\\(BE\\)，\\(DE\\)",
+      "given_solution": "问题背景：根据平行四边形的性质可知\\(AC=BE\\)，根据等边三角形的性质可知\\(CD=DE\\)，\n故答案为\\(BE\\)，\\(DE\\)．",
+      "solution_steps": [
+        "问题背景：根据平行四边形的性质可知\\(AC=BE\\)，根据等边三角形的性质可知\\(CD=DE\\)，",
+        "故答案为\\(BE\\)，\\(DE\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88
+        ],
+        "solution_block_ids": [
+          421,
+          422
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-22A1F3186C-Q22-P02",
+      "label": "（2）①",
+      "prompt": "求出\\(\\frac { MN } { EF }\\)的值；",
+      "stem_text": "求出\\(\\frac { MN } { EF }\\)的值；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { 4 }\\)，",
+      "answer": "\\(\\frac { 3 } { 4 }\\)，",
+      "given_solution": "如图2中，作\\(NH\\bot AB\\)于H，\\(FI\\bot BC\\)于I\n〔图2〕\n在矩形\\(ABCD\\)中，\\(\\angle A=\\angle B=\\angle D=\\angle AHN=\\angle BIF=90{}^\\circ\\)，\n\\(\\therefore\\)四边形\\(AFIB\\)，四边形\\(ADNH\\)是矩形，\n\\(\\therefore FI=AB\\)，\\(NH=AD\\)，\n\\(\\because MN\\bot EF\\)，\n\\(\\therefore \\angle EON=\\angle ECN=90{}^\\circ\\)，\n\\(\\therefore \\angle MNC+\\angle CEO=180{}^\\circ\\)，\n\\(\\because \\angle FEI+\\angle CEO=180{}^\\circ\\)，\n\\(\\therefore \\angle MNC=\\angle FEI\\)，\n\\(\\because AB\\parallel CD\\)，\n\\(\\therefore \\angle MNC=\\angle NMH=\\angle FEI\\)，\n\\(\\because \\angle NHM=\\angle FIE=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle FIE\\backsim \\vartriangle NHM\\)，\n\\(\\therefore \\frac { MN } { EF }=\\frac { NH } { FI }=\\frac { AD } { AB }=\\frac { 3 } { 4 }\\)．",
+      "solution_steps": [
+        "如图2中，作\\(NH\\bot AB\\)于H，\\(FI\\bot BC\\)于I",
+        "〔图2〕",
+        "在矩形\\(ABCD\\)中，\\(\\angle A=\\angle B=\\angle D=\\angle AHN=\\angle BIF=90{}^\\circ\\)，",
+        "\\(\\therefore\\)四边形\\(AFIB\\)，四边形\\(ADNH\\)是矩形，",
+        "\\(\\therefore FI=AB\\)，\\(NH=AD\\)，",
+        "\\(\\because MN\\bot EF\\)，",
+        "\\(\\therefore \\angle EON=\\angle ECN=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle MNC+\\angle CEO=180{}^\\circ\\)，",
+        "\\(\\because \\angle FEI+\\angle CEO=180{}^\\circ\\)，",
+        "\\(\\therefore \\angle MNC=\\angle FEI\\)，",
+        "\\(\\because AB\\parallel CD\\)，",
+        "\\(\\therefore \\angle MNC=\\angle NMH=\\angle FEI\\)，",
+        "\\(\\because \\angle NHM=\\angle FIE=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle FIE\\backsim \\vartriangle NHM\\)，",
+        "\\(\\therefore \\frac { MN } { EF }=\\frac { NH } { FI }=\\frac { AD } { AB }=\\frac { 3 } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          89,
+          90
+        ],
+        "solution_block_ids": [
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-22A1F3186C-Q22-P03",
+      "label": "（2）②",
+      "prompt": "求\\(FM+NE\\)的最小值．",
+      "stem_text": "求\\(FM+NE\\)的最小值．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "5",
+      "answer": "5",
+      "given_solution": "如图2中，以\\(EF\\)，\\(FM\\)为邻边作平行四边形\\(FMGE\\)，连接NG．\n\\(\\therefore FM=EG\\)，\\(FM\\parallel EG\\)，\\(EF=MG\\)，\\(EF\\parallel MG\\)，\n\\(\\therefore \\angle NOE=\\angle NMG=90{}^\\circ\\)，\n\\(\\because \\frac { MN } { EF }=\\frac { 3 } { 4 }\\)，\n\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MNG\\)中，\\(\\frac { MN } { MG }=\\frac { 3 } { 4 }\\)，\n\\(\\frac { MN } { NG }=\\frac { 3 } { \\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } } }=\\frac { 3 } { 5 }\\)，\\(NG=\\frac { 5 } { 3 }MN\\)，\n\\(\\because FM+NE=EG+EN\\ge NG=\\frac { 5 } { 3 }MN\\)，\n又\\(MN\\ge AD=3\\)，\n\\(\\therefore FM+NE\\ge \\frac { 5 } { 3 }AD=5\\)，\n即\\(FM+NE\\)的最小值为5．",
+      "solution_steps": [
+        "如图2中，以\\(EF\\)，\\(FM\\)为邻边作平行四边形\\(FMGE\\)，连接NG．",
+        "\\(\\therefore FM=EG\\)，\\(FM\\parallel EG\\)，\\(EF=MG\\)，\\(EF\\parallel MG\\)，",
+        "\\(\\therefore \\angle NOE=\\angle NMG=90{}^\\circ\\)，",
+        "\\(\\because \\frac { MN } { EF }=\\frac { 3 } { 4 }\\)，",
+        "\\(\\therefore\\)在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle MNG\\)中，\\(\\frac { MN } { MG }=\\frac { 3 } { 4 }\\)，",
+        "\\(\\frac { MN } { NG }=\\frac { 3 } { \\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } } }=\\frac { 3 } { 5 }\\)，\\(NG=\\frac { 5 } { 3 }MN\\)，",
+        "\\(\\because FM+NE=EG+EN\\ge NG=\\frac { 5 } { 3 }MN\\)，",
+        "又\\(MN\\ge AD=3\\)，",
+        "\\(\\therefore FM+NE\\ge \\frac { 5 } { 3 }AD=5\\)，",
+        "即\\(FM+NE\\)的最小值为5．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          89,
+          91
+        ],
+        "solution_block_ids": [
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-22A1F3186C-Q22-P04",
+      "label": "（3）",
+      "prompt": "【联系拓展】如图3，\\(\\vartriangle ABC\\)为等腰三角形，\\(AB=AC\\)，过点A作\\(BC\\)的平行线l，点D在直线\\(l\\)上，点A到\\(BD\\)的距离为2，求线段\\(CD\\)的最小值．",
+      "stem_text": "【联系拓展】如图3，\\(\\vartriangle ABC\\)为等腰三角形，\\(AB=AC\\)，过点A作\\(BC\\)的平行线l，点D在直线\\(l\\)上，点A到\\(BD\\)的距离为2，求线段\\(CD\\)的最小值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "4",
+      "answer": "4",
+      "given_solution": "如图3中，以\\(AD\\)，\\(AB\\)为邻边作平行四边形\\(ADPB\\)，连接\\(PA\\)交\\(BD\\)于O．\n〔图3〕\n\\(\\therefore DP=AB=AC\\)，\n\\(\\therefore \\angle DPB=\\angle ABC=\\angle ACB\\)，\n\\(\\because DP=AC\\)，\\(\\angle DPB=\\angle ACB\\)，\n\\(\\therefore \\vartriangle DPC≌\\vartriangle ACP({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore DC=AP\\)，\n\\(\\because\\)A到\\(DB\\)的距离为2，\n\\(\\therefore AO\\ge 2\\)，\n\\(\\therefore DC=AP=2AO\\ge 4\\)，\n\\(\\therefore CD\\)的最小值为4．",
+      "solution_steps": [
+        "如图3中，以\\(AD\\)，\\(AB\\)为邻边作平行四边形\\(ADPB\\)，连接\\(PA\\)交\\(BD\\)于O．",
+        "〔图3〕",
+        "\\(\\therefore DP=AB=AC\\)，",
+        "\\(\\therefore \\angle DPB=\\angle ABC=\\angle ACB\\)，",
+        "\\(\\because DP=AC\\)，\\(\\angle DPB=\\angle ACB\\)，",
+        "\\(\\therefore \\vartriangle DPC≌\\vartriangle ACP({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore DC=AP\\)，",
+        "\\(\\because\\)A到\\(DB\\)的距离为2，",
+        "\\(\\therefore AO\\ge 2\\)，",
+        "\\(\\therefore DC=AP=2AO\\ge 4\\)，",
+        "\\(\\therefore CD\\)的最小值为4．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          92
+        ],
+        "solution_block_ids": [
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      78,
+      92
+    ],
+    "solution_body_blocks": [
+      398,
+      461
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-22A1F3186C/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          696.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-22A1F3186C/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-22A1F3186C/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-22A1F3186C/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          463.64,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          540.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G08.03",
+    "M.G01.05",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G08.03.01",
+    "E.G01.05.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问解答对应“利用等边性质求边角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。 本问的运算或证明步骤对应“利用平行线性质求角”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "tag_source": "小问标签汇总"
+}

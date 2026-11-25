@@ -1,0 +1,319 @@
+{
+  "id": "SZ-G9-T1-E6260FB78D-Q15",
+  "paper_id": "SZ-G9-T1-E6260FB78D",
+  "number": 15,
+  "type": "解答题",
+  "points": null,
+  "title": "联读统计图表补全信息、列全等可能结果计算概率",
+  "stem": "（本题8分）为了解某区八年级学生体质测试情况，该区从全区八年级学生中随机抽取了部分学生进行了一次中考体育科目测试，把测试结果分为四个等级：A级（优秀）、B级（良好）、C级（及格）、D级（不及格），并将测试结果绘成了两幅不完整的统计图。请根据统计图中的信息解答下列问题：\n（1）本次抽样测试的学生人数是________________人；\n（2）图1中A级所在区域圆心角是________________度，并把图2条形统计图补充完整；\n（3）该区八年级有学生3500名，如果全部参加这次中考体育科目测试，请估计不及格的人数为________________人；\n（4）测试老师想从4位同学（分别记为\\(E\\)，\\(F\\)，\\(G\\)，\\(H\\)，其中\\(~E\\)为小明）中随机选择两位同学了解平时训练情况，请用列表或画树状图的方法求出选中小明的概率。\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-E6260FB78D/figures/e5d6db6416ba81fd2dceb8812f11bff75a90bcf6bab5376430bb738bb47831d0.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（本题8分）为了解某区八年级学生体质测试情况，该区从全区八年级学生中随机抽取了部分学生进行了一次中考体育科目测试，把测试结果分为四个等级：A级（优秀）、B级（良好）、C级（及格）、D级（不及格），并将测试结果绘成了两幅不完整的统计图。请根据统计图中的信息解答下列问题：",
+      "paper_blocks": [
+        51
+      ]
+    },
+    {
+      "id": "fig-56",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        56
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q15-P01",
+      "label": "（1）",
+      "prompt": "本次抽样测试的学生人数是________________人；",
+      "stem_text": "本次抽样测试的学生人数是________________人；",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "60；                                  2分",
+      "answer": "60；                                  2分",
+      "given_solution": "60；                                  2分",
+      "solution_steps": [
+        "60；                                  2分"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          56
+        ],
+        "solution_block_ids": [
+          125
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S01.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“统计图表”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“统计图”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q15-P02",
+      "label": "（2）",
+      "prompt": "图1中A级所在区域圆心角是________________度，并把图2条形统计图补充完整；",
+      "stem_text": "图1中A级所在区域圆心角是________________度，并把图2条形统计图补充完整；",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "〔图1〕                      4分",
+      "answer": "〔图1〕                      4分",
+      "given_solution": "36°；如图所示：\n〔图1〕                      4分",
+      "solution_steps": [
+        "36°；如图所示：",
+        "〔图1〕                      4分"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          51,
+          53,
+          56
+        ],
+        "solution_block_ids": [
+          126,
+          127
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S01.03"
+      ],
+      "exam_ids": [
+        "E.S01.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“联读统计图表补全信息”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q15-P03",
+      "label": "（3）",
+      "prompt": "该区八年级有学生3500名，如果全部参加这次中考体育科目测试，请估计不及格的人数为________________人；",
+      "stem_text": "该区八年级有学生3500名，如果全部参加这次中考体育科目测试，请估计不及格的人数为________________人；",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "525；                                      6分",
+      "answer": "525；                                      6分",
+      "given_solution": "525；                                      6分",
+      "solution_steps": [
+        "525；                                      6分"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          54,
+          56
+        ],
+        "solution_block_ids": [
+          128
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          10
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S01.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“统计图表”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目涉及“统计图”，按题面与解答定位知识主题。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6260FB78D-Q15-P04",
+      "label": "（4）",
+      "prompt": "测试老师想从4位同学（分别记为\\(E\\)，\\(F\\)，\\(G\\)，\\(H\\)，其中\\(~E\\)为小明）中随机选择两位同学了解平时训练情况，请用列表或画树状图的方法求出选中小明的概率。",
+      "stem_text": "测试老师想从4位同学（分别记为\\(E\\)，\\(F\\)，\\(G\\)，\\(H\\)，其中\\(~E\\)为小明）中随机选择两位同学了解平时训练情况，请用列表或画树状图的方法求出选中小明的概率。",
+      "material_ids": [
+        "context",
+        "fig-56"
+      ],
+      "requires": [],
+      "given_answer": "（用列表的方法也可以同样给分）",
+      "answer": "（用列表的方法也可以同样给分）",
+      "given_solution": "根据题意画树形图如下：\n〔图2〕\n共有12种情况，选中小明的有6种，\n则\\(P\\)（选中小明）\\(=\\frac { 6 } { 12 }=\\frac { 1 } { 2 }\\)                        8分\n（用列表的方法也可以同样给分）",
+      "solution_steps": [
+        "根据题意画树形图如下：",
+        "〔图2〕",
+        "共有12种情况，选中小明的有6种，",
+        "则\\(P\\)（选中小明）\\(=\\frac { 6 } { 12 }=\\frac { 1 } { 2 }\\)                        8分",
+        "（用列表的方法也可以同样给分）"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          51,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          129,
+          130,
+          131,
+          132,
+          133
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          10,
+          11
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.S03.02"
+      ],
+      "exam_ids": [
+        "E.S03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“列全等可能结果计算概率”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "15．（1）60；                                  2分\n（2）36°；如图所示：\n〔图1〕                      4分\n（3）525；                                      6分\n（4）根据题意画树形图如下：\n〔图2〕\n共有12种情况，选中小明的有6种，\n则\\(P\\)（选中小明）\\(=\\frac { 6 } { 12 }=\\frac { 1 } { 2 }\\)                        8分\n（用列表的方法也可以同样给分）",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-E6260FB78D/figures/631f8de680f234f655db831bbd9a1bb6776a893d8a0c0332edd82a827f1dc3c7.png",
+    "assets/SZ-G9-T1-E6260FB78D/figures/260b319fc1823ca4c2efacfbd0677059ec0c8cb1a904e88b5d002299cfe75bd3.png"
+  ],
+  "answer": "（1）60；                                  2分\n（2）〔图1〕                      4分\n（3）525；                                      6分\n（4）（用列表的方法也可以同样给分）",
+  "solution_steps": [
+    "15．（1）60；                                  2分",
+    "（2）36°；如图所示：",
+    "〔图1〕                      4分",
+    "（3）525；                                      6分",
+    "（4）根据题意画树形图如下：",
+    "〔图2〕",
+    "共有12种情况，选中小明的有6种，",
+    "则\\(P\\)（选中小明）\\(=\\frac { 6 } { 12 }=\\frac { 1 } { 2 }\\)                        8分",
+    "（用列表的方法也可以同样给分）"
+  ],
+  "solution": "15．（1）60；                                  2分\n（2）36°；如图所示：\n〔图1〕                      4分\n（3）525；                                      6分\n（4）根据题意画树形图如下：\n〔图2〕\n共有12种情况，选中小明的有6种，\n则\\(P\\)（选中小明）\\(=\\frac { 6 } { 12 }=\\frac { 1 } { 2 }\\)                        8分\n（用列表的方法也可以同样给分）",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      51,
+      56
+    ],
+    "solution_body_blocks": [
+      125,
+      133
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-E6260FB78D/paper-q15-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          66.36,
+          583.64,
+          450.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      10,
+      11
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-E6260FB78D/solution-q15-p10.webp",
+      "assets/SZ-G9-T1-E6260FB78D/solution-q15-p11.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          381.82,
+          583.64,
+          751.82
+        ]
+      },
+      {
+        "page": 11,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          93.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.S01.03",
+    "M.S03.02"
+  ],
+  "exam_ids": [
+    "E.S01.03.01",
+    "E.S03.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“统计图表”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "题目涉及“统计图”，按题面与解答定位知识主题。 本问题面与解答对应“联读统计图表补全信息”。 本问题面与解答对应“列全等可能结果计算概率”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

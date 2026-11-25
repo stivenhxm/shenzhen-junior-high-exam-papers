@@ -1,0 +1,155 @@
+{
+  "id": "SZ-G9-T1-ADDD1F8969-Q20",
+  "paper_id": "SZ-G9-T1-ADDD1F8969",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "问题背景：如图（1），在矩形\\(ABCD\\)中，点\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(BC\\)的中点，连接\\(BD\\)，\\(EF\\)，求证：\\(\\vartriangle BCD\\backsim \\vartriangle FBE\\)．\n问题探究：如图（2），在四边形\\(ABCD\\)中，\\(AD\\parallel BC\\)，\\(\\angle BCD=90{}^\\circ\\)，点\\(E\\)是\\(AB\\)的中点，点\\(F\\)在边\\(BC\\)上，\\(AD=2CF\\)，\\(EF\\)与\\(BD\\)交于点\\(G\\)，求证：\\(BG=FG\\)．\n问题拓展：如图（3），在“问题探究”的条件下，连接\\(AG\\)，\\(AD=CD\\)，\\(AG=FG\\)，直接写出\\(\\frac { EG } { GF }\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/da/da9b73e60ed123b9ea23656030936f27d31a4696f736989b7d79431b5c2b7b29.png"
+  ],
+  "tables": [],
+  "given_answer": "问题背景：见解析；问题探究：见解析；问题拓展：\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)",
+  "answer": "问题背景：见解析；问题探究：见解析；问题拓展：\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)",
+  "given_solution": "【分析】问题背景：根据矩形的性质可得\\(AB=CD，\\angle EBF=\\angle C=90{}^\\circ\\)，根据点\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(BC\\)的中点，可得\\(\\frac { BE } { AB }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，即可得证；\n问题探究：取\\(BD\\)的中点\\(H\\)，连接\\(EH,HC\\)，得\\(EH\\)是\\(\\vartriangle ABD\\)的中位线，根据已知条件可得\\(EH\\)平行且等于\\(FC\\)，进而可得\\(EFCH\\)是平行四边形，得\\(EF\\parallel HC\\)，则\\(\\angle GFB=\\angle HCB\\)，根据直角三角形中斜边上的中线等于斜边的一半得出\\(HB=HC\\)，进而可得\\(\\angle HBC=\\angle HCB\\)，等量代换可得\\(\\angle GBF=\\angle GFB\\)，等角对等边，即可得证；\n问题拓展：过点\\(F\\)作\\(FM\\bot AD\\)，则四边形\\(MFCD\\)是矩形，连接\\(AF\\)，根据已知以及勾股定理得出\\(\\frac { AM } { AF }=\\frac { \\sqrt[] { 5 } } { 5 }\\)；根据（2）的结论结合已知可得\\(GA=GF=GB\\)，证明\\(EF\\)垂直平分\\(AB\\)，进而得出\\(FA=FB\\)，证明\\(\\vartriangle AFG≌\\vartriangle BFG\\)，进而证明\\(\\vartriangle BEG\\backsim \\vartriangle FMA\\)， 进而根据相似三角形的性质，即可求解．\n【详解】问题背景：∵四边形\\(ABCD\\)是矩形，\n∴\\(AB=CD，\\angle EBF=\\angle C=90{}^\\circ\\)，\n∵\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(BC\\)的中点\n∴\\(\\frac { BE } { AB }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，\n即\\(\\frac { BE } { CD }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，\n∴\\(\\vartriangle BCD\\backsim \\vartriangle FBE\\)；\n问题探究：如图所示，取\\(BD\\)的中点\\(H\\)，连接\\(EH,HC\\)，\n〔图2〕\n∵\\(E\\)是\\(AB\\)的中点，\\(H\\)是\\(BD\\)的中点，\n∴\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\parallel AD\\)\n又∵\\(AD=2CF\\)，\n∴\\(EH=CF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(EH\\parallel FC\\)\n∴四边形\\(EHCF\\)是平行四边形，\n∴\\(EF\\parallel CH\\)\n∴\\(\\angle GFB=\\angle HCB\\)\n又∵\\(\\angle BCD=90{}^\\circ\\)，\\(H\\)是\\(BD\\)的中点，\n∴\\(HC=\\frac { 1 } { 2 }BD=BH\\)\n∴\\(\\angle HBC=\\angle HCB\\)\n∴\\(\\angle GBF=\\angle GFB\\)，\n∴\\(GB=GF\\)；\n问题拓展：如图所示，过点\\(F\\)作\\(FM\\bot AD\\)，则四边形\\(MFCD\\)是矩形，连接\\(AF\\)，\n〔图3〕\n∵\\(AD=2CF=CD\\)，\n∴\\(AM=MD=FC=\\frac { 1 } { 2 }AD\\)，\n设\\(AD=2a\\)，则\\(MF=CD=2a\\)，\\(AM=a\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AMF\\)中，\\(AF=\\sqrt[] { a ^ { 2 } +\\left ( { 2a } \\right ) ^ { 2 } }=\\sqrt[] { 5 }a\\)，\n∵\\(AG=FG\\)，由（2）\\(BG=FG\\)\n∴\\(AG=BG\\)，\n又∵\\(E\\)是\\(AB\\)的中点，\n∴\\(EF\\)垂直平分\\(AB\\)\n∴\\(AF=BF\\)，\\(\\angle BEG=90{}^\\circ\\)，\n在\\(\\vartriangle AFG,\\vartriangle BFG\\)中，\n\\(\\begin{cases} AG=BG \\\\ GF=GF \\\\ FA=FB \\end{cases}\\)\n∴\\(\\vartriangle AFG≌\\vartriangle BFG\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)\n设\\(\\angle GBF=\\angle GFB=\\alpha\\)，则\\(\\angle GAF=\\angle GFA=\\alpha\\)\n∴\\(\\angle BGE=\\angle GBF+\\angle GFB=2\\alpha\\)，\n又∵\\(AD\\parallel BC\\)\n∴\\(\\angle MAF=\\angle AFB=\\angle GFA+\\angle GFB=2\\alpha\\)\n∴\\(\\angle MAF=\\angle EGB\\)\n又∵\\(\\angle BEG=\\angle AFM=90{}^\\circ\\)\n∴\\(\\vartriangle BEG\\backsim \\vartriangle FMA\\)\n∴\\(\\frac { EG } { GF }=\\frac { EG } { BG }=\\frac { AM } { AF }=\\frac { a } { \\sqrt[] { 5 }a }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．\n【点睛】本题考查了矩形的性质，相似三角形的性质与判定，平行四边形的性质与判定，直角三角形中斜边上的中线等于斜边的一半，全等三角形的性质与判定，熟练掌握相似三角形的性质与判定是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/da/da9b73e60ed123b9ea23656030936f27d31a4696f736989b7d79431b5c2b7b29.png",
+    "assets/figures/7a/7af7da2a998540948498ab00c12fc75760b046272b87e88e579122c2e91cf2e5.png",
+    "assets/figures/13/134ccfc5c83947bd93b1b16f987c80de9a726f58a86379e1c102ad9fafbd75f3.png"
+  ],
+  "solution": "问题背景：∵四边形\\(ABCD\\)是矩形，\n∴\\(AB=CD，\\angle EBF=\\angle C=90{}^\\circ\\)，\n∵\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(BC\\)的中点\n∴\\(\\frac { BE } { AB }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，\n即\\(\\frac { BE } { CD }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，\n∴\\(\\vartriangle BCD\\backsim \\vartriangle FBE\\)；\n问题探究：如图所示，取\\(BD\\)的中点\\(H\\)，连接\\(EH,HC\\)，\n〔图2〕\n∵\\(E\\)是\\(AB\\)的中点，\\(H\\)是\\(BD\\)的中点，\n∴\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\parallel AD\\)\n又∵\\(AD=2CF\\)，\n∴\\(EH=CF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(EH\\parallel FC\\)\n∴四边形\\(EHCF\\)是平行四边形，\n∴\\(EF\\parallel CH\\)\n∴\\(\\angle GFB=\\angle HCB\\)\n又∵\\(\\angle BCD=90{}^\\circ\\)，\\(H\\)是\\(BD\\)的中点，\n∴\\(HC=\\frac { 1 } { 2 }BD=BH\\)\n∴\\(\\angle HBC=\\angle HCB\\)\n∴\\(\\angle GBF=\\angle GFB\\)，\n∴\\(GB=GF\\)；\n问题拓展：如图所示，过点\\(F\\)作\\(FM\\bot AD\\)，则四边形\\(MFCD\\)是矩形，连接\\(AF\\)，\n〔图3〕\n∵\\(AD=2CF=CD\\)，\n∴\\(AM=MD=FC=\\frac { 1 } { 2 }AD\\)，\n设\\(AD=2a\\)，则\\(MF=CD=2a\\)，\\(AM=a\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AMF\\)中，\\(AF=\\sqrt[] { a ^ { 2 } +\\left ( { 2a } \\right ) ^ { 2 } }=\\sqrt[] { 5 }a\\)，\n∵\\(AG=FG\\)，由（2）\\(BG=FG\\)\n∴\\(AG=BG\\)，\n又∵\\(E\\)是\\(AB\\)的中点，\n∴\\(EF\\)垂直平分\\(AB\\)\n∴\\(AF=BF\\)，\\(\\angle BEG=90{}^\\circ\\)，\n在\\(\\vartriangle AFG,\\vartriangle BFG\\)中，\n\\(\\begin{cases} AG=BG \\\\ GF=GF \\\\ FA=FB \\end{cases}\\)\n∴\\(\\vartriangle AFG≌\\vartriangle BFG\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)\n设\\(\\angle GBF=\\angle GFB=\\alpha\\)，则\\(\\angle GAF=\\angle GFA=\\alpha\\)\n∴\\(\\angle BGE=\\angle GBF+\\angle GFB=2\\alpha\\)，\n又∵\\(AD\\parallel BC\\)\n∴\\(\\angle MAF=\\angle AFB=\\angle GFA+\\angle GFB=2\\alpha\\)\n∴\\(\\angle MAF=\\angle EGB\\)\n又∵\\(\\angle BEG=\\angle AFM=90{}^\\circ\\)\n∴\\(\\vartriangle BEG\\backsim \\vartriangle FMA\\)\n∴\\(\\frac { EG } { GF }=\\frac { EG } { BG }=\\frac { AM } { AF }=\\frac { a } { \\sqrt[] { 5 }a }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．",
+  "solution_steps": [
+    "问题背景：∵四边形\\(ABCD\\)是矩形，",
+    "∴\\(AB=CD，\\angle EBF=\\angle C=90{}^\\circ\\)，",
+    "∵\\(E\\)，\\(F\\)分别是\\(AB\\)，\\(BC\\)的中点",
+    "∴\\(\\frac { BE } { AB }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，",
+    "即\\(\\frac { BE } { CD }=\\frac { BF } { BC }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(\\vartriangle BCD\\backsim \\vartriangle FBE\\)；",
+    "问题探究：如图所示，取\\(BD\\)的中点\\(H\\)，连接\\(EH,HC\\)，",
+    "〔图2〕",
+    "∵\\(E\\)是\\(AB\\)的中点，\\(H\\)是\\(BD\\)的中点，",
+    "∴\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\parallel AD\\)",
+    "又∵\\(AD=2CF\\)，",
+    "∴\\(EH=CF\\)，",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(EH\\parallel FC\\)",
+    "∴四边形\\(EHCF\\)是平行四边形，",
+    "∴\\(EF\\parallel CH\\)",
+    "∴\\(\\angle GFB=\\angle HCB\\)",
+    "又∵\\(\\angle BCD=90{}^\\circ\\)，\\(H\\)是\\(BD\\)的中点，",
+    "∴\\(HC=\\frac { 1 } { 2 }BD=BH\\)",
+    "∴\\(\\angle HBC=\\angle HCB\\)",
+    "∴\\(\\angle GBF=\\angle GFB\\)，",
+    "∴\\(GB=GF\\)；",
+    "问题拓展：如图所示，过点\\(F\\)作\\(FM\\bot AD\\)，则四边形\\(MFCD\\)是矩形，连接\\(AF\\)，",
+    "〔图3〕",
+    "∵\\(AD=2CF=CD\\)，",
+    "∴\\(AM=MD=FC=\\frac { 1 } { 2 }AD\\)，",
+    "设\\(AD=2a\\)，则\\(MF=CD=2a\\)，\\(AM=a\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AMF\\)中，\\(AF=\\sqrt[] { a ^ { 2 } +\\left ( { 2a } \\right ) ^ { 2 } }=\\sqrt[] { 5 }a\\)，",
+    "∵\\(AG=FG\\)，由（2）\\(BG=FG\\)",
+    "∴\\(AG=BG\\)，",
+    "又∵\\(E\\)是\\(AB\\)的中点，",
+    "∴\\(EF\\)垂直平分\\(AB\\)",
+    "∴\\(AF=BF\\)，\\(\\angle BEG=90{}^\\circ\\)，",
+    "在\\(\\vartriangle AFG,\\vartriangle BFG\\)中，",
+    "\\(\\begin{cases} AG=BG \\\\ GF=GF \\\\ FA=FB \\end{cases}\\)",
+    "∴\\(\\vartriangle AFG≌\\vartriangle BFG\\left ( { { \\rm{ S } }{ \\rm{ S } }{ \\rm{ S } } } \\right )\\)",
+    "设\\(\\angle GBF=\\angle GFB=\\alpha\\)，则\\(\\angle GAF=\\angle GFA=\\alpha\\)",
+    "∴\\(\\angle BGE=\\angle GBF+\\angle GFB=2\\alpha\\)，",
+    "又∵\\(AD\\parallel BC\\)",
+    "∴\\(\\angle MAF=\\angle AFB=\\angle GFA+\\angle GFB=2\\alpha\\)",
+    "∴\\(\\angle MAF=\\angle EGB\\)",
+    "又∵\\(\\angle BEG=\\angle AFM=90{}^\\circ\\)",
+    "∴\\(\\vartriangle BEG\\backsim \\vartriangle FMA\\)",
+    "∴\\(\\frac { EG } { GF }=\\frac { EG } { BG }=\\frac { AM } { AF }=\\frac { a } { \\sqrt[] { 5 }a }=\\frac { \\sqrt[] { 5 } } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      74,
+      77
+    ],
+    "solution_body_blocks": [
+      377,
+      430
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-ADDD1F8969/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          315.45,
+          583.64,
+          564.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-ADDD1F8969/solution-q20-p20.webp",
+      "assets/SZ-G9-T1-ADDD1F8969/solution-q20-p21.webp",
+      "assets/SZ-G9-T1-ADDD1F8969/solution-q20-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          239.55,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          595.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

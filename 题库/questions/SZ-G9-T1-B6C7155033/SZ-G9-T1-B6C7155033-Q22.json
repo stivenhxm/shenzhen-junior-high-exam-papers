@@ -1,0 +1,414 @@
+{
+  "id": "SZ-G9-T1-B6C7155033-Q22",
+  "paper_id": "SZ-G9-T1-B6C7155033",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、用判别式判断实根个数",
+  "stem": "如图，在矩形\\(ABCD\\)中，\\(AB=6\\)米，\\(BC=8\\)米，\n动点\\(P\\)以2米\\(/\\)秒的速度从点\\(A\\)出发，沿\\(AC\\)向点\\(C\\)移动，\n同时动点\\(Q\\)以1米\\(/\\)秒的速度从点\\(C\\)出发，沿\\(CB\\)向点\\(B\\)移动，\n设\\(P\\)、\\(Q\\)两点移动\\(t\\)秒\\((0 < t < 5)\\)后，四边形\\(ABQP\\)的面积为\\(S\\)平方米．\n〔图1〕\n(1) 当t为何值时，\\(PQ\\)垂直\\(BC\\)？\n(2) 求面积S与时间t的函数关系式；\n(3) 在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积能否相等？\n若能，直接写出此时点\\(P\\)的位置；若不能，请说明理由；\n(4) 若\\(\\vartriangle PQC\\)为等腰三角形，直接写出t的值",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-B6C7155033/figures/1dafe75dba12ccd7ec808dc0cb345a96eea7bf0dd156ac451c3b2ba8fbd4f324.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在矩形\\(ABCD\\)中，\\(AB=6\\)米，\\(BC=8\\)米，\n动点\\(P\\)以2米\\(/\\)秒的速度从点\\(A\\)出发，沿\\(AC\\)向点\\(C\\)移动，\n同时动点\\(Q\\)以1米\\(/\\)秒的速度从点\\(C\\)出发，沿\\(CB\\)向点\\(B\\)移动，\n设\\(P\\)、\\(Q\\)两点移动\\(t\\)秒\\((0 < t < 5)\\)后，四边形\\(ABQP\\)的面积为\\(S\\)平方米．\n〔图1〕",
+      "paper_blocks": [
+        97,
+        98,
+        99,
+        100,
+        101
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-B6C7155033-Q22-P01",
+      "label": "(1)",
+      "prompt": "当t为何值时，\\(PQ\\)垂直\\(BC\\)？",
+      "stem_text": "当t为何值时，\\(PQ\\)垂直\\(BC\\)？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(t=\\frac { 40 } { 13 }\\)",
+      "answer": "\\(t=\\frac { 40 } { 13 }\\)",
+      "given_solution": "解：当\\(PQ\\bot BC\\)时，如图，\n〔图1〕\n在矩形\\(ABCD\\)中，\n\\(\\because AB\\bot BC\\),\n\\(\\therefore AB\\parallel PQ\\),\n\\(\\therefore \\vartriangle CPQ\\backsim \\vartriangle CAB\\),\n\\(\\therefore \\frac { CP } { CA }=\\frac { CQ } { CB }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=6\\)，\\(BC=8\\)，\n\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n\\(\\therefore CQ=t\\)，\\(CP=10-2t\\)，\n即\\(\\frac { 10-2t } { 10 }=\\frac { t } { 8 }\\)，\n解得：\\(t=\\frac { 40 } { 13 }\\)，\n∴当\\(t=\\frac { 40 } { 13 }\\)时，\\(PQ\\)垂直\\(BC\\)；",
+      "solution_steps": [
+        "解：当\\(PQ\\bot BC\\)时，如图，",
+        "〔图1〕",
+        "在矩形\\(ABCD\\)中，",
+        "\\(\\because AB\\bot BC\\),",
+        "\\(\\therefore AB\\parallel PQ\\),",
+        "\\(\\therefore \\vartriangle CPQ\\backsim \\vartriangle CAB\\),",
+        "\\(\\therefore \\frac { CP } { CA }=\\frac { CQ } { CB }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=6\\)，\\(BC=8\\)，",
+        "\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+        "\\(\\therefore CQ=t\\)，\\(CP=10-2t\\)，",
+        "即\\(\\frac { 10-2t } { 10 }=\\frac { t } { 8 }\\)，",
+        "解得：\\(t=\\frac { 40 } { 13 }\\)，",
+        "∴当\\(t=\\frac { 40 } { 13 }\\)时，\\(PQ\\)垂直\\(BC\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          99,
+          100,
+          101,
+          102
+        ],
+        "solution_block_ids": [
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-B6C7155033-Q22-P02",
+      "label": "(2)",
+      "prompt": "求面积S与时间t的函数关系式；",
+      "stem_text": "求面积S与时间t的函数关系式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)",
+      "answer": "\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)",
+      "given_solution": "过点\\(P\\)作\\(PE\\bot BC\\)于\\(E\\)．\n〔图2〕\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)（米\\()\\)，\n由题意知：\\(AP=2t\\)，\\(CQ=t\\)，则\\(PC=10-2t\\)\n由\\(AB\\bot BC\\)，\\(PE\\bot BC\\)得\\(PE\\parallel AB\\)\n\\(\\therefore\\)\\(\\frac { PE } { AB }=\\frac { PC } { AC }\\)，\n即：\\(\\frac { PE } { 6 }=\\frac { 10-2t } { 10 }\\)，\n\\(\\therefore PE=\\frac { 3 } { 5 }(10-2t)=-\\frac { 6 } { 5 }t+6\\)，\n又\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\times 6\\times 8=24\\)，\n\\(\\therefore S=S_{ \\vartriangle ABC } -S_{ \\vartriangle PCQ } =24-\\frac { 1 } { 2 }\\cdot t\\cdot (-\\frac { 6 } { 5 }t+6)=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)，\n即：\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)；",
+      "solution_steps": [
+        "过点\\(P\\)作\\(PE\\bot BC\\)于\\(E\\)．",
+        "〔图2〕",
+        "\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)（米\\()\\)，",
+        "由题意知：\\(AP=2t\\)，\\(CQ=t\\)，则\\(PC=10-2t\\)",
+        "由\\(AB\\bot BC\\)，\\(PE\\bot BC\\)得\\(PE\\parallel AB\\)",
+        "\\(\\therefore\\)\\(\\frac { PE } { AB }=\\frac { PC } { AC }\\)，",
+        "即：\\(\\frac { PE } { 6 }=\\frac { 10-2t } { 10 }\\)，",
+        "\\(\\therefore PE=\\frac { 3 } { 5 }(10-2t)=-\\frac { 6 } { 5 }t+6\\)，",
+        "又\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\times 6\\times 8=24\\)，",
+        "\\(\\therefore S=S_{ \\vartriangle ABC } -S_{ \\vartriangle PCQ } =24-\\frac { 1 } { 2 }\\cdot t\\cdot (-\\frac { 6 } { 5 }t+6)=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)，",
+        "即：\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          99,
+          100,
+          101,
+          103
+        ],
+        "solution_block_ids": [
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-B6C7155033-Q22-P03",
+      "label": "(3)",
+      "prompt": "在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积能否相等？\n若能，直接写出此时点\\(P\\)的位置；若不能，请说明理由；",
+      "stem_text": "在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积能否相等？\n若能，直接写出此时点\\(P\\)的位置；若不能，请说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "不能，理由见解析",
+      "answer": "不能，理由见解析",
+      "given_solution": "假设四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积相等，则有：\\(\\frac { 3 } { 5 }t ^ { 2 } -3t+24=12\\)\n即：\\(t ^ { 2 } -5t+20=0\\)\n\\(\\because b ^ { 2 } -4ac=(-5)2-4\\times 1\\times 20 < 0\\)\n\\(\\therefore\\)方程无实根\n\\(\\therefore\\)在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积不能相等．",
+      "solution_steps": [
+        "假设四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积相等，则有：\\(\\frac { 3 } { 5 }t ^ { 2 } -3t+24=12\\)",
+        "即：\\(t ^ { 2 } -5t+20=0\\)",
+        "\\(\\because b ^ { 2 } -4ac=(-5)2-4\\times 1\\times 20 < 0\\)",
+        "\\(\\therefore\\)方程无实根",
+        "\\(\\therefore\\)在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积不能相等．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          99,
+          100,
+          101,
+          104,
+          105
+        ],
+        "solution_block_ids": [
+          463,
+          464,
+          465,
+          466,
+          467
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N07.03"
+      ],
+      "exam_ids": [
+        "E.N07.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "对动点形成的等面积方程计算判别式，用无实根说明不存在。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-B6C7155033-Q22-P04",
+      "label": "(4)",
+      "prompt": "若\\(\\vartriangle PQC\\)为等腰三角形，直接写出t的值",
+      "stem_text": "若\\(\\vartriangle PQC\\)为等腰三角形，直接写出t的值",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(t\\)的值为\\(\\frac { 10 } { 3 }\\)秒或\\(\\frac { 25 } { 9 }\\)秒或\\(\\frac { 80 } { 21 }\\)秒",
+      "answer": "\\(t\\)的值为\\(\\frac { 10 } { 3 }\\)秒或\\(\\frac { 25 } { 9 }\\)秒或\\(\\frac { 80 } { 21 }\\)秒",
+      "given_solution": "①当\\(PC=QC\\)时，有\\(t=10-2t\\)，\\(t=\\frac { 10 } { 3 }\\)，\n②当\\(PQ=QC\\)时，有\\(\\frac { \\frac { 1 } { 2 }(10-2t) } { t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 25 } { 9 }\\)，\n③当\\(PQ=PC\\)时，有\\(\\frac { \\frac { 1 } { 2 }t } { 10-2t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 80 } { 21 }\\)，\n所以，当\\(t\\)为\\(\\frac { 10 } { 3 }\\)秒、\\(\\frac { 25 } { 9 }\\)秒、\\(\\frac { 80 } { 21 }\\)秒时，\\(\\vartriangle PQC\\)为等腰三角形．",
+      "solution_steps": [
+        "①当\\(PC=QC\\)时，有\\(t=10-2t\\)，\\(t=\\frac { 10 } { 3 }\\)，",
+        "②当\\(PQ=QC\\)时，有\\(\\frac { \\frac { 1 } { 2 }(10-2t) } { t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 25 } { 9 }\\)，",
+        "③当\\(PQ=PC\\)时，有\\(\\frac { \\frac { 1 } { 2 }t } { 10-2t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 80 } { 21 }\\)，",
+        "所以，当\\(t\\)为\\(\\frac { 10 } { 3 }\\)秒、\\(\\frac { 25 } { 9 }\\)秒、\\(\\frac { 80 } { 21 }\\)秒时，\\(\\vartriangle PQC\\)为等腰三角形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          97,
+          98,
+          99,
+          100,
+          101,
+          106
+        ],
+        "solution_block_ids": [
+          468,
+          469,
+          470,
+          471
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "(1)\\(t=\\frac { 40 } { 13 }\\)\n(2)\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)\n(3)不能，理由见解析\n(4)\\(t\\)的值为\\(\\frac { 10 } { 3 }\\)秒或\\(\\frac { 25 } { 9 }\\)秒或\\(\\frac { 80 } { 21 }\\)秒",
+  "given_solution": "【分析】（1）当\\(AB\\bot BC\\)时，\\(\\vartriangle CPQ\\backsim \\vartriangle CAB\\)，然后根据相似三角形的性质求解；\n（2） 过点\\(P\\)作\\(PE\\bot BC\\)于\\(E\\)，利用勾股定理求出\\(AC\\)的长，\n\\(AP=2t\\)，\\(CQ=t\\)，则\\(PC=10-2t\\)，又\\(PE\\parallel AB\\)，\n根据平行线分线段成比例列出比例式即可得出\\(PE\\)的长，再由三角形的面积公式即可得出结论；\n（3）假设四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积相等，则\\(S_{ \\vartriangle PCQ } =\\frac { 1 } { 2 }S_{ \\vartriangle ABC }\\)，再判断出方程根的情况即可；\n（4）有三种情况：①\\(PC=QC\\)，②\\(PQ=QC\\)，③\\(PQ=PC\\)，代入得出关于\\(t\\)的方程，求出方程的解即可．\n【详解】（1）解：当\\(PQ\\bot BC\\)时，如图，\n〔图1〕\n在矩形\\(ABCD\\)中，\n\\(\\because AB\\bot BC\\),\n\\(\\therefore AB\\parallel PQ\\),\n\\(\\therefore \\vartriangle CPQ\\backsim \\vartriangle CAB\\),\n\\(\\therefore \\frac { CP } { CA }=\\frac { CQ } { CB }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=6\\)，\\(BC=8\\)，\n\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n\\(\\therefore CQ=t\\)，\\(CP=10-2t\\)，\n即\\(\\frac { 10-2t } { 10 }=\\frac { t } { 8 }\\)，\n解得：\\(t=\\frac { 40 } { 13 }\\)，\n∴当\\(t=\\frac { 40 } { 13 }\\)时，\\(PQ\\)垂直\\(BC\\)；\n（2）过点\\(P\\)作\\(PE\\bot BC\\)于\\(E\\)．\n〔图2〕\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)（米\\()\\)，\n由题意知：\\(AP=2t\\)，\\(CQ=t\\)，则\\(PC=10-2t\\)\n由\\(AB\\bot BC\\)，\\(PE\\bot BC\\)得\\(PE\\parallel AB\\)\n\\(\\therefore\\)\\(\\frac { PE } { AB }=\\frac { PC } { AC }\\)，\n即：\\(\\frac { PE } { 6 }=\\frac { 10-2t } { 10 }\\)，\n\\(\\therefore PE=\\frac { 3 } { 5 }(10-2t)=-\\frac { 6 } { 5 }t+6\\)，\n又\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\times 6\\times 8=24\\)，\n\\(\\therefore S=S_{ \\vartriangle ABC } -S_{ \\vartriangle PCQ } =24-\\frac { 1 } { 2 }\\cdot t\\cdot (-\\frac { 6 } { 5 }t+6)=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)，\n即：\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)；\n（3）假设四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积相等，则有：\\(\\frac { 3 } { 5 }t ^ { 2 } -3t+24=12\\)\n即：\\(t ^ { 2 } -5t+20=0\\)\n\\(\\because b ^ { 2 } -4ac=(-5)2-4\\times 1\\times 20 < 0\\)\n\\(\\therefore\\)方程无实根\n\\(\\therefore\\)在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积不能相等．\n（4）①当\\(PC=QC\\)时，有\\(t=10-2t\\)，\\(t=\\frac { 10 } { 3 }\\)，\n②当\\(PQ=QC\\)时，有\\(\\frac { \\frac { 1 } { 2 }(10-2t) } { t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 25 } { 9 }\\)，\n③当\\(PQ=PC\\)时，有\\(\\frac { \\frac { 1 } { 2 }t } { 10-2t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 80 } { 21 }\\)，\n所以，当\\(t\\)为\\(\\frac { 10 } { 3 }\\)秒、\\(\\frac { 25 } { 9 }\\)秒、\\(\\frac { 80 } { 21 }\\)秒时，\\(\\vartriangle PQC\\)为等腰三角形．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-B6C7155033/figures/f6e2362073c6ad81571d3f8f5049ba2cc0fad8df4a719bcf02eb652874e22432.png",
+    "assets/SZ-G9-T1-B6C7155033/figures/8e7fc1522ee682ee2d267b005e8546a3a5868b492acc5a30c3511efc5fb1276b.png"
+  ],
+  "answer": "(1)\\(t=\\frac { 40 } { 13 }\\)\n(2)\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)\n(3)不能，理由见解析\n(4)\\(t\\)的值为\\(\\frac { 10 } { 3 }\\)秒或\\(\\frac { 25 } { 9 }\\)秒或\\(\\frac { 80 } { 21 }\\)秒",
+  "solution_steps": [
+    "（1）解：当\\(PQ\\bot BC\\)时，如图，",
+    "〔图1〕",
+    "在矩形\\(ABCD\\)中，",
+    "\\(\\because AB\\bot BC\\),",
+    "\\(\\therefore AB\\parallel PQ\\),",
+    "\\(\\therefore \\vartriangle CPQ\\backsim \\vartriangle CAB\\),",
+    "\\(\\therefore \\frac { CP } { CA }=\\frac { CQ } { CB }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=6\\)，\\(BC=8\\)，",
+    "\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+    "\\(\\therefore CQ=t\\)，\\(CP=10-2t\\)，",
+    "即\\(\\frac { 10-2t } { 10 }=\\frac { t } { 8 }\\)，",
+    "解得：\\(t=\\frac { 40 } { 13 }\\)，",
+    "∴当\\(t=\\frac { 40 } { 13 }\\)时，\\(PQ\\)垂直\\(BC\\)；",
+    "（2）过点\\(P\\)作\\(PE\\bot BC\\)于\\(E\\)．",
+    "〔图2〕",
+    "\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)（米\\()\\)，",
+    "由题意知：\\(AP=2t\\)，\\(CQ=t\\)，则\\(PC=10-2t\\)",
+    "由\\(AB\\bot BC\\)，\\(PE\\bot BC\\)得\\(PE\\parallel AB\\)",
+    "\\(\\therefore\\)\\(\\frac { PE } { AB }=\\frac { PC } { AC }\\)，",
+    "即：\\(\\frac { PE } { 6 }=\\frac { 10-2t } { 10 }\\)，",
+    "\\(\\therefore PE=\\frac { 3 } { 5 }(10-2t)=-\\frac { 6 } { 5 }t+6\\)，",
+    "又\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\times 6\\times 8=24\\)，",
+    "\\(\\therefore S=S_{ \\vartriangle ABC } -S_{ \\vartriangle PCQ } =24-\\frac { 1 } { 2 }\\cdot t\\cdot (-\\frac { 6 } { 5 }t+6)=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)，",
+    "即：\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)；",
+    "（3）假设四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积相等，则有：\\(\\frac { 3 } { 5 }t ^ { 2 } -3t+24=12\\)",
+    "即：\\(t ^ { 2 } -5t+20=0\\)",
+    "\\(\\because b ^ { 2 } -4ac=(-5)2-4\\times 1\\times 20 < 0\\)",
+    "\\(\\therefore\\)方程无实根",
+    "\\(\\therefore\\)在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积不能相等．",
+    "（4）①当\\(PC=QC\\)时，有\\(t=10-2t\\)，\\(t=\\frac { 10 } { 3 }\\)，",
+    "②当\\(PQ=QC\\)时，有\\(\\frac { \\frac { 1 } { 2 }(10-2t) } { t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 25 } { 9 }\\)，",
+    "③当\\(PQ=PC\\)时，有\\(\\frac { \\frac { 1 } { 2 }t } { 10-2t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 80 } { 21 }\\)，",
+    "所以，当\\(t\\)为\\(\\frac { 10 } { 3 }\\)秒、\\(\\frac { 25 } { 9 }\\)秒、\\(\\frac { 80 } { 21 }\\)秒时，\\(\\vartriangle PQC\\)为等腰三角形．"
+  ],
+  "solution": "（1）解：当\\(PQ\\bot BC\\)时，如图，\n〔图1〕\n在矩形\\(ABCD\\)中，\n\\(\\because AB\\bot BC\\),\n\\(\\therefore AB\\parallel PQ\\),\n\\(\\therefore \\vartriangle CPQ\\backsim \\vartriangle CAB\\),\n\\(\\therefore \\frac { CP } { CA }=\\frac { CQ } { CB }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AB=6\\)，\\(BC=8\\)，\n\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n\\(\\therefore CQ=t\\)，\\(CP=10-2t\\)，\n即\\(\\frac { 10-2t } { 10 }=\\frac { t } { 8 }\\)，\n解得：\\(t=\\frac { 40 } { 13 }\\)，\n∴当\\(t=\\frac { 40 } { 13 }\\)时，\\(PQ\\)垂直\\(BC\\)；\n（2）过点\\(P\\)作\\(PE\\bot BC\\)于\\(E\\)．\n〔图2〕\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)（米\\()\\)，\n由题意知：\\(AP=2t\\)，\\(CQ=t\\)，则\\(PC=10-2t\\)\n由\\(AB\\bot BC\\)，\\(PE\\bot BC\\)得\\(PE\\parallel AB\\)\n\\(\\therefore\\)\\(\\frac { PE } { AB }=\\frac { PC } { AC }\\)，\n即：\\(\\frac { PE } { 6 }=\\frac { 10-2t } { 10 }\\)，\n\\(\\therefore PE=\\frac { 3 } { 5 }(10-2t)=-\\frac { 6 } { 5 }t+6\\)，\n又\\(\\because S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }\\times 6\\times 8=24\\)，\n\\(\\therefore S=S_{ \\vartriangle ABC } -S_{ \\vartriangle PCQ } =24-\\frac { 1 } { 2 }\\cdot t\\cdot (-\\frac { 6 } { 5 }t+6)=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)，\n即：\\(S=\\frac { 3 } { 5 }t ^ { 2 } -3t+24\\)；\n（3）假设四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积相等，则有：\\(\\frac { 3 } { 5 }t ^ { 2 } -3t+24=12\\)\n即：\\(t ^ { 2 } -5t+20=0\\)\n\\(\\because b ^ { 2 } -4ac=(-5)2-4\\times 1\\times 20 < 0\\)\n\\(\\therefore\\)方程无实根\n\\(\\therefore\\)在\\(P\\)、\\(Q\\)两点移动的过程中，四边形\\(ABQP\\)与\\(\\vartriangle CPQ\\)的面积不能相等．\n（4）①当\\(PC=QC\\)时，有\\(t=10-2t\\)，\\(t=\\frac { 10 } { 3 }\\)，\n②当\\(PQ=QC\\)时，有\\(\\frac { \\frac { 1 } { 2 }(10-2t) } { t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 25 } { 9 }\\)，\n③当\\(PQ=PC\\)时，有\\(\\frac { \\frac { 1 } { 2 }t } { 10-2t }=\\frac { 4 } { 5 }\\)，解得\\(t=\\frac { 80 } { 21 }\\)，\n所以，当\\(t\\)为\\(\\frac { 10 } { 3 }\\)秒、\\(\\frac { 25 } { 9 }\\)秒、\\(\\frac { 80 } { 21 }\\)秒时，\\(\\vartriangle PQC\\)为等腰三角形．",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      97,
+      108
+    ],
+    "solution_body_blocks": [
+      428,
+      474
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-B6C7155033/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          379.09,
+          583.64,
+          746.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-B6C7155033/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-B6C7155033/solution-q22-p25.webp",
+      "assets/SZ-G9-T1-B6C7155033/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          306.82,
+          583.64,
+          700.0
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          754.09
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          623.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.N07.03",
+    "M.G04.01"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.N07.03.01",
+    "E.G04.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 对动点形成的等面积方程计算判别式，用无实根说明不存在。 本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

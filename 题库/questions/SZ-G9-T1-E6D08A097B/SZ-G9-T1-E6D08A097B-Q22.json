@@ -1,0 +1,442 @@
+{
+  "id": "SZ-G9-T1-E6D08A097B-Q22",
+  "paper_id": "SZ-G9-T1-E6D08A097B",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图1，在Rt△ABC中，∠B=90°，BC=2AB=8，点D，E分别是边BC，AC的中点，连接DE，将△EDC绕点C按顺时针方向旋转，记旋转角为α.\n（1）问题发现\n① 当\\(\\alpha =0 ^ { {}^\\circ }\\)时，\\(\\frac { AE } { BD }=\\)        ；② 当〔图1〕时，\\(\\frac { AE } { BD }=\\)\n（2）拓展探究\n试判断：当0°≤α＜360°时，\\(\\frac { AE } { DB }\\)的大小有无变化？请仅就图2的情况给出证明.\n（3）问题解决\n当△EDC旋转至A、D、E三点共线时，直接写出线段BD的长.\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-E6D08A097B/figures/7bdec2d368c268bfac9c938d2d9a84067b6d759c9ef5237879dd81b0e7d85544.png",
+    "assets/SZ-G9-T1-E6D08A097B/figures/23f1f972024eef926fc9dc3bc8e9771bf5fe4fd54c73e789601e10bb6ccf945b.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(\\frac { \\sqrt[] { 5 } } { 2 }\\),②\\(\\frac { \\sqrt[] { 5 } } { 2 }\\).（2）无变化；理由参见解析.（3）\\(4\\sqrt[] { 5 }\\)，\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\).",
+  "answer": "（1）①\\(\\frac { \\sqrt[] { 5 } } { 2 }\\),②\\(\\frac { \\sqrt[] { 5 } } { 2 }\\).（2）无变化；理由参见解析.（3）\\(4\\sqrt[] { 5 }\\)，\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\).",
+  "given_solution": "【分析】（1）①当α=0°时，在Rt△ABC中，由勾股定理，求出AC的值是多少；然后根据点D、E分别是边BC、AC的中点，分别求出AE、BD的大小，即可求出\\(\\frac { AE } { BD }\\)的值是多少．\n②α=180°时，可得AB∥DE，然后根据\\(\\frac { AC } { AE }=\\frac { BC } { BD }\\)，求出\\(\\frac { AE } { BD }\\)的值是多少即可．\n（2）首先判断出∠ECA=∠DCB，再根据\\(\\frac { EC } { DC }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，判断出△ECA∽△DCB，即可求出\\(\\frac { AE } { BD }\\)的值是多少，进而判断出\\(\\frac { AE } { BD }\\)的大小没有变化即可．\n（3）根据题意，分两种情况：①点A，D，E所在的直线和BC平行时；②点A，D，E所在的直线和BC相交时；然后分类讨论，求出线段BD的长各是多少即可．\n【详解】（1）①当α=0°时，\n∵Rt△ABC中，∠B=90°，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { (8\\div 2) ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 5 }\\)，\n∵点D、E分别是边BC、AC的中点，\n∴\\(AE=\\frac { 4\\sqrt[] { 5 } } { 2 }=2\\sqrt[] { 5 }\\),BD=8÷2=4，\n∴\\(\\frac { AE } { BD }=\\frac { 2\\sqrt[] { 5 } } { 4 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．\n②如图1，\n〔图3〕  ，\n当α=180°时，\n可得AB∥DE，\n∵\\(\\frac { AC } { AE }=\\frac { BC } { BD }\\)，\n∴\\(\\frac { AE } { BD }=\\frac { AC } { BC }=\\frac { 4\\sqrt[] { 5 } } { 8 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)\n（2）如图2，\n〔图4〕  ，\n当0°≤α＜360°时，\\(\\frac { AE } { BD }\\)的大小没有变化，\n∵∠ECD=∠ACB，\n∴∠ECA=∠DCB，\n又∵\\(\\frac { EC } { DC }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，\n∴△ECA∽△DCB，\n∴\\(\\frac { AE } { BD }=\\frac { EC } { DC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．\n（3）①如图3，\n〔图5〕  ，\n∵AC=4\\(\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，\n∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)\n∵AD=BC，AB=DC，∠B=90°，\n∴四边形ABCD是矩形，\n∴BD=AC=\\(4\\sqrt[] { 5 }\\)．\n②如图4，连接BD，过点D作AC的垂线交AC于点Q，过点B作AC的垂线交AC于点P，\n〔图6〕  ，\n∵AC=\\(4\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，\n∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)，\n∵点D、E分别是边BC、AC的中点，\n∴DE=\\(\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times (8\\div 2)=\\frac { 1 } { 2 }\\times 4\\)=2，\n∴AE=AD-DE=8-2=6，\n由（2），可得\n\\(\\frac { AE } { BD }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，\n∴BD=\\(\\frac { 6 } { \\frac { \\sqrt[] { 5 } } { 2 } }=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．\n综上所述，BD的长为\\(4\\sqrt[] { 5 }\\)或\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-E6D08A097B/figures/7bdec2d368c268bfac9c938d2d9a84067b6d759c9ef5237879dd81b0e7d85544.png",
+    "assets/SZ-G9-T1-E6D08A097B/figures/23f1f972024eef926fc9dc3bc8e9771bf5fe4fd54c73e789601e10bb6ccf945b.png",
+    "assets/SZ-G9-T1-E6D08A097B/figures/1c6d0eae47a262fbbe4e4c3b3522d7ba000a84027fe7780cb791288c119629e8.png",
+    "assets/SZ-G9-T1-E6D08A097B/figures/4d9005ae9b29eda030b2a403409d345323d844722675923629028152581f178f.png",
+    "assets/SZ-G9-T1-E6D08A097B/figures/53a19ae07ae0ff3cc739f510ce78e7f86f8ea310351389cc30c711d446b3f9b9.png",
+    "assets/SZ-G9-T1-E6D08A097B/figures/689a2ae1ef7d18da94bb8b95f98a30c0376f33ba911566f6dba94b1912b03ca4.png"
+  ],
+  "solution": "（1）①当α=0°时，\n∵Rt△ABC中，∠B=90°，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { (8\\div 2) ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 5 }\\)，\n∵点D、E分别是边BC、AC的中点，\n∴\\(AE=\\frac { 4\\sqrt[] { 5 } } { 2 }=2\\sqrt[] { 5 }\\),BD=8÷2=4，\n∴\\(\\frac { AE } { BD }=\\frac { 2\\sqrt[] { 5 } } { 4 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．\n②如图1，\n〔图3〕  ，\n当α=180°时，\n可得AB∥DE，\n∵\\(\\frac { AC } { AE }=\\frac { BC } { BD }\\)，\n∴\\(\\frac { AE } { BD }=\\frac { AC } { BC }=\\frac { 4\\sqrt[] { 5 } } { 8 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)\n（2）如图2，\n〔图4〕  ，\n当0°≤α＜360°时，\\(\\frac { AE } { BD }\\)的大小没有变化，\n∵∠ECD=∠ACB，\n∴∠ECA=∠DCB，\n又∵\\(\\frac { EC } { DC }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，\n∴△ECA∽△DCB，\n∴\\(\\frac { AE } { BD }=\\frac { EC } { DC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．\n（3）①如图3，\n〔图5〕  ，\n∵AC=4\\(\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，\n∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)\n∵AD=BC，AB=DC，∠B=90°，\n∴四边形ABCD是矩形，\n∴BD=AC=\\(4\\sqrt[] { 5 }\\)．\n②如图4，连接BD，过点D作AC的垂线交AC于点Q，过点B作AC的垂线交AC于点P，\n〔图6〕  ，\n∵AC=\\(4\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，\n∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)，\n∵点D、E分别是边BC、AC的中点，\n∴DE=\\(\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times (8\\div 2)=\\frac { 1 } { 2 }\\times 4\\)=2，\n∴AE=AD-DE=8-2=6，\n由（2），可得\n\\(\\frac { AE } { BD }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，\n∴BD=\\(\\frac { 6 } { \\frac { \\sqrt[] { 5 } } { 2 } }=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．\n综上所述，BD的长为\\(4\\sqrt[] { 5 }\\)或\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．",
+  "solution_steps": [
+    "（1）①当α=0°时，",
+    "∵Rt△ABC中，∠B=90°，",
+    "∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { (8\\div 2) ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 5 }\\)，",
+    "∵点D、E分别是边BC、AC的中点，",
+    "∴\\(AE=\\frac { 4\\sqrt[] { 5 } } { 2 }=2\\sqrt[] { 5 }\\),BD=8÷2=4，",
+    "∴\\(\\frac { AE } { BD }=\\frac { 2\\sqrt[] { 5 } } { 4 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．",
+    "②如图1，",
+    "〔图3〕  ，",
+    "当α=180°时，",
+    "可得AB∥DE，",
+    "∵\\(\\frac { AC } { AE }=\\frac { BC } { BD }\\)，",
+    "∴\\(\\frac { AE } { BD }=\\frac { AC } { BC }=\\frac { 4\\sqrt[] { 5 } } { 8 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)",
+    "（2）如图2，",
+    "〔图4〕  ，",
+    "当0°≤α＜360°时，\\(\\frac { AE } { BD }\\)的大小没有变化，",
+    "∵∠ECD=∠ACB，",
+    "∴∠ECA=∠DCB，",
+    "又∵\\(\\frac { EC } { DC }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，",
+    "∴△ECA∽△DCB，",
+    "∴\\(\\frac { AE } { BD }=\\frac { EC } { DC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．",
+    "（3）①如图3，",
+    "〔图5〕  ，",
+    "∵AC=4\\(\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，",
+    "∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)",
+    "∵AD=BC，AB=DC，∠B=90°，",
+    "∴四边形ABCD是矩形，",
+    "∴BD=AC=\\(4\\sqrt[] { 5 }\\)．",
+    "②如图4，连接BD，过点D作AC的垂线交AC于点Q，过点B作AC的垂线交AC于点P，",
+    "〔图6〕  ，",
+    "∵AC=\\(4\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，",
+    "∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)，",
+    "∵点D、E分别是边BC、AC的中点，",
+    "∴DE=\\(\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times (8\\div 2)=\\frac { 1 } { 2 }\\times 4\\)=2，",
+    "∴AE=AD-DE=8-2=6，",
+    "由（2），可得",
+    "\\(\\frac { AE } { BD }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，",
+    "∴BD=\\(\\frac { 6 } { \\frac { \\sqrt[] { 5 } } { 2 } }=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．",
+    "综上所述，BD的长为\\(4\\sqrt[] { 5 }\\)或\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在Rt△ABC中，∠B=90°，BC=2AB=8，点D，E分别是边BC，AC的中点，连接DE，将△EDC绕点C按顺时针方向旋转，记旋转角为α.",
+      "paper_blocks": [
+        76
+      ]
+    },
+    {
+      "id": "fig-83",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        83
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "问题发现",
+      "paper_blocks": [
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-E6D08A097B-Q22-P01",
+      "label": "（1）①",
+      "prompt": "当\\(\\alpha =0 ^ { {}^\\circ }\\)时，\\(\\frac { AE } { BD }=\\)        ；",
+      "stem_text": "当\\(\\alpha =0 ^ { {}^\\circ }\\)时，\\(\\frac { AE } { BD }=\\)        ；",
+      "material_ids": [
+        "context",
+        "fig-83",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 5 } } { 2 }\\),",
+      "answer": "\\(\\frac { \\sqrt[] { 5 } } { 2 }\\),",
+      "given_solution": "当α=0°时，\n∵Rt△ABC中，∠B=90°，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { (8\\div 2) ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 5 }\\)，\n∵点D、E分别是边BC、AC的中点，\n∴\\(AE=\\frac { 4\\sqrt[] { 5 } } { 2 }=2\\sqrt[] { 5 }\\),BD=8÷2=4，\n∴\\(\\frac { AE } { BD }=\\frac { 2\\sqrt[] { 5 } } { 4 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．",
+      "solution_steps": [
+        "当α=0°时，",
+        "∵Rt△ABC中，∠B=90°，",
+        "∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { (8\\div 2) ^ { 2 } +8 ^ { 2 } }=4\\sqrt[] { 5 }\\)，",
+        "∵点D、E分别是边BC、AC的中点，",
+        "∴\\(AE=\\frac { 4\\sqrt[] { 5 } } { 2 }=2\\sqrt[] { 5 }\\),BD=8÷2=4，",
+        "∴\\(\\frac { AE } { BD }=\\frac { 2\\sqrt[] { 5 } } { 4 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          83
+        ],
+        "solution_block_ids": [
+          399,
+          400,
+          401,
+          402,
+          403,
+          404
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6D08A097B-Q22-P02",
+      "label": "（1）②",
+      "prompt": "当〔图1〕时，\\(\\frac { AE } { BD }=\\)",
+      "stem_text": "当〔图1〕时，\\(\\frac { AE } { BD }=\\)",
+      "material_ids": [
+        "context",
+        "fig-83",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 5 } } { 2 }\\).",
+      "answer": "\\(\\frac { \\sqrt[] { 5 } } { 2 }\\).",
+      "given_solution": "如图1，\n〔图3〕  ，\n当α=180°时，\n可得AB∥DE，\n∵\\(\\frac { AC } { AE }=\\frac { BC } { BD }\\)，\n∴\\(\\frac { AE } { BD }=\\frac { AC } { BC }=\\frac { 4\\sqrt[] { 5 } } { 8 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)",
+      "solution_steps": [
+        "如图1，",
+        "〔图3〕  ，",
+        "当α=180°时，",
+        "可得AB∥DE，",
+        "∵\\(\\frac { AC } { AE }=\\frac { BC } { BD }\\)，",
+        "∴\\(\\frac { AE } { BD }=\\frac { AC } { BC }=\\frac { 4\\sqrt[] { 5 } } { 8 }=\\frac { \\sqrt[] { 5 } } { 2 }\\)"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77,
+          78,
+          83
+        ],
+        "solution_block_ids": [
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“旋转角”。利用旋转前后的对应关系求角。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6D08A097B-Q22-P03",
+      "label": "（2）",
+      "prompt": "拓展探究\n试判断：当0°≤α＜360°时，\\(\\frac { AE } { DB }\\)的大小有无变化？请仅就图2的情况给出证明.",
+      "stem_text": "拓展探究\n试判断：当0°≤α＜360°时，\\(\\frac { AE } { DB }\\)的大小有无变化？请仅就图2的情况给出证明.",
+      "material_ids": [
+        "context",
+        "fig-83"
+      ],
+      "requires": [],
+      "given_answer": "无变化；理由参见解析.",
+      "answer": "无变化；理由参见解析.",
+      "given_solution": "如图2，\n〔图4〕  ，\n当0°≤α＜360°时，\\(\\frac { AE } { BD }\\)的大小没有变化，\n∵∠ECD=∠ACB，\n∴∠ECA=∠DCB，\n又∵\\(\\frac { EC } { DC }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，\n∴△ECA∽△DCB，\n∴\\(\\frac { AE } { BD }=\\frac { EC } { DC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．",
+      "solution_steps": [
+        "如图2，",
+        "〔图4〕  ，",
+        "当0°≤α＜360°时，\\(\\frac { AE } { BD }\\)的大小没有变化，",
+        "∵∠ECD=∠ACB，",
+        "∴∠ECA=∠DCB，",
+        "又∵\\(\\frac { EC } { DC }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，",
+        "∴△ECA∽△DCB，",
+        "∴\\(\\frac { AE } { BD }=\\frac { EC } { DC }=\\frac { \\sqrt[] { 5 } } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          79,
+          80,
+          83
+        ],
+        "solution_block_ids": [
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-E6D08A097B-Q22-P04",
+      "label": "（3）",
+      "prompt": "问题解决\n当△EDC旋转至A、D、E三点共线时，直接写出线段BD的长.",
+      "stem_text": "问题解决\n当△EDC旋转至A、D、E三点共线时，直接写出线段BD的长.",
+      "material_ids": [
+        "context",
+        "fig-83"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 5 }\\)，\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\).",
+      "answer": "\\(4\\sqrt[] { 5 }\\)，\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\).",
+      "given_solution": "①如图3，\n〔图5〕  ，\n∵AC=4\\(\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，\n∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)\n∵AD=BC，AB=DC，∠B=90°，\n∴四边形ABCD是矩形，\n∴BD=AC=\\(4\\sqrt[] { 5 }\\)．\n②如图4，连接BD，过点D作AC的垂线交AC于点Q，过点B作AC的垂线交AC于点P，\n〔图6〕  ，\n∵AC=\\(4\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，\n∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)，\n∵点D、E分别是边BC、AC的中点，\n∴DE=\\(\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times (8\\div 2)=\\frac { 1 } { 2 }\\times 4\\)=2，\n∴AE=AD-DE=8-2=6，\n由（2），可得\n\\(\\frac { AE } { BD }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，\n∴BD=\\(\\frac { 6 } { \\frac { \\sqrt[] { 5 } } { 2 } }=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．\n综上所述，BD的长为\\(4\\sqrt[] { 5 }\\)或\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．",
+      "solution_steps": [
+        "①如图3，",
+        "〔图5〕  ，",
+        "∵AC=4\\(\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，",
+        "∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)",
+        "∵AD=BC，AB=DC，∠B=90°，",
+        "∴四边形ABCD是矩形，",
+        "∴BD=AC=\\(4\\sqrt[] { 5 }\\)．",
+        "②如图4，连接BD，过点D作AC的垂线交AC于点Q，过点B作AC的垂线交AC于点P，",
+        "〔图6〕  ，",
+        "∵AC=\\(4\\sqrt[] { 5 }\\)，CD=4，CD⊥AD，",
+        "∴AD=\\(\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { (4\\sqrt[] { 5 }) ^ { 2 } -4 ^ { 2 } }=\\sqrt[] { 80-16 }=8\\)，",
+        "∵点D、E分别是边BC、AC的中点，",
+        "∴DE=\\(\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times (8\\div 2)=\\frac { 1 } { 2 }\\times 4\\)=2，",
+        "∴AE=AD-DE=8-2=6，",
+        "由（2），可得",
+        "\\(\\frac { AE } { BD }=\\frac { \\sqrt[] { 5 } } { 2 }\\)，",
+        "∴BD=\\(\\frac { 6 } { \\frac { \\sqrt[] { 5 } } { 2 } }=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．",
+        "综上所述，BD的长为\\(4\\sqrt[] { 5 }\\)或\\(\\frac { 12\\sqrt[] { 5 } } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          81,
+          82,
+          83
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      76,
+      83
+    ],
+    "solution_body_blocks": [
+      385,
+      436
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-E6D08A097B/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          433.64,
+          583.64,
+          721.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-E6D08A097B/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-E6D08A097B/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-E6D08A097B/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          348.64,
+          583.64,
+          764.09
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          647.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G07.03",
+    "M.G08.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。 该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 公共材料含“旋转角”。利用旋转前后的对应关系求角。 本问题面与解答对应“相似图形及三角形判定”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

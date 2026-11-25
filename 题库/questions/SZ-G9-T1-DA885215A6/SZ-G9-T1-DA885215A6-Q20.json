@@ -1,0 +1,581 @@
+{
+  "id": "SZ-G9-T1-DA885215A6-Q20",
+  "paper_id": "SZ-G9-T1-DA885215A6",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、构造全等关系证明线段或角关系",
+  "stem": "【课本再现】\n（1）如图1，正方形\\(ABCD\\)的对角线相交于点\\(O\\)，点\\(O\\)又是正方形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)的一个顶点，而且这两个正方形的边长都为1，四边形\\(OEBF\\)为两个正方形重叠部分，正方形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)可绕点\\(O\\)转动，则下列结论正确的是　　　　　（填序号即可）．\n①\\(\\vartriangle AEO≌\\vartriangle BFO\\)；②\\(OE=OF\\)：③四边形\\(OEBF\\)的面积总等于\\(\\frac { 1 } { 4 }\\)；④连接\\(EF\\)，总有\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)．\n〔图1〕\n【类比迁移】\n（2）如图2，矩形\\(ABCD\\)的中心\\(O\\)是矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)的一个顶点，\\(A_{ 1 } O\\)与边\\(AB\\)相交于点\\(E，C_{ 1 } O\\)与边\\(CB\\)相交于点\\(F\\)，连接\\(EF\\)，矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)可绕着点\\(O\\)旋转，猜想\\(AE，CF，EF\\)之间的数量关系，并进行证明；\n【拓展应用】\n（3）如图3，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)中，\\(\\angle C=90{}^\\circ ，AC=3{ \\rm{ c } }{ \\rm{ m } }，BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，直角\\(\\angle EDF\\)的顶点\\(D\\)在边\\(AB\\)的中点处，它的两条边\\(DE\\)和\\(DF\\)分别与直线\\(AC，BC\\)相交于点\\(E，F，\\angle EDF\\)可绕着点\\(D\\)旋转，当\\(AE=2{ \\rm{ c } }{ \\rm{ m } }\\)时，求线段\\(EF\\)的长度．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-DA885215A6/figures/d21b8b3e2deb8e779e6534cb604002ea95f040227855a80bd7b4bdbdb41d2fc1.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①②③④；（2）\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由见解析；（3）\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)",
+  "answer": "（1）①②③④；（2）\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由见解析；（3）\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)",
+  "given_solution": "【分析】（1）证明\\(\\vartriangle AOE≌\\vartriangle BOF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，可得结论；（2）猜想：\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，连接\\(AC\\)，延长\\(EO\\)交\\(DC\\)于\\(E'\\)，证明\\(\\vartriangle AOE≌\\vartriangle COE'\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，再利用勾股定理证明即可；（3）设\\(CF=x{ \\rm{ c } }{ \\rm{ m } }\\)分两种情形：①当点E在线段\\(AC\\)上时，②当点E在\\(CA\\)延长线上时，分别利用勾股定理构建方程求解．\n【详解】解：（1）如图1中，连接\\(EF\\)．\n〔图2〕\n∵四边形\\(ABCD\\)是正方形，\n\\(\\therefore AC\\bot BD，OA=OB\\)，\n∵\\(\\angle AOB=\\angle A_{ 1 } OC_{ 1 } =90{}^\\circ\\)，\n∴\\(\\angle AOE=\\angle BOF\\)，\n∵\\(\\angle OAE=\\angle OBF=45{}^\\circ\\)，\n∴\\(\\vartriangle AOE≌\\vartriangle BOF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，故①正确，\n∴\\(OE=OF，AE=BF\\)O故②正确，\n∴\\(S_{ 四边形OEBF } =S_{ \\vartriangle ABO } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，故③正确，\n∵\\(\\angle EBF=90{}^\\circ\\)，\n∴\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，\n∵\\(AB=BC，AE=BF\\)，\n∴\\(BE=CF\\)，\n∴\\(EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，故④正确，\n故答案为：①②③④；\n（2）\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由如下：\n连接\\(AC\\)，\n〔图3〕\n∵O为矩形中心，\n∴\\(AO=CO\\)，\n延长\\(EO\\)交\\(DC\\)于\\(E'\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle BAC=\\angle ACE'\\)，\n又∵\\(\\angle AOE=\\angle COE'\\)，\n∴\\(\\vartriangle AOE≌\\vartriangle COE'\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=CE'，EO=E'O\\)，\n又∵矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)，\n∴\\(\\angle EOF=90{}^\\circ =\\angle FOE'\\)，\n∴\\(FO\\)垂直平分\\(EE'\\)，\n∴\\(EF=E'F\\)，\n∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE'\\)中\\({CE'} ^ { 2 } +FC ^ { 2 } =E'F ^ { 2 }\\)，\n∴\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)；\n（3）设\\(CF=x{ \\rm{ c } }{ \\rm{ m } }\\)，\n①当E在\\(AC\\)之间时，\n〔图4〕\n\\(\\because AE=2{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore CE=1{ \\rm{ c } }{ \\rm{ m } }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE\\)中，\\(\\angle C=90{}^\\circ\\)，\n\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =EF ^ { 2 }\\)，\n又由（2）易知\\(EF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，\n\\(\\therefore EF ^ { 2 } =2 ^ { 2 } +BF ^ { 2 }\\) ，\n\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 }\\)，\n解得：\\(x=\\frac { 19 } { 8 }\\)，\n\\(\\therefore EF=\\sqrt[] { 1 ^ { 2 } +\\left ( { \\frac { 19 } { 8 } } \\right ) ^ { 2 } }=\\frac { 5\\sqrt[] { 17 } } { 8 }\\)；\n②当E在\\(CA\\)延长线上时，\n〔图5〕\n同理可论：\\(EF ^ { 2 } =E'F ^ { 2 } ={BE'} ^ { 2 } +BF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，\n设\\(CF=x\\)，则\\(CF ^ { 2 } +EC ^ { 2 } =EF ^ { 2 } =BF ^ { 2 } +{BE'} ^ { 2 }\\)，\n即：\\(x ^ { 2 } +5 ^ { 2 } =(4+x) ^ { 2 } +2 ^ { 2 }\\)，\n解得：\\(x=\\frac { 5 } { 8 }\\)，\n∴\\(EF=\\sqrt[] { \\left ( { \\frac { 5 } { 8 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\frac { 5\\sqrt[] { 65 } } { 8 }\\)，\n综上所述：\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)．\n【点睛】本题属于四边形综合题，考查了矩形的性质，正方形的性质，全等三角形的判定和性质，勾股定理，正确作出辅助线是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-DA885215A6/figures/d21b8b3e2deb8e779e6534cb604002ea95f040227855a80bd7b4bdbdb41d2fc1.png",
+    "assets/SZ-G9-T1-DA885215A6/figures/670c00e3bff3200d8f9f44086612d86c72973f245772c7c0b2d863a9a5d7f8eb.png",
+    "assets/SZ-G9-T1-DA885215A6/figures/924822596783408b7ffae0d4f86c80b3b8aa2012b4d1d89a0259f04d8b44b8e6.png",
+    "assets/SZ-G9-T1-DA885215A6/figures/9ea10524638b64d335897ee72195eba76884c1b39a1903a1291e7f078e623ad7.png",
+    "assets/SZ-G9-T1-DA885215A6/figures/4d2bd5a1ef1bfa1a406e85f8a2960b60af3dbe1a1ca7cc294ed138d6b90ce843.png"
+  ],
+  "solution": "解：（1）如图1中，连接\\(EF\\)．\n〔图2〕\n∵四边形\\(ABCD\\)是正方形，\n\\(\\therefore AC\\bot BD，OA=OB\\)，\n∵\\(\\angle AOB=\\angle A_{ 1 } OC_{ 1 } =90{}^\\circ\\)，\n∴\\(\\angle AOE=\\angle BOF\\)，\n∵\\(\\angle OAE=\\angle OBF=45{}^\\circ\\)，\n∴\\(\\vartriangle AOE≌\\vartriangle BOF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，故①正确，\n∴\\(OE=OF，AE=BF\\)O故②正确，\n∴\\(S_{ 四边形OEBF } =S_{ \\vartriangle ABO } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，故③正确，\n∵\\(\\angle EBF=90{}^\\circ\\)，\n∴\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，\n∵\\(AB=BC，AE=BF\\)，\n∴\\(BE=CF\\)，\n∴\\(EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，故④正确，\n故答案为：①②③④；\n（2）\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由如下：\n连接\\(AC\\)，\n〔图3〕\n∵O为矩形中心，\n∴\\(AO=CO\\)，\n延长\\(EO\\)交\\(DC\\)于\\(E'\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle BAC=\\angle ACE'\\)，\n又∵\\(\\angle AOE=\\angle COE'\\)，\n∴\\(\\vartriangle AOE≌\\vartriangle COE'\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=CE'，EO=E'O\\)，\n又∵矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)，\n∴\\(\\angle EOF=90{}^\\circ =\\angle FOE'\\)，\n∴\\(FO\\)垂直平分\\(EE'\\)，\n∴\\(EF=E'F\\)，\n∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE'\\)中\\({CE'} ^ { 2 } +FC ^ { 2 } =E'F ^ { 2 }\\)，\n∴\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)；\n（3）设\\(CF=x{ \\rm{ c } }{ \\rm{ m } }\\)，\n①当E在\\(AC\\)之间时，\n〔图4〕\n\\(\\because AE=2{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore CE=1{ \\rm{ c } }{ \\rm{ m } }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE\\)中，\\(\\angle C=90{}^\\circ\\)，\n\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =EF ^ { 2 }\\)，\n又由（2）易知\\(EF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，\n\\(\\therefore EF ^ { 2 } =2 ^ { 2 } +BF ^ { 2 }\\) ，\n\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 }\\)，\n解得：\\(x=\\frac { 19 } { 8 }\\)，\n\\(\\therefore EF=\\sqrt[] { 1 ^ { 2 } +\\left ( { \\frac { 19 } { 8 } } \\right ) ^ { 2 } }=\\frac { 5\\sqrt[] { 17 } } { 8 }\\)；\n②当E在\\(CA\\)延长线上时，\n〔图5〕\n同理可论：\\(EF ^ { 2 } =E'F ^ { 2 } ={BE'} ^ { 2 } +BF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，\n设\\(CF=x\\)，则\\(CF ^ { 2 } +EC ^ { 2 } =EF ^ { 2 } =BF ^ { 2 } +{BE'} ^ { 2 }\\)，\n即：\\(x ^ { 2 } +5 ^ { 2 } =(4+x) ^ { 2 } +2 ^ { 2 }\\)，\n解得：\\(x=\\frac { 5 } { 8 }\\)，\n∴\\(EF=\\sqrt[] { \\left ( { \\frac { 5 } { 8 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\frac { 5\\sqrt[] { 65 } } { 8 }\\)，\n综上所述：\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)．",
+  "solution_steps": [
+    "解：（1）如图1中，连接\\(EF\\)．",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore AC\\bot BD，OA=OB\\)，",
+    "∵\\(\\angle AOB=\\angle A_{ 1 } OC_{ 1 } =90{}^\\circ\\)，",
+    "∴\\(\\angle AOE=\\angle BOF\\)，",
+    "∵\\(\\angle OAE=\\angle OBF=45{}^\\circ\\)，",
+    "∴\\(\\vartriangle AOE≌\\vartriangle BOF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，故①正确，",
+    "∴\\(OE=OF，AE=BF\\)O故②正确，",
+    "∴\\(S_{ 四边形OEBF } =S_{ \\vartriangle ABO } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，故③正确，",
+    "∵\\(\\angle EBF=90{}^\\circ\\)，",
+    "∴\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，",
+    "∵\\(AB=BC，AE=BF\\)，",
+    "∴\\(BE=CF\\)，",
+    "∴\\(EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，故④正确，",
+    "故答案为：①②③④；",
+    "（2）\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由如下：",
+    "连接\\(AC\\)，",
+    "〔图3〕",
+    "∵O为矩形中心，",
+    "∴\\(AO=CO\\)，",
+    "延长\\(EO\\)交\\(DC\\)于\\(E'\\)，",
+    "∵\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle BAC=\\angle ACE'\\)，",
+    "又∵\\(\\angle AOE=\\angle COE'\\)，",
+    "∴\\(\\vartriangle AOE≌\\vartriangle COE'\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(AE=CE'，EO=E'O\\)，",
+    "又∵矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)，",
+    "∴\\(\\angle EOF=90{}^\\circ =\\angle FOE'\\)，",
+    "∴\\(FO\\)垂直平分\\(EE'\\)，",
+    "∴\\(EF=E'F\\)，",
+    "∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE'\\)中\\({CE'} ^ { 2 } +FC ^ { 2 } =E'F ^ { 2 }\\)，",
+    "∴\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)；",
+    "（3）设\\(CF=x{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "①当E在\\(AC\\)之间时，",
+    "〔图4〕",
+    "\\(\\because AE=2{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "\\(\\therefore CE=1{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE\\)中，\\(\\angle C=90{}^\\circ\\)，",
+    "\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =EF ^ { 2 }\\)，",
+    "又由（2）易知\\(EF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，",
+    "\\(\\therefore EF ^ { 2 } =2 ^ { 2 } +BF ^ { 2 }\\) ，",
+    "\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 19 } { 8 }\\)，",
+    "\\(\\therefore EF=\\sqrt[] { 1 ^ { 2 } +\\left ( { \\frac { 19 } { 8 } } \\right ) ^ { 2 } }=\\frac { 5\\sqrt[] { 17 } } { 8 }\\)；",
+    "②当E在\\(CA\\)延长线上时，",
+    "〔图5〕",
+    "同理可论：\\(EF ^ { 2 } =E'F ^ { 2 } ={BE'} ^ { 2 } +BF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，",
+    "设\\(CF=x\\)，则\\(CF ^ { 2 } +EC ^ { 2 } =EF ^ { 2 } =BF ^ { 2 } +{BE'} ^ { 2 }\\)，",
+    "即：\\(x ^ { 2 } +5 ^ { 2 } =(4+x) ^ { 2 } +2 ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 5 } { 8 }\\)，",
+    "∴\\(EF=\\sqrt[] { \\left ( { \\frac { 5 } { 8 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\frac { 5\\sqrt[] { 65 } } { 8 }\\)，",
+    "综上所述：\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【课本再现】",
+      "paper_blocks": [
+        56
+      ]
+    },
+    {
+      "id": "fig-59",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        59
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图1，正方形\\(ABCD\\)的对角线相交于点\\(O\\)，点\\(O\\)又是正方形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)的一个顶点，而且这两个正方形的边长都为1，四边形\\(OEBF\\)为两个正方形重叠部分，正方形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)可绕点\\(O\\)转动，则下列结论正确的是　　　　　（填序号即可）．",
+      "paper_blocks": [
+        57
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-DA885215A6-Q20-P01",
+      "label": "（1）①",
+      "prompt": "\\(\\vartriangle AEO≌\\vartriangle BFO\\)；",
+      "stem_text": "\\(\\vartriangle AEO≌\\vartriangle BFO\\)；",
+      "material_ids": [
+        "context",
+        "fig-59",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(OE=OF，AE=BF\\)O故",
+      "given_solution": "正确，\n∴\\(OE=OF，AE=BF\\)O故",
+      "solution_steps": [
+        "正确，",
+        "∴\\(OE=OF，AE=BF\\)O故"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          336,
+          337
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“绕点 O 转动”。利用旋转前后的对应关系求角。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DA885215A6-Q20-P02",
+      "label": "（1）②",
+      "prompt": "\\(OE=OF\\)：",
+      "stem_text": "\\(OE=OF\\)：",
+      "material_ids": [
+        "context",
+        "fig-59",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(S_{ 四边形OEBF } =S_{ \\vartriangle ABO } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，故",
+      "given_solution": "正确，\n∴\\(S_{ 四边形OEBF } =S_{ \\vartriangle ABO } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，故",
+      "solution_steps": [
+        "正确，",
+        "∴\\(S_{ 四边形OEBF } =S_{ \\vartriangle ABO } =\\frac { 1 } { 4 }S_{ 正方形ABCD }\\)，故"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          337,
+          338
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“绕点 O 转动”。利用旋转前后的对应关系求角。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DA885215A6-Q20-P03",
+      "label": "（1）③",
+      "prompt": "四边形\\(OEBF\\)的面积总等于\\(\\frac { 1 } { 4 }\\)；",
+      "stem_text": "四边形\\(OEBF\\)的面积总等于\\(\\frac { 1 } { 4 }\\)；",
+      "material_ids": [
+        "context",
+        "fig-59",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，故",
+      "given_solution": "正确，\n∵\\(\\angle EBF=90{}^\\circ\\)，\n∴\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，\n∵\\(AB=BC，AE=BF\\)，\n∴\\(BE=CF\\)，\n∴\\(EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，故",
+      "solution_steps": [
+        "正确，",
+        "∵\\(\\angle EBF=90{}^\\circ\\)，",
+        "∴\\(EF ^ { 2 } =BE ^ { 2 } +BF ^ { 2 }\\)，",
+        "∵\\(AB=BC，AE=BF\\)，",
+        "∴\\(BE=CF\\)，",
+        "∴\\(EF ^ { 2 } =AE ^ { 2 } +CF ^ { 2 }\\)，故"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          338,
+          339,
+          340,
+          341,
+          342,
+          343
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DA885215A6-Q20-P04",
+      "label": "（1）④",
+      "prompt": "连接\\(EF\\)，总有\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)．\n\n【类比迁移】",
+      "stem_text": "连接\\(EF\\)，总有\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)．\n\n【类比迁移】",
+      "material_ids": [
+        "context",
+        "fig-59",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "；",
+      "answer": "；",
+      "given_solution": "正确，\n故答案为：①②③④；",
+      "solution_steps": [
+        "正确，",
+        "故答案为：①②③④；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59,
+          60
+        ],
+        "solution_block_ids": [
+          343,
+          344
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“绕点 O 转动”。利用旋转前后的对应关系求角。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DA885215A6-Q20-P05",
+      "label": "（2）",
+      "prompt": "如图2，矩形\\(ABCD\\)的中心\\(O\\)是矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)的一个顶点，\\(A_{ 1 } O\\)与边\\(AB\\)相交于点\\(E，C_{ 1 } O\\)与边\\(CB\\)相交于点\\(F\\)，连接\\(EF\\)，矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)可绕着点\\(O\\)旋转，猜想\\(AE，CF，EF\\)之间的数量关系，并进行证明；\n【拓展应用】",
+      "stem_text": "如图2，矩形\\(ABCD\\)的中心\\(O\\)是矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)的一个顶点，\\(A_{ 1 } O\\)与边\\(AB\\)相交于点\\(E，C_{ 1 } O\\)与边\\(CB\\)相交于点\\(F\\)，连接\\(EF\\)，矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)可绕着点\\(O\\)旋转，猜想\\(AE，CF，EF\\)之间的数量关系，并进行证明；\n【拓展应用】",
+      "material_ids": [
+        "context",
+        "fig-59"
+      ],
+      "requires": [],
+      "given_answer": "\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由见解析；",
+      "answer": "\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由见解析；",
+      "given_solution": "\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由如下：\n连接\\(AC\\)，\n〔图3〕\n∵O为矩形中心，\n∴\\(AO=CO\\)，\n延长\\(EO\\)交\\(DC\\)于\\(E'\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle BAC=\\angle ACE'\\)，\n又∵\\(\\angle AOE=\\angle COE'\\)，\n∴\\(\\vartriangle AOE≌\\vartriangle COE'\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=CE'，EO=E'O\\)，\n又∵矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)，\n∴\\(\\angle EOF=90{}^\\circ =\\angle FOE'\\)，\n∴\\(FO\\)垂直平分\\(EE'\\)，\n∴\\(EF=E'F\\)，\n∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE'\\)中\\({CE'} ^ { 2 } +FC ^ { 2 } =E'F ^ { 2 }\\)，\n∴\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)；",
+      "solution_steps": [
+        "\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)，理由如下：",
+        "连接\\(AC\\)，",
+        "〔图3〕",
+        "∵O为矩形中心，",
+        "∴\\(AO=CO\\)，",
+        "延长\\(EO\\)交\\(DC\\)于\\(E'\\)，",
+        "∵\\(AB\\parallel CD\\)，",
+        "∴\\(\\angle BAC=\\angle ACE'\\)，",
+        "又∵\\(\\angle AOE=\\angle COE'\\)，",
+        "∴\\(\\vartriangle AOE≌\\vartriangle COE'\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(AE=CE'，EO=E'O\\)，",
+        "又∵矩形\\(A_{ 1 } B_{ 1 } C_{ 1 } O\\)，",
+        "∴\\(\\angle EOF=90{}^\\circ =\\angle FOE'\\)，",
+        "∴\\(FO\\)垂直平分\\(EE'\\)，",
+        "∴\\(EF=E'F\\)，",
+        "∵在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE'\\)中\\({CE'} ^ { 2 } +FC ^ { 2 } =E'F ^ { 2 }\\)，",
+        "∴\\(AE ^ { 2 } +CF ^ { 2 } =EF ^ { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          59,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DA885215A6-Q20-P06",
+      "label": "（3）",
+      "prompt": "如图3，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)中，\\(\\angle C=90{}^\\circ ，AC=3{ \\rm{ c } }{ \\rm{ m } }，BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，直角\\(\\angle EDF\\)的顶点\\(D\\)在边\\(AB\\)的中点处，它的两条边\\(DE\\)和\\(DF\\)分别与直线\\(AC，BC\\)相交于点\\(E，F，\\angle EDF\\)可绕着点\\(D\\)旋转，当\\(AE=2{ \\rm{ c } }{ \\rm{ m } }\\)时，求线段\\(EF\\)的长度．",
+      "stem_text": "如图3，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ACB\\)中，\\(\\angle C=90{}^\\circ ，AC=3{ \\rm{ c } }{ \\rm{ m } }，BC=4{ \\rm{ c } }{ \\rm{ m } }\\)，直角\\(\\angle EDF\\)的顶点\\(D\\)在边\\(AB\\)的中点处，它的两条边\\(DE\\)和\\(DF\\)分别与直线\\(AC，BC\\)相交于点\\(E，F，\\angle EDF\\)可绕着点\\(D\\)旋转，当\\(AE=2{ \\rm{ c } }{ \\rm{ m } }\\)时，求线段\\(EF\\)的长度．",
+      "material_ids": [
+        "context",
+        "fig-59"
+      ],
+      "requires": [],
+      "given_answer": "\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)",
+      "answer": "\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)",
+      "given_solution": "设\\(CF=x{ \\rm{ c } }{ \\rm{ m } }\\)，\n①当E在\\(AC\\)之间时，\n〔图4〕\n\\(\\because AE=2{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore CE=1{ \\rm{ c } }{ \\rm{ m } }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE\\)中，\\(\\angle C=90{}^\\circ\\)，\n\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =EF ^ { 2 }\\)，\n又由（2）易知\\(EF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，\n\\(\\therefore EF ^ { 2 } =2 ^ { 2 } +BF ^ { 2 }\\) ，\n\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 }\\)，\n解得：\\(x=\\frac { 19 } { 8 }\\)，\n\\(\\therefore EF=\\sqrt[] { 1 ^ { 2 } +\\left ( { \\frac { 19 } { 8 } } \\right ) ^ { 2 } }=\\frac { 5\\sqrt[] { 17 } } { 8 }\\)；\n②当E在\\(CA\\)延长线上时，\n〔图5〕\n同理可论：\\(EF ^ { 2 } =E'F ^ { 2 } ={BE'} ^ { 2 } +BF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，\n设\\(CF=x\\)，则\\(CF ^ { 2 } +EC ^ { 2 } =EF ^ { 2 } =BF ^ { 2 } +{BE'} ^ { 2 }\\)，\n即：\\(x ^ { 2 } +5 ^ { 2 } =(4+x) ^ { 2 } +2 ^ { 2 }\\)，\n解得：\\(x=\\frac { 5 } { 8 }\\)，\n∴\\(EF=\\sqrt[] { \\left ( { \\frac { 5 } { 8 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\frac { 5\\sqrt[] { 65 } } { 8 }\\)，\n综上所述：\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)．",
+      "solution_steps": [
+        "设\\(CF=x{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "①当E在\\(AC\\)之间时，",
+        "〔图4〕",
+        "\\(\\because AE=2{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "\\(\\therefore CE=1{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle FCE\\)中，\\(\\angle C=90{}^\\circ\\)，",
+        "\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =EF ^ { 2 }\\)，",
+        "又由（2）易知\\(EF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，",
+        "\\(\\therefore EF ^ { 2 } =2 ^ { 2 } +BF ^ { 2 }\\) ，",
+        "\\(\\therefore 1 ^ { 2 } +x ^ { 2 } =2 ^ { 2 } +\\left ( { 4-x } \\right ) ^ { 2 }\\)，",
+        "解得：\\(x=\\frac { 19 } { 8 }\\)，",
+        "\\(\\therefore EF=\\sqrt[] { 1 ^ { 2 } +\\left ( { \\frac { 19 } { 8 } } \\right ) ^ { 2 } }=\\frac { 5\\sqrt[] { 17 } } { 8 }\\)；",
+        "②当E在\\(CA\\)延长线上时，",
+        "〔图5〕",
+        "同理可论：\\(EF ^ { 2 } =E'F ^ { 2 } ={BE'} ^ { 2 } +BF ^ { 2 } =AE ^ { 2 } +BF ^ { 2 }\\)，",
+        "设\\(CF=x\\)，则\\(CF ^ { 2 } +EC ^ { 2 } =EF ^ { 2 } =BF ^ { 2 } +{BE'} ^ { 2 }\\)，",
+        "即：\\(x ^ { 2 } +5 ^ { 2 } =(4+x) ^ { 2 } +2 ^ { 2 }\\)，",
+        "解得：\\(x=\\frac { 5 } { 8 }\\)，",
+        "∴\\(EF=\\sqrt[] { \\left ( { \\frac { 5 } { 8 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\frac { 5\\sqrt[] { 65 } } { 8 }\\)，",
+        "综上所述：\\(EF=\\frac { 5\\sqrt[] { 17 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)或\\(\\frac { 5\\sqrt[] { 65 } } { 8 }{ \\rm{ c } }{ \\rm{ m } }\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          59,
+          63
+        ],
+        "solution_block_ids": [
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      63
+    ],
+    "solution_body_blocks": [
+      318,
+      382
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-DA885215A6/paper-q20-p04.webp",
+      "assets/SZ-G9-T1-DA885215A6/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          674.55,
+          583.64,
+          748.18
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          408.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-DA885215A6/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-DA885215A6/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-DA885215A6/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          231.36,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          704.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.03",
+    "M.G04.04",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G03.02.02"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "公共材料含“绕点 O 转动”。利用旋转前后的对应关系求角。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

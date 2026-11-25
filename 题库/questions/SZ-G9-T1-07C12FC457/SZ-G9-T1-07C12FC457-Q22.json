@@ -1,0 +1,417 @@
+{
+  "id": "SZ-G9-T1-07C12FC457-Q22",
+  "paper_id": "SZ-G9-T1-07C12FC457",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "综合与实践\n问题情境：数学活动课上，老师出示了一个问题：如图1，在平行四边形ABCD中，\\(BE\\bot AD\\)，垂足为E，点F为边CD的中点，连接EF，BF，试猜想EF与BF的数量关系，并加以证明；\n〔图1〕\n（1）独立思考：请解答老师提出的问题；\n（2）实践探究：希望小组受此问题的启发，将平行四边形ABCD沿着BF（点F为CD的中点）所在直线折叠，如图2，点C的对应点为\\(C'\\)，连接\\(DC'\\)并延长交AB于点G，请判断AG与BG的数量关系，并加以证明；\n（3）问题解决：智慧小组突发奇想，将平行四边形ABCD沿过点B的直线折叠，如图3，点A的对应点为\\(A'\\)，使\\(A'B\\bot CD\\)于点H，折痕交AD于点M，连接\\(A'M\\)，交CD于点N．该小组提出一个问题：若此\\(▱\\)ABCD的面积为20，边长\\(AB=5\\)，\\(BC=2\\sqrt[] { 5 }\\)，求图中阴影部分（四边形BHNM）的面积．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-07C12FC457/figures/7b453b03da866afba74ba6fd1f5dd7a0ba5c6126d55ba5c30ff3f606e7562780.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(EF=BF\\)，见解析；\n（2）\\(AG=BG\\)，见解析；\n（3）\\(\\frac { 22 } { 3 }\\)",
+  "answer": "（1）\\(EF=BF\\)，见解析；\n（2）\\(AG=BG\\)，见解析；\n（3）\\(\\frac { 22 } { 3 }\\)",
+  "given_solution": "【分析】（1）分别延长AD，BF相交于点P，则\\(\\vartriangle PDF≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，可得\\(FB=\\frac { 1 } { 2 }BP\\)；由直角三角形斜边中线等于斜边一半可得\\(EF=\\frac { 1 } { 2 }BP\\)；于是\\(EF=BF\\)；\n（2）由折叠的性质可得\\(\\angle C'FB=\\frac { 1 } { 2 }\\angle CFC'\\)，\\(FC'=FC\\)，由等腰三角形和三角形外角的性质可得\\(\\angle FC'D=\\frac { 1 } { 2 }\\angle CFC'\\)，于是\\(DG\\parallel FB\\)；再由平行四边形的判定和性质可得\\(AG=BG\\)；\n（3）过点M作ME⊥AB于E，由ABCD面积可得BH=4，则A′H=1，解Rt△BCH可得tan∠C=2，解Rt△A′HN可得HN，设AE=x则ME=BE=2x，由AB=5求得x，可得△ABM面积，再计算三角形的面积差即可解答．\n【小问1详解】\n解：如图，分别延长AD，BF相交于点P，\n〔图2〕\n四边形ABCD是平行四边形，则\\(AD\\parallel BC\\)，\n∴\\(\\angle PDF=\\angle C\\)，\\(\\angle P=\\angle FBC\\)，\n点F为边CD的中点，则\\(DF=CF\\)，\n在△PDF和△BCF中，\\(\\begin{cases} \\angle P=\\angle FBC \\\\ \\angle PDF=\\angle C \\\\ DF=CF \\end{cases}\\)\n∴\\(\\vartriangle PDF≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(FP=FB\\)，\n∴\\(BF=\\frac { 1 } { 2 }BP\\)，\n∴EF为直角三角形BEP斜边中线，则\\(EF=\\frac { 1 } { 2 }BP\\)，\n∴\\(EF=BF\\)；\n【小问2详解】\n解：由折叠的性质可得：\\(\\angle CFB=\\angle C'FB=\\frac { 1 } { 2 }\\angle CFC'\\)，\\(FC'=FC\\)，\n点F为边CD的中点，则\\(FC=FD=\\frac { 1 } { 2 }CD\\)，\n∴\\(FC'=FD\\)，\n∴\\(\\angle FDC'=\\angle FC'D\\)，\n∵\\(\\angle CFC'=\\angle FDC'+\\angle FC'D\\)，\n∴\\(\\angle FC'D=\\frac { 1 } { 2 }\\angle CFC'\\)，\n∴\\(\\angle FC'D=\\angle C'FB\\)，\n∴\\(DG\\parallel FB\\)，\n四边形ABCD为平行四边形，则\\(DC\\parallel AB\\)，\\(DC=AB\\)，\n∴四边形DGBF为平行四边形，\n∴\\(BG=DF\\)，\n∴\\(BG=\\frac { 1 } { 2 }AB\\)，\n∴\\(AG=BG\\)；\n【小问3详解】\n解：如图，过点M作ME⊥AB于E，\n〔图3〕\n由折叠性质可得A′B=AB=5，∠A′=∠A，∠ABM=∠A′BM，\nABCD的面积为20，AB=5，则BH=4，\nBC=\\(2\\sqrt[] { 5 }\\)，∠BHC=90°，则CH=\\(\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=2\\)，\n∴tan∠C=2，\nABCD是平行四边形，则∠A=∠A′=∠C，\nRt△A′HN中，A′H=A′B-BH=AB-BH=1，NH=A′H•tan∠A′=2，\n△A′HN面积=\\(\\frac { 1 } { 2 }\\)A′H•HN=1，\nCD∥AB，A′B⊥CD，则A′B⊥AB，\n∵∠ABM=∠A′BM，∠ABM+∠A′BM=90°，\n∴∠ABM=45°，\n∴△MEB是等腰直角三角形，\n设AE=x，则ME=AEtan∠A=2x，BE=ME=2x，\n∴AB=AE+BE=3x=5，x=\\(\\frac { 5 } { 3 }\\)，\n∴ME=\\(\\frac { 10 } { 3 }\\)，\n∴△A′BM面积=△ABM面积=\\(\\frac { 1 } { 2 }\\)AB•ME=\\(\\frac { 25 } { 3 }\\)，\n∴四边形MBHN面积=△A′BM面积-△A′HN面积=\\(\\frac { 22 } { 3 }\\)．\n【点睛】本题考查了平行四边形的判定和性质，折叠的性质，全等三角形的判定和性质，解直角三角形等知识；正确作出辅助线是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-07C12FC457/figures/7d8e82dfb1f123ae492f00f0ddf3ce114fda5955deab811ea29efdf39d5a68cb.png",
+    "assets/SZ-G9-T1-07C12FC457/figures/00db2f7d8634158f03753e125b0c038ffa39b9a7cc0be69ef6078963d7c94f96.png",
+    "assets/SZ-G9-T1-07C12FC457/figures/c5ce84cb1d29505d3e0cc12aee7a1a7ae284aac545d04f19e876fd2d142d01bf.png"
+  ],
+  "solution": "【小问1详解】\n解：如图，分别延长AD，BF相交于点P，\n〔图2〕\n四边形ABCD是平行四边形，则\\(AD\\parallel BC\\)，\n∴\\(\\angle PDF=\\angle C\\)，\\(\\angle P=\\angle FBC\\)，\n点F为边CD的中点，则\\(DF=CF\\)，\n在△PDF和△BCF中，\\(\\begin{cases} \\angle P=\\angle FBC \\\\ \\angle PDF=\\angle C \\\\ DF=CF \\end{cases}\\)\n∴\\(\\vartriangle PDF≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(FP=FB\\)，\n∴\\(BF=\\frac { 1 } { 2 }BP\\)，\n∴EF为直角三角形BEP斜边中线，则\\(EF=\\frac { 1 } { 2 }BP\\)，\n∴\\(EF=BF\\)；\n【小问2详解】\n解：由折叠的性质可得：\\(\\angle CFB=\\angle C'FB=\\frac { 1 } { 2 }\\angle CFC'\\)，\\(FC'=FC\\)，\n点F为边CD的中点，则\\(FC=FD=\\frac { 1 } { 2 }CD\\)，\n∴\\(FC'=FD\\)，\n∴\\(\\angle FDC'=\\angle FC'D\\)，\n∵\\(\\angle CFC'=\\angle FDC'+\\angle FC'D\\)，\n∴\\(\\angle FC'D=\\frac { 1 } { 2 }\\angle CFC'\\)，\n∴\\(\\angle FC'D=\\angle C'FB\\)，\n∴\\(DG\\parallel FB\\)，\n四边形ABCD为平行四边形，则\\(DC\\parallel AB\\)，\\(DC=AB\\)，\n∴四边形DGBF为平行四边形，\n∴\\(BG=DF\\)，\n∴\\(BG=\\frac { 1 } { 2 }AB\\)，\n∴\\(AG=BG\\)；\n【小问3详解】\n解：如图，过点M作ME⊥AB于E，\n〔图3〕\n由折叠性质可得A′B=AB=5，∠A′=∠A，∠ABM=∠A′BM，\nABCD的面积为20，AB=5，则BH=4，\nBC=\\(2\\sqrt[] { 5 }\\)，∠BHC=90°，则CH=\\(\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=2\\)，\n∴tan∠C=2，\nABCD是平行四边形，则∠A=∠A′=∠C，\nRt△A′HN中，A′H=A′B-BH=AB-BH=1，NH=A′H•tan∠A′=2，\n△A′HN面积=\\(\\frac { 1 } { 2 }\\)A′H•HN=1，\nCD∥AB，A′B⊥CD，则A′B⊥AB，\n∵∠ABM=∠A′BM，∠ABM+∠A′BM=90°，\n∴∠ABM=45°，\n∴△MEB是等腰直角三角形，\n设AE=x，则ME=AEtan∠A=2x，BE=ME=2x，\n∴AB=AE+BE=3x=5，x=\\(\\frac { 5 } { 3 }\\)，\n∴ME=\\(\\frac { 10 } { 3 }\\)，\n∴△A′BM面积=△ABM面积=\\(\\frac { 1 } { 2 }\\)AB•ME=\\(\\frac { 25 } { 3 }\\)，\n∴四边形MBHN面积=△A′BM面积-△A′HN面积=\\(\\frac { 22 } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：如图，分别延长AD，BF相交于点P，",
+    "〔图2〕",
+    "四边形ABCD是平行四边形，则\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle PDF=\\angle C\\)，\\(\\angle P=\\angle FBC\\)，",
+    "点F为边CD的中点，则\\(DF=CF\\)，",
+    "在△PDF和△BCF中，\\(\\begin{cases} \\angle P=\\angle FBC \\\\ \\angle PDF=\\angle C \\\\ DF=CF \\end{cases}\\)",
+    "∴\\(\\vartriangle PDF≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，",
+    "∴\\(FP=FB\\)，",
+    "∴\\(BF=\\frac { 1 } { 2 }BP\\)，",
+    "∴EF为直角三角形BEP斜边中线，则\\(EF=\\frac { 1 } { 2 }BP\\)，",
+    "∴\\(EF=BF\\)；",
+    "【小问2详解】",
+    "解：由折叠的性质可得：\\(\\angle CFB=\\angle C'FB=\\frac { 1 } { 2 }\\angle CFC'\\)，\\(FC'=FC\\)，",
+    "点F为边CD的中点，则\\(FC=FD=\\frac { 1 } { 2 }CD\\)，",
+    "∴\\(FC'=FD\\)，",
+    "∴\\(\\angle FDC'=\\angle FC'D\\)，",
+    "∵\\(\\angle CFC'=\\angle FDC'+\\angle FC'D\\)，",
+    "∴\\(\\angle FC'D=\\frac { 1 } { 2 }\\angle CFC'\\)，",
+    "∴\\(\\angle FC'D=\\angle C'FB\\)，",
+    "∴\\(DG\\parallel FB\\)，",
+    "四边形ABCD为平行四边形，则\\(DC\\parallel AB\\)，\\(DC=AB\\)，",
+    "∴四边形DGBF为平行四边形，",
+    "∴\\(BG=DF\\)，",
+    "∴\\(BG=\\frac { 1 } { 2 }AB\\)，",
+    "∴\\(AG=BG\\)；",
+    "【小问3详解】",
+    "解：如图，过点M作ME⊥AB于E，",
+    "〔图3〕",
+    "由折叠性质可得A′B=AB=5，∠A′=∠A，∠ABM=∠A′BM，",
+    "ABCD的面积为20，AB=5，则BH=4，",
+    "BC=\\(2\\sqrt[] { 5 }\\)，∠BHC=90°，则CH=\\(\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=2\\)，",
+    "∴tan∠C=2，",
+    "ABCD是平行四边形，则∠A=∠A′=∠C，",
+    "Rt△A′HN中，A′H=A′B-BH=AB-BH=1，NH=A′H•tan∠A′=2，",
+    "△A′HN面积=\\(\\frac { 1 } { 2 }\\)A′H•HN=1，",
+    "CD∥AB，A′B⊥CD，则A′B⊥AB，",
+    "∵∠ABM=∠A′BM，∠ABM+∠A′BM=90°，",
+    "∴∠ABM=45°，",
+    "∴△MEB是等腰直角三角形，",
+    "设AE=x，则ME=AEtan∠A=2x，BE=ME=2x，",
+    "∴AB=AE+BE=3x=5，x=\\(\\frac { 5 } { 3 }\\)，",
+    "∴ME=\\(\\frac { 10 } { 3 }\\)，",
+    "∴△A′BM面积=△ABM面积=\\(\\frac { 1 } { 2 }\\)AB•ME=\\(\\frac { 25 } { 3 }\\)，",
+    "∴四边形MBHN面积=△A′BM面积-△A′HN面积=\\(\\frac { 22 } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与实践\n问题情境：数学活动课上，老师出示了一个问题：如图1，在平行四边形ABCD中，\\(BE\\bot AD\\)，垂足为E，点F为边CD的中点，连接EF，BF，试猜想EF与BF的数量关系，并加以证明；\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72,
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-07C12FC457-Q22-P01",
+      "label": "（1）",
+      "prompt": "独立思考：请解答老师提出的问题；",
+      "stem_text": "独立思考：请解答老师提出的问题；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(EF=BF\\)，见解析；",
+      "answer": "\\(EF=BF\\)，见解析；",
+      "given_solution": "解：如图，分别延长AD，BF相交于点P，\n〔图2〕\n四边形ABCD是平行四边形，则\\(AD\\parallel BC\\)，\n∴\\(\\angle PDF=\\angle C\\)，\\(\\angle P=\\angle FBC\\)，\n点F为边CD的中点，则\\(DF=CF\\)，\n在△PDF和△BCF中，\\(\\begin{cases} \\angle P=\\angle FBC \\\\ \\angle PDF=\\angle C \\\\ DF=CF \\end{cases}\\)\n∴\\(\\vartriangle PDF≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(FP=FB\\)，\n∴\\(BF=\\frac { 1 } { 2 }BP\\)，\n∴EF为直角三角形BEP斜边中线，则\\(EF=\\frac { 1 } { 2 }BP\\)，\n∴\\(EF=BF\\)；",
+      "solution_steps": [
+        "解：如图，分别延长AD，BF相交于点P，",
+        "〔图2〕",
+        "四边形ABCD是平行四边形，则\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle PDF=\\angle C\\)，\\(\\angle P=\\angle FBC\\)，",
+        "点F为边CD的中点，则\\(DF=CF\\)，",
+        "在△PDF和△BCF中，\\(\\begin{cases} \\angle P=\\angle FBC \\\\ \\angle PDF=\\angle C \\\\ DF=CF \\end{cases}\\)",
+        "∴\\(\\vartriangle PDF≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，",
+        "∴\\(FP=FB\\)，",
+        "∴\\(BF=\\frac { 1 } { 2 }BP\\)，",
+        "∴EF为直角三角形BEP斜边中线，则\\(EF=\\frac { 1 } { 2 }BP\\)，",
+        "∴\\(EF=BF\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-07C12FC457-Q22-P02",
+      "label": "（2）",
+      "prompt": "实践探究：希望小组受此问题的启发，将平行四边形ABCD沿着BF（点F为CD的中点）所在直线折叠，如图2，点C的对应点为\\(C'\\)，连接\\(DC'\\)并延长交AB于点G，请判断AG与BG的数量关系，并加以证明；",
+      "stem_text": "实践探究：希望小组受此问题的启发，将平行四边形ABCD沿着BF（点F为CD的中点）所在直线折叠，如图2，点C的对应点为\\(C'\\)，连接\\(DC'\\)并延长交AB于点G，请判断AG与BG的数量关系，并加以证明；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AG=BG\\)，见解析；",
+      "answer": "\\(AG=BG\\)，见解析；",
+      "given_solution": "解：由折叠的性质可得：\\(\\angle CFB=\\angle C'FB=\\frac { 1 } { 2 }\\angle CFC'\\)，\\(FC'=FC\\)，\n点F为边CD的中点，则\\(FC=FD=\\frac { 1 } { 2 }CD\\)，\n∴\\(FC'=FD\\)，\n∴\\(\\angle FDC'=\\angle FC'D\\)，\n∵\\(\\angle CFC'=\\angle FDC'+\\angle FC'D\\)，\n∴\\(\\angle FC'D=\\frac { 1 } { 2 }\\angle CFC'\\)，\n∴\\(\\angle FC'D=\\angle C'FB\\)，\n∴\\(DG\\parallel FB\\)，\n四边形ABCD为平行四边形，则\\(DC\\parallel AB\\)，\\(DC=AB\\)，\n∴四边形DGBF为平行四边形，\n∴\\(BG=DF\\)，\n∴\\(BG=\\frac { 1 } { 2 }AB\\)，\n∴\\(AG=BG\\)；",
+      "solution_steps": [
+        "解：由折叠的性质可得：\\(\\angle CFB=\\angle C'FB=\\frac { 1 } { 2 }\\angle CFC'\\)，\\(FC'=FC\\)，",
+        "点F为边CD的中点，则\\(FC=FD=\\frac { 1 } { 2 }CD\\)，",
+        "∴\\(FC'=FD\\)，",
+        "∴\\(\\angle FDC'=\\angle FC'D\\)，",
+        "∵\\(\\angle CFC'=\\angle FDC'+\\angle FC'D\\)，",
+        "∴\\(\\angle FC'D=\\frac { 1 } { 2 }\\angle CFC'\\)，",
+        "∴\\(\\angle FC'D=\\angle C'FB\\)，",
+        "∴\\(DG\\parallel FB\\)，",
+        "四边形ABCD为平行四边形，则\\(DC\\parallel AB\\)，\\(DC=AB\\)，",
+        "∴四边形DGBF为平行四边形，",
+        "∴\\(BG=DF\\)，",
+        "∴\\(BG=\\frac { 1 } { 2 }AB\\)，",
+        "∴\\(AG=BG\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          75
+        ],
+        "solution_block_ids": [
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-07C12FC457-Q22-P03",
+      "label": "（3）",
+      "prompt": "问题解决：智慧小组突发奇想，将平行四边形ABCD沿过点B的直线折叠，如图3，点A的对应点为\\(A'\\)，使\\(A'B\\bot CD\\)于点H，折痕交AD于点M，连接\\(A'M\\)，交CD于点N．该小组提出一个问题：若此\\(▱\\)ABCD的面积为20，边长\\(AB=5\\)，\\(BC=2\\sqrt[] { 5 }\\)，求图中阴影部分（四边形BHNM）的面积．",
+      "stem_text": "问题解决：智慧小组突发奇想，将平行四边形ABCD沿过点B的直线折叠，如图3，点A的对应点为\\(A'\\)，使\\(A'B\\bot CD\\)于点H，折痕交AD于点M，连接\\(A'M\\)，交CD于点N．该小组提出一个问题：若此\\(▱\\)ABCD的面积为20，边长\\(AB=5\\)，\\(BC=2\\sqrt[] { 5 }\\)，求图中阴影部分（四边形BHNM）的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 22 } { 3 }\\)",
+      "answer": "\\(\\frac { 22 } { 3 }\\)",
+      "given_solution": "解：如图，过点M作ME⊥AB于E，\n〔图3〕\n由折叠性质可得A′B=AB=5，∠A′=∠A，∠ABM=∠A′BM，\nABCD的面积为20，AB=5，则BH=4，\nBC=\\(2\\sqrt[] { 5 }\\)，∠BHC=90°，则CH=\\(\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=2\\)，\n∴tan∠C=2，\nABCD是平行四边形，则∠A=∠A′=∠C，\nRt△A′HN中，A′H=A′B-BH=AB-BH=1，NH=A′H•tan∠A′=2，\n△A′HN面积=\\(\\frac { 1 } { 2 }\\)A′H•HN=1，\nCD∥AB，A′B⊥CD，则A′B⊥AB，\n∵∠ABM=∠A′BM，∠ABM+∠A′BM=90°，\n∴∠ABM=45°，\n∴△MEB是等腰直角三角形，\n设AE=x，则ME=AEtan∠A=2x，BE=ME=2x，\n∴AB=AE+BE=3x=5，x=\\(\\frac { 5 } { 3 }\\)，\n∴ME=\\(\\frac { 10 } { 3 }\\)，\n∴△A′BM面积=△ABM面积=\\(\\frac { 1 } { 2 }\\)AB•ME=\\(\\frac { 25 } { 3 }\\)，\n∴四边形MBHN面积=△A′BM面积-△A′HN面积=\\(\\frac { 22 } { 3 }\\)．",
+      "solution_steps": [
+        "解：如图，过点M作ME⊥AB于E，",
+        "〔图3〕",
+        "由折叠性质可得A′B=AB=5，∠A′=∠A，∠ABM=∠A′BM，",
+        "ABCD的面积为20，AB=5，则BH=4，",
+        "BC=\\(2\\sqrt[] { 5 }\\)，∠BHC=90°，则CH=\\(\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=2\\)，",
+        "∴tan∠C=2，",
+        "ABCD是平行四边形，则∠A=∠A′=∠C，",
+        "Rt△A′HN中，A′H=A′B-BH=AB-BH=1，NH=A′H•tan∠A′=2，",
+        "△A′HN面积=\\(\\frac { 1 } { 2 }\\)A′H•HN=1，",
+        "CD∥AB，A′B⊥CD，则A′B⊥AB，",
+        "∵∠ABM=∠A′BM，∠ABM+∠A′BM=90°，",
+        "∴∠ABM=45°，",
+        "∴△MEB是等腰直角三角形，",
+        "设AE=x，则ME=AEtan∠A=2x，BE=ME=2x，",
+        "∴AB=AE+BE=3x=5，x=\\(\\frac { 5 } { 3 }\\)，",
+        "∴ME=\\(\\frac { 10 } { 3 }\\)，",
+        "∴△A′BM面积=△ABM面积=\\(\\frac { 1 } { 2 }\\)AB•ME=\\(\\frac { 25 } { 3 }\\)，",
+        "∴四边形MBHN面积=△A′BM面积-△A′HN面积=\\(\\frac { 22 } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          76
+        ],
+        "solution_block_ids": [
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      76
+    ],
+    "solution_body_blocks": [
+      438,
+      496
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-07C12FC457/paper-q22-p06.webp",
+      "assets/SZ-G9-T1-07C12FC457/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          635.0,
+          583.64,
+          710.45
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          75.91,
+          583.64,
+          351.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-07C12FC457/solution-q22-p23.webp",
+      "assets/SZ-G9-T1-07C12FC457/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-07C12FC457/solution-q22-p25.webp",
+      "assets/SZ-G9-T1-07C12FC457/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          457.73,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          86.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问解答对应“将折叠条件转为可计算的几何关系”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

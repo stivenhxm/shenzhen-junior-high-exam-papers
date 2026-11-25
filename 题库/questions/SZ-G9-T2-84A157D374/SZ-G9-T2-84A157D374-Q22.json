@@ -1,0 +1,402 @@
+{
+  "id": "SZ-G9-T2-84A157D374-Q22",
+  "paper_id": "SZ-G9-T2-84A157D374",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "分解组合图形求边角、利用平行线性质求角",
+  "stem": "如图，等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，点\\(D\\)为\\(BC\\)边上一点，\\(CE\\bot AD\\)于点\\(E\\)，延长\\(BE\\)交\\(AC\\)于点\\(F\\)．\n〔图1〕\n（1）求证：\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；\n（2）当\\(EF\\)平分\\(\\angle AEC\\)时，求\\(\\frac { BC } { DC }\\)的值；\n（3）当点\\(D\\)为\\(BC\\)的三等分点时，请直接写出\\(\\frac { AF } { FC }\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/e7/e710b92903e20efd02576b3cf3d2c442d9db39fbf9704077385762f2a630dd18.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(2\\)\n（3）\\(\\frac { AF } { FC }=\\frac { 3 } { 4 }\\)或\\(\\frac { AF } { FC }=6\\)",
+  "answer": "（1）见解析    （2）\\(2\\)\n（3）\\(\\frac { AF } { FC }=\\frac { 3 } { 4 }\\)或\\(\\frac { AF } { FC }=6\\)",
+  "given_solution": "【分析】本题考查了相似三角形的判定与性质，解题关键是熟练运用相似三角形的判定进行推理证明；\n（1）证明\\(\\vartriangle AEC\\backsim \\vartriangle CED\\backsim \\vartriangle ACD\\)，列出比例证明即可；\n（2）作\\(BW\\bot CE\\)交\\(CE\\)延长线于W，证\\(\\vartriangle ACE≌\\vartriangle CBW\\)，再利用三角函数求解即可；\n（3）作\\(DP\\parallel BF\\)交\\(AC\\)于P，然后分类讨论，根据相似求出比值即可．\n【小问1详解】\n证明：∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\bot AD\\)，\n∴\\(\\angle AEC=\\angle CED=\\angle ACB=90{}^\\circ\\)，\\(\\angle EAC+\\angle ACE=90{}^\\circ ，\\angle ACE+\\angle DCE=90{}^\\circ ，\\)\n∴\\(\\angle EAC=\\angle ECD\\)，\n∴\\(\\vartriangle AEC\\backsim \\vartriangle CED\\backsim \\vartriangle ACD\\)，\n∴\\(\\frac { AE } { AC }=\\frac { AC } { AD }\\)，\\(\\frac { DE } { DC }=\\frac { DC } { AD }\\)，\n∴\\(AC ^ { 2 } =AE\\cdot AD\\)，\\(DC ^ { 2 } =DE\\cdot AD\\)，\n∴\\(\\frac { AC ^ { 2 } } { CD ^ { 2 } }=\\frac { AE\\cdot AD } { DE\\cdot AD }\\)，\n∴\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；\n【小问2详解】\n解：作\\(BW\\bot CE\\)交\\(CE\\)延长线于W，\n∴\\(\\angle W=\\angle AEC=\\angle DEC=90{}^\\circ\\)，\n\\(\\therefore AD\\parallel WB\\)，\n∵\\(\\angle EAC=\\angle ECD\\)，\\(AC=BC\\)，\n∴\\(\\vartriangle ACE≌\\vartriangle CBW\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(CE=BW\\)，\n∵\\(EF\\)平分\\(\\angle AEC\\)，\n∴\\(\\angle AEF=\\angle WEB=45{}^\\circ\\)，\n∴\\(\\angle WBE=\\angle WEB=45{}^\\circ\\)，\n∴\\(WE=BW\\)，\n\\(\\therefore WC=2WB=2WE=2CE\\)，\n∴\\(tan\\angle WCB=tan\\angle CAD=\\frac { WB } { WC }=\\frac { 1 } { 2 }\\)，\n\\(\\because AD\\parallel WB\\)，\n∴\\(\\frac { BC } { CD }=\\frac { AC } { CD }=2\\)．\n〔图2〕【小问3详解】\n解：作\\(DP\\parallel BF\\)交\\(AC\\)于P，\n〔图3〕\n当\\(\\frac { CD } { BC }=\\frac { 2 } { 3 }\\)时，\n∴\\(\\frac { CP } { CF }=\\frac { 2 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 2 } { 3 }\\)，\n\\(\\because \\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)，\n\\(\\therefore \\frac { DE } { EA }=\\frac { CD ^ { 2 } } { AC ^ { 2 } }\\)，\n∴\\(\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\\(CF=3FP\\)，\n∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\n∴\\(AF=\\frac { 9 } { 4 }FP\\)，\n∴\\(\\frac { AF } { FC }=\\frac { \\frac { 9 } { 4 }FP } { 3FP }=\\frac { 3 } { 4 }\\)．\n当\\(\\frac { CD } { BC }=\\frac { 1 } { 3 }\\)时，\n∴\\(\\frac { CP } { CF }=\\frac { 1 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 1 } { 3 }\\)，\n∴\\(\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\\(CF=\\frac { 3 } { 2 }FP\\)，\n∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\n∴\\(AF=9FP\\)，\n∴\\(\\frac { AF } { FC }=\\frac { 9PF } { \\frac { 3 } { 2 }PF }=6\\)．\n综上所述，当点D为\\(BC\\)的三等分点时，\\(\\frac { AF } { FC }\\)的值为\\(\\frac { 3 } { 4 }\\)或6．",
+  "given_solution_figures": [
+    "assets/figures/e7/e710b92903e20efd02576b3cf3d2c442d9db39fbf9704077385762f2a630dd18.png",
+    "assets/figures/24/24a42b560024f6ebb775dca963ffe0fab1a67545431234df538e30b0e5d1c546.png",
+    "assets/figures/cf/cf9fb7ff5f08f75495c2db90464094cd3ee2c403510e3ec26f8e7822b431457b.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\bot AD\\)，\n∴\\(\\angle AEC=\\angle CED=\\angle ACB=90{}^\\circ\\)，\\(\\angle EAC+\\angle ACE=90{}^\\circ ，\\angle ACE+\\angle DCE=90{}^\\circ ，\\)\n∴\\(\\angle EAC=\\angle ECD\\)，\n∴\\(\\vartriangle AEC\\backsim \\vartriangle CED\\backsim \\vartriangle ACD\\)，\n∴\\(\\frac { AE } { AC }=\\frac { AC } { AD }\\)，\\(\\frac { DE } { DC }=\\frac { DC } { AD }\\)，\n∴\\(AC ^ { 2 } =AE\\cdot AD\\)，\\(DC ^ { 2 } =DE\\cdot AD\\)，\n∴\\(\\frac { AC ^ { 2 } } { CD ^ { 2 } }=\\frac { AE\\cdot AD } { DE\\cdot AD }\\)，\n∴\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；\n【小问2详解】\n解：作\\(BW\\bot CE\\)交\\(CE\\)延长线于W，\n∴\\(\\angle W=\\angle AEC=\\angle DEC=90{}^\\circ\\)，\n\\(\\therefore AD\\parallel WB\\)，\n∵\\(\\angle EAC=\\angle ECD\\)，\\(AC=BC\\)，\n∴\\(\\vartriangle ACE≌\\vartriangle CBW\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(CE=BW\\)，\n∵\\(EF\\)平分\\(\\angle AEC\\)，\n∴\\(\\angle AEF=\\angle WEB=45{}^\\circ\\)，\n∴\\(\\angle WBE=\\angle WEB=45{}^\\circ\\)，\n∴\\(WE=BW\\)，\n\\(\\therefore WC=2WB=2WE=2CE\\)，\n∴\\(tan\\angle WCB=tan\\angle CAD=\\frac { WB } { WC }=\\frac { 1 } { 2 }\\)，\n\\(\\because AD\\parallel WB\\)，\n∴\\(\\frac { BC } { CD }=\\frac { AC } { CD }=2\\)．\n〔图2〕【小问3详解】\n解：作\\(DP\\parallel BF\\)交\\(AC\\)于P，\n〔图3〕\n当\\(\\frac { CD } { BC }=\\frac { 2 } { 3 }\\)时，\n∴\\(\\frac { CP } { CF }=\\frac { 2 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 2 } { 3 }\\)，\n\\(\\because \\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)，\n\\(\\therefore \\frac { DE } { EA }=\\frac { CD ^ { 2 } } { AC ^ { 2 } }\\)，\n∴\\(\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\\(CF=3FP\\)，\n∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\n∴\\(AF=\\frac { 9 } { 4 }FP\\)，\n∴\\(\\frac { AF } { FC }=\\frac { \\frac { 9 } { 4 }FP } { 3FP }=\\frac { 3 } { 4 }\\)．\n当\\(\\frac { CD } { BC }=\\frac { 1 } { 3 }\\)时，\n∴\\(\\frac { CP } { CF }=\\frac { 1 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 1 } { 3 }\\)，\n∴\\(\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\\(CF=\\frac { 3 } { 2 }FP\\)，\n∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\n∴\\(AF=9FP\\)，\n∴\\(\\frac { AF } { FC }=\\frac { 9PF } { \\frac { 3 } { 2 }PF }=6\\)．\n综上所述，当点D为\\(BC\\)的三等分点时，\\(\\frac { AF } { FC }\\)的值为\\(\\frac { 3 } { 4 }\\)或6．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\bot AD\\)，",
+    "∴\\(\\angle AEC=\\angle CED=\\angle ACB=90{}^\\circ\\)，\\(\\angle EAC+\\angle ACE=90{}^\\circ ，\\angle ACE+\\angle DCE=90{}^\\circ ，\\)",
+    "∴\\(\\angle EAC=\\angle ECD\\)，",
+    "∴\\(\\vartriangle AEC\\backsim \\vartriangle CED\\backsim \\vartriangle ACD\\)，",
+    "∴\\(\\frac { AE } { AC }=\\frac { AC } { AD }\\)，\\(\\frac { DE } { DC }=\\frac { DC } { AD }\\)，",
+    "∴\\(AC ^ { 2 } =AE\\cdot AD\\)，\\(DC ^ { 2 } =DE\\cdot AD\\)，",
+    "∴\\(\\frac { AC ^ { 2 } } { CD ^ { 2 } }=\\frac { AE\\cdot AD } { DE\\cdot AD }\\)，",
+    "∴\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；",
+    "【小问2详解】",
+    "解：作\\(BW\\bot CE\\)交\\(CE\\)延长线于W，",
+    "∴\\(\\angle W=\\angle AEC=\\angle DEC=90{}^\\circ\\)，",
+    "\\(\\therefore AD\\parallel WB\\)，",
+    "∵\\(\\angle EAC=\\angle ECD\\)，\\(AC=BC\\)，",
+    "∴\\(\\vartriangle ACE≌\\vartriangle CBW\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(CE=BW\\)，",
+    "∵\\(EF\\)平分\\(\\angle AEC\\)，",
+    "∴\\(\\angle AEF=\\angle WEB=45{}^\\circ\\)，",
+    "∴\\(\\angle WBE=\\angle WEB=45{}^\\circ\\)，",
+    "∴\\(WE=BW\\)，",
+    "\\(\\therefore WC=2WB=2WE=2CE\\)，",
+    "∴\\(tan\\angle WCB=tan\\angle CAD=\\frac { WB } { WC }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\because AD\\parallel WB\\)，",
+    "∴\\(\\frac { BC } { CD }=\\frac { AC } { CD }=2\\)．",
+    "〔图2〕【小问3详解】",
+    "解：作\\(DP\\parallel BF\\)交\\(AC\\)于P，",
+    "〔图3〕",
+    "当\\(\\frac { CD } { BC }=\\frac { 2 } { 3 }\\)时，",
+    "∴\\(\\frac { CP } { CF }=\\frac { 2 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 2 } { 3 }\\)，",
+    "\\(\\because \\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)，",
+    "\\(\\therefore \\frac { DE } { EA }=\\frac { CD ^ { 2 } } { AC ^ { 2 } }\\)，",
+    "∴\\(\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\\(CF=3FP\\)，",
+    "∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，",
+    "∴\\(AF=\\frac { 9 } { 4 }FP\\)，",
+    "∴\\(\\frac { AF } { FC }=\\frac { \\frac { 9 } { 4 }FP } { 3FP }=\\frac { 3 } { 4 }\\)．",
+    "当\\(\\frac { CD } { BC }=\\frac { 1 } { 3 }\\)时，",
+    "∴\\(\\frac { CP } { CF }=\\frac { 1 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 1 } { 3 }\\)，",
+    "∴\\(\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\\(CF=\\frac { 3 } { 2 }FP\\)，",
+    "∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，",
+    "∴\\(AF=9FP\\)，",
+    "∴\\(\\frac { AF } { FC }=\\frac { 9PF } { \\frac { 3 } { 2 }PF }=6\\)．",
+    "综上所述，当点D为\\(BC\\)的三等分点时，\\(\\frac { AF } { FC }\\)的值为\\(\\frac { 3 } { 4 }\\)或6．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，等腰\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，点\\(D\\)为\\(BC\\)边上一点，\\(CE\\bot AD\\)于点\\(E\\)，延长\\(BE\\)交\\(AC\\)于点\\(F\\)．\n〔图1〕",
+      "paper_blocks": [
+        73,
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-84A157D374-Q22-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；",
+      "stem_text": "求证：\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\bot AD\\)，\n∴\\(\\angle AEC=\\angle CED=\\angle ACB=90{}^\\circ\\)，\\(\\angle EAC+\\angle ACE=90{}^\\circ ，\\angle ACE+\\angle DCE=90{}^\\circ ，\\)\n∴\\(\\angle EAC=\\angle ECD\\)，\n∴\\(\\vartriangle AEC\\backsim \\vartriangle CED\\backsim \\vartriangle ACD\\)，\n∴\\(\\frac { AE } { AC }=\\frac { AC } { AD }\\)，\\(\\frac { DE } { DC }=\\frac { DC } { AD }\\)，\n∴\\(AC ^ { 2 } =AE\\cdot AD\\)，\\(DC ^ { 2 } =DE\\cdot AD\\)，\n∴\\(\\frac { AC ^ { 2 } } { CD ^ { 2 } }=\\frac { AE\\cdot AD } { DE\\cdot AD }\\)，\n∴\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；",
+      "solution_steps": [
+        "证明：∵\\(\\angle ACB=90{}^\\circ\\)，\\(CE\\bot AD\\)，",
+        "∴\\(\\angle AEC=\\angle CED=\\angle ACB=90{}^\\circ\\)，\\(\\angle EAC+\\angle ACE=90{}^\\circ ，\\angle ACE+\\angle DCE=90{}^\\circ ，\\)",
+        "∴\\(\\angle EAC=\\angle ECD\\)，",
+        "∴\\(\\vartriangle AEC\\backsim \\vartriangle CED\\backsim \\vartriangle ACD\\)，",
+        "∴\\(\\frac { AE } { AC }=\\frac { AC } { AD }\\)，\\(\\frac { DE } { DC }=\\frac { DC } { AD }\\)，",
+        "∴\\(AC ^ { 2 } =AE\\cdot AD\\)，\\(DC ^ { 2 } =DE\\cdot AD\\)，",
+        "∴\\(\\frac { AC ^ { 2 } } { CD ^ { 2 } }=\\frac { AE\\cdot AD } { DE\\cdot AD }\\)，",
+        "∴\\(\\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-84A157D374-Q22-P02",
+      "label": "（2）",
+      "prompt": "当\\(EF\\)平分\\(\\angle AEC\\)时，求\\(\\frac { BC } { DC }\\)的值；",
+      "stem_text": "当\\(EF\\)平分\\(\\angle AEC\\)时，求\\(\\frac { BC } { DC }\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\)",
+      "answer": "\\(2\\)",
+      "given_solution": "解：作\\(BW\\bot CE\\)交\\(CE\\)延长线于W，\n∴\\(\\angle W=\\angle AEC=\\angle DEC=90{}^\\circ\\)，\n\\(\\therefore AD\\parallel WB\\)，\n∵\\(\\angle EAC=\\angle ECD\\)，\\(AC=BC\\)，\n∴\\(\\vartriangle ACE≌\\vartriangle CBW\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(CE=BW\\)，\n∵\\(EF\\)平分\\(\\angle AEC\\)，\n∴\\(\\angle AEF=\\angle WEB=45{}^\\circ\\)，\n∴\\(\\angle WBE=\\angle WEB=45{}^\\circ\\)，\n∴\\(WE=BW\\)，\n\\(\\therefore WC=2WB=2WE=2CE\\)，\n∴\\(tan\\angle WCB=tan\\angle CAD=\\frac { WB } { WC }=\\frac { 1 } { 2 }\\)，\n\\(\\because AD\\parallel WB\\)，\n∴\\(\\frac { BC } { CD }=\\frac { AC } { CD }=2\\)．\n〔图2〕",
+      "solution_steps": [
+        "解：作\\(BW\\bot CE\\)交\\(CE\\)延长线于W，",
+        "∴\\(\\angle W=\\angle AEC=\\angle DEC=90{}^\\circ\\)，",
+        "\\(\\therefore AD\\parallel WB\\)，",
+        "∵\\(\\angle EAC=\\angle ECD\\)，\\(AC=BC\\)，",
+        "∴\\(\\vartriangle ACE≌\\vartriangle CBW\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(CE=BW\\)，",
+        "∵\\(EF\\)平分\\(\\angle AEC\\)，",
+        "∴\\(\\angle AEF=\\angle WEB=45{}^\\circ\\)，",
+        "∴\\(\\angle WBE=\\angle WEB=45{}^\\circ\\)，",
+        "∴\\(WE=BW\\)，",
+        "\\(\\therefore WC=2WB=2WE=2CE\\)，",
+        "∴\\(tan\\angle WCB=tan\\angle CAD=\\frac { WB } { WC }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\because AD\\parallel WB\\)，",
+        "∴\\(\\frac { BC } { CD }=\\frac { AC } { CD }=2\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          76
+        ],
+        "solution_block_ids": [
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-84A157D374-Q22-P03",
+      "label": "（3）",
+      "prompt": "当点\\(D\\)为\\(BC\\)的三等分点时，请直接写出\\(\\frac { AF } { FC }\\)的值．",
+      "stem_text": "当点\\(D\\)为\\(BC\\)的三等分点时，请直接写出\\(\\frac { AF } { FC }\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { AF } { FC }=\\frac { 3 } { 4 }\\)或\\(\\frac { AF } { FC }=6\\)",
+      "answer": "\\(\\frac { AF } { FC }=\\frac { 3 } { 4 }\\)或\\(\\frac { AF } { FC }=6\\)",
+      "given_solution": "解：作\\(DP\\parallel BF\\)交\\(AC\\)于P，\n〔图3〕\n当\\(\\frac { CD } { BC }=\\frac { 2 } { 3 }\\)时，\n∴\\(\\frac { CP } { CF }=\\frac { 2 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 2 } { 3 }\\)，\n\\(\\because \\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)，\n\\(\\therefore \\frac { DE } { EA }=\\frac { CD ^ { 2 } } { AC ^ { 2 } }\\)，\n∴\\(\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\\(CF=3FP\\)，\n∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\n∴\\(AF=\\frac { 9 } { 4 }FP\\)，\n∴\\(\\frac { AF } { FC }=\\frac { \\frac { 9 } { 4 }FP } { 3FP }=\\frac { 3 } { 4 }\\)．\n当\\(\\frac { CD } { BC }=\\frac { 1 } { 3 }\\)时，\n∴\\(\\frac { CP } { CF }=\\frac { 1 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 1 } { 3 }\\)，\n∴\\(\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\\(CF=\\frac { 3 } { 2 }FP\\)，\n∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\n∴\\(AF=9FP\\)，\n∴\\(\\frac { AF } { FC }=\\frac { 9PF } { \\frac { 3 } { 2 }PF }=6\\)．\n综上所述，当点D为\\(BC\\)的三等分点时，\\(\\frac { AF } { FC }\\)的值为\\(\\frac { 3 } { 4 }\\)或6．",
+      "solution_steps": [
+        "解：作\\(DP\\parallel BF\\)交\\(AC\\)于P，",
+        "〔图3〕",
+        "当\\(\\frac { CD } { BC }=\\frac { 2 } { 3 }\\)时，",
+        "∴\\(\\frac { CP } { CF }=\\frac { 2 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 2 } { 3 }\\)，",
+        "\\(\\because \\frac { AE } { ED }=\\frac { AC ^ { 2 } } { CD ^ { 2 } }\\)，",
+        "\\(\\therefore \\frac { DE } { EA }=\\frac { CD ^ { 2 } } { AC ^ { 2 } }\\)，",
+        "∴\\(\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，\\(CF=3FP\\)，",
+        "∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 4 } { 9 }\\)，",
+        "∴\\(AF=\\frac { 9 } { 4 }FP\\)，",
+        "∴\\(\\frac { AF } { FC }=\\frac { \\frac { 9 } { 4 }FP } { 3FP }=\\frac { 3 } { 4 }\\)．",
+        "当\\(\\frac { CD } { BC }=\\frac { 1 } { 3 }\\)时，",
+        "∴\\(\\frac { CP } { CF }=\\frac { 1 } { 3 }\\)，\\(tan\\angle ECD=tan\\angle CAD=\\frac { CD } { AC }=\\frac { DE } { EC }=\\frac { EC } { AE }=\\frac { 1 } { 3 }\\)，",
+        "∴\\(\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，\\(CF=\\frac { 3 } { 2 }FP\\)，",
+        "∴\\(\\frac { FP } { AF }=\\frac { DE } { EA }=\\frac { 1 } { 9 }\\)，",
+        "∴\\(AF=9FP\\)，",
+        "∴\\(\\frac { AF } { FC }=\\frac { 9PF } { \\frac { 3 } { 2 }PF }=6\\)．",
+        "综上所述，当点D为\\(BC\\)的三等分点时，\\(\\frac { AF } { FC }\\)的值为\\(\\frac { 3 } { 4 }\\)或6．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          77
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      73,
+      77
+    ],
+    "solution_body_blocks": [
+      341,
+      394
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-84A157D374/paper-q22-p05.webp",
+      "assets/SZ-G9-T2-84A157D374/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          720.45,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          47.73,
+          583.64,
+          287.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-84A157D374/solution-q22-p18.webp",
+      "assets/SZ-G9-T2-84A157D374/solution-q22-p19.webp",
+      "assets/SZ-G9-T2-84A157D374/solution-q22-p20.webp",
+      "assets/SZ-G9-T2-84A157D374/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          705.91,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          739.55
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          248.18
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G10.02",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G10.02.02",
+    "E.G01.05.01"
+  ],
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“分解组合图形求边角”。 本问的运算或证明步骤对应“利用平行线性质求角”。",
+  "tag_source": "小问标签汇总"
+}

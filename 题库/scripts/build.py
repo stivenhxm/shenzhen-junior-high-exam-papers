@@ -384,7 +384,8 @@ class Bank:
                     continue
                 for ref in more:
                     target = self.asset(ref["pdf"])
-                    require(file_hash(target)==ref["sha256"]==file_hash(local(self.root.parent,ref["git_path"])),
+                    require(file_hash(target)==ref.get("rendered_sha256",ref["sha256"]) and
+                            file_hash(local(self.root.parent,ref["git_path"]))==ref["sha256"],
                             f"{key} 补充来源指纹不符")
                     require(ref["pages"] and all(type(n) is int and 1 <= n <= ref["print_page_count"] for n in ref["pages"]),
                             f"{key} 补充来源页码越界")

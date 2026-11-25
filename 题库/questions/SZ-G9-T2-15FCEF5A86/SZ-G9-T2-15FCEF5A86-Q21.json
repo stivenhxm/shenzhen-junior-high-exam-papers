@@ -1,0 +1,403 @@
+{
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G03.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-15FCEF5A86-Q21",
+  "number": 21,
+  "paper_id": "SZ-G9-T2-15FCEF5A86",
+  "title": "利用等边性质求边角关系、构造全等关系证明线段或角关系",
+  "stem": "（9分）已知\\(\\angle MON=\\alpha \\left ( { 0{}^\\circ < \\alpha < 180{}^\\circ } \\right )\\)，A为射线\\(ON\\)上一定点，B为射线\\(OM\\)上动点（不与点O重合）连接\\(AB\\)，取\\(AB\\)的中点C，连接\\(OC\\)．在射线\\(BM\\)上取一点D，使得\\(BD=OA\\)．\n〔图1〕\n（1）若\\(\\alpha =60{}^\\circ\\)，\n①如图1，当\\(\\angle BAO=60{}^\\circ\\)时，在图1中补全图形，并写出\\(\\frac { OC } { AD }\\)的值；\n②如图2，当\\(\\angle BAO < 60{}^\\circ\\)时，猜想\\(\\frac { OC } { AD }\\)的值是否为定值．若是，求出该定值；若不是，说明理由；\n（2）如图3，若\\(\\alpha =90{}^\\circ ,OC\\bot AD\\)，直接写出\\(\\frac { OC } { AD }\\)的值．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）已知\\(\\angle MON=\\alpha \\left ( { 0{}^\\circ < \\alpha < 180{}^\\circ } \\right )\\)，A为射线\\(ON\\)上一定点，B为射线\\(OM\\)上动点（不与点O重合）连接\\(AB\\)，取\\(AB\\)的中点C，连接\\(OC\\)．在射线\\(BM\\)上取一点D，使得\\(BD=OA\\)．\n〔图1〕",
+      "paper_blocks": [
+        800,
+        810
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "若\\(\\alpha =60{}^\\circ\\)，",
+      "paper_blocks": [
+        820
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q21-P01",
+      "label": "（1）①",
+      "prompt": "如图1，当\\(\\angle BAO=60{}^\\circ\\)时，在图1中补全图形，并写出\\(\\frac { OC } { AD }\\)的值；",
+      "stem_text": "如图1，当\\(\\angle BAO=60{}^\\circ\\)时，在图1中补全图形，并写出\\(\\frac { OC } { AD }\\)的值；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { \\sqrt[] { 3 } } { 2 }OA } { \\sqrt[] { 3 }OA }=\\frac { 1 } { 2 }\\)；",
+      "given_solution": "补图如下，\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n〔图1〕\n求解过程：∵\\(\\angle BAO=60{}^\\circ\\)，\\(\\angle MON=\\alpha { \\rm{ = } }60{}^\\circ\\)，\n∴\\(\\vartriangle AOB\\)是等边三角形，\n∴\\(OA=OB=AB\\)，\\(\\angle OBA=60{}^\\circ\\)，\n∵\\(BD=OA\\)，\n∴\\(BD=AB\\)，\n∴\\(\\angle BDA=\\angle BAD=\\frac { 1 } { 2 }\\angle ABO=30{}^\\circ\\)，\n∴\\(\\angle OAD=90{}^\\circ\\)，\n∴\\(tan\\angle ODA=tan30{}^\\circ =\\frac { OA } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(AD{ \\rm{ = } }\\sqrt[] { 3 }OA\\)，\n∵\\(BC=AC\\)，\\(\\vartriangle AOB\\)是等边三角形，\n∴\\(\\angle AOC=30{}^\\circ\\)，\\(\\angle ACO=90{}^\\circ\\)，\n∴\\(OC=OA\\centerdot { \\rm{ C } }{ \\rm{ O } }{ \\rm{ S } }\\angle AOC=\\frac { \\sqrt[] { 3 } } { 2 }OA\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { \\sqrt[] { 3 } } { 2 }OA } { \\sqrt[] { 3 }OA }=\\frac { 1 } { 2 }\\)；",
+      "solution_steps": [
+        "补图如下，\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，",
+        "〔图1〕",
+        "求解过程：∵\\(\\angle BAO=60{}^\\circ\\)，\\(\\angle MON=\\alpha { \\rm{ = } }60{}^\\circ\\)，",
+        "∴\\(\\vartriangle AOB\\)是等边三角形，",
+        "∴\\(OA=OB=AB\\)，\\(\\angle OBA=60{}^\\circ\\)，",
+        "∵\\(BD=OA\\)，",
+        "∴\\(BD=AB\\)，",
+        "∴\\(\\angle BDA=\\angle BAD=\\frac { 1 } { 2 }\\angle ABO=30{}^\\circ\\)，",
+        "∴\\(\\angle OAD=90{}^\\circ\\)，",
+        "∴\\(tan\\angle ODA=tan30{}^\\circ =\\frac { OA } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+        "∴\\(AD{ \\rm{ = } }\\sqrt[] { 3 }OA\\)，",
+        "∵\\(BC=AC\\)，\\(\\vartriangle AOB\\)是等边三角形，",
+        "∴\\(\\angle AOC=30{}^\\circ\\)，\\(\\angle ACO=90{}^\\circ\\)，",
+        "∴\\(OC=OA\\centerdot { \\rm{ C } }{ \\rm{ O } }{ \\rm{ S } }\\angle AOC=\\frac { \\sqrt[] { 3 } } { 2 }OA\\)，",
+        "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { \\sqrt[] { 3 } } { 2 }OA } { \\sqrt[] { 3 }OA }=\\frac { 1 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          800,
+          810,
+          820,
+          830
+        ],
+        "solution_block_ids": [
+          430,
+          440,
+          450,
+          460,
+          470,
+          480,
+          490,
+          500,
+          510,
+          520,
+          530,
+          540,
+          550,
+          560,
+          570
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          3,
+          4
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q21-P02",
+      "label": "（1）②",
+      "prompt": "如图2，当\\(\\angle BAO < 60{}^\\circ\\)时，猜想\\(\\frac { OC } { AD }\\)的值是否为定值．若是，求出该定值；若不是，说明理由；",
+      "stem_text": "如图2，当\\(\\angle BAO < 60{}^\\circ\\)时，猜想\\(\\frac { OC } { AD }\\)的值是否为定值．若是，求出该定值；若不是，说明理由；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)；",
+      "given_solution": "如图，在OM上取一点P，使OP=OA，\n〔图2〕\n∴\\(\\vartriangle AOP\\)是等边三角形，\n∴\\(OA=OP=AP\\)，\\(\\angle OPA=60{}^\\circ\\)，\n延长OB到G，使OG=OB，\n∵PG=OG+OP，\\(OA=BD=OP\\)，\n∴PG=OB+BD=OD，\n在\\(\\vartriangle APG\\)和 \\(\\vartriangle AOD\\)中，\n\\(\\begin{cases} AP=OA \\\\ \\angle APG=\\angle AOD \\\\ PG=OD \\end{cases}\\) ，\n∴\\(\\vartriangle APG\\cong \\vartriangle AOD\\)（SAS），\n∴AG=AD，\n∵OG=OB，CA=CB，\n∴\\(OC=\\frac { 1 } { 2 }AG\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)；",
+      "solution_steps": [
+        "如图，在OM上取一点P，使OP=OA，",
+        "〔图2〕",
+        "∴\\(\\vartriangle AOP\\)是等边三角形，",
+        "∴\\(OA=OP=AP\\)，\\(\\angle OPA=60{}^\\circ\\)，",
+        "延长OB到G，使OG=OB，",
+        "∵PG=OG+OP，\\(OA=BD=OP\\)，",
+        "∴PG=OB+BD=OD，",
+        "在\\(\\vartriangle APG\\)和 \\(\\vartriangle AOD\\)中，",
+        "\\(\\begin{cases} AP=OA \\\\ \\angle APG=\\angle AOD \\\\ PG=OD \\end{cases}\\) ，",
+        "∴\\(\\vartriangle APG\\cong \\vartriangle AOD\\)（SAS），",
+        "∴AG=AD，",
+        "∵OG=OB，CA=CB，",
+        "∴\\(OC=\\frac { 1 } { 2 }AG\\)，",
+        "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          800,
+          810,
+          820,
+          840
+        ],
+        "solution_block_ids": [
+          580,
+          590,
+          600,
+          610,
+          620,
+          630,
+          640,
+          650,
+          660,
+          670,
+          680,
+          690,
+          700,
+          710
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          4,
+          5
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-15FCEF5A86-Q21-P03",
+      "label": "（2）",
+      "prompt": "如图3，若\\(\\alpha =90{}^\\circ ,OC\\bot AD\\)，直接写出\\(\\frac { OC } { AD }\\)的值．",
+      "stem_text": "如图3，若\\(\\alpha =90{}^\\circ ,OC\\bot AD\\)，直接写出\\(\\frac { OC } { AD }\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)",
+      "given_solution": "\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n过程如下：如图，\n〔图3〕\n∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(OC\\bot AD\\)，\n∴\\(\\angle AOC+\\angle HOD=90{}^\\circ\\) ，\\(\\angle ODA+\\angle HOD=90{}^\\circ\\)，\n∴\\(\\angle ODA{ \\rm{ = } }\\angle AOC\\)，\n∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(BC=CA\\)，\n∴\\(BC=CA{ \\rm{ = } }OC=\\frac { 1 } { 2 }AB\\)，\n∴\\(\\angle OAC{ \\rm{ = } }\\angle AOC\\)，\n∴\\(\\angle OAC{ \\rm{ = } }\\angle ODA\\)，\n∴\\(\\vartriangle OBA\\sim \\vartriangle ODA\\)，\n∴\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }\\)，\n设\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }{ \\rm{ = } }\\frac { 1 } { m }\\)（\\(m>0\\) ），\\(OB=a\\)，\n∴\\(OA=BD=ma\\)，\\(OD=m ^ { 2 } a\\)，\n∵\\(a+ma=m ^ { 2 } a\\)，\n解得：\\(m=\\frac { 1-\\sqrt[] { 5 } } { 2 }\\)（不合题意舍去），\\(m=\\frac { 1+\\sqrt[] { 5 } } { 2 }\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．",
+      "solution_steps": [
+        "\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，",
+        "过程如下：如图，",
+        "〔图3〕",
+        "∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(OC\\bot AD\\)，",
+        "∴\\(\\angle AOC+\\angle HOD=90{}^\\circ\\) ，\\(\\angle ODA+\\angle HOD=90{}^\\circ\\)，",
+        "∴\\(\\angle ODA{ \\rm{ = } }\\angle AOC\\)，",
+        "∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(BC=CA\\)，",
+        "∴\\(BC=CA{ \\rm{ = } }OC=\\frac { 1 } { 2 }AB\\)，",
+        "∴\\(\\angle OAC{ \\rm{ = } }\\angle AOC\\)，",
+        "∴\\(\\angle OAC{ \\rm{ = } }\\angle ODA\\)，",
+        "∴\\(\\vartriangle OBA\\sim \\vartriangle ODA\\)，",
+        "∴\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }\\)，",
+        "设\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }{ \\rm{ = } }\\frac { 1 } { m }\\)（\\(m>0\\) ），\\(OB=a\\)，",
+        "∴\\(OA=BD=ma\\)，\\(OD=m ^ { 2 } a\\)，",
+        "∵\\(a+ma=m ^ { 2 } a\\)，",
+        "解得：\\(m=\\frac { 1-\\sqrt[] { 5 } } { 2 }\\)（不合题意舍去），\\(m=\\frac { 1+\\sqrt[] { 5 } } { 2 }\\)，",
+        "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          800,
+          810,
+          850
+        ],
+        "solution_block_ids": [
+          720,
+          730,
+          740,
+          750,
+          760,
+          770,
+          780,
+          790,
+          800,
+          810,
+          820,
+          830,
+          840,
+          850,
+          860,
+          870,
+          880
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          5
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/27/27e713098b4a09243494cbdfa00a2e64e770ea2b5027c4f1da5cec9ef068388b.png"
+  ],
+  "tables": [],
+  "answer": "（1）∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)\n（2）∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)",
+  "given_answer": "",
+  "given_solution": "（1）解：（1）①补图如下，\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n〔图1〕\n求解过程：∵\\(\\angle BAO=60{}^\\circ\\)，\\(\\angle MON=\\alpha { \\rm{ = } }60{}^\\circ\\)，\n∴\\(\\vartriangle AOB\\)是等边三角形，\n∴\\(OA=OB=AB\\)，\\(\\angle OBA=60{}^\\circ\\)，\n∵\\(BD=OA\\)，\n∴\\(BD=AB\\)，\n∴\\(\\angle BDA=\\angle BAD=\\frac { 1 } { 2 }\\angle ABO=30{}^\\circ\\)，\n∴\\(\\angle OAD=90{}^\\circ\\)，\n∴\\(tan\\angle ODA=tan30{}^\\circ =\\frac { OA } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(AD{ \\rm{ = } }\\sqrt[] { 3 }OA\\)，\n∵\\(BC=AC\\)，\\(\\vartriangle AOB\\)是等边三角形，\n∴\\(\\angle AOC=30{}^\\circ\\)，\\(\\angle ACO=90{}^\\circ\\)，\n∴\\(OC=OA\\centerdot { \\rm{ C } }{ \\rm{ O } }{ \\rm{ S } }\\angle AOC=\\frac { \\sqrt[] { 3 } } { 2 }OA\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { \\sqrt[] { 3 } } { 2 }OA } { \\sqrt[] { 3 }OA }=\\frac { 1 } { 2 }\\)；\n②如图，在OM上取一点P，使OP=OA，\n〔图2〕\n∴\\(\\vartriangle AOP\\)是等边三角形，\n∴\\(OA=OP=AP\\)，\\(\\angle OPA=60{}^\\circ\\)，\n延长OB到G，使OG=OB，\n∵PG=OG+OP，\\(OA=BD=OP\\)，\n∴PG=OB+BD=OD，\n在\\(\\vartriangle APG\\)和 \\(\\vartriangle AOD\\)中，\n\\(\\begin{cases} AP=OA \\\\ \\angle APG=\\angle AOD \\\\ PG=OD \\end{cases}\\) ，\n∴\\(\\vartriangle APG\\cong \\vartriangle AOD\\)（SAS），\n∴AG=AD，\n∵OG=OB，CA=CB，\n∴\\(OC=\\frac { 1 } { 2 }AG\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)；\n（2）\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n过程如下：如图，\n〔图3〕\n∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(OC\\bot AD\\)，\n∴\\(\\angle AOC+\\angle HOD=90{}^\\circ\\) ，\\(\\angle ODA+\\angle HOD=90{}^\\circ\\)，\n∴\\(\\angle ODA{ \\rm{ = } }\\angle AOC\\)，\n∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(BC=CA\\)，\n∴\\(BC=CA{ \\rm{ = } }OC=\\frac { 1 } { 2 }AB\\)，\n∴\\(\\angle OAC{ \\rm{ = } }\\angle AOC\\)，\n∴\\(\\angle OAC{ \\rm{ = } }\\angle ODA\\)，\n∴\\(\\vartriangle OBA\\sim \\vartriangle ODA\\)，\n∴\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }\\)，\n设\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }{ \\rm{ = } }\\frac { 1 } { m }\\)（\\(m>0\\) ），\\(OB=a\\)，\n∴\\(OA=BD=ma\\)，\\(OD=m ^ { 2 } a\\)，\n∵\\(a+ma=m ^ { 2 } a\\)，\n解得：\\(m=\\frac { 1-\\sqrt[] { 5 } } { 2 }\\)（不合题意舍去），\\(m=\\frac { 1+\\sqrt[] { 5 } } { 2 }\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/5f/5fc146bd9bc975ffe2079172bfea297ec06afb09264e9364395a1cee801cc625.png",
+    "assets/figures/03/0363297ca7e55bd1734c6cc78b745e2d1606c240241b3df8b2fc408a7242740c.png",
+    "assets/figures/6a/6aa67ca60b2d8e502a0c51f26020cb0942481456af2d72b2d0e5b08053916d70.png"
+  ],
+  "solution_steps": [
+    "（1）解：（1）①补图如下，\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，",
+    "〔图1〕",
+    "求解过程：∵\\(\\angle BAO=60{}^\\circ\\)，\\(\\angle MON=\\alpha { \\rm{ = } }60{}^\\circ\\)，",
+    "∴\\(\\vartriangle AOB\\)是等边三角形，",
+    "∴\\(OA=OB=AB\\)，\\(\\angle OBA=60{}^\\circ\\)，",
+    "∵\\(BD=OA\\)，",
+    "∴\\(BD=AB\\)，",
+    "∴\\(\\angle BDA=\\angle BAD=\\frac { 1 } { 2 }\\angle ABO=30{}^\\circ\\)，",
+    "∴\\(\\angle OAD=90{}^\\circ\\)，",
+    "∴\\(tan\\angle ODA=tan30{}^\\circ =\\frac { OA } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+    "∴\\(AD{ \\rm{ = } }\\sqrt[] { 3 }OA\\)，",
+    "∵\\(BC=AC\\)，\\(\\vartriangle AOB\\)是等边三角形，",
+    "∴\\(\\angle AOC=30{}^\\circ\\)，\\(\\angle ACO=90{}^\\circ\\)，",
+    "∴\\(OC=OA\\centerdot { \\rm{ C } }{ \\rm{ O } }{ \\rm{ S } }\\angle AOC=\\frac { \\sqrt[] { 3 } } { 2 }OA\\)，",
+    "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { \\sqrt[] { 3 } } { 2 }OA } { \\sqrt[] { 3 }OA }=\\frac { 1 } { 2 }\\)；",
+    "②如图，在OM上取一点P，使OP=OA，",
+    "〔图2〕",
+    "∴\\(\\vartriangle AOP\\)是等边三角形，",
+    "∴\\(OA=OP=AP\\)，\\(\\angle OPA=60{}^\\circ\\)，",
+    "延长OB到G，使OG=OB，",
+    "∵PG=OG+OP，\\(OA=BD=OP\\)，",
+    "∴PG=OB+BD=OD，",
+    "在\\(\\vartriangle APG\\)和 \\(\\vartriangle AOD\\)中，",
+    "\\(\\begin{cases} AP=OA \\\\ \\angle APG=\\angle AOD \\\\ PG=OD \\end{cases}\\) ，",
+    "∴\\(\\vartriangle APG\\cong \\vartriangle AOD\\)（SAS），",
+    "∴AG=AD，",
+    "∵OG=OB，CA=CB，",
+    "∴\\(OC=\\frac { 1 } { 2 }AG\\)，",
+    "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)；",
+    "（2）\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，",
+    "过程如下：如图，",
+    "〔图3〕",
+    "∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(OC\\bot AD\\)，",
+    "∴\\(\\angle AOC+\\angle HOD=90{}^\\circ\\) ，\\(\\angle ODA+\\angle HOD=90{}^\\circ\\)，",
+    "∴\\(\\angle ODA{ \\rm{ = } }\\angle AOC\\)，",
+    "∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(BC=CA\\)，",
+    "∴\\(BC=CA{ \\rm{ = } }OC=\\frac { 1 } { 2 }AB\\)，",
+    "∴\\(\\angle OAC{ \\rm{ = } }\\angle AOC\\)，",
+    "∴\\(\\angle OAC{ \\rm{ = } }\\angle ODA\\)，",
+    "∴\\(\\vartriangle OBA\\sim \\vartriangle ODA\\)，",
+    "∴\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }\\)，",
+    "设\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }{ \\rm{ = } }\\frac { 1 } { m }\\)（\\(m>0\\) ），\\(OB=a\\)，",
+    "∴\\(OA=BD=ma\\)，\\(OD=m ^ { 2 } a\\)，",
+    "∵\\(a+ma=m ^ { 2 } a\\)，",
+    "解得：\\(m=\\frac { 1-\\sqrt[] { 5 } } { 2 }\\)（不合题意舍去），\\(m=\\frac { 1+\\sqrt[] { 5 } } { 2 }\\)，",
+    "∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．"
+  ],
+  "solution_origin": "source_solution_summary",
+  "solution": "（1）解：（1）①补图如下，\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { 1 } { 2 }\\)，\n〔图1〕\n求解过程：∵\\(\\angle BAO=60{}^\\circ\\)，\\(\\angle MON=\\alpha { \\rm{ = } }60{}^\\circ\\)，\n∴\\(\\vartriangle AOB\\)是等边三角形，\n∴\\(OA=OB=AB\\)，\\(\\angle OBA=60{}^\\circ\\)，\n∵\\(BD=OA\\)，\n∴\\(BD=AB\\)，\n∴\\(\\angle BDA=\\angle BAD=\\frac { 1 } { 2 }\\angle ABO=30{}^\\circ\\)，\n∴\\(\\angle OAD=90{}^\\circ\\)，\n∴\\(tan\\angle ODA=tan30{}^\\circ =\\frac { OA } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(AD{ \\rm{ = } }\\sqrt[] { 3 }OA\\)，\n∵\\(BC=AC\\)，\\(\\vartriangle AOB\\)是等边三角形，\n∴\\(\\angle AOC=30{}^\\circ\\)，\\(\\angle ACO=90{}^\\circ\\)，\n∴\\(OC=OA\\centerdot { \\rm{ C } }{ \\rm{ O } }{ \\rm{ S } }\\angle AOC=\\frac { \\sqrt[] { 3 } } { 2 }OA\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { \\sqrt[] { 3 } } { 2 }OA } { \\sqrt[] { 3 }OA }=\\frac { 1 } { 2 }\\)；\n②如图，在OM上取一点P，使OP=OA，\n〔图2〕\n∴\\(\\vartriangle AOP\\)是等边三角形，\n∴\\(OA=OP=AP\\)，\\(\\angle OPA=60{}^\\circ\\)，\n延长OB到G，使OG=OB，\n∵PG=OG+OP，\\(OA=BD=OP\\)，\n∴PG=OB+BD=OD，\n在\\(\\vartriangle APG\\)和 \\(\\vartriangle AOD\\)中，\n\\(\\begin{cases} AP=OA \\\\ \\angle APG=\\angle AOD \\\\ PG=OD \\end{cases}\\) ，\n∴\\(\\vartriangle APG\\cong \\vartriangle AOD\\)（SAS），\n∴AG=AD，\n∵OG=OB，CA=CB，\n∴\\(OC=\\frac { 1 } { 2 }AG\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\frac { 1 } { 2 }AG } { AG }=\\frac { 1 } { 2 }\\)；\n（2）\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n过程如下：如图，\n〔图3〕\n∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(OC\\bot AD\\)，\n∴\\(\\angle AOC+\\angle HOD=90{}^\\circ\\) ，\\(\\angle ODA+\\angle HOD=90{}^\\circ\\)，\n∴\\(\\angle ODA{ \\rm{ = } }\\angle AOC\\)，\n∵\\(\\angle MON=\\alpha =90{}^\\circ\\)，\\(BC=CA\\)，\n∴\\(BC=CA{ \\rm{ = } }OC=\\frac { 1 } { 2 }AB\\)，\n∴\\(\\angle OAC{ \\rm{ = } }\\angle AOC\\)，\n∴\\(\\angle OAC{ \\rm{ = } }\\angle ODA\\)，\n∴\\(\\vartriangle OBA\\sim \\vartriangle ODA\\)，\n∴\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }\\)，\n设\\(\\frac { OB } { OA }{ \\rm{ = } }\\frac { OA } { OD }{ \\rm{ = } }\\frac { AB } { AD }{ \\rm{ = } }\\frac { 1 } { m }\\)（\\(m>0\\) ），\\(OB=a\\)，\n∴\\(OA=BD=ma\\)，\\(OD=m ^ { 2 } a\\)，\n∵\\(a+ma=m ^ { 2 } a\\)，\n解得：\\(m=\\frac { 1-\\sqrt[] { 5 } } { 2 }\\)（不合题意舍去），\\(m=\\frac { 1+\\sqrt[] { 5 } } { 2 }\\)，\n∴\\(\\frac { OC } { AD }{ \\rm{ = } }\\frac { AB } { 2AD }{ \\rm{ = } }\\frac { 1 } { 2m }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          408.92,
+          582.2,
+          718.92
+        ]
+      }
+    ],
+    "solution_pages": [
+      3,
+      4,
+      5
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/s21-p03.webp",
+      "assets/SZ-G9-T2-15FCEF5A86/single/s21-p04.webp",
+      "assets/SZ-G9-T2-15FCEF5A86/single/s21-p05.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          388.92,
+          582.2,
+          745.88
+        ]
+      },
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          72.7,
+          582.2,
+          740.52
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          694.43
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

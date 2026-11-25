@@ -1,0 +1,390 @@
+{
+  "id": "SZ-G9-T1-15F51C2F11-Q20",
+  "paper_id": "SZ-G9-T1-15F51C2F11",
+  "number": 20,
+  "type": "解答题",
+  "points": 12,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "（12分）某校数学活动小组在一次活动中，对一个数学问题作如下探究：\n（1）问题发现：如图1，在等边△ABC中，点P是边BC上任意一点，连接AP，以AP为边作等边△APQ，连接CQ．求证：BP  CQ；\n（2）变式探究：如图2，在等腰△ABC中，ABBC，点P是边BC上任意一点，以AP为腰作等腰△APQ，使AP PQ，APQ ABC，连接CQ．判断∠ABC和∠ACQ的数量关系，并说明理由；\n（3）解决问题：如图3，在正方形ADBC中，点P是边BC上一点，以AP为边作正方形 APEF，Q是正方形APEF的中心，连接CQ．若正方形APEF的边长为6，\\(CQ=2\\sqrt[] { 2 }\\)，求正方形ADBC的边长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-15F51C2F11/figures/87f8a40b32ca68bd90b69bda75fef64240a1288150d1e9c1da4fbed8fbe41f9f.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（12分）某校数学活动小组在一次活动中，对一个数学问题作如下探究：",
+      "paper_blocks": [
+        131
+      ]
+    },
+    {
+      "id": "fig-135",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        135
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-15F51C2F11-Q20-P01",
+      "label": "（1）",
+      "prompt": "问题发现：如图1，在等边△ABC中，点P是边BC上任意一点，连接AP，以AP为边作等边△APQ，连接CQ．求证：BP  CQ；",
+      "stem_text": "问题发现：如图1，在等边△ABC中，点P是边BC上任意一点，连接AP，以AP为边作等边△APQ，连接CQ．求证：BP  CQ；",
+      "material_ids": [
+        "context",
+        "fig-135"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\therefore BP=CQ\\)",
+      "answer": "\\(\\therefore BP=CQ\\)",
+      "given_solution": "证明：如图1，\\(\\because \\vartriangle ABC\\)与\\(\\vartriangle APQ\\)都是等边三角形，\n\\(\\therefore \\angle BAC=\\angle PAQ=60{}^\\circ\\)，\n\\(\\therefore \\angle 1+\\angle 3=\\angle 2+\\angle 3\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)．\n又\\(\\because AB=AC\\)，\\(AP=AQ\\)，\n\\(\\therefore \\vartriangle ABP\\cong \\vartriangle ACQ\\)，（1分）\n\\(\\therefore BP=CQ\\)；（2分）\n〔图1〕",
+      "solution_steps": [
+        "证明：如图1，\\(\\because \\vartriangle ABC\\)与\\(\\vartriangle APQ\\)都是等边三角形，",
+        "\\(\\therefore \\angle BAC=\\angle PAQ=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle 1+\\angle 3=\\angle 2+\\angle 3\\)，",
+        "\\(\\therefore \\angle 1=\\angle 2\\)．",
+        "又\\(\\because AB=AC\\)，\\(AP=AQ\\)，",
+        "\\(\\therefore \\vartriangle ABP\\cong \\vartriangle ACQ\\)，（1分）",
+        "\\(\\therefore BP=CQ\\)；（2分）",
+        "〔图1〕"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          131,
+          132,
+          135
+        ],
+        "solution_block_ids": [
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-15F51C2F11-Q20-P02",
+      "label": "（2）",
+      "prompt": "变式探究：如图2，在等腰△ABC中，ABBC，点P是边BC上任意一点，以AP为腰作等腰△APQ，使AP PQ，APQ ABC，连接CQ．判断∠ABC和∠ACQ的数量关系，并说明理由；",
+      "stem_text": "变式探究：如图2，在等腰△ABC中，ABBC，点P是边BC上任意一点，以AP为腰作等腰△APQ，使AP PQ，APQ ABC，连接CQ．判断∠ABC和∠ACQ的数量关系，并说明理由；",
+      "material_ids": [
+        "context",
+        "fig-135"
+      ],
+      "requires": [],
+      "given_answer": "∴\\(\\angle ABC=\\angle ACQ\\)",
+      "answer": "∴\\(\\angle ABC=\\angle ACQ\\)",
+      "given_solution": "\\(\\angle ABC=\\angle ACQ\\)，\n理由：如图2，在⊿ABC中，\\(AB=BC\\)，\n\\(\\therefore \\angle BAC=\\frac { 180{}^\\circ -\\angle ABC } { 2 }\\)，\n在\\(\\vartriangle PAQ\\)中，\\(PA=PQ\\)，\n\\(\\therefore \\angle PAQ=\\frac { 180{}^\\circ -\\angle APQ } { 2 }\\)，\n\\(\\because \\angle APQ=\\angle ABC\\)，\n\\(\\therefore \\angle BAC=\\angle PAQ\\)，\n\\(\\therefore \\vartriangle BAC\\backsim \\vartriangle PAQ\\)，(2分）\n\\(\\therefore \\frac { BA } { AC }=\\frac { PA } { AQ }\\)，（3分）\n又\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（4分）\n∴\\(\\angle ABC=\\angle ACQ\\)；（5分）\n〔图2〕",
+      "solution_steps": [
+        "\\(\\angle ABC=\\angle ACQ\\)，",
+        "理由：如图2，在⊿ABC中，\\(AB=BC\\)，",
+        "\\(\\therefore \\angle BAC=\\frac { 180{}^\\circ -\\angle ABC } { 2 }\\)，",
+        "在\\(\\vartriangle PAQ\\)中，\\(PA=PQ\\)，",
+        "\\(\\therefore \\angle PAQ=\\frac { 180{}^\\circ -\\angle APQ } { 2 }\\)，",
+        "\\(\\because \\angle APQ=\\angle ABC\\)，",
+        "\\(\\therefore \\angle BAC=\\angle PAQ\\)，",
+        "\\(\\therefore \\vartriangle BAC\\backsim \\vartriangle PAQ\\)，(2分）",
+        "\\(\\therefore \\frac { BA } { AC }=\\frac { PA } { AQ }\\)，（3分）",
+        "又\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，",
+        "\\(\\therefore \\angle 1=\\angle 2\\)，",
+        "\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（4分）",
+        "∴\\(\\angle ABC=\\angle ACQ\\)；（5分）",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          131,
+          133,
+          135
+        ],
+        "solution_block_ids": [
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-15F51C2F11-Q20-P03",
+      "label": "（3）",
+      "prompt": "解决问题：如图3，在正方形ADBC中，点P是边BC上一点，以AP为边作正方形 APEF，Q是正方形APEF的中心，连接CQ．若正方形APEF的边长为6，\\(CQ=2\\sqrt[] { 2 }\\)，求正方形ADBC的边长．",
+      "stem_text": "解决问题：如图3，在正方形ADBC中，点P是边BC上一点，以AP为边作正方形 APEF，Q是正方形APEF的中心，连接CQ．若正方形APEF的边长为6，\\(CQ=2\\sqrt[] { 2 }\\)，求正方形ADBC的边长．",
+      "material_ids": [
+        "context",
+        "fig-135"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)",
+      "answer": "\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)",
+      "given_solution": "如图3，连接\\(AB\\)，\\(AQ\\)，\n\\(\\because\\)正方形\\(ADBC\\)，\n\\(\\therefore \\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=45{}^\\circ\\)，（6分）\n又\\(\\because Q\\)为正方形\\(APEF\\)的中心，\n\\(\\therefore \\frac { AP } { AQ }=\\sqrt[] { 2 }\\)，\\(\\angle PAQ=45{}^\\circ\\)，（7分）\n\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\because \\frac { AB } { AC }=\\frac { AP } { AQ }\\)，\n\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（8分）\n\\(\\therefore \\frac { AC } { AB }=\\frac { CQ } { BP }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\because CQ=2\\sqrt[] { 2 }\\)，\n\\(\\therefore BP=4\\)，（9分）\n设\\(PC=x\\)，则\\(BC=AC=4+x\\)，\n在\\(Rt\\vartriangle APC\\)中，\\(AP ^ { 2 } =AC ^ { 2 } +PC ^ { 2 }\\)，即\\(36=(4+x) ^ { 2 } +x ^ { 2 }\\)，\n解得：\\(x=-2\\pm \\sqrt[] { 14 }\\)， （10分）\n\\(\\because x>0\\)，\n\\(\\therefore x=-2+\\sqrt[] { 14 }\\)，（11分）\n\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)（12分）.\n〔图3〕",
+      "solution_steps": [
+        "如图3，连接\\(AB\\)，\\(AQ\\)，",
+        "\\(\\because\\)正方形\\(ADBC\\)，",
+        "\\(\\therefore \\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=45{}^\\circ\\)，（6分）",
+        "又\\(\\because Q\\)为正方形\\(APEF\\)的中心，",
+        "\\(\\therefore \\frac { AP } { AQ }=\\sqrt[] { 2 }\\)，\\(\\angle PAQ=45{}^\\circ\\)，（7分）",
+        "\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，",
+        "\\(\\therefore \\angle 1=\\angle 2\\)，",
+        "\\(\\because \\frac { AB } { AC }=\\frac { AP } { AQ }\\)，",
+        "\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（8分）",
+        "\\(\\therefore \\frac { AC } { AB }=\\frac { CQ } { BP }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+        "\\(\\because CQ=2\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore BP=4\\)，（9分）",
+        "设\\(PC=x\\)，则\\(BC=AC=4+x\\)，",
+        "在\\(Rt\\vartriangle APC\\)中，\\(AP ^ { 2 } =AC ^ { 2 } +PC ^ { 2 }\\)，即\\(36=(4+x) ^ { 2 } +x ^ { 2 }\\)，",
+        "解得：\\(x=-2\\pm \\sqrt[] { 14 }\\)， （10分）",
+        "\\(\\because x>0\\)，",
+        "\\(\\therefore x=-2+\\sqrt[] { 14 }\\)，（11分）",
+        "\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)（12分）.",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          131,
+          134,
+          135
+        ],
+        "solution_block_ids": [
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【详解】（1）证明：如图1，\\(\\because \\vartriangle ABC\\)与\\(\\vartriangle APQ\\)都是等边三角形，\n\\(\\therefore \\angle BAC=\\angle PAQ=60{}^\\circ\\)，\n\\(\\therefore \\angle 1+\\angle 3=\\angle 2+\\angle 3\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)．\n又\\(\\because AB=AC\\)，\\(AP=AQ\\)，\n\\(\\therefore \\vartriangle ABP\\cong \\vartriangle ACQ\\)，（1分）\n\\(\\therefore BP=CQ\\)；（2分）\n〔图1〕\n（2）\\(\\angle ABC=\\angle ACQ\\)，\n理由：如图2，在⊿ABC中，\\(AB=BC\\)，\n\\(\\therefore \\angle BAC=\\frac { 180{}^\\circ -\\angle ABC } { 2 }\\)，\n在\\(\\vartriangle PAQ\\)中，\\(PA=PQ\\)，\n\\(\\therefore \\angle PAQ=\\frac { 180{}^\\circ -\\angle APQ } { 2 }\\)，\n\\(\\because \\angle APQ=\\angle ABC\\)，\n\\(\\therefore \\angle BAC=\\angle PAQ\\)，\n\\(\\therefore \\vartriangle BAC\\backsim \\vartriangle PAQ\\)，(2分）\n\\(\\therefore \\frac { BA } { AC }=\\frac { PA } { AQ }\\)，（3分）\n又\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（4分）\n∴\\(\\angle ABC=\\angle ACQ\\)；（5分）\n〔图2〕\n（3）如图3，连接\\(AB\\)，\\(AQ\\)，\n\\(\\because\\)正方形\\(ADBC\\)，\n\\(\\therefore \\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=45{}^\\circ\\)，（6分）\n又\\(\\because Q\\)为正方形\\(APEF\\)的中心，\n\\(\\therefore \\frac { AP } { AQ }=\\sqrt[] { 2 }\\)，\\(\\angle PAQ=45{}^\\circ\\)，（7分）\n\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\because \\frac { AB } { AC }=\\frac { AP } { AQ }\\)，\n\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（8分）\n\\(\\therefore \\frac { AC } { AB }=\\frac { CQ } { BP }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\because CQ=2\\sqrt[] { 2 }\\)，\n\\(\\therefore BP=4\\)，（9分）\n设\\(PC=x\\)，则\\(BC=AC=4+x\\)，\n在\\(Rt\\vartriangle APC\\)中，\\(AP ^ { 2 } =AC ^ { 2 } +PC ^ { 2 }\\)，即\\(36=(4+x) ^ { 2 } +x ^ { 2 }\\)，\n解得：\\(x=-2\\pm \\sqrt[] { 14 }\\)， （10分）\n\\(\\because x>0\\)，\n\\(\\therefore x=-2+\\sqrt[] { 14 }\\)，（11分）\n\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)（12分）.\n〔图3〕",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-15F51C2F11/figures/f06c197542834c3dbbe7d81c6d64528c10a52749eda8d3387bbc79d37d576f2e.png",
+    "assets/SZ-G9-T1-15F51C2F11/figures/7bbc82a8c1c1d49546ccb5718bdb38c3da1ae81522c6de583a019428fa5687e9.png",
+    "assets/SZ-G9-T1-15F51C2F11/figures/bcd859a88f8c03c4fa867b27254b439bc8f1561b58233ca6f526007021df2429.png"
+  ],
+  "answer": "（1）\\(\\therefore BP=CQ\\)\n（2）∴\\(\\angle ABC=\\angle ACQ\\)\n（3）\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)",
+  "solution_steps": [
+    "（1）证明：如图1，\\(\\because \\vartriangle ABC\\)与\\(\\vartriangle APQ\\)都是等边三角形，",
+    "\\(\\therefore \\angle BAC=\\angle PAQ=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle 1+\\angle 3=\\angle 2+\\angle 3\\)，",
+    "\\(\\therefore \\angle 1=\\angle 2\\)．",
+    "又\\(\\because AB=AC\\)，\\(AP=AQ\\)，",
+    "\\(\\therefore \\vartriangle ABP\\cong \\vartriangle ACQ\\)，（1分）",
+    "\\(\\therefore BP=CQ\\)；（2分）",
+    "〔图1〕",
+    "（2）\\(\\angle ABC=\\angle ACQ\\)，",
+    "理由：如图2，在⊿ABC中，\\(AB=BC\\)，",
+    "\\(\\therefore \\angle BAC=\\frac { 180{}^\\circ -\\angle ABC } { 2 }\\)，",
+    "在\\(\\vartriangle PAQ\\)中，\\(PA=PQ\\)，",
+    "\\(\\therefore \\angle PAQ=\\frac { 180{}^\\circ -\\angle APQ } { 2 }\\)，",
+    "\\(\\because \\angle APQ=\\angle ABC\\)，",
+    "\\(\\therefore \\angle BAC=\\angle PAQ\\)，",
+    "\\(\\therefore \\vartriangle BAC\\backsim \\vartriangle PAQ\\)，(2分）",
+    "\\(\\therefore \\frac { BA } { AC }=\\frac { PA } { AQ }\\)，（3分）",
+    "又\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，",
+    "\\(\\therefore \\angle 1=\\angle 2\\)，",
+    "\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（4分）",
+    "∴\\(\\angle ABC=\\angle ACQ\\)；（5分）",
+    "〔图2〕",
+    "（3）如图3，连接\\(AB\\)，\\(AQ\\)，",
+    "\\(\\because\\)正方形\\(ADBC\\)，",
+    "\\(\\therefore \\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=45{}^\\circ\\)，（6分）",
+    "又\\(\\because Q\\)为正方形\\(APEF\\)的中心，",
+    "\\(\\therefore \\frac { AP } { AQ }=\\sqrt[] { 2 }\\)，\\(\\angle PAQ=45{}^\\circ\\)，（7分）",
+    "\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，",
+    "\\(\\therefore \\angle 1=\\angle 2\\)，",
+    "\\(\\because \\frac { AB } { AC }=\\frac { AP } { AQ }\\)，",
+    "\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（8分）",
+    "\\(\\therefore \\frac { AC } { AB }=\\frac { CQ } { BP }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "\\(\\because CQ=2\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore BP=4\\)，（9分）",
+    "设\\(PC=x\\)，则\\(BC=AC=4+x\\)，",
+    "在\\(Rt\\vartriangle APC\\)中，\\(AP ^ { 2 } =AC ^ { 2 } +PC ^ { 2 }\\)，即\\(36=(4+x) ^ { 2 } +x ^ { 2 }\\)，",
+    "解得：\\(x=-2\\pm \\sqrt[] { 14 }\\)， （10分）",
+    "\\(\\because x>0\\)，",
+    "\\(\\therefore x=-2+\\sqrt[] { 14 }\\)，（11分）",
+    "\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)（12分）.",
+    "〔图3〕"
+  ],
+  "solution": "（1）证明：如图1，\\(\\because \\vartriangle ABC\\)与\\(\\vartriangle APQ\\)都是等边三角形，\n\\(\\therefore \\angle BAC=\\angle PAQ=60{}^\\circ\\)，\n\\(\\therefore \\angle 1+\\angle 3=\\angle 2+\\angle 3\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)．\n又\\(\\because AB=AC\\)，\\(AP=AQ\\)，\n\\(\\therefore \\vartriangle ABP\\cong \\vartriangle ACQ\\)，（1分）\n\\(\\therefore BP=CQ\\)；（2分）\n〔图1〕\n（2）\\(\\angle ABC=\\angle ACQ\\)，\n理由：如图2，在⊿ABC中，\\(AB=BC\\)，\n\\(\\therefore \\angle BAC=\\frac { 180{}^\\circ -\\angle ABC } { 2 }\\)，\n在\\(\\vartriangle PAQ\\)中，\\(PA=PQ\\)，\n\\(\\therefore \\angle PAQ=\\frac { 180{}^\\circ -\\angle APQ } { 2 }\\)，\n\\(\\because \\angle APQ=\\angle ABC\\)，\n\\(\\therefore \\angle BAC=\\angle PAQ\\)，\n\\(\\therefore \\vartriangle BAC\\backsim \\vartriangle PAQ\\)，(2分）\n\\(\\therefore \\frac { BA } { AC }=\\frac { PA } { AQ }\\)，（3分）\n又\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（4分）\n∴\\(\\angle ABC=\\angle ACQ\\)；（5分）\n〔图2〕\n（3）如图3，连接\\(AB\\)，\\(AQ\\)，\n\\(\\because\\)正方形\\(ADBC\\)，\n\\(\\therefore \\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=45{}^\\circ\\)，（6分）\n又\\(\\because Q\\)为正方形\\(APEF\\)的中心，\n\\(\\therefore \\frac { AP } { AQ }=\\sqrt[] { 2 }\\)，\\(\\angle PAQ=45{}^\\circ\\)，（7分）\n\\(\\because \\angle 1+\\angle 3=\\angle BAC\\)，\\(\\angle 2+\\angle 3=\\angle PAQ\\)，\n\\(\\therefore \\angle 1=\\angle 2\\)，\n\\(\\because \\frac { AB } { AC }=\\frac { AP } { AQ }\\)，\n\\(\\therefore \\vartriangle ABP\\backsim \\vartriangle ACQ\\)，（8分）\n\\(\\therefore \\frac { AC } { AB }=\\frac { CQ } { BP }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\because CQ=2\\sqrt[] { 2 }\\)，\n\\(\\therefore BP=4\\)，（9分）\n设\\(PC=x\\)，则\\(BC=AC=4+x\\)，\n在\\(Rt\\vartriangle APC\\)中，\\(AP ^ { 2 } =AC ^ { 2 } +PC ^ { 2 }\\)，即\\(36=(4+x) ^ { 2 } +x ^ { 2 }\\)，\n解得：\\(x=-2\\pm \\sqrt[] { 14 }\\)， （10分）\n\\(\\because x>0\\)，\n\\(\\therefore x=-2+\\sqrt[] { 14 }\\)，（11分）\n\\(\\therefore\\)边长\\(AC=4+x=2+\\sqrt[] { 14 }\\)（12分）.\n〔图3〕",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      131,
+      137
+    ],
+    "solution_body_blocks": [
+      322,
+      364
+    ],
+    "question_pages": [
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-15F51C2F11/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          70.91,
+          583.64,
+          325.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-15F51C2F11/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-15F51C2F11/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-15F51C2F11/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          496.36,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          737.73
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          71.36,
+          583.64,
+          410.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,268 @@
+{
+  "id": "SZ-G9-T2-6077A9B8E3-Q20",
+  "paper_id": "SZ-G9-T2-6077A9B8E3",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "补足条件判定矩形、由勾股关系求直角三角形边长",
+  "stem": "如图，菱形ABCD的对角线AC、BD相交于点O，过点B作BE∥AC，且BE＝\\(\\frac { 1 } { 2 }\\)AC，连接EC．\n（1）求证：四边形BECO是矩形；\n（2）连接ED交AC于点F，连接BF，若AC＝12，AB＝10，求BF的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/ae/ae6ec3e3c72ca4532ee9c34452c60e1d66b9ff0404ddd3e7bc3c6436753973ab.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）BF的长为\\(\\sqrt[] { 73 }\\)．",
+  "answer": "（1）见解析；（2）BF的长为\\(\\sqrt[] { 73 }\\)．",
+  "given_solution": "【分析】（1）由菱形的性质得∠BOC=90°，OC=\\(\\frac { 1 } { 2 }\\)AC，推出BE=OC，则四边形BECO是平行四边形，再由∠BOC=90°，即可得出结论；\n（2）由勾股定理求出OB=8，则BD=2OB=16，再证△ODF≌△CEF（ASA），得DF=EF，然后由直角三角形斜边上的中线性质即可求解．\n【详解】（1）证明：∵四边形ABCD是菱形，\n∴∠BOC=90°，OC=OA=\\(\\frac { 1 } { 2 }\\)AC，\n∵BE=\\(\\frac { 1 } { 2 }\\)AC，\n∴BE=OC，\n∵BE∥AC，\n∴四边形BECO是平行四边形，\n∵∠BOC=90°，\n∴平行四边形BECO是矩形；\n（2）解：∵四边形ABCD是菱形，\n∴BC=AB=10，OC=\\(\\frac { 1 } { 2 }\\)AC=6，OB=OD，AC⊥BD，\n在Rt△OBC中，由勾股定理得：OB=\\(\\sqrt[] { BC ^ { 2 } -OC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)=8，\n∴BD=2OB=16，\n由（1）得：四边形BECO是矩形，\n∴BE=OC=6，∠OBE=∠ECO=90°，OB=CE，OB∥CE，\n∴DE=\\(\\sqrt[] { BD ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 73 }\\)，∠ODF=∠CEF，OD=CE，\n在△ODF和△CEF中，\n\\(\\begin{cases} \\angle DOF=\\angle ECF=90{}^\\circ \\\\ OD=CE \\\\ \\angle ODF=\\angle CEF \\end{cases}\\)，\n∴△ODF≌△CEF（ASA），\n∴DF=EF，\n∵∠DBE=90°，\n∴BF=\\(\\frac { 1 } { 2 }\\)DE=\\(\\sqrt[] { 73 }\\)，\n故BF的长为\\(\\sqrt[] { 73 }\\)．\n【点睛】本题考查了平行四边形的判定与性质、矩形的判定与性质、菱形的性质、直角三角形斜边上的中线性质、全等三角形的判定与性质、勾股定理等知识；熟练掌握菱形的性质和勾股定理，证明四边形BECO为矩形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/ae/ae6ec3e3c72ca4532ee9c34452c60e1d66b9ff0404ddd3e7bc3c6436753973ab.png"
+  ],
+  "solution": "（1）证明：∵四边形ABCD是菱形，\n∴∠BOC=90°，OC=OA=\\(\\frac { 1 } { 2 }\\)AC，\n∵BE=\\(\\frac { 1 } { 2 }\\)AC，\n∴BE=OC，\n∵BE∥AC，\n∴四边形BECO是平行四边形，\n∵∠BOC=90°，\n∴平行四边形BECO是矩形；\n（2）解：∵四边形ABCD是菱形，\n∴BC=AB=10，OC=\\(\\frac { 1 } { 2 }\\)AC=6，OB=OD，AC⊥BD，\n在Rt△OBC中，由勾股定理得：OB=\\(\\sqrt[] { BC ^ { 2 } -OC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)=8，\n∴BD=2OB=16，\n由（1）得：四边形BECO是矩形，\n∴BE=OC=6，∠OBE=∠ECO=90°，OB=CE，OB∥CE，\n∴DE=\\(\\sqrt[] { BD ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 73 }\\)，∠ODF=∠CEF，OD=CE，\n在△ODF和△CEF中，\n\\(\\begin{cases} \\angle DOF=\\angle ECF=90{}^\\circ \\\\ OD=CE \\\\ \\angle ODF=\\angle CEF \\end{cases}\\)，\n∴△ODF≌△CEF（ASA），\n∴DF=EF，\n∵∠DBE=90°，\n∴BF=\\(\\frac { 1 } { 2 }\\)DE=\\(\\sqrt[] { 73 }\\)，\n故BF的长为\\(\\sqrt[] { 73 }\\)．",
+  "solution_steps": [
+    "（1）证明：∵四边形ABCD是菱形，",
+    "∴∠BOC=90°，OC=OA=\\(\\frac { 1 } { 2 }\\)AC，",
+    "∵BE=\\(\\frac { 1 } { 2 }\\)AC，",
+    "∴BE=OC，",
+    "∵BE∥AC，",
+    "∴四边形BECO是平行四边形，",
+    "∵∠BOC=90°，",
+    "∴平行四边形BECO是矩形；",
+    "（2）解：∵四边形ABCD是菱形，",
+    "∴BC=AB=10，OC=\\(\\frac { 1 } { 2 }\\)AC=6，OB=OD，AC⊥BD，",
+    "在Rt△OBC中，由勾股定理得：OB=\\(\\sqrt[] { BC ^ { 2 } -OC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)=8，",
+    "∴BD=2OB=16，",
+    "由（1）得：四边形BECO是矩形，",
+    "∴BE=OC=6，∠OBE=∠ECO=90°，OB=CE，OB∥CE，",
+    "∴DE=\\(\\sqrt[] { BD ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 73 }\\)，∠ODF=∠CEF，OD=CE，",
+    "在△ODF和△CEF中，",
+    "\\(\\begin{cases} \\angle DOF=\\angle ECF=90{}^\\circ \\\\ OD=CE \\\\ \\angle ODF=\\angle CEF \\end{cases}\\)，",
+    "∴△ODF≌△CEF（ASA），",
+    "∴DF=EF，",
+    "∵∠DBE=90°，",
+    "∴BF=\\(\\frac { 1 } { 2 }\\)DE=\\(\\sqrt[] { 73 }\\)，",
+    "故BF的长为\\(\\sqrt[] { 73 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，菱形ABCD的对角线AC、BD相交于点O，过点B作BE∥AC，且BE＝\\(\\frac { 1 } { 2 }\\)AC，连接EC．",
+      "paper_blocks": [
+        49
+      ]
+    },
+    {
+      "id": "fig-52",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        52
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-6077A9B8E3-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形BECO是矩形；",
+      "stem_text": "求证：四边形BECO是矩形；",
+      "material_ids": [
+        "context",
+        "fig-52"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：∵四边形ABCD是菱形，\n∴∠BOC=90°，OC=OA=\\(\\frac { 1 } { 2 }\\)AC，\n∵BE=\\(\\frac { 1 } { 2 }\\)AC，\n∴BE=OC，\n∵BE∥AC，\n∴四边形BECO是平行四边形，\n∵∠BOC=90°，\n∴平行四边形BECO是矩形；",
+      "solution_steps": [
+        "证明：∵四边形ABCD是菱形，",
+        "∴∠BOC=90°，OC=OA=\\(\\frac { 1 } { 2 }\\)AC，",
+        "∵BE=\\(\\frac { 1 } { 2 }\\)AC，",
+        "∴BE=OC，",
+        "∵BE∥AC，",
+        "∴四边形BECO是平行四边形，",
+        "∵∠BOC=90°，",
+        "∴平行四边形BECO是矩形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          52
+        ],
+        "solution_block_ids": [
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-6077A9B8E3-Q20-P02",
+      "label": "（2）",
+      "prompt": "连接ED交AC于点F，连接BF，若AC＝12，AB＝10，求BF的长．",
+      "stem_text": "连接ED交AC于点F，连接BF，若AC＝12，AB＝10，求BF的长．",
+      "material_ids": [
+        "context",
+        "fig-52"
+      ],
+      "requires": [],
+      "given_answer": "BF的长为\\(\\sqrt[] { 73 }\\)．",
+      "answer": "BF的长为\\(\\sqrt[] { 73 }\\)．",
+      "given_solution": "解：∵四边形ABCD是菱形，\n∴BC=AB=10，OC=\\(\\frac { 1 } { 2 }\\)AC=6，OB=OD，AC⊥BD，\n在Rt△OBC中，由勾股定理得：OB=\\(\\sqrt[] { BC ^ { 2 } -OC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)=8，\n∴BD=2OB=16，\n由（1）得：四边形BECO是矩形，\n∴BE=OC=6，∠OBE=∠ECO=90°，OB=CE，OB∥CE，\n∴DE=\\(\\sqrt[] { BD ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 73 }\\)，∠ODF=∠CEF，OD=CE，\n在△ODF和△CEF中，\n\\(\\begin{cases} \\angle DOF=\\angle ECF=90{}^\\circ \\\\ OD=CE \\\\ \\angle ODF=\\angle CEF \\end{cases}\\)，\n∴△ODF≌△CEF（ASA），\n∴DF=EF，\n∵∠DBE=90°，\n∴BF=\\(\\frac { 1 } { 2 }\\)DE=\\(\\sqrt[] { 73 }\\)，\n故BF的长为\\(\\sqrt[] { 73 }\\)．",
+      "solution_steps": [
+        "解：∵四边形ABCD是菱形，",
+        "∴BC=AB=10，OC=\\(\\frac { 1 } { 2 }\\)AC=6，OB=OD，AC⊥BD，",
+        "在Rt△OBC中，由勾股定理得：OB=\\(\\sqrt[] { BC ^ { 2 } -OC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }\\)=8，",
+        "∴BD=2OB=16，",
+        "由（1）得：四边形BECO是矩形，",
+        "∴BE=OC=6，∠OBE=∠ECO=90°，OB=CE，OB∥CE，",
+        "∴DE=\\(\\sqrt[] { BD ^ { 2 } +BE ^ { 2 } }=\\sqrt[] { 16 ^ { 2 } +6 ^ { 2 } }=2\\sqrt[] { 73 }\\)，∠ODF=∠CEF，OD=CE，",
+        "在△ODF和△CEF中，",
+        "\\(\\begin{cases} \\angle DOF=\\angle ECF=90{}^\\circ \\\\ OD=CE \\\\ \\angle ODF=\\angle CEF \\end{cases}\\)，",
+        "∴△ODF≌△CEF（ASA），",
+        "∴DF=EF，",
+        "∵∠DBE=90°，",
+        "∴BF=\\(\\frac { 1 } { 2 }\\)DE=\\(\\sqrt[] { 73 }\\)，",
+        "故BF的长为\\(\\sqrt[] { 73 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          51,
+          52
+        ],
+        "solution_block_ids": [
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      52
+    ],
+    "solution_body_blocks": [
+      263,
+      293
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-6077A9B8E3/paper-q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          385.91,
+          583.64,
+          561.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q20-p14.webp",
+      "assets/SZ-G9-T2-6077A9B8E3/solution-q20-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          161.36,
+          583.64,
+          720.0
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          306.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

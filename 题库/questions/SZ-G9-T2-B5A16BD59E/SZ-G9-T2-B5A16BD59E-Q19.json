@@ -1,0 +1,435 @@
+{
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G04.04",
+    "M.N12.02",
+    "M.N11.02"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G04.04.01",
+    "E.N12.02.01",
+    "E.N11.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-B5A16BD59E-Q19",
+  "number": 19,
+  "paper_id": "SZ-G9-T2-B5A16BD59E",
+  "title": "应用等腰三角形性质求边角、由勾股关系求直角三角形边长",
+  "stem": "【定义】在平面内，把一个图形上任意一点与另一个图形上任意一点之间的距离的最小值，称为这两个图形之间的距离，即\\(A\\)、\\(B\\)分别是图形\\(M\\)和图形\\(N\\)上任意一点，当\\(AB\\)的长最小时，称这个最小值为图形\\(M\\)与图形\\(N\\)之间的距离．\n例如，如图1，\\(AB\\bot l_{ 2 }\\)，线段\\(AB\\)的长度称为点\\(A\\)与直线\\(l_{ 2 }\\)之间的距离．当\\(l_{ 2 } \\parallel l_{ 1 }\\)时，线段\\(AB\\)的长度也是\\(l_{ 1 }\\)与\\(l_{ 2 }\\)之间的距离．\n〔图1〕\n(1)如图2，在等腰直角三角形\\(BAC\\)中，\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为\\(AB\\)边上一点，过点\\(D\\)作\\(DE\\parallel BC\\)交\\(AC\\)于点\\(E\\)．若\\(AB=12\\)，\\(AD=8\\)，则\\(DE\\)与\\(BC\\)之间的距离是__________；\n(2)如图3，已知直线\\(l_{ 3 }\\)：\\(y=-x+8\\)与双曲线\\(C_{ 1 }\\)：\\(y=\\frac { k } { x }\\left ( { x>0 } \\right )\\)交于\\(A\\left ( { 2,m } \\right )\\)与\\(B\\)两点，点\\(A\\)与点\\(B\\)之间的距离是__________，点\\(O\\)与双曲线\\(C_{ 1 }\\)之间的距离是__________；\n【拓展】\n(3)按规定，住宅小区的外延到高架路的距离不超过\\(80{ \\rm{ m } }\\)时，需要在高架路旁修建与高架路相同走向的隔音屏障（如图4）．有一条“东南一西北”走向的笔直高架路，路旁某住宅小区建筑外延呈双曲线的形状，它们之间的距离小于\\(80{ \\rm{ m } }\\)．现以高架路上某一合适位置为坐标原点，建立如图5所示的平面直角坐标系，此时高架路所在直线\\(l_{ 4 }\\)的函数表达式为\\(y=-x\\)，小区外延所在双曲线\\(C_{ 2 }\\)的函数表达式为\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)，那么需要在高架路旁修建隔音屏障的长度是多少？",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【定义】在平面内，把一个图形上任意一点与另一个图形上任意一点之间的距离的最小值，称为这两个图形之间的距离，即\\(A\\)、\\(B\\)分别是图形\\(M\\)和图形\\(N\\)上任意一点，当\\(AB\\)的长最小时，称这个最小值为图形\\(M\\)与图形\\(N\\)之间的距离．\n例如，如图1，\\(AB\\bot l_{ 2 }\\)，线段\\(AB\\)的长度称为点\\(A\\)与直线\\(l_{ 2 }\\)之间的距离．当\\(l_{ 2 } \\parallel l_{ 1 }\\)时，线段\\(AB\\)的长度也是\\(l_{ 1 }\\)与\\(l_{ 2 }\\)之间的距离．\n〔图1〕",
+      "paper_blocks": [
+        760,
+        770,
+        780
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-B5A16BD59E-Q19-P01",
+      "label": "(1)",
+      "prompt": "如图2，在等腰直角三角形\\(BAC\\)中，\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为\\(AB\\)边上一点，过点\\(D\\)作\\(DE\\parallel BC\\)交\\(AC\\)于点\\(E\\)．若\\(AB=12\\)，\\(AD=8\\)，则\\(DE\\)与\\(BC\\)之间的距离是__________；",
+      "stem_text": "如图2，在等腰直角三角形\\(BAC\\)中，\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，点\\(D\\)为\\(AB\\)边上一点，过点\\(D\\)作\\(DE\\parallel BC\\)交\\(AC\\)于点\\(E\\)．若\\(AB=12\\)，\\(AD=8\\)，则\\(DE\\)与\\(BC\\)之间的距离是__________；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 2 }\\)",
+      "answer": "\\(2\\sqrt[] { 2 }\\)",
+      "given_solution": "解：如图，过点\\(D\\)作\\(DH\\bot BC\\)于点\\(H\\)，\n〔图1〕\\(\\because\\)\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，\n\\(\\therefore\\)\\(\\angle B=45{}^\\circ\\)，\n\\(\\because\\)\\(DH\\bot BC\\)，\n\\(\\therefore\\)\\(\\vartriangle BDH\\)是等腰直角三角形，\n\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n\\(\\because\\)\\(AB=12\\)，\\(AD=8\\)，\n\\(\\therefore\\)\\(BD=AB-AD=12-8=4\\)，\n\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }\\times 4=2\\sqrt[] { 2 }\\)；\n故答案为：\\(2\\sqrt[] { 2 }\\)；",
+      "solution_steps": [
+        "解：如图，过点\\(D\\)作\\(DH\\bot BC\\)于点\\(H\\)，",
+        "〔图1〕\\(\\because\\)\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，",
+        "\\(\\therefore\\)\\(\\angle B=45{}^\\circ\\)，",
+        "\\(\\because\\)\\(DH\\bot BC\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle BDH\\)是等腰直角三角形，",
+        "\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+        "\\(\\because\\)\\(AB=12\\)，\\(AD=8\\)，",
+        "\\(\\therefore\\)\\(BD=AB-AD=12-8=4\\)，",
+        "\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }\\times 4=2\\sqrt[] { 2 }\\)；",
+        "故答案为：\\(2\\sqrt[] { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          760,
+          770,
+          780,
+          790
+        ],
+        "solution_block_ids": [
+          3660,
+          3670,
+          3680,
+          3690,
+          3700,
+          3710,
+          3720,
+          3730,
+          3740,
+          3750
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-B5A16BD59E-Q19-P02",
+      "label": "(2)",
+      "prompt": "如图3，已知直线\\(l_{ 3 }\\)：\\(y=-x+8\\)与双曲线\\(C_{ 1 }\\)：\\(y=\\frac { k } { x }\\left ( { x>0 } \\right )\\)交于\\(A\\left ( { 2,m } \\right )\\)与\\(B\\)两点，点\\(A\\)与点\\(B\\)之间的距离是__________，点\\(O\\)与双曲线\\(C_{ 1 }\\)之间的距离是__________；\n【拓展】",
+      "stem_text": "如图3，已知直线\\(l_{ 3 }\\)：\\(y=-x+8\\)与双曲线\\(C_{ 1 }\\)：\\(y=\\frac { k } { x }\\left ( { x>0 } \\right )\\)交于\\(A\\left ( { 2,m } \\right )\\)与\\(B\\)两点，点\\(A\\)与点\\(B\\)之间的距离是__________，点\\(O\\)与双曲线\\(C_{ 1 }\\)之间的距离是__________；\n【拓展】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)",
+      "answer": "\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)",
+      "given_solution": "解：把\\(A\\left ( { 2,m } \\right )\\)代入\\(y=-x+8\\)中，得：\\(m=-2+8=6\\)，\n\\(\\therefore\\)\\(A\\left ( { 2,6 } \\right )\\)，\n把\\(A\\left ( { 2,6 } \\right )\\)代入\\(y=\\frac { k } { x }\\)，得：\\(6=\\frac { k } { 2 }\\)，\n\\(\\therefore\\)\\(k=12\\)，\n\\(\\therefore\\)双曲线\\(C_{ 1 }\\)的解析式为\\(y=\\frac { 12 } { x }\\)，\n联立，得：\\(-x+8=\\frac { 12 } { x }\\)，\n即\\(x ^ { 2 } -8x+12=0\\)，\n解得：\\(x_{ 1 } =2\\)，\\(x_{ 2 } =6\\)，\n\\(\\therefore\\)\\(B\\left ( { 6,2 } \\right )\\)，\n\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 2-6 } \\right ) ^ { 2 } +\\left ( { 6-2 } \\right ) ^ { 2 } }=4\\sqrt[] { 2 }\\)；\n如图，作\\(FG\\parallel AB\\)，且\\(FG\\)与双曲线\\(y=\\frac { 12 } { x }\\)只有一个交点，设直线\\(FG\\)的解析式为\\(y=-x+b\\)，\n则\\(-x+b=\\frac { 12 } { x }\\)，\n〔图2〕\n整理得：\\(x ^ { 2 } -bx+12=0\\)，\n\\(\\therefore\\)\\(\\Delta =\\left ( { -b } \\right ) ^ { 2 } -4\\times 1\\times 12=b ^ { 2 } -48=0\\)，\n\\(\\therefore\\)\\(b=4\\sqrt[] { 3 }\\)或\\(b=-4\\sqrt[] { 3 }\\)（不符合题意，舍去），\n\\(\\therefore\\)直线\\(FG\\)的解析式为\\(y=-x+4\\sqrt[] { 3 }\\)，\n由\\(-x+4\\sqrt[] { 3 }=\\frac { 12 } { x }\\)，\n解得：\\(x_{ 1 } =x_{ 2 } =2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)\\(K\\left ( { 2\\sqrt[] { 3 },2\\sqrt[] { 3 } } \\right )\\)，\n\\(\\therefore\\)\\(OK=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 6 }\\)；\n故答案为：\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)；",
+      "solution_steps": [
+        "解：把\\(A\\left ( { 2,m } \\right )\\)代入\\(y=-x+8\\)中，得：\\(m=-2+8=6\\)，",
+        "\\(\\therefore\\)\\(A\\left ( { 2,6 } \\right )\\)，",
+        "把\\(A\\left ( { 2,6 } \\right )\\)代入\\(y=\\frac { k } { x }\\)，得：\\(6=\\frac { k } { 2 }\\)，",
+        "\\(\\therefore\\)\\(k=12\\)，",
+        "\\(\\therefore\\)双曲线\\(C_{ 1 }\\)的解析式为\\(y=\\frac { 12 } { x }\\)，",
+        "联立，得：\\(-x+8=\\frac { 12 } { x }\\)，",
+        "即\\(x ^ { 2 } -8x+12=0\\)，",
+        "解得：\\(x_{ 1 } =2\\)，\\(x_{ 2 } =6\\)，",
+        "\\(\\therefore\\)\\(B\\left ( { 6,2 } \\right )\\)，",
+        "\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 2-6 } \\right ) ^ { 2 } +\\left ( { 6-2 } \\right ) ^ { 2 } }=4\\sqrt[] { 2 }\\)；",
+        "如图，作\\(FG\\parallel AB\\)，且\\(FG\\)与双曲线\\(y=\\frac { 12 } { x }\\)只有一个交点，设直线\\(FG\\)的解析式为\\(y=-x+b\\)，",
+        "则\\(-x+b=\\frac { 12 } { x }\\)，",
+        "〔图2〕",
+        "整理得：\\(x ^ { 2 } -bx+12=0\\)，",
+        "\\(\\therefore\\)\\(\\Delta =\\left ( { -b } \\right ) ^ { 2 } -4\\times 1\\times 12=b ^ { 2 } -48=0\\)，",
+        "\\(\\therefore\\)\\(b=4\\sqrt[] { 3 }\\)或\\(b=-4\\sqrt[] { 3 }\\)（不符合题意，舍去），",
+        "\\(\\therefore\\)直线\\(FG\\)的解析式为\\(y=-x+4\\sqrt[] { 3 }\\)，",
+        "由\\(-x+4\\sqrt[] { 3 }=\\frac { 12 } { x }\\)，",
+        "解得：\\(x_{ 1 } =x_{ 2 } =2\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore\\)\\(K\\left ( { 2\\sqrt[] { 3 },2\\sqrt[] { 3 } } \\right )\\)，",
+        "\\(\\therefore\\)\\(OK=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 6 }\\)；",
+        "故答案为：\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          760,
+          770,
+          780,
+          800,
+          810
+        ],
+        "solution_block_ids": [
+          3760,
+          3770,
+          3780,
+          3790,
+          3800,
+          3810,
+          3820,
+          3830,
+          3840,
+          3850,
+          3860,
+          3870,
+          3880,
+          3890,
+          3900,
+          3910,
+          3920,
+          3930,
+          3940,
+          3950,
+          3960,
+          3970
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-B5A16BD59E-Q19-P03",
+      "label": "(3)",
+      "prompt": "按规定，住宅小区的外延到高架路的距离不超过\\(80{ \\rm{ m } }\\)时，需要在高架路旁修建与高架路相同走向的隔音屏障（如图4）．有一条“东南一西北”走向的笔直高架路，路旁某住宅小区建筑外延呈双曲线的形状，它们之间的距离小于\\(80{ \\rm{ m } }\\)．现以高架路上某一合适位置为坐标原点，建立如图5所示的平面直角坐标系，此时高架路所在直线\\(l_{ 4 }\\)的函数表达式为\\(y=-x\\)，小区外延所在双曲线\\(C_{ 2 }\\)的函数表达式为\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)，那么需要在高架路旁修建隔音屏障的长度是多少？",
+      "stem_text": "按规定，住宅小区的外延到高架路的距离不超过\\(80{ \\rm{ m } }\\)时，需要在高架路旁修建与高架路相同走向的隔音屏障（如图4）．有一条“东南一西北”走向的笔直高架路，路旁某住宅小区建筑外延呈双曲线的形状，它们之间的距离小于\\(80{ \\rm{ m } }\\)．现以高架路上某一合适位置为坐标原点，建立如图5所示的平面直角坐标系，此时高架路所在直线\\(l_{ 4 }\\)的函数表达式为\\(y=-x\\)，小区外延所在双曲线\\(C_{ 2 }\\)的函数表达式为\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)，那么需要在高架路旁修建隔音屏障的长度是多少？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "40米",
+      "answer": "40米",
+      "given_solution": "解：如图，作直线\\(AB\\parallel l_{ 4 }\\)，设\\(AB\\)的解析式为\\(y=-x+b\\)，与双曲线\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)交于点\\(A\\)、\\(B\\)，过点\\(O\\)作\\(OP\\bot AB\\)于点\\(P\\)，过点\\(P\\)作\\(PH\\bot x\\)轴于点\\(H\\)，过点\\(A\\)、\\(B\\)分别作直线的垂线\\(AE\\)、\\(BF\\)，垂足为\\(E\\)、\\(F\\)，\n〔图3〕\n则\\(OP=80{ \\rm{ m } }\\)，\n\\(\\because\\)直线\\(y=-x\\)平分第二、四象限角，\n\\(\\therefore\\)\\(\\angle FOH=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle POH=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\vartriangle POH\\)是等腰直角三角形，\n\\(\\therefore\\)\\(PH=OH=\\frac { \\sqrt[] { 2 } } { 2 }OP=40\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(P\\left ( { 40\\sqrt[] { 2 },40\\sqrt[] { 2 } } \\right )\\)，\n代入\\(y=-x+b\\)，得\\(40\\sqrt[] { 2 }=-40\\sqrt[] { 2 }+b\\)，\n解得：\\(b=80\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(y=-x+80\\sqrt[] { 2 }\\)，\n联立得：\\(-x+80\\sqrt[] { 2 }=\\frac { 3000 } { x }\\)，\n解得：\\(x=30\\sqrt[] { 2 }\\)或\\(50\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(A\\left ( { 30\\sqrt[] { 2 },50\\sqrt[] { 2 } } \\right )\\)，\\(B\\left ( { 50\\sqrt[] { 2 },30\\sqrt[] { 2 } } \\right )\\)，\n\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 50\\sqrt[] { 2 }-30\\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 30\\sqrt[] { 2 }-50\\sqrt[] { 2 } } \\right ) ^ { 2 } }=40\\)，\n\\(\\because\\)\\(AB\\parallel EF\\)，\\(AE\\parallel BF\\)，\n\\(\\therefore\\)四边形\\(ABFE\\)是平行四边形，\n\\(\\because\\)\\(AE\\bot EF\\)，\n\\(\\therefore\\)四边形\\(ABFE\\)是矩形，\n\\(\\therefore\\)\\(EF=AB=40{ \\rm{ m } }\\)，\n答：需要在高速路旁修建隔音屏障的长度是40米．",
+      "solution_steps": [
+        "解：如图，作直线\\(AB\\parallel l_{ 4 }\\)，设\\(AB\\)的解析式为\\(y=-x+b\\)，与双曲线\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)交于点\\(A\\)、\\(B\\)，过点\\(O\\)作\\(OP\\bot AB\\)于点\\(P\\)，过点\\(P\\)作\\(PH\\bot x\\)轴于点\\(H\\)，过点\\(A\\)、\\(B\\)分别作直线的垂线\\(AE\\)、\\(BF\\)，垂足为\\(E\\)、\\(F\\)，",
+        "〔图3〕",
+        "则\\(OP=80{ \\rm{ m } }\\)，",
+        "\\(\\because\\)直线\\(y=-x\\)平分第二、四象限角，",
+        "\\(\\therefore\\)\\(\\angle FOH=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle POH=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle POH\\)是等腰直角三角形，",
+        "\\(\\therefore\\)\\(PH=OH=\\frac { \\sqrt[] { 2 } } { 2 }OP=40\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore\\)\\(P\\left ( { 40\\sqrt[] { 2 },40\\sqrt[] { 2 } } \\right )\\)，",
+        "代入\\(y=-x+b\\)，得\\(40\\sqrt[] { 2 }=-40\\sqrt[] { 2 }+b\\)，",
+        "解得：\\(b=80\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore\\)\\(y=-x+80\\sqrt[] { 2 }\\)，",
+        "联立得：\\(-x+80\\sqrt[] { 2 }=\\frac { 3000 } { x }\\)，",
+        "解得：\\(x=30\\sqrt[] { 2 }\\)或\\(50\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore\\)\\(A\\left ( { 30\\sqrt[] { 2 },50\\sqrt[] { 2 } } \\right )\\)，\\(B\\left ( { 50\\sqrt[] { 2 },30\\sqrt[] { 2 } } \\right )\\)，",
+        "\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 50\\sqrt[] { 2 }-30\\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 30\\sqrt[] { 2 }-50\\sqrt[] { 2 } } \\right ) ^ { 2 } }=40\\)，",
+        "\\(\\because\\)\\(AB\\parallel EF\\)，\\(AE\\parallel BF\\)，",
+        "\\(\\therefore\\)四边形\\(ABFE\\)是平行四边形，",
+        "\\(\\because\\)\\(AE\\bot EF\\)，",
+        "\\(\\therefore\\)四边形\\(ABFE\\)是矩形，",
+        "\\(\\therefore\\)\\(EF=AB=40{ \\rm{ m } }\\)，",
+        "答：需要在高速路旁修建隔音屏障的长度是40米．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          760,
+          770,
+          780,
+          820
+        ],
+        "solution_block_ids": [
+          3980,
+          3990,
+          4000,
+          4010,
+          4020,
+          4030,
+          4040,
+          4050,
+          4060,
+          4070,
+          4080,
+          4090,
+          4100,
+          4110,
+          4120,
+          4130,
+          4140,
+          4150,
+          4160,
+          4170,
+          4180,
+          4190
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N12.02",
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N12.02.01",
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/36/3680af703d0f75bfe9627e188fe454d59d3ea8e19102e320261eea358ff1b336.png"
+  ],
+  "tables": [],
+  "answer": "(1)\\(2\\sqrt[] { 2 }\\)\n(2)\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)\n(3)40米",
+  "given_answer": "(1)\\(2\\sqrt[] { 2 }\\)\n(2)\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)\n(3)40米",
+  "given_solution": "【分析】（1）过点\\(D\\)作\\(DH\\bot BC\\)于点\\(H\\)，得出\\(\\vartriangle BDH\\)是等腰直角三角形，根据等腰直角三角形的性质求出结果即可；\n（2）先根据一次函数解析式求出点\\(A\\)，然后再求出反比例函数解析式，再求出点\\(B\\)的坐标，根据两点点距离公式求出\\(AB\\)的值即可；作\\(FG\\parallel AB\\)，且\\(FG\\)与双曲线只有一个交点，设直线\\(FG\\)的解析式为\\(y=-x+b\\)，求出一次函数解析式，再求出交点坐标，最后求出\\(OK\\)的值即可；\n（3）作直线\\(AB\\parallel l_{ 4 }\\)，设\\(AB\\)的解析式为\\(y=-x+b\\)，与双曲线\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)交于点\\(A\\)、\\(B\\)，过点\\(O\\)作\\(OP\\bot AB\\)于点\\(P\\)，过点\\(P\\)作\\(PH\\bot x\\)轴于点\\(H\\)，过点\\(A\\)、\\(B\\)分别作直线的垂线\\(AE\\)、\\(BF\\)，垂足为\\(E\\)、\\(F\\)，先求出直线\\(AB\\)的解析式，然后求出点\\(A\\)、\\(B\\)的坐标，根据两点之间距离公式求出\\(AB\\)的长，进而即可得出答案．\n【详解】（1）解：如图，过点\\(D\\)作\\(DH\\bot BC\\)于点\\(H\\)，\n〔图1〕\\(\\because\\)\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，\n\\(\\therefore\\)\\(\\angle B=45{}^\\circ\\)，\n\\(\\because\\)\\(DH\\bot BC\\)，\n\\(\\therefore\\)\\(\\vartriangle BDH\\)是等腰直角三角形，\n\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n\\(\\because\\)\\(AB=12\\)，\\(AD=8\\)，\n\\(\\therefore\\)\\(BD=AB-AD=12-8=4\\)，\n\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }\\times 4=2\\sqrt[] { 2 }\\)；\n故答案为：\\(2\\sqrt[] { 2 }\\)；\n（2）解：把\\(A\\left ( { 2,m } \\right )\\)代入\\(y=-x+8\\)中，得：\\(m=-2+8=6\\)，\n\\(\\therefore\\)\\(A\\left ( { 2,6 } \\right )\\)，\n把\\(A\\left ( { 2,6 } \\right )\\)代入\\(y=\\frac { k } { x }\\)，得：\\(6=\\frac { k } { 2 }\\)，\n\\(\\therefore\\)\\(k=12\\)，\n\\(\\therefore\\)双曲线\\(C_{ 1 }\\)的解析式为\\(y=\\frac { 12 } { x }\\)，\n联立，得：\\(-x+8=\\frac { 12 } { x }\\)，\n即\\(x ^ { 2 } -8x+12=0\\)，\n解得：\\(x_{ 1 } =2\\)，\\(x_{ 2 } =6\\)，\n\\(\\therefore\\)\\(B\\left ( { 6,2 } \\right )\\)，\n\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 2-6 } \\right ) ^ { 2 } +\\left ( { 6-2 } \\right ) ^ { 2 } }=4\\sqrt[] { 2 }\\)；\n如图，作\\(FG\\parallel AB\\)，且\\(FG\\)与双曲线\\(y=\\frac { 12 } { x }\\)只有一个交点，设直线\\(FG\\)的解析式为\\(y=-x+b\\)，\n则\\(-x+b=\\frac { 12 } { x }\\)，\n〔图2〕\n整理得：\\(x ^ { 2 } -bx+12=0\\)，\n\\(\\therefore\\)\\(\\Delta =\\left ( { -b } \\right ) ^ { 2 } -4\\times 1\\times 12=b ^ { 2 } -48=0\\)，\n\\(\\therefore\\)\\(b=4\\sqrt[] { 3 }\\)或\\(b=-4\\sqrt[] { 3 }\\)（不符合题意，舍去），\n\\(\\therefore\\)直线\\(FG\\)的解析式为\\(y=-x+4\\sqrt[] { 3 }\\)，\n由\\(-x+4\\sqrt[] { 3 }=\\frac { 12 } { x }\\)，\n解得：\\(x_{ 1 } =x_{ 2 } =2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)\\(K\\left ( { 2\\sqrt[] { 3 },2\\sqrt[] { 3 } } \\right )\\)，\n\\(\\therefore\\)\\(OK=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 6 }\\)；\n故答案为：\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)；\n（3）解：如图，作直线\\(AB\\parallel l_{ 4 }\\)，设\\(AB\\)的解析式为\\(y=-x+b\\)，与双曲线\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)交于点\\(A\\)、\\(B\\)，过点\\(O\\)作\\(OP\\bot AB\\)于点\\(P\\)，过点\\(P\\)作\\(PH\\bot x\\)轴于点\\(H\\)，过点\\(A\\)、\\(B\\)分别作直线的垂线\\(AE\\)、\\(BF\\)，垂足为\\(E\\)、\\(F\\)，\n〔图3〕\n则\\(OP=80{ \\rm{ m } }\\)，\n\\(\\because\\)直线\\(y=-x\\)平分第二、四象限角，\n\\(\\therefore\\)\\(\\angle FOH=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle POH=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\vartriangle POH\\)是等腰直角三角形，\n\\(\\therefore\\)\\(PH=OH=\\frac { \\sqrt[] { 2 } } { 2 }OP=40\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(P\\left ( { 40\\sqrt[] { 2 },40\\sqrt[] { 2 } } \\right )\\)，\n代入\\(y=-x+b\\)，得\\(40\\sqrt[] { 2 }=-40\\sqrt[] { 2 }+b\\)，\n解得：\\(b=80\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(y=-x+80\\sqrt[] { 2 }\\)，\n联立得：\\(-x+80\\sqrt[] { 2 }=\\frac { 3000 } { x }\\)，\n解得：\\(x=30\\sqrt[] { 2 }\\)或\\(50\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(A\\left ( { 30\\sqrt[] { 2 },50\\sqrt[] { 2 } } \\right )\\)，\\(B\\left ( { 50\\sqrt[] { 2 },30\\sqrt[] { 2 } } \\right )\\)，\n\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 50\\sqrt[] { 2 }-30\\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 30\\sqrt[] { 2 }-50\\sqrt[] { 2 } } \\right ) ^ { 2 } }=40\\)，\n\\(\\because\\)\\(AB\\parallel EF\\)，\\(AE\\parallel BF\\)，\n\\(\\therefore\\)四边形\\(ABFE\\)是平行四边形，\n\\(\\because\\)\\(AE\\bot EF\\)，\n\\(\\therefore\\)四边形\\(ABFE\\)是矩形，\n\\(\\therefore\\)\\(EF=AB=40{ \\rm{ m } }\\)，\n答：需要在高速路旁修建隔音屏障的长度是40米．\n【点睛】本题主要考查了一次函数和反比例函数的综合应用，两点之间距离公式，矩形的判定和性质，解题的关键是作出辅助线，熟练掌握两点之间距离公式，准确计算．",
+  "given_solution_figures": [
+    "assets/figures/8f/8f730fae108c2e0d06c4edb0c27c126c80e686d81856885d48cc256137235fda.png",
+    "assets/figures/8b/8b47482c9ca49da003ac5929492a1810916aabba8f10c110038f4fbd568632af.png",
+    "assets/figures/5a/5abd1108c6b8dbd7c08a9e85dad688e83a1b8053dd71175a6837f2627424b1ed.png"
+  ],
+  "solution_steps": [
+    "（1）解：如图，过点\\(D\\)作\\(DH\\bot BC\\)于点\\(H\\)，",
+    "〔图1〕\\(\\because\\)\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，",
+    "\\(\\therefore\\)\\(\\angle B=45{}^\\circ\\)，",
+    "\\(\\because\\)\\(DH\\bot BC\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle BDH\\)是等腰直角三角形，",
+    "\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，",
+    "\\(\\because\\)\\(AB=12\\)，\\(AD=8\\)，",
+    "\\(\\therefore\\)\\(BD=AB-AD=12-8=4\\)，",
+    "\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }\\times 4=2\\sqrt[] { 2 }\\)；",
+    "故答案为：\\(2\\sqrt[] { 2 }\\)；",
+    "（2）解：把\\(A\\left ( { 2,m } \\right )\\)代入\\(y=-x+8\\)中，得：\\(m=-2+8=6\\)，",
+    "\\(\\therefore\\)\\(A\\left ( { 2,6 } \\right )\\)，",
+    "把\\(A\\left ( { 2,6 } \\right )\\)代入\\(y=\\frac { k } { x }\\)，得：\\(6=\\frac { k } { 2 }\\)，",
+    "\\(\\therefore\\)\\(k=12\\)，",
+    "\\(\\therefore\\)双曲线\\(C_{ 1 }\\)的解析式为\\(y=\\frac { 12 } { x }\\)，",
+    "联立，得：\\(-x+8=\\frac { 12 } { x }\\)，",
+    "即\\(x ^ { 2 } -8x+12=0\\)，",
+    "解得：\\(x_{ 1 } =2\\)，\\(x_{ 2 } =6\\)，",
+    "\\(\\therefore\\)\\(B\\left ( { 6,2 } \\right )\\)，",
+    "\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 2-6 } \\right ) ^ { 2 } +\\left ( { 6-2 } \\right ) ^ { 2 } }=4\\sqrt[] { 2 }\\)；",
+    "如图，作\\(FG\\parallel AB\\)，且\\(FG\\)与双曲线\\(y=\\frac { 12 } { x }\\)只有一个交点，设直线\\(FG\\)的解析式为\\(y=-x+b\\)，",
+    "则\\(-x+b=\\frac { 12 } { x }\\)，",
+    "〔图2〕",
+    "整理得：\\(x ^ { 2 } -bx+12=0\\)，",
+    "\\(\\therefore\\)\\(\\Delta =\\left ( { -b } \\right ) ^ { 2 } -4\\times 1\\times 12=b ^ { 2 } -48=0\\)，",
+    "\\(\\therefore\\)\\(b=4\\sqrt[] { 3 }\\)或\\(b=-4\\sqrt[] { 3 }\\)（不符合题意，舍去），",
+    "\\(\\therefore\\)直线\\(FG\\)的解析式为\\(y=-x+4\\sqrt[] { 3 }\\)，",
+    "由\\(-x+4\\sqrt[] { 3 }=\\frac { 12 } { x }\\)，",
+    "解得：\\(x_{ 1 } =x_{ 2 } =2\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore\\)\\(K\\left ( { 2\\sqrt[] { 3 },2\\sqrt[] { 3 } } \\right )\\)，",
+    "\\(\\therefore\\)\\(OK=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 6 }\\)；",
+    "故答案为：\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)；",
+    "（3）解：如图，作直线\\(AB\\parallel l_{ 4 }\\)，设\\(AB\\)的解析式为\\(y=-x+b\\)，与双曲线\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)交于点\\(A\\)、\\(B\\)，过点\\(O\\)作\\(OP\\bot AB\\)于点\\(P\\)，过点\\(P\\)作\\(PH\\bot x\\)轴于点\\(H\\)，过点\\(A\\)、\\(B\\)分别作直线的垂线\\(AE\\)、\\(BF\\)，垂足为\\(E\\)、\\(F\\)，",
+    "〔图3〕",
+    "则\\(OP=80{ \\rm{ m } }\\)，",
+    "\\(\\because\\)直线\\(y=-x\\)平分第二、四象限角，",
+    "\\(\\therefore\\)\\(\\angle FOH=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle POH=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle POH\\)是等腰直角三角形，",
+    "\\(\\therefore\\)\\(PH=OH=\\frac { \\sqrt[] { 2 } } { 2 }OP=40\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore\\)\\(P\\left ( { 40\\sqrt[] { 2 },40\\sqrt[] { 2 } } \\right )\\)，",
+    "代入\\(y=-x+b\\)，得\\(40\\sqrt[] { 2 }=-40\\sqrt[] { 2 }+b\\)，",
+    "解得：\\(b=80\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore\\)\\(y=-x+80\\sqrt[] { 2 }\\)，",
+    "联立得：\\(-x+80\\sqrt[] { 2 }=\\frac { 3000 } { x }\\)，",
+    "解得：\\(x=30\\sqrt[] { 2 }\\)或\\(50\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore\\)\\(A\\left ( { 30\\sqrt[] { 2 },50\\sqrt[] { 2 } } \\right )\\)，\\(B\\left ( { 50\\sqrt[] { 2 },30\\sqrt[] { 2 } } \\right )\\)，",
+    "\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 50\\sqrt[] { 2 }-30\\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 30\\sqrt[] { 2 }-50\\sqrt[] { 2 } } \\right ) ^ { 2 } }=40\\)，",
+    "\\(\\because\\)\\(AB\\parallel EF\\)，\\(AE\\parallel BF\\)，",
+    "\\(\\therefore\\)四边形\\(ABFE\\)是平行四边形，",
+    "\\(\\because\\)\\(AE\\bot EF\\)，",
+    "\\(\\therefore\\)四边形\\(ABFE\\)是矩形，",
+    "\\(\\therefore\\)\\(EF=AB=40{ \\rm{ m } }\\)，",
+    "答：需要在高速路旁修建隔音屏障的长度是40米．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）解：如图，过点\\(D\\)作\\(DH\\bot BC\\)于点\\(H\\)，\n〔图1〕\\(\\because\\)\\(\\angle A=90{}^\\circ\\)，\\(AB=AC\\)，\n\\(\\therefore\\)\\(\\angle B=45{}^\\circ\\)，\n\\(\\because\\)\\(DH\\bot BC\\)，\n\\(\\therefore\\)\\(\\vartriangle BDH\\)是等腰直角三角形，\n\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }BD\\)，\n\\(\\because\\)\\(AB=12\\)，\\(AD=8\\)，\n\\(\\therefore\\)\\(BD=AB-AD=12-8=4\\)，\n\\(\\therefore\\)\\(DH=\\frac { \\sqrt[] { 2 } } { 2 }\\times 4=2\\sqrt[] { 2 }\\)；\n故答案为：\\(2\\sqrt[] { 2 }\\)；\n（2）解：把\\(A\\left ( { 2,m } \\right )\\)代入\\(y=-x+8\\)中，得：\\(m=-2+8=6\\)，\n\\(\\therefore\\)\\(A\\left ( { 2,6 } \\right )\\)，\n把\\(A\\left ( { 2,6 } \\right )\\)代入\\(y=\\frac { k } { x }\\)，得：\\(6=\\frac { k } { 2 }\\)，\n\\(\\therefore\\)\\(k=12\\)，\n\\(\\therefore\\)双曲线\\(C_{ 1 }\\)的解析式为\\(y=\\frac { 12 } { x }\\)，\n联立，得：\\(-x+8=\\frac { 12 } { x }\\)，\n即\\(x ^ { 2 } -8x+12=0\\)，\n解得：\\(x_{ 1 } =2\\)，\\(x_{ 2 } =6\\)，\n\\(\\therefore\\)\\(B\\left ( { 6,2 } \\right )\\)，\n\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 2-6 } \\right ) ^ { 2 } +\\left ( { 6-2 } \\right ) ^ { 2 } }=4\\sqrt[] { 2 }\\)；\n如图，作\\(FG\\parallel AB\\)，且\\(FG\\)与双曲线\\(y=\\frac { 12 } { x }\\)只有一个交点，设直线\\(FG\\)的解析式为\\(y=-x+b\\)，\n则\\(-x+b=\\frac { 12 } { x }\\)，\n〔图2〕\n整理得：\\(x ^ { 2 } -bx+12=0\\)，\n\\(\\therefore\\)\\(\\Delta =\\left ( { -b } \\right ) ^ { 2 } -4\\times 1\\times 12=b ^ { 2 } -48=0\\)，\n\\(\\therefore\\)\\(b=4\\sqrt[] { 3 }\\)或\\(b=-4\\sqrt[] { 3 }\\)（不符合题意，舍去），\n\\(\\therefore\\)直线\\(FG\\)的解析式为\\(y=-x+4\\sqrt[] { 3 }\\)，\n由\\(-x+4\\sqrt[] { 3 }=\\frac { 12 } { x }\\)，\n解得：\\(x_{ 1 } =x_{ 2 } =2\\sqrt[] { 3 }\\)，\n\\(\\therefore\\)\\(K\\left ( { 2\\sqrt[] { 3 },2\\sqrt[] { 3 } } \\right )\\)，\n\\(\\therefore\\)\\(OK=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=2\\sqrt[] { 6 }\\)；\n故答案为：\\(4\\sqrt[] { 2 }\\)，\\(2\\sqrt[] { 6 }\\)；\n（3）解：如图，作直线\\(AB\\parallel l_{ 4 }\\)，设\\(AB\\)的解析式为\\(y=-x+b\\)，与双曲线\\(y=\\frac { 3000 } { x }\\left ( { x>0 } \\right )\\)交于点\\(A\\)、\\(B\\)，过点\\(O\\)作\\(OP\\bot AB\\)于点\\(P\\)，过点\\(P\\)作\\(PH\\bot x\\)轴于点\\(H\\)，过点\\(A\\)、\\(B\\)分别作直线的垂线\\(AE\\)、\\(BF\\)，垂足为\\(E\\)、\\(F\\)，\n〔图3〕\n则\\(OP=80{ \\rm{ m } }\\)，\n\\(\\because\\)直线\\(y=-x\\)平分第二、四象限角，\n\\(\\therefore\\)\\(\\angle FOH=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle POH=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\vartriangle POH\\)是等腰直角三角形，\n\\(\\therefore\\)\\(PH=OH=\\frac { \\sqrt[] { 2 } } { 2 }OP=40\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(P\\left ( { 40\\sqrt[] { 2 },40\\sqrt[] { 2 } } \\right )\\)，\n代入\\(y=-x+b\\)，得\\(40\\sqrt[] { 2 }=-40\\sqrt[] { 2 }+b\\)，\n解得：\\(b=80\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(y=-x+80\\sqrt[] { 2 }\\)，\n联立得：\\(-x+80\\sqrt[] { 2 }=\\frac { 3000 } { x }\\)，\n解得：\\(x=30\\sqrt[] { 2 }\\)或\\(50\\sqrt[] { 2 }\\)，\n\\(\\therefore\\)\\(A\\left ( { 30\\sqrt[] { 2 },50\\sqrt[] { 2 } } \\right )\\)，\\(B\\left ( { 50\\sqrt[] { 2 },30\\sqrt[] { 2 } } \\right )\\)，\n\\(\\therefore\\)\\(AB=\\sqrt[] { \\left ( { 50\\sqrt[] { 2 }-30\\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 30\\sqrt[] { 2 }-50\\sqrt[] { 2 } } \\right ) ^ { 2 } }=40\\)，\n\\(\\because\\)\\(AB\\parallel EF\\)，\\(AE\\parallel BF\\)，\n\\(\\therefore\\)四边形\\(ABFE\\)是平行四边形，\n\\(\\because\\)\\(AE\\bot EF\\)，\n\\(\\therefore\\)四边形\\(ABFE\\)是矩形，\n\\(\\therefore\\)\\(EF=AB=40{ \\rm{ m } }\\)，\n答：需要在高速路旁修建隔音屏障的长度是40米．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "source": {
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-B5A16BD59E/single/q19-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          13,
+          178.31,
+          582.2,
+          683.96
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-B5A16BD59E/single/s19-p21.webp",
+      "assets/SZ-G9-T2-B5A16BD59E/single/s19-p22.webp",
+      "assets/SZ-G9-T2-B5A16BD59E/single/s19-p23.webp",
+      "assets/SZ-G9-T2-B5A16BD59E/single/s19-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          13,
+          458.44,
+          582.2,
+          770.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          748.78
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          13,
+          74.87,
+          582.2,
+          770.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          13,
+          77.04,
+          582.2,
+          606.17
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,202 @@
+{
+  "id": "SZ-G9-T2-78734EC310-Q21",
+  "paper_id": "SZ-G9-T2-78734EC310",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由仰俯角建立测高测距模型",
+  "stem": "【问题背景】\n小明在某公园游玩时，对一口“喊泉”产生了兴趣，当人们在泉边喊叫时，泉口便会涌起泉水，声音越大，涌起的泉水越高，涌至最高点所需的时间也越长．\n【高度测算】\n小明借助测角仪测算泉水的高度．如图1，在A点测泉口B的俯角为15°；当第一次大喊时，泉水从泉口B竖直向上涌至最高点C，在A点测C点的仰角为75°．已知测角仪直立于地面，其高\\(AD\\)为1.5米．\n〔图1〕\n任务1  求第一次大喊时泉水所能达到的高度\\(BC\\)的值．（仅结果保留整数）（参考数据：\\(sin75{}^\\circ \\approx 0.97\\)，\\(cos75{}^\\circ \\approx 0.26\\)，\\(tan75{}^\\circ \\approx 3.7\\)）\n【初建模型】\n泉水边设有一个响度显示屏，在第一次大喊时显示数据为66分贝，而泉水高度h（\\({ \\rm{ m } }\\)）与响度x（分贝）之间恰好满足正比例函数关系．\n任务2  根据任务1的结果和以上数据，得到h关于x的函数关系式为______．\n【数据分析】\n为探究响度与泉水涌至最高点所需时间的关系，小明通过多次实验，记录数据如下表：\n时间t（秒） | 0 | 1.5 | 1.75 | 2 | 2.25 | 2.5\n响度x（分贝） | 0 | 36 | 49 | 64 | 81 | 100\n任务3  为了更直观地体现响度x与时间t之间的关系，请在图2中用描点法画出大致图象，并选取适当的数据，建立x关于t的函数关系式．\n〔图2〕\n【推理计算】\n据“喊泉”介绍显示，泉水最高可达50米．\n任务4  试根据以上活动结论，求该泉水从泉口喷射至50米所需要的时间．",
+  "choices": [],
+  "figures": [
+    "assets/figures/b5/b5ea051e276d5f9109ac96036dc0faa84ed1e69d01cc3e508c3608455d3231e7.png",
+    "assets/figures/8e/8e0370eac43bd1d40c1aa820cddd62a0a3f4e03a419769d2c9a176154f510155.png"
+  ],
+  "tables": [
+    {
+      "text": "时间t（秒） | 0 | 1.5 | 1.75 | 2 | 2.25 | 2.5\n响度x（分贝） | 0 | 36 | 49 | 64 | 81 | 100",
+      "rows": [
+        [
+          [
+            "时间t（秒）"
+          ],
+          [
+            "0"
+          ],
+          [
+            "1.5"
+          ],
+          [
+            "1.75"
+          ],
+          [
+            "2"
+          ],
+          [
+            "2.25"
+          ],
+          [
+            "2.5"
+          ]
+        ],
+        [
+          [
+            "响度x（分贝）"
+          ],
+          [
+            "0"
+          ],
+          [
+            "36"
+          ],
+          [
+            "49"
+          ],
+          [
+            "64"
+          ],
+          [
+            "81"
+          ],
+          [
+            "100"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "任务1：\\(BC=22\\)米；任务2：\\(h=\\frac { 1 } { 3 }x\\)；任务3：\\(x=16t ^ { 2 }\\)；任务4：\\(\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（秒）",
+  "answer": "任务1：\\(BC=22\\)米；任务2：\\(h=\\frac { 1 } { 3 }x\\)；任务3：\\(x=16t ^ { 2 }\\)；任务4：\\(\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（秒）",
+  "given_solution": "【分析】任务1：过点A作\\(AE\\bot BC\\)于点E，在\\(Rt\\vartriangle AEC\\)中进行求解；\n任务2：设\\(h=kx\\)，把\\(x=66\\)，\\(h=22\\)代入得\\(k=\\frac { 1 } { 3 }\\)，即可求解；\n任务3：设\\(x=at ^ { 2 } +bt\\)，把\\(t=1.5\\)，\\(x=36\\)；\\(t=2\\)，\\(x=64\\)代入得\\(x=at ^ { 2 } +bt\\)，求解即可；\n任务4：\\(h=\\frac { 1 } { 3 }x=\\frac { 16 } { 3 }t ^ { 2 }\\)，当\\(h=50\\)时，\\(\\frac { 16 } { 3 }t ^ { 2 } =50\\)，求解即可解得．\n【详解】解：任务1  高度测算\n法一：如图1，过点A作\\(AE\\bot BC\\)于点E，由题意得，\\(\\angle BAE=15{}^\\circ\\)，\\(\\angle CAE=75{}^\\circ\\)，\n∴\\(\\angle CAB=90{}^\\circ\\)，\\(\\angle C=15{}^\\circ\\)，\\(\\angle ABC=75{}^\\circ\\)，\n∵\\(AD=BE=1.5\\)，∴\\(AE=BE\\cdot tan\\angle ABC=1.5\\times tan75{}^\\circ \\approx 5.55\\)，\n∴\\(CE=AE\\cdot tan\\angle CAE\\approx 5.55\\times tan75{}^\\circ \\approx 20.54\\)，\n∴\\(BC=CE+BE\\approx 20.54+1.5\\approx 22\\left ( { { \\rm{ m } } } \\right )\\)．\n法二：如图1，过点A作\\(AE\\bot BC\\)于点E，\n由题意得，\\(\\angle BAE=15{}^\\circ\\)，\\(\\angle CAE=75{}^\\circ\\)，\n∴\\(\\angle CAB=90{}^\\circ\\)，\\(\\angle C=15{}^\\circ\\)，\\(\\angle ABC=75{}^\\circ\\)，\n∵\\(AD=BE=1.5\\)，∴\\(AB=\\frac { BE } { cos\\angle ABC }=\\frac { 1.5 } { cos75 }\\approx 5.77\\)，\n∴\\(BC=\\frac { AB } { cos\\angle ABC }=\\frac { 5.77 } { cos75 }\\approx 22\\)．\n〔图3〕\n任务2  初建模型\n设\\(h=kx\\)，把\\(x=66\\)，\\(h=22\\)代入得\\(k=\\frac { 1 } { 3 }\\)，\n∴\\(h=\\frac { 1 } { 3 }x\\)．\n任务3  数据分析\n如图2，由图象可知，x与t大致满足二次函数关系\n设\\(x=at ^ { 2 } +bt\\)，把\\(t=1.5\\)，\\(x=36\\)；\\(t=2\\)，\\(x=64\\)代入得\n\\(\\begin{cases} 2.25a+1.5b=36 \\\\ 4a+2b=64 \\end{cases}\\)，解得\\(\\begin{cases} a=16 \\\\ b=0 \\end{cases}\\)，\n经检验，表中其他数据均满足\\(x=16t ^ { 2 }\\)，\n∴\\(x=16t ^ { 2 }\\)．\n〔图4〕\n任务4  推理计算\n法一：\\(h=\\frac { 1 } { 3 }x=\\frac { 16 } { 3 }t ^ { 2 }\\)，当\\(h=50\\)时，\\(\\frac { 16 } { 3 }t ^ { 2 } =50\\)，解得\\(t_{ 1 } =\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)，\\(t_{ 2 } =-\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（舍）\n法二：当\\(h=50\\)时，\\(\\frac { 1 } { 3 }x=50\\)，解得\\(x=150\\)，\n当\\(x=150\\)时，\\(16t ^ { 2 } =150\\)，解得\\(t_{ 1 } =\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)，\\(t_{ 2 } =-\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（舍）．\n【点睛】本题考查了解直角三角形，一次函数，二次函数，二次函数的应用，解题的关键是利用待定系数法求解出函数解析式．",
+  "given_solution_figures": [
+    "assets/figures/b5/b5ea051e276d5f9109ac96036dc0faa84ed1e69d01cc3e508c3608455d3231e7.png",
+    "assets/figures/8e/8e0370eac43bd1d40c1aa820cddd62a0a3f4e03a419769d2c9a176154f510155.png",
+    "assets/figures/08/08ab5c9dfa2e4cbbc38795cc6c11bd77e3526aa6e520d8596981bb06c37ac90f.png",
+    "assets/figures/e7/e7418281a4d507cb0519c78095f6ba9f59b9747eaca5637a8b99bed37b7c28a5.png"
+  ],
+  "solution": "解：任务1  高度测算\n法一：如图1，过点A作\\(AE\\bot BC\\)于点E，由题意得，\\(\\angle BAE=15{}^\\circ\\)，\\(\\angle CAE=75{}^\\circ\\)，\n∴\\(\\angle CAB=90{}^\\circ\\)，\\(\\angle C=15{}^\\circ\\)，\\(\\angle ABC=75{}^\\circ\\)，\n∵\\(AD=BE=1.5\\)，∴\\(AE=BE\\cdot tan\\angle ABC=1.5\\times tan75{}^\\circ \\approx 5.55\\)，\n∴\\(CE=AE\\cdot tan\\angle CAE\\approx 5.55\\times tan75{}^\\circ \\approx 20.54\\)，\n∴\\(BC=CE+BE\\approx 20.54+1.5\\approx 22\\left ( { { \\rm{ m } } } \\right )\\)．\n法二：如图1，过点A作\\(AE\\bot BC\\)于点E，\n由题意得，\\(\\angle BAE=15{}^\\circ\\)，\\(\\angle CAE=75{}^\\circ\\)，\n∴\\(\\angle CAB=90{}^\\circ\\)，\\(\\angle C=15{}^\\circ\\)，\\(\\angle ABC=75{}^\\circ\\)，\n∵\\(AD=BE=1.5\\)，∴\\(AB=\\frac { BE } { cos\\angle ABC }=\\frac { 1.5 } { cos75 }\\approx 5.77\\)，\n∴\\(BC=\\frac { AB } { cos\\angle ABC }=\\frac { 5.77 } { cos75 }\\approx 22\\)．\n〔图3〕\n任务2  初建模型\n设\\(h=kx\\)，把\\(x=66\\)，\\(h=22\\)代入得\\(k=\\frac { 1 } { 3 }\\)，\n∴\\(h=\\frac { 1 } { 3 }x\\)．\n任务3  数据分析\n如图2，由图象可知，x与t大致满足二次函数关系\n设\\(x=at ^ { 2 } +bt\\)，把\\(t=1.5\\)，\\(x=36\\)；\\(t=2\\)，\\(x=64\\)代入得\n\\(\\begin{cases} 2.25a+1.5b=36 \\\\ 4a+2b=64 \\end{cases}\\)，解得\\(\\begin{cases} a=16 \\\\ b=0 \\end{cases}\\)，\n经检验，表中其他数据均满足\\(x=16t ^ { 2 }\\)，\n∴\\(x=16t ^ { 2 }\\)．\n〔图4〕\n任务4  推理计算\n法一：\\(h=\\frac { 1 } { 3 }x=\\frac { 16 } { 3 }t ^ { 2 }\\)，当\\(h=50\\)时，\\(\\frac { 16 } { 3 }t ^ { 2 } =50\\)，解得\\(t_{ 1 } =\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)，\\(t_{ 2 } =-\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（舍）\n法二：当\\(h=50\\)时，\\(\\frac { 1 } { 3 }x=50\\)，解得\\(x=150\\)，\n当\\(x=150\\)时，\\(16t ^ { 2 } =150\\)，解得\\(t_{ 1 } =\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)，\\(t_{ 2 } =-\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（舍）．",
+  "solution_steps": [
+    "解：任务1  高度测算",
+    "法一：如图1，过点A作\\(AE\\bot BC\\)于点E，由题意得，\\(\\angle BAE=15{}^\\circ\\)，\\(\\angle CAE=75{}^\\circ\\)，",
+    "∴\\(\\angle CAB=90{}^\\circ\\)，\\(\\angle C=15{}^\\circ\\)，\\(\\angle ABC=75{}^\\circ\\)，",
+    "∵\\(AD=BE=1.5\\)，∴\\(AE=BE\\cdot tan\\angle ABC=1.5\\times tan75{}^\\circ \\approx 5.55\\)，",
+    "∴\\(CE=AE\\cdot tan\\angle CAE\\approx 5.55\\times tan75{}^\\circ \\approx 20.54\\)，",
+    "∴\\(BC=CE+BE\\approx 20.54+1.5\\approx 22\\left ( { { \\rm{ m } } } \\right )\\)．",
+    "法二：如图1，过点A作\\(AE\\bot BC\\)于点E，",
+    "由题意得，\\(\\angle BAE=15{}^\\circ\\)，\\(\\angle CAE=75{}^\\circ\\)，",
+    "∴\\(\\angle CAB=90{}^\\circ\\)，\\(\\angle C=15{}^\\circ\\)，\\(\\angle ABC=75{}^\\circ\\)，",
+    "∵\\(AD=BE=1.5\\)，∴\\(AB=\\frac { BE } { cos\\angle ABC }=\\frac { 1.5 } { cos75 }\\approx 5.77\\)，",
+    "∴\\(BC=\\frac { AB } { cos\\angle ABC }=\\frac { 5.77 } { cos75 }\\approx 22\\)．",
+    "〔图3〕",
+    "任务2  初建模型",
+    "设\\(h=kx\\)，把\\(x=66\\)，\\(h=22\\)代入得\\(k=\\frac { 1 } { 3 }\\)，",
+    "∴\\(h=\\frac { 1 } { 3 }x\\)．",
+    "任务3  数据分析",
+    "如图2，由图象可知，x与t大致满足二次函数关系",
+    "设\\(x=at ^ { 2 } +bt\\)，把\\(t=1.5\\)，\\(x=36\\)；\\(t=2\\)，\\(x=64\\)代入得",
+    "\\(\\begin{cases} 2.25a+1.5b=36 \\\\ 4a+2b=64 \\end{cases}\\)，解得\\(\\begin{cases} a=16 \\\\ b=0 \\end{cases}\\)，",
+    "经检验，表中其他数据均满足\\(x=16t ^ { 2 }\\)，",
+    "∴\\(x=16t ^ { 2 }\\)．",
+    "〔图4〕",
+    "任务4  推理计算",
+    "法一：\\(h=\\frac { 1 } { 3 }x=\\frac { 16 } { 3 }t ^ { 2 }\\)，当\\(h=50\\)时，\\(\\frac { 16 } { 3 }t ^ { 2 } =50\\)，解得\\(t_{ 1 } =\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)，\\(t_{ 2 } =-\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（舍）",
+    "法二：当\\(h=50\\)时，\\(\\frac { 1 } { 3 }x=50\\)，解得\\(x=150\\)，",
+    "当\\(x=150\\)时，\\(16t ^ { 2 } =150\\)，解得\\(t_{ 1 } =\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)，\\(t_{ 2 } =-\\frac { 5 } { 4 }\\sqrt[] { 6 }\\)（舍）．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      78
+    ],
+    "solution_body_blocks": [
+      347,
+      396
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-78734EC310/paper-q21-p05.webp",
+      "assets/SZ-G9-T2-78734EC310/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          690.45
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          314.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-78734EC310/solution-q21-p18.webp",
+      "assets/SZ-G9-T2-78734EC310/solution-q21-p19.webp",
+      "assets/SZ-G9-T2-78734EC310/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          547.27,
+          583.64,
+          760.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          685.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          376.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G10.03"
+  ],
+  "exam_ids": [
+    "E.G10.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由仰俯角建立测高测距模型”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,477 @@
+{
+  "id": "SZ-G9-T1-8DEC87828C-Q22",
+  "paper_id": "SZ-G9-T1-8DEC87828C",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "在平面直角坐标系\\(xOy\\)中，四边形\\(OADC\\)为正方形，点\\(D\\)的坐标为\\((6,6)\\)，动点\\(E\\)沿边\\(OA\\)从\\(O\\)向\\(A\\)以每秒\\(1\\,{ \\rm{ c } }{ \\rm{ m } }\\)的速度运动至\\(A\\)，同时动点\\(F\\)沿边\\(CO\\)从\\(C\\)向\\(O\\)以同样的速度运动，当其中一个点停止时，另一个也停止运动，设运动时间为\\(t\\)秒，连接\\(AF、DE\\)交于点\\(G\\)．\n〔图1〕\n（1）如图①，线段\\(AF\\)和\\(DE\\)有什么数量关系_____；有什么位置关系_____；\n（2）当\\(t=\\)_____秒时线段\\(EF\\)最小，最小值为_____；\n（3）如图②，\\(E\\)为\\(AO\\)中点，除了点\\(E\\)，坐标轴上是否存在点\\(P\\)，使\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，若存在，直接写出\\(P\\)点的坐标_____；\n（4）如图②，\\(E\\)为\\(AO\\)中点，点\\(M\\)是直线\\(EC\\)上一点，点\\(N\\)是平面内任意一点，当四边形\\(OCMN\\)为菱形时，请直接写出点\\(N\\)的坐标______．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-8DEC87828C/figures/efa3abf65b634d0a3092cf561462d65b0a0752e4aa0cf6a5d6640696e5d52f78.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AF=DE\\)，\\(AF\\bot DE\\)\n（2）3，\\(3\\sqrt[] { 2 }\\)\n（3）\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)\n（4）\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+  "answer": "（1）\\(AF=DE\\)，\\(AF\\bot DE\\)\n（2）3，\\(3\\sqrt[] { 2 }\\)\n（3）\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)\n（4）\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+  "given_solution": "【分析】（1）根据已知利用\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)判定\\(\\vartriangle AOF≌\\vartriangle DAE\\)，由全等三角形的性质可得到\\(AF=DE\\)，\\(\\angle ADE=\\angle FAO\\)，再根据\\(\\angle FAO+\\angle AED=90{}^\\circ\\)得到\\(\\angle AGE=90{}^\\circ\\)即可得到\\(AF\\bot DE\\)；\n（2）连接\\(EF\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EOF\\)中，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { t ^ { 2 } +(6-t) ^ { 2 } }=\\sqrt[] { 2(t-3) ^ { 2 } +18 }\\)，由二次函数性质即可得答案；\n（3）分\\(P\\)在\\(x\\)轴、\\(y\\)轴画出图形，即可得答案；\n（4）过\\(N\\)作\\(NH\\bot x\\)轴于\\(H\\)，画出图形，由\\(\\vartriangle NHO\\backsim \\vartriangle EOC\\)，可得\\(NH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\\(OH=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)，即可得答案．\n【小问1详解】\n解： \\(\\because\\)四边形\\(OADC\\)是正方形，点\\(D\\)的坐标为\\((6,6)\\)，\n\\(\\therefore OA=AD=CD=OC=6\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，\n由题意得：\\(OE=CF\\)，\n\\(\\therefore AE=OF\\)，\n\\(\\therefore \\vartriangle AOF≌\\vartriangle DAE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AF=DE\\)，\\(\\angle ADE=\\angle FAO\\)，\n∵\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，\n∴\\(\\angle FAO+\\angle AED=90{}^\\circ\\)，\n∴\\(\\angle AGE=90{}^\\circ\\)，\n即\\(AF\\bot DE\\)，\n故答案为：\\(AE=OF\\)，\\(AF\\bot DE\\)；\n【小问2详解】\n解：连接\\(EF\\)，如图：\n〔图2〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EOF\\)中，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }\\)，\n\\(\\because OE=CF=t\\)，\n∴\\(OF=OC-CF=6-t\\)\n\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { t ^ { 2 } +(6-t) ^ { 2 } }=\\sqrt[] { 2(t-3) ^ { 2 } +18 }\\)，\n\\(\\therefore t=3\\)时，\\(EF\\)最小为\\(\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)，\n故答案为：3，\\(3\\sqrt[] { 2 }\\)；\n【小问3详解】\n解：如图：\n〔图3〕\n\\(\\because E\\)为\\(AO\\)中点，\n\\(\\therefore AE=\\frac { 1 } { 2 }AO=3\\)，\n\\(\\therefore S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AE\\cdot OC=9\\)，\n当\\(P\\)在\\(x\\)轴上时，\\(S_{ \\vartriangle ACP } =\\frac { 1 } { 2 }CP\\cdot OA=9\\)，即\\(\\frac { 1 } { 2 }\\times CP\\times 6=9\\)，\n\\(\\therefore CP=3\\)，\n∵\\(C(6,0)\\)，\n\\(\\therefore P_{ 1 } (3,0)\\)，\\(P_{ 2 } (9,0)\\)，\n当\\(P\\)在\\(y\\)轴上时，\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，只需\\(AE=AP=3\\)，\n\\(\\therefore P_{ 3 } (0,9)\\)，\n综上所述，\\(P\\)的坐标为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)，\n故答案为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)．\n【小问4详解】\n解：过\\(N\\)作\\(NH\\bot x\\)轴于\\(H\\)，如图：\n〔图4〕\n\\(\\because E\\)为\\(AO\\)中点，\n\\(\\therefore OE=\\frac { 1 } { 2 }AO=3\\)，\n∴\\(CE=\\sqrt[] { OE ^ { 2 } +OC ^ { 2 } }=3\\sqrt[] { 5 }\\)，\n\\(\\because\\)四边形\\(OCMN\\)为菱形，\n\\(\\therefore OC=CM=MN=NO=6\\)，\\(MN\\parallel OC\\)，\\(ON\\parallel CM\\)，\n\\(\\therefore \\angle NOH=\\angle ECO\\)，\n而\\(\\angle NHO=\\angle EOC=90{}^\\circ\\)，\n∴\\(\\vartriangle NHO\\backsim \\vartriangle EOC\\)，\n\\(\\therefore\\)\\(\\frac { NH } { OE }=\\frac { OH } { OC }=\\frac { NO } { CE }\\)，\n∴\\(\\frac { NH } { 3 }=\\frac { OH } { 6 }=\\frac { 6 } { 3\\sqrt[] { 5 } }\\)，\n\\(\\therefore NH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\\(OH=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore N\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n由对称性可知\\(N'\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n故答案为：\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)．\n【点睛】本题考查四边形综合应用，涉及全等三角形判定与性质，相似三角形判定与性质，菱形、矩形的性质等，解题的关键是分类画出图形，数形结合解决问题．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-8DEC87828C/figures/efa3abf65b634d0a3092cf561462d65b0a0752e4aa0cf6a5d6640696e5d52f78.png",
+    "assets/SZ-G9-T1-8DEC87828C/figures/ae54c1b6611dab4530e68882fed2be201365803e7e8238827cd238830f237f29.png",
+    "assets/SZ-G9-T1-8DEC87828C/figures/13fb0b8229a485d10073b4334d445e887dc981feb84ddd5528c1dd679054de0f.png",
+    "assets/SZ-G9-T1-8DEC87828C/figures/ce1af6b9ee06886e6be1ecf6d6e3f170cf442dea1fad7fc15a0fc9e09fc51550.png"
+  ],
+  "solution": "【小问1详解】\n解： \\(\\because\\)四边形\\(OADC\\)是正方形，点\\(D\\)的坐标为\\((6,6)\\)，\n\\(\\therefore OA=AD=CD=OC=6\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，\n由题意得：\\(OE=CF\\)，\n\\(\\therefore AE=OF\\)，\n\\(\\therefore \\vartriangle AOF≌\\vartriangle DAE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AF=DE\\)，\\(\\angle ADE=\\angle FAO\\)，\n∵\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，\n∴\\(\\angle FAO+\\angle AED=90{}^\\circ\\)，\n∴\\(\\angle AGE=90{}^\\circ\\)，\n即\\(AF\\bot DE\\)，\n故答案为：\\(AE=OF\\)，\\(AF\\bot DE\\)；\n【小问2详解】\n解：连接\\(EF\\)，如图：\n〔图2〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EOF\\)中，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }\\)，\n\\(\\because OE=CF=t\\)，\n∴\\(OF=OC-CF=6-t\\)\n\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { t ^ { 2 } +(6-t) ^ { 2 } }=\\sqrt[] { 2(t-3) ^ { 2 } +18 }\\)，\n\\(\\therefore t=3\\)时，\\(EF\\)最小为\\(\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)，\n故答案为：3，\\(3\\sqrt[] { 2 }\\)；\n【小问3详解】\n解：如图：\n〔图3〕\n\\(\\because E\\)为\\(AO\\)中点，\n\\(\\therefore AE=\\frac { 1 } { 2 }AO=3\\)，\n\\(\\therefore S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AE\\cdot OC=9\\)，\n当\\(P\\)在\\(x\\)轴上时，\\(S_{ \\vartriangle ACP } =\\frac { 1 } { 2 }CP\\cdot OA=9\\)，即\\(\\frac { 1 } { 2 }\\times CP\\times 6=9\\)，\n\\(\\therefore CP=3\\)，\n∵\\(C(6,0)\\)，\n\\(\\therefore P_{ 1 } (3,0)\\)，\\(P_{ 2 } (9,0)\\)，\n当\\(P\\)在\\(y\\)轴上时，\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，只需\\(AE=AP=3\\)，\n\\(\\therefore P_{ 3 } (0,9)\\)，\n综上所述，\\(P\\)的坐标为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)，\n故答案为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)．\n【小问4详解】\n解：过\\(N\\)作\\(NH\\bot x\\)轴于\\(H\\)，如图：\n〔图4〕\n\\(\\because E\\)为\\(AO\\)中点，\n\\(\\therefore OE=\\frac { 1 } { 2 }AO=3\\)，\n∴\\(CE=\\sqrt[] { OE ^ { 2 } +OC ^ { 2 } }=3\\sqrt[] { 5 }\\)，\n\\(\\because\\)四边形\\(OCMN\\)为菱形，\n\\(\\therefore OC=CM=MN=NO=6\\)，\\(MN\\parallel OC\\)，\\(ON\\parallel CM\\)，\n\\(\\therefore \\angle NOH=\\angle ECO\\)，\n而\\(\\angle NHO=\\angle EOC=90{}^\\circ\\)，\n∴\\(\\vartriangle NHO\\backsim \\vartriangle EOC\\)，\n\\(\\therefore\\)\\(\\frac { NH } { OE }=\\frac { OH } { OC }=\\frac { NO } { CE }\\)，\n∴\\(\\frac { NH } { 3 }=\\frac { OH } { 6 }=\\frac { 6 } { 3\\sqrt[] { 5 } }\\)，\n\\(\\therefore NH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\\(OH=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore N\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n由对称性可知\\(N'\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n故答案为：\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解： \\(\\because\\)四边形\\(OADC\\)是正方形，点\\(D\\)的坐标为\\((6,6)\\)，",
+    "\\(\\therefore OA=AD=CD=OC=6\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，",
+    "由题意得：\\(OE=CF\\)，",
+    "\\(\\therefore AE=OF\\)，",
+    "\\(\\therefore \\vartriangle AOF≌\\vartriangle DAE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore AF=DE\\)，\\(\\angle ADE=\\angle FAO\\)，",
+    "∵\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，",
+    "∴\\(\\angle FAO+\\angle AED=90{}^\\circ\\)，",
+    "∴\\(\\angle AGE=90{}^\\circ\\)，",
+    "即\\(AF\\bot DE\\)，",
+    "故答案为：\\(AE=OF\\)，\\(AF\\bot DE\\)；",
+    "【小问2详解】",
+    "解：连接\\(EF\\)，如图：",
+    "〔图2〕",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EOF\\)中，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }\\)，",
+    "\\(\\because OE=CF=t\\)，",
+    "∴\\(OF=OC-CF=6-t\\)",
+    "\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { t ^ { 2 } +(6-t) ^ { 2 } }=\\sqrt[] { 2(t-3) ^ { 2 } +18 }\\)，",
+    "\\(\\therefore t=3\\)时，\\(EF\\)最小为\\(\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)，",
+    "故答案为：3，\\(3\\sqrt[] { 2 }\\)；",
+    "【小问3详解】",
+    "解：如图：",
+    "〔图3〕",
+    "\\(\\because E\\)为\\(AO\\)中点，",
+    "\\(\\therefore AE=\\frac { 1 } { 2 }AO=3\\)，",
+    "\\(\\therefore S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AE\\cdot OC=9\\)，",
+    "当\\(P\\)在\\(x\\)轴上时，\\(S_{ \\vartriangle ACP } =\\frac { 1 } { 2 }CP\\cdot OA=9\\)，即\\(\\frac { 1 } { 2 }\\times CP\\times 6=9\\)，",
+    "\\(\\therefore CP=3\\)，",
+    "∵\\(C(6,0)\\)，",
+    "\\(\\therefore P_{ 1 } (3,0)\\)，\\(P_{ 2 } (9,0)\\)，",
+    "当\\(P\\)在\\(y\\)轴上时，\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，只需\\(AE=AP=3\\)，",
+    "\\(\\therefore P_{ 3 } (0,9)\\)，",
+    "综上所述，\\(P\\)的坐标为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)，",
+    "故答案为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)．",
+    "【小问4详解】",
+    "解：过\\(N\\)作\\(NH\\bot x\\)轴于\\(H\\)，如图：",
+    "〔图4〕",
+    "\\(\\because E\\)为\\(AO\\)中点，",
+    "\\(\\therefore OE=\\frac { 1 } { 2 }AO=3\\)，",
+    "∴\\(CE=\\sqrt[] { OE ^ { 2 } +OC ^ { 2 } }=3\\sqrt[] { 5 }\\)，",
+    "\\(\\because\\)四边形\\(OCMN\\)为菱形，",
+    "\\(\\therefore OC=CM=MN=NO=6\\)，\\(MN\\parallel OC\\)，\\(ON\\parallel CM\\)，",
+    "\\(\\therefore \\angle NOH=\\angle ECO\\)，",
+    "而\\(\\angle NHO=\\angle EOC=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle NHO\\backsim \\vartriangle EOC\\)，",
+    "\\(\\therefore\\)\\(\\frac { NH } { OE }=\\frac { OH } { OC }=\\frac { NO } { CE }\\)，",
+    "∴\\(\\frac { NH } { 3 }=\\frac { OH } { 6 }=\\frac { 6 } { 3\\sqrt[] { 5 } }\\)，",
+    "\\(\\therefore NH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\\(OH=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\therefore N\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，",
+    "由对称性可知\\(N'\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，",
+    "故答案为：\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系\\(xOy\\)中，四边形\\(OADC\\)为正方形，点\\(D\\)的坐标为\\((6,6)\\)，动点\\(E\\)沿边\\(OA\\)从\\(O\\)向\\(A\\)以每秒\\(1\\,{ \\rm{ c } }{ \\rm{ m } }\\)的速度运动至\\(A\\)，同时动点\\(F\\)沿边\\(CO\\)从\\(C\\)向\\(O\\)以同样的速度运动，当其中一个点停止时，另一个也停止运动，设运动时间为\\(t\\)秒，连接\\(AF、DE\\)交于点\\(G\\)．\n〔图1〕",
+      "paper_blocks": [
+        70,
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-8DEC87828C-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图①，线段\\(AF\\)和\\(DE\\)有什么数量关系_____；有什么位置关系_____；",
+      "stem_text": "如图①，线段\\(AF\\)和\\(DE\\)有什么数量关系_____；有什么位置关系_____；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AF=DE\\)，\\(AF\\bot DE\\)",
+      "answer": "\\(AF=DE\\)，\\(AF\\bot DE\\)",
+      "given_solution": "解： \\(\\because\\)四边形\\(OADC\\)是正方形，点\\(D\\)的坐标为\\((6,6)\\)，\n\\(\\therefore OA=AD=CD=OC=6\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，\n由题意得：\\(OE=CF\\)，\n\\(\\therefore AE=OF\\)，\n\\(\\therefore \\vartriangle AOF≌\\vartriangle DAE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AF=DE\\)，\\(\\angle ADE=\\angle FAO\\)，\n∵\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，\n∴\\(\\angle FAO+\\angle AED=90{}^\\circ\\)，\n∴\\(\\angle AGE=90{}^\\circ\\)，\n即\\(AF\\bot DE\\)，\n故答案为：\\(AE=OF\\)，\\(AF\\bot DE\\)；",
+      "solution_steps": [
+        "解： \\(\\because\\)四边形\\(OADC\\)是正方形，点\\(D\\)的坐标为\\((6,6)\\)，",
+        "\\(\\therefore OA=AD=CD=OC=6\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，",
+        "由题意得：\\(OE=CF\\)，",
+        "\\(\\therefore AE=OF\\)，",
+        "\\(\\therefore \\vartriangle AOF≌\\vartriangle DAE({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore AF=DE\\)，\\(\\angle ADE=\\angle FAO\\)，",
+        "∵\\(\\angle ADE+\\angle AED=90{}^\\circ\\)，",
+        "∴\\(\\angle FAO+\\angle AED=90{}^\\circ\\)，",
+        "∴\\(\\angle AGE=90{}^\\circ\\)，",
+        "即\\(AF\\bot DE\\)，",
+        "故答案为：\\(AE=OF\\)，\\(AF\\bot DE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8DEC87828C-Q22-P02",
+      "label": "（2）",
+      "prompt": "当\\(t=\\)_____秒时线段\\(EF\\)最小，最小值为_____；",
+      "stem_text": "当\\(t=\\)_____秒时线段\\(EF\\)最小，最小值为_____；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "3，\\(3\\sqrt[] { 2 }\\)",
+      "answer": "3，\\(3\\sqrt[] { 2 }\\)",
+      "given_solution": "解：连接\\(EF\\)，如图：\n〔图2〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EOF\\)中，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }\\)，\n\\(\\because OE=CF=t\\)，\n∴\\(OF=OC-CF=6-t\\)\n\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { t ^ { 2 } +(6-t) ^ { 2 } }=\\sqrt[] { 2(t-3) ^ { 2 } +18 }\\)，\n\\(\\therefore t=3\\)时，\\(EF\\)最小为\\(\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)，\n故答案为：3，\\(3\\sqrt[] { 2 }\\)；",
+      "solution_steps": [
+        "解：连接\\(EF\\)，如图：",
+        "〔图2〕",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EOF\\)中，\\(EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }\\)，",
+        "\\(\\because OE=CF=t\\)，",
+        "∴\\(OF=OC-CF=6-t\\)",
+        "\\(\\therefore EF=\\sqrt[] { OE ^ { 2 } +OF ^ { 2 } }=\\sqrt[] { t ^ { 2 } +(6-t) ^ { 2 } }=\\sqrt[] { 2(t-3) ^ { 2 } +18 }\\)，",
+        "\\(\\therefore t=3\\)时，\\(EF\\)最小为\\(\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)，",
+        "故答案为：3，\\(3\\sqrt[] { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8DEC87828C-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图②，\\(E\\)为\\(AO\\)中点，除了点\\(E\\)，坐标轴上是否存在点\\(P\\)，使\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，若存在，直接写出\\(P\\)点的坐标_____；",
+      "stem_text": "如图②，\\(E\\)为\\(AO\\)中点，除了点\\(E\\)，坐标轴上是否存在点\\(P\\)，使\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，若存在，直接写出\\(P\\)点的坐标_____；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)",
+      "answer": "\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)",
+      "given_solution": "解：如图：\n〔图3〕\n\\(\\because E\\)为\\(AO\\)中点，\n\\(\\therefore AE=\\frac { 1 } { 2 }AO=3\\)，\n\\(\\therefore S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AE\\cdot OC=9\\)，\n当\\(P\\)在\\(x\\)轴上时，\\(S_{ \\vartriangle ACP } =\\frac { 1 } { 2 }CP\\cdot OA=9\\)，即\\(\\frac { 1 } { 2 }\\times CP\\times 6=9\\)，\n\\(\\therefore CP=3\\)，\n∵\\(C(6,0)\\)，\n\\(\\therefore P_{ 1 } (3,0)\\)，\\(P_{ 2 } (9,0)\\)，\n当\\(P\\)在\\(y\\)轴上时，\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，只需\\(AE=AP=3\\)，\n\\(\\therefore P_{ 3 } (0,9)\\)，\n综上所述，\\(P\\)的坐标为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)，\n故答案为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)．",
+      "solution_steps": [
+        "解：如图：",
+        "〔图3〕",
+        "\\(\\because E\\)为\\(AO\\)中点，",
+        "\\(\\therefore AE=\\frac { 1 } { 2 }AO=3\\)，",
+        "\\(\\therefore S_{ \\vartriangle ACE } =\\frac { 1 } { 2 }AE\\cdot OC=9\\)，",
+        "当\\(P\\)在\\(x\\)轴上时，\\(S_{ \\vartriangle ACP } =\\frac { 1 } { 2 }CP\\cdot OA=9\\)，即\\(\\frac { 1 } { 2 }\\times CP\\times 6=9\\)，",
+        "\\(\\therefore CP=3\\)，",
+        "∵\\(C(6,0)\\)，",
+        "\\(\\therefore P_{ 1 } (3,0)\\)，\\(P_{ 2 } (9,0)\\)，",
+        "当\\(P\\)在\\(y\\)轴上时，\\(S_{ \\vartriangle ACP } =S_{ \\vartriangle ACE }\\)，只需\\(AE=AP=3\\)，",
+        "\\(\\therefore P_{ 3 } (0,9)\\)，",
+        "综上所述，\\(P\\)的坐标为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)，",
+        "故答案为：\\((3,0)\\)或\\((9,0)\\)或\\((0,9)\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          74
+        ],
+        "solution_block_ids": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "在坐标轴上分情况把指定面积换为对顶点坐标的约束。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-8DEC87828C-Q22-P04",
+      "label": "（4）",
+      "prompt": "如图②，\\(E\\)为\\(AO\\)中点，点\\(M\\)是直线\\(EC\\)上一点，点\\(N\\)是平面内任意一点，当四边形\\(OCMN\\)为菱形时，请直接写出点\\(N\\)的坐标______．",
+      "stem_text": "如图②，\\(E\\)为\\(AO\\)中点，点\\(M\\)是直线\\(EC\\)上一点，点\\(N\\)是平面内任意一点，当四边形\\(OCMN\\)为菱形时，请直接写出点\\(N\\)的坐标______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+      "answer": "\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+      "given_solution": "解：过\\(N\\)作\\(NH\\bot x\\)轴于\\(H\\)，如图：\n〔图4〕\n\\(\\because E\\)为\\(AO\\)中点，\n\\(\\therefore OE=\\frac { 1 } { 2 }AO=3\\)，\n∴\\(CE=\\sqrt[] { OE ^ { 2 } +OC ^ { 2 } }=3\\sqrt[] { 5 }\\)，\n\\(\\because\\)四边形\\(OCMN\\)为菱形，\n\\(\\therefore OC=CM=MN=NO=6\\)，\\(MN\\parallel OC\\)，\\(ON\\parallel CM\\)，\n\\(\\therefore \\angle NOH=\\angle ECO\\)，\n而\\(\\angle NHO=\\angle EOC=90{}^\\circ\\)，\n∴\\(\\vartriangle NHO\\backsim \\vartriangle EOC\\)，\n\\(\\therefore\\)\\(\\frac { NH } { OE }=\\frac { OH } { OC }=\\frac { NO } { CE }\\)，\n∴\\(\\frac { NH } { 3 }=\\frac { OH } { 6 }=\\frac { 6 } { 3\\sqrt[] { 5 } }\\)，\n\\(\\therefore NH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\\(OH=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore N\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n由对称性可知\\(N'\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n故答案为：\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)．",
+      "solution_steps": [
+        "解：过\\(N\\)作\\(NH\\bot x\\)轴于\\(H\\)，如图：",
+        "〔图4〕",
+        "\\(\\because E\\)为\\(AO\\)中点，",
+        "\\(\\therefore OE=\\frac { 1 } { 2 }AO=3\\)，",
+        "∴\\(CE=\\sqrt[] { OE ^ { 2 } +OC ^ { 2 } }=3\\sqrt[] { 5 }\\)，",
+        "\\(\\because\\)四边形\\(OCMN\\)为菱形，",
+        "\\(\\therefore OC=CM=MN=NO=6\\)，\\(MN\\parallel OC\\)，\\(ON\\parallel CM\\)，",
+        "\\(\\therefore \\angle NOH=\\angle ECO\\)，",
+        "而\\(\\angle NHO=\\angle EOC=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle NHO\\backsim \\vartriangle EOC\\)，",
+        "\\(\\therefore\\)\\(\\frac { NH } { OE }=\\frac { OH } { OC }=\\frac { NO } { CE }\\)，",
+        "∴\\(\\frac { NH } { 3 }=\\frac { OH } { 6 }=\\frac { 6 } { 3\\sqrt[] { 5 } }\\)，",
+        "\\(\\therefore NH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\\(OH=\\frac { 12\\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\therefore N\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，",
+        "由对称性可知\\(N'\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)，",
+        "故答案为：\\(\\left ( { -\\frac { 12\\sqrt[] { 5 } } { 5 },\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 12\\sqrt[] { 5 } } { 5 },-\\frac { 6\\sqrt[] { 5 } } { 5 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          75
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      75
+    ],
+    "solution_body_blocks": [
+      363,
+      430
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-8DEC87828C/paper-q22-p04.webp",
+      "assets/SZ-G9-T1-8DEC87828C/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          747.73,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          354.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-8DEC87828C/solution-q22-p18.webp",
+      "assets/SZ-G9-T1-8DEC87828C/solution-q22-p19.webp",
+      "assets/SZ-G9-T1-8DEC87828C/solution-q22-p20.webp",
+      "assets/SZ-G9-T1-8DEC87828C/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          97.27,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          764.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01",
+    "E.G09.03.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 在坐标轴上分情况把指定面积换为对顶点坐标的约束。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

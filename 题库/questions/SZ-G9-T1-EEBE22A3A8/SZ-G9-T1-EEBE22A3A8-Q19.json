@@ -1,0 +1,108 @@
+{
+  "id": "SZ-G9-T1-EEBE22A3A8-Q19",
+  "paper_id": "SZ-G9-T1-EEBE22A3A8",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "用相似模型解决测高测距",
+  "stem": "拜寺口双塔，分为东西两塔，位于宁夏回族自治区银川市贺兰县拜寺口内，是保存最为完整的西夏佛塔，已有近1000年历史，是中国佛塔建筑史上不可多得的艺术珍品．某数学兴趣小组决定采用我国古代数学家赵爽利用影子对物体进行测量的原理，来测量东塔的高度．东塔的高度为\\(AB\\)，选取与塔底\\(B\\)在同一水平地面上的\\(E\\)、\\(G\\)两点，分别垂直地面竖立两根高为\\(1.5{ \\rm{ m } }\\)的标杆\\(EF\\)和\\(GH\\)，两标杆间隔\\(EG\\)为\\(46{ \\rm{ m } }\\)，并且东塔\\(AB\\)、标杆\\(EF\\)和\\(GH\\)在同一竖直平面内．从标杆\\(EF\\)后退\\(2{ \\rm{ m } }\\)到\\(D\\)处（即\\(ED=2{ \\rm{ m } }\\)），从\\(D\\)处观察\\(A\\)点，\\(A\\)、\\(F\\)、\\(D\\)在一直线上；从标杆\\(GH\\)后退\\(4{ \\rm{ m } }\\)到\\(C\\)处（即\\(CG=4{ \\rm{ m } }\\)），从\\(C\\)处观察A点，A、\\(H\\)、\\(C\\)三点也在一直线上，且\\(B\\)、\\(E\\)、\\(D\\)、\\(G\\)、\\(C\\)在同一直线上，请你根据以上测量数据，帮助兴趣小组求出东塔\\(AB\\)的高度．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-EEBE22A3A8/figures/11a9ad48264ad0040e49672f8b70e70401a7527915106544cd23eb6ac2510be5.png"
+  ],
+  "tables": [],
+  "given_answer": "36m",
+  "answer": "36m",
+  "given_solution": "【分析】设\\(BD=x{ \\rm{ m } }\\)，则\\(BC=\\left ( { x+48 } \\right ){ \\rm{ m } }\\)，通过证明\\(\\vartriangle ABD\\backsim \\vartriangle FED\\)，得到\\(\\frac { EF } { AB }=\\frac { DE } { BD }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 2 } { x }\\)，同理得到\\(\\frac { 1.5 } { AB }=\\frac { 4 } { x+48 }\\)，则可建立方程\\(\\frac { 2 } { x }=\\frac { 4 } { x+48 }\\)，解方程即可得到答案．\n【详解】解：设\\(BD=x{ \\rm{ m } }\\)，则\\(BC=BD+DG+CG=\\left ( { x+48 } \\right ){ \\rm{ m } }\\)\n∵\\(AB\\bot BC\\)，\\(EF\\bot BC\\)，\n∴\\(AB\\parallel EF\\)，\n∴\\(\\vartriangle ABD\\backsim \\vartriangle FED\\)，\n∴\\(\\frac { EF } { AB }=\\frac { DE } { BD }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 2 } { x }\\)，\n同理可证\\(\\vartriangle ABC\\backsim \\vartriangle HGC\\)，\n∴\\(\\frac { GH } { AB }=\\frac { CG } { BC }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 4 } { x+48 }\\)，\n∴\\(\\frac { 2 } { x }=\\frac { 4 } { x+48 }\\)，\n解得\\(x=48\\)，\n经检验，\\(x=48\\)是原方程的解，\n∴\\(\\frac { 1.5 } { AB }=\\frac { 2 } { 48 }\\)，\n∴\\(AB=36\\)，\n∴该古建筑\\(AB\\)的高度为36m．\n【点睛】本题主要考查了相似三角形的应用，利用相似三角形的性质建立方程是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-EEBE22A3A8/figures/11a9ad48264ad0040e49672f8b70e70401a7527915106544cd23eb6ac2510be5.png"
+  ],
+  "solution": "解：设\\(BD=x{ \\rm{ m } }\\)，则\\(BC=BD+DG+CG=\\left ( { x+48 } \\right ){ \\rm{ m } }\\)\n∵\\(AB\\bot BC\\)，\\(EF\\bot BC\\)，\n∴\\(AB\\parallel EF\\)，\n∴\\(\\vartriangle ABD\\backsim \\vartriangle FED\\)，\n∴\\(\\frac { EF } { AB }=\\frac { DE } { BD }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 2 } { x }\\)，\n同理可证\\(\\vartriangle ABC\\backsim \\vartriangle HGC\\)，\n∴\\(\\frac { GH } { AB }=\\frac { CG } { BC }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 4 } { x+48 }\\)，\n∴\\(\\frac { 2 } { x }=\\frac { 4 } { x+48 }\\)，\n解得\\(x=48\\)，\n经检验，\\(x=48\\)是原方程的解，\n∴\\(\\frac { 1.5 } { AB }=\\frac { 2 } { 48 }\\)，\n∴\\(AB=36\\)，\n∴该古建筑\\(AB\\)的高度为36m．",
+  "solution_steps": [
+    "解：设\\(BD=x{ \\rm{ m } }\\)，则\\(BC=BD+DG+CG=\\left ( { x+48 } \\right ){ \\rm{ m } }\\)",
+    "∵\\(AB\\bot BC\\)，\\(EF\\bot BC\\)，",
+    "∴\\(AB\\parallel EF\\)，",
+    "∴\\(\\vartriangle ABD\\backsim \\vartriangle FED\\)，",
+    "∴\\(\\frac { EF } { AB }=\\frac { DE } { BD }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 2 } { x }\\)，",
+    "同理可证\\(\\vartriangle ABC\\backsim \\vartriangle HGC\\)，",
+    "∴\\(\\frac { GH } { AB }=\\frac { CG } { BC }\\)，即\\(\\frac { 1.5 } { AB }=\\frac { 4 } { x+48 }\\)，",
+    "∴\\(\\frac { 2 } { x }=\\frac { 4 } { x+48 }\\)，",
+    "解得\\(x=48\\)，",
+    "经检验，\\(x=48\\)是原方程的解，",
+    "∴\\(\\frac { 1.5 } { AB }=\\frac { 2 } { 48 }\\)，",
+    "∴\\(AB=36\\)，",
+    "∴该古建筑\\(AB\\)的高度为36m．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      51,
+      52
+    ],
+    "solution_body_blocks": [
+      272,
+      290
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-EEBE22A3A8/paper-q19-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          284.55,
+          583.64,
+          573.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-EEBE22A3A8/solution-q19-p15.webp",
+      "assets/SZ-G9-T1-EEBE22A3A8/solution-q19-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          646.36,
+          583.64,
+          727.27
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.04"
+  ],
+  "exam_ids": [
+    "E.G08.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“用相似模型解决测高测距”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

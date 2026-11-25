@@ -1,0 +1,439 @@
+{
+  "id": "SZ-G9-T2-3E29C3112B-Q21",
+  "paper_id": "SZ-G9-T2-3E29C3112B",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "应用等腰三角形性质求边角、构造全等关系证明线段或角关系",
+  "stem": "在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ ,AC=BC\\)，点\\(D\\)是直线\\(AB\\)上的一动点（不与点\\(A,B\\)重合），连接\\(CD\\)，在\\(CD\\)的右侧以\\(CD\\)为斜边作等腰直角三角形\\(CDE\\)，点\\(H\\)是\\(BD\\)的中点，连接\\(EH\\)．\n〔图1〕\n【问题发现】（1）如图（1），当点\\(D\\)是\\(AB\\)的中点时，线段\\(EH\\)与\\(AD\\)的数量关系是_________，位置关系是__________．\n【猜想证明】（2）如图（2），当点\\(D\\)在边\\(AB\\)上且不是\\(AB\\)的中点时，（1）中的结论是否仍然成立？若成立，请仅就图（2）中的情况给出证明；若不成立，请说明理由．\n【拓展应用】（3）若\\(AC=BC=2\\sqrt[] { 2 }\\)，其他条件不变，连接\\(AE\\)，\\(BE\\)．当\\(\\vartriangle BCE\\)是等边三角形时，直接写出\\(\\vartriangle ADE\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/figures/4e/4e6ac62710ce5a46d48703b6ea6cde94684f94d9ca326a6d6eb2e0114f577e4f.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\bot AD\\)（2）结论仍然成立，见详解（3）\\(4-2\\sqrt[] { 3 }\\)或\\(4+2\\sqrt[] { 3 }\\)",
+  "answer": "（1）\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\bot AD\\)（2）结论仍然成立，见详解（3）\\(4-2\\sqrt[] { 3 }\\)或\\(4+2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）由题意知\\(AD=CD=BD\\)，\\(\\angle CDB=90{}^\\circ\\)，\\(\\vartriangle BCD\\)是等腰直角三角形，由\\(\\vartriangle CDE\\)是等腰直角三角形可知\\(E\\)为\\(BC\\)中点，进而可知\\(EH\\)是\\(\\vartriangle BCD\\)的中位线，根据中位线的性质证明即可；\n（2）如图2，延长\\(DE\\)到\\(F\\)，使\\(EF=DE\\)，连接\\(CF\\)，\\(BF\\)证明\\(\\vartriangle ACD≌\\vartriangle BCF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，可得\\(AD=BF\\)，\\(\\angle A=\\angle CBF\\)，证明\\(BF\\bot AB\\)，可得\\(EH=\\frac { 1 } { 2 }BF\\)，\\(EH\\parallel BF\\)．\n（3）分两种情况求解：①如图3，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为\\(M\\)，由题意知\\(AB=\\sqrt[] { 2 }AC=4\\)，\\(CM=AM=\\frac { 1 } { 2 }AB=2\\)，\\(\\angle EAB=\\angle CEB=\\angle CBE\\)，\\(\\angle EBD=\\angle EDB\\)，\\(\\angle CDM=30{}^\\circ\\)，由 \\(MD=\\sqrt[] { 3 }CM\\)，\\(AD=AM+MD\\)由（2）知\\(EH=\\frac { 1 } { 2 }AD\\)，求解\\(AD,EH\\)的值，进而由\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH\\)计算求解即可； ②如图4，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为M，\\(HN\\bot BC\\)，垂足为N，\\(CE\\)与\\(AB\\)的交点为\\(O\\)，由题意知\\(\\angle EAB=\\angle CEB=\\angle CBE\\)，\\(\\angle CON=30{}^\\circ\\)，\\(\\angle BON=45{}^\\circ\\)，可得\\(HN=\\sqrt[] { 3 }CN=BN\\)，根据\\(CN+BN=2\\sqrt[] { 2 }\\)，求\\(CN,BN\\)的值，进而得到\\(CO,BO,EO,\\)的值，由\\(EH\\parallel CM\\)证明\\(\\vartriangle EHO\\backsim \\vartriangle CMO\\)，有\\(\\frac { EH } { CM }=\\frac { EO } { CO }\\)，求解\\(EH\\)的值，由（2）知\\(AD=2EH\\)求出\\(AD\\)的值，根据\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH\\)计算求解即可．\n【详解】解：（1）∵点D是\\(AB\\)的中点\n∴\\(AD=CD=BD\\)，\\(\\angle CDB=90{}^\\circ\\)\n∴\\(\\vartriangle BCD\\)是等腰直角三角形\n∵\\(\\vartriangle CDE\\)是等腰直角三角形\n∴\\(E\\)为\\(BC\\)中点\n∵点H是\\(BD\\)的中点\n∴\\(EH\\)是\\(\\vartriangle BCD\\)的中位线\n∴\\(EH=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }AD，EH\\parallel CD\\)\n∴\\(EH\\bot AD\\)\n（2）结论仍然成立． 理由如下：\n如图2，延长\\(DE\\)到\\(F\\)，使\\(EF=DE\\)，连接\\(CF\\)，\\(BF\\)．\n〔图2〕\n\\(\\because DE=EF\\)，\\(CE\\bot DF\\)，\\(\\angle CDE=45{}^\\circ\\)，\n\\(\\therefore CD=CF\\)，\n\\(\\therefore \\angle CDF=\\angle CFD=45{}^\\circ\\)，\n\\(\\therefore \\angle ECF=\\angle ECD=45{}^\\circ\\)，\n\\(\\therefore \\angle ACB=\\angle DCF=90{}^\\circ\\)，\n\\(\\therefore \\angle ACD=\\angle BCF\\)，\n\\(\\because CA=CB\\)，\n\\(\\therefore \\vartriangle ACD≌\\vartriangle BCF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AD=BF\\)，\\(\\angle A=\\angle CBF=45{}^\\circ\\)，\n\\(\\because \\angle ABC=45{}^\\circ\\)，\n\\(\\therefore \\angle ABF=90{}^\\circ\\)，\n\\(\\therefore BF\\bot AB\\)，\n\\(\\because DE=EF\\)，\\(DH=HB\\)，\n\\(\\therefore EH=\\frac { 1 } { 2 }BF\\)，\\(EH\\parallel BF\\)，\n\\(\\therefore EH\\bot AD\\)，\\(EH=\\frac { 1 } { 2 }AD\\)．\n（3）分两种情况求解：\n①如图3，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为\\(M\\)\n〔图3〕\n由题意知\\(AB=\\sqrt[] { 2 }AC=4\\)，\\(CM=AM=\\frac { 1 } { 2 }AB=2\\)，\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)，\n∴\\(\\angle EBD=180{}^\\circ -45{}^\\circ -60{}^\\circ =75{}^\\circ\\)\n∴\\(\\angle EDB=75{}^\\circ\\)，\\(\\angle CDM=75{}^\\circ -45{}^\\circ =30{}^\\circ\\)\n∴\\(MD=\\sqrt[] { 3 }CM=2\\sqrt[] { 3 }\\)\n∴\\(AD=AM+MD=2\\sqrt[] { 3 }+2\\)\n由（2）知\\(EH=\\frac { 1 } { 2 }AD=\\sqrt[] { 3 }+1\\)\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }+2 } \\right )\\times \\left ( { \\sqrt[] { 3 }+1 } \\right )\\)\\(=4+2\\sqrt[] { 3 }\\)\n②如图4，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为M，\\(HN\\bot BC\\)，垂足为N，\\(CE\\)与\\(AB\\)的交点为\\(O\\)，\n〔图4〕\n由题意知\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)\n∴\\(\\angle CON=30{}^\\circ\\)，\\(\\angle BON=45{}^\\circ\\)\n∴\\(HN=\\sqrt[] { 3 }CN=BN\\)\n∵\\(CN+BN=2\\sqrt[] { 2 }\\)\n∴\\(CN=\\sqrt[] { 6 }-\\sqrt[] { 2 }\\)，\\(BN=3\\sqrt[] { 2 }-\\sqrt[] { 6 }\\)\n∴\\(CO=2\\sqrt[] { 6 }-2\\sqrt[] { 2 }\\)，\\(BO=6-2\\sqrt[] { 3 }\\)\n∴\\(EO=CE-CO=4\\sqrt[] { 2 }-2\\sqrt[] { 6 }\\)\n∵\\(EH\\parallel CM\\)，\n∴\\(\\vartriangle EHO\\backsim \\vartriangle CMO\\)\n∴\\(\\frac { EH } { CM }=\\frac { EO } { CO }\\)，\n∴\\(\\frac { EH } { 2 }=\\frac { 4\\sqrt[] { 2 }-2\\sqrt[] { 6 } } { 2\\sqrt[] { 6 }-2\\sqrt[] { 2 } }\\)，\n解得\\(EH=\\sqrt[] { 3 }-1\\)，\n由（2）知\\(AD=2EH=2\\sqrt[] { 3 }-2\\)，\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }-2 } \\right )\\times \\left ( { \\sqrt[] { 3 }-1 } \\right )\\)\\(=4-2\\sqrt[] { 3 }\\)；\n综上所述，\\(\\vartriangle ADE\\)的面积为\\(4+2\\sqrt[] { 3 }\\)或\\(4-2\\sqrt[] { 3 }\\)．\n【点睛】本题考查了中位线，等腰直角三角形的性质，三角形相似的判定与性质，等边三角形的性质等知识．解题的关键在于对知识的灵活运用．",
+  "given_solution_figures": [
+    "assets/figures/4e/4e6ac62710ce5a46d48703b6ea6cde94684f94d9ca326a6d6eb2e0114f577e4f.png",
+    "assets/figures/13/1398055af930d9ab13bd6599856cfac677e8544222c634740d6c3822661570d0.png",
+    "assets/figures/f9/f9e0b913ff505b6fe4c564e976cdc54e9dc8cf3c09b1a4f798bbe16ea38fb10e.png",
+    "assets/figures/8b/8b898364d5a3c18330b8189d17c955ccc29dbf73678b60c45fe64f53ca2cedb3.png"
+  ],
+  "solution": "解：（1）∵点D是\\(AB\\)的中点\n∴\\(AD=CD=BD\\)，\\(\\angle CDB=90{}^\\circ\\)\n∴\\(\\vartriangle BCD\\)是等腰直角三角形\n∵\\(\\vartriangle CDE\\)是等腰直角三角形\n∴\\(E\\)为\\(BC\\)中点\n∵点H是\\(BD\\)的中点\n∴\\(EH\\)是\\(\\vartriangle BCD\\)的中位线\n∴\\(EH=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }AD，EH\\parallel CD\\)\n∴\\(EH\\bot AD\\)\n（2）结论仍然成立． 理由如下：\n如图2，延长\\(DE\\)到\\(F\\)，使\\(EF=DE\\)，连接\\(CF\\)，\\(BF\\)．\n〔图2〕\n\\(\\because DE=EF\\)，\\(CE\\bot DF\\)，\\(\\angle CDE=45{}^\\circ\\)，\n\\(\\therefore CD=CF\\)，\n\\(\\therefore \\angle CDF=\\angle CFD=45{}^\\circ\\)，\n\\(\\therefore \\angle ECF=\\angle ECD=45{}^\\circ\\)，\n\\(\\therefore \\angle ACB=\\angle DCF=90{}^\\circ\\)，\n\\(\\therefore \\angle ACD=\\angle BCF\\)，\n\\(\\because CA=CB\\)，\n\\(\\therefore \\vartriangle ACD≌\\vartriangle BCF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AD=BF\\)，\\(\\angle A=\\angle CBF=45{}^\\circ\\)，\n\\(\\because \\angle ABC=45{}^\\circ\\)，\n\\(\\therefore \\angle ABF=90{}^\\circ\\)，\n\\(\\therefore BF\\bot AB\\)，\n\\(\\because DE=EF\\)，\\(DH=HB\\)，\n\\(\\therefore EH=\\frac { 1 } { 2 }BF\\)，\\(EH\\parallel BF\\)，\n\\(\\therefore EH\\bot AD\\)，\\(EH=\\frac { 1 } { 2 }AD\\)．\n（3）分两种情况求解：\n①如图3，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为\\(M\\)\n〔图3〕\n由题意知\\(AB=\\sqrt[] { 2 }AC=4\\)，\\(CM=AM=\\frac { 1 } { 2 }AB=2\\)，\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)，\n∴\\(\\angle EBD=180{}^\\circ -45{}^\\circ -60{}^\\circ =75{}^\\circ\\)\n∴\\(\\angle EDB=75{}^\\circ\\)，\\(\\angle CDM=75{}^\\circ -45{}^\\circ =30{}^\\circ\\)\n∴\\(MD=\\sqrt[] { 3 }CM=2\\sqrt[] { 3 }\\)\n∴\\(AD=AM+MD=2\\sqrt[] { 3 }+2\\)\n由（2）知\\(EH=\\frac { 1 } { 2 }AD=\\sqrt[] { 3 }+1\\)\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }+2 } \\right )\\times \\left ( { \\sqrt[] { 3 }+1 } \\right )\\)\\(=4+2\\sqrt[] { 3 }\\)\n②如图4，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为M，\\(HN\\bot BC\\)，垂足为N，\\(CE\\)与\\(AB\\)的交点为\\(O\\)，\n〔图4〕\n由题意知\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)\n∴\\(\\angle CON=30{}^\\circ\\)，\\(\\angle BON=45{}^\\circ\\)\n∴\\(HN=\\sqrt[] { 3 }CN=BN\\)\n∵\\(CN+BN=2\\sqrt[] { 2 }\\)\n∴\\(CN=\\sqrt[] { 6 }-\\sqrt[] { 2 }\\)，\\(BN=3\\sqrt[] { 2 }-\\sqrt[] { 6 }\\)\n∴\\(CO=2\\sqrt[] { 6 }-2\\sqrt[] { 2 }\\)，\\(BO=6-2\\sqrt[] { 3 }\\)\n∴\\(EO=CE-CO=4\\sqrt[] { 2 }-2\\sqrt[] { 6 }\\)\n∵\\(EH\\parallel CM\\)，\n∴\\(\\vartriangle EHO\\backsim \\vartriangle CMO\\)\n∴\\(\\frac { EH } { CM }=\\frac { EO } { CO }\\)，\n∴\\(\\frac { EH } { 2 }=\\frac { 4\\sqrt[] { 2 }-2\\sqrt[] { 6 } } { 2\\sqrt[] { 6 }-2\\sqrt[] { 2 } }\\)，\n解得\\(EH=\\sqrt[] { 3 }-1\\)，\n由（2）知\\(AD=2EH=2\\sqrt[] { 3 }-2\\)，\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }-2 } \\right )\\times \\left ( { \\sqrt[] { 3 }-1 } \\right )\\)\\(=4-2\\sqrt[] { 3 }\\)；\n综上所述，\\(\\vartriangle ADE\\)的面积为\\(4+2\\sqrt[] { 3 }\\)或\\(4-2\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）∵点D是\\(AB\\)的中点",
+    "∴\\(AD=CD=BD\\)，\\(\\angle CDB=90{}^\\circ\\)",
+    "∴\\(\\vartriangle BCD\\)是等腰直角三角形",
+    "∵\\(\\vartriangle CDE\\)是等腰直角三角形",
+    "∴\\(E\\)为\\(BC\\)中点",
+    "∵点H是\\(BD\\)的中点",
+    "∴\\(EH\\)是\\(\\vartriangle BCD\\)的中位线",
+    "∴\\(EH=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }AD，EH\\parallel CD\\)",
+    "∴\\(EH\\bot AD\\)",
+    "（2）结论仍然成立． 理由如下：",
+    "如图2，延长\\(DE\\)到\\(F\\)，使\\(EF=DE\\)，连接\\(CF\\)，\\(BF\\)．",
+    "〔图2〕",
+    "\\(\\because DE=EF\\)，\\(CE\\bot DF\\)，\\(\\angle CDE=45{}^\\circ\\)，",
+    "\\(\\therefore CD=CF\\)，",
+    "\\(\\therefore \\angle CDF=\\angle CFD=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle ECF=\\angle ECD=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle ACB=\\angle DCF=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ACD=\\angle BCF\\)，",
+    "\\(\\because CA=CB\\)，",
+    "\\(\\therefore \\vartriangle ACD≌\\vartriangle BCF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+    "\\(\\therefore AD=BF\\)，\\(\\angle A=\\angle CBF=45{}^\\circ\\)，",
+    "\\(\\because \\angle ABC=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABF=90{}^\\circ\\)，",
+    "\\(\\therefore BF\\bot AB\\)，",
+    "\\(\\because DE=EF\\)，\\(DH=HB\\)，",
+    "\\(\\therefore EH=\\frac { 1 } { 2 }BF\\)，\\(EH\\parallel BF\\)，",
+    "\\(\\therefore EH\\bot AD\\)，\\(EH=\\frac { 1 } { 2 }AD\\)．",
+    "（3）分两种情况求解：",
+    "①如图3，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为\\(M\\)",
+    "〔图3〕",
+    "由题意知\\(AB=\\sqrt[] { 2 }AC=4\\)，\\(CM=AM=\\frac { 1 } { 2 }AB=2\\)，\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)，",
+    "∴\\(\\angle EBD=180{}^\\circ -45{}^\\circ -60{}^\\circ =75{}^\\circ\\)",
+    "∴\\(\\angle EDB=75{}^\\circ\\)，\\(\\angle CDM=75{}^\\circ -45{}^\\circ =30{}^\\circ\\)",
+    "∴\\(MD=\\sqrt[] { 3 }CM=2\\sqrt[] { 3 }\\)",
+    "∴\\(AD=AM+MD=2\\sqrt[] { 3 }+2\\)",
+    "由（2）知\\(EH=\\frac { 1 } { 2 }AD=\\sqrt[] { 3 }+1\\)",
+    "∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }+2 } \\right )\\times \\left ( { \\sqrt[] { 3 }+1 } \\right )\\)\\(=4+2\\sqrt[] { 3 }\\)",
+    "②如图4，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为M，\\(HN\\bot BC\\)，垂足为N，\\(CE\\)与\\(AB\\)的交点为\\(O\\)，",
+    "〔图4〕",
+    "由题意知\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)",
+    "∴\\(\\angle CON=30{}^\\circ\\)，\\(\\angle BON=45{}^\\circ\\)",
+    "∴\\(HN=\\sqrt[] { 3 }CN=BN\\)",
+    "∵\\(CN+BN=2\\sqrt[] { 2 }\\)",
+    "∴\\(CN=\\sqrt[] { 6 }-\\sqrt[] { 2 }\\)，\\(BN=3\\sqrt[] { 2 }-\\sqrt[] { 6 }\\)",
+    "∴\\(CO=2\\sqrt[] { 6 }-2\\sqrt[] { 2 }\\)，\\(BO=6-2\\sqrt[] { 3 }\\)",
+    "∴\\(EO=CE-CO=4\\sqrt[] { 2 }-2\\sqrt[] { 6 }\\)",
+    "∵\\(EH\\parallel CM\\)，",
+    "∴\\(\\vartriangle EHO\\backsim \\vartriangle CMO\\)",
+    "∴\\(\\frac { EH } { CM }=\\frac { EO } { CO }\\)，",
+    "∴\\(\\frac { EH } { 2 }=\\frac { 4\\sqrt[] { 2 }-2\\sqrt[] { 6 } } { 2\\sqrt[] { 6 }-2\\sqrt[] { 2 } }\\)，",
+    "解得\\(EH=\\sqrt[] { 3 }-1\\)，",
+    "由（2）知\\(AD=2EH=2\\sqrt[] { 3 }-2\\)，",
+    "∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }-2 } \\right )\\times \\left ( { \\sqrt[] { 3 }-1 } \\right )\\)\\(=4-2\\sqrt[] { 3 }\\)；",
+    "综上所述，\\(\\vartriangle ADE\\)的面积为\\(4+2\\sqrt[] { 3 }\\)或\\(4-2\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ ,AC=BC\\)，点\\(D\\)是直线\\(AB\\)上的一动点（不与点\\(A,B\\)重合），连接\\(CD\\)，在\\(CD\\)的右侧以\\(CD\\)为斜边作等腰直角三角形\\(CDE\\)，点\\(H\\)是\\(BD\\)的中点，连接\\(EH\\)．\n〔图1〕\n【问题发现】",
+      "paper_blocks": [
+        61,
+        62,
+        63
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-3E29C3112B-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图（1），当点\\(D\\)是\\(AB\\)的中点时，线段\\(EH\\)与\\(AD\\)的数量关系是_________，位置关系是__________．\n【猜想证明】",
+      "stem_text": "如图（1），当点\\(D\\)是\\(AB\\)的中点时，线段\\(EH\\)与\\(AD\\)的数量关系是_________，位置关系是__________．\n【猜想证明】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\bot AD\\)",
+      "answer": "\\(EH=\\frac { 1 } { 2 }AD\\)，\\(EH\\bot AD\\)",
+      "given_solution": "∵点D是\\(AB\\)的中点\n∴\\(AD=CD=BD\\)，\\(\\angle CDB=90{}^\\circ\\)\n∴\\(\\vartriangle BCD\\)是等腰直角三角形\n∵\\(\\vartriangle CDE\\)是等腰直角三角形\n∴\\(E\\)为\\(BC\\)中点\n∵点H是\\(BD\\)的中点\n∴\\(EH\\)是\\(\\vartriangle BCD\\)的中位线\n∴\\(EH=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }AD，EH\\parallel CD\\)\n∴\\(EH\\bot AD\\)",
+      "solution_steps": [
+        "∵点D是\\(AB\\)的中点",
+        "∴\\(AD=CD=BD\\)，\\(\\angle CDB=90{}^\\circ\\)",
+        "∴\\(\\vartriangle BCD\\)是等腰直角三角形",
+        "∵\\(\\vartriangle CDE\\)是等腰直角三角形",
+        "∴\\(E\\)为\\(BC\\)中点",
+        "∵点H是\\(BD\\)的中点",
+        "∴\\(EH\\)是\\(\\vartriangle BCD\\)的中位线",
+        "∴\\(EH=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }AD，EH\\parallel CD\\)",
+        "∴\\(EH\\bot AD\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-3E29C3112B-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图（2），当点\\(D\\)在边\\(AB\\)上且不是\\(AB\\)的中点时，（1）中的结论是否仍然成立？若成立，请仅就图（2）中的情况给出证明；若不成立，请说明理由．\n【拓展应用】",
+      "stem_text": "如图（2），当点\\(D\\)在边\\(AB\\)上且不是\\(AB\\)的中点时，（1）中的结论是否仍然成立？若成立，请仅就图（2）中的情况给出证明；若不成立，请说明理由．\n【拓展应用】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "结论仍然成立，见详解",
+      "answer": "结论仍然成立，见详解",
+      "given_solution": "结论仍然成立． 理由如下：\n如图2，延长\\(DE\\)到\\(F\\)，使\\(EF=DE\\)，连接\\(CF\\)，\\(BF\\)．\n〔图2〕\n\\(\\because DE=EF\\)，\\(CE\\bot DF\\)，\\(\\angle CDE=45{}^\\circ\\)，\n\\(\\therefore CD=CF\\)，\n\\(\\therefore \\angle CDF=\\angle CFD=45{}^\\circ\\)，\n\\(\\therefore \\angle ECF=\\angle ECD=45{}^\\circ\\)，\n\\(\\therefore \\angle ACB=\\angle DCF=90{}^\\circ\\)，\n\\(\\therefore \\angle ACD=\\angle BCF\\)，\n\\(\\because CA=CB\\)，\n\\(\\therefore \\vartriangle ACD≌\\vartriangle BCF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，\n\\(\\therefore AD=BF\\)，\\(\\angle A=\\angle CBF=45{}^\\circ\\)，\n\\(\\because \\angle ABC=45{}^\\circ\\)，\n\\(\\therefore \\angle ABF=90{}^\\circ\\)，\n\\(\\therefore BF\\bot AB\\)，\n\\(\\because DE=EF\\)，\\(DH=HB\\)，\n\\(\\therefore EH=\\frac { 1 } { 2 }BF\\)，\\(EH\\parallel BF\\)，\n\\(\\therefore EH\\bot AD\\)，\\(EH=\\frac { 1 } { 2 }AD\\)．",
+      "solution_steps": [
+        "结论仍然成立． 理由如下：",
+        "如图2，延长\\(DE\\)到\\(F\\)，使\\(EF=DE\\)，连接\\(CF\\)，\\(BF\\)．",
+        "〔图2〕",
+        "\\(\\because DE=EF\\)，\\(CE\\bot DF\\)，\\(\\angle CDE=45{}^\\circ\\)，",
+        "\\(\\therefore CD=CF\\)，",
+        "\\(\\therefore \\angle CDF=\\angle CFD=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle ECF=\\angle ECD=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle ACB=\\angle DCF=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ACD=\\angle BCF\\)，",
+        "\\(\\because CA=CB\\)，",
+        "\\(\\therefore \\vartriangle ACD≌\\vartriangle BCF({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } })\\)，",
+        "\\(\\therefore AD=BF\\)，\\(\\angle A=\\angle CBF=45{}^\\circ\\)，",
+        "\\(\\because \\angle ABC=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABF=90{}^\\circ\\)，",
+        "\\(\\therefore BF\\bot AB\\)，",
+        "\\(\\because DE=EF\\)，\\(DH=HB\\)，",
+        "\\(\\therefore EH=\\frac { 1 } { 2 }BF\\)，\\(EH\\parallel BF\\)，",
+        "\\(\\therefore EH\\bot AD\\)，\\(EH=\\frac { 1 } { 2 }AD\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-3E29C3112B-Q21-P03",
+      "label": "（3）",
+      "prompt": "若\\(AC=BC=2\\sqrt[] { 2 }\\)，其他条件不变，连接\\(AE\\)，\\(BE\\)．当\\(\\vartriangle BCE\\)是等边三角形时，直接写出\\(\\vartriangle ADE\\)的面积．",
+      "stem_text": "若\\(AC=BC=2\\sqrt[] { 2 }\\)，其他条件不变，连接\\(AE\\)，\\(BE\\)．当\\(\\vartriangle BCE\\)是等边三角形时，直接写出\\(\\vartriangle ADE\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4-2\\sqrt[] { 3 }\\)或\\(4+2\\sqrt[] { 3 }\\)",
+      "answer": "\\(4-2\\sqrt[] { 3 }\\)或\\(4+2\\sqrt[] { 3 }\\)",
+      "given_solution": "分两种情况求解：\n①如图3，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为\\(M\\)\n〔图3〕\n由题意知\\(AB=\\sqrt[] { 2 }AC=4\\)，\\(CM=AM=\\frac { 1 } { 2 }AB=2\\)，\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)，\n∴\\(\\angle EBD=180{}^\\circ -45{}^\\circ -60{}^\\circ =75{}^\\circ\\)\n∴\\(\\angle EDB=75{}^\\circ\\)，\\(\\angle CDM=75{}^\\circ -45{}^\\circ =30{}^\\circ\\)\n∴\\(MD=\\sqrt[] { 3 }CM=2\\sqrt[] { 3 }\\)\n∴\\(AD=AM+MD=2\\sqrt[] { 3 }+2\\)\n由（2）知\\(EH=\\frac { 1 } { 2 }AD=\\sqrt[] { 3 }+1\\)\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }+2 } \\right )\\times \\left ( { \\sqrt[] { 3 }+1 } \\right )\\)\\(=4+2\\sqrt[] { 3 }\\)\n②如图4，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为M，\\(HN\\bot BC\\)，垂足为N，\\(CE\\)与\\(AB\\)的交点为\\(O\\)，\n〔图4〕\n由题意知\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)\n∴\\(\\angle CON=30{}^\\circ\\)，\\(\\angle BON=45{}^\\circ\\)\n∴\\(HN=\\sqrt[] { 3 }CN=BN\\)\n∵\\(CN+BN=2\\sqrt[] { 2 }\\)\n∴\\(CN=\\sqrt[] { 6 }-\\sqrt[] { 2 }\\)，\\(BN=3\\sqrt[] { 2 }-\\sqrt[] { 6 }\\)\n∴\\(CO=2\\sqrt[] { 6 }-2\\sqrt[] { 2 }\\)，\\(BO=6-2\\sqrt[] { 3 }\\)\n∴\\(EO=CE-CO=4\\sqrt[] { 2 }-2\\sqrt[] { 6 }\\)\n∵\\(EH\\parallel CM\\)，\n∴\\(\\vartriangle EHO\\backsim \\vartriangle CMO\\)\n∴\\(\\frac { EH } { CM }=\\frac { EO } { CO }\\)，\n∴\\(\\frac { EH } { 2 }=\\frac { 4\\sqrt[] { 2 }-2\\sqrt[] { 6 } } { 2\\sqrt[] { 6 }-2\\sqrt[] { 2 } }\\)，\n解得\\(EH=\\sqrt[] { 3 }-1\\)，\n由（2）知\\(AD=2EH=2\\sqrt[] { 3 }-2\\)，\n∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }-2 } \\right )\\times \\left ( { \\sqrt[] { 3 }-1 } \\right )\\)\\(=4-2\\sqrt[] { 3 }\\)；\n综上所述，\\(\\vartriangle ADE\\)的面积为\\(4+2\\sqrt[] { 3 }\\)或\\(4-2\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "分两种情况求解：",
+        "①如图3，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为\\(M\\)",
+        "〔图3〕",
+        "由题意知\\(AB=\\sqrt[] { 2 }AC=4\\)，\\(CM=AM=\\frac { 1 } { 2 }AB=2\\)，\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)，",
+        "∴\\(\\angle EBD=180{}^\\circ -45{}^\\circ -60{}^\\circ =75{}^\\circ\\)",
+        "∴\\(\\angle EDB=75{}^\\circ\\)，\\(\\angle CDM=75{}^\\circ -45{}^\\circ =30{}^\\circ\\)",
+        "∴\\(MD=\\sqrt[] { 3 }CM=2\\sqrt[] { 3 }\\)",
+        "∴\\(AD=AM+MD=2\\sqrt[] { 3 }+2\\)",
+        "由（2）知\\(EH=\\frac { 1 } { 2 }AD=\\sqrt[] { 3 }+1\\)",
+        "∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }+2 } \\right )\\times \\left ( { \\sqrt[] { 3 }+1 } \\right )\\)\\(=4+2\\sqrt[] { 3 }\\)",
+        "②如图4，作\\(EH\\bot BD\\)，垂足为\\(H\\)，\\(CM\\bot AB\\)，垂足为M，\\(HN\\bot BC\\)，垂足为N，\\(CE\\)与\\(AB\\)的交点为\\(O\\)，",
+        "〔图4〕",
+        "由题意知\\(\\angle EAB=\\angle CEB=\\angle CBE=60{}^\\circ\\)",
+        "∴\\(\\angle CON=30{}^\\circ\\)，\\(\\angle BON=45{}^\\circ\\)",
+        "∴\\(HN=\\sqrt[] { 3 }CN=BN\\)",
+        "∵\\(CN+BN=2\\sqrt[] { 2 }\\)",
+        "∴\\(CN=\\sqrt[] { 6 }-\\sqrt[] { 2 }\\)，\\(BN=3\\sqrt[] { 2 }-\\sqrt[] { 6 }\\)",
+        "∴\\(CO=2\\sqrt[] { 6 }-2\\sqrt[] { 2 }\\)，\\(BO=6-2\\sqrt[] { 3 }\\)",
+        "∴\\(EO=CE-CO=4\\sqrt[] { 2 }-2\\sqrt[] { 6 }\\)",
+        "∵\\(EH\\parallel CM\\)，",
+        "∴\\(\\vartriangle EHO\\backsim \\vartriangle CMO\\)",
+        "∴\\(\\frac { EH } { CM }=\\frac { EO } { CO }\\)，",
+        "∴\\(\\frac { EH } { 2 }=\\frac { 4\\sqrt[] { 2 }-2\\sqrt[] { 6 } } { 2\\sqrt[] { 6 }-2\\sqrt[] { 2 } }\\)，",
+        "解得\\(EH=\\sqrt[] { 3 }-1\\)，",
+        "由（2）知\\(AD=2EH=2\\sqrt[] { 3 }-2\\)，",
+        "∴\\(S_{ \\vartriangle ADE } =\\frac { 1 } { 2 }\\times AD\\times EH=\\frac { 1 } { 2 }\\times \\left ( { 2\\sqrt[] { 3 }-2 } \\right )\\times \\left ( { \\sqrt[] { 3 }-1 } \\right )\\)\\(=4-2\\sqrt[] { 3 }\\)；",
+        "综上所述，\\(\\vartriangle ADE\\)的面积为\\(4+2\\sqrt[] { 3 }\\)或\\(4-2\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      65
+    ],
+    "solution_body_blocks": [
+      345,
+      409
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-3E29C3112B/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          484.09,
+          583.64,
+          768.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-3E29C3112B/solution-q21-p19.webp",
+      "assets/SZ-G9-T2-3E29C3112B/solution-q21-p20.webp",
+      "assets/SZ-G9-T2-3E29C3112B/solution-q21-p21.webp",
+      "assets/SZ-G9-T2-3E29C3112B/solution-q21-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          631.82,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          649.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G03.02",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G03.02.02",
+    "E.G01.05.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。 本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“利用平行线性质求角”。",
+  "tag_source": "小问标签汇总"
+}

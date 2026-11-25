@@ -1,0 +1,388 @@
+{
+  "id": "SZ-G9-T1-FD519A62EC-Q22",
+  "paper_id": "SZ-G9-T1-FD519A62EC",
+  "number": 22,
+  "type": "解答题",
+  "points": 10,
+  "title": "根据独立条件确定二次函数表达式、将面积条件转为点的位置约束",
+  "stem": "（10分）如图1，抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点（﹣1，0）与y轴交于点B（0，3），在线段OA上有一动点E（不与O、A重合），过点E作x轴的垂线交直线AB于点N，交抛物线于点P．\n（1）分别求出抛物线和直线AB的函数表达式；\n（2）连接PA、PB，求△PAB面积的最大值，并求出此时点P的坐标．\n（3）如图2，点E（2，0），将线段OE绕点O逆时针旋转的到OE′，旋转角为α（0°＜α＜90°），连接E′A、E′B，求E'A+〔图1〕E'B的最小值．\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-FD519A62EC/figures/d85af80e05e6e4bf68b856e846829ad5aa79217ffa4199b8831959d66e67dbc4.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/cdcf573a1e5855f14c56662906715f6dfb0fd741ebcd50f244baad6b9c152fe5.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（10分）如图1，抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点（﹣1，0）与y轴交于点B（0，3），在线段OA上有一动点E（不与O、A重合），过点E作x轴的垂线交直线AB于点N，交抛物线于点P．",
+      "paper_blocks": [
+        67
+      ]
+    },
+    {
+      "id": "fig-71",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-FD519A62EC-Q22-P01",
+      "label": "（1）",
+      "prompt": "分别求出抛物线和直线AB的函数表达式；",
+      "stem_text": "分别求出抛物线和直线AB的函数表达式；",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "∴直线AB解析式为y＝﹣〔图9〕x+3",
+      "answer": "∴直线AB解析式为y＝﹣〔图9〕x+3",
+      "given_solution": "∵抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点C（﹣1，0）与y轴交于点B（0，3），\n则有〔图7〕，解得〔图8〕，\n∴抛物线y＝﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3，\n令y＝0，得到﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3＝0，\n解得：x＝4或﹣1，\n∴A（4，0），B（0，3），\n设直线AB解析式为y＝kx+b，则〔图11〕，解得〔图12〕，\n∴直线AB解析式为y＝﹣〔图9〕x+3；",
+      "solution_steps": [
+        "∵抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点C（﹣1，0）与y轴交于点B（0，3），",
+        "则有〔图7〕，解得〔图8〕，",
+        "∴抛物线y＝﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3，",
+        "令y＝0，得到﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3＝0，",
+        "解得：x＝4或﹣1，",
+        "∴A（4，0），B（0，3），",
+        "设直线AB解析式为y＝kx+b，则〔图11〕，解得〔图12〕，",
+        "∴直线AB解析式为y＝﹣〔图9〕x+3；"
+      ],
+      "solution_figure_ids": [
+        9,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          27
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-FD519A62EC-Q22-P02",
+      "label": "（2）",
+      "prompt": "连接PA、PB，求△PAB面积的最大值，并求出此时点P的坐标．",
+      "stem_text": "连接PA、PB，求△PAB面积的最大值，并求出此时点P的坐标．",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）",
+      "answer": "∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）",
+      "given_solution": "如图1中，设P（x，﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3），则点N（x，﹣〔图9〕x+3），\n则设△PAB面积为S，\n则S＝S\\({}_{△}\\)\\({}_{PNA}\\)+S\\({}_{△}\\)\\({}_{PNB}\\)＝〔图13〕×PN×OA＝〔图13〕×4×（﹣〔图14〕x\\({}^{2}\\)+〔图15〕x+3+〔图14〕x﹣3）＝﹣〔图16〕x\\({}^{2}\\)+6x，\n∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）；",
+      "solution_steps": [
+        "如图1中，设P（x，﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3），则点N（x，﹣〔图9〕x+3），",
+        "则设△PAB面积为S，",
+        "则S＝S\\({}_{△}\\)\\({}_{PNA}\\)+S\\({}_{△}\\)\\({}_{PNB}\\)＝〔图13〕×PN×OA＝〔图13〕×4×（﹣〔图14〕x\\({}^{2}\\)+〔图15〕x+3+〔图14〕x﹣3）＝﹣〔图16〕x\\({}^{2}\\)+6x，",
+        "∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）；"
+      ],
+      "solution_figure_ids": [
+        17,
+        9,
+        10,
+        13,
+        14,
+        15,
+        16
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          69,
+          71
+        ],
+        "solution_block_ids": [
+          462,
+          463,
+          464,
+          465
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          27,
+          28
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-FD519A62EC-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图2，点E（2，0），将线段OE绕点O逆时针旋转的到OE′，旋转角为α（0°＜α＜90°），连接E′A、E′B，求E'A+〔图1〕E'B的最小值．",
+      "stem_text": "如图2，点E（2，0），将线段OE绕点O逆时针旋转的到OE′，旋转角为α（0°＜α＜90°），连接E′A、E′B，求E'A+〔图1〕E'B的最小值．",
+      "material_ids": [
+        "context",
+        "fig-71"
+      ],
+      "requires": [],
+      "given_answer": "最小值＝AM′＝〔图23〕＝〔图24〕",
+      "answer": "最小值＝AM′＝〔图23〕＝〔图24〕",
+      "given_solution": "如图2中，在y轴上取一点M′使得OM′＝〔图18〕，连接AM′，在AM′上取一点E′使得OE′＝OE．\n〔图19〕\n∵OE′＝2，OM′•OB＝〔图18〕×3＝4，\n∴OE′\\({}^{2}\\)＝OM′•OB，\n∴〔图20〕，\n∵∠BOE′＝∠M′OE′，\n∴△M′OE′∽△E′OB，\n∴〔图21〕，\n∴M′E′＝〔图22〕BE′，\n∴AE′+〔图22〕BE′＝AE′+E′M′＝AM′，此时AE′+〔图22〕BE′最小（两点间线段最短，A、M′、E′共线时），\n最小值＝AM′＝〔图23〕＝〔图24〕．",
+      "solution_steps": [
+        "如图2中，在y轴上取一点M′使得OM′＝〔图18〕，连接AM′，在AM′上取一点E′使得OE′＝OE．",
+        "〔图19〕",
+        "∵OE′＝2，OM′•OB＝〔图18〕×3＝4，",
+        "∴OE′\\({}^{2}\\)＝OM′•OB，",
+        "∴〔图20〕，",
+        "∵∠BOE′＝∠M′OE′，",
+        "∴△M′OE′∽△E′OB，",
+        "∴〔图21〕，",
+        "∴M′E′＝〔图22〕BE′，",
+        "∴AE′+〔图22〕BE′＝AE′+E′M′＝AM′，此时AE′+〔图22〕BE′最小（两点间线段最短，A、M′、E′共线时），",
+        "最小值＝AM′＝〔图23〕＝〔图24〕．"
+      ],
+      "solution_figure_ids": [
+        23,
+        24,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          28
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】（1）用待定系数法即可求解；\n（2）由S＝S\\({}_{△}\\)\\({}_{PNA}\\)+S\\({}_{△}\\)\\({}_{PNB}\\)＝〔图1〕×PN×OA＝〔图1〕×4×（﹣〔图2〕x\\({}^{2}\\)+〔图3〕x+3+〔图2〕x﹣3）＝﹣〔图4〕x\\({}^{2}\\)+6x，即可求解；\n（3）在y轴上 取一点M使得OM′＝〔图5〕，构造相似三角形，可以证明AM′就是E′A+〔图6〕E′B的最小值．\n【解答】解：（1）∵抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点C（﹣1，0）与y轴交于点B（0，3），\n则有〔图7〕，解得〔图8〕，\n∴抛物线y＝﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3，\n令y＝0，得到﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3＝0，\n解得：x＝4或﹣1，\n∴A（4，0），B（0，3），\n设直线AB解析式为y＝kx+b，则〔图11〕，解得〔图12〕，\n∴直线AB解析式为y＝﹣〔图9〕x+3；\n（2）如图1中，设P（x，﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3），则点N（x，﹣〔图9〕x+3），\n则设△PAB面积为S，\n则S＝S\\({}_{△}\\)\\({}_{PNA}\\)+S\\({}_{△}\\)\\({}_{PNB}\\)＝〔图13〕×PN×OA＝〔图13〕×4×（﹣〔图14〕x\\({}^{2}\\)+〔图15〕x+3+〔图14〕x﹣3）＝﹣〔图16〕x\\({}^{2}\\)+6x，\n∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）；\n（3）如图2中，在y轴上取一点M′使得OM′＝〔图18〕，连接AM′，在AM′上取一点E′使得OE′＝OE．\n〔图19〕\n∵OE′＝2，OM′•OB＝〔图18〕×3＝4，\n∴OE′\\({}^{2}\\)＝OM′•OB，\n∴〔图20〕，\n∵∠BOE′＝∠M′OE′，\n∴△M′OE′∽△E′OB，\n∴〔图21〕，\n∴M′E′＝〔图22〕BE′，\n∴AE′+〔图22〕BE′＝AE′+E′M′＝AM′，此时AE′+〔图22〕BE′最小（两点间线段最短，A、M′、E′共线时），\n最小值＝AM′＝〔图23〕＝〔图24〕．\n【点评】本题属于二次函数综合题，考查相似三角形的判定和性质、待定系数法、最小值问题等知识，解题的关键是构造相似三角形，找到线段AM′就是E′A+〔图22〕E′B的最小值，属于中考压轴题．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-FD519A62EC/figures/4fa7894ebf33c5d9b6ac350d52f817d512d0038cbae1711e6f57d0eb085425af.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/df0f85ca361d5053830e584c0c64d019b5b7db5af8420c6c96099bc012cc90aa.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/3822998218e33e2f8c84deb0c842743d66043cfd6204200b2ee29855d12f780a.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/05aa505b93ef999be5ae0e440589a645085ea9b80cad1cf15840495cdc8e3cba.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/33e8a5f0ee46b8fe91890b7cbb8bef82e8880373be550af05e9fc1bb34bca50c.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/8053d01b49a34131d54a370ddffd9bd1fe64d5964f9f344b150ae04cb188a110.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/4b62ba56d823622a7d5fd391d43c2123c437923e48cbca3b8ada4867b5222859.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/b2629439b0e90737765e89c648dff8866a4047727d375192093af2c1f331ea4b.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/4f6c88a962cea8cb871bd9cf09028c2a931e9e8eac761782dc72c261b2ab6ae5.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/4a553bce41dace46766a98ffd6605c1f584895623d5d86a5f4cc864fa251d033.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/4d5e12e7c61ddcb689b158a0a319a0da90d7715ff199942bbb874d180215571c.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/c600d4cf1a2d5343a22c1955011f24e23ace8306c6f382cfe28d4ef7a35ec32b.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/529703fc3dcb79d7b7c4697e55f33f22602e244883866813cddf05193db95c87.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/f9b04c55288f7457bb2aa1ddeb5376b11f56cf13711c651a61ca99909a2655a7.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/d50d1f607e2e2d887d1dd2ee4fe8f3fae85f17ed297c77e3c061474c467da2b9.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/377b4a9424482334f2868b336f1b49d515b6fa5bfb27a65b3b54e23397afea61.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/8909f90451d9ab77c7f1c3e0cf02453dcba66578e4641992ae3d8ea5ff1594e8.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/a76ab12fcdfb219fc0c30aaee013202dcd6e471a9094b3dfd65f5ec56473f2d9.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/ea9945fec893c5d27d893200bf6ffac7e0f16435bb26dad311fbc8746b4dfe8a.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/dae61151ab1932179c093188546bd45706736f244efae81258ab90ee410a4760.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/5f9cbb288212829b0ec3907c9e127a4f0f0a8d25a39e7e4251ae002e299cad9a.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/b5a14d68a36fb87742d54fa723dc0455710a7fba1ddb87de173d56469d6d037f.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/22f7fa8f69edb557c598355f9ab47575011fd19ba90a99dcbd4cda92d8d456b0.png",
+    "assets/SZ-G9-T1-FD519A62EC/figures/6176843dc30c0a54018ff40e89a473edde54f1ed4439df7c094d4d13c234d5de.png"
+  ],
+  "answer": "（1）∴直线AB解析式为y＝﹣〔图9〕x+3\n（2）∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）\n（3）最小值＝AM′＝〔图23〕＝〔图24〕",
+  "solution_steps": [
+    "解：（1）∵抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点C（﹣1，0）与y轴交于点B（0，3），",
+    "则有〔图7〕，解得〔图8〕，",
+    "∴抛物线y＝﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3，",
+    "令y＝0，得到﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3＝0，",
+    "解得：x＝4或﹣1，",
+    "∴A（4，0），B（0，3），",
+    "设直线AB解析式为y＝kx+b，则〔图11〕，解得〔图12〕，",
+    "∴直线AB解析式为y＝﹣〔图9〕x+3；",
+    "（2）如图1中，设P（x，﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3），则点N（x，﹣〔图9〕x+3），",
+    "则设△PAB面积为S，",
+    "则S＝S\\({}_{△}\\)\\({}_{PNA}\\)+S\\({}_{△}\\)\\({}_{PNB}\\)＝〔图13〕×PN×OA＝〔图13〕×4×（﹣〔图14〕x\\({}^{2}\\)+〔图15〕x+3+〔图14〕x﹣3）＝﹣〔图16〕x\\({}^{2}\\)+6x，",
+    "∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）；",
+    "（3）如图2中，在y轴上取一点M′使得OM′＝〔图18〕，连接AM′，在AM′上取一点E′使得OE′＝OE．",
+    "〔图19〕",
+    "∵OE′＝2，OM′•OB＝〔图18〕×3＝4，",
+    "∴OE′\\({}^{2}\\)＝OM′•OB，",
+    "∴〔图20〕，",
+    "∵∠BOE′＝∠M′OE′，",
+    "∴△M′OE′∽△E′OB，",
+    "∴〔图21〕，",
+    "∴M′E′＝〔图22〕BE′，",
+    "∴AE′+〔图22〕BE′＝AE′+E′M′＝AM′，此时AE′+〔图22〕BE′最小（两点间线段最短，A、M′、E′共线时），",
+    "最小值＝AM′＝〔图23〕＝〔图24〕．"
+  ],
+  "solution": "解：（1）∵抛物线y＝mx\\({}^{2}\\)﹣3mx+n（m≠0）与x轴交于点C（﹣1，0）与y轴交于点B（0，3），\n则有〔图7〕，解得〔图8〕，\n∴抛物线y＝﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3，\n令y＝0，得到﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3＝0，\n解得：x＝4或﹣1，\n∴A（4，0），B（0，3），\n设直线AB解析式为y＝kx+b，则〔图11〕，解得〔图12〕，\n∴直线AB解析式为y＝﹣〔图9〕x+3；\n（2）如图1中，设P（x，﹣〔图9〕x\\({}^{2}\\)+〔图10〕x+3），则点N（x，﹣〔图9〕x+3），\n则设△PAB面积为S，\n则S＝S\\({}_{△}\\)\\({}_{PNA}\\)+S\\({}_{△}\\)\\({}_{PNB}\\)＝〔图13〕×PN×OA＝〔图13〕×4×（﹣〔图14〕x\\({}^{2}\\)+〔图15〕x+3+〔图14〕x﹣3）＝﹣〔图16〕x\\({}^{2}\\)+6x，\n∵〔图17〕＜0，故S有最大值，当x＝2时，S的最大值为6，此时P（2，4.5）；\n（3）如图2中，在y轴上取一点M′使得OM′＝〔图18〕，连接AM′，在AM′上取一点E′使得OE′＝OE．\n〔图19〕\n∵OE′＝2，OM′•OB＝〔图18〕×3＝4，\n∴OE′\\({}^{2}\\)＝OM′•OB，\n∴〔图20〕，\n∵∠BOE′＝∠M′OE′，\n∴△M′OE′∽△E′OB，\n∴〔图21〕，\n∴M′E′＝〔图22〕BE′，\n∴AE′+〔图22〕BE′＝AE′+E′M′＝AM′，此时AE′+〔图22〕BE′最小（两点间线段最短，A、M′、E′共线时），\n最小值＝AM′＝〔图23〕＝〔图24〕．",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    9,
+    17,
+    23,
+    24,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      72
+    ],
+    "solution_body_blocks": [
+      450,
+      478
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-FD519A62EC/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          244.09,
+          583.64,
+          561.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      27,
+      28
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-FD519A62EC/solution-q22-p27.webp",
+      "assets/SZ-G9-T1-FD519A62EC/solution-q22-p28.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          240.0,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 28,
+        "bbox_pt": [
+          11.82,
+          71.36,
+          583.64,
+          674.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N13.02",
+    "M.G09.03",
+    "M.G07.03"
+  ],
+  "exam_ids": [
+    "E.N13.02.01",
+    "E.G09.03.02",
+    "E.G07.03.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。 本问的式子结构和所求量对应“将面积条件转为点的位置约束”。 题面对应“利用旋转对应建立全等或角度关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

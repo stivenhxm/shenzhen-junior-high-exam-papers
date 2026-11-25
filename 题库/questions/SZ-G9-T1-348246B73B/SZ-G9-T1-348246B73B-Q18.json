@@ -1,0 +1,285 @@
+{
+  "id": "SZ-G9-T1-348246B73B-Q18",
+  "paper_id": "SZ-G9-T1-348246B73B",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、利用菱形对角线关系求边与面积",
+  "stem": "已知，如图，在\\(\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ ，BD\\)是\\(\\vartriangle ABC\\)的中线，F是\\(BD\\)的中点，连接\\(CF\\)并延长到E，使\\(FE=CF\\)，连接\\(BE、AE\\)．\n〔图1〕\n（1）求证：四边形\\(AEBD\\)是菱形；\n（2）若\\(BC=8，BE=5，\\)求菱形\\(AEBD\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-348246B73B/figures/c28448f3fee5a54edaa79ad2a57fae7ccacb68fcd9bf46bf63cdec4580318ff1.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见解析\n（2）24",
+  "answer": "（1）证明见解析\n（2）24",
+  "given_solution": "【分析】本题考查平行四边形的判定和性质，菱形的判定和性质，直角三角形斜边中线的性质，勾股定理等知识点，熟悉掌握以上知识点是解题的关键．\n（1）根据三角形中线性质可得\\(DF=B\\)\\(F\\)，再由已知条件可证得\\(\\vartriangle CDF≌\\vartriangle EBF\\)；根据直角三角形斜边中线性质得\\(BD=AD=\\)\\(CD\\)，可证\\(BE\\parallel CD\\)，进而可求解；\n（2）通过证明四边形\\(BCDE\\)是平行四边形，求得\\(DE=BC=8\\)，利用勾股定理求得\\(AB\\)的长，再利用菱形的面积公式即可求解．\n【小问1详解】\n证明：∵\\(F\\)是\\(BD\\)的中点，\n∴\\(DF=BF\\)，\n∵\\(CF=EF,\\angle CFD=\\angle EFB\\)，\n∴\\(\\vartriangle CDF≌\\vartriangle EBF\\left ( { SAS } \\right )\\)，\n∵\\(\\angle ABC=90{}^\\circ ,BD\\)是\\(\\vartriangle ABC\\)中线，\n∴\\(BD=AD=CD\\)，\n∵\\(\\vartriangle CDF≌\\vartriangle EBF\\)，\n∴\\(CD=BE,\\angle FCD=\\angle FEB\\)，\n∴\\(BE\\parallel CD\\)，\n∵\\(BE=CD=AD\\)，\n∴四边形\\(AEBD\\)是平行四边形，\n∵\\(BD=AD\\)，\n∴四边形\\(AEBD\\)是菱形；\n【小问2详解】\n解：连接\\(ED\\)，\n\\(\\because BE\\parallel CD,CD=BE\\)，\n∴四边形\\(BCDE\\)是平行四边形，\n\\(\\therefore DE=BC=8\\)，\n\\(\\because AD=BE=5，BD\\)是\\(\\vartriangle ABC\\)中线，\n\\(\\therefore AC=2AD=10\\)，\n\\(\\because \\angle ABC=90{}^\\circ ,BC=8\\)，\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∵四边形\\(AEBD\\)是菱形，\n∴菱形\\(AEBD\\)的面积=\\(\\frac { 1 } { 2 }\\times AB\\times DE=\\frac { 1 } { 2 }\\times 6\\times 8=24\\)．\n〔图2〕",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-348246B73B/figures/c28448f3fee5a54edaa79ad2a57fae7ccacb68fcd9bf46bf63cdec4580318ff1.png",
+    "assets/SZ-G9-T1-348246B73B/figures/75833c201964f5b092e15de164a66f2e995f04ad2ae219b50e0e44970191b50f.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵\\(F\\)是\\(BD\\)的中点，\n∴\\(DF=BF\\)，\n∵\\(CF=EF,\\angle CFD=\\angle EFB\\)，\n∴\\(\\vartriangle CDF≌\\vartriangle EBF\\left ( { SAS } \\right )\\)，\n∵\\(\\angle ABC=90{}^\\circ ,BD\\)是\\(\\vartriangle ABC\\)中线，\n∴\\(BD=AD=CD\\)，\n∵\\(\\vartriangle CDF≌\\vartriangle EBF\\)，\n∴\\(CD=BE,\\angle FCD=\\angle FEB\\)，\n∴\\(BE\\parallel CD\\)，\n∵\\(BE=CD=AD\\)，\n∴四边形\\(AEBD\\)是平行四边形，\n∵\\(BD=AD\\)，\n∴四边形\\(AEBD\\)是菱形；\n【小问2详解】\n解：连接\\(ED\\)，\n\\(\\because BE\\parallel CD,CD=BE\\)，\n∴四边形\\(BCDE\\)是平行四边形，\n\\(\\therefore DE=BC=8\\)，\n\\(\\because AD=BE=5，BD\\)是\\(\\vartriangle ABC\\)中线，\n\\(\\therefore AC=2AD=10\\)，\n\\(\\because \\angle ABC=90{}^\\circ ,BC=8\\)，\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∵四边形\\(AEBD\\)是菱形，\n∴菱形\\(AEBD\\)的面积=\\(\\frac { 1 } { 2 }\\times AB\\times DE=\\frac { 1 } { 2 }\\times 6\\times 8=24\\)．\n〔图2〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵\\(F\\)是\\(BD\\)的中点，",
+    "∴\\(DF=BF\\)，",
+    "∵\\(CF=EF,\\angle CFD=\\angle EFB\\)，",
+    "∴\\(\\vartriangle CDF≌\\vartriangle EBF\\left ( { SAS } \\right )\\)，",
+    "∵\\(\\angle ABC=90{}^\\circ ,BD\\)是\\(\\vartriangle ABC\\)中线，",
+    "∴\\(BD=AD=CD\\)，",
+    "∵\\(\\vartriangle CDF≌\\vartriangle EBF\\)，",
+    "∴\\(CD=BE,\\angle FCD=\\angle FEB\\)，",
+    "∴\\(BE\\parallel CD\\)，",
+    "∵\\(BE=CD=AD\\)，",
+    "∴四边形\\(AEBD\\)是平行四边形，",
+    "∵\\(BD=AD\\)，",
+    "∴四边形\\(AEBD\\)是菱形；",
+    "【小问2详解】",
+    "解：连接\\(ED\\)，",
+    "\\(\\because BE\\parallel CD,CD=BE\\)，",
+    "∴四边形\\(BCDE\\)是平行四边形，",
+    "\\(\\therefore DE=BC=8\\)，",
+    "\\(\\because AD=BE=5，BD\\)是\\(\\vartriangle ABC\\)中线，",
+    "\\(\\therefore AC=2AD=10\\)，",
+    "\\(\\because \\angle ABC=90{}^\\circ ,BC=8\\)，",
+    "\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，",
+    "∵四边形\\(AEBD\\)是菱形，",
+    "∴菱形\\(AEBD\\)的面积=\\(\\frac { 1 } { 2 }\\times AB\\times DE=\\frac { 1 } { 2 }\\times 6\\times 8=24\\)．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知，如图，在\\(\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ ，BD\\)是\\(\\vartriangle ABC\\)的中线，F是\\(BD\\)的中点，连接\\(CF\\)并延长到E，使\\(FE=CF\\)，连接\\(BE、AE\\)．\n〔图1〕",
+      "paper_blocks": [
+        51,
+        52
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-348246B73B-Q18-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(AEBD\\)是菱形；",
+      "stem_text": "求证：四边形\\(AEBD\\)是菱形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "证明：∵\\(F\\)是\\(BD\\)的中点，\n∴\\(DF=BF\\)，\n∵\\(CF=EF,\\angle CFD=\\angle EFB\\)，\n∴\\(\\vartriangle CDF≌\\vartriangle EBF\\left ( { SAS } \\right )\\)，\n∵\\(\\angle ABC=90{}^\\circ ,BD\\)是\\(\\vartriangle ABC\\)中线，\n∴\\(BD=AD=CD\\)，\n∵\\(\\vartriangle CDF≌\\vartriangle EBF\\)，\n∴\\(CD=BE,\\angle FCD=\\angle FEB\\)，\n∴\\(BE\\parallel CD\\)，\n∵\\(BE=CD=AD\\)，\n∴四边形\\(AEBD\\)是平行四边形，\n∵\\(BD=AD\\)，\n∴四边形\\(AEBD\\)是菱形；",
+      "solution_steps": [
+        "证明：∵\\(F\\)是\\(BD\\)的中点，",
+        "∴\\(DF=BF\\)，",
+        "∵\\(CF=EF,\\angle CFD=\\angle EFB\\)，",
+        "∴\\(\\vartriangle CDF≌\\vartriangle EBF\\left ( { SAS } \\right )\\)，",
+        "∵\\(\\angle ABC=90{}^\\circ ,BD\\)是\\(\\vartriangle ABC\\)中线，",
+        "∴\\(BD=AD=CD\\)，",
+        "∵\\(\\vartriangle CDF≌\\vartriangle EBF\\)，",
+        "∴\\(CD=BE,\\angle FCD=\\angle FEB\\)，",
+        "∴\\(BE\\parallel CD\\)，",
+        "∵\\(BE=CD=AD\\)，",
+        "∴四边形\\(AEBD\\)是平行四边形，",
+        "∵\\(BD=AD\\)，",
+        "∴四边形\\(AEBD\\)是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          53
+        ],
+        "solution_block_ids": [
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-348246B73B-Q18-P02",
+      "label": "（2）",
+      "prompt": "若\\(BC=8，BE=5，\\)求菱形\\(AEBD\\)的面积．",
+      "stem_text": "若\\(BC=8，BE=5，\\)求菱形\\(AEBD\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "24",
+      "answer": "24",
+      "given_solution": "解：连接\\(ED\\)，\n\\(\\because BE\\parallel CD,CD=BE\\)，\n∴四边形\\(BCDE\\)是平行四边形，\n\\(\\therefore DE=BC=8\\)，\n\\(\\because AD=BE=5，BD\\)是\\(\\vartriangle ABC\\)中线，\n\\(\\therefore AC=2AD=10\\)，\n\\(\\because \\angle ABC=90{}^\\circ ,BC=8\\)，\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，\n∵四边形\\(AEBD\\)是菱形，\n∴菱形\\(AEBD\\)的面积=\\(\\frac { 1 } { 2 }\\times AB\\times DE=\\frac { 1 } { 2 }\\times 6\\times 8=24\\)．\n〔图2〕",
+      "solution_steps": [
+        "解：连接\\(ED\\)，",
+        "\\(\\because BE\\parallel CD,CD=BE\\)，",
+        "∴四边形\\(BCDE\\)是平行四边形，",
+        "\\(\\therefore DE=BC=8\\)，",
+        "\\(\\because AD=BE=5，BD\\)是\\(\\vartriangle ABC\\)中线，",
+        "\\(\\therefore AC=2AD=10\\)，",
+        "\\(\\because \\angle ABC=90{}^\\circ ,BC=8\\)，",
+        "\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -8 ^ { 2 } }=6\\)，",
+        "∵四边形\\(AEBD\\)是菱形，",
+        "∴菱形\\(AEBD\\)的面积=\\(\\frac { 1 } { 2 }\\times AB\\times DE=\\frac { 1 } { 2 }\\times 6\\times 8=24\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          51,
+          52,
+          54
+        ],
+        "solution_block_ids": [
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“利用菱形对角线关系求边与面积”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      51,
+      54
+    ],
+    "solution_body_blocks": [
+      262,
+      297
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-348246B73B/paper-q18-p04.webp",
+      "assets/SZ-G9-T1-348246B73B/paper-q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          729.55,
+          583.64,
+          767.73
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          181.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-348246B73B/solution-q18-p14.webp",
+      "assets/SZ-G9-T1-348246B73B/solution-q18-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          571.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G05.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G05.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“利用菱形对角线关系求边与面积”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

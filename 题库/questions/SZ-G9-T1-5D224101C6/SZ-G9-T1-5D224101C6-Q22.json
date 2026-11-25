@@ -1,0 +1,529 @@
+{
+  "id": "SZ-G9-T1-5D224101C6-Q22",
+  "paper_id": "SZ-G9-T1-5D224101C6",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系、由相似比求对应线段或周长",
+  "stem": "【初步尝试】\n（1）如图①，在三角形纸片\\(ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，将\\(\\vartriangle ABC\\)折叠，使点\\(B\\)与点\\(C\\)重合，折痕为\\(MN\\)，则\\(AM\\)与\\(BM\\)的数量关系为         ；\n〔图1〕\n【思考说理】\n（2）如图②，在三角形纸片\\(ABC\\)中，\\(AC=BC=6\\)，\\(AB=10\\)，将\\(\\vartriangle ABC\\)折叠，使点\\(B\\)与点\\(C\\)重合，折痕为\\(MN\\)，求\\(\\frac { AM } { BM }\\)的值．\n〔图2〕\n【拓展延伸】\n（3）如图③，在三角形纸片\\(ABC\\)中，\\(AB=9\\)，\\(BC=6\\)，\\(\\angle ACB=2\\angle A\\)，将\\(\\vartriangle ABC\\)沿过顶点\\(C\\)的直线折叠，使点\\(B\\)落在边\\(AC\\)上的点\\(B'\\)处，折痕为\\(CM\\)．\n①求线段\\(AC\\)的长；\n②若点\\(O\\)是边\\(AC\\)的中点，点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点，将\\(\\vartriangle APM\\)沿\\(PM\\)折叠得到\\(\\vartriangle A'PM\\)，点\\(A\\)的对应点为点\\(A'\\)，\\(A'M\\)与\\(CP\\)交于点\\(F\\)，求\\(\\frac { PF } { MF }\\)的取值范围．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-5D224101C6/figures/ae6d077c9d96f27289c6b742aa48868438df308f9132c9e6f82c8c5078df04cf.png",
+    "assets/SZ-G9-T1-5D224101C6/figures/89d930ab422e98b9bc415a4fbbbe22d074558406642d97c4569f57100f9e0752.png",
+    "assets/SZ-G9-T1-5D224101C6/figures/633de369af6735a80d30fcf7151ad69bc29c4ba2da4660301cee88c194d95e27.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AM=BM\\)；（2）\\(\\frac { 16 } { 9 }\\)；（3）①\\(\\frac { 15 } { 2 }\\)；②\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．",
+  "answer": "（1）\\(AM=BM\\)；（2）\\(\\frac { 16 } { 9 }\\)；（3）①\\(\\frac { 15 } { 2 }\\)；②\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．",
+  "given_solution": "【分析】（1）先根据折叠的性质可得\\(CN=BN,\\angle CNM=\\angle BNM=90{}^\\circ\\)，再根据平行线的判定可得\\(AC{ \\rm{ / } }{ \\rm{ / } }MN\\)，然后根据三角形中位线的判定与性质即可得；\n（2）先根据等腰三角形的性质可得\\(\\angle B=\\angle A\\)，再根据折叠的性质可得\\(\\angle B=\\angle MCN\\)，从而可得\\(\\angle MCN=\\angle A\\)，然后根据相似三角形的判定与性质可得\\(\\frac { BM } { BC }=\\frac { BC } { AB }\\)，从而可求出BM的长，最后根据线段的和差可得AM的长，由此即可得出答案；\n（3）①先根据折叠的性质可得\\(\\angle BCM=\\angle ACM=\\frac { 1 } { 2 }\\angle ACB\\)，从而可得\\(\\angle BCM=\\angle ACM=\\angle A\\)，再根据等腰三角形的定义可得\\(AM=CM\\)，然后根据相似三角形的判定与性质可得\\(\\frac { BM } { BC }=\\frac { BC } { AB }=\\frac { CM } { AC }\\)，从而可得BM、AM、CM的长，最后代入求解即可得；\n②先根据折叠的性质、线段的和差求出\\(AB'\\)，\\(OB ^ { \\prime }\\)的长，设\\(B'P=x\\)，从而可得\\(A'P=\\frac { 3 } { 2 }+x\\)，再根据相似三角形的判定与性质可得\\(\\frac { PF } { MF }=\\frac { A'P } { CM }=\\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\)，然后根据x的取值范围即可得．\n【详解】（1）\\(AM=BM\\)，理由如下：\n由折叠的性质得：\\(CN=BN,\\angle CNM=\\angle BNM=90{}^\\circ\\)\n\\(\\because \\angle ACB=90{}^\\circ\\)\n\\(\\therefore \\angle ACB=\\angle BNM=90{}^\\circ\\)\n\\(\\therefore AC{ \\rm{ / } }{ \\rm{ / } }MN\\)\n\\(\\therefore MN\\)是\\(\\vartriangle ABC\\)的中位线\n\\(\\therefore\\)点M是AB的中点\n则\\(AM=BM\\)\n故答案为：\\(AM=BM\\)；\n（2）\\(\\because AC=BC=6\\)\n\\(\\therefore \\angle B=\\angle A\\)\n由折叠的性质得：\\(\\angle B=\\angle MCN\\)\n\\(\\therefore \\angle MCN=\\angle A\\)，即\\(\\angle MCB=\\angle A\\)\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle MCB=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)\n\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)\n\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 10 }\\)\n解得\\(BM=\\frac { 18 } { 5 }\\)\n\\(\\therefore AM=AB-BM=10-\\frac { 18 } { 5 }=\\frac { 32 } { 5 }\\)\n\\(\\therefore \\frac { AM } { BM }=\\frac { \\frac { 32 } { 5 } } { \\frac { 18 } { 5 } }=\\frac { 16 } { 9 }\\)；\n（3）①由折叠的性质得：\\(\\angle BCM=\\angle ACM=\\frac { 1 } { 2 }\\angle ACB\\)\n\\(\\because \\angle ACB=2\\angle A\\)，即\\(\\angle A=\\frac { 1 } { 2 }\\angle ACB\\)\n\\(\\therefore \\angle BCM=\\angle ACM=\\angle A\\)\n\\(\\therefore AM=CM\\)\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle BCM=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)\n\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)\n\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }=\\frac { CM } { AC }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 9 }=\\frac { CM } { AC }\\)\n解得\\(BM=4\\)\n\\(\\therefore AM=AB-BM=9-4=5\\)\n\\(\\therefore CM=AM=5\\)\n\\(\\therefore \\frac { 6 } { 9 }=\\frac { 5 } { AC }\\)\n解得\\(AC=\\frac { 15 } { 2 }\\)；\n②如图，由折叠的性质可知，\\(B'C=BC=6\\)，\\(A'P=AP\\)，\\(\\angle A'=\\angle A\\)\n\\(\\therefore AB'=AC-B'C=\\frac { 15 } { 2 }-6=\\frac { 3 } { 2 }\\)\n\\(\\because\\)点O是边\\(AC\\)的中点\n\\(\\therefore OA=\\frac { 1 } { 2 }AC=\\frac { 15 } { 4 }\\)\n\\(\\therefore OB'=OA-AB'=\\frac { 15 } { 4 }-\\frac { 3 } { 2 }=\\frac { 9 } { 4 }\\)\n设\\(B'P=x\\)，则\\(A'P=AP=AB'+B'P=\\frac { 3 } { 2 }+x\\)\n\\(\\because\\)点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点\n\\(\\therefore 0\\le B'P\\le OB'\\)，其中当点P与点\\(B'\\)重合时，\\(B'P=0\\)；当点P与点O重合时，\\(B'P=OB'\\)\n\\(\\therefore 0\\le x\\le \\frac { 9 } { 4 }\\)\n\\(\\because \\angle A'=\\angle A,\\angle ACM=\\angle A\\)\n\\(\\therefore \\angle A'=\\angle ACM\\)，即\\(\\angle A'=\\angle FCM\\)\n在\\(\\vartriangle A'FP\\)和\\(\\vartriangle CFM\\)中，\\(\\begin{cases} \\angle A'=\\angle FCM \\\\ \\angle A'FP=\\angle CFM \\end{cases}\\)\n\\(\\therefore \\vartriangle A'FP\\sim \\vartriangle CFM\\)\n\\(\\therefore \\frac { PF } { MF }=\\frac { A'P } { CM }=\\frac { \\frac { 3 } { 2 }+x } { 5 }=\\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\)\n\\(\\because 0\\le x\\le \\frac { 9 } { 4 }\\)\n\\(\\therefore \\frac { 3 } { 10 }\\le \\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\le \\frac { 3 } { 4 }\\)\n则\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．\n〔图4〕\n【点睛】本题考查了折叠的性质、三角形的中位线定理、等腰三角形的定义、相似三角形的判定与性质等知识点，较难的是题（3）②，正确设立未知数，并找出两个相似三角形是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-5D224101C6/figures/ae6d077c9d96f27289c6b742aa48868438df308f9132c9e6f82c8c5078df04cf.png",
+    "assets/SZ-G9-T1-5D224101C6/figures/89d930ab422e98b9bc415a4fbbbe22d074558406642d97c4569f57100f9e0752.png",
+    "assets/SZ-G9-T1-5D224101C6/figures/633de369af6735a80d30fcf7151ad69bc29c4ba2da4660301cee88c194d95e27.png",
+    "assets/SZ-G9-T1-5D224101C6/figures/0eeb95498e16c41e49c264460f86f846b11b484e77501d764462af585127854e.png"
+  ],
+  "solution": "（1）\\(AM=BM\\)，理由如下：\n由折叠的性质得：\\(CN=BN,\\angle CNM=\\angle BNM=90{}^\\circ\\)\n\\(\\because \\angle ACB=90{}^\\circ\\)\n\\(\\therefore \\angle ACB=\\angle BNM=90{}^\\circ\\)\n\\(\\therefore AC{ \\rm{ / } }{ \\rm{ / } }MN\\)\n\\(\\therefore MN\\)是\\(\\vartriangle ABC\\)的中位线\n\\(\\therefore\\)点M是AB的中点\n则\\(AM=BM\\)\n故答案为：\\(AM=BM\\)；\n（2）\\(\\because AC=BC=6\\)\n\\(\\therefore \\angle B=\\angle A\\)\n由折叠的性质得：\\(\\angle B=\\angle MCN\\)\n\\(\\therefore \\angle MCN=\\angle A\\)，即\\(\\angle MCB=\\angle A\\)\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle MCB=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)\n\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)\n\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 10 }\\)\n解得\\(BM=\\frac { 18 } { 5 }\\)\n\\(\\therefore AM=AB-BM=10-\\frac { 18 } { 5 }=\\frac { 32 } { 5 }\\)\n\\(\\therefore \\frac { AM } { BM }=\\frac { \\frac { 32 } { 5 } } { \\frac { 18 } { 5 } }=\\frac { 16 } { 9 }\\)；\n（3）①由折叠的性质得：\\(\\angle BCM=\\angle ACM=\\frac { 1 } { 2 }\\angle ACB\\)\n\\(\\because \\angle ACB=2\\angle A\\)，即\\(\\angle A=\\frac { 1 } { 2 }\\angle ACB\\)\n\\(\\therefore \\angle BCM=\\angle ACM=\\angle A\\)\n\\(\\therefore AM=CM\\)\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle BCM=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)\n\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)\n\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }=\\frac { CM } { AC }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 9 }=\\frac { CM } { AC }\\)\n解得\\(BM=4\\)\n\\(\\therefore AM=AB-BM=9-4=5\\)\n\\(\\therefore CM=AM=5\\)\n\\(\\therefore \\frac { 6 } { 9 }=\\frac { 5 } { AC }\\)\n解得\\(AC=\\frac { 15 } { 2 }\\)；\n②如图，由折叠的性质可知，\\(B'C=BC=6\\)，\\(A'P=AP\\)，\\(\\angle A'=\\angle A\\)\n\\(\\therefore AB'=AC-B'C=\\frac { 15 } { 2 }-6=\\frac { 3 } { 2 }\\)\n\\(\\because\\)点O是边\\(AC\\)的中点\n\\(\\therefore OA=\\frac { 1 } { 2 }AC=\\frac { 15 } { 4 }\\)\n\\(\\therefore OB'=OA-AB'=\\frac { 15 } { 4 }-\\frac { 3 } { 2 }=\\frac { 9 } { 4 }\\)\n设\\(B'P=x\\)，则\\(A'P=AP=AB'+B'P=\\frac { 3 } { 2 }+x\\)\n\\(\\because\\)点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点\n\\(\\therefore 0\\le B'P\\le OB'\\)，其中当点P与点\\(B'\\)重合时，\\(B'P=0\\)；当点P与点O重合时，\\(B'P=OB'\\)\n\\(\\therefore 0\\le x\\le \\frac { 9 } { 4 }\\)\n\\(\\because \\angle A'=\\angle A,\\angle ACM=\\angle A\\)\n\\(\\therefore \\angle A'=\\angle ACM\\)，即\\(\\angle A'=\\angle FCM\\)\n在\\(\\vartriangle A'FP\\)和\\(\\vartriangle CFM\\)中，\\(\\begin{cases} \\angle A'=\\angle FCM \\\\ \\angle A'FP=\\angle CFM \\end{cases}\\)\n\\(\\therefore \\vartriangle A'FP\\sim \\vartriangle CFM\\)\n\\(\\therefore \\frac { PF } { MF }=\\frac { A'P } { CM }=\\frac { \\frac { 3 } { 2 }+x } { 5 }=\\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\)\n\\(\\because 0\\le x\\le \\frac { 9 } { 4 }\\)\n\\(\\therefore \\frac { 3 } { 10 }\\le \\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\le \\frac { 3 } { 4 }\\)\n则\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．\n〔图4〕",
+  "solution_steps": [
+    "（1）\\(AM=BM\\)，理由如下：",
+    "由折叠的性质得：\\(CN=BN,\\angle CNM=\\angle BNM=90{}^\\circ\\)",
+    "\\(\\because \\angle ACB=90{}^\\circ\\)",
+    "\\(\\therefore \\angle ACB=\\angle BNM=90{}^\\circ\\)",
+    "\\(\\therefore AC{ \\rm{ / } }{ \\rm{ / } }MN\\)",
+    "\\(\\therefore MN\\)是\\(\\vartriangle ABC\\)的中位线",
+    "\\(\\therefore\\)点M是AB的中点",
+    "则\\(AM=BM\\)",
+    "故答案为：\\(AM=BM\\)；",
+    "（2）\\(\\because AC=BC=6\\)",
+    "\\(\\therefore \\angle B=\\angle A\\)",
+    "由折叠的性质得：\\(\\angle B=\\angle MCN\\)",
+    "\\(\\therefore \\angle MCN=\\angle A\\)，即\\(\\angle MCB=\\angle A\\)",
+    "在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle MCB=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)",
+    "\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 10 }\\)",
+    "解得\\(BM=\\frac { 18 } { 5 }\\)",
+    "\\(\\therefore AM=AB-BM=10-\\frac { 18 } { 5 }=\\frac { 32 } { 5 }\\)",
+    "\\(\\therefore \\frac { AM } { BM }=\\frac { \\frac { 32 } { 5 } } { \\frac { 18 } { 5 } }=\\frac { 16 } { 9 }\\)；",
+    "（3）①由折叠的性质得：\\(\\angle BCM=\\angle ACM=\\frac { 1 } { 2 }\\angle ACB\\)",
+    "\\(\\because \\angle ACB=2\\angle A\\)，即\\(\\angle A=\\frac { 1 } { 2 }\\angle ACB\\)",
+    "\\(\\therefore \\angle BCM=\\angle ACM=\\angle A\\)",
+    "\\(\\therefore AM=CM\\)",
+    "在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle BCM=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)",
+    "\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }=\\frac { CM } { AC }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 9 }=\\frac { CM } { AC }\\)",
+    "解得\\(BM=4\\)",
+    "\\(\\therefore AM=AB-BM=9-4=5\\)",
+    "\\(\\therefore CM=AM=5\\)",
+    "\\(\\therefore \\frac { 6 } { 9 }=\\frac { 5 } { AC }\\)",
+    "解得\\(AC=\\frac { 15 } { 2 }\\)；",
+    "②如图，由折叠的性质可知，\\(B'C=BC=6\\)，\\(A'P=AP\\)，\\(\\angle A'=\\angle A\\)",
+    "\\(\\therefore AB'=AC-B'C=\\frac { 15 } { 2 }-6=\\frac { 3 } { 2 }\\)",
+    "\\(\\because\\)点O是边\\(AC\\)的中点",
+    "\\(\\therefore OA=\\frac { 1 } { 2 }AC=\\frac { 15 } { 4 }\\)",
+    "\\(\\therefore OB'=OA-AB'=\\frac { 15 } { 4 }-\\frac { 3 } { 2 }=\\frac { 9 } { 4 }\\)",
+    "设\\(B'P=x\\)，则\\(A'P=AP=AB'+B'P=\\frac { 3 } { 2 }+x\\)",
+    "\\(\\because\\)点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点",
+    "\\(\\therefore 0\\le B'P\\le OB'\\)，其中当点P与点\\(B'\\)重合时，\\(B'P=0\\)；当点P与点O重合时，\\(B'P=OB'\\)",
+    "\\(\\therefore 0\\le x\\le \\frac { 9 } { 4 }\\)",
+    "\\(\\because \\angle A'=\\angle A,\\angle ACM=\\angle A\\)",
+    "\\(\\therefore \\angle A'=\\angle ACM\\)，即\\(\\angle A'=\\angle FCM\\)",
+    "在\\(\\vartriangle A'FP\\)和\\(\\vartriangle CFM\\)中，\\(\\begin{cases} \\angle A'=\\angle FCM \\\\ \\angle A'FP=\\angle CFM \\end{cases}\\)",
+    "\\(\\therefore \\vartriangle A'FP\\sim \\vartriangle CFM\\)",
+    "\\(\\therefore \\frac { PF } { MF }=\\frac { A'P } { CM }=\\frac { \\frac { 3 } { 2 }+x } { 5 }=\\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\)",
+    "\\(\\because 0\\le x\\le \\frac { 9 } { 4 }\\)",
+    "\\(\\therefore \\frac { 3 } { 10 }\\le \\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\le \\frac { 3 } { 4 }\\)",
+    "则\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【初步尝试】",
+      "paper_blocks": [
+        83
+      ]
+    },
+    {
+      "id": "fig-85",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        85
+      ]
+    },
+    {
+      "id": "fig-88",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        88
+      ]
+    },
+    {
+      "id": "fig-93",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        93
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "如图③，在三角形纸片\\(ABC\\)中，\\(AB=9\\)，\\(BC=6\\)，\\(\\angle ACB=2\\angle A\\)，将\\(\\vartriangle ABC\\)沿过顶点\\(C\\)的直线折叠，使点\\(B\\)落在边\\(AC\\)上的点\\(B'\\)处，折痕为\\(CM\\)．",
+      "paper_blocks": [
+        90
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-5D224101C6-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图①，在三角形纸片\\(ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，将\\(\\vartriangle ABC\\)折叠，使点\\(B\\)与点\\(C\\)重合，折痕为\\(MN\\)，则\\(AM\\)与\\(BM\\)的数量关系为         ；\n\n【思考说理】",
+      "stem_text": "如图①，在三角形纸片\\(ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，将\\(\\vartriangle ABC\\)折叠，使点\\(B\\)与点\\(C\\)重合，折痕为\\(MN\\)，则\\(AM\\)与\\(BM\\)的数量关系为         ；\n\n【思考说理】",
+      "material_ids": [
+        "context",
+        "fig-85",
+        "fig-88",
+        "fig-93"
+      ],
+      "requires": [],
+      "given_answer": "\\(AM=BM\\)；",
+      "answer": "\\(AM=BM\\)；",
+      "given_solution": "\\(AM=BM\\)，理由如下：\n由折叠的性质得：\\(CN=BN,\\angle CNM=\\angle BNM=90{}^\\circ\\)\n\\(\\because \\angle ACB=90{}^\\circ\\)\n\\(\\therefore \\angle ACB=\\angle BNM=90{}^\\circ\\)\n\\(\\therefore AC{ \\rm{ / } }{ \\rm{ / } }MN\\)\n\\(\\therefore MN\\)是\\(\\vartriangle ABC\\)的中位线\n\\(\\therefore\\)点M是AB的中点\n则\\(AM=BM\\)\n故答案为：\\(AM=BM\\)；",
+      "solution_steps": [
+        "\\(AM=BM\\)，理由如下：",
+        "由折叠的性质得：\\(CN=BN,\\angle CNM=\\angle BNM=90{}^\\circ\\)",
+        "\\(\\because \\angle ACB=90{}^\\circ\\)",
+        "\\(\\therefore \\angle ACB=\\angle BNM=90{}^\\circ\\)",
+        "\\(\\therefore AC{ \\rm{ / } }{ \\rm{ / } }MN\\)",
+        "\\(\\therefore MN\\)是\\(\\vartriangle ABC\\)的中位线",
+        "\\(\\therefore\\)点M是AB的中点",
+        "则\\(AM=BM\\)",
+        "故答案为：\\(AM=BM\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          83,
+          84,
+          85,
+          86,
+          88,
+          93
+        ],
+        "solution_block_ids": [
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5D224101C6-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图②，在三角形纸片\\(ABC\\)中，\\(AC=BC=6\\)，\\(AB=10\\)，将\\(\\vartriangle ABC\\)折叠，使点\\(B\\)与点\\(C\\)重合，折痕为\\(MN\\)，求\\(\\frac { AM } { BM }\\)的值．\n\n【拓展延伸】",
+      "stem_text": "如图②，在三角形纸片\\(ABC\\)中，\\(AC=BC=6\\)，\\(AB=10\\)，将\\(\\vartriangle ABC\\)折叠，使点\\(B\\)与点\\(C\\)重合，折痕为\\(MN\\)，求\\(\\frac { AM } { BM }\\)的值．\n\n【拓展延伸】",
+      "material_ids": [
+        "context",
+        "fig-85",
+        "fig-88",
+        "fig-93"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 16 } { 9 }\\)；",
+      "answer": "\\(\\frac { 16 } { 9 }\\)；",
+      "given_solution": "\\(\\because AC=BC=6\\)\n\\(\\therefore \\angle B=\\angle A\\)\n由折叠的性质得：\\(\\angle B=\\angle MCN\\)\n\\(\\therefore \\angle MCN=\\angle A\\)，即\\(\\angle MCB=\\angle A\\)\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle MCB=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)\n\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)\n\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 10 }\\)\n解得\\(BM=\\frac { 18 } { 5 }\\)\n\\(\\therefore AM=AB-BM=10-\\frac { 18 } { 5 }=\\frac { 32 } { 5 }\\)\n\\(\\therefore \\frac { AM } { BM }=\\frac { \\frac { 32 } { 5 } } { \\frac { 18 } { 5 } }=\\frac { 16 } { 9 }\\)；",
+      "solution_steps": [
+        "\\(\\because AC=BC=6\\)",
+        "\\(\\therefore \\angle B=\\angle A\\)",
+        "由折叠的性质得：\\(\\angle B=\\angle MCN\\)",
+        "\\(\\therefore \\angle MCN=\\angle A\\)，即\\(\\angle MCB=\\angle A\\)",
+        "在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle MCB=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)",
+        "\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 10 }\\)",
+        "解得\\(BM=\\frac { 18 } { 5 }\\)",
+        "\\(\\therefore AM=AB-BM=10-\\frac { 18 } { 5 }=\\frac { 32 } { 5 }\\)",
+        "\\(\\therefore \\frac { AM } { BM }=\\frac { \\frac { 32 } { 5 } } { \\frac { 18 } { 5 } }=\\frac { 16 } { 9 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          83,
+          85,
+          87,
+          88,
+          89,
+          93
+        ],
+        "solution_block_ids": [
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5D224101C6-Q22-P03",
+      "label": "（3）①",
+      "prompt": "求线段\\(AC\\)的长；",
+      "stem_text": "求线段\\(AC\\)的长；",
+      "material_ids": [
+        "context",
+        "fig-85",
+        "fig-88",
+        "fig-93",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 15 } { 2 }\\)；",
+      "answer": "\\(\\frac { 15 } { 2 }\\)；",
+      "given_solution": "由折叠的性质得：\\(\\angle BCM=\\angle ACM=\\frac { 1 } { 2 }\\angle ACB\\)\n\\(\\because \\angle ACB=2\\angle A\\)，即\\(\\angle A=\\frac { 1 } { 2 }\\angle ACB\\)\n\\(\\therefore \\angle BCM=\\angle ACM=\\angle A\\)\n\\(\\therefore AM=CM\\)\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle BCM=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)\n\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)\n\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }=\\frac { CM } { AC }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 9 }=\\frac { CM } { AC }\\)\n解得\\(BM=4\\)\n\\(\\therefore AM=AB-BM=9-4=5\\)\n\\(\\therefore CM=AM=5\\)\n\\(\\therefore \\frac { 6 } { 9 }=\\frac { 5 } { AC }\\)\n解得\\(AC=\\frac { 15 } { 2 }\\)；",
+      "solution_steps": [
+        "由折叠的性质得：\\(\\angle BCM=\\angle ACM=\\frac { 1 } { 2 }\\angle ACB\\)",
+        "\\(\\because \\angle ACB=2\\angle A\\)，即\\(\\angle A=\\frac { 1 } { 2 }\\angle ACB\\)",
+        "\\(\\therefore \\angle BCM=\\angle ACM=\\angle A\\)",
+        "\\(\\therefore AM=CM\\)",
+        "在\\(\\vartriangle BCM\\)和\\(\\vartriangle BAC\\)中，\\(\\begin{cases} \\angle BCM=\\angle A \\\\ \\angle B=\\angle B \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle BCM\\sim \\vartriangle BAC\\)",
+        "\\(\\therefore \\frac { BM } { BC }=\\frac { BC } { AB }=\\frac { CM } { AC }\\)，即\\(\\frac { BM } { 6 }=\\frac { 6 } { 9 }=\\frac { CM } { AC }\\)",
+        "解得\\(BM=4\\)",
+        "\\(\\therefore AM=AB-BM=9-4=5\\)",
+        "\\(\\therefore CM=AM=5\\)",
+        "\\(\\therefore \\frac { 6 } { 9 }=\\frac { 5 } { AC }\\)",
+        "解得\\(AC=\\frac { 15 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          83,
+          85,
+          88,
+          90,
+          91,
+          93
+        ],
+        "solution_block_ids": [
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5D224101C6-Q22-P04",
+      "label": "（3）②",
+      "prompt": "若点\\(O\\)是边\\(AC\\)的中点，点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点，将\\(\\vartriangle APM\\)沿\\(PM\\)折叠得到\\(\\vartriangle A'PM\\)，点\\(A\\)的对应点为点\\(A'\\)，\\(A'M\\)与\\(CP\\)交于点\\(F\\)，求\\(\\frac { PF } { MF }\\)的取值范围．",
+      "stem_text": "若点\\(O\\)是边\\(AC\\)的中点，点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点，将\\(\\vartriangle APM\\)沿\\(PM\\)折叠得到\\(\\vartriangle A'PM\\)，点\\(A\\)的对应点为点\\(A'\\)，\\(A'M\\)与\\(CP\\)交于点\\(F\\)，求\\(\\frac { PF } { MF }\\)的取值范围．",
+      "material_ids": [
+        "context",
+        "fig-85",
+        "fig-88",
+        "fig-93",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．",
+      "answer": "\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．",
+      "given_solution": "如图，由折叠的性质可知，\\(B'C=BC=6\\)，\\(A'P=AP\\)，\\(\\angle A'=\\angle A\\)\n\\(\\therefore AB'=AC-B'C=\\frac { 15 } { 2 }-6=\\frac { 3 } { 2 }\\)\n\\(\\because\\)点O是边\\(AC\\)的中点\n\\(\\therefore OA=\\frac { 1 } { 2 }AC=\\frac { 15 } { 4 }\\)\n\\(\\therefore OB'=OA-AB'=\\frac { 15 } { 4 }-\\frac { 3 } { 2 }=\\frac { 9 } { 4 }\\)\n设\\(B'P=x\\)，则\\(A'P=AP=AB'+B'P=\\frac { 3 } { 2 }+x\\)\n\\(\\because\\)点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点\n\\(\\therefore 0\\le B'P\\le OB'\\)，其中当点P与点\\(B'\\)重合时，\\(B'P=0\\)；当点P与点O重合时，\\(B'P=OB'\\)\n\\(\\therefore 0\\le x\\le \\frac { 9 } { 4 }\\)\n\\(\\because \\angle A'=\\angle A,\\angle ACM=\\angle A\\)\n\\(\\therefore \\angle A'=\\angle ACM\\)，即\\(\\angle A'=\\angle FCM\\)\n在\\(\\vartriangle A'FP\\)和\\(\\vartriangle CFM\\)中，\\(\\begin{cases} \\angle A'=\\angle FCM \\\\ \\angle A'FP=\\angle CFM \\end{cases}\\)\n\\(\\therefore \\vartriangle A'FP\\sim \\vartriangle CFM\\)\n\\(\\therefore \\frac { PF } { MF }=\\frac { A'P } { CM }=\\frac { \\frac { 3 } { 2 }+x } { 5 }=\\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\)\n\\(\\because 0\\le x\\le \\frac { 9 } { 4 }\\)\n\\(\\therefore \\frac { 3 } { 10 }\\le \\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\le \\frac { 3 } { 4 }\\)\n则\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．\n〔图4〕",
+      "solution_steps": [
+        "如图，由折叠的性质可知，\\(B'C=BC=6\\)，\\(A'P=AP\\)，\\(\\angle A'=\\angle A\\)",
+        "\\(\\therefore AB'=AC-B'C=\\frac { 15 } { 2 }-6=\\frac { 3 } { 2 }\\)",
+        "\\(\\because\\)点O是边\\(AC\\)的中点",
+        "\\(\\therefore OA=\\frac { 1 } { 2 }AC=\\frac { 15 } { 4 }\\)",
+        "\\(\\therefore OB'=OA-AB'=\\frac { 15 } { 4 }-\\frac { 3 } { 2 }=\\frac { 9 } { 4 }\\)",
+        "设\\(B'P=x\\)，则\\(A'P=AP=AB'+B'P=\\frac { 3 } { 2 }+x\\)",
+        "\\(\\because\\)点\\(P\\)为线段\\(OB ^ { \\prime }\\)上的一个动点",
+        "\\(\\therefore 0\\le B'P\\le OB'\\)，其中当点P与点\\(B'\\)重合时，\\(B'P=0\\)；当点P与点O重合时，\\(B'P=OB'\\)",
+        "\\(\\therefore 0\\le x\\le \\frac { 9 } { 4 }\\)",
+        "\\(\\because \\angle A'=\\angle A,\\angle ACM=\\angle A\\)",
+        "\\(\\therefore \\angle A'=\\angle ACM\\)，即\\(\\angle A'=\\angle FCM\\)",
+        "在\\(\\vartriangle A'FP\\)和\\(\\vartriangle CFM\\)中，\\(\\begin{cases} \\angle A'=\\angle FCM \\\\ \\angle A'FP=\\angle CFM \\end{cases}\\)",
+        "\\(\\therefore \\vartriangle A'FP\\sim \\vartriangle CFM\\)",
+        "\\(\\therefore \\frac { PF } { MF }=\\frac { A'P } { CM }=\\frac { \\frac { 3 } { 2 }+x } { 5 }=\\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\)",
+        "\\(\\because 0\\le x\\le \\frac { 9 } { 4 }\\)",
+        "\\(\\therefore \\frac { 3 } { 10 }\\le \\frac { 3 } { 10 }+\\frac { 1 } { 5 }x\\le \\frac { 3 } { 4 }\\)",
+        "则\\(\\frac { 3 } { 10 }\\le \\frac { PF } { MF }\\le \\frac { 3 } { 4 }\\)．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          83,
+          85,
+          88,
+          90,
+          92,
+          93
+        ],
+        "solution_block_ids": [
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      83,
+      93
+    ],
+    "solution_body_blocks": [
+      384,
+      450
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-5D224101C6/paper-q22-p06.webp",
+      "assets/SZ-G9-T1-5D224101C6/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          707.27,
+          583.64,
+          768.64
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          61.36,
+          583.64,
+          722.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-5D224101C6/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-5D224101C6/solution-q22-p23.webp",
+      "assets/SZ-G9-T1-5D224101C6/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-5D224101C6/solution-q22-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          350.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          653.64
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          228.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

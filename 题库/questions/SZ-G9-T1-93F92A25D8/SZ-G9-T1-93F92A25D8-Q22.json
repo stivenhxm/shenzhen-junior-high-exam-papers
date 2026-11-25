@@ -1,0 +1,297 @@
+{
+  "knowledge_ids": [
+    "M.G06.03",
+    "M.G04.04",
+    "M.G04.01",
+    "M.G08.04"
+  ],
+  "exam_ids": [
+    "E.G06.03.01",
+    "E.G04.04.01",
+    "E.G04.01.01",
+    "E.G08.04.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "用同弧所对圆心角是圆周角的两倍求角度。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“应用等腰三角形性质求边角”。 本问题面与解答对应“利用相似证明变化过程中的不变量”。",
+  "id": "SZ-G9-T1-93F92A25D8-Q22",
+  "paper_id": "SZ-G9-T1-93F92A25D8",
+  "number": 22,
+  "title": "由圆周角与圆心角关系求角、由勾股关系求直角三角形边长",
+  "type": "解答题",
+  "points": null,
+  "stem": " 已知：A、B为圆上两定点，点C在该圆上，\\(\\angle C\\)为\\(\\overset \\frown { AB }\\)所对的圆周角．\n〔图1〕\n知识回顾\n（1）如图①，\\(\\odot O\\)中，B、C位于直线\\(AO\\)异侧，\\(\\angle AOB+\\angle C=135{}^\\circ\\)．\n①求\\(\\angle C\\)的度数；\n②若\\(\\odot O\\)的半径为5，\\(AC=8\\)，求\\(BC\\)的长；\n逆向思考\n（2）如图②，P为圆内一点，且\\(\\angle APB < 120{}^\\circ\\)，\\(PA=PB\\)，\\(\\angle APB=2\\angle C\\)．求证：P为该圆的圆心；\n拓展应用\n（3）如图③，在（2）的条件下，若\\(\\angle APB=90{}^\\circ\\)，点C在\\(\\odot P\\)位于直线\\(AP\\)上方部分的圆弧上运动．点D在\\(\\odot P\\)上，满足\\(CD=\\sqrt[] { 2 }CB-CA\\)的所有点D中，必有一个点的位置始终不变．请证明．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-93F92A25D8/figures/6c1bedecf9982362cade523a70bb25aca2ffe6ed581171b43efa8388b1d2973f.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": " 已知：A、B为圆上两定点，点C在该圆上，\\(\\angle C\\)为\\(\\overset \\frown { AB }\\)所对的圆周角．\n〔图1〕\n知识回顾\n（1）如图①，\\(\\odot O\\)中，B、C位于直线\\(AO\\)异侧，\\(\\angle AOB+\\angle C=135{}^\\circ\\)．\n逆向思考\n拓展应用",
+      "paper_blocks": [
+        71,
+        72,
+        73,
+        74,
+        77,
+        79
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "knowledge_ids": [
+        "M.G06.03"
+      ],
+      "exam_ids": [
+        "E.G06.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用同弧所对圆心角是圆周角的两倍求角度。",
+      "id": "SZ-G9-T1-93F92A25D8-Q22-P01",
+      "label": "（1）①",
+      "prompt": "求\\(\\angle C\\)的度数；",
+      "stem_text": "求\\(\\angle C\\)的度数；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "\\(\\angle C=45^\\circ\\)。",
+      "solution_steps": [
+        "如图①，小弧 \\(AB\\) 所对的圆心角为圆周角的两倍。由 \\(2\\angle C+\\angle C=135^\\circ\\)，得 \\(\\angle C=45^\\circ\\)，\\(\\angle AOB=90^\\circ\\)。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          77,
+          79
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "逐题核对"
+    },
+    {
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q22-P02",
+      "label": "（1）②",
+      "prompt": "若\\(\\odot O\\)的半径为5，\\(AC=8\\)，求\\(BC\\)的长；",
+      "stem_text": "若\\(\\odot O\\)的半径为5，\\(AC=8\\)，求\\(BC\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "\\(BC=7\\sqrt2\\)。",
+      "solution_steps": [
+        "以 O 为原点、OA 的反向延长线为 x 轴正方向，取 \\(A(-5,0), B(0,-5)\\)。设 \\(C(x,y)\\)，图中 \\(y>0\\)。",
+        "由 \\(OC=5,\\ AC=8\\) 得 \\(x^2+y^2=25,\\ (x+5)^2+y^2=64\\)。两式相减，得 \\(x=7/5,\\ y=24/5\\)。",
+        "故 \\(BC=\\sqrt{(7/5)^2+(24/5+5)^2}=\\sqrt{98}=7\\sqrt2\\)。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74,
+          76,
+          77,
+          79
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    },
+    {
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图②，P为圆内一点，且\\(\\angle APB < 120{}^\\circ\\)，\\(PA=PB\\)，\\(\\angle APB=2\\angle C\\)．求证：P为该圆的圆心；",
+      "stem_text": "如图②，P为圆内一点，且\\(\\angle APB < 120{}^\\circ\\)，\\(PA=PB\\)，\\(\\angle APB=2\\angle C\\)．求证：P为该圆的圆心；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "P 为该圆的圆心。",
+      "solution_steps": [
+        "设原圆圆心为 O、半径为 \\(R\\)，M 为弦 AB 的中点。由 \\(PA=PB,\\ OA=OB\\)，点 P、O 都在 AB 的垂直平分线上。",
+        "因为 \\(\\angle C=\\tfrac12\\angle APB<60^\\circ\\)，小弧 AB 所对的圆心角为 \\(2\\angle C\\)。两等腰三角形 OAB 与 PAB 共底、顶角相等，得 \\(PM=OM\\)。",
+        "若 P 与 O 不重合，则它们关于 AB 对称，\\(OP=2OM=2R\\cos\\angle C>R\\)。这与 P 在圆内矛盾，所以 P 与 O 重合。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74,
+          77,
+          78,
+          79
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    },
+    {
+      "knowledge_ids": [
+        "M.G08.04"
+      ],
+      "exam_ids": [
+        "E.G08.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“利用相似证明变化过程中的不变量”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q22-P04",
+      "label": "（3）",
+      "prompt": "如图③，在（2）的条件下，若\\(\\angle APB=90{}^\\circ\\)，点C在\\(\\odot P\\)位于直线\\(AP\\)上方部分的圆弧上运动．点D在\\(\\odot P\\)上，满足\\(CD=\\sqrt[] { 2 }CB-CA\\)的所有点D中，必有一个点的位置始终不变．请证明．",
+      "stem_text": "如图③，在（2）的条件下，若\\(\\angle APB=90{}^\\circ\\)，点C在\\(\\odot P\\)位于直线\\(AP\\)上方部分的圆弧上运动．点D在\\(\\odot P\\)上，满足\\(CD=\\sqrt[] { 2 }CB-CA\\)的所有点D中，必有一个点的位置始终不变．请证明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "取直径 AA′ 的另一端 A′ 为 D，则 D 始终固定。",
+      "solution_steps": [
+        "由（2），P 为圆心。取 \\(D\\) 为 \\(A\\) 的对径点。设半径为 \\(R\\)，则 \\(AD=2R,\\ AB=BD=\\sqrt2R\\)。",
+        "按图③，A、C、D、B 顺次在圆上，由圆内接四边形的托勒密关系，\\(AD\\cdot CB=AC\\cdot BD+CD\\cdot AB\\)。代入即得 \\(CD=\\sqrt2CB-CA\\)。",
+        "该关系也可由相似三角形得到：在 CB 上取点 K，使 \\(\\angle CAK=\\angle DAB\\)。由同弧所对圆周角相等，有 \\(\\triangle CAK\\sim\\triangle DAB,\\ \\triangle ABK\\sim\\triangle ADC\\)，从而 \\(CK=CA\\cdot BD/AD,\\ BK=CD\\cdot AB/AD\\)，两式相加即可。",
+        "D 仅由固定点 A 和圆心 P 决定，故 C 运动时 D 的位置不变。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74,
+          77,
+          79,
+          80
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "answer": "（1）①\\(\\angle C=45^\\circ\\)。\n（1）②\\(BC=7\\sqrt2\\)。\n（2）P 为该圆的圆心。\n（3）取直径 AA′ 的另一端 A′ 为 D，则 D 始终固定。",
+  "solution_steps": [
+    "（1）① 如图①，小弧 \\(AB\\) 所对的圆心角为圆周角的两倍。由 \\(2\\angle C+\\angle C=135^\\circ\\)，得 \\(\\angle C=45^\\circ\\)，\\(\\angle AOB=90^\\circ\\)。",
+    "（1）② 以 O 为原点、OA 的反向延长线为 x 轴正方向，取 \\(A(-5,0), B(0,-5)\\)。设 \\(C(x,y)\\)，图中 \\(y>0\\)。",
+    "由 \\(OC=5,\\ AC=8\\) 得 \\(x^2+y^2=25,\\ (x+5)^2+y^2=64\\)。两式相减，得 \\(x=7/5,\\ y=24/5\\)。",
+    "故 \\(BC=\\sqrt{(7/5)^2+(24/5+5)^2}=\\sqrt{98}=7\\sqrt2\\)。",
+    "（2） 设原圆圆心为 O、半径为 \\(R\\)，M 为弦 AB 的中点。由 \\(PA=PB,\\ OA=OB\\)，点 P、O 都在 AB 的垂直平分线上。",
+    "因为 \\(\\angle C=\\tfrac12\\angle APB<60^\\circ\\)，小弧 AB 所对的圆心角为 \\(2\\angle C\\)。两等腰三角形 OAB 与 PAB 共底、顶角相等，得 \\(PM=OM\\)。",
+    "若 P 与 O 不重合，则它们关于 AB 对称，\\(OP=2OM=2R\\cos\\angle C>R\\)。这与 P 在圆内矛盾，所以 P 与 O 重合。",
+    "（3） 由（2），P 为圆心。取 \\(D\\) 为 \\(A\\) 的对径点。设半径为 \\(R\\)，则 \\(AD=2R,\\ AB=BD=\\sqrt2R\\)。",
+    "按图③，A、C、D、B 顺次在圆上，由圆内接四边形的托勒密关系，\\(AD\\cdot CB=AC\\cdot BD+CD\\cdot AB\\)。代入即得 \\(CD=\\sqrt2CB-CA\\)。",
+    "该关系也可由相似三角形得到：在 CB 上取点 K，使 \\(\\angle CAK=\\angle DAB\\)。由同弧所对圆周角相等，有 \\(\\triangle CAK\\sim\\triangle DAB,\\ \\triangle ABK\\sim\\triangle ADC\\)，从而 \\(CK=CA\\cdot BD/AD,\\ BK=CD\\cdot AB/AD\\)，两式相加即可。",
+    "D 仅由固定点 A 和圆心 P 决定，故 C 运动时 D 的位置不变。"
+  ],
+  "solution": "（1）① 如图①，小弧 \\(AB\\) 所对的圆心角为圆周角的两倍。由 \\(2\\angle C+\\angle C=135^\\circ\\)，得 \\(\\angle C=45^\\circ\\)，\\(\\angle AOB=90^\\circ\\)。\n（1）② 以 O 为原点、OA 的反向延长线为 x 轴正方向，取 \\(A(-5,0), B(0,-5)\\)。设 \\(C(x,y)\\)，图中 \\(y>0\\)。\n由 \\(OC=5,\\ AC=8\\) 得 \\(x^2+y^2=25,\\ (x+5)^2+y^2=64\\)。两式相减，得 \\(x=7/5,\\ y=24/5\\)。\n故 \\(BC=\\sqrt{(7/5)^2+(24/5+5)^2}=\\sqrt{98}=7\\sqrt2\\)。\n（2） 设原圆圆心为 O、半径为 \\(R\\)，M 为弦 AB 的中点。由 \\(PA=PB,\\ OA=OB\\)，点 P、O 都在 AB 的垂直平分线上。\n因为 \\(\\angle C=\\tfrac12\\angle APB<60^\\circ\\)，小弧 AB 所对的圆心角为 \\(2\\angle C\\)。两等腰三角形 OAB 与 PAB 共底、顶角相等，得 \\(PM=OM\\)。\n若 P 与 O 不重合，则它们关于 AB 对称，\\(OP=2OM=2R\\cos\\angle C>R\\)。这与 P 在圆内矛盾，所以 P 与 O 重合。\n（3） 由（2），P 为圆心。取 \\(D\\) 为 \\(A\\) 的对径点。设半径为 \\(R\\)，则 \\(AD=2R,\\ AB=BD=\\sqrt2R\\)。\n按图③，A、C、D、B 顺次在圆上，由圆内接四边形的托勒密关系，\\(AD\\cdot CB=AC\\cdot BD+CD\\cdot AB\\)。代入即得 \\(CD=\\sqrt2CB-CA\\)。\n该关系也可由相似三角形得到：在 CB 上取点 K，使 \\(\\angle CAK=\\angle DAB\\)。由同弧所对圆周角相等，有 \\(\\triangle CAK\\sim\\triangle DAB,\\ \\triangle ABK\\sim\\triangle ADC\\)，从而 \\(CK=CA\\cdot BD/AD,\\ BK=CD\\cdot AB/AD\\)，两式相加即可。\nD 仅由固定点 A 和圆心 P 决定，故 C 运动时 D 的位置不变。",
+  "solution_origin": "editorial_answer_and_solution",
+  "solution_figure_ids": [],
+  "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+  "source": {
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-93F92A25D8/paper-q22-p06.webp",
+      "assets/SZ-G9-T1-93F92A25D8/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          576.82,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          210.45
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      71,
+      83
+    ],
+    "solution_pages": [],
+    "solution_images": []
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

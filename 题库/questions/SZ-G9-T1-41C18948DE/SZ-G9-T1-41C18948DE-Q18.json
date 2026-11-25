@@ -1,0 +1,269 @@
+{
+  "id": "SZ-G9-T1-41C18948DE-Q18",
+  "paper_id": "SZ-G9-T1-41C18948DE",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "由边或对角线条件证明菱形、由相似比求对应线段或周长",
+  "stem": "如图，已知\\(\\vartriangle ABC\\)中，D是\\(BC\\)边上一点，过点D分别作\\(DE\\parallel AC\\)交\\(AB\\)于点E，作\\(DF\\parallel AB\\)交\\(AC\\)于点F，连接\\(AD\\)．\n〔图1〕\n（1）下列条件：\n①D是\\(BC\\)边的中点；②\\(AD是\\)\\(\\vartriangle ABC\\)的角平分线；③点E与点F关于直线\\(AD\\)对称．请从中选择一个能证明四边形\\(AEDF\\)是菱形的条件，并写出证明过程；\n（2）若四边形\\(AEDF\\)是菱形，且\\(AE=6\\)，\\(CF=3\\)，求\\(BE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-41C18948DE/figures/8c3100883d761a52024a265a68be97b3d8a65ab87f9e6e0bcd7f3dbbe5724e5a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）选择条件②，证明过程见解析；选择条件③，证明过程见解析\n（2）\\(12\\)",
+  "answer": "（1）选择条件②，证明过程见解析；选择条件③，证明过程见解析\n（2）\\(12\\)",
+  "given_solution": "【分析】（1）选择条件②：先由角平分线的定义得到\\(\\angle EAD=\\angle FAD\\)，再由\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，可得四边形\\(AFDE\\)是平行四边形，\\(\\angle EAD=\\angle FDA\\)，进一步证明\\(\\angle FDA=\\angle FAD\\)，得到\\(AF=DF\\)，即可证明平行四边形\\(AFDE\\)是菱形；选择条件③：同理可证四边形\\(AFDE\\)是平行四边形，再由轴对称的性质得到\\(DE=DF\\)，即可证明平行四边形\\(AFDE\\)是菱形；\n（2）由菱形的性质得到\\(AE=AF=DE=6\\)，则\\(AC=9\\)，证明\\(\\vartriangle BDE\\backsim \\vartriangle BCA\\)，得到\\(\\frac { BE } { BE+6 }=\\frac { 6 } { 9 }\\)，则\\(BE=4\\)．\n【小问1详解】\n证明：选择条件②：\n∵\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，\n∴\\(\\angle EAD=\\angle FAD\\)，\n∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n∴四边形\\(AFDE\\)是平行四边形，\\(\\angle EAD=\\angle FDA\\)，\n∴\\(\\angle FDA=\\angle FAD\\)，\n∴\\(AF=DF\\)，\n∴平行四边形\\(AFDE\\)是菱形；\n选择条件③：\n∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n∴四边形\\(AFDE\\)是平行四边形，\n∵点E与点F关于直线\\(AD\\)对称，\n∴\\(DE=DF\\)，\n∴平行四边形\\(AFDE\\)是菱形；\n【小问2详解】\n解：∵四边形\\(AFDE\\)是菱形，\\(AE=6\\)，\n∴\\(AE=AF=DE=6\\)，\n∴\\(AC=AF+CF=9\\)，\n∵\\(DE\\parallel AC\\)，\n∴\\(\\vartriangle BDE\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { BE } { AB }=\\frac { DE } { AC }\\)，即\\(\\frac { BE } { BE+6 }=\\frac { 6 } { 9 }\\)，\n∴\\(BE=12\\)．\n【点睛】本题主要考查了菱形的性质与判定，等腰三角形的性质与判定，相似三角形的性质与判定，角平分线的定义，平行线的性质，轴对称的性质等等，熟知菱形的性质与判定条件是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-41C18948DE/figures/8c3100883d761a52024a265a68be97b3d8a65ab87f9e6e0bcd7f3dbbe5724e5a.png"
+  ],
+  "solution": "【小问1详解】\n证明：选择条件②：\n∵\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，\n∴\\(\\angle EAD=\\angle FAD\\)，\n∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n∴四边形\\(AFDE\\)是平行四边形，\\(\\angle EAD=\\angle FDA\\)，\n∴\\(\\angle FDA=\\angle FAD\\)，\n∴\\(AF=DF\\)，\n∴平行四边形\\(AFDE\\)是菱形；\n选择条件③：\n∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n∴四边形\\(AFDE\\)是平行四边形，\n∵点E与点F关于直线\\(AD\\)对称，\n∴\\(DE=DF\\)，\n∴平行四边形\\(AFDE\\)是菱形；\n【小问2详解】\n解：∵四边形\\(AFDE\\)是菱形，\\(AE=6\\)，\n∴\\(AE=AF=DE=6\\)，\n∴\\(AC=AF+CF=9\\)，\n∵\\(DE\\parallel AC\\)，\n∴\\(\\vartriangle BDE\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { BE } { AB }=\\frac { DE } { AC }\\)，即\\(\\frac { BE } { BE+6 }=\\frac { 6 } { 9 }\\)，\n∴\\(BE=12\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：选择条件②：",
+    "∵\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，",
+    "∴\\(\\angle EAD=\\angle FAD\\)，",
+    "∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，",
+    "∴四边形\\(AFDE\\)是平行四边形，\\(\\angle EAD=\\angle FDA\\)，",
+    "∴\\(\\angle FDA=\\angle FAD\\)，",
+    "∴\\(AF=DF\\)，",
+    "∴平行四边形\\(AFDE\\)是菱形；",
+    "选择条件③：",
+    "∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，",
+    "∴四边形\\(AFDE\\)是平行四边形，",
+    "∵点E与点F关于直线\\(AD\\)对称，",
+    "∴\\(DE=DF\\)，",
+    "∴平行四边形\\(AFDE\\)是菱形；",
+    "【小问2详解】",
+    "解：∵四边形\\(AFDE\\)是菱形，\\(AE=6\\)，",
+    "∴\\(AE=AF=DE=6\\)，",
+    "∴\\(AC=AF+CF=9\\)，",
+    "∵\\(DE\\parallel AC\\)，",
+    "∴\\(\\vartriangle BDE\\backsim \\vartriangle BCA\\)，",
+    "∴\\(\\frac { BE } { AB }=\\frac { DE } { AC }\\)，即\\(\\frac { BE } { BE+6 }=\\frac { 6 } { 9 }\\)，",
+    "∴\\(BE=12\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，已知\\(\\vartriangle ABC\\)中，D是\\(BC\\)边上一点，过点D分别作\\(DE\\parallel AC\\)交\\(AB\\)于点E，作\\(DF\\parallel AB\\)交\\(AC\\)于点F，连接\\(AD\\)．\n〔图1〕",
+      "paper_blocks": [
+        50,
+        51
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-41C18948DE-Q18-P01",
+      "label": "（1）",
+      "prompt": "下列条件：\n①D是\\(BC\\)边的中点；②\\(AD是\\)\\(\\vartriangle ABC\\)的角平分线；③点E与点F关于直线\\(AD\\)对称．请从中选择一个能证明四边形\\(AEDF\\)是菱形的条件，并写出证明过程；",
+      "stem_text": "下列条件：\n①D是\\(BC\\)边的中点；②\\(AD是\\)\\(\\vartriangle ABC\\)的角平分线；③点E与点F关于直线\\(AD\\)对称．请从中选择一个能证明四边形\\(AEDF\\)是菱形的条件，并写出证明过程；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "选择条件②，证明过程见解析；选择条件③，证明过程见解析",
+      "answer": "选择条件②，证明过程见解析；选择条件③，证明过程见解析",
+      "given_solution": "证明：选择条件②：\n∵\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，\n∴\\(\\angle EAD=\\angle FAD\\)，\n∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n∴四边形\\(AFDE\\)是平行四边形，\\(\\angle EAD=\\angle FDA\\)，\n∴\\(\\angle FDA=\\angle FAD\\)，\n∴\\(AF=DF\\)，\n∴平行四边形\\(AFDE\\)是菱形；\n选择条件③：\n∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，\n∴四边形\\(AFDE\\)是平行四边形，\n∵点E与点F关于直线\\(AD\\)对称，\n∴\\(DE=DF\\)，\n∴平行四边形\\(AFDE\\)是菱形；",
+      "solution_steps": [
+        "证明：选择条件②：",
+        "∵\\(AD\\)是\\(\\vartriangle ABC\\)的角平分线，",
+        "∴\\(\\angle EAD=\\angle FAD\\)，",
+        "∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，",
+        "∴四边形\\(AFDE\\)是平行四边形，\\(\\angle EAD=\\angle FDA\\)，",
+        "∴\\(\\angle FDA=\\angle FAD\\)，",
+        "∴\\(AF=DF\\)，",
+        "∴平行四边形\\(AFDE\\)是菱形；",
+        "选择条件③：",
+        "∵\\(DE\\parallel AC\\)，\\(DF\\parallel AB\\)，",
+        "∴四边形\\(AFDE\\)是平行四边形，",
+        "∵点E与点F关于直线\\(AD\\)对称，",
+        "∴\\(DE=DF\\)，",
+        "∴平行四边形\\(AFDE\\)是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          52,
+          53
+        ],
+        "solution_block_ids": [
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-41C18948DE-Q18-P02",
+      "label": "（2）",
+      "prompt": "若四边形\\(AEDF\\)是菱形，且\\(AE=6\\)，\\(CF=3\\)，求\\(BE\\)的长．",
+      "stem_text": "若四边形\\(AEDF\\)是菱形，且\\(AE=6\\)，\\(CF=3\\)，求\\(BE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(12\\)",
+      "answer": "\\(12\\)",
+      "given_solution": "解：∵四边形\\(AFDE\\)是菱形，\\(AE=6\\)，\n∴\\(AE=AF=DE=6\\)，\n∴\\(AC=AF+CF=9\\)，\n∵\\(DE\\parallel AC\\)，\n∴\\(\\vartriangle BDE\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { BE } { AB }=\\frac { DE } { AC }\\)，即\\(\\frac { BE } { BE+6 }=\\frac { 6 } { 9 }\\)，\n∴\\(BE=12\\)．",
+      "solution_steps": [
+        "解：∵四边形\\(AFDE\\)是菱形，\\(AE=6\\)，",
+        "∴\\(AE=AF=DE=6\\)，",
+        "∴\\(AC=AF+CF=9\\)，",
+        "∵\\(DE\\parallel AC\\)，",
+        "∴\\(\\vartriangle BDE\\backsim \\vartriangle BCA\\)，",
+        "∴\\(\\frac { BE } { AB }=\\frac { DE } { AC }\\)，即\\(\\frac { BE } { BE+6 }=\\frac { 6 } { 9 }\\)，",
+        "∴\\(BE=12\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          54
+        ],
+        "solution_block_ids": [
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      50,
+      54
+    ],
+    "solution_body_blocks": [
+      260,
+      293
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-41C18948DE/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          487.27,
+          583.64,
+          696.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-41C18948DE/solution-q18-p14.webp",
+      "assets/SZ-G9-T1-41C18948DE/solution-q18-p15.webp",
+      "assets/SZ-G9-T1-41C18948DE/solution-q18-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          674.09,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          88.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.03",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G05.03.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

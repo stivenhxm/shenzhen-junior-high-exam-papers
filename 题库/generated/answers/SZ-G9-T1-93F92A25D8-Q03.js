@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q03",{"answer":"C","solution_steps":["在同圆或等圆中，等弧所对的圆心角相等，所以 C 正确。","三点共线时作不出这样的圆。外心到三个顶点等距，内心到三边等距。半径不相等的两个圆，即使圆心角相等，相应的弧长也可以不同。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

@@ -1,0 +1,512 @@
+{
+  "id": "SZ-G9-T2-1520B81A18-Q22",
+  "paper_id": "SZ-G9-T2-1520B81A18",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "“转化”是解决数学问题的重要思想方法，通过构造图形全等或者相似建立数量关系是处理问题的重要手段．\n（1）【问题情景】：如图（1），正方形\\(ABCD\\)中，点\\(E\\)是线段\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），连接\\(EA\\)．将\\(EA\\)绕点\\(E\\)顺时针旋转90°得到\\(EF\\)，连接\\(CF\\)，求\\(\\angle FCD\\)的度数．\n以下是两名同学通过不同的方法构造全等三角形来解决问题的思路，\n①小聪：过点\\(F\\)作\\(BC\\)的延长线的垂线；\n②小明：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)；\n请你选择其中一名同学的解题思路，写出完整的解答过程．\n〔图1〕\n（2）【类比探究】：如图（2）点\\(E\\)是菱形\\(ABCD\\)边\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），\\(\\angle ABC=\\alpha\\)，将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，使得\\(\\angle AEF=\\angle ABC=\\alpha\\)（\\(a\\ge 90{}^\\circ\\)），则\\(\\angle FCD\\)的度数为______（用含\\(\\alpha\\)的代数式表示）\n（3）【学以致用】：如图（3），在（2）的条件下，连结\\(AF\\)，与\\(CD\\)相交于点\\(G\\)，当\\(\\alpha =120{}^\\circ\\)时，若\\(\\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，求\\(\\frac { BE } { CE }\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/cd/cd4fbbed156fff11cdff06b4a6edd873fcafd2e0729b087d460d96822489f59d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）解答见解析；（2）\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；（3）\\(\\frac { BE } { CE }=\\frac { 2 } { 3 }\\)",
+  "answer": "（1）解答见解析；（2）\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；（3）\\(\\frac { BE } { CE }=\\frac { 2 } { 3 }\\)",
+  "given_solution": "【分析】（1）小聪解题思路：由“\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)”可证\\(\\vartriangle ABE≌\\vartriangle EGF\\)，可得\\(BE=CF\\)，\\(AB=EG\\)，可得\\(CG=FG\\)，由等腰直角三角形的性质可求解；小慧解题思路：由“\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)”可得\\(\\vartriangle AME≌\\vartriangle ECF\\)，可得\\(\\angle AME=\\angle ECF=135{}^\\circ\\)，即可求解；\n（2）由“\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)”可证\\(\\vartriangle AEM≌\\vartriangle EFC\\)，可得\\(\\angle AME=\\angle ECF\\)，由等腰三角形的性质可求解；\n（3）过点\\(A\\)作\\(AP\\bot CD\\)交\\(CD\\)的延长线于点\\(P\\)，设菱形的边长为3，由题中条件得到\\(\\vartriangle APG\\backsim \\vartriangle FCG\\)，由相似三角形的性质\\(CF=\\frac { 6\\sqrt[] { 3 } } { 5 }\\)；\\(AB\\)上截取\\(AN\\)，使\\(AN=EC\\)，连接\\(NE\\)，作\\(BO\\bot NE\\)于点\\(O\\)，如图所示，通过证明\\(\\vartriangle ANE≌\\vartriangle ECF\\)，由相似三角形的性质，解直角三角形即可得到答案．\n【详解】解：（1）任选一个思路求解即可，下面两种思路求解如下：\n小聪解题思路：过点\\(F\\)作\\(FG\\bot BC\\)交\\(BC\\)的延长线于点\\(G\\)，如图1，\n〔图2〕\n\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(90{}^\\circ\\)得到\\(EF\\)，\n\\(\\therefore AE=EF\\)，\\(\\angle AEF=90{}^\\circ\\)，\n\\(\\because FG\\bot BC\\)，\n\\(\\therefore \\angle G=90{}^\\circ =\\angle B=\\angle AEF\\)，\n\\(\\therefore \\angle BAE+\\angle AEB=90{}^\\circ =\\angle AEB+\\angle FEC\\)，\n\\(\\therefore \\angle BAE=\\angle FEC\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle EGF(AAS)\\)，\n\\(\\therefore BE=CF\\)，\\(AB=EG\\)，\n\\(\\because AB=BC\\)，\n\\(\\therefore BC=EG\\)，\n\\(\\therefore BE=CG\\)，\n\\(\\therefore CG=FG\\)，\n\\(\\therefore \\angle FCG=45{}^\\circ\\)，\n\\(\\therefore \\angle FCD=45{}^\\circ\\)；\n小慧解题思路：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图所示：\n〔图3〕\n\\(\\because BM=BE\\)，\\(AB=BC\\)，\n\\(\\therefore \\angle BME=\\angle BEM=45{}^\\circ\\)，\\(AM=EC\\)，\n\\(\\therefore \\angle AME=135{}^\\circ\\)，\n又\\(\\because AE=EF\\)，\\(\\angle BAE=\\angle FEC\\)，\n\\(\\therefore \\vartriangle AME≌\\vartriangle ECF(SAS)\\)，\n\\(\\therefore \\angle AME=\\angle ECF=135{}^\\circ\\)，\n\\(\\therefore \\angle DCF=45{}^\\circ\\)；\n（2）在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图2，\n〔图4〕\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(\\angle ABC=\\alpha\\)，\n\\(\\therefore AB=BC\\)，\\(\\angle BCD=180{}^\\circ -\\alpha\\)，\n\\(\\because BM=BE\\)，\n\\(\\therefore AM=CE\\)，\n\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，\n\\(\\therefore AE=EF\\)，\\(\\angle AEF=\\angle B=\\alpha\\)，\n\\(\\because \\angle AEC=\\angle AEF+\\angle FEC=\\angle B+\\angle BAE\\)，\n\\(\\therefore \\angle BAE=\\angle CEF\\)，\n\\(\\therefore \\vartriangle AEM≌\\vartriangle EFC(SAS)\\)，\n\\(\\therefore \\angle AME=\\angle ECF\\)，\n\\(\\because \\angle B=\\alpha\\)，\\(BM=BE\\)，\n\\(\\therefore \\angle BME=\\angle BEM=90{}^\\circ -\\frac { 1 } { 2 }\\alpha\\)，\n\\(\\therefore \\angle AME=90{}^\\circ +\\frac { 1 } { 2 }\\alpha =\\angle ECF\\)，\n\\(\\therefore \\angle DCF=\\angle ECF-\\angle BCD=\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)，\n故答案为：\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；\n（3）解：过点\\(A\\)作\\(AP\\bot CD\\)交\\(CD\\)的延长线于点\\(P\\)，设菱形的边长为3，\n\\(\\because \\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore DG=1\\)，\\(CG=2\\)，\n\\(\\because \\angle ADC=\\angle ABC=120{}^\\circ\\)，\n\\(\\therefore \\angle ADP=60{}^\\circ\\)，\n\\(\\therefore PD=\\frac { 3 } { 2 }\\)，\\(AP=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，\n\\(\\therefore PG=PD+DG=\\frac { 5 } { 2 }\\)，\n\\(\\because \\angle \\alpha =120{}^\\circ\\)，由（2）知，\\(\\angle GCF=90{}^\\circ\\)，\n\\(\\because \\angle AGP=\\angle FGC\\)，\n\\(\\therefore \\vartriangle APG\\backsim \\vartriangle FCG\\)，\n\\(\\therefore \\frac { AP } { CF }=\\frac { PG } { CG }\\)，\n\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 3 } } { 2 } } { CF }=\\frac { \\frac { 5 } { 2 } } { 2 }\\)，\n\\(\\therefore CF=\\frac { 6\\sqrt[] { 3 } } { 5 }\\)，\n\\(AB\\)上截取\\(AN\\)，使\\(AN=EC\\)，连接\\(NE\\)，作\\(BO\\bot NE\\)于点\\(O\\)，如图所示：\n〔图5〕\n由（2）可知，\\(\\vartriangle ANE≌\\vartriangle ECF\\)，\n\\(\\therefore NE=CF\\)，\n\\(\\because AB=BC\\)，\n\\(\\therefore BN=BE\\)，\n\\(\\therefore OE=ON=\\frac { 1 } { 2 }NE=\\frac { 3\\sqrt[] { 3 } } { 5 }\\)，\n\\(\\because \\angle ABC=120{}^\\circ\\)，\n\\(\\therefore \\angle BNE=\\angle BEN=30{}^\\circ\\)，\n\\(\\therefore BE=\\frac { OE } { { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ }=\\frac { 6 } { 5 }\\)，\n\\(\\therefore CE=\\frac { 9 } { 5 }\\)，\n\\(\\therefore \\frac { BE } { CE }=\\frac { 2 } { 3 }\\)．\n【点睛】本题是四边形综合题，考查了全等三角形的判定和性质，等腰直角三角形，旋转性质，正方形的性质，菱形的性质，相似三角形的判定和性质，解直角三角形等知识，添加恰当辅助线构造全等三角形或相似三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/cd/cd4fbbed156fff11cdff06b4a6edd873fcafd2e0729b087d460d96822489f59d.png",
+    "assets/figures/d6/d61011df50a3e0382189b1c306fc1929b7f4406859b89191b00169bd7c6bcae6.png",
+    "assets/figures/47/4799ebac06e1d8fd679c37f18ccc43a4f88220ad6537db622e76643896a5c323.png",
+    "assets/figures/62/629d02e0ae56970f03675eca70ecc259a6c6383ee8cb2a454fea5de93c1dbdc9.png",
+    "assets/figures/ca/ca9b5ed424efd5d624a5c7bccd48cd12ac47f9f33ff14cd64435e79c86472368.png"
+  ],
+  "solution": "解：（1）任选一个思路求解即可，下面两种思路求解如下：\n小聪解题思路：过点\\(F\\)作\\(FG\\bot BC\\)交\\(BC\\)的延长线于点\\(G\\)，如图1，\n〔图2〕\n\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(90{}^\\circ\\)得到\\(EF\\)，\n\\(\\therefore AE=EF\\)，\\(\\angle AEF=90{}^\\circ\\)，\n\\(\\because FG\\bot BC\\)，\n\\(\\therefore \\angle G=90{}^\\circ =\\angle B=\\angle AEF\\)，\n\\(\\therefore \\angle BAE+\\angle AEB=90{}^\\circ =\\angle AEB+\\angle FEC\\)，\n\\(\\therefore \\angle BAE=\\angle FEC\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle EGF(AAS)\\)，\n\\(\\therefore BE=CF\\)，\\(AB=EG\\)，\n\\(\\because AB=BC\\)，\n\\(\\therefore BC=EG\\)，\n\\(\\therefore BE=CG\\)，\n\\(\\therefore CG=FG\\)，\n\\(\\therefore \\angle FCG=45{}^\\circ\\)，\n\\(\\therefore \\angle FCD=45{}^\\circ\\)；\n小慧解题思路：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图所示：\n〔图3〕\n\\(\\because BM=BE\\)，\\(AB=BC\\)，\n\\(\\therefore \\angle BME=\\angle BEM=45{}^\\circ\\)，\\(AM=EC\\)，\n\\(\\therefore \\angle AME=135{}^\\circ\\)，\n又\\(\\because AE=EF\\)，\\(\\angle BAE=\\angle FEC\\)，\n\\(\\therefore \\vartriangle AME≌\\vartriangle ECF(SAS)\\)，\n\\(\\therefore \\angle AME=\\angle ECF=135{}^\\circ\\)，\n\\(\\therefore \\angle DCF=45{}^\\circ\\)；\n（2）在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图2，\n〔图4〕\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(\\angle ABC=\\alpha\\)，\n\\(\\therefore AB=BC\\)，\\(\\angle BCD=180{}^\\circ -\\alpha\\)，\n\\(\\because BM=BE\\)，\n\\(\\therefore AM=CE\\)，\n\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，\n\\(\\therefore AE=EF\\)，\\(\\angle AEF=\\angle B=\\alpha\\)，\n\\(\\because \\angle AEC=\\angle AEF+\\angle FEC=\\angle B+\\angle BAE\\)，\n\\(\\therefore \\angle BAE=\\angle CEF\\)，\n\\(\\therefore \\vartriangle AEM≌\\vartriangle EFC(SAS)\\)，\n\\(\\therefore \\angle AME=\\angle ECF\\)，\n\\(\\because \\angle B=\\alpha\\)，\\(BM=BE\\)，\n\\(\\therefore \\angle BME=\\angle BEM=90{}^\\circ -\\frac { 1 } { 2 }\\alpha\\)，\n\\(\\therefore \\angle AME=90{}^\\circ +\\frac { 1 } { 2 }\\alpha =\\angle ECF\\)，\n\\(\\therefore \\angle DCF=\\angle ECF-\\angle BCD=\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)，\n故答案为：\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；\n（3）解：过点\\(A\\)作\\(AP\\bot CD\\)交\\(CD\\)的延长线于点\\(P\\)，设菱形的边长为3，\n\\(\\because \\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore DG=1\\)，\\(CG=2\\)，\n\\(\\because \\angle ADC=\\angle ABC=120{}^\\circ\\)，\n\\(\\therefore \\angle ADP=60{}^\\circ\\)，\n\\(\\therefore PD=\\frac { 3 } { 2 }\\)，\\(AP=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，\n\\(\\therefore PG=PD+DG=\\frac { 5 } { 2 }\\)，\n\\(\\because \\angle \\alpha =120{}^\\circ\\)，由（2）知，\\(\\angle GCF=90{}^\\circ\\)，\n\\(\\because \\angle AGP=\\angle FGC\\)，\n\\(\\therefore \\vartriangle APG\\backsim \\vartriangle FCG\\)，\n\\(\\therefore \\frac { AP } { CF }=\\frac { PG } { CG }\\)，\n\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 3 } } { 2 } } { CF }=\\frac { \\frac { 5 } { 2 } } { 2 }\\)，\n\\(\\therefore CF=\\frac { 6\\sqrt[] { 3 } } { 5 }\\)，\n\\(AB\\)上截取\\(AN\\)，使\\(AN=EC\\)，连接\\(NE\\)，作\\(BO\\bot NE\\)于点\\(O\\)，如图所示：\n〔图5〕\n由（2）可知，\\(\\vartriangle ANE≌\\vartriangle ECF\\)，\n\\(\\therefore NE=CF\\)，\n\\(\\because AB=BC\\)，\n\\(\\therefore BN=BE\\)，\n\\(\\therefore OE=ON=\\frac { 1 } { 2 }NE=\\frac { 3\\sqrt[] { 3 } } { 5 }\\)，\n\\(\\because \\angle ABC=120{}^\\circ\\)，\n\\(\\therefore \\angle BNE=\\angle BEN=30{}^\\circ\\)，\n\\(\\therefore BE=\\frac { OE } { { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ }=\\frac { 6 } { 5 }\\)，\n\\(\\therefore CE=\\frac { 9 } { 5 }\\)，\n\\(\\therefore \\frac { BE } { CE }=\\frac { 2 } { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）任选一个思路求解即可，下面两种思路求解如下：",
+    "小聪解题思路：过点\\(F\\)作\\(FG\\bot BC\\)交\\(BC\\)的延长线于点\\(G\\)，如图1，",
+    "〔图2〕",
+    "\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(90{}^\\circ\\)得到\\(EF\\)，",
+    "\\(\\therefore AE=EF\\)，\\(\\angle AEF=90{}^\\circ\\)，",
+    "\\(\\because FG\\bot BC\\)，",
+    "\\(\\therefore \\angle G=90{}^\\circ =\\angle B=\\angle AEF\\)，",
+    "\\(\\therefore \\angle BAE+\\angle AEB=90{}^\\circ =\\angle AEB+\\angle FEC\\)，",
+    "\\(\\therefore \\angle BAE=\\angle FEC\\)，",
+    "\\(\\therefore \\vartriangle ABE≌\\vartriangle EGF(AAS)\\)，",
+    "\\(\\therefore BE=CF\\)，\\(AB=EG\\)，",
+    "\\(\\because AB=BC\\)，",
+    "\\(\\therefore BC=EG\\)，",
+    "\\(\\therefore BE=CG\\)，",
+    "\\(\\therefore CG=FG\\)，",
+    "\\(\\therefore \\angle FCG=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle FCD=45{}^\\circ\\)；",
+    "小慧解题思路：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图所示：",
+    "〔图3〕",
+    "\\(\\because BM=BE\\)，\\(AB=BC\\)，",
+    "\\(\\therefore \\angle BME=\\angle BEM=45{}^\\circ\\)，\\(AM=EC\\)，",
+    "\\(\\therefore \\angle AME=135{}^\\circ\\)，",
+    "又\\(\\because AE=EF\\)，\\(\\angle BAE=\\angle FEC\\)，",
+    "\\(\\therefore \\vartriangle AME≌\\vartriangle ECF(SAS)\\)，",
+    "\\(\\therefore \\angle AME=\\angle ECF=135{}^\\circ\\)，",
+    "\\(\\therefore \\angle DCF=45{}^\\circ\\)；",
+    "（2）在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图2，",
+    "〔图4〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(\\angle ABC=\\alpha\\)，",
+    "\\(\\therefore AB=BC\\)，\\(\\angle BCD=180{}^\\circ -\\alpha\\)，",
+    "\\(\\because BM=BE\\)，",
+    "\\(\\therefore AM=CE\\)，",
+    "\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，",
+    "\\(\\therefore AE=EF\\)，\\(\\angle AEF=\\angle B=\\alpha\\)，",
+    "\\(\\because \\angle AEC=\\angle AEF+\\angle FEC=\\angle B+\\angle BAE\\)，",
+    "\\(\\therefore \\angle BAE=\\angle CEF\\)，",
+    "\\(\\therefore \\vartriangle AEM≌\\vartriangle EFC(SAS)\\)，",
+    "\\(\\therefore \\angle AME=\\angle ECF\\)，",
+    "\\(\\because \\angle B=\\alpha\\)，\\(BM=BE\\)，",
+    "\\(\\therefore \\angle BME=\\angle BEM=90{}^\\circ -\\frac { 1 } { 2 }\\alpha\\)，",
+    "\\(\\therefore \\angle AME=90{}^\\circ +\\frac { 1 } { 2 }\\alpha =\\angle ECF\\)，",
+    "\\(\\therefore \\angle DCF=\\angle ECF-\\angle BCD=\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)，",
+    "故答案为：\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；",
+    "（3）解：过点\\(A\\)作\\(AP\\bot CD\\)交\\(CD\\)的延长线于点\\(P\\)，设菱形的边长为3，",
+    "\\(\\because \\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore DG=1\\)，\\(CG=2\\)，",
+    "\\(\\because \\angle ADC=\\angle ABC=120{}^\\circ\\)，",
+    "\\(\\therefore \\angle ADP=60{}^\\circ\\)，",
+    "\\(\\therefore PD=\\frac { 3 } { 2 }\\)，\\(AP=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，",
+    "\\(\\therefore PG=PD+DG=\\frac { 5 } { 2 }\\)，",
+    "\\(\\because \\angle \\alpha =120{}^\\circ\\)，由（2）知，\\(\\angle GCF=90{}^\\circ\\)，",
+    "\\(\\because \\angle AGP=\\angle FGC\\)，",
+    "\\(\\therefore \\vartriangle APG\\backsim \\vartriangle FCG\\)，",
+    "\\(\\therefore \\frac { AP } { CF }=\\frac { PG } { CG }\\)，",
+    "\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 3 } } { 2 } } { CF }=\\frac { \\frac { 5 } { 2 } } { 2 }\\)，",
+    "\\(\\therefore CF=\\frac { 6\\sqrt[] { 3 } } { 5 }\\)，",
+    "\\(AB\\)上截取\\(AN\\)，使\\(AN=EC\\)，连接\\(NE\\)，作\\(BO\\bot NE\\)于点\\(O\\)，如图所示：",
+    "〔图5〕",
+    "由（2）可知，\\(\\vartriangle ANE≌\\vartriangle ECF\\)，",
+    "\\(\\therefore NE=CF\\)，",
+    "\\(\\because AB=BC\\)，",
+    "\\(\\therefore BN=BE\\)，",
+    "\\(\\therefore OE=ON=\\frac { 1 } { 2 }NE=\\frac { 3\\sqrt[] { 3 } } { 5 }\\)，",
+    "\\(\\because \\angle ABC=120{}^\\circ\\)，",
+    "\\(\\therefore \\angle BNE=\\angle BEN=30{}^\\circ\\)，",
+    "\\(\\therefore BE=\\frac { OE } { { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ }=\\frac { 6 } { 5 }\\)，",
+    "\\(\\therefore CE=\\frac { 9 } { 5 }\\)，",
+    "\\(\\therefore \\frac { BE } { CE }=\\frac { 2 } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "“转化”是解决数学问题的重要思想方法，通过构造图形全等或者相似建立数量关系是处理问题的重要手段．",
+      "paper_blocks": [
+        71
+      ]
+    },
+    {
+      "id": "fig-77",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        77
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：【类比探究】：如图（2）点\\(E\\)是菱形\\(ABCD\\)边\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），\\(\\angle ABC=\\alpha\\)，将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，使得\\(\\angle AEF=\\angle ABC=\\alpha\\)（\\(a\\ge 90{}^\\circ\\)），则\\(\\angle FCD\\)的度数为______（用含\\(\\alpha\\)的代数式表示）",
+      "paper_blocks": [
+        71,
+        77,
+        78
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-1520B81A18-Q22-P01",
+      "label": "（1）",
+      "prompt": "【问题情景】：如图（1），正方形\\(ABCD\\)中，点\\(E\\)是线段\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），连接\\(EA\\)．将\\(EA\\)绕点\\(E\\)顺时针旋转90°得到\\(EF\\)，连接\\(CF\\)，求\\(\\angle FCD\\)的度数．\n以下是两名同学通过不同的方法构造全等三角形来解决问题的思路，\n①小聪：过点\\(F\\)作\\(BC\\)的延长线的垂线；\n②小明：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)；\n请你选择其中一名同学的解题思路，写出完整的解答过程．",
+      "stem_text": "【问题情景】：如图（1），正方形\\(ABCD\\)中，点\\(E\\)是线段\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），连接\\(EA\\)．将\\(EA\\)绕点\\(E\\)顺时针旋转90°得到\\(EF\\)，连接\\(CF\\)，求\\(\\angle FCD\\)的度数．\n以下是两名同学通过不同的方法构造全等三角形来解决问题的思路，\n①小聪：过点\\(F\\)作\\(BC\\)的延长线的垂线；\n②小明：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)；\n请你选择其中一名同学的解题思路，写出完整的解答过程．",
+      "material_ids": [
+        "context",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "解答见解析；",
+      "answer": "解答见解析；",
+      "given_solution": "任选一个思路求解即可，下面两种思路求解如下：\n小聪解题思路：过点\\(F\\)作\\(FG\\bot BC\\)交\\(BC\\)的延长线于点\\(G\\)，如图1，\n〔图2〕\n\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(90{}^\\circ\\)得到\\(EF\\)，\n\\(\\therefore AE=EF\\)，\\(\\angle AEF=90{}^\\circ\\)，\n\\(\\because FG\\bot BC\\)，\n\\(\\therefore \\angle G=90{}^\\circ =\\angle B=\\angle AEF\\)，\n\\(\\therefore \\angle BAE+\\angle AEB=90{}^\\circ =\\angle AEB+\\angle FEC\\)，\n\\(\\therefore \\angle BAE=\\angle FEC\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle EGF(AAS)\\)，\n\\(\\therefore BE=CF\\)，\\(AB=EG\\)，\n\\(\\because AB=BC\\)，\n\\(\\therefore BC=EG\\)，\n\\(\\therefore BE=CG\\)，\n\\(\\therefore CG=FG\\)，\n\\(\\therefore \\angle FCG=45{}^\\circ\\)，\n\\(\\therefore \\angle FCD=45{}^\\circ\\)；\n小慧解题思路：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图所示：\n〔图3〕\n\\(\\because BM=BE\\)，\\(AB=BC\\)，\n\\(\\therefore \\angle BME=\\angle BEM=45{}^\\circ\\)，\\(AM=EC\\)，\n\\(\\therefore \\angle AME=135{}^\\circ\\)，\n又\\(\\because AE=EF\\)，\\(\\angle BAE=\\angle FEC\\)，\n\\(\\therefore \\vartriangle AME≌\\vartriangle ECF(SAS)\\)，\n\\(\\therefore \\angle AME=\\angle ECF=135{}^\\circ\\)，\n\\(\\therefore \\angle DCF=45{}^\\circ\\)；",
+      "solution_steps": [
+        "任选一个思路求解即可，下面两种思路求解如下：",
+        "小聪解题思路：过点\\(F\\)作\\(FG\\bot BC\\)交\\(BC\\)的延长线于点\\(G\\)，如图1，",
+        "〔图2〕",
+        "\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(90{}^\\circ\\)得到\\(EF\\)，",
+        "\\(\\therefore AE=EF\\)，\\(\\angle AEF=90{}^\\circ\\)，",
+        "\\(\\because FG\\bot BC\\)，",
+        "\\(\\therefore \\angle G=90{}^\\circ =\\angle B=\\angle AEF\\)，",
+        "\\(\\therefore \\angle BAE+\\angle AEB=90{}^\\circ =\\angle AEB+\\angle FEC\\)，",
+        "\\(\\therefore \\angle BAE=\\angle FEC\\)，",
+        "\\(\\therefore \\vartriangle ABE≌\\vartriangle EGF(AAS)\\)，",
+        "\\(\\therefore BE=CF\\)，\\(AB=EG\\)，",
+        "\\(\\because AB=BC\\)，",
+        "\\(\\therefore BC=EG\\)，",
+        "\\(\\therefore BE=CG\\)，",
+        "\\(\\therefore CG=FG\\)，",
+        "\\(\\therefore \\angle FCG=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle FCD=45{}^\\circ\\)；",
+        "小慧解题思路：在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图所示：",
+        "〔图3〕",
+        "\\(\\because BM=BE\\)，\\(AB=BC\\)，",
+        "\\(\\therefore \\angle BME=\\angle BEM=45{}^\\circ\\)，\\(AM=EC\\)，",
+        "\\(\\therefore \\angle AME=135{}^\\circ\\)，",
+        "又\\(\\because AE=EF\\)，\\(\\angle BAE=\\angle FEC\\)，",
+        "\\(\\therefore \\vartriangle AME≌\\vartriangle ECF(SAS)\\)，",
+        "\\(\\therefore \\angle AME=\\angle ECF=135{}^\\circ\\)，",
+        "\\(\\therefore \\angle DCF=45{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "题面对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-1520B81A18-Q22-P02",
+      "label": "（2）",
+      "prompt": "【类比探究】：如图（2）点\\(E\\)是菱形\\(ABCD\\)边\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），\\(\\angle ABC=\\alpha\\)，将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，使得\\(\\angle AEF=\\angle ABC=\\alpha\\)（\\(a\\ge 90{}^\\circ\\)），则\\(\\angle FCD\\)的度数为______（用含\\(\\alpha\\)的代数式表示）",
+      "stem_text": "【类比探究】：如图（2）点\\(E\\)是菱形\\(ABCD\\)边\\(BC\\)上一点（不与点\\(B\\)、\\(C\\)重合），\\(\\angle ABC=\\alpha\\)，将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，使得\\(\\angle AEF=\\angle ABC=\\alpha\\)（\\(a\\ge 90{}^\\circ\\)），则\\(\\angle FCD\\)的度数为______（用含\\(\\alpha\\)的代数式表示）",
+      "material_ids": [
+        "context",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；",
+      "answer": "\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；",
+      "given_solution": "在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图2，\n〔图4〕\n\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(\\angle ABC=\\alpha\\)，\n\\(\\therefore AB=BC\\)，\\(\\angle BCD=180{}^\\circ -\\alpha\\)，\n\\(\\because BM=BE\\)，\n\\(\\therefore AM=CE\\)，\n\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，\n\\(\\therefore AE=EF\\)，\\(\\angle AEF=\\angle B=\\alpha\\)，\n\\(\\because \\angle AEC=\\angle AEF+\\angle FEC=\\angle B+\\angle BAE\\)，\n\\(\\therefore \\angle BAE=\\angle CEF\\)，\n\\(\\therefore \\vartriangle AEM≌\\vartriangle EFC(SAS)\\)，\n\\(\\therefore \\angle AME=\\angle ECF\\)，\n\\(\\because \\angle B=\\alpha\\)，\\(BM=BE\\)，\n\\(\\therefore \\angle BME=\\angle BEM=90{}^\\circ -\\frac { 1 } { 2 }\\alpha\\)，\n\\(\\therefore \\angle AME=90{}^\\circ +\\frac { 1 } { 2 }\\alpha =\\angle ECF\\)，\n\\(\\therefore \\angle DCF=\\angle ECF-\\angle BCD=\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)，\n故答案为：\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；",
+      "solution_steps": [
+        "在\\(AB\\)上截取\\(BM\\)，使得\\(BM=BE\\)，连接\\(EM\\)，如图2，",
+        "〔图4〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是菱形，\\(\\angle ABC=\\alpha\\)，",
+        "\\(\\therefore AB=BC\\)，\\(\\angle BCD=180{}^\\circ -\\alpha\\)，",
+        "\\(\\because BM=BE\\)，",
+        "\\(\\therefore AM=CE\\)，",
+        "\\(\\because\\)将\\(EA\\)绕点\\(E\\)顺时针旋转\\(\\alpha\\)得到\\(EF\\)，",
+        "\\(\\therefore AE=EF\\)，\\(\\angle AEF=\\angle B=\\alpha\\)，",
+        "\\(\\because \\angle AEC=\\angle AEF+\\angle FEC=\\angle B+\\angle BAE\\)，",
+        "\\(\\therefore \\angle BAE=\\angle CEF\\)，",
+        "\\(\\therefore \\vartriangle AEM≌\\vartriangle EFC(SAS)\\)，",
+        "\\(\\therefore \\angle AME=\\angle ECF\\)，",
+        "\\(\\because \\angle B=\\alpha\\)，\\(BM=BE\\)，",
+        "\\(\\therefore \\angle BME=\\angle BEM=90{}^\\circ -\\frac { 1 } { 2 }\\alpha\\)，",
+        "\\(\\therefore \\angle AME=90{}^\\circ +\\frac { 1 } { 2 }\\alpha =\\angle ECF\\)，",
+        "\\(\\therefore \\angle DCF=\\angle ECF-\\angle BCD=\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)，",
+        "故答案为：\\(\\frac { 3 } { 2 }\\alpha -90{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-1520B81A18-Q22-P03",
+      "label": "（3）",
+      "prompt": "【学以致用】：如图（3），在（2）的条件下，连结\\(AF\\)，与\\(CD\\)相交于点\\(G\\)，当\\(\\alpha =120{}^\\circ\\)时，若\\(\\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，求\\(\\frac { BE } { CE }\\)的值．",
+      "stem_text": "【学以致用】：如图（3），在（2）的条件下，连结\\(AF\\)，与\\(CD\\)相交于点\\(G\\)，当\\(\\alpha =120{}^\\circ\\)时，若\\(\\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，求\\(\\frac { BE } { CE }\\)的值．",
+      "material_ids": [
+        "context",
+        "fig-77",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G9-T2-1520B81A18-Q22-P02"
+      ],
+      "given_answer": "\\(\\frac { BE } { CE }=\\frac { 2 } { 3 }\\)",
+      "answer": "\\(\\frac { BE } { CE }=\\frac { 2 } { 3 }\\)",
+      "given_solution": "解：过点\\(A\\)作\\(AP\\bot CD\\)交\\(CD\\)的延长线于点\\(P\\)，设菱形的边长为3，\n\\(\\because \\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore DG=1\\)，\\(CG=2\\)，\n\\(\\because \\angle ADC=\\angle ABC=120{}^\\circ\\)，\n\\(\\therefore \\angle ADP=60{}^\\circ\\)，\n\\(\\therefore PD=\\frac { 3 } { 2 }\\)，\\(AP=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，\n\\(\\therefore PG=PD+DG=\\frac { 5 } { 2 }\\)，\n\\(\\because \\angle \\alpha =120{}^\\circ\\)，由（2）知，\\(\\angle GCF=90{}^\\circ\\)，\n\\(\\because \\angle AGP=\\angle FGC\\)，\n\\(\\therefore \\vartriangle APG\\backsim \\vartriangle FCG\\)，\n\\(\\therefore \\frac { AP } { CF }=\\frac { PG } { CG }\\)，\n\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 3 } } { 2 } } { CF }=\\frac { \\frac { 5 } { 2 } } { 2 }\\)，\n\\(\\therefore CF=\\frac { 6\\sqrt[] { 3 } } { 5 }\\)，\n\\(AB\\)上截取\\(AN\\)，使\\(AN=EC\\)，连接\\(NE\\)，作\\(BO\\bot NE\\)于点\\(O\\)，如图所示：\n〔图5〕\n由（2）可知，\\(\\vartriangle ANE≌\\vartriangle ECF\\)，\n\\(\\therefore NE=CF\\)，\n\\(\\because AB=BC\\)，\n\\(\\therefore BN=BE\\)，\n\\(\\therefore OE=ON=\\frac { 1 } { 2 }NE=\\frac { 3\\sqrt[] { 3 } } { 5 }\\)，\n\\(\\because \\angle ABC=120{}^\\circ\\)，\n\\(\\therefore \\angle BNE=\\angle BEN=30{}^\\circ\\)，\n\\(\\therefore BE=\\frac { OE } { { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ }=\\frac { 6 } { 5 }\\)，\n\\(\\therefore CE=\\frac { 9 } { 5 }\\)，\n\\(\\therefore \\frac { BE } { CE }=\\frac { 2 } { 3 }\\)．",
+      "solution_steps": [
+        "解：过点\\(A\\)作\\(AP\\bot CD\\)交\\(CD\\)的延长线于点\\(P\\)，设菱形的边长为3，",
+        "\\(\\because \\frac { DG } { CG }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore DG=1\\)，\\(CG=2\\)，",
+        "\\(\\because \\angle ADC=\\angle ABC=120{}^\\circ\\)，",
+        "\\(\\therefore \\angle ADP=60{}^\\circ\\)，",
+        "\\(\\therefore PD=\\frac { 3 } { 2 }\\)，\\(AP=\\frac { 3\\sqrt[] { 3 } } { 2 }\\)，",
+        "\\(\\therefore PG=PD+DG=\\frac { 5 } { 2 }\\)，",
+        "\\(\\because \\angle \\alpha =120{}^\\circ\\)，由（2）知，\\(\\angle GCF=90{}^\\circ\\)，",
+        "\\(\\because \\angle AGP=\\angle FGC\\)，",
+        "\\(\\therefore \\vartriangle APG\\backsim \\vartriangle FCG\\)，",
+        "\\(\\therefore \\frac { AP } { CF }=\\frac { PG } { CG }\\)，",
+        "\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 3 } } { 2 } } { CF }=\\frac { \\frac { 5 } { 2 } } { 2 }\\)，",
+        "\\(\\therefore CF=\\frac { 6\\sqrt[] { 3 } } { 5 }\\)，",
+        "\\(AB\\)上截取\\(AN\\)，使\\(AN=EC\\)，连接\\(NE\\)，作\\(BO\\bot NE\\)于点\\(O\\)，如图所示：",
+        "〔图5〕",
+        "由（2）可知，\\(\\vartriangle ANE≌\\vartriangle ECF\\)，",
+        "\\(\\therefore NE=CF\\)，",
+        "\\(\\because AB=BC\\)，",
+        "\\(\\therefore BN=BE\\)，",
+        "\\(\\therefore OE=ON=\\frac { 1 } { 2 }NE=\\frac { 3\\sqrt[] { 3 } } { 5 }\\)，",
+        "\\(\\because \\angle ABC=120{}^\\circ\\)，",
+        "\\(\\therefore \\angle BNE=\\angle BEN=30{}^\\circ\\)，",
+        "\\(\\therefore BE=\\frac { OE } { { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ }=\\frac { 6 } { 5 }\\)，",
+        "\\(\\therefore CE=\\frac { 9 } { 5 }\\)，",
+        "\\(\\therefore \\frac { BE } { CE }=\\frac { 2 } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          77,
+          78,
+          79
+        ],
+        "solution_block_ids": [
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      79
+    ],
+    "solution_body_blocks": [
+      333,
+      415
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-1520B81A18/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          276.36,
+          583.64,
+          716.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-1520B81A18/solution-q22-p19.webp",
+      "assets/SZ-G9-T2-1520B81A18/solution-q22-p20.webp",
+      "assets/SZ-G9-T2-1520B81A18/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-1520B81A18/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          746.36
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          392.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "小问标签汇总"
+}

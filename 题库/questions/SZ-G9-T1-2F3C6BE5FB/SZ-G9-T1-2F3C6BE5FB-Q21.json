@@ -1,0 +1,415 @@
+{
+  "id": "SZ-G9-T1-2F3C6BE5FB-Q21",
+  "paper_id": "SZ-G9-T1-2F3C6BE5FB",
+  "number": 21,
+  "type": "计算题",
+  "points": null,
+  "title": "识别黄金分割中的整体与部分、由相似比求对应线段或周长",
+  "stem": "我们知道：如图①，点B把线段\\(AC\\)分成两部分，如果\\(\\frac { BC } { AB }=\\frac { AB } { AC }\\)．那么称点为B线段\\(AC\\)的黄金分割点．它们的比值为\\(\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．\n〔图1〕\n（1）在图①中，若\\(AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，则\\(AB\\)的长为     \\({ \\rm{ c } }{ \\rm{ m } }\\)；\n（2）如图②，用边长为\\(10{ \\rm{ c } }{ \\rm{ m } }\\)的正方形纸片进行如下操作：对折正方形\\(ABCD\\)得折痕\\(EF\\)，连接\\(CE\\)，将\\(CB\\)折叠到\\(CE\\)上，点B对应点H，得折痕\\(CG\\)．试说明G是\\(AB\\)的黄金分割点；\n（3）如图③，在边长为a的正方形\\(ABCD\\)的边\\(AD\\)上任取点E，连接\\(BE\\)，作\\(CF\\bot BE\\)，交\\(AB\\)于点F，延长\\(EF、CB\\)交于点P．若E、F恰好分别是\\(AD、AB\\)的黄金分割点，请直接写出：\\(\\frac { PB } { BC }\\)的值",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-2F3C6BE5FB/figures/76920e5477941fef2d03b94bb59338c02699c5e67722018cbd0ce23653e95c69.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\((5\\sqrt[] { 5 }-5)\\)\n（2）见详解    （3）\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点",
+  "answer": "（1）\\((5\\sqrt[] { 5 }-5)\\)\n（2）见详解    （3）\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点",
+  "given_solution": "【分析】（1）由\\(AC=10{ \\rm{ c } }{ \\rm{ m } }\\)根据黄金分割的定义\\(AB=\\frac { \\sqrt[] { 5 }-1 } { 2 }AC\\)直接求出\\(AB\\)的长即可；\n（2）延长\\(DA\\)、\\(CG\\)交于点\\(K\\)，由折叠得\\(\\angle BCG=\\angle ECK\\)，\\(AE=DE=\\frac { 1 } { 2 }AD=5{ \\rm{ c } }{ \\rm{ m } }\\)，由\\(AD\\parallel BC\\)，\\(\\angle D=90{}^\\circ\\)，得\\(\\angle K=\\angle BCG\\)，则\\(\\angle K=\\angle ECK\\)，根据勾股定理得到\\(EK=EC=5\\sqrt[] { 5 }{ \\rm{ c } }{ \\rm{ m } }\\)，再证明\\(\\vartriangle AKG\\backsim \\vartriangle BCG\\)，即可求得\\(\\frac { AG } { BG }=\\frac { AK } { BC }=\\frac { 5\\sqrt[] { 5 }-5 } { 10 }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，则点\\(G\\)是\\(AB\\)的黄金分割点；\n（3）先证明\\(\\vartriangle ABE≌\\vartriangle BCF\\)，得\\(AE=BF\\)，由\\(a-AE=a-BF\\)，得\\(DE=AF\\)，再证明\\(\\vartriangle AEF\\backsim \\vartriangle BPF\\)，得\\(\\frac { AF } { BF }=\\frac { AE } { BP }\\)，所以\\(BF ^ { 2 } =BP\\cdot AF\\)，再分两种情况讨论，一是\\(PB=BC\\)，可证明\\(\\frac { AF } { BF }=\\frac { AE } { BC }=\\frac { BF } { AB }\\)，所以\\(\\frac { DE } { AE }=\\frac { AE } { AD }\\)，则\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点；二是\\(AE < DE\\)，先探究出当\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点时，\\(PB=(\\sqrt[] { 5 }-2)BC\\)，再证明当\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，则\\(DE=\\frac { \\sqrt[] { 5 }-1 } { 2 }AD\\)，\\(AF=\\frac { \\sqrt[] { 5 }-1 } { 2 }AB\\)，所以\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点．\n【小问1详解】\n解：\\(\\because AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(B\\)是\\(AC\\)的黄金分割点，\n\\(\\therefore AB=\\frac { \\sqrt[] { 5 }-1 } { 2 }AC=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\times 10=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，\n故答案为：\\((5\\sqrt[] { 5 }-5)\\)．\n【小问2详解】\n证明：如图②，延长\\(DA\\)、\\(CG\\)交于点\\(K\\)，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore AD\\parallel BC\\)，\\(\\angle D=90{}^\\circ\\)，\\(BC=CD=AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore \\angle K=\\angle BCG\\)，\n由折叠得\\(\\angle BCG=\\angle ECK\\)，\\(AE=DE=\\frac { 1 } { 2 }AD=5{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore \\angle K=\\angle ECK\\)，\n\\(\\therefore EK=EC=\\sqrt[] { DE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +10 ^ { 2 } }=5\\sqrt[] { 5 }({ \\rm{ c } }{ \\rm{ m } })\\)，\n\\(\\therefore AK=EK-AE=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\because AD\\parallel BC\\)，\n\\(\\therefore \\vartriangle AKG\\backsim \\vartriangle BCG\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BG }=\\frac { AK } { BC }=\\frac { 5\\sqrt[] { 5 }-5 } { 10 }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n\\(\\therefore\\)点\\(G\\)是\\(AB\\)的黄金分割点．\n【小问3详解】\n解：\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点，\n理由：设\\(BE\\)交\\(CF\\)于点\\(M\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore AB=BC=AD=a\\)，\\(AD\\parallel BC\\)，\\(\\angle A=\\angle FBC=90{}^\\circ\\)，\n\\(\\because CF\\bot BE\\)于点\\(M\\)，\n\\(\\therefore \\angle BMC=90{}^\\circ\\)，\n\\(\\therefore \\angle ABE=\\angle BCF=90{}^\\circ -\\angle CBE\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ ) } }\\)，\n\\(\\therefore AE=BF\\)，\n\\(\\therefore a-AE=a-BF\\)，\n\\(\\therefore DE=AF\\)，\n\\(\\because AE\\parallel BP\\)，\n\\(\\therefore \\vartriangle AEF\\backsim \\vartriangle BPF\\)，\n\\(\\therefore\\)\\(\\frac { AF } { BF }=\\frac { AE } { BP }\\)，\n\\(\\therefore BF ^ { 2 } =BP\\cdot AF\\)，\n若\\(AE>DE\\)，如图③，\n〔图3〕\n则\\(BF>AF\\)，\n当\\(BP=BC\\)时，则\\(\\frac { AF } { BF }=\\frac { AE } { BC }=\\frac { BF } { AB }\\)，\n\\(\\therefore\\)\\(\\frac { DE } { AE }=\\frac { AE } { AD }\\)，\n\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点；\n若\\(AE < DE\\)，如图④，\n〔图4〕\n设\\(DE=AF=x\\)，则\\(BF=a-x\\)，\n由\\(\\frac { AF } { BF }=\\frac { DE } { AE }=\\frac { AE } { BP }>1\\)可知\\(AE>BP\\)，\n\\(\\therefore BP < a\\)，\n当\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，由\\(BF ^ { 2 } =BP\\cdot AF\\)得\\((a-x) ^ { 2 } =(\\sqrt[] { 5 }-2)ax\\)，\n整理得\\(x ^ { 2 } -\\sqrt[] { 5 }ax+a ^ { 2 } =0\\)，\n\\(\\therefore\\)解关于\\(x\\)的方程得\\(x_{ 1 } =\\frac { \\sqrt[] { 5 }-1 } { 2 }a\\)，\\(x_{ 2 } =\\frac { \\sqrt[] { 5 }+1 } { 2 }a\\)（不符合题意，舍去），\n\\(\\therefore DE=\\frac { \\sqrt[] { 5 }-1 } { 2 }AD\\)，\\(AF=\\frac { \\sqrt[] { 5 }-1 } { 2 }AB\\)，\n\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点．\n【点睛】此题考查正方形的性质、全等三角形的判定与性质、相似三角形的判定与性质、一元二次方程的解法与应用、黄金分割原理的应用等知识与方法，解题过程中还要注意数形结合与分类讨论数学思想的运用，求得所有符合题意的结论．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-2F3C6BE5FB/figures/76920e5477941fef2d03b94bb59338c02699c5e67722018cbd0ce23653e95c69.png",
+    "assets/SZ-G9-T1-2F3C6BE5FB/figures/56f05248c1eed534d06a9fad10712c34effa1873d98ae95184416ed57fa1444a.png",
+    "assets/SZ-G9-T1-2F3C6BE5FB/figures/7c48673a348619d0586da6343f1c041d00a91d6032be73fe1786a3e234c8bfe6.png",
+    "assets/SZ-G9-T1-2F3C6BE5FB/figures/032fb3e50923675cdee4c891b2f268dc2291a7c7b5debf27bfc7601aa9a624f8.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(B\\)是\\(AC\\)的黄金分割点，\n\\(\\therefore AB=\\frac { \\sqrt[] { 5 }-1 } { 2 }AC=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\times 10=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，\n故答案为：\\((5\\sqrt[] { 5 }-5)\\)．\n【小问2详解】\n证明：如图②，延长\\(DA\\)、\\(CG\\)交于点\\(K\\)，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore AD\\parallel BC\\)，\\(\\angle D=90{}^\\circ\\)，\\(BC=CD=AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore \\angle K=\\angle BCG\\)，\n由折叠得\\(\\angle BCG=\\angle ECK\\)，\\(AE=DE=\\frac { 1 } { 2 }AD=5{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore \\angle K=\\angle ECK\\)，\n\\(\\therefore EK=EC=\\sqrt[] { DE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +10 ^ { 2 } }=5\\sqrt[] { 5 }({ \\rm{ c } }{ \\rm{ m } })\\)，\n\\(\\therefore AK=EK-AE=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\because AD\\parallel BC\\)，\n\\(\\therefore \\vartriangle AKG\\backsim \\vartriangle BCG\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BG }=\\frac { AK } { BC }=\\frac { 5\\sqrt[] { 5 }-5 } { 10 }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n\\(\\therefore\\)点\\(G\\)是\\(AB\\)的黄金分割点．\n【小问3详解】\n解：\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点，\n理由：设\\(BE\\)交\\(CF\\)于点\\(M\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore AB=BC=AD=a\\)，\\(AD\\parallel BC\\)，\\(\\angle A=\\angle FBC=90{}^\\circ\\)，\n\\(\\because CF\\bot BE\\)于点\\(M\\)，\n\\(\\therefore \\angle BMC=90{}^\\circ\\)，\n\\(\\therefore \\angle ABE=\\angle BCF=90{}^\\circ -\\angle CBE\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ ) } }\\)，\n\\(\\therefore AE=BF\\)，\n\\(\\therefore a-AE=a-BF\\)，\n\\(\\therefore DE=AF\\)，\n\\(\\because AE\\parallel BP\\)，\n\\(\\therefore \\vartriangle AEF\\backsim \\vartriangle BPF\\)，\n\\(\\therefore\\)\\(\\frac { AF } { BF }=\\frac { AE } { BP }\\)，\n\\(\\therefore BF ^ { 2 } =BP\\cdot AF\\)，\n若\\(AE>DE\\)，如图③，\n〔图3〕\n则\\(BF>AF\\)，\n当\\(BP=BC\\)时，则\\(\\frac { AF } { BF }=\\frac { AE } { BC }=\\frac { BF } { AB }\\)，\n\\(\\therefore\\)\\(\\frac { DE } { AE }=\\frac { AE } { AD }\\)，\n\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点；\n若\\(AE < DE\\)，如图④，\n〔图4〕\n设\\(DE=AF=x\\)，则\\(BF=a-x\\)，\n由\\(\\frac { AF } { BF }=\\frac { DE } { AE }=\\frac { AE } { BP }>1\\)可知\\(AE>BP\\)，\n\\(\\therefore BP < a\\)，\n当\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，由\\(BF ^ { 2 } =BP\\cdot AF\\)得\\((a-x) ^ { 2 } =(\\sqrt[] { 5 }-2)ax\\)，\n整理得\\(x ^ { 2 } -\\sqrt[] { 5 }ax+a ^ { 2 } =0\\)，\n\\(\\therefore\\)解关于\\(x\\)的方程得\\(x_{ 1 } =\\frac { \\sqrt[] { 5 }-1 } { 2 }a\\)，\\(x_{ 2 } =\\frac { \\sqrt[] { 5 }+1 } { 2 }a\\)（不符合题意，舍去），\n\\(\\therefore DE=\\frac { \\sqrt[] { 5 }-1 } { 2 }AD\\)，\\(AF=\\frac { \\sqrt[] { 5 }-1 } { 2 }AB\\)，\n\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(B\\)是\\(AC\\)的黄金分割点，",
+    "\\(\\therefore AB=\\frac { \\sqrt[] { 5 }-1 } { 2 }AC=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\times 10=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "故答案为：\\((5\\sqrt[] { 5 }-5)\\)．",
+    "【小问2详解】",
+    "证明：如图②，延长\\(DA\\)、\\(CG\\)交于点\\(K\\)，",
+    "〔图2〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "\\(\\therefore AD\\parallel BC\\)，\\(\\angle D=90{}^\\circ\\)，\\(BC=CD=AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "\\(\\therefore \\angle K=\\angle BCG\\)，",
+    "由折叠得\\(\\angle BCG=\\angle ECK\\)，\\(AE=DE=\\frac { 1 } { 2 }AD=5{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "\\(\\therefore \\angle K=\\angle ECK\\)，",
+    "\\(\\therefore EK=EC=\\sqrt[] { DE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +10 ^ { 2 } }=5\\sqrt[] { 5 }({ \\rm{ c } }{ \\rm{ m } })\\)，",
+    "\\(\\therefore AK=EK-AE=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "\\(\\because AD\\parallel BC\\)，",
+    "\\(\\therefore \\vartriangle AKG\\backsim \\vartriangle BCG\\)，",
+    "\\(\\therefore\\)\\(\\frac { AG } { BG }=\\frac { AK } { BC }=\\frac { 5\\sqrt[] { 5 }-5 } { 10 }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，",
+    "\\(\\therefore\\)点\\(G\\)是\\(AB\\)的黄金分割点．",
+    "【小问3详解】",
+    "解：\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点，",
+    "理由：设\\(BE\\)交\\(CF\\)于点\\(M\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore AB=BC=AD=a\\)，\\(AD\\parallel BC\\)，\\(\\angle A=\\angle FBC=90{}^\\circ\\)，",
+    "\\(\\because CF\\bot BE\\)于点\\(M\\)，",
+    "\\(\\therefore \\angle BMC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ABE=\\angle BCF=90{}^\\circ -\\angle CBE\\)，",
+    "\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ ) } }\\)，",
+    "\\(\\therefore AE=BF\\)，",
+    "\\(\\therefore a-AE=a-BF\\)，",
+    "\\(\\therefore DE=AF\\)，",
+    "\\(\\because AE\\parallel BP\\)，",
+    "\\(\\therefore \\vartriangle AEF\\backsim \\vartriangle BPF\\)，",
+    "\\(\\therefore\\)\\(\\frac { AF } { BF }=\\frac { AE } { BP }\\)，",
+    "\\(\\therefore BF ^ { 2 } =BP\\cdot AF\\)，",
+    "若\\(AE>DE\\)，如图③，",
+    "〔图3〕",
+    "则\\(BF>AF\\)，",
+    "当\\(BP=BC\\)时，则\\(\\frac { AF } { BF }=\\frac { AE } { BC }=\\frac { BF } { AB }\\)，",
+    "\\(\\therefore\\)\\(\\frac { DE } { AE }=\\frac { AE } { AD }\\)，",
+    "\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点；",
+    "若\\(AE < DE\\)，如图④，",
+    "〔图4〕",
+    "设\\(DE=AF=x\\)，则\\(BF=a-x\\)，",
+    "由\\(\\frac { AF } { BF }=\\frac { DE } { AE }=\\frac { AE } { BP }>1\\)可知\\(AE>BP\\)，",
+    "\\(\\therefore BP < a\\)，",
+    "当\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，由\\(BF ^ { 2 } =BP\\cdot AF\\)得\\((a-x) ^ { 2 } =(\\sqrt[] { 5 }-2)ax\\)，",
+    "整理得\\(x ^ { 2 } -\\sqrt[] { 5 }ax+a ^ { 2 } =0\\)，",
+    "\\(\\therefore\\)解关于\\(x\\)的方程得\\(x_{ 1 } =\\frac { \\sqrt[] { 5 }-1 } { 2 }a\\)，\\(x_{ 2 } =\\frac { \\sqrt[] { 5 }+1 } { 2 }a\\)（不符合题意，舍去），",
+    "\\(\\therefore DE=\\frac { \\sqrt[] { 5 }-1 } { 2 }AD\\)，\\(AF=\\frac { \\sqrt[] { 5 }-1 } { 2 }AB\\)，",
+    "\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "我们知道：如图①，点B把线段\\(AC\\)分成两部分，如果\\(\\frac { BC } { AB }=\\frac { AB } { AC }\\)．那么称点为B线段\\(AC\\)的黄金分割点．它们的比值为\\(\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)．\n〔图1〕",
+      "paper_blocks": [
+        56,
+        57
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-2F3C6BE5FB-Q21-P01",
+      "label": "（1）",
+      "prompt": "在图①中，若\\(AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，则\\(AB\\)的长为     \\({ \\rm{ c } }{ \\rm{ m } }\\)；",
+      "stem_text": "在图①中，若\\(AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，则\\(AB\\)的长为     \\({ \\rm{ c } }{ \\rm{ m } }\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\((5\\sqrt[] { 5 }-5)\\)",
+      "answer": "\\((5\\sqrt[] { 5 }-5)\\)",
+      "given_solution": "解：\\(\\because AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(B\\)是\\(AC\\)的黄金分割点，\n\\(\\therefore AB=\\frac { \\sqrt[] { 5 }-1 } { 2 }AC=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\times 10=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，\n故答案为：\\((5\\sqrt[] { 5 }-5)\\)．",
+      "solution_steps": [
+        "解：\\(\\because AC=10{ \\rm{ c } }{ \\rm{ m } }\\)，点\\(B\\)是\\(AC\\)的黄金分割点，",
+        "\\(\\therefore AB=\\frac { \\sqrt[] { 5 }-1 } { 2 }AC=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\times 10=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "故答案为：\\((5\\sqrt[] { 5 }-5)\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.01"
+      ],
+      "exam_ids": [
+        "E.G08.01.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“识别黄金分割中的整体与部分”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-2F3C6BE5FB-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图②，用边长为\\(10{ \\rm{ c } }{ \\rm{ m } }\\)的正方形纸片进行如下操作：对折正方形\\(ABCD\\)得折痕\\(EF\\)，连接\\(CE\\)，将\\(CB\\)折叠到\\(CE\\)上，点B对应点H，得折痕\\(CG\\)．试说明G是\\(AB\\)的黄金分割点；",
+      "stem_text": "如图②，用边长为\\(10{ \\rm{ c } }{ \\rm{ m } }\\)的正方形纸片进行如下操作：对折正方形\\(ABCD\\)得折痕\\(EF\\)，连接\\(CE\\)，将\\(CB\\)折叠到\\(CE\\)上，点B对应点H，得折痕\\(CG\\)．试说明G是\\(AB\\)的黄金分割点；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见详解",
+      "answer": "见详解",
+      "given_solution": "证明：如图②，延长\\(DA\\)、\\(CG\\)交于点\\(K\\)，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore AD\\parallel BC\\)，\\(\\angle D=90{}^\\circ\\)，\\(BC=CD=AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore \\angle K=\\angle BCG\\)，\n由折叠得\\(\\angle BCG=\\angle ECK\\)，\\(AE=DE=\\frac { 1 } { 2 }AD=5{ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\therefore \\angle K=\\angle ECK\\)，\n\\(\\therefore EK=EC=\\sqrt[] { DE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +10 ^ { 2 } }=5\\sqrt[] { 5 }({ \\rm{ c } }{ \\rm{ m } })\\)，\n\\(\\therefore AK=EK-AE=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，\n\\(\\because AD\\parallel BC\\)，\n\\(\\therefore \\vartriangle AKG\\backsim \\vartriangle BCG\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BG }=\\frac { AK } { BC }=\\frac { 5\\sqrt[] { 5 }-5 } { 10 }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n\\(\\therefore\\)点\\(G\\)是\\(AB\\)的黄金分割点．",
+      "solution_steps": [
+        "证明：如图②，延长\\(DA\\)、\\(CG\\)交于点\\(K\\)，",
+        "〔图2〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，\\(AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "\\(\\therefore AD\\parallel BC\\)，\\(\\angle D=90{}^\\circ\\)，\\(BC=CD=AD=10{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "\\(\\therefore \\angle K=\\angle BCG\\)，",
+        "由折叠得\\(\\angle BCG=\\angle ECK\\)，\\(AE=DE=\\frac { 1 } { 2 }AD=5{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "\\(\\therefore \\angle K=\\angle ECK\\)，",
+        "\\(\\therefore EK=EC=\\sqrt[] { DE ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +10 ^ { 2 } }=5\\sqrt[] { 5 }({ \\rm{ c } }{ \\rm{ m } })\\)，",
+        "\\(\\therefore AK=EK-AE=(5\\sqrt[] { 5 }-5){ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "\\(\\because AD\\parallel BC\\)，",
+        "\\(\\therefore \\vartriangle AKG\\backsim \\vartriangle BCG\\)，",
+        "\\(\\therefore\\)\\(\\frac { AG } { BG }=\\frac { AK } { BC }=\\frac { 5\\sqrt[] { 5 }-5 } { 10 }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，",
+        "\\(\\therefore\\)点\\(G\\)是\\(AB\\)的黄金分割点．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          59
+        ],
+        "solution_block_ids": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-2F3C6BE5FB-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图③，在边长为a的正方形\\(ABCD\\)的边\\(AD\\)上任取点E，连接\\(BE\\)，作\\(CF\\bot BE\\)，交\\(AB\\)于点F，延长\\(EF、CB\\)交于点P．若E、F恰好分别是\\(AD、AB\\)的黄金分割点，请直接写出：\\(\\frac { PB } { BC }\\)的值",
+      "stem_text": "如图③，在边长为a的正方形\\(ABCD\\)的边\\(AD\\)上任取点E，连接\\(BE\\)，作\\(CF\\bot BE\\)，交\\(AB\\)于点F，延长\\(EF、CB\\)交于点P．若E、F恰好分别是\\(AD、AB\\)的黄金分割点，请直接写出：\\(\\frac { PB } { BC }\\)的值",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点",
+      "answer": "\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点",
+      "given_solution": "解：\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点，\n理由：设\\(BE\\)交\\(CF\\)于点\\(M\\)，\n\\(\\because\\)四边形\\(ABCD\\)是正方形，\n\\(\\therefore AB=BC=AD=a\\)，\\(AD\\parallel BC\\)，\\(\\angle A=\\angle FBC=90{}^\\circ\\)，\n\\(\\because CF\\bot BE\\)于点\\(M\\)，\n\\(\\therefore \\angle BMC=90{}^\\circ\\)，\n\\(\\therefore \\angle ABE=\\angle BCF=90{}^\\circ -\\angle CBE\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ ) } }\\)，\n\\(\\therefore AE=BF\\)，\n\\(\\therefore a-AE=a-BF\\)，\n\\(\\therefore DE=AF\\)，\n\\(\\because AE\\parallel BP\\)，\n\\(\\therefore \\vartriangle AEF\\backsim \\vartriangle BPF\\)，\n\\(\\therefore\\)\\(\\frac { AF } { BF }=\\frac { AE } { BP }\\)，\n\\(\\therefore BF ^ { 2 } =BP\\cdot AF\\)，\n若\\(AE>DE\\)，如图③，\n〔图3〕\n则\\(BF>AF\\)，\n当\\(BP=BC\\)时，则\\(\\frac { AF } { BF }=\\frac { AE } { BC }=\\frac { BF } { AB }\\)，\n\\(\\therefore\\)\\(\\frac { DE } { AE }=\\frac { AE } { AD }\\)，\n\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点；\n若\\(AE < DE\\)，如图④，\n〔图4〕\n设\\(DE=AF=x\\)，则\\(BF=a-x\\)，\n由\\(\\frac { AF } { BF }=\\frac { DE } { AE }=\\frac { AE } { BP }>1\\)可知\\(AE>BP\\)，\n\\(\\therefore BP < a\\)，\n当\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，由\\(BF ^ { 2 } =BP\\cdot AF\\)得\\((a-x) ^ { 2 } =(\\sqrt[] { 5 }-2)ax\\)，\n整理得\\(x ^ { 2 } -\\sqrt[] { 5 }ax+a ^ { 2 } =0\\)，\n\\(\\therefore\\)解关于\\(x\\)的方程得\\(x_{ 1 } =\\frac { \\sqrt[] { 5 }-1 } { 2 }a\\)，\\(x_{ 2 } =\\frac { \\sqrt[] { 5 }+1 } { 2 }a\\)（不符合题意，舍去），\n\\(\\therefore DE=\\frac { \\sqrt[] { 5 }-1 } { 2 }AD\\)，\\(AF=\\frac { \\sqrt[] { 5 }-1 } { 2 }AB\\)，\n\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点．",
+      "solution_steps": [
+        "解：\\(PB=BC\\)或\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，\\(E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点，",
+        "理由：设\\(BE\\)交\\(CF\\)于点\\(M\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore AB=BC=AD=a\\)，\\(AD\\parallel BC\\)，\\(\\angle A=\\angle FBC=90{}^\\circ\\)，",
+        "\\(\\because CF\\bot BE\\)于点\\(M\\)，",
+        "\\(\\therefore \\angle BMC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ABE=\\angle BCF=90{}^\\circ -\\angle CBE\\)，",
+        "\\(\\therefore \\vartriangle ABE≌\\vartriangle BCF{ \\rm{ ( } }{ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }{ \\rm{ ) } }\\)，",
+        "\\(\\therefore AE=BF\\)，",
+        "\\(\\therefore a-AE=a-BF\\)，",
+        "\\(\\therefore DE=AF\\)，",
+        "\\(\\because AE\\parallel BP\\)，",
+        "\\(\\therefore \\vartriangle AEF\\backsim \\vartriangle BPF\\)，",
+        "\\(\\therefore\\)\\(\\frac { AF } { BF }=\\frac { AE } { BP }\\)，",
+        "\\(\\therefore BF ^ { 2 } =BP\\cdot AF\\)，",
+        "若\\(AE>DE\\)，如图③，",
+        "〔图3〕",
+        "则\\(BF>AF\\)，",
+        "当\\(BP=BC\\)时，则\\(\\frac { AF } { BF }=\\frac { AE } { BC }=\\frac { BF } { AB }\\)，",
+        "\\(\\therefore\\)\\(\\frac { DE } { AE }=\\frac { AE } { AD }\\)，",
+        "\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点；",
+        "若\\(AE < DE\\)，如图④，",
+        "〔图4〕",
+        "设\\(DE=AF=x\\)，则\\(BF=a-x\\)，",
+        "由\\(\\frac { AF } { BF }=\\frac { DE } { AE }=\\frac { AE } { BP }>1\\)可知\\(AE>BP\\)，",
+        "\\(\\therefore BP < a\\)，",
+        "当\\(PB=(\\sqrt[] { 5 }-2)BC\\)时，由\\(BF ^ { 2 } =BP\\cdot AF\\)得\\((a-x) ^ { 2 } =(\\sqrt[] { 5 }-2)ax\\)，",
+        "整理得\\(x ^ { 2 } -\\sqrt[] { 5 }ax+a ^ { 2 } =0\\)，",
+        "\\(\\therefore\\)解关于\\(x\\)的方程得\\(x_{ 1 } =\\frac { \\sqrt[] { 5 }-1 } { 2 }a\\)，\\(x_{ 2 } =\\frac { \\sqrt[] { 5 }+1 } { 2 }a\\)（不符合题意，舍去），",
+        "\\(\\therefore DE=\\frac { \\sqrt[] { 5 }-1 } { 2 }AD\\)，\\(AF=\\frac { \\sqrt[] { 5 }-1 } { 2 }AB\\)，",
+        "\\(\\therefore E\\)、\\(F\\)分别是\\(AD\\)、\\(AB\\)的黄金分割点．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          60
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21,
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      60
+    ],
+    "solution_body_blocks": [
+      384,
+      445
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-2F3C6BE5FB/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          77.27,
+          583.64,
+          404.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-2F3C6BE5FB/solution-q21-p20.webp",
+      "assets/SZ-G9-T1-2F3C6BE5FB/solution-q21-p21.webp",
+      "assets/SZ-G9-T1-2F3C6BE5FB/solution-q21-p22.webp",
+      "assets/SZ-G9-T1-2F3C6BE5FB/solution-q21-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          300.45,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          252.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.01.03",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“识别黄金分割中的整体与部分”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

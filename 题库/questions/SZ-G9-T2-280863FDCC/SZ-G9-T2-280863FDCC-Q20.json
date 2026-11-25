@@ -1,0 +1,444 @@
+{
+  "id": "SZ-G9-T2-280863FDCC-Q20",
+  "paper_id": "SZ-G9-T2-280863FDCC",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由边角条件解直角三角形",
+  "stem": "在平行四边形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=4\\)，点\\(E\\)为平面内一点，且\\(BE=1\\)．\n〔图1〕\n（1）若\\(AB=BC\\)，\n①如图1，当点\\(E\\)在\\(BC\\)上时，连接\\(AE\\)，作\\(\\angle EAF=60{}^\\circ\\)交\\(CD\\)于点\\(F\\)，连接\\(AC\\)、\\(EF\\)，求证：\\(\\vartriangle EAF\\)为等边三角形；\n②如图2，连接\\(AE\\)，作\\(\\angle EAF=30{}^\\circ\\)，作\\(EF\\bot AF\\)于点\\(F\\)，连接\\(CF\\)，当点\\(F\\)在线段\\(BC\\)上时，求\\(CF\\)的长度；\n（2）如图3，连接\\(AC\\)，若\\(\\angle BAC=90{}^\\circ\\)，\\(P\\)为\\(AB\\)边上一点（不与\\(A\\)、\\(B\\)重合），连接\\(PE\\)，以\\(PE\\)为边作\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EPF\\)，且\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，作\\(\\angle PEF\\)的角平分线\\(EG\\)，与\\(PF\\)交于点\\(G\\)，连接\\(DG\\)，点\\(E\\)在运动的过程中，\\(DG\\)的最大值与最小值的差为__________．",
+  "choices": [],
+  "figures": [
+    "assets/figures/b2/b2ee5a93370116748292128864fbfa4631704a498f899641fee78e313f77273a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①见解析；②\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)\n（2）\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+  "answer": "（1）①见解析；②\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)\n（2）\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+  "given_solution": "【分析】（1）①由\\(AB=BC\\)，得平行四边形\\(ABCD\\)是菱形，推出\\(\\vartriangle ABC\\)为等边三角形，得到\\(\\angle EAF=60{}^\\circ\\)，再证明\\(\\vartriangle ABE≌\\vartriangle ACF\\)得到\\(AE=AF\\)，即可得到结论；\n②作\\(AH\\bot BC\\)于\\(H\\)，则\\(BH=CH=2\\)，由\\(sin\\angle ABH=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)， \\(cos\\angle EAF=\\frac { AF } { AE }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，得到\\(\\frac { AH } { AB }=\\frac { AF } { AE }\\)，推出\\(\\vartriangle ABE\\backsim \\vartriangle AHF\\)，列得\\(\\frac { FH } { EB }=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，由此求出\\(FH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，再分当\\(F\\)落在\\(H\\)左侧时，\\(CF=CH+HF=2+\\frac { \\sqrt[] { 3 } } { 2 }\\)；当\\(F\\)落在\\(H\\)右侧时，\\(CF=CH-HF=2-\\frac { \\sqrt[] { 3 } } { 2 }\\)；\n（2）作\\(PN\\bot AB\\)，且\\(\\angle PBN=30{}^\\circ\\)，连接\\(NG,DN\\)，证明\\(\\vartriangle BPN\\backsim \\vartriangle EPG\\)，得到\\(\\frac { BP } { PE }=\\frac { PN } { PG }\\)，再证明\\(\\vartriangle BPE\\backsim \\vartriangle NPG\\)，得到\\(\\frac { NG } { BE }=\\frac { PN } { PB }\\)，根据\\(\\frac { PN } { PB }=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)，求出\\(NG=\\frac { \\sqrt[] { 3 } } { 3 }\\)，利用两点之间线段最短，得\\(DG+NG\\ge DN\\)，\\(NG+DN\\ge DG\\)，即\\(DN-NG\\le DG\\le NG+DN\\)，由此得到当D、N、G在一条直线上时，\\(DG\\)取最大值是\\(NG+DN\\)，取最小值是\\(DN-NG\\)，计算可得两者之差．\n【小问1详解】\n①在平行四边形\\(ABCD\\)中，\\(AB=BC\\)， \\(\\therefore\\)平行四边形\\(ABCD\\)是菱形，\n〔图2〕\n\\(\\therefore CA\\)平分\\(\\angle BCD\\)\n\\(\\because BA=BC\\)，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)\n\\(\\therefore \\vartriangle ABC\\)为等边三角形\n\\(\\therefore AB=AC\\)，\\(\\angle BAC=60{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 2=60{}^\\circ -\\angle EAC\\)\n在菱形\\(ABCD\\)中，\\(AB\\parallel CD\\)\n则\\(\\angle BCD=120{}^\\circ\\)\n\\(\\therefore \\angle ACF=60{}^\\circ\\)\n\\(\\therefore \\angle ACF=\\angle B\\)\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(\\angle 1=\\angle 2\\)\n\\(\\therefore \\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n\\(\\therefore AE=AF\\)\n\\(\\because \\angle EAF=60{}^\\circ\\)\n\\(\\therefore \\vartriangle AEF\\)为等边三角形．\n②作\\(AH\\bot BC\\)于\\(H\\)，则\\(BH=CH=2\\)\n〔图3〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABH\\)中，\\(sin\\angle ABH=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\\(\\angle BAH{ \\rm{ = } }{ \\rm{ 3 } }{ \\rm{ 0 } }{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)，\\(cos\\angle EAF=\\frac { AF } { AE }=\\frac { \\sqrt[] { 3 } } { 2 }\\)\n\\(\\therefore \\frac { AH } { AB }=\\frac { AF } { AE }\\)，\\(\\angle BAE=\\angle HAF\\)\n\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle AHF\\)\n\\(\\therefore \\frac { FH } { EB }=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n∵\\(BE=1\\)，\n\\(\\therefore FH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n\\(\\therefore\\)当\\(F\\)落在\\(H\\)左侧时，\\(CF=CH+HF=2+\\frac { \\sqrt[] { 3 } } { 2 }\\)\n当\\(F\\)落在\\(H\\)右侧时，\\(CF=CH-HF=2-\\frac { \\sqrt[] { 3 } } { 2 }\\)\n〔图4〕\n综上，\\(CF\\)的长度是\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)；\n【小问2详解】\n如图，作\\(PN\\bot AB\\)，且\\(\\angle PBN=30{}^\\circ\\)，连接\\(NG,DN\\)，\n〔图5〕\n在\\(\\vartriangle PEF\\)中，\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，\\(EG\\)平分\\(\\angle PEF\\)，\n∴ \\(\\angle PEG=30{}^\\circ =\\angle PBN\\)，\n又∵\\(\\angle BPN=\\angle EPG\\)，\n∴\\(\\vartriangle BPN\\backsim \\vartriangle EPG\\)，\n∴\\(\\frac { BP } { PE }=\\frac { PN } { PG }\\)\n又∵\\(\\angle BPN=\\angle EPG=90{}^\\circ\\)，\n∴\\(\\vartriangle BPE\\backsim \\vartriangle NPG\\)\n∴\\(\\frac { NG } { BE }=\\frac { PN } { PB }\\)\n∵\\(\\frac { PN } { PB }=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(\\frac { NG } { BE }=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(NG=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n由两点之间线段最短，得\\(DG+NG\\ge DN\\)，\\(NG+DN\\ge DG\\)，\n∴\\(DN-NG\\le DG\\le NG+DN\\)，\n当D、N、G在一条直线上时，\\(DG\\)取最大值是\\(NG+DN\\)，取最小值是\\(DN-NG\\)，\n∴两者之差为\\(NG+DN-\\left ( { DN-NG } \\right )=2NG=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n故答案为：\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．\n【点睛】此题考查了平行四边形的性质，相似三角形的判定和性质，菱形的判定和性质，全等三角形的判定和性质，等边三角形的判定，正确理解各判定和性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/b2/b2ee5a93370116748292128864fbfa4631704a498f899641fee78e313f77273a.png",
+    "assets/figures/ac/ac6d559c849fd41847cd6f20359c7bfb44a62c398e8f6786a0470be60b53364b.png",
+    "assets/figures/f6/f6064f66ae5e4f9e16b6c4f2573e1a58512d21b80ef3d620221f439c0af95b6f.png",
+    "assets/figures/bb/bb2765e40a059cb3884b4fa407ffcde51b6bbdcb50cc9f42f91525ed2ecd1936.png",
+    "assets/figures/0f/0facd5c18bccadb64a155aca4a3b04bd3b050a45f463b5459bbe02322059d45f.png"
+  ],
+  "solution": "【小问1详解】\n①在平行四边形\\(ABCD\\)中，\\(AB=BC\\)， \\(\\therefore\\)平行四边形\\(ABCD\\)是菱形，\n〔图2〕\n\\(\\therefore CA\\)平分\\(\\angle BCD\\)\n\\(\\because BA=BC\\)，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)\n\\(\\therefore \\vartriangle ABC\\)为等边三角形\n\\(\\therefore AB=AC\\)，\\(\\angle BAC=60{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 2=60{}^\\circ -\\angle EAC\\)\n在菱形\\(ABCD\\)中，\\(AB\\parallel CD\\)\n则\\(\\angle BCD=120{}^\\circ\\)\n\\(\\therefore \\angle ACF=60{}^\\circ\\)\n\\(\\therefore \\angle ACF=\\angle B\\)\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(\\angle 1=\\angle 2\\)\n\\(\\therefore \\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n\\(\\therefore AE=AF\\)\n\\(\\because \\angle EAF=60{}^\\circ\\)\n\\(\\therefore \\vartriangle AEF\\)为等边三角形．\n②作\\(AH\\bot BC\\)于\\(H\\)，则\\(BH=CH=2\\)\n〔图3〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABH\\)中，\\(sin\\angle ABH=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\\(\\angle BAH{ \\rm{ = } }{ \\rm{ 3 } }{ \\rm{ 0 } }{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)，\\(cos\\angle EAF=\\frac { AF } { AE }=\\frac { \\sqrt[] { 3 } } { 2 }\\)\n\\(\\therefore \\frac { AH } { AB }=\\frac { AF } { AE }\\)，\\(\\angle BAE=\\angle HAF\\)\n\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle AHF\\)\n\\(\\therefore \\frac { FH } { EB }=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n∵\\(BE=1\\)，\n\\(\\therefore FH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n\\(\\therefore\\)当\\(F\\)落在\\(H\\)左侧时，\\(CF=CH+HF=2+\\frac { \\sqrt[] { 3 } } { 2 }\\)\n当\\(F\\)落在\\(H\\)右侧时，\\(CF=CH-HF=2-\\frac { \\sqrt[] { 3 } } { 2 }\\)\n〔图4〕\n综上，\\(CF\\)的长度是\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)；\n【小问2详解】\n如图，作\\(PN\\bot AB\\)，且\\(\\angle PBN=30{}^\\circ\\)，连接\\(NG,DN\\)，\n〔图5〕\n在\\(\\vartriangle PEF\\)中，\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，\\(EG\\)平分\\(\\angle PEF\\)，\n∴ \\(\\angle PEG=30{}^\\circ =\\angle PBN\\)，\n又∵\\(\\angle BPN=\\angle EPG\\)，\n∴\\(\\vartriangle BPN\\backsim \\vartriangle EPG\\)，\n∴\\(\\frac { BP } { PE }=\\frac { PN } { PG }\\)\n又∵\\(\\angle BPN=\\angle EPG=90{}^\\circ\\)，\n∴\\(\\vartriangle BPE\\backsim \\vartriangle NPG\\)\n∴\\(\\frac { NG } { BE }=\\frac { PN } { PB }\\)\n∵\\(\\frac { PN } { PB }=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(\\frac { NG } { BE }=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(NG=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n由两点之间线段最短，得\\(DG+NG\\ge DN\\)，\\(NG+DN\\ge DG\\)，\n∴\\(DN-NG\\le DG\\le NG+DN\\)，\n当D、N、G在一条直线上时，\\(DG\\)取最大值是\\(NG+DN\\)，取最小值是\\(DN-NG\\)，\n∴两者之差为\\(NG+DN-\\left ( { DN-NG } \\right )=2NG=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n故答案为：\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①在平行四边形\\(ABCD\\)中，\\(AB=BC\\)， \\(\\therefore\\)平行四边形\\(ABCD\\)是菱形，",
+    "〔图2〕",
+    "\\(\\therefore CA\\)平分\\(\\angle BCD\\)",
+    "\\(\\because BA=BC\\)，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)",
+    "\\(\\therefore \\vartriangle ABC\\)为等边三角形",
+    "\\(\\therefore AB=AC\\)，\\(\\angle BAC=60{}^\\circ\\)",
+    "\\(\\therefore \\angle 1=\\angle 2=60{}^\\circ -\\angle EAC\\)",
+    "在菱形\\(ABCD\\)中，\\(AB\\parallel CD\\)",
+    "则\\(\\angle BCD=120{}^\\circ\\)",
+    "\\(\\therefore \\angle ACF=60{}^\\circ\\)",
+    "\\(\\therefore \\angle ACF=\\angle B\\)",
+    "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(\\angle 1=\\angle 2\\)",
+    "\\(\\therefore \\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)",
+    "\\(\\therefore AE=AF\\)",
+    "\\(\\because \\angle EAF=60{}^\\circ\\)",
+    "\\(\\therefore \\vartriangle AEF\\)为等边三角形．",
+    "②作\\(AH\\bot BC\\)于\\(H\\)，则\\(BH=CH=2\\)",
+    "〔图3〕",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABH\\)中，\\(sin\\angle ABH=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\\(\\angle BAH{ \\rm{ = } }{ \\rm{ 3 } }{ \\rm{ 0 } }{}^\\circ\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)，\\(cos\\angle EAF=\\frac { AF } { AE }=\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+    "\\(\\therefore \\frac { AH } { AB }=\\frac { AF } { AE }\\)，\\(\\angle BAE=\\angle HAF\\)",
+    "\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle AHF\\)",
+    "\\(\\therefore \\frac { FH } { EB }=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+    "∵\\(BE=1\\)，",
+    "\\(\\therefore FH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+    "\\(\\therefore\\)当\\(F\\)落在\\(H\\)左侧时，\\(CF=CH+HF=2+\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+    "当\\(F\\)落在\\(H\\)右侧时，\\(CF=CH-HF=2-\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+    "〔图4〕",
+    "综上，\\(CF\\)的长度是\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)；",
+    "【小问2详解】",
+    "如图，作\\(PN\\bot AB\\)，且\\(\\angle PBN=30{}^\\circ\\)，连接\\(NG,DN\\)，",
+    "〔图5〕",
+    "在\\(\\vartriangle PEF\\)中，\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，\\(EG\\)平分\\(\\angle PEF\\)，",
+    "∴ \\(\\angle PEG=30{}^\\circ =\\angle PBN\\)，",
+    "又∵\\(\\angle BPN=\\angle EPG\\)，",
+    "∴\\(\\vartriangle BPN\\backsim \\vartriangle EPG\\)，",
+    "∴\\(\\frac { BP } { PE }=\\frac { PN } { PG }\\)",
+    "又∵\\(\\angle BPN=\\angle EPG=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle BPE\\backsim \\vartriangle NPG\\)",
+    "∴\\(\\frac { NG } { BE }=\\frac { PN } { PB }\\)",
+    "∵\\(\\frac { PN } { PB }=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+    "∴\\(\\frac { NG } { BE }=\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+    "∴\\(NG=\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+    "由两点之间线段最短，得\\(DG+NG\\ge DN\\)，\\(NG+DN\\ge DG\\)，",
+    "∴\\(DN-NG\\le DG\\le NG+DN\\)，",
+    "当D、N、G在一条直线上时，\\(DG\\)取最大值是\\(NG+DN\\)，取最小值是\\(DN-NG\\)，",
+    "∴两者之差为\\(NG+DN-\\left ( { DN-NG } \\right )=2NG=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+    "故答案为：\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平行四边形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=4\\)，点\\(E\\)为平面内一点，且\\(BE=1\\)．\n〔图1〕",
+      "paper_blocks": [
+        85,
+        86
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "若\\(AB=BC\\)，",
+      "paper_blocks": [
+        87
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-280863FDCC-Q20-P01",
+      "label": "（1）①",
+      "prompt": "如图1，当点\\(E\\)在\\(BC\\)上时，连接\\(AE\\)，作\\(\\angle EAF=60{}^\\circ\\)交\\(CD\\)于点\\(F\\)，连接\\(AC\\)、\\(EF\\)，求证：\\(\\vartriangle EAF\\)为等边三角形；",
+      "stem_text": "如图1，当点\\(E\\)在\\(BC\\)上时，连接\\(AE\\)，作\\(\\angle EAF=60{}^\\circ\\)交\\(CD\\)于点\\(F\\)，连接\\(AC\\)、\\(EF\\)，求证：\\(\\vartriangle EAF\\)为等边三角形；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "在平行四边形\\(ABCD\\)中，\\(AB=BC\\)， \\(\\therefore\\)平行四边形\\(ABCD\\)是菱形，\n〔图2〕\n\\(\\therefore CA\\)平分\\(\\angle BCD\\)\n\\(\\because BA=BC\\)，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)\n\\(\\therefore \\vartriangle ABC\\)为等边三角形\n\\(\\therefore AB=AC\\)，\\(\\angle BAC=60{}^\\circ\\)\n\\(\\therefore \\angle 1=\\angle 2=60{}^\\circ -\\angle EAC\\)\n在菱形\\(ABCD\\)中，\\(AB\\parallel CD\\)\n则\\(\\angle BCD=120{}^\\circ\\)\n\\(\\therefore \\angle ACF=60{}^\\circ\\)\n\\(\\therefore \\angle ACF=\\angle B\\)\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(\\angle 1=\\angle 2\\)\n\\(\\therefore \\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)\n\\(\\therefore AE=AF\\)\n\\(\\because \\angle EAF=60{}^\\circ\\)\n\\(\\therefore \\vartriangle AEF\\)为等边三角形．",
+      "solution_steps": [
+        "在平行四边形\\(ABCD\\)中，\\(AB=BC\\)， \\(\\therefore\\)平行四边形\\(ABCD\\)是菱形，",
+        "〔图2〕",
+        "\\(\\therefore CA\\)平分\\(\\angle BCD\\)",
+        "\\(\\because BA=BC\\)，\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)",
+        "\\(\\therefore \\vartriangle ABC\\)为等边三角形",
+        "\\(\\therefore AB=AC\\)，\\(\\angle BAC=60{}^\\circ\\)",
+        "\\(\\therefore \\angle 1=\\angle 2=60{}^\\circ -\\angle EAC\\)",
+        "在菱形\\(ABCD\\)中，\\(AB\\parallel CD\\)",
+        "则\\(\\angle BCD=120{}^\\circ\\)",
+        "\\(\\therefore \\angle ACF=60{}^\\circ\\)",
+        "\\(\\therefore \\angle ACF=\\angle B\\)",
+        "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(\\angle 1=\\angle 2\\)",
+        "\\(\\therefore \\vartriangle ABE≌\\vartriangle ACF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)",
+        "\\(\\therefore AE=AF\\)",
+        "\\(\\because \\angle EAF=60{}^\\circ\\)",
+        "\\(\\therefore \\vartriangle AEF\\)为等边三角形．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          85,
+          86,
+          87,
+          88
+        ],
+        "solution_block_ids": [
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-280863FDCC-Q20-P02",
+      "label": "（1）②",
+      "prompt": "如图2，连接\\(AE\\)，作\\(\\angle EAF=30{}^\\circ\\)，作\\(EF\\bot AF\\)于点\\(F\\)，连接\\(CF\\)，当点\\(F\\)在线段\\(BC\\)上时，求\\(CF\\)的长度；",
+      "stem_text": "如图2，连接\\(AE\\)，作\\(\\angle EAF=30{}^\\circ\\)，作\\(EF\\bot AF\\)于点\\(F\\)，连接\\(CF\\)，当点\\(F\\)在线段\\(BC\\)上时，求\\(CF\\)的长度；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+      "answer": "\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+      "given_solution": "作\\(AH\\bot BC\\)于\\(H\\)，则\\(BH=CH=2\\)\n〔图3〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABH\\)中，\\(sin\\angle ABH=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\\(\\angle BAH{ \\rm{ = } }{ \\rm{ 3 } }{ \\rm{ 0 } }{}^\\circ\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)，\\(cos\\angle EAF=\\frac { AF } { AE }=\\frac { \\sqrt[] { 3 } } { 2 }\\)\n\\(\\therefore \\frac { AH } { AB }=\\frac { AF } { AE }\\)，\\(\\angle BAE=\\angle HAF\\)\n\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle AHF\\)\n\\(\\therefore \\frac { FH } { EB }=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n∵\\(BE=1\\)，\n\\(\\therefore FH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n\\(\\therefore\\)当\\(F\\)落在\\(H\\)左侧时，\\(CF=CH+HF=2+\\frac { \\sqrt[] { 3 } } { 2 }\\)\n当\\(F\\)落在\\(H\\)右侧时，\\(CF=CH-HF=2-\\frac { \\sqrt[] { 3 } } { 2 }\\)\n〔图4〕\n综上，\\(CF\\)的长度是\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)；",
+      "solution_steps": [
+        "作\\(AH\\bot BC\\)于\\(H\\)，则\\(BH=CH=2\\)",
+        "〔图3〕",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABH\\)中，\\(sin\\angle ABH=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，\\(\\angle BAH{ \\rm{ = } }{ \\rm{ 3 } }{ \\rm{ 0 } }{}^\\circ\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AEF\\)，\\(cos\\angle EAF=\\frac { AF } { AE }=\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+        "\\(\\therefore \\frac { AH } { AB }=\\frac { AF } { AE }\\)，\\(\\angle BAE=\\angle HAF\\)",
+        "\\(\\therefore \\vartriangle ABE\\backsim \\vartriangle AHF\\)",
+        "\\(\\therefore \\frac { FH } { EB }=\\frac { AH } { AB }=\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+        "∵\\(BE=1\\)，",
+        "\\(\\therefore FH=\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+        "\\(\\therefore\\)当\\(F\\)落在\\(H\\)左侧时，\\(CF=CH+HF=2+\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+        "当\\(F\\)落在\\(H\\)右侧时，\\(CF=CH-HF=2-\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+        "〔图4〕",
+        "综上，\\(CF\\)的长度是\\(2+\\frac { \\sqrt[] { 3 } } { 2 }\\)或\\(2-\\frac { \\sqrt[] { 3 } } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          85,
+          86,
+          87,
+          89
+        ],
+        "solution_block_ids": [
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由边角条件解直角三角形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-280863FDCC-Q20-P03",
+      "label": "（2）",
+      "prompt": "如图3，连接\\(AC\\)，若\\(\\angle BAC=90{}^\\circ\\)，\\(P\\)为\\(AB\\)边上一点（不与\\(A\\)、\\(B\\)重合），连接\\(PE\\)，以\\(PE\\)为边作\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EPF\\)，且\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，作\\(\\angle PEF\\)的角平分线\\(EG\\)，与\\(PF\\)交于点\\(G\\)，连接\\(DG\\)，点\\(E\\)在运动的过程中，\\(DG\\)的最大值与最小值的差为__________．",
+      "stem_text": "如图3，连接\\(AC\\)，若\\(\\angle BAC=90{}^\\circ\\)，\\(P\\)为\\(AB\\)边上一点（不与\\(A\\)、\\(B\\)重合），连接\\(PE\\)，以\\(PE\\)为边作\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle EPF\\)，且\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，作\\(\\angle PEF\\)的角平分线\\(EG\\)，与\\(PF\\)交于点\\(G\\)，连接\\(DG\\)，点\\(E\\)在运动的过程中，\\(DG\\)的最大值与最小值的差为__________．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+      "answer": "\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+      "given_solution": "如图，作\\(PN\\bot AB\\)，且\\(\\angle PBN=30{}^\\circ\\)，连接\\(NG,DN\\)，\n〔图5〕\n在\\(\\vartriangle PEF\\)中，\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，\\(EG\\)平分\\(\\angle PEF\\)，\n∴ \\(\\angle PEG=30{}^\\circ =\\angle PBN\\)，\n又∵\\(\\angle BPN=\\angle EPG\\)，\n∴\\(\\vartriangle BPN\\backsim \\vartriangle EPG\\)，\n∴\\(\\frac { BP } { PE }=\\frac { PN } { PG }\\)\n又∵\\(\\angle BPN=\\angle EPG=90{}^\\circ\\)，\n∴\\(\\vartriangle BPE\\backsim \\vartriangle NPG\\)\n∴\\(\\frac { NG } { BE }=\\frac { PN } { PB }\\)\n∵\\(\\frac { PN } { PB }=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(\\frac { NG } { BE }=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n∴\\(NG=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n由两点之间线段最短，得\\(DG+NG\\ge DN\\)，\\(NG+DN\\ge DG\\)，\n∴\\(DN-NG\\le DG\\le NG+DN\\)，\n当D、N、G在一条直线上时，\\(DG\\)取最大值是\\(NG+DN\\)，取最小值是\\(DN-NG\\)，\n∴两者之差为\\(NG+DN-\\left ( { DN-NG } \\right )=2NG=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)\n故答案为：\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．",
+      "solution_steps": [
+        "如图，作\\(PN\\bot AB\\)，且\\(\\angle PBN=30{}^\\circ\\)，连接\\(NG,DN\\)，",
+        "〔图5〕",
+        "在\\(\\vartriangle PEF\\)中，\\(\\angle EPF=90{}^\\circ\\)，\\(\\angle PEF=60{}^\\circ\\)，\\(EG\\)平分\\(\\angle PEF\\)，",
+        "∴ \\(\\angle PEG=30{}^\\circ =\\angle PBN\\)，",
+        "又∵\\(\\angle BPN=\\angle EPG\\)，",
+        "∴\\(\\vartriangle BPN\\backsim \\vartriangle EPG\\)，",
+        "∴\\(\\frac { BP } { PE }=\\frac { PN } { PG }\\)",
+        "又∵\\(\\angle BPN=\\angle EPG=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle BPE\\backsim \\vartriangle NPG\\)",
+        "∴\\(\\frac { NG } { BE }=\\frac { PN } { PB }\\)",
+        "∵\\(\\frac { PN } { PB }=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+        "∴\\(\\frac { NG } { BE }=\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+        "∴\\(NG=\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+        "由两点之间线段最短，得\\(DG+NG\\ge DN\\)，\\(NG+DN\\ge DG\\)，",
+        "∴\\(DN-NG\\le DG\\le NG+DN\\)，",
+        "当D、N、G在一条直线上时，\\(DG\\)取最大值是\\(NG+DN\\)，取最小值是\\(DN-NG\\)，",
+        "∴两者之差为\\(NG+DN-\\left ( { DN-NG } \\right )=2NG=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+        "故答案为：\\(\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          85,
+          86,
+          90
+        ],
+        "solution_block_ids": [
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“求特殊锐角函数值或按要求用计算器”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      85,
+      90
+    ],
+    "solution_body_blocks": [
+      381,
+      442
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-280863FDCC/paper-q20-p07.webp",
+      "assets/SZ-G9-T2-280863FDCC/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          409.09,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          112.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-280863FDCC/solution-q20-p22.webp",
+      "assets/SZ-G9-T2-280863FDCC/solution-q20-p23.webp",
+      "assets/SZ-G9-T2-280863FDCC/solution-q20-p24.webp",
+      "assets/SZ-G9-T2-280863FDCC/solution-q20-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          99.09,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          205.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G10.02",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G10.02.01",
+    "E.G10.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由边角条件解直角三角形”。 本问题面与解答对应“求特殊锐角函数值或按要求用计算器”。",
+  "tag_source": "小问标签汇总"
+}

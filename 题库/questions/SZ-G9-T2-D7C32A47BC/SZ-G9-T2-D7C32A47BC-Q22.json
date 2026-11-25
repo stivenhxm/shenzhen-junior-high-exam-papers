@@ -1,0 +1,434 @@
+{
+  "id": "SZ-G9-T2-D7C32A47BC-Q22",
+  "paper_id": "SZ-G9-T2-D7C32A47BC",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "根据独立条件确定二次函数表达式、由二次表达式读取图象关键性质",
+  "stem": "如图，抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)与\\(x\\)轴交于点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，与\\(y\\)轴交于点\\(C\\)，顶点为\\(D\\)，连接\\(AC\\)，\\(BC\\)，\\(BC\\)与抛物线的对称轴\\(l\\)交于点\\(E\\)．\n〔图1〕\n（1）求抛物线的表达式；\n（2）点\\(P\\)是第一象限内抛物线上的动点，连接\\(PB\\)，\\(PC\\)，若\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC }\\)，求点\\(P\\)的坐标；\n（3）点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，在射线\\(ED\\)上是否存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似？若存在，直接写出点\\(M\\)的坐标；若不存在，说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/fc/fc706006bc385c8c590078036da05c40c491fea07f24ebee12a3687837cf9e69.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=-x ^ { 2 } +3x+4\\)；（2）\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；（3）在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．",
+  "answer": "（1）\\(y=-x ^ { 2 } +3x+4\\)；（2）\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；（3）在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．",
+  "given_solution": "【分析】（1）直接将A（-1，0）和点B（4，0）代入\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)，解出a，b的值即可得出答案；\n（2）先求出点C的坐标及直线BC的解析式，再根据图及题意得出三角形PBC的面积；过点\\(P\\)作\\(PG\\bot x\\)轴，交\\(x\\)轴于点\\(G\\)，交\\(BC\\)于点\\(F\\)，设\\(P\\left ( { t,-t ^ { 2 } +3t+4 } \\right )\\)，则\\(F\\left ( { t,-t+4 } \\right )\\)，根据三角形PBC的面积，列出关于t的方程，解出t的值，即可得出点P的坐标；\n（3）由题意得出三角形BOC为等腰直角三角形，然后分MN=EM，MN=NE，NE=EM三种情况讨论结合图形，得出边之间的关系，即可得出答案．\n【详解】（1）∵抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)过点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，\n∴\\(\\begin{cases} a-b+4=0 \\\\ 16a+4b+4=0 \\end{cases}\\)，解得\\(\\begin{cases} a=-1 \\\\ b=3 \\end{cases}\\)，\n∴抛物线的解析式为\\(y=-x ^ { 2 } +3x+4\\)；\n（2）如图1，过点\\(P\\)作\\(PG\\bot x\\)轴，交\\(x\\)轴于点\\(G\\)，交\\(BC\\)于点\\(F\\)，\n〔图2〕\n当\\(x=0\\)时，\\(y=4\\)，\n∴\\(C\\left ( { 0,4 } \\right )\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+s\\) ，\n将\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)代入得：\n\\(\\begin{cases} s=4 \\\\ 4k+s=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-1 \\\\ s=4 \\end{cases}\\) ，\n∴直线\\(BC\\)的解析式为\\(y=-x+4\\)，\n设\\(P\\left ( { t,-t ^ { 2 } +3t+4 } \\right )\\)，则\\(F\\left ( { t,-t+4 } \\right )\\)，\n∴\\(PF=-t ^ { 2 } +4t\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AB\\cdot OC=\\frac { 1 } { 2 }\\times \\left ( { 4+1 } \\right )\\times 4=10\\)，\n∴\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC } =6\\)，\n∴\\(S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }PF\\cdot OB=6\\)，\n即\\(\\frac { 1 } { 2 }\\times \\left ( { -t ^ { 2 } +4t } \\right )\\times 4=6\\)，解得\\(t_{ 1 } =1\\)，\\(t_{ 2 } =3\\)，\n∴\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；\n（3）存在；如图，\n∵\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)，\\(\\angle COB=90 ^ { {}^\\circ }\\)，\n∴\\(OC=OB=4\\) ，\n∴\\(\\vartriangle OBC\\)为等腰直角三角形，\n∵抛物线\\(y=-x ^ { 2 } +3x+4\\)的对称轴为\\(x=-\\frac { b } { 2a }=-\\frac { 3 } { 2\\times \\left ( { -1 } \\right ) }=\\frac { 3 } { 2 }\\)，\n∴点\\(E\\)的横坐标为\\(\\frac { 3 } { 2 }\\) ，\n又∵点\\(E\\)在直线\\(BC\\)上，\n∴点\\(E\\)的纵坐标为\\(\\frac { 5 } { 2 }\\) ，\n∴\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，\n∵点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，点\\(M\\)在射线\\(ED\\)上，\n∴设\\(M\\left ( { \\frac { 3 } { 2 },m } \\right )\\)（\\(m\\ge \\frac { 5 } { 2 }\\) ），\\(N\\left ( { n,-n ^ { 2 } +3n+4 } \\right )(n>\\frac { 3 } { 2 })\\)\n①当\\(MN=EM\\)，\\(\\angle EMN=90 ^ { {}^\\circ }\\)时，如图2，\\(\\vartriangle NME\\backsim \\vartriangle COB\\)，\n〔图3〕\n则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=m \\end{cases}\\)，解得\\(\\begin{cases} n=3 \\\\ m=4 \\end{cases}\\)或\\(\\begin{cases} n=-1 \\\\ m=0 \\end{cases}\\)（舍去），\n∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)；\n②当\\(ME=EN\\)，\\(\\angle MEN=90 ^ { {}^\\circ }\\)时，如图3，\\(\\vartriangle MEN\\backsim \\vartriangle COB\\)，\n〔图4〕\n则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=\\frac { 5 } { 2 } \\end{cases}\\)，解得\\(\\begin{cases} m=\\frac { 5+\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3+\\sqrt[] { 15 } } { 2 } \\end{cases}\\)或\\(\\begin{cases} m=\\frac { 5-\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3-\\sqrt[] { 15 } } { 2 } \\end{cases}\\)（舍去），\n∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\)；\n③当\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)时，如图4，\\(\\vartriangle MNE\\backsim \\vartriangle COB\\)， 过点N作\\(NH\\bot ME\\) 于点H，\n〔图5〕\n∴\\(\\vartriangle ENH\\) 是等腰直角三角形，\n由（1）知点H的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)，\n∵\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)，\\(NH\\bot ME\\)，\n∴HE=MH，\n∴点H为EM的中点，\n∵\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，\n∴\\(MH=HE=\\frac { 3 } { 2 }\\) ，\n∴\\(EH=3\\) ，\n∴点M的纵坐标为\\(\\frac { 11 } { 2 }\\) ，\n∴点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)，\n故在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．\n【点睛】本题是一道综合题，涉及到二次函数的综合、相似三角形的判定及性质、等腰三角形的性质、勾股定理、正方形的性质等知识点，综合性比较强，解答类似题的关键是添加合适的辅助线．",
+  "given_solution_figures": [
+    "assets/figures/33/330236ca05034642e8926c68ab6a80f21b26c8f2860f7214bb3ce8c41685d107.png",
+    "assets/figures/7e/7eaf77714584fef991e32a8b2cc38c46b7503b264548abea00073aafd6d4b878.png",
+    "assets/figures/d7/d7f6e321aa5da00472388170392d0a07442a25be8a7176e02c1b4078bc94e32c.png",
+    "assets/figures/78/78adc7d0a888029cd142dbe134afb9af9b279e303b87d18110bd600c39b70dbf.png",
+    "assets/figures/86/86766e4e7461504ce749d6c2da6005b639ef719f62184510077203b60a771d5a.png"
+  ],
+  "solution": "（1）∵抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)过点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，\n∴\\(\\begin{cases} a-b+4=0 \\\\ 16a+4b+4=0 \\end{cases}\\)，解得\\(\\begin{cases} a=-1 \\\\ b=3 \\end{cases}\\)，\n∴抛物线的解析式为\\(y=-x ^ { 2 } +3x+4\\)；\n（2）如图1，过点\\(P\\)作\\(PG\\bot x\\)轴，交\\(x\\)轴于点\\(G\\)，交\\(BC\\)于点\\(F\\)，\n〔图2〕\n当\\(x=0\\)时，\\(y=4\\)，\n∴\\(C\\left ( { 0,4 } \\right )\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+s\\) ，\n将\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)代入得：\n\\(\\begin{cases} s=4 \\\\ 4k+s=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-1 \\\\ s=4 \\end{cases}\\) ，\n∴直线\\(BC\\)的解析式为\\(y=-x+4\\)，\n设\\(P\\left ( { t,-t ^ { 2 } +3t+4 } \\right )\\)，则\\(F\\left ( { t,-t+4 } \\right )\\)，\n∴\\(PF=-t ^ { 2 } +4t\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AB\\cdot OC=\\frac { 1 } { 2 }\\times \\left ( { 4+1 } \\right )\\times 4=10\\)，\n∴\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC } =6\\)，\n∴\\(S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }PF\\cdot OB=6\\)，\n即\\(\\frac { 1 } { 2 }\\times \\left ( { -t ^ { 2 } +4t } \\right )\\times 4=6\\)，解得\\(t_{ 1 } =1\\)，\\(t_{ 2 } =3\\)，\n∴\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；\n（3）存在；如图，\n∵\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)，\\(\\angle COB=90 ^ { {}^\\circ }\\)，\n∴\\(OC=OB=4\\) ，\n∴\\(\\vartriangle OBC\\)为等腰直角三角形，\n∵抛物线\\(y=-x ^ { 2 } +3x+4\\)的对称轴为\\(x=-\\frac { b } { 2a }=-\\frac { 3 } { 2\\times \\left ( { -1 } \\right ) }=\\frac { 3 } { 2 }\\)，\n∴点\\(E\\)的横坐标为\\(\\frac { 3 } { 2 }\\) ，\n又∵点\\(E\\)在直线\\(BC\\)上，\n∴点\\(E\\)的纵坐标为\\(\\frac { 5 } { 2 }\\) ，\n∴\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，\n∵点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，点\\(M\\)在射线\\(ED\\)上，\n∴设\\(M\\left ( { \\frac { 3 } { 2 },m } \\right )\\)（\\(m\\ge \\frac { 5 } { 2 }\\) ），\\(N\\left ( { n,-n ^ { 2 } +3n+4 } \\right )(n>\\frac { 3 } { 2 })\\)\n①当\\(MN=EM\\)，\\(\\angle EMN=90 ^ { {}^\\circ }\\)时，如图2，\\(\\vartriangle NME\\backsim \\vartriangle COB\\)，\n〔图3〕\n则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=m \\end{cases}\\)，解得\\(\\begin{cases} n=3 \\\\ m=4 \\end{cases}\\)或\\(\\begin{cases} n=-1 \\\\ m=0 \\end{cases}\\)（舍去），\n∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)；\n②当\\(ME=EN\\)，\\(\\angle MEN=90 ^ { {}^\\circ }\\)时，如图3，\\(\\vartriangle MEN\\backsim \\vartriangle COB\\)，\n〔图4〕\n则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=\\frac { 5 } { 2 } \\end{cases}\\)，解得\\(\\begin{cases} m=\\frac { 5+\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3+\\sqrt[] { 15 } } { 2 } \\end{cases}\\)或\\(\\begin{cases} m=\\frac { 5-\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3-\\sqrt[] { 15 } } { 2 } \\end{cases}\\)（舍去），\n∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\)；\n③当\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)时，如图4，\\(\\vartriangle MNE\\backsim \\vartriangle COB\\)， 过点N作\\(NH\\bot ME\\) 于点H，\n〔图5〕\n∴\\(\\vartriangle ENH\\) 是等腰直角三角形，\n由（1）知点H的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)，\n∵\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)，\\(NH\\bot ME\\)，\n∴HE=MH，\n∴点H为EM的中点，\n∵\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，\n∴\\(MH=HE=\\frac { 3 } { 2 }\\) ，\n∴\\(EH=3\\) ，\n∴点M的纵坐标为\\(\\frac { 11 } { 2 }\\) ，\n∴点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)，\n故在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．",
+  "solution_steps": [
+    "（1）∵抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)过点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，",
+    "∴\\(\\begin{cases} a-b+4=0 \\\\ 16a+4b+4=0 \\end{cases}\\)，解得\\(\\begin{cases} a=-1 \\\\ b=3 \\end{cases}\\)，",
+    "∴抛物线的解析式为\\(y=-x ^ { 2 } +3x+4\\)；",
+    "（2）如图1，过点\\(P\\)作\\(PG\\bot x\\)轴，交\\(x\\)轴于点\\(G\\)，交\\(BC\\)于点\\(F\\)，",
+    "〔图2〕",
+    "当\\(x=0\\)时，\\(y=4\\)，",
+    "∴\\(C\\left ( { 0,4 } \\right )\\)，",
+    "设直线\\(BC\\)的解析式为\\(y=kx+s\\) ，",
+    "将\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)代入得：",
+    "\\(\\begin{cases} s=4 \\\\ 4k+s=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-1 \\\\ s=4 \\end{cases}\\) ，",
+    "∴直线\\(BC\\)的解析式为\\(y=-x+4\\)，",
+    "设\\(P\\left ( { t,-t ^ { 2 } +3t+4 } \\right )\\)，则\\(F\\left ( { t,-t+4 } \\right )\\)，",
+    "∴\\(PF=-t ^ { 2 } +4t\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AB\\cdot OC=\\frac { 1 } { 2 }\\times \\left ( { 4+1 } \\right )\\times 4=10\\)，",
+    "∴\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC } =6\\)，",
+    "∴\\(S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }PF\\cdot OB=6\\)，",
+    "即\\(\\frac { 1 } { 2 }\\times \\left ( { -t ^ { 2 } +4t } \\right )\\times 4=6\\)，解得\\(t_{ 1 } =1\\)，\\(t_{ 2 } =3\\)，",
+    "∴\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；",
+    "（3）存在；如图，",
+    "∵\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)，\\(\\angle COB=90 ^ { {}^\\circ }\\)，",
+    "∴\\(OC=OB=4\\) ，",
+    "∴\\(\\vartriangle OBC\\)为等腰直角三角形，",
+    "∵抛物线\\(y=-x ^ { 2 } +3x+4\\)的对称轴为\\(x=-\\frac { b } { 2a }=-\\frac { 3 } { 2\\times \\left ( { -1 } \\right ) }=\\frac { 3 } { 2 }\\)，",
+    "∴点\\(E\\)的横坐标为\\(\\frac { 3 } { 2 }\\) ，",
+    "又∵点\\(E\\)在直线\\(BC\\)上，",
+    "∴点\\(E\\)的纵坐标为\\(\\frac { 5 } { 2 }\\) ，",
+    "∴\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，",
+    "∵点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，点\\(M\\)在射线\\(ED\\)上，",
+    "∴设\\(M\\left ( { \\frac { 3 } { 2 },m } \\right )\\)（\\(m\\ge \\frac { 5 } { 2 }\\) ），\\(N\\left ( { n,-n ^ { 2 } +3n+4 } \\right )(n>\\frac { 3 } { 2 })\\)",
+    "①当\\(MN=EM\\)，\\(\\angle EMN=90 ^ { {}^\\circ }\\)时，如图2，\\(\\vartriangle NME\\backsim \\vartriangle COB\\)，",
+    "〔图3〕",
+    "则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=m \\end{cases}\\)，解得\\(\\begin{cases} n=3 \\\\ m=4 \\end{cases}\\)或\\(\\begin{cases} n=-1 \\\\ m=0 \\end{cases}\\)（舍去），",
+    "∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)；",
+    "②当\\(ME=EN\\)，\\(\\angle MEN=90 ^ { {}^\\circ }\\)时，如图3，\\(\\vartriangle MEN\\backsim \\vartriangle COB\\)，",
+    "〔图4〕",
+    "则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=\\frac { 5 } { 2 } \\end{cases}\\)，解得\\(\\begin{cases} m=\\frac { 5+\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3+\\sqrt[] { 15 } } { 2 } \\end{cases}\\)或\\(\\begin{cases} m=\\frac { 5-\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3-\\sqrt[] { 15 } } { 2 } \\end{cases}\\)（舍去），",
+    "∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\)；",
+    "③当\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)时，如图4，\\(\\vartriangle MNE\\backsim \\vartriangle COB\\)， 过点N作\\(NH\\bot ME\\) 于点H，",
+    "〔图5〕",
+    "∴\\(\\vartriangle ENH\\) 是等腰直角三角形，",
+    "由（1）知点H的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)，",
+    "∵\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)，\\(NH\\bot ME\\)，",
+    "∴HE=MH，",
+    "∴点H为EM的中点，",
+    "∵\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，",
+    "∴\\(MH=HE=\\frac { 3 } { 2 }\\) ，",
+    "∴\\(EH=3\\) ，",
+    "∴点M的纵坐标为\\(\\frac { 11 } { 2 }\\) ，",
+    "∴点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)，",
+    "故在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)与\\(x\\)轴交于点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，与\\(y\\)轴交于点\\(C\\)，顶点为\\(D\\)，连接\\(AC\\)，\\(BC\\)，\\(BC\\)与抛物线的对称轴\\(l\\)交于点\\(E\\)．\n〔图1〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-D7C32A47BC-Q22-P01",
+      "label": "（1）",
+      "prompt": "求抛物线的表达式；",
+      "stem_text": "求抛物线的表达式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-x ^ { 2 } +3x+4\\)；",
+      "answer": "\\(y=-x ^ { 2 } +3x+4\\)；",
+      "given_solution": "∵抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)过点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，\n∴\\(\\begin{cases} a-b+4=0 \\\\ 16a+4b+4=0 \\end{cases}\\)，解得\\(\\begin{cases} a=-1 \\\\ b=3 \\end{cases}\\)，\n∴抛物线的解析式为\\(y=-x ^ { 2 } +3x+4\\)；",
+      "solution_steps": [
+        "∵抛物线\\(y=ax ^ { 2 } +bx+4\\left ( { a\\ne 0 } \\right )\\)过点\\(A\\left ( { -1,0 } \\right )\\)和点\\(B\\left ( { 4,0 } \\right )\\)，",
+        "∴\\(\\begin{cases} a-b+4=0 \\\\ 16a+4b+4=0 \\end{cases}\\)，解得\\(\\begin{cases} a=-1 \\\\ b=3 \\end{cases}\\)，",
+        "∴抛物线的解析式为\\(y=-x ^ { 2 } +3x+4\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          412,
+          413,
+          414
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-D7C32A47BC-Q22-P02",
+      "label": "（2）",
+      "prompt": "点\\(P\\)是第一象限内抛物线上的动点，连接\\(PB\\)，\\(PC\\)，若\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC }\\)，求点\\(P\\)的坐标；",
+      "stem_text": "点\\(P\\)是第一象限内抛物线上的动点，连接\\(PB\\)，\\(PC\\)，若\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC }\\)，求点\\(P\\)的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；",
+      "answer": "\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；",
+      "given_solution": "如图1，过点\\(P\\)作\\(PG\\bot x\\)轴，交\\(x\\)轴于点\\(G\\)，交\\(BC\\)于点\\(F\\)，\n〔图2〕\n当\\(x=0\\)时，\\(y=4\\)，\n∴\\(C\\left ( { 0,4 } \\right )\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+s\\) ，\n将\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)代入得：\n\\(\\begin{cases} s=4 \\\\ 4k+s=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-1 \\\\ s=4 \\end{cases}\\) ，\n∴直线\\(BC\\)的解析式为\\(y=-x+4\\)，\n设\\(P\\left ( { t,-t ^ { 2 } +3t+4 } \\right )\\)，则\\(F\\left ( { t,-t+4 } \\right )\\)，\n∴\\(PF=-t ^ { 2 } +4t\\)，\n∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AB\\cdot OC=\\frac { 1 } { 2 }\\times \\left ( { 4+1 } \\right )\\times 4=10\\)，\n∴\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC } =6\\)，\n∴\\(S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }PF\\cdot OB=6\\)，\n即\\(\\frac { 1 } { 2 }\\times \\left ( { -t ^ { 2 } +4t } \\right )\\times 4=6\\)，解得\\(t_{ 1 } =1\\)，\\(t_{ 2 } =3\\)，\n∴\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；",
+      "solution_steps": [
+        "如图1，过点\\(P\\)作\\(PG\\bot x\\)轴，交\\(x\\)轴于点\\(G\\)，交\\(BC\\)于点\\(F\\)，",
+        "〔图2〕",
+        "当\\(x=0\\)时，\\(y=4\\)，",
+        "∴\\(C\\left ( { 0,4 } \\right )\\)，",
+        "设直线\\(BC\\)的解析式为\\(y=kx+s\\) ，",
+        "将\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)代入得：",
+        "\\(\\begin{cases} s=4 \\\\ 4k+s=0 \\end{cases}\\)，解得：\\(\\begin{cases} k=-1 \\\\ s=4 \\end{cases}\\) ，",
+        "∴直线\\(BC\\)的解析式为\\(y=-x+4\\)，",
+        "设\\(P\\left ( { t,-t ^ { 2 } +3t+4 } \\right )\\)，则\\(F\\left ( { t,-t+4 } \\right )\\)，",
+        "∴\\(PF=-t ^ { 2 } +4t\\)，",
+        "∵\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AB\\cdot OC=\\frac { 1 } { 2 }\\times \\left ( { 4+1 } \\right )\\times 4=10\\)，",
+        "∴\\(S_{ \\vartriangle PBC } =\\frac { 3 } { 5 }S_{ \\vartriangle ABC } =6\\)，",
+        "∴\\(S_{ \\vartriangle PBC } =\\frac { 1 } { 2 }PF\\cdot OB=6\\)，",
+        "即\\(\\frac { 1 } { 2 }\\times \\left ( { -t ^ { 2 } +4t } \\right )\\times 4=6\\)，解得\\(t_{ 1 } =1\\)，\\(t_{ 2 } =3\\)，",
+        "∴\\(P\\)的坐标为\\(\\left ( { 1,6 } \\right )\\)或\\(\\left ( { 3,4 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“二次函数图象与性质”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目所考知识对应“二次函数图象与性质”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-D7C32A47BC-Q22-P03",
+      "label": "（3）",
+      "prompt": "点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，在射线\\(ED\\)上是否存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似？若存在，直接写出点\\(M\\)的坐标；若不存在，说明理由．",
+      "stem_text": "点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，在射线\\(ED\\)上是否存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似？若存在，直接写出点\\(M\\)的坐标；若不存在，说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．",
+      "answer": "在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．",
+      "given_solution": "存在；如图，\n∵\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)，\\(\\angle COB=90 ^ { {}^\\circ }\\)，\n∴\\(OC=OB=4\\) ，\n∴\\(\\vartriangle OBC\\)为等腰直角三角形，\n∵抛物线\\(y=-x ^ { 2 } +3x+4\\)的对称轴为\\(x=-\\frac { b } { 2a }=-\\frac { 3 } { 2\\times \\left ( { -1 } \\right ) }=\\frac { 3 } { 2 }\\)，\n∴点\\(E\\)的横坐标为\\(\\frac { 3 } { 2 }\\) ，\n又∵点\\(E\\)在直线\\(BC\\)上，\n∴点\\(E\\)的纵坐标为\\(\\frac { 5 } { 2 }\\) ，\n∴\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，\n∵点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，点\\(M\\)在射线\\(ED\\)上，\n∴设\\(M\\left ( { \\frac { 3 } { 2 },m } \\right )\\)（\\(m\\ge \\frac { 5 } { 2 }\\) ），\\(N\\left ( { n,-n ^ { 2 } +3n+4 } \\right )(n>\\frac { 3 } { 2 })\\)\n①当\\(MN=EM\\)，\\(\\angle EMN=90 ^ { {}^\\circ }\\)时，如图2，\\(\\vartriangle NME\\backsim \\vartriangle COB\\)，\n〔图3〕\n则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=m \\end{cases}\\)，解得\\(\\begin{cases} n=3 \\\\ m=4 \\end{cases}\\)或\\(\\begin{cases} n=-1 \\\\ m=0 \\end{cases}\\)（舍去），\n∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)；\n②当\\(ME=EN\\)，\\(\\angle MEN=90 ^ { {}^\\circ }\\)时，如图3，\\(\\vartriangle MEN\\backsim \\vartriangle COB\\)，\n〔图4〕\n则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=\\frac { 5 } { 2 } \\end{cases}\\)，解得\\(\\begin{cases} m=\\frac { 5+\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3+\\sqrt[] { 15 } } { 2 } \\end{cases}\\)或\\(\\begin{cases} m=\\frac { 5-\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3-\\sqrt[] { 15 } } { 2 } \\end{cases}\\)（舍去），\n∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\)；\n③当\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)时，如图4，\\(\\vartriangle MNE\\backsim \\vartriangle COB\\)， 过点N作\\(NH\\bot ME\\) 于点H，\n〔图5〕\n∴\\(\\vartriangle ENH\\) 是等腰直角三角形，\n由（1）知点H的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)，\n∵\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)，\\(NH\\bot ME\\)，\n∴HE=MH，\n∴点H为EM的中点，\n∵\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，\n∴\\(MH=HE=\\frac { 3 } { 2 }\\) ，\n∴\\(EH=3\\) ，\n∴点M的纵坐标为\\(\\frac { 11 } { 2 }\\) ，\n∴点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)，\n故在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．",
+      "solution_steps": [
+        "存在；如图，",
+        "∵\\(C\\left ( { 0,4 } \\right )\\)，\\(B\\left ( { 4,0 } \\right )\\)，\\(\\angle COB=90 ^ { {}^\\circ }\\)，",
+        "∴\\(OC=OB=4\\) ，",
+        "∴\\(\\vartriangle OBC\\)为等腰直角三角形，",
+        "∵抛物线\\(y=-x ^ { 2 } +3x+4\\)的对称轴为\\(x=-\\frac { b } { 2a }=-\\frac { 3 } { 2\\times \\left ( { -1 } \\right ) }=\\frac { 3 } { 2 }\\)，",
+        "∴点\\(E\\)的横坐标为\\(\\frac { 3 } { 2 }\\) ，",
+        "又∵点\\(E\\)在直线\\(BC\\)上，",
+        "∴点\\(E\\)的纵坐标为\\(\\frac { 5 } { 2 }\\) ，",
+        "∴\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，",
+        "∵点\\(N\\)是对称轴\\(l\\)右侧抛物线上的动点，点\\(M\\)在射线\\(ED\\)上，",
+        "∴设\\(M\\left ( { \\frac { 3 } { 2 },m } \\right )\\)（\\(m\\ge \\frac { 5 } { 2 }\\) ），\\(N\\left ( { n,-n ^ { 2 } +3n+4 } \\right )(n>\\frac { 3 } { 2 })\\)",
+        "①当\\(MN=EM\\)，\\(\\angle EMN=90 ^ { {}^\\circ }\\)时，如图2，\\(\\vartriangle NME\\backsim \\vartriangle COB\\)，",
+        "〔图3〕",
+        "则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=m \\end{cases}\\)，解得\\(\\begin{cases} n=3 \\\\ m=4 \\end{cases}\\)或\\(\\begin{cases} n=-1 \\\\ m=0 \\end{cases}\\)（舍去），",
+        "∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)；",
+        "②当\\(ME=EN\\)，\\(\\angle MEN=90 ^ { {}^\\circ }\\)时，如图3，\\(\\vartriangle MEN\\backsim \\vartriangle COB\\)，",
+        "〔图4〕",
+        "则\\(\\begin{cases} m-\\frac { 5 } { 2 }=n-\\frac { 3 } { 2 } \\\\ -n ^ { 2 } +3n+4=\\frac { 5 } { 2 } \\end{cases}\\)，解得\\(\\begin{cases} m=\\frac { 5+\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3+\\sqrt[] { 15 } } { 2 } \\end{cases}\\)或\\(\\begin{cases} m=\\frac { 5-\\sqrt[] { 15 } } { 2 } \\\\ n=\\frac { 3-\\sqrt[] { 15 } } { 2 } \\end{cases}\\)（舍去），",
+        "∴此时点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\)；",
+        "③当\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)时，如图4，\\(\\vartriangle MNE\\backsim \\vartriangle COB\\)， 过点N作\\(NH\\bot ME\\) 于点H，",
+        "〔图5〕",
+        "∴\\(\\vartriangle ENH\\) 是等腰直角三角形，",
+        "由（1）知点H的坐标为\\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\)，",
+        "∵\\(MN=EN\\)，\\(\\angle MNE=90 ^ { {}^\\circ }\\)，\\(NH\\bot ME\\)，",
+        "∴HE=MH，",
+        "∴点H为EM的中点，",
+        "∵\\(E\\left ( { \\frac { 3 } { 2 },\\frac { 5 } { 2 } } \\right )\\)，",
+        "∴\\(MH=HE=\\frac { 3 } { 2 }\\) ，",
+        "∴\\(EH=3\\) ，",
+        "∴点M的纵坐标为\\(\\frac { 11 } { 2 }\\) ，",
+        "∴点\\(M\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)，",
+        "故在射线\\(ED\\)上存在点\\(M\\)，使得以点\\(M\\)，\\(N\\)，\\(E\\)为顶点的三角形与\\(\\vartriangle OBC\\)相似，点\\(M\\)的坐标为 \\(\\left ( { \\frac { 3 } { 2 },4 } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 5+\\sqrt[] { 15 } } { 2 } } \\right )\\) 或 \\(\\left ( { \\frac { 3 } { 2 },\\frac { 11 } { 2 } } \\right )\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24,
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [
+        "E.N13.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由二次表达式读取图象关键性质”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      73
+    ],
+    "solution_body_blocks": [
+      402,
+      462
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-D7C32A47BC/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          176.36,
+          583.64,
+          509.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q22-p24.webp",
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q22-p25.webp",
+      "assets/SZ-G9-T2-D7C32A47BC/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          340.0,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          615.0
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          56.36,
+          583.64,
+          748.64
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          55.0,
+          583.64,
+          306.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.N13.02",
+    "M.N13.01"
+  ],
+  "exam_ids": [
+    "E.N13.02.01",
+    "E.N13.01.01"
+  ],
+  "tag_note": "该问涉及“二次函数图象与性质”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。 题目所考知识对应“二次函数图象与性质”。 本问题面与解答对应“由二次表达式读取图象关键性质”。",
+  "tag_source": "小问标签汇总"
+}

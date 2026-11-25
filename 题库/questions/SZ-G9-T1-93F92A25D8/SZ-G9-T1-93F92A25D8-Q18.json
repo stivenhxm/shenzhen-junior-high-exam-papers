@@ -1,0 +1,77 @@
+{
+  "knowledge_ids": [
+    "M.S02.03"
+  ],
+  "exam_ids": [
+    "E.S02.03.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“在给定目标下比较两组数据稳定性”。",
+  "id": "SZ-G9-T1-93F92A25D8-Q18",
+  "paper_id": "SZ-G9-T1-93F92A25D8",
+  "number": 18,
+  "title": "在给定目标下比较两组数据稳定性",
+  "type": "解答题",
+  "points": null,
+  "stem": " 四边形不具有稳定性，工程上可利用这一性质解决问题．如图是某篮球架的侧面示意图，\\(BE,CD,GF\\)为长度固定的支架，支架在\\(A,D,G\\)处与立柱\\(AH\\)连接（\\(AH\\)垂直于\\(MN\\)，垂足为\\(H\\)），在\\(B,C\\)处与篮板连接（\\(BC\\)所在直线垂直于\\(MN\\)），\\(EF\\)是可以调节长度的伸缩臂（旋转点\\(F\\)处的螺栓改变\\(EF\\)的长度，使得支架\\(BE\\)绕点\\(A\\)旋转，从而改变四边形\\(ABCD\\)的形状，以此调节篮板的高度）．已知\\(AD=BC,DH=208{ \\rm{ c } }{ \\rm{ m } }\\)，测得\\(\\angle GAE=60{}^\\circ\\)时，点\\(C\\)离地面的高度为\\(288{ \\rm{ c } }{ \\rm{ m } }\\)．调节伸缩臂\\(EF\\)，将\\(\\angle GAE\\)由\\(60{}^\\circ\\)调节为\\(54{}^\\circ\\)，判断点\\(C\\)离地面的高度升高还是降低了？升高（或降低）了多少？（参考数据：\\({ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }54{}^\\circ \\approx 0.8,{ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }54{}^\\circ \\approx 0.6\\)）\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-93F92A25D8/figures/35a0e30d6fa73c9be2ebce1220d8ede5a489d183a77cfdf23033c0d85236ae98.png"
+  ],
+  "tables": [],
+  "materials": [],
+  "parts": [],
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "answer": "升高约 \\(16\\text{ cm}\\)。",
+  "solution_steps": [
+    "因 \\(AD\\parallel BC\\) 且 \\(AD=BC\\)，四边形 \\(ABCD\\) 为平行四边形，\\(CD\\parallel AB\\)。C 比 D 高出的距离等于 \\(CD\\cos\\angle GAE\\)。",
+    "调节前高差为 \\(288-208=80\\text{ cm}\\)，因此 \\(CD=80/\\cos60^\\circ=160\\text{ cm}\\)。",
+    "调节后高差约为 \\(160\\times0.6=96\\text{ cm}\\)。D 的位置固定，故 C 升高约 \\(96-80=16\\text{ cm}\\)。"
+  ],
+  "solution": "因 \\(AD\\parallel BC\\) 且 \\(AD=BC\\)，四边形 \\(ABCD\\) 为平行四边形，\\(CD\\parallel AB\\)。C 比 D 高出的距离等于 \\(CD\\cos\\angle GAE\\)。\n调节前高差为 \\(288-208=80\\text{ cm}\\)，因此 \\(CD=80/\\cos60^\\circ=160\\text{ cm}\\)。\n调节后高差约为 \\(160\\times0.6=96\\text{ cm}\\)。D 的位置固定，故 C 升高约 \\(96-80=16\\text{ cm}\\)。",
+  "solution_origin": "editorial_answer_and_solution",
+  "solution_figure_ids": [],
+  "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+  "source": {
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-93F92A25D8/paper-q18-p04.webp",
+      "assets/SZ-G9-T1-93F92A25D8/paper-q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          635.45,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          300.91
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      52,
+      53
+    ],
+    "solution_pages": [],
+    "solution_images": []
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,177 @@
+{
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G10.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "证明直线与过接触点的半径垂直，从而判定直线是切线。 本问题面与解答对应“由边角条件解直角三角形”。",
+  "id": "SZ-G9-T1-93F92A25D8-Q20",
+  "paper_id": "SZ-G9-T1-93F92A25D8",
+  "number": 20,
+  "title": "证明指定直线与圆相切、由边角条件解直角三角形",
+  "type": "解答题",
+  "points": null,
+  "stem": " 如图，\\(AB\\)为\\(\\odot O\\)的弦，\\(OC\\bot OA\\)交\\(AB\\)于点\\(P\\)，交过点\\(B\\)的直线于点\\(C\\)，且\\(CB=CP\\)．\n〔图1〕\n（1）试判断直线\\(BC\\)与\\(\\odot O\\)的位置关系，并说明理由；\n（2）若\\(sinA=\\frac { \\sqrt[] { 5 } } { 5 },OA=8\\)，求\\(CB\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-93F92A25D8/figures/d767e6ea59105e17152750db46322275cc885d742941c4f0ebac7ea5dcd1dd0b.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": " 如图，\\(AB\\)为\\(\\odot O\\)的弦，\\(OC\\bot OA\\)交\\(AB\\)于点\\(P\\)，交过点\\(B\\)的直线于点\\(C-y+1-m=0\\)，且\\(CB=CP\\)．\n〔图1〕",
+      "paper_blocks": [
+        61,
+        62
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "证明直线与过接触点的半径垂直，从而判定直线是切线。",
+      "id": "SZ-G9-T1-93F92A25D8-Q20-P01",
+      "label": "（1）",
+      "prompt": "试判断直线\\(BC\\)与\\(\\odot O\\)的位置关系，并说明理由；",
+      "stem_text": "试判断直线\\(BC\\)与\\(\\odot O\\)的位置关系，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "BC 是圆 O 在 B 点的切线。",
+      "solution_steps": [
+        "连接 \\(OB\\)。由 \\(CB=CP\\) 知 \\(\\angle CBP=\\angle BPC\\)。又因 \\(OC\\perp OA\\)，有 \\(\\angle BPC=90^\\circ-\\angle OAB\\)。",
+        "由 \\(OA=OB\\)，得 \\(\\angle PBO=\\angle OAB\\)。所以 \\(\\angle CBO=\\angle CBP+\\angle PBO=90^\\circ\\)。直线 BC 垂直于过 B 的半径，故为切线。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          61,
+          62,
+          63
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "逐题核对"
+    },
+    {
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由边角条件解直角三角形”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q20-P02",
+      "label": "（2）",
+      "prompt": "若\\(sinA=\\frac { \\sqrt[] { 5 } } { 5 },OA=8\\)，求\\(CB\\)的长．",
+      "stem_text": "若\\(sinA=\\frac { \\sqrt[] { 5 } } { 5 },OA=8\\)，求\\(CB\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "\\(CB=6\\)。",
+      "solution_steps": [
+        "在直角三角形 \\(AOP\\) 中，由 \\(\\sin A=\\sqrt5/5\\) 得 \\(\\cos A=2\\sqrt5/5,\\ \\tan A=1/2\\)。所以 \\(OP=OA\\tan A=4\\)。",
+        "设 \\(CB=CP=x\\)，则 \\(OC=4+x\\)。由（1），在直角三角形 \\(OBC\\) 中有 \\((4+x)^2=8^2+x^2\\)，故 \\(x=6\\)。"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          61,
+          62,
+          64
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "answer": "（1）BC 是圆 O 在 B 点的切线。\n（2）\\(CB=6\\)。",
+  "solution_steps": [
+    "（1） 连接 \\(OB\\)。由 \\(CB=CP\\) 知 \\(\\angle CBP=\\angle BPC\\)。又因 \\(OC\\perp OA\\)，有 \\(\\angle BPC=90^\\circ-\\angle OAB\\)。",
+    "由 \\(OA=OB\\)，得 \\(\\angle PBO=\\angle OAB\\)。所以 \\(\\angle CBO=\\angle CBP+\\angle PBO=90^\\circ\\)。直线 BC 垂直于过 B 的半径，故为切线。",
+    "（2） 在直角三角形 \\(AOP\\) 中，由 \\(\\sin A=\\sqrt5/5\\) 得 \\(\\cos A=2\\sqrt5/5,\\ \\tan A=1/2\\)。所以 \\(OP=OA\\tan A=4\\)。",
+    "设 \\(CB=CP=x\\)，则 \\(OC=4+x\\)。由（1），在直角三角形 \\(OBC\\) 中有 \\((4+x)^2=8^2+x^2\\)，故 \\(x=6\\)。"
+  ],
+  "solution": "（1） 连接 \\(OB\\)。由 \\(CB=CP\\) 知 \\(\\angle CBP=\\angle BPC\\)。又因 \\(OC\\perp OA\\)，有 \\(\\angle BPC=90^\\circ-\\angle OAB\\)。\n由 \\(OA=OB\\)，得 \\(\\angle PBO=\\angle OAB\\)。所以 \\(\\angle CBO=\\angle CBP+\\angle PBO=90^\\circ\\)。直线 BC 垂直于过 B 的半径，故为切线。\n（2） 在直角三角形 \\(AOP\\) 中，由 \\(\\sin A=\\sqrt5/5\\) 得 \\(\\cos A=2\\sqrt5/5,\\ \\tan A=1/2\\)。所以 \\(OP=OA\\tan A=4\\)。\n设 \\(CB=CP=x\\)，则 \\(OC=4+x\\)。由（1），在直角三角形 \\(OBC\\) 中有 \\((4+x)^2=8^2+x^2\\)，故 \\(x=6\\)。",
+  "solution_origin": "editorial_answer_and_solution",
+  "solution_figure_ids": [],
+  "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。",
+  "source": {
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-93F92A25D8/paper-q20-p05.webp",
+      "assets/SZ-G9-T1-93F92A25D8/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          690.0,
+          583.64,
+          704.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          218.64
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      61,
+      64
+    ],
+    "solution_pages": [],
+    "solution_images": []
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

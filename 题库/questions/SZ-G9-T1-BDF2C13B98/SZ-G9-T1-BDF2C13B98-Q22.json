@@ -1,0 +1,399 @@
+{
+  "id": "SZ-G9-T1-BDF2C13B98-Q22",
+  "paper_id": "SZ-G9-T1-BDF2C13B98",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "教材再现：\n〔图1〕\n（1）如图1，在矩形\\(ABCD\\)中，\\(AB=3，AD=4\\)，P是\\(AD\\)上不与A和D重合的一个动点，过点P分别作\\(AC\\)和\\(BD\\)的垂线，垂足分别为E，F，则\\(PE+PF\\)的值为________．\n知识应用：\n（2）如图2，在矩形\\(ABCD\\)中，点M，分别在边\\(AD\\)，\\(BC\\)上，将矩形\\(ABCD\\)沿直线\\(MN\\)折叠，使点D恰好与点B重合，点C落在点\\(C_{ 1 }\\)处，点P为线段\\(MN\\)上一动点（不与点M，N重合），过点P分别作直线\\(BM，BC\\)的垂线，垂足分别为E和F，以\\(PE，PF\\)为邻边作平行四边形\\(PEQF\\)，若\\(DM=13，CN=5\\)，\\(▱PEQF\\)的周长是否为定值？若是，请求出\\(▱PEQF\\)的周长；若不是，请说明理由．\n（3）如图3，当点P是等边\\(\\vartriangle ABC\\)外一点时，过点P分别作直线\\(AB、AC、BC\\)的垂线、垂足分别为点E、D、F．若\\(PE+PF-PD=3\\)，请直接写出\\(\\vartriangle ABC\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-BDF2C13B98/figures/b413d60f2b26d303176fba7383761fabd93133d9760bc411ce73681126266d8c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { 12 } { 5 }\\)\n（2）\\(▱PEQF\\)的周长是定值，定值为24\n（3）\\(S_{ \\vartriangle ABC } =3\\sqrt[] { 3 }\\)",
+  "answer": "（1）\\(\\frac { 12 } { 5 }\\)\n（2）\\(▱PEQF\\)的周长是定值，定值为24\n（3）\\(S_{ \\vartriangle ABC } =3\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）如图1，记\\(AC\\)与\\(BD\\)的交点为O，连接\\(PO\\)，则\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }=5\\)，\\(S_{ \\vartriangle AOD } =\\frac { 1 } { 4 }S_{ 矩形ABCD }\\)，根据\\(S_{ \\vartriangle AOD } =S_{ \\vartriangle AOP } +S_{ \\vartriangle DOP } =\\frac { 1 } { 2 }OA\\cdot PE+\\frac { 1 } { 2 }OD\\cdot PF\\)，计算求解即可；\n（2）由四边形\\(ABCD\\)是矩形，可得\\(AD=BC，\\angle A=\\angle ABC=90{}^\\circ ，AD\\parallel BC\\)，则\\(\\angle DMN=\\angle BNM\\)，如图2，连接\\(BP\\)，过点M作\\(MH\\bot BC\\)于H，则四边形\\(ABHM\\)是矩形，\\(MH=AB\\)，由折叠的性质得：\\(DM=BM，\\angle DMN=\\angle BMN\\)，则\\(\\angle BNM=\\angle BMN\\)，\\(DM=13\\)，\\(AD=18\\)，\\(AM=5\\)，由勾股定理得：\\(AB=12\\)，\\(MH=12\\)，根据\\(S_{ \\vartriangle BMN } =S_{ \\vartriangle PBM } +S_{ \\vartriangle PBN }\\)，即\\(\\frac { 1 } { 2 }BN\\cdot MH=\\frac { 1 } { 2 }BM\\cdot PE+\\frac { 1 } { 2 }BN\\cdot PF\\)，可求\\(PE+PF\\)的值，然后求周长即可；\n（3）由等边\\(\\vartriangle ABC\\)，可知\\(AB=BC=AC\\)，\\(\\angle ABC=60{}^\\circ\\)，如图3，连接\\(AP，BP，CP\\)，作\\(AM\\bot BC\\)于\\(M\\)，可求\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AM=\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 }\\)，则\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle BCP } -S_{ \\vartriangle ACP }\\)，即\\(\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =\\frac { 1 } { 2 }AB\\cdot PE+\\frac { 1 } { 2 }BC\\cdot PF-\\frac { 1 } { 2 }AC\\cdot PD\\)，求\\(AB\\)的值，然后求面积即可．\n【小问1详解】\n解：如图1，记\\(AC\\)与\\(BD\\)的交点为O，连接\\(PO\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是矩形，\n∴\\(S_{ 矩形ABCD } =AB\\cdot BC=12\\)，\\(OA=OC=OB=OD\\)，\\(\\angle BAD=90{}^\\circ\\)，\n∴\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }=5\\)，\\(S_{ \\vartriangle AOD } =\\frac { 1 } { 2 }S_{ \\vartriangle ACD } =\\frac { 1 } { 4 }S_{ 矩形ABCD } =3\\)，\n∴\\(OA=OD=\\frac { 1 } { 2 }BD=\\frac { 5 } { 2 }\\)，\n∴\\(S_{ \\vartriangle AOD } =S_{ \\vartriangle AOP } +S_{ \\vartriangle DOP } =\\frac { 1 } { 2 }OA\\cdot PE+\\frac { 1 } { 2 }OD\\cdot PF=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\left ( { PE+PF } \\right )=3\\)，\n解得：\\(PE+PF=\\frac { 12 } { 5 }\\)，\n故答案为：\\(\\frac { 12 } { 5 }\\)；\n【小问2详解】\n解：\\(▱PEQF\\)的周长是定值，理由如下：\n∵四边形\\(ABCD\\)是矩形，\n∴\\(AD=BC，\\angle A=\\angle ABC=90{}^\\circ ，AD\\parallel BC\\)，\n∴\\(\\angle DMN=\\angle BNM\\)，\n如图2，连接\\(BP\\)，过点M作\\(MH\\bot BC\\)于H，则四边形\\(ABHM\\)是矩形，\n〔图3〕\n∴\\(MH=AB\\)，\n由折叠的性质得：\\(DM=BM，\\angle DMN=\\angle BMN\\)，\n∴\\(\\angle BNM=\\angle BMN\\)，\n∴\\(DM=BM=BN=13\\)，\n∴\\(AD=BC=BN+CN=13+5=18\\)，\n∴\\(AM=AD-DM=18-13=5\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABM\\)中，由勾股定理得：\\(AB=\\sqrt[] { BM ^ { 2 } -AM ^ { 2 } }=12\\)，\n∴\\(MH=12\\)，\n∵\\(S_{ \\vartriangle BMN } =S_{ \\vartriangle PBM } +S_{ \\vartriangle PBN }\\)，\\(PE\\bot BM，PF\\bot BN\\)，\n∴\\(\\frac { 1 } { 2 }BN\\cdot MH=\\frac { 1 } { 2 }BM\\cdot PE+\\frac { 1 } { 2 }BN\\cdot PF\\)，\n∴\\(PE+PF=MH=12\\)，\n∴\\(▱PEGF\\)的周长为\\(2(PE+PF)=2\\times 12=24\\)，\n∴\\(▱PEQF\\)的周长是定值，值为24；\n【小问3详解】\n解：∵等边\\(\\vartriangle ABC\\)，\n∴\\(AB=BC=AC\\)，\\(\\angle ABC=60{}^\\circ\\)，\n如图3，连接\\(AP，BP，CP\\)，作\\(AM\\bot BC\\)于\\(M\\)，\n〔图4〕\n∴\\(\\angle BAM=30{}^\\circ\\)，\n∴\\(BM=\\frac { 1 } { 2 }AB，AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AM=\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 }\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle BCP } -S_{ \\vartriangle ACP }\\)，\n∴\\(\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =\\frac { 1 } { 2 }AB\\cdot PE+\\frac { 1 } { 2 }BC\\cdot PF-\\frac { 1 } { 2 }AC\\cdot PD\\)，\n∴\\(\\frac { \\sqrt[] { 3 } } { 2 }AB=PE+PF-PD\\)，\n∵\\(PE+PF-PD=3\\)，\n∴\\(AB=2\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =3\\sqrt[] { 3 }\\)，\n∴\\(\\vartriangle ABC\\)的面积为\\(3\\sqrt[] { 3 }\\)．\n【点睛】本题考查了矩形的判定与性质，平行四边形的性质，等边三角形的性质，折叠的性质，平行线的性质，等角对等边，含\\(30{}^\\circ\\)的直角三角形，勾股定理等知识．熟练掌握等面积法求几何图形的高或面积是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-BDF2C13B98/figures/3e3eeb81fb867350e96db6a67f8dee3730ba45dd56ee5bbdd175b7f492371532.png",
+    "assets/SZ-G9-T1-BDF2C13B98/figures/5471afe035d0e8b0c4dc5280c4b6573eaeb33ca2f438ed583d2e41a94176614c.png",
+    "assets/SZ-G9-T1-BDF2C13B98/figures/b3fff0ed542a563cedf68ea53c69e522c5a455c2eb1cefe0d9ca1a582d3e6723.png",
+    "assets/SZ-G9-T1-BDF2C13B98/figures/eeede05a644d972d9c61abb86e6871ee77d1b4ac68fca55bf8aa9997532076b2.png"
+  ],
+  "solution": "【小问1详解】\n解：如图1，记\\(AC\\)与\\(BD\\)的交点为O，连接\\(PO\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是矩形，\n∴\\(S_{ 矩形ABCD } =AB\\cdot BC=12\\)，\\(OA=OC=OB=OD\\)，\\(\\angle BAD=90{}^\\circ\\)，\n∴\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }=5\\)，\\(S_{ \\vartriangle AOD } =\\frac { 1 } { 2 }S_{ \\vartriangle ACD } =\\frac { 1 } { 4 }S_{ 矩形ABCD } =3\\)，\n∴\\(OA=OD=\\frac { 1 } { 2 }BD=\\frac { 5 } { 2 }\\)，\n∴\\(S_{ \\vartriangle AOD } =S_{ \\vartriangle AOP } +S_{ \\vartriangle DOP } =\\frac { 1 } { 2 }OA\\cdot PE+\\frac { 1 } { 2 }OD\\cdot PF=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\left ( { PE+PF } \\right )=3\\)，\n解得：\\(PE+PF=\\frac { 12 } { 5 }\\)，\n故答案为：\\(\\frac { 12 } { 5 }\\)；\n【小问2详解】\n解：\\(▱PEQF\\)的周长是定值，理由如下：\n∵四边形\\(ABCD\\)是矩形，\n∴\\(AD=BC，\\angle A=\\angle ABC=90{}^\\circ ，AD\\parallel BC\\)，\n∴\\(\\angle DMN=\\angle BNM\\)，\n如图2，连接\\(BP\\)，过点M作\\(MH\\bot BC\\)于H，则四边形\\(ABHM\\)是矩形，\n〔图3〕\n∴\\(MH=AB\\)，\n由折叠的性质得：\\(DM=BM，\\angle DMN=\\angle BMN\\)，\n∴\\(\\angle BNM=\\angle BMN\\)，\n∴\\(DM=BM=BN=13\\)，\n∴\\(AD=BC=BN+CN=13+5=18\\)，\n∴\\(AM=AD-DM=18-13=5\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABM\\)中，由勾股定理得：\\(AB=\\sqrt[] { BM ^ { 2 } -AM ^ { 2 } }=12\\)，\n∴\\(MH=12\\)，\n∵\\(S_{ \\vartriangle BMN } =S_{ \\vartriangle PBM } +S_{ \\vartriangle PBN }\\)，\\(PE\\bot BM，PF\\bot BN\\)，\n∴\\(\\frac { 1 } { 2 }BN\\cdot MH=\\frac { 1 } { 2 }BM\\cdot PE+\\frac { 1 } { 2 }BN\\cdot PF\\)，\n∴\\(PE+PF=MH=12\\)，\n∴\\(▱PEGF\\)的周长为\\(2(PE+PF)=2\\times 12=24\\)，\n∴\\(▱PEQF\\)的周长是定值，值为24；\n【小问3详解】\n解：∵等边\\(\\vartriangle ABC\\)，\n∴\\(AB=BC=AC\\)，\\(\\angle ABC=60{}^\\circ\\)，\n如图3，连接\\(AP，BP，CP\\)，作\\(AM\\bot BC\\)于\\(M\\)，\n〔图4〕\n∴\\(\\angle BAM=30{}^\\circ\\)，\n∴\\(BM=\\frac { 1 } { 2 }AB，AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AM=\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 }\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle BCP } -S_{ \\vartriangle ACP }\\)，\n∴\\(\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =\\frac { 1 } { 2 }AB\\cdot PE+\\frac { 1 } { 2 }BC\\cdot PF-\\frac { 1 } { 2 }AC\\cdot PD\\)，\n∴\\(\\frac { \\sqrt[] { 3 } } { 2 }AB=PE+PF-PD\\)，\n∵\\(PE+PF-PD=3\\)，\n∴\\(AB=2\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =3\\sqrt[] { 3 }\\)，\n∴\\(\\vartriangle ABC\\)的面积为\\(3\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：如图1，记\\(AC\\)与\\(BD\\)的交点为O，连接\\(PO\\)，",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)是矩形，",
+    "∴\\(S_{ 矩形ABCD } =AB\\cdot BC=12\\)，\\(OA=OC=OB=OD\\)，\\(\\angle BAD=90{}^\\circ\\)，",
+    "∴\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }=5\\)，\\(S_{ \\vartriangle AOD } =\\frac { 1 } { 2 }S_{ \\vartriangle ACD } =\\frac { 1 } { 4 }S_{ 矩形ABCD } =3\\)，",
+    "∴\\(OA=OD=\\frac { 1 } { 2 }BD=\\frac { 5 } { 2 }\\)，",
+    "∴\\(S_{ \\vartriangle AOD } =S_{ \\vartriangle AOP } +S_{ \\vartriangle DOP } =\\frac { 1 } { 2 }OA\\cdot PE+\\frac { 1 } { 2 }OD\\cdot PF=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\left ( { PE+PF } \\right )=3\\)，",
+    "解得：\\(PE+PF=\\frac { 12 } { 5 }\\)，",
+    "故答案为：\\(\\frac { 12 } { 5 }\\)；",
+    "【小问2详解】",
+    "解：\\(▱PEQF\\)的周长是定值，理由如下：",
+    "∵四边形\\(ABCD\\)是矩形，",
+    "∴\\(AD=BC，\\angle A=\\angle ABC=90{}^\\circ ，AD\\parallel BC\\)，",
+    "∴\\(\\angle DMN=\\angle BNM\\)，",
+    "如图2，连接\\(BP\\)，过点M作\\(MH\\bot BC\\)于H，则四边形\\(ABHM\\)是矩形，",
+    "〔图3〕",
+    "∴\\(MH=AB\\)，",
+    "由折叠的性质得：\\(DM=BM，\\angle DMN=\\angle BMN\\)，",
+    "∴\\(\\angle BNM=\\angle BMN\\)，",
+    "∴\\(DM=BM=BN=13\\)，",
+    "∴\\(AD=BC=BN+CN=13+5=18\\)，",
+    "∴\\(AM=AD-DM=18-13=5\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABM\\)中，由勾股定理得：\\(AB=\\sqrt[] { BM ^ { 2 } -AM ^ { 2 } }=12\\)，",
+    "∴\\(MH=12\\)，",
+    "∵\\(S_{ \\vartriangle BMN } =S_{ \\vartriangle PBM } +S_{ \\vartriangle PBN }\\)，\\(PE\\bot BM，PF\\bot BN\\)，",
+    "∴\\(\\frac { 1 } { 2 }BN\\cdot MH=\\frac { 1 } { 2 }BM\\cdot PE+\\frac { 1 } { 2 }BN\\cdot PF\\)，",
+    "∴\\(PE+PF=MH=12\\)，",
+    "∴\\(▱PEGF\\)的周长为\\(2(PE+PF)=2\\times 12=24\\)，",
+    "∴\\(▱PEQF\\)的周长是定值，值为24；",
+    "【小问3详解】",
+    "解：∵等边\\(\\vartriangle ABC\\)，",
+    "∴\\(AB=BC=AC\\)，\\(\\angle ABC=60{}^\\circ\\)，",
+    "如图3，连接\\(AP，BP，CP\\)，作\\(AM\\bot BC\\)于\\(M\\)，",
+    "〔图4〕",
+    "∴\\(\\angle BAM=30{}^\\circ\\)，",
+    "∴\\(BM=\\frac { 1 } { 2 }AB，AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)，",
+    "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AM=\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 }\\)，",
+    "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle BCP } -S_{ \\vartriangle ACP }\\)，",
+    "∴\\(\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =\\frac { 1 } { 2 }AB\\cdot PE+\\frac { 1 } { 2 }BC\\cdot PF-\\frac { 1 } { 2 }AC\\cdot PD\\)，",
+    "∴\\(\\frac { \\sqrt[] { 3 } } { 2 }AB=PE+PF-PD\\)，",
+    "∵\\(PE+PF-PD=3\\)，",
+    "∴\\(AB=2\\sqrt[] { 3 }\\)，",
+    "∴\\(S_{ \\vartriangle ABC } =\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =3\\sqrt[] { 3 }\\)，",
+    "∴\\(\\vartriangle ABC\\)的面积为\\(3\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "教材再现：\n〔图1〕",
+      "paper_blocks": [
+        75,
+        76
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-BDF2C13B98-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，在矩形\\(ABCD\\)中，\\(AB=3，AD=4\\)，P是\\(AD\\)上不与A和D重合的一个动点，过点P分别作\\(AC\\)和\\(BD\\)的垂线，垂足分别为E，F，则\\(PE+PF\\)的值为________．\n知识应用：",
+      "stem_text": "如图1，在矩形\\(ABCD\\)中，\\(AB=3，AD=4\\)，P是\\(AD\\)上不与A和D重合的一个动点，过点P分别作\\(AC\\)和\\(BD\\)的垂线，垂足分别为E，F，则\\(PE+PF\\)的值为________．\n知识应用：",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 12 } { 5 }\\)",
+      "answer": "\\(\\frac { 12 } { 5 }\\)",
+      "given_solution": "解：如图1，记\\(AC\\)与\\(BD\\)的交点为O，连接\\(PO\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是矩形，\n∴\\(S_{ 矩形ABCD } =AB\\cdot BC=12\\)，\\(OA=OC=OB=OD\\)，\\(\\angle BAD=90{}^\\circ\\)，\n∴\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }=5\\)，\\(S_{ \\vartriangle AOD } =\\frac { 1 } { 2 }S_{ \\vartriangle ACD } =\\frac { 1 } { 4 }S_{ 矩形ABCD } =3\\)，\n∴\\(OA=OD=\\frac { 1 } { 2 }BD=\\frac { 5 } { 2 }\\)，\n∴\\(S_{ \\vartriangle AOD } =S_{ \\vartriangle AOP } +S_{ \\vartriangle DOP } =\\frac { 1 } { 2 }OA\\cdot PE+\\frac { 1 } { 2 }OD\\cdot PF=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\left ( { PE+PF } \\right )=3\\)，\n解得：\\(PE+PF=\\frac { 12 } { 5 }\\)，\n故答案为：\\(\\frac { 12 } { 5 }\\)；",
+      "solution_steps": [
+        "解：如图1，记\\(AC\\)与\\(BD\\)的交点为O，连接\\(PO\\)，",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)是矩形，",
+        "∴\\(S_{ 矩形ABCD } =AB\\cdot BC=12\\)，\\(OA=OC=OB=OD\\)，\\(\\angle BAD=90{}^\\circ\\)，",
+        "∴\\(BD=\\sqrt[] { AB ^ { 2 } +AD ^ { 2 } }=5\\)，\\(S_{ \\vartriangle AOD } =\\frac { 1 } { 2 }S_{ \\vartriangle ACD } =\\frac { 1 } { 4 }S_{ 矩形ABCD } =3\\)，",
+        "∴\\(OA=OD=\\frac { 1 } { 2 }BD=\\frac { 5 } { 2 }\\)，",
+        "∴\\(S_{ \\vartriangle AOD } =S_{ \\vartriangle AOP } +S_{ \\vartriangle DOP } =\\frac { 1 } { 2 }OA\\cdot PE+\\frac { 1 } { 2 }OD\\cdot PF=\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }\\left ( { PE+PF } \\right )=3\\)，",
+        "解得：\\(PE+PF=\\frac { 12 } { 5 }\\)，",
+        "故答案为：\\(\\frac { 12 } { 5 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-BDF2C13B98-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，在矩形\\(ABCD\\)中，点M，分别在边\\(AD\\)，\\(BC\\)上，将矩形\\(ABCD\\)沿直线\\(MN\\)折叠，使点D恰好与点B重合，点C落在点\\(C_{ 1 }\\)处，点P为线段\\(MN\\)上一动点（不与点M，N重合），过点P分别作直线\\(BM，BC\\)的垂线，垂足分别为E和F，以\\(PE，PF\\)为邻边作平行四边形\\(PEQF\\)，若\\(DM=13，CN=5\\)，\\(▱PEQF\\)的周长是否为定值？若是，请求出\\(▱PEQF\\)的周长；若不是，请说明理由．",
+      "stem_text": "如图2，在矩形\\(ABCD\\)中，点M，分别在边\\(AD\\)，\\(BC\\)上，将矩形\\(ABCD\\)沿直线\\(MN\\)折叠，使点D恰好与点B重合，点C落在点\\(C_{ 1 }\\)处，点P为线段\\(MN\\)上一动点（不与点M，N重合），过点P分别作直线\\(BM，BC\\)的垂线，垂足分别为E和F，以\\(PE，PF\\)为邻边作平行四边形\\(PEQF\\)，若\\(DM=13，CN=5\\)，\\(▱PEQF\\)的周长是否为定值？若是，请求出\\(▱PEQF\\)的周长；若不是，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(▱PEQF\\)的周长是定值，定值为24",
+      "answer": "\\(▱PEQF\\)的周长是定值，定值为24",
+      "given_solution": "解：\\(▱PEQF\\)的周长是定值，理由如下：\n∵四边形\\(ABCD\\)是矩形，\n∴\\(AD=BC，\\angle A=\\angle ABC=90{}^\\circ ，AD\\parallel BC\\)，\n∴\\(\\angle DMN=\\angle BNM\\)，\n如图2，连接\\(BP\\)，过点M作\\(MH\\bot BC\\)于H，则四边形\\(ABHM\\)是矩形，\n〔图3〕\n∴\\(MH=AB\\)，\n由折叠的性质得：\\(DM=BM，\\angle DMN=\\angle BMN\\)，\n∴\\(\\angle BNM=\\angle BMN\\)，\n∴\\(DM=BM=BN=13\\)，\n∴\\(AD=BC=BN+CN=13+5=18\\)，\n∴\\(AM=AD-DM=18-13=5\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABM\\)中，由勾股定理得：\\(AB=\\sqrt[] { BM ^ { 2 } -AM ^ { 2 } }=12\\)，\n∴\\(MH=12\\)，\n∵\\(S_{ \\vartriangle BMN } =S_{ \\vartriangle PBM } +S_{ \\vartriangle PBN }\\)，\\(PE\\bot BM，PF\\bot BN\\)，\n∴\\(\\frac { 1 } { 2 }BN\\cdot MH=\\frac { 1 } { 2 }BM\\cdot PE+\\frac { 1 } { 2 }BN\\cdot PF\\)，\n∴\\(PE+PF=MH=12\\)，\n∴\\(▱PEGF\\)的周长为\\(2(PE+PF)=2\\times 12=24\\)，\n∴\\(▱PEQF\\)的周长是定值，值为24；",
+      "solution_steps": [
+        "解：\\(▱PEQF\\)的周长是定值，理由如下：",
+        "∵四边形\\(ABCD\\)是矩形，",
+        "∴\\(AD=BC，\\angle A=\\angle ABC=90{}^\\circ ，AD\\parallel BC\\)，",
+        "∴\\(\\angle DMN=\\angle BNM\\)，",
+        "如图2，连接\\(BP\\)，过点M作\\(MH\\bot BC\\)于H，则四边形\\(ABHM\\)是矩形，",
+        "〔图3〕",
+        "∴\\(MH=AB\\)，",
+        "由折叠的性质得：\\(DM=BM，\\angle DMN=\\angle BMN\\)，",
+        "∴\\(\\angle BNM=\\angle BMN\\)，",
+        "∴\\(DM=BM=BN=13\\)，",
+        "∴\\(AD=BC=BN+CN=13+5=18\\)，",
+        "∴\\(AM=AD-DM=18-13=5\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABM\\)中，由勾股定理得：\\(AB=\\sqrt[] { BM ^ { 2 } -AM ^ { 2 } }=12\\)，",
+        "∴\\(MH=12\\)，",
+        "∵\\(S_{ \\vartriangle BMN } =S_{ \\vartriangle PBM } +S_{ \\vartriangle PBN }\\)，\\(PE\\bot BM，PF\\bot BN\\)，",
+        "∴\\(\\frac { 1 } { 2 }BN\\cdot MH=\\frac { 1 } { 2 }BM\\cdot PE+\\frac { 1 } { 2 }BN\\cdot PF\\)，",
+        "∴\\(PE+PF=MH=12\\)，",
+        "∴\\(▱PEGF\\)的周长为\\(2(PE+PF)=2\\times 12=24\\)，",
+        "∴\\(▱PEQF\\)的周长是定值，值为24；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          79
+        ],
+        "solution_block_ids": [
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-BDF2C13B98-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，当点P是等边\\(\\vartriangle ABC\\)外一点时，过点P分别作直线\\(AB、AC、BC\\)的垂线、垂足分别为点E、D、F．若\\(PE+PF-PD=3\\)，请直接写出\\(\\vartriangle ABC\\)的面积．",
+      "stem_text": "如图3，当点P是等边\\(\\vartriangle ABC\\)外一点时，过点P分别作直线\\(AB、AC、BC\\)的垂线、垂足分别为点E、D、F．若\\(PE+PF-PD=3\\)，请直接写出\\(\\vartriangle ABC\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ \\vartriangle ABC } =3\\sqrt[] { 3 }\\)",
+      "answer": "\\(S_{ \\vartriangle ABC } =3\\sqrt[] { 3 }\\)",
+      "given_solution": "解：∵等边\\(\\vartriangle ABC\\)，\n∴\\(AB=BC=AC\\)，\\(\\angle ABC=60{}^\\circ\\)，\n如图3，连接\\(AP，BP，CP\\)，作\\(AM\\bot BC\\)于\\(M\\)，\n〔图4〕\n∴\\(\\angle BAM=30{}^\\circ\\)，\n∴\\(BM=\\frac { 1 } { 2 }AB，AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AM=\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 }\\)，\n∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle BCP } -S_{ \\vartriangle ACP }\\)，\n∴\\(\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =\\frac { 1 } { 2 }AB\\cdot PE+\\frac { 1 } { 2 }BC\\cdot PF-\\frac { 1 } { 2 }AC\\cdot PD\\)，\n∴\\(\\frac { \\sqrt[] { 3 } } { 2 }AB=PE+PF-PD\\)，\n∵\\(PE+PF-PD=3\\)，\n∴\\(AB=2\\sqrt[] { 3 }\\)，\n∴\\(S_{ \\vartriangle ABC } =\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =3\\sqrt[] { 3 }\\)，\n∴\\(\\vartriangle ABC\\)的面积为\\(3\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：∵等边\\(\\vartriangle ABC\\)，",
+        "∴\\(AB=BC=AC\\)，\\(\\angle ABC=60{}^\\circ\\)，",
+        "如图3，连接\\(AP，BP，CP\\)，作\\(AM\\bot BC\\)于\\(M\\)，",
+        "〔图4〕",
+        "∴\\(\\angle BAM=30{}^\\circ\\)，",
+        "∴\\(BM=\\frac { 1 } { 2 }AB，AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)，",
+        "∴\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }BC\\times AM=\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 }\\)，",
+        "∵\\(S_{ \\vartriangle ABC } =S_{ \\vartriangle ABP } +S_{ \\vartriangle BCP } -S_{ \\vartriangle ACP }\\)，",
+        "∴\\(\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =\\frac { 1 } { 2 }AB\\cdot PE+\\frac { 1 } { 2 }BC\\cdot PF-\\frac { 1 } { 2 }AC\\cdot PD\\)，",
+        "∴\\(\\frac { \\sqrt[] { 3 } } { 2 }AB=PE+PF-PD\\)，",
+        "∵\\(PE+PF-PD=3\\)，",
+        "∴\\(AB=2\\sqrt[] { 3 }\\)，",
+        "∴\\(S_{ \\vartriangle ABC } =\\frac { \\sqrt[] { 3 } } { 4 }AB ^ { 2 } =3\\sqrt[] { 3 }\\)，",
+        "∴\\(\\vartriangle ABC\\)的面积为\\(3\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76,
+          80
+        ],
+        "solution_block_ids": [
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      75,
+      80
+    ],
+    "solution_body_blocks": [
+      391,
+      449
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-BDF2C13B98/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          128.18,
+          583.64,
+          525.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-BDF2C13B98/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-BDF2C13B98/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-BDF2C13B98/solution-q22-p23.webp",
+      "assets/SZ-G9-T1-BDF2C13B98/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          428.64,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          665.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          485.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

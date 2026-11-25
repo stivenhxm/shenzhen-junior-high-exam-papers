@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q02",{"answer":"D","solution_steps":["两条抛物线在整个实数范围内都不是单调递减的。一次函数 \\(y=kx+b\\) 在 \\(k\u003c0\\) 时随 \\(x\\) 的增大而减小。","在 C、D 两项中，只有 \\(y=-2x+1\\) 的斜率为负。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

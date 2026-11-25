@@ -26,6 +26,16 @@ class SeedPapers(unittest.TestCase):
         args = argparse.Namespace(items=[item],paper=None,school=None,knowledge=None,exam=None)
         self.assertIn('answers/'+item, build.subset(self.bank,args)['data'])
 
+    def test_grade_nine_conflicting_answer_links_to_the_rendered_word_source(self):
+        item = 'SZ-G9-T2-BF6EEFF1CA-Q15'
+        answer = self.bank.shards['answers/'+item]
+        self.assertEqual(answer['solution_origin'], 'source_checked_with_correction')
+        self.assertIn('113', answer['answer'])
+        other, = answer['supplemental_solutions']
+        self.assertTrue(other['git_path'].endswith('.docx'))
+        self.assertEqual(other['sha256'], build.file_hash(build.ROOT.parent / other['git_path']))
+        self.assertEqual(other['rendered_sha256'], build.file_hash(build.ROOT / other['pdf']))
+
     def test_curriculum_includes_unused_tags_and_exports_only_relevant_branches(self):
         tax = build.read(build.ROOT/'taxonomy'/'taxonomy.v0.2.json')
         tree = self.bank.shards['curriculum']

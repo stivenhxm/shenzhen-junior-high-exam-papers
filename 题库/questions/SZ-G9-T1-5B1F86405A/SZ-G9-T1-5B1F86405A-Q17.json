@@ -1,0 +1,112 @@
+{
+  "id": "SZ-G9-T1-5B1F86405A-Q17",
+  "paper_id": "SZ-G9-T1-5B1F86405A",
+  "number": 17,
+  "type": "解答题",
+  "points": null,
+  "title": "求特殊锐角函数值或按要求用计算器",
+  "stem": "如图，无人机在塔树上方\\(Q\\)处悬停，测得塔顶\\(A\\)的俯角为\\(37{}^\\circ\\)，树顶\\(D\\)的俯角为\\(60{}^\\circ\\)，树高\\(CD\\)为\\(12\\)米，无人机竖直高度\\(PQ\\)为60米，\\(B\\)、\\(P\\)、\\(C\\)在一条直线上，且\\(P\\)点到塔底\\(B\\)的距离比到树底\\(C\\)的距离多\\(8\\)米，求塔高\\(AB\\)的值．（结果可保留根号，参考数据：\\(sin37{}^\\circ \\approx 0.60\\)，\\(cos37{}^\\circ \\approx 0.80\\)，\\(tan37{}^\\circ \\approx 0.75\\)）\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-5B1F86405A/figures/c70766eb40b8abbac1e10e9d7d479d1ab1e5828c6d9d89077dc1c7e485d9709c.png"
+  ],
+  "tables": [],
+  "given_answer": "\\((54-12\\sqrt[] { 3 })\\)米",
+  "answer": "\\((54-12\\sqrt[] { 3 })\\)米",
+  "given_solution": "【分析】本题考查的是解直角三角形的应用-仰角俯角问题，延长\\(CD\\)交\\(GH\\)于点\\(E\\)，延长\\(BA\\)交\\(GH\\)于点\\(F\\)，由题意得：\\(CE\\bot GH\\)，\\(BF\\bot GH\\)，\\(CE=BF=PQ=60\\)米，\\(EQ=CP\\)，\\(QF=PB\\)，从而可得\\(DE=48\\)（米），在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEQ\\)中，利用锐角三角函数的定义求出\\(EQ\\)的长，从而求出\\(QF\\)的长，再在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle QFA\\)中，用锐角三角函数的定义求出\\(AF\\)的长即可求解，解题的关键是根据题意添加适当的辅助线．\n【详解】解：如图：延长\\(CD\\)交\\(GH\\)于点\\(E\\)，延长\\(BA\\)交\\(GH\\)于点\\(F\\)，\n〔图2〕\n由题意得：\\(CE\\bot GH\\)，\\(BF\\bot GH\\)，\\(CE=BF=PQ=60\\)米，\\(EQ=CP\\)，\\(QF=PB\\)，\n∵\\(CD=12\\)米，\n∴\\(DE=CE-CD=48\\)（米），\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEQ\\)中，\\(\\angle EQD=60{}^\\circ\\)，\n∴\\(EQ=\\frac { DE } { tan60{}^\\circ }=\\frac { 48 } { \\sqrt[] { 3 } }=16\\sqrt[] { 3 }\\)（米），\n∵\\(PB-PC=8\\)，\n∴\\(QF-QE=8\\)，\n∴\\(QF=QE+8=(16\\sqrt[] { 3 }+8)\\)米，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle QFA\\)中，\\(\\angle FQA=37{}^\\circ\\)，\n∴\\(AF=QF\\cdot tan37{}^\\circ \\approx 0.75(16\\sqrt[] { 3 }+8)\\)米，\n∴\\(AB=BF-AF=60-0.75(16\\sqrt[] { 3 }+8)=(54-12\\sqrt[] { 3 })\\)米，\n∴塔高\\(AB\\)的值为\\((54-12\\sqrt[] { 3 })\\)米，",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-5B1F86405A/figures/c70766eb40b8abbac1e10e9d7d479d1ab1e5828c6d9d89077dc1c7e485d9709c.png",
+    "assets/SZ-G9-T1-5B1F86405A/figures/cadf974df31862fc0c45950c9823c98a5330de3c8110af56718259f255fa11f7.png"
+  ],
+  "solution": "解：如图：延长\\(CD\\)交\\(GH\\)于点\\(E\\)，延长\\(BA\\)交\\(GH\\)于点\\(F\\)，\n〔图2〕\n由题意得：\\(CE\\bot GH\\)，\\(BF\\bot GH\\)，\\(CE=BF=PQ=60\\)米，\\(EQ=CP\\)，\\(QF=PB\\)，\n∵\\(CD=12\\)米，\n∴\\(DE=CE-CD=48\\)（米），\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEQ\\)中，\\(\\angle EQD=60{}^\\circ\\)，\n∴\\(EQ=\\frac { DE } { tan60{}^\\circ }=\\frac { 48 } { \\sqrt[] { 3 } }=16\\sqrt[] { 3 }\\)（米），\n∵\\(PB-PC=8\\)，\n∴\\(QF-QE=8\\)，\n∴\\(QF=QE+8=(16\\sqrt[] { 3 }+8)\\)米，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle QFA\\)中，\\(\\angle FQA=37{}^\\circ\\)，\n∴\\(AF=QF\\cdot tan37{}^\\circ \\approx 0.75(16\\sqrt[] { 3 }+8)\\)米，\n∴\\(AB=BF-AF=60-0.75(16\\sqrt[] { 3 }+8)=(54-12\\sqrt[] { 3 })\\)米，\n∴塔高\\(AB\\)的值为\\((54-12\\sqrt[] { 3 })\\)米，",
+  "solution_steps": [
+    "解：如图：延长\\(CD\\)交\\(GH\\)于点\\(E\\)，延长\\(BA\\)交\\(GH\\)于点\\(F\\)，",
+    "〔图2〕",
+    "由题意得：\\(CE\\bot GH\\)，\\(BF\\bot GH\\)，\\(CE=BF=PQ=60\\)米，\\(EQ=CP\\)，\\(QF=PB\\)，",
+    "∵\\(CD=12\\)米，",
+    "∴\\(DE=CE-CD=48\\)（米），",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DEQ\\)中，\\(\\angle EQD=60{}^\\circ\\)，",
+    "∴\\(EQ=\\frac { DE } { tan60{}^\\circ }=\\frac { 48 } { \\sqrt[] { 3 } }=16\\sqrt[] { 3 }\\)（米），",
+    "∵\\(PB-PC=8\\)，",
+    "∴\\(QF-QE=8\\)，",
+    "∴\\(QF=QE+8=(16\\sqrt[] { 3 }+8)\\)米，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle QFA\\)中，\\(\\angle FQA=37{}^\\circ\\)，",
+    "∴\\(AF=QF\\cdot tan37{}^\\circ \\approx 0.75(16\\sqrt[] { 3 }+8)\\)米，",
+    "∴\\(AB=BF-AF=60-0.75(16\\sqrt[] { 3 }+8)=(54-12\\sqrt[] { 3 })\\)米，",
+    "∴塔高\\(AB\\)的值为\\((54-12\\sqrt[] { 3 })\\)米，"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      40,
+      41
+    ],
+    "solution_body_blocks": [
+      231,
+      249
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-5B1F86405A/paper-q17-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          147.73,
+          583.64,
+          366.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-5B1F86405A/solution-q17-p14.webp",
+      "assets/SZ-G9-T1-5B1F86405A/solution-q17-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          285.45,
+          583.64,
+          724.55
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          296.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G10.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“求特殊锐角函数值或按要求用计算器”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

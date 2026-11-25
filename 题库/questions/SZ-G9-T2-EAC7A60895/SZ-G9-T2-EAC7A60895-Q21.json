@@ -1,0 +1,332 @@
+{
+  "id": "SZ-G9-T2-EAC7A60895-Q21",
+  "paper_id": "SZ-G9-T2-EAC7A60895",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、由点或乘积关系确定反比例表达式",
+  "stem": "（1）【建立模型】在数学课上，老师出示这样一个问题：如图1，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，直线l经过点C，\\(AD\\bot l\\)，\\(BE\\bot l\\)，垂足分别为点D和点E，求证：\\(\\vartriangle ADC≌\\vartriangle CEB\\)，请你写出证明过程；\n（2）【类比迁移】勤奋小组在这个模型的基础上，继续进行探究问题：如图2，在平面直角坐标系中，直线\\(y=-3x+3\\)的图象与y轴交于点A，与x轴交于点C，将线段\\(AC\\)绕点C顺时针旋转\\(90{}^\\circ\\)得到线段\\(CB\\)，反比例函数\\(y=\\frac { k } { x }\\)的图象经过点B，请你求出反比例函数的解析式；\n（3）【拓展延伸】创新小组受到勤奋小组的启发，结合抛物线的图象继续深入探究：如图3，一次函数\\(y=-3x+3\\)的图象与y轴交于点A，与x轴交于点C，创新小组的同学发现在第一象限的抛物线\\(y=-x ^ { 2 } +2x+3\\)的图象上存在一点P，连接\\(PA\\)，当\\(\\angle PAC=45{}^\\circ\\)时，请你和创新小组的同学一起求出点P的坐标．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/87/874a9ec74ecf8bcce32391dbfdc4108fc8b5b6329fb41f77336cbecf1e123673.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(y=\\frac { 4 } { x }\\)；（3）\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)",
+  "answer": "（1）见解析；（2）\\(y=\\frac { 4 } { x }\\)；（3）\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)",
+  "given_solution": "【分析】本题考查了全等三角形的判定和性质，待定系数法求函数解析式，解一元二次方程，一次函数与反比例函数的综合问题，一次函数与二次函数的综合，\n（1）直接根据角角边证明三角形全等即可；\n（2）先求出A，C坐标，再得出点B的坐标，再利用待定系数法求解即可；\n（3）过点C作\\(CB\\bot AC\\)，且\\(CB=AC\\)，过点B作\\(BE\\bot x\\)轴，垂足为点E，连接\\(AB\\)交抛物线于点P，求出直线\\(AB\\)的解析式，再与二次函数解析式联立，解方程即可；\n熟练掌握知识点是解题的关键．\n【详解】（1）证明：∵\\(\\angle ACB=90{}^\\circ\\)，∴\\(\\angle ACD+\\angle BCE=90{}^\\circ\\)，\n∵\\(\\angle ADC=90{}^\\circ\\)，∴\\(\\angle DAC+\\angle ACD=90{}^\\circ\\)，\n∴\\(\\angle BCE=\\angle DAC\\)\n∵\\(\\angle ADC=\\angle BEC\\)，\\(AC=CB\\)，\n∴\\(\\vartriangle ADC≌\\vartriangle CEB\\)\n（2）∵\\(y=-3x+3\\)，\n∴当\\(x=0\\)时，\\(y=3\\)，当\\(y=0\\)时，\\(-3x+3=0\\)，\\(x=1\\)，\n∴\\(A\\left ( { 0,3 } \\right )\\)，\\(C\\left ( { 1,0 } \\right )\\)，\n由（1）可知：\\(\\vartriangle AOC≌\\vartriangle CEB\\)，\n∴\\(CE=AO=3\\)，\\(BE=CO=1\\)，\n∴\\(OE=4\\)，点B的坐标为\\(\\left ( { 4,1 } \\right )\\)\n把\\(\\left ( { 4,1 } \\right )\\)代入\\(y=\\frac { k } { x }\\)得：\\(1=\\frac { k } { 4 }\\)，解得\\(k=4\\)，\n∴反比例函数的解析式为：\\(y=\\frac { 4 } { x }\\)\n〔图2〕\n（3）过点C作\\(CB\\bot AC\\)，且\\(CB=AC\\)，过点B作\\(BE\\bot x\\)轴，垂足为点E，连接\\(AB\\)交抛物线于点P，\n∴\\(\\angle CAB=\\angle ABC=45{}^\\circ\\)，\n由（2）可知\\(A\\left ( { 0,3 } \\right )\\)，\\(B\\left ( { 4,1 } \\right )\\)，\n∴设直线\\(AB\\)的解析式为\\(y=kx+b\\)，\n∴\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\)，∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴\\(y=-\\frac { 1 } { 2 }x+3\\)\n∴\\(-\\frac { 1 } { 2 }x+3=-x ^ { 2 } +2x+3\\)，\n解得：\\(x_{ 1 } =\\frac { 5 } { 2 }\\)，\\(x_{ 2 } =0\\)（不合题意，舍去）\n当\\(x_{ 1 } =\\frac { 5 } { 2 }\\)时，\\(y=-\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }+3=\\frac { 7 } { 4 }\\)，\n∴\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)\n〔图3〕",
+  "given_solution_figures": [
+    "assets/figures/87/874a9ec74ecf8bcce32391dbfdc4108fc8b5b6329fb41f77336cbecf1e123673.png",
+    "assets/figures/b6/b63576c482e8122a38d06233c5496919c06c0f20cb4857be432c8dfbca702bec.png",
+    "assets/figures/d9/d95c37c0a3aeb6139cd45fab576e368fef31c24f21e731e43342923905cdf75b.png"
+  ],
+  "solution": "（1）证明：∵\\(\\angle ACB=90{}^\\circ\\)，∴\\(\\angle ACD+\\angle BCE=90{}^\\circ\\)，\n∵\\(\\angle ADC=90{}^\\circ\\)，∴\\(\\angle DAC+\\angle ACD=90{}^\\circ\\)，\n∴\\(\\angle BCE=\\angle DAC\\)\n∵\\(\\angle ADC=\\angle BEC\\)，\\(AC=CB\\)，\n∴\\(\\vartriangle ADC≌\\vartriangle CEB\\)\n（2）∵\\(y=-3x+3\\)，\n∴当\\(x=0\\)时，\\(y=3\\)，当\\(y=0\\)时，\\(-3x+3=0\\)，\\(x=1\\)，\n∴\\(A\\left ( { 0,3 } \\right )\\)，\\(C\\left ( { 1,0 } \\right )\\)，\n由（1）可知：\\(\\vartriangle AOC≌\\vartriangle CEB\\)，\n∴\\(CE=AO=3\\)，\\(BE=CO=1\\)，\n∴\\(OE=4\\)，点B的坐标为\\(\\left ( { 4,1 } \\right )\\)\n把\\(\\left ( { 4,1 } \\right )\\)代入\\(y=\\frac { k } { x }\\)得：\\(1=\\frac { k } { 4 }\\)，解得\\(k=4\\)，\n∴反比例函数的解析式为：\\(y=\\frac { 4 } { x }\\)\n〔图2〕\n（3）过点C作\\(CB\\bot AC\\)，且\\(CB=AC\\)，过点B作\\(BE\\bot x\\)轴，垂足为点E，连接\\(AB\\)交抛物线于点P，\n∴\\(\\angle CAB=\\angle ABC=45{}^\\circ\\)，\n由（2）可知\\(A\\left ( { 0,3 } \\right )\\)，\\(B\\left ( { 4,1 } \\right )\\)，\n∴设直线\\(AB\\)的解析式为\\(y=kx+b\\)，\n∴\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\)，∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴\\(y=-\\frac { 1 } { 2 }x+3\\)\n∴\\(-\\frac { 1 } { 2 }x+3=-x ^ { 2 } +2x+3\\)，\n解得：\\(x_{ 1 } =\\frac { 5 } { 2 }\\)，\\(x_{ 2 } =0\\)（不合题意，舍去）\n当\\(x_{ 1 } =\\frac { 5 } { 2 }\\)时，\\(y=-\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }+3=\\frac { 7 } { 4 }\\)，\n∴\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)\n〔图3〕",
+  "solution_steps": [
+    "（1）证明：∵\\(\\angle ACB=90{}^\\circ\\)，∴\\(\\angle ACD+\\angle BCE=90{}^\\circ\\)，",
+    "∵\\(\\angle ADC=90{}^\\circ\\)，∴\\(\\angle DAC+\\angle ACD=90{}^\\circ\\)，",
+    "∴\\(\\angle BCE=\\angle DAC\\)",
+    "∵\\(\\angle ADC=\\angle BEC\\)，\\(AC=CB\\)，",
+    "∴\\(\\vartriangle ADC≌\\vartriangle CEB\\)",
+    "（2）∵\\(y=-3x+3\\)，",
+    "∴当\\(x=0\\)时，\\(y=3\\)，当\\(y=0\\)时，\\(-3x+3=0\\)，\\(x=1\\)，",
+    "∴\\(A\\left ( { 0,3 } \\right )\\)，\\(C\\left ( { 1,0 } \\right )\\)，",
+    "由（1）可知：\\(\\vartriangle AOC≌\\vartriangle CEB\\)，",
+    "∴\\(CE=AO=3\\)，\\(BE=CO=1\\)，",
+    "∴\\(OE=4\\)，点B的坐标为\\(\\left ( { 4,1 } \\right )\\)",
+    "把\\(\\left ( { 4,1 } \\right )\\)代入\\(y=\\frac { k } { x }\\)得：\\(1=\\frac { k } { 4 }\\)，解得\\(k=4\\)，",
+    "∴反比例函数的解析式为：\\(y=\\frac { 4 } { x }\\)",
+    "〔图2〕",
+    "（3）过点C作\\(CB\\bot AC\\)，且\\(CB=AC\\)，过点B作\\(BE\\bot x\\)轴，垂足为点E，连接\\(AB\\)交抛物线于点P，",
+    "∴\\(\\angle CAB=\\angle ABC=45{}^\\circ\\)，",
+    "由（2）可知\\(A\\left ( { 0,3 } \\right )\\)，\\(B\\left ( { 4,1 } \\right )\\)，",
+    "∴设直线\\(AB\\)的解析式为\\(y=kx+b\\)，",
+    "∴\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\)，∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+    "∴\\(y=-\\frac { 1 } { 2 }x+3\\)",
+    "∴\\(-\\frac { 1 } { 2 }x+3=-x ^ { 2 } +2x+3\\)，",
+    "解得：\\(x_{ 1 } =\\frac { 5 } { 2 }\\)，\\(x_{ 2 } =0\\)（不合题意，舍去）",
+    "当\\(x_{ 1 } =\\frac { 5 } { 2 }\\)时，\\(y=-\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }+3=\\frac { 7 } { 4 }\\)，",
+    "∴\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "fig-70",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-EAC7A60895-Q21-P01",
+      "label": "（1）",
+      "prompt": "【建立模型】在数学课上，老师出示这样一个问题：如图1，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，直线l经过点C，\\(AD\\bot l\\)，\\(BE\\bot l\\)，垂足分别为点D和点E，求证：\\(\\vartriangle ADC≌\\vartriangle CEB\\)，请你写出证明过程；",
+      "stem_text": "【建立模型】在数学课上，老师出示这样一个问题：如图1，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，直线l经过点C，\\(AD\\bot l\\)，\\(BE\\bot l\\)，垂足分别为点D和点E，求证：\\(\\vartriangle ADC≌\\vartriangle CEB\\)，请你写出证明过程；",
+      "material_ids": [
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：∵\\(\\angle ACB=90{}^\\circ\\)，∴\\(\\angle ACD+\\angle BCE=90{}^\\circ\\)，\n∵\\(\\angle ADC=90{}^\\circ\\)，∴\\(\\angle DAC+\\angle ACD=90{}^\\circ\\)，\n∴\\(\\angle BCE=\\angle DAC\\)\n∵\\(\\angle ADC=\\angle BEC\\)，\\(AC=CB\\)，\n∴\\(\\vartriangle ADC≌\\vartriangle CEB\\)",
+      "solution_steps": [
+        "证明：∵\\(\\angle ACB=90{}^\\circ\\)，∴\\(\\angle ACD+\\angle BCE=90{}^\\circ\\)，",
+        "∵\\(\\angle ADC=90{}^\\circ\\)，∴\\(\\angle DAC+\\angle ACD=90{}^\\circ\\)，",
+        "∴\\(\\angle BCE=\\angle DAC\\)",
+        "∵\\(\\angle ADC=\\angle BEC\\)，\\(AC=CB\\)，",
+        "∴\\(\\vartriangle ADC≌\\vartriangle CEB\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          334,
+          335,
+          336,
+          337,
+          338
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-EAC7A60895-Q21-P02",
+      "label": "（2）",
+      "prompt": "【类比迁移】勤奋小组在这个模型的基础上，继续进行探究问题：如图2，在平面直角坐标系中，直线\\(y=-3x+3\\)的图象与y轴交于点A，与x轴交于点C，将线段\\(AC\\)绕点C顺时针旋转\\(90{}^\\circ\\)得到线段\\(CB\\)，反比例函数\\(y=\\frac { k } { x }\\)的图象经过点B，请你求出反比例函数的解析式；",
+      "stem_text": "【类比迁移】勤奋小组在这个模型的基础上，继续进行探究问题：如图2，在平面直角坐标系中，直线\\(y=-3x+3\\)的图象与y轴交于点A，与x轴交于点C，将线段\\(AC\\)绕点C顺时针旋转\\(90{}^\\circ\\)得到线段\\(CB\\)，反比例函数\\(y=\\frac { k } { x }\\)的图象经过点B，请你求出反比例函数的解析式；",
+      "material_ids": [
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=\\frac { 4 } { x }\\)；",
+      "answer": "\\(y=\\frac { 4 } { x }\\)；",
+      "given_solution": "∵\\(y=-3x+3\\)，\n∴当\\(x=0\\)时，\\(y=3\\)，当\\(y=0\\)时，\\(-3x+3=0\\)，\\(x=1\\)，\n∴\\(A\\left ( { 0,3 } \\right )\\)，\\(C\\left ( { 1,0 } \\right )\\)，\n由（1）可知：\\(\\vartriangle AOC≌\\vartriangle CEB\\)，\n∴\\(CE=AO=3\\)，\\(BE=CO=1\\)，\n∴\\(OE=4\\)，点B的坐标为\\(\\left ( { 4,1 } \\right )\\)\n把\\(\\left ( { 4,1 } \\right )\\)代入\\(y=\\frac { k } { x }\\)得：\\(1=\\frac { k } { 4 }\\)，解得\\(k=4\\)，\n∴反比例函数的解析式为：\\(y=\\frac { 4 } { x }\\)\n〔图2〕",
+      "solution_steps": [
+        "∵\\(y=-3x+3\\)，",
+        "∴当\\(x=0\\)时，\\(y=3\\)，当\\(y=0\\)时，\\(-3x+3=0\\)，\\(x=1\\)，",
+        "∴\\(A\\left ( { 0,3 } \\right )\\)，\\(C\\left ( { 1,0 } \\right )\\)，",
+        "由（1）可知：\\(\\vartriangle AOC≌\\vartriangle CEB\\)，",
+        "∴\\(CE=AO=3\\)，\\(BE=CO=1\\)，",
+        "∴\\(OE=4\\)，点B的坐标为\\(\\left ( { 4,1 } \\right )\\)",
+        "把\\(\\left ( { 4,1 } \\right )\\)代入\\(y=\\frac { k } { x }\\)得：\\(1=\\frac { k } { 4 }\\)，解得\\(k=4\\)，",
+        "∴反比例函数的解析式为：\\(y=\\frac { 4 } { x }\\)",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N12.02",
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N12.02.01",
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-EAC7A60895-Q21-P03",
+      "label": "（3）",
+      "prompt": "【拓展延伸】创新小组受到勤奋小组的启发，结合抛物线的图象继续深入探究：如图3，一次函数\\(y=-3x+3\\)的图象与y轴交于点A，与x轴交于点C，创新小组的同学发现在第一象限的抛物线\\(y=-x ^ { 2 } +2x+3\\)的图象上存在一点P，连接\\(PA\\)，当\\(\\angle PAC=45{}^\\circ\\)时，请你和创新小组的同学一起求出点P的坐标．",
+      "stem_text": "【拓展延伸】创新小组受到勤奋小组的启发，结合抛物线的图象继续深入探究：如图3，一次函数\\(y=-3x+3\\)的图象与y轴交于点A，与x轴交于点C，创新小组的同学发现在第一象限的抛物线\\(y=-x ^ { 2 } +2x+3\\)的图象上存在一点P，连接\\(PA\\)，当\\(\\angle PAC=45{}^\\circ\\)时，请你和创新小组的同学一起求出点P的坐标．",
+      "material_ids": [
+        "fig-70"
+      ],
+      "requires": [],
+      "given_answer": "\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)",
+      "answer": "\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)",
+      "given_solution": "过点C作\\(CB\\bot AC\\)，且\\(CB=AC\\)，过点B作\\(BE\\bot x\\)轴，垂足为点E，连接\\(AB\\)交抛物线于点P，\n∴\\(\\angle CAB=\\angle ABC=45{}^\\circ\\)，\n由（2）可知\\(A\\left ( { 0,3 } \\right )\\)，\\(B\\left ( { 4,1 } \\right )\\)，\n∴设直线\\(AB\\)的解析式为\\(y=kx+b\\)，\n∴\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\)，∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，\n∴\\(y=-\\frac { 1 } { 2 }x+3\\)\n∴\\(-\\frac { 1 } { 2 }x+3=-x ^ { 2 } +2x+3\\)，\n解得：\\(x_{ 1 } =\\frac { 5 } { 2 }\\)，\\(x_{ 2 } =0\\)（不合题意，舍去）\n当\\(x_{ 1 } =\\frac { 5 } { 2 }\\)时，\\(y=-\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }+3=\\frac { 7 } { 4 }\\)，\n∴\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)\n〔图3〕",
+      "solution_steps": [
+        "过点C作\\(CB\\bot AC\\)，且\\(CB=AC\\)，过点B作\\(BE\\bot x\\)轴，垂足为点E，连接\\(AB\\)交抛物线于点P，",
+        "∴\\(\\angle CAB=\\angle ABC=45{}^\\circ\\)，",
+        "由（2）可知\\(A\\left ( { 0,3 } \\right )\\)，\\(B\\left ( { 4,1 } \\right )\\)，",
+        "∴设直线\\(AB\\)的解析式为\\(y=kx+b\\)，",
+        "∴\\(\\begin{cases} b=3 \\\\ 4k+b=1 \\end{cases}\\)，∴\\(\\begin{cases} k=-\\frac { 1 } { 2 } \\\\ b=3 \\end{cases}\\)，",
+        "∴\\(y=-\\frac { 1 } { 2 }x+3\\)",
+        "∴\\(-\\frac { 1 } { 2 }x+3=-x ^ { 2 } +2x+3\\)，",
+        "解得：\\(x_{ 1 } =\\frac { 5 } { 2 }\\)，\\(x_{ 2 } =0\\)（不合题意，舍去）",
+        "当\\(x_{ 1 } =\\frac { 5 } { 2 }\\)时，\\(y=-\\frac { 1 } { 2 }\\times \\frac { 5 } { 2 }+3=\\frac { 7 } { 4 }\\)，",
+        "∴\\(P\\left ( { \\frac { 5 } { 2 },\\frac { 7 } { 4 } } \\right )\\)",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“二次函数图象与性质”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "题目所考知识对应“二次函数图象与性质”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      70
+    ],
+    "solution_body_blocks": [
+      323,
+      358
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-EAC7A60895/paper-q21-p05.webp",
+      "assets/SZ-G9-T2-EAC7A60895/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          502.27,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          163.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-EAC7A60895/solution-q21-p17.webp",
+      "assets/SZ-G9-T2-EAC7A60895/solution-q21-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          325.0,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          759.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.N12.02",
+    "M.N11.02",
+    "M.N13.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.N12.02.01",
+    "E.N11.02.01"
+  ],
+  "tag_note": "该问涉及“二次函数图象与性质”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。 本问题面与解答对应“由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式”。 题目所考知识对应“二次函数图象与性质”。",
+  "tag_source": "小问标签汇总"
+}

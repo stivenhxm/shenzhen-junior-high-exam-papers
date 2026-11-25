@@ -1,0 +1,281 @@
+{
+  "id": "SZ-G9-T1-7EF0BCDE0F-Q18",
+  "paper_id": "SZ-G9-T1-7EF0BCDE0F",
+  "number": 18,
+  "type": "解答题",
+  "points": 8,
+  "title": "由边或对角线条件证明菱形、由勾股关系求直角三角形边长",
+  "stem": "（8分）如图，在四边形ABCD中，AB∥DC，AB＝AD，对角线AC，BD交于点O，AC平分∠BAD，过点C作CE⊥AB交AB的延长线于点E．\n（1）求证：四边形ABCD是菱形；\n（2）若〔图1〕，BD＝2，求BE的长．\n〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/855b820cca894ecab47240a317c275251306b41a53b1211e5984319e492d6299.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/bbcc41af2949b39c8b31b1b3d4d4f5a7910a730dc07231aca9d886078a305304.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（8分）如图，在四边形ABCD中，AB∥DC，AB＝AD，对角线AC，BD交于点O，AC平分∠BAD，过点C作CE⊥AB交AB的延长线于点E．",
+      "paper_blocks": [
+        55
+      ]
+    },
+    {
+      "id": "fig-58",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        58
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q18-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形ABCD是菱形；",
+      "stem_text": "求证：四边形ABCD是菱形；",
+      "material_ids": [
+        "context",
+        "fig-58"
+      ],
+      "requires": [],
+      "given_answer": "∴四边形ABCD是菱形",
+      "answer": "∴四边形ABCD是菱形",
+      "given_solution": "证明：∵AB∥DC，\n∴∠OAB＝∠DCA，\n∵AC平分∠DAB，\n∴∠OAB＝∠DAC，\n∴∠DCA＝∠DAC，则AD＝CD，\n又∵AB＝AD，\n∴CD＝AD＝AB，\n∵AB∥CD，\n∴四边形ABCD是平行四边形，\n∵AB＝AD，\n∴四边形ABCD是菱形．",
+      "solution_steps": [
+        "证明：∵AB∥DC，",
+        "∴∠OAB＝∠DCA，",
+        "∵AC平分∠DAB，",
+        "∴∠OAB＝∠DAC，",
+        "∴∠DCA＝∠DAC，则AD＝CD，",
+        "又∵AB＝AD，",
+        "∴CD＝AD＝AB，",
+        "∵AB∥CD，",
+        "∴四边形ABCD是平行四边形，",
+        "∵AB＝AD，",
+        "∴四边形ABCD是菱形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58
+        ],
+        "solution_block_ids": [
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q18-P02",
+      "label": "（2）",
+      "prompt": "若〔图1〕，BD＝2，求BE的长．",
+      "stem_text": "若〔图1〕，BD＝2，求BE的长．",
+      "material_ids": [
+        "context",
+        "fig-58"
+      ],
+      "requires": [],
+      "given_answer": "解得：〔图7〕",
+      "answer": "解得：〔图7〕",
+      "given_solution": "解：∵四边形ABCD是菱形，\n∴〔图1〕，BD⊥AC，〔图2〕，〔图3〕，\n由勾股定理可得：〔图5〕，\n∵CE⊥AB，\n在Rt△BCE中，CE\\({}^{2}\\)＝BC\\({}^{2}\\)﹣BE\\({}^{2}\\)，\n在Rt△ACE中，CE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣AE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，\n∴BC\\({}^{2}\\)﹣BE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，即：〔图6〕，\n解得：〔图7〕．",
+      "solution_steps": [
+        "解：∵四边形ABCD是菱形，",
+        "∴〔图1〕，BD⊥AC，〔图2〕，〔图3〕，",
+        "由勾股定理可得：〔图5〕，",
+        "∵CE⊥AB，",
+        "在Rt△BCE中，CE\\({}^{2}\\)＝BC\\({}^{2}\\)﹣BE\\({}^{2}\\)，",
+        "在Rt△ACE中，CE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣AE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，",
+        "∴BC\\({}^{2}\\)﹣BE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，即：〔图6〕，",
+        "解得：〔图7〕．"
+      ],
+      "solution_figure_ids": [
+        7,
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          55,
+          57,
+          58
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】（1）利用平行线和角的平分线，证明AD＝CD，继而判断四边形ABCD是平行四边形，结合AB＝AD得证．\n（2）由菱形的性质得〔图1〕，BD⊥AC，〔图2〕，〔图3〕，由勾股定理可得：〔图4〕，在Rt△BCE中，CE\\({}^{2}\\)＝BC\\({}^{2}\\)﹣BE\\({}^{2}\\)，在Rt△ACE中，CE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣AE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，即BC\\({}^{2}\\)﹣BE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，求解即可．\n【解答】（1）证明：∵AB∥DC，\n∴∠OAB＝∠DCA，\n∵AC平分∠DAB，\n∴∠OAB＝∠DAC，\n∴∠DCA＝∠DAC，则AD＝CD，\n又∵AB＝AD，\n∴CD＝AD＝AB，\n∵AB∥CD，\n∴四边形ABCD是平行四边形，\n∵AB＝AD，\n∴四边形ABCD是菱形．\n（2）解：∵四边形ABCD是菱形，\n∴〔图1〕，BD⊥AC，〔图2〕，〔图3〕，\n由勾股定理可得：〔图5〕，\n∵CE⊥AB，\n在Rt△BCE中，CE\\({}^{2}\\)＝BC\\({}^{2}\\)﹣BE\\({}^{2}\\)，\n在Rt△ACE中，CE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣AE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，\n∴BC\\({}^{2}\\)﹣BE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，即：〔图6〕，\n解得：〔图7〕．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/184daaa4a270d9204b59c6c5343aa7a84b81dafc17f2252268d91a13cd1644c4.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/a1cba8fe13f58b1675c601425da5d5f96579b27c7d3e33977cfb9c70d085198d.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/9746838fb0e2a07d60bc8b5ded50703e4c184caf537ff53b992714650dafb550.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/089e3f95e5fb556f61aa1464d0fa658c21030c6df670883dfb364dbea4ae71df.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/ed2444f09a0c048a4087fff5b03d091c4cd7938a3df0cd95875b0bf22a0c0d03.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/c7030bb04ad7e9d9c75dd0fb722a7c2fbfe50614cf82f6017c134ee7f3f70db7.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/f2efd385305d15eebe2f64259bd013b5d9d633b70e9fb5fcca464ecec670e138.png"
+  ],
+  "answer": "（1）∴四边形ABCD是菱形\n（2）解得：〔图7〕",
+  "solution_steps": [
+    "（1）证明：∵AB∥DC，",
+    "∴∠OAB＝∠DCA，",
+    "∵AC平分∠DAB，",
+    "∴∠OAB＝∠DAC，",
+    "∴∠DCA＝∠DAC，则AD＝CD，",
+    "又∵AB＝AD，",
+    "∴CD＝AD＝AB，",
+    "∵AB∥CD，",
+    "∴四边形ABCD是平行四边形，",
+    "∵AB＝AD，",
+    "∴四边形ABCD是菱形．",
+    "（2）解：∵四边形ABCD是菱形，",
+    "∴〔图1〕，BD⊥AC，〔图2〕，〔图3〕，",
+    "由勾股定理可得：〔图5〕，",
+    "∵CE⊥AB，",
+    "在Rt△BCE中，CE\\({}^{2}\\)＝BC\\({}^{2}\\)﹣BE\\({}^{2}\\)，",
+    "在Rt△ACE中，CE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣AE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，",
+    "∴BC\\({}^{2}\\)﹣BE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，即：〔图6〕，",
+    "解得：〔图7〕．"
+  ],
+  "solution": "（1）证明：∵AB∥DC，\n∴∠OAB＝∠DCA，\n∵AC平分∠DAB，\n∴∠OAB＝∠DAC，\n∴∠DCA＝∠DAC，则AD＝CD，\n又∵AB＝AD，\n∴CD＝AD＝AB，\n∵AB∥CD，\n∴四边形ABCD是平行四边形，\n∵AB＝AD，\n∴四边形ABCD是菱形．\n（2）解：∵四边形ABCD是菱形，\n∴〔图1〕，BD⊥AC，〔图2〕，〔图3〕，\n由勾股定理可得：〔图5〕，\n∵CE⊥AB，\n在Rt△BCE中，CE\\({}^{2}\\)＝BC\\({}^{2}\\)﹣BE\\({}^{2}\\)，\n在Rt△ACE中，CE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣AE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，\n∴BC\\({}^{2}\\)﹣BE\\({}^{2}\\)＝AC\\({}^{2}\\)﹣（AB+BE）\\({}^{2}\\)，即：〔图6〕，\n解得：〔图7〕．",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    7,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      55,
+      58
+    ],
+    "solution_body_blocks": [
+      324,
+      344
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7EF0BCDE0F/paper-q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          145.45,
+          583.64,
+          312.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q18-p20.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q18-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          270.45,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          74.55,
+          583.64,
+          179.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G05.03.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“由边或对角线条件证明菱形”。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

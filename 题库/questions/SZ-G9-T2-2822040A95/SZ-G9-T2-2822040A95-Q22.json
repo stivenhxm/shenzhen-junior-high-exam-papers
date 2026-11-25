@@ -1,0 +1,487 @@
+{
+  "id": "SZ-G9-T2-2822040A95-Q22",
+  "paper_id": "SZ-G9-T2-2822040A95",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、由相似比求对应线段或周长",
+  "stem": "定义新概念、有一组邻边相等，且它们的夹角是直角的凸四边形叫做等腰直角四边形．\n〔图1〕\n（1）如图①，等腰直角四边形\\(ABCD\\)，\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)．\n①若\\(CD=3\\)，\\(AC\\bot CD\\)于点\\(C\\)，求\\(AD\\)的长；\n②若\\(AD=DC\\)，\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，求\\(BD\\)的长；\n（2）如图②，在矩形\\(ABCD\\)中\\(AB=6\\)，\\(BC=15\\)，点\\(P\\)是对角线\\(BD\\)上的一点，且\\(BP=2PD\\)，过点\\(P\\)作直线分别交边\\(AD\\)，\\(BC\\)于点\\(E\\)，\\(F\\)，要使四边形\\(ABFE\\)是等腰直角四边形，求\\(AE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/34/34cafca5a15648542b5a01b6458ff7da659b5cef49db7efb3c2483842a8b4ebb.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(\\sqrt[] { 41 }\\)；②\\(4\\sqrt[] { 2 }+4\\)\n（2）满足条件的\\(AE\\)的长为\\(12\\)",
+  "answer": "（1）①\\(\\sqrt[] { 41 }\\)；②\\(4\\sqrt[] { 2 }+4\\)\n（2）满足条件的\\(AE\\)的长为\\(12\\)",
+  "given_solution": "【分析】（1）①根据勾股定理求出\\(AC\\)，再根据勾股定理求出\\(AD\\)的值；\n②连接\\(AC\\)、\\(BD\\)，交于点\\(F\\)，过点C作\\(EC\\bot BC\\)，交\\(BD\\)于点E，证明\\(BD\\)垂直平分\\(AC\\)，得出\\(AF=CF\\)，证明\\(\\angle ECD=\\angle CDE\\)，得出\\(CE=DE\\)，证明\\(\\angle BEC=\\angle CBE\\)，得出\\(CE=BC=4\\)，根据勾股定理求出\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=4\\sqrt[] { 2 }\\)，即可得出答案；\n（2）若\\(EF\\bot BC\\)，则\\(AE\\ne EF\\)，\\(BF\\ne EF\\)，推出四边形\\(ABFE\\)不是等腰直角四边形，不符合条件．若\\(EF\\)与\\(BC\\)不垂直，当\\(AE=AB\\)时，此时四边形\\(ABFE\\)是等腰直角四边形，当\\(BF=AB\\)时，此时四边形\\(ABFE\\)是等腰直角四边形，分别求解即可．\n【小问1详解】\n解：①连接\\(AC\\)，如图所示：\n〔图2〕\n∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n∵\\(AC\\bot CD\\)，\n∴\\(\\angle ACD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(AD=\\sqrt[] { AC ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 2 } } \\right ) ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 41 }\\)；\n②连接\\(AC\\)、\\(BD\\)，交于点\\(F\\)，过点C作\\(EC\\bot BC\\)，交\\(BD\\)于点E，如图所示：\n〔图3〕\n则\\(\\angle BCE=90{}^\\circ\\)，\n∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle BAC=\\angle ACB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle ECF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∵\\(AB=BC\\)，\\(AD=CD\\)，\n∴\\(B\\)、\\(D\\)在线段\\(AC\\)的垂直平分线上，\n∴\\(BD\\)垂直平分\\(AC\\)，\n∴\\(AF=CF\\)，\\(\\angle CFD=\\angle CFB=90{}^\\circ\\)，\n∵\\(AD=CD\\)，\n∴\\(\\angle CDF=\\frac { 1 } { 2 }\\angle ADC=\\frac { 1 } { 2 }\\times 45{}^\\circ =22.5{}^\\circ\\)，\n∴\\(\\angle DCF=90{}^\\circ -22.5{}^\\circ =67.5{}^\\circ\\)，\n∴\\(\\angle ECD=\\angle DCF-\\angle ECF=67.5{}^\\circ -45{}^\\circ =22.5{}^\\circ\\)，\n∴\\(\\angle ECD=\\angle CDE\\)，\n∴\\(CE=DE\\)，\n∵\\(AB=BC\\)，\\(AF=CF\\)，\n∴\\(\\angle CBF=\\frac { 1 } { 2 }\\angle ABC=45{}^\\circ\\)，\n∵\\(\\angle BCE=90{}^\\circ\\)，\n∴\\(\\angle BEC=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle BEC=\\angle CBE\\)，\n∴\\(CE=BC=4\\)，\n∴\\(DE=CE=4\\)，\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n∴\\(BD=BE+DE=4\\sqrt[] { 2 }+4\\)．\n【小问2详解】\n解：∵四边形\\(ABCD\\)为矩形，\n∴\\(AB=CD=6\\)，\\(AD=BC=15\\)，\\(\\angle ABC=\\angle BCD=\\angle CDA=\\angle BAD=90{}^\\circ\\)，\\(AD\\parallel BC\\)；\n若\\(EF\\bot BC\\)时，如图所示：\n〔图4〕\n则四边形\\(AEFB\\)和\\(DEFC\\)为矩形，\n∴\\(EF=AB=6\\)，\\(DE=CF\\)，\\(AE=BF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∵\\(DE+BF=DE+AE=15\\)，\n∴\\(DE=5\\)，\\(BF=10\\)，\n∴\\(AE=BF=10\\)，\n∴\\(AE\\ne EF\\)，\\(BF\\ne EF\\)；\n∴四边形\\(ABFE\\)不可能是等腰直角四边形；\n若\\(EF\\)与\\(BC\\)不垂直，当\\(AE=AB\\)时，如图所示：\n〔图5〕\n∵\\(AE=AB=6\\)，\n∴\\(DE=AD-AE=15-6=9\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∴\\(BF=2DE=2\\times 9=18\\)，\n∵\\(18>15\\)，\n∴此时点F不在边\\(BC\\)上，不符合题意；\n若\\(EF\\)与\\(BC\\)不垂直，当\\(BF=AB\\)时，如图所示：\n〔图6〕\n此时四边形\\(ABFE\\)是等腰直角四边形，\n∴\\(BF=AB=6\\)，\n∵\\(DE\\parallel BF\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∴\\(DE=\\frac { 1 } { 2 }BF=3\\)，\n∴\\(AE=AD-DE=15-3=12\\)，\n综上所述，满足条件的\\(AE\\)的长为\\(12\\)．\n【点睛】本题主要考查了矩形的性质，相似三角形的判定和性质，勾股定理，等腰三角形的判定和性质，解题的关键是理解题意，作出辅助线，画出相应的图形，数形结合，注意分类讨论．",
+  "given_solution_figures": [
+    "assets/figures/34/34cafca5a15648542b5a01b6458ff7da659b5cef49db7efb3c2483842a8b4ebb.png",
+    "assets/figures/44/44402baad26f53b5eb8e7377fbc2cdb4c5600edbadae7d357223f8c6da97fb86.png",
+    "assets/figures/9f/9fe8875e25bef9636630c8ed6e32ddfce56bb92b93ead620ce2bba848f029b25.png",
+    "assets/figures/e0/e0ed02b7fa39afa713379ec1a92da3f98dcf9bc27b1424dcbbbad6d814375bbb.png",
+    "assets/figures/2b/2bf25cbdbe637df4c6921d153b143a2d64e1505af8b055e9bb8248698622e4cf.png",
+    "assets/figures/8b/8b5f74131d556d824d8aff17eb0a911bc4af0584df315270d9e43b0c9a84d807.png"
+  ],
+  "solution": "【小问1详解】\n解：①连接\\(AC\\)，如图所示：\n〔图2〕\n∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n∵\\(AC\\bot CD\\)，\n∴\\(\\angle ACD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(AD=\\sqrt[] { AC ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 2 } } \\right ) ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 41 }\\)；\n②连接\\(AC\\)、\\(BD\\)，交于点\\(F\\)，过点C作\\(EC\\bot BC\\)，交\\(BD\\)于点E，如图所示：\n〔图3〕\n则\\(\\angle BCE=90{}^\\circ\\)，\n∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle BAC=\\angle ACB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle ECF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∵\\(AB=BC\\)，\\(AD=CD\\)，\n∴\\(B\\)、\\(D\\)在线段\\(AC\\)的垂直平分线上，\n∴\\(BD\\)垂直平分\\(AC\\)，\n∴\\(AF=CF\\)，\\(\\angle CFD=\\angle CFB=90{}^\\circ\\)，\n∵\\(AD=CD\\)，\n∴\\(\\angle CDF=\\frac { 1 } { 2 }\\angle ADC=\\frac { 1 } { 2 }\\times 45{}^\\circ =22.5{}^\\circ\\)，\n∴\\(\\angle DCF=90{}^\\circ -22.5{}^\\circ =67.5{}^\\circ\\)，\n∴\\(\\angle ECD=\\angle DCF-\\angle ECF=67.5{}^\\circ -45{}^\\circ =22.5{}^\\circ\\)，\n∴\\(\\angle ECD=\\angle CDE\\)，\n∴\\(CE=DE\\)，\n∵\\(AB=BC\\)，\\(AF=CF\\)，\n∴\\(\\angle CBF=\\frac { 1 } { 2 }\\angle ABC=45{}^\\circ\\)，\n∵\\(\\angle BCE=90{}^\\circ\\)，\n∴\\(\\angle BEC=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle BEC=\\angle CBE\\)，\n∴\\(CE=BC=4\\)，\n∴\\(DE=CE=4\\)，\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n∴\\(BD=BE+DE=4\\sqrt[] { 2 }+4\\)．\n【小问2详解】\n解：∵四边形\\(ABCD\\)为矩形，\n∴\\(AB=CD=6\\)，\\(AD=BC=15\\)，\\(\\angle ABC=\\angle BCD=\\angle CDA=\\angle BAD=90{}^\\circ\\)，\\(AD\\parallel BC\\)；\n若\\(EF\\bot BC\\)时，如图所示：\n〔图4〕\n则四边形\\(AEFB\\)和\\(DEFC\\)为矩形，\n∴\\(EF=AB=6\\)，\\(DE=CF\\)，\\(AE=BF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∵\\(DE+BF=DE+AE=15\\)，\n∴\\(DE=5\\)，\\(BF=10\\)，\n∴\\(AE=BF=10\\)，\n∴\\(AE\\ne EF\\)，\\(BF\\ne EF\\)；\n∴四边形\\(ABFE\\)不可能是等腰直角四边形；\n若\\(EF\\)与\\(BC\\)不垂直，当\\(AE=AB\\)时，如图所示：\n〔图5〕\n∵\\(AE=AB=6\\)，\n∴\\(DE=AD-AE=15-6=9\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∴\\(BF=2DE=2\\times 9=18\\)，\n∵\\(18>15\\)，\n∴此时点F不在边\\(BC\\)上，不符合题意；\n若\\(EF\\)与\\(BC\\)不垂直，当\\(BF=AB\\)时，如图所示：\n〔图6〕\n此时四边形\\(ABFE\\)是等腰直角四边形，\n∴\\(BF=AB=6\\)，\n∵\\(DE\\parallel BF\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∴\\(DE=\\frac { 1 } { 2 }BF=3\\)，\n∴\\(AE=AD-DE=15-3=12\\)，\n综上所述，满足条件的\\(AE\\)的长为\\(12\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①连接\\(AC\\)，如图所示：",
+    "〔图2〕",
+    "∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+    "∵\\(AC\\bot CD\\)，",
+    "∴\\(\\angle ACD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(AD=\\sqrt[] { AC ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 2 } } \\right ) ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 41 }\\)；",
+    "②连接\\(AC\\)、\\(BD\\)，交于点\\(F\\)，过点C作\\(EC\\bot BC\\)，交\\(BD\\)于点E，如图所示：",
+    "〔图3〕",
+    "则\\(\\angle BCE=90{}^\\circ\\)，",
+    "∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(\\angle BAC=\\angle ACB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle ECF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∵\\(AB=BC\\)，\\(AD=CD\\)，",
+    "∴\\(B\\)、\\(D\\)在线段\\(AC\\)的垂直平分线上，",
+    "∴\\(BD\\)垂直平分\\(AC\\)，",
+    "∴\\(AF=CF\\)，\\(\\angle CFD=\\angle CFB=90{}^\\circ\\)，",
+    "∵\\(AD=CD\\)，",
+    "∴\\(\\angle CDF=\\frac { 1 } { 2 }\\angle ADC=\\frac { 1 } { 2 }\\times 45{}^\\circ =22.5{}^\\circ\\)，",
+    "∴\\(\\angle DCF=90{}^\\circ -22.5{}^\\circ =67.5{}^\\circ\\)，",
+    "∴\\(\\angle ECD=\\angle DCF-\\angle ECF=67.5{}^\\circ -45{}^\\circ =22.5{}^\\circ\\)，",
+    "∴\\(\\angle ECD=\\angle CDE\\)，",
+    "∴\\(CE=DE\\)，",
+    "∵\\(AB=BC\\)，\\(AF=CF\\)，",
+    "∴\\(\\angle CBF=\\frac { 1 } { 2 }\\angle ABC=45{}^\\circ\\)，",
+    "∵\\(\\angle BCE=90{}^\\circ\\)，",
+    "∴\\(\\angle BEC=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle BEC=\\angle CBE\\)，",
+    "∴\\(CE=BC=4\\)，",
+    "∴\\(DE=CE=4\\)，\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+    "∴\\(BD=BE+DE=4\\sqrt[] { 2 }+4\\)．",
+    "【小问2详解】",
+    "解：∵四边形\\(ABCD\\)为矩形，",
+    "∴\\(AB=CD=6\\)，\\(AD=BC=15\\)，\\(\\angle ABC=\\angle BCD=\\angle CDA=\\angle BAD=90{}^\\circ\\)，\\(AD\\parallel BC\\)；",
+    "若\\(EF\\bot BC\\)时，如图所示：",
+    "〔图4〕",
+    "则四边形\\(AEFB\\)和\\(DEFC\\)为矩形，",
+    "∴\\(EF=AB=6\\)，\\(DE=CF\\)，\\(AE=BF\\)，",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，",
+    "∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，",
+    "∵\\(DE+BF=DE+AE=15\\)，",
+    "∴\\(DE=5\\)，\\(BF=10\\)，",
+    "∴\\(AE=BF=10\\)，",
+    "∴\\(AE\\ne EF\\)，\\(BF\\ne EF\\)；",
+    "∴四边形\\(ABFE\\)不可能是等腰直角四边形；",
+    "若\\(EF\\)与\\(BC\\)不垂直，当\\(AE=AB\\)时，如图所示：",
+    "〔图5〕",
+    "∵\\(AE=AB=6\\)，",
+    "∴\\(DE=AD-AE=15-6=9\\)，",
+    "∵\\(AD\\parallel BC\\)，",
+    "∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，",
+    "∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(BF=2DE=2\\times 9=18\\)，",
+    "∵\\(18>15\\)，",
+    "∴此时点F不在边\\(BC\\)上，不符合题意；",
+    "若\\(EF\\)与\\(BC\\)不垂直，当\\(BF=AB\\)时，如图所示：",
+    "〔图6〕",
+    "此时四边形\\(ABFE\\)是等腰直角四边形，",
+    "∴\\(BF=AB=6\\)，",
+    "∵\\(DE\\parallel BF\\)，",
+    "∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，",
+    "∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(DE=\\frac { 1 } { 2 }BF=3\\)，",
+    "∴\\(AE=AD-DE=15-3=12\\)，",
+    "综上所述，满足条件的\\(AE\\)的长为\\(12\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "定义新概念、有一组邻边相等，且它们的夹角是直角的凸四边形叫做等腰直角四边形．\n〔图1〕",
+      "paper_blocks": [
+        78,
+        79
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图",
+      "paper_blocks": [
+        80
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-2822040A95-Q22-P01",
+      "label": "（1）①",
+      "prompt": "，等腰直角四边形\\(ABCD\\)，\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)．\n①若\\(CD=3\\)，\\(AC\\bot CD\\)于点\\(C\\)，求\\(AD\\)的长；",
+      "stem_text": "，等腰直角四边形\\(ABCD\\)，\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)．\n①若\\(CD=3\\)，\\(AC\\bot CD\\)于点\\(C\\)，求\\(AD\\)的长；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 41 }\\)；",
+      "answer": "\\(\\sqrt[] { 41 }\\)；",
+      "given_solution": "连接\\(AC\\)，如图所示：\n〔图2〕\n∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n∵\\(AC\\bot CD\\)，\n∴\\(\\angle ACD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(AD=\\sqrt[] { AC ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 2 } } \\right ) ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 41 }\\)；",
+      "solution_steps": [
+        "连接\\(AC\\)，如图所示：",
+        "〔图2〕",
+        "∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+        "∵\\(AC\\bot CD\\)，",
+        "∴\\(\\angle ACD{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴\\(AD=\\sqrt[] { AC ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { \\left ( { 4\\sqrt[] { 2 } } \\right ) ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 41 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80,
+          81
+        ],
+        "solution_block_ids": [
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-2822040A95-Q22-P02",
+      "label": "（1）②",
+      "prompt": "若\\(AD=DC\\)，\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，求\\(BD\\)的长；",
+      "stem_text": "若\\(AD=DC\\)，\\(\\angle ADC{ \\rm{ = } }{ \\rm{ 4 } }{ \\rm{ 5 } }{}^\\circ\\)，求\\(BD\\)的长；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 2 }+4\\)",
+      "answer": "\\(4\\sqrt[] { 2 }+4\\)",
+      "given_solution": "连接\\(AC\\)、\\(BD\\)，交于点\\(F\\)，过点C作\\(EC\\bot BC\\)，交\\(BD\\)于点E，如图所示：\n〔图3〕\n则\\(\\angle BCE=90{}^\\circ\\)，\n∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle BAC=\\angle ACB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle ECF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∵\\(AB=BC\\)，\\(AD=CD\\)，\n∴\\(B\\)、\\(D\\)在线段\\(AC\\)的垂直平分线上，\n∴\\(BD\\)垂直平分\\(AC\\)，\n∴\\(AF=CF\\)，\\(\\angle CFD=\\angle CFB=90{}^\\circ\\)，\n∵\\(AD=CD\\)，\n∴\\(\\angle CDF=\\frac { 1 } { 2 }\\angle ADC=\\frac { 1 } { 2 }\\times 45{}^\\circ =22.5{}^\\circ\\)，\n∴\\(\\angle DCF=90{}^\\circ -22.5{}^\\circ =67.5{}^\\circ\\)，\n∴\\(\\angle ECD=\\angle DCF-\\angle ECF=67.5{}^\\circ -45{}^\\circ =22.5{}^\\circ\\)，\n∴\\(\\angle ECD=\\angle CDE\\)，\n∴\\(CE=DE\\)，\n∵\\(AB=BC\\)，\\(AF=CF\\)，\n∴\\(\\angle CBF=\\frac { 1 } { 2 }\\angle ABC=45{}^\\circ\\)，\n∵\\(\\angle BCE=90{}^\\circ\\)，\n∴\\(\\angle BEC=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle BEC=\\angle CBE\\)，\n∴\\(CE=BC=4\\)，\n∴\\(DE=CE=4\\)，\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n∴\\(BD=BE+DE=4\\sqrt[] { 2 }+4\\)．",
+      "solution_steps": [
+        "连接\\(AC\\)、\\(BD\\)，交于点\\(F\\)，过点C作\\(EC\\bot BC\\)，交\\(BD\\)于点E，如图所示：",
+        "〔图3〕",
+        "则\\(\\angle BCE=90{}^\\circ\\)，",
+        "∵\\(AB=BC=4\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(\\angle BAC=\\angle ACB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，",
+        "∴\\(\\angle ECF=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "∵\\(AB=BC\\)，\\(AD=CD\\)，",
+        "∴\\(B\\)、\\(D\\)在线段\\(AC\\)的垂直平分线上，",
+        "∴\\(BD\\)垂直平分\\(AC\\)，",
+        "∴\\(AF=CF\\)，\\(\\angle CFD=\\angle CFB=90{}^\\circ\\)，",
+        "∵\\(AD=CD\\)，",
+        "∴\\(\\angle CDF=\\frac { 1 } { 2 }\\angle ADC=\\frac { 1 } { 2 }\\times 45{}^\\circ =22.5{}^\\circ\\)，",
+        "∴\\(\\angle DCF=90{}^\\circ -22.5{}^\\circ =67.5{}^\\circ\\)，",
+        "∴\\(\\angle ECD=\\angle DCF-\\angle ECF=67.5{}^\\circ -45{}^\\circ =22.5{}^\\circ\\)，",
+        "∴\\(\\angle ECD=\\angle CDE\\)，",
+        "∴\\(CE=DE\\)，",
+        "∵\\(AB=BC\\)，\\(AF=CF\\)，",
+        "∴\\(\\angle CBF=\\frac { 1 } { 2 }\\angle ABC=45{}^\\circ\\)，",
+        "∵\\(\\angle BCE=90{}^\\circ\\)，",
+        "∴\\(\\angle BEC=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "∴\\(\\angle BEC=\\angle CBE\\)，",
+        "∴\\(CE=BC=4\\)，",
+        "∴\\(DE=CE=4\\)，\\(BE=\\sqrt[] { BC ^ { 2 } +CE ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+        "∴\\(BD=BE+DE=4\\sqrt[] { 2 }+4\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          80,
+          82
+        ],
+        "solution_block_ids": [
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-2822040A95-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图②，在矩形\\(ABCD\\)中\\(AB=6\\)，\\(BC=15\\)，点\\(P\\)是对角线\\(BD\\)上的一点，且\\(BP=2PD\\)，过点\\(P\\)作直线分别交边\\(AD\\)，\\(BC\\)于点\\(E\\)，\\(F\\)，要使四边形\\(ABFE\\)是等腰直角四边形，求\\(AE\\)的长．",
+      "stem_text": "如图②，在矩形\\(ABCD\\)中\\(AB=6\\)，\\(BC=15\\)，点\\(P\\)是对角线\\(BD\\)上的一点，且\\(BP=2PD\\)，过点\\(P\\)作直线分别交边\\(AD\\)，\\(BC\\)于点\\(E\\)，\\(F\\)，要使四边形\\(ABFE\\)是等腰直角四边形，求\\(AE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "满足条件的\\(AE\\)的长为\\(12\\)",
+      "answer": "满足条件的\\(AE\\)的长为\\(12\\)",
+      "given_solution": "解：∵四边形\\(ABCD\\)为矩形，\n∴\\(AB=CD=6\\)，\\(AD=BC=15\\)，\\(\\angle ABC=\\angle BCD=\\angle CDA=\\angle BAD=90{}^\\circ\\)，\\(AD\\parallel BC\\)；\n若\\(EF\\bot BC\\)时，如图所示：\n〔图4〕\n则四边形\\(AEFB\\)和\\(DEFC\\)为矩形，\n∴\\(EF=AB=6\\)，\\(DE=CF\\)，\\(AE=BF\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∵\\(DE+BF=DE+AE=15\\)，\n∴\\(DE=5\\)，\\(BF=10\\)，\n∴\\(AE=BF=10\\)，\n∴\\(AE\\ne EF\\)，\\(BF\\ne EF\\)；\n∴四边形\\(ABFE\\)不可能是等腰直角四边形；\n若\\(EF\\)与\\(BC\\)不垂直，当\\(AE=AB\\)时，如图所示：\n〔图5〕\n∵\\(AE=AB=6\\)，\n∴\\(DE=AD-AE=15-6=9\\)，\n∵\\(AD\\parallel BC\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∴\\(BF=2DE=2\\times 9=18\\)，\n∵\\(18>15\\)，\n∴此时点F不在边\\(BC\\)上，不符合题意；\n若\\(EF\\)与\\(BC\\)不垂直，当\\(BF=AB\\)时，如图所示：\n〔图6〕\n此时四边形\\(ABFE\\)是等腰直角四边形，\n∴\\(BF=AB=6\\)，\n∵\\(DE\\parallel BF\\)，\n∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，\n∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，\n∴\\(DE=\\frac { 1 } { 2 }BF=3\\)，\n∴\\(AE=AD-DE=15-3=12\\)，\n综上所述，满足条件的\\(AE\\)的长为\\(12\\)．",
+      "solution_steps": [
+        "解：∵四边形\\(ABCD\\)为矩形，",
+        "∴\\(AB=CD=6\\)，\\(AD=BC=15\\)，\\(\\angle ABC=\\angle BCD=\\angle CDA=\\angle BAD=90{}^\\circ\\)，\\(AD\\parallel BC\\)；",
+        "若\\(EF\\bot BC\\)时，如图所示：",
+        "〔图4〕",
+        "则四边形\\(AEFB\\)和\\(DEFC\\)为矩形，",
+        "∴\\(EF=AB=6\\)，\\(DE=CF\\)，\\(AE=BF\\)，",
+        "∵\\(AD\\parallel BC\\)，",
+        "∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，",
+        "∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，",
+        "∵\\(DE+BF=DE+AE=15\\)，",
+        "∴\\(DE=5\\)，\\(BF=10\\)，",
+        "∴\\(AE=BF=10\\)，",
+        "∴\\(AE\\ne EF\\)，\\(BF\\ne EF\\)；",
+        "∴四边形\\(ABFE\\)不可能是等腰直角四边形；",
+        "若\\(EF\\)与\\(BC\\)不垂直，当\\(AE=AB\\)时，如图所示：",
+        "〔图5〕",
+        "∵\\(AE=AB=6\\)，",
+        "∴\\(DE=AD-AE=15-6=9\\)，",
+        "∵\\(AD\\parallel BC\\)，",
+        "∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，",
+        "∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(BF=2DE=2\\times 9=18\\)，",
+        "∵\\(18>15\\)，",
+        "∴此时点F不在边\\(BC\\)上，不符合题意；",
+        "若\\(EF\\)与\\(BC\\)不垂直，当\\(BF=AB\\)时，如图所示：",
+        "〔图6〕",
+        "此时四边形\\(ABFE\\)是等腰直角四边形，",
+        "∴\\(BF=AB=6\\)，",
+        "∵\\(DE\\parallel BF\\)，",
+        "∴\\(\\vartriangle DEP\\backsim \\vartriangle BFP\\)，",
+        "∴\\(\\frac { DE } { BF }=\\frac { DP } { BP }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(DE=\\frac { 1 } { 2 }BF=3\\)，",
+        "∴\\(AE=AD-DE=15-3=12\\)，",
+        "综上所述，满足条件的\\(AE\\)的长为\\(12\\)．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          78,
+          79,
+          83
+        ],
+        "solution_block_ids": [
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      78,
+      83
+    ],
+    "solution_body_blocks": [
+      424,
+      503
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-2822040A95/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          315.45,
+          583.64,
+          525.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-2822040A95/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-2822040A95/solution-q22-p24.webp",
+      "assets/SZ-G9-T2-2822040A95/solution-q22-p25.webp",
+      "assets/SZ-G9-T2-2822040A95/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          325.45,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          540.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "小问标签汇总"
+}

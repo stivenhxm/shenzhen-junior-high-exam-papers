@@ -1,0 +1,234 @@
+{
+  "id": "SZ-G9-T2-349D5B5203-Q10",
+  "paper_id": "SZ-G9-T2-349D5B5203",
+  "number": 10,
+  "type": "解答题",
+  "points": null,
+  "title": "应用等腰三角形性质求边角、由勾股关系求直角三角形边长",
+  "stem": "如图，四边形\\(ABCD\\)内接于\\(\\odot O\\)，\\(AC\\)为\\(\\odot O\\)的直径，\\(\\angle ADB=\\angle CDB\\)．\n〔图1〕\n（1）试判断\\(\\vartriangle ABC\\)的形状，并给出证明；\n（2）若\\(AB=\\sqrt[] { 2 }\\)，\\(AD=1\\)，求\\(CD\\)的长度．",
+  "choices": [],
+  "figures": [
+    "assets/figures/9c/9c8f68d69eac45dfb4db9ecd9113cb5c5aefe681a5d0cadcde7c9430fc81a784.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）△ABC是等腰直角三角形；证明见解析；\n（2）\\(\\sqrt[] { 3 }\\)；",
+  "answer": "（1）△ABC是等腰直角三角形；证明见解析；\n（2）\\(\\sqrt[] { 3 }\\)；",
+  "given_solution": "【分析】（1）根据圆周角定理可得∠ABC=90°，由∠ADB=∠CDB根据等弧对等角可得∠ACB=∠CAB，即可证明；\n（2）Rt△ABC中由勾股定理可得AC，Rt△ADC中由勾股定理求得CD即可；\n【小问1详解】\n证明：∵AC是圆的直径，则∠ABC=∠ADC=90°，\n∵∠ADB=∠CDB，∠ADB=∠ACB，∠CDB=∠CAB，\n∴∠ACB=∠CAB，\n∴△ABC是等腰直角三角形；\n【小问2详解】\n解：∵△ABC是等腰直角三角形，\n∴BC=AB=\\(\\sqrt[] { 2 }\\)，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\)，\nRt△ADC中，∠ADC=90°，AD=1，则CD=\\(\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴CD=\\(\\sqrt[] { 3 }\\)．\n【点睛】本题考查了圆周角定理，等腰直角三角形的判定和性质，勾股定理等知识；掌握等弧对等角是解题关键．",
+  "given_solution_figures": [
+    "assets/figures/a7/a7ffd3855b104887a44f0f1d73b23810d3ccb943a87ec870a0e1eb6deba58acb.png"
+  ],
+  "solution": "【小问1详解】\n证明：∵AC是圆的直径，则∠ABC=∠ADC=90°，\n∵∠ADB=∠CDB，∠ADB=∠ACB，∠CDB=∠CAB，\n∴∠ACB=∠CAB，\n∴△ABC是等腰直角三角形；\n【小问2详解】\n解：∵△ABC是等腰直角三角形，\n∴BC=AB=\\(\\sqrt[] { 2 }\\)，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\)，\nRt△ADC中，∠ADC=90°，AD=1，则CD=\\(\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴CD=\\(\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：∵AC是圆的直径，则∠ABC=∠ADC=90°，",
+    "∵∠ADB=∠CDB，∠ADB=∠ACB，∠CDB=∠CAB，",
+    "∴∠ACB=∠CAB，",
+    "∴△ABC是等腰直角三角形；",
+    "【小问2详解】",
+    "解：∵△ABC是等腰直角三角形，",
+    "∴BC=AB=\\(\\sqrt[] { 2 }\\)，",
+    "∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\)，",
+    "Rt△ADC中，∠ADC=90°，AD=1，则CD=\\(\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+    "∴CD=\\(\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，四边形\\(ABCD\\)内接于\\(\\odot O\\)，\\(AC\\)为\\(\\odot O\\)的直径，\\(\\angle ADB=\\angle CDB\\)．\n〔图1〕",
+      "paper_blocks": [
+        31,
+        32
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-349D5B5203-Q10-P01",
+      "label": "（1）",
+      "prompt": "试判断\\(\\vartriangle ABC\\)的形状，并给出证明；",
+      "stem_text": "试判断\\(\\vartriangle ABC\\)的形状，并给出证明；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "△ABC是等腰直角三角形；证明见解析；",
+      "answer": "△ABC是等腰直角三角形；证明见解析；",
+      "given_solution": "证明：∵AC是圆的直径，则∠ABC=∠ADC=90°，\n∵∠ADB=∠CDB，∠ADB=∠ACB，∠CDB=∠CAB，\n∴∠ACB=∠CAB，\n∴△ABC是等腰直角三角形；",
+      "solution_steps": [
+        "证明：∵AC是圆的直径，则∠ABC=∠ADC=90°，",
+        "∵∠ADB=∠CDB，∠ADB=∠ACB，∠CDB=∠CAB，",
+        "∴∠ACB=∠CAB，",
+        "∴△ABC是等腰直角三角形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          31,
+          32,
+          33
+        ],
+        "solution_block_ids": [
+          150,
+          151,
+          152,
+          153
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-349D5B5203-Q10-P02",
+      "label": "（2）",
+      "prompt": "若\\(AB=\\sqrt[] { 2 }\\)，\\(AD=1\\)，求\\(CD\\)的长度．",
+      "stem_text": "若\\(AB=\\sqrt[] { 2 }\\)，\\(AD=1\\)，求\\(CD\\)的长度．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 3 }\\)；",
+      "answer": "\\(\\sqrt[] { 3 }\\)；",
+      "given_solution": "解：∵△ABC是等腰直角三角形，\n∴BC=AB=\\(\\sqrt[] { 2 }\\)，\n∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\)，\nRt△ADC中，∠ADC=90°，AD=1，则CD=\\(\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴CD=\\(\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：∵△ABC是等腰直角三角形，",
+        "∴BC=AB=\\(\\sqrt[] { 2 }\\)，",
+        "∴AC=\\(\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\)，",
+        "Rt△ADC中，∠ADC=90°，AD=1，则CD=\\(\\sqrt[] { AC ^ { 2 } -AD ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+        "∴CD=\\(\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          31,
+          32,
+          34
+        ],
+        "solution_block_ids": [
+          155,
+          156,
+          157,
+          158,
+          159
+        ],
+        "question_pages": [
+          2,
+          3
+        ],
+        "solution_pages": [
+          9
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      31,
+      34
+    ],
+    "solution_body_blocks": [
+      140,
+      160
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-349D5B5203/paper-q10-p02.webp",
+      "assets/SZ-G9-T2-349D5B5203/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          658.64,
+          583.64,
+          673.64
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          218.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      8,
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-349D5B5203/solution-q10-p08.webp",
+      "assets/SZ-G9-T2-349D5B5203/solution-q10-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          729.09,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“应用等腰三角形性质求边角”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

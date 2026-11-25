@@ -1,0 +1,162 @@
+{
+  "id": "SZ-G9-T2-860E3070A5-Q20",
+  "paper_id": "SZ-G9-T2-860E3070A5",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "在数学学习和研究中，经常用到类比、转化、从特殊到一般等思想方法．\n【原题呈现】\n如图1，在平行四边形\\(ABCD\\)中，点M是\\(CB\\)的中点，点O是线段\\(AM\\)上一点，\\(BO\\)的延长线交射线\\(CD\\)于点N．若\\(\\frac { OA } { OM }=3\\)，求\\(\\frac { CD } { CN }\\)的值．\n〔图1〕\n【尝试探究】\n如图1，过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，则\\(\\frac { MH } { AB }=\\)　　，\\(\\frac { MH } { CN }=\\)　　，\\(\\frac { CD } { CN }=\\)　　．\n【类比延伸】\n如图2，在原题的条件下，若\\(\\frac { OA } { OM }=k\\)，则\\(\\frac { CD } { CN }=\\)　　（用含有k的代数式表示）．\n【拓展迁移】\n如图3，四边形\\(ABCD\\)中，\\(CD\\parallel AB\\)，点E是\\(DA\\)的延长线上的一点，\\(CE\\)和\\(BD\\)相交于点O．若\\(\\frac { CD } { AB }=m\\)，\\(\\frac { AD } { DE }=n\\)，\\(\\left ( { m>0,n>0 } \\right )\\)，则\\(\\frac { OC } { OE }=\\)　　（用含m，n的代数式表示）．",
+  "choices": [],
+  "figures": [
+    "assets/figures/82/821dbe4b8423d95c8966aa9810b3a8288b69c309d3f15f0906283755b43746ba.png"
+  ],
+  "tables": [],
+  "given_answer": "[尝试探究] \\(\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 2 }\\)，\\(\\frac { 3 } { 2 }\\)；[类比延伸]\\(\\frac { k } { 2 }\\)；[拓展迁移]\\(mn\\)",
+  "answer": "[尝试探究] \\(\\frac { 1 } { 3 }\\)，\\(\\frac { 1 } { 2 }\\)，\\(\\frac { 3 } { 2 }\\)；[类比延伸]\\(\\frac { k } { 2 }\\)；[拓展迁移]\\(mn\\)",
+  "given_solution": "【分析】本题是三角形相似的综合题，考查了平行四边形的性质，相似三角形的判定和性质，正确地作出辅助线是解题的关键．\n[尝试探究] 过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，分别证明\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，根据相似三角形的性质，结合平行四边形的性质得到\\(\\frac { MH } { AB }=\\frac { 1 } { 3 }\\)，\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，进而可得\\(\\frac { CD } { CN }=\\frac { 3 } { 2 }\\)；\n[类比延伸]如图\\(2\\)所示，过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，分别证明\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，根据相似三角形的性质，结合平行四边形的性质得到\\(\\frac { MH } { AB }=\\frac { 1 } { k }\\)，\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，进而可得\\(\\frac { CD } { CN }=\\frac { k } { 2 }\\)；\n[拓展迁移]如图\\(3\\)所示，过过点\\(E\\)作\\(EH\\parallel AB\\)交\\(BD\\)的延长线于点\\(H\\)，则有\\(EH\\parallel AB\\parallel CD\\)．根据相似三角形的判定和性质即可得到结论．\n【详解】解：尝试探究：过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，如图\\(1\\)所示．\n〔图2〕\n则有\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，\n\\(\\therefore \\frac { MH } { AB }=\\frac { MO } { OA }=\\frac { 1 } { 3 }\\)，即\\(AB=3MH\\)，\n在▱\\(ABCD\\)中，\\(CD\\parallel AB\\)，\\(AB=CD\\)，\n∴\\(MH\\parallel CD\\)，\n∴\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，\n∴\\(\\frac { MH } { CN }=\\frac { BM } { BC }\\)，\n又\\(\\because M\\)为\\(BC\\)中点，\n∴\\(BM=\\frac { 1 } { 2 }BC\\)，\n∴\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，即\\(CN=2MH\\)，\n∴\\(\\frac { CD } { CN }=\\frac { AB } { CN }=\\frac { 3MH } { 2MH }=\\frac { 3 } { 2 }\\)，\n故答案为：\\(\\frac { 1 } { 3 }\\)；\\(\\frac { 1 } { 2 }\\)；\\(\\frac { 3 } { 2 }\\)；\n[类比延伸]：如图\\(2\\)所示，过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，如图\\(1\\)所示．\n〔图3〕\n则有\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，\n\\(\\therefore \\frac { MH } { AB }=\\frac { MO } { OA }=\\frac { 1 } { k }\\)，即\\(AB=kMH\\)，\n在▱\\(ABCD\\)中，\\(CD\\parallel AB\\)，\\(AB=CD\\)，\n∴\\(MH\\parallel CD\\)，\n∴\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，\n∴\\(\\frac { MH } { CN }=\\frac { BM } { BC }\\)，\n又\\(\\because M\\)为\\(BC\\)中点，\n∴\\(BM=\\frac { 1 } { 2 }BC\\)，\n∴\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，即\\(CN=2MH\\)，\n∴\\(\\frac { CD } { CN }=\\frac { AB } { CN }=\\frac { kMH } { 2MH }=\\frac { k } { 2 }\\)，\n故答案为：\\(\\frac { k } { 2 }\\)；\n[拓展迁移]：如图\\(3\\)所示，过点\\(E\\)作\\(EH\\parallel AB\\)交\\(BD\\)的延长线于点\\(H\\)，则有\\(EH\\parallel AB\\parallel CD\\)．\n〔图4〕\n\\(\\because EH\\parallel AB\\)，\n\\(\\therefore \\vartriangle DAB\\backsim \\vartriangle DEH\\)，\n\\(\\therefore \\frac { AB } { EH }=\\frac { AD } { DE }=n\\)，\n\\(\\therefore AB=nEH\\)．\n又\\(\\frac { CD } { AB }=m\\)，\n\\(\\therefore CD=mAB=mnEH\\)．\n\\(\\because EH\\parallel CD\\)\n\\(\\therefore \\vartriangle CDO\\backsim \\vartriangle EHO\\)，\n\\(\\therefore \\frac { OC } { OE }=\\frac { CD } { EH }=\\frac { mnEH } { EH }=mn\\)．\n故答案为：\\(mn\\)．",
+  "given_solution_figures": [
+    "assets/figures/82/821dbe4b8423d95c8966aa9810b3a8288b69c309d3f15f0906283755b43746ba.png",
+    "assets/figures/f9/f9ad9f8202f87dca35ec89d67cab3d7c18a171a819fbd4f7d608eee223a70a3e.png",
+    "assets/figures/da/da0cdb5698e20f5d2e85cbb3523cd5d1179d3cbba7eb742ba423e3dbe8eec8bd.png",
+    "assets/figures/db/db80fcbef727ae4cf98456d3f31a7ff7f84ae1ccb74f9a5c63f1a7ab1bd7081f.png"
+  ],
+  "solution": "解：尝试探究：过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，如图\\(1\\)所示．\n〔图2〕\n则有\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，\n\\(\\therefore \\frac { MH } { AB }=\\frac { MO } { OA }=\\frac { 1 } { 3 }\\)，即\\(AB=3MH\\)，\n在▱\\(ABCD\\)中，\\(CD\\parallel AB\\)，\\(AB=CD\\)，\n∴\\(MH\\parallel CD\\)，\n∴\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，\n∴\\(\\frac { MH } { CN }=\\frac { BM } { BC }\\)，\n又\\(\\because M\\)为\\(BC\\)中点，\n∴\\(BM=\\frac { 1 } { 2 }BC\\)，\n∴\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，即\\(CN=2MH\\)，\n∴\\(\\frac { CD } { CN }=\\frac { AB } { CN }=\\frac { 3MH } { 2MH }=\\frac { 3 } { 2 }\\)，\n故答案为：\\(\\frac { 1 } { 3 }\\)；\\(\\frac { 1 } { 2 }\\)；\\(\\frac { 3 } { 2 }\\)；\n[类比延伸]：如图\\(2\\)所示，过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，如图\\(1\\)所示．\n〔图3〕\n则有\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，\n\\(\\therefore \\frac { MH } { AB }=\\frac { MO } { OA }=\\frac { 1 } { k }\\)，即\\(AB=kMH\\)，\n在▱\\(ABCD\\)中，\\(CD\\parallel AB\\)，\\(AB=CD\\)，\n∴\\(MH\\parallel CD\\)，\n∴\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，\n∴\\(\\frac { MH } { CN }=\\frac { BM } { BC }\\)，\n又\\(\\because M\\)为\\(BC\\)中点，\n∴\\(BM=\\frac { 1 } { 2 }BC\\)，\n∴\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，即\\(CN=2MH\\)，\n∴\\(\\frac { CD } { CN }=\\frac { AB } { CN }=\\frac { kMH } { 2MH }=\\frac { k } { 2 }\\)，\n故答案为：\\(\\frac { k } { 2 }\\)；\n[拓展迁移]：如图\\(3\\)所示，过点\\(E\\)作\\(EH\\parallel AB\\)交\\(BD\\)的延长线于点\\(H\\)，则有\\(EH\\parallel AB\\parallel CD\\)．\n〔图4〕\n\\(\\because EH\\parallel AB\\)，\n\\(\\therefore \\vartriangle DAB\\backsim \\vartriangle DEH\\)，\n\\(\\therefore \\frac { AB } { EH }=\\frac { AD } { DE }=n\\)，\n\\(\\therefore AB=nEH\\)．\n又\\(\\frac { CD } { AB }=m\\)，\n\\(\\therefore CD=mAB=mnEH\\)．\n\\(\\because EH\\parallel CD\\)\n\\(\\therefore \\vartriangle CDO\\backsim \\vartriangle EHO\\)，\n\\(\\therefore \\frac { OC } { OE }=\\frac { CD } { EH }=\\frac { mnEH } { EH }=mn\\)．\n故答案为：\\(mn\\)．",
+  "solution_steps": [
+    "解：尝试探究：过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，如图\\(1\\)所示．",
+    "〔图2〕",
+    "则有\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，",
+    "\\(\\therefore \\frac { MH } { AB }=\\frac { MO } { OA }=\\frac { 1 } { 3 }\\)，即\\(AB=3MH\\)，",
+    "在▱\\(ABCD\\)中，\\(CD\\parallel AB\\)，\\(AB=CD\\)，",
+    "∴\\(MH\\parallel CD\\)，",
+    "∴\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，",
+    "∴\\(\\frac { MH } { CN }=\\frac { BM } { BC }\\)，",
+    "又\\(\\because M\\)为\\(BC\\)中点，",
+    "∴\\(BM=\\frac { 1 } { 2 }BC\\)，",
+    "∴\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，即\\(CN=2MH\\)，",
+    "∴\\(\\frac { CD } { CN }=\\frac { AB } { CN }=\\frac { 3MH } { 2MH }=\\frac { 3 } { 2 }\\)，",
+    "故答案为：\\(\\frac { 1 } { 3 }\\)；\\(\\frac { 1 } { 2 }\\)；\\(\\frac { 3 } { 2 }\\)；",
+    "[类比延伸]：如图\\(2\\)所示，过点M作\\(MH\\parallel AB\\)交\\(BN\\)于点H，如图\\(1\\)所示．",
+    "〔图3〕",
+    "则有\\(\\vartriangle ABO\\backsim \\vartriangle MHO\\)，",
+    "\\(\\therefore \\frac { MH } { AB }=\\frac { MO } { OA }=\\frac { 1 } { k }\\)，即\\(AB=kMH\\)，",
+    "在▱\\(ABCD\\)中，\\(CD\\parallel AB\\)，\\(AB=CD\\)，",
+    "∴\\(MH\\parallel CD\\)，",
+    "∴\\(\\vartriangle BMH\\backsim \\vartriangle BCN\\)，",
+    "∴\\(\\frac { MH } { CN }=\\frac { BM } { BC }\\)，",
+    "又\\(\\because M\\)为\\(BC\\)中点，",
+    "∴\\(BM=\\frac { 1 } { 2 }BC\\)，",
+    "∴\\(\\frac { MH } { CN }=\\frac { 1 } { 2 }\\)，即\\(CN=2MH\\)，",
+    "∴\\(\\frac { CD } { CN }=\\frac { AB } { CN }=\\frac { kMH } { 2MH }=\\frac { k } { 2 }\\)，",
+    "故答案为：\\(\\frac { k } { 2 }\\)；",
+    "[拓展迁移]：如图\\(3\\)所示，过点\\(E\\)作\\(EH\\parallel AB\\)交\\(BD\\)的延长线于点\\(H\\)，则有\\(EH\\parallel AB\\parallel CD\\)．",
+    "〔图4〕",
+    "\\(\\because EH\\parallel AB\\)，",
+    "\\(\\therefore \\vartriangle DAB\\backsim \\vartriangle DEH\\)，",
+    "\\(\\therefore \\frac { AB } { EH }=\\frac { AD } { DE }=n\\)，",
+    "\\(\\therefore AB=nEH\\)．",
+    "又\\(\\frac { CD } { AB }=m\\)，",
+    "\\(\\therefore CD=mAB=mnEH\\)．",
+    "\\(\\because EH\\parallel CD\\)",
+    "\\(\\therefore \\vartriangle CDO\\backsim \\vartriangle EHO\\)，",
+    "\\(\\therefore \\frac { OC } { OE }=\\frac { CD } { EH }=\\frac { mnEH } { EH }=mn\\)．",
+    "故答案为：\\(mn\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      73,
+      82
+    ],
+    "solution_body_blocks": [
+      321,
+      374
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-860E3070A5/paper-q20-p06.webp",
+      "assets/SZ-G9-T2-860E3070A5/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          393.18,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          76.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-860E3070A5/solution-q20-p18.webp",
+      "assets/SZ-G9-T2-860E3070A5/solution-q20-p19.webp",
+      "assets/SZ-G9-T2-860E3070A5/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          77.73,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          55.91,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          282.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "题文匹配"
+}

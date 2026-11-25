@@ -1,0 +1,486 @@
+{
+  "id": "SZ-G9-T2-CFB395958E-Q22",
+  "paper_id": "SZ-G9-T2-CFB395958E",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "（1）【问题探究】如图1，正方形\\(ABCD\\)中，点F、G分别在边\\(BC\\)、\\(CD\\)上，且\\(AF\\bot BG\\)于点P，求证：\\(AF=BG\\)；\n（2）【知识迁移】如图2，矩形\\(ABCD\\)中，\\(AB=4\\)，\\(BC=8\\)，点E、F、G、H分别在边\\(AB\\)、\\(BC\\)、\\(CD\\)、\\(AD\\)上，且\\(EG\\bot FH\\)于点P．若\\(EG\\cdot HF=48\\)，求\\(HF\\)的长；\n（3）【拓展应用】如图3，在菱形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，点E在直线\\(AB\\)上，\\(BE=6\\)，\\(AF\\bot DE\\)交直线\\(BC\\)于点F．请直接写出线段\\(FC\\)的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/17/1749668273b48491dd47e59c246667607b4f4b5883491c2d623fbbae07c5c011.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见解析；（2）\\(2\\sqrt[] { 6 }\\)；（3）\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)",
+  "answer": "（1）证明见解析；（2）\\(2\\sqrt[] { 6 }\\)；（3）\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)",
+  "given_solution": "【分析】(1)由正方形的性质得\\(\\angle ABF=\\angle C=90{}^\\circ\\)，\\(AB=BC\\)，而\\(\\angle APB=90{}^\\circ\\)，则\\(\\angle BAF=\\angle CBG=90{}^\\circ -\\angle ABG\\)，即可根据“\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)”证明\\(\\vartriangle ABF≌\\vartriangle BCG\\)，得\\(AF=BG\\)；\n(2)作\\(EM\\bot DC\\)于点M，交\\(FH\\)于点J，作\\(HN\\bot BC\\)于点N，交\\(EM\\)于点I，由矩形的性质得\\(\\angle A=\\angle B=\\angle C=\\angle D=90{}^\\circ\\)，\\(AD\\parallel BC\\)，可证明四边形\\(EBCM\\)是矩形，则\\(EM=BC=8\\)，\\(EM\\parallel BC\\)，所以\\(EM\\parallel AD\\)，再证明四边形\\(ABNH\\)是矩形，得\\(HN=AB=4\\)，\\(\\angle AHN=90{}^\\circ\\)，所以\\(\\angle HIJ=\\angle AHN=90{}^\\circ\\)，而\\(\\angle EPJ=90{}^\\circ\\)，可证明\\(\\angle NHF=\\angle MEG\\)，进而证明\\(\\vartriangle HNF\\backsim \\vartriangle EMG\\)，得\\(\\frac { HF } { EG }=\\frac { HN } { EM }=\\frac { 1 } { 2 }\\)，则\\(EG=2HF\\)，所以\\(2HF\\cdot HF=48\\)，即可求得\\(HF\\)的长是\\(2\\sqrt[] { 6 }\\)；\n(3)作\\(AH\\bot BC\\)于点M，\\(DM\\bot BA\\)交\\(BA\\)的延长线于点M，由菱形的性质得\\(AD=BC=AB=9\\)，\\(AD\\parallel BC\\)，则\\(\\angle DAM=\\angle B=60{}^\\circ\\)，求得\\(BH=AM=\\frac { 9 } { 2 }\\)，\\(AH=DM=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)，则\\(CH=\\frac { 9 } { 2 }\\)，再分两种情况讨论，一是点E在线段\\(AB\\)上，则\\(AE=3\\)，\\(EM=\\frac { 15 } { 2 }\\)，，求得\\(DE=3\\sqrt[] { 13 }\\)，设设\\(AF\\bot DE\\)于点G，，则\\(\\frac { 1 } { 2 }\\times 3\\sqrt[] { 13 }AG=\\frac { 1 } { 2 }\\times 3\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，求得\\(AG=\\frac { 9\\sqrt[] { 39 } } { 26 }\\)，则\\(DG=\\frac { 63\\sqrt[] { 13 } } { 26 }\\)，由\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADG=\\frac { AG } { DG }=\\frac { \\frac { 9\\sqrt[] { 39 } } { 26 } } { \\frac { 63\\sqrt[] { 13 } } { 26 } }=\\frac { \\sqrt[] { 3 } } { 7 }\\)，求得\\(FH=\\frac { 27 } { 14 }\\)，则\\(FC=\\frac { 18 } { 7 }\\)；二是E在线段\\(AB\\)的延长线上，则\\(AE=15\\)，\\(EM=\\frac { 39 } { 2 }\\)，求得\\(DE=21\\)，设设\\(AF\\bot DE\\)于点L，则\\(\\frac { 1 } { 2 }\\times 21\\times AL=\\frac { 1 } { 2 }\\times 15\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，求得\\(AL=\\frac { 45\\sqrt[] { 3 } } { 14 }\\)，则\\(DL=\\frac { 99 } { 14 }\\)，由\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle DAL=\\frac { AL } { DL }=\\frac { \\frac { 45\\sqrt[] { 3 } } { 14 } } { \\frac { 99 } { 14 } }=\\frac { 5\\sqrt[] { 3 } } { 11 }\\)，求得\\(FH=\\frac { 135 } { 22 }\\)，则\\(FC=\\frac { 18 } { 11 }\\)．\n【详解】（1）∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle ABF=\\angle C=90{}^\\circ\\)，\\(AB=BC\\)，\n∵\\(AF\\bot BG\\)，\n∴\\(\\angle APB=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle CBG=90{}^\\circ -\\angle ABG\\)，\n在\\(\\vartriangle ABF\\)和\\(\\vartriangle BCG\\)中，\n\\(\\begin{cases} \\angle BAF=\\angle CBG \\\\ AB=BC \\\\ \\angle ABF=\\angle C \\end{cases}\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle BCG\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AF=BG\\)；\n（2）如图2，作\\(EM\\bot DC\\)于点M，交\\(FH\\)于点J，作\\(HN\\bot BC\\)于点N，交\\(EM\\)于点I，则\\(\\angle EMC=\\angle HNB=90{}^\\circ\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是矩形，\\(AB=4\\)，\\(BC=8\\)，\n∴\\(\\angle A=\\angle B=\\angle C=\\angle D=90{}^\\circ\\)，\\(AD\\parallel BC\\)，\n∵\\(\\angle B=\\angle C=\\angle EMC=90{}^\\circ\\)，\n∴四边形\\(EBCM\\)是矩形，\n∴\\(EM=BC=8\\)，\\(EM\\parallel BC\\)，\n∴\\(EM\\parallel AD\\)，\n∵\\(\\angle A=\\angle B=\\angle HNB=90{}^\\circ\\)，\n∴四边形\\(ABNH\\)是矩形，\n∴\\(HN=AB=4\\)，\\(\\angle AHN=90{}^\\circ\\)，\n∴\\(\\angle HIJ=\\angle AHN=90{}^\\circ\\)，\n∵\\(EG\\bot FH\\)于点P，\n∴\\(\\angle EPJ=90{}^\\circ\\)，\n∴\\(\\angle NHF=\\angle MEG=90{}^\\circ -\\angle EJH\\)，\n∵\\(\\angle HNF=\\angle EMG=90{}^\\circ\\)，\n∴\\(\\vartriangle HNF\\backsim \\vartriangle EMG\\)，\n∴\\(\\frac { HF } { EG }=\\frac { HN } { EM }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，\n∴\\(EG=2HF\\)，\n∵\\(EG\\cdot HF=48\\)，\n∴\\(2HF\\cdot HF=48\\)，\n解得\\(HF=2\\sqrt[] { 6 }\\)或\\(HF=-2\\sqrt[] { 6 }\\)（不符合题意，舍去），\n∴\\(HF\\)的长是\\(2\\sqrt[] { 6 }\\)．\n（3）线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)，理由如下：\n如图3，作\\(AH\\bot BC\\)于点M，\\(DM\\bot BA\\)交\\(BA\\)的延长线于点M，则\\(\\angle AHB=\\angle AHF=\\angle M=90{}^\\circ\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是菱形，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，\n∴\\(AD=BC=AB=9\\)，\\(AD\\parallel BC\\)，\n∴\\(\\angle DAM=\\angle B=60{}^\\circ\\)，\n∴\\(\\frac { BH } { AB }=\\frac { AM } { AD }={ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }60{}^\\circ =\\frac { 1 } { 2 }\\)， \\(\\frac { AH } { AB }=\\frac { DM } { AD }={ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\) ，\n∴\\(BH=AM=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 9=\\frac { 9 } { 2 }\\)，\\(AH=DM=\\frac { \\sqrt[] { 3 } } { 2 }AD=\\frac { \\sqrt[] { 3 } } { 2 }\\times 9=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)，\n∴\\(CH=\\frac { 1 } { 2 }BC=\\frac { 9 } { 2 }\\)，\n当点E在线段\\(AB\\)上，且\\(BE=6\\)，则\\(AE=AB-BE=9-6=3\\)，\n∴\\(EM=AE+AM=3+\\frac { 9 } { 2 }=\\frac { 15 } { 2 }\\)，\n∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 15 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=3\\sqrt[] { 13 }\\)，\n设\\(AF\\bot DE\\)于点G，则\\(\\angle AGD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 3\\sqrt[] { 13 }AG=\\frac { 1 } { 2 }\\times 3\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，\n∴\\(AG=\\frac { 9\\sqrt[] { 39 } } { 26 }\\)，\n∴\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 9\\sqrt[] { 39 } } { 26 } } \\right ) ^ { 2 } }=\\frac { 63\\sqrt[] { 13 } } { 26 }\\)，\n∵\\(\\angle HAD=\\angle AHB=90{}^\\circ\\)，\n∴\\(\\angle FAH=\\angle ADG=90{}^\\circ -\\angle DAF\\)，\n∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADG=\\frac { AG } { DG }=\\frac { \\frac { 9\\sqrt[] { 39 } } { 26 } } { \\frac { 63\\sqrt[] { 13 } } { 26 } }=\\frac { \\sqrt[] { 3 } } { 7 }\\)，\n∴\\(FH=\\frac { \\sqrt[] { 3 } } { 7 }AH=\\frac { \\sqrt[] { 3 } } { 7 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 27 } { 14 }\\)，\n∴\\(FC=CH-FH=\\frac { 9 } { 2 }-\\frac { 27 } { 14 }=\\frac { 18 } { 7 }\\)；\n如图4，点E在线段\\(AB\\)的延长线上，且\\(BE=6\\)，则\\(AE=AB+BE=9+6=15\\)，\n〔图4〕\n∴\\(EM=AE+AM=15+\\frac { 9 } { 2 }=\\frac { 39 } { 2 }\\)，\n∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 39 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=21\\)，\n设\\(AF\\bot DE\\)于点L，则\\(\\angle ALD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 21\\times AL=\\frac { 1 } { 2 }\\times 15\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，\n∴\\(AL=\\frac { 45\\sqrt[] { 3 } } { 14 }\\)，\n∴\\(DL=\\sqrt[] { AD ^ { 2 } -AL ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 45\\sqrt[] { 3 } } { 14 } } \\right ) ^ { 2 } }=\\frac { 99 } { 14 }\\)，\n∵\\(\\angle FAH=\\angle ADL=90{}^\\circ -\\angle DAF\\)，\n∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADL=\\frac { AL } { DL }=\\frac { \\frac { 45\\sqrt[] { 3 } } { 14 } } { \\frac { 99 } { 14 } }=\\frac { 5\\sqrt[] { 3 } } { 11 }\\)，\n∴\\(FH=\\frac { 5\\sqrt[] { 3 } } { 11 }AH＝\\frac { 5\\sqrt[] { 3 } } { 11 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 135 } { 22 }\\)，\n∴\\(FC=FH-CH=\\frac { 135 } { 22 }-\\frac { 9 } { 2 }=\\frac { 18 } { 11 }\\)，\n综上所述，线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)．\n【点睛】本题主要考查了正方形的性质、全等三角形的判定与性质、矩形的判定与性质、相似三角形的判定与性质、菱形的性质、勾股定理、解直角三角形等知识，熟练掌握其性质，合理作出辅助线是解决此题的关键．",
+  "given_solution_figures": [
+    "assets/figures/17/1749668273b48491dd47e59c246667607b4f4b5883491c2d623fbbae07c5c011.png",
+    "assets/figures/ef/ef81ec66e7b1e403f706eebe982444213d7be3d4c56e200b5fd93e3a6c511adb.png",
+    "assets/figures/7b/7b605e2084a41352ad7d472ae3ea0673ed90603727db3d5b0afe4c6dd67963db.png",
+    "assets/figures/67/67814d60ac6576a7345773993ac75db057a95c73ce15caac41bc0069ee1583b4.png"
+  ],
+  "solution": "（1）∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle ABF=\\angle C=90{}^\\circ\\)，\\(AB=BC\\)，\n∵\\(AF\\bot BG\\)，\n∴\\(\\angle APB=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle CBG=90{}^\\circ -\\angle ABG\\)，\n在\\(\\vartriangle ABF\\)和\\(\\vartriangle BCG\\)中，\n\\(\\begin{cases} \\angle BAF=\\angle CBG \\\\ AB=BC \\\\ \\angle ABF=\\angle C \\end{cases}\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle BCG\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AF=BG\\)；\n（2）如图2，作\\(EM\\bot DC\\)于点M，交\\(FH\\)于点J，作\\(HN\\bot BC\\)于点N，交\\(EM\\)于点I，则\\(\\angle EMC=\\angle HNB=90{}^\\circ\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是矩形，\\(AB=4\\)，\\(BC=8\\)，\n∴\\(\\angle A=\\angle B=\\angle C=\\angle D=90{}^\\circ\\)，\\(AD\\parallel BC\\)，\n∵\\(\\angle B=\\angle C=\\angle EMC=90{}^\\circ\\)，\n∴四边形\\(EBCM\\)是矩形，\n∴\\(EM=BC=8\\)，\\(EM\\parallel BC\\)，\n∴\\(EM\\parallel AD\\)，\n∵\\(\\angle A=\\angle B=\\angle HNB=90{}^\\circ\\)，\n∴四边形\\(ABNH\\)是矩形，\n∴\\(HN=AB=4\\)，\\(\\angle AHN=90{}^\\circ\\)，\n∴\\(\\angle HIJ=\\angle AHN=90{}^\\circ\\)，\n∵\\(EG\\bot FH\\)于点P，\n∴\\(\\angle EPJ=90{}^\\circ\\)，\n∴\\(\\angle NHF=\\angle MEG=90{}^\\circ -\\angle EJH\\)，\n∵\\(\\angle HNF=\\angle EMG=90{}^\\circ\\)，\n∴\\(\\vartriangle HNF\\backsim \\vartriangle EMG\\)，\n∴\\(\\frac { HF } { EG }=\\frac { HN } { EM }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，\n∴\\(EG=2HF\\)，\n∵\\(EG\\cdot HF=48\\)，\n∴\\(2HF\\cdot HF=48\\)，\n解得\\(HF=2\\sqrt[] { 6 }\\)或\\(HF=-2\\sqrt[] { 6 }\\)（不符合题意，舍去），\n∴\\(HF\\)的长是\\(2\\sqrt[] { 6 }\\)．\n（3）线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)，理由如下：\n如图3，作\\(AH\\bot BC\\)于点M，\\(DM\\bot BA\\)交\\(BA\\)的延长线于点M，则\\(\\angle AHB=\\angle AHF=\\angle M=90{}^\\circ\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是菱形，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，\n∴\\(AD=BC=AB=9\\)，\\(AD\\parallel BC\\)，\n∴\\(\\angle DAM=\\angle B=60{}^\\circ\\)，\n∴\\(\\frac { BH } { AB }=\\frac { AM } { AD }={ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }60{}^\\circ =\\frac { 1 } { 2 }\\)， \\(\\frac { AH } { AB }=\\frac { DM } { AD }={ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\) ，\n∴\\(BH=AM=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 9=\\frac { 9 } { 2 }\\)，\\(AH=DM=\\frac { \\sqrt[] { 3 } } { 2 }AD=\\frac { \\sqrt[] { 3 } } { 2 }\\times 9=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)，\n∴\\(CH=\\frac { 1 } { 2 }BC=\\frac { 9 } { 2 }\\)，\n当点E在线段\\(AB\\)上，且\\(BE=6\\)，则\\(AE=AB-BE=9-6=3\\)，\n∴\\(EM=AE+AM=3+\\frac { 9 } { 2 }=\\frac { 15 } { 2 }\\)，\n∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 15 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=3\\sqrt[] { 13 }\\)，\n设\\(AF\\bot DE\\)于点G，则\\(\\angle AGD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 3\\sqrt[] { 13 }AG=\\frac { 1 } { 2 }\\times 3\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，\n∴\\(AG=\\frac { 9\\sqrt[] { 39 } } { 26 }\\)，\n∴\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 9\\sqrt[] { 39 } } { 26 } } \\right ) ^ { 2 } }=\\frac { 63\\sqrt[] { 13 } } { 26 }\\)，\n∵\\(\\angle HAD=\\angle AHB=90{}^\\circ\\)，\n∴\\(\\angle FAH=\\angle ADG=90{}^\\circ -\\angle DAF\\)，\n∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADG=\\frac { AG } { DG }=\\frac { \\frac { 9\\sqrt[] { 39 } } { 26 } } { \\frac { 63\\sqrt[] { 13 } } { 26 } }=\\frac { \\sqrt[] { 3 } } { 7 }\\)，\n∴\\(FH=\\frac { \\sqrt[] { 3 } } { 7 }AH=\\frac { \\sqrt[] { 3 } } { 7 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 27 } { 14 }\\)，\n∴\\(FC=CH-FH=\\frac { 9 } { 2 }-\\frac { 27 } { 14 }=\\frac { 18 } { 7 }\\)；\n如图4，点E在线段\\(AB\\)的延长线上，且\\(BE=6\\)，则\\(AE=AB+BE=9+6=15\\)，\n〔图4〕\n∴\\(EM=AE+AM=15+\\frac { 9 } { 2 }=\\frac { 39 } { 2 }\\)，\n∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 39 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=21\\)，\n设\\(AF\\bot DE\\)于点L，则\\(\\angle ALD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 21\\times AL=\\frac { 1 } { 2 }\\times 15\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，\n∴\\(AL=\\frac { 45\\sqrt[] { 3 } } { 14 }\\)，\n∴\\(DL=\\sqrt[] { AD ^ { 2 } -AL ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 45\\sqrt[] { 3 } } { 14 } } \\right ) ^ { 2 } }=\\frac { 99 } { 14 }\\)，\n∵\\(\\angle FAH=\\angle ADL=90{}^\\circ -\\angle DAF\\)，\n∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADL=\\frac { AL } { DL }=\\frac { \\frac { 45\\sqrt[] { 3 } } { 14 } } { \\frac { 99 } { 14 } }=\\frac { 5\\sqrt[] { 3 } } { 11 }\\)，\n∴\\(FH=\\frac { 5\\sqrt[] { 3 } } { 11 }AH＝\\frac { 5\\sqrt[] { 3 } } { 11 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 135 } { 22 }\\)，\n∴\\(FC=FH-CH=\\frac { 135 } { 22 }-\\frac { 9 } { 2 }=\\frac { 18 } { 11 }\\)，\n综上所述，线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)．",
+  "solution_steps": [
+    "（1）∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(\\angle ABF=\\angle C=90{}^\\circ\\)，\\(AB=BC\\)，",
+    "∵\\(AF\\bot BG\\)，",
+    "∴\\(\\angle APB=90{}^\\circ\\)，",
+    "∴\\(\\angle BAF=\\angle CBG=90{}^\\circ -\\angle ABG\\)，",
+    "在\\(\\vartriangle ABF\\)和\\(\\vartriangle BCG\\)中，",
+    "\\(\\begin{cases} \\angle BAF=\\angle CBG \\\\ AB=BC \\\\ \\angle ABF=\\angle C \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABF≌\\vartriangle BCG\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(AF=BG\\)；",
+    "（2）如图2，作\\(EM\\bot DC\\)于点M，交\\(FH\\)于点J，作\\(HN\\bot BC\\)于点N，交\\(EM\\)于点I，则\\(\\angle EMC=\\angle HNB=90{}^\\circ\\)，",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)是矩形，\\(AB=4\\)，\\(BC=8\\)，",
+    "∴\\(\\angle A=\\angle B=\\angle C=\\angle D=90{}^\\circ\\)，\\(AD\\parallel BC\\)，",
+    "∵\\(\\angle B=\\angle C=\\angle EMC=90{}^\\circ\\)，",
+    "∴四边形\\(EBCM\\)是矩形，",
+    "∴\\(EM=BC=8\\)，\\(EM\\parallel BC\\)，",
+    "∴\\(EM\\parallel AD\\)，",
+    "∵\\(\\angle A=\\angle B=\\angle HNB=90{}^\\circ\\)，",
+    "∴四边形\\(ABNH\\)是矩形，",
+    "∴\\(HN=AB=4\\)，\\(\\angle AHN=90{}^\\circ\\)，",
+    "∴\\(\\angle HIJ=\\angle AHN=90{}^\\circ\\)，",
+    "∵\\(EG\\bot FH\\)于点P，",
+    "∴\\(\\angle EPJ=90{}^\\circ\\)，",
+    "∴\\(\\angle NHF=\\angle MEG=90{}^\\circ -\\angle EJH\\)，",
+    "∵\\(\\angle HNF=\\angle EMG=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle HNF\\backsim \\vartriangle EMG\\)，",
+    "∴\\(\\frac { HF } { EG }=\\frac { HN } { EM }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(EG=2HF\\)，",
+    "∵\\(EG\\cdot HF=48\\)，",
+    "∴\\(2HF\\cdot HF=48\\)，",
+    "解得\\(HF=2\\sqrt[] { 6 }\\)或\\(HF=-2\\sqrt[] { 6 }\\)（不符合题意，舍去），",
+    "∴\\(HF\\)的长是\\(2\\sqrt[] { 6 }\\)．",
+    "（3）线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)，理由如下：",
+    "如图3，作\\(AH\\bot BC\\)于点M，\\(DM\\bot BA\\)交\\(BA\\)的延长线于点M，则\\(\\angle AHB=\\angle AHF=\\angle M=90{}^\\circ\\)，",
+    "〔图3〕",
+    "∵四边形\\(ABCD\\)是菱形，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，",
+    "∴\\(AD=BC=AB=9\\)，\\(AD\\parallel BC\\)，",
+    "∴\\(\\angle DAM=\\angle B=60{}^\\circ\\)，",
+    "∴\\(\\frac { BH } { AB }=\\frac { AM } { AD }={ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }60{}^\\circ =\\frac { 1 } { 2 }\\)， \\(\\frac { AH } { AB }=\\frac { DM } { AD }={ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\) ，",
+    "∴\\(BH=AM=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 9=\\frac { 9 } { 2 }\\)，\\(AH=DM=\\frac { \\sqrt[] { 3 } } { 2 }AD=\\frac { \\sqrt[] { 3 } } { 2 }\\times 9=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)，",
+    "∴\\(CH=\\frac { 1 } { 2 }BC=\\frac { 9 } { 2 }\\)，",
+    "当点E在线段\\(AB\\)上，且\\(BE=6\\)，则\\(AE=AB-BE=9-6=3\\)，",
+    "∴\\(EM=AE+AM=3+\\frac { 9 } { 2 }=\\frac { 15 } { 2 }\\)，",
+    "∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 15 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=3\\sqrt[] { 13 }\\)，",
+    "设\\(AF\\bot DE\\)于点G，则\\(\\angle AGD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 3\\sqrt[] { 13 }AG=\\frac { 1 } { 2 }\\times 3\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，",
+    "∴\\(AG=\\frac { 9\\sqrt[] { 39 } } { 26 }\\)，",
+    "∴\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 9\\sqrt[] { 39 } } { 26 } } \\right ) ^ { 2 } }=\\frac { 63\\sqrt[] { 13 } } { 26 }\\)，",
+    "∵\\(\\angle HAD=\\angle AHB=90{}^\\circ\\)，",
+    "∴\\(\\angle FAH=\\angle ADG=90{}^\\circ -\\angle DAF\\)，",
+    "∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADG=\\frac { AG } { DG }=\\frac { \\frac { 9\\sqrt[] { 39 } } { 26 } } { \\frac { 63\\sqrt[] { 13 } } { 26 } }=\\frac { \\sqrt[] { 3 } } { 7 }\\)，",
+    "∴\\(FH=\\frac { \\sqrt[] { 3 } } { 7 }AH=\\frac { \\sqrt[] { 3 } } { 7 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 27 } { 14 }\\)，",
+    "∴\\(FC=CH-FH=\\frac { 9 } { 2 }-\\frac { 27 } { 14 }=\\frac { 18 } { 7 }\\)；",
+    "如图4，点E在线段\\(AB\\)的延长线上，且\\(BE=6\\)，则\\(AE=AB+BE=9+6=15\\)，",
+    "〔图4〕",
+    "∴\\(EM=AE+AM=15+\\frac { 9 } { 2 }=\\frac { 39 } { 2 }\\)，",
+    "∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 39 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=21\\)，",
+    "设\\(AF\\bot DE\\)于点L，则\\(\\angle ALD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 21\\times AL=\\frac { 1 } { 2 }\\times 15\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，",
+    "∴\\(AL=\\frac { 45\\sqrt[] { 3 } } { 14 }\\)，",
+    "∴\\(DL=\\sqrt[] { AD ^ { 2 } -AL ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 45\\sqrt[] { 3 } } { 14 } } \\right ) ^ { 2 } }=\\frac { 99 } { 14 }\\)，",
+    "∵\\(\\angle FAH=\\angle ADL=90{}^\\circ -\\angle DAF\\)，",
+    "∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADL=\\frac { AL } { DL }=\\frac { \\frac { 45\\sqrt[] { 3 } } { 14 } } { \\frac { 99 } { 14 } }=\\frac { 5\\sqrt[] { 3 } } { 11 }\\)，",
+    "∴\\(FH=\\frac { 5\\sqrt[] { 3 } } { 11 }AH＝\\frac { 5\\sqrt[] { 3 } } { 11 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 135 } { 22 }\\)，",
+    "∴\\(FC=FH-CH=\\frac { 135 } { 22 }-\\frac { 9 } { 2 }=\\frac { 18 } { 11 }\\)，",
+    "综上所述，线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "fig-73",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-CFB395958E-Q22-P01",
+      "label": "（1）",
+      "prompt": "【问题探究】如图1，正方形\\(ABCD\\)中，点F、G分别在边\\(BC\\)、\\(CD\\)上，且\\(AF\\bot BG\\)于点P，求证：\\(AF=BG\\)；",
+      "stem_text": "【问题探究】如图1，正方形\\(ABCD\\)中，点F、G分别在边\\(BC\\)、\\(CD\\)上，且\\(AF\\bot BG\\)于点P，求证：\\(AF=BG\\)；",
+      "material_ids": [
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "∵四边形\\(ABCD\\)是正方形，\n∴\\(\\angle ABF=\\angle C=90{}^\\circ\\)，\\(AB=BC\\)，\n∵\\(AF\\bot BG\\)，\n∴\\(\\angle APB=90{}^\\circ\\)，\n∴\\(\\angle BAF=\\angle CBG=90{}^\\circ -\\angle ABG\\)，\n在\\(\\vartriangle ABF\\)和\\(\\vartriangle BCG\\)中，\n\\(\\begin{cases} \\angle BAF=\\angle CBG \\\\ AB=BC \\\\ \\angle ABF=\\angle C \\end{cases}\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle BCG\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AF=BG\\)；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(\\angle ABF=\\angle C=90{}^\\circ\\)，\\(AB=BC\\)，",
+        "∵\\(AF\\bot BG\\)，",
+        "∴\\(\\angle APB=90{}^\\circ\\)，",
+        "∴\\(\\angle BAF=\\angle CBG=90{}^\\circ -\\angle ABG\\)，",
+        "在\\(\\vartriangle ABF\\)和\\(\\vartriangle BCG\\)中，",
+        "\\(\\begin{cases} \\angle BAF=\\angle CBG \\\\ AB=BC \\\\ \\angle ABF=\\angle C \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABF≌\\vartriangle BCG\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(AF=BG\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-CFB395958E-Q22-P02",
+      "label": "（2）",
+      "prompt": "【知识迁移】如图2，矩形\\(ABCD\\)中，\\(AB=4\\)，\\(BC=8\\)，点E、F、G、H分别在边\\(AB\\)、\\(BC\\)、\\(CD\\)、\\(AD\\)上，且\\(EG\\bot FH\\)于点P．若\\(EG\\cdot HF=48\\)，求\\(HF\\)的长；",
+      "stem_text": "【知识迁移】如图2，矩形\\(ABCD\\)中，\\(AB=4\\)，\\(BC=8\\)，点E、F、G、H分别在边\\(AB\\)、\\(BC\\)、\\(CD\\)、\\(AD\\)上，且\\(EG\\bot FH\\)于点P．若\\(EG\\cdot HF=48\\)，求\\(HF\\)的长；",
+      "material_ids": [
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 6 }\\)；",
+      "answer": "\\(2\\sqrt[] { 6 }\\)；",
+      "given_solution": "如图2，作\\(EM\\bot DC\\)于点M，交\\(FH\\)于点J，作\\(HN\\bot BC\\)于点N，交\\(EM\\)于点I，则\\(\\angle EMC=\\angle HNB=90{}^\\circ\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是矩形，\\(AB=4\\)，\\(BC=8\\)，\n∴\\(\\angle A=\\angle B=\\angle C=\\angle D=90{}^\\circ\\)，\\(AD\\parallel BC\\)，\n∵\\(\\angle B=\\angle C=\\angle EMC=90{}^\\circ\\)，\n∴四边形\\(EBCM\\)是矩形，\n∴\\(EM=BC=8\\)，\\(EM\\parallel BC\\)，\n∴\\(EM\\parallel AD\\)，\n∵\\(\\angle A=\\angle B=\\angle HNB=90{}^\\circ\\)，\n∴四边形\\(ABNH\\)是矩形，\n∴\\(HN=AB=4\\)，\\(\\angle AHN=90{}^\\circ\\)，\n∴\\(\\angle HIJ=\\angle AHN=90{}^\\circ\\)，\n∵\\(EG\\bot FH\\)于点P，\n∴\\(\\angle EPJ=90{}^\\circ\\)，\n∴\\(\\angle NHF=\\angle MEG=90{}^\\circ -\\angle EJH\\)，\n∵\\(\\angle HNF=\\angle EMG=90{}^\\circ\\)，\n∴\\(\\vartriangle HNF\\backsim \\vartriangle EMG\\)，\n∴\\(\\frac { HF } { EG }=\\frac { HN } { EM }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，\n∴\\(EG=2HF\\)，\n∵\\(EG\\cdot HF=48\\)，\n∴\\(2HF\\cdot HF=48\\)，\n解得\\(HF=2\\sqrt[] { 6 }\\)或\\(HF=-2\\sqrt[] { 6 }\\)（不符合题意，舍去），\n∴\\(HF\\)的长是\\(2\\sqrt[] { 6 }\\)．",
+      "solution_steps": [
+        "如图2，作\\(EM\\bot DC\\)于点M，交\\(FH\\)于点J，作\\(HN\\bot BC\\)于点N，交\\(EM\\)于点I，则\\(\\angle EMC=\\angle HNB=90{}^\\circ\\)，",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)是矩形，\\(AB=4\\)，\\(BC=8\\)，",
+        "∴\\(\\angle A=\\angle B=\\angle C=\\angle D=90{}^\\circ\\)，\\(AD\\parallel BC\\)，",
+        "∵\\(\\angle B=\\angle C=\\angle EMC=90{}^\\circ\\)，",
+        "∴四边形\\(EBCM\\)是矩形，",
+        "∴\\(EM=BC=8\\)，\\(EM\\parallel BC\\)，",
+        "∴\\(EM\\parallel AD\\)，",
+        "∵\\(\\angle A=\\angle B=\\angle HNB=90{}^\\circ\\)，",
+        "∴四边形\\(ABNH\\)是矩形，",
+        "∴\\(HN=AB=4\\)，\\(\\angle AHN=90{}^\\circ\\)，",
+        "∴\\(\\angle HIJ=\\angle AHN=90{}^\\circ\\)，",
+        "∵\\(EG\\bot FH\\)于点P，",
+        "∴\\(\\angle EPJ=90{}^\\circ\\)，",
+        "∴\\(\\angle NHF=\\angle MEG=90{}^\\circ -\\angle EJH\\)，",
+        "∵\\(\\angle HNF=\\angle EMG=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle HNF\\backsim \\vartriangle EMG\\)，",
+        "∴\\(\\frac { HF } { EG }=\\frac { HN } { EM }=\\frac { 4 } { 8 }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(EG=2HF\\)，",
+        "∵\\(EG\\cdot HF=48\\)，",
+        "∴\\(2HF\\cdot HF=48\\)，",
+        "解得\\(HF=2\\sqrt[] { 6 }\\)或\\(HF=-2\\sqrt[] { 6 }\\)（不符合题意，舍去），",
+        "∴\\(HF\\)的长是\\(2\\sqrt[] { 6 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-CFB395958E-Q22-P03",
+      "label": "（3）",
+      "prompt": "【拓展应用】如图3，在菱形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，点E在直线\\(AB\\)上，\\(BE=6\\)，\\(AF\\bot DE\\)交直线\\(BC\\)于点F．请直接写出线段\\(FC\\)的长．",
+      "stem_text": "【拓展应用】如图3，在菱形\\(ABCD\\)中，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，点E在直线\\(AB\\)上，\\(BE=6\\)，\\(AF\\bot DE\\)交直线\\(BC\\)于点F．请直接写出线段\\(FC\\)的长．",
+      "material_ids": [
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)",
+      "answer": "\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)",
+      "given_solution": "线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)，理由如下：\n如图3，作\\(AH\\bot BC\\)于点M，\\(DM\\bot BA\\)交\\(BA\\)的延长线于点M，则\\(\\angle AHB=\\angle AHF=\\angle M=90{}^\\circ\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是菱形，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，\n∴\\(AD=BC=AB=9\\)，\\(AD\\parallel BC\\)，\n∴\\(\\angle DAM=\\angle B=60{}^\\circ\\)，\n∴\\(\\frac { BH } { AB }=\\frac { AM } { AD }={ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }60{}^\\circ =\\frac { 1 } { 2 }\\)， \\(\\frac { AH } { AB }=\\frac { DM } { AD }={ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\) ，\n∴\\(BH=AM=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 9=\\frac { 9 } { 2 }\\)，\\(AH=DM=\\frac { \\sqrt[] { 3 } } { 2 }AD=\\frac { \\sqrt[] { 3 } } { 2 }\\times 9=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)，\n∴\\(CH=\\frac { 1 } { 2 }BC=\\frac { 9 } { 2 }\\)，\n当点E在线段\\(AB\\)上，且\\(BE=6\\)，则\\(AE=AB-BE=9-6=3\\)，\n∴\\(EM=AE+AM=3+\\frac { 9 } { 2 }=\\frac { 15 } { 2 }\\)，\n∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 15 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=3\\sqrt[] { 13 }\\)，\n设\\(AF\\bot DE\\)于点G，则\\(\\angle AGD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 3\\sqrt[] { 13 }AG=\\frac { 1 } { 2 }\\times 3\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，\n∴\\(AG=\\frac { 9\\sqrt[] { 39 } } { 26 }\\)，\n∴\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 9\\sqrt[] { 39 } } { 26 } } \\right ) ^ { 2 } }=\\frac { 63\\sqrt[] { 13 } } { 26 }\\)，\n∵\\(\\angle HAD=\\angle AHB=90{}^\\circ\\)，\n∴\\(\\angle FAH=\\angle ADG=90{}^\\circ -\\angle DAF\\)，\n∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADG=\\frac { AG } { DG }=\\frac { \\frac { 9\\sqrt[] { 39 } } { 26 } } { \\frac { 63\\sqrt[] { 13 } } { 26 } }=\\frac { \\sqrt[] { 3 } } { 7 }\\)，\n∴\\(FH=\\frac { \\sqrt[] { 3 } } { 7 }AH=\\frac { \\sqrt[] { 3 } } { 7 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 27 } { 14 }\\)，\n∴\\(FC=CH-FH=\\frac { 9 } { 2 }-\\frac { 27 } { 14 }=\\frac { 18 } { 7 }\\)；\n如图4，点E在线段\\(AB\\)的延长线上，且\\(BE=6\\)，则\\(AE=AB+BE=9+6=15\\)，\n〔图4〕\n∴\\(EM=AE+AM=15+\\frac { 9 } { 2 }=\\frac { 39 } { 2 }\\)，\n∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 39 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=21\\)，\n设\\(AF\\bot DE\\)于点L，则\\(\\angle ALD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 21\\times AL=\\frac { 1 } { 2 }\\times 15\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，\n∴\\(AL=\\frac { 45\\sqrt[] { 3 } } { 14 }\\)，\n∴\\(DL=\\sqrt[] { AD ^ { 2 } -AL ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 45\\sqrt[] { 3 } } { 14 } } \\right ) ^ { 2 } }=\\frac { 99 } { 14 }\\)，\n∵\\(\\angle FAH=\\angle ADL=90{}^\\circ -\\angle DAF\\)，\n∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADL=\\frac { AL } { DL }=\\frac { \\frac { 45\\sqrt[] { 3 } } { 14 } } { \\frac { 99 } { 14 } }=\\frac { 5\\sqrt[] { 3 } } { 11 }\\)，\n∴\\(FH=\\frac { 5\\sqrt[] { 3 } } { 11 }AH＝\\frac { 5\\sqrt[] { 3 } } { 11 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 135 } { 22 }\\)，\n∴\\(FC=FH-CH=\\frac { 135 } { 22 }-\\frac { 9 } { 2 }=\\frac { 18 } { 11 }\\)，\n综上所述，线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)．",
+      "solution_steps": [
+        "线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)，理由如下：",
+        "如图3，作\\(AH\\bot BC\\)于点M，\\(DM\\bot BA\\)交\\(BA\\)的延长线于点M，则\\(\\angle AHB=\\angle AHF=\\angle M=90{}^\\circ\\)，",
+        "〔图3〕",
+        "∵四边形\\(ABCD\\)是菱形，\\(\\angle ABC=60{}^\\circ\\)，\\(AB=9\\)，",
+        "∴\\(AD=BC=AB=9\\)，\\(AD\\parallel BC\\)，",
+        "∴\\(\\angle DAM=\\angle B=60{}^\\circ\\)，",
+        "∴\\(\\frac { BH } { AB }=\\frac { AM } { AD }={ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }60{}^\\circ =\\frac { 1 } { 2 }\\)， \\(\\frac { AH } { AB }=\\frac { DM } { AD }={ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\) ，",
+        "∴\\(BH=AM=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }BC=\\frac { 1 } { 2 }\\times 9=\\frac { 9 } { 2 }\\)，\\(AH=DM=\\frac { \\sqrt[] { 3 } } { 2 }AD=\\frac { \\sqrt[] { 3 } } { 2 }\\times 9=\\frac { 9\\sqrt[] { 3 } } { 2 }\\)，",
+        "∴\\(CH=\\frac { 1 } { 2 }BC=\\frac { 9 } { 2 }\\)，",
+        "当点E在线段\\(AB\\)上，且\\(BE=6\\)，则\\(AE=AB-BE=9-6=3\\)，",
+        "∴\\(EM=AE+AM=3+\\frac { 9 } { 2 }=\\frac { 15 } { 2 }\\)，",
+        "∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 15 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=3\\sqrt[] { 13 }\\)，",
+        "设\\(AF\\bot DE\\)于点G，则\\(\\angle AGD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 3\\sqrt[] { 13 }AG=\\frac { 1 } { 2 }\\times 3\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，",
+        "∴\\(AG=\\frac { 9\\sqrt[] { 39 } } { 26 }\\)，",
+        "∴\\(DG=\\sqrt[] { AD ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 9\\sqrt[] { 39 } } { 26 } } \\right ) ^ { 2 } }=\\frac { 63\\sqrt[] { 13 } } { 26 }\\)，",
+        "∵\\(\\angle HAD=\\angle AHB=90{}^\\circ\\)，",
+        "∴\\(\\angle FAH=\\angle ADG=90{}^\\circ -\\angle DAF\\)，",
+        "∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADG=\\frac { AG } { DG }=\\frac { \\frac { 9\\sqrt[] { 39 } } { 26 } } { \\frac { 63\\sqrt[] { 13 } } { 26 } }=\\frac { \\sqrt[] { 3 } } { 7 }\\)，",
+        "∴\\(FH=\\frac { \\sqrt[] { 3 } } { 7 }AH=\\frac { \\sqrt[] { 3 } } { 7 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 27 } { 14 }\\)，",
+        "∴\\(FC=CH-FH=\\frac { 9 } { 2 }-\\frac { 27 } { 14 }=\\frac { 18 } { 7 }\\)；",
+        "如图4，点E在线段\\(AB\\)的延长线上，且\\(BE=6\\)，则\\(AE=AB+BE=9+6=15\\)，",
+        "〔图4〕",
+        "∴\\(EM=AE+AM=15+\\frac { 9 } { 2 }=\\frac { 39 } { 2 }\\)，",
+        "∴\\(DE=\\sqrt[] { EM ^ { 2 } +DM ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 39 } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { 9\\sqrt[] { 3 } } { 2 } } \\right ) ^ { 2 } }=21\\)，",
+        "设\\(AF\\bot DE\\)于点L，则\\(\\angle ALD=90{}^\\circ\\)，\\(\\frac { 1 } { 2 }\\times 21\\times AL=\\frac { 1 } { 2 }\\times 15\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=S_{ \\vartriangle ADE }\\)，",
+        "∴\\(AL=\\frac { 45\\sqrt[] { 3 } } { 14 }\\)，",
+        "∴\\(DL=\\sqrt[] { AD ^ { 2 } -AL ^ { 2 } }=\\sqrt[] { 9 ^ { 2 } -\\left ( { \\frac { 45\\sqrt[] { 3 } } { 14 } } \\right ) ^ { 2 } }=\\frac { 99 } { 14 }\\)，",
+        "∵\\(\\angle FAH=\\angle ADL=90{}^\\circ -\\angle DAF\\)，",
+        "∴\\(\\frac { FH } { AH }={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle FAH={ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle ADL=\\frac { AL } { DL }=\\frac { \\frac { 45\\sqrt[] { 3 } } { 14 } } { \\frac { 99 } { 14 } }=\\frac { 5\\sqrt[] { 3 } } { 11 }\\)，",
+        "∴\\(FH=\\frac { 5\\sqrt[] { 3 } } { 11 }AH＝\\frac { 5\\sqrt[] { 3 } } { 11 }\\times \\frac { 9\\sqrt[] { 3 } } { 2 }=\\frac { 135 } { 22 }\\)，",
+        "∴\\(FC=FH-CH=\\frac { 135 } { 22 }-\\frac { 9 } { 2 }=\\frac { 18 } { 11 }\\)，",
+        "综上所述，线段\\(FC\\)的长为\\(\\frac { 18 } { 7 }\\)或\\(\\frac { 18 } { 11 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          25,
+          26,
+          27
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      73
+    ],
+    "solution_body_blocks": [
+      397,
+      470
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-CFB395958E/paper-q22-p06.webp",
+      "assets/SZ-G9-T2-CFB395958E/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          596.36,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          139.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-CFB395958E/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-CFB395958E/solution-q22-p24.webp",
+      "assets/SZ-G9-T2-CFB395958E/solution-q22-p25.webp",
+      "assets/SZ-G9-T2-CFB395958E/solution-q22-p26.webp",
+      "assets/SZ-G9-T2-CFB395958E/solution-q22-p27.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          210.45,
+          583.64,
+          740.91
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          306.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

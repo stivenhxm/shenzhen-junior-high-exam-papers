@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q11",{"answer":"\\((6,8)\\)","solution_steps":["顶点式 \\(y=a(x-h)^2+k\\) 的顶点为 \\((h,k)\\)，这里 \\(h=6,\\ k=8\\)。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

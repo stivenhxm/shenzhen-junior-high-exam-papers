@@ -1,0 +1,412 @@
+{
+  "id": "SZ-G9-T1-265A44EF19-Q22",
+  "paper_id": "SZ-G9-T1-265A44EF19",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、由勾股关系求直角三角形边长",
+  "stem": "如图，在直角坐标系中，直线BC经过点B(﹣4，0)和点C(0，3)，A点坐标为(3，0)，点P为直线BC上一点，连接AC、AP．\n（1）求直线BC的解析式；\n（2）如图，当点P在线段BC上，∠APC＝45°时，求P点坐标；\n（3）点P在直线BC上移动，当△APB与△BOC相似时，求点P的坐标．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-265A44EF19/figures/2d35e5528530243427abf41a3bec9d5d6d88fd8856d6d26b26d093d111efe58a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=\\frac { 3 } { 4 }x+3\\)；（2）\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；（3）\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)",
+  "answer": "（1）\\(y=\\frac { 3 } { 4 }x+3\\)；（2）\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；（3）\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)",
+  "given_solution": "【分析】（1）用待定系数法求解即可；\n（2）当点\\(P\\)在线段\\(BC\\)上时，得出\\(\\vartriangle CAP\\backsim \\vartriangle CBA\\)，进而得出\\(\\frac { CA } { CB }=\\frac { CP } { CA }=\\frac { AP } { BA }\\)，设\\(P(m,\\frac { 3 } { 4 }m+3)\\),可得\\(CP=\\frac { 18 } { 5 }\\)，在\\(Rt\\vartriangle PQC\\)中，\\(CP ^ { 2 } =PQ ^ { 2 } +CQ ^ { 2 }\\)，代入求解舍去正值即可求解；\n（3）分两种情况进行解答：①当\\(\\angle APB=90{}^\\circ\\)，②当\\(\\angle PAB=90{}^\\circ\\)，分别求出点P的坐标即可．\n【详解】解：（1）设直线\\(BC\\)的解析式为：\\(y=ax+b\\)，\n∵直线BC经过点B(﹣4，0)和点C(0，3)，\n∴\\(\\begin{cases} 0=-4a+b \\\\ 3=b \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=3 \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为：\\(y=\\frac { 3 } { 4 }x+3\\)；\n（2）当点P在线段BC上，\n∵C(0，3)，A(3，0)，\n∴\\(OA=OC\\)，\\(\\vartriangle AOC\\)为等腰直角三角形，\n∴\\(\\angle OCA=\\angle OAP+\\angle PAC=45{}^\\circ\\)，\n又∵\\(\\angle APC=\\angle OAP+\\angle PBO=45{}^\\circ\\)，\n∴\\(\\angle PAC=\\angle PBO\\)，\n∴\\(\\vartriangle CAP\\backsim \\vartriangle CBA\\)，\n∴\\(\\frac { CA } { CB }=\\frac { CP } { CA }=\\frac { AP } { BA }\\)，\n设\\(P(m,\\frac { 3 } { 4 }m+3)\\)，\n∴\\(\\frac { 3\\sqrt[] { { \\rm{ 2 } } } } { 5 }=\\frac { CP } { 3\\sqrt[] { { \\rm{ 2 } } } }=\\frac { AP } { 7 }\\)，\n∴\\(CP=\\frac { 18 } { 5 }\\)，\n过点\\(P\\)作\\(PQ\\bot y\\)轴于点\\(Q\\)，\n〔图2〕\n在\\(Rt\\vartriangle PQC\\)中，\\(CP ^ { 2 } =PQ ^ { 2 } +CQ ^ { 2 }\\)，\n即\\((\\frac { 18 } { 5 }) ^ { 2 } =m ^ { 2 } +(\\frac { 3 } { 4 }m) ^ { 2 }\\)，\n∴\\(m=\\pm \\frac { 72 } { 25 }\\)(舍去正值)，\n∴\\(m=-\\frac { 72 } { 25 }\\)，\n此时\\(\\frac { 3 } { 4 }m+3=\\frac { 21 } { 25 }\\)，\n∴\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；\n（3）过点\\(A\\)作\\(AP'\\bot BC\\)交\\(BC\\)延长线于点\\(P'\\)，\n〔图3〕\n∵\\(\\angle AP'B=\\angle COB=90{}^\\circ\\)，\\(\\angle ABP'=\\angle CBO\\)，\n∴\\(\\vartriangle AP'B\\backsim \\vartriangle COB\\)，\n过点\\(P'\\)作\\(P'D\\bot x\\)轴于点\\(D\\)，\n∵B(﹣4，0)，C(0，3)，A(3，0)，\n∴\\(OB=4\\)，\\(OC=3\\)，\\(AB=7\\)，\n∴\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=5\\)，\n∴\\(\\frac { BC } { BA }=\\frac { BO } { BP' }\\)，即\\(\\frac { 5 } { 7 }=\\frac { 4 } { BP' }\\)，\n∴\\(BP'=\\frac { 28 } { 5 }\\)，\n∵\\(CO\\parallel P'D\\)，\n∴\\(\\frac { BC } { BP' }=\\frac { BO } { BD }\\)，即\\(\\frac { 5 } { \\frac { 28 } { 5 } }=\\frac { 4 } { BD }\\)，\n∴\\(BD=\\frac { 112 } { 25 }\\)，\n∴\\(OD=BD-OB=\\frac { 112 } { 25 }-4=\\frac { 12 } { 25 }\\)，\n∴\\(y=\\frac { 3 } { 4 }x+3=\\frac { 3 } { 4 }\\times \\frac { 12 } { 25 }+3=\\frac { 84 } { 25 }\\)，\n∴\\(P'(\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)；\n过点\\(A\\)作\\(AP''\\bot AB\\)交直线\\(BC\\)于点\\(P''\\)，\n∵\\(CO\\parallel P''A\\)，\n∴\\(\\vartriangle BOC\\backsim \\vartriangle BAP''\\)，\n∴\\(\\frac { CO } { P''A }=\\frac { BO } { BA }\\)，\n即\\(\\frac { 3 } { P''A }=\\frac { 4 } { 7 }\\)，\n∴\\(P''A=\\frac { 21 } { 4 }\\)，\n∴\\(\\frac { 21 } { 4 }=\\frac { 3 } { 4 }x+3\\)，\n解得\\(x=3\\)，\n∴\\(P''(3,\\frac { 21 } { 4 })\\)，\n综上：当点\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)时，△APB与△BOC相似．\n【点睛】本题考查了待定系数法求一次函数解析式，相似三角形的判定与性质，勾股定理等知识点，熟练掌握相似三角形的判定定理以及性质定理是解本题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-265A44EF19/figures/2d35e5528530243427abf41a3bec9d5d6d88fd8856d6d26b26d093d111efe58a.png",
+    "assets/SZ-G9-T1-265A44EF19/figures/2771e5d04e9b7e93570b87584ced14ef74668a2383d6302fecc6e39472e6c0f9.png",
+    "assets/SZ-G9-T1-265A44EF19/figures/caa121b8e8bb5aa0a41d6bf5104d24f88516945258d558fa544aafbd4caf2901.png"
+  ],
+  "solution": "解：（1）设直线\\(BC\\)的解析式为：\\(y=ax+b\\)，\n∵直线BC经过点B(﹣4，0)和点C(0，3)，\n∴\\(\\begin{cases} 0=-4a+b \\\\ 3=b \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=3 \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为：\\(y=\\frac { 3 } { 4 }x+3\\)；\n（2）当点P在线段BC上，\n∵C(0，3)，A(3，0)，\n∴\\(OA=OC\\)，\\(\\vartriangle AOC\\)为等腰直角三角形，\n∴\\(\\angle OCA=\\angle OAP+\\angle PAC=45{}^\\circ\\)，\n又∵\\(\\angle APC=\\angle OAP+\\angle PBO=45{}^\\circ\\)，\n∴\\(\\angle PAC=\\angle PBO\\)，\n∴\\(\\vartriangle CAP\\backsim \\vartriangle CBA\\)，\n∴\\(\\frac { CA } { CB }=\\frac { CP } { CA }=\\frac { AP } { BA }\\)，\n设\\(P(m,\\frac { 3 } { 4 }m+3)\\)，\n∴\\(\\frac { 3\\sqrt[] { { \\rm{ 2 } } } } { 5 }=\\frac { CP } { 3\\sqrt[] { { \\rm{ 2 } } } }=\\frac { AP } { 7 }\\)，\n∴\\(CP=\\frac { 18 } { 5 }\\)，\n过点\\(P\\)作\\(PQ\\bot y\\)轴于点\\(Q\\)，\n〔图2〕\n在\\(Rt\\vartriangle PQC\\)中，\\(CP ^ { 2 } =PQ ^ { 2 } +CQ ^ { 2 }\\)，\n即\\((\\frac { 18 } { 5 }) ^ { 2 } =m ^ { 2 } +(\\frac { 3 } { 4 }m) ^ { 2 }\\)，\n∴\\(m=\\pm \\frac { 72 } { 25 }\\)(舍去正值)，\n∴\\(m=-\\frac { 72 } { 25 }\\)，\n此时\\(\\frac { 3 } { 4 }m+3=\\frac { 21 } { 25 }\\)，\n∴\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；\n（3）过点\\(A\\)作\\(AP'\\bot BC\\)交\\(BC\\)延长线于点\\(P'\\)，\n〔图3〕\n∵\\(\\angle AP'B=\\angle COB=90{}^\\circ\\)，\\(\\angle ABP'=\\angle CBO\\)，\n∴\\(\\vartriangle AP'B\\backsim \\vartriangle COB\\)，\n过点\\(P'\\)作\\(P'D\\bot x\\)轴于点\\(D\\)，\n∵B(﹣4，0)，C(0，3)，A(3，0)，\n∴\\(OB=4\\)，\\(OC=3\\)，\\(AB=7\\)，\n∴\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=5\\)，\n∴\\(\\frac { BC } { BA }=\\frac { BO } { BP' }\\)，即\\(\\frac { 5 } { 7 }=\\frac { 4 } { BP' }\\)，\n∴\\(BP'=\\frac { 28 } { 5 }\\)，\n∵\\(CO\\parallel P'D\\)，\n∴\\(\\frac { BC } { BP' }=\\frac { BO } { BD }\\)，即\\(\\frac { 5 } { \\frac { 28 } { 5 } }=\\frac { 4 } { BD }\\)，\n∴\\(BD=\\frac { 112 } { 25 }\\)，\n∴\\(OD=BD-OB=\\frac { 112 } { 25 }-4=\\frac { 12 } { 25 }\\)，\n∴\\(y=\\frac { 3 } { 4 }x+3=\\frac { 3 } { 4 }\\times \\frac { 12 } { 25 }+3=\\frac { 84 } { 25 }\\)，\n∴\\(P'(\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)；\n过点\\(A\\)作\\(AP''\\bot AB\\)交直线\\(BC\\)于点\\(P''\\)，\n∵\\(CO\\parallel P''A\\)，\n∴\\(\\vartriangle BOC\\backsim \\vartriangle BAP''\\)，\n∴\\(\\frac { CO } { P''A }=\\frac { BO } { BA }\\)，\n即\\(\\frac { 3 } { P''A }=\\frac { 4 } { 7 }\\)，\n∴\\(P''A=\\frac { 21 } { 4 }\\)，\n∴\\(\\frac { 21 } { 4 }=\\frac { 3 } { 4 }x+3\\)，\n解得\\(x=3\\)，\n∴\\(P''(3,\\frac { 21 } { 4 })\\)，\n综上：当点\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)时，△APB与△BOC相似．",
+  "solution_steps": [
+    "解：（1）设直线\\(BC\\)的解析式为：\\(y=ax+b\\)，",
+    "∵直线BC经过点B(﹣4，0)和点C(0，3)，",
+    "∴\\(\\begin{cases} 0=-4a+b \\\\ 3=b \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=3 \\end{cases}\\)，",
+    "∴直线\\(BC\\)的解析式为：\\(y=\\frac { 3 } { 4 }x+3\\)；",
+    "（2）当点P在线段BC上，",
+    "∵C(0，3)，A(3，0)，",
+    "∴\\(OA=OC\\)，\\(\\vartriangle AOC\\)为等腰直角三角形，",
+    "∴\\(\\angle OCA=\\angle OAP+\\angle PAC=45{}^\\circ\\)，",
+    "又∵\\(\\angle APC=\\angle OAP+\\angle PBO=45{}^\\circ\\)，",
+    "∴\\(\\angle PAC=\\angle PBO\\)，",
+    "∴\\(\\vartriangle CAP\\backsim \\vartriangle CBA\\)，",
+    "∴\\(\\frac { CA } { CB }=\\frac { CP } { CA }=\\frac { AP } { BA }\\)，",
+    "设\\(P(m,\\frac { 3 } { 4 }m+3)\\)，",
+    "∴\\(\\frac { 3\\sqrt[] { { \\rm{ 2 } } } } { 5 }=\\frac { CP } { 3\\sqrt[] { { \\rm{ 2 } } } }=\\frac { AP } { 7 }\\)，",
+    "∴\\(CP=\\frac { 18 } { 5 }\\)，",
+    "过点\\(P\\)作\\(PQ\\bot y\\)轴于点\\(Q\\)，",
+    "〔图2〕",
+    "在\\(Rt\\vartriangle PQC\\)中，\\(CP ^ { 2 } =PQ ^ { 2 } +CQ ^ { 2 }\\)，",
+    "即\\((\\frac { 18 } { 5 }) ^ { 2 } =m ^ { 2 } +(\\frac { 3 } { 4 }m) ^ { 2 }\\)，",
+    "∴\\(m=\\pm \\frac { 72 } { 25 }\\)(舍去正值)，",
+    "∴\\(m=-\\frac { 72 } { 25 }\\)，",
+    "此时\\(\\frac { 3 } { 4 }m+3=\\frac { 21 } { 25 }\\)，",
+    "∴\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；",
+    "（3）过点\\(A\\)作\\(AP'\\bot BC\\)交\\(BC\\)延长线于点\\(P'\\)，",
+    "〔图3〕",
+    "∵\\(\\angle AP'B=\\angle COB=90{}^\\circ\\)，\\(\\angle ABP'=\\angle CBO\\)，",
+    "∴\\(\\vartriangle AP'B\\backsim \\vartriangle COB\\)，",
+    "过点\\(P'\\)作\\(P'D\\bot x\\)轴于点\\(D\\)，",
+    "∵B(﹣4，0)，C(0，3)，A(3，0)，",
+    "∴\\(OB=4\\)，\\(OC=3\\)，\\(AB=7\\)，",
+    "∴\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=5\\)，",
+    "∴\\(\\frac { BC } { BA }=\\frac { BO } { BP' }\\)，即\\(\\frac { 5 } { 7 }=\\frac { 4 } { BP' }\\)，",
+    "∴\\(BP'=\\frac { 28 } { 5 }\\)，",
+    "∵\\(CO\\parallel P'D\\)，",
+    "∴\\(\\frac { BC } { BP' }=\\frac { BO } { BD }\\)，即\\(\\frac { 5 } { \\frac { 28 } { 5 } }=\\frac { 4 } { BD }\\)，",
+    "∴\\(BD=\\frac { 112 } { 25 }\\)，",
+    "∴\\(OD=BD-OB=\\frac { 112 } { 25 }-4=\\frac { 12 } { 25 }\\)，",
+    "∴\\(y=\\frac { 3 } { 4 }x+3=\\frac { 3 } { 4 }\\times \\frac { 12 } { 25 }+3=\\frac { 84 } { 25 }\\)，",
+    "∴\\(P'(\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)；",
+    "过点\\(A\\)作\\(AP''\\bot AB\\)交直线\\(BC\\)于点\\(P''\\)，",
+    "∵\\(CO\\parallel P''A\\)，",
+    "∴\\(\\vartriangle BOC\\backsim \\vartriangle BAP''\\)，",
+    "∴\\(\\frac { CO } { P''A }=\\frac { BO } { BA }\\)，",
+    "即\\(\\frac { 3 } { P''A }=\\frac { 4 } { 7 }\\)，",
+    "∴\\(P''A=\\frac { 21 } { 4 }\\)，",
+    "∴\\(\\frac { 21 } { 4 }=\\frac { 3 } { 4 }x+3\\)，",
+    "解得\\(x=3\\)，",
+    "∴\\(P''(3,\\frac { 21 } { 4 })\\)，",
+    "综上：当点\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)时，△APB与△BOC相似．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在直角坐标系中，直线BC经过点B(﹣4，0)和点C(0，3)，A点坐标为(3，0)，点P为直线BC上一点，连接AC、AP．",
+      "paper_blocks": [
+        70
+      ]
+    },
+    {
+      "id": "fig-74",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        74
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-265A44EF19-Q22-P01",
+      "label": "（1）",
+      "prompt": "求直线BC的解析式；",
+      "stem_text": "求直线BC的解析式；",
+      "material_ids": [
+        "context",
+        "fig-74"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=\\frac { 3 } { 4 }x+3\\)；",
+      "answer": "\\(y=\\frac { 3 } { 4 }x+3\\)；",
+      "given_solution": "设直线\\(BC\\)的解析式为：\\(y=ax+b\\)，\n∵直线BC经过点B(﹣4，0)和点C(0，3)，\n∴\\(\\begin{cases} 0=-4a+b \\\\ 3=b \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=3 \\end{cases}\\)，\n∴直线\\(BC\\)的解析式为：\\(y=\\frac { 3 } { 4 }x+3\\)；",
+      "solution_steps": [
+        "设直线\\(BC\\)的解析式为：\\(y=ax+b\\)，",
+        "∵直线BC经过点B(﹣4，0)和点C(0，3)，",
+        "∴\\(\\begin{cases} 0=-4a+b \\\\ 3=b \\end{cases}\\)，解得\\(\\begin{cases} k=\\frac { 3 } { 4 } \\\\ b=3 \\end{cases}\\)，",
+        "∴直线\\(BC\\)的解析式为：\\(y=\\frac { 3 } { 4 }x+3\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          70,
+          71,
+          74
+        ],
+        "solution_block_ids": [
+          428,
+          429,
+          430,
+          431
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-265A44EF19-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图，当点P在线段BC上，∠APC＝45°时，求P点坐标；",
+      "stem_text": "如图，当点P在线段BC上，∠APC＝45°时，求P点坐标；",
+      "material_ids": [
+        "context",
+        "fig-74"
+      ],
+      "requires": [],
+      "given_answer": "\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；",
+      "answer": "\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；",
+      "given_solution": "当点P在线段BC上，\n∵C(0，3)，A(3，0)，\n∴\\(OA=OC\\)，\\(\\vartriangle AOC\\)为等腰直角三角形，\n∴\\(\\angle OCA=\\angle OAP+\\angle PAC=45{}^\\circ\\)，\n又∵\\(\\angle APC=\\angle OAP+\\angle PBO=45{}^\\circ\\)，\n∴\\(\\angle PAC=\\angle PBO\\)，\n∴\\(\\vartriangle CAP\\backsim \\vartriangle CBA\\)，\n∴\\(\\frac { CA } { CB }=\\frac { CP } { CA }=\\frac { AP } { BA }\\)，\n设\\(P(m,\\frac { 3 } { 4 }m+3)\\)，\n∴\\(\\frac { 3\\sqrt[] { { \\rm{ 2 } } } } { 5 }=\\frac { CP } { 3\\sqrt[] { { \\rm{ 2 } } } }=\\frac { AP } { 7 }\\)，\n∴\\(CP=\\frac { 18 } { 5 }\\)，\n过点\\(P\\)作\\(PQ\\bot y\\)轴于点\\(Q\\)，\n〔图2〕\n在\\(Rt\\vartriangle PQC\\)中，\\(CP ^ { 2 } =PQ ^ { 2 } +CQ ^ { 2 }\\)，\n即\\((\\frac { 18 } { 5 }) ^ { 2 } =m ^ { 2 } +(\\frac { 3 } { 4 }m) ^ { 2 }\\)，\n∴\\(m=\\pm \\frac { 72 } { 25 }\\)(舍去正值)，\n∴\\(m=-\\frac { 72 } { 25 }\\)，\n此时\\(\\frac { 3 } { 4 }m+3=\\frac { 21 } { 25 }\\)，\n∴\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；",
+      "solution_steps": [
+        "当点P在线段BC上，",
+        "∵C(0，3)，A(3，0)，",
+        "∴\\(OA=OC\\)，\\(\\vartriangle AOC\\)为等腰直角三角形，",
+        "∴\\(\\angle OCA=\\angle OAP+\\angle PAC=45{}^\\circ\\)，",
+        "又∵\\(\\angle APC=\\angle OAP+\\angle PBO=45{}^\\circ\\)，",
+        "∴\\(\\angle PAC=\\angle PBO\\)，",
+        "∴\\(\\vartriangle CAP\\backsim \\vartriangle CBA\\)，",
+        "∴\\(\\frac { CA } { CB }=\\frac { CP } { CA }=\\frac { AP } { BA }\\)，",
+        "设\\(P(m,\\frac { 3 } { 4 }m+3)\\)，",
+        "∴\\(\\frac { 3\\sqrt[] { { \\rm{ 2 } } } } { 5 }=\\frac { CP } { 3\\sqrt[] { { \\rm{ 2 } } } }=\\frac { AP } { 7 }\\)，",
+        "∴\\(CP=\\frac { 18 } { 5 }\\)，",
+        "过点\\(P\\)作\\(PQ\\bot y\\)轴于点\\(Q\\)，",
+        "〔图2〕",
+        "在\\(Rt\\vartriangle PQC\\)中，\\(CP ^ { 2 } =PQ ^ { 2 } +CQ ^ { 2 }\\)，",
+        "即\\((\\frac { 18 } { 5 }) ^ { 2 } =m ^ { 2 } +(\\frac { 3 } { 4 }m) ^ { 2 }\\)，",
+        "∴\\(m=\\pm \\frac { 72 } { 25 }\\)(舍去正值)，",
+        "∴\\(m=-\\frac { 72 } { 25 }\\)，",
+        "此时\\(\\frac { 3 } { 4 }m+3=\\frac { 21 } { 25 }\\)，",
+        "∴\\(P(-\\frac { 72 } { 25 },\\frac { 21 } { 25 })\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-265A44EF19-Q22-P03",
+      "label": "（3）",
+      "prompt": "点P在直线BC上移动，当△APB与△BOC相似时，求点P的坐标．",
+      "stem_text": "点P在直线BC上移动，当△APB与△BOC相似时，求点P的坐标．",
+      "material_ids": [
+        "context",
+        "fig-74"
+      ],
+      "requires": [],
+      "given_answer": "\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)",
+      "answer": "\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)",
+      "given_solution": "过点\\(A\\)作\\(AP'\\bot BC\\)交\\(BC\\)延长线于点\\(P'\\)，\n〔图3〕\n∵\\(\\angle AP'B=\\angle COB=90{}^\\circ\\)，\\(\\angle ABP'=\\angle CBO\\)，\n∴\\(\\vartriangle AP'B\\backsim \\vartriangle COB\\)，\n过点\\(P'\\)作\\(P'D\\bot x\\)轴于点\\(D\\)，\n∵B(﹣4，0)，C(0，3)，A(3，0)，\n∴\\(OB=4\\)，\\(OC=3\\)，\\(AB=7\\)，\n∴\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=5\\)，\n∴\\(\\frac { BC } { BA }=\\frac { BO } { BP' }\\)，即\\(\\frac { 5 } { 7 }=\\frac { 4 } { BP' }\\)，\n∴\\(BP'=\\frac { 28 } { 5 }\\)，\n∵\\(CO\\parallel P'D\\)，\n∴\\(\\frac { BC } { BP' }=\\frac { BO } { BD }\\)，即\\(\\frac { 5 } { \\frac { 28 } { 5 } }=\\frac { 4 } { BD }\\)，\n∴\\(BD=\\frac { 112 } { 25 }\\)，\n∴\\(OD=BD-OB=\\frac { 112 } { 25 }-4=\\frac { 12 } { 25 }\\)，\n∴\\(y=\\frac { 3 } { 4 }x+3=\\frac { 3 } { 4 }\\times \\frac { 12 } { 25 }+3=\\frac { 84 } { 25 }\\)，\n∴\\(P'(\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)；\n过点\\(A\\)作\\(AP''\\bot AB\\)交直线\\(BC\\)于点\\(P''\\)，\n∵\\(CO\\parallel P''A\\)，\n∴\\(\\vartriangle BOC\\backsim \\vartriangle BAP''\\)，\n∴\\(\\frac { CO } { P''A }=\\frac { BO } { BA }\\)，\n即\\(\\frac { 3 } { P''A }=\\frac { 4 } { 7 }\\)，\n∴\\(P''A=\\frac { 21 } { 4 }\\)，\n∴\\(\\frac { 21 } { 4 }=\\frac { 3 } { 4 }x+3\\)，\n解得\\(x=3\\)，\n∴\\(P''(3,\\frac { 21 } { 4 })\\)，\n综上：当点\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)时，△APB与△BOC相似．",
+      "solution_steps": [
+        "过点\\(A\\)作\\(AP'\\bot BC\\)交\\(BC\\)延长线于点\\(P'\\)，",
+        "〔图3〕",
+        "∵\\(\\angle AP'B=\\angle COB=90{}^\\circ\\)，\\(\\angle ABP'=\\angle CBO\\)，",
+        "∴\\(\\vartriangle AP'B\\backsim \\vartriangle COB\\)，",
+        "过点\\(P'\\)作\\(P'D\\bot x\\)轴于点\\(D\\)，",
+        "∵B(﹣4，0)，C(0，3)，A(3，0)，",
+        "∴\\(OB=4\\)，\\(OC=3\\)，\\(AB=7\\)，",
+        "∴\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=5\\)，",
+        "∴\\(\\frac { BC } { BA }=\\frac { BO } { BP' }\\)，即\\(\\frac { 5 } { 7 }=\\frac { 4 } { BP' }\\)，",
+        "∴\\(BP'=\\frac { 28 } { 5 }\\)，",
+        "∵\\(CO\\parallel P'D\\)，",
+        "∴\\(\\frac { BC } { BP' }=\\frac { BO } { BD }\\)，即\\(\\frac { 5 } { \\frac { 28 } { 5 } }=\\frac { 4 } { BD }\\)，",
+        "∴\\(BD=\\frac { 112 } { 25 }\\)，",
+        "∴\\(OD=BD-OB=\\frac { 112 } { 25 }-4=\\frac { 12 } { 25 }\\)，",
+        "∴\\(y=\\frac { 3 } { 4 }x+3=\\frac { 3 } { 4 }\\times \\frac { 12 } { 25 }+3=\\frac { 84 } { 25 }\\)，",
+        "∴\\(P'(\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)；",
+        "过点\\(A\\)作\\(AP''\\bot AB\\)交直线\\(BC\\)于点\\(P''\\)，",
+        "∵\\(CO\\parallel P''A\\)，",
+        "∴\\(\\vartriangle BOC\\backsim \\vartriangle BAP''\\)，",
+        "∴\\(\\frac { CO } { P''A }=\\frac { BO } { BA }\\)，",
+        "即\\(\\frac { 3 } { P''A }=\\frac { 4 } { 7 }\\)，",
+        "∴\\(P''A=\\frac { 21 } { 4 }\\)，",
+        "∴\\(\\frac { 21 } { 4 }=\\frac { 3 } { 4 }x+3\\)，",
+        "解得\\(x=3\\)，",
+        "∴\\(P''(3,\\frac { 21 } { 4 })\\)，",
+        "综上：当点\\(P\\)的坐标为\\((\\frac { 12 } { 25 },\\frac { 84 } { 25 })\\)或\\((3,\\frac { 21 } { 4 })\\)时，△APB与△BOC相似．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          70,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      70,
+      74
+    ],
+    "solution_body_blocks": [
+      418,
+      477
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-265A44EF19/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          268.64,
+          583.64,
+          487.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-265A44EF19/solution-q22-p23.webp",
+      "assets/SZ-G9-T1-265A44EF19/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-265A44EF19/solution-q22-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          280.45,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          673.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.G04.04",
+    "M.G08.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的式子结构和所求量对应“由两点或表格条件确定一次表达式”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“相似图形及三角形判定”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

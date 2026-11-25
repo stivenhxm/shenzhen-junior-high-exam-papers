@@ -1,0 +1,213 @@
+{
+  "knowledge_ids": [
+    "M.N06.04",
+    "M.N11.04"
+  ],
+  "exam_ids": [
+    "E.N06.04.01",
+    "E.N11.04.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由总量与部分量关系建立一次模型”。 题面对应“在限定范围内求一次函数最优方案”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-0E960359F5-Q20",
+  "number": 20,
+  "paper_id": "SZ-G9-T2-0E960359F5",
+  "title": "由总量与部分量关系建立一次模型、在限定范围内求一次函数最优方案",
+  "stem": "2024年春节假日期间，33万余名游客欢聚云台山，新春喜乐会年味足．焦作某知名小吃店计划购买A，B两种食材制作小吃，宾飨游客．已知购买1千克A种食材和2千克B种食材共需49元，购买2千克A种食材和1千克B种食材共需53元．\n(1)求A，B两种食材的单价；\n(2)该小吃店计划购买两种食材共48千克，其中购买A种食材千克数不少于B种食材千克数的3倍，当A，B两种食材分别购买多少千克时，总费用最少？并求出最少总费用．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "2024年春节假日期间，33万余名游客欢聚云台山，新春喜乐会年味足．焦作某知名小吃店计划购买A，B两种食材制作小吃，宾飨游客．已知购买1千克A种食材和2千克B种食材共需49元，购买2千克A种食材和1千克B种食材共需53元．",
+      "paper_blocks": [
+        860
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-0E960359F5-Q20-P01",
+      "label": "(1)",
+      "prompt": "求A，B两种食材的单价；",
+      "stem_text": "求A，B两种食材的单价；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "A种食材的单价是每千克19元，B种食材的单价是每千克15元",
+      "answer": "A种食材的单价是每千克19元，B种食材的单价是每千克15元",
+      "given_solution": "解：设A种食材的单价为\\(x\\)元/千克，B种食材的单价为\\(y\\)元/千克．\n根据题意，得\\(\\begin{cases} x+2y=49, \\\\ 2x+y=53, \\end{cases}\\)\n解得\\(\\begin{cases} x=19, \\\\ y=15． \\end{cases}\\)\n\\(\\therefore\\)A种食材的单价是每千克19元，B种食材的单价是每千克15元．",
+      "solution_steps": [
+        "解：设A种食材的单价为\\(x\\)元/千克，B种食材的单价为\\(y\\)元/千克．",
+        "根据题意，得\\(\\begin{cases} x+2y=49, \\\\ 2x+y=53, \\end{cases}\\)",
+        "解得\\(\\begin{cases} x=19, \\\\ y=15． \\end{cases}\\)",
+        "\\(\\therefore\\)A种食材的单价是每千克19元，B种食材的单价是每千克15元．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          860,
+          870
+        ],
+        "solution_block_ids": [
+          3460,
+          3470,
+          3480,
+          3490
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由总量与部分量关系建立一次模型”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-0E960359F5-Q20-P02",
+      "label": "(2)",
+      "prompt": "该小吃店计划购买两种食材共48千克，其中购买A种食材千克数不少于B种食材千克数的3倍，当A，B两种食材分别购买多少千克时，总费用最少？并求出最少总费用．",
+      "stem_text": "该小吃店计划购买两种食材共48千克，其中购买A种食材千克数不少于B种食材千克数的3倍，当A，B两种食材分别购买多少千克时，总费用最少？并求出最少总费用．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+      "answer": "A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+      "given_solution": "解：设A种食材购买\\(m\\)千克，则B种食材购买\\(\\left ( { 48-m } \\right )\\)千克，总费用为\\(w\\)元．\n根据题意，得\\(w=19m+15\\left ( { 48-m } \\right )=4m+720\\)．\n\\(\\because m\\ge 3\\left ( { 48-m } \\right )\\)，\n\\(\\therefore m\\ge 36\\)．\n\\(\\because k=4>0\\)，\n\\(\\therefore w\\)随\\(m\\)的增大而增大．\n\\(\\therefore\\)当\\(m=36\\)时，\\(w\\)有最小值为：\\(4\\times 36+720=864\\)（元）．\n\\(\\therefore\\)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+      "solution_steps": [
+        "解：设A种食材购买\\(m\\)千克，则B种食材购买\\(\\left ( { 48-m } \\right )\\)千克，总费用为\\(w\\)元．",
+        "根据题意，得\\(w=19m+15\\left ( { 48-m } \\right )=4m+720\\)．",
+        "\\(\\because m\\ge 3\\left ( { 48-m } \\right )\\)，",
+        "\\(\\therefore m\\ge 36\\)．",
+        "\\(\\because k=4>0\\)，",
+        "\\(\\therefore w\\)随\\(m\\)的增大而增大．",
+        "\\(\\therefore\\)当\\(m=36\\)时，\\(w\\)有最小值为：\\(4\\times 36+720=864\\)（元）．",
+        "\\(\\therefore\\)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          860,
+          880
+        ],
+        "solution_block_ids": [
+          3500,
+          3510,
+          3520,
+          3530,
+          3540,
+          3550,
+          3560,
+          3570
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.04"
+      ],
+      "exam_ids": [
+        "E.N11.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "题面对应“在限定范围内求一次函数最优方案”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [],
+  "tables": [],
+  "answer": "(1)A种食材的单价是每千克19元，B种食材的单价是每千克15元\n(2)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+  "given_answer": "(1)A种食材的单价是每千克19元，B种食材的单价是每千克15元\n(2)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+  "given_solution": "【分析】本题考查了二元一次方程组的应用，一次函数的应用，正确掌握相关性质内容是解题的关键．\n（1）设A种食材的单价为\\(x\\)元/千克，B种食材的单价为\\(y\\)元/千克．根据题意列出方程组，并解出方程组的解，即可作答．\n（2）设A种食材购买\\(m\\)千克，则B种食材购买\\(\\left ( { 48-m } \\right )\\)千克，总费用为\\(w\\)元，依题意，得\\(w=4m+720\\)，根据“购买A种食材千克数不少于B种食材千克数的3倍，”得\\(m\\ge 3\\left ( { 48-m } \\right )\\)，即可作答．\n【详解】（1）解：设A种食材的单价为\\(x\\)元/千克，B种食材的单价为\\(y\\)元/千克．\n根据题意，得\\(\\begin{cases} x+2y=49, \\\\ 2x+y=53, \\end{cases}\\)\n解得\\(\\begin{cases} x=19, \\\\ y=15． \\end{cases}\\)\n\\(\\therefore\\)A种食材的单价是每千克19元，B种食材的单价是每千克15元．\n（2）解：设A种食材购买\\(m\\)千克，则B种食材购买\\(\\left ( { 48-m } \\right )\\)千克，总费用为\\(w\\)元．\n根据题意，得\\(w=19m+15\\left ( { 48-m } \\right )=4m+720\\)．\n\\(\\because m\\ge 3\\left ( { 48-m } \\right )\\)，\n\\(\\therefore m\\ge 36\\)．\n\\(\\because k=4>0\\)，\n\\(\\therefore w\\)随\\(m\\)的增大而增大．\n\\(\\therefore\\)当\\(m=36\\)时，\\(w\\)有最小值为：\\(4\\times 36+720=864\\)（元）．\n\\(\\therefore\\)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "（1）解：设A种食材的单价为\\(x\\)元/千克，B种食材的单价为\\(y\\)元/千克．",
+    "根据题意，得\\(\\begin{cases} x+2y=49, \\\\ 2x+y=53, \\end{cases}\\)",
+    "解得\\(\\begin{cases} x=19, \\\\ y=15． \\end{cases}\\)",
+    "\\(\\therefore\\)A种食材的单价是每千克19元，B种食材的单价是每千克15元．",
+    "（2）解：设A种食材购买\\(m\\)千克，则B种食材购买\\(\\left ( { 48-m } \\right )\\)千克，总费用为\\(w\\)元．",
+    "根据题意，得\\(w=19m+15\\left ( { 48-m } \\right )=4m+720\\)．",
+    "\\(\\because m\\ge 3\\left ( { 48-m } \\right )\\)，",
+    "\\(\\therefore m\\ge 36\\)．",
+    "\\(\\because k=4>0\\)，",
+    "\\(\\therefore w\\)随\\(m\\)的增大而增大．",
+    "\\(\\therefore\\)当\\(m=36\\)时，\\(w\\)有最小值为：\\(4\\times 36+720=864\\)（元）．",
+    "\\(\\therefore\\)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）解：设A种食材的单价为\\(x\\)元/千克，B种食材的单价为\\(y\\)元/千克．\n根据题意，得\\(\\begin{cases} x+2y=49, \\\\ 2x+y=53, \\end{cases}\\)\n解得\\(\\begin{cases} x=19, \\\\ y=15． \\end{cases}\\)\n\\(\\therefore\\)A种食材的单价是每千克19元，B种食材的单价是每千克15元．\n（2）解：设A种食材购买\\(m\\)千克，则B种食材购买\\(\\left ( { 48-m } \\right )\\)千克，总费用为\\(w\\)元．\n根据题意，得\\(w=19m+15\\left ( { 48-m } \\right )=4m+720\\)．\n\\(\\because m\\ge 3\\left ( { 48-m } \\right )\\)，\n\\(\\therefore m\\ge 36\\)．\n\\(\\because k=4>0\\)，\n\\(\\therefore w\\)随\\(m\\)的增大而增大．\n\\(\\therefore\\)当\\(m=36\\)时，\\(w\\)有最小值为：\\(4\\times 36+720=864\\)（元）．\n\\(\\therefore\\)A种食材购买36千克，B种食材购买12千克时，总费用最少，为864元",
+  "review_note": "",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-0E960359F5/single/q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          442.53,
+          582.2,
+          559.05
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-0E960359F5/single/s20-p19.webp",
+      "assets/SZ-G9-T2-0E960359F5/single/s20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          13,
+          656.31,
+          582.2,
+          766.31
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          13,
+          75.74,
+          582.2,
+          495.74
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

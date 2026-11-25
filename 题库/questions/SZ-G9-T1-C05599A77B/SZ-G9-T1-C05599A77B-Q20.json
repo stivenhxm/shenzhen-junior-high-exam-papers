@@ -1,0 +1,454 @@
+{
+  "id": "SZ-G9-T1-C05599A77B-Q20",
+  "paper_id": "SZ-G9-T1-C05599A77B",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、按指定锐角选择三角函数比",
+  "stem": "如图1，在矩形\\(ABCD\\)中，\\(AB=8\\)，\\(BC=12\\)，点E在\\(AB\\)上，\\(AE=5\\)，点F在\\(BC\\)上，\\(BF=4\\)，作射线\\(DF\\)．点P从点A出发沿\\(AD\\)向点D运动，将矩形沿\\(PE\\)折叠，点A落在点G处．设点P运动的路径长为x．\n〔图1〕\n（1）①\\(EF=\\)______；\n②当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)全等吗？请说明理由；\n（2）当线段\\(DG\\)的长最小时，求\\(tan\\angle AEP\\)的值？\n（3）③若点G落在射线\\(DF\\)上，求x的值；\n④请直接写出点G到射线\\(DF\\)的距离（用含x的式子表示）______．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-C05599A77B/figures/49a6ff626f44351d2338bee92da21f46579385ee4715e3b1da066458c9f2bacb.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①3，4，5；②当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；\n（2）\\(\\frac { 2 } { 3 }\\)；\n（3）③\\(x=10\\)；④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+  "answer": "（1）①3，4，5；②当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；\n（2）\\(\\frac { 2 } { 3 }\\)；\n（3）③\\(x=10\\)；④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+  "given_solution": "【分析】（1）①利用勾股定理求解即可；②分别求出两个三角形的边长即可下结论；\n（2）当点G落在线段\\(DE\\)上时，\\(DG\\)的长最小，证明出\\(\\vartriangle DGP\\backsim \\vartriangle DAE\\)，得出\\(\\frac { PG } { AE }=\\frac { 8 } { 12 }=\\frac { 2 } { 3 }\\)，根据\\(tan\\angle AEP=\\frac { AP } { AE }\\)即可求解；\n（3）③求出\\(tan\\angle BFE=0.75 < 1\\)，可得出\\(\\angle BFE < 45{}^\\circ\\)故\\(\\angle DFE>90{}^\\circ\\)是钝角，当点G和点F重合时，如图2，此时点P在边AD上，利用勾股定理建立等式\\(x ^ { 2 } =8 ^ { 2 } +\\left ( { x-4 } \\right ) ^ { 2 }\\)，求解即可；④记\\(AG\\)与\\(EP\\)交点为N，则\\(AG\\bot EP\\)于点N，求出\\(AG=\\frac { 10x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，作\\(GH\\bot AB\\)于点H，则由\\(\\vartriangle AGH\\backsim \\vartriangle PEA\\)，\\(AH=\\frac { 10x ^ { 2 } } { x ^ { 2 } +25 }\\)．延长\\(AB\\)交\\(DF\\)射线于点M，则\\(AM=AD=12\\)，\\(\\angle AMD=45{}^\\circ\\)，在点H下方截取\\(HI=HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，作\\(IK\\bot MD\\)于点K，则\\(IK=\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)，即点G到\\(DF\\)距离．\n【小问1详解】\n解：①\\(EF=\\sqrt[] { BE ^ { 2 } +BF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n故答案为；5；\n②当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等，\n理由：∵矩形\\(ABCD\\)中，\\(\\angle A\\)是直角，\n∴当\\(x=3\\)时，\\(PE=\\sqrt[] { 5 ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 34 }\\)，\n即：\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APE\\)的三边长从小到大分别是3，5，\\(\\sqrt[] { 34 }\\)，\n而\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)的三边长从小到大分别是3，4，5，\n故\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；\n【小问2详解】\n解：如图1，当点G落在线段\\(DE\\)上时，\\(DG\\)的长最小，\n〔图2〕\n∵\\(DE=\\sqrt[] { 5 ^ { 2 } +12 ^ { 2 } }=13\\)，\n∴\\(DG=DE-EG=13-5=8\\)，\n又∵\\(\\angle A=\\angle PGD\\)，\\(\\angle ADE=\\angle GDP\\)，\n∴\\(\\vartriangle DGP\\backsim \\vartriangle DAE\\)，\n∴\\(\\frac { DG } { DA }=\\frac { PG } { EA }\\)，即：\\(\\frac { PG } { AE }=\\frac { 8 } { 12 }=\\frac { 2 } { 3 }\\)，\n又∵\\(tan\\angle AEP=\\frac { AP } { AE }\\)，\\(PA=PG\\)，\n∴\\(tan\\angle AEP=\\frac { PG } { AE }=\\frac { 2 } { 3 }\\)；\n【小问3详解】\n解：③∵\\(CF=12-4=8=CD\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(\\angle CFD=45{}^\\circ\\)，\n又∵\\(tan\\angle BFE=0.75 < 1\\)，\n∴\\(\\angle BFE < 45{}^\\circ\\)故\\(\\angle DFE>90{}^\\circ\\)是钝角，\n当点G和点F重合时，如图2，此时点P在边AD上，\\(0 < x < 12\\)，\n作\\(PQ\\bot BC\\)于点Q，则\\(PF=AP=x\\)，\\(CQ=PD=12-x\\)，\n∴\\(FQ=BC-BF-CQ=12-4-\\left ( { 12-x } \\right )=x-4\\)，\n∵\\(PF ^ { 2 } =PQ ^ { 2 } +FQ ^ { 2 }\\)，\n∴\\(x ^ { 2 } =8 ^ { 2 } +\\left ( { x-4 } \\right ) ^ { 2 }\\)，\n解得\\(x=10\\)；\n〔图3〕\n④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．\n如图3，记\\(AG\\)与\\(EP\\)交点为N，则\\(AG\\bot EP\\)于点N，\n〔图4〕\n∵\\(EP=\\sqrt[] { x ^ { 2 } +25 }\\)，\n∴\\(AN=\\frac { 5x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，\n∴\\(AG=\\frac { 10x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，\n作\\(GH\\bot AB\\)于点H，则由\\(\\vartriangle AGH\\backsim \\vartriangle PEA\\)，\\(\\frac { HG } { AE }=\\frac { AG } { PE }=\\frac { AH } { PA }\\)，\n解得：\\(HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，\n∴\\(AH=\\frac { 10x ^ { 2 } } { x ^ { 2 } +25 }\\)．\n延长\\(AB\\)交\\(DF\\)射线于点M，则\\(AM=AD=12\\)，\\(\\angle AMD=45{}^\\circ\\)，\n在点H下方截取\\(HI=HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，\n∴\\(\\angle HIG=45{}^\\circ\\)，\n∵\\(\\angle BKF=45{}^\\circ\\)，\n∴\\(GI\\parallel MD\\)，\n∴\\(IM=AM-AH-HI=\\frac { 2x ^ { 2 } -50x+300 } { x ^ { 2 } +25 }\\)，\n∵\\(GI\\parallel MD\\)，即点G到\\(DF\\)距离等于点I到\\(DF\\)的距离．\n作\\(IK\\bot MD\\)于点K，则\\(IK=\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)，即点G到\\(DF\\)距离等于\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．\n【点睛】本题考查了勾股定理，矩形的折叠问题，三角形全等及性质，三角形相似，点到线的距距离，解直角三角形等知识点，解题的关键是作出适当的辅助线来进行求解．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-C05599A77B/figures/49a6ff626f44351d2338bee92da21f46579385ee4715e3b1da066458c9f2bacb.png",
+    "assets/SZ-G9-T1-C05599A77B/figures/835af284e328ae7955a6716913209259b66e2cf25c55b7ffd1574f897c0cba37.png",
+    "assets/SZ-G9-T1-C05599A77B/figures/0f1858823f58a220640711a5aaf5c55ccd7b037530665e0d758b1808d4688629.png",
+    "assets/SZ-G9-T1-C05599A77B/figures/34b88c9d6011bebb06e7fe3263a2b592070659098a772bdf1cc1782d229b832a.png"
+  ],
+  "solution": "【小问1详解】\n解：①\\(EF=\\sqrt[] { BE ^ { 2 } +BF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n故答案为；5；\n②当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等，\n理由：∵矩形\\(ABCD\\)中，\\(\\angle A\\)是直角，\n∴当\\(x=3\\)时，\\(PE=\\sqrt[] { 5 ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 34 }\\)，\n即：\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APE\\)的三边长从小到大分别是3，5，\\(\\sqrt[] { 34 }\\)，\n而\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)的三边长从小到大分别是3，4，5，\n故\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；\n【小问2详解】\n解：如图1，当点G落在线段\\(DE\\)上时，\\(DG\\)的长最小，\n〔图2〕\n∵\\(DE=\\sqrt[] { 5 ^ { 2 } +12 ^ { 2 } }=13\\)，\n∴\\(DG=DE-EG=13-5=8\\)，\n又∵\\(\\angle A=\\angle PGD\\)，\\(\\angle ADE=\\angle GDP\\)，\n∴\\(\\vartriangle DGP\\backsim \\vartriangle DAE\\)，\n∴\\(\\frac { DG } { DA }=\\frac { PG } { EA }\\)，即：\\(\\frac { PG } { AE }=\\frac { 8 } { 12 }=\\frac { 2 } { 3 }\\)，\n又∵\\(tan\\angle AEP=\\frac { AP } { AE }\\)，\\(PA=PG\\)，\n∴\\(tan\\angle AEP=\\frac { PG } { AE }=\\frac { 2 } { 3 }\\)；\n【小问3详解】\n解：③∵\\(CF=12-4=8=CD\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(\\angle CFD=45{}^\\circ\\)，\n又∵\\(tan\\angle BFE=0.75 < 1\\)，\n∴\\(\\angle BFE < 45{}^\\circ\\)故\\(\\angle DFE>90{}^\\circ\\)是钝角，\n当点G和点F重合时，如图2，此时点P在边AD上，\\(0 < x < 12\\)，\n作\\(PQ\\bot BC\\)于点Q，则\\(PF=AP=x\\)，\\(CQ=PD=12-x\\)，\n∴\\(FQ=BC-BF-CQ=12-4-\\left ( { 12-x } \\right )=x-4\\)，\n∵\\(PF ^ { 2 } =PQ ^ { 2 } +FQ ^ { 2 }\\)，\n∴\\(x ^ { 2 } =8 ^ { 2 } +\\left ( { x-4 } \\right ) ^ { 2 }\\)，\n解得\\(x=10\\)；\n〔图3〕\n④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．\n如图3，记\\(AG\\)与\\(EP\\)交点为N，则\\(AG\\bot EP\\)于点N，\n〔图4〕\n∵\\(EP=\\sqrt[] { x ^ { 2 } +25 }\\)，\n∴\\(AN=\\frac { 5x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，\n∴\\(AG=\\frac { 10x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，\n作\\(GH\\bot AB\\)于点H，则由\\(\\vartriangle AGH\\backsim \\vartriangle PEA\\)，\\(\\frac { HG } { AE }=\\frac { AG } { PE }=\\frac { AH } { PA }\\)，\n解得：\\(HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，\n∴\\(AH=\\frac { 10x ^ { 2 } } { x ^ { 2 } +25 }\\)．\n延长\\(AB\\)交\\(DF\\)射线于点M，则\\(AM=AD=12\\)，\\(\\angle AMD=45{}^\\circ\\)，\n在点H下方截取\\(HI=HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，\n∴\\(\\angle HIG=45{}^\\circ\\)，\n∵\\(\\angle BKF=45{}^\\circ\\)，\n∴\\(GI\\parallel MD\\)，\n∴\\(IM=AM-AH-HI=\\frac { 2x ^ { 2 } -50x+300 } { x ^ { 2 } +25 }\\)，\n∵\\(GI\\parallel MD\\)，即点G到\\(DF\\)距离等于点I到\\(DF\\)的距离．\n作\\(IK\\bot MD\\)于点K，则\\(IK=\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)，即点G到\\(DF\\)距离等于\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①\\(EF=\\sqrt[] { BE ^ { 2 } +BF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+    "故答案为；5；",
+    "②当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等，",
+    "理由：∵矩形\\(ABCD\\)中，\\(\\angle A\\)是直角，",
+    "∴当\\(x=3\\)时，\\(PE=\\sqrt[] { 5 ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 34 }\\)，",
+    "即：\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APE\\)的三边长从小到大分别是3，5，\\(\\sqrt[] { 34 }\\)，",
+    "而\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)的三边长从小到大分别是3，4，5，",
+    "故\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；",
+    "【小问2详解】",
+    "解：如图1，当点G落在线段\\(DE\\)上时，\\(DG\\)的长最小，",
+    "〔图2〕",
+    "∵\\(DE=\\sqrt[] { 5 ^ { 2 } +12 ^ { 2 } }=13\\)，",
+    "∴\\(DG=DE-EG=13-5=8\\)，",
+    "又∵\\(\\angle A=\\angle PGD\\)，\\(\\angle ADE=\\angle GDP\\)，",
+    "∴\\(\\vartriangle DGP\\backsim \\vartriangle DAE\\)，",
+    "∴\\(\\frac { DG } { DA }=\\frac { PG } { EA }\\)，即：\\(\\frac { PG } { AE }=\\frac { 8 } { 12 }=\\frac { 2 } { 3 }\\)，",
+    "又∵\\(tan\\angle AEP=\\frac { AP } { AE }\\)，\\(PA=PG\\)，",
+    "∴\\(tan\\angle AEP=\\frac { PG } { AE }=\\frac { 2 } { 3 }\\)；",
+    "【小问3详解】",
+    "解：③∵\\(CF=12-4=8=CD\\)，\\(\\angle C=90{}^\\circ\\)，",
+    "∴\\(\\angle CFD=45{}^\\circ\\)，",
+    "又∵\\(tan\\angle BFE=0.75 < 1\\)，",
+    "∴\\(\\angle BFE < 45{}^\\circ\\)故\\(\\angle DFE>90{}^\\circ\\)是钝角，",
+    "当点G和点F重合时，如图2，此时点P在边AD上，\\(0 < x < 12\\)，",
+    "作\\(PQ\\bot BC\\)于点Q，则\\(PF=AP=x\\)，\\(CQ=PD=12-x\\)，",
+    "∴\\(FQ=BC-BF-CQ=12-4-\\left ( { 12-x } \\right )=x-4\\)，",
+    "∵\\(PF ^ { 2 } =PQ ^ { 2 } +FQ ^ { 2 }\\)，",
+    "∴\\(x ^ { 2 } =8 ^ { 2 } +\\left ( { x-4 } \\right ) ^ { 2 }\\)，",
+    "解得\\(x=10\\)；",
+    "〔图3〕",
+    "④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+    "如图3，记\\(AG\\)与\\(EP\\)交点为N，则\\(AG\\bot EP\\)于点N，",
+    "〔图4〕",
+    "∵\\(EP=\\sqrt[] { x ^ { 2 } +25 }\\)，",
+    "∴\\(AN=\\frac { 5x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，",
+    "∴\\(AG=\\frac { 10x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，",
+    "作\\(GH\\bot AB\\)于点H，则由\\(\\vartriangle AGH\\backsim \\vartriangle PEA\\)，\\(\\frac { HG } { AE }=\\frac { AG } { PE }=\\frac { AH } { PA }\\)，",
+    "解得：\\(HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，",
+    "∴\\(AH=\\frac { 10x ^ { 2 } } { x ^ { 2 } +25 }\\)．",
+    "延长\\(AB\\)交\\(DF\\)射线于点M，则\\(AM=AD=12\\)，\\(\\angle AMD=45{}^\\circ\\)，",
+    "在点H下方截取\\(HI=HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，",
+    "∴\\(\\angle HIG=45{}^\\circ\\)，",
+    "∵\\(\\angle BKF=45{}^\\circ\\)，",
+    "∴\\(GI\\parallel MD\\)，",
+    "∴\\(IM=AM-AH-HI=\\frac { 2x ^ { 2 } -50x+300 } { x ^ { 2 } +25 }\\)，",
+    "∵\\(GI\\parallel MD\\)，即点G到\\(DF\\)距离等于点I到\\(DF\\)的距离．",
+    "作\\(IK\\bot MD\\)于点K，则\\(IK=\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)，即点G到\\(DF\\)距离等于\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在矩形\\(ABCD\\)中，\\(AB=8\\)，\\(BC=12\\)，点E在\\(AB\\)上，\\(AE=5\\)，点F在\\(BC\\)上，\\(BF=4\\)，作射线\\(DF\\)．点P从点A出发沿\\(AD\\)向点D运动，将矩形沿\\(PE\\)折叠，点A落在点G处．设点P运动的路径长为x．\n〔图1〕",
+      "paper_blocks": [
+        71,
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-C05599A77B-Q20-P01",
+      "label": "（1）①",
+      "prompt": "\\(EF=\\)______；",
+      "stem_text": "\\(EF=\\)______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "3，4，5；",
+      "answer": "3，4，5；",
+      "given_solution": "\\(EF=\\sqrt[] { BE ^ { 2 } +BF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n故答案为；5；",
+      "solution_steps": [
+        "\\(EF=\\sqrt[] { BE ^ { 2 } +BF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+        "故答案为；5；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          347,
+          348
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C05599A77B-Q20-P02",
+      "label": "（1）②",
+      "prompt": "当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)全等吗？请说明理由；",
+      "stem_text": "当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)全等吗？请说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；",
+      "answer": "当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；",
+      "given_solution": "当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等，\n理由：∵矩形\\(ABCD\\)中，\\(\\angle A\\)是直角，\n∴当\\(x=3\\)时，\\(PE=\\sqrt[] { 5 ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 34 }\\)，\n即：\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APE\\)的三边长从小到大分别是3，5，\\(\\sqrt[] { 34 }\\)，\n而\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)的三边长从小到大分别是3，4，5，\n故\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；",
+      "solution_steps": [
+        "当\\(x=3\\)时，\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等，",
+        "理由：∵矩形\\(ABCD\\)中，\\(\\angle A\\)是直角，",
+        "∴当\\(x=3\\)时，\\(PE=\\sqrt[] { 5 ^ { 2 } +3 ^ { 2 } }=\\sqrt[] { 34 }\\)，",
+        "即：\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle APE\\)的三边长从小到大分别是3，5，\\(\\sqrt[] { 34 }\\)，",
+        "而\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BEF\\)的三边长从小到大分别是3，4，5，",
+        "故\\(\\vartriangle APE\\)与\\(\\vartriangle BEF\\)不全等；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C05599A77B-Q20-P03",
+      "label": "（2）",
+      "prompt": "当线段\\(DG\\)的长最小时，求\\(tan\\angle AEP\\)的值？",
+      "stem_text": "当线段\\(DG\\)的长最小时，求\\(tan\\angle AEP\\)的值？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2 } { 3 }\\)；",
+      "answer": "\\(\\frac { 2 } { 3 }\\)；",
+      "given_solution": "解：如图1，当点G落在线段\\(DE\\)上时，\\(DG\\)的长最小，\n〔图2〕\n∵\\(DE=\\sqrt[] { 5 ^ { 2 } +12 ^ { 2 } }=13\\)，\n∴\\(DG=DE-EG=13-5=8\\)，\n又∵\\(\\angle A=\\angle PGD\\)，\\(\\angle ADE=\\angle GDP\\)，\n∴\\(\\vartriangle DGP\\backsim \\vartriangle DAE\\)，\n∴\\(\\frac { DG } { DA }=\\frac { PG } { EA }\\)，即：\\(\\frac { PG } { AE }=\\frac { 8 } { 12 }=\\frac { 2 } { 3 }\\)，\n又∵\\(tan\\angle AEP=\\frac { AP } { AE }\\)，\\(PA=PG\\)，\n∴\\(tan\\angle AEP=\\frac { PG } { AE }=\\frac { 2 } { 3 }\\)；",
+      "solution_steps": [
+        "解：如图1，当点G落在线段\\(DE\\)上时，\\(DG\\)的长最小，",
+        "〔图2〕",
+        "∵\\(DE=\\sqrt[] { 5 ^ { 2 } +12 ^ { 2 } }=13\\)，",
+        "∴\\(DG=DE-EG=13-5=8\\)，",
+        "又∵\\(\\angle A=\\angle PGD\\)，\\(\\angle ADE=\\angle GDP\\)，",
+        "∴\\(\\vartriangle DGP\\backsim \\vartriangle DAE\\)，",
+        "∴\\(\\frac { DG } { DA }=\\frac { PG } { EA }\\)，即：\\(\\frac { PG } { AE }=\\frac { 8 } { 12 }=\\frac { 2 } { 3 }\\)，",
+        "又∵\\(tan\\angle AEP=\\frac { AP } { AE }\\)，\\(PA=PG\\)，",
+        "∴\\(tan\\angle AEP=\\frac { PG } { AE }=\\frac { 2 } { 3 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          75
+        ],
+        "solution_block_ids": [
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C05599A77B-Q20-P04",
+      "label": "（3）",
+      "prompt": "③若点G落在射线\\(DF\\)上，求x的值；\n④请直接写出点G到射线\\(DF\\)的距离（用含x的式子表示）______．",
+      "stem_text": "③若点G落在射线\\(DF\\)上，求x的值；\n④请直接写出点G到射线\\(DF\\)的距离（用含x的式子表示）______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "③\\(x=10\\)；④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+      "answer": "③\\(x=10\\)；④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+      "given_solution": "解：③∵\\(CF=12-4=8=CD\\)，\\(\\angle C=90{}^\\circ\\)，\n∴\\(\\angle CFD=45{}^\\circ\\)，\n又∵\\(tan\\angle BFE=0.75 < 1\\)，\n∴\\(\\angle BFE < 45{}^\\circ\\)故\\(\\angle DFE>90{}^\\circ\\)是钝角，\n当点G和点F重合时，如图2，此时点P在边AD上，\\(0 < x < 12\\)，\n作\\(PQ\\bot BC\\)于点Q，则\\(PF=AP=x\\)，\\(CQ=PD=12-x\\)，\n∴\\(FQ=BC-BF-CQ=12-4-\\left ( { 12-x } \\right )=x-4\\)，\n∵\\(PF ^ { 2 } =PQ ^ { 2 } +FQ ^ { 2 }\\)，\n∴\\(x ^ { 2 } =8 ^ { 2 } +\\left ( { x-4 } \\right ) ^ { 2 }\\)，\n解得\\(x=10\\)；\n〔图3〕\n④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．\n如图3，记\\(AG\\)与\\(EP\\)交点为N，则\\(AG\\bot EP\\)于点N，\n〔图4〕\n∵\\(EP=\\sqrt[] { x ^ { 2 } +25 }\\)，\n∴\\(AN=\\frac { 5x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，\n∴\\(AG=\\frac { 10x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，\n作\\(GH\\bot AB\\)于点H，则由\\(\\vartriangle AGH\\backsim \\vartriangle PEA\\)，\\(\\frac { HG } { AE }=\\frac { AG } { PE }=\\frac { AH } { PA }\\)，\n解得：\\(HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，\n∴\\(AH=\\frac { 10x ^ { 2 } } { x ^ { 2 } +25 }\\)．\n延长\\(AB\\)交\\(DF\\)射线于点M，则\\(AM=AD=12\\)，\\(\\angle AMD=45{}^\\circ\\)，\n在点H下方截取\\(HI=HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，\n∴\\(\\angle HIG=45{}^\\circ\\)，\n∵\\(\\angle BKF=45{}^\\circ\\)，\n∴\\(GI\\parallel MD\\)，\n∴\\(IM=AM-AH-HI=\\frac { 2x ^ { 2 } -50x+300 } { x ^ { 2 } +25 }\\)，\n∵\\(GI\\parallel MD\\)，即点G到\\(DF\\)距离等于点I到\\(DF\\)的距离．\n作\\(IK\\bot MD\\)于点K，则\\(IK=\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)，即点G到\\(DF\\)距离等于\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+      "solution_steps": [
+        "解：③∵\\(CF=12-4=8=CD\\)，\\(\\angle C=90{}^\\circ\\)，",
+        "∴\\(\\angle CFD=45{}^\\circ\\)，",
+        "又∵\\(tan\\angle BFE=0.75 < 1\\)，",
+        "∴\\(\\angle BFE < 45{}^\\circ\\)故\\(\\angle DFE>90{}^\\circ\\)是钝角，",
+        "当点G和点F重合时，如图2，此时点P在边AD上，\\(0 < x < 12\\)，",
+        "作\\(PQ\\bot BC\\)于点Q，则\\(PF=AP=x\\)，\\(CQ=PD=12-x\\)，",
+        "∴\\(FQ=BC-BF-CQ=12-4-\\left ( { 12-x } \\right )=x-4\\)，",
+        "∵\\(PF ^ { 2 } =PQ ^ { 2 } +FQ ^ { 2 }\\)，",
+        "∴\\(x ^ { 2 } =8 ^ { 2 } +\\left ( { x-4 } \\right ) ^ { 2 }\\)，",
+        "解得\\(x=10\\)；",
+        "〔图3〕",
+        "④\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．",
+        "如图3，记\\(AG\\)与\\(EP\\)交点为N，则\\(AG\\bot EP\\)于点N，",
+        "〔图4〕",
+        "∵\\(EP=\\sqrt[] { x ^ { 2 } +25 }\\)，",
+        "∴\\(AN=\\frac { 5x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，",
+        "∴\\(AG=\\frac { 10x } { \\sqrt[] { x ^ { 2 } +25 } }\\)，",
+        "作\\(GH\\bot AB\\)于点H，则由\\(\\vartriangle AGH\\backsim \\vartriangle PEA\\)，\\(\\frac { HG } { AE }=\\frac { AG } { PE }=\\frac { AH } { PA }\\)，",
+        "解得：\\(HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，",
+        "∴\\(AH=\\frac { 10x ^ { 2 } } { x ^ { 2 } +25 }\\)．",
+        "延长\\(AB\\)交\\(DF\\)射线于点M，则\\(AM=AD=12\\)，\\(\\angle AMD=45{}^\\circ\\)，",
+        "在点H下方截取\\(HI=HG=\\frac { 50x } { x ^ { 2 } +25 }\\)，",
+        "∴\\(\\angle HIG=45{}^\\circ\\)，",
+        "∵\\(\\angle BKF=45{}^\\circ\\)，",
+        "∴\\(GI\\parallel MD\\)，",
+        "∴\\(IM=AM-AH-HI=\\frac { 2x ^ { 2 } -50x+300 } { x ^ { 2 } +25 }\\)，",
+        "∵\\(GI\\parallel MD\\)，即点G到\\(DF\\)距离等于点I到\\(DF\\)的距离．",
+        "作\\(IK\\bot MD\\)于点K，则\\(IK=\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)，即点G到\\(DF\\)距离等于\\(\\frac { \\sqrt[] { 2 }x ^ { 2 } -25\\sqrt[] { 2 }x+150\\sqrt[] { 2 } } { x ^ { 2 } +25 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          19,
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      77
+    ],
+    "solution_body_blocks": [
+      332,
+      394
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-C05599A77B/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          167.27,
+          583.64,
+          471.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-C05599A77B/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-C05599A77B/solution-q20-p19.webp",
+      "assets/SZ-G9-T1-C05599A77B/solution-q20-p20.webp",
+      "assets/SZ-G9-T1-C05599A77B/solution-q20-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          665.0
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          252.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G10.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G10.01.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“按指定锐角选择三角函数比”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

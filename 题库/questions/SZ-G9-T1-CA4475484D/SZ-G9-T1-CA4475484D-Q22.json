@@ -1,0 +1,633 @@
+{
+  "id": "SZ-G9-T1-CA4475484D-Q22",
+  "paper_id": "SZ-G9-T1-CA4475484D",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "识别黄金分割中的整体与部分",
+  "stem": "根据以下素材，探索完成任务．\n素材\\(1\\) | 定义：如图\\(1\\)，点\\(G\\)将线段\\(AD\\)分成两部分，如果\\(\\frac { AG } { GD }=\\frac { GD } { AD }\\)，那么点\\(G\\)称为线段\\(AD\\)的黄金分割点．\n素材\\(2\\) | 某兴趣小组在进行研究性学习时，由黄金分割点联想到“黄金分割线”，类似地给出黄金分割线的定义：直线\\(l\\)将一个面积为\\(S\\)的图形分成面积分别为\\(S_{ 1 }\\)，\\(S_{ 2 }\\)的两部分，如果\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { S_{ 2 } } { S }\\)，那么直线\\(l\\)称为该图形的黄金分割线．\n素材\\(3\\) | 平行四边形是中心对称图形：在同一平面内，一个三角形绕其中一边的中点旋转\\(180{}^\\circ\\)，其余两边与旋转后相对应的两边组成一个平行四边形，例如，图\\(2\\)中的\\(\\vartriangle ABD\\)绕\\(BD\\)的中点旋转\\(180{}^\\circ\\)后与原三角形组成一个平行四边形\\(ABCD(\\)如图\\(3)\\)．\n | 〔图1〕\n | 问题解决\n任务1 | 问题1：如图\\(3\\)，\\(AD\\)边上黄金分割点\\(G\\)旋转后的对称点\\(H\\)是否也是\\(BC\\)边上的黄金分割点？请写出你的判断结论，并说明理由． 问题2：直线\\(GH\\)是不是四边形\\(ABCD\\)的黄金分割线？请写出你的判断结论：______ ．\n任务2 | 请在图\\(3\\)探索：\\(BC\\)边上是否存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线？如果存在，请说明点\\(M\\)的位置；如果不存在，请说明理由．\n任务3 | 兴趣小组探索图\\(2\\)时猜想：在\\(\\vartriangle ABD\\)中，若点\\(G\\)为\\(AD\\)边上的黄金分割点，连接\\(BG\\)，则直线\\(BG\\)是\\(\\vartriangle ABD\\)的黄金分割线，你认为对吗？为什么？\n任务4 | 兴趣小组探索图\\(2\\)时还发现：若点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，过点\\(B\\)任意作一条直线交\\(GD\\)于点\\(E\\)，再过点\\(G\\)作\\(GF\\parallel BC\\)交\\(AB\\)于点\\(F\\)，则直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线，请你给出证明．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-CA4475484D/figures/7aad4b84fdbaa6370b8820c80ee6dd0475accae26b20f00250d4123d4a2b76e7.png"
+  ],
+  "tables": [
+    {
+      "text": "素材\\(1\\) | 定义：如图\\(1\\)，点\\(G\\)将线段\\(AD\\)分成两部分，如果\\(\\frac { AG } { GD }=\\frac { GD } { AD }\\)，那么点\\(G\\)称为线段\\(AD\\)的黄金分割点．\n素材\\(2\\) | 某兴趣小组在进行研究性学习时，由黄金分割点联想到“黄金分割线”，类似地给出黄金分割线的定义：直线\\(l\\)将一个面积为\\(S\\)的图形分成面积分别为\\(S_{ 1 }\\)，\\(S_{ 2 }\\)的两部分，如果\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { S_{ 2 } } { S }\\)，那么直线\\(l\\)称为该图形的黄金分割线．\n素材\\(3\\) | 平行四边形是中心对称图形：在同一平面内，一个三角形绕其中一边的中点旋转\\(180{}^\\circ\\)，其余两边与旋转后相对应的两边组成一个平行四边形，例如，图\\(2\\)中的\\(\\vartriangle ABD\\)绕\\(BD\\)的中点旋转\\(180{}^\\circ\\)后与原三角形组成一个平行四边形\\(ABCD(\\)如图\\(3)\\)．\n | 〔图1〕\n | 问题解决\n任务1 | 问题1：如图\\(3\\)，\\(AD\\)边上黄金分割点\\(G\\)旋转后的对称点\\(H\\)是否也是\\(BC\\)边上的黄金分割点？请写出你的判断结论，并说明理由． 问题2：直线\\(GH\\)是不是四边形\\(ABCD\\)的黄金分割线？请写出你的判断结论：______ ．\n任务2 | 请在图\\(3\\)探索：\\(BC\\)边上是否存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线？如果存在，请说明点\\(M\\)的位置；如果不存在，请说明理由．\n任务3 | 兴趣小组探索图\\(2\\)时猜想：在\\(\\vartriangle ABD\\)中，若点\\(G\\)为\\(AD\\)边上的黄金分割点，连接\\(BG\\)，则直线\\(BG\\)是\\(\\vartriangle ABD\\)的黄金分割线，你认为对吗？为什么？\n任务4 | 兴趣小组探索图\\(2\\)时还发现：若点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，过点\\(B\\)任意作一条直线交\\(GD\\)于点\\(E\\)，再过点\\(G\\)作\\(GF\\parallel BC\\)交\\(AB\\)于点\\(F\\)，则直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线，请你给出证明．",
+      "rows": [
+        [
+          [
+            "素材\\(1\\)"
+          ],
+          [
+            "定义：如图\\(1\\)，点\\(G\\)将线段\\(AD\\)分成两部分，如果\\(\\frac { AG } { GD }=\\frac { GD } { AD }\\)，那么点\\(G\\)称为线段\\(AD\\)的黄金分割点．"
+          ]
+        ],
+        [
+          [
+            "素材\\(2\\)"
+          ],
+          [
+            "某兴趣小组在进行研究性学习时，由黄金分割点联想到“黄金分割线”，类似地给出黄金分割线的定义：直线\\(l\\)将一个面积为\\(S\\)的图形分成面积分别为\\(S_{ 1 }\\)，\\(S_{ 2 }\\)的两部分，如果\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { S_{ 2 } } { S }\\)，那么直线\\(l\\)称为该图形的黄金分割线．"
+          ]
+        ],
+        [
+          [
+            "素材\\(3\\)"
+          ],
+          [
+            "平行四边形是中心对称图形：在同一平面内，一个三角形绕其中一边的中点旋转\\(180{}^\\circ\\)，其余两边与旋转后相对应的两边组成一个平行四边形，例如，图\\(2\\)中的\\(\\vartriangle ABD\\)绕\\(BD\\)的中点旋转\\(180{}^\\circ\\)后与原三角形组成一个平行四边形\\(ABCD(\\)如图\\(3)\\)．"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "〔图1〕"
+          ]
+        ],
+        [
+          [
+            ""
+          ],
+          [
+            "问题解决"
+          ]
+        ],
+        [
+          [
+            "任务1"
+          ],
+          [
+            "问题1：如图\\(3\\)，\\(AD\\)边上黄金分割点\\(G\\)旋转后的对称点\\(H\\)是否也是\\(BC\\)边上的黄金分割点？请写出你的判断结论，并说明理由．",
+            "问题2：直线\\(GH\\)是不是四边形\\(ABCD\\)的黄金分割线？请写出你的判断结论：______ ．"
+          ]
+        ],
+        [
+          [
+            "任务2"
+          ],
+          [
+            "请在图\\(3\\)探索：\\(BC\\)边上是否存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线？如果存在，请说明点\\(M\\)的位置；如果不存在，请说明理由．"
+          ]
+        ],
+        [
+          [
+            "任务3"
+          ],
+          [
+            "兴趣小组探索图\\(2\\)时猜想：在\\(\\vartriangle ABD\\)中，若点\\(G\\)为\\(AD\\)边上的黄金分割点，连接\\(BG\\)，则直线\\(BG\\)是\\(\\vartriangle ABD\\)的黄金分割线，你认为对吗？为什么？"
+          ]
+        ],
+        [
+          [
+            "任务4"
+          ],
+          [
+            "兴趣小组探索图\\(2\\)时还发现：若点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，过点\\(B\\)任意作一条直线交\\(GD\\)于点\\(E\\)，再过点\\(G\\)作\\(GF\\parallel BC\\)交\\(AB\\)于点\\(F\\)，则直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线，请你给出证明．"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "任务1：问题1：是，见解析；问题2：不是；任务2：存在，过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线；任务3：对，见解析；任务4：见解析",
+  "answer": "任务1：问题1：是，见解析；问题2：不是；任务2：存在，过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线；任务3：对，见解析；任务4：见解析",
+  "given_solution": "【分析】任务1：问题1：由旋转可得：\\(CH=AG\\)，\\(BH=DG\\)，\\(AD=BC\\)，又\\(G\\)为\\(AD\\)的黄金分割点，知\\(\\frac { AG } { DG }=\\frac { DG } { AD }\\)，故\\(\\frac { CH } { BH }=\\frac { BH } { BC }\\)，点\\(H\\)是\\(BC\\)上的黄金分割点；\n问题2：根据\\(CH=AG\\)，\\(BH=DG\\)，可得\\(S_{ 四边形ABHG } =S_{ 四边形CDGH }\\)，由黄金分割线的定义可知直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n任务2：\n过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则点\\(M\\)即为所求的点；\n任务3：\n由\\(G\\)是\\(AD\\)的黄金分割点，得\\(\\frac { AG } { DG }=\\frac { DG } { AD }\\)，又\\(\\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { AG } { DG }\\)，\\(\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }=\\frac { DG } { AD }\\)，故\\(\\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，从而\\(BG\\)是三角形\\(ABD\\)的黄金分割线；\n任务4：\n连接\\(BG\\)，由 \\(GF\\parallel BE\\)，得\\(S_{ \\vartriangle BGF } =S_{ \\vartriangle EGF }\\)，\\(S_{ \\vartriangle BEF } =S_{ \\vartriangle GEF }\\)，故\\(S_{ \\vartriangle ABG } =S_{ \\vartriangle AEF }\\)，\\(S_{ \\vartriangle DBG } =S_{ 四边形BDEF }\\)，根据点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，可得\\(\\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，即得\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 四边形BDEF } }=\\frac { S_{ 四边形BDEF } } { S_{ \\vartriangle ABD } }\\)，直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线．\n【详解】解：任务1：\n问题1：\n点\\(H\\)是\\(BC\\)的黄金分割点，理由如下：\n由旋转可得：\\(CH=AG\\)，\\(BH=DG\\)，\\(AD=BC\\)，\n\\(\\because G\\)为\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { CH } { BH }=\\frac { BH } { BC }\\)，\n\\(\\therefore\\)点\\(H\\)是\\(BC\\)上的黄金分割点；\n问题2：\n直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n理由：\\(\\because CH=AG\\)，\\(BH=DG\\)，\n在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，\n\\(\\therefore S_{ 四边形ABHG } =S_{ 四边形CDGH }\\)，\n\\(\\therefore \\frac { S_{ 四边形ABHG } } { S_{ 四边形CDGH } }=1\\ne \\frac { S_{ 四边形CDGH } } { S_{ 四边形ABCD } }\\)，\n\\(\\therefore\\)直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n故答案为：直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线；\n任务2：\n\\(BC\\)边上存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n如图：\n〔图2〕\n在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，\n又\\(\\because GM\\parallel AB\\)，\n\\(\\therefore\\)四边形\\(ABMG\\)是平行四边形，\n又\\(\\because CD\\parallel AB\\)，\n\\(\\therefore GM\\parallel CD\\)，\n\\(\\therefore\\)四边形\\(CDGM\\)是平行四边形，\n\\(\\because G\\)为\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ 四边形ABMG } } { S_{ 四边形CDGM } }=\\frac { S_{ 四边形CDGM } } { S_{ 四边形ABCD } }\\)，\n则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n\\(\\therefore\\)点\\(M\\)即为所求的点；\n任务3：\n正确，理由如下：\n如图：\n〔图3〕\n\\(\\because G\\)是\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\because \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { AG } { DG }\\)，\\(\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore BG\\)是三角形\\(ABD\\)的黄金分割线；\n任务4：\n证明：连接\\(BG\\)，如图：\n〔图4〕\n\\(\\because GF\\parallel BE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =S_{ \\vartriangle EGF }\\)，\\(S_{ \\vartriangle BEF } =S_{ \\vartriangle GEF }\\)，\n\\(\\therefore S_{ \\vartriangle ABG } =S_{ \\vartriangle AEF }\\)，\\(S_{ \\vartriangle DBG } =S_{ 四边形BDEF }\\)，\n\\(\\because\\)点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle AEF } } { S_{ 四边形BDEF } }=\\frac { S_{ 四边形BDEF } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore\\)直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线．\n【点睛】本题考查黄金分割，涉及新定义，平行四边形，中心对称等知识，解题的关键是读懂题意，理解黄金分割点，黄金分割线的定义．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-CA4475484D/figures/7aad4b84fdbaa6370b8820c80ee6dd0475accae26b20f00250d4123d4a2b76e7.png",
+    "assets/SZ-G9-T1-CA4475484D/figures/edd5157d89c902e0a308d2923a3e91db1dfd0b70c318707a31f9330f7da7c394.png",
+    "assets/SZ-G9-T1-CA4475484D/figures/7ba6eddc134a661846f98f20cc80855933eefa058f6eb0a7ae76916e5a79b614.png",
+    "assets/SZ-G9-T1-CA4475484D/figures/37d54684bdbbb2a2bd0e5e82098ef0ff1ac1bd872101c7d7b7ed03a022e32690.png"
+  ],
+  "solution": "解：任务1：\n问题1：\n点\\(H\\)是\\(BC\\)的黄金分割点，理由如下：\n由旋转可得：\\(CH=AG\\)，\\(BH=DG\\)，\\(AD=BC\\)，\n\\(\\because G\\)为\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { CH } { BH }=\\frac { BH } { BC }\\)，\n\\(\\therefore\\)点\\(H\\)是\\(BC\\)上的黄金分割点；\n问题2：\n直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n理由：\\(\\because CH=AG\\)，\\(BH=DG\\)，\n在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，\n\\(\\therefore S_{ 四边形ABHG } =S_{ 四边形CDGH }\\)，\n\\(\\therefore \\frac { S_{ 四边形ABHG } } { S_{ 四边形CDGH } }=1\\ne \\frac { S_{ 四边形CDGH } } { S_{ 四边形ABCD } }\\)，\n\\(\\therefore\\)直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n故答案为：直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线；\n任务2：\n\\(BC\\)边上存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n如图：\n〔图2〕\n在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，\n又\\(\\because GM\\parallel AB\\)，\n\\(\\therefore\\)四边形\\(ABMG\\)是平行四边形，\n又\\(\\because CD\\parallel AB\\)，\n\\(\\therefore GM\\parallel CD\\)，\n\\(\\therefore\\)四边形\\(CDGM\\)是平行四边形，\n\\(\\because G\\)为\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ 四边形ABMG } } { S_{ 四边形CDGM } }=\\frac { S_{ 四边形CDGM } } { S_{ 四边形ABCD } }\\)，\n则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n\\(\\therefore\\)点\\(M\\)即为所求的点；\n任务3：\n正确，理由如下：\n如图：\n〔图3〕\n\\(\\because G\\)是\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\because \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { AG } { DG }\\)，\\(\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore BG\\)是三角形\\(ABD\\)的黄金分割线；\n任务4：\n证明：连接\\(BG\\)，如图：\n〔图4〕\n\\(\\because GF\\parallel BE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =S_{ \\vartriangle EGF }\\)，\\(S_{ \\vartriangle BEF } =S_{ \\vartriangle GEF }\\)，\n\\(\\therefore S_{ \\vartriangle ABG } =S_{ \\vartriangle AEF }\\)，\\(S_{ \\vartriangle DBG } =S_{ 四边形BDEF }\\)，\n\\(\\because\\)点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle AEF } } { S_{ 四边形BDEF } }=\\frac { S_{ 四边形BDEF } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore\\)直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线．",
+  "solution_steps": [
+    "解：任务1：",
+    "问题1：",
+    "点\\(H\\)是\\(BC\\)的黄金分割点，理由如下：",
+    "由旋转可得：\\(CH=AG\\)，\\(BH=DG\\)，\\(AD=BC\\)，",
+    "\\(\\because G\\)为\\(AD\\)的黄金分割点，",
+    "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+    "\\(\\therefore \\frac { CH } { BH }=\\frac { BH } { BC }\\)，",
+    "\\(\\therefore\\)点\\(H\\)是\\(BC\\)上的黄金分割点；",
+    "问题2：",
+    "直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，",
+    "理由：\\(\\because CH=AG\\)，\\(BH=DG\\)，",
+    "在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，",
+    "\\(\\therefore S_{ 四边形ABHG } =S_{ 四边形CDGH }\\)，",
+    "\\(\\therefore \\frac { S_{ 四边形ABHG } } { S_{ 四边形CDGH } }=1\\ne \\frac { S_{ 四边形CDGH } } { S_{ 四边形ABCD } }\\)，",
+    "\\(\\therefore\\)直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，",
+    "故答案为：直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线；",
+    "任务2：",
+    "\\(BC\\)边上存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，",
+    "过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，",
+    "如图：",
+    "〔图2〕",
+    "在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，",
+    "又\\(\\because GM\\parallel AB\\)，",
+    "\\(\\therefore\\)四边形\\(ABMG\\)是平行四边形，",
+    "又\\(\\because CD\\parallel AB\\)，",
+    "\\(\\therefore GM\\parallel CD\\)，",
+    "\\(\\therefore\\)四边形\\(CDGM\\)是平行四边形，",
+    "\\(\\because G\\)为\\(AD\\)的黄金分割点，",
+    "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+    "\\(\\therefore \\frac { S_{ 四边形ABMG } } { S_{ 四边形CDGM } }=\\frac { S_{ 四边形CDGM } } { S_{ 四边形ABCD } }\\)，",
+    "则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，",
+    "\\(\\therefore\\)点\\(M\\)即为所求的点；",
+    "任务3：",
+    "正确，理由如下：",
+    "如图：",
+    "〔图3〕",
+    "\\(\\because G\\)是\\(AD\\)的黄金分割点，",
+    "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+    "\\(\\because \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { AG } { DG }\\)，\\(\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }=\\frac { DG } { AD }\\)，",
+    "\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，",
+    "\\(\\therefore BG\\)是三角形\\(ABD\\)的黄金分割线；",
+    "任务4：",
+    "证明：连接\\(BG\\)，如图：",
+    "〔图4〕",
+    "\\(\\because GF\\parallel BE\\)，",
+    "\\(\\therefore S_{ \\vartriangle BGF } =S_{ \\vartriangle EGF }\\)，\\(S_{ \\vartriangle BEF } =S_{ \\vartriangle GEF }\\)，",
+    "\\(\\therefore S_{ \\vartriangle ABG } =S_{ \\vartriangle AEF }\\)，\\(S_{ \\vartriangle DBG } =S_{ 四边形BDEF }\\)，",
+    "\\(\\because\\)点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，",
+    "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+    "\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，",
+    "\\(\\therefore \\frac { S_{ \\vartriangle AEF } } { S_{ 四边形BDEF } }=\\frac { S_{ 四边形BDEF } } { S_{ \\vartriangle ABD } }\\)，",
+    "\\(\\therefore\\)直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "根据以下素材，探索完成任务．\n素材\\(1\\) | 定义：如图\\(1\\)，点\\(G\\)将线段\\(AD\\)分成两部分，如果\\(\\frac { AG } { GD }=\\frac { GD } { AD }\\)，那么点\\(G\\)称为线段\\(AD\\)的黄金分割点．\n素材\\(2\\) | 某兴趣小组在进行研究性学习时，由黄金分割点联想到“黄金分割线”，类似地给出黄金分割线的定义：直线\\(l\\)将一个面积为\\(S\\)的图形分成面积分别为\\(S_{ 1 }\\)，\\(S_{ 2 }\\)的两部分，如果\\(\\frac { S_{ 1 } } { S_{ 2 } }=\\frac { S_{ 2 } } { S }\\)，那么直线\\(l\\)称为该图形的黄金分割线．\n素材\\(3\\) | 平行四边形是中心对称图形：在同一平面内，一个三角形绕其中一边的中点旋转\\(180{}^\\circ\\)，其余两边与旋转后相对应的两边组成一个平行四边形，例如，图\\(2\\)中的\\(\\vartriangle ABD\\)绕\\(BD\\)的中点旋转\\(180{}^\\circ\\)后与原三角形组成一个平行四边形\\(ABCD(\\)如图\\(3)\\)．\n | 〔图1〕\n | 问题解决\n任务1 |\n〔图1〕",
+      "paper_blocks": []
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-CA4475484D-Q22-P01",
+      "label": "问题1",
+      "prompt": "如图\\(3\\)，\\(AD\\)边上黄金分割点\\(G\\)旋转后的对称点\\(H\\)是否也是\\(BC\\)边上的黄金分割点？请写出你的判断结论，并说明理由．",
+      "stem_text": "如图\\(3\\)，\\(AD\\)边上黄金分割点\\(G\\)旋转后的对称点\\(H\\)是否也是\\(BC\\)边上的黄金分割点？请写出你的判断结论，并说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "是，见解析",
+      "answer": "是，见解析",
+      "given_solution": "问题1：\n点\\(H\\)是\\(BC\\)的黄金分割点，理由如下：\n由旋转可得：\\(CH=AG\\)，\\(BH=DG\\)，\\(AD=BC\\)，\n\\(\\because G\\)为\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { CH } { BH }=\\frac { BH } { BC }\\)，\n\\(\\therefore\\)点\\(H\\)是\\(BC\\)上的黄金分割点；",
+      "solution_steps": [
+        "问题1：",
+        "点\\(H\\)是\\(BC\\)的黄金分割点，理由如下：",
+        "由旋转可得：\\(CH=AG\\)，\\(BH=DG\\)，\\(AD=BC\\)，",
+        "\\(\\because G\\)为\\(AD\\)的黄金分割点，",
+        "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+        "\\(\\therefore \\frac { CH } { BH }=\\frac { BH } { BC }\\)，",
+        "\\(\\therefore\\)点\\(H\\)是\\(BC\\)上的黄金分割点；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          75
+        ],
+        "solution_block_ids": [
+          422,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          457,
+          458,
+          467,
+          478
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.01"
+      ],
+      "exam_ids": [
+        "E.G08.01.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“识别黄金分割中的整体与部分”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CA4475484D-Q22-P02",
+      "label": "问题2",
+      "prompt": "直线\\(GH\\)是不是四边形\\(ABCD\\)的黄金分割线？请写出你的判断结论：______ ．",
+      "stem_text": "直线\\(GH\\)是不是四边形\\(ABCD\\)的黄金分割线？请写出你的判断结论：______ ．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "不是",
+      "answer": "不是",
+      "given_solution": "问题2：\n直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n理由：\\(\\because CH=AG\\)，\\(BH=DG\\)，\n在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，\n\\(\\therefore S_{ 四边形ABHG } =S_{ 四边形CDGH }\\)，\n\\(\\therefore \\frac { S_{ 四边形ABHG } } { S_{ 四边形CDGH } }=1\\ne \\frac { S_{ 四边形CDGH } } { S_{ 四边形ABCD } }\\)，\n\\(\\therefore\\)直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，\n故答案为：直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线；",
+      "solution_steps": [
+        "问题2：",
+        "直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，",
+        "理由：\\(\\because CH=AG\\)，\\(BH=DG\\)，",
+        "在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，",
+        "\\(\\therefore S_{ 四边形ABHG } =S_{ 四边形CDGH }\\)，",
+        "\\(\\therefore \\frac { S_{ 四边形ABHG } } { S_{ 四边形CDGH } }=1\\ne \\frac { S_{ 四边形CDGH } } { S_{ 四边形ABCD } }\\)，",
+        "\\(\\therefore\\)直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线，",
+        "故答案为：直线\\(GH\\)不是四边形\\(ABCD\\)的黄金分割线；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          75
+        ],
+        "solution_block_ids": [
+          420,
+          423,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          451,
+          459,
+          469,
+          479,
+          480
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.01"
+      ],
+      "exam_ids": [
+        "E.G08.01.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“识别黄金分割中的整体与部分”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CA4475484D-Q22-P03",
+      "label": "任务2",
+      "prompt": "请在图\\(3\\)探索：\\(BC\\)边上是否存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线？如果存在，请说明点\\(M\\)的位置；如果不存在，请说明理由．",
+      "stem_text": "请在图\\(3\\)探索：\\(BC\\)边上是否存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线？如果存在，请说明点\\(M\\)的位置；如果不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在，过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线",
+      "answer": "存在，过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线",
+      "given_solution": "任务2：\n\\(BC\\)边上存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n如图：\n〔图2〕\n在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，\n又\\(\\because GM\\parallel AB\\)，\n\\(\\therefore\\)四边形\\(ABMG\\)是平行四边形，\n又\\(\\because CD\\parallel AB\\)，\n\\(\\therefore GM\\parallel CD\\)，\n\\(\\therefore\\)四边形\\(CDGM\\)是平行四边形，\n\\(\\because G\\)为\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ 四边形ABMG } } { S_{ 四边形CDGM } }=\\frac { S_{ 四边形CDGM } } { S_{ 四边形ABCD } }\\)，\n则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，\n\\(\\therefore\\)点\\(M\\)即为所求的点；",
+      "solution_steps": [
+        "任务2：",
+        "\\(BC\\)边上存在点\\(M\\)，使得直线\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，",
+        "过点\\(G\\)作\\(GM\\parallel AB\\)交\\(BC\\)于点\\(M\\)，则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，",
+        "如图：",
+        "〔图2〕",
+        "在\\(▱ABCD\\)中，\\(BC\\parallel AD\\)，",
+        "又\\(\\because GM\\parallel AB\\)，",
+        "\\(\\therefore\\)四边形\\(ABMG\\)是平行四边形，",
+        "又\\(\\because CD\\parallel AB\\)，",
+        "\\(\\therefore GM\\parallel CD\\)，",
+        "\\(\\therefore\\)四边形\\(CDGM\\)是平行四边形，",
+        "\\(\\because G\\)为\\(AD\\)的黄金分割点，",
+        "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+        "\\(\\therefore \\frac { S_{ 四边形ABMG } } { S_{ 四边形CDGM } }=\\frac { S_{ 四边形CDGM } } { S_{ 四边形ABCD } }\\)，",
+        "则\\(GM\\)是四边形\\(ABCD\\)的黄金分割线，",
+        "\\(\\therefore\\)点\\(M\\)即为所求的点；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          75
+        ],
+        "solution_block_ids": [
+          420,
+          425,
+          434,
+          435,
+          441,
+          443,
+          447,
+          448,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          467,
+          469,
+          472,
+          478,
+          479,
+          480
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.01"
+      ],
+      "exam_ids": [
+        "E.G08.01.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“识别黄金分割中的整体与部分”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CA4475484D-Q22-P04",
+      "label": "任务3",
+      "prompt": "兴趣小组探索图\\(2\\)时猜想：在\\(\\vartriangle ABD\\)中，若点\\(G\\)为\\(AD\\)边上的黄金分割点，连接\\(BG\\)，则直线\\(BG\\)是\\(\\vartriangle ABD\\)的黄金分割线，你认为对吗？为什么？",
+      "stem_text": "兴趣小组探索图\\(2\\)时猜想：在\\(\\vartriangle ABD\\)中，若点\\(G\\)为\\(AD\\)边上的黄金分割点，连接\\(BG\\)，则直线\\(BG\\)是\\(\\vartriangle ABD\\)的黄金分割线，你认为对吗？为什么？",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "对，见解析",
+      "answer": "对，见解析",
+      "given_solution": "任务3：\n正确，理由如下：\n如图：\n〔图3〕\n\\(\\because G\\)是\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\because \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { AG } { DG }\\)，\\(\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore BG\\)是三角形\\(ABD\\)的黄金分割线；",
+      "solution_steps": [
+        "任务3：",
+        "正确，理由如下：",
+        "如图：",
+        "〔图3〕",
+        "\\(\\because G\\)是\\(AD\\)的黄金分割点，",
+        "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+        "\\(\\because \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { AG } { DG }\\)，\\(\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }=\\frac { DG } { AD }\\)，",
+        "\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，",
+        "\\(\\therefore BG\\)是三角形\\(ABD\\)的黄金分割线；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          75
+        ],
+        "solution_block_ids": [
+          420,
+          435,
+          443,
+          458,
+          459,
+          463,
+          466,
+          467,
+          468,
+          469,
+          470,
+          472,
+          478,
+          479,
+          480
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.01"
+      ],
+      "exam_ids": [
+        "E.G08.01.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“识别黄金分割中的整体与部分”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CA4475484D-Q22-P05",
+      "label": "任务4",
+      "prompt": "兴趣小组探索图\\(2\\)时还发现：若点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，过点\\(B\\)任意作一条直线交\\(GD\\)于点\\(E\\)，再过点\\(G\\)作\\(GF\\parallel BC\\)交\\(AB\\)于点\\(F\\)，则直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线，请你给出证明．",
+      "stem_text": "兴趣小组探索图\\(2\\)时还发现：若点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，过点\\(B\\)任意作一条直线交\\(GD\\)于点\\(E\\)，再过点\\(G\\)作\\(GF\\parallel BC\\)交\\(AB\\)于点\\(F\\)，则直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线，请你给出证明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "任务4：\n证明：连接\\(BG\\)，如图：\n〔图4〕\n\\(\\because GF\\parallel BE\\)，\n\\(\\therefore S_{ \\vartriangle BGF } =S_{ \\vartriangle EGF }\\)，\\(S_{ \\vartriangle BEF } =S_{ \\vartriangle GEF }\\)，\n\\(\\therefore S_{ \\vartriangle ABG } =S_{ \\vartriangle AEF }\\)，\\(S_{ \\vartriangle DBG } =S_{ 四边形BDEF }\\)，\n\\(\\because\\)点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，\n\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore \\frac { S_{ \\vartriangle AEF } } { S_{ 四边形BDEF } }=\\frac { S_{ 四边形BDEF } } { S_{ \\vartriangle ABD } }\\)，\n\\(\\therefore\\)直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线．",
+      "solution_steps": [
+        "任务4：",
+        "证明：连接\\(BG\\)，如图：",
+        "〔图4〕",
+        "\\(\\because GF\\parallel BE\\)，",
+        "\\(\\therefore S_{ \\vartriangle BGF } =S_{ \\vartriangle EGF }\\)，\\(S_{ \\vartriangle BEF } =S_{ \\vartriangle GEF }\\)，",
+        "\\(\\therefore S_{ \\vartriangle ABG } =S_{ \\vartriangle AEF }\\)，\\(S_{ \\vartriangle DBG } =S_{ 四边形BDEF }\\)，",
+        "\\(\\because\\)点\\(G\\)是\\(\\vartriangle ABD\\)的边\\(AD\\)的黄金分割点，",
+        "\\(\\therefore \\frac { AG } { DG }=\\frac { DG } { AD }\\)，",
+        "\\(\\therefore \\frac { S_{ \\vartriangle ABG } } { S_{ \\vartriangle DBG } }=\\frac { S_{ \\vartriangle DBG } } { S_{ \\vartriangle ABD } }\\)，",
+        "\\(\\therefore \\frac { S_{ \\vartriangle AEF } } { S_{ 四边形BDEF } }=\\frac { S_{ 四边形BDEF } } { S_{ \\vartriangle ABD } }\\)，",
+        "\\(\\therefore\\)直线\\(EF\\)是\\(\\vartriangle ABD\\)的黄金分割线．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          420,
+          435,
+          443,
+          458,
+          459,
+          467,
+          469,
+          472,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          24,
+          25,
+          26,
+          27
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.01"
+      ],
+      "exam_ids": [
+        "E.G08.01.03"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“识别黄金分割中的整体与部分”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      75,
+      76
+    ],
+    "solution_body_blocks": [
+      417,
+      482
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-CA4475484D/paper-q22-p06.webp",
+      "assets/SZ-G9-T1-CA4475484D/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          729.09,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          43.18,
+          583.64,
+          747.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-CA4475484D/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-CA4475484D/solution-q22-p25.webp",
+      "assets/SZ-G9-T1-CA4475484D/solution-q22-p26.webp",
+      "assets/SZ-G9-T1-CA4475484D/solution-q22-p27.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          184.55,
+          583.64,
+          737.27
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          731.82
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          236.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.01"
+  ],
+  "exam_ids": [
+    "E.G08.01.03"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“识别黄金分割中的整体与部分”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

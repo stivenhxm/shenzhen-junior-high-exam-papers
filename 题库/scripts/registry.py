@@ -11,6 +11,8 @@ G7_INVENTORY = '七年级上学期来源清单.json'
 G7_T2_INVENTORY = '七年级下学期来源清单.json'
 G8_T1_INVENTORY = '八年级上学期来源清单.json'
 G8_T2_INVENTORY = '八年级下学期来源清单.json'
+G9_T1_INVENTORY = '九年级上学期来源清单.json'
+G9_T2_INVENTORY = '九年级下学期来源清单.json'
 
 
 def file_digest(path):
@@ -139,13 +141,15 @@ if __name__ == '__main__':
     cli.add_argument('--audit-g7', action='store_true', help='逐文件核对七上来源清单及其内容指纹')
     cli.add_argument('--audit-g7-t2', action='store_true', help='逐文件核对七下来源清单及其内容指纹')
     cli.add_argument('--audit-g8', action='store_true', help='逐文件核对八年级两个学期的来源清单及其内容指纹')
+    cli.add_argument('--audit-g9', action='store_true', help='核对九年级上下学期及中考模拟资料的来源清单和文件指纹')
     args = cli.parse_args()
     records = json.loads((ROOT/'generated'/NAME).read_text(encoding='utf8'))['papers']
-    if args.audit_g7 or args.audit_g7_t2 or args.audit_g8:
+    if args.audit_g7 or args.audit_g7_t2 or args.audit_g8 or args.audit_g9:
         manifests = [json.loads(f.read_text(encoding='utf8')) for f in (ROOT/'papers').glob('*.json')]
         entries = [make_entry(ROOT.parent,p,0) for p in manifests]
         for selected, name in ((args.audit_g7,G7_INVENTORY),(args.audit_g7_t2,G7_T2_INVENTORY),
-                               (args.audit_g8,G8_T1_INVENTORY),(args.audit_g8,G8_T2_INVENTORY)):
+                               (args.audit_g8,G8_T1_INVENTORY),(args.audit_g8,G8_T2_INVENTORY),
+                               (args.audit_g9,G9_T1_INVENTORY),(args.audit_g9,G9_T2_INVENTORY)):
             if selected:
                 data = attach_inventory(ROOT,entries,audit=True,inventory=name)
                 print(f"{name}覆盖 {len(data['files'])} 个文件，关联 {len({r['paper_id'] for r in data['files']})} 份试卷。")

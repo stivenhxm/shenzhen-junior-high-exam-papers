@@ -1,0 +1,658 @@
+{
+  "id": "SZ-G9-T1-7B64A20EA8-Q20",
+  "paper_id": "SZ-G9-T1-7B64A20EA8",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "将折叠条件转为可计算的几何关系、分解组合图形求边角",
+  "stem": "现在如果我们把平行四边形沿着它的一条对角线翻折，\n【发现与证明】\n\\(▱ABCD\\)中，\\(AB\\ne BC\\)，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．\n结论1：\\(\\vartriangle AB ^ { \\prime } C\\)与\\(▱ABCD\\)重叠部分的图形是等腰三角形；\n结论2：\\(B'D\\parallel AC\\)．\n……\n（1）请利用图1证明结论1或结论2（只需证明一个结论）．\n〔图1〕\n【理解与应用】\n在\\(▱ABCD\\)中，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．\n（2）如图2，已知\\(\\angle B=30{}^\\circ\\)，若\\(AB>BC\\)，\\(\\angle AB'D=15{}^\\circ\\)，则\\(\\angle ACB=\\)______°；\n【探究与拓展】\n在\\(▱ABCD\\)中，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．\n（3）已知\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，翻折后四边形为\\(ACB'D\\)时，如果\\(AB'\\)平分\\(\\angle CB'D\\)，求\\(BC\\)的值；\n（4）已知\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，当\\(\\vartriangle AB'D\\)是直角三角形时，则\\(BC=\\)______．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7B64A20EA8/figures/ce562838f834e2d8c111b7de95d8eb72f39acba0d179a6d286be5052ed24358f.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(135\\)；（3）\\(2\\sqrt[] { 3 }\\)；（4）\\(2\\sqrt[] { 3 }\\)，\\(3\\sqrt[] { 3 }\\)，\\(4\\sqrt[] { 3 }\\)，\\(6\\sqrt[] { 3 }\\)",
+  "answer": "（1）见解析；（2）\\(135\\)；（3）\\(2\\sqrt[] { 3 }\\)；（4）\\(2\\sqrt[] { 3 }\\)，\\(3\\sqrt[] { 3 }\\)，\\(4\\sqrt[] { 3 }\\)，\\(6\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）根据折叠的性质，平行四边形的性质推导出\\(\\angle EAC=\\angle ACE\\)，即可知\\(\\vartriangle ACE\\)是等腰三角形；再由\\(\\angle ACB'=\\angle CB'D\\)，得到\\(AC\\parallel B'D\\)；\n（2）利用结论1和结论2，求解即可；\n（3）过点\\(C\\)作\\(CF\\bot AB ^ { \\prime }\\)交于点\\(F\\)，根据结论1和结论2，结合平行四边形的性质，推导出\\(AC=B'C\\)，由折叠即可知，\\(BC=B'C,\\angle B=\\angle CB'A=30{}^\\circ\\)，求出\\(B'F=AF=3\\)，再由\\(\\angle B=\\angle CB'F=30{}^\\circ\\)，求出\\(CB'\\)，即可求解；\n（4）分三种情况讨论：当\\(\\angle ADB'=90{}^\\circ\\)时，当\\(\\angle DAB'=90{}^\\circ\\)时，当\\(\\angle AB'D=90{}^\\circ\\)时，当\\(\\angle B'AD=90{}^\\circ\\)时，画出图形，结合结论1、结论2分别求解即可．\n【详解】解：（1）由折叠可知\\(\\angle BCA=\\angle ACB'\\)，\n∵在\\(▱ABCD\\)中\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle EAC=\\angle ACB\\)，\n\\(\\therefore \\angle EAC=\\angle ACE\\)，\n\\(\\therefore AE=EC\\)，\n∴\\(\\vartriangle ACE\\)是等腰三角形；\n\\(\\because AD=BC=B'C\\)，\n\\(\\therefore B'E=ED\\)，\n\\(\\because \\angle AEC=\\angle DEB'\\)，\n\\(\\therefore \\angle EDB'=\\angle EB'D\\)，\n\\(\\therefore \\angle ACB'=\\angle CB'D\\)，\n\\(\\therefore AC\\parallel B'D\\)；\n（2）∵\\(\\angle B=30{}^\\circ\\)，\n根据折叠可得\\(\\angle AB'C=\\angle B=30{}^\\circ\\)，\n\\(\\because \\angle AB\\prime D=15{}^\\circ\\)，\n\\(\\therefore \\angle CB\\prime D=45{}^\\circ\\)，\n\\(\\because AC\\parallel B'D\\)，\n\\(\\therefore \\angle B'CA=\\angle BCA=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n故答案为：135；\n（3）如图，过点\\(C\\)作\\(CF\\bot AB ^ { \\prime }\\)交于点\\(F\\)，\n〔图2〕\n\\(\\because AC\\parallel B'D\\)，\n\\(\\therefore \\angle CAB'=\\angle AB\\prime D\\)，\n\\(\\because AB'\\)平分\\(\\angle CB'D\\)，\n\\(\\therefore \\angle CB\\prime A=\\angle AB'D\\)，\n\\(\\therefore \\angle CB'A=\\angle CAB'\\)，\n\\(\\therefore AC=B'C\\)，\n由折叠可知，\\(BC=B'C,\\angle B=\\angle CB'A=30{}^\\circ\\)，\n\\(\\because CF\\bot AB',AB=6\\)，\n\\(\\therefore B'F=AF=3\\)，\n\\(\\because \\angle B=\\angle CB'F=30{}^\\circ\\)，\n\\(\\therefore CB'=\\frac { B'F } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，\n\\(\\therefore BC=2\\sqrt[] { 3 }\\)；\n（4）解：当\\(\\vartriangle AB'D\\)是直角三角形时，分为：\n①如图，当\\(\\angle ADB\\prime =90{}^\\circ\\)时，\n〔图3〕\n由（1）知\\(AC\\parallel B'D\\)，\n∴\\(\\angle CAD=90{}^\\circ\\)，\n由折叠可得\\(AB=AB'\\)\n∵在在\\(▱ABCD\\)中\\(AB=CD\\)，\n∴\\(AD=AD,AB=CD=AB'\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle DB'A\\left ( { HL } \\right )\\)，\n∴\\(AC=DB'\\)，\n∴四边形\\(ACB'D\\)是矩形，\n∴\\(\\vartriangle ACB'\\)是直角三角形，\n由折叠可得\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\\(AB=AB'=6\\)，\n∴\\(B'C=cos30{}^\\circ AB'=3\\sqrt[] { 3 }\\)，\n∴\\(BC=3\\sqrt[] { 3 }\\)；\n②如图，当\\(\\angle DAB\\prime =90{}^\\circ\\)时，\n〔图4〕\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(AB\\parallel DC\\)，\n∴\\(\\angle BAC=\\angle DCA\\)，\n由折叠可知，\\(\\angle BAC=\\angle B ^ { \\prime } AC\\)，\n∴\\(\\angle ACE=\\angle EAC\\)，\n∴\\(EC=EA\\)，\n由（1）知\\(AC\\parallel B'D\\)，\n\\(\\therefore \\angle CAB'=\\angle AB'D\\)，\n由折叠可知\\(B'C=BC,AB=AB'\\)，\n∴\\(B'C=BC=AC,CD=AB=AB'\\)，\n∵\\(B'D=B'D,AB'=CD,CB'=AD\\)，\n∴\\(\\vartriangle B'AD≌\\vartriangle DCB'\\left ( { SSS } \\right )\\)，\n∴\\(\\angle DCB'=\\angle B'DA=90{}^\\circ\\)，\n∵\\(\\angle B=30{}^\\circ\\)，\n∴\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\n设\\(CE=AE=x\\)，则\\(B'E=2x,B'C=\\sqrt[] { 3 }x\\)，\n∴\\(AB'=2x+x=6\\)，\n∴\\(x=2\\)，\n∴\\(B ^ { \\prime } C=2\\sqrt[] { 3 }\\)，\n∴\\(BC=2\\sqrt[] { 3 }\\)；\n③如图，当\\(\\angle AB\\prime D=90{}^\\circ\\)时，\n〔图5〕\n由（1）知\\(AC\\parallel B'D\\)，\n\\(\\therefore \\angle B'AC=90{}^\\circ\\)，\n由折叠可知，\\(\\angle BAC=\\angle B'AC=90{}^\\circ\\)，\n∵\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，\n∴\\(BC=\\frac { AB } { cos30{}^\\circ }=4\\sqrt[] { 3 }\\)；\n④如图，当\\(\\angle DAB'=90{}^\\circ\\)时，\n〔图6〕\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(BC\\parallel AD\\)，\n∴\\(\\angle BCA=\\angle DAC\\)，\n由折叠可知，\\(\\angle BCA=\\angle B ^ { \\prime } CA\\)，\n∴\\(\\angle ACE=\\angle EAC\\)，\n∴\\(EC=EA\\)，\n由折叠可知，\\(BC=B'C,AB=A'B=6,\\angle B=\\angle AB'C=30{}^\\circ\\)，\n∴\\(CE=AE=tan30{}^\\circ AB'=2\\sqrt[] { 3 }\\)，\n∴\\(B'E=2AE=4\\sqrt[] { 3 }\\)，\n∴\\(B'C=B'E+CE=6\\sqrt[] { 3 }\\)；\n综上所述：\\(BC\\)的值为\\(2\\sqrt[] { 3 }\\)或\\(3\\sqrt[] { 3 }\\)或\\(4\\sqrt[] { 3 }\\)或\\(6\\sqrt[] { 3 }\\)．\n【点睛】本题考查四边形的综合应用，熟练掌握平行四边形的性质，矩形的性质和判定，折叠的性质，直角三角形的性质，解直角三角形，平行线的性质，全等三角形的判定及性质等知识点，数形结合解题是关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7B64A20EA8/figures/ce562838f834e2d8c111b7de95d8eb72f39acba0d179a6d286be5052ed24358f.png",
+    "assets/SZ-G9-T1-7B64A20EA8/figures/213dcd96425c3b9a08894b6ea347a2ab655f47ed1b94c7a8757bf993acf892b8.png",
+    "assets/SZ-G9-T1-7B64A20EA8/figures/f7cb736bf93bba5175c078a2a91db420faedd1503b27fb5134538ad4f8343058.png",
+    "assets/SZ-G9-T1-7B64A20EA8/figures/d8dd3c698ff3e9df46340c0f6e51d22fa53d5fe1d1f94d4143be451f3cbcb472.png",
+    "assets/SZ-G9-T1-7B64A20EA8/figures/ee6f627c11eb8cd3d69c67d93a96e8b901f8679b1eb77799098cb96de7c89373.png",
+    "assets/SZ-G9-T1-7B64A20EA8/figures/677c743bb21bc72af7c526d58ea42123931475ae442e24e11ddd81b7fb1d53fa.png"
+  ],
+  "solution": "解：（1）由折叠可知\\(\\angle BCA=\\angle ACB'\\)，\n∵在\\(▱ABCD\\)中\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle EAC=\\angle ACB\\)，\n\\(\\therefore \\angle EAC=\\angle ACE\\)，\n\\(\\therefore AE=EC\\)，\n∴\\(\\vartriangle ACE\\)是等腰三角形；\n\\(\\because AD=BC=B'C\\)，\n\\(\\therefore B'E=ED\\)，\n\\(\\because \\angle AEC=\\angle DEB'\\)，\n\\(\\therefore \\angle EDB'=\\angle EB'D\\)，\n\\(\\therefore \\angle ACB'=\\angle CB'D\\)，\n\\(\\therefore AC\\parallel B'D\\)；\n（2）∵\\(\\angle B=30{}^\\circ\\)，\n根据折叠可得\\(\\angle AB'C=\\angle B=30{}^\\circ\\)，\n\\(\\because \\angle AB\\prime D=15{}^\\circ\\)，\n\\(\\therefore \\angle CB\\prime D=45{}^\\circ\\)，\n\\(\\because AC\\parallel B'D\\)，\n\\(\\therefore \\angle B'CA=\\angle BCA=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n故答案为：135；\n（3）如图，过点\\(C\\)作\\(CF\\bot AB ^ { \\prime }\\)交于点\\(F\\)，\n〔图2〕\n\\(\\because AC\\parallel B'D\\)，\n\\(\\therefore \\angle CAB'=\\angle AB\\prime D\\)，\n\\(\\because AB'\\)平分\\(\\angle CB'D\\)，\n\\(\\therefore \\angle CB\\prime A=\\angle AB'D\\)，\n\\(\\therefore \\angle CB'A=\\angle CAB'\\)，\n\\(\\therefore AC=B'C\\)，\n由折叠可知，\\(BC=B'C,\\angle B=\\angle CB'A=30{}^\\circ\\)，\n\\(\\because CF\\bot AB',AB=6\\)，\n\\(\\therefore B'F=AF=3\\)，\n\\(\\because \\angle B=\\angle CB'F=30{}^\\circ\\)，\n\\(\\therefore CB'=\\frac { B'F } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，\n\\(\\therefore BC=2\\sqrt[] { 3 }\\)；\n（4）解：当\\(\\vartriangle AB'D\\)是直角三角形时，分为：\n①如图，当\\(\\angle ADB\\prime =90{}^\\circ\\)时，\n〔图3〕\n由（1）知\\(AC\\parallel B'D\\)，\n∴\\(\\angle CAD=90{}^\\circ\\)，\n由折叠可得\\(AB=AB'\\)\n∵在在\\(▱ABCD\\)中\\(AB=CD\\)，\n∴\\(AD=AD,AB=CD=AB'\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle DB'A\\left ( { HL } \\right )\\)，\n∴\\(AC=DB'\\)，\n∴四边形\\(ACB'D\\)是矩形，\n∴\\(\\vartriangle ACB'\\)是直角三角形，\n由折叠可得\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\\(AB=AB'=6\\)，\n∴\\(B'C=cos30{}^\\circ AB'=3\\sqrt[] { 3 }\\)，\n∴\\(BC=3\\sqrt[] { 3 }\\)；\n②如图，当\\(\\angle DAB\\prime =90{}^\\circ\\)时，\n〔图4〕\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(AB\\parallel DC\\)，\n∴\\(\\angle BAC=\\angle DCA\\)，\n由折叠可知，\\(\\angle BAC=\\angle B ^ { \\prime } AC\\)，\n∴\\(\\angle ACE=\\angle EAC\\)，\n∴\\(EC=EA\\)，\n由（1）知\\(AC\\parallel B'D\\)，\n\\(\\therefore \\angle CAB'=\\angle AB'D\\)，\n由折叠可知\\(B'C=BC,AB=AB'\\)，\n∴\\(B'C=BC=AC,CD=AB=AB'\\)，\n∵\\(B'D=B'D,AB'=CD,CB'=AD\\)，\n∴\\(\\vartriangle B'AD≌\\vartriangle DCB'\\left ( { SSS } \\right )\\)，\n∴\\(\\angle DCB'=\\angle B'DA=90{}^\\circ\\)，\n∵\\(\\angle B=30{}^\\circ\\)，\n∴\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\n设\\(CE=AE=x\\)，则\\(B'E=2x,B'C=\\sqrt[] { 3 }x\\)，\n∴\\(AB'=2x+x=6\\)，\n∴\\(x=2\\)，\n∴\\(B ^ { \\prime } C=2\\sqrt[] { 3 }\\)，\n∴\\(BC=2\\sqrt[] { 3 }\\)；\n③如图，当\\(\\angle AB\\prime D=90{}^\\circ\\)时，\n〔图5〕\n由（1）知\\(AC\\parallel B'D\\)，\n\\(\\therefore \\angle B'AC=90{}^\\circ\\)，\n由折叠可知，\\(\\angle BAC=\\angle B'AC=90{}^\\circ\\)，\n∵\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，\n∴\\(BC=\\frac { AB } { cos30{}^\\circ }=4\\sqrt[] { 3 }\\)；\n④如图，当\\(\\angle DAB'=90{}^\\circ\\)时，\n〔图6〕\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(BC\\parallel AD\\)，\n∴\\(\\angle BCA=\\angle DAC\\)，\n由折叠可知，\\(\\angle BCA=\\angle B ^ { \\prime } CA\\)，\n∴\\(\\angle ACE=\\angle EAC\\)，\n∴\\(EC=EA\\)，\n由折叠可知，\\(BC=B'C,AB=A'B=6,\\angle B=\\angle AB'C=30{}^\\circ\\)，\n∴\\(CE=AE=tan30{}^\\circ AB'=2\\sqrt[] { 3 }\\)，\n∴\\(B'E=2AE=4\\sqrt[] { 3 }\\)，\n∴\\(B'C=B'E+CE=6\\sqrt[] { 3 }\\)；\n综上所述：\\(BC\\)的值为\\(2\\sqrt[] { 3 }\\)或\\(3\\sqrt[] { 3 }\\)或\\(4\\sqrt[] { 3 }\\)或\\(6\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）由折叠可知\\(\\angle BCA=\\angle ACB'\\)，",
+    "∵在\\(▱ABCD\\)中\\(AD\\parallel BC\\)，",
+    "\\(\\therefore \\angle EAC=\\angle ACB\\)，",
+    "\\(\\therefore \\angle EAC=\\angle ACE\\)，",
+    "\\(\\therefore AE=EC\\)，",
+    "∴\\(\\vartriangle ACE\\)是等腰三角形；",
+    "\\(\\because AD=BC=B'C\\)，",
+    "\\(\\therefore B'E=ED\\)，",
+    "\\(\\because \\angle AEC=\\angle DEB'\\)，",
+    "\\(\\therefore \\angle EDB'=\\angle EB'D\\)，",
+    "\\(\\therefore \\angle ACB'=\\angle CB'D\\)，",
+    "\\(\\therefore AC\\parallel B'D\\)；",
+    "（2）∵\\(\\angle B=30{}^\\circ\\)，",
+    "根据折叠可得\\(\\angle AB'C=\\angle B=30{}^\\circ\\)，",
+    "\\(\\because \\angle AB\\prime D=15{}^\\circ\\)，",
+    "\\(\\therefore \\angle CB\\prime D=45{}^\\circ\\)，",
+    "\\(\\because AC\\parallel B'D\\)，",
+    "\\(\\therefore \\angle B'CA=\\angle BCA=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+    "故答案为：135；",
+    "（3）如图，过点\\(C\\)作\\(CF\\bot AB ^ { \\prime }\\)交于点\\(F\\)，",
+    "〔图2〕",
+    "\\(\\because AC\\parallel B'D\\)，",
+    "\\(\\therefore \\angle CAB'=\\angle AB\\prime D\\)，",
+    "\\(\\because AB'\\)平分\\(\\angle CB'D\\)，",
+    "\\(\\therefore \\angle CB\\prime A=\\angle AB'D\\)，",
+    "\\(\\therefore \\angle CB'A=\\angle CAB'\\)，",
+    "\\(\\therefore AC=B'C\\)，",
+    "由折叠可知，\\(BC=B'C,\\angle B=\\angle CB'A=30{}^\\circ\\)，",
+    "\\(\\because CF\\bot AB',AB=6\\)，",
+    "\\(\\therefore B'F=AF=3\\)，",
+    "\\(\\because \\angle B=\\angle CB'F=30{}^\\circ\\)，",
+    "\\(\\therefore CB'=\\frac { B'F } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore BC=2\\sqrt[] { 3 }\\)；",
+    "（4）解：当\\(\\vartriangle AB'D\\)是直角三角形时，分为：",
+    "①如图，当\\(\\angle ADB\\prime =90{}^\\circ\\)时，",
+    "〔图3〕",
+    "由（1）知\\(AC\\parallel B'D\\)，",
+    "∴\\(\\angle CAD=90{}^\\circ\\)，",
+    "由折叠可得\\(AB=AB'\\)",
+    "∵在在\\(▱ABCD\\)中\\(AB=CD\\)，",
+    "∴\\(AD=AD,AB=CD=AB'\\)，",
+    "∴\\(\\vartriangle ACD≌\\vartriangle DB'A\\left ( { HL } \\right )\\)，",
+    "∴\\(AC=DB'\\)，",
+    "∴四边形\\(ACB'D\\)是矩形，",
+    "∴\\(\\vartriangle ACB'\\)是直角三角形，",
+    "由折叠可得\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\\(AB=AB'=6\\)，",
+    "∴\\(B'C=cos30{}^\\circ AB'=3\\sqrt[] { 3 }\\)，",
+    "∴\\(BC=3\\sqrt[] { 3 }\\)；",
+    "②如图，当\\(\\angle DAB\\prime =90{}^\\circ\\)时，",
+    "〔图4〕",
+    "∵四边形\\(ABCD\\)是平行四边形，",
+    "∴\\(AB\\parallel DC\\)，",
+    "∴\\(\\angle BAC=\\angle DCA\\)，",
+    "由折叠可知，\\(\\angle BAC=\\angle B ^ { \\prime } AC\\)，",
+    "∴\\(\\angle ACE=\\angle EAC\\)，",
+    "∴\\(EC=EA\\)，",
+    "由（1）知\\(AC\\parallel B'D\\)，",
+    "\\(\\therefore \\angle CAB'=\\angle AB'D\\)，",
+    "由折叠可知\\(B'C=BC,AB=AB'\\)，",
+    "∴\\(B'C=BC=AC,CD=AB=AB'\\)，",
+    "∵\\(B'D=B'D,AB'=CD,CB'=AD\\)，",
+    "∴\\(\\vartriangle B'AD≌\\vartriangle DCB'\\left ( { SSS } \\right )\\)，",
+    "∴\\(\\angle DCB'=\\angle B'DA=90{}^\\circ\\)，",
+    "∵\\(\\angle B=30{}^\\circ\\)，",
+    "∴\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，",
+    "设\\(CE=AE=x\\)，则\\(B'E=2x,B'C=\\sqrt[] { 3 }x\\)，",
+    "∴\\(AB'=2x+x=6\\)，",
+    "∴\\(x=2\\)，",
+    "∴\\(B ^ { \\prime } C=2\\sqrt[] { 3 }\\)，",
+    "∴\\(BC=2\\sqrt[] { 3 }\\)；",
+    "③如图，当\\(\\angle AB\\prime D=90{}^\\circ\\)时，",
+    "〔图5〕",
+    "由（1）知\\(AC\\parallel B'D\\)，",
+    "\\(\\therefore \\angle B'AC=90{}^\\circ\\)，",
+    "由折叠可知，\\(\\angle BAC=\\angle B'AC=90{}^\\circ\\)，",
+    "∵\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，",
+    "∴\\(BC=\\frac { AB } { cos30{}^\\circ }=4\\sqrt[] { 3 }\\)；",
+    "④如图，当\\(\\angle DAB'=90{}^\\circ\\)时，",
+    "〔图6〕",
+    "∵四边形\\(ABCD\\)是平行四边形，",
+    "∴\\(BC\\parallel AD\\)，",
+    "∴\\(\\angle BCA=\\angle DAC\\)，",
+    "由折叠可知，\\(\\angle BCA=\\angle B ^ { \\prime } CA\\)，",
+    "∴\\(\\angle ACE=\\angle EAC\\)，",
+    "∴\\(EC=EA\\)，",
+    "由折叠可知，\\(BC=B'C,AB=A'B=6,\\angle B=\\angle AB'C=30{}^\\circ\\)，",
+    "∴\\(CE=AE=tan30{}^\\circ AB'=2\\sqrt[] { 3 }\\)，",
+    "∴\\(B'E=2AE=4\\sqrt[] { 3 }\\)，",
+    "∴\\(B'C=B'E+CE=6\\sqrt[] { 3 }\\)；",
+    "综上所述：\\(BC\\)的值为\\(2\\sqrt[] { 3 }\\)或\\(3\\sqrt[] { 3 }\\)或\\(4\\sqrt[] { 3 }\\)或\\(6\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "现在如果我们把平行四边形沿着它的一条对角线翻折，\n【发现与证明】\n\\(▱ABCD\\)中，\\(AB\\ne BC\\)，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．\n结论1：\\(\\vartriangle AB ^ { \\prime } C\\)与\\(▱ABCD\\)重叠部分的图形是等腰三角形；\n结论2：\\(B'D\\parallel AC\\)．\n……",
+      "paper_blocks": [
+        66,
+        67,
+        68,
+        69,
+        70,
+        71
+      ]
+    },
+    {
+      "id": "fig-73",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        73
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7B64A20EA8-Q20-P01",
+      "label": "（1）",
+      "prompt": "请利用图1证明结论1或结论2（只需证明一个结论）．\n\n【理解与应用】\n在\\(▱ABCD\\)中，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．",
+      "stem_text": "请利用图1证明结论1或结论2（只需证明一个结论）．\n\n【理解与应用】\n在\\(▱ABCD\\)中，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．",
+      "material_ids": [
+        "context",
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "由折叠可知\\(\\angle BCA=\\angle ACB'\\)，\n∵在\\(▱ABCD\\)中\\(AD\\parallel BC\\)，\n\\(\\therefore \\angle EAC=\\angle ACB\\)，\n\\(\\therefore \\angle EAC=\\angle ACE\\)，\n\\(\\therefore AE=EC\\)，\n∴\\(\\vartriangle ACE\\)是等腰三角形；\n\\(\\because AD=BC=B'C\\)，\n\\(\\therefore B'E=ED\\)，\n\\(\\because \\angle AEC=\\angle DEB'\\)，\n\\(\\therefore \\angle EDB'=\\angle EB'D\\)，\n\\(\\therefore \\angle ACB'=\\angle CB'D\\)，\n\\(\\therefore AC\\parallel B'D\\)；",
+      "solution_steps": [
+        "由折叠可知\\(\\angle BCA=\\angle ACB'\\)，",
+        "∵在\\(▱ABCD\\)中\\(AD\\parallel BC\\)，",
+        "\\(\\therefore \\angle EAC=\\angle ACB\\)，",
+        "\\(\\therefore \\angle EAC=\\angle ACE\\)，",
+        "\\(\\therefore AE=EC\\)，",
+        "∴\\(\\vartriangle ACE\\)是等腰三角形；",
+        "\\(\\because AD=BC=B'C\\)，",
+        "\\(\\therefore B'E=ED\\)，",
+        "\\(\\because \\angle AEC=\\angle DEB'\\)，",
+        "\\(\\therefore \\angle EDB'=\\angle EB'D\\)，",
+        "\\(\\therefore \\angle ACB'=\\angle CB'D\\)，",
+        "\\(\\therefore AC\\parallel B'D\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7B64A20EA8-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，已知\\(\\angle B=30{}^\\circ\\)，若\\(AB>BC\\)，\\(\\angle AB'D=15{}^\\circ\\)，则\\(\\angle ACB=\\)______°；\n【探究与拓展】\n在\\(▱ABCD\\)中，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．",
+      "stem_text": "如图2，已知\\(\\angle B=30{}^\\circ\\)，若\\(AB>BC\\)，\\(\\angle AB'D=15{}^\\circ\\)，则\\(\\angle ACB=\\)______°；\n【探究与拓展】\n在\\(▱ABCD\\)中，将\\(\\vartriangle ABC\\)沿\\(AC\\)翻折至\\(\\vartriangle AB ^ { \\prime } C\\)，连结\\(B'D\\)．",
+      "material_ids": [
+        "context",
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "\\(135\\)；",
+      "answer": "\\(135\\)；",
+      "given_solution": "∵\\(\\angle B=30{}^\\circ\\)，\n根据折叠可得\\(\\angle AB'C=\\angle B=30{}^\\circ\\)，\n\\(\\because \\angle AB\\prime D=15{}^\\circ\\)，\n\\(\\therefore \\angle CB\\prime D=45{}^\\circ\\)，\n\\(\\because AC\\parallel B'D\\)，\n\\(\\therefore \\angle B'CA=\\angle BCA=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n故答案为：135；",
+      "solution_steps": [
+        "∵\\(\\angle B=30{}^\\circ\\)，",
+        "根据折叠可得\\(\\angle AB'C=\\angle B=30{}^\\circ\\)，",
+        "\\(\\because \\angle AB\\prime D=15{}^\\circ\\)，",
+        "\\(\\therefore \\angle CB\\prime D=45{}^\\circ\\)，",
+        "\\(\\because AC\\parallel B'D\\)，",
+        "\\(\\therefore \\angle B'CA=\\angle BCA=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+        "故答案为：135；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          76,
+          77,
+          78
+        ],
+        "solution_block_ids": [
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7B64A20EA8-Q20-P03",
+      "label": "（3）",
+      "prompt": "已知\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，翻折后四边形为\\(ACB'D\\)时，如果\\(AB'\\)平分\\(\\angle CB'D\\)，求\\(BC\\)的值；",
+      "stem_text": "已知\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，翻折后四边形为\\(ACB'D\\)时，如果\\(AB'\\)平分\\(\\angle CB'D\\)，求\\(BC\\)的值；",
+      "material_ids": [
+        "context",
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }\\)；",
+      "answer": "\\(2\\sqrt[] { 3 }\\)；",
+      "given_solution": "如图，过点\\(C\\)作\\(CF\\bot AB ^ { \\prime }\\)交于点\\(F\\)，\n〔图2〕\n\\(\\because AC\\parallel B'D\\)，\n\\(\\therefore \\angle CAB'=\\angle AB\\prime D\\)，\n\\(\\because AB'\\)平分\\(\\angle CB'D\\)，\n\\(\\therefore \\angle CB\\prime A=\\angle AB'D\\)，\n\\(\\therefore \\angle CB'A=\\angle CAB'\\)，\n\\(\\therefore AC=B'C\\)，\n由折叠可知，\\(BC=B'C,\\angle B=\\angle CB'A=30{}^\\circ\\)，\n\\(\\because CF\\bot AB',AB=6\\)，\n\\(\\therefore B'F=AF=3\\)，\n\\(\\because \\angle B=\\angle CB'F=30{}^\\circ\\)，\n\\(\\therefore CB'=\\frac { B'F } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，\n\\(\\therefore BC=2\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "如图，过点\\(C\\)作\\(CF\\bot AB ^ { \\prime }\\)交于点\\(F\\)，",
+        "〔图2〕",
+        "\\(\\because AC\\parallel B'D\\)，",
+        "\\(\\therefore \\angle CAB'=\\angle AB\\prime D\\)，",
+        "\\(\\because AB'\\)平分\\(\\angle CB'D\\)，",
+        "\\(\\therefore \\angle CB\\prime A=\\angle AB'D\\)，",
+        "\\(\\therefore \\angle CB'A=\\angle CAB'\\)，",
+        "\\(\\therefore AC=B'C\\)，",
+        "由折叠可知，\\(BC=B'C,\\angle B=\\angle CB'A=30{}^\\circ\\)，",
+        "\\(\\because CF\\bot AB',AB=6\\)，",
+        "\\(\\therefore B'F=AF=3\\)，",
+        "\\(\\because \\angle B=\\angle CB'F=30{}^\\circ\\)，",
+        "\\(\\therefore CB'=\\frac { B'F } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore BC=2\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          79
+        ],
+        "solution_block_ids": [
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7B64A20EA8-Q20-P04",
+      "label": "（4）",
+      "prompt": "已知\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，当\\(\\vartriangle AB'D\\)是直角三角形时，则\\(BC=\\)______．",
+      "stem_text": "已知\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，当\\(\\vartriangle AB'D\\)是直角三角形时，则\\(BC=\\)______．",
+      "material_ids": [
+        "context",
+        "fig-73"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }\\)，\\(3\\sqrt[] { 3 }\\)，\\(4\\sqrt[] { 3 }\\)，\\(6\\sqrt[] { 3 }\\)",
+      "answer": "\\(2\\sqrt[] { 3 }\\)，\\(3\\sqrt[] { 3 }\\)，\\(4\\sqrt[] { 3 }\\)，\\(6\\sqrt[] { 3 }\\)",
+      "given_solution": "解：当\\(\\vartriangle AB'D\\)是直角三角形时，分为：\n①如图，当\\(\\angle ADB\\prime =90{}^\\circ\\)时，\n〔图3〕\n由（1）知\\(AC\\parallel B'D\\)，\n∴\\(\\angle CAD=90{}^\\circ\\)，\n由折叠可得\\(AB=AB'\\)\n∵在在\\(▱ABCD\\)中\\(AB=CD\\)，\n∴\\(AD=AD,AB=CD=AB'\\)，\n∴\\(\\vartriangle ACD≌\\vartriangle DB'A\\left ( { HL } \\right )\\)，\n∴\\(AC=DB'\\)，\n∴四边形\\(ACB'D\\)是矩形，\n∴\\(\\vartriangle ACB'\\)是直角三角形，\n由折叠可得\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\\(AB=AB'=6\\)，\n∴\\(B'C=cos30{}^\\circ AB'=3\\sqrt[] { 3 }\\)，\n∴\\(BC=3\\sqrt[] { 3 }\\)；\n②如图，当\\(\\angle DAB\\prime =90{}^\\circ\\)时，\n〔图4〕\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(AB\\parallel DC\\)，\n∴\\(\\angle BAC=\\angle DCA\\)，\n由折叠可知，\\(\\angle BAC=\\angle B ^ { \\prime } AC\\)，\n∴\\(\\angle ACE=\\angle EAC\\)，\n∴\\(EC=EA\\)，\n由（1）知\\(AC\\parallel B'D\\)，\n\\(\\therefore \\angle CAB'=\\angle AB'D\\)，\n由折叠可知\\(B'C=BC,AB=AB'\\)，\n∴\\(B'C=BC=AC,CD=AB=AB'\\)，\n∵\\(B'D=B'D,AB'=CD,CB'=AD\\)，\n∴\\(\\vartriangle B'AD≌\\vartriangle DCB'\\left ( { SSS } \\right )\\)，\n∴\\(\\angle DCB'=\\angle B'DA=90{}^\\circ\\)，\n∵\\(\\angle B=30{}^\\circ\\)，\n∴\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\n设\\(CE=AE=x\\)，则\\(B'E=2x,B'C=\\sqrt[] { 3 }x\\)，\n∴\\(AB'=2x+x=6\\)，\n∴\\(x=2\\)，\n∴\\(B ^ { \\prime } C=2\\sqrt[] { 3 }\\)，\n∴\\(BC=2\\sqrt[] { 3 }\\)；\n③如图，当\\(\\angle AB\\prime D=90{}^\\circ\\)时，\n〔图5〕\n由（1）知\\(AC\\parallel B'D\\)，\n\\(\\therefore \\angle B'AC=90{}^\\circ\\)，\n由折叠可知，\\(\\angle BAC=\\angle B'AC=90{}^\\circ\\)，\n∵\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，\n∴\\(BC=\\frac { AB } { cos30{}^\\circ }=4\\sqrt[] { 3 }\\)；\n④如图，当\\(\\angle DAB'=90{}^\\circ\\)时，\n〔图6〕\n∵四边形\\(ABCD\\)是平行四边形，\n∴\\(BC\\parallel AD\\)，\n∴\\(\\angle BCA=\\angle DAC\\)，\n由折叠可知，\\(\\angle BCA=\\angle B ^ { \\prime } CA\\)，\n∴\\(\\angle ACE=\\angle EAC\\)，\n∴\\(EC=EA\\)，\n由折叠可知，\\(BC=B'C,AB=A'B=6,\\angle B=\\angle AB'C=30{}^\\circ\\)，\n∴\\(CE=AE=tan30{}^\\circ AB'=2\\sqrt[] { 3 }\\)，\n∴\\(B'E=2AE=4\\sqrt[] { 3 }\\)，\n∴\\(B'C=B'E+CE=6\\sqrt[] { 3 }\\)；\n综上所述：\\(BC\\)的值为\\(2\\sqrt[] { 3 }\\)或\\(3\\sqrt[] { 3 }\\)或\\(4\\sqrt[] { 3 }\\)或\\(6\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：当\\(\\vartriangle AB'D\\)是直角三角形时，分为：",
+        "①如图，当\\(\\angle ADB\\prime =90{}^\\circ\\)时，",
+        "〔图3〕",
+        "由（1）知\\(AC\\parallel B'D\\)，",
+        "∴\\(\\angle CAD=90{}^\\circ\\)，",
+        "由折叠可得\\(AB=AB'\\)",
+        "∵在在\\(▱ABCD\\)中\\(AB=CD\\)，",
+        "∴\\(AD=AD,AB=CD=AB'\\)，",
+        "∴\\(\\vartriangle ACD≌\\vartriangle DB'A\\left ( { HL } \\right )\\)，",
+        "∴\\(AC=DB'\\)，",
+        "∴四边形\\(ACB'D\\)是矩形，",
+        "∴\\(\\vartriangle ACB'\\)是直角三角形，",
+        "由折叠可得\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，\\(AB=AB'=6\\)，",
+        "∴\\(B'C=cos30{}^\\circ AB'=3\\sqrt[] { 3 }\\)，",
+        "∴\\(BC=3\\sqrt[] { 3 }\\)；",
+        "②如图，当\\(\\angle DAB\\prime =90{}^\\circ\\)时，",
+        "〔图4〕",
+        "∵四边形\\(ABCD\\)是平行四边形，",
+        "∴\\(AB\\parallel DC\\)，",
+        "∴\\(\\angle BAC=\\angle DCA\\)，",
+        "由折叠可知，\\(\\angle BAC=\\angle B ^ { \\prime } AC\\)，",
+        "∴\\(\\angle ACE=\\angle EAC\\)，",
+        "∴\\(EC=EA\\)，",
+        "由（1）知\\(AC\\parallel B'D\\)，",
+        "\\(\\therefore \\angle CAB'=\\angle AB'D\\)，",
+        "由折叠可知\\(B'C=BC,AB=AB'\\)，",
+        "∴\\(B'C=BC=AC,CD=AB=AB'\\)，",
+        "∵\\(B'D=B'D,AB'=CD,CB'=AD\\)，",
+        "∴\\(\\vartriangle B'AD≌\\vartriangle DCB'\\left ( { SSS } \\right )\\)，",
+        "∴\\(\\angle DCB'=\\angle B'DA=90{}^\\circ\\)，",
+        "∵\\(\\angle B=30{}^\\circ\\)，",
+        "∴\\(\\angle B=\\angle AB'C=30{}^\\circ\\)，",
+        "设\\(CE=AE=x\\)，则\\(B'E=2x,B'C=\\sqrt[] { 3 }x\\)，",
+        "∴\\(AB'=2x+x=6\\)，",
+        "∴\\(x=2\\)，",
+        "∴\\(B ^ { \\prime } C=2\\sqrt[] { 3 }\\)，",
+        "∴\\(BC=2\\sqrt[] { 3 }\\)；",
+        "③如图，当\\(\\angle AB\\prime D=90{}^\\circ\\)时，",
+        "〔图5〕",
+        "由（1）知\\(AC\\parallel B'D\\)，",
+        "\\(\\therefore \\angle B'AC=90{}^\\circ\\)，",
+        "由折叠可知，\\(\\angle BAC=\\angle B'AC=90{}^\\circ\\)，",
+        "∵\\(\\angle B=30{}^\\circ\\)，\\(AB=6\\)，",
+        "∴\\(BC=\\frac { AB } { cos30{}^\\circ }=4\\sqrt[] { 3 }\\)；",
+        "④如图，当\\(\\angle DAB'=90{}^\\circ\\)时，",
+        "〔图6〕",
+        "∵四边形\\(ABCD\\)是平行四边形，",
+        "∴\\(BC\\parallel AD\\)，",
+        "∴\\(\\angle BCA=\\angle DAC\\)，",
+        "由折叠可知，\\(\\angle BCA=\\angle B ^ { \\prime } CA\\)，",
+        "∴\\(\\angle ACE=\\angle EAC\\)，",
+        "∴\\(EC=EA\\)，",
+        "由折叠可知，\\(BC=B'C,AB=A'B=6,\\angle B=\\angle AB'C=30{}^\\circ\\)，",
+        "∴\\(CE=AE=tan30{}^\\circ AB'=2\\sqrt[] { 3 }\\)，",
+        "∴\\(B'E=2AE=4\\sqrt[] { 3 }\\)，",
+        "∴\\(B'C=B'E+CE=6\\sqrt[] { 3 }\\)；",
+        "综上所述：\\(BC\\)的值为\\(2\\sqrt[] { 3 }\\)或\\(3\\sqrt[] { 3 }\\)或\\(4\\sqrt[] { 3 }\\)或\\(6\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          73,
+          80
+        ],
+        "solution_block_ids": [
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22,
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      80
+    ],
+    "solution_body_blocks": [
+      345,
+      456
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7B64A20EA8/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          276.36,
+          583.64,
+          760.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7B64A20EA8/solution-q20-p19.webp",
+      "assets/SZ-G9-T1-7B64A20EA8/solution-q20-p20.webp",
+      "assets/SZ-G9-T1-7B64A20EA8/solution-q20-p21.webp",
+      "assets/SZ-G9-T1-7B64A20EA8/solution-q20-p22.webp",
+      "assets/SZ-G9-T1-7B64A20EA8/solution-q20-p23.webp",
+      "assets/SZ-G9-T1-7B64A20EA8/solution-q20-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          543.18,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          751.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          764.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          142.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G07.01",
+    "M.G10.02",
+    "M.G03.02",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02",
+    "E.G10.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。 本问题面与解答对应“分解组合图形求边角”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

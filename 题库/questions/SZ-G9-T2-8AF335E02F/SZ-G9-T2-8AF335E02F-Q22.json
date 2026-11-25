@@ -1,0 +1,153 @@
+{
+  "id": "SZ-G9-T2-8AF335E02F-Q22",
+  "paper_id": "SZ-G9-T2-8AF335E02F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "问题背景：如图1，在四边形\\(ABDC\\)中，点F，E，G分别在\\(AB，AD，AC\\)上，\\(EF\\parallel BD\\)，\\(EG\\parallel CD\\)，求证：\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)\n尝试应用：如图 2，\\(AM\\)是\\(\\vartriangle ABC\\)的中线，点E在\\(AM\\)上，直线\\(BE\\)交\\(AC\\)于点G，直线\\(CE\\)交\\(AB\\)于点F，若\\(\\frac { BE } { EC }＝\\sqrt[] { 2 }\\)，求\\(\\frac { EF } { EG }\\)的值．\n迁移拓展：如图3，在等边\\(\\vartriangle ABC\\)中，点D在\\(BC\\)上，点E在\\(AD\\)上，若\\(BD=mDC\\)，\\(\\angle BEC=120{}^\\circ\\)，直接写出\\(\\frac { BE } { CE }\\)的值．（用含m的式子表示）\n〔图1〕  〔图2〕  〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/13/13719d1c9f9be0d0ebbeab572e51f43c7a967c8fdf934cdb4129e6c8ce217810.png",
+    "assets/figures/e4/e4ffb593c0efbd2c7e4cad2677c0843e3670361727ddcbe92d496b5a653f713d.png",
+    "assets/figures/e9/e9dac1e8e063077bc0be95b9c5591aeb01d7ddadd102a1978e0fa2906dc913b0.png"
+  ],
+  "tables": [],
+  "given_answer": "问题背景：见解析；尝试应用：\\(\\frac { \\sqrt[] { 2 } } { 2 }\\)；迁移拓展：\\(\\sqrt[] { m }\\)",
+  "answer": "问题背景：见解析；尝试应用：\\(\\frac { \\sqrt[] { 2 } } { 2 }\\)；迁移拓展：\\(\\sqrt[] { m }\\)",
+  "given_solution": "【分析】问题背景：根据\\(EF\\parallel BD\\)，\\(EG\\parallel CD\\)，推出\\(\\vartriangle AFE\\backsim \\vartriangle ABD,\\vartriangle AEG\\backsim \\vartriangle ADC\\)，根据对应边成比例即可得到结论；\n尝试应用：延长\\(EM\\)至D，使得\\(EM=MD\\)，连接\\(DB，DC\\)， 证得四边形\\(BECD\\)是平行四边形，得到\\(BD=EC,EF\\parallel BD,BE=DC,EG\\parallel DC\\)，由图（1）得，\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)，即可得到\\(\\frac { EF } { EG }=\\frac { EC } { BE }\\)，利用\\(\\frac { BE } { EC }＝\\sqrt[] { 2 }\\)，得到\\(\\frac { EF } { EG }=\\frac { \\sqrt[] { 2 } } { 2 }\\)；\n迁移拓展：过点E作\\(MN\\parallel BC\\)，交\\(AB\\)于点M，交\\(AC\\)于点N，得到\\(\\vartriangle AMN\\)也是等边三角形，推出\\(AM=AN,BM=CN\\)，证明\\(\\vartriangle MEB\\backsim \\vartriangle NCE\\)，得到\\(\\frac { ME } { CN }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，即\\(\\frac { ME } { BM }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，由图（1）可得\\(\\frac { ME } { EN }=\\frac { BD } { CD }=m\\)，设\\(EN=a\\)，则\\(ME=ma\\)，求出\\(BM=\\sqrt[] { m }a\\)，即可得到\\(\\frac { BE } { CE }=\\frac { BM } { EN }=\\frac { \\sqrt[] { m }a } { a }=\\sqrt[] { m }\\)．\n【详解】问题背景：如图（1），证明：∵\\(EF\\parallel BD\\)，\\(EG\\parallel CD\\)，\n∴\\(\\vartriangle AFE\\backsim \\vartriangle ABD,\\vartriangle AEG\\backsim \\vartriangle ADC\\)，\n∴\\(\\frac { EF } { BD }=\\frac { AE } { AD },\\frac { EG } { DC }=\\frac { AE } { AD }\\)，\n∴\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)；\n尝试应用：如图（2），\n解：延长\\(EM\\)至D，使得\\(EM=MD\\)，连接\\(DB，DC\\)，\n〔图4〕\n∵\\(AM\\)是\\(\\vartriangle ABC\\)的中线，\n∴\\(MB=MC\\)，\n∵\\(EM=MD\\)，\n∴四边形\\(BECD\\)是平行四边形，\n∴\\(BD=EC,EF\\parallel BD,BE=DC,EG\\parallel DC\\)，\n由图（1）得，\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)，\n∴\\(\\frac { EF } { EC }=\\frac { EG } { BE }\\)，\n∴\\(\\frac { EF } { EG }=\\frac { EC } { BE }\\)，\n∵\\(\\frac { BE } { EC }＝\\sqrt[] { 2 }\\)，\n∴\\(\\frac { EF } { EG }=\\frac { \\sqrt[] { 2 } } { 2 }\\)；\n迁移拓展：如图（3），\n〔图5〕\n过点E作\\(MN\\parallel BC\\)，交\\(AB\\)于点M，交\\(AC\\)于点N，\n∵\\(\\vartriangle ABC\\)是等边三角形，\n∴\\(\\angle ABC=\\angle ACB=\\angle BAC=60{}^\\circ ,AB=AC\\)，\n∵\\(MN\\parallel BC\\)，\n∴\\(\\angle AMN=\\angle ANM=\\angle BAC=60{}^\\circ\\)，\n∴\\(\\vartriangle AMN\\)也是等边三角形，\n∴\\(AM=AN,BM=CN\\)\n∴\\(\\angle BME=\\angle CNE=120{}^\\circ\\)，\n又∵\\(\\angle CEB=120{}^\\circ\\)\n\\(\\therefore \\angle CEN+\\angle ECN=60{}^\\circ =\\angle CEN+\\angle BEM\\)\n∴\\(\\angle ECN=\\angle BEM\\)\n\\(\\therefore \\vartriangle MEB\\backsim \\vartriangle NCE\\)\n∴\\(\\frac { ME } { CN }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，即\\(\\frac { ME } { BM }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，\n∴\\(BM ^ { 2 } =ME\\cdot EN\\)\n由图（1）可得\\(\\frac { ME } { EN }=\\frac { BD } { CD }=m\\)，\n设\\(EN=a\\)，则\\(ME=ma\\)，\n∴\\(BM ^ { 2 } =ME\\cdot EN=ma ^ { 2 }\\)，\n∴\\(BM=\\sqrt[] { m }a\\)，\n∴\\(\\frac { BE } { CE }=\\frac { BM } { EN }=\\frac { \\sqrt[] { m }a } { a }=\\sqrt[] { m }\\)．\n【点睛】此题考查了相似三角形的判定和性质，应用类比的方法解决问题，正确掌握相似三角形的判定和性质及类比方法是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/13/13719d1c9f9be0d0ebbeab572e51f43c7a967c8fdf934cdb4129e6c8ce217810.png",
+    "assets/figures/e4/e4ffb593c0efbd2c7e4cad2677c0843e3670361727ddcbe92d496b5a653f713d.png",
+    "assets/figures/e9/e9dac1e8e063077bc0be95b9c5591aeb01d7ddadd102a1978e0fa2906dc913b0.png",
+    "assets/figures/ff/ff434c8d1870593e40c90e989f76693b56860419575a3cc48b24d0f1e9be4a26.png",
+    "assets/figures/27/27ac3b6fff839024f64bec28c1e89b8b3fe59dd04ccb0f892457edf6e0e6cf9a.png"
+  ],
+  "solution": "问题背景：如图（1），证明：∵\\(EF\\parallel BD\\)，\\(EG\\parallel CD\\)，\n∴\\(\\vartriangle AFE\\backsim \\vartriangle ABD,\\vartriangle AEG\\backsim \\vartriangle ADC\\)，\n∴\\(\\frac { EF } { BD }=\\frac { AE } { AD },\\frac { EG } { DC }=\\frac { AE } { AD }\\)，\n∴\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)；\n尝试应用：如图（2），\n解：延长\\(EM\\)至D，使得\\(EM=MD\\)，连接\\(DB，DC\\)，\n〔图4〕\n∵\\(AM\\)是\\(\\vartriangle ABC\\)的中线，\n∴\\(MB=MC\\)，\n∵\\(EM=MD\\)，\n∴四边形\\(BECD\\)是平行四边形，\n∴\\(BD=EC,EF\\parallel BD,BE=DC,EG\\parallel DC\\)，\n由图（1）得，\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)，\n∴\\(\\frac { EF } { EC }=\\frac { EG } { BE }\\)，\n∴\\(\\frac { EF } { EG }=\\frac { EC } { BE }\\)，\n∵\\(\\frac { BE } { EC }＝\\sqrt[] { 2 }\\)，\n∴\\(\\frac { EF } { EG }=\\frac { \\sqrt[] { 2 } } { 2 }\\)；\n迁移拓展：如图（3），\n〔图5〕\n过点E作\\(MN\\parallel BC\\)，交\\(AB\\)于点M，交\\(AC\\)于点N，\n∵\\(\\vartriangle ABC\\)是等边三角形，\n∴\\(\\angle ABC=\\angle ACB=\\angle BAC=60{}^\\circ ,AB=AC\\)，\n∵\\(MN\\parallel BC\\)，\n∴\\(\\angle AMN=\\angle ANM=\\angle BAC=60{}^\\circ\\)，\n∴\\(\\vartriangle AMN\\)也是等边三角形，\n∴\\(AM=AN,BM=CN\\)\n∴\\(\\angle BME=\\angle CNE=120{}^\\circ\\)，\n又∵\\(\\angle CEB=120{}^\\circ\\)\n\\(\\therefore \\angle CEN+\\angle ECN=60{}^\\circ =\\angle CEN+\\angle BEM\\)\n∴\\(\\angle ECN=\\angle BEM\\)\n\\(\\therefore \\vartriangle MEB\\backsim \\vartriangle NCE\\)\n∴\\(\\frac { ME } { CN }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，即\\(\\frac { ME } { BM }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，\n∴\\(BM ^ { 2 } =ME\\cdot EN\\)\n由图（1）可得\\(\\frac { ME } { EN }=\\frac { BD } { CD }=m\\)，\n设\\(EN=a\\)，则\\(ME=ma\\)，\n∴\\(BM ^ { 2 } =ME\\cdot EN=ma ^ { 2 }\\)，\n∴\\(BM=\\sqrt[] { m }a\\)，\n∴\\(\\frac { BE } { CE }=\\frac { BM } { EN }=\\frac { \\sqrt[] { m }a } { a }=\\sqrt[] { m }\\)．",
+  "solution_steps": [
+    "问题背景：如图（1），证明：∵\\(EF\\parallel BD\\)，\\(EG\\parallel CD\\)，",
+    "∴\\(\\vartriangle AFE\\backsim \\vartriangle ABD,\\vartriangle AEG\\backsim \\vartriangle ADC\\)，",
+    "∴\\(\\frac { EF } { BD }=\\frac { AE } { AD },\\frac { EG } { DC }=\\frac { AE } { AD }\\)，",
+    "∴\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)；",
+    "尝试应用：如图（2），",
+    "解：延长\\(EM\\)至D，使得\\(EM=MD\\)，连接\\(DB，DC\\)，",
+    "〔图4〕",
+    "∵\\(AM\\)是\\(\\vartriangle ABC\\)的中线，",
+    "∴\\(MB=MC\\)，",
+    "∵\\(EM=MD\\)，",
+    "∴四边形\\(BECD\\)是平行四边形，",
+    "∴\\(BD=EC,EF\\parallel BD,BE=DC,EG\\parallel DC\\)，",
+    "由图（1）得，\\(\\frac { EF } { BD }＝\\frac { EG } { DC }\\)，",
+    "∴\\(\\frac { EF } { EC }=\\frac { EG } { BE }\\)，",
+    "∴\\(\\frac { EF } { EG }=\\frac { EC } { BE }\\)，",
+    "∵\\(\\frac { BE } { EC }＝\\sqrt[] { 2 }\\)，",
+    "∴\\(\\frac { EF } { EG }=\\frac { \\sqrt[] { 2 } } { 2 }\\)；",
+    "迁移拓展：如图（3），",
+    "〔图5〕",
+    "过点E作\\(MN\\parallel BC\\)，交\\(AB\\)于点M，交\\(AC\\)于点N，",
+    "∵\\(\\vartriangle ABC\\)是等边三角形，",
+    "∴\\(\\angle ABC=\\angle ACB=\\angle BAC=60{}^\\circ ,AB=AC\\)，",
+    "∵\\(MN\\parallel BC\\)，",
+    "∴\\(\\angle AMN=\\angle ANM=\\angle BAC=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle AMN\\)也是等边三角形，",
+    "∴\\(AM=AN,BM=CN\\)",
+    "∴\\(\\angle BME=\\angle CNE=120{}^\\circ\\)，",
+    "又∵\\(\\angle CEB=120{}^\\circ\\)",
+    "\\(\\therefore \\angle CEN+\\angle ECN=60{}^\\circ =\\angle CEN+\\angle BEM\\)",
+    "∴\\(\\angle ECN=\\angle BEM\\)",
+    "\\(\\therefore \\vartriangle MEB\\backsim \\vartriangle NCE\\)",
+    "∴\\(\\frac { ME } { CN }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，即\\(\\frac { ME } { BM }=\\frac { BE } { CE }=\\frac { BM } { EN }\\)，",
+    "∴\\(BM ^ { 2 } =ME\\cdot EN\\)",
+    "由图（1）可得\\(\\frac { ME } { EN }=\\frac { BD } { CD }=m\\)，",
+    "设\\(EN=a\\)，则\\(ME=ma\\)，",
+    "∴\\(BM ^ { 2 } =ME\\cdot EN=ma ^ { 2 }\\)，",
+    "∴\\(BM=\\sqrt[] { m }a\\)，",
+    "∴\\(\\frac { BE } { CE }=\\frac { BM } { EN }=\\frac { \\sqrt[] { m }a } { a }=\\sqrt[] { m }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4,
+    5
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      63,
+      66
+    ],
+    "solution_body_blocks": [
+      307,
+      354
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-8AF335E02F/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          285.91,
+          583.64,
+          611.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-8AF335E02F/solution-q22-p18.webp",
+      "assets/SZ-G9-T2-8AF335E02F/solution-q22-p19.webp",
+      "assets/SZ-G9-T2-8AF335E02F/solution-q22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          496.82,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          749.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          751.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,422 @@
+{
+  "id": "SZ-G9-T1-8B0709BF39-Q22",
+  "paper_id": "SZ-G9-T1-8B0709BF39",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、选择充分条件证明三角形全等",
+  "stem": "如图（1），\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，AB=AC\\)，点D是\\(BC\\)上一点，连接\\(AD\\)，以\\(AD\\)为一边作\\(\\vartriangle ADE\\)，使\\(\\angle DAE=90{}^\\circ ，AD=AE\\)，连接\\(BE\\)\n〔图1〕\n（1）求证：\\(BE\\)与\\(CD\\)的数量关系及位置关系．\n（2）如图（2），\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，AB=AC\\)，点M是\\(AB\\)上一点，点D是\\(BC\\)上一点，连接\\(MD\\)，以\\(MD\\)为一边作\\(\\vartriangle MDE\\)，使\\(\\angle DME=90{}^\\circ\\)，\\(MD=ME\\)，连接\\(BE\\)，求\\(\\angle EBD\\)的度数．\n（3）如图（3），\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，点M是\\(AB\\)中点．点D是\\(BC\\)上一点且\\(BD=1\\)，连接\\(MD\\)，以\\(MD\\)为一边作\\(\\vartriangle MDE\\)，使\\(\\angle DME=90{}^\\circ\\)，\\(MD=\\sqrt[] { 3 }ME\\)，连接\\(BE\\)，求\\(BE\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-8B0709BF39/figures/0e2f05b4f9216ce8fb4a936ba13e2c64e39d07b2b8468cd43f471f9c581bf0bc.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BE=CD,BE\\bot CD\\)\n（2）\\(90{}^\\circ\\)\n（3）\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+  "answer": "（1）\\(BE=CD,BE\\bot CD\\)\n（2）\\(90{}^\\circ\\)\n（3）\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+  "given_solution": "【分析】（1）先证明\\(\\vartriangle ACD≌\\vartriangle ABE\\)，即可得\\(BE\\)与\\(CD\\)的数量关系，然后根据全等三角形的性质证明\\(\\angle EBC=90{}^\\circ\\)即可得\\(BE\\)与\\(CD\\)的位置关系；\n（2）过点A作\\(AG\\parallel MD\\)交\\(BC\\)于点G，过点A作\\(AF\\parallel EM\\)交\\(BE\\)的延长线于点F，\n然后把问题转化成与（1）类似的问题，只要证明\\(\\vartriangle MBE≌\\vartriangle MFD\\)即可求出答案；\n（3）过A点作\\(AT\\parallel MD\\)交\\(BC\\)于T点，过A点作\\(AN\\parallel EM\\)交\\(BE\\)的延长线于点N，\n，根据已知先证明\\(\\vartriangle NAB\\backsim \\vartriangle TAC\\)，再根据相似三角形对应边成比例即可求解．\n【小问1详解】\n证明：\\(\\because \\angle BAC=\\angle DAE=90{}^\\circ\\)，\n\\(\\therefore \\angle EAB=\\angle CAD\\)，\n\\(\\because AE=AD，AB=AC\\)，\n\\(\\therefore \\vartriangle EAB≌\\vartriangle DAC（SAS）\\)，\n\\(\\therefore BE=CE，\\angle ABE=\\angle C\\)，\n\\(\\because \\angle C+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle EBA+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore BE\\bot CD\\)，\n故答案为：\\(BE=CD，BE\\bot CD\\)；\n【小问2详解】\n解：如图，过点A作\\(AG\\parallel MD\\)交\\(BC\\)于点G，过点A作\\(AF\\parallel EM\\)交\\(BE\\)的延长线于点F，\n〔图2〕\n\\(\\because MD\\parallel AG\\)，\n∴\\(\\frac { DM } { AG }=\\frac { BM } { AB }\\)，\\(\\angle GAM=\\angle DMB\\)，\n\\(\\because AF\\parallel EM\\)，\n∴\\(\\frac { EM } { FA }=\\frac { MB } { AB }\\)，\\(\\angle FAM=\\angle EMB\\)，\n∴\\(\\frac { DM } { AG }=\\frac { EM } { AB }\\)，\n\\(\\because MD=ME\\)，\n\\(\\therefore AF=AG\\)，\n\\(\\because \\angle EMD=90{}^\\circ\\)，\n\\(\\therefore \\angle FAG=\\angle FAM+\\angle GAM=\\angle EMB+\\angle DMB=90{}^\\circ\\)，\n同（1）中原理，可得\\(\\vartriangle FAB≌\\vartriangle GAC（SAS）\\)，\n即可得到\\(FB\\bot CG\\)，\n\\(\\therefore \\angle EBD=90{}^\\circ\\)；\n【小问3详解】\n解：过A点作\\(AT\\parallel MD\\)交\\(BC\\)于T点，过A点作\\(AN\\parallel EM\\)交\\(BE\\)的延长线于点N，\n〔图3〕\n\\(\\because MD\\parallel AT\\)，\n∴\\(\\frac { DM } { AT }=\\frac { BM } { AB }\\)，\\(\\angle TAM=\\angle DMB\\)，\n\\(\\because AN\\parallel EM\\)，\n∴\\(\\frac { EM } { NA }=\\frac { MB } { AB }\\)，\\(\\angle NAM=\\angle EMB\\)，\n∴\\(\\frac { DM } { AT }=\\frac { EM } { AN }\\)，\n∵\\(MD=\\sqrt[] { 3 }ME\\)，\n\\(\\therefore \\frac { \\sqrt[] { 3 }EM } { AT }=\\frac { EM } { AN }\\)，\n∴\\(\\frac { AN } { AT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n∵\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，\n\\(\\therefore AB=\\frac { 1 } { 2 }BC=3\\)，\n\\(\\therefore AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n∴\\(\\frac { AB } { AC }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n∴\\(\\frac { AN } { AT }=\\frac { AB } { AC }\\)，\n\\(\\because \\angle BMD=\\angle BAT，\\angle BME=\\angle BAN\\)，\n\\(\\therefore \\angle NAT=\\angle EMD=90{}^\\circ\\)，\n\\(\\therefore \\angle NAB=\\angle TAC\\)，\n\\(\\therefore \\vartriangle NAB\\backsim \\vartriangle TAC\\)，\n∴\\(\\frac { BN } { CT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n\\(\\because BD=1\\)，M是\\(AB\\)的中点，\n\\(\\therefore BM=\\frac { 3 } { 2 }\\)，\n\\(\\because BC=6\\)，\n\\(\\therefore CT=4\\)，\n∴\\(BN=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\n∴\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．\n【点睛】此题主要考查了全等三角形的判定与性质、相似三角形的判定与性质，含有\\(30{}^\\circ\\)角的直角三角形的边长关系，由平行线判断成比例的线段，平行线的性质等知识，（1）中为“手拉手”模型，想到全等三角形的判定，再根据（1）中的模型作出正确的辅助线构造相似的模型是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-8B0709BF39/figures/0e2f05b4f9216ce8fb4a936ba13e2c64e39d07b2b8468cd43f471f9c581bf0bc.png",
+    "assets/SZ-G9-T1-8B0709BF39/figures/c84b42d9172aaa5114c31cef52f5fab8bdb2abc612e9547de6a737c86a964e27.png",
+    "assets/SZ-G9-T1-8B0709BF39/figures/bb51b1799971f1786db022b5181dd3a29ec9d483730fe03c53cc8e3b2e45c038.png"
+  ],
+  "solution": "【小问1详解】\n证明：\\(\\because \\angle BAC=\\angle DAE=90{}^\\circ\\)，\n\\(\\therefore \\angle EAB=\\angle CAD\\)，\n\\(\\because AE=AD，AB=AC\\)，\n\\(\\therefore \\vartriangle EAB≌\\vartriangle DAC（SAS）\\)，\n\\(\\therefore BE=CE，\\angle ABE=\\angle C\\)，\n\\(\\because \\angle C+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle EBA+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore BE\\bot CD\\)，\n故答案为：\\(BE=CD，BE\\bot CD\\)；\n【小问2详解】\n解：如图，过点A作\\(AG\\parallel MD\\)交\\(BC\\)于点G，过点A作\\(AF\\parallel EM\\)交\\(BE\\)的延长线于点F，\n〔图2〕\n\\(\\because MD\\parallel AG\\)，\n∴\\(\\frac { DM } { AG }=\\frac { BM } { AB }\\)，\\(\\angle GAM=\\angle DMB\\)，\n\\(\\because AF\\parallel EM\\)，\n∴\\(\\frac { EM } { FA }=\\frac { MB } { AB }\\)，\\(\\angle FAM=\\angle EMB\\)，\n∴\\(\\frac { DM } { AG }=\\frac { EM } { AB }\\)，\n\\(\\because MD=ME\\)，\n\\(\\therefore AF=AG\\)，\n\\(\\because \\angle EMD=90{}^\\circ\\)，\n\\(\\therefore \\angle FAG=\\angle FAM+\\angle GAM=\\angle EMB+\\angle DMB=90{}^\\circ\\)，\n同（1）中原理，可得\\(\\vartriangle FAB≌\\vartriangle GAC（SAS）\\)，\n即可得到\\(FB\\bot CG\\)，\n\\(\\therefore \\angle EBD=90{}^\\circ\\)；\n【小问3详解】\n解：过A点作\\(AT\\parallel MD\\)交\\(BC\\)于T点，过A点作\\(AN\\parallel EM\\)交\\(BE\\)的延长线于点N，\n〔图3〕\n\\(\\because MD\\parallel AT\\)，\n∴\\(\\frac { DM } { AT }=\\frac { BM } { AB }\\)，\\(\\angle TAM=\\angle DMB\\)，\n\\(\\because AN\\parallel EM\\)，\n∴\\(\\frac { EM } { NA }=\\frac { MB } { AB }\\)，\\(\\angle NAM=\\angle EMB\\)，\n∴\\(\\frac { DM } { AT }=\\frac { EM } { AN }\\)，\n∵\\(MD=\\sqrt[] { 3 }ME\\)，\n\\(\\therefore \\frac { \\sqrt[] { 3 }EM } { AT }=\\frac { EM } { AN }\\)，\n∴\\(\\frac { AN } { AT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n∵\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，\n\\(\\therefore AB=\\frac { 1 } { 2 }BC=3\\)，\n\\(\\therefore AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n∴\\(\\frac { AB } { AC }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n∴\\(\\frac { AN } { AT }=\\frac { AB } { AC }\\)，\n\\(\\because \\angle BMD=\\angle BAT，\\angle BME=\\angle BAN\\)，\n\\(\\therefore \\angle NAT=\\angle EMD=90{}^\\circ\\)，\n\\(\\therefore \\angle NAB=\\angle TAC\\)，\n\\(\\therefore \\vartriangle NAB\\backsim \\vartriangle TAC\\)，\n∴\\(\\frac { BN } { CT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n\\(\\because BD=1\\)，M是\\(AB\\)的中点，\n\\(\\therefore BM=\\frac { 3 } { 2 }\\)，\n\\(\\because BC=6\\)，\n\\(\\therefore CT=4\\)，\n∴\\(BN=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\n∴\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：\\(\\because \\angle BAC=\\angle DAE=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle EAB=\\angle CAD\\)，",
+    "\\(\\because AE=AD，AB=AC\\)，",
+    "\\(\\therefore \\vartriangle EAB≌\\vartriangle DAC（SAS）\\)，",
+    "\\(\\therefore BE=CE，\\angle ABE=\\angle C\\)，",
+    "\\(\\because \\angle C+\\angle ABC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle EBA+\\angle ABC=90{}^\\circ\\)，",
+    "\\(\\therefore BE\\bot CD\\)，",
+    "故答案为：\\(BE=CD，BE\\bot CD\\)；",
+    "【小问2详解】",
+    "解：如图，过点A作\\(AG\\parallel MD\\)交\\(BC\\)于点G，过点A作\\(AF\\parallel EM\\)交\\(BE\\)的延长线于点F，",
+    "〔图2〕",
+    "\\(\\because MD\\parallel AG\\)，",
+    "∴\\(\\frac { DM } { AG }=\\frac { BM } { AB }\\)，\\(\\angle GAM=\\angle DMB\\)，",
+    "\\(\\because AF\\parallel EM\\)，",
+    "∴\\(\\frac { EM } { FA }=\\frac { MB } { AB }\\)，\\(\\angle FAM=\\angle EMB\\)，",
+    "∴\\(\\frac { DM } { AG }=\\frac { EM } { AB }\\)，",
+    "\\(\\because MD=ME\\)，",
+    "\\(\\therefore AF=AG\\)，",
+    "\\(\\because \\angle EMD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle FAG=\\angle FAM+\\angle GAM=\\angle EMB+\\angle DMB=90{}^\\circ\\)，",
+    "同（1）中原理，可得\\(\\vartriangle FAB≌\\vartriangle GAC（SAS）\\)，",
+    "即可得到\\(FB\\bot CG\\)，",
+    "\\(\\therefore \\angle EBD=90{}^\\circ\\)；",
+    "【小问3详解】",
+    "解：过A点作\\(AT\\parallel MD\\)交\\(BC\\)于T点，过A点作\\(AN\\parallel EM\\)交\\(BE\\)的延长线于点N，",
+    "〔图3〕",
+    "\\(\\because MD\\parallel AT\\)，",
+    "∴\\(\\frac { DM } { AT }=\\frac { BM } { AB }\\)，\\(\\angle TAM=\\angle DMB\\)，",
+    "\\(\\because AN\\parallel EM\\)，",
+    "∴\\(\\frac { EM } { NA }=\\frac { MB } { AB }\\)，\\(\\angle NAM=\\angle EMB\\)，",
+    "∴\\(\\frac { DM } { AT }=\\frac { EM } { AN }\\)，",
+    "∵\\(MD=\\sqrt[] { 3 }ME\\)，",
+    "\\(\\therefore \\frac { \\sqrt[] { 3 }EM } { AT }=\\frac { EM } { AN }\\)，",
+    "∴\\(\\frac { AN } { AT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，",
+    "∵\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，",
+    "\\(\\therefore AB=\\frac { 1 } { 2 }BC=3\\)，",
+    "\\(\\therefore AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+    "∴\\(\\frac { AB } { AC }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，",
+    "∴\\(\\frac { AN } { AT }=\\frac { AB } { AC }\\)，",
+    "\\(\\because \\angle BMD=\\angle BAT，\\angle BME=\\angle BAN\\)，",
+    "\\(\\therefore \\angle NAT=\\angle EMD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle NAB=\\angle TAC\\)，",
+    "\\(\\therefore \\vartriangle NAB\\backsim \\vartriangle TAC\\)，",
+    "∴\\(\\frac { BN } { CT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，",
+    "\\(\\because BD=1\\)，M是\\(AB\\)的中点，",
+    "\\(\\therefore BM=\\frac { 3 } { 2 }\\)，",
+    "\\(\\because BC=6\\)，",
+    "\\(\\therefore CT=4\\)，",
+    "∴\\(BN=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，",
+    "∴\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图（1），\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，AB=AC\\)，点D是\\(BC\\)上一点，连接\\(AD\\)，以\\(AD\\)为一边作\\(\\vartriangle ADE\\)，使\\(\\angle DAE=90{}^\\circ ，AD=AE\\)，连接\\(BE\\)\n〔图1〕",
+      "paper_blocks": [
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-8B0709BF39-Q22-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(BE\\)与\\(CD\\)的数量关系及位置关系．",
+      "stem_text": "求证：\\(BE\\)与\\(CD\\)的数量关系及位置关系．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=CD,BE\\bot CD\\)",
+      "answer": "\\(BE=CD,BE\\bot CD\\)",
+      "given_solution": "证明：\\(\\because \\angle BAC=\\angle DAE=90{}^\\circ\\)，\n\\(\\therefore \\angle EAB=\\angle CAD\\)，\n\\(\\because AE=AD，AB=AC\\)，\n\\(\\therefore \\vartriangle EAB≌\\vartriangle DAC（SAS）\\)，\n\\(\\therefore BE=CE，\\angle ABE=\\angle C\\)，\n\\(\\because \\angle C+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore \\angle EBA+\\angle ABC=90{}^\\circ\\)，\n\\(\\therefore BE\\bot CD\\)，\n故答案为：\\(BE=CD，BE\\bot CD\\)；",
+      "solution_steps": [
+        "证明：\\(\\because \\angle BAC=\\angle DAE=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle EAB=\\angle CAD\\)，",
+        "\\(\\because AE=AD，AB=AC\\)，",
+        "\\(\\therefore \\vartriangle EAB≌\\vartriangle DAC（SAS）\\)，",
+        "\\(\\therefore BE=CE，\\angle ABE=\\angle C\\)，",
+        "\\(\\because \\angle C+\\angle ABC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle EBA+\\angle ABC=90{}^\\circ\\)，",
+        "\\(\\therefore BE\\bot CD\\)，",
+        "故答案为：\\(BE=CD，BE\\bot CD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8B0709BF39-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图（2），\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，AB=AC\\)，点M是\\(AB\\)上一点，点D是\\(BC\\)上一点，连接\\(MD\\)，以\\(MD\\)为一边作\\(\\vartriangle MDE\\)，使\\(\\angle DME=90{}^\\circ\\)，\\(MD=ME\\)，连接\\(BE\\)，求\\(\\angle EBD\\)的度数．",
+      "stem_text": "如图（2），\\(\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，AB=AC\\)，点M是\\(AB\\)上一点，点D是\\(BC\\)上一点，连接\\(MD\\)，以\\(MD\\)为一边作\\(\\vartriangle MDE\\)，使\\(\\angle DME=90{}^\\circ\\)，\\(MD=ME\\)，连接\\(BE\\)，求\\(\\angle EBD\\)的度数．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(90{}^\\circ\\)",
+      "answer": "\\(90{}^\\circ\\)",
+      "given_solution": "解：如图，过点A作\\(AG\\parallel MD\\)交\\(BC\\)于点G，过点A作\\(AF\\parallel EM\\)交\\(BE\\)的延长线于点F，\n〔图2〕\n\\(\\because MD\\parallel AG\\)，\n∴\\(\\frac { DM } { AG }=\\frac { BM } { AB }\\)，\\(\\angle GAM=\\angle DMB\\)，\n\\(\\because AF\\parallel EM\\)，\n∴\\(\\frac { EM } { FA }=\\frac { MB } { AB }\\)，\\(\\angle FAM=\\angle EMB\\)，\n∴\\(\\frac { DM } { AG }=\\frac { EM } { AB }\\)，\n\\(\\because MD=ME\\)，\n\\(\\therefore AF=AG\\)，\n\\(\\because \\angle EMD=90{}^\\circ\\)，\n\\(\\therefore \\angle FAG=\\angle FAM+\\angle GAM=\\angle EMB+\\angle DMB=90{}^\\circ\\)，\n同（1）中原理，可得\\(\\vartriangle FAB≌\\vartriangle GAC（SAS）\\)，\n即可得到\\(FB\\bot CG\\)，\n\\(\\therefore \\angle EBD=90{}^\\circ\\)；",
+      "solution_steps": [
+        "解：如图，过点A作\\(AG\\parallel MD\\)交\\(BC\\)于点G，过点A作\\(AF\\parallel EM\\)交\\(BE\\)的延长线于点F，",
+        "〔图2〕",
+        "\\(\\because MD\\parallel AG\\)，",
+        "∴\\(\\frac { DM } { AG }=\\frac { BM } { AB }\\)，\\(\\angle GAM=\\angle DMB\\)，",
+        "\\(\\because AF\\parallel EM\\)，",
+        "∴\\(\\frac { EM } { FA }=\\frac { MB } { AB }\\)，\\(\\angle FAM=\\angle EMB\\)，",
+        "∴\\(\\frac { DM } { AG }=\\frac { EM } { AB }\\)，",
+        "\\(\\because MD=ME\\)，",
+        "\\(\\therefore AF=AG\\)，",
+        "\\(\\because \\angle EMD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle FAG=\\angle FAM+\\angle GAM=\\angle EMB+\\angle DMB=90{}^\\circ\\)，",
+        "同（1）中原理，可得\\(\\vartriangle FAB≌\\vartriangle GAC（SAS）\\)，",
+        "即可得到\\(FB\\bot CG\\)，",
+        "\\(\\therefore \\angle EBD=90{}^\\circ\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          69
+        ],
+        "solution_block_ids": [
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8B0709BF39-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图（3），\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，点M是\\(AB\\)中点．点D是\\(BC\\)上一点且\\(BD=1\\)，连接\\(MD\\)，以\\(MD\\)为一边作\\(\\vartriangle MDE\\)，使\\(\\angle DME=90{}^\\circ\\)，\\(MD=\\sqrt[] { 3 }ME\\)，连接\\(BE\\)，求\\(BE\\)的长．",
+      "stem_text": "如图（3），\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，点M是\\(AB\\)中点．点D是\\(BC\\)上一点且\\(BD=1\\)，连接\\(MD\\)，以\\(MD\\)为一边作\\(\\vartriangle MDE\\)，使\\(\\angle DME=90{}^\\circ\\)，\\(MD=\\sqrt[] { 3 }ME\\)，连接\\(BE\\)，求\\(BE\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+      "answer": "\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)",
+      "given_solution": "解：过A点作\\(AT\\parallel MD\\)交\\(BC\\)于T点，过A点作\\(AN\\parallel EM\\)交\\(BE\\)的延长线于点N，\n〔图3〕\n\\(\\because MD\\parallel AT\\)，\n∴\\(\\frac { DM } { AT }=\\frac { BM } { AB }\\)，\\(\\angle TAM=\\angle DMB\\)，\n\\(\\because AN\\parallel EM\\)，\n∴\\(\\frac { EM } { NA }=\\frac { MB } { AB }\\)，\\(\\angle NAM=\\angle EMB\\)，\n∴\\(\\frac { DM } { AT }=\\frac { EM } { AN }\\)，\n∵\\(MD=\\sqrt[] { 3 }ME\\)，\n\\(\\therefore \\frac { \\sqrt[] { 3 }EM } { AT }=\\frac { EM } { AN }\\)，\n∴\\(\\frac { AN } { AT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n∵\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，\n\\(\\therefore AB=\\frac { 1 } { 2 }BC=3\\)，\n\\(\\therefore AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=3\\sqrt[] { 3 }\\)，\n∴\\(\\frac { AB } { AC }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n∴\\(\\frac { AN } { AT }=\\frac { AB } { AC }\\)，\n\\(\\because \\angle BMD=\\angle BAT，\\angle BME=\\angle BAN\\)，\n\\(\\therefore \\angle NAT=\\angle EMD=90{}^\\circ\\)，\n\\(\\therefore \\angle NAB=\\angle TAC\\)，\n\\(\\therefore \\vartriangle NAB\\backsim \\vartriangle TAC\\)，\n∴\\(\\frac { BN } { CT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，\n\\(\\because BD=1\\)，M是\\(AB\\)的中点，\n\\(\\therefore BM=\\frac { 3 } { 2 }\\)，\n\\(\\because BC=6\\)，\n\\(\\therefore CT=4\\)，\n∴\\(BN=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，\n∴\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．",
+      "solution_steps": [
+        "解：过A点作\\(AT\\parallel MD\\)交\\(BC\\)于T点，过A点作\\(AN\\parallel EM\\)交\\(BE\\)的延长线于点N，",
+        "〔图3〕",
+        "\\(\\because MD\\parallel AT\\)，",
+        "∴\\(\\frac { DM } { AT }=\\frac { BM } { AB }\\)，\\(\\angle TAM=\\angle DMB\\)，",
+        "\\(\\because AN\\parallel EM\\)，",
+        "∴\\(\\frac { EM } { NA }=\\frac { MB } { AB }\\)，\\(\\angle NAM=\\angle EMB\\)，",
+        "∴\\(\\frac { DM } { AT }=\\frac { EM } { AN }\\)，",
+        "∵\\(MD=\\sqrt[] { 3 }ME\\)，",
+        "\\(\\therefore \\frac { \\sqrt[] { 3 }EM } { AT }=\\frac { EM } { AN }\\)，",
+        "∴\\(\\frac { AN } { AT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，",
+        "∵\\(\\angle BAC=90{}^\\circ ，\\angle ACB=30{}^\\circ ，BC=6\\)，",
+        "\\(\\therefore AB=\\frac { 1 } { 2 }BC=3\\)，",
+        "\\(\\therefore AC=\\sqrt[] { BC ^ { 2 } -AB ^ { 2 } }=3\\sqrt[] { 3 }\\)，",
+        "∴\\(\\frac { AB } { AC }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，",
+        "∴\\(\\frac { AN } { AT }=\\frac { AB } { AC }\\)，",
+        "\\(\\because \\angle BMD=\\angle BAT，\\angle BME=\\angle BAN\\)，",
+        "\\(\\therefore \\angle NAT=\\angle EMD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle NAB=\\angle TAC\\)，",
+        "\\(\\therefore \\vartriangle NAB\\backsim \\vartriangle TAC\\)，",
+        "∴\\(\\frac { BN } { CT }=\\frac { 1 } { \\sqrt[] { 3 } }\\)，",
+        "\\(\\because BD=1\\)，M是\\(AB\\)的中点，",
+        "\\(\\therefore BM=\\frac { 3 } { 2 }\\)，",
+        "\\(\\because BC=6\\)，",
+        "\\(\\therefore CT=4\\)，",
+        "∴\\(BN=\\frac { 4\\sqrt[] { 3 } } { 3 }\\)，",
+        "∴\\(BE=\\frac { 2\\sqrt[] { 3 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          66,
+          67,
+          70
+        ],
+        "solution_block_ids": [
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      66,
+      70
+    ],
+    "solution_body_blocks": [
+      378,
+      444
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-8B0709BF39/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          354.55,
+          583.64,
+          649.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-8B0709BF39/solution-q22-p20.webp",
+      "assets/SZ-G9-T1-8B0709BF39/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-8B0709BF39/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-8B0709BF39/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          709.09,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          735.45
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          743.18
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          603.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

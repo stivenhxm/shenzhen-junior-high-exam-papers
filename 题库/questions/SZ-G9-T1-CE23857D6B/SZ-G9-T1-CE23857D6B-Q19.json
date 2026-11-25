@@ -1,0 +1,437 @@
+{
+  "id": "SZ-G9-T1-CE23857D6B-Q19",
+  "paper_id": "SZ-G9-T1-CE23857D6B",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "利用等边性质求边角关系、构造全等关系证明线段或角关系",
+  "stem": "如图， 在菱形\\(ABCD\\)中，\\(\\angle DAB=60{}^\\circ\\)，点E，点F 分别在\\(CD,AD\\)上．\n〔图1〕\n（1）如图1，若点E， 点F 分别是\\(CD,AD\\)的中点， 则 \\(\\angle EBF=\\)      °；\n（2）如图2，若满足\\(AF+CE=AB\\)， 求证：\\(\\vartriangle BEF\\)是等边三角形．\n（3）如图3，若点E为\\(CD\\)的中点，\\(AB=6，DF=1\\)，点G、点H 分别在\\(AB\\)，\\(BC\\)上，且\\(\\angle EOF=60{}^\\circ\\)，求\\(BH\\)和\\(AG\\)之间的数量关系．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-CE23857D6B/figures/cacdaf0f29a78754fd3fe6b18affd8d1d399e7a5736097c00ed2af55976d234c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）60    （2）见解析\n（3）\\(AG-BH=4\\)",
+  "answer": "（1）60    （2）见解析\n（3）\\(AG-BH=4\\)",
+  "given_solution": "【分析】本题考查的是菱形的性质、等边三角形的判定与性质、三角形全等的判定与性质及平行四边形的判定与性质；\n（1）连接\\(BD\\)，得到\\(\\vartriangle ABD、\\vartriangle BCD\\)都是等边三角形，根据三线合一性质求出\\(\\angle EBF\\)即可；\n（2）连接\\(BD\\)，得到\\(\\vartriangle ABD\\)是等边三角形，证明\\(\\vartriangle ABF≌\\vartriangle DBE\\)，进而证明结论；\n（3）连接\\(BD\\)，过点B作\\(BP\\parallel EG\\)交\\(CD\\)于点P，\\(BQ\\parallel FH\\)交\\(AD\\)于点Q，先证明\\(\\vartriangle BAQ≌\\vartriangle BDP\\)，设\\(BH=x，AG=y\\)，求出\\(DP=3+6-y\\)，\\(AQ=6-\\left ( { x+1 } \\right )\\)，即可求出结论；\n【小问1详解】\n解：连接\\(BD\\)，\n〔图2〕\n在菱形\\(ABCD\\)中，\\(BA=BC=AD=CD,\\angle A=\\angle C=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABD、\\vartriangle BCD\\)都是等边三角形，\n∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\n\\(\\because\\)点E， 点F 分别是\\(CD,AD\\)的中点，\n\\(\\therefore \\angle DBF=\\frac { 1 } { 2 }\\angle ABD=30{}^\\circ ,\\angle DBE=\\frac { 1 } { 2 }\\angle DBC=30{}^\\circ\\)，\n\\(\\therefore \\angle EBF=60{}^\\circ\\)；\n故答案为：60；\n【小问2详解】\n证明：如图2，连接\\(BD\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是菱形，\n∴\\(BA=AD\\)，\\(\\angle ADC=120{}^\\circ\\)，\n∵\\(\\angle DAB=60{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(BA=BD\\)，\\(\\angle A=\\angle ADB=\\angle ABD=\\angle BDE=60{}^\\circ\\)，\n∵\\(AF+CE=AB,CE+ED=CD\\)，\n∴\\(AF=ED\\)，\n∴在\\(\\vartriangle ABF\\)和\\(\\vartriangle DBE\\)中，\n\\(\\begin{cases} AF=ED \\\\ \\angle A=\\angle BDE \\\\ BA=BD \\end{cases}\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle DBE\\) ，\n∴\\(BF=BE\\) ，\\(\\angle ABF=\\angle DBE\\)，\n∴\\(\\angle DBE+\\angle DBF=\\angle ABF+\\angle DBF\\) ，\n∴\\(\\angle FBE=\\angle ABD=60{}^\\circ\\)，\n又∵\\(BE=BF\\)，\n∴\\(\\vartriangle BEF\\)是等边三角形；\n【小问3详解】\n如图3，连接\\(BD\\)，过点B作\\(BP\\parallel EG\\)交\\(CD\\)于点P，\\(BQ\\parallel FH\\)交\\(AD\\)于点Q，\n〔图4〕\n在菱形\\(ABCD\\)中，\\(AB\\parallel CD,BC\\parallel AD\\)，\n\\(\\therefore\\)四边形\\(BPEG\\)和四边形\\(BHFQ\\)都是平行四边形，\n∴\\(QF=BH，BG=PE，\\angle PBQ=\\angle EOF=60{}^\\circ\\)，\n∴\\(\\angle DBQ+\\angle DBP=60{}^\\circ\\)，\n∵\\(\\angle DBQ+\\angle ABQ=60{}^\\circ\\)，\n∴\\(\\angle ABQ=\\angle DBP\\)，\n∴在\\(\\vartriangle BAQ\\)和\\(\\vartriangle BDP\\)中，\n\\(\\begin{cases} \\angle A=\\angle BDP \\\\ BA=BD \\\\ \\angle ABQ=\\angle DBP \\end{cases}\\)，\n∴\\(\\vartriangle BAQ≌\\vartriangle BDP\\)，\n∴\\(AQ=DP\\)，\n∵点E为\\(CD\\)的中点，\\(CD=6\\)，\n∴\\(DE=CE=3\\)，\n设\\(BH=x，AG=y\\)，\n∴\\(FQ=BH=x\\)  ，\n∴\\(EP=BG=6-y\\) ，\n∴\\(DP=3+6-y\\)，\n∵\\(DF=1\\) ，\n∵\\(AQ=6-\\left ( { x+1 } \\right )\\)  ，\n∴\\(6-\\left ( { x+1 } \\right )=3+6-y\\)，\n∴\\(y-x=4\\)，\n∴\\(AG-BH=4\\)．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-CE23857D6B/figures/cacdaf0f29a78754fd3fe6b18affd8d1d399e7a5736097c00ed2af55976d234c.png",
+    "assets/SZ-G9-T1-CE23857D6B/figures/63c9d9924672cafce0af1b3cb839212723cb8916ed7f50146f29101397fa09d2.png",
+    "assets/SZ-G9-T1-CE23857D6B/figures/caa5748b670ecd0c7ba1b5cfb6f3de54c87db19f4479ab24fc680a66f1a7b135.png",
+    "assets/SZ-G9-T1-CE23857D6B/figures/e8818568cffd5b932ce720caede504671bee47075016c4d9e5baecc550a7c5b1.png"
+  ],
+  "solution": "【小问1详解】\n解：连接\\(BD\\)，\n〔图2〕\n在菱形\\(ABCD\\)中，\\(BA=BC=AD=CD,\\angle A=\\angle C=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABD、\\vartriangle BCD\\)都是等边三角形，\n∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\n\\(\\because\\)点E， 点F 分别是\\(CD,AD\\)的中点，\n\\(\\therefore \\angle DBF=\\frac { 1 } { 2 }\\angle ABD=30{}^\\circ ,\\angle DBE=\\frac { 1 } { 2 }\\angle DBC=30{}^\\circ\\)，\n\\(\\therefore \\angle EBF=60{}^\\circ\\)；\n故答案为：60；\n【小问2详解】\n证明：如图2，连接\\(BD\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是菱形，\n∴\\(BA=AD\\)，\\(\\angle ADC=120{}^\\circ\\)，\n∵\\(\\angle DAB=60{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(BA=BD\\)，\\(\\angle A=\\angle ADB=\\angle ABD=\\angle BDE=60{}^\\circ\\)，\n∵\\(AF+CE=AB,CE+ED=CD\\)，\n∴\\(AF=ED\\)，\n∴在\\(\\vartriangle ABF\\)和\\(\\vartriangle DBE\\)中，\n\\(\\begin{cases} AF=ED \\\\ \\angle A=\\angle BDE \\\\ BA=BD \\end{cases}\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle DBE\\) ，\n∴\\(BF=BE\\) ，\\(\\angle ABF=\\angle DBE\\)，\n∴\\(\\angle DBE+\\angle DBF=\\angle ABF+\\angle DBF\\) ，\n∴\\(\\angle FBE=\\angle ABD=60{}^\\circ\\)，\n又∵\\(BE=BF\\)，\n∴\\(\\vartriangle BEF\\)是等边三角形；\n【小问3详解】\n如图3，连接\\(BD\\)，过点B作\\(BP\\parallel EG\\)交\\(CD\\)于点P，\\(BQ\\parallel FH\\)交\\(AD\\)于点Q，\n〔图4〕\n在菱形\\(ABCD\\)中，\\(AB\\parallel CD,BC\\parallel AD\\)，\n\\(\\therefore\\)四边形\\(BPEG\\)和四边形\\(BHFQ\\)都是平行四边形，\n∴\\(QF=BH，BG=PE，\\angle PBQ=\\angle EOF=60{}^\\circ\\)，\n∴\\(\\angle DBQ+\\angle DBP=60{}^\\circ\\)，\n∵\\(\\angle DBQ+\\angle ABQ=60{}^\\circ\\)，\n∴\\(\\angle ABQ=\\angle DBP\\)，\n∴在\\(\\vartriangle BAQ\\)和\\(\\vartriangle BDP\\)中，\n\\(\\begin{cases} \\angle A=\\angle BDP \\\\ BA=BD \\\\ \\angle ABQ=\\angle DBP \\end{cases}\\)，\n∴\\(\\vartriangle BAQ≌\\vartriangle BDP\\)，\n∴\\(AQ=DP\\)，\n∵点E为\\(CD\\)的中点，\\(CD=6\\)，\n∴\\(DE=CE=3\\)，\n设\\(BH=x，AG=y\\)，\n∴\\(FQ=BH=x\\)  ，\n∴\\(EP=BG=6-y\\) ，\n∴\\(DP=3+6-y\\)，\n∵\\(DF=1\\) ，\n∵\\(AQ=6-\\left ( { x+1 } \\right )\\)  ，\n∴\\(6-\\left ( { x+1 } \\right )=3+6-y\\)，\n∴\\(y-x=4\\)，\n∴\\(AG-BH=4\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：连接\\(BD\\)，",
+    "〔图2〕",
+    "在菱形\\(ABCD\\)中，\\(BA=BC=AD=CD,\\angle A=\\angle C=60{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle ABD、\\vartriangle BCD\\)都是等边三角形，",
+    "∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，",
+    "\\(\\because\\)点E， 点F 分别是\\(CD,AD\\)的中点，",
+    "\\(\\therefore \\angle DBF=\\frac { 1 } { 2 }\\angle ABD=30{}^\\circ ,\\angle DBE=\\frac { 1 } { 2 }\\angle DBC=30{}^\\circ\\)，",
+    "\\(\\therefore \\angle EBF=60{}^\\circ\\)；",
+    "故答案为：60；",
+    "【小问2详解】",
+    "证明：如图2，连接\\(BD\\)，",
+    "〔图3〕",
+    "∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(BA=AD\\)，\\(\\angle ADC=120{}^\\circ\\)，",
+    "∵\\(\\angle DAB=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle ABD\\)是等边三角形，",
+    "∴\\(BA=BD\\)，\\(\\angle A=\\angle ADB=\\angle ABD=\\angle BDE=60{}^\\circ\\)，",
+    "∵\\(AF+CE=AB,CE+ED=CD\\)，",
+    "∴\\(AF=ED\\)，",
+    "∴在\\(\\vartriangle ABF\\)和\\(\\vartriangle DBE\\)中，",
+    "\\(\\begin{cases} AF=ED \\\\ \\angle A=\\angle BDE \\\\ BA=BD \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABF≌\\vartriangle DBE\\) ，",
+    "∴\\(BF=BE\\) ，\\(\\angle ABF=\\angle DBE\\)，",
+    "∴\\(\\angle DBE+\\angle DBF=\\angle ABF+\\angle DBF\\) ，",
+    "∴\\(\\angle FBE=\\angle ABD=60{}^\\circ\\)，",
+    "又∵\\(BE=BF\\)，",
+    "∴\\(\\vartriangle BEF\\)是等边三角形；",
+    "【小问3详解】",
+    "如图3，连接\\(BD\\)，过点B作\\(BP\\parallel EG\\)交\\(CD\\)于点P，\\(BQ\\parallel FH\\)交\\(AD\\)于点Q，",
+    "〔图4〕",
+    "在菱形\\(ABCD\\)中，\\(AB\\parallel CD,BC\\parallel AD\\)，",
+    "\\(\\therefore\\)四边形\\(BPEG\\)和四边形\\(BHFQ\\)都是平行四边形，",
+    "∴\\(QF=BH，BG=PE，\\angle PBQ=\\angle EOF=60{}^\\circ\\)，",
+    "∴\\(\\angle DBQ+\\angle DBP=60{}^\\circ\\)，",
+    "∵\\(\\angle DBQ+\\angle ABQ=60{}^\\circ\\)，",
+    "∴\\(\\angle ABQ=\\angle DBP\\)，",
+    "∴在\\(\\vartriangle BAQ\\)和\\(\\vartriangle BDP\\)中，",
+    "\\(\\begin{cases} \\angle A=\\angle BDP \\\\ BA=BD \\\\ \\angle ABQ=\\angle DBP \\end{cases}\\)，",
+    "∴\\(\\vartriangle BAQ≌\\vartriangle BDP\\)，",
+    "∴\\(AQ=DP\\)，",
+    "∵点E为\\(CD\\)的中点，\\(CD=6\\)，",
+    "∴\\(DE=CE=3\\)，",
+    "设\\(BH=x，AG=y\\)，",
+    "∴\\(FQ=BH=x\\)  ，",
+    "∴\\(EP=BG=6-y\\) ，",
+    "∴\\(DP=3+6-y\\)，",
+    "∵\\(DF=1\\) ，",
+    "∵\\(AQ=6-\\left ( { x+1 } \\right )\\)  ，",
+    "∴\\(6-\\left ( { x+1 } \\right )=3+6-y\\)，",
+    "∴\\(y-x=4\\)，",
+    "∴\\(AG-BH=4\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图， 在菱形\\(ABCD\\)中，\\(\\angle DAB=60{}^\\circ\\)，点E，点F 分别在\\(CD,AD\\)上．\n〔图1〕",
+      "paper_blocks": [
+        58,
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-CE23857D6B-Q19-P01",
+      "label": "（1）",
+      "prompt": "如图1，若点E， 点F 分别是\\(CD,AD\\)的中点， 则 \\(\\angle EBF=\\)      °；",
+      "stem_text": "如图1，若点E， 点F 分别是\\(CD,AD\\)的中点， 则 \\(\\angle EBF=\\)      °；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "60",
+      "answer": "60",
+      "given_solution": "解：连接\\(BD\\)，\n〔图2〕\n在菱形\\(ABCD\\)中，\\(BA=BC=AD=CD,\\angle A=\\angle C=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABD、\\vartriangle BCD\\)都是等边三角形，\n∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，\n\\(\\because\\)点E， 点F 分别是\\(CD,AD\\)的中点，\n\\(\\therefore \\angle DBF=\\frac { 1 } { 2 }\\angle ABD=30{}^\\circ ,\\angle DBE=\\frac { 1 } { 2 }\\angle DBC=30{}^\\circ\\)，\n\\(\\therefore \\angle EBF=60{}^\\circ\\)；\n故答案为：60；",
+      "solution_steps": [
+        "解：连接\\(BD\\)，",
+        "〔图2〕",
+        "在菱形\\(ABCD\\)中，\\(BA=BC=AD=CD,\\angle A=\\angle C=60{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle ABD、\\vartriangle BCD\\)都是等边三角形，",
+        "∴\\(\\angle ABD=\\angle DBC=60{}^\\circ\\)，",
+        "\\(\\because\\)点E， 点F 分别是\\(CD,AD\\)的中点，",
+        "\\(\\therefore \\angle DBF=\\frac { 1 } { 2 }\\angle ABD=30{}^\\circ ,\\angle DBE=\\frac { 1 } { 2 }\\angle DBC=30{}^\\circ\\)，",
+        "\\(\\therefore \\angle EBF=60{}^\\circ\\)；",
+        "故答案为：60；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CE23857D6B-Q19-P02",
+      "label": "（2）",
+      "prompt": "如图2，若满足\\(AF+CE=AB\\)， 求证：\\(\\vartriangle BEF\\)是等边三角形．",
+      "stem_text": "如图2，若满足\\(AF+CE=AB\\)， 求证：\\(\\vartriangle BEF\\)是等边三角形．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：如图2，连接\\(BD\\)，\n〔图3〕\n∵四边形\\(ABCD\\)是菱形，\n∴\\(BA=AD\\)，\\(\\angle ADC=120{}^\\circ\\)，\n∵\\(\\angle DAB=60{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(BA=BD\\)，\\(\\angle A=\\angle ADB=\\angle ABD=\\angle BDE=60{}^\\circ\\)，\n∵\\(AF+CE=AB,CE+ED=CD\\)，\n∴\\(AF=ED\\)，\n∴在\\(\\vartriangle ABF\\)和\\(\\vartriangle DBE\\)中，\n\\(\\begin{cases} AF=ED \\\\ \\angle A=\\angle BDE \\\\ BA=BD \\end{cases}\\)，\n∴\\(\\vartriangle ABF≌\\vartriangle DBE\\) ，\n∴\\(BF=BE\\) ，\\(\\angle ABF=\\angle DBE\\)，\n∴\\(\\angle DBE+\\angle DBF=\\angle ABF+\\angle DBF\\) ，\n∴\\(\\angle FBE=\\angle ABD=60{}^\\circ\\)，\n又∵\\(BE=BF\\)，\n∴\\(\\vartriangle BEF\\)是等边三角形；",
+      "solution_steps": [
+        "证明：如图2，连接\\(BD\\)，",
+        "〔图3〕",
+        "∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(BA=AD\\)，\\(\\angle ADC=120{}^\\circ\\)，",
+        "∵\\(\\angle DAB=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle ABD\\)是等边三角形，",
+        "∴\\(BA=BD\\)，\\(\\angle A=\\angle ADB=\\angle ABD=\\angle BDE=60{}^\\circ\\)，",
+        "∵\\(AF+CE=AB,CE+ED=CD\\)，",
+        "∴\\(AF=ED\\)，",
+        "∴在\\(\\vartriangle ABF\\)和\\(\\vartriangle DBE\\)中，",
+        "\\(\\begin{cases} AF=ED \\\\ \\angle A=\\angle BDE \\\\ BA=BD \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABF≌\\vartriangle DBE\\) ，",
+        "∴\\(BF=BE\\) ，\\(\\angle ABF=\\angle DBE\\)，",
+        "∴\\(\\angle DBE+\\angle DBF=\\angle ABF+\\angle DBF\\) ，",
+        "∴\\(\\angle FBE=\\angle ABD=60{}^\\circ\\)，",
+        "又∵\\(BE=BF\\)，",
+        "∴\\(\\vartriangle BEF\\)是等边三角形；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          61
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CE23857D6B-Q19-P03",
+      "label": "（3）",
+      "prompt": "如图3，若点E为\\(CD\\)的中点，\\(AB=6，DF=1\\)，点G、点H 分别在\\(AB\\)，\\(BC\\)上，且\\(\\angle EOF=60{}^\\circ\\)，求\\(BH\\)和\\(AG\\)之间的数量关系．",
+      "stem_text": "如图3，若点E为\\(CD\\)的中点，\\(AB=6，DF=1\\)，点G、点H 分别在\\(AB\\)，\\(BC\\)上，且\\(\\angle EOF=60{}^\\circ\\)，求\\(BH\\)和\\(AG\\)之间的数量关系．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AG-BH=4\\)",
+      "answer": "\\(AG-BH=4\\)",
+      "given_solution": "如图3，连接\\(BD\\)，过点B作\\(BP\\parallel EG\\)交\\(CD\\)于点P，\\(BQ\\parallel FH\\)交\\(AD\\)于点Q，\n〔图4〕\n在菱形\\(ABCD\\)中，\\(AB\\parallel CD,BC\\parallel AD\\)，\n\\(\\therefore\\)四边形\\(BPEG\\)和四边形\\(BHFQ\\)都是平行四边形，\n∴\\(QF=BH，BG=PE，\\angle PBQ=\\angle EOF=60{}^\\circ\\)，\n∴\\(\\angle DBQ+\\angle DBP=60{}^\\circ\\)，\n∵\\(\\angle DBQ+\\angle ABQ=60{}^\\circ\\)，\n∴\\(\\angle ABQ=\\angle DBP\\)，\n∴在\\(\\vartriangle BAQ\\)和\\(\\vartriangle BDP\\)中，\n\\(\\begin{cases} \\angle A=\\angle BDP \\\\ BA=BD \\\\ \\angle ABQ=\\angle DBP \\end{cases}\\)，\n∴\\(\\vartriangle BAQ≌\\vartriangle BDP\\)，\n∴\\(AQ=DP\\)，\n∵点E为\\(CD\\)的中点，\\(CD=6\\)，\n∴\\(DE=CE=3\\)，\n设\\(BH=x，AG=y\\)，\n∴\\(FQ=BH=x\\)  ，\n∴\\(EP=BG=6-y\\) ，\n∴\\(DP=3+6-y\\)，\n∵\\(DF=1\\) ，\n∵\\(AQ=6-\\left ( { x+1 } \\right )\\)  ，\n∴\\(6-\\left ( { x+1 } \\right )=3+6-y\\)，\n∴\\(y-x=4\\)，\n∴\\(AG-BH=4\\)．",
+      "solution_steps": [
+        "如图3，连接\\(BD\\)，过点B作\\(BP\\parallel EG\\)交\\(CD\\)于点P，\\(BQ\\parallel FH\\)交\\(AD\\)于点Q，",
+        "〔图4〕",
+        "在菱形\\(ABCD\\)中，\\(AB\\parallel CD,BC\\parallel AD\\)，",
+        "\\(\\therefore\\)四边形\\(BPEG\\)和四边形\\(BHFQ\\)都是平行四边形，",
+        "∴\\(QF=BH，BG=PE，\\angle PBQ=\\angle EOF=60{}^\\circ\\)，",
+        "∴\\(\\angle DBQ+\\angle DBP=60{}^\\circ\\)，",
+        "∵\\(\\angle DBQ+\\angle ABQ=60{}^\\circ\\)，",
+        "∴\\(\\angle ABQ=\\angle DBP\\)，",
+        "∴在\\(\\vartriangle BAQ\\)和\\(\\vartriangle BDP\\)中，",
+        "\\(\\begin{cases} \\angle A=\\angle BDP \\\\ BA=BD \\\\ \\angle ABQ=\\angle DBP \\end{cases}\\)，",
+        "∴\\(\\vartriangle BAQ≌\\vartriangle BDP\\)，",
+        "∴\\(AQ=DP\\)，",
+        "∵点E为\\(CD\\)的中点，\\(CD=6\\)，",
+        "∴\\(DE=CE=3\\)，",
+        "设\\(BH=x，AG=y\\)，",
+        "∴\\(FQ=BH=x\\)  ，",
+        "∴\\(EP=BG=6-y\\) ，",
+        "∴\\(DP=3+6-y\\)，",
+        "∵\\(DF=1\\) ，",
+        "∵\\(AQ=6-\\left ( { x+1 } \\right )\\)  ，",
+        "∴\\(6-\\left ( { x+1 } \\right )=3+6-y\\)，",
+        "∴\\(y-x=4\\)，",
+        "∴\\(AG-BH=4\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          62
+        ],
+        "solution_block_ids": [
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N06.04"
+      ],
+      "exam_ids": [
+        "E.N06.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由总量与部分量关系建立一次模型”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      62
+    ],
+    "solution_body_blocks": [
+      314,
+      377
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-CE23857D6B/paper-q19-p04.webp",
+      "assets/SZ-G9-T1-CE23857D6B/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          677.73,
+          583.64,
+          692.73
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          236.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-CE23857D6B/solution-q19-p16.webp",
+      "assets/SZ-G9-T1-CE23857D6B/solution-q19-p17.webp",
+      "assets/SZ-G9-T1-CE23857D6B/solution-q19-p18.webp",
+      "assets/SZ-G9-T1-CE23857D6B/solution-q19-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          580.91,
+          583.64,
+          763.64
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          719.55
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          305.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.02",
+    "M.G03.02",
+    "M.N06.04"
+  ],
+  "exam_ids": [
+    "E.G04.02.01",
+    "E.G03.02.02",
+    "E.N06.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。 本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由总量与部分量关系建立一次模型”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,143 @@
+{
+  "id": "SZ-G9-T2-E3F7E72E3D-Q07",
+  "paper_id": "SZ-G9-T2-E3F7E72E3D",
+  "number": 7,
+  "type": "选择题",
+  "points": 3,
+  "title": "由相似比求对应线段或周长",
+  "stem": "如图，矩形\\(ABCD\\)中，\\(AB=3，BC=4\\)，以点B为圆心，适当长为半径画弧，分别交\\(BC\\)，\\(BD\\)于点E，F，再分别以点E，F为圆心，大于\\(\\frac { 1 } { 2 }EF\\)长为半径画弧交于点P，作射线\\(BP\\)，过点C作\\(BP\\)的垂线分别交\\(BD,AD\\)于点M，N，则\\(CN\\)的长为（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(\\sqrt[] { 10 }\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(\\sqrt[] { 11 }\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(2\\sqrt[] { 3 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "4"
+    }
+  ],
+  "figures": [
+    "assets/figures/11/1128b7c54bbcb929b5e14e984ea49a7b4c3442447fa01ed592e82d493f0aef77.png"
+  ],
+  "tables": [],
+  "given_answer": "A",
+  "answer": "A",
+  "given_solution": "【分析】由作图可知\\(BP\\)平分\\(\\angle CBD\\)，设\\(BP\\)与\\(CN\\)交于点O，与\\(CD\\)交于点R，作\\(RQ\\bot BD\\)于点Q，根据角平分线的性质可知\\(RQ=RC\\)，进而证明\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)\\(≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)，推出\\(BC=BQ=4\\)，设\\(RQ=RC=x\\)，则\\(DR=CD-CR=3-x\\)，解\\(Rt\\vartriangle DQR\\)求出\\(QR=CR=\\frac { 4 } { 3 }\\)．利用三角形面积法求出\\(OC\\)，再证\\(\\vartriangle OCR\\backsim \\vartriangle DCN\\)，根据相似三角形对应边成比例即可求出\\(CN\\)．\n【详解】解：如图，设\\(BP\\)与\\(CN\\)交于点O，与\\(CD\\)交于点R，作\\(RQ\\bot BD\\)于点Q，\n〔图2〕\n\\(\\because\\)矩形\\(ABCD\\)中，\\(AB=3，BC=4\\)，\n\\(\\therefore\\)\\(CD=AB=3\\)，\n\\(\\therefore\\)\\(BD=\\sqrt[] { BC ^ { 2 } +CD ^ { 2 } }=5\\)．\n由作图过程可知，\\(BP\\)平分\\(\\angle CBD\\)，\n\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore\\)\\(CD\\bot BC\\)，\n又\\(\\because\\)\\(RQ\\bot BD\\)，\n\\(\\therefore\\)\\(RQ=RC\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)中，\n\\(\\begin{cases} RQ=RC \\\\ BR=BR \\end{cases}\\)，\n\\(\\therefore\\)\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)\\(≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)\\(\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n\\(\\therefore\\)\\(BC=BQ=4\\)，\n\\(\\therefore\\)\\(QD=BD-BQ=5-4=1\\)，\n设\\(RQ=RC=x\\)，则\\(DR=CD-CR=3-x\\)，\n在\\(Rt\\vartriangle DQR\\)中，由勾股定理得\\(DR ^ { 2 } =DQ ^ { 2 } +RQ ^ { 2 }\\)，\n即\\(\\left ( { 3-x } \\right ) ^ { 2 } =1 ^ { 2 } +x ^ { 2 }\\)，\n解得\\(x=\\frac { 4 } { 3 }\\)，\n\\(\\therefore\\)\\(CR=\\frac { 4 } { 3 }\\)．\n\\(\\therefore\\)\\(BR=\\sqrt[] { BC ^ { 2 } +CR ^ { 2 } }=\\frac { 4 } { 3 }\\sqrt[] { 10 }\\)．\n\\(\\because\\)\\(S_{ \\vartriangle BCR } =\\frac { 1 } { 2 }CR\\cdot BC=\\frac { 1 } { 2 }BR\\cdot OC\\)，\n\\(\\therefore\\)\\(OC=\\frac { CR\\cdot BC } { BR }=\\frac { \\frac { 4 } { 3 }\\times 4 } { \\frac { 4 } { 3 }\\sqrt[] { 10 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)．\n\\(\\because\\)\\(\\angle COR=\\angle CDN=90{}^\\circ\\)，\\(\\angle OCR=\\angle DCN\\)，\n\\(\\therefore\\)\\(\\vartriangle OCR\\backsim \\vartriangle DCN\\)，\n\\(\\therefore\\)\\(\\frac { OC } { DC }=\\frac { CR } { CN }\\)，即\\(\\frac { \\frac { 2 } { 5 }\\sqrt[] { 10 } } { 3 }=\\frac { \\frac { 4 } { 3 } } { CN }\\)，\n解得\\(CN=\\sqrt[] { 10 }\\)．\n故选A．\n【点睛】本题考查角平分线的作图方法，矩形的性质，角平分线的性质，全等三角形的判定与性质，勾股定理，相似三角形的判定与性质等，涉及知识点较多，有一定难度，解题的关键是根据作图过程判断出\\(BP\\)平分\\(\\angle CBD\\)，通过勾股定理解直角三角形求出\\(CR\\)．",
+  "given_solution_figures": [
+    "assets/figures/11/1128b7c54bbcb929b5e14e984ea49a7b4c3442447fa01ed592e82d493f0aef77.png",
+    "assets/figures/e9/e995a26a799509861e7da7ce0c207f57efb5402c8cbd6fec1f3e106ada3d1eda.png"
+  ],
+  "solution": "解：如图，设\\(BP\\)与\\(CN\\)交于点O，与\\(CD\\)交于点R，作\\(RQ\\bot BD\\)于点Q，\n〔图2〕\n\\(\\because\\)矩形\\(ABCD\\)中，\\(AB=3，BC=4\\)，\n\\(\\therefore\\)\\(CD=AB=3\\)，\n\\(\\therefore\\)\\(BD=\\sqrt[] { BC ^ { 2 } +CD ^ { 2 } }=5\\)．\n由作图过程可知，\\(BP\\)平分\\(\\angle CBD\\)，\n\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore\\)\\(CD\\bot BC\\)，\n又\\(\\because\\)\\(RQ\\bot BD\\)，\n\\(\\therefore\\)\\(RQ=RC\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)中，\n\\(\\begin{cases} RQ=RC \\\\ BR=BR \\end{cases}\\)，\n\\(\\therefore\\)\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)\\(≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)\\(\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，\n\\(\\therefore\\)\\(BC=BQ=4\\)，\n\\(\\therefore\\)\\(QD=BD-BQ=5-4=1\\)，\n设\\(RQ=RC=x\\)，则\\(DR=CD-CR=3-x\\)，\n在\\(Rt\\vartriangle DQR\\)中，由勾股定理得\\(DR ^ { 2 } =DQ ^ { 2 } +RQ ^ { 2 }\\)，\n即\\(\\left ( { 3-x } \\right ) ^ { 2 } =1 ^ { 2 } +x ^ { 2 }\\)，\n解得\\(x=\\frac { 4 } { 3 }\\)，\n\\(\\therefore\\)\\(CR=\\frac { 4 } { 3 }\\)．\n\\(\\therefore\\)\\(BR=\\sqrt[] { BC ^ { 2 } +CR ^ { 2 } }=\\frac { 4 } { 3 }\\sqrt[] { 10 }\\)．\n\\(\\because\\)\\(S_{ \\vartriangle BCR } =\\frac { 1 } { 2 }CR\\cdot BC=\\frac { 1 } { 2 }BR\\cdot OC\\)，\n\\(\\therefore\\)\\(OC=\\frac { CR\\cdot BC } { BR }=\\frac { \\frac { 4 } { 3 }\\times 4 } { \\frac { 4 } { 3 }\\sqrt[] { 10 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)．\n\\(\\because\\)\\(\\angle COR=\\angle CDN=90{}^\\circ\\)，\\(\\angle OCR=\\angle DCN\\)，\n\\(\\therefore\\)\\(\\vartriangle OCR\\backsim \\vartriangle DCN\\)，\n\\(\\therefore\\)\\(\\frac { OC } { DC }=\\frac { CR } { CN }\\)，即\\(\\frac { \\frac { 2 } { 5 }\\sqrt[] { 10 } } { 3 }=\\frac { \\frac { 4 } { 3 } } { CN }\\)，\n解得\\(CN=\\sqrt[] { 10 }\\)．\n故选A．",
+  "solution_steps": [
+    "解：如图，设\\(BP\\)与\\(CN\\)交于点O，与\\(CD\\)交于点R，作\\(RQ\\bot BD\\)于点Q，",
+    "〔图2〕",
+    "\\(\\because\\)矩形\\(ABCD\\)中，\\(AB=3，BC=4\\)，",
+    "\\(\\therefore\\)\\(CD=AB=3\\)，",
+    "\\(\\therefore\\)\\(BD=\\sqrt[] { BC ^ { 2 } +CD ^ { 2 } }=5\\)．",
+    "由作图过程可知，\\(BP\\)平分\\(\\angle CBD\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是矩形，",
+    "\\(\\therefore\\)\\(CD\\bot BC\\)，",
+    "又\\(\\because\\)\\(RQ\\bot BD\\)，",
+    "\\(\\therefore\\)\\(RQ=RC\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)中，",
+    "\\(\\begin{cases} RQ=RC \\\\ BR=BR \\end{cases}\\)，",
+    "\\(\\therefore\\)\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCR\\)\\(≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle BQR\\)\\(\\left ( { { \\rm{ H } }{ \\rm{ L } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(BC=BQ=4\\)，",
+    "\\(\\therefore\\)\\(QD=BD-BQ=5-4=1\\)，",
+    "设\\(RQ=RC=x\\)，则\\(DR=CD-CR=3-x\\)，",
+    "在\\(Rt\\vartriangle DQR\\)中，由勾股定理得\\(DR ^ { 2 } =DQ ^ { 2 } +RQ ^ { 2 }\\)，",
+    "即\\(\\left ( { 3-x } \\right ) ^ { 2 } =1 ^ { 2 } +x ^ { 2 }\\)，",
+    "解得\\(x=\\frac { 4 } { 3 }\\)，",
+    "\\(\\therefore\\)\\(CR=\\frac { 4 } { 3 }\\)．",
+    "\\(\\therefore\\)\\(BR=\\sqrt[] { BC ^ { 2 } +CR ^ { 2 } }=\\frac { 4 } { 3 }\\sqrt[] { 10 }\\)．",
+    "\\(\\because\\)\\(S_{ \\vartriangle BCR } =\\frac { 1 } { 2 }CR\\cdot BC=\\frac { 1 } { 2 }BR\\cdot OC\\)，",
+    "\\(\\therefore\\)\\(OC=\\frac { CR\\cdot BC } { BR }=\\frac { \\frac { 4 } { 3 }\\times 4 } { \\frac { 4 } { 3 }\\sqrt[] { 10 } }=\\frac { 2 } { 5 }\\sqrt[] { 10 }\\)．",
+    "\\(\\because\\)\\(\\angle COR=\\angle CDN=90{}^\\circ\\)，\\(\\angle OCR=\\angle DCN\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle OCR\\backsim \\vartriangle DCN\\)，",
+    "\\(\\therefore\\)\\(\\frac { OC } { DC }=\\frac { CR } { CN }\\)，即\\(\\frac { \\frac { 2 } { 5 }\\sqrt[] { 10 } } { 3 }=\\frac { \\frac { 4 } { 3 } } { CN }\\)，",
+    "解得\\(CN=\\sqrt[] { 10 }\\)．",
+    "故选A．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      17,
+      19
+    ],
+    "solution_body_blocks": [
+      62,
+      96
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-E3F7E72E3D/paper-q07-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          265.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      4,
+      5
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-E3F7E72E3D/solution-q07-p04.webp",
+      "assets/SZ-G9-T2-E3F7E72E3D/solution-q07-p05.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          724.09
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          696.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "题文匹配"
+}

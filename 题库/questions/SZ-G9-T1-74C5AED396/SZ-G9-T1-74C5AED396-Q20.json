@@ -1,0 +1,798 @@
+{
+  "id": "SZ-G9-T1-74C5AED396-Q20",
+  "paper_id": "SZ-G9-T1-74C5AED396",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "综合与探究\n如图，在平行四边形\\(ABCD\\)中，\\(E，F\\)分别是边\\(BC\\)，\\(CD\\)上的点，\\(AE\\)与\\(BF\\)交于点\\(P\\)．\n（1）【特例感知】\n如图（a），若四边形\\(ABCD\\)是正方形，当\\(\\angle APB=\\angle D\\)时，则线段\\(AE\\)与\\(BF\\)的数量关系是________；\n（2）【深入探究】\n如图（b），若四边形\\(ABCD\\)是菱形，且\\(\\angle APB=\\angle D\\)，则线段\\(AE\\)与\\(BF\\)满足怎样的数量关系？\n请证明你的猜想；\n关于此问，数学兴趣小组给出如下两种解决思路．请选择其中一种思路解决问题．\n思路一 | 思路二\n如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，…… | 如图，在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，……\n〔图1〕 | 〔图2〕\n（3）【类比迁移】\n如图（c），若四边形\\(ABCD\\)是菱形，\\(E\\)为\\(BC\\)的中点，\\(\\angle APB=\\angle C=60{}^\\circ\\)，请求出\\(\\frac { AE } { BF }\\)的值；\n（4）【联系拓广】\n如图（d），在平行四边形\\(ABCD\\)中，\\(AD=3\\)，\\(AB=4\\)，\\(\\angle C=60{}^\\circ\\)，\\(F\\)是\\(CD\\)边的中点，当点\\(E\\)在直线\\(BC\\)上运动，且直线\\(AE\\)与直线\\(BF\\)所夹的锐角为\\(60°\\)时，请直接写\\(BE\\)的长．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-74C5AED396/figures/9017b810e0532ae0dc0ab374d1aae426c8c2ce5128002ca7bdab7feaf90bccb2.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/7c695cb09439a847986e5777d79aa4752adbfd9ae6e8117259cfc0769b313673.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/6b7e4cbe4cd4a3b012fde2edaddb95d8510cf92f08ab335a2d01bec6150aab10.png"
+  ],
+  "tables": [
+    {
+      "text": "思路一 | 思路二\n如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，…… | 如图，在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，……\n〔图1〕 | 〔图2〕",
+      "rows": [
+        [
+          [
+            "思路一"
+          ],
+          [
+            "思路二"
+          ]
+        ],
+        [
+          [
+            "如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，……"
+          ],
+          [
+            "如图，在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，……"
+          ]
+        ],
+        [
+          [
+            "〔图1〕"
+          ],
+          [
+            "〔图2〕"
+          ]
+        ]
+      ]
+    }
+  ],
+  "given_answer": "（1）[特例感知]\\(AE=BF\\)（2）[深入探究]思路一：\\(AE=BF\\)，证明见详解；思路二：\\(AE=BF\\)，证明见详解（3）[例比迁移]\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)（4）[联系拓广]\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)",
+  "answer": "（1）[特例感知]\\(AE=BF\\)（2）[深入探究]思路一：\\(AE=BF\\)，证明见详解；思路二：\\(AE=BF\\)，证明见详解（3）[例比迁移]\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)（4）[联系拓广]\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)",
+  "given_solution": "【分析】（1）[特例感知]根据正方形的性质可得\\(AB=BC=CD=AD,\\angle ABC=\\angle BCD=\\angle CDA=\\angle DAB=90{}^\\circ\\)，当\\(\\angle APB=\\angle D\\)时，即\\(\\angle APB=90{}^\\circ\\)，可得\\(\\angle BAE=\\angle CBF\\)，可证\\(\\vartriangle ABE≌\\vartriangle BCF\\left ( { SAS } \\right )\\)，由此即可求解；\n（2）[深入探究]思路一：四边形\\(ABCD\\)是菱形，可得\n\\(AB=BC=CD=AD,\\angle ABC=\\angle ADC,\\angle BAD=\\angle BCD\\)，\\(AB\\parallel CD,AD\\parallel BC\\)，根据\\(\\angle APB\\)是三角形\\(\\vartriangle BEP\\)的外角，\\(AB\\parallel CD\\)，可证\\(\\angle BEP=\\angle CFB\\)，如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，则\\(AM=BC\\)，可证\\(\\angle AME=\\angle C\\)，由此可证\\(\\vartriangle AME≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，即可求解；思路二：由思路一可得\\(\\angle AEB=\\angle ABP=\\angle CFB\\)，在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，可得\\(\\angle ABN=\\angle C\\)，可证\\(\\vartriangle ABN≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，由此即可求解；\n（3）[例比迁移]如图所示，连接\\(BD\\)交\\(AE\\)于点\\(M\\)，可得\\(\\vartriangle BCD\\)是等边三角形，\\(\\angle BAE=\\angle EBP\\)，可证\\(\\vartriangle ABM≌\\vartriangle BCF\\left ( { ASA } \\right )\\)，得到\\(BF=AM\\)，再证\\(\\vartriangle BEM\\backsim \\vartriangle DAM\\)，可得\\(\\frac { ME } { MA }=\\frac { 1 } { 2 }\\)，\\(\\frac { MA } { AE }=\\frac { 2 } { 3 }\\)，即\\(\\frac { AE } { AM }=\\frac { 3 } { 2 }\\)，由此即可求解；\n（4）[联系拓广]根据题意，分类讨论：第一种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APF=60{}^\\circ\\)时，如图所示，连接\\(AC\\)，过点\\(A\\)作\\(AN\\bot CB\\)延长线于点\\(N\\)，运用勾股定理分别得到\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，过点\\(F\\)作\\(FK\\bot BC\\)于点\\(K\\)，\\(\\angle BCD=60{}^\\circ\\)，求出\\(BF=\\sqrt[] { 7 }\\)，证明\\(\\vartriangle HFP\\backsim \\vartriangle BFC\\)，得到\\(HF,CH,DH\\)的值，再证明\\(\\vartriangle ADH\\backsim \\vartriangle ECH\\)，得到\\(CE=\\frac { 72\\sqrt[] { 7 }-45 } { 47 }\\)，即可得到\\(BE\\)的值；第二种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APB=60{}^\\circ\\)时，如图所示，连接\\(AC\\)交\\(BF\\)与点\\(R\\)，在\\(Rt\\vartriangle ANE\\)中，求出\\(NE=\\frac { 2 } { 3 }\\)，再根据\\(BE=BN-NE=2-\\frac { 2 } { 3 }=\\frac { 4 } { 3 }\\)即可．\n【详解】解：（1）[特例感知]\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AB=BC=CD=AD,\\angle ABC=\\angle BCD=\\angle CDA=\\angle DAB=90{}^\\circ\\)，\n当\\(\\angle APB=\\angle D\\)时，即\\(\\angle APB=90{}^\\circ\\)，\n∴\\(AE\\bot BF\\)，\n∴\\(\\angle BAP+\\angle ABP=\\angle ABP+\\angle CBF=90{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle CBF\\)，\n在\\(Rt\\vartriangle ABE\\)和\\(Rt\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle ABE=\\angle BCF=90{}^\\circ \\\\ AB=BC \\\\ \\angle BAE=\\angle CBF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle BCF\\left ( { SAS } \\right )\\)，\n∴\\(AE=BF\\)，\n故答案为：\\(AE=BF\\)；\n（2）[深入探究]\n思路一：∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD,\\angle ABC=\\angle ADC,\\angle BAD=\\angle BCD\\)，\\(AB\\parallel CD,AD\\parallel BC\\)，\n当\\(\\angle APB=\\angle D\\)时，\\(\\angle APB=\\angle ABC\\)，\n∵\\(\\angle APB\\)是三角形\\(\\vartriangle BEP\\)的外角，\n∴\\(\\angle APB=\\angle BEP+\\angle EBP\\)，\n∵\\(\\angle EBP+\\angle PBA=\\angle ABC\\)，\n∴\\(\\angle ABP=\\angle BEP\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABP=\\angle CFB\\)，\n∴\\(\\angle BEP=\\angle CFB\\)，\n如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，则\\(AM=BC\\)，\n∴\\(\\angle ABM=\\angle AMB\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABC+\\angle C=180{}^\\circ\\)，\n∵\\(\\angle AMB+\\angle AME=180{}^\\circ\\)，\n∴\\(\\angle AME=\\angle C\\)，\n在\\(\\vartriangle AME\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle AME=\\angle C \\\\ \\angle AEM=\\angle BFC \\\\ AM=BC \\end{cases}\\)，\n∴\\(\\vartriangle AME≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(AE=BF\\)；\n思路二：由思路一可得\\(\\angle AEB=\\angle ABP=\\angle CFB\\)，\n在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，\n∴\\(\\angle N=\\angle AEB\\)，\n∴\\(\\angle N=\\angle CFB\\)，\n∵\\(\\angle ABN+\\angle ABC=\\angle ABC+\\angle C=180{}^\\circ\\)，\n∴\\(\\angle ABN=\\angle C\\)，\n在\\(\\vartriangle ABN\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle ABN=\\angle C \\\\ \\angle N=\\angle BFC \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABN≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(AE=BF\\)；\n（3）[例比迁移]\n如图所示，连接\\(BD\\)交\\(AE\\)于点\\(M\\)，\n〔图4〕\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD,AD\\parallel BC\\)，\n∵\\(\\angle APB=\\angle C=60{}^\\circ\\)，\n∴\\(\\vartriangle BCD\\)是等边三角形，\\(\\angle ABC=120{}^\\circ\\)，\n∴\\(\\angle CBD=\\angle ABD=60{}^\\circ =\\angle C\\)，\n∵\\(\\angle ABP+\\angle BAP=\\angle ABP+\\angle EBP=120{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle EBP\\)，\n在\\(\\vartriangle ABM\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle BAM=\\angle CBF \\\\ AB=BC \\\\ \\angle ABM=C \\end{cases}\\)，\n∴\\(\\vartriangle ABM≌\\vartriangle BCF\\left ( { ASA } \\right )\\)，\n∴\\(BF=AM\\)，\n∵\\(AB\\parallel BC\\)，\n∴\\(\\vartriangle BEM\\backsim \\vartriangle DAM\\)，\n∴\\(\\frac { BE } { AD }=\\frac { ME } { MA }\\)，\n∵\\(E\\)为\\(BC\\)的中点，\\(AD=BC\\)，\n∴\\(\\frac { ME } { MA }=\\frac { 1 } { 2 }\\)，\n∴\\(\\frac { MA } { AE }=\\frac { 2 } { 3 }\\)，即\\(\\frac { AE } { AM }=\\frac { 3 } { 2 }\\)，\n∵\\(AM=BF\\)，\n∴\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)；\n（4）[联系拓广]\n第一种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APF=60{}^\\circ\\)时，如图所示，连接\\(AC\\)，过点\\(A\\)作\\(AN\\bot CB\\)延长线于点\\(N\\)，\n〔图5〕\n∵四边形\\(ABCD\\)是平行四边形，\\(\\angle BCD=60{}^\\circ\\)，\n∴\\(AB\\parallel CD\\)，\\(AB=CD=4,AD=BC=3\\)，\n∴\\(\\angle ABN=60{}^\\circ\\)，\n∴\\(\\angle BAN=30{}^\\circ\\)，\n在\\(Rt\\vartriangle ABN\\)中，\\(AB=4\\)，\n∴\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\n∵点\\(F\\)是\\(CD\\)的中点，\n∴\\(CF=DF=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }\\times 4=2\\)，\n过点\\(F\\)作\\(FK\\bot BC\\)于点\\(K\\)，\\(\\angle BCD=60{}^\\circ\\)，\n在\\(Rt\\vartriangle CFK\\)中，\\(\\angle CFK=30{}^\\circ\\)，\n∴\\(CK=\\frac { 1 } { 2 }CF=\\frac { 1 } { 2 }\\times 2=1\\)，\\(FK=\\sqrt[] { 3 }CK=\\sqrt[] { 3 }\\)，\n∴\\(BK=BC-CK=3-1=2\\)，\n在\\(Rt\\vartriangle BFK\\)中，\\(BF=\\sqrt[] { BK ^ { 2 } +FK ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，\n∵\\(\\angle HPF=\\angle FCB=60{}^\\circ\\)，\\(\\angle HFP=\\angle CFB\\)，\n∴\\(\\vartriangle HFP\\backsim \\vartriangle BFC\\)，\n∴\\(\\frac { HF } { BF }=\\frac { HP } { BC }=\\frac { FP } { FC }\\)，\n∴\\(\\frac { FP } { FH }=\\frac { CF } { CB }=\\frac { 2 } { 3 }\\)，\n设\\(FP=2x,FH=3x\\)，\n∵\\(HF\\parallel AB\\)，\n∴\\(\\vartriangle PFH\\backsim \\vartriangle PBA\\)，\n∴\\(\\frac { HF } { AB }=\\frac { PF } { PC }\\)，\n∵\\(PC=PF+FC=2x+\\sqrt[] { 7 }\\)，\n∴\\(\\frac { 3x } { 4 }=\\frac { 2x } { 2x+\\sqrt[] { 7 } }\\)，\n解得，\\(x=\\frac { 8-3\\sqrt[] { 7 } } { 6 }\\)，\n∴\\(HF=3x=3\\times \\frac { 8-3\\sqrt[] { 7 } } { 6 }=\\frac { 8-3\\sqrt[] { 7 } } { 2 }\\)，\n∴\\(DH=DF-HF=2-\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 3\\sqrt[] { 7 }-4 } { 2 }\\)，则\\(CH=CF+HF=2+\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 12-3\\sqrt[] { 7 } } { 2 }\\)，\n∵\\(AD\\parallel CE\\)，\n∴\\(\\vartriangle ADH\\backsim \\vartriangle ECH\\)，\n∴\\(\\frac { AD } { EC }=\\frac { DH } { CH }\\)，\n∴\\(CE=\\frac { AD\\cdot CH } { DH }=\\frac { 3\\times \\frac { 12-3\\sqrt[] { 7 } } { 2 } } { \\frac { 3\\sqrt[] { 7 }-4 } { 2 } }=\\frac { 72\\sqrt[] { 7 }-45 } { 47 }\\)，\n∴\\(BE=BC+CE=3+\\frac { 72\\sqrt[] { 7 }-45 } { 47 }=\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)；\n第二种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APB=60{}^\\circ\\)时，如图所示，连接\\(AC\\)交\\(BF\\)与点\\(R\\)，\n〔图6〕\n由第一种情况可得，\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\\(BF=\\sqrt[] { 7 }\\)，\n∴\\(NC=BN+BC=2+3=5\\)，\n在\\(Rt\\vartriangle ANC\\)中，\\(AC=\\sqrt[] { AN ^ { 2 } +NC ^ { 2 } }=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\sqrt[] { 37 }\\)，\n∵\\(AB\\parallel CF\\)，\n∴\\(\\vartriangle CFR\\backsim \\vartriangle ABR\\)，\n∴\\(\\frac { CF } { AB }=\\frac { CR } { AR }=\\frac { 1 } { 2 }\\)，\n∴\\(AR=\\frac { 2 } { 3 }AC=\\frac { 2 } { 3 }\\times \\sqrt[] { 37 }=\\frac { 2\\sqrt[] { 37 } } { 3 }\\)，\n∵\\(\\angle P=\\angle BCD=60{}^\\circ\\)，\\(\\angle EBP=\\angle FBC\\)，\n∴\\(\\vartriangle EBP\\backsim \\vartriangle FBC\\)，\n∴\\(\\frac { EB } { FB }=\\frac { EP } { FC }=\\frac { BP } { BC }\\)，\n∴\\(\\frac { EB } { PB }=\\frac { FB } { CB }=\\frac { \\sqrt[] { 7 } } { 3 }\\)，\n∴设\\(EB=\\sqrt[] { 7 }m,BP=3m\\)，\n∵\\(\\angle ABE=\\angle P=60{}^\\circ ,\\angle BAE=\\angle PAB\\)，\n∴\\(\\vartriangle ABE\\backsim \\vartriangle APB\\)，\n∴\\(\\frac { AB } { AP }=\\frac { AE } { AB }=\\frac { BE } { PB }\\)，\n∴\\(\\frac { 4 } { AP }=\\frac { AE } { 4 }=\\frac { \\sqrt[] { 7 }m } { 3m }\\)，\n解得，\\(AE=\\frac { 4\\sqrt[] { 7 } } { 3 }\\)，\n在\\(Rt\\vartriangle ANE\\)中，\\(NE=\\sqrt[] { AE ^ { 2 } -AN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4\\sqrt[] { 7 } } { 3 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 2 } { 3 }\\)，\n∴\\(BE=BN-NE=2-\\frac { 2 } { 3 }=\\frac { 4 } { 3 }\\)；\n综上所述，\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)．\n【点睛】本题主要考查特殊四边形，全等三角形，相似三角形的判定和性质，勾股定理，等腰三角形的判定和性质的综合运用，掌握特殊四边形的判定和性质，构造全等三角形的方法，相似三角形的判定和性质，数形结合分析，分类讨论思想等知识的综合运用是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-74C5AED396/figures/9017b810e0532ae0dc0ab374d1aae426c8c2ce5128002ca7bdab7feaf90bccb2.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/89f9eb326d6f8d7ca881e5ff15045021b83c6da7c7322549df137c7dc97a6da6.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/6b7e4cbe4cd4a3b012fde2edaddb95d8510cf92f08ab335a2d01bec6150aab10.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/86ba33ceaa3aaeada22d1fb5dfad47d1bcc8ca9ab869484d49d842410c4f615d.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/63a37489c229acc8a072cdc5e6fb3d2c41e8d483d111ab26376d83be693005f9.png",
+    "assets/SZ-G9-T1-74C5AED396/figures/572e72b854581de93661a3c0f920593436fb6c101ecdef9cd167bd8de15e2480.png"
+  ],
+  "solution": "解：（1）[特例感知]\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AB=BC=CD=AD,\\angle ABC=\\angle BCD=\\angle CDA=\\angle DAB=90{}^\\circ\\)，\n当\\(\\angle APB=\\angle D\\)时，即\\(\\angle APB=90{}^\\circ\\)，\n∴\\(AE\\bot BF\\)，\n∴\\(\\angle BAP+\\angle ABP=\\angle ABP+\\angle CBF=90{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle CBF\\)，\n在\\(Rt\\vartriangle ABE\\)和\\(Rt\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle ABE=\\angle BCF=90{}^\\circ \\\\ AB=BC \\\\ \\angle BAE=\\angle CBF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle BCF\\left ( { SAS } \\right )\\)，\n∴\\(AE=BF\\)，\n故答案为：\\(AE=BF\\)；\n（2）[深入探究]\n思路一：∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD,\\angle ABC=\\angle ADC,\\angle BAD=\\angle BCD\\)，\\(AB\\parallel CD,AD\\parallel BC\\)，\n当\\(\\angle APB=\\angle D\\)时，\\(\\angle APB=\\angle ABC\\)，\n∵\\(\\angle APB\\)是三角形\\(\\vartriangle BEP\\)的外角，\n∴\\(\\angle APB=\\angle BEP+\\angle EBP\\)，\n∵\\(\\angle EBP+\\angle PBA=\\angle ABC\\)，\n∴\\(\\angle ABP=\\angle BEP\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABP=\\angle CFB\\)，\n∴\\(\\angle BEP=\\angle CFB\\)，\n如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，则\\(AM=BC\\)，\n∴\\(\\angle ABM=\\angle AMB\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABC+\\angle C=180{}^\\circ\\)，\n∵\\(\\angle AMB+\\angle AME=180{}^\\circ\\)，\n∴\\(\\angle AME=\\angle C\\)，\n在\\(\\vartriangle AME\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle AME=\\angle C \\\\ \\angle AEM=\\angle BFC \\\\ AM=BC \\end{cases}\\)，\n∴\\(\\vartriangle AME≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(AE=BF\\)；\n思路二：由思路一可得\\(\\angle AEB=\\angle ABP=\\angle CFB\\)，\n在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，\n∴\\(\\angle N=\\angle AEB\\)，\n∴\\(\\angle N=\\angle CFB\\)，\n∵\\(\\angle ABN+\\angle ABC=\\angle ABC+\\angle C=180{}^\\circ\\)，\n∴\\(\\angle ABN=\\angle C\\)，\n在\\(\\vartriangle ABN\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle ABN=\\angle C \\\\ \\angle N=\\angle BFC \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABN≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(AE=BF\\)；\n（3）[例比迁移]\n如图所示，连接\\(BD\\)交\\(AE\\)于点\\(M\\)，\n〔图4〕\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD,AD\\parallel BC\\)，\n∵\\(\\angle APB=\\angle C=60{}^\\circ\\)，\n∴\\(\\vartriangle BCD\\)是等边三角形，\\(\\angle ABC=120{}^\\circ\\)，\n∴\\(\\angle CBD=\\angle ABD=60{}^\\circ =\\angle C\\)，\n∵\\(\\angle ABP+\\angle BAP=\\angle ABP+\\angle EBP=120{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle EBP\\)，\n在\\(\\vartriangle ABM\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle BAM=\\angle CBF \\\\ AB=BC \\\\ \\angle ABM=C \\end{cases}\\)，\n∴\\(\\vartriangle ABM≌\\vartriangle BCF\\left ( { ASA } \\right )\\)，\n∴\\(BF=AM\\)，\n∵\\(AB\\parallel BC\\)，\n∴\\(\\vartriangle BEM\\backsim \\vartriangle DAM\\)，\n∴\\(\\frac { BE } { AD }=\\frac { ME } { MA }\\)，\n∵\\(E\\)为\\(BC\\)的中点，\\(AD=BC\\)，\n∴\\(\\frac { ME } { MA }=\\frac { 1 } { 2 }\\)，\n∴\\(\\frac { MA } { AE }=\\frac { 2 } { 3 }\\)，即\\(\\frac { AE } { AM }=\\frac { 3 } { 2 }\\)，\n∵\\(AM=BF\\)，\n∴\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)；\n（4）[联系拓广]\n第一种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APF=60{}^\\circ\\)时，如图所示，连接\\(AC\\)，过点\\(A\\)作\\(AN\\bot CB\\)延长线于点\\(N\\)，\n〔图5〕\n∵四边形\\(ABCD\\)是平行四边形，\\(\\angle BCD=60{}^\\circ\\)，\n∴\\(AB\\parallel CD\\)，\\(AB=CD=4,AD=BC=3\\)，\n∴\\(\\angle ABN=60{}^\\circ\\)，\n∴\\(\\angle BAN=30{}^\\circ\\)，\n在\\(Rt\\vartriangle ABN\\)中，\\(AB=4\\)，\n∴\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\n∵点\\(F\\)是\\(CD\\)的中点，\n∴\\(CF=DF=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }\\times 4=2\\)，\n过点\\(F\\)作\\(FK\\bot BC\\)于点\\(K\\)，\\(\\angle BCD=60{}^\\circ\\)，\n在\\(Rt\\vartriangle CFK\\)中，\\(\\angle CFK=30{}^\\circ\\)，\n∴\\(CK=\\frac { 1 } { 2 }CF=\\frac { 1 } { 2 }\\times 2=1\\)，\\(FK=\\sqrt[] { 3 }CK=\\sqrt[] { 3 }\\)，\n∴\\(BK=BC-CK=3-1=2\\)，\n在\\(Rt\\vartriangle BFK\\)中，\\(BF=\\sqrt[] { BK ^ { 2 } +FK ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，\n∵\\(\\angle HPF=\\angle FCB=60{}^\\circ\\)，\\(\\angle HFP=\\angle CFB\\)，\n∴\\(\\vartriangle HFP\\backsim \\vartriangle BFC\\)，\n∴\\(\\frac { HF } { BF }=\\frac { HP } { BC }=\\frac { FP } { FC }\\)，\n∴\\(\\frac { FP } { FH }=\\frac { CF } { CB }=\\frac { 2 } { 3 }\\)，\n设\\(FP=2x,FH=3x\\)，\n∵\\(HF\\parallel AB\\)，\n∴\\(\\vartriangle PFH\\backsim \\vartriangle PBA\\)，\n∴\\(\\frac { HF } { AB }=\\frac { PF } { PC }\\)，\n∵\\(PC=PF+FC=2x+\\sqrt[] { 7 }\\)，\n∴\\(\\frac { 3x } { 4 }=\\frac { 2x } { 2x+\\sqrt[] { 7 } }\\)，\n解得，\\(x=\\frac { 8-3\\sqrt[] { 7 } } { 6 }\\)，\n∴\\(HF=3x=3\\times \\frac { 8-3\\sqrt[] { 7 } } { 6 }=\\frac { 8-3\\sqrt[] { 7 } } { 2 }\\)，\n∴\\(DH=DF-HF=2-\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 3\\sqrt[] { 7 }-4 } { 2 }\\)，则\\(CH=CF+HF=2+\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 12-3\\sqrt[] { 7 } } { 2 }\\)，\n∵\\(AD\\parallel CE\\)，\n∴\\(\\vartriangle ADH\\backsim \\vartriangle ECH\\)，\n∴\\(\\frac { AD } { EC }=\\frac { DH } { CH }\\)，\n∴\\(CE=\\frac { AD\\cdot CH } { DH }=\\frac { 3\\times \\frac { 12-3\\sqrt[] { 7 } } { 2 } } { \\frac { 3\\sqrt[] { 7 }-4 } { 2 } }=\\frac { 72\\sqrt[] { 7 }-45 } { 47 }\\)，\n∴\\(BE=BC+CE=3+\\frac { 72\\sqrt[] { 7 }-45 } { 47 }=\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)；\n第二种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APB=60{}^\\circ\\)时，如图所示，连接\\(AC\\)交\\(BF\\)与点\\(R\\)，\n〔图6〕\n由第一种情况可得，\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\\(BF=\\sqrt[] { 7 }\\)，\n∴\\(NC=BN+BC=2+3=5\\)，\n在\\(Rt\\vartriangle ANC\\)中，\\(AC=\\sqrt[] { AN ^ { 2 } +NC ^ { 2 } }=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\sqrt[] { 37 }\\)，\n∵\\(AB\\parallel CF\\)，\n∴\\(\\vartriangle CFR\\backsim \\vartriangle ABR\\)，\n∴\\(\\frac { CF } { AB }=\\frac { CR } { AR }=\\frac { 1 } { 2 }\\)，\n∴\\(AR=\\frac { 2 } { 3 }AC=\\frac { 2 } { 3 }\\times \\sqrt[] { 37 }=\\frac { 2\\sqrt[] { 37 } } { 3 }\\)，\n∵\\(\\angle P=\\angle BCD=60{}^\\circ\\)，\\(\\angle EBP=\\angle FBC\\)，\n∴\\(\\vartriangle EBP\\backsim \\vartriangle FBC\\)，\n∴\\(\\frac { EB } { FB }=\\frac { EP } { FC }=\\frac { BP } { BC }\\)，\n∴\\(\\frac { EB } { PB }=\\frac { FB } { CB }=\\frac { \\sqrt[] { 7 } } { 3 }\\)，\n∴设\\(EB=\\sqrt[] { 7 }m,BP=3m\\)，\n∵\\(\\angle ABE=\\angle P=60{}^\\circ ,\\angle BAE=\\angle PAB\\)，\n∴\\(\\vartriangle ABE\\backsim \\vartriangle APB\\)，\n∴\\(\\frac { AB } { AP }=\\frac { AE } { AB }=\\frac { BE } { PB }\\)，\n∴\\(\\frac { 4 } { AP }=\\frac { AE } { 4 }=\\frac { \\sqrt[] { 7 }m } { 3m }\\)，\n解得，\\(AE=\\frac { 4\\sqrt[] { 7 } } { 3 }\\)，\n在\\(Rt\\vartriangle ANE\\)中，\\(NE=\\sqrt[] { AE ^ { 2 } -AN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4\\sqrt[] { 7 } } { 3 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 2 } { 3 }\\)，\n∴\\(BE=BN-NE=2-\\frac { 2 } { 3 }=\\frac { 4 } { 3 }\\)；\n综上所述，\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)．",
+  "solution_steps": [
+    "解：（1）[特例感知]",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(AB=BC=CD=AD,\\angle ABC=\\angle BCD=\\angle CDA=\\angle DAB=90{}^\\circ\\)，",
+    "当\\(\\angle APB=\\angle D\\)时，即\\(\\angle APB=90{}^\\circ\\)，",
+    "∴\\(AE\\bot BF\\)，",
+    "∴\\(\\angle BAP+\\angle ABP=\\angle ABP+\\angle CBF=90{}^\\circ\\)，",
+    "∴\\(\\angle BAE=\\angle CBF\\)，",
+    "在\\(Rt\\vartriangle ABE\\)和\\(Rt\\vartriangle BCF\\)中，",
+    "\\(\\begin{cases} \\angle ABE=\\angle BCF=90{}^\\circ \\\\ AB=BC \\\\ \\angle BAE=\\angle CBF \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle BCF\\left ( { SAS } \\right )\\)，",
+    "∴\\(AE=BF\\)，",
+    "故答案为：\\(AE=BF\\)；",
+    "（2）[深入探究]",
+    "思路一：∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(AB=BC=CD=AD,\\angle ABC=\\angle ADC,\\angle BAD=\\angle BCD\\)，\\(AB\\parallel CD,AD\\parallel BC\\)，",
+    "当\\(\\angle APB=\\angle D\\)时，\\(\\angle APB=\\angle ABC\\)，",
+    "∵\\(\\angle APB\\)是三角形\\(\\vartriangle BEP\\)的外角，",
+    "∴\\(\\angle APB=\\angle BEP+\\angle EBP\\)，",
+    "∵\\(\\angle EBP+\\angle PBA=\\angle ABC\\)，",
+    "∴\\(\\angle ABP=\\angle BEP\\)，",
+    "∵\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle ABP=\\angle CFB\\)，",
+    "∴\\(\\angle BEP=\\angle CFB\\)，",
+    "如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，则\\(AM=BC\\)，",
+    "∴\\(\\angle ABM=\\angle AMB\\)，",
+    "∵\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle ABC+\\angle C=180{}^\\circ\\)，",
+    "∵\\(\\angle AMB+\\angle AME=180{}^\\circ\\)，",
+    "∴\\(\\angle AME=\\angle C\\)，",
+    "在\\(\\vartriangle AME\\)和\\(\\vartriangle BCF\\)中，",
+    "\\(\\begin{cases} \\angle AME=\\angle C \\\\ \\angle AEM=\\angle BFC \\\\ AM=BC \\end{cases}\\)，",
+    "∴\\(\\vartriangle AME≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，",
+    "∴\\(AE=BF\\)；",
+    "思路二：由思路一可得\\(\\angle AEB=\\angle ABP=\\angle CFB\\)，",
+    "在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，",
+    "∴\\(\\angle N=\\angle AEB\\)，",
+    "∴\\(\\angle N=\\angle CFB\\)，",
+    "∵\\(\\angle ABN+\\angle ABC=\\angle ABC+\\angle C=180{}^\\circ\\)，",
+    "∴\\(\\angle ABN=\\angle C\\)，",
+    "在\\(\\vartriangle ABN\\)和\\(\\vartriangle BCF\\)中，",
+    "\\(\\begin{cases} \\angle ABN=\\angle C \\\\ \\angle N=\\angle BFC \\\\ AB=BC \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABN≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，",
+    "∴\\(AE=BF\\)；",
+    "（3）[例比迁移]",
+    "如图所示，连接\\(BD\\)交\\(AE\\)于点\\(M\\)，",
+    "〔图4〕",
+    "∵四边形\\(ABCD\\)是菱形，",
+    "∴\\(AB=BC=CD=AD,AD\\parallel BC\\)，",
+    "∵\\(\\angle APB=\\angle C=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle BCD\\)是等边三角形，\\(\\angle ABC=120{}^\\circ\\)，",
+    "∴\\(\\angle CBD=\\angle ABD=60{}^\\circ =\\angle C\\)，",
+    "∵\\(\\angle ABP+\\angle BAP=\\angle ABP+\\angle EBP=120{}^\\circ\\)，",
+    "∴\\(\\angle BAE=\\angle EBP\\)，",
+    "在\\(\\vartriangle ABM\\)和\\(\\vartriangle BCF\\)中，",
+    "\\(\\begin{cases} \\angle BAM=\\angle CBF \\\\ AB=BC \\\\ \\angle ABM=C \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABM≌\\vartriangle BCF\\left ( { ASA } \\right )\\)，",
+    "∴\\(BF=AM\\)，",
+    "∵\\(AB\\parallel BC\\)，",
+    "∴\\(\\vartriangle BEM\\backsim \\vartriangle DAM\\)，",
+    "∴\\(\\frac { BE } { AD }=\\frac { ME } { MA }\\)，",
+    "∵\\(E\\)为\\(BC\\)的中点，\\(AD=BC\\)，",
+    "∴\\(\\frac { ME } { MA }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(\\frac { MA } { AE }=\\frac { 2 } { 3 }\\)，即\\(\\frac { AE } { AM }=\\frac { 3 } { 2 }\\)，",
+    "∵\\(AM=BF\\)，",
+    "∴\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)；",
+    "（4）[联系拓广]",
+    "第一种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APF=60{}^\\circ\\)时，如图所示，连接\\(AC\\)，过点\\(A\\)作\\(AN\\bot CB\\)延长线于点\\(N\\)，",
+    "〔图5〕",
+    "∵四边形\\(ABCD\\)是平行四边形，\\(\\angle BCD=60{}^\\circ\\)，",
+    "∴\\(AB\\parallel CD\\)，\\(AB=CD=4,AD=BC=3\\)，",
+    "∴\\(\\angle ABN=60{}^\\circ\\)，",
+    "∴\\(\\angle BAN=30{}^\\circ\\)，",
+    "在\\(Rt\\vartriangle ABN\\)中，\\(AB=4\\)，",
+    "∴\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，",
+    "∵点\\(F\\)是\\(CD\\)的中点，",
+    "∴\\(CF=DF=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }\\times 4=2\\)，",
+    "过点\\(F\\)作\\(FK\\bot BC\\)于点\\(K\\)，\\(\\angle BCD=60{}^\\circ\\)，",
+    "在\\(Rt\\vartriangle CFK\\)中，\\(\\angle CFK=30{}^\\circ\\)，",
+    "∴\\(CK=\\frac { 1 } { 2 }CF=\\frac { 1 } { 2 }\\times 2=1\\)，\\(FK=\\sqrt[] { 3 }CK=\\sqrt[] { 3 }\\)，",
+    "∴\\(BK=BC-CK=3-1=2\\)，",
+    "在\\(Rt\\vartriangle BFK\\)中，\\(BF=\\sqrt[] { BK ^ { 2 } +FK ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，",
+    "∵\\(\\angle HPF=\\angle FCB=60{}^\\circ\\)，\\(\\angle HFP=\\angle CFB\\)，",
+    "∴\\(\\vartriangle HFP\\backsim \\vartriangle BFC\\)，",
+    "∴\\(\\frac { HF } { BF }=\\frac { HP } { BC }=\\frac { FP } { FC }\\)，",
+    "∴\\(\\frac { FP } { FH }=\\frac { CF } { CB }=\\frac { 2 } { 3 }\\)，",
+    "设\\(FP=2x,FH=3x\\)，",
+    "∵\\(HF\\parallel AB\\)，",
+    "∴\\(\\vartriangle PFH\\backsim \\vartriangle PBA\\)，",
+    "∴\\(\\frac { HF } { AB }=\\frac { PF } { PC }\\)，",
+    "∵\\(PC=PF+FC=2x+\\sqrt[] { 7 }\\)，",
+    "∴\\(\\frac { 3x } { 4 }=\\frac { 2x } { 2x+\\sqrt[] { 7 } }\\)，",
+    "解得，\\(x=\\frac { 8-3\\sqrt[] { 7 } } { 6 }\\)，",
+    "∴\\(HF=3x=3\\times \\frac { 8-3\\sqrt[] { 7 } } { 6 }=\\frac { 8-3\\sqrt[] { 7 } } { 2 }\\)，",
+    "∴\\(DH=DF-HF=2-\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 3\\sqrt[] { 7 }-4 } { 2 }\\)，则\\(CH=CF+HF=2+\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 12-3\\sqrt[] { 7 } } { 2 }\\)，",
+    "∵\\(AD\\parallel CE\\)，",
+    "∴\\(\\vartriangle ADH\\backsim \\vartriangle ECH\\)，",
+    "∴\\(\\frac { AD } { EC }=\\frac { DH } { CH }\\)，",
+    "∴\\(CE=\\frac { AD\\cdot CH } { DH }=\\frac { 3\\times \\frac { 12-3\\sqrt[] { 7 } } { 2 } } { \\frac { 3\\sqrt[] { 7 }-4 } { 2 } }=\\frac { 72\\sqrt[] { 7 }-45 } { 47 }\\)，",
+    "∴\\(BE=BC+CE=3+\\frac { 72\\sqrt[] { 7 }-45 } { 47 }=\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)；",
+    "第二种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APB=60{}^\\circ\\)时，如图所示，连接\\(AC\\)交\\(BF\\)与点\\(R\\)，",
+    "〔图6〕",
+    "由第一种情况可得，\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\\(BF=\\sqrt[] { 7 }\\)，",
+    "∴\\(NC=BN+BC=2+3=5\\)，",
+    "在\\(Rt\\vartriangle ANC\\)中，\\(AC=\\sqrt[] { AN ^ { 2 } +NC ^ { 2 } }=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\sqrt[] { 37 }\\)，",
+    "∵\\(AB\\parallel CF\\)，",
+    "∴\\(\\vartriangle CFR\\backsim \\vartriangle ABR\\)，",
+    "∴\\(\\frac { CF } { AB }=\\frac { CR } { AR }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(AR=\\frac { 2 } { 3 }AC=\\frac { 2 } { 3 }\\times \\sqrt[] { 37 }=\\frac { 2\\sqrt[] { 37 } } { 3 }\\)，",
+    "∵\\(\\angle P=\\angle BCD=60{}^\\circ\\)，\\(\\angle EBP=\\angle FBC\\)，",
+    "∴\\(\\vartriangle EBP\\backsim \\vartriangle FBC\\)，",
+    "∴\\(\\frac { EB } { FB }=\\frac { EP } { FC }=\\frac { BP } { BC }\\)，",
+    "∴\\(\\frac { EB } { PB }=\\frac { FB } { CB }=\\frac { \\sqrt[] { 7 } } { 3 }\\)，",
+    "∴设\\(EB=\\sqrt[] { 7 }m,BP=3m\\)，",
+    "∵\\(\\angle ABE=\\angle P=60{}^\\circ ,\\angle BAE=\\angle PAB\\)，",
+    "∴\\(\\vartriangle ABE\\backsim \\vartriangle APB\\)，",
+    "∴\\(\\frac { AB } { AP }=\\frac { AE } { AB }=\\frac { BE } { PB }\\)，",
+    "∴\\(\\frac { 4 } { AP }=\\frac { AE } { 4 }=\\frac { \\sqrt[] { 7 }m } { 3m }\\)，",
+    "解得，\\(AE=\\frac { 4\\sqrt[] { 7 } } { 3 }\\)，",
+    "在\\(Rt\\vartriangle ANE\\)中，\\(NE=\\sqrt[] { AE ^ { 2 } -AN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4\\sqrt[] { 7 } } { 3 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 2 } { 3 }\\)，",
+    "∴\\(BE=BN-NE=2-\\frac { 2 } { 3 }=\\frac { 4 } { 3 }\\)；",
+    "综上所述，\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与探究\n如图，在平行四边形\\(ABCD\\)中，\\(E，F\\)分别是边\\(BC\\)，\\(CD\\)上的点，\\(AE\\)与\\(BF\\)交于点\\(P\\)．",
+      "paper_blocks": [
+        74,
+        75
+      ]
+    },
+    {
+      "id": "table-82",
+      "kind": "table",
+      "text": "思路一 | 思路二\n如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，…… | 如图，在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，……\n〔图1〕 | 〔图2〕",
+      "paper_blocks": [
+        82
+      ]
+    },
+    {
+      "id": "fig-87",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        87
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-74C5AED396-Q20-P01",
+      "label": "（1）",
+      "prompt": "【特例感知】\n如图（a），若四边形\\(ABCD\\)是正方形，当\\(\\angle APB=\\angle D\\)时，则线段\\(AE\\)与\\(BF\\)的数量关系是________；",
+      "stem_text": "【特例感知】\n如图（a），若四边形\\(ABCD\\)是正方形，当\\(\\angle APB=\\angle D\\)时，则线段\\(AE\\)与\\(BF\\)的数量关系是________；",
+      "material_ids": [
+        "context",
+        "table-82",
+        "fig-87"
+      ],
+      "requires": [],
+      "given_answer": "[特例感知]\\(AE=BF\\)",
+      "answer": "[特例感知]\\(AE=BF\\)",
+      "given_solution": "[特例感知]\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AB=BC=CD=AD,\\angle ABC=\\angle BCD=\\angle CDA=\\angle DAB=90{}^\\circ\\)，\n当\\(\\angle APB=\\angle D\\)时，即\\(\\angle APB=90{}^\\circ\\)，\n∴\\(AE\\bot BF\\)，\n∴\\(\\angle BAP+\\angle ABP=\\angle ABP+\\angle CBF=90{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle CBF\\)，\n在\\(Rt\\vartriangle ABE\\)和\\(Rt\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle ABE=\\angle BCF=90{}^\\circ \\\\ AB=BC \\\\ \\angle BAE=\\angle CBF \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle BCF\\left ( { SAS } \\right )\\)，\n∴\\(AE=BF\\)，\n故答案为：\\(AE=BF\\)；",
+      "solution_steps": [
+        "[特例感知]",
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(AB=BC=CD=AD,\\angle ABC=\\angle BCD=\\angle CDA=\\angle DAB=90{}^\\circ\\)，",
+        "当\\(\\angle APB=\\angle D\\)时，即\\(\\angle APB=90{}^\\circ\\)，",
+        "∴\\(AE\\bot BF\\)，",
+        "∴\\(\\angle BAP+\\angle ABP=\\angle ABP+\\angle CBF=90{}^\\circ\\)，",
+        "∴\\(\\angle BAE=\\angle CBF\\)，",
+        "在\\(Rt\\vartriangle ABE\\)和\\(Rt\\vartriangle BCF\\)中，",
+        "\\(\\begin{cases} \\angle ABE=\\angle BCF=90{}^\\circ \\\\ AB=BC \\\\ \\angle BAE=\\angle CBF \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle BCF\\left ( { SAS } \\right )\\)，",
+        "∴\\(AE=BF\\)，",
+        "故答案为：\\(AE=BF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          76,
+          77,
+          82,
+          87
+        ],
+        "solution_block_ids": [
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-74C5AED396-Q20-P02",
+      "label": "（2）",
+      "prompt": "【深入探究】\n如图（b），若四边形\\(ABCD\\)是菱形，且\\(\\angle APB=\\angle D\\)，则线段\\(AE\\)与\\(BF\\)满足怎样的数量关系？\n请证明你的猜想；\n关于此问，数学兴趣小组给出如下两种解决思路．请选择其中一种思路解决问题．",
+      "stem_text": "【深入探究】\n如图（b），若四边形\\(ABCD\\)是菱形，且\\(\\angle APB=\\angle D\\)，则线段\\(AE\\)与\\(BF\\)满足怎样的数量关系？\n请证明你的猜想；\n关于此问，数学兴趣小组给出如下两种解决思路．请选择其中一种思路解决问题．",
+      "material_ids": [
+        "context",
+        "table-82",
+        "fig-87"
+      ],
+      "requires": [],
+      "given_answer": "[深入探究]思路一：\\(AE=BF\\)，证明见详解；思路二：\\(AE=BF\\)，证明见详解",
+      "answer": "[深入探究]思路一：\\(AE=BF\\)，证明见详解；思路二：\\(AE=BF\\)，证明见详解",
+      "given_solution": "[深入探究]\n思路一：∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD,\\angle ABC=\\angle ADC,\\angle BAD=\\angle BCD\\)，\\(AB\\parallel CD,AD\\parallel BC\\)，\n当\\(\\angle APB=\\angle D\\)时，\\(\\angle APB=\\angle ABC\\)，\n∵\\(\\angle APB\\)是三角形\\(\\vartriangle BEP\\)的外角，\n∴\\(\\angle APB=\\angle BEP+\\angle EBP\\)，\n∵\\(\\angle EBP+\\angle PBA=\\angle ABC\\)，\n∴\\(\\angle ABP=\\angle BEP\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABP=\\angle CFB\\)，\n∴\\(\\angle BEP=\\angle CFB\\)，\n如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，则\\(AM=BC\\)，\n∴\\(\\angle ABM=\\angle AMB\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABC+\\angle C=180{}^\\circ\\)，\n∵\\(\\angle AMB+\\angle AME=180{}^\\circ\\)，\n∴\\(\\angle AME=\\angle C\\)，\n在\\(\\vartriangle AME\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle AME=\\angle C \\\\ \\angle AEM=\\angle BFC \\\\ AM=BC \\end{cases}\\)，\n∴\\(\\vartriangle AME≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(AE=BF\\)；\n思路二：由思路一可得\\(\\angle AEB=\\angle ABP=\\angle CFB\\)，\n在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，\n∴\\(\\angle N=\\angle AEB\\)，\n∴\\(\\angle N=\\angle CFB\\)，\n∵\\(\\angle ABN+\\angle ABC=\\angle ABC+\\angle C=180{}^\\circ\\)，\n∴\\(\\angle ABN=\\angle C\\)，\n在\\(\\vartriangle ABN\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle ABN=\\angle C \\\\ \\angle N=\\angle BFC \\\\ AB=BC \\end{cases}\\)，\n∴\\(\\vartriangle ABN≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，\n∴\\(AE=BF\\)；",
+      "solution_steps": [
+        "[深入探究]",
+        "思路一：∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(AB=BC=CD=AD,\\angle ABC=\\angle ADC,\\angle BAD=\\angle BCD\\)，\\(AB\\parallel CD,AD\\parallel BC\\)，",
+        "当\\(\\angle APB=\\angle D\\)时，\\(\\angle APB=\\angle ABC\\)，",
+        "∵\\(\\angle APB\\)是三角形\\(\\vartriangle BEP\\)的外角，",
+        "∴\\(\\angle APB=\\angle BEP+\\angle EBP\\)，",
+        "∵\\(\\angle EBP+\\angle PBA=\\angle ABC\\)，",
+        "∴\\(\\angle ABP=\\angle BEP\\)，",
+        "∵\\(AB\\parallel CD\\)，",
+        "∴\\(\\angle ABP=\\angle CFB\\)，",
+        "∴\\(\\angle BEP=\\angle CFB\\)，",
+        "如图，在\\(BC\\)边上取一点\\(M\\)使\\(AM=AB\\)，则\\(AM=BC\\)，",
+        "∴\\(\\angle ABM=\\angle AMB\\)，",
+        "∵\\(AB\\parallel CD\\)，",
+        "∴\\(\\angle ABC+\\angle C=180{}^\\circ\\)，",
+        "∵\\(\\angle AMB+\\angle AME=180{}^\\circ\\)，",
+        "∴\\(\\angle AME=\\angle C\\)，",
+        "在\\(\\vartriangle AME\\)和\\(\\vartriangle BCF\\)中，",
+        "\\(\\begin{cases} \\angle AME=\\angle C \\\\ \\angle AEM=\\angle BFC \\\\ AM=BC \\end{cases}\\)，",
+        "∴\\(\\vartriangle AME≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，",
+        "∴\\(AE=BF\\)；",
+        "思路二：由思路一可得\\(\\angle AEB=\\angle ABP=\\angle CFB\\)，",
+        "在\\(CB\\)的延长线上取一点\\(N\\)使，\\(AN=AE\\)，",
+        "∴\\(\\angle N=\\angle AEB\\)，",
+        "∴\\(\\angle N=\\angle CFB\\)，",
+        "∵\\(\\angle ABN+\\angle ABC=\\angle ABC+\\angle C=180{}^\\circ\\)，",
+        "∴\\(\\angle ABN=\\angle C\\)，",
+        "在\\(\\vartriangle ABN\\)和\\(\\vartriangle BCF\\)中，",
+        "\\(\\begin{cases} \\angle ABN=\\angle C \\\\ \\angle N=\\angle BFC \\\\ AB=BC \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABN≌\\vartriangle BCF\\left ( { AAS } \\right )\\)，",
+        "∴\\(AE=BF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          78,
+          79,
+          80,
+          81,
+          82,
+          87
+        ],
+        "solution_block_ids": [
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-74C5AED396-Q20-P03",
+      "label": "（3）",
+      "prompt": "【类比迁移】\n如图（c），若四边形\\(ABCD\\)是菱形，\\(E\\)为\\(BC\\)的中点，\\(\\angle APB=\\angle C=60{}^\\circ\\)，请求出\\(\\frac { AE } { BF }\\)的值；",
+      "stem_text": "【类比迁移】\n如图（c），若四边形\\(ABCD\\)是菱形，\\(E\\)为\\(BC\\)的中点，\\(\\angle APB=\\angle C=60{}^\\circ\\)，请求出\\(\\frac { AE } { BF }\\)的值；",
+      "material_ids": [
+        "context",
+        "table-82",
+        "fig-87"
+      ],
+      "requires": [],
+      "given_answer": "[例比迁移]\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)",
+      "answer": "[例比迁移]\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)",
+      "given_solution": "[例比迁移]\n如图所示，连接\\(BD\\)交\\(AE\\)于点\\(M\\)，\n〔图4〕\n∵四边形\\(ABCD\\)是菱形，\n∴\\(AB=BC=CD=AD,AD\\parallel BC\\)，\n∵\\(\\angle APB=\\angle C=60{}^\\circ\\)，\n∴\\(\\vartriangle BCD\\)是等边三角形，\\(\\angle ABC=120{}^\\circ\\)，\n∴\\(\\angle CBD=\\angle ABD=60{}^\\circ =\\angle C\\)，\n∵\\(\\angle ABP+\\angle BAP=\\angle ABP+\\angle EBP=120{}^\\circ\\)，\n∴\\(\\angle BAE=\\angle EBP\\)，\n在\\(\\vartriangle ABM\\)和\\(\\vartriangle BCF\\)中，\n\\(\\begin{cases} \\angle BAM=\\angle CBF \\\\ AB=BC \\\\ \\angle ABM=C \\end{cases}\\)，\n∴\\(\\vartriangle ABM≌\\vartriangle BCF\\left ( { ASA } \\right )\\)，\n∴\\(BF=AM\\)，\n∵\\(AB\\parallel BC\\)，\n∴\\(\\vartriangle BEM\\backsim \\vartriangle DAM\\)，\n∴\\(\\frac { BE } { AD }=\\frac { ME } { MA }\\)，\n∵\\(E\\)为\\(BC\\)的中点，\\(AD=BC\\)，\n∴\\(\\frac { ME } { MA }=\\frac { 1 } { 2 }\\)，\n∴\\(\\frac { MA } { AE }=\\frac { 2 } { 3 }\\)，即\\(\\frac { AE } { AM }=\\frac { 3 } { 2 }\\)，\n∵\\(AM=BF\\)，\n∴\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)；",
+      "solution_steps": [
+        "[例比迁移]",
+        "如图所示，连接\\(BD\\)交\\(AE\\)于点\\(M\\)，",
+        "〔图4〕",
+        "∵四边形\\(ABCD\\)是菱形，",
+        "∴\\(AB=BC=CD=AD,AD\\parallel BC\\)，",
+        "∵\\(\\angle APB=\\angle C=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle BCD\\)是等边三角形，\\(\\angle ABC=120{}^\\circ\\)，",
+        "∴\\(\\angle CBD=\\angle ABD=60{}^\\circ =\\angle C\\)，",
+        "∵\\(\\angle ABP+\\angle BAP=\\angle ABP+\\angle EBP=120{}^\\circ\\)，",
+        "∴\\(\\angle BAE=\\angle EBP\\)，",
+        "在\\(\\vartriangle ABM\\)和\\(\\vartriangle BCF\\)中，",
+        "\\(\\begin{cases} \\angle BAM=\\angle CBF \\\\ AB=BC \\\\ \\angle ABM=C \\end{cases}\\)，",
+        "∴\\(\\vartriangle ABM≌\\vartriangle BCF\\left ( { ASA } \\right )\\)，",
+        "∴\\(BF=AM\\)，",
+        "∵\\(AB\\parallel BC\\)，",
+        "∴\\(\\vartriangle BEM\\backsim \\vartriangle DAM\\)，",
+        "∴\\(\\frac { BE } { AD }=\\frac { ME } { MA }\\)，",
+        "∵\\(E\\)为\\(BC\\)的中点，\\(AD=BC\\)，",
+        "∴\\(\\frac { ME } { MA }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(\\frac { MA } { AE }=\\frac { 2 } { 3 }\\)，即\\(\\frac { AE } { AM }=\\frac { 3 } { 2 }\\)，",
+        "∵\\(AM=BF\\)，",
+        "∴\\(\\frac { AE } { BF }=\\frac { 3 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          82,
+          83,
+          84,
+          87
+        ],
+        "solution_block_ids": [
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-74C5AED396-Q20-P04",
+      "label": "（4）",
+      "prompt": "【联系拓广】\n如图（d），在平行四边形\\(ABCD\\)中，\\(AD=3\\)，\\(AB=4\\)，\\(\\angle C=60{}^\\circ\\)，\\(F\\)是\\(CD\\)边的中点，当点\\(E\\)在直线\\(BC\\)上运动，且直线\\(AE\\)与直线\\(BF\\)所夹的锐角为\\(60°\\)时，请直接写\\(BE\\)的长．",
+      "stem_text": "【联系拓广】\n如图（d），在平行四边形\\(ABCD\\)中，\\(AD=3\\)，\\(AB=4\\)，\\(\\angle C=60{}^\\circ\\)，\\(F\\)是\\(CD\\)边的中点，当点\\(E\\)在直线\\(BC\\)上运动，且直线\\(AE\\)与直线\\(BF\\)所夹的锐角为\\(60°\\)时，请直接写\\(BE\\)的长．",
+      "material_ids": [
+        "context",
+        "table-82",
+        "fig-87"
+      ],
+      "requires": [],
+      "given_answer": "[联系拓广]\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)",
+      "answer": "[联系拓广]\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)",
+      "given_solution": "[联系拓广]\n第一种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APF=60{}^\\circ\\)时，如图所示，连接\\(AC\\)，过点\\(A\\)作\\(AN\\bot CB\\)延长线于点\\(N\\)，\n〔图5〕\n∵四边形\\(ABCD\\)是平行四边形，\\(\\angle BCD=60{}^\\circ\\)，\n∴\\(AB\\parallel CD\\)，\\(AB=CD=4,AD=BC=3\\)，\n∴\\(\\angle ABN=60{}^\\circ\\)，\n∴\\(\\angle BAN=30{}^\\circ\\)，\n在\\(Rt\\vartriangle ABN\\)中，\\(AB=4\\)，\n∴\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\n∵点\\(F\\)是\\(CD\\)的中点，\n∴\\(CF=DF=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }\\times 4=2\\)，\n过点\\(F\\)作\\(FK\\bot BC\\)于点\\(K\\)，\\(\\angle BCD=60{}^\\circ\\)，\n在\\(Rt\\vartriangle CFK\\)中，\\(\\angle CFK=30{}^\\circ\\)，\n∴\\(CK=\\frac { 1 } { 2 }CF=\\frac { 1 } { 2 }\\times 2=1\\)，\\(FK=\\sqrt[] { 3 }CK=\\sqrt[] { 3 }\\)，\n∴\\(BK=BC-CK=3-1=2\\)，\n在\\(Rt\\vartriangle BFK\\)中，\\(BF=\\sqrt[] { BK ^ { 2 } +FK ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，\n∵\\(\\angle HPF=\\angle FCB=60{}^\\circ\\)，\\(\\angle HFP=\\angle CFB\\)，\n∴\\(\\vartriangle HFP\\backsim \\vartriangle BFC\\)，\n∴\\(\\frac { HF } { BF }=\\frac { HP } { BC }=\\frac { FP } { FC }\\)，\n∴\\(\\frac { FP } { FH }=\\frac { CF } { CB }=\\frac { 2 } { 3 }\\)，\n设\\(FP=2x,FH=3x\\)，\n∵\\(HF\\parallel AB\\)，\n∴\\(\\vartriangle PFH\\backsim \\vartriangle PBA\\)，\n∴\\(\\frac { HF } { AB }=\\frac { PF } { PC }\\)，\n∵\\(PC=PF+FC=2x+\\sqrt[] { 7 }\\)，\n∴\\(\\frac { 3x } { 4 }=\\frac { 2x } { 2x+\\sqrt[] { 7 } }\\)，\n解得，\\(x=\\frac { 8-3\\sqrt[] { 7 } } { 6 }\\)，\n∴\\(HF=3x=3\\times \\frac { 8-3\\sqrt[] { 7 } } { 6 }=\\frac { 8-3\\sqrt[] { 7 } } { 2 }\\)，\n∴\\(DH=DF-HF=2-\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 3\\sqrt[] { 7 }-4 } { 2 }\\)，则\\(CH=CF+HF=2+\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 12-3\\sqrt[] { 7 } } { 2 }\\)，\n∵\\(AD\\parallel CE\\)，\n∴\\(\\vartriangle ADH\\backsim \\vartriangle ECH\\)，\n∴\\(\\frac { AD } { EC }=\\frac { DH } { CH }\\)，\n∴\\(CE=\\frac { AD\\cdot CH } { DH }=\\frac { 3\\times \\frac { 12-3\\sqrt[] { 7 } } { 2 } } { \\frac { 3\\sqrt[] { 7 }-4 } { 2 } }=\\frac { 72\\sqrt[] { 7 }-45 } { 47 }\\)，\n∴\\(BE=BC+CE=3+\\frac { 72\\sqrt[] { 7 }-45 } { 47 }=\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)；\n第二种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APB=60{}^\\circ\\)时，如图所示，连接\\(AC\\)交\\(BF\\)与点\\(R\\)，\n〔图6〕\n由第一种情况可得，\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\\(BF=\\sqrt[] { 7 }\\)，\n∴\\(NC=BN+BC=2+3=5\\)，\n在\\(Rt\\vartriangle ANC\\)中，\\(AC=\\sqrt[] { AN ^ { 2 } +NC ^ { 2 } }=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\sqrt[] { 37 }\\)，\n∵\\(AB\\parallel CF\\)，\n∴\\(\\vartriangle CFR\\backsim \\vartriangle ABR\\)，\n∴\\(\\frac { CF } { AB }=\\frac { CR } { AR }=\\frac { 1 } { 2 }\\)，\n∴\\(AR=\\frac { 2 } { 3 }AC=\\frac { 2 } { 3 }\\times \\sqrt[] { 37 }=\\frac { 2\\sqrt[] { 37 } } { 3 }\\)，\n∵\\(\\angle P=\\angle BCD=60{}^\\circ\\)，\\(\\angle EBP=\\angle FBC\\)，\n∴\\(\\vartriangle EBP\\backsim \\vartriangle FBC\\)，\n∴\\(\\frac { EB } { FB }=\\frac { EP } { FC }=\\frac { BP } { BC }\\)，\n∴\\(\\frac { EB } { PB }=\\frac { FB } { CB }=\\frac { \\sqrt[] { 7 } } { 3 }\\)，\n∴设\\(EB=\\sqrt[] { 7 }m,BP=3m\\)，\n∵\\(\\angle ABE=\\angle P=60{}^\\circ ,\\angle BAE=\\angle PAB\\)，\n∴\\(\\vartriangle ABE\\backsim \\vartriangle APB\\)，\n∴\\(\\frac { AB } { AP }=\\frac { AE } { AB }=\\frac { BE } { PB }\\)，\n∴\\(\\frac { 4 } { AP }=\\frac { AE } { 4 }=\\frac { \\sqrt[] { 7 }m } { 3m }\\)，\n解得，\\(AE=\\frac { 4\\sqrt[] { 7 } } { 3 }\\)，\n在\\(Rt\\vartriangle ANE\\)中，\\(NE=\\sqrt[] { AE ^ { 2 } -AN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4\\sqrt[] { 7 } } { 3 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 2 } { 3 }\\)，\n∴\\(BE=BN-NE=2-\\frac { 2 } { 3 }=\\frac { 4 } { 3 }\\)；\n综上所述，\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)．",
+      "solution_steps": [
+        "[联系拓广]",
+        "第一种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APF=60{}^\\circ\\)时，如图所示，连接\\(AC\\)，过点\\(A\\)作\\(AN\\bot CB\\)延长线于点\\(N\\)，",
+        "〔图5〕",
+        "∵四边形\\(ABCD\\)是平行四边形，\\(\\angle BCD=60{}^\\circ\\)，",
+        "∴\\(AB\\parallel CD\\)，\\(AB=CD=4,AD=BC=3\\)，",
+        "∴\\(\\angle ABN=60{}^\\circ\\)，",
+        "∴\\(\\angle BAN=30{}^\\circ\\)，",
+        "在\\(Rt\\vartriangle ABN\\)中，\\(AB=4\\)，",
+        "∴\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，",
+        "∵点\\(F\\)是\\(CD\\)的中点，",
+        "∴\\(CF=DF=\\frac { 1 } { 2 }CD=\\frac { 1 } { 2 }\\times 4=2\\)，",
+        "过点\\(F\\)作\\(FK\\bot BC\\)于点\\(K\\)，\\(\\angle BCD=60{}^\\circ\\)，",
+        "在\\(Rt\\vartriangle CFK\\)中，\\(\\angle CFK=30{}^\\circ\\)，",
+        "∴\\(CK=\\frac { 1 } { 2 }CF=\\frac { 1 } { 2 }\\times 2=1\\)，\\(FK=\\sqrt[] { 3 }CK=\\sqrt[] { 3 }\\)，",
+        "∴\\(BK=BC-CK=3-1=2\\)，",
+        "在\\(Rt\\vartriangle BFK\\)中，\\(BF=\\sqrt[] { BK ^ { 2 } +FK ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } +\\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\sqrt[] { 7 }\\)，",
+        "∵\\(\\angle HPF=\\angle FCB=60{}^\\circ\\)，\\(\\angle HFP=\\angle CFB\\)，",
+        "∴\\(\\vartriangle HFP\\backsim \\vartriangle BFC\\)，",
+        "∴\\(\\frac { HF } { BF }=\\frac { HP } { BC }=\\frac { FP } { FC }\\)，",
+        "∴\\(\\frac { FP } { FH }=\\frac { CF } { CB }=\\frac { 2 } { 3 }\\)，",
+        "设\\(FP=2x,FH=3x\\)，",
+        "∵\\(HF\\parallel AB\\)，",
+        "∴\\(\\vartriangle PFH\\backsim \\vartriangle PBA\\)，",
+        "∴\\(\\frac { HF } { AB }=\\frac { PF } { PC }\\)，",
+        "∵\\(PC=PF+FC=2x+\\sqrt[] { 7 }\\)，",
+        "∴\\(\\frac { 3x } { 4 }=\\frac { 2x } { 2x+\\sqrt[] { 7 } }\\)，",
+        "解得，\\(x=\\frac { 8-3\\sqrt[] { 7 } } { 6 }\\)，",
+        "∴\\(HF=3x=3\\times \\frac { 8-3\\sqrt[] { 7 } } { 6 }=\\frac { 8-3\\sqrt[] { 7 } } { 2 }\\)，",
+        "∴\\(DH=DF-HF=2-\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 3\\sqrt[] { 7 }-4 } { 2 }\\)，则\\(CH=CF+HF=2+\\frac { 8-3\\sqrt[] { 7 } } { 2 }=\\frac { 12-3\\sqrt[] { 7 } } { 2 }\\)，",
+        "∵\\(AD\\parallel CE\\)，",
+        "∴\\(\\vartriangle ADH\\backsim \\vartriangle ECH\\)，",
+        "∴\\(\\frac { AD } { EC }=\\frac { DH } { CH }\\)，",
+        "∴\\(CE=\\frac { AD\\cdot CH } { DH }=\\frac { 3\\times \\frac { 12-3\\sqrt[] { 7 } } { 2 } } { \\frac { 3\\sqrt[] { 7 }-4 } { 2 } }=\\frac { 72\\sqrt[] { 7 }-45 } { 47 }\\)，",
+        "∴\\(BE=BC+CE=3+\\frac { 72\\sqrt[] { 7 }-45 } { 47 }=\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)；",
+        "第二种情况，直线\\(AE\\)与直线\\(BF\\)所夹的锐角\\(\\angle APB=60{}^\\circ\\)时，如图所示，连接\\(AC\\)交\\(BF\\)与点\\(R\\)，",
+        "〔图6〕",
+        "由第一种情况可得，\\(BN=\\frac { 1 } { 2 }AB=\\frac { 1 } { 2 }\\times 4=2\\)，\\(AN=\\sqrt[] { 3 }BN=2\\sqrt[] { 3 }\\)，\\(BF=\\sqrt[] { 7 }\\)，",
+        "∴\\(NC=BN+BC=2+3=5\\)，",
+        "在\\(Rt\\vartriangle ANC\\)中，\\(AC=\\sqrt[] { AN ^ { 2 } +NC ^ { 2 } }=\\sqrt[] { \\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } +5 ^ { 2 } }=\\sqrt[] { 37 }\\)，",
+        "∵\\(AB\\parallel CF\\)，",
+        "∴\\(\\vartriangle CFR\\backsim \\vartriangle ABR\\)，",
+        "∴\\(\\frac { CF } { AB }=\\frac { CR } { AR }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(AR=\\frac { 2 } { 3 }AC=\\frac { 2 } { 3 }\\times \\sqrt[] { 37 }=\\frac { 2\\sqrt[] { 37 } } { 3 }\\)，",
+        "∵\\(\\angle P=\\angle BCD=60{}^\\circ\\)，\\(\\angle EBP=\\angle FBC\\)，",
+        "∴\\(\\vartriangle EBP\\backsim \\vartriangle FBC\\)，",
+        "∴\\(\\frac { EB } { FB }=\\frac { EP } { FC }=\\frac { BP } { BC }\\)，",
+        "∴\\(\\frac { EB } { PB }=\\frac { FB } { CB }=\\frac { \\sqrt[] { 7 } } { 3 }\\)，",
+        "∴设\\(EB=\\sqrt[] { 7 }m,BP=3m\\)，",
+        "∵\\(\\angle ABE=\\angle P=60{}^\\circ ,\\angle BAE=\\angle PAB\\)，",
+        "∴\\(\\vartriangle ABE\\backsim \\vartriangle APB\\)，",
+        "∴\\(\\frac { AB } { AP }=\\frac { AE } { AB }=\\frac { BE } { PB }\\)，",
+        "∴\\(\\frac { 4 } { AP }=\\frac { AE } { 4 }=\\frac { \\sqrt[] { 7 }m } { 3m }\\)，",
+        "解得，\\(AE=\\frac { 4\\sqrt[] { 7 } } { 3 }\\)，",
+        "在\\(Rt\\vartriangle ANE\\)中，\\(NE=\\sqrt[] { AE ^ { 2 } -AN ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 4\\sqrt[] { 7 } } { 3 } } \\right ) ^ { 2 } -\\left ( { 2\\sqrt[] { 3 } } \\right ) ^ { 2 } }=\\frac { 2 } { 3 }\\)，",
+        "∴\\(BE=BN-NE=2-\\frac { 2 } { 3 }=\\frac { 4 } { 3 }\\)；",
+        "综上所述，\\(BE\\)的长为\\(\\frac { 4 } { 3 }\\)或\\(\\frac { 96+72\\sqrt[] { 7 } } { 47 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          82,
+          85,
+          86,
+          87
+        ],
+        "solution_block_ids": [
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497,
+          498,
+          499
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          25,
+          26,
+          27,
+          28
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      74,
+      87
+    ],
+    "solution_body_blocks": [
+      358,
+      500
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-74C5AED396/paper-q20-p07.webp",
+      "assets/SZ-G9-T1-74C5AED396/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          221.82,
+          583.64,
+          730.0
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          147.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p22.webp",
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p23.webp",
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p24.webp",
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p25.webp",
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p26.webp",
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p27.webp",
+      "assets/SZ-G9-T1-74C5AED396/solution-q20-p28.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          159.55,
+          583.64,
+          741.36
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          743.64
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          733.18
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 28,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          548.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

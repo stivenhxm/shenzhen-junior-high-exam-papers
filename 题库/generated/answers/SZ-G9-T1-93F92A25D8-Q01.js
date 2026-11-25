@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q01",{"answer":"C","solution_steps":["因式分解，得 \\(x(x+3)=0\\)。","所以 \\(x=0\\) 或 \\(x=-3\\)，选 C。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

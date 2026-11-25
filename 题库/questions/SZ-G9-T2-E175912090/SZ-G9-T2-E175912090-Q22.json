@@ -1,0 +1,438 @@
+{
+  "id": "SZ-G9-T2-E175912090-Q22",
+  "paper_id": "SZ-G9-T2-E175912090",
+  "number": 22,
+  "type": "解答题",
+  "points": 8,
+  "title": "由勾股关系求直角三角形边长、由相似比求对应线段或周长",
+  "stem": "如图1．四边形\\(ABCD\\)、\\(CEGF\\)都是矩形，点G在\\(AC\\)上，且\\(\\frac { CG } { AC }=\\frac { 1 } { 2 }\\)，\\(AB=6\\)，\\(AD=8\\)，小李将矩形\\(CEGF\\)绕点C顺时针转\\(\\alpha {}^\\circ \\left ( { 0\\le \\alpha \\le 360 } \\right )\\)，如图2所示：\n〔图1〕\n（1）① 他发现\\(\\frac { AG } { BE }\\)的值始终不变，请你帮他计算出\\(\\frac { AG } { BE }\\)的值\\(=\\)______．\n② 在旋转过程中，当点B、E、F在同一条直线上时，求出AG的长度是多少?\n（2）如图3，\\(\\vartriangle ABC\\)中，\\(AB=AC=\\sqrt[] { 5 }\\)，\\(\\angle BAC=\\alpha {}^\\circ\\)，\\(tan\\angle ABC=\\frac { 1 } { 2 }\\)，G为\\(BC\\)的中点，点D为平面内的一个动点．且\\(DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，将线段BD绕点D逆时针旋转α°，得到\\(DB'\\)，则四边形\\(BACB'\\)的面积的最大值为______．",
+  "choices": [],
+  "figures": [
+    "assets/figures/59/5909eaa2cbcb000cd779007ac0c8428badcb25601a6fd8141a7b59988de3f76a.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(\\frac { 5 } { 4 }\\)；②\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．\n（2）\\(\\frac { 34 } { 5 }\\)",
+  "answer": "（1）①\\(\\frac { 5 } { 4 }\\)；②\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．\n（2）\\(\\frac { 34 } { 5 }\\)",
+  "given_solution": "【分析】（1）①解直角三角形求出\\(AC\\)，\\(CG\\)，\\(CE\\)，可得结论．\n②分两种情形：如图\\(2-1\\)中，当点\\(E\\)在线段\\(BF\\)上时，如图\\(2-2\\)中，当点\\(E\\)在\\(BF\\)的延长线上时，分别求出\\(BJ\\)，\\(EJ\\)，可得结论．\n（2）如图3中，连接\\(AD\\)，\\(AG\\)，过点\\(G\\)作\\(GH\\bot AB\\)于点\\(H\\)．解直角三角形求出\\(GH\\)，证明\\(\\vartriangle ABD\\backsim \\vartriangle CBB\\prime\\)，推出\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle CBB\\prime } }=(\\frac { AB } { BC }) ^ { 2 } =(\\frac { 2\\sqrt[] { 5 } } { 8 }) ^ { 2 } =\\frac { 5 } { 16 }\\)，由题意\\(DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，推出点\\(G\\)的运动轨迹是以\\(G\\)为圆心，\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)为半径的圆，当点\\(D\\)在\\(HG\\)的延长线上时，\\(\\vartriangle ABD\\)的面积最大，最大值\\(=\\frac { 1 } { 2 }\\times \\sqrt[] { 5 }\\times (\\frac { 2\\sqrt[] { 5 } } { 5 }+\\frac { \\sqrt[] { 5 } } { 5 })=5\\)，由此可得结论．\n【小问1详解】\n①\\(\\frac { AG } { BE }\\)的值不变，理由如下：\n如图1中，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore AB=CD=6\\)，\\(AD=BC=8\\)，\\(\\angle B=90{}^\\circ\\)，\n\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n\\(\\because CG:AC=1:2\\)，\n\\(\\therefore CG=\\frac { 1 } { 2 }AC=5\\)，\\(AG=5\\)，\n\\(\\because\\)四边形\\(CEGF\\)是矩形，\n\\(\\therefore \\angle CBG=\\angle B=90{}^\\circ\\)，\n\\(\\therefore GE\\parallel AB\\)，\n\\(\\therefore\\)\\(\\frac { CE } { CB }=\\frac { GE } { AB }=\\frac { CG } { CA }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore BE=CE=4\\)，\\(GE=3\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { 5 } { 4 }\\)．\n故答案为：\\(\\frac { 5 } { 4 }\\)；\n②如图\\(2-1\\)中，当点\\(E\\)在线段\\(BF\\)上时，连接\\(CG\\)，过点\\(C\\)作\\(CJ\\bot EF\\)于\\(J\\)．\n〔图3〕\n\\(\\because S_{ \\vartriangle CEF } =\\frac { 1 } { 2 }\\cdot EC\\cdot CF=\\frac { 1 } { 2 }\\cdot EF\\cdot CJ\\)，\n\\(\\therefore CJ=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，\n\\(\\therefore EJ=\\sqrt[] { EC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 16 } { 5 }\\)，\n\\(BJ=\\sqrt[] { BC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 91 } } { 5 }\\)，\n\\(\\therefore BE=BJ-EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 }\\)\n\\(\\because \\angle ACB=\\angle GCE\\)，\n\\(\\therefore \\angle BCE=\\angle ACG\\)，\n\\(\\because\\)\\(\\frac { AC } { CB }=\\frac { CG } { EC }=\\frac { 5 } { 4 }\\)，\n\\(\\therefore \\vartriangle ACG\\backsim \\vartriangle BCE\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { AC } { BC }=\\frac { 5 } { 4 }\\)，\n\\(\\therefore AG=\\frac { 5 } { 4 }\\times (\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 })=\\sqrt[] { 91 }-4\\)．\n如图\\(2-2\\)中，当点\\(E\\)在\\(BF\\)的延长线上时，同法可得\\(BE=BJ+EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 }\\)，\n〔图4〕\n\\(\\therefore AG=\\frac { 5 } { 4 }BE=\\frac { 5 } { 4 }(\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 })=\\sqrt[] { 91 }+4\\)，\n综上所述，\\(AG\\)的长为\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．\n【小问2详解】\n如图3中，连接\\(AD\\)，\\(AG\\)，过点\\(G\\)作\\(GH\\bot AB\\)于点\\(H\\)．\n〔图5〕\n\\(\\because AB=AC=\\sqrt[] { 5 }\\)，\\(BG=GC\\)，\n\\(\\therefore AG\\bot BC\\)，\n\\(\\because tan\\angle ABC=\\frac { AG } { BG }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AG=1\\)，\\(BG=2\\)，\\(BC=4\\)，\n\\(\\because sin\\angle ABG=sin\\angle GBH\\)，\n\\(\\therefore\\)\\(\\frac { GH } { BG }=\\frac { AG } { AB }\\)，\n\\(\\therefore\\)\\(\\frac { GH } { 2 }=\\frac { 1 } { \\sqrt[] { 5 } }\\)，\n\\(\\therefore GH=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(DB=DB\\prime\\)，\\(\\angle BAC=\\angle BDB\\prime\\)，\n\\(\\therefore \\angle ABC=\\angle DBB\\prime\\)，\\(\\frac { AB } { BC }=\\frac { BD } { BB\\prime }\\)，\n\\(\\therefore \\angle ABD=\\angle CBB\\prime\\)，\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle CBB\\prime\\)，\n\\(\\therefore\\)\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle CBB\\prime } }=(\\frac { AB } { BC }) ^ { 2 } =(\\frac { \\sqrt[] { 5 } } { 4 }) ^ { 2 } =\\frac { 5 } { 16 }\\)，\n\\(\\because DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore\\)点\\(G\\)的运动轨迹是以\\(G\\)为圆心，\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)为半径的圆，\n当点\\(D\\)在\\(HG\\)的延长线上时，\\(\\vartriangle ABD\\)的面积最大，最大值\\(=\\frac { 1 } { 2 }\\times \\sqrt[] { 5 }\\times (\\frac { 2\\sqrt[] { 5 } } { 5 }+\\frac { \\sqrt[] { 5 } } { 5 })=\\frac { 3 } { 2 }\\)，\n\\(\\therefore \\vartriangle BCB\\prime\\)的面积的最大值为\\(\\frac { 3 } { 2 }\\div \\frac { 5 } { 16 }=\\frac { 24 } { 5 }\\)，\n\\(\\therefore\\)四边形\\(ABB\\prime C\\)的面积的最大值\\(=\\frac { 1 } { 2 }\\times 4\\times 1+\\frac { 24 } { 5 }=\\frac { 34 } { 5 }\\)．\n故答案为：\\(\\frac { 34 } { 5 }\\)．\n【点睛】本题属于四边形综合题，考查了等腰三角形的性质，解直角三角形，相似三角形的判定和性质等知识，解题的关键是学会添加常用辅助线，构造相似三角形解决问题，属于中考压轴题．",
+  "given_solution_figures": [
+    "assets/figures/59/5909eaa2cbcb000cd779007ac0c8428badcb25601a6fd8141a7b59988de3f76a.png",
+    "assets/figures/44/44bea333ec277b561759d49df49b35247f58db26ab60b539537ac625148681a6.png",
+    "assets/figures/c3/c3c45bd155371337e83c312b08dc674ebb32cccc9e2fa2034bb145716e876c30.png",
+    "assets/figures/c8/c818d0dccafadc605338fc51ba7fc3162a7e383295294475c8a49ce3db07587d.png",
+    "assets/figures/47/47f9412c15380c3fafc6885ffc06359a4d9e2eeb3545511d109db6d8852d2518.png"
+  ],
+  "solution": "【小问1详解】\n①\\(\\frac { AG } { BE }\\)的值不变，理由如下：\n如图1中，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore AB=CD=6\\)，\\(AD=BC=8\\)，\\(\\angle B=90{}^\\circ\\)，\n\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n\\(\\because CG:AC=1:2\\)，\n\\(\\therefore CG=\\frac { 1 } { 2 }AC=5\\)，\\(AG=5\\)，\n\\(\\because\\)四边形\\(CEGF\\)是矩形，\n\\(\\therefore \\angle CBG=\\angle B=90{}^\\circ\\)，\n\\(\\therefore GE\\parallel AB\\)，\n\\(\\therefore\\)\\(\\frac { CE } { CB }=\\frac { GE } { AB }=\\frac { CG } { CA }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore BE=CE=4\\)，\\(GE=3\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { 5 } { 4 }\\)．\n故答案为：\\(\\frac { 5 } { 4 }\\)；\n②如图\\(2-1\\)中，当点\\(E\\)在线段\\(BF\\)上时，连接\\(CG\\)，过点\\(C\\)作\\(CJ\\bot EF\\)于\\(J\\)．\n〔图3〕\n\\(\\because S_{ \\vartriangle CEF } =\\frac { 1 } { 2 }\\cdot EC\\cdot CF=\\frac { 1 } { 2 }\\cdot EF\\cdot CJ\\)，\n\\(\\therefore CJ=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，\n\\(\\therefore EJ=\\sqrt[] { EC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 16 } { 5 }\\)，\n\\(BJ=\\sqrt[] { BC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 91 } } { 5 }\\)，\n\\(\\therefore BE=BJ-EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 }\\)\n\\(\\because \\angle ACB=\\angle GCE\\)，\n\\(\\therefore \\angle BCE=\\angle ACG\\)，\n\\(\\because\\)\\(\\frac { AC } { CB }=\\frac { CG } { EC }=\\frac { 5 } { 4 }\\)，\n\\(\\therefore \\vartriangle ACG\\backsim \\vartriangle BCE\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { AC } { BC }=\\frac { 5 } { 4 }\\)，\n\\(\\therefore AG=\\frac { 5 } { 4 }\\times (\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 })=\\sqrt[] { 91 }-4\\)．\n如图\\(2-2\\)中，当点\\(E\\)在\\(BF\\)的延长线上时，同法可得\\(BE=BJ+EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 }\\)，\n〔图4〕\n\\(\\therefore AG=\\frac { 5 } { 4 }BE=\\frac { 5 } { 4 }(\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 })=\\sqrt[] { 91 }+4\\)，\n综上所述，\\(AG\\)的长为\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．\n【小问2详解】\n如图3中，连接\\(AD\\)，\\(AG\\)，过点\\(G\\)作\\(GH\\bot AB\\)于点\\(H\\)．\n〔图5〕\n\\(\\because AB=AC=\\sqrt[] { 5 }\\)，\\(BG=GC\\)，\n\\(\\therefore AG\\bot BC\\)，\n\\(\\because tan\\angle ABC=\\frac { AG } { BG }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AG=1\\)，\\(BG=2\\)，\\(BC=4\\)，\n\\(\\because sin\\angle ABG=sin\\angle GBH\\)，\n\\(\\therefore\\)\\(\\frac { GH } { BG }=\\frac { AG } { AB }\\)，\n\\(\\therefore\\)\\(\\frac { GH } { 2 }=\\frac { 1 } { \\sqrt[] { 5 } }\\)，\n\\(\\therefore GH=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(DB=DB\\prime\\)，\\(\\angle BAC=\\angle BDB\\prime\\)，\n\\(\\therefore \\angle ABC=\\angle DBB\\prime\\)，\\(\\frac { AB } { BC }=\\frac { BD } { BB\\prime }\\)，\n\\(\\therefore \\angle ABD=\\angle CBB\\prime\\)，\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle CBB\\prime\\)，\n\\(\\therefore\\)\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle CBB\\prime } }=(\\frac { AB } { BC }) ^ { 2 } =(\\frac { \\sqrt[] { 5 } } { 4 }) ^ { 2 } =\\frac { 5 } { 16 }\\)，\n\\(\\because DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore\\)点\\(G\\)的运动轨迹是以\\(G\\)为圆心，\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)为半径的圆，\n当点\\(D\\)在\\(HG\\)的延长线上时，\\(\\vartriangle ABD\\)的面积最大，最大值\\(=\\frac { 1 } { 2 }\\times \\sqrt[] { 5 }\\times (\\frac { 2\\sqrt[] { 5 } } { 5 }+\\frac { \\sqrt[] { 5 } } { 5 })=\\frac { 3 } { 2 }\\)，\n\\(\\therefore \\vartriangle BCB\\prime\\)的面积的最大值为\\(\\frac { 3 } { 2 }\\div \\frac { 5 } { 16 }=\\frac { 24 } { 5 }\\)，\n\\(\\therefore\\)四边形\\(ABB\\prime C\\)的面积的最大值\\(=\\frac { 1 } { 2 }\\times 4\\times 1+\\frac { 24 } { 5 }=\\frac { 34 } { 5 }\\)．\n故答案为：\\(\\frac { 34 } { 5 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①\\(\\frac { AG } { BE }\\)的值不变，理由如下：",
+    "如图1中，",
+    "〔图2〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是矩形，",
+    "\\(\\therefore AB=CD=6\\)，\\(AD=BC=8\\)，\\(\\angle B=90{}^\\circ\\)，",
+    "\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+    "\\(\\because CG:AC=1:2\\)，",
+    "\\(\\therefore CG=\\frac { 1 } { 2 }AC=5\\)，\\(AG=5\\)，",
+    "\\(\\because\\)四边形\\(CEGF\\)是矩形，",
+    "\\(\\therefore \\angle CBG=\\angle B=90{}^\\circ\\)，",
+    "\\(\\therefore GE\\parallel AB\\)，",
+    "\\(\\therefore\\)\\(\\frac { CE } { CB }=\\frac { GE } { AB }=\\frac { CG } { CA }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore BE=CE=4\\)，\\(GE=3\\)，",
+    "\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { 5 } { 4 }\\)．",
+    "故答案为：\\(\\frac { 5 } { 4 }\\)；",
+    "②如图\\(2-1\\)中，当点\\(E\\)在线段\\(BF\\)上时，连接\\(CG\\)，过点\\(C\\)作\\(CJ\\bot EF\\)于\\(J\\)．",
+    "〔图3〕",
+    "\\(\\because S_{ \\vartriangle CEF } =\\frac { 1 } { 2 }\\cdot EC\\cdot CF=\\frac { 1 } { 2 }\\cdot EF\\cdot CJ\\)，",
+    "\\(\\therefore CJ=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，",
+    "\\(\\therefore EJ=\\sqrt[] { EC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 16 } { 5 }\\)，",
+    "\\(BJ=\\sqrt[] { BC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 91 } } { 5 }\\)，",
+    "\\(\\therefore BE=BJ-EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 }\\)",
+    "\\(\\because \\angle ACB=\\angle GCE\\)，",
+    "\\(\\therefore \\angle BCE=\\angle ACG\\)，",
+    "\\(\\because\\)\\(\\frac { AC } { CB }=\\frac { CG } { EC }=\\frac { 5 } { 4 }\\)，",
+    "\\(\\therefore \\vartriangle ACG\\backsim \\vartriangle BCE\\)，",
+    "\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { AC } { BC }=\\frac { 5 } { 4 }\\)，",
+    "\\(\\therefore AG=\\frac { 5 } { 4 }\\times (\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 })=\\sqrt[] { 91 }-4\\)．",
+    "如图\\(2-2\\)中，当点\\(E\\)在\\(BF\\)的延长线上时，同法可得\\(BE=BJ+EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 }\\)，",
+    "〔图4〕",
+    "\\(\\therefore AG=\\frac { 5 } { 4 }BE=\\frac { 5 } { 4 }(\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 })=\\sqrt[] { 91 }+4\\)，",
+    "综上所述，\\(AG\\)的长为\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．",
+    "【小问2详解】",
+    "如图3中，连接\\(AD\\)，\\(AG\\)，过点\\(G\\)作\\(GH\\bot AB\\)于点\\(H\\)．",
+    "〔图5〕",
+    "\\(\\because AB=AC=\\sqrt[] { 5 }\\)，\\(BG=GC\\)，",
+    "\\(\\therefore AG\\bot BC\\)，",
+    "\\(\\because tan\\angle ABC=\\frac { AG } { BG }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore AG=1\\)，\\(BG=2\\)，\\(BC=4\\)，",
+    "\\(\\because sin\\angle ABG=sin\\angle GBH\\)，",
+    "\\(\\therefore\\)\\(\\frac { GH } { BG }=\\frac { AG } { AB }\\)，",
+    "\\(\\therefore\\)\\(\\frac { GH } { 2 }=\\frac { 1 } { \\sqrt[] { 5 } }\\)，",
+    "\\(\\therefore GH=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(DB=DB\\prime\\)，\\(\\angle BAC=\\angle BDB\\prime\\)，",
+    "\\(\\therefore \\angle ABC=\\angle DBB\\prime\\)，\\(\\frac { AB } { BC }=\\frac { BD } { BB\\prime }\\)，",
+    "\\(\\therefore \\angle ABD=\\angle CBB\\prime\\)，",
+    "\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle CBB\\prime\\)，",
+    "\\(\\therefore\\)\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle CBB\\prime } }=(\\frac { AB } { BC }) ^ { 2 } =(\\frac { \\sqrt[] { 5 } } { 4 }) ^ { 2 } =\\frac { 5 } { 16 }\\)，",
+    "\\(\\because DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\therefore\\)点\\(G\\)的运动轨迹是以\\(G\\)为圆心，\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)为半径的圆，",
+    "当点\\(D\\)在\\(HG\\)的延长线上时，\\(\\vartriangle ABD\\)的面积最大，最大值\\(=\\frac { 1 } { 2 }\\times \\sqrt[] { 5 }\\times (\\frac { 2\\sqrt[] { 5 } } { 5 }+\\frac { \\sqrt[] { 5 } } { 5 })=\\frac { 3 } { 2 }\\)，",
+    "\\(\\therefore \\vartriangle BCB\\prime\\)的面积的最大值为\\(\\frac { 3 } { 2 }\\div \\frac { 5 } { 16 }=\\frac { 24 } { 5 }\\)，",
+    "\\(\\therefore\\)四边形\\(ABB\\prime C\\)的面积的最大值\\(=\\frac { 1 } { 2 }\\times 4\\times 1+\\frac { 24 } { 5 }=\\frac { 34 } { 5 }\\)．",
+    "故答案为：\\(\\frac { 34 } { 5 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1．四边形\\(ABCD\\)、\\(CEGF\\)都是矩形，点G在\\(AC\\)上，且\\(\\frac { CG } { AC }=\\frac { 1 } { 2 }\\)，\\(AB=6\\)，\\(AD=8\\)，小李将矩形\\(CEGF\\)绕点C顺时针转\\(\\alpha {}^\\circ \\left ( { 0\\le \\alpha \\le 360 } \\right )\\)，如图2所示：\n〔图1〕",
+      "paper_blocks": [
+        64,
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-E175912090-Q22-P01",
+      "label": "（1）①",
+      "prompt": "他发现\\(\\frac { AG } { BE }\\)的值始终不变，请你帮他计算出\\(\\frac { AG } { BE }\\)的值\\(=\\)______．",
+      "stem_text": "他发现\\(\\frac { AG } { BE }\\)的值始终不变，请你帮他计算出\\(\\frac { AG } { BE }\\)的值\\(=\\)______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 5 } { 4 }\\)；",
+      "answer": "\\(\\frac { 5 } { 4 }\\)；",
+      "given_solution": "\\(\\frac { AG } { BE }\\)的值不变，理由如下：\n如图1中，\n〔图2〕\n\\(\\because\\)四边形\\(ABCD\\)是矩形，\n\\(\\therefore AB=CD=6\\)，\\(AD=BC=8\\)，\\(\\angle B=90{}^\\circ\\)，\n\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，\n\\(\\because CG:AC=1:2\\)，\n\\(\\therefore CG=\\frac { 1 } { 2 }AC=5\\)，\\(AG=5\\)，\n\\(\\because\\)四边形\\(CEGF\\)是矩形，\n\\(\\therefore \\angle CBG=\\angle B=90{}^\\circ\\)，\n\\(\\therefore GE\\parallel AB\\)，\n\\(\\therefore\\)\\(\\frac { CE } { CB }=\\frac { GE } { AB }=\\frac { CG } { CA }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore BE=CE=4\\)，\\(GE=3\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { 5 } { 4 }\\)．\n故答案为：\\(\\frac { 5 } { 4 }\\)；",
+      "solution_steps": [
+        "\\(\\frac { AG } { BE }\\)的值不变，理由如下：",
+        "如图1中，",
+        "〔图2〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是矩形，",
+        "\\(\\therefore AB=CD=6\\)，\\(AD=BC=8\\)，\\(\\angle B=90{}^\\circ\\)，",
+        "\\(\\therefore AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } +8 ^ { 2 } }=10\\)，",
+        "\\(\\because CG:AC=1:2\\)，",
+        "\\(\\therefore CG=\\frac { 1 } { 2 }AC=5\\)，\\(AG=5\\)，",
+        "\\(\\because\\)四边形\\(CEGF\\)是矩形，",
+        "\\(\\therefore \\angle CBG=\\angle B=90{}^\\circ\\)，",
+        "\\(\\therefore GE\\parallel AB\\)，",
+        "\\(\\therefore\\)\\(\\frac { CE } { CB }=\\frac { GE } { AB }=\\frac { CG } { CA }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore BE=CE=4\\)，\\(GE=3\\)，",
+        "\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { 5 } { 4 }\\)．",
+        "故答案为：\\(\\frac { 5 } { 4 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-E175912090-Q22-P02",
+      "label": "（1）②",
+      "prompt": "在旋转过程中，当点B、E、F在同一条直线上时，求出AG的长度是多少?",
+      "stem_text": "在旋转过程中，当点B、E、F在同一条直线上时，求出AG的长度是多少?",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．",
+      "answer": "\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．",
+      "given_solution": "如图\\(2-1\\)中，当点\\(E\\)在线段\\(BF\\)上时，连接\\(CG\\)，过点\\(C\\)作\\(CJ\\bot EF\\)于\\(J\\)．\n〔图3〕\n\\(\\because S_{ \\vartriangle CEF } =\\frac { 1 } { 2 }\\cdot EC\\cdot CF=\\frac { 1 } { 2 }\\cdot EF\\cdot CJ\\)，\n\\(\\therefore CJ=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，\n\\(\\therefore EJ=\\sqrt[] { EC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 16 } { 5 }\\)，\n\\(BJ=\\sqrt[] { BC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 91 } } { 5 }\\)，\n\\(\\therefore BE=BJ-EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 }\\)\n\\(\\because \\angle ACB=\\angle GCE\\)，\n\\(\\therefore \\angle BCE=\\angle ACG\\)，\n\\(\\because\\)\\(\\frac { AC } { CB }=\\frac { CG } { EC }=\\frac { 5 } { 4 }\\)，\n\\(\\therefore \\vartriangle ACG\\backsim \\vartriangle BCE\\)，\n\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { AC } { BC }=\\frac { 5 } { 4 }\\)，\n\\(\\therefore AG=\\frac { 5 } { 4 }\\times (\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 })=\\sqrt[] { 91 }-4\\)．\n如图\\(2-2\\)中，当点\\(E\\)在\\(BF\\)的延长线上时，同法可得\\(BE=BJ+EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 }\\)，\n〔图4〕\n\\(\\therefore AG=\\frac { 5 } { 4 }BE=\\frac { 5 } { 4 }(\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 })=\\sqrt[] { 91 }+4\\)，\n综上所述，\\(AG\\)的长为\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．",
+      "solution_steps": [
+        "如图\\(2-1\\)中，当点\\(E\\)在线段\\(BF\\)上时，连接\\(CG\\)，过点\\(C\\)作\\(CJ\\bot EF\\)于\\(J\\)．",
+        "〔图3〕",
+        "\\(\\because S_{ \\vartriangle CEF } =\\frac { 1 } { 2 }\\cdot EC\\cdot CF=\\frac { 1 } { 2 }\\cdot EF\\cdot CJ\\)，",
+        "\\(\\therefore CJ=\\frac { 3\\times 4 } { 5 }=\\frac { 12 } { 5 }\\)，",
+        "\\(\\therefore EJ=\\sqrt[] { EC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 16 } { 5 }\\)，",
+        "\\(BJ=\\sqrt[] { BC ^ { 2 } -CJ ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -(\\frac { 12 } { 5 }) ^ { 2 } }=\\frac { 4\\sqrt[] { 91 } } { 5 }\\)，",
+        "\\(\\therefore BE=BJ-EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 }\\)",
+        "\\(\\because \\angle ACB=\\angle GCE\\)，",
+        "\\(\\therefore \\angle BCE=\\angle ACG\\)，",
+        "\\(\\because\\)\\(\\frac { AC } { CB }=\\frac { CG } { EC }=\\frac { 5 } { 4 }\\)，",
+        "\\(\\therefore \\vartriangle ACG\\backsim \\vartriangle BCE\\)，",
+        "\\(\\therefore\\)\\(\\frac { AG } { BE }=\\frac { AC } { BC }=\\frac { 5 } { 4 }\\)，",
+        "\\(\\therefore AG=\\frac { 5 } { 4 }\\times (\\frac { 4\\sqrt[] { 91 } } { 5 }-\\frac { 16 } { 5 })=\\sqrt[] { 91 }-4\\)．",
+        "如图\\(2-2\\)中，当点\\(E\\)在\\(BF\\)的延长线上时，同法可得\\(BE=BJ+EJ=\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 }\\)，",
+        "〔图4〕",
+        "\\(\\therefore AG=\\frac { 5 } { 4 }BE=\\frac { 5 } { 4 }(\\frac { 4\\sqrt[] { 91 } } { 5 }+\\frac { 16 } { 5 })=\\sqrt[] { 91 }+4\\)，",
+        "综上所述，\\(AG\\)的长为\\(\\sqrt[] { 91 }-4\\)或\\(\\sqrt[] { 91 }+4\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-E175912090-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图3，\\(\\vartriangle ABC\\)中，\\(AB=AC=\\sqrt[] { 5 }\\)，\\(\\angle BAC=\\alpha {}^\\circ\\)，\\(tan\\angle ABC=\\frac { 1 } { 2 }\\)，G为\\(BC\\)的中点，点D为平面内的一个动点．且\\(DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，将线段BD绕点D逆时针旋转α°，得到\\(DB'\\)，则四边形\\(BACB'\\)的面积的最大值为______．",
+      "stem_text": "如图3，\\(\\vartriangle ABC\\)中，\\(AB=AC=\\sqrt[] { 5 }\\)，\\(\\angle BAC=\\alpha {}^\\circ\\)，\\(tan\\angle ABC=\\frac { 1 } { 2 }\\)，G为\\(BC\\)的中点，点D为平面内的一个动点．且\\(DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，将线段BD绕点D逆时针旋转α°，得到\\(DB'\\)，则四边形\\(BACB'\\)的面积的最大值为______．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 34 } { 5 }\\)",
+      "answer": "\\(\\frac { 34 } { 5 }\\)",
+      "given_solution": "如图3中，连接\\(AD\\)，\\(AG\\)，过点\\(G\\)作\\(GH\\bot AB\\)于点\\(H\\)．\n〔图5〕\n\\(\\because AB=AC=\\sqrt[] { 5 }\\)，\\(BG=GC\\)，\n\\(\\therefore AG\\bot BC\\)，\n\\(\\because tan\\angle ABC=\\frac { AG } { BG }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AG=1\\)，\\(BG=2\\)，\\(BC=4\\)，\n\\(\\because sin\\angle ABG=sin\\angle GBH\\)，\n\\(\\therefore\\)\\(\\frac { GH } { BG }=\\frac { AG } { AB }\\)，\n\\(\\therefore\\)\\(\\frac { GH } { 2 }=\\frac { 1 } { \\sqrt[] { 5 } }\\)，\n\\(\\therefore GH=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(DB=DB\\prime\\)，\\(\\angle BAC=\\angle BDB\\prime\\)，\n\\(\\therefore \\angle ABC=\\angle DBB\\prime\\)，\\(\\frac { AB } { BC }=\\frac { BD } { BB\\prime }\\)，\n\\(\\therefore \\angle ABD=\\angle CBB\\prime\\)，\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle CBB\\prime\\)，\n\\(\\therefore\\)\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle CBB\\prime } }=(\\frac { AB } { BC }) ^ { 2 } =(\\frac { \\sqrt[] { 5 } } { 4 }) ^ { 2 } =\\frac { 5 } { 16 }\\)，\n\\(\\because DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore\\)点\\(G\\)的运动轨迹是以\\(G\\)为圆心，\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)为半径的圆，\n当点\\(D\\)在\\(HG\\)的延长线上时，\\(\\vartriangle ABD\\)的面积最大，最大值\\(=\\frac { 1 } { 2 }\\times \\sqrt[] { 5 }\\times (\\frac { 2\\sqrt[] { 5 } } { 5 }+\\frac { \\sqrt[] { 5 } } { 5 })=\\frac { 3 } { 2 }\\)，\n\\(\\therefore \\vartriangle BCB\\prime\\)的面积的最大值为\\(\\frac { 3 } { 2 }\\div \\frac { 5 } { 16 }=\\frac { 24 } { 5 }\\)，\n\\(\\therefore\\)四边形\\(ABB\\prime C\\)的面积的最大值\\(=\\frac { 1 } { 2 }\\times 4\\times 1+\\frac { 24 } { 5 }=\\frac { 34 } { 5 }\\)．\n故答案为：\\(\\frac { 34 } { 5 }\\)．",
+      "solution_steps": [
+        "如图3中，连接\\(AD\\)，\\(AG\\)，过点\\(G\\)作\\(GH\\bot AB\\)于点\\(H\\)．",
+        "〔图5〕",
+        "\\(\\because AB=AC=\\sqrt[] { 5 }\\)，\\(BG=GC\\)，",
+        "\\(\\therefore AG\\bot BC\\)，",
+        "\\(\\because tan\\angle ABC=\\frac { AG } { BG }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore AG=1\\)，\\(BG=2\\)，\\(BC=4\\)，",
+        "\\(\\because sin\\angle ABG=sin\\angle GBH\\)，",
+        "\\(\\therefore\\)\\(\\frac { GH } { BG }=\\frac { AG } { AB }\\)，",
+        "\\(\\therefore\\)\\(\\frac { GH } { 2 }=\\frac { 1 } { \\sqrt[] { 5 } }\\)，",
+        "\\(\\therefore GH=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\because { \\rm{ A } }{ \\rm{ B } }={ \\rm{ A } }{ \\rm{ C } }\\)，\\(DB=DB\\prime\\)，\\(\\angle BAC=\\angle BDB\\prime\\)，",
+        "\\(\\therefore \\angle ABC=\\angle DBB\\prime\\)，\\(\\frac { AB } { BC }=\\frac { BD } { BB\\prime }\\)，",
+        "\\(\\therefore \\angle ABD=\\angle CBB\\prime\\)，",
+        "\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle CBB\\prime\\)，",
+        "\\(\\therefore\\)\\(\\frac { S_{ \\vartriangle ABD } } { S_{ \\vartriangle CBB\\prime } }=(\\frac { AB } { BC }) ^ { 2 } =(\\frac { \\sqrt[] { 5 } } { 4 }) ^ { 2 } =\\frac { 5 } { 16 }\\)，",
+        "\\(\\because DG=\\frac { \\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\therefore\\)点\\(G\\)的运动轨迹是以\\(G\\)为圆心，\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)为半径的圆，",
+        "当点\\(D\\)在\\(HG\\)的延长线上时，\\(\\vartriangle ABD\\)的面积最大，最大值\\(=\\frac { 1 } { 2 }\\times \\sqrt[] { 5 }\\times (\\frac { 2\\sqrt[] { 5 } } { 5 }+\\frac { \\sqrt[] { 5 } } { 5 })=\\frac { 3 } { 2 }\\)，",
+        "\\(\\therefore \\vartriangle BCB\\prime\\)的面积的最大值为\\(\\frac { 3 } { 2 }\\div \\frac { 5 } { 16 }=\\frac { 24 } { 5 }\\)，",
+        "\\(\\therefore\\)四边形\\(ABB\\prime C\\)的面积的最大值\\(=\\frac { 1 } { 2 }\\times 4\\times 1+\\frac { 24 } { 5 }=\\frac { 34 } { 5 }\\)．",
+        "故答案为：\\(\\frac { 34 } { 5 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          68
+        ],
+        "solution_block_ids": [
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      68
+    ],
+    "solution_body_blocks": [
+      383,
+      449
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-E175912090/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          282.27,
+          583.64,
+          621.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-E175912090/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-E175912090/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-E175912090/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-E175912090/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          327.27,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          750.0
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          742.73
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          657.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G08.03",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G08.03.01",
+    "E.G10.01.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“由相似比求对应线段或周长”。 本问题面与解答对应“按指定锐角选择三角函数比”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,121 @@
+{
+  "id": "SZ-G9-T2-3A26AE9B0E-Q13",
+  "paper_id": "SZ-G9-T2-3A26AE9B0E",
+  "number": 13,
+  "type": "填空题",
+  "points": 3,
+  "title": "将折叠条件转为可计算的几何关系",
+  "stem": "如图，在直角三角形纸片\\(ABC\\)中，\\(\\angle BAC=90{}^\\circ\\)，\\(AB=4\\)，\\(AC=6\\)．\\(D\\)是\\(AC\\)中点，将纸片沿\\(BD\\)翻折，直角顶点\\(A\\)的对应点为\\(A'\\)，\\(AA'\\)交\\(BC\\)于\\(E\\)，则\\(CE=\\)______．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/42/425e2645d57a0dba93c6a85dda7d23436dadce573795ae7af924f29cf5250c0f.png"
+  ],
+  "tables": [],
+  "given_answer": "\\(\\frac { 18\\sqrt[] { 13 } } { 17 }\\)##\\(\\frac { 18 } { 17 }\\sqrt[] { 13 }\\)",
+  "answer": "\\(\\frac { 18\\sqrt[] { 13 } } { 17 }\\)##\\(\\frac { 18 } { 17 }\\sqrt[] { 13 }\\)",
+  "given_solution": "【分析】本题考查了勾股定理，坐标与图形，求一次函数的解析式．以点\\(A\\)为原点，\\(AC\\)所在直线为\\(x\\)轴，建立直角坐标系，先利用勾股定理结合等积法求得\\(F\\left ( { \\frac { 48 } { 25 },\\frac { 36 } { 25 } } \\right )\\)，利用待定系数法分别求得直线\\(OF\\)和\\(BC\\)的解析式，再联立求得\\(E\\left ( { \\frac { 48 } { 17 },\\frac { 36 } { 17 } } \\right )\\)，利用两点之间的距离公式求解即可．\n【详解】解：以点\\(A\\)为原点，\\(AC\\)所在直线为\\(x\\)轴，建立直角坐标系，如图，\n〔图2〕\n则\\(A\\left ( { 0,0 } \\right )\\)，\\(B\\left ( { 0,4 } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，\n设\\(BD\\)与\\(AA'\\)的交点为F，作\\(FG\\bot x\\)轴于点\\(G\\)，\n∵\\(D\\)是\\(AC\\)中点，\n∴\\(OD=\\frac { 1 } { 2 }OC=3\\)，\n∴\\(BD=\\sqrt[] { OD ^ { 2 } +OB ^ { 2 } }=5\\)，\n由折叠的性质得\\(AF\\bot BD\\)，\n∵\\(S_{ \\vartriangle OBD } =\\frac { 1 } { 2 }BD\\cdot OF=\\frac { 1 } { 2 }OD\\cdot OB\\)，即\\(5OF=3\\times 4\\)，\n∴\\(OF=\\frac { 12 } { 5 }\\)，\\(FD=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\frac { 9 } { 5 }\\)，\n同理，\\(FG=\\frac { \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 } } { 3 }=\\frac { 36 } { 25 }\\)，\\(OG=\\sqrt[] { OF ^ { 2 } -FG ^ { 2 } }=\\frac { 48 } { 25 }\\)，\n∴\\(F\\left ( { \\frac { 48 } { 25 },\\frac { 36 } { 25 } } \\right )\\)，\n设直线\\(OF\\)的解析式为\\(y=kx\\)，则\\(\\frac { 36 } { 25 }=\\frac { 48 } { 25 }k\\)，\n解得\\(k=\\frac { 3 } { 4 }\\)，\n∴直线\\(OF\\)的解析式为\\(y=\\frac { 3 } { 4 }x\\)，\n设直线\\(BC\\)的解析式为\\(y=k_{ 1 } x+4\\)，则\\(0=6k_{ 1 } +4\\)，\n解得\\(k_{ 1 } =-\\frac { 2 } { 3 }\\)，\n∴直线\\(BC\\)的解析式为\\(y=-\\frac { 2 } { 3 }x+4\\)，\n联立得\\(\\frac { 3 } { 4 }x=-\\frac { 2 } { 3 }x+4\\)，\n解得\\(x=\\frac { 48 } { 17 }\\)，\\(y=\\frac { 3 } { 4 }\\times \\frac { 48 } { 17 }=\\frac { 36 } { 17 }\\)，\n∴\\(E\\left ( { \\frac { 48 } { 17 },\\frac { 36 } { 17 } } \\right )\\)，\n∴\\(CE=\\sqrt[] { \\left ( { 6-\\frac { 48 } { 17 } } \\right ) ^ { 2 } +\\left ( { 0-\\frac { 36 } { 17 } } \\right ) ^ { 2 } }=\\frac { 18\\sqrt[] { 13 } } { 17 }\\)，\n故答案为：\\(\\frac { 18\\sqrt[] { 13 } } { 17 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/42/425e2645d57a0dba93c6a85dda7d23436dadce573795ae7af924f29cf5250c0f.png",
+    "assets/figures/0f/0f488acd98a1d6c6ce48dc0a2ed0dabc132c5c3e01f064b73af86f4660660eb6.png"
+  ],
+  "solution": "解：以点\\(A\\)为原点，\\(AC\\)所在直线为\\(x\\)轴，建立直角坐标系，如图，\n〔图2〕\n则\\(A\\left ( { 0,0 } \\right )\\)，\\(B\\left ( { 0,4 } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，\n设\\(BD\\)与\\(AA'\\)的交点为F，作\\(FG\\bot x\\)轴于点\\(G\\)，\n∵\\(D\\)是\\(AC\\)中点，\n∴\\(OD=\\frac { 1 } { 2 }OC=3\\)，\n∴\\(BD=\\sqrt[] { OD ^ { 2 } +OB ^ { 2 } }=5\\)，\n由折叠的性质得\\(AF\\bot BD\\)，\n∵\\(S_{ \\vartriangle OBD } =\\frac { 1 } { 2 }BD\\cdot OF=\\frac { 1 } { 2 }OD\\cdot OB\\)，即\\(5OF=3\\times 4\\)，\n∴\\(OF=\\frac { 12 } { 5 }\\)，\\(FD=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\frac { 9 } { 5 }\\)，\n同理，\\(FG=\\frac { \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 } } { 3 }=\\frac { 36 } { 25 }\\)，\\(OG=\\sqrt[] { OF ^ { 2 } -FG ^ { 2 } }=\\frac { 48 } { 25 }\\)，\n∴\\(F\\left ( { \\frac { 48 } { 25 },\\frac { 36 } { 25 } } \\right )\\)，\n设直线\\(OF\\)的解析式为\\(y=kx\\)，则\\(\\frac { 36 } { 25 }=\\frac { 48 } { 25 }k\\)，\n解得\\(k=\\frac { 3 } { 4 }\\)，\n∴直线\\(OF\\)的解析式为\\(y=\\frac { 3 } { 4 }x\\)，\n设直线\\(BC\\)的解析式为\\(y=k_{ 1 } x+4\\)，则\\(0=6k_{ 1 } +4\\)，\n解得\\(k_{ 1 } =-\\frac { 2 } { 3 }\\)，\n∴直线\\(BC\\)的解析式为\\(y=-\\frac { 2 } { 3 }x+4\\)，\n联立得\\(\\frac { 3 } { 4 }x=-\\frac { 2 } { 3 }x+4\\)，\n解得\\(x=\\frac { 48 } { 17 }\\)，\\(y=\\frac { 3 } { 4 }\\times \\frac { 48 } { 17 }=\\frac { 36 } { 17 }\\)，\n∴\\(E\\left ( { \\frac { 48 } { 17 },\\frac { 36 } { 17 } } \\right )\\)，\n∴\\(CE=\\sqrt[] { \\left ( { 6-\\frac { 48 } { 17 } } \\right ) ^ { 2 } +\\left ( { 0-\\frac { 36 } { 17 } } \\right ) ^ { 2 } }=\\frac { 18\\sqrt[] { 13 } } { 17 }\\)，\n故答案为：\\(\\frac { 18\\sqrt[] { 13 } } { 17 }\\)．",
+  "solution_steps": [
+    "解：以点\\(A\\)为原点，\\(AC\\)所在直线为\\(x\\)轴，建立直角坐标系，如图，",
+    "〔图2〕",
+    "则\\(A\\left ( { 0,0 } \\right )\\)，\\(B\\left ( { 0,4 } \\right )\\)，\\(C\\left ( { 6,0 } \\right )\\)，",
+    "设\\(BD\\)与\\(AA'\\)的交点为F，作\\(FG\\bot x\\)轴于点\\(G\\)，",
+    "∵\\(D\\)是\\(AC\\)中点，",
+    "∴\\(OD=\\frac { 1 } { 2 }OC=3\\)，",
+    "∴\\(BD=\\sqrt[] { OD ^ { 2 } +OB ^ { 2 } }=5\\)，",
+    "由折叠的性质得\\(AF\\bot BD\\)，",
+    "∵\\(S_{ \\vartriangle OBD } =\\frac { 1 } { 2 }BD\\cdot OF=\\frac { 1 } { 2 }OD\\cdot OB\\)，即\\(5OF=3\\times 4\\)，",
+    "∴\\(OF=\\frac { 12 } { 5 }\\)，\\(FD=\\sqrt[] { OD ^ { 2 } -OF ^ { 2 } }=\\frac { 9 } { 5 }\\)，",
+    "同理，\\(FG=\\frac { \\frac { 12 } { 5 }\\times \\frac { 9 } { 5 } } { 3 }=\\frac { 36 } { 25 }\\)，\\(OG=\\sqrt[] { OF ^ { 2 } -FG ^ { 2 } }=\\frac { 48 } { 25 }\\)，",
+    "∴\\(F\\left ( { \\frac { 48 } { 25 },\\frac { 36 } { 25 } } \\right )\\)，",
+    "设直线\\(OF\\)的解析式为\\(y=kx\\)，则\\(\\frac { 36 } { 25 }=\\frac { 48 } { 25 }k\\)，",
+    "解得\\(k=\\frac { 3 } { 4 }\\)，",
+    "∴直线\\(OF\\)的解析式为\\(y=\\frac { 3 } { 4 }x\\)，",
+    "设直线\\(BC\\)的解析式为\\(y=k_{ 1 } x+4\\)，则\\(0=6k_{ 1 } +4\\)，",
+    "解得\\(k_{ 1 } =-\\frac { 2 } { 3 }\\)，",
+    "∴直线\\(BC\\)的解析式为\\(y=-\\frac { 2 } { 3 }x+4\\)，",
+    "联立得\\(\\frac { 3 } { 4 }x=-\\frac { 2 } { 3 }x+4\\)，",
+    "解得\\(x=\\frac { 48 } { 17 }\\)，\\(y=\\frac { 3 } { 4 }\\times \\frac { 48 } { 17 }=\\frac { 36 } { 17 }\\)，",
+    "∴\\(E\\left ( { \\frac { 48 } { 17 },\\frac { 36 } { 17 } } \\right )\\)，",
+    "∴\\(CE=\\sqrt[] { \\left ( { 6-\\frac { 48 } { 17 } } \\right ) ^ { 2 } +\\left ( { 0-\\frac { 36 } { 17 } } \\right ) ^ { 2 } }=\\frac { 18\\sqrt[] { 13 } } { 17 }\\)，",
+    "故答案为：\\(\\frac { 18\\sqrt[] { 13 } } { 17 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      40,
+      41
+    ],
+    "solution_body_blocks": [
+      155,
+      182
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-3A26AE9B0E/paper-q13-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          602.27,
+          583.64,
+          747.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      9,
+      10
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-3A26AE9B0E/solution-q13-p09.webp",
+      "assets/SZ-G9-T2-3A26AE9B0E/solution-q13-p10.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          231.82,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 10,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          554.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G07.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+  "tag_source": "题文匹配"
+}

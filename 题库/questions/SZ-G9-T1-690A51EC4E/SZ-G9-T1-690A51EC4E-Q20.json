@@ -1,0 +1,392 @@
+{
+  "id": "SZ-G9-T1-690A51EC4E-Q20",
+  "paper_id": "SZ-G9-T1-690A51EC4E",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式",
+  "stem": "已知\\(A\\left ( { -4,2 } \\right )\\)、\\(B\\left ( { n,-4 } \\right )\\)是一次函数\\(y=kx+b\\)和反比例函数\\(y=\\frac { m } { x }\\)图象的两个交点，点\\(P\\)坐标为\\(\\left ( { n,0 } \\right )\\)．\n〔图1〕\n(1)求一次函数和反比例函数的解析式；\n(2)求\\(\\vartriangle AOB\\)的面积；\n(3)观察图象，直接写出不等式\\(kx+b-\\frac { m } { x }>0\\)的解集；\n(4)若\\(\\vartriangle ABP\\)为直角三角形，直接写出\\(n\\)值．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-690A51EC4E/figures/bad9e96c2a654aa187396ed84882b637e3adfcbc51ee2b468fb4341ce45bcaa5.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知\\(A\\left ( { -4,2 } \\right )\\)、\\(B\\left ( { n,-4 } \\right )\\)是一次函数\\(y=kx+b\\)和反比例函数\\(y=\\frac { m } { x }\\)图象的两个交点，点\\(P\\)坐标为\\(\\left ( { n,0 } \\right )\\)．\n〔图1〕",
+      "paper_blocks": [
+        79,
+        80
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-690A51EC4E-Q20-P01",
+      "label": "(1)",
+      "prompt": "求一次函数和反比例函数的解析式；",
+      "stem_text": "求一次函数和反比例函数的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 8 } { x }\\)，\\(y=-x-2\\)",
+      "answer": "\\(y=-\\frac { 8 } { x }\\)，\\(y=-x-2\\)",
+      "given_solution": "把\\(A\\left ( { -4,2 } \\right )\\)代入\\(y=\\frac { m } { x }\\)，得\\(m=2\\times \\left ( { -4 } \\right )=-8\\)，\n所以反比例函数解析式为\\(y=-\\frac { 8 } { x }\\)，\n把\\(B\\left ( { n,-4 } \\right )\\)代入\\(y=-\\frac { 8 } { x }\\)，得\\(-4n=-8\\)，\n解得\\(n=2\\)，\n把\\(A\\left ( { -4,2 } \\right )\\)和\\(B\\left ( { 2,-4 } \\right )\\)代入\\(y=kx+b\\)，得\\(\\begin{cases} -4k+b=2 \\\\ 2k+b=-4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-1 \\\\ b=-2 \\end{cases}\\)，\n所以一次函数的解析式为\\(y=-x-2\\)；",
+      "solution_steps": [
+        "把\\(A\\left ( { -4,2 } \\right )\\)代入\\(y=\\frac { m } { x }\\)，得\\(m=2\\times \\left ( { -4 } \\right )=-8\\)，",
+        "所以反比例函数解析式为\\(y=-\\frac { 8 } { x }\\)，",
+        "把\\(B\\left ( { n,-4 } \\right )\\)代入\\(y=-\\frac { 8 } { x }\\)，得\\(-4n=-8\\)，",
+        "解得\\(n=2\\)，",
+        "把\\(A\\left ( { -4,2 } \\right )\\)和\\(B\\left ( { 2,-4 } \\right )\\)代入\\(y=kx+b\\)，得\\(\\begin{cases} -4k+b=2 \\\\ 2k+b=-4 \\end{cases}\\)，",
+        "解得\\(\\begin{cases} k=-1 \\\\ b=-2 \\end{cases}\\)，",
+        "所以一次函数的解析式为\\(y=-x-2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          81
+        ],
+        "solution_block_ids": [
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N12.02",
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N12.02.01",
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-690A51EC4E-Q20-P02",
+      "label": "(2)",
+      "prompt": "求\\(\\vartriangle AOB\\)的面积；",
+      "stem_text": "求\\(\\vartriangle AOB\\)的面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(S_{ \\vartriangle AOB } =6\\)",
+      "answer": "\\(S_{ \\vartriangle AOB } =6\\)",
+      "given_solution": "设直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\)，\n\\(y=-x-2\\)中，令\\(y=0\\)，则\\(x=-2\\)，\n即直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\left ( { -2,0 } \\right )\\)，\n∴\\(S_{ \\vartriangle AOB } =S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC } =\\frac { 1 } { 2 }\\times 2\\times 2+\\frac { 1 } { 2 }\\times 2\\times 4=6\\)；\n〔图1〕",
+      "solution_steps": [
+        "设直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\)，",
+        "\\(y=-x-2\\)中，令\\(y=0\\)，则\\(x=-2\\)，",
+        "即直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\left ( { -2,0 } \\right )\\)，",
+        "∴\\(S_{ \\vartriangle AOB } =S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC } =\\frac { 1 } { 2 }\\times 2\\times 2+\\frac { 1 } { 2 }\\times 2\\times 4=6\\)；",
+        "〔图1〕"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          82
+        ],
+        "solution_block_ids": [
+          306,
+          307,
+          308,
+          309,
+          310
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“用坐标求线段长度与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-690A51EC4E-Q20-P03",
+      "label": "(3)",
+      "prompt": "观察图象，直接写出不等式\\(kx+b-\\frac { m } { x }>0\\)的解集；",
+      "stem_text": "观察图象，直接写出不等式\\(kx+b-\\frac { m } { x }>0\\)的解集；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\)",
+      "answer": "不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\)",
+      "given_solution": "由图象可得，不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\).",
+      "solution_steps": [
+        "由图象可得，不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\)."
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          83
+        ],
+        "solution_block_ids": [
+          311
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N12.03"
+      ],
+      "exam_ids": [
+        "E.N12.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“依据两类图象比较函数值范围”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-690A51EC4E-Q20-P04",
+      "label": "(4)",
+      "prompt": "若\\(\\vartriangle ABP\\)为直角三角形，直接写出\\(n\\)值．",
+      "stem_text": "若\\(\\vartriangle ABP\\)为直角三角形，直接写出\\(n\\)值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "n的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\)",
+      "answer": "n的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\)",
+      "given_solution": "〔图2〕\n\\(\\because\\)\\(P\\left ( { n,0 } \\right )\\)，\\(A\\left ( { -4,2 } \\right )\\)，\\(B\\left ( { 2,-4 } \\right )\\) ，\n\\(\\therefore AB ^ { 2 } =\\left ( { 2+4 } \\right ) ^ { 2 } +\\left ( { -4-2 } \\right ) ^ { 2 } =72\\)，\n\\(PA ^ { 2 } =\\left ( { n+4 } \\right ) ^ { 2 } +2 ^ { 2 } =n ^ { 2 } +8m+20\\)，\n\\(PB ^ { 2 } =\\left ( { n-2 } \\right ) ^ { 2 } +4 ^ { 2 } =n ^ { 2 } -4n+20\\)\n①当\\(AB\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(AB ^ { 2 }\\)\n\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(72\\)\n解得: \\(n\\)\\({ \\rm{ = } }\\)\\(-1-\\sqrt[] { 17 }\\)或\\(n=\\)\\(-1+\\sqrt[] { 17 }\\).\n①当\\(AP\\)是斜边时， \\(AB ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(PA ^ { 2 }\\)\n\\(\\therefore\\)\\(72\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } +8m+20\\)\n解得:\\(n=6\\)\n①当\\(BP\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(AB ^ { 2 }\\)\\(=\\)\\(PB ^ { 2 }\\)\n\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(72\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } -4n+20\\)\n解得: \\(n=-6\\)\n\\(\\therefore\\)\\(n\\)的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\).",
+      "solution_steps": [
+        "〔图2〕",
+        "\\(\\because\\)\\(P\\left ( { n,0 } \\right )\\)，\\(A\\left ( { -4,2 } \\right )\\)，\\(B\\left ( { 2,-4 } \\right )\\) ，",
+        "\\(\\therefore AB ^ { 2 } =\\left ( { 2+4 } \\right ) ^ { 2 } +\\left ( { -4-2 } \\right ) ^ { 2 } =72\\)，",
+        "\\(PA ^ { 2 } =\\left ( { n+4 } \\right ) ^ { 2 } +2 ^ { 2 } =n ^ { 2 } +8m+20\\)，",
+        "\\(PB ^ { 2 } =\\left ( { n-2 } \\right ) ^ { 2 } +4 ^ { 2 } =n ^ { 2 } -4n+20\\)",
+        "①当\\(AB\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(AB ^ { 2 }\\)",
+        "\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(72\\)",
+        "解得: \\(n\\)\\({ \\rm{ = } }\\)\\(-1-\\sqrt[] { 17 }\\)或\\(n=\\)\\(-1+\\sqrt[] { 17 }\\).",
+        "①当\\(AP\\)是斜边时， \\(AB ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(PA ^ { 2 }\\)",
+        "\\(\\therefore\\)\\(72\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } +8m+20\\)",
+        "解得:\\(n=6\\)",
+        "①当\\(BP\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(AB ^ { 2 }\\)\\(=\\)\\(PB ^ { 2 }\\)",
+        "\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(72\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } -4n+20\\)",
+        "解得: \\(n=-6\\)",
+        "\\(\\therefore\\)\\(n\\)的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\)."
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          79,
+          80,
+          84
+        ],
+        "solution_block_ids": [
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G09.03",
+        "M.G04.05"
+      ],
+      "exam_ids": [
+        "E.G09.03.03",
+        "E.G04.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "按直角顶点分类，用两点距离的平方检验勾股逆定理条件。",
+      "tag_source": "逐题核对"
+    }
+  ],
+  "given_answer": "(1)\\(y=-\\frac { 8 } { x }\\)，\\(y=-x-2\\)\n(2)\\(S_{ \\vartriangle AOB } =6\\)\n(3)不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\)\n(4)n的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\)",
+  "given_solution": "【分析】（1）根据待定系数求得反比例函数解析式，进而求得点\\(B\\)的坐标，\n根据\\(A,B\\)的坐标待定系数法求一次函数解析式即可；\n（2）求得直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\left ( { -2,0 } \\right )\\)，根据\\(S_{ \\vartriangle AOB } =S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC }\\)求解即可\n（3）由图象可得，直线在双曲线上方部分时，求得\\(x\\)的取值范围；\n（4）分\\(AP,AB,BP\\)分别为直角三角形的斜边，三种情况讨论，根据勾股定理建立方程求解即可．\n【详解】（1）把\\(A\\left ( { -4,2 } \\right )\\)代入\\(y=\\frac { m } { x }\\)，得\\(m=2\\times \\left ( { -4 } \\right )=-8\\)，\n所以反比例函数解析式为\\(y=-\\frac { 8 } { x }\\)，\n把\\(B\\left ( { n,-4 } \\right )\\)代入\\(y=-\\frac { 8 } { x }\\)，得\\(-4n=-8\\)，\n解得\\(n=2\\)，\n把\\(A\\left ( { -4,2 } \\right )\\)和\\(B\\left ( { 2,-4 } \\right )\\)代入\\(y=kx+b\\)，得\\(\\begin{cases} -4k+b=2 \\\\ 2k+b=-4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-1 \\\\ b=-2 \\end{cases}\\)，\n所以一次函数的解析式为\\(y=-x-2\\)；\n（2）设直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\)，\n\\(y=-x-2\\)中，令\\(y=0\\)，则\\(x=-2\\)，\n即直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\left ( { -2,0 } \\right )\\)，\n∴\\(S_{ \\vartriangle AOB } =S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC } =\\frac { 1 } { 2 }\\times 2\\times 2+\\frac { 1 } { 2 }\\times 2\\times 4=6\\)；\n〔图1〕\n（3）由图象可得，不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\).\n（4）〔图2〕\n\\(\\because\\)\\(P\\left ( { n,0 } \\right )\\)，\\(A\\left ( { -4,2 } \\right )\\)，\\(B\\left ( { 2,-4 } \\right )\\) ，\n\\(\\therefore AB ^ { 2 } =\\left ( { 2+4 } \\right ) ^ { 2 } +\\left ( { -4-2 } \\right ) ^ { 2 } =72\\)，\n\\(PA ^ { 2 } =\\left ( { n+4 } \\right ) ^ { 2 } +2 ^ { 2 } =n ^ { 2 } +8m+20\\)，\n\\(PB ^ { 2 } =\\left ( { n-2 } \\right ) ^ { 2 } +4 ^ { 2 } =n ^ { 2 } -4n+20\\)\n①当\\(AB\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(AB ^ { 2 }\\)\n\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(72\\)\n解得: \\(n\\)\\({ \\rm{ = } }\\)\\(-1-\\sqrt[] { 17 }\\)或\\(n=\\)\\(-1+\\sqrt[] { 17 }\\).\n①当\\(AP\\)是斜边时， \\(AB ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(PA ^ { 2 }\\)\n\\(\\therefore\\)\\(72\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } +8m+20\\)\n解得:\\(n=6\\)\n①当\\(BP\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(AB ^ { 2 }\\)\\(=\\)\\(PB ^ { 2 }\\)\n\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(72\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } -4n+20\\)\n解得: \\(n=-6\\)\n\\(\\therefore\\)\\(n\\)的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\).",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-690A51EC4E/figures/d87ef3cbd6c87784149397275e2b481115f6e2704c6ce221cd008f20cd839f4e.png",
+    "assets/SZ-G9-T1-690A51EC4E/figures/4efca245055358c3f88ceb8d0dc7771685b11c17797a45642cc08d4fae6761ae.png"
+  ],
+  "answer": "(1)\\(y=-\\frac { 8 } { x }\\)，\\(y=-x-2\\)\n(2)\\(S_{ \\vartriangle AOB } =6\\)\n(3)不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\)\n(4)n的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\)",
+  "solution_steps": [
+    "（1）把\\(A\\left ( { -4,2 } \\right )\\)代入\\(y=\\frac { m } { x }\\)，得\\(m=2\\times \\left ( { -4 } \\right )=-8\\)，",
+    "所以反比例函数解析式为\\(y=-\\frac { 8 } { x }\\)，",
+    "把\\(B\\left ( { n,-4 } \\right )\\)代入\\(y=-\\frac { 8 } { x }\\)，得\\(-4n=-8\\)，",
+    "解得\\(n=2\\)，",
+    "把\\(A\\left ( { -4,2 } \\right )\\)和\\(B\\left ( { 2,-4 } \\right )\\)代入\\(y=kx+b\\)，得\\(\\begin{cases} -4k+b=2 \\\\ 2k+b=-4 \\end{cases}\\)，",
+    "解得\\(\\begin{cases} k=-1 \\\\ b=-2 \\end{cases}\\)，",
+    "所以一次函数的解析式为\\(y=-x-2\\)；",
+    "（2）设直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\)，",
+    "\\(y=-x-2\\)中，令\\(y=0\\)，则\\(x=-2\\)，",
+    "即直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\left ( { -2,0 } \\right )\\)，",
+    "∴\\(S_{ \\vartriangle AOB } =S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC } =\\frac { 1 } { 2 }\\times 2\\times 2+\\frac { 1 } { 2 }\\times 2\\times 4=6\\)；",
+    "〔图1〕",
+    "（3）由图象可得，不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\).",
+    "（4）〔图2〕",
+    "\\(\\because\\)\\(P\\left ( { n,0 } \\right )\\)，\\(A\\left ( { -4,2 } \\right )\\)，\\(B\\left ( { 2,-4 } \\right )\\) ，",
+    "\\(\\therefore AB ^ { 2 } =\\left ( { 2+4 } \\right ) ^ { 2 } +\\left ( { -4-2 } \\right ) ^ { 2 } =72\\)，",
+    "\\(PA ^ { 2 } =\\left ( { n+4 } \\right ) ^ { 2 } +2 ^ { 2 } =n ^ { 2 } +8m+20\\)，",
+    "\\(PB ^ { 2 } =\\left ( { n-2 } \\right ) ^ { 2 } +4 ^ { 2 } =n ^ { 2 } -4n+20\\)",
+    "①当\\(AB\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(AB ^ { 2 }\\)",
+    "\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(72\\)",
+    "解得: \\(n\\)\\({ \\rm{ = } }\\)\\(-1-\\sqrt[] { 17 }\\)或\\(n=\\)\\(-1+\\sqrt[] { 17 }\\).",
+    "①当\\(AP\\)是斜边时， \\(AB ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(PA ^ { 2 }\\)",
+    "\\(\\therefore\\)\\(72\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } +8m+20\\)",
+    "解得:\\(n=6\\)",
+    "①当\\(BP\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(AB ^ { 2 }\\)\\(=\\)\\(PB ^ { 2 }\\)",
+    "\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(72\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } -4n+20\\)",
+    "解得: \\(n=-6\\)",
+    "\\(\\therefore\\)\\(n\\)的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\)."
+  ],
+  "solution": "（1）把\\(A\\left ( { -4,2 } \\right )\\)代入\\(y=\\frac { m } { x }\\)，得\\(m=2\\times \\left ( { -4 } \\right )=-8\\)，\n所以反比例函数解析式为\\(y=-\\frac { 8 } { x }\\)，\n把\\(B\\left ( { n,-4 } \\right )\\)代入\\(y=-\\frac { 8 } { x }\\)，得\\(-4n=-8\\)，\n解得\\(n=2\\)，\n把\\(A\\left ( { -4,2 } \\right )\\)和\\(B\\left ( { 2,-4 } \\right )\\)代入\\(y=kx+b\\)，得\\(\\begin{cases} -4k+b=2 \\\\ 2k+b=-4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-1 \\\\ b=-2 \\end{cases}\\)，\n所以一次函数的解析式为\\(y=-x-2\\)；\n（2）设直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\)，\n\\(y=-x-2\\)中，令\\(y=0\\)，则\\(x=-2\\)，\n即直线\\(y=-x-2\\)与\\(x\\)轴交于点\\(C\\left ( { -2,0 } \\right )\\)，\n∴\\(S_{ \\vartriangle AOB } =S_{ \\vartriangle AOC } +S_{ \\vartriangle BOC } =\\frac { 1 } { 2 }\\times 2\\times 2+\\frac { 1 } { 2 }\\times 2\\times 4=6\\)；\n〔图1〕\n（3）由图象可得，不等式\\(kx+b-\\frac { m } { x }>0\\)的解集为：\\(x{ \\rm{ < } }-{ \\rm{ 4 } }\\)或\\(0 < x < 2\\).\n（4）〔图2〕\n\\(\\because\\)\\(P\\left ( { n,0 } \\right )\\)，\\(A\\left ( { -4,2 } \\right )\\)，\\(B\\left ( { 2,-4 } \\right )\\) ，\n\\(\\therefore AB ^ { 2 } =\\left ( { 2+4 } \\right ) ^ { 2 } +\\left ( { -4-2 } \\right ) ^ { 2 } =72\\)，\n\\(PA ^ { 2 } =\\left ( { n+4 } \\right ) ^ { 2 } +2 ^ { 2 } =n ^ { 2 } +8m+20\\)，\n\\(PB ^ { 2 } =\\left ( { n-2 } \\right ) ^ { 2 } +4 ^ { 2 } =n ^ { 2 } -4n+20\\)\n①当\\(AB\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(AB ^ { 2 }\\)\n\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(72\\)\n解得: \\(n\\)\\({ \\rm{ = } }\\)\\(-1-\\sqrt[] { 17 }\\)或\\(n=\\)\\(-1+\\sqrt[] { 17 }\\).\n①当\\(AP\\)是斜边时， \\(AB ^ { 2 }\\)\\(+\\)\\(PB ^ { 2 }\\)\\(=\\)\\(PA ^ { 2 }\\)\n\\(\\therefore\\)\\(72\\)\\(+\\)\\(n ^ { 2 } -4n+20\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } +8m+20\\)\n解得:\\(n=6\\)\n①当\\(BP\\)是斜边时，\\(PA ^ { 2 }\\)\\(+\\)\\(AB ^ { 2 }\\)\\(=\\)\\(PB ^ { 2 }\\)\n\\(\\therefore\\)\\(n ^ { 2 } +8m+20\\)\\(+\\)\\(72\\)\\({ \\rm{ = } }\\)\\(n ^ { 2 } -4n+20\\)\n解得: \\(n=-6\\)\n\\(\\therefore\\)\\(n\\)的值为：-6，6，\\(-1-\\sqrt[] { 17 }\\)，\\(-1+\\sqrt[] { 17 }\\).",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      79,
+      85
+    ],
+    "solution_body_blocks": [
+      290,
+      327
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-690A51EC4E/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          103.18,
+          583.64,
+          460.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-690A51EC4E/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-690A51EC4E/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-690A51EC4E/solution-q20-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          378.64,
+          583.64,
+          741.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          72.27,
+          583.64,
+          482.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N12.02",
+    "M.N11.02",
+    "M.G09.03",
+    "M.N12.03",
+    "M.G04.05"
+  ],
+  "exam_ids": [
+    "E.N12.02.01",
+    "E.N11.02.01",
+    "E.G09.03.01",
+    "E.N12.03.02",
+    "E.G09.03.03",
+    "E.G04.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式、由两点或表格条件确定一次表达式”。 本问的式子结构和所求量对应“用坐标求线段长度与面积”。 本问题面与解答对应“依据两类图象比较函数值范围”。 按直角顶点分类，用两点距离的平方检验勾股逆定理条件。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,474 @@
+{
+  "id": "SZ-G9-T1-C384105C90-Q21",
+  "paper_id": "SZ-G9-T1-C384105C90",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、将折叠条件转为可计算的几何关系",
+  "stem": "上课时，老师要求同学们解决下面这道问题：\n〔图1〕\n（1）问题1：如图（a），矩形\\(ABCD\\)中，\\(AB=6\\)，\\(AD=10\\)，点E在边\\(CD\\)上，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折，点D刚好落到边\\(BC\\)上的点F处.\n①\\(CF\\)的长为______；\n②求\\(DE\\)的长.\n请你也完成这道问题.\n完成问题1后，老师进行了如下的变式：\n（2）问题2：如图（b），矩形\\(ABCD\\)中，\\(AB=6\\)，\\(AD=10\\)，若E为边\\(CD\\)的中点，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，延长\\(AD'\\)交\\(BC\\)于点M，\\(\\vartriangle ABM\\)的周长是多少？请你直接写出答案.\n（3）问题3：如图（c），将矩形变为边长为6的正方形\\(ABCD\\)，点E在边\\(CD\\)上，\\(DE=4\\)，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，延长\\(AD'\\)交\\(BC\\)于点N，请你直接写出\\(BN\\)的长.",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-C384105C90/figures/df669248da2739aff27be9ff993bdbf87a471b8c02019c3978edc62d17238c53.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①2；②\\(DE=\\frac { 10 } { 3 }\\)\n（2）26    （3）\\(\\frac { 5 } { 2 }\\)",
+  "answer": "（1）①2；②\\(DE=\\frac { 10 } { 3 }\\)\n（2）26    （3）\\(\\frac { 5 } { 2 }\\)",
+  "given_solution": "【分析】（1）①根据矩形的性质及在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABF\\)中，利用勾股定理即可求解；②在〔图2〕中，利用勾股定理即可求解．\n（2）连接\\(EM\\)，根据矩形的性质，利用\\({ \\rm{ H } }{ \\rm{ L } }\\)得\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM\\)，进而得\\(CM=D'M\\)，再根据三角形的周长公式即可求解．\n（3）将\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)旋转\\(90{}^\\circ\\)至\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADN'\\)，根据翻折的性质，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，利用勾股定理即可求解．\n【小问1详解】\n解：①\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，\n\\(\\therefore \\angle B=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，\n\\(\\because \\vartriangle AEF\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，\n\\(\\therefore AF=AD=10\\)，\\(\\angle B=90{}^\\circ\\)，\\(DE=EF\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABF\\)中，\\(\\angle B=90{}^\\circ\\)，\n\\(\\therefore BF=\\sqrt[] { AF ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }=8\\)，\n\\(\\therefore CF=BC-BF=10-8=2\\)，\n故答案为：2\n②由①得：\\(DE=EF\\)，\\(CF=2\\)，\\(DC=6\\)，\n设\\(DE=x\\)，则\\(EF=x\\)，\\(CE=6-x\\)，\n在〔图2〕中，\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，\n即：\\(x ^ { 2 } =\\left ( { 6-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，\n解得：\\(x=\\frac { 10 } { 3 }\\)，\n\\(\\therefore DE=\\frac { 10 } { 3 }\\)．\n【小问2详解】\n连接\\(EM\\)，如图：\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，\n\\(\\therefore \\angle B=\\angle D=\\angle C=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，\n\\(\\because \\vartriangle AD'E\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，\n\\(\\therefore \\angle D=\\angle AD'E=90{}^\\circ\\)，\\(DE=D ^ { \\text{�}E }\\)，\n\\(\\because\\)点E是\\(DE\\)的中点，\n\\(\\therefore DE=CE=D'E\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM\\)中，\n\\(\\begin{cases} EM=EM(公共边) \\\\ CE=D'E \\end{cases}\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM({ \\rm{ H } }{ \\rm{ L } })\\)，\n\\(\\therefore CM=D'M\\)，\n\\(\\therefore \\vartriangle ABM\\)的周长为：\n\\(AB+BM+AM\\)\n\\(=AB+BM+AD'+D'M\\)\n\\(=AB+BM+AD'+CM\\)\n\\(=AB+AD'+BC\\)\n\\(=6+10+10\\)\n\\(=26\\)．\n【小问3详解】\n将\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)旋转\\(90{}^\\circ\\)至\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADN'\\)，如图：\n〔图4〕\n\\(\\therefore AN=AN'\\)，\\(\\angle BAN=\\angle DAN'\\)，\n\\(\\because\\)四边形\\(ABCD\\)是边长为6的正方形，\n\\(\\therefore AB=6\\)，\\(\\angle B=90{}^\\circ\\)，\n\\(\\because\\)将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，\n\\(\\therefore \\angle NAE=\\angle DAE\\)，\n\\(\\therefore \\angle BAE=\\angle N'AE\\)，\n\\(\\because AB\\parallel CD\\)，\n\\(\\therefore \\angle BAE=\\angle AED\\)，\n\\(\\therefore \\angle BAE=\\angle AEN'=\\angle EAN'\\)，\n∴\\(AN'=EN'=AN\\)，\n\\(\\because DE=4\\)，\n则设\\(BN=x\\)，则\\(AN=DN'=4+x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } +BN ^ { 2 }\\)，\n即：\\(\\left ( { 4+x } \\right ) ^ { 2 } =6 ^ { 2 } +x ^ { 2 }\\)，\n解得：\\(x=\\frac { 5 } { 2 }\\)．\n【点睛】本题考查了矩形的性质、翻折的性质、全等三角形的判定及性质、勾股定理及正方形的性质，熟练掌握翻折的性质及勾股定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-C384105C90/figures/df669248da2739aff27be9ff993bdbf87a471b8c02019c3978edc62d17238c53.png",
+    "assets/figures/59/5923ba157b2217a746e9017b8284640daad8e43ff92738ef0ec75fa70c85628e.png",
+    "assets/SZ-G9-T1-C384105C90/figures/8a845808d8d7a5c23f7fa0ca7f384e27d440de0a3b70d740d5e8dd58c722c70c.png",
+    "assets/SZ-G9-T1-C384105C90/figures/ba2c994f06ca94826ee3ac690a6d9fdddd983bd10c6925af5a2c78e9e34dbf05.png"
+  ],
+  "solution": "【小问1详解】\n解：①\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，\n\\(\\therefore \\angle B=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，\n\\(\\because \\vartriangle AEF\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，\n\\(\\therefore AF=AD=10\\)，\\(\\angle B=90{}^\\circ\\)，\\(DE=EF\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABF\\)中，\\(\\angle B=90{}^\\circ\\)，\n\\(\\therefore BF=\\sqrt[] { AF ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }=8\\)，\n\\(\\therefore CF=BC-BF=10-8=2\\)，\n故答案为：2\n②由①得：\\(DE=EF\\)，\\(CF=2\\)，\\(DC=6\\)，\n设\\(DE=x\\)，则\\(EF=x\\)，\\(CE=6-x\\)，\n在〔图2〕中，\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，\n即：\\(x ^ { 2 } =\\left ( { 6-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，\n解得：\\(x=\\frac { 10 } { 3 }\\)，\n\\(\\therefore DE=\\frac { 10 } { 3 }\\)．\n【小问2详解】\n连接\\(EM\\)，如图：\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，\n\\(\\therefore \\angle B=\\angle D=\\angle C=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，\n\\(\\because \\vartriangle AD'E\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，\n\\(\\therefore \\angle D=\\angle AD'E=90{}^\\circ\\)，\\(DE=D ^ { \\text{�}E }\\)，\n\\(\\because\\)点E是\\(DE\\)的中点，\n\\(\\therefore DE=CE=D'E\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM\\)中，\n\\(\\begin{cases} EM=EM(公共边) \\\\ CE=D'E \\end{cases}\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM({ \\rm{ H } }{ \\rm{ L } })\\)，\n\\(\\therefore CM=D'M\\)，\n\\(\\therefore \\vartriangle ABM\\)的周长为：\n\\(AB+BM+AM\\)\n\\(=AB+BM+AD'+D'M\\)\n\\(=AB+BM+AD'+CM\\)\n\\(=AB+AD'+BC\\)\n\\(=6+10+10\\)\n\\(=26\\)．\n【小问3详解】\n将\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)旋转\\(90{}^\\circ\\)至\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADN'\\)，如图：\n〔图4〕\n\\(\\therefore AN=AN'\\)，\\(\\angle BAN=\\angle DAN'\\)，\n\\(\\because\\)四边形\\(ABCD\\)是边长为6的正方形，\n\\(\\therefore AB=6\\)，\\(\\angle B=90{}^\\circ\\)，\n\\(\\because\\)将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，\n\\(\\therefore \\angle NAE=\\angle DAE\\)，\n\\(\\therefore \\angle BAE=\\angle N'AE\\)，\n\\(\\because AB\\parallel CD\\)，\n\\(\\therefore \\angle BAE=\\angle AED\\)，\n\\(\\therefore \\angle BAE=\\angle AEN'=\\angle EAN'\\)，\n∴\\(AN'=EN'=AN\\)，\n\\(\\because DE=4\\)，\n则设\\(BN=x\\)，则\\(AN=DN'=4+x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } +BN ^ { 2 }\\)，\n即：\\(\\left ( { 4+x } \\right ) ^ { 2 } =6 ^ { 2 } +x ^ { 2 }\\)，\n解得：\\(x=\\frac { 5 } { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：①\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，",
+    "\\(\\therefore \\angle B=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，",
+    "\\(\\because \\vartriangle AEF\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，",
+    "\\(\\therefore AF=AD=10\\)，\\(\\angle B=90{}^\\circ\\)，\\(DE=EF\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABF\\)中，\\(\\angle B=90{}^\\circ\\)，",
+    "\\(\\therefore BF=\\sqrt[] { AF ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }=8\\)，",
+    "\\(\\therefore CF=BC-BF=10-8=2\\)，",
+    "故答案为：2",
+    "②由①得：\\(DE=EF\\)，\\(CF=2\\)，\\(DC=6\\)，",
+    "设\\(DE=x\\)，则\\(EF=x\\)，\\(CE=6-x\\)，",
+    "在〔图2〕中，\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，",
+    "即：\\(x ^ { 2 } =\\left ( { 6-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 10 } { 3 }\\)，",
+    "\\(\\therefore DE=\\frac { 10 } { 3 }\\)．",
+    "【小问2详解】",
+    "连接\\(EM\\)，如图：",
+    "〔图3〕",
+    "\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，",
+    "\\(\\therefore \\angle B=\\angle D=\\angle C=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，",
+    "\\(\\because \\vartriangle AD'E\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，",
+    "\\(\\therefore \\angle D=\\angle AD'E=90{}^\\circ\\)，\\(DE=D ^ { \\text{�}E }\\)，",
+    "\\(\\because\\)点E是\\(DE\\)的中点，",
+    "\\(\\therefore DE=CE=D'E\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM\\)中，",
+    "\\(\\begin{cases} EM=EM(公共边) \\\\ CE=D'E \\end{cases}\\)，",
+    "\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM({ \\rm{ H } }{ \\rm{ L } })\\)，",
+    "\\(\\therefore CM=D'M\\)，",
+    "\\(\\therefore \\vartriangle ABM\\)的周长为：",
+    "\\(AB+BM+AM\\)",
+    "\\(=AB+BM+AD'+D'M\\)",
+    "\\(=AB+BM+AD'+CM\\)",
+    "\\(=AB+AD'+BC\\)",
+    "\\(=6+10+10\\)",
+    "\\(=26\\)．",
+    "【小问3详解】",
+    "将\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)旋转\\(90{}^\\circ\\)至\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADN'\\)，如图：",
+    "〔图4〕",
+    "\\(\\therefore AN=AN'\\)，\\(\\angle BAN=\\angle DAN'\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)是边长为6的正方形，",
+    "\\(\\therefore AB=6\\)，\\(\\angle B=90{}^\\circ\\)，",
+    "\\(\\because\\)将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，",
+    "\\(\\therefore \\angle NAE=\\angle DAE\\)，",
+    "\\(\\therefore \\angle BAE=\\angle N'AE\\)，",
+    "\\(\\because AB\\parallel CD\\)，",
+    "\\(\\therefore \\angle BAE=\\angle AED\\)，",
+    "\\(\\therefore \\angle BAE=\\angle AEN'=\\angle EAN'\\)，",
+    "∴\\(AN'=EN'=AN\\)，",
+    "\\(\\because DE=4\\)，",
+    "则设\\(BN=x\\)，则\\(AN=DN'=4+x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } +BN ^ { 2 }\\)，",
+    "即：\\(\\left ( { 4+x } \\right ) ^ { 2 } =6 ^ { 2 } +x ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 5 } { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "上课时，老师要求同学们解决下面这道问题：\n〔图1〕\n（1）",
+      "paper_blocks": [
+        60,
+        61,
+        62
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "如图（a），矩形\\(ABCD\\)中，\\(AB=6\\)，\\(AD=10\\)，点E在边\\(CD\\)上，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折，点D刚好落到边\\(BC\\)上的点F处.",
+      "paper_blocks": [
+        62
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-C384105C90-Q21-P01",
+      "label": "问题1①",
+      "prompt": "\\(CF\\)的长为______；",
+      "stem_text": "\\(CF\\)的长为______；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "故答案为：2",
+      "given_solution": "\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，\n\\(\\therefore \\angle B=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，\n\\(\\because \\vartriangle AEF\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，\n\\(\\therefore AF=AD=10\\)，\\(\\angle B=90{}^\\circ\\)，\\(DE=EF\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABF\\)中，\\(\\angle B=90{}^\\circ\\)，\n\\(\\therefore BF=\\sqrt[] { AF ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }=8\\)，\n\\(\\therefore CF=BC-BF=10-8=2\\)，\n故答案为：2",
+      "solution_steps": [
+        "\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，",
+        "\\(\\therefore \\angle B=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，",
+        "\\(\\because \\vartriangle AEF\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，",
+        "\\(\\therefore AF=AD=10\\)，\\(\\angle B=90{}^\\circ\\)，\\(DE=EF\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABF\\)中，\\(\\angle B=90{}^\\circ\\)，",
+        "\\(\\therefore BF=\\sqrt[] { AF ^ { 2 } -AB ^ { 2 } }=\\sqrt[] { 10 ^ { 2 } -6 ^ { 2 } }=8\\)，",
+        "\\(\\therefore CF=BC-BF=10-8=2\\)，",
+        "故答案为：2"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C384105C90-Q21-P02",
+      "label": "问题1②",
+      "prompt": "求\\(DE\\)的长.\n请你也完成这道问题.\n完成问题1后，老师进行了如下的变式：\n（2）",
+      "stem_text": "求\\(DE\\)的长.\n请你也完成这道问题.\n完成问题1后，老师进行了如下的变式：\n（2）",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(\\therefore DE=\\frac { 10 } { 3 }\\)．",
+      "given_solution": "由①得：\\(DE=EF\\)，\\(CF=2\\)，\\(DC=6\\)，\n设\\(DE=x\\)，则\\(EF=x\\)，\\(CE=6-x\\)，\n在〔图2〕中，\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，\n即：\\(x ^ { 2 } =\\left ( { 6-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，\n解得：\\(x=\\frac { 10 } { 3 }\\)，\n\\(\\therefore DE=\\frac { 10 } { 3 }\\)．",
+      "solution_steps": [
+        "由①得：\\(DE=EF\\)，\\(CF=2\\)，\\(DC=6\\)，",
+        "设\\(DE=x\\)，则\\(EF=x\\)，\\(CE=6-x\\)，",
+        "在〔图2〕中，\\(EF ^ { 2 } =CE ^ { 2 } +CF ^ { 2 }\\)，",
+        "即：\\(x ^ { 2 } =\\left ( { 6-x } \\right ) ^ { 2 } +2 ^ { 2 }\\)，",
+        "解得：\\(x=\\frac { 10 } { 3 }\\)，",
+        "\\(\\therefore DE=\\frac { 10 } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62,
+          64,
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C384105C90-Q21-P03",
+      "label": "问题2",
+      "prompt": "如图（b），矩形\\(ABCD\\)中，\\(AB=6\\)，\\(AD=10\\)，若E为边\\(CD\\)的中点，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，延长\\(AD'\\)交\\(BC\\)于点M，\\(\\vartriangle ABM\\)的周长是多少？请你直接写出答案.\n（3）",
+      "stem_text": "如图（b），矩形\\(ABCD\\)中，\\(AB=6\\)，\\(AD=10\\)，若E为边\\(CD\\)的中点，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，延长\\(AD'\\)交\\(BC\\)于点M，\\(\\vartriangle ABM\\)的周长是多少？请你直接写出答案.\n（3）",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "\\(=26\\)．",
+      "given_solution": "连接\\(EM\\)，如图：\n〔图3〕\n\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，\n\\(\\therefore \\angle B=\\angle D=\\angle C=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，\n\\(\\because \\vartriangle AD'E\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，\n\\(\\therefore \\angle D=\\angle AD'E=90{}^\\circ\\)，\\(DE=D ^ { \\text{�}E }\\)，\n\\(\\because\\)点E是\\(DE\\)的中点，\n\\(\\therefore DE=CE=D'E\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM\\)中，\n\\(\\begin{cases} EM=EM(公共边) \\\\ CE=D'E \\end{cases}\\)，\n\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM({ \\rm{ H } }{ \\rm{ L } })\\)，\n\\(\\therefore CM=D'M\\)，\n\\(\\therefore \\vartriangle ABM\\)的周长为：\n\\(AB+BM+AM\\)\n\\(=AB+BM+AD'+D'M\\)\n\\(=AB+BM+AD'+CM\\)\n\\(=AB+AD'+BC\\)\n\\(=6+10+10\\)\n\\(=26\\)．",
+      "solution_steps": [
+        "连接\\(EM\\)，如图：",
+        "〔图3〕",
+        "\\(\\because\\)四边形\\(ABCD\\)是矩形，且\\(AB=6\\)，\\(AD=10\\)，",
+        "\\(\\therefore \\angle B=\\angle D=\\angle C=90{}^\\circ\\)，\\(CD=AB=6\\)，\\(BC=AD=10\\)，",
+        "\\(\\because \\vartriangle AD'E\\)是由\\(\\vartriangle ADE\\)延\\(AE\\)折叠得到，",
+        "\\(\\therefore \\angle D=\\angle AD'E=90{}^\\circ\\)，\\(DE=D ^ { \\text{�}E }\\)，",
+        "\\(\\because\\)点E是\\(DE\\)的中点，",
+        "\\(\\therefore DE=CE=D'E\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM\\)和\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM\\)中，",
+        "\\(\\begin{cases} EM=EM(公共边) \\\\ CE=D'E \\end{cases}\\)，",
+        "\\(\\therefore { \\rm{ R } }{ \\rm{ t } }\\vartriangle CEM≌{ \\rm{ R } }{ \\rm{ t } }\\vartriangle D'EM({ \\rm{ H } }{ \\rm{ L } })\\)，",
+        "\\(\\therefore CM=D'M\\)，",
+        "\\(\\therefore \\vartriangle ABM\\)的周长为：",
+        "\\(AB+BM+AM\\)",
+        "\\(=AB+BM+AD'+D'M\\)",
+        "\\(=AB+BM+AD'+CM\\)",
+        "\\(=AB+AD'+BC\\)",
+        "\\(=6+10+10\\)",
+        "\\(=26\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62,
+          67,
+          68
+        ],
+        "solution_block_ids": [
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C384105C90-Q21-P04",
+      "label": "问题3",
+      "prompt": "如图（c），将矩形变为边长为6的正方形\\(ABCD\\)，点E在边\\(CD\\)上，\\(DE=4\\)，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，延长\\(AD'\\)交\\(BC\\)于点N，请你直接写出\\(BN\\)的长.",
+      "stem_text": "如图（c），将矩形变为边长为6的正方形\\(ABCD\\)，点E在边\\(CD\\)上，\\(DE=4\\)，将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，延长\\(AD'\\)交\\(BC\\)于点N，请你直接写出\\(BN\\)的长.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "解得：\\(x=\\frac { 5 } { 2 }\\)．",
+      "given_solution": "将\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)旋转\\(90{}^\\circ\\)至\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADN'\\)，如图：\n〔图4〕\n\\(\\therefore AN=AN'\\)，\\(\\angle BAN=\\angle DAN'\\)，\n\\(\\because\\)四边形\\(ABCD\\)是边长为6的正方形，\n\\(\\therefore AB=6\\)，\\(\\angle B=90{}^\\circ\\)，\n\\(\\because\\)将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，\n\\(\\therefore \\angle NAE=\\angle DAE\\)，\n\\(\\therefore \\angle BAE=\\angle N'AE\\)，\n\\(\\because AB\\parallel CD\\)，\n\\(\\therefore \\angle BAE=\\angle AED\\)，\n\\(\\therefore \\angle BAE=\\angle AEN'=\\angle EAN'\\)，\n∴\\(AN'=EN'=AN\\)，\n\\(\\because DE=4\\)，\n则设\\(BN=x\\)，则\\(AN=DN'=4+x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } +BN ^ { 2 }\\)，\n即：\\(\\left ( { 4+x } \\right ) ^ { 2 } =6 ^ { 2 } +x ^ { 2 }\\)，\n解得：\\(x=\\frac { 5 } { 2 }\\)．",
+      "solution_steps": [
+        "将\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)旋转\\(90{}^\\circ\\)至\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ADN'\\)，如图：",
+        "〔图4〕",
+        "\\(\\therefore AN=AN'\\)，\\(\\angle BAN=\\angle DAN'\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)是边长为6的正方形，",
+        "\\(\\therefore AB=6\\)，\\(\\angle B=90{}^\\circ\\)，",
+        "\\(\\because\\)将\\(\\vartriangle ADE\\)沿\\(AE\\)翻折到\\(\\vartriangle AD'E\\)，",
+        "\\(\\therefore \\angle NAE=\\angle DAE\\)，",
+        "\\(\\therefore \\angle BAE=\\angle N'AE\\)，",
+        "\\(\\because AB\\parallel CD\\)，",
+        "\\(\\therefore \\angle BAE=\\angle AED\\)，",
+        "\\(\\therefore \\angle BAE=\\angle AEN'=\\angle EAN'\\)，",
+        "∴\\(AN'=EN'=AN\\)，",
+        "\\(\\because DE=4\\)，",
+        "则设\\(BN=x\\)，则\\(AN=DN'=4+x\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABN\\)中，\\(AN ^ { 2 } =AB ^ { 2 } +BN ^ { 2 }\\)，",
+        "即：\\(\\left ( { 4+x } \\right ) ^ { 2 } =6 ^ { 2 } +x ^ { 2 }\\)，",
+        "解得：\\(x=\\frac { 5 } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62,
+          68
+        ],
+        "solution_block_ids": [
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "答案栏未单列该问，答案取自配套资料。",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      68
+    ],
+    "solution_body_blocks": [
+      303,
+      371
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-C384105C90/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          214.09,
+          583.64,
+          587.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-C384105C90/solution-q21-p16.webp",
+      "assets/SZ-G9-T1-C384105C90/solution-q21-p17.webp",
+      "assets/SZ-G9-T1-C384105C90/solution-q21-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          405.45,
+          583.64,
+          743.18
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          767.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

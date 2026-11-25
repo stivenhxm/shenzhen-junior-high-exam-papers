@@ -1,0 +1,393 @@
+{
+  "id": "SZ-G9-T1-8120D49577-Q20",
+  "paper_id": "SZ-G9-T1-8120D49577",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "问题背景：如图，在正方形\\(ABCD\\)中，边长为\\(4\\)，点\\(M\\)，\\(N\\)是边\\(AB\\)，\\(BC\\)上两点，且\\(BM=CN=1\\)，连接\\(CM\\)，\\(DN\\)，\\(CM\\)与\\(DN\\)相交于点\\(O\\)．\n〔图1〕\n（1）探索发现：探索线段\\(DN\\)与\\(CM\\)的关系，并说明理由；\n（2）探索发现：若点\\(E\\)，\\(F\\)分别是\\(DN\\)与\\(CM\\)的中点，计算\\(EF\\)的长；\n（3）拓展提高：延长\\(CM\\)至\\(P\\)，连接\\(BP\\)，若\\(\\angle BPC=45{}^\\circ\\)，请直接写出线段\\(PM\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-8120D49577/figures/40b52f5519ac37690367e395b4345faf922b8367e5b27cee72d9b5952f732771.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(CM=DN\\)，且\\(DN\\bot CM\\)，见解析；\n（2）\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；\n（3）\\(\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．",
+  "answer": "（1）\\(CM=DN\\)，且\\(DN\\bot CM\\)，见解析；\n（2）\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；\n（3）\\(\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．",
+  "given_solution": "【分析】（\\(1\\)）由四边形\\(ABCD\\)是正方形，得\\(BC=CD\\)，\\(\\angle B=\\angle NCD=90{}^\\circ\\)，证明\\(\\vartriangle BCM≌\\vartriangle CDN\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，根据全等三角形的性质即可求证；\n（\\(2\\)）连接\\(CE\\)并延长交\\(AD\\)于\\(G\\)，连接\\(GM\\)，先证明\\(\\vartriangle CNE≌\\vartriangle GDE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，得\\(CE=EG\\)，\\(GD=CN=1\\)，则有\\(EF=\\frac { 1 } { 2 }GM\\)，根据勾股定理求出\\(MG=3\\sqrt[] { 2 }\\)即可；\n（\\(3\\)）过点\\(B\\)作\\(BH\\bot CM\\)于点\\(H\\)，由勾股定理求出\\(CM=\\sqrt[] { 17 }\\)，根据等面积\\(S_{ \\vartriangle BCM } =\\frac { 1 } { 2 }CM\\times BH=\\frac { 1 } { 2 }BC\\times BM\\)，得出\\(BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，最后由勾股定理和线段和差即可求解．\n【小问1详解】\n\\(CM=DN\\)，且\\(DN\\bot CM\\)，\n理由：∵四边形\\(ABCD\\)是正方形，\n∴\\(BC=CD\\)，\\(\\angle B=\\angle NCD=90{}^\\circ\\)，\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle CDN\\)中，\n\\(\\begin{cases} BC=CD \\\\ \\angle B=\\angle NCD \\\\ BM=CN \\end{cases}\\)，\n∴\\(\\vartriangle BCM≌\\vartriangle CDN\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CM=DN\\)，\\(\\angle BCM=\\angle CDN\\)，\n∵\\(\\angle BCM+\\angle MCD=90{}^\\circ\\)，\n∴\\(\\angle CDN+\\angle MCD=90{}^\\circ\\)，\n∴\\(\\angle COD=90{}^\\circ\\)，\n∴\\(DN\\bot CM\\)，\n∴线段\\(CM\\)和\\(DN\\)的关系为：\\(CM=DN\\)，且\\(DN\\bot CM\\)；\n【小问2详解】\n连接\\(CE\\)并延长交\\(AD\\)于\\(G\\)，连接\\(GM\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=AB\\)，\\(\\angle A=90{}^\\circ\\)，\\(BC\\parallel AD\\)，\n∴\\(\\angle ENC=\\angle EDG\\)，\n在\\(\\vartriangle CNE\\)和\\(\\vartriangle GDE\\)中，\n\\(\\begin{cases} \\angle ENC=\\angle EDG \\\\ \\angle NEC=\\angle DEG \\\\ NE=DE \\end{cases}\\)，\n∴\\(\\vartriangle CNE≌\\vartriangle GDE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(CE=EG\\)，\\(GD=CN=1\\)，\n又∵\\(MF=CF\\)，\n∴\\(EF=\\frac { 1 } { 2 }GM\\)，\n∵正方形的边长为\\(4\\)，\\(BM=DG=1\\)，\n∴\\(AM=AG=3\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGM\\)中，由勾股定理得：\\(AM ^ { 2 } +AG ^ { 2 } =MG ^ { 2 }\\)，\n∴\\(3 ^ { 2 } +3 ^ { 2 } =MG ^ { 2 }\\)，\n∴\\(MG=3\\sqrt[] { 2 }\\)，\n∴\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；\n【小问3详解】\n如图，过点\\(B\\)作\\(BH\\bot CM\\)于点\\(H\\)，\n〔图3〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCM\\)中，由勾股定理得：\\(CM ^ { 2 } =BC ^ { 2 } +BM ^ { 2 }\\)，\n∴\\(CM=\\sqrt[] { 1 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 17 }\\)，\n∵\\(S_{ \\vartriangle BCM } =\\frac { 1 } { 2 }CM\\times BH=\\frac { 1 } { 2 }BC\\times BM\\)，即\\(\\sqrt[] { 17 }\\times BH=4\\times 1\\)，\n∴\\(BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(CH=\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 4\\sqrt[] { 17 } } { 17 } } \\right ) ^ { 2 } }=\\frac { 16\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(\\angle BPC=45{}^\\circ\\)，\n∴\\(\\angle BPC=\\angle PBH=45{}^\\circ\\)，\n∴\\(PH=BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(PC=PH+CH=\\frac { 4\\sqrt[] { 17 } } { 17 }+\\frac { 16\\sqrt[] { 17 } } { 17 }=\\frac { 20\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(PM=PC-CM=\\frac { 20\\sqrt[] { 17 } } { 17 }-\\sqrt[] { 17 }=\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．\n【点睛】本题考查了正方形的性质，全等三角形的判定与性质，三角形的中位线定理，勾股定理，等角对等边等知识点，熟练掌握知识点的应用是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-8120D49577/figures/40b52f5519ac37690367e395b4345faf922b8367e5b27cee72d9b5952f732771.png",
+    "assets/SZ-G9-T1-8120D49577/figures/87131382e9f61a1671ab62bb5cf75bf342be55834c19c3799c8359b6e83ba59f.png",
+    "assets/SZ-G9-T1-8120D49577/figures/8cacd9515b83564767730a25aa29090ba1def2026520a28917e279989ce17a3a.png"
+  ],
+  "solution": "【小问1详解】\n\\(CM=DN\\)，且\\(DN\\bot CM\\)，\n理由：∵四边形\\(ABCD\\)是正方形，\n∴\\(BC=CD\\)，\\(\\angle B=\\angle NCD=90{}^\\circ\\)，\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle CDN\\)中，\n\\(\\begin{cases} BC=CD \\\\ \\angle B=\\angle NCD \\\\ BM=CN \\end{cases}\\)，\n∴\\(\\vartriangle BCM≌\\vartriangle CDN\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CM=DN\\)，\\(\\angle BCM=\\angle CDN\\)，\n∵\\(\\angle BCM+\\angle MCD=90{}^\\circ\\)，\n∴\\(\\angle CDN+\\angle MCD=90{}^\\circ\\)，\n∴\\(\\angle COD=90{}^\\circ\\)，\n∴\\(DN\\bot CM\\)，\n∴线段\\(CM\\)和\\(DN\\)的关系为：\\(CM=DN\\)，且\\(DN\\bot CM\\)；\n【小问2详解】\n连接\\(CE\\)并延长交\\(AD\\)于\\(G\\)，连接\\(GM\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=AB\\)，\\(\\angle A=90{}^\\circ\\)，\\(BC\\parallel AD\\)，\n∴\\(\\angle ENC=\\angle EDG\\)，\n在\\(\\vartriangle CNE\\)和\\(\\vartriangle GDE\\)中，\n\\(\\begin{cases} \\angle ENC=\\angle EDG \\\\ \\angle NEC=\\angle DEG \\\\ NE=DE \\end{cases}\\)，\n∴\\(\\vartriangle CNE≌\\vartriangle GDE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(CE=EG\\)，\\(GD=CN=1\\)，\n又∵\\(MF=CF\\)，\n∴\\(EF=\\frac { 1 } { 2 }GM\\)，\n∵正方形的边长为\\(4\\)，\\(BM=DG=1\\)，\n∴\\(AM=AG=3\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGM\\)中，由勾股定理得：\\(AM ^ { 2 } +AG ^ { 2 } =MG ^ { 2 }\\)，\n∴\\(3 ^ { 2 } +3 ^ { 2 } =MG ^ { 2 }\\)，\n∴\\(MG=3\\sqrt[] { 2 }\\)，\n∴\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；\n【小问3详解】\n如图，过点\\(B\\)作\\(BH\\bot CM\\)于点\\(H\\)，\n〔图3〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCM\\)中，由勾股定理得：\\(CM ^ { 2 } =BC ^ { 2 } +BM ^ { 2 }\\)，\n∴\\(CM=\\sqrt[] { 1 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 17 }\\)，\n∵\\(S_{ \\vartriangle BCM } =\\frac { 1 } { 2 }CM\\times BH=\\frac { 1 } { 2 }BC\\times BM\\)，即\\(\\sqrt[] { 17 }\\times BH=4\\times 1\\)，\n∴\\(BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(CH=\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 4\\sqrt[] { 17 } } { 17 } } \\right ) ^ { 2 } }=\\frac { 16\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(\\angle BPC=45{}^\\circ\\)，\n∴\\(\\angle BPC=\\angle PBH=45{}^\\circ\\)，\n∴\\(PH=BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(PC=PH+CH=\\frac { 4\\sqrt[] { 17 } } { 17 }+\\frac { 16\\sqrt[] { 17 } } { 17 }=\\frac { 20\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(PM=PC-CM=\\frac { 20\\sqrt[] { 17 } } { 17 }-\\sqrt[] { 17 }=\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "\\(CM=DN\\)，且\\(DN\\bot CM\\)，",
+    "理由：∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(BC=CD\\)，\\(\\angle B=\\angle NCD=90{}^\\circ\\)，",
+    "在\\(\\vartriangle BCM\\)和\\(\\vartriangle CDN\\)中，",
+    "\\(\\begin{cases} BC=CD \\\\ \\angle B=\\angle NCD \\\\ BM=CN \\end{cases}\\)，",
+    "∴\\(\\vartriangle BCM≌\\vartriangle CDN\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(CM=DN\\)，\\(\\angle BCM=\\angle CDN\\)，",
+    "∵\\(\\angle BCM+\\angle MCD=90{}^\\circ\\)，",
+    "∴\\(\\angle CDN+\\angle MCD=90{}^\\circ\\)，",
+    "∴\\(\\angle COD=90{}^\\circ\\)，",
+    "∴\\(DN\\bot CM\\)，",
+    "∴线段\\(CM\\)和\\(DN\\)的关系为：\\(CM=DN\\)，且\\(DN\\bot CM\\)；",
+    "【小问2详解】",
+    "连接\\(CE\\)并延长交\\(AD\\)于\\(G\\)，连接\\(GM\\)，",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(AD=AB\\)，\\(\\angle A=90{}^\\circ\\)，\\(BC\\parallel AD\\)，",
+    "∴\\(\\angle ENC=\\angle EDG\\)，",
+    "在\\(\\vartriangle CNE\\)和\\(\\vartriangle GDE\\)中，",
+    "\\(\\begin{cases} \\angle ENC=\\angle EDG \\\\ \\angle NEC=\\angle DEG \\\\ NE=DE \\end{cases}\\)，",
+    "∴\\(\\vartriangle CNE≌\\vartriangle GDE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(CE=EG\\)，\\(GD=CN=1\\)，",
+    "又∵\\(MF=CF\\)，",
+    "∴\\(EF=\\frac { 1 } { 2 }GM\\)，",
+    "∵正方形的边长为\\(4\\)，\\(BM=DG=1\\)，",
+    "∴\\(AM=AG=3\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGM\\)中，由勾股定理得：\\(AM ^ { 2 } +AG ^ { 2 } =MG ^ { 2 }\\)，",
+    "∴\\(3 ^ { 2 } +3 ^ { 2 } =MG ^ { 2 }\\)，",
+    "∴\\(MG=3\\sqrt[] { 2 }\\)，",
+    "∴\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；",
+    "【小问3详解】",
+    "如图，过点\\(B\\)作\\(BH\\bot CM\\)于点\\(H\\)，",
+    "〔图3〕",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCM\\)中，由勾股定理得：\\(CM ^ { 2 } =BC ^ { 2 } +BM ^ { 2 }\\)，",
+    "∴\\(CM=\\sqrt[] { 1 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 17 }\\)，",
+    "∵\\(S_{ \\vartriangle BCM } =\\frac { 1 } { 2 }CM\\times BH=\\frac { 1 } { 2 }BC\\times BM\\)，即\\(\\sqrt[] { 17 }\\times BH=4\\times 1\\)，",
+    "∴\\(BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，",
+    "∴\\(CH=\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 4\\sqrt[] { 17 } } { 17 } } \\right ) ^ { 2 } }=\\frac { 16\\sqrt[] { 17 } } { 17 }\\)，",
+    "∴\\(\\angle BPC=45{}^\\circ\\)，",
+    "∴\\(\\angle BPC=\\angle PBH=45{}^\\circ\\)，",
+    "∴\\(PH=BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，",
+    "∴\\(PC=PH+CH=\\frac { 4\\sqrt[] { 17 } } { 17 }+\\frac { 16\\sqrt[] { 17 } } { 17 }=\\frac { 20\\sqrt[] { 17 } } { 17 }\\)，",
+    "∴\\(PM=PC-CM=\\frac { 20\\sqrt[] { 17 } } { 17 }-\\sqrt[] { 17 }=\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "问题背景：如图，在正方形\\(ABCD\\)中，边长为\\(4\\)，点\\(M\\)，\\(N\\)是边\\(AB\\)，\\(BC\\)上两点，且\\(BM=CN=1\\)，连接\\(CM\\)，\\(DN\\)，\\(CM\\)与\\(DN\\)相交于点\\(O\\)．\n〔图1〕",
+      "paper_blocks": [
+        67,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-8120D49577-Q20-P01",
+      "label": "（1）",
+      "prompt": "探索发现：探索线段\\(DN\\)与\\(CM\\)的关系，并说明理由；",
+      "stem_text": "探索发现：探索线段\\(DN\\)与\\(CM\\)的关系，并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(CM=DN\\)，且\\(DN\\bot CM\\)，见解析；",
+      "answer": "\\(CM=DN\\)，且\\(DN\\bot CM\\)，见解析；",
+      "given_solution": "\\(CM=DN\\)，且\\(DN\\bot CM\\)，\n理由：∵四边形\\(ABCD\\)是正方形，\n∴\\(BC=CD\\)，\\(\\angle B=\\angle NCD=90{}^\\circ\\)，\n在\\(\\vartriangle BCM\\)和\\(\\vartriangle CDN\\)中，\n\\(\\begin{cases} BC=CD \\\\ \\angle B=\\angle NCD \\\\ BM=CN \\end{cases}\\)，\n∴\\(\\vartriangle BCM≌\\vartriangle CDN\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CM=DN\\)，\\(\\angle BCM=\\angle CDN\\)，\n∵\\(\\angle BCM+\\angle MCD=90{}^\\circ\\)，\n∴\\(\\angle CDN+\\angle MCD=90{}^\\circ\\)，\n∴\\(\\angle COD=90{}^\\circ\\)，\n∴\\(DN\\bot CM\\)，\n∴线段\\(CM\\)和\\(DN\\)的关系为：\\(CM=DN\\)，且\\(DN\\bot CM\\)；",
+      "solution_steps": [
+        "\\(CM=DN\\)，且\\(DN\\bot CM\\)，",
+        "理由：∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(BC=CD\\)，\\(\\angle B=\\angle NCD=90{}^\\circ\\)，",
+        "在\\(\\vartriangle BCM\\)和\\(\\vartriangle CDN\\)中，",
+        "\\(\\begin{cases} BC=CD \\\\ \\angle B=\\angle NCD \\\\ BM=CN \\end{cases}\\)，",
+        "∴\\(\\vartriangle BCM≌\\vartriangle CDN\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(CM=DN\\)，\\(\\angle BCM=\\angle CDN\\)，",
+        "∵\\(\\angle BCM+\\angle MCD=90{}^\\circ\\)，",
+        "∴\\(\\angle CDN+\\angle MCD=90{}^\\circ\\)，",
+        "∴\\(\\angle COD=90{}^\\circ\\)，",
+        "∴\\(DN\\bot CM\\)，",
+        "∴线段\\(CM\\)和\\(DN\\)的关系为：\\(CM=DN\\)，且\\(DN\\bot CM\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8120D49577-Q20-P02",
+      "label": "（2）",
+      "prompt": "探索发现：若点\\(E\\)，\\(F\\)分别是\\(DN\\)与\\(CM\\)的中点，计算\\(EF\\)的长；",
+      "stem_text": "探索发现：若点\\(E\\)，\\(F\\)分别是\\(DN\\)与\\(CM\\)的中点，计算\\(EF\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；",
+      "answer": "\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；",
+      "given_solution": "连接\\(CE\\)并延长交\\(AD\\)于\\(G\\)，连接\\(GM\\)，\n〔图2〕\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=AB\\)，\\(\\angle A=90{}^\\circ\\)，\\(BC\\parallel AD\\)，\n∴\\(\\angle ENC=\\angle EDG\\)，\n在\\(\\vartriangle CNE\\)和\\(\\vartriangle GDE\\)中，\n\\(\\begin{cases} \\angle ENC=\\angle EDG \\\\ \\angle NEC=\\angle DEG \\\\ NE=DE \\end{cases}\\)，\n∴\\(\\vartriangle CNE≌\\vartriangle GDE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(CE=EG\\)，\\(GD=CN=1\\)，\n又∵\\(MF=CF\\)，\n∴\\(EF=\\frac { 1 } { 2 }GM\\)，\n∵正方形的边长为\\(4\\)，\\(BM=DG=1\\)，\n∴\\(AM=AG=3\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGM\\)中，由勾股定理得：\\(AM ^ { 2 } +AG ^ { 2 } =MG ^ { 2 }\\)，\n∴\\(3 ^ { 2 } +3 ^ { 2 } =MG ^ { 2 }\\)，\n∴\\(MG=3\\sqrt[] { 2 }\\)，\n∴\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；",
+      "solution_steps": [
+        "连接\\(CE\\)并延长交\\(AD\\)于\\(G\\)，连接\\(GM\\)，",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(AD=AB\\)，\\(\\angle A=90{}^\\circ\\)，\\(BC\\parallel AD\\)，",
+        "∴\\(\\angle ENC=\\angle EDG\\)，",
+        "在\\(\\vartriangle CNE\\)和\\(\\vartriangle GDE\\)中，",
+        "\\(\\begin{cases} \\angle ENC=\\angle EDG \\\\ \\angle NEC=\\angle DEG \\\\ NE=DE \\end{cases}\\)，",
+        "∴\\(\\vartriangle CNE≌\\vartriangle GDE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(CE=EG\\)，\\(GD=CN=1\\)，",
+        "又∵\\(MF=CF\\)，",
+        "∴\\(EF=\\frac { 1 } { 2 }GM\\)，",
+        "∵正方形的边长为\\(4\\)，\\(BM=DG=1\\)，",
+        "∴\\(AM=AG=3\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGM\\)中，由勾股定理得：\\(AM ^ { 2 } +AG ^ { 2 } =MG ^ { 2 }\\)，",
+        "∴\\(3 ^ { 2 } +3 ^ { 2 } =MG ^ { 2 }\\)，",
+        "∴\\(MG=3\\sqrt[] { 2 }\\)，",
+        "∴\\(EF=\\frac { 3\\sqrt[] { 2 } } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-8120D49577-Q20-P03",
+      "label": "（3）",
+      "prompt": "拓展提高：延长\\(CM\\)至\\(P\\)，连接\\(BP\\)，若\\(\\angle BPC=45{}^\\circ\\)，请直接写出线段\\(PM\\)的长．",
+      "stem_text": "拓展提高：延长\\(CM\\)至\\(P\\)，连接\\(BP\\)，若\\(\\angle BPC=45{}^\\circ\\)，请直接写出线段\\(PM\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．",
+      "answer": "\\(\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．",
+      "given_solution": "如图，过点\\(B\\)作\\(BH\\bot CM\\)于点\\(H\\)，\n〔图3〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCM\\)中，由勾股定理得：\\(CM ^ { 2 } =BC ^ { 2 } +BM ^ { 2 }\\)，\n∴\\(CM=\\sqrt[] { 1 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 17 }\\)，\n∵\\(S_{ \\vartriangle BCM } =\\frac { 1 } { 2 }CM\\times BH=\\frac { 1 } { 2 }BC\\times BM\\)，即\\(\\sqrt[] { 17 }\\times BH=4\\times 1\\)，\n∴\\(BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(CH=\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 4\\sqrt[] { 17 } } { 17 } } \\right ) ^ { 2 } }=\\frac { 16\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(\\angle BPC=45{}^\\circ\\)，\n∴\\(\\angle BPC=\\angle PBH=45{}^\\circ\\)，\n∴\\(PH=BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(PC=PH+CH=\\frac { 4\\sqrt[] { 17 } } { 17 }+\\frac { 16\\sqrt[] { 17 } } { 17 }=\\frac { 20\\sqrt[] { 17 } } { 17 }\\)，\n∴\\(PM=PC-CM=\\frac { 20\\sqrt[] { 17 } } { 17 }-\\sqrt[] { 17 }=\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．",
+      "solution_steps": [
+        "如图，过点\\(B\\)作\\(BH\\bot CM\\)于点\\(H\\)，",
+        "〔图3〕",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BCM\\)中，由勾股定理得：\\(CM ^ { 2 } =BC ^ { 2 } +BM ^ { 2 }\\)，",
+        "∴\\(CM=\\sqrt[] { 1 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 17 }\\)，",
+        "∵\\(S_{ \\vartriangle BCM } =\\frac { 1 } { 2 }CM\\times BH=\\frac { 1 } { 2 }BC\\times BM\\)，即\\(\\sqrt[] { 17 }\\times BH=4\\times 1\\)，",
+        "∴\\(BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，",
+        "∴\\(CH=\\sqrt[] { BC ^ { 2 } -BH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } -\\left ( { \\frac { 4\\sqrt[] { 17 } } { 17 } } \\right ) ^ { 2 } }=\\frac { 16\\sqrt[] { 17 } } { 17 }\\)，",
+        "∴\\(\\angle BPC=45{}^\\circ\\)，",
+        "∴\\(\\angle BPC=\\angle PBH=45{}^\\circ\\)，",
+        "∴\\(PH=BH=\\frac { 4\\sqrt[] { 17 } } { 17 }\\)，",
+        "∴\\(PC=PH+CH=\\frac { 4\\sqrt[] { 17 } } { 17 }+\\frac { 16\\sqrt[] { 17 } } { 17 }=\\frac { 20\\sqrt[] { 17 } } { 17 }\\)，",
+        "∴\\(PM=PC-CM=\\frac { 20\\sqrt[] { 17 } } { 17 }-\\sqrt[] { 17 }=\\frac { 3\\sqrt[] { 17 } } { 17 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      71
+    ],
+    "solution_body_blocks": [
+      345,
+      401
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-8120D49577/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          495.0,
+          583.64,
+          759.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-8120D49577/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-8120D49577/solution-q20-p18.webp",
+      "assets/SZ-G9-T1-8120D49577/solution-q20-p19.webp",
+      "assets/SZ-G9-T1-8120D49577/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          565.45,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          730.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          369.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问解答对应“由勾股关系求直角三角形边长”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

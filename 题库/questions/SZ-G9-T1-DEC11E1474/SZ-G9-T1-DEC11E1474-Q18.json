@@ -1,0 +1,271 @@
+{
+  "id": "SZ-G9-T1-DEC11E1474-Q18",
+  "paper_id": "SZ-G9-T1-DEC11E1474",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、利用平行线性质求角",
+  "stem": "在矩形ABCD中, \\(AB=2,BC=4,\\), P 是直线BC上一动点, 连接PD.\n(1) 如图, 当点 P在边 BC上, 且 \\(BP=\\frac{5}{2}\\)时，求PD的长度；\n(2)连接AP, 过点A, D分别作，AE//PD,DE//AP,AE与DE交于点E , 连接PE. 当 \\(PE⊥BC\\)时，判断四边形 APDE 的形状，并说明理由；\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-DEC11E1474/figures/ab995edaed483d0a8b14560864ae14536f6824c2f4430ac8bf79b7c12f4f6638.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在矩形ABCD中, \\(AB=2,BC=4,\\), P 是直线BC上一动点, 连接PD.",
+      "paper_blocks": [
+        77
+      ]
+    },
+    {
+      "id": "fig-81",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        81
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-DEC11E1474-Q18-P01",
+      "label": "(1)",
+      "prompt": "如图, 当点 P在边 BC上, 且 \\(BP=\\frac{5}{2}\\)时，求PD的长度；",
+      "stem_text": "如图, 当点 P在边 BC上, 且 \\(BP=\\frac{5}{2}\\)时，求PD的长度；",
+      "material_ids": [
+        "context",
+        "fig-81"
+      ],
+      "requires": [],
+      "given_answer": "\\(PD=\\frac { 5 } { 2 }\\)；",
+      "answer": "\\(PD=\\frac { 5 } { 2 }\\)；",
+      "given_solution": "解：∵\\(BC=4\\)，\\(BP=\\frac { 5 } { 2 }\\)，\n∴\\(PC=\\frac { 3 } { 2 }\\)．\n∵四边形\\(ABCD\\)是矩形，\n∴\\(CD=AB=2\\)．\\(\\angle PCD=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDP\\)中，根据勾股定理可得\\(PD=\\sqrt[] { CD ^ { 2 } +PC ^ { 2 } }=\\frac { 5 } { 2 }\\)；",
+      "solution_steps": [
+        "解：∵\\(BC=4\\)，\\(BP=\\frac { 5 } { 2 }\\)，",
+        "∴\\(PC=\\frac { 3 } { 2 }\\)．",
+        "∵四边形\\(ABCD\\)是矩形，",
+        "∴\\(CD=AB=2\\)．\\(\\angle PCD=90{}^\\circ\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDP\\)中，根据勾股定理可得\\(PD=\\sqrt[] { CD ^ { 2 } +PC ^ { 2 } }=\\frac { 5 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          77,
+          78,
+          81
+        ],
+        "solution_block_ids": [
+          287,
+          288,
+          289,
+          290,
+          291
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-DEC11E1474-Q18-P02",
+      "label": "(2)",
+      "prompt": "连接AP, 过点A, D分别作，AE//PD,DE//AP,AE与DE交于点E , 连接PE. 当 \\(PE⊥BC\\)时，判断四边形 APDE 的形状，并说明理由；",
+      "stem_text": "连接AP, 过点A, D分别作，AE//PD,DE//AP,AE与DE交于点E , 连接PE. 当 \\(PE⊥BC\\)时，判断四边形 APDE 的形状，并说明理由；",
+      "material_ids": [
+        "context",
+        "fig-81"
+      ],
+      "requires": [],
+      "given_answer": "四边形\\(APDE\\)是正方形；见解析",
+      "answer": "四边形\\(APDE\\)是正方形；见解析",
+      "given_solution": "解：四边形\\(APDE\\)是正方形；\n理由：如图，设\\(PE\\)与\\(AD\\)交于点O，\n〔图1〕\n∵\\(AE\\parallel PD\\)，\\(DE\\parallel AP\\)，\n∴四边形\\(APDE\\)是平行四边形，\n∴\\(AO=DO=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(AO=AB\\)．\n当\\(PE\\bot BC\\)时，则\\(PE\\bot AD\\)，即\\(\\angle AOP=90{}^\\circ\\)，\n∴四边形\\(APDE\\)是菱形．\n∵\\(\\angle BAD=\\angle ABC=\\angle AOP=90{}^\\circ\\)，\n∴四边形\\(ABPO\\)是矩形，\n∴\\(OP=AB=AO=2\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOP\\)中，\\(\\angle OAP=\\angle APO=45{}^\\circ\\)．\n同理可得\\(\\angle DPO=45{}^\\circ\\)，\n∴\\(\\angle APD=90{}^\\circ\\)，\n∴菱形\\(APDE\\)是正方形；",
+      "solution_steps": [
+        "解：四边形\\(APDE\\)是正方形；",
+        "理由：如图，设\\(PE\\)与\\(AD\\)交于点O，",
+        "〔图1〕",
+        "∵\\(AE\\parallel PD\\)，\\(DE\\parallel AP\\)，",
+        "∴四边形\\(APDE\\)是平行四边形，",
+        "∴\\(AO=DO=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=2\\)，",
+        "∴\\(AO=AB\\)．",
+        "当\\(PE\\bot BC\\)时，则\\(PE\\bot AD\\)，即\\(\\angle AOP=90{}^\\circ\\)，",
+        "∴四边形\\(APDE\\)是菱形．",
+        "∵\\(\\angle BAD=\\angle ABC=\\angle AOP=90{}^\\circ\\)，",
+        "∴四边形\\(ABPO\\)是矩形，",
+        "∴\\(OP=AB=AO=2\\)，",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOP\\)中，\\(\\angle OAP=\\angle APO=45{}^\\circ\\)．",
+        "同理可得\\(\\angle DPO=45{}^\\circ\\)，",
+        "∴\\(\\angle APD=90{}^\\circ\\)，",
+        "∴菱形\\(APDE\\)是正方形；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          77,
+          79,
+          81
+        ],
+        "solution_block_ids": [
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "（1）\\(PD=\\frac { 5 } { 2 }\\)；\n（2）四边形\\(APDE\\)是正方形；见解析",
+  "given_solution": "【解析】\n【分析】（1）先求得\\(PC=\\frac { 3 } { 2 }\\)，\\(CD=AB=2\\)，再利用勾股定理求解即可；\n（2）先证明四边形\\(APDE\\)是平行四边形得到\\(AO=AB\\)；当\\(PE\\bot AD\\)时，推出\\(\\angle AOP=90{}^\\circ\\)，则四边形\\(APDE\\)是菱形．再证明四边形\\(ABPO\\)是矩形，则\\(OP=AB=AO=2\\)，然后根据等腰三角形的性质证得\\(\\angle OAP=\\angle APO=45{}^\\circ\\)，\\(\\angle DPO=45{}^\\circ\\)，则\\(\\angle APD=90{}^\\circ\\)，进而可得结论．\n【小问1详解】\n解：∵\\(BC=4\\)，\\(BP=\\frac { 5 } { 2 }\\)，\n∴\\(PC=\\frac { 3 } { 2 }\\)．\n∵四边形\\(ABCD\\)是矩形，\n∴\\(CD=AB=2\\)．\\(\\angle PCD=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDP\\)中，根据勾股定理可得\\(PD=\\sqrt[] { CD ^ { 2 } +PC ^ { 2 } }=\\frac { 5 } { 2 }\\)；\n【小问2详解】\n解：四边形\\(APDE\\)是正方形；\n理由：如图，设\\(PE\\)与\\(AD\\)交于点O，\n〔图1〕\n∵\\(AE\\parallel PD\\)，\\(DE\\parallel AP\\)，\n∴四边形\\(APDE\\)是平行四边形，\n∴\\(AO=DO=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(AO=AB\\)．\n当\\(PE\\bot BC\\)时，则\\(PE\\bot AD\\)，即\\(\\angle AOP=90{}^\\circ\\)，\n∴四边形\\(APDE\\)是菱形．\n∵\\(\\angle BAD=\\angle ABC=\\angle AOP=90{}^\\circ\\)，\n∴四边形\\(ABPO\\)是矩形，\n∴\\(OP=AB=AO=2\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOP\\)中，\\(\\angle OAP=\\angle APO=45{}^\\circ\\)．\n同理可得\\(\\angle DPO=45{}^\\circ\\)，\n∴\\(\\angle APD=90{}^\\circ\\)，\n∴菱形\\(APDE\\)是正方形；\n【点睛】本题考查了正方形的判定、平行四边形、矩形和菱形的判定与性质、勾股定理，熟练掌握特殊四边形的判定方法和性质是解答的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-DEC11E1474/figures/dbacffbba406c55a036699a30fd0a9afdb6ad32a538e07789ecbac0eacca04cf.png"
+  ],
+  "answer": "（1）\\(PD=\\frac { 5 } { 2 }\\)；\n（2）四边形\\(APDE\\)是正方形；见解析",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(BC=4\\)，\\(BP=\\frac { 5 } { 2 }\\)，",
+    "∴\\(PC=\\frac { 3 } { 2 }\\)．",
+    "∵四边形\\(ABCD\\)是矩形，",
+    "∴\\(CD=AB=2\\)．\\(\\angle PCD=90{}^\\circ\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDP\\)中，根据勾股定理可得\\(PD=\\sqrt[] { CD ^ { 2 } +PC ^ { 2 } }=\\frac { 5 } { 2 }\\)；",
+    "【小问2详解】",
+    "解：四边形\\(APDE\\)是正方形；",
+    "理由：如图，设\\(PE\\)与\\(AD\\)交于点O，",
+    "〔图1〕",
+    "∵\\(AE\\parallel PD\\)，\\(DE\\parallel AP\\)，",
+    "∴四边形\\(APDE\\)是平行四边形，",
+    "∴\\(AO=DO=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=2\\)，",
+    "∴\\(AO=AB\\)．",
+    "当\\(PE\\bot BC\\)时，则\\(PE\\bot AD\\)，即\\(\\angle AOP=90{}^\\circ\\)，",
+    "∴四边形\\(APDE\\)是菱形．",
+    "∵\\(\\angle BAD=\\angle ABC=\\angle AOP=90{}^\\circ\\)，",
+    "∴四边形\\(ABPO\\)是矩形，",
+    "∴\\(OP=AB=AO=2\\)，",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOP\\)中，\\(\\angle OAP=\\angle APO=45{}^\\circ\\)．",
+    "同理可得\\(\\angle DPO=45{}^\\circ\\)，",
+    "∴\\(\\angle APD=90{}^\\circ\\)，",
+    "∴菱形\\(APDE\\)是正方形；"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(BC=4\\)，\\(BP=\\frac { 5 } { 2 }\\)，\n∴\\(PC=\\frac { 3 } { 2 }\\)．\n∵四边形\\(ABCD\\)是矩形，\n∴\\(CD=AB=2\\)．\\(\\angle PCD=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CDP\\)中，根据勾股定理可得\\(PD=\\sqrt[] { CD ^ { 2 } +PC ^ { 2 } }=\\frac { 5 } { 2 }\\)；\n【小问2详解】\n解：四边形\\(APDE\\)是正方形；\n理由：如图，设\\(PE\\)与\\(AD\\)交于点O，\n〔图1〕\n∵\\(AE\\parallel PD\\)，\\(DE\\parallel AP\\)，\n∴四边形\\(APDE\\)是平行四边形，\n∴\\(AO=DO=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }BC=2\\)，\n∴\\(AO=AB\\)．\n当\\(PE\\bot BC\\)时，则\\(PE\\bot AD\\)，即\\(\\angle AOP=90{}^\\circ\\)，\n∴四边形\\(APDE\\)是菱形．\n∵\\(\\angle BAD=\\angle ABC=\\angle AOP=90{}^\\circ\\)，\n∴四边形\\(ABPO\\)是矩形，\n∴\\(OP=AB=AO=2\\)，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AOP\\)中，\\(\\angle OAP=\\angle APO=45{}^\\circ\\)．\n同理可得\\(\\angle DPO=45{}^\\circ\\)，\n∴\\(\\angle APD=90{}^\\circ\\)，\n∴菱形\\(APDE\\)是正方形；",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1
+  ],
+  "review_note": "学校原卷未附答案。逐题对照南山外国语集团滨海学校同场整理版的配套详解。",
+  "source": {
+    "paper_body_blocks": [
+      77,
+      81
+    ],
+    "solution_body_blocks": [
+      281,
+      309
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-DEC11E1474/paper-q18-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          405.91,
+          583.18,
+          610.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-DEC11E1474/solution-q18-p15.webp",
+      "assets/SZ-G9-T1-DEC11E1474/solution-q18-p16.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          296.36,
+          583.64,
+          735.45
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          556.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G01.05"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G01.05.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。 本问的运算或证明步骤对应“利用平行线性质求角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

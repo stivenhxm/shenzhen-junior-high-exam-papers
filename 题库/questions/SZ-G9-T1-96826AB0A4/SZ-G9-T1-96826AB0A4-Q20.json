@@ -1,0 +1,441 @@
+{
+  "id": "SZ-G9-T1-96826AB0A4-Q20",
+  "paper_id": "SZ-G9-T1-96826AB0A4",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、将折叠条件转为可计算的几何关系",
+  "stem": "有公共顶点\\(A\\)的正方形\\(ABCD\\)与正方形\\(AEGF\\)按如图\\(1\\)所示放置，点\\(E，F\\)分别在边\\(AB\\)和\\(AD\\)上，连接\\(DE，BF\\)，点\\(M\\)是\\(BF\\)的中点，连接\\(AM\\)交\\(ED\\)于点\\(N\\)．\n〔图1〕\n【观察猜想】\n（1）线段\\(DE\\)与\\(AM\\)之间的数量关系是_____，位置关系是______；\n【探究证明】\n（2）将图\\(1\\)中的正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，线段\\(DE\\)与\\(AM\\)之间的数量关系和位置关系是否仍然成立?并说明理由.\n（3）若正方形\\(ABCD\\)的边长为\\(m\\)，将其沿\\(EF\\)翻折，点\\(D\\)的对应点\\(G\\)恰好落在\\(BC\\)边上，\\(DG+DH\\)有最小值吗?有的话求出最小值，没有的话请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-96826AB0A4/figures/2a5fcddc6c823c97a2aece4e32599cdf9c44c87286431a66be21140cd4685ef3.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(DE=2AM\\)，\\(DE\\bot AM\\)；（2）成立，理由见解析；（3）有最小值，最小值为\\(\\sqrt[] { 5 }m\\)",
+  "answer": "（1）\\(DE=2AM\\)，\\(DE\\bot AM\\)；（2）成立，理由见解析；（3）有最小值，最小值为\\(\\sqrt[] { 5 }m\\)",
+  "given_solution": "【分析】（1）先证明\\(\\vartriangle DAE≌\\vartriangle BAF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得出\\(DE=BF\\)，\\(\\angle ADE=\\angle ABF\\)，再根据直角三角形中斜边上的中线等于斜边的一半，得出\\(AM=BM=\\frac { 1 } { 2 }BF\\)，则\\(DE=2AM\\)，根据再根据等腰三角形的性质可得\\(\\angle MAB=\\angle ADE\\)，故\\(\\angle MAB+\\angle AEN=\\angle ADE+\\angle AEN=90{}^\\circ\\)，即可求出\\(DE\\bot AM\\)．\n（2）延长\\(AM\\)到点\\(H\\)，使\\(HM=AM\\)，连接\\(BH\\)，则\\(AH=2AM\\)，先证明\\(\\vartriangle HMB≌\\vartriangle AMF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\\(\\vartriangle ABH≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，类比（1）中所用的方法可证得结论．\n（3）延长\\(DC\\)到点\\(K\\)，使\\(CK=CD\\)，连接\\(AK\\)交\\(BC\\)于点\\(L\\)，连接\\(KG\\)、\\(GA\\)，将\\(DG+DH\\)转化为\\(KG+GA\\)，可求出\\(DG+DH\\)的最小值．\n【详解】解：（1）∵四边形\\(ABCD\\)和四边形\\(AEGF\\)都是正方形，\n∴\\(AD=AB\\)，\\(AE=AF\\)，\\(\\angle DAE=\\angle BAF=90{}^\\circ\\)，\n∵\\(\\vartriangle DAE≌\\vartriangle BAF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=BF\\)，\\(\\angle ADE=\\angle ABF\\)，\n∵点\\(M\\)是\\(BF\\)的中点，\\(\\angle BAF=90{}^\\circ\\)\n∴\\(AM=BM=\\frac { 1 } { 2 }BF\\)，\n∴\\(BF=2AM\\)，\n∴\\(DE=2AM\\).，\n∵\\(AM=BM\\),\n∴\\(\\angle MAB=\\angle ABF\\)，\n∴\\(\\angle MAB=\\angle ADE\\)，\n∴\\(\\angle MAB+\\angle AEN=\\angle ADE+\\angle AEN=90{}^\\circ\\)，\n∴\\(\\angle ANE=90{}^\\circ\\)，\n∴\\(DE\\bot AM\\)，\n故答案为\\(DE=2AM\\)，\\(DE\\bot AM\\)．\n（2）成立．\n理由如下：如图，延长\\(AM\\)到点\\(H\\)，使\\(HM=AM\\)，连接\\(BH\\)，则\\(AH=2AM\\)，\n〔图2〕\n又∵\\(\\angle BMH=\\angle FMA\\)，\\(BM=FM\\)，\n∴\\(\\vartriangle HMB≌\\vartriangle AMF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle MBH=\\angle MFA\\)，\\(BH=AF=AE\\)，\n∴\\(BH\\parallel AF\\)，\n∵\\(AF=GF\\)，\\(\\angle AFG=90{}^\\circ\\)，正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，\n∴\\(\\angle FAG=\\angle FGA=45{}^\\circ\\)，\n∴\\(\\angle ABH=180{}^\\circ -\\angle H-\\angle BAM=180{}^\\circ -\\angle FAG=135{}^\\circ\\)，\n同理\\(\\angle EAG=\\angle EGA=45{}^\\circ\\)，\n∴\\(\\angle DAE=45{}^\\circ +90{}^\\circ =135{}^\\circ\\)，\n∴\\(\\angle ABH=\\angle DAE\\)，\n∵\\(AB=DA\\)，\\(BH=AF=AE\\)，\n∴\\(\\vartriangle ABH≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=AH=2AM\\)，\n∴\\(\\angle BAH=\\angle ADE\\)，\n∴\\(\\angle ADE+\\angle DAN=\\angle BAH+\\angle DAN=\\angle BAD=90{}^\\circ\\)，\n∴\\(\\angle AND=90{}^\\circ\\)，\n∴\\(DE\\bot AM\\)，\n∴线段\\(DE\\)与\\(AM\\)之间的数量关系\\(DE=2AM\\)和位置关系\\(DE\\bot AM\\)仍然成立．\n（3）如图，延长\\(DC\\)到点\\(K\\)，使\\(CK=CD\\)，连接\\(AK\\)交\\(BC\\)于点\\(L\\)，连接\\(KG\\)、\\(GA\\)，\n〔图3〕\n∵\\(\\angle BCD=90{}^\\circ\\)，\n∴\\(BC\\bot DK\\)，\n∴\\(BC\\)垂直平分\\(DK\\)，\n∵\\(G\\)在线段\\(BC\\)上，\n∴\\(KG=DG\\)，\n由翻折的性质可得\\(AD=HG\\)，\\(\\angle ADG=\\angle HGD\\)，\n∵\\(DG=GD\\)，\n∴\\(\\vartriangle ADG≌\\vartriangle HGD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AG=HD\\)，\n∴\\(DG+DH=KG+GA\\)，\n∵\\(KG+GA\\ge AK\\)，\n∴\\(DG+DH\\ge AK\\)，\n当点\\(G\\)与点\\(L\\)重合时，\\(KG+GA=AK\\)，此时\\(KG+GA\\)的值最小，\n∴\\(DG+DH=AK\\)的值也最小，\n∵\\(\\angle ADK=90{}^\\circ\\)，\\(AD=m\\)，\n∴\\(DK=2CD=2m\\)，\n∴\\(AK=\\sqrt[] { AD ^ { 2 } +DK ^ { 2 } }=\\sqrt[] { 5 }m\\)，\n∴\\(DG+DH\\)的最小值为\\(\\sqrt[] { 5 }m\\)．\n【点睛】此题重点考查正方形的性质、全等三角形的判定与性质、直角三角形斜边上的中线等于斜边的一半、旋转的性质、轴对称的性质、勾股定理等知识，解题的关键是作辅助线构造全等三角形、直角三角形．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-96826AB0A4/figures/38c8b2a77177a137f0233f512ed233876c130f2fa1812b9e017f05f28b6df38c.png",
+    "assets/SZ-G9-T1-96826AB0A4/figures/ef01ed33270cc665189cb093eed8844e5e91804b89716ec21f700aa630600056.png",
+    "assets/SZ-G9-T1-96826AB0A4/figures/7eb97bc557efecc691c4c1226f22f6589ae34fa2124eeb75e2fcd35eae42ae9e.png"
+  ],
+  "solution": "解：（1）∵四边形\\(ABCD\\)和四边形\\(AEGF\\)都是正方形，\n∴\\(AD=AB\\)，\\(AE=AF\\)，\\(\\angle DAE=\\angle BAF=90{}^\\circ\\)，\n∵\\(\\vartriangle DAE≌\\vartriangle BAF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=BF\\)，\\(\\angle ADE=\\angle ABF\\)，\n∵点\\(M\\)是\\(BF\\)的中点，\\(\\angle BAF=90{}^\\circ\\)\n∴\\(AM=BM=\\frac { 1 } { 2 }BF\\)，\n∴\\(BF=2AM\\)，\n∴\\(DE=2AM\\).，\n∵\\(AM=BM\\),\n∴\\(\\angle MAB=\\angle ABF\\)，\n∴\\(\\angle MAB=\\angle ADE\\)，\n∴\\(\\angle MAB+\\angle AEN=\\angle ADE+\\angle AEN=90{}^\\circ\\)，\n∴\\(\\angle ANE=90{}^\\circ\\)，\n∴\\(DE\\bot AM\\)，\n故答案为\\(DE=2AM\\)，\\(DE\\bot AM\\)．\n（2）成立．\n理由如下：如图，延长\\(AM\\)到点\\(H\\)，使\\(HM=AM\\)，连接\\(BH\\)，则\\(AH=2AM\\)，\n〔图2〕\n又∵\\(\\angle BMH=\\angle FMA\\)，\\(BM=FM\\)，\n∴\\(\\vartriangle HMB≌\\vartriangle AMF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle MBH=\\angle MFA\\)，\\(BH=AF=AE\\)，\n∴\\(BH\\parallel AF\\)，\n∵\\(AF=GF\\)，\\(\\angle AFG=90{}^\\circ\\)，正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，\n∴\\(\\angle FAG=\\angle FGA=45{}^\\circ\\)，\n∴\\(\\angle ABH=180{}^\\circ -\\angle H-\\angle BAM=180{}^\\circ -\\angle FAG=135{}^\\circ\\)，\n同理\\(\\angle EAG=\\angle EGA=45{}^\\circ\\)，\n∴\\(\\angle DAE=45{}^\\circ +90{}^\\circ =135{}^\\circ\\)，\n∴\\(\\angle ABH=\\angle DAE\\)，\n∵\\(AB=DA\\)，\\(BH=AF=AE\\)，\n∴\\(\\vartriangle ABH≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=AH=2AM\\)，\n∴\\(\\angle BAH=\\angle ADE\\)，\n∴\\(\\angle ADE+\\angle DAN=\\angle BAH+\\angle DAN=\\angle BAD=90{}^\\circ\\)，\n∴\\(\\angle AND=90{}^\\circ\\)，\n∴\\(DE\\bot AM\\)，\n∴线段\\(DE\\)与\\(AM\\)之间的数量关系\\(DE=2AM\\)和位置关系\\(DE\\bot AM\\)仍然成立．\n（3）如图，延长\\(DC\\)到点\\(K\\)，使\\(CK=CD\\)，连接\\(AK\\)交\\(BC\\)于点\\(L\\)，连接\\(KG\\)、\\(GA\\)，\n〔图3〕\n∵\\(\\angle BCD=90{}^\\circ\\)，\n∴\\(BC\\bot DK\\)，\n∴\\(BC\\)垂直平分\\(DK\\)，\n∵\\(G\\)在线段\\(BC\\)上，\n∴\\(KG=DG\\)，\n由翻折的性质可得\\(AD=HG\\)，\\(\\angle ADG=\\angle HGD\\)，\n∵\\(DG=GD\\)，\n∴\\(\\vartriangle ADG≌\\vartriangle HGD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AG=HD\\)，\n∴\\(DG+DH=KG+GA\\)，\n∵\\(KG+GA\\ge AK\\)，\n∴\\(DG+DH\\ge AK\\)，\n当点\\(G\\)与点\\(L\\)重合时，\\(KG+GA=AK\\)，此时\\(KG+GA\\)的值最小，\n∴\\(DG+DH=AK\\)的值也最小，\n∵\\(\\angle ADK=90{}^\\circ\\)，\\(AD=m\\)，\n∴\\(DK=2CD=2m\\)，\n∴\\(AK=\\sqrt[] { AD ^ { 2 } +DK ^ { 2 } }=\\sqrt[] { 5 }m\\)，\n∴\\(DG+DH\\)的最小值为\\(\\sqrt[] { 5 }m\\)．",
+  "solution_steps": [
+    "解：（1）∵四边形\\(ABCD\\)和四边形\\(AEGF\\)都是正方形，",
+    "∴\\(AD=AB\\)，\\(AE=AF\\)，\\(\\angle DAE=\\angle BAF=90{}^\\circ\\)，",
+    "∵\\(\\vartriangle DAE≌\\vartriangle BAF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(DE=BF\\)，\\(\\angle ADE=\\angle ABF\\)，",
+    "∵点\\(M\\)是\\(BF\\)的中点，\\(\\angle BAF=90{}^\\circ\\)",
+    "∴\\(AM=BM=\\frac { 1 } { 2 }BF\\)，",
+    "∴\\(BF=2AM\\)，",
+    "∴\\(DE=2AM\\).，",
+    "∵\\(AM=BM\\),",
+    "∴\\(\\angle MAB=\\angle ABF\\)，",
+    "∴\\(\\angle MAB=\\angle ADE\\)，",
+    "∴\\(\\angle MAB+\\angle AEN=\\angle ADE+\\angle AEN=90{}^\\circ\\)，",
+    "∴\\(\\angle ANE=90{}^\\circ\\)，",
+    "∴\\(DE\\bot AM\\)，",
+    "故答案为\\(DE=2AM\\)，\\(DE\\bot AM\\)．",
+    "（2）成立．",
+    "理由如下：如图，延长\\(AM\\)到点\\(H\\)，使\\(HM=AM\\)，连接\\(BH\\)，则\\(AH=2AM\\)，",
+    "〔图2〕",
+    "又∵\\(\\angle BMH=\\angle FMA\\)，\\(BM=FM\\)，",
+    "∴\\(\\vartriangle HMB≌\\vartriangle AMF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(\\angle MBH=\\angle MFA\\)，\\(BH=AF=AE\\)，",
+    "∴\\(BH\\parallel AF\\)，",
+    "∵\\(AF=GF\\)，\\(\\angle AFG=90{}^\\circ\\)，正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，",
+    "∴\\(\\angle FAG=\\angle FGA=45{}^\\circ\\)，",
+    "∴\\(\\angle ABH=180{}^\\circ -\\angle H-\\angle BAM=180{}^\\circ -\\angle FAG=135{}^\\circ\\)，",
+    "同理\\(\\angle EAG=\\angle EGA=45{}^\\circ\\)，",
+    "∴\\(\\angle DAE=45{}^\\circ +90{}^\\circ =135{}^\\circ\\)，",
+    "∴\\(\\angle ABH=\\angle DAE\\)，",
+    "∵\\(AB=DA\\)，\\(BH=AF=AE\\)，",
+    "∴\\(\\vartriangle ABH≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(DE=AH=2AM\\)，",
+    "∴\\(\\angle BAH=\\angle ADE\\)，",
+    "∴\\(\\angle ADE+\\angle DAN=\\angle BAH+\\angle DAN=\\angle BAD=90{}^\\circ\\)，",
+    "∴\\(\\angle AND=90{}^\\circ\\)，",
+    "∴\\(DE\\bot AM\\)，",
+    "∴线段\\(DE\\)与\\(AM\\)之间的数量关系\\(DE=2AM\\)和位置关系\\(DE\\bot AM\\)仍然成立．",
+    "（3）如图，延长\\(DC\\)到点\\(K\\)，使\\(CK=CD\\)，连接\\(AK\\)交\\(BC\\)于点\\(L\\)，连接\\(KG\\)、\\(GA\\)，",
+    "〔图3〕",
+    "∵\\(\\angle BCD=90{}^\\circ\\)，",
+    "∴\\(BC\\bot DK\\)，",
+    "∴\\(BC\\)垂直平分\\(DK\\)，",
+    "∵\\(G\\)在线段\\(BC\\)上，",
+    "∴\\(KG=DG\\)，",
+    "由翻折的性质可得\\(AD=HG\\)，\\(\\angle ADG=\\angle HGD\\)，",
+    "∵\\(DG=GD\\)，",
+    "∴\\(\\vartriangle ADG≌\\vartriangle HGD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AG=HD\\)，",
+    "∴\\(DG+DH=KG+GA\\)，",
+    "∵\\(KG+GA\\ge AK\\)，",
+    "∴\\(DG+DH\\ge AK\\)，",
+    "当点\\(G\\)与点\\(L\\)重合时，\\(KG+GA=AK\\)，此时\\(KG+GA\\)的值最小，",
+    "∴\\(DG+DH=AK\\)的值也最小，",
+    "∵\\(\\angle ADK=90{}^\\circ\\)，\\(AD=m\\)，",
+    "∴\\(DK=2CD=2m\\)，",
+    "∴\\(AK=\\sqrt[] { AD ^ { 2 } +DK ^ { 2 } }=\\sqrt[] { 5 }m\\)，",
+    "∴\\(DG+DH\\)的最小值为\\(\\sqrt[] { 5 }m\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "有公共顶点\\(A\\)的正方形\\(ABCD\\)与正方形\\(AEGF\\)按如图\\(1\\)所示放置，点\\(E，F\\)分别在边\\(AB\\)和\\(AD\\)上，连接\\(DE，BF\\)，点\\(M\\)是\\(BF\\)的中点，连接\\(AM\\)交\\(ED\\)于点\\(N\\)．\n〔图1〕\n【观察猜想】",
+      "paper_blocks": [
+        59,
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-96826AB0A4-Q20-P01",
+      "label": "（1）",
+      "prompt": "线段\\(DE\\)与\\(AM\\)之间的数量关系是_____，位置关系是______；\n【探究证明】",
+      "stem_text": "线段\\(DE\\)与\\(AM\\)之间的数量关系是_____，位置关系是______；\n【探究证明】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE=2AM\\)，\\(DE\\bot AM\\)；",
+      "answer": "\\(DE=2AM\\)，\\(DE\\bot AM\\)；",
+      "given_solution": "∵四边形\\(ABCD\\)和四边形\\(AEGF\\)都是正方形，\n∴\\(AD=AB\\)，\\(AE=AF\\)，\\(\\angle DAE=\\angle BAF=90{}^\\circ\\)，\n∵\\(\\vartriangle DAE≌\\vartriangle BAF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=BF\\)，\\(\\angle ADE=\\angle ABF\\)，\n∵点\\(M\\)是\\(BF\\)的中点，\\(\\angle BAF=90{}^\\circ\\)\n∴\\(AM=BM=\\frac { 1 } { 2 }BF\\)，\n∴\\(BF=2AM\\)，\n∴\\(DE=2AM\\).，\n∵\\(AM=BM\\),\n∴\\(\\angle MAB=\\angle ABF\\)，\n∴\\(\\angle MAB=\\angle ADE\\)，\n∴\\(\\angle MAB+\\angle AEN=\\angle ADE+\\angle AEN=90{}^\\circ\\)，\n∴\\(\\angle ANE=90{}^\\circ\\)，\n∴\\(DE\\bot AM\\)，\n故答案为\\(DE=2AM\\)，\\(DE\\bot AM\\)．",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)和四边形\\(AEGF\\)都是正方形，",
+        "∴\\(AD=AB\\)，\\(AE=AF\\)，\\(\\angle DAE=\\angle BAF=90{}^\\circ\\)，",
+        "∵\\(\\vartriangle DAE≌\\vartriangle BAF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(DE=BF\\)，\\(\\angle ADE=\\angle ABF\\)，",
+        "∵点\\(M\\)是\\(BF\\)的中点，\\(\\angle BAF=90{}^\\circ\\)",
+        "∴\\(AM=BM=\\frac { 1 } { 2 }BF\\)，",
+        "∴\\(BF=2AM\\)，",
+        "∴\\(DE=2AM\\).，",
+        "∵\\(AM=BM\\),",
+        "∴\\(\\angle MAB=\\angle ABF\\)，",
+        "∴\\(\\angle MAB=\\angle ADE\\)，",
+        "∴\\(\\angle MAB+\\angle AEN=\\angle ADE+\\angle AEN=90{}^\\circ\\)，",
+        "∴\\(\\angle ANE=90{}^\\circ\\)，",
+        "∴\\(DE\\bot AM\\)，",
+        "故答案为\\(DE=2AM\\)，\\(DE\\bot AM\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          62,
+          63
+        ],
+        "solution_block_ids": [
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          15,
+          16
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-96826AB0A4-Q20-P02",
+      "label": "（2）",
+      "prompt": "将图\\(1\\)中的正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，线段\\(DE\\)与\\(AM\\)之间的数量关系和位置关系是否仍然成立?并说明理由.",
+      "stem_text": "将图\\(1\\)中的正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，线段\\(DE\\)与\\(AM\\)之间的数量关系和位置关系是否仍然成立?并说明理由.",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "成立，理由见解析；",
+      "answer": "成立，理由见解析；",
+      "given_solution": "成立．\n理由如下：如图，延长\\(AM\\)到点\\(H\\)，使\\(HM=AM\\)，连接\\(BH\\)，则\\(AH=2AM\\)，\n〔图2〕\n又∵\\(\\angle BMH=\\angle FMA\\)，\\(BM=FM\\)，\n∴\\(\\vartriangle HMB≌\\vartriangle AMF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(\\angle MBH=\\angle MFA\\)，\\(BH=AF=AE\\)，\n∴\\(BH\\parallel AF\\)，\n∵\\(AF=GF\\)，\\(\\angle AFG=90{}^\\circ\\)，正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，\n∴\\(\\angle FAG=\\angle FGA=45{}^\\circ\\)，\n∴\\(\\angle ABH=180{}^\\circ -\\angle H-\\angle BAM=180{}^\\circ -\\angle FAG=135{}^\\circ\\)，\n同理\\(\\angle EAG=\\angle EGA=45{}^\\circ\\)，\n∴\\(\\angle DAE=45{}^\\circ +90{}^\\circ =135{}^\\circ\\)，\n∴\\(\\angle ABH=\\angle DAE\\)，\n∵\\(AB=DA\\)，\\(BH=AF=AE\\)，\n∴\\(\\vartriangle ABH≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(DE=AH=2AM\\)，\n∴\\(\\angle BAH=\\angle ADE\\)，\n∴\\(\\angle ADE+\\angle DAN=\\angle BAH+\\angle DAN=\\angle BAD=90{}^\\circ\\)，\n∴\\(\\angle AND=90{}^\\circ\\)，\n∴\\(DE\\bot AM\\)，\n∴线段\\(DE\\)与\\(AM\\)之间的数量关系\\(DE=2AM\\)和位置关系\\(DE\\bot AM\\)仍然成立．",
+      "solution_steps": [
+        "成立．",
+        "理由如下：如图，延长\\(AM\\)到点\\(H\\)，使\\(HM=AM\\)，连接\\(BH\\)，则\\(AH=2AM\\)，",
+        "〔图2〕",
+        "又∵\\(\\angle BMH=\\angle FMA\\)，\\(BM=FM\\)，",
+        "∴\\(\\vartriangle HMB≌\\vartriangle AMF\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(\\angle MBH=\\angle MFA\\)，\\(BH=AF=AE\\)，",
+        "∴\\(BH\\parallel AF\\)，",
+        "∵\\(AF=GF\\)，\\(\\angle AFG=90{}^\\circ\\)，正方形\\(AEGF\\)绕点\\(A\\)顺时针旋转\\(45{}^\\circ\\)，",
+        "∴\\(\\angle FAG=\\angle FGA=45{}^\\circ\\)，",
+        "∴\\(\\angle ABH=180{}^\\circ -\\angle H-\\angle BAM=180{}^\\circ -\\angle FAG=135{}^\\circ\\)，",
+        "同理\\(\\angle EAG=\\angle EGA=45{}^\\circ\\)，",
+        "∴\\(\\angle DAE=45{}^\\circ +90{}^\\circ =135{}^\\circ\\)，",
+        "∴\\(\\angle ABH=\\angle DAE\\)，",
+        "∵\\(AB=DA\\)，\\(BH=AF=AE\\)，",
+        "∴\\(\\vartriangle ABH≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(DE=AH=2AM\\)，",
+        "∴\\(\\angle BAH=\\angle ADE\\)，",
+        "∴\\(\\angle ADE+\\angle DAN=\\angle BAH+\\angle DAN=\\angle BAD=90{}^\\circ\\)，",
+        "∴\\(\\angle AND=90{}^\\circ\\)，",
+        "∴\\(DE\\bot AM\\)，",
+        "∴线段\\(DE\\)与\\(AM\\)之间的数量关系\\(DE=2AM\\)和位置关系\\(DE\\bot AM\\)仍然成立．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          64
+        ],
+        "solution_block_ids": [
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-96826AB0A4-Q20-P03",
+      "label": "（3）",
+      "prompt": "若正方形\\(ABCD\\)的边长为\\(m\\)，将其沿\\(EF\\)翻折，点\\(D\\)的对应点\\(G\\)恰好落在\\(BC\\)边上，\\(DG+DH\\)有最小值吗?有的话求出最小值，没有的话请说明理由．",
+      "stem_text": "若正方形\\(ABCD\\)的边长为\\(m\\)，将其沿\\(EF\\)翻折，点\\(D\\)的对应点\\(G\\)恰好落在\\(BC\\)边上，\\(DG+DH\\)有最小值吗?有的话求出最小值，没有的话请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "有最小值，最小值为\\(\\sqrt[] { 5 }m\\)",
+      "answer": "有最小值，最小值为\\(\\sqrt[] { 5 }m\\)",
+      "given_solution": "如图，延长\\(DC\\)到点\\(K\\)，使\\(CK=CD\\)，连接\\(AK\\)交\\(BC\\)于点\\(L\\)，连接\\(KG\\)、\\(GA\\)，\n〔图3〕\n∵\\(\\angle BCD=90{}^\\circ\\)，\n∴\\(BC\\bot DK\\)，\n∴\\(BC\\)垂直平分\\(DK\\)，\n∵\\(G\\)在线段\\(BC\\)上，\n∴\\(KG=DG\\)，\n由翻折的性质可得\\(AD=HG\\)，\\(\\angle ADG=\\angle HGD\\)，\n∵\\(DG=GD\\)，\n∴\\(\\vartriangle ADG≌\\vartriangle HGD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AG=HD\\)，\n∴\\(DG+DH=KG+GA\\)，\n∵\\(KG+GA\\ge AK\\)，\n∴\\(DG+DH\\ge AK\\)，\n当点\\(G\\)与点\\(L\\)重合时，\\(KG+GA=AK\\)，此时\\(KG+GA\\)的值最小，\n∴\\(DG+DH=AK\\)的值也最小，\n∵\\(\\angle ADK=90{}^\\circ\\)，\\(AD=m\\)，\n∴\\(DK=2CD=2m\\)，\n∴\\(AK=\\sqrt[] { AD ^ { 2 } +DK ^ { 2 } }=\\sqrt[] { 5 }m\\)，\n∴\\(DG+DH\\)的最小值为\\(\\sqrt[] { 5 }m\\)．",
+      "solution_steps": [
+        "如图，延长\\(DC\\)到点\\(K\\)，使\\(CK=CD\\)，连接\\(AK\\)交\\(BC\\)于点\\(L\\)，连接\\(KG\\)、\\(GA\\)，",
+        "〔图3〕",
+        "∵\\(\\angle BCD=90{}^\\circ\\)，",
+        "∴\\(BC\\bot DK\\)，",
+        "∴\\(BC\\)垂直平分\\(DK\\)，",
+        "∵\\(G\\)在线段\\(BC\\)上，",
+        "∴\\(KG=DG\\)，",
+        "由翻折的性质可得\\(AD=HG\\)，\\(\\angle ADG=\\angle HGD\\)，",
+        "∵\\(DG=GD\\)，",
+        "∴\\(\\vartriangle ADG≌\\vartriangle HGD\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AG=HD\\)，",
+        "∴\\(DG+DH=KG+GA\\)，",
+        "∵\\(KG+GA\\ge AK\\)，",
+        "∴\\(DG+DH\\ge AK\\)，",
+        "当点\\(G\\)与点\\(L\\)重合时，\\(KG+GA=AK\\)，此时\\(KG+GA\\)的值最小，",
+        "∴\\(DG+DH=AK\\)的值也最小，",
+        "∵\\(\\angle ADK=90{}^\\circ\\)，\\(AD=m\\)，",
+        "∴\\(DK=2CD=2m\\)，",
+        "∴\\(AK=\\sqrt[] { AD ^ { 2 } +DK ^ { 2 } }=\\sqrt[] { 5 }m\\)，",
+        "∴\\(DG+DH\\)的最小值为\\(\\sqrt[] { 5 }m\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          65
+        ],
+        "solution_block_ids": [
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01"
+      ],
+      "exam_ids": [
+        "E.G07.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "题面对应“将折叠条件转为可计算的几何关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      65
+    ],
+    "solution_body_blocks": [
+      290,
+      358
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-96826AB0A4/paper-q20-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          400.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17,
+      18
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-96826AB0A4/solution-q20-p15.webp",
+      "assets/SZ-G9-T1-96826AB0A4/solution-q20-p16.webp",
+      "assets/SZ-G9-T1-96826AB0A4/solution-q20-p17.webp",
+      "assets/SZ-G9-T1-96826AB0A4/solution-q20-p18.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          340.45,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          196.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G07.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G07.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 题面对应“将折叠条件转为可计算的几何关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

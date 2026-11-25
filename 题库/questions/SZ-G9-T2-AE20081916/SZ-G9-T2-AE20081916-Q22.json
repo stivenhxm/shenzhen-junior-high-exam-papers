@@ -1,0 +1,317 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-AE20081916-Q22",
+  "number": 22,
+  "paper_id": "SZ-G9-T2-AE20081916",
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "综合与实践\n如图1，在\\(\\vartriangle ABC\\)中，\\(BD\\)是\\(\\angle ABC\\)的平分线，\\(BD\\)的延长线交外角\\(\\angle CAM\\)的平分线于点\\(E\\)．\n【发现结论】\n结论1：\\(\\angle AEB=\\)___________\\(\\angle ACB\\)；\n结论2：当图1中\\(\\angle ACB=90{}^\\circ\\)时，如图2所示，延长\\(BC\\)交\\(AE\\)于点\\(F\\)，过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，交\\(AC\\)的延长线于点\\(H\\)．则\\(AE\\)与\\(EG\\)的数量关系是___________．\n【应用结论】\n（1）求证：\\(AH=GF\\)；\n（2）在图2中连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，补全图形，求证：\\(FN=NH+\\sqrt[] { 2 }AE\\)．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与实践\n如图1，在\\(\\vartriangle ABC\\)中，\\(BD\\)是\\(\\angle ABC\\)的平分线，\\(BD\\)的延长线交外角\\(\\angle CAM\\)的平分线于点\\(E\\)．\n【发现结论】\n结论1：\\(\\angle AEB=\\)___________\\(\\angle ACB\\)；\n结论2：当图1中\\(\\angle ACB=90{}^\\circ\\)时，如图2所示，延长\\(BC\\)交\\(AE\\)于点\\(F\\)，过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，交\\(AC\\)的延长线于点\\(H\\)．则\\(AE\\)与\\(EG\\)的数量关系是___________．\n【应用结论】",
+      "paper_blocks": [
+        710,
+        720,
+        730,
+        740,
+        750,
+        760
+      ]
+    },
+    {
+      "id": "fig-790",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        790
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-AE20081916-Q22-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(AH=GF\\)；",
+      "stem_text": "求证：\\(AH=GF\\)；",
+      "material_ids": [
+        "context",
+        "fig-790"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle AEH=\\angle GEF=90{}^\\circ\\)，\n∴\\(\\angle AHE+\\angle EAH=90{}^\\circ\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle GFE+EAH=90{}^\\circ\\)，\n∴\\(\\angle AHE=\\angle GFE\\)，\n又∵由结论2得：\\(AE=EG\\)，\n∴在\\(\\vartriangle AEH\\)和\\(\\vartriangle GEF\\)中，\n\\(\\begin{cases} \\angle AEH=\\angle GEF \\\\ \\angle AHE=\\angle GFE \\\\ AE=EG \\end{cases}\\)\n∴\\(\\vartriangle AEH≌\\vartriangle GEF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AH=GF\\)；",
+      "solution_steps": [
+        "证明：∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，",
+        "∴\\(\\angle AEH=\\angle GEF=90{}^\\circ\\)，",
+        "∴\\(\\angle AHE+\\angle EAH=90{}^\\circ\\)，",
+        "∵\\(\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle GFE+EAH=90{}^\\circ\\)，",
+        "∴\\(\\angle AHE=\\angle GFE\\)，",
+        "又∵由结论2得：\\(AE=EG\\)，",
+        "∴在\\(\\vartriangle AEH\\)和\\(\\vartriangle GEF\\)中，",
+        "\\(\\begin{cases} \\angle AEH=\\angle GEF \\\\ \\angle AHE=\\angle GFE \\\\ AE=EG \\end{cases}\\)",
+        "∴\\(\\vartriangle AEH≌\\vartriangle GEF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AH=GF\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          710,
+          720,
+          730,
+          740,
+          750,
+          760,
+          770,
+          790
+        ],
+        "solution_block_ids": [
+          2440,
+          2450,
+          2460,
+          2470,
+          2480,
+          2490,
+          2500,
+          2510,
+          2520,
+          2530,
+          2540
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-AE20081916-Q22-P02",
+      "label": "（2）",
+      "prompt": "在图2中连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，补全图形，求证：\\(FN=NH+\\sqrt[] { 2 }AE\\)．",
+      "stem_text": "在图2中连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，补全图形，求证：\\(FN=NH+\\sqrt[] { 2 }AE\\)．",
+      "material_ids": [
+        "context",
+        "fig-790"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：如图，连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，\n〔图1〕\n∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle AEG=\\angle FEH=90{}^\\circ\\)，\n∵由结论2得：\\(AE=EG\\)，由（1）过程得：\\(\\vartriangle AEH≌\\vartriangle GEF\\)，\n∴\\(\\angle EAG=\\angle EGA=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\\(AG=\\sqrt[] { AE ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { 2 }AE\\)，\\(EH=EF\\)，\n∴\\(\\angle NGH=\\angle EGA=45{}^\\circ\\)，\\(\\angle EFH=\\angle EHF=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\n∴\\(\\angle AFN=\\angle FAN=45{}^\\circ\\)，\\(\\angle NGH=\\angle NHG=45{}^\\circ\\)，\n∴\\(FN=AN=NG+AG\\)，\\(NH=NG\\)，\n∴\\(FN=NH+\\sqrt[] { 2 }AE\\)．",
+      "solution_steps": [
+        "证明：如图，连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，",
+        "〔图1〕",
+        "∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，",
+        "∴\\(\\angle AEG=\\angle FEH=90{}^\\circ\\)，",
+        "∵由结论2得：\\(AE=EG\\)，由（1）过程得：\\(\\vartriangle AEH≌\\vartriangle GEF\\)，",
+        "∴\\(\\angle EAG=\\angle EGA=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\\(AG=\\sqrt[] { AE ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { 2 }AE\\)，\\(EH=EF\\)，",
+        "∴\\(\\angle NGH=\\angle EGA=45{}^\\circ\\)，\\(\\angle EFH=\\angle EHF=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，",
+        "∴\\(\\angle AFN=\\angle FAN=45{}^\\circ\\)，\\(\\angle NGH=\\angle NHG=45{}^\\circ\\)，",
+        "∴\\(FN=AN=NG+AG\\)，\\(NH=NG\\)，",
+        "∴\\(FN=NH+\\sqrt[] { 2 }AE\\)．"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          710,
+          720,
+          730,
+          740,
+          750,
+          760,
+          780,
+          790
+        ],
+        "solution_block_ids": [
+          2550,
+          2560,
+          2570,
+          2580,
+          2590,
+          2600,
+          2610,
+          2620,
+          2630,
+          2640
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/c4/c4d3e4df960a1892fbd454b837d316bff65e7a735933908e9ec85ad7a01f211e.png"
+  ],
+  "tables": [],
+  "answer": "【发现结论】结论1：\\(\\frac { 1 } { 2 }\\)；结论2：相等（或\\(AE=EG\\)）；【应用结论】（1）见解析；（2）见解析",
+  "given_answer": "【发现结论】结论1：\\(\\frac { 1 } { 2 }\\)；结论2：相等（或\\(AE=EG\\)）；【应用结论】（1）见解析；（2）见解析",
+  "given_solution": "【分析】本题主要考查了全等三角形的判定与性质、角平分线的定义、三角形外角的性质、等边对等角、等角对等边、勾股定理等知识，熟练掌握知识点推理证明是解题的关键．\n[发现结论]结论1：根据角平分线的定义、三角形外角的性质，推出\\(\\angle AEB=\\angle MAE-\\angle ABE=\\frac { 1 } { 2 }\\angle MAC-\\frac { 1 } { 2 }\\angle ABC\\)， \\(\\angle ACB=\\angle MAC-\\angle ABC\\)，即可得出\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)；\n结论2：根据已知\\(\\angle ACB=90{}^\\circ\\)，和结论1 \\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，得出\\(\\angle AEB=45{}^\\circ\\)，根据角平分线的定义得出\\(\\angle ABE=\\angle GBE\\)，进一步推出\\(\\angle AEB=\\angle GEB\\)，利用\\({ \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } }\\)证明\\(\\vartriangle ABE≌\\vartriangle GBE\\)，即可得出\\(AE=EG\\)；\n[应用结论]（1）根据过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，得出\\(\\angle AEH=\\angle GEF=90{}^\\circ\\)，推出\\(\\angle AHE=\\angle GFE\\)，结合结论2： \\(AE=EG\\)，利用\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle AEH≌\\vartriangle GEF\\)，即可证明\\(AH=GF\\)；\n（2）连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，根据垂线的定义得出\\(\\angle AEG=\\angle FEH=90{}^\\circ\\)，由结论2得：\\(AE=EG\\)，由（1）过程得：\\(\\vartriangle AEH≌\\vartriangle GEF\\)，根据等边对等角、勾股定理、全等三角形的性质，推出\\(\\angle EAG=\\angle EGA=45{}^\\circ\\)，\\(AG=\\sqrt[] { 2 }AE\\)，\\(EH=EF\\)，根据对顶角相等得出 \\(\\angle NGH=\\angle EGA=45{}^\\circ\\)，推出\\(\\angle EFH=\\angle EHF=45{}^\\circ\\)，进一步得出\\(\\angle AFN=\\angle FAN=45{}^\\circ\\)，\\(\\angle NGH=\\angle NHG=45{}^\\circ\\)，根据等角对等边得出\\(FN=AN=NG+AG\\)，\\(NH=NG\\)，即可证明\\(FN=NH+\\sqrt[] { 2 }AE\\)．\n【详解】解：[发现结论]结论1：\n∵\\(BD\\)是\\(\\angle ABC\\)的平分线，\\(BD\\)的延长线交外角\\(\\angle CAM\\)的平分线于点\\(E\\)，\n∴\\(\\angle MAE=\\angle CAE=\\frac { 1 } { 2 }\\angle MAC\\)，\\(\\angle ABE=\\angle CBE=\\frac { 1 } { 2 }\\angle ABC\\)，\n∴\\(\\angle AEB=\\angle MAE-\\angle ABE=\\frac { 1 } { 2 }\\angle MAC-\\frac { 1 } { 2 }\\angle ABC\\)，\n又∵\\(\\angle ACB=\\angle MAC-\\angle ABC\\)，\n∴\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，\n故答案为：\\(\\frac { 1 } { 2 }\\)；\n结论2：\n∵\\(\\angle ACB=90{}^\\circ\\)，由结论1得\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，\n∴\\(\\angle AEB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，\n∵\\(BD\\)是\\(\\angle ABC\\)的平分线，过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle ABE=\\angle GBE\\)，\\(\\angle AEG=90{}^\\circ\\)，\n∴\\(\\angle GEB=\\angle AEG-\\angle AEB=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle AEB=\\angle GEB\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle GBE\\)中，\n\\(\\begin{cases} \\angle ABE=\\angle GBE \\\\ BE=BE \\\\ \\angle AEB=\\angle GEB \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle GBE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=EG\\)，\n故答案为：相等（或\\(AE=EG\\)）；\n[应用结论]（1）证明：∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle AEH=\\angle GEF=90{}^\\circ\\)，\n∴\\(\\angle AHE+\\angle EAH=90{}^\\circ\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle GFE+EAH=90{}^\\circ\\)，\n∴\\(\\angle AHE=\\angle GFE\\)，\n又∵由结论2得：\\(AE=EG\\)，\n∴在\\(\\vartriangle AEH\\)和\\(\\vartriangle GEF\\)中，\n\\(\\begin{cases} \\angle AEH=\\angle GEF \\\\ \\angle AHE=\\angle GFE \\\\ AE=EG \\end{cases}\\)\n∴\\(\\vartriangle AEH≌\\vartriangle GEF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AH=GF\\)；\n（2）证明：如图，连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，\n〔图1〕\n∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle AEG=\\angle FEH=90{}^\\circ\\)，\n∵由结论2得：\\(AE=EG\\)，由（1）过程得：\\(\\vartriangle AEH≌\\vartriangle GEF\\)，\n∴\\(\\angle EAG=\\angle EGA=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\\(AG=\\sqrt[] { AE ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { 2 }AE\\)，\\(EH=EF\\)，\n∴\\(\\angle NGH=\\angle EGA=45{}^\\circ\\)，\\(\\angle EFH=\\angle EHF=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\n∴\\(\\angle AFN=\\angle FAN=45{}^\\circ\\)，\\(\\angle NGH=\\angle NHG=45{}^\\circ\\)，\n∴\\(FN=AN=NG+AG\\)，\\(NH=NG\\)，\n∴\\(FN=NH+\\sqrt[] { 2 }AE\\)．",
+  "given_solution_figures": [
+    "assets/figures/0d/0deca650cc2bfb8a7d757fa0158e98076bf71de85dd5c019f64ef399c0b0e78e.png"
+  ],
+  "solution_steps": [
+    "解：[发现结论]结论1：",
+    "∵\\(BD\\)是\\(\\angle ABC\\)的平分线，\\(BD\\)的延长线交外角\\(\\angle CAM\\)的平分线于点\\(E\\)，",
+    "∴\\(\\angle MAE=\\angle CAE=\\frac { 1 } { 2 }\\angle MAC\\)，\\(\\angle ABE=\\angle CBE=\\frac { 1 } { 2 }\\angle ABC\\)，",
+    "∴\\(\\angle AEB=\\angle MAE-\\angle ABE=\\frac { 1 } { 2 }\\angle MAC-\\frac { 1 } { 2 }\\angle ABC\\)，",
+    "又∵\\(\\angle ACB=\\angle MAC-\\angle ABC\\)，",
+    "∴\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，",
+    "故答案为：\\(\\frac { 1 } { 2 }\\)；",
+    "结论2：",
+    "∵\\(\\angle ACB=90{}^\\circ\\)，由结论1得\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，",
+    "∴\\(\\angle AEB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，",
+    "∵\\(BD\\)是\\(\\angle ABC\\)的平分线，过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，",
+    "∴\\(\\angle ABE=\\angle GBE\\)，\\(\\angle AEG=90{}^\\circ\\)，",
+    "∴\\(\\angle GEB=\\angle AEG-\\angle AEB=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle AEB=\\angle GEB\\)，",
+    "在\\(\\vartriangle ABE\\)和\\(\\vartriangle GBE\\)中，",
+    "\\(\\begin{cases} \\angle ABE=\\angle GBE \\\\ BE=BE \\\\ \\angle AEB=\\angle GEB \\end{cases}\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle GBE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(AE=EG\\)，",
+    "故答案为：相等（或\\(AE=EG\\)）；",
+    "[应用结论]（1）证明：∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，",
+    "∴\\(\\angle AEH=\\angle GEF=90{}^\\circ\\)，",
+    "∴\\(\\angle AHE+\\angle EAH=90{}^\\circ\\)，",
+    "∵\\(\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle GFE+EAH=90{}^\\circ\\)，",
+    "∴\\(\\angle AHE=\\angle GFE\\)，",
+    "又∵由结论2得：\\(AE=EG\\)，",
+    "∴在\\(\\vartriangle AEH\\)和\\(\\vartriangle GEF\\)中，",
+    "\\(\\begin{cases} \\angle AEH=\\angle GEF \\\\ \\angle AHE=\\angle GFE \\\\ AE=EG \\end{cases}\\)",
+    "∴\\(\\vartriangle AEH≌\\vartriangle GEF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AH=GF\\)；",
+    "（2）证明：如图，连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，",
+    "〔图1〕",
+    "∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，",
+    "∴\\(\\angle AEG=\\angle FEH=90{}^\\circ\\)，",
+    "∵由结论2得：\\(AE=EG\\)，由（1）过程得：\\(\\vartriangle AEH≌\\vartriangle GEF\\)，",
+    "∴\\(\\angle EAG=\\angle EGA=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\\(AG=\\sqrt[] { AE ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { 2 }AE\\)，\\(EH=EF\\)，",
+    "∴\\(\\angle NGH=\\angle EGA=45{}^\\circ\\)，\\(\\angle EFH=\\angle EHF=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，",
+    "∴\\(\\angle AFN=\\angle FAN=45{}^\\circ\\)，\\(\\angle NGH=\\angle NHG=45{}^\\circ\\)，",
+    "∴\\(FN=AN=NG+AG\\)，\\(NH=NG\\)，",
+    "∴\\(FN=NH+\\sqrt[] { 2 }AE\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "解：[发现结论]结论1：\n∵\\(BD\\)是\\(\\angle ABC\\)的平分线，\\(BD\\)的延长线交外角\\(\\angle CAM\\)的平分线于点\\(E\\)，\n∴\\(\\angle MAE=\\angle CAE=\\frac { 1 } { 2 }\\angle MAC\\)，\\(\\angle ABE=\\angle CBE=\\frac { 1 } { 2 }\\angle ABC\\)，\n∴\\(\\angle AEB=\\angle MAE-\\angle ABE=\\frac { 1 } { 2 }\\angle MAC-\\frac { 1 } { 2 }\\angle ABC\\)，\n又∵\\(\\angle ACB=\\angle MAC-\\angle ABC\\)，\n∴\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，\n故答案为：\\(\\frac { 1 } { 2 }\\)；\n结论2：\n∵\\(\\angle ACB=90{}^\\circ\\)，由结论1得\\(\\angle AEB=\\frac { 1 } { 2 }\\angle ACB\\)，\n∴\\(\\angle AEB=\\frac { 1 } { 2 }\\times 90{}^\\circ =45{}^\\circ\\)，\n∵\\(BD\\)是\\(\\angle ABC\\)的平分线，过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle ABE=\\angle GBE\\)，\\(\\angle AEG=90{}^\\circ\\)，\n∴\\(\\angle GEB=\\angle AEG-\\angle AEB=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle AEB=\\angle GEB\\)，\n在\\(\\vartriangle ABE\\)和\\(\\vartriangle GBE\\)中，\n\\(\\begin{cases} \\angle ABE=\\angle GBE \\\\ BE=BE \\\\ \\angle AEB=\\angle GEB \\end{cases}\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle GBE\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=EG\\)，\n故答案为：相等（或\\(AE=EG\\)）；\n[应用结论]（1）证明：∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle AEH=\\angle GEF=90{}^\\circ\\)，\n∴\\(\\angle AHE+\\angle EAH=90{}^\\circ\\)，\n∵\\(\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle GFE+EAH=90{}^\\circ\\)，\n∴\\(\\angle AHE=\\angle GFE\\)，\n又∵由结论2得：\\(AE=EG\\)，\n∴在\\(\\vartriangle AEH\\)和\\(\\vartriangle GEF\\)中，\n\\(\\begin{cases} \\angle AEH=\\angle GEF \\\\ \\angle AHE=\\angle GFE \\\\ AE=EG \\end{cases}\\)\n∴\\(\\vartriangle AEH≌\\vartriangle GEF\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AH=GF\\)；\n（2）证明：如图，连接\\(FH\\)，\\(AG\\)，延长\\(AG\\)交\\(FH\\)于点\\(N\\)，\n〔图1〕\n∵过点\\(E\\)作\\(AF\\)的垂线交\\(BF\\)于点\\(G\\)，\n∴\\(\\angle AEG=\\angle FEH=90{}^\\circ\\)，\n∵由结论2得：\\(AE=EG\\)，由（1）过程得：\\(\\vartriangle AEH≌\\vartriangle GEF\\)，\n∴\\(\\angle EAG=\\angle EGA=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\\(AG=\\sqrt[] { AE ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { 2 }AE\\)，\\(EH=EF\\)，\n∴\\(\\angle NGH=\\angle EGA=45{}^\\circ\\)，\\(\\angle EFH=\\angle EHF=\\frac { 180{}^\\circ -90{}^\\circ } { 2 }=45{}^\\circ\\)，\n∴\\(\\angle AFN=\\angle FAN=45{}^\\circ\\)，\\(\\angle NGH=\\angle NHG=45{}^\\circ\\)，\n∴\\(FN=AN=NG+AG\\)，\\(NH=NG\\)，\n∴\\(FN=NH+\\sqrt[] { 2 }AE\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-AE20081916/single/q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          264.31,
+          582.44,
+          575.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      11,
+      12,
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-AE20081916/single/s22-p11.webp",
+      "assets/SZ-G9-T2-AE20081916/single/s22-p12.webp",
+      "assets/SZ-G9-T2-AE20081916/single/s22-p13.webp",
+      "assets/SZ-G9-T2-AE20081916/single/s22-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 11,
+        "bbox_pt": [
+          13,
+          561.18,
+          582.44,
+          741.18
+        ]
+      },
+      {
+        "page": 12,
+        "bbox_pt": [
+          13,
+          74.87,
+          582.44,
+          730.52
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          78.78,
+          582.44,
+          764.0
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          77.91,
+          582.44,
+          138.78
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

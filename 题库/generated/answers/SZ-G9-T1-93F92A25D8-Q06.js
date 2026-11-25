@@ -1,0 +1,1 @@
+globalThis.BankData.put("answers/SZ-G9-T1-93F92A25D8-Q06",{"answer":"C","solution_steps":["\\(x^2+2x+1=(x+1)^2\\)。","将 \\(y=x^2\\) 上各点向左平移 1 个单位，顶点由 \\((0,0)\\) 到 \\((-1,0)\\)，即得新图象。"],"given_answer":"","given_solution":"","solution_origin":"editorial_answer_and_solution","review_note":"原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。","source":{},"solution_figures":[]});

@@ -1,0 +1,490 @@
+{
+  "id": "SZ-G9-T2-2359C8A18C-Q22",
+  "paper_id": "SZ-G9-T2-2359C8A18C",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、将特殊图形条件转为坐标关系",
+  "stem": "如图1，在平面直角坐标系中，四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，点\\(E\\)是\\(OB\\)延长线上一点，\\(M\\)是线段\\(OB\\)上一动点（不包括O、B）作\\(MN\\bot DM\\)，交\\(\\angle CBE\\)的平分线于点\\(N\\)．\n〔图1〕\n（1）①直接写出点\\(B\\)的坐标；\n②求证：\\(MD=MN\\)\n（2）如图2，若\\(M(2,0)\\)，在\\(OD\\)上找一点\\(P\\)，使四边形\\(MNCP\\)是平行四边形，求点P的坐标；\n（3）如图，连接\\(DN\\)交\\(BC\\)于F，连接FM，下列两个结论：①\\(FM\\)的长为定值：②\\(MN\\)平分\\(\\angle FMB\\)，其中只有一个正确，选择并证明．",
+  "choices": [],
+  "figures": [
+    "assets/figures/1f/1f6d80e325e9cb64e35c45f4655b09d70752b5748f349382df93cad88e6d1f14.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(B\\left ( { 0,3 } \\right )\\)②见解析\n（2）\\(P\\left ( { 0,1 } \\right )\\)\n（3）\\(MN\\)平分\\(\\angle FMB\\)正确，证明见解析",
+  "answer": "（1）①\\(B(3,0)\\)②见解析\n（2）\\(P\\left ( { 0,1 } \\right )\\)\n（3）\\(MN\\)平分\\(\\angle FMB\\)正确，证明见解析",
+  "given_solution": "【分析】（1）①由正方形的性质求得点C的坐标；②在\\(OD\\)上取\\(OH=OM\\)，连接\\(HM\\)，只要证明\\(\\vartriangle DHM\\cong \\vartriangle MBN\\)即可．\n（2）作\\(NE\\bot OB\\)于E，只要证明\\(\\vartriangle DMO\\cong \\vartriangle MNE\\)即可求得N点坐标．知道平行四边形的三点坐标，再根据平移的性质即可求得P点坐标．\n（3）在\\(BO\\)延长线上取\\(OA=CF\\)，过\\(M\\)作\\(MP\\bot DN\\)于\\(P\\)，因为\\(\\angle NMB+\\angle CDF=45{}^\\circ\\)，所以只要证明\\(\\angle NMF+\\angle CDF=45{}^\\circ\\)即可解决问题．\n【小问1详解】\n①\\(\\because\\)四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，\n\\(\\therefore\\)\\(B\\left ( { 0,3 } \\right )\\)．\n②证明：如图，在\\(OD\\)上取\\(OH=OM\\)，连接\\(HM\\)，\n〔图2〕\n\\(\\because\\)\\(OD=OB\\)，\\(OH=OM\\)，\n\\(\\therefore\\)\\(HD=HB\\)，\\(\\angle OHM=\\angle OMH\\)，\n\\(\\therefore\\)\\(\\angle DHM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\because\\)\\(NB\\)平分\\(\\angle CBE\\)，\n\\(\\therefore\\)\\(\\angle NBE=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NBM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DHM=\\angle NBM\\)，\n\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO+\\angle NMB=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle HDM+\\angle DMO=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle HDM=\\angle NMB\\)，\n在\\(\\vartriangle DHM\\)和\\(\\vartriangle MBN\\)中，\n\\(\\begin{cases} \\angle HDM=\\angle NME \\\\ DH=MB \\\\ \\angle DHM=\\angle NBM \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DHM\\cong \\vartriangle MBN\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(MD=MN\\)．\n【小问2详解】\n如图，作\\(NE\\bot OB\\)于E\n〔图3〕\n由\\(M(2,0)\\)可知\\(OM=2\\)，\n\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO+\\angle NME=90{}^\\circ\\)，\\(\\angle NME+\\angle MNE=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO=\\angle MNE\\)，\n在\\(\\vartriangle DMO\\)和\\(\\vartriangle MNE\\)中，\n\\(\\begin{cases} \\angle DOM=\\angle NEM=90{}^\\circ \\\\ MD=MN \\\\ \\angle DMO=\\angle MNE \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DMO\\cong \\vartriangle MNE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(ME=DO=3\\)，\\(NE=OM=2\\)，\n\\(\\therefore\\)\\(OE=OM+ME=2+3=5\\)，\n\\(\\therefore\\)点\\(N(5,2)\\)，\n\\(\\because\\)四边形\\(MNCP\\)是平行四边形，\\(C(3,3)\\)，\\(N(5,2)\\)，\\(M(2,0)\\)\n\\(\\therefore\\)由平移的性质可得\\(P(0,1)\\)．\n【小问3详解】\n结论：\\(MN\\)平分\\(\\angle FMB\\)成立．\n证明：如图，在\\(BO\\)延长线上取\\(OA=CF\\)，\n〔图4〕\n在\\(\\vartriangle AOD\\)与\\(\\vartriangle FCD\\)中，\n\\(\\begin{cases} DO=DC \\\\ \\angle DOA=\\angle C=90{}^\\circ \\\\ OA=CF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DOA\\cong \\vartriangle DCF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(AD=DF\\)，\\(\\angle ADO=\\angle CDF\\)，\n\\(\\because\\)\\(\\angle MDN=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle CDF+\\angle OFM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ADO+\\angle ODM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ADM=\\angle FDM\\)，\n在\\(\\vartriangle DMA\\)与\\(\\vartriangle DMF\\)中，\n\\(\\begin{cases} DM=DM \\\\ \\angle MDA=\\angle MDF \\\\ DA=DF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DMA\\cong \\vartriangle DMF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(\\angle DFM=\\angle DAM=\\angle DFC\\)，\n过\\(M\\)作\\(MP\\bot DN\\)于\\(P\\)，则\\(\\angle FMP=\\angle CDF\\)，\n由（2）可知\\(\\angle NMF+\\angle FMP=\\angle PMN=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NMB=\\angle MDO\\)，\\(\\angle MDO+\\angle CDF=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NMB=\\angle NMF\\)，即\\(MN\\)平分\\(\\angle FMB\\)．\n【点睛】本题考查了四边形综合题、全等三角形的判定和性质、等腰直角三角形的判定和性质、坐标与图形、平行四边形的性质、正方形的性质．解题的关键是学会添加辅助线，构造全等三角形，记住一些基本图形，可以使得我们在观察新问题的时候很迅速地联想到解题方法．",
+  "given_solution_figures": [
+    "assets/figures/1f/1f6d80e325e9cb64e35c45f4655b09d70752b5748f349382df93cad88e6d1f14.png",
+    "assets/figures/b5/b5970e629eddf13893d88328f776868c9fec0c833abfa1108b70d71781649cb9.png",
+    "assets/figures/c1/c133a1ff19d022bf0fa22cc67baf7eca6c80f6eff229ffce714f3e3e303f25f5.png",
+    "assets/figures/cb/cb85b08e7ab177984e67be49cc0b648dd57db9753edc2f2b2526d0453a3b891d.png"
+  ],
+  "solution": "【小问1详解】\n①\\(\\because\\)四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，\n\\(\\therefore\\)\\(B(3,0)\\)．\n②证明：如图，在\\(OD\\)上取\\(OH=OM\\)，连接\\(HM\\)，\n〔图2〕\n\\(\\because\\)\\(OD=OB\\)，\\(OH=OM\\)，\n\\(\\therefore\\)\\(HD=MB\\)，\\(\\angle OHM=\\angle OMH\\)，\n\\(\\therefore\\)\\(\\angle DHM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\because\\)\\(NB\\)平分\\(\\angle CBE\\)，\n\\(\\therefore\\)\\(\\angle NBE=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NBM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DHM=\\angle NBM\\)，\n\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO+\\angle NMB=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle HDM+\\angle DMO=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle HDM=\\angle NMB\\)，\n在\\(\\vartriangle DHM\\)和\\(\\vartriangle MBN\\)中，\n\\(\\begin{cases} \\angle HDM=\\angle NMB \\\\ DH=MB \\\\ \\angle DHM=\\angle NBM \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DHM\\cong \\vartriangle MBN\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(MD=MN\\)．\n【小问2详解】\n如图，作\\(NE\\bot OB\\)于E\n〔图3〕\n由\\(M(2,0)\\)可知\\(OM=2\\)，\n\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO+\\angle NME=90{}^\\circ\\)，\\(\\angle NME+\\angle MNE=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO=\\angle MNE\\)，\n在\\(\\vartriangle DMO\\)和\\(\\vartriangle MNE\\)中，\n\\(\\begin{cases} \\angle DOM=\\angle NEM=90{}^\\circ \\\\ MD=MN \\\\ \\angle DMO=\\angle MNE \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DMO\\cong \\vartriangle MNE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(ME=DO=3\\)，\\(NE=OM=2\\)，\n\\(\\therefore\\)\\(OE=OM+ME=2+3=5\\)，\n\\(\\therefore\\)点\\(N(5,2)\\)，\n\\(\\because\\)四边形\\(MNCP\\)是平行四边形，\\(C(3,3)\\)，\\(N(5,2)\\)，\\(M(2,0)\\)\n\\(\\therefore\\)由平移的性质可得\\(P(0,1)\\)．\n【小问3详解】\n结论：\\(MN\\)平分\\(\\angle FMB\\)成立．\n证明：如图，在\\(BO\\)延长线上取\\(OA=CF\\)，\n〔图4〕\n在\\(\\vartriangle AOD\\)与\\(\\vartriangle FCD\\)中，\n\\(\\begin{cases} DO=DC \\\\ \\angle DOA=\\angle C=90{}^\\circ \\\\ OA=CF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DOA\\cong \\vartriangle DCF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(AD=DF\\)，\\(\\angle ADO=\\angle CDF\\)，\n\\(\\because\\)\\(\\angle MDN=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle CDF+\\angle ODM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ADO+\\angle ODM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ADM=\\angle FDM\\)，\n在\\(\\vartriangle DMA\\)与\\(\\vartriangle DMF\\)中，\n\\(\\begin{cases} DM=DM \\\\ \\angle MDA=\\angle MDF \\\\ DA=DF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DMA\\cong \\vartriangle DMF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(\\angle DFM=\\angle DAM=\\angle DFC\\)，\n过\\(M\\)作\\(MP\\bot DN\\)于\\(P\\)，则\\(\\angle FMP=\\angle CDF\\)，\n由（2）可知\\(\\angle NMF+\\angle FMP=\\angle PMN=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NMB=\\angle MDO\\)，\\(\\angle MDO+\\angle CDF=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NMB=\\angle NMF\\)，即\\(MN\\)平分\\(\\angle FMB\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "①\\(\\because\\)四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，",
+    "\\(\\therefore\\)\\(B(3,0)\\)．",
+    "②证明：如图，在\\(OD\\)上取\\(OH=OM\\)，连接\\(HM\\)，",
+    "〔图2〕",
+    "\\(\\because\\)\\(OD=OB\\)，\\(OH=OM\\)，",
+    "\\(\\therefore\\)\\(HD=MB\\)，\\(\\angle OHM=\\angle OMH\\)，",
+    "\\(\\therefore\\)\\(\\angle DHM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+    "\\(\\because\\)\\(NB\\)平分\\(\\angle CBE\\)，",
+    "\\(\\therefore\\)\\(\\angle NBE=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle NBM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle DHM=\\angle NBM\\)，",
+    "\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle DMO+\\angle NMB=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle HDM+\\angle DMO=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle HDM=\\angle NMB\\)，",
+    "在\\(\\vartriangle DHM\\)和\\(\\vartriangle MBN\\)中，",
+    "\\(\\begin{cases} \\angle HDM=\\angle NMB \\\\ DH=MB \\\\ \\angle DHM=\\angle NBM \\end{cases}\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle DHM\\cong \\vartriangle MBN\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(MD=MN\\)．",
+    "【小问2详解】",
+    "如图，作\\(NE\\bot OB\\)于E",
+    "〔图3〕",
+    "由\\(M(2,0)\\)可知\\(OM=2\\)，",
+    "\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle DMO+\\angle NME=90{}^\\circ\\)，\\(\\angle NME+\\angle MNE=90{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle DMO=\\angle MNE\\)，",
+    "在\\(\\vartriangle DMO\\)和\\(\\vartriangle MNE\\)中，",
+    "\\(\\begin{cases} \\angle DOM=\\angle NEM=90{}^\\circ \\\\ MD=MN \\\\ \\angle DMO=\\angle MNE \\end{cases}\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle DMO\\cong \\vartriangle MNE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(ME=DO=3\\)，\\(NE=OM=2\\)，",
+    "\\(\\therefore\\)\\(OE=OM+ME=2+3=5\\)，",
+    "\\(\\therefore\\)点\\(N(5,2)\\)，",
+    "\\(\\because\\)四边形\\(MNCP\\)是平行四边形，\\(C(3,3)\\)，\\(N(5,2)\\)，\\(M(2,0)\\)",
+    "\\(\\therefore\\)由平移的性质可得\\(P(0,1)\\)．",
+    "【小问3详解】",
+    "结论：\\(MN\\)平分\\(\\angle FMB\\)成立．",
+    "证明：如图，在\\(BO\\)延长线上取\\(OA=CF\\)，",
+    "〔图4〕",
+    "在\\(\\vartriangle AOD\\)与\\(\\vartriangle FCD\\)中，",
+    "\\(\\begin{cases} DO=DC \\\\ \\angle DOA=\\angle C=90{}^\\circ \\\\ OA=CF \\end{cases}\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle DOA\\cong \\vartriangle DCF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(AD=DF\\)，\\(\\angle ADO=\\angle CDF\\)，",
+    "\\(\\because\\)\\(\\angle MDN=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle CDF+\\angle ODM=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle ADO+\\angle ODM=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle ADM=\\angle FDM\\)，",
+    "在\\(\\vartriangle DMA\\)与\\(\\vartriangle DMF\\)中，",
+    "\\(\\begin{cases} DM=DM \\\\ \\angle MDA=\\angle MDF \\\\ DA=DF \\end{cases}\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle DMA\\cong \\vartriangle DMF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "\\(\\therefore\\)\\(\\angle DFM=\\angle DAM=\\angle DFC\\)，",
+    "过\\(M\\)作\\(MP\\bot DN\\)于\\(P\\)，则\\(\\angle FMP=\\angle CDF\\)，",
+    "由（2）可知\\(\\angle NMF+\\angle FMP=\\angle PMN=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle NMB=\\angle MDO\\)，\\(\\angle MDO+\\angle CDF=45{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle NMB=\\angle NMF\\)，即\\(MN\\)平分\\(\\angle FMB\\)．"
+  ],
+  "solution_origin": "source_checked_with_correction",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，在平面直角坐标系中，四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，点\\(E\\)是\\(OB\\)延长线上一点，\\(M\\)是线段\\(OB\\)上一动点（不包括O、B）作\\(MN\\bot DM\\)，交\\(\\angle CBE\\)的平分线于点\\(N\\)．\n〔图1〕",
+      "paper_blocks": [
+        82,
+        83
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-2359C8A18C-Q22-P01",
+      "label": "（1）①",
+      "prompt": "直接写出点\\(B\\)的坐标；",
+      "stem_text": "直接写出点\\(B\\)的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(B\\left ( { 0,3 } \\right )\\)",
+      "answer": "\\(B(3,0)\\)",
+      "given_solution": "\\(\\because\\)四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，\n\\(\\therefore\\)\\(B\\left ( { 0,3 } \\right )\\)．",
+      "solution_steps": [
+        "\\(\\because\\)四边形\\(OBCD\\)是正方形，\\(D(0,3)\\)，",
+        "\\(\\therefore\\)\\(B(3,0)\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          391,
+          392
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "原答案把 B 写成 (0,3)。原图 B 在 x 轴正半轴，D(0,3) 在 y 轴正半轴，故 OB＝OD＝3，B(3,0)。",
+      "solution_origin": "source_checked_with_correction",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G09.01"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "根据坐标轴方位、运动量或正方形边长确定对应点的坐标。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T2-2359C8A18C-Q22-P02",
+      "label": "（1）②",
+      "prompt": "求证：\\(MD=MN\\)",
+      "stem_text": "求证：\\(MD=MN\\)",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：如图，在\\(OD\\)上取\\(OH=OM\\)，连接\\(HM\\)，\n〔图2〕\n\\(\\because\\)\\(OD=OB\\)，\\(OH=OM\\)，\n\\(\\therefore\\)\\(HD=HB\\)，\\(\\angle OHM=\\angle OMH\\)，\n\\(\\therefore\\)\\(\\angle DHM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\because\\)\\(NB\\)平分\\(\\angle CBE\\)，\n\\(\\therefore\\)\\(\\angle NBE=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NBM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DHM=\\angle NBM\\)，\n\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO+\\angle NMB=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle HDM+\\angle DMO=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle HDM=\\angle NMB\\)，\n在\\(\\vartriangle DHM\\)和\\(\\vartriangle MBN\\)中，\n\\(\\begin{cases} \\angle HDM=\\angle NME \\\\ DH=MB \\\\ \\angle DHM=\\angle NBM \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DHM\\cong \\vartriangle MBN\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n\\(\\therefore\\)\\(MD=MN\\)．",
+      "solution_steps": [
+        "证明：如图，在\\(OD\\)上取\\(OH=OM\\)，连接\\(HM\\)，",
+        "〔图2〕",
+        "\\(\\because\\)\\(OD=OB\\)，\\(OH=OM\\)，",
+        "\\(\\therefore\\)\\(HD=MB\\)，\\(\\angle OHM=\\angle OMH\\)，",
+        "\\(\\therefore\\)\\(\\angle DHM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+        "\\(\\because\\)\\(NB\\)平分\\(\\angle CBE\\)，",
+        "\\(\\therefore\\)\\(\\angle NBE=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle NBM=180{}^\\circ -45{}^\\circ =135{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle DHM=\\angle NBM\\)，",
+        "\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle DMO+\\angle NMB=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle HDM+\\angle DMO=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle HDM=\\angle NMB\\)，",
+        "在\\(\\vartriangle DHM\\)和\\(\\vartriangle MBN\\)中，",
+        "\\(\\begin{cases} \\angle HDM=\\angle NMB \\\\ DH=MB \\\\ \\angle DHM=\\angle NBM \\end{cases}\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle DHM\\cong \\vartriangle MBN\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "\\(\\therefore\\)\\(MD=MN\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85
+        ],
+        "solution_block_ids": [
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "原解析中构造的 H 满足 DH＝MB，全等条件的对应角为 ∠HDM＝∠NMB。",
+      "solution_origin": "source_checked_with_correction",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-2359C8A18C-Q22-P03",
+      "label": "（2）",
+      "prompt": "如图2，若\\(M(2,0)\\)，在\\(OD\\)上找一点\\(P\\)，使四边形\\(MNCP\\)是平行四边形，求点P的坐标；",
+      "stem_text": "如图2，若\\(M(2,0)\\)，在\\(OD\\)上找一点\\(P\\)，使四边形\\(MNCP\\)是平行四边形，求点P的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(P\\left ( { 0,1 } \\right )\\)",
+      "answer": "\\(P\\left ( { 0,1 } \\right )\\)",
+      "given_solution": "如图，作\\(NE\\bot OB\\)于E\n〔图3〕\n由\\(M(2,0)\\)可知\\(OM=2\\)，\n\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO+\\angle NME=90{}^\\circ\\)，\\(\\angle NME+\\angle MNE=90{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle DMO=\\angle MNE\\)，\n在\\(\\vartriangle DMO\\)和\\(\\vartriangle MNE\\)中，\n\\(\\begin{cases} \\angle DOM=\\angle NEM=90{}^\\circ \\\\ MD=MN \\\\ \\angle DMO=\\angle MNE \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DMO\\cong \\vartriangle MNE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(ME=DO=3\\)，\\(NE=OM=2\\)，\n\\(\\therefore\\)\\(OE=OM+ME=2+3=5\\)，\n\\(\\therefore\\)点\\(N(5,2)\\)，\n\\(\\because\\)四边形\\(MNCP\\)是平行四边形，\\(C(3,3)\\)，\\(N(5,2)\\)，\\(M(2,0)\\)\n\\(\\therefore\\)由平移的性质可得\\(P(0,1)\\)．",
+      "solution_steps": [
+        "如图，作\\(NE\\bot OB\\)于E",
+        "〔图3〕",
+        "由\\(M(2,0)\\)可知\\(OM=2\\)，",
+        "\\(\\because\\)\\(\\angle DMN=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle DMO+\\angle NME=90{}^\\circ\\)，\\(\\angle NME+\\angle MNE=90{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle DMO=\\angle MNE\\)，",
+        "在\\(\\vartriangle DMO\\)和\\(\\vartriangle MNE\\)中，",
+        "\\(\\begin{cases} \\angle DOM=\\angle NEM=90{}^\\circ \\\\ MD=MN \\\\ \\angle DMO=\\angle MNE \\end{cases}\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle DMO\\cong \\vartriangle MNE\\)\\(\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore\\)\\(ME=DO=3\\)，\\(NE=OM=2\\)，",
+        "\\(\\therefore\\)\\(OE=OM+ME=2+3=5\\)，",
+        "\\(\\therefore\\)点\\(N(5,2)\\)，",
+        "\\(\\because\\)四边形\\(MNCP\\)是平行四边形，\\(C(3,3)\\)，\\(N(5,2)\\)，\\(M(2,0)\\)",
+        "\\(\\therefore\\)由平移的性质可得\\(P(0,1)\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          86
+        ],
+        "solution_block_ids": [
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.03"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-2359C8A18C-Q22-P04",
+      "label": "（3）",
+      "prompt": "如图，连接\\(DN\\)交\\(BC\\)于F，连接FM，下列两个结论：①\\(FM\\)的长为定值：②\\(MN\\)平分\\(\\angle FMB\\)，其中只有一个正确，选择并证明．",
+      "stem_text": "如图，连接\\(DN\\)交\\(BC\\)于F，连接FM，下列两个结论：①\\(FM\\)的长为定值：②\\(MN\\)平分\\(\\angle FMB\\)，其中只有一个正确，选择并证明．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(MN\\)平分\\(\\angle FMB\\)正确，证明见解析",
+      "answer": "\\(MN\\)平分\\(\\angle FMB\\)正确，证明见解析",
+      "given_solution": "结论：\\(MN\\)平分\\(\\angle FMB\\)成立．\n证明：如图，在\\(BO\\)延长线上取\\(OA=CF\\)，\n〔图4〕\n在\\(\\vartriangle AOD\\)与\\(\\vartriangle FCD\\)中，\n\\(\\begin{cases} DO=DC \\\\ \\angle DOA=\\angle C=90{}^\\circ \\\\ OA=CF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DOA\\cong \\vartriangle DCF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(AD=DF\\)，\\(\\angle ADO=\\angle CDF\\)，\n\\(\\because\\)\\(\\angle MDN=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle CDF+\\angle OFM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ADO+\\angle ODM=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle ADM=\\angle FDM\\)，\n在\\(\\vartriangle DMA\\)与\\(\\vartriangle DMF\\)中，\n\\(\\begin{cases} DM=DM \\\\ \\angle MDA=\\angle MDF \\\\ DA=DF \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle DMA\\cong \\vartriangle DMF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n\\(\\therefore\\)\\(\\angle DFM=\\angle DAM=\\angle DFC\\)，\n过\\(M\\)作\\(MP\\bot DN\\)于\\(P\\)，则\\(\\angle FMP=\\angle CDF\\)，\n由（2）可知\\(\\angle NMF+\\angle FMP=\\angle PMN=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NMB=\\angle MDO\\)，\\(\\angle MDO+\\angle CDF=45{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle NMB=\\angle NMF\\)，即\\(MN\\)平分\\(\\angle FMB\\)．",
+      "solution_steps": [
+        "结论：\\(MN\\)平分\\(\\angle FMB\\)成立．",
+        "证明：如图，在\\(BO\\)延长线上取\\(OA=CF\\)，",
+        "〔图4〕",
+        "在\\(\\vartriangle AOD\\)与\\(\\vartriangle FCD\\)中，",
+        "\\(\\begin{cases} DO=DC \\\\ \\angle DOA=\\angle C=90{}^\\circ \\\\ OA=CF \\end{cases}\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle DOA\\cong \\vartriangle DCF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore\\)\\(AD=DF\\)，\\(\\angle ADO=\\angle CDF\\)，",
+        "\\(\\because\\)\\(\\angle MDN=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle CDF+\\angle ODM=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle ADO+\\angle ODM=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle ADM=\\angle FDM\\)，",
+        "在\\(\\vartriangle DMA\\)与\\(\\vartriangle DMF\\)中，",
+        "\\(\\begin{cases} DM=DM \\\\ \\angle MDA=\\angle MDF \\\\ DA=DF \\end{cases}\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle DMA\\cong \\vartriangle DMF\\)\\(\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "\\(\\therefore\\)\\(\\angle DFM=\\angle DAM=\\angle DFC\\)，",
+        "过\\(M\\)作\\(MP\\bot DN\\)于\\(P\\)，则\\(\\angle FMP=\\angle CDF\\)，",
+        "由（2）可知\\(\\angle NMF+\\angle FMP=\\angle PMN=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle NMB=\\angle MDO\\)，\\(\\angle MDO+\\angle CDF=45{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle NMB=\\angle NMF\\)，即\\(MN\\)平分\\(\\angle FMB\\)．"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          87
+        ],
+        "solution_block_ids": [
+          426,
+          427,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "图中 OD、DC 垂直，∠MDN＝45°，故 ∠CDF＋∠ODM＝45°。原解析该行将 ODM 误写为 OFM。",
+      "solution_origin": "source_checked_with_correction",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "原答案把 B 写成 (0,3)。原图 B 在 x 轴正半轴，D(0,3) 在 y 轴正半轴，故 OB＝OD＝3，B(3,0)。原解析中构造的 H 满足 DH＝MB，全等条件的对应角为 ∠HDM＝∠NMB。图中 OD、DC 垂直，∠MDN＝45°，故 ∠CDF＋∠ODM＝45°。原解析该行将 ODM 误写为 OFM。",
+  "source": {
+    "paper_body_blocks": [
+      82,
+      87
+    ],
+    "solution_body_blocks": [
+      377,
+      446
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-2359C8A18C/paper-q22-p06.webp",
+      "assets/SZ-G9-T2-2359C8A18C/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          615.45,
+          583.64,
+          657.73
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          54.09,
+          583.64,
+          299.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-2359C8A18C/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-2359C8A18C/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-2359C8A18C/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-2359C8A18C/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          332.73,
+          583.64,
+          680.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          415.91
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G09.01",
+    "M.G03.02",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G09.03.03"
+  ],
+  "tag_note": "该问涉及“平面直角坐标系与点”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "根据坐标轴方位、运动量或正方形边长确定对应点的坐标。 本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+  "tag_source": "小问标签汇总"
+}

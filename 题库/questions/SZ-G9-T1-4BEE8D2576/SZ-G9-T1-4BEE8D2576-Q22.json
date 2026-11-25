@@ -1,0 +1,385 @@
+{
+  "id": "SZ-G9-T1-4BEE8D2576-Q22",
+  "paper_id": "SZ-G9-T1-4BEE8D2576",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "已知点E在正方形\\(ABCD\\)的对角线\\(AC\\)上，正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A．\n〔图1〕\n（1）如图1，当点G在\\(AD\\)上，F在\\(AB\\)上，求\\(\\frac { CE } { DG }\\)的值；\n（2）将正方形AFEG绕A点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，如图2，直接写出\\(\\frac { CE } { DG }\\)的值；\n（3）若\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，将正方形\\(AFEG\\)绕A逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 360{}^\\circ } \\right )\\)，当C，G，E三点共线时，求\\(DG\\)的长度．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-4BEE8D2576/figures/409af1d744eb02a39e8ce8aa4309c9dbf299246bf36efa07d6369f2c1d67751c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；\n（2）\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；\n（3）当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+  "answer": "（1）\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；\n（2）\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；\n（3）当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+  "given_solution": "【分析】（1）根据题意可得\\(GE\\parallel DC\\)，根据平行线分线段成比例即可求解；\n（2）根据（1）的结论，可得\\(\\frac { AG } { AE }=\\frac { AD } { AC }=\\frac { 1 } { \\sqrt[] { 2 } }\\)，根据旋转的性质可\\(\\angle DAG=\\angle CAE\\)，进而证明\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，根据相似三角形的性质即可求解；\n（3）分两种情况画出图形，证明\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，根据相似三角形的判定和性质以及勾股定理即可得出答案．\n【小问1详解】\n解：∵正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A，点\\(G\\)在\\(AD\\)上，\\(F\\)在\\(AB\\)上，\n∴\\(GE\\parallel DC\\)，\n∴\\(\\frac { AG } { DG }=\\frac { AE } { EC }\\)，\n∴\\(\\frac { EC } { DG }=\\frac { AE } { AG }\\)，\n∵四边形\\(AFEG\\)是正方形，\n∴\\(AE=\\sqrt[] { 2 }AG\\)，\n∴\\(\\frac { CE } { DG }=\\frac { AE } { AG }=\\sqrt[] { 2 }\\)；\n【小问2详解】\n解：如图，连接\\(AE\\)，\n〔图2〕\n∵正方形\\(AFEG\\)绕\\(A\\)点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，\n∴\\(\\angle DAG=\\angle CAE\\)，\n∵\\(\\frac { AG } { AE }=\\frac { AD } { AC }=\\frac { 1 } { \\sqrt[] { 2 } }\\)，\n∴\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)\n∴\\(\\frac { CE } { DG }=\\frac { AC } { AD }=\\sqrt[] { 2 }\\)；\n【小问3详解】\n解：①如图，\n〔图2〕\n∵\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，\n∴\\(AD=AB=\\sqrt[] { 2 }\\)，\\(AE=\\sqrt[] { 2 }AG=\\sqrt[] { 2 }\\)，\\(AC=\\sqrt[] { 2 }AB=2\\)，\n∵\\(G，E，C\\)三点共线，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGC\\)中，\\(GC=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴\\(CE=GC-GE=\\sqrt[] { 3 }-1\\)，\n由（2）可知\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，\n∴\\(\\frac { CE } { DG }=\\frac { AC } { DA }=\\sqrt[] { 2 }\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)；\n②如图：\n〔图3〕\n由（2）知\\(\\vartriangle ADG\\backsim \\vartriangle ACE\\)，\n∴\\(\\frac { DG } { CE }=\\frac { AD } { AC }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE\\)，\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=BC=\\sqrt[] { 2 }\\)，\\(AC=2\\)，\n∵四边形\\(AFEG\\)是正方形，\n∴\\(\\angle AGE=90{}^\\circ ，GE=AG=1\\)，\n∵C，G，E三点共线，\n∴\\(\\angle AGC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(CG=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴\\(CE=CG+EG=\\sqrt[] { 3 }+1\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．\n综上，当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．\n【点睛】本题考查了平行线分线段成比例，相似三角形的性质与判定，正方形的性质，勾股定理，旋转的性质，综合运用以上知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-4BEE8D2576/figures/409af1d744eb02a39e8ce8aa4309c9dbf299246bf36efa07d6369f2c1d67751c.png",
+    "assets/SZ-G9-T1-4BEE8D2576/figures/8747a3d121a96992be0319cb55671d089c27ccac796571164292efcfcb2eefeb.png",
+    "assets/SZ-G9-T1-4BEE8D2576/figures/4437bb811e3a4bbc16b6a5b1136c9a77189cc6cc65da64ee8f0d991424d89d81.png"
+  ],
+  "solution": "【小问1详解】\n解：∵正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A，点\\(G\\)在\\(AD\\)上，\\(F\\)在\\(AB\\)上，\n∴\\(GE\\parallel DC\\)，\n∴\\(\\frac { AG } { DG }=\\frac { AE } { EC }\\)，\n∴\\(\\frac { EC } { DG }=\\frac { AE } { AG }\\)，\n∵四边形\\(AFEG\\)是正方形，\n∴\\(AE=\\sqrt[] { 2 }AG\\)，\n∴\\(\\frac { CE } { DG }=\\frac { AE } { AG }=\\sqrt[] { 2 }\\)；\n【小问2详解】\n解：如图，连接\\(AE\\)，\n〔图2〕\n∵正方形\\(AFEG\\)绕\\(A\\)点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，\n∴\\(\\angle DAG=\\angle CAE\\)，\n∵\\(\\frac { AG } { AE }=\\frac { AD } { AC }=\\frac { 1 } { \\sqrt[] { 2 } }\\)，\n∴\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)\n∴\\(\\frac { CE } { DG }=\\frac { AC } { AD }=\\sqrt[] { 2 }\\)；\n【小问3详解】\n解：①如图，\n〔图2〕\n∵\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，\n∴\\(AD=AB=\\sqrt[] { 2 }\\)，\\(AE=\\sqrt[] { 2 }AG=\\sqrt[] { 2 }\\)，\\(AC=\\sqrt[] { 2 }AB=2\\)，\n∵\\(G，E，C\\)三点共线，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGC\\)中，\\(GC=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴\\(CE=GC-GE=\\sqrt[] { 3 }-1\\)，\n由（2）可知\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，\n∴\\(\\frac { CE } { DG }=\\frac { AC } { DA }=\\sqrt[] { 2 }\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)；\n②如图：\n〔图3〕\n由（2）知\\(\\vartriangle ADG\\backsim \\vartriangle ACE\\)，\n∴\\(\\frac { DG } { CE }=\\frac { AD } { AC }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE\\)，\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=BC=\\sqrt[] { 2 }\\)，\\(AC=2\\)，\n∵四边形\\(AFEG\\)是正方形，\n∴\\(\\angle AGE=90{}^\\circ ，GE=AG=1\\)，\n∵C，G，E三点共线，\n∴\\(\\angle AGC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(CG=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴\\(CE=CG+EG=\\sqrt[] { 3 }+1\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．\n综上，当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A，点\\(G\\)在\\(AD\\)上，\\(F\\)在\\(AB\\)上，",
+    "∴\\(GE\\parallel DC\\)，",
+    "∴\\(\\frac { AG } { DG }=\\frac { AE } { EC }\\)，",
+    "∴\\(\\frac { EC } { DG }=\\frac { AE } { AG }\\)，",
+    "∵四边形\\(AFEG\\)是正方形，",
+    "∴\\(AE=\\sqrt[] { 2 }AG\\)，",
+    "∴\\(\\frac { CE } { DG }=\\frac { AE } { AG }=\\sqrt[] { 2 }\\)；",
+    "【小问2详解】",
+    "解：如图，连接\\(AE\\)，",
+    "〔图2〕",
+    "∵正方形\\(AFEG\\)绕\\(A\\)点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，",
+    "∴\\(\\angle DAG=\\angle CAE\\)，",
+    "∵\\(\\frac { AG } { AE }=\\frac { AD } { AC }=\\frac { 1 } { \\sqrt[] { 2 } }\\)，",
+    "∴\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)",
+    "∴\\(\\frac { CE } { DG }=\\frac { AC } { AD }=\\sqrt[] { 2 }\\)；",
+    "【小问3详解】",
+    "解：①如图，",
+    "〔图2〕",
+    "∵\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，",
+    "∴\\(AD=AB=\\sqrt[] { 2 }\\)，\\(AE=\\sqrt[] { 2 }AG=\\sqrt[] { 2 }\\)，\\(AC=\\sqrt[] { 2 }AB=2\\)，",
+    "∵\\(G，E，C\\)三点共线，",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGC\\)中，\\(GC=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+    "∴\\(CE=GC-GE=\\sqrt[] { 3 }-1\\)，",
+    "由（2）可知\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，",
+    "∴\\(\\frac { CE } { DG }=\\frac { AC } { DA }=\\sqrt[] { 2 }\\)，",
+    "∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)；",
+    "②如图：",
+    "〔图3〕",
+    "由（2）知\\(\\vartriangle ADG\\backsim \\vartriangle ACE\\)，",
+    "∴\\(\\frac { DG } { CE }=\\frac { AD } { AC }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE\\)，",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(AD=BC=\\sqrt[] { 2 }\\)，\\(AC=2\\)，",
+    "∵四边形\\(AFEG\\)是正方形，",
+    "∴\\(\\angle AGE=90{}^\\circ ，GE=AG=1\\)，",
+    "∵C，G，E三点共线，",
+    "∴\\(\\angle AGC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+    "∴\\(CG=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+    "∴\\(CE=CG+EG=\\sqrt[] { 3 }+1\\)，",
+    "∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+    "综上，当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知点E在正方形\\(ABCD\\)的对角线\\(AC\\)上，正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A．\n〔图1〕",
+      "paper_blocks": [
+        67,
+        68
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-4BEE8D2576-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点G在\\(AD\\)上，F在\\(AB\\)上，求\\(\\frac { CE } { DG }\\)的值；",
+      "stem_text": "如图1，当点G在\\(AD\\)上，F在\\(AB\\)上，求\\(\\frac { CE } { DG }\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；",
+      "answer": "\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；",
+      "given_solution": "解：∵正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A，点\\(G\\)在\\(AD\\)上，\\(F\\)在\\(AB\\)上，\n∴\\(GE\\parallel DC\\)，\n∴\\(\\frac { AG } { DG }=\\frac { AE } { EC }\\)，\n∴\\(\\frac { EC } { DG }=\\frac { AE } { AG }\\)，\n∵四边形\\(AFEG\\)是正方形，\n∴\\(AE=\\sqrt[] { 2 }AG\\)，\n∴\\(\\frac { CE } { DG }=\\frac { AE } { AG }=\\sqrt[] { 2 }\\)；",
+      "solution_steps": [
+        "解：∵正方形\\(AFEG\\)与正方形\\(ABCD\\)有公共点A，点\\(G\\)在\\(AD\\)上，\\(F\\)在\\(AB\\)上，",
+        "∴\\(GE\\parallel DC\\)，",
+        "∴\\(\\frac { AG } { DG }=\\frac { AE } { EC }\\)，",
+        "∴\\(\\frac { EC } { DG }=\\frac { AE } { AG }\\)，",
+        "∵四边形\\(AFEG\\)是正方形，",
+        "∴\\(AE=\\sqrt[] { 2 }AG\\)，",
+        "∴\\(\\frac { CE } { DG }=\\frac { AE } { AG }=\\sqrt[] { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G02.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-4BEE8D2576-Q22-P02",
+      "label": "（2）",
+      "prompt": "将正方形AFEG绕A点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，如图2，直接写出\\(\\frac { CE } { DG }\\)的值；",
+      "stem_text": "将正方形AFEG绕A点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，如图2，直接写出\\(\\frac { CE } { DG }\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；",
+      "answer": "\\(\\frac { CE } { DG }=\\sqrt[] { 2 }\\)；",
+      "given_solution": "解：如图，连接\\(AE\\)，\n〔图2〕\n∵正方形\\(AFEG\\)绕\\(A\\)点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，\n∴\\(\\angle DAG=\\angle CAE\\)，\n∵\\(\\frac { AG } { AE }=\\frac { AD } { AC }=\\frac { 1 } { \\sqrt[] { 2 } }\\)，\n∴\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)\n∴\\(\\frac { CE } { DG }=\\frac { AC } { AD }=\\sqrt[] { 2 }\\)；",
+      "solution_steps": [
+        "解：如图，连接\\(AE\\)，",
+        "〔图2〕",
+        "∵正方形\\(AFEG\\)绕\\(A\\)点逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 90{}^\\circ } \\right )\\)，",
+        "∴\\(\\angle DAG=\\angle CAE\\)，",
+        "∵\\(\\frac { AG } { AE }=\\frac { AD } { AC }=\\frac { 1 } { \\sqrt[] { 2 } }\\)，",
+        "∴\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)",
+        "∴\\(\\frac { CE } { DG }=\\frac { AC } { AD }=\\sqrt[] { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-4BEE8D2576-Q22-P03",
+      "label": "（3）",
+      "prompt": "若\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，将正方形\\(AFEG\\)绕A逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 360{}^\\circ } \\right )\\)，当C，G，E三点共线时，求\\(DG\\)的长度．",
+      "stem_text": "若\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，将正方形\\(AFEG\\)绕A逆时针方向旋转\\(\\alpha \\left ( { 0{}^\\circ < \\alpha \\le 360{}^\\circ } \\right )\\)，当C，G，E三点共线时，求\\(DG\\)的长度．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+      "answer": "当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+      "given_solution": "解：①如图，\n〔图2〕\n∵\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，\n∴\\(AD=AB=\\sqrt[] { 2 }\\)，\\(AE=\\sqrt[] { 2 }AG=\\sqrt[] { 2 }\\)，\\(AC=\\sqrt[] { 2 }AB=2\\)，\n∵\\(G，E，C\\)三点共线，\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGC\\)中，\\(GC=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴\\(CE=GC-GE=\\sqrt[] { 3 }-1\\)，\n由（2）可知\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，\n∴\\(\\frac { CE } { DG }=\\frac { AC } { DA }=\\sqrt[] { 2 }\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)；\n②如图：\n〔图3〕\n由（2）知\\(\\vartriangle ADG\\backsim \\vartriangle ACE\\)，\n∴\\(\\frac { DG } { CE }=\\frac { AD } { AC }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE\\)，\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=BC=\\sqrt[] { 2 }\\)，\\(AC=2\\)，\n∵四边形\\(AFEG\\)是正方形，\n∴\\(\\angle AGE=90{}^\\circ ，GE=AG=1\\)，\n∵C，G，E三点共线，\n∴\\(\\angle AGC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，\n∴\\(CG=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，\n∴\\(CE=CG+EG=\\sqrt[] { 3 }+1\\)，\n∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．\n综上，当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+      "solution_steps": [
+        "解：①如图，",
+        "〔图2〕",
+        "∵\\(AB=\\sqrt[] { 2 }\\)，\\(AG=1\\)，",
+        "∴\\(AD=AB=\\sqrt[] { 2 }\\)，\\(AE=\\sqrt[] { 2 }AG=\\sqrt[] { 2 }\\)，\\(AC=\\sqrt[] { 2 }AB=2\\)，",
+        "∵\\(G，E，C\\)三点共线，",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGC\\)中，\\(GC=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+        "∴\\(CE=GC-GE=\\sqrt[] { 3 }-1\\)，",
+        "由（2）可知\\(\\vartriangle GAD\\backsim \\vartriangle EAC\\)，",
+        "∴\\(\\frac { CE } { DG }=\\frac { AC } { DA }=\\sqrt[] { 2 }\\)，",
+        "∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)；",
+        "②如图：",
+        "〔图3〕",
+        "由（2）知\\(\\vartriangle ADG\\backsim \\vartriangle ACE\\)，",
+        "∴\\(\\frac { DG } { CE }=\\frac { AD } { AC }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+        "∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE\\)，",
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(AD=BC=\\sqrt[] { 2 }\\)，\\(AC=2\\)，",
+        "∵四边形\\(AFEG\\)是正方形，",
+        "∴\\(\\angle AGE=90{}^\\circ ，GE=AG=1\\)，",
+        "∵C，G，E三点共线，",
+        "∴\\(\\angle AGC{ \\rm{ = } }{ \\rm{ 9 } }{ \\rm{ 0 } }{}^\\circ\\)，",
+        "∴\\(CG=\\sqrt[] { AC ^ { 2 } -AG ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -1 ^ { 2 } }=\\sqrt[] { 3 }\\)，",
+        "∴\\(CE=CG+EG=\\sqrt[] { 3 }+1\\)，",
+        "∴\\(DG=\\frac { \\sqrt[] { 2 } } { 2 }CE=\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．",
+        "综上，当C，G，E三点共线时，\\(DG\\)的长度为\\(\\frac { \\sqrt[] { 6 } } { 2 }-\\frac { \\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { \\sqrt[] { 6 } } { 2 }+\\frac { \\sqrt[] { 2 } } { 2 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          71
+        ],
+        "solution_block_ids": [
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      71
+    ],
+    "solution_body_blocks": [
+      375,
+      429
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-4BEE8D2576/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          345.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-4BEE8D2576/solution-q22-p20.webp",
+      "assets/SZ-G9-T1-4BEE8D2576/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-4BEE8D2576/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-4BEE8D2576/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          655.0,
+          583.64,
+          731.82
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          726.82
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          587.27
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          44.55,
+          583.64,
+          696.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G02.03",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "公共材料含“对角线”。由多边形的结构计算对角线或分割数量。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

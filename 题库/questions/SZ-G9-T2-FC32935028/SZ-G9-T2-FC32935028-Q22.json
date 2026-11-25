@@ -1,0 +1,504 @@
+{
+  "id": "SZ-G9-T2-FC32935028-Q22",
+  "paper_id": "SZ-G9-T2-FC32935028",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、由相似比求对应线段或周长",
+  "stem": "如图1，四边形\\(ABCD\\)是矩形，点P是平面内任一点，则下列结论成立的是（    ）\n〔图1〕\nA．\\(PA+PD=PB+PC\\)；B．\\(PA+PC=PB+PD\\)\nC．\\(PA ^ { 2 } +PD ^ { 2 } =PB ^ { 2 } +PC ^ { 2 }\\)；D．\\(PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)\n【深入探究】\n（2）如图2，正方形\\(ABCD\\)的边长为4，\\(\\odot B\\)的半径为2，点P是\\(\\odot B\\)上一动点，连接\\(PA\\)，\\(PC\\)，\\(PD\\)，设\\(PA=x\\)，\\(PC=y\\)．（如有需要，可直接使用（1）中你所得的结论）\n〔图2〕\n①求\\(x ^ { 2 } +y ^ { 2 }\\)的最小值；\n②直接写出\\(\\left | { x-y } \\right |\\)的最大值，并直接写出此时\\(PD\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/figures/cc/ccf5c08cfdf38a8b279d4070f1dcebc1550283f2d3fe00e9a97639b978b53d0c.png",
+    "assets/figures/49/495dd8e8ea4c3669ab07b5cc8514fdcadf4c0e3d3d416d6c76802681036eedfa.png"
+  ],
+  "tables": [],
+  "given_answer": "22. D    23. ①\\(40-16\\sqrt[] { 2 }\\)；②\\(2\\sqrt[] { 7 }\\)",
+  "answer": "（1）D；（2）①40−16√2，②最大值2√2，此时PD=2√7。",
+  "given_solution": "【分析】（1）如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，利用勾股定理证明选项D正确；\n（2）①连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，所以当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小；\n②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，利用相似三角形的性质证明\\(PM=\\frac { 1 } { 2 }x\\)，\\(PN=\\frac { 1 } { 2 }y\\)，由\\(\\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)，推出\\(\\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如图），可得\\(\\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)，再求出此时\\(PD\\)的值即可．\n【22题详解】\n如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，则四边形\\(PEAF\\)、四边形\\(PGBF\\)、四边形\\(EGCD\\)都是矩形，\n〔图3〕\n\\(\\therefore AE=PF=GB\\)，\\(PE=AF\\)，\\(PG=BF\\)，\\(ED=GC\\)，\n\\(\\because PA ^ { 2 } =PE ^ { 2 } +AE ^ { 2 }\\)，\\(PC ^ { 2 } =PG ^ { 2 } +CG ^ { 2 }\\)，\\(PB ^ { 2 } =PG ^ { 2 } +GB ^ { 2 }\\)，\\(PD ^ { 2 } =ED ^ { 2 } +PE ^ { 2 }\\)，\n\\(\\therefore PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)，\n故选：D；\n【23题详解】\n①\\(x ^ { 2 } +y ^ { 2 }\\)的最小值为\\(40-16\\sqrt[] { 2 }\\)．理由如下：\n〔图4〕\n如图所示，连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，\n\\(\\therefore\\)当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小，\n而\\(PD\\ge BD-BP=4\\sqrt[] { 2 }-2\\)（等号成立时，点P位于\\(BD\\)上），\n\\(\\therefore\\)\\(x ^ { 2 } +y ^ { 2 }\\)的最小为\\(2 ^ { 2 } +\\left ( { 4\\sqrt[] { 2 }-2 } \\right ) ^ { 2 } =40-16\\sqrt[] { 2 }\\)；\n②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，\n〔图5〕\n\\(\\because PB=2\\)，\\(BM=1\\)，\\(BA=4\\)，\n\\(\\therefore PB ^ { 2 } =BM\\cdot BA\\)，\n\\(\\therefore \\frac { PB } { BM }=\\frac { BA } { PB }\\)，\n\\(\\because \\angle PBM=\\angle ABP\\)\n\\(\\therefore \\vartriangle PBM\\backsim \\vartriangle ABP\\)\n\\(\\therefore PM:AP=PB:AB=1:2\\)\n\\(\\therefore PM=\\frac { 1 } { 2 }x\\)\n同理可得\\(PN=\\frac { 1 } { 2 }PC=\\frac { 1 } { 2 }y\\)\n\\(\\because \\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)\n\\(\\therefore \\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如下图）\n\\(\\therefore \\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)\n〔图6〕\n连接\\(BD\\)、\\(AC\\)，\\(BD\\)交\\(MN\\)于点F，则\\(BD\\bot AC\\)，\n\\(\\because MN\\parallel AC\\)，\n\\(\\therefore MN\\bot BD\\)，\n\\(\\because MN=\\sqrt[] { 2 }\\)，\\(BD=4\\sqrt[] { 2 }\\)，\n\\(\\therefore BF=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DF=\\frac { 7\\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore PF=\\sqrt[] { PB ^ { 2 } -BF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\frac { \\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } }=\\frac { \\sqrt[] { 14 } } { 2 }\\)，\n\\(\\therefore PD=\\sqrt[] { DF ^ { 2 } +PF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7\\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 14 } } { 2 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)．\n【点睛】本题属于圆的综合题，考查了圆的有关性质、矩形的性质、正方形的性质、勾股定理、相似三角形的判定和性质等知识，解题的关键是正确作出辅助线，构造相似三角线解决问题．",
+  "given_solution_figures": [
+    "assets/figures/cc/ccf5c08cfdf38a8b279d4070f1dcebc1550283f2d3fe00e9a97639b978b53d0c.png",
+    "assets/figures/49/495dd8e8ea4c3669ab07b5cc8514fdcadf4c0e3d3d416d6c76802681036eedfa.png",
+    "assets/figures/bd/bd0474a9e0f781072639c0cbd573250e4a4a64a15d33775afe76843182d18ef2.png",
+    "assets/figures/15/150cc0f6f27d3eee7a75fa2c94905a04ec666fc461c8dfd310c4f4881922046a.png",
+    "assets/figures/08/084c5649d5b749e9587a9c294a984dbd350390c1824091956ef702b7c8e81013.png",
+    "assets/figures/60/6075f32d7c6b30ce9af5931f408f620c0cc2d062471471323f91d7944f6a0d03.png"
+  ],
+  "solution": "【分析】（1）如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，利用勾股定理证明选项D正确；\n（2）①连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，所以当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小；\n②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，利用相似三角形的性质证明\\(PM=\\frac { 1 } { 2 }x\\)，\\(PN=\\frac { 1 } { 2 }y\\)，由\\(\\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)，推出\\(\\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如图），可得\\(\\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)，再求出此时\\(PD\\)的值即可．\n【22题详解】\n如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，则四边形\\(PEAF\\)、四边形\\(PGBF\\)、四边形\\(EGCD\\)都是矩形，\n〔图3〕\n\\(\\therefore AE=PF=GB\\)，\\(PE=AF\\)，\\(PG=BF\\)，\\(ED=GC\\)，\n\\(\\because PA ^ { 2 } =PE ^ { 2 } +AE ^ { 2 }\\)，\\(PC ^ { 2 } =PG ^ { 2 } +CG ^ { 2 }\\)，\\(PB ^ { 2 } =PG ^ { 2 } +GB ^ { 2 }\\)，\\(PD ^ { 2 } =ED ^ { 2 } +PE ^ { 2 }\\)，\n\\(\\therefore PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)，\n故选：D；\n【23题详解】\n①\\(x ^ { 2 } +y ^ { 2 }\\)的最小值为\\(40-16\\sqrt[] { 2 }\\)．理由如下：\n〔图4〕\n如图所示，连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，\n\\(\\therefore\\)当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小，\n而\\(PD\\ge BD-BP=4\\sqrt[] { 2 }-2\\)（等号成立时，点P位于\\(BD\\)上），\n\\(\\therefore\\)\\(x ^ { 2 } +y ^ { 2 }\\)的最小为\\(2 ^ { 2 } +\\left ( { 4\\sqrt[] { 2 }-2 } \\right ) ^ { 2 } =40-16\\sqrt[] { 2 }\\)；\n②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，\n〔图5〕\n\\(\\because PB=2\\)，\\(BM=1\\)，\\(BA=4\\)，\n\\(\\therefore PB ^ { 2 } =BM\\cdot BA\\)，\n\\(\\therefore \\frac { PB } { BM }=\\frac { BA } { PB }\\)，\n\\(\\because \\angle PBM=\\angle ABP\\)\n\\(\\therefore \\vartriangle PBM\\backsim \\vartriangle ABP\\)\n\\(\\therefore PM:AP=PB:AB=1:2\\)\n\\(\\therefore PM=\\frac { 1 } { 2 }x\\)\n同理可得\\(PN=\\frac { 1 } { 2 }PC=\\frac { 1 } { 2 }y\\)\n\\(\\because \\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)\n\\(\\therefore \\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如下图）\n\\(\\therefore \\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)\n〔图6〕\n连接\\(BD\\)、\\(AC\\)，\\(BD\\)交\\(MN\\)于点F，则\\(BD\\bot AC\\)，\n\\(\\because MN\\parallel AC\\)，\n\\(\\therefore MN\\bot BD\\)，\n\\(\\because MN=\\sqrt[] { 2 }\\)，\\(BD=4\\sqrt[] { 2 }\\)，\n\\(\\therefore BF=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DF=\\frac { 7\\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore PF=\\sqrt[] { PB ^ { 2 } -BF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\frac { \\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } }=\\frac { \\sqrt[] { 14 } } { 2 }\\)，\n\\(\\therefore PD=\\sqrt[] { DF ^ { 2 } +PF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7\\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 14 } } { 2 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)．",
+  "solution_steps": [
+    "【分析】（1）如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，利用勾股定理证明选项D正确；",
+    "（2）①连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，所以当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小；",
+    "②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，利用相似三角形的性质证明\\(PM=\\frac { 1 } { 2 }x\\)，\\(PN=\\frac { 1 } { 2 }y\\)，由\\(\\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)，推出\\(\\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如图），可得\\(\\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)，再求出此时\\(PD\\)的值即可．",
+    "【22题详解】",
+    "如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，则四边形\\(PEAF\\)、四边形\\(PGBF\\)、四边形\\(EGCD\\)都是矩形，",
+    "〔图3〕",
+    "\\(\\therefore AE=PF=GB\\)，\\(PE=AF\\)，\\(PG=BF\\)，\\(ED=GC\\)，",
+    "\\(\\because PA ^ { 2 } =PE ^ { 2 } +AE ^ { 2 }\\)，\\(PC ^ { 2 } =PG ^ { 2 } +CG ^ { 2 }\\)，\\(PB ^ { 2 } =PG ^ { 2 } +GB ^ { 2 }\\)，\\(PD ^ { 2 } =ED ^ { 2 } +PE ^ { 2 }\\)，",
+    "\\(\\therefore PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)，",
+    "故选：D；",
+    "【23题详解】",
+    "①\\(x ^ { 2 } +y ^ { 2 }\\)的最小值为\\(40-16\\sqrt[] { 2 }\\)．理由如下：",
+    "〔图4〕",
+    "如图所示，连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+    "由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，",
+    "\\(\\therefore\\)当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小，",
+    "而\\(PD\\ge BD-BP=4\\sqrt[] { 2 }-2\\)（等号成立时，点P位于\\(BD\\)上），",
+    "\\(\\therefore\\)\\(x ^ { 2 } +y ^ { 2 }\\)的最小为\\(2 ^ { 2 } +\\left ( { 4\\sqrt[] { 2 }-2 } \\right ) ^ { 2 } =40-16\\sqrt[] { 2 }\\)；",
+    "②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，",
+    "〔图5〕",
+    "\\(\\because PB=2\\)，\\(BM=1\\)，\\(BA=4\\)，",
+    "\\(\\therefore PB ^ { 2 } =BM\\cdot BA\\)，",
+    "\\(\\therefore \\frac { PB } { BM }=\\frac { BA } { PB }\\)，",
+    "\\(\\because \\angle PBM=\\angle ABP\\)",
+    "\\(\\therefore \\vartriangle PBM\\backsim \\vartriangle ABP\\)",
+    "\\(\\therefore PM:AP=PB:AB=1:2\\)",
+    "\\(\\therefore PM=\\frac { 1 } { 2 }x\\)",
+    "同理可得\\(PN=\\frac { 1 } { 2 }PC=\\frac { 1 } { 2 }y\\)",
+    "\\(\\because \\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)",
+    "\\(\\therefore \\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如下图）",
+    "\\(\\therefore \\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)",
+    "〔图6〕",
+    "连接\\(BD\\)、\\(AC\\)，\\(BD\\)交\\(MN\\)于点F，则\\(BD\\bot AC\\)，",
+    "\\(\\because MN\\parallel AC\\)，",
+    "\\(\\therefore MN\\bot BD\\)，",
+    "\\(\\because MN=\\sqrt[] { 2 }\\)，\\(BD=4\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore BF=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DF=\\frac { 7\\sqrt[] { 2 } } { 2 }\\)，",
+    "\\(\\therefore PF=\\sqrt[] { PB ^ { 2 } -BF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\frac { \\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } }=\\frac { \\sqrt[] { 14 } } { 2 }\\)，",
+    "\\(\\therefore PD=\\sqrt[] { DF ^ { 2 } +PF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7\\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 14 } } { 2 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "explore",
+      "kind": "figure",
+      "text": "【初步探究】矩形与平面任一点 P 如图。\n〔图1〕",
+      "paper_blocks": [
+        98,
+        99
+      ]
+    },
+    {
+      "id": "extend",
+      "kind": "text",
+      "text": "【深入探究】正方形 ABCD 的边长为4。点 P 在以 B 为圆心、半径为2的圆上，PA=x，PC=y。连接 PA、PC、PD。可使用（1）的结论。\n〔图2〕",
+      "paper_blocks": [
+        102,
+        103,
+        104
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-FC32935028-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，四边形\\(ABCD\\)是矩形，点P是平面内任一点，则下列结论成立的是（    ）\nA．\\(PA+PD=PB+PC\\)；B．\\(PA+PC=PB+PD\\)\nC．\\(PA ^ { 2 } +PD ^ { 2 } =PB ^ { 2 } +PC ^ { 2 }\\)；D．\\(PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)",
+      "stem_text": "如图1，四边形\\(ABCD\\)是矩形，点P是平面内任一点，则下列结论成立的是（    ）\nA．\\(PA+PD=PB+PC\\)；B．\\(PA+PC=PB+PD\\)\nC．\\(PA ^ { 2 } +PD ^ { 2 } =PB ^ { 2 } +PC ^ { 2 }\\)；D．\\(PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)",
+      "source": {
+        "paper_block_ids": [
+          98,
+          99,
+          100,
+          101
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420
+        ],
+        "supplemental_papers": [
+          {
+            "pdf": "assets/SZ-G9-T2-0EE041DC01/paper.pdf",
+            "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学试卷】2024年5月深圳市福田区二模真题.pdf",
+            "sha256": "0ee041dc01ecb99b2bf815859eee0eededea37b8cb5f7161588f75476e8bc97e",
+            "pages": [
+              6
+            ],
+            "print_page_count": 6,
+            "label": "福田区扫描原卷",
+            "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+          }
+        ],
+        "supplemental_solutions": [
+          {
+            "pdf": "assets/SZ-G9-T2-0EE041DC01/solution.pdf",
+            "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学答案】2024年5月深圳市福田区二模真题.pdf",
+            "sha256": "875b3aa1ed1262b3e326552605427e7d8047a107b7625240789126d3a6e38c80",
+            "pages": [
+              6
+            ],
+            "print_page_count": 8,
+            "label": "福田区评分标准",
+            "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+          }
+        ],
+        "question_pages": [
+          8
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "explore"
+      ],
+      "answer": "D",
+      "given_answer": "D",
+      "given_solution": "【22题详解】\n如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，则四边形\\(PEAF\\)、四边形\\(PGBF\\)、四边形\\(EGCD\\)都是矩形，\n〔图3〕\n\\(\\therefore AE=PF=GB\\)，\\(PE=AF\\)，\\(PG=BF\\)，\\(ED=GC\\)，\n\\(\\because PA ^ { 2 } =PE ^ { 2 } +AE ^ { 2 }\\)，\\(PC ^ { 2 } =PG ^ { 2 } +CG ^ { 2 }\\)，\\(PB ^ { 2 } =PG ^ { 2 } +GB ^ { 2 }\\)，\\(PD ^ { 2 } =ED ^ { 2 } +PE ^ { 2 }\\)，\n\\(\\therefore PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)，\n故选：D；",
+      "solution_steps": [
+        "【22题详解】",
+        "如图所示，过点P作\\(PF\\bot AB\\)于点F，\\(PE\\bot DA\\)交\\(DA\\)的延长线于点E，交\\(CB\\)的延长线于点G，则四边形\\(PEAF\\)、四边形\\(PGBF\\)、四边形\\(EGCD\\)都是矩形，",
+        "〔图3〕",
+        "\\(\\therefore AE=PF=GB\\)，\\(PE=AF\\)，\\(PG=BF\\)，\\(ED=GC\\)，",
+        "\\(\\because PA ^ { 2 } =PE ^ { 2 } +AE ^ { 2 }\\)，\\(PC ^ { 2 } =PG ^ { 2 } +CG ^ { 2 }\\)，\\(PB ^ { 2 } =PG ^ { 2 } +GB ^ { 2 }\\)，\\(PD ^ { 2 } =ED ^ { 2 } +PE ^ { 2 }\\)，",
+        "\\(\\therefore PA ^ { 2 } +PC ^ { 2 } =PB ^ { 2 } +PD ^ { 2 }\\)，",
+        "故选：D；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-FC32935028-Q22-P02",
+      "label": "（2）①",
+      "prompt": "①求\\(x ^ { 2 } +y ^ { 2 }\\)的最小值；",
+      "stem_text": "①求\\(x ^ { 2 } +y ^ { 2 }\\)的最小值；",
+      "source": {
+        "paper_block_ids": [
+          105
+        ],
+        "solution_block_ids": [
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428
+        ],
+        "supplemental_papers": [
+          {
+            "pdf": "assets/SZ-G9-T2-0EE041DC01/paper.pdf",
+            "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学试卷】2024年5月深圳市福田区二模真题.pdf",
+            "sha256": "0ee041dc01ecb99b2bf815859eee0eededea37b8cb5f7161588f75476e8bc97e",
+            "pages": [
+              6
+            ],
+            "print_page_count": 6,
+            "label": "福田区扫描原卷",
+            "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+          }
+        ],
+        "supplemental_solutions": [
+          {
+            "pdf": "assets/SZ-G9-T2-0EE041DC01/solution.pdf",
+            "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学答案】2024年5月深圳市福田区二模真题.pdf",
+            "sha256": "875b3aa1ed1262b3e326552605427e7d8047a107b7625240789126d3a6e38c80",
+            "pages": [
+              6
+            ],
+            "print_page_count": 8,
+            "label": "福田区评分标准",
+            "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+          }
+        ],
+        "question_pages": [
+          8,
+          9
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "extend"
+      ],
+      "answer": "40−16√2",
+      "given_answer": "40−16√2",
+      "given_solution": "【23题详解】\n①\\(x ^ { 2 } +y ^ { 2 }\\)的最小值为\\(40-16\\sqrt[] { 2 }\\)．理由如下：\n〔图4〕\n如图所示，连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\n由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，\n\\(\\therefore\\)当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小，\n而\\(PD\\ge BD-BP=4\\sqrt[] { 2 }-2\\)（等号成立时，点P位于\\(BD\\)上），\n\\(\\therefore\\)\\(x ^ { 2 } +y ^ { 2 }\\)的最小为\\(2 ^ { 2 } +\\left ( { 4\\sqrt[] { 2 }-2 } \\right ) ^ { 2 } =40-16\\sqrt[] { 2 }\\)；",
+      "solution_steps": [
+        "【23题详解】",
+        "①\\(x ^ { 2 } +y ^ { 2 }\\)的最小值为\\(40-16\\sqrt[] { 2 }\\)．理由如下：",
+        "〔图4〕",
+        "如图所示，连接\\(BP\\)、\\(BD\\)，则\\(BD=\\sqrt[] { 4 ^ { 2 } +4 ^ { 2 } }=4\\sqrt[] { 2 }\\)，",
+        "由（1）知，\\(x ^ { 2 } +y ^ { 2 } =2 ^ { 2 } +PD ^ { 2 }\\)，",
+        "\\(\\therefore\\)当\\(PD\\)最小时，\\(x ^ { 2 } +y ^ { 2 }\\)的最小，",
+        "而\\(PD\\ge BD-BP=4\\sqrt[] { 2 }-2\\)（等号成立时，点P位于\\(BD\\)上），",
+        "\\(\\therefore\\)\\(x ^ { 2 } +y ^ { 2 }\\)的最小为\\(2 ^ { 2 } +\\left ( { 4\\sqrt[] { 2 }-2 } \\right ) ^ { 2 } =40-16\\sqrt[] { 2 }\\)；"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-FC32935028-Q22-P03",
+      "label": "（2）②",
+      "prompt": "②直接写出\\(\\left | { x-y } \\right |\\)的最大值，并直接写出此时\\(PD\\)的长．",
+      "stem_text": "②直接写出\\(\\left | { x-y } \\right |\\)的最大值，并直接写出此时\\(PD\\)的长．",
+      "source": {
+        "paper_block_ids": [
+          106
+        ],
+        "solution_block_ids": [
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449
+        ],
+        "supplemental_papers": [
+          {
+            "pdf": "assets/SZ-G9-T2-0EE041DC01/paper.pdf",
+            "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学试卷】2024年5月深圳市福田区二模真题.pdf",
+            "sha256": "0ee041dc01ecb99b2bf815859eee0eededea37b8cb5f7161588f75476e8bc97e",
+            "pages": [
+              6
+            ],
+            "print_page_count": 6,
+            "label": "福田区扫描原卷",
+            "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+          }
+        ],
+        "supplemental_solutions": [
+          {
+            "pdf": "assets/SZ-G9-T2-0EE041DC01/solution.pdf",
+            "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学答案】2024年5月深圳市福田区二模真题.pdf",
+            "sha256": "875b3aa1ed1262b3e326552605427e7d8047a107b7625240789126d3a6e38c80",
+            "pages": [
+              6,
+              7,
+              8
+            ],
+            "print_page_count": 8,
+            "label": "福田区评分标准",
+            "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+          }
+        ],
+        "question_pages": [
+          8,
+          9
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "extend"
+      ],
+      "answer": "|x−y|的最大值为2√2，此时PD=2√7。",
+      "given_answer": "|x−y|的最大值为2√2，此时PD=2√7。",
+      "given_solution": "②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，\n〔图5〕\n\\(\\because PB=2\\)，\\(BM=1\\)，\\(BA=4\\)，\n\\(\\therefore PB ^ { 2 } =BM\\cdot BA\\)，\n\\(\\therefore \\frac { PB } { BM }=\\frac { BA } { PB }\\)，\n\\(\\because \\angle PBM=\\angle ABP\\)\n\\(\\therefore \\vartriangle PBM\\backsim \\vartriangle ABP\\)\n\\(\\therefore PM:AP=PB:AB=1:2\\)\n\\(\\therefore PM=\\frac { 1 } { 2 }x\\)\n同理可得\\(PN=\\frac { 1 } { 2 }PC=\\frac { 1 } { 2 }y\\)\n\\(\\because \\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)\n\\(\\therefore \\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如下图）\n\\(\\therefore \\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)\n〔图6〕\n连接\\(BD\\)、\\(AC\\)，\\(BD\\)交\\(MN\\)于点F，则\\(BD\\bot AC\\)，\n\\(\\because MN\\parallel AC\\)，\n\\(\\therefore MN\\bot BD\\)，\n\\(\\because MN=\\sqrt[] { 2 }\\)，\\(BD=4\\sqrt[] { 2 }\\)，\n\\(\\therefore BF=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DF=\\frac { 7\\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore PF=\\sqrt[] { PB ^ { 2 } -BF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\frac { \\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } }=\\frac { \\sqrt[] { 14 } } { 2 }\\)，\n\\(\\therefore PD=\\sqrt[] { DF ^ { 2 } +PF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7\\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 14 } } { 2 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)．",
+      "solution_steps": [
+        "②如图所示，在\\(BA\\)、\\(BC\\)上分别截取\\(BM=BN=1\\)，",
+        "〔图5〕",
+        "\\(\\because PB=2\\)，\\(BM=1\\)，\\(BA=4\\)，",
+        "\\(\\therefore PB ^ { 2 } =BM\\cdot BA\\)，",
+        "\\(\\therefore \\frac { PB } { BM }=\\frac { BA } { PB }\\)，",
+        "\\(\\because \\angle PBM=\\angle ABP\\)",
+        "\\(\\therefore \\vartriangle PBM\\backsim \\vartriangle ABP\\)",
+        "\\(\\therefore PM:AP=PB:AB=1:2\\)",
+        "\\(\\therefore PM=\\frac { 1 } { 2 }x\\)",
+        "同理可得\\(PN=\\frac { 1 } { 2 }PC=\\frac { 1 } { 2 }y\\)",
+        "\\(\\because \\left | { PM-PN } \\right |\\le MN=\\sqrt[] { 2 }\\)",
+        "\\(\\therefore \\left | { x-y } \\right |\\le 2\\sqrt[] { 2 }\\)（等号成立时，点P在直线\\(MN\\)与\\(\\odot B\\)的交点处，如下图）",
+        "\\(\\therefore \\left | { x-y } \\right |\\)的最大值为\\(2\\sqrt[] { 2 }\\)",
+        "〔图6〕",
+        "连接\\(BD\\)、\\(AC\\)，\\(BD\\)交\\(MN\\)于点F，则\\(BD\\bot AC\\)，",
+        "\\(\\because MN\\parallel AC\\)，",
+        "\\(\\therefore MN\\bot BD\\)，",
+        "\\(\\because MN=\\sqrt[] { 2 }\\)，\\(BD=4\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore BF=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DF=\\frac { 7\\sqrt[] { 2 } } { 2 }\\)，",
+        "\\(\\therefore PF=\\sqrt[] { PB ^ { 2 } -BF ^ { 2 } }=\\sqrt[] { 2 ^ { 2 } -\\left ( { \\frac { \\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } }=\\frac { \\sqrt[] { 14 } } { 2 }\\)，",
+        "\\(\\therefore PD=\\sqrt[] { DF ^ { 2 } +PF ^ { 2 } }=\\sqrt[] { \\left ( { \\frac { 7\\sqrt[] { 2 } } { 2 } } \\right ) ^ { 2 } +\\left ( { \\frac { \\sqrt[] { 14 } } { 2 } } \\right ) ^ { 2 } }=2\\sqrt[] { 7 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5,
+        6
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "扫描原卷第22题的（1）和（2）在Word整理版标成22、23。第（2）②答案栏只列PD，详解另写出最大值2√2。",
+  "source": {
+    "paper_body_blocks": [
+      98,
+      106
+    ],
+    "solution_body_blocks": [
+      400,
+      450
+    ],
+    "supplemental_papers": [
+      {
+        "pdf": "assets/SZ-G9-T2-0EE041DC01/paper.pdf",
+        "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学试卷】2024年5月深圳市福田区二模真题.pdf",
+        "sha256": "0ee041dc01ecb99b2bf815859eee0eededea37b8cb5f7161588f75476e8bc97e",
+        "pages": [
+          6
+        ],
+        "print_page_count": 6,
+        "label": "福田区扫描原卷",
+        "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+      }
+    ],
+    "supplemental_solutions": [
+      {
+        "pdf": "assets/SZ-G9-T2-0EE041DC01/solution.pdf",
+        "git_path": "初中数学试卷/深圳9下数学（含中考模拟）/深圳数学9下一二模/2024年广东省深圳市福田区 中考二模 数学试题/2023-2024年5月福田区中考二模数学真题卷&答案/【数学答案】2024年5月深圳市福田区二模真题.pdf",
+        "sha256": "875b3aa1ed1262b3e326552605427e7d8047a107b7625240789126d3a6e38c80",
+        "pages": [
+          6,
+          7,
+          8
+        ],
+        "print_page_count": 8,
+        "label": "福田区评分标准",
+        "note": "区考原始印刷版。原卷第22题包含两小问，第二问内另列①②。"
+      }
+    ],
+    "question_pages": [
+      8,
+      9
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-FC32935028/paper-q22-p08.webp",
+      "assets/SZ-G9-T2-FC32935028/paper-q22-p09.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          518.64,
+          583.64,
+          740.0
+        ]
+      },
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          225.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-FC32935028/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-FC32935028/solution-q22-p24.webp",
+      "assets/SZ-G9-T2-FC32935028/solution-q22-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          348.18,
+          583.64,
+          760.91
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          595.45
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,485 @@
+{
+  "id": "SZ-G9-T1-198A193CBF-Q19",
+  "paper_id": "SZ-G9-T1-198A193CBF",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "把题给几何新定义转成检验条件、由勾股关系求直角三角形边长",
+  "stem": "【了解概念】\n定义提出：有一组邻边相等的凸四边形叫做“等邻边四边形”．\n【理解运用】\n（1）如图1，在\\(3\\times 3\\)的正方形网格中，每个小正方形的顶点称为格点，每个小正方形的边长均为1，线段\\(AB、BC\\)的端点均在格点上，在图1的方格纸中画出一个等邻边四边形\\(ABCD\\)，要求：点D在格点上；\n（2）如图2，在等邻边四边形\\(ABCD\\)，\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，\\(\\angle ABC=90{}^\\circ\\)，\\(BC=3\\sqrt[] { 3 }\\)，求\\(CD\\)的长；\n【拓展提升】\n（3）如图3，在平面直角坐标系中，矩形\\(OABC\\)的顶点A、C分别在x、y轴正半轴上，已知\\(OC=4\\)，\\(OA=6\\)，D是\\(OA\\)的中点．在矩形\\(OABC\\)内或边上，是否存在点E，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，若存在，请求出四边形\\(OCED\\)的最大面积及此时点E的坐标；若不存在，请说明理由．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-198A193CBF/figures/4d6498899b6858b20222176f8a7620b72b564d98fb11ef9cfd992fdf967574af.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(\\sqrt[] { 7 }\\)；（3）存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)",
+  "answer": "（1）见解析；（2）\\(\\sqrt[] { 7 }\\)；（3）存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)",
+  "given_solution": "【分析】（1）根据“等邻边四边形”的定义画图即可；\n（2）如图所示，过点D作\\(DE\\bot BC\\)于E，连接\\(BD\\)，可证\\(\\vartriangle ABD\\)是等边三角形，得到\\(BD=AB=4，\\angle ABD=60{}^\\circ\\)，则\\(\\angle DBE=30{}^\\circ\\)，利用勾股定理和含30度角的直角三角形的性质求出\\(DE=2\\)，\\(BE=2\\sqrt[] { 3 }\\)，\\(CE=\\sqrt[] { 3 }\\)，即可利用勾股定理得到\\(CD=\\sqrt[] { 7 }\\)；\n（3）如图3-1所示，当\\(OC=EC=4\\)时，过点E作\\(ET\\bot y\\)轴于T，可以得到当点E从点F向点Q运动的过程中，由于\\(\\angle ECT\\)逐渐变大，而\\(CE\\)保持不变，即此运动过程中\\(TE\\)逐渐变大，\\(CT\\)逐渐变小，即\\(OT\\)逐渐变大，即可得到当点E运动到点Q时，\\(S_{ 四边形OCED }\\)最大；如图3-2所示，当\\(OD=DE=3\\)时，当点E在过点E且与\\(CD\\)平行的直线上时，\\(S_{ 四边形OCED }\\)最大；如图3-3所示，当\\(EC=ED\\)时，则点E在线段\\(CD\\)的垂直平分线上，可以得到当点E运动到\\(BC\\)上时，此时\\(S_{ 四边形OCED }\\)最大；据此求出这三种情况下的\\(S_{ 四边形OCED }\\)的最大值即可得到答案．\n【详解】解：（1）如图所示，四边形\\(ABCD\\)即为所求；\n∵\\(AB=AD=1\\)，\n∴四边形\\(ABCD\\)是“等邻边四边形”；\n〔图2〕\n（2）如图所示，过点D作\\(DE\\bot BC\\)于E，连接\\(BD\\)，\n∵\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(BD=AB=4，\\angle ABD=60{}^\\circ\\)，\n∵\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle DBE=30{}^\\circ\\)，\n∴\\(DE=\\frac { 1 } { 2 }BD=2\\)，\n∴\\(BE=\\sqrt[] { BD ^ { 2 } -DE ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∵\\(BC=3\\sqrt[] { 3 }\\)，\n∴\\(CE=BC-BE=\\sqrt[] { 3 }\\)，\n∴\\(CD=\\sqrt[] { DE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 7 }\\)；\n〔图3〕\n（3）如图3-1所示，当\\(OC=EC=4\\)时，过点E作\\(ET\\bot y\\)轴于T，\n∴点E在以C为圆心，4为半径的圆上运动，\n设\\(\\odot C\\)交\\(CD\\)于F，交\\(BC\\)于Q，\n当点E从点F向点Q运动的过程中，由于\\(\\angle ECT\\)逐渐变大，而\\(CE\\)保持不变，\n∴此运动过程中\\(TE\\)逐渐变大，\\(CT\\)逐渐变小，即\\(OT\\)逐渐变大，\n∵\\(D\\)是\\(OA\\)的中点，\\(OA=6\\) ，\n∴\\(OD=3\\)，\n∴\\(S_{ 四边形OCED } =S_{ \\vartriangle COE } +S_{ \\vartriangle DOE }\\)\n\\(=\\frac { 1 } { 2 }OC\\cdot ET+\\frac { 1 } { 2 }OD\\cdot OT\\)\n\\(=2TE+\\frac { 3 } { 2 }OT\\)，\n∵\\(TE\\)逐渐变大，\\(OT\\)逐渐变大，\n∴\\(S_{ 四边形OCED }\\)逐渐变大，\n∴当点E运动到点Q时，\\(S_{ 四边形OCED }\\)最大，\n∴\\(CQ=OC=4\\)，\n∴\\(S_{\\text{四边形}OCED,\\max} =S_{ 梯形OCQD } =\\frac { OD+CQ } { 2 }\\cdot OC=14\\)；\n〔图4〕\n如图3-2所示，当\\(OD=DE=3\\)时，\n∴点E在以D为圆心，3为半径的圆上运动，\n∵\\(S_{ 四边形OCED } =S_{ \\vartriangle COD } +S_{ \\vartriangle CDE }\\)，\\(S_{ \\vartriangle COD }\\)为定值，\n∴当\\(S_{ \\vartriangle CDE }\\)最大时，\\(S_{ 四边形OCED }\\)最大，\n∴当点E到\\(CD\\)的距离最大时，\\(S_{ 四边形OCED }\\)最大，\n∴此时点E在过点E且与\\(CD\\)平行的直线上，且该直线与\\(\\odot D\\)相切，\n∴此时\\(\\angle CDE=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，由勾股定理得\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=5\\)，\n∴\\(S_{ 四边形OCED最大 } =\\frac { 1 } { 2 }OC\\cdot OD+\\frac { 1 } { 2 }DE\\cdot CD=\\frac { 1 } { 2 }\\times 4\\times 3+\\frac { 1 } { 2 }\\times 3\\times 5=13.5\\)；\n〔图5〕\n如图3-3所示，当\\(EC=ED\\)时，则点E在线段\\(CD\\)的垂直平分线上，\n∴当点E运动到\\(BC\\)上时，此时\\(S_{ 四边形OCED }\\)最大，\n过点D作\\(DM\\bot BC\\)于M，则四边形\\(OCMD\\)是矩形，\n∴\\(DM=OC=4\\)，\\(CM=OD=3\\)，\n设\\(CE=DE=m\\)，则\\(ME=CE-CM=m-3\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DME\\)中，由勾股定理得\\(DE ^ { 2 } =DM ^ { 2 } +ME ^ { 2 }\\)，\n∴\\(4 ^ { 2 } +\\left ( { m-3 } \\right ) ^ { 2 } =m ^ { 2 }\\)，\n解得\\(m=\\frac { 25 } { 6 }\\)，则\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，\n∴\\(S_{\\text{四边形}OCED,\\max} =\\frac { CE+OD } { 2 }\\cdot OC=\\frac { \\frac { 25 } { 6 }+3 } { 2 }\\times 4=\\frac { 43 } { 3 }\\)；\n∵\\(\\frac { 43 } { 3 }>14>13.5\\)，\n∴存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)．\n〔图6〕\n【点睛】本题主要考查了四边形综合，切线的性质，等边三角形的性质与判定，一次函数与几何综合，坐标与图形，矩形的性质与判定，勾股定理等等，正确作出辅助线，利用分类讨论的思想求解是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-198A193CBF/figures/4d6498899b6858b20222176f8a7620b72b564d98fb11ef9cfd992fdf967574af.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/ee7ed0a7a692a0c5da73a7ad7134b0ac09ecda45f6faf999ed0ad6fe537fe0ac.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/a37c643571ec80195048883422656a3d5a1aefd3bc5e6fca71c88c351e8a9bd3.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/7903499817870ccee1257cec218f7885c93eba5ca91f4ece9ee5222bf835eabe.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/24fc772a1228fcbd4ed47b1f33d66cde0407e0dc516d9789359ac8b8fc140859.png",
+    "assets/SZ-G9-T1-198A193CBF/figures/fc7e083d9397341b5e69e05e861d896ef1cdde3ec8a6f4b5878572d817b18af9.png"
+  ],
+  "solution": "解：（1）如图所示，四边形\\(ABCD\\)即为所求；\n∵\\(AB=AD=1\\)，\n∴四边形\\(ABCD\\)是“等邻边四边形”；\n〔图2〕\n（2）如图所示，过点D作\\(DE\\bot BC\\)于E，连接\\(BD\\)，\n∵\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(BD=AB=4，\\angle ABD=60{}^\\circ\\)，\n∵\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle DBE=30{}^\\circ\\)，\n∴\\(DE=\\frac { 1 } { 2 }BD=2\\)，\n∴\\(BE=\\sqrt[] { BD ^ { 2 } -DE ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∵\\(BC=3\\sqrt[] { 3 }\\)，\n∴\\(CE=BC-BE=\\sqrt[] { 3 }\\)，\n∴\\(CD=\\sqrt[] { DE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 7 }\\)；\n〔图3〕\n（3）如图3-1所示，当\\(OC=EC=4\\)时，过点E作\\(ET\\bot y\\)轴于T，\n∴点E在以C为圆心，4为半径的圆上运动，\n设\\(\\odot C\\)交\\(CD\\)于F，交\\(BC\\)于Q，\n当点E从点F向点Q运动的过程中，由于\\(\\angle ECT\\)逐渐变大，而\\(CE\\)保持不变，\n∴此运动过程中\\(TE\\)逐渐变大，\\(CT\\)逐渐变小，即\\(OT\\)逐渐变大，\n∵\\(D\\)是\\(OA\\)的中点，\\(OA=6\\) ，\n∴\\(OD=3\\)，\n∴\\(S_{ 四边形OCED } =S_{ \\vartriangle COE } +S_{ \\vartriangle DOE }\\)\n\\(=\\frac { 1 } { 2 }OC\\cdot ET+\\frac { 1 } { 2 }OD\\cdot OT\\)\n\\(=2TE+\\frac { 3 } { 2 }OT\\)，\n∵\\(TE\\)逐渐变大，\\(OT\\)逐渐变大，\n∴\\(S_{ 四边形OCED }\\)逐渐变大，\n∴当点E运动到点Q时，\\(S_{ 四边形OCED }\\)最大，\n∴\\(CQ=OC=4\\)，\n∴\\(S_{\\text{四边形}OCED,\\max} =S_{ 梯形OCQD } =\\frac { OD+CQ } { 2 }\\cdot OC=14\\)；\n〔图4〕\n如图3-2所示，当\\(OD=DE=3\\)时，\n∴点E在以D为圆心，3为半径的圆上运动，\n∵\\(S_{ 四边形OCED } =S_{ \\vartriangle COD } +S_{ \\vartriangle CDE }\\)，\\(S_{ \\vartriangle COD }\\)为定值，\n∴当\\(S_{ \\vartriangle CDE }\\)最大时，\\(S_{ 四边形OCED }\\)最大，\n∴当点E到\\(CD\\)的距离最大时，\\(S_{ 四边形OCED }\\)最大，\n∴此时点E在过点E且与\\(CD\\)平行的直线上，且该直线与\\(\\odot D\\)相切，\n∴此时\\(\\angle CDE=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，由勾股定理得\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=5\\)，\n∴\\(S_{ 四边形OCED最大 } =\\frac { 1 } { 2 }OC\\cdot OD+\\frac { 1 } { 2 }DE\\cdot CD=\\frac { 1 } { 2 }\\times 4\\times 3+\\frac { 1 } { 2 }\\times 3\\times 5=13.5\\)；\n〔图5〕\n如图3-3所示，当\\(EC=ED\\)时，则点E在线段\\(CD\\)的垂直平分线上，\n∴当点E运动到\\(BC\\)上时，此时\\(S_{ 四边形OCED }\\)最大，\n过点D作\\(DM\\bot BC\\)于M，则四边形\\(OCMD\\)是矩形，\n∴\\(DM=OC=4\\)，\\(CM=OD=3\\)，\n设\\(CE=DE=m\\)，则\\(ME=CE-CM=m-3\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DME\\)中，由勾股定理得\\(DE ^ { 2 } =DM ^ { 2 } +ME ^ { 2 }\\)，\n∴\\(4 ^ { 2 } +\\left ( { m-3 } \\right ) ^ { 2 } =m ^ { 2 }\\)，\n解得\\(m=\\frac { 25 } { 6 }\\)，则\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，\n∴\\(S_{\\text{四边形}OCED,\\max} =\\frac { CE+OD } { 2 }\\cdot OC=\\frac { \\frac { 25 } { 6 }+3 } { 2 }\\times 4=\\frac { 43 } { 3 }\\)；\n∵\\(\\frac { 43 } { 3 }>14>13.5\\)，\n∴存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)．\n〔图6〕",
+  "solution_steps": [
+    "解：（1）如图所示，四边形\\(ABCD\\)即为所求；",
+    "∵\\(AB=AD=1\\)，",
+    "∴四边形\\(ABCD\\)是“等邻边四边形”；",
+    "〔图2〕",
+    "（2）如图所示，过点D作\\(DE\\bot BC\\)于E，连接\\(BD\\)，",
+    "∵\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle ABD\\)是等边三角形，",
+    "∴\\(BD=AB=4，\\angle ABD=60{}^\\circ\\)，",
+    "∵\\(\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(\\angle DBE=30{}^\\circ\\)，",
+    "∴\\(DE=\\frac { 1 } { 2 }BD=2\\)，",
+    "∴\\(BE=\\sqrt[] { BD ^ { 2 } -DE ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+    "∵\\(BC=3\\sqrt[] { 3 }\\)，",
+    "∴\\(CE=BC-BE=\\sqrt[] { 3 }\\)，",
+    "∴\\(CD=\\sqrt[] { DE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 7 }\\)；",
+    "〔图3〕",
+    "（3）如图3-1所示，当\\(OC=EC=4\\)时，过点E作\\(ET\\bot y\\)轴于T，",
+    "∴点E在以C为圆心，4为半径的圆上运动，",
+    "设\\(\\odot C\\)交\\(CD\\)于F，交\\(BC\\)于Q，",
+    "当点E从点F向点Q运动的过程中，由于\\(\\angle ECT\\)逐渐变大，而\\(CE\\)保持不变，",
+    "∴此运动过程中\\(TE\\)逐渐变大，\\(CT\\)逐渐变小，即\\(OT\\)逐渐变大，",
+    "∵\\(D\\)是\\(OA\\)的中点，\\(OA=6\\) ，",
+    "∴\\(OD=3\\)，",
+    "∴\\(S_{ 四边形OCED } =S_{ \\vartriangle COE } +S_{ \\vartriangle DOE }\\)",
+    "\\(=\\frac { 1 } { 2 }OC\\cdot ET+\\frac { 1 } { 2 }OD\\cdot OT\\)",
+    "\\(=2TE+\\frac { 3 } { 2 }OT\\)，",
+    "∵\\(TE\\)逐渐变大，\\(OT\\)逐渐变大，",
+    "∴\\(S_{ 四边形OCED }\\)逐渐变大，",
+    "∴当点E运动到点Q时，\\(S_{ 四边形OCED }\\)最大，",
+    "∴\\(CQ=OC=4\\)，",
+    "∴\\(S_{\\text{四边形}OCED,\\max} =S_{ 梯形OCQD } =\\frac { OD+CQ } { 2 }\\cdot OC=14\\)；",
+    "〔图4〕",
+    "如图3-2所示，当\\(OD=DE=3\\)时，",
+    "∴点E在以D为圆心，3为半径的圆上运动，",
+    "∵\\(S_{ 四边形OCED } =S_{ \\vartriangle COD } +S_{ \\vartriangle CDE }\\)，\\(S_{ \\vartriangle COD }\\)为定值，",
+    "∴当\\(S_{ \\vartriangle CDE }\\)最大时，\\(S_{ 四边形OCED }\\)最大，",
+    "∴当点E到\\(CD\\)的距离最大时，\\(S_{ 四边形OCED }\\)最大，",
+    "∴此时点E在过点E且与\\(CD\\)平行的直线上，且该直线与\\(\\odot D\\)相切，",
+    "∴此时\\(\\angle CDE=90{}^\\circ\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，由勾股定理得\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=5\\)，",
+    "∴\\(S_{ 四边形OCED最大 } =\\frac { 1 } { 2 }OC\\cdot OD+\\frac { 1 } { 2 }DE\\cdot CD=\\frac { 1 } { 2 }\\times 4\\times 3+\\frac { 1 } { 2 }\\times 3\\times 5=13.5\\)；",
+    "〔图5〕",
+    "如图3-3所示，当\\(EC=ED\\)时，则点E在线段\\(CD\\)的垂直平分线上，",
+    "∴当点E运动到\\(BC\\)上时，此时\\(S_{ 四边形OCED }\\)最大，",
+    "过点D作\\(DM\\bot BC\\)于M，则四边形\\(OCMD\\)是矩形，",
+    "∴\\(DM=OC=4\\)，\\(CM=OD=3\\)，",
+    "设\\(CE=DE=m\\)，则\\(ME=CE-CM=m-3\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DME\\)中，由勾股定理得\\(DE ^ { 2 } =DM ^ { 2 } +ME ^ { 2 }\\)，",
+    "∴\\(4 ^ { 2 } +\\left ( { m-3 } \\right ) ^ { 2 } =m ^ { 2 }\\)，",
+    "解得\\(m=\\frac { 25 } { 6 }\\)，则\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，",
+    "∴\\(S_{\\text{四边形}OCED,\\max} =\\frac { CE+OD } { 2 }\\cdot OC=\\frac { \\frac { 25 } { 6 }+3 } { 2 }\\times 4=\\frac { 43 } { 3 }\\)；",
+    "∵\\(\\frac { 43 } { 3 }>14>13.5\\)，",
+    "∴存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)．",
+    "〔图6〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【了解概念】\n定义提出：有一组邻边相等的凸四边形叫做“等邻边四边形”．\n【理解运用】",
+      "paper_blocks": [
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "id": "fig-65",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-198A193CBF-Q19-P01",
+      "label": "（1）",
+      "prompt": "如图1，在\\(3\\times 3\\)的正方形网格中，每个小正方形的顶点称为格点，每个小正方形的边长均为1，线段\\(AB、BC\\)的端点均在格点上，在图1的方格纸中画出一个等邻边四边形\\(ABCD\\)，要求：点D在格点上；",
+      "stem_text": "如图1，在\\(3\\times 3\\)的正方形网格中，每个小正方形的顶点称为格点，每个小正方形的边长均为1，线段\\(AB、BC\\)的端点均在格点上，在图1的方格纸中画出一个等邻边四边形\\(ABCD\\)，要求：点D在格点上；",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "如图所示，四边形\\(ABCD\\)即为所求；\n∵\\(AB=AD=1\\)，\n∴四边形\\(ABCD\\)是“等邻边四边形”；\n〔图2〕",
+      "solution_steps": [
+        "如图所示，四边形\\(ABCD\\)即为所求；",
+        "∵\\(AB=AD=1\\)，",
+        "∴四边形\\(ABCD\\)是“等邻边四边形”；",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          61,
+          65
+        ],
+        "solution_block_ids": [
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G13.01"
+      ],
+      "exam_ids": [
+        "E.G13.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“把题给几何新定义转成检验条件”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-198A193CBF-Q19-P02",
+      "label": "（2）",
+      "prompt": "如图2，在等邻边四边形\\(ABCD\\)，\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，\\(\\angle ABC=90{}^\\circ\\)，\\(BC=3\\sqrt[] { 3 }\\)，求\\(CD\\)的长；\n【拓展提升】",
+      "stem_text": "如图2，在等邻边四边形\\(ABCD\\)，\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，\\(\\angle ABC=90{}^\\circ\\)，\\(BC=3\\sqrt[] { 3 }\\)，求\\(CD\\)的长；\n【拓展提升】",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 7 }\\)；",
+      "answer": "\\(\\sqrt[] { 7 }\\)；",
+      "given_solution": "如图所示，过点D作\\(DE\\bot BC\\)于E，连接\\(BD\\)，\n∵\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，\n∴\\(\\vartriangle ABD\\)是等边三角形，\n∴\\(BD=AB=4，\\angle ABD=60{}^\\circ\\)，\n∵\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(\\angle DBE=30{}^\\circ\\)，\n∴\\(DE=\\frac { 1 } { 2 }BD=2\\)，\n∴\\(BE=\\sqrt[] { BD ^ { 2 } -DE ^ { 2 } }=2\\sqrt[] { 3 }\\)，\n∵\\(BC=3\\sqrt[] { 3 }\\)，\n∴\\(CE=BC-BE=\\sqrt[] { 3 }\\)，\n∴\\(CD=\\sqrt[] { DE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 7 }\\)；\n〔图3〕",
+      "solution_steps": [
+        "如图所示，过点D作\\(DE\\bot BC\\)于E，连接\\(BD\\)，",
+        "∵\\(AB=AD=4\\)，\\(\\angle A=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle ABD\\)是等边三角形，",
+        "∴\\(BD=AB=4，\\angle ABD=60{}^\\circ\\)，",
+        "∵\\(\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(\\angle DBE=30{}^\\circ\\)，",
+        "∴\\(DE=\\frac { 1 } { 2 }BD=2\\)，",
+        "∴\\(BE=\\sqrt[] { BD ^ { 2 } -DE ^ { 2 } }=2\\sqrt[] { 3 }\\)，",
+        "∵\\(BC=3\\sqrt[] { 3 }\\)，",
+        "∴\\(CE=BC-BE=\\sqrt[] { 3 }\\)，",
+        "∴\\(CD=\\sqrt[] { DE ^ { 2 } +CE ^ { 2 } }=\\sqrt[] { 7 }\\)；",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          62,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-198A193CBF-Q19-P03",
+      "label": "（3）",
+      "prompt": "如图3，在平面直角坐标系中，矩形\\(OABC\\)的顶点A、C分别在x、y轴正半轴上，已知\\(OC=4\\)，\\(OA=6\\)，D是\\(OA\\)的中点．在矩形\\(OABC\\)内或边上，是否存在点E，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，若存在，请求出四边形\\(OCED\\)的最大面积及此时点E的坐标；若不存在，请说明理由．",
+      "stem_text": "如图3，在平面直角坐标系中，矩形\\(OABC\\)的顶点A、C分别在x、y轴正半轴上，已知\\(OC=4\\)，\\(OA=6\\)，D是\\(OA\\)的中点．在矩形\\(OABC\\)内或边上，是否存在点E，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，若存在，请求出四边形\\(OCED\\)的最大面积及此时点E的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)",
+      "answer": "存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)",
+      "given_solution": "如图3-1所示，当\\(OC=EC=4\\)时，过点E作\\(ET\\bot y\\)轴于T，\n∴点E在以C为圆心，4为半径的圆上运动，\n设\\(\\odot C\\)交\\(CD\\)于F，交\\(BC\\)于Q，\n当点E从点F向点Q运动的过程中，由于\\(\\angle ECT\\)逐渐变大，而\\(CE\\)保持不变，\n∴此运动过程中\\(TE\\)逐渐变大，\\(CT\\)逐渐变小，即\\(OT\\)逐渐变大，\n∵\\(D\\)是\\(OA\\)的中点，\\(OA=6\\) ，\n∴\\(OD=3\\)，\n∴\\(S_{ 四边形OCED } =S_{ \\vartriangle COE } +S_{ \\vartriangle DOE }\\)\n\\(=\\frac { 1 } { 2 }OC\\cdot ET+\\frac { 1 } { 2 }OD\\cdot OT\\)\n\\(=2TE+\\frac { 3 } { 2 }OT\\)，\n∵\\(TE\\)逐渐变大，\\(OT\\)逐渐变大，\n∴\\(S_{ 四边形OCED }\\)逐渐变大，\n∴当点E运动到点Q时，\\(S_{ 四边形OCED }\\)最大，\n∴\\(CQ=OC=4\\)，\n∴\\(S_{\\text{四边形}OCED,\\max} =S_{ 梯形OCQD } =\\frac { OD+CQ } { 2 }\\cdot OC=14\\)；\n〔图4〕\n如图3-2所示，当\\(OD=DE=3\\)时，\n∴点E在以D为圆心，3为半径的圆上运动，\n∵\\(S_{ 四边形OCED } =S_{ \\vartriangle COD } +S_{ \\vartriangle CDE }\\)，\\(S_{ \\vartriangle COD }\\)为定值，\n∴当\\(S_{ \\vartriangle CDE }\\)最大时，\\(S_{ 四边形OCED }\\)最大，\n∴当点E到\\(CD\\)的距离最大时，\\(S_{ 四边形OCED }\\)最大，\n∴此时点E在过点E且与\\(CD\\)平行的直线上，且该直线与\\(\\odot D\\)相切，\n∴此时\\(\\angle CDE=90{}^\\circ\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，由勾股定理得\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=5\\)，\n∴\\(S_{ 四边形OCED最大 } =\\frac { 1 } { 2 }OC\\cdot OD+\\frac { 1 } { 2 }DE\\cdot CD=\\frac { 1 } { 2 }\\times 4\\times 3+\\frac { 1 } { 2 }\\times 3\\times 5=13.5\\)；\n〔图5〕\n如图3-3所示，当\\(EC=ED\\)时，则点E在线段\\(CD\\)的垂直平分线上，\n∴当点E运动到\\(BC\\)上时，此时\\(S_{ 四边形OCED }\\)最大，\n过点D作\\(DM\\bot BC\\)于M，则四边形\\(OCMD\\)是矩形，\n∴\\(DM=OC=4\\)，\\(CM=OD=3\\)，\n设\\(CE=DE=m\\)，则\\(ME=CE-CM=m-3\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DME\\)中，由勾股定理得\\(DE ^ { 2 } =DM ^ { 2 } +ME ^ { 2 }\\)，\n∴\\(4 ^ { 2 } +\\left ( { m-3 } \\right ) ^ { 2 } =m ^ { 2 }\\)，\n解得\\(m=\\frac { 25 } { 6 }\\)，则\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，\n∴\\(S_{\\text{四边形}OCED,\\max} =\\frac { CE+OD } { 2 }\\cdot OC=\\frac { \\frac { 25 } { 6 }+3 } { 2 }\\times 4=\\frac { 43 } { 3 }\\)；\n∵\\(\\frac { 43 } { 3 }>14>13.5\\)，\n∴存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)．\n〔图6〕",
+      "solution_steps": [
+        "如图3-1所示，当\\(OC=EC=4\\)时，过点E作\\(ET\\bot y\\)轴于T，",
+        "∴点E在以C为圆心，4为半径的圆上运动，",
+        "设\\(\\odot C\\)交\\(CD\\)于F，交\\(BC\\)于Q，",
+        "当点E从点F向点Q运动的过程中，由于\\(\\angle ECT\\)逐渐变大，而\\(CE\\)保持不变，",
+        "∴此运动过程中\\(TE\\)逐渐变大，\\(CT\\)逐渐变小，即\\(OT\\)逐渐变大，",
+        "∵\\(D\\)是\\(OA\\)的中点，\\(OA=6\\) ，",
+        "∴\\(OD=3\\)，",
+        "∴\\(S_{ 四边形OCED } =S_{ \\vartriangle COE } +S_{ \\vartriangle DOE }\\)",
+        "\\(=\\frac { 1 } { 2 }OC\\cdot ET+\\frac { 1 } { 2 }OD\\cdot OT\\)",
+        "\\(=2TE+\\frac { 3 } { 2 }OT\\)，",
+        "∵\\(TE\\)逐渐变大，\\(OT\\)逐渐变大，",
+        "∴\\(S_{ 四边形OCED }\\)逐渐变大，",
+        "∴当点E运动到点Q时，\\(S_{ 四边形OCED }\\)最大，",
+        "∴\\(CQ=OC=4\\)，",
+        "∴\\(S_{\\text{四边形}OCED,\\max} =S_{ 梯形OCQD } =\\frac { OD+CQ } { 2 }\\cdot OC=14\\)；",
+        "〔图4〕",
+        "如图3-2所示，当\\(OD=DE=3\\)时，",
+        "∴点E在以D为圆心，3为半径的圆上运动，",
+        "∵\\(S_{ 四边形OCED } =S_{ \\vartriangle COD } +S_{ \\vartriangle CDE }\\)，\\(S_{ \\vartriangle COD }\\)为定值，",
+        "∴当\\(S_{ \\vartriangle CDE }\\)最大时，\\(S_{ 四边形OCED }\\)最大，",
+        "∴当点E到\\(CD\\)的距离最大时，\\(S_{ 四边形OCED }\\)最大，",
+        "∴此时点E在过点E且与\\(CD\\)平行的直线上，且该直线与\\(\\odot D\\)相切，",
+        "∴此时\\(\\angle CDE=90{}^\\circ\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle COD\\)中，由勾股定理得\\(CD=\\sqrt[] { OC ^ { 2 } +OD ^ { 2 } }=5\\)，",
+        "∴\\(S_{ 四边形OCED最大 } =\\frac { 1 } { 2 }OC\\cdot OD+\\frac { 1 } { 2 }DE\\cdot CD=\\frac { 1 } { 2 }\\times 4\\times 3+\\frac { 1 } { 2 }\\times 3\\times 5=13.5\\)；",
+        "〔图5〕",
+        "如图3-3所示，当\\(EC=ED\\)时，则点E在线段\\(CD\\)的垂直平分线上，",
+        "∴当点E运动到\\(BC\\)上时，此时\\(S_{ 四边形OCED }\\)最大，",
+        "过点D作\\(DM\\bot BC\\)于M，则四边形\\(OCMD\\)是矩形，",
+        "∴\\(DM=OC=4\\)，\\(CM=OD=3\\)，",
+        "设\\(CE=DE=m\\)，则\\(ME=CE-CM=m-3\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle DME\\)中，由勾股定理得\\(DE ^ { 2 } =DM ^ { 2 } +ME ^ { 2 }\\)，",
+        "∴\\(4 ^ { 2 } +\\left ( { m-3 } \\right ) ^ { 2 } =m ^ { 2 }\\)，",
+        "解得\\(m=\\frac { 25 } { 6 }\\)，则\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，",
+        "∴\\(S_{\\text{四边形}OCED,\\max} =\\frac { CE+OD } { 2 }\\cdot OC=\\frac { \\frac { 25 } { 6 }+3 } { 2 }\\times 4=\\frac { 43 } { 3 }\\)；",
+        "∵\\(\\frac { 43 } { 3 }>14>13.5\\)，",
+        "∴存在点\\(E\\left ( { \\frac { 25 } { 6 }，4 } \\right )\\)，使四边形\\(OCED\\)为面积最大的“等邻边四边形”，四边形\\(OCED\\)的最大面积为\\(\\frac { 43 } { 3 }\\)．",
+        "〔图6〕"
+      ],
+      "solution_figure_ids": [
+        4,
+        5,
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19,
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G13.01"
+      ],
+      "exam_ids": [
+        "E.G13.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“把题给几何新定义转成检验条件”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      65
+    ],
+    "solution_body_blocks": [
+      310,
+      377
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-198A193CBF/paper-q19-p05.webp",
+      "assets/SZ-G9-T1-198A193CBF/paper-q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          707.73,
+          583.64,
+          768.64
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          364.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-198A193CBF/solution-q19-p17.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q19-p18.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q19-p19.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q19-p20.webp",
+      "assets/SZ-G9-T1-198A193CBF/solution-q19-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          348.64,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          733.18
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          731.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          630.45
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          282.73
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G13.01",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G13.01.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“把题给几何新定义转成检验条件”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

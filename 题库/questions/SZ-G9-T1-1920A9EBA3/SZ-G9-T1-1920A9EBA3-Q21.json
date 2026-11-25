@@ -1,0 +1,368 @@
+{
+  "id": "SZ-G9-T1-1920A9EBA3-Q21",
+  "paper_id": "SZ-G9-T1-1920A9EBA3",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "把题给几何新定义转成检验条件、分解组合图形求边角",
+  "stem": "我们定义：有一组邻边相等的凸四边形叫做“等邻边四边形”．\n〔图1〕\n（1）已知：如图1，四边形ABCD的顶点A，B，C在网格格点上，请你在如下的5〔图2〕7的网格中画出3个不同形状的等邻边四边形ABCD，要求顶点D在网格格点上 ；\n（2）如图2，矩形ABCD中，AB=\\(\\frac { 20 } { 7 }\\)，BC=5，点E在BC边上，连结DE画AF〔图3〕DE于点F，若DE=\\(\\frac { 5 } { 4 }\\)CD，找出图中的等邻边四边形；\n（3）如图3，在Rt〔图4〕ABC中，〔图5〕ACB=90°，AB=4，AC=2，D是BC的中点，点M是AB边上一点，当四边形ACDM是“等邻边四边形”时，求BM的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-1920A9EBA3/figures/aef16778c212e49a0c0bb9c0c8cb6117dc7b09530111d9e84ff8ea5f0a6b1a40.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/697d8af6f8ba52d2cf44198d3022f43011b58fad5b9838e8d1f1c3c12271989b.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/be1b7a54891df7b46643385e6ceb0e6c0c2fe500162e26986bd62088cf964d0a.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/ae1017d85eef6d8e667586d8cb3e90d582c77eab15ac2815a913edf5cc68d69a.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/a61f3b9adfb3b241f98308ae8a0e8e5220d5fd445e834eff446c5b6f174ecc42.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）四边形ABEF和四边形ABED都是等邻边四边形；（3）当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．",
+  "answer": "（1）见解析；（2）四边形ABEF和四边形ABED都是等邻边四边形；（3）当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．",
+  "given_solution": "【分析】（1）根据”等邻边四边形”的定义画出3个不同形状的等邻边四边形；\n（2）根据题意求出DE，根据勾股定理求出CE，计算得到BE=AB，根据等邻边四边形的定义判断即可；\n（3）分AM=AC、DM=DC、MA=MD三种情况，根据勾股定理、等腰三角形的性质计算即可．\n【详解】（1）3个不同形状的等邻边四边形ABCD如图所示：\n〔图6〕\n（2）四边形ABEF和四边形ABED都是等邻边四边形，\n∵四边形ABCD是矩形，\n∴AD=BC=5，CD=AB=\\(\\frac { 20 } { 7 }\\)，\n∴DE=\\(\\frac { 5 } { 4 }\\)CD=\\(\\frac { 25 } { 7 }\\)，\n由勾股定理得，CE=\\(\\sqrt[] { DE ^ { 2 } -DC ^ { 2 } }\\)=\\(\\frac { 15 } { 7 }\\)，\n∴BE=BC-CE=5-\\(\\frac { 15 } { 7 }\\)=\\(\\frac { 20 } { 7 }\\)，\n∴BE=AB，\n∴四边形ABEF和四边形ABED都是等邻边四边形；\n（3）①当AM=AC时，BM=2；\n②当DM=DC时，如图3，作DH⊥AB于H，\n〔图7〕\n∵∠ACB=90°，AB=4，AC=2，\n∴BC=〔图8〕，∠B=30°，\n∴BD=DM=\\(\\sqrt[] { 3 }\\)，\n在Rt△BDH中，BH=BD×cosB=\\(\\frac { 3 } { 2 }\\)，\n∵DM=DB，DH⊥AB，\n∴BM=2BH=3；\n③当MA=MD时，如图4，作DH⊥AB于H，\n〔图9〕\n设MA=MD=x，\n由②得，BH=\\(\\frac { 3 } { 2 }\\)，DH=\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n则MH=4-x-\\(\\frac { 3 } { 2 }\\)=\\(\\frac { 5 } { 2 }\\)-x，\n在Rt△MDH中，DM\\({}^{2}\\)=MH\\({}^{2}\\)+DH\\({}^{2}\\)，即x\\({}^{2}\\)=（\\(\\frac { 5 } { 2 }\\)-x）\\({}^{2}\\)+（\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)）\\({}^{2}\\)，\n解得，x=\\(\\frac { 7 } { 5 }\\)，即AM=\\(\\frac { 7 } { 5 }\\)，\n∴BM=4-\\(\\frac { 7 } { 5 }\\)=\\(\\frac { 13 } { 5 }\\)，\n综上所述，当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．\n【点睛】本题考查的是矩形的性质、等腰三角形的性质以及直角三角形的性质，掌握“等邻边四边形”的概念、矩形的性质定理是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-1920A9EBA3/figures/aef16778c212e49a0c0bb9c0c8cb6117dc7b09530111d9e84ff8ea5f0a6b1a40.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/697d8af6f8ba52d2cf44198d3022f43011b58fad5b9838e8d1f1c3c12271989b.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/be1b7a54891df7b46643385e6ceb0e6c0c2fe500162e26986bd62088cf964d0a.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/ae1017d85eef6d8e667586d8cb3e90d582c77eab15ac2815a913edf5cc68d69a.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/a61f3b9adfb3b241f98308ae8a0e8e5220d5fd445e834eff446c5b6f174ecc42.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/3ac82508fac119c77a84aded89dbe5dc07335b3c816db4dababd0bd64c2fdfe5.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/bc9d4c5479fb019318d24546591a1900f9bd9915a874beb97d773b4c47b3c2be.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/6182cfa9a462fb9f8c935d0e6294e424821354e921f3eac00a8a6cf9eedf4b55.png",
+    "assets/SZ-G9-T1-1920A9EBA3/figures/3eb2608f8047ec542ee4272a21a56845eef423a558ba3b07c3da83a9cf1d7ef1.png"
+  ],
+  "solution": "（1）3个不同形状的等邻边四边形ABCD如图所示：\n〔图6〕\n（2）四边形ABEF和四边形ABED都是等邻边四边形，\n∵四边形ABCD是矩形，\n∴AD=BC=5，CD=AB=\\(\\frac { 20 } { 7 }\\)，\n∴DE=\\(\\frac { 5 } { 4 }\\)CD=\\(\\frac { 25 } { 7 }\\)，\n由勾股定理得，CE=\\(\\sqrt[] { DE ^ { 2 } -DC ^ { 2 } }\\)=\\(\\frac { 15 } { 7 }\\)，\n∴BE=BC-CE=5-\\(\\frac { 15 } { 7 }\\)=\\(\\frac { 20 } { 7 }\\)，\n∴BE=AB，\n∴四边形ABEF和四边形ABED都是等邻边四边形；\n（3）①当AM=AC时，BM=2；\n②当DM=DC时，如图3，作DH⊥AB于H，\n〔图7〕\n∵∠ACB=90°，AB=4，AC=2，\n∴BC=〔图8〕，∠B=30°，\n∴BD=DM=\\(\\sqrt[] { 3 }\\)，\n在Rt△BDH中，BH=BD×cosB=\\(\\frac { 3 } { 2 }\\)，\n∵DM=DB，DH⊥AB，\n∴BM=2BH=3；\n③当MA=MD时，如图4，作DH⊥AB于H，\n〔图9〕\n设MA=MD=x，\n由②得，BH=\\(\\frac { 3 } { 2 }\\)，DH=\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n则MH=4-x-\\(\\frac { 3 } { 2 }\\)=\\(\\frac { 5 } { 2 }\\)-x，\n在Rt△MDH中，DM\\({}^{2}\\)=MH\\({}^{2}\\)+DH\\({}^{2}\\)，即x\\({}^{2}\\)=（\\(\\frac { 5 } { 2 }\\)-x）\\({}^{2}\\)+（\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)）\\({}^{2}\\)，\n解得，x=\\(\\frac { 7 } { 5 }\\)，即AM=\\(\\frac { 7 } { 5 }\\)，\n∴BM=4-\\(\\frac { 7 } { 5 }\\)=\\(\\frac { 13 } { 5 }\\)，\n综上所述，当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．",
+  "solution_steps": [
+    "（1）3个不同形状的等邻边四边形ABCD如图所示：",
+    "〔图6〕",
+    "（2）四边形ABEF和四边形ABED都是等邻边四边形，",
+    "∵四边形ABCD是矩形，",
+    "∴AD=BC=5，CD=AB=\\(\\frac { 20 } { 7 }\\)，",
+    "∴DE=\\(\\frac { 5 } { 4 }\\)CD=\\(\\frac { 25 } { 7 }\\)，",
+    "由勾股定理得，CE=\\(\\sqrt[] { DE ^ { 2 } -DC ^ { 2 } }\\)=\\(\\frac { 15 } { 7 }\\)，",
+    "∴BE=BC-CE=5-\\(\\frac { 15 } { 7 }\\)=\\(\\frac { 20 } { 7 }\\)，",
+    "∴BE=AB，",
+    "∴四边形ABEF和四边形ABED都是等邻边四边形；",
+    "（3）①当AM=AC时，BM=2；",
+    "②当DM=DC时，如图3，作DH⊥AB于H，",
+    "〔图7〕",
+    "∵∠ACB=90°，AB=4，AC=2，",
+    "∴BC=〔图8〕，∠B=30°，",
+    "∴BD=DM=\\(\\sqrt[] { 3 }\\)，",
+    "在Rt△BDH中，BH=BD×cosB=\\(\\frac { 3 } { 2 }\\)，",
+    "∵DM=DB，DH⊥AB，",
+    "∴BM=2BH=3；",
+    "③当MA=MD时，如图4，作DH⊥AB于H，",
+    "〔图9〕",
+    "设MA=MD=x，",
+    "由②得，BH=\\(\\frac { 3 } { 2 }\\)，DH=\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+    "则MH=4-x-\\(\\frac { 3 } { 2 }\\)=\\(\\frac { 5 } { 2 }\\)-x，",
+    "在Rt△MDH中，DM\\({}^{2}\\)=MH\\({}^{2}\\)+DH\\({}^{2}\\)，即x\\({}^{2}\\)=（\\(\\frac { 5 } { 2 }\\)-x）\\({}^{2}\\)+（\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)）\\({}^{2}\\)，",
+    "解得，x=\\(\\frac { 7 } { 5 }\\)，即AM=\\(\\frac { 7 } { 5 }\\)，",
+    "∴BM=4-\\(\\frac { 7 } { 5 }\\)=\\(\\frac { 13 } { 5 }\\)，",
+    "综上所述，当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "我们定义：有一组邻边相等的凸四边形叫做“等邻边四边形”．\n〔图1〕",
+      "paper_blocks": [
+        58,
+        59
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-1920A9EBA3-Q21-P01",
+      "label": "（1）",
+      "prompt": "已知：如图1，四边形ABCD的顶点A，B，C在网格格点上，请你在如下的5〔图2〕7的网格中画出3个不同形状的等邻边四边形ABCD，要求顶点D在网格格点上 ；",
+      "stem_text": "已知：如图1，四边形ABCD的顶点A，B，C在网格格点上，请你在如下的5〔图2〕7的网格中画出3个不同形状的等邻边四边形ABCD，要求顶点D在网格格点上 ；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "3个不同形状的等邻边四边形ABCD如图所示：\n〔图6〕",
+      "solution_steps": [
+        "3个不同形状的等邻边四边形ABCD如图所示：",
+        "〔图6〕"
+      ],
+      "solution_figure_ids": [
+        6
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          60
+        ],
+        "solution_block_ids": [
+          304,
+          305
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G13.01"
+      ],
+      "exam_ids": [
+        "E.G13.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“把题给几何新定义转成检验条件”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-1920A9EBA3-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图2，矩形ABCD中，AB=\\(\\frac { 20 } { 7 }\\)，BC=5，点E在BC边上，连结DE画AF〔图3〕DE于点F，若DE=\\(\\frac { 5 } { 4 }\\)CD，找出图中的等邻边四边形；",
+      "stem_text": "如图2，矩形ABCD中，AB=\\(\\frac { 20 } { 7 }\\)，BC=5，点E在BC边上，连结DE画AF〔图3〕DE于点F，若DE=\\(\\frac { 5 } { 4 }\\)CD，找出图中的等邻边四边形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "四边形ABEF和四边形ABED都是等邻边四边形；",
+      "answer": "四边形ABEF和四边形ABED都是等邻边四边形；",
+      "given_solution": "四边形ABEF和四边形ABED都是等邻边四边形，\n∵四边形ABCD是矩形，\n∴AD=BC=5，CD=AB=\\(\\frac { 20 } { 7 }\\)，\n∴DE=\\(\\frac { 5 } { 4 }\\)CD=\\(\\frac { 25 } { 7 }\\)，\n由勾股定理得，CE=\\(\\sqrt[] { DE ^ { 2 } -DC ^ { 2 } }\\)=\\(\\frac { 15 } { 7 }\\)，\n∴BE=BC-CE=5-\\(\\frac { 15 } { 7 }\\)=\\(\\frac { 20 } { 7 }\\)，\n∴BE=AB，\n∴四边形ABEF和四边形ABED都是等邻边四边形；",
+      "solution_steps": [
+        "四边形ABEF和四边形ABED都是等邻边四边形，",
+        "∵四边形ABCD是矩形，",
+        "∴AD=BC=5，CD=AB=\\(\\frac { 20 } { 7 }\\)，",
+        "∴DE=\\(\\frac { 5 } { 4 }\\)CD=\\(\\frac { 25 } { 7 }\\)，",
+        "由勾股定理得，CE=\\(\\sqrt[] { DE ^ { 2 } -DC ^ { 2 } }\\)=\\(\\frac { 15 } { 7 }\\)，",
+        "∴BE=BC-CE=5-\\(\\frac { 15 } { 7 }\\)=\\(\\frac { 20 } { 7 }\\)，",
+        "∴BE=AB，",
+        "∴四边形ABEF和四边形ABED都是等邻边四边形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          61
+        ],
+        "solution_block_ids": [
+          306,
+          307,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G13.01"
+      ],
+      "exam_ids": [
+        "E.G13.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“把题给几何新定义转成检验条件”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-1920A9EBA3-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图3，在Rt〔图4〕ABC中，〔图5〕ACB=90°，AB=4，AC=2，D是BC的中点，点M是AB边上一点，当四边形ACDM是“等邻边四边形”时，求BM的长．",
+      "stem_text": "如图3，在Rt〔图4〕ABC中，〔图5〕ACB=90°，AB=4，AC=2，D是BC的中点，点M是AB边上一点，当四边形ACDM是“等邻边四边形”时，求BM的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．",
+      "answer": "当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．",
+      "given_solution": "①当AM=AC时，BM=2；\n②当DM=DC时，如图3，作DH⊥AB于H，\n〔图7〕\n∵∠ACB=90°，AB=4，AC=2，\n∴BC=〔图8〕，∠B=30°，\n∴BD=DM=\\(\\sqrt[] { 3 }\\)，\n在Rt△BDH中，BH=BD×cosB=\\(\\frac { 3 } { 2 }\\)，\n∵DM=DB，DH⊥AB，\n∴BM=2BH=3；\n③当MA=MD时，如图4，作DH⊥AB于H，\n〔图9〕\n设MA=MD=x，\n由②得，BH=\\(\\frac { 3 } { 2 }\\)，DH=\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)，\n则MH=4-x-\\(\\frac { 3 } { 2 }\\)=\\(\\frac { 5 } { 2 }\\)-x，\n在Rt△MDH中，DM\\({}^{2}\\)=MH\\({}^{2}\\)+DH\\({}^{2}\\)，即x\\({}^{2}\\)=（\\(\\frac { 5 } { 2 }\\)-x）\\({}^{2}\\)+（\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)）\\({}^{2}\\)，\n解得，x=\\(\\frac { 7 } { 5 }\\)，即AM=\\(\\frac { 7 } { 5 }\\)，\n∴BM=4-\\(\\frac { 7 } { 5 }\\)=\\(\\frac { 13 } { 5 }\\)，\n综上所述，当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．",
+      "solution_steps": [
+        "①当AM=AC时，BM=2；",
+        "②当DM=DC时，如图3，作DH⊥AB于H，",
+        "〔图7〕",
+        "∵∠ACB=90°，AB=4，AC=2，",
+        "∴BC=〔图8〕，∠B=30°，",
+        "∴BD=DM=\\(\\sqrt[] { 3 }\\)，",
+        "在Rt△BDH中，BH=BD×cosB=\\(\\frac { 3 } { 2 }\\)，",
+        "∵DM=DB，DH⊥AB，",
+        "∴BM=2BH=3；",
+        "③当MA=MD时，如图4，作DH⊥AB于H，",
+        "〔图9〕",
+        "设MA=MD=x，",
+        "由②得，BH=\\(\\frac { 3 } { 2 }\\)，DH=\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)，",
+        "则MH=4-x-\\(\\frac { 3 } { 2 }\\)=\\(\\frac { 5 } { 2 }\\)-x，",
+        "在Rt△MDH中，DM\\({}^{2}\\)=MH\\({}^{2}\\)+DH\\({}^{2}\\)，即x\\({}^{2}\\)=（\\(\\frac { 5 } { 2 }\\)-x）\\({}^{2}\\)+（\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)）\\({}^{2}\\)，",
+        "解得，x=\\(\\frac { 7 } { 5 }\\)，即AM=\\(\\frac { 7 } { 5 }\\)，",
+        "∴BM=4-\\(\\frac { 7 } { 5 }\\)=\\(\\frac { 13 } { 5 }\\)，",
+        "综上所述，当BM为2或3或\\(\\frac { 13 } { 5 }\\)时，四边形ACDM是“等邻边四边形”．"
+      ],
+      "solution_figure_ids": [
+        7,
+        8,
+        9
+      ],
+      "source": {
+        "paper_block_ids": [
+          58,
+          59,
+          62
+        ],
+        "solution_block_ids": [
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      58,
+      62
+    ],
+    "solution_body_blocks": [
+      294,
+      332
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-1920A9EBA3/paper-q21-p05.webp",
+      "assets/SZ-G9-T1-1920A9EBA3/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          632.73,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          166.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-1920A9EBA3/solution-q21-p17.webp",
+      "assets/SZ-G9-T1-1920A9EBA3/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-1920A9EBA3/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          499.09,
+          583.64,
+          665.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          48.18,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          48.64,
+          583.64,
+          455.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G13.01",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G13.01.02",
+    "E.G10.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“把题给几何新定义转成检验条件”。 本问题面与解答对应“分解组合图形求边角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

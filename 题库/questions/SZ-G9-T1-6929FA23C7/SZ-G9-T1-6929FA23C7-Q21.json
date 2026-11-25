@@ -1,0 +1,380 @@
+{
+  "id": "SZ-G9-T1-6929FA23C7-Q21",
+  "paper_id": "SZ-G9-T1-6929FA23C7",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "根据独立条件确定二次函数表达式、由边角条件解直角三角形",
+  "stem": "如图，在平面直角坐标系中，直线\\(y=4x+4\\)与x轴交于A点，与y轴交于C点，抛物线\\(y=ax ^ { 2 } +\\frac { 8 } { 3 }x+c\\left ( { a\\ne 0 } \\right )\\)经过A，C两点，与x轴相交于另一点B，连接\\(BC\\)．点P是线段\\(BC\\)上方抛物线上的一个动点，过点P作\\(PQ\\bot BC\\)交线段BC于点Q．\n〔图1〕\n（1）求抛物线的解析式；\n（2）求\\(PQ\\)的最大值，并写出此时点P的坐标；\n（3）在x轴上找一点M，抛物线上找一点N，使以点B，C，M，N为顶点的四边形是平行四边形，请直接写出点M的坐标．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-6929FA23C7/figures/685a9bec2464fed2abdede20da29bb9a61a990b40f679f9ad805f1bfda4b8d84.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)\n（2）\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)\n（3）\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)",
+  "answer": "（1）\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)\n（2）\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)\n（3）\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)",
+  "given_solution": "【分析】（1）先求出点B和点C的坐标，利用待定系数法即可求出抛物线的解析式；\n（2）过点P作\\(PH\\parallel y\\)轴交\\(BC\\)于点H，求出直线\\(BC\\)的表达式为：\\(y=-\\frac { 4 } { 3 }x+4\\)，设点\\(P\\left ( { x,-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4 } \\right )\\)，则\\(H\\left ( { x,-\\frac { 4 } { 3 }x+4 } \\right )\\)，则\\(PH=-\\frac { 4 } { 3 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +3\\)，当\\(x=\\frac { 3 } { 2 }\\)时，\\(PH\\)的最大值为3，则点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)，利用三角函数得到\\(PQ=PHsin\\angle PHQ=\\frac { 3 } { 5 }PH\\)，则当\\(PH\\)最大时，\\(PQ\\)最大，得到\\(PQ\\)的最大值为\\(\\frac { 3 } { 5 }\\times 3=\\frac { 9 } { 5 }\\)，即可得到答案；\n（3）设点\\(M\\left ( { x,0 } \\right )\\)、点\\(N\\left ( { m,n } \\right )\\)，则\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，分当\\(BC\\)是对角线、当\\(BM\\)或\\(BN\\)为对角线三种情况分别进行求解即可．\n【小问1详解】\n对于\\(y=4x+4\\)，当\\(x=0\\)时，\\(y=4\\)，当\\(y=0\\)时，\\(x{ \\rm{ = } }-{ \\rm{ 1 } }\\)，\n故点A、C的坐标分别为：\\(\\left ( { -1,0 } \\right ),\\left ( { 0,4 } \\right )\\)，\n则\\(\\begin{cases} c=4 \\\\ a-\\frac { 8 } { 3 }+c=0 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 4 } { 3 } \\\\ c=4 \\end{cases}\\)，\n则抛物线的表达式为：\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)；\n【小问2详解】\n过点P作\\(PH\\parallel y\\)轴交\\(BC\\)于点H，\n〔图2〕\n当\\(y=0\\)时，\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=0\\)，\n解得\\(x_{ ^ { 1 } } =-1,x_{ ^ { 2 } } =3\\)，\n∴点B的坐标是\\(\\left ( { 3,0 } \\right )\\)，\n设直线\\(BC\\)的表达式为\\(y=kx+m\\)，把点B和点C的坐标代入，\n\\(\\begin{cases} 3k+m=0 \\\\ m=4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ m=4 \\end{cases}\\)，\n∴直线\\(BC\\)的表达式为：\\(y=-\\frac { 4 } { 3 }x+4\\)，\n设点\\(P\\left ( { x,-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4 } \\right )\\)，则\\(H\\left ( { x,-\\frac { 4 } { 3 }x+4 } \\right )\\)，\n则\\(PH=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4-\\left ( { -\\frac { 4 } { 3 }x+4 } \\right )=-\\frac { 4 } { 3 }x ^ { 2 } +4x=-\\frac { 4 } { 3 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +3\\)，\n∵\\(-\\frac { 4 } { 3 } < 0\\)，\n∴当\\(x=\\frac { 3 } { 2 }\\)时，\\(PH\\)的最大值为3，\n此时\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=5\\)，\n则点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)，\n∵\\(PH\\parallel y\\)轴，则\\(\\angle PHQ=\\angle OCB\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle BOC=90{}^\\circ\\)，\\(BO=3，CO=4\\)，\n则\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n则\\(sin\\angle PHQ=sin\\angle OCB=\\frac { OB } { BC }=\\frac { 3 } { 5 }\\)，\n则\\(PQ=PHsin\\angle PHQ=\\frac { 3 } { 5 }PH\\)，\n即当\\(PH\\)最大时，\\(PQ\\)最大，\n故\\(PQ\\)的最大值为：\\(\\frac { 3 } { 5 }\\times 3=\\frac { 9 } { 5 }\\)，\n即\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，此时点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)；\n【小问3详解】\n设点\\(M\\left ( { x,0 } \\right )\\)、点\\(N\\left ( { m,n } \\right )\\)，\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n当\\(BC\\)是对角线时，\n由中点坐标公式得：\\(\\begin{cases} 3=x+m \\\\ 4=n \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n解得：\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=1 \\end{cases}\\)（不合题意的值已舍去），\n故点M的坐标为\\(\\left ( { 1,0 } \\right )\\)；\n当\\(BM\\)或\\(BN\\)为对角线时，由中点坐标公式得：\n\\(\\begin{cases} 3+x=m \\\\ 4+n=0 \\end{cases}\\)或\\(\\begin{cases} m+3=x \\\\ n=4 \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n解得：\\(\\begin{cases} m=1\\pm \\sqrt[] { 7 } \\\\ n=-4 \\\\ x=-2\\pm \\sqrt[] { 7 } \\end{cases}\\)或\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=5 \\end{cases}\\)，\n即点M的坐标为：\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)，\n综上，点M的坐标为：\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)．\n【点睛】此题考查了二次函数的图象和性质、一次函数的图象和性质、待定系数法求函数解析式、解直角三角形、勾股定理等知识，数形结合和分类讨论是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-6929FA23C7/figures/685a9bec2464fed2abdede20da29bb9a61a990b40f679f9ad805f1bfda4b8d84.png",
+    "assets/SZ-G9-T1-6929FA23C7/figures/706df7f0102be42c6a03f9287d4e321cd81d22e73aa8a58752ca2a009b04b895.png"
+  ],
+  "solution": "【小问1详解】\n对于\\(y=4x+4\\)，当\\(x=0\\)时，\\(y=4\\)，当\\(y=0\\)时，\\(x{ \\rm{ = } }-{ \\rm{ 1 } }\\)，\n故点A、C的坐标分别为：\\(\\left ( { -1,0 } \\right ),\\left ( { 0,4 } \\right )\\)，\n则\\(\\begin{cases} c=4 \\\\ a-\\frac { 8 } { 3 }+c=0 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 4 } { 3 } \\\\ c=4 \\end{cases}\\)，\n则抛物线的表达式为：\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)；\n【小问2详解】\n过点P作\\(PH\\parallel y\\)轴交\\(BC\\)于点H，\n〔图2〕\n当\\(y=0\\)时，\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=0\\)，\n解得\\(x_{ ^ { 1 } } =-1,x_{ ^ { 2 } } =3\\)，\n∴点B的坐标是\\(\\left ( { 3,0 } \\right )\\)，\n设直线\\(BC\\)的表达式为\\(y=kx+m\\)，把点B和点C的坐标代入，\n\\(\\begin{cases} 3k+m=0 \\\\ m=4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ m=4 \\end{cases}\\)，\n∴直线\\(BC\\)的表达式为：\\(y=-\\frac { 4 } { 3 }x+4\\)，\n设点\\(P\\left ( { x,-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4 } \\right )\\)，则\\(H\\left ( { x,-\\frac { 4 } { 3 }x+4 } \\right )\\)，\n则\\(PH=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4-\\left ( { -\\frac { 4 } { 3 }x+4 } \\right )=-\\frac { 4 } { 3 }x ^ { 2 } +4x=-\\frac { 4 } { 3 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +3\\)，\n∵\\(-\\frac { 4 } { 3 } < 0\\)，\n∴当\\(x=\\frac { 3 } { 2 }\\)时，\\(PH\\)的最大值为3，\n此时\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=5\\)，\n则点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)，\n∵\\(PH\\parallel y\\)轴，则\\(\\angle PHQ=\\angle OCB\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle BOC=90{}^\\circ\\)，\\(BO=3，CO=4\\)，\n则\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n则\\(sin\\angle PHQ=sin\\angle OCB=\\frac { OB } { BC }=\\frac { 3 } { 5 }\\)，\n则\\(PQ=PHsin\\angle PHQ=\\frac { 3 } { 5 }PH\\)，\n即当\\(PH\\)最大时，\\(PQ\\)最大，\n故\\(PQ\\)的最大值为：\\(\\frac { 3 } { 5 }\\times 3=\\frac { 9 } { 5 }\\)，\n即\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，此时点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)；\n【小问3详解】\n设点\\(M\\left ( { x,0 } \\right )\\)、点\\(N\\left ( { m,n } \\right )\\)，\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n当\\(BC\\)是对角线时，\n由中点坐标公式得：\\(\\begin{cases} 3=x+m \\\\ 4=n \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n解得：\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=1 \\end{cases}\\)（不合题意的值已舍去），\n故点M的坐标为\\(\\left ( { 1,0 } \\right )\\)；\n当\\(BM\\)或\\(BN\\)为对角线时，由中点坐标公式得：\n\\(\\begin{cases} 3+x=m \\\\ 4+n=0 \\end{cases}\\)或\\(\\begin{cases} m+3=x \\\\ n=4 \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n解得：\\(\\begin{cases} m=1\\pm \\sqrt[] { 7 } \\\\ n=-4 \\\\ x=-2\\pm \\sqrt[] { 7 } \\end{cases}\\)或\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=5 \\end{cases}\\)，\n即点M的坐标为：\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)，\n综上，点M的坐标为：\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "对于\\(y=4x+4\\)，当\\(x=0\\)时，\\(y=4\\)，当\\(y=0\\)时，\\(x{ \\rm{ = } }-{ \\rm{ 1 } }\\)，",
+    "故点A、C的坐标分别为：\\(\\left ( { -1,0 } \\right ),\\left ( { 0,4 } \\right )\\)，",
+    "则\\(\\begin{cases} c=4 \\\\ a-\\frac { 8 } { 3 }+c=0 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 4 } { 3 } \\\\ c=4 \\end{cases}\\)，",
+    "则抛物线的表达式为：\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)；",
+    "【小问2详解】",
+    "过点P作\\(PH\\parallel y\\)轴交\\(BC\\)于点H，",
+    "〔图2〕",
+    "当\\(y=0\\)时，\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=0\\)，",
+    "解得\\(x_{ ^ { 1 } } =-1,x_{ ^ { 2 } } =3\\)，",
+    "∴点B的坐标是\\(\\left ( { 3,0 } \\right )\\)，",
+    "设直线\\(BC\\)的表达式为\\(y=kx+m\\)，把点B和点C的坐标代入，",
+    "\\(\\begin{cases} 3k+m=0 \\\\ m=4 \\end{cases}\\)，",
+    "解得\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ m=4 \\end{cases}\\)，",
+    "∴直线\\(BC\\)的表达式为：\\(y=-\\frac { 4 } { 3 }x+4\\)，",
+    "设点\\(P\\left ( { x,-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4 } \\right )\\)，则\\(H\\left ( { x,-\\frac { 4 } { 3 }x+4 } \\right )\\)，",
+    "则\\(PH=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4-\\left ( { -\\frac { 4 } { 3 }x+4 } \\right )=-\\frac { 4 } { 3 }x ^ { 2 } +4x=-\\frac { 4 } { 3 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +3\\)，",
+    "∵\\(-\\frac { 4 } { 3 } < 0\\)，",
+    "∴当\\(x=\\frac { 3 } { 2 }\\)时，\\(PH\\)的最大值为3，",
+    "此时\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=5\\)，",
+    "则点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)，",
+    "∵\\(PH\\parallel y\\)轴，则\\(\\angle PHQ=\\angle OCB\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle BOC=90{}^\\circ\\)，\\(BO=3，CO=4\\)，",
+    "则\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+    "则\\(sin\\angle PHQ=sin\\angle OCB=\\frac { OB } { BC }=\\frac { 3 } { 5 }\\)，",
+    "则\\(PQ=PHsin\\angle PHQ=\\frac { 3 } { 5 }PH\\)，",
+    "即当\\(PH\\)最大时，\\(PQ\\)最大，",
+    "故\\(PQ\\)的最大值为：\\(\\frac { 3 } { 5 }\\times 3=\\frac { 9 } { 5 }\\)，",
+    "即\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，此时点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)；",
+    "【小问3详解】",
+    "设点\\(M\\left ( { x,0 } \\right )\\)、点\\(N\\left ( { m,n } \\right )\\)，\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，",
+    "当\\(BC\\)是对角线时，",
+    "由中点坐标公式得：\\(\\begin{cases} 3=x+m \\\\ 4=n \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，",
+    "解得：\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=1 \\end{cases}\\)（不合题意的值已舍去），",
+    "故点M的坐标为\\(\\left ( { 1,0 } \\right )\\)；",
+    "当\\(BM\\)或\\(BN\\)为对角线时，由中点坐标公式得：",
+    "\\(\\begin{cases} 3+x=m \\\\ 4+n=0 \\end{cases}\\)或\\(\\begin{cases} m+3=x \\\\ n=4 \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，",
+    "解得：\\(\\begin{cases} m=1\\pm \\sqrt[] { 7 } \\\\ n=-4 \\\\ x=-2\\pm \\sqrt[] { 7 } \\end{cases}\\)或\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=5 \\end{cases}\\)，",
+    "即点M的坐标为：\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)，",
+    "综上，点M的坐标为：\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在平面直角坐标系中，直线\\(y=4x+4\\)与x轴交于A点，与y轴交于C点，抛物线\\(y=ax ^ { 2 } +\\frac { 8 } { 3 }x+c\\left ( { a\\ne 0 } \\right )\\)经过A，C两点，与x轴相交于另一点B，连接\\(BC\\)．点P是线段\\(BC\\)上方抛物线上的一个动点，过点P作\\(PQ\\bot BC\\)交线段BC于点Q．\n〔图1〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-6929FA23C7-Q21-P01",
+      "label": "（1）",
+      "prompt": "求抛物线的解析式；",
+      "stem_text": "求抛物线的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)",
+      "answer": "\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)",
+      "given_solution": "对于\\(y=4x+4\\)，当\\(x=0\\)时，\\(y=4\\)，当\\(y=0\\)时，\\(x{ \\rm{ = } }-{ \\rm{ 1 } }\\)，\n故点A、C的坐标分别为：\\(\\left ( { -1,0 } \\right ),\\left ( { 0,4 } \\right )\\)，\n则\\(\\begin{cases} c=4 \\\\ a-\\frac { 8 } { 3 }+c=0 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 4 } { 3 } \\\\ c=4 \\end{cases}\\)，\n则抛物线的表达式为：\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)；",
+      "solution_steps": [
+        "对于\\(y=4x+4\\)，当\\(x=0\\)时，\\(y=4\\)，当\\(y=0\\)时，\\(x{ \\rm{ = } }-{ \\rm{ 1 } }\\)，",
+        "故点A、C的坐标分别为：\\(\\left ( { -1,0 } \\right ),\\left ( { 0,4 } \\right )\\)，",
+        "则\\(\\begin{cases} c=4 \\\\ a-\\frac { 8 } { 3 }+c=0 \\end{cases}\\)，解得：\\(\\begin{cases} a=-\\frac { 4 } { 3 } \\\\ c=4 \\end{cases}\\)，",
+        "则抛物线的表达式为：\\(y=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          313,
+          314,
+          315,
+          316
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-6929FA23C7-Q21-P02",
+      "label": "（2）",
+      "prompt": "求\\(PQ\\)的最大值，并写出此时点P的坐标；",
+      "stem_text": "求\\(PQ\\)的最大值，并写出此时点P的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)",
+      "answer": "\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)",
+      "given_solution": "过点P作\\(PH\\parallel y\\)轴交\\(BC\\)于点H，\n〔图2〕\n当\\(y=0\\)时，\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=0\\)，\n解得\\(x_{ ^ { 1 } } =-1,x_{ ^ { 2 } } =3\\)，\n∴点B的坐标是\\(\\left ( { 3,0 } \\right )\\)，\n设直线\\(BC\\)的表达式为\\(y=kx+m\\)，把点B和点C的坐标代入，\n\\(\\begin{cases} 3k+m=0 \\\\ m=4 \\end{cases}\\)，\n解得\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ m=4 \\end{cases}\\)，\n∴直线\\(BC\\)的表达式为：\\(y=-\\frac { 4 } { 3 }x+4\\)，\n设点\\(P\\left ( { x,-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4 } \\right )\\)，则\\(H\\left ( { x,-\\frac { 4 } { 3 }x+4 } \\right )\\)，\n则\\(PH=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4-\\left ( { -\\frac { 4 } { 3 }x+4 } \\right )=-\\frac { 4 } { 3 }x ^ { 2 } +4x=-\\frac { 4 } { 3 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +3\\)，\n∵\\(-\\frac { 4 } { 3 } < 0\\)，\n∴当\\(x=\\frac { 3 } { 2 }\\)时，\\(PH\\)的最大值为3，\n此时\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=5\\)，\n则点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)，\n∵\\(PH\\parallel y\\)轴，则\\(\\angle PHQ=\\angle OCB\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle BOC=90{}^\\circ\\)，\\(BO=3，CO=4\\)，\n则\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n则\\(sin\\angle PHQ=sin\\angle OCB=\\frac { OB } { BC }=\\frac { 3 } { 5 }\\)，\n则\\(PQ=PHsin\\angle PHQ=\\frac { 3 } { 5 }PH\\)，\n即当\\(PH\\)最大时，\\(PQ\\)最大，\n故\\(PQ\\)的最大值为：\\(\\frac { 3 } { 5 }\\times 3=\\frac { 9 } { 5 }\\)，\n即\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，此时点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)；",
+      "solution_steps": [
+        "过点P作\\(PH\\parallel y\\)轴交\\(BC\\)于点H，",
+        "〔图2〕",
+        "当\\(y=0\\)时，\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=0\\)，",
+        "解得\\(x_{ ^ { 1 } } =-1,x_{ ^ { 2 } } =3\\)，",
+        "∴点B的坐标是\\(\\left ( { 3,0 } \\right )\\)，",
+        "设直线\\(BC\\)的表达式为\\(y=kx+m\\)，把点B和点C的坐标代入，",
+        "\\(\\begin{cases} 3k+m=0 \\\\ m=4 \\end{cases}\\)，",
+        "解得\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ m=4 \\end{cases}\\)，",
+        "∴直线\\(BC\\)的表达式为：\\(y=-\\frac { 4 } { 3 }x+4\\)，",
+        "设点\\(P\\left ( { x,-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4 } \\right )\\)，则\\(H\\left ( { x,-\\frac { 4 } { 3 }x+4 } \\right )\\)，",
+        "则\\(PH=-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4-\\left ( { -\\frac { 4 } { 3 }x+4 } \\right )=-\\frac { 4 } { 3 }x ^ { 2 } +4x=-\\frac { 4 } { 3 }\\left ( { x-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +3\\)，",
+        "∵\\(-\\frac { 4 } { 3 } < 0\\)，",
+        "∴当\\(x=\\frac { 3 } { 2 }\\)时，\\(PH\\)的最大值为3，",
+        "此时\\(-\\frac { 4 } { 3 }x ^ { 2 } +\\frac { 8 } { 3 }x+4=5\\)，",
+        "则点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)，",
+        "∵\\(PH\\parallel y\\)轴，则\\(\\angle PHQ=\\angle OCB\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，\\(\\angle BOC=90{}^\\circ\\)，\\(BO=3，CO=4\\)，",
+        "则\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+        "则\\(sin\\angle PHQ=sin\\angle OCB=\\frac { OB } { BC }=\\frac { 3 } { 5 }\\)，",
+        "则\\(PQ=PHsin\\angle PHQ=\\frac { 3 } { 5 }PH\\)，",
+        "即当\\(PH\\)最大时，\\(PQ\\)最大，",
+        "故\\(PQ\\)的最大值为：\\(\\frac { 3 } { 5 }\\times 3=\\frac { 9 } { 5 }\\)，",
+        "即\\(PQ\\)的最大值为\\(\\frac { 9 } { 5 }\\)，此时点P的坐标为\\(\\left ( { \\frac { 3 } { 2 },5 } \\right )\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由边角条件解直角三角形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-6929FA23C7-Q21-P03",
+      "label": "（3）",
+      "prompt": "在x轴上找一点M，抛物线上找一点N，使以点B，C，M，N为顶点的四边形是平行四边形，请直接写出点M的坐标．",
+      "stem_text": "在x轴上找一点M，抛物线上找一点N，使以点B，C，M，N为顶点的四边形是平行四边形，请直接写出点M的坐标．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)",
+      "answer": "\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)",
+      "given_solution": "设点\\(M\\left ( { x,0 } \\right )\\)、点\\(N\\left ( { m,n } \\right )\\)，\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n当\\(BC\\)是对角线时，\n由中点坐标公式得：\\(\\begin{cases} 3=x+m \\\\ 4=n \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n解得：\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=1 \\end{cases}\\)（不合题意的值已舍去），\n故点M的坐标为\\(\\left ( { 1,0 } \\right )\\)；\n当\\(BM\\)或\\(BN\\)为对角线时，由中点坐标公式得：\n\\(\\begin{cases} 3+x=m \\\\ 4+n=0 \\end{cases}\\)或\\(\\begin{cases} m+3=x \\\\ n=4 \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，\n解得：\\(\\begin{cases} m=1\\pm \\sqrt[] { 7 } \\\\ n=-4 \\\\ x=-2\\pm \\sqrt[] { 7 } \\end{cases}\\)或\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=5 \\end{cases}\\)，\n即点M的坐标为：\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)，\n综上，点M的坐标为：\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)．",
+      "solution_steps": [
+        "设点\\(M\\left ( { x,0 } \\right )\\)、点\\(N\\left ( { m,n } \\right )\\)，\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，",
+        "当\\(BC\\)是对角线时，",
+        "由中点坐标公式得：\\(\\begin{cases} 3=x+m \\\\ 4=n \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，",
+        "解得：\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=1 \\end{cases}\\)（不合题意的值已舍去），",
+        "故点M的坐标为\\(\\left ( { 1,0 } \\right )\\)；",
+        "当\\(BM\\)或\\(BN\\)为对角线时，由中点坐标公式得：",
+        "\\(\\begin{cases} 3+x=m \\\\ 4+n=0 \\end{cases}\\)或\\(\\begin{cases} m+3=x \\\\ n=4 \\end{cases}\\)且\\(n=-\\frac { 4 } { 3 }m ^ { 2 } +\\frac { 8 } { 3 }m+4\\)，",
+        "解得：\\(\\begin{cases} m=1\\pm \\sqrt[] { 7 } \\\\ n=-4 \\\\ x=-2\\pm \\sqrt[] { 7 } \\end{cases}\\)或\\(\\begin{cases} m=2 \\\\ n=4 \\\\ x=5 \\end{cases}\\)，",
+        "即点M的坐标为：\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)，",
+        "综上，点M的坐标为：\\(\\left ( { 1,0 } \\right )\\)或\\(\\left ( { -2+\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { -2-\\sqrt[] { 7 },0 } \\right )\\)或\\(\\left ( { 5,0 } \\right )\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          64
+        ],
+        "solution_block_ids": [
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [
+        "E.N13.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由二次表达式读取图象关键性质”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      64
+    ],
+    "solution_body_blocks": [
+      300,
+      352
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-6929FA23C7/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          76.82,
+          583.64,
+          439.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-6929FA23C7/solution-q21-p17.webp",
+      "assets/SZ-G9-T1-6929FA23C7/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-6929FA23C7/solution-q21-p19.webp",
+      "assets/SZ-G9-T1-6929FA23C7/solution-q21-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          327.27,
+          583.64,
+          755.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          758.64
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          765.91
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          213.18
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N13.02",
+    "M.G10.02",
+    "M.N13.01"
+  ],
+  "exam_ids": [
+    "E.N13.02.01",
+    "E.G10.02.01",
+    "E.N13.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。 本问题面与解答对应“由边角条件解直角三角形”。 本问题面与解答对应“由二次表达式读取图象关键性质”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

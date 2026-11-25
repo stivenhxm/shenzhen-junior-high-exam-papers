@@ -1,0 +1,415 @@
+{
+  "id": "SZ-G9-T1-0355F7FE94-Q21",
+  "paper_id": "SZ-G9-T1-0355F7FE94",
+  "number": 21,
+  "type": "解答题",
+  "points": 9,
+  "title": "确认对应关系并证明三角形相似、选择充分条件证明三角形全等",
+  "stem": "（9分）【模型发现】如图1，△ABC∽△ADE，求证：△ABD∽△ACE．\n【深入探究】如图2，等边△ABC中，AB＝3，D是AC上的动点，连接BD，将BD绕着点D逆时针旋转60°得到DE，连接CE，当点D从A运动到C时，求点E的运动路径长．\n【应用拓展】如图3，等腰Rt△ABC中，∠BAC＝90°，AD⊥BC于D，E是AD上的一点，连接BE，将BE绕着点E逆时针旋转90°，得到EF，EF交BC于点G，连接CF，若〔图1〕，则〔图2〕的值为 　                　．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-0355F7FE94/figures/ac75f40bd9c9a8dd159e1b6514ebc78140df69fa4b658ffad229921e7728e9b0.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/e53f27ba27a6e0826c2b7a32eaae204473f174f31622f2f698b32df834e329e7.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/0c15eb00fb89f216b0a3d594c335e40599a540019bd54ba4e0e8434d7926465e.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（9分）\n〔图1〕\n〔图2〕\n〔图3〕",
+      "paper_blocks": [
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-0355F7FE94-Q21-P01",
+      "label": "模型发现",
+      "prompt": "如图1，△ABC∽△ADE，求证：△ABD∽△ACE．",
+      "stem_text": "如图1，△ABC∽△ADE，求证：△ABD∽△ACE．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴△ABD∽△ACE；",
+      "given_solution": "【模型发现】证明：∵△ABC∽△ADE，\n∴∠BAC＝∠DAE，〔图1〕，\n∴∠BAD＝∠CAE，〔图4〕，\n∴△ABD∽△ACE；",
+      "solution_steps": [
+        "【模型发现】证明：∵△ABC∽△ADE，",
+        "∴∠BAC＝∠DAE，〔图1〕，",
+        "∴∠BAD＝∠CAE，〔图4〕，",
+        "∴△ABD∽△ACE；"
+      ],
+      "solution_figure_ids": [
+        1,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          67,
+          68,
+          70
+        ],
+        "solution_block_ids": [
+          272,
+          275
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [
+        "E.G08.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-0355F7FE94-Q21-P02",
+      "label": "深入探究",
+      "prompt": "如图2，等边△ABC中，AB＝3，D是AC上的动点，连接BD，将BD绕着点D逆时针旋转60°得到DE，连接CE，当点D从A运动到C时，求点E的运动路径长．",
+      "stem_text": "如图2，等边△ABC中，AB＝3，D是AC上的动点，连接BD，将BD绕着点D逆时针旋转60°得到DE，连接CE，当点D从A运动到C时，求点E的运动路径长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "∴点E的运动路径长为3；",
+      "given_solution": "【深入探究】解：连接BE，\n〔图5〕\n∵将BD绕着点D逆时针旋转60°得到DE，\n∴BD＝DE，∠BDE＝60°，\n∴△BDE是等边三角形，\n∴BD＝BE，∠DBE＝60°，\n∵△ABC是等边三角形，\n∴AB＝BC＝3＝AC，∠ABC＝∠DBE＝60°，\n∴∠ABD＝∠CBE，\n∴△ABD≌△CBE（SAS），\n∴AD＝CE，\n∵点D从A运动到C，\n∴点E的运动路径长为3；",
+      "solution_steps": [
+        "【深入探究】解：连接BE，",
+        "〔图5〕",
+        "∵将BD绕着点D逆时针旋转60°得到DE，",
+        "∴BD＝DE，∠BDE＝60°，",
+        "∴△BDE是等边三角形，",
+        "∴BD＝BE，∠DBE＝60°，",
+        "∵△ABC是等边三角形，",
+        "∴AB＝BC＝3＝AC，∠ABC＝∠DBE＝60°，",
+        "∴∠ABD＝∠CBE，",
+        "∴△ABD≌△CBE（SAS），",
+        "∴AD＝CE，",
+        "∵点D从A运动到C，",
+        "∴点E的运动路径长为3；"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": [
+          276,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-0355F7FE94-Q21-P03",
+      "label": "应用拓展",
+      "prompt": "如图3，等腰Rt△ABC中，∠BAC＝90°，AD⊥BC于D，E是AD上的一点，连接BE，将BE绕着点E逆时针旋转90°，得到EF，EF交BC于点G，连接CF，若〔图1〕，则〔图2〕的值为 　                　．\n〔图3〕",
+      "stem_text": "如图3，等腰Rt△ABC中，∠BAC＝90°，AD⊥BC于D，E是AD上的一点，连接BE，将BE绕着点E逆时针旋转90°，得到EF，EF交BC于点G，连接CF，若〔图1〕，则〔图2〕的值为 　                　．\n〔图3〕",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "answer": "故答案为：〔图16〕．",
+      "given_solution": "【应用拓展】解：如图，连接BF，过点F作FH⊥BC于点H，\n〔图6〕\n∵将BE绕着点E逆时针旋转90°，\n∴BE＝EF，∠BEF＝90°，\n∴BF＝〔图7〕BE，∠EBF＝45°，\n∵∠BAC＝90°，AB＝AC，AD⊥BC，\n∴BC＝〔图7〕AB，∠ABC＝45°＝∠EBF＝∠BAD＝∠ACB，\n∴∠ABE＝∠CBF，\n又∵〔图8〕＝〔图9〕，\n∴△ABE∽△CBF，\n∴〔图10〕，∠BCF＝∠BAE＝45°，\n∴CF＝〔图7〕AE，\n∵FH⊥BC，\n∴∠BCF＝∠HFC＝45°，\n∴HC＝HF，\n∴CF＝〔图7〕HF，\n∴HF＝AE，\n∵AD⊥BC，HF⊥BC，\n∴AD∥HF，\n∴〔图11〕＝2，\n∴HF＝2DE，\n∴DE＝〔图12〕AE，\n∴AB＝〔图13〕〔图7〕AE，\n∴〔图14〕＝〔图15〕＝〔图16〕，\n故答案为：〔图16〕．",
+      "solution_steps": [
+        "【应用拓展】解：如图，连接BF，过点F作FH⊥BC于点H，",
+        "〔图6〕",
+        "∵将BE绕着点E逆时针旋转90°，",
+        "∴BE＝EF，∠BEF＝90°，",
+        "∴BF＝〔图7〕BE，∠EBF＝45°，",
+        "∵∠BAC＝90°，AB＝AC，AD⊥BC，",
+        "∴BC＝〔图7〕AB，∠ABC＝45°＝∠EBF＝∠BAD＝∠ACB，",
+        "∴∠ABE＝∠CBF，",
+        "又∵〔图8〕＝〔图9〕，",
+        "∴△ABE∽△CBF，",
+        "∴〔图10〕，∠BCF＝∠BAE＝45°，",
+        "∴CF＝〔图7〕AE，",
+        "∵FH⊥BC，",
+        "∴∠BCF＝∠HFC＝45°，",
+        "∴HC＝HF，",
+        "∴CF＝〔图7〕HF，",
+        "∴HF＝AE，",
+        "∵AD⊥BC，HF⊥BC，",
+        "∴AD∥HF，",
+        "∴〔图11〕＝2，",
+        "∴HF＝2DE，",
+        "∴DE＝〔图12〕AE，",
+        "∴AB＝〔图13〕〔图7〕AE，",
+        "∴〔图14〕＝〔图15〕＝〔图16〕，",
+        "故答案为：〔图16〕．"
+      ],
+      "solution_figure_ids": [
+        16,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72,
+          73
+        ],
+        "solution_block_ids": [
+          289,
+          291,
+          292,
+          294,
+          296,
+          298,
+          301,
+          302,
+          303,
+          305,
+          306,
+          307,
+          309
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "按原卷任务标题和配套解析段落拆分。",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】【模型发现】由相似三角形的性质可得∠BAC＝∠DAE，〔图1〕，利用相似三角形的判定可得结论；\n【深入探究】由旋转的性质可得BD＝DE，∠BDE＝60°，由“SAS”可证△ABD≌△CBE，可得AD＝CE，即可求解；\n【应用拓展】通过证明△ABE∽△CBF，可得CF＝〔图2〕AE，由等腰直角三角形的性质可求AB＝〔图3〕〔图2〕AE，即可求解．\n【解答】【模型发现】证明：∵△ABC∽△ADE，\n∴∠BAC＝∠DAE，〔图1〕，\n∴∠BAD＝∠CAE，〔图4〕，\n∴△ABD∽△ACE；\n【深入探究】解：连接BE，\n〔图5〕\n∵将BD绕着点D逆时针旋转60°得到DE，\n∴BD＝DE，∠BDE＝60°，\n∴△BDE是等边三角形，\n∴BD＝BE，∠DBE＝60°，\n∵△ABC是等边三角形，\n∴AB＝BC＝3＝AC，∠ABC＝∠DBE＝60°，\n∴∠ABD＝∠CBE，\n∴△ABD≌△CBE（SAS），\n∴AD＝CE，\n∵点D从A运动到C，\n∴点E的运动路径长为3；\n【应用拓展】解：如图，连接BF，过点F作FH⊥BC于点H，\n〔图6〕\n∵将BE绕着点E逆时针旋转90°，\n∴BE＝EF，∠BEF＝90°，\n∴BF＝〔图7〕BE，∠EBF＝45°，\n∵∠BAC＝90°，AB＝AC，AD⊥BC，\n∴BC＝〔图7〕AB，∠ABC＝45°＝∠EBF＝∠BAD＝∠ACB，\n∴∠ABE＝∠CBF，\n又∵〔图8〕＝〔图9〕，\n∴△ABE∽△CBF，\n∴〔图10〕，∠BCF＝∠BAE＝45°，\n∴CF＝〔图7〕AE，\n∵FH⊥BC，\n∴∠BCF＝∠HFC＝45°，\n∴HC＝HF，\n∴CF＝〔图7〕HF，\n∴HF＝AE，\n∵AD⊥BC，HF⊥BC，\n∴AD∥HF，\n∴〔图11〕＝2，\n∴HF＝2DE，\n∴DE＝〔图12〕AE，\n∴AB＝〔图13〕〔图7〕AE，\n∴〔图14〕＝〔图15〕＝〔图16〕，\n故答案为：〔图16〕．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-0355F7FE94/figures/c312c40c1ce540c7c1e988cd9b7c2e34aa55d97a9374583bf9b96266f7ccedab.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/65250e9ab98f4e8ec05580c48f8c499cc4ef6105b15128b74750f4a82968ca3f.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/d9a1b6870a43314f2184e8851f0b08932f8a3af844d4938b31408f2f2d3d93a2.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/a87eeeb8ae86c761ae0cd1c4540abab14f9a14350b532e902ac290a768fbedaf.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/2be48a4d06121c50f6482d7d02c09ac45ab85bbe4b43522e0dcf07b7be9c5a22.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/d1e25ae71e4ca7bc99f15fd360c757d4271b1fa85700439863abb7d6a89dfee9.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/03cbb45eb6029ff5d325cac4429d0c6b332fe5401fc9127d362689f7f9fa083c.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/a2193861d3ca96cf2cd24ef0a5896e78ef5dff635be84f23c382479cb39d5e7d.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/4be7fbf8be818fc7b5e02e08ef5cc901ab11a7a95d9ab4684f24d12eb097fe12.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/1cdca9633fd327fa69a4f547ca7eec0159c2ddc9ac703d1a8dc497be01f72e68.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/369fb0141c2927f63053d97f6bf2dcc2b74f559b31cbad3bdabc781587b98827.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/5f8166f90aa670b35115db6f0701a583b09274e9e97ea70523dfeded335e1eb8.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/7bfa8de23cf0aa0d463bf43d0a71d90e39e2b3da29e411ecec894ce3990de7a1.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/8447f706adfd64bb58330d60fd80bca5c7f7d9035302a10c5322154007b291d8.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/6edd934bd1ccfbf2851138662948a1c5f9f77409d8d0df54bc037cf04c364efb.png",
+    "assets/SZ-G9-T1-0355F7FE94/figures/d48d926bb7bc4eac8a27a422efe86fb2999c684ece72baca4223de502356bb12.png"
+  ],
+  "answer": "〔图16〕",
+  "solution_steps": [
+    "【模型发现】证明：∵△ABC∽△ADE，",
+    "∴∠BAC＝∠DAE，〔图1〕，",
+    "∴∠BAD＝∠CAE，〔图4〕，",
+    "∴△ABD∽△ACE；",
+    "【深入探究】解：连接BE，",
+    "〔图5〕",
+    "∵将BD绕着点D逆时针旋转60°得到DE，",
+    "∴BD＝DE，∠BDE＝60°，",
+    "∴△BDE是等边三角形，",
+    "∴BD＝BE，∠DBE＝60°，",
+    "∵△ABC是等边三角形，",
+    "∴AB＝BC＝3＝AC，∠ABC＝∠DBE＝60°，",
+    "∴∠ABD＝∠CBE，",
+    "∴△ABD≌△CBE（SAS），",
+    "∴AD＝CE，",
+    "∵点D从A运动到C，",
+    "∴点E的运动路径长为3；",
+    "【应用拓展】解：如图，连接BF，过点F作FH⊥BC于点H，",
+    "〔图6〕",
+    "∵将BE绕着点E逆时针旋转90°，",
+    "∴BE＝EF，∠BEF＝90°，",
+    "∴BF＝〔图7〕BE，∠EBF＝45°，",
+    "∵∠BAC＝90°，AB＝AC，AD⊥BC，",
+    "∴BC＝〔图7〕AB，∠ABC＝45°＝∠EBF＝∠BAD＝∠ACB，",
+    "∴∠ABE＝∠CBF，",
+    "又∵〔图8〕＝〔图9〕，",
+    "∴△ABE∽△CBF，",
+    "∴〔图10〕，∠BCF＝∠BAE＝45°，",
+    "∴CF＝〔图7〕AE，",
+    "∵FH⊥BC，",
+    "∴∠BCF＝∠HFC＝45°，",
+    "∴HC＝HF，",
+    "∴CF＝〔图7〕HF，",
+    "∴HF＝AE，",
+    "∵AD⊥BC，HF⊥BC，",
+    "∴AD∥HF，",
+    "∴〔图11〕＝2，",
+    "∴HF＝2DE，",
+    "∴DE＝〔图12〕AE，",
+    "∴AB＝〔图13〕〔图7〕AE，",
+    "∴〔图14〕＝〔图15〕＝〔图16〕，",
+    "故答案为：〔图16〕．"
+  ],
+  "solution": "【模型发现】证明：∵△ABC∽△ADE，\n∴∠BAC＝∠DAE，〔图1〕，\n∴∠BAD＝∠CAE，〔图4〕，\n∴△ABD∽△ACE；\n【深入探究】解：连接BE，\n〔图5〕\n∵将BD绕着点D逆时针旋转60°得到DE，\n∴BD＝DE，∠BDE＝60°，\n∴△BDE是等边三角形，\n∴BD＝BE，∠DBE＝60°，\n∵△ABC是等边三角形，\n∴AB＝BC＝3＝AC，∠ABC＝∠DBE＝60°，\n∴∠ABD＝∠CBE，\n∴△ABD≌△CBE（SAS），\n∴AD＝CE，\n∵点D从A运动到C，\n∴点E的运动路径长为3；\n【应用拓展】解：如图，连接BF，过点F作FH⊥BC于点H，\n〔图6〕\n∵将BE绕着点E逆时针旋转90°，\n∴BE＝EF，∠BEF＝90°，\n∴BF＝〔图7〕BE，∠EBF＝45°，\n∵∠BAC＝90°，AB＝AC，AD⊥BC，\n∴BC＝〔图7〕AB，∠ABC＝45°＝∠EBF＝∠BAD＝∠ACB，\n∴∠ABE＝∠CBF，\n又∵〔图8〕＝〔图9〕，\n∴△ABE∽△CBF，\n∴〔图10〕，∠BCF＝∠BAE＝45°，\n∴CF＝〔图7〕AE，\n∵FH⊥BC，\n∴∠BCF＝∠HFC＝45°，\n∴HC＝HF，\n∴CF＝〔图7〕HF，\n∴HF＝AE，\n∵AD⊥BC，HF⊥BC，\n∴AD∥HF，\n∴〔图11〕＝2，\n∴HF＝2DE，\n∴DE＝〔图12〕AE，\n∴AB＝〔图13〕〔图7〕AE，\n∴〔图14〕＝〔图15〕＝〔图16〕，\n故答案为：〔图16〕．",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    16,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      67,
+      73
+    ],
+    "solution_body_blocks": [
+      269,
+      313
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-0355F7FE94/paper-q21-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          469.55,
+          583.64,
+          711.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      12,
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-0355F7FE94/solution-q21-p12.webp",
+      "assets/SZ-G9-T1-0355F7FE94/solution-q21-p13.webp",
+      "assets/SZ-G9-T1-0355F7FE94/solution-q21-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 12,
+        "bbox_pt": [
+          11.82,
+          708.64,
+          583.64,
+          780.0
+        ]
+      },
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          38.18,
+          583.64,
+          795.0
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          37.73,
+          583.64,
+          596.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G03.02",
+    "M.G03.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

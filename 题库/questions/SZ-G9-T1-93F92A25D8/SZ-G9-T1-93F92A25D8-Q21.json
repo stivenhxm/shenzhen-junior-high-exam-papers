@@ -1,0 +1,230 @@
+{
+  "knowledge_ids": [
+    "M.G06.08",
+    "M.G12.01"
+  ],
+  "exam_ids": [
+    "E.G06.08.01",
+    "E.G12.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“根据圆心角求弧长与扇形面积”。 本问解答对应“完成规定的基本尺规作图”。",
+  "id": "SZ-G9-T1-93F92A25D8-Q21",
+  "paper_id": "SZ-G9-T1-93F92A25D8",
+  "number": 21,
+  "title": "根据圆心角求弧长与扇形面积、完成规定的基本尺规作图",
+  "type": "解答题",
+  "points": null,
+  "stem": " 【问题提出】如何用圆规和无刻度的直尺作一条直线或圆弧平分已知扇形的面积？\n【初步尝试】如图1，已知扇形\\(OAB\\)，请你用圆规和无刻度的直尺过圆心\\(O\\)作一条直线，使扇形的面积被这条直线平分；\n【问题联想】如图2，已知线段\\(MN\\)，请你用圆规和无刻度的直尺作一个以\\(MN\\)为斜边的等腰直角三角形\\(MNP\\)；\n【问题再解】如图3，已知扇形\\(OAB\\)，请你用圆规和无刻度的直尺作一条以点\\(O\\)为圆心的圆弧，使扇形的面积被这条圆弧平分．\n（友情提醒：以上作图均不写作法，但需保留作图痕迹）\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-93F92A25D8/figures/3ec633e4cc86e47dc39bce36b34303ec935e5784d993cb8cdbfda9b3077a3208.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": " 【问题提出】如何用圆规和无刻度的直尺作一条直线或圆弧平分已知扇形的面积？\n（友情提醒：以上作图均不写作法，但需保留作图痕迹）\n〔图1〕",
+      "paper_blocks": [
+        65,
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "knowledge_ids": [
+        "M.G06.08"
+      ],
+      "exam_ids": [
+        "E.G06.08.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据圆心角求弧长与扇形面积”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q21-P01",
+      "label": "【初步尝试】",
+      "prompt": "如图1，已知扇形\\(OAB\\)，请你用圆规和无刻度的直尺过圆心\\(O\\)作一条直线，使扇形的面积被这条直线平分；",
+      "stem_text": "如图1，已知扇形\\(OAB\\)，请你用圆规和无刻度的直尺过圆心\\(O\\)作一条直线，使扇形的面积被这条直线平分；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "作 ∠AOB 的角平分线。",
+      "solution_steps": [
+        "分别以 A、B 为圆心，以相同且大于 AB 一半的长度为半径画弧，取交点 X（异于 O），连接 OX。取过 O、X 的直线。",
+        "OA＝OB，XA＝XB，故直线 OX 为弦 AB 的垂直平分线，也平分扇形的圆心角，两部分面积相等。",
+        "题库尺规作图示例见〔图1〕。"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          65,
+          66,
+          69,
+          70
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。三幅尺规作图示例由题库绘制。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    },
+    {
+      "knowledge_ids": [
+        "M.G12.01"
+      ],
+      "exam_ids": [
+        "E.G12.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“完成规定的基本尺规作图”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q21-P02",
+      "label": "【问题联想】",
+      "prompt": "如图2，已知线段\\(MN\\)，请你用圆规和无刻度的直尺作一个以\\(MN\\)为斜边的等腰直角三角形\\(MNP\\)；",
+      "stem_text": "如图2，已知线段\\(MN\\)，请你用圆规和无刻度的直尺作一个以\\(MN\\)为斜边的等腰直角三角形\\(MNP\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "取 MN 的垂直平分线与以 MN 为直径的圆的一个交点 P，连接 MP、NP。",
+      "solution_steps": [
+        "以 M、N 为圆心取相同半径画交弧，作出 MN 的垂直平分线，交 MN 于 T。以 T 为圆心、TM 为半径作圆，取其与垂直平分线的交点 P。",
+        "因 P 在垂直平分线上，PM＝PN；又因 MN 为直径，∠MPN＝90°。",
+        "题库尺规作图示例见〔图2〕。"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          65,
+          67,
+          69,
+          70
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。三幅尺规作图示例由题库绘制。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    },
+    {
+      "knowledge_ids": [
+        "M.G06.08"
+      ],
+      "exam_ids": [
+        "E.G06.08.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据圆心角求弧长与扇形面积”。",
+      "id": "SZ-G9-T1-93F92A25D8-Q21-P03",
+      "label": "【问题再解】",
+      "prompt": "如图3，已知扇形\\(OAB\\)，请你用圆规和无刻度的直尺作一条以点\\(O\\)为圆心的圆弧，使扇形的面积被这条圆弧平分．",
+      "stem_text": "如图3，已知扇形\\(OAB\\)，请你用圆规和无刻度的直尺作一条以点\\(O\\)为圆心的圆弧，使扇形的面积被这条圆弧平分．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "",
+      "given_solution": "",
+      "answer": "以 O 为圆心、\\(OA/\\sqrt2\\) 为半径作扇形内的弧。",
+      "solution_steps": [
+        "用上一问的作法，以 OA 为斜边作等腰直角三角形 OXA。以 O 为圆心、OX 为半径，在扇形两条半径之间画弧。",
+        "由勾股定理，\\(2OX^2=OA^2\\)。内扇形与原扇形的圆心角相同，面积比为 \\(OX^2/OA^2=1/2\\)。",
+        "题库尺规作图示例见〔图3〕。"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [],
+        "paper_block_ids": [
+          65,
+          68,
+          69,
+          70
+        ],
+        "solution_block_ids": []
+      },
+      "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。三幅尺规作图示例由题库绘制。",
+      "solution_origin": "editorial_answer_and_solution",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-93F92A25D8/editorial/q21-1.png",
+    "assets/SZ-G9-T1-93F92A25D8/editorial/q21-2.png",
+    "assets/SZ-G9-T1-93F92A25D8/editorial/q21-3.png"
+  ],
+  "answer": "【初步尝试】作 ∠AOB 的角平分线。\n【问题联想】取 MN 的垂直平分线与以 MN 为直径的圆的一个交点 P，连接 MP、NP。\n【问题再解】以 O 为圆心、\\(OA/\\sqrt2\\) 为半径作扇形内的弧。",
+  "solution_steps": [
+    "【初步尝试】 分别以 A、B 为圆心，以相同且大于 AB 一半的长度为半径画弧，取交点 X（异于 O），连接 OX。取过 O、X 的直线。",
+    "OA＝OB，XA＝XB，故直线 OX 为弦 AB 的垂直平分线，也平分扇形的圆心角，两部分面积相等。",
+    "【问题联想】 以 M、N 为圆心取相同半径画交弧，作出 MN 的垂直平分线，交 MN 于 T。以 T 为圆心、TM 为半径作圆，取其与垂直平分线的交点 P。",
+    "因 P 在垂直平分线上，PM＝PN；又因 MN 为直径，∠MPN＝90°。",
+    "【问题再解】 用上一问的作法，以 OA 为斜边作等腰直角三角形 OXA。以 O 为圆心、OX 为半径，在扇形两条半径之间画弧。",
+    "由勾股定理，\\(2OX^2=OA^2\\)。内扇形与原扇形的圆心角相同，面积比为 \\(OX^2/OA^2=1/2\\)。",
+    "对应三个作图任务，见〔图1〕、〔图2〕、〔图3〕。"
+  ],
+  "solution": "【初步尝试】 分别以 A、B 为圆心，以相同且大于 AB 一半的长度为半径画弧，取交点 X（异于 O），连接 OX。取过 O、X 的直线。\nOA＝OB，XA＝XB，故直线 OX 为弦 AB 的垂直平分线，也平分扇形的圆心角，两部分面积相等。\n【问题联想】 以 M、N 为圆心取相同半径画交弧，作出 MN 的垂直平分线，交 MN 于 T。以 T 为圆心、TM 为半径作圆，取其与垂直平分线的交点 P。\n因 P 在垂直平分线上，PM＝PN；又因 MN 为直径，∠MPN＝90°。\n【问题再解】 用上一问的作法，以 OA 为斜边作等腰直角三角形 OXA。以 O 为圆心、OX 为半径，在扇形两条半径之间画弧。\n由勾股定理，\\(2OX^2=OA^2\\)。内扇形与原扇形的圆心角相同，面积比为 \\(OX^2/OA^2=1/2\\)。\n对应三个作图任务，见〔图1〕、〔图2〕、〔图3〕。",
+  "solution_origin": "editorial_answer_and_solution",
+  "solution_figure_ids": [
+    1,
+    2,
+    3
+  ],
+  "review_note": "原卷未附参考答案和解法。答案与步骤由题库按原题独立推导。三幅尺规作图示例由题库绘制。",
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-93F92A25D8/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          229.55,
+          583.64,
+          551.36
+        ]
+      }
+    ],
+    "paper_body_blocks": [
+      65,
+      70
+    ],
+    "solution_pages": [],
+    "solution_images": []
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

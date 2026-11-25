@@ -1,0 +1,238 @@
+{
+  "id": "SZ-G9-T1-622B26022B-Q20",
+  "paper_id": "SZ-G9-T1-622B26022B",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、补足条件判定矩形",
+  "stem": "如图，在△ABC中，点D，E分别是AB，AC的中点，连接ED并延长至点F，使DF＝DE，连接AF，BF，BE．\n（1）求证：△ADE≌△BDF．\n（2）若∠ABE＝∠CBE，求证：四边形AFBE是矩形．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-622B26022B/figures/05f1be49623c1a49c34eb0fc09697ecf1f8fcd7ede3cbc49969216670c35289d.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见详解；（2）证明见详解．",
+  "answer": "（1）证明见详解；（2）证明见详解．",
+  "given_solution": "【分析】（1）根据已知条件“点D，E分别是AB，AC的中点”，和两个三角形有对顶角，由SAS即可得出结论；\n（2）先证四边形AFBE是平行四边形，再证DE是△ABC的中位线，得DE∥BC，则∠DEB＝∠CBE，然后证DB＝DE，得AB＝EF，根据对角线相等的平行四边形是矩形，即可得出结论．\n【详解】证明：（1）∵点D，E分别是AB，AC的中点，\n∴AD＝BD，DE＝DF．\n在△ADE和△BDF中，\n\\(\\begin{cases} AD=BD \\\\ \\angle ADE=\\angle BDF \\\\ DE=DF \\end{cases}\\) ，\n∴△ADE≌△BDF（SAS）；\n（2）∵AD＝BD，DF＝DE，\n∴四边形AFBE是平行四边形．\n∵点D，E分别是AB，AC的中点，\n∴DE是△ABC的中位线，\n∴DE∥BC，\n∴∠DEB＝∠CBE．\n∵∠ABE＝∠CBE，\n∴∠DEB＝∠ABE．\n∴DB＝DE．\n∴AB＝EF．\n∴平行四边形AFBE是矩形．\n【点睛】本题考查了矩形的判定、全等三角形的判定的判定和三角形的中位线；熟练掌握矩形的判定、平行四边形的判定与性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-622B26022B/figures/05f1be49623c1a49c34eb0fc09697ecf1f8fcd7ede3cbc49969216670c35289d.png"
+  ],
+  "solution": "证明：（1）∵点D，E分别是AB，AC的中点，\n∴AD＝BD，DE＝DF．\n在△ADE和△BDF中，\n\\(\\begin{cases} AD=BD \\\\ \\angle ADE=\\angle BDF \\\\ DE=DF \\end{cases}\\) ，\n∴△ADE≌△BDF（SAS）；\n（2）∵AD＝BD，DF＝DE，\n∴四边形AFBE是平行四边形．\n∵点D，E分别是AB，AC的中点，\n∴DE是△ABC的中位线，\n∴DE∥BC，\n∴∠DEB＝∠CBE．\n∵∠ABE＝∠CBE，\n∴∠DEB＝∠ABE．\n∴DB＝DE．\n∴AB＝EF．\n∴平行四边形AFBE是矩形．",
+  "solution_steps": [
+    "证明：（1）∵点D，E分别是AB，AC的中点，",
+    "∴AD＝BD，DE＝DF．",
+    "在△ADE和△BDF中，",
+    "\\(\\begin{cases} AD=BD \\\\ \\angle ADE=\\angle BDF \\\\ DE=DF \\end{cases}\\) ，",
+    "∴△ADE≌△BDF（SAS）；",
+    "（2）∵AD＝BD，DF＝DE，",
+    "∴四边形AFBE是平行四边形．",
+    "∵点D，E分别是AB，AC的中点，",
+    "∴DE是△ABC的中位线，",
+    "∴DE∥BC，",
+    "∴∠DEB＝∠CBE．",
+    "∵∠ABE＝∠CBE，",
+    "∴∠DEB＝∠ABE．",
+    "∴DB＝DE．",
+    "∴AB＝EF．",
+    "∴平行四边形AFBE是矩形．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在△ABC中，点D，E分别是AB，AC的中点，连接ED并延长至点F，使DF＝DE，连接AF，BF，BE．",
+      "paper_blocks": [
+        50
+      ]
+    },
+    {
+      "id": "fig-53",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        53
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-622B26022B-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：△ADE≌△BDF．",
+      "stem_text": "求证：△ADE≌△BDF．",
+      "material_ids": [
+        "context",
+        "fig-53"
+      ],
+      "requires": [],
+      "given_answer": "证明见详解；",
+      "answer": "证明见详解；",
+      "given_solution": "∵点D，E分别是AB，AC的中点，\n∴AD＝BD，DE＝DF．\n在△ADE和△BDF中，\n\\(\\begin{cases} AD=BD \\\\ \\angle ADE=\\angle BDF \\\\ DE=DF \\end{cases}\\) ，\n∴△ADE≌△BDF（SAS）；",
+      "solution_steps": [
+        "∵点D，E分别是AB，AC的中点，",
+        "∴AD＝BD，DE＝DF．",
+        "在△ADE和△BDF中，",
+        "\\(\\begin{cases} AD=BD \\\\ \\angle ADE=\\angle BDF \\\\ DE=DF \\end{cases}\\) ，",
+        "∴△ADE≌△BDF（SAS）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          51,
+          53
+        ],
+        "solution_block_ids": [
+          296,
+          297,
+          298,
+          299,
+          300
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-622B26022B-Q20-P02",
+      "label": "（2）",
+      "prompt": "若∠ABE＝∠CBE，求证：四边形AFBE是矩形．",
+      "stem_text": "若∠ABE＝∠CBE，求证：四边形AFBE是矩形．",
+      "material_ids": [
+        "context",
+        "fig-53"
+      ],
+      "requires": [],
+      "given_answer": "证明见详解．",
+      "answer": "证明见详解．",
+      "given_solution": "∵AD＝BD，DF＝DE，\n∴四边形AFBE是平行四边形．\n∵点D，E分别是AB，AC的中点，\n∴DE是△ABC的中位线，\n∴DE∥BC，\n∴∠DEB＝∠CBE．\n∵∠ABE＝∠CBE，\n∴∠DEB＝∠ABE．\n∴DB＝DE．\n∴AB＝EF．\n∴平行四边形AFBE是矩形．",
+      "solution_steps": [
+        "∵AD＝BD，DF＝DE，",
+        "∴四边形AFBE是平行四边形．",
+        "∵点D，E分别是AB，AC的中点，",
+        "∴DE是△ABC的中位线，",
+        "∴DE∥BC，",
+        "∴∠DEB＝∠CBE．",
+        "∵∠ABE＝∠CBE，",
+        "∴∠DEB＝∠ABE．",
+        "∴DB＝DE．",
+        "∴AB＝EF．",
+        "∴平行四边形AFBE是矩形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          50,
+          52,
+          53
+        ],
+        "solution_block_ids": [
+          301,
+          302,
+          303,
+          304,
+          305,
+          306,
+          307,
+          308,
+          309,
+          310,
+          311
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      50,
+      53
+    ],
+    "solution_body_blocks": [
+      288,
+      312
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-622B26022B/paper-q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          545.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-622B26022B/solution-q20-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          767.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G05.02"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G05.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。 本问的式子结构和所求量对应“补足条件判定矩形”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

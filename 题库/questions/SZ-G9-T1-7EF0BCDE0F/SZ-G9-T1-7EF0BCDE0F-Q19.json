@@ -1,0 +1,622 @@
+{
+  "id": "SZ-G9-T1-7EF0BCDE0F-Q19",
+  "paper_id": "SZ-G9-T1-7EF0BCDE0F",
+  "number": 19,
+  "type": "解答题",
+  "points": 12,
+  "title": "应用等腰三角形性质求边角、构造全等关系证明线段或角关系",
+  "stem": "（12分）在数学综合与实践活动课上，同学们用两个完全相同的矩形纸片展开探究活动：\n【实践探究】：（1）小红将两个矩形纸片摆成图1的形状，连接AG、AC，则∠ACG＝ 　     　°；\n【解决问题】：（2）将矩形AQGF绕点A顺时针转动，边AF与边CD交于点M，连接BM，AB＝10，AD＝6．\n①如图2，当BM＝AB时，求证：AM平分∠DMB；写出证明过程\n②如图3，当点F落在DC上时，连接BQ交AF于点O，则AO＝ 　   　；\n【迁移应用】：（3）如图4，正方形ABCD的边长为〔图1〕，E是BC边上一点（不与点B、C重合），连接AE，将线段AE绕点E顺时针旋转90°至FE，作射线FC交AB的延长线于点G，则BG＝ 　              　；\n（4）如图5，在菱形ABCD中，∠A＝120°，E是CD边上一点（不与点C、D重合），连接BE，将线段BE绕点E顺时针旋转120°至FE，作射线FD交BC的延长线于点G，若〔图2〕，则CG＝ 　              　．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/2e8331021761d45f0aaab23998a128b24df129c1de4a8f4adaee69c781257f9a.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/e494e4a1d3b080a1fd370911dd0ca3529e128789a83c0831fa3f96bb2cb95fdb.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/3915dd79a9cab7cab30f3e2e25c9008f482a80892a6879bf2bd40dfb9bebd465.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（12分）在数学综合与实践活动课上，同学们用两个完全相同的矩形纸片展开探究活动：\n【实践探究】：",
+      "paper_blocks": [
+        59,
+        60
+      ]
+    },
+    {
+      "id": "fig-66",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q19-P01",
+      "label": "（1）",
+      "prompt": "小红将两个矩形纸片摆成图1的形状，连接AG、AC，则∠ACG＝ 　     　°；\n【解决问题】：",
+      "stem_text": "小红将两个矩形纸片摆成图1的形状，连接AG、AC，则∠ACG＝ 　     　°；\n【解决问题】：",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "45",
+      "answer": "45",
+      "given_solution": "解：∵长方形纸片ABCD和AFGQ是两个完全相同的长方形，\n∴AC＝AG，∠BAC＝∠GAF，\n∴∠BAC+∠CAD＝∠GAF+∠CAD，\n∴∠GAC＝∠BAD＝90°，\n∴△ACG是等腰直角三角形，\n∴∠ACG＝45°，\n故答案为：45；",
+      "solution_steps": [
+        "解：∵长方形纸片ABCD和AFGQ是两个完全相同的长方形，",
+        "∴AC＝AG，∠BAC＝∠GAF，",
+        "∴∠BAC+∠CAD＝∠GAF+∠CAD，",
+        "∴∠GAC＝∠BAD＝90°，",
+        "∴△ACG是等腰直角三角形，",
+        "∴∠ACG＝45°，",
+        "故答案为：45；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          66
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q19-P02",
+      "label": "（2）",
+      "prompt": "将矩形AQGF绕点A顺时针转动，边AF与边CD交于点M，连接BM，AB＝10，AD＝6．\n①如图2，当BM＝AB时，求证：AM平分∠DMB；写出证明过程\n②如图3，当点F落在DC上时，连接BQ交AF于点O，则AO＝ 　   　；\n【迁移应用】：",
+      "stem_text": "将矩形AQGF绕点A顺时针转动，边AF与边CD交于点M，连接BM，AB＝10，AD＝6．\n①如图2，当BM＝AB时，求证：AM平分∠DMB；写出证明过程\n②如图3，当点F落在DC上时，连接BQ交AF于点O，则AO＝ 　   　；\n【迁移应用】：",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "4",
+      "answer": "4",
+      "given_solution": "①证明：∵BM＝AB，\n∴∠BMA＝∠BAM，\n∵四边形ABCD是矩形，\n∴AB∥DC，\n∴∠DMA＝∠MAB；\n∴∠BMA＝∠DMA，\n∴AM平分∠DMB；\n②解：过点B作BE⊥AF于点E，\n〔图2〕\n∵AF＝AB＝10，AD＝6，\n∴DF＝〔图3〕＝8，\n∴CF＝DC﹣DF＝2，\n∵AB＝AF，\n∴∠AFB＝∠ABF，\n∵AB∥CD，\n∴∠ABF＝∠CFB，\n∴∠AFB＝∠CFB，\n∵BF＝BF，∠C＝∠BEF＝90°，\n∴△BCF≌△BEF（AAS），\n∴CF＝EF＝2，BC＝BE，\n∴AE＝8，\n∵AD＝AQ＝BC，\n∴AQ＝BE，\n∵∠QAO＝∠BEO，∠AOQ＝∠BOE，\n∴△AOQ≌△EOB（AAS），\n∴AO＝OE＝〔图1〕AE＝4，\n故答案为：4；",
+      "solution_steps": [
+        "①证明：∵BM＝AB，",
+        "∴∠BMA＝∠BAM，",
+        "∵四边形ABCD是矩形，",
+        "∴AB∥DC，",
+        "∴∠DMA＝∠MAB；",
+        "∴∠BMA＝∠DMA，",
+        "∴AM平分∠DMB；",
+        "②解：过点B作BE⊥AF于点E，",
+        "〔图2〕",
+        "∵AF＝AB＝10，AD＝6，",
+        "∴DF＝〔图3〕＝8，",
+        "∴CF＝DC﹣DF＝2，",
+        "∵AB＝AF，",
+        "∴∠AFB＝∠ABF，",
+        "∵AB∥CD，",
+        "∴∠ABF＝∠CFB，",
+        "∴∠AFB＝∠CFB，",
+        "∵BF＝BF，∠C＝∠BEF＝90°，",
+        "∴△BCF≌△BEF（AAS），",
+        "∴CF＝EF＝2，BC＝BE，",
+        "∴AE＝8，",
+        "∵AD＝AQ＝BC，",
+        "∴AQ＝BE，",
+        "∵∠QAO＝∠BEO，∠AOQ＝∠BOE，",
+        "∴△AOQ≌△EOB（AAS），",
+        "∴AO＝OE＝〔图1〕AE＝4，",
+        "故答案为：4；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q19-P03",
+      "label": "（3）",
+      "prompt": "如图4，正方形ABCD的边长为〔图1〕，E是BC边上一点（不与点B、C重合），连接AE，将线段AE绕点E顺时针旋转90°至FE，作射线FC交AB的延长线于点G，则BG＝ 　              　；",
+      "stem_text": "如图4，正方形ABCD的边长为〔图1〕，E是BC边上一点（不与点B、C重合），连接AE，将线段AE绕点E顺时针旋转90°至FE，作射线FC交AB的延长线于点G，则BG＝ 　              　；",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "5〔图6〕",
+      "answer": "5〔图6〕",
+      "given_solution": "解：如图4，过点F作FH⊥CD交CD于点H，\n〔图4〕\n∵四边形ABCD是正方形，\n∴CB＝AB，∠ABC＝90°，\n∴∠H＝∠ABC＝90°，\n由旋转的性质得：∠AEF＝90°，EF＝AE，\n∵∠BEA+∠BAE＝∠BEA+∠FEH＝90°，\n∴∠BAE＝∠FEH，\n在△AEB和△EFH中，\n〔图5〕，\n∴△AEB≌△EFH（AAS），\n∴FH＝BE，AB＝EH，\n∴EH＝CB，\n∴CH+CE＝CE+BE，\n∴CH＝BE，\n∴FH＝CH，\n∴∠FCH＝45°，\n∴∠BCG＝45°，\n∵∠CBG＝90°，\n∴△CBG是等腰直角三角形，\n∴BG＝BC＝5〔图6〕；\n故答案为：5〔图6〕；",
+      "solution_steps": [
+        "解：如图4，过点F作FH⊥CD交CD于点H，",
+        "〔图4〕",
+        "∵四边形ABCD是正方形，",
+        "∴CB＝AB，∠ABC＝90°，",
+        "∴∠H＝∠ABC＝90°，",
+        "由旋转的性质得：∠AEF＝90°，EF＝AE，",
+        "∵∠BEA+∠BAE＝∠BEA+∠FEH＝90°，",
+        "∴∠BAE＝∠FEH，",
+        "在△AEB和△EFH中，",
+        "〔图5〕，",
+        "∴△AEB≌△EFH（AAS），",
+        "∴FH＝BE，AB＝EH，",
+        "∴EH＝CB，",
+        "∴CH+CE＝CE+BE，",
+        "∴CH＝BE，",
+        "∴FH＝CH，",
+        "∴∠FCH＝45°，",
+        "∴∠BCG＝45°，",
+        "∵∠CBG＝90°，",
+        "∴△CBG是等腰直角三角形，",
+        "∴BG＝BC＝5〔图6〕；",
+        "故答案为：5〔图6〕；"
+      ],
+      "solution_figure_ids": [
+        6,
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          64,
+          66
+        ],
+        "solution_block_ids": [
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.03"
+      ],
+      "exam_ids": [
+        "E.G07.03.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“利用旋转对应建立全等或角度关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7EF0BCDE0F-Q19-P04",
+      "label": "（4）",
+      "prompt": "如图5，在菱形ABCD中，∠A＝120°，E是CD边上一点（不与点C、D重合），连接BE，将线段BE绕点E顺时针旋转120°至FE，作射线FD交BC的延长线于点G，若〔图2〕，则CG＝ 　              　．",
+      "stem_text": "如图5，在菱形ABCD中，∠A＝120°，E是CD边上一点（不与点C、D重合），连接BE，将线段BE绕点E顺时针旋转120°至FE，作射线FD交BC的延长线于点G，若〔图2〕，则CG＝ 　              　．",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "2〔图9〕",
+      "answer": "2〔图9〕",
+      "given_solution": "解：过点F作∠EFH＝∠BEC，与ED的延长线交于点H，如图5，\n〔图7〕\n∵四边形ABCD是菱形，\n∴CB＝CD，∠A＝∠BCD＝120°，\n由旋转得∠BEF＝120°，EF＝BE，\n∴∠BEC+∠CBE＝∠BEC+∠FEH＝60°，\n∴∠CBE＝∠FEH，\n∴△BEC≌△EFH（AAS），\n∴∠H＝∠BCD＝120°，EH＝BC，FH＝CE，\n∴CD＝EH，\n∴DH＝CE，\n∴DH＝FH，\n∴∠FDH＝∠DFH＝30°，\n∴∠CDG＝30°，\n∵∠DCG＝180°﹣∠BCD＝60°，\n∴∠G＝90°，\n∴△DCG是直角三角形，\n∵∠CDG＝30°，\n∴CG＝〔图8〕CD＝〔图8〕BC，\n∵BG＝6〔图9〕，\n∴3CG＝6〔图9〕，\n∴CG＝2〔图9〕．\n故答案为：2〔图9〕．",
+      "solution_steps": [
+        "解：过点F作∠EFH＝∠BEC，与ED的延长线交于点H，如图5，",
+        "〔图7〕",
+        "∵四边形ABCD是菱形，",
+        "∴CB＝CD，∠A＝∠BCD＝120°，",
+        "由旋转得∠BEF＝120°，EF＝BE，",
+        "∴∠BEC+∠CBE＝∠BEC+∠FEH＝60°，",
+        "∴∠CBE＝∠FEH，",
+        "∴△BEC≌△EFH（AAS），",
+        "∴∠H＝∠BCD＝120°，EH＝BC，FH＝CE，",
+        "∴CD＝EH，",
+        "∴DH＝CE，",
+        "∴DH＝FH，",
+        "∴∠FDH＝∠DFH＝30°，",
+        "∴∠CDG＝30°，",
+        "∵∠DCG＝180°﹣∠BCD＝60°，",
+        "∴∠G＝90°，",
+        "∴△DCG是直角三角形，",
+        "∵∠CDG＝30°，",
+        "∴CG＝〔图8〕CD＝〔图8〕BC，",
+        "∵BG＝6〔图9〕，",
+        "∴3CG＝6〔图9〕，",
+        "∴CG＝2〔图9〕．",
+        "故答案为：2〔图9〕．"
+      ],
+      "solution_figure_ids": [
+        9,
+        7,
+        8
+      ],
+      "source": {
+        "paper_block_ids": [
+          59,
+          60,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】（1）证明△ACG是等腰直角三角形，得出∠ACG＝45°，则可得出答案；\n（2）①由矩形的性质及平行线的性质证明∠BMA＝∠DMA，则可得出结论；\n②过点B作BE⊥AF于点E，求出DF＝8，证明△BCF≌△BEF（AAS），得出CF＝EF＝2，BC＝BE，证明△AOQ≌△EOB（AAS），得出AO＝OE＝〔图1〕AE＝4；\n（3）过点F作FH⊥CD交CD于点H，证明△AEB≌△EFH（AAS），得出FH＝BE，AB＝EH，证明△CBG是等腰直角三角形，则可得出答案；\n（4）过点F作∠EFH＝∠BEC，与ED的延长线交于点H，证明△BEC≌△EFH（AAS），得出∠H＝∠BCD＝120°，EH＝BC，FH＝CE，证出△DCG是直角三角形，由直角三角形的性质可得出答案．\n【解答】（1）解：∵长方形纸片ABCD和AFGQ是两个完全相同的长方形，\n∴AC＝AG，∠BAC＝∠GAF，\n∴∠BAC+∠CAD＝∠GAF+∠CAD，\n∴∠GAC＝∠BAD＝90°，\n∴△ACG是等腰直角三角形，\n∴∠ACG＝45°，\n故答案为：45；\n（2）①证明：∵BM＝AB，\n∴∠BMA＝∠BAM，\n∵四边形ABCD是矩形，\n∴AB∥DC，\n∴∠DMA＝∠MAB；\n∴∠BMA＝∠DMA，\n∴AM平分∠DMB；\n②解：过点B作BE⊥AF于点E，\n〔图2〕\n∵AF＝AB＝10，AD＝6，\n∴DF＝〔图3〕＝8，\n∴CF＝DC﹣DF＝2，\n∵AB＝AF，\n∴∠AFB＝∠ABF，\n∵AB∥CD，\n∴∠ABF＝∠CFB，\n∴∠AFB＝∠CFB，\n∵BF＝BF，∠C＝∠BEF＝90°，\n∴△BCF≌△BEF（AAS），\n∴CF＝EF＝2，BC＝BE，\n∴AE＝8，\n∵AD＝AQ＝BC，\n∴AQ＝BE，\n∵∠QAO＝∠BEO，∠AOQ＝∠BOE，\n∴△AOQ≌△EOB（AAS），\n∴AO＝OE＝〔图1〕AE＝4，\n故答案为：4；\n（3）解：如图4，过点F作FH⊥CD交CD于点H，\n〔图4〕\n∵四边形ABCD是正方形，\n∴CB＝AB，∠ABC＝90°，\n∴∠H＝∠ABC＝90°，\n由旋转的性质得：∠AEF＝90°，EF＝AE，\n∵∠BEA+∠BAE＝∠BEA+∠FEH＝90°，\n∴∠BAE＝∠FEH，\n在△AEB和△EFH中，\n〔图5〕，\n∴△AEB≌△EFH（AAS），\n∴FH＝BE，AB＝EH，\n∴EH＝CB，\n∴CH+CE＝CE+BE，\n∴CH＝BE，\n∴FH＝CH，\n∴∠FCH＝45°，\n∴∠BCG＝45°，\n∵∠CBG＝90°，\n∴△CBG是等腰直角三角形，\n∴BG＝BC＝5〔图6〕；\n故答案为：5〔图6〕；\n（4）解：过点F作∠EFH＝∠BEC，与ED的延长线交于点H，如图5，\n〔图7〕\n∵四边形ABCD是菱形，\n∴CB＝CD，∠A＝∠BCD＝120°，\n由旋转得∠BEF＝120°，EF＝BE，\n∴∠BEC+∠CBE＝∠BEC+∠FEH＝60°，\n∴∠CBE＝∠FEH，\n∴△BEC≌△EFH（AAS），\n∴∠H＝∠BCD＝120°，EH＝BC，FH＝CE，\n∴CD＝EH，\n∴DH＝CE，\n∴DH＝FH，\n∴∠FDH＝∠DFH＝30°，\n∴∠CDG＝30°，\n∵∠DCG＝180°﹣∠BCD＝60°，\n∴∠G＝90°，\n∴△DCG是直角三角形，\n∵∠CDG＝30°，\n∴CG＝〔图8〕CD＝〔图8〕BC，\n∵BG＝6〔图9〕，\n∴3CG＝6〔图9〕，\n∴CG＝2〔图9〕．\n故答案为：2〔图9〕．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/1f5acf2b71291bb5a989c237ebf8e283460bdcd10230d021e1657b393475c5b2.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/d5ad1b79bd6a131dc6efdd7942de19457e533dbe34514c95b963feb1a1b46ddb.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/942059965fd758867fd42f08fff831d7ebbc13a3fcb1867a3d389eea68108c3e.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/a0a4b1f8cb618f5267b806f3de78569e2a48ab333604e37a213c8675c32c83ce.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/d1b5d35463770b885d2ea50250e0af6c008b60efb1c90a23a769e39065435e20.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/98db776c818df21c084b64c80550fdb4bec18c511d90d587869db693fdbe4948.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/ae2ee74597a6c2c0a5af54b0288e9c03c37af34c36f44f84f02c09552ef617d9.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/5313f9389bc9c959436e773adbe1b6721b20ec1376f27a7e40c57a031fb23225.png",
+    "assets/SZ-G9-T1-7EF0BCDE0F/figures/f421131dbd59ec5e8a1dce644e8242b23b6ea02ae80dc549611c95588f50a5f4.png"
+  ],
+  "answer": "（1）45\n（2）4\n（3）5〔图6〕\n（4）2〔图9〕",
+  "solution_steps": [
+    "（1）解：∵长方形纸片ABCD和AFGQ是两个完全相同的长方形，",
+    "∴AC＝AG，∠BAC＝∠GAF，",
+    "∴∠BAC+∠CAD＝∠GAF+∠CAD，",
+    "∴∠GAC＝∠BAD＝90°，",
+    "∴△ACG是等腰直角三角形，",
+    "∴∠ACG＝45°，",
+    "故答案为：45；",
+    "（2）①证明：∵BM＝AB，",
+    "∴∠BMA＝∠BAM，",
+    "∵四边形ABCD是矩形，",
+    "∴AB∥DC，",
+    "∴∠DMA＝∠MAB；",
+    "∴∠BMA＝∠DMA，",
+    "∴AM平分∠DMB；",
+    "②解：过点B作BE⊥AF于点E，",
+    "〔图2〕",
+    "∵AF＝AB＝10，AD＝6，",
+    "∴DF＝〔图3〕＝8，",
+    "∴CF＝DC﹣DF＝2，",
+    "∵AB＝AF，",
+    "∴∠AFB＝∠ABF，",
+    "∵AB∥CD，",
+    "∴∠ABF＝∠CFB，",
+    "∴∠AFB＝∠CFB，",
+    "∵BF＝BF，∠C＝∠BEF＝90°，",
+    "∴△BCF≌△BEF（AAS），",
+    "∴CF＝EF＝2，BC＝BE，",
+    "∴AE＝8，",
+    "∵AD＝AQ＝BC，",
+    "∴AQ＝BE，",
+    "∵∠QAO＝∠BEO，∠AOQ＝∠BOE，",
+    "∴△AOQ≌△EOB（AAS），",
+    "∴AO＝OE＝〔图1〕AE＝4，",
+    "故答案为：4；",
+    "（3）解：如图4，过点F作FH⊥CD交CD于点H，",
+    "〔图4〕",
+    "∵四边形ABCD是正方形，",
+    "∴CB＝AB，∠ABC＝90°，",
+    "∴∠H＝∠ABC＝90°，",
+    "由旋转的性质得：∠AEF＝90°，EF＝AE，",
+    "∵∠BEA+∠BAE＝∠BEA+∠FEH＝90°，",
+    "∴∠BAE＝∠FEH，",
+    "在△AEB和△EFH中，",
+    "〔图5〕，",
+    "∴△AEB≌△EFH（AAS），",
+    "∴FH＝BE，AB＝EH，",
+    "∴EH＝CB，",
+    "∴CH+CE＝CE+BE，",
+    "∴CH＝BE，",
+    "∴FH＝CH，",
+    "∴∠FCH＝45°，",
+    "∴∠BCG＝45°，",
+    "∵∠CBG＝90°，",
+    "∴△CBG是等腰直角三角形，",
+    "∴BG＝BC＝5〔图6〕；",
+    "故答案为：5〔图6〕；",
+    "（4）解：过点F作∠EFH＝∠BEC，与ED的延长线交于点H，如图5，",
+    "〔图7〕",
+    "∵四边形ABCD是菱形，",
+    "∴CB＝CD，∠A＝∠BCD＝120°，",
+    "由旋转得∠BEF＝120°，EF＝BE，",
+    "∴∠BEC+∠CBE＝∠BEC+∠FEH＝60°，",
+    "∴∠CBE＝∠FEH，",
+    "∴△BEC≌△EFH（AAS），",
+    "∴∠H＝∠BCD＝120°，EH＝BC，FH＝CE，",
+    "∴CD＝EH，",
+    "∴DH＝CE，",
+    "∴DH＝FH，",
+    "∴∠FDH＝∠DFH＝30°，",
+    "∴∠CDG＝30°，",
+    "∵∠DCG＝180°﹣∠BCD＝60°，",
+    "∴∠G＝90°，",
+    "∴△DCG是直角三角形，",
+    "∵∠CDG＝30°，",
+    "∴CG＝〔图8〕CD＝〔图8〕BC，",
+    "∵BG＝6〔图9〕，",
+    "∴3CG＝6〔图9〕，",
+    "∴CG＝2〔图9〕．",
+    "故答案为：2〔图9〕．"
+  ],
+  "solution": "（1）解：∵长方形纸片ABCD和AFGQ是两个完全相同的长方形，\n∴AC＝AG，∠BAC＝∠GAF，\n∴∠BAC+∠CAD＝∠GAF+∠CAD，\n∴∠GAC＝∠BAD＝90°，\n∴△ACG是等腰直角三角形，\n∴∠ACG＝45°，\n故答案为：45；\n（2）①证明：∵BM＝AB，\n∴∠BMA＝∠BAM，\n∵四边形ABCD是矩形，\n∴AB∥DC，\n∴∠DMA＝∠MAB；\n∴∠BMA＝∠DMA，\n∴AM平分∠DMB；\n②解：过点B作BE⊥AF于点E，\n〔图2〕\n∵AF＝AB＝10，AD＝6，\n∴DF＝〔图3〕＝8，\n∴CF＝DC﹣DF＝2，\n∵AB＝AF，\n∴∠AFB＝∠ABF，\n∵AB∥CD，\n∴∠ABF＝∠CFB，\n∴∠AFB＝∠CFB，\n∵BF＝BF，∠C＝∠BEF＝90°，\n∴△BCF≌△BEF（AAS），\n∴CF＝EF＝2，BC＝BE，\n∴AE＝8，\n∵AD＝AQ＝BC，\n∴AQ＝BE，\n∵∠QAO＝∠BEO，∠AOQ＝∠BOE，\n∴△AOQ≌△EOB（AAS），\n∴AO＝OE＝〔图1〕AE＝4，\n故答案为：4；\n（3）解：如图4，过点F作FH⊥CD交CD于点H，\n〔图4〕\n∵四边形ABCD是正方形，\n∴CB＝AB，∠ABC＝90°，\n∴∠H＝∠ABC＝90°，\n由旋转的性质得：∠AEF＝90°，EF＝AE，\n∵∠BEA+∠BAE＝∠BEA+∠FEH＝90°，\n∴∠BAE＝∠FEH，\n在△AEB和△EFH中，\n〔图5〕，\n∴△AEB≌△EFH（AAS），\n∴FH＝BE，AB＝EH，\n∴EH＝CB，\n∴CH+CE＝CE+BE，\n∴CH＝BE，\n∴FH＝CH，\n∴∠FCH＝45°，\n∴∠BCG＝45°，\n∵∠CBG＝90°，\n∴△CBG是等腰直角三角形，\n∴BG＝BC＝5〔图6〕；\n故答案为：5〔图6〕；\n（4）解：过点F作∠EFH＝∠BEC，与ED的延长线交于点H，如图5，\n〔图7〕\n∵四边形ABCD是菱形，\n∴CB＝CD，∠A＝∠BCD＝120°，\n由旋转得∠BEF＝120°，EF＝BE，\n∴∠BEC+∠CBE＝∠BEC+∠FEH＝60°，\n∴∠CBE＝∠FEH，\n∴△BEC≌△EFH（AAS），\n∴∠H＝∠BCD＝120°，EH＝BC，FH＝CE，\n∴CD＝EH，\n∴DH＝CE，\n∴DH＝FH，\n∴∠FDH＝∠DFH＝30°，\n∴∠CDG＝30°，\n∵∠DCG＝180°﹣∠BCD＝60°，\n∴∠G＝90°，\n∴△DCG是直角三角形，\n∵∠CDG＝30°，\n∴CG＝〔图8〕CD＝〔图8〕BC，\n∵BG＝6〔图9〕，\n∴3CG＝6〔图9〕，\n∴CG＝2〔图9〕．\n故答案为：2〔图9〕．",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    6,
+    9,
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    8
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      59,
+      66
+    ],
+    "solution_body_blocks": [
+      353,
+      436
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7EF0BCDE0F/paper-q19-p05.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/paper-q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          317.27,
+          583.64,
+          589.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          70.91,
+          583.64,
+          367.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q19-p21.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q19-p22.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q19-p23.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q19-p24.webp",
+      "assets/SZ-G9-T1-7EF0BCDE0F/solution-q19-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          715.0,
+          583.64,
+          753.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          75.0,
+          583.64,
+          767.73
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          76.82,
+          583.64,
+          752.73
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          69.09,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          76.82,
+          583.64,
+          355.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G03.02",
+    "M.G07.03",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G03.02.02",
+    "E.G07.03.02",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。 本问题面与解答对应“构造全等关系证明线段或角关系”。 本问解答对应“利用旋转对应建立全等或角度关系”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

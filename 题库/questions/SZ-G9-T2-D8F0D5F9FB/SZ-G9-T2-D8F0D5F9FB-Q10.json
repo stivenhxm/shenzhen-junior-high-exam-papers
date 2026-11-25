@@ -1,0 +1,194 @@
+{
+  "id": "SZ-G9-T2-D8F0D5F9FB-Q10",
+  "paper_id": "SZ-G9-T2-D8F0D5F9FB",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "分解组合图形求边角",
+  "stem": "如图，在\\(\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(AC=BC\\)．\\(AB\\)与矩形\\(DEFG\\)的一边\\(EF\\)都在直线\\(l\\)上，其中\\(AB=4\\)、\\(DE=1\\)、\\(EF=3\\)，且点\\(B\\)位于点\\(E\\)处．将\\(\\vartriangle ABC\\)沿直线，向右平移，直到点\\(A\\)与点\\(E\\)重合为止．记点\\(B\\)平移的距离为\\(x\\)，\\(\\vartriangle ABC\\)与矩形\\(DEFG\\)重叠区域面积为y，则y关于x的函数图象大致为（　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "〔图2〕"
+    },
+    {
+      "label": "B",
+      "text": "〔图3〕"
+    },
+    {
+      "label": "C",
+      "text": "〔图4〕"
+    },
+    {
+      "label": "D",
+      "text": "〔图5〕"
+    }
+  ],
+  "figures": [
+    "assets/figures/20/20fdb6151735792df462c31feb1ede33f10f350f41cf6a455cdee44d3a7b9a14.png",
+    "assets/figures/ea/ead1967c5c6ee2d456aa42a0e8efa1061cc782bc44d20c737edbff0dee325fa6.png",
+    "assets/figures/3c/3c4bc0c0a980ab3a769d6c2f20e8502140ad1678a59f2b982a444f54ce28211c.png",
+    "assets/figures/1c/1c0205387c717e4a9110d90e67982d353ad52ffa5a9168a57884c8ad8a3513f6.png",
+    "assets/figures/ae/ae3e9fa6ced36bd20e6bdd4b778449c0a7e04a415cf779e78a3c9c21c383639e.png"
+  ],
+  "tables": [],
+  "given_answer": "D",
+  "answer": "D",
+  "given_solution": "【分析】先根据\\(CB\\)经过点\\(D\\)和\\(CA\\)经过点\\(D\\)时计算出\\(x=1\\)和\\(x=3\\)，再分\\(0\\le x\\le 1\\)，\\(1 < x\\le 3\\)和\\(3 < x\\le 4\\)三种情况讨论，画出图形，利用面积公式解答即可．\n【详解】解：当\\(BC\\)经过点\\(D\\)时，如图所示：\n〔图6〕\n\\(\\because \\vartriangle ABC\\)为等腰直角三角形，\n\\(\\therefore \\angle DBE=45{}^\\circ\\)，\n\\(\\because DE=1\\)，\\(\\angle DEB=90{}^\\circ\\)，\n\\(\\therefore EB=\\frac { DE } { tan45{}^\\circ }=\\frac { 1 } { 1 }=1\\)；\n当\\(AC\\)经过点\\(D\\)时，如图所示：\n〔图7〕\n\\(\\because \\angle A=45{}^\\circ\\)，\\(DE=1\\)，\n\\(\\therefore AE=1\\)，\n\\(\\therefore EB=AB-AE=4-1=3\\)；\n①当\\(0\\le x\\le 1\\)时，如图所示：\n〔图8〕\n此时\\(EB=x\\)，\\(\\angle HBE=45{}^\\circ\\)，\n\\(\\therefore HE=tan45{}^\\circ \\cdot EB=x\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }EB\\cdot HE=\\frac { 1 } { 2 }x\\cdot x=\\frac { 1 } { 2 }x ^ { 2 }\\)；\n②当\\(1 < x\\le 3\\)时，如图所示：\n〔图9〕\n过\\(M\\)作\\(MN\\bot AB\\)于\\(N\\)，\n此时，\\(MN=1\\)，\\(\\angle MBN=45{}^\\circ\\)，\n\\(\\therefore BN=1\\)，\n\\(\\because EB=x\\)，\n\\(\\therefore EN=EB-NB=x-1\\)，\n\\(\\because\\)四边形\\(DENM\\)是矩形，\n\\(\\therefore DM=EN=x-1\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }(DM+EB)\\cdot DE=\\frac { 1 } { 2 }(x-1+x)\\times 1=x-\\frac { 1 } { 2 }\\)；\n③当\\(3 < x\\le 4\\)时，如图所示：\n〔图10〕\n此时\\(IR=1\\)，\\(\\angle IBR=45{}^\\circ\\)\n\\(\\therefore BR=1\\)，\n\\(\\because EB=x\\)，\n\\(\\therefore ER=DI=x-1\\)，\\(AE=AB-EB=4-x\\)，\n\\(\\because \\angle B=45{}^\\circ\\)，\n\\(\\therefore TE=AE\\cdot tan45{}^\\circ =4-x\\)，\n\\(\\because DE=1\\)，\n\\(\\therefore DT=DE-TE=1-(4-x)=x-3\\)，\n\\(\\because DG\\parallel AB\\)，\n\\(\\therefore \\angle DKT=45{}^\\circ\\)，\n\\(\\therefore DK=\\frac { DT } { tan45{}^\\circ }=\\frac { x-3 } { 1 }=x-3\\)，\n\\(\\therefore y=S_{ 四边形DERI } +S_{ { \\rm{ \\Delta } }IRB } -S_{ { \\rm{ \\Delta } }DTK } =1\\times \\left ( { x-1 } \\right )+\\frac { 1 } { 2 }\\times 1\\times 1-\\frac { 1 } { 2 }\\times (x-3) ^ { 2 } =-\\frac { 1 } { 2 }x ^ { 2 } +4x-5\\)．\n故选：D．\n【点睛】本题考查了动点问题的函数图象，等腰直角三角形的性质，矩形的性质，解三角形等知识，关键是画出图形，利用数形结合和分类讨论的思想进行运算．",
+  "given_solution_figures": [
+    "assets/figures/20/20fdb6151735792df462c31feb1ede33f10f350f41cf6a455cdee44d3a7b9a14.png",
+    "assets/figures/ea/ead1967c5c6ee2d456aa42a0e8efa1061cc782bc44d20c737edbff0dee325fa6.png",
+    "assets/figures/3c/3c4bc0c0a980ab3a769d6c2f20e8502140ad1678a59f2b982a444f54ce28211c.png",
+    "assets/figures/1c/1c0205387c717e4a9110d90e67982d353ad52ffa5a9168a57884c8ad8a3513f6.png",
+    "assets/figures/ae/ae3e9fa6ced36bd20e6bdd4b778449c0a7e04a415cf779e78a3c9c21c383639e.png",
+    "assets/figures/cb/cb6fd78a24455d6cf4f75e921fd633bc1c915ca0f180476f48dfe2744ad7ffc9.png",
+    "assets/figures/33/3309182bf7df661bbc82b6a3cf8298cce4c9064dd84196d1f7e90f752ea51af9.png",
+    "assets/figures/cf/cf21047b225b41bc3490e5eef5e5ede13b34207bc15ee0dfb8fc9c0307555d5f.png",
+    "assets/figures/55/5576b183b3e1b3dfbf3fe51294ecfc74188f7e8c2bab343d7b70ffb88c931522.png",
+    "assets/figures/4c/4c7f0b6a332189ef7ca464f77eabb101549a1373d617609a2ac25603db78a56b.png"
+  ],
+  "solution": "解：当\\(BC\\)经过点\\(D\\)时，如图所示：\n〔图6〕\n\\(\\because \\vartriangle ABC\\)为等腰直角三角形，\n\\(\\therefore \\angle DBE=45{}^\\circ\\)，\n\\(\\because DE=1\\)，\\(\\angle DEB=90{}^\\circ\\)，\n\\(\\therefore EB=\\frac { DE } { tan45{}^\\circ }=\\frac { 1 } { 1 }=1\\)；\n当\\(AC\\)经过点\\(D\\)时，如图所示：\n〔图7〕\n\\(\\because \\angle A=45{}^\\circ\\)，\\(DE=1\\)，\n\\(\\therefore AE=1\\)，\n\\(\\therefore EB=AB-AE=4-1=3\\)；\n①当\\(0\\le x\\le 1\\)时，如图所示：\n〔图8〕\n此时\\(EB=x\\)，\\(\\angle HBE=45{}^\\circ\\)，\n\\(\\therefore HE=tan45{}^\\circ \\cdot EB=x\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }EB\\cdot HE=\\frac { 1 } { 2 }x\\cdot x=\\frac { 1 } { 2 }x ^ { 2 }\\)；\n②当\\(1 < x\\le 3\\)时，如图所示：\n〔图9〕\n过\\(M\\)作\\(MN\\bot AB\\)于\\(N\\)，\n此时，\\(MN=1\\)，\\(\\angle MBN=45{}^\\circ\\)，\n\\(\\therefore BN=1\\)，\n\\(\\because EB=x\\)，\n\\(\\therefore EN=EB-NB=x-1\\)，\n\\(\\because\\)四边形\\(DENM\\)是矩形，\n\\(\\therefore DM=EN=x-1\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }(DM+EB)\\cdot DE=\\frac { 1 } { 2 }(x-1+x)\\times 1=x-\\frac { 1 } { 2 }\\)；\n③当\\(3 < x\\le 4\\)时，如图所示：\n〔图10〕\n此时\\(IR=1\\)，\\(\\angle IBR=45{}^\\circ\\)\n\\(\\therefore BR=1\\)，\n\\(\\because EB=x\\)，\n\\(\\therefore ER=DI=x-1\\)，\\(AE=AB-EB=4-x\\)，\n\\(\\because \\angle B=45{}^\\circ\\)，\n\\(\\therefore TE=AE\\cdot tan45{}^\\circ =4-x\\)，\n\\(\\because DE=1\\)，\n\\(\\therefore DT=DE-TE=1-(4-x)=x-3\\)，\n\\(\\because DG\\parallel AB\\)，\n\\(\\therefore \\angle DKT=45{}^\\circ\\)，\n\\(\\therefore DK=\\frac { DT } { tan45{}^\\circ }=\\frac { x-3 } { 1 }=x-3\\)，\n\\(\\therefore y=S_{ 四边形DERI } +S_{ { \\rm{ \\Delta } }IRB } -S_{ { \\rm{ \\Delta } }DTK } =1\\times \\left ( { x-1 } \\right )+\\frac { 1 } { 2 }\\times 1\\times 1-\\frac { 1 } { 2 }\\times (x-3) ^ { 2 } =-\\frac { 1 } { 2 }x ^ { 2 } +4x-5\\)．\n故选：D．",
+  "solution_steps": [
+    "解：当\\(BC\\)经过点\\(D\\)时，如图所示：",
+    "〔图6〕",
+    "\\(\\because \\vartriangle ABC\\)为等腰直角三角形，",
+    "\\(\\therefore \\angle DBE=45{}^\\circ\\)，",
+    "\\(\\because DE=1\\)，\\(\\angle DEB=90{}^\\circ\\)，",
+    "\\(\\therefore EB=\\frac { DE } { tan45{}^\\circ }=\\frac { 1 } { 1 }=1\\)；",
+    "当\\(AC\\)经过点\\(D\\)时，如图所示：",
+    "〔图7〕",
+    "\\(\\because \\angle A=45{}^\\circ\\)，\\(DE=1\\)，",
+    "\\(\\therefore AE=1\\)，",
+    "\\(\\therefore EB=AB-AE=4-1=3\\)；",
+    "①当\\(0\\le x\\le 1\\)时，如图所示：",
+    "〔图8〕",
+    "此时\\(EB=x\\)，\\(\\angle HBE=45{}^\\circ\\)，",
+    "\\(\\therefore HE=tan45{}^\\circ \\cdot EB=x\\)，",
+    "\\(\\therefore y=\\frac { 1 } { 2 }EB\\cdot HE=\\frac { 1 } { 2 }x\\cdot x=\\frac { 1 } { 2 }x ^ { 2 }\\)；",
+    "②当\\(1 < x\\le 3\\)时，如图所示：",
+    "〔图9〕",
+    "过\\(M\\)作\\(MN\\bot AB\\)于\\(N\\)，",
+    "此时，\\(MN=1\\)，\\(\\angle MBN=45{}^\\circ\\)，",
+    "\\(\\therefore BN=1\\)，",
+    "\\(\\because EB=x\\)，",
+    "\\(\\therefore EN=EB-NB=x-1\\)，",
+    "\\(\\because\\)四边形\\(DENM\\)是矩形，",
+    "\\(\\therefore DM=EN=x-1\\)，",
+    "\\(\\therefore y=\\frac { 1 } { 2 }(DM+EB)\\cdot DE=\\frac { 1 } { 2 }(x-1+x)\\times 1=x-\\frac { 1 } { 2 }\\)；",
+    "③当\\(3 < x\\le 4\\)时，如图所示：",
+    "〔图10〕",
+    "此时\\(IR=1\\)，\\(\\angle IBR=45{}^\\circ\\)",
+    "\\(\\therefore BR=1\\)，",
+    "\\(\\because EB=x\\)，",
+    "\\(\\therefore ER=DI=x-1\\)，\\(AE=AB-EB=4-x\\)，",
+    "\\(\\because \\angle B=45{}^\\circ\\)，",
+    "\\(\\therefore TE=AE\\cdot tan45{}^\\circ =4-x\\)，",
+    "\\(\\because DE=1\\)，",
+    "\\(\\therefore DT=DE-TE=1-(4-x)=x-3\\)，",
+    "\\(\\because DG\\parallel AB\\)，",
+    "\\(\\therefore \\angle DKT=45{}^\\circ\\)，",
+    "\\(\\therefore DK=\\frac { DT } { tan45{}^\\circ }=\\frac { x-3 } { 1 }=x-3\\)，",
+    "\\(\\therefore y=S_{ 四边形DERI } +S_{ { \\rm{ \\Delta } }IRB } -S_{ { \\rm{ \\Delta } }DTK } =1\\times \\left ( { x-1 } \\right )+\\frac { 1 } { 2 }\\times 1\\times 1-\\frac { 1 } { 2 }\\times (x-3) ^ { 2 } =-\\frac { 1 } { 2 }x ^ { 2 } +4x-5\\)．",
+    "故选：D．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      28,
+      31
+    ],
+    "solution_body_blocks": [
+      100,
+      148
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-D8F0D5F9FB/paper-q10-p02.webp",
+      "assets/SZ-G9-T2-D8F0D5F9FB/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          712.73
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          45.91,
+          583.64,
+          225.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7,
+      8
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-D8F0D5F9FB/solution-q10-p06.webp",
+      "assets/SZ-G9-T2-D8F0D5F9FB/solution-q10-p07.webp",
+      "assets/SZ-G9-T2-D8F0D5F9FB/solution-q10-p08.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          385.91,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          525.0
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G10.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+  "tag_source": "题文匹配"
+}

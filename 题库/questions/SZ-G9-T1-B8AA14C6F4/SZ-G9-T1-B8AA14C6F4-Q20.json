@@ -1,0 +1,458 @@
+{
+  "id": "SZ-G9-T1-B8AA14C6F4-Q20",
+  "paper_id": "SZ-G9-T1-B8AA14C6F4",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "已知：如图1，在矩形\\(ABCD\\)中，\\(AD=10\\)，\\(AB=8\\)，\\(O\\)为对角线\\(BD\\)的中点，点\\(P\\)为\\(AD\\)上一动点，连接\\(OP\\)并延长，交\\(BC\\)于点\\(Q\\)，连接\\(DQ\\)，将\\(\\vartriangle DPQ\\)沿\\(PQ\\)折叠，点\\(D\\)的对应点为点\\(D'\\)．\n〔图1〕\n（1）求证：\\(AP=CQ\\)；\n（2）当点\\(D'\\)在直线\\(AD\\)与直线BC之间时，如图2，延长\\(PD'\\)，交\\(CB\\)的延长线于点\\(M\\)，连接\\(MO\\)．\n①求证：\\(MO\\bot PQ\\)；\n②设\\(AP\\)的长为\\(x\\)，\\(MQ\\)的长度为\\(y\\)，请用含\\(x\\)的代数式表示\\(y\\)．\n（3）如图3，若\\(D ^ { \\prime } Q\\)交\\(BD\\)于点\\(H\\)，若\\(\\vartriangle OHQ\\)与\\(\\vartriangle D'QP\\)相似，请直接写出\\(AP\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-B8AA14C6F4/figures/fa951f683a0601b0c532a4e0532a1171e544620529c93e90ebaf845b45ccc9d8.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）①见解析；②\\(MQ=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)\n（3）\\(10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+  "answer": "（1）见解析    （2）①见解析；②\\(MQ=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)\n（3）\\(10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+  "given_solution": "【分析】本题主要考查矩形的判定和性质，相似三角形，全等三角形，等腰三角形，勾股定理等知识；\n（1）根据题意证出\\(\\vartriangle POD≌\\vartriangle BOQ\\)，结合全等三角形的性质得到\\(DP=BQ\\)，得到\\(AD-DP=BC-BQ\\)，即可求出；\n（2）①根据已知得到\\(\\angle DPQ=\\angle PQB\\)，通过折叠得出\\(\\angle MPQ=\\angle DPQ\\)得到\\(\\angle MPQ=\\angle PQB\\)，求出\\(PM=QM\\)，得到等腰三角形，再根据\\(\\vartriangle POD≌\\vartriangle BOQ\\)得\\(PO=OQ\\)，即可求出；②过点\\(O\\)作\\(OG\\bot BC\\)于点\\(G\\)，证出\\(\\vartriangle OBG\\backsim \\vartriangle DBC\\)，得到\\(\\frac { OG } { DC }=\\frac { BG } { BC }=\\frac { BO } { BD }=\\frac { 1 } { 2 }\\)，由（1）得：\\(CQ=AP=x\\)，\\(GQ=5-x\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGQ\\)中，\\(OQ ^ { 2 } =OG ^ { 2 } +GQ ^ { 2 } =x ^ { 2 } -10x+41\\)，再证出\\(\\vartriangle OGQ\\backsim \\vartriangle MOQ\\)，得到\\(OQ ^ { 2 } =MQ\\bullet GQ\\)，即可求出；\n（3）分情况讨论，当\\(\\vartriangle OHQ\\backsim \\vartriangle PD'Q\\)时，得到\\(DO=\\frac { 1 } { 2 }DB=\\sqrt[] { 41 }\\)，当\\(\\vartriangle OHQ\\backsim \\vartriangle D'PQ\\)时，证出\\(\\vartriangle DOP\\backsim \\vartriangle QDP\\)，得到\\(PD=\\frac { \\sqrt[] { 2 } } { 2 }PQ\\)，\\(QC=\\sqrt[] { DQ ^ { 2 } -DC ^ { 2 } }=\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)，即可求出．\n【小问1详解】\n解：在矩形\\(ABCD\\)中，\\(AD=BC\\)，\\(AD\\parallel BC\\)\n〔图2〕\n\\(\\therefore \\angle ADB=\\angle DBC\\)\n\\(\\because O\\)为\\(BD\\)的中点\n\\(\\therefore BO=DO\\)\n\\(\\because \\angle POD=\\angle BOQ\\)\n\\(\\therefore \\vartriangle POD≌\\vartriangle BOQ\\)\n\\(\\therefore DP=BQ\\)\n\\(\\therefore AD-DP=BC-BQ\\)\n即\\(AP=CQ\\)\n【小问2详解】\n解：①在矩形\\(ABCD\\)中，\\(AD\\parallel BC\\)\n\\(\\therefore \\angle DPQ=\\angle PQB\\)\n\\(\\because\\)折叠\n\\(\\therefore \\angle MPQ=\\angle DPQ\\)\\(\\therefore \\angle MPQ=\\angle PQB\\)\\(\\therefore PM=QM\\)\n〔图3〕\n由（1）得：\\(\\vartriangle POD≌\\vartriangle BOQ\\)\\(\\therefore PO=OQ\\)\\(\\therefore MO\\bot PQ\\)\n②过点\\(O\\)作\\(OG\\bot BC\\)于点\\(G\\)\n〔图4〕\n\\(\\because \\angle OBC=\\angle OBG\\)，\\(\\angle OGB=\\angle DCB\\)\n\\(\\therefore \\vartriangle OBG\\backsim \\vartriangle DBC\\)\n\\(\\therefore \\frac { OG } { DC }=\\frac { BG } { BC }=\\frac { BO } { BD }=\\frac { 1 } { 2 }\\)\\(\\therefore OG=4\\)，\\(BG=5\\therefore CG=5\\)\n由（1）得：\\(CQ=AP=x\\)，\\(\\therefore GQ=5-x\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGQ\\)中，\\(OQ ^ { 2 } =OG ^ { 2 } +GQ ^ { 2 } =4 ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =x ^ { 2 } -10x+41\\)\n又\\(\\because \\angle MOQ=\\angle OGQ=90{}^\\circ\\)，\\(\\angle OQG=\\angle OQM\\)\n\\(\\therefore \\vartriangle OGQ\\backsim \\vartriangle MOQ\\)\n\\(\\therefore \\frac { OQ } { MQ }=\\frac { GQ } { OQ }\\)    \\(\\therefore OQ ^ { 2 } =MQ\\cdot GQ\\)\n\\(\\therefore MQ=\\frac { OQ ^ { 2 } } { GQ }=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)\n【小问3详解】\n当\\(\\vartriangle OHQ\\backsim \\vartriangle PD'Q\\)时，\\(\\angle HOQ=\\angle D'PQ\\)\n\\(\\because \\angle DPQ=\\angle D'PQ\\)，\\(\\angle HOQ=\\angle DOP\\)\\(\\therefore \\angle DPQ=\\angle DOP\\)\n\\(\\therefore DP=DO\\)\\(\\because DO=\\frac { 1 } { 2 }DB=\\sqrt[] { 41 }\\)\\(\\therefore AP=10-\\sqrt[] { 41 }\\)\n〔图5〕\n当\\(\\vartriangle OHQ\\backsim \\vartriangle D'PQ\\)时，\\(\\angle HOQ=\\angle D'\\)\n\\(\\because \\angle PDQ=\\angle D'\\)，\\(\\angle HOQ=\\angle DOP\\)\n\\(\\therefore \\angle PDQ=\\angle DOP\\)又\\(\\because \\angle DPO=\\angle DPO\\)\n\\(\\therefore \\vartriangle DOP\\backsim \\vartriangle QDP\\)\n\\(\\therefore \\frac { PD } { PQ }=\\frac { PO } { PD }=\\frac { OD } { DQ }\\)\n\\(\\therefore PD ^ { 2 } =PO\\cdot PQ=\\frac { 1 } { 2 }PQ ^ { 2 }\\)\n\\(\\therefore PD=\\frac { \\sqrt[] { 2 } } { 2 }PQ\\)\n\\(\\therefore \\frac { OD } { DQ }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DQ=\\sqrt[] { 2 }OD=\\sqrt[] { 82 }\\)\n\\(\\therefore QC=\\sqrt[] { DQ ^ { 2 } -DC ^ { 2 } }=\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)\n\\(\\therefore AP=3\\sqrt[] { 2 }\\)\n综上\\(AP=10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-B8AA14C6F4/figures/fa951f683a0601b0c532a4e0532a1171e544620529c93e90ebaf845b45ccc9d8.png",
+    "assets/SZ-G9-T1-B8AA14C6F4/figures/91c3aa2da8cdedc319deadd187312b87d846ad65ce3014d801f030099f4bb7c1.png",
+    "assets/SZ-G9-T1-B8AA14C6F4/figures/da6922eaf0fd6b6a1587daea00158ecf147c78705eeef96fc485f52652e9ad89.png",
+    "assets/SZ-G9-T1-B8AA14C6F4/figures/e121913163f8fec7a4e3d58214b6f914e30818d00217b3bae4cf1272cc6ff67e.png",
+    "assets/SZ-G9-T1-B8AA14C6F4/figures/eb5b02e8626967db6f7760b3f7fd435899b95f20b35bb60c46272f7ef50db320.png"
+  ],
+  "solution": "【小问1详解】\n解：在矩形\\(ABCD\\)中，\\(AD=BC\\)，\\(AD\\parallel BC\\)\n〔图2〕\n\\(\\therefore \\angle ADB=\\angle DBC\\)\n\\(\\because O\\)为\\(BD\\)的中点\n\\(\\therefore BO=DO\\)\n\\(\\because \\angle POD=\\angle BOQ\\)\n\\(\\therefore \\vartriangle POD≌\\vartriangle BOQ\\)\n\\(\\therefore DP=BQ\\)\n\\(\\therefore AD-DP=BC-BQ\\)\n即\\(AP=CQ\\)\n【小问2详解】\n解：①在矩形\\(ABCD\\)中，\\(AD\\parallel BC\\)\n\\(\\therefore \\angle DPQ=\\angle PQB\\)\n\\(\\because\\)折叠\n\\(\\therefore \\angle MPQ=\\angle DPQ\\)\\(\\therefore \\angle MPQ=\\angle PQB\\)\\(\\therefore PM=QM\\)\n〔图3〕\n由（1）得：\\(\\vartriangle POD≌\\vartriangle BOQ\\)\\(\\therefore PO=OQ\\)\\(\\therefore MO\\bot PQ\\)\n②过点\\(O\\)作\\(OG\\bot BC\\)于点\\(G\\)\n〔图4〕\n\\(\\because \\angle OBC=\\angle OBG\\)，\\(\\angle OGB=\\angle DCB\\)\n\\(\\therefore \\vartriangle OBG\\backsim \\vartriangle DBC\\)\n\\(\\therefore \\frac { OG } { DC }=\\frac { BG } { BC }=\\frac { BO } { BD }=\\frac { 1 } { 2 }\\)\\(\\therefore OG=4\\)，\\(BG=5\\therefore CG=5\\)\n由（1）得：\\(CQ=AP=x\\)，\\(\\therefore GQ=5-x\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGQ\\)中，\\(OQ ^ { 2 } =OG ^ { 2 } +GQ ^ { 2 } =4 ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =x ^ { 2 } -10x+41\\)\n又\\(\\because \\angle MOQ=\\angle OGQ=90{}^\\circ\\)，\\(\\angle OQG=\\angle OQM\\)\n\\(\\therefore \\vartriangle OGQ\\backsim \\vartriangle MOQ\\)\n\\(\\therefore \\frac { OQ } { MQ }=\\frac { GQ } { OQ }\\)    \\(\\therefore OQ ^ { 2 } =MQ\\cdot GQ\\)\n\\(\\therefore MQ=\\frac { OQ ^ { 2 } } { GQ }=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)\n【小问3详解】\n当\\(\\vartriangle OHQ\\backsim \\vartriangle PD'Q\\)时，\\(\\angle HOQ=\\angle D'PQ\\)\n\\(\\because \\angle DPQ=\\angle D'PQ\\)，\\(\\angle HOQ=\\angle DOP\\)\\(\\therefore \\angle DPQ=\\angle DOP\\)\n\\(\\therefore DP=DO\\)\\(\\because DO=\\frac { 1 } { 2 }DB=\\sqrt[] { 41 }\\)\\(\\therefore AP=10-\\sqrt[] { 41 }\\)\n〔图5〕\n当\\(\\vartriangle OHQ\\backsim \\vartriangle D'PQ\\)时，\\(\\angle HOQ=\\angle D'\\)\n\\(\\because \\angle PDQ=\\angle D'\\)，\\(\\angle HOQ=\\angle DOP\\)\n\\(\\therefore \\angle PDQ=\\angle DOP\\)又\\(\\because \\angle DPO=\\angle DPO\\)\n\\(\\therefore \\vartriangle DOP\\backsim \\vartriangle QDP\\)\n\\(\\therefore \\frac { PD } { PQ }=\\frac { PO } { PD }=\\frac { OD } { DQ }\\)\n\\(\\therefore PD ^ { 2 } =PO\\cdot PQ=\\frac { 1 } { 2 }PQ ^ { 2 }\\)\n\\(\\therefore PD=\\frac { \\sqrt[] { 2 } } { 2 }PQ\\)\n\\(\\therefore \\frac { OD } { DQ }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DQ=\\sqrt[] { 2 }OD=\\sqrt[] { 82 }\\)\n\\(\\therefore QC=\\sqrt[] { DQ ^ { 2 } -DC ^ { 2 } }=\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)\n\\(\\therefore AP=3\\sqrt[] { 2 }\\)\n综上\\(AP=10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：在矩形\\(ABCD\\)中，\\(AD=BC\\)，\\(AD\\parallel BC\\)",
+    "〔图2〕",
+    "\\(\\therefore \\angle ADB=\\angle DBC\\)",
+    "\\(\\because O\\)为\\(BD\\)的中点",
+    "\\(\\therefore BO=DO\\)",
+    "\\(\\because \\angle POD=\\angle BOQ\\)",
+    "\\(\\therefore \\vartriangle POD≌\\vartriangle BOQ\\)",
+    "\\(\\therefore DP=BQ\\)",
+    "\\(\\therefore AD-DP=BC-BQ\\)",
+    "即\\(AP=CQ\\)",
+    "【小问2详解】",
+    "解：①在矩形\\(ABCD\\)中，\\(AD\\parallel BC\\)",
+    "\\(\\therefore \\angle DPQ=\\angle PQB\\)",
+    "\\(\\because\\)折叠",
+    "\\(\\therefore \\angle MPQ=\\angle DPQ\\)\\(\\therefore \\angle MPQ=\\angle PQB\\)\\(\\therefore PM=QM\\)",
+    "〔图3〕",
+    "由（1）得：\\(\\vartriangle POD≌\\vartriangle BOQ\\)\\(\\therefore PO=OQ\\)\\(\\therefore MO\\bot PQ\\)",
+    "②过点\\(O\\)作\\(OG\\bot BC\\)于点\\(G\\)",
+    "〔图4〕",
+    "\\(\\because \\angle OBC=\\angle OBG\\)，\\(\\angle OGB=\\angle DCB\\)",
+    "\\(\\therefore \\vartriangle OBG\\backsim \\vartriangle DBC\\)",
+    "\\(\\therefore \\frac { OG } { DC }=\\frac { BG } { BC }=\\frac { BO } { BD }=\\frac { 1 } { 2 }\\)\\(\\therefore OG=4\\)，\\(BG=5\\therefore CG=5\\)",
+    "由（1）得：\\(CQ=AP=x\\)，\\(\\therefore GQ=5-x\\)",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGQ\\)中，\\(OQ ^ { 2 } =OG ^ { 2 } +GQ ^ { 2 } =4 ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =x ^ { 2 } -10x+41\\)",
+    "又\\(\\because \\angle MOQ=\\angle OGQ=90{}^\\circ\\)，\\(\\angle OQG=\\angle OQM\\)",
+    "\\(\\therefore \\vartriangle OGQ\\backsim \\vartriangle MOQ\\)",
+    "\\(\\therefore \\frac { OQ } { MQ }=\\frac { GQ } { OQ }\\)    \\(\\therefore OQ ^ { 2 } =MQ\\cdot GQ\\)",
+    "\\(\\therefore MQ=\\frac { OQ ^ { 2 } } { GQ }=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)",
+    "【小问3详解】",
+    "当\\(\\vartriangle OHQ\\backsim \\vartriangle PD'Q\\)时，\\(\\angle HOQ=\\angle D'PQ\\)",
+    "\\(\\because \\angle DPQ=\\angle D'PQ\\)，\\(\\angle HOQ=\\angle DOP\\)\\(\\therefore \\angle DPQ=\\angle DOP\\)",
+    "\\(\\therefore DP=DO\\)\\(\\because DO=\\frac { 1 } { 2 }DB=\\sqrt[] { 41 }\\)\\(\\therefore AP=10-\\sqrt[] { 41 }\\)",
+    "〔图5〕",
+    "当\\(\\vartriangle OHQ\\backsim \\vartriangle D'PQ\\)时，\\(\\angle HOQ=\\angle D'\\)",
+    "\\(\\because \\angle PDQ=\\angle D'\\)，\\(\\angle HOQ=\\angle DOP\\)",
+    "\\(\\therefore \\angle PDQ=\\angle DOP\\)又\\(\\because \\angle DPO=\\angle DPO\\)",
+    "\\(\\therefore \\vartriangle DOP\\backsim \\vartriangle QDP\\)",
+    "\\(\\therefore \\frac { PD } { PQ }=\\frac { PO } { PD }=\\frac { OD } { DQ }\\)",
+    "\\(\\therefore PD ^ { 2 } =PO\\cdot PQ=\\frac { 1 } { 2 }PQ ^ { 2 }\\)",
+    "\\(\\therefore PD=\\frac { \\sqrt[] { 2 } } { 2 }PQ\\)",
+    "\\(\\therefore \\frac { OD } { DQ }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DQ=\\sqrt[] { 2 }OD=\\sqrt[] { 82 }\\)",
+    "\\(\\therefore QC=\\sqrt[] { DQ ^ { 2 } -DC ^ { 2 } }=\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)",
+    "\\(\\therefore AP=3\\sqrt[] { 2 }\\)",
+    "综上\\(AP=10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知：如图1，在矩形\\(ABCD\\)中，\\(AD=10\\)，\\(AB=8\\)，\\(O\\)为对角线\\(BD\\)的中点，点\\(P\\)为\\(AD\\)上一动点，连接\\(OP\\)并延长，交\\(BC\\)于点\\(Q\\)，连接\\(DQ\\)，将\\(\\vartriangle DPQ\\)沿\\(PQ\\)折叠，点\\(D\\)的对应点为点\\(D'\\)．\n〔图1〕",
+      "paper_blocks": [
+        62,
+        63
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "当点\\(D'\\)在直线\\(AD\\)与直线BC之间时，如图2，延长\\(PD'\\)，交\\(CB\\)的延长线于点\\(M\\)，连接\\(MO\\)．",
+      "paper_blocks": [
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-B8AA14C6F4-Q20-P01",
+      "label": "（1）",
+      "prompt": "求证：\\(AP=CQ\\)；",
+      "stem_text": "求证：\\(AP=CQ\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "解：在矩形\\(ABCD\\)中，\\(AD=BC\\)，\\(AD\\parallel BC\\)\n〔图2〕\n\\(\\therefore \\angle ADB=\\angle DBC\\)\n\\(\\because O\\)为\\(BD\\)的中点\n\\(\\therefore BO=DO\\)\n\\(\\because \\angle POD=\\angle BOQ\\)\n\\(\\therefore \\vartriangle POD≌\\vartriangle BOQ\\)\n\\(\\therefore DP=BQ\\)\n\\(\\therefore AD-DP=BC-BQ\\)\n即\\(AP=CQ\\)",
+      "solution_steps": [
+        "解：在矩形\\(ABCD\\)中，\\(AD=BC\\)，\\(AD\\parallel BC\\)",
+        "〔图2〕",
+        "\\(\\therefore \\angle ADB=\\angle DBC\\)",
+        "\\(\\because O\\)为\\(BD\\)的中点",
+        "\\(\\therefore BO=DO\\)",
+        "\\(\\because \\angle POD=\\angle BOQ\\)",
+        "\\(\\therefore \\vartriangle POD≌\\vartriangle BOQ\\)",
+        "\\(\\therefore DP=BQ\\)",
+        "\\(\\therefore AD-DP=BC-BQ\\)",
+        "即\\(AP=CQ\\)"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          64
+        ],
+        "solution_block_ids": [
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-B8AA14C6F4-Q20-P02",
+      "label": "（2）①",
+      "prompt": "求证：\\(MO\\bot PQ\\)；",
+      "stem_text": "求证：\\(MO\\bot PQ\\)；",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "在矩形\\(ABCD\\)中，\\(AD\\parallel BC\\)\n\\(\\therefore \\angle DPQ=\\angle PQB\\)\n\\(\\because\\)折叠\n\\(\\therefore \\angle MPQ=\\angle DPQ\\)\\(\\therefore \\angle MPQ=\\angle PQB\\)\\(\\therefore PM=QM\\)\n〔图3〕\n由（1）得：\\(\\vartriangle POD≌\\vartriangle BOQ\\)\\(\\therefore PO=OQ\\)\\(\\therefore MO\\bot PQ\\)",
+      "solution_steps": [
+        "在矩形\\(ABCD\\)中，\\(AD\\parallel BC\\)",
+        "\\(\\therefore \\angle DPQ=\\angle PQB\\)",
+        "\\(\\because\\)折叠",
+        "\\(\\therefore \\angle MPQ=\\angle DPQ\\)\\(\\therefore \\angle MPQ=\\angle PQB\\)\\(\\therefore PM=QM\\)",
+        "〔图3〕",
+        "由（1）得：\\(\\vartriangle POD≌\\vartriangle BOQ\\)\\(\\therefore PO=OQ\\)\\(\\therefore MO\\bot PQ\\)"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          65,
+          66
+        ],
+        "solution_block_ids": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-B8AA14C6F4-Q20-P03",
+      "label": "（2）②",
+      "prompt": "设\\(AP\\)的长为\\(x\\)，\\(MQ\\)的长度为\\(y\\)，请用含\\(x\\)的代数式表示\\(y\\)．",
+      "stem_text": "设\\(AP\\)的长为\\(x\\)，\\(MQ\\)的长度为\\(y\\)，请用含\\(x\\)的代数式表示\\(y\\)．",
+      "material_ids": [
+        "context",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(MQ=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)",
+      "answer": "\\(MQ=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)",
+      "given_solution": "过点\\(O\\)作\\(OG\\bot BC\\)于点\\(G\\)\n〔图4〕\n\\(\\because \\angle OBC=\\angle OBG\\)，\\(\\angle OGB=\\angle DCB\\)\n\\(\\therefore \\vartriangle OBG\\backsim \\vartriangle DBC\\)\n\\(\\therefore \\frac { OG } { DC }=\\frac { BG } { BC }=\\frac { BO } { BD }=\\frac { 1 } { 2 }\\)\\(\\therefore OG=4\\)，\\(BG=5\\therefore CG=5\\)\n由（1）得：\\(CQ=AP=x\\)，\\(\\therefore GQ=5-x\\)\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGQ\\)中，\\(OQ ^ { 2 } =OG ^ { 2 } +GQ ^ { 2 } =4 ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =x ^ { 2 } -10x+41\\)\n又\\(\\because \\angle MOQ=\\angle OGQ=90{}^\\circ\\)，\\(\\angle OQG=\\angle OQM\\)\n\\(\\therefore \\vartriangle OGQ\\backsim \\vartriangle MOQ\\)\n\\(\\therefore \\frac { OQ } { MQ }=\\frac { GQ } { OQ }\\)    \\(\\therefore OQ ^ { 2 } =MQ\\cdot GQ\\)\n\\(\\therefore MQ=\\frac { OQ ^ { 2 } } { GQ }=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)",
+      "solution_steps": [
+        "过点\\(O\\)作\\(OG\\bot BC\\)于点\\(G\\)",
+        "〔图4〕",
+        "\\(\\because \\angle OBC=\\angle OBG\\)，\\(\\angle OGB=\\angle DCB\\)",
+        "\\(\\therefore \\vartriangle OBG\\backsim \\vartriangle DBC\\)",
+        "\\(\\therefore \\frac { OG } { DC }=\\frac { BG } { BC }=\\frac { BO } { BD }=\\frac { 1 } { 2 }\\)\\(\\therefore OG=4\\)，\\(BG=5\\therefore CG=5\\)",
+        "由（1）得：\\(CQ=AP=x\\)，\\(\\therefore GQ=5-x\\)",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGQ\\)中，\\(OQ ^ { 2 } =OG ^ { 2 } +GQ ^ { 2 } =4 ^ { 2 } +\\left ( { 5-x } \\right ) ^ { 2 } =x ^ { 2 } -10x+41\\)",
+        "又\\(\\because \\angle MOQ=\\angle OGQ=90{}^\\circ\\)，\\(\\angle OQG=\\angle OQM\\)",
+        "\\(\\therefore \\vartriangle OGQ\\backsim \\vartriangle MOQ\\)",
+        "\\(\\therefore \\frac { OQ } { MQ }=\\frac { GQ } { OQ }\\)    \\(\\therefore OQ ^ { 2 } =MQ\\cdot GQ\\)",
+        "\\(\\therefore MQ=\\frac { OQ ^ { 2 } } { GQ }=\\frac { x ^ { 2 } -10x+41 } { 5-x }\\)"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-B8AA14C6F4-Q20-P04",
+      "label": "（3）",
+      "prompt": "如图3，若\\(D ^ { \\prime } Q\\)交\\(BD\\)于点\\(H\\)，若\\(\\vartriangle OHQ\\)与\\(\\vartriangle D'QP\\)相似，请直接写出\\(AP\\)的长．",
+      "stem_text": "如图3，若\\(D ^ { \\prime } Q\\)交\\(BD\\)于点\\(H\\)，若\\(\\vartriangle OHQ\\)与\\(\\vartriangle D'QP\\)相似，请直接写出\\(AP\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+      "answer": "\\(10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+      "given_solution": "当\\(\\vartriangle OHQ\\backsim \\vartriangle PD'Q\\)时，\\(\\angle HOQ=\\angle D'PQ\\)\n\\(\\because \\angle DPQ=\\angle D'PQ\\)，\\(\\angle HOQ=\\angle DOP\\)\\(\\therefore \\angle DPQ=\\angle DOP\\)\n\\(\\therefore DP=DO\\)\\(\\because DO=\\frac { 1 } { 2 }DB=\\sqrt[] { 41 }\\)\\(\\therefore AP=10-\\sqrt[] { 41 }\\)\n〔图5〕\n当\\(\\vartriangle OHQ\\backsim \\vartriangle D'PQ\\)时，\\(\\angle HOQ=\\angle D'\\)\n\\(\\because \\angle PDQ=\\angle D'\\)，\\(\\angle HOQ=\\angle DOP\\)\n\\(\\therefore \\angle PDQ=\\angle DOP\\)又\\(\\because \\angle DPO=\\angle DPO\\)\n\\(\\therefore \\vartriangle DOP\\backsim \\vartriangle QDP\\)\n\\(\\therefore \\frac { PD } { PQ }=\\frac { PO } { PD }=\\frac { OD } { DQ }\\)\n\\(\\therefore PD ^ { 2 } =PO\\cdot PQ=\\frac { 1 } { 2 }PQ ^ { 2 }\\)\n\\(\\therefore PD=\\frac { \\sqrt[] { 2 } } { 2 }PQ\\)\n\\(\\therefore \\frac { OD } { DQ }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DQ=\\sqrt[] { 2 }OD=\\sqrt[] { 82 }\\)\n\\(\\therefore QC=\\sqrt[] { DQ ^ { 2 } -DC ^ { 2 } }=\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)\n\\(\\therefore AP=3\\sqrt[] { 2 }\\)\n综上\\(AP=10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)",
+      "solution_steps": [
+        "当\\(\\vartriangle OHQ\\backsim \\vartriangle PD'Q\\)时，\\(\\angle HOQ=\\angle D'PQ\\)",
+        "\\(\\because \\angle DPQ=\\angle D'PQ\\)，\\(\\angle HOQ=\\angle DOP\\)\\(\\therefore \\angle DPQ=\\angle DOP\\)",
+        "\\(\\therefore DP=DO\\)\\(\\because DO=\\frac { 1 } { 2 }DB=\\sqrt[] { 41 }\\)\\(\\therefore AP=10-\\sqrt[] { 41 }\\)",
+        "〔图5〕",
+        "当\\(\\vartriangle OHQ\\backsim \\vartriangle D'PQ\\)时，\\(\\angle HOQ=\\angle D'\\)",
+        "\\(\\because \\angle PDQ=\\angle D'\\)，\\(\\angle HOQ=\\angle DOP\\)",
+        "\\(\\therefore \\angle PDQ=\\angle DOP\\)又\\(\\because \\angle DPO=\\angle DPO\\)",
+        "\\(\\therefore \\vartriangle DOP\\backsim \\vartriangle QDP\\)",
+        "\\(\\therefore \\frac { PD } { PQ }=\\frac { PO } { PD }=\\frac { OD } { DQ }\\)",
+        "\\(\\therefore PD ^ { 2 } =PO\\cdot PQ=\\frac { 1 } { 2 }PQ ^ { 2 }\\)",
+        "\\(\\therefore PD=\\frac { \\sqrt[] { 2 } } { 2 }PQ\\)",
+        "\\(\\therefore \\frac { OD } { DQ }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\\(DQ=\\sqrt[] { 2 }OD=\\sqrt[] { 82 }\\)",
+        "\\(\\therefore QC=\\sqrt[] { DQ ^ { 2 } -DC ^ { 2 } }=\\sqrt[] { 18 }=3\\sqrt[] { 2 }\\)",
+        "\\(\\therefore AP=3\\sqrt[] { 2 }\\)",
+        "综上\\(AP=10-\\sqrt[] { 41 }\\)或\\(3\\sqrt[] { 2 }\\)"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          62,
+          63,
+          68
+        ],
+        "solution_block_ids": [
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      62,
+      68
+    ],
+    "solution_body_blocks": [
+      374,
+      432
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-B8AA14C6F4/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          310.0,
+          583.64,
+          625.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-B8AA14C6F4/solution-q20-p21.webp",
+      "assets/SZ-G9-T1-B8AA14C6F4/solution-q20-p22.webp",
+      "assets/SZ-G9-T1-B8AA14C6F4/solution-q20-p23.webp",
+      "assets/SZ-G9-T1-B8AA14C6F4/solution-q20-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          326.36,
+          583.64,
+          750.91
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          727.73
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          747.27
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          366.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

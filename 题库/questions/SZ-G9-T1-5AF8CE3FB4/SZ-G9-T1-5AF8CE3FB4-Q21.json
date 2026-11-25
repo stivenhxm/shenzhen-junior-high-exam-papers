@@ -1,0 +1,375 @@
+{
+  "id": "SZ-G9-T1-5AF8CE3FB4-Q21",
+  "paper_id": "SZ-G9-T1-5AF8CE3FB4",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "【证明体验】\n（1）如图1，\\(AD\\)为\\(\\vartriangle ABC\\)的角平分线，\\(\\angle ADC=60{}^\\circ\\)，点E在\\(AB\\)上，\\(AE=AC\\)．求证：\\(DE\\)平分\\(\\angle ADB\\)．\n〔图1〕\n【思考探究】\n（2）如图2，在（1）的条件下，F为\\(AB\\)上一点，连结\\(FC\\)交\\(AD\\)于点G．若\\(FB=FC\\)，\\(DG=2\\)，\\(CD=3\\)，求\\(BD\\)的长．\n【拓展延伸】\n（3）如图3，在四边形\\(ABCD\\)中，对角线\\(AC\\)平分\\(\\angle BAD,\\angle BCA=2\\angle DCA\\)，点E在\\(AC\\)上，\\(\\angle EDC=\\angle ABC\\)．若\\(BC=5,CD=2\\sqrt[] { 5 },AD=2AE\\)，求\\(AC\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-5AF8CE3FB4/figures/f446ecc2410b5af4a16825bddfa851f72221741b527d548fca35a2402b4f0140.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）\\(\\frac { 9 } { 2 }\\)；（3）\\(\\frac { 16 } { 3 }\\)",
+  "answer": "（1）见解析；（2）\\(\\frac { 9 } { 2 }\\)；（3）\\(\\frac { 16 } { 3 }\\)",
+  "given_solution": "【分析】（1）根据SAS证明\\(\\vartriangle EAD≌\\vartriangle CAD\\)，进而即可得到结论；\n（2）先证明\\(\\vartriangle EBD\\backsim \\vartriangle GCD\\)，得\\(\\frac { BD } { CD }=\\frac { DE } { DG }\\)，进而即可求解；\n（3）在\\(AB\\)上取一点F，使得\\(AF=AD\\)，连结\\(CF\\)，可得\\(\\vartriangle AFC≌\\vartriangle ADC\\)，从而得\\(\\vartriangle DCE\\backsim \\vartriangle BCF\\)，可得\\(\\frac { CD } { BC }=\\frac { CE } { CF },\\angle CED=\\angle BFC\\)，\\(CE=4\\)，最后证明\\(\\vartriangle EAD\\backsim \\vartriangle DAC\\)，即可求解．\n【详解】解：（1）∵\\(AD\\)平分\\(\\angle BAC\\)，\n∴\\(\\angle EAD=\\angle CAD\\)，\n∵\\(AE=AC,AD=AD\\)，\n∴\\(\\vartriangle EAD≌\\vartriangle CAD\\left ( { SAS } \\right )\\)，\n∴\\(\\angle ADE=\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle EDB=180{}^\\circ -\\angle ADE-\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle BDE=\\angle ADE\\)，即\\(DE\\)平分\\(\\angle ADB\\)；\n（2）∵\\(FB=FC\\)，\n∴\\(\\angle EBD=\\angle GCD\\)，\n∵\\(\\angle BDE=\\angle GDC=60{}^\\circ\\)，\n∴\\(\\vartriangle EBD\\backsim \\vartriangle GCD\\)，\n∴\\(\\frac { BD } { CD }=\\frac { DE } { DG }\\)．\n∵\\(\\vartriangle EAD≌\\vartriangle CAD\\)，\n∴\\(DE=DC=3\\)．\n∵\\(DG=2\\)，\n∴\\(BD=\\frac { 9 } { 2 }\\)；\n（3）如图，在\\(AB\\)上取一点F，使得\\(AF=AD\\)，连结\\(CF\\)．\n〔图2〕\n∵\\(AC\\)平分\\(\\angle BAD\\)，\n∴\\(\\angle FAC=\\angle DAC\\)\n∵\\(AC=AC\\)，\n∴\\(\\vartriangle AFC≌\\vartriangle ADC\\left ( { SAS } \\right )\\)，\n∴\\(CF=CD,\\angle ACF=\\angle ACD,\\angle AFC=\\angle ADC\\)．\n∵\\(\\angle ACF+\\angle BCF=\\angle ACB=2\\angle ACD\\)，\n∴\\(\\angle DCE=\\angle BCF\\)．\n∵\\(\\angle EDC=\\angle FBC\\)，\n∴\\(\\vartriangle DCE\\backsim \\vartriangle BCF\\)，\n∴\\(\\frac { CD } { BC }=\\frac { CE } { CF },\\angle CED=\\angle BFC\\)．\n∵\\(BC=5,CF=CD=2\\sqrt[] { 5 }\\)，\n∴\\(CE=4\\)．\n∵\\(\\angle AED=180{}^\\circ -\\angle CED=180{}^\\circ -\\angle BFC=\\angle AFC=\\angle ADC\\)，\n又∵\\(\\angle EAD=\\angle DAC\\)，\n∴\\(\\vartriangle EAD\\backsim \\vartriangle DAC\\)\n∴\\(\\frac { EA } { AD }=\\frac { AD } { AC }=\\frac { 1 } { 2 }\\)，\n∴\\(AC=4AE\\)，\n∴\\(AC=\\frac { 4 } { 3 }CE=\\frac { 16 } { 3 }\\)．\n【点睛】本题主要考查全等三角形的判定和性质，相似三角形的判定和性质，添加辅助线，构造全等三角形和相似三角形，是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-5AF8CE3FB4/figures/f446ecc2410b5af4a16825bddfa851f72221741b527d548fca35a2402b4f0140.png",
+    "assets/SZ-G9-T1-5AF8CE3FB4/figures/e0037be9eab0433f32bbe9e205523b320a55d0771d102583c4b6c421894dd797.png"
+  ],
+  "solution": "解：（1）∵\\(AD\\)平分\\(\\angle BAC\\)，\n∴\\(\\angle EAD=\\angle CAD\\)，\n∵\\(AE=AC,AD=AD\\)，\n∴\\(\\vartriangle EAD≌\\vartriangle CAD\\left ( { SAS } \\right )\\)，\n∴\\(\\angle ADE=\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle EDB=180{}^\\circ -\\angle ADE-\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle BDE=\\angle ADE\\)，即\\(DE\\)平分\\(\\angle ADB\\)；\n（2）∵\\(FB=FC\\)，\n∴\\(\\angle EBD=\\angle GCD\\)，\n∵\\(\\angle BDE=\\angle GDC=60{}^\\circ\\)，\n∴\\(\\vartriangle EBD\\backsim \\vartriangle GCD\\)，\n∴\\(\\frac { BD } { CD }=\\frac { DE } { DG }\\)．\n∵\\(\\vartriangle EAD≌\\vartriangle CAD\\)，\n∴\\(DE=DC=3\\)．\n∵\\(DG=2\\)，\n∴\\(BD=\\frac { 9 } { 2 }\\)；\n（3）如图，在\\(AB\\)上取一点F，使得\\(AF=AD\\)，连结\\(CF\\)．\n〔图2〕\n∵\\(AC\\)平分\\(\\angle BAD\\)，\n∴\\(\\angle FAC=\\angle DAC\\)\n∵\\(AC=AC\\)，\n∴\\(\\vartriangle AFC≌\\vartriangle ADC\\left ( { SAS } \\right )\\)，\n∴\\(CF=CD,\\angle ACF=\\angle ACD,\\angle AFC=\\angle ADC\\)．\n∵\\(\\angle ACF+\\angle BCF=\\angle ACB=2\\angle ACD\\)，\n∴\\(\\angle DCE=\\angle BCF\\)．\n∵\\(\\angle EDC=\\angle FBC\\)，\n∴\\(\\vartriangle DCE\\backsim \\vartriangle BCF\\)，\n∴\\(\\frac { CD } { BC }=\\frac { CE } { CF },\\angle CED=\\angle BFC\\)．\n∵\\(BC=5,CF=CD=2\\sqrt[] { 5 }\\)，\n∴\\(CE=4\\)．\n∵\\(\\angle AED=180{}^\\circ -\\angle CED=180{}^\\circ -\\angle BFC=\\angle AFC=\\angle ADC\\)，\n又∵\\(\\angle EAD=\\angle DAC\\)，\n∴\\(\\vartriangle EAD\\backsim \\vartriangle DAC\\)\n∴\\(\\frac { EA } { AD }=\\frac { AD } { AC }=\\frac { 1 } { 2 }\\)，\n∴\\(AC=4AE\\)，\n∴\\(AC=\\frac { 4 } { 3 }CE=\\frac { 16 } { 3 }\\)．",
+  "solution_steps": [
+    "解：（1）∵\\(AD\\)平分\\(\\angle BAC\\)，",
+    "∴\\(\\angle EAD=\\angle CAD\\)，",
+    "∵\\(AE=AC,AD=AD\\)，",
+    "∴\\(\\vartriangle EAD≌\\vartriangle CAD\\left ( { SAS } \\right )\\)，",
+    "∴\\(\\angle ADE=\\angle ADC=60{}^\\circ\\)，",
+    "∴\\(\\angle EDB=180{}^\\circ -\\angle ADE-\\angle ADC=60{}^\\circ\\)，",
+    "∴\\(\\angle BDE=\\angle ADE\\)，即\\(DE\\)平分\\(\\angle ADB\\)；",
+    "（2）∵\\(FB=FC\\)，",
+    "∴\\(\\angle EBD=\\angle GCD\\)，",
+    "∵\\(\\angle BDE=\\angle GDC=60{}^\\circ\\)，",
+    "∴\\(\\vartriangle EBD\\backsim \\vartriangle GCD\\)，",
+    "∴\\(\\frac { BD } { CD }=\\frac { DE } { DG }\\)．",
+    "∵\\(\\vartriangle EAD≌\\vartriangle CAD\\)，",
+    "∴\\(DE=DC=3\\)．",
+    "∵\\(DG=2\\)，",
+    "∴\\(BD=\\frac { 9 } { 2 }\\)；",
+    "（3）如图，在\\(AB\\)上取一点F，使得\\(AF=AD\\)，连结\\(CF\\)．",
+    "〔图2〕",
+    "∵\\(AC\\)平分\\(\\angle BAD\\)，",
+    "∴\\(\\angle FAC=\\angle DAC\\)",
+    "∵\\(AC=AC\\)，",
+    "∴\\(\\vartriangle AFC≌\\vartriangle ADC\\left ( { SAS } \\right )\\)，",
+    "∴\\(CF=CD,\\angle ACF=\\angle ACD,\\angle AFC=\\angle ADC\\)．",
+    "∵\\(\\angle ACF+\\angle BCF=\\angle ACB=2\\angle ACD\\)，",
+    "∴\\(\\angle DCE=\\angle BCF\\)．",
+    "∵\\(\\angle EDC=\\angle FBC\\)，",
+    "∴\\(\\vartriangle DCE\\backsim \\vartriangle BCF\\)，",
+    "∴\\(\\frac { CD } { BC }=\\frac { CE } { CF },\\angle CED=\\angle BFC\\)．",
+    "∵\\(BC=5,CF=CD=2\\sqrt[] { 5 }\\)，",
+    "∴\\(CE=4\\)．",
+    "∵\\(\\angle AED=180{}^\\circ -\\angle CED=180{}^\\circ -\\angle BFC=\\angle AFC=\\angle ADC\\)，",
+    "又∵\\(\\angle EAD=\\angle DAC\\)，",
+    "∴\\(\\vartriangle EAD\\backsim \\vartriangle DAC\\)",
+    "∴\\(\\frac { EA } { AD }=\\frac { AD } { AC }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(AC=4AE\\)，",
+    "∴\\(AC=\\frac { 4 } { 3 }CE=\\frac { 16 } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【证明体验】",
+      "paper_blocks": [
+        64
+      ]
+    },
+    {
+      "id": "fig-66",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        66
+      ]
+    },
+    {
+      "id": "prior-P01",
+      "kind": "text",
+      "text": "前问（1）的题面：如图1，\\(AD\\)为\\(\\vartriangle ABC\\)的角平分线，\\(\\angle ADC=60{}^\\circ\\)，点E在\\(AB\\)上，\\(AE=AC\\)．求证：\\(DE\\)平分\\(\\angle ADB\\)．\n\n【思考探究】\n前问作答依据：∵\\(AD\\)平分\\(\\angle BAC\\)，\n∴\\(\\angle EAD=\\angle CAD\\)，\n∵\\(AE=AC,AD=AD\\)，\n∴\\(\\vartriangle EAD≌\\vartriangle CAD\\left ( { SAS } \\right )\\)，\n∴\\(\\angle ADE=\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle EDB=180{}^\\circ -\\angle ADE-\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle BDE=\\angle ADE\\)，即\\(DE\\)平分\\(\\angle ADB\\)；",
+      "paper_blocks": [
+        64,
+        65,
+        66,
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-5AF8CE3FB4-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图1，\\(AD\\)为\\(\\vartriangle ABC\\)的角平分线，\\(\\angle ADC=60{}^\\circ\\)，点E在\\(AB\\)上，\\(AE=AC\\)．求证：\\(DE\\)平分\\(\\angle ADB\\)．\n\n【思考探究】",
+      "stem_text": "如图1，\\(AD\\)为\\(\\vartriangle ABC\\)的角平分线，\\(\\angle ADC=60{}^\\circ\\)，点E在\\(AB\\)上，\\(AE=AC\\)．求证：\\(DE\\)平分\\(\\angle ADB\\)．\n\n【思考探究】",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "∵\\(AD\\)平分\\(\\angle BAC\\)，\n∴\\(\\angle EAD=\\angle CAD\\)，\n∵\\(AE=AC,AD=AD\\)，\n∴\\(\\vartriangle EAD≌\\vartriangle CAD\\left ( { SAS } \\right )\\)，\n∴\\(\\angle ADE=\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle EDB=180{}^\\circ -\\angle ADE-\\angle ADC=60{}^\\circ\\)，\n∴\\(\\angle BDE=\\angle ADE\\)，即\\(DE\\)平分\\(\\angle ADB\\)；",
+      "solution_steps": [
+        "∵\\(AD\\)平分\\(\\angle BAC\\)，",
+        "∴\\(\\angle EAD=\\angle CAD\\)，",
+        "∵\\(AE=AC,AD=AD\\)，",
+        "∴\\(\\vartriangle EAD≌\\vartriangle CAD\\left ( { SAS } \\right )\\)，",
+        "∴\\(\\angle ADE=\\angle ADC=60{}^\\circ\\)，",
+        "∴\\(\\angle EDB=180{}^\\circ -\\angle ADE-\\angle ADC=60{}^\\circ\\)，",
+        "∴\\(\\angle BDE=\\angle ADE\\)，即\\(DE\\)平分\\(\\angle ADB\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5AF8CE3FB4-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图2，在（1）的条件下，F为\\(AB\\)上一点，连结\\(FC\\)交\\(AD\\)于点G．若\\(FB=FC\\)，\\(DG=2\\)，\\(CD=3\\)，求\\(BD\\)的长．\n【拓展延伸】",
+      "stem_text": "如图2，在（1）的条件下，F为\\(AB\\)上一点，连结\\(FC\\)交\\(AD\\)于点G．若\\(FB=FC\\)，\\(DG=2\\)，\\(CD=3\\)，求\\(BD\\)的长．\n【拓展延伸】",
+      "material_ids": [
+        "context",
+        "fig-66",
+        "prior-P01"
+      ],
+      "requires": [
+        "SZ-G9-T1-5AF8CE3FB4-Q21-P01"
+      ],
+      "given_answer": "\\(\\frac { 9 } { 2 }\\)；",
+      "answer": "\\(\\frac { 9 } { 2 }\\)；",
+      "given_solution": "∵\\(FB=FC\\)，\n∴\\(\\angle EBD=\\angle GCD\\)，\n∵\\(\\angle BDE=\\angle GDC=60{}^\\circ\\)，\n∴\\(\\vartriangle EBD\\backsim \\vartriangle GCD\\)，\n∴\\(\\frac { BD } { CD }=\\frac { DE } { DG }\\)．\n∵\\(\\vartriangle EAD≌\\vartriangle CAD\\)，\n∴\\(DE=DC=3\\)．\n∵\\(DG=2\\)，\n∴\\(BD=\\frac { 9 } { 2 }\\)；",
+      "solution_steps": [
+        "∵\\(FB=FC\\)，",
+        "∴\\(\\angle EBD=\\angle GCD\\)，",
+        "∵\\(\\angle BDE=\\angle GDC=60{}^\\circ\\)，",
+        "∴\\(\\vartriangle EBD\\backsim \\vartriangle GCD\\)，",
+        "∴\\(\\frac { BD } { CD }=\\frac { DE } { DG }\\)．",
+        "∵\\(\\vartriangle EAD≌\\vartriangle CAD\\)，",
+        "∴\\(DE=DC=3\\)．",
+        "∵\\(DG=2\\)，",
+        "∴\\(BD=\\frac { 9 } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          69
+        ],
+        "solution_block_ids": [
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-5AF8CE3FB4-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图3，在四边形\\(ABCD\\)中，对角线\\(AC\\)平分\\(\\angle BAD,\\angle BCA=2\\angle DCA\\)，点E在\\(AC\\)上，\\(\\angle EDC=\\angle ABC\\)．若\\(BC=5,CD=2\\sqrt[] { 5 },AD=2AE\\)，求\\(AC\\)的长．",
+      "stem_text": "如图3，在四边形\\(ABCD\\)中，对角线\\(AC\\)平分\\(\\angle BAD,\\angle BCA=2\\angle DCA\\)，点E在\\(AC\\)上，\\(\\angle EDC=\\angle ABC\\)．若\\(BC=5,CD=2\\sqrt[] { 5 },AD=2AE\\)，求\\(AC\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-66"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 16 } { 3 }\\)",
+      "answer": "\\(\\frac { 16 } { 3 }\\)",
+      "given_solution": "如图，在\\(AB\\)上取一点F，使得\\(AF=AD\\)，连结\\(CF\\)．\n〔图2〕\n∵\\(AC\\)平分\\(\\angle BAD\\)，\n∴\\(\\angle FAC=\\angle DAC\\)\n∵\\(AC=AC\\)，\n∴\\(\\vartriangle AFC≌\\vartriangle ADC\\left ( { SAS } \\right )\\)，\n∴\\(CF=CD,\\angle ACF=\\angle ACD,\\angle AFC=\\angle ADC\\)．\n∵\\(\\angle ACF+\\angle BCF=\\angle ACB=2\\angle ACD\\)，\n∴\\(\\angle DCE=\\angle BCF\\)．\n∵\\(\\angle EDC=\\angle FBC\\)，\n∴\\(\\vartriangle DCE\\backsim \\vartriangle BCF\\)，\n∴\\(\\frac { CD } { BC }=\\frac { CE } { CF },\\angle CED=\\angle BFC\\)．\n∵\\(BC=5,CF=CD=2\\sqrt[] { 5 }\\)，\n∴\\(CE=4\\)．\n∵\\(\\angle AED=180{}^\\circ -\\angle CED=180{}^\\circ -\\angle BFC=\\angle AFC=\\angle ADC\\)，\n又∵\\(\\angle EAD=\\angle DAC\\)，\n∴\\(\\vartriangle EAD\\backsim \\vartriangle DAC\\)\n∴\\(\\frac { EA } { AD }=\\frac { AD } { AC }=\\frac { 1 } { 2 }\\)，\n∴\\(AC=4AE\\)，\n∴\\(AC=\\frac { 4 } { 3 }CE=\\frac { 16 } { 3 }\\)．",
+      "solution_steps": [
+        "如图，在\\(AB\\)上取一点F，使得\\(AF=AD\\)，连结\\(CF\\)．",
+        "〔图2〕",
+        "∵\\(AC\\)平分\\(\\angle BAD\\)，",
+        "∴\\(\\angle FAC=\\angle DAC\\)",
+        "∵\\(AC=AC\\)，",
+        "∴\\(\\vartriangle AFC≌\\vartriangle ADC\\left ( { SAS } \\right )\\)，",
+        "∴\\(CF=CD,\\angle ACF=\\angle ACD,\\angle AFC=\\angle ADC\\)．",
+        "∵\\(\\angle ACF+\\angle BCF=\\angle ACB=2\\angle ACD\\)，",
+        "∴\\(\\angle DCE=\\angle BCF\\)．",
+        "∵\\(\\angle EDC=\\angle FBC\\)，",
+        "∴\\(\\vartriangle DCE\\backsim \\vartriangle BCF\\)，",
+        "∴\\(\\frac { CD } { BC }=\\frac { CE } { CF },\\angle CED=\\angle BFC\\)．",
+        "∵\\(BC=5,CF=CD=2\\sqrt[] { 5 }\\)，",
+        "∴\\(CE=4\\)．",
+        "∵\\(\\angle AED=180{}^\\circ -\\angle CED=180{}^\\circ -\\angle BFC=\\angle AFC=\\angle ADC\\)，",
+        "又∵\\(\\angle EAD=\\angle DAC\\)，",
+        "∴\\(\\vartriangle EAD\\backsim \\vartriangle DAC\\)",
+        "∴\\(\\frac { EA } { AD }=\\frac { AD } { AC }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(AC=4AE\\)，",
+        "∴\\(AC=\\frac { 4 } { 3 }CE=\\frac { 16 } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          64,
+          66,
+          70
+        ],
+        "solution_block_ids": [
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      64,
+      70
+    ],
+    "solution_body_blocks": [
+      356,
+      404
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-5AF8CE3FB4/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          112.73,
+          583.64,
+          444.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-5AF8CE3FB4/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-5AF8CE3FB4/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          194.55,
+          583.64,
+          754.55
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          680.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

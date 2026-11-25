@@ -1,0 +1,179 @@
+{
+  "id": "SZ-G9-T2-2006E56BCC-Q22",
+  "paper_id": "SZ-G9-T2-2006E56BCC",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "求特殊锐角函数值或按要求用计算器",
+  "stem": "在四边形\\(ABCD\\)中，点\\(E\\)为线段\\(CD\\)上的动点（点\\(E\\)与点\\(C\\)不重合），连接\\(BE\\)，线段\\(BE\\)的垂直平分线与\\(AD、BC、BE\\)分别相交于点\\(F、G、H\\)，连接\\(FB、\\)\\(FE\\)．\n【探究发现】如图1，若四边形\\(ABCD\\)为矩形，\\(BF\\bot EF\\)，求证：\\(\\vartriangle ABF≌\\vartriangle DFE\\)；\n【能力提升】如图2，若四边形\\(ABCD\\)为矩形，\\(AB=4,BC=6,\\vartriangle BGF\\)是等腰三角形，求\\(EC\\)的长：\n【拓展应用】如图3，若四边形\\(ABCD\\)为菱形，\\(BE\\bot CD,BE\\)的垂直平分线与\\(AD\\)、\\(BC、BE\\)分别相交于点\\(F、G、H\\)，连接\\(FB、FE\\)．若\\(\\vartriangle BFE\\)是等边三角形，求\\({ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }A\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/f0/f0501a4dcff5861b660b01595b08ebbbea2a38c21c558f436736d8421be05c10.png"
+  ],
+  "tables": [],
+  "given_answer": "探究发现：见解析   能力提升：\\(CE=4\\)或\\(CE=8-2\\sqrt[] { 7 }\\)    拓展应用：\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+  "answer": "探究发现：见解析   能力提升：\\(CE=4\\)或\\(CE=8-2\\sqrt[] { 7 }\\)    拓展应用：\\(\\frac { \\sqrt[] { 3 } } { 2 }\\)",
+  "given_solution": "【分析】探究发现：根据矩形的性质得到\\(\\angle ABF+\\angle AFB=\\angle DFE+\\angle AFB=90{}^\\circ\\)，然后得到\\(\\angle ABF=\\angle DFE\\)，然后利用\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)证明\\(\\vartriangle FAB≌\\vartriangle EDF\\)即可；\n能力提升：分\\(FB=FG\\)、\\(BG=GF\\)和\\(BF=BG\\)三种情况，分别解题即可；\n拓展应用：过点\\(B\\)作\\(BQ\\bot AD\\)于点\\(Q\\)，可得到\\(\\vartriangle ABQ≌\\vartriangle CBE\\)，然后可得点F、Q重合即可解题．\n【详解】探究发现：∵四边形\\(ABCD\\)为矩形，\\(BF\\bot EF\\)，\n∴\\(\\angle BFE=\\angle A=\\angle D=90{}^\\circ\\)，\n∴\\(\\angle ABF+\\angle AFB=\\angle DFE+\\angle AFB=90{}^\\circ\\)，\n∴\\(\\angle ABF=\\angle DFE\\)，\n又∵\\(FG\\)垂直平分\\(BE\\)，\n∴\\(FB=FE\\)，\n∴\\(\\vartriangle FAB≌\\vartriangle EDF\\)；\n能力提升：当\\(FB=FG\\)时，过点F作\\(FP\\bot BC\\)于点P，则四边形\\(ABPF\\)为矩形，设\\(CE=x\\)，连接\\(GE\\)，\n∴\\(BG=2PG\\)，\\(\\angle BFP=\\angle GFP=\\angle ABF\\)，\n〔图2〕\n又∵\\(\\angle PFG+\\angle FGB=\\angle CBE+\\angle BGF=90{}^\\circ\\)，\n∴\\(\\angle PFG=\\angle CBE\\)，\n∴\\(\\angle CBE=\\angle ABF\\)，\n又∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\n∴\\(\\vartriangle BAF\\backsim \\vartriangle BCE\\)，\n∴\\(\\frac { AF } { CE }=\\frac { AB } { BC }\\)，即\\(\\frac { AF } { x }=\\frac { 4 } { 6 }\\)，解得\\(AF=\\frac { 2 } { 3 }x\\)，\n∴\\(BG=\\frac { 4 } { 3 }x\\)，\n∵\\(FG\\)垂直平分\\(BE\\)，\n∴\\(GE=GB=\\frac { 4 } { 3 }x\\)，\\(CG=6-\\frac { 4 } { 3 }x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GCE\\)中，\\(GC ^ { 2 } +CE ^ { 2 } =EG ^ { 2 }\\)，即\\(\\left ( { 6-\\frac { 4 } { 3 }x } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 4 } { 3 }x } \\right ) ^ { 2 }\\)，\n解得\\(x=8-2\\sqrt[] { 7 }\\)或\\(x=8+2\\sqrt[] { 7 }\\)（舍）；\n当\\(BG=GF\\)时，过点F作\\(FP\\bot BC\\)于点P，则四边形\\(ABPF\\)为矩形，\n∴\\(AB=FP=4\\)，\n又∵\\(S_{ \\vartriangle FBG } =\\frac { 1 } { 2 }BG\\cdot FP=\\frac { 1 } { 2 }FG\\cdot BH\\)，\n∴\\(BH=PF=4\\)，\n∴\\(BE=8\\)，\n∴\\(CE=\\sqrt[] { BE ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -6 ^ { 2 } }=2\\sqrt[] { 7 }>4\\)，舍去；\n〔图3〕\n当\\(BF=BG\\)时，连接\\(DG\\)，\n∵\\(FG\\)垂直平分\\(BE\\)，\n∴\\(BF=FE=BG=EG\\)，\n∴\\(BFEG\\)是菱形，\n∴\\(FE\\parallel BG\\)，\n∴点D和E重合，\n∴\\(CE=4\\)；\n〔图4〕\n故当\\(CE=4\\)或\\(CE=8-2\\sqrt[] { 7 }\\)时，\\(\\vartriangle BFG\\)是等腰三角形；\n拓展应用:过点\\(B\\)作\\(BQ\\bot AD\\)于点\\(Q\\)，\n∵\\(BE\\bot CD\\)，\n∴\\(\\angle AQB=\\vartriangle CEB=90{}^\\circ\\)，\n∵四边形\\(ABCD\\)为菱形，\n∴\\(AB=BC\\)，\\(\\angle A=\\angle C\\)，\n∴\\(\\vartriangle ABQ≌\\vartriangle CBE\\)，\n∴\\(BQ=CE\\)，\n又∵\\(\\vartriangle BFE\\)是等边三角形，\n∴\\(BE=BF\\)，\\(\\angle FBE=60{}^\\circ\\)，\n∴点F、Q重合，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABE=\\angle BEC=90{}^\\circ\\)，\n∴\\(\\angle ABF=\\angle ABE-\\angle FBE=90{}^\\circ -60{}^\\circ =30{}^\\circ\\)，\n∴\\(\\angle A=90{}^\\circ -\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(sinA=sin60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\)．\n〔图5〕\n【点睛】本题考查矩形的性质，全等三角形的判定和性质，勾股定理，相似三角形的判定和性质，解直角三角形，．作辅助线构造直角三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/f0/f0501a4dcff5861b660b01595b08ebbbea2a38c21c558f436736d8421be05c10.png",
+    "assets/figures/3a/3a8ea73050cf06966fba639333e8200f9f5938636a47c9706f4b0e7809a926a7.png",
+    "assets/figures/dc/dc6c4678febbad6a8fe8322fd1101513e381d0973a88be58c27704e2b384171f.png",
+    "assets/figures/c5/c50e8df31c54b317b32f5cd522f8937092aa4d718746f927db49912d432bd1c1.png",
+    "assets/figures/ff/ff1ce9111ae8408c4938b589bada19bcb3be6b8c80b02320e94916ded04b46df.png"
+  ],
+  "solution": "探究发现：∵四边形\\(ABCD\\)为矩形，\\(BF\\bot EF\\)，\n∴\\(\\angle BFE=\\angle A=\\angle D=90{}^\\circ\\)，\n∴\\(\\angle ABF+\\angle AFB=\\angle DFE+\\angle AFB=90{}^\\circ\\)，\n∴\\(\\angle ABF=\\angle DFE\\)，\n又∵\\(FG\\)垂直平分\\(BE\\)，\n∴\\(FB=FE\\)，\n∴\\(\\vartriangle FAB≌\\vartriangle EDF\\)；\n能力提升：当\\(FB=FG\\)时，过点F作\\(FP\\bot BC\\)于点P，则四边形\\(ABPF\\)为矩形，设\\(CE=x\\)，连接\\(GE\\)，\n∴\\(BG=2PG\\)，\\(\\angle BFP=\\angle GFP=\\angle ABF\\)，\n〔图2〕\n又∵\\(\\angle PFG+\\angle FGB=\\angle CBE+\\angle BGF=90{}^\\circ\\)，\n∴\\(\\angle PFG=\\angle CBE\\)，\n∴\\(\\angle CBE=\\angle ABF\\)，\n又∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\n∴\\(\\vartriangle BAF\\backsim \\vartriangle BCE\\)，\n∴\\(\\frac { AF } { CE }=\\frac { AB } { BC }\\)，即\\(\\frac { AF } { x }=\\frac { 4 } { 6 }\\)，解得\\(AF=\\frac { 2 } { 3 }x\\)，\n∴\\(BG=\\frac { 4 } { 3 }x\\)，\n∵\\(FG\\)垂直平分\\(BE\\)，\n∴\\(GE=GB=\\frac { 4 } { 3 }x\\)，\\(CG=6-\\frac { 4 } { 3 }x\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GCE\\)中，\\(GC ^ { 2 } +CE ^ { 2 } =EG ^ { 2 }\\)，即\\(\\left ( { 6-\\frac { 4 } { 3 }x } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 4 } { 3 }x } \\right ) ^ { 2 }\\)，\n解得\\(x=8-2\\sqrt[] { 7 }\\)或\\(x=8+2\\sqrt[] { 7 }\\)（舍）；\n当\\(BG=GF\\)时，过点F作\\(FP\\bot BC\\)于点P，则四边形\\(ABPF\\)为矩形，\n∴\\(AB=FP=4\\)，\n又∵\\(S_{ \\vartriangle FBG } =\\frac { 1 } { 2 }BG\\cdot FP=\\frac { 1 } { 2 }FG\\cdot BH\\)，\n∴\\(BH=PF=4\\)，\n∴\\(BE=8\\)，\n∴\\(CE=\\sqrt[] { BE ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -6 ^ { 2 } }=2\\sqrt[] { 7 }>4\\)，舍去；\n〔图3〕\n当\\(BF=BG\\)时，连接\\(DG\\)，\n∵\\(FG\\)垂直平分\\(BE\\)，\n∴\\(BF=FE=BG=EG\\)，\n∴\\(BFEG\\)是菱形，\n∴\\(FE\\parallel BG\\)，\n∴点D和E重合，\n∴\\(CE=4\\)；\n〔图4〕\n故当\\(CE=4\\)或\\(CE=8-2\\sqrt[] { 7 }\\)时，\\(\\vartriangle BFG\\)是等腰三角形；\n拓展应用:过点\\(B\\)作\\(BQ\\bot AD\\)于点\\(Q\\)，\n∵\\(BE\\bot CD\\)，\n∴\\(\\angle AQB=\\vartriangle CEB=90{}^\\circ\\)，\n∵四边形\\(ABCD\\)为菱形，\n∴\\(AB=BC\\)，\\(\\angle A=\\angle C\\)，\n∴\\(\\vartriangle ABQ≌\\vartriangle CBE\\)，\n∴\\(BQ=CE\\)，\n又∵\\(\\vartriangle BFE\\)是等边三角形，\n∴\\(BE=BF\\)，\\(\\angle FBE=60{}^\\circ\\)，\n∴点F、Q重合，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle ABE=\\angle BEC=90{}^\\circ\\)，\n∴\\(\\angle ABF=\\angle ABE-\\angle FBE=90{}^\\circ -60{}^\\circ =30{}^\\circ\\)，\n∴\\(\\angle A=90{}^\\circ -\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∴\\(sinA=sin60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\)．\n〔图5〕",
+  "solution_steps": [
+    "探究发现：∵四边形\\(ABCD\\)为矩形，\\(BF\\bot EF\\)，",
+    "∴\\(\\angle BFE=\\angle A=\\angle D=90{}^\\circ\\)，",
+    "∴\\(\\angle ABF+\\angle AFB=\\angle DFE+\\angle AFB=90{}^\\circ\\)，",
+    "∴\\(\\angle ABF=\\angle DFE\\)，",
+    "又∵\\(FG\\)垂直平分\\(BE\\)，",
+    "∴\\(FB=FE\\)，",
+    "∴\\(\\vartriangle FAB≌\\vartriangle EDF\\)；",
+    "能力提升：当\\(FB=FG\\)时，过点F作\\(FP\\bot BC\\)于点P，则四边形\\(ABPF\\)为矩形，设\\(CE=x\\)，连接\\(GE\\)，",
+    "∴\\(BG=2PG\\)，\\(\\angle BFP=\\angle GFP=\\angle ABF\\)，",
+    "〔图2〕",
+    "又∵\\(\\angle PFG+\\angle FGB=\\angle CBE+\\angle BGF=90{}^\\circ\\)，",
+    "∴\\(\\angle PFG=\\angle CBE\\)，",
+    "∴\\(\\angle CBE=\\angle ABF\\)，",
+    "又∵\\(\\angle A=\\angle C=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle BAF\\backsim \\vartriangle BCE\\)，",
+    "∴\\(\\frac { AF } { CE }=\\frac { AB } { BC }\\)，即\\(\\frac { AF } { x }=\\frac { 4 } { 6 }\\)，解得\\(AF=\\frac { 2 } { 3 }x\\)，",
+    "∴\\(BG=\\frac { 4 } { 3 }x\\)，",
+    "∵\\(FG\\)垂直平分\\(BE\\)，",
+    "∴\\(GE=GB=\\frac { 4 } { 3 }x\\)，\\(CG=6-\\frac { 4 } { 3 }x\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle GCE\\)中，\\(GC ^ { 2 } +CE ^ { 2 } =EG ^ { 2 }\\)，即\\(\\left ( { 6-\\frac { 4 } { 3 }x } \\right ) ^ { 2 } +x ^ { 2 } =\\left ( { \\frac { 4 } { 3 }x } \\right ) ^ { 2 }\\)，",
+    "解得\\(x=8-2\\sqrt[] { 7 }\\)或\\(x=8+2\\sqrt[] { 7 }\\)（舍）；",
+    "当\\(BG=GF\\)时，过点F作\\(FP\\bot BC\\)于点P，则四边形\\(ABPF\\)为矩形，",
+    "∴\\(AB=FP=4\\)，",
+    "又∵\\(S_{ \\vartriangle FBG } =\\frac { 1 } { 2 }BG\\cdot FP=\\frac { 1 } { 2 }FG\\cdot BH\\)，",
+    "∴\\(BH=PF=4\\)，",
+    "∴\\(BE=8\\)，",
+    "∴\\(CE=\\sqrt[] { BE ^ { 2 } -BC ^ { 2 } }=\\sqrt[] { 8 ^ { 2 } -6 ^ { 2 } }=2\\sqrt[] { 7 }>4\\)，舍去；",
+    "〔图3〕",
+    "当\\(BF=BG\\)时，连接\\(DG\\)，",
+    "∵\\(FG\\)垂直平分\\(BE\\)，",
+    "∴\\(BF=FE=BG=EG\\)，",
+    "∴\\(BFEG\\)是菱形，",
+    "∴\\(FE\\parallel BG\\)，",
+    "∴点D和E重合，",
+    "∴\\(CE=4\\)；",
+    "〔图4〕",
+    "故当\\(CE=4\\)或\\(CE=8-2\\sqrt[] { 7 }\\)时，\\(\\vartriangle BFG\\)是等腰三角形；",
+    "拓展应用:过点\\(B\\)作\\(BQ\\bot AD\\)于点\\(Q\\)，",
+    "∵\\(BE\\bot CD\\)，",
+    "∴\\(\\angle AQB=\\vartriangle CEB=90{}^\\circ\\)，",
+    "∵四边形\\(ABCD\\)为菱形，",
+    "∴\\(AB=BC\\)，\\(\\angle A=\\angle C\\)，",
+    "∴\\(\\vartriangle ABQ≌\\vartriangle CBE\\)，",
+    "∴\\(BQ=CE\\)，",
+    "又∵\\(\\vartriangle BFE\\)是等边三角形，",
+    "∴\\(BE=BF\\)，\\(\\angle FBE=60{}^\\circ\\)，",
+    "∴点F、Q重合，",
+    "∵\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle ABE=\\angle BEC=90{}^\\circ\\)，",
+    "∴\\(\\angle ABF=\\angle ABE-\\angle FBE=90{}^\\circ -60{}^\\circ =30{}^\\circ\\)，",
+    "∴\\(\\angle A=90{}^\\circ -\\angle ABF=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+    "∴\\(sinA=sin60{}^\\circ =\\frac { \\sqrt[] { 3 } } { 2 }\\)．",
+    "〔图5〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      84,
+      88
+    ],
+    "solution_body_blocks": [
+      331,
+      394
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-2006E56BCC/paper-q22-p06.webp",
+      "assets/SZ-G9-T2-2006E56BCC/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          684.09,
+          583.64,
+          745.0
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          251.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-2006E56BCC/solution-q22-p19.webp",
+      "assets/SZ-G9-T2-2006E56BCC/solution-q22-p20.webp",
+      "assets/SZ-G9-T2-2006E56BCC/solution-q22-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          177.27,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          720.0
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          767.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G10.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“求特殊锐角函数值或按要求用计算器”。",
+  "tag_source": "题文匹配"
+}

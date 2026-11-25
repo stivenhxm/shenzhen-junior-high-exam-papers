@@ -1,0 +1,363 @@
+{
+  "id": "SZ-G9-T1-90B4FDEFED-Q21",
+  "paper_id": "SZ-G9-T1-90B4FDEFED",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由两点或表格条件确定一次表达式、由点或乘积关系确定反比例表达式",
+  "stem": "如图，直线y=ax+2与x轴交于点A（1，0），与y轴交于点B（0，b）．将线段AB先向右平移1个单位长度、再向上平移t（t＞0）个单位长度，得到对应线段CD，反比例函数\\(y=\\frac { k } { x }\\)（x＞0）的图象恰好经过C、D两点，连接AC、BD．\n（1）求a和b的值；\n（2）求反比例函数的表达式及四边形ABDC的面积；\n（3）点N在x轴正半轴上，点M是反比例函数\\(y=\\frac { k } { x }\\)（x＞0）的图象上的一个点，若△CMN是以CM为直角边的等腰直角三角形时，求所有满足条件的点M的坐标．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-90B4FDEFED/figures/5c67fdc8f92260d3e794a642926c4d164bbe1718f20ca2571d68fc90d92858ee.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）a=﹣2，b=2；（2）y=\\(\\frac { 4 } { x }\\)，4；（3）点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）",
+  "answer": "（1）a=﹣2，b=2；（2）y=\\(\\frac { 4 } { x }\\)，4；（3）点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）",
+  "given_solution": "【分析】（1）利用坐标轴上的点的特点即可得出结论；\n（2）先表示出点C，D坐标，进而代入反比例函数解析式中求解得出k，再判断出BC⊥AD，最后用对角线积的一半即可求出四边形的面积；\n（3）分两种情况，构造全等的直角三角形即可得出结论．\n【详解】（1）将点A（1，0）代入y=ax+2，得0=〔图2〕a+2，∴a=﹣2，∴直线的解析式为y=﹣2x+2．\n将x=0代入上式，得y=2，∴b=2．\n（2）由（1）知，b=2，∴B（0，2），由平移可得：点C（2，t）、D（1，2+t）．\n将点C（2，t）、D（1，2+t）分别代入y=\\(\\frac { k } { x }\\)，得\\(\\begin{cases} t=\\frac { k } { 2 } \\\\ 2+t=\\frac { k } { 1 } \\end{cases}\\)\n∴\\(\\begin{cases} k=4 \\\\ t=2 \\end{cases}\\)，∴反比例函数的解析式y=\\(\\frac { 4 } { x }\\)，点C（2，2）、点D（1，4）．\n如图1，连接BC、AD．\n〔图3〕\n∵B（0，2）、C（2，2），∴BC∥x轴，BC=2．\n∵A（1，0）、D（1，4），∴AD⊥x轴，AD=4，∴BC⊥AD，∴S\\({}_{四边形ABD}\\)=\\(\\frac { 1 } { 2 }\\)×BC×AD=\\(\\frac { 1 } { 2 }\\)×2×4=4．\n（3）①当∠NCM=90°、CM=CN时，如图2，过点C作直线l∥x轴，交y轴于点G．过点M作MF⊥直线l于点F，交x轴于点H．过点N作NE⊥直线l于点E．\n〔图4〕\n设点N（m，0）（其中m＞0），则ON=m，CE=2﹣m．\n∵∠MCN=90°，∴∠MCF+∠NCE=90°．\n∵NE⊥直线l于点E，∴∠ENC+∠NCE=90°，∴∠MCF=∠ENC．\n∵∠MFC=∠NEC=90°，CN=CM，∴△NEC≌△CFM，\n∴CF=EN=2，FM=CE=2﹣m，\n∴FG=CG+CF=2+2=4，∴x\\({}_{M}\\)=4．\n将x=4代入y=\\(\\frac { 4 } { x }\\)，得y=1，∴点M（4，1）；\n②当∠NMC=90°、MC=MN时，如图3，过点C作直线l⊥y轴与点F，则CF=x\\({}_{C}\\)=2．过点M作MG⊥x轴于点G，MG交直线l与点E，则MG⊥直线l于点E，EG=y\\({}_{C}\\)=2．\n〔图5〕\n∵∠CMN=90°，∴∠CME+∠NMG=90°．\n∵ME⊥直线l于点E，∴∠ECM+∠CME=90°，∴∠NMG=∠ECM．\n又∵∠CEM=∠NGM=90°，CM=MN，∴△CEM≌△MGN，∴CE=MG，EM=NG．\n设CE=MG=a，则y\\({}_{M}\\)=a，x\\({}_{M}\\)=CF+CE=2+a，∴点M（2+a，a）．\n将点M（2+a，a）代入y=\\(\\frac { 4 } { x }\\)，得a=\\(\\frac { 4 } { 2+a }\\)．解得a\\({}_{1}\\)=\\(\\sqrt[] { 5 }\\)﹣1，a\\({}_{2}\\)=﹣\\(\\sqrt[] { 5 }\\)﹣1，∴x\\({}_{M}\\)=2+a=\\(\\sqrt[] { 5 }\\)+1，∴点M（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．\n综合①②可知：点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．\n【点睛】此题是反比例函数综合题，主要考查待定系数法，全等三角形的判定和性质，四边形的面积的计算方法，构造出全等三角形是解本题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-90B4FDEFED/figures/5c67fdc8f92260d3e794a642926c4d164bbe1718f20ca2571d68fc90d92858ee.png",
+    "assets/SZ-G9-T1-90B4FDEFED/figures/ce77cddb963cbbf33415d061f41369386ef3a5c624bd650b447a5b63ae71e88f.png",
+    "assets/SZ-G9-T1-90B4FDEFED/figures/cc7744678961c908d8ecd6de8a862ecdfd618881310854d4cab16f3376ed553d.png",
+    "assets/SZ-G9-T1-90B4FDEFED/figures/84652d1d8a615302771fa71d01644a1501a289554e8c7890463f0c21a47e5f3f.png",
+    "assets/SZ-G9-T1-90B4FDEFED/figures/89b021dfca95932b1a033009404d41d088d0ff0bde4153d7f5785845d7aa2bc8.png"
+  ],
+  "solution": "（1）将点A（1，0）代入y=ax+2，得0=〔图2〕a+2，∴a=﹣2，∴直线的解析式为y=﹣2x+2．\n将x=0代入上式，得y=2，∴b=2．\n（2）由（1）知，b=2，∴B（0，2），由平移可得：点C（2，t）、D（1，2+t）．\n将点C（2，t）、D（1，2+t）分别代入y=\\(\\frac { k } { x }\\)，得\\(\\begin{cases} t=\\frac { k } { 2 } \\\\ 2+t=\\frac { k } { 1 } \\end{cases}\\)\n∴\\(\\begin{cases} k=4 \\\\ t=2 \\end{cases}\\)，∴反比例函数的解析式y=\\(\\frac { 4 } { x }\\)，点C（2，2）、点D（1，4）．\n如图1，连接BC、AD．\n〔图3〕\n∵B（0，2）、C（2，2），∴BC∥x轴，BC=2．\n∵A（1，0）、D（1，4），∴AD⊥x轴，AD=4，∴BC⊥AD，∴S\\({}_{四边形ABD}\\)=\\(\\frac { 1 } { 2 }\\)×BC×AD=\\(\\frac { 1 } { 2 }\\)×2×4=4．\n（3）①当∠NCM=90°、CM=CN时，如图2，过点C作直线l∥x轴，交y轴于点G．过点M作MF⊥直线l于点F，交x轴于点H．过点N作NE⊥直线l于点E．\n〔图4〕\n设点N（m，0）（其中m＞0），则ON=m，CE=2﹣m．\n∵∠MCN=90°，∴∠MCF+∠NCE=90°．\n∵NE⊥直线l于点E，∴∠ENC+∠NCE=90°，∴∠MCF=∠ENC．\n∵∠MFC=∠NEC=90°，CN=CM，∴△NEC≌△CFM，\n∴CF=EN=2，FM=CE=2﹣m，\n∴FG=CG+CF=2+2=4，∴x\\({}_{M}\\)=4．\n将x=4代入y=\\(\\frac { 4 } { x }\\)，得y=1，∴点M（4，1）；\n②当∠NMC=90°、MC=MN时，如图3，过点C作直线l⊥y轴与点F，则CF=x\\({}_{C}\\)=2．过点M作MG⊥x轴于点G，MG交直线l与点E，则MG⊥直线l于点E，EG=y\\({}_{C}\\)=2．\n〔图5〕\n∵∠CMN=90°，∴∠CME+∠NMG=90°．\n∵ME⊥直线l于点E，∴∠ECM+∠CME=90°，∴∠NMG=∠ECM．\n又∵∠CEM=∠NGM=90°，CM=MN，∴△CEM≌△MGN，∴CE=MG，EM=NG．\n设CE=MG=a，则y\\({}_{M}\\)=a，x\\({}_{M}\\)=CF+CE=2+a，∴点M（2+a，a）．\n将点M（2+a，a）代入y=\\(\\frac { 4 } { x }\\)，得a=\\(\\frac { 4 } { 2+a }\\)．解得a\\({}_{1}\\)=\\(\\sqrt[] { 5 }\\)﹣1，a\\({}_{2}\\)=﹣\\(\\sqrt[] { 5 }\\)﹣1，∴x\\({}_{M}\\)=2+a=\\(\\sqrt[] { 5 }\\)+1，∴点M（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．\n综合①②可知：点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．",
+  "solution_steps": [
+    "（1）将点A（1，0）代入y=ax+2，得0=〔图2〕a+2，∴a=﹣2，∴直线的解析式为y=﹣2x+2．",
+    "将x=0代入上式，得y=2，∴b=2．",
+    "（2）由（1）知，b=2，∴B（0，2），由平移可得：点C（2，t）、D（1，2+t）．",
+    "将点C（2，t）、D（1，2+t）分别代入y=\\(\\frac { k } { x }\\)，得\\(\\begin{cases} t=\\frac { k } { 2 } \\\\ 2+t=\\frac { k } { 1 } \\end{cases}\\)",
+    "∴\\(\\begin{cases} k=4 \\\\ t=2 \\end{cases}\\)，∴反比例函数的解析式y=\\(\\frac { 4 } { x }\\)，点C（2，2）、点D（1，4）．",
+    "如图1，连接BC、AD．",
+    "〔图3〕",
+    "∵B（0，2）、C（2，2），∴BC∥x轴，BC=2．",
+    "∵A（1，0）、D（1，4），∴AD⊥x轴，AD=4，∴BC⊥AD，∴S\\({}_{四边形ABD}\\)=\\(\\frac { 1 } { 2 }\\)×BC×AD=\\(\\frac { 1 } { 2 }\\)×2×4=4．",
+    "（3）①当∠NCM=90°、CM=CN时，如图2，过点C作直线l∥x轴，交y轴于点G．过点M作MF⊥直线l于点F，交x轴于点H．过点N作NE⊥直线l于点E．",
+    "〔图4〕",
+    "设点N（m，0）（其中m＞0），则ON=m，CE=2﹣m．",
+    "∵∠MCN=90°，∴∠MCF+∠NCE=90°．",
+    "∵NE⊥直线l于点E，∴∠ENC+∠NCE=90°，∴∠MCF=∠ENC．",
+    "∵∠MFC=∠NEC=90°，CN=CM，∴△NEC≌△CFM，",
+    "∴CF=EN=2，FM=CE=2﹣m，",
+    "∴FG=CG+CF=2+2=4，∴x\\({}_{M}\\)=4．",
+    "将x=4代入y=\\(\\frac { 4 } { x }\\)，得y=1，∴点M（4，1）；",
+    "②当∠NMC=90°、MC=MN时，如图3，过点C作直线l⊥y轴与点F，则CF=x\\({}_{C}\\)=2．过点M作MG⊥x轴于点G，MG交直线l与点E，则MG⊥直线l于点E，EG=y\\({}_{C}\\)=2．",
+    "〔图5〕",
+    "∵∠CMN=90°，∴∠CME+∠NMG=90°．",
+    "∵ME⊥直线l于点E，∴∠ECM+∠CME=90°，∴∠NMG=∠ECM．",
+    "又∵∠CEM=∠NGM=90°，CM=MN，∴△CEM≌△MGN，∴CE=MG，EM=NG．",
+    "设CE=MG=a，则y\\({}_{M}\\)=a，x\\({}_{M}\\)=CF+CE=2+a，∴点M（2+a，a）．",
+    "将点M（2+a，a）代入y=\\(\\frac { 4 } { x }\\)，得a=\\(\\frac { 4 } { 2+a }\\)．解得a\\({}_{1}\\)=\\(\\sqrt[] { 5 }\\)﹣1，a\\({}_{2}\\)=﹣\\(\\sqrt[] { 5 }\\)﹣1，∴x\\({}_{M}\\)=2+a=\\(\\sqrt[] { 5 }\\)+1，∴点M（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．",
+    "综合①②可知：点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，直线y=ax+2与x轴交于点A（1，0），与y轴交于点B（0，b）．将线段AB先向右平移1个单位长度、再向上平移t（t＞0）个单位长度，得到对应线段CD，反比例函数\\(y=\\frac { k } { x }\\)（x＞0）的图象恰好经过C、D两点，连接AC、BD．",
+      "paper_blocks": [
+        61
+      ]
+    },
+    {
+      "id": "fig-65",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        65
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-90B4FDEFED-Q21-P01",
+      "label": "（1）",
+      "prompt": "求a和b的值；",
+      "stem_text": "求a和b的值；",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "a=﹣2，b=2；",
+      "answer": "a=﹣2，b=2；",
+      "given_solution": "将点A（1，0）代入y=ax+2，得0=〔图2〕a+2，∴a=﹣2，∴直线的解析式为y=﹣2x+2．\n将x=0代入上式，得y=2，∴b=2．",
+      "solution_steps": [
+        "将点A（1，0）代入y=ax+2，得0=〔图2〕a+2，∴a=﹣2，∴直线的解析式为y=﹣2x+2．",
+        "将x=0代入上式，得y=2，∴b=2．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          62,
+          65
+        ],
+        "solution_block_ids": [
+          329,
+          330
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-90B4FDEFED-Q21-P02",
+      "label": "（2）",
+      "prompt": "求反比例函数的表达式及四边形ABDC的面积；",
+      "stem_text": "求反比例函数的表达式及四边形ABDC的面积；",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "y=\\(\\frac { 4 } { x }\\)，4；",
+      "answer": "y=\\(\\frac { 4 } { x }\\)，4；",
+      "given_solution": "由（1）知，b=2，∴B（0，2），由平移可得：点C（2，t）、D（1，2+t）．\n将点C（2，t）、D（1，2+t）分别代入y=\\(\\frac { k } { x }\\)，得\\(\\begin{cases} t=\\frac { k } { 2 } \\\\ 2+t=\\frac { k } { 1 } \\end{cases}\\)\n∴\\(\\begin{cases} k=4 \\\\ t=2 \\end{cases}\\)，∴反比例函数的解析式y=\\(\\frac { 4 } { x }\\)，点C（2，2）、点D（1，4）．\n如图1，连接BC、AD．\n〔图3〕\n∵B（0，2）、C（2，2），∴BC∥x轴，BC=2．\n∵A（1，0）、D（1，4），∴AD⊥x轴，AD=4，∴BC⊥AD，∴S\\({}_{四边形ABD}\\)=\\(\\frac { 1 } { 2 }\\)×BC×AD=\\(\\frac { 1 } { 2 }\\)×2×4=4．",
+      "solution_steps": [
+        "由（1）知，b=2，∴B（0，2），由平移可得：点C（2，t）、D（1，2+t）．",
+        "将点C（2，t）、D（1，2+t）分别代入y=\\(\\frac { k } { x }\\)，得\\(\\begin{cases} t=\\frac { k } { 2 } \\\\ 2+t=\\frac { k } { 1 } \\end{cases}\\)",
+        "∴\\(\\begin{cases} k=4 \\\\ t=2 \\end{cases}\\)，∴反比例函数的解析式y=\\(\\frac { 4 } { x }\\)，点C（2，2）、点D（1，4）．",
+        "如图1，连接BC、AD．",
+        "〔图3〕",
+        "∵B（0，2）、C（2，2），∴BC∥x轴，BC=2．",
+        "∵A（1，0）、D（1，4），∴AD⊥x轴，AD=4，∴BC⊥AD，∴S\\({}_{四边形ABD}\\)=\\(\\frac { 1 } { 2 }\\)×BC×AD=\\(\\frac { 1 } { 2 }\\)×2×4=4．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          63,
+          65
+        ],
+        "solution_block_ids": [
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N12.02"
+      ],
+      "exam_ids": [
+        "E.N12.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由点或乘积关系确定反比例表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-90B4FDEFED-Q21-P03",
+      "label": "（3）",
+      "prompt": "点N在x轴正半轴上，点M是反比例函数\\(y=\\frac { k } { x }\\)（x＞0）的图象上的一个点，若△CMN是以CM为直角边的等腰直角三角形时，求所有满足条件的点M的坐标．",
+      "stem_text": "点N在x轴正半轴上，点M是反比例函数\\(y=\\frac { k } { x }\\)（x＞0）的图象上的一个点，若△CMN是以CM为直角边的等腰直角三角形时，求所有满足条件的点M的坐标．",
+      "material_ids": [
+        "context",
+        "fig-65"
+      ],
+      "requires": [],
+      "given_answer": "点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）",
+      "answer": "点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）",
+      "given_solution": "①当∠NCM=90°、CM=CN时，如图2，过点C作直线l∥x轴，交y轴于点G．过点M作MF⊥直线l于点F，交x轴于点H．过点N作NE⊥直线l于点E．\n〔图4〕\n设点N（m，0）（其中m＞0），则ON=m，CE=2﹣m．\n∵∠MCN=90°，∴∠MCF+∠NCE=90°．\n∵NE⊥直线l于点E，∴∠ENC+∠NCE=90°，∴∠MCF=∠ENC．\n∵∠MFC=∠NEC=90°，CN=CM，∴△NEC≌△CFM，\n∴CF=EN=2，FM=CE=2﹣m，\n∴FG=CG+CF=2+2=4，∴x\\({}_{M}\\)=4．\n将x=4代入y=\\(\\frac { 4 } { x }\\)，得y=1，∴点M（4，1）；\n②当∠NMC=90°、MC=MN时，如图3，过点C作直线l⊥y轴与点F，则CF=x\\({}_{C}\\)=2．过点M作MG⊥x轴于点G，MG交直线l与点E，则MG⊥直线l于点E，EG=y\\({}_{C}\\)=2．\n〔图5〕\n∵∠CMN=90°，∴∠CME+∠NMG=90°．\n∵ME⊥直线l于点E，∴∠ECM+∠CME=90°，∴∠NMG=∠ECM．\n又∵∠CEM=∠NGM=90°，CM=MN，∴△CEM≌△MGN，∴CE=MG，EM=NG．\n设CE=MG=a，则y\\({}_{M}\\)=a，x\\({}_{M}\\)=CF+CE=2+a，∴点M（2+a，a）．\n将点M（2+a，a）代入y=\\(\\frac { 4 } { x }\\)，得a=\\(\\frac { 4 } { 2+a }\\)．解得a\\({}_{1}\\)=\\(\\sqrt[] { 5 }\\)﹣1，a\\({}_{2}\\)=﹣\\(\\sqrt[] { 5 }\\)﹣1，∴x\\({}_{M}\\)=2+a=\\(\\sqrt[] { 5 }\\)+1，∴点M（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．\n综合①②可知：点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．",
+      "solution_steps": [
+        "①当∠NCM=90°、CM=CN时，如图2，过点C作直线l∥x轴，交y轴于点G．过点M作MF⊥直线l于点F，交x轴于点H．过点N作NE⊥直线l于点E．",
+        "〔图4〕",
+        "设点N（m，0）（其中m＞0），则ON=m，CE=2﹣m．",
+        "∵∠MCN=90°，∴∠MCF+∠NCE=90°．",
+        "∵NE⊥直线l于点E，∴∠ENC+∠NCE=90°，∴∠MCF=∠ENC．",
+        "∵∠MFC=∠NEC=90°，CN=CM，∴△NEC≌△CFM，",
+        "∴CF=EN=2，FM=CE=2﹣m，",
+        "∴FG=CG+CF=2+2=4，∴x\\({}_{M}\\)=4．",
+        "将x=4代入y=\\(\\frac { 4 } { x }\\)，得y=1，∴点M（4，1）；",
+        "②当∠NMC=90°、MC=MN时，如图3，过点C作直线l⊥y轴与点F，则CF=x\\({}_{C}\\)=2．过点M作MG⊥x轴于点G，MG交直线l与点E，则MG⊥直线l于点E，EG=y\\({}_{C}\\)=2．",
+        "〔图5〕",
+        "∵∠CMN=90°，∴∠CME+∠NMG=90°．",
+        "∵ME⊥直线l于点E，∴∠ECM+∠CME=90°，∴∠NMG=∠ECM．",
+        "又∵∠CEM=∠NGM=90°，CM=MN，∴△CEM≌△MGN，∴CE=MG，EM=NG．",
+        "设CE=MG=a，则y\\({}_{M}\\)=a，x\\({}_{M}\\)=CF+CE=2+a，∴点M（2+a，a）．",
+        "将点M（2+a，a）代入y=\\(\\frac { 4 } { x }\\)，得a=\\(\\frac { 4 } { 2+a }\\)．解得a\\({}_{1}\\)=\\(\\sqrt[] { 5 }\\)﹣1，a\\({}_{2}\\)=﹣\\(\\sqrt[] { 5 }\\)﹣1，∴x\\({}_{M}\\)=2+a=\\(\\sqrt[] { 5 }\\)+1，∴点M（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．",
+        "综合①②可知：点M的坐标为（4，1）或（\\(\\sqrt[] { 5 }\\)+1，\\(\\sqrt[] { 5 }\\)﹣1）．"
+      ],
+      "solution_figure_ids": [
+        4,
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          61,
+          64,
+          65
+        ],
+        "solution_block_ids": [
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.N12.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“确定反比例函数表达式”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“确定反比例函数表达式”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      61,
+      65
+    ],
+    "solution_body_blocks": [
+      319,
+      355
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-90B4FDEFED/paper-q21-p05.webp",
+      "assets/SZ-G9-T1-90B4FDEFED/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          752.73,
+          583.64,
+          767.73
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          355.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-90B4FDEFED/solution-q21-p17.webp",
+      "assets/SZ-G9-T1-90B4FDEFED/solution-q21-p18.webp",
+      "assets/SZ-G9-T1-90B4FDEFED/solution-q21-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          506.82,
+          583.64,
+          720.45
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          517.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.N11.02",
+    "M.N12.02"
+  ],
+  "exam_ids": [
+    "E.N11.02.01",
+    "E.N12.02.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“确定反比例函数表达式”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由两点或表格条件确定一次表达式”。 本问题面与解答对应“由点或乘积关系确定反比例表达式”。 本问题面与解答对应“确定反比例函数表达式”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,389 @@
+{
+  "id": "SZ-G9-T1-983F00A325-Q22",
+  "paper_id": "SZ-G9-T1-983F00A325",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由相似比求对应线段或周长",
+  "stem": "如图，在菱形\\(ABCD\\)中，\\(\\angle ABC\\)是锐角，E是\\(BC\\)边上的动点，将射线\\(AE\\)绕点A按逆时针方向旋转，交直线\\(CD\\)于点F．\n〔图1〕\n（1）当\\(AE\\bot BC，\\angle EAF=\\angle ABC\\)时，\n①求证：\\(AE=AF\\)；\n②连结\\(BD，EF\\)，若\\(\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，求\\(\\frac { Ｓ_{ \\Delta ＡＥＦ } } { Ｓ_{ 菱形ABCD } }\\)的值；\n（2）当\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)时，延长\\(BC\\)交射线\\(AF\\)于点M，延长\\(DC\\)交射线\\(AE\\)于点N，连结\\(AC，MN\\)，若\\(AB=4，AC=2\\)，则当\\(CE\\)为何值时，\\(\\vartriangle AMN\\)是等腰三角形．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-983F00A325/figures/d36325c32d5244c4d58a66fe48aa7c297635d318b2f34095530a57808c5e8d44.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①见解析；②\\(\\frac { 8 } { 25 }\\)；（2）当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．",
+  "answer": "（1）①见解析；②\\(\\frac { 8 } { 25 }\\)；（2）当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．",
+  "given_solution": "【分析】（1）根据菱形的性质得到边相等，对角相等，根据已知条件证明出\\(\\angle BAE=\\angle DAF\\)，得到\\(\\vartriangle ABE≌\\vartriangle ADF\\)，由\\(AE{ \\rm{ = } }AF\\)，\\(CE=CF\\)，得到AC是EF的垂直平分线，得到\\(EF//BD\\)，\\(\\vartriangle CEF\\backsim \\vartriangle CBD\\)，再根据已知条件证明出\\(\\vartriangle AEF\\backsim \\vartriangle BAC\\)，算出面积之比；\n（2）等腰三角形的存在性问题，分为三种情况：当\\(AM=AN\\)时，\\(\\vartriangle ANC≌\\vartriangle MAC\\)，得到CE=\\(\\frac { 4 } { 3 }\\) ；当\\(NA=NM\\)时，\\(\\vartriangle CEN≌\\vartriangle BEA\\)，得到CE=2；当\\(MA{ \\rm{ = } }MN\\)时，\\(\\vartriangle CEN\\backsim \\vartriangle BEA\\)，得到CE=\\(\\frac { 4 } { 5 }\\) ．\n【详解】（1）①证明：在菱形\\(ABCD\\)中，\n\\(AB=AD，\\angle ABC=\\angle ADC，AD//BC\\)，\n\\(\\because AE\\bot BC，\\therefore AE\\bot AD\\)，\n\\(\\therefore \\angle ABE+\\angle BAE=\\angle EAF+\\angle DAF=90{}^\\circ\\)，\n\\(\\because \\angle EAF=\\angle ABC,\\therefore \\angle BAE=\\angle DAF\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADF\\)（ASA），\n∴\\(AE{ \\rm{ = } }AF\\)．\n②解：如图1，连结\\(AC\\)．\n由①知，\\(\\vartriangle ABE≌\\vartriangle ADF，\\therefore BE=DF，\\therefore CE=CF\\)，\n\\(\\because AE=AF，\\therefore AC\\bot EF\\)．\n在菱形\\(ABCD\\)中，\\(AC\\bot BD，\\therefore EF//BD，\\therefore \\vartriangle CEF\\backsim \\vartriangle CBD\\)，\n∴\\(\\frac { EC } { BC }=\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，\n设\\(EC{ \\rm{ = } }2a\\)，则\\(AB=BC=5a，BE=3a，\\therefore AE=4a\\)．\n\\(\\because AE=AF，AB=BC，\\angle EAF=\\angle ABC\\)，\n∴\\(\\vartriangle AEF\\backsim \\vartriangle BAC\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ \\vartriangle BAC } }=\\left ( { \\frac { AE } { AB } } \\right ) ^ { 2 } { \\rm{ = } }\\left ( { \\frac { 4a } { 5a } } \\right ) ^ { 2 } =\\frac { 16 } { 25 }\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 菱形ABCD } }=\\frac { S_{ \\vartriangle AEF } } { 2S_{ \\vartriangle BAC } }=\\frac { 1 } { 2 }\\times \\frac { 16 } { 25 }=\\frac { 8 } { 25 }\\)．\n〔图2〕\n（2）解：在菱形\\(ABCD\\)中，\\(\\angle BAC=\\frac { 1 } { 2 }\\angle BAD，\\because \\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，\n\\(\\therefore \\angle BAC=\\angle EAF，\\therefore \\angle BAE=\\angle CAM\\)，\n\\(\\because AB//CD，\\therefore \\angle BAE=\\angle AN{ \\rm{ C } }，\\therefore \\angle ANC=\\angle CAM\\)，\n同理，\\(\\angle AMC=\\angle NAC\\)，\n∴\\(\\vartriangle MAC\\backsim \\vartriangle ANC，\\therefore \\frac { AC } { CN }=\\frac { AM } { NA }\\)．\n\\(\\vartriangle AMN\\)是等腰三角形有三种情况：\n①如图2，当\\(AM=AN\\)时，\\(\\vartriangle ANC≌\\vartriangle MAC\\)，\n\\(\\therefore CN=AC=2\\)，\n\\(\\because AB//CN，\\therefore \\vartriangle CEN\\backsim \\vartriangle BEA\\)，\n\\(\\because AB=4，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 2 }\\)，\n\\(\\because BC=4，\\therefore CE=\\frac { 1 } { 3 }BC=\\frac { 4 } { 3 }\\)．\n②如图3，当\\(NA=NM\\)时，\n\\(\\angle NMA=\\angle NAM=\\angle BAC=\\angle BCA\\)，\n\\(\\vartriangle ANM\\backsim \\vartriangle ABC，\\therefore \\frac { AM } { AN }=\\frac { AC } { AB }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore CN=2AC=4，\\therefore \\vartriangle CEN≌\\vartriangle BEA\\)，\n∴\\(CE=BE=\\frac { 1 } { 2 }BC=2\\)．\n③如图4，当\\(MA{ \\rm{ = } }MN\\)时，\n\\(\\angle MNA=\\angle MAN=\\angle BAC=\\angle BCA，\\therefore \\vartriangle AMN\\backsim \\vartriangle ABC\\)，\n\\(\\therefore \\frac { AM } { AN }=\\frac { AB } { AC }=2，\\therefore CN=\\frac { 1 } { 2 }AC=1\\)，\n\\(\\because \\vartriangle CEN\\backsim \\vartriangle BEA，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 4 }\\)，\n\\(\\therefore CE=\\frac { 1 } { 5 }BC=\\frac { 4 } { 5 }\\)．\n综上所述，当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．\n【点睛】本题主要考查了菱形的基本性质、相似三角形的判定与性质、菱形中等腰三角形的存在性问题，解决本题的关键在于画出三种情况的等腰三角形（利用两圆一中垂），通过证明三角形相似，利用相似比求出所需线段的长．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-983F00A325/figures/e3246fb1ff2fc2ab1c97f1ae7faa7c238c4e2db6bdb332cc8c8b64ebc9a1da8a.png",
+    "assets/SZ-G9-T1-983F00A325/figures/738b1b9aec0dd553088b115d684d9a527eb60a56d62c440abde41ff98cb50dc4.png"
+  ],
+  "solution": "（1）①证明：在菱形\\(ABCD\\)中，\n\\(AB=AD，\\angle ABC=\\angle ADC，AD//BC\\)，\n\\(\\because AE\\bot BC，\\therefore AE\\bot AD\\)，\n\\(\\therefore \\angle ABE+\\angle BAE=\\angle EAF+\\angle DAF=90{}^\\circ\\)，\n\\(\\because \\angle EAF=\\angle ABC,\\therefore \\angle BAE=\\angle DAF\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADF\\)（ASA），\n∴\\(AE{ \\rm{ = } }AF\\)．\n②解：如图1，连结\\(AC\\)．\n由①知，\\(\\vartriangle ABE≌\\vartriangle ADF，\\therefore BE=DF，\\therefore CE=CF\\)，\n\\(\\because AE=AF，\\therefore AC\\bot EF\\)．\n在菱形\\(ABCD\\)中，\\(AC\\bot BD，\\therefore EF//BD，\\therefore \\vartriangle CEF\\backsim \\vartriangle CBD\\)，\n∴\\(\\frac { EC } { BC }=\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，\n设\\(EC{ \\rm{ = } }2a\\)，则\\(AB=BC=5a，BE=3a，\\therefore AE=4a\\)．\n\\(\\because AE=AF，AB=BC，\\angle EAF=\\angle ABC\\)，\n∴\\(\\vartriangle AEF\\backsim \\vartriangle BAC\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ \\vartriangle BAC } }=\\left ( { \\frac { AE } { AB } } \\right ) ^ { 2 } { \\rm{ = } }\\left ( { \\frac { 4a } { 5a } } \\right ) ^ { 2 } =\\frac { 16 } { 25 }\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 菱形ABCD } }=\\frac { S_{ \\vartriangle AEF } } { 2S_{ \\vartriangle BAC } }=\\frac { 1 } { 2 }\\times \\frac { 16 } { 25 }=\\frac { 8 } { 25 }\\)．\n〔图2〕\n（2）解：在菱形\\(ABCD\\)中，\\(\\angle BAC=\\frac { 1 } { 2 }\\angle BAD，\\because \\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，\n\\(\\therefore \\angle BAC=\\angle EAF，\\therefore \\angle BAE=\\angle CAM\\)，\n\\(\\because AB//CD，\\therefore \\angle BAE=\\angle AN{ \\rm{ C } }，\\therefore \\angle ANC=\\angle CAM\\)，\n同理，\\(\\angle AMC=\\angle NAC\\)，\n∴\\(\\vartriangle MAC\\backsim \\vartriangle ANC，\\therefore \\frac { AC } { CN }=\\frac { AM } { NA }\\)．\n\\(\\vartriangle AMN\\)是等腰三角形有三种情况：\n①如图2，当\\(AM=AN\\)时，\\(\\vartriangle ANC≌\\vartriangle MAC\\)，\n\\(\\therefore CN=AC=2\\)，\n\\(\\because AB//CN，\\therefore \\vartriangle CEN\\backsim \\vartriangle BEA\\)，\n\\(\\because AB=4，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 2 }\\)，\n\\(\\because BC=4，\\therefore CE=\\frac { 1 } { 3 }BC=\\frac { 4 } { 3 }\\)．\n②如图3，当\\(NA=NM\\)时，\n\\(\\angle NMA=\\angle NAM=\\angle BAC=\\angle BCA\\)，\n\\(\\vartriangle ANM\\backsim \\vartriangle ABC，\\therefore \\frac { AM } { AN }=\\frac { AC } { AB }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore CN=2AC=4，\\therefore \\vartriangle CEN≌\\vartriangle BEA\\)，\n∴\\(CE=BE=\\frac { 1 } { 2 }BC=2\\)．\n③如图4，当\\(MA{ \\rm{ = } }MN\\)时，\n\\(\\angle MNA=\\angle MAN=\\angle BAC=\\angle BCA，\\therefore \\vartriangle AMN\\backsim \\vartriangle ABC\\)，\n\\(\\therefore \\frac { AM } { AN }=\\frac { AB } { AC }=2，\\therefore CN=\\frac { 1 } { 2 }AC=1\\)，\n\\(\\because \\vartriangle CEN\\backsim \\vartriangle BEA，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 4 }\\)，\n\\(\\therefore CE=\\frac { 1 } { 5 }BC=\\frac { 4 } { 5 }\\)．\n综上所述，当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．",
+  "solution_steps": [
+    "（1）①证明：在菱形\\(ABCD\\)中，",
+    "\\(AB=AD，\\angle ABC=\\angle ADC，AD//BC\\)，",
+    "\\(\\because AE\\bot BC，\\therefore AE\\bot AD\\)，",
+    "\\(\\therefore \\angle ABE+\\angle BAE=\\angle EAF+\\angle DAF=90{}^\\circ\\)，",
+    "\\(\\because \\angle EAF=\\angle ABC,\\therefore \\angle BAE=\\angle DAF\\)，",
+    "∴\\(\\vartriangle ABE≌\\vartriangle ADF\\)（ASA），",
+    "∴\\(AE{ \\rm{ = } }AF\\)．",
+    "②解：如图1，连结\\(AC\\)．",
+    "由①知，\\(\\vartriangle ABE≌\\vartriangle ADF，\\therefore BE=DF，\\therefore CE=CF\\)，",
+    "\\(\\because AE=AF，\\therefore AC\\bot EF\\)．",
+    "在菱形\\(ABCD\\)中，\\(AC\\bot BD，\\therefore EF//BD，\\therefore \\vartriangle CEF\\backsim \\vartriangle CBD\\)，",
+    "∴\\(\\frac { EC } { BC }=\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，",
+    "设\\(EC{ \\rm{ = } }2a\\)，则\\(AB=BC=5a，BE=3a，\\therefore AE=4a\\)．",
+    "\\(\\because AE=AF，AB=BC，\\angle EAF=\\angle ABC\\)，",
+    "∴\\(\\vartriangle AEF\\backsim \\vartriangle BAC\\)，",
+    "∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ \\vartriangle BAC } }=\\left ( { \\frac { AE } { AB } } \\right ) ^ { 2 } { \\rm{ = } }\\left ( { \\frac { 4a } { 5a } } \\right ) ^ { 2 } =\\frac { 16 } { 25 }\\)，",
+    "∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 菱形ABCD } }=\\frac { S_{ \\vartriangle AEF } } { 2S_{ \\vartriangle BAC } }=\\frac { 1 } { 2 }\\times \\frac { 16 } { 25 }=\\frac { 8 } { 25 }\\)．",
+    "〔图2〕",
+    "（2）解：在菱形\\(ABCD\\)中，\\(\\angle BAC=\\frac { 1 } { 2 }\\angle BAD，\\because \\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，",
+    "\\(\\therefore \\angle BAC=\\angle EAF，\\therefore \\angle BAE=\\angle CAM\\)，",
+    "\\(\\because AB//CD，\\therefore \\angle BAE=\\angle AN{ \\rm{ C } }，\\therefore \\angle ANC=\\angle CAM\\)，",
+    "同理，\\(\\angle AMC=\\angle NAC\\)，",
+    "∴\\(\\vartriangle MAC\\backsim \\vartriangle ANC，\\therefore \\frac { AC } { CN }=\\frac { AM } { NA }\\)．",
+    "\\(\\vartriangle AMN\\)是等腰三角形有三种情况：",
+    "①如图2，当\\(AM=AN\\)时，\\(\\vartriangle ANC≌\\vartriangle MAC\\)，",
+    "\\(\\therefore CN=AC=2\\)，",
+    "\\(\\because AB//CN，\\therefore \\vartriangle CEN\\backsim \\vartriangle BEA\\)，",
+    "\\(\\because AB=4，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\because BC=4，\\therefore CE=\\frac { 1 } { 3 }BC=\\frac { 4 } { 3 }\\)．",
+    "②如图3，当\\(NA=NM\\)时，",
+    "\\(\\angle NMA=\\angle NAM=\\angle BAC=\\angle BCA\\)，",
+    "\\(\\vartriangle ANM\\backsim \\vartriangle ABC，\\therefore \\frac { AM } { AN }=\\frac { AC } { AB }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore CN=2AC=4，\\therefore \\vartriangle CEN≌\\vartriangle BEA\\)，",
+    "∴\\(CE=BE=\\frac { 1 } { 2 }BC=2\\)．",
+    "③如图4，当\\(MA{ \\rm{ = } }MN\\)时，",
+    "\\(\\angle MNA=\\angle MAN=\\angle BAC=\\angle BCA，\\therefore \\vartriangle AMN\\backsim \\vartriangle ABC\\)，",
+    "\\(\\therefore \\frac { AM } { AN }=\\frac { AB } { AC }=2，\\therefore CN=\\frac { 1 } { 2 }AC=1\\)，",
+    "\\(\\because \\vartriangle CEN\\backsim \\vartriangle BEA，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 4 }\\)，",
+    "\\(\\therefore CE=\\frac { 1 } { 5 }BC=\\frac { 4 } { 5 }\\)．",
+    "综上所述，当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在菱形\\(ABCD\\)中，\\(\\angle ABC\\)是锐角，E是\\(BC\\)边上的动点，将射线\\(AE\\)绕点A按逆时针方向旋转，交直线\\(CD\\)于点F．\n〔图1〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "当\\(AE\\bot BC，\\angle EAF=\\angle ABC\\)时，",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-983F00A325-Q22-P01",
+      "label": "（1）①",
+      "prompt": "求证：\\(AE=AF\\)；",
+      "stem_text": "求证：\\(AE=AF\\)；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：在菱形\\(ABCD\\)中，\n\\(AB=AD，\\angle ABC=\\angle ADC，AD//BC\\)，\n\\(\\because AE\\bot BC，\\therefore AE\\bot AD\\)，\n\\(\\therefore \\angle ABE+\\angle BAE=\\angle EAF+\\angle DAF=90{}^\\circ\\)，\n\\(\\because \\angle EAF=\\angle ABC,\\therefore \\angle BAE=\\angle DAF\\)，\n∴\\(\\vartriangle ABE≌\\vartriangle ADF\\)（ASA），\n∴\\(AE{ \\rm{ = } }AF\\)．",
+      "solution_steps": [
+        "证明：在菱形\\(ABCD\\)中，",
+        "\\(AB=AD，\\angle ABC=\\angle ADC，AD//BC\\)，",
+        "\\(\\because AE\\bot BC，\\therefore AE\\bot AD\\)，",
+        "\\(\\therefore \\angle ABE+\\angle BAE=\\angle EAF+\\angle DAF=90{}^\\circ\\)，",
+        "\\(\\because \\angle EAF=\\angle ABC,\\therefore \\angle BAE=\\angle DAF\\)，",
+        "∴\\(\\vartriangle ABE≌\\vartriangle ADF\\)（ASA），",
+        "∴\\(AE{ \\rm{ = } }AF\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-983F00A325-Q22-P02",
+      "label": "（1）②",
+      "prompt": "连结\\(BD，EF\\)，若\\(\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，求\\(\\frac { Ｓ_{ \\Delta ＡＥＦ } } { Ｓ_{ 菱形ABCD } }\\)的值；",
+      "stem_text": "连结\\(BD，EF\\)，若\\(\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，求\\(\\frac { Ｓ_{ \\Delta ＡＥＦ } } { Ｓ_{ 菱形ABCD } }\\)的值；",
+      "material_ids": [
+        "context",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 8 } { 25 }\\)；",
+      "answer": "\\(\\frac { 8 } { 25 }\\)；",
+      "given_solution": "解：如图1，连结\\(AC\\)．\n由①知，\\(\\vartriangle ABE≌\\vartriangle ADF，\\therefore BE=DF，\\therefore CE=CF\\)，\n\\(\\because AE=AF，\\therefore AC\\bot EF\\)．\n在菱形\\(ABCD\\)中，\\(AC\\bot BD，\\therefore EF//BD，\\therefore \\vartriangle CEF\\backsim \\vartriangle CBD\\)，\n∴\\(\\frac { EC } { BC }=\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，\n设\\(EC{ \\rm{ = } }2a\\)，则\\(AB=BC=5a，BE=3a，\\therefore AE=4a\\)．\n\\(\\because AE=AF，AB=BC，\\angle EAF=\\angle ABC\\)，\n∴\\(\\vartriangle AEF\\backsim \\vartriangle BAC\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ \\vartriangle BAC } }=\\left ( { \\frac { AE } { AB } } \\right ) ^ { 2 } { \\rm{ = } }\\left ( { \\frac { 4a } { 5a } } \\right ) ^ { 2 } =\\frac { 16 } { 25 }\\)，\n∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 菱形ABCD } }=\\frac { S_{ \\vartriangle AEF } } { 2S_{ \\vartriangle BAC } }=\\frac { 1 } { 2 }\\times \\frac { 16 } { 25 }=\\frac { 8 } { 25 }\\)．\n〔图2〕",
+      "solution_steps": [
+        "解：如图1，连结\\(AC\\)．",
+        "由①知，\\(\\vartriangle ABE≌\\vartriangle ADF，\\therefore BE=DF，\\therefore CE=CF\\)，",
+        "\\(\\because AE=AF，\\therefore AC\\bot EF\\)．",
+        "在菱形\\(ABCD\\)中，\\(AC\\bot BD，\\therefore EF//BD，\\therefore \\vartriangle CEF\\backsim \\vartriangle CBD\\)，",
+        "∴\\(\\frac { EC } { BC }=\\frac { EF } { BD }=\\frac { 2 } { 5 }\\)，",
+        "设\\(EC{ \\rm{ = } }2a\\)，则\\(AB=BC=5a，BE=3a，\\therefore AE=4a\\)．",
+        "\\(\\because AE=AF，AB=BC，\\angle EAF=\\angle ABC\\)，",
+        "∴\\(\\vartriangle AEF\\backsim \\vartriangle BAC\\)，",
+        "∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ \\vartriangle BAC } }=\\left ( { \\frac { AE } { AB } } \\right ) ^ { 2 } { \\rm{ = } }\\left ( { \\frac { 4a } { 5a } } \\right ) ^ { 2 } =\\frac { 16 } { 25 }\\)，",
+        "∴\\(\\frac { S_{ \\vartriangle AEF } } { S_{ 菱形ABCD } }=\\frac { S_{ \\vartriangle AEF } } { 2S_{ \\vartriangle BAC } }=\\frac { 1 } { 2 }\\times \\frac { 16 } { 25 }=\\frac { 8 } { 25 }\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71,
+          73
+        ],
+        "solution_block_ids": [
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-983F00A325-Q22-P03",
+      "label": "（2）",
+      "prompt": "当\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)时，延长\\(BC\\)交射线\\(AF\\)于点M，延长\\(DC\\)交射线\\(AE\\)于点N，连结\\(AC，MN\\)，若\\(AB=4，AC=2\\)，则当\\(CE\\)为何值时，\\(\\vartriangle AMN\\)是等腰三角形．",
+      "stem_text": "当\\(\\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)时，延长\\(BC\\)交射线\\(AF\\)于点M，延长\\(DC\\)交射线\\(AE\\)于点N，连结\\(AC，MN\\)，若\\(AB=4，AC=2\\)，则当\\(CE\\)为何值时，\\(\\vartriangle AMN\\)是等腰三角形．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．",
+      "answer": "当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．",
+      "given_solution": "解：在菱形\\(ABCD\\)中，\\(\\angle BAC=\\frac { 1 } { 2 }\\angle BAD，\\because \\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，\n\\(\\therefore \\angle BAC=\\angle EAF，\\therefore \\angle BAE=\\angle CAM\\)，\n\\(\\because AB//CD，\\therefore \\angle BAE=\\angle AN{ \\rm{ C } }，\\therefore \\angle ANC=\\angle CAM\\)，\n同理，\\(\\angle AMC=\\angle NAC\\)，\n∴\\(\\vartriangle MAC\\backsim \\vartriangle ANC，\\therefore \\frac { AC } { CN }=\\frac { AM } { NA }\\)．\n\\(\\vartriangle AMN\\)是等腰三角形有三种情况：\n①如图2，当\\(AM=AN\\)时，\\(\\vartriangle ANC≌\\vartriangle MAC\\)，\n\\(\\therefore CN=AC=2\\)，\n\\(\\because AB//CN，\\therefore \\vartriangle CEN\\backsim \\vartriangle BEA\\)，\n\\(\\because AB=4，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 2 }\\)，\n\\(\\because BC=4，\\therefore CE=\\frac { 1 } { 3 }BC=\\frac { 4 } { 3 }\\)．\n②如图3，当\\(NA=NM\\)时，\n\\(\\angle NMA=\\angle NAM=\\angle BAC=\\angle BCA\\)，\n\\(\\vartriangle ANM\\backsim \\vartriangle ABC，\\therefore \\frac { AM } { AN }=\\frac { AC } { AB }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore CN=2AC=4，\\therefore \\vartriangle CEN≌\\vartriangle BEA\\)，\n∴\\(CE=BE=\\frac { 1 } { 2 }BC=2\\)．\n③如图4，当\\(MA{ \\rm{ = } }MN\\)时，\n\\(\\angle MNA=\\angle MAN=\\angle BAC=\\angle BCA，\\therefore \\vartriangle AMN\\backsim \\vartriangle ABC\\)，\n\\(\\therefore \\frac { AM } { AN }=\\frac { AB } { AC }=2，\\therefore CN=\\frac { 1 } { 2 }AC=1\\)，\n\\(\\because \\vartriangle CEN\\backsim \\vartriangle BEA，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 4 }\\)，\n\\(\\therefore CE=\\frac { 1 } { 5 }BC=\\frac { 4 } { 5 }\\)．\n综上所述，当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．",
+      "solution_steps": [
+        "解：在菱形\\(ABCD\\)中，\\(\\angle BAC=\\frac { 1 } { 2 }\\angle BAD，\\because \\angle EAF=\\frac { 1 } { 2 }\\angle BAD\\)，",
+        "\\(\\therefore \\angle BAC=\\angle EAF，\\therefore \\angle BAE=\\angle CAM\\)，",
+        "\\(\\because AB//CD，\\therefore \\angle BAE=\\angle AN{ \\rm{ C } }，\\therefore \\angle ANC=\\angle CAM\\)，",
+        "同理，\\(\\angle AMC=\\angle NAC\\)，",
+        "∴\\(\\vartriangle MAC\\backsim \\vartriangle ANC，\\therefore \\frac { AC } { CN }=\\frac { AM } { NA }\\)．",
+        "\\(\\vartriangle AMN\\)是等腰三角形有三种情况：",
+        "①如图2，当\\(AM=AN\\)时，\\(\\vartriangle ANC≌\\vartriangle MAC\\)，",
+        "\\(\\therefore CN=AC=2\\)，",
+        "\\(\\because AB//CN，\\therefore \\vartriangle CEN\\backsim \\vartriangle BEA\\)，",
+        "\\(\\because AB=4，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\because BC=4，\\therefore CE=\\frac { 1 } { 3 }BC=\\frac { 4 } { 3 }\\)．",
+        "②如图3，当\\(NA=NM\\)时，",
+        "\\(\\angle NMA=\\angle NAM=\\angle BAC=\\angle BCA\\)，",
+        "\\(\\vartriangle ANM\\backsim \\vartriangle ABC，\\therefore \\frac { AM } { AN }=\\frac { AC } { AB }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore CN=2AC=4，\\therefore \\vartriangle CEN≌\\vartriangle BEA\\)，",
+        "∴\\(CE=BE=\\frac { 1 } { 2 }BC=2\\)．",
+        "③如图4，当\\(MA{ \\rm{ = } }MN\\)时，",
+        "\\(\\angle MNA=\\angle MAN=\\angle BAC=\\angle BCA，\\therefore \\vartriangle AMN\\backsim \\vartriangle ABC\\)，",
+        "\\(\\therefore \\frac { AM } { AN }=\\frac { AB } { AC }=2，\\therefore CN=\\frac { 1 } { 2 }AC=1\\)，",
+        "\\(\\because \\vartriangle CEN\\backsim \\vartriangle BEA，\\therefore \\frac { CE } { BE }=\\frac { CN } { AB }=\\frac { 1 } { 4 }\\)，",
+        "\\(\\therefore CE=\\frac { 1 } { 5 }BC=\\frac { 4 } { 5 }\\)．",
+        "综上所述，当\\(CE=\\frac { 4 } { 3 }\\)或2或\\(\\frac { 4 } { 5 }\\)时，\\(\\vartriangle AMN\\)是等腰三角形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          74
+        ],
+        "solution_block_ids": [
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      74
+    ],
+    "solution_body_blocks": [
+      372,
+      422
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-983F00A325/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          190.91,
+          583.64,
+          533.18
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-983F00A325/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-983F00A325/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-983F00A325/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          54.55,
+          583.64,
+          718.64
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          62.73,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          275.45
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03",
+    "M.G03.01"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G08.03.01",
+    "E.G03.02.01",
+    "E.G03.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由相似比求对应线段或周长”。 本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

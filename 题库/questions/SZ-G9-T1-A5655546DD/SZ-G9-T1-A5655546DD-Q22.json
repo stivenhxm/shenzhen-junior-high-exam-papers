@@ -1,0 +1,413 @@
+{
+  "id": "SZ-G9-T1-A5655546DD-Q22",
+  "paper_id": "SZ-G9-T1-A5655546DD",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "选择充分条件证明三角形全等、由相似比求对应线段或周长",
+  "stem": "（1）【探究发现】如图1，正方形\\(ABCD\\)的对角线相交于点O，在正方形\\(A'B'C'O\\)绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．证明： \\(\\vartriangle OMC≌\\vartriangle OND\\)；\n（2）【类比迁移】如图2，矩形\\(ABCD\\)的对角线相交于点O，且\\(AB=6\\)，\\(AD=12\\)，在矩形\\(A'B'C'O\\)，绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．若\\(DN=1\\)，求\\(CM\\)的长；\n（3）【拓展应用】如图3，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，且\\(\\angle A'OC'=\\angle ADC\\)，\\(AB=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，\\(\\vartriangle BCD\\)是直角三角形，在\\(▱A'B'C'O\\)绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．当\\(▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)时，请直接写出\\(ON\\)的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-A5655546DD/figures/94ee788705afcc593d15ed2027be90a86ac495ccb13225b9c83009c4b151e406.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）证明见解析（2）\\(CM=5\\)（3）\\(ON=\\frac { 15 } { 4 }\\)",
+  "answer": "（1）证明见解析（2）\\(CM=5\\)（3）\\(ON=\\frac { 15 } { 4 }\\)",
+  "given_solution": "【分析】（1）根据正方形的性质证明三角形全等即可；\n（2）过点O作\\(AB\\)的平行线交\\(AD\\)于点E、交\\(BC\\)于点P，过点N作\\(AB\\)垂线交\\(PE\\)于点Q，构造相似三角形\\(\\vartriangle POM\\backsim \\vartriangle QND\\)，对应边成比例求\\(PM\\)，然后根\\(CM=CP-PM\\)计算即可；\n（3）过点O作\\(BC\\)的垂线交\\(BC\\)于点H，用勾股定理求出\\(BD\\)，证\\(\\vartriangle OMH\\backsim \\vartriangle OND\\)、\\(\\vartriangle BOH\\backsim \\vartriangle BCD\\)，结合\\(▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)，设\\(MH=m\\)列出方程求出m，根据勾股定理求出\\(ON\\)即可．\n【详解】（1）证明：∵四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle DOC=90{}^\\circ\\)，\\(\\angle OCM=\\angle ODN=45{}^\\circ\\)，\\(OC=OD\\)，\n由旋转可知：\\(\\angle C'OA'=90{}^\\circ\\)，\n\\(\\therefore \\angle C'OA'=\\angle DOC=90{}^\\circ\\)，\n\\(\\therefore \\angle COA-\\angle CON=\\angle DOC-\\angle CON\\)，\n\\(\\therefore \\angle MOC=\\angle NOD\\)，\n\\(\\therefore \\vartriangle OMC≌\\vartriangle OND\\)；\n（2）解：如图2，过点O作\\(AB\\)的平行线交\\(AD\\)于点E、交\\(BC\\)于点P，过点N作\\(AB\\)垂线交\\(PE\\)于点Q，\n〔图2〕\n∵四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是矩形，\\(AB=6\\)，\\(AD=12\\)，\\(DN=1\\)，\n\\(\\therefore \\angle OPM=\\angle OQN=\\angle MON=90{}^\\circ\\)，\\(EQ=DN=1\\)，\n\\(\\therefore OE=OP=\\frac { 1 } { 2 }AB=3\\)，\\(NQ=CP=AE=BP=\\frac { 1 } { 2 }BC=6\\)，\n\\(\\therefore \\angle POM+\\angle QON=\\angle QON+\\angle QNO=90{}^\\circ\\)，\\(QO=OE-EQ=3-1=2\\)，\n\\(\\therefore \\angle POM=\\angle QNO\\)，\n\\(\\therefore \\vartriangle POM\\backsim \\vartriangle QND\\)，\n\\(\\therefore \\frac { OP } { NQ }=\\frac { PM } { QO }\\)，\n\\(\\therefore \\frac { 3 } { 6 }=\\frac { PM } { 2 }\\)，\n\\(\\therefore PM=1\\)，\n\\(\\therefore CM=CP-PM=6-1=5\\)；\n（3）解：如图，过点O作\\(BC\\)的垂线交\\(BC\\)于点H，\n〔图3〕\n设\\(\\angle DBC=\\alpha\\)，则\\(\\angle ADC=\\alpha +90{}^\\circ =\\angle A\\prime OC\\prime\\)，\n设\\(\\angle BOM=\\beta\\)，则\\(\\angle NOD=180{}^\\circ -\\beta -（a+90{}^\\circ ）=90{}^\\circ -\\alpha -\\beta\\)，\n\\(\\therefore \\angle OMH=\\alpha +\\beta\\)，\\(\\angle OND=90{}^\\circ -\\angle NOD=90{}^\\circ -（90{}^\\circ -\\alpha -\\beta ）=\\alpha +\\beta\\)，\n\\(\\therefore \\angle OMH=\\angle OND\\)，\n\\(\\because \\angle OHM=\\angle ODN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle OMH\\backsim \\vartriangle OND\\)，\n\\(\\because AB=CD=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，是直角三角形，\n\\(\\therefore BD=\\sqrt[] { BC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { 45-9 }=6\\)，\n\\(\\therefore OB=OD=3\\)，\n\\(\\because \\angle OBH=\\angle CBD\\)，\\(\\angle OHB=\\angle CDB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle BOH\\backsim \\vartriangle BCD\\)，\n\\(\\therefore \\frac { OH } { CD }=\\frac { BH } { BD }\\)，\n\\(\\therefore \\frac { OH } { BH }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore BH=2OH\\)，\n\\(\\because OH ^ { 2 } +BH ^ { 2 } =OB ^ { 2 }\\)，\n\\(\\therefore OH ^ { 2 } +4OH ^ { 2 } =3 ^ { 2 }\\)，\n\\(\\therefore OH=\\frac { 3\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore BH=2OH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\n设\\(MH=m\\)，则\\(BM=BH-MH=\\frac { 6\\sqrt[] { 5 } } { 5 }-m\\)，\n\\(\\because \\vartriangle OMH\\backsim \\vartriangle OND\\)，\n\\(\\therefore \\frac { OH } { OD }=\\frac { MH } { ND }\\)，\n\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 5 } } { 5 } } { 3 }=\\frac { m } { ND }\\)，\n\\(\\therefore ND=\\sqrt[] { 5 }m\\)，\n\\(\\because ▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)，平行四边形对角线平分平行四边形的面积，\n\\(\\therefore S_{ \\vartriangle BOM } +S_{ \\vartriangle ODN } =\\frac { 1 } { 2 }S_{ \\vartriangle BCD }\\)，\n\\(\\therefore \\frac { 1 } { 2 }\\times \\left ( { \\frac { \\sqrt[] { 5 } } { 5 }-m } \\right )\\times \\frac { 3\\sqrt[] { 5 } } { 5 }+\\frac { 1 } { 2 }\\times 3\\times \\sqrt[] { 5 }m=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 3\\times 6\\)，\n\\(\\therefore m=\\frac { 9\\sqrt[] { 5 } } { 20 }\\)，\n\\(\\therefore ND=\\sqrt[] { 5 }m=\\frac { 9 } { 4 }\\)，\n\\(\\therefore ON=\\sqrt[] { OD ^ { 2 } +DN ^ { 2 } }=\\sqrt[] { 9+\\frac { 81 } { 16 } }=\\frac { 15 } { 4 }\\)．\n【点睛】本题是四边形的综合题，考查了全等三角形的判定与性质、勾股定理、平行四边形、矩形、正方形的性质、相似三角形的判定与性质，熟练掌握相关性质与判定是解题关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-A5655546DD/figures/94ee788705afcc593d15ed2027be90a86ac495ccb13225b9c83009c4b151e406.png",
+    "assets/SZ-G9-T1-A5655546DD/figures/c11f537c0cd92abc91ad1c389405cbc030658a559235bcb68866ef3bf75717ad.png",
+    "assets/SZ-G9-T1-A5655546DD/figures/9784bce236bfdc3caf9180016baa3617067307fda524d2ebfebaff39d428b7bf.png"
+  ],
+  "solution": "（1）证明：∵四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle DOC=90{}^\\circ\\)，\\(\\angle OCM=\\angle ODN=45{}^\\circ\\)，\\(OC=OD\\)，\n由旋转可知：\\(\\angle C'OA'=90{}^\\circ\\)，\n\\(\\therefore \\angle C'OA'=\\angle DOC=90{}^\\circ\\)，\n\\(\\therefore \\angle COA-\\angle CON=\\angle DOC-\\angle CON\\)，\n\\(\\therefore \\angle MOC=\\angle NOD\\)，\n\\(\\therefore \\vartriangle OMC≌\\vartriangle OND\\)；\n（2）解：如图2，过点O作\\(AB\\)的平行线交\\(AD\\)于点E、交\\(BC\\)于点P，过点N作\\(AB\\)垂线交\\(PE\\)于点Q，\n〔图2〕\n∵四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是矩形，\\(AB=6\\)，\\(AD=12\\)，\\(DN=1\\)，\n\\(\\therefore \\angle OPM=\\angle OQN=\\angle MON=90{}^\\circ\\)，\\(EQ=DN=1\\)，\n\\(\\therefore OE=OP=\\frac { 1 } { 2 }AB=3\\)，\\(NQ=CP=AE=BP=\\frac { 1 } { 2 }BC=6\\)，\n\\(\\therefore \\angle POM+\\angle QON=\\angle QON+\\angle QNO=90{}^\\circ\\)，\\(QO=OE-EQ=3-1=2\\)，\n\\(\\therefore \\angle POM=\\angle QNO\\)，\n\\(\\therefore \\vartriangle POM\\backsim \\vartriangle QND\\)，\n\\(\\therefore \\frac { OP } { NQ }=\\frac { PM } { QO }\\)，\n\\(\\therefore \\frac { 3 } { 6 }=\\frac { PM } { 2 }\\)，\n\\(\\therefore PM=1\\)，\n\\(\\therefore CM=CP-PM=6-1=5\\)；\n（3）解：如图，过点O作\\(BC\\)的垂线交\\(BC\\)于点H，\n〔图3〕\n设\\(\\angle DBC=\\alpha\\)，则\\(\\angle ADC=\\alpha +90{}^\\circ =\\angle A\\prime OC\\prime\\)，\n设\\(\\angle BOM=\\beta\\)，则\\(\\angle NOD=180{}^\\circ -\\beta -（a+90{}^\\circ ）=90{}^\\circ -\\alpha -\\beta\\)，\n\\(\\therefore \\angle OMH=\\alpha +\\beta\\)，\\(\\angle OND=90{}^\\circ -\\angle NOD=90{}^\\circ -（90{}^\\circ -\\alpha -\\beta ）=\\alpha +\\beta\\)，\n\\(\\therefore \\angle OMH=\\angle OND\\)，\n\\(\\because \\angle OHM=\\angle ODN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle OMH\\backsim \\vartriangle OND\\)，\n\\(\\because AB=CD=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，是直角三角形，\n\\(\\therefore BD=\\sqrt[] { BC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { 45-9 }=6\\)，\n\\(\\therefore OB=OD=3\\)，\n\\(\\because \\angle OBH=\\angle CBD\\)，\\(\\angle OHB=\\angle CDB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle BOH\\backsim \\vartriangle BCD\\)，\n\\(\\therefore \\frac { OH } { CD }=\\frac { BH } { BD }\\)，\n\\(\\therefore \\frac { OH } { BH }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore BH=2OH\\)，\n\\(\\because OH ^ { 2 } +BH ^ { 2 } =OB ^ { 2 }\\)，\n\\(\\therefore OH ^ { 2 } +4OH ^ { 2 } =3 ^ { 2 }\\)，\n\\(\\therefore OH=\\frac { 3\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore BH=2OH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\n设\\(MH=m\\)，则\\(BM=BH-MH=\\frac { 6\\sqrt[] { 5 } } { 5 }-m\\)，\n\\(\\because \\vartriangle OMH\\backsim \\vartriangle OND\\)，\n\\(\\therefore \\frac { OH } { OD }=\\frac { MH } { ND }\\)，\n\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 5 } } { 5 } } { 3 }=\\frac { m } { ND }\\)，\n\\(\\therefore ND=\\sqrt[] { 5 }m\\)，\n\\(\\because ▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)，平行四边形对角线平分平行四边形的面积，\n\\(\\therefore S_{ \\vartriangle BOM } +S_{ \\vartriangle ODN } =\\frac { 1 } { 2 }S_{ \\vartriangle BCD }\\)，\n\\(\\therefore \\frac { 1 } { 2 }\\times \\left ( { \\frac { \\sqrt[] { 5 } } { 5 }-m } \\right )\\times \\frac { 3\\sqrt[] { 5 } } { 5 }+\\frac { 1 } { 2 }\\times 3\\times \\sqrt[] { 5 }m=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 3\\times 6\\)，\n\\(\\therefore m=\\frac { 9\\sqrt[] { 5 } } { 20 }\\)，\n\\(\\therefore ND=\\sqrt[] { 5 }m=\\frac { 9 } { 4 }\\)，\n\\(\\therefore ON=\\sqrt[] { OD ^ { 2 } +DN ^ { 2 } }=\\sqrt[] { 9+\\frac { 81 } { 16 } }=\\frac { 15 } { 4 }\\)．",
+  "solution_steps": [
+    "（1）证明：∵四边形\\(ABCD\\)是正方形，",
+    "\\(\\therefore \\angle DOC=90{}^\\circ\\)，\\(\\angle OCM=\\angle ODN=45{}^\\circ\\)，\\(OC=OD\\)，",
+    "由旋转可知：\\(\\angle C'OA'=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle C'OA'=\\angle DOC=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle COA-\\angle CON=\\angle DOC-\\angle CON\\)，",
+    "\\(\\therefore \\angle MOC=\\angle NOD\\)，",
+    "\\(\\therefore \\vartriangle OMC≌\\vartriangle OND\\)；",
+    "（2）解：如图2，过点O作\\(AB\\)的平行线交\\(AD\\)于点E、交\\(BC\\)于点P，过点N作\\(AB\\)垂线交\\(PE\\)于点Q，",
+    "〔图2〕",
+    "∵四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是矩形，\\(AB=6\\)，\\(AD=12\\)，\\(DN=1\\)，",
+    "\\(\\therefore \\angle OPM=\\angle OQN=\\angle MON=90{}^\\circ\\)，\\(EQ=DN=1\\)，",
+    "\\(\\therefore OE=OP=\\frac { 1 } { 2 }AB=3\\)，\\(NQ=CP=AE=BP=\\frac { 1 } { 2 }BC=6\\)，",
+    "\\(\\therefore \\angle POM+\\angle QON=\\angle QON+\\angle QNO=90{}^\\circ\\)，\\(QO=OE-EQ=3-1=2\\)，",
+    "\\(\\therefore \\angle POM=\\angle QNO\\)，",
+    "\\(\\therefore \\vartriangle POM\\backsim \\vartriangle QND\\)，",
+    "\\(\\therefore \\frac { OP } { NQ }=\\frac { PM } { QO }\\)，",
+    "\\(\\therefore \\frac { 3 } { 6 }=\\frac { PM } { 2 }\\)，",
+    "\\(\\therefore PM=1\\)，",
+    "\\(\\therefore CM=CP-PM=6-1=5\\)；",
+    "（3）解：如图，过点O作\\(BC\\)的垂线交\\(BC\\)于点H，",
+    "〔图3〕",
+    "设\\(\\angle DBC=\\alpha\\)，则\\(\\angle ADC=\\alpha +90{}^\\circ =\\angle A\\prime OC\\prime\\)，",
+    "设\\(\\angle BOM=\\beta\\)，则\\(\\angle NOD=180{}^\\circ -\\beta -（a+90{}^\\circ ）=90{}^\\circ -\\alpha -\\beta\\)，",
+    "\\(\\therefore \\angle OMH=\\alpha +\\beta\\)，\\(\\angle OND=90{}^\\circ -\\angle NOD=90{}^\\circ -（90{}^\\circ -\\alpha -\\beta ）=\\alpha +\\beta\\)，",
+    "\\(\\therefore \\angle OMH=\\angle OND\\)，",
+    "\\(\\because \\angle OHM=\\angle ODN=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle OMH\\backsim \\vartriangle OND\\)，",
+    "\\(\\because AB=CD=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，是直角三角形，",
+    "\\(\\therefore BD=\\sqrt[] { BC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { 45-9 }=6\\)，",
+    "\\(\\therefore OB=OD=3\\)，",
+    "\\(\\because \\angle OBH=\\angle CBD\\)，\\(\\angle OHB=\\angle CDB=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle BOH\\backsim \\vartriangle BCD\\)，",
+    "\\(\\therefore \\frac { OH } { CD }=\\frac { BH } { BD }\\)，",
+    "\\(\\therefore \\frac { OH } { BH }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore BH=2OH\\)，",
+    "\\(\\because OH ^ { 2 } +BH ^ { 2 } =OB ^ { 2 }\\)，",
+    "\\(\\therefore OH ^ { 2 } +4OH ^ { 2 } =3 ^ { 2 }\\)，",
+    "\\(\\therefore OH=\\frac { 3\\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\therefore BH=2OH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，",
+    "设\\(MH=m\\)，则\\(BM=BH-MH=\\frac { 6\\sqrt[] { 5 } } { 5 }-m\\)，",
+    "\\(\\because \\vartriangle OMH\\backsim \\vartriangle OND\\)，",
+    "\\(\\therefore \\frac { OH } { OD }=\\frac { MH } { ND }\\)，",
+    "\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 5 } } { 5 } } { 3 }=\\frac { m } { ND }\\)，",
+    "\\(\\therefore ND=\\sqrt[] { 5 }m\\)，",
+    "\\(\\because ▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)，平行四边形对角线平分平行四边形的面积，",
+    "\\(\\therefore S_{ \\vartriangle BOM } +S_{ \\vartriangle ODN } =\\frac { 1 } { 2 }S_{ \\vartriangle BCD }\\)，",
+    "\\(\\therefore \\frac { 1 } { 2 }\\times \\left ( { \\frac { \\sqrt[] { 5 } } { 5 }-m } \\right )\\times \\frac { 3\\sqrt[] { 5 } } { 5 }+\\frac { 1 } { 2 }\\times 3\\times \\sqrt[] { 5 }m=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 3\\times 6\\)，",
+    "\\(\\therefore m=\\frac { 9\\sqrt[] { 5 } } { 20 }\\)，",
+    "\\(\\therefore ND=\\sqrt[] { 5 }m=\\frac { 9 } { 4 }\\)，",
+    "\\(\\therefore ON=\\sqrt[] { OD ^ { 2 } +DN ^ { 2 } }=\\sqrt[] { 9+\\frac { 81 } { 16 } }=\\frac { 15 } { 4 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "fig-77",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        77
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-A5655546DD-Q22-P01",
+      "label": "（1）",
+      "prompt": "【探究发现】如图1，正方形\\(ABCD\\)的对角线相交于点O，在正方形\\(A'B'C'O\\)绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．证明： \\(\\vartriangle OMC≌\\vartriangle OND\\)；",
+      "stem_text": "【探究发现】如图1，正方形\\(ABCD\\)的对角线相交于点O，在正方形\\(A'B'C'O\\)绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．证明： \\(\\vartriangle OMC≌\\vartriangle OND\\)；",
+      "material_ids": [
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析",
+      "answer": "证明见解析",
+      "given_solution": "证明：∵四边形\\(ABCD\\)是正方形，\n\\(\\therefore \\angle DOC=90{}^\\circ\\)，\\(\\angle OCM=\\angle ODN=45{}^\\circ\\)，\\(OC=OD\\)，\n由旋转可知：\\(\\angle C'OA'=90{}^\\circ\\)，\n\\(\\therefore \\angle C'OA'=\\angle DOC=90{}^\\circ\\)，\n\\(\\therefore \\angle COA-\\angle CON=\\angle DOC-\\angle CON\\)，\n\\(\\therefore \\angle MOC=\\angle NOD\\)，\n\\(\\therefore \\vartriangle OMC≌\\vartriangle OND\\)；",
+      "solution_steps": [
+        "证明：∵四边形\\(ABCD\\)是正方形，",
+        "\\(\\therefore \\angle DOC=90{}^\\circ\\)，\\(\\angle OCM=\\angle ODN=45{}^\\circ\\)，\\(OC=OD\\)，",
+        "由旋转可知：\\(\\angle C'OA'=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle C'OA'=\\angle DOC=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle COA-\\angle CON=\\angle DOC-\\angle CON\\)，",
+        "\\(\\therefore \\angle MOC=\\angle NOD\\)，",
+        "\\(\\therefore \\vartriangle OMC≌\\vartriangle OND\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          77
+        ],
+        "solution_block_ids": [
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-A5655546DD-Q22-P02",
+      "label": "（2）",
+      "prompt": "【类比迁移】如图2，矩形\\(ABCD\\)的对角线相交于点O，且\\(AB=6\\)，\\(AD=12\\)，在矩形\\(A'B'C'O\\)，绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．若\\(DN=1\\)，求\\(CM\\)的长；",
+      "stem_text": "【类比迁移】如图2，矩形\\(ABCD\\)的对角线相交于点O，且\\(AB=6\\)，\\(AD=12\\)，在矩形\\(A'B'C'O\\)，绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．若\\(DN=1\\)，求\\(CM\\)的长；",
+      "material_ids": [
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(CM=5\\)",
+      "answer": "\\(CM=5\\)",
+      "given_solution": "解：如图2，过点O作\\(AB\\)的平行线交\\(AD\\)于点E、交\\(BC\\)于点P，过点N作\\(AB\\)垂线交\\(PE\\)于点Q，\n〔图2〕\n∵四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是矩形，\\(AB=6\\)，\\(AD=12\\)，\\(DN=1\\)，\n\\(\\therefore \\angle OPM=\\angle OQN=\\angle MON=90{}^\\circ\\)，\\(EQ=DN=1\\)，\n\\(\\therefore OE=OP=\\frac { 1 } { 2 }AB=3\\)，\\(NQ=CP=AE=BP=\\frac { 1 } { 2 }BC=6\\)，\n\\(\\therefore \\angle POM+\\angle QON=\\angle QON+\\angle QNO=90{}^\\circ\\)，\\(QO=OE-EQ=3-1=2\\)，\n\\(\\therefore \\angle POM=\\angle QNO\\)，\n\\(\\therefore \\vartriangle POM\\backsim \\vartriangle QND\\)，\n\\(\\therefore \\frac { OP } { NQ }=\\frac { PM } { QO }\\)，\n\\(\\therefore \\frac { 3 } { 6 }=\\frac { PM } { 2 }\\)，\n\\(\\therefore PM=1\\)，\n\\(\\therefore CM=CP-PM=6-1=5\\)；",
+      "solution_steps": [
+        "解：如图2，过点O作\\(AB\\)的平行线交\\(AD\\)于点E、交\\(BC\\)于点P，过点N作\\(AB\\)垂线交\\(PE\\)于点Q，",
+        "〔图2〕",
+        "∵四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是矩形，\\(AB=6\\)，\\(AD=12\\)，\\(DN=1\\)，",
+        "\\(\\therefore \\angle OPM=\\angle OQN=\\angle MON=90{}^\\circ\\)，\\(EQ=DN=1\\)，",
+        "\\(\\therefore OE=OP=\\frac { 1 } { 2 }AB=3\\)，\\(NQ=CP=AE=BP=\\frac { 1 } { 2 }BC=6\\)，",
+        "\\(\\therefore \\angle POM+\\angle QON=\\angle QON+\\angle QNO=90{}^\\circ\\)，\\(QO=OE-EQ=3-1=2\\)，",
+        "\\(\\therefore \\angle POM=\\angle QNO\\)，",
+        "\\(\\therefore \\vartriangle POM\\backsim \\vartriangle QND\\)，",
+        "\\(\\therefore \\frac { OP } { NQ }=\\frac { PM } { QO }\\)，",
+        "\\(\\therefore \\frac { 3 } { 6 }=\\frac { PM } { 2 }\\)，",
+        "\\(\\therefore PM=1\\)，",
+        "\\(\\therefore CM=CP-PM=6-1=5\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-A5655546DD-Q22-P03",
+      "label": "（3）",
+      "prompt": "【拓展应用】如图3，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，且\\(\\angle A'OC'=\\angle ADC\\)，\\(AB=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，\\(\\vartriangle BCD\\)是直角三角形，在\\(▱A'B'C'O\\)绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．当\\(▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)时，请直接写出\\(ON\\)的长．",
+      "stem_text": "【拓展应用】如图3，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，且\\(\\angle A'OC'=\\angle ADC\\)，\\(AB=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，\\(\\vartriangle BCD\\)是直角三角形，在\\(▱A'B'C'O\\)绕点O旋转的过程中，边\\(A'O\\)与边\\(BC\\)交于点M，边\\(C'O\\)与边\\(CD\\)交于点N．当\\(▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)时，请直接写出\\(ON\\)的长．",
+      "material_ids": [
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(ON=\\frac { 15 } { 4 }\\)",
+      "answer": "\\(ON=\\frac { 15 } { 4 }\\)",
+      "given_solution": "解：如图，过点O作\\(BC\\)的垂线交\\(BC\\)于点H，\n〔图3〕\n设\\(\\angle DBC=\\alpha\\)，则\\(\\angle ADC=\\alpha +90{}^\\circ =\\angle A\\prime OC\\prime\\)，\n设\\(\\angle BOM=\\beta\\)，则\\(\\angle NOD=180{}^\\circ -\\beta -（a+90{}^\\circ ）=90{}^\\circ -\\alpha -\\beta\\)，\n\\(\\therefore \\angle OMH=\\alpha +\\beta\\)，\\(\\angle OND=90{}^\\circ -\\angle NOD=90{}^\\circ -（90{}^\\circ -\\alpha -\\beta ）=\\alpha +\\beta\\)，\n\\(\\therefore \\angle OMH=\\angle OND\\)，\n\\(\\because \\angle OHM=\\angle ODN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle OMH\\backsim \\vartriangle OND\\)，\n\\(\\because AB=CD=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，是直角三角形，\n\\(\\therefore BD=\\sqrt[] { BC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { 45-9 }=6\\)，\n\\(\\therefore OB=OD=3\\)，\n\\(\\because \\angle OBH=\\angle CBD\\)，\\(\\angle OHB=\\angle CDB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle BOH\\backsim \\vartriangle BCD\\)，\n\\(\\therefore \\frac { OH } { CD }=\\frac { BH } { BD }\\)，\n\\(\\therefore \\frac { OH } { BH }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore BH=2OH\\)，\n\\(\\because OH ^ { 2 } +BH ^ { 2 } =OB ^ { 2 }\\)，\n\\(\\therefore OH ^ { 2 } +4OH ^ { 2 } =3 ^ { 2 }\\)，\n\\(\\therefore OH=\\frac { 3\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore BH=2OH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，\n设\\(MH=m\\)，则\\(BM=BH-MH=\\frac { 6\\sqrt[] { 5 } } { 5 }-m\\)，\n\\(\\because \\vartriangle OMH\\backsim \\vartriangle OND\\)，\n\\(\\therefore \\frac { OH } { OD }=\\frac { MH } { ND }\\)，\n\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 5 } } { 5 } } { 3 }=\\frac { m } { ND }\\)，\n\\(\\therefore ND=\\sqrt[] { 5 }m\\)，\n\\(\\because ▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)，平行四边形对角线平分平行四边形的面积，\n\\(\\therefore S_{ \\vartriangle BOM } +S_{ \\vartriangle ODN } =\\frac { 1 } { 2 }S_{ \\vartriangle BCD }\\)，\n\\(\\therefore \\frac { 1 } { 2 }\\times \\left ( { \\frac { \\sqrt[] { 5 } } { 5 }-m } \\right )\\times \\frac { 3\\sqrt[] { 5 } } { 5 }+\\frac { 1 } { 2 }\\times 3\\times \\sqrt[] { 5 }m=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 3\\times 6\\)，\n\\(\\therefore m=\\frac { 9\\sqrt[] { 5 } } { 20 }\\)，\n\\(\\therefore ND=\\sqrt[] { 5 }m=\\frac { 9 } { 4 }\\)，\n\\(\\therefore ON=\\sqrt[] { OD ^ { 2 } +DN ^ { 2 } }=\\sqrt[] { 9+\\frac { 81 } { 16 } }=\\frac { 15 } { 4 }\\)．",
+      "solution_steps": [
+        "解：如图，过点O作\\(BC\\)的垂线交\\(BC\\)于点H，",
+        "〔图3〕",
+        "设\\(\\angle DBC=\\alpha\\)，则\\(\\angle ADC=\\alpha +90{}^\\circ =\\angle A\\prime OC\\prime\\)，",
+        "设\\(\\angle BOM=\\beta\\)，则\\(\\angle NOD=180{}^\\circ -\\beta -（a+90{}^\\circ ）=90{}^\\circ -\\alpha -\\beta\\)，",
+        "\\(\\therefore \\angle OMH=\\alpha +\\beta\\)，\\(\\angle OND=90{}^\\circ -\\angle NOD=90{}^\\circ -（90{}^\\circ -\\alpha -\\beta ）=\\alpha +\\beta\\)，",
+        "\\(\\therefore \\angle OMH=\\angle OND\\)，",
+        "\\(\\because \\angle OHM=\\angle ODN=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle OMH\\backsim \\vartriangle OND\\)，",
+        "\\(\\because AB=CD=3\\)，\\(BC=3\\sqrt[] { 5 }\\)，四边形\\(ABCD\\)和四边形\\(A'B'C'O\\)都是平行四边形，是直角三角形，",
+        "\\(\\therefore BD=\\sqrt[] { BC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { 45-9 }=6\\)，",
+        "\\(\\therefore OB=OD=3\\)，",
+        "\\(\\because \\angle OBH=\\angle CBD\\)，\\(\\angle OHB=\\angle CDB=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle BOH\\backsim \\vartriangle BCD\\)，",
+        "\\(\\therefore \\frac { OH } { CD }=\\frac { BH } { BD }\\)，",
+        "\\(\\therefore \\frac { OH } { BH }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore BH=2OH\\)，",
+        "\\(\\because OH ^ { 2 } +BH ^ { 2 } =OB ^ { 2 }\\)，",
+        "\\(\\therefore OH ^ { 2 } +4OH ^ { 2 } =3 ^ { 2 }\\)，",
+        "\\(\\therefore OH=\\frac { 3\\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\therefore BH=2OH=\\frac { 6\\sqrt[] { 5 } } { 5 }\\)，",
+        "设\\(MH=m\\)，则\\(BM=BH-MH=\\frac { 6\\sqrt[] { 5 } } { 5 }-m\\)，",
+        "\\(\\because \\vartriangle OMH\\backsim \\vartriangle OND\\)，",
+        "\\(\\therefore \\frac { OH } { OD }=\\frac { MH } { ND }\\)，",
+        "\\(\\therefore \\frac { \\frac { 3\\sqrt[] { 5 } } { 5 } } { 3 }=\\frac { m } { ND }\\)，",
+        "\\(\\therefore ND=\\sqrt[] { 5 }m\\)，",
+        "\\(\\because ▱ABCD\\)与\\(▱A'B'C'O\\)重叠部分的面积是\\(▱ABCD\\)的面积的\\(\\frac { 1 } { 4 }\\)，平行四边形对角线平分平行四边形的面积，",
+        "\\(\\therefore S_{ \\vartriangle BOM } +S_{ \\vartriangle ODN } =\\frac { 1 } { 2 }S_{ \\vartriangle BCD }\\)，",
+        "\\(\\therefore \\frac { 1 } { 2 }\\times \\left ( { \\frac { \\sqrt[] { 5 } } { 5 }-m } \\right )\\times \\frac { 3\\sqrt[] { 5 } } { 5 }+\\frac { 1 } { 2 }\\times 3\\times \\sqrt[] { 5 }m=\\frac { 1 } { 2 }\\times \\frac { 1 } { 2 }\\times 3\\times 6\\)，",
+        "\\(\\therefore m=\\frac { 9\\sqrt[] { 5 } } { 20 }\\)，",
+        "\\(\\therefore ND=\\sqrt[] { 5 }m=\\frac { 9 } { 4 }\\)，",
+        "\\(\\therefore ON=\\sqrt[] { OD ^ { 2 } +DN ^ { 2 } }=\\sqrt[] { 9+\\frac { 81 } { 16 } }=\\frac { 15 } { 4 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485,
+          486,
+          487
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      74,
+      77
+    ],
+    "solution_body_blocks": [
+      429,
+      488
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-A5655546DD/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          377.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-A5655546DD/solution-q22-p23.webp",
+      "assets/SZ-G9-T1-A5655546DD/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-A5655546DD/solution-q22-p25.webp",
+      "assets/SZ-G9-T1-A5655546DD/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          687.73,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          748.64
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          587.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

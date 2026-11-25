@@ -1,0 +1,506 @@
+{
+  "id": "SZ-G9-T2-779490239C-Q20",
+  "paper_id": "SZ-G9-T2-779490239C",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "把题给几何新定义转成检验条件、按指定锐角选择三角函数比",
+  "stem": "定义：三角形一边上的点将该边分为两条线段，且这两条线段的积等于这个点到该边所对顶点连线的平方，则称这个点为三角形该边的“中项点”．如图\\(1\\)，\\(\\vartriangle ABC\\)中，点\\(D\\)是\\(BC\\)边上一点，连接\\(AD\\)，若\\(AD ^ { 2 } =BD\\cdot CD\\)，则称点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“中项点”．\n〔图1〕\n（1）如图\\(2\\)，\\(\\vartriangle ABC\\)的顶点是\\(4\\times 3\\)网格图的格点，请仅用直尺画出\\(AB\\)边上的一个“中项点”．\n（2）\\(\\vartriangle ABC\\)中，\\(BC=9，tanB=\\frac { 4 } { 3 }，{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }C=\\frac { 2 } { 3 }\\)，点\\(D\\)是\\(BC\\)边上的“中项点”，求线段\\(BD\\)的长．\n（3）如图\\(3\\)，\\(\\vartriangle ABC\\)是\\(\\odot O\\)的内接三角形，点\\(H\\)在\\(AB\\)上，连接\\(CH\\)并延长交\\(\\odot O\\)于点\\(D\\)．点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”．\n①求证：\\(OH\\bot AB\\)；\n②若\\(OH\\parallel BD\\)，\\(\\odot O\\)的半径为\\(r\\)，且\\(r=\\frac { 5 } { 4 }BD\\)，求\\(\\frac { DH } { CH }\\)的值．",
+  "choices": [],
+  "figures": [
+    "assets/figures/bd/bda46f7e43cd82a689405984e94b285ed520cdf840ec7a1a3aaabf6b82a5e1d3.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）作图见解析\n（2）\\(5\\)\n（3）①证明见解析；②\\(\\frac { 37 } { 21 }\\)",
+  "answer": "（1）作图见解析\n（2）\\(5\\)\n（3）①证明见解析；②\\(\\frac { 37 } { 21 }\\)",
+  "given_solution": "【分析】（\\(1\\)）如图，取格点\\(K\\)，连接\\(CK\\)交\\(AB\\)于\\(M\\)，点\\(M\\)即为所求；\n（\\(2\\)）过\\(A\\)作\\(AT\\bot BC\\)于\\(T\\)，由\\(tanB=\\frac { 4 } { 3 }，tanC=\\frac { 2 } { 3 }\\)可得\\(\\frac { AT } { BT }=\\frac { 4 } { 3 }\\)，\\(\\frac { AT } { CT }=\\frac { 2 } { 3 }\\)，设\\(AT=4m\\)，则\\(BT=3m\\)，\\(CT=6m\\)，可得\\(BT+CT=3m+6m=9\\)，即得\\(m=1\\)，得到\\(BT=3\\)，\\(AT=4\\)，\\(CT=6\\)，设\\(DT=x\\)，则\\(BD=3+x\\)，\\(CD=6-x\\)，由\\(DT ^ { 2 } +AT ^ { 2 } =AD ^ { 2 } =BD\\cdot CD\\)可得\\(x=2\\)，进而即可求解；\n（\\(3\\)）①证明\\(\\vartriangle ACH\\backsim \\vartriangle DBH\\)可得\\(CH\\cdot DH=BH\\cdot AH\\)，再根据点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”得〔图2〕，即得\\(BH ^ { 2 } =BH\\cdot AH\\)，得到\\(BH=AH\\)，由垂径定理的推论即可求证；②连接\\(AD\\)，由\\(OH\\parallel BD\\)可得\\(BD\\bot AB\\)，即得\\(AD\\)为\\(\\odot O\\)的直径，设\\(BD=4n\\)，则\\(r=5n\\)，\\(AD=10n\\)，得\\(AB=\\sqrt[] { AD ^ { 2 } -BD ^ { 2 } }=2\\sqrt[] { 21 }n\\)，即得\\(AH=BH=\\frac { 1 } { 2 }AB=\\sqrt[] { 21 }n\\)，得到\\(DH=\\sqrt[] { BH ^ { 2 } +BD ^ { 2 } }=\\sqrt[] { 37 }n\\)，进而根据〔图2〕可得\\(CH=\\frac { BH ^ { 2 } } { DH }=\\frac { 21\\sqrt[] { 37 } } { 37 }n\\)，最后代入代数式计算即可求解．\n【小问1详解】\n解：取格点\\(K\\)，连接\\(CK\\)交\\(AB\\)于\\(M\\)，如图：\n〔图3〕\n则点\\(M\\)即为\\(AB\\)边上的一个“中项点” ，理由如下：\n由图可知，\\(\\angle ACK=\\angle CBA\\)，\n∴\\(\\angle ACK+\\angle CAM=\\angle CBA+\\angle CAM=90{}^\\circ\\)，\n∴\\(\\angle AMC=\\angle CMB=90{}^\\circ\\)，\n∴\\(\\angle CBA+\\angle BCM=90{}^\\circ\\)，\n∵\\(\\angle CBA+\\angle CAM=90{}^\\circ\\),\n∴\\(\\angle CAM=\\angle BCM\\)，\n∴\\(\\vartriangle ACM\\backsim \\vartriangle CBM\\)，\n∴\\(\\frac { CM } { BM }=\\frac { AM } { CM }\\)，\n即\\(CM ^ { 2 } =AM\\cdot BM\\)，\n∴\\(M\\)为\\(AB\\)边上的一个“中项点”；\n【小问2详解】\n解：过\\(A\\)作\\(AT\\bot BC\\)于\\(T\\)，如图：\n〔图4〕\n∵\\(tanB=\\frac { 4 } { 3 }，tanC=\\frac { 2 } { 3 }\\)，\n∴\\(\\frac { AT } { BT }=\\frac { 4 } { 3 }\\)，\\(\\frac { AT } { CT }=\\frac { 2 } { 3 }\\)，\n设\\(AT=4m\\)，则\\(BT=3m\\)，\\(CT=6m\\)，\n∵\\(BC=9\\)，\n∴\\(BT+CT=3m+6m=9\\)，\n∴\\(m=1\\)，\n∴\\(BT=3\\)，\\(AT=4\\)，\\(CT=6\\)，\n设\\(DT=x\\)，则\\(BD=3+x\\)，\\(CD=6-x\\)，\n∵\\(DT ^ { 2 } +AT ^ { 2 } =AD ^ { 2 } =BD\\cdot CD\\)，\n∴\\(x ^ { 2 } +4 ^ { 2 } =\\left ( { 3+x } \\right )\\left ( { 6-x } \\right )\\)，\n解得\\(x=2\\)(负值已舍去)，\n∴\\(BD=3+x=3+2=5\\)，\n∴线段\\(BD\\)的长为\\(5\\)；\n【小问3详解】\n①证明：由圆周角定理得，\\(\\angle ACH=\\angle DBH\\)，\\(\\angle CAH=\\angle BDH\\)，\n∴\\(\\vartriangle ACH\\backsim \\vartriangle DBH\\)，\n∴\\(\\frac { CH } { BH }=\\frac { AH } { DH }\\)，\n∴\\(CH\\cdot DH=BH\\cdot AH\\)，\n∵点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”，\n∴〔图2〕，\n∴\\(BH ^ { 2 } =BH\\cdot AH\\)，\n∴\\(BH=AH\\)，\n∴\\(OH\\bot AB\\)；\n②解：连接\\(AD\\)，如图：\n〔图5〕\n由①知，\\(OH\\bot AB\\)，\n∵\\(OH\\parallel BD\\)，\n∴\\(BD\\bot AB\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)，\n∴\\(AD\\)为\\(\\odot O\\)的直径，\n∵\\(r=\\frac { 5 } { 4 }BD\\)，设\\(BD=4n\\)，则\\(r=5n\\)，\\(AD=10n\\)，\n∴\\(AB=\\sqrt[] { AD ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { \\left ( { 10n } \\right ) ^ { 2 } -\\left ( { 4n } \\right ) ^ { 2 } }=2\\sqrt[] { 21 }n\\)，\n∴\\(AH=BH=\\frac { 1 } { 2 }AB=\\sqrt[] { 21 }n\\)，\n∴\\(DH=\\sqrt[] { BH ^ { 2 } +BD ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } +\\left ( { 4n } \\right ) ^ { 2 } }=\\sqrt[] { 37 }n\\)，\n∵ 〔图2〕，\n∴\\(CH=\\frac { BH ^ { 2 } } { DH }=\\frac { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } } { \\sqrt[] { 37 }n }=\\frac { 21\\sqrt[] { 37 } } { 37 }n\\)，\n∴\\(\\frac { DH } { CH }=\\frac { \\sqrt[] { 37 }n } { \\frac { 21\\sqrt[] { 37 } } { 37 }n }=\\frac { 37 } { 21 }\\)，\n∴\\(\\frac { DH } { CH }\\)的值为\\(\\frac { 37 } { 21 }\\)．\n【点睛】本题考查了相似三角形的判定和性质，圆周角定理，垂径定理的推论，正切的定义，勾股定理，正确作出辅助线是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/bd/bda46f7e43cd82a689405984e94b285ed520cdf840ec7a1a3aaabf6b82a5e1d3.png",
+    "assets/figures/32/326b4e0162af91c3d9b4a04e0783c212ccf26c84a5465a8ed5b7b3155a5bcdf3.png",
+    "assets/figures/d1/d1999e3da3fbe6534fb446d3bdb8778d2b4e8a4024488bbd2a71c631bb7659f3.png",
+    "assets/figures/de/de75f359fddaa27a17ff0dd94aaa35acda1800e53a11d14c69f3104d7010aa56.png",
+    "assets/figures/06/06814e8965c9fe02f4b9ecc274838bd61ffd4b82a425897785e7ed0e2290c6e4.png"
+  ],
+  "solution": "【小问1详解】\n解：取格点\\(K\\)，连接\\(CK\\)交\\(AB\\)于\\(M\\)，如图：\n〔图3〕\n则点\\(M\\)即为\\(AB\\)边上的一个“中项点” ，理由如下：\n由图可知，\\(\\angle ACK=\\angle CBA\\)，\n∴\\(\\angle ACK+\\angle CAM=\\angle CBA+\\angle CAM=90{}^\\circ\\)，\n∴\\(\\angle AMC=\\angle CMB=90{}^\\circ\\)，\n∴\\(\\angle CBA+\\angle BCM=90{}^\\circ\\)，\n∵\\(\\angle CBA+\\angle CAM=90{}^\\circ\\),\n∴\\(\\angle CAM=\\angle BCM\\)，\n∴\\(\\vartriangle ACM\\backsim \\vartriangle CBM\\)，\n∴\\(\\frac { CM } { BM }=\\frac { AM } { CM }\\)，\n即\\(CM ^ { 2 } =AM\\cdot BM\\)，\n∴\\(M\\)为\\(AB\\)边上的一个“中项点”；\n【小问2详解】\n解：过\\(A\\)作\\(AT\\bot BC\\)于\\(T\\)，如图：\n〔图4〕\n∵\\(tanB=\\frac { 4 } { 3 }，tanC=\\frac { 2 } { 3 }\\)，\n∴\\(\\frac { AT } { BT }=\\frac { 4 } { 3 }\\)，\\(\\frac { AT } { CT }=\\frac { 2 } { 3 }\\)，\n设\\(AT=4m\\)，则\\(BT=3m\\)，\\(CT=6m\\)，\n∵\\(BC=9\\)，\n∴\\(BT+CT=3m+6m=9\\)，\n∴\\(m=1\\)，\n∴\\(BT=3\\)，\\(AT=4\\)，\\(CT=6\\)，\n设\\(DT=x\\)，则\\(BD=3+x\\)，\\(CD=6-x\\)，\n∵\\(DT ^ { 2 } +AT ^ { 2 } =AD ^ { 2 } =BD\\cdot CD\\)，\n∴\\(x ^ { 2 } +4 ^ { 2 } =\\left ( { 3+x } \\right )\\left ( { 6-x } \\right )\\)，\n解得\\(x=2\\)(负值已舍去)，\n∴\\(BD=3+x=3+2=5\\)，\n∴线段\\(BD\\)的长为\\(5\\)；\n【小问3详解】\n①证明：由圆周角定理得，\\(\\angle ACH=\\angle DBH\\)，\\(\\angle CAH=\\angle BDH\\)，\n∴\\(\\vartriangle ACH\\backsim \\vartriangle DBH\\)，\n∴\\(\\frac { CH } { BH }=\\frac { AH } { DH }\\)，\n∴\\(CH\\cdot DH=BH\\cdot AH\\)，\n∵点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”，\n∴〔图2〕，\n∴\\(BH ^ { 2 } =BH\\cdot AH\\)，\n∴\\(BH=AH\\)，\n∴\\(OH\\bot AB\\)；\n②解：连接\\(AD\\)，如图：\n〔图5〕\n由①知，\\(OH\\bot AB\\)，\n∵\\(OH\\parallel BD\\)，\n∴\\(BD\\bot AB\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)，\n∴\\(AD\\)为\\(\\odot O\\)的直径，\n∵\\(r=\\frac { 5 } { 4 }BD\\)，设\\(BD=4n\\)，则\\(r=5n\\)，\\(AD=10n\\)，\n∴\\(AB=\\sqrt[] { AD ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { \\left ( { 10n } \\right ) ^ { 2 } -\\left ( { 4n } \\right ) ^ { 2 } }=2\\sqrt[] { 21 }n\\)，\n∴\\(AH=BH=\\frac { 1 } { 2 }AB=\\sqrt[] { 21 }n\\)，\n∴\\(DH=\\sqrt[] { BH ^ { 2 } +BD ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } +\\left ( { 4n } \\right ) ^ { 2 } }=\\sqrt[] { 37 }n\\)，\n∵ 〔图2〕，\n∴\\(CH=\\frac { BH ^ { 2 } } { DH }=\\frac { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } } { \\sqrt[] { 37 }n }=\\frac { 21\\sqrt[] { 37 } } { 37 }n\\)，\n∴\\(\\frac { DH } { CH }=\\frac { \\sqrt[] { 37 }n } { \\frac { 21\\sqrt[] { 37 } } { 37 }n }=\\frac { 37 } { 21 }\\)，\n∴\\(\\frac { DH } { CH }\\)的值为\\(\\frac { 37 } { 21 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：取格点\\(K\\)，连接\\(CK\\)交\\(AB\\)于\\(M\\)，如图：",
+    "〔图3〕",
+    "则点\\(M\\)即为\\(AB\\)边上的一个“中项点” ，理由如下：",
+    "由图可知，\\(\\angle ACK=\\angle CBA\\)，",
+    "∴\\(\\angle ACK+\\angle CAM=\\angle CBA+\\angle CAM=90{}^\\circ\\)，",
+    "∴\\(\\angle AMC=\\angle CMB=90{}^\\circ\\)，",
+    "∴\\(\\angle CBA+\\angle BCM=90{}^\\circ\\)，",
+    "∵\\(\\angle CBA+\\angle CAM=90{}^\\circ\\),",
+    "∴\\(\\angle CAM=\\angle BCM\\)，",
+    "∴\\(\\vartriangle ACM\\backsim \\vartriangle CBM\\)，",
+    "∴\\(\\frac { CM } { BM }=\\frac { AM } { CM }\\)，",
+    "即\\(CM ^ { 2 } =AM\\cdot BM\\)，",
+    "∴\\(M\\)为\\(AB\\)边上的一个“中项点”；",
+    "【小问2详解】",
+    "解：过\\(A\\)作\\(AT\\bot BC\\)于\\(T\\)，如图：",
+    "〔图4〕",
+    "∵\\(tanB=\\frac { 4 } { 3 }，tanC=\\frac { 2 } { 3 }\\)，",
+    "∴\\(\\frac { AT } { BT }=\\frac { 4 } { 3 }\\)，\\(\\frac { AT } { CT }=\\frac { 2 } { 3 }\\)，",
+    "设\\(AT=4m\\)，则\\(BT=3m\\)，\\(CT=6m\\)，",
+    "∵\\(BC=9\\)，",
+    "∴\\(BT+CT=3m+6m=9\\)，",
+    "∴\\(m=1\\)，",
+    "∴\\(BT=3\\)，\\(AT=4\\)，\\(CT=6\\)，",
+    "设\\(DT=x\\)，则\\(BD=3+x\\)，\\(CD=6-x\\)，",
+    "∵\\(DT ^ { 2 } +AT ^ { 2 } =AD ^ { 2 } =BD\\cdot CD\\)，",
+    "∴\\(x ^ { 2 } +4 ^ { 2 } =\\left ( { 3+x } \\right )\\left ( { 6-x } \\right )\\)，",
+    "解得\\(x=2\\)(负值已舍去)，",
+    "∴\\(BD=3+x=3+2=5\\)，",
+    "∴线段\\(BD\\)的长为\\(5\\)；",
+    "【小问3详解】",
+    "①证明：由圆周角定理得，\\(\\angle ACH=\\angle DBH\\)，\\(\\angle CAH=\\angle BDH\\)，",
+    "∴\\(\\vartriangle ACH\\backsim \\vartriangle DBH\\)，",
+    "∴\\(\\frac { CH } { BH }=\\frac { AH } { DH }\\)，",
+    "∴\\(CH\\cdot DH=BH\\cdot AH\\)，",
+    "∵点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”，",
+    "∴〔图2〕，",
+    "∴\\(BH ^ { 2 } =BH\\cdot AH\\)，",
+    "∴\\(BH=AH\\)，",
+    "∴\\(OH\\bot AB\\)；",
+    "②解：连接\\(AD\\)，如图：",
+    "〔图5〕",
+    "由①知，\\(OH\\bot AB\\)，",
+    "∵\\(OH\\parallel BD\\)，",
+    "∴\\(BD\\bot AB\\)，",
+    "∴\\(\\angle ABD=90{}^\\circ\\)，",
+    "∴\\(AD\\)为\\(\\odot O\\)的直径，",
+    "∵\\(r=\\frac { 5 } { 4 }BD\\)，设\\(BD=4n\\)，则\\(r=5n\\)，\\(AD=10n\\)，",
+    "∴\\(AB=\\sqrt[] { AD ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { \\left ( { 10n } \\right ) ^ { 2 } -\\left ( { 4n } \\right ) ^ { 2 } }=2\\sqrt[] { 21 }n\\)，",
+    "∴\\(AH=BH=\\frac { 1 } { 2 }AB=\\sqrt[] { 21 }n\\)，",
+    "∴\\(DH=\\sqrt[] { BH ^ { 2 } +BD ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } +\\left ( { 4n } \\right ) ^ { 2 } }=\\sqrt[] { 37 }n\\)，",
+    "∵ 〔图2〕，",
+    "∴\\(CH=\\frac { BH ^ { 2 } } { DH }=\\frac { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } } { \\sqrt[] { 37 }n }=\\frac { 21\\sqrt[] { 37 } } { 37 }n\\)，",
+    "∴\\(\\frac { DH } { CH }=\\frac { \\sqrt[] { 37 }n } { \\frac { 21\\sqrt[] { 37 } } { 37 }n }=\\frac { 37 } { 21 }\\)，",
+    "∴\\(\\frac { DH } { CH }\\)的值为\\(\\frac { 37 } { 21 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "定义：三角形一边上的点将该边分为两条线段，且这两条线段的积等于这个点到该边所对顶点连线的平方，则称这个点为三角形该边的“中项点”．如图\\(1\\)，\\(\\vartriangle ABC\\)中，点\\(D\\)是\\(BC\\)边上一点，连接\\(AD\\)，若\\(AD ^ { 2 } =BD\\cdot CD\\)，则称点\\(D\\)是\\(\\vartriangle ABC\\)中\\(BC\\)边上的“中项点”．\n〔图1〕",
+      "paper_blocks": [
+        54,
+        55
+      ]
+    },
+    {
+      "id": "condition-3",
+      "kind": "text",
+      "text": "如图\\(3\\)，\\(\\vartriangle ABC\\)是\\(\\odot O\\)的内接三角形，点\\(H\\)在\\(AB\\)上，连接\\(CH\\)并延长交\\(\\odot O\\)于点\\(D\\)．点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”．",
+      "paper_blocks": [
+        58
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-779490239C-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图\\(2\\)，\\(\\vartriangle ABC\\)的顶点是\\(4\\times 3\\)网格图的格点，请仅用直尺画出\\(AB\\)边上的一个“中项点”．",
+      "stem_text": "如图\\(2\\)，\\(\\vartriangle ABC\\)的顶点是\\(4\\times 3\\)网格图的格点，请仅用直尺画出\\(AB\\)边上的一个“中项点”．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "作图见解析",
+      "answer": "作图见解析",
+      "given_solution": "解：取格点\\(K\\)，连接\\(CK\\)交\\(AB\\)于\\(M\\)，如图：\n〔图3〕\n则点\\(M\\)即为\\(AB\\)边上的一个“中项点” ，理由如下：\n由图可知，\\(\\angle ACK=\\angle CBA\\)，\n∴\\(\\angle ACK+\\angle CAM=\\angle CBA+\\angle CAM=90{}^\\circ\\)，\n∴\\(\\angle AMC=\\angle CMB=90{}^\\circ\\)，\n∴\\(\\angle CBA+\\angle BCM=90{}^\\circ\\)，\n∵\\(\\angle CBA+\\angle CAM=90{}^\\circ\\),\n∴\\(\\angle CAM=\\angle BCM\\)，\n∴\\(\\vartriangle ACM\\backsim \\vartriangle CBM\\)，\n∴\\(\\frac { CM } { BM }=\\frac { AM } { CM }\\)，\n即\\(CM ^ { 2 } =AM\\cdot BM\\)，\n∴\\(M\\)为\\(AB\\)边上的一个“中项点”；",
+      "solution_steps": [
+        "解：取格点\\(K\\)，连接\\(CK\\)交\\(AB\\)于\\(M\\)，如图：",
+        "〔图3〕",
+        "则点\\(M\\)即为\\(AB\\)边上的一个“中项点” ，理由如下：",
+        "由图可知，\\(\\angle ACK=\\angle CBA\\)，",
+        "∴\\(\\angle ACK+\\angle CAM=\\angle CBA+\\angle CAM=90{}^\\circ\\)，",
+        "∴\\(\\angle AMC=\\angle CMB=90{}^\\circ\\)，",
+        "∴\\(\\angle CBA+\\angle BCM=90{}^\\circ\\)，",
+        "∵\\(\\angle CBA+\\angle CAM=90{}^\\circ\\),",
+        "∴\\(\\angle CAM=\\angle BCM\\)，",
+        "∴\\(\\vartriangle ACM\\backsim \\vartriangle CBM\\)，",
+        "∴\\(\\frac { CM } { BM }=\\frac { AM } { CM }\\)，",
+        "即\\(CM ^ { 2 } =AM\\cdot BM\\)，",
+        "∴\\(M\\)为\\(AB\\)边上的一个“中项点”；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G13.01"
+      ],
+      "exam_ids": [
+        "E.G13.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "将网格中新定义的中项点转为几何构造与验证条件。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T2-779490239C-Q20-P02",
+      "label": "（2）",
+      "prompt": "\\(\\vartriangle ABC\\)中，\\(BC=9，tanB=\\frac { 4 } { 3 }，{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }C=\\frac { 2 } { 3 }\\)，点\\(D\\)是\\(BC\\)边上的“中项点”，求线段\\(BD\\)的长．",
+      "stem_text": "\\(\\vartriangle ABC\\)中，\\(BC=9，tanB=\\frac { 4 } { 3 }，{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }C=\\frac { 2 } { 3 }\\)，点\\(D\\)是\\(BC\\)边上的“中项点”，求线段\\(BD\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(5\\)",
+      "answer": "\\(5\\)",
+      "given_solution": "解：过\\(A\\)作\\(AT\\bot BC\\)于\\(T\\)，如图：\n〔图4〕\n∵\\(tanB=\\frac { 4 } { 3 }，tanC=\\frac { 2 } { 3 }\\)，\n∴\\(\\frac { AT } { BT }=\\frac { 4 } { 3 }\\)，\\(\\frac { AT } { CT }=\\frac { 2 } { 3 }\\)，\n设\\(AT=4m\\)，则\\(BT=3m\\)，\\(CT=6m\\)，\n∵\\(BC=9\\)，\n∴\\(BT+CT=3m+6m=9\\)，\n∴\\(m=1\\)，\n∴\\(BT=3\\)，\\(AT=4\\)，\\(CT=6\\)，\n设\\(DT=x\\)，则\\(BD=3+x\\)，\\(CD=6-x\\)，\n∵\\(DT ^ { 2 } +AT ^ { 2 } =AD ^ { 2 } =BD\\cdot CD\\)，\n∴\\(x ^ { 2 } +4 ^ { 2 } =\\left ( { 3+x } \\right )\\left ( { 6-x } \\right )\\)，\n解得\\(x=2\\)(负值已舍去)，\n∴\\(BD=3+x=3+2=5\\)，\n∴线段\\(BD\\)的长为\\(5\\)；",
+      "solution_steps": [
+        "解：过\\(A\\)作\\(AT\\bot BC\\)于\\(T\\)，如图：",
+        "〔图4〕",
+        "∵\\(tanB=\\frac { 4 } { 3 }，tanC=\\frac { 2 } { 3 }\\)，",
+        "∴\\(\\frac { AT } { BT }=\\frac { 4 } { 3 }\\)，\\(\\frac { AT } { CT }=\\frac { 2 } { 3 }\\)，",
+        "设\\(AT=4m\\)，则\\(BT=3m\\)，\\(CT=6m\\)，",
+        "∵\\(BC=9\\)，",
+        "∴\\(BT+CT=3m+6m=9\\)，",
+        "∴\\(m=1\\)，",
+        "∴\\(BT=3\\)，\\(AT=4\\)，\\(CT=6\\)，",
+        "设\\(DT=x\\)，则\\(BD=3+x\\)，\\(CD=6-x\\)，",
+        "∵\\(DT ^ { 2 } +AT ^ { 2 } =AD ^ { 2 } =BD\\cdot CD\\)，",
+        "∴\\(x ^ { 2 } +4 ^ { 2 } =\\left ( { 3+x } \\right )\\left ( { 6-x } \\right )\\)，",
+        "解得\\(x=2\\)(负值已舍去)，",
+        "∴\\(BD=3+x=3+2=5\\)，",
+        "∴线段\\(BD\\)的长为\\(5\\)；"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          57
+        ],
+        "solution_block_ids": [
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-779490239C-Q20-P03",
+      "label": "（3）①",
+      "prompt": "求证：\\(OH\\bot AB\\)；",
+      "stem_text": "求证：\\(OH\\bot AB\\)；",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "证明：由圆周角定理得，\\(\\angle ACH=\\angle DBH\\)，\\(\\angle CAH=\\angle BDH\\)，\n∴\\(\\vartriangle ACH\\backsim \\vartriangle DBH\\)，\n∴\\(\\frac { CH } { BH }=\\frac { AH } { DH }\\)，\n∴\\(CH\\cdot DH=BH\\cdot AH\\)，\n∵点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”，\n∴〔图2〕，\n∴\\(BH ^ { 2 } =BH\\cdot AH\\)，\n∴\\(BH=AH\\)，\n∴\\(OH\\bot AB\\)；",
+      "solution_steps": [
+        "证明：由圆周角定理得，\\(\\angle ACH=\\angle DBH\\)，\\(\\angle CAH=\\angle BDH\\)，",
+        "∴\\(\\vartriangle ACH\\backsim \\vartriangle DBH\\)，",
+        "∴\\(\\frac { CH } { BH }=\\frac { AH } { DH }\\)，",
+        "∴\\(CH\\cdot DH=BH\\cdot AH\\)，",
+        "∵点\\(H\\)是\\(\\vartriangle BCD\\)中\\(CD\\)边上的“中项点”，",
+        "∴〔图2〕，",
+        "∴\\(BH ^ { 2 } =BH\\cdot AH\\)，",
+        "∴\\(BH=AH\\)，",
+        "∴\\(OH\\bot AB\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-779490239C-Q20-P04",
+      "label": "（3）②",
+      "prompt": "若\\(OH\\parallel BD\\)，\\(\\odot O\\)的半径为\\(r\\)，且\\(r=\\frac { 5 } { 4 }BD\\)，求\\(\\frac { DH } { CH }\\)的值．",
+      "stem_text": "若\\(OH\\parallel BD\\)，\\(\\odot O\\)的半径为\\(r\\)，且\\(r=\\frac { 5 } { 4 }BD\\)，求\\(\\frac { DH } { CH }\\)的值．",
+      "material_ids": [
+        "context",
+        "condition-3"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 37 } { 21 }\\)",
+      "answer": "\\(\\frac { 37 } { 21 }\\)",
+      "given_solution": "解：连接\\(AD\\)，如图：\n〔图5〕\n由①知，\\(OH\\bot AB\\)，\n∵\\(OH\\parallel BD\\)，\n∴\\(BD\\bot AB\\)，\n∴\\(\\angle ABD=90{}^\\circ\\)，\n∴\\(AD\\)为\\(\\odot O\\)的直径，\n∵\\(r=\\frac { 5 } { 4 }BD\\)，设\\(BD=4n\\)，则\\(r=5n\\)，\\(AD=10n\\)，\n∴\\(AB=\\sqrt[] { AD ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { \\left ( { 10n } \\right ) ^ { 2 } -\\left ( { 4n } \\right ) ^ { 2 } }=2\\sqrt[] { 21 }n\\)，\n∴\\(AH=BH=\\frac { 1 } { 2 }AB=\\sqrt[] { 21 }n\\)，\n∴\\(DH=\\sqrt[] { BH ^ { 2 } +BD ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } +\\left ( { 4n } \\right ) ^ { 2 } }=\\sqrt[] { 37 }n\\)，\n∵ 〔图2〕，\n∴\\(CH=\\frac { BH ^ { 2 } } { DH }=\\frac { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } } { \\sqrt[] { 37 }n }=\\frac { 21\\sqrt[] { 37 } } { 37 }n\\)，\n∴\\(\\frac { DH } { CH }=\\frac { \\sqrt[] { 37 }n } { \\frac { 21\\sqrt[] { 37 } } { 37 }n }=\\frac { 37 } { 21 }\\)，\n∴\\(\\frac { DH } { CH }\\)的值为\\(\\frac { 37 } { 21 }\\)．",
+      "solution_steps": [
+        "解：连接\\(AD\\)，如图：",
+        "〔图5〕",
+        "由①知，\\(OH\\bot AB\\)，",
+        "∵\\(OH\\parallel BD\\)，",
+        "∴\\(BD\\bot AB\\)，",
+        "∴\\(\\angle ABD=90{}^\\circ\\)，",
+        "∴\\(AD\\)为\\(\\odot O\\)的直径，",
+        "∵\\(r=\\frac { 5 } { 4 }BD\\)，设\\(BD=4n\\)，则\\(r=5n\\)，\\(AD=10n\\)，",
+        "∴\\(AB=\\sqrt[] { AD ^ { 2 } -BD ^ { 2 } }=\\sqrt[] { \\left ( { 10n } \\right ) ^ { 2 } -\\left ( { 4n } \\right ) ^ { 2 } }=2\\sqrt[] { 21 }n\\)，",
+        "∴\\(AH=BH=\\frac { 1 } { 2 }AB=\\sqrt[] { 21 }n\\)，",
+        "∴\\(DH=\\sqrt[] { BH ^ { 2 } +BD ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } +\\left ( { 4n } \\right ) ^ { 2 } }=\\sqrt[] { 37 }n\\)，",
+        "∵ 〔图2〕，",
+        "∴\\(CH=\\frac { BH ^ { 2 } } { DH }=\\frac { \\left ( { \\sqrt[] { 21 }n } \\right ) ^ { 2 } } { \\sqrt[] { 37 }n }=\\frac { 21\\sqrt[] { 37 } } { 37 }n\\)，",
+        "∴\\(\\frac { DH } { CH }=\\frac { \\sqrt[] { 37 }n } { \\frac { 21\\sqrt[] { 37 } } { 37 }n }=\\frac { 37 } { 21 }\\)，",
+        "∴\\(\\frac { DH } { CH }\\)的值为\\(\\frac { 37 } { 21 }\\)．"
+      ],
+      "solution_figure_ids": [
+        5,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          58,
+          60
+        ],
+        "solution_block_ids": [
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      54,
+      60
+    ],
+    "solution_body_blocks": [
+      304,
+      373
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-779490239C/paper-q20-p05.webp",
+      "assets/SZ-G9-T2-779490239C/paper-q20-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          623.18,
+          583.64,
+          684.55
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          44.55,
+          583.64,
+          295.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-779490239C/solution-q20-p17.webp",
+      "assets/SZ-G9-T2-779490239C/solution-q20-p18.webp",
+      "assets/SZ-G9-T2-779490239C/solution-q20-p19.webp",
+      "assets/SZ-G9-T2-779490239C/solution-q20-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          300.0,
+          583.64,
+          696.82
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          45.45,
+          583.64,
+          765.0
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          769.55
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          181.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G13.01",
+    "M.G10.01",
+    "M.G08.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G13.01.02",
+    "E.G10.01.01",
+    "E.G04.04.01"
+  ],
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "将网格中新定义的中项点转为几何构造与验证条件。 本问题面与解答对应“按指定锐角选择三角函数比”。 本问题面与解答对应“相似图形及三角形判定”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

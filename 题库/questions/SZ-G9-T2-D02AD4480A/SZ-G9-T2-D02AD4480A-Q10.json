@@ -1,0 +1,159 @@
+{
+  "id": "SZ-G9-T2-D02AD4480A-Q10",
+  "paper_id": "SZ-G9-T2-D02AD4480A",
+  "number": 10,
+  "type": "选择题",
+  "points": 3,
+  "title": "由相似比求对应线段或周长",
+  "stem": "如图1．\\(\\vartriangle ABC\\)中，\\(\\angle C=90{}^\\circ\\)，\\(AC=15\\)，\\(BC=20\\)．点D从点A出发沿折线\\(A-C-B\\)运动到点B停止，过点D作\\(DE\\bot AB\\)，垂足为E．设点D运动的路径长为x，\\(\\vartriangle BDE\\)的面积为y，若y与x的对应关系如图2所示，则\\(a-b\\)的值为（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "54"
+    },
+    {
+      "label": "B",
+      "text": "52"
+    },
+    {
+      "label": "C",
+      "text": "50"
+    },
+    {
+      "label": "D",
+      "text": "48"
+    }
+  ],
+  "figures": [
+    "assets/figures/82/825446a4ba78c81dad2ba31256ef7b03016759c65aadeb256945c90a932fe91a.png"
+  ],
+  "tables": [],
+  "given_answer": "B",
+  "answer": "B",
+  "given_solution": "【分析】本题考查直角三角形，三角形相似，平面直角坐标系中函数表示面积的综合问题，解题的关键是对函数图象是熟练掌握．根据勾股定理求出\\(AB=25\\)，再分别求出\\(0\\le x\\le 15\\)和\\(15 < x\\le 35\\)时的\\(PD\\)，\\(AD\\)的长，再用三角形的面积公式写出\\(y\\)与\\(x\\)的函数解析式即可．\n【详解】解\\(\\because \\angle C=90{}^\\circ\\)，\\(AC=15\\)，\\(BC=20\\)，\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\)，\n①当\\(0\\le x\\le 15\\)时，点\\(P\\)在\\(AC\\)边上，如图所示，\n〔图2〕\n此时\\(AD=x\\)，\n\\(\\because ED\\bot AB\\)，\n\\(\\therefore \\angle DEA=90{}^\\circ =\\angle C\\)，\n\\(\\because \\angle CAB=\\angle EAD\\)，\n\\(\\therefore \\vartriangle CAB\\backsim \\vartriangle EAD\\)，\n\\(\\therefore\\)\\(\\frac { AE } { AC }=\\frac { AD } { AB }=\\frac { DE } { BC }\\)，\n\\(\\therefore AE=\\frac { AC\\cdot AD } { AB }=\\frac { 3x } { 5 }\\)，\n\\(DE=\\frac { BC\\cdot AD } { AB }=\\frac { 4x } { 5 }\\)，\n\\(BE=25-\\frac { 3x } { 5 }\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }BE\\cdot DE=\\frac { 1 } { 2 }\\times (25-\\frac { 3x } { 5 })\\times \\frac { 4x } { 5 }=10x-\\frac { 6x ^ { 2 } } { 25 }\\)，\n当\\(x=10\\)时，\\(y=76\\)，\n\\(\\therefore a=76\\)，\n②当\\(15 < x\\le 35\\)时，点\\(D\\)在\\(BC\\)边上，如图所示，\n〔图3〕\n此时\\(BD=35-x\\)，\n\\(\\because DE\\bot AB\\)，\n\\(\\therefore \\angle DEB=90{}^\\circ =\\angle C\\)，\n\\(\\because \\angle DBE=\\angle ABC\\)，\n\\(\\therefore \\vartriangle DBE\\backsim \\vartriangle ABC\\)，\n\\(\\therefore\\)\\(\\frac { DB } { AB }=\\frac { DE } { AC }=\\frac { BE } { BC }\\)，\n\\(\\therefore BE=\\frac { BD\\cdot BC } { AB }=\\frac { (35-x)\\times 20 } { 25 }=28-\\frac { 4x } { 5 }\\)，\n\\(DE=\\frac { BD\\cdot AC } { AB }=\\frac { (35-x)\\times 15 } { 25 }=21-\\frac { 3x } { 5 }\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }DE\\cdot BE=\\frac { 1 } { 2 }\\times (28-\\frac { 4x } { 5 })\\times (21-\\frac { 3x } { 5 })=(14-\\frac { 2x } { 5 })(21-\\frac { 3x } { 5 })\\)，\n当\\(x=25\\)时，\\(y=24\\)，\n\\(\\therefore b=24\\)，\n\\(\\therefore a-b=76-24=52\\)，\n故选：B",
+  "given_solution_figures": [
+    "assets/figures/82/825446a4ba78c81dad2ba31256ef7b03016759c65aadeb256945c90a932fe91a.png",
+    "assets/figures/9c/9cd05ebd7a8f176f747f14b9b196641e778442dfb92b89ab25f4388e912cd01c.png",
+    "assets/figures/f1/f1a9ce31e39392ef20a4a153de67e0616d151b742fd7619feb1a0dff2cefff96.png"
+  ],
+  "solution": "解\\(\\because \\angle C=90{}^\\circ\\)，\\(AC=15\\)，\\(BC=20\\)，\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\)，\n①当\\(0\\le x\\le 15\\)时，点\\(P\\)在\\(AC\\)边上，如图所示，\n〔图2〕\n此时\\(AD=x\\)，\n\\(\\because ED\\bot AB\\)，\n\\(\\therefore \\angle DEA=90{}^\\circ =\\angle C\\)，\n\\(\\because \\angle CAB=\\angle EAD\\)，\n\\(\\therefore \\vartriangle CAB\\backsim \\vartriangle EAD\\)，\n\\(\\therefore\\)\\(\\frac { AE } { AC }=\\frac { AD } { AB }=\\frac { DE } { BC }\\)，\n\\(\\therefore AE=\\frac { AC\\cdot AD } { AB }=\\frac { 3x } { 5 }\\)，\n\\(DE=\\frac { BC\\cdot AD } { AB }=\\frac { 4x } { 5 }\\)，\n\\(BE=25-\\frac { 3x } { 5 }\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }BE\\cdot DE=\\frac { 1 } { 2 }\\times (25-\\frac { 3x } { 5 })\\times \\frac { 4x } { 5 }=10x-\\frac { 6x ^ { 2 } } { 25 }\\)，\n当\\(x=10\\)时，\\(y=76\\)，\n\\(\\therefore a=76\\)，\n②当\\(15 < x\\le 35\\)时，点\\(D\\)在\\(BC\\)边上，如图所示，\n〔图3〕\n此时\\(BD=35-x\\)，\n\\(\\because DE\\bot AB\\)，\n\\(\\therefore \\angle DEB=90{}^\\circ =\\angle C\\)，\n\\(\\because \\angle DBE=\\angle ABC\\)，\n\\(\\therefore \\vartriangle DBE\\backsim \\vartriangle ABC\\)，\n\\(\\therefore\\)\\(\\frac { DB } { AB }=\\frac { DE } { AC }=\\frac { BE } { BC }\\)，\n\\(\\therefore BE=\\frac { BD\\cdot BC } { AB }=\\frac { (35-x)\\times 20 } { 25 }=28-\\frac { 4x } { 5 }\\)，\n\\(DE=\\frac { BD\\cdot AC } { AB }=\\frac { (35-x)\\times 15 } { 25 }=21-\\frac { 3x } { 5 }\\)，\n\\(\\therefore y=\\frac { 1 } { 2 }DE\\cdot BE=\\frac { 1 } { 2 }\\times (28-\\frac { 4x } { 5 })\\times (21-\\frac { 3x } { 5 })=(14-\\frac { 2x } { 5 })(21-\\frac { 3x } { 5 })\\)，\n当\\(x=25\\)时，\\(y=24\\)，\n\\(\\therefore b=24\\)，\n\\(\\therefore a-b=76-24=52\\)，\n故选：B",
+  "solution_steps": [
+    "解\\(\\because \\angle C=90{}^\\circ\\)，\\(AC=15\\)，\\(BC=20\\)，",
+    "\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 15 ^ { 2 } +20 ^ { 2 } }=25\\)，",
+    "①当\\(0\\le x\\le 15\\)时，点\\(P\\)在\\(AC\\)边上，如图所示，",
+    "〔图2〕",
+    "此时\\(AD=x\\)，",
+    "\\(\\because ED\\bot AB\\)，",
+    "\\(\\therefore \\angle DEA=90{}^\\circ =\\angle C\\)，",
+    "\\(\\because \\angle CAB=\\angle EAD\\)，",
+    "\\(\\therefore \\vartriangle CAB\\backsim \\vartriangle EAD\\)，",
+    "\\(\\therefore\\)\\(\\frac { AE } { AC }=\\frac { AD } { AB }=\\frac { DE } { BC }\\)，",
+    "\\(\\therefore AE=\\frac { AC\\cdot AD } { AB }=\\frac { 3x } { 5 }\\)，",
+    "\\(DE=\\frac { BC\\cdot AD } { AB }=\\frac { 4x } { 5 }\\)，",
+    "\\(BE=25-\\frac { 3x } { 5 }\\)，",
+    "\\(\\therefore y=\\frac { 1 } { 2 }BE\\cdot DE=\\frac { 1 } { 2 }\\times (25-\\frac { 3x } { 5 })\\times \\frac { 4x } { 5 }=10x-\\frac { 6x ^ { 2 } } { 25 }\\)，",
+    "当\\(x=10\\)时，\\(y=76\\)，",
+    "\\(\\therefore a=76\\)，",
+    "②当\\(15 < x\\le 35\\)时，点\\(D\\)在\\(BC\\)边上，如图所示，",
+    "〔图3〕",
+    "此时\\(BD=35-x\\)，",
+    "\\(\\because DE\\bot AB\\)，",
+    "\\(\\therefore \\angle DEB=90{}^\\circ =\\angle C\\)，",
+    "\\(\\because \\angle DBE=\\angle ABC\\)，",
+    "\\(\\therefore \\vartriangle DBE\\backsim \\vartriangle ABC\\)，",
+    "\\(\\therefore\\)\\(\\frac { DB } { AB }=\\frac { DE } { AC }=\\frac { BE } { BC }\\)，",
+    "\\(\\therefore BE=\\frac { BD\\cdot BC } { AB }=\\frac { (35-x)\\times 20 } { 25 }=28-\\frac { 4x } { 5 }\\)，",
+    "\\(DE=\\frac { BD\\cdot AC } { AB }=\\frac { (35-x)\\times 15 } { 25 }=21-\\frac { 3x } { 5 }\\)，",
+    "\\(\\therefore y=\\frac { 1 } { 2 }DE\\cdot BE=\\frac { 1 } { 2 }\\times (28-\\frac { 4x } { 5 })\\times (21-\\frac { 3x } { 5 })=(14-\\frac { 2x } { 5 })(21-\\frac { 3x } { 5 })\\)，",
+    "当\\(x=25\\)时，\\(y=24\\)，",
+    "\\(\\therefore b=24\\)，",
+    "\\(\\therefore a-b=76-24=52\\)，",
+    "故选：B"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      31,
+      33
+    ],
+    "solution_body_blocks": [
+      102,
+      138
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-D02AD4480A/paper-q10-p02.webp",
+      "assets/SZ-G9-T2-D02AD4480A/paper-q10-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          736.82,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          251.36
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-D02AD4480A/solution-q10-p06.webp",
+      "assets/SZ-G9-T2-D02AD4480A/solution-q10-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          214.09,
+          583.64,
+          738.18
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          579.55
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,159 @@
+{
+  "id": "SZ-G9-T1-510362D7C6-Q08",
+  "paper_id": "SZ-G9-T1-510362D7C6",
+  "number": 8,
+  "type": "选择题",
+  "points": null,
+  "title": "确认对应关系并证明三角形相似",
+  "stem": "如图，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ABC=90{}^\\circ\\)，\\(AB=4\\)，\\(BC=2\\)，\\(BD\\)是边\\(AC\\)上的高．点E，F分别在边\\(AB\\)，\\(BC\\)上（不与端点重合），且\\(DE\\bot DF\\)．设\\(AE=x\\)，四边形\\(DEBF\\)的面积为y，则y关于x的函数图象为（    ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "〔图2〕"
+    },
+    {
+      "label": "B",
+      "text": "〔图3〕"
+    },
+    {
+      "label": "C",
+      "text": "〔图4〕"
+    },
+    {
+      "label": "D",
+      "text": "〔图5〕"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G9-T1-510362D7C6/figures/7e46dbb4b2c5ace464b230bb894c07205d36e1644d75b6a8f6f2e71d5196326c.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/bc9a96e0b0ee67910ab9bf9b624daae942a67caa22d27070ac6f07d7be03e5e5.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/7dd79ca5a6dc43b6dbdf952b977c8d1cb005d02a84bedce14076099cb62aa411.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/04409d50a2757662bc069aa30a6a140e22caba6b312d94e429299b8c20611308.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/42557fd70c5dc245fdd31e309441b87fedf835f1d48a580548cec67db0dd85a0.png"
+  ],
+  "tables": [],
+  "given_answer": "A",
+  "answer": "A",
+  "given_solution": "【分析】本题主要考查了函数图象的识别，相似三角形的判定以及性质，勾股定理的应用，过点E作\\(EH\\bot AC\\)于点H，由勾股定理求出\\(AC\\)，根据等面积法求出\\(BD\\)，先证明\\(\\vartriangle ABC\\backsim \\vartriangle ADB\\)，由相似三角形的性质可得出\\(\\frac { AB } { AD }=\\frac { AC } { AB }\\)，即可求出\\(AD\\)，再证明\\(\\vartriangle AED\\backsim \\vartriangle BFD\\)，由相似三角形的性质可得出\\(\\frac { S_{ \\vartriangle AED } } { S_{ \\vartriangle BFD } }=\\left ( { \\frac { AD } { BD } } \\right ) ^ { 2 }\\)，即可得出\\(S_{ \\vartriangle AED } =4S_{ \\vartriangle BFD }\\)，根据\\(S_{ 四边形DEBF } =S_{ \\vartriangle ABC } -S_{ \\vartriangle AED } -\\left ( { S_{ \\vartriangle BDC } -S_{ \\vartriangle BDF } } \\right )\\)，代入可得出一次函数的解析式，最后根据自变量的大小求出对应的函数值．\n【详解】解：过点E作\\(EH\\bot AC\\)于点H，如下图：\n〔图6〕\n∵\\(\\angle ABC=90{}^\\circ\\)，\\(AB=4\\)，\\(BC=2\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n∵\\(BD\\)是边\\(AC\\)上的高．\n∴\\(\\frac { 1 } { 2 }AB\\cdot BC=\\frac { 1 } { 2 }AC\\cdot BD\\)，\n∴\\(BD=\\frac { 4 } { 5 }\\sqrt[] { 5 }\\)，\n∵\\(\\angle BAC=\\angle CAB\\)，\\(\\angle ABC=\\angle ADB=90{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle ADB\\)，\n∴\\(\\frac { AB } { AD }=\\frac { AC } { AB }\\)，\n解得：\\(AD=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(DC=AC-AD=2\\sqrt[] { 5 }-\\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n∵\\(\\angle BDF+\\angle BDE=\\angle BDE+\\angle EDA=90{}^\\circ\\)，\\(\\angle CBD+\\angle DBA=\\angle DBA+\\angle A=90{}^\\circ\\)，\n∴\\(\\angle DBC=\\angle A\\)，\\(\\angle BDF=\\angle EDA\\)，\n∴\\(\\vartriangle AED\\backsim \\vartriangle BFD\\)，\n∴\\(\\frac { S_{ \\vartriangle AED } } { S_{ \\vartriangle BFD } }=\\left ( { \\frac { AD } { BD } } \\right ) ^ { 2 } =\\left ( { \\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { \\frac { 4\\sqrt[] { 5 } } { 5 } } } \\right ) ^ { 2 } =4\\)，\n∴\\(S_{ \\vartriangle AED } =4S_{ \\vartriangle BFD }\\)，\n∴\\(S_{ 四边形DEBF } =S_{ \\vartriangle ABC } -S_{ \\vartriangle AED } -\\left ( { S_{ \\vartriangle BDC } -S_{ \\vartriangle BDF } } \\right )\\)\n\\(=\\frac { 1 } { 2 }AB\\cdot BC-\\frac { 1 } { 2 }AE\\cdot AD{ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle A-\\frac { 1 } { 2 }DC\\cdot DB+\\frac { 1 } { 4 }S_{ \\vartriangle AED }\\)\n\\(=\\frac { 1 } { 2 }\\times 4\\times 2-\\frac { 3 } { 4 }\\times \\frac { 1 } { 2 }x\\cdot \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 2 } { 2\\sqrt[] { 5 } }-\\frac { 1 } { 2 }\\times \\frac { 2\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 }\\)\n\\(=\\frac { 16 } { 5 }-\\frac { 3 } { 5 }x\\)\n∵\\(0 < x < 4\\)，\n∴当\\(x=0\\)时，\\(S_{ 四边形DEBF } =\\frac { 16 } { 5 }\\) ，\n当\\(x=4\\)时，\\(S_{ 四边形DEBF } =\\frac { 4 } { 5 }\\)．\n故选：A．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-510362D7C6/figures/7e46dbb4b2c5ace464b230bb894c07205d36e1644d75b6a8f6f2e71d5196326c.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/bc9a96e0b0ee67910ab9bf9b624daae942a67caa22d27070ac6f07d7be03e5e5.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/7dd79ca5a6dc43b6dbdf952b977c8d1cb005d02a84bedce14076099cb62aa411.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/04409d50a2757662bc069aa30a6a140e22caba6b312d94e429299b8c20611308.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/42557fd70c5dc245fdd31e309441b87fedf835f1d48a580548cec67db0dd85a0.png",
+    "assets/SZ-G9-T1-510362D7C6/figures/11a7bcb84247075f504e33165579add3a8196a5c9485bc93e19e77a6e87e758d.png"
+  ],
+  "solution": "解：过点E作\\(EH\\bot AC\\)于点H，如下图：\n〔图6〕\n∵\\(\\angle ABC=90{}^\\circ\\)，\\(AB=4\\)，\\(BC=2\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n∵\\(BD\\)是边\\(AC\\)上的高．\n∴\\(\\frac { 1 } { 2 }AB\\cdot BC=\\frac { 1 } { 2 }AC\\cdot BD\\)，\n∴\\(BD=\\frac { 4 } { 5 }\\sqrt[] { 5 }\\)，\n∵\\(\\angle BAC=\\angle CAB\\)，\\(\\angle ABC=\\angle ADB=90{}^\\circ\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle ADB\\)，\n∴\\(\\frac { AB } { AD }=\\frac { AC } { AB }\\)，\n解得：\\(AD=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(DC=AC-AD=2\\sqrt[] { 5 }-\\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n∵\\(\\angle BDF+\\angle BDE=\\angle BDE+\\angle EDA=90{}^\\circ\\)，\\(\\angle CBD+\\angle DBA=\\angle DBA+\\angle A=90{}^\\circ\\)，\n∴\\(\\angle DBC=\\angle A\\)，\\(\\angle BDF=\\angle EDA\\)，\n∴\\(\\vartriangle AED\\backsim \\vartriangle BFD\\)，\n∴\\(\\frac { S_{ \\vartriangle AED } } { S_{ \\vartriangle BFD } }=\\left ( { \\frac { AD } { BD } } \\right ) ^ { 2 } =\\left ( { \\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { \\frac { 4\\sqrt[] { 5 } } { 5 } } } \\right ) ^ { 2 } =4\\)，\n∴\\(S_{ \\vartriangle AED } =4S_{ \\vartriangle BFD }\\)，\n∴\\(S_{ 四边形DEBF } =S_{ \\vartriangle ABC } -S_{ \\vartriangle AED } -\\left ( { S_{ \\vartriangle BDC } -S_{ \\vartriangle BDF } } \\right )\\)\n\\(=\\frac { 1 } { 2 }AB\\cdot BC-\\frac { 1 } { 2 }AE\\cdot AD{ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle A-\\frac { 1 } { 2 }DC\\cdot DB+\\frac { 1 } { 4 }S_{ \\vartriangle AED }\\)\n\\(=\\frac { 1 } { 2 }\\times 4\\times 2-\\frac { 3 } { 4 }\\times \\frac { 1 } { 2 }x\\cdot \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 2 } { 2\\sqrt[] { 5 } }-\\frac { 1 } { 2 }\\times \\frac { 2\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 }\\)\n\\(=\\frac { 16 } { 5 }-\\frac { 3 } { 5 }x\\)\n∵\\(0 < x < 4\\)，\n∴当\\(x=0\\)时，\\(S_{ 四边形DEBF } =\\frac { 16 } { 5 }\\) ，\n当\\(x=4\\)时，\\(S_{ 四边形DEBF } =\\frac { 4 } { 5 }\\)．\n故选：A．",
+  "solution_steps": [
+    "解：过点E作\\(EH\\bot AC\\)于点H，如下图：",
+    "〔图6〕",
+    "∵\\(\\angle ABC=90{}^\\circ\\)，\\(AB=4\\)，\\(BC=2\\)，",
+    "∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+    "∵\\(BD\\)是边\\(AC\\)上的高．",
+    "∴\\(\\frac { 1 } { 2 }AB\\cdot BC=\\frac { 1 } { 2 }AC\\cdot BD\\)，",
+    "∴\\(BD=\\frac { 4 } { 5 }\\sqrt[] { 5 }\\)，",
+    "∵\\(\\angle BAC=\\angle CAB\\)，\\(\\angle ABC=\\angle ADB=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle ABC\\backsim \\vartriangle ADB\\)，",
+    "∴\\(\\frac { AB } { AD }=\\frac { AC } { AB }\\)，",
+    "解得：\\(AD=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，",
+    "∴\\(DC=AC-AD=2\\sqrt[] { 5 }-\\frac { 8\\sqrt[] { 5 } } { 5 }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，",
+    "∵\\(\\angle BDF+\\angle BDE=\\angle BDE+\\angle EDA=90{}^\\circ\\)，\\(\\angle CBD+\\angle DBA=\\angle DBA+\\angle A=90{}^\\circ\\)，",
+    "∴\\(\\angle DBC=\\angle A\\)，\\(\\angle BDF=\\angle EDA\\)，",
+    "∴\\(\\vartriangle AED\\backsim \\vartriangle BFD\\)，",
+    "∴\\(\\frac { S_{ \\vartriangle AED } } { S_{ \\vartriangle BFD } }=\\left ( { \\frac { AD } { BD } } \\right ) ^ { 2 } =\\left ( { \\frac { \\frac { 8\\sqrt[] { 5 } } { 5 } } { \\frac { 4\\sqrt[] { 5 } } { 5 } } } \\right ) ^ { 2 } =4\\)，",
+    "∴\\(S_{ \\vartriangle AED } =4S_{ \\vartriangle BFD }\\)，",
+    "∴\\(S_{ 四边形DEBF } =S_{ \\vartriangle ABC } -S_{ \\vartriangle AED } -\\left ( { S_{ \\vartriangle BDC } -S_{ \\vartriangle BDF } } \\right )\\)",
+    "\\(=\\frac { 1 } { 2 }AB\\cdot BC-\\frac { 1 } { 2 }AE\\cdot AD{ \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle A-\\frac { 1 } { 2 }DC\\cdot DB+\\frac { 1 } { 4 }S_{ \\vartriangle AED }\\)",
+    "\\(=\\frac { 1 } { 2 }\\times 4\\times 2-\\frac { 3 } { 4 }\\times \\frac { 1 } { 2 }x\\cdot \\frac { 8\\sqrt[] { 5 } } { 5 }\\times \\frac { 2 } { 2\\sqrt[] { 5 } }-\\frac { 1 } { 2 }\\times \\frac { 2\\sqrt[] { 5 } } { 5 }\\times \\frac { 4\\sqrt[] { 5 } } { 5 }\\)",
+    "\\(=\\frac { 16 } { 5 }-\\frac { 3 } { 5 }x\\)",
+    "∵\\(0 < x < 4\\)，",
+    "∴当\\(x=0\\)时，\\(S_{ 四边形DEBF } =\\frac { 16 } { 5 }\\) ，",
+    "当\\(x=4\\)时，\\(S_{ 四边形DEBF } =\\frac { 4 } { 5 }\\)．",
+    "故选：A．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    6
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      28,
+      31
+    ],
+    "solution_body_blocks": [
+      96,
+      127
+    ],
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-510362D7C6/paper-q08-p02.webp",
+      "assets/SZ-G9-T1-510362D7C6/paper-q08-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          714.09,
+          583.64,
+          753.18
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          313.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-510362D7C6/solution-q08-p06.webp",
+      "assets/SZ-G9-T1-510362D7C6/solution-q08-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          237.73,
+          583.64,
+          762.27
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          516.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02"
+  ],
+  "exam_ids": [
+    "E.G08.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“确认对应关系并证明三角形相似”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

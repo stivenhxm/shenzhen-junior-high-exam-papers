@@ -79,6 +79,8 @@ def assemble(row, work, batch, revision):
         from batch_tags import apply_tags
     elif pid.startswith('SZ-G8-'):
         from g8_tags import apply_tags
+    elif pid.startswith('SZ-G9-'):
+        from g9_tags import apply_tags
     elif pid.startswith('SZ-G7-T2-'):
         from g7t2_tags import apply_tags
     else:
@@ -95,6 +97,9 @@ def assemble(row, work, batch, revision):
     elif pid.startswith('SZ-G7-T2-'):
         from g7t2_review import review
         questions = [review(q) for q in questions]
+    elif pid.startswith('SZ-G9-'):
+        from g9_text_review import normalize
+        questions = [normalize(q) for q in questions]
     for q in questions:
         build.require(q['paper_id'] == pid and q['id'] == f"{pid}-Q{q['number']:02d}", f'{pid} 题 ID 与原卷不符')
         q.update(schema_version='1.0', taxonomy_version='0.2')
@@ -108,7 +113,7 @@ def assemble(row, work, batch, revision):
         if row.get(field):
             p[field]=row[field]
     p.update(schema_version='1.0', taxonomy_version='0.2', subject='数学', municipality='深圳市',
-             grade=row.get('grade','八年级' if pid.startswith('SZ-G8-') else '七年级'),
+             grade=row.get('grade',{'G8':'八年级','G9':'九年级'}.get(pid.partition('-')[2].partition('-')[0],'七年级')),
              semester=row.get('semester','下学期' if '-T2-' in pid else '上学期'),
              question_ids=ids, sources=sources,
              ingestion={'batch':batch, 'answer_origin':'source_transcribed'})

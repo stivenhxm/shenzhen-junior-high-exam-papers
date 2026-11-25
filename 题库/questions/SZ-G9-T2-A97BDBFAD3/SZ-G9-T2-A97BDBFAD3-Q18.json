@@ -1,0 +1,249 @@
+{
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G10.01.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问解答对应“证明指定直线与圆相切”。 本问题面与解答对应“求特殊锐角函数值或按要求用计算器”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-A97BDBFAD3-Q18",
+  "number": 18,
+  "paper_id": "SZ-G9-T2-A97BDBFAD3",
+  "title": "证明指定直线与圆相切、求特殊锐角函数值或按要求用计算器",
+  "stem": "如图，\\(AB\\)是\\(\\odot O\\)的直径，\\(C\\)是\\(\\odot O\\)上一点，过点\\(C\\)作\\(\\odot O\\)的切线交\\(BA\\)的延长线于点\\(D\\)，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，延长\\(EA\\)交\\(\\odot O\\)于点\\(F\\)，连接\\(BF\\)．\n〔图1〕\n(1)求证：\\(AC\\)平分\\(\\angle BAE\\)；\n(2)若\\(\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，求\\(tan\\angle ADE\\)的值．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，\\(AB\\)是\\(\\odot O\\)的直径，\\(C\\)是\\(\\odot O\\)上一点，过点\\(C\\)作\\(\\odot O\\)的切线交\\(BA\\)的延长线于点\\(D\\)，过点\\(A\\)作\\(AE\\bot CD\\)于点\\(E\\)，延长\\(EA\\)交\\(\\odot O\\)于点\\(F\\)，连接\\(BF\\)．\n〔图1〕",
+      "paper_blocks": [
+        610,
+        630
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-A97BDBFAD3-Q18-P01",
+      "label": "(1)",
+      "prompt": "求证：\\(AC\\)平分\\(\\angle BAE\\)；",
+      "stem_text": "求证：\\(AC\\)平分\\(\\angle BAE\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：连接\\(OC\\)，如图，\n〔图1〕  \\(\\because CD\\)为\\(\\odot O\\)的切线，\n\\(\\therefore OC\\bot CD\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore OC\\parallel AE\\)，\n\\(\\therefore \\angle CAE=\\angle OCA\\)，\n\\(\\because AC=AO\\)，\n\\(\\therefore \\angle OAC=\\angle OCA\\)，\n\\(\\therefore \\angle OAC=\\angle CAE\\)，\n\\(\\therefore AC\\)平分\\(\\angle BAE\\)；",
+      "solution_steps": [
+        "证明：连接\\(OC\\)，如图，",
+        "〔图1〕  \\(\\because CD\\)为\\(\\odot O\\)的切线，",
+        "\\(\\therefore OC\\bot CD\\)，",
+        "\\(\\because AE\\bot CD\\)，",
+        "\\(\\therefore OC\\parallel AE\\)，",
+        "\\(\\therefore \\angle CAE=\\angle OCA\\)，",
+        "\\(\\because AC=AO\\)，",
+        "\\(\\therefore \\angle OAC=\\angle OCA\\)，",
+        "\\(\\therefore \\angle OAC=\\angle CAE\\)，",
+        "\\(\\therefore AC\\)平分\\(\\angle BAE\\)；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          610,
+          630,
+          640
+        ],
+        "solution_block_ids": [
+          2410,
+          2420,
+          2430,
+          2440,
+          2450,
+          2460,
+          2470,
+          2480,
+          2490,
+          2500
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          13,
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问解答对应“证明指定直线与圆相切”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-A97BDBFAD3-Q18-P02",
+      "label": "(2)",
+      "prompt": "若\\(\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，求\\(tan\\angle ADE\\)的值．",
+      "stem_text": "若\\(\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，求\\(tan\\angle ADE\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(tan\\angle ADE=\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+      "answer": "\\(tan\\angle ADE=\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+      "given_solution": "解：\\(\\because AB\\)是\\(\\odot O\\)的直径，\n\\(\\therefore \\angle AFB=90{}^\\circ\\)，\n\\(\\because \\angle DAE=\\angle BAF\\)，\\(\\angle AED=\\angle F\\)，\n\\(\\therefore \\vartriangle ADE\\backsim \\vartriangle ABF\\)，\n\\(\\therefore\\)\\(\\frac { AD } { AB }=\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AD=AO\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OCD\\)中，\n\\(\\because sinD=\\frac { OC } { OD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore \\angle D=30{}^\\circ\\)，\n\\(\\therefore tan\\angle ADE=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+      "solution_steps": [
+        "解：\\(\\because AB\\)是\\(\\odot O\\)的直径，",
+        "\\(\\therefore \\angle AFB=90{}^\\circ\\)，",
+        "\\(\\because \\angle DAE=\\angle BAF\\)，\\(\\angle AED=\\angle F\\)，",
+        "\\(\\therefore \\vartriangle ADE\\backsim \\vartriangle ABF\\)，",
+        "\\(\\therefore\\)\\(\\frac { AD } { AB }=\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore AD=AO\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OCD\\)中，",
+        "\\(\\because sinD=\\frac { OC } { OD }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore \\angle D=30{}^\\circ\\)，",
+        "\\(\\therefore tan\\angle ADE=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          610,
+          630,
+          650
+        ],
+        "solution_block_ids": [
+          2510,
+          2520,
+          2530,
+          2540,
+          2550,
+          2560,
+          2570,
+          2580,
+          2590,
+          2600
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“求特殊锐角函数值或按要求用计算器”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/fe/feeee67104926eb7aaebced522c45017ccebf7ab250f81dc71cba80bc74abef6.png"
+  ],
+  "tables": [],
+  "answer": "(1)见解析\n(2)\\(tan\\angle ADE=\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+  "given_answer": "(1)见解析\n(2)\\(tan\\angle ADE=\\frac { \\sqrt[] { 3 } } { 3 }\\)",
+  "given_solution": "【分析】（1）连接\\(OC\\)，如图，根据切线的性质得到\\(OC\\bot CD\\)，则根据平行线的判定方法得到\\(OC\\parallel AE\\)，再利用平行线的性质得到\\(\\angle CAE=\\angle OCA\\)，加上\\(\\angle OAC=\\angle OCA\\)，从而得到\\(\\angle OAC=\\angle CAE\\)；\n（2）根据圆周角定理得\\(\\angle AFB=90{}^\\circ\\)，再证明\\(\\vartriangle ADE\\backsim \\vartriangle ABF\\)，利用相似三角形的性质得到\\(\\frac { AD } { AB }=\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，则\\(AD=AO\\)，接着利用正弦的定义得到\\(\\angle D=30{}^\\circ\\)，然后根据特殊角的三角函数值求解．\n本题考查了切线的性质：圆的切线垂直于经过切点的半径．也考查了圆周角定理和解直角三角形．\n【详解】（1）证明：连接\\(OC\\)，如图，\n〔图1〕  \\(\\because CD\\)为\\(\\odot O\\)的切线，\n\\(\\therefore OC\\bot CD\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore OC\\parallel AE\\)，\n\\(\\therefore \\angle CAE=\\angle OCA\\)，\n\\(\\because AC=AO\\)，\n\\(\\therefore \\angle OAC=\\angle OCA\\)，\n\\(\\therefore \\angle OAC=\\angle CAE\\)，\n\\(\\therefore AC\\)平分\\(\\angle BAE\\)；\n（2）解：\\(\\because AB\\)是\\(\\odot O\\)的直径，\n\\(\\therefore \\angle AFB=90{}^\\circ\\)，\n\\(\\because \\angle DAE=\\angle BAF\\)，\\(\\angle AED=\\angle F\\)，\n\\(\\therefore \\vartriangle ADE\\backsim \\vartriangle ABF\\)，\n\\(\\therefore\\)\\(\\frac { AD } { AB }=\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AD=AO\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OCD\\)中，\n\\(\\because sinD=\\frac { OC } { OD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore \\angle D=30{}^\\circ\\)，\n\\(\\therefore tan\\angle ADE=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/e4/e49636db93c1fe7c6b54f5a8898e3a53340087f8e1636c0a231587e83cac2eef.png"
+  ],
+  "solution_steps": [
+    "（1）证明：连接\\(OC\\)，如图，",
+    "〔图1〕  \\(\\because CD\\)为\\(\\odot O\\)的切线，",
+    "\\(\\therefore OC\\bot CD\\)，",
+    "\\(\\because AE\\bot CD\\)，",
+    "\\(\\therefore OC\\parallel AE\\)，",
+    "\\(\\therefore \\angle CAE=\\angle OCA\\)，",
+    "\\(\\because AC=AO\\)，",
+    "\\(\\therefore \\angle OAC=\\angle OCA\\)，",
+    "\\(\\therefore \\angle OAC=\\angle CAE\\)，",
+    "\\(\\therefore AC\\)平分\\(\\angle BAE\\)；",
+    "（2）解：\\(\\because AB\\)是\\(\\odot O\\)的直径，",
+    "\\(\\therefore \\angle AFB=90{}^\\circ\\)，",
+    "\\(\\because \\angle DAE=\\angle BAF\\)，\\(\\angle AED=\\angle F\\)，",
+    "\\(\\therefore \\vartriangle ADE\\backsim \\vartriangle ABF\\)，",
+    "\\(\\therefore\\)\\(\\frac { AD } { AB }=\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore AD=AO\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OCD\\)中，",
+    "\\(\\because sinD=\\frac { OC } { OD }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore \\angle D=30{}^\\circ\\)，",
+    "\\(\\therefore tan\\angle ADE=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）证明：连接\\(OC\\)，如图，\n〔图1〕  \\(\\because CD\\)为\\(\\odot O\\)的切线，\n\\(\\therefore OC\\bot CD\\)，\n\\(\\because AE\\bot CD\\)，\n\\(\\therefore OC\\parallel AE\\)，\n\\(\\therefore \\angle CAE=\\angle OCA\\)，\n\\(\\because AC=AO\\)，\n\\(\\therefore \\angle OAC=\\angle OCA\\)，\n\\(\\therefore \\angle OAC=\\angle CAE\\)，\n\\(\\therefore AC\\)平分\\(\\angle BAE\\)；\n（2）解：\\(\\because AB\\)是\\(\\odot O\\)的直径，\n\\(\\therefore \\angle AFB=90{}^\\circ\\)，\n\\(\\because \\angle DAE=\\angle BAF\\)，\\(\\angle AED=\\angle F\\)，\n\\(\\therefore \\vartriangle ADE\\backsim \\vartriangle ABF\\)，\n\\(\\therefore\\)\\(\\frac { AD } { AB }=\\frac { DE } { BF }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AD=AO\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OCD\\)中，\n\\(\\because sinD=\\frac { OC } { OD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore \\angle D=30{}^\\circ\\)，\n\\(\\therefore tan\\angle ADE=tan30{}^\\circ =\\frac { \\sqrt[] { 3 } } { 3 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-A97BDBFAD3/single/q18-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          453.31,
+          582.2,
+          680.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s18-p13.webp",
+      "assets/SZ-G9-T2-A97BDBFAD3/single/s18-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          498.31,
+          582.2,
+          762.22
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          79.22,
+          582.2,
+          623.13
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,260 @@
+{
+  "id": "SZ-G9-T1-983F00A325-Q18",
+  "paper_id": "SZ-G9-T1-983F00A325",
+  "number": 18,
+  "type": "解答题",
+  "points": null,
+  "title": "补足条件判定矩形、利用等边性质求边角关系",
+  "stem": "如图，在菱形\\(ABCD\\)中，对角线\\(AC\\)，\\(BD\\)交于点\\(O\\)，过点\\(A\\)作\\(AE\\bot BC\\)于点\\(E\\)，延长\\(BC\\)至\\(F\\)，使\\(CF=BE\\)，连接\\(DF\\)．\n〔图1〕\n（1）求证：四边形\\(AEFD\\)是矩形；\n（2）连接\\(OF\\)，若\\(AC=4\\)，\\(\\angle ABC=60{}^\\circ\\)，求\\(OF\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-983F00A325/figures/cf573952f7c6b68b2c50502929594ca1afb3945b9f4c271dbf2cd62dd1ac1faa.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(2\\sqrt[] { 3 }\\)",
+  "answer": "（1）见解析    （2）\\(2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）根据菱形的性质得到\\(AD\\parallel BC\\)且\\(AD=BC\\)，等量代换得到\\(BC=EF\\)，推出四边形\\(AEFD\\)是平行四边形，根据矩形的判定定理即可得到结论；\n（2）根据全等三角形的判定定理得到\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle { \\rm{ A } }{ \\rm{ B } }{ \\rm{ E } }\\)≌\\(Rt\\vartriangle DCF\\left ( { HL } \\right )\\)，求得矩形\\(AEFD\\)的面积\\(=\\)菱形\\(ABCD\\)的面积，根据等腰三角形的性质得到\\(BO=2\\sqrt[] { 3 }\\)及\\(BD\\)的长，再根据直角三角形的性质可得答案．\n【小问1详解】\n证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\n\\(\\because CF=BE\\)，\n\\(\\therefore BC=EF\\)，\n\\(\\therefore AD\\parallel EF\\)，\\(AD=EF\\)，\n\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore \\angle AEF=90{}^\\circ\\)，\n\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；\n【小问2详解】\n解：如图，\n〔图2〕\n\\(\\because AB=CD\\)，\\(BE=CF\\)，\\(\\angle AEB=\\angle DFC=90{}^\\circ\\)，\n\\(\\therefore Rt\\vartriangle ABE\\)≌\\(Rt\\vartriangle DCF\\left ( { HL } \\right )\\)，\n\\(\\therefore\\)矩形\\(AEFD\\)的面积\\(=\\)菱形\\(ABCD\\)的面积，\n\\(\\because \\angle ABC=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\)是等边三角形，\n\\(\\therefore BO=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)点\\(O\\)是\\(BD\\)的中点，\n\\(\\therefore BD=2BO=4\\sqrt[] { 3 }\\)，\n在\\(Rt\\vartriangle BDF\\)中，\\(OF=\\frac { 1 } { 2 }BD=2\\sqrt[] { 3 }\\)．\n【点睛】本题考查了矩形的判定和性质，菱形的性质，勾股定理、三角形全等的判定及性质，正确的识别图形是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-983F00A325/figures/87c685b17ade96e1e4e9c349a0bcc9232a33a17b266634480dbbb6d8c061eb75.png",
+    "assets/SZ-G9-T1-983F00A325/figures/1e7f243524fa0fe07c34721ef10c0e93f7c4b2329b0cc8aef76b9a7c21e5935d.png"
+  ],
+  "solution": "【小问1详解】\n证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\n\\(\\because CF=BE\\)，\n\\(\\therefore BC=EF\\)，\n\\(\\therefore AD\\parallel EF\\)，\\(AD=EF\\)，\n\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore \\angle AEF=90{}^\\circ\\)，\n\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；\n【小问2详解】\n解：如图，\n〔图2〕\n\\(\\because AB=CD\\)，\\(BE=CF\\)，\\(\\angle AEB=\\angle DFC=90{}^\\circ\\)，\n\\(\\therefore Rt\\vartriangle ABE\\)≌\\(Rt\\vartriangle DCF\\left ( { HL } \\right )\\)，\n\\(\\therefore\\)矩形\\(AEFD\\)的面积\\(=\\)菱形\\(ABCD\\)的面积，\n\\(\\because \\angle ABC=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\)是等边三角形，\n\\(\\therefore BO=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)点\\(O\\)是\\(BD\\)的中点，\n\\(\\therefore BD=2BO=4\\sqrt[] { 3 }\\)，\n在\\(Rt\\vartriangle BDF\\)中，\\(OF=\\frac { 1 } { 2 }BD=2\\sqrt[] { 3 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+    "\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，",
+    "\\(\\because CF=BE\\)，",
+    "\\(\\therefore BC=EF\\)，",
+    "\\(\\therefore AD\\parallel EF\\)，\\(AD=EF\\)，",
+    "\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，",
+    "\\(\\because AE\\bot BC\\)，",
+    "\\(\\therefore \\angle AEF=90{}^\\circ\\)，",
+    "\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；",
+    "【小问2详解】",
+    "解：如图，",
+    "〔图2〕",
+    "\\(\\because AB=CD\\)，\\(BE=CF\\)，\\(\\angle AEB=\\angle DFC=90{}^\\circ\\)，",
+    "\\(\\therefore Rt\\vartriangle ABE\\)≌\\(Rt\\vartriangle DCF\\left ( { HL } \\right )\\)，",
+    "\\(\\therefore\\)矩形\\(AEFD\\)的面积\\(=\\)菱形\\(ABCD\\)的面积，",
+    "\\(\\because \\angle ABC=60{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle ABC\\)是等边三角形，",
+    "\\(\\therefore BO=2\\sqrt[] { 3 }\\)，",
+    "\\(\\because\\)点\\(O\\)是\\(BD\\)的中点，",
+    "\\(\\therefore BD=2BO=4\\sqrt[] { 3 }\\)，",
+    "在\\(Rt\\vartriangle BDF\\)中，\\(OF=\\frac { 1 } { 2 }BD=2\\sqrt[] { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在菱形\\(ABCD\\)中，对角线\\(AC\\)，\\(BD\\)交于点\\(O\\)，过点\\(A\\)作\\(AE\\bot BC\\)于点\\(E\\)，延长\\(BC\\)至\\(F\\)，使\\(CF=BE\\)，连接\\(DF\\)．\n〔图1〕",
+      "paper_blocks": [
+        48,
+        49
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-983F00A325-Q18-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(AEFD\\)是矩形；",
+      "stem_text": "求证：四边形\\(AEFD\\)是矩形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，\n\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，\n\\(\\because CF=BE\\)，\n\\(\\therefore BC=EF\\)，\n\\(\\therefore AD\\parallel EF\\)，\\(AD=EF\\)，\n\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，\n\\(\\because AE\\bot BC\\)，\n\\(\\therefore \\angle AEF=90{}^\\circ\\)，\n\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；",
+      "solution_steps": [
+        "证明：\\(\\because\\)四边形\\(ABCD\\)是菱形，",
+        "\\(\\therefore AD\\parallel BC\\)，\\(AD=BC\\)，",
+        "\\(\\because CF=BE\\)，",
+        "\\(\\therefore BC=EF\\)，",
+        "\\(\\therefore AD\\parallel EF\\)，\\(AD=EF\\)，",
+        "\\(\\therefore\\)四边形\\(AEFD\\)是平行四边形，",
+        "\\(\\because AE\\bot BC\\)，",
+        "\\(\\therefore \\angle AEF=90{}^\\circ\\)，",
+        "\\(\\therefore\\)平行四边形\\(AEFD\\)是矩形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          48,
+          49,
+          50
+        ],
+        "solution_block_ids": [
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G05.02"
+      ],
+      "exam_ids": [
+        "E.G05.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-983F00A325-Q18-P02",
+      "label": "（2）",
+      "prompt": "连接\\(OF\\)，若\\(AC=4\\)，\\(\\angle ABC=60{}^\\circ\\)，求\\(OF\\)的长．",
+      "stem_text": "连接\\(OF\\)，若\\(AC=4\\)，\\(\\angle ABC=60{}^\\circ\\)，求\\(OF\\)的长．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }\\)",
+      "answer": "\\(2\\sqrt[] { 3 }\\)",
+      "given_solution": "解：如图，\n〔图2〕\n\\(\\because AB=CD\\)，\\(BE=CF\\)，\\(\\angle AEB=\\angle DFC=90{}^\\circ\\)，\n\\(\\therefore Rt\\vartriangle ABE\\)≌\\(Rt\\vartriangle DCF\\left ( { HL } \\right )\\)，\n\\(\\therefore\\)矩形\\(AEFD\\)的面积\\(=\\)菱形\\(ABCD\\)的面积，\n\\(\\because \\angle ABC=60{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\)是等边三角形，\n\\(\\therefore BO=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)点\\(O\\)是\\(BD\\)的中点，\n\\(\\therefore BD=2BO=4\\sqrt[] { 3 }\\)，\n在\\(Rt\\vartriangle BDF\\)中，\\(OF=\\frac { 1 } { 2 }BD=2\\sqrt[] { 3 }\\)．",
+      "solution_steps": [
+        "解：如图，",
+        "〔图2〕",
+        "\\(\\because AB=CD\\)，\\(BE=CF\\)，\\(\\angle AEB=\\angle DFC=90{}^\\circ\\)，",
+        "\\(\\therefore Rt\\vartriangle ABE\\)≌\\(Rt\\vartriangle DCF\\left ( { HL } \\right )\\)，",
+        "\\(\\therefore\\)矩形\\(AEFD\\)的面积\\(=\\)菱形\\(ABCD\\)的面积，",
+        "\\(\\because \\angle ABC=60{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle ABC\\)是等边三角形，",
+        "\\(\\therefore BO=2\\sqrt[] { 3 }\\)，",
+        "\\(\\because\\)点\\(O\\)是\\(BD\\)的中点，",
+        "\\(\\therefore BD=2BO=4\\sqrt[] { 3 }\\)，",
+        "在\\(Rt\\vartriangle BDF\\)中，\\(OF=\\frac { 1 } { 2 }BD=2\\sqrt[] { 3 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          48,
+          49,
+          51
+        ],
+        "solution_block_ids": [
+          268,
+          269,
+          270,
+          271,
+          272,
+          273,
+          274,
+          275,
+          276,
+          277,
+          278
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      48,
+      51
+    ],
+    "solution_body_blocks": [
+      249,
+      279
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-983F00A325/paper-q18-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          416.82,
+          583.64,
+          610.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-983F00A325/solution-q18-p14.webp",
+      "assets/SZ-G9-T1-983F00A325/solution-q18-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          208.18,
+          583.64,
+          752.27
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          330.0
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G05.02",
+    "M.G04.02"
+  ],
+  "exam_ids": [
+    "E.G05.02.02",
+    "E.G04.02.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“补足条件判定矩形”。 本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

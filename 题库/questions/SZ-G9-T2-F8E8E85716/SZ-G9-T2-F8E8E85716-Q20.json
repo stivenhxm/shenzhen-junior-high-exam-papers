@@ -1,0 +1,300 @@
+{
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G06.06.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "题面对应“证明指定直线与圆相切”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-F8E8E85716-Q20",
+  "number": 20,
+  "paper_id": "SZ-G9-T2-F8E8E85716",
+  "title": "证明指定直线与圆相切、由相似比求对应线段或周长",
+  "stem": "如图，\\(AB\\)是\\(\\odot O\\)的直径，点C是\\(\\odot O\\)上一点，\\(AD\\)和过点C的直线互相垂直，垂足为D，\\(AD\\)交\\(\\odot O\\)于点E，且\\(AC\\)平分\\(\\angle DAB\\)．\n(1)求证：直线\\(CD\\)是\\(\\odot O\\)的切线；\n(2)连接\\(BC\\)，若\\(BC=4\\)，\\(AC=5\\)，求\\(AE\\)的长．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，\\(AB\\)是\\(\\odot O\\)的直径，点C是\\(\\odot O\\)上一点，\\(AD\\)和过点C的直线互相垂直，垂足为D，\\(AD\\)交\\(\\odot O\\)于点E，且\\(AC\\)平分\\(\\angle DAB\\)．",
+      "paper_blocks": [
+        610
+      ]
+    },
+    {
+      "id": "fig-640",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        640
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-F8E8E85716-Q20-P01",
+      "label": "(1)",
+      "prompt": "求证：直线\\(CD\\)是\\(\\odot O\\)的切线；",
+      "stem_text": "求证：直线\\(CD\\)是\\(\\odot O\\)的切线；",
+      "material_ids": [
+        "context",
+        "fig-640"
+      ],
+      "requires": [],
+      "given_answer": "证明见解析；",
+      "answer": "证明见解析；",
+      "given_solution": "如图所示，连接\\(OC\\)，根据角平分线的定义和等边对等角证明\\(\\angle OCA=\\angle CAD\\)，则\\(AD\\parallel OC\\)，由\\(AD\\bot CD\\)，可证\\(OC\\bot CD\\)，即可证明直线\\(CD\\)是\\(\\odot O\\)的切线；",
+      "solution_steps": [
+        "如图所示，连接\\(OC\\)，根据角平分线的定义和等边对等角证明\\(\\angle OCA=\\angle CAD\\)，则\\(AD\\parallel OC\\)，由\\(AD\\bot CD\\)，可证\\(OC\\bot CD\\)，即可证明直线\\(CD\\)是\\(\\odot O\\)的切线；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          610,
+          620,
+          640
+        ],
+        "solution_block_ids": [
+          2680
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "题面对应“证明指定直线与圆相切”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-F8E8E85716-Q20-P02",
+      "label": "(2)",
+      "prompt": "连接\\(BC\\)，若\\(BC=4\\)，\\(AC=5\\)，求\\(AE\\)的长．",
+      "stem_text": "连接\\(BC\\)，若\\(BC=4\\)，\\(AC=5\\)，求\\(AE\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-640"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 9\\sqrt[] { 41 } } { 41 }\\)",
+      "answer": "\\(\\frac { 9\\sqrt[] { 41 } } { 41 }\\)",
+      "given_solution": "先求出\\(CE=BC=4\\)，利用勾股定理求出\\(AB=\\sqrt[] { 41 }\\)，证明\\(\\vartriangle ABC\\backsim \\vartriangle ACD\\)求出\\(CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，利用勾股定理求出\\(DE=\\frac { 16 } { \\sqrt[] { 41 } }\\)，\\(AD=\\frac { 25 } { \\sqrt[] { 41 } }\\)，则\\(AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．\n【解析】（1）证明：如图所示，连接\\(OC\\)，\n〔图1〕\n\\(\\because AC\\)平分\\(\\angle DAB\\),\n\\(\\therefore \\angle CAD=\\angle CAB\\)，\n\\(\\because OA=OC\\)，\n\\(\\therefore \\angle OAC=\\angle OCA\\)，\n\\(\\therefore \\angle OCA=\\angle CAD\\)，\n\\(\\therefore AD\\parallel OC\\)，\n\\(\\because\\)\\(AD\\bot CD\\)，\n\\(\\therefore\\)\\(OC\\bot CD\\)，\n又\\(\\because\\)点C在\\(\\odot O\\)上，\n\\(\\therefore\\)直线\\(CD\\)是\\(\\odot O\\)的切线；\n（2）解：如图所示，连接\\(CE\\)，\\(OC\\)，\n〔图2〕\n由（1）得\\(\\angle CAD=\\angle CAB\\)，\n\\(\\therefore \\overset \\frown { CE }=\\overset \\frown { BC }\\)，\n\\(\\therefore CE=BC=4\\)，\n\\(\\because\\)\\(AB\\)是\\(\\odot O\\)的直径，\n\\(\\therefore \\angle ACB=90{}^\\circ\\)\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 41 }，\\)\n\\(\\because \\angle ACB=\\angle ADC=90 ^ { {}^\\circ } ，\\angle CAD=\\angle CAB\\)，\n\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { CD } { BC }=\\frac { AC } { AB }\\)，\n即\\(\\frac { CD } { 4 }=\\frac { 5 } { \\sqrt[] { 41 } }\\)，\n\\(\\therefore CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，\n\\(\\therefore DE=\\sqrt[] { CE ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 256 } { 41 } }=\\frac { 16 } { \\sqrt[] { 41 } }，AD=\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 625 } { 41 } }=\\frac { 25 } { \\sqrt[] { 41 } }\\)，\n\\(\\therefore AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．",
+      "solution_steps": [
+        "先求出\\(CE=BC=4\\)，利用勾股定理求出\\(AB=\\sqrt[] { 41 }\\)，证明\\(\\vartriangle ABC\\backsim \\vartriangle ACD\\)求出\\(CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，利用勾股定理求出\\(DE=\\frac { 16 } { \\sqrt[] { 41 } }\\)，\\(AD=\\frac { 25 } { \\sqrt[] { 41 } }\\)，则\\(AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．",
+        "【解析】（1）证明：如图所示，连接\\(OC\\)，",
+        "〔图1〕",
+        "\\(\\because AC\\)平分\\(\\angle DAB\\),",
+        "\\(\\therefore \\angle CAD=\\angle CAB\\)，",
+        "\\(\\because OA=OC\\)，",
+        "\\(\\therefore \\angle OAC=\\angle OCA\\)，",
+        "\\(\\therefore \\angle OCA=\\angle CAD\\)，",
+        "\\(\\therefore AD\\parallel OC\\)，",
+        "\\(\\because\\)\\(AD\\bot CD\\)，",
+        "\\(\\therefore\\)\\(OC\\bot CD\\)，",
+        "又\\(\\because\\)点C在\\(\\odot O\\)上，",
+        "\\(\\therefore\\)直线\\(CD\\)是\\(\\odot O\\)的切线；",
+        "（2）解：如图所示，连接\\(CE\\)，\\(OC\\)，",
+        "〔图2〕",
+        "由（1）得\\(\\angle CAD=\\angle CAB\\)，",
+        "\\(\\therefore \\overset \\frown { CE }=\\overset \\frown { BC }\\)，",
+        "\\(\\therefore CE=BC=4\\)，",
+        "\\(\\because\\)\\(AB\\)是\\(\\odot O\\)的直径，",
+        "\\(\\therefore \\angle ACB=90{}^\\circ\\)",
+        "\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 41 }，\\)",
+        "\\(\\because \\angle ACB=\\angle ADC=90 ^ { {}^\\circ } ，\\angle CAD=\\angle CAB\\)，",
+        "\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle ACD\\)，",
+        "\\(\\therefore \\frac { CD } { BC }=\\frac { AC } { AB }\\)，",
+        "即\\(\\frac { CD } { 4 }=\\frac { 5 } { \\sqrt[] { 41 } }\\)，",
+        "\\(\\therefore CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，",
+        "\\(\\therefore DE=\\sqrt[] { CE ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 256 } { 41 } }=\\frac { 16 } { \\sqrt[] { 41 } }，AD=\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 625 } { 41 } }=\\frac { 25 } { \\sqrt[] { 41 } }\\)，",
+        "\\(\\therefore AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．"
+      ],
+      "solution_figure_ids": [
+        1,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          610,
+          630,
+          640
+        ],
+        "solution_block_ids": [
+          2690,
+          2700,
+          2710,
+          2720,
+          2730,
+          2740,
+          2750,
+          2760,
+          2770,
+          2780,
+          2790,
+          2800,
+          2810,
+          2820,
+          2830,
+          2840,
+          2850,
+          2860,
+          2870,
+          2880,
+          2890,
+          2900,
+          2910,
+          2920,
+          2930,
+          2940,
+          2950,
+          2960
+        ],
+        "question_pages": [
+          4
+        ],
+        "solution_pages": [
+          13,
+          14,
+          15
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/e8/e8d94f10344ea0b9e276334f94d992926780690a2f979c4fe98ea3b866df4d4d.png"
+  ],
+  "tables": [],
+  "answer": "(1)证明见解析；\n(2)\\(\\frac { 9\\sqrt[] { 41 } } { 41 }\\)",
+  "given_answer": "(1)证明见解析；\n(2)\\(\\frac { 9\\sqrt[] { 41 } } { 41 }\\)",
+  "given_solution": "【分析】（1）如图所示，连接\\(OC\\)，根据角平分线的定义和等边对等角证明\\(\\angle OCA=\\angle CAD\\)，则\\(AD\\parallel OC\\)，由\\(AD\\bot CD\\)，可证\\(OC\\bot CD\\)，即可证明直线\\(CD\\)是\\(\\odot O\\)的切线；\n（2）先求出\\(CE=BC=4\\)，利用勾股定理求出\\(AB=\\sqrt[] { 41 }\\)，证明\\(\\vartriangle ABC\\backsim \\vartriangle ACD\\)求出\\(CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，利用勾股定理求出\\(DE=\\frac { 16 } { \\sqrt[] { 41 } }\\)，\\(AD=\\frac { 25 } { \\sqrt[] { 41 } }\\)，则\\(AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．\n【解析】（1）证明：如图所示，连接\\(OC\\)，\n〔图1〕\n\\(\\because AC\\)平分\\(\\angle DAB\\),\n\\(\\therefore \\angle CAD=\\angle CAB\\)，\n\\(\\because OA=OC\\)，\n\\(\\therefore \\angle OAC=\\angle OCA\\)，\n\\(\\therefore \\angle OCA=\\angle CAD\\)，\n\\(\\therefore AD\\parallel OC\\)，\n\\(\\because\\)\\(AD\\bot CD\\)，\n\\(\\therefore\\)\\(OC\\bot CD\\)，\n又\\(\\because\\)点C在\\(\\odot O\\)上，\n\\(\\therefore\\)直线\\(CD\\)是\\(\\odot O\\)的切线；\n（2）解：如图所示，连接\\(CE\\)，\\(OC\\)，\n〔图2〕\n由（1）得\\(\\angle CAD=\\angle CAB\\)，\n\\(\\therefore \\overset \\frown { CE }=\\overset \\frown { BC }\\)，\n\\(\\therefore CE=BC=4\\)，\n\\(\\because\\)\\(AB\\)是\\(\\odot O\\)的直径，\n\\(\\therefore \\angle ACB=90{}^\\circ\\)\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 41 }，\\)\n\\(\\because \\angle ACB=\\angle ADC=90 ^ { {}^\\circ } ，\\angle CAD=\\angle CAB\\)，\n\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { CD } { BC }=\\frac { AC } { AB }\\)，\n即\\(\\frac { CD } { 4 }=\\frac { 5 } { \\sqrt[] { 41 } }\\)，\n\\(\\therefore CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，\n\\(\\therefore DE=\\sqrt[] { CE ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 256 } { 41 } }=\\frac { 16 } { \\sqrt[] { 41 } }，AD=\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 625 } { 41 } }=\\frac { 25 } { \\sqrt[] { 41 } }\\)，\n\\(\\therefore AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/4d/4dbace1285d6ddb03448c05fd9c0cfe7678bc36719d080f9415bd0cb5ebe5709.png",
+    "assets/figures/4e/4e226668e06f3b2521b876c8987fe3e8480cdd848bf5e751ce778de2245429c9.png"
+  ],
+  "solution_steps": [
+    "【分析】（1）如图所示，连接\\(OC\\)，根据角平分线的定义和等边对等角证明\\(\\angle OCA=\\angle CAD\\)，则\\(AD\\parallel OC\\)，由\\(AD\\bot CD\\)，可证\\(OC\\bot CD\\)，即可证明直线\\(CD\\)是\\(\\odot O\\)的切线；",
+    "（2）先求出\\(CE=BC=4\\)，利用勾股定理求出\\(AB=\\sqrt[] { 41 }\\)，证明\\(\\vartriangle ABC\\backsim \\vartriangle ACD\\)求出\\(CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，利用勾股定理求出\\(DE=\\frac { 16 } { \\sqrt[] { 41 } }\\)，\\(AD=\\frac { 25 } { \\sqrt[] { 41 } }\\)，则\\(AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．",
+    "【解析】（1）证明：如图所示，连接\\(OC\\)，",
+    "〔图1〕",
+    "\\(\\because AC\\)平分\\(\\angle DAB\\),",
+    "\\(\\therefore \\angle CAD=\\angle CAB\\)，",
+    "\\(\\because OA=OC\\)，",
+    "\\(\\therefore \\angle OAC=\\angle OCA\\)，",
+    "\\(\\therefore \\angle OCA=\\angle CAD\\)，",
+    "\\(\\therefore AD\\parallel OC\\)，",
+    "\\(\\because\\)\\(AD\\bot CD\\)，",
+    "\\(\\therefore\\)\\(OC\\bot CD\\)，",
+    "又\\(\\because\\)点C在\\(\\odot O\\)上，",
+    "\\(\\therefore\\)直线\\(CD\\)是\\(\\odot O\\)的切线；",
+    "（2）解：如图所示，连接\\(CE\\)，\\(OC\\)，",
+    "〔图2〕",
+    "由（1）得\\(\\angle CAD=\\angle CAB\\)，",
+    "\\(\\therefore \\overset \\frown { CE }=\\overset \\frown { BC }\\)，",
+    "\\(\\therefore CE=BC=4\\)，",
+    "\\(\\because\\)\\(AB\\)是\\(\\odot O\\)的直径，",
+    "\\(\\therefore \\angle ACB=90{}^\\circ\\)",
+    "\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 41 }，\\)",
+    "\\(\\because \\angle ACB=\\angle ADC=90 ^ { {}^\\circ } ，\\angle CAD=\\angle CAB\\)，",
+    "\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle ACD\\)，",
+    "\\(\\therefore \\frac { CD } { BC }=\\frac { AC } { AB }\\)，",
+    "即\\(\\frac { CD } { 4 }=\\frac { 5 } { \\sqrt[] { 41 } }\\)，",
+    "\\(\\therefore CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，",
+    "\\(\\therefore DE=\\sqrt[] { CE ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 256 } { 41 } }=\\frac { 16 } { \\sqrt[] { 41 } }，AD=\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 625 } { 41 } }=\\frac { 25 } { \\sqrt[] { 41 } }\\)，",
+    "\\(\\therefore AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "【分析】（1）如图所示，连接\\(OC\\)，根据角平分线的定义和等边对等角证明\\(\\angle OCA=\\angle CAD\\)，则\\(AD\\parallel OC\\)，由\\(AD\\bot CD\\)，可证\\(OC\\bot CD\\)，即可证明直线\\(CD\\)是\\(\\odot O\\)的切线；\n（2）先求出\\(CE=BC=4\\)，利用勾股定理求出\\(AB=\\sqrt[] { 41 }\\)，证明\\(\\vartriangle ABC\\backsim \\vartriangle ACD\\)求出\\(CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，利用勾股定理求出\\(DE=\\frac { 16 } { \\sqrt[] { 41 } }\\)，\\(AD=\\frac { 25 } { \\sqrt[] { 41 } }\\)，则\\(AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．\n【解析】（1）证明：如图所示，连接\\(OC\\)，\n〔图1〕\n\\(\\because AC\\)平分\\(\\angle DAB\\),\n\\(\\therefore \\angle CAD=\\angle CAB\\)，\n\\(\\because OA=OC\\)，\n\\(\\therefore \\angle OAC=\\angle OCA\\)，\n\\(\\therefore \\angle OCA=\\angle CAD\\)，\n\\(\\therefore AD\\parallel OC\\)，\n\\(\\because\\)\\(AD\\bot CD\\)，\n\\(\\therefore\\)\\(OC\\bot CD\\)，\n又\\(\\because\\)点C在\\(\\odot O\\)上，\n\\(\\therefore\\)直线\\(CD\\)是\\(\\odot O\\)的切线；\n（2）解：如图所示，连接\\(CE\\)，\\(OC\\)，\n〔图2〕\n由（1）得\\(\\angle CAD=\\angle CAB\\)，\n\\(\\therefore \\overset \\frown { CE }=\\overset \\frown { BC }\\)，\n\\(\\therefore CE=BC=4\\)，\n\\(\\because\\)\\(AB\\)是\\(\\odot O\\)的直径，\n\\(\\therefore \\angle ACB=90{}^\\circ\\)\n\\(\\therefore AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 5 ^ { 2 } +4 ^ { 2 } }=\\sqrt[] { 41 }，\\)\n\\(\\because \\angle ACB=\\angle ADC=90 ^ { {}^\\circ } ，\\angle CAD=\\angle CAB\\)，\n\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { CD } { BC }=\\frac { AC } { AB }\\)，\n即\\(\\frac { CD } { 4 }=\\frac { 5 } { \\sqrt[] { 41 } }\\)，\n\\(\\therefore CD=\\frac { 20\\sqrt[] { 41 } } { 41 }\\)，\n\\(\\therefore DE=\\sqrt[] { CE ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 256 } { 41 } }=\\frac { 16 } { \\sqrt[] { 41 } }，AD=\\sqrt[] { AC ^ { 2 } -CD ^ { 2 } }=\\sqrt[] { \\frac { 625 } { 41 } }=\\frac { 25 } { \\sqrt[] { 41 } }\\)，\n\\(\\therefore AE=AD-DE=\\frac { 9\\sqrt[] { 41 } } { 41 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-F8E8E85716/single/q20-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          13,
+          474.53,
+          582.2,
+          663.66
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14,
+      15
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-F8E8E85716/single/s20-p13.webp",
+      "assets/SZ-G9-T2-F8E8E85716/single/s20-p14.webp",
+      "assets/SZ-G9-T2-F8E8E85716/single/s20-p15.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          13,
+          534.09,
+          582.2,
+          718.44
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          13,
+          70.96,
+          582.2,
+          752.26
+        ]
+      },
+      {
+        "page": 15,
+        "bbox_pt": [
+          13,
+          70.96,
+          582.2,
+          176.17
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,268 @@
+{
+  "knowledge_ids": [
+    "M.G06.06",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G06.06.01",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“利用切线性质构造直角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-0E960359F5-Q19",
+  "number": 19,
+  "paper_id": "SZ-G9-T2-0E960359F5",
+  "title": "证明指定直线与圆相切、由勾股关系求直角三角形边长",
+  "stem": "如图1，独轮车俗称“手推车”，又名辇、鹿车等，是交通运输工具史上的一项重要发明，至今在我国农村和一些边远地区仍然广泛使用．如图2所示为从独轮车中抽象出来的几何模型．在\\(\\vartriangle ABC\\)中，以\\(\\vartriangle ABC\\)的边\\(AB\\)为直径作\\(\\odot O\\)，交\\(AC\\)于点P，\\(PD\\)是\\(\\odot O\\)的切线，且\\(PD\\bot BC\\)，垂足为点D．\n〔图1〕\n(1)求证：\\(\\angle A=\\angle C\\)；\n(2)若\\(PD=2BD=4\\)，求\\(\\odot O\\)的半径．",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，独轮车俗称“手推车”，又名辇、鹿车等，是交通运输工具史上的一项重要发明，至今在我国农村和一些边远地区仍然广泛使用．如图2所示为从独轮车中抽象出来的几何模型．在\\(\\vartriangle ABC\\)中，以\\(\\vartriangle ABC\\)的边\\(AB\\)为直径作\\(\\odot O\\)，交\\(AC\\)于点P，\\(PD\\)是\\(\\odot O\\)的切线，且\\(PD\\bot BC\\)，垂足为点D．\n〔图1〕",
+      "paper_blocks": [
+        710,
+        720
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-0E960359F5-Q19-P01",
+      "label": "(1)",
+      "prompt": "求证：\\(\\angle A=\\angle C\\)；",
+      "stem_text": "求证：\\(\\angle A=\\angle C\\)；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "解：证明：连接\\(OP\\)，如图，\n\\(\\because PD\\)是\\(\\odot O\\)的切线，\n\\(\\therefore OP\\bot PD\\)，\n\\(\\because PD\\bot BC\\)，\n\\(\\therefore OP\\parallel BC\\)，\n\\(\\therefore \\angle OPA=\\angle C\\)，\n\\(\\because OA=OP\\)，\n\\(\\therefore \\angle OPA=\\angle A\\)，\n\\(\\therefore \\angle A=\\angle C\\)；",
+      "solution_steps": [
+        "解：证明：连接\\(OP\\)，如图，",
+        "\\(\\because PD\\)是\\(\\odot O\\)的切线，",
+        "\\(\\therefore OP\\bot PD\\)，",
+        "\\(\\because PD\\bot BC\\)，",
+        "\\(\\therefore OP\\parallel BC\\)，",
+        "\\(\\therefore \\angle OPA=\\angle C\\)，",
+        "\\(\\because OA=OP\\)，",
+        "\\(\\therefore \\angle OPA=\\angle A\\)，",
+        "\\(\\therefore \\angle A=\\angle C\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          710,
+          720,
+          730
+        ],
+        "solution_block_ids": [
+          3140,
+          3150,
+          3160,
+          3170,
+          3180,
+          3190,
+          3200,
+          3210,
+          3220
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G06.06"
+      ],
+      "exam_ids": [
+        "E.G06.06.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“利用切线性质构造直角关系”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-0E960359F5-Q19-P02",
+      "label": "(2)",
+      "prompt": "若\\(PD=2BD=4\\)，求\\(\\odot O\\)的半径．",
+      "stem_text": "若\\(PD=2BD=4\\)，求\\(\\odot O\\)的半径．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "5",
+      "answer": "5",
+      "given_solution": "连接\\(PB\\)，如图2，\n〔图1〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PBD\\)中，\\(\\because PD=2BD=4\\)，\n\\(\\therefore PB=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n\\(\\because AB\\)为直径，\n\\(\\therefore \\angle APB=90{}^\\circ\\)，\n\\(\\because \\angle BDP=\\angle BPC\\)，\\(\\angle DBP=\\angle PBC\\)，\n\\(\\therefore \\vartriangle BDP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore BP:BC=BD:BP\\)，即\\(2\\sqrt[] { 5 }:BC=2:2\\sqrt[] { 5 }\\)，\n解得\\(BC=10\\)，\n\\(\\because \\angle A=\\angle C\\)，\n\\(\\therefore BA=BC=10\\)，\n\\(\\therefore \\odot O\\)的半径为5．",
+      "solution_steps": [
+        "连接\\(PB\\)，如图2，",
+        "〔图1〕",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PBD\\)中，\\(\\because PD=2BD=4\\)，",
+        "\\(\\therefore PB=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+        "\\(\\because AB\\)为直径，",
+        "\\(\\therefore \\angle APB=90{}^\\circ\\)，",
+        "\\(\\because \\angle BDP=\\angle BPC\\)，\\(\\angle DBP=\\angle PBC\\)，",
+        "\\(\\therefore \\vartriangle BDP\\backsim \\vartriangle BPC\\)，",
+        "\\(\\therefore BP:BC=BD:BP\\)，即\\(2\\sqrt[] { 5 }:BC=2:2\\sqrt[] { 5 }\\)，",
+        "解得\\(BC=10\\)，",
+        "\\(\\because \\angle A=\\angle C\\)，",
+        "\\(\\therefore BA=BC=10\\)，",
+        "\\(\\therefore \\odot O\\)的半径为5．"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          710,
+          720,
+          740
+        ],
+        "solution_block_ids": [
+          3230,
+          3240,
+          3250,
+          3260,
+          3270,
+          3280,
+          3290,
+          3300,
+          3310,
+          3320,
+          3330,
+          3340,
+          3350
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/cf/cf68c86bb178234e1fdd4ac14a1ec791fc8a6507116cfab80babb21d0c33cb30.png"
+  ],
+  "tables": [],
+  "answer": "(1)见解析\n(2)5",
+  "given_answer": "(1)见解析\n(2)5",
+  "given_solution": "【分析】（1）连接\\(OP\\)，如图2，先根据切线的性质得到\\(OP\\bot PD\\)，则可判断\\(OP\\parallel BC\\)，所以\\(\\angle OPA=\\angle C\\)，然后利用\\(\\angle OPA=\\angle A\\)可得到结论；\n（2）连接\\(PB\\)，如图2，先利用勾股定理计算出\\(PB=2\\sqrt[] { 5 }\\)，再根据圆周角定理得到\\(\\angle APB=90{}^\\circ\\)，接着证明\\(\\vartriangle BDP\\backsim \\vartriangle BPC\\)，则利用相似比可计算出\\(BC=10\\)，然后利用\\(\\angle A=\\angle C\\)得到\\(BA=10\\)，从而得到\\(\\odot O\\)的半径．\n【详解】（1）解：证明：连接\\(OP\\)，如图，\n\\(\\because PD\\)是\\(\\odot O\\)的切线，\n\\(\\therefore OP\\bot PD\\)，\n\\(\\because PD\\bot BC\\)，\n\\(\\therefore OP\\parallel BC\\)，\n\\(\\therefore \\angle OPA=\\angle C\\)，\n\\(\\because OA=OP\\)，\n\\(\\therefore \\angle OPA=\\angle A\\)，\n\\(\\therefore \\angle A=\\angle C\\)；\n（2）连接\\(PB\\)，如图2，\n〔图1〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PBD\\)中，\\(\\because PD=2BD=4\\)，\n\\(\\therefore PB=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n\\(\\because AB\\)为直径，\n\\(\\therefore \\angle APB=90{}^\\circ\\)，\n\\(\\because \\angle BDP=\\angle BPC\\)，\\(\\angle DBP=\\angle PBC\\)，\n\\(\\therefore \\vartriangle BDP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore BP:BC=BD:BP\\)，即\\(2\\sqrt[] { 5 }:BC=2:2\\sqrt[] { 5 }\\)，\n解得\\(BC=10\\)，\n\\(\\because \\angle A=\\angle C\\)，\n\\(\\therefore BA=BC=10\\)，\n\\(\\therefore \\odot O\\)的半径为5．\n【点睛】本题考查了切线的性质：圆的切线垂直于经过切点的半径．也考查了勾股定理、圆周角定理和相似三角形的判定与性质．",
+  "given_solution_figures": [
+    "assets/figures/0d/0d0f06a11b1f36dc1ac8672a83cb2a19c9e3add9146df3df883de48224810b30.png"
+  ],
+  "solution_steps": [
+    "（1）解：证明：连接\\(OP\\)，如图，",
+    "\\(\\because PD\\)是\\(\\odot O\\)的切线，",
+    "\\(\\therefore OP\\bot PD\\)，",
+    "\\(\\because PD\\bot BC\\)，",
+    "\\(\\therefore OP\\parallel BC\\)，",
+    "\\(\\therefore \\angle OPA=\\angle C\\)，",
+    "\\(\\because OA=OP\\)，",
+    "\\(\\therefore \\angle OPA=\\angle A\\)，",
+    "\\(\\therefore \\angle A=\\angle C\\)；",
+    "（2）连接\\(PB\\)，如图2，",
+    "〔图1〕",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PBD\\)中，\\(\\because PD=2BD=4\\)，",
+    "\\(\\therefore PB=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，",
+    "\\(\\because AB\\)为直径，",
+    "\\(\\therefore \\angle APB=90{}^\\circ\\)，",
+    "\\(\\because \\angle BDP=\\angle BPC\\)，\\(\\angle DBP=\\angle PBC\\)，",
+    "\\(\\therefore \\vartriangle BDP\\backsim \\vartriangle BPC\\)，",
+    "\\(\\therefore BP:BC=BD:BP\\)，即\\(2\\sqrt[] { 5 }:BC=2:2\\sqrt[] { 5 }\\)，",
+    "解得\\(BC=10\\)，",
+    "\\(\\because \\angle A=\\angle C\\)，",
+    "\\(\\therefore BA=BC=10\\)，",
+    "\\(\\therefore \\odot O\\)的半径为5．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "（1）解：证明：连接\\(OP\\)，如图，\n\\(\\because PD\\)是\\(\\odot O\\)的切线，\n\\(\\therefore OP\\bot PD\\)，\n\\(\\because PD\\bot BC\\)，\n\\(\\therefore OP\\parallel BC\\)，\n\\(\\therefore \\angle OPA=\\angle C\\)，\n\\(\\because OA=OP\\)，\n\\(\\therefore \\angle OPA=\\angle A\\)，\n\\(\\therefore \\angle A=\\angle C\\)；\n（2）连接\\(PB\\)，如图2，\n〔图1〕\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle PBD\\)中，\\(\\because PD=2BD=4\\)，\n\\(\\therefore PB=\\sqrt[] { 2 ^ { 2 } +4 ^ { 2 } }=2\\sqrt[] { 5 }\\)，\n\\(\\because AB\\)为直径，\n\\(\\therefore \\angle APB=90{}^\\circ\\)，\n\\(\\because \\angle BDP=\\angle BPC\\)，\\(\\angle DBP=\\angle PBC\\)，\n\\(\\therefore \\vartriangle BDP\\backsim \\vartriangle BPC\\)，\n\\(\\therefore BP:BC=BD:BP\\)，即\\(2\\sqrt[] { 5 }:BC=2:2\\sqrt[] { 5 }\\)，\n解得\\(BC=10\\)，\n\\(\\because \\angle A=\\angle C\\)，\n\\(\\therefore BA=BC=10\\)，\n\\(\\therefore \\odot O\\)的半径为5．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-0E960359F5/single/q19-p05.webp",
+      "assets/SZ-G9-T2-0E960359F5/single/q19-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          634.53,
+          582.2,
+          689.75
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          70.96,
+          582.2,
+          237.48
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-0E960359F5/single/s19-p18.webp",
+      "assets/SZ-G9-T2-0E960359F5/single/s19-p19.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          275.18,
+          582.2,
+          670.83
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          13,
+          71.39,
+          582.2,
+          504.0
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

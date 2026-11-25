@@ -1,0 +1,384 @@
+{
+  "id": "SZ-G9-T1-40CBFB3E2F-Q22",
+  "paper_id": "SZ-G9-T1-40CBFB3E2F",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "【基础巩固】（1）如图1，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，D是\\(AB\\)边上一点，F是\\(BC\\)边上一点，\\(\\angle CDF=45{}^\\circ\\)．求证：\\(AC\\cdot BF=AD\\cdot BD\\)；\n【尝试应用】（2）如图2，在四边形ABFC中，点D是\\(AB\\)边的中点，\\(\\angle A=\\angle B=\\angle CDF=45{}^\\circ\\)，若\\(AC=9\\)，\\(BF=8\\)，求线段\\(CF\\)的长．\n【拓展提高】（3）在\\(\\vartriangle ABC\\)中．\\(AB=4\\sqrt[] { 2 }\\)，\\(\\angle B=45{}^\\circ\\)，以A为直角顶点作等腰直角三角形\\(ADE\\)，点D在\\(BC\\)上，点E在\\(AC\\)上．若\\(CE=2\\sqrt[] { 5 }\\)，求\\(CD\\)的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/2d08152815cc922cf80f4901b59c07f42fffcbfe036761ef01f315d94ec6ab7b.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析；（2）5；（3）10",
+  "answer": "（1）见解析；（2）5；（3）10",
+  "given_solution": "【分析】（1）利用一线三等角模型，可说明\\(\\vartriangle ACD\\backsim \\vartriangle BDF\\)，得\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)；\n（2）如图2中，延长\\(AC\\)交\\(BF\\)的延长线于点\\(T\\)．证明\\(\\vartriangle ACD\\backsim \\vartriangle BDF\\)，推出\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，求出\\(AD\\)，\\(CT=FC\\)，再利用勾股定理求解；\n（3）过点\\(E\\)作\\(EF\\)与\\(CD\\)交于点\\(F\\)，使\\(\\angle EFD=45{}^\\circ\\)，由（1）同理得\\(\\vartriangle ABD\\backsim \\vartriangle DFE\\)，可知\\(DF=\\sqrt[] { 2 }AB=2\\)，再利用\\(\\vartriangle EFC\\backsim \\vartriangle DEC\\)，可得答案；\n【详解】（1）证明：\\(\\because \\angle ABC=90{}^\\circ\\)，\\(AC=BC\\)，\n\\(\\therefore \\angle A=\\angle B=45{}^\\circ\\)，\n\\(\\because\\)\\(\\angle A=\\angle CDF=45{}^\\circ\\)，\n∴\\(\\angle A+\\angle ACD=\\angle CDA+\\angle BDF\\)，\n\\(\\therefore \\angle ACD=\\angle BDF\\)，\n\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，\n\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，\n\\(\\therefore AC\\cdot BF=AD\\cdot BD\\)；\n（2）解：如图2中，延长\\(AC\\)交\\(BF\\)的延长线于点\\(T\\)．\n〔图2〕\n\\(\\because \\angle A=\\angle CDF=\\angle B=45{}^\\circ\\)，\n\\(\\therefore \\angle T=90{}^\\circ\\)，\\(TA=TB\\)，\n\\(\\because \\angle CDB=\\angle A+\\angle ACD=\\angle CDF+\\angle BDF\\)，\n\\(\\therefore \\angle ACD=\\angle BDF\\)，\n\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，\n\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，\n\\(\\because AD=DB\\)，\n\\(\\therefore\\)\\(\\frac { 9 } { AD }=\\frac { AD } { 8 }\\)，\n\\(\\therefore AD=6\\sqrt[] { 2 }\\)，\n\\(\\therefore AB=2AD=12\\sqrt[] { 2 }\\)，\n\\(\\therefore TA=TB=12\\)，\n\\(\\therefore CT=12-9=3\\)，\\(TF=12-8=4\\)，\n\\(\\therefore CF=\\sqrt[] { CT ^ { 2 } +TF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)；\n（3）解：如图，过点\\(E\\)作\\(EF\\)与\\(CD\\)交于点\\(F\\)，使\\(\\angle EFD=45{}^\\circ\\)，\n〔图3〕\n\\(\\because \\angle B=\\angle ADE=45{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle EDF\\)，\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)，\n\\(\\therefore\\)\\(\\frac { AB } { DF }=\\frac { AD } { DE }\\)，\n\\(\\because DE=\\sqrt[] { 2 }AD\\)，\\(AB=4\\sqrt[] { 2 }\\)，\n\\(\\therefore DF=\\sqrt[] { 2 }AB=8\\)，\n\\(\\because \\angle EFD=45{}^\\circ\\)，\\(\\angle ADE=45{}^\\circ\\)，\n\\(\\therefore \\angle EFC=\\angle DEC=135{}^\\circ\\)，\n\\(\\therefore \\vartriangle EFC\\backsim \\vartriangle DEC\\)，\n\\(\\therefore\\)\\(\\frac { FC } { EC }=\\frac { EC } { CD }\\)，\n\\(\\because EC=2\\sqrt[] { 5 }\\)，\n\\(\\therefore EC ^ { 2 } =FC\\cdot CD=FC\\times (8+FC)\\)，\n\\(\\therefore 20=FC\\times (8+FC)\\)，\n\\(\\therefore FC=2\\)，\n\\(\\therefore CD=10\\)．\n【点睛】本题是相似形综合题，考查了相似三角形的判定与性质，等腰三角形的性质，熟练掌握一线三等角基本几何模型是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/2d08152815cc922cf80f4901b59c07f42fffcbfe036761ef01f315d94ec6ab7b.png",
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/10fd64745d24bf1904bc195ceef159acf8b6f39ef36cd67f938e5253239419f8.png",
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/e062c920a247bcd412df01c93e1d1f99542f29e0ac49f0bb9f9d5b5ae4db3169.png"
+  ],
+  "solution": "（1）证明：\\(\\because \\angle ABC=90{}^\\circ\\)，\\(AC=BC\\)，\n\\(\\therefore \\angle A=\\angle B=45{}^\\circ\\)，\n\\(\\because\\)\\(\\angle A=\\angle CDF=45{}^\\circ\\)，\n∴\\(\\angle A+\\angle ACD=\\angle CDA+\\angle BDF\\)，\n\\(\\therefore \\angle ACD=\\angle BDF\\)，\n\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，\n\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，\n\\(\\therefore AC\\cdot BF=AD\\cdot BD\\)；\n（2）解：如图2中，延长\\(AC\\)交\\(BF\\)的延长线于点\\(T\\)．\n〔图2〕\n\\(\\because \\angle A=\\angle CDF=\\angle B=45{}^\\circ\\)，\n\\(\\therefore \\angle T=90{}^\\circ\\)，\\(TA=TB\\)，\n\\(\\because \\angle CDB=\\angle A+\\angle ACD=\\angle CDF+\\angle BDF\\)，\n\\(\\therefore \\angle ACD=\\angle BDF\\)，\n\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，\n\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，\n\\(\\because AD=DB\\)，\n\\(\\therefore\\)\\(\\frac { 9 } { AD }=\\frac { AD } { 8 }\\)，\n\\(\\therefore AD=6\\sqrt[] { 2 }\\)，\n\\(\\therefore AB=2AD=12\\sqrt[] { 2 }\\)，\n\\(\\therefore TA=TB=12\\)，\n\\(\\therefore CT=12-9=3\\)，\\(TF=12-8=4\\)，\n\\(\\therefore CF=\\sqrt[] { CT ^ { 2 } +TF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)；\n（3）解：如图，过点\\(E\\)作\\(EF\\)与\\(CD\\)交于点\\(F\\)，使\\(\\angle EFD=45{}^\\circ\\)，\n〔图3〕\n\\(\\because \\angle B=\\angle ADE=45{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle EDF\\)，\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)，\n\\(\\therefore\\)\\(\\frac { AB } { DF }=\\frac { AD } { DE }\\)，\n\\(\\because DE=\\sqrt[] { 2 }AD\\)，\\(AB=4\\sqrt[] { 2 }\\)，\n\\(\\therefore DF=\\sqrt[] { 2 }AB=8\\)，\n\\(\\because \\angle EFD=45{}^\\circ\\)，\\(\\angle ADE=45{}^\\circ\\)，\n\\(\\therefore \\angle EFC=\\angle DEC=135{}^\\circ\\)，\n\\(\\therefore \\vartriangle EFC\\backsim \\vartriangle DEC\\)，\n\\(\\therefore\\)\\(\\frac { FC } { EC }=\\frac { EC } { CD }\\)，\n\\(\\because EC=2\\sqrt[] { 5 }\\)，\n\\(\\therefore EC ^ { 2 } =FC\\cdot CD=FC\\times (8+FC)\\)，\n\\(\\therefore 20=FC\\times (8+FC)\\)，\n\\(\\therefore FC=2\\)，\n\\(\\therefore CD=10\\)．",
+  "solution_steps": [
+    "（1）证明：\\(\\because \\angle ABC=90{}^\\circ\\)，\\(AC=BC\\)，",
+    "\\(\\therefore \\angle A=\\angle B=45{}^\\circ\\)，",
+    "\\(\\because\\)\\(\\angle A=\\angle CDF=45{}^\\circ\\)，",
+    "∴\\(\\angle A+\\angle ACD=\\angle CDA+\\angle BDF\\)，",
+    "\\(\\therefore \\angle ACD=\\angle BDF\\)，",
+    "\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，",
+    "\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，",
+    "\\(\\therefore AC\\cdot BF=AD\\cdot BD\\)；",
+    "（2）解：如图2中，延长\\(AC\\)交\\(BF\\)的延长线于点\\(T\\)．",
+    "〔图2〕",
+    "\\(\\because \\angle A=\\angle CDF=\\angle B=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle T=90{}^\\circ\\)，\\(TA=TB\\)，",
+    "\\(\\because \\angle CDB=\\angle A+\\angle ACD=\\angle CDF+\\angle BDF\\)，",
+    "\\(\\therefore \\angle ACD=\\angle BDF\\)，",
+    "\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，",
+    "\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，",
+    "\\(\\because AD=DB\\)，",
+    "\\(\\therefore\\)\\(\\frac { 9 } { AD }=\\frac { AD } { 8 }\\)，",
+    "\\(\\therefore AD=6\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore AB=2AD=12\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore TA=TB=12\\)，",
+    "\\(\\therefore CT=12-9=3\\)，\\(TF=12-8=4\\)，",
+    "\\(\\therefore CF=\\sqrt[] { CT ^ { 2 } +TF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)；",
+    "（3）解：如图，过点\\(E\\)作\\(EF\\)与\\(CD\\)交于点\\(F\\)，使\\(\\angle EFD=45{}^\\circ\\)，",
+    "〔图3〕",
+    "\\(\\because \\angle B=\\angle ADE=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle BAD=\\angle EDF\\)，",
+    "\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)，",
+    "\\(\\therefore\\)\\(\\frac { AB } { DF }=\\frac { AD } { DE }\\)，",
+    "\\(\\because DE=\\sqrt[] { 2 }AD\\)，\\(AB=4\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore DF=\\sqrt[] { 2 }AB=8\\)，",
+    "\\(\\because \\angle EFD=45{}^\\circ\\)，\\(\\angle ADE=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle EFC=\\angle DEC=135{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle EFC\\backsim \\vartriangle DEC\\)，",
+    "\\(\\therefore\\)\\(\\frac { FC } { EC }=\\frac { EC } { CD }\\)，",
+    "\\(\\because EC=2\\sqrt[] { 5 }\\)，",
+    "\\(\\therefore EC ^ { 2 } =FC\\cdot CD=FC\\times (8+FC)\\)，",
+    "\\(\\therefore 20=FC\\times (8+FC)\\)，",
+    "\\(\\therefore FC=2\\)，",
+    "\\(\\therefore CD=10\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【基础巩固】",
+      "paper_blocks": [
+        81
+      ]
+    },
+    {
+      "id": "fig-84",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        84
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-40CBFB3E2F-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，D是\\(AB\\)边上一点，F是\\(BC\\)边上一点，\\(\\angle CDF=45{}^\\circ\\)．求证：\\(AC\\cdot BF=AD\\cdot BD\\)；\n【尝试应用】",
+      "stem_text": "如图1，在\\(\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，D是\\(AB\\)边上一点，F是\\(BC\\)边上一点，\\(\\angle CDF=45{}^\\circ\\)．求证：\\(AC\\cdot BF=AD\\cdot BD\\)；\n【尝试应用】",
+      "material_ids": [
+        "context",
+        "fig-84"
+      ],
+      "requires": [],
+      "given_answer": "见解析；",
+      "answer": "见解析；",
+      "given_solution": "证明：\\(\\because \\angle ABC=90{}^\\circ\\)，\\(AC=BC\\)，\n\\(\\therefore \\angle A=\\angle B=45{}^\\circ\\)，\n\\(\\because\\)\\(\\angle A=\\angle CDF=45{}^\\circ\\)，\n∴\\(\\angle A+\\angle ACD=\\angle CDA+\\angle BDF\\)，\n\\(\\therefore \\angle ACD=\\angle BDF\\)，\n\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，\n\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，\n\\(\\therefore AC\\cdot BF=AD\\cdot BD\\)；",
+      "solution_steps": [
+        "证明：\\(\\because \\angle ABC=90{}^\\circ\\)，\\(AC=BC\\)，",
+        "\\(\\therefore \\angle A=\\angle B=45{}^\\circ\\)，",
+        "\\(\\because\\)\\(\\angle A=\\angle CDF=45{}^\\circ\\)，",
+        "∴\\(\\angle A+\\angle ACD=\\angle CDA+\\angle BDF\\)，",
+        "\\(\\therefore \\angle ACD=\\angle BDF\\)，",
+        "\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，",
+        "\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，",
+        "\\(\\therefore AC\\cdot BF=AD\\cdot BD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          84
+        ],
+        "solution_block_ids": [
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-40CBFB3E2F-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，在四边形ABFC中，点D是\\(AB\\)边的中点，\\(\\angle A=\\angle B=\\angle CDF=45{}^\\circ\\)，若\\(AC=9\\)，\\(BF=8\\)，求线段\\(CF\\)的长．\n【拓展提高】",
+      "stem_text": "如图2，在四边形ABFC中，点D是\\(AB\\)边的中点，\\(\\angle A=\\angle B=\\angle CDF=45{}^\\circ\\)，若\\(AC=9\\)，\\(BF=8\\)，求线段\\(CF\\)的长．\n【拓展提高】",
+      "material_ids": [
+        "context",
+        "fig-84"
+      ],
+      "requires": [],
+      "given_answer": "5；",
+      "answer": "5；",
+      "given_solution": "解：如图2中，延长\\(AC\\)交\\(BF\\)的延长线于点\\(T\\)．\n〔图2〕\n\\(\\because \\angle A=\\angle CDF=\\angle B=45{}^\\circ\\)，\n\\(\\therefore \\angle T=90{}^\\circ\\)，\\(TA=TB\\)，\n\\(\\because \\angle CDB=\\angle A+\\angle ACD=\\angle CDF+\\angle BDF\\)，\n\\(\\therefore \\angle ACD=\\angle BDF\\)，\n\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，\n\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，\n\\(\\because AD=DB\\)，\n\\(\\therefore\\)\\(\\frac { 9 } { AD }=\\frac { AD } { 8 }\\)，\n\\(\\therefore AD=6\\sqrt[] { 2 }\\)，\n\\(\\therefore AB=2AD=12\\sqrt[] { 2 }\\)，\n\\(\\therefore TA=TB=12\\)，\n\\(\\therefore CT=12-9=3\\)，\\(TF=12-8=4\\)，\n\\(\\therefore CF=\\sqrt[] { CT ^ { 2 } +TF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)；",
+      "solution_steps": [
+        "解：如图2中，延长\\(AC\\)交\\(BF\\)的延长线于点\\(T\\)．",
+        "〔图2〕",
+        "\\(\\because \\angle A=\\angle CDF=\\angle B=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle T=90{}^\\circ\\)，\\(TA=TB\\)，",
+        "\\(\\because \\angle CDB=\\angle A+\\angle ACD=\\angle CDF+\\angle BDF\\)，",
+        "\\(\\therefore \\angle ACD=\\angle BDF\\)，",
+        "\\(\\therefore \\vartriangle ACD\\backsim \\vartriangle BDF\\)，",
+        "\\(\\therefore\\)\\(\\frac { AC } { BD }=\\frac { AD } { BF }\\)，",
+        "\\(\\because AD=DB\\)，",
+        "\\(\\therefore\\)\\(\\frac { 9 } { AD }=\\frac { AD } { 8 }\\)，",
+        "\\(\\therefore AD=6\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore AB=2AD=12\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore TA=TB=12\\)，",
+        "\\(\\therefore CT=12-9=3\\)，\\(TF=12-8=4\\)，",
+        "\\(\\therefore CF=\\sqrt[] { CT ^ { 2 } +TF ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-40CBFB3E2F-Q22-P03",
+      "label": "（3）",
+      "prompt": "在\\(\\vartriangle ABC\\)中．\\(AB=4\\sqrt[] { 2 }\\)，\\(\\angle B=45{}^\\circ\\)，以A为直角顶点作等腰直角三角形\\(ADE\\)，点D在\\(BC\\)上，点E在\\(AC\\)上．若\\(CE=2\\sqrt[] { 5 }\\)，求\\(CD\\)的长．",
+      "stem_text": "在\\(\\vartriangle ABC\\)中．\\(AB=4\\sqrt[] { 2 }\\)，\\(\\angle B=45{}^\\circ\\)，以A为直角顶点作等腰直角三角形\\(ADE\\)，点D在\\(BC\\)上，点E在\\(AC\\)上．若\\(CE=2\\sqrt[] { 5 }\\)，求\\(CD\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-84"
+      ],
+      "requires": [],
+      "given_answer": "10",
+      "answer": "10",
+      "given_solution": "解：如图，过点\\(E\\)作\\(EF\\)与\\(CD\\)交于点\\(F\\)，使\\(\\angle EFD=45{}^\\circ\\)，\n〔图3〕\n\\(\\because \\angle B=\\angle ADE=45{}^\\circ\\)，\n\\(\\therefore \\angle BAD=\\angle EDF\\)，\n\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)，\n\\(\\therefore\\)\\(\\frac { AB } { DF }=\\frac { AD } { DE }\\)，\n\\(\\because DE=\\sqrt[] { 2 }AD\\)，\\(AB=4\\sqrt[] { 2 }\\)，\n\\(\\therefore DF=\\sqrt[] { 2 }AB=8\\)，\n\\(\\because \\angle EFD=45{}^\\circ\\)，\\(\\angle ADE=45{}^\\circ\\)，\n\\(\\therefore \\angle EFC=\\angle DEC=135{}^\\circ\\)，\n\\(\\therefore \\vartriangle EFC\\backsim \\vartriangle DEC\\)，\n\\(\\therefore\\)\\(\\frac { FC } { EC }=\\frac { EC } { CD }\\)，\n\\(\\because EC=2\\sqrt[] { 5 }\\)，\n\\(\\therefore EC ^ { 2 } =FC\\cdot CD=FC\\times (8+FC)\\)，\n\\(\\therefore 20=FC\\times (8+FC)\\)，\n\\(\\therefore FC=2\\)，\n\\(\\therefore CD=10\\)．",
+      "solution_steps": [
+        "解：如图，过点\\(E\\)作\\(EF\\)与\\(CD\\)交于点\\(F\\)，使\\(\\angle EFD=45{}^\\circ\\)，",
+        "〔图3〕",
+        "\\(\\because \\angle B=\\angle ADE=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle BAD=\\angle EDF\\)，",
+        "\\(\\therefore \\vartriangle ABD\\backsim \\vartriangle DFE\\)，",
+        "\\(\\therefore\\)\\(\\frac { AB } { DF }=\\frac { AD } { DE }\\)，",
+        "\\(\\because DE=\\sqrt[] { 2 }AD\\)，\\(AB=4\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore DF=\\sqrt[] { 2 }AB=8\\)，",
+        "\\(\\because \\angle EFD=45{}^\\circ\\)，\\(\\angle ADE=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle EFC=\\angle DEC=135{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle EFC\\backsim \\vartriangle DEC\\)，",
+        "\\(\\therefore\\)\\(\\frac { FC } { EC }=\\frac { EC } { CD }\\)，",
+        "\\(\\because EC=2\\sqrt[] { 5 }\\)，",
+        "\\(\\therefore EC ^ { 2 } =FC\\cdot CD=FC\\times (8+FC)\\)，",
+        "\\(\\therefore 20=FC\\times (8+FC)\\)，",
+        "\\(\\therefore FC=2\\)，",
+        "\\(\\therefore CD=10\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          81,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      81,
+      84
+    ],
+    "solution_body_blocks": [
+      414,
+      463
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-40CBFB3E2F/paper-q22-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          409.09,
+          583.64,
+          643.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-40CBFB3E2F/solution-q22-p24.webp",
+      "assets/SZ-G9-T1-40CBFB3E2F/solution-q22-p25.webp",
+      "assets/SZ-G9-T1-40CBFB3E2F/solution-q22-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          175.0,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          740.45
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          166.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

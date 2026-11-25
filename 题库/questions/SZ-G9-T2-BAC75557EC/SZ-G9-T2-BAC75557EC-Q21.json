@@ -1,0 +1,524 @@
+{
+  "id": "SZ-G9-T2-BAC75557EC-Q21",
+  "paper_id": "SZ-G9-T2-BAC75557EC",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长、根据独立条件确定二次函数表达式",
+  "stem": "【定义】\n例如，如图1，过点A作\\(AB\\bot l_{ 1 }\\)交\\(l_{ 1 }\\)于点B，线段\\(AB\\)的长度称为点A到\\(l_{ 1 }\\)的垂直距离，过A作\\(AC\\)平行于y轴交\\(l_{ 1 }\\)于点C，\\(AC\\)的长就是点A到\\(l_{ 1 }\\)的竖直距离．\n〔图1〕\n【探索】\n当\\(l_{ 1 }\\)与x轴平行时，\\(AB=AC\\)，\n当\\(l_{ 1 }\\)与x轴不平行，且直线确定的时候，点到直线的垂直距离\\(AB\\)与点到直线的竖直距离\\(AC\\)存在一定的数量关系，当直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\) 时，\\(AB=\\)___________\\(AC\\)．\n【应用】\n如图2所示，公园有一斜坡草坪，其倾斜角为\\(30{}^\\circ\\)，该斜坡上有一棵小树（垂直于水平面），树高\\(2{ \\rm{ m } }\\)，现给该草坪洒水，已知小树的底端点A与喷水口点O的距\\(OA=2{ \\rm{ m } }\\)，建立如图2所示的平面直角坐标系，在喷水过程中，水运行的路线是抛物线\\(y=-x ^ { 2 } +bx\\)，且恰好经过小树的顶端点B，最远处落在草坪的C处，\n（1）\\(b=\\)___________．\n（2）如图3，现决定在山上种另一棵树\\(MN\\)（垂直于水平面），树的最高点不能超过喷水路线，为了加固树，沿斜坡垂直的方向加一根支架\\(PN\\)，求出\\(PN\\)的最大值．\n【拓展】\n（3）如图4，原有斜坡不变，通过改造喷水枪，使得喷出的水的路径近似可以看成圆弧，此时，圆弧与y轴相切于点O，若此时\\(OC=4\\sqrt[] { 3 }\\)m，如图，种植一棵树\\(MN\\)（垂直于水平面），为了保证灌溉，请求出\\(MN\\)最高应为多少？",
+  "choices": [],
+  "figures": [
+    "assets/figures/b4/b4af2379c9a216643d5dab2c17a37808eec4be7faee550efa5acea907e9b50fa.png"
+  ],
+  "tables": [],
+  "given_answer": "探索：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)  应用：（1）\\(2\\sqrt[] { 3 }\\)  （2） \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)   拓展:（3）\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }\\)",
+  "answer": "探索：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)  应用：（1）\\(2\\sqrt[] { 3 }\\)  （2） \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)   拓展:（3）\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }\\)",
+  "given_solution": "【分析】探索:先求得\\(P\\left ( { 0,1 } \\right ),Q\\left ( { -2{ \\rm{ , } }0 } \\right )\\)，再运用勾股定理求得\\(PQ=\\sqrt[] { 5 },\\)证得\\(\\vartriangle ABC\\backsim \\vartriangle QOP\\)，利用相似三角形性质即可求得答案；\n应用：（1）延长\\(BA\\)交\\(x\\)轴于点\\(H\\)，则\\(\\angle AHO=90{}^\\circ ,\\)利用解直角三角形可得\\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)，把 \\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)代入\\(y=-x ^ { 2 } +bx,\\)即可求得答案；\n（2）利用待定系数法可得直线\\(OC\\)的解析式 \\(y=\\frac { \\sqrt[] { 3 } } { 3 }x,\\) 设\\(M\\left ( { t{ \\rm{ , } }\\frac { \\sqrt[] { 3 } } { 3 }t } \\right ),\\)则N(t, \\(-t ^ { 2 } +2\\sqrt[] { 3 }t),\\)可得\\(MN=-t ^ { 2 } +2\\sqrt[] { 3 }t-\\frac { \\sqrt[] { 3 } } { 3 }t=-\\frac { 1 } { 2 }t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t\\)，进而可得 \\(PN=MN\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMP=-\\frac { \\sqrt[] { 3 } } { 2 }\\left ( { t-\\frac { 5\\sqrt[] { 3 } } { 6 } } \\right ) ^ { 2 } +\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，运用二次函数的性质即可得出答案；\n拓展：取\\(OC\\)的中点\\(G\\)，作\\(GH\\bot OC\\)交\\(x\\)轴于点\\(H\\)，延长\\(HG\\)交圆弧于点\\(N\\)，过点\\(N\\)作\\(MN\\parallel y\\)轴交\\(OC\\)于点\\(M\\)，此时\\(MN\\)最大，运用垂径定理可得\\(OG=\\frac { 1 } { 2 }OC=2\\sqrt[] { 3 }{ \\rm{ m } },\\)再利用解直角三角形即可求得答案.\n【详解】探索：∵直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\)，如图，设直线\\(l_{ 1 }\\)与\\(x、y\\)轴分别交于\\(Q、P\\)点，\n令\\(x=0,\\)得 \\(y=1\\)，\n∴ \\(P\\left ( { 0,1 } \\right )\\)，即 \\(OP=1\\)，\n令 \\(y=0\\)，得\\(\\frac { 1 } { 2 }x+1=0\\)，\n解得：\\(x=-2\\)，\n∴\\(Q\\left ( { -2{ \\rm{ , } }0 } \\right )\\)，即 \\(OQ=2,\\)\n\\(\\therefore PQ=\\sqrt[] { OP ^ { 2 } +OQ ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }=\\sqrt[] { 5 }\\)，\n〔图2〕\n∵ \\(AC\\parallel y\\)轴，\n\\(\\therefore \\angle 1=\\angle ACB\\)，\n\\(\\because \\angle 1=\\angle QPO\\)，\n\\(\\therefore \\angle ACB=\\angle QPO\\)，\n\\(\\because \\angle ABC=\\angle QOP=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle QOP\\)，\n\\(\\therefore \\frac { AB } { AC }=\\frac { OQ } { PQ }=\\frac { 2 } { \\sqrt[] { 5 } }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore AB=\\frac { 2\\sqrt[] { 5 } } { 5 }AC\\)，\n故答案为：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)；\n应用：（1）如图， 延长\\(BA\\)交\\(x\\)轴于点\\(H\\)，则\\(\\angle AHO=90{}^\\circ\\)，\n〔图3〕\n\\(\\because \\angle AOH=30{}^\\circ ,OA=2{ \\rm{ m } }\\)，\n\\(\\therefore AH=\\frac { 1 } { 2 }OA=1{ \\rm{ m } }\\)，\\(OH=OA\\cdot { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }\\angle AOH=2{ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ =2\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\sqrt[] { 3 }\\)，\n\\(\\because AB=2{ \\rm{ m } }\\)，\n\\(\\therefore BH=AB+AH=2+1=3\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(\\therefore B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)，\n把 \\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)代入\\(y=-x ^ { 2 } +bx\\)得:\\(-3+\\sqrt[] { 3 }b=3\\)，\n解得：\\(b=2\\sqrt[] { 3 }\\)，\n故答案为：\\(2\\sqrt[] { 3 }\\)；\n（2）由（1）知, \\(A\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }1 } \\right ),\\)设直线\\(OC\\)的解析式为\\(y=kx,\\)则 \\(\\sqrt[] { 3 }k=1\\)，\n解得：\\(k=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n\\(\\therefore y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，\n如图，设 \\(M\\left ( { t{ \\rm{ , } }\\frac { \\sqrt[] { 3 } } { 3 }t } \\right )\\)，则\\(N\\left ( { t,-t ^ { 2 } +2\\sqrt[] { 3 }t } \\right )\\)，\n〔图4〕\n\\(\\therefore MN=-t ^ { 2 } +2\\sqrt[] { 3 }t-\\frac { \\sqrt[] { 3 } } { 3 }t=-t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t\\)，\n\\(\\because \\angle 1=30{}^\\circ\\)，\n\\(\\therefore \\angle 2=60{}^\\circ\\)，\n∵\\(MN\\parallel y\\)轴，\n\\(\\therefore \\angle NMP=\\angle 2=60{}^\\circ\\)，\n\\(\\because NP\\bot OC\\)，\n\\(\\therefore \\angle NPM=90{}^\\circ\\)，\n\\(\\therefore PN=MN\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMP=\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\times \\frac { \\sqrt[] { 3 } } { 2 }=-\\frac { \\sqrt[] { 3 } } { 2 }\\left ( { t-\\frac { 5\\sqrt[] { 3 } } { 6 } } \\right ) ^ { 2 } +\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，\n\\(\\therefore -\\frac { \\sqrt[] { 3 } } { 2 } < 0,\\)\n∴当 \\(t=\\frac { 5\\sqrt[] { 3 } } { 6 }\\)时，\\(PN\\)取得最大值 \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，\n答：\\(PN\\)的最大值为\\(\\frac { 25\\sqrt[] { 3 } } { 24 }.\\)\n【拓展】如图， 取\\(OC\\)的中点\\(G\\)，作\\(GH\\bot OC\\)交\\(x\\)轴于点\\(H\\)，延长\\(HG\\)交圆弧于点\\(N\\)，过点\\(N\\)作\\(MN\\parallel y\\)轴交\\(OC\\)于点\\(M\\)，此时\\(MN\\)最大，\n〔图5〕\n\\(\\because OC=4\\sqrt[] { 3 }{ \\rm{ m } },HG\\bot OC\\)，\n\\(\\therefore OG=\\frac { 1 } { 2 }OC=2\\sqrt[] { 3 }{ \\rm{ m } }\\)，\n在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGH\\)中, \\(\\angle COH=30{}^\\circ\\)，\n\\(\\therefore GH=OG\\cdot { \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle COH=2\\sqrt[] { 3 }{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }30{}^\\circ =2\\sqrt[] { 3 }\\times \\frac { \\sqrt[] { 3 } } { 3 }=2\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(OH=2GH=4{ \\rm{ m } }\\)，\n又\\(\\because HN=OH=4{ \\rm{ m } }\\)，\n\\(\\therefore NG=HN-GH=4-2=2\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(\\therefore \\angle 1=30{}^\\circ\\)，\n\\(\\therefore \\angle 2=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∵\\(MN\\parallel y\\)轴，\n\\(\\therefore \\angle NMG=\\angle 2=60{}^\\circ\\)，\n\\(\\because \\angle NGM=90{}^\\circ\\)，\n\\(\\therefore MN=\\frac { NG } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMG }=\\frac { 2 } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ }=\\frac { 4 } { 3 }\\sqrt[] { 3 }\\left ( { { \\rm{ m } } } \\right )\\)，\n答：\\(MN\\)最高应为\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }.\\)\n【点睛】此题是二次函数综合题，主要考查了二次函数的应用，二次函数最值求法，待定系数法求函数解析式，解直角三角形，圆的性质，垂径定理等，根据题意求出函数的解析式是解决此题的关键.",
+  "given_solution_figures": [
+    "assets/figures/b4/b4af2379c9a216643d5dab2c17a37808eec4be7faee550efa5acea907e9b50fa.png",
+    "assets/figures/dd/dd502708e9255c941b08cadfb9d37a06c53a633c4898de3fcdb8602a85fe2d08.png",
+    "assets/figures/18/18859cd69c1f2576460bb3bbbaf169c5413b4ae345da524bb9645ece62bd4df1.png",
+    "assets/figures/c4/c4623763e196addd53ebb2841b28b6e27ecae4fc3c371339093f09deb80a4544.png",
+    "assets/figures/61/61d442e5be331b5d09a1f54790ec4dd0467afd9919f27cd8e7b80f33a3e3209d.png"
+  ],
+  "solution": "探索：∵直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\)，如图，设直线\\(l_{ 1 }\\)与\\(x、y\\)轴分别交于\\(Q、P\\)点，\n令\\(x=0,\\)得 \\(y=1\\)，\n∴ \\(P\\left ( { 0,1 } \\right )\\)，即 \\(OP=1\\)，\n令 \\(y=0\\)，得\\(\\frac { 1 } { 2 }x+1=0\\)，\n解得：\\(x=-2\\)，\n∴\\(Q\\left ( { -2{ \\rm{ , } }0 } \\right )\\)，即 \\(OQ=2,\\)\n\\(\\therefore PQ=\\sqrt[] { OP ^ { 2 } +OQ ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }=\\sqrt[] { 5 }\\)，\n〔图2〕\n∵ \\(AC\\parallel y\\)轴，\n\\(\\therefore \\angle 1=\\angle ACB\\)，\n\\(\\because \\angle 1=\\angle QPO\\)，\n\\(\\therefore \\angle ACB=\\angle QPO\\)，\n\\(\\because \\angle ABC=\\angle QOP=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle QOP\\)，\n\\(\\therefore \\frac { AB } { AC }=\\frac { OQ } { PQ }=\\frac { 2 } { \\sqrt[] { 5 } }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore AB=\\frac { 2\\sqrt[] { 5 } } { 5 }AC\\)，\n故答案为：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)；\n应用：（1）如图， 延长\\(BA\\)交\\(x\\)轴于点\\(H\\)，则\\(\\angle AHO=90{}^\\circ\\)，\n〔图3〕\n\\(\\because \\angle AOH=30{}^\\circ ,OA=2{ \\rm{ m } }\\)，\n\\(\\therefore AH=\\frac { 1 } { 2 }OA=1{ \\rm{ m } }\\)，\\(OH=OA\\cdot { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }\\angle AOH=2{ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ =2\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\sqrt[] { 3 }\\)，\n\\(\\because AB=2{ \\rm{ m } }\\)，\n\\(\\therefore BH=AB+AH=2+1=3\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(\\therefore B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)，\n把 \\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)代入\\(y=-x ^ { 2 } +bx\\)得:\\(-3+\\sqrt[] { 3 }b=3\\)，\n解得：\\(b=2\\sqrt[] { 3 }\\)，\n故答案为：\\(2\\sqrt[] { 3 }\\)；\n（2）由（1）知, \\(A\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }1 } \\right ),\\)设直线\\(OC\\)的解析式为\\(y=kx,\\)则 \\(\\sqrt[] { 3 }k=1\\)，\n解得：\\(k=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n\\(\\therefore y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，\n如图，设 \\(M\\left ( { t{ \\rm{ , } }\\frac { \\sqrt[] { 3 } } { 3 }t } \\right )\\)，则\\(N\\left ( { t,-t ^ { 2 } +2\\sqrt[] { 3 }t } \\right )\\)，\n〔图4〕\n\\(\\therefore MN=-t ^ { 2 } +2\\sqrt[] { 3 }t-\\frac { \\sqrt[] { 3 } } { 3 }t=-t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t\\)，\n\\(\\because \\angle 1=30{}^\\circ\\)，\n\\(\\therefore \\angle 2=60{}^\\circ\\)，\n∵\\(MN\\parallel y\\)轴，\n\\(\\therefore \\angle NMP=\\angle 2=60{}^\\circ\\)，\n\\(\\because NP\\bot OC\\)，\n\\(\\therefore \\angle NPM=90{}^\\circ\\)，\n\\(\\therefore PN=MN\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMP=\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\times \\frac { \\sqrt[] { 3 } } { 2 }=-\\frac { \\sqrt[] { 3 } } { 2 }\\left ( { t-\\frac { 5\\sqrt[] { 3 } } { 6 } } \\right ) ^ { 2 } +\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，\n\\(\\therefore -\\frac { \\sqrt[] { 3 } } { 2 } < 0,\\)\n∴当 \\(t=\\frac { 5\\sqrt[] { 3 } } { 6 }\\)时，\\(PN\\)取得最大值 \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，\n答：\\(PN\\)的最大值为\\(\\frac { 25\\sqrt[] { 3 } } { 24 }.\\)\n【拓展】如图， 取\\(OC\\)的中点\\(G\\)，作\\(GH\\bot OC\\)交\\(x\\)轴于点\\(H\\)，延长\\(HG\\)交圆弧于点\\(N\\)，过点\\(N\\)作\\(MN\\parallel y\\)轴交\\(OC\\)于点\\(M\\)，此时\\(MN\\)最大，\n〔图5〕\n\\(\\because OC=4\\sqrt[] { 3 }{ \\rm{ m } },HG\\bot OC\\)，\n\\(\\therefore OG=\\frac { 1 } { 2 }OC=2\\sqrt[] { 3 }{ \\rm{ m } }\\)，\n在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGH\\)中, \\(\\angle COH=30{}^\\circ\\)，\n\\(\\therefore GH=OG\\cdot { \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle COH=2\\sqrt[] { 3 }{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }30{}^\\circ =2\\sqrt[] { 3 }\\times \\frac { \\sqrt[] { 3 } } { 3 }=2\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(OH=2GH=4{ \\rm{ m } }\\)，\n又\\(\\because HN=OH=4{ \\rm{ m } }\\)，\n\\(\\therefore NG=HN-GH=4-2=2\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(\\therefore \\angle 1=30{}^\\circ\\)，\n\\(\\therefore \\angle 2=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∵\\(MN\\parallel y\\)轴，\n\\(\\therefore \\angle NMG=\\angle 2=60{}^\\circ\\)，\n\\(\\because \\angle NGM=90{}^\\circ\\)，\n\\(\\therefore MN=\\frac { NG } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMG }=\\frac { 2 } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ }=\\frac { 4 } { 3 }\\sqrt[] { 3 }\\left ( { { \\rm{ m } } } \\right )\\)，\n答：\\(MN\\)最高应为\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }.\\)",
+  "solution_steps": [
+    "探索：∵直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\)，如图，设直线\\(l_{ 1 }\\)与\\(x、y\\)轴分别交于\\(Q、P\\)点，",
+    "令\\(x=0,\\)得 \\(y=1\\)，",
+    "∴ \\(P\\left ( { 0,1 } \\right )\\)，即 \\(OP=1\\)，",
+    "令 \\(y=0\\)，得\\(\\frac { 1 } { 2 }x+1=0\\)，",
+    "解得：\\(x=-2\\)，",
+    "∴\\(Q\\left ( { -2{ \\rm{ , } }0 } \\right )\\)，即 \\(OQ=2,\\)",
+    "\\(\\therefore PQ=\\sqrt[] { OP ^ { 2 } +OQ ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }=\\sqrt[] { 5 }\\)，",
+    "〔图2〕",
+    "∵ \\(AC\\parallel y\\)轴，",
+    "\\(\\therefore \\angle 1=\\angle ACB\\)，",
+    "\\(\\because \\angle 1=\\angle QPO\\)，",
+    "\\(\\therefore \\angle ACB=\\angle QPO\\)，",
+    "\\(\\because \\angle ABC=\\angle QOP=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle QOP\\)，",
+    "\\(\\therefore \\frac { AB } { AC }=\\frac { OQ } { PQ }=\\frac { 2 } { \\sqrt[] { 5 } }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，",
+    "\\(\\therefore AB=\\frac { 2\\sqrt[] { 5 } } { 5 }AC\\)，",
+    "故答案为：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)；",
+    "应用：（1）如图， 延长\\(BA\\)交\\(x\\)轴于点\\(H\\)，则\\(\\angle AHO=90{}^\\circ\\)，",
+    "〔图3〕",
+    "\\(\\because \\angle AOH=30{}^\\circ ,OA=2{ \\rm{ m } }\\)，",
+    "\\(\\therefore AH=\\frac { 1 } { 2 }OA=1{ \\rm{ m } }\\)，\\(OH=OA\\cdot { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }\\angle AOH=2{ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ =2\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\sqrt[] { 3 }\\)，",
+    "\\(\\because AB=2{ \\rm{ m } }\\)，",
+    "\\(\\therefore BH=AB+AH=2+1=3\\left ( { { \\rm{ m } } } \\right )\\)，",
+    "\\(\\therefore B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)，",
+    "把 \\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)代入\\(y=-x ^ { 2 } +bx\\)得:\\(-3+\\sqrt[] { 3 }b=3\\)，",
+    "解得：\\(b=2\\sqrt[] { 3 }\\)，",
+    "故答案为：\\(2\\sqrt[] { 3 }\\)；",
+    "（2）由（1）知, \\(A\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }1 } \\right ),\\)设直线\\(OC\\)的解析式为\\(y=kx,\\)则 \\(\\sqrt[] { 3 }k=1\\)，",
+    "解得：\\(k=\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+    "\\(\\therefore y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，",
+    "如图，设 \\(M\\left ( { t{ \\rm{ , } }\\frac { \\sqrt[] { 3 } } { 3 }t } \\right )\\)，则\\(N\\left ( { t,-t ^ { 2 } +2\\sqrt[] { 3 }t } \\right )\\)，",
+    "〔图4〕",
+    "\\(\\therefore MN=-t ^ { 2 } +2\\sqrt[] { 3 }t-\\frac { \\sqrt[] { 3 } } { 3 }t=-t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t\\)，",
+    "\\(\\because \\angle 1=30{}^\\circ\\)，",
+    "\\(\\therefore \\angle 2=60{}^\\circ\\)，",
+    "∵\\(MN\\parallel y\\)轴，",
+    "\\(\\therefore \\angle NMP=\\angle 2=60{}^\\circ\\)，",
+    "\\(\\because NP\\bot OC\\)，",
+    "\\(\\therefore \\angle NPM=90{}^\\circ\\)，",
+    "\\(\\therefore PN=MN\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMP=\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\times \\frac { \\sqrt[] { 3 } } { 2 }=-\\frac { \\sqrt[] { 3 } } { 2 }\\left ( { t-\\frac { 5\\sqrt[] { 3 } } { 6 } } \\right ) ^ { 2 } +\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，",
+    "\\(\\therefore -\\frac { \\sqrt[] { 3 } } { 2 } < 0,\\)",
+    "∴当 \\(t=\\frac { 5\\sqrt[] { 3 } } { 6 }\\)时，\\(PN\\)取得最大值 \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，",
+    "答：\\(PN\\)的最大值为\\(\\frac { 25\\sqrt[] { 3 } } { 24 }.\\)",
+    "【拓展】如图， 取\\(OC\\)的中点\\(G\\)，作\\(GH\\bot OC\\)交\\(x\\)轴于点\\(H\\)，延长\\(HG\\)交圆弧于点\\(N\\)，过点\\(N\\)作\\(MN\\parallel y\\)轴交\\(OC\\)于点\\(M\\)，此时\\(MN\\)最大，",
+    "〔图5〕",
+    "\\(\\because OC=4\\sqrt[] { 3 }{ \\rm{ m } },HG\\bot OC\\)，",
+    "\\(\\therefore OG=\\frac { 1 } { 2 }OC=2\\sqrt[] { 3 }{ \\rm{ m } }\\)，",
+    "在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGH\\)中, \\(\\angle COH=30{}^\\circ\\)，",
+    "\\(\\therefore GH=OG\\cdot { \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle COH=2\\sqrt[] { 3 }{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }30{}^\\circ =2\\sqrt[] { 3 }\\times \\frac { \\sqrt[] { 3 } } { 3 }=2\\left ( { { \\rm{ m } } } \\right )\\)，",
+    "\\(OH=2GH=4{ \\rm{ m } }\\)，",
+    "又\\(\\because HN=OH=4{ \\rm{ m } }\\)，",
+    "\\(\\therefore NG=HN-GH=4-2=2\\left ( { { \\rm{ m } } } \\right )\\)，",
+    "\\(\\therefore \\angle 1=30{}^\\circ\\)，",
+    "\\(\\therefore \\angle 2=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+    "∵\\(MN\\parallel y\\)轴，",
+    "\\(\\therefore \\angle NMG=\\angle 2=60{}^\\circ\\)，",
+    "\\(\\because \\angle NGM=90{}^\\circ\\)，",
+    "\\(\\therefore MN=\\frac { NG } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMG }=\\frac { 2 } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ }=\\frac { 4 } { 3 }\\sqrt[] { 3 }\\left ( { { \\rm{ m } } } \\right )\\)，",
+    "答：\\(MN\\)最高应为\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }.\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "21. 【定义】\n例如，如图1，过点A作\\(AB\\bot l_{ 1 }\\)交\\(l_{ 1 }\\)于点B，线段\\(AB\\)的长度称为点A到\\(l_{ 1 }\\)的垂直距离，过A作\\(AC\\)平行于y轴交\\(l_{ 1 }\\)于点C，\\(AC\\)的长就是点A到\\(l_{ 1 }\\)的竖直距离．\n〔图1〕\n【探索】\n【应用】\n如图2所示，公园有一斜坡草坪，其倾斜角为\\(30{}^\\circ\\)，该斜坡上有一棵小树（垂直于水平面），树高\\(2{ \\rm{ m } }\\)，现给该草坪洒水，已知小树的底端点A与喷水口点O的距\\(OA=2{ \\rm{ m } }\\)，建立如图2所示的平面直角坐标系，在喷水过程中，水运行的路线是抛物线\\(y=-x ^ { 2 } +bx\\)，且恰好经过小树的顶端点B，最远处落在草坪的C处，\n【拓展】",
+      "paper_blocks": [
+        56,
+        57,
+        58,
+        59,
+        62,
+        63,
+        66
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-BAC75557EC-Q21-P01",
+      "label": "探索",
+      "prompt": "当\\(l_{ 1 }\\)与x轴平行时，\\(AB=AC\\)，\n当\\(l_{ 1 }\\)与x轴不平行，且直线确定的时候，点到直线的垂直距离\\(AB\\)与点到直线的竖直距离\\(AC\\)存在一定的数量关系，当直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\) 时，\\(AB=\\)___________\\(AC\\)．",
+      "stem_text": "当\\(l_{ 1 }\\)与x轴平行时，\\(AB=AC\\)，\n当\\(l_{ 1 }\\)与x轴不平行，且直线确定的时候，点到直线的垂直距离\\(AB\\)与点到直线的竖直距离\\(AC\\)存在一定的数量关系，当直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\) 时，\\(AB=\\)___________\\(AC\\)．",
+      "source": {
+        "paper_block_ids": [
+          60,
+          61
+        ],
+        "solution_block_ids": [
+          310,
+          311,
+          312,
+          313,
+          314,
+          315,
+          316,
+          317,
+          318,
+          319,
+          320,
+          321,
+          322,
+          323,
+          324,
+          325,
+          326
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "2√5/5",
+      "given_answer": "2√5/5",
+      "given_solution": "【详解】探索：∵直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\)，如图，设直线\\(l_{ 1 }\\)与\\(x、y\\)轴分别交于\\(Q、P\\)点，\n令\\(x=0,\\)得 \\(y=1\\)，\n∴ \\(P\\left ( { 0,1 } \\right )\\)，即 \\(OP=1\\)，\n令 \\(y=0\\)，得\\(\\frac { 1 } { 2 }x+1=0\\)，\n解得：\\(x=-2\\)，\n∴\\(Q\\left ( { -2{ \\rm{ , } }0 } \\right )\\)，即 \\(OQ=2,\\)\n\\(\\therefore PQ=\\sqrt[] { OP ^ { 2 } +OQ ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }=\\sqrt[] { 5 }\\)，\n〔图2〕\n∵ \\(AC\\parallel y\\)轴，\n\\(\\therefore \\angle 1=\\angle ACB\\)，\n\\(\\because \\angle 1=\\angle QPO\\)，\n\\(\\therefore \\angle ACB=\\angle QPO\\)，\n\\(\\because \\angle ABC=\\angle QOP=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle QOP\\)，\n\\(\\therefore \\frac { AB } { AC }=\\frac { OQ } { PQ }=\\frac { 2 } { \\sqrt[] { 5 } }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，\n\\(\\therefore AB=\\frac { 2\\sqrt[] { 5 } } { 5 }AC\\)，\n故答案为：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)；",
+      "solution_steps": [
+        "探索：∵直线\\(l_{ 1 }\\)为\\(y=\\frac { 1 } { 2 }x+1\\)，如图，设直线\\(l_{ 1 }\\)与\\(x、y\\)轴分别交于\\(Q、P\\)点，",
+        "令\\(x=0,\\)得 \\(y=1\\)，",
+        "∴ \\(P\\left ( { 0,1 } \\right )\\)，即 \\(OP=1\\)，",
+        "令 \\(y=0\\)，得\\(\\frac { 1 } { 2 }x+1=0\\)，",
+        "解得：\\(x=-2\\)，",
+        "∴\\(Q\\left ( { -2{ \\rm{ , } }0 } \\right )\\)，即 \\(OQ=2,\\)",
+        "\\(\\therefore PQ=\\sqrt[] { OP ^ { 2 } +OQ ^ { 2 } }=\\sqrt[] { 1 ^ { 2 } +2 ^ { 2 } }=\\sqrt[] { 5 }\\)，",
+        "〔图2〕",
+        "∵ \\(AC\\parallel y\\)轴，",
+        "\\(\\therefore \\angle 1=\\angle ACB\\)，",
+        "\\(\\because \\angle 1=\\angle QPO\\)，",
+        "\\(\\therefore \\angle ACB=\\angle QPO\\)，",
+        "\\(\\because \\angle ABC=\\angle QOP=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle ABC\\backsim \\vartriangle QOP\\)，",
+        "\\(\\therefore \\frac { AB } { AC }=\\frac { OQ } { PQ }=\\frac { 2 } { \\sqrt[] { 5 } }=\\frac { 2\\sqrt[] { 5 } } { 5 }\\)，",
+        "\\(\\therefore AB=\\frac { 2\\sqrt[] { 5 } } { 5 }AC\\)，",
+        "故答案为：\\(\\frac { 2\\sqrt[] { 5 } } { 5 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-BAC75557EC-Q21-P02",
+      "label": "应用（1）",
+      "prompt": "（1）\\(b=\\)___________．",
+      "stem_text": "（1）\\(b=\\)___________．",
+      "source": {
+        "paper_block_ids": [
+          64
+        ],
+        "solution_block_ids": [
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "2√3",
+      "given_answer": "2√3",
+      "given_solution": "应用：（1）如图， 延长\\(BA\\)交\\(x\\)轴于点\\(H\\)，则\\(\\angle AHO=90{}^\\circ\\)，\n〔图3〕\n\\(\\because \\angle AOH=30{}^\\circ ,OA=2{ \\rm{ m } }\\)，\n\\(\\therefore AH=\\frac { 1 } { 2 }OA=1{ \\rm{ m } }\\)，\\(OH=OA\\cdot { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }\\angle AOH=2{ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ =2\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\sqrt[] { 3 }\\)，\n\\(\\because AB=2{ \\rm{ m } }\\)，\n\\(\\therefore BH=AB+AH=2+1=3\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(\\therefore B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)，\n把 \\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)代入\\(y=-x ^ { 2 } +bx\\)得:\\(-3+\\sqrt[] { 3 }b=3\\)，\n解得：\\(b=2\\sqrt[] { 3 }\\)，\n故答案为：\\(2\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "应用：（1）如图， 延长\\(BA\\)交\\(x\\)轴于点\\(H\\)，则\\(\\angle AHO=90{}^\\circ\\)，",
+        "〔图3〕",
+        "\\(\\because \\angle AOH=30{}^\\circ ,OA=2{ \\rm{ m } }\\)，",
+        "\\(\\therefore AH=\\frac { 1 } { 2 }OA=1{ \\rm{ m } }\\)，\\(OH=OA\\cdot { \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }\\angle AOH=2{ \\rm{ c } }{ \\rm{ o } }{ \\rm{ s } }30{}^\\circ =2\\times \\frac { \\sqrt[] { 3 } } { 2 }=\\sqrt[] { 3 }\\)，",
+        "\\(\\because AB=2{ \\rm{ m } }\\)，",
+        "\\(\\therefore BH=AB+AH=2+1=3\\left ( { { \\rm{ m } } } \\right )\\)，",
+        "\\(\\therefore B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)，",
+        "把 \\(B\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }3 } \\right )\\)代入\\(y=-x ^ { 2 } +bx\\)得:\\(-3+\\sqrt[] { 3 }b=3\\)，",
+        "解得：\\(b=2\\sqrt[] { 3 }\\)，",
+        "故答案为：\\(2\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "将图中的点坐标代入二次表达式确定参数。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T2-BAC75557EC-Q21-P03",
+      "label": "应用（2）",
+      "prompt": "（2）如图3，现决定在山上种另一棵树\\(MN\\)（垂直于水平面），树的最高点不能超过喷水路线，为了加固树，沿斜坡垂直的方向加一根支架\\(PN\\)，求出\\(PN\\)的最大值．",
+      "stem_text": "（2）如图3，现决定在山上种另一棵树\\(MN\\)（垂直于水平面），树的最高点不能超过喷水路线，为了加固树，沿斜坡垂直的方向加一根支架\\(PN\\)，求出\\(PN\\)的最大值．",
+      "source": {
+        "paper_block_ids": [
+          65
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "25√3/24",
+      "given_answer": "25√3/24",
+      "given_solution": "（2）由（1）知, \\(A\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }1 } \\right ),\\)设直线\\(OC\\)的解析式为\\(y=kx,\\)则 \\(\\sqrt[] { 3 }k=1\\)，\n解得：\\(k=\\frac { \\sqrt[] { 3 } } { 3 }\\)，\n\\(\\therefore y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，\n如图，设 \\(M\\left ( { t{ \\rm{ , } }\\frac { \\sqrt[] { 3 } } { 3 }t } \\right )\\)，则\\(N\\left ( { t,-t ^ { 2 } +2\\sqrt[] { 3 }t } \\right )\\)，\n〔图4〕\n\\(\\therefore MN=-t ^ { 2 } +2\\sqrt[] { 3 }t-\\frac { \\sqrt[] { 3 } } { 3 }t=-t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t\\)，\n\\(\\because \\angle 1=30{}^\\circ\\)，\n\\(\\therefore \\angle 2=60{}^\\circ\\)，\n∵\\(MN\\parallel y\\)轴，\n\\(\\therefore \\angle NMP=\\angle 2=60{}^\\circ\\)，\n\\(\\because NP\\bot OC\\)，\n\\(\\therefore \\angle NPM=90{}^\\circ\\)，\n\\(\\therefore PN=MN\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMP=\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\times \\frac { \\sqrt[] { 3 } } { 2 }=-\\frac { \\sqrt[] { 3 } } { 2 }\\left ( { t-\\frac { 5\\sqrt[] { 3 } } { 6 } } \\right ) ^ { 2 } +\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，\n\\(\\therefore -\\frac { \\sqrt[] { 3 } } { 2 } < 0,\\)\n∴当 \\(t=\\frac { 5\\sqrt[] { 3 } } { 6 }\\)时，\\(PN\\)取得最大值 \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，\n答：\\(PN\\)的最大值为\\(\\frac { 25\\sqrt[] { 3 } } { 24 }.\\)",
+      "solution_steps": [
+        "（2）由（1）知, \\(A\\left ( { \\sqrt[] { 3 }{ \\rm{ , } }1 } \\right ),\\)设直线\\(OC\\)的解析式为\\(y=kx,\\)则 \\(\\sqrt[] { 3 }k=1\\)，",
+        "解得：\\(k=\\frac { \\sqrt[] { 3 } } { 3 }\\)，",
+        "\\(\\therefore y=\\frac { \\sqrt[] { 3 } } { 3 }x\\)，",
+        "如图，设 \\(M\\left ( { t{ \\rm{ , } }\\frac { \\sqrt[] { 3 } } { 3 }t } \\right )\\)，则\\(N\\left ( { t,-t ^ { 2 } +2\\sqrt[] { 3 }t } \\right )\\)，",
+        "〔图4〕",
+        "\\(\\therefore MN=-t ^ { 2 } +2\\sqrt[] { 3 }t-\\frac { \\sqrt[] { 3 } } { 3 }t=-t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t\\)，",
+        "\\(\\because \\angle 1=30{}^\\circ\\)，",
+        "\\(\\therefore \\angle 2=60{}^\\circ\\)，",
+        "∵\\(MN\\parallel y\\)轴，",
+        "\\(\\therefore \\angle NMP=\\angle 2=60{}^\\circ\\)，",
+        "\\(\\because NP\\bot OC\\)，",
+        "\\(\\therefore \\angle NPM=90{}^\\circ\\)，",
+        "\\(\\therefore PN=MN\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMP=\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\cdot { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ =\\left ( { -t ^ { 2 } +\\frac { 5\\sqrt[] { 3 } } { 3 }t } \\right )\\times \\frac { \\sqrt[] { 3 } } { 2 }=-\\frac { \\sqrt[] { 3 } } { 2 }\\left ( { t-\\frac { 5\\sqrt[] { 3 } } { 6 } } \\right ) ^ { 2 } +\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，",
+        "\\(\\therefore -\\frac { \\sqrt[] { 3 } } { 2 } < 0,\\)",
+        "∴当 \\(t=\\frac { 5\\sqrt[] { 3 } } { 6 }\\)时，\\(PN\\)取得最大值 \\(\\frac { 25\\sqrt[] { 3 } } { 24 }\\)，",
+        "答：\\(PN\\)的最大值为\\(\\frac { 25\\sqrt[] { 3 } } { 24 }.\\)"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N11.02"
+      ],
+      "exam_ids": [
+        "E.N11.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问解答对应“由两点或表格条件确定一次表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-BAC75557EC-Q21-P04",
+      "label": "拓展（3）",
+      "prompt": "（3）如图4，原有斜坡不变，通过改造喷水枪，使得喷出的水的路径近似可以看成圆弧，此时，圆弧与y轴相切于点O，若此时\\(OC=4\\sqrt[] { 3 }\\)m，如图，种植一棵树\\(MN\\)（垂直于水平面），为了保证灌溉，请求出\\(MN\\)最高应为多少？",
+      "stem_text": "（3）如图4，原有斜坡不变，通过改造喷水枪，使得喷出的水的路径近似可以看成圆弧，此时，圆弧与y轴相切于点O，若此时\\(OC=4\\sqrt[] { 3 }\\)m，如图，种植一棵树\\(MN\\)（垂直于水平面），为了保证灌溉，请求出\\(MN\\)最高应为多少？",
+      "source": {
+        "paper_block_ids": [
+          67
+        ],
+        "solution_block_ids": [
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "requires": [],
+      "material_ids": [
+        "context"
+      ],
+      "answer": "4√3/3 m。",
+      "given_answer": "4√3/3 m。",
+      "given_solution": "【拓展】如图， 取\\(OC\\)的中点\\(G\\)，作\\(GH\\bot OC\\)交\\(x\\)轴于点\\(H\\)，延长\\(HG\\)交圆弧于点\\(N\\)，过点\\(N\\)作\\(MN\\parallel y\\)轴交\\(OC\\)于点\\(M\\)，此时\\(MN\\)最大，\n〔图5〕\n\\(\\because OC=4\\sqrt[] { 3 }{ \\rm{ m } },HG\\bot OC\\)，\n\\(\\therefore OG=\\frac { 1 } { 2 }OC=2\\sqrt[] { 3 }{ \\rm{ m } }\\)，\n在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGH\\)中, \\(\\angle COH=30{}^\\circ\\)，\n\\(\\therefore GH=OG\\cdot { \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle COH=2\\sqrt[] { 3 }{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }30{}^\\circ =2\\sqrt[] { 3 }\\times \\frac { \\sqrt[] { 3 } } { 3 }=2\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(OH=2GH=4{ \\rm{ m } }\\)，\n又\\(\\because HN=OH=4{ \\rm{ m } }\\)，\n\\(\\therefore NG=HN-GH=4-2=2\\left ( { { \\rm{ m } } } \\right )\\)，\n\\(\\therefore \\angle 1=30{}^\\circ\\)，\n\\(\\therefore \\angle 2=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，\n∵\\(MN\\parallel y\\)轴，\n\\(\\therefore \\angle NMG=\\angle 2=60{}^\\circ\\)，\n\\(\\because \\angle NGM=90{}^\\circ\\)，\n\\(\\therefore MN=\\frac { NG } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMG }=\\frac { 2 } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ }=\\frac { 4 } { 3 }\\sqrt[] { 3 }\\left ( { { \\rm{ m } } } \\right )\\)，\n答：\\(MN\\)最高应为\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }.\\)",
+      "solution_steps": [
+        "【拓展】如图， 取\\(OC\\)的中点\\(G\\)，作\\(GH\\bot OC\\)交\\(x\\)轴于点\\(H\\)，延长\\(HG\\)交圆弧于点\\(N\\)，过点\\(N\\)作\\(MN\\parallel y\\)轴交\\(OC\\)于点\\(M\\)，此时\\(MN\\)最大，",
+        "〔图5〕",
+        "\\(\\because OC=4\\sqrt[] { 3 }{ \\rm{ m } },HG\\bot OC\\)，",
+        "\\(\\therefore OG=\\frac { 1 } { 2 }OC=2\\sqrt[] { 3 }{ \\rm{ m } }\\)，",
+        "在 \\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OGH\\)中, \\(\\angle COH=30{}^\\circ\\)，",
+        "\\(\\therefore GH=OG\\cdot { \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }\\angle COH=2\\sqrt[] { 3 }{ \\rm{ t } }{ \\rm{ a } }{ \\rm{ n } }30{}^\\circ =2\\sqrt[] { 3 }\\times \\frac { \\sqrt[] { 3 } } { 3 }=2\\left ( { { \\rm{ m } } } \\right )\\)，",
+        "\\(OH=2GH=4{ \\rm{ m } }\\)，",
+        "又\\(\\because HN=OH=4{ \\rm{ m } }\\)，",
+        "\\(\\therefore NG=HN-GH=4-2=2\\left ( { { \\rm{ m } } } \\right )\\)，",
+        "\\(\\therefore \\angle 1=30{}^\\circ\\)，",
+        "\\(\\therefore \\angle 2=90{}^\\circ -30{}^\\circ =60{}^\\circ\\)，",
+        "∵\\(MN\\parallel y\\)轴，",
+        "\\(\\therefore \\angle NMG=\\angle 2=60{}^\\circ\\)，",
+        "\\(\\because \\angle NGM=90{}^\\circ\\)，",
+        "\\(\\therefore MN=\\frac { NG } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }\\angle NMG }=\\frac { 2 } { { \\rm{ s } }{ \\rm{ i } }{ \\rm{ n } }60{}^\\circ }=\\frac { 4 } { 3 }\\sqrt[] { 3 }\\left ( { { \\rm{ m } } } \\right )\\)，",
+        "答：\\(MN\\)最高应为\\(\\frac { 4 } { 3 }\\sqrt[] { 3 }{ \\rm{ m } }.\\)"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      67
+    ],
+    "solution_body_blocks": [
+      292,
+      369
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-BAC75557EC/paper-q21-p05.webp",
+      "assets/SZ-G9-T2-BAC75557EC/paper-q21-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          401.36,
+          583.64,
+          748.18
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          369.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-BAC75557EC/solution-q21-p18.webp",
+      "assets/SZ-G9-T2-BAC75557EC/solution-q21-p19.webp",
+      "assets/SZ-G9-T2-BAC75557EC/solution-q21-p20.webp",
+      "assets/SZ-G9-T2-BAC75557EC/solution-q21-p21.webp",
+      "assets/SZ-G9-T2-BAC75557EC/solution-q21-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          177.27,
+          583.64,
+          757.27
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          757.73
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          252.27
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G08.03",
+    "M.N13.02",
+    "M.N11.02",
+    "M.G10.02"
+  ],
+  "exam_ids": [
+    "E.G08.03.01",
+    "E.N13.02.01",
+    "E.N11.02.01",
+    "E.G10.02.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。 将图中的点坐标代入二次表达式确定参数。 本问解答对应“由两点或表格条件确定一次表达式”。 本问题面与解答对应“分解组合图形求边角”。",
+  "tag_source": "小问标签汇总"
+}

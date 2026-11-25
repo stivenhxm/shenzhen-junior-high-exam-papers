@@ -1,0 +1,87 @@
+{
+  "knowledge_ids": [
+    "M.N13.03"
+  ],
+  "exam_ids": [
+    "E.N13.03.03"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "联立平移后直线与双曲线，用交点唯一确定参数。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-15FCEF5A86-Q14",
+  "number": 14,
+  "paper_id": "SZ-G9-T2-15FCEF5A86",
+  "title": "直线与双曲线相交于A、B两点",
+  "stem": "如图，直线\\(y=-2x+5\\)与双曲线\\(y=\\frac { k } { x }\\left ( { k>0，x>0 } \\right )\\)相交于A、B两点，与x轴相交于点C， \\(S_{ \\vartriangle BOC } =\\frac { 5 } { 4 }\\)．若将直线\\(y=-2x+5\\)沿y轴向下平移n个单位，所得直线与双曲线\\(y=\\frac { k } { x }\\left ( { k>0，x>0 } \\right )\\)有且只有一个交点，则n的值为         ．\n〔图1〕",
+  "type": "填空题",
+  "points": null,
+  "choices": [],
+  "materials": [],
+  "parts": [],
+  "figures": [
+    "assets/figures/48/48cac482d462591bf5617b422ece7b51d908f1bc9d77b55bc957a92140d6eae6.png"
+  ],
+  "tables": [],
+  "answer": "\\(1\\)",
+  "given_answer": "\\(1\\)",
+  "given_solution": "",
+  "given_solution_figures": [],
+  "solution_steps": [
+    "直线与 x 轴交于 \\(C(5/2,0)\\)。由 \\(\\frac12\\cdot\\frac52\\cdot y_B=\\frac54\\) 得 \\(y_B=1,\\ x_B=2,\\ k=2\\)。",
+    "平移后交点满足 \\(2x^2-(5-n)x+2=0\\)。唯一正交点要求 \\((5-n)^2-16=0\\) 且 \\(5-n>0\\)，故 \\(n=1\\)。"
+  ],
+  "solution_origin": "editorial_solution",
+  "solution": "直线与 x 轴交于 \\(C(5/2,0)\\)。由 \\(\\frac12\\cdot\\frac52\\cdot y_B=\\frac54\\) 得 \\(y_B=1,\\ x_B=2,\\ k=2\\)。\n平移后交点满足 \\(2x^2-(5-n)x+2=0\\)。唯一正交点要求 \\((5-n)^2-16=0\\) 且 \\(5-n>0\\)，故 \\(n=1\\)。",
+  "review_note": "资料仅列答案，参考步骤按题面和原图补写。",
+  "solution_figure_ids": [],
+  "source": {
+    "question_pages": [
+      2,
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/q14-p02.webp",
+      "assets/SZ-G9-T2-15FCEF5A86/single/q14-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          13,
+          737.7,
+          582.2,
+          764.22
+        ]
+      },
+      {
+        "page": 3,
+        "bbox_pt": [
+          13,
+          74.87,
+          582.2,
+          253.13
+        ]
+      }
+    ],
+    "solution_pages": [
+      1
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-15FCEF5A86/single/s14-p01.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 1,
+        "bbox_pt": [
+          13,
+          226.92,
+          582.2,
+          282.57
+        ]
+      }
+    ]
+  },
+  "tag_source": "逐题核对"
+}

@@ -1,0 +1,371 @@
+{
+  "id": "SZ-G9-T1-3D1CBFD346-Q22",
+  "paper_id": "SZ-G9-T1-3D1CBFD346",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "确认对应关系并证明三角形相似、按指定锐角选择三角函数比",
+  "stem": "如图，在矩形\\(ABCD\\)中，\\(AD=nAB\\left ( { n>1 } \\right )\\)，点\\(E\\)是\\(AD\\)边上一动点（点\\(E\\)不与\\(A\\)，\\(D\\)重合），连接\\(BE\\)，以\\(BE\\)为边在直线\\(BE\\)的右侧作矩形\\(EBFG\\)，使得矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(EG\\)交直线\\(CD\\)于点\\(H\\)．\n〔图1〕\n（1）【尝试初探】在点\\(E\\)的运动过程中，\\(\\vartriangle ABE\\)与\\(\\vartriangle DEH\\)始终保持相似关系，请说明理由．\n（2）【深入探究】若\\(n=2\\)，随着\\(E\\)点位置的变化，\\(H\\)点的位置随之发生变化，当\\(H\\)是线段\\(CD\\)中点时，求\\(tan\\angle ABE\\)的值．\n（3）【拓展延伸】连接\\(BH\\)，\\(FH\\)，当\\(\\vartriangle BFH\\)是以\\(FH\\)为腰的等腰三角形时，求\\(tan\\angle ABE\\)的值（用含\\(n\\)的代数式表示）．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-3D1CBFD346/figures/878bc7bd2e5b9a59372fab2f09ba9ea2f4f1729716e9ee47d339621b89bf0bac.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)\n（3）\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)",
+  "answer": "（1）见解析    （2）\\(\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)\n（3）\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)",
+  "given_solution": "【分析】（1）根据题意可得∠A=∠D=∠BEG=90°，可得∠DEH=∠ABE，即可求证；\n（2）根据题意可得AB=2DH，AD=2AB，AD=4DH，设DH=x，AE=a，则AB=2x，AD=4x，可得DE=4x-a，再根据△ABE∽△DEH，可得\\(x=\\frac { \\left ( { 2+\\sqrt[] { 2 } } \\right )a } { 2 }\\)或\\(\\frac { \\left ( { 2-\\sqrt[] { 2 } } \\right )a } { 2 }\\)，即可求解；\n（3）根据题意可得EG=nBE，然后分两种情况：当FH=BH时，当FH=BF=nBE时，即可求解．\n【小问1详解】\n解：根据题意得：∠A=∠D=∠BEG=90°，\n∴∠AEB+∠DEH=90°，∠AEB+∠ABE=90°，\n∴∠DEH=∠ABE，\n∴△ABE∽△DEH；\n【小问2详解】\n解：根据题意得：AB=2DH，AD=2AB，\n∴AD=4DH，\n设DH=x，AE=a，则AB=2x，AD=4x，\n∴DE=4x-a，\n∵△ABE∽△DEH，\n∴\\(\\frac { AB } { DE }=\\frac { AE } { DH }\\)，\n∴\\(\\frac { 2x } { 4x-a }=\\frac { a } { x }\\)，解得：\\(x=\\frac { \\left ( { 2+\\sqrt[] { 2 } } \\right )a } { 2 }\\)或\\(\\frac { \\left ( { 2-\\sqrt[] { 2 } } \\right )a } { 2 }\\)，\n∴\\(AB=\\left ( { 2+\\sqrt[] { 2 } } \\right )a\\)或\\(\\left ( { 2-\\sqrt[] { 2 } } \\right )a\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)；\n【小问3详解】\n解：∵矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(AD=nAB\\left ( { n>1 } \\right )\\)，\n∴EG=nBE，\n如图，当FH=BH时，\n〔图2〕\n∵∠BEH=∠FGH=90°，BE=FG，\n∴Rt△BEH≌Rt△FGH，\n∴EH=GH=\\(\\frac { 1 } { 2 }EG\\)，\n∴\\(EH=\\frac { n } { 2 }BE\\)，\n∵△ABE∽△DEH，\n∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=\\frac { n } { 2 }\\)，即\\(DE=\\frac { n } { 2 }AB\\)，\n∴\\(AE=AD-DE=\\frac { n } { 2 }AB\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { n } { 2 }\\)；\n如图，当FH=BF=nBE时，\n〔图2〕\n\\(HG=\\sqrt[] { FH ^ { 2 } -FG ^ { 2 } }=\\sqrt[] { n ^ { 2 } -1 }FG=\\sqrt[] { n ^ { 2 } -1 }BE\\)，\n∴\\(EH=EG-HG=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )BE\\)，\n∵△ABE∽△DEH，\n∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=n-\\sqrt[] { n ^ { 2 } -1 }\\)，即\\(DE=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )AB\\)，\n∴\\(AE=AD-DE=\\sqrt[] { n ^ { 2 } -1 }AB\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\sqrt[] { n ^ { 2 } -1 }\\)；\n综上所述，\\(tan\\angle ABE\\)的值为\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)．\n【点睛】本题主要考查了相似三角形的判定和性质，矩形的性质，等腰三角形的性质，勾股定理等知识，熟练掌握相似三角形的判定和性质，矩形的性质，等腰三角形的性质，勾股定理等知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-3D1CBFD346/figures/45c453efd91ace590a5eef47f1d0cd6068392525caa888586388a5b06633cfad.png",
+    "assets/SZ-G9-T1-3D1CBFD346/figures/69e10f70beb6b2070b0590986f0fb07c8c68a1ef867d85f2d68a4867f78f058a.png"
+  ],
+  "solution": "【小问1详解】\n解：根据题意得：∠A=∠D=∠BEG=90°，\n∴∠AEB+∠DEH=90°，∠AEB+∠ABE=90°，\n∴∠DEH=∠ABE，\n∴△ABE∽△DEH；\n【小问2详解】\n解：根据题意得：AB=2DH，AD=2AB，\n∴AD=4DH，\n设DH=x，AE=a，则AB=2x，AD=4x，\n∴DE=4x-a，\n∵△ABE∽△DEH，\n∴\\(\\frac { AB } { DE }=\\frac { AE } { DH }\\)，\n∴\\(\\frac { 2x } { 4x-a }=\\frac { a } { x }\\)，解得：\\(x=\\frac { \\left ( { 2+\\sqrt[] { 2 } } \\right )a } { 2 }\\)或\\(\\frac { \\left ( { 2-\\sqrt[] { 2 } } \\right )a } { 2 }\\)，\n∴\\(AB=\\left ( { 2+\\sqrt[] { 2 } } \\right )a\\)或\\(\\left ( { 2-\\sqrt[] { 2 } } \\right )a\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)；\n【小问3详解】\n解：∵矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(AD=nAB\\left ( { n>1 } \\right )\\)，\n∴EG=nBE，\n如图，当FH=BH时，\n〔图2〕\n∵∠BEH=∠FGH=90°，BE=FG，\n∴Rt△BEH≌Rt△FGH，\n∴EH=GH=\\(\\frac { 1 } { 2 }EG\\)，\n∴\\(EH=\\frac { n } { 2 }BE\\)，\n∵△ABE∽△DEH，\n∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=\\frac { n } { 2 }\\)，即\\(DE=\\frac { n } { 2 }AB\\)，\n∴\\(AE=AD-DE=\\frac { n } { 2 }AB\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { n } { 2 }\\)；\n如图，当FH=BF=nBE时，\n〔图2〕\n\\(HG=\\sqrt[] { FH ^ { 2 } -FG ^ { 2 } }=\\sqrt[] { n ^ { 2 } -1 }FG=\\sqrt[] { n ^ { 2 } -1 }BE\\)，\n∴\\(EH=EG-HG=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )BE\\)，\n∵△ABE∽△DEH，\n∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=n-\\sqrt[] { n ^ { 2 } -1 }\\)，即\\(DE=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )AB\\)，\n∴\\(AE=AD-DE=\\sqrt[] { n ^ { 2 } -1 }AB\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\sqrt[] { n ^ { 2 } -1 }\\)；\n综上所述，\\(tan\\angle ABE\\)的值为\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：根据题意得：∠A=∠D=∠BEG=90°，",
+    "∴∠AEB+∠DEH=90°，∠AEB+∠ABE=90°，",
+    "∴∠DEH=∠ABE，",
+    "∴△ABE∽△DEH；",
+    "【小问2详解】",
+    "解：根据题意得：AB=2DH，AD=2AB，",
+    "∴AD=4DH，",
+    "设DH=x，AE=a，则AB=2x，AD=4x，",
+    "∴DE=4x-a，",
+    "∵△ABE∽△DEH，",
+    "∴\\(\\frac { AB } { DE }=\\frac { AE } { DH }\\)，",
+    "∴\\(\\frac { 2x } { 4x-a }=\\frac { a } { x }\\)，解得：\\(x=\\frac { \\left ( { 2+\\sqrt[] { 2 } } \\right )a } { 2 }\\)或\\(\\frac { \\left ( { 2-\\sqrt[] { 2 } } \\right )a } { 2 }\\)，",
+    "∴\\(AB=\\left ( { 2+\\sqrt[] { 2 } } \\right )a\\)或\\(\\left ( { 2-\\sqrt[] { 2 } } \\right )a\\)，",
+    "∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)；",
+    "【小问3详解】",
+    "解：∵矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(AD=nAB\\left ( { n>1 } \\right )\\)，",
+    "∴EG=nBE，",
+    "如图，当FH=BH时，",
+    "〔图2〕",
+    "∵∠BEH=∠FGH=90°，BE=FG，",
+    "∴Rt△BEH≌Rt△FGH，",
+    "∴EH=GH=\\(\\frac { 1 } { 2 }EG\\)，",
+    "∴\\(EH=\\frac { n } { 2 }BE\\)，",
+    "∵△ABE∽△DEH，",
+    "∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=\\frac { n } { 2 }\\)，即\\(DE=\\frac { n } { 2 }AB\\)，",
+    "∴\\(AE=AD-DE=\\frac { n } { 2 }AB\\)，",
+    "∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { n } { 2 }\\)；",
+    "如图，当FH=BF=nBE时，",
+    "〔图2〕",
+    "\\(HG=\\sqrt[] { FH ^ { 2 } -FG ^ { 2 } }=\\sqrt[] { n ^ { 2 } -1 }FG=\\sqrt[] { n ^ { 2 } -1 }BE\\)，",
+    "∴\\(EH=EG-HG=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )BE\\)，",
+    "∵△ABE∽△DEH，",
+    "∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=n-\\sqrt[] { n ^ { 2 } -1 }\\)，即\\(DE=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )AB\\)，",
+    "∴\\(AE=AD-DE=\\sqrt[] { n ^ { 2 } -1 }AB\\)，",
+    "∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\sqrt[] { n ^ { 2 } -1 }\\)；",
+    "综上所述，\\(tan\\angle ABE\\)的值为\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，在矩形\\(ABCD\\)中，\\(AD=nAB\\left ( { n>1 } \\right )\\)，点\\(E\\)是\\(AD\\)边上一动点（点\\(E\\)不与\\(A\\)，\\(D\\)重合），连接\\(BE\\)，以\\(BE\\)为边在直线\\(BE\\)的右侧作矩形\\(EBFG\\)，使得矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(EG\\)交直线\\(CD\\)于点\\(H\\)．\n〔图1〕",
+      "paper_blocks": [
+        60,
+        61
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-3D1CBFD346-Q22-P01",
+      "label": "（1）",
+      "prompt": "【尝试初探】在点\\(E\\)的运动过程中，\\(\\vartriangle ABE\\)与\\(\\vartriangle DEH\\)始终保持相似关系，请说明理由．",
+      "stem_text": "【尝试初探】在点\\(E\\)的运动过程中，\\(\\vartriangle ABE\\)与\\(\\vartriangle DEH\\)始终保持相似关系，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "解：根据题意得：∠A=∠D=∠BEG=90°，\n∴∠AEB+∠DEH=90°，∠AEB+∠ABE=90°，\n∴∠DEH=∠ABE，\n∴△ABE∽△DEH；",
+      "solution_steps": [
+        "解：根据题意得：∠A=∠D=∠BEG=90°，",
+        "∴∠AEB+∠DEH=90°，∠AEB+∠ABE=90°，",
+        "∴∠DEH=∠ABE，",
+        "∴△ABE∽△DEH；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          62
+        ],
+        "solution_block_ids": [
+          381,
+          382,
+          383,
+          384
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [
+        "E.G08.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-3D1CBFD346-Q22-P02",
+      "label": "（2）",
+      "prompt": "【深入探究】若\\(n=2\\)，随着\\(E\\)点位置的变化，\\(H\\)点的位置随之发生变化，当\\(H\\)是线段\\(CD\\)中点时，求\\(tan\\angle ABE\\)的值．",
+      "stem_text": "【深入探究】若\\(n=2\\)，随着\\(E\\)点位置的变化，\\(H\\)点的位置随之发生变化，当\\(H\\)是线段\\(CD\\)中点时，求\\(tan\\angle ABE\\)的值．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)",
+      "answer": "\\(\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)",
+      "given_solution": "解：根据题意得：AB=2DH，AD=2AB，\n∴AD=4DH，\n设DH=x，AE=a，则AB=2x，AD=4x，\n∴DE=4x-a，\n∵△ABE∽△DEH，\n∴\\(\\frac { AB } { DE }=\\frac { AE } { DH }\\)，\n∴\\(\\frac { 2x } { 4x-a }=\\frac { a } { x }\\)，解得：\\(x=\\frac { \\left ( { 2+\\sqrt[] { 2 } } \\right )a } { 2 }\\)或\\(\\frac { \\left ( { 2-\\sqrt[] { 2 } } \\right )a } { 2 }\\)，\n∴\\(AB=\\left ( { 2+\\sqrt[] { 2 } } \\right )a\\)或\\(\\left ( { 2-\\sqrt[] { 2 } } \\right )a\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)；",
+      "solution_steps": [
+        "解：根据题意得：AB=2DH，AD=2AB，",
+        "∴AD=4DH，",
+        "设DH=x，AE=a，则AB=2x，AD=4x，",
+        "∴DE=4x-a，",
+        "∵△ABE∽△DEH，",
+        "∴\\(\\frac { AB } { DE }=\\frac { AE } { DH }\\)，",
+        "∴\\(\\frac { 2x } { 4x-a }=\\frac { a } { x }\\)，解得：\\(x=\\frac { \\left ( { 2+\\sqrt[] { 2 } } \\right )a } { 2 }\\)或\\(\\frac { \\left ( { 2-\\sqrt[] { 2 } } \\right )a } { 2 }\\)，",
+        "∴\\(AB=\\left ( { 2+\\sqrt[] { 2 } } \\right )a\\)或\\(\\left ( { 2-\\sqrt[] { 2 } } \\right )a\\)，",
+        "∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { 2-\\sqrt[] { 2 } } { 2 }\\)或\\(\\frac { 2+\\sqrt[] { 2 } } { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          63
+        ],
+        "solution_block_ids": [
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-3D1CBFD346-Q22-P03",
+      "label": "（3）",
+      "prompt": "【拓展延伸】连接\\(BH\\)，\\(FH\\)，当\\(\\vartriangle BFH\\)是以\\(FH\\)为腰的等腰三角形时，求\\(tan\\angle ABE\\)的值（用含\\(n\\)的代数式表示）．",
+      "stem_text": "【拓展延伸】连接\\(BH\\)，\\(FH\\)，当\\(\\vartriangle BFH\\)是以\\(FH\\)为腰的等腰三角形时，求\\(tan\\angle ABE\\)的值（用含\\(n\\)的代数式表示）．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)",
+      "answer": "\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)",
+      "given_solution": "解：∵矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(AD=nAB\\left ( { n>1 } \\right )\\)，\n∴EG=nBE，\n如图，当FH=BH时，\n〔图2〕\n∵∠BEH=∠FGH=90°，BE=FG，\n∴Rt△BEH≌Rt△FGH，\n∴EH=GH=\\(\\frac { 1 } { 2 }EG\\)，\n∴\\(EH=\\frac { n } { 2 }BE\\)，\n∵△ABE∽△DEH，\n∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=\\frac { n } { 2 }\\)，即\\(DE=\\frac { n } { 2 }AB\\)，\n∴\\(AE=AD-DE=\\frac { n } { 2 }AB\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { n } { 2 }\\)；\n如图，当FH=BF=nBE时，\n〔图2〕\n\\(HG=\\sqrt[] { FH ^ { 2 } -FG ^ { 2 } }=\\sqrt[] { n ^ { 2 } -1 }FG=\\sqrt[] { n ^ { 2 } -1 }BE\\)，\n∴\\(EH=EG-HG=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )BE\\)，\n∵△ABE∽△DEH，\n∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=n-\\sqrt[] { n ^ { 2 } -1 }\\)，即\\(DE=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )AB\\)，\n∴\\(AE=AD-DE=\\sqrt[] { n ^ { 2 } -1 }AB\\)，\n∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\sqrt[] { n ^ { 2 } -1 }\\)；\n综上所述，\\(tan\\angle ABE\\)的值为\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)．",
+      "solution_steps": [
+        "解：∵矩形\\(EBFG\\backsim\\)矩形\\(ABCD\\)，\\(AD=nAB\\left ( { n>1 } \\right )\\)，",
+        "∴EG=nBE，",
+        "如图，当FH=BH时，",
+        "〔图2〕",
+        "∵∠BEH=∠FGH=90°，BE=FG，",
+        "∴Rt△BEH≌Rt△FGH，",
+        "∴EH=GH=\\(\\frac { 1 } { 2 }EG\\)，",
+        "∴\\(EH=\\frac { n } { 2 }BE\\)，",
+        "∵△ABE∽△DEH，",
+        "∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=\\frac { n } { 2 }\\)，即\\(DE=\\frac { n } { 2 }AB\\)，",
+        "∴\\(AE=AD-DE=\\frac { n } { 2 }AB\\)，",
+        "∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\frac { n } { 2 }\\)；",
+        "如图，当FH=BF=nBE时，",
+        "〔图2〕",
+        "\\(HG=\\sqrt[] { FH ^ { 2 } -FG ^ { 2 } }=\\sqrt[] { n ^ { 2 } -1 }FG=\\sqrt[] { n ^ { 2 } -1 }BE\\)，",
+        "∴\\(EH=EG-HG=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )BE\\)，",
+        "∵△ABE∽△DEH，",
+        "∴\\(\\frac { DE } { AB }=\\frac { EH } { BE }=n-\\sqrt[] { n ^ { 2 } -1 }\\)，即\\(DE=\\left ( { n-\\sqrt[] { n ^ { 2 } -1 } } \\right )AB\\)，",
+        "∴\\(AE=AD-DE=\\sqrt[] { n ^ { 2 } -1 }AB\\)，",
+        "∴\\(tan\\angle ABE=\\frac { AE } { AB }=\\sqrt[] { n ^ { 2 } -1 }\\)；",
+        "综上所述，\\(tan\\angle ABE\\)的值为\\(\\frac { n } { 2 }\\)或\\(\\sqrt[] { n ^ { 2 } -1 }\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          60,
+          61,
+          64
+        ],
+        "solution_block_ids": [
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416
+        ],
+        "question_pages": [
+          5,
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.01"
+      ],
+      "exam_ids": [
+        "E.G10.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“按指定锐角选择三角函数比”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      60,
+      64
+    ],
+    "solution_body_blocks": [
+      369,
+      417
+    ],
+    "question_pages": [
+      5,
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-3D1CBFD346/paper-q22-p05.webp",
+      "assets/SZ-G9-T1-3D1CBFD346/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          722.27,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          322.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-3D1CBFD346/solution-q22-p20.webp",
+      "assets/SZ-G9-T1-3D1CBFD346/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-3D1CBFD346/solution-q22-p22.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          480.91,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.36,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          673.64
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G10.01"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G10.01.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。 本问题面与解答对应“按指定锐角选择三角函数比”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

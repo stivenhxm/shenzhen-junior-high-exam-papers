@@ -1,0 +1,117 @@
+{
+  "knowledge_ids": [
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G09.03.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的式子结构和所求量对应“将面积条件转为点的位置约束”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-F8E8E85716-Q10",
+  "number": 10,
+  "paper_id": "SZ-G9-T2-F8E8E85716",
+  "title": "将面积条件转为点的位置约束",
+  "stem": "皮克定理是格点几何学中的一个重要定理，它揭示了以格点为顶点的多边形的面积\\(S=N+\\frac { 1 } { 2 }L-1\\)，其中\\(N,L\\)分别表示这个多边形内部与边界上的格点个数．在平面直角坐标系中，横、纵坐标都是整数的点为格点．已知\\(A\\left ( { 0,30 } \\right )\\)，\\(B\\left ( { 20,10 } \\right ),O\\left ( { 0,0 } \\right )\\)，则\\(\\vartriangle ABO\\)内部的格点个数是（    ）",
+  "type": "选择题",
+  "points": null,
+  "choices": [
+    {
+      "label": "A",
+      "text": "266"
+    },
+    {
+      "label": "B",
+      "text": "270"
+    },
+    {
+      "label": "C",
+      "text": "271"
+    },
+    {
+      "label": "D",
+      "text": "285"
+    }
+  ],
+  "materials": [],
+  "parts": [],
+  "figures": [],
+  "tables": [],
+  "answer": "C",
+  "given_answer": "C",
+  "given_solution": "【分析】首先根据题意画出图形，然后求出\\(\\vartriangle ABO\\)的面积和边界上的格点个数，然后代入求解即可．\n【解析】如图所示，\n〔图1〕\n∵\\(A\\left ( { 0,30 } \\right )\\)，\\(B\\left ( { 20,10 } \\right ),O\\left ( { 0,0 } \\right )\\)，\n∴\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\times 30\\times 20=300\\)，\n∵\\(OA\\)上有31个格点，\n\\(OB\\)上的格点有\\(\\left ( { 2,1 } \\right )\\)，\\(\\left ( { 4,2 } \\right )\\)，\\(\\left ( { 6,3 } \\right )\\)，\\(\\left ( { 8,4 } \\right )\\)，\\(\\left ( { 10,5 } \\right )\\)，\\(\\left ( { 12,6 } \\right )\\)，\\(\\left ( { 14,7 } \\right )\\)，\\(\\left ( { 16,8 } \\right )\\)，\\(\\left ( { 18,9 } \\right )\\)，\\(\\left ( { 20,10 } \\right )\\)，共10个格点，\n\\(AB\\)上的格点有\\(\\left ( { 1,29 } \\right )\\)，\\(\\left ( { 2,28 } \\right )\\)，\\(\\left ( { 3,27 } \\right )\\)，\\(\\left ( { 4,26 } \\right )\\)，\\(\\left ( { 5,25 } \\right )\\)，\\(\\left ( { 6,24 } \\right )\\)，\\(\\left ( { 7,23 } \\right )\\)，\\(\\left ( { 8,22 } \\right )\\)，\\(\\left ( { 9,21 } \\right )\\)，\\(\\left ( { 10,20 } \\right )\\)，\\(\\left ( { 11,19 } \\right )\\)，\\(\\left ( { 12,18 } \\right )\\)，\\(\\left ( { 13,17 } \\right )\\)，\\(\\left ( { 16,14 } \\right )\\)，\\(\\left ( { 15,15 } \\right )\\)，\\(\\left ( { 16,14 } \\right )\\)，\\(\\left ( { 17,13 } \\right )\\)，\\(\\left ( { 18,12 } \\right )\\)，\\(\\left ( { 19,11 } \\right )\\)，共19个格点，\n∴边界上的格点个数\\(L=31+10+19=60\\)，\n∵\\(S=N+\\frac { 1 } { 2 }L-1\\)，\n∴\\(300=N+\\frac { 1 } { 2 }\\times 60-1\\)，∴解得\\(N=271\\)．\n∴\\(\\vartriangle ABO\\)内部的格点个数是271．\n故选：C．",
+  "given_solution_figures": [
+    "assets/figures/92/92ce036ceb08f3c4d37399a504dbcc2a45938b84de3f59878f7f34f5b7dfc023.png"
+  ],
+  "solution_steps": [
+    "【分析】首先根据题意画出图形，然后求出\\(\\vartriangle ABO\\)的面积和边界上的格点个数，然后代入求解即可．",
+    "【解析】如图所示，",
+    "〔图1〕",
+    "∵\\(A\\left ( { 0,30 } \\right )\\)，\\(B\\left ( { 20,10 } \\right ),O\\left ( { 0,0 } \\right )\\)，",
+    "∴\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\times 30\\times 20=300\\)，",
+    "∵\\(OA\\)上有31个格点，",
+    "\\(OB\\)上的格点有\\(\\left ( { 2,1 } \\right )\\)，\\(\\left ( { 4,2 } \\right )\\)，\\(\\left ( { 6,3 } \\right )\\)，\\(\\left ( { 8,4 } \\right )\\)，\\(\\left ( { 10,5 } \\right )\\)，\\(\\left ( { 12,6 } \\right )\\)，\\(\\left ( { 14,7 } \\right )\\)，\\(\\left ( { 16,8 } \\right )\\)，\\(\\left ( { 18,9 } \\right )\\)，\\(\\left ( { 20,10 } \\right )\\)，共10个格点，",
+    "\\(AB\\)上的格点有\\(\\left ( { 1,29 } \\right )\\)，\\(\\left ( { 2,28 } \\right )\\)，\\(\\left ( { 3,27 } \\right )\\)，\\(\\left ( { 4,26 } \\right )\\)，\\(\\left ( { 5,25 } \\right )\\)，\\(\\left ( { 6,24 } \\right )\\)，\\(\\left ( { 7,23 } \\right )\\)，\\(\\left ( { 8,22 } \\right )\\)，\\(\\left ( { 9,21 } \\right )\\)，\\(\\left ( { 10,20 } \\right )\\)，\\(\\left ( { 11,19 } \\right )\\)，\\(\\left ( { 12,18 } \\right )\\)，\\(\\left ( { 13,17 } \\right )\\)，\\(\\left ( { 16,14 } \\right )\\)，\\(\\left ( { 15,15 } \\right )\\)，\\(\\left ( { 16,14 } \\right )\\)，\\(\\left ( { 17,13 } \\right )\\)，\\(\\left ( { 18,12 } \\right )\\)，\\(\\left ( { 19,11 } \\right )\\)，共19个格点，",
+    "∴边界上的格点个数\\(L=31+10+19=60\\)，",
+    "∵\\(S=N+\\frac { 1 } { 2 }L-1\\)，",
+    "∴\\(300=N+\\frac { 1 } { 2 }\\times 60-1\\)，∴解得\\(N=271\\)．",
+    "∴\\(\\vartriangle ABO\\)内部的格点个数是271．",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "【分析】首先根据题意画出图形，然后求出\\(\\vartriangle ABO\\)的面积和边界上的格点个数，然后代入求解即可．\n【解析】如图所示，\n〔图1〕\n∵\\(A\\left ( { 0,30 } \\right )\\)，\\(B\\left ( { 20,10 } \\right ),O\\left ( { 0,0 } \\right )\\)，\n∴\\(S_{ \\vartriangle ABO } =\\frac { 1 } { 2 }\\times 30\\times 20=300\\)，\n∵\\(OA\\)上有31个格点，\n\\(OB\\)上的格点有\\(\\left ( { 2,1 } \\right )\\)，\\(\\left ( { 4,2 } \\right )\\)，\\(\\left ( { 6,3 } \\right )\\)，\\(\\left ( { 8,4 } \\right )\\)，\\(\\left ( { 10,5 } \\right )\\)，\\(\\left ( { 12,6 } \\right )\\)，\\(\\left ( { 14,7 } \\right )\\)，\\(\\left ( { 16,8 } \\right )\\)，\\(\\left ( { 18,9 } \\right )\\)，\\(\\left ( { 20,10 } \\right )\\)，共10个格点，\n\\(AB\\)上的格点有\\(\\left ( { 1,29 } \\right )\\)，\\(\\left ( { 2,28 } \\right )\\)，\\(\\left ( { 3,27 } \\right )\\)，\\(\\left ( { 4,26 } \\right )\\)，\\(\\left ( { 5,25 } \\right )\\)，\\(\\left ( { 6,24 } \\right )\\)，\\(\\left ( { 7,23 } \\right )\\)，\\(\\left ( { 8,22 } \\right )\\)，\\(\\left ( { 9,21 } \\right )\\)，\\(\\left ( { 10,20 } \\right )\\)，\\(\\left ( { 11,19 } \\right )\\)，\\(\\left ( { 12,18 } \\right )\\)，\\(\\left ( { 13,17 } \\right )\\)，\\(\\left ( { 16,14 } \\right )\\)，\\(\\left ( { 15,15 } \\right )\\)，\\(\\left ( { 16,14 } \\right )\\)，\\(\\left ( { 17,13 } \\right )\\)，\\(\\left ( { 18,12 } \\right )\\)，\\(\\left ( { 19,11 } \\right )\\)，共19个格点，\n∴边界上的格点个数\\(L=31+10+19=60\\)，\n∵\\(S=N+\\frac { 1 } { 2 }L-1\\)，\n∴\\(300=N+\\frac { 1 } { 2 }\\times 60-1\\)，∴解得\\(N=271\\)．\n∴\\(\\vartriangle ABO\\)内部的格点个数是271．\n故选：C．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1
+  ],
+  "source": {
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-F8E8E85716/single/q10-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          13,
+          597.96,
+          582.2,
+          690.14
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-F8E8E85716/single/s10-p05.webp",
+      "assets/SZ-G9-T2-F8E8E85716/single/s10-p06.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          574.96,
+          582.2,
+          754.53
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          13,
+          71.39,
+          582.2,
+          367.48
+        ]
+      }
+    ]
+  },
+  "tag_source": "题文匹配"
+}

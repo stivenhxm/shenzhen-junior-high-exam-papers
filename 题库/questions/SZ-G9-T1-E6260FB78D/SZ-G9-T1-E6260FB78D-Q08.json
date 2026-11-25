@@ -1,0 +1,102 @@
+{
+  "id": "SZ-G9-T1-E6260FB78D-Q08",
+  "paper_id": "SZ-G9-T1-E6260FB78D",
+  "number": 8,
+  "type": "选择题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "如图，正方形\\(ABCD\\)的一条边\\(~BC\\)与等腰\\(\\vartriangle CEF\\)的一条边\\(~CF\\)在同一直线上，\\(AF\\)分别交\\(~CD\\)，\\(CE\\)于点\\(G\\)，\\(H\\)。已知\\(BC=CF=2\\)，\\(CE=EF=5\\)，则\\(GH\\)的长为（   ）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(\\frac { \\sqrt[] { 5 } } { 5 }\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(\\frac { 2 } { 5 }\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(\\frac { 2\\sqrt[] { 5 } } { 9 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(\\frac { 5 } { 9 }\\)"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G9-T1-E6260FB78D/figures/d5aa81d5128126a69022ad1c0fa7d251026dcb27e72b0348ee6519255d3fffad.png"
+  ],
+  "tables": [],
+  "materials": [],
+  "parts": [],
+  "given_answer": "A",
+  "given_solution": "过点\\(E\\)作\\(EN\\bot CF\\)分别交\\(AF\\)，\\(CF\\)于点\\(M\\)，\\(N\\)，\n\\(\\because CE=EF=\\sqrt[] { 5 }\\)，\n\\(\\therefore CN=\\frac { 1 } { 2 }CF=1\\)，\\(EN=\\sqrt[] { \\left ( { \\sqrt[] { 5 } } \\right ) ^ { 2 } -1 ^ { 2 } }=2\\)，\n\\(\\because BC=CF=2\\)，\\(\\therefore BF=BC+CF=4\\)，\n\\(\\therefore \\frac { AB } { CN }=\\frac { BF } { EN }=2\\)，\n又\\(\\because \\angle B=\\angle CNE=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ABF\\backsim \\vartriangle CNE\\)，\\(\\therefore \\angle AFB=\\angle CEN\\)\n又\\(\\because \\angle NMF=\\angle HME\\)，\n\\(\\therefore \\angle GHC=\\angle EHM=\\angle FNM=90{}^\\circ\\)，\n\\(\\because AB\\parallel CD\\parallel EN\\)\n\\(\\therefore \\vartriangle GCF\\backsim \\vartriangle ABF\\)，\\(\\angle GCH=\\angle CEN\\)\n\\(\\therefore \\frac { CG } { AB }=\\frac { CF } { BF }\\)，即\\(\\frac { CG } { 2 }=\\frac { 2 } { 4 }\\)，\n\\(\\therefore CG=1\\)，\n\\(\\because \\angle GHC=\\angle CNE=90{}^\\circ\\)，\\(\\angle GCH=\\angle CEN\\)\n\\(\\therefore \\vartriangle GCH\\backsim \\vartriangle CEN\\)\n\\(\\therefore \\frac { GH } { CN }=\\frac { GC } { CE }\\)，即\\(\\frac { GH } { 1 }=\\frac { 1 } { \\sqrt[] { 5 } }\\)，\n\\(\\therefore GH=\\frac { \\sqrt[] { 5 } } { 5 }\\)，故选A.",
+  "given_solution_figures": [],
+  "answer": "按原卷的 5，GH＝√5/(1＋4√6)，无对应选项。按评分稿的 √5，选 A。",
+  "solution_steps": [
+    "设 B＝(0,0)，C＝(2,0)，F＝(4,0)，A＝(0,2)。原卷 CE＝EF＝5，故 E＝(3,2√6)，而 AF 的方程是 y＝2−x/2。",
+    "G＝(2,1)。设 H 的横坐标为 2＋u，由 CE 与 AF 相交得 2√6u＝1−u/2，故 u＝2/(1＋4√6)。沿 AF 的斜率为 −1/2，有 GH＝u√5/2＝√5/(1＋4√6)，与四个选项均不符。",
+    "评分稿将 CE、EF 取为 √5，此时 E＝(3,2)，同理得 u＝2/5、GH＝√5/5，对应 A。"
+  ],
+  "solution": "设 B＝(0,0)，C＝(2,0)，F＝(4,0)，A＝(0,2)。原卷 CE＝EF＝5，故 E＝(3,2√6)，而 AF 的方程是 y＝2−x/2。\nG＝(2,1)。设 H 的横坐标为 2＋u，由 CE 与 AF 相交得 2√6u＝1−u/2，故 u＝2/(1＋4√6)。沿 AF 的斜率为 −1/2，有 GH＝u√5/2＝√5/(1＋4√6)，与四个选项均不符。\n评分稿将 CE、EF 取为 √5，此时 E＝(3,2)，同理得 u＝2/5、GH＝√5/5，对应 A。",
+  "solution_origin": "source_checked_with_correction",
+  "solution_figure_ids": [],
+  "review_note": "已核对卷面第3页与评分稿第9页。二者给出的等腰三角形腰长分别是 5 与 √5，两种条件的结果均列出。",
+  "source": {
+    "paper_body_blocks": [
+      32,
+      34
+    ],
+    "solution_body_blocks": [
+      100,
+      117
+    ],
+    "question_pages": [
+      3
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-E6260FB78D/paper-q08-p03.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 3,
+        "bbox_pt": [
+          11.82,
+          250.91,
+          583.64,
+          497.73
+        ]
+      }
+    ],
+    "solution_pages": [
+      9
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-E6260FB78D/solution-q08-p09.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 9,
+        "bbox_pt": [
+          11.82,
+          255.0,
+          583.64,
+          717.27
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

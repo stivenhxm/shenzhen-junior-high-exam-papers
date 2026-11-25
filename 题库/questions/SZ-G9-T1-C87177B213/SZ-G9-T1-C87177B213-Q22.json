@@ -1,0 +1,524 @@
+{
+  "id": "SZ-G9-T1-C87177B213-Q22",
+  "paper_id": "SZ-G9-T1-C87177B213",
+  "number": 22,
+  "type": "解答题",
+  "points": 10,
+  "title": "选择充分条件证明三角形全等、由相似比求对应线段或周长",
+  "stem": "（10分）（1）【探究发现】如图1，正方形ABCD的对角线相交于点O，在正方形A'B'C'O绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．证明：△OMC≌△OND；\n（2）【类比迁移】如图2，矩形ABCD的对角线相交于点O，且AB＝6，AD＝12．在矩形A'B'C'O，绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．若DN＝1，求CM的长；\n（3）【拓展应用】如图3，四边形ABCD和四边形A'B'C'O都是平行四边形，且∠A'OC'＝∠ADC，AB＝3，〔图1〕，△BCD是直角三角形．在▱A'B'C'O绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．当▱ABCD与▱A'B'C'O重叠部分的面积是▱ABCD的面积的〔图2〕时，请直接写出ON的长．〔图3〕\n2024-2025学年广东省深圳市龙华区外国语学校九年级（上）期中\n数学试卷",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-C87177B213/figures/1238fe33d083cba8eeebfa478612fc9ac290194cd5d70749df756c647bc2de7a.png",
+    "assets/SZ-G9-T1-C87177B213/figures/957a3c5e0c061bc2deaf5dfe7d8766c679a29d1299fa520e8c5379f4bbb27b2f.png",
+    "assets/SZ-G9-T1-C87177B213/figures/972d3726178d306b22f9869f4842bbeeb4500cf5b965d40d664fa388c5163ad8.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（10分）",
+      "paper_blocks": [
+        71
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-C87177B213-Q22-P01",
+      "label": "（1）",
+      "prompt": "【探究发现】如图1，正方形ABCD的对角线相交于点O，在正方形A'B'C'O绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．证明：△OMC≌△OND；",
+      "stem_text": "【探究发现】如图1，正方形ABCD的对角线相交于点O，在正方形A'B'C'O绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．证明：△OMC≌△OND；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "∴△OMC≌△OND（ASA）",
+      "answer": "∴△OMC≌△OND（ASA）",
+      "given_solution": "证明：∵四边形ABCD是正方形，\n∴∠DOC＝90°，∠OCM＝∠ODN＝45°，OC＝OD，\n由旋转可知：∠C′OA′＝90°，\n∴∠C′OA′＝∠DOC＝90°，\n∴∠COA﹣∠CON＝∠DOC﹣∠CON，\n∴∠MOC＝∠NOD，\n∴△OMC≌△OND（ASA）；",
+      "solution_steps": [
+        "证明：∵四边形ABCD是正方形，",
+        "∴∠DOC＝90°，∠OCM＝∠ODN＝45°，OC＝OD，",
+        "由旋转可知：∠C′OA′＝90°，",
+        "∴∠C′OA′＝∠DOC＝90°，",
+        "∴∠COA﹣∠CON＝∠DOC﹣∠CON，",
+        "∴∠MOC＝∠NOD，",
+        "∴△OMC≌△OND（ASA）；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          71
+        ],
+        "solution_block_ids": [
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          28
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C87177B213-Q22-P02",
+      "label": "（2）",
+      "prompt": "【类比迁移】如图2，矩形ABCD的对角线相交于点O，且AB＝6，AD＝12．在矩形A'B'C'O，绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．若DN＝1，求CM的长；",
+      "stem_text": "【类比迁移】如图2，矩形ABCD的对角线相交于点O，且AB＝6，AD＝12．在矩形A'B'C'O，绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．若DN＝1，求CM的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "∴CM＝CP﹣PM＝6﹣1＝5",
+      "answer": "∴CM＝CP﹣PM＝6﹣1＝5",
+      "given_solution": "解：如图2，过点O作AB的平行线交AD于点E、交BC于点P，过点N作AB垂线交PE于点Q，\n〔图2〕\n∵四边形ABCD和四边形A′B′C′O都是矩形，AB＝6，AD＝12，DN＝1，\n∴∠OPM＝∠OQN＝∠MON＝90°，EQ＝DN＝1，\n∴OE＝OP＝〔图3〕AB＝3，NQ＝CP＝AE＝BP＝〔图3〕BC＝6，\n∴∠POM+∠QON＝∠QON+∠QNO＝90°，QO＝OE﹣EQ＝3﹣1＝2，\n∴∠POM＝∠QNO，\n∴△POM∽△QNO，\n∴〔图4〕＝〔图5〕，\n∴〔图6〕＝〔图7〕，\n∴PM＝1，\n∴CM＝CP﹣PM＝6﹣1＝5；",
+      "solution_steps": [
+        "解：如图2，过点O作AB的平行线交AD于点E、交BC于点P，过点N作AB垂线交PE于点Q，",
+        "〔图2〕",
+        "∵四边形ABCD和四边形A′B′C′O都是矩形，AB＝6，AD＝12，DN＝1，",
+        "∴∠OPM＝∠OQN＝∠MON＝90°，EQ＝DN＝1，",
+        "∴OE＝OP＝〔图3〕AB＝3，NQ＝CP＝AE＝BP＝〔图3〕BC＝6，",
+        "∴∠POM+∠QON＝∠QON+∠QNO＝90°，QO＝OE﹣EQ＝3﹣1＝2，",
+        "∴∠POM＝∠QNO，",
+        "∴△POM∽△QNO，",
+        "∴〔图4〕＝〔图5〕，",
+        "∴〔图6〕＝〔图7〕，",
+        "∴PM＝1，",
+        "∴CM＝CP﹣PM＝6﹣1＝5；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          72
+        ],
+        "solution_block_ids": [
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          28,
+          29
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-C87177B213-Q22-P03",
+      "label": "（3）",
+      "prompt": "【拓展应用】如图3，四边形ABCD和四边形A'B'C'O都是平行四边形，且∠A'OC'＝∠ADC，AB＝3，〔图1〕，△BCD是直角三角形．在▱A'B'C'O绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．当▱ABCD与▱A'B'C'O重叠部分的面积是▱ABCD的面积的〔图2〕时，请直接写出ON的长．〔图3〕\n2024-2025学年广东省深圳市龙华区外国语学校九年级（上）期中\n数学试卷",
+      "stem_text": "【拓展应用】如图3，四边形ABCD和四边形A'B'C'O都是平行四边形，且∠A'OC'＝∠ADC，AB＝3，〔图1〕，△BCD是直角三角形．在▱A'B'C'O绕点O旋转的过程中，边A'O与边BC交于点M，边C'O与边CD交于点N．当▱ABCD与▱A'B'C'O重叠部分的面积是▱ABCD的面积的〔图2〕时，请直接写出ON的长．〔图3〕\n2024-2025学年广东省深圳市龙华区外国语学校九年级（上）期中\n数学试卷",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "∴ON＝〔图32〕＝〔图33〕＝〔图34〕",
+      "answer": "∴ON＝〔图32〕＝〔图33〕＝〔图34〕",
+      "given_solution": "解：如阁，过点O作BC的垂线交BC于点H，\n〔图8〕\n设∠DBC＝α，则∠ADC＝α+90°＝∠A′OC′，\n设∠BOM＝β，则∠NOD＝180°﹣β﹣（a+90°）＝90°﹣α﹣β，\n∴∠OMH＝α+β，∠OND＝90°﹣∠NOD＝90°﹣（90°﹣α﹣β）＝α+β，\n∴∠OMH＝∠OND，\n∵∠OHM＝∠ODN＝90°，\n∴△OMH∽△OND，\n∵AB＝CD＝3，BC＝3〔图9〕，四边形ABCD和四边形A′B′C′O都是平行四边形，△BCD是直角三角形，\n∴BD＝〔图10〕＝〔图11〕＝6，\n∴OB＝OD＝3，\n∵∠OBH＝∠CBD，∠OHB＝∠CDB＝90°，\n∴△OBH∽△CDB，\n∴〔图12〕＝〔图13〕，\n∴〔图14〕＝〔图15〕，\n∴BH＝2OH，\n∵OH\\({}^{2}\\)+BH\\({}^{2}\\)＝OB\\({}^{2}\\)，\n∴OH\\({}^{2}\\)+4OH\\({}^{2}\\)＝3\\({}^{2}\\)，\n∴OH＝〔图16〕，\n∴BH＝2OH＝〔图17〕，\n设MH＝m，则BM＝BH﹣MH＝〔图17〕﹣m，\n∵△OMH∽△OND，\n∴〔图18〕＝〔图19〕，\n∴〔图20〕＝〔图21〕，\n∴ND＝〔图22〕m，\n∵▱ABCD与▱A'B'C'O重叠部分的面积〔图23〕，平行四边形对角线平分平行四边形的面积，\n∴S\\({}_{△}\\)\\({}_{BOM}\\)+S\\({}_{△}\\)\\({}_{ODN}\\)＝〔图24〕S\\({}_{△}\\)\\({}_{BCD}\\)，\n∴〔图24〕×（〔图25〕﹣m）×〔图26〕+〔图27〕3×〔图28〕m＝〔图27〕〔图29〕×3×6，\n∴m＝〔图30〕\n∴ND＝〔图28〕m＝〔图31〕，\n∴ON＝〔图32〕＝〔图33〕＝〔图34〕．",
+      "solution_steps": [
+        "解：如阁，过点O作BC的垂线交BC于点H，",
+        "〔图8〕",
+        "设∠DBC＝α，则∠ADC＝α+90°＝∠A′OC′，",
+        "设∠BOM＝β，则∠NOD＝180°﹣β﹣（a+90°）＝90°﹣α﹣β，",
+        "∴∠OMH＝α+β，∠OND＝90°﹣∠NOD＝90°﹣（90°﹣α﹣β）＝α+β，",
+        "∴∠OMH＝∠OND，",
+        "∵∠OHM＝∠ODN＝90°，",
+        "∴△OMH∽△OND，",
+        "∵AB＝CD＝3，BC＝3〔图9〕，四边形ABCD和四边形A′B′C′O都是平行四边形，△BCD是直角三角形，",
+        "∴BD＝〔图10〕＝〔图11〕＝6，",
+        "∴OB＝OD＝3，",
+        "∵∠OBH＝∠CBD，∠OHB＝∠CDB＝90°，",
+        "∴△OBH∽△CDB，",
+        "∴〔图12〕＝〔图13〕，",
+        "∴〔图14〕＝〔图15〕，",
+        "∴BH＝2OH，",
+        "∵OH\\({}^{2}\\)+BH\\({}^{2}\\)＝OB\\({}^{2}\\)，",
+        "∴OH\\({}^{2}\\)+4OH\\({}^{2}\\)＝3\\({}^{2}\\)，",
+        "∴OH＝〔图16〕，",
+        "∴BH＝2OH＝〔图17〕，",
+        "设MH＝m，则BM＝BH﹣MH＝〔图17〕﹣m，",
+        "∵△OMH∽△OND，",
+        "∴〔图18〕＝〔图19〕，",
+        "∴〔图20〕＝〔图21〕，",
+        "∴ND＝〔图22〕m，",
+        "∵▱ABCD与▱A'B'C'O重叠部分的面积〔图23〕，平行四边形对角线平分平行四边形的面积，",
+        "∴S\\({}_{△}\\)\\({}_{BOM}\\)+S\\({}_{△}\\)\\({}_{ODN}\\)＝〔图24〕S\\({}_{△}\\)\\({}_{BCD}\\)，",
+        "∴〔图24〕×（〔图25〕﹣m）×〔图26〕+〔图27〕3×〔图28〕m＝〔图27〕〔图29〕×3×6，",
+        "∴m＝〔图30〕",
+        "∴ND＝〔图28〕m＝〔图31〕，",
+        "∴ON＝〔图32〕＝〔图33〕＝〔图34〕．"
+      ],
+      "solution_figure_ids": [
+        32,
+        33,
+        34,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31
+      ],
+      "source": {
+        "paper_block_ids": [
+          71,
+          73,
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          485,
+          486,
+          487,
+          488,
+          489,
+          490,
+          491,
+          492,
+          493,
+          494,
+          495,
+          496,
+          497,
+          498,
+          499,
+          500,
+          501,
+          502,
+          503,
+          504,
+          505,
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515
+        ],
+        "question_pages": [
+          6,
+          7,
+          8
+        ],
+        "solution_pages": [
+          29,
+          30
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "",
+  "given_solution": "【分析】（1）根据正方形的性质证明三角形全等即可；\n（2）过点O作AB的平行线交AD于点E、交BC于点P，过点N作AB垂线交PE于点Q，构造相似三角形△POM∽△QNO，对应边成比比例求PM，然后根据CM＝CP﹣MP计算即可；\n（3）过点O作BC的垂线交BC于点H，根据勾股定理求出BD，根据已知条件观察推理出△OMH∽△OND，△OBH∽△CBD，结合当▱ABCD与▱A'B'C'O重叠部分的面积是▱ABCD的面积的〔图1〕，设MH＝m，列方程求出m，最后根据勾股定理求出ON即可．\n【解答】（1）证明：∵四边形ABCD是正方形，\n∴∠DOC＝90°，∠OCM＝∠ODN＝45°，OC＝OD，\n由旋转可知：∠C′OA′＝90°，\n∴∠C′OA′＝∠DOC＝90°，\n∴∠COA﹣∠CON＝∠DOC﹣∠CON，\n∴∠MOC＝∠NOD，\n∴△OMC≌△OND（ASA）；\n（2）解：如图2，过点O作AB的平行线交AD于点E、交BC于点P，过点N作AB垂线交PE于点Q，\n〔图2〕\n∵四边形ABCD和四边形A′B′C′O都是矩形，AB＝6，AD＝12，DN＝1，\n∴∠OPM＝∠OQN＝∠MON＝90°，EQ＝DN＝1，\n∴OE＝OP＝〔图3〕AB＝3，NQ＝CP＝AE＝BP＝〔图3〕BC＝6，\n∴∠POM+∠QON＝∠QON+∠QNO＝90°，QO＝OE﹣EQ＝3﹣1＝2，\n∴∠POM＝∠QNO，\n∴△POM∽△QNO，\n∴〔图4〕＝〔图5〕，\n∴〔图6〕＝〔图7〕，\n∴PM＝1，\n∴CM＝CP﹣PM＝6﹣1＝5；\n（3）解：如阁，过点O作BC的垂线交BC于点H，\n〔图8〕\n设∠DBC＝α，则∠ADC＝α+90°＝∠A′OC′，\n设∠BOM＝β，则∠NOD＝180°﹣β﹣（a+90°）＝90°﹣α﹣β，\n∴∠OMH＝α+β，∠OND＝90°﹣∠NOD＝90°﹣（90°﹣α﹣β）＝α+β，\n∴∠OMH＝∠OND，\n∵∠OHM＝∠ODN＝90°，\n∴△OMH∽△OND，\n∵AB＝CD＝3，BC＝3〔图9〕，四边形ABCD和四边形A′B′C′O都是平行四边形，△BCD是直角三角形，\n∴BD＝〔图10〕＝〔图11〕＝6，\n∴OB＝OD＝3，\n∵∠OBH＝∠CBD，∠OHB＝∠CDB＝90°，\n∴△OBH∽△CDB，\n∴〔图12〕＝〔图13〕，\n∴〔图14〕＝〔图15〕，\n∴BH＝2OH，\n∵OH\\({}^{2}\\)+BH\\({}^{2}\\)＝OB\\({}^{2}\\)，\n∴OH\\({}^{2}\\)+4OH\\({}^{2}\\)＝3\\({}^{2}\\)，\n∴OH＝〔图16〕，\n∴BH＝2OH＝〔图17〕，\n设MH＝m，则BM＝BH﹣MH＝〔图17〕﹣m，\n∵△OMH∽△OND，\n∴〔图18〕＝〔图19〕，\n∴〔图20〕＝〔图21〕，\n∴ND＝〔图22〕m，\n∵▱ABCD与▱A'B'C'O重叠部分的面积〔图23〕，平行四边形对角线平分平行四边形的面积，\n∴S\\({}_{△}\\)\\({}_{BOM}\\)+S\\({}_{△}\\)\\({}_{ODN}\\)＝〔图24〕S\\({}_{△}\\)\\({}_{BCD}\\)，\n∴〔图24〕×（〔图25〕﹣m）×〔图26〕+〔图27〕3×〔图28〕m＝〔图27〕〔图29〕×3×6，\n∴m＝〔图30〕\n∴ND＝〔图28〕m＝〔图31〕，\n∴ON＝〔图32〕＝〔图33〕＝〔图34〕．\n【点评】本题是四边形的综合题，考查了全等三角形的判定与性质、勾股定理、平行四边形、矩形、正方形的性质、相似三角形的判定与性质，熟练掌握相关知识得到△OMH∽△OND是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-C87177B213/figures/fc14710b3a358b0ecdd5a25d3c3ce8839042ea74c97560dd7129cf9b81b0c036.png",
+    "assets/SZ-G9-T1-C87177B213/figures/cf7f0368a1ef5ebdda24296934da13342ae378c33b81ef5259ce40e9b2095a23.png",
+    "assets/SZ-G9-T1-C87177B213/figures/83b49392c351c07c351667b30447b04fb00a7ca4fd45ad389966e965ec57e70e.png",
+    "assets/SZ-G9-T1-C87177B213/figures/093454dbe2cea455908e1ac496360ad0cb9f1d5f717e0c09c0366c4e1ebbaf62.png",
+    "assets/SZ-G9-T1-C87177B213/figures/2318d00d8f7adebf2df866ecf91082cdc7d26afbdd93f5f3968d4c845e63a151.png",
+    "assets/SZ-G9-T1-C87177B213/figures/72415489f7d2cd6b6650d202b358d67251c3c8e256446240d1f891126640d5d2.png",
+    "assets/SZ-G9-T1-C87177B213/figures/a77b55b99cfeeef594e2af497de3e85f97bb8c57e2776bfb3ca7f55fa650d9e0.png",
+    "assets/SZ-G9-T1-C87177B213/figures/5ed882d1c12df4fbcc35a95c2b800b66e013b0c83bc11e5d073b680f9474cfc1.png",
+    "assets/SZ-G9-T1-C87177B213/figures/c9e8ac366bf58ff40e2b051881d1e138936bf01fc09910c511fedbe33ca488a5.png",
+    "assets/SZ-G9-T1-C87177B213/figures/55c94eefbdc0de08106709629d0402c976b6e828fc01fc2c07c0047d2e2d6e10.png",
+    "assets/SZ-G9-T1-C87177B213/figures/5324f6d35eefc98be08179cad5f8f5cf1c8467c4d1fdaae21243c31988b33454.png",
+    "assets/SZ-G9-T1-C87177B213/figures/d68a0e0d954d04796d03e9fdfcd500b387f86ada1f2f4e6a3e49ad9efa932764.png",
+    "assets/SZ-G9-T1-C87177B213/figures/80c24c2470d5dc9e4cdd36622307e402940e738e8c8fccc269ff96e58d4b8ba0.png",
+    "assets/SZ-G9-T1-C87177B213/figures/6c2db86e194c49f7276b14d2ab1313b02afa015a6620cd6389b62a35dc53ba27.png",
+    "assets/SZ-G9-T1-C87177B213/figures/453ca524d303639e9309de2528dc2998f098e4e81e24d34bcbb5ca03acbeaf5b.png",
+    "assets/SZ-G9-T1-C87177B213/figures/ae8f36f12e4227b265ccd048128a54d8b7e4d8c965bba319335e87647d72d099.png",
+    "assets/SZ-G9-T1-C87177B213/figures/23ac7b478b80b8827beda95c0152a3aecaa9d881c90fa00c7c5f289f58a1b711.png",
+    "assets/SZ-G9-T1-C87177B213/figures/db0e3dd8d016e4c448c23eb04450c7d88508a90a6b95a440eea93d831a81d41a.png",
+    "assets/SZ-G9-T1-C87177B213/figures/662101d2f8b4a9731438487b37b4b66de2e648bf7141fed7a931c3a67941e014.png",
+    "assets/SZ-G9-T1-C87177B213/figures/ebf52de0a796229c3c3ac92670a8aad67d6a366b215a98bb4de67faa5e4436ee.png",
+    "assets/SZ-G9-T1-C87177B213/figures/e33afa07c025b84e78f2a81f6fcbcbf7fecc471fad1225114948b9335a5277a1.png",
+    "assets/SZ-G9-T1-C87177B213/figures/49e2cb820bc9aafc011d764a2dc471e58568026ed4fcdde5c8747dca38081f1b.png",
+    "assets/SZ-G9-T1-C87177B213/figures/832877fc19f915662802a3f6210de1b01ec6774233be7e016b47f5dc080db073.png",
+    "assets/SZ-G9-T1-C87177B213/figures/a1d2a9f831448d0d3776aa8e2ef72f66d81db4fa3079e882a95c2e0477da94e2.png",
+    "assets/SZ-G9-T1-C87177B213/figures/3480e6e10637ef2016357f5c10a61b79588225e6939b2c3550cedd66fcbf4bcc.png",
+    "assets/SZ-G9-T1-C87177B213/figures/1aa599e3a6c9f689d547d6b613c7241e3385f5e9def48811ebe87f16bb40a88f.png",
+    "assets/SZ-G9-T1-C87177B213/figures/57b903338df1146a6ab6531f0c523868d61ef19d4a6dfd3d707788706ff01cdf.png",
+    "assets/SZ-G9-T1-C87177B213/figures/e86f2fa52928b266f4e5be0fa4e096c2b3e0421f732d6b467cdf522d30343c70.png",
+    "assets/SZ-G9-T1-C87177B213/figures/dbb259fef52c2854101c00560a8a2d0903f57fe4d34129516b499f3af174b49d.png",
+    "assets/SZ-G9-T1-C87177B213/figures/156cdf34bf596b7b05d68bebd66a00d5c6004f3cae43af71c83f655ddeece423.png",
+    "assets/SZ-G9-T1-C87177B213/figures/0ce2b099cde5c1f7d6f3e7ccb5ab52b7cf8e82ca61bc2c50dd9d334d60769155.png",
+    "assets/SZ-G9-T1-C87177B213/figures/adedff044fd07f54e77033e54df13c9d1885c51d5f64354ff91c283f315391db.png",
+    "assets/SZ-G9-T1-C87177B213/figures/d6fa84c8864c020f5715ce54b871c31d0b01f92345d521fa8654eeaa56166e89.png",
+    "assets/SZ-G9-T1-C87177B213/figures/b63311d7803db1b0d5167528bf1818942f30004fb7cf3bd4d049a5d4db473ea8.png"
+  ],
+  "answer": "（1）∴△OMC≌△OND（ASA）\n（2）∴CM＝CP﹣PM＝6﹣1＝5\n（3）∴ON＝〔图32〕＝〔图33〕＝〔图34〕",
+  "solution_steps": [
+    "（1）证明：∵四边形ABCD是正方形，",
+    "∴∠DOC＝90°，∠OCM＝∠ODN＝45°，OC＝OD，",
+    "由旋转可知：∠C′OA′＝90°，",
+    "∴∠C′OA′＝∠DOC＝90°，",
+    "∴∠COA﹣∠CON＝∠DOC﹣∠CON，",
+    "∴∠MOC＝∠NOD，",
+    "∴△OMC≌△OND（ASA）；",
+    "（2）解：如图2，过点O作AB的平行线交AD于点E、交BC于点P，过点N作AB垂线交PE于点Q，",
+    "〔图2〕",
+    "∵四边形ABCD和四边形A′B′C′O都是矩形，AB＝6，AD＝12，DN＝1，",
+    "∴∠OPM＝∠OQN＝∠MON＝90°，EQ＝DN＝1，",
+    "∴OE＝OP＝〔图3〕AB＝3，NQ＝CP＝AE＝BP＝〔图3〕BC＝6，",
+    "∴∠POM+∠QON＝∠QON+∠QNO＝90°，QO＝OE﹣EQ＝3﹣1＝2，",
+    "∴∠POM＝∠QNO，",
+    "∴△POM∽△QNO，",
+    "∴〔图4〕＝〔图5〕，",
+    "∴〔图6〕＝〔图7〕，",
+    "∴PM＝1，",
+    "∴CM＝CP﹣PM＝6﹣1＝5；",
+    "（3）解：如阁，过点O作BC的垂线交BC于点H，",
+    "〔图8〕",
+    "设∠DBC＝α，则∠ADC＝α+90°＝∠A′OC′，",
+    "设∠BOM＝β，则∠NOD＝180°﹣β﹣（a+90°）＝90°﹣α﹣β，",
+    "∴∠OMH＝α+β，∠OND＝90°﹣∠NOD＝90°﹣（90°﹣α﹣β）＝α+β，",
+    "∴∠OMH＝∠OND，",
+    "∵∠OHM＝∠ODN＝90°，",
+    "∴△OMH∽△OND，",
+    "∵AB＝CD＝3，BC＝3〔图9〕，四边形ABCD和四边形A′B′C′O都是平行四边形，△BCD是直角三角形，",
+    "∴BD＝〔图10〕＝〔图11〕＝6，",
+    "∴OB＝OD＝3，",
+    "∵∠OBH＝∠CBD，∠OHB＝∠CDB＝90°，",
+    "∴△OBH∽△CDB，",
+    "∴〔图12〕＝〔图13〕，",
+    "∴〔图14〕＝〔图15〕，",
+    "∴BH＝2OH，",
+    "∵OH\\({}^{2}\\)+BH\\({}^{2}\\)＝OB\\({}^{2}\\)，",
+    "∴OH\\({}^{2}\\)+4OH\\({}^{2}\\)＝3\\({}^{2}\\)，",
+    "∴OH＝〔图16〕，",
+    "∴BH＝2OH＝〔图17〕，",
+    "设MH＝m，则BM＝BH﹣MH＝〔图17〕﹣m，",
+    "∵△OMH∽△OND，",
+    "∴〔图18〕＝〔图19〕，",
+    "∴〔图20〕＝〔图21〕，",
+    "∴ND＝〔图22〕m，",
+    "∵▱ABCD与▱A'B'C'O重叠部分的面积〔图23〕，平行四边形对角线平分平行四边形的面积，",
+    "∴S\\({}_{△}\\)\\({}_{BOM}\\)+S\\({}_{△}\\)\\({}_{ODN}\\)＝〔图24〕S\\({}_{△}\\)\\({}_{BCD}\\)，",
+    "∴〔图24〕×（〔图25〕﹣m）×〔图26〕+〔图27〕3×〔图28〕m＝〔图27〕〔图29〕×3×6，",
+    "∴m＝〔图30〕",
+    "∴ND＝〔图28〕m＝〔图31〕，",
+    "∴ON＝〔图32〕＝〔图33〕＝〔图34〕．"
+  ],
+  "solution": "（1）证明：∵四边形ABCD是正方形，\n∴∠DOC＝90°，∠OCM＝∠ODN＝45°，OC＝OD，\n由旋转可知：∠C′OA′＝90°，\n∴∠C′OA′＝∠DOC＝90°，\n∴∠COA﹣∠CON＝∠DOC﹣∠CON，\n∴∠MOC＝∠NOD，\n∴△OMC≌△OND（ASA）；\n（2）解：如图2，过点O作AB的平行线交AD于点E、交BC于点P，过点N作AB垂线交PE于点Q，\n〔图2〕\n∵四边形ABCD和四边形A′B′C′O都是矩形，AB＝6，AD＝12，DN＝1，\n∴∠OPM＝∠OQN＝∠MON＝90°，EQ＝DN＝1，\n∴OE＝OP＝〔图3〕AB＝3，NQ＝CP＝AE＝BP＝〔图3〕BC＝6，\n∴∠POM+∠QON＝∠QON+∠QNO＝90°，QO＝OE﹣EQ＝3﹣1＝2，\n∴∠POM＝∠QNO，\n∴△POM∽△QNO，\n∴〔图4〕＝〔图5〕，\n∴〔图6〕＝〔图7〕，\n∴PM＝1，\n∴CM＝CP﹣PM＝6﹣1＝5；\n（3）解：如阁，过点O作BC的垂线交BC于点H，\n〔图8〕\n设∠DBC＝α，则∠ADC＝α+90°＝∠A′OC′，\n设∠BOM＝β，则∠NOD＝180°﹣β﹣（a+90°）＝90°﹣α﹣β，\n∴∠OMH＝α+β，∠OND＝90°﹣∠NOD＝90°﹣（90°﹣α﹣β）＝α+β，\n∴∠OMH＝∠OND，\n∵∠OHM＝∠ODN＝90°，\n∴△OMH∽△OND，\n∵AB＝CD＝3，BC＝3〔图9〕，四边形ABCD和四边形A′B′C′O都是平行四边形，△BCD是直角三角形，\n∴BD＝〔图10〕＝〔图11〕＝6，\n∴OB＝OD＝3，\n∵∠OBH＝∠CBD，∠OHB＝∠CDB＝90°，\n∴△OBH∽△CDB，\n∴〔图12〕＝〔图13〕，\n∴〔图14〕＝〔图15〕，\n∴BH＝2OH，\n∵OH\\({}^{2}\\)+BH\\({}^{2}\\)＝OB\\({}^{2}\\)，\n∴OH\\({}^{2}\\)+4OH\\({}^{2}\\)＝3\\({}^{2}\\)，\n∴OH＝〔图16〕，\n∴BH＝2OH＝〔图17〕，\n设MH＝m，则BM＝BH﹣MH＝〔图17〕﹣m，\n∵△OMH∽△OND，\n∴〔图18〕＝〔图19〕，\n∴〔图20〕＝〔图21〕，\n∴ND＝〔图22〕m，\n∵▱ABCD与▱A'B'C'O重叠部分的面积〔图23〕，平行四边形对角线平分平行四边形的面积，\n∴S\\({}_{△}\\)\\({}_{BOM}\\)+S\\({}_{△}\\)\\({}_{ODN}\\)＝〔图24〕S\\({}_{△}\\)\\({}_{BCD}\\)，\n∴〔图24〕×（〔图25〕﹣m）×〔图26〕+〔图27〕3×〔图28〕m＝〔图27〕〔图29〕×3×6，\n∴m＝〔图30〕\n∴ND＝〔图28〕m＝〔图31〕，\n∴ON＝〔图32〕＝〔图33〕＝〔图34〕．",
+  "solution_origin": "source_solution_summary",
+  "solution_figure_ids": [
+    32,
+    33,
+    34,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      71,
+      76
+    ],
+    "solution_body_blocks": [
+      463,
+      517
+    ],
+    "question_pages": [
+      6,
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-C87177B213/paper-q22-p06.webp",
+      "assets/SZ-G9-T1-C87177B213/paper-q22-p07.webp",
+      "assets/SZ-G9-T1-C87177B213/paper-q22-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          729.09,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          354.09
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          100.45,
+          583.64,
+          150.91
+        ]
+      }
+    ],
+    "solution_pages": [
+      28,
+      29,
+      30
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-C87177B213/solution-q22-p28.webp",
+      "assets/SZ-G9-T1-C87177B213/solution-q22-p29.webp",
+      "assets/SZ-G9-T1-C87177B213/solution-q22-p30.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 28,
+        "bbox_pt": [
+          11.82,
+          317.27,
+          583.64,
+          768.18
+        ]
+      },
+      {
+        "page": 29,
+        "bbox_pt": [
+          11.82,
+          75.45,
+          583.64,
+          744.09
+        ]
+      },
+      {
+        "page": 30,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          651.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“选择充分条件证明三角形全等”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

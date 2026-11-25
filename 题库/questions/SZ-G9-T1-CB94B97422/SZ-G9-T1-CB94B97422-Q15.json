@@ -1,0 +1,126 @@
+{
+  "id": "SZ-G9-T1-CB94B97422-Q15",
+  "paper_id": "SZ-G9-T1-CB94B97422",
+  "number": 15,
+  "type": "填空题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "如图，将□ABCD绕点\\(A\\)逆时针旋转到\\(▱AB'C'D'\\)的位置，使点\\(B'\\)落在\\(BC\\)上，\\(B'C'\\)与\\(CD\\)交于点\\(E\\)；若\\(AB=3\\)，\\(BC=4\\)，\\(BB'=1\\)，则\\(CE\\)的长为       ．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-CB94B97422/figures/b92cd40444569d76f5810a86444115698d94ceb960e700b903b73654a2afae8c.png"
+  ],
+  "tables": [],
+  "materials": [],
+  "parts": [],
+  "given_answer": "\\(\\frac { 9 } { 8 }\\)",
+  "given_solution": "【分析】如图，过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，过点\\(B\\)作\\(BN\\bot AB'\\)于点\\(N\\)，过点\\(E\\)作\\(EG\\bot BC\\)，交\\(BC\\)的延长线于点\\(G\\)．结合已知运用勾股定理求\\(AM\\)，利用等积法求\\(BN\\),证\\(\\vartriangle AMB\\sim \\vartriangle EGC\\)，得\\(\\frac { AM } { BM }=\\frac { EG } { CG }=\\sqrt[] { 35 }\\)，设\\(CG=a\\)，则\\(EG=\\sqrt[] { 35 }a\\)，证\\(\\vartriangle ANB\\sim \\vartriangle B'GC\\)，得\\(\\frac { AN } { BN }=\\frac { B'G } { EG }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，可求出a,最后运用勾股定理\\(EC=\\sqrt[] { CG ^ { 2 } +EG ^ { 2 } }\\)求解即可 ．\n【详解】解：如图，过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，过点\\(B\\)作\\(BN\\bot AB'\\)于点\\(N\\)，过点\\(E\\)作\\(EG\\bot BC\\)，交\\(BC\\)的延长线于点\\(G\\)．\n〔图1〕\n由旋转可知，\\(AB=AB'=3\\)，\\(\\angle ABB'=\\angle AB'C'\\)，\n\\(\\therefore \\angle ABB'=\\angle AB'B=\\angle AB'C'\\)，\n\\(\\because BB'=1\\)，\\(AM\\bot BB'\\)，\n\\(\\therefore BM=B'M=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 35 } } { 2 }\\)，\n\\(\\because S_{ \\vartriangle ABB' } =\\frac { 1 } { 2 }\\cdot AM\\cdot BB'=\\frac { 1 } { 2 }\\cdot BN\\cdot AB'\\)，\n\\(\\therefore \\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 35 } } { 2 }\\times 1=\\frac { 1 } { 2 }\\cdot BN\\times 3\\)，则\\(BN=\\frac { \\sqrt[] { 35 } } { 6 }\\)，\n\\(\\therefore AN=\\sqrt[] { AB ^ { 2 } -BN ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } -(\\frac { \\sqrt[] { 35 } } { 6 }) ^ { 2 } }=\\frac { 17 } { 6 }\\)，\n\\(\\because AB\\parallel DC\\)\n\\(\\therefore \\angle ECG=\\angle ABC\\)，\n\\(\\because \\angle AMB=\\angle EGC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AMB\\sim \\vartriangle EGC\\)，\n\\(\\therefore \\frac { AM } { BM }=\\frac { EG } { CG }=\\frac { \\frac { \\sqrt[] { 35 } } { 2 } } { \\frac { 1 } { 2 } }=\\sqrt[] { 35 }\\)，\n设\\(CG=a\\)，则\\(EG=\\sqrt[] { 35 }a\\)，\n\\(\\because \\angle ABB'+\\angle AB'B+\\angle BAB'=180{}^\\circ\\)，\n\\(\\angle AB'B+\\angle AB'C'+\\angle C'B'C=180{}^\\circ\\)，\n又\\(\\because \\angle ABB'=\\angle AB'B=\\angle AB'C'\\)，\n\\(\\therefore \\angle BAB'=\\angle C'B'C\\)，\n\\(\\because \\angle ANB=\\angle EGC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ANB\\sim \\vartriangle B'GC\\)，\n\\(\\therefore \\frac { AN } { BN }=\\frac { B'G } { EG }=\\frac { \\frac { 17 } { 6 } } { \\frac { \\sqrt[] { 35 } } { 6 } }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，\n\\(\\because BC=4\\)，\\(BB'=1\\)，\n\\(\\therefore B'C=3\\)，\\(B'G=3+a\\)，\n\\(\\therefore \\frac { 3+a } { \\sqrt[] { 35 }a }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，解得\\(a=\\frac { 3 } { 16 }\\)．\n\\(\\therefore CG=\\frac { 3 } { 16 }\\)，\\(EG=\\frac { 3 } { 16 }\\sqrt[] { 35 }\\)，\n\\(\\therefore EC=\\sqrt[] { CG ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { (\\frac { 3 } { 16 }) ^ { 2 } +(\\frac { 3 } { 16 }\\sqrt[] { 35 }) ^ { 2 } }=\\frac { 9 } { 8 }\\)．\n故答案为：\\(\\frac { 9 } { 8 }\\)．\n【点睛】本题考查了平行四边形和旋转的性质、相似三角形的判定和性质、勾股定理解直角三角形；利用相关性质证明三角形相似并建立相等关系是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-CB94B97422/figures/d20e57c49d378ea1423c0ccae0001d2aa43fe048bdff6159d70513a94d08448e.png"
+  ],
+  "answer": "\\(\\frac { 9 } { 8 }\\)",
+  "solution_steps": [
+    "解：如图，过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，过点\\(B\\)作\\(BN\\bot AB'\\)于点\\(N\\)，过点\\(E\\)作\\(EG\\bot BC\\)，交\\(BC\\)的延长线于点\\(G\\)．",
+    "〔图1〕",
+    "由旋转可知，\\(AB=AB'=3\\)，\\(\\angle ABB'=\\angle AB'C'\\)，",
+    "\\(\\therefore \\angle ABB'=\\angle AB'B=\\angle AB'C'\\)，",
+    "\\(\\because BB'=1\\)，\\(AM\\bot BB'\\)，",
+    "\\(\\therefore BM=B'M=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 35 } } { 2 }\\)，",
+    "\\(\\because S_{ \\vartriangle ABB' } =\\frac { 1 } { 2 }\\cdot AM\\cdot BB'=\\frac { 1 } { 2 }\\cdot BN\\cdot AB'\\)，",
+    "\\(\\therefore \\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 35 } } { 2 }\\times 1=\\frac { 1 } { 2 }\\cdot BN\\times 3\\)，则\\(BN=\\frac { \\sqrt[] { 35 } } { 6 }\\)，",
+    "\\(\\therefore AN=\\sqrt[] { AB ^ { 2 } -BN ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } -(\\frac { \\sqrt[] { 35 } } { 6 }) ^ { 2 } }=\\frac { 17 } { 6 }\\)，",
+    "\\(\\because AB\\parallel DC\\)",
+    "\\(\\therefore \\angle ECG=\\angle ABC\\)，",
+    "\\(\\because \\angle AMB=\\angle EGC=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle AMB\\sim \\vartriangle EGC\\)，",
+    "\\(\\therefore \\frac { AM } { BM }=\\frac { EG } { CG }=\\frac { \\frac { \\sqrt[] { 35 } } { 2 } } { \\frac { 1 } { 2 } }=\\sqrt[] { 35 }\\)，",
+    "设\\(CG=a\\)，则\\(EG=\\sqrt[] { 35 }a\\)，",
+    "\\(\\because \\angle ABB'+\\angle AB'B+\\angle BAB'=180{}^\\circ\\)，",
+    "\\(\\angle AB'B+\\angle AB'C'+\\angle C'B'C=180{}^\\circ\\)，",
+    "又\\(\\because \\angle ABB'=\\angle AB'B=\\angle AB'C'\\)，",
+    "\\(\\therefore \\angle BAB'=\\angle C'B'C\\)，",
+    "\\(\\because \\angle ANB=\\angle EGC=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle ANB\\sim \\vartriangle B'GC\\)，",
+    "\\(\\therefore \\frac { AN } { BN }=\\frac { B'G } { EG }=\\frac { \\frac { 17 } { 6 } } { \\frac { \\sqrt[] { 35 } } { 6 } }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，",
+    "\\(\\because BC=4\\)，\\(BB'=1\\)，",
+    "\\(\\therefore B'C=3\\)，\\(B'G=3+a\\)，",
+    "\\(\\therefore \\frac { 3+a } { \\sqrt[] { 35 }a }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，解得\\(a=\\frac { 3 } { 16 }\\)．",
+    "\\(\\therefore CG=\\frac { 3 } { 16 }\\)，\\(EG=\\frac { 3 } { 16 }\\sqrt[] { 35 }\\)，",
+    "\\(\\therefore EC=\\sqrt[] { CG ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { (\\frac { 3 } { 16 }) ^ { 2 } +(\\frac { 3 } { 16 }\\sqrt[] { 35 }) ^ { 2 } }=\\frac { 9 } { 8 }\\)．",
+    "故答案为：\\(\\frac { 9 } { 8 }\\)．"
+  ],
+  "solution": "解：如图，过点\\(A\\)作\\(AM\\bot BC\\)于点\\(M\\)，过点\\(B\\)作\\(BN\\bot AB'\\)于点\\(N\\)，过点\\(E\\)作\\(EG\\bot BC\\)，交\\(BC\\)的延长线于点\\(G\\)．\n〔图1〕\n由旋转可知，\\(AB=AB'=3\\)，\\(\\angle ABB'=\\angle AB'C'\\)，\n\\(\\therefore \\angle ABB'=\\angle AB'B=\\angle AB'C'\\)，\n\\(\\because BB'=1\\)，\\(AM\\bot BB'\\)，\n\\(\\therefore BM=B'M=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AM=\\sqrt[] { AB ^ { 2 } -BM ^ { 2 } }=\\frac { \\sqrt[] { 35 } } { 2 }\\)，\n\\(\\because S_{ \\vartriangle ABB' } =\\frac { 1 } { 2 }\\cdot AM\\cdot BB'=\\frac { 1 } { 2 }\\cdot BN\\cdot AB'\\)，\n\\(\\therefore \\frac { 1 } { 2 }\\times \\frac { \\sqrt[] { 35 } } { 2 }\\times 1=\\frac { 1 } { 2 }\\cdot BN\\times 3\\)，则\\(BN=\\frac { \\sqrt[] { 35 } } { 6 }\\)，\n\\(\\therefore AN=\\sqrt[] { AB ^ { 2 } -BN ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } -(\\frac { \\sqrt[] { 35 } } { 6 }) ^ { 2 } }=\\frac { 17 } { 6 }\\)，\n\\(\\because AB\\parallel DC\\)\n\\(\\therefore \\angle ECG=\\angle ABC\\)，\n\\(\\because \\angle AMB=\\angle EGC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle AMB\\sim \\vartriangle EGC\\)，\n\\(\\therefore \\frac { AM } { BM }=\\frac { EG } { CG }=\\frac { \\frac { \\sqrt[] { 35 } } { 2 } } { \\frac { 1 } { 2 } }=\\sqrt[] { 35 }\\)，\n设\\(CG=a\\)，则\\(EG=\\sqrt[] { 35 }a\\)，\n\\(\\because \\angle ABB'+\\angle AB'B+\\angle BAB'=180{}^\\circ\\)，\n\\(\\angle AB'B+\\angle AB'C'+\\angle C'B'C=180{}^\\circ\\)，\n又\\(\\because \\angle ABB'=\\angle AB'B=\\angle AB'C'\\)，\n\\(\\therefore \\angle BAB'=\\angle C'B'C\\)，\n\\(\\because \\angle ANB=\\angle EGC=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ANB\\sim \\vartriangle B'GC\\)，\n\\(\\therefore \\frac { AN } { BN }=\\frac { B'G } { EG }=\\frac { \\frac { 17 } { 6 } } { \\frac { \\sqrt[] { 35 } } { 6 } }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，\n\\(\\because BC=4\\)，\\(BB'=1\\)，\n\\(\\therefore B'C=3\\)，\\(B'G=3+a\\)，\n\\(\\therefore \\frac { 3+a } { \\sqrt[] { 35 }a }=\\frac { 17 } { \\sqrt[] { 35 } }\\)，解得\\(a=\\frac { 3 } { 16 }\\)．\n\\(\\therefore CG=\\frac { 3 } { 16 }\\)，\\(EG=\\frac { 3 } { 16 }\\sqrt[] { 35 }\\)，\n\\(\\therefore EC=\\sqrt[] { CG ^ { 2 } +EG ^ { 2 } }=\\sqrt[] { (\\frac { 3 } { 16 }) ^ { 2 } +(\\frac { 3 } { 16 }\\sqrt[] { 35 }) ^ { 2 } }=\\frac { 9 } { 8 }\\)．\n故答案为：\\(\\frac { 9 } { 8 }\\)．",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      52,
+      54
+    ],
+    "solution_body_blocks": [
+      252,
+      285
+    ],
+    "question_pages": [
+      4
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-CB94B97422/paper-q15-p04.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          455.91,
+          583.64,
+          610.0
+        ]
+      }
+    ],
+    "solution_pages": [
+      13,
+      14
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-CB94B97422/solution-q15-p13.webp",
+      "assets/SZ-G9-T1-CB94B97422/solution-q15-p14.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 13,
+        "bbox_pt": [
+          11.82,
+          186.82,
+          583.64,
+          769.09
+        ]
+      },
+      {
+        "page": 14,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          579.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

@@ -1,0 +1,319 @@
+{
+  "id": "SZ-G9-T1-7C6ED9DD4A-Q21",
+  "paper_id": "SZ-G9-T1-7C6ED9DD4A",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、将折叠条件转为可计算的几何关系",
+  "stem": "在长方形纸片\\(ABCD\\)中，\\(AB=9\\)，\\(AD=6\\)，现将这张纸片按下列图示方法折叠，请解决下列问题．\n〔图1〕\n（1）如图（1），折痕为\\(DE\\)，点A的对应点F在\\(CD\\)上，折痕\\(DE\\)的长是______；\n（2）如图（2），H，G分别为\\(BC\\)，\\(AD\\)的中点，A的对应点F在\\(HG\\)上，求折痕\\(DE\\)的长；\n（3）如图（3），在图（2）中，把长方形\\(ABCD\\)沿着\\(HG\\)剪开，变成两张长方形纸片，将两张纸片任意叠合，使得重叠部分是四边形\\(PQMN\\)，重叠四边形\\(PQMN\\)的周长是否存在最大值？如果存在，试求出来；如果不存在，试简要说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/b3fc483e84710b9cc9feb71f004e8a1403defb973069ae3db33d168c49a72092.jpeg"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(6\\sqrt[] { 2 }\\)\n（2）\\(4\\sqrt[] { 3 }\\)\n（3）存在，20",
+  "answer": "（1）\\(6\\sqrt[] { 2 }\\)\n（2）\\(4\\sqrt[] { 3 }\\)\n（3）存在，20",
+  "given_solution": "【分析】（1）根据题意可得四边形\\(ADFE\\)是正方形，由勾股定理即可求解；\n（2）根据题意可得\\(AG=DG=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DF\\)，进而得到\\(\\angle GFD=30{}^\\circ\\)，再根据折叠性质即可求解；\n（3）先根据题意证明\\(PQMN\\)是菱形，当重叠四边形\\(PQMN\\)顶点Q，N与矩形顶点重合时，则其周长最大，根据勾股定理求解即可．\n【小问1详解】\n解：由题意得：四边形\\(ADFE\\)是正方形，\n∵\\(AD=6\\)，\n∴\\(DE=\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=6\\sqrt[] { 2 }\\)；\n故答案为：\\(6\\sqrt[] { 2 }\\)；\n【小问2详解】\n解：\\(\\because H\\)，\\(G\\)分别为\\(BC\\)，\\(AD\\)的中点，\n∴\\(AG=DG=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DF\\)，\n∴\\(\\angle GFD=30{}^\\circ\\)，\\(\\angle GDF=60{}^\\circ\\)，\n又由折叠可知\\(\\angle ADE=\\angle FDE=30{}^\\circ\\)，\n\\(\\therefore DE=2AE\\)，\\(AD=\\sqrt[] { 3 }AE=6\\)，\n\\(\\therefore AE=2\\sqrt[] { 3 }\\)，\n∴\\(DE=4\\sqrt[] { 3 }\\)；\n【小问3详解】\n解：因纸片都是矩形，则重叠四边形的对边互相平行，则四边形\\(PQMN\\)是平行四边形，\n过点Q作\\(QL\\bot NP\\)，\\(QK\\bot NM\\)，如图，\n〔图2〕\n∵\\(QL=QK\\)，\n∴\\(S_{ MNPQ } =PN\\cdot QL=MN\\cdot QK\\)，\n∴\\(MN=NP\\)，\n\\(\\therefore\\)四边形\\(PQMN\\)是菱形，\n当重叠四边形\\(PQMN\\)顶点Q，N与矩形顶点重合时，如图，则其周长最大，\n〔图3〕\n设\\(MN=MQ=x\\)，则\\(MG=9-x\\)，\\(QG=3\\)，\n由勾股定理得：\\((9-x) ^ { 2 } +3 ^ { 2 } =x ^ { 2 }\\)，解得：\\(x=5\\)，\n\\(\\therefore\\)重叠四边形\\(PQMN\\)周长的最大值是20；\n【点睛】本题考查的是图形的翻折变换、矩形的性质、勾股定理，正方形的判定与性质等，熟知图形翻折变换的性质是解答此题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/b3fc483e84710b9cc9feb71f004e8a1403defb973069ae3db33d168c49a72092.jpeg",
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/ef672d8e455ae2c689b6f866e9220d9cc04ec1de84b5dbb4b2f2a68b70204d4d.jpeg",
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/fe6082272f39af0a6ed47f757426507d9421d198b30957d6bf30ec0de4d4ac90.jpeg"
+  ],
+  "solution": "【小问1详解】\n解：由题意得：四边形\\(ADFE\\)是正方形，\n∵\\(AD=6\\)，\n∴\\(DE=\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=6\\sqrt[] { 2 }\\)；\n故答案为：\\(6\\sqrt[] { 2 }\\)；\n【小问2详解】\n解：\\(\\because H\\)，\\(G\\)分别为\\(BC\\)，\\(AD\\)的中点，\n∴\\(AG=DG=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DF\\)，\n∴\\(\\angle GFD=30{}^\\circ\\)，\\(\\angle GDF=60{}^\\circ\\)，\n又由折叠可知\\(\\angle ADE=\\angle FDE=30{}^\\circ\\)，\n\\(\\therefore DE=2AE\\)，\\(AD=\\sqrt[] { 3 }AE=6\\)，\n\\(\\therefore AE=2\\sqrt[] { 3 }\\)，\n∴\\(DE=4\\sqrt[] { 3 }\\)；\n【小问3详解】\n解：因纸片都是矩形，则重叠四边形的对边互相平行，则四边形\\(PQMN\\)是平行四边形，\n过点Q作\\(QL\\bot NP\\)，\\(QK\\bot NM\\)，如图，\n〔图2〕\n∵\\(QL=QK\\)，\n∴\\(S_{ MNPQ } =PN\\cdot QL=MN\\cdot QK\\)，\n∴\\(MN=NP\\)，\n\\(\\therefore\\)四边形\\(PQMN\\)是菱形，\n当重叠四边形\\(PQMN\\)顶点Q，N与矩形顶点重合时，如图，则其周长最大，\n〔图3〕\n设\\(MN=MQ=x\\)，则\\(MG=9-x\\)，\\(QG=3\\)，\n由勾股定理得：\\((9-x) ^ { 2 } +3 ^ { 2 } =x ^ { 2 }\\)，解得：\\(x=5\\)，\n\\(\\therefore\\)重叠四边形\\(PQMN\\)周长的最大值是20；",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由题意得：四边形\\(ADFE\\)是正方形，",
+    "∵\\(AD=6\\)，",
+    "∴\\(DE=\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=6\\sqrt[] { 2 }\\)；",
+    "故答案为：\\(6\\sqrt[] { 2 }\\)；",
+    "【小问2详解】",
+    "解：\\(\\because H\\)，\\(G\\)分别为\\(BC\\)，\\(AD\\)的中点，",
+    "∴\\(AG=DG=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DF\\)，",
+    "∴\\(\\angle GFD=30{}^\\circ\\)，\\(\\angle GDF=60{}^\\circ\\)，",
+    "又由折叠可知\\(\\angle ADE=\\angle FDE=30{}^\\circ\\)，",
+    "\\(\\therefore DE=2AE\\)，\\(AD=\\sqrt[] { 3 }AE=6\\)，",
+    "\\(\\therefore AE=2\\sqrt[] { 3 }\\)，",
+    "∴\\(DE=4\\sqrt[] { 3 }\\)；",
+    "【小问3详解】",
+    "解：因纸片都是矩形，则重叠四边形的对边互相平行，则四边形\\(PQMN\\)是平行四边形，",
+    "过点Q作\\(QL\\bot NP\\)，\\(QK\\bot NM\\)，如图，",
+    "〔图2〕",
+    "∵\\(QL=QK\\)，",
+    "∴\\(S_{ MNPQ } =PN\\cdot QL=MN\\cdot QK\\)，",
+    "∴\\(MN=NP\\)，",
+    "\\(\\therefore\\)四边形\\(PQMN\\)是菱形，",
+    "当重叠四边形\\(PQMN\\)顶点Q，N与矩形顶点重合时，如图，则其周长最大，",
+    "〔图3〕",
+    "设\\(MN=MQ=x\\)，则\\(MG=9-x\\)，\\(QG=3\\)，",
+    "由勾股定理得：\\((9-x) ^ { 2 } +3 ^ { 2 } =x ^ { 2 }\\)，解得：\\(x=5\\)，",
+    "\\(\\therefore\\)重叠四边形\\(PQMN\\)周长的最大值是20；"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在长方形纸片\\(ABCD\\)中，\\(AB=9\\)，\\(AD=6\\)，现将这张纸片按下列图示方法折叠，请解决下列问题．\n〔图1〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7C6ED9DD4A-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图（1），折痕为\\(DE\\)，点A的对应点F在\\(CD\\)上，折痕\\(DE\\)的长是______；",
+      "stem_text": "如图（1），折痕为\\(DE\\)，点A的对应点F在\\(CD\\)上，折痕\\(DE\\)的长是______；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(6\\sqrt[] { 2 }\\)",
+      "answer": "\\(6\\sqrt[] { 2 }\\)",
+      "given_solution": "解：由题意得：四边形\\(ADFE\\)是正方形，\n∵\\(AD=6\\)，\n∴\\(DE=\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=6\\sqrt[] { 2 }\\)；\n故答案为：\\(6\\sqrt[] { 2 }\\)；",
+      "solution_steps": [
+        "解：由题意得：四边形\\(ADFE\\)是正方形，",
+        "∵\\(AD=6\\)，",
+        "∴\\(DE=\\sqrt[] { AD ^ { 2 } +AE ^ { 2 } }=6\\sqrt[] { 2 }\\)；",
+        "故答案为：\\(6\\sqrt[] { 2 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          392,
+          393,
+          394,
+          395
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7C6ED9DD4A-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图（2），H，G分别为\\(BC\\)，\\(AD\\)的中点，A的对应点F在\\(HG\\)上，求折痕\\(DE\\)的长；",
+      "stem_text": "如图（2），H，G分别为\\(BC\\)，\\(AD\\)的中点，A的对应点F在\\(HG\\)上，求折痕\\(DE\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(4\\sqrt[] { 3 }\\)",
+      "answer": "\\(4\\sqrt[] { 3 }\\)",
+      "given_solution": "解：\\(\\because H\\)，\\(G\\)分别为\\(BC\\)，\\(AD\\)的中点，\n∴\\(AG=DG=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DF\\)，\n∴\\(\\angle GFD=30{}^\\circ\\)，\\(\\angle GDF=60{}^\\circ\\)，\n又由折叠可知\\(\\angle ADE=\\angle FDE=30{}^\\circ\\)，\n\\(\\therefore DE=2AE\\)，\\(AD=\\sqrt[] { 3 }AE=6\\)，\n\\(\\therefore AE=2\\sqrt[] { 3 }\\)，\n∴\\(DE=4\\sqrt[] { 3 }\\)；",
+      "solution_steps": [
+        "解：\\(\\because H\\)，\\(G\\)分别为\\(BC\\)，\\(AD\\)的中点，",
+        "∴\\(AG=DG=\\frac { 1 } { 2 }AD=\\frac { 1 } { 2 }DF\\)，",
+        "∴\\(\\angle GFD=30{}^\\circ\\)，\\(\\angle GDF=60{}^\\circ\\)，",
+        "又由折叠可知\\(\\angle ADE=\\angle FDE=30{}^\\circ\\)，",
+        "\\(\\therefore DE=2AE\\)，\\(AD=\\sqrt[] { 3 }AE=6\\)，",
+        "\\(\\therefore AE=2\\sqrt[] { 3 }\\)，",
+        "∴\\(DE=4\\sqrt[] { 3 }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G07.01",
+        "M.G04.03"
+      ],
+      "exam_ids": [
+        "E.G07.01.02",
+        "E.G04.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "用折叠的对应长度和30度直角三角形关系求折痕。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T1-7C6ED9DD4A-Q21-P03",
+      "label": "（3）",
+      "prompt": "如图（3），在图（2）中，把长方形\\(ABCD\\)沿着\\(HG\\)剪开，变成两张长方形纸片，将两张纸片任意叠合，使得重叠部分是四边形\\(PQMN\\)，重叠四边形\\(PQMN\\)的周长是否存在最大值？如果存在，试求出来；如果不存在，试简要说明理由．",
+      "stem_text": "如图（3），在图（2）中，把长方形\\(ABCD\\)沿着\\(HG\\)剪开，变成两张长方形纸片，将两张纸片任意叠合，使得重叠部分是四边形\\(PQMN\\)，重叠四边形\\(PQMN\\)的周长是否存在最大值？如果存在，试求出来；如果不存在，试简要说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存在，20",
+      "answer": "存在，20",
+      "given_solution": "解：因纸片都是矩形，则重叠四边形的对边互相平行，则四边形\\(PQMN\\)是平行四边形，\n过点Q作\\(QL\\bot NP\\)，\\(QK\\bot NM\\)，如图，\n〔图2〕\n∵\\(QL=QK\\)，\n∴\\(S_{ MNPQ } =PN\\cdot QL=MN\\cdot QK\\)，\n∴\\(MN=NP\\)，\n\\(\\therefore\\)四边形\\(PQMN\\)是菱形，\n当重叠四边形\\(PQMN\\)顶点Q，N与矩形顶点重合时，如图，则其周长最大，\n〔图3〕\n设\\(MN=MQ=x\\)，则\\(MG=9-x\\)，\\(QG=3\\)，\n由勾股定理得：\\((9-x) ^ { 2 } +3 ^ { 2 } =x ^ { 2 }\\)，解得：\\(x=5\\)，\n\\(\\therefore\\)重叠四边形\\(PQMN\\)周长的最大值是20；",
+      "solution_steps": [
+        "解：因纸片都是矩形，则重叠四边形的对边互相平行，则四边形\\(PQMN\\)是平行四边形，",
+        "过点Q作\\(QL\\bot NP\\)，\\(QK\\bot NM\\)，如图，",
+        "〔图2〕",
+        "∵\\(QL=QK\\)，",
+        "∴\\(S_{ MNPQ } =PN\\cdot QL=MN\\cdot QK\\)，",
+        "∴\\(MN=NP\\)，",
+        "\\(\\therefore\\)四边形\\(PQMN\\)是菱形，",
+        "当重叠四边形\\(PQMN\\)顶点Q，N与矩形顶点重合时，如图，则其周长最大，",
+        "〔图3〕",
+        "设\\(MN=MQ=x\\)，则\\(MG=9-x\\)，\\(QG=3\\)，",
+        "由勾股定理得：\\((9-x) ^ { 2 } +3 ^ { 2 } =x ^ { 2 }\\)，解得：\\(x=5\\)，",
+        "\\(\\therefore\\)重叠四边形\\(PQMN\\)周长的最大值是20；"
+      ],
+      "solution_figure_ids": [
+        2,
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      73
+    ],
+    "solution_body_blocks": [
+      379,
+      417
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7C6ED9DD4A/paper-q21-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          206.36,
+          583.64,
+          493.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7C6ED9DD4A/solution-q21-p20.webp",
+      "assets/SZ-G9-T1-7C6ED9DD4A/solution-q21-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          76.82,
+          583.64,
+          748.18
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          501.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G07.01",
+    "M.G04.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G07.01.02",
+    "E.G04.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 用折叠的对应长度和30度直角三角形关系求折痕。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -13,7 +13,7 @@ from zipfile import ZipFile
 from lxml import etree as ET
 from olefile import OleFileIO
 from PIL import Image
-from mtef_py.mtef import MTEF
+from mtef_records import EquationRecords
 
 
 RID = '{http://schemas.openxmlformats.org/officeDocument/2006/relationships}'
@@ -49,6 +49,10 @@ class EquationStream(BytesIO):
 
 @lru_cache(maxsize=6144)
 def latex(blob):
+    return decode_equation(blob, EquationRecords)
+
+
+def decode_equation(blob, records):
     # mtef-py emits verbose diagnostics on stdout. A rejected expression falls
     # back to the exact preview image stored alongside the Equation object.
     try:
@@ -61,7 +65,7 @@ def latex(blob):
             size = int.from_bytes(data[8:12], 'little')
             if header != 28 or size < 1 or len(data) < header + size:
                 return ''
-            m = MTEF()
+            m = records()
             m.reader = EquationStream(data[header:header+size])
             m.readRecord()
             m.makeAST()

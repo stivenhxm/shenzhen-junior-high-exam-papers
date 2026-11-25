@@ -1,0 +1,357 @@
+{
+  "id": "SZ-G9-T1-7C6ED9DD4A-Q22",
+  "paper_id": "SZ-G9-T1-7C6ED9DD4A",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "确认对应关系并证明三角形相似、由相似比求对应线段或周长",
+  "stem": "在矩形\\(ABCD\\)中，\\(AD=2AB\\)，E为\\(BC\\)边上一点，\n〔图1〕\n（1）如图1，若\\(AF\\bot DE\\)交\\(CD\\)于F，求证：\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)\n（2）如图2，若\\(\\angle CAE=45{}^\\circ\\)，求\\(\\frac { BE } { CE }\\)的值；\n（3）如图3，若G为\\(CD\\)边上一点，\\(AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，求\\(CG\\)的长",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/49a5f1422f3ddd70abef89ec65b043da1e8f270ca65d8a96b0024fd3b8d4144e.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）\\(\\frac { 1 } { 5 }\\)\n（3）\\(2\\sqrt[] { 2 }-2\\)",
+  "answer": "（1）见解析    （2）\\(\\frac { 1 } { 5 }\\)\n（3）\\(2\\sqrt[] { 2 }-2\\)",
+  "given_solution": "【分析】（1）运用两角对应相等的两个三角形相似推理即可；\n（2）作\\(EM\\bot AE\\)于E，交\\(AC\\)于M，作\\(MN\\bot BC\\)于N，则有\\(\\vartriangle ABE≌\\vartriangle ENM\\)，设\\(BE=a\\)，\\(AB=b\\)，然后推导\\(\\vartriangle CMN\\backsim \\vartriangle CAB\\)，利用相似三角形的性质得到\\(b=3a\\)，然后计算解题；\n（3）作\\(EH\\bot AG\\)于H，交\\(AD\\)于F，则\\(\\vartriangle AHF\\backsim \\vartriangle ADG\\)，\\(\\frac { FH } { DG }=\\frac { AH } { AD }=\\frac { 1 } { 2 }\\)，结合（1）的结论得到\\(\\frac { EF } { AG }=\\frac { AB } { AD }=\\frac { 1 } { 2 }\\)，求出\\(AG\\)长，利用勾股定理解题即可．\n【小问1详解】\n\\(\\because\\)矩形\\(ABCD\\)，\n\\(\\therefore \\angle ADF=\\angle DCE=90{}^\\circ\\)，\n\\(\\because AF\\bot DE\\)，\n\\(\\therefore \\angle FAD+\\angle ADE=\\angle ADE+\\angle EDC=90{}^\\circ\\)\n\\(\\therefore \\angle FAD=\\angle EDC\\)，\n∴\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)\n【小问2详解】\n作\\(EM\\bot AE\\)于E，交\\(AC\\)于M，作\\(MN\\bot BC\\)于N，\n〔图2〕\n\\(\\because \\angle CAE=45{}^\\circ\\)，\n\\(\\therefore AE=EM\\)，\n∵\\(\\angle BAE=\\angle MEN=90{}^\\circ -\\angle AEB\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle ENM\\)，\n\\(\\therefore MN=BE\\)，\\(EN=AB\\)，\n设\\(BE=a\\)，\\(AB=b\\)，则\\(EN=b\\)，\\(CN=b-a\\)，\n∵\\(\\angle ACB=\\angle ACB\\)，\\(\\angle MNC=\\angle B\\)，\n∴\\(\\vartriangle CMN\\backsim \\vartriangle CAB\\)，\n∴\\(\\frac { CN } { CB }=\\frac { MN } { AB }\\)，\\(\\frac { b-a } { 2b }=\\frac { a } { b }\\)，\n解得\\(b=3a\\)，\n\\(\\therefore CE=6a-a=5a\\)，\n\\(\\therefore \\frac { BE } { CE }=\\frac { a } { 5a }=\\frac { 1 } { 5 }\\)，\n【小问3详解】\n作\\(EH\\bot AG\\)于H，交\\(AD\\)于F，\n〔图3〕\n\\(\\because AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，\n\\(\\therefore EH=BE=2\\)，\\(AH=AB=\\frac { 1 } { 2 }AD\\)，\n∵\\(\\angle AHF=\\angle D=90{}^\\circ\\)，\\(\\angle HAF=\\angle DAG\\)，\n∴\\(\\vartriangle AHF\\backsim \\vartriangle ADG\\)，\n\\(\\therefore \\frac { FH } { DG }=\\frac { AH } { AD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore FH=1\\)，\\(EF=3\\)\n\\(\\because EF\\bot AG\\)\n由（1）可知\\(\\frac { EF } { AG }=\\frac { AB } { AD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AG=6\\)\n\\(AD=\\sqrt[] { 6 ^ { 2 } -2 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\\(CD=2\\sqrt[] { 2 }\\)，\n\\(\\therefore CG=2\\sqrt[] { 2 }-2\\)．\n【点睛】本题考查相似三角形的判定和性质，勾股定理，矩形的性质，能作辅助线构造相似三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/49a5f1422f3ddd70abef89ec65b043da1e8f270ca65d8a96b0024fd3b8d4144e.png",
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/19cc11eb0fe24b4053f1edd09620fa4f9b705c43044fc321d293032d6b49052f.png",
+    "assets/SZ-G9-T1-7C6ED9DD4A/figures/c290a5ec3c8576b4cf923335053c77843ced4b404dc9ab7498b48dc10e69daaf.png"
+  ],
+  "solution": "【小问1详解】\n\\(\\because\\)矩形\\(ABCD\\)，\n\\(\\therefore \\angle ADF=\\angle DCE=90{}^\\circ\\)，\n\\(\\because AF\\bot DE\\)，\n\\(\\therefore \\angle FAD+\\angle ADE=\\angle ADE+\\angle EDC=90{}^\\circ\\)\n\\(\\therefore \\angle FAD=\\angle EDC\\)，\n∴\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)\n【小问2详解】\n作\\(EM\\bot AE\\)于E，交\\(AC\\)于M，作\\(MN\\bot BC\\)于N，\n〔图2〕\n\\(\\because \\angle CAE=45{}^\\circ\\)，\n\\(\\therefore AE=EM\\)，\n∵\\(\\angle BAE=\\angle MEN=90{}^\\circ -\\angle AEB\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle ENM\\)，\n\\(\\therefore MN=BE\\)，\\(EN=AB\\)，\n设\\(BE=a\\)，\\(AB=b\\)，则\\(EN=b\\)，\\(CN=b-a\\)，\n∵\\(\\angle ACB=\\angle ACB\\)，\\(\\angle MNC=\\angle B\\)，\n∴\\(\\vartriangle CMN\\backsim \\vartriangle CAB\\)，\n∴\\(\\frac { CN } { CB }=\\frac { MN } { AB }\\)，\\(\\frac { b-a } { 2b }=\\frac { a } { b }\\)，\n解得\\(b=3a\\)，\n\\(\\therefore CE=6a-a=5a\\)，\n\\(\\therefore \\frac { BE } { CE }=\\frac { a } { 5a }=\\frac { 1 } { 5 }\\)，\n【小问3详解】\n作\\(EH\\bot AG\\)于H，交\\(AD\\)于F，\n〔图3〕\n\\(\\because AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，\n\\(\\therefore EH=BE=2\\)，\\(AH=AB=\\frac { 1 } { 2 }AD\\)，\n∵\\(\\angle AHF=\\angle D=90{}^\\circ\\)，\\(\\angle HAF=\\angle DAG\\)，\n∴\\(\\vartriangle AHF\\backsim \\vartriangle ADG\\)，\n\\(\\therefore \\frac { FH } { DG }=\\frac { AH } { AD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore FH=1\\)，\\(EF=3\\)\n\\(\\because EF\\bot AG\\)\n由（1）可知\\(\\frac { EF } { AG }=\\frac { AB } { AD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AG=6\\)\n\\(AD=\\sqrt[] { 6 ^ { 2 } -2 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\\(CD=2\\sqrt[] { 2 }\\)，\n\\(\\therefore CG=2\\sqrt[] { 2 }-2\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "\\(\\because\\)矩形\\(ABCD\\)，",
+    "\\(\\therefore \\angle ADF=\\angle DCE=90{}^\\circ\\)，",
+    "\\(\\because AF\\bot DE\\)，",
+    "\\(\\therefore \\angle FAD+\\angle ADE=\\angle ADE+\\angle EDC=90{}^\\circ\\)",
+    "\\(\\therefore \\angle FAD=\\angle EDC\\)，",
+    "∴\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)",
+    "【小问2详解】",
+    "作\\(EM\\bot AE\\)于E，交\\(AC\\)于M，作\\(MN\\bot BC\\)于N，",
+    "〔图2〕",
+    "\\(\\because \\angle CAE=45{}^\\circ\\)，",
+    "\\(\\therefore AE=EM\\)，",
+    "∵\\(\\angle BAE=\\angle MEN=90{}^\\circ -\\angle AEB\\)，",
+    "\\(\\therefore \\vartriangle ABE≌\\vartriangle ENM\\)，",
+    "\\(\\therefore MN=BE\\)，\\(EN=AB\\)，",
+    "设\\(BE=a\\)，\\(AB=b\\)，则\\(EN=b\\)，\\(CN=b-a\\)，",
+    "∵\\(\\angle ACB=\\angle ACB\\)，\\(\\angle MNC=\\angle B\\)，",
+    "∴\\(\\vartriangle CMN\\backsim \\vartriangle CAB\\)，",
+    "∴\\(\\frac { CN } { CB }=\\frac { MN } { AB }\\)，\\(\\frac { b-a } { 2b }=\\frac { a } { b }\\)，",
+    "解得\\(b=3a\\)，",
+    "\\(\\therefore CE=6a-a=5a\\)，",
+    "\\(\\therefore \\frac { BE } { CE }=\\frac { a } { 5a }=\\frac { 1 } { 5 }\\)，",
+    "【小问3详解】",
+    "作\\(EH\\bot AG\\)于H，交\\(AD\\)于F，",
+    "〔图3〕",
+    "\\(\\because AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，",
+    "\\(\\therefore EH=BE=2\\)，\\(AH=AB=\\frac { 1 } { 2 }AD\\)，",
+    "∵\\(\\angle AHF=\\angle D=90{}^\\circ\\)，\\(\\angle HAF=\\angle DAG\\)，",
+    "∴\\(\\vartriangle AHF\\backsim \\vartriangle ADG\\)，",
+    "\\(\\therefore \\frac { FH } { DG }=\\frac { AH } { AD }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore FH=1\\)，\\(EF=3\\)",
+    "\\(\\because EF\\bot AG\\)",
+    "由（1）可知\\(\\frac { EF } { AG }=\\frac { AB } { AD }=\\frac { 1 } { 2 }\\)，",
+    "\\(\\therefore AG=6\\)",
+    "\\(AD=\\sqrt[] { 6 ^ { 2 } -2 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\\(CD=2\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore CG=2\\sqrt[] { 2 }-2\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在矩形\\(ABCD\\)中，\\(AD=2AB\\)，E为\\(BC\\)边上一点，\n〔图1〕",
+      "paper_blocks": [
+        74,
+        75
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7C6ED9DD4A-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，若\\(AF\\bot DE\\)交\\(CD\\)于F，求证：\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)",
+      "stem_text": "如图1，若\\(AF\\bot DE\\)交\\(CD\\)于F，求证：\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "\\(\\because\\)矩形\\(ABCD\\)，\n\\(\\therefore \\angle ADF=\\angle DCE=90{}^\\circ\\)，\n\\(\\because AF\\bot DE\\)，\n\\(\\therefore \\angle FAD+\\angle ADE=\\angle ADE+\\angle EDC=90{}^\\circ\\)\n\\(\\therefore \\angle FAD=\\angle EDC\\)，\n∴\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)",
+      "solution_steps": [
+        "\\(\\because\\)矩形\\(ABCD\\)，",
+        "\\(\\therefore \\angle ADF=\\angle DCE=90{}^\\circ\\)，",
+        "\\(\\because AF\\bot DE\\)，",
+        "\\(\\therefore \\angle FAD+\\angle ADE=\\angle ADE+\\angle EDC=90{}^\\circ\\)",
+        "\\(\\therefore \\angle FAD=\\angle EDC\\)，",
+        "∴\\(\\vartriangle ADF\\backsim \\vartriangle DCE\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          76
+        ],
+        "solution_block_ids": [
+          430,
+          431,
+          432,
+          433,
+          434,
+          435
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [
+        "E.G08.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7C6ED9DD4A-Q22-P02",
+      "label": "（2）",
+      "prompt": "如图2，若\\(\\angle CAE=45{}^\\circ\\)，求\\(\\frac { BE } { CE }\\)的值；",
+      "stem_text": "如图2，若\\(\\angle CAE=45{}^\\circ\\)，求\\(\\frac { BE } { CE }\\)的值；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 1 } { 5 }\\)",
+      "answer": "\\(\\frac { 1 } { 5 }\\)",
+      "given_solution": "作\\(EM\\bot AE\\)于E，交\\(AC\\)于M，作\\(MN\\bot BC\\)于N，\n〔图2〕\n\\(\\because \\angle CAE=45{}^\\circ\\)，\n\\(\\therefore AE=EM\\)，\n∵\\(\\angle BAE=\\angle MEN=90{}^\\circ -\\angle AEB\\)，\n\\(\\therefore \\vartriangle ABE≌\\vartriangle ENM\\)，\n\\(\\therefore MN=BE\\)，\\(EN=AB\\)，\n设\\(BE=a\\)，\\(AB=b\\)，则\\(EN=b\\)，\\(CN=b-a\\)，\n∵\\(\\angle ACB=\\angle ACB\\)，\\(\\angle MNC=\\angle B\\)，\n∴\\(\\vartriangle CMN\\backsim \\vartriangle CAB\\)，\n∴\\(\\frac { CN } { CB }=\\frac { MN } { AB }\\)，\\(\\frac { b-a } { 2b }=\\frac { a } { b }\\)，\n解得\\(b=3a\\)，\n\\(\\therefore CE=6a-a=5a\\)，\n\\(\\therefore \\frac { BE } { CE }=\\frac { a } { 5a }=\\frac { 1 } { 5 }\\)，",
+      "solution_steps": [
+        "作\\(EM\\bot AE\\)于E，交\\(AC\\)于M，作\\(MN\\bot BC\\)于N，",
+        "〔图2〕",
+        "\\(\\because \\angle CAE=45{}^\\circ\\)，",
+        "\\(\\therefore AE=EM\\)，",
+        "∵\\(\\angle BAE=\\angle MEN=90{}^\\circ -\\angle AEB\\)，",
+        "\\(\\therefore \\vartriangle ABE≌\\vartriangle ENM\\)，",
+        "\\(\\therefore MN=BE\\)，\\(EN=AB\\)，",
+        "设\\(BE=a\\)，\\(AB=b\\)，则\\(EN=b\\)，\\(CN=b-a\\)，",
+        "∵\\(\\angle ACB=\\angle ACB\\)，\\(\\angle MNC=\\angle B\\)，",
+        "∴\\(\\vartriangle CMN\\backsim \\vartriangle CAB\\)，",
+        "∴\\(\\frac { CN } { CB }=\\frac { MN } { AB }\\)，\\(\\frac { b-a } { 2b }=\\frac { a } { b }\\)，",
+        "解得\\(b=3a\\)，",
+        "\\(\\therefore CE=6a-a=5a\\)，",
+        "\\(\\therefore \\frac { BE } { CE }=\\frac { a } { 5a }=\\frac { 1 } { 5 }\\)，"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7C6ED9DD4A-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图3，若G为\\(CD\\)边上一点，\\(AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，求\\(CG\\)的长",
+      "stem_text": "如图3，若G为\\(CD\\)边上一点，\\(AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，求\\(CG\\)的长",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 2 }-2\\)",
+      "answer": "\\(2\\sqrt[] { 2 }-2\\)",
+      "given_solution": "作\\(EH\\bot AG\\)于H，交\\(AD\\)于F，\n〔图3〕\n\\(\\because AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，\n\\(\\therefore EH=BE=2\\)，\\(AH=AB=\\frac { 1 } { 2 }AD\\)，\n∵\\(\\angle AHF=\\angle D=90{}^\\circ\\)，\\(\\angle HAF=\\angle DAG\\)，\n∴\\(\\vartriangle AHF\\backsim \\vartriangle ADG\\)，\n\\(\\therefore \\frac { FH } { DG }=\\frac { AH } { AD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore FH=1\\)，\\(EF=3\\)\n\\(\\because EF\\bot AG\\)\n由（1）可知\\(\\frac { EF } { AG }=\\frac { AB } { AD }=\\frac { 1 } { 2 }\\)，\n\\(\\therefore AG=6\\)\n\\(AD=\\sqrt[] { 6 ^ { 2 } -2 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\\(CD=2\\sqrt[] { 2 }\\)，\n\\(\\therefore CG=2\\sqrt[] { 2 }-2\\)．",
+      "solution_steps": [
+        "作\\(EH\\bot AG\\)于H，交\\(AD\\)于F，",
+        "〔图3〕",
+        "\\(\\because AE\\)平分\\(\\angle BAG\\)，且\\(BE=DG=2\\)，",
+        "\\(\\therefore EH=BE=2\\)，\\(AH=AB=\\frac { 1 } { 2 }AD\\)，",
+        "∵\\(\\angle AHF=\\angle D=90{}^\\circ\\)，\\(\\angle HAF=\\angle DAG\\)，",
+        "∴\\(\\vartriangle AHF\\backsim \\vartriangle ADG\\)，",
+        "\\(\\therefore \\frac { FH } { DG }=\\frac { AH } { AD }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore FH=1\\)，\\(EF=3\\)",
+        "\\(\\because EF\\bot AG\\)",
+        "由（1）可知\\(\\frac { EF } { AG }=\\frac { AB } { AD }=\\frac { 1 } { 2 }\\)，",
+        "\\(\\therefore AG=6\\)",
+        "\\(AD=\\sqrt[] { 6 ^ { 2 } -2 ^ { 2 } }=4\\sqrt[] { 2 }\\)，\\(CD=2\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore CG=2\\sqrt[] { 2 }-2\\)．"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          74,
+          75,
+          78
+        ],
+        "solution_block_ids": [
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      74,
+      78
+    ],
+    "solution_body_blocks": [
+      418,
+      465
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7C6ED9DD4A/paper-q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          502.73,
+          583.64,
+          689.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7C6ED9DD4A/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-7C6ED9DD4A/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-7C6ED9DD4A/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          701.82,
+          583.64,
+          756.82
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          750.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          540.91
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“确认对应关系并证明三角形相似”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

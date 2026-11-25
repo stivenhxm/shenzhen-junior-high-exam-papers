@@ -1,0 +1,356 @@
+{
+  "id": "SZ-G9-T1-CB94B97422-Q22",
+  "paper_id": "SZ-G9-T1-CB94B97422",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长、利用相似证明变化过程中的不变量",
+  "stem": "（1）观察猜想：如图（1）矩形ABCD中，AB＝6，AD＝8，P、Q分别是AB、AD边的中点，以AP、AQ为邻边作矩形APEQ连接CE，\\(\\frac { DQ } { CE }\\)的值是　 ．\n（2）类比探究：当矩形APEQ绕着点A逆时针旋转至如图（2）位置时，请判断\\(\\frac { DQ } { CE }\\)的值是否发生变化？若不变，说明理由；若改变，求出新的比值．\n（3）解决问题：若将（1）中的矩形ABCD改变为平行四边形ABCD，且AB＝6，AD＝8，∠B＝60°，P、Q分别是AB、AD边上的点，且AP＝\\(\\frac { 1 } { k }\\)AB，AQ＝\\(\\frac { 1 } { k }\\)AD，以AP、AQ为邻边作平行四边形APEQ．当平行四边形APEQ绕着点A逆时针旋转至如图（3）位置时，连接CE、DQ，请直接写出\\(\\frac { DQ } { CE }\\)的值．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-CB94B97422/figures/da8d994bc826b15e96248631672ba8771007f82992a9ba9401b2f2394e9d5df0.png"
+  ],
+  "tables": [],
+  "materials": [
+    {
+      "id": "fig-82",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        82
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-CB94B97422-Q22-P01",
+      "label": "（1）",
+      "prompt": "观察猜想：如图（1）矩形ABCD中，AB＝6，AD＝8，P、Q分别是AB、AD边的中点，以AP、AQ为邻边作矩形APEQ连接CE，\\(\\frac { DQ } { CE }\\)的值是　 ．",
+      "stem_text": "观察猜想：如图（1）矩形ABCD中，AB＝6，AD＝8，P、Q分别是AB、AD边的中点，以AP、AQ为邻边作矩形APEQ连接CE，\\(\\frac { DQ } { CE }\\)的值是　 ．",
+      "material_ids": [
+        "fig-82"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4 } { 5 }\\)；",
+      "answer": "\\(\\frac { 4 } { 5 }\\)；",
+      "given_solution": "延长PE交CD于H，如图：\n〔图1〕\n则四边形QEHD是矩形，\n在\\(Rt\\Delta CEH4，EH=DQ=4，CH=PB=AP=3\\)，\n∴\\(CE=\\sqrt[] { EH ^ { 2 } +CH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，\n∴\\(\\frac { DQ } { CE }=\\frac { 4 } { 5 }\\)，\n故答案为：\\(\\frac { 4 } { 5 }\\) ；",
+      "solution_steps": [
+        "延长PE交CD于H，如图：",
+        "〔图1〕",
+        "则四边形QEHD是矩形，",
+        "在\\(Rt\\Delta CEH4，EH=DQ=4，CH=PB=AP=3\\)，",
+        "∴\\(CE=\\sqrt[] { EH ^ { 2 } +CH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，",
+        "∴\\(\\frac { DQ } { CE }=\\frac { 4 } { 5 }\\)，",
+        "故答案为：\\(\\frac { 4 } { 5 }\\) ；"
+      ],
+      "solution_figure_ids": [
+        1
+      ],
+      "source": {
+        "paper_block_ids": [
+          79,
+          82
+        ],
+        "solution_block_ids": [
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CB94B97422-Q22-P02",
+      "label": "（2）",
+      "prompt": "类比探究：当矩形APEQ绕着点A逆时针旋转至如图（2）位置时，请判断\\(\\frac { DQ } { CE }\\)的值是否发生变化？若不变，说明理由；若改变，求出新的比值．",
+      "stem_text": "类比探究：当矩形APEQ绕着点A逆时针旋转至如图（2）位置时，请判断\\(\\frac { DQ } { CE }\\)的值是否发生变化？若不变，说明理由；若改变，求出新的比值．",
+      "material_ids": [
+        "fig-82"
+      ],
+      "requires": [],
+      "given_answer": "不变，见解析；",
+      "answer": "不变，见解析；",
+      "given_solution": "\\(\\frac { DQ } { CE }\\)的值不变，理由如下：\n连接AE、AC，如图：\n〔图2〕\n由旋转可知：∠QAD＝∠EAC，\n由勾股定理可知：AC＝10，AE＝5，\n∴\\(\\frac { AC } { AD }=\\frac { 10 } { 8 }=\\frac { 5 } { 4 },\\frac { AE } { AQ }=\\frac { 5 } { 4 }\\)，\n∴\\(\\frac { AC } { AD }=\\frac { AQ } { AE }\\)，\n∴\\(\\vartriangle { \\rm{ A } }{ \\rm{ C } }{ \\rm{ E } }\\backsim \\vartriangle ADQ\\)，\n∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4 } { 5 }\\)",
+      "solution_steps": [
+        "\\(\\frac { DQ } { CE }\\)的值不变，理由如下：",
+        "连接AE、AC，如图：",
+        "〔图2〕",
+        "由旋转可知：∠QAD＝∠EAC，",
+        "由勾股定理可知：AC＝10，AE＝5，",
+        "∴\\(\\frac { AC } { AD }=\\frac { 10 } { 8 }=\\frac { 5 } { 4 },\\frac { AE } { AQ }=\\frac { 5 } { 4 }\\)，",
+        "∴\\(\\frac { AC } { AD }=\\frac { AQ } { AE }\\)，",
+        "∴\\(\\vartriangle { \\rm{ A } }{ \\rm{ C } }{ \\rm{ E } }\\backsim \\vartriangle ADQ\\)，",
+        "∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4 } { 5 }\\)"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          80,
+          82
+        ],
+        "solution_block_ids": [
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.04"
+      ],
+      "exam_ids": [
+        "E.G08.04.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“利用相似证明变化过程中的不变量”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-CB94B97422-Q22-P03",
+      "label": "（3）",
+      "prompt": "解决问题：若将（1）中的矩形ABCD改变为平行四边形ABCD，且AB＝6，AD＝8，∠B＝60°，P、Q分别是AB、AD边上的点，且AP＝\\(\\frac { 1 } { k }\\)AB，AQ＝\\(\\frac { 1 } { k }\\)AD，以AP、AQ为邻边作平行四边形APEQ．当平行四边形APEQ绕着点A逆时针旋转至如图（3）位置时，连接CE、DQ，请直接写出\\(\\frac { DQ } { CE }\\)的值．",
+      "stem_text": "解决问题：若将（1）中的矩形ABCD改变为平行四边形ABCD，且AB＝6，AD＝8，∠B＝60°，P、Q分别是AB、AD边上的点，且AP＝\\(\\frac { 1 } { k }\\)AB，AQ＝\\(\\frac { 1 } { k }\\)AD，以AP、AQ为邻边作平行四边形APEQ．当平行四边形APEQ绕着点A逆时针旋转至如图（3）位置时，连接CE、DQ，请直接写出\\(\\frac { DQ } { CE }\\)的值．",
+      "material_ids": [
+        "fig-82"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+      "answer": "\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+      "given_solution": "过A作\\(AH\\bot BC\\)于H，连接AC，如图：\n〔图3〕\n∵∠B＝60°，\n∴\\(BH=\\frac { 1 } { 2 }AB，AH=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)\n∵AB＝6，\n∴\\(BH=3，AH=3\\sqrt[] { 3 }\\)\n∴\\(CH=BC-BH=AD-BH=8-3=5\\),\n由勾股定理得：\\(AC=\\sqrt[] { AH ^ { 2 } +CH ^ { 2 } }=2\\sqrt[] { 13 }\\) ，\n∴\\(\\frac { AD } { AC }=\\frac { 8 } { 2\\sqrt[] { 13 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，\n连接AE、AC，如图：\n〔图4〕\n同理\\(▱APEQ\\) 中，\\(AP=\\frac { 1 } { k }AB=\\frac { 6 } { k }，AQ=\\frac { 1 } { k }AD=\\frac { 8 } { k }\\)，可得AE＝\\(\\frac { 2\\sqrt[] { 13 } } { k }\\)，\n∴\\(\\frac { AQ } { AE }=\\frac { \\frac { 8 } { k } } { \\frac { 2\\sqrt[] { 13 } } { k } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，\n由旋转得：\\(\\angle QAD＝\\angle EAC\\)，\n∴\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\) ，\n∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．",
+      "solution_steps": [
+        "过A作\\(AH\\bot BC\\)于H，连接AC，如图：",
+        "〔图3〕",
+        "∵∠B＝60°，",
+        "∴\\(BH=\\frac { 1 } { 2 }AB，AH=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)",
+        "∵AB＝6，",
+        "∴\\(BH=3，AH=3\\sqrt[] { 3 }\\)",
+        "∴\\(CH=BC-BH=AD-BH=8-3=5\\),",
+        "由勾股定理得：\\(AC=\\sqrt[] { AH ^ { 2 } +CH ^ { 2 } }=2\\sqrt[] { 13 }\\) ，",
+        "∴\\(\\frac { AD } { AC }=\\frac { 8 } { 2\\sqrt[] { 13 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，",
+        "连接AE、AC，如图：",
+        "〔图4〕",
+        "同理\\(▱APEQ\\) 中，\\(AP=\\frac { 1 } { k }AB=\\frac { 6 } { k }，AQ=\\frac { 1 } { k }AD=\\frac { 8 } { k }\\)，可得AE＝\\(\\frac { 2\\sqrt[] { 13 } } { k }\\)，",
+        "∴\\(\\frac { AQ } { AE }=\\frac { \\frac { 8 } { k } } { \\frac { 2\\sqrt[] { 13 } } { k } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，",
+        "由旋转得：\\(\\angle QAD＝\\angle EAC\\)，",
+        "∴\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\) ，",
+        "∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          81,
+          82
+        ],
+        "solution_block_ids": [
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "given_answer": "（1）\\(\\frac { 4 } { 5 }\\)；（2）不变，见解析；（3）\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+  "given_solution": "【分析】(1)延长PE交CD于H，则四边形QEHD是矩形，在\\(Rt\\vartriangle CEH\\)中，利用勾股定理即可解决问题；\n(2)连接AE、AC，证明\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\)，由对应边成比例即可解决问题；\n(3)利用已知计算AC的长，同理得\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\) ，通过对应边成比例即可解决问题；\n【详解】解：（1）延长PE交CD于H，如图：\n〔图1〕\n则四边形QEHD是矩形，\n在\\(Rt\\Delta CEH4，EH=DQ=4，CH=PB=AP=3\\)，\n∴\\(CE=\\sqrt[] { EH ^ { 2 } +CH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，\n∴\\(\\frac { DQ } { CE }=\\frac { 4 } { 5 }\\)，\n故答案为：\\(\\frac { 4 } { 5 }\\) ；\n（2）\\(\\frac { DQ } { CE }\\)的值不变，理由如下：\n连接AE、AC，如图：\n〔图2〕\n由旋转可知：∠QAD＝∠EAC，\n由勾股定理可知：AC＝10，AE＝5，\n∴\\(\\frac { AC } { AD }=\\frac { 10 } { 8 }=\\frac { 5 } { 4 },\\frac { AE } { AQ }=\\frac { 5 } { 4 }\\)，\n∴\\(\\frac { AC } { AD }=\\frac { AQ } { AE }\\)，\n∴\\(\\vartriangle { \\rm{ A } }{ \\rm{ C } }{ \\rm{ E } }\\backsim \\vartriangle ADQ\\)，\n∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4 } { 5 }\\)\n（3）过A作\\(AH\\bot BC\\)于H，连接AC，如图：\n〔图3〕\n∵∠B＝60°，\n∴\\(BH=\\frac { 1 } { 2 }AB，AH=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)\n∵AB＝6，\n∴\\(BH=3，AH=3\\sqrt[] { 3 }\\)\n∴\\(CH=BC-BH=AD-BH=8-3=5\\),\n由勾股定理得：\\(AC=\\sqrt[] { AH ^ { 2 } +CH ^ { 2 } }=2\\sqrt[] { 13 }\\) ，\n∴\\(\\frac { AD } { AC }=\\frac { 8 } { 2\\sqrt[] { 13 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，\n连接AE、AC，如图：\n〔图4〕\n同理\\(▱APEQ\\) 中，\\(AP=\\frac { 1 } { k }AB=\\frac { 6 } { k }，AQ=\\frac { 1 } { k }AD=\\frac { 8 } { k }\\)，可得AE＝\\(\\frac { 2\\sqrt[] { 13 } } { k }\\)，\n∴\\(\\frac { AQ } { AE }=\\frac { \\frac { 8 } { k } } { \\frac { 2\\sqrt[] { 13 } } { k } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，\n由旋转得：\\(\\angle QAD＝\\angle EAC\\)，\n∴\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\) ，\n∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．\n【点睛】本题考查四边形综合题、矩形的性质、平行四边形的性质、相似三角形的判定和性质等知识，解题的关键是学会添加常用辅助线，构造直角三角形或相似三角形解决问题，属于中考压轴题．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-CB94B97422/figures/95c51cd9c8e6262c0254034c7d9043d13f279b012e74c553e6591cba42ebb16d.png",
+    "assets/SZ-G9-T1-CB94B97422/figures/ec64f6611a076c69bcaa0eab81e57b05024cd9b477f6e6cd4c9c08d9ba1b352d.png",
+    "assets/SZ-G9-T1-CB94B97422/figures/ead07c081b94b0f20806939baf6f9c2c280ad9246b0dd7edc1de332fe4f2e0a0.png",
+    "assets/SZ-G9-T1-CB94B97422/figures/33b49bc3d5c4698b637dacbd6ffc6282056d70975b58be6a7350f4b4aa881e4f.png"
+  ],
+  "answer": "（1）\\(\\frac { 4 } { 5 }\\)；（2）不变，见解析；（3）\\(\\frac { 4\\sqrt[] { 13 } } { 13 }\\)",
+  "solution_steps": [
+    "解：（1）延长PE交CD于H，如图：",
+    "〔图1〕",
+    "则四边形QEHD是矩形，",
+    "在\\(Rt\\Delta CEH4，EH=DQ=4，CH=PB=AP=3\\)，",
+    "∴\\(CE=\\sqrt[] { EH ^ { 2 } +CH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，",
+    "∴\\(\\frac { DQ } { CE }=\\frac { 4 } { 5 }\\)，",
+    "故答案为：\\(\\frac { 4 } { 5 }\\) ；",
+    "（2）\\(\\frac { DQ } { CE }\\)的值不变，理由如下：",
+    "连接AE、AC，如图：",
+    "〔图2〕",
+    "由旋转可知：∠QAD＝∠EAC，",
+    "由勾股定理可知：AC＝10，AE＝5，",
+    "∴\\(\\frac { AC } { AD }=\\frac { 10 } { 8 }=\\frac { 5 } { 4 },\\frac { AE } { AQ }=\\frac { 5 } { 4 }\\)，",
+    "∴\\(\\frac { AC } { AD }=\\frac { AQ } { AE }\\)，",
+    "∴\\(\\vartriangle { \\rm{ A } }{ \\rm{ C } }{ \\rm{ E } }\\backsim \\vartriangle ADQ\\)，",
+    "∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4 } { 5 }\\)",
+    "（3）过A作\\(AH\\bot BC\\)于H，连接AC，如图：",
+    "〔图3〕",
+    "∵∠B＝60°，",
+    "∴\\(BH=\\frac { 1 } { 2 }AB，AH=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)",
+    "∵AB＝6，",
+    "∴\\(BH=3，AH=3\\sqrt[] { 3 }\\)",
+    "∴\\(CH=BC-BH=AD-BH=8-3=5\\),",
+    "由勾股定理得：\\(AC=\\sqrt[] { AH ^ { 2 } +CH ^ { 2 } }=2\\sqrt[] { 13 }\\) ，",
+    "∴\\(\\frac { AD } { AC }=\\frac { 8 } { 2\\sqrt[] { 13 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，",
+    "连接AE、AC，如图：",
+    "〔图4〕",
+    "同理\\(▱APEQ\\) 中，\\(AP=\\frac { 1 } { k }AB=\\frac { 6 } { k }，AQ=\\frac { 1 } { k }AD=\\frac { 8 } { k }\\)，可得AE＝\\(\\frac { 2\\sqrt[] { 13 } } { k }\\)，",
+    "∴\\(\\frac { AQ } { AE }=\\frac { \\frac { 8 } { k } } { \\frac { 2\\sqrt[] { 13 } } { k } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，",
+    "由旋转得：\\(\\angle QAD＝\\angle EAC\\)，",
+    "∴\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\) ，",
+    "∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．"
+  ],
+  "solution": "解：（1）延长PE交CD于H，如图：\n〔图1〕\n则四边形QEHD是矩形，\n在\\(Rt\\Delta CEH4，EH=DQ=4，CH=PB=AP=3\\)，\n∴\\(CE=\\sqrt[] { EH ^ { 2 } +CH ^ { 2 } }=\\sqrt[] { 4 ^ { 2 } +3 ^ { 2 } }=5\\)，\n∴\\(\\frac { DQ } { CE }=\\frac { 4 } { 5 }\\)，\n故答案为：\\(\\frac { 4 } { 5 }\\) ；\n（2）\\(\\frac { DQ } { CE }\\)的值不变，理由如下：\n连接AE、AC，如图：\n〔图2〕\n由旋转可知：∠QAD＝∠EAC，\n由勾股定理可知：AC＝10，AE＝5，\n∴\\(\\frac { AC } { AD }=\\frac { 10 } { 8 }=\\frac { 5 } { 4 },\\frac { AE } { AQ }=\\frac { 5 } { 4 }\\)，\n∴\\(\\frac { AC } { AD }=\\frac { AQ } { AE }\\)，\n∴\\(\\vartriangle { \\rm{ A } }{ \\rm{ C } }{ \\rm{ E } }\\backsim \\vartriangle ADQ\\)，\n∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4 } { 5 }\\)\n（3）过A作\\(AH\\bot BC\\)于H，连接AC，如图：\n〔图3〕\n∵∠B＝60°，\n∴\\(BH=\\frac { 1 } { 2 }AB，AH=\\frac { \\sqrt[] { 3 } } { 2 }AB\\)\n∵AB＝6，\n∴\\(BH=3，AH=3\\sqrt[] { 3 }\\)\n∴\\(CH=BC-BH=AD-BH=8-3=5\\),\n由勾股定理得：\\(AC=\\sqrt[] { AH ^ { 2 } +CH ^ { 2 } }=2\\sqrt[] { 13 }\\) ，\n∴\\(\\frac { AD } { AC }=\\frac { 8 } { 2\\sqrt[] { 13 } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，\n连接AE、AC，如图：\n〔图4〕\n同理\\(▱APEQ\\) 中，\\(AP=\\frac { 1 } { k }AB=\\frac { 6 } { k }，AQ=\\frac { 1 } { k }AD=\\frac { 8 } { k }\\)，可得AE＝\\(\\frac { 2\\sqrt[] { 13 } } { k }\\)，\n∴\\(\\frac { AQ } { AE }=\\frac { \\frac { 8 } { k } } { \\frac { 2\\sqrt[] { 13 } } { k } }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)，\n由旋转得：\\(\\angle QAD＝\\angle EAC\\)，\n∴\\(\\vartriangle ACE\\backsim \\vartriangle ADQ\\) ，\n∴\\(\\frac { DQ } { CE }=\\frac { AD } { AC }=\\frac { 4\\sqrt[] { 13 } } { 13 }\\)．",
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      79,
+      84
+    ],
+    "solution_body_blocks": [
+      401,
+      440
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-CB94B97422/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          362.73,
+          583.64,
+          709.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-CB94B97422/solution-q22-p21.webp",
+      "assets/SZ-G9-T1-CB94B97422/solution-q22-p22.webp",
+      "assets/SZ-G9-T1-CB94B97422/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          635.91,
+          583.64,
+          768.64
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          70.91,
+          583.64,
+          760.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          72.73,
+          583.64,
+          614.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G08.04",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G04.04.01",
+    "E.G08.04.02",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“利用相似证明变化过程中的不变量”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

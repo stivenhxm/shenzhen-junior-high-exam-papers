@@ -1,0 +1,302 @@
+{
+  "id": "SZ-G9-T2-36262DD10D-Q16",
+  "paper_id": "SZ-G9-T2-36262DD10D",
+  "number": 16,
+  "type": "解答题",
+  "points": null,
+  "title": "利用菱形对角线关系求边与面积、由垂直平分线推出等距关系",
+  "stem": "如图，菱形\\(ABCD\\)的边长为10， \\(\\angle ABC=60{}^\\circ\\)，对角线\\(AC,BD\\)相交于点O，点E在对角线BD上，连接AE，作\\(\\angle AEF=120{}^\\circ\\)且边EF与直线DC相交于点F．\n〔图1〕\n（1）求菱形\\(ABCD\\)的面积；\n（2）求证\\(AE=EF\\)．",
+  "choices": [],
+  "figures": [
+    "assets/figures/de/de0f75e73b6a847d2d646552e40d64d8a829f9b1fe5376e77a9a99b63a1feacf.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(50\\sqrt[] { 3 }\\)\n（2）见解析",
+  "answer": "（1）\\(50\\sqrt[] { 3 }\\)\n（2）见解析",
+  "given_solution": "【分析】（1）根据菱形的性质可得AC⊥BD且AO=CO，BO=DO，再根据题意及特殊角的三角函数值求出AC和BD的长度，根据菱形的面积＝对角线乘积的一半即可求解．\n（2）连接EC，设∠BAE的度数为x，易得EC=AE，利用三角形的内角和定理分别表示出∠EFC和∠ECF的度数，可得∠EFC=∠ECF，即EC=EF，又因为EC=AE，即可得到AE=EF．\n【小问1详解】\n解：∵四边形ABCD是菱形，\n∴AC⊥BD且AO=CO，BO=DO，\n∵\\(\\angle ABC=60{}^\\circ\\)\n∴\\(\\angle ABO=30{}^\\circ ,\\angle AOB=90{}^\\circ\\)\n∵AB=10，\n∴\\(AO=ABsin30{ \\rm{ {}^\\circ } }=5\\)，\\(BO=ABcos30{ \\rm{ {}^\\circ } }=5\\sqrt[] { 3 }\\)\n∴\\(AC=2AO=10\\)，\\(BD=2BO=10\\sqrt[] { 3 }\\)\n∴菱形\\(ABCD\\)的面积=\\(\\frac { 1 } { 2 }AC\\times BD=\\frac { 1 } { 2 }\\times 10\\times 10\\sqrt[] { 3 }=50\\sqrt[] { 3 }\\)\n【小问2详解】\n证明：如图，连接EC，\n〔图2〕\n设∠BAE的度数为x，\n∵四边形ABCD为菱形，\n∴BD是AC的垂直平分线，\n∴AE=CE，∠AED=∠CED，∠EAC=∠ECA=60°-x，\n∵∠ABD=30°，\n∴∠AED=∠CED =30°+x，\n∴∠DEF=∠AEF-∠AED=120°-（30°+x）=90°-x\n∵∠BDC=\\(\\frac { 1 } { 2 }\\)∠ADC=30°\n∴∠EFC=180°-（∠DEF+∠BDC）=180°-（90°-x+30°）= x+60°，\n∵∠CED =30°+x，\n∴∠ECD =180°-（∠CED+∠BDC）=180°-（30°+x+30°）=120°- x，\n∴∠ECF =180°-∠ECD =180°-（120°- x）= x+60°，\n∴∠EFC=∠ECF，\n∴EF=EC，\n∵AE=CE，\n∴\\(AE=EF\\)．\n【点睛】本题考查了菱形的性质、菱形面积的求解、特殊角的三角函数值以及三角形的内角和定理，熟练掌握菱形的性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/de/de0f75e73b6a847d2d646552e40d64d8a829f9b1fe5376e77a9a99b63a1feacf.png",
+    "assets/figures/a2/a25e82e187558d8bc8572650250e5af15f4ca9b5b2807e01149b762ada9e0dc5.png"
+  ],
+  "solution": "【小问1详解】\n解：∵四边形ABCD是菱形，\n∴AC⊥BD且AO=CO，BO=DO，\n∵\\(\\angle ABC=60{}^\\circ\\)\n∴\\(\\angle ABO=30{}^\\circ ,\\angle AOB=90{}^\\circ\\)\n∵AB=10，\n∴\\(AO=ABsin30{ \\rm{ {}^\\circ } }=5\\)，\\(BO=ABcos30{ \\rm{ {}^\\circ } }=5\\sqrt[] { 3 }\\)\n∴\\(AC=2AO=10\\)，\\(BD=2BO=10\\sqrt[] { 3 }\\)\n∴菱形\\(ABCD\\)的面积=\\(\\frac { 1 } { 2 }AC\\times BD=\\frac { 1 } { 2 }\\times 10\\times 10\\sqrt[] { 3 }=50\\sqrt[] { 3 }\\)\n【小问2详解】\n证明：如图，连接EC，\n〔图2〕\n设∠BAE的度数为x，\n∵四边形ABCD为菱形，\n∴BD是AC的垂直平分线，\n∴AE=CE，∠AED=∠CED，∠EAC=∠ECA=60°-x，\n∵∠ABD=30°，\n∴∠AED=∠CED =30°+x，\n∴∠DEF=∠AEF-∠AED=120°-（30°+x）=90°-x\n∵∠BDC=\\(\\frac { 1 } { 2 }\\)∠ADC=30°\n∴∠EFC=180°-（∠DEF+∠BDC）=180°-（90°-x+30°）= x+60°，\n∵∠CED =30°+x，\n∴∠ECD =180°-（∠CED+∠BDC）=180°-（30°+x+30°）=120°- x，\n∴∠ECF =180°-∠ECD =180°-（120°- x）= x+60°，\n∴∠EFC=∠ECF，\n∴EF=EC，\n∵AE=CE，\n∴\\(AE=EF\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵四边形ABCD是菱形，",
+    "∴AC⊥BD且AO=CO，BO=DO，",
+    "∵\\(\\angle ABC=60{}^\\circ\\)",
+    "∴\\(\\angle ABO=30{}^\\circ ,\\angle AOB=90{}^\\circ\\)",
+    "∵AB=10，",
+    "∴\\(AO=ABsin30{ \\rm{ {}^\\circ } }=5\\)，\\(BO=ABcos30{ \\rm{ {}^\\circ } }=5\\sqrt[] { 3 }\\)",
+    "∴\\(AC=2AO=10\\)，\\(BD=2BO=10\\sqrt[] { 3 }\\)",
+    "∴菱形\\(ABCD\\)的面积=\\(\\frac { 1 } { 2 }AC\\times BD=\\frac { 1 } { 2 }\\times 10\\times 10\\sqrt[] { 3 }=50\\sqrt[] { 3 }\\)",
+    "【小问2详解】",
+    "证明：如图，连接EC，",
+    "〔图2〕",
+    "设∠BAE的度数为x，",
+    "∵四边形ABCD为菱形，",
+    "∴BD是AC的垂直平分线，",
+    "∴AE=CE，∠AED=∠CED，∠EAC=∠ECA=60°-x，",
+    "∵∠ABD=30°，",
+    "∴∠AED=∠CED =30°+x，",
+    "∴∠DEF=∠AEF-∠AED=120°-（30°+x）=90°-x",
+    "∵∠BDC=\\(\\frac { 1 } { 2 }\\)∠ADC=30°",
+    "∴∠EFC=180°-（∠DEF+∠BDC）=180°-（90°-x+30°）= x+60°，",
+    "∵∠CED =30°+x，",
+    "∴∠ECD =180°-（∠CED+∠BDC）=180°-（30°+x+30°）=120°- x，",
+    "∴∠ECF =180°-∠ECD =180°-（120°- x）= x+60°，",
+    "∴∠EFC=∠ECF，",
+    "∴EF=EC，",
+    "∵AE=CE，",
+    "∴\\(AE=EF\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图，菱形\\(ABCD\\)的边长为10， \\(\\angle ABC=60{}^\\circ\\)，对角线\\(AC,BD\\)相交于点O，点E在对角线BD上，连接AE，作\\(\\angle AEF=120{}^\\circ\\)且边EF与直线DC相交于点F．\n〔图1〕",
+      "paper_blocks": [
+        49,
+        50
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-36262DD10D-Q16-P01",
+      "label": "（1）",
+      "prompt": "求菱形\\(ABCD\\)的面积；",
+      "stem_text": "求菱形\\(ABCD\\)的面积；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(50\\sqrt[] { 3 }\\)",
+      "answer": "\\(50\\sqrt[] { 3 }\\)",
+      "given_solution": "解：∵四边形ABCD是菱形，\n∴AC⊥BD且AO=CO，BO=DO，\n∵\\(\\angle ABC=60{}^\\circ\\)\n∴\\(\\angle ABO=30{}^\\circ ,\\angle AOB=90{}^\\circ\\)\n∵AB=10，\n∴\\(AO=ABsin30{ \\rm{ {}^\\circ } }=5\\)，\\(BO=ABcos30{ \\rm{ {}^\\circ } }=5\\sqrt[] { 3 }\\)\n∴\\(AC=2AO=10\\)，\\(BD=2BO=10\\sqrt[] { 3 }\\)\n∴菱形\\(ABCD\\)的面积=\\(\\frac { 1 } { 2 }AC\\times BD=\\frac { 1 } { 2 }\\times 10\\times 10\\sqrt[] { 3 }=50\\sqrt[] { 3 }\\)",
+      "solution_steps": [
+        "解：∵四边形ABCD是菱形，",
+        "∴AC⊥BD且AO=CO，BO=DO，",
+        "∵\\(\\angle ABC=60{}^\\circ\\)",
+        "∴\\(\\angle ABO=30{}^\\circ ,\\angle AOB=90{}^\\circ\\)",
+        "∵AB=10，",
+        "∴\\(AO=ABsin30{ \\rm{ {}^\\circ } }=5\\)，\\(BO=ABcos30{ \\rm{ {}^\\circ } }=5\\sqrt[] { 3 }\\)",
+        "∴\\(AC=2AO=10\\)，\\(BD=2BO=10\\sqrt[] { 3 }\\)",
+        "∴菱形\\(ABCD\\)的面积=\\(\\frac { 1 } { 2 }AC\\times BD=\\frac { 1 } { 2 }\\times 10\\times 10\\sqrt[] { 3 }=50\\sqrt[] { 3 }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          51
+        ],
+        "solution_block_ids": [
+          276,
+          277,
+          278,
+          279,
+          280,
+          281,
+          282,
+          283
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G05.03"
+      ],
+      "exam_ids": [
+        "E.G05.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“利用菱形对角线关系求边与面积”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-36262DD10D-Q16-P02",
+      "label": "（2）",
+      "prompt": "求证\\(AE=EF\\)．",
+      "stem_text": "求证\\(AE=EF\\)．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：如图，连接EC，\n〔图2〕\n设∠BAE的度数为x，\n∵四边形ABCD为菱形，\n∴BD是AC的垂直平分线，\n∴AE=CE，∠AED=∠CED，∠EAC=∠ECA=60°-x，\n∵∠ABD=30°，\n∴∠AED=∠CED =30°+x，\n∴∠DEF=∠AEF-∠AED=120°-（30°+x）=90°-x\n∵∠BDC=\\(\\frac { 1 } { 2 }\\)∠ADC=30°\n∴∠EFC=180°-（∠DEF+∠BDC）=180°-（90°-x+30°）= x+60°，\n∵∠CED =30°+x，\n∴∠ECD =180°-（∠CED+∠BDC）=180°-（30°+x+30°）=120°- x，\n∴∠ECF =180°-∠ECD =180°-（120°- x）= x+60°，\n∴∠EFC=∠ECF，\n∴EF=EC，\n∵AE=CE，\n∴\\(AE=EF\\)．",
+      "solution_steps": [
+        "证明：如图，连接EC，",
+        "〔图2〕",
+        "设∠BAE的度数为x，",
+        "∵四边形ABCD为菱形，",
+        "∴BD是AC的垂直平分线，",
+        "∴AE=CE，∠AED=∠CED，∠EAC=∠ECA=60°-x，",
+        "∵∠ABD=30°，",
+        "∴∠AED=∠CED =30°+x，",
+        "∴∠DEF=∠AEF-∠AED=120°-（30°+x）=90°-x",
+        "∵∠BDC=\\(\\frac { 1 } { 2 }\\)∠ADC=30°",
+        "∴∠EFC=180°-（∠DEF+∠BDC）=180°-（90°-x+30°）= x+60°，",
+        "∵∠CED =30°+x，",
+        "∴∠ECD =180°-（∠CED+∠BDC）=180°-（30°+x+30°）=120°- x，",
+        "∴∠ECF =180°-∠ECD =180°-（120°- x）= x+60°，",
+        "∴∠EFC=∠ECF，",
+        "∴EF=EC，",
+        "∵AE=CE，",
+        "∴\\(AE=EF\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          49,
+          50,
+          52
+        ],
+        "solution_block_ids": [
+          285,
+          286,
+          287,
+          288,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          295,
+          296,
+          297,
+          298,
+          299,
+          300,
+          301,
+          302
+        ],
+        "question_pages": [
+          4,
+          5
+        ],
+        "solution_pages": [
+          16,
+          17
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.06"
+      ],
+      "exam_ids": [
+        "E.G01.06.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由垂直平分线推出等距关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      49,
+      52
+    ],
+    "solution_body_blocks": [
+      266,
+      303
+    ],
+    "question_pages": [
+      4,
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-36262DD10D/paper-q16-p04.webp",
+      "assets/SZ-G9-T2-36262DD10D/paper-q16-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 4,
+        "bbox_pt": [
+          11.82,
+          747.73,
+          583.64,
+          763.18
+        ]
+      },
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          267.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      15,
+      16,
+      17
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-36262DD10D/solution-q16-p15.webp",
+      "assets/SZ-G9-T2-36262DD10D/solution-q16-p16.webp",
+      "assets/SZ-G9-T2-36262DD10D/solution-q16-p17.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 15,
+        "bbox_pt": [
+          11.82,
+          707.27,
+          583.64,
+          751.36
+        ]
+      },
+      {
+        "page": 16,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 17,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          306.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G05.03",
+    "M.G01.06"
+  ],
+  "exam_ids": [
+    "E.G05.03.01",
+    "E.G01.06.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“利用菱形对角线关系求边与面积”。 本问的要求和解答步骤对应“由垂直平分线推出等距关系”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,494 @@
+{
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G03.01",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.01",
+    "E.G03.01.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。 对应相似三角形，通过对应边成比例求边长或线段比。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "id": "SZ-G9-T2-73E0ED6BB4-Q22",
+  "number": 22,
+  "paper_id": "SZ-G9-T2-73E0ED6BB4",
+  "title": "选择充分条件证明三角形全等、从全等对应关系求边与角",
+  "stem": "（10分）在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，点D为\\(AB\\)边上一动点，\\(\\angle CDE=\\angle BAC=a\\)，\\(CD=ED\\)，连接\\(BE\\)，\\(EC\\)．\n（1）问题发现： 如图1，．若\\(a=60{}^\\circ\\)，则 \\(\\angle EBA=\\)        ，\\(AD:EB=\\)         ；\n（2）类比探究：\n如图②，当\\(\\alpha =90{}^\\circ\\)时，请写出\\(\\angle EBA\\)的度数及\\(AD\\)与\\(EB\\)的数量关系并说明理由；\n（3）拓展应用： 如图3，点 E为正方形 \\(ABCD\\)的边\\(AB\\)上的三等分点，以\\(DE\\)为边在\\(DE\\)上方作正方形\\(DEFG\\)， 点O为正方形\\(DEFG\\)的中心， 若\\(OA=\\sqrt[] { 6 }\\)，请直接写出线段 EF的长．\n〔图1〕",
+  "type": "解答题",
+  "points": null,
+  "choices": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "（10分）在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，点D为\\(AB\\)边上一动点，\\(\\angle CDE=\\angle BAC=a\\)，\\(CD=ED\\)，连接\\(BE\\)，\\(EC\\)．",
+      "paper_blocks": [
+        730
+      ]
+    },
+    {
+      "id": "fig-780",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        780
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-73E0ED6BB4-Q22-P01",
+      "label": "（1）",
+      "prompt": "问题发现： 如图1，．若\\(a=60{}^\\circ\\)，则 \\(\\angle EBA=\\)        ，\\(AD:EB=\\)         ；",
+      "stem_text": "问题发现： 如图1，．若\\(a=60{}^\\circ\\)，则 \\(\\angle EBA=\\)        ，\\(AD:EB=\\)         ；",
+      "material_ids": [
+        "context",
+        "fig-780"
+      ],
+      "requires": [],
+      "given_answer": "\\(120{}^\\circ\\)，\\(1:1\\)；",
+      "answer": "\\(120{}^\\circ\\)，\\(1:1\\)；",
+      "given_solution": "\\(\\because\\)\\(a=60{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，\n\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle CDE\\)均是等边三角形，\n\\(\\therefore AC=BC\\)，\\(EC=DC\\)，\n\\(\\angle DCE=\\angle ACB\\)\n\\(=\\angle ABC=\\angle CAD\\)\n\\(=60{}^\\circ\\)，\n\\(\\therefore \\angle BCE+\\angle BCD=\\angle BCD+\\angle ACD\\)，\n\\(\\therefore \\angle BCE=\\angle ACD\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中\n\\(\\begin{cases} AC=BC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle BCE≌\\vartriangle ACD\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），\n\\(\\therefore \\angle CBE=\\angle CAD=60{}^\\circ\\)，\n\\(BE=AD\\)，\n\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)\n\\(=120{}^\\circ\\)，\n\\(AD:EB=1:1\\)；\n故答案：\\(120{}^\\circ\\)，\\(1:1\\)；",
+      "solution_steps": [
+        "\\(\\because\\)\\(a=60{}^\\circ\\)，",
+        "\\(\\therefore\\)\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，",
+        "\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，",
+        "\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle CDE\\)均是等边三角形，",
+        "\\(\\therefore AC=BC\\)，\\(EC=DC\\)，",
+        "\\(\\angle DCE=\\angle ACB\\)",
+        "\\(=\\angle ABC=\\angle CAD\\)",
+        "\\(=60{}^\\circ\\)，",
+        "\\(\\therefore \\angle BCE+\\angle BCD=\\angle BCD+\\angle ACD\\)，",
+        "\\(\\therefore \\angle BCE=\\angle ACD\\)，",
+        "在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中",
+        "\\(\\begin{cases} AC=BC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，",
+        "\\(\\therefore\\)\\(\\vartriangle BCE≌\\vartriangle ACD\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），",
+        "\\(\\therefore \\angle CBE=\\angle CAD=60{}^\\circ\\)，",
+        "\\(BE=AD\\)，",
+        "\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)",
+        "\\(=120{}^\\circ\\)，",
+        "\\(AD:EB=1:1\\)；",
+        "故答案：\\(120{}^\\circ\\)，\\(1:1\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          730,
+          740,
+          780
+        ],
+        "solution_block_ids": [
+          3770,
+          3780,
+          3790,
+          3800,
+          3810,
+          3820,
+          3830,
+          3840,
+          3850,
+          3860,
+          3870,
+          3880,
+          3890,
+          3900,
+          3910,
+          3920,
+          3930,
+          3940,
+          3950
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          17,
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02",
+        "M.G03.01"
+      ],
+      "exam_ids": [
+        "E.G03.02.01",
+        "E.G03.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问的运算或证明步骤对应“选择充分条件证明三角形全等、从全等对应关系求边与角”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-73E0ED6BB4-Q22-P02",
+      "label": "（2）",
+      "prompt": "类比探究：\n如图②，当\\(\\alpha =90{}^\\circ\\)时，请写出\\(\\angle EBA\\)的度数及\\(AD\\)与\\(EB\\)的数量关系并说明理由；",
+      "stem_text": "类比探究：\n如图②，当\\(\\alpha =90{}^\\circ\\)时，请写出\\(\\angle EBA\\)的度数及\\(AD\\)与\\(EB\\)的数量关系并说明理由；",
+      "material_ids": [
+        "context",
+        "fig-780"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；",
+      "answer": "\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；",
+      "given_solution": "\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；\n理由如下：\n\\(\\because\\)\\(\\alpha =90{}^\\circ\\)，\n\\(\\therefore \\angle CDE=\\angle BAC=90{}^\\circ\\)，\n\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，\n\\(\\therefore BC=\\sqrt[] { 2 }AC\\)，\n\\(CE=\\sqrt[] { 2 }CD\\)，\n\\(\\angle DCE=\\angle ACB=\\angle ABC=45{}^\\circ\\)，\n\\(\\therefore \\frac { BC } { AC }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\n\\(\\therefore \\angle BCE+\\angle BCD=\\angle ACD+\\angle BCD\\)，\n\\(\\therefore\\)\\(\\angle BCE=\\angle ACD\\)，\n\\(\\therefore \\vartriangle BCE\\backsim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { BE } { AD }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\n\\(\\angle CBE=\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)\n\\(=135{}^\\circ\\)，\n\\(BE=\\sqrt[] { 2 }AD\\)；",
+      "solution_steps": [
+        "\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；",
+        "理由如下：",
+        "\\(\\because\\)\\(\\alpha =90{}^\\circ\\)，",
+        "\\(\\therefore \\angle CDE=\\angle BAC=90{}^\\circ\\)，",
+        "\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，",
+        "\\(\\therefore BC=\\sqrt[] { 2 }AC\\)，",
+        "\\(CE=\\sqrt[] { 2 }CD\\)，",
+        "\\(\\angle DCE=\\angle ACB=\\angle ABC=45{}^\\circ\\)，",
+        "\\(\\therefore \\frac { BC } { AC }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，",
+        "\\(\\therefore \\angle BCE+\\angle BCD=\\angle ACD+\\angle BCD\\)，",
+        "\\(\\therefore\\)\\(\\angle BCE=\\angle ACD\\)，",
+        "\\(\\therefore \\vartriangle BCE\\backsim \\vartriangle ACD\\)，",
+        "\\(\\therefore \\frac { BE } { AD }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，",
+        "\\(\\angle CBE=\\angle CAD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)",
+        "\\(=135{}^\\circ\\)，",
+        "\\(BE=\\sqrt[] { 2 }AD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          730,
+          750,
+          760,
+          780
+        ],
+        "solution_block_ids": [
+          3960,
+          3970,
+          3980,
+          3990,
+          4000,
+          4010,
+          4020,
+          4030,
+          4040,
+          4050,
+          4060,
+          4070,
+          4080,
+          4090,
+          4100,
+          4110,
+          4120
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "对应相似三角形，通过对应边成比例求边长或线段比。",
+      "tag_source": "逐题核对"
+    },
+    {
+      "id": "SZ-G9-T2-73E0ED6BB4-Q22-P03",
+      "label": "（3）",
+      "prompt": "拓展应用： 如图3，点 E为正方形 \\(ABCD\\)的边\\(AB\\)上的三等分点，以\\(DE\\)为边在\\(DE\\)上方作正方形\\(DEFG\\)， 点O为正方形\\(DEFG\\)的中心， 若\\(OA=\\sqrt[] { 6 }\\)，请直接写出线段 EF的长．",
+      "stem_text": "拓展应用： 如图3，点 E为正方形 \\(ABCD\\)的边\\(AB\\)上的三等分点，以\\(DE\\)为边在\\(DE\\)上方作正方形\\(DEFG\\)， 点O为正方形\\(DEFG\\)的中心， 若\\(OA=\\sqrt[] { 6 }\\)，请直接写出线段 EF的长．",
+      "material_ids": [
+        "context",
+        "fig-780"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)",
+      "answer": "\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)",
+      "given_solution": "①当\\(AE=\\frac { 1 } { 3 }AB\\)时，\n如图，连接\\(BD\\)，\n〔图1〕\n\\(\\because\\)四边形\\(ABCD\\)和四边形\\(DEFG\\)均是正方形，\n\\(\\therefore \\angle ODE=\\angle ADB=45{}^\\circ\\)，\n\\(EO\\bot OD\\)，\n\\(\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore \\angle ODA+\\angle ADE=\\angle ADE+\\angle EDB\\)，\n\\(cos\\angle ODE=\\frac { OD } { ED }\\)，\n\\(cos\\angle ADB=\\frac { AD } { BD }\\)，\n\\(\\therefore\\)\\(\\angle ODA=\\angle EDB\\)，\n\\(\\frac { OD } { ED }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore\\)\\(\\frac { OD } { ED }=\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore \\vartriangle ODA\\backsim \\vartriangle EDB\\)，\n\\(\\therefore \\frac { OA } { EB }=\\frac { OD } { ED }\\)，\n\\(\\therefore \\frac { \\sqrt[] { 6 } } { EB }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n解得：\\(EB=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)\\(AE=\\frac { 1 } { 3 }AB\\)，\n\\(\\therefore EB=2AE=2\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=\\sqrt[] { 3 }\\)，\n\\(AD=AB=3\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)\n\\(=\\sqrt[] { 30 }\\)，\n\\(\\therefore EF=\\sqrt[] { 30 }\\)；\n②当\\(BE=\\frac { 1 } { 3 }AB\\)时，\n如图，连接\\(BD\\)，\n〔图2〕\n由①得：同理可求\\(EB=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)\\(BE=\\frac { 1 } { 3 }AB\\)，\n\\(\\therefore AD=AB=6\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=2BE=4\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { 4\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 6\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)\n\\(=2\\sqrt[] { 39 }\\)，\n\\(\\therefore EF=2\\sqrt[] { 39 }\\)；\n综上所述：\\(EF\\)的长为\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)．",
+      "solution_steps": [
+        "①当\\(AE=\\frac { 1 } { 3 }AB\\)时，",
+        "如图，连接\\(BD\\)，",
+        "〔图1〕",
+        "\\(\\because\\)四边形\\(ABCD\\)和四边形\\(DEFG\\)均是正方形，",
+        "\\(\\therefore \\angle ODE=\\angle ADB=45{}^\\circ\\)，",
+        "\\(EO\\bot OD\\)，",
+        "\\(\\angle BAD=90{}^\\circ\\)，",
+        "\\(\\therefore \\angle ODA+\\angle ADE=\\angle ADE+\\angle EDB\\)，",
+        "\\(cos\\angle ODE=\\frac { OD } { ED }\\)，",
+        "\\(cos\\angle ADB=\\frac { AD } { BD }\\)，",
+        "\\(\\therefore\\)\\(\\angle ODA=\\angle EDB\\)，",
+        "\\(\\frac { OD } { ED }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+        "\\(\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+        "\\(\\therefore\\)\\(\\frac { OD } { ED }=\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+        "\\(\\therefore \\vartriangle ODA\\backsim \\vartriangle EDB\\)，",
+        "\\(\\therefore \\frac { OA } { EB }=\\frac { OD } { ED }\\)，",
+        "\\(\\therefore \\frac { \\sqrt[] { 6 } } { EB }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+        "解得：\\(EB=2\\sqrt[] { 3 }\\)，",
+        "\\(\\because\\)\\(AE=\\frac { 1 } { 3 }AB\\)，",
+        "\\(\\therefore EB=2AE=2\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore AE=\\sqrt[] { 3 }\\)，",
+        "\\(AD=AB=3\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)",
+        "\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)",
+        "\\(=\\sqrt[] { 30 }\\)，",
+        "\\(\\therefore EF=\\sqrt[] { 30 }\\)；",
+        "②当\\(BE=\\frac { 1 } { 3 }AB\\)时，",
+        "如图，连接\\(BD\\)，",
+        "〔图2〕",
+        "由①得：同理可求\\(EB=2\\sqrt[] { 3 }\\)，",
+        "\\(\\because\\)\\(BE=\\frac { 1 } { 3 }AB\\)，",
+        "\\(\\therefore AD=AB=6\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore AE=2BE=4\\sqrt[] { 3 }\\)，",
+        "\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)",
+        "\\(=\\sqrt[] { \\left ( { 4\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 6\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)",
+        "\\(=2\\sqrt[] { 39 }\\)，",
+        "\\(\\therefore EF=2\\sqrt[] { 39 }\\)；",
+        "综上所述：\\(EF\\)的长为\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)．"
+      ],
+      "solution_figure_ids": [
+        1,
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          730,
+          770,
+          780
+        ],
+        "solution_block_ids": [
+          4130,
+          4140,
+          4150,
+          4160,
+          4170,
+          4180,
+          4190,
+          4200,
+          4210,
+          4220,
+          4230,
+          4240,
+          4250,
+          4260,
+          4270,
+          4280,
+          4290,
+          4300,
+          4310,
+          4320,
+          4330,
+          4340,
+          4350,
+          4360,
+          4370,
+          4380,
+          4390,
+          4400,
+          4410,
+          4420,
+          4430,
+          4440,
+          4450,
+          4460,
+          4470,
+          4480,
+          4490,
+          4500
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_note": "",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "figures": [
+    "assets/figures/b9/b9c20dc750cdf68103a28acc352b434e2df1f8495db34c425543613de78511d3.png"
+  ],
+  "tables": [],
+  "answer": "（1）\\(120{}^\\circ\\)，\\(1:1\\)；（2）\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；（3）\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)",
+  "given_answer": "（1）\\(120{}^\\circ\\)，\\(1:1\\)；（2）\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；（3）\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)",
+  "given_solution": "【分析】（1）由已知条件可判定\\(\\vartriangle ABC\\)和\\(\\vartriangle CDE\\)均是等边三角形，由等边三角形的性质得\\(AC=BC\\)，\\(EC=DC\\)，\\(\\angle DCE=\\angle ACB\\)\\(=60{}^\\circ\\)，由\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)可判定\\(\\vartriangle BCE≌\\vartriangle ACD\\)，由全等三角形的性质即可求解；\n（2）由等腰三角形的性质及勾股定理得\\(BC=\\sqrt[] { 2 }AC\\)，\\(CE=\\sqrt[] { 2 }CD\\)，\\(\\angle DCE=\\angle ACB=\\angle ABC=45{}^\\circ\\)，由等式性质得\\(\\frac { BC } { AC }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\\(\\angle BCE=\\angle ACD\\)，由相似三角形的判定法得\\(\\vartriangle BCE\\backsim \\vartriangle ACD\\)，由相似三角形的性质即可求解；\n（3）①当\\(AE=\\frac { 1 } { 3 }AB\\)时，连接\\(BD\\)，由正方形的性质及余弦的定义\\(\\angle ODA=\\angle EDB\\)，\\(\\frac { OD } { ED }=\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，可判定\\(\\vartriangle ODA\\backsim \\vartriangle EDB\\)，由相似三角形的性质得\\(\\frac { OA } { EB }=\\frac { OD } { ED }\\)，可求\n\\(EB=2\\sqrt[] { 3 }\\)，由勾股定理得\\(DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)，即可求解； ②当\\(BE=\\frac { 1 } { 3 }AB\\)时，连接\\(BD\\)，由①得：同理可求\\(EB=2\\sqrt[] { 3 }\\)，由勾股定理得\\(DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)，即可求解．\n【详解】解：（1）\\(\\because\\)\\(a=60{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，\n\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle CDE\\)均是等边三角形，\n\\(\\therefore AC=BC\\)，\\(EC=DC\\)，\n\\(\\angle DCE=\\angle ACB\\)\n\\(=\\angle ABC=\\angle CAD\\)\n\\(=60{}^\\circ\\)，\n\\(\\therefore \\angle BCE+\\angle BCD=\\angle BCD+\\angle ACD\\)，\n\\(\\therefore \\angle BCE=\\angle ACD\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中\n\\(\\begin{cases} AC=BC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle BCE≌\\vartriangle ACD\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），\n\\(\\therefore \\angle CBE=\\angle CAD=60{}^\\circ\\)，\n\\(BE=AD\\)，\n\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)\n\\(=120{}^\\circ\\)，\n\\(AD:EB=1:1\\)；\n故答案：\\(120{}^\\circ\\)，\\(1:1\\)；\n（2）\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；\n理由如下：\n\\(\\because\\)\\(\\alpha =90{}^\\circ\\)，\n\\(\\therefore \\angle CDE=\\angle BAC=90{}^\\circ\\)，\n\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，\n\\(\\therefore BC=\\sqrt[] { 2 }AC\\)，\n\\(CE=\\sqrt[] { 2 }CD\\)，\n\\(\\angle DCE=\\angle ACB=\\angle ABC=45{}^\\circ\\)，\n\\(\\therefore \\frac { BC } { AC }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\n\\(\\therefore \\angle BCE+\\angle BCD=\\angle ACD+\\angle BCD\\)，\n\\(\\therefore\\)\\(\\angle BCE=\\angle ACD\\)，\n\\(\\therefore \\vartriangle BCE\\backsim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { BE } { AD }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\n\\(\\angle CBE=\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)\n\\(=135{}^\\circ\\)，\n\\(BE=\\sqrt[] { 2 }AD\\)；\n（3）①当\\(AE=\\frac { 1 } { 3 }AB\\)时，\n如图，连接\\(BD\\)，\n〔图1〕\n\\(\\because\\)四边形\\(ABCD\\)和四边形\\(DEFG\\)均是正方形，\n\\(\\therefore \\angle ODE=\\angle ADB=45{}^\\circ\\)，\n\\(EO\\bot OD\\)，\n\\(\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore \\angle ODA+\\angle ADE=\\angle ADE+\\angle EDB\\)，\n\\(cos\\angle ODE=\\frac { OD } { ED }\\)，\n\\(cos\\angle ADB=\\frac { AD } { BD }\\)，\n\\(\\therefore\\)\\(\\angle ODA=\\angle EDB\\)，\n\\(\\frac { OD } { ED }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore\\)\\(\\frac { OD } { ED }=\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore \\vartriangle ODA\\backsim \\vartriangle EDB\\)，\n\\(\\therefore \\frac { OA } { EB }=\\frac { OD } { ED }\\)，\n\\(\\therefore \\frac { \\sqrt[] { 6 } } { EB }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n解得：\\(EB=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)\\(AE=\\frac { 1 } { 3 }AB\\)，\n\\(\\therefore EB=2AE=2\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=\\sqrt[] { 3 }\\)，\n\\(AD=AB=3\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)\n\\(=\\sqrt[] { 30 }\\)，\n\\(\\therefore EF=\\sqrt[] { 30 }\\)；\n②当\\(BE=\\frac { 1 } { 3 }AB\\)时，\n如图，连接\\(BD\\)，\n〔图2〕\n由①得：同理可求\\(EB=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)\\(BE=\\frac { 1 } { 3 }AB\\)，\n\\(\\therefore AD=AB=6\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=2BE=4\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { 4\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 6\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)\n\\(=2\\sqrt[] { 39 }\\)，\n\\(\\therefore EF=2\\sqrt[] { 39 }\\)；\n综上所述：\\(EF\\)的长为\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)．",
+  "given_solution_figures": [
+    "assets/figures/86/86d04971078a7da63c09f4f28cc8684099ee396c3cbbfe5b091773752605f1d2.png",
+    "assets/figures/ca/ca8b68d58204ee770a50dc75b056d3a56f6004efbd2c76a42c1fa4c0e887b55b.png"
+  ],
+  "solution_steps": [
+    "解：（1）\\(\\because\\)\\(a=60{}^\\circ\\)，",
+    "\\(\\therefore\\)\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，",
+    "\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，",
+    "\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle CDE\\)均是等边三角形，",
+    "\\(\\therefore AC=BC\\)，\\(EC=DC\\)，",
+    "\\(\\angle DCE=\\angle ACB\\)",
+    "\\(=\\angle ABC=\\angle CAD\\)",
+    "\\(=60{}^\\circ\\)，",
+    "\\(\\therefore \\angle BCE+\\angle BCD=\\angle BCD+\\angle ACD\\)，",
+    "\\(\\therefore \\angle BCE=\\angle ACD\\)，",
+    "在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中",
+    "\\(\\begin{cases} AC=BC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，",
+    "\\(\\therefore\\)\\(\\vartriangle BCE≌\\vartriangle ACD\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），",
+    "\\(\\therefore \\angle CBE=\\angle CAD=60{}^\\circ\\)，",
+    "\\(BE=AD\\)，",
+    "\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)",
+    "\\(=120{}^\\circ\\)，",
+    "\\(AD:EB=1:1\\)；",
+    "故答案：\\(120{}^\\circ\\)，\\(1:1\\)；",
+    "（2）\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；",
+    "理由如下：",
+    "\\(\\because\\)\\(\\alpha =90{}^\\circ\\)，",
+    "\\(\\therefore \\angle CDE=\\angle BAC=90{}^\\circ\\)，",
+    "\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，",
+    "\\(\\therefore BC=\\sqrt[] { 2 }AC\\)，",
+    "\\(CE=\\sqrt[] { 2 }CD\\)，",
+    "\\(\\angle DCE=\\angle ACB=\\angle ABC=45{}^\\circ\\)，",
+    "\\(\\therefore \\frac { BC } { AC }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，",
+    "\\(\\therefore \\angle BCE+\\angle BCD=\\angle ACD+\\angle BCD\\)，",
+    "\\(\\therefore\\)\\(\\angle BCE=\\angle ACD\\)，",
+    "\\(\\therefore \\vartriangle BCE\\backsim \\vartriangle ACD\\)，",
+    "\\(\\therefore \\frac { BE } { AD }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，",
+    "\\(\\angle CBE=\\angle CAD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)",
+    "\\(=135{}^\\circ\\)，",
+    "\\(BE=\\sqrt[] { 2 }AD\\)；",
+    "（3）①当\\(AE=\\frac { 1 } { 3 }AB\\)时，",
+    "如图，连接\\(BD\\)，",
+    "〔图1〕",
+    "\\(\\because\\)四边形\\(ABCD\\)和四边形\\(DEFG\\)均是正方形，",
+    "\\(\\therefore \\angle ODE=\\angle ADB=45{}^\\circ\\)，",
+    "\\(EO\\bot OD\\)，",
+    "\\(\\angle BAD=90{}^\\circ\\)，",
+    "\\(\\therefore \\angle ODA+\\angle ADE=\\angle ADE+\\angle EDB\\)，",
+    "\\(cos\\angle ODE=\\frac { OD } { ED }\\)，",
+    "\\(cos\\angle ADB=\\frac { AD } { BD }\\)，",
+    "\\(\\therefore\\)\\(\\angle ODA=\\angle EDB\\)，",
+    "\\(\\frac { OD } { ED }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "\\(\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "\\(\\therefore\\)\\(\\frac { OD } { ED }=\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "\\(\\therefore \\vartriangle ODA\\backsim \\vartriangle EDB\\)，",
+    "\\(\\therefore \\frac { OA } { EB }=\\frac { OD } { ED }\\)，",
+    "\\(\\therefore \\frac { \\sqrt[] { 6 } } { EB }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，",
+    "解得：\\(EB=2\\sqrt[] { 3 }\\)，",
+    "\\(\\because\\)\\(AE=\\frac { 1 } { 3 }AB\\)，",
+    "\\(\\therefore EB=2AE=2\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore AE=\\sqrt[] { 3 }\\)，",
+    "\\(AD=AB=3\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)",
+    "\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)",
+    "\\(=\\sqrt[] { 30 }\\)，",
+    "\\(\\therefore EF=\\sqrt[] { 30 }\\)；",
+    "②当\\(BE=\\frac { 1 } { 3 }AB\\)时，",
+    "如图，连接\\(BD\\)，",
+    "〔图2〕",
+    "由①得：同理可求\\(EB=2\\sqrt[] { 3 }\\)，",
+    "\\(\\because\\)\\(BE=\\frac { 1 } { 3 }AB\\)，",
+    "\\(\\therefore AD=AB=6\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore AE=2BE=4\\sqrt[] { 3 }\\)，",
+    "\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)",
+    "\\(=\\sqrt[] { \\left ( { 4\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 6\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)",
+    "\\(=2\\sqrt[] { 39 }\\)，",
+    "\\(\\therefore EF=2\\sqrt[] { 39 }\\)；",
+    "综上所述：\\(EF\\)的长为\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution": "解：（1）\\(\\because\\)\\(a=60{}^\\circ\\)，\n\\(\\therefore\\)\\(\\angle CDE=\\angle BAC=60{}^\\circ\\)，\n\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，\n\\(\\therefore \\vartriangle ABC\\)和\\(\\vartriangle CDE\\)均是等边三角形，\n\\(\\therefore AC=BC\\)，\\(EC=DC\\)，\n\\(\\angle DCE=\\angle ACB\\)\n\\(=\\angle ABC=\\angle CAD\\)\n\\(=60{}^\\circ\\)，\n\\(\\therefore \\angle BCE+\\angle BCD=\\angle BCD+\\angle ACD\\)，\n\\(\\therefore \\angle BCE=\\angle ACD\\)，\n在\\(\\vartriangle BCE\\)和\\(\\vartriangle ACD\\)中\n\\(\\begin{cases} AC=BC \\\\ \\angle BCE=\\angle ACD \\\\ EC=DC \\end{cases}\\)，\n\\(\\therefore\\)\\(\\vartriangle BCE≌\\vartriangle ACD\\)（\\({ \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } }\\)），\n\\(\\therefore \\angle CBE=\\angle CAD=60{}^\\circ\\)，\n\\(BE=AD\\)，\n\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)\n\\(=120{}^\\circ\\)，\n\\(AD:EB=1:1\\)；\n故答案：\\(120{}^\\circ\\)，\\(1:1\\)；\n（2）\\(\\angle EBA=135{}^\\circ\\)，\\(BE=\\sqrt[] { 2 }AD\\)；\n理由如下：\n\\(\\because\\)\\(\\alpha =90{}^\\circ\\)，\n\\(\\therefore \\angle CDE=\\angle BAC=90{}^\\circ\\)，\n\\(\\because\\)\\(AB=AC\\)，\\(CD=ED\\)，\n\\(\\therefore BC=\\sqrt[] { 2 }AC\\)，\n\\(CE=\\sqrt[] { 2 }CD\\)，\n\\(\\angle DCE=\\angle ACB=\\angle ABC=45{}^\\circ\\)，\n\\(\\therefore \\frac { BC } { AC }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\n\\(\\therefore \\angle BCE+\\angle BCD=\\angle ACD+\\angle BCD\\)，\n\\(\\therefore\\)\\(\\angle BCE=\\angle ACD\\)，\n\\(\\therefore \\vartriangle BCE\\backsim \\vartriangle ACD\\)，\n\\(\\therefore \\frac { BE } { AD }=\\frac { CE } { CD }=\\sqrt[] { 2 }\\)，\n\\(\\angle CBE=\\angle CAD=90{}^\\circ\\)，\n\\(\\therefore \\angle EBA=\\angle CBE+\\angle ABC\\)\n\\(=135{}^\\circ\\)，\n\\(BE=\\sqrt[] { 2 }AD\\)；\n（3）①当\\(AE=\\frac { 1 } { 3 }AB\\)时，\n如图，连接\\(BD\\)，\n〔图1〕\n\\(\\because\\)四边形\\(ABCD\\)和四边形\\(DEFG\\)均是正方形，\n\\(\\therefore \\angle ODE=\\angle ADB=45{}^\\circ\\)，\n\\(EO\\bot OD\\)，\n\\(\\angle BAD=90{}^\\circ\\)，\n\\(\\therefore \\angle ODA+\\angle ADE=\\angle ADE+\\angle EDB\\)，\n\\(cos\\angle ODE=\\frac { OD } { ED }\\)，\n\\(cos\\angle ADB=\\frac { AD } { BD }\\)，\n\\(\\therefore\\)\\(\\angle ODA=\\angle EDB\\)，\n\\(\\frac { OD } { ED }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore\\)\\(\\frac { OD } { ED }=\\frac { AD } { BD }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n\\(\\therefore \\vartriangle ODA\\backsim \\vartriangle EDB\\)，\n\\(\\therefore \\frac { OA } { EB }=\\frac { OD } { ED }\\)，\n\\(\\therefore \\frac { \\sqrt[] { 6 } } { EB }=\\frac { \\sqrt[] { 2 } } { 2 }\\)，\n解得：\\(EB=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)\\(AE=\\frac { 1 } { 3 }AB\\)，\n\\(\\therefore EB=2AE=2\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=\\sqrt[] { 3 }\\)，\n\\(AD=AB=3\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { \\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 3\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)\n\\(=\\sqrt[] { 30 }\\)，\n\\(\\therefore EF=\\sqrt[] { 30 }\\)；\n②当\\(BE=\\frac { 1 } { 3 }AB\\)时，\n如图，连接\\(BD\\)，\n〔图2〕\n由①得：同理可求\\(EB=2\\sqrt[] { 3 }\\)，\n\\(\\because\\)\\(BE=\\frac { 1 } { 3 }AB\\)，\n\\(\\therefore AD=AB=6\\sqrt[] { 3 }\\)，\n\\(\\therefore AE=2BE=4\\sqrt[] { 3 }\\)，\n\\(\\therefore DE=\\sqrt[] { AE ^ { 2 } +AD ^ { 2 } }\\)\n\\(=\\sqrt[] { \\left ( { 4\\sqrt[] { 3 } } \\right ) ^ { 2 } +\\left ( { 6\\sqrt[] { 3 } } \\right ) ^ { 2 } }\\)\n\\(=2\\sqrt[] { 39 }\\)，\n\\(\\therefore EF=2\\sqrt[] { 39 }\\)；\n综上所述：\\(EF\\)的长为\\(\\sqrt[] { 30 }\\)或\\(2\\sqrt[] { 39 }\\)．",
+  "review_note": "",
+  "solution_figure_ids": [
+    1,
+    2
+  ],
+  "source": {
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-73E0ED6BB4/single/q22-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          13,
+          445.53,
+          582.2,
+          698.57
+        ]
+      }
+    ],
+    "solution_pages": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s22-p17.webp",
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s22-p18.webp",
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s22-p19.webp",
+      "assets/SZ-G9-T2-73E0ED6BB4/single/s22-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 17,
+        "bbox_pt": [
+          13,
+          540.53,
+          582.2,
+          800.53
+        ]
+      },
+      {
+        "page": 18,
+        "bbox_pt": [
+          13,
+          37.04,
+          582.2,
+          806.17
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          13,
+          37.04,
+          582.2,
+          793.57
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          13,
+          36.17,
+          582.2,
+          583.13
+        ]
+      }
+    ]
+  },
+  "tag_source": "小问标签汇总"
+}

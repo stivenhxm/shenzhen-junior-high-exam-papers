@@ -1,0 +1,480 @@
+{
+  "id": "SZ-G9-T2-40C3580F53-Q20",
+  "paper_id": "SZ-G9-T2-40C3580F53",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "由相似比求对应线段或周长",
+  "stem": "【问题背景】（1）在等腰直角三角形中，如图1，\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，请写出\\(BE\\)与\\(CD\\)之间的数量关系为______，并说明理由；\n【尝试应用】（2）如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，点D在边\\(AC\\)上，连接\\(BD\\)，\\(CE\\parallel AB\\)且\\(\\angle BDE=45{}^\\circ\\)，连接\\(BE\\)，若\\(CE=\\sqrt[] { 2 }\\)，求\\(AD\\)的长；\n【拓展创新】（3）如图3，在正方形\\(ABCD\\)中，\\(AB=2\\)，点F是射线\\(CD\\)上一点，以\\(AF\\)为对角线作正方形\\(AEFG\\)，连接\\(DE\\)、\\(BG\\)、\\(CG\\)．若\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，请直接写出线段\\(CF\\)的长______．\n〔图1〕〔图2〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/78/783a383c6355eab3f0309dc35c5eaab7166a5240fec1efa31ca3471c3fe2e2ce.png",
+    "assets/figures/a0/a0e0d00b48433acb79ee72817ecae06c9c4eb5f68dc3926292e47583bca378d1.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BE=\\sqrt[] { 2 }CD\\)，理由见解析；（2）\\(AD=2\\)；（3）\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)",
+  "answer": "（1）\\(BE=\\sqrt[] { 2 }CD\\)，理由见解析；（2）\\(AD=2\\)；（3）\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）由等腰直角三角形的性质可得\\(\\angle DAC=\\angle EAB\\)，\\(\\frac { AB } { AC }=\\frac { AE } { AD }=\\sqrt[] { 2 }\\)，得\\(\\vartriangle ABE\\backsim \\vartriangle ACD\\)，得\\(BE=\\sqrt[] { 2 }CD\\)；\n（2）根据\\(\\angle BCE=\\angle BDE=45{}^\\circ\\)，得\\(\\vartriangle CFE\\backsim \\vartriangle DFB\\)，得\\(\\frac { CF } { DF }=\\frac { EF } { FB }\\)，得\\(\\vartriangle CFD\\backsim \\vartriangle EFB\\)，得\\(\\angle BED=\\angle ACB=90{}^\\circ\\)，可得\\(\\vartriangle BDA\\backsim \\vartriangle BEC\\)，得\\(AD=\\sqrt[] { 2 }CE=2\\)；\n（3）过点G作\\(HI\\bot CD\\)于点H，交\\(AB\\)于点I，连接\\(AC，BG，CG\\)，设正方形\\(AEFG\\)边长为\\(2x\\)，得四边形\\(HIBC\\)是矩形，证\\(\\vartriangle AFC\\backsim \\vartriangle AGB\\)，可得\\(\\vartriangle CBG≌\\vartriangle ABG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得\\(CG=AG=2x\\)，根据\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，当\\(\\angle BCG=30{}^\\circ\\)时，得\\(CH=x\\)，得\\(GH=\\sqrt[] { 3 }x\\)， \\(BI=GI=x\\)，得\\(\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，得\\(CH=\\sqrt[] { 3 }-1\\)，得\\(CF=2CH=2\\sqrt[] { 3 }-2\\)；当\\(\\angle DCG=30{}^\\circ\\)时， \\(CH=\\sqrt[] { 3 }x=3-\\sqrt[] { 3 }\\)，得\\(CF=2CH=6-2\\sqrt[] { 3 }\\)．\n【详解】（1）证明：如图，\n∵\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，\n∴\\(\\angle DAE=\\angle CAB=45{}^\\circ\\)，\n且\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 2 }AC\\)，\\(AE=\\sqrt[] { AD ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 2 }AD\\)，\n∴\\(\\angle DAC=\\angle EAB\\)，\\(\\frac { AB } { AC }=\\frac { AE } { AD }=\\sqrt[] { 2 }\\)，\n∴\\(\\vartriangle ABE\\backsim \\vartriangle ACD\\)，\n∴\\(\\frac { BE } { CD }=\\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\n∴\\(BE=\\sqrt[] { 2 }CD\\)；\n故答案为：\\(BE=\\sqrt[] { 2 }CD\\)；\n（2）解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，\n∴\\(\\angle A=\\angle CBA=45{}^\\circ\\)，\n∵\\(CE\\parallel AB\\)，\n∴\\(\\angle BCE=\\angle CBA=\\angle BDE=45{}^\\circ\\)，\n∵\\(\\angle CFE=\\angle BFD\\)，\n∴\\(\\vartriangle CFE\\backsim \\vartriangle DFB\\)，\n∴\\(\\frac { CF } { DF }=\\frac { EF } { FB }\\)，\n∴\\(\\frac { CF } { EF }=\\frac { DF } { BF }\\)，\n∵\\(\\angle CFD=\\angle EFB\\)，\n∴\\(\\vartriangle CFD\\backsim \\vartriangle EFB\\)，\n∴\\(\\angle BED=\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle EBD=\\angle BDE=45{}^\\circ\\)，\n∴\\(DE=EB\\)，\n∴\\(\\frac { BD } { EB }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，\n∵\\(\\angle DBE=\\angle ABC\\)，\n∴\\(\\angle DBA=\\angle EBC\\)，\n∴\\(\\vartriangle BDA\\backsim \\vartriangle BEC\\)，\n∴\\(\\frac { AD } { CE }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，\n∵\\(CE=\\sqrt[] { 2 }\\)，\n∴\\(AD=\\sqrt[] { 2 }CE=2\\)；\n（3）解：如图，过点G作\\(HI\\bot CD\\)于点H，交\\(AB\\)于点I，连接\\(AC，BG，CG\\)，\n则\\(\\angle CHI=90{}^\\circ\\)，设正方形\\(AEFG\\)边长为\\(2x\\)，\n∵正方形\\(ABCD\\)中，\\(\\angle ABC=\\angle BCD=90{}^\\circ ，AB=BC=2\\)，\n∴四边形\\(HIBC\\)是矩形，\n∴\\(CH=BI，HI=BC=2，\\angle HIB=90{}^\\circ\\)，\n∵\\(\\frac { AF } { AG }=\\frac { AC } { AB }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=\\angle GAF\\)，\n∴\\(\\angle BAG=\\angle CAF\\)，\n∴\\(\\vartriangle AFC\\backsim \\vartriangle AGB\\)，\n∴\\(\\angle ABG=\\angle ACF=45{}^\\circ\\)，\n∴\\(\\angle CBG=\\angle ABG=45{}^\\circ\\)，\n∵\\(BA=BC，BG=BG\\)，\n∴\\(\\vartriangle CBG≌\\vartriangle ABG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CG=AG=FG=2x\\)，\n∴\\(CF=2CH\\)，\n∵\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，\n∴\\(\\frac { 1 } { 3 }\\angle BCD=30{}^\\circ\\)，\n当\\(\\angle BCG=30{}^\\circ\\)时，\\(\\angle CGH=\\angle BCG=30{}^\\circ\\)，\n∴\\(CH=\\frac { 1 } { 2 }CG=x\\)，\n∴\\(GH=\\sqrt[] { CG ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 3 }x\\)，\n∵\\(\\angle BGI=90{}^\\circ -\\angle ABG=45{}^\\circ\\)，\n∴\\(BI=GI=x\\)，\n∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x\\)，\n∴\\(\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，\n解得\\(x=\\sqrt[] { 3 }-1\\)，\n∴\\(CH=x=\\sqrt[] { 3 }-1\\)，\n∴\\(CF=2CH=2\\sqrt[] { 3 }-2\\)；\n当\\(\\angle DCG=30{}^\\circ\\)时，\\(GH=x，CH=\\sqrt[] { 3 }x\\)，\n∴\\(BI=GI=\\sqrt[] { 3 }x\\)，\n∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，\n解得\\(x=\\sqrt[] { 3 }-1\\)，\n∴\\(CH=\\sqrt[] { 3 }x=3-\\sqrt[] { 3 }\\)，\n∴\\(CF=2CH=6-2\\sqrt[] { 3 }\\)．\n故答案为：\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)．\n〔图3〕 〔图4〕\n【点睛】本题主要考查了正方形和相似三角形综合题．熟练掌握正方形性质，相似三角形的判定与性质，等腰直角三角形性质，含30度的直角三角形性质，勾股定理，分类讨论，是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/25/25f7a236968b0bb1f15e590ff322e7d3b0a762e0f23313b48590332dd6be56b8.png",
+    "assets/figures/54/549af09565336e1b528c1d56549485245c874564c5934b19cd4ea3ca0d8da804.png",
+    "assets/figures/fe/feba509eb3c1e4db201e2429314642f037fd4247a653a4c257c210144833dc8d.png",
+    "assets/figures/9f/9f2856a16440085e8fd371608b083514c1c27e6359f123d609d34f4b77a5261a.png"
+  ],
+  "solution": "（1）证明：如图，\n∵\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，\n∴\\(\\angle DAE=\\angle CAB=45{}^\\circ\\)，\n且\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 2 }AC\\)，\\(AE=\\sqrt[] { AD ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 2 }AD\\)，\n∴\\(\\angle DAC=\\angle EAB\\)，\\(\\frac { AB } { AC }=\\frac { AE } { AD }=\\sqrt[] { 2 }\\)，\n∴\\(\\vartriangle ABE\\backsim \\vartriangle ACD\\)，\n∴\\(\\frac { BE } { CD }=\\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\n∴\\(BE=\\sqrt[] { 2 }CD\\)；\n故答案为：\\(BE=\\sqrt[] { 2 }CD\\)；\n（2）解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，\n∴\\(\\angle A=\\angle CBA=45{}^\\circ\\)，\n∵\\(CE\\parallel AB\\)，\n∴\\(\\angle BCE=\\angle CBA=\\angle BDE=45{}^\\circ\\)，\n∵\\(\\angle CFE=\\angle BFD\\)，\n∴\\(\\vartriangle CFE\\backsim \\vartriangle DFB\\)，\n∴\\(\\frac { CF } { DF }=\\frac { EF } { FB }\\)，\n∴\\(\\frac { CF } { EF }=\\frac { DF } { BF }\\)，\n∵\\(\\angle CFD=\\angle EFB\\)，\n∴\\(\\vartriangle CFD\\backsim \\vartriangle EFB\\)，\n∴\\(\\angle BED=\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle EBD=\\angle BDE=45{}^\\circ\\)，\n∴\\(DE=EB\\)，\n∴\\(\\frac { BD } { EB }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，\n∵\\(\\angle DBE=\\angle ABC\\)，\n∴\\(\\angle DBA=\\angle EBC\\)，\n∴\\(\\vartriangle BDA\\backsim \\vartriangle BEC\\)，\n∴\\(\\frac { AD } { CE }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，\n∵\\(CE=\\sqrt[] { 2 }\\)，\n∴\\(AD=\\sqrt[] { 2 }CE=2\\)；\n（3）解：如图，过点G作\\(HI\\bot CD\\)于点H，交\\(AB\\)于点I，连接\\(AC，BG，CG\\)，\n则\\(\\angle CHI=90{}^\\circ\\)，设正方形\\(AEFG\\)边长为\\(2x\\)，\n∵正方形\\(ABCD\\)中，\\(\\angle ABC=\\angle BCD=90{}^\\circ ，AB=BC=2\\)，\n∴四边形\\(HIBC\\)是矩形，\n∴\\(CH=BI，HI=BC=2，\\angle HIB=90{}^\\circ\\)，\n∵\\(\\frac { AF } { AG }=\\frac { AC } { AB }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=\\angle GAF\\)，\n∴\\(\\angle BAG=\\angle CAF\\)，\n∴\\(\\vartriangle AFC\\backsim \\vartriangle AGB\\)，\n∴\\(\\angle ABG=\\angle ACF=45{}^\\circ\\)，\n∴\\(\\angle CBG=\\angle ABG=45{}^\\circ\\)，\n∵\\(BA=BC，BG=BG\\)，\n∴\\(\\vartriangle CBG≌\\vartriangle ABG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CG=AG=FG=2x\\)，\n∴\\(CF=2CH\\)，\n∵\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，\n∴\\(\\frac { 1 } { 3 }\\angle BCD=30{}^\\circ\\)，\n当\\(\\angle BCG=30{}^\\circ\\)时，\\(\\angle CGH=\\angle BCG=30{}^\\circ\\)，\n∴\\(CH=\\frac { 1 } { 2 }CG=x\\)，\n∴\\(GH=\\sqrt[] { CG ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 3 }x\\)，\n∵\\(\\angle BGI=90{}^\\circ -\\angle ABG=45{}^\\circ\\)，\n∴\\(BI=GI=x\\)，\n∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x\\)，\n∴\\(\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，\n解得\\(x=\\sqrt[] { 3 }-1\\)，\n∴\\(CH=x=\\sqrt[] { 3 }-1\\)，\n∴\\(CF=2CH=2\\sqrt[] { 3 }-2\\)；\n当\\(\\angle DCG=30{}^\\circ\\)时，\\(GH=x，CH=\\sqrt[] { 3 }x\\)，\n∴\\(BI=GI=\\sqrt[] { 3 }x\\)，\n∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，\n解得\\(x=\\sqrt[] { 3 }-1\\)，\n∴\\(CH=\\sqrt[] { 3 }x=3-\\sqrt[] { 3 }\\)，\n∴\\(CF=2CH=6-2\\sqrt[] { 3 }\\)．\n故答案为：\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)．\n〔图3〕 〔图4〕",
+  "solution_steps": [
+    "（1）证明：如图，",
+    "∵\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，",
+    "∴\\(\\angle DAE=\\angle CAB=45{}^\\circ\\)，",
+    "且\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 2 }AC\\)，\\(AE=\\sqrt[] { AD ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 2 }AD\\)，",
+    "∴\\(\\angle DAC=\\angle EAB\\)，\\(\\frac { AB } { AC }=\\frac { AE } { AD }=\\sqrt[] { 2 }\\)，",
+    "∴\\(\\vartriangle ABE\\backsim \\vartriangle ACD\\)，",
+    "∴\\(\\frac { BE } { CD }=\\frac { AB } { AC }=\\sqrt[] { 2 }\\)，",
+    "∴\\(BE=\\sqrt[] { 2 }CD\\)；",
+    "故答案为：\\(BE=\\sqrt[] { 2 }CD\\)；",
+    "（2）解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，",
+    "∴\\(\\angle A=\\angle CBA=45{}^\\circ\\)，",
+    "∵\\(CE\\parallel AB\\)，",
+    "∴\\(\\angle BCE=\\angle CBA=\\angle BDE=45{}^\\circ\\)，",
+    "∵\\(\\angle CFE=\\angle BFD\\)，",
+    "∴\\(\\vartriangle CFE\\backsim \\vartriangle DFB\\)，",
+    "∴\\(\\frac { CF } { DF }=\\frac { EF } { FB }\\)，",
+    "∴\\(\\frac { CF } { EF }=\\frac { DF } { BF }\\)，",
+    "∵\\(\\angle CFD=\\angle EFB\\)，",
+    "∴\\(\\vartriangle CFD\\backsim \\vartriangle EFB\\)，",
+    "∴\\(\\angle BED=\\angle ACB=90{}^\\circ\\)，",
+    "∴\\(\\angle EBD=\\angle BDE=45{}^\\circ\\)，",
+    "∴\\(DE=EB\\)，",
+    "∴\\(\\frac { BD } { EB }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，",
+    "∵\\(\\angle DBE=\\angle ABC\\)，",
+    "∴\\(\\angle DBA=\\angle EBC\\)，",
+    "∴\\(\\vartriangle BDA\\backsim \\vartriangle BEC\\)，",
+    "∴\\(\\frac { AD } { CE }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，",
+    "∵\\(CE=\\sqrt[] { 2 }\\)，",
+    "∴\\(AD=\\sqrt[] { 2 }CE=2\\)；",
+    "（3）解：如图，过点G作\\(HI\\bot CD\\)于点H，交\\(AB\\)于点I，连接\\(AC，BG，CG\\)，",
+    "则\\(\\angle CHI=90{}^\\circ\\)，设正方形\\(AEFG\\)边长为\\(2x\\)，",
+    "∵正方形\\(ABCD\\)中，\\(\\angle ABC=\\angle BCD=90{}^\\circ ，AB=BC=2\\)，",
+    "∴四边形\\(HIBC\\)是矩形，",
+    "∴\\(CH=BI，HI=BC=2，\\angle HIB=90{}^\\circ\\)，",
+    "∵\\(\\frac { AF } { AG }=\\frac { AC } { AB }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=\\angle GAF\\)，",
+    "∴\\(\\angle BAG=\\angle CAF\\)，",
+    "∴\\(\\vartriangle AFC\\backsim \\vartriangle AGB\\)，",
+    "∴\\(\\angle ABG=\\angle ACF=45{}^\\circ\\)，",
+    "∴\\(\\angle CBG=\\angle ABG=45{}^\\circ\\)，",
+    "∵\\(BA=BC，BG=BG\\)，",
+    "∴\\(\\vartriangle CBG≌\\vartriangle ABG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(CG=AG=FG=2x\\)，",
+    "∴\\(CF=2CH\\)，",
+    "∵\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，",
+    "∴\\(\\frac { 1 } { 3 }\\angle BCD=30{}^\\circ\\)，",
+    "当\\(\\angle BCG=30{}^\\circ\\)时，\\(\\angle CGH=\\angle BCG=30{}^\\circ\\)，",
+    "∴\\(CH=\\frac { 1 } { 2 }CG=x\\)，",
+    "∴\\(GH=\\sqrt[] { CG ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 3 }x\\)，",
+    "∵\\(\\angle BGI=90{}^\\circ -\\angle ABG=45{}^\\circ\\)，",
+    "∴\\(BI=GI=x\\)，",
+    "∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x\\)，",
+    "∴\\(\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，",
+    "解得\\(x=\\sqrt[] { 3 }-1\\)，",
+    "∴\\(CH=x=\\sqrt[] { 3 }-1\\)，",
+    "∴\\(CF=2CH=2\\sqrt[] { 3 }-2\\)；",
+    "当\\(\\angle DCG=30{}^\\circ\\)时，\\(GH=x，CH=\\sqrt[] { 3 }x\\)，",
+    "∴\\(BI=GI=\\sqrt[] { 3 }x\\)，",
+    "∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，",
+    "解得\\(x=\\sqrt[] { 3 }-1\\)，",
+    "∴\\(CH=\\sqrt[] { 3 }x=3-\\sqrt[] { 3 }\\)，",
+    "∴\\(CF=2CH=6-2\\sqrt[] { 3 }\\)．",
+    "故答案为：\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)．",
+    "〔图3〕 〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "【问题背景】",
+      "paper_blocks": [
+        82
+      ]
+    },
+    {
+      "id": "fig-85",
+      "kind": "figure",
+      "text": "〔图1〕〔图2〕",
+      "paper_blocks": [
+        85
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-40C3580F53-Q20-P01",
+      "label": "（1）",
+      "prompt": "在等腰直角三角形中，如图1，\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，请写出\\(BE\\)与\\(CD\\)之间的数量关系为______，并说明理由；\n【尝试应用】",
+      "stem_text": "在等腰直角三角形中，如图1，\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，请写出\\(BE\\)与\\(CD\\)之间的数量关系为______，并说明理由；\n【尝试应用】",
+      "material_ids": [
+        "context",
+        "fig-85"
+      ],
+      "requires": [],
+      "given_answer": "\\(BE=\\sqrt[] { 2 }CD\\)，理由见解析；",
+      "answer": "\\(BE=\\sqrt[] { 2 }CD\\)，理由见解析；",
+      "given_solution": "证明：如图，\n∵\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，\n∴\\(\\angle DAE=\\angle CAB=45{}^\\circ\\)，\n且\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 2 }AC\\)，\\(AE=\\sqrt[] { AD ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 2 }AD\\)，\n∴\\(\\angle DAC=\\angle EAB\\)，\\(\\frac { AB } { AC }=\\frac { AE } { AD }=\\sqrt[] { 2 }\\)，\n∴\\(\\vartriangle ABE\\backsim \\vartriangle ACD\\)，\n∴\\(\\frac { BE } { CD }=\\frac { AB } { AC }=\\sqrt[] { 2 }\\)，\n∴\\(BE=\\sqrt[] { 2 }CD\\)；\n故答案为：\\(BE=\\sqrt[] { 2 }CD\\)；",
+      "solution_steps": [
+        "证明：如图，",
+        "∵\\(\\angle ACB=\\angle ADE=90{}^\\circ\\)，\\(AC=BC\\)，\\(AD=DE\\)，",
+        "∴\\(\\angle DAE=\\angle CAB=45{}^\\circ\\)，",
+        "且\\(AB=\\sqrt[] { AC ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 2 }AC\\)，\\(AE=\\sqrt[] { AD ^ { 2 } +DE ^ { 2 } }=\\sqrt[] { 2 }AD\\)，",
+        "∴\\(\\angle DAC=\\angle EAB\\)，\\(\\frac { AB } { AC }=\\frac { AE } { AD }=\\sqrt[] { 2 }\\)，",
+        "∴\\(\\vartriangle ABE\\backsim \\vartriangle ACD\\)，",
+        "∴\\(\\frac { BE } { CD }=\\frac { AB } { AC }=\\sqrt[] { 2 }\\)，",
+        "∴\\(BE=\\sqrt[] { 2 }CD\\)；",
+        "故答案为：\\(BE=\\sqrt[] { 2 }CD\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85
+        ],
+        "solution_block_ids": [
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-40C3580F53-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，点D在边\\(AC\\)上，连接\\(BD\\)，\\(CE\\parallel AB\\)且\\(\\angle BDE=45{}^\\circ\\)，连接\\(BE\\)，若\\(CE=\\sqrt[] { 2 }\\)，求\\(AD\\)的长；\n【拓展创新】",
+      "stem_text": "如图2，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，点D在边\\(AC\\)上，连接\\(BD\\)，\\(CE\\parallel AB\\)且\\(\\angle BDE=45{}^\\circ\\)，连接\\(BE\\)，若\\(CE=\\sqrt[] { 2 }\\)，求\\(AD\\)的长；\n【拓展创新】",
+      "material_ids": [
+        "context",
+        "fig-85"
+      ],
+      "requires": [],
+      "given_answer": "\\(AD=2\\)；",
+      "answer": "\\(AD=2\\)；",
+      "given_solution": "解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，\n∴\\(\\angle A=\\angle CBA=45{}^\\circ\\)，\n∵\\(CE\\parallel AB\\)，\n∴\\(\\angle BCE=\\angle CBA=\\angle BDE=45{}^\\circ\\)，\n∵\\(\\angle CFE=\\angle BFD\\)，\n∴\\(\\vartriangle CFE\\backsim \\vartriangle DFB\\)，\n∴\\(\\frac { CF } { DF }=\\frac { EF } { FB }\\)，\n∴\\(\\frac { CF } { EF }=\\frac { DF } { BF }\\)，\n∵\\(\\angle CFD=\\angle EFB\\)，\n∴\\(\\vartriangle CFD\\backsim \\vartriangle EFB\\)，\n∴\\(\\angle BED=\\angle ACB=90{}^\\circ\\)，\n∴\\(\\angle EBD=\\angle BDE=45{}^\\circ\\)，\n∴\\(DE=EB\\)，\n∴\\(\\frac { BD } { EB }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，\n∵\\(\\angle DBE=\\angle ABC\\)，\n∴\\(\\angle DBA=\\angle EBC\\)，\n∴\\(\\vartriangle BDA\\backsim \\vartriangle BEC\\)，\n∴\\(\\frac { AD } { CE }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，\n∵\\(CE=\\sqrt[] { 2 }\\)，\n∴\\(AD=\\sqrt[] { 2 }CE=2\\)；",
+      "solution_steps": [
+        "解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AC=BC\\)，",
+        "∴\\(\\angle A=\\angle CBA=45{}^\\circ\\)，",
+        "∵\\(CE\\parallel AB\\)，",
+        "∴\\(\\angle BCE=\\angle CBA=\\angle BDE=45{}^\\circ\\)，",
+        "∵\\(\\angle CFE=\\angle BFD\\)，",
+        "∴\\(\\vartriangle CFE\\backsim \\vartriangle DFB\\)，",
+        "∴\\(\\frac { CF } { DF }=\\frac { EF } { FB }\\)，",
+        "∴\\(\\frac { CF } { EF }=\\frac { DF } { BF }\\)，",
+        "∵\\(\\angle CFD=\\angle EFB\\)，",
+        "∴\\(\\vartriangle CFD\\backsim \\vartriangle EFB\\)，",
+        "∴\\(\\angle BED=\\angle ACB=90{}^\\circ\\)，",
+        "∴\\(\\angle EBD=\\angle BDE=45{}^\\circ\\)，",
+        "∴\\(DE=EB\\)，",
+        "∴\\(\\frac { BD } { EB }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，",
+        "∵\\(\\angle DBE=\\angle ABC\\)，",
+        "∴\\(\\angle DBA=\\angle EBC\\)，",
+        "∴\\(\\vartriangle BDA\\backsim \\vartriangle BEC\\)，",
+        "∴\\(\\frac { AD } { CE }=\\frac { AB } { BC }=\\sqrt[] { 2 }\\)，",
+        "∵\\(CE=\\sqrt[] { 2 }\\)，",
+        "∴\\(AD=\\sqrt[] { 2 }CE=2\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84,
+          85
+        ],
+        "solution_block_ids": [
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-40C3580F53-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图3，在正方形\\(ABCD\\)中，\\(AB=2\\)，点F是射线\\(CD\\)上一点，以\\(AF\\)为对角线作正方形\\(AEFG\\)，连接\\(DE\\)、\\(BG\\)、\\(CG\\)．若\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，请直接写出线段\\(CF\\)的长______．",
+      "stem_text": "如图3，在正方形\\(ABCD\\)中，\\(AB=2\\)，点F是射线\\(CD\\)上一点，以\\(AF\\)为对角线作正方形\\(AEFG\\)，连接\\(DE\\)、\\(BG\\)、\\(CG\\)．若\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，请直接写出线段\\(CF\\)的长______．",
+      "material_ids": [
+        "context",
+        "fig-85"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)",
+      "answer": "\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)",
+      "given_solution": "解：如图，过点G作\\(HI\\bot CD\\)于点H，交\\(AB\\)于点I，连接\\(AC，BG，CG\\)，\n则\\(\\angle CHI=90{}^\\circ\\)，设正方形\\(AEFG\\)边长为\\(2x\\)，\n∵正方形\\(ABCD\\)中，\\(\\angle ABC=\\angle BCD=90{}^\\circ ，AB=BC=2\\)，\n∴四边形\\(HIBC\\)是矩形，\n∴\\(CH=BI，HI=BC=2，\\angle HIB=90{}^\\circ\\)，\n∵\\(\\frac { AF } { AG }=\\frac { AC } { AB }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=\\angle GAF\\)，\n∴\\(\\angle BAG=\\angle CAF\\)，\n∴\\(\\vartriangle AFC\\backsim \\vartriangle AGB\\)，\n∴\\(\\angle ABG=\\angle ACF=45{}^\\circ\\)，\n∴\\(\\angle CBG=\\angle ABG=45{}^\\circ\\)，\n∵\\(BA=BC，BG=BG\\)，\n∴\\(\\vartriangle CBG≌\\vartriangle ABG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(CG=AG=FG=2x\\)，\n∴\\(CF=2CH\\)，\n∵\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，\n∴\\(\\frac { 1 } { 3 }\\angle BCD=30{}^\\circ\\)，\n当\\(\\angle BCG=30{}^\\circ\\)时，\\(\\angle CGH=\\angle BCG=30{}^\\circ\\)，\n∴\\(CH=\\frac { 1 } { 2 }CG=x\\)，\n∴\\(GH=\\sqrt[] { CG ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 3 }x\\)，\n∵\\(\\angle BGI=90{}^\\circ -\\angle ABG=45{}^\\circ\\)，\n∴\\(BI=GI=x\\)，\n∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x\\)，\n∴\\(\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，\n解得\\(x=\\sqrt[] { 3 }-1\\)，\n∴\\(CH=x=\\sqrt[] { 3 }-1\\)，\n∴\\(CF=2CH=2\\sqrt[] { 3 }-2\\)；\n当\\(\\angle DCG=30{}^\\circ\\)时，\\(GH=x，CH=\\sqrt[] { 3 }x\\)，\n∴\\(BI=GI=\\sqrt[] { 3 }x\\)，\n∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，\n解得\\(x=\\sqrt[] { 3 }-1\\)，\n∴\\(CH=\\sqrt[] { 3 }x=3-\\sqrt[] { 3 }\\)，\n∴\\(CF=2CH=6-2\\sqrt[] { 3 }\\)．\n故答案为：\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)．\n〔图3〕 〔图4〕",
+      "solution_steps": [
+        "解：如图，过点G作\\(HI\\bot CD\\)于点H，交\\(AB\\)于点I，连接\\(AC，BG，CG\\)，",
+        "则\\(\\angle CHI=90{}^\\circ\\)，设正方形\\(AEFG\\)边长为\\(2x\\)，",
+        "∵正方形\\(ABCD\\)中，\\(\\angle ABC=\\angle BCD=90{}^\\circ ，AB=BC=2\\)，",
+        "∴四边形\\(HIBC\\)是矩形，",
+        "∴\\(CH=BI，HI=BC=2，\\angle HIB=90{}^\\circ\\)，",
+        "∵\\(\\frac { AF } { AG }=\\frac { AC } { AB }=\\sqrt[] { 2 }\\)，\\(\\angle BAC=\\angle GAF\\)，",
+        "∴\\(\\angle BAG=\\angle CAF\\)，",
+        "∴\\(\\vartriangle AFC\\backsim \\vartriangle AGB\\)，",
+        "∴\\(\\angle ABG=\\angle ACF=45{}^\\circ\\)，",
+        "∴\\(\\angle CBG=\\angle ABG=45{}^\\circ\\)，",
+        "∵\\(BA=BC，BG=BG\\)，",
+        "∴\\(\\vartriangle CBG≌\\vartriangle ABG\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(CG=AG=FG=2x\\)，",
+        "∴\\(CF=2CH\\)，",
+        "∵\\(CG\\)把\\(\\angle BCD\\)分成\\(1:2\\)的两部分，",
+        "∴\\(\\frac { 1 } { 3 }\\angle BCD=30{}^\\circ\\)，",
+        "当\\(\\angle BCG=30{}^\\circ\\)时，\\(\\angle CGH=\\angle BCG=30{}^\\circ\\)，",
+        "∴\\(CH=\\frac { 1 } { 2 }CG=x\\)，",
+        "∴\\(GH=\\sqrt[] { CG ^ { 2 } -CH ^ { 2 } }=\\sqrt[] { 3 }x\\)，",
+        "∵\\(\\angle BGI=90{}^\\circ -\\angle ABG=45{}^\\circ\\)，",
+        "∴\\(BI=GI=x\\)，",
+        "∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x\\)，",
+        "∴\\(\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，",
+        "解得\\(x=\\sqrt[] { 3 }-1\\)，",
+        "∴\\(CH=x=\\sqrt[] { 3 }-1\\)，",
+        "∴\\(CF=2CH=2\\sqrt[] { 3 }-2\\)；",
+        "当\\(\\angle DCG=30{}^\\circ\\)时，\\(GH=x，CH=\\sqrt[] { 3 }x\\)，",
+        "∴\\(BI=GI=\\sqrt[] { 3 }x\\)，",
+        "∴\\(HI=HG+GI=\\left ( { \\sqrt[] { 3 }+1 } \\right )x=2\\)，",
+        "解得\\(x=\\sqrt[] { 3 }-1\\)，",
+        "∴\\(CH=\\sqrt[] { 3 }x=3-\\sqrt[] { 3 }\\)，",
+        "∴\\(CF=2CH=6-2\\sqrt[] { 3 }\\)．",
+        "故答案为：\\(2\\sqrt[] { 3 }-2\\)或\\(6-2\\sqrt[] { 3 }\\)．",
+        "〔图3〕 〔图4〕"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          84,
+          85
+        ],
+        "solution_block_ids": [
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463,
+          464,
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          24,
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      82,
+      85
+    ],
+    "solution_body_blocks": [
+      400,
+      472
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-40C3580F53/paper-q20-p07.webp",
+      "assets/SZ-G9-T2-40C3580F53/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          721.36,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          282.27
+        ]
+      }
+    ],
+    "solution_pages": [
+      23,
+      24,
+      25,
+      26
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-40C3580F53/solution-q20-p23.webp",
+      "assets/SZ-G9-T2-40C3580F53/solution-q20-p24.webp",
+      "assets/SZ-G9-T2-40C3580F53/solution-q20-p25.webp",
+      "assets/SZ-G9-T2-40C3580F53/solution-q20-p26.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          270.45,
+          583.64,
+          747.73
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          756.36
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          306.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "tag_source": "小问标签汇总"
+}

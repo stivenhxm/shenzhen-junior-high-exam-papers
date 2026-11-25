@@ -1,0 +1,432 @@
+{
+  "id": "SZ-G9-T1-7E36B8BFE2-Q20",
+  "paper_id": "SZ-G9-T1-7E36B8BFE2",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "应用等腰三角形性质求边角、分解组合图形求边角",
+  "stem": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)，将\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，其中点A，C的对应点分别为点\\(A'\\)，\\(C'\\)．\n〔图1〕\n（1）如图1，当点\\(A'\\)落在\\(AC\\)的延长线上时，求\\(AA'\\)的长；\n（2）如图2，当点\\(C'\\)落在\\(AB\\)的延长线上时，连接\\(CC'\\)，交\\(A'B\\)于点M，求\\(BM\\)的长；\n（3）如图3，连接\\(AA'\\)，直线\\(CC'\\)交\\(AA'\\)于点D，点E为\\(AC\\)的中点，连接\\(DE\\)．在旋转过程中，\\(DE\\)是否存在最大值？若存在，直接写出\\(DE\\)的最大值；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-7E36B8BFE2/figures/78e5b35191a81d4419f9df66e16bfcf94429ad21feb8f23d0fdb3926add99df4.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）16    （2）\\(BM=\\frac { 30 } { 11 }\\)\n（3）\\(DE\\)最大值为8",
+  "answer": "（1）16    （2）\\(BM=\\frac { 30 } { 11 }\\)\n（3）\\(DE\\)最大值为8",
+  "given_solution": "【分析】（1）根据余弦函数的定义先求出\\(AC\\)，再利用三角合一，求得\\(A'C=AC=8\\)，从而得解；\n（2）过C作\\(CF\\bot AB\\)于F，过M作\\(MN\\bot C'B\\)于N，利用勾股定理得到\\(BC=6\\)，利用等面积法得到\\(CF=\\frac { AC\\cdot BC } { AB }=4.8\\)，再用勾股定理求得\\(FB=3.6\\)，于是\\(C'F=FB+BC'=9.6\\)，利用\\(cos\\angle BMN=cosA=\\frac { 4 } { 5 }\\)，得到\\(NM=\\frac { 4 } { 5 }MB\\)，\\(C'N=6-\\frac { 3 } { 5 }BM\\)，最后用\\(\\vartriangle C'MN\\backsim \\vartriangle C'CF\\)得出\\(\\frac { C'N } { C'F }=\\frac { MN } { CF }\\)，即\\(\\frac { 6-\\frac { 3 } { 5 }BM } { 9.6 }=\\frac { \\frac { 4 } { 5 }BM } { 4.8 }\\)，从而得解；\n（3）过点A作\\(AP\\parallel A'C'\\)交\\(C'D\\)的延长线于点P，先证明\\(\\angle P=\\angle A'C'D=\\angle ACP\\)得到\\(AP=AC=A'C'\\)，再证明\\(\\vartriangle APD≌\\vartriangle A'C'D\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)得到\\(AD=A'D\\)，\\(DE\\)是\\(\\vartriangle AA'C\\)的中位线，\\(DE=\\frac { 1 } { 2 }A'C\\)，要使\\(DE\\)最大，只需\\(A'C\\)最大，此时\\(A'、C、B\\)共线，\\(A'C\\)的最大值为\\(A'C_{ max } =A'B+BC=AB+BC=10+6=16\\)， \\(DE\\)最大为\\(\\frac { 1 } { 2 }A'C_{ max } =8\\)，至此得解．\n【小问1详解】\n解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)\n∴\\(AC=8\\)，\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)\n∴\\(AB=A'B\\)，即\\(\\vartriangle ABA'\\)是等腰三角形，\n又∵\\(\\angle ACB=90{}^\\circ\\)\n∴\\(A'C=AC=8\\)，\n∵点\\(A'\\)落在\\(AC\\)的延长线上\n∴\\(AA'=AC+A'C=16\\)；\n【小问2详解】\n过C作\\(CF\\bot AB\\)于F，过M作\\(MN\\bot C'B\\)于N，如图：\n〔图2〕\n∵\\(\\angle ACB=90{}^\\circ ，AB=10，AC=8\\)\n∴\\(BC=6\\)\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，\n∴\\(\\angle A'BC=\\angle ABC\\)，\\(BC'=BC=6\\)，\n∵\\(CF\\bot AB\\)\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AB\\cdot CF\\)\n∴\\(CF=\\frac { AC\\cdot BC } { AB }=4.8\\)\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CBF\\)中，\\(FB=\\sqrt[] { CB ^ { 2 } -CF ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -4.8 ^ { 2 } }=3.6\\)，\n∴\\(C'F=FB+BC'=9.6\\)，\n由旋转性质可得：\\(\\angle A'C'B=90{}^\\circ\\)，\\(\\angle A'=\\angle A\\)\n∵\\(MN\\bot AC'\\)，\\(\\angle A'C'B=90{}^\\circ\\)\n∴\\(A'C'\\parallel MN\\)\n∴\\(\\angle BMN=\\angle A'=\\angle A\\)\n∴\\(cos\\angle BMN=cosA=\\frac { 4 } { 5 }\\)\n∴\\(\\frac { MN } { BM }=\\frac { 4 } { 5 }\\)\n∴\\(NM=\\frac { 4 } { 5 }MB\\)，\\(BN=\\frac { 3 } { 5 }BM\\)\n∴\\(C'N=6-\\frac { 3 } { 5 }BM\\)\n∵\\(\\angle C'NM=\\angle C'FC=90{}^\\circ\\)，\\(\\angle MC'N=\\angle CC'F\\)，\n∴\\(\\vartriangle C'MN\\backsim \\vartriangle C'CF\\)\n∴\\(\\frac { C'N } { C'F }=\\frac { MN } { CF }\\)\n即\\(\\frac { 6-\\frac { 3 } { 5 }BM } { 9.6 }=\\frac { \\frac { 4 } { 5 }BM } { 4.8 }\\)\n∴\\(BM=\\frac { 30 } { 11 }\\)；\n【小问3详解】\n\\(DE\\)最大值为8．\n补充理由如下：\n过点A作\\(AP\\parallel A'C'\\)交\\(C'D\\)的延长线于点P，连接\\(A'C\\)，\n〔图3〕\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，\n∴\\(BC=BC',\\angle ACB=\\angle A'C'B=90{}^\\circ ,AC=A'C'\\)\n∴\\(\\angle BCC'=\\angle BC'C\\)\n∴\\(\\angle ACP=180{}^\\circ -\\angle ACB-\\angle BCC'=90-\\angle BCC',\\)\\(\\angle A'C'D=\\angle A'C'B-\\angle BC'C=90{}^\\circ -\\angle BC'C=90{}^\\circ -\\angle BCC'\\)\n∴\\(\\angle ACP=\\angle A'C'D\\)\n∵\\(AP\\parallel A'C'\\)，\n∴\\(\\angle P=\\angle A'C'D=\\angle ACP\\)\n∴\\(AP=AC=A'C'\\)\n在\\(\\vartriangle APD\\)和\\(\\vartriangle A ^ { \\prime } C ^ { \\prime } D\\)中\n\\(\\begin{cases} \\angle P=\\angle A'C'D \\\\ \\angle PDA=\\angle A'DC' \\\\ AP=AC \\end{cases}\\)\n∴\\(\\vartriangle APD≌\\vartriangle A'C'D\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(AD=A'D\\)，即点D是\\(AA'\\)中点\n又∵点E为\\(AC\\)的中点\n∴\\(DE\\)是\\(\\vartriangle AA'C\\)的中位线，\n∴\\(DE=\\frac { 1 } { 2 }A'C\\)\n要使\\(DE\\)最大，只需\\(A'C\\)最大，此时\\(A'、C、B\\)共线，\\(A'C\\)的最大值为\\(A'C_{ max } =A'B+BC=AB+BC=10+6=16\\)，\n∴\\(DE\\)最大为\\(\\frac { 1 } { 2 }A'C_{ max } =8\\)\n【点睛】本题考查直角三角形的旋转变换，涉及勾股定理、平行线分线段成比例、等腰三角形判定、全等三角形判定与性质等知识，综合性较强，解题的关键是作辅助线，构造全等三角形．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-7E36B8BFE2/figures/c6f50ad341a755571219e9f04773f2d228ec62a7c53be80e7442c2e77e66b178.png",
+    "assets/SZ-G9-T1-7E36B8BFE2/figures/ecff458c8617ae5fdf647cfa1de741a086765cc3a4b48758e878adefe3b3515d.png",
+    "assets/SZ-G9-T1-7E36B8BFE2/figures/fd7bbdb173c14b7417eca0ba4bfe1ff8e12c530559dac9d6137ed6c3d49b034a.png"
+  ],
+  "solution": "【小问1详解】\n解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)\n∴\\(AC=8\\)，\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)\n∴\\(AB=A'B\\)，即\\(\\vartriangle ABA'\\)是等腰三角形，\n又∵\\(\\angle ACB=90{}^\\circ\\)\n∴\\(A'C=AC=8\\)，\n∵点\\(A'\\)落在\\(AC\\)的延长线上\n∴\\(AA'=AC+A'C=16\\)；\n【小问2详解】\n过C作\\(CF\\bot AB\\)于F，过M作\\(MN\\bot C'B\\)于N，如图：\n〔图2〕\n∵\\(\\angle ACB=90{}^\\circ ，AB=10，AC=8\\)\n∴\\(BC=6\\)\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，\n∴\\(\\angle A'BC=\\angle ABC\\)，\\(BC'=BC=6\\)，\n∵\\(CF\\bot AB\\)\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AB\\cdot CF\\)\n∴\\(CF=\\frac { AC\\cdot BC } { AB }=4.8\\)\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CBF\\)中，\\(FB=\\sqrt[] { CB ^ { 2 } -CF ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -4.8 ^ { 2 } }=3.6\\)，\n∴\\(C'F=FB+BC'=9.6\\)，\n由旋转性质可得：\\(\\angle A'C'B=90{}^\\circ\\)，\\(\\angle A'=\\angle A\\)\n∵\\(MN\\bot AC'\\)，\\(\\angle A'C'B=90{}^\\circ\\)\n∴\\(A'C'\\parallel MN\\)\n∴\\(\\angle BMN=\\angle A'=\\angle A\\)\n∴\\(cos\\angle BMN=cosA=\\frac { 4 } { 5 }\\)\n∴\\(\\frac { MN } { BM }=\\frac { 4 } { 5 }\\)\n∴\\(NM=\\frac { 4 } { 5 }MB\\)，\\(BN=\\frac { 3 } { 5 }BM\\)\n∴\\(C'N=6-\\frac { 3 } { 5 }BM\\)\n∵\\(\\angle C'NM=\\angle C'FC=90{}^\\circ\\)，\\(\\angle MC'N=\\angle CC'F\\)，\n∴\\(\\vartriangle C'MN\\backsim \\vartriangle C'CF\\)\n∴\\(\\frac { C'N } { C'F }=\\frac { MN } { CF }\\)\n即\\(\\frac { 6-\\frac { 3 } { 5 }BM } { 9.6 }=\\frac { \\frac { 4 } { 5 }BM } { 4.8 }\\)\n∴\\(BM=\\frac { 30 } { 11 }\\)；\n【小问3详解】\n\\(DE\\)最大值为8．\n补充理由如下：\n过点A作\\(AP\\parallel A'C'\\)交\\(C'D\\)的延长线于点P，连接\\(A'C\\)，\n〔图3〕\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，\n∴\\(BC=BC',\\angle ACB=\\angle A'C'B=90{}^\\circ ,AC=A'C'\\)\n∴\\(\\angle BCC'=\\angle BC'C\\)\n∴\\(\\angle ACP=180{}^\\circ -\\angle ACB-\\angle BCC'=90-\\angle BCC',\\)\\(\\angle A'C'D=\\angle A'C'B-\\angle BC'C=90{}^\\circ -\\angle BC'C=90{}^\\circ -\\angle BCC'\\)\n∴\\(\\angle ACP=\\angle A'C'D\\)\n∵\\(AP\\parallel A'C'\\)，\n∴\\(\\angle P=\\angle A'C'D=\\angle ACP\\)\n∴\\(AP=AC=A'C'\\)\n在\\(\\vartriangle APD\\)和\\(\\vartriangle A ^ { \\prime } C ^ { \\prime } D\\)中\n\\(\\begin{cases} \\angle P=\\angle A'C'D \\\\ \\angle PDA=\\angle A'DC' \\\\ AP=AC \\end{cases}\\)\n∴\\(\\vartriangle APD≌\\vartriangle A'C'D\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(AD=A'D\\)，即点D是\\(AA'\\)中点\n又∵点E为\\(AC\\)的中点\n∴\\(DE\\)是\\(\\vartriangle AA'C\\)的中位线，\n∴\\(DE=\\frac { 1 } { 2 }A'C\\)\n要使\\(DE\\)最大，只需\\(A'C\\)最大，此时\\(A'、C、B\\)共线，\\(A'C\\)的最大值为\\(A'C_{ max } =A'B+BC=AB+BC=10+6=16\\)，\n∴\\(DE\\)最大为\\(\\frac { 1 } { 2 }A'C_{ max } =8\\)",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)",
+    "∴\\(AC=8\\)，",
+    "∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)",
+    "∴\\(AB=A'B\\)，即\\(\\vartriangle ABA'\\)是等腰三角形，",
+    "又∵\\(\\angle ACB=90{}^\\circ\\)",
+    "∴\\(A'C=AC=8\\)，",
+    "∵点\\(A'\\)落在\\(AC\\)的延长线上",
+    "∴\\(AA'=AC+A'C=16\\)；",
+    "【小问2详解】",
+    "过C作\\(CF\\bot AB\\)于F，过M作\\(MN\\bot C'B\\)于N，如图：",
+    "〔图2〕",
+    "∵\\(\\angle ACB=90{}^\\circ ，AB=10，AC=8\\)",
+    "∴\\(BC=6\\)",
+    "∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，",
+    "∴\\(\\angle A'BC=\\angle ABC\\)，\\(BC'=BC=6\\)，",
+    "∵\\(CF\\bot AB\\)",
+    "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AB\\cdot CF\\)",
+    "∴\\(CF=\\frac { AC\\cdot BC } { AB }=4.8\\)",
+    "\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CBF\\)中，\\(FB=\\sqrt[] { CB ^ { 2 } -CF ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -4.8 ^ { 2 } }=3.6\\)，",
+    "∴\\(C'F=FB+BC'=9.6\\)，",
+    "由旋转性质可得：\\(\\angle A'C'B=90{}^\\circ\\)，\\(\\angle A'=\\angle A\\)",
+    "∵\\(MN\\bot AC'\\)，\\(\\angle A'C'B=90{}^\\circ\\)",
+    "∴\\(A'C'\\parallel MN\\)",
+    "∴\\(\\angle BMN=\\angle A'=\\angle A\\)",
+    "∴\\(cos\\angle BMN=cosA=\\frac { 4 } { 5 }\\)",
+    "∴\\(\\frac { MN } { BM }=\\frac { 4 } { 5 }\\)",
+    "∴\\(NM=\\frac { 4 } { 5 }MB\\)，\\(BN=\\frac { 3 } { 5 }BM\\)",
+    "∴\\(C'N=6-\\frac { 3 } { 5 }BM\\)",
+    "∵\\(\\angle C'NM=\\angle C'FC=90{}^\\circ\\)，\\(\\angle MC'N=\\angle CC'F\\)，",
+    "∴\\(\\vartriangle C'MN\\backsim \\vartriangle C'CF\\)",
+    "∴\\(\\frac { C'N } { C'F }=\\frac { MN } { CF }\\)",
+    "即\\(\\frac { 6-\\frac { 3 } { 5 }BM } { 9.6 }=\\frac { \\frac { 4 } { 5 }BM } { 4.8 }\\)",
+    "∴\\(BM=\\frac { 30 } { 11 }\\)；",
+    "【小问3详解】",
+    "\\(DE\\)最大值为8．",
+    "补充理由如下：",
+    "过点A作\\(AP\\parallel A'C'\\)交\\(C'D\\)的延长线于点P，连接\\(A'C\\)，",
+    "〔图3〕",
+    "∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，",
+    "∴\\(BC=BC',\\angle ACB=\\angle A'C'B=90{}^\\circ ,AC=A'C'\\)",
+    "∴\\(\\angle BCC'=\\angle BC'C\\)",
+    "∴\\(\\angle ACP=180{}^\\circ -\\angle ACB-\\angle BCC'=90-\\angle BCC',\\)\\(\\angle A'C'D=\\angle A'C'B-\\angle BC'C=90{}^\\circ -\\angle BC'C=90{}^\\circ -\\angle BCC'\\)",
+    "∴\\(\\angle ACP=\\angle A'C'D\\)",
+    "∵\\(AP\\parallel A'C'\\)，",
+    "∴\\(\\angle P=\\angle A'C'D=\\angle ACP\\)",
+    "∴\\(AP=AC=A'C'\\)",
+    "在\\(\\vartriangle APD\\)和\\(\\vartriangle A ^ { \\prime } C ^ { \\prime } D\\)中",
+    "\\(\\begin{cases} \\angle P=\\angle A'C'D \\\\ \\angle PDA=\\angle A'DC' \\\\ AP=AC \\end{cases}\\)",
+    "∴\\(\\vartriangle APD≌\\vartriangle A'C'D\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+    "\\(AD=A'D\\)，即点D是\\(AA'\\)中点",
+    "又∵点E为\\(AC\\)的中点",
+    "∴\\(DE\\)是\\(\\vartriangle AA'C\\)的中位线，",
+    "∴\\(DE=\\frac { 1 } { 2 }A'C\\)",
+    "要使\\(DE\\)最大，只需\\(A'C\\)最大，此时\\(A'、C、B\\)共线，\\(A'C\\)的最大值为\\(A'C_{ max } =A'B+BC=AB+BC=10+6=16\\)，",
+    "∴\\(DE\\)最大为\\(\\frac { 1 } { 2 }A'C_{ max } =8\\)"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)，将\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，其中点A，C的对应点分别为点\\(A'\\)，\\(C'\\)．\n〔图1〕",
+      "paper_blocks": [
+        82,
+        83
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-7E36B8BFE2-Q20-P01",
+      "label": "（1）",
+      "prompt": "如图1，当点\\(A'\\)落在\\(AC\\)的延长线上时，求\\(AA'\\)的长；",
+      "stem_text": "如图1，当点\\(A'\\)落在\\(AC\\)的延长线上时，求\\(AA'\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "16",
+      "answer": "16",
+      "given_solution": "解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)\n∴\\(AC=8\\)，\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)\n∴\\(AB=A'B\\)，即\\(\\vartriangle ABA'\\)是等腰三角形，\n又∵\\(\\angle ACB=90{}^\\circ\\)\n∴\\(A'C=AC=8\\)，\n∵点\\(A'\\)落在\\(AC\\)的延长线上\n∴\\(AA'=AC+A'C=16\\)；",
+      "solution_steps": [
+        "解：∵\\(\\angle ACB=90{}^\\circ\\)，\\(AB=10\\)，\\(cosA=\\frac { 4 } { 5 }\\)",
+        "∴\\(AC=8\\)，",
+        "∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)",
+        "∴\\(AB=A'B\\)，即\\(\\vartriangle ABA'\\)是等腰三角形，",
+        "又∵\\(\\angle ACB=90{}^\\circ\\)",
+        "∴\\(A'C=AC=8\\)，",
+        "∵点\\(A'\\)落在\\(AC\\)的延长线上",
+        "∴\\(AA'=AC+A'C=16\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          84
+        ],
+        "solution_block_ids": [
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.01"
+      ],
+      "exam_ids": [
+        "E.G04.01.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7E36B8BFE2-Q20-P02",
+      "label": "（2）",
+      "prompt": "如图2，当点\\(C'\\)落在\\(AB\\)的延长线上时，连接\\(CC'\\)，交\\(A'B\\)于点M，求\\(BM\\)的长；",
+      "stem_text": "如图2，当点\\(C'\\)落在\\(AB\\)的延长线上时，连接\\(CC'\\)，交\\(A'B\\)于点M，求\\(BM\\)的长；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BM=\\frac { 30 } { 11 }\\)",
+      "answer": "\\(BM=\\frac { 30 } { 11 }\\)",
+      "given_solution": "过C作\\(CF\\bot AB\\)于F，过M作\\(MN\\bot C'B\\)于N，如图：\n〔图2〕\n∵\\(\\angle ACB=90{}^\\circ ，AB=10，AC=8\\)\n∴\\(BC=6\\)\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，\n∴\\(\\angle A'BC=\\angle ABC\\)，\\(BC'=BC=6\\)，\n∵\\(CF\\bot AB\\)\n∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AB\\cdot CF\\)\n∴\\(CF=\\frac { AC\\cdot BC } { AB }=4.8\\)\n\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CBF\\)中，\\(FB=\\sqrt[] { CB ^ { 2 } -CF ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -4.8 ^ { 2 } }=3.6\\)，\n∴\\(C'F=FB+BC'=9.6\\)，\n由旋转性质可得：\\(\\angle A'C'B=90{}^\\circ\\)，\\(\\angle A'=\\angle A\\)\n∵\\(MN\\bot AC'\\)，\\(\\angle A'C'B=90{}^\\circ\\)\n∴\\(A'C'\\parallel MN\\)\n∴\\(\\angle BMN=\\angle A'=\\angle A\\)\n∴\\(cos\\angle BMN=cosA=\\frac { 4 } { 5 }\\)\n∴\\(\\frac { MN } { BM }=\\frac { 4 } { 5 }\\)\n∴\\(NM=\\frac { 4 } { 5 }MB\\)，\\(BN=\\frac { 3 } { 5 }BM\\)\n∴\\(C'N=6-\\frac { 3 } { 5 }BM\\)\n∵\\(\\angle C'NM=\\angle C'FC=90{}^\\circ\\)，\\(\\angle MC'N=\\angle CC'F\\)，\n∴\\(\\vartriangle C'MN\\backsim \\vartriangle C'CF\\)\n∴\\(\\frac { C'N } { C'F }=\\frac { MN } { CF }\\)\n即\\(\\frac { 6-\\frac { 3 } { 5 }BM } { 9.6 }=\\frac { \\frac { 4 } { 5 }BM } { 4.8 }\\)\n∴\\(BM=\\frac { 30 } { 11 }\\)；",
+      "solution_steps": [
+        "过C作\\(CF\\bot AB\\)于F，过M作\\(MN\\bot C'B\\)于N，如图：",
+        "〔图2〕",
+        "∵\\(\\angle ACB=90{}^\\circ ，AB=10，AC=8\\)",
+        "∴\\(BC=6\\)",
+        "∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，",
+        "∴\\(\\angle A'BC=\\angle ABC\\)，\\(BC'=BC=6\\)，",
+        "∵\\(CF\\bot AB\\)",
+        "∴\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ABC\\)中，\\(S_{ \\vartriangle ABC } =\\frac { 1 } { 2 }AC\\cdot BC=\\frac { 1 } { 2 }AB\\cdot CF\\)",
+        "∴\\(CF=\\frac { AC\\cdot BC } { AB }=4.8\\)",
+        "\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle CBF\\)中，\\(FB=\\sqrt[] { CB ^ { 2 } -CF ^ { 2 } }=\\sqrt[] { 6 ^ { 2 } -4.8 ^ { 2 } }=3.6\\)，",
+        "∴\\(C'F=FB+BC'=9.6\\)，",
+        "由旋转性质可得：\\(\\angle A'C'B=90{}^\\circ\\)，\\(\\angle A'=\\angle A\\)",
+        "∵\\(MN\\bot AC'\\)，\\(\\angle A'C'B=90{}^\\circ\\)",
+        "∴\\(A'C'\\parallel MN\\)",
+        "∴\\(\\angle BMN=\\angle A'=\\angle A\\)",
+        "∴\\(cos\\angle BMN=cosA=\\frac { 4 } { 5 }\\)",
+        "∴\\(\\frac { MN } { BM }=\\frac { 4 } { 5 }\\)",
+        "∴\\(NM=\\frac { 4 } { 5 }MB\\)，\\(BN=\\frac { 3 } { 5 }BM\\)",
+        "∴\\(C'N=6-\\frac { 3 } { 5 }BM\\)",
+        "∵\\(\\angle C'NM=\\angle C'FC=90{}^\\circ\\)，\\(\\angle MC'N=\\angle CC'F\\)，",
+        "∴\\(\\vartriangle C'MN\\backsim \\vartriangle C'CF\\)",
+        "∴\\(\\frac { C'N } { C'F }=\\frac { MN } { CF }\\)",
+        "即\\(\\frac { 6-\\frac { 3 } { 5 }BM } { 9.6 }=\\frac { \\frac { 4 } { 5 }BM } { 4.8 }\\)",
+        "∴\\(BM=\\frac { 30 } { 11 }\\)；"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          85
+        ],
+        "solution_block_ids": [
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454,
+          455,
+          456,
+          457,
+          458,
+          459,
+          460,
+          461,
+          462,
+          463
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          25,
+          26
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G10.02"
+      ],
+      "exam_ids": [
+        "E.G10.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“分解组合图形求边角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-7E36B8BFE2-Q20-P03",
+      "label": "（3）",
+      "prompt": "如图3，连接\\(AA'\\)，直线\\(CC'\\)交\\(AA'\\)于点D，点E为\\(AC\\)的中点，连接\\(DE\\)．在旋转过程中，\\(DE\\)是否存在最大值？若存在，直接写出\\(DE\\)的最大值；若不存在，请说明理由．",
+      "stem_text": "如图3，连接\\(AA'\\)，直线\\(CC'\\)交\\(AA'\\)于点D，点E为\\(AC\\)的中点，连接\\(DE\\)．在旋转过程中，\\(DE\\)是否存在最大值？若存在，直接写出\\(DE\\)的最大值；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(DE\\)最大值为8",
+      "answer": "\\(DE\\)最大值为8",
+      "given_solution": "\\(DE\\)最大值为8．\n补充理由如下：\n过点A作\\(AP\\parallel A'C'\\)交\\(C'D\\)的延长线于点P，连接\\(A'C\\)，\n〔图3〕\n∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，\n∴\\(BC=BC',\\angle ACB=\\angle A'C'B=90{}^\\circ ,AC=A'C'\\)\n∴\\(\\angle BCC'=\\angle BC'C\\)\n∴\\(\\angle ACP=180{}^\\circ -\\angle ACB-\\angle BCC'=90-\\angle BCC',\\)\\(\\angle A'C'D=\\angle A'C'B-\\angle BC'C=90{}^\\circ -\\angle BC'C=90{}^\\circ -\\angle BCC'\\)\n∴\\(\\angle ACP=\\angle A'C'D\\)\n∵\\(AP\\parallel A'C'\\)，\n∴\\(\\angle P=\\angle A'C'D=\\angle ACP\\)\n∴\\(AP=AC=A'C'\\)\n在\\(\\vartriangle APD\\)和\\(\\vartriangle A ^ { \\prime } C ^ { \\prime } D\\)中\n\\(\\begin{cases} \\angle P=\\angle A'C'D \\\\ \\angle PDA=\\angle A'DC' \\\\ AP=AC \\end{cases}\\)\n∴\\(\\vartriangle APD≌\\vartriangle A'C'D\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)\n\\(AD=A'D\\)，即点D是\\(AA'\\)中点\n又∵点E为\\(AC\\)的中点\n∴\\(DE\\)是\\(\\vartriangle AA'C\\)的中位线，\n∴\\(DE=\\frac { 1 } { 2 }A'C\\)\n要使\\(DE\\)最大，只需\\(A'C\\)最大，此时\\(A'、C、B\\)共线，\\(A'C\\)的最大值为\\(A'C_{ max } =A'B+BC=AB+BC=10+6=16\\)，\n∴\\(DE\\)最大为\\(\\frac { 1 } { 2 }A'C_{ max } =8\\)",
+      "solution_steps": [
+        "\\(DE\\)最大值为8．",
+        "补充理由如下：",
+        "过点A作\\(AP\\parallel A'C'\\)交\\(C'D\\)的延长线于点P，连接\\(A'C\\)，",
+        "〔图3〕",
+        "∵\\(\\vartriangle ABC\\)绕点B顺时针旋转得到\\(\\vartriangle A'BC'\\)，",
+        "∴\\(BC=BC',\\angle ACB=\\angle A'C'B=90{}^\\circ ,AC=A'C'\\)",
+        "∴\\(\\angle BCC'=\\angle BC'C\\)",
+        "∴\\(\\angle ACP=180{}^\\circ -\\angle ACB-\\angle BCC'=90-\\angle BCC',\\)\\(\\angle A'C'D=\\angle A'C'B-\\angle BC'C=90{}^\\circ -\\angle BC'C=90{}^\\circ -\\angle BCC'\\)",
+        "∴\\(\\angle ACP=\\angle A'C'D\\)",
+        "∵\\(AP\\parallel A'C'\\)，",
+        "∴\\(\\angle P=\\angle A'C'D=\\angle ACP\\)",
+        "∴\\(AP=AC=A'C'\\)",
+        "在\\(\\vartriangle APD\\)和\\(\\vartriangle A ^ { \\prime } C ^ { \\prime } D\\)中",
+        "\\(\\begin{cases} \\angle P=\\angle A'C'D \\\\ \\angle PDA=\\angle A'DC' \\\\ AP=AC \\end{cases}\\)",
+        "∴\\(\\vartriangle APD≌\\vartriangle A'C'D\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)",
+        "\\(AD=A'D\\)，即点D是\\(AA'\\)中点",
+        "又∵点E为\\(AC\\)的中点",
+        "∴\\(DE\\)是\\(\\vartriangle AA'C\\)的中位线，",
+        "∴\\(DE=\\frac { 1 } { 2 }A'C\\)",
+        "要使\\(DE\\)最大，只需\\(A'C\\)最大，此时\\(A'、C、B\\)共线，\\(A'C\\)的最大值为\\(A'C_{ max } =A'B+BC=AB+BC=10+6=16\\)，",
+        "∴\\(DE\\)最大为\\(\\frac { 1 } { 2 }A'C_{ max } =8\\)"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          82,
+          83,
+          86
+        ],
+        "solution_block_ids": [
+          465,
+          466,
+          467,
+          468,
+          469,
+          470,
+          471,
+          472,
+          473,
+          474,
+          475,
+          476,
+          477,
+          478,
+          479,
+          480,
+          481,
+          482,
+          483,
+          484,
+          485
+        ],
+        "question_pages": [
+          7
+        ],
+        "solution_pages": [
+          26,
+          27
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      82,
+      86
+    ],
+    "solution_body_blocks": [
+      419,
+      486
+    ],
+    "question_pages": [
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-7E36B8BFE2/paper-q20-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          321.36,
+          583.64,
+          604.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      24,
+      25,
+      26,
+      27
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-7E36B8BFE2/solution-q20-p24.webp",
+      "assets/SZ-G9-T1-7E36B8BFE2/solution-q20-p25.webp",
+      "assets/SZ-G9-T1-7E36B8BFE2/solution-q20-p26.webp",
+      "assets/SZ-G9-T1-7E36B8BFE2/solution-q20-p27.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          280.91,
+          583.64,
+          767.27
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 26,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          724.09
+        ]
+      },
+      {
+        "page": 27,
+        "bbox_pt": [
+          11.82,
+          49.09,
+          583.64,
+          369.09
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.01",
+    "M.G10.02",
+    "M.G03.02"
+  ],
+  "exam_ids": [
+    "E.G04.01.01",
+    "E.G10.02.02",
+    "E.G03.02.02"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“应用等腰三角形性质求边角”。 本问题面与解答对应“分解组合图形求边角”。 本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

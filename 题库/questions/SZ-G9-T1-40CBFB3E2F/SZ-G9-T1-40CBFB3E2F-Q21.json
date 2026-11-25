@@ -1,0 +1,423 @@
+{
+  "id": "SZ-G9-T1-40CBFB3E2F-Q21",
+  "paper_id": "SZ-G9-T1-40CBFB3E2F",
+  "number": 21,
+  "type": "解答题",
+  "points": null,
+  "title": "由勾股关系求直角三角形边长",
+  "stem": "如图（1），在矩形\\(ABCD\\)中，\\(AD=nAB\\)，点\\(M\\)，\\(P\\)分别在边\\(AB\\)，\\(AD\\)上\\((\\)均不与端点重合\\()\\)，且\\(AP=nAM\\)，以\\(AP\\)和\\(AM\\)为邻边作矩形\\(AMNP\\)，连接\\(AN\\)，\\(CN\\)．\n〔图1〕\n【问题发现】\n（1）如图（2），当\\(n=1\\)时，\\(BM\\)与\\(PD\\)的数量关系为______，\\(CN\\)与\\(PD\\)的数量关系为______．\n【类比探究】\n（2）如图（3），当\\(n=3\\)时，矩形\\(AMNP\\)绕点\\(A\\)顺时针旋转，连接\\(PD\\)，则\\(CN\\)与\\(PD\\)之间的数量关系是否发生变化？若不变，请就图（3）给出证明：若变化，请写出数量关系，并就图（3）说明理由．\n【拓展延伸】\n（3）在（2）的条件下，已知\\(AD=6\\)，\\(AP=3\\)，当矩形\\(AMNP\\)旋转至\\(C\\)，\\(N\\)，\\(M\\)三点共线时，请直接写出线段\\(CN\\)的长．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/06d99675331bcae5cfb9b3cb29415b7b2642b6622edde5d010752cad9b86c9de.png",
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/20b7757ebf8d68f74678e8edf302780be8991be6e77947c76d2098077cf54816.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(BM=PD\\)  \\(CN=\\sqrt[] { 2 }PD\\)\n（2）\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由见解析\n（3）\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)",
+  "answer": "（1）\\(BM=PD\\)  \\(CN=\\sqrt[] { 2 }PD\\)\n（2）\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由见解析\n（3）\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)",
+  "given_solution": "【分析】（1）当\\(n=1\\)时，\\(AD=AB\\)，\\(AP=AM\\)，则\\(AD-AP=AB-AM\\)，所以\\(BM=PD\\)，再证明\\(A\\)、\\(N\\)、\\(C\\)三点在同一条直线上，由勾股定理得\\(AC=\\sqrt[] { 2 }AD\\)，\\(AN=\\sqrt[] { 2 }AP\\)，所以\\(CN=\\sqrt[] { 2 }\\left ( { AD-AP } \\right )=\\sqrt[] { 2 }PD\\)，于是得到问题的答案；\n（2）先证明\\(\\vartriangle ADC\\backsim \\vartriangle APN\\)，得\\(\\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，则\\(\\angle DAP=\\angle CAN\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，即可证明\\(\\vartriangle ADP\\backsim \\vartriangle ACN\\)，再根据勾股定理求得\\(AC=\\sqrt[] { 10 }CD\\)，则\\(\\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，所以\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)；\n（3）分两种情况，一是\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)上，由勾股定理求得\\(CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 39 }\\)，则\\(CN=CM-MN=\\sqrt[] { 39 }-3\\)；二是\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)的延长线上，由勾股定理求得\\(CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 39 }\\)，则\\(CN=CM+MN=\\sqrt[] { 39 }+3\\)．\n【小问1详解】\n解：当\\(n=1\\)时，\\(AD=AB\\)，\\(AP=AM\\)，\n\\(\\therefore AD-AP=AB-AM\\)，\n\\(\\therefore BM=PD\\)，\n\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是矩形，且\\(AD=AB\\)，\\(AP=AM\\)，\n\\(\\therefore\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是正方形，\n\\(\\therefore AD=CD\\)，\\(AP=NP\\)，\\(\\angle D=\\angle APN=90{}^\\circ\\)，\n\\(\\because \\angle DAC=\\angle DCA=45{}^\\circ\\)，\\(\\angle PAN=\\angle PNA=45{}^\\circ\\)，\n\\(\\therefore \\angle DAC=\\angle DAN\\)，\n\\(\\therefore A\\)、\\(N\\)、\\(C\\)三点在同一条直线上，\n\\(\\because AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =2AD ^ { 2 }\\)，\\(AN ^ { 2 } =AP ^ { 2 } +NP ^ { 2 } =2AP ^ { 2 }\\)，\n\\(\\therefore AC=\\sqrt[] { 2 }AD\\)，\\(AN=\\sqrt[] { 2 }AP\\)，\n\\(\\therefore CN=AC-AN=\\sqrt[] { 2 }AD-\\sqrt[] { 2 }AP=\\sqrt[] { 2 }\\left ( { AD-AP } \\right )=\\sqrt[] { 2 }PD\\)，\n故答案为：\\(BM=PD\\)，\\(CN=\\sqrt[] { 2 }PD\\)．\n【小问2详解】\n解：\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由：\n如图\\(3\\)，连接\\(AC\\)，\n〔图2〕\n当\\(n=3\\)时，则\\(AD=3AB=3CD\\)，\\(AP=3AM=3NP\\)，\n\\(\\therefore \\frac { CD } { AD }=\\frac { NP } { AP }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore \\frac { CD } { NP }=\\frac { NP } { AP }\\)，\n\\(\\because \\angle ADC=\\angle APN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ADC\\backsim \\vartriangle APN\\)，\n\\(\\therefore \\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，\n\\(\\therefore \\angle DAC-\\angle PAC=\\angle PAN-\\angle PAC\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，\n\\(\\therefore \\angle DAP=\\angle CAN\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle ACN\\)，\n\\(\\because AC=\\sqrt[] { AD ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (3CD) ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 }CD\\)，\n\\(\\therefore \\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 }CD } { 3CD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\n\\(\\therefore CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)．\n【小问3详解】\n解：\\(\\because AD=6\\)，\\(AP=3\\)，\n\\(\\therefore MN=AP=3\\)，\\(CD=\\frac { 1 } { 3 }AD=\\frac { 1 } { 3 }\\times 6=2\\)，\\(AM=\\frac { 1 } { 3 }AP=\\frac { 1 } { 3 }\\times 3=1\\)，\n\\(\\therefore AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =6 ^ { 2 } +2 ^ { 2 } =40\\)，\n如图（4），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)上，\n〔图3〕\n\\(\\because \\angle M=90{}^\\circ\\)，\n\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，\n\\(\\therefore CN=CM-MN=\\sqrt[] { 39 }-3\\)；\n如图（5），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)的延长线上，\n〔图4〕\n\\(\\because \\angle AMC=180{}^\\circ -\\angle AMN=90{}^\\circ\\)，\n\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，\n\\(\\therefore CN=CM+MN=\\sqrt[] { 39 }+3\\)，\n综上所述，线段\\(CN\\)的长是\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)．\n【点睛】本题考查了矩形的性质、正方形的性质、旋转的性质、相似三角形的判定与性质、勾股定理、数形结合与分类讨论数学思想的运用等知识与方法，此题综合性强，难度较大，正确地作出所需要的辅助线是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/bab2e75d0fe55aa058a2fafe0728ed884dced021d6a4e32c49a2d547496b709c.png",
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/20b7757ebf8d68f74678e8edf302780be8991be6e77947c76d2098077cf54816.png",
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/25fd2d10850992c9c1adb537df2e3432159012f65dfc24d69fc61b9502e2f4f5.png",
+    "assets/SZ-G9-T1-40CBFB3E2F/figures/04141b4e18f317d5e360e4c2d5ada13fd9f4828db477320f532382c628a6d353.png"
+  ],
+  "solution": "【小问1详解】\n解：当\\(n=1\\)时，\\(AD=AB\\)，\\(AP=AM\\)，\n\\(\\therefore AD-AP=AB-AM\\)，\n\\(\\therefore BM=PD\\)，\n\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是矩形，且\\(AD=AB\\)，\\(AP=AM\\)，\n\\(\\therefore\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是正方形，\n\\(\\therefore AD=CD\\)，\\(AP=NP\\)，\\(\\angle D=\\angle APN=90{}^\\circ\\)，\n\\(\\because \\angle DAC=\\angle DCA=45{}^\\circ\\)，\\(\\angle PAN=\\angle PNA=45{}^\\circ\\)，\n\\(\\therefore \\angle DAC=\\angle DAN\\)，\n\\(\\therefore A\\)、\\(N\\)、\\(C\\)三点在同一条直线上，\n\\(\\because AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =2AD ^ { 2 }\\)，\\(AN ^ { 2 } =AP ^ { 2 } +NP ^ { 2 } =2AP ^ { 2 }\\)，\n\\(\\therefore AC=\\sqrt[] { 2 }AD\\)，\\(AN=\\sqrt[] { 2 }AP\\)，\n\\(\\therefore CN=AC-AN=\\sqrt[] { 2 }AD-\\sqrt[] { 2 }AP=\\sqrt[] { 2 }\\left ( { AD-AP } \\right )=\\sqrt[] { 2 }PD\\)，\n故答案为：\\(BM=PD\\)，\\(CN=\\sqrt[] { 2 }PD\\)．\n【小问2详解】\n解：\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由：\n如图\\(3\\)，连接\\(AC\\)，\n〔图2〕\n当\\(n=3\\)时，则\\(AD=3AB=3CD\\)，\\(AP=3AM=3NP\\)，\n\\(\\therefore \\frac { CD } { AD }=\\frac { NP } { AP }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore \\frac { CD } { NP }=\\frac { NP } { AP }\\)，\n\\(\\because \\angle ADC=\\angle APN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ADC\\backsim \\vartriangle APN\\)，\n\\(\\therefore \\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，\n\\(\\therefore \\angle DAC-\\angle PAC=\\angle PAN-\\angle PAC\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，\n\\(\\therefore \\angle DAP=\\angle CAN\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle ACN\\)，\n\\(\\because AC=\\sqrt[] { AD ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (3CD) ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 }CD\\)，\n\\(\\therefore \\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 }CD } { 3CD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\n\\(\\therefore CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)．\n【小问3详解】\n解：\\(\\because AD=6\\)，\\(AP=3\\)，\n\\(\\therefore MN=AP=3\\)，\\(CD=\\frac { 1 } { 3 }AD=\\frac { 1 } { 3 }\\times 6=2\\)，\\(AM=\\frac { 1 } { 3 }AP=\\frac { 1 } { 3 }\\times 3=1\\)，\n\\(\\therefore AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =6 ^ { 2 } +2 ^ { 2 } =40\\)，\n如图（4），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)上，\n〔图3〕\n\\(\\because \\angle M=90{}^\\circ\\)，\n\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，\n\\(\\therefore CN=CM-MN=\\sqrt[] { 39 }-3\\)；\n如图（5），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)的延长线上，\n〔图4〕\n\\(\\because \\angle AMC=180{}^\\circ -\\angle AMN=90{}^\\circ\\)，\n\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，\n\\(\\therefore CN=CM+MN=\\sqrt[] { 39 }+3\\)，\n综上所述，线段\\(CN\\)的长是\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：当\\(n=1\\)时，\\(AD=AB\\)，\\(AP=AM\\)，",
+    "\\(\\therefore AD-AP=AB-AM\\)，",
+    "\\(\\therefore BM=PD\\)，",
+    "\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是矩形，且\\(AD=AB\\)，\\(AP=AM\\)，",
+    "\\(\\therefore\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是正方形，",
+    "\\(\\therefore AD=CD\\)，\\(AP=NP\\)，\\(\\angle D=\\angle APN=90{}^\\circ\\)，",
+    "\\(\\because \\angle DAC=\\angle DCA=45{}^\\circ\\)，\\(\\angle PAN=\\angle PNA=45{}^\\circ\\)，",
+    "\\(\\therefore \\angle DAC=\\angle DAN\\)，",
+    "\\(\\therefore A\\)、\\(N\\)、\\(C\\)三点在同一条直线上，",
+    "\\(\\because AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =2AD ^ { 2 }\\)，\\(AN ^ { 2 } =AP ^ { 2 } +NP ^ { 2 } =2AP ^ { 2 }\\)，",
+    "\\(\\therefore AC=\\sqrt[] { 2 }AD\\)，\\(AN=\\sqrt[] { 2 }AP\\)，",
+    "\\(\\therefore CN=AC-AN=\\sqrt[] { 2 }AD-\\sqrt[] { 2 }AP=\\sqrt[] { 2 }\\left ( { AD-AP } \\right )=\\sqrt[] { 2 }PD\\)，",
+    "故答案为：\\(BM=PD\\)，\\(CN=\\sqrt[] { 2 }PD\\)．",
+    "【小问2详解】",
+    "解：\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由：",
+    "如图\\(3\\)，连接\\(AC\\)，",
+    "〔图2〕",
+    "当\\(n=3\\)时，则\\(AD=3AB=3CD\\)，\\(AP=3AM=3NP\\)，",
+    "\\(\\therefore \\frac { CD } { AD }=\\frac { NP } { AP }=\\frac { 1 } { 3 }\\)，",
+    "\\(\\therefore \\frac { CD } { NP }=\\frac { NP } { AP }\\)，",
+    "\\(\\because \\angle ADC=\\angle APN=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle ADC\\backsim \\vartriangle APN\\)，",
+    "\\(\\therefore \\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，",
+    "\\(\\therefore \\angle DAC-\\angle PAC=\\angle PAN-\\angle PAC\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，",
+    "\\(\\therefore \\angle DAP=\\angle CAN\\)，",
+    "\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle ACN\\)，",
+    "\\(\\because AC=\\sqrt[] { AD ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (3CD) ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 }CD\\)，",
+    "\\(\\therefore \\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 }CD } { 3CD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，",
+    "\\(\\therefore CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)．",
+    "【小问3详解】",
+    "解：\\(\\because AD=6\\)，\\(AP=3\\)，",
+    "\\(\\therefore MN=AP=3\\)，\\(CD=\\frac { 1 } { 3 }AD=\\frac { 1 } { 3 }\\times 6=2\\)，\\(AM=\\frac { 1 } { 3 }AP=\\frac { 1 } { 3 }\\times 3=1\\)，",
+    "\\(\\therefore AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =6 ^ { 2 } +2 ^ { 2 } =40\\)，",
+    "如图（4），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)上，",
+    "〔图3〕",
+    "\\(\\because \\angle M=90{}^\\circ\\)，",
+    "\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，",
+    "\\(\\therefore CN=CM-MN=\\sqrt[] { 39 }-3\\)；",
+    "如图（5），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)的延长线上，",
+    "〔图4〕",
+    "\\(\\because \\angle AMC=180{}^\\circ -\\angle AMN=90{}^\\circ\\)，",
+    "\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，",
+    "\\(\\therefore CN=CM+MN=\\sqrt[] { 39 }+3\\)，",
+    "综上所述，线段\\(CN\\)的长是\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3,
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图（1），在矩形\\(ABCD\\)中，\\(AD=nAB\\)，点\\(M\\)，\\(P\\)分别在边\\(AB\\)，\\(AD\\)上\\((\\)均不与端点重合\\()\\)，且\\(AP=nAM\\)，以\\(AP\\)和\\(AM\\)为邻边作矩形\\(AMNP\\)，连接\\(AN\\)，\\(CN\\)．\n〔图1〕\n【问题发现】",
+      "paper_blocks": [
+        73,
+        74,
+        75
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图（3），当\\(n=3\\)时，矩形\\(AMNP\\)绕点\\(A\\)顺时针旋转，连接\\(PD\\)，则\\(CN\\)与\\(PD\\)之间的数量关系是否发生变化？若不变，请就图（3）给出证明：若变化，请写出数量关系，并就图（3）说明理由．\n【拓展延伸】\n前问作答依据：解：\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由：\n如图\\(3\\)，连接\\(AC\\)，\n〔图2〕\n当\\(n=3\\)时，则\\(AD=3AB=3CD\\)，\\(AP=3AM=3NP\\)，\n\\(\\therefore \\frac { CD } { AD }=\\frac { NP } { AP }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore \\frac { CD } { NP }=\\frac { NP } { AP }\\)，\n\\(\\because \\angle ADC=\\angle APN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ADC\\backsim \\vartriangle APN\\)，\n\\(\\therefore \\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，\n\\(\\therefore \\angle DAC-\\angle PAC=\\angle PAN-\\angle PAC\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，\n\\(\\therefore \\angle DAP=\\angle CAN\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle ACN\\)，\n\\(\\because AC=\\sqrt[] { AD ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (3CD) ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 }CD\\)，\n\\(\\therefore \\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 }CD } { 3CD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\n\\(\\therefore CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)．",
+      "paper_blocks": [
+        73,
+        74,
+        75,
+        78,
+        79
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-40CBFB3E2F-Q21-P01",
+      "label": "（1）",
+      "prompt": "如图（2），当\\(n=1\\)时，\\(BM\\)与\\(PD\\)的数量关系为______，\\(CN\\)与\\(PD\\)的数量关系为______．\n【类比探究】",
+      "stem_text": "如图（2），当\\(n=1\\)时，\\(BM\\)与\\(PD\\)的数量关系为______，\\(CN\\)与\\(PD\\)的数量关系为______．\n【类比探究】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(BM=PD\\)  \\(CN=\\sqrt[] { 2 }PD\\)",
+      "answer": "\\(BM=PD\\)  \\(CN=\\sqrt[] { 2 }PD\\)",
+      "given_solution": "解：当\\(n=1\\)时，\\(AD=AB\\)，\\(AP=AM\\)，\n\\(\\therefore AD-AP=AB-AM\\)，\n\\(\\therefore BM=PD\\)，\n\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是矩形，且\\(AD=AB\\)，\\(AP=AM\\)，\n\\(\\therefore\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是正方形，\n\\(\\therefore AD=CD\\)，\\(AP=NP\\)，\\(\\angle D=\\angle APN=90{}^\\circ\\)，\n\\(\\because \\angle DAC=\\angle DCA=45{}^\\circ\\)，\\(\\angle PAN=\\angle PNA=45{}^\\circ\\)，\n\\(\\therefore \\angle DAC=\\angle DAN\\)，\n\\(\\therefore A\\)、\\(N\\)、\\(C\\)三点在同一条直线上，\n\\(\\because AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =2AD ^ { 2 }\\)，\\(AN ^ { 2 } =AP ^ { 2 } +NP ^ { 2 } =2AP ^ { 2 }\\)，\n\\(\\therefore AC=\\sqrt[] { 2 }AD\\)，\\(AN=\\sqrt[] { 2 }AP\\)，\n\\(\\therefore CN=AC-AN=\\sqrt[] { 2 }AD-\\sqrt[] { 2 }AP=\\sqrt[] { 2 }\\left ( { AD-AP } \\right )=\\sqrt[] { 2 }PD\\)，\n故答案为：\\(BM=PD\\)，\\(CN=\\sqrt[] { 2 }PD\\)．",
+      "solution_steps": [
+        "解：当\\(n=1\\)时，\\(AD=AB\\)，\\(AP=AM\\)，",
+        "\\(\\therefore AD-AP=AB-AM\\)，",
+        "\\(\\therefore BM=PD\\)，",
+        "\\(\\because\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是矩形，且\\(AD=AB\\)，\\(AP=AM\\)，",
+        "\\(\\therefore\\)四边形\\(ABCD\\)和四边形\\(AMNP\\)都是正方形，",
+        "\\(\\therefore AD=CD\\)，\\(AP=NP\\)，\\(\\angle D=\\angle APN=90{}^\\circ\\)，",
+        "\\(\\because \\angle DAC=\\angle DCA=45{}^\\circ\\)，\\(\\angle PAN=\\angle PNA=45{}^\\circ\\)，",
+        "\\(\\therefore \\angle DAC=\\angle DAN\\)，",
+        "\\(\\therefore A\\)、\\(N\\)、\\(C\\)三点在同一条直线上，",
+        "\\(\\because AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =2AD ^ { 2 }\\)，\\(AN ^ { 2 } =AP ^ { 2 } +NP ^ { 2 } =2AP ^ { 2 }\\)，",
+        "\\(\\therefore AC=\\sqrt[] { 2 }AD\\)，\\(AN=\\sqrt[] { 2 }AP\\)，",
+        "\\(\\therefore CN=AC-AN=\\sqrt[] { 2 }AD-\\sqrt[] { 2 }AP=\\sqrt[] { 2 }\\left ( { AD-AP } \\right )=\\sqrt[] { 2 }PD\\)，",
+        "故答案为：\\(BM=PD\\)，\\(CN=\\sqrt[] { 2 }PD\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          75,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-40CBFB3E2F-Q21-P02",
+      "label": "（2）",
+      "prompt": "如图（3），当\\(n=3\\)时，矩形\\(AMNP\\)绕点\\(A\\)顺时针旋转，连接\\(PD\\)，则\\(CN\\)与\\(PD\\)之间的数量关系是否发生变化？若不变，请就图（3）给出证明：若变化，请写出数量关系，并就图（3）说明理由．\n【拓展延伸】",
+      "stem_text": "如图（3），当\\(n=3\\)时，矩形\\(AMNP\\)绕点\\(A\\)顺时针旋转，连接\\(PD\\)，则\\(CN\\)与\\(PD\\)之间的数量关系是否发生变化？若不变，请就图（3）给出证明：若变化，请写出数量关系，并就图（3）说明理由．\n【拓展延伸】",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由见解析",
+      "answer": "\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由见解析",
+      "given_solution": "解：\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由：\n如图\\(3\\)，连接\\(AC\\)，\n〔图2〕\n当\\(n=3\\)时，则\\(AD=3AB=3CD\\)，\\(AP=3AM=3NP\\)，\n\\(\\therefore \\frac { CD } { AD }=\\frac { NP } { AP }=\\frac { 1 } { 3 }\\)，\n\\(\\therefore \\frac { CD } { NP }=\\frac { NP } { AP }\\)，\n\\(\\because \\angle ADC=\\angle APN=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle ADC\\backsim \\vartriangle APN\\)，\n\\(\\therefore \\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，\n\\(\\therefore \\angle DAC-\\angle PAC=\\angle PAN-\\angle PAC\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，\n\\(\\therefore \\angle DAP=\\angle CAN\\)，\n\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle ACN\\)，\n\\(\\because AC=\\sqrt[] { AD ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (3CD) ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 }CD\\)，\n\\(\\therefore \\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 }CD } { 3CD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\n\\(\\therefore CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)．",
+      "solution_steps": [
+        "解：\\(CN\\)与\\(PD\\)之间的数量关系发生变化，\\(CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)，理由：",
+        "如图\\(3\\)，连接\\(AC\\)，",
+        "〔图2〕",
+        "当\\(n=3\\)时，则\\(AD=3AB=3CD\\)，\\(AP=3AM=3NP\\)，",
+        "\\(\\therefore \\frac { CD } { AD }=\\frac { NP } { AP }=\\frac { 1 } { 3 }\\)，",
+        "\\(\\therefore \\frac { CD } { NP }=\\frac { NP } { AP }\\)，",
+        "\\(\\because \\angle ADC=\\angle APN=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle ADC\\backsim \\vartriangle APN\\)，",
+        "\\(\\therefore \\angle DAC=\\angle PAN\\)，\\(\\frac { AD } { AP }=\\frac { AC } { AN }\\)，",
+        "\\(\\therefore \\angle DAC-\\angle PAC=\\angle PAN-\\angle PAC\\)，\\(\\frac { AD } { AC }=\\frac { AP } { AN }\\)，",
+        "\\(\\therefore \\angle DAP=\\angle CAN\\)，",
+        "\\(\\therefore \\vartriangle ADP\\backsim \\vartriangle ACN\\)，",
+        "\\(\\because AC=\\sqrt[] { AD ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { (3CD) ^ { 2 } +CD ^ { 2 } }=\\sqrt[] { 10 }CD\\)，",
+        "\\(\\therefore \\frac { CN } { PD }=\\frac { AC } { AD }=\\frac { \\sqrt[] { 10 }CD } { 3CD }=\\frac { \\sqrt[] { 10 } } { 3 }\\)，",
+        "\\(\\therefore CN=\\frac { \\sqrt[] { 10 } } { 3 }PD\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          75,
+          78,
+          79
+        ],
+        "solution_block_ids": [
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-40CBFB3E2F-Q21-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，已知\\(AD=6\\)，\\(AP=3\\)，当矩形\\(AMNP\\)旋转至\\(C\\)，\\(N\\)，\\(M\\)三点共线时，请直接写出线段\\(CN\\)的长．",
+      "stem_text": "在（2）的条件下，已知\\(AD=6\\)，\\(AP=3\\)，当矩形\\(AMNP\\)旋转至\\(C\\)，\\(N\\)，\\(M\\)三点共线时，请直接写出线段\\(CN\\)的长．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G9-T1-40CBFB3E2F-Q21-P02"
+      ],
+      "given_answer": "\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)",
+      "answer": "\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)",
+      "given_solution": "解：\\(\\because AD=6\\)，\\(AP=3\\)，\n\\(\\therefore MN=AP=3\\)，\\(CD=\\frac { 1 } { 3 }AD=\\frac { 1 } { 3 }\\times 6=2\\)，\\(AM=\\frac { 1 } { 3 }AP=\\frac { 1 } { 3 }\\times 3=1\\)，\n\\(\\therefore AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =6 ^ { 2 } +2 ^ { 2 } =40\\)，\n如图（4），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)上，\n〔图3〕\n\\(\\because \\angle M=90{}^\\circ\\)，\n\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，\n\\(\\therefore CN=CM-MN=\\sqrt[] { 39 }-3\\)；\n如图（5），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)的延长线上，\n〔图4〕\n\\(\\because \\angle AMC=180{}^\\circ -\\angle AMN=90{}^\\circ\\)，\n\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，\n\\(\\therefore CN=CM+MN=\\sqrt[] { 39 }+3\\)，\n综上所述，线段\\(CN\\)的长是\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)．",
+      "solution_steps": [
+        "解：\\(\\because AD=6\\)，\\(AP=3\\)，",
+        "\\(\\therefore MN=AP=3\\)，\\(CD=\\frac { 1 } { 3 }AD=\\frac { 1 } { 3 }\\times 6=2\\)，\\(AM=\\frac { 1 } { 3 }AP=\\frac { 1 } { 3 }\\times 3=1\\)，",
+        "\\(\\therefore AC ^ { 2 } =AD ^ { 2 } +CD ^ { 2 } =6 ^ { 2 } +2 ^ { 2 } =40\\)，",
+        "如图（4），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)上，",
+        "〔图3〕",
+        "\\(\\because \\angle M=90{}^\\circ\\)，",
+        "\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，",
+        "\\(\\therefore CN=CM-MN=\\sqrt[] { 39 }-3\\)；",
+        "如图（5），\\(C\\)，\\(N\\)，\\(M\\)三点共线，且点\\(N\\)在线段\\(CM\\)的延长线上，",
+        "〔图4〕",
+        "\\(\\because \\angle AMC=180{}^\\circ -\\angle AMN=90{}^\\circ\\)，",
+        "\\(\\therefore CM=\\sqrt[] { AC ^ { 2 } -AM ^ { 2 } }=\\sqrt[] { 40-1 ^ { 2 } }=\\sqrt[] { 39 }\\)，",
+        "\\(\\therefore CN=CM+MN=\\sqrt[] { 39 }+3\\)，",
+        "综上所述，线段\\(CN\\)的长是\\(\\sqrt[] { 39 }-3\\)或\\(\\sqrt[] { 39 }+3\\)．"
+      ],
+      "solution_figure_ids": [
+        3,
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          73,
+          74,
+          75,
+          78,
+          79,
+          80
+        ],
+        "solution_block_ids": [
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412
+        ],
+        "question_pages": [
+          6,
+          7
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      73,
+      80
+    ],
+    "solution_body_blocks": [
+      353,
+      413
+    ],
+    "question_pages": [
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-40CBFB3E2F/paper-q21-p06.webp",
+      "assets/SZ-G9-T1-40CBFB3E2F/paper-q21-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          637.27,
+          583.64,
+          681.36
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          49.55,
+          583.64,
+          400.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-40CBFB3E2F/solution-q21-p21.webp",
+      "assets/SZ-G9-T1-40CBFB3E2F/solution-q21-p22.webp",
+      "assets/SZ-G9-T1-40CBFB3E2F/solution-q21-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          75.91,
+          583.64,
+          741.36
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          755.0
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          53.64,
+          583.64,
+          626.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G04.04",
+    "M.G08.02"
+  ],
+  "exam_ids": [
+    "E.G04.04.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。 本问题面与解答对应“相似图形及三角形判定”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,464 @@
+{
+  "id": "SZ-G9-T2-F810B062D6-Q22",
+  "paper_id": "SZ-G9-T2-F810B062D6",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、利用平行线性质求角",
+  "stem": "在平面直角坐标系\\(xOy\\)中，四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，动点E沿边\\(AO\\)从A向O以每秒\\(1{ \\rm{ c } }{ \\rm{ m } }\\)的速度运动，同时动点F沿边\\(OC\\)从O向C以同样的速度运动，连接\\(AF\\)、\\(DE\\)交于点G．\n〔图1〕\n（1）试探索线段\\(AF\\)、\\(DE\\)的关系，写出你的结论并说明理由；\n（2）连接\\(EF\\)、\\(DF\\)，分别取\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点H、I、J、K，则四边形\\(HIJK\\)是什么特殊平行四边形？请在图①中补全图形，并说明理由．\n（3）如图②当点E运动到\\(AO\\)中点时，点M是直线\\(EC\\)上任意一点，点N是平面内任意一点，是否存在点N使以O，C、M、N为顶点的四边形是菱形？若存在，请直接写出点N的坐标；若不存在，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/49/49bfaf62cea92a6ca11cbda27a6ac75e06880e1185e3dee61286c2b76365ce12.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(AF=DE\\)，\\(AF\\bot DE\\)，理由见解析\n（2）四边形HIJK是正方形，补全图形见解析，理由见解析\n（3）存，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+  "answer": "（1）\\(AF=DE\\)，\\(AF\\bot DE\\)，理由见解析\n（2）四边形HIJK是正方形，补全图形见解析，理由见解析\n（3）存，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+  "given_solution": "【分析】（1）根据正方形的性质，证明\\(\\vartriangle AOF≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，得出\\(AF=DE\\)，\\(\\angle OAF=\\angle ADE\\)，进而得出\\(AF\\bot DE\\)，即可得出结论；\n（2）根据中位线定理，推出\\(HI=KJ=\\frac { 1 } { 2 }AF，HK=IJ=\\frac { 1 } { 2 }ED，HI\\parallel AF，HK\\parallel ED\\)，结合\\(AF=DE\\)，\\(AF\\bot DE\\)，即可得出结论；\n（3）易得\\(C\\left ( { 4,0 } \\right )\\)，\\(E\\left ( { 0,2 } \\right )\\)，根据菱形的性质进行分类讨论： ①当\\(OC\\)是以O，C、M、N为顶点的菱形的对角线时，\\(OC\\)与\\(MN\\)互相垂直平分，则M为\\(CE\\)的中点，先求出点M的坐标，根据M和N关于\\(OC\\)对称，即可解答；②当\\(OC\\)是以O，C、M、N为顶点的菱形的边时，（Ⅰ）若M在y轴的左侧时，通过证明\\(\\vartriangle M'FE\\backsim \\vartriangle COE\\)，得出\\(\\frac { M'F } { EF }=\\frac { OC } { OE }=2\\)，设\\(EF=x\\)，则\\(M'F=2x\\)，\\(OF=x+2\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OM'F\\)中，求出x的值，即可解答；（Ⅱ）若M在y轴的右侧时，推出\\(tan\\angle PON''=\\frac { PN'' } { OP }=tan\\angle OCE=\\frac { OE } { OC }=\\frac { 1 } { 2 }\\)，设\\(PN''=y\\)，则\\(OP=2y\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OPN''\\)中，由勾股定理求出y的值，即可解答．\n【小问1详解】\n解：\\(AF=DE\\)．理由如下：\n∵四边形\\(OADC\\)是正方形，\n∴\\(OA=AD\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，\n由题意得：\\(AE=OF\\)，\n在\\(\\vartriangle AOF\\)和\\(\\vartriangle DAE\\)中，\n\\(\\begin{cases} OA=AD \\\\ \\angle AOF=DAE \\\\ OF=AE \\end{cases}\\)，\n∴\\(\\vartriangle AOF≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AF=DE\\)，\\(\\angle OAF=\\angle ADE\\)，\n∵\\(\\angle OAF+\\angle DAG=90{}^\\circ\\)，\n∴\\(\\angle ADE+\\angle DAG=90{}^\\circ\\)，\n∴\\(\\angle AGD=90{}^\\circ\\)，即\\(AF\\bot DE\\)，\n综上：\\(AF=DE\\)，\\(AF\\bot DE\\)；\n【小问2详解】\n解：四边形\\(HIJK\\)是正方形．理由如下：\n如图①所示：\n〔图2〕\n∵H、I、J、K分别是\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点，\n∴\\(HI=KJ=\\frac { 1 } { 2 }AF，HK=IJ=\\frac { 1 } { 2 }ED，HI\\parallel AF，HK\\parallel ED\\)，\n∵\\(AF=DE\\)，\n∴\\(HI=KJ=HK=IJ\\)，\n∴四边形\\(HIJK\\)是菱形，\n∵\\(AF\\bot DE\\)，\\(HI\\parallel AF，HK\\parallel ED\\)，\n∴\\(HI\\bot HK\\)，\n∴\\(\\angle KHI=90{}^\\circ\\)，\n∴四边形\\(HIJK\\)是正方形．\n【小问3详解】\n解：存在，理由如下：\n∵四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，\n∴\\(OA=AD=OC=4\\)，\n∴\\(C\\left ( { 4,0 } \\right )\\)，\n∵点E为\\(AO\\)的中点，\n∴\\(OE=2\\)，\\(E\\left ( { 0,2 } \\right )\\)；\n分情况讨论：如图②所示：\n①当\\(OC\\)是以O，C、M、N为顶点的菱形的对角线时，\\(OC\\)与\\(MN\\)互相垂直平分，则M为\\(CE\\)的中点，\n∴点M的坐标为\\(\\left ( { 2,1 } \\right )\\)，\n∵点M和N关于\\(OC\\)对称，\n∴\\(N\\left ( { 2,-1 } \\right )\\)；\n②当\\(OC\\)是以O，C、M、N为顶点的菱形的边时，\n（Ⅰ）若M在y轴的左侧时，\n∵四边形\\(OCN'M'\\)是菱形，\n∴\\(OM'=OC=4，M'N'\\parallel OC\\)，\n∴\\(\\vartriangle M'FE\\backsim \\vartriangle COE\\)，\n∴\\(\\frac { M'F } { OC }=\\frac { EF } { OE }\\)，\n∴\\(\\frac { M'F } { EF }=\\frac { OC } { OE }=2\\)，\n设\\(EF=x\\)，则\\(M'F=2x\\)，\\(OF=x+2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OM'F\\)中，由勾股定理得：\\(\\left ( { 2x } \\right ) ^ { 2 } +\\left ( { x+2 } \\right ) ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(x=\\frac { 6 } { 5 }\\)或\\(x=-2\\)（舍去），\n∴\\(M'F=\\frac { 12 } { 5 }\\)，\\(FN=4-M'F=\\frac { 8 } { 5 }\\)，\\(OF=2+\\frac { 6 } { 5 }=\\frac { 16 } { 5 }\\)，\n∴\\(N'\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)；\n（Ⅱ）若M在y轴的右侧时，\n由①得：N的坐标为\\(\\left ( { -2,1 } \\right )\\)；\n作\\(N''P\\bot OC\\)于P，\n∵\\(ON''\\parallel CM''\\)，\n∴\\(\\angle PON''=\\angle OCE\\)，\n∴\\(tan\\angle PON''=\\frac { PN'' } { OP }=tan\\angle OCE=\\frac { OE } { OC }=\\frac { 1 } { 2 }\\)，\n设\\(PN''=y\\)，则\\(OP=2y\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OPN''\\)中，由勾股定理得：\\(y ^ { 2 } +\\left ( { 2y } \\right ) ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(y=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(PN''=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\\(OP=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(N''\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right ),N ^ { \\prime \\prime \\prime } \\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n综上所述，存在点N使以O，C、M、N为顶点的四边形是菱形，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)．\n〔图3〕\n【点睛】本题考查了正方形的性质，全等三角形的判定和性质，中点四边形，菱形是判定和性质，勾股定理，解题的关键是熟练掌握相关性质定理，正确画出图形解答．",
+  "given_solution_figures": [
+    "assets/figures/49/49bfaf62cea92a6ca11cbda27a6ac75e06880e1185e3dee61286c2b76365ce12.png",
+    "assets/figures/98/98fdf29d2fc2c179a41d384bc535d87b9cf33888402e2bcf099c8a71f93fe975.png",
+    "assets/figures/3a/3af3dc34e0faef00c4d3143033c04586538363ca71de93f7fbb4b728fa1e7278.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(AF=DE\\)．理由如下：\n∵四边形\\(OADC\\)是正方形，\n∴\\(OA=AD\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，\n由题意得：\\(AE=OF\\)，\n在\\(\\vartriangle AOF\\)和\\(\\vartriangle DAE\\)中，\n\\(\\begin{cases} OA=AD \\\\ \\angle AOF=DAE \\\\ OF=AE \\end{cases}\\)，\n∴\\(\\vartriangle AOF≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AF=DE\\)，\\(\\angle OAF=\\angle ADE\\)，\n∵\\(\\angle OAF+\\angle DAG=90{}^\\circ\\)，\n∴\\(\\angle ADE+\\angle DAG=90{}^\\circ\\)，\n∴\\(\\angle AGD=90{}^\\circ\\)，即\\(AF\\bot DE\\)，\n综上：\\(AF=DE\\)，\\(AF\\bot DE\\)；\n【小问2详解】\n解：四边形\\(HIJK\\)是正方形．理由如下：\n如图①所示：\n〔图2〕\n∵H、I、J、K分别是\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点，\n∴\\(HI=KJ=\\frac { 1 } { 2 }AF，HK=IJ=\\frac { 1 } { 2 }ED，HI\\parallel AF，HK\\parallel ED\\)，\n∵\\(AF=DE\\)，\n∴\\(HI=KJ=HK=IJ\\)，\n∴四边形\\(HIJK\\)是菱形，\n∵\\(AF\\bot DE\\)，\\(HI\\parallel AF，HK\\parallel ED\\)，\n∴\\(HI\\bot HK\\)，\n∴\\(\\angle KHI=90{}^\\circ\\)，\n∴四边形\\(HIJK\\)是正方形．\n【小问3详解】\n解：存在，理由如下：\n∵四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，\n∴\\(OA=AD=OC=4\\)，\n∴\\(C\\left ( { 4,0 } \\right )\\)，\n∵点E为\\(AO\\)的中点，\n∴\\(OE=2\\)，\\(E\\left ( { 0,2 } \\right )\\)；\n分情况讨论：如图②所示：\n①当\\(OC\\)是以O，C、M、N为顶点的菱形的对角线时，\\(OC\\)与\\(MN\\)互相垂直平分，则M为\\(CE\\)的中点，\n∴点M的坐标为\\(\\left ( { 2,1 } \\right )\\)，\n∵点M和N关于\\(OC\\)对称，\n∴\\(N\\left ( { 2,-1 } \\right )\\)；\n②当\\(OC\\)是以O，C、M、N为顶点的菱形的边时，\n（Ⅰ）若M在y轴的左侧时，\n∵四边形\\(OCN'M'\\)是菱形，\n∴\\(OM'=OC=4，M'N'\\parallel OC\\)，\n∴\\(\\vartriangle M'FE\\backsim \\vartriangle COE\\)，\n∴\\(\\frac { M'F } { OC }=\\frac { EF } { OE }\\)，\n∴\\(\\frac { M'F } { EF }=\\frac { OC } { OE }=2\\)，\n设\\(EF=x\\)，则\\(M'F=2x\\)，\\(OF=x+2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OM'F\\)中，由勾股定理得：\\(\\left ( { 2x } \\right ) ^ { 2 } +\\left ( { x+2 } \\right ) ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(x=\\frac { 6 } { 5 }\\)或\\(x=-2\\)（舍去），\n∴\\(M'F=\\frac { 12 } { 5 }\\)，\\(FN=4-M'F=\\frac { 8 } { 5 }\\)，\\(OF=2+\\frac { 6 } { 5 }=\\frac { 16 } { 5 }\\)，\n∴\\(N'\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)；\n（Ⅱ）若M在y轴的右侧时，\n由①得：N的坐标为\\(\\left ( { -2,1 } \\right )\\)；\n作\\(N''P\\bot OC\\)于P，\n∵\\(ON''\\parallel CM''\\)，\n∴\\(\\angle PON''=\\angle OCE\\)，\n∴\\(tan\\angle PON''=\\frac { PN'' } { OP }=tan\\angle OCE=\\frac { OE } { OC }=\\frac { 1 } { 2 }\\)，\n设\\(PN''=y\\)，则\\(OP=2y\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OPN''\\)中，由勾股定理得：\\(y ^ { 2 } +\\left ( { 2y } \\right ) ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(y=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(PN''=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\\(OP=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(N''\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right ),N ^ { \\prime \\prime \\prime } \\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n综上所述，存在点N使以O，C、M、N为顶点的四边形是菱形，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)．\n〔图3〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(AF=DE\\)．理由如下：",
+    "∵四边形\\(OADC\\)是正方形，",
+    "∴\\(OA=AD\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，",
+    "由题意得：\\(AE=OF\\)，",
+    "在\\(\\vartriangle AOF\\)和\\(\\vartriangle DAE\\)中，",
+    "\\(\\begin{cases} OA=AD \\\\ \\angle AOF=DAE \\\\ OF=AE \\end{cases}\\)，",
+    "∴\\(\\vartriangle AOF≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(AF=DE\\)，\\(\\angle OAF=\\angle ADE\\)，",
+    "∵\\(\\angle OAF+\\angle DAG=90{}^\\circ\\)，",
+    "∴\\(\\angle ADE+\\angle DAG=90{}^\\circ\\)，",
+    "∴\\(\\angle AGD=90{}^\\circ\\)，即\\(AF\\bot DE\\)，",
+    "综上：\\(AF=DE\\)，\\(AF\\bot DE\\)；",
+    "【小问2详解】",
+    "解：四边形\\(HIJK\\)是正方形．理由如下：",
+    "如图①所示：",
+    "〔图2〕",
+    "∵H、I、J、K分别是\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点，",
+    "∴\\(HI=KJ=\\frac { 1 } { 2 }AF，HK=IJ=\\frac { 1 } { 2 }ED，HI\\parallel AF，HK\\parallel ED\\)，",
+    "∵\\(AF=DE\\)，",
+    "∴\\(HI=KJ=HK=IJ\\)，",
+    "∴四边形\\(HIJK\\)是菱形，",
+    "∵\\(AF\\bot DE\\)，\\(HI\\parallel AF，HK\\parallel ED\\)，",
+    "∴\\(HI\\bot HK\\)，",
+    "∴\\(\\angle KHI=90{}^\\circ\\)，",
+    "∴四边形\\(HIJK\\)是正方形．",
+    "【小问3详解】",
+    "解：存在，理由如下：",
+    "∵四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，",
+    "∴\\(OA=AD=OC=4\\)，",
+    "∴\\(C\\left ( { 4,0 } \\right )\\)，",
+    "∵点E为\\(AO\\)的中点，",
+    "∴\\(OE=2\\)，\\(E\\left ( { 0,2 } \\right )\\)；",
+    "分情况讨论：如图②所示：",
+    "①当\\(OC\\)是以O，C、M、N为顶点的菱形的对角线时，\\(OC\\)与\\(MN\\)互相垂直平分，则M为\\(CE\\)的中点，",
+    "∴点M的坐标为\\(\\left ( { 2,1 } \\right )\\)，",
+    "∵点M和N关于\\(OC\\)对称，",
+    "∴\\(N\\left ( { 2,-1 } \\right )\\)；",
+    "②当\\(OC\\)是以O，C、M、N为顶点的菱形的边时，",
+    "（Ⅰ）若M在y轴的左侧时，",
+    "∵四边形\\(OCN'M'\\)是菱形，",
+    "∴\\(OM'=OC=4，M'N'\\parallel OC\\)，",
+    "∴\\(\\vartriangle M'FE\\backsim \\vartriangle COE\\)，",
+    "∴\\(\\frac { M'F } { OC }=\\frac { EF } { OE }\\)，",
+    "∴\\(\\frac { M'F } { EF }=\\frac { OC } { OE }=2\\)，",
+    "设\\(EF=x\\)，则\\(M'F=2x\\)，\\(OF=x+2\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OM'F\\)中，由勾股定理得：\\(\\left ( { 2x } \\right ) ^ { 2 } +\\left ( { x+2 } \\right ) ^ { 2 } =4 ^ { 2 }\\)，",
+    "解得：\\(x=\\frac { 6 } { 5 }\\)或\\(x=-2\\)（舍去），",
+    "∴\\(M'F=\\frac { 12 } { 5 }\\)，\\(FN=4-M'F=\\frac { 8 } { 5 }\\)，\\(OF=2+\\frac { 6 } { 5 }=\\frac { 16 } { 5 }\\)，",
+    "∴\\(N'\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)；",
+    "（Ⅱ）若M在y轴的右侧时，",
+    "由①得：N的坐标为\\(\\left ( { -2,1 } \\right )\\)；",
+    "作\\(N''P\\bot OC\\)于P，",
+    "∵\\(ON''\\parallel CM''\\)，",
+    "∴\\(\\angle PON''=\\angle OCE\\)，",
+    "∴\\(tan\\angle PON''=\\frac { PN'' } { OP }=tan\\angle OCE=\\frac { OE } { OC }=\\frac { 1 } { 2 }\\)，",
+    "设\\(PN''=y\\)，则\\(OP=2y\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OPN''\\)中，由勾股定理得：\\(y ^ { 2 } +\\left ( { 2y } \\right ) ^ { 2 } =4 ^ { 2 }\\)，",
+    "解得：\\(y=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，",
+    "∴\\(PN''=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\\(OP=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，",
+    "∴\\(N''\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right ),N ^ { \\prime \\prime \\prime } \\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)，",
+    "综上所述，存在点N使以O，C、M、N为顶点的四边形是菱形，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)．",
+    "〔图3〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2,
+    3
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面直角坐标系\\(xOy\\)中，四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，动点E沿边\\(AO\\)从A向O以每秒\\(1{ \\rm{ c } }{ \\rm{ m } }\\)的速度运动，同时动点F沿边\\(OC\\)从O向C以同样的速度运动，连接\\(AF\\)、\\(DE\\)交于点G．\n〔图1〕",
+      "paper_blocks": [
+        69,
+        70
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-F810B062D6-Q22-P01",
+      "label": "（1）",
+      "prompt": "试探索线段\\(AF\\)、\\(DE\\)的关系，写出你的结论并说明理由；",
+      "stem_text": "试探索线段\\(AF\\)、\\(DE\\)的关系，写出你的结论并说明理由；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(AF=DE\\)，\\(AF\\bot DE\\)，理由见解析",
+      "answer": "\\(AF=DE\\)，\\(AF\\bot DE\\)，理由见解析",
+      "given_solution": "解：\\(AF=DE\\)．理由如下：\n∵四边形\\(OADC\\)是正方形，\n∴\\(OA=AD\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，\n由题意得：\\(AE=OF\\)，\n在\\(\\vartriangle AOF\\)和\\(\\vartriangle DAE\\)中，\n\\(\\begin{cases} OA=AD \\\\ \\angle AOF=DAE \\\\ OF=AE \\end{cases}\\)，\n∴\\(\\vartriangle AOF≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(AF=DE\\)，\\(\\angle OAF=\\angle ADE\\)，\n∵\\(\\angle OAF+\\angle DAG=90{}^\\circ\\)，\n∴\\(\\angle ADE+\\angle DAG=90{}^\\circ\\)，\n∴\\(\\angle AGD=90{}^\\circ\\)，即\\(AF\\bot DE\\)，\n综上：\\(AF=DE\\)，\\(AF\\bot DE\\)；",
+      "solution_steps": [
+        "解：\\(AF=DE\\)．理由如下：",
+        "∵四边形\\(OADC\\)是正方形，",
+        "∴\\(OA=AD\\)，\\(\\angle DAE=\\angle AOF=90{}^\\circ\\)，",
+        "由题意得：\\(AE=OF\\)，",
+        "在\\(\\vartriangle AOF\\)和\\(\\vartriangle DAE\\)中，",
+        "\\(\\begin{cases} OA=AD \\\\ \\angle AOF=DAE \\\\ OF=AE \\end{cases}\\)，",
+        "∴\\(\\vartriangle AOF≌\\vartriangle DAE\\left ( { { \\rm{ S } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(AF=DE\\)，\\(\\angle OAF=\\angle ADE\\)，",
+        "∵\\(\\angle OAF+\\angle DAG=90{}^\\circ\\)，",
+        "∴\\(\\angle ADE+\\angle DAG=90{}^\\circ\\)，",
+        "∴\\(\\angle AGD=90{}^\\circ\\)，即\\(AF\\bot DE\\)，",
+        "综上：\\(AF=DE\\)，\\(AF\\bot DE\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          71
+        ],
+        "solution_block_ids": [
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390,
+          391
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-F810B062D6-Q22-P02",
+      "label": "（2）",
+      "prompt": "连接\\(EF\\)、\\(DF\\)，分别取\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点H、I、J、K，则四边形\\(HIJK\\)是什么特殊平行四边形？请在图①中补全图形，并说明理由．",
+      "stem_text": "连接\\(EF\\)、\\(DF\\)，分别取\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点H、I、J、K，则四边形\\(HIJK\\)是什么特殊平行四边形？请在图①中补全图形，并说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "四边形HIJK是正方形，补全图形见解析，理由见解析",
+      "answer": "四边形HIJK是正方形，补全图形见解析，理由见解析",
+      "given_solution": "解：四边形\\(HIJK\\)是正方形．理由如下：\n如图①所示：\n〔图2〕\n∵H、I、J、K分别是\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点，\n∴\\(HI=KJ=\\frac { 1 } { 2 }AF，HK=IJ=\\frac { 1 } { 2 }ED，HI\\parallel AF，HK\\parallel ED\\)，\n∵\\(AF=DE\\)，\n∴\\(HI=KJ=HK=IJ\\)，\n∴四边形\\(HIJK\\)是菱形，\n∵\\(AF\\bot DE\\)，\\(HI\\parallel AF，HK\\parallel ED\\)，\n∴\\(HI\\bot HK\\)，\n∴\\(\\angle KHI=90{}^\\circ\\)，\n∴四边形\\(HIJK\\)是正方形．",
+      "solution_steps": [
+        "解：四边形\\(HIJK\\)是正方形．理由如下：",
+        "如图①所示：",
+        "〔图2〕",
+        "∵H、I、J、K分别是\\(AE\\)、\\(EF\\)、\\(FD\\)、\\(DA\\)的中点，",
+        "∴\\(HI=KJ=\\frac { 1 } { 2 }AF，HK=IJ=\\frac { 1 } { 2 }ED，HI\\parallel AF，HK\\parallel ED\\)，",
+        "∵\\(AF=DE\\)，",
+        "∴\\(HI=KJ=HK=IJ\\)，",
+        "∴四边形\\(HIJK\\)是菱形，",
+        "∵\\(AF\\bot DE\\)，\\(HI\\parallel AF，HK\\parallel ED\\)，",
+        "∴\\(HI\\bot HK\\)，",
+        "∴\\(\\angle KHI=90{}^\\circ\\)，",
+        "∴四边形\\(HIJK\\)是正方形．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          72
+        ],
+        "solution_block_ids": [
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G01.05"
+      ],
+      "exam_ids": [
+        "E.G01.05.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用平行线性质求角”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-F810B062D6-Q22-P03",
+      "label": "（3）",
+      "prompt": "如图②当点E运动到\\(AO\\)中点时，点M是直线\\(EC\\)上任意一点，点N是平面内任意一点，是否存在点N使以O，C、M、N为顶点的四边形是菱形？若存在，请直接写出点N的坐标；若不存在，请说明理由．",
+      "stem_text": "如图②当点E运动到\\(AO\\)中点时，点M是直线\\(EC\\)上任意一点，点N是平面内任意一点，是否存在点N使以O，C、M、N为顶点的四边形是菱形？若存在，请直接写出点N的坐标；若不存在，请说明理由．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "存，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+      "answer": "存，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)",
+      "given_solution": "解：存在，理由如下：\n∵四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，\n∴\\(OA=AD=OC=4\\)，\n∴\\(C\\left ( { 4,0 } \\right )\\)，\n∵点E为\\(AO\\)的中点，\n∴\\(OE=2\\)，\\(E\\left ( { 0,2 } \\right )\\)；\n分情况讨论：如图②所示：\n①当\\(OC\\)是以O，C、M、N为顶点的菱形的对角线时，\\(OC\\)与\\(MN\\)互相垂直平分，则M为\\(CE\\)的中点，\n∴点M的坐标为\\(\\left ( { 2,1 } \\right )\\)，\n∵点M和N关于\\(OC\\)对称，\n∴\\(N\\left ( { 2,-1 } \\right )\\)；\n②当\\(OC\\)是以O，C、M、N为顶点的菱形的边时，\n（Ⅰ）若M在y轴的左侧时，\n∵四边形\\(OCN'M'\\)是菱形，\n∴\\(OM'=OC=4，M'N'\\parallel OC\\)，\n∴\\(\\vartriangle M'FE\\backsim \\vartriangle COE\\)，\n∴\\(\\frac { M'F } { OC }=\\frac { EF } { OE }\\)，\n∴\\(\\frac { M'F } { EF }=\\frac { OC } { OE }=2\\)，\n设\\(EF=x\\)，则\\(M'F=2x\\)，\\(OF=x+2\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OM'F\\)中，由勾股定理得：\\(\\left ( { 2x } \\right ) ^ { 2 } +\\left ( { x+2 } \\right ) ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(x=\\frac { 6 } { 5 }\\)或\\(x=-2\\)（舍去），\n∴\\(M'F=\\frac { 12 } { 5 }\\)，\\(FN=4-M'F=\\frac { 8 } { 5 }\\)，\\(OF=2+\\frac { 6 } { 5 }=\\frac { 16 } { 5 }\\)，\n∴\\(N'\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)；\n（Ⅱ）若M在y轴的右侧时，\n由①得：N的坐标为\\(\\left ( { -2,1 } \\right )\\)；\n作\\(N''P\\bot OC\\)于P，\n∵\\(ON''\\parallel CM''\\)，\n∴\\(\\angle PON''=\\angle OCE\\)，\n∴\\(tan\\angle PON''=\\frac { PN'' } { OP }=tan\\angle OCE=\\frac { OE } { OC }=\\frac { 1 } { 2 }\\)，\n设\\(PN''=y\\)，则\\(OP=2y\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OPN''\\)中，由勾股定理得：\\(y ^ { 2 } +\\left ( { 2y } \\right ) ^ { 2 } =4 ^ { 2 }\\)，\n解得：\\(y=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(PN''=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\\(OP=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，\n∴\\(N''\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right ),N ^ { \\prime \\prime \\prime } \\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)，\n综上所述，存在点N使以O，C、M、N为顶点的四边形是菱形，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)．\n〔图3〕",
+      "solution_steps": [
+        "解：存在，理由如下：",
+        "∵四边形\\(OADC\\)为正方形，点D的坐标为\\(\\left ( { 4,4 } \\right )\\)，",
+        "∴\\(OA=AD=OC=4\\)，",
+        "∴\\(C\\left ( { 4,0 } \\right )\\)，",
+        "∵点E为\\(AO\\)的中点，",
+        "∴\\(OE=2\\)，\\(E\\left ( { 0,2 } \\right )\\)；",
+        "分情况讨论：如图②所示：",
+        "①当\\(OC\\)是以O，C、M、N为顶点的菱形的对角线时，\\(OC\\)与\\(MN\\)互相垂直平分，则M为\\(CE\\)的中点，",
+        "∴点M的坐标为\\(\\left ( { 2,1 } \\right )\\)，",
+        "∵点M和N关于\\(OC\\)对称，",
+        "∴\\(N\\left ( { 2,-1 } \\right )\\)；",
+        "②当\\(OC\\)是以O，C、M、N为顶点的菱形的边时，",
+        "（Ⅰ）若M在y轴的左侧时，",
+        "∵四边形\\(OCN'M'\\)是菱形，",
+        "∴\\(OM'=OC=4，M'N'\\parallel OC\\)，",
+        "∴\\(\\vartriangle M'FE\\backsim \\vartriangle COE\\)，",
+        "∴\\(\\frac { M'F } { OC }=\\frac { EF } { OE }\\)，",
+        "∴\\(\\frac { M'F } { EF }=\\frac { OC } { OE }=2\\)，",
+        "设\\(EF=x\\)，则\\(M'F=2x\\)，\\(OF=x+2\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OM'F\\)中，由勾股定理得：\\(\\left ( { 2x } \\right ) ^ { 2 } +\\left ( { x+2 } \\right ) ^ { 2 } =4 ^ { 2 }\\)，",
+        "解得：\\(x=\\frac { 6 } { 5 }\\)或\\(x=-2\\)（舍去），",
+        "∴\\(M'F=\\frac { 12 } { 5 }\\)，\\(FN=4-M'F=\\frac { 8 } { 5 }\\)，\\(OF=2+\\frac { 6 } { 5 }=\\frac { 16 } { 5 }\\)，",
+        "∴\\(N'\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)；",
+        "（Ⅱ）若M在y轴的右侧时，",
+        "由①得：N的坐标为\\(\\left ( { -2,1 } \\right )\\)；",
+        "作\\(N''P\\bot OC\\)于P，",
+        "∵\\(ON''\\parallel CM''\\)，",
+        "∴\\(\\angle PON''=\\angle OCE\\)，",
+        "∴\\(tan\\angle PON''=\\frac { PN'' } { OP }=tan\\angle OCE=\\frac { OE } { OC }=\\frac { 1 } { 2 }\\)，",
+        "设\\(PN''=y\\)，则\\(OP=2y\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle OPN''\\)中，由勾股定理得：\\(y ^ { 2 } +\\left ( { 2y } \\right ) ^ { 2 } =4 ^ { 2 }\\)，",
+        "解得：\\(y=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，",
+        "∴\\(PN''=\\frac { 4\\sqrt[] { 5 } } { 5 }\\)，\\(OP=\\frac { 8\\sqrt[] { 5 } } { 5 }\\)，",
+        "∴\\(N''\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right ),N ^ { \\prime \\prime \\prime } \\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)，",
+        "综上所述，存在点N使以O，C、M、N为顶点的四边形是菱形，点N的坐标为\\(\\left ( { 2,-1 } \\right )\\)或\\(\\left ( { \\frac { 8 } { 5 },\\frac { 16 } { 5 } } \\right )\\)或\\(\\left ( { \\frac { 8\\sqrt[] { 5 } } { 5 },-\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)或\\(\\left ( { -\\frac { 8\\sqrt[] { 5 } } { 5 },\\frac { 4\\sqrt[] { 5 } } { 5 } } \\right )\\)．",
+        "〔图3〕"
+      ],
+      "solution_figure_ids": [
+        3
+      ],
+      "source": {
+        "paper_block_ids": [
+          69,
+          70,
+          73
+        ],
+        "solution_block_ids": [
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          437,
+          438,
+          439,
+          440,
+          441
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G09.03"
+      ],
+      "exam_ids": [
+        "E.G09.03.03"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      69,
+      73
+    ],
+    "solution_body_blocks": [
+      367,
+      442
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-F810B062D6/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          215.45,
+          583.64,
+          586.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-F810B062D6/solution-q22-p20.webp",
+      "assets/SZ-G9-T2-F810B062D6/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-F810B062D6/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-F810B062D6/solution-q22-p23.webp",
+      "assets/SZ-G9-T2-F810B062D6/solution-q22-p24.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          572.73,
+          583.64,
+          735.91
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          46.36,
+          583.64,
+          689.09
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          55.91,
+          583.64,
+          765.45
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          744.09
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          369.09
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G01.05",
+    "M.G09.03"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G01.05.01",
+    "E.G09.03.03"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问的运算或证明步骤对应“构造全等关系证明线段或角关系”。 本问的运算或证明步骤对应“利用平行线性质求角”。 本问的要求和解答步骤对应“将特殊图形条件转为坐标关系”。",
+  "tag_source": "小问标签汇总"
+}

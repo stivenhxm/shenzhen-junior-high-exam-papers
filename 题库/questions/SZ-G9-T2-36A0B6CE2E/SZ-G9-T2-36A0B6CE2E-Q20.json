@@ -1,0 +1,527 @@
+{
+  "id": "SZ-G9-T2-36A0B6CE2E-Q20",
+  "paper_id": "SZ-G9-T2-36A0B6CE2E",
+  "number": 20,
+  "type": "解答题",
+  "points": null,
+  "title": "完成有理数混合运算并检查步骤、由相似比求对应线段或周长",
+  "stem": "在平面内，先将一个多边形以点\\(O\\)为位似中心放大或缩小，使所得多边形与原多边形对应线段的比为\\(k\\)，并且原多边形上的任一点\\(P\\)，它的对应点\\(P'\\)在线段\\(OP\\)或其延长线上；接着将所得多边形以点\\(O\\)为旋转中心，逆时针旋转一个角度\\(\\theta\\)，记为\\(O\\left ( { k,逆\\theta } \\right )\\)，如果是顺时针旋转一个角度\\(\\theta\\)，则记为\\(O\\left ( { k,顺\\theta } \\right )\\)，这种经过位似和旋转的图形变换叫做旋转相似变换，其中点\\(O\\)叫做旋转相似中心，\\(k\\)叫做相似比，\\(\\theta\\)叫做旋转角．\n（1）填空：\n①如图1，将\\(\\vartriangle ABC\\)以点\\(A\\)为旋转相似中心，放大为原来的2倍，再逆时针旋转\\(60{}^\\circ\\)，得到\\(\\vartriangle ADE\\)，这个旋转相似变换记为\\(A\\)（___________，___________）；\n〔图1〕\n②如图2，\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，将它作旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\vartriangle ADE\\)，则线段\\(BD\\)的长为___________\\({ \\rm{ c } }{ \\rm{ m } }\\)；\n〔图2〕\n（2）如图3，\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，又将\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，连接\\(AE\\)，\\(AF\\)，求证：四边形\\(AFDE\\)是平行四边形．\n〔图3〕\n（3）如图4，在\\(\\vartriangle ABC\\)中，\\(\\angle A=150{}^\\circ\\)，\\(AB=6\\)，\\(AC=3\\)，若\\(\\vartriangle ABC\\)经过（2）中的变换得到的四边形\\(AFDE\\)恰好是正方形时，则\\(AE\\)的长为___________．\n〔图4〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/d9/d9ae9f993b635a69fe7fc8aed9af4a15cdb51e6f4eef382a869d3f5099083ccf.png",
+    "assets/figures/c7/c7aa4752936d84c03127087507ae9a2703da4bd246d0815be2dcbab93b49b680.png",
+    "assets/figures/9b/9b91dd1b61aa30b4d3ec3a7ee9ac1b471d938a5c71d9dc8d53a76ecc984c7900.png",
+    "assets/figures/2c/2cb07e36b989a256aafdaf10d1af6e2468fa110cbda1f24c400104650bdbcdcd.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）①\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；②2\n（2）见解析    （3）\\(2\\sqrt[] { 3 }\\)",
+  "answer": "（1）①\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；②2\n（2）见解析    （3）\\(2\\sqrt[] { 3 }\\)",
+  "given_solution": "【分析】（1）①根据新定义的意义直接写出答案为\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)即可；\n②根据旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\angle BAD=90{}^\\circ\\)，根据得\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，得到\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\\({ \\rm{ A } }{ \\rm{ B } }{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)，于是\\(cos\\angle B=cos60{}^\\circ =\\frac { AB } { BD }\\)，得到\\(BD=\\frac { 1 } { cos60{}^\\circ }=2\\left ( { { \\rm{ c } }{ \\rm{ m } } } \\right )\\)，解答即可；\n（2）根据\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，得到\\(\\vartriangle ABC\\backsim \\vartriangle EBD\\)，得到\\(\\angle ABC=\\angle EBD\\)，\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)；根据\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，得到\\(\\vartriangle ABC\\backsim \\vartriangle FDC\\)，得到\\(\\frac { AB } { FD }=\\frac { BC } { DC }\\)从而得到\\(\\frac { AB } { BC }=\\frac { DF } { DC }\\)；由\\(\\angle ABC=\\angle EBD\\)得\\(\\angle ABC+\\angle DBA=\\angle EBD+\\angle DBA\\)即\\(\\angle EBA=\\angle DBC\\)结合\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)得到\\(\\vartriangle EBA\\backsim \\vartriangle DBC\\)得到\\(\\frac { AB } { BC }=\\frac { AE } { DC }\\)，继而得到\\(\\frac { AE } { DC }=\\frac { DF } { DC }\\)得到\\(AE=DF\\)，同理可证\\(DE=AF\\)证明即可．\n（3）将\\(\\vartriangle ABC\\)经过\\(B\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },逆30{}^\\circ } \\right )\\)得到\\(\\vartriangle EBD\\)，又将\\(\\vartriangle ABC\\)经过\\(C\\left ( { \\frac { \\sqrt[] { 3 } } { 3 },顺90{}^\\circ } \\right )\\)得到\\(\\vartriangle FDC\\)，得到的四边形\\(AFDE\\)恰好是正方形时，计算即可．\n【小问1详解】\n①解：根据新定义的意义，得答案为\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)，\n故答案为：\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；\n②解：根据旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\angle BAD=90{}^\\circ\\)，\n根据得\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，得到\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\\({ \\rm{ A } }{ \\rm{ B } }{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)，\n于是\\(cos\\angle B=cos60{}^\\circ =\\frac { AB } { BD }\\)，\n故\\(BD=\\frac { 1 } { cos60{}^\\circ }=2\\left ( { { \\rm{ c } }{ \\rm{ m } } } \\right )\\)，\n故答案为：2，逆60°．\n【小问2详解】\n证明：∵\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle EBD\\)，\n∴\\(\\angle ABC=\\angle EBD\\)，\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)；\n∵\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle FDC\\)，\n∴\\(\\frac { AB } { FD }=\\frac { BC } { DC }\\)\n∴\\(\\frac { AB } { BC }=\\frac { DF } { DC }\\)；\n∵\\(\\angle ABC=\\angle EBD\\)，\n∴\\(\\angle ABC+\\angle DBA=\\angle EBD+\\angle DBA\\)即\\(\\angle EBA=\\angle DBC\\)，\n∵\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)，\n∴\\(\\vartriangle EBA\\backsim \\vartriangle DBC\\)，\n∴\\(\\frac { AB } { BC }=\\frac { AE } { DC }\\)，\n∴\\(\\frac { AE } { DC }=\\frac { DF } { DC }\\)，\n∴\\(AE=DF\\)，\n同理可证\\(DE=AF\\)。\n故四边形\\(AFDE\\)是平行四边形．\n【小问3详解】\n解：以\\(BC\\)为边在其上方作等边三角形\\(BGC\\)，再作其外接圆\\(\\odot O\\)，作\\(\\odot O\\)的直径\\(BD\\)，再在\\(BD\\)的上方分别作\\(\\angle DBE=\\angle CBA,\\angle BDE=\\angle BCA\\)，延长\\(BA\\)交\\(\\odot O\\)于点F，连接\\(CD,CF,DF\\)，则\\(\\angle BFD=90{}^\\circ\\)，\n∴四边形\\(AFDE\\)是矩形，\n∴\\(\\angle EAF=\\angle EAB=90{}^\\circ\\)．\n∵\\(\\angle BAC=150{}^\\circ\\)，\n∴\\(\\angle CAF=30{}^\\circ\\)\n∵\\(\\angle BFC=\\angle G=60{}^\\circ\\)，\n∴\\(\\angle ACF=90{}^\\circ\\)，\n∵\\(AC=3\\)，\n∴\\(AF=\\frac { 3 } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，\n∴将\\(\\vartriangle ABC\\)经过\\(C\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },顺90{}^\\circ } \\right )\\)得到\\(\\vartriangle FDC\\)，\n∵\\(\\angle BDC=\\angle G=60{}^\\circ ,\\angle BCD=90{}^\\circ\\)，\n∴\\(\\angle DBC=30{}^\\circ\\)，\n∴\\(\\angle EBA=30{}^\\circ\\)，\n∴\\(AE=ABtan\\angle EBA=6tan30{}^\\circ =2\\sqrt[] { 3 }\\)，\n∴将\\(\\vartriangle ABC\\)经过\\(B\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },逆30{}^\\circ } \\right )\\)得到\\(\\vartriangle EBD\\)，\n此时\\(AE=AF=2\\sqrt[] { 3 }\\)\n∴四边形\\(AFDE\\)是正方形．\n故答案为：\\(2\\sqrt[] { 3 }\\)．\n〔图5〕\n【点睛】本题考查了等边三角形的性质，新定义问题，圆周角定理，三角函数的应用，三角形相似的判定和性质，平行四边形的判定和性质，正方形的判定和性质，熟练掌握性质是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/d9/d9ae9f993b635a69fe7fc8aed9af4a15cdb51e6f4eef382a869d3f5099083ccf.png",
+    "assets/figures/c7/c7aa4752936d84c03127087507ae9a2703da4bd246d0815be2dcbab93b49b680.png",
+    "assets/figures/9b/9b91dd1b61aa30b4d3ec3a7ee9ac1b471d938a5c71d9dc8d53a76ecc984c7900.png",
+    "assets/figures/2c/2cb07e36b989a256aafdaf10d1af6e2468fa110cbda1f24c400104650bdbcdcd.png",
+    "assets/figures/2f/2f2482f49d6c4c609f75d8885ddbdccdb4857f00ed4f860011000b5c0232d5ae.png"
+  ],
+  "solution": "【小问1详解】\n①解：根据新定义的意义，得答案为\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)，\n故答案为：\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；\n②解：根据旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\angle BAD=90{}^\\circ\\)，\n根据得\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，得到\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\\({ \\rm{ A } }{ \\rm{ B } }{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)，\n于是\\(cos\\angle B=cos60{}^\\circ =\\frac { AB } { BD }\\)，\n故\\(BD=\\frac { 1 } { cos60{}^\\circ }=2\\left ( { { \\rm{ c } }{ \\rm{ m } } } \\right )\\)，\n故答案为：2，逆60°．\n【小问2详解】\n证明：∵\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle EBD\\)，\n∴\\(\\angle ABC=\\angle EBD\\)，\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)；\n∵\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle FDC\\)，\n∴\\(\\frac { AB } { FD }=\\frac { BC } { DC }\\)\n∴\\(\\frac { AB } { BC }=\\frac { DF } { DC }\\)；\n∵\\(\\angle ABC=\\angle EBD\\)，\n∴\\(\\angle ABC+\\angle DBA=\\angle EBD+\\angle DBA\\)即\\(\\angle EBA=\\angle DBC\\)，\n∵\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)，\n∴\\(\\vartriangle EBA\\backsim \\vartriangle DBC\\)，\n∴\\(\\frac { AB } { BC }=\\frac { AE } { DC }\\)，\n∴\\(\\frac { AE } { DC }=\\frac { DF } { DC }\\)，\n∴\\(AE=DF\\)，\n同理可证\\(DE=AF\\)。\n故四边形\\(AFDE\\)是平行四边形．\n【小问3详解】\n解：以\\(BC\\)为边在其上方作等边三角形\\(BGC\\)，再作其外接圆\\(\\odot O\\)，作\\(\\odot O\\)的直径\\(BD\\)，再在\\(BD\\)的上方分别作\\(\\angle DBE=\\angle CBA,\\angle BDE=\\angle BCA\\)，延长\\(BA\\)交\\(\\odot O\\)于点F，连接\\(CD,CF,DF\\)，则\\(\\angle BFD=90{}^\\circ\\)，\n∴四边形\\(AFDE\\)是矩形，\n∴\\(\\angle EAF=\\angle EAB=90{}^\\circ\\)．\n∵\\(\\angle BAC=150{}^\\circ\\)，\n∴\\(\\angle CAF=30{}^\\circ\\)\n∵\\(\\angle BFC=\\angle G=60{}^\\circ\\)，\n∴\\(\\angle ACF=90{}^\\circ\\)，\n∵\\(AC=3\\)，\n∴\\(AF=\\frac { 3 } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，\n∴将\\(\\vartriangle ABC\\)经过\\(C\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },顺90{}^\\circ } \\right )\\)得到\\(\\vartriangle FDC\\)，\n∵\\(\\angle BDC=\\angle G=60{}^\\circ ,\\angle BCD=90{}^\\circ\\)，\n∴\\(\\angle DBC=30{}^\\circ\\)，\n∴\\(\\angle EBA=30{}^\\circ\\)，\n∴\\(AE=ABtan\\angle EBA=6tan30{}^\\circ =2\\sqrt[] { 3 }\\)，\n∴将\\(\\vartriangle ABC\\)经过\\(B\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },逆30{}^\\circ } \\right )\\)得到\\(\\vartriangle EBD\\)，\n此时\\(AE=AF=2\\sqrt[] { 3 }\\)\n∴四边形\\(AFDE\\)是正方形．\n故答案为：\\(2\\sqrt[] { 3 }\\)．\n〔图5〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "①解：根据新定义的意义，得答案为\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)，",
+    "故答案为：\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；",
+    "②解：根据旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\angle BAD=90{}^\\circ\\)，",
+    "根据得\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，得到\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\\({ \\rm{ A } }{ \\rm{ B } }{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)，",
+    "于是\\(cos\\angle B=cos60{}^\\circ =\\frac { AB } { BD }\\)，",
+    "故\\(BD=\\frac { 1 } { cos60{}^\\circ }=2\\left ( { { \\rm{ c } }{ \\rm{ m } } } \\right )\\)，",
+    "故答案为：2，逆60°．",
+    "【小问2详解】",
+    "证明：∵\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，",
+    "∴\\(\\vartriangle ABC\\backsim \\vartriangle EBD\\)，",
+    "∴\\(\\angle ABC=\\angle EBD\\)，\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)；",
+    "∵\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，",
+    "∴\\(\\vartriangle ABC\\backsim \\vartriangle FDC\\)，",
+    "∴\\(\\frac { AB } { FD }=\\frac { BC } { DC }\\)",
+    "∴\\(\\frac { AB } { BC }=\\frac { DF } { DC }\\)；",
+    "∵\\(\\angle ABC=\\angle EBD\\)，",
+    "∴\\(\\angle ABC+\\angle DBA=\\angle EBD+\\angle DBA\\)即\\(\\angle EBA=\\angle DBC\\)，",
+    "∵\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)，",
+    "∴\\(\\vartriangle EBA\\backsim \\vartriangle DBC\\)，",
+    "∴\\(\\frac { AB } { BC }=\\frac { AE } { DC }\\)，",
+    "∴\\(\\frac { AE } { DC }=\\frac { DF } { DC }\\)，",
+    "∴\\(AE=DF\\)，",
+    "同理可证\\(DE=AF\\)。",
+    "故四边形\\(AFDE\\)是平行四边形．",
+    "【小问3详解】",
+    "解：以\\(BC\\)为边在其上方作等边三角形\\(BGC\\)，再作其外接圆\\(\\odot O\\)，作\\(\\odot O\\)的直径\\(BD\\)，再在\\(BD\\)的上方分别作\\(\\angle DBE=\\angle CBA,\\angle BDE=\\angle BCA\\)，延长\\(BA\\)交\\(\\odot O\\)于点F，连接\\(CD,CF,DF\\)，则\\(\\angle BFD=90{}^\\circ\\)，",
+    "∴四边形\\(AFDE\\)是矩形，",
+    "∴\\(\\angle EAF=\\angle EAB=90{}^\\circ\\)．",
+    "∵\\(\\angle BAC=150{}^\\circ\\)，",
+    "∴\\(\\angle CAF=30{}^\\circ\\)",
+    "∵\\(\\angle BFC=\\angle G=60{}^\\circ\\)，",
+    "∴\\(\\angle ACF=90{}^\\circ\\)，",
+    "∵\\(AC=3\\)，",
+    "∴\\(AF=\\frac { 3 } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，",
+    "∴将\\(\\vartriangle ABC\\)经过\\(C\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },顺90{}^\\circ } \\right )\\)得到\\(\\vartriangle FDC\\)，",
+    "∵\\(\\angle BDC=\\angle G=60{}^\\circ ,\\angle BCD=90{}^\\circ\\)，",
+    "∴\\(\\angle DBC=30{}^\\circ\\)，",
+    "∴\\(\\angle EBA=30{}^\\circ\\)，",
+    "∴\\(AE=ABtan\\angle EBA=6tan30{}^\\circ =2\\sqrt[] { 3 }\\)，",
+    "∴将\\(\\vartriangle ABC\\)经过\\(B\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },逆30{}^\\circ } \\right )\\)得到\\(\\vartriangle EBD\\)，",
+    "此时\\(AE=AF=2\\sqrt[] { 3 }\\)",
+    "∴四边形\\(AFDE\\)是正方形．",
+    "故答案为：\\(2\\sqrt[] { 3 }\\)．",
+    "〔图5〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    5
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在平面内，先将一个多边形以点\\(O\\)为位似中心放大或缩小，使所得多边形与原多边形对应线段的比为\\(k\\)，并且原多边形上的任一点\\(P\\)，它的对应点\\(P'\\)在线段\\(OP\\)或其延长线上；接着将所得多边形以点\\(O\\)为旋转中心，逆时针旋转一个角度\\(\\theta\\)，记为\\(O\\left ( { k,逆\\theta } \\right )\\)，如果是顺时针旋转一个角度\\(\\theta\\)，则记为\\(O\\left ( { k,顺\\theta } \\right )\\)，这种经过位似和旋转的图形变换叫做旋转相似变换，其中点\\(O\\)叫做旋转相似中心，\\(k\\)叫做相似比，\\(\\theta\\)叫做旋转角．",
+      "paper_blocks": [
+        68
+      ]
+    },
+    {
+      "id": "fig-71",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        71
+      ]
+    },
+    {
+      "id": "fig-73",
+      "kind": "figure",
+      "text": "〔图2〕",
+      "paper_blocks": [
+        73
+      ]
+    },
+    {
+      "id": "fig-75",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        75
+      ]
+    },
+    {
+      "id": "fig-77",
+      "kind": "figure",
+      "text": "〔图4〕",
+      "paper_blocks": [
+        77
+      ]
+    },
+    {
+      "id": "condition-1",
+      "kind": "text",
+      "text": "填空：",
+      "paper_blocks": [
+        69
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-36A0B6CE2E-Q20-P01",
+      "label": "（1）①",
+      "prompt": "如图1，将\\(\\vartriangle ABC\\)以点\\(A\\)为旋转相似中心，放大为原来的2倍，再逆时针旋转\\(60{}^\\circ\\)，得到\\(\\vartriangle ADE\\)，这个旋转相似变换记为\\(A\\)（___________，___________）；",
+      "stem_text": "如图1，将\\(\\vartriangle ABC\\)以点\\(A\\)为旋转相似中心，放大为原来的2倍，再逆时针旋转\\(60{}^\\circ\\)，得到\\(\\vartriangle ADE\\)，这个旋转相似变换记为\\(A\\)（___________，___________）；",
+      "material_ids": [
+        "context",
+        "fig-71",
+        "fig-73",
+        "fig-75",
+        "fig-77",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；",
+      "answer": "\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；",
+      "given_solution": "解：根据新定义的意义，得答案为\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)，\n故答案为：\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；",
+      "solution_steps": [
+        "解：根据新定义的意义，得答案为\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)，",
+        "故答案为：\\(A\\left ( { 2,逆60{}^\\circ } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          70,
+          71,
+          73,
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          411,
+          412
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "部分匹配",
+      "knowledge_ids": [
+        "M.N01.05"
+      ],
+      "exam_ids": [
+        "E.N01.05.01"
+      ],
+      "tag_note": "先将题设的新符号或新运算翻译为通常运算，再按运算顺序计算。",
+      "tag_reason": "解法含“新定义”。按题设的新运算规则计算。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-36A0B6CE2E-Q20-P02",
+      "label": "（1）②",
+      "prompt": "如图2，\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，将它作旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\vartriangle ADE\\)，则线段\\(BD\\)的长为___________\\({ \\rm{ c } }{ \\rm{ m } }\\)；",
+      "stem_text": "如图2，\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，将它作旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\vartriangle ADE\\)，则线段\\(BD\\)的长为___________\\({ \\rm{ c } }{ \\rm{ m } }\\)；",
+      "material_ids": [
+        "context",
+        "fig-71",
+        "fig-73",
+        "fig-75",
+        "fig-77",
+        "condition-1"
+      ],
+      "requires": [],
+      "given_answer": "2",
+      "answer": "2",
+      "given_solution": "解：根据旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\angle BAD=90{}^\\circ\\)，\n根据得\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，得到\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\\({ \\rm{ A } }{ \\rm{ B } }{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)，\n于是\\(cos\\angle B=cos60{}^\\circ =\\frac { AB } { BD }\\)，\n故\\(BD=\\frac { 1 } { cos60{}^\\circ }=2\\left ( { { \\rm{ c } }{ \\rm{ m } } } \\right )\\)，\n故答案为：2，逆60°．",
+      "solution_steps": [
+        "解：根据旋转相似变换\\(A\\left ( { \\sqrt[] { 3 },逆90{}^\\circ } \\right )\\)，得到\\(\\angle BAD=90{}^\\circ\\)，",
+        "根据得\\(\\vartriangle ABC\\)是边长为\\({ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)的等边三角形，得到\\(\\angle B{ \\rm{ = } }{ \\rm{ 6 } }{ \\rm{ 0 } }{}^\\circ\\)，\\({ \\rm{ A } }{ \\rm{ B } }{ \\rm{ = } }{ \\rm{ 1 } }{ \\rm{ c } }{ \\rm{ m } }\\)，",
+        "于是\\(cos\\angle B=cos60{}^\\circ =\\frac { AB } { BD }\\)，",
+        "故\\(BD=\\frac { 1 } { cos60{}^\\circ }=2\\left ( { { \\rm{ c } }{ \\rm{ m } } } \\right )\\)，",
+        "故答案为：2，逆60°．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          69,
+          71,
+          72,
+          73,
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          413,
+          414,
+          415,
+          416,
+          417
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-36A0B6CE2E-Q20-P03",
+      "label": "（2）",
+      "prompt": "如图3，\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，又将\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，连接\\(AE\\)，\\(AF\\)，求证：四边形\\(AFDE\\)是平行四边形．",
+      "stem_text": "如图3，\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，又将\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，连接\\(AE\\)，\\(AF\\)，求证：四边形\\(AFDE\\)是平行四边形．",
+      "material_ids": [
+        "context",
+        "fig-71",
+        "fig-73",
+        "fig-75",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "证明：∵\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle EBD\\)，\n∴\\(\\angle ABC=\\angle EBD\\)，\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)；\n∵\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle FDC\\)，\n∴\\(\\frac { AB } { FD }=\\frac { BC } { DC }\\)\n∴\\(\\frac { AB } { BC }=\\frac { DF } { DC }\\)；\n∵\\(\\angle ABC=\\angle EBD\\)，\n∴\\(\\angle ABC+\\angle DBA=\\angle EBD+\\angle DBA\\)即\\(\\angle EBA=\\angle DBC\\)，\n∵\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)，\n∴\\(\\vartriangle EBA\\backsim \\vartriangle DBC\\)，\n∴\\(\\frac { AB } { BC }=\\frac { AE } { DC }\\)，\n∴\\(\\frac { AE } { DC }=\\frac { DF } { DC }\\)，\n∴\\(AE=DF\\)，\n同理可证\\(DE=AF\\)。\n故四边形\\(AFDE\\)是平行四边形．",
+      "solution_steps": [
+        "证明：∵\\(\\vartriangle ABC\\)经过\\(B\\left ( { k_{ 1 } ,逆\\alpha } \\right )\\)得到\\(\\vartriangle EBD\\)，",
+        "∴\\(\\vartriangle ABC\\backsim \\vartriangle EBD\\)，",
+        "∴\\(\\angle ABC=\\angle EBD\\)，\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)；",
+        "∵\\(\\vartriangle ABC\\)经过\\(C\\left ( { k_{ 2 } ,顺\\beta } \\right )\\)得到\\(\\vartriangle FDC\\)，",
+        "∴\\(\\vartriangle ABC\\backsim \\vartriangle FDC\\)，",
+        "∴\\(\\frac { AB } { FD }=\\frac { BC } { DC }\\)",
+        "∴\\(\\frac { AB } { BC }=\\frac { DF } { DC }\\)；",
+        "∵\\(\\angle ABC=\\angle EBD\\)，",
+        "∴\\(\\angle ABC+\\angle DBA=\\angle EBD+\\angle DBA\\)即\\(\\angle EBA=\\angle DBC\\)，",
+        "∵\\(\\frac { BE } { AB }=\\frac { BD } { BC }\\)，",
+        "∴\\(\\vartriangle EBA\\backsim \\vartriangle DBC\\)，",
+        "∴\\(\\frac { AB } { BC }=\\frac { AE } { DC }\\)，",
+        "∴\\(\\frac { AE } { DC }=\\frac { DF } { DC }\\)，",
+        "∴\\(AE=DF\\)，",
+        "同理可证\\(DE=AF\\)。",
+        "故四边形\\(AFDE\\)是平行四边形．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          68,
+          71,
+          73,
+          74,
+          75,
+          77
+        ],
+        "solution_block_ids": [
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          23,
+          24
+        ]
+      },
+      "review_note": "",
+      "coverage": "仅知识点",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [],
+      "tag_note": "该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+      "tag_reason": "本问题面与解答对应“相似图形及三角形判定”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-36A0B6CE2E-Q20-P04",
+      "label": "（3）",
+      "prompt": "如图4，在\\(\\vartriangle ABC\\)中，\\(\\angle A=150{}^\\circ\\)，\\(AB=6\\)，\\(AC=3\\)，若\\(\\vartriangle ABC\\)经过（2）中的变换得到的四边形\\(AFDE\\)恰好是正方形时，则\\(AE\\)的长为___________．",
+      "stem_text": "如图4，在\\(\\vartriangle ABC\\)中，\\(\\angle A=150{}^\\circ\\)，\\(AB=6\\)，\\(AC=3\\)，若\\(\\vartriangle ABC\\)经过（2）中的变换得到的四边形\\(AFDE\\)恰好是正方形时，则\\(AE\\)的长为___________．",
+      "material_ids": [
+        "context",
+        "fig-71",
+        "fig-73",
+        "fig-75",
+        "fig-77"
+      ],
+      "requires": [],
+      "given_answer": "\\(2\\sqrt[] { 3 }\\)",
+      "answer": "\\(2\\sqrt[] { 3 }\\)",
+      "given_solution": "解：以\\(BC\\)为边在其上方作等边三角形\\(BGC\\)，再作其外接圆\\(\\odot O\\)，作\\(\\odot O\\)的直径\\(BD\\)，再在\\(BD\\)的上方分别作\\(\\angle DBE=\\angle CBA,\\angle BDE=\\angle BCA\\)，延长\\(BA\\)交\\(\\odot O\\)于点F，连接\\(CD,CF,DF\\)，则\\(\\angle BFD=90{}^\\circ\\)，\n∴四边形\\(AFDE\\)是矩形，\n∴\\(\\angle EAF=\\angle EAB=90{}^\\circ\\)．\n∵\\(\\angle BAC=150{}^\\circ\\)，\n∴\\(\\angle CAF=30{}^\\circ\\)\n∵\\(\\angle BFC=\\angle G=60{}^\\circ\\)，\n∴\\(\\angle ACF=90{}^\\circ\\)，\n∵\\(AC=3\\)，\n∴\\(AF=\\frac { 3 } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，\n∴将\\(\\vartriangle ABC\\)经过\\(C\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },顺90{}^\\circ } \\right )\\)得到\\(\\vartriangle FDC\\)，\n∵\\(\\angle BDC=\\angle G=60{}^\\circ ,\\angle BCD=90{}^\\circ\\)，\n∴\\(\\angle DBC=30{}^\\circ\\)，\n∴\\(\\angle EBA=30{}^\\circ\\)，\n∴\\(AE=ABtan\\angle EBA=6tan30{}^\\circ =2\\sqrt[] { 3 }\\)，\n∴将\\(\\vartriangle ABC\\)经过\\(B\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },逆30{}^\\circ } \\right )\\)得到\\(\\vartriangle EBD\\)，\n此时\\(AE=AF=2\\sqrt[] { 3 }\\)\n∴四边形\\(AFDE\\)是正方形．\n故答案为：\\(2\\sqrt[] { 3 }\\)．\n〔图5〕",
+      "solution_steps": [
+        "解：以\\(BC\\)为边在其上方作等边三角形\\(BGC\\)，再作其外接圆\\(\\odot O\\)，作\\(\\odot O\\)的直径\\(BD\\)，再在\\(BD\\)的上方分别作\\(\\angle DBE=\\angle CBA,\\angle BDE=\\angle BCA\\)，延长\\(BA\\)交\\(\\odot O\\)于点F，连接\\(CD,CF,DF\\)，则\\(\\angle BFD=90{}^\\circ\\)，",
+        "∴四边形\\(AFDE\\)是矩形，",
+        "∴\\(\\angle EAF=\\angle EAB=90{}^\\circ\\)．",
+        "∵\\(\\angle BAC=150{}^\\circ\\)，",
+        "∴\\(\\angle CAF=30{}^\\circ\\)",
+        "∵\\(\\angle BFC=\\angle G=60{}^\\circ\\)，",
+        "∴\\(\\angle ACF=90{}^\\circ\\)，",
+        "∵\\(AC=3\\)，",
+        "∴\\(AF=\\frac { 3 } { cos30{}^\\circ }=2\\sqrt[] { 3 }\\)，",
+        "∴将\\(\\vartriangle ABC\\)经过\\(C\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },顺90{}^\\circ } \\right )\\)得到\\(\\vartriangle FDC\\)，",
+        "∵\\(\\angle BDC=\\angle G=60{}^\\circ ,\\angle BCD=90{}^\\circ\\)，",
+        "∴\\(\\angle DBC=30{}^\\circ\\)，",
+        "∴\\(\\angle EBA=30{}^\\circ\\)，",
+        "∴\\(AE=ABtan\\angle EBA=6tan30{}^\\circ =2\\sqrt[] { 3 }\\)，",
+        "∴将\\(\\vartriangle ABC\\)经过\\(B\\left ( { \\frac { 2\\sqrt[] { 3 } } { 3 },逆30{}^\\circ } \\right )\\)得到\\(\\vartriangle EBD\\)，",
+        "此时\\(AE=AF=2\\sqrt[] { 3 }\\)",
+        "∴四边形\\(AFDE\\)是正方形．",
+        "故答案为：\\(2\\sqrt[] { 3 }\\)．",
+        "〔图5〕"
+      ],
+      "solution_figure_ids": [
+        5
+      ],
+      "source": {
+        "paper_block_ids": [
+          68,
+          71,
+          73,
+          75,
+          76,
+          77
+        ],
+        "solution_block_ids": [
+          436,
+          437,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          449,
+          450,
+          451,
+          452,
+          453,
+          454
+        ],
+        "question_pages": [
+          7,
+          8
+        ],
+        "solution_pages": [
+          24,
+          25
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.02"
+      ],
+      "exam_ids": [
+        "E.G04.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      68,
+      77
+    ],
+    "solution_body_blocks": [
+      393,
+      455
+    ],
+    "question_pages": [
+      7,
+      8
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-36A0B6CE2E/paper-q20-p07.webp",
+      "assets/SZ-G9-T2-36A0B6CE2E/paper-q20-p08.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          478.64,
+          583.64,
+          665.45
+        ]
+      },
+      {
+        "page": 8,
+        "bbox_pt": [
+          11.82,
+          52.27,
+          583.64,
+          615.45
+        ]
+      }
+    ],
+    "solution_pages": [
+      22,
+      23,
+      24,
+      25
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-36A0B6CE2E/solution-q20-p22.webp",
+      "assets/SZ-G9-T2-36A0B6CE2E/solution-q20-p23.webp",
+      "assets/SZ-G9-T2-36A0B6CE2E/solution-q20-p24.webp",
+      "assets/SZ-G9-T2-36A0B6CE2E/solution-q20-p25.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          698.18,
+          583.64,
+          748.64
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 24,
+        "bbox_pt": [
+          11.82,
+          46.82,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 25,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          392.73
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "部分匹配",
+  "knowledge_ids": [
+    "M.N01.05",
+    "M.G08.03",
+    "M.G08.02",
+    "M.G04.02"
+  ],
+  "exam_ids": [
+    "E.N01.05.01",
+    "E.G08.03.01",
+    "E.G04.02.01"
+  ],
+  "tag_note": "先将题设的新符号或新运算翻译为通常运算，再按运算顺序计算。 该问涉及“相似图形及三角形判定”，现有细分考点仅能覆盖部分要求。",
+  "tag_reason": "解法含“新定义”。按题设的新运算规则计算。 本问题面与解答对应“由相似比求对应线段或周长”。 本问题面与解答对应“相似图形及三角形判定”。 本问的运算或证明步骤对应“利用等边性质求边角关系”。",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,513 @@
+{
+  "id": "SZ-G9-T1-1454AC41B3-Q19",
+  "paper_id": "SZ-G9-T1-1454AC41B3",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "确认对应关系并证明三角形相似、由相似比求对应线段或周长",
+  "stem": "在初中物理学中，凸透镜成像原理与相似三角形有密切的联系．请耐心阅读以下材料：\n【光学模型】如图1，通过凸透镜光心O的光线\\(AO\\)，其传播方向不变，平行于主光轴\\(MN\\)的光线\\(AC\\)经凸透镜L折射后通过焦点\\(F'\\)，凸透镜的两侧各有一个焦点F和\\(F'\\)，焦点到光心的距离称为焦距，记为f．\n〔图1〕\n【模型验证】如图2，平行于主光轴\\(MN\\)的光线\\(AC\\)经凸透镜L折射后与光线\\(AO\\)的交点为点\\(A'\\)，过点\\(A'\\)作主光轴\\(MN\\)的垂线\\(A'B'\\)，垂足为\\(B'\\)，即可得出物体\\(AB\\)所成的像\\(A'B'\\)．\n〔图2〕\n已知\\(OB=u\\)，\\(OB'=v\\)，\\(OF'=f\\)，\\(AB=h_{ 1 }\\)，\\(A'B'=h_{ 2 }\\)，当\\(f < u < 2f\\)时，求证：\\(\\frac { 1 } { u }+\\frac { 1 } { v }=\\frac { 1 } { f }\\)．\n证明：∵\\(A'B'\\bot MN\\)，\\(AB\\bot MN\\)，\n∴\\(A'B'\\parallel AB\\)，\n∴\\(\\vartriangle AOB\\backsim \\vartriangle A'OB'\\)，\n∴\\(\\frac { AB } { A'B' }=\\frac { OB } { OB' }\\)，\n即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\frac { u } { v }\\)．\n同理可得\\(\\vartriangle COF'\\backsim \\vartriangle A'B'F'\\)，\n∴\\(\\frac { CO } { A'B' }=\\frac { OF' } { B'F' }\\)，即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\)①______，\n∴\\(\\frac { u } { v }=\\)②______，∴\\(uv-uf=vf\\)，∴\\(\\frac { 1 } { f }-\\frac { 1 } { v }=\\frac { 1 } { u }\\)，即\\(\\frac { 1 } { u }+\\frac { 1 } { v }=\\frac { 1 } { f }\\)．\n请结合上述材料，解决以下问题：\n（1）在上述证明过程的虚框部分中，得到比例式所用到的几何知识是___________；\n（2）请补充上述证明过程中①②所缺的内容（用含\\(v,\\ f\\)的代数式表示）；\n（3）如图3，在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=60{}^\\circ\\)，\\(AD\\)平分\\(\\angle BAC\\)并交边\\(BC\\)于点D，设\\(AD=n\\)，求\\(\\frac { 1 } { AB }+\\frac { 1 } { AC }\\)的值(用含n的代数式表示)．\n〔图3〕",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-1454AC41B3/figures/7da45878f3267bf060c36a673edc7cf30976128049fb634dfa5bbf7721d61e5f.png",
+    "assets/SZ-G9-T1-1454AC41B3/figures/82409fec88a4494433494fd847ce4662e7d0345b1c6dfc2d66963f17e88c50b8.png",
+    "assets/SZ-G9-T1-1454AC41B3/figures/213a00a94d2b47f9e33c696710c2440f06a2b699db5fa0368918e2853564dc61.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）相似三角形的性质\n（2）①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)\n（3）\\(\\frac { \\sqrt[] { 3 } } { n }\\)",
+  "answer": "（1）相似三角形的性质\n（2）①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)\n（3）\\(\\frac { \\sqrt[] { 3 } } { n }\\)",
+  "given_solution": "【分析】（1）根据相似三角形的性质求解即可；\n（2）根据相似三角形的性质可得\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\frac { f } { v-f }\\)，再利用等量代换可得\\(\\frac { u } { v }=\\frac { f } { v-f }\\)即可；\n（3）作\\(BE\\parallel AC\\)，交\\(AD\\)的延长线于点E，作\\(DF\\parallel AC\\)，交\\(AB\\)于点F，过点F作\\(FG\\bot AD\\)，垂足为G，由角平分线的定义和平行线的性质可得\\(\\angle E=\\angle CAD=\\angle BAD=30{}^\\circ\\)，再由等角对等边可得\\(AB=BE\\)，同理可得\\(AF=DF\\)，证明\\(\\vartriangle ADF\\backsim \\vartriangle AEB\\)，\\(\\vartriangle BDF\\backsim \\vartriangle BCA\\)，可得\\(\\frac { DF } { EB }=\\frac { AF } { AB }\\)，\\(\\frac { DF } { AC }=\\frac { BF } { AB }\\)，进而可得\\(\\frac { DF } { AC }+\\frac { DF } { EB }=1\\)，即 \\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { DF }\\)，根据等腰三角形的性质可得\\(AG=GD=\\frac { 1 } { 2 }AD=\\frac { n } { 2 }\\)，利用锐角三角函数求得\\(DF=AF=\\frac { n } { \\sqrt[] { 3 } }\\)，即可求解．\n【小问1详解】\n解：由题意可得，上述证明过程的虚框部分中，得到比例式所用到的几何知识是相似三角形的性质，\n故答案为：相似三角形的性质；\n【小问2详解】\n解：由题意可得，\\(\\frac { CO } { A'B' }=\\frac { OF' } { B'F' }\\)，即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\frac { f } { v-f }\\)①，\n∴\\(\\frac { u } { v }=\\frac { f } { v-f }\\)②，\n故答案为：①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)；\n【小问3详解】\n解：如图，作\\(BE\\parallel AC\\)，交\\(AD\\)的延长线于点E，作\\(DF\\parallel AC\\)，交\\(AB\\)于点F，过点F作\\(FG\\bot AD\\)，垂足为G，\n∵\\(AD\\)平分\\(\\angle BAC\\)，\\(\\angle BAC=60{}^\\circ\\)，\n∴\\(\\angle CAD=\\angle BAD=30{}^\\circ\\)，\n又∵\\(BE\\parallel AC\\)，\n∴\\(\\angle E=\\angle CAD=\\angle BAD=30{}^\\circ\\)，\n∴\\(AB=BE\\)，\n∵\\(AC\\parallel DF\\)，\n∴\\(\\angle CAD=\\angle ADF=30{}^\\circ\\)，\n∴\\(AF=DF\\)，\n∵\\(BE\\parallel AC\\)，\\(DF\\parallel AC\\)，\n∴\\(BE\\parallel DF\\)，\n∴\\(\\vartriangle ADF\\backsim \\vartriangle AEB\\)，\n∴\\(\\frac { DF } { EB }=\\frac { AF } { AB }\\)，\n∵\\(DF\\parallel AC\\)，\n∴\\(\\vartriangle BDF\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { DF } { AC }=\\frac { BF } { AB }\\)，\n∴\\(\\frac { DF } { AC }+\\frac { DF } { EB }=\\frac { BF+AF } { AB }=\\frac { AB } { AB }=1\\)，\n又∵\\(EB=AB\\)，\n∴\\(\\frac { DF } { AC }+\\frac { DF } { AB }=1\\)，即\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { DF }\\)，\n∵\\(AF=DF\\)，\\(FG\\bot AD\\)，\n∴\\(AG=GD=\\frac { 1 } { 2 }AD=\\frac { n } { 2 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGF\\)中，\\(\\angle DAF=30{}^\\circ\\)，\\(cos\\angle GAF=\\frac { AG } { AF }\\)，即\\(cos30{}^\\circ =\\frac { \\frac { n } { 2 } } { AF }\\)，\n∴\\(AF=\\frac { \\frac { n } { 2 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { n } { \\sqrt[] { 3 } }\\)，\n∴\\(DF=AF=\\frac { n } { \\sqrt[] { 3 } }\\)，\n∴\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { \\frac { n } { \\sqrt[] { 3 } } }=\\frac { \\sqrt[] { 3 } } { n }\\)．\n〔图4〕\n【点睛】本题考查相似三角形的性质与判定、锐角三角函数、平行线的性质、等腰三角形的性质与判定及角平分线的定义，熟练掌握相似三角形的性质与判定是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-1454AC41B3/figures/7da45878f3267bf060c36a673edc7cf30976128049fb634dfa5bbf7721d61e5f.png",
+    "assets/SZ-G9-T1-1454AC41B3/figures/363f5e05759093a25c143e58a3248cddbe65129d78f4a455d30b3678463fa249.png",
+    "assets/SZ-G9-T1-1454AC41B3/figures/213a00a94d2b47f9e33c696710c2440f06a2b699db5fa0368918e2853564dc61.png",
+    "assets/SZ-G9-T1-1454AC41B3/figures/0af4b60633f4d9cc23edec773469467cd9bc6d02f017d08da9cf1a903a42919d.png"
+  ],
+  "solution": "【小问1详解】\n解：由题意可得，上述证明过程的虚框部分中，得到比例式所用到的几何知识是相似三角形的性质，\n故答案为：相似三角形的性质；\n【小问2详解】\n解：由题意可得，\\(\\frac { CO } { A'B' }=\\frac { OF' } { B'F' }\\)，即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\frac { f } { v-f }\\)①，\n∴\\(\\frac { u } { v }=\\frac { f } { v-f }\\)②，\n故答案为：①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)；\n【小问3详解】\n解：如图，作\\(BE\\parallel AC\\)，交\\(AD\\)的延长线于点E，作\\(DF\\parallel AC\\)，交\\(AB\\)于点F，过点F作\\(FG\\bot AD\\)，垂足为G，\n∵\\(AD\\)平分\\(\\angle BAC\\)，\\(\\angle BAC=60{}^\\circ\\)，\n∴\\(\\angle CAD=\\angle BAD=30{}^\\circ\\)，\n又∵\\(BE\\parallel AC\\)，\n∴\\(\\angle E=\\angle CAD=\\angle BAD=30{}^\\circ\\)，\n∴\\(AB=BE\\)，\n∵\\(AC\\parallel DF\\)，\n∴\\(\\angle CAD=\\angle ADF=30{}^\\circ\\)，\n∴\\(AF=DF\\)，\n∵\\(BE\\parallel AC\\)，\\(DF\\parallel AC\\)，\n∴\\(BE\\parallel DF\\)，\n∴\\(\\vartriangle ADF\\backsim \\vartriangle AEB\\)，\n∴\\(\\frac { DF } { EB }=\\frac { AF } { AB }\\)，\n∵\\(DF\\parallel AC\\)，\n∴\\(\\vartriangle BDF\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { DF } { AC }=\\frac { BF } { AB }\\)，\n∴\\(\\frac { DF } { AC }+\\frac { DF } { EB }=\\frac { BF+AF } { AB }=\\frac { AB } { AB }=1\\)，\n又∵\\(EB=AB\\)，\n∴\\(\\frac { DF } { AC }+\\frac { DF } { AB }=1\\)，即\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { DF }\\)，\n∵\\(AF=DF\\)，\\(FG\\bot AD\\)，\n∴\\(AG=GD=\\frac { 1 } { 2 }AD=\\frac { n } { 2 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGF\\)中，\\(\\angle DAF=30{}^\\circ\\)，\\(cos\\angle GAF=\\frac { AG } { AF }\\)，即\\(cos30{}^\\circ =\\frac { \\frac { n } { 2 } } { AF }\\)，\n∴\\(AF=\\frac { \\frac { n } { 2 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { n } { \\sqrt[] { 3 } }\\)，\n∴\\(DF=AF=\\frac { n } { \\sqrt[] { 3 } }\\)，\n∴\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { \\frac { n } { \\sqrt[] { 3 } } }=\\frac { \\sqrt[] { 3 } } { n }\\)．\n〔图4〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：由题意可得，上述证明过程的虚框部分中，得到比例式所用到的几何知识是相似三角形的性质，",
+    "故答案为：相似三角形的性质；",
+    "【小问2详解】",
+    "解：由题意可得，\\(\\frac { CO } { A'B' }=\\frac { OF' } { B'F' }\\)，即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\frac { f } { v-f }\\)①，",
+    "∴\\(\\frac { u } { v }=\\frac { f } { v-f }\\)②，",
+    "故答案为：①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)；",
+    "【小问3详解】",
+    "解：如图，作\\(BE\\parallel AC\\)，交\\(AD\\)的延长线于点E，作\\(DF\\parallel AC\\)，交\\(AB\\)于点F，过点F作\\(FG\\bot AD\\)，垂足为G，",
+    "∵\\(AD\\)平分\\(\\angle BAC\\)，\\(\\angle BAC=60{}^\\circ\\)，",
+    "∴\\(\\angle CAD=\\angle BAD=30{}^\\circ\\)，",
+    "又∵\\(BE\\parallel AC\\)，",
+    "∴\\(\\angle E=\\angle CAD=\\angle BAD=30{}^\\circ\\)，",
+    "∴\\(AB=BE\\)，",
+    "∵\\(AC\\parallel DF\\)，",
+    "∴\\(\\angle CAD=\\angle ADF=30{}^\\circ\\)，",
+    "∴\\(AF=DF\\)，",
+    "∵\\(BE\\parallel AC\\)，\\(DF\\parallel AC\\)，",
+    "∴\\(BE\\parallel DF\\)，",
+    "∴\\(\\vartriangle ADF\\backsim \\vartriangle AEB\\)，",
+    "∴\\(\\frac { DF } { EB }=\\frac { AF } { AB }\\)，",
+    "∵\\(DF\\parallel AC\\)，",
+    "∴\\(\\vartriangle BDF\\backsim \\vartriangle BCA\\)，",
+    "∴\\(\\frac { DF } { AC }=\\frac { BF } { AB }\\)，",
+    "∴\\(\\frac { DF } { AC }+\\frac { DF } { EB }=\\frac { BF+AF } { AB }=\\frac { AB } { AB }=1\\)，",
+    "又∵\\(EB=AB\\)，",
+    "∴\\(\\frac { DF } { AC }+\\frac { DF } { AB }=1\\)，即\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { DF }\\)，",
+    "∵\\(AF=DF\\)，\\(FG\\bot AD\\)，",
+    "∴\\(AG=GD=\\frac { 1 } { 2 }AD=\\frac { n } { 2 }\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGF\\)中，\\(\\angle DAF=30{}^\\circ\\)，\\(cos\\angle GAF=\\frac { AG } { AF }\\)，即\\(cos30{}^\\circ =\\frac { \\frac { n } { 2 } } { AF }\\)，",
+    "∴\\(AF=\\frac { \\frac { n } { 2 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { n } { \\sqrt[] { 3 } }\\)，",
+    "∴\\(DF=AF=\\frac { n } { \\sqrt[] { 3 } }\\)，",
+    "∴\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { \\frac { n } { \\sqrt[] { 3 } } }=\\frac { \\sqrt[] { 3 } } { n }\\)．",
+    "〔图4〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    4
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "在初中物理学中，凸透镜成像原理与相似三角形有密切的联系．请耐心阅读以下材料：\n【光学模型】如图1，通过凸透镜光心O的光线\\(AO\\)，其传播方向不变，平行于主光轴\\(MN\\)的光线\\(AC\\)经凸透镜L折射后通过焦点\\(F'\\)，凸透镜的两侧各有一个焦点F和\\(F'\\)，焦点到光心的距离称为焦距，记为f．\n〔图1〕\n【模型验证】如图2，平行于主光轴\\(MN\\)的光线\\(AC\\)经凸透镜L折射后与光线\\(AO\\)的交点为点\\(A'\\)，过点\\(A'\\)作主光轴\\(MN\\)的垂线\\(A'B'\\)，垂足为\\(B'\\)，即可得出物体\\(AB\\)所成的像\\(A'B'\\)．\n〔图2〕\n已知\\(OB=u\\)，\\(OB'=v\\)，\\(OF'=f\\)，\\(AB=h_{ 1 }\\)，\\(A'B'=h_{ 2 }\\)，当\\(f < u < 2f\\)时，求证：\\(\\frac { 1 } { u }+\\frac { 1 } { v }=\\frac { 1 } { f }\\)．\n证明：∵\\(A'B'\\bot MN\\)，\\(AB\\bot MN\\)，\n∴\\(A'B'\\parallel AB\\)，\n∴\\(\\vartriangle AOB\\backsim \\vartriangle A'OB'\\)，\n∴\\(\\frac { AB } { A'B' }=\\frac { OB } { OB' }\\)，\n即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\frac { u } { v }\\)．\n同理可得\\(\\vartriangle COF'\\backsim \\vartriangle A'B'F'\\)，\n∴\\(\\frac { CO } { A'B' }=\\frac { OF' } { B'F' }\\)，即\\(\\frac { h_{ 1 } } { h_{ 2 } }=\\)①______，\n∴\\(\\frac { u } { v }=\\)②______，∴\\(uv-uf=vf\\)，∴\\(\\frac { 1 } { f }-\\frac { 1 } { v }=\\frac { 1 } { u }\\)，即\\(\\frac { 1 } { u }+\\frac { 1 } { v }=\\frac { 1 } { f }\\)．\n请结合上述材料，解决以下问题：",
+      "paper_blocks": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    },
+    {
+      "id": "fig-74",
+      "kind": "figure",
+      "text": "〔图3〕",
+      "paper_blocks": [
+        74
+      ]
+    },
+    {
+      "id": "condition-2",
+      "kind": "text",
+      "text": "请补充上述证明过程中",
+      "paper_blocks": [
+        72
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-1454AC41B3-Q19-P01",
+      "label": "（1）",
+      "prompt": "在上述证明过程的虚框部分中，得到比例式所用到的几何知识是___________；",
+      "stem_text": "在上述证明过程的虚框部分中，得到比例式所用到的几何知识是___________；",
+      "material_ids": [
+        "context",
+        "fig-74"
+      ],
+      "requires": [],
+      "given_answer": "相似三角形的性质",
+      "answer": "相似三角形的性质",
+      "given_solution": "解：由题意可得，上述证明过程的虚框部分中，得到比例式所用到的几何知识是相似三角形的性质，\n故答案为：相似三角形的性质；",
+      "solution_steps": [
+        "解：由题意可得，上述证明过程的虚框部分中，得到比例式所用到的几何知识是相似三角形的性质，",
+        "故答案为：相似三角形的性质；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          74
+        ],
+        "solution_block_ids": [
+          334,
+          335
+        ],
+        "question_pages": [
+          5,
+          6,
+          7
+        ],
+        "solution_pages": [
+          18
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.02"
+      ],
+      "exam_ids": [
+        "E.G08.02.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问解答对应“确认对应关系并证明三角形相似”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-1454AC41B3-Q19-P02",
+      "label": "（2）①",
+      "prompt": "用含 v、f 的代数式补全上述证明中的空格①。",
+      "stem_text": "用含 v、f 的代数式补全上述证明中的空格①。",
+      "material_ids": [
+        "context",
+        "fig-74",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { f } { v-f }\\)，",
+      "answer": "\\(\\frac { f } { v-f }\\)，",
+      "given_solution": "，\n∴\\(\\frac { u } { v }=\\frac { f } { v-f }\\)",
+      "solution_steps": [
+        "，",
+        "∴\\(\\frac { u } { v }=\\frac { f } { v-f }\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          337,
+          338
+        ],
+        "question_pages": [
+          5,
+          6,
+          7
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“垂足”。辨认垂足和点到直线的距离。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-1454AC41B3-Q19-P03",
+      "label": "（2）②",
+      "prompt": "用含 v、f 的代数式补全上述证明中的空格②。",
+      "stem_text": "用含 v、f 的代数式补全上述证明中的空格②。",
+      "material_ids": [
+        "context",
+        "fig-74",
+        "condition-2"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { f } { v-f }\\)",
+      "answer": "\\(\\frac { f } { v-f }\\)",
+      "given_solution": "，\n故答案为：①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)；",
+      "solution_steps": [
+        "，",
+        "故答案为：①\\(\\frac { f } { v-f }\\)，②\\(\\frac { f } { v-f }\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          72,
+          74
+        ],
+        "solution_block_ids": [
+          338,
+          339
+        ],
+        "question_pages": [
+          5,
+          6,
+          7
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G01.03"
+      ],
+      "exam_ids": [],
+      "coverage": "仅知识点",
+      "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+      "tag_reason": "公共材料含“垂足”。辨认垂足和点到直线的距离。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-1454AC41B3-Q19-P04",
+      "label": "（3）",
+      "prompt": "如图3，在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=60{}^\\circ\\)，\\(AD\\)平分\\(\\angle BAC\\)并交边\\(BC\\)于点D，设\\(AD=n\\)，求\\(\\frac { 1 } { AB }+\\frac { 1 } { AC }\\)的值(用含n的代数式表示)．",
+      "stem_text": "如图3，在\\(\\vartriangle ABC\\)中，\\(\\angle BAC=60{}^\\circ\\)，\\(AD\\)平分\\(\\angle BAC\\)并交边\\(BC\\)于点D，设\\(AD=n\\)，求\\(\\frac { 1 } { AB }+\\frac { 1 } { AC }\\)的值(用含n的代数式表示)．",
+      "material_ids": [
+        "context",
+        "fig-74"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { \\sqrt[] { 3 } } { n }\\)",
+      "answer": "\\(\\frac { \\sqrt[] { 3 } } { n }\\)",
+      "given_solution": "解：如图，作\\(BE\\parallel AC\\)，交\\(AD\\)的延长线于点E，作\\(DF\\parallel AC\\)，交\\(AB\\)于点F，过点F作\\(FG\\bot AD\\)，垂足为G，\n∵\\(AD\\)平分\\(\\angle BAC\\)，\\(\\angle BAC=60{}^\\circ\\)，\n∴\\(\\angle CAD=\\angle BAD=30{}^\\circ\\)，\n又∵\\(BE\\parallel AC\\)，\n∴\\(\\angle E=\\angle CAD=\\angle BAD=30{}^\\circ\\)，\n∴\\(AB=BE\\)，\n∵\\(AC\\parallel DF\\)，\n∴\\(\\angle CAD=\\angle ADF=30{}^\\circ\\)，\n∴\\(AF=DF\\)，\n∵\\(BE\\parallel AC\\)，\\(DF\\parallel AC\\)，\n∴\\(BE\\parallel DF\\)，\n∴\\(\\vartriangle ADF\\backsim \\vartriangle AEB\\)，\n∴\\(\\frac { DF } { EB }=\\frac { AF } { AB }\\)，\n∵\\(DF\\parallel AC\\)，\n∴\\(\\vartriangle BDF\\backsim \\vartriangle BCA\\)，\n∴\\(\\frac { DF } { AC }=\\frac { BF } { AB }\\)，\n∴\\(\\frac { DF } { AC }+\\frac { DF } { EB }=\\frac { BF+AF } { AB }=\\frac { AB } { AB }=1\\)，\n又∵\\(EB=AB\\)，\n∴\\(\\frac { DF } { AC }+\\frac { DF } { AB }=1\\)，即\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { DF }\\)，\n∵\\(AF=DF\\)，\\(FG\\bot AD\\)，\n∴\\(AG=GD=\\frac { 1 } { 2 }AD=\\frac { n } { 2 }\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGF\\)中，\\(\\angle DAF=30{}^\\circ\\)，\\(cos\\angle GAF=\\frac { AG } { AF }\\)，即\\(cos30{}^\\circ =\\frac { \\frac { n } { 2 } } { AF }\\)，\n∴\\(AF=\\frac { \\frac { n } { 2 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { n } { \\sqrt[] { 3 } }\\)，\n∴\\(DF=AF=\\frac { n } { \\sqrt[] { 3 } }\\)，\n∴\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { \\frac { n } { \\sqrt[] { 3 } } }=\\frac { \\sqrt[] { 3 } } { n }\\)．\n〔图4〕",
+      "solution_steps": [
+        "解：如图，作\\(BE\\parallel AC\\)，交\\(AD\\)的延长线于点E，作\\(DF\\parallel AC\\)，交\\(AB\\)于点F，过点F作\\(FG\\bot AD\\)，垂足为G，",
+        "∵\\(AD\\)平分\\(\\angle BAC\\)，\\(\\angle BAC=60{}^\\circ\\)，",
+        "∴\\(\\angle CAD=\\angle BAD=30{}^\\circ\\)，",
+        "又∵\\(BE\\parallel AC\\)，",
+        "∴\\(\\angle E=\\angle CAD=\\angle BAD=30{}^\\circ\\)，",
+        "∴\\(AB=BE\\)，",
+        "∵\\(AC\\parallel DF\\)，",
+        "∴\\(\\angle CAD=\\angle ADF=30{}^\\circ\\)，",
+        "∴\\(AF=DF\\)，",
+        "∵\\(BE\\parallel AC\\)，\\(DF\\parallel AC\\)，",
+        "∴\\(BE\\parallel DF\\)，",
+        "∴\\(\\vartriangle ADF\\backsim \\vartriangle AEB\\)，",
+        "∴\\(\\frac { DF } { EB }=\\frac { AF } { AB }\\)，",
+        "∵\\(DF\\parallel AC\\)，",
+        "∴\\(\\vartriangle BDF\\backsim \\vartriangle BCA\\)，",
+        "∴\\(\\frac { DF } { AC }=\\frac { BF } { AB }\\)，",
+        "∴\\(\\frac { DF } { AC }+\\frac { DF } { EB }=\\frac { BF+AF } { AB }=\\frac { AB } { AB }=1\\)，",
+        "又∵\\(EB=AB\\)，",
+        "∴\\(\\frac { DF } { AC }+\\frac { DF } { AB }=1\\)，即\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { DF }\\)，",
+        "∵\\(AF=DF\\)，\\(FG\\bot AD\\)，",
+        "∴\\(AG=GD=\\frac { 1 } { 2 }AD=\\frac { n } { 2 }\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle AGF\\)中，\\(\\angle DAF=30{}^\\circ\\)，\\(cos\\angle GAF=\\frac { AG } { AF }\\)，即\\(cos30{}^\\circ =\\frac { \\frac { n } { 2 } } { AF }\\)，",
+        "∴\\(AF=\\frac { \\frac { n } { 2 } } { \\frac { \\sqrt[] { 3 } } { 2 } }=\\frac { n } { \\sqrt[] { 3 } }\\)，",
+        "∴\\(DF=AF=\\frac { n } { \\sqrt[] { 3 } }\\)，",
+        "∴\\(\\frac { 1 } { AC }+\\frac { 1 } { AB }=\\frac { 1 } { \\frac { n } { \\sqrt[] { 3 } } }=\\frac { \\sqrt[] { 3 } } { n }\\)．",
+        "〔图4〕"
+      ],
+      "solution_figure_ids": [
+        4
+      ],
+      "source": {
+        "paper_block_ids": [
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          73,
+          74
+        ],
+        "solution_block_ids": [
+          341,
+          342,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366
+        ],
+        "question_pages": [
+          5,
+          6,
+          7
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G08.03"
+      ],
+      "exam_ids": [
+        "E.G08.03.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      56,
+      74
+    ],
+    "solution_body_blocks": [
+      307,
+      367
+    ],
+    "question_pages": [
+      5,
+      6,
+      7
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-1454AC41B3/paper-q19-p05.webp",
+      "assets/SZ-G9-T1-1454AC41B3/paper-q19-p06.webp",
+      "assets/SZ-G9-T1-1454AC41B3/paper-q19-p07.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          723.64,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          762.73
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          148.64
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-1454AC41B3/solution-q19-p18.webp",
+      "assets/SZ-G9-T1-1454AC41B3/solution-q19-p19.webp",
+      "assets/SZ-G9-T1-1454AC41B3/solution-q19-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          331.36,
+          583.64,
+          766.82
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          761.36
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          52.73,
+          583.64,
+          384.55
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.02",
+    "M.G01.03",
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.02.01",
+    "E.G08.03.01"
+  ],
+  "coverage": "部分匹配",
+  "tag_note": "公共材料明确涉及该知识点，小问的具体考查目标尚待核对。",
+  "tag_reason": "本问解答对应“确认对应关系并证明三角形相似”。 公共材料含“垂足”。辨认垂足和点到直线的距离。 本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}

@@ -1,0 +1,434 @@
+{
+  "id": "SZ-G9-T2-599EDE478A-Q19",
+  "paper_id": "SZ-G9-T2-599EDE478A",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "根据独立条件确定二次函数表达式、在给定区间内确定二次函数最值",
+  "stem": "如图1，已知抛物线\\(y=ax ^ { 2 } +bx+c\\)与x轴交于点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)，与y轴交于点\\(C\\left ( { 0,4 } \\right )\\)，连接\\(AC\\)、\\(BC\\)．\n〔图1〕\n（1）求抛物线的解析式；\n（2）如图2，点P是直线\\(BC\\)上方抛物线上一点，过点P作\\(PD\\parallel x\\)轴交\\(BC\\)于点D，过点P作\\(PE\\bot BC\\)于点E，当\\(\\vartriangle PDE\\)的周长最大时，求出\\(\\vartriangle PDE\\)的周长最大值及此时点P的坐标；\n（3）在（2）的条件下，当\\(\\vartriangle PDE\\)的周长最大时，将点B沿射线\\(AC\\)的方向平移\\(\\sqrt[] { 5 }\\)个单位至点\\(B'\\)，再将线段\\(BB'\\)沿射线\\(BC\\)方向平移，点B、\\(B'\\)的对应点分别记为点M、N．在平移过程中，点P、M、N是否能构成以\\(PN\\)为腰的等腰三角形，若能，直接写出点N的横坐标；若不能，请说明理由．",
+  "choices": [],
+  "figures": [
+    "assets/figures/a8/a8abdad32d3febd251d801d22e7733dd2c2e29dde677b6b277965cdd16af3f3b.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)\n（2）\\(2.7\\)，\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)\n（3）能，\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)",
+  "answer": "（1）\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)\n（2）\\(2.7\\)，\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)\n（3）能，\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)",
+  "given_solution": "【分析】（1）利用待定系数法即可求得抛物线的解析式；\n（2）根据\\(PD\\parallel x\\)轴，\\(PE\\bot BC\\)得出条件判定\\(\\vartriangle PDE\\backsim \\vartriangle CBO\\)，则可得出\\(DE:PE:PD=3:4:5\\)，从而可将\\(\\vartriangle PDE\\)的周长用\\(PD\\)表示出来，设\\(P\\left ( { m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，可得\\(D\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，从而\\(PD=-\\frac { 1 } { 2 }m ^ { 2 } +\\frac { 3 } { 2 }m\\)，然后得出\\(\\vartriangle PDE\\)的周长为关于\\(m\\)的二次函数，求二次函数的最值可得答案；\n（3）由点\\(A\\)和点\\(C\\)的坐标可求出直线\\(AC\\)的解析式，由平移的性质可得点\\(B\\)、\\(B'\\)的对应点\\(M\\)、\\(N\\)的位置关系，设\\(M\\left ( { n,-\\frac { 4 } { 3 }n+4 } \\right )\\)，则\\(N\\left ( { n+1,-\\frac { 4 } { 3 }n+6 } \\right )\\)，由两点距离公式得出\\(PM ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }\\)，\\(PN ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\\(MN ^ { 2 } =5\\)，若点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，则分两种情况讨论：①以\\(P\\)为顶点，\\(PM ^ { 2 } =PN ^ { 2 }\\)；②以\\(N\\)为顶点，\\(PN ^ { 2 } =MN ^ { 2 }\\)；分别得出关于\\(n\\)的方程，解方程即可求出\\(n\\)的值，进而可得点\\(N\\)的横坐标．\n【小问1详解】\n解：\\(\\because\\)点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)在抛物线的图象上，\n\\(\\therefore\\)将它们代入\\(y=ax ^ { 2 } +bx+c\\)，得：\n\\(\\begin{cases} 4a-2b+c=0 \\\\ 9a+3b+c=0 \\\\ c=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} a=-\\frac { 2 } { 3 } \\\\ b=\\frac { 2 } { 3 } \\\\ c=4 \\end{cases}\\)，\n\\(\\therefore\\)抛物线的解析式为\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)；\n【小问2详解】\n解：\\(\\because B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)，\n\\(\\therefore OB=3\\)，\\(OC=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，根据勾股定理可得：\n\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n\\(\\because PD\\parallel x\\)轴，\n\\(\\therefore \\angle PDE=\\angle CBO\\)，\n\\(\\because PE\\bot BC\\)，\n\\(\\therefore \\angle PED=\\angle COB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PDE\\backsim \\vartriangle CBO\\)，\n\\(\\therefore DE:PE:PD=3:4:5\\)，\n\\(\\therefore \\vartriangle PDE\\)的周长\\(C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)，\n将\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：\n\\(\\begin{cases} 3k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ b=4 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-\\frac { 4 } { 3 }x+4\\)，\n设\\(P\\left ( { m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，\n\\(\\because PD\\parallel x\\)轴交\\(BC\\)于点\\(D\\)，\n\\(\\therefore D\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，\n\\(\\therefore PD=m-\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m } \\right )=-\\frac { 1 } { 2 }m ^ { 2 } +\\frac { 3 } { 2 }m\\)，\n\\(\\therefore C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)\n\\(=-\\frac { 6 } { 5 }m ^ { 2 } +\\frac { 18 } { 5 }m\\)\n\\(=-\\frac { 6 } { 5 }\\left ( { m-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +2.7\\)，\n\\(\\because -\\frac { 6 } { 5 } < 0\\)，\n\\(\\therefore\\)抛物线开口向下，\n\\(\\therefore\\)当\\(m=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle PDE\\)的周长取得最大值，最大值为\\(2.7\\)，此时点\\(P\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)；\n【小问3详解】\n解：在平移过程中，点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)，理由如下：\n设直线\\(AC\\)的解析式为\\(y=kx+b\\)，\n将\\(A\\left ( { -2,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：\n\\(\\begin{cases} -2k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=2 \\\\ b=4 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AC\\)的解析式为\\(y=2x+4\\)，\n\\(\\because BB'=\\sqrt[] { 5 }\\)，即点\\(B\\)向右平移\\(1\\)个单位长度，再向上平移\\(2\\)个单位长度得到点\\(B'\\)，\n\\(\\therefore\\)点\\(B\\)、\\(B'\\)的对应点\\(M\\)、\\(N\\)也同样有\\(B\\)、\\(B'\\)的位置关系，且点\\(M\\)在直线\\(BC\\)上，\n\\(\\therefore\\)设\\(M\\left ( { n,-\\frac { 4 } { 3 }n+4 } \\right )\\)，则\\(N\\left ( { n+1,-\\frac { 4 } { 3 }n+6 } \\right )\\)，\n由（2）得：\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)，\n\\(\\therefore PM ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }\\)，\\(PN ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\\(MN ^ { 2 } =5\\)，\n若点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，则分两种情况讨论：\n①以\\(P\\)为顶点，\\(PM ^ { 2 } =PN ^ { 2 }\\)，\n则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }=\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\n解得：\\(n=\\frac { 6 } { 5 }\\)，\n此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 11 } { 5 }\\)；\n②以\\(N\\)为顶点，\\(PN ^ { 2 } =MN ^ { 2 }\\)，\n则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }=5\\)，\n解得：\\(n=\\frac { 69\\pm 3\\sqrt[] { 379 } } { 50 }\\)，\n此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 119\\pm 3\\sqrt[] { 379 } } { 50 }\\)；\n综上所述，符合题意的点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)．\n【点睛】本题主要考查了待定系数法求二次函数解析式，勾股定理，相似三角形的判定与性质，平移的性质，把\\(y=ax ^ { 2 } +bx+c\\)化成顶点式，二次函数的图象与系数的关系，二次函数的最值，求一次函数解析式，已知两点坐标求两点距离，两直线平行内错角相等，公式法解一元二次方程，解三元一次方程组，解二元一次方程组，解一元一次方程等知识点，熟练掌握相关知识点并能加以综合运用是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/a8/a8abdad32d3febd251d801d22e7733dd2c2e29dde677b6b277965cdd16af3f3b.png"
+  ],
+  "solution": "【小问1详解】\n解：\\(\\because\\)点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)在抛物线的图象上，\n\\(\\therefore\\)将它们代入\\(y=ax ^ { 2 } +bx+c\\)，得：\n\\(\\begin{cases} 4a-2b+c=0 \\\\ 9a+3b+c=0 \\\\ c=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} a=-\\frac { 2 } { 3 } \\\\ b=\\frac { 2 } { 3 } \\\\ c=4 \\end{cases}\\)，\n\\(\\therefore\\)抛物线的解析式为\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)；\n【小问2详解】\n解：\\(\\because B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)，\n\\(\\therefore OB=3\\)，\\(OC=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，根据勾股定理可得：\n\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n\\(\\because PD\\parallel x\\)轴，\n\\(\\therefore \\angle PDE=\\angle CBO\\)，\n\\(\\because PE\\bot BC\\)，\n\\(\\therefore \\angle PED=\\angle COB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PDE\\backsim \\vartriangle CBO\\)，\n\\(\\therefore DE:PE:PD=3:4:5\\)，\n\\(\\therefore \\vartriangle PDE\\)的周长\\(C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)，\n将\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：\n\\(\\begin{cases} 3k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ b=4 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-\\frac { 4 } { 3 }x+4\\)，\n设\\(P\\left ( { m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，\n\\(\\because PD\\parallel x\\)轴交\\(BC\\)于点\\(D\\)，\n\\(\\therefore D\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，\n\\(\\therefore PD=m-\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m } \\right )=-\\frac { 1 } { 2 }m ^ { 2 } +\\frac { 3 } { 2 }m\\)，\n\\(\\therefore C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)\n\\(=-\\frac { 6 } { 5 }m ^ { 2 } +\\frac { 18 } { 5 }m\\)\n\\(=-\\frac { 6 } { 5 }\\left ( { m-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +2.7\\)，\n\\(\\because -\\frac { 6 } { 5 } < 0\\)，\n\\(\\therefore\\)抛物线开口向下，\n\\(\\therefore\\)当\\(m=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle PDE\\)的周长取得最大值，最大值为\\(2.7\\)，此时点\\(P\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)；\n【小问3详解】\n解：在平移过程中，点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)，理由如下：\n设直线\\(AC\\)的解析式为\\(y=kx+b\\)，\n将\\(A\\left ( { -2,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：\n\\(\\begin{cases} -2k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=2 \\\\ b=4 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AC\\)的解析式为\\(y=2x+4\\)，\n\\(\\because BB'=\\sqrt[] { 5 }\\)，即点\\(B\\)向右平移\\(1\\)个单位长度，再向上平移\\(2\\)个单位长度得到点\\(B'\\)，\n\\(\\therefore\\)点\\(B\\)、\\(B'\\)的对应点\\(M\\)、\\(N\\)也同样有\\(B\\)、\\(B'\\)的位置关系，且点\\(M\\)在直线\\(BC\\)上，\n\\(\\therefore\\)设\\(M\\left ( { n,-\\frac { 4 } { 3 }n+4 } \\right )\\)，则\\(N\\left ( { n+1,-\\frac { 4 } { 3 }n+6 } \\right )\\)，\n由（2）得：\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)，\n\\(\\therefore PM ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }\\)，\\(PN ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\\(MN ^ { 2 } =5\\)，\n若点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，则分两种情况讨论：\n①以\\(P\\)为顶点，\\(PM ^ { 2 } =PN ^ { 2 }\\)，\n则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }=\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\n解得：\\(n=\\frac { 6 } { 5 }\\)，\n此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 11 } { 5 }\\)；\n②以\\(N\\)为顶点，\\(PN ^ { 2 } =MN ^ { 2 }\\)，\n则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }=5\\)，\n解得：\\(n=\\frac { 69\\pm 3\\sqrt[] { 379 } } { 50 }\\)，\n此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 119\\pm 3\\sqrt[] { 379 } } { 50 }\\)；\n综上所述，符合题意的点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)．",
+  "solution_steps": [
+    "【小问1详解】",
+    "解：\\(\\because\\)点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)在抛物线的图象上，",
+    "\\(\\therefore\\)将它们代入\\(y=ax ^ { 2 } +bx+c\\)，得：",
+    "\\(\\begin{cases} 4a-2b+c=0 \\\\ 9a+3b+c=0 \\\\ c=4 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} a=-\\frac { 2 } { 3 } \\\\ b=\\frac { 2 } { 3 } \\\\ c=4 \\end{cases}\\)，",
+    "\\(\\therefore\\)抛物线的解析式为\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)；",
+    "【小问2详解】",
+    "解：\\(\\because B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)，",
+    "\\(\\therefore OB=3\\)，\\(OC=4\\)，",
+    "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，根据勾股定理可得：",
+    "\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+    "\\(\\because PD\\parallel x\\)轴，",
+    "\\(\\therefore \\angle PDE=\\angle CBO\\)，",
+    "\\(\\because PE\\bot BC\\)，",
+    "\\(\\therefore \\angle PED=\\angle COB=90{}^\\circ\\)，",
+    "\\(\\therefore \\vartriangle PDE\\backsim \\vartriangle CBO\\)，",
+    "\\(\\therefore DE:PE:PD=3:4:5\\)，",
+    "\\(\\therefore \\vartriangle PDE\\)的周长\\(C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)，",
+    "设直线\\(BC\\)的解析式为\\(y=kx+b\\)，",
+    "将\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：",
+    "\\(\\begin{cases} 3k+b=0 \\\\ b=4 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ b=4 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-\\frac { 4 } { 3 }x+4\\)，",
+    "设\\(P\\left ( { m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，",
+    "\\(\\because PD\\parallel x\\)轴交\\(BC\\)于点\\(D\\)，",
+    "\\(\\therefore D\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，",
+    "\\(\\therefore PD=m-\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m } \\right )=-\\frac { 1 } { 2 }m ^ { 2 } +\\frac { 3 } { 2 }m\\)，",
+    "\\(\\therefore C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)",
+    "\\(=-\\frac { 6 } { 5 }m ^ { 2 } +\\frac { 18 } { 5 }m\\)",
+    "\\(=-\\frac { 6 } { 5 }\\left ( { m-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +2.7\\)，",
+    "\\(\\because -\\frac { 6 } { 5 } < 0\\)，",
+    "\\(\\therefore\\)抛物线开口向下，",
+    "\\(\\therefore\\)当\\(m=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle PDE\\)的周长取得最大值，最大值为\\(2.7\\)，此时点\\(P\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)；",
+    "【小问3详解】",
+    "解：在平移过程中，点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)，理由如下：",
+    "设直线\\(AC\\)的解析式为\\(y=kx+b\\)，",
+    "将\\(A\\left ( { -2,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：",
+    "\\(\\begin{cases} -2k+b=0 \\\\ b=4 \\end{cases}\\)，",
+    "解得：\\(\\begin{cases} k=2 \\\\ b=4 \\end{cases}\\)，",
+    "\\(\\therefore\\)直线\\(AC\\)的解析式为\\(y=2x+4\\)，",
+    "\\(\\because BB'=\\sqrt[] { 5 }\\)，即点\\(B\\)向右平移\\(1\\)个单位长度，再向上平移\\(2\\)个单位长度得到点\\(B'\\)，",
+    "\\(\\therefore\\)点\\(B\\)、\\(B'\\)的对应点\\(M\\)、\\(N\\)也同样有\\(B\\)、\\(B'\\)的位置关系，且点\\(M\\)在直线\\(BC\\)上，",
+    "\\(\\therefore\\)设\\(M\\left ( { n,-\\frac { 4 } { 3 }n+4 } \\right )\\)，则\\(N\\left ( { n+1,-\\frac { 4 } { 3 }n+6 } \\right )\\)，",
+    "由（2）得：\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)，",
+    "\\(\\therefore PM ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }\\)，\\(PN ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\\(MN ^ { 2 } =5\\)，",
+    "若点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，则分两种情况讨论：",
+    "①以\\(P\\)为顶点，\\(PM ^ { 2 } =PN ^ { 2 }\\)，",
+    "则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }=\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，",
+    "解得：\\(n=\\frac { 6 } { 5 }\\)，",
+    "此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 11 } { 5 }\\)；",
+    "②以\\(N\\)为顶点，\\(PN ^ { 2 } =MN ^ { 2 }\\)，",
+    "则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }=5\\)，",
+    "解得：\\(n=\\frac { 69\\pm 3\\sqrt[] { 379 } } { 50 }\\)，",
+    "此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 119\\pm 3\\sqrt[] { 379 } } { 50 }\\)；",
+    "综上所述，符合题意的点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "如图1，已知抛物线\\(y=ax ^ { 2 } +bx+c\\)与x轴交于点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)，与y轴交于点\\(C\\left ( { 0,4 } \\right )\\)，连接\\(AC\\)、\\(BC\\)．\n〔图1〕",
+      "paper_blocks": [
+        55,
+        56
+      ]
+    },
+    {
+      "id": "prior-P02",
+      "kind": "text",
+      "text": "前问（2）的题面：如图2，点P是直线\\(BC\\)上方抛物线上一点，过点P作\\(PD\\parallel x\\)轴交\\(BC\\)于点D，过点P作\\(PE\\bot BC\\)于点E，当\\(\\vartriangle PDE\\)的周长最大时，求出\\(\\vartriangle PDE\\)的周长最大值及此时点P的坐标；",
+      "paper_blocks": [
+        55,
+        56,
+        58
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-599EDE478A-Q19-P01",
+      "label": "（1）",
+      "prompt": "求抛物线的解析式；",
+      "stem_text": "求抛物线的解析式；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)",
+      "answer": "\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)",
+      "given_solution": "解：\\(\\because\\)点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)在抛物线的图象上，\n\\(\\therefore\\)将它们代入\\(y=ax ^ { 2 } +bx+c\\)，得：\n\\(\\begin{cases} 4a-2b+c=0 \\\\ 9a+3b+c=0 \\\\ c=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} a=-\\frac { 2 } { 3 } \\\\ b=\\frac { 2 } { 3 } \\\\ c=4 \\end{cases}\\)，\n\\(\\therefore\\)抛物线的解析式为\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)；",
+      "solution_steps": [
+        "解：\\(\\because\\)点\\(A\\left ( { -2,0 } \\right )\\)、\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)在抛物线的图象上，",
+        "\\(\\therefore\\)将它们代入\\(y=ax ^ { 2 } +bx+c\\)，得：",
+        "\\(\\begin{cases} 4a-2b+c=0 \\\\ 9a+3b+c=0 \\\\ c=4 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} a=-\\frac { 2 } { 3 } \\\\ b=\\frac { 2 } { 3 } \\\\ c=4 \\end{cases}\\)，",
+        "\\(\\therefore\\)抛物线的解析式为\\(y=-\\frac { 2 } { 3 }x ^ { 2 } +\\frac { 2 } { 3 }x+4\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          57
+        ],
+        "solution_block_ids": [
+          337,
+          338,
+          339,
+          340,
+          341
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.02"
+      ],
+      "exam_ids": [
+        "E.N13.02.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-599EDE478A-Q19-P02",
+      "label": "（2）",
+      "prompt": "如图2，点P是直线\\(BC\\)上方抛物线上一点，过点P作\\(PD\\parallel x\\)轴交\\(BC\\)于点D，过点P作\\(PE\\bot BC\\)于点E，当\\(\\vartriangle PDE\\)的周长最大时，求出\\(\\vartriangle PDE\\)的周长最大值及此时点P的坐标；",
+      "stem_text": "如图2，点P是直线\\(BC\\)上方抛物线上一点，过点P作\\(PD\\parallel x\\)轴交\\(BC\\)于点D，过点P作\\(PE\\bot BC\\)于点E，当\\(\\vartriangle PDE\\)的周长最大时，求出\\(\\vartriangle PDE\\)的周长最大值及此时点P的坐标；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "\\(2.7\\)，\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)",
+      "answer": "\\(2.7\\)，\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)",
+      "given_solution": "解：\\(\\because B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)，\n\\(\\therefore OB=3\\)，\\(OC=4\\)，\n在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，根据勾股定理可得：\n\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，\n\\(\\because PD\\parallel x\\)轴，\n\\(\\therefore \\angle PDE=\\angle CBO\\)，\n\\(\\because PE\\bot BC\\)，\n\\(\\therefore \\angle PED=\\angle COB=90{}^\\circ\\)，\n\\(\\therefore \\vartriangle PDE\\backsim \\vartriangle CBO\\)，\n\\(\\therefore DE:PE:PD=3:4:5\\)，\n\\(\\therefore \\vartriangle PDE\\)的周长\\(C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)，\n设直线\\(BC\\)的解析式为\\(y=kx+b\\)，\n将\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：\n\\(\\begin{cases} 3k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ b=4 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-\\frac { 4 } { 3 }x+4\\)，\n设\\(P\\left ( { m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，\n\\(\\because PD\\parallel x\\)轴交\\(BC\\)于点\\(D\\)，\n\\(\\therefore D\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，\n\\(\\therefore PD=m-\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m } \\right )=-\\frac { 1 } { 2 }m ^ { 2 } +\\frac { 3 } { 2 }m\\)，\n\\(\\therefore C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)\n\\(=-\\frac { 6 } { 5 }m ^ { 2 } +\\frac { 18 } { 5 }m\\)\n\\(=-\\frac { 6 } { 5 }\\left ( { m-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +2.7\\)，\n\\(\\because -\\frac { 6 } { 5 } < 0\\)，\n\\(\\therefore\\)抛物线开口向下，\n\\(\\therefore\\)当\\(m=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle PDE\\)的周长取得最大值，最大值为\\(2.7\\)，此时点\\(P\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)；",
+      "solution_steps": [
+        "解：\\(\\because B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)，",
+        "\\(\\therefore OB=3\\)，\\(OC=4\\)，",
+        "在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle BOC\\)中，根据勾股定理可得：",
+        "\\(BC=\\sqrt[] { OB ^ { 2 } +OC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +4 ^ { 2 } }=5\\)，",
+        "\\(\\because PD\\parallel x\\)轴，",
+        "\\(\\therefore \\angle PDE=\\angle CBO\\)，",
+        "\\(\\because PE\\bot BC\\)，",
+        "\\(\\therefore \\angle PED=\\angle COB=90{}^\\circ\\)，",
+        "\\(\\therefore \\vartriangle PDE\\backsim \\vartriangle CBO\\)，",
+        "\\(\\therefore DE:PE:PD=3:4:5\\)，",
+        "\\(\\therefore \\vartriangle PDE\\)的周长\\(C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)，",
+        "设直线\\(BC\\)的解析式为\\(y=kx+b\\)，",
+        "将\\(B\\left ( { 3,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：",
+        "\\(\\begin{cases} 3k+b=0 \\\\ b=4 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k=-\\frac { 4 } { 3 } \\\\ b=4 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(BC\\)的解析式为\\(y=-\\frac { 4 } { 3 }x+4\\)，",
+        "设\\(P\\left ( { m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，",
+        "\\(\\because PD\\parallel x\\)轴交\\(BC\\)于点\\(D\\)，",
+        "\\(\\therefore D\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m,-\\frac { 2 } { 3 }m ^ { 2 } +\\frac { 2 } { 3 }m+4 } \\right )\\)，",
+        "\\(\\therefore PD=m-\\left ( { \\frac { 1 } { 2 }m ^ { 2 } -\\frac { 1 } { 2 }m } \\right )=-\\frac { 1 } { 2 }m ^ { 2 } +\\frac { 3 } { 2 }m\\)，",
+        "\\(\\therefore C_{ \\vartriangle PDE } =\\frac { 12 } { 5 }PD\\)",
+        "\\(=-\\frac { 6 } { 5 }m ^ { 2 } +\\frac { 18 } { 5 }m\\)",
+        "\\(=-\\frac { 6 } { 5 }\\left ( { m-\\frac { 3 } { 2 } } \\right ) ^ { 2 } +2.7\\)，",
+        "\\(\\because -\\frac { 6 } { 5 } < 0\\)，",
+        "\\(\\therefore\\)抛物线开口向下，",
+        "\\(\\therefore\\)当\\(m=\\frac { 3 } { 2 }\\)时，\\(\\vartriangle PDE\\)的周长取得最大值，最大值为\\(2.7\\)，此时点\\(P\\)的坐标为\\(\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58
+        ],
+        "solution_block_ids": [
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19,
+          20
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.04"
+      ],
+      "exam_ids": [
+        "E.N13.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“在给定区间内确定二次函数最值”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-599EDE478A-Q19-P03",
+      "label": "（3）",
+      "prompt": "在（2）的条件下，当\\(\\vartriangle PDE\\)的周长最大时，将点B沿射线\\(AC\\)的方向平移\\(\\sqrt[] { 5 }\\)个单位至点\\(B'\\)，再将线段\\(BB'\\)沿射线\\(BC\\)方向平移，点B、\\(B'\\)的对应点分别记为点M、N．在平移过程中，点P、M、N是否能构成以\\(PN\\)为腰的等腰三角形，若能，直接写出点N的横坐标；若不能，请说明理由．",
+      "stem_text": "在（2）的条件下，当\\(\\vartriangle PDE\\)的周长最大时，将点B沿射线\\(AC\\)的方向平移\\(\\sqrt[] { 5 }\\)个单位至点\\(B'\\)，再将线段\\(BB'\\)沿射线\\(BC\\)方向平移，点B、\\(B'\\)的对应点分别记为点M、N．在平移过程中，点P、M、N是否能构成以\\(PN\\)为腰的等腰三角形，若能，直接写出点N的横坐标；若不能，请说明理由．",
+      "material_ids": [
+        "context",
+        "prior-P02"
+      ],
+      "requires": [
+        "SZ-G9-T2-599EDE478A-Q19-P02"
+      ],
+      "given_answer": "能，\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)",
+      "answer": "能，\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)",
+      "given_solution": "解：在平移过程中，点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)，理由如下：\n设直线\\(AC\\)的解析式为\\(y=kx+b\\)，\n将\\(A\\left ( { -2,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：\n\\(\\begin{cases} -2k+b=0 \\\\ b=4 \\end{cases}\\)，\n解得：\\(\\begin{cases} k=2 \\\\ b=4 \\end{cases}\\)，\n\\(\\therefore\\)直线\\(AC\\)的解析式为\\(y=2x+4\\)，\n\\(\\because BB'=\\sqrt[] { 5 }\\)，即点\\(B\\)向右平移\\(1\\)个单位长度，再向上平移\\(2\\)个单位长度得到点\\(B'\\)，\n\\(\\therefore\\)点\\(B\\)、\\(B'\\)的对应点\\(M\\)、\\(N\\)也同样有\\(B\\)、\\(B'\\)的位置关系，且点\\(M\\)在直线\\(BC\\)上，\n\\(\\therefore\\)设\\(M\\left ( { n,-\\frac { 4 } { 3 }n+4 } \\right )\\)，则\\(N\\left ( { n+1,-\\frac { 4 } { 3 }n+6 } \\right )\\)，\n由（2）得：\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)，\n\\(\\therefore PM ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }\\)，\\(PN ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\\(MN ^ { 2 } =5\\)，\n若点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，则分两种情况讨论：\n①以\\(P\\)为顶点，\\(PM ^ { 2 } =PN ^ { 2 }\\)，\n则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }=\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\n解得：\\(n=\\frac { 6 } { 5 }\\)，\n此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 11 } { 5 }\\)；\n②以\\(N\\)为顶点，\\(PN ^ { 2 } =MN ^ { 2 }\\)，\n则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }=5\\)，\n解得：\\(n=\\frac { 69\\pm 3\\sqrt[] { 379 } } { 50 }\\)，\n此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 119\\pm 3\\sqrt[] { 379 } } { 50 }\\)；\n综上所述，符合题意的点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)．",
+      "solution_steps": [
+        "解：在平移过程中，点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)，理由如下：",
+        "设直线\\(AC\\)的解析式为\\(y=kx+b\\)，",
+        "将\\(A\\left ( { -2,0 } \\right )\\)、\\(C\\left ( { 0,4 } \\right )\\)代入，得：",
+        "\\(\\begin{cases} -2k+b=0 \\\\ b=4 \\end{cases}\\)，",
+        "解得：\\(\\begin{cases} k=2 \\\\ b=4 \\end{cases}\\)，",
+        "\\(\\therefore\\)直线\\(AC\\)的解析式为\\(y=2x+4\\)，",
+        "\\(\\because BB'=\\sqrt[] { 5 }\\)，即点\\(B\\)向右平移\\(1\\)个单位长度，再向上平移\\(2\\)个单位长度得到点\\(B'\\)，",
+        "\\(\\therefore\\)点\\(B\\)、\\(B'\\)的对应点\\(M\\)、\\(N\\)也同样有\\(B\\)、\\(B'\\)的位置关系，且点\\(M\\)在直线\\(BC\\)上，",
+        "\\(\\therefore\\)设\\(M\\left ( { n,-\\frac { 4 } { 3 }n+4 } \\right )\\)，则\\(N\\left ( { n+1,-\\frac { 4 } { 3 }n+6 } \\right )\\)，",
+        "由（2）得：\\(P\\left ( { \\frac { 3 } { 2 },\\frac { 7 } { 2 } } \\right )\\)，",
+        "\\(\\therefore PM ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }\\)，\\(PN ^ { 2 } =\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，\\(MN ^ { 2 } =5\\)，",
+        "若点\\(P\\)、\\(M\\)、\\(N\\)能构成以\\(PN\\)为腰的等腰三角形，则分两种情况讨论：",
+        "①以\\(P\\)为顶点，\\(PM ^ { 2 } =PN ^ { 2 }\\)，",
+        "则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 13 } { 3 }n+\\frac { 5 } { 2 }=\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }\\)，",
+        "解得：\\(n=\\frac { 6 } { 5 }\\)，",
+        "此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 11 } { 5 }\\)；",
+        "②以\\(N\\)为顶点，\\(PN ^ { 2 } =MN ^ { 2 }\\)，",
+        "则\\(\\frac { 25 } { 9 }n ^ { 2 } -\\frac { 23 } { 3 }n+\\frac { 13 } { 2 }=5\\)，",
+        "解得：\\(n=\\frac { 69\\pm 3\\sqrt[] { 379 } } { 50 }\\)，",
+        "此时，点\\(N\\)的横坐标\\(x_{ N } =\\frac { 119\\pm 3\\sqrt[] { 379 } } { 50 }\\)；",
+        "综上所述，符合题意的点\\(N\\)的横坐标为\\(\\frac { 11 } { 5 }\\)或\\(\\frac { 119+3\\sqrt[] { 379 } } { 50 }\\)或\\(\\frac { 119-3\\sqrt[] { 379 } } { 50 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          55,
+          56,
+          58,
+          59
+        ],
+        "solution_block_ids": [
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          387,
+          388,
+          389,
+          390
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.N13.01"
+      ],
+      "exam_ids": [
+        "E.N13.01.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“根据平移确定抛物线对应变化”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      55,
+      59
+    ],
+    "solution_body_blocks": [
+      324,
+      391
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-599EDE478A/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          106.36,
+          583.64,
+          439.55
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20,
+      21
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-599EDE478A/solution-q19-p18.webp",
+      "assets/SZ-G9-T2-599EDE478A/solution-q19-p19.webp",
+      "assets/SZ-G9-T2-599EDE478A/solution-q19-p20.webp",
+      "assets/SZ-G9-T2-599EDE478A/solution-q19-p21.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          93.64,
+          583.64,
+          665.91
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          50.91,
+          583.64,
+          749.09
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          764.55
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          51.82,
+          583.64,
+          571.82
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.N13.02",
+    "M.N13.04",
+    "M.N13.01"
+  ],
+  "exam_ids": [
+    "E.N13.02.01",
+    "E.N13.04.01",
+    "E.N13.01.02"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“根据独立条件确定二次函数表达式”。 本问题面与解答对应“在给定区间内确定二次函数最值”。 本问题面与解答对应“根据平移确定抛物线对应变化”。",
+  "tag_source": "小问标签汇总"
+}

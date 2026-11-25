@@ -1,0 +1,153 @@
+{
+  "id": "SZ-G9-T1-4BC502D7C1-Q07",
+  "paper_id": "SZ-G9-T1-4BC502D7C1",
+  "number": 7,
+  "type": "选择题",
+  "points": 3,
+  "title": "由相似比求对应线段或周长",
+  "stem": "如图，在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(\\angle BAC=36{}^\\circ\\)，以点\\(C\\)为圆心，以\\(BC\\)为半径作弧交\\(AC\\)于点\\(D\\)，再分别以\\(B\\)，\\(D\\)为圆心，以大于\\(\\frac { 1 } { 2 }BD\\)的长为半径作弧，两弧相交于点\\(P\\)，作射线\\(CP\\)交\\(AB\\)于点\\(E\\)，连接\\(DE\\)．以下结论不正确的是（　　　）\n〔图1〕",
+  "choices": [
+    {
+      "label": "A",
+      "text": "\\(\\angle BCE=36{}^\\circ\\)"
+    },
+    {
+      "label": "B",
+      "text": "\\(BC=AE\\)"
+    },
+    {
+      "label": "C",
+      "text": "\\(\\frac { BE } { AC }=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)"
+    },
+    {
+      "label": "D",
+      "text": "\\(\\frac { S_{ \\vartriangle AEC } } { S_{ \\vartriangle BEC } }=\\frac { \\sqrt[] { 5 }+1 } { 2 }\\)"
+    }
+  ],
+  "figures": [
+    "assets/SZ-G9-T1-4BC502D7C1/figures/4121ab3ae2d8665456e6d53e854490d5ab68b3231ac57b086c341e114890e004.png"
+  ],
+  "tables": [],
+  "given_answer": "C",
+  "answer": "C",
+  "given_solution": "【分析】由题意得，\\(BC=DC\\)，\\(CE\\)平分\\(\\angle ACB\\)，根据三角形内角和及角平分线判断A即可；由角平分线求出\\(\\angle ACE=36{}^\\circ =\\angle A\\)，得到\\(AE=CE\\)，根据三角形内角和求出\\(\\angle BEC=72{}^\\circ =\\angle B\\)，得到\\(CE=BC\\)，即可判断B；证明\\(\\vartriangle ABC\\backsim \\vartriangle CBE\\)，得到\\(\\frac { AB } { BC }=\\frac { BC } { BE }\\)，设\\(AB=1,BC=x\\)，则\\(BE=1-x\\)，求出x，即可判断C；过点E作\\(EG\\bot BC\\)于G，\\(EH\\bot AC\\)于H，由角平分线的性质定理推出\\(EG=EH\\)，即可根据三角形面积公式判断D．\n【详解】解：由题意得，\\(BC=DC\\)，\\(CE\\)平分\\(\\angle ACB\\)，\n∵在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(\\angle BAC=36{}^\\circ\\)，\n∴\\(\\angle ABC=\\angle ACB=72{}^\\circ\\)\n∵\\(CE\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle BCE=36{}^\\circ\\)，故A正确；\n∵\\(CE\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=72{}^\\circ\\)\n∴\\(\\angle ACE=36{}^\\circ =\\angle A\\)，\n∴\\(AE=CE\\)，\n∵\\(\\angle ABC=72{}^\\circ\\)，\\(\\angle BCE=36{}^\\circ\\)，\n∴\\(\\angle BEC=72{}^\\circ =\\angle B\\)，\n∴\\(CE=BC\\)，\n∴\\(BC=AE\\)，故B正确；\n∵\\(\\angle A=\\angle BCE,\\angle ABC=\\angle CBE\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle CBE\\)，\n∴\\(\\frac { AB } { BC }=\\frac { BC } { BE }\\)，\n设\\(AB=1,BC=x\\)，则\\(BE=1-x\\)，\n∴\\(\\frac { 1 } { x }=\\frac { x } { 1-x }\\)，\n∴\\(x ^ { 2 } =1-x\\)，\n解得\\(x=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n∴\\(BE=1-\\frac { \\sqrt[] { 5 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 5 } } { 2 }\\)，\n∴\\(\\frac { BE } { AC }=\\frac { 3-\\sqrt[] { 5 } } { 2 }\\)，故C错误；\n过点E作\\(EG\\bot BC\\)于G，\\(EH\\bot AC\\)于H，\n〔图2〕\n∵\\(CE\\)平分\\(\\angle ACB\\)，\\(EG\\bot BC\\)，\\(EH\\bot AC\\)，\n∴\\(EG=EH\\)\n∴\\(\\frac { S_{ \\vartriangle AEC } } { S_{ \\vartriangle BEC } }=\\frac { \\frac { 1 } { 2 }\\cdot AC\\cdot EH } { \\frac { 1 } { 2 }\\cdot BC\\cdot EG }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 }+1 } { 2 }\\)，故D正确；\n故选：C．\n【点睛】此题考查了等腰三角形等边对等角，相似三角形的判定和性质，角平分线的作图及性质，解一元二次方程，熟练掌握各知识点是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-4BC502D7C1/figures/4121ab3ae2d8665456e6d53e854490d5ab68b3231ac57b086c341e114890e004.png",
+    "assets/SZ-G9-T1-4BC502D7C1/figures/b5766cfd001a71cc67f0f314808e7f7ab6cded46a76349b538e970f2bb9c9a29.png"
+  ],
+  "solution": "解：由题意得，\\(BC=DC\\)，\\(CE\\)平分\\(\\angle ACB\\)，\n∵在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(\\angle BAC=36{}^\\circ\\)，\n∴\\(\\angle ABC=\\angle ACB=72{}^\\circ\\)\n∵\\(CE\\)平分\\(\\angle ABC\\)，\n∴\\(\\angle BCE=36{}^\\circ\\)，故A正确；\n∵\\(CE\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=72{}^\\circ\\)\n∴\\(\\angle ACE=36{}^\\circ =\\angle A\\)，\n∴\\(AE=CE\\)，\n∵\\(\\angle ABC=72{}^\\circ\\)，\\(\\angle BCE=36{}^\\circ\\)，\n∴\\(\\angle BEC=72{}^\\circ =\\angle B\\)，\n∴\\(CE=BC\\)，\n∴\\(BC=AE\\)，故B正确；\n∵\\(\\angle A=\\angle BCE,\\angle ABC=\\angle CBE\\)，\n∴\\(\\vartriangle ABC\\backsim \\vartriangle CBE\\)，\n∴\\(\\frac { AB } { BC }=\\frac { BC } { BE }\\)，\n设\\(AB=1,BC=x\\)，则\\(BE=1-x\\)，\n∴\\(\\frac { 1 } { x }=\\frac { x } { 1-x }\\)，\n∴\\(x ^ { 2 } =1-x\\)，\n解得\\(x=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，\n∴\\(BE=1-\\frac { \\sqrt[] { 5 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 5 } } { 2 }\\)，\n∴\\(\\frac { BE } { AC }=\\frac { 3-\\sqrt[] { 5 } } { 2 }\\)，故C错误；\n过点E作\\(EG\\bot BC\\)于G，\\(EH\\bot AC\\)于H，\n〔图2〕\n∵\\(CE\\)平分\\(\\angle ACB\\)，\\(EG\\bot BC\\)，\\(EH\\bot AC\\)，\n∴\\(EG=EH\\)\n∴\\(\\frac { S_{ \\vartriangle AEC } } { S_{ \\vartriangle BEC } }=\\frac { \\frac { 1 } { 2 }\\cdot AC\\cdot EH } { \\frac { 1 } { 2 }\\cdot BC\\cdot EG }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 }+1 } { 2 }\\)，故D正确；\n故选：C．",
+  "solution_steps": [
+    "解：由题意得，\\(BC=DC\\)，\\(CE\\)平分\\(\\angle ACB\\)，",
+    "∵在\\(\\vartriangle ABC\\)中，\\(AB=AC\\)，\\(\\angle BAC=36{}^\\circ\\)，",
+    "∴\\(\\angle ABC=\\angle ACB=72{}^\\circ\\)",
+    "∵\\(CE\\)平分\\(\\angle ABC\\)，",
+    "∴\\(\\angle BCE=36{}^\\circ\\)，故A正确；",
+    "∵\\(CE\\)平分\\(\\angle ABC\\)，\\(\\angle ACB=72{}^\\circ\\)",
+    "∴\\(\\angle ACE=36{}^\\circ =\\angle A\\)，",
+    "∴\\(AE=CE\\)，",
+    "∵\\(\\angle ABC=72{}^\\circ\\)，\\(\\angle BCE=36{}^\\circ\\)，",
+    "∴\\(\\angle BEC=72{}^\\circ =\\angle B\\)，",
+    "∴\\(CE=BC\\)，",
+    "∴\\(BC=AE\\)，故B正确；",
+    "∵\\(\\angle A=\\angle BCE,\\angle ABC=\\angle CBE\\)，",
+    "∴\\(\\vartriangle ABC\\backsim \\vartriangle CBE\\)，",
+    "∴\\(\\frac { AB } { BC }=\\frac { BC } { BE }\\)，",
+    "设\\(AB=1,BC=x\\)，则\\(BE=1-x\\)，",
+    "∴\\(\\frac { 1 } { x }=\\frac { x } { 1-x }\\)，",
+    "∴\\(x ^ { 2 } =1-x\\)，",
+    "解得\\(x=\\frac { \\sqrt[] { 5 }-1 } { 2 }\\)，",
+    "∴\\(BE=1-\\frac { \\sqrt[] { 5 }-1 } { 2 }=\\frac { 3-\\sqrt[] { 5 } } { 2 }\\)，",
+    "∴\\(\\frac { BE } { AC }=\\frac { 3-\\sqrt[] { 5 } } { 2 }\\)，故C错误；",
+    "过点E作\\(EG\\bot BC\\)于G，\\(EH\\bot AC\\)于H，",
+    "〔图2〕",
+    "∵\\(CE\\)平分\\(\\angle ACB\\)，\\(EG\\bot BC\\)，\\(EH\\bot AC\\)，",
+    "∴\\(EG=EH\\)",
+    "∴\\(\\frac { S_{ \\vartriangle AEC } } { S_{ \\vartriangle BEC } }=\\frac { \\frac { 1 } { 2 }\\cdot AC\\cdot EH } { \\frac { 1 } { 2 }\\cdot BC\\cdot EG }=\\frac { AC } { BC }=\\frac { \\sqrt[] { 5 }+1 } { 2 }\\)，故D正确；",
+    "故选：C．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [],
+  "parts": [],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      24,
+      27
+    ],
+    "solution_body_blocks": [
+      95,
+      129
+    ],
+    "question_pages": [
+      2
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-4BC502D7C1/paper-q07-p02.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 2,
+        "bbox_pt": [
+          11.82,
+          73.64,
+          583.64,
+          384.09
+        ]
+      }
+    ],
+    "solution_pages": [
+      5,
+      6,
+      7
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-4BC502D7C1/solution-q07-p05.webp",
+      "assets/SZ-G9-T1-4BC502D7C1/solution-q07-p06.webp",
+      "assets/SZ-G9-T1-4BC502D7C1/solution-q07-p07.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          580.91,
+          583.64,
+          759.09
+        ]
+      },
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          665.0
+        ]
+      },
+      {
+        "page": 7,
+        "bbox_pt": [
+          11.82,
+          47.27,
+          583.64,
+          361.36
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G08.03"
+  ],
+  "exam_ids": [
+    "E.G08.03.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“由相似比求对应线段或周长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "题文匹配"
+}

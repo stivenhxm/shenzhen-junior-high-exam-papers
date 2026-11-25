@@ -1,0 +1,490 @@
+{
+  "id": "SZ-G9-T2-AA1917047A-Q22",
+  "paper_id": "SZ-G9-T2-AA1917047A",
+  "number": 22,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "综合与实践\n【问题提出】数学课上，老师给出了这样一道题：如图，在正方形\\(ABCD\\)中，E是对角线\\(AC\\)上一动点，过点D作\\(DE\\)的垂线，过点C作\\(AC\\)的垂线，两垂线相交于点F，作射线\\(FE\\)，分别交边\\(AB\\)，\\(CD\\)于点G，H．试探究线段\\(EG\\)与\\(FH\\)的数量关系．\n小明在解决这道题时，借助“从特殊到一般”的方法进行了探究，过程如下．\n【观察猜想】\n小明先对点E在特殊位置时的图形进行了探究．\n（1）如图1，若E是对角线\\(AC\\)的中点，则线段\\(EG\\)与\\(FH\\)的数量关系为______．\n【推理验证】\n（2）小明认为当点E是对角线AC上任意一点时，（1）中的结论仍然成立，请你就图2的情形判断他的说法是否正确，并说明理由．\n【拓展应用】\n（3）已知正方形\\(ABCD\\)的边长为3，以点E为线段\\(AC\\)的三等分点时，请直接写出线段\\(GF\\)的长．\n〔图1〕",
+  "choices": [],
+  "figures": [
+    "assets/figures/1b/1b5932dcbc6221a8ba008542fb9c7b06903e151ad98d558f42a1bd5e4d0b6c0c.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）\\(EG=FH\\)；（2）正确．理由见解析；（3）\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)．",
+  "answer": "（1）\\(EG=FH\\)；（2）正确．理由见解析；（3）\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)．",
+  "given_solution": "【分析】（1）先证得四边形\\(DECF\\)是正方形，得到\\(HF=EH\\)，再通过“\\({ \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } }\\)”证得\\(\\vartriangle AEG≌\\vartriangle CEH\\)，得到\\(EG=EH\\)，从而得证\\(EG=FH\\)；\n（2）根据正方形的性质和垂直的定义证得\\(\\vartriangle ADE≌\\vartriangle CDF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，得到\\(AE=CF\\)，根据\\(ME=\\frac { \\sqrt[] { 2 } } { 2 }AE\\)，\\(PF=\\frac { \\sqrt[] { 2 } } { 2 }CF\\)，得到\\(ME=PF\\)，证得\\(\\vartriangle MEG≌\\vartriangle PFH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，从而得证\\(EG=FH\\)；\n（3）由正方形\\(ABCD\\)的边长为3可求得\\(AC=3\\sqrt[] { 2 }\\)，由点E是\\(AC\\)的三等分点，得到\\(AE=2\\sqrt[] { 2 }\\)或\\(AE=\\sqrt[] { 2 }\\)．分两种情况讨论：①当\\(AE=2\\sqrt[] { 2 }\\)时，\\(CF=AE=2\\sqrt[] { 2 }\\)，在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { 10 }\\)，从而\\(GH=EF=\\sqrt[] { 10 }\\)，根据\\(AB\\parallel CD\\)得到\\(\\frac { GE } { HE }=\\frac { AE } { CE }\\)，从而求得\\(GE=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)，进而即可解答；②当\\(AE=\\sqrt[] { 2 }\\)时，同①思路即可解答．\n【详解】（1）∵在正方形\\(ABCD\\)中，\\(AD=CD\\)，又点E是\\(AC\\)的中点，\n∴\\(DE\\bot AC\\)，\n∵\\(DF\\bot DE\\)，\\(FC\\bot AC\\)，\n∴四边形\\(DECF\\)是矩形，\n∵在正方形\\(ABCD\\)中，\\(\\angle ADC=90{}^\\circ\\)，又点E是\\(AC\\)的中点，\n∴\\(DE=\\frac { 1 } { 2 }AC\\)，\\(AE=CE=\\frac { 1 } { 2 }AC\\)，\n∴\\(DE=CE\\)，\n∴矩形\\(DECF\\)是正方形，\n∴\\(HF=EH\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\angle BAC=\\angle DCA\\)，\n∵\\(\\angle AEG=\\angle CEH\\)，\\(AE=CE\\)，\n∴\\(\\vartriangle AEG≌\\vartriangle CEH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(EG=EH\\)，\n∴\\(EG=FH\\)．\n故答案为：\\(EG=FH\\)\n（2）正确．\n理由如下：过点E作\\(EM\\bot AB\\)于点M，过点F作\\(FP\\bot CD\\)于点P，如图所示．\n〔图2〕\n∵四边形ABCD是正方形，\n∴\\(AB\\parallel CD\\)，\\(AD=CD\\)，\\(\\angle ADC=90{}^\\circ\\)，\\(\\angle DAC=\\angle ACD=\\angle BAC=45{}^\\circ\\)．\n∴\\(\\angle ADE+\\angle EDC=90{}^\\circ\\)．\n∵\\(DE\\bot DF\\)，\n∴\\(\\angle EDC+\\angle CDF=90{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle CDF\\)，\n∵\\(AC\\bot CF\\)，\n∴\\(\\angle ACF=90{}^\\circ\\)，\n∴\\(\\angle DCF=\\angle ACF-\\angle ACD=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle DCF=\\angle ACD=\\angle DAC\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle CDF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=CF\\)，\n∵\\(\\angle BAC=\\angle DCF=45{}^\\circ\\)，\\(ME\\bot AB\\)，\\(PF\\bot CD\\)，\n∴\\(\\angle EMG=\\angle FPH=90{}^\\circ\\)，\\(ME=\\frac { \\sqrt[] { 2 } } { 2 }AE\\)，\\(PF=\\frac { \\sqrt[] { 2 } } { 2 }CF\\)，\n∵\\(AE=CF\\)，\n∴\\(ME=PF\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle MGE=\\angle EHC=\\angle PHF\\)，\n∴\\(\\vartriangle MEG≌\\vartriangle PFH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．\n∴\\(EG=FH\\)．\n（3）∵在正方形\\(ABCD\\)中，\\(AB=BC=CD=AD=3\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +3 ^ { 2 } }=3\\sqrt[] { 2 }\\)\n∵点E是\\(AC\\)的三等分点，\n∴\\(AE=2\\sqrt[] { 2 }\\)或\\(AE=\\sqrt[] { 2 }\\)．\n①当\\(AE=2\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=2\\sqrt[] { 2 }\\)，\n∵\\(CE=AC-AE=3\\sqrt[] { 2 }-2\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，\n∵\\(GE=FH\\)，\n∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { 2\\sqrt[] { 2 } } { \\sqrt[] { 2 } }=2\\)，\n∴\\(GE=2HE\\)，\n∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，\n∴\\(GE=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { \\sqrt[] { 10 } } { 3 }\\)\n∴\\(GF=GE+EF=\\frac { 2\\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 5\\sqrt[] { 10 } } { 3 }\\)；\n②当\\(AE=\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=\\sqrt[] { 2 }\\)，\n∵\\(CE=AC-AE=3\\sqrt[] { 2 }-\\sqrt[] { 2 }=2\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，\n∵\\(GE=FH\\)，\n∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { \\sqrt[] { 2 } } { 2\\sqrt[] { 2 } }=\\frac { 1 } { 2 }\\)，\n∴\\(GE=\\frac { 1 } { 2 }HE\\)，\n∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，\n∴\\(GE=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)\n∴\\(GF=GE+EF=\\frac { \\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 4\\sqrt[] { 10 } } { 3 }\\)；\n综上所述，\\(GF\\)的长为\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)．\n【点睛】本题考查正方形的判定及性质，全等三角形的判定与性质，平行线分线段成比例，勾股定理，综合运算相关知识是解题的关键．",
+  "given_solution_figures": [
+    "assets/figures/1b/1b5932dcbc6221a8ba008542fb9c7b06903e151ad98d558f42a1bd5e4d0b6c0c.png",
+    "assets/figures/f4/f4009b49c0b2765fc0a90131d90962c6fd5670b7858c59b7bf4be830e0b5188e.png"
+  ],
+  "solution": "（1）∵在正方形\\(ABCD\\)中，\\(AD=CD\\)，又点E是\\(AC\\)的中点，\n∴\\(DE\\bot AC\\)，\n∵\\(DF\\bot DE\\)，\\(FC\\bot AC\\)，\n∴四边形\\(DECF\\)是矩形，\n∵在正方形\\(ABCD\\)中，\\(\\angle ADC=90{}^\\circ\\)，又点E是\\(AC\\)的中点，\n∴\\(DE=\\frac { 1 } { 2 }AC\\)，\\(AE=CE=\\frac { 1 } { 2 }AC\\)，\n∴\\(DE=CE\\)，\n∴矩形\\(DECF\\)是正方形，\n∴\\(HF=EH\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\angle BAC=\\angle DCA\\)，\n∵\\(\\angle AEG=\\angle CEH\\)，\\(AE=CE\\)，\n∴\\(\\vartriangle AEG≌\\vartriangle CEH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(EG=EH\\)，\n∴\\(EG=FH\\)．\n故答案为：\\(EG=FH\\)\n（2）正确．\n理由如下：过点E作\\(EM\\bot AB\\)于点M，过点F作\\(FP\\bot CD\\)于点P，如图所示．\n〔图2〕\n∵四边形ABCD是正方形，\n∴\\(AB\\parallel CD\\)，\\(AD=CD\\)，\\(\\angle ADC=90{}^\\circ\\)，\\(\\angle DAC=\\angle ACD=\\angle BAC=45{}^\\circ\\)．\n∴\\(\\angle ADE+\\angle EDC=90{}^\\circ\\)．\n∵\\(DE\\bot DF\\)，\n∴\\(\\angle EDC+\\angle CDF=90{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle CDF\\)，\n∵\\(AC\\bot CF\\)，\n∴\\(\\angle ACF=90{}^\\circ\\)，\n∴\\(\\angle DCF=\\angle ACF-\\angle ACD=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle DCF=\\angle ACD=\\angle DAC\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle CDF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=CF\\)，\n∵\\(\\angle BAC=\\angle DCF=45{}^\\circ\\)，\\(ME\\bot AB\\)，\\(PF\\bot CD\\)，\n∴\\(\\angle EMG=\\angle FPH=90{}^\\circ\\)，\\(ME=\\frac { \\sqrt[] { 2 } } { 2 }AE\\)，\\(PF=\\frac { \\sqrt[] { 2 } } { 2 }CF\\)，\n∵\\(AE=CF\\)，\n∴\\(ME=PF\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle MGE=\\angle EHC=\\angle PHF\\)，\n∴\\(\\vartriangle MEG≌\\vartriangle PFH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．\n∴\\(EG=FH\\)．\n（3）∵在正方形\\(ABCD\\)中，\\(AB=BC=CD=AD=3\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +3 ^ { 2 } }=3\\sqrt[] { 2 }\\)\n∵点E是\\(AC\\)的三等分点，\n∴\\(AE=2\\sqrt[] { 2 }\\)或\\(AE=\\sqrt[] { 2 }\\)．\n①当\\(AE=2\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=2\\sqrt[] { 2 }\\)，\n∵\\(CE=AC-AE=3\\sqrt[] { 2 }-2\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，\n∵\\(GE=FH\\)，\n∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { 2\\sqrt[] { 2 } } { \\sqrt[] { 2 } }=2\\)，\n∴\\(GE=2HE\\)，\n∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，\n∴\\(GE=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { \\sqrt[] { 10 } } { 3 }\\)\n∴\\(GF=GE+EF=\\frac { 2\\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 5\\sqrt[] { 10 } } { 3 }\\)；\n②当\\(AE=\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=\\sqrt[] { 2 }\\)，\n∵\\(CE=AC-AE=3\\sqrt[] { 2 }-\\sqrt[] { 2 }=2\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，\n∵\\(GE=FH\\)，\n∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { \\sqrt[] { 2 } } { 2\\sqrt[] { 2 } }=\\frac { 1 } { 2 }\\)，\n∴\\(GE=\\frac { 1 } { 2 }HE\\)，\n∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，\n∴\\(GE=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)\n∴\\(GF=GE+EF=\\frac { \\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 4\\sqrt[] { 10 } } { 3 }\\)；\n综上所述，\\(GF\\)的长为\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)．",
+  "solution_steps": [
+    "（1）∵在正方形\\(ABCD\\)中，\\(AD=CD\\)，又点E是\\(AC\\)的中点，",
+    "∴\\(DE\\bot AC\\)，",
+    "∵\\(DF\\bot DE\\)，\\(FC\\bot AC\\)，",
+    "∴四边形\\(DECF\\)是矩形，",
+    "∵在正方形\\(ABCD\\)中，\\(\\angle ADC=90{}^\\circ\\)，又点E是\\(AC\\)的中点，",
+    "∴\\(DE=\\frac { 1 } { 2 }AC\\)，\\(AE=CE=\\frac { 1 } { 2 }AC\\)，",
+    "∴\\(DE=CE\\)，",
+    "∴矩形\\(DECF\\)是正方形，",
+    "∴\\(HF=EH\\)，",
+    "∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle BAC=\\angle DCA\\)，",
+    "∵\\(\\angle AEG=\\angle CEH\\)，\\(AE=CE\\)，",
+    "∴\\(\\vartriangle AEG≌\\vartriangle CEH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+    "∴\\(EG=EH\\)，",
+    "∴\\(EG=FH\\)．",
+    "故答案为：\\(EG=FH\\)",
+    "（2）正确．",
+    "理由如下：过点E作\\(EM\\bot AB\\)于点M，过点F作\\(FP\\bot CD\\)于点P，如图所示．",
+    "〔图2〕",
+    "∵四边形ABCD是正方形，",
+    "∴\\(AB\\parallel CD\\)，\\(AD=CD\\)，\\(\\angle ADC=90{}^\\circ\\)，\\(\\angle DAC=\\angle ACD=\\angle BAC=45{}^\\circ\\)．",
+    "∴\\(\\angle ADE+\\angle EDC=90{}^\\circ\\)．",
+    "∵\\(DE\\bot DF\\)，",
+    "∴\\(\\angle EDC+\\angle CDF=90{}^\\circ\\)，",
+    "∴\\(\\angle ADE=\\angle CDF\\)，",
+    "∵\\(AC\\bot CF\\)，",
+    "∴\\(\\angle ACF=90{}^\\circ\\)，",
+    "∴\\(\\angle DCF=\\angle ACF-\\angle ACD=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+    "∴\\(\\angle DCF=\\angle ACD=\\angle DAC\\)，",
+    "∴\\(\\vartriangle ADE≌\\vartriangle CDF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+    "∴\\(AE=CF\\)，",
+    "∵\\(\\angle BAC=\\angle DCF=45{}^\\circ\\)，\\(ME\\bot AB\\)，\\(PF\\bot CD\\)，",
+    "∴\\(\\angle EMG=\\angle FPH=90{}^\\circ\\)，\\(ME=\\frac { \\sqrt[] { 2 } } { 2 }AE\\)，\\(PF=\\frac { \\sqrt[] { 2 } } { 2 }CF\\)，",
+    "∵\\(AE=CF\\)，",
+    "∴\\(ME=PF\\)，",
+    "∵\\(AB\\parallel CD\\)，",
+    "∴\\(\\angle MGE=\\angle EHC=\\angle PHF\\)，",
+    "∴\\(\\vartriangle MEG≌\\vartriangle PFH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．",
+    "∴\\(EG=FH\\)．",
+    "（3）∵在正方形\\(ABCD\\)中，\\(AB=BC=CD=AD=3\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+    "∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +3 ^ { 2 } }=3\\sqrt[] { 2 }\\)",
+    "∵点E是\\(AC\\)的三等分点，",
+    "∴\\(AE=2\\sqrt[] { 2 }\\)或\\(AE=\\sqrt[] { 2 }\\)．",
+    "①当\\(AE=2\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=2\\sqrt[] { 2 }\\)，",
+    "∵\\(CE=AC-AE=3\\sqrt[] { 2 }-2\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，",
+    "∵\\(GE=FH\\)，",
+    "∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，",
+    "∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，",
+    "∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { 2\\sqrt[] { 2 } } { \\sqrt[] { 2 } }=2\\)，",
+    "∴\\(GE=2HE\\)，",
+    "∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，",
+    "∴\\(GE=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { \\sqrt[] { 10 } } { 3 }\\)",
+    "∴\\(GF=GE+EF=\\frac { 2\\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 5\\sqrt[] { 10 } } { 3 }\\)；",
+    "②当\\(AE=\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=\\sqrt[] { 2 }\\)，",
+    "∵\\(CE=AC-AE=3\\sqrt[] { 2 }-\\sqrt[] { 2 }=2\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)",
+    "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，",
+    "∵\\(GE=FH\\)，",
+    "∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，",
+    "∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，",
+    "∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { \\sqrt[] { 2 } } { 2\\sqrt[] { 2 } }=\\frac { 1 } { 2 }\\)，",
+    "∴\\(GE=\\frac { 1 } { 2 }HE\\)，",
+    "∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，",
+    "∴\\(GE=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)",
+    "∴\\(GF=GE+EF=\\frac { \\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 4\\sqrt[] { 10 } } { 3 }\\)；",
+    "综上所述，\\(GF\\)的长为\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)．"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "综合与实践\n【问题提出】数学课上，老师给出了这样一道题：如图，在正方形\\(ABCD\\)中，E是对角线\\(AC\\)上一动点，过点D作\\(DE\\)的垂线，过点C作\\(AC\\)的垂线，两垂线相交于点F，作射线\\(FE\\)，分别交边\\(AB\\)，\\(CD\\)于点G，H．试探究线段\\(EG\\)与\\(FH\\)的数量关系．\n小明在解决这道题时，借助“从特殊到一般”的方法进行了探究，过程如下．\n【观察猜想】\n小明先对点E在特殊位置时的图形进行了探究．",
+      "paper_blocks": [
+        57,
+        58,
+        59,
+        60,
+        61
+      ]
+    },
+    {
+      "id": "fig-67",
+      "kind": "figure",
+      "text": "〔图1〕",
+      "paper_blocks": [
+        67
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T2-AA1917047A-Q22-P01",
+      "label": "（1）",
+      "prompt": "如图1，若E是对角线\\(AC\\)的中点，则线段\\(EG\\)与\\(FH\\)的数量关系为______．\n【推理验证】",
+      "stem_text": "如图1，若E是对角线\\(AC\\)的中点，则线段\\(EG\\)与\\(FH\\)的数量关系为______．\n【推理验证】",
+      "material_ids": [
+        "context",
+        "fig-67"
+      ],
+      "requires": [],
+      "given_answer": "\\(EG=FH\\)；",
+      "answer": "\\(EG=FH\\)；",
+      "given_solution": "∵在正方形\\(ABCD\\)中，\\(AD=CD\\)，又点E是\\(AC\\)的中点，\n∴\\(DE\\bot AC\\)，\n∵\\(DF\\bot DE\\)，\\(FC\\bot AC\\)，\n∴四边形\\(DECF\\)是矩形，\n∵在正方形\\(ABCD\\)中，\\(\\angle ADC=90{}^\\circ\\)，又点E是\\(AC\\)的中点，\n∴\\(DE=\\frac { 1 } { 2 }AC\\)，\\(AE=CE=\\frac { 1 } { 2 }AC\\)，\n∴\\(DE=CE\\)，\n∴矩形\\(DECF\\)是正方形，\n∴\\(HF=EH\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\angle BAC=\\angle DCA\\)，\n∵\\(\\angle AEG=\\angle CEH\\)，\\(AE=CE\\)，\n∴\\(\\vartriangle AEG≌\\vartriangle CEH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，\n∴\\(EG=EH\\)，\n∴\\(EG=FH\\)．\n故答案为：\\(EG=FH\\)",
+      "solution_steps": [
+        "∵在正方形\\(ABCD\\)中，\\(AD=CD\\)，又点E是\\(AC\\)的中点，",
+        "∴\\(DE\\bot AC\\)，",
+        "∵\\(DF\\bot DE\\)，\\(FC\\bot AC\\)，",
+        "∴四边形\\(DECF\\)是矩形，",
+        "∵在正方形\\(ABCD\\)中，\\(\\angle ADC=90{}^\\circ\\)，又点E是\\(AC\\)的中点，",
+        "∴\\(DE=\\frac { 1 } { 2 }AC\\)，\\(AE=CE=\\frac { 1 } { 2 }AC\\)，",
+        "∴\\(DE=CE\\)，",
+        "∴矩形\\(DECF\\)是正方形，",
+        "∴\\(HF=EH\\)，",
+        "∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，",
+        "∴\\(\\angle BAC=\\angle DCA\\)，",
+        "∵\\(\\angle AEG=\\angle CEH\\)，\\(AE=CE\\)，",
+        "∴\\(\\vartriangle AEG≌\\vartriangle CEH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)，",
+        "∴\\(EG=EH\\)，",
+        "∴\\(EG=FH\\)．",
+        "故答案为：\\(EG=FH\\)"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          67
+        ],
+        "solution_block_ids": [
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          20,
+          21
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-AA1917047A-Q22-P02",
+      "label": "（2）",
+      "prompt": "小明认为当点E是对角线AC上任意一点时，（1）中的结论仍然成立，请你就图2的情形判断他的说法是否正确，并说明理由．\n【拓展应用】",
+      "stem_text": "小明认为当点E是对角线AC上任意一点时，（1）中的结论仍然成立，请你就图2的情形判断他的说法是否正确，并说明理由．\n【拓展应用】",
+      "material_ids": [
+        "context",
+        "fig-67"
+      ],
+      "requires": [],
+      "given_answer": "正确．理由见解析；",
+      "answer": "正确．理由见解析；",
+      "given_solution": "正确．\n理由如下：过点E作\\(EM\\bot AB\\)于点M，过点F作\\(FP\\bot CD\\)于点P，如图所示．\n〔图2〕\n∵四边形ABCD是正方形，\n∴\\(AB\\parallel CD\\)，\\(AD=CD\\)，\\(\\angle ADC=90{}^\\circ\\)，\\(\\angle DAC=\\angle ACD=\\angle BAC=45{}^\\circ\\)．\n∴\\(\\angle ADE+\\angle EDC=90{}^\\circ\\)．\n∵\\(DE\\bot DF\\)，\n∴\\(\\angle EDC+\\angle CDF=90{}^\\circ\\)，\n∴\\(\\angle ADE=\\angle CDF\\)，\n∵\\(AC\\bot CF\\)，\n∴\\(\\angle ACF=90{}^\\circ\\)，\n∴\\(\\angle DCF=\\angle ACF-\\angle ACD=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，\n∴\\(\\angle DCF=\\angle ACD=\\angle DAC\\)，\n∴\\(\\vartriangle ADE≌\\vartriangle CDF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，\n∴\\(AE=CF\\)，\n∵\\(\\angle BAC=\\angle DCF=45{}^\\circ\\)，\\(ME\\bot AB\\)，\\(PF\\bot CD\\)，\n∴\\(\\angle EMG=\\angle FPH=90{}^\\circ\\)，\\(ME=\\frac { \\sqrt[] { 2 } } { 2 }AE\\)，\\(PF=\\frac { \\sqrt[] { 2 } } { 2 }CF\\)，\n∵\\(AE=CF\\)，\n∴\\(ME=PF\\)，\n∵\\(AB\\parallel CD\\)，\n∴\\(\\angle MGE=\\angle EHC=\\angle PHF\\)，\n∴\\(\\vartriangle MEG≌\\vartriangle PFH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．\n∴\\(EG=FH\\)．",
+      "solution_steps": [
+        "正确．",
+        "理由如下：过点E作\\(EM\\bot AB\\)于点M，过点F作\\(FP\\bot CD\\)于点P，如图所示．",
+        "〔图2〕",
+        "∵四边形ABCD是正方形，",
+        "∴\\(AB\\parallel CD\\)，\\(AD=CD\\)，\\(\\angle ADC=90{}^\\circ\\)，\\(\\angle DAC=\\angle ACD=\\angle BAC=45{}^\\circ\\)．",
+        "∴\\(\\angle ADE+\\angle EDC=90{}^\\circ\\)．",
+        "∵\\(DE\\bot DF\\)，",
+        "∴\\(\\angle EDC+\\angle CDF=90{}^\\circ\\)，",
+        "∴\\(\\angle ADE=\\angle CDF\\)，",
+        "∵\\(AC\\bot CF\\)，",
+        "∴\\(\\angle ACF=90{}^\\circ\\)，",
+        "∴\\(\\angle DCF=\\angle ACF-\\angle ACD=90{}^\\circ -45{}^\\circ =45{}^\\circ\\)，",
+        "∴\\(\\angle DCF=\\angle ACD=\\angle DAC\\)，",
+        "∴\\(\\vartriangle ADE≌\\vartriangle CDF\\left ( { { \\rm{ A } }{ \\rm{ S } }{ \\rm{ A } } } \\right )\\)，",
+        "∴\\(AE=CF\\)，",
+        "∵\\(\\angle BAC=\\angle DCF=45{}^\\circ\\)，\\(ME\\bot AB\\)，\\(PF\\bot CD\\)，",
+        "∴\\(\\angle EMG=\\angle FPH=90{}^\\circ\\)，\\(ME=\\frac { \\sqrt[] { 2 } } { 2 }AE\\)，\\(PF=\\frac { \\sqrt[] { 2 } } { 2 }CF\\)，",
+        "∵\\(AE=CF\\)，",
+        "∴\\(ME=PF\\)，",
+        "∵\\(AB\\parallel CD\\)，",
+        "∴\\(\\angle MGE=\\angle EHC=\\angle PHF\\)，",
+        "∴\\(\\vartriangle MEG≌\\vartriangle PFH\\left ( { { \\rm{ A } }{ \\rm{ A } }{ \\rm{ S } } } \\right )\\)．",
+        "∴\\(EG=FH\\)．"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          64,
+          65,
+          67
+        ],
+        "solution_block_ids": [
+          387,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          21,
+          22
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T2-AA1917047A-Q22-P03",
+      "label": "（3）",
+      "prompt": "已知正方形\\(ABCD\\)的边长为3，以点E为线段\\(AC\\)的三等分点时，请直接写出线段\\(GF\\)的长．",
+      "stem_text": "已知正方形\\(ABCD\\)的边长为3，以点E为线段\\(AC\\)的三等分点时，请直接写出线段\\(GF\\)的长．",
+      "material_ids": [
+        "context",
+        "fig-67"
+      ],
+      "requires": [],
+      "given_answer": "\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)．",
+      "answer": "\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)．",
+      "given_solution": "∵在正方形\\(ABCD\\)中，\\(AB=BC=CD=AD=3\\)，\\(\\angle ABC=90{}^\\circ\\)，\n∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +3 ^ { 2 } }=3\\sqrt[] { 2 }\\)\n∵点E是\\(AC\\)的三等分点，\n∴\\(AE=2\\sqrt[] { 2 }\\)或\\(AE=\\sqrt[] { 2 }\\)．\n①当\\(AE=2\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=2\\sqrt[] { 2 }\\)，\n∵\\(CE=AC-AE=3\\sqrt[] { 2 }-2\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，\n∵\\(GE=FH\\)，\n∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { 2\\sqrt[] { 2 } } { \\sqrt[] { 2 } }=2\\)，\n∴\\(GE=2HE\\)，\n∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，\n∴\\(GE=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { \\sqrt[] { 10 } } { 3 }\\)\n∴\\(GF=GE+EF=\\frac { 2\\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 5\\sqrt[] { 10 } } { 3 }\\)；\n②当\\(AE=\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=\\sqrt[] { 2 }\\)，\n∵\\(CE=AC-AE=3\\sqrt[] { 2 }-\\sqrt[] { 2 }=2\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)\n∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，\n∵\\(GE=FH\\)，\n∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，\n∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，\n∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { \\sqrt[] { 2 } } { 2\\sqrt[] { 2 } }=\\frac { 1 } { 2 }\\)，\n∴\\(GE=\\frac { 1 } { 2 }HE\\)，\n∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，\n∴\\(GE=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)\n∴\\(GF=GE+EF=\\frac { \\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 4\\sqrt[] { 10 } } { 3 }\\)；\n综上所述，\\(GF\\)的长为\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)．",
+      "solution_steps": [
+        "∵在正方形\\(ABCD\\)中，\\(AB=BC=CD=AD=3\\)，\\(\\angle ABC=90{}^\\circ\\)，",
+        "∴\\(AC=\\sqrt[] { AB ^ { 2 } +BC ^ { 2 } }=\\sqrt[] { 3 ^ { 2 } +3 ^ { 2 } }=3\\sqrt[] { 2 }\\)",
+        "∵点E是\\(AC\\)的三等分点，",
+        "∴\\(AE=2\\sqrt[] { 2 }\\)或\\(AE=\\sqrt[] { 2 }\\)．",
+        "①当\\(AE=2\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=2\\sqrt[] { 2 }\\)，",
+        "∵\\(CE=AC-AE=3\\sqrt[] { 2 }-2\\sqrt[] { 2 }=\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，",
+        "∵\\(GE=FH\\)，",
+        "∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，",
+        "∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，",
+        "∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { 2\\sqrt[] { 2 } } { \\sqrt[] { 2 } }=2\\)，",
+        "∴\\(GE=2HE\\)，",
+        "∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，",
+        "∴\\(GE=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { \\sqrt[] { 10 } } { 3 }\\)",
+        "∴\\(GF=GE+EF=\\frac { 2\\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 5\\sqrt[] { 10 } } { 3 }\\)；",
+        "②当\\(AE=\\sqrt[] { 2 }\\)时，由（2）可得\\(CF=AE=\\sqrt[] { 2 }\\)，",
+        "∵\\(CE=AC-AE=3\\sqrt[] { 2 }-\\sqrt[] { 2 }=2\\sqrt[] { 2 }\\)，\\(FC\\bot AC\\)",
+        "∴在\\({ \\rm{ R } }{ \\rm{ t } }\\vartriangle ECF\\)中，\\(EF=\\sqrt[] { EC ^ { 2 } +FC ^ { 2 } }=\\sqrt[] { \\left ( { \\sqrt[] { 2 } } \\right ) ^ { 2 } +\\left ( { 2\\sqrt[] { 2 } } \\right ) ^ { 2 } }=\\sqrt[] { 10 }\\)，",
+        "∵\\(GE=FH\\)，",
+        "∴\\(GE+EH=FH+EH\\)，即\\(GH=EF=\\sqrt[] { 10 }\\)，",
+        "∵在正方形\\(ABCD\\)中，\\(AB\\parallel CD\\)，",
+        "∴\\(\\frac { GE } { HE }=\\frac { AE } { CE }=\\frac { \\sqrt[] { 2 } } { 2\\sqrt[] { 2 } }=\\frac { 1 } { 2 }\\)，",
+        "∴\\(GE=\\frac { 1 } { 2 }HE\\)，",
+        "∵\\(GE+EH=GH=\\sqrt[] { 10 }\\)，",
+        "∴\\(GE=\\frac { \\sqrt[] { 10 } } { 3 }\\)，\\(EH=\\frac { 2\\sqrt[] { 10 } } { 3 }\\)",
+        "∴\\(GF=GE+EF=\\frac { \\sqrt[] { 10 } } { 3 }+\\sqrt[] { 10 }=\\frac { 4\\sqrt[] { 10 } } { 3 }\\)；",
+        "综上所述，\\(GF\\)的长为\\(\\frac { 5\\sqrt[] { 10 } } { 3 }\\)或\\(\\frac { 4\\sqrt[] { 10 } } { 3 }\\)．"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          57,
+          58,
+          59,
+          60,
+          61,
+          66,
+          67
+        ],
+        "solution_block_ids": [
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436
+        ],
+        "question_pages": [
+          6
+        ],
+        "solution_pages": [
+          22,
+          23
+        ]
+      },
+      "review_note": "",
+      "coverage": "完整匹配",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "tag_note": "",
+      "tag_reason": "本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      57,
+      67
+    ],
+    "solution_body_blocks": [
+      354,
+      437
+    ],
+    "question_pages": [
+      6
+    ],
+    "question_images": [
+      "assets/SZ-G9-T2-AA1917047A/paper-q22-p06.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 6,
+        "bbox_pt": [
+          11.82,
+          180.45,
+          583.64,
+          591.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      20,
+      21,
+      22,
+      23
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T2-AA1917047A/solution-q22-p20.webp",
+      "assets/SZ-G9-T2-AA1917047A/solution-q22-p21.webp",
+      "assets/SZ-G9-T2-AA1917047A/solution-q22-p22.webp",
+      "assets/SZ-G9-T2-AA1917047A/solution-q22-p23.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          207.73,
+          583.64,
+          766.36
+        ]
+      },
+      {
+        "page": 21,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          758.18
+        ]
+      },
+      {
+        "page": 22,
+        "bbox_pt": [
+          11.82,
+          50.0,
+          583.64,
+          764.09
+        ]
+      },
+      {
+        "page": 23,
+        "bbox_pt": [
+          11.82,
+          50.45,
+          583.64,
+          361.36
+        ]
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "coverage": "完整匹配",
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“构造全等关系证明线段或角关系”。 本问的要求和解答步骤对应“由勾股关系求直角三角形边长”。",
+  "tag_source": "小问标签汇总"
+}

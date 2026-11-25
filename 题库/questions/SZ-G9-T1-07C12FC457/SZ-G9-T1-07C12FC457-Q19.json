@@ -1,0 +1,304 @@
+{
+  "id": "SZ-G9-T1-07C12FC457-Q19",
+  "paper_id": "SZ-G9-T1-07C12FC457",
+  "number": 19,
+  "type": "解答题",
+  "points": null,
+  "title": "构造全等关系证明线段或角关系、由勾股关系求直角三角形边长",
+  "stem": "已知四边形\\(ABCD\\)是正方形，点\\(P\\)在线段\\(BC\\)上，点\\(G\\)在线段\\(AD\\)上（\\(P\\)、\\(G\\)不与正方形顶点重合，且在\\(CD\\)的同侧），\\(PD=PG\\)，\\(DF\\bot PG\\)于点\\(H\\)，交直线\\(AB\\)于点\\(F\\)，将线段\\(PG\\)绕点\\(P\\)逆时针旋转90°得到线段\\(PE\\)，连接\\(EF\\)．\n〔图1〕\n（1）求证：四边形\\(PEFD\\)是菱形；\n（2）若\\(AB=3\\)，\\(PC=1\\)．求四边形\\(PEFD\\)的面积．",
+  "choices": [],
+  "figures": [
+    "assets/SZ-G9-T1-07C12FC457/figures/20d1cf3c45ac5de3ba0e3918e520ec56050709b67e05d7a73ae2e0f213def6a7.png"
+  ],
+  "tables": [],
+  "given_answer": "（1）见解析    （2）8",
+  "answer": "（1）见解析    （2）8",
+  "given_solution": "【分析】对于（1），先根据正方形的性质得\\(AD=CD\\)，\\(\\angle ADC{ \\rm{ = } }90{}^\\circ\\)，再根据\\(DF\\bot PG\\)，可得\\(\\angle DGH+\\angle GDH{ \\rm{ = } }90{}^\\circ\\)，\\(\\angle CDP+\\angle GDP{ \\rm{ = } }90{}^\\circ\\)，然后根据\\(PD=PG\\)，得\\(\\angle DGP=\\angle GDP\\)，即可得出\\(\\angle ADF=\\angle CDP\\)，可根据“\\(ASA\\)”证明\\(\\vartriangle CDP\\)≌\\(\\vartriangle ADF\\)，根据全等三角形的性质得\\(DF=PD\\)，进而得出\\(DF=PD=PE\\)，再说明\\(DF\\parallel PE\\)，根据“一组邻边相等的平行四边形是菱形”得出结论；\n对于（2），先根据勾股定理求出\\(PD\\)，过点P作\\(PM\\bot AD\\)，交\\(AD\\)于点M，可知\\(DM=GM=PC=1\\)，进而求出\\(DG\\)，再证明\\(\\vartriangle DGH\\sim \\vartriangle PGM\\)，根据相似三角形的对应边成比例求出\\(GH\\)，即可求出\\(PH\\)，然后根据菱形的面积公式计算即可．\n【小问1详解】\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=CD\\)，\\(\\angle A=\\angle C=\\angle ADC{ \\rm{ = } }90{}^\\circ\\)，\n∴\\(\\angle CDP+\\angle GDP{ \\rm{ = } }90{}^\\circ\\)．\n∵\\(DF\\bot PG\\)，\n∴\\(\\angle DGP+\\angle GDH{ \\rm{ = } }90{}^\\circ\\)．\n∵ \\(PD=PG\\)，\n∴\\(\\angle DGP=\\angle GDP\\)，\n∴\\(\\angle ADF=\\angle CDP\\)．\n∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\\(AD=CD\\)，\n∴\\(\\vartriangle CDP\\)≌\\(\\vartriangle ADF\\)，\n∴\\(DF=PD\\)，\n∴\\(DF=PD=PE\\)．\n∵\\(\\angle GHF=\\angle EPG=90{}^\\circ\\)，\n∴\\(DF\\parallel PE\\)．\n∴四边形\\(DFEP\\)是平行四边形．\n∵\\(PD=PE\\)，\n∴平行四边形\\(DFEP\\)是菱形；\n【小问2详解】\n∵\\(AB=CD=3\\)，\\(CP=1\\)，\n根据勾股定理，得\\(PD=\\sqrt[] { CD ^ { 2 } +CP ^ { 2 } }=\\sqrt[] { 10 }\\)．\n过点P作\\(PM\\bot AD\\)，交\\(AD\\)于点M，\n∵\\(PD=PG\\)，\n∴\\(DM=GM=PC=1\\)，\n∴\\(DG=2\\)．\n∵\\(\\angle DGH=\\angle PGM\\)，\\(\\angle DHG=\\angle PMG=90{}^\\circ\\)，\n∴\\(\\vartriangle DGH\\sim \\vartriangle PGM\\)，\n∴\\(\\frac { GH } { GM }=\\frac { DG } { PG }\\)，\n即\\(\\frac { GH } { 1 }=\\frac { 2 } { \\sqrt[] { 10 } }\\)，\n解得\\(GH=\\frac { \\sqrt[] { 10 } } { 5 }\\)，\n∴\\(PH=\\frac { 4\\sqrt[] { 10 } } { 5 }\\)．\n∴\\(S_{ 菱形DFEP } { \\rm{ = } }DF\\cdot PH{ \\rm{ = } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } }\\times \\frac { { \\rm{ 4 } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 5 } } }{ \\rm{ = } }{ \\rm{ 8 } }\\)．\n〔图2〕\n【点睛】本题主要考查了正方形的性质，全等三角形的性质和判定，菱形的判定，勾股定理，相似三角形的性质和判定，求菱形的面积等，构造全等（相似）三角形是解题的关键．",
+  "given_solution_figures": [
+    "assets/SZ-G9-T1-07C12FC457/figures/75a9e7990bd70f18a63af0a6ca2e54d13395914e80f9c1de92a028c96afb623a.png",
+    "assets/SZ-G9-T1-07C12FC457/figures/b73f4fb585745f4ebc626cb1d4d8d658e2acd7f6a5f6bf81888ef33b29f8868d.png"
+  ],
+  "solution": "【小问1详解】\n∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=CD\\)，\\(\\angle A=\\angle C=\\angle ADC{ \\rm{ = } }90{}^\\circ\\)，\n∴\\(\\angle CDP+\\angle GDP{ \\rm{ = } }90{}^\\circ\\)．\n∵\\(DF\\bot PG\\)，\n∴\\(\\angle DGP+\\angle GDH{ \\rm{ = } }90{}^\\circ\\)．\n∵ \\(PD=PG\\)，\n∴\\(\\angle DGP=\\angle GDP\\)，\n∴\\(\\angle ADF=\\angle CDP\\)．\n∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\\(AD=CD\\)，\n∴\\(\\vartriangle CDP\\)≌\\(\\vartriangle ADF\\)，\n∴\\(DF=PD\\)，\n∴\\(DF=PD=PE\\)．\n∵\\(\\angle GHF=\\angle EPG=90{}^\\circ\\)，\n∴\\(DF\\parallel PE\\)．\n∴四边形\\(DFEP\\)是平行四边形．\n∵\\(PD=PE\\)，\n∴平行四边形\\(DFEP\\)是菱形；\n【小问2详解】\n∵\\(AB=CD=3\\)，\\(CP=1\\)，\n根据勾股定理，得\\(PD=\\sqrt[] { CD ^ { 2 } +CP ^ { 2 } }=\\sqrt[] { 10 }\\)．\n过点P作\\(PM\\bot AD\\)，交\\(AD\\)于点M，\n∵\\(PD=PG\\)，\n∴\\(DM=GM=PC=1\\)，\n∴\\(DG=2\\)．\n∵\\(\\angle DGH=\\angle PGM\\)，\\(\\angle DHG=\\angle PMG=90{}^\\circ\\)，\n∴\\(\\vartriangle DGH\\sim \\vartriangle PGM\\)，\n∴\\(\\frac { GH } { GM }=\\frac { DG } { PG }\\)，\n即\\(\\frac { GH } { 1 }=\\frac { 2 } { \\sqrt[] { 10 } }\\)，\n解得\\(GH=\\frac { \\sqrt[] { 10 } } { 5 }\\)，\n∴\\(PH=\\frac { 4\\sqrt[] { 10 } } { 5 }\\)．\n∴\\(S_{ 菱形DFEP } { \\rm{ = } }DF\\cdot PH{ \\rm{ = } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } }\\times \\frac { { \\rm{ 4 } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 5 } } }{ \\rm{ = } }{ \\rm{ 8 } }\\)．\n〔图2〕",
+  "solution_steps": [
+    "【小问1详解】",
+    "∵四边形\\(ABCD\\)是正方形，",
+    "∴\\(AD=CD\\)，\\(\\angle A=\\angle C=\\angle ADC{ \\rm{ = } }90{}^\\circ\\)，",
+    "∴\\(\\angle CDP+\\angle GDP{ \\rm{ = } }90{}^\\circ\\)．",
+    "∵\\(DF\\bot PG\\)，",
+    "∴\\(\\angle DGP+\\angle GDH{ \\rm{ = } }90{}^\\circ\\)．",
+    "∵ \\(PD=PG\\)，",
+    "∴\\(\\angle DGP=\\angle GDP\\)，",
+    "∴\\(\\angle ADF=\\angle CDP\\)．",
+    "∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\\(AD=CD\\)，",
+    "∴\\(\\vartriangle CDP\\)≌\\(\\vartriangle ADF\\)，",
+    "∴\\(DF=PD\\)，",
+    "∴\\(DF=PD=PE\\)．",
+    "∵\\(\\angle GHF=\\angle EPG=90{}^\\circ\\)，",
+    "∴\\(DF\\parallel PE\\)．",
+    "∴四边形\\(DFEP\\)是平行四边形．",
+    "∵\\(PD=PE\\)，",
+    "∴平行四边形\\(DFEP\\)是菱形；",
+    "【小问2详解】",
+    "∵\\(AB=CD=3\\)，\\(CP=1\\)，",
+    "根据勾股定理，得\\(PD=\\sqrt[] { CD ^ { 2 } +CP ^ { 2 } }=\\sqrt[] { 10 }\\)．",
+    "过点P作\\(PM\\bot AD\\)，交\\(AD\\)于点M，",
+    "∵\\(PD=PG\\)，",
+    "∴\\(DM=GM=PC=1\\)，",
+    "∴\\(DG=2\\)．",
+    "∵\\(\\angle DGH=\\angle PGM\\)，\\(\\angle DHG=\\angle PMG=90{}^\\circ\\)，",
+    "∴\\(\\vartriangle DGH\\sim \\vartriangle PGM\\)，",
+    "∴\\(\\frac { GH } { GM }=\\frac { DG } { PG }\\)，",
+    "即\\(\\frac { GH } { 1 }=\\frac { 2 } { \\sqrt[] { 10 } }\\)，",
+    "解得\\(GH=\\frac { \\sqrt[] { 10 } } { 5 }\\)，",
+    "∴\\(PH=\\frac { 4\\sqrt[] { 10 } } { 5 }\\)．",
+    "∴\\(S_{ 菱形DFEP } { \\rm{ = } }DF\\cdot PH{ \\rm{ = } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } }\\times \\frac { { \\rm{ 4 } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 5 } } }{ \\rm{ = } }{ \\rm{ 8 } }\\)．",
+    "〔图2〕"
+  ],
+  "solution_origin": "source_transcribed",
+  "solution_figure_ids": [
+    2
+  ],
+  "materials": [
+    {
+      "id": "context",
+      "kind": "text",
+      "text": "已知四边形\\(ABCD\\)是正方形，点\\(P\\)在线段\\(BC\\)上，点\\(G\\)在线段\\(AD\\)上（\\(P\\)、\\(G\\)不与正方形顶点重合，且在\\(CD\\)的同侧），\\(PD=PG\\)，\\(DF\\bot PG\\)于点\\(H\\)，交直线\\(AB\\)于点\\(F\\)，将线段\\(PG\\)绕点\\(P\\)逆时针旋转90°得到线段\\(PE\\)，连接\\(EF\\)．\n〔图1〕",
+      "paper_blocks": [
+        54,
+        55
+      ]
+    }
+  ],
+  "parts": [
+    {
+      "id": "SZ-G9-T1-07C12FC457-Q19-P01",
+      "label": "（1）",
+      "prompt": "求证：四边形\\(PEFD\\)是菱形；",
+      "stem_text": "求证：四边形\\(PEFD\\)是菱形；",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "见解析",
+      "answer": "见解析",
+      "given_solution": "∵四边形\\(ABCD\\)是正方形，\n∴\\(AD=CD\\)，\\(\\angle A=\\angle C=\\angle ADC{ \\rm{ = } }90{}^\\circ\\)，\n∴\\(\\angle CDP+\\angle GDP{ \\rm{ = } }90{}^\\circ\\)．\n∵\\(DF\\bot PG\\)，\n∴\\(\\angle DGP+\\angle GDH{ \\rm{ = } }90{}^\\circ\\)．\n∵ \\(PD=PG\\)，\n∴\\(\\angle DGP=\\angle GDP\\)，\n∴\\(\\angle ADF=\\angle CDP\\)．\n∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\\(AD=CD\\)，\n∴\\(\\vartriangle CDP\\)≌\\(\\vartriangle ADF\\)，\n∴\\(DF=PD\\)，\n∴\\(DF=PD=PE\\)．\n∵\\(\\angle GHF=\\angle EPG=90{}^\\circ\\)，\n∴\\(DF\\parallel PE\\)．\n∴四边形\\(DFEP\\)是平行四边形．\n∵\\(PD=PE\\)，\n∴平行四边形\\(DFEP\\)是菱形；",
+      "solution_steps": [
+        "∵四边形\\(ABCD\\)是正方形，",
+        "∴\\(AD=CD\\)，\\(\\angle A=\\angle C=\\angle ADC{ \\rm{ = } }90{}^\\circ\\)，",
+        "∴\\(\\angle CDP+\\angle GDP{ \\rm{ = } }90{}^\\circ\\)．",
+        "∵\\(DF\\bot PG\\)，",
+        "∴\\(\\angle DGP+\\angle GDH{ \\rm{ = } }90{}^\\circ\\)．",
+        "∵ \\(PD=PG\\)，",
+        "∴\\(\\angle DGP=\\angle GDP\\)，",
+        "∴\\(\\angle ADF=\\angle CDP\\)．",
+        "∵\\(\\angle A=\\angle C=90{}^\\circ\\)，\\(AD=CD\\)，",
+        "∴\\(\\vartriangle CDP\\)≌\\(\\vartriangle ADF\\)，",
+        "∴\\(DF=PD\\)，",
+        "∴\\(DF=PD=PE\\)．",
+        "∵\\(\\angle GHF=\\angle EPG=90{}^\\circ\\)，",
+        "∴\\(DF\\parallel PE\\)．",
+        "∴四边形\\(DFEP\\)是平行四边形．",
+        "∵\\(PD=PE\\)，",
+        "∴平行四边形\\(DFEP\\)是菱形；"
+      ],
+      "solution_figure_ids": [],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          56
+        ],
+        "solution_block_ids": [
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          18,
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G03.02"
+      ],
+      "exam_ids": [
+        "E.G03.02.02"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。",
+      "tag_source": "题文匹配"
+    },
+    {
+      "id": "SZ-G9-T1-07C12FC457-Q19-P02",
+      "label": "（2）",
+      "prompt": "若\\(AB=3\\)，\\(PC=1\\)．求四边形\\(PEFD\\)的面积．",
+      "stem_text": "若\\(AB=3\\)，\\(PC=1\\)．求四边形\\(PEFD\\)的面积．",
+      "material_ids": [
+        "context"
+      ],
+      "requires": [],
+      "given_answer": "8",
+      "answer": "8",
+      "given_solution": "∵\\(AB=CD=3\\)，\\(CP=1\\)，\n根据勾股定理，得\\(PD=\\sqrt[] { CD ^ { 2 } +CP ^ { 2 } }=\\sqrt[] { 10 }\\)．\n过点P作\\(PM\\bot AD\\)，交\\(AD\\)于点M，\n∵\\(PD=PG\\)，\n∴\\(DM=GM=PC=1\\)，\n∴\\(DG=2\\)．\n∵\\(\\angle DGH=\\angle PGM\\)，\\(\\angle DHG=\\angle PMG=90{}^\\circ\\)，\n∴\\(\\vartriangle DGH\\sim \\vartriangle PGM\\)，\n∴\\(\\frac { GH } { GM }=\\frac { DG } { PG }\\)，\n即\\(\\frac { GH } { 1 }=\\frac { 2 } { \\sqrt[] { 10 } }\\)，\n解得\\(GH=\\frac { \\sqrt[] { 10 } } { 5 }\\)，\n∴\\(PH=\\frac { 4\\sqrt[] { 10 } } { 5 }\\)．\n∴\\(S_{ 菱形DFEP } { \\rm{ = } }DF\\cdot PH{ \\rm{ = } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } }\\times \\frac { { \\rm{ 4 } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 5 } } }{ \\rm{ = } }{ \\rm{ 8 } }\\)．\n〔图2〕",
+      "solution_steps": [
+        "∵\\(AB=CD=3\\)，\\(CP=1\\)，",
+        "根据勾股定理，得\\(PD=\\sqrt[] { CD ^ { 2 } +CP ^ { 2 } }=\\sqrt[] { 10 }\\)．",
+        "过点P作\\(PM\\bot AD\\)，交\\(AD\\)于点M，",
+        "∵\\(PD=PG\\)，",
+        "∴\\(DM=GM=PC=1\\)，",
+        "∴\\(DG=2\\)．",
+        "∵\\(\\angle DGH=\\angle PGM\\)，\\(\\angle DHG=\\angle PMG=90{}^\\circ\\)，",
+        "∴\\(\\vartriangle DGH\\sim \\vartriangle PGM\\)，",
+        "∴\\(\\frac { GH } { GM }=\\frac { DG } { PG }\\)，",
+        "即\\(\\frac { GH } { 1 }=\\frac { 2 } { \\sqrt[] { 10 } }\\)，",
+        "解得\\(GH=\\frac { \\sqrt[] { 10 } } { 5 }\\)，",
+        "∴\\(PH=\\frac { 4\\sqrt[] { 10 } } { 5 }\\)．",
+        "∴\\(S_{ 菱形DFEP } { \\rm{ = } }DF\\cdot PH{ \\rm{ = } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } }\\times \\frac { { \\rm{ 4 } }\\sqrt[] { { \\rm{ 1 } }{ \\rm{ 0 } } } } { { \\rm{ 5 } } }{ \\rm{ = } }{ \\rm{ 8 } }\\)．",
+        "〔图2〕"
+      ],
+      "solution_figure_ids": [
+        2
+      ],
+      "source": {
+        "paper_block_ids": [
+          54,
+          55,
+          57
+        ],
+        "solution_block_ids": [
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379
+        ],
+        "question_pages": [
+          5
+        ],
+        "solution_pages": [
+          19
+        ]
+      },
+      "review_note": "",
+      "knowledge_ids": [
+        "M.G04.04"
+      ],
+      "exam_ids": [
+        "E.G04.04.01"
+      ],
+      "coverage": "完整匹配",
+      "tag_note": "",
+      "tag_reason": "本问题面与解答对应“由勾股关系求直角三角形边长”。",
+      "tag_source": "题文匹配"
+    }
+  ],
+  "review_note": "",
+  "source": {
+    "paper_body_blocks": [
+      54,
+      57
+    ],
+    "solution_body_blocks": [
+      339,
+      380
+    ],
+    "question_pages": [
+      5
+    ],
+    "question_images": [
+      "assets/SZ-G9-T1-07C12FC457/paper-q19-p05.webp"
+    ],
+    "question_regions": [
+      {
+        "page": 5,
+        "bbox_pt": [
+          11.82,
+          430.91,
+          583.64,
+          661.82
+        ]
+      }
+    ],
+    "solution_pages": [
+      18,
+      19,
+      20
+    ],
+    "solution_images": [
+      "assets/SZ-G9-T1-07C12FC457/solution-q19-p18.webp",
+      "assets/SZ-G9-T1-07C12FC457/solution-q19-p19.webp",
+      "assets/SZ-G9-T1-07C12FC457/solution-q19-p20.webp"
+    ],
+    "solution_regions": [
+      {
+        "page": 18,
+        "bbox_pt": [
+          11.82,
+          350.91,
+          583.64,
+          760.0
+        ]
+      },
+      {
+        "page": 19,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          761.82
+        ]
+      },
+      {
+        "page": 20,
+        "bbox_pt": [
+          11.82,
+          71.82,
+          583.64,
+          126.82
+        ]
+      }
+    ]
+  },
+  "knowledge_ids": [
+    "M.G03.02",
+    "M.G04.04"
+  ],
+  "exam_ids": [
+    "E.G03.02.02",
+    "E.G04.04.01"
+  ],
+  "coverage": "完整匹配",
+  "tag_note": "",
+  "tag_reason": "本问题面与解答对应“构造全等关系证明线段或角关系”。 本问题面与解答对应“由勾股关系求直角三角形边长”。",
+  "schema_version": "1.0",
+  "taxonomy_version": "0.2",
+  "tag_source": "小问标签汇总"
+}
