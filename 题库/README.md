@@ -138,6 +138,12 @@ python scripts/build.py check
 
 `check` 会核对原资料与打印版的文件指纹、题目引用、标签、页码，以及已生成分片与当前数据是否一致。两份首发试卷的回归测试可用 `python -m unittest discover -s scripts/tests` 运行。
 
+## 服务端整卷匹配索引
+
+`服务端索引/question-bank.sqlite3.gz` 是从本库试卷、题目和小问生成的只读 SQLite 索引，供服务端根据卷面转录查找题库答案和参考解法。相邻的 `manifest.json` 给出卷、题和小问数，以及压缩包的 SHA-256。静态浏览页仍使用 `generated/` 下的分片。
+
+批量入库或修改题干、答案后，从小程序项目根目录运行 `python scripts/build_question_bank.py --bank "../试卷/题库" --publish`。将更新的解析数据、浏览索引和服务端索引提交到同一 Git 版本。部署端拉取该版本，按清单核验压缩包后解压并切换索引。
+
 ## 导出离线练习
 
 在本目录运行。导出的 HTML 可作为单独一个文件带走。单卷导出可按原题序阅读；按考点导出只带命中的题目或小问，也可用固定 ID 明确挑题。
